@@ -1,0 +1,905 @@
+@font-face {
+  font-family: AvaShenouda;
+  src: url(./fonts/Avva_Shenouda.ttf);
+}
+@font-face {
+  font-family: ArialCoptic;
+  src: url(./fonts/ArialCoptic.ttf);
+}
+@font-face {
+  font-family: CormorantGaramond;
+  src: url(./fonts/CormorantGaramond-Regular.ttf);
+}
+@font-face {
+  font-family: BookAntiquaRegular;
+  src: url(./fonts/BookAntiquaRegular.ttf);
+}
+
+@font-face {
+  font-family: GentiumBookPlus;
+  src: url(./fonts/GentiumBookPlus-Regular.ttf);
+}
+@font-face {
+  font-family: GentiumBookPlus;
+  src: url(./fonts/GentiumBookPlus-Italic.ttf);
+}
+@font-face {
+  font-family: GentiumBookPlus;
+  src: url(./fonts/GentiumBookPlus-Bold.ttf);
+}
+@font-face {
+  font-family: GentiumBookPlus;
+  src: url(./fonts/GentiumBookPlus-BoldItalic.ttf);
+}
+@font-face {
+  font-family: Amiri;
+  src: url(./fonts/Amiri-Regular.ttf);
+}
+
+@font-face {
+  font-family: DCO;
+  src: url(./fonts/DCO-Regular.ttf);
+}
+
+
+:root{
+  --inline-column-width: 30%;
+  --text-column-width: 30%;
+}
+.Content{
+  display:grid;
+  grid-template-columns: 99.9vw;
+  --fSize: 0.5;
+  background-image: linear-gradient(to right, rgb(62, 14, 1), rgb(46, 1, 1));
+  min-height: 100cqh;
+}
+.Container {
+  display: grid;
+  margin-top: 30px;
+  width:99.5cqw;
+  align-self: center;
+  justify-self: center;
+}
+
+.inlineBtnsContainer{
+  display:grid;
+  position: fixed;
+  top:0px;
+  bottom:0px;
+  padding-top:3px;
+  width: 100vw;
+  max-width: 100vw;
+  height:100%;
+  background-color: ivory;
+  justify-items: center;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  z-index: 3;
+}
+
+
+body{
+  display: grid;
+  grid-template-columns: 100%;
+  background-image: url(./assets/PageBackgroundCross.jpg);
+  background-size:7%;
+  background-repeat: repeat;
+  overflow-x: hidden;
+  margin: 1px;
+  justify-items: center ;
+  align-items: center;
+}
+
+
+
+#sideBarBtns{
+  display: grid;
+  grid-template-columns: 98%;
+  width: fit-content;
+  margin-top:3px;
+  justify-content: center;
+  margin-bottom: 10cqi;
+}
+
+.sideBarBtn{
+  color:white;
+  background-color: #95190c;
+  border-radius: 9px;
+  border-color: #c93702;
+  font-weight: bold !important;
+  text-align: center;
+  width:38cqi;
+  max-width: 400px;
+  height: 13cqi;
+  max-height: 80px;
+  margin-top: 2px !important;
+margin-bottom: 2px !important;
+}
+
+
+
+
+.homeImg{
+align-self: center;
+justify-self: center;
+margin-top: 5px;
+width: 40%;
+border-radius: 50%;
+box-shadow: 0px 0px 5px 5px rgb(181, 179, 179), 0px 0px 6px 6px rgba(3, 36, 87, 0.745);
+}
+
+
+#textDisplayArea{
+  max-width: 100%;
+  justify-items: stretch;
+}
+
+
+.addLang, .langBtnAdd, .colorbtn {
+  display: grid;
+  background-color: rgba(161, 9, 29, 0.705);
+  border-radius: 10px;
+  font-family: DCO; 
+  font-size: calc(var(--fSize)*3cqi);
+  width:fit-content;
+  min-width: 60px;
+  min-height: 50px;
+  max-height: 50px;
+  padding: 3px !important;
+  word-wrap:break-word;
+  text-align: center;
+  justify-items: center;
+  align-items: center;
+  justify-self: center;
+}
+
+.hiddenElement {
+  display:none !important;
+}
+.NoActor{
+  background-image: linear-gradient(to bottom, rgb(192, 182, 140), rgb(235, 223, 175) );
+  /*background: cornsilk;*/
+}
+.Row {
+  display: grid;
+  align-items: start;
+  height:fit-content; /*The height must fit the content of the paragraphs*/
+  text-align: justify;
+  border-radius: 5px;
+  justify-self: stretch !important;
+  max-width: 99.7vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  padding-top: 2px; /*Tis is what sets the space beween the paragraphs*/
+  padding-bottom: 2px; /*Tis is what sets the space beween the paragraphs*/
+}
+
+p{
+ /* z-index: 10;/*We need this in order to activiate the keydown event attached to the paragraphs*/
+  padding-right:7px;
+  padding-left:7px;
+  font-stretch: ultra-condensed ;
+  align-self: stretch; /*This is what makes the paragraph extend vertically over the height of the row*/
+}
+
+.AR,
+.CA
+{
+  direction: rtl !important;
+  font-family: Amiri;
+  font-weight: 100;
+  font-size: calc(var(--fSize)* 3.3cqw);
+  line-height: calc(var(--fSize) *6cqw);
+}
+
+.AR{
+  grid-area: AR;
+}
+
+.CA
+{
+  grid-area: CA;
+}
+
+.FR,
+.EN
+{
+ grid-area: FR;
+ font-family: DCO;
+ font-size: calc(var(--fSize)*3cqw);
+ line-height: calc(var(--fSize) *4.7cqw);
+ font-weight: normal;
+}
+
+.COP
+{
+  grid-area: COP;
+  font-family: ArialCoptic;
+  font-size: calc(var(--fSize) * 2.6cqw);
+  line-height: calc(var(--fSize) *4.6cqw);
+  font-stretch: condensed;
+}
+.EN{
+  grid-area:EN;
+  font-family:'Times New Roman', Times, serif;
+}
+
+.Title, 
+.SubTitle {
+  background-image: linear-gradient(to bottom, #5b4e47 0%, #917665 100%);
+ /* background-color: #786b63 !important;*/
+  color: white;
+  text-shadow: 0.8px 0.5px;
+  border-top: #9e9894 solid 7px ;
+  border-bottom: #9e9894 solid 2px ;
+  box-shadow: 2px 3px 4px grey;
+  font-weight: bold;
+  font-size: medium !important;
+  text-align: center !important;
+}
+
+.inlineBtns{
+  display:grid;
+  justify-items: center;
+  align-self: stretch;
+  justify-self: center;
+  align-content: center;
+  align-items: center;
+  margin: 5px 5px;
+  overflow: hidden;
+  width:97%
+}
+
+.inlineBtn {
+  background-image: linear-gradient(to bottom right, #701308 0%, #ce2e1c 100%);
+/*background-color: #95190c;*/
+height: 60px;
+min-width: 150px;
+justify-self: center;
+border-color: #d44d2b;
+border-radius: 9px;
+color:white;
+}
+.btnText{
+  font-size: 2cqw !important;
+  text-align: center!important;
+  border: none !important;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  line-height: 3cqi;
+}
+
+.mainPageBtns{
+  background-position: center;
+  background-size:cover;
+  background-clip: border-box;
+  border-radius: 15px;
+  box-shadow: 2px 2px 4px rgb(96, 27, 2);
+  border: none !important;
+  margin: 5px 2px;
+  height: 16vh;
+  width: 31cqw;
+  justify-self: center;
+}
+.mainPageBtns>p{
+  text-align: center !important;
+  color:rgb(255, 255, 255) !important;
+  font-size: 12pt !important;
+  font-weight: bold !important;
+  line-height: 12pt;
+}
+.credentialsDiv{
+  font-style: italic;
+  font-size: 8pt;
+  color:white
+}
+
+.sign {
+  font-size: 13px;
+  color: white;
+  float: inline-start;
+
+}
+.Slide{
+  display: grid;
+  row-gap: 0.5vh !important;
+  width: 100vw !important;
+  height:100vh !important;
+  position:fixed; 
+  top:0px; 
+  align-items: top !important;
+  align-content: top !important;
+  justify-content: stretch;
+  justify-items: stretch;
+  background-color: black !important;
+  row-gap: 5px !important;
+  overflow: hidden;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+.Slide>.inlineBtns{
+  background-color: black;
+  max-height: 10vh;
+  min-height: 7vh;
+  padding: 1vh;
+}
+.Slide>.inlineBtns>.inlineBtn{
+  max-height: 10vh;
+}
+.Slide>.inlineBtns>.inlineBtn>.btnText{
+  font-size: 12pt !important;
+  line-height: 12pt !important;
+
+}
+.SlideRow{
+display: grid;
+background-color: black !important;
+border-radius: 10px;
+align-content: top;
+border-width: 5px !important;
+border-radius: 5px;
+height: fit-content;
+padding-top: 0vh !important;
+padding-bottom: 0vh !important;
+margin-top: 0vh !important;
+margin-bottom: 0vh !important;
+line-height: 2.8cqi !important;
+}
+
+.SlideRow>.FR,
+.SlideRow>.COP
+{
+  border-right-color: white !important;
+  border-right-style: solid !important;
+  border-right-width: 3px !important;
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+  padding-right: 10px !important;
+}
+
+
+.SlideRow>.FR,
+.SlideRow>.AR, 
+.SlideRow>.COP{
+  background-color: black;
+  color:white;
+  font-size: calc(var(--fSize)*1cqi) !important;
+  /*font-size: calc(1.3*4vh) !important;*/
+  line-height: calc(var(--fSize)*300fr) !important;
+  /*line-height: calc(1.3*4vh) !important;*/
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
+  padding-top: 0vh !important;
+  padding-bottom: 0vh !important;
+  margin-top: 0vh !important;
+  margin-bottom: 0vh !important;
+  text-align: justify !important;
+
+}
+.SlideRow.Title,
+.SlideRow.SubTitle
+{
+  font-size: calc(var(--fSize)*20cqi) !important;
+  line-height: 3.3cqi !important;
+  background-color: rgb(38, 0, 255) !important;
+  border-style: none;
+  justify-content: center !important;
+  border-bottom: solid;
+  border-bottom-color: rgb(0, 55, 255);
+  border-bottom-style: double;
+  border-top: solid;
+  border-top-color: rgb(4, 0, 255);
+  border-top-style: double;
+  height:  fit-content !important;
+  margin-bottom: 0.1vh !important;
+  margin-top: 0.1vh !important;
+  padding-top: 0vh !important;
+  padding-bottom: 0vh !important;
+  margin-left: 1vw !important;
+  margin-right: 1vw !important;
+}
+br{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.Comments.SlideRow,
+.CommentText.SlideRow
+{
+  display: none !important;
+}
+
+.actorSpan{
+  /*This is the actor text formatting in the Presentation Display Mode*/
+  display: block;
+  text-decoration: underline;
+  text-underline-offset: calc(var(--fSize)*1.3vh);
+  line-height: calc(var(--fSize) *4vh);
+  font-weight: bolder;
+  margin-top: 0.3vh !important;
+  text-justify: center !important;
+}
+
+.textSpan{
+  display: block;
+  margin-top: 3.5vh !important;
+  margin-bottom: 0.5vh !important;
+}
+
+
+.Priest,
+#PriestColor {
+  /* background-color: #99aecc; */
+  background-image: linear-gradient(to bottom, rgb(1,30,50) 0%, rgb(3, 45, 72)  100%);
+  border-left-color: rgb(1, 55, 89);
+  border-right-color: rgb(1, 55, 89);
+  border-left-width: 7px;
+  border-right-width: 7px;
+  border-left-style: solid;
+  border-right-style: solid;
+  color:white;
+}
+.Diacon,
+#DiaconColor {
+  /* background-color: #9eac89; */
+  background-image: linear-gradient( to bottom,  rgb(1, 39, 30) 11.2%, rgb(25, 85, 99) 91.1% );
+  border-left-color: #192e01;
+  border-right-color: #192e01;
+  border-left-width: 7px;
+  border-right-width: 7px;
+  border-left-style: solid;
+  border-right-style: solid;
+  color:white;
+}
+.Assembly,
+#AssemblyColor {
+  /* background-color: #f9faf2; */
+  background-image: linear-gradient( to bottom,  rgba(107,67,7,0.96) 11.2%, rgb(153, 93, 2) 100% );
+  border-left-color: rgba(96, 58, 1, 0.96);
+  border-right-color: rgba(96, 58, 1, 0.96);
+  border-left-width: 7px;
+  border-right-width: 7px;
+  border-left-style: solid;
+  border-right-style: solid;
+  color:white;
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  align-items: stretch;
+  padding: 3pt;
+  font-family: DCO;
+}
+.colorbtn {
+  border-radius: 10px;
+  padding: 3pt;
+  font-size: 9pt !important;
+  max-width: 100px;
+  max-height: 90px;
+  justify-self: center;
+}
+.colorbtn >p{
+  margin:1px 1px;
+}
+.showDate {
+  color: #5270a3;
+  font-weight: bold;
+  padding: 7px;
+
+}
+
+/* The sidebar menu */
+.sideBar {
+  min-height: 100%; /* 100% Full-height */
+  width: fit-content;
+  position: fixed; /* Stay in place */
+  z-index: 10 !important; /* Stay on top */
+  top: 0;
+  bottom: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  overflow-y:auto;
+  padding-top: 60px; /* Place content 60px from the top */
+  padding-left:10px;
+  padding-right:10px;
+  transition: 0.2s; /* 0.5 second transition effect to slide in the sidebar */
+  justify-content: center;
+}
+/*the right sidebar*/
+.rightSideBar { 
+  right: 0px !important;
+  direction: auto !important;
+}
+/*the left sidebar*/
+.leftSideBar {
+  left: 0px !important;
+}
+/*the text of the titles shown in the right sidebar*/
+.sideTitle > a{
+  font-style: italic !important;
+  color:white;
+  font-size: 11pt !important;
+  padding: 8px 8px 3px 3px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #c6c5c5;
+  display: block;
+  transition: 0.3s;
+}
+
+.sideTitle {
+  border: solid;
+  border-color: rgb(124, 108, 108);
+  border-radius: 10px;
+  margin-top: 3px;
+  width: 98%;
+  align-self: stretch;
+}
+
+
+/* When you mouse over the navigation links, change their color */
+.sideBar a:hover, .sideTitle a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.closebtn {
+  background-color: rgb(109, 99, 99);
+  color: white;
+  position: absolute;
+  top: 3px;
+  right: 10px;
+  font-size:3.5cqi;
+  padding: 0px 0px;
+  font-weight: bolder;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 40px;
+  width: 3.4cqi;
+  height: 3.4cqi;
+  border-style: groove;
+  text-shadow: #01043f;
+  border-width: 3px;
+}
+
+/* The button used to open the sidebar */
+.openbtn {
+  display: none;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  margin-top: 2px;
+  margin: 3px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+
+.label {
+  display: inline;
+  font: 1rem;
+  font-family: DCO;
+}
+#datePicker {
+  display: inline;
+  width: 20vw;
+  height: 5vw;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  background-color: rgb(55, 211, 211);
+}
+
+.Comments, 
+.CommentText{
+  align-content: stretch;
+  background-image: linear-gradient(to bottom, rgb(143, 141, 141), rgb(219, 217, 217) ) ;
+  border-right-color: rgb(105, 104, 104);
+  border-left-color: rgb(105, 104, 104);
+  border-width: 0px 7px 0px 7px;
+  border-style: solid;
+  color: white;
+  font-style: italic !important;
+  padding-right: 2px 2px;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  margin-top:0px !important;
+  margin-bottom: 0px !important;
+}
+.CommentText {
+  color: #C45911 !important;
+}
+.settings{
+  width:fit-content;
+  height: fit-content;
+  text-align: center;
+  text-justify: center ;
+  background-color: rgb(81, 0, 128);
+  font-size: 12pt;
+  font-weight: bold;
+  color:white;
+  border-radius: 30px;
+  border-style: groove;
+  border-width: 3px;
+  margin:3px 3px;
+  padding: 10px 10px;
+
+}
+#btnFractionPrayersContainer{
+  margin-top: 30px !important;
+  width:95%;
+}
+.multipleChoicePrayersBtn{
+  background-color: rgb(3, 87, 87) !important;
+  width: 46cqw;
+  margin: 6px 6px;
+  height: 34cqh;
+  justify-items: center;
+  border-radius: 40%;
+  border-color: goldenrod;
+  border-width: 6px;
+  outline-color: #012723;
+  outline-style: solid;
+  outline-width: 2px;
+  padding: 2cqi;
+}
+.multipleChoicePrayersBtn >p{
+  color:white;
+  font-weight: 600;
+  font-size: 15pt;
+  line-height: 17pt;
+  margin:1px 1px;
+  border-right: none !important ;
+}
+.btnsContainer{
+  position: relative;
+  background-color: beige;
+  display: grid !important;
+  grid-template-columns: 50% 50% !important;
+  justify-content: center !important;
+  width: 100%;
+  border-radius: 10px;
+  align-self: center;
+}
+
+.dateDiv{
+  display:grid;
+  grid-template-columns: 32cqw 28cqw 32cqw;
+  margin-bottom: 5px;
+  width: 98%;
+  align-items: top;
+  justify-items: center;
+  justify-content: center;
+  align-self: stretch;
+  justify-self: center;
+}
+.dateBox{
+  display:block;
+  background-color: #00000030 !important;
+  color:rgb(255, 255, 255);
+  height: 13cqh;
+  font-size: 1.5cqi;
+  font-style: italic;
+  border-style: groove;
+  border-color: #422121;
+  border-radius: 5px;
+  border-width: 3px;
+  box-shadow: 2px 3px 7px rgb(84, 84, 84);
+  outline: #012723;
+  outline-width: 5px;
+  align-items: center !important;
+  justify-items: center !important;
+  align-self: top;
+  justify-self: stretch;
+  margin-top: 2px;
+  padding: 3px;
+  line-height: 4cqh;
+}
+
+
+.langBtnAdd{
+  background-color: red !important;
+}
+
+.settingsBtn, .updateBtn{
+  background-color: green;
+  border-color: white;
+  border-width: 4px;
+  outline-color: grey;
+  outline-width: 3px;
+  border-radius: 10px;
+  color:white;
+  padding: 3px;
+  width: fit-content;
+  font-size: 2.8cqmin;
+  font-family: DCO;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.updateBtn{
+  background-color: rgb(190, 66, 175);
+}
+
+.ReadingIntro{
+  background-color: darkgoldenrod;
+  margin-top: 0px;
+  border-left: #111 solid 4pt;
+  border-right: #111 solid 4pt;
+}
+.ReadingEnd{
+  background-color: burlywood;
+  margin-bottom: 1px;
+  border-bottom: #111 solid 4pt;
+
+}
+
+.musicalNote.amplifiedText{
+  font-size: calc(var(--fSize) *5cqi) !important;
+}
+
+.musicalNote{
+  color:  #95190c !important;
+  font-weight: bold !important;
+  font-size: calc(var(--fSize) *4cqi) !important;
+}
+
+.Slide> p>span.musicalNote{
+  color:  #95190c !important;
+  font-weight: bold !important;
+  font-size: 35pt !important;
+}
+
+.btnEditing{
+  min-width: 20vw !important;
+  max-width: 20vw !important;
+  max-height: 40px !important;
+  margin-bottom: 4px !important;
+}
+.btnsDiv{
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 100%;
+}
+
+.AR.amplifiedText,
+.CA.amplifiedText{
+  font-size:1.3em !important;
+}
+.FR.amplifiedText{
+  font-size:1.3em !important;
+}
+.COP.amplifiedText{
+  font-size:1.2em !important;
+}
+:lang(ar){
+quotes: '"' '"';
+}
+:lang(fr){
+  quotes: "« " " »" ;
+}
+:lang(en){
+  quotes: '"' '"';
+}
+
+q{
+  font-style: italic;
+}   
+
+/*Formatting the input for font size*/
+#inputFontSize {
+  height: 38px;
+  appearance: unset;
+  -webkit-appearance: none;
+  margin: 10px 0;
+  width: 100%;
+}
+#inputFontSize:focus {
+  outline: none;
+}
+#inputFontSize::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 10px;
+  cursor: pointer;
+  animation: 0.2s;
+  box-shadow: 1px 1px 1px #000000;
+  background: #3071A9;
+  border-radius: 5px;
+  border: 1px solid #000000;
+}
+#inputFontSize::-webkit-slider-thumb {
+  box-shadow: 1px 1px 1px #000000;
+  border: 1px solid #000000;
+  height: 30px;
+  width: 15px;
+  border-radius: 5px;
+  background: #FFFFFF;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -11px;
+}
+#inputFontSize:focus::-webkit-slider-runnable-track {
+  background: #3071A9;
+}
+#inputFontSize::-moz-range-track {
+  width: 100%;
+  height: 10px;
+  cursor: pointer;
+  animation: 0.2s;
+  box-shadow: 1px 1px 1px #000000;
+  background: #3071A9;
+  border-radius: 5px;
+  border: 1px solid #000000;
+}
+#inputFontSize::-moz-range-thumb {
+  box-shadow: 1px 1px 1px #000000;
+  border: 1px solid #000000;
+  height: 30px;
+  width: 15px;
+  border-radius: 5px;
+  background: #FFFFFF;
+  cursor: pointer;
+}
+#inputFontSize::-ms-track {
+  width: 100%;
+  height: 10px;
+  cursor: pointer;
+  animation: 0.2s;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+#inputFontSize::-ms-fill-lower {
+  background: #3071A9;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px #000000;
+}
+#inputFontSize::-ms-fill-upper {
+  background: #3071A9;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px #000000;
+}
+#inputFontSize::-ms-thumb {
+  margin-top: 1px;
+  box-shadow: 1px 1px 1px #000000;
+  border: 1px solid #000000;
+  height: 30px;
+  width: 15px;
+  border-radius: 5px;
+  background: #FFFFFF;
+  cursor: pointer;
+}
+#inputFontSize:focus::-ms-fill-lower {
+  background: #3071A9;
+}
+#inputFontSize:focus::-ms-fill-upper {
+  background: #3071A9;
+}
+
+.settingsLabel{
+  margin: 5px 5px;
+  text-align: center;
+  text-justify: auto;
+  width: 70%;
+  background-color: #ccc5c5;
+  border-radius: 5px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.settingsLabel>h3{
+  font-size: 2cqi !important;
+}
+
+h3{
+  margin: 5px 5px;
+  font-size: calc(var(--fSize) *4cqi);
+}
