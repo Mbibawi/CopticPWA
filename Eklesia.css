@@ -48,10 +48,11 @@
 }
 .Content{
   display:grid;
-  grid-template-columns: 100vw;
+  grid-template-columns: 101cqw;
   --fSize: 0.5;
   background-image: linear-gradient(to right, rgb(62, 14, 1), rgb(46, 1, 1));
-  min-height: 100cqh;
+  min-height: 101cqh;
+  overflow: hidden;
 }
 .Container {
   display: grid;
