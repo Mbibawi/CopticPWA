@@ -77,13 +77,13 @@ function convertGregorianDateToCopticDate(
   changeDates: boolean = true
 ): [number[], string] {
   let today: number;
-  let tout1: number = Date.UTC(1883, 8, 11, 0, 0, 0,0); //this is the Gregorian date for the 1st of Tout of the Coptic year 1600. We compensate the diffrence (50 minutes + 39 seconds) in order to get the time at 01:00:00 GMT
+  let tout1: number = Date.UTC(1883, 8, 11, 0, 0, 0, 0); //this is the Gregorian date for the 1st of Tout of the Coptic year 1600. We compensate the diffrence (50 minutes + 39 seconds) in order to get the time at 01:00:00 GMT
 
   let year: number = 1600; //this is the coptic year starting on Sept 11, 1883
 
   date
-    ? today = Date.UTC(date.getFullYear(), date.getMonth(), date.getDate(), 0, 0, 0,0)
-    : today = new Date().setUTCHours(0,0,0,0);
+    ? today = Date.UTC(date.getFullYear(), date.getMonth(), date.getDate(), 0, 0, 0, 0)
+    : today = new Date().setUTCHours(0, 0, 0, 0);
 
   let differenceInDays = (today - tout1) / calendarDay;
 
@@ -95,7 +95,7 @@ function convertGregorianDateToCopticDate(
   let daysInCurrentYear =
     (differenceInDays - (diffrenceInYears * 365.25));
 
-  daysInCurrentYear = Math.ceil(daysInCurrentYear+1);//Why +1? I don't know. Need to sort it out to know why the dates don't match unless I add 1
+  daysInCurrentYear = Math.ceil(daysInCurrentYear + 1);//Why +1? I don't know. Need to sort it out to know why the dates don't match unless I add 1
 
 
   let month = daysInCurrentYear / 30;
@@ -191,9 +191,9 @@ function checkIfInASpecificSeason(today: Date): string {
   );
 
   //We create a new Date from the selected resurrection date, and will set its hour to UTC 0
-  let resurrection = Date.UTC(resurrectionDate[0],resurrectionDate[1]-1, resurrectionDate[2], 0, 0, 0, 0);
+  let resurrection = Date.UTC(resurrectionDate[0], resurrectionDate[1] - 1, resurrectionDate[2], 0, 0, 0, 0);
   //We create a new date equal to "today", and will set its hour to 0
-  
+
   let todayUTC: number = Date.UTC(today.getFullYear(), today.getMonth(), today.getDate(), 0, 0, 0);
   readingsDate = checkForUnfixedEvent(
     todayUTC, //this is a number reflecting the date of today at UTC 0 hour
@@ -236,7 +236,7 @@ function checkForUnfixedEvent(
 
     //We are in the Jonah Fast days (3 days + 1)
     //The Jonah feast starts 15 days before the begining of the Great Lent
-    
+
     difference === 65
       ? Season = Seasons.JonahFeast//We are on the Jonah Feast
       : Season = Seasons.JonahFast; //We are during the 3 days of Jonah Fast
@@ -249,7 +249,7 @@ function checkForUnfixedEvent(
 
   (function ifGreatLentPreparation() {
     if (![57, 56].includes(difference)) return; //the 57th and the 56th days before Resurrection correspond to the Saturday and the Sunday preceding the first day of the Great Lent (which is a Monday = Resurrection - 55 days). The readings of those 2 days are linked to the Great Lent Season.
-    date = Seasons.GreatLent + (58-difference).toString();
+    date = Seasons.GreatLent + (58 - difference).toString();
   })();
 
   (function ifGreatLent() {

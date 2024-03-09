@@ -24,7 +24,7 @@ type typeButton = {
 };
 //CONSTANTS
 const version: string =
-  "v5.6.7 (Fixes to the Great Lent calculation, + some CSS)";
+  "v5.6.8 (Extracted HolyWeek GL55E; Working on GitHub from vs code)";
 const calendarDay: number = 24 * 60 * 60 * 1000; //this is a day in milliseconds
 const containerDiv: HTMLDivElement = document.getElementById(
   "containerDiv") as HTMLDivElement;
