@@ -51,7 +51,7 @@
   grid-template-columns: 100vw;
   --fSize: 0.5;
   background-image: linear-gradient(to right, rgb(62, 14, 1), rgb(46, 1, 1));
-  min-height: 99.99vh;
+  min-height: 99cqh;
   overflow: hidden;
 }
 .Container {
@@ -82,13 +82,15 @@
 body{
   display: grid;
   grid-template-columns: 100%;
-  background-image: url(./assets/PageBackgroundCross.jpg);
-  background-size:7%;
+  /*background-image: url(./assets/PageBackgroundCross.jpg);
+  background-size:7%;*/
+  background-image: linear-gradient(to right, rgb(62, 14, 1), rgb(46, 1, 1));
   background-repeat: repeat;
   overflow-x: hidden;
   margin: 1px;
   justify-items: center ;
   align-items: center;
+  height: 99.9%;
 }
 
 
