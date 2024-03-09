@@ -83,7 +83,7 @@ function convertGregorianDateToCopticDate(
 
   date
     ? today = Date.UTC(date.getFullYear(), date.getMonth(), date.getDate(), 0, 0, 0, 0)
-    : today = new Date().setUTCHours(0, 0, 0, 0);
+    : today = Date.UTC(todayDate.getFullYear(), todayDate.getMonth(), todayDate.getDate(), 0, 0, 0, 0);
 
   let differenceInDays = (today - tout1) / calendarDay;
 
