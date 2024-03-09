@@ -24,7 +24,7 @@ type typeButton = {
 };
 //CONSTANTS
 const version: string =
-  "v5.6.8 (Extracted HolyWeek GL55E; Working on GitHub from vs code)";
+  "v5.6.9 (Worked on the Holy Week Passover buttons functions)";
 const calendarDay: number = 24 * 60 * 60 * 1000; //this is a day in milliseconds
 const containerDiv: HTMLDivElement = document.getElementById(
   "containerDiv") as HTMLDivElement;

@@ -5459,45 +5459,6 @@ var GL55D = [
     [
 
         [
-            Prefix.HolyWeek + "LakanStPaul&D=GL55&C=Diacon",
-            "",
-            "1ère épître de saint Paul à Timothée \n4 : 9 à 5 : 10\nElle est sûre cette parole et digne d'une entière créance. Si en effet nous peinons et combattons, c'est que nous avons mis notre espérance dans le Dieu vivant, le Sauveur de tous les hommes, des croyants surtout. Tel doit être l'objet de tes prescriptions et de ton enseignement. Que personne ne méprise ton jeune âge. ",
-            "تيموثاوس الأولى\n٤: ٩، ٥: ١٠\nصَادِقَةٌ هِيَ الْكَلِمَةُ وَمُسْتَحِقَّةٌ كُلَّ قُبُولٍ. لأَنَّنَا لِهَذَا نَتْعَبُ وَنُعَيَّرُ، لأَنَّنَا قَدْ أَلْقَيْنَا رَجَاءَنَا عَلَى اللهِ الْحَيِّ، الَّذِي هُوَ مُخَلِّصُ جَمِيعِ النَّاسِ وَلاَ سِيَّمَا الْمُؤْمِنِينَ. أَوْصِ بِهَذَا وَعَلِّمْ. لاَ يَسْتَهِنْ أَحَدٌ بِحَدَاثَتِكَ، ",
-        ],
-        [
-            Prefix.HolyWeek + "LakanStPaul&D=GL55&C=Diacon",
-            "",
-            "Au contraire, montre-toi un modèle pour les croyants, par la parole, la conduite, la charité, la foi, la pureté. En attendant que je vienne, consacre-toi à la lecture, à l'exhortation, à l'enseignement. \nNe néglige pas le don spirituel qui est en toi, qui t'a été conféré par une intervention prophétique accompagnée de l'imposition des mains du collège des presbytres. ",
-            "َلْ كُنْ قُدْوَةً لِلْمُؤْمِنِينَ فِي الْكَلاَمِ، فِي التَّصَرُّفِ، فِي الْمَحَبَّةِ، فِي الرُّوحِ، فِي الإِيمَانِ، فِي الطَّهَارَةِ. إِلَى أَنْ أَجِيءَ اعْكُفْ عَلَى الْقِرَاءَةِ وَالْوَعْظِ وَالتَّعْلِيمِ.\nلاَ تُهْمِلِ الْمَوْهِبَةَ الَّتِي فِيكَ الْمُعْطَاةَ لَكَ بِالنُّبُوَّةِ مَعَ وَضْعِ أَيْدِي الْمَشْيَخَةِ.",
-        ],
-        [
-            Prefix.HolyWeek + "LakanStPaul&D=GL55&C=Diacon",
-            "",
-            "Prends cela à cœur. Sois-y tout entier, afin que tes progrès soient manifestes à tous. Veille sur ta personne et sur ton enseignement ; persévère en ces dispositions. Agissant ainsi, tu te sauveras, toi et ceux qui t'écoutent. \nNe rudoie pas un vieillard ; au contraire, exhorte-le comme un père, les jeunes gens comme des frères, les femmes âgées comme des mères, les jeunes comme des sœurs, en toute pureté. ",
-            "اهْتَمَّ بِهَذَا. كُنْ فِيهِ، لِكَيْ يَكُونَ تَقَدُّمُكَ ظَاهِراً فِي كُلِّ شَيْءٍ. لاَحِظْ نَفْسَكَ وَالتَّعْلِيمَ وَدَاوِمْ عَلَى ذَلِكَ، لأَنَّكَ إِذَا فَعَلْتَ هَذَا تُخَلِّصُ نَفْسَكَ وَالَّذِينَ يَسْمَعُونَكَ أَيْضاً.\nلاَ تَزْجُرْ شَيْخاً بَلْ عِظْهُ كَأَبٍ، وَالأَحْدَاثَ كَإِخْوَةٍ، وَالْعَجَائِزَ كَأُمَّهَاتٍ، وَالْحَدَثَاتِ كَأَخَوَاتٍ، بِكُلِّ طَهَارَةٍ.",
-        ],
-        [
-            Prefix.HolyWeek + "LakanStPaul&D=GL55&C=Diacon",
-            "",
-            "Honore les veuves - j'entends les vraies veuves. Si une veuve a des enfants ou des petits-enfants, il faut avant tout leur apprendre à pratiquer la piété envers leur propre famille et à payer leurs parents de retour. Voilà ce qui plaît à Dieu. Mais la vraie veuve, celle qui reste absolument seule, s'en remet à Dieu et consacre ses jours et ses nuits à la prière et à l'oraison.",
-            "أَكْرِمِ الأَرَامِلَ اللَّوَاتِي هُنَّ بِالْحَقِيقَةِ أَرَامِلُ. وَلَكِنْ إِنْ كَانَتْ أَرْمَلَةٌ لَهَا أَوْلاَدٌ أَوْ حَفَدَةٌ، فَلْيَتَعَلَّمُوا أَوَّلاً أَنْ يُوَقِّرُوا أَهْلَ بَيْتِهِمْ وَيُوفُوا وَالِدِيهِمِ الْمُكَافَأَةَ، لأَنَّ هَذَا صَالِحٌ وَمَقْبُولٌ أَمَامَ اللهِ. وَلَكِنَّ الَّتِي هِيَ بِالْحَقِيقَةِ أَرْمَلَةٌ وَوَحِيدَةٌ، فَقَدْ أَلْقَتْ رَجَاءَهَا عَلَى اللهِ، وَهِيَ تُواظِبُ عَلَى الطِّلْبَاتِ وَالصَّلَوَاتِ لَيْلاً وَنَهَاراً",
-        ],
-        [
-            Prefix.HolyWeek + "LakanStPaul&D=GL55&C=Diacon",
-            "",
-            "Quant à celle qui ne pense qu'au plaisir, quoique vivante, elle est morte. Cela aussi tu le rappelleras, afin qu'elles soient irréprochables. Si quelqu'un ne prend pas soin des siens, surtout de ceux qui vivent avec lui, il a renié la foi : il est pire qu'un infidèle. Ne peut être inscrite au groupe des veuves qu'une femme d'au moins soixante ans, ayant été la femme d'un seul mari. ",
-            "وَأَمَّا الْمُتَنَعِّمَةُ فَقَدْ مَاتَتْ وَهِيَ حَيَّةٌ. فَأَوْصِ بِهَذَا لِكَيْ يَكُنَّ بِلاَ لَوْمٍ. وَإِنْ كَانَ أَحَدٌ لاَ يَعْتَنِي بِخَاصَّتِهِ، وَلاَ سِيَّمَا أَهْلُ بَيْتِهِ، فَقَدْ أَنْكَرَ الإِيمَانَ، وَهُوَ شَرٌّ مِنْ غَيْرِ الْمُؤْمِنِ. لِتُكْتَتَبْ أَرْمَلَةٌ إِنْ لَمْ يَكُنْ عُمْرُهَا أَقَلَّ مِنْ سِتِّينَ سَنَةً، امْرَأَةَ رَجُلٍ وَاحِدٍ،",
-        ],
-        [
-            Prefix.HolyWeek + "LakanStPaul&D=GL55&C=Diacon",
-            "",
-            "Elle devra produire le témoignage de sa bonne conduite : avoir élevé des enfants, exercé l'hospitalité, lavé les pieds des saints, secouru les affligés, pratiqué toutes les formes de la bienfaisance.\nLa grâce de Dieu le Père soit avec vous tous, mes pères et mes frères amen !",
-            "مَشْهُوداً لَهَا فِي أَعْمَالٍ صَالِحَةٍ، إِنْ تَكُنْ قَدْ رَبَّتِ الأَوْلاَدَ، أَضَافَتِ الْغُرَبَاءَ، غَسَّلَتْ أَرْجُلَ الْقِدِّيسِينَ، سَاعَدَتِ الْمُتَضَايِقِينَ، اتَّبَعَتْ كُلَّ عَمَلٍ صَالِحٍ.\nنعمة الله الآب تكون مع جميعكم آمين",
-        ],
-    ],
-    [
-
-        [
             Prefix.HolyWeek + "MaroEtshasfHymn&D=GL55&C=Diacon",
             "Marou[acf qen `tek`klycia `nte peflaoc@ ouoh marou`cmou `erof hi `tka;edra `nte ni`precbuteroc@ je af,w `noumetiwt `m`vry]\n`nhan`ecwou@ eu`enau `nje ny`etcoutwn ouoh eu`eounof@",
             "Qu’il l’élève sur son peuple \net qu’il le bénisse sur des anciens \ncar il a rendu la parenté comme les pâturages. Les hommes droits voient cela et s’en réjouissent",

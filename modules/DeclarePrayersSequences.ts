@@ -156,10 +156,9 @@ const HolyWeekPrayersSequences = {
         Prefix.HolyWeek + "LakanProphecies&D=$copticFeasts.HolyThursday",
         Prefix.HolyWeek + "LakanSermony&D=$copticFeasts.HolyThursday",
         Prefix.massCommon + "BiEhmotGhar&D=$copticFeasts.AnyDay",
-        Prefix.stPaul + "&D=$copticFeasts.HolyThursday",
+        Prefix.massCommon + "ReadingsPlaceHolder&D=$copticFeasts.AnyDay",
+        Prefix.commonPrayer + "Agios&D=$copticFeasts.HolyThursday",
         Prefix.commonPrayer + "GospelPrayerPlaceHolder&D=$copticFeasts.AnyDay",
-        //Get Gospel Reading
-        //Prefix.commonPrayer + "Agios&D=$copticFeasts.HolyThursday",
         //Prefix.commonPrayer + "BlockShlil&D=$copticFeasts.AnyDay",
         //Prefix.commonPrayer + "BlockIriniPassi&D=$copticFeasts.AnyDay",
         //Prefix.commonPrayer + "GospelPrayer&D=$copticFeasts.AnyDay",
@@ -189,6 +188,8 @@ const HolyWeekPrayersSequences = {
         Prefix.HolyWeek + "LakanAnaphora&D=$copticFeasts.HolyThursday",
         
        // Prefix.commonIncense + "LiturgyEnd&D=$copticFeasts.AnyDay"
-    ]
+    ],
+    ThursdayMass: [],
+    SaturdayMass:[],
 }
 
