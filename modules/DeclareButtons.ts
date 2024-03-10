@@ -299,6 +299,8 @@ const btnMainMenu: Button = new Button({
                 nonCopticGospel: 'Gospel',
                 Psalm: 'Psalm',
                 Commentary: 'Commentary',
+                Prophecies: 'Prophecies',
+                Sermony: 'Sermony'
               };
 
               (function getTables() {
@@ -336,6 +338,7 @@ const btnMainMenu: Button = new Button({
                 commentary: 'GospelCommentary',
                 khinEfran: 'KhinEfran',
                 finalLitany: 'FinalLitany',
+                prophecies: 'Prophecies',
               };
 
               (function getPlaceHolders() {
@@ -355,10 +358,14 @@ const btnMainMenu: Button = new Button({
                   [readings.Psalm, placeHolders.psalm],
                   [readings.Commentary, placeHolders.commentary],
                   [KhinEfran, placeHolders.khinEfran],
+                  [readings.Prophecies, placeHolders.prophecies],
+                  [readings.Sermony, placeHolders.prophecies],
                   [Litany, placeHolders.finalLitany],
                 ]
                   .forEach((reading: [string[][], HTMLElement]) => {
                     if (reading[0] === KhinEfran) languages = prayersLanguages;
+                    if ([readings.Prophecies, readings.Sermony, readings.Psalm, readings.coptGospel, readings.nonCopticGospelGospe].includes(reading[0])) languages = ['COP', 'FR', 'AR'];
+                    
                     insertPrayersAdjacentToExistingElement({
                       tables: [reading[0]],
                       languages: languages,

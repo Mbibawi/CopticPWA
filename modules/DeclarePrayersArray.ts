@@ -26293,6 +26293,15 @@ PrayersArrayFR = [
     ],
   ],
   [
+    [Prefix.HolyWeek + "HourIntroduction&D=$Seasons.HolyWeek"],
+    [
+      Prefix.HolyWeek + 'PropheciesPlaceHolder&D=$Seasons.HolyWeek'
+    ],
+    [Prefix.placeHolder,
+      Prefix.HolyWeek + "ThokTatiGom&D=$Seasons.HolyWeek",
+    ]
+  ],
+  [
     [
       Prefix.HolyWeek + "ThokTatiGom&D=$Seasons.HolyWeek&C=Title",
       "",
