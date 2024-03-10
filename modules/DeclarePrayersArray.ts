@@ -2092,7 +2092,7 @@ PrayersArrayFR = [
       "Ⲡⲓⲟⲩⲱⲓⲛⲓ ⲛ̀ⲧⲁⲫ̀ⲙⲏⲓ: ⲫⲏⲉ̀ⲧⲉⲣⲟ̀ⲩⲱⲓⲛⲓ: ⲉ̀ⲣⲱⲙⲓ ⲛⲓⲃⲉⲛ: ⲉⲑⲛⲏⲟⲩ ⲉ̀ⲡⲓⲕⲟⲥⲙⲟⲥ.",
       "Ô Lumière véritable♫ qui éclaire♫ tout homme♫ venu en ce monde.",
       "بى أوؤينى إنطا إفمى♫ في إتئير أو أوينى♫ إيرومى نيفين إنثيو♫ إى بى كوزموس.",
-      "أَيُّهَااَلنور الحقيقي♫ الذي يضيء♫ لكُلِّ انسان♫ آتٍ إلي العَالَم.",
+      "أَيُّهَا اَلنور الحقيقي♫ الذي يضيء♫ لكُلِّ انسان♫ آتٍ إلي العَالَم.",
     ],
     [
       Prefix.same + "&C=Diacon",
@@ -26354,7 +26354,7 @@ PrayersArrayFR = [
   ],
   [
     [
-      Prefix.HolyWeek + "KhinEfranIntro&D=$Seasons.HolyWeek&C=Title",
+      Prefix.HolyWeek + "KhinEfranEnTetriyas&D=$Seasons.HolyWeek&C=Title",
       "",
       "Au nom de la Trinité (Ⲯⲉⲛ ⲫ̀ⲣⲁⲛ ⲛ̀ⲑⲧ̀ⲣⲓⲁⲥ)",
       "",
@@ -26388,25 +26388,18 @@ PrayersArrayFR = [
       "نيم بي إبنيفما إثؤواب.",
       "والْرُوحْ القُدُسْ.",
     ],
+    [Prefix.HolyWeek + "KhinEfranPlaceHolder&D=$Seasons.HolyWeek"]
   ],
   [
     [
-      Prefix.HolyWeek + "KhinEfranInTetriaysDay&D=$Seasons.HolyWeek&C=Title",
-      "",
-      "Au nom de la Trinité (Ⲯⲉⲛ ⲫ̀ⲣⲁⲛ ⲛ̀ⲑⲧ̀ⲣⲓⲁⲥ)",
-      "",
-      "باسم الثَالُوثْ المساوي",
-    ],
-    [
-      Prefix.placeHolder,
-      Prefix.HolyWeek + "KhinEfranIntro&D=$Seasons.HolyWeek&C=Title",
+      Prefix.HolyWeek + "KhinEfranEnTetriyasD&D=$Seasons.HolyWeek",
     ],
     [
       Prefix.same + "&C=Priest",
       "Ⲡⲓⲟⲩⲱⲓⲛⲓ ⲛ̀ⲧⲁⲫ̀ⲙϩⲓ:",
       "La Lumière,",
       "بي أوأوينى أنتا إفمي،",
-      "أَيُّهَااَلنور الحقيقي،",
+      "أَيُّهَا اَلنور الحقيقي،",
     ],
     [
       Prefix.same + "&C=Assembly",
@@ -26433,15 +26426,7 @@ PrayersArrayFR = [
   [
     [
       Prefix.HolyWeek +
-        "KhinEfranInTetriaysEvening&D=$Seasons.HolyWeek&C=Title",
-      "",
-      "Au nom de la Trinité (Ⲯⲉⲛ ⲫ̀ⲣⲁⲛ ⲛ̀ⲑⲧ̀ⲣⲓⲁⲥ)",
-      "",
-      "باسم الثَالُوثْ المساوي",
-    ],
-    [
-      Prefix.placeHolder,
-      Prefix.HolyWeek + "KhinEfranIntro&D=$Seasons.HolyWeek&C=Title",
+        "KhinEfranEnTetriyasE&D=$Seasons.HolyWeek"
     ],
     [
       Prefix.same + "&C=Priest",
@@ -26539,20 +26524,70 @@ PrayersArrayFR = [
       "",
       "الطرح",
     ],
-    [Prefix.HolyWeek + "KhinEfranPlaceHolder&D=$Seasons.HolyWeek"],
-    [Prefix.same + "&C=Priest", "", "", "", "المسيح مخلصنا،"],
-    [Prefix.same + "&C=Assembly", "", "", "", "جاء وتألم،"],
-    [Prefix.same + "&C=Priest", "", "", "", "لكي بألامه،"],
-    [Prefix.same + "&C=Assembly", "", "", "", "يخلصنا،"],
-    [Prefix.same + "&C=Priest", "", "", "", "فلنمجده،"],
-    [Prefix.same + "&C=Assembly", "", "", "", "ونرفع اسمه،"],
-    [Prefix.same + "&C=Priest", "", "", "", "لأنه صنع معنا،"],
-    [Prefix.same + "&C=Assembly", "", "", "", "كعظيم رحمته،"],
     [Prefix.HolyWeek + "GospelCommentaryPlaceHolder&D=$Seasons.HolyWeek"],
+    [
+      Prefix.same + "&C=Priest",
+      "Pi`,rictoc Pencwtyr @",
+      "Le Christ notre Sauveur,",
+      "",
+      "المسيح مخلصنا،",
+  ],
+  [
+      Prefix.same + "&C=Assembly",
+      "af`i afsep`mkah @",
+      "est venu et a souffert,",
+      "",
+      "جاء وتألم عنا،",
+  ],
+  [
+      Prefix.same + "&C=Priest",
+      "hina qen nef`mkauh @",
+      "afin que par Sa Passion",
+      "",
+      "لكي بآلامه",
+  ],
+  [
+      Prefix.same + "&C=Assembly",
+      "`ntefcw] `mmon.",
+      "Il nous sauve.",
+      "",
+      "يخلصنا.",
+  ],
+  [
+      Prefix.same + "&C=Priest",
+      "Maren]`wou naf @",
+      "Glorifions-Le,",
+      "",
+      "فلنمجده،",
+  ],
+  [
+      Prefix.same + "&C=Assembly",
+      "ten[ici `mpefran @",
+      "et exaltons Son Nom,",
+      "",
+      "ونرفع اسمه،",
+  ],
+  [
+      Prefix.same + "&C=Priest",
+      "je aferounai neman @",
+      "car Il a eu pitié de nous",
+      "",
+      "لأنه صنع معنا،",
+  ],
+  [
+      Prefix.same + "&C=Assembly",
+      "kata pefnis] `nnai.",
+      "selon Sa grande miséricorde.",
+      "",
+      "رحمةً كعظيم رحمته.",
+  ],
+    [Prefix.HolyWeek + "KhinEfranPlaceHolder&D=$Seasons.HolyWeek"],
+    
+    [Prefix.HolyWeek + "FinalLitanyPlaceHolder&D=$Seasons.HolyWeek"],
   ],
   [
     [
-      Prefix.HolyWeek + "DayLitany&D=$Seasons.HolyWeek&C=Title",
+      Prefix.HolyWeek + "FinalLitanyD&D=$Seasons.HolyWeek&C=Title",
       "",
       "",
       "",
@@ -26565,230 +26600,251 @@ PrayersArrayFR = [
     [
       Prefix.same + "&C=Priest",
       "",
+      "Implorez pour que Dieu aie pitié de nous, soit compatissant envers nous, nous écoute et nous aide, qu'Il agrée les demandes et les supplications que Ses saints Lui adressent continuellement en notre faveur, et nous pardonne nos péchés.",
       "",
+      "اطلبوا لكي يرحمنا الله ويتراءف علينا ويسمعنا ويعيننا ويقبل سؤالات وطلبات قديسيه منهم بالصلاح عنا في كل حين ويغفر لنا خطايانا."
+  ],
+  [
+      Prefix.placeHolder,
+      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay"
+  ],
+  [
+      Prefix.same + "&C=Priest",
       "",
-      "اطلبوا لكي يرحمنا الله ويتراءف علينا ويسمعنا ويعيننا ويقبل سؤالات وطلبات قديسيه منهم عنا بالصلاح في كل حين ويغفر لنا خطايانا.&&&اطلبوا عن سلام الواحدة الوحيدة المقدسة الجامعة الرسولية الكنيسة. وخلاص الله في الشعوب والطمأنينة بكل موضع ويغفر لنا خطايانا.&&&اطلبوا عن آبائنا واخوتنا المرضى بكل الأمراض في هذا الموضع وكل مكان لكي ينعم لنا الرب إلهنا وإياهم بالعافية والشفاء ويغفر لنا خطايانا.&&&صلوا واطلبوا عن آبائنا واخوتنا المسافرين والذين اضمروا السفر بكل مكان ليسهل طرقهم جميعاً أن كانوا في البحار أو الأنهار أو الينابيع أو الطرق المسلوكة والذي جعلوا سفرهم بكل نوع لكي يرشدهم الرب إلهنا ويردهم إلى مساكنهم بسلام ويغفر لنا خطايانا.&&&صلوا واطلبوا عن اهوية السماء وثمرات الأرض وكل الأشجار والكروم وكل شجرة مثمرة في جميع المسكونة لكي يباركها الرب إلهنا ويكملها بسلام ويغفر لنا خطايانا.&&&صلوا واطلبوا لكي يعطينا الله رحمة ورأفة أمام السلاطين الأعزاء ويعطف قلوب المتولين علينا بالصلاح في كل حين ويغفر لنا خطايانا.&&&صلوا واطلبوا عن آبائنا واخوتنا الذين رقدوا وتنيحوا في الإيمان بالمسيح منذ البدء آبائنا البطاركة وآبائنا المطارنة وآبائنا الأساقفة وآبائنا القمامصة وآبائنا القسوس وأخوتنا الشمامسة وآبائنا الرهبان واخوتنا العلمانيين وعن كل الذين تنيحوا من المسيحيين لكي ينيح الرب إلهنا نفوسهم أجمعين ويغفر لنا خطايانا.&&&صلوا واطلبوا عن المهتمين بالصعائد والقرابين والخمر والزيت والبخور والستور وكتب القراءة وكل أواني المذبح لكي يعوضهم الرب إلهنا عن أتعابهم في أورشليم السمائية ويغفر لنا خطايانا.&&&صلوا واطلبوا عن موعوظي شعبنا لكي يباركهم الرب ويفتح عيون قلوبهم ويثبتهم على الإيمان الارثوذكسي إلى النفس الأخير ويغفر لنا خطايانا.&&&صلوا واطلبوا عن هذا المسكن وكل مساكن وأديرة الشعوب الأرثوذكسيين في البرارى والشيوخ السكان فيها وعن طمأنينة كل العالم معاً. لكي يحفظنا الرب إلهنا وإياهم من كل سوء ومن كل شر ويغفر لنا خطايانا.&&&صلوا واطلبوا عن حياة وقيام أبينا المكرم رئيس الأساقفة الأب البطريرك انبا (فلان) (وكذلك شريكه في الخدمة الرسولية الآب المطران أو الأسقف فلان) لكي يحفظ الرب لنا حياتهم ويثبتهم على كراسيهم سنين عديدة وأزمنة سالمة هادئة مديدة ويغفر لنا خطايانا.&&&صلوا واطلبوا عن آبائنا المطارنة والأساقفة الأرثوذكسيين بكل مكان والقمامصة والقسوس والشمامسة وكل طغمات الكنيسة لكي يحفظهم المسيح إلهنا ويقويهم ويغفر لنا خطايانا.&&&صلوا واطلبوا عن اجتماعنا هذا وكل اجتماع الشعوب الأرثوذكسيين لكي يباركهم الرب إلهنا ويكلمهم بسلام ويغفر لنا خطايانا.&&&صلوا واطلبوا عن تدبير البيعة المقدسة وكل رتب الكهنوت لكي يباركهم الرب إلهنا ويقويهم ويغفر لنا خطايانا.&&&صلوا واطلبوا عن كل نفس لها تعب في الكنيسة المقدسة ومع الشعب الأرثوذكسي لكي يضع الرب إلهنا معهم رحمة ويغفر لنا خطايانا.&&&صلوا وأطلبوا عن محبي المسيح الأراخنة الذين أمرونا أن نذكرهم باسمائهم لكي يباركهم الرب إلهنا ويذكرهم بالرحمة ويعطيهم النعمة امام السلاطين الأعزاء ويغفر لنا خطايانا.&&&صلوا واطلبوا عن المساكين والفلاحين والضعفاء وعن كل نفس متضايقة بكل نوع لكي يتراءف علينا الرب إلهنا واياهم ويغفر لنا خطايانا.&&&صلوا واطلبوا عن كل المتضايقين الذين في السجون وفي المطابق والذين في النفي أو في السبي والمربوطين من جهة رباطات الشياطين لكي يعتقهم الرب إلهنا من متاعبهم ويغفر لنا خطايانا.&&&صلوا واطلبوا عن كل النفوس المجتمعة معنا اليوم في هذا الموضع يطلبون الرحمة لنفوسهم لكي تدركنا مراحم الرب إلهنا وإياهم ويغفر لنا خطايانا.&&&صلوا واطلبوا عن الذين أوصونا أن نذكرهم كل واحد واحد باسمه لكي يذكرهم الرب إلهنا بالصلاح في كل حين ويغفر لنا خطايانا.&&&صلوا واطلبوا عن صعود مياه الأنهار في هذه السنة لكي يباركها المسيح إلهنا ويصعدها كمقدارها ويفرح وجه الأرض بالنيل ويعولنا نحن البشر ويعطي النجاة لشعبه والماشية ويرفع عن العالم الموت والغلاء والوباء والفناء والسبي وسيف الأعداء ويجعل الهدوء والسلام والطمأنينة في البيعة المقدسة ويرفع شأن المسيحيين في كل مكان وفي كل المسكونة إلى النفس الأخير ويغفر لنا خطايانا.&&&صلوا واطلبوا عن هذه البخسة المقدسة التي لمخلصنا الصالح لكي يكملها لنا بسلام ويرينا بهجة قيامته المقدسة ونحن جميعاً سالمين ويغفر لنا خطايانا.&&&اطلبوا عن آبائنا واخوتنا وكل الذين اجتمعوا معنا في هذه الأماكن الطاهرة الشريفة طالبين مغفرة لخطاياهم ورحمة لنفوسهم لكي المسيح إلهنا يجعلهم مستحقين زيارة قيامته المقدسة ومكان آلامه المحيية ويقبل زيارتهم ويغفر لهم خطاياهم ويحنن عليهم قلوب المتولين عليهم ويعيدهم إلى أماكنهم سالمين غانمين ويأت بهم إلى هذه الأماكن الطاهرة سنين كثيرة وهم فرحين مبتهجين ويبارك منازلهم ويجمعنا نحن وأياهم في مدينة أورشليم السمائية بعد العمر الفسيح ويغفر لنا خطايانا.&&&اطلبوا عن نياح نفس أبينا الطوباوي المكرم رئيس الأساقفة أنبا (فلان) لكي المسيح إلهنا ينيحها في فردوس النعيم ويقيم لنا راعياً صالحاً ويغفر لنا خطايانا.",
-    ],
-    [
+      "Implorez pour la paix de l'Église une, unique, sainte, universelle et apostolique ; pour le salut que Dieu accorde aux peuples et le réconfort en tout lieu et pour qu'Il nous pardonne nos péchés.",
+      "",
+      "اطلبوا عن سلامة الكنيسة الواحدة الوحيدة المقدسة الجامعة الرسولية. وخلاص الله في الشعوب والطمأنينة بكل موضع ويغفر لنا خطايانا."
+  ],
+  [
       Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
+      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay"
+  ],
+  [
+      Prefix.same + "&C=Priest",
+      "",
+      "Implorez pour nos pères et nos frères les malades de toute maladie, que ce soit en ce lieu ou en tout autre endroit. Que le Seigneur notre Dieu nous donne et leur donne la santé et la guérison et qu'Il nous pardonne nos péchés.",
+      "",
+      "اطلبوا عن آبائنا واخوتنا المرضى بكل الأمراض في هذا الموضع وكل مكان لكي ينعم لنا الرب إلهنا وإياهم بالعافية والشفاء ويغفر لنا خطايانا."
+  ],
+  [
       Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
+      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay"
+  ],
+  [
+      Prefix.same + "&C=Priest",
+      "",
+      "Priez et implorez pour nos pères et nos frères les voyageurs et ceux qui projettent de voyager en tout lieu. Qu'Il aplanisse leurs chemins, que ce soit en mer, sur les fleuves, sur terre, dans l'air ou par tout autre moyen. Que le Seigneur notre Dieu les guide et les ramène sains et saufs à leur foyer et qu'Il nous pardonne nos péchés.",
+      "",
+      "صلوا واطلبوا عن آبائنا واخوتنا المسافرين والذين اضمروا السفر بكل مكان ليسهل طرقهم جميعاً أن كانوا في البحار أو الأنهار أو الينابيع أو الطرق المسلوكة والذين جعلوا سفرهم بكل نوع لكي يرشدهم الرب إلهنا ويردهم إلى مساكنهم بسلام ويغفر لنا خطايانا."
+  ],
+  [
       Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
+      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay"
+  ],
+  [
+      Prefix.same + "&C=Priest",
+      "",
+      "Priez et implorez pour les vents du ciel, les fruits de la terre, les vignes et tout arbre fruitier dans l'univers. Que le Seigneur notre Dieu les bénisse et les amène à maturité sans dommage et qu'Il nous pardonne nos péchés",
+      "",
+      "صلوا واطلبوا عن أهوية السماء وثمرات الأرض وكل الأشجار والكروم وكل شجرة مثمرة في جميع المسكونة لكي يباركها الرب إلهنا ويكملها بسلام ويغفر لنا خطايانا."
+  ],
+  [
       Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
+      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay"
+  ],
+  [
+      Prefix.same + "&C=Priest",
+      "",
+      "Priez et implorez pour que Dieu nous accorde miséricorde et compassion auprès des gouvernants. Qu'Il adoucisse par Sa bonté en tout temps les cœurs de ceux qui nous dirigent et qu'Il nous pardonne nos péchés",
+      "",
+      "صلوا واطلبوا لكي يعطينا الله رحمة ورأفة أمام السلاطين الأعزاء ويعطف قلوب المتولين علينا بالصلاح في كل حين ويغفر لنا خطايانا."
+  ],
+  [
       Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
+      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay"
+  ],
+  [
+      Prefix.same + "&C=Priest",
+      "",
+      "Priez et implorez pour nos pères et nos frères les défunts qui se sont endormis dans la Foi du Christ depuis le commencement, nos pères les patriarches, nos pères les métropolites, nos pères les évêques, nos pères les higoumènes et nos pères les prêtres, nos frères les diacres, nos pères les moines et nos frères les laïcs et pour le repos de tous les Chrétiens qui se sont endormis. Que le Seigneur, notre Dieu, accorde le repos à leurs âmes à tous et qu'Il nous pardonne nos péchés.",
+      "",
+      "صلوا واطلبوا عن آبائنا واخوتنا الذين رقدوا وتنيحوا في الإيمان بالمسيح منذ البدء آبائنا البطاركة وآبائنا المطارنة وآبائنا الأساقفة وآبائنا القمامصة وآبائنا القسوس وأخوتنا الشمامسة وآبائنا الرهبان واخوتنا العلمانيين وعن كل الذين تنيحوا من المسيحيين لكي ينيح الرب إلهنا نفوسهم أجمعين ويغفر لنا خطايانا."
+  ],
+  [
       Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
+      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay"
+  ],
+  [
+      Prefix.same + "&C=Priest",
+      "",
+      "Priez et implorez pour ceux qui s'occupent des offrandes et des oblations, du vin, de l'huile, de l'encens, des voiles, des livres liturgiques et de tous les vases sacrés de l'autel. Que le Seigneur, notre Dieu, les récompenses dans la Jérusalem céleste et nous pardonne nos péchés.",
+      "",
+      "صلوا واطلبوا عن المهتمين بالصعائد والقرابين والخمر والزيت والبخور والستور وكتب القراءة وكل أواني المذبح لكي يعوضهم الرب إلهنا عن أتعابهم في أورشليم السمائية ويغفر لنا خطايانا."
+  ],
+  [
       Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
+      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay"
+  ],
+  [
+      Prefix.same + "&C=Priest",
+      "",
+      "Priez et implorez pour les catéchumènes de notre peuple. Que le Seigneur notre Dieu éclaire leurs cœurs, les enracine dans la Foi orthodoxe jusqu'au dernier soupir et qu'Il nous pardonne nos péchés.",
+      "",
+      "صلوا واطلبوا عن موعوظي شعبنا لكي يباركهم الرب ويفتح عيون قلوبهم ويثبتهم على الإيمان الارثوذكسي إلى النفس الأخير ويغفر لنا خطايانا."
+  ],
+  [
       Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
+      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay"
+  ],
+  [
+      Prefix.same + "&C=Priest",
+      "",
+      "Priez et implorez pour ce lieu, pour tout autre lieu, pour les monastères orthodoxes dans les déserts, pour les anciens qui y demeurent, et pour la tranquillité du monde entier. Que le Seigneur notre Dieu nous protège tous de tout mal et qu'Il nous pardonne nos péchés.",
+      "",
+      "صلوا واطلبوا عن هذا المسكن وكل مساكن وأديرة الشعوب الأرثوذكسيين في البرارى والشيوخ السكان فيها وعن طمأنينة كل العالم معاً. لكي يحفظنا الرب إلهنا وإياهم من كل سوء ومن كل شر ويغفر لنا خطايانا."
+  ],
+  [
       Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
+      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay"
+  ],
+  [
+      Prefix.same + "&C=Priest",
+      "",
+      "Priez et implorez pour la vie de notre saint père l'archevêque, le patriarche, Anba (---), et pour son confrère dans le ministère apostolique notre père l'évêque Anba (---). Que le Seigneur protège leurs vies et les maintienne pour nous sur leurs trônes de nombreuses années calmes et paisibles et qu'Il nous pardonne nos péchés.",
+      "",
+      "صلوا واطلبوا عن حياة وقيام أبينا المكرم رئيس الأساقفة الأب البطريرك الأنبا (---) و شريكه في الخدمة الرسولية أبينا الأسقف الأنبا (---) لكي يحفظ الرب لنا حياتهم ويثبتهم على كراسيهم سنين عديدة وأزمنة سالمة هادئة مديدة ويغفر لنا خطايانا."
+  ],
+  [
       Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
+      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay"
+  ],
+  [
+      Prefix.same + "&C=Priest",
+      "",
+      "Priez et implorez pour nos pères les métropolites et les évêques orthodoxes en tout lieu, pour les higoumènes, les prêtres, les diacres et tous les degrés de l'Église. Que le Christ notre Dieu les protège, les raffermisse et qu'Il nous pardonne nos péchés",
+      "",
+      "صلوا واطلبوا عن آبائنا المطارنة والأساقفة الأرثوذكسيين بكل مكان والقمامصة والقسوس والشمامسة وكل طغمات الكنيسة لكي يحفظهم المسيح إلهنا ويقويهم ويغفر لنا خطايانا."
+  ],
+  [
       Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
+      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay"
+  ],
+  [
+      Prefix.same + "&C=Priest",
+      "",
+      "Priez et implorez pour notre assemblée que voici ainsi que pour toute autre assemblée orthodoxe. Que le Seigneur notre Dieu les bénisse et les accomplisse en paix et qu'Il nous pardonne nos péchés.",
+      "",
+      "صلوا واطلبوا عن إجتماعنا هذا وكل إجتماعات الشعوب الأرثوذكسيين لكي يباركهم الرب إلهنا ويكملهم بسلام ويغفر لنا خطايانا."
+  ],
+  [
       Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
+      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay"
+  ],
+  [
+      Prefix.same + "&C=Priest",
+      "",
+      "Priez et implorez pour la conduite de la sainte Église et tous les grades du clergé. Que le Seigneur notre Dieu les bénisse et les raffermisse et qu'Il nous pardonne nos péchés",
+      "",
+      "صلوا واطلبوا عن تدبير البيعة المقدسة وكل رتب الكهنوت لكي يباركهم الرب إلهنا ويقويهم ويغفر لنا خطايانا."
+  ],
+  [
       Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
+      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay"
+  ],
+  [
+      Prefix.same + "&C=Priest",
+      "",
+      "Priez et implorez pour tous ceux qui servent la sainte Église et le peuple orthodoxe. Que le Seigneur notre Dieu leur fasse miséricorde et qu'Il nous pardonne nos péchés.",
+      "",
+      "صلوا واطلبوا عن كل نفس لها تعب في الكنيسة المقدسة ومع الشعب الأرثوذكسي لكي يصنع الرب إلهنا معهم رحمة ويغفر لنا خطايانا."
+  ],
+  [
       Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
+      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay"
+  ],
+  [
+      Prefix.same + "&C=Priest",
+      "",
+      "Priez et implorez pour les dirigeants qui aiment le Christ et qui nous ont recommandé de nous souvenir d'eux. Que le Seigneur notre Dieu les bénisse, les prenne en pitié, leur accorde la grâce devant les gouvernants et qu'Il nous pardonne nos péchés.",
+      "",
+      "صلوا وأطلبوا عن محبي المسيح الأراخنة الذين أمرونا أن نذكرهم باسمائهم لكي يباركهم الرب إلهنا ويذكرهم بالرحمة ويعطيهم النعمة امام السلاطين الأعزاء ويغفر لنا خطايانا."
+  ],
+  [
       Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
+      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay"
+  ],
+  [
+      Prefix.same + "&C=Priest",
+      "",
+      "Priez et implorez pour les pauvres, les paysans, les ouvriers, les faibles et pour toute âme dans la peine. Que le Seigneur notre Dieu soit compatissant envers nous et qu'Il nous pardonne nos péchés.",
+      "",
+      "صلوا واطلبوا عن المساكين والفلاحين والضعفاء وعن كل نفس متضايقة بكل نوع لكي يتراءف علينا الرب إلهنا واياهم ويغفر لنا خطايانا."
+  ],
+  [
       Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
+      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay"
+  ],
+  [
+      Prefix.same + "&C=Priest",
+      "",
+      "Priez et implorez pour ceux qui peinent dans les prisons, les cachots, en exil et pour ceux qui sont enchaînés par les chaînes des démons. Que le Seigneur les délivre de leurs peines et qu'Il nous pardonne nos péchés.",
+      "",
+      "صلوا واطلبوا عن كل المتضايقين الذين في السجون وفي المطابق والذين في النفي أو في السبي والمربوطين من جهة رباطات الشياطين لكي يعتقهم الرب إلهنا من متاعبهم ويغفر لنا خطايانا."
+  ],
+  [
       Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
+      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay"
+  ],
+  [
+      Prefix.same + "&C=Priest",
+      "",
+      "Priez et implorez pour tous ceux qui sont réunis ici avec nous en ce jour recherchant la miséricorde pour leurs âmes. Que le Seigneur notre Dieu nous accorde à tous Sa pitié et qu'Il nous pardonne nos péchés",
+      "",
+      "صلوا واطلبوا عن كل النفوس المجتمعة معنا اليوم في هذا الموضع يطلبون الرحمة لنفوسهم لكي تدركنا مراحم الرب إلهنا وإياهم ويغفر لنا خطايانا."
+  ],
+  [
       Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
+      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay"
+  ],
+  [
+      Prefix.same + "&C=Priest",
+      "",
+      "Priez et implorez pour tous ceux qui nous ont recommandé de nous souvenir d'eux, chacun par son nom. Que, dans Sa bonté, le Seigneur notre Dieu se souvienne d'eux en tout temps et qu'Il nous pardonne nos péchés.",
+      "",
+      "صلوا واطلبوا عن الذين أوصونا أن نذكرهم كل واحد باسمه لكي يذكرهم الرب إلهنا بالصلاح في كل حين ويغفر لنا خطايانا."
+  ],
+  [
       Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
+      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay"
+  ],
+  [
+      Prefix.same + "&C=Priest",
+      "",
+      "Priez et implorez pour la montée des eaux des fleuves en cette année. Que le Christ notre Dieu les bénisse, les rende abondantes, réjouisse la face de la terre, qu’Il prenne soin de nous, les hommes et qu'Il sauve Son peuple et les animaux. Qu'Il éloigne du monde la mort, la vie coûteuse, les épidémies, l'anéantissement et l'attaque des ennemis. Qu'Il amène le calme, la paix et la tranquillité dans la sainte Église. Qu'Il élève le prestige des Chrétiens en tout lieu dans l'univers jusqu'au dernier soupir et qu'Il nous pardonne nos péchés.",
+      "",
+      "صلوا واطلبوا عن صعود مياه الأنهار في هذه السنة لكي يباركها المسيح إلهنا ويصعدها كمقدارها ويفرح وجه الأرض ويعولنا نحن البشر ويعطي النجاة لشعبه والماشية ويرفع عن العالم الموت والغلاء والوباء والفناء والسبي وسيف الأعداء ويجعل الهدوء والسلام والطمأنينة في البيعة المقدسة ويرفع شأن المسيحيين في كل مكان وفي كل المسكونة إلى النفس الأخير ويغفر لنا خطايانا"
+  ],
+  [
       Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
+      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay"
+  ],
+  [
+      Prefix.same + "&C=Priest",
+      "",
+      "Priez et implorez pour cette sainte Pâques de notre Bon Sauveur. Qu'Il l'accomplisse pour nous en paix, nous montre la joie de Sa sainte résurrection en étant tous en bonne santé, et nous pardonne nos péchés.",
+      "",
+      "صلوا واطلبوا عن هذه البصخة المقدسة التي لمخلصنا الصالح لكي يكملها لنا بسلام ويرينا بهجة قيامته المقدسة ونحن جميعاً سالمين ويغفر لنا خطايانا."
+  ],
+  [
       Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
+      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay"
+  ],
   ],
   [
     [
-      Prefix.HolyWeek + "Evening1Litany&D=$Seasons.HolyWeek&C=Title",
+      Prefix.HolyWeek + "FinalLitanyE&D=$Seasons.HolyWeek&C=Title",
       "",
-      "",
+      "Litanies du soir",
       "",
       "طلبة المساء",
     ],
@@ -26799,576 +26855,329 @@ PrayersArrayFR = [
     [
       Prefix.same + "&C=Priest",
       "",
+      "Nous Te supplions et nous T'implorons, ô Dieu le Père Tout-Puissant, le Fils unique créateur de tout et qui dirige tout et le Saint-Esprit vivifiant ; Trinité Sainte devant qui tout genou fléchit, au ciel et sur la terre. Nous T'implorons Seigneur, écoute-nous et aie pitié de nous. ",
       "",
+      "نسأل ونتضرع إليك أيها السيد الله الأب ضابط الكل والابن الوحيد القدوس، خالق الكل ومدبرهم والروح القدس المحيي الثالوث القدوس الذي تجثو له كل ركبة ما في السماوات وما على الأرض\nنسألك يا رب اسمعنا وارحمنا."
+  ],
+  [
+      Prefix.placeHolder,
+      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay"
+  ],
+  [
+      Prefix.same + "&C=Priest",
       "",
-      "نسأل ونتضرع إليك أيها السيد الله الأب ضابط الكل والابن الوحيد القدوس، خالق الكل ومدبرهم والروح القدس المحيي الثالوث القدوس الذي تجثو له كل ركبة ما في السموات وما في الأرض نسألك يا رب اسمعنا واحمنا.&&&من أجل السلامة العالية وتآلف سائر البيع التي في العالم والأديرة والمجامع المقدسة والسكان فيها والقيام باحوالها: يا الله تحنن على خلقيتك ونجها من كل سوء. نسألك يا رب اسمعنا وارحمنا.&&&يا من بقدرته دبر حياة الإنسان قبل خلقته وصنع له الموجودات بحكمته وزين السماء بالنجوم والأرض بالنباتات والأشجار والكروم والأودية، انت الآن يا ملكنا اقبل طلبات عبيدك الواقفين بين يديك القائلين. نسألك يا رب اسمعنا وارحمنا.&&&يا الله العظيم القدوس الذي خلق الإنسان على صورته ومثاله وجعل فيه نفساً حية عاقلة ناطقة. ارحم يا رب جبلتك التي خلقتها وتحنن عليها وارسل علينا رحمتك من علو قدسك ومسكنك المستعد نسألك.&&&يا من خلصت عبدك نوحاً البار ونجيته من الطوفان هو وبنوه ونساءهم وأيضاً الحيوانات الطاهرة وغير الطاهرة لأجل تجديد الأرض مرة أخرى. نسألك يا رب اسمعنا وارحمنا.&&&أيها الباري رازق الكل. نج شعبك من طوفان بحر العالم الزائل وارفع عنهم كل مكروه. وكل الحيوانات ايضاً وسائر الطيور أعطاها قوتها لأنك تعطي للبهائم رزقاً ولفراخ الغربان قوتاً. نسألك يا رب اسمعنا وارحمنا.&&&يا من ضيف عنده عبده إبراهيم رئيس الآباء واتكأ على مائدته وبارك في زرعه، انت الآن يا ملكنا اقبل طلبة عبيدك وكهنتك الواقفين بين يديك وتراءف على العالم وخلص شعبك من كل شدة وحل فيهم وسر بينهم. نسألك يا رب اسمعنا وارحمنا.&&&نطلب إليك يا رب لكي تحرسنا من جميع الشرور وتراءف على خليقتك وجميع شعبك لأن اعين الكل تترجاك وأعطهم طعامهم في حينه. يا مغذى كل ذي جسد. يا عون من لاعون له. يا رجاء من لا رجاء له. نسألك يا رب اسمعنا وارحمنا.&&&أيها الناظر إلى المتواضعين بعين عنايتك التي لا تغفل وخلصت يوسف من امرأة سيدة وجعلته ملكاً على مصر وأحوالها واجزت عليه أيام الشدة. فأتي إليه أخوته وأبوه يعقوب وسجدوا بين يديه وأخذوا منه حنطة لقوت بنيهم ومواشيهم. نحن الجميع أيضاً نخضع لك برؤوسنا ونسجد ما بين يديك ونشكرك يا خالقنا ورازقنا على هذا الحال وفي كل حال ومن أجل سائر الأحوال ونجنا يا الله من كل شدة. نسألك يا رب اسمعنا وارحمنا.&&&أيها الإله كلمة الأب الفاعل في الناموس والأنبياء والعهد القديم ومكملهم خلص شعبك من كل ضيقة ودبر حياتهم كحسب إرادتك الصالحة وأرفع عنا كل القحط والبلية. نسألك يا رب اسمعنا وارحمنا.&&&يا من عال الشعب الاسرائيلي اربعين سنة في طور سيناء ولم يكن لهم بيوت ولا مخازن. انت الآن يا سيدي أحفظ شعبك وعلهم وبارك في منازلهم ومخازنهم بالبركات السمائية. نسألك يا رب اسمعنا وارحمنا.&&&يا من قبلت طلبة إيليا التسبيتي عندما امطرت السموات وانبتت الأرض وباركت في كيلة الدقيق وقسط الزيت في بيت الأرملة أقبل طلبة شعبك بصلوات قديسيك وأنبيائك الاطهار. نسألك يا رب اسمعنا وارحمنا.&&&يا الله تراءف على العالم بعين الرحمة والرأفة وبارك في كيل غلاتهم ومخازنهم وفي القليل الذي عندهم وأصعد مياه الأنهار كمقدارها وهب اعتدالا للأهوبة، ونيل مصر باركه في هذا العالم وكل عام وفرح وجه الأرض وعلنا نحن البشر. نسألك يا رب اسمعنا وارحمنا.&&&يا من قبلت توبة أهل نينوى عندما صام الجميع. وقبلت إليك اعتراف اللص اليمين على الصليب. هكذا نحن اجعلنا مستحقين لرضاك وتحننك لندعوك قائلين اذكرنا يا رب متى جئت في ملكوتك. وأقبل توبة عبيدك وصومهم وصلواتهم وقرابينهم المرفوعة على مذابحك المقدسة بخوراً طيباً وأرحمهم. نسألك يا رب اسمعنا وارحمنا.&&&أيها المدبر القوي المؤدب الشافي طبيب الأرواح والأجساد الذي امتحن عبده أيوب وشفاه من بلاياه ورد عليه ما فقد منه أزيد مما كان. ارحم شعبك وخلصه من جميع البلايا والمحن والتجارب والشدائد. يا ناصر جميع المتوكلين عليك. نسألك يا رب اسمعنا وارحمنا.&&&أيها المسيح إلهنا كلمة الأب الذي عاهد تلاميذه الأطهار وغسل أقدامهم وجعلهم رؤساء للمؤمنين ومناراً للدين واشبع بهم النفوس الجائعة وعلمهم الصلاة قائلين: أبانا الذي في السموات لا تدخلنا التجارب لكن نجنا من الشرير.. نسألك يا رب اسمعنا وارحمنا.&&&يا صانع العجائب والمعجزات ومن أشبع الألوف من الخمس خبزات وأقام الأموات وبارك في العرس بقانا الجليل الان أيها السيد بارك لعبيدك في خبزهم وزيتهم وزرعهم ونحلهم وفي متاجرهم وصنائعهم وأعمالهم. نسألك يا رب اسمعنا وارحمنا.&&&يا رب خلص شعبك واحطهم من كل ناحية باشارة صليبك المحيي وأرفع شأن المسيحيين في المسكونة كلها وحنن عليهم قلوب المتولين عليهم وعطف قلوبهم على اخواتنا المساكين والمعوزين بالإحسان وابعد عنهم كل مكروه. نسألك يا رب اسمعنا وارحمنا.&&&يا رب يا من ترك لنا عهده المقدس جسده ودمه حاضراً عندنا كل يوم على المذبح خبزاً وخمراً بحلول روح قدسه وأوصانا قائلاً اصنعوه لذكرى. نسألك يا رب اسمعنا وارحمنا.&&&أيها المسيح إلهنا ارحم شعبك وخليفة رسلك واعط بركة لثمرات الأرض وابهج قلب الإنسان بكثرة ثمرات القمح والكروم والزيت. نسألك يا رب اسمعنا وارحمنا.&&&أيها المولود من الأب الذي تجسد من البكر البتول العذراء مرتمريم في أخر الأيام الذي قال لتلاميذه القديسين امضوا وتلمذوا كل الأمم وعمدوهم جميع ما أوصيتكم به. هوذا أنا معكم كل الأيام وإلى انقضاء العالم. كن أيضاً مع شعبك الصارخين إليك قائلين. نسألك يا رب اسمعنا وارحمنا.&&&يا غافر الخطايا ومانح العطايا اغفر خطايا شعبك وطهرهم من كل دنس وأغسلهم من كل غش ابعد عنهم اليمين الحانثة وكل حسد وكل نميمة وانزع من قلوبهم الفكر الرديء والوسواس وكل الشكوك والكبرياء وكل قساوة وتجبر. نسألك يا رب اسمعنا وارحمنا.&&&أنت هي سور خلاصنا يا والدة الإله الحصن المنيع الغير الواقع إليك نسأل مشورة المعاندين لنا أبطلى. وحزن عبيدك إلى فرح ردى ولمدينتنا صونى وعن الملوك الأرثوذكسيين حاربي وعن سلام العالم والبيع اشفعي. نسألك يا رب اسمعنا وارحمنا.&&&يا إله الرحمة والرأفة ورب كل عزاء لا تسخط علينا ولا تؤاخذنا بسوء أعمالنا ولا بكثرة خطايانا ولا تغضب علينا ولا يدوم غضبك إلى الأبد. انصت يا إله يعقوب وانظر يا إله عوننا وارفع عن العالم الموت والغلاء والوباء والجلاء وسيف الأعداء والزلازل والأهوال وكل أمر مخيف. نسألك يا رب اسمعنا وارحمنا.&&&من أجل حفظنا تحت اليد العالية المقدسة التي لك يا الله نطلب إليك أن تبقى لنا وعلينا حياة الأب المكرم البطريرك أنبا (فلان) وان تحفظ لنا حياته وتثبته على كرسيه سنين عديدة وأزمنة سالمة هادية مديدة. نسألك يا رب اسمعنا وارحمنا.&&&أيها المسيح إلهنا نطلب من جودك ومراحمك العالية أن تبقى لنا وعلينا حياة آبائنا المطارنة والأساقفة وكل الرؤساء والرعاة احفظهم وغنم رعيتهم ثبتهم. أعط حفظاً للكهنة طهارة للشمامسة، قوة للمشايخ فهماً للأطفال، عفة للأبكار نسكاً للرهبان والراهبات نقاوة للمتزوجين صونا للنساء. نسألك يا رب اسمعنا وارحمنا.&&&وأيضا الضالين والمسافرين ردهم، والأرامل والأيتام علهم والجياع والعطاش أشعبهم والذين عليهم دين أوف عنهم وسامحهم، والمحبوسين والذين في الشدائد افرج عنهم، والمرضى أشفهم والراقدين نيحهم. نسألك يا رب اسمعنا وارحمنا.&&&يا إله آبائنا القديسين لا تتخل عنا ولا تخيب الذين خلقتهم بيدك الطاهرة واظهرت حبك للبشرية أيها الرحوم اقبل من والدتك شفاعة من اجلنا وخلصنا يا مخلص شعباً متواضعاً لا تغفل عنا إلى الغاية ولا تسلمنا إلى الانقضاء من اجل اسمك القدوس لا تنقض عهدك ولا تبعد عنا رحمتك من أجل إبراهيم حبيبك واسحق عبدك ويعقوب قديسك. نسألك يا رب اسمعنا وارحمنا.",
-    ],
-    [
+      "Pour la paix qui vient d'en haut, l'harmonie de toutes les églises qui sont dans le monde, les monastères, les saints synodes, les peuples et ceux qui les dirigent : ô Dieu sois compatissant envers Ta création et sauve-la de tout mal. Nous T'implorons Seigneur, écoute-nous et aie pitié de nous.",
+      "",
+      "من أجل السلامة العالية وتآلف سائر البيع التي في العالم والأديرة والمجامع المقدسة والسكان فيها والقيام باحوالها: يا الله تحنن على خلقيتك ونجها من كل سوء نسألك يا رب اسمعنا وارحمنا."
+  ],
+  [
       Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
+      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay"
+  ],
+  [
+      Prefix.same + "&C=Priest",
+      "",
+      "Tu as dirigé, par Ton pouvoir, la vie de l'homme dès avant sa création. Tu as construit pour lui, par Ta sagesse, tout ce qui existe. Tu as orné le ciel par les étoiles et la terre par les plantes, les arbres, les vignes, les vallées, l'herbe et les fleurs. Maintenant ô notre Roi, accepte les demandes de tes serviteurs qui sont debout entre Tes bras et qui disent : nous T'implorons Seigneur, écoute-nous et aie pitié de nous. ",
+      "",
+      "يا من بقدرته دبر حياة الإنسان قبل خلقته وصنع له الموجودات بحكمته وزين السماء بالنجوم والأرض بالنباتات والأشجار والكروم والأودية، انت الآن يا ملكنا اقبل طلبات عبيدك الواقفين بين يديك القائلين نسألك يا رب اسمعنا وارحمنا."
+  ],
+  [
       Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
+      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay"
+  ],
+  [
+      Prefix.same + "&C=Priest",
+      "",
+      "Ô Dieu grand et saint qui a créé l'homme à Son image et à Sa ressemblance et lui a accordé une âme vivante et intelligente dotée de la parole. Aie pitié, Seigneur, de Ta création et sois miséricordieux avec elle. Fais descendre vers nous ta pitié du haut de Ta sainte demeure. Nous T'implorons Seigneur, écoute-nous et aie pitié de nous.",
+      "",
+      "يا الله العظيم القدوس الذي خلق الإنسان على صورته ومثاله وجعل فيه نفساً حية عاقلة ناطقة. ارحم يارب جبلتك التي خلقتها وتحنن عليها وأرسل علينا رحمتك من علو قدسك ومسكنك المستعد نسألك يا رب اسمعنا وارحمنا."
+  ],
+  [
       Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
+      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay"
+  ],
+  [
+      Prefix.same + "&C=Priest",
+      "",
+      "Toi qui as sauvé Ton serviteur Noé le juste et l'a secouru du déluge avec ses enfants et leurs épouses ainsi que les animaux purs et impurs pour le renouveau de la terre ; nous T'implorons Seigneur, écoute-nous et aie pitié de nous.",
+      "",
+      "يا من خلصت عبدك نوح البار ونجيته من الطوفان هو وبنوه ونساءهم وأيضاً الحيوانات الطاهرة وغير الطاهرة لأجل تجديد الأرض مرة أخرى نسألك يا رب اسمعنا وارحمنا."
+  ],
+  [
       Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
+      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay"
+  ],
+  [
+      Prefix.same + "&C=Priest",
+      "",
+      "Toi qui crées et nourris tout, sauve Ton peuple du déluge de ce monde éphémère. Eloigne d'eux toute abomination. Accorde aussi aux animaux et aux oiseaux leur nourriture car c'est Toi qui donnes aux animaux leur subsistance et aux jeunes corbeaux leur nourriture. Nous T'implorons Seigneur, écoute-nous et aie pitié de nous.",
+      "",
+      "أيها الباري رازق الكل نج شعبك من طوفان بحر العالم الزائل وارفع عنهم كل مكروه وكل الحيوانات أيضاً وسائر الطيور أعطها قوتها لأنك تعطي للبهائم رزقاً ولفراخ الغربان قوتاً نسألك يا رب اسمعنا وارحمنا."
+  ],
+  [
       Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
+      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay"
+  ],
+  [
+      Prefix.same + "&C=Priest",
+      "",
+      "Toi qui as été l'invité de Ton serviteur le patriarche Abraham, Tu T'es assis à sa table et Tu as béni sa descendance. Maintenant notre Roi, reçois l'imploration de Tes serviteurs et de Tes prêtres qui sont debout entre Tes mains. Sois miséricordieux envers le monde. Sauve Ton peuple de toute rudesse. Sois parmi eux et marche au milieu d'eux. Nous T'implorons Seigneur, écoute-nous et aie pitié de nous.",
+      "",
+      "يا من ضيف عند عبده إبراهيم رئيس الآباء واتكأ على مائدته وبارك في زرعه، أنت الآن يا ملكنا اقبل طلبة عبيدك وكهنتك الواقفين بين يديك وتراءف على العالم وخلص شعبك من كل شدة وحل فيهم وسر بينهم نسألك يا رب اسمعنا وارحمنا."
+  ],
+  [
       Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
+      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay"
+  ],
+  [
+      Prefix.same + "&C=Priest",
+      "",
+      "Nous T'implorons, Seigneur, de nous protéger de tout mal. Sois clément avec Ta créature et tout Ton peuple. Car les yeux de tous sont fixés sur Toi et c'est Toi qui les nourris en temps convenable, Toi qui nourris toute chair. Tu es le secours de ceux qui n'ont pas d'autre secours, l’Espérance de ceux qui n'ont pas d'espérance. Nous T'implorons Seigneur, écoute-nous et aie pitié de nous.",
+      "",
+      "نطلب إليك يارب لكي تحرسنا من جميع الشرور وتراءف على خليقتك وجميع شعبك لأن أعين الكل تترجاك وأعطهم طعامهم في حينه يا مغذى كل ذي جسد يا عون من لاعون له يا رجاء من لا رجاء له نسألك يا رب اسمعنا وارحمنا."
+  ],
+  [
       Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
+      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay"
+  ],
+  [
+      Prefix.same + "&C=Priest",
+      "",
+      "Toi qui regardes les humbles avec intérêt et sans distraction, Tu as sauvé Joseph de la femme de maître. Tu en as fait un prince de l'Egypte et de ce qui la concerne. Tu l'as aidé à vaincre les jours difficiles. Ses frères et son père Jacob sont venus à lui et se sont prosternés devant lui. Il leur a donné du froment pour la nourriture de leurs enfants et de leurs animaux. Nous tous, nous inclinons nos têtes et nous nous prosternons devant Toi et nous Te rendons grâce, Toi notre Créateur qui pourvois à notre subsistance, en cette circonstance, en chaque circonstance et pour toutes les circonstances. Sauve-nous ô notre Dieu de tout mal. Nous T'implorons Seigneur, écoute-nous et aie pitié de nous.",
+      "",
+      "أيها الناظر إلى المتواضعين بعين عنايتك التي لا تغفل وخلصت يوسف من إمرأة سيده وجعلته ملكاً على مصر وأحوالها وأجزت عليه أيام الشدة. فأتي إليه أخوته وأبوه يعقوب وسجدوا بين يديه وأخذوا منه حنطة لقوت بنيهم ومواشيهم. نحن الجميع أيضاً نخضع لك برؤوسنا ونسجد ما بين يديك ونشكرك يا خالقنا ورازقنا على هذا الحال وفي كل حال ومن أجل سائر الأحوال ونجنا يا الله من كل شدة نسألك يا رب اسمعنا وارحمنا."
+  ],
+  [
       Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
+      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay"
+  ],
+  [
+      Prefix.same + "&C=Priest",
+      "",
+      "Ô Dieu, le Verbe du Père, Toi qui agis dans la Loi, dans les prophètes et dans l'ancienne alliance et qui les as accomplis. Sauve Ton peuple de toute difficulté. Dirige leur vie selon Ta sainte volonté. Eloigne de nous toute famine et tout malheur. Nous T'implorons Seigneur, écoute-nous et aie pitié de nous.",
+      "",
+      "أيها الإله كلمة الأب الفاعل في الناموس والأنبياء والعهد القديم ومكملهم خلص شعبك من كل ضيقة ودبر حياتهم حسب إرادتك الصالحة وأرفع عنا كل قحط وبلية نسألك يا رب اسمعنا وارحمنا."
+  ],
+  [
       Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
+      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay"
+  ],
+  [
+      Prefix.same + "&C=Priest",
+      "",
+      "Toi qui as entretenu le peuple d'Israël 40 années dans le désert du Sinaï alors qu'il n'avait ni maison ni entrepôt. Maintenant aussi, Maître, protège Ton peuple et entretiens-le. Bénis leurs maisons et leurs entrepôts par Tes bénédictions célestes. Nous T'implorons Seigneur, écoute nous et aie pitié de nous.",
+      "",
+      "يا من عال الشعب الإسرائيلي أربعين سنة في طور سيناء ولم يكن لهم بيوت ولا مخازن أنت الآن يا سيدي إحفظ شعبك وعلهم وبارك في منازلهم ومخازنهم بالبركات السمائية نسألك يا رب اسمعنا وارحمنا."
+  ],
+  [
       Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
+      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay"
+  ],
+  [
+      Prefix.same + "&C=Priest",
+      "",
+      "Toi qui as écouté l'imploration d'Élie le Thisbite alors il plut et la terre se mit à germer. Tu as béni la cruche de farine et la jarre d'huile dans la maison de la veuve. Reçois l'imploration de Ton peuple par les prières de Tes saints et de Tes prophètes. Nous T'implorons Seigneur, écoute-nous et aie pitié de nous.",
+      "",
+      "يا من قبلت طلبة إيليا التسبيتي عندما أمطرت السماوات وأنبتت الأرض وباركت في كيلة الدقيق وقسط الزيت في بيت الأرملة إقبل طلبة شعبك بصلوات قديسيك وأنبيائك الاطهار نسألك يا رب اسمعنا وارحمنا."
+  ],
+  [
       Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
+      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay"
+  ],
+  [
+      Prefix.same + "&C=Priest",
+      "",
+      "Ô Dieu, sois compatissant envers le monde selon Ta miséricorde et Ta compassion. Bénis leurs récoltes et leurs entrepôts et le peu qu'ils possèdent. Fais monter les eaux des fleuves comme il convient. Calme les vents. Bénis les fleuves de nos pays en cette année comme en tout temps. Réjouis la face de la terre. Pourvois à nos besoins, nous, les hommes. Nous T'implorons Seigneur, écoute-nous et aie pitié de nous.",
+      "",
+      "يا الله تراءف على العالم بعين الرحمة والرأفة وبارك في كيل غلاتهم ومخازنهم وفي القليل الذي عندهم واصعد مياه الأنهار كمقدارها وهب إعتدالا للأهوية، وأنهار بلداننا باركها في هذا العام وكل عام وفرح وجه الأرض وعلنا نحن البشر نسألك يا رب اسمعنا وارحمنا."
+  ],
+  [
       Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
+      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay"
+  ],
+  [
+      Prefix.same + "&C=Priest",
+      "",
+      "Toi, qui as accepté le repentir des habitants de Ninive lorsqu'ils ont tous jeûné. Tu as accepté aussi la confession du larron crucifié à Ta droite. Rends-nous dignes de Ta satisfaction et de Ta compassion pour que nous T'invoquions en disant : souviens-Toi de nous Seigneur quand Tu viendras dans Ton royaume. Reçois le repentir de Tes serviteurs, leurs jeûnes, leurs prières et leurs offrandes qui sont élevés sur Tes saints autels en odeur d'encens. Aie pitié d'eux. Nous T'implorons Seigneur, écoute-nous et aie pitié de nous.",
+      "",
+      "يا من قبلت توبة أهل نينوي عندما صام الجميع وقبلت إليك اعتراف اللص اليمين على الصليب هكذا نحن إجعلنا مستحقين لرضاك وتحننك لندعوك قائلين اذكرنا يارب متى جئت في ملكوتك. وأقبل توبة عبيدك وصومهم وصلواتهم وقرابينهم المرفوعة على مذابحك المقدسة بخوراً طيباً وارحمهم نسألك يا رب اسمعنا وارحمنا."
+  ],
+  [
       Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
+      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay"
+  ],
+  [
+      Prefix.same + "&C=Priest",
+      "",
+      "Tu es Celui qui prévoit tout par Ta puissance. Tu éduques et guéris. Tu es le médecin de nos esprits et de nos corps. Tu as examiné Ton serviteur Job et l'as guéri de toutes ses afflictions. Tu lui as donné plus que ce qu'il avait perdu. Aie pitié de Ton peuple et sauve-le de tout mal, toute épreuve, toute tentation et toute difficulté. Toi, qui donnes la victoire à tous ceux qui se confient à Toi. Nous T'implorons Seigneur, écoute-nous et aie pitié de nous.",
+      "",
+      "أيها المدبر القوى المؤدب الشافي طبيب الأرواح والأجساد الذي امتحن عبده أيوب وشفاه من بلاياه ورد عليه ما فقد منه أكثر مما كان. ارحم شعبك وخلصه من جميع البلايا والمحن والتجارب والشدائد يا ناصر جميع المتوكلين عليك نسألك يا رب اسمعنا وارحمنا."
+  ],
+  [
       Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
+      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay"
+  ],
+  [
+      Prefix.same + "&C=Priest",
+      "",
+      "Ô Christ notre Dieu et Verbe du Père, Tu as scellé une alliance avec tes saints disciples et leur as lavé les pieds. Tu les as fait pères de tous les croyants, lumière de la Foi. Par eux Tu as rassasié les âmes affamées. Tu leur as appris à prier en disant : « Notre Père qui es aux cieux ne nous induis pas en tentation mais délivre-nous du mal ». Nous T'implorons Seigneur, écoute-nous et aie pitié de nous.",
+      "",
+      "أيها المسيح إلهنا كلمة الأب الذي عاهد تلاميذه الأطهار وغسل أقدامهم وجعلهم قادة للمؤمنين ومناراً للدين واشبع بهم النفوس الجائعة وعلمهم الصلاة قائلين: أبانا الذي في السماوات لا تدخلنا التجارب لكن نجنا من الشرير نسألك يا رب اسمعنا وارحمنا."
+  ],
+  [
       Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
+      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay"
+  ],
+  [
+      Prefix.same + "&C=Priest",
+      "",
+      "Tu as fait les merveilles et les miracles. Tu as rassasié les milliers avec cinq pains. Tu as ressuscité les morts. Tu as béni les noces de Cana en Galilée. Maintenant aussi ô Maître, bénis le pain de Tes serviteurs, leur huile, leurs plantes, leur miel, leur commerce et leurs métiers. Nous T'implorons Seigneur, écoute-nous et aie pitié de nous.",
+      "",
+      "يا صانع العجائب والمعجزات ومن أشبع الألوف من الخمس خبزات وأقام الأموات وبارك العرس في قانا الجليل الان أيها السيد بارك لعبيدك في خبزهم وزيتهم وزرعهم ونحلهم وفي متاجرهم وصنائعهم وأعمالهم نسألك يا رب اسمعنا وارحمنا."
+  ],
+  [
       Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
+      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay"
+  ],
+  [
+      Prefix.same + "&C=Priest",
+      "",
+      "Seigneur sauve Ton peuple. Protège-le de toute part par le signe de Ta Croix vivifiante. Exalte les chrétiens dans tout l'univers. Attendris le cœur de leurs supérieurs. Accorde-leur la compassion envers nos frères les malheureux et ceux qui sont dans le besoin. Eloigne d'eux tout ce qui est détestable. Nous T'implorons Seigneur, écoute-nous et aie pitié de nous.",
+      "",
+      "يارب خلص شعبك واحطهم من كل ناحية بإشارة صليبك المحيي وارفع شأن المسيحيين في المسكونة كلها وحنن عليهم قلوب المتولين عليهم وعطف قلوبهم على إخواتنا المساكين والمعوزين بالإحسان وابعد عنهم كل مكروه نسألك يا رب اسمعنا وارحمنا."
+  ],
+  [
       Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
+      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay"
+  ],
+  [
+      Prefix.same + "&C=Priest",
+      "",
+      "Seigneur, Tu nous as légué Ta sainte alliance, ton Corps et ton Sang présents tous les jours sur l'autel sous forme de pain et de vin par la venue de ton Esprit Saint en eux et tu nous as recommandé : « Faites ceci en mémoire de moi ». Nous T'implorons Seigneur, écoute-nous et aie pitié de nous.",
+      "",
+      "يارب يا من ترك لنا عهده المقدس جسده ودمه حاضراً عندنا كل يوم على المذبح خبزاً وخمراً بحلول روح قدسه وأوصانا قائلاً إصنعوه لذكرى نسألك يا رب اسمعنا وارحمنا."
+  ],
+  [
       Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
+      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay"
+  ],
+  [
+      Prefix.same + "&C=Priest",
+      "",
+      "Ô Christ notre Dieu, aie pitié de Ton peuple et des successeurs de Tes apôtres. Bénis les fruits de la terre. Réjouis le cœur de l'homme par la multiplication du blé, des vignes et de l'huile. Nous T'implorons Seigneur, écoute-nous et aie pitié de nous.",
+      "",
+      "أيها المسيح إلهنا ارحم شعبك وخليفة رسلك وإعط بركة لثمرات الأرض وأبهج قلب الإنسان بكثرة ثمرات القمح والخمر والزيت نسألك يا رب اسمعنا وارحمنا."
+  ],
+  [
       Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
+      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay"
+  ],
+  [
+      Prefix.same + "&C=Priest",
+      "",
+      "Toi qui es né du Père, Tu t'es incarné de la Sainte Vierge Marie à la fin des temps. Tu as dit à tes saints apôtres : « Allez, enseignez toutes les nations et baptisez-les apprenez-leur tout ce que je vous ai recommandé. Je suis avec vous tous les jours et jusqu'à la fin des temps. » Sois aussi avec Ton peuple qui T'implore en disant : nous T'implorons Seigneur, écoute-nous et aie pitié de nous.",
+      "",
+      "أيها المولود من الآب الذي تجسد من البكر البتول العذراء مريم في أخر الأيام الذي قال لتلاميذه القديسين امضوا وتلمذوا كل الأمم وعمدوهم وعلموهم جميع ما أوصيتكم به. هوذا أنا معكم كل الأيام وإلى إنقضاء العالم. كن أيضاً مع شعبك الصارخين إليك قائلين نسألك يا رب اسمعنا وارحمنا."
+  ],
+  [
       Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
+      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay"
+  ],
+  [
+      Prefix.same + "&C=Priest",
+      "",
+      "Toi, qui remets les péchés et confères les dons, remets les péchés de Ton peuple et purifie-les de toute souillure. Lave-les de toute fraude. Eloigne-les de tout parjure, de toute envie et de toute calomnie. Ôte de leur cœur les mauvaises pensées, les soupçons, le doute, l'orgueil et la dureté de cœur. Nous T'implorons Seigneur, écoute-nous et aie pitié de nous.",
+      "",
+      "يا غافر الخطايا ومانح العطايا اغفر خطايا شعبك وطهرهم من كل دنس واغسلهم من كل غش ابعد عنهم اليمين الحانثة وكل حسد وكل نميمة وانزع من قلوبهم الفكر الرديء والوسواس وكل الشكوك والكبرياء وكل قساوة وتجبر نسألك يا رب اسمعنا وارحمنا."
+  ],
+  [
       Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
+      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay"
+  ],
+  [
+      Prefix.same + "&C=Priest",
+      "",
+      "Tu es l'enceinte de notre salut ô Mère de Dieu la puissante forteresse indestructible. Nous te demandons de mettre fin aux projets de ceux qui s'opposent à nous. Convertis le chagrin de tes serviteurs en joie. Protège notre ville. Combats pour les dirigeants orthodoxes. Intercède pour la paix du monde et de nos églises. Nous T'implorons Seigneur, écoute-nous et aie pitié de nous.",
+      "",
+      "أنت هي سور خلاصنا يا والدة الإله الحصن المنيع الغير المنثلم إليك نسأل مشورة المعاندين لنا أبطلى. وحزن عبيدك إلى فرح ردى ولمدينتنا صونى وعن الرؤساء الأرثوذكسيين حاربي وعن سلام العالم والكنائس اشفعي نسألك يا رب اسمعنا وارحمنا."
+  ],
+  [
       Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
+      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay"
+  ],
+  [
+      Prefix.same + "&C=Priest",
+      "",
+      "Ô Dieu de miséricorde et de compassion, Seigneur de toute consolation ne T'emporte pas envers nous. Ne nous juge pas selon nos mauvaises actions et nos nombreux péchés. Ne T'irrite pas contre nous et que Ta colère ne demeure pas éternellement. Ecoute, Dieu de Jacob ; regarde, Dieu de notre secours. Enlève du monde la mort, la vie coûteuse, les épidémies, les armes des ennemis, les tremblements de terre et les terreurs. Nous T'implorons Seigneur, écoute nous et aie pitié de nous.",
+      "",
+      "يا إله الرحمة والرأفة ورب كل عزاء لا تسخط علينا ولا تؤاخذنا بسوء أعمالنا ولا بكثرة خطايانا ولا تغضب علينا ولا يدوم غضبك إلى الأبد. أنصت يا إله يعقوب وانظر يا إله عوننا وارفع عن العالم الموت والغلاء والوباء والفناء وسيف الأعداء والزلازل والأهوال وكل أمر مخيف نسألك يا رب اسمعنا وارحمنا."
+  ],
+  [
       Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
+      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay"
+  ],
+  [
+      Prefix.same + "&C=Priest",
+      "",
+      "Pour que nous soyons sous la protection de Ta Main puissante et sainte, ô Dieu, nous t'implorons de garder pour nous notre saint père, le patriarche, Anba (---), et son confrère dans le service apostolique, l’évêque Anba (---) protège pour nous leurs vies, maintiens-les sur leurs trônes de nombreuses années paisibles et calmes. Nous T'implorons Seigneur, écoute-nous et aie pitié de nous",
+      "",
+      "من أجل حفظنا تحت اليد العالية المقدسة التي لك يا الله نطلب إليك أن تبقى لنا وعلينا حياة الأب المكرم البطريرك الأنبا (---) وشريكَه في الخدمة الرسولية  أبينا الأسقف الأنبا (---) وان تحفظ لنا حياتهم وتثبتهم على كرسيهم سنين عديدة وأزمنة سالمة هادئة مديدة نسألك يا رب اسمعنا وارحمنا."
+  ],
+  [
       Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
+      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay"
+  ],
+  [
+      Prefix.same + "&C=Priest",
+      "",
+      "Ô Christ notre Dieu, nous implorons Ta pitié et Ta grande compassion afin de garder pour nous la vie de nos pères les métropolites, les évêques, les dirigeants et les pasteurs. Protège-les et garde leur troupeau dans la Foi. Protège les prêtres, donne la pureté aux diacres, la force aux anciens, la compréhension aux enfants, la chasteté aux aînés, l'ascétisme aux moines et aux moniales, la pureté aux gens mariés et la protection aux femmes. Nous T'implorons Seigneur, écoute-nous et aie pitié de nous.",
+      "",
+      "أيها المسيح إلهنا نطلب من جودك ومراحمك العالية أن تبقى لنا وعلينا حياة آبائنا المطارنة والأساقفة وكل الرؤساء والرعاة احفظهم وغنم رعيتهم ثبتهم. أعط حفظاً للكهنة طهارة للشمامسة، قوة للشيوخ فهماً للأطفال، عفة للأبكار نسكاً للرهبان والراهبات نقاوة للمتزوجين صونا للنساء نسألك يا رب اسمعنا وارحمنا."
+  ],
+  [
       Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
+      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay"
+  ],
+  [
+      Prefix.same + "&C=Priest",
+      "",
+      "Ramène aussi ceux qui sont dans l'errance et les voyageurs. Prends soin des veuves et des orphelins. Rassasie ceux qui ont faim et désaltère ceux qui ont soif. Règle les dettes des débiteurs et pardonne-les. Libère ceux qui sont en prison. Délivre ceux qui sont dans les difficultés. Guéris les malades et accorde le repos aux morts. Nous T'implorons Seigneur, écoute-nous et aie pitié de nous.",
+      "",
+      "وأيضا الضالين والمسافرين ردهم، والأرامل والأيتام علهم والجياع والعطاش أشبعهم والذين عليهم دين أوف عنهم وسامحهم، والمحبوسين والذين في الشدائد أفرج عنهم، والمرضى أشفهم والراقدين نيحهم نسألك يا رب اسمعنا وارحمنا."
+  ],
+  [
       Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
+      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay"
+  ],
+  [
+      Prefix.same + "&C=Priest",
+      "",
+      "Ô Dieu de nos pères les saints ne nous délaisse pas. Eloigne le désespoir de ceux que Tu as créés de Ta main pure. Tu as montré Ton amour des hommes. Accepte, ô miséricordieux, l'intercession de Ta mère pour nous. Sauve nous, Toi le sauveur des humbles. Ne te détourne pas de nous jusqu'à la fin et ne nous abandonne pas jusqu'à l'anéantissement. Pour Ton saint Nom ne brise pas Ton alliance et n'éloigne pas de nous Ta miséricorde. Nous T'implorons pour Abraham Ton bien-aimé, Isaac Ton serviteur et Jacob - Israël - Ton saint. Nous T'implorons Seigneur, écoute-nous et aie pitié de nous.",
+      "",
+      "يا إله آبائنا القديسين لا تتخل عنا ولا تخيب الذين خلقتهم بيدك الطاهرة واظهرت حبك للبشرية أيها الرحوم اقبل من والدتك شفاعة من اجلنا وخلصنا يا مخلص شعباً متواضعاً لا تغفل عنا إلى الغاية ولا تسلمنا إلى الانقضاء من أجل اسمك القدوس لا تنقض عهدك ولا تبعد عنا رحمتك من أجل إبراهيم حبيبك واسحق عبدك ويعقوب قديسك. نسألك يا رب اسمعنا وارحمنا."
+  ],
+  [
       Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
+      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay"
+  ]
+
   ],
   [
     [
-      Prefix.HolyWeek + "Evening3Litany&D=$Seasons.HolyWeek&C=Title",
+      Prefix.HolyWeek + "FinalLitanyE2&D=$Seasons.HolyWeek&C=Title",
       "",
       "",
       "",
       "طلبة ثالثة للمساء",
     ],
-    [
-      Prefix.placeHolder,
-      Prefix.incenseDawn + "GodHaveMercyOnUsRefrain&D=$Seasons.GreatLent",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
+      [
       Prefix.placeHolder,
       Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
     ],
   ],
   [
     [
-      Prefix.HolyWeek + "Evening2Litany&D=$Seasons.HolyWeek&C=Title",
+      Prefix.HolyWeek + "FinalLitanyE3&D=$Seasons.HolyWeek&C=Title",
       "",
       "",
       "",
@@ -27378,277 +27187,6 @@ PrayersArrayFR = [
       Prefix.placeHolder,
       Prefix.incenseDawn + "GodHaveMercyOnUsRefrain&D=$Seasons.GreatLent",
     ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-    ],
-    [Prefix.same + "&C=Priest", "", "", "", "......."],
     [
       Prefix.placeHolder,
       Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",

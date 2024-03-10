@@ -52,6 +52,7 @@ async function startApp() {
       "./Build/modules/DeclareGospelMassArray.js",
       "./Build/modules/DeclareGospelNightArray.js",
       "./Build/modules/DeclarePropheciesDawnArray.js",
+      "./Build/modules/DeclareHolyWeek.js",
     ];
     return textFiles.map((link) => {
       let script: HTMLScriptElement = document.createElement("script");
@@ -1422,6 +1423,7 @@ function toggleSideBars() {
  * @param {HTMLElement} sideBar - the html element representing the side bar that needs to be opened
  */
 async function openSideBar(sideBar: HTMLElement) {
+  if (sideBar.querySelector('#sideBarBtns').children.length < 1) return;
   sideBar.classList.remove(hidden);
 }
 
@@ -1565,18 +1567,22 @@ function toggleAmplifyText(target: HTMLElement, myClass: string) {
  * @returns
  */
 function buildSideBar(id: string) {
-  let sideBar: HTMLElement = document.createElement("div");
-  let btnsDiv: HTMLElement = document.createElement("div");
-  let a: HTMLElement = document.createElement("a");
+  let sideBar: HTMLElement = document.createElement("div"),
+    btnsDiv: HTMLElement = document.createElement("div"),
+  colseBtnDiv: HTMLElement = document.createElement("div"),
+  a: HTMLElement = document.createElement("a");
 
   sideBar.id = id;
   sideBar.classList.add(id);
   sideBar.classList.add("sideBar");
   sideBar.classList.add("collapsed");
 
+
+  colseBtnDiv.appendChild(a);
+  colseBtnDiv.id = 'closeBtnDiv';
   a.innerText = "&times";
-  a.setAttribute("href", "javascript:void(0)");
   a.classList.add("closebtn");
+  a.setAttribute("href", "javascript:void(0)");
   a.addEventListener("click", (e) => {
     e.preventDefault;
     closeSideBar(sideBar);
@@ -2386,7 +2392,9 @@ function showExpandableBtnsPannel(status: string, clear: boolean = false) {
    * Appending an X button on the top right of inlineBtnsDiv
    */
   (function appendCloseBtn() {
+    let divClose = document.createElement('div');
     let close = document.createElement("a");
+    divClose.appendChild(close);
     close.innerText = String.fromCharCode(215);
     close.classList.add("closebtn");
     close.style.position = "fixed";
@@ -11851,299 +11859,6 @@ async function createHtmlArray() {
   };
 }
 
-/**
- * This is a temporary function to clean PrayersArrayFR from the Holy Week Readings tables
- */
-function extractHWReadings() {
-  /*   let HW:string[][][] =
-      PrayersArrayFR
-        .filter(table => table[0][0].startsWith(Prefix.HolyWeek))
-        .filter(table =>
-          ['Gospel', 'Psalm', 'Commentary']
-            .map(word => table[0][0].includes(word))
-            .includes(true));
-      console.log(HW); */
-
-  let HW: string[][][] =
-    PrayersArrayFR
-      .filter(table =>
-        !(table[0][0].startsWith(Prefix.HolyWeek)
-          &&
-          table[0][0].includes('Hour'))
-      );
-
-  console.log(HW);
-
-  saveOrExportArray(HW, 'PrayersArrayFR', true, false);
-  //saveOrExportArray(HW, 'HW', true, false);
-}
-
-function changeHWTtiles() {
-  let GN = ReadingsArrays.GospelNightArrayFR;
-  let monday =
-    GN
-      .filter(tbl => tbl[0][0].startsWith(Prefix.HolyWeek + 'Monday'));
-
-  let index = GN.indexOf(monday[0]);
-
-  let sunday = structuredClone(monday)
-    .filter(table =>
-      !table[0][0].includes('1stHourDay')
-      && !table[0][0].includes('3rdHourDay')
-      && !table[0][0].includes('6thHourDay')
-    );
-
-  sunday.forEach(tbl => tbl[0][0] = tbl[0][0].replace('Monday', 'Sunday'));
-
-  GN.splice(index, 0, ...sunday);
-  GN = GN.filter(tbl => !(tbl[0][0].startsWith(Prefix.HolyWeek + 'Friday') && tbl[0][0].includes('Evening')));
-
-
-  let pairs = [
-    ['Sunday', 'GL7thSunday'],
-    ['Monday', 'GL52'],
-    ['Tuesday', 'GL53'],
-    ['Wednesday', 'GL54'],
-    ['Thursday', 'GL55'],
-    ['Friday', 'GL56'],
-  ];
-  pairs.forEach(array => replaceDates(array));
-
-  function replaceDates(array: string[]) {
-    GN
-      .filter(tbl => tbl[0][0].startsWith(Prefix.HolyWeek + array[0]))
-      .forEach(tbl => {
-        tbl[0][0] =
-          tbl[0][0]
-            .replace(array[0], '')
-            .replace("$Seasons.HolyWeek", array[1])
-      })
-  }
-
-  (function insertProphecies() {
-    let tbl = [
-      [
-        "",
-        "",
-        "",
-        "",
-        "........",
-      ],
-      [
-        Prefix.same + "&C=NoActor",
-        "",
-        "",
-        "",
-        "........",
-      ],
-    ];
-    let n: number, title: string;
-
-    pairs.map(array => array[1])
-      .forEach(date => {
-        let psalms = GN.filter(tbl =>
-          tbl[0][0].startsWith(Prefix.HolyWeek)
-          && tbl[0][0].includes(date)
-          && tbl[0][0].includes('Psalm')
-        );
-
-        psalms
-          .forEach(psalm => {
-            n = GN.indexOf(psalm);
-            title = psalm[0][0].replace('Psalm', 'Prophecies');
-            tbl[0][0] = title;
-            GN.splice(n, 0, structuredClone(tbl));
-          });
-
-      })
-  })();
-
-  saveOrExportArray(GN, 'ReadingsArrays.GospelNightArrayFR', true, false)
-}
-
-function parseWordDocument() {
-  let GN: string[][][] = structuredClone(ReadingsArrays.GospelNightArrayFR),
-    GNTable: string[][];
-
-  let input = document.createElement('input');
-  input.type = 'file';
-  input.id = 'upload';
-  input.addEventListener('change', async () => {
-    retrieveTextFromHtmlDocument(await handleFile()),
-      saveOrExportArray(GN, 'ReadingsArrays.GospelNightArrayFR', true, false)
-  });
-  input.click();
-
-
-
-  async function handleFile(): Promise<Document> {
-    let file = input.files[0];
-    console.log(input.files);
-    let text = await file.text();
-    let parser = new DOMParser();
-
-    return parser.parseFromString(text, 'text/html');
-  }
-
-  function retrieveTextFromHtmlDocument(docHtml: Document) {
-    let tables = docHtml.querySelectorAll('table');
-    let title: string,
-      text: string, cells: HTMLTableCellElement[],
-      newRow: string[];
-
-    tables.forEach(table => {
-      title = table.title;
-      //title = title.split('///')[1].split('///')[0].replaceAll('3D', '');
-      if (!title) return;
-      let tblRows = table.querySelectorAll('tr');
-      GNTable = GN.find(table => table[0][0].includes(title)) || undefined;
-      if (!GNTable) return;
-
-      let langs: string[][] =
-        Array.from(tblRows)
-          .map(tblRow => {
-            let tr = document.createElement('tr');
-            text =
-              tr.textContent = tblRow.textContent;
-            containerDiv.appendChild(tr);
-
-            cells = Array.from(tblRow.querySelectorAll('td'));
-            return cells.map(cell =>
-              cell.textContent
-                .replaceAll('\n\n', '\n')
-                .replaceAll('\\n', '\n')
-                .replaceAll('   ', '  ')
-                .replaceAll('\n\"', '\"')
-            )
-          });
-      
-
-      langs.forEach(lang => {
-        if (!lang[0] && !lang[1] && !lang[2]) return;
-        newRow = [
-          Prefix.same + "&C=Diacon",
-          langs.map(lang => lang[0]).join('\n'),//Coptic
-          langs.map(lang => lang[1]).join('\n'),//French
-          "",//CA
-          langs.map(lang => lang[2]).join('\n'),//Arabic
-        ];
-        if (GNTable[langs.indexOf(lang) + 1]) GNTable[langs.indexOf(lang) + 1] = newRow;
-        else GNTable.push(newRow)
-
-      })
-
-
-    });
-
-  }
-
-  function retrieveTextFromArray(extracted: string[][][]) {
-  
-    let title: string, length: number;
-
-    extracted.forEach(table => {
-      title = splitTitle(table[0][0])[0];
-
-      if (!title) return;
-      
-      GNTable = GN.find(table => table[0][0].includes(title)) || undefined;
-      if (!GNTable) return;
-    
-      
-      table.map(tblRow => {
-        length = GNTable.push(tblRow);
-        GNTable[length - 1][0] = Prefix.same + '+\"' + splitTitle(GNTable[length - 1][0])[1] + "\""
-      })
-    });
-
-  }
-}
-
-function CompleteGNFromArray() {
-  let GN: string[][][] = structuredClone(ReadingsArrays.GospelNightArrayFR);
-  
-    let script: HTMLScriptElement = document.createElement("script");
-    script.src = "./Extracted/HolyWeek.js";
-    script.id = "HolyWeek";
-    script.type = "text/javascript";
-    script.onload = () => processScripts();
-    document.getElementsByTagName("body")[0].appendChild(script);
-  
-  async function processScripts() {
-    await parse();
-    saveOrExportArray(GN, 'ReadingsArrays.GospelNightArrayFR', true, false);
-    function parse() {
-      [
-      'GL7thSundayE',
-      'GL52D',
-      'GL52E',
-      'GL53D',
-      'GL53E',
-      'GL54D',
-      'GL54E',
-      'GL54D',
-      'GL54E',
-      'GL55D',
-      'GL55E',
-      'GL56D',
-      'GL56E',
-    ].forEach(arrayName=>parseArray(eval(arrayName)))
-    }
-  }
-  
-  async function parseArray(extracted:string[][][]) {
-  let   GNTable: string[][];
-  
-    (function retrieveTextFromArray() {
-    
-      let title: string, length: number, last: string[], index:number;
-  
-      extracted.forEach(table => {
-        title = splitTitle(table[0][0])[0];
-  
-        if (!title) return;
-        
-        GNTable = GN.find(table => table[0][0].includes(title)) || undefined;
-        if (!GNTable && title.includes('Seremony&D=')) {
-          GNTable = GN.find(table => table[0][0].includes(title.replace('Sermony', 'Prophecies')));
-          if (!GNTable) return;
-          index = GN.indexOf(GNTable) +1;
-
-          GN.splice(index, 0, [[
-            title + "&C=Title",
-            "",
-            "Sermon de",
-            "",
-            "عظة لأبينا"
-          ]]);
-          
-          GNTable = GN[index];
-        }
-        if (!GNTable) return;
-        index = GN.indexOf(GNTable);
-        GN[index] = [GNTable[0]];
-      
-        let p: HTMLParagraphElement
-        table.map(async tblRow => {
- /*          if (tblRow[1].length > 3) {
-            p = document.createElement('p');
-            p.innerText = tblRow[1];
-            convertCopticFontFromAPI(p, "CS Avva Shenouda")
-              .then(text => tblRow[1] = text);
-            
-          } */
-          length = GN[index].push(tblRow);
-          last = GN[index][length - 1];
-          last[0] = last[0].replace(title, Prefix.same)
-        })
-      });
-  
-    })();
-  }
-}
-
-
-/* function rearangeGospelNigh() {
   let GN = structuredClone(ReadingsArrays.GospelNightArrayFR);
   let newArray: string[][][] = [];
 
@@ -12170,5 +11885,3 @@ function CompleteGNFromArray() {
   };
 
 
-
-} */

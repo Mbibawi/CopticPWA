@@ -98,19 +98,22 @@ body{
 #sideBarBtns{
   display: grid;
   grid-template-columns: 98%;
+  row-gap: 2px;
   width: fit-content;
-  margin-top:3px;
   justify-content: center;
-  margin-bottom: 10cqi;
+  height: fit-content;
+  margin-top: 10cqi;
 }
 
 .sideBarBtn{
   color:white;
+ /* background-image: radial-gradient(#95190c 70%, #99772d 18%) ;*/
   background-color: #95190c;
   border-radius: 9px;
   border-color: #c93702;
-  font-weight: bold !important;
-  text-align: center;
+  border-width: 2px;
+  border-style: solid;
+  box-shadow: 2px 2px 3px #c93702;
   width:38cqi;
   max-width: 400px;
   height: 13cqi;
@@ -119,8 +122,12 @@ body{
 margin-bottom: 2px !important;
 }
 
-
-
+.sideBarBtn>p{
+  font-weight: bold !important;
+  font-size: calc(var(--fSize)*5cqi) !important;
+  text-align: center;
+  text-shadow: 0.5px 0.5px white;
+}
 
 .homeImg{
 align-self: center;
@@ -235,7 +242,6 @@ p{
   text-shadow: 0.8px 0.5px;
   border-top: #9e9894 solid 7px ;
   border-bottom: #9e9894 solid 2px ;
-  box-shadow: 2px 3px 4px grey;
   font-weight: bold;
   font-size: medium !important;
   text-align: center !important;
@@ -280,16 +286,17 @@ color:white;
   box-shadow: 2px 2px 4px rgb(96, 27, 2);
   border: none !important;
   margin: 5px 2px;
-  height: 16vh;
+  height: 22cqh;
   width: 31cqw;
   justify-self: center;
 }
 .mainPageBtns>p{
   text-align: center !important;
   color:rgb(255, 255, 255) !important;
-  font-size: 12pt !important;
+  font-size: calc(var(--fSize)*6vw) !important;
   font-weight: bold !important;
-  line-height: 12pt;
+  text-shadow: 0.5px 0.5px white;
+  line-height: calc(var(--fSize)*10cqh) !important;
 }
 .credentialsDiv{
   font-style: italic;
@@ -434,12 +441,9 @@ br{
 #PriestColor {
   /* background-color: #99aecc; */
   background-image: linear-gradient(to bottom, rgb(1,30,50) 0%, rgb(3, 45, 72)  100%);
-  border-left-color: rgb(1, 55, 89);
-  border-right-color: rgb(1, 55, 89);
-  border-left-width: 7px;
-  border-right-width: 7px;
-  border-left-style: solid;
-  border-right-style: solid;
+  border-left: 7px solid rgb(1, 32, 52);
+  border-right: 7px solid rgb(1, 32, 52);
+
   color:white;
 }
 .Diacon,
@@ -447,23 +451,16 @@ br{
   /* background-color: #9eac89; */
   background-image: linear-gradient( to bottom,  rgb(1, 39, 30) 11.2%, rgb(25, 85, 99) 91.1% );
   border-left-color: #192e01;
-  border-right-color: #192e01;
-  border-left-width: 7px;
-  border-right-width: 7px;
-  border-left-style: solid;
-  border-right-style: solid;
+  border-left: 7px solid #192e01;
+  border-right: 7px solid #192e01;
   color:white;
 }
 .Assembly,
 #AssemblyColor {
   /* background-color: #f9faf2; */
   background-image: linear-gradient( to bottom,  rgba(107,67,7,0.96) 11.2%, rgb(153, 93, 2) 100% );
-  border-left-color: rgba(96, 58, 1, 0.96);
-  border-right-color: rgba(96, 58, 1, 0.96);
-  border-left-width: 7px;
-  border-right-width: 7px;
-  border-left-style: solid;
-  border-right-style: solid;
+  border-right: 7px solid rgba(96, 58, 1, 0.96);
+  border-left: 7px solid rgba(96, 58, 1, 0.96);
   color:white;
 }
 
@@ -495,7 +492,10 @@ br{
 
 /* The sidebar menu */
 .sideBar {
-  min-height: 100%; /* 100% Full-height */
+  display: grid;
+  grid-template-columns: auto;
+  row-gap: 30cqh;
+  height: 100dvh; /* 100% Full-height */
   width: fit-content;
   position: fixed; /* Stay in place */
   z-index: 10 !important; /* Stay on top */
@@ -504,7 +504,6 @@ br{
   background-color: #111; /* Black*/
   overflow-x: hidden; /* Disable horizontal scroll */
   overflow-y:auto;
-  padding-top: 60px; /* Place content 60px from the top */
   padding-left:10px;
   padding-right:10px;
   transition: 0.2s; /* 0.5 second transition effect to slide in the sidebar */
@@ -514,10 +513,12 @@ br{
 .rightSideBar { 
   right: 0px !important;
   direction: auto !important;
+  height: 100cqh !important;
 }
 /*the left sidebar*/
 .leftSideBar {
   left: 0px !important;
+  height:100cqh !important;
 }
 /*the text of the titles shown in the right sidebar*/
 .sideTitle > a{
@@ -535,10 +536,11 @@ br{
 .sideTitle {
   border: solid;
   border-color: rgb(124, 108, 108);
+  box-shadow: 1px 1px grey !important;
   border-radius: 10px;
-  margin-top: 3px;
-  width: 98%;
+  width: 55cqw;
   align-self: stretch;
+  margin-bottom: 4px;
 }
 
 
@@ -565,6 +567,7 @@ br{
   border-style: groove;
   text-shadow: #01043f;
   border-width: 3px;
+  margin-bottom: 10cqh !important;
 }
 
 /* The button used to open the sidebar */
@@ -732,16 +735,17 @@ br{
 }
 
 .ReadingIntro{
-  background-color: darkgoldenrod;
+  background-image: linear-gradient(to bottom, rgb(221, 161, 12), rgb(239, 196, 90));
   margin-top: 0px;
-  border-left: #111 solid 4pt;
-  border-right: #111 solid 4pt;
+  border-left: rgb(171, 124, 3) solid 7px;
+  border-right: rgb(129, 95, 7) solid 7px;
 }
 .ReadingEnd{
-  background-color: burlywood;
+  background-image: (to bottom, rgb(222, 184, 135), rgb(222, 184, 135));
   margin-bottom: 1px;
   border-bottom: #111 solid 4pt;
-
+  border-left: rgb(224, 163, 85) solid 7px;
+  border-right: rgb(224, 163, 85)  solid 7px;
 }
 
 .musicalNote.amplifiedText{
