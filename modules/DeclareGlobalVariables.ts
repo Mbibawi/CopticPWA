@@ -24,7 +24,7 @@ type typeButton = {
 };
 //CONSTANTS
 const version: string =
-  "v5.7.0 (Worked on Holy Week structure and Litanies + some CSS)";
+  "v5.7.0.1 (Correction to font size of main page and side bar buttons)";
 const calendarDay: number = 24 * 60 * 60 * 1000; //this is a day in milliseconds
 const containerDiv: HTMLDivElement = document.getElementById(
   "containerDiv") as HTMLDivElement;

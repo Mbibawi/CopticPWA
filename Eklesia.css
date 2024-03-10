@@ -124,7 +124,7 @@ margin-bottom: 2px !important;
 
 .sideBarBtn>p{
   font-weight: bold !important;
-  font-size: calc(var(--fSize)*5cqi) !important;
+  font-size: 15pt !important;
   text-align: center;
   text-shadow: 0.5px 0.5px white;
 }
@@ -293,7 +293,7 @@ color:white;
 .mainPageBtns>p{
   text-align: center !important;
   color:rgb(255, 255, 255) !important;
-  font-size: calc(var(--fSize)*6vw) !important;
+  font-size: 15pt !important;
   font-weight: bold !important;
   text-shadow: 0.5px 0.5px white;
   line-height: calc(var(--fSize)*10cqh) !important;
