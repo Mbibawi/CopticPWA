@@ -1,5 +1,5 @@
 //CONSTANTS
-const version = "v5.7.1 (Imported the Holy Week tables until GL56 Day)";
+const version = "v5.7.2 (Imported the Holy Week tables until GL56 Day)";
 const calendarDay = 24 * 60 * 60 * 1000; //this is a day in milliseconds
 const containerDiv = document.getElementById("containerDiv");
 const leftSideBar = document.getElementById("leftSideBar");

@@ -308,14 +308,13 @@ const btnMainMenu: Button = new Button({
                   .forEach(entry => readings[entry[0]] = findTable(hour + service + entry[1], dayPrayers, { includes: true }) || undefined);
 
                 //For the gospel, we need to get 2 versions of it: the first version is only coptic, and the 2nd version includes all the other languages except the Coptic version
-                [readings.coptGospel, readings.nonCopticGospel]
-                  .forEach((version: string[][]) => {
-                    if (!version) return console.log('The gospel is not defined');
-                    version = version
+                ['coptGospel', 'nonCopticGospel']
+                  .forEach((version: string) => {
+                    readings[version] = (readings[version]as string[][])
                       .map((row: string[]) => {
-                        if (version === readings.coptGospel)
+                        if (version === 'coptGospel')
                           return row.filter(el => row.indexOf(el) === prayersLanguages.indexOf('COP') + 1);
-                        if (version === readings.nonCopticGospel)
+                        if (version === 'nonCopticGospel')
                           return row.filter(el => row.indexOf(el) !== prayersLanguages.indexOf('COP') + 1)
                       });
                   });
@@ -353,9 +352,9 @@ const btnMainMenu: Button = new Button({
                 let languages = getLanguages(getArrayNameFromArray(ReadingsArrays.GospelNightArrayFR));
 
                 [
-                  [readings.nonCopticGospel, placeHolders.gospel],
-                  [readings.coptGospel, placeHolders.gospel],
                   [readings.Psalm, placeHolders.psalm],
+                  [readings.coptGospel, placeHolders.gospel],
+                  [readings.nonCopticGospel, placeHolders.gospel],
                   [readings.Commentary, placeHolders.commentary],
                   [KhinEfran, placeHolders.khinEfran],
                   [readings.Prophecies, placeHolders.prophecies],
@@ -363,9 +362,13 @@ const btnMainMenu: Button = new Button({
                   [Litany, placeHolders.finalLitany],
                 ]
                   .forEach((reading: [string[][], HTMLElement]) => {
-                    if (reading[0] === KhinEfran) languages = prayersLanguages;
-                    if ([readings.Prophecies, readings.Sermony, readings.Psalm, readings.coptGospel, readings.nonCopticGospelGospe].includes(reading[0])) languages = ['COP', 'FR', 'AR'];
+                    if ([KhinEfran, Litany].includes(reading[0])) languages = prayersLanguages;
+                    if ([readings.Prophecies, readings.Sermony, readings.Psalm, readings.Commentary].includes(reading[0])) languages = ['COP', 'FR', 'AR'];
+
+                    if (reading[0] === readings.nonCopticGospel) languages = ['FR', 'AR'];
                     
+                    if (reading[0] === readings.coptGospel) languages =['COP'];
+
                     insertPrayersAdjacentToExistingElement({
                       tables: [reading[0]],
                       languages: languages,
