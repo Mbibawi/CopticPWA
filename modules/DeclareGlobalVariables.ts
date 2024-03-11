@@ -24,7 +24,7 @@ type typeButton = {
 };
 //CONSTANTS
 const version: string =
-  "v5.7.3 (Completed the Synaxium until 17/07 + fixes to the Holy Week hour btns)";
+  "v5.7.3.1 (Added Coptic CSS Fonts)";
 const calendarDay: number = 24 * 60 * 60 * 1000; //this is a day in milliseconds
 const containerDiv: HTMLDivElement = document.getElementById(
   "containerDiv") as HTMLDivElement;

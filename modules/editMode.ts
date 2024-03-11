@@ -1667,3 +1667,19 @@ function modifyAllSelectedText() {
 function getSelectedText(): Selection {
   return window.getSelection();
 }
+
+/**
+ * Converts the fonts of all the Coptic text paragraphs in containerDiv
+ */
+function convertAllCopticParagraphsFonts(fontFrom?:string) {
+  let parags = Array.from(containerDiv.querySelectorAll('P')) as HTMLParagraphElement[];
+  if(!fontFrom) fontFrom = prompt('Provide the font from which you want to convert the Coptic text');
+  parags
+    .filter(parag =>parag.lang === 'COP')
+    .forEach(parag => {
+    convertCopticFontFromAPI(parag, fontFrom)
+    
+  })
+
+  
+}

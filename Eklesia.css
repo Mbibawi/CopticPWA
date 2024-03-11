@@ -1,10 +1,18 @@
 @font-face {
-  font-family: AvaShenouda;
+  font-family: ArialCoptic;
   src: url(./fonts/Avva_Shenouda.ttf);
 }
 @font-face {
   font-family: ArialCoptic;
+  src: url(./fonts/CS_Avva_Shenouda.ttf);
+}
+@font-face {
+  font-family: ArialCoptic;
   src: url(./fonts/ArialCoptic.ttf);
+}
+@font-face {
+  font-family: ArialCoptic;
+  src: url(./fonts/Athanasius.ttf);
 }
 @font-face {
   font-family: CormorantGaramond;
