@@ -3250,7 +3250,8 @@ async function replaceMusicalNoteSign(container: HTMLElement[]) {
 function convertHtmlDivElementsIntoArrayTable(
   htmlRows: HTMLDivElement[]
 ): string[][] {
-  let table: string[][] = [];
+  let table: string[][] = [],
+    title = htmlRows[0].title;
   htmlRows.forEach((row) => {
     if (!row.title || !row.dataset.root)
       return alert("the row dosen't have title");
@@ -3261,14 +3262,16 @@ function convertHtmlDivElementsIntoArrayTable(
         return p.innerText;
       })
     );
-    let first: string;
-    if (row.dataset.isPlaceHolder)
-      first = Prefix.placeHolder;
-    else if (row.dataset.isPrefixSame)
-      first = Prefix.same + row.title.split(row.dataset.root)[1];
-    else first = row.title;
+    let firstElement: string;
+    if (table.length === 1)
+        firstElement = row.title; //If the row that we have pushed is the first element of the table (i.e., the first row of the table), its first element is the full title of the table
+    else if (row.dataset.isPlaceHolder)
+      firstElement = Prefix.placeHolder;
+    else if (row.dataset.isPrefixSame || [splitTitle(row.title)[0], splitTitle(row.dataset.root)[0]].includes(splitTitle(title)[0]))
+      firstElement = Prefix.same + '&C=' + splitTitle(row.title)[1];
+    else firstElement = row.title;
 
-    table[table.length - 1].unshift(first);
+    table[table.length - 1].unshift(firstElement);//We add the title string element to the las row of the table that we have just pushed
   });
   return table;
 }
@@ -11884,4 +11887,18 @@ async function createHtmlArray() {
       .filter(table => table[0][0].includes(date))
   };
 
+/**
+ * Replaces the titles of each row with Prefix.same
+ */
+  function prefixSame(Array:string[][][]){
+    Array.forEach(table => {
+          table.forEach(row => {
+                if (table.indexOf(row) === 0) return;
+                if (splitTitle(row[0])[0] === splitTitle(table[0][0])[0])
+                      table[table.indexOf(row)][0] = Prefix.same + '&C=' + splitTitle(row[0])[1];
+          })
+    }
+    );
+    console.log(Array)
 
+}

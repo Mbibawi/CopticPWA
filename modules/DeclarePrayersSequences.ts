@@ -101,36 +101,77 @@ const MassPrayersSequences = {
 };
 
 const PsalmodyPrayersSequences = {
-    PsalmodyYear: [
-        Prefix.psalmody + "WakeUpSonsOfLight&D=$Seasons.KiahkWeek1||$Seasons.KiahkWeek2",
+    Year: [
+        Prefix.psalmody + "WakeUpSonsOfLight&D=$copticFeasts.AnyDay",
 
-        Prefix.psalmody + "PsalyOnFirstHos&D=$Seasons.KiahkWeek1||$Seasons.KiahkWeek2||$copticFeasts.AnyDay"
+        Prefix.psalmody + "MarenOosht&D=$copticFeasts.AnyDay",
+
+        Prefix.psalmody + "FirstHos&D=$copticFeasts.AnyDay",
+
+        Prefix.psalmody + "LobshFirstHos&D=$copticFeasts.AnyDay",
+
+        Prefix.psalmody + "CommentaryOnHos1&D=$copticFeasts.AnyDay",
+
+        Prefix.psalmody + "SecondHos&D=$copticFeasts.AnyDay",
+
+        Prefix.psalmody + "LobshSecondHos&D=$copticFeasts.AnyDay",
+
+        Prefix.psalmody + "ThirdHos&D=$copticFeasts.AnyDay",
+
+        Prefix.psalmody + "Arebsalin&D=$copticFeasts.AnyDay",
+
+        Prefix.psalmody + "Tenen&D=$copticFeasts.AnyDay",
+
+        Prefix.psalmody + "TenOwehEnthok&D=$copticFeasts.AnyDay",
+
+        Prefix.psalmody + "Lobsh1WatesOnSaturdayTheotoky",
+
+        Prefix.psalmody + "Lobsh2WatesOnSaturdayTheotoky",
+
+        Prefix.psalmody + "EndOfWatesTheotokies&D=$copticFeasts.AnyDay",
+
     ],
 
-    PsalmodyKiahk: [
-        Prefix.psalmody + "WakeUpSonsOfLight&D=$Seasons.KiahkWeek1||$Seasons.KiahkWeek2",
+    Kiahk: [
+        Prefix.psalmody + "WakeUpSonsOfLight&D=$copticFeasts.AnyDay",
 
-        Prefix.psalmody + "KiahkHos&D=$Seasons.KiahkWeek1||Seasons.KiahkWeek2",
+        
+        Prefix.psalmody + "KiahkHos&D=$$copticFeasts.AnyDay",
+        
+        Prefix.psalmody + "ChantAgiosOsiOs&D=$copticFeasts.AnyDay",
+        
+        Prefix.psalmody + "MarenOosht&D=$copticFeasts.AnyDay",
 
-        Prefix.psalmody + "ChantAgiosOsiOs&D=$Seasons.KiahkWeek1||Seasons.KiahkWeek2",
+        Prefix.psalmody + "PsalyOnFirstHos&D=$copticFeasts.AnyDay",
 
-        Prefix.psalmody + "EpsalyOnFirstHos&D=$Seasons.KiahkWeek1||$Seasons.KiahkWeek2||$copticFeasts.AnyDay",
+        Prefix.psalmody + "FirstHos&D=$copticFeasts.AnyDay",
 
-        Prefix.psalmody + "FirstHos&D=$copticFeasts.AnyDay||$Seasons.KiahkWeek1||$Seasons.KiahkWeek2",
+        Prefix.psalmody + "LobshFirstHos&D=$copticFeasts.AnyDay",
 
-        Prefix.psalmody + "LobshFirstHos&D=$copticFeasts.AnyDay||$Seasons.KiahkWeek1||$Seasons.KiahkWeek2",
+        Prefix.psalmody + "ChantGodSaidToMoses&D=$copticFeasts.AnyDay",
 
-        Prefix.psalmody + "ChantGodSaidToMoses&D=$copticFeasts.AnyDay||$Seasons.KiahkWeek1||$Seasons.KiahkWeek2",
+        Prefix.psalmody + "CommentaryOnHos1&D=$copticFeasts.AnyDay",
 
-        Prefix.psalmody + "CommentaryOnHos1&D=$copticFeasts.AnyDay||$Seasons.KiahkWeek1||Seasons.KiahkWeek2",
+        Prefix.psalmody + "PsalyOnSecondHos&D=$copticFeasts.AnyDay",
 
-        Prefix.psalmody + "PsalyOnSecondHos&D=$Seasons.KiahkWeek1||$Seasons.KiahkWeek2||$copticFeasts.AnyDay",
+        Prefix.psalmody + "SecondHos&D=$copticFeasts.AnyDay",
 
-        Prefix.psalmody + "SecondHos&D=$copticFeasts.AnyDay||$Seasons.KiahkWeek1||$Seasons.KiahkWeek2",
+        Prefix.psalmody + "LobshSecondHos&D=$copticFeasts.AnyDay",
 
-        Prefix.psalmody + "LobshSecondHos&D=$copticFeasts.AnyDay||$Seasons.KiahkWeek1||$Seasons.KiahkWeek2",
+        Prefix.psalmody + "ThirdHos&D=$copticFeasts.AnyDay",
 
-        Prefix.psalmody + "ChantLetsSingWithDavid&D=$copticFeasts.AnyDay||$Seasons.KiahkWeek1||$Seasons.KiahkWeek2",
+        Prefix.psalmody + "Arebsalin&D=$copticFeasts.AnyDay",
+
+        Prefix.psalmody + "Tenen&D=$copticFeasts.AnyDay",
+
+        Prefix.psalmody + "TenOwehEnthok&D=$copticFeasts.AnyDay",
+
+        Prefix.psalmody + "Lobsh1WatesOnSaturdayTheotoky",
+
+        Prefix.psalmody + "Lobsh2WatesOnSaturdayTheotoky",
+
+        Prefix.psalmody + "EndOfWatesTheotokies&D=$copticFeasts.AnyDay",
+
     ],
 }
 
@@ -138,14 +179,12 @@ const HolyWeekPrayersSequences = {
     PassOver: [
         Prefix.HolyWeek + "HourIntroduction&D=$Seasons.HolyWeek",
 
-        Prefix.HolyWeek + "CopticPsalm&D=$Seasons.HolyWeek",
+        Prefix.HolyWeek + "CopticPsalmAndGospel&D=$Seasons.HolyWeek",
 
-        Prefix.HolyWeek + "CopticGospel&D=$Seasons.HolyWeek",
-        
         Prefix.HolyWeek + "KhinEfranEnTetriyas&D=$Seasons.HolyWeek",
 
-        Prefix.HolyWeek + "GospelCommentary&D=$Seasons.HolyWeek",
-    
+        Prefix.HolyWeek + "Commentary&D=$Seasons.HolyWeek",
+
         Prefix.HolyWeek + "PassoverEnd&D=$Seasons.HolyWeek",
 
     ],
@@ -186,10 +225,11 @@ const HolyWeekPrayersSequences = {
         Prefix.placeHolder,
         Prefix.massCommon + "SpasmosAdamShort&D=$copticFeasts.AnyDay",
         Prefix.HolyWeek + "LakanAnaphora&D=$copticFeasts.HolyThursday",
-        
-       // Prefix.commonIncense + "LiturgyEnd&D=$copticFeasts.AnyDay"
+
+        // Prefix.commonIncense + "LiturgyEnd&D=$copticFeasts.AnyDay"
     ],
     ThursdayMass: [],
-    SaturdayMass:[],
+    SaturdayIncenseDawn: [],
+    SaturdayMass: [],
 }
 

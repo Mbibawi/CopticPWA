@@ -491,8 +491,10 @@ function exportToJSFile(arrayText: string, arrayName: string) {
 }
 
 /**
- * Replaces the tables of the array with either the modified verisions (if we were editing an already existing table) or with the new table(s) if we added new tabless
- * @param {string} arrayName - the name of the array that we were editing containing the tables that we modified or added . Its default value is containerDiv.dataset.arrayName
+ * Either replaces the tables in the string[][][] tables array with the modified versions of the table(s) that we have been editing (if we were editing an already existing table) or adds a new table to the array if the table we were editing does not exist
+ * @param {string} arrayName - the name of the string[][][] array that we were editing, or to which the new table will be added. Its default value is containerDiv.dataset.arrayName
+ * @param {HTMLDivElement[]} htmlRows - an array of html div elements representing one or more table that have been edited. If missing, it will be replaced by an array of all the containeDiv div children having class 'Row' or 'PlaceHolder'
+ * @param {string} dataRoot - a string that permits to filter the htmlRows array by a specific data-root attribute
  * @param {boolean} exportToFile - If true, the text of the modified array will be returned. Its default value is "true".
  * @param {boolean} exportToStorage - If true, the text of the modified array will be saved to localStorage.editedText. Its default value is "true".
  * @returns {[string, string] | void} the text of the modified array
@@ -503,8 +505,8 @@ function saveModifiedArray(args: {
   dataRoot?: string;
   htmlRows?: HTMLDivElement[];
 }): [string, string] | void {
-  let title: string,
-    titles: Set<string> = new Set(),
+  let titles: Set<string> = new Set(),
+    title: string,
     savedArrays: Set<string> = new Set(),
     tablesArray: string[][][];
 
@@ -513,7 +515,7 @@ function saveModifiedArray(args: {
       containerDiv.querySelectorAll(
         "div.Row, div.PlaceHolder"
       ) as NodeListOf<HTMLDivElement>
-    ).filter((div) => div.dataset.root); //we retrieve all the divs with 'Row' class from the DOM
+    )//we retrieve all the divs with 'Row' and 'PlaceHolder' class from the DOM
 
   if (args.dataRoot)
     args.htmlRows = args.htmlRows.filter(
@@ -521,15 +523,21 @@ function saveModifiedArray(args: {
     );
 
   //Adding the tables' titles as unique values to the titles set
-  args.htmlRows.forEach((htmlRow) => {
-    if (!htmlRow) return; //This will happen if the row was row of a table referrenced by a placeholder, that was later on hidden when the click() event of the placeholder row was triggered (see below)
+  args.htmlRows
+    .forEach((htmlRow) => {
+      if (!htmlRow) return; //This will happen if the row was row of a table referrenced by a placeholder, that was later on hidden when the click() event of the placeholder row was triggered (see below)
+      title = htmlRow.dataset.root; //this is the title without '&C='
+      
+      if (titles.has(title)) return;//If the title has already been processed before (i.e., the table was modified or added in its string[][][] array, we do not need to continue)
+
+      titles.add(title)//Else, we add the title to the titles Set in order to avoid re processing the same table again
 
     if (htmlRow.dataset.isPlaceHolder) {
       saveModifiedArray({
         exportToFile: false,
         exportToStorage: true,
         dataRoot: htmlRow.dataset.isPlaceHolder,
-      });
+      });//Since we are not providing the htmlRows argument, the function will retrieve all the containerDiv children having 'Row' or 'PlaceHolder' class and will filter them by the data-root of the placeHolder div
       args.htmlRows
         .filter(
           (div) =>
@@ -540,32 +548,27 @@ function saveModifiedArray(args: {
         .forEach((div) => div.remove()); //We remove all the html elements that were created to show the rows of the table referenced by the 'PlaceHolder' element.
       return;
     }
-
-    title = htmlRow.dataset.root; //this is the title without '&C='
-    if (titles.has(title)) return;
-
-    titles.add(title);
-
+  
     if (!htmlRow.dataset.arrayName)
       return console.log(
         "We encountered a problem with one of the rows : ",
         htmlRow
-      );
-
-    if (!savedArrays.has(htmlRow.dataset.arrayName))
-      savedArrays.add(htmlRow.dataset.arrayName);
-
-    tablesArray = eval(htmlRow.dataset.arrayName);
-
-    if (PrayersArrays.includes(tablesArray)) tablesArray = PrayersArrayFR; //If the array is one of the arrays in PrayersArrays, the Array that need to be saved is Prayers Array not the sub array itself
-
-    if (!tablesArray)
+      );//Without the arrayName attribute, we will not be able to retrive the string[][][] to which the table belongs.
+    
+      tablesArray = eval(htmlRow.dataset.arrayName);
+    
+      if (!tablesArray)
       return console.log(
         "We've got a problem while executing saveOrExportArray(): title = ",
         title,
         " and arrayName = ",
         htmlRow.dataset.arrayName
       );
+      
+      if (PrayersArrays.includes(tablesArray)) tablesArray = PrayersArrayFR; //If the array is one of the sub arrays created from PrayersArrays, the array that need to be modified and saved or exported is PrayersArray not the sub array itself
+
+    if (!savedArrays.has(htmlRow.dataset.arrayName))
+      savedArrays.add(htmlRow.dataset.arrayName);
 
     modifyEditedArray(title, tablesArray);
   });
@@ -588,17 +591,16 @@ function saveModifiedArray(args: {
  * @param {string[][][]} tablesArray - the array that we were editing.
  */
 function modifyEditedArray(tableTitle: string, tablesArray: string[][][]) {
-  //We select all the div elements having same data-set-root attribute as the title of the table (tabeTitle)
   if (!tablesArray || !tableTitle) return;
+  //We select all the div elements having same data-set-root attribute as the title of the table (tabeTitle)
   let htmlTable = Array.from(
-    containerDiv.querySelectorAll(
-      "div.Row, div.PlaceHolder"
+    containerDiv.querySelectorAll('div'
     ) as NodeListOf<HTMLDivElement>
   ).filter(
     (htmlRow) => htmlRow.dataset.root && htmlRow.dataset.root === tableTitle
   ) as HTMLDivElement[];
 
-  if (htmlTable.length === 0) return;
+  if (htmlTable.length === 0) return console.log('No div elements with the provided tableTitle');
 
   //We start by modifiying the array to which the table belongs
   modifyArray(htmlTable);
@@ -616,7 +618,7 @@ function modifyEditedArray(tableTitle: string, tablesArray: string[][][]) {
     [
       tablesArray,
       getTablesArrayFromTitlePrefix(htmlTable[0].dataset.root),
-    ].forEach((array) => modifyTheMainAndSubArrays(array)); //We will modify the tabl in its main Array (retrieved by the arrayName argument, and any other sub array in which th etable might be also included (like PrayersArrays.massCommon, PrayersArrays.IncenseDawn, etc.));
+    ].forEach((array) => modifyTheMainAndSubArrays(array)); //We will modify the table in its main string[][][] Array (passed to the function in the tablesArray argument to the function) as well as any other sub array in which the table might be also included (like PrayersArrays.massCommon, PrayersArrays.IncenseDawn, etc.)), retrieved by the table title (stored in the html data-root attribute);
 
     function modifyTheMainAndSubArrays(targetTablesArray: string[][][]) {
       if (!targetTablesArray) return;
@@ -831,6 +833,8 @@ function addNewRow(htmlParag: HTMLElement, isPlaceHolder: boolean = false, title
 
   if (!newRow.title) //If not already set because it is a new PlaceHolder row
     newRow.title = title;
+  
+  if (splitTitle(newRow.title)[0] === splitTitle(htmlRow.title)[0]) newRow.dataset.isPrefixSame = 'true'; //We need this in order to be sure than when the table is exported, the string[] representing the newly added row will have as first element: Prefix.same + '&C=[whatever class]' not the full title of the table
 
   if (!newRow.dataset.arrayName) //If not already set because it is a new PlaceHolder row
     newRow.dataset.arrayName = prompt("Provide the name of the array", htmlRow.dataset.arrayName);
