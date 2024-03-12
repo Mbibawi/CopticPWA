@@ -13985,145 +13985,125 @@ ReadingsArrays.SynaxariumArrayFR = [
     ],
     [
         [
-            Prefix.synaxarium + "&D=1807&C=Title",
-            "18 Barmahat\nMartyre de saint Isidore le compagnon de Sana le soldat",
-            "18 برمهات"
+        Prefix.synaxarium+"&D=1807&C=Title", 
+        "18 Barmahat\nMartyre de saint Isidore le compagnon de Sana le soldat", 
+        "18 برمهات\nاسْتِشْهَادْ إيسيذورس رفيق سنا الجُنْدِي", 
         ],
         [
-            Prefix.same + "&C=NoActor",
-            "En ce jour de l’an 21 des martyrs (305 après Jésus Christ) eût lieu le martyre de saint Isidore (ايسيذورس).",
-            "في مِثْلِ هَذا اليَومْ مِنْ سَنَةْ 21 لِلْشُهَداءِ (305م)، اسْتَشْهَدَ القِدّيسْ إيسوذوروس. وُلِدَ هَذَا القِدّيسْ بِبَلْدَةِ دقناش (حالياً قرية مزورة بمركز سمسطا بِمُحَافَظَةِ بَنَى سويف). وكَانَ يَعْمَلْ في صناعة الصوف، وكَانَ لَهُ صديقاً جندياً اسْمُهُ سنا. وكانَا يتصدقان عَلَى الفقراء والمَسَاكِينْ. وذَاتَ ليلة أَبْصَرَ كُلَّ مِنْهُما في رؤيا أَنَّ فتاة عذراء بيدها إكليل تضعه عَلَى رأسيهما فَلَمَّا استيقظا أعلَمَ كُلَّ مِنْهُما الآخر بالرؤيا وعَرِفَا أَنَّ الرَّبْ دعاهما لنيل إكليل الشِهَادَة. انطلق الاثنان إلى والي الفرما واعترفا بِالسَيِّدِ المَسِيحِِ، فَأمَرَ بسجنهما، فأَرْسَلَ الرَّبْ مَلاكَه في رؤيا اللّيْلِ وعزاهما. وفي الصباح أَمَرَ الوالي بإرسال سنا إلى الإسْكَنْدَرِيَّةْ، وبقى إيسوذوروس سجيناً. وبَعْدَ قليل أُعيد سنا إلى السجن ففرح بِهِ صديقه، وقص كُلَّ مِنْهُما ما جرى له. وبدأ الوالي في تعذيبهما، فألقى إيسوذوروس في أتون نار وهْوَ يُصَلِّي طالباً مِنَ السَّيْد المَسِيحْ أَنَّ يقبل رُوحَهُ ونَالَ إكْلْيلْ الشِهَادَة. وكَانَتْ والدة القِدّيسْ سنا واقفة تبكي لحرمان ابنها من صديقه فرأت جماعة مِنَ الملائكة تصعد برُوحِ القِدّيسْ إيسوذوروس، فاهتمت بالجسد وكفنته ودفنته. بَرَكِةْ صَلَوَاتْ القِدّيسْ الشَهْيد إيسوذوروس فَلْتَكُنْ مَعْنَا، ولِرَبِنَا المَجْدِ دَائِمَاً أبَدِيَّاً آمْينْ.\n"
+        Prefix.same+"&C=NoActor", 
+        "En ce jour de l’an 21 des martyrs (305 après Jésus Christ) eût lieu le martyre de saint Isidore (ايسيذورس).", 
+        "في مِثْلِ هَذا اليَومْ مِنْ سَنَةْ 21 لِلْشُهَداءِ (305م)، اسْتَشْهَدََََََ القِدّيسْ إيسوذوروس.", 
         ],
         [
-            Prefix.same + "&C=NoActor",
-            "Ce saint naquit au village de Déknach (دقناش) et il travaillait à filer et à tisser la laine. Isidore et son ami Sana (سنا) étaient généreux envers les pauvres et les nécessiteux. Une nuit, chacun d’entre eux vit en songe une vierge qui déposait des couronnes sur leurs têtes. A leur réveil chacun raconta son songe à l’autre et ils en furent joyeux car ils comprirent que le Seigneur les invitait à obtenir la couronne du martyre.",
-            ""
+        Prefix.same+"&C=NoActor", 
+        "Ce saint naquit au village de Déknach (دقناش) et il travaillait à filer et à tisser la laine. Isidore et son ami Sana (سنا) étaient généreux envers les pauvres et les nécessiteux. Une nuit, chacun d’entre eux vit en songe une vierge qui déposait des couronnes sur leurs têtes. A leur réveil chacun raconta son songe à l’autre et ils en furent joyeux car ils comprirent que le Seigneur les invitait à obtenir la couronne du martyre.", 
+        "وُلِدَ هَذَا القِدّيسْ بِبَلْدَةِ دقناش (حالياً قرية مزورة بمركز سمسطا بِمُحَافَظَةِ بَنَى سويف). وكَانَ يَعْمَلْ في صناعة الصوف، وكَانَ لَهُ صديقاً جندياً اسْمُهُ سنا. وكانَا يتصدقان عَلَى الفقراء والمَسَاكِينْ. وذَاتَ ليلة أَبْصَرَ كُلَّ مِنْهُما في رؤيا أَنَّ فتاة عذراء بيدها إكليل تضعه عَلَى رأسيهما فَلَمَّا استيقظا أعلَمَ كُلَّ مِنْهُما الآخر بالرؤيا وعَرِفَا أَنَّ الرَّبْ دعاهما لنيل إكليل الشِهَادَة. ", 
         ],
         [
-            Prefix.same + "&C=NoActor",
-            "Ils allèrent donc chez le gouverneur de Péluse (الفرما) et confessèrent leur Foi en Jésus Christ. Alors, Le gouverneur ordonna qu’on les arrête mais le Seigneur envoya son ange pour les consoler. Le lendemain, le gouverneur expédia Sana à Alexandrie tandis qu’Isidore demeurait seul en prison. Lorsqu’ils se retrouvèrent Isidore se réjouit de retrouver son compagnon et chacun d’entre eux raconta à l’autre ce qui lui était arrivé.",
-            ""
+        Prefix.same+"&C=NoActor", 
+        "Ils allèrent donc chez le gouverneur de Péluse (الفرما) et confessèrent leur Foi en Jésus Christ. Alors, Le gouverneur ordonna qu’on les arrête mais le Seigneur envoya son ange pour les consoler. Le lendemain, le gouverneur expédia Sana à Alexandrie tandis qu’Isidore demeurait seul en prison. Lorsqu’ils se retrouvèrent Isidore se réjouit de retrouver son compagnon et chacun d’entre eux raconta à l’autre ce qui lui était arrivé.", 
+        "انطلق الاثنان إلى والي الفرما واعترفا بِالسَيِّدِ المَسِيحِِ، فَأمَرَ بسجنهما، فأَرْسَلَ الرَّبْ مَلاكَه في رؤيا اللّيْلِ وعزاهما. وفي الصباح أَمَرَ الوالي بإرسال سنا إلى الإسْكَنْدَرِيَّةْ، وبقى إيسوذوروس سجيناً. وبَعْدَ قليل أُعيد سنا إلى السجن ففرح بِهِ صديقه، وقص كُلَّ مِنْهُما ما جرى له.", 
         ],
         [
-            Prefix.same + "&C=NoActor",
-            "Alors, le gouverneur entreprit de les torturer puis il ordonna que l’on jette Isidore dans une fournaise. Pendant ce temps celui-ci ne s’arrêtait pas de prier le Seigneur l’implorant d’accueillir son âme et il obtint la couronne du martyre. La mère de Sana pleurait car son fils allait se retrouver seul. A ce moment-là elle vit les anges emportant l’âme de saint Isidore. Elle prit son corps, l’ensevelit et l’enterra.",
-            ""
+        Prefix.same+"&C=NoActor", 
+        "Alors, le gouverneur entreprit de les torturer puis il ordonna que l’on jette Isidore dans une fournaise. Pendant ce temps celui-ci ne s’arrêtait pas de prier le Seigneur l’implorant d’accueillir son âme et il obtint la couronne du martyre. La mère de Sana pleurait car son fils allait se retrouver seul. A ce moment-là elle vit les anges emportant l’âme de saint Isidore. Elle prit son corps, l’ensevelit et l’enterra.", 
+        "بدأ الوالي في تعذيبهما، فألقى إيسوذوروس في أتون نار وهْوَ يُصَلِّي طالباً مِنَ السَّيْد المَسِيحْ أَنَّ يقبل رُوحَهُ ونَالَ إكْلْيلْ الشِهَادَة. وكَانَتْ والدة القِدّيسْ سنا واقفة تبكي لحرمان ابنها من صديقه فرأت جماعة مِنَ الملائكة تصعد برُوحِ القِدّيسْ إيسوذوروس، فاهتمت بالجسد وكفنته ودفنته.", 
         ],
         [
-            Prefix.same + "&C=NoActor",
-            "Que la bénédiction de ses prières soit avec nous et gloire soit à nôtre Seigneur, éternellement. Amen !",
-            ""
-        ]
+        Prefix.same+"&C=NoActor", 
+        "Que la bénédiction de ses prières soit avec nous et gloire soit à nôtre Seigneur, éternellement. Amen !", 
+        "بَرَكِةْ صَلَوَاتْ القِدّيسْ الشَهْيد إيسوذوروس فَلْتَكُنْ مَعْنَا، ولِرَبِنَا المَجْدِ دَائِمَاً أبَدِيَّاً آمْينْ.", 
+        ],
     ],
     [
         [
-            Prefix.synaxarium + "&D=1907&C=Title",
-            "19 Barmahat\n1) Décès du pape Michel (Khaïl) III ;\n2) Commémoration de la résurrection de Lazare, l’ami de nôtre Seigneur\n",
-            "19 برمهات"
+        Prefix.synaxarium+"&D=1907&C=Title", 
+        "19 Barmahat\n1) Décès de saint Aristobule, un des soixante-dix disciples ;\n2)  Martyre de saint Alexandre, saint Agapius et de leurs compagnons", 
+        "19 برمهات", 
         ],
         [
-            Prefix.same + "&C=NoActor",
-            "Nous commémorons aujourd’hui le décès du pape Michel (Khaïl) III (الأنبا خائيل الثالث) en 623 des martyrs (907 après Jésus Christ), le 56ème patriarche de la prédication de saint Marc.",
-            "وفيه أيْضَاً مِنْ سَنَةْ 21 لِلْشُهَداءِ (305م)، اسْتَشْهَدَ القِدِّيْسْون ألكسندروس وروميلوس وبليسوس ومليس المصريون، وأغابيوس من غزة، وتيموثاؤس مِنَ البنطس، وديوناسيوس من طرابلس. ارتبط هؤلاء السبعة القِدِّيْسْون بالمحبة المسيحية، ومضوا إلى والي قيصرية فلسطين واعترفوا أَمَامَهُ بِالسَيِّدِ المَسِيحِ. فلاطفهم محاولاً إقناعهم بترك إيمانهم، ولَمَّا لَمْ يفلح أَمَرَ بتعذيبهم بعذابات شَدِيدَةْ فنالوا إكليل الشِهَادَة. بركة صلواتهم فَلْتَكُنْ مَعْنَا، ولِرَبِنَا المَجْدِ دَائِمَاً أبَدِيَّاً آمين\nفي مِثْلِ هَذَا اليَومْ اسْتَشْهَدَ القِدّيسْ أرسطوبولس، أحَدْ السبعين رسولاً الّذِينَ انتخبهم الرَّبْ وأرسلهم للكرازة قبل آلامه، وقَدْ نال مَعَ التلاميذ نعمة الرُوحِ القُدُسْ في يوم الخمسين، وكرز مَعْهُمْ بالبشارة المحيية، ورد كَثِيرينْ إلى طَرِيقِ الخلاص، فآمنوا بِالسَيِّدِ المَسِيحِْ وعمدهم وعلمهم الوصايا الإلهية. أقامه التلاميذ أُسْقُفَاً عَلَى أبريطانياس، وهي إحدى مقاطعات شمال فرنسا (مقاطعة أبريطانياس: هي إحدى مقاطعات شمال فرنسا)، فبشر أهلها ووعظهم وعمدهم، وعلمهم الوصايا الإلهية والقوانين الكنسية. وقَدْ أجرى الله عَلَى أيْدِي هَذَا القِدّيسْ آيَاتٍ كثيرة، كَانَتْ سبباً في إيمان الكثيرين، فلحقت بِهِ إهانات شَدِيدَةْ مِنَ اليهود واليونانيين، ورجموه بالحجارة فنَالَ إكْلْيلْ الشِهَادَة. بَرَكِةْ صَلَوَاتُهُ فَلْتَكُنْ مَعْنَا، آمْينْ.\n"
+        Prefix.same+"&C=NoActor", 
+        "Nous commémorons aujourd’hui le martyre de saint Aristobule (ارسطوبولس), l’un des soixante-dix disciples que le Seigneur a choisis pour les envoyer prêcher avant sa passion.", 
+        "في مِثْلِ هَذَا اليَومْ اسْتَشْهَدَ القِدّيسْ أرسطوبولس، أحَدْ السبعين رسولاً الّذِينَ انتخبهم الرَّبْ وأرسلهم للكرازة قبل آلامه.", 
         ],
         [
-            Prefix.same + "&C=NoActor",
-            "Ce père fût moine au monastère de saint Macaire à Scété où il eût une conduite vertueuse. Après le décès du pape Chénouda 1er (شنودة الأول) il fût choisi par les évêques, les notables et les prêtres pour lui succéder et fût sacré patriarche le 30 Parmouté 596 des martyrs (880 après Jésus Christ).",
-            ""
+        Prefix.same+"&C=NoActor", 
+        "Ce saint reçut les dons du Saint Esprit en même temps que les apôtres le jour de la pentecôte. Il proclama avec eux la Bonne Nouvelle vivifiante. Ainsi, il ramena un grand nombre sur le chemin du Salut ; ils crurent en Jésus Christ et il les baptisa et leur apprit les commandements divins.", 
+        "نَالَ مَعَ التلاميذ نِعْمَةِ الرُوحِ القُدُسْ في يوم الخمسين، وكَرَزَ مَعْهُمْ بالبشارة المحيية، ورد كَثِيرينْ إلى طَرِيقِ الخلاص، فآمنوا بِالسَيِّدِ المَسِيحِْ وعَمَّدَهُمْ وعَلَّمَهُمْ الوَصَايَا الإلهية.", 
         ],
         [
-            Prefix.same + "&C=NoActor",
-            "Ce père subit de nombreuses épreuves de la part des gouvernants. De plus il fût calomnié auprès du gouverneur d’Egypte, Ahmed ibn-Touloun (أحمد ابن طولون), qui l’emprisonna pendant toute une année sous prétexte qu’il était très riche. Il ne le libéra que contre une amende de vingt mille dinars. Comme il ne disposait pas de cette somme, les évêques et les fidèles lui donnèrent la moitié. Peu de temps après mourut ibn-Touloun et son fils Khoumarawiyya (خمارويه) lui succéda. Ce dernier décida de libérer le patriarche de sa reconnaissance de dette, le fit venir et déchira devant lui.",
-            ""
+        Prefix.same+"&C=NoActor", 
+        "Les apôtres l’établirent évêque au nord de la France (إحدى مقاطعات شمال فرنسا) où il se rendit. Il proclama l’Evangile parmi ses habitants, les enseigna et les baptisa puis leur appris les commandements de Dieu et les règles de l’Eglise. Il fit de nombreux miracles qui attirèrent un grand nombre à la Foi mais il subit beaucoup d’humiliations de la part des Juifs et des Grecs qui le lapidèrent et il reçut la couronne du martyre.", 
+        "أقامه التلاميذ أُسْقُفَاً عَلَى أبريطانياس، وهي إحدى مقاطعات شمال فرنسا، فبشر أهلها ووعظهم وعمدهم، وعَلَّمَهُمْ الوَصَايَا الإلهية والقوانين الكنسية. وقَدْ أجرى الله عَلَى أيْدِي هَذَا القِدّيسْ آيَاتٍ كثيرة، كَانَتْ سبباً في إيمان الكثيرين، فلحقت بِهِ إهانات شَدِيدَةْ مِنَ اليهود واليونانيين، ورجموه بالحجارة فنَالَ إكْلْيلْ الشِهَادَة.", 
         ],
         [
-            Prefix.same + "&C=NoActor",
-            "Lorsque Dieu voulut le libérer des difficultés de ce monde il s’endormit dans le Seigneur après avoir siégé sur le trône patriarcal vingt-sept ans, un mois et neuf jours.",
-            ""
+        Prefix.same+"&C=NoActor", 
+        "Que la bénédiction de ses prières soit avec nous. Amen !", 
+        "بَرَكِةْ صَلَوَاتُهُ فَلْتَكُنْ مَعْنَا، آمْينْ.", 
         ],
         [
-            Prefix.same + "&C=NoActor",
-            "Que la bénédiction de ses prières soit avec nous. Amen !",
-            ""
+        Prefix.same+"&C=NoActor", 
+        "Nous commémorons aussi en ce jour le martyre de sept saints en l’an 21 des martyrs (305 après Jésus Christ):\n- Quatre saints égyptiens : Saint Alexandre (الكسندروس), Saint Romulus (روميلوس) et Saint Plesius (بليسوس) et saint Mélèce (مليس);\n\n- Saint Agapius (أغابيوس) de Gaza;\n- Saint Timolaus (تيمولاؤس) du Pont (البنطس);\n\n- Saint Denys (ديوناسيوس) de Tripoli.", 
+        "وفيه أيْضَاً مِنْ سَنَةْ 21 لِلْشُهَداءِ (305م)، اسْتَشْهَدَ القِدِّيْسْون ألكسندروس وروميلوس وبليسوس ومليس المصريون، وأغابيوس من غزة، وتيموثاؤس مِنَ البنطس، وديوناسيوس من طرابلس.", 
         ],
         [
-            Prefix.same + "&C=NoActor",
-            "Nous commémorons aussi aujourd’hui la résurrection de Lazare d’entre les morts par nôtre Seigneur Jésus Christ.",
-            ""
+        Prefix.same+"&C=NoActor", 
+        "Ces saints étaient liés d’une profonde amitié chrétienne et ils se rendirent à Césarée de Palestine et se présentèrent devant le gouverneur en confessant leur Foi en Jésus Christ. Celui-ci tenta de les amadouer pour qu’ils renient leur Foi. Comme il n’atteignait pas son but, il les fit torturer cruellement et ils obtinrent la couronne du martyre.", 
+        "ارتبط هؤلاء السبعة القِدِّيْسْون بالمحبة المسيحية، ومضوا إلى والي قيصرية فلسطين واعترفوا أَمَامَهُ بِالسَيِّدِ المَسِيحِ. فلاطفهم محاولاً إقناعهم بترك إيمانهم، ولَمَّا لَمْ يفلح أَمَرَ بتعذيبهم بعذابات شَدِيدَةْ فنالوا إكليل الشِهَادَة.", 
         ],
         [
-            Prefix.same + "&C=NoActor",
-            "Un grand nombre de personnes crurent à cause la grandeur de ce miracle.",
-            ""
+        Prefix.same+"&C=NoActor", 
+        "Que la bénédiction de leurs prières soit avec nous et gloire soit à notre Seigneur, éternellement. Amen !", 
+        "بركة صلواتهم فَلْتَكُنْ مَعْنَا، ولِرَبِنَا المَجْدِ دَائِمَاً أبَدِيَّاً آمين.", 
+        ],
         ],
         [
-            Prefix.same + "&C=NoActor",
-            "Que la bénédiction de ses prières soit avec nous et gloire soit à nôtre Seigneur, éternellement. Amen ! ",
-            ""
-        ]
-    ],
-    [
         [
-            Prefix.synaxarium + "&D=2007&C=Title",
-            "20 Barmahat\n1) Décès de saint Aristobule, un des soixante-dix disciples ;\n2) Martyre de saint Alexandre, saint Agapius et de leurs compagnons\n",
-            "20 برمهات"
+        Prefix.synaxarium+"&D=2007&C=Title", 
+        "20 Barmahat\n1) Décès du pape Michel (Khaïl) III ;\n2) Commémoration de la résurrection de Lazare, l’ami de nôtre Seigneur", 
+        "20 برمهات\nنياحة البابا خائيل الثالث\n\nتذكار إقامة لعازر من الموت", 
         ],
         [
-            Prefix.same + "&C=NoActor",
-            "Nous commémorons aujourd’hui le martyre de saint Aristobule (ارسطوبولس), l’un des soixante-dix disciples que le Seigneur a choisis pour les envoyer prêcher avant sa passion.",
-            "في مِثْلِ هَذا اليَومْ مِنْ سَنَةْ 623 لِلْشُهَداءِ (907م)، تَنَيَّحَ الأبْ القِدّيسْ البابا خائيل الثَالِثْ البَطْرِيَرْكْ السادس والخمسون مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة. تَرَهَّبَ هَذَا القِدّيسْ بِدِيرْ القِدّيسْ مكاريوس ببرية شيهيت وسَارَ سِيرَةِ فَاضِلَة. وبعدما تَنَيَّحَ البابا شنوده الأَوَّلْ اجْتَمَعَ رَأَى الأسَاقِفَةْ والكَهَنَةَ والأراخنة عَلَى اختياره بطريركاً فرَسَمْوهُ يوم 30 برموده سَنَةْ 596 لِلْشُهَداءِ (880م). وقَدْ نالت هَذَا الأبْ شدائد كَثِيرَة مِنَ الحكام، كَمَا حَدَثَتْ وشاية ضده عِنْدَ أحمد بن طولون فسجنه سَنَةْ كاملة بحجة أَنَّ لديه أموالاً كَثِيرَة ولَمْ يطلق سراحه إلا بَعْدَ أَنَّ تعهد بدفع 20 ألف دينار، فخَرَجَ مِنَ السجن. ولَمَّا لَمْ يكن لديه قيمة الغرامة دفع لَهُ الأسَاقِفَةْ والشعب نصفها. ثُمَّ مات أحمد وتملك بعده ابنه خماروية فاستدعى البابا البَطْرِيَرْكْ وطيب خاطره ومزق صك الغرامة. ولَمَّا أرَادَ الرَّبْ أَنَّ يُرِيحَهُ مِنْ أتْعَابِ هَذَا العالم رقد في الرَّبْ بَعْدَ أَنَّ قضى عَلَى الكُرْسِي المرقسي سبعاً وعشرين سَنَةْ وشهراً واحداً وتسعة أَيَّامٍ. بَرَكِةْ صَلَوَاتُهُ فَلْتَكُنْ مَعْنَا، آمْينْ.\nوفيه أيْضَاً أقَامَ الرَّبْ يَسْوعْ المَسِيحْ لعازر حبيبه من بَيْنَ الأموات بَعْدَ موته بأربعة أَيَّامٍ ولعظم المعجزة آمن بِهِ كثيرون. نسأل إلهنا الصالح أَنَّ يقيمنا مَعْهُ من موت الخطية، ولربنا المَجْدِ دَائِمَاً أبَدِيَّاً آمْينْ.\n"
+        Prefix.same+"&C=NoActor", 
+        "Nous commémorons aujourd’hui le décès du pape Michel (Khaïl) III (الأنبا خائيل الثالث) en 623 des martyrs (907 après Jésus Christ), le 56ème patriarche de la prédication de saint Marc.", 
+        "في مثل هذا اليوم من سنة 623 ش ( 16 مارس 907 م ) تنيح الأب القديس الأنبا خائيل السادس والخمسون من باباوات الكرازة المرقسية.", 
         ],
         [
-            Prefix.same + "&C=NoActor",
-            "Ce saint reçut les dons du Saint Esprit en même temps que les apôtres le jour de la pentecôte. Il proclama avec eux la Bonne Nouvelle vivifiante. Ainsi, il ramena un grand nombre sur le chemin du Salut ; ils crurent en Jésus Christ et il les baptisa et leur apprit les commandements divins.",
-            ""
+        Prefix.same+"&C=NoActor", 
+        "Ce père fût moine au monastère de saint Macaire à Scété où il eût une conduite vertueuse. Après le décès du pape Chénouda 1er (شنودة الأول) il fût choisi par les évêques, les notables et les prêtres pour lui succéder et fût sacré patriarche le 30 Parmouté 596 des martyrs (880 après Jésus Christ).", 
+        "رُسِمَ بطريركا فى 30 برمودة سنة 596ش (25 أبريل سنة 880 م). ", 
         ],
         [
-            Prefix.same + "&C=NoActor",
-            "Les apôtres l’établirent évêque au nord de la France (إحدى مقاطعات شمال فرنسا) où il se rendit. Il proclama l’Evangile parmi ses habitants, les enseigna et les baptisa puis leur appris les commandements de Dieu et les règles de l’Eglise. Il fit de nombreux miracles qui attirèrent un grand nombre à la Foi mais il subit beaucoup d’humiliations de la part des Juifs et des Grecs qui le lapidèrent et il reçut la couronne du martyre.",
-            ""
+        Prefix.same+"&C=NoActor", 
+        "Ce père subit de nombreuses épreuves de la part des gouvernants. De plus il fût calomnié auprès du gouverneur d’Egypte, Ahmed ibn-Touloun (أحمد ابن طولون), qui l’emprisonna pendant toute une année sous prétexte qu’il était très riche. Il ne le libéra que contre une amende de vingt mille dinars. Comme il ne disposait pas de cette somme, les évêques et les fidèles lui donnèrent la moitié. Peu de temps après mourut ibn-Touloun et son fils Khoumarawiyya (خمارويه) lui succéda. Ce dernier décida de libérer le patriarche de sa reconnaissance de dette, le fit venir et déchira devant lui.", 
+        "كان ذا خصال حميده غير أَنَّ أحزانا شديدة حلت به، منها أَنَّ البابا قسما كان قد بنى كنيسة على اسم الشهيد أبطلماوس ببلدة دنوشر لأسقف سخا. وحدث أَنَّ أهالي دنوشر أرادوا أَنْ يدعوا الأب البطريرك وبعض الأَسَاقِفَة المجاورين لتكريس هذه الكنيسة، فَلَمْ يَطِبْ لَدَيْهِ هذا الأمر. ولَمَّا عملوا على غير رغبته، وجَاءَ الأب البطريرك ومعه الأساقفة، لَمْ يقبل هذا الأُسْقُفْ البقاء، فَخَرَجَ من الكنيسة مُدَّعِيَاً أَنَّهُ ذاهب لِيَهْتَمَّ بِأَمْرِ طعامهم. فَلَمَّا طَالَ غيابه كَثِيرَاً وحَانَ وقت القُدَّاسْ صَلَّى الأب البطريرك صَلاَة الشُكْرِ ورَفَعَ القربان بَعْدَ إِلْحَاحٍ من الأساقفة وبِمَا لَهُ من حُقُوقِ الرئاسة. وعَلِمَ الأُسْقُفْ بِذَلِكَ، فدفعه شره وحُبَّهُ لمجد العالم إلى الغضب بدعوى أَنَّ البطريرك تعدى القوانين ورَفَعَ قربانا في أبرشية بِدُونِ إذن صاحبها، وعَادَ إلى الكنيسة مُسْرِعَاً إذ دَخَلَهُ الشيطان ودَفَعَهُ إلى الشر وتَعَدَّى على المذبح المُقَدَّسْ الطاهر. أَمَّا البابا البطريرك فَأَكْمَلَ صَلاَة القُدَّاسْ بِكُلِّ هِدُوءٍ وكمال. وفى (اليوم التالي عقد البطريرك مجمعا من الأساقفة الذين معه والكهنة والعلماء وحرم ذلك الأُسْقُفْ وأقام غيره.", 
         ],
         [
-            Prefix.same + "&C=NoActor",
-            "Que la bénédiction de ses prières soit avec nous. Amen !",
-            ""
+        Prefix.same+"&C=NoActor", 
+        "Lorsque Dieu voulut le libérer des difficultés de ce monde il s’endormit dans le Seigneur après avoir siégé sur le trône patriarcal vingt-sept ans, un mois et neuf jours.", 
+        "فإزداد غضبا وأضمر سوءا إذ حل الشيطان فى قلبه فقام ومضى إلى والى مصر احمد إبن طولون وقال لَهُ أَنَّ البطريرك كثير الثروة، واسع الغنى، وكان هذا الوالي آخذا في الاستعداد للذهاب إلى الحرب ومحتاجا إلى النفقات فَاسْتَدْعَى الأب البطريرك وطلب منه أموال الكنائس وأوانيها. فأبي أَنَّ يعطيها لَهُ فطرحه فى السجن مع شماس اسمه ابن المنذر مدة سنة كاملة ، كان خلالها لا يقتات بغير الخبز والبقول المسلوقة والملح . فإتفق يوحنا وموسى من كتاب الوالي مع كاتبى وزيره يوحنا ومقار ابنه على إنقاذ الأب البطريرك واستغاثوا بالوزير فلبي دعوتهم ، وشفع لدى الوالي على شرط دفع مبلغ 20 ألف دينار لابن طولون . فكتب البطريرك تعهدا على نفسه بدفع المبلغ على قسطين : الأول بَعْدَ شهر ، والثاني بَعْدَ أربعة أشهر وبهذا أمكنه الخروج من السجن . فَلَمَّا جاء ميعاد القسط الأول دفع أولئك الكتاب ألفى دينار ، وتبرع الوزير بألف . . ودفع هذا الأب سبعة آلاف جمعها من الأساقفة والمؤمنين . وأراد أَنَّ يتدبر العشرة الآلاف الأخرى قيمة القسط الباقي . فقصد بلدة بلبيس وبينما هو يفكر فى الأمر إذ براهب رث اللباس مر بتلاميذه وقاك لهم : امضوا وقولوا لمعلمكم أَنَّ الرب سيمزق عنه صك الغرامة بَعْدَ أربعين يومًا . فَلَمَّا علم الأب بِذَلِكَ طلب الراهب فَلَمْ يجده . وقد تم ذلك ، إذ لَمْ تمض تلك المدة حتى توفى ابن طولون ، وتولى مكانه ابنه خمارويه سنة875 م . . فرأى هذا أَنَّ يخلى طرف البطريرك . فإستدعاه وطيب خاطره ثم مزق الصك أَمَّا الرجل الشرير الذي سبب هذه المتاعب لقداسة البابا فقد نزل به غضب الله فى الحياة . والممات ، ليكون عبرة لمن يعتبر . وقد قضى هذا الأب على الكرسي المرقسى سبعا وعشرين سنة وشهرا واحدا وتسعة أيام ثم تنيح بسلام . صلاته تكون معنا . آمين. في مثل هذا اليوم أقام الرب لعازر الصديق من بين الأموات وآمن به كثيرون لعظم هذه الآية. يروي الإصحاح الحادي عشر من إنجيل القديس يوحنا قصة إقامة السيد المسيح للعازر من الأموات ، الذي كان من بيت عنيا وشقيق مرثا و مريم ، وكانوا جميعًا أصدقاء للسيد المسيح الذي كان يحبهم. لا يروي لنا الكتاب المُقَدَّسْ شيء عن حياة لعازر بَعْدَ ذلك ، ولكن بعض الروايات الغير مؤَكَّدة تقول أَنَّهُ تبع بطرس الرسول إلى سوريا، إلا أَنَّ تقليد الكنيسة الشرقية يروي عنه أَنَّ يهود يافا Jaffa وضعوه هو وشقيقتيه وآخرين في سفينة بها تسرب ماء قاصدين إغراقهم ، ولكن بقوة إلهية رست السفينة بسلام في جزيرة قبرص ، حيث أقيم لعازر أسقفًا على كتيون (لارناكا) Kition (Larnaca)، وهناك تنيّح بسلام بَعْدَ نحو ثلاثين عامًا . وفي عام 890م بنى الإمبراطور لاون السادس Leo VI في القسطنطينية كنيسة ودير على اسمه ، ونقل جزءً من رفاته إليها من قبرص . هناك أدِلّة وفيرة على أَنَّ ذكرى القديس لعازر كانت تُكرَّم في الأيام الأولى في أورشليم ، ثم بَعْدَ ذلك في الكنيسة كلها . فتروي السيدة إثيريا (إيجيريا) Etheria التي ذهبت لزيارة الأراضي المقدسة سنة 390م عن موكب احتفالي في اللعازرية Lazarium - حيث أقيم لعازر من بين الأموات - وذلك في يوم السبت السابق لأحد السعف ، وقد تأثرت إثيريا بسبب الجمع الغفير الذي ملأ المنطقة كلها . وفي ميلان بإيطاليا كان أحد البصخة يسمى Dominica de Lazaro ، وفي أفريقيا كما نتعلم من القديس أغسطينوس كان إنجيل إقامة لعازر من الموت يُقرأ في عشية ليلة أحد السعف. حاليًا تقيم أغلب الكنائس الأرثوذكسية تذكارًا لإقامته في يوم السبت السابق لأحد الشعانين، أي حوالي أسبوع قبل عيد الفصح المسيحي . ولربنا المجد دائمًا . آمين .", 
         ],
         [
-            Prefix.same + "&C=NoActor",
-            "Nous commémorons aussi en ce jour le martyre de sept saints en l’an 21 des martyrs (305 après Jésus Christ).",
-            ""
+        Prefix.same+"&C=NoActor", 
+        "Que la bénédiction de ses prières soit avec nous. Amen !", 
+        "", 
         ],
         [
-            Prefix.same + "&C=NoActor",
-            "- Quatre saints égyptiens : Saint Alexandre (الكسندروس), Saint Romulus (روميلوس) et Saint Plesius (بليسوس) et saint Mélèce (مليس).",
-            ""
+        Prefix.same+"&C=NoActor", 
+        "Nous commémorons aussi aujourd’hui la résurrection de Lazare d’entre les morts par nôtre Seigneur Jésus Christ.", 
+        "", 
         ],
         [
-            Prefix.same + "&C=NoActor",
-            "- Saint Agapius (أغابيوس) de Gaza.",
-            ""
+        Prefix.same+"&C=NoActor", 
+        "Un grand nombre de personnes crurent à cause la grandeur de ce miracle.", 
+        "", 
         ],
         [
-            Prefix.same + "&C=NoActor",
-            "- Saint Timolaus (تيمولاؤس) du Pont (البنطس).",
-            ""
+        Prefix.same+"&C=NoActor", 
+        "Que la bénédiction de ses prières soit avec nous et gloire soit à nôtre Seigneur, éternellement. Amen ! ", 
+        "", 
         ],
-        [
-            Prefix.same + "&C=NoActor",
-            "- Saint Denys (ديوناسيوس) de Tripoli.",
-            ""
         ],
-        [
-            Prefix.same + "&C=NoActor",
-            "Ces saints étaient liés d’une profonde amitié chrétienne et ils se rendirent à Césarée de Palestine et se présentèrent devant le gouverneur en confessant leur Foi en Jésus Christ. Celui-ci tenta de les amadouer pour qu’ils renient leur Foi. Comme il n’atteignait pas son but, il les fit torturer cruellement et ils obtinrent la couronne du martyre.",
-            ""
-        ],
-        [
-            Prefix.same + "&C=NoActor",
-            "Que la bénédiction de leurs prières soit avec nous et gloire soit à nôtre Seigneur, éternellement. Amen !",
-            ""
-        ]
-    ],
     [
         [
             Prefix.synaxarium + "&D=2107&C=Title",
