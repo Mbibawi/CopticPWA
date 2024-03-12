@@ -1715,5 +1715,4 @@ function convertAllCopticParagraphsFonts(fontFrom?: string) {
 
     })
 
-
 }
