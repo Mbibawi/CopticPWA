@@ -24,7 +24,7 @@ type typeButton = {
 };
 //CONSTANTS
 const version: string =
-  "v5.7.3.1 (Added Coptic CSS Fonts)";
+  "v5.7.4 (Fixes to the \"Editing Mode\": added keyboard shotcuts) + fixes to the Holy Week processing functions";
 const calendarDay: number = 24 * 60 * 60 * 1000; //this is a day in milliseconds
 const containerDiv: HTMLDivElement = document.getElementById(
   "containerDiv") as HTMLDivElement;

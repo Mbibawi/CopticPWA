@@ -37,7 +37,7 @@ function startEditingMode(args: {
     else if (args.arrayName === args.select.options[3].innerText)
       return editDayReadings(); //Editing all the readings of ta give Coptic Date
     else {
-      args.arrayName === 'PrayersArray' ? args.arrayName = 'PrayersArrayFR' :  args.arrayName = 'ReadingsArrays.' + args.arrayName + 'FR';
+      args.arrayName === 'PrayersArray' ? args.arrayName = 'PrayersArrayFR' : args.arrayName = 'ReadingsArrays.' + args.arrayName + 'FR';
       args.tablesArray = editSpecificTable() || []
     };
 
@@ -81,15 +81,15 @@ function startEditingMode(args: {
   }
 
   function editSpecificTable(
-    arrayName: string = args.arrayName 
+    arrayName: string = args.arrayName
   ): string[][][] | void {
-   
+
     alert(arrayName);
     if (
       !args.tableTitle && //args.tableTitle was not already provided as argument
       confirm("Do you want to edit a single or specific table(s) in the array?")
     )
-    
+
       args.tableTitle = prompt(
         'Provide the name of the table you want to edit  (if more than one table, provide the titles separated by ", " '
       );
@@ -527,51 +527,51 @@ function saveModifiedArray(args: {
     .forEach((htmlRow) => {
       if (!htmlRow) return; //This will happen if the row was row of a table referrenced by a placeholder, that was later on hidden when the click() event of the placeholder row was triggered (see below)
       title = htmlRow.dataset.root; //this is the title without '&C='
-      
+
       if (titles.has(title)) return;//If the title has already been processed before (i.e., the table was modified or added in its string[][][] array, we do not need to continue)
 
       titles.add(title)//Else, we add the title to the titles Set in order to avoid re processing the same table again
 
-    if (htmlRow.dataset.isPlaceHolder) {
-      saveModifiedArray({
-        exportToFile: false,
-        exportToStorage: true,
-        dataRoot: htmlRow.dataset.isPlaceHolder,
-      });//Since we are not providing the htmlRows argument, the function will retrieve all the containerDiv children having 'Row' or 'PlaceHolder' class and will filter them by the data-root of the placeHolder div
-      args.htmlRows
-        .filter(
-          (div) =>
-            !div.dataset.isPlaceHolder &&
-            div.dataset.root &&
-            div.dataset.root === htmlRow.dataset.isPlaceHolder
-        )
-        .forEach((div) => div.remove()); //We remove all the html elements that were created to show the rows of the table referenced by the 'PlaceHolder' element.
-      return;
-    }
-  
-    if (!htmlRow.dataset.arrayName)
-      return console.log(
-        "We encountered a problem with one of the rows : ",
-        htmlRow
-      );//Without the arrayName attribute, we will not be able to retrive the string[][][] to which the table belongs.
-    
+      if (htmlRow.dataset.isPlaceHolder) {
+        saveModifiedArray({
+          exportToFile: false,
+          exportToStorage: true,
+          dataRoot: htmlRow.dataset.isPlaceHolder,
+        });//Since we are not providing the htmlRows argument, the function will retrieve all the containerDiv children having 'Row' or 'PlaceHolder' class and will filter them by the data-root of the placeHolder div
+        args.htmlRows
+          .filter(
+            (div) =>
+              !div.dataset.isPlaceHolder &&
+              div.dataset.root &&
+              div.dataset.root === htmlRow.dataset.isPlaceHolder
+          )
+          .forEach((div) => div.remove()); //We remove all the html elements that were created to show the rows of the table referenced by the 'PlaceHolder' element.
+        return;
+      }
+
+      if (!htmlRow.dataset.arrayName)
+        return console.log(
+          "We encountered a problem with one of the rows : ",
+          htmlRow
+        );//Without the arrayName attribute, we will not be able to retrive the string[][][] to which the table belongs.
+
       tablesArray = eval(htmlRow.dataset.arrayName);
-    
+
       if (!tablesArray)
-      return console.log(
-        "We've got a problem while executing saveOrExportArray(): title = ",
-        title,
-        " and arrayName = ",
-        htmlRow.dataset.arrayName
-      );
-      
+        return console.log(
+          "We've got a problem while executing saveOrExportArray(): title = ",
+          title,
+          " and arrayName = ",
+          htmlRow.dataset.arrayName
+        );
+
       if (PrayersArrays.includes(tablesArray)) tablesArray = PrayersArrayFR; //If the array is one of the sub arrays created from PrayersArrays, the array that need to be modified and saved or exported is PrayersArray not the sub array itself
 
-    if (!savedArrays.has(htmlRow.dataset.arrayName))
-      savedArrays.add(htmlRow.dataset.arrayName);
+      if (!savedArrays.has(htmlRow.dataset.arrayName))
+        savedArrays.add(htmlRow.dataset.arrayName);
 
-    modifyEditedArray(title, tablesArray);
-  });
+      modifyEditedArray(title, tablesArray);
+    });
 
   //We finally save or export each array in the savedArrays
   savedArrays.forEach((arrayName) =>
@@ -672,6 +672,7 @@ function saveOrExportArray(
 
   if (exportToStorage) {
     localStorage.editedText = text;
+    alert('Finished Saving the Array to localStorage')
     console.log(localStorage.editedText);
   }
 
@@ -724,7 +725,8 @@ function processArrayTextForJsFile(
     element = element
       .replaceAll('"', '\\"') //replacing '"" by '\"'
       .replaceAll("\n", "\\n")
-      .replaceAll("\r", "\\r") ;
+      .replaceAll("\r", "\\\\r")
+      .replaceAll("\\u", "\\\\u");
 
     if (splitTitle(row[0])[1] === "Title")
       element = element
@@ -771,10 +773,12 @@ function replaceHtmlQuotes(innerHtml: string, lang: string): string {
 
 /**
  * Adds a new div (row) below the div (row) passed to it as argument.
- * @param {HTMLElement} row - the div (row) below which we will add a row
- * @param {string} dataRoot - a string representing the data-root value that will be givent to the new div (row) added. If missing, the user will be prompted to provide the dataRoot, with, as default value, the data-root value of 'row'
+ * @param {HTMLElement} htmlParag - the html paragraph in which the cursor is placed when the function is called 
+ * @param {boolean} isPlaceHolder - If true, the row that will be added will be a 'PlaceHolder' row. Its default value is false
+ * @param {string} title - The title of the row that will be added. If omitted, the function will prompt for providing the title
+ * @param {boolean} below - If true, the new row will be added below. Else it will inserted before the currently selected div. Its default value is true
  */
-function addNewRow(htmlParag: HTMLElement, isPlaceHolder: boolean = false, title?: string): HTMLElement | void {
+function addNewRow(htmlParag: HTMLElement, isPlaceHolder: boolean = false, title?: string, below: boolean = true): HTMLElement | void {
   let htmlRow = getHtmlRow(htmlParag);
   if (!htmlRow) return;
 
@@ -833,7 +837,7 @@ function addNewRow(htmlParag: HTMLElement, isPlaceHolder: boolean = false, title
 
   if (!newRow.title) //If not already set because it is a new PlaceHolder row
     newRow.title = title;
-  
+
   if (splitTitle(newRow.title)[0] === splitTitle(htmlRow.title)[0]) newRow.dataset.isPrefixSame = 'true'; //We need this in order to be sure than when the table is exported, the string[] representing the newly added row will have as first element: Prefix.same + '&C=[whatever class]' not the full title of the table
 
   if (!newRow.dataset.arrayName) //If not already set because it is a new PlaceHolder row
@@ -854,11 +858,30 @@ function addNewRow(htmlParag: HTMLElement, isPlaceHolder: boolean = false, title
       isPlaceHolder ? p.lang = 'FR' : p.lang = child.lang;
       p.classList.add(p.lang.toUpperCase());
       p.contentEditable = "true";
+      p.addEventListener('keypress', (e: KeyboardEvent) => { e.preventDefault; paragraphsKeyShortcuts(e)})
     });
-
-  return htmlRow.insertAdjacentElement("afterend", newRow) as HTMLElement;
+  let position: InsertPosition;
+  below ? position = 'afterend' : position = 'beforebegin'
+  return htmlRow.insertAdjacentElement(position, newRow) as HTMLElement;
 }
-function addNewCell(htmlParag: HTMLElement): HTMLElement | void {
+
+function paragraphsKeyShortcuts(e: KeyboardEvent) {
+  if (!e.shiftKey) return;
+  let p = e.target as HTMLElement
+  if (e.key === 'A') addNewRow(p, false, undefined, true);
+  if (e.key === 'B') addNewRow(p, false, undefined, false);
+  if (e.key === 'S') saveModifiedArray({exportToFile:false, exportToStorage:true});
+  if (e.key === 'E') saveModifiedArray({exportToFile:true, exportToStorage:true});
+  if (e.key === 'C') convertCopticFontFromAPI(p);
+  if (e.key === 'L') deleteRow(p);
+}
+
+/**
+ * 
+ * @param htmlParag 
+ * @returns 
+ */
+function addNewCell(htmlParag: HTMLElement, right: boolean = true): HTMLElement | void {
   let htmlRow = getHtmlRow(htmlParag);
   if (!htmlRow) return;
   let p = document.createElement("p"),
@@ -869,6 +892,8 @@ function addNewCell(htmlParag: HTMLElement): HTMLElement | void {
   p.classList.add(lang);
   p.lang = lang;
   p.innerText = 'New paragraph added';
+  let position: InsertPosition;
+  right ? position = "afterend" : position = "beforebegin"
   htmlParag.insertAdjacentElement("afterend", p) as HTMLElement;
   htmlRow.style.gridTemplateAreas = setGridAreas(htmlRow);
   htmlRow.style.gridTemplateColumns = setGridColumnsOrRowsNumber(htmlRow);
@@ -1086,6 +1111,7 @@ function createHtmlElementForPrayerEditingMode(args: {
     p.lang = lang; //we are adding this in order to be able to retrieve all the paragraphs in a given language by its data attribute. We need to do this in order for example to amplify the font of a given language when the user double clicks
     p.innerText = text;
     p.contentEditable = "true";
+    p.addEventListener('keypress', (e: KeyboardEvent) => {e.preventDefault; paragraphsKeyShortcuts(e)})
     htmlRow.appendChild(p); //the row which is a <div></div>, will encapsulate a <p></p> element for each language in the 'prayer' array (i.e., it will have as many <p></p> elements as the number of elements in the 'prayer' array)
   }
   //@ts-ignore
@@ -1346,43 +1372,49 @@ function getLanguages(arrayName?): string[] {
  * @param {HTMLElement} htmlElement - an editable html element in which the cursor is placed, containing coptic text in a non unicode font, that we need to convert
  */
 async function convertCopticFontFromAPI(htmlElement: HTMLElement, fontFrom?: string) {
-  let text: string;
+  let text: string, selected: Selection = getSelectedText();
   const apiURL: string =
     "https://www.copticchurch.net/coptic_language/fonts/convert";
-  if(!fontFrom) fontFrom = prompt("Provide the font", "Coptic1/CS Avva Shenouda");
+
+  if (!fontFrom) fontFrom = prompt("Provide the font", "Coptic1/CS Avva Shenouda");
 
   while (htmlElement.tagName !== "P" && htmlElement.parentElement)
     htmlElement = htmlElement.parentElement;
-  text = htmlElement.textContent;
-  let request = new XMLHttpRequest();
-  request.open("POST", apiURL);
-  request.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-  request.setRequestHeader("accept", "text");
-  request.send(
-    "from=" +
-    encodeURI(fontFrom) +
-    "&encoding=unicode&action=translate&data=" +
-    encodeURI(text)
-  );
-  request.responseType = "text";
-  request.onload = () => {return onLoad()};
-  
+
+  if (selected) sendHttpRequest(selected.toString());
+  else sendHttpRequest(htmlElement.textContent);
+
+  function sendHttpRequest(originalText: string): string {
+    let request = new XMLHttpRequest();
+    request.open("POST", apiURL);
+    request.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+    request.setRequestHeader("accept", "text");
+    request.send(
+      "from=" +
+      encodeURI(fontFrom) +
+      "&encoding=unicode&action=translate&data=" +
+      encodeURI(originalText)
+    );
+    request.responseType = "text";
+    request.onload = onLoad;
+
     function onLoad() {
       if (request.status === 200) {
         let textArea: HTMLElement = new DOMParser()
           .parseFromString(request.response, "text/html")
           .getElementsByTagName("textarea")[0];
-        console.log("converted text = ", textArea.innerText);
-        htmlElement.innerText = textArea.innerText;
         text = textArea.innerText;
-        return textArea.innerText;
+        console.log("converted text = ", text);
+        if (selected) htmlElement.innerText = htmlElement.innerText.replace(originalText, text);
+        else htmlElement.innerText = text;
       } else {
         console.log("error status text = ", request.statusText);
         text = 'Failed and got error : ' + request.statusText
         return request.statusText;
       }
+    }
+    return text
   }
-  return text
 }
 
 function goToTableByTitle() {
@@ -1520,13 +1552,13 @@ function editDayReadings(date?: string) {
   Object.entries(ReadingsArrays)
     .forEach(readingArray => {
       readingArray[1].filter((table) => table[0][0].includes(date))
-      .forEach((table) => {
-        startEditingMode({
-          tableTitle: splitTitle(table[0][0])[0],
-          arrayName:'ReadingsArrays.' + readingArray[0],
-          clear: false,
+        .forEach((table) => {
+          startEditingMode({
+            tableTitle: splitTitle(table[0][0])[0],
+            arrayName: 'ReadingsArrays.' + readingArray[0],
+            clear: false,
+          });
         });
-      });
     });
 }
 function showBtnInEditingMode(btn: Button) {
@@ -1671,15 +1703,15 @@ function getSelectedText(): Selection {
 /**
  * Converts the fonts of all the Coptic text paragraphs in containerDiv
  */
-function convertAllCopticParagraphsFonts(fontFrom?:string) {
+function convertAllCopticParagraphsFonts(fontFrom?: string) {
   let parags = Array.from(containerDiv.querySelectorAll('P')) as HTMLParagraphElement[];
-  if(!fontFrom) fontFrom = prompt('Provide the font from which you want to convert the Coptic text');
+  if (!fontFrom) fontFrom = prompt('Provide the font from which you want to convert the Coptic text');
   parags
-    .filter(parag =>parag.lang === 'COP')
+    .filter(parag => parag.lang === 'COP')
     .forEach(parag => {
-    convertCopticFontFromAPI(parag, fontFrom)
-    
-  })
+      convertCopticFontFromAPI(parag, fontFrom)
 
-  
+    })
+
+
 }
