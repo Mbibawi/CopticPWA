@@ -874,6 +874,8 @@ function paragraphsKeyShortcuts(e: KeyboardEvent) {
   if (e.key === 'E') saveModifiedArray({exportToFile:true, exportToStorage:true});
   if (e.key === 'C') convertCopticFontFromAPI(p);
   if (e.key === 'L') deleteRow(p);
+  if (e.key === 'P') splitParagraphsToTheRowsBelow(p);
+
 }
 
 /**
