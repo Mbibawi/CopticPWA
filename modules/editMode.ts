@@ -858,7 +858,7 @@ function addNewRow(htmlParag: HTMLElement, isPlaceHolder: boolean = false, title
       isPlaceHolder ? p.lang = 'FR' : p.lang = child.lang;
       p.classList.add(p.lang.toUpperCase());
       p.contentEditable = "true";
-      p.addEventListener('keypress', (e: KeyboardEvent) => { e.preventDefault; paragraphsKeyShortcuts(e)})
+      p.addEventListener('keydown', (e:KeyboardEvent) => { e.preventDefault; paragraphsKeyShortcuts(e)})
     });
   let position: InsertPosition;
   below ? position = 'afterend' : position = 'beforebegin'
@@ -868,13 +868,13 @@ function addNewRow(htmlParag: HTMLElement, isPlaceHolder: boolean = false, title
 function paragraphsKeyShortcuts(e: KeyboardEvent) {
   if (!e.shiftKey) return;
   let p = e.target as HTMLElement
-  if (e.key === 'A') addNewRow(p, false, undefined, true);
-  if (e.key === 'B') addNewRow(p, false, undefined, false);
-  if (e.key === 'S') saveModifiedArray({exportToFile:false, exportToStorage:true});
-  if (e.key === 'E') saveModifiedArray({exportToFile:true, exportToStorage:true});
-  if (e.key === 'C') convertCopticFontFromAPI(p);
-  if (e.key === 'L') deleteRow(p);
-  if (e.key === 'P') splitParagraphsToTheRowsBelow(p);
+  if (e.key === 'A') {e.preventDefault; addNewRow(p, false, undefined, true)};
+  if (e.key === 'B') {e.preventDefault; addNewRow(p, false, undefined, false)};
+  if (e.key === 'S') {e.preventDefault; saveModifiedArray({exportToFile:false, exportToStorage:true})};
+  if (e.key === 'E') {e.preventDefault; saveModifiedArray({exportToFile:true, exportToStorage:true})};
+  if (e.key === 'C') {e.preventDefault; convertCopticFontFromAPI(p)};
+  if (e.key === 'L') {e.preventDefault; deleteRow(p)};
+  if (e.key === 'P') {e.preventDefault; splitParagraphsToTheRowsBelow(p)};
 
 }
 
@@ -1113,7 +1113,7 @@ function createHtmlElementForPrayerEditingMode(args: {
     p.lang = lang; //we are adding this in order to be able to retrieve all the paragraphs in a given language by its data attribute. We need to do this in order for example to amplify the font of a given language when the user double clicks
     p.innerText = text;
     p.contentEditable = "true";
-    p.addEventListener('keypress', (e: KeyboardEvent) => {e.preventDefault; paragraphsKeyShortcuts(e)})
+    p.addEventListener('keydown', (e: KeyboardEvent) => {e.preventDefault; paragraphsKeyShortcuts(e)})
     htmlRow.appendChild(p); //the row which is a <div></div>, will encapsulate a <p></p> element for each language in the 'prayer' array (i.e., it will have as many <p></p> elements as the number of elements in the 'prayer' array)
   }
   //@ts-ignore
