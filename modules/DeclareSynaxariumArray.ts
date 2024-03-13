@@ -14275,7 +14275,7 @@ ReadingsArrays.SynaxariumArrayFR = [
     [
     Prefix.same+"&C=NoActor", 
     "Il demeura sur le siège de saint Marc pendant environ 20 années et, après avoir accompli son bon combat, il décéda en paix.", 
-    "ولَمَّا أكْمَلَ سَعْيَّهُ الصَالِحْ تَنَيَّحَ بِسَلامْ بَعْدَ أَنَّ جلس عَلَى الكُرْسِي المرقسي 20 عاماً تقريباً.", 
+    "ولَمَّا أكْمَلَ سَعْيَّهُ الصَالِحْ تَنَيَّحَ بِسَلامْ بَعْدَ أَنْ جلس عَلَى الكُرْسِي المرقسي 20 عاماً تقريباً.", 
     ],
     [
     Prefix.same+"&C=NoActor", 
