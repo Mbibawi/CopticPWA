@@ -14017,48 +14017,6 @@ ReadingsArrays.SynaxariumArrayFR = [
     ],
     [
         [
-        Prefix.synaxarium+"&D=1907&C=Title", 
-        "19 Barmahat\n1) Décès de saint Aristobule, un des soixante-dix disciples ;\n2)  Martyre de saint Alexandre, saint Agapius et de leurs compagnons", 
-        "19 برمهات\nنياحة أرسطوبولس أحد السبعين رسولاً\nhستشهاد القديسين ألكسندروس وأغابيوس ومن مَعْهُمَا\n", 
-        ],
-        [
-        Prefix.same+"&C=NoActor", 
-        "Nous commémorons aujourd’hui le martyre de saint Aristobule (ارسطوبولس), l’un des soixante-dix disciples que le Seigneur a choisis pour les envoyer prêcher avant sa passion.", 
-        "في مِثْلِ هَذَا اليَومْ اسْتَشْهَدَ القِدّيسْ أرسطوبولس، أحَدْ السبعين رسولاً الّذِينَ انتخبهم الرَّبْ وأرسلهم للكرازة قبل آلامه.", 
-        ],
-        [
-        Prefix.same+"&C=NoActor", 
-        "Ce saint reçut les dons du Saint Esprit en même temps que les apôtres le jour de la pentecôte. Il proclama avec eux la Bonne Nouvelle vivifiante. Ainsi, il ramena un grand nombre sur le chemin du Salut ; ils crurent en Jésus Christ et il les baptisa et leur apprit les commandements divins.", 
-        "نَالَ مَعَ التلاميذ نِعْمَةِ الرُوحِ القُدُسْ في يوم الخمسين، وكَرَزَ مَعْهُمْ بالبشارة المحيية، ورد كَثِيرينْ إلى طَرِيقِ الخلاص، فآمنوا بِالسَيِّدِ المَسِيحِْ وعَمَّدَهُمْ وعَلَّمَهُمْ الوَصَايَا الإلهية.", 
-        ],
-        [
-        Prefix.same+"&C=NoActor", 
-        "Les apôtres l’établirent évêque au nord de la France (إحدى مقاطعات شمال فرنسا) où il se rendit. Il proclama l’Evangile parmi ses habitants, les enseigna et les baptisa puis leur appris les commandements de Dieu et les règles de l’Eglise. Il fit de nombreux miracles qui attirèrent un grand nombre à la Foi mais il subit beaucoup d’humiliations de la part des Juifs et des Grecs qui le lapidèrent et il reçut la couronne du martyre.", 
-        "أقامه التلاميذ أُسْقُفَاً عَلَى أبريطانياس، وهي إحدى مقاطعات شمال فرنسا، فبشر أهلها ووعظهم وعمدهم، وعَلَّمَهُمْ الوَصَايَا الإلهية والقوانين الكنسية. وقَدْ أجرى الله عَلَى أيْدِي هَذَا القِدّيسْ آيَاتٍ كثيرة، كَانَتْ سبباً في إيمان الكثيرين، فلحقت بِهِ إهانات شَدِيدَةْ مِنَ اليهود واليونانيين، ورجموه بالحجارة فنَالَ إكْلْيلْ الشِهَادَة.", 
-        ],
-        [
-        Prefix.same+"&C=NoActor", 
-        "Que la bénédiction de ses prières soit avec nous. Amen !", 
-        "بَرَكِةْ صَلَوَاتُهُ فَلْتَكُنْ مَعْنَا، آمْينْ.", 
-        ],
-        [
-        Prefix.same+"&C=NoActor", 
-        "Nous commémorons aussi en ce jour le martyre de sept saints en l’an 21 des martyrs (305 après Jésus Christ):\n- Quatre saints égyptiens : Saint Alexandre (الكسندروس), Saint Romulus (روميلوس) et Saint Plesius (بليسوس) et saint Mélèce (مليس);\n- Saint Agapius (أغابيوس) de Gaza;\n- Saint Timolaus (تيمولاؤس) du Pont (البنطس);\n- Saint Denys (ديوناسيوس) de Tripoli.", 
-        "وفيه أيْضَاً مِنْ سَنَةْ 21 لِلْشُهَداءِ (305م)، اسْتَشْهَدَ القِدِّيْسْون ألكسندروس وروميلوس وبليسوس ومليس المصريون، وأغابيوس من غزة، وتيموثاؤس مِنَ البنطس، وديوناسيوس من طرابلس.", 
-        ],
-        [
-        Prefix.same+"&C=NoActor", 
-        "Ces saints étaient liés d’une profonde amitié chrétienne et ils se rendirent à Césarée de Palestine et se présentèrent devant le gouverneur en confessant leur Foi en Jésus Christ. Celui-ci tenta de les amadouer pour qu’ils renient leur Foi. Comme il n’atteignait pas son but, il les fit torturer cruellement et ils obtinrent la couronne du martyre.", 
-        "ارتبط هؤلاء السبعة القِدِّيْسْون بالمحبة المسيحية، ومضوا إلى والي قيصرية فلسطين واعترفوا أَمَامَهُ بِالسَيِّدِ المَسِيحِ. فلاطفهم محاولاً إقناعهم بترك إيمانهم، ولَمَّا لَمْ يفلح أَمَرَ بتعذيبهم بعذابات شَدِيدَةْ فنالوا إكليل الشِهَادَة.", 
-        ],
-        [
-        Prefix.same+"&C=NoActor", 
-        "Que la bénédiction de leurs prières soit avec nous et gloire soit à notre Seigneur, éternellement. Amen !", 
-        "بركة صلواتهم فَلْتَكُنْ مَعْنَا، ولِرَبِنَا المَجْدِ دَائِمَاً أبَدِيَّاً آمين.", 
-        ],
-        ],
-        [
-        [
         Prefix.synaxarium+"&D=2007&C=Title", 
         "20 Barmahat\n1) Décès du pape Michel (Khaïl) III ;\n2) Commémoration de la résurrection de Lazare, l’ami de nôtre Seigneur", 
         "20 برمهات\nنِيَاحَةِ البَابَا خَائيل الثَالث\nتِذْكَارِ إِقَامِةِ لِعَازَرَ مِنَ المَوتِ", 
@@ -14104,30 +14062,120 @@ ReadingsArrays.SynaxariumArrayFR = [
         "بَرَكَةِ صَلاَتِهِ فَلْتَكُنْ مَعْنَا، ولِرَبِنَا المَجْدِ دَائِمَاً أبَدِيَّاً آمين.", 
         ],
         ],
-    [
         [
-            Prefix.synaxarium + "&D=2107&C=Title",
-            "21 Barmahat",
-            "21 برمهات"
+        [
+        Prefix.synaxarium+"&D=2107&C=Title", 
+        "21 Barmahat\n1) Commémoration de la mère de Dieu ;\n2) Venue de Notre Sauveur à Béthanie et concertation des grands prêtres pour tuer Lazare, celui que le Seigneur a ressuscité ;\n3) Martyre des saints Théodore et Timothée", 
+        "21 برمهات\nالتذكار الشهري لِوالِدَةِ الإله القِدِّيسَةْ مَرْيَمْ العَذْرَاء\nدخول المخلص بيت عنيا وتشاور عظماء الكهنة على قتل لعازر الصديق الذي أَقَامَهُ الرَبُّ\nاسْتِشْهَادِ القديسين ثاؤدورس وتيموثاوس", 
         ],
         [
-            Prefix.same + "&C=NoActor",
-            "Commémoration de la mère de Dieu, la sainte Vierge Marie - Venue de Notre Sauveur à Béthanie et concertation des grands prêtres pour tuer Lazare, celui que le Seigneur a ressuscité - Martyre des saints Théodore et Timothée.\n1. Commémoration de la mère de Dieu, la sainte Vierge Marie.\nNous commémorons en ce jour la très sainte Vierge Marie, la mère de Dieu, qui intercède pour nous. \nQue son intercession soit avec nous. Amen !\n2. Venue de Notre Sauveur à Béthanie et concertation des grands prêtres pour tuer Lazare, celui que le Seigneur a ressuscité.\nNous commémorons aussi aujourd'hui la venue de nôtre Seigneur et nôtre sauveur Jésus Christ à Béthanie (بيت عنيا). Ce village se trouve non loin de Jérusalem et Lazare, qu'Il a ressuscité, était à table avec Lui. Marthe, sa sœur, servait ceux qui étaient présents alors que Marie, son autre sœur, oignait les pieds du Seigneur avec du parfum et les essuyait avec ses cheveux. Le Seigneur l'a louée et fit allusion à sa mort en disant : « ‘c'est pour le jour de ma sépulture qu'elle devait garder ce parfum.’  ... La grande foule des Juifs apprit qu'il était là et ils vinrent, pas seulement pour Jésus, mais aussi pour voir Lazare, qu'il avait ressuscité d'entre les morts. Les grands prêtres décidèrent de tuer aussi Lazare, parce que beaucoup de Juifs, à cause de lui, s'en allaient et croyaient en Jésus. »\nQue la bénédiction de nôtre Seigneur soit avec nous et se répande dans nos maisons. Amen !\nJn 12 : 1 – 12.\n3. Martyre des saints Théodore et Timothée. \nEn ce jour nous commémorons aussi le martyre des saints Théodore et Timothée.\nQue la bénédiction de leurs prières soit avec nous et gloire soit à nôtre Seigneur, éternellement. Amen ! \t",
-            "وفي مِثْلِ هَذَا اليَومْ حضر ربنا يَسْوعْ المَسِيحْ مَعَ تلاميذه وليمة في بَيْت عنيا القَرِيبِ مِنْ أورشليم حَيْثُ كَانَ لعازر الذي أقامه من بَيْنَ الأموات أحَدْ المتكئين معه. وكَانَتْ مرثا أخته تخدم الجمع الحاضر، أما مَرْيَمْ فكَانَتْ تدهن قدمَيْ المُخَلِّصْ بالطيب وتمسحهما بشعرها، فمدحها الرَّبْ وأشار عَن موته بقوله \" إنها ليوم تكفيني قَدْ حفظته. فعلم جمع كثير مِنَ اليهود أَنَّهُ هناك، فجاءوا ليس لأجل يَسْوعْ فَقَطْ بل لينظروا أيْضَاً لعازر الذي أقامه من بَيْنَ الأموات. فتشاور رؤساء الكهنة ليقتلوا لعازر أيْضَاً لِأنَّ كَثِيرينْ مِنَ اليهود كانوا بسببه يذهبون ويؤمنون بيسوع \" (يُوحَنَّا 12: 1 – 11). بركة ربنا يَسْوعْ المَسِيحْ فلتحل علينا وعلى بيوتنا، لَهُ كُلَّ كرامة ومجد دائماً أبَدِيَّاً آمْينْ.\nتُعيِّد الكَنيسَةْ اليَوْم بالتِذْكَارْ الشهري لوالدة الإله القِدِّيسَةْ مَرْيَمْ العَذْرَاءْ الشفيعة في جنس البشر. شفاعتها المُقَدَّسَةْ فَلْتَكُنْ مَعْنَا. آمْينْ.\nوفيه أيْضَاً تُعَيِِّدُ الكَنيسَةْ بتِذْكَارْ اسْتِشْهَادْ القِدِّيسْينْ تاؤدروس وتيموثاوس. بركة صلواتهما فَلْتَكُنْ مَعْنَا، ولِرَبِنَا المَجْدِ دَائِمَاً أبَدِيَّاً آمْينْ.\n"
-        ]
-    ],
-    [
-        [
-            Prefix.synaxarium + "&D=2207&C=Title",
-            "22 Barmahat",
-            "22 برمهات"
+        Prefix.same+"&C=NoActor", 
+        "Nous commémorons en ce jour la très sainte Vierge Marie, la mère de Dieu, qui intercède pour nous. ", 
+        "تُعيِّدُ الكَنيسَةْ اليَوْم بالتِذْكَارْ الشهري لِوالِدَةِ الإله القِدِّيسَةْ مَرْيَمْ العَذْرَاءْ الشفيعة في جنس البشر.", 
         ],
         [
-            Prefix.same + "&C=NoActor",
-            "Décès de saint Cyrille, évêque de Jérusalem - Décès de Joseph d’Arimathie, le juste - Décès de saint Michel, évêque de Nakadah.\n1. Décès de saint Cyrille, évêque de Jérusalem.\nEn ce jour de l’an 102 des matyrs (386 après Jésus Christ) eût lieu le décès de saint Cyrille (كيرلس), l’évêque de Jérusalem. Ce saint naquit dans cette ville en l’an 315 après Jésus Christ et eût une éducation chrétienne. Il excella dans la connaissance des sciences spirituelles ainsi que des lettres grecques. Saint Maxime (مكسيموس) l’ordonna diacre puis prêtre et lui assigna de guider les catéchumènes juifs et païens dans la basilique de la résurrection. Il poursuivit cette tâche pendant seize années au cours desquelles il enseignait et prêchait et les gens s’attroupaient autour de lui pour l’écouter.\nAprès le décès de saint Maxime, saint Cyrille fût choisi pour lui succéder. Il poursuivit ses enseignements en les amplifiant surtout avec la propagation de l’hérésie d’Arius (الهرطقة الأريوسية) dont il était un des pourfendeurs. Pour cela il fût la cible préférée de leurs attaques au point qu’il fût exilé trois fois de son diocèse et il supporta cela avec patience en rendant grâce à Dieu. Finalement, il rentra dans son diocèse en 370 après Jésus Christ. \nCe père était un des principaux participants au concile de Constantinople. Il rédigea un livre au sujet de l’Incarnation, l’acte de Foi et le baptême des catéchumènes. Lorsqu’il acheva son bon combat il décéda en paix.\nQue la bénédiction de ses prières soit avec nous. Amen !\n2. Décès de Joseph d’Arimathie, le juste.\nNous commémorons aussi en ce jour le décès du juste Joseph d’Arimathie (يوسف الرامي). Celui-ci était originaire de Judée et il était un homme bon et juste. Tout en étant membre du Sanhédrin, il était aussi secrètement disciple de Jésus. Il n’était pas présent à la réunion qui s’est tenue pour juger le Seigneur Jésus Christ car il n’était pas d’accord avec les Juifs pour qu’Il soit crucifié. Après la mort du Christ sur la Croix, il demanda à Ponce Pilate de lui remettre le corps de Jésus pour l’ensevelir et l’enterrer. Le gouverneur accepta et Joseph descendit le corps de sur la Croix l’ensevelit dans du lin propre. Nicodème (نيقوديموس) se joignit à lui en apportant une grande quantité d’aromates pour en recouvrir le corps du Sauveur. Joseph le déposa dans son tombeau neuf qu’il avait creusé dans le rocher puis le ferma avec une grande pierre et partit.\nAprès la résurrection du Seigneur, Joseph resta avec les apôtres. Dès que le Saint Esprit s’est repandu sur eux, il vendit tout ce qui lui appartenait et remit le revenu aux apôtres pour les distribuer aux pauvres puis partit prêcher l’Evangile.\nQue la bénédiction de ses prières soit avec nous. Amen !\nLc 23 : 50.\nMt 27 : 57 et Jn 19 : 38.\nLc 23 : 51.\n3. Décès de saint Michel, évêque de Nakadah.\nNous commémorons aussi le décès de saint Michel (انبا ميخائيل), l’évêque de Nakadah (نقادة). Ce saint décéda à un âge avancé et il bénéficiait d’une très bonne réputation.\nCe saint fût sacré évêque sur cette ville le 12 Messory 1391 des martyrs (1675 après Jésus Christ) par le pape Matthieu (Matteos) IV (متاوس الرابع) le 102ème patriarche. Il participa au sacre du pape Jean XVI (يوأنس السادس عشر) le dimanche 9 Paramhat 1392 (1676 après Jésus Christ) à l’église saint Mercure le titulaire des deux épées (كنيسة الشهيد العظيم مرقوريوس أبي سيفين) dans le vieux Caire.\nA son époque Nakadah reçut la visite du chroniqueur dominicain Vanselb (الراهب الدومينيكاني فانسلب) avec qui il eût un entretien.\nCe saint évêque prit soin de ses fidèles puis décéda en paix.\nQue la bénédiction de ses prières soit avec nous et gloire soit à nôtre Seigneur, éternellement. Amen ! \nQui rédigea les livres « Nouvelle relation en forme d'un journal d'un voyage fait en Egypte en 1672 & 1673 » et « Histoire de l'Eglise d'Alexandrie, fondée par S. Marc, que nous appelons celle des Jacobites-Coptes d'Egypte. Ecrite au Caire même, en 1672 & 1673 ».\n\t",
-            "في مِثْلِ هَذا اليَومْ مِنْ سَنَةْ 102 لِلْشُهَداءِ (386م)، تَنَيَّحَ القِدّيسْ العَظِيمْ كيرلس أُسْقُفْ أورشليم. وُلِدَ هَذَا الأبْ بأورشليم سَنَةْ 315م وتربى تَرْبِيَةً مِسِيحِيَّةْ وأتقن العُلُومِ الروحية والآداب اليونانية. رسمه القِدّيسْ مكسيموس أُسْقُفْ أورشليم شماساً ثُمَّ كاهناً وأوكل إلَيهِ إرشاد الموعوظين مِنَ اليهود والوثنيين في كِنِيسَةْ القيامة، فأقَامَ عَلَى ذَلِكْ ستة عَشَرْ عاماً يُعلِّم عقائد الديانة المَسِيحِيَّةْ ويلقى العظات، وكَانَ كَثِيرُون يتزاحمون حوله لسماع عظاته. ولَمَّا تَنَيَّحَ أُسْقُفْ أورشليم اخْتَارُوهُ أُسْقُفَاً خليفة له، فاتسع أَمَامَهُ مجال العلم والتعليم. وكَانَتْ الهرطقة الأريوسية قَدْ انتشرت، وكَانَ القِدّيسْ كيرلس من أشد المقاومين لها، لذلك كَانَ هدفاً لسهام الهراطقة الأريوسيين حَتَّى نُفِيَ عَن كرسيه ثلاث مرات احتملها كلها بصبر وشكر ورجع إلى كرسيه سَنَةْ 370م، بَعْدَ موت المَلِكْ فالنس الأريوسي. حضر هَذَا الأبْ مَجْمَعَ القُسْطَنْطِينِيَّة سَنَةْ 381م، وكَانَ من أبرز الحاضرين في المجمع. ألَّف هَذَا القِدّيسْ كتباً كَثِيرَة عَن التجسد وقانون الإيمان وعماد الموعوظين. ولَمَّا أكْمَلَ سَعْيَّهُ الصَالِحْ تَنَيَّحَ بِسَلامٍ. بَرَكِةْ صَلَوَاتُهُ فَلْتَكُنْ مَعْنَا، آمْينْ.\nوفيه أيْضَاً تَنَيَّحَ البار يوسف الرامي. كَانَ مِنَ الرامة إحدى بِلادْ اليهودية، وكَانَ غنياً ورجلاً صالحاً باراً (لو 23: 50). وكَانَ عضواً في مَجْمَعَ السنهدريم، وفي نفس الوَقْت تلميذاً لِلْرَبِّ يَسْوعْ المَسِيحْ (مت 27: 57)، ولَمْ يحضر جلسة مَجْمَعَ السنهدريم لمحاكمة الرَّبْ يَسْوعْ المَسِيحْ لِأَنَّهُ لَمْ يكن موافقاً لرأى اليهود عَلَى صلبه (لو 23: 51). وبَعْدَ موت السَّيْد المَسِيحْ عَلَى الصليب طلب من بيلاطس البنطي أَنَّ يستلم الجَسَدْ الطَاهِر لتكفينه ودَفَنَهُ فسمح له، فأنزل الجَسَدْ من عَلَى الصليب ولفه بكتان نقى، واشترك مَعْهُ نيقوديموس بوضع كمية كبيرة مِنَ الحنوط والأطياب عَلَى جَسَدِ المخلص، وبَعْدَ ذَلِكْ وَضَعَهُ يوسف في قبره الجديد الذي كَانَ قَدْ نحته في الصخرة ثُمَّ دحرج حَجَرَاً كبيراً عَلَى باب القَبْرِ ومضى (مت 27: 60). وبَعْدَ قيامة الرَّبْ لازم الرسل. وبَعْدَ حلول الرُوحِ القُدُسْ باع أملاكه ووَضْعِ ثمِنْهُا بَيْنَ يَدَيّ الرسل لتوزيعها عَلَى الفقراء، ثُمَّ تفرغ للبشارة بِالسَيِّدِ المَسِيحِ. بَرَكِةْ صَلَوَاتُهُ فَلْتَكُنْ مَعْنَا، آمْينْ.\nوفيه أيْضَاً تَنَيَّحَ الأبْ الأُسْقُفْ صَاحِبْ الشيخوخة الحسنة والذكر الجميل الأنبا ميخائيل أُسْقُفْ نقادة. ومن أمره أَنَّهُ رُسِمَ أُسْقُفَاً عَلَى نقادة في 12 مسرى 1391 لِلْشُهَداءِ (1675م) بيد البابا متاؤس الرابع البَطْرِيَرْكْ ال 102. وقَدْ اشترك في سيامة البابا يوأنس السادس عَشَرْ البَطْرِيَرْكْ ال 103 يوم الأحد 9 برمهات 1392 لِلْشُهَداءِ (مارس 1676م) في كِنِيسَةْ الشَهْيدِ العَظِيمْ مرقوريوس أبي سيفين بدرب البحر حارة شنوده بِمِصْرَ القَدِيمَةِ. وفي أيَّامَهُ زار نقادة الرَاهِبْ الدومينيكاني المؤرخ ڤانسلب وتقابل معه. وبَعْدَ أَنْ رعى شَعْبَهُ أَحْسَنْ رعاية تَنَيَّحَ بِسَلامٍ. بَرَكِةْ صَلَواتُهُ فَلْتَكُنْ مَعْنَا، ولِرَبِنَا المَجْدْ دائِمَاً أبَدِيَّاً آمْينْ.\n"
-        ]
-    ],
+        Prefix.same+"&C=NoActor", 
+        "Que son intercession soit avec nous. Amen !", 
+        "شفاعتها المُقَدَّسَةْ فَلْتَكُنْ مَعْنَا، آمْينْ.", 
+        ],
+        [
+        Prefix.same+"&C=NoActor", 
+        "Nous commémorons aussi aujourd'hui la venue de nôtre Seigneur et nôtre sauveur Jésus Christ à Béthanie (بيت عنيا). Ce village se trouve non loin de Jérusalem et Lazare, qu'Il a ressuscité, était à table avec Lui. Marthe, sa sœur, servait ceux qui étaient présents alors que Marie, son autre sœur, oignait les pieds du Seigneur avec du parfum et les essuyait avec ses cheveux. Le Seigneur l'a louée et fit allusion à sa mort en disant : « c'est pour le jour de ma sépulture qu'elle devait garder ce parfum [...] La grande foule des Juifs apprit qu'il était là et ils vinrent, pas seulement pour Jésus, mais aussi pour voir Lazare, qu'il avait ressuscité d'entre les morts. Les grands prêtres décidèrent de tuer aussi Lazare, parce que beaucoup de Juifs, à cause de lui, s'en allaient et croyaient en Jésus ».", 
+        "وفي مِثْلِ هَذَا اليَومْ حضر ربنا يَسْوعْ المَسِيحْ مَعَ تلاميذه وليمة في بَيْت عنيا القَرِيبِ مِنْ أورشليم حَيْثُ كَانَ لعازر الذي أقامه من بَيْنَ الأموات أحَدِ المتكئين معه. وكَانَتْ مرثا اخْتَهُ تخدم الجمع الحاضر، أما مَرْيَمْ فكَانَتْ تدهن قدمَيْ المُخَلِّصْ بالطيب وتمسحهما بشعرها، فمدحها الرَّبْ وأشار عَن موته بقوله \" إنها ليوم تكفيني قَدْ حفظته. فعلم جمع كثير مِنَ اليهود أَنَّهُ هناك، فجاءوا ليس لأجل يَسْوعْ فَقَطْ بل لينظروا أيْضَاً لعازر الذي أقامه من بَيْنَ الأموات. فتشاور رؤساء الكهنة ليقتلوا لعازر أيْضَاً لِأنَّ كَثِيرينْ مِنَ اليهود كانوا بسببه يذهبون ويؤمنون بيسوع \" (يُوحَنَّا 12: 1 – 11).", 
+        ],
+        [
+        Prefix.same+"&C=NoActor", 
+        "Que la bénédiction de nôtre Seigneur soit avec nous et se répande dans nos maisons. Amen !", 
+        "بركة ربنا يَسْوعْ المَسِيحْ فَلْتَحِلْ علينا وعلى بيوتنا، لَهُ كُلَّ كَرَامَة ومجد دَائِمَاً أبَدِيَّاً آمْينْ.", 
+        ],
+        [
+        Prefix.same+"&C=NoActor", 
+        "En ce jour nous commémorons aussi le martyre des saints Théodore et Timothée.", 
+        "وفيه أيْضَاً تُعَيِِّدُ الكَنيسَةْ بتِذْكَارْ اسْتِشْهَادْ القِدِّيسْينْ تاؤدروس وتيموثاوس.", 
+        ],
+        [
+        Prefix.same+"&C=NoActor", 
+        "Que la bénédiction de leurs prières soit avec nous et gloire soit à nôtre Seigneur, éternellement. Amen ! ", 
+        "بركة صلواتهما فَلْتَكُنْ مَعْنَا، ولِرَبِنَا المَجْدِ دَائِمَاً أبَدِيَّاً آمْينْ.", 
+        ],
+        ],
+        [
+        [
+        Prefix.synaxarium+"&D=2207&C=Title", 
+        "22 Barmahat\n1) Décès de saint Cyrille, évêque de Jérusalem ;\n2) Décès de Joseph d’Arimathie, le juste ;\n3) Décès de saint Michel, évêque de Nakadah", 
+        "22 برمهات\nنِياحَةِ أنبا كيرلس أسقف أورشليم\nنِياحَةِ القديس ميخائيل أسقف نقادة\nنِياحَةِ القديس يوسف الرامي", 
+        ],
+        [
+        Prefix.same+"&C=NoActor", 
+        "En ce jour de l’an 102 des martyrs (386 après Jésus Christ) eût lieu le décès de saint Cyrille (كيرلس), l’évêque de Jérusalem.", 
+        "في مِثْلِ هَذا اليَومْ مِنْ سَنَةْ 102 لِلْشُهَداءِ (386م)، تَنَيَّحَ القِدّيسْ العَظِيمْ كيرلس أُسْقُفْ أورشليم.", 
+        ],
+        [
+        Prefix.same+"&C=NoActor", 
+        "Ce saint naquit dans cette ville en l’an 315 après Jésus Christ et eût une éducation chrétienne. Il excella dans la connaissance des sciences spirituelles ainsi que des lettres grecques. Saint Maxime (مكسيموس) l’ordonna diacre puis prêtre et lui assigna de guider les catéchumènes juifs et païens dans la basilique de la résurrection. Il poursuivit cette tâche pendant seize années au cours desquelles il enseignait et prêchait et les gens s’attroupaient autour de lui pour l’écouter.", 
+        "وُلِدَ هَذَا الأبْ بأورشليم سَنَةْ 315م وتربى تَرْبِيَةً مِسِيحِيَّةْ وأتقن العُلُومِ الروحية والآداب اليونانية. رسمه القِدّيسْ مكسيموس أُسْقُفْ أورشليم شماساً ثُمَّ كاهناً وأوكل إلَيهِ إرشاد الموعوظين مِنَ اليهود والوثنيين في كِنِيسَةْ القيامة، فأقَامَ عَلَى ذَلِكْ ستة عَشَرْ عاماً يُعلِّم عقائد الديانة المَسِيحِيَّةْ ويلقى العظات، وكَانَ كَثِيرُون يتزاحمون حوله لسماع عظاته.", 
+        ],
+        [
+        Prefix.same+"&C=NoActor", 
+        "Après le décès de saint Maxime, saint Cyrille fût choisi pour lui succéder. Il poursuivit ses enseignements en les amplifiant surtout avec la propagation de l’hérésie d’Arius (الهرطقة الأريوسية) dont il était un des pourfendeurs. Pour cela il fût la cible préférée de leurs attaques au point qu’il fût exilé trois fois de son diocèse et il supporta cela avec patience en rendant grâce à Dieu. Finalement, il rentra dans son diocèse en 370 après Jésus Christ. ", 
+        "ولَمَّا تَنَيَّحَ أُسْقُفْ أورشليم اخْتَارُوهُ أُسْقُفَاً خليفة له، فاتسع أَمَامَهُ مجال العلم والتعليم. وكَانَتْ الهرطقة الأريوسية قَدْ انتشرت، وكَانَ القِدّيسْ كيرلس من أشد المقاومين لها، لذلك كَانَ هدفاً لسهام الهراطقة الأريوسيين حَتَّى نُفِيَ عَن كرسيه ثلاث مرات احتملها كلها بصبر وشكر ورجع إلى كرسيه سَنَةْ 370م، بَعْدَ موت المَلِكْ فالنس الأريوسي.", 
+        ],
+        [
+        Prefix.same+"&C=NoActor", 
+        "Ce père était un des principaux participants au concile de Constantinople. Il rédigea un livre au sujet de l’Incarnation, l’acte de Foi et le baptême des catéchumènes. Lorsqu’il acheva son bon combat il décéda en paix.", 
+        "حضر هَذَا الأبْ مَجْمَعَ القُسْطَنْطِينِيَّة سَنَةْ 381م، وكَانَ من أبرز الحاضرين في المجمع. ألَّف هَذَا القِدّيسْ كتباً كَثِيرَة عَن التجسد وقانون الإيمان وعماد الموعوظين. ولَمَّا أكْمَلَ سَعْيَّهُ الصَالِحْ تَنَيَّحَ بِسَلامٍ.", 
+        ],
+        [
+        Prefix.same+"&C=NoActor", 
+        "Que la bénédiction de ses prières soit avec nous. Amen !", 
+        "بَرَكِةْ صَلَوَاتُهُ فَلْتَكُنْ مَعْنَا، آمْينْ.", 
+        ],
+        [
+        Prefix.same+"&C=NoActor", 
+        "Nous commémorons aussi en ce jour le décès du juste Joseph d’Arimathie (يوسف الرامي).", 
+        "وفيه أيْضَاً تَنَيَّحَ البار يوسف الرامي.", 
+        ],
+        [
+        Prefix.same+"&C=NoActor", 
+        "Celui-ci était originaire de Judée et il était un homme bon et juste. Tout en étant membre du Sanhédrin, il était aussi secrètement disciple de Jésus. Il n’était pas présent à la réunion qui s’est tenue pour juger le Seigneur Jésus Christ car il n’était pas d’accord avec les Juifs pour qu’Il soit crucifié. Après la mort du Christ sur la Croix, il demanda à Ponce Pilate de lui remettre le corps de Jésus pour l’ensevelir et l’enterrer. Le gouverneur accepta et Joseph descendit le corps de sur la Croix l’ensevelit dans du lin propre. Nicodème (نيقوديموس) se joignit à lui en apportant une grande quantité d’aromates pour en recouvrir le corps du Sauveur. Joseph le déposa dans son tombeau neuf qu’il avait creusé dans le rocher puis le ferma avec une grande pierre et partit.", 
+        "كَانَ مِنَ الرامة إحدى بِلادْ اليهودية، وكَانَ غنياً ورجلاً صالحاً باراً (لو 23: 50). وكَانَ عضواً في مَجْمَعَ السنهدريم، وفي نفس الوَقْت تلميذاً لِلْرَبِّ يَسْوعْ المَسِيحْ (مت 27: 57)، ولَمْ يحضر جلسة مَجْمَعَ السنهدريم لمحاكمة الرَّبْ يَسْوعْ المَسِيحْ لِأَنَّهُ لَمْ يكن موافقاً لرأى اليهود عَلَى صلبه (لو 23: 51). وبَعْدَ موت السَّيْد المَسِيحْ عَلَى الصليب طلب من بيلاطس البنطي أَنَّ يستلم الجَسَدْ الطَاهِر لتكفينه ودَفَنَهُ فسمح له، فأنزل الجَسَدْ من عَلَى الصليب ولفه بكتان نقى، واشترك مَعْهُ نيقوديموس بوضع كمية كبيرة مِنَ الحنوط والأطياب عَلَى جَسَدِ المخلص، وبَعْدَ ذَلِكْ وَضَعَهُ يوسف في قبره الجديد الذي كَانَ قَدْ نحته في الصخرة ثُمَّ دحرج حَجَرَاً كبيراً عَلَى باب القَبْرِ ومضى (مت 27: 60).", 
+        ],
+        [
+        Prefix.same+"&C=NoActor", 
+        "Après la résurrection du Seigneur, Joseph resta avec les apôtres. Dès que le Saint Esprit s’est repandu sur eux, il vendit tout ce qui lui appartenait et remit le revenu aux apôtres pour les distribuer aux pauvres puis partit prêcher l’Evangile.", 
+        "وبَعْدَ قيامة الرَّبْ لازم الرسل. وبَعْدَ حلول الرُوحِ القُدُسْ باع أملاكه ووَضْعِ ثمِنْهُا بَيْنَ يَدَيّ الرسل لتوزيعها عَلَى الفقراء، ثُمَّ تفرغ للبشارة بِالسَيِّدِ المَسِيحِ.", 
+        ],
+        [
+        Prefix.same+"&C=NoActor", 
+        "Que la bénédiction de ses prières soit avec nous. Amen !", 
+        "بَرَكِةْ صَلَوَاتُهُ فَلْتَكُنْ مَعْنَا، آمْينْ.", 
+        ],
+        [
+        Prefix.same+"&C=NoActor", 
+        "Nous commémorons aussi le décès de saint Michel (انبا ميخائيل), l’évêque de Nakadah (نقادة).", 
+        "وفيه أيْضَاً تَنَيَّحَ الأبْ الأُسْقُفْ صَاحِبْ الشيخوخة الحسنة والذكر الجميل الأنبا ميخائيل أُسْقُفْ نقادة.", 
+        ],
+        [
+        Prefix.same+"&C=NoActor", 
+        "Ce saint décéda à un âge avancé et il bénéficiait d’une très bonne réputation. Ce saint fût sacré évêque sur cette ville le 12 Messory 1391 des martyrs (1675 après Jésus Christ) par le pape Matthieu (Matteos) IV (متاوس الرابع) le 102ème patriarche. Il participa au sacre du pape Jean XVI (يوأنس السادس عشر) le dimanche 9 Paramhat 1392 (1676 après Jésus Christ) à l’église saint Mercure le titulaire des deux épées (كنيسة الشهيد العظيم مرقوريوس أبي سيفين) dans le vieux Caire.", 
+        "ومن أمره أَنَّهُ رُسِمَ أُسْقُفَاً عَلَى نقادة في 12 مسرى 1391 لِلْشُهَداءِ (1675م) بيد البابا متاؤس الرابع البَطْرِيَرْكْ ال 102. وقَدْ اشترك في سيامة البابا يوأنس السادس عَشَرْ البَطْرِيَرْكْ ال 103 يوم الأحد 9 برمهات 1392 لِلْشُهَداءِ (مارس 1676م) في كِنِيسَةْ الشَهْيدِ العَظِيمْ مرقوريوس أبي سيفين بدرب البحر حارة شنوده بِمِصْرَ القَدِيمَةِ.", 
+        ],
+        [
+        Prefix.same+"&C=NoActor", 
+        "A son époque Nakadah reçut la visite du chroniqueur dominicain Vanselb (الراهب الدومينيكاني فانسلب) avec qui il eût un entretien.", 
+        "وفي أيَّامَهُ زار نقادة الرَاهِبْ الدومينيكاني المؤرخ ڤانسلب وتقابل معه.", 
+        ],
+        [
+        Prefix.same+"&C=NoActor", 
+        "Ce saint évêque prit soin de ses fidèles puis décéda en paix.", 
+        "وبَعْدَ أَنْ رعى شَعْبَهُ أَحْسَنْ رعاية تَنَيَّحَ بِسَلامٍ.", 
+        ],
+        [
+        Prefix.same+"&C=NoActor", 
+        "Que la bénédiction de ses prières soit avec nous et gloire soit à nôtre Seigneur, éternellement. Amen !", 
+        "بَرَكِةْ صَلَواتُهُ فَلْتَكُنْ مَعْنَا، ولِرَبِنَا المَجْدْ دائِمَاً أبَدِيَّاً آمْينْ.", 
+        ],
+        ],
     [
         [
             Prefix.synaxarium + "&D=2307&C=Title",
