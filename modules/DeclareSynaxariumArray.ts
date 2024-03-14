@@ -47,7 +47,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "En ce jour nous commémorons aussi le martyre, en l’an 71 après Jésus Christ, de saint Barthélémy (برثولماوس الرسول),l’un des douze apôtres. Il s’agit de Nathanaël que l’apôtre saint Pierre présenta à nôtre Seigneur tel quindiqué dans l’évangile de saint Jean. Il accompagna le Seigneur Jésus pendant toute la période de son ministère terrestre et le vit après sa résurrection au bord du lac de Tibériade avec d’autres disciples. Il était aussi présent le jour de la pentecôte et la venue du Saint Esprit.", 
-  "وفيه أيْضَاً مِنْ سَنَةْ 71م اسْتَشْهَدَ القِدّيسْ برثولماوس الرسول أحَدْ الاثنى عَشَرْ تلميذاً. كَانَ هَذَا الرسول من إقليم الجليل، وهْوَ عينه نثنائيل الذي ذكر عَنْهُ القِدّيسْ يُوحَنَّا الإنجيلي أَنَّ القِدّيسْ فيلبس الرسول أحضره للسيد المَسِيحْ (يو 1: 45). وقَدْ لازم الرَّبْ يَسْوعْ فترة خدمته عَلَى الأَرْضِ، وكَانَ لَهُ شرف رؤية الرَّبْ بَعْدَ القيامة عَلَى بحر طبرية مَعَ بَعْضُ التلاميذ (يو 21: 2)، كَمَا حضر حلول الرُوحِ القُدُسْ يوم الخمسين.", 
+  "وفيه أيْضَاً مِنْ سَنَةْ 71م اسْتَشْهَدَ القِدّيسْ برثولماوس الرسول أحَدْ الاثنى عَشَرْ تلميذاً. كَانَ هَذَا الرسول من إقليم الجليل، وهْوَ عينه نثنائيل الذي ذكر عَنْهُ القِدّيسْ يُوحَنَّا الإنجيلي أَنَّ القِدّيسْ فيلبس الرسول أحضره للسيد المَسِيحْ (يو 1: 45). وقَدْ لازم الرَّبْ يَسْوعْ فترة خدمته عَلَى الأَرْضِ، وكَانَ لَهُ شرف رؤية الرَّبْ بَعْدَ القيامة عَلَى بحر طبرية مَعَ بَعْضُ التلاميذ (يو 21: 2)، كَمَا حَضَرَ حلول الرُوحِ القُدُسْ يوم الخمسين.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -395,7 +395,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Une fidèle recueillit sa dépouille et l’ensevelit dans un linge précieux et la déposa chez elle. Elle constatait un grand nombre de miracles qui émanaient de ses reliques. Le jour de sa fête une lumière puissante et une bonne odeur d’encens se propageaient de son corps. ", 
-  "فأخذت امْرَأَةْ مسيحية جسدها الطاهر، ولفته بلفائف ثمينة ووضعته في بيتها، فكَانَتْ تظهر مِنْهُ آيَاتٍ كَثِيرَةْ. وفي يوم عيدها، كانوا ينظرون نوراً عَظِيمَاً يشع من جسدها. وتنبعث مِنْهُ رائحة طيبة.", 
+  "فأخذت امْرَأَةْ مسيحية جسدها الطاهر، ولفته بلفائف ثمينة ووضعته في بيتها، فكَانَتْ تظهر مِنْهُ آيَاتٍ كَثِيرَةْ. وفي يوم عيدها، كَانُوا ينظرون نوراً عَظِيمَاً يشع من جسدها. وتنبعث مِنْهُ رائحة طيبة.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -589,7 +589,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Lorsqu’il en eût assez, on lui suggéra de les envoyer à Alexandrie car ils étaient très aimés dans cet endroit et risquaient d’entraine d’autres dans le christianisme. De fait, un grand nombre eût la Foi à cause d’eux et obtint la couronne du martyre.", 
-  "ولما تعب من تعذيبهم، أشار عَلَيْهِ الّذِينَ حوله أَنَّ يرسلهم إلى الإسْكَنْدَرِيَّةْ، لئلا يضلوا الناس في بلادهم وذلك لأنهم كانوا محبوبين وقَدْ آمن بسببهم كَثِيرُون واعترفوا بِالسَيِّدِ المَسِيحِْ ونَالوا إكليل الشِهَادَة.", 
+  "ولما تعب من تعذيبهم، أشار عَلَيْهِ الّذِينَ حوله أَنَّ يرسلهم إلى الإسْكَنْدَرِيَّةْ، لئلا يضلوا الناس في بلادهم وذلك لأنهم كَانُوا محبوبين وقَدْ آمن بسببهم كَثِيرُون واعترفوا بِالسَيِّدِ المَسِيحِْ ونَالوا إكليل الشِهَادَة.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -808,7 +808,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "En effet ils étaient exilés en Palestine pour tavailler dans des mines et ils édifièrent quelques églises avec certains de leurs compatriotes. Lorsque Firmilien, le gouverneur de Palestine, (الوالي فامليان) apprit cela, il en fit part à l’empereur Galère (جالريوس). Celui-ci ordonna qu’ils soient trturés. Le gouverneur les envoya à Phunon, près de Pétra (فيون في بترا) en Palestine où ils furent brûlés vifs et ils obtinrent la couronne du martyre.", 
-  "وذلك أَنَّهُمْ كانوا منفيين إلى بِلادْ فلسطين، وكانوا هُناَكَ يعملون في المحاجر في تلك الجهات. فتمكنوا مَعَ آخرين من مواطنيهم أَنَّ يبنوا بَعْضُ الكنائس. ولَمَّا علم الوالي فامليان بذلك، أَرْسَلَ إلى المَلِكِ جالريوس يخبره بذلك. فَأمَرَ المَلِكْ بتعذيبهم. فأَرْسَلَ الوالي هؤلاء الأربعة إلى فينون في بترا ببلاد فلسطين، حَيْثُ ألقوهم في النيران فاحترقوا ونَالوا إكليل الشِهَادَة.", 
+  "وذلك أَنَّهُمْ كَانُوا منفيين إلى بِلادْ فلسطين، وكانوا هُناَكَ يعملون في المحاجر في تلك الجهات. فتمكنوا مَعَ آخرين من مواطنيهم أَنَّ يبنوا بَعْضُ الكنائس. ولَمَّا علم الوالي فامليان بذلك، أَرْسَلَ إلى المَلِكِ جالريوس يخبره بذلك. فَأمَرَ المَلِكْ بتعذيبهم. فأَرْسَلَ الوالي هؤلاء الأربعة إلى فينون في بترا ببلاد فلسطين، حَيْثُ ألقوهم في النيران فاحترقوا ونَالوا إكليل الشِهَادَة.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -1649,7 +1649,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Lorsque vint le moment où saint Jules devait être soulagé des fatigues de ce monde, le Christ lui apparut en songe et lui demanda de se rendre après d’Arcadius (أركاديوس) le gouverneur de Samannoud (سمنود) pour confesser sa Foi. Il s’y rendit et fût immédiatement torturé par le gouverneur mais le Seigneur l’affermissait. Lorsqu’on lui présenta les idoles pour les adorer, il pria et la terre s’ouvrit et engloutit les soixante-dix idoles et les quarante prêtres qui les servaient. Lorsqu’il vit la destruction de ses idoles et la mort des prêtres, le gouverneur crut en Jésus Christ et ils se rendirent tous les deux auprès du gouverneur d’Atrib (أتريب) qui les tortura de la pire des manières. Le saint invoqua le Seigneur qui envoya son ange pour décapiter les idoles, et les noircir de cendre. En conséquence il crut, lui aussi, en Jésus Christ et ils se rendirent, tous les trois, à Touwah (طوه)et se présentèrent devant son gouverner Alexandre (ألكسندروس). Celui-ci décréta qu’ils devaient être décapités et ils obtinrent la couronne du martyre.", 
-  "ولما أرَادَ السَّيْد المَسِيحْ أَنَّ يتمم ما أنبأه بِهِ القِدِّيْسْون ويريحه مِنْ أتْعَابِ هَذَا العالم، ظَهَرَ لَهُ في رؤيا اللّيْلِ وأمره أَنَّ يذهب إلى أركاديوس والي سمنود ويعترف أَمَامَهُ بِالسَيِّدِ المَسِيحِِ، فانطلق إلى هُناَكَ كأمر الرَبّ، فعذبه الوالي عذابات شَدِيدَةْ بأنواع مختلفة وكَانَ الرَّبْ يُقَوِّيه. وصلى صلاة ففتحت الأرض فاها وابتلعت سبعين وثناً وأربعين كاهناً كانوا يخدمون أمامها. فَلَمَّا رَأَى الوالي هلاك الكهنة وزوال الآلهة آمن بِالسَيِّدِ المَسِيحِِ، ثُمَّ مَضَى مَعَ القِدّيسْ إلى والي أتريب الذي عذبهما كثيراً، ولَمَّا صلى القِدّيسْ أَرْسَلَ الرَّبْ مَلاكَه إلى بربا الأصنام فنزع رؤوس الأصنام وسوَّدَها بالرماد، فآمن والى أتريب عَلَى يَدَيّ القِدّيسْ يوليوس. ثُمَّ ذهب ثلاثتهم إلى ألكسندروس والي طوة (طوة: كَانَتْ بقاياها بقرب طنطا مُحَافَظَة الغربية وحلت محلها محلة مرحوم)، فكَتَبَ قضيتهم وأَمَرَ الجُنْدِ فقطعوا رؤوسهم.", 
+  "ولما أرَادَ السَّيْد المَسِيحْ أَنَّ يتمم ما أنبأه بِهِ القِدِّيْسْون ويريحه مِنْ أتْعَابِ هَذَا العالم، ظَهَرَ لَهُ في رؤيا اللّيْلِ وأمره أَنَّ يذهب إلى أركاديوس والي سمنود ويعترف أَمَامَهُ بِالسَيِّدِ المَسِيحِِ، فانطلق إلى هُناَكَ كأمر الرَبّ، فعذبه الوالي عذابات شَدِيدَةْ بأنواع مختلفة وكَانَ الرَّبْ يُقَوِّيه. وصلى صلاة ففتحت الأرض فاها وابتلعت سبعين وثناً وأربعين كاهناً كَانُوا يخدمون أمامها. فَلَمَّا رَأَى الوالي هلاك الكهنة وزوال الآلهة آمن بِالسَيِّدِ المَسِيحِِ، ثُمَّ مَضَى مَعَ القِدّيسْ إلى والي أتريب الذي عذبهما كثيراً، ولَمَّا صلى القِدّيسْ أَرْسَلَ الرَّبْ مَلاكَه إلى بربا الأصنام فنزع رؤوس الأصنام وسوَّدَها بالرماد، فآمن والى أتريب عَلَى يَدَيّ القِدّيسْ يوليوس. ثُمَّ ذهب ثلاثتهم إلى ألكسندروس والي طوة (طوة: كَانَتْ بقاياها بقرب طنطا مُحَافَظَة الغربية وحلت محلها محلة مرحوم)، فكَتَبَ قضيتهم وأَمَرَ الجُنْدِ فقطعوا رؤوسهم.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -1748,7 +1748,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Ce saint naquit à Athènes et faisait partie de ses savants et ses philosophes. Il crut en nôtre Seigneur Jésus Christ qui en fit l’un des soixante-dix disciples. Quand il reçut la grce du Paraclet le jour de la Pentecôte, il proclama l’Évangile dans de nombreux pays. Les habitants de ces régions furent illuminés par la Foi et il les baptisa.", 
-  "وُلِدَ هَذَا القِدّيسْ بِمَدِينَةِ أثينا. وكَانَ من أعظم علمائها وفلاسفتها. آمن بِالسَيِّدِ المَسِيحِِ، فعينه الرَّبْ من ضمن السبعين رسولاً. ولَمَّا نال نعمة الرُوحِ القُدُسْ المعزى في يوم الخمسين، انطلق وبشَّر بالإنجيل في بِلادْ كثيرة، فأنار أهلها بالإيمان ثُمَّ عمَّدَهم.", 
+  "وُلِدَ هَذَا القِدّيسْ بِمَدِينَةِ أثينا. وكَانَ من أعظم علمائها وفلاسفتها. آمن بِالسَيِّدِ المَسِيحِِ، فعينه الرَّبْ مِنْ ضِمْنِ السبعين رسولاً. ولَمَّا نال نعمة الرُوحِ القُدُسْ المعزى في يوم الخمسين، انطلق وبشَّر بالإنجيل في بِلادْ كثيرة، فأنار أهلها بالإيمان ثُمَّ عمَّدَهم.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -2068,7 +2068,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Les soldats firent ce qu’elle demandait et elle fût instantanément décapitée et elle obtint la couronne du martyre. Les soldats furent saisis d’une grande crainte et quittèrent précipitamment le monastèreen laissant leur butin sur place.", 
-  "وما أَنَّ فعل ذَلِكْ حَتَّى انفصل رأس العَذْرَاءْ العفيفة عَن جسدها ونَالَتْ إكْلْيلْ الشِهَادَةْ. أما الجُنْدِ فاعتراهم خوف شديد، وأسرعوا بمغادرة الدير، بَعْدَ أَنَّ تركوا كُلَّ ما كانوا قَدْ نهبوه.", 
+  "وما أَنَّ فعل ذَلِكْ حَتَّى انفصل رأس العَذْرَاءْ العفيفة عَن جسدها ونَالَتْ إكْلْيلْ الشِهَادَةْ. أما الجُنْدِ فاعتراهم خوف شديد، وأسرعوا بمغادرة الدير، بَعْدَ أَنَّ تركوا كُلَّ ما كَانُوا قَدْ نهبوه.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -2281,7 +2281,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Un disciple de saint Jules d’Akfahs (يوليوس ألأقفهصى) prénommé Diogène (ديوجانيوس) l’avait accompagné d’Alexandrie. Il prit soin de son ensevelissement et le fit enterrer avec beaucoup de respect. Il rédigea sa biographie pour l’édification des générations futures.", 
-  "وقَامَ ديوجانيوس الذي حضر مَعْهُ مِنَ الإسْكَنْدَرِيَّةْ، وهْوَ أحَدْ تلاميذ يوليوس الأقفهصي، بتكفينه بأكْفَانٍ غالية ودَفَنَهُ بِإكْرَامٍ جَزِيلْ وكَتَبَ سيرته المباركة منفعة للأجيال.", 
+  "وقَامَ ديوجانيوس الذي حَضَرَ مَعْهُ مِنَ الإسْكَنْدَرِيَّةْ، وهْوَ أحَدْ تلاميذ يوليوس الأقفهصي، بتكفينه بأكْفَانٍ غالية ودَفَنَهُ بِإكْرَامٍ جَزِيلْ وكَتَبَ سيرته المباركة منفعة للأجيال.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -2883,7 +2883,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Il était originire de Césarée en Palestine (قيصرية فلسطين). Notre Seigneur le choisit parmi les 70 disciples qu’Il envoya prêcher et guérir les malades. Plus tard, il fût choisi par les apôtres parmi les 7 diacres qu’ils ordonnèrent.", 
-  "وُلِدَ هَذَا القِدّيسْ في قيصرية فلسطين، وقَدْ عينه الرَّبْ يَسْوعْ المَسِيحْ من ضمن السبعين الّذِينَ أرسلهم ليكرزوا ويشفوا المرضى (لو 10: 1)، ثُمَّ اختاره الرسل من جملة السبعة شمامسة الّذِينَ أقاموهم للخدمة (أع 6: 5).", 
+  "وُلِدَ هَذَا القِدّيسْ في قيصرية فلسطين، وقَدْ عينه الرَّبْ يَسْوعْ المَسِيحْ مِنْ ضِمْنِ السبعين الّذِينَ أرسلهم ليكرزوا ويشفوا المرضى (لو 10: 1)، ثُمَّ اختاره الرسل من جملة السبعة شمامسة الّذِينَ أقاموهم للخدمة (أع 6: 5).", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -3822,7 +3822,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Lorsqu’il entendit parler de saint Cyriaque, l’évêque de Jérusalem, qui affermissait les chrétiens dans ler Foi, ulie se rendit dans cette ville, convoqua l’évêque et lui demanda d’encenser les idoles. Mais celui-ci refusa fermement malgré toutes les tortures cruelles qu’il eût à subir. Sa mère était présente et le consolait.", 
-  "ولما سَمِعَ بالقديس كيرياكوس أُسْقُفْ أورشليم وأنه يثبت المَسِيحِيّينْ عَلَى إيمَانَهُم حضر بنفسه إلى أورشليم واستدعى الأُسْقُفْ كيرياكوس وعرض عَلَيْهِ عبادة الأَوْثَانَ فرفض فعذبه عذابات شنيعة وكَانَتْ والدة كرياكوس حاضرة تعزيه، ومن ضمن العذابات أَنَّهُ قطع عدة أعضاء من جسم كيرياكوس ورماها فأخذتها أم كيرياكوس ووضعتها مَكَانِهِا ورشم عَلَيْهَا كيرياكوس بعلامة الصليب فعادت صحيحة وسليمة.", 
+  "ولما سَمِعَ بالقديس كيرياكوس أُسْقُفْ أورشليم وأنه يثبت المَسِيحِيّينْ عَلَى إيمَانَهُم حَضَرَ بنفسه إلى أورشليم واستدعى الأُسْقُفْ كيرياكوس وعرض عَلَيْهِ عبادة الأَوْثَانَ فرفض فعذبه عذابات شنيعة وكَانَتْ والدة كرياكوس حاضرة تعزيه، ومِنْ ضِمْنِ العذابات أَنَّهُ قطع عدة أعضاء من جسم كيرياكوس ورماها فأخذتها أم كيرياكوس ووضعتها مَكَانِهِا ورشم عَلَيْهَا كيرياكوس بعلامة الصليب فعادت صحيحة وسليمة.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -4468,7 +4468,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Le Seigneur accomplit sa promesse lorsqu’Il dit : \"si deux ou trois sont réunis en mon Nom, je suis au milieu d’eux. » En effet, plusieurs pères éclairés par l’Esprit Saint comptaient les participants et trouvaient 319 alors qu’il n’y avait que 318 personnes. Ainsi, ils s’assurèrent que Dieu était parmi eux.", 
-  "وقد أتم السَّيْد المَسِيحْ وعده القائل: \"حيثما اجْتَمَعَ اثنان أو ثَلاثَةْ باسمي فهُنَاكَ أكون في وسطهم\"، لِأنَّ كَثِيرينْ مِنَ الّذِينَ استنارت عقولهم بنعمة الرُوحِ القدس، كانوا يعدُّون المجتمعين فيجدونهم ثلاثمائة وتسعة عَشَرْ أي بزيادة واحد عَن عَدَدَ المجتمعين، فتيقَّنوا أَنَّ الله في وسطهم.", 
+  "وقد أتم السَّيْد المَسِيحْ وعده القائل: \"حيثما اجْتَمَعَ اثنان أو ثَلاثَةْ باسمي فهُنَاكَ أكون في وسطهم\"، لِأنَّ كَثِيرينْ مِنَ الّذِينَ استنارت عقولهم بنعمة الرُوحِ القدس، كَانُوا يعدُّون المجتمعين فيجدونهم ثلاثمائة وتسعة عَشَرْ أي بزيادة واحد عَن عَدَدَ المجتمعين، فتيقَّنوا أَنَّ الله في وسطهم.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -4560,7 +4560,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Ce concile a été convié car les chrétiens, à cette époque, jeûnaient le carême juste après la fête de l’Epiphanie jusqu’au 22 Méchir. Quelques jours plus tard, ils célébraient la semaine sainte juste et Pâques.", 
-  "وسبب انعقاد هَذَا المجمع، أَنَّ المَسِيحِيّينْ كانوا يُعيِّدون عيد الغطاس المَجِيدِ وفي اليَوْم الثاني يصومون الصوم المقدس، ثُمَّ يفطرون في اليَوْم الثاني والعشرين من أمشير، وبَعْدَ أَيَّامٍ يحتفلون بأسبوع الآلام والقيامة.", 
+  "وسبب انعقاد هَذَا المجمع، أَنَّ المَسِيحِيّينْ كَانُوا يُعيِّدون عيد الغطاس المَجِيدِ وفي اليَوْم الثاني يصومون الصوم المقدس، ثُمَّ يفطرون في اليَوْم الثاني والعشرين من أمشير، وبَعْدَ أَيَّامٍ يحتفلون بأسبوع الآلام والقيامة.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -5427,7 +5427,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Ce saint était présent au concile qui eût lieu en 262 pour juger Paul de Samosate (بولس الساموساطي). Après avoir achevé son bon combat, il décéda en paix et fût enterré dans l’église qu’il avait édifiée en Néocésaée.", 
-  "هذا وقَدْ حضر القِدّيسْ مَجْمَعَ سَنَةْ 262م لمحاكمة بُولِسْ الساموساطى. وبَعْدَ أَنْ أكْمَلَ جِهَادَهُ الصالح تَنَيَّحَ بِسَلامٍ. ودُفِنَ في الكَنيسَةْ التي بناها بقيصرية الجديدة.", 
+  "هذا وقَدْ حَضَرَ القِدّيسْ مَجْمَعَ سَنَةْ 262م لمحاكمة بُولِسْ الساموساطى. وبَعْدَ أَنْ أكْمَلَ جِهَادَهُ الصالح تَنَيَّحَ بِسَلامٍ. ودُفِنَ في الكَنيسَةْ التي بناها بقيصرية الجديدة.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -5812,7 +5812,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Il affronta de grandes difficultés provoquées par les adeptes d’Aris et fût exilé par l’empereur arien Valens (فالنس) et rentra d’exil en 378 lorsque le calme était revenu. En 381 il participa au concile de Constantinople. Et lorsqu’i eût accompli son bon combat, il décéda en paix et laissa à l’Église de nombreux livres utiles.", 
-  "وقد لاقى هَذَا القِدّيسْ شدائد كَثِيرَة بِسَبَبِ الأريوسيين، فنُفي في عَهْدِ الإمبراطور الأريوسى فالنس. عَادَ القِدّيسْ مِنَ المنفي سَنَةْ 378م بَعْدَ أَنَّ هَدَأت الأحوال. وفي سَنَةْ 381م حضر القِدّيسْ مَجْمَعَ القسطنطينية. ولَمَّا أكْمَلَ سَعْيَّهُ الصَالِحْ تَنَيَّحَ بِسَلامٍ. وقَدْ تَرَكَ للكنيسة مؤلفات كَثِيرَة نَافِعَةْ.", 
+  "وقد لاقى هَذَا القِدّيسْ شدائد كَثِيرَة بِسَبَبِ الأريوسيين، فنُفي في عَهْدِ الإمبراطور الأريوسى فالنس. عَادَ القِدّيسْ مِنَ المنفي سَنَةْ 378م بَعْدَ أَنَّ هَدَأت الأحوال. وفي سَنَةْ 381م حَضَرَ القِدّيسْ مَجْمَعَ القسطنطينية. ولَمَّا أكْمَلَ سَعْيَّهُ الصَالِحْ تَنَيَّحَ بِسَلامٍ. وقَدْ تَرَكَ للكنيسة مؤلفات كَثِيرَة نَافِعَةْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -6324,7 +6324,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "A l’approche de son décès, ses amis Abba Hour et saint Joseph (Youssab – القِدّيس يوساب) et les autres pères qui se trouvaient à cet endroit se regroupèrent autour de lui pour recevoir sa bénédiction puis il remit son âme entre les mains du Seigneur qu’il avait tant aimé. Ils prièrent pour ses funérailles, l’ensevelirent et l’enterrèrent dans l’église de Kaw avec beaucoup de respect. Dieu fit apparaitre un grand nombre de miracles par l’intermédiaire de ses reliques.", 
-  "وعند نِيَاحَتِهِ حضر صديقاه القِدّيسْ أباهور والقديس يوساب والآباء الّذِينَ كانوا في ذَلِكْ الجبل، وتباركوا مِنْهُ واستودع رُوحَهُ الطَاهِرَةْ في يَدَيّ الرَّبْ الذي أحبَّه، ثُمَّ صلوا عَلَيْهِ وكفنوه، ودَفَنُوهُ بِإكْرَامٍ جَزِيلْ بالكنيسة التي بقاو، وأظهر الله مِنْ جَسَدَهُ الطَاهِر آيَاتٍ كَثِيرَةْ.", 
+  "وعند نِيَاحَتِهِ حَضَرَ صديقاه القِدّيسْ أباهور والقديس يوساب والآباء الّذِينَ كَانُوا في ذَلِكْ الجبل، وتباركوا مِنْهُ واستودع رُوحَهُ الطَاهِرَةْ في يَدَيّ الرَّبْ الذي أحبَّه، ثُمَّ صلوا عَلَيْهِ وكفنوه، ودَفَنُوهُ بِإكْرَامٍ جَزِيلْ بالكنيسة التي بقاو، وأظهر الله مِنْ جَسَدَهُ الطَاهِر آيَاتٍ كَثِيرَةْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -6495,7 +6495,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Il annonça aussi la ruine qui surviendra à Ninive. Dieu fit survenir un tremblement de terre et un incendie qui brûla la ville et le peuple qui avait fait le mal. Mais ceux qui avaient une conduite droite ne furent pas atteints. Après avoir agi selon la volonté de Dieu, ce prophète décéda en paix.", 
-  "كما تَنَبَأ بِمَا سيحل بِمَدِينَةِ نينوى مِنَ الدمار وقَدْ تَمَّ ذَلِكْ إذ أَرْسَلَ الله زلزالاً مدمراً وناراً أحرقت المَدِينَةِ والشعب الذي كَانَ يرتكب الإثم. أما الّذِينَ كانوا مستقيمي السيرة فَلَمْ ينلهم أذى ولَمْ يصبهم ضرر. ولَمَّا أكْمَلَ سَعْيَّهُ الصَالِحْ تَنَيَّحَ بِسَلامٍ.", 
+  "كما تَنَبَأ بِمَا سيحل بِمَدِينَةِ نينوى مِنَ الدمار وقَدْ تَمَّ ذَلِكْ إذ أَرْسَلَ الله زلزالاً مدمراً وناراً أحرقت المَدِينَةِ والشعب الذي كَانَ يرتكب الإثم. أما الّذِينَ كَانُوا مستقيمي السيرة فَلَمْ ينلهم أذى ولَمْ يصبهم ضرر. ولَمَّا أكْمَلَ سَعْيَّهُ الصَالِحْ تَنَيَّحَ بِسَلامٍ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -7346,7 +7346,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Quelque temps plus tard, saint Missaël revint, accompagné d’un groupe d’anachorètes, et il dit à abba Isaac : \"Va auprès de l'évêque de la ville où j'ai grandi, donne-lui de mes nouvelles et demande-lui de te remettre les biens de mon père. Avec cette somme tu construiras une église à mon nom » Abba Isaac fit ce qui lui avait été demandé et, tandis que l’évêque consacrait la nouvelle église, abba Missaël revint avec quelques autres anachorètes pour participer à la prière.", 
-  "وبَعْدَ قليل جَاءَ الآبَاءِ السُوَّاحْ وأخذوه معهم. وبَعْدَ مُدَةِ جَاءَ القِدّيسْ ميصائيل مَعَ مجموعة مِنَ السُوَّاحْ إلى الأنبا إسحاق وقَالَ له: \"اذهب إلى أُسْقُفْ بلدتي وأعْلَمَهُ بخبري وخذ مِنْهُ مال أبي، وشَيِّد بِهِ كِنِيسَةْ عَلَى اسمي، ففعل الأنبا إسحاق كَمَا قَالَ لَهُ وبنى الكنيسة. وبينما كَانَ الأبْ الأُسْقُفْ يكرسها في مِثْلِ هَذَا اليَومْ حضر الأنبا ميصائيل والآباء السُوَّاحْ صلاة التكريس.", 
+  "وبَعْدَ قليل جَاءَ الآبَاءِ السُوَّاحْ وأخذوه معهم. وبَعْدَ مُدَةِ جَاءَ القِدّيسْ ميصائيل مَعَ مجموعة مِنَ السُوَّاحْ إلى الأنبا إسحاق وقَالَ له: \"اذهب إلى أُسْقُفْ بلدتي وأعْلَمَهُ بخبري وخذ مِنْهُ مال أبي، وشَيِّد بِهِ كِنِيسَةْ عَلَى اسمي، ففعل الأنبا إسحاق كَمَا قَالَ لَهُ وبنى الكنيسة. وبينما كَانَ الأبْ الأُسْقُفْ يكرسها في مِثْلِ هَذَا اليَومْ حَضَرَ الأنبا ميصائيل والآباء السُوَّاحْ صلاة التكريس.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -7545,7 +7545,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "La sœur du roi fit un songe dans lequel l’ange du Seigneur lui signifiait que le roi ne serait guéri que lorsque Grégoire sera sorti de la fosse. Ce songe se répéta trois nuits consécutives. Tous furent surpris car ils supposaient que le saint était décédé depuis longtemps. Toutefois, ils se rendirent à la fosse, le sortirent. Alors celui-ci pria pour le roi et le guérit. Mais il resta au roi des séquelles pour le rappeler de son passé.", 
-  "رأت أخت المَلِكْ في رؤيا اللّيْلِ مَلاكُ الرَّبِ يقول لَهَا أَنَّ أَخَاهُا لن يبرأ ما لَمْ يُصعد غريغوريوس مِنَ الجب وكَانَ ذَلِكْ عَلَى ثلاث ليال متوالية، فتحيَّر القوم إذ كانوا يعلمون أَنَّهُ قَدْ مات، ثُمَّ أتوا إلى الجب وأصعدوه، فذهب وصلى، فاستجاب لَهُ الرَّبْ وشُفي المَلِكْ مَعَ تَرَكَ علامة بِجَسَدِهِ لتُذكِّره بماضيه.", 
+  "رأت أخت المَلِكْ في رؤيا اللّيْلِ مَلاكُ الرَّبِ يقول لَهَا أَنَّ أَخَاهُا لن يبرأ ما لَمْ يُصعد غريغوريوس مِنَ الجب وكَانَ ذَلِكْ عَلَى ثلاث ليال متوالية، فتحيَّر القوم إذ كَانُوا يعلمون أَنَّهُ قَدْ مات، ثُمَّ أتوا إلى الجب وأصعدوه، فذهب وصلى، فاستجاب لَهُ الرَّبْ وشُفي المَلِكْ مَعَ تَرَكَ علامة بِجَسَدِهِ لتُذكِّره بماضيه.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -7860,7 +7860,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Sur l’ordre de Dieu ce prophète délivra son message à Zorobabel puis à Josué (يهوشع), le prêtre, pour inciter les juifs à achever la reconstruction du temple. Ils avaient, en effet, commencé cette reconstruction dès leur retour d'exil puis l'avaient négligées préférant se faire construire des maisons. Il les réprimanda de se loger dans des maisons lambrissées alors que la maison de Dieu restait dévastée. Alors les justes du peuple (أبرار الشعب) qui entendirent cela craignirent les menaces de Dieu, ils se mirent à l'œuvre et construisirent le Temple comme il fallait. Aggée annonça alors que Dieu était satisfait de cela.", 
-  "وقد وجّه هَذَا النبي نبوته بِأمْرِ الله إلى زربابل ثُمَّ يهوشع الكاهن العَظِيمْ مُحرِّضاً اليهود عَلَى إتمام تجديد بناء الهَيّكَلْ الذي كانوا قَدْ بدأوا في تشييده بَعْدَ رجوعهم مِنَ السبي، ثُمَّ انصرفوا عَنْهُ لبناء بيوتهم الخاصة، فبكّتهم (حجى 1: 1 – إلخ) النبي عَلَى سُكناهم في بيوت مزّينة بَيْنَمَا بَيْت الله خراب. فسمع أبرار الشَّعْبِ قوله، وخافوا مِنَ التهديد وبنوا الهَيّكَلْ كَمَا ينبغي. وأعلن هَذَا النبي للشعب بَعْدَ الفراغ من بناء الهَيّكَلْ أَنَّ الرَّبْ قَدْ سُرَّ بذلك.", 
+  "وقد وجّه هَذَا النبي نبوته بِأمْرِ الله إلى زربابل ثُمَّ يهوشع الكاهن العَظِيمْ مُحرِّضاً اليهود عَلَى إتمام تجديد بناء الهَيّكَلْ الذي كَانُوا قَدْ بدأوا في تشييده بَعْدَ رجوعهم مِنَ السبي، ثُمَّ انصرفوا عَنْهُ لبناء بيوتهم الخاصة، فبكّتهم (حجى 1: 1 – إلخ) النبي عَلَى سُكناهم في بيوت مزّينة بَيْنَمَا بَيْت الله خراب. فسمع أبرار الشَّعْبِ قوله، وخافوا مِنَ التهديد وبنوا الهَيّكَلْ كَمَا ينبغي. وأعلن هَذَا النبي للشعب بَعْدَ الفراغ من بناء الهَيّكَلْ أَنَّ الرَّبْ قَدْ سُرَّ بذلك.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -7885,7 +7885,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Ce saint pratiquait la prière avec intensité et avait une excellente conduite. Un jour il reçut un pauvre qui se plaignait de l’injustice de l’administrateur (كاتب) de Qousiah. Alors il se rendit chez ce dernier et le réprimanda en lui disant que Dieu venge rapidement les nécessiteux car il est le père des orphelins et le juge des veuves. Il lui suggéra de prendre soin du salut de son âme. L’administrateur regretta tout le mal qu’il avait fait en se prosternant devant l’évêque et rendit à cet homme ce qu’il lui avait subtilisé et, dorénavant, changea d’attitude et devint miséricordieux envers les pauvres et les nécessiteux.", 
-  "كان هَذَا القِدّيسْ يجاهد كَثِيراً في الصلوات ويسير سِيرَةِ حسنة. وذَاتَ يوم حضر إلَيهِ رَجُلٍ فقير يبكي لِأنَّ كاتب القوصية ظلمه، فذهب إلَيهِ القِدّيسْ ووبخه قائلاً: \"الله ينتقم سريعاً للمساكين، فَهْوَ أب الأيتام وقاضى الأرامل، فاهتم يا ابني بخلاص نفسك\". فبكى الكاتب وندم وخرَّ عِنْدَ قدميّ القِدِّيْسْ، وأعاد لذلك المسكين كُلَّ ما أخذه مِنْهُ، وصار بَعْدَ ذَلِكْ متضعاً رحوماً مُحِبّاً للفقراء والمَسَاكِينْ.", 
+  "كان هَذَا القِدّيسْ يجاهد كَثِيراً في الصلوات ويسير سِيرَةِ حسنة. وذَاتَ يوم حَضَرَ إلَيهِ رَجُلٍ فقير يبكي لِأنَّ كاتب القوصية ظلمه، فذهب إلَيهِ القِدّيسْ ووبخه قائلاً: \"الله ينتقم سريعاً للمساكين، فَهْوَ أب الأيتام وقاضى الأرامل، فاهتم يا ابني بخلاص نفسك\". فبكى الكاتب وندم وخرَّ عِنْدَ قدميّ القِدِّيْسْ، وأعاد لذلك المسكين كُلَّ ما أخذه مِنْهُ، وصار بَعْدَ ذَلِكْ متضعاً رحوماً مُحِبّاً للفقراء والمَسَاكِينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -8329,7 +8329,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Lorsqu’il fût présenté à Arien, celui-ci lui présenta la lettre de l’empereur mais le saint évêque refusa d’encenser les idoles. Alors le gouverneur le fit jeter en prison pendant dix jours sans nourriture. En effet, il pensait que la faim et la mauvaise odeur le tueront. Lorsqu’ils le sortirent de prison, le gouverneur lui offrit à nouveau d’adorer les idoles sans plus de succès. Alors il le fit mettre en prison pour cinq jours qu’il prolongea au fur et à mesure. Au bout de vingt-et-un jour sans nourriture, le gouverneur trouva qu’il avait l’apparence de quelqu’un qui venait de faire un festin. Il demanda au saint si quelqu’un lui apportait de la nourriture. Celui-ci lui répondit que dans la Bible il est écrit que l’homme ne vit pas seulement de pain. Alors, le gouverneur ordonna qu’on le décapite.", 
-  "تقابل القِدّيسْ مَعَ إريانوس الذي أبلغه رسالة الإمبراطور فرفض التبخير للأوثان. عندئذ أَمَرَ بطرحه في سجن مظلم لمدة عشرة أَيَّامٍ دون طعام، ظناً أَنَّهُ يموت مِنَ الجوع والرائحة الكريهة. وبَعْدَ أَنْ أخرجوه عرض عَلَيْهِ عبادة الأَوْثَانَ فرفض أيضاً، فَأمَرَ الوالي بسجنه خمسة أَيَّامٍ ثُمَّ ستة أَيَّامٍ. وبَعْدَ أَنْ أكْمَلَ واحداً وعشرين يوماً بدون طعام، رآه الوالي وإذا وجهه مشرق كمَنْ هُوَ قادم من وليمة، فَقَالَ لَهُ الوالي: \"ألعلهم كانوا يأتوك بِمَا تقتات به؟\". فأجابه القِدِّيْسْ: \"مكتوب في الكُتُبِ المُقَدَّسَةْ أَنَّهُ ليس بالخبز وحده يحيا الإنسان\". فَأمَرَ الوالي بِقَطْعِ عنقه.", 
+  "تقابل القِدّيسْ مَعَ إريانوس الذي أبلغه رسالة الإمبراطور فرفض التبخير للأوثان. عندئذ أَمَرَ بطرحه في سجن مظلم لمدة عشرة أَيَّامٍ دون طعام، ظناً أَنَّهُ يموت مِنَ الجوع والرائحة الكريهة. وبَعْدَ أَنْ أخرجوه عرض عَلَيْهِ عبادة الأَوْثَانَ فرفض أيضاً، فَأمَرَ الوالي بسجنه خمسة أَيَّامٍ ثُمَّ ستة أَيَّامٍ. وبَعْدَ أَنْ أكْمَلَ واحداً وعشرين يوماً بدون طعام، رآه الوالي وإذا وجهه مشرق كمَنْ هُوَ قادم من وليمة، فَقَالَ لَهُ الوالي: \"ألعلهم كَانُوا يأتوك بِمَا تقتات به؟\". فأجابه القِدِّيْسْ: \"مكتوب في الكُتُبِ المُقَدَّسَةْ أَنَّهُ ليس بالخبز وحده يحيا الإنسان\". فَأمَرَ الوالي بِقَطْعِ عنقه.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -8677,7 +8677,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Un mois après le décès de l’évêque, Arien (أريانوس), le gouverneur d’Antinoë (أنصنا) se rendit à Akhmîm pour demander aux chrétiens d’adorer les idoles. L’archange Michel apparut à saint Dioscores et à saint Séclapios et les invita à quitter le désert pour témoigner de leur Foi en Jésus Christ et obtenir la couronne du martyre.Heureux de cet appel, ils nommèrent un chef pour les frères appelé Pierre (بطرس) pour les remplacer. ", 
-  "وبَعْدَ نِياحَةْ الأنبا أوضاكيوس بشهر واحد، حضر إريانوس والي أنصنا وعرض عَلَى المَسِيحِيّينْ عبادة الأَوْثَانَ فظهر رئيس الملائكة ميخائيل لِلْقِدِّيسِين ديوسقوروس وسكلابيوس ودعاهما للنزول مِنَ الجبل ليشهدا للسيد المَسِيحْ في أَخْمِيمْ وينالا إكليل الشِهَادَةْ ففرحا بهذه الدعوة وأقاما رئيساً للإخوة يُدْعَى بُطْرُسْ عوضاً عنهما.", 
+  "وبَعْدَ نِياحَةْ الأنبا أوضاكيوس بشهر واحد، حَضَرَ إريانوس والي أنصنا وعرض عَلَى المَسِيحِيّينْ عبادة الأَوْثَانَ فظهر رئيس الملائكة ميخائيل لِلْقِدِّيسِين ديوسقوروس وسكلابيوس ودعاهما للنزول مِنَ الجبل ليشهدا للسيد المَسِيحْ في أَخْمِيمْ وينالا إكليل الشِهَادَةْ ففرحا بهذه الدعوة وأقاما رئيساً للإخوة يُدْعَى بُطْرُسْ عوضاً عنهما.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -8729,7 +8729,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Ce saint avait été sacré patriarche le 2 Koyak (27 novembre 282). Il était un savant pieux, humble, rempli de douceur et d’amour envers tous ses contemporains. Pour que les fidèles puissent y prier, il édifia à Alexandrie une église dédiée à la sainte Vierge Marie. En effet, jusqu’à son époque, les fidèles priaient chez eux ou dans les cavernes par peur des persécutions. Par ailleurs, il put ramener à la Foi en Jésus Christ un grand nombre de païens et les baptiser.", 
-  "وقد أُقيم بطريركاً في 2 كيهك الموافق (27 نوفمبر 282م). كَانَ رَجُلاً عَالِمَاً تَقِيَّاً وديعاً مُحِبّاً لِلْجَمِيعِ، شيَّد كِنِيسَةْ بِاسْمِ القِدِّيسَةْ العَذْرَاءْ مَرْيَمْ بالإسْكَنْدَريّة ليصلِّى فِيهَا المؤمنون، إذ كانوا في ذَلِكْ الوَقْت يصلُّون في البيوت والمغاير بِسَبَبِ الاضْطِهَادْ الوثني للكنيسة. وقَدْ آمن كَثِيرُون بِالسَيِّدِ المَسِيحِْ عَلَى يَدَيْهِ وعمَّدهم.", 
+  "وقد أُقيم بطريركاً في 2 كيهك الموافق (27 نوفمبر 282م). كَانَ رَجُلاً عَالِمَاً تَقِيَّاً وديعاً مُحِبّاً لِلْجَمِيعِ، شيَّد كِنِيسَةْ بِاسْمِ القِدِّيسَةْ العَذْرَاءْ مَرْيَمْ بالإسْكَنْدَريّة ليصلِّى فِيهَا المؤمنون، إذ كَانُوا في ذَلِكْ الوَقْت يصلُّون في البيوت والمغاير بِسَبَبِ الاضْطِهَادْ الوثني للكنيسة. وقَدْ آمن كَثِيرُون بِالسَيِّدِ المَسِيحِْ عَلَى يَدَيْهِ وعمَّدهم.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -8848,7 +8848,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Lorsqu’il avança en âge, on le portait à l’église pour qu’il donne son enseignement qui se limitait à dire : Mes enfants, aimez-vous les uns les autres.", 
-  "ولما تقدَّم في أيَّامِهِ كانوا يحملونه إلى الكنيسة. ليعلم الشَّعْبِ واقتصر تعليمه عَلَى عبارة واحدة: \"يا أولادي أحبوا بعضكم بعضاً\".", 
+  "ولما تقدَّم في أيَّامِهِ كَانُوا يحملونه إلى الكنيسة. ليعلم الشَّعْبِ واقتصر تعليمه عَلَى عبارة واحدة: \"يا أولادي أحبوا بعضكم بعضاً\".", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -8875,7 +8875,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Ce saint faisait partie des soldats de l’empereur Constantin (قسطنطين). Il était chrétien et réputé pour sa piété et sa miséricorde envers les pauvres. Lorsque Constantin vit l’image de la Croix avec l’inscription Avec ceci tu vaincras (بهذا تغلب), il convoqua ce soldat pour que celui-ci lui explique ce que ceci pouvait signifier. Il lui répondit qu’il s’agissait de l’emblème du Christ.", 
-  "كان هَذَا القِدّيسْ من ضمن جُنُود الإمبراطور قسطنطين، وكَانَ مَسِيحِيّاً متديناً يتميز بالرحمة عَلَى الفقراء. ولَمَّا رَأَى قسطنطين علامة الصليب في السماء وتحتها عبارة \"بهذا تَغْلِب\"، استدعى هَذَا الجُندي التَّقِى واستفسر مِنْهُ عَن ذَلِكَ، فأجابه: \"إنها علامة السَيِّدِ المَسِيحِ\".", 
+  "كان هَذَا القِدّيسْ مِنْ ضِمْنِ جُنُود الإمبراطور قسطنطين، وكَانَ مَسِيحِيّاً متديناً يتميز بالرحمة عَلَى الفقراء. ولَمَّا رَأَى قسطنطين علامة الصليب في السماء وتحتها عبارة \"بهذا تَغْلِب\"، استدعى هَذَا الجُندي التَّقِى واستفسر مِنْهُ عَن ذَلِكَ، فأجابه: \"إنها علامة السَيِّدِ المَسِيحِ\".", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -9152,7 +9152,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "En effet, lorsqu’Arien (أريانوس) revint à Esna une seconde fois, il rencontra ces quatre notables qui se prénommaient : Eussaphios (أوسافيوس), Samân (سامان), Harwag (هرواج) et Bakhouch (باخوش). Ceux-ci faisaient partie des dirigeants de cette ville, de ses scribes et de ses administrateurs et ils étaient miséricordieux envers les pauvres, les misérables, les veuves et les orphelins. Ils confessèrent courageusement leur Foi en Jésus Christ devant le gouverneur faisant fi des menaces et des tortures sauvages que leur faisait subir Arien. Finalement, il les fit décapiter et ils obtinrent la couronne du martyre. ", 
-  "ففي عودة الوالي إريانوس إلى إسنا للمرة الثانية، قابله ال 4 أراخنة أوسافيوس وسامان وهرواج وباخوش، و قَدْ كانوا من رؤساء إسنا و كتّابِهَا و المشرفين عَلَى أمورها، و كانوا يعطون الفقراء و المَسَاكِينْ و يعولون الأرامل و الأيتام، فوقفوا أمَامَ الوالي معترفين بإيمانهم بِالسَيِّدِ المَسِيحِْ غير مبالين بالتهديد و التعذيب، فَأمَرَ الوالي بتعذيبهم عذاباً وحشياً فَلَمْ يتزعزعوا عَن إيمانهم. أخيراً أَمَرَ الوالي بِقَطْعِ رؤوسِهِمْ فنالوا أَكَاليلِ الشِهَادَة.", 
+  "ففي عودة الوالي إريانوس إلى إسنا للمرة الثانية، قابله ال 4 أراخنة أوسافيوس وسامان وهرواج وباخوش، و قَدْ كَانُوا من رؤساء إسنا و كتّابِهَا و المشرفين عَلَى أمورها، و كَانُوا يعطون الفقراء و المَسَاكِينْ و يعولون الأرامل و الأيتام، فوقفوا أمَامَ الوالي معترفين بإيمانهم بِالسَيِّدِ المَسِيحِْ غير مبالين بالتهديد و التعذيب، فَأمَرَ الوالي بتعذيبهم عذاباً وحشياً فَلَمْ يتزعزعوا عَن إيمانهم. أخيراً أَمَرَ الوالي بِقَطْعِ رؤوسِهِمْ فنالوا أَكَاليلِ الشِهَادَة.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -9251,7 +9251,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "A son époque, les conquérants perses lui firent subir de grandes difficultés. En effet Ils pillèrent plus de 600 monastères autour de la ville d’Alexandrie et tuèrent ceux qui y vivaient puis ils les détruisirent. ", 
-  "وقد نال هَذَا الأبْ شدائد كَثِيرَة مِنَ الفُرس المستعمرين، إذ خرَّبوا ستمائة دير عامر بالرهبان حول الإسْكَنْدَرِيَّةْ، وقتلوا مَنْ فِيهَا مِنَ الرُهْبَان، كَمَا قتلوا سبعمائة رَاهِبْ كانوا في مغائر حول هَذِهِ الأديرة. ", 
+  "وقد نال هَذَا الأبْ شدائد كَثِيرَة مِنَ الفُرس المستعمرين، إذ خرَّبوا ستمائة دير عامر بالرهبان حول الإسْكَنْدَرِيَّةْ، وقتلوا مَنْ فِيهَا مِنَ الرُهْبَان، كَمَا قتلوا سبعمائة رَاهِبْ كَانُوا في مغائر حول هَذِهِ الأديرة. ", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -9341,7 +9341,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Tandis qu’il consacrait l’église, il vit la main du Christ qui oignait l’autel avec lui. Il vit aussi un ancien debout avec dignité et respect, son visage était illuminé. Il se dit alors que ce moine pourrait être un évêque. Mais l’ange du Seigneur lui dit :  Comment pourrais-tu consacrer cet ancien comme évêque alors que c’est saint Macaire, le père des patriarches, des évêques et de tous les moines ? Il est venu par l’esprit pour se réjouir avec ses enfants. Si ses fils suivent ses recommandations et ses préceptes, ils le rejoindront dans la gloire. Sinon ils n’auront pas de part avec lui.  Saint Macaire lui dit :  s’il ne reste qu’un seul grain dans la grappe la bénédiction du Seigneur s’y trouvera. Tant que subsistera entre eux de l’amour mutuel, je crois que le Seigneur ne les privera pas de son Royaume.  Abba Benjamin fût très surpris de la miséricorde de saint Macaire.", 
-  "وأثناء تَكّرْيسِ المَذْبَحْ بالميرون لاحظ البابا يَدِّ السَّيْد المَسِيحْ تمسح المَذْبَحْ معه، كَمَا شاهد شيخاً منيراً، فَقَالَ في نفسه: \"إن هَذَا الرَاهِبْ يصلح للأسقفية\". فأتاه مَلاكُ الرَّبِ وقَالَ له: \"هل تجعل هَذَا الشيخ أُسْقُفَاً وهْوَ القِدّيسْ مكاريوس أب البطاركة والأساقفة والرُهبان، وقَدْ حضر اليَوْم ليفرح مَعَ أولاده! فإن حَفِظَ الرُهْبانْ وصاياه وأوامره، يكونون مَعْهُ في المجد. وإن خالفوا، فليس لَهُمْ مَعْهُ نصيب\". فأجاب القِدّيسْ مكاريوس المَلاك قائلاً: \"العنقود إذا بقيت فيه حبَّة واحدة فإن بركة الرَّبْ تكون فيه لِأَنَّهُ إذا بقيت المحبة فأنا أؤمن أَنَّ الرَّبْ لا يبعدهم عَن ملكوته\". فتعجب البابا بنيامين من رحمة القِدّيسْ مكاريوس.", 
+  "وأثناء تَكّرْيسِ المَذْبَحْ بالميرون لاحظ البابا يَدِّ السَّيْد المَسِيحْ تمسح المَذْبَحْ معه، كَمَا شاهد شيخاً منيراً، فَقَالَ في نفسه: \"إن هَذَا الرَاهِبْ يصلح للأسقفية\". فأتاه مَلاكُ الرَّبِ وقَالَ له: \"هل تجعل هَذَا الشيخ أُسْقُفَاً وهْوَ القِدّيسْ مكاريوس أب البطاركة والأساقفة والرُهبان، وقَدْ حَضَرَ اليَوْم ليفرح مَعَ أولاده! فإن حَفِظَ الرُهْبانْ وصاياه وأوامره، يكونون مَعْهُ في المجد. وإن خالفوا، فليس لَهُمْ مَعْهُ نصيب\". فأجاب القِدّيسْ مكاريوس المَلاك قائلاً: \"العنقود إذا بقيت فيه حبَّة واحدة فإن بركة الرَّبْ تكون فيه لِأَنَّهُ إذا بقيت المحبة فأنا أؤمن أَنَّ الرَّبْ لا يبعدهم عَن ملكوته\". فتعجب البابا بنيامين من رحمة القِدّيسْ مكاريوس.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -9698,7 +9698,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Ne sachant pas ce qu’il lui était advenu, sa mère fût très attristée et elle construisit une hostellerie dans l’espoir d’avoir des nouvelles de son fils. Quelques commerçants venant de Palestine lui parlèrent d’un moine qui guérissait les malades. La description qu’ils en firent correspondait à son fils. Alors, elle partit sans tarder pour se rendre à ce monastère.", 
-  "حزنت والدته عَلَى فراقه فَبَنتْ فندقاً لعلها تسمع أخباراً عَن ابنها. حضر بَعْضُ التجار من فلسطين فسمعتهم يتحدثون عَن رَاهِبْ يَشْفْي المرضى، فسألتهم عَن أوصافه، فعرفت مِنْهُمْ أَنَّهُ ابنها. سافرت إلى الدير وأعلمت الأبْ رُومَانوس أنها تريد أَنَّ تقابل ابنها، فاعتذر لَهَا أَنَّهُ لا يقابل امْرَأَةْ قط.", 
+  "حزنت والدته عَلَى فراقه فَبَنتْ فندقاً لعلها تسمع أخباراً عَن ابنها. حَضَرَ بَعْضُ التجار من فلسطين فسمعتهم يتحدثون عَن رَاهِبْ يَشْفْي المرضى، فسألتهم عَن أوصافه، فعرفت مِنْهُمْ أَنَّهُ ابنها. سافرت إلى الدير وأعلمت الأبْ رُومَانوس أنها تريد أَنَّ تقابل ابنها، فاعتذر لَهَا أَنَّهُ لا يقابل امْرَأَةْ قط.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -9899,7 +9899,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "", 
-  "أما القِدّيسْ دوماديوس فَكَانَ يبكي بكاءً مُرّاً، وسأل القِدّيسْ مقاريوس أَنَّ يطلب عَنْهُ إلى السَّيْد المَسِيحْ لِكَيّْ يُلْحِقَهُ بأخيه. وبَعدَ ثَلاثَةْ أَيَّامٍ، مَرَض هُوَ أيضاً، وعلم القِدّيسْ مقاريوس فذهب إلَيهِ لزيارته. وفِيمَا هُوَ في طرقه رَأَى جماعة القِدِّيسْينْ الّذِينَ كانوا قَدْ حملوا نفس أخيه، حاملين نفس القِدّيسْ دوماديوس وصاعدين بِهَا إلى السماء. فَلَمَّا أتى إلى المغارة وَجَدَهُ قَدْ تنيح، فوَضَعَهُ مَعَ أخيه الذي كَانَتْ نِيَاحَتِهِ في الرابع عَشَرْ من هَذَا الشهر، وأَمَرَ أَنَّ يُدْعي الدير عَلَى اسمهما، فَدُعي دِير البراموس نِسبة إليهما، وهكذا يدعي إلى اليَوْم.", 
+  "أما القِدّيسْ دوماديوس فَكَانَ يبكي بكاءً مُرّاً، وسأل القِدّيسْ مقاريوس أَنَّ يطلب عَنْهُ إلى السَّيْد المَسِيحْ لِكَيّْ يُلْحِقَهُ بأخيه. وبَعدَ ثَلاثَةْ أَيَّامٍ، مَرَض هُوَ أيضاً، وعلم القِدّيسْ مقاريوس فذهب إلَيهِ لزيارته. وفِيمَا هُوَ في طرقه رَأَى جماعة القِدِّيسْينْ الّذِينَ كَانُوا قَدْ حملوا نفس أخيه، حاملين نفس القِدّيسْ دوماديوس وصاعدين بِهَا إلى السماء. فَلَمَّا أتى إلى المغارة وَجَدَهُ قَدْ تنيح، فوَضَعَهُ مَعَ أخيه الذي كَانَتْ نِيَاحَتِهِ في الرابع عَشَرْ من هَذَا الشهر، وأَمَرَ أَنَّ يُدْعي الدير عَلَى اسمهما، فَدُعي دِير البراموس نِسبة إليهما، وهكذا يدعي إلى اليَوْم.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -9956,7 +9956,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Il poursuivit une vie ascétique en prenant soin de consoler ceux qui étaient attristés, de rendre visite aux malades et de s’occuper des pauvres et des veuves. Il fit aussi édifier des églises. Ce père était présent au concile de Nicée et il approuva toutes ses décisions et tous ses canons. ", 
-  "استمر في حَيَاةِ النُسْكْ والتقشف واهتم بتعزية الحزانى وزيارة المرضى والعناية بالفقراء والأرامل والأيتام وتشييد الكنائس. حضر هَذَا الأبْ مَجْمَعَ نيقية ووافق عَلَى قَرَارَاتِهِ وقوانينه.", 
+  "استمر في حَيَاةِ النُسْكْ والتقشف واهتم بتعزية الحزانى وزيارة المرضى والعناية بالفقراء والأرامل والأيتام وتشييد الكنائس. حَضَرَ هَذَا الأبْ مَجْمَعَ نيقية ووافق عَلَى قَرَارَاتِهِ وقوانينه.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -11746,7 +11746,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Le général Ohios (أهيوس الاسفهسلار) prit en charge sa torture. Il utilisa avec cruauté tous les outils dont il disposait mais le Seigneur lui donnait de l’endurance et le guérissait. Finalement, il ordonna qu’on le décapite. Entretemps, ses parents, sa sœur et une grande foule étaient venus. Lorsqu’ils le virent ligoté par une laisse et trainé vers le lieu du martyre, ils protestèrent avec véhémence auprès des soldats. En conséquence le commandant de la troupe ordonna qu’on les décapite et ils obtinrent tous la couronne du martyre.", 
-  "تولَّى أوهيوس الإسفهسلار تَعْذيبَ القِدِّيْسْ، فَأمَرَ بسلخ جلده وتدليكه بخل وملح، ثُمَّ عصره بالهِنْبَازيْنْ وقلع أظافره، ووَضَعَهُ عَلَى سَرِيرٍ حَدْيدْ تَحْتَهُ نَارٍ مُوقَدَةٍ، وكَانَ الرَّبْ يُقَوِّيه ويَشْفِيه. ولَمَّا ضَجَرَ أوهيوس الإسفهسلار، أَمَرَ بِقَطْعِ رَأسِهِ، وأَثْنَاءِ ذَلِكْ حضر أبوه وأُمُّهُ وأُخْتَهُ وكَثِيرُونَ مَعْهُمْ، فَلَمَّا رأوه مشدوداً بلجام كالخيل إلى موضع الاستشهاد، احتجوا عَلَى الجُنْدِ لِقَسَاوَتِهِمْ، فَأمَرَ القائد بِقَطْعِ رؤوسِهِمْ جميعاً، فنالوا أَكَاليلِ الشِهَادَة.", 
+  "تولَّى أوهيوس الإسفهسلار تَعْذيبَ القِدِّيْسْ، فَأمَرَ بسلخ جلده وتدليكه بخل وملح، ثُمَّ عصره بالهِنْبَازيْنْ وقلع أظافره، ووَضَعَهُ عَلَى سَرِيرٍ حَدْيدْ تَحْتَهُ نَارٍ مُوقَدَةٍ، وكَانَ الرَّبْ يُقَوِّيه ويَشْفِيه. ولَمَّا ضَجَرَ أوهيوس الإسفهسلار، أَمَرَ بِقَطْعِ رَأسِهِ، وأَثْنَاءِ ذَلِكْ حَضَرَ أبوه وأُمُّهُ وأُخْتَهُ وكَثِيرُونَ مَعْهُمْ، فَلَمَّا رأوه مشدوداً بلجام كالخيل إلى موضع الاستشهاد، احتجوا عَلَى الجُنْدِ لِقَسَاوَتِهِمْ، فَأمَرَ القائد بِقَطْعِ رؤوسِهِمْ جميعاً، فنالوا أَكَاليلِ الشِهَادَة.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -11865,7 +11865,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Il s’était enrôlé dans un monastère de haute Egypte, y mena une vie de sainteté au point qu’on le comparait aux anges. Il se complaisait dans la fréquentation des esprits purs et ses prières étaient acceptées par Dieu. Il fit venir un grand nombre au monachisme.", 
-  "تَرَهَّبَ هَذَا القِدّيسْ في أحَدْ أديرة الصَعِيدِ، وعَاشْ حَيَاةِ مُقَدَّسَة حَتَّى أَنَّهُمْ كانوا ينظرون إلَيهِ كملاك أَكْثَرَ مِنْهُ كإنسان، وكَانَ يَسْعَدْ كَثِيراً بملازمة الأرواح الطوباوية، كَمَا كَانَتْ لَهُ دالة عظيمة في صَلَواتِهِ لَدَى الله، وقَدْ جَذَبَ الكثيرين إلى طَرِيقِ الرهبنة.", 
+  "تَرَهَّبَ هَذَا القِدّيسْ في أحَدْ أديرة الصَعِيدِ، وعَاشْ حَيَاةِ مُقَدَّسَة حَتَّى أَنَّهُمْ كَانُوا ينظرون إلَيهِ كملاك أَكْثَرَ مِنْهُ كإنسان، وكَانَ يَسْعَدْ كَثِيراً بملازمة الأرواح الطوباوية، كَمَا كَانَتْ لَهُ دالة عظيمة في صَلَواتِهِ لَدَى الله، وقَدْ جَذَبَ الكثيرين إلى طَرِيقِ الرهبنة.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -13118,7 +13118,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Ce groupe fêtait Pâques le quatorzième jour du mois hébreux de Nissan, en même temps que les Juifs, quel que soit le jour de la semaine où il pouvait tomber. L’évêque de l’île les excommunia et écrivit à Sérapion (سيرابيون), le patriarche d’Antioche, Dimocratos (دمقراطس) le patriarche de Rome, Démétrios (ديمتريوس), le patriarche d’Alexandrie et Symmaque (سيماخس) le patriarche de Jérusalem pour porter à leur connaissance cette hérésie. Chacun d’entre eux écrivit une lettre dans laquelle il prescrivait que la fête de Pâques ne devait être fêtée que le dimanche qui suit la fête juive. Ils ordonnèrent que tous ceux qui feraient autrement soient excommuniés.", 
-  "يرجع تسميتهم بهذا الاسم إلى أَنَّهُمْ كانوا يحتفلوا بِعِيدِ القيامة مَعَ اليهود في اليَوْم الرابع عَشَرْ من شهر نيسان العبري في أي يوم اتفق من أَيَّامٍ الأسبوع، فحرمهم أُسْقُفْ الجزيرة، وأَرْسَلَ إلى كُلَّ من سيرابيون بطريرك أنطاكية وديمقراطس بطريرك رُومَا وديمتريوس بطريرك الإسْكَنْدَرِيَّة وسيماخس بطريرك أورشليم، وأعلمهم ببدعة هؤلاء القوم، فأَرْسَلَ كُلَّ مِنْهُمْ رسالة أصدروا فِيهَا أمراً بِأنَّ لا يُقَامَ العيد إلا يوم الأحد الذي يلي عيد اليهود، وأنهم سيحرموا من يتعدى عَلَى هَذَا ويخالفه.", 
+  "يرجع تسميتهم بهذا الاسم إلى أَنَّهُمْ كَانُوا يحتفلوا بِعِيدِ القيامة مَعَ اليهود في اليَوْم الرابع عَشَرْ من شهر نيسان العبري في أي يوم اتفق من أَيَّامٍ الأسبوع، فحرمهم أُسْقُفْ الجزيرة، وأَرْسَلَ إلى كُلَّ من سيرابيون بطريرك أنطاكية وديمقراطس بطريرك رُومَا وديمتريوس بطريرك الإسْكَنْدَرِيَّة وسيماخس بطريرك أورشليم، وأعلمهم ببدعة هؤلاء القوم، فأَرْسَلَ كُلَّ مِنْهُمْ رسالة أصدروا فِيهَا أمراً بِأنَّ لا يُقَامَ العيد إلا يوم الأحد الذي يلي عيد اليهود، وأنهم سيحرموا من يتعدى عَلَى هَذَا ويخالفه.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -13396,7 +13396,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Quand Dioclétien apprit cela, il le convoqua et lui demanda pourquoi il s’était détourné de l’adoration des idoles. Arien lui raconta les miracles que Dieu faisait par l’intermédiaire des saints. Il lui expliqua comment, chaque fois qu’il torturait les chrétiens, ceux-ci revenaient sains et sauf. Ces affirmations mirent l’empereur en colère et, en conséquence, il ordonna qu’Arien soit torturé et enterré dans une fosse jusqu’à la mort. Mais le Seigneur délivra celui-ci de la fosse. En conséquence il le fit jeter dans la mer et il finit par rendre l’âme et obtint la couronne du martyre.", 
-  "فلما اتصل خبره بالملك دقلديانوس استحضره واستعلم منه عن السبب الذي رده عن عبادة آلهته. فبدأ القِدِّيسْ يقص عليه الآيات والعجائب التى أجراها الله على أيدي قديسيه، وكيف أنهم في حاك عذابهم وتقطيع أجسامهم كانوا يعودون أصحاء. فإغتاظ الملك من هذا القول، وأمر أنَّ يُعَذِّبُ عذابا شديدا، وأن يطرح في جب ويغطى عليه حتى يموت. فأرسل السيد المسيح ملاكه، وحمله من ذلك الجب، وأوقفه عند مرقد الملك. ولما استيقظ الملك ورآه وعرف أنه أريانوس، ارتعب ودهش. ولكنه عاد فأمر بوضعه في كيس شعر وطرحه في البحر. ففعلوا به كذلك. وهنا أسلم الشهيد روحه داخل الكيس.", 
+  "فلما اتصل خبره بالملك دقلديانوس استحضره واستعلم منه عن السبب الذي رده عن عبادة آلهته. فبدأ القِدِّيسْ يقص عليه الآيات والعجائب التى أجراها الله على أيدي قديسيه، وكيف أنهم في حاك عذابهم وتقطيع أجسامهم كَانُوا يعودون أصحاء. فإغتاظ الملك من هذا القول، وأمر أنَّ يُعَذِّبُ عذابا شديدا، وأن يطرح في جب ويغطى عليه حتى يموت. فأرسل السيد المسيح ملاكه، وحمله من ذلك الجب، وأوقفه عند مرقد الملك. ولما استيقظ الملك ورآه وعرف أنه أريانوس، ارتعب ودهش. ولكنه عاد فأمر بوضعه في كيس شعر وطرحه في البحر. ففعلوا به كذلك. وهنا أسلم الشهيد روحه داخل الكيس.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -13443,7 +13443,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Nous commémorons aussi aujourd’hui le martyre de Saint Adrien (أندريانوس), son épouse sainte Marthe (مرثا) ainsi qu’Eusèbe (أوسابيوس), Arma (أرما), et quarante autres martyrs. Ils étaient tous des habitants de Rome et subissaient de nombreux tourments en raison de leur Foi en Jésus Christ. Ils refusèrent d’adorer les idoles fabriquées d’or et d’argent et proclamèrent : « Nous ne prosternons que devant l’unique Dieu, le Dieu du ciel et de la terre, notre Roi Jésus Christ. » Ensuite ils furent décapités et obtinrent la couronne du martyre.", 
-  "وفي مِثْلِ هَذَا اليَومْ اسْتَشْهَدَ القِدِّيْسْون أندريانوس ومرثا زَوْجَتَهُ وأوسابيوس وأرما وأربعون شهيداً، وهم كانوا من أهل رُومَا وقَدْ عانوا عذابات كَثِيرَة مِنْ أَجْلِ اسْمِ يَسْوعْ المَسِيحْ ورفضوا السجود لآلهة من ذهب وفضة وقَالَوا: \"نحن نسجد لإله واحد هُوَ إله السماء والأرض ملكنا يَسْوعْ المَسِيحْ\". وبَعْدَ هَذَا الكلام قطعوا رؤوسهم جميعاً بالسيف ونَالوا جميعاً إكليل الشِهَادَة.", 
+  "وفي مِثْلِ هَذَا اليَومْ اسْتَشْهَدَ القِدِّيْسْون أندريانوس ومرثا زَوْجَتَهُ وأوسابيوس وأرما وأربعون شهيداً، وهم كَانُوا من أهل رُومَا وقَدْ عانوا عذابات كَثِيرَة مِنْ أَجْلِ اسْمِ يَسْوعْ المَسِيحْ ورفضوا السجود لآلهة من ذهب وفضة وقَالَوا: \"نحن نسجد لإله واحد هُوَ إله السماء والأرض ملكنا يَسْوعْ المَسِيحْ\". وبَعْدَ هَذَا الكلام قطعوا رؤوسهم جميعاً بالسيف ونَالوا جميعاً إكليل الشِهَادَة.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -14080,7 +14080,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Nous commémorons aussi aujourd'hui la venue de nôtre Seigneur et nôtre sauveur Jésus Christ à Béthanie (بيت عنيا). Ce village se trouve non loin de Jérusalem et Lazare, qu'Il a ressuscité, était à table avec Lui. Marthe, sa sœur, servait ceux qui étaient présents alors que Marie, son autre sœur, oignait les pieds du Seigneur avec du parfum et les essuyait avec ses cheveux. Le Seigneur l'a louée et fit allusion à sa mort en disant : « c'est pour le jour de ma sépulture qu'elle devait garder ce parfum [...] La grande foule des Juifs apprit qu'il était là et ils vinrent, pas seulement pour Jésus, mais aussi pour voir Lazare, qu'il avait ressuscité d'entre les morts. Les grands prêtres décidèrent de tuer aussi Lazare, parce que beaucoup de Juifs, à cause de lui, s'en allaient et croyaient en Jésus ».", 
-  "وفي مِثْلِ هَذَا اليَومْ حضر ربنا يَسْوعْ المَسِيحْ مَعَ تلاميذه وليمة في بَيْت عنيا القَرِيبِ مِنْ أورشليم حَيْثُ كَانَ لعازر الذي أقامه من بَيْنَ الأموات أحَدِ المتكئين معه. وكَانَتْ مرثا اخْتَهُ تخدم الجمع الحاضر، أما مَرْيَمْ فكَانَتْ تدهن قدمَيْ المُخَلِّصْ بالطيب وتمسحهما بشعرها، فمدحها الرَّبْ وأشار عَن موته بقوله \" إنها ليوم تكفيني قَدْ حفظته. فعلم جمع كثير مِنَ اليهود أَنَّهُ هناك، فجاءوا ليس لأجل يَسْوعْ فَقَطْ بل لينظروا أيْضَاً لعازر الذي أقامه من بَيْنَ الأموات. فتشاور رؤساء الكهنة ليقتلوا لعازر أيْضَاً لِأنَّ كَثِيرينْ مِنَ اليهود كانوا بسببه يذهبون ويؤمنون بيسوع \" (يُوحَنَّا 12: 1 – 11).", 
+  "وفي مِثْلِ هَذَا اليَومْ حَضَرَ ربنا يَسْوعْ المَسِيحْ مَعَ تلاميذه وليمة في بَيْت عنيا القَرِيبِ مِنْ أورشليم حَيْثُ كَانَ لعازر الذي أقامه من بَيْنَ الأموات أحَدِ المتكئين معه. وكَانَتْ مرثا اخْتَهُ تخدم الجمع الحاضر، أما مَرْيَمْ فكَانَتْ تدهن قدمَيْ المُخَلِّصْ بالطيب وتمسحهما بشعرها، فمدحها الرَّبْ وأشار عَن موته بقوله \" إنها ليوم تكفيني قَدْ حفظته. فعلم جمع كثير مِنَ اليهود أَنَّهُ هناك، فجاءوا ليس لأجل يَسْوعْ فَقَطْ بل لينظروا أيْضَاً لعازر الذي أقامه من بَيْنَ الأموات. فتشاور رؤساء الكهنة ليقتلوا لعازر أيْضَاً لِأنَّ كَثِيرينْ مِنَ اليهود كَانُوا بسببه يذهبون ويؤمنون بيسوع \" (يُوحَنَّا 12: 1 – 11).", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -14246,7 +14246,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Pendant deux ans ces apparitions se prolongeaient certaines nuits durant plusieurs heures sans interruption devant plusieurs milliers de personnes de diverses origines et religions. Elle se présentait aux gens sous différents aspects. Ils voyaient un corps entier ou partiel dans une nuée lumineuse revêtue d’un vêtement blanc et tenant à la main un rameau d’olivier. Ces apparitions étaient souvent accompagnées de visions spirituelles comme des pigeons volant de nuit et de l’encens qui fût constaté et senti par la foule. Les milliers de personnes affluaient aux alentours de l’église toutes les nuits venant de toutes les régions d’Egypte ainsi que de l’étranger. Cette foule passait la nuit entière à chanter des louanges en attendant une apparition.", 
-  "Pوقَدْ استمرت هَذِهِ الظهورات الروحية في بَعْضُ الليالي لعدة ساعات وكَانَ ذَلِكْ عَلَى مدى عامين تقريباً، وقَدْ شاهدها الألوف من جَمِيع الأجناس والأديان بمناظر شتى، فكَانَتْ تظهر أحياناً بهيئة كاملة أو نصفية في سحابة من نور أبيض سماوي متوشحة برداء أبيض وتمسك في يدها غصن زيتون، وكَانَ يصاحب هَذَا الظهور بَعْضُ الظواهر الروحية كالحمام يطير ليلاً والبخور الذي رآه واشتمه الآلاف الّذِينَ كانوا يتوافدون عَلَى الكَنيسَةْ كُلَّ ليلة من كُلَّ مَكَانِ بداخل البلاد المصرية وخارجها ساهرين اللّيْلِ كُلَّهُ في التَسْبِيح منتظرين ظهورها المبارك.", 
+  "Pوقَدْ استمرت هَذِهِ الظهورات الروحية في بَعْضُ الليالي لعدة ساعات وكَانَ ذَلِكْ عَلَى مدى عامين تقريباً، وقَدْ شاهدها الألوف من جَمِيع الأجناس والأديان بمناظر شتى، فكَانَتْ تظهر أحياناً بهيئة كاملة أو نصفية في سحابة من نور أبيض سماوي متوشحة برداء أبيض وتمسك في يدها غصن زيتون، وكَانَ يصاحب هَذَا الظهور بَعْضُ الظواهر الروحية كالحمام يطير ليلاً والبخور الذي رآه واشتمه الآلاف الّذِينَ كَانُوا يتوافدون عَلَى الكَنيسَةْ كُلَّ ليلة من كُلَّ مَكَانِ بداخل البلاد المصرية وخارجها ساهرين اللّيْلِ كُلَّهُ في التَسْبِيح منتظرين ظهورها المبارك.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -14487,7 +14487,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Lorsqu’il eût achevé son bon combat, saint Antoine et saint Pacôme lui rendirent visite accompagnés d’un groupement d’anges et de saints. Alors il rendit son âme entre les mains du Seigneur après avoir atteint l’âge de 90 ans environ. Son corps se trouve toujours à son monastère dans la vallée de Scété.", 
-  "ولَمَّا أكْمَلَ جِهَادَهُ الحسن، حضر القِدِّيْسْان أنطونيوس وباخوميوس وجماعة مِنَ الملائكة والقديسين، واستودع رُوحَهُ الطَاهِرَةْ بيد الرَّبْ عَن عمر يناهز التسعين عاماً ومازال جَسَدَهُ بديره العامر ببرية شِيهِيتْ.", 
+  "ولَمَّا أكْمَلَ جِهَادَهُ الحسن، حَضَرَ القِدِّيْسْان أنطونيوس وباخوميوس وجماعة مِنَ الملائكة والقديسين، واستودع رُوحَهُ الطَاهِرَةْ بيد الرَّبْ عَن عمر يناهز التسعين عاماً ومازال جَسَدَهُ بديره العامر ببرية شِيهِيتْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -14698,68 +14698,58 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Il était de la tribu de Dane (سبط دان) et il naquit à Soréa (صُرعة) après que sa naissance ait été annoncée à sa mère stérile par un ange du Seigneur. Il lui dit aussi « garde-toi de boire du vin ou d'autre boisson enivrante ... et le fer (le rasoir) ne passera point sur sa tête, parce qu’il sera Nazir de Dieu (نذير الله) ». L’ange apparut aussi à son père Manoah (منوح) et lui fit la même annonce. « Et la femme accoucha d'un fils qu'elle nomma Samson ; l’enfant devint grand, et le Seigneur le bénit. Et au camp de Dane, l'Esprit du Seigneur commença à l'accompagner entre Soréa et Eshtaol. »", 
-  "وهْوَ من سبط دان ووُلِدَ في صُرعة (صرعة مدينة عَلَى ساحل يهوذا وتبعد 14 ميلاً غربي القدس أورشليم، بإعلان إلهي إذ ظَهَرَ مَلاكُ الرَّبِ لوالدته العاقر وبشَّرها بميلاده، وأَمَرَهَا أَنْ تَتَجَنَبْ الخمر والمُسْكِرْ، ولا تَحْلِقْ رَأْسَهُ لِأَنَّهُ يَكُونَ نَذِيرَاً لله (قض 13: 3–5). كَمَا ظَهَرَ لوالده منوح وكَلَّمَهُ بِنَفْسِ البشارة (قض 13: 11 – 20). فحبلت المرأة وولدت شمشون، فكبر الصبي وبَارَكَهُ الرَبُّ، وابْتَدَأَ رُوحِ الرَّبْ يُرْشِدَهُ للعمل في مَحَلَّةِ دان بَيْنَ صُرعة وأشتأول\" (قض 13: 24، 25). تَزَوَّجَ شمشون بامرأة أممية، من مدينة تمنة، وحَدَثَ أَنَّهُ بَيْنَمَا كَانَ ذاهباً إليها إذ بشبل أسد يزمجر للقائه، فحل عَلَيْهِ رُوحِ الرَّبْ فشقه نصفين. وفي طَرِيقِ العودة نظر في جوف الأسد فوجد عسل نحل فَأَخَذَ مِنْهُ وأكل وأعطى أبويه. ذهب شمشون إلى تمنة مرة أخرى حَيْثُ أقيمت وليمة هناك، وقص عَلَى الفلسطينيين أحجية: مِنَ الآكل خَرَجَ أكل ومن الجافي خرجت حلاوة . فَلَمْ يفهموا ما هُوَ المقصود، وقَالَوا لزوجته تملَّقي رجُلك لِكَيّْ يُظهر لنا الأحجية لئلا نحرقك وبيت أبيك بنار. فذهبت وألَحّت عَلَيْهِ باكية أَنَّ يخبرها بمعنى تلك الأحجية حَتَّى أخبرها. فَقَالَ لَهُ رجال المَدِينَةِ في اليَوْم السابع للوليمة: أي شيء أحلى مِنَ العسل وما أجفي مِنَ الأسد. فَقَالَ لَهُمْ لو لَمْ تحرثوا عَلَى عجلتي لما وجدتم أحجيتي . وحل عَلَيْهِ رُوحِ الرَّبْ فنزل إلى أشقلون وقتل مِنْهُمْ ثلاثين رجلاً. وحمى غضبه وصعد إلى بَيْتِ أبيه فصارت امْرَأَةْ شمشون لصاحبه (قض 14: 1 – الخ). فَلَمَّا عَادَ ليأَخَذَ زوجته، رَفَضَ والدها أَنَّ يعطيها له، وعرض عَلَيْهِ الزواج بأختها، فغَضِبَ شمشون وأحرق زرع الفلسطينيين وكل كرومهم، ونَزَلَ وأقَامَ في صخرة. ثُمَّ جَاءَ الفلسطينيون إلى يهوذا وطلبوا من رجالها أَنَّ يُسلِّموا لَهُمْ شمشون. فَمَضَى إلَيهِ ثَلاثَةْ آلاف رَجُلٍ من يهوذا وطلبوا مِنْهُ أَنَّ يذهب مَعْهُمْ ووعدوه أَنَّ لا يقعوا به، فأوثقوه بحبلين جديدين وأصعدوه مِنَ الصخرة. ولَمَّا التقى بالفلسطينيين حل عَلَيْهِ رُوحِ الرَبّ، فانحل الوثاق عَن يَدَيْهِ ووجد لحى حمار طرياً، فَأَخَذَهُ وضرب بِهِ ألف رجل. وظل قاضياً عَلَى إسْرائِيلْ في أَيَّامٍ الفلسطينيين عشرين سَنَةْ (قض 15: 1 – الخ). ثُمَّ ذهب شمشون إلى غزة، وأخبروا أهلها بذلك، فأحاطوا بِهِ اللّيْلِ كُلَّهُ عِنْدَ باب المَدِينَةِ. فَقَامَ وأَخَذَ مِصْرْاعي باب المَدِينَةِ والقائمتين وقلعهما مَعَ العارضة ووضعها عَلَى كتفيه وصعد بِهَا إلى رأس الجبل، وطَلَبَ أقطاب الفلسطينيين من دليلة أَنَّ تعرف مِنْهُ سبب قوته، وبَعْدَ محاولات كَثِيرَة أخبرها بِكُلِّ ما في قلبه وقَالَ لَهَا لَمْ يَعلُ موسى رأسي لأني نذير الله من بطن أمي . فمضت وأخبرت الفلسطينيين وأنامته عَلَى ركبتيها وحلقت خُصَل شعره، فضاعت قُوَّته وقبض عَلَيْهِ الفلسطينيون وقلعوا عينيه وأوثقوه بسلاسل نحاس وكَانَ يطحن في بَيْت السجن. اجْتَمَعَ أقطاب الفلسطينيين ليذبحوا لإلههم داجون، وقَالَوا قَدْ دفع إلهنا ليدنا شمشون عدوَّنا. ثُمَّ دعوا شمشون من بَيْت السجن وأوقفوه بَيْنَ الأعمدة ليلعب أمامهم وكَانَ قَدْ نبت شعره. فدعا الرَّبْ وقَالَ اُذكرني وشددني يا الله هَذِهِ المرة فقط، فأنتقم نقمة واحدة عَن عينيَّ مِنَ الفلسطينيين . وقبض عَلَى العمودين المتوسطين وقَالَ لتمت نفسي مَعَ الفلسطينيين . فسقط البيت ومات ثَلاثَةْ آلاف رجل. ومات شمشون. فنزل إخوته وصعدوا بِهِ ودَفَنُوهُ في قبر منوح أبيه (قض 16: 1 – الخ). بركته المُقَدَّسَةْ فَلْتَكُنْ مَعْنَا، آمْينْ. وفيه أيْضَاً تَمَّ نَقْلِ جَسَدِ القِدّيسْ يَعْقُوبْ الفارسي الشهير بالمقطَّع من مدينة غزة إلى ديار مِصْرْ حَيْثُ بُنيت عَلَى اسْمِهِ كِنِيسَةْ بمِصْرَ القَدِيمَةِِ ووُضع جسدُه فيها، وتجد خبر استشهاده تحت يوم 27 هاتور. بَرَكِةْ صَلَواتُهُ فَلْتَكُنْ مَعْنَا، ولِرَبِنَا المَجْدْ دائِمَاً أبَدِيَّاً آمْينْ.", 
+  "وهْوَ من سبط دان ووُلِدَ في صُرعة (صرعة مدينة عَلَى ساحل يهوذا وتبعد 14 ميلاً غربي القدس أورشليم، بإعلان إلهي إذ ظَهَرَ مَلاكُ الرَّبِ لوالدته العاقر وبشَّرها بميلاده، وأَمَرَهَا أَنْ تَتَجَنَبْ الخمر والمُسْكِرْ، ولا تَحْلِقْ رَأْسَهُ لِأَنَّهُ يَكُونَ نَذِيرَاً لله (قض 13: 3–5). كَمَا ظَهَرَ لوالده منوح وكَلَّمَهُ بِنَفْسِ البشارة (قض 13: 11 – 20). فحبلت المرأة وولدت شمشون، فكبر الصبي وبَارَكَهُ الرَبُّ، وابْتَدَأَ رُوحِ الرَّبْ يُرْشِدَهُ للعمل في مَحَلَّةِ دان بَيْنَ صُرعة وأشتأول (قض 13: 24، 25).", 
   ],
   [
   Prefix.same+"&C=NoActor", 
   "Samson épousa une païenne de Timna (تمنة). En chemin pour la retrouver, « voici venir à sa rencontre un jeune lion rugissant. L'Esprit du Seigneur s'élança sur Samson, qui broya le lionceau comme il eût broyé une jeune chèvre ; or, il n'avait rien dans les mains. » Quelques jours plus tard il repassa par là. « Il se détourna pour voir le cadavre du lion, et voilà qu'il y avait dans sa gueule un essaim d'abeilles et du miel. II prit du miel dans ses mains, et il s'en alla en mangeant. Quand il eût rejoint son père et sa mère, il leur en donna, et ils en mangèrent. »", 
-  "", 
+  "تَزَوَّجَ شمشون بامرأة أممية، من مدينة تمنة، \"وحَدَثَ أَنَّهُ بَيْنَمَا كَانَ ذاهباً إليها إذ بشبل أسد يزمجر للقائه، فحل عَلَيْهِ رُوحِ الرَّبْ فشقه نصفين. وفي طَرِيقِ العودة نظر في جوف الأسد فوجد عسل نحل فَأَخَذَ مِنْهُ وأكل وأعطى أبويه\".", 
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Samson se rendit à nouveau à Timna où il y eût un festin. Il proposa aux Philistins une énigme en disant : « L’aliment a été tiré du mangeur ; la douceur de la force. » Comme ils ne trouvaient pas la solution, ils demandèrent à la jeune femme « Trompe ton mari, et qu'il t'explique l'énigme ; sinon nous te livrerons aux flammes, toi et la maison de ton père. » Alors elle pleura auprès de son époux qui finit par lui donner la solution. Le septième jour du festin, les habitants de la ville lui dirent : « ‘Qu'y a-t-il de plus doux que le miel ? Qu'y a-t-il de plus fort que le lion ?’ Et Samson leur dit : ‘Si vous n'aviez point labouré avec ma génisse, vous ne sauriez point mon énigme.’ Aussitôt, l'Esprit du Seigneur s'élança sur lui ; il alla en Ascalon, il y tua trente hommes, puis il prit leurs vêtements, et il donna leurs tuniques changeantes à ceux qui avaient expliqué l’énigme. Et Samson fût courroucé, et il revint à la maison de son père. Et la femme de Samson épousa l’un des amis qu'il aimait. » Alors Samson se mit en colère et il brûla leur plantation et leur vignoble puis il s’installa dans un rocher.", 
-  "", 
+  "Samson se rendit à nouveau à Timna où il y eût un festin. Il proposa aux Philistins une énigme en disant : « L’aliment a été tiré du mangeur ; la douceur de la force. » Comme ils ne trouvaient pas la solution, ils demandèrent à la jeune femme « Trompe ton mari, et qu'il t'explique l'énigme ; sinon nous te livrerons aux flammes, toi et la maison de ton père. » Alors elle pleura auprès de son époux qui finit par lui donner la solution. Le septième jour du festin, les habitants de la ville lui dirent : « Qu'y a-t-il de plus doux que le miel ? Qu'y a-t-il de plus fort que le lion ? Et Samson leur dit : Si vous n'aviez point labouré avec ma génisse, vous ne sauriez point mon énigme. Aussitôt, l'Esprit du Seigneur s'élança sur lui ; il alla en Ascalon, il y tua trente hommes, puis il prit leurs vêtements, et il donna leurs tuniques changeantes à ceux qui avaient expliqué l’énigme. Et Samson fût courroucé, et il revint à la maison de son père. Et la femme de Samson épousa l’un des amis qu'il aimait. » Alors Samson se mit en colère et il brûla leur plantation et leur vignoble puis il s’installa dans un rocher.", 
+  "ذهب شمشون إلى تمنة مرة أخرى حَيْثُ أقيمت وليمة هناك، وقص عَلَى الفلسطينيين أحجية: \"مِنَ الآكل خَرَجَ أكل ومن الجافي خرجت حلاوة\". فَلَمْ يفهموا ما هُوَ المقصود، وقَالَوا لزوجته: \"تملَّقي رجُلك لِكَيّْ يُظهر لنا الأحجية لئلا نحرقك وبيت أبيك بنار\". فذهبت وألَحّت عَلَيْهِ باكية أَنَّ يخبرها بمعنى تلك الأحجية حَتَّى أخبرها. فَقَالَ لَهُ رجال المَدِينَةِ في اليَوْم السابع للوليمة: \"أي شيء أحلى مِنَ العسل وما أجفي مِنَ الأسد\". فَقَالَ لَهُمْ: \"لو لَمْ تحرثوا عَلَى عجلتي لما وجدتم أحجيتي\". وحل عَلَيْهِ رُوحِ الرَّبْ فنزل إلى أشقلون وقتل مِنْهُمْ ثلاثين رجلاً. وحمى غضبه وصعد إلى بَيْتِ أبيه فصارت امْرَأَةْ شمشون لصاحبه (قض 14: 1 – الخ). فَلَمَّا عَادَ ليأَخَذَ زوجته، رَفَضَ والدها أَنَّ يعطيها له، وعرض عَلَيْهِ الزواج بأختها، فغَضِبَ شمشون وأحرق زرع الفلسطينيين وكل كرومهم، ونَزَلَ وأقَامَ في صخرة\".", 
   ],
   [
   Prefix.same+"&C=NoActor", 
   "Les philistins partirent en campagne contre Juda et demandèrent que Samson leur soit livré. Alors, trois mille hommes allèrent demander à Samson de revenir avec eux et lui promirent de ne pas le tuer eux-mêmes. Ils le lièrent donc avec deux cordes neuves, et ils l'enlevèrent de cette roche. Dès qu’il retrouva les philistins, l'Esprit du Seigneur s'élança sur lui, ... et les liens de ses mains se rompirent. Et il trouva à terre une mâchoire d'âne, et il étendit la main, et il la ramassa, et, avec cette mâchoire, il tua mille hommes. Samson jugea pendant vingt ans Israël à l’époque des Philistins.", 
-  "", 
+  "ثُمَّ جَاءَ الفلسطينيون إلى يهوذا وطلبوا من رجالها أَنَّ يُسلِّموا لَهُمْ شمشون، فَمَضَى إلَيهِ ثَلاثَةْ آلاف رَجُلٍ من يهوذا وطلبوا مِنْهُ أَنَّ يذهب مَعْهُمْ ووعدوه أَنَّ لا يقعوا به، فأوثقوه بحبلين جديدين وأصعدوه مِنَ الصخرة. ولَمَّا التقى بالفلسطينيين حل عَلَيْهِ رُوحِ الرَبّ، فانحل الوثاق عَن يَدَيْهِ ووجد لحى حمار طرياً، فَأَخَذَهُ وضرب بِهِ ألف رجل.وظل قاضياً عَلَى إسْرائِيلْ في أَيَّامٍ الفلسطينيين عشرين سَنَةْ (قض 15: 1 – الخ).", 
   ],
   [
   Prefix.same+"&C=NoActor", 
   "Une fois qu’il se rendit à Gaza ils l’entourèrent, et ils l’épièrent à la porte de la ville, et ils ne bougèrent pas de toute la nuit. S’étant levé il prit les portes de la ville avec les deux jambages ; puis, les soulevant à l'aide du verrou, il les mit sur ses épaules. Alors, il monta au sommet de la montagne, où il les déposa.", 
-  "", 
+  "ثُمَّ ذهب شمشون إلى غزة، وأخبروا أهلها بذلك، فأحاطوا بِهِ اللّيْلِ كُلَّهُ عِنْدَ باب المَدِينَةِ. فَقَامَ وأَخَذَ مِصْرْاعي باب المَدِينَةِ والقائمتين وقلعهما مَعَ العارضة ووضعها عَلَى كتفيه وصعد بِهَا إلى رأس الجبل.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
   "Les chefs des Philistins demandèrent à Dalila de leur faire connaitre le secret de la force de Samson. Après plusieurs tentatives, il finit par lui ouvrir tout son cœur et lui dit : « Jamais le fer (le rasoir) n'a passé sur ma tête, parce que, depuis les entrailles de ma mère, je suis consacré au Seigneur. » Elle alla en informer les Philistins puis, l’ayant endormi, elle lui rasa tresses de sa tête. Les Philistins le saisirent, lui arrachèrent les yeux, et le transportèrent à Gaza, où ils le mirent en prison avec des entraves d'airain aux pieds ; enfin, ils lui firent tourner la meule, dans la maison du geôlier.", 
-  "", 
+  "وطَلَبَ أقطاب الفلسطينيين من دليلة أَنَّ تعرف مِنْهُ سبب قوته، وبَعْدَ محاولات كَثِيرَة أخبرها بِكُلِّ ما في قلبه وقَالَ لَهَا: \"لَمْ يَعلُ موسى رأسي لأني نذير الله من بطن أمي\". فمضت وأخبرت الفلسطينيين وأنامته عَلَى ركبتيها وحلقت خُصَل شعره، فضاعت قُوَّته وقبض عَلَيْهِ الفلسطينيون وقلعوا عينيه وأوثقوه بسلاسل نحاس وكَانَ يطحن في بَيْت السجن.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Les chefs des Philistins étaient réunis pour offrir un grand sacrifice a Dagon leur dieu, et pour se réjouir. Ils disaient « Dieu a livré à nos mains Samson nôtre ennemi ». Ils le firent venir pour qu’il les divertisse et le placèrent entre les colonnes. Or ses cheveux commençaient à pousser. Alors, il invoqua le Seigneur en disant : « Souviens-Toi de moi, et rends-moi encore une fois mes forces, ô mon Dieu ! Qu'une fois au moins je tire vengeance des Philistins, pour mes deux yeux. » Alors il saisit les deux colonnes du milieu et s’écria : « Mort à moi et aux Philistins ! » Et le temple s’écroula sur tous ceux qui s’y trouvait et plus de trois mille hommes moururent en même temps que Samson.", 
-  "", 
-  ],
-  [
-  Prefix.same+"&C=NoActor", 
-  "Ses frères vinrent le prendre et ils l’ensevelirent entre Soréa et Eshtaol, dans le sépulcre de Manoah son père.", 
-  "", 
+  "Les chefs des Philistins étaient réunis pour offrir un grand sacrifice a Dagon leur dieu, et pour se réjouir. Ils disaient « Dieu a livré à nos mains Samson nôtre ennemi ». Ils le firent venir pour qu’il les divertisse et le placèrent entre les colonnes. Or ses cheveux commençaient à pousser. Alors, il invoqua le Seigneur en disant : « Souviens-Toi de moi, et rends-moi encore une fois mes forces, ô mon Dieu ! Qu'une fois au moins je tire vengeance des Philistins, pour mes deux yeux. » Alors il saisit les deux colonnes du milieu et s’écria : « Mort à moi et aux Philistins ! » Et le temple s’écroula sur tous ceux qui s’y trouvait et plus de trois mille hommes moururent en même temps que Samson. Ses frères vinrent le prendre et ils l’ensevelirent entre Soréa et Eshtaol, dans le sépulcre de Manoah son père.", 
+  "اجْتَمَعَ أقطاب الفلسطينيين ليذبحوا لإلههم داجون، وقَالَوا: \"قَدْ دفع إلهنا ليدنا شمشون عدوَّنا\". ثُمَّ دعوا شمشون من بَيْت السجن وأوقفوه بَيْنَ الأعمدة ليلعب أمامهم وكَانَ قَدْ نبت شعره. فدعا الرَّبْ وقَالَ: \"اُذكرني وشددني يا الله هَذِهِ المرة فقط، فأنتقم نقمة واحدة عَن عينيَّ مِنَ الفلسطينيين\". وقبض عَلَى العمودين المتوسطين وقَالَ: :لتمت نفسي مَعَ الفلسطينيين\". فسقط البيت ومات ثَلاثَةْ آلاف رجل. ومات شمشون. فنزل إخوته وصعدوا بِهِ ودَفَنُوهُ في قبر منوح أبيه (قض 16: 1 – الخ).", 
   ],
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de ses prières soit avec nous. Amen !", 
-  "",
+  "بركته المُقَدَّسَةْ فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Nous commémorons aussi aujourd’hui la translation des reliques de saint Jacques le persan surnommé l’Intercis (يعقوب الفارسي المعروف بالمقَطَّع).", 
-  "", 
-  ],
-  [
-  Prefix.same+"&C=NoActor", 
-  "Celles-ci se trouvaient à Gaza et furent transférées en Egypte où elles furent déposées dans une église construite à son nom au vieux Caire. L’histoire de sa vie et de son martyre se trouve dans le Synaxaire du 27 Athor.", 
-  "", 
+  "Nous commémorons aussi aujourd’hui la translation des reliques de saint Jacques le persan surnommé l’Intercis (يعقوب الفارسي المعروف بالمقَطَّع). Celles-ci se trouvaient à Gaza et furent transférées en Egypte où elles furent déposées dans une église construite à son nom au vieux Caire. L’histoire de sa vie et de son martyre se trouve dans le Synaxaire du 27 Athor.", 
+  "وفيه أيْضَاً تَمَّ نَقْلِ جَسَدِ القِدّيسْ يَعْقُوبْ الفارسي الشهير بالمقطَّع من مدينة غزة إلى ديار مِصْرْ حَيْثُ بُنيت عَلَى اسْمِهِ كِنِيسَةْ بمِصْرَ القَدِيمَةِِ ووُضع جسدُه فيها، وتجد خبر استشهاده تحت يوم 27 هاتور.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de ses prières soit avec nous et gloire soit à nôtre Seigneur, éternellement. Amen !", 
-  "", 
+  "بَرَكِةْ صَلَواتُهُ فَلْتَكُنْ مَعْنَا، ولِرَبِنَا المَجْدْ دائِمَاً أبَدِيَّاً آمْينْ.", 
   ],
   ],
   [
   [
   Prefix.synaxarium+"&D=0108&C=Title", 
-  "1 Parmouté\n1) décès de saint Silvain, le moine ;\n2) Décès d'Aaron le prêtre", 
+  "1 Parmouté\n1) décès de saint Silvain, le moine ;\n2) Décès d'Aaron le prêtre ;\n3) Attaque du désert de Scété par les bédouins de haute Egypte", 
   "1 برمودة\nنِيَاحَةْ القِدّيسْ سلوانس الراهب\nنِيَاحَةْ هارون الكاهن\nتِذْكَارْ غارة عُربان الصَعِيدِ عَلَى بَرِّيَّةِ شِيهِيتْ", 
   ],
   [
@@ -14769,7 +14759,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Un jour il entra en extase et tomba prosterné sur le visage. Longtemps après il se leva et les frères l’interrogèrent pour qu’il leur dise ce qui s’était passé. Il leur expliqua : \"J’ai été ravi au paradis et j’y ai vu un grand nombre de séculiers (علمانيين). Après cela j’ai été emmené au lieu des tourments et j’ai constaté qu’un grand nombre de moines y étaient conduits. Ceci m’attrista et je pleurais jusqu’à ce qu’un ange de lumière vint me dire : \"Ecoute-moi afin que je t’explique ce que tu viens de voir. Les moines que tu as vus aux enfers sont ceux qui se laissèrent attirés par l’acquisition des biens et par l’obstination en délaissant la louange de Dieu et la lecture de la Bible. Quant aux séculiers qui se trouvèrent au paradis sont ceux qui rendent grâce à Dieu et patientent dans toutes leurs difficultés. »", 
+  "Un jour il entra en extase et tomba prosterné sur le visage. Longtemps après il se leva et les frères l’interrogèrent pour qu’il leur dise ce qui s’était passé. Il leur expliqua : \"J’ai été ravi au paradis et j’y ai vu un grand nombre de séculiers (علمانيين). Après cela j’ai été emmené au lieu des tourments et j’ai constaté qu’un grand nombre de moines y étaient conduits. Ceci m’attrista et je pleurais jusqu’à ce qu’un ange de lumière vint me dire : \"Ecoute-moi afin que je t’explique ce que tu viens de voir. Les moines que tu as vus aux enfers sont ceux qui se laissèrent attirés par l’acquisition des biens et par l’obstination en délaissant la louange de Dieu et la lecture de la Bible. Quant aux séculiers qui se trouvèrent au paradis sont ceux qui rendent grâce à Dieu et patientent dans toutes leurs difficultés.", 
   "وفي أحَدْ الأَيَّامْ سقط عَلَى وجهه وظل هكذا لفترة طويلة. ولَمَّا رفع رأسه، سأله إخوته بإلحاح أَنَّ يحكى لَهُمْ ما حَدَثَ معه. فَقَالَ لَهُمْ اختُطف عقلي إلى الفردوس فرأيتُ هُناَكَ كَثِيراً مِنَ العِلمانيين، وبعدها مضوا بي إلى مواضع العذاب فرأيتُ كَثِيراً مِنَ الرُهْبانْ يُساقون إلى هناك. فَلَمَّا رأيت ذَلِكْ بكيت. فأتى إلىَّ مَلاك نوراني وقَالَ لي: 'اسمع منى لأُعرِّفك حقيقة ما رأيتَ، الرُهْبانْ الّذِينَ يساقون إلى الجحيم هُمْ الّذِينَ دفعوا ذواتهم إلى مَحَبَّةِ القنية والتمسك برأيهم وتركوا عنهم تسبيح الله وقراءة كتابه المقدس، وأما العلْمانيون الّذِينَ مضوا إلى النعيم فهم الصابرون الشاكرون لِلْرَبِّ عَلَى كُلَّ ما يحدث لهم'.", 
   ],
   [
@@ -14779,7 +14769,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Un jour, un moine arriva au monastère et vit les moines absorbés par leur travail manuel. Il leur dit : \"Ne travaillez pas pour la nourriture qui se perd, en effet il est écrit : \"Marie a choisi la meilleure part : elle ne lui sera pas enlevée. » Quand l'ancien l'entendit il dit à un de ses disciples : \"Donne à ce frère un livre et installe-le dans sa cellule. » Lorsque vint l’heure du repas les moines se mirent à table sans inviter ce frère. Celui-ci finit par sortir de sa cellule et demanda au saint : \"Pourquoi donc ne m'as-tu pas convié à manger avec eux ? » Il lui répondit : \"Tu es un homme spirituel qui n’a pas besoin de nourriture. Quant à nous, nous travaillons pour pouvoir manger. » Ce frère sut alors qu'il s'était trompé. Il se prosterna en demandant pardon. Le père lui dit alors : \"Mon fils, Marie a forcément besoin de Marthe puisque Marie a été louée par l’intermédiaire de Marthe. » Ce frère apprit la leçon.", 
+  "Un jour, un moine arriva au monastère et vit les moines absorbés par leur travail manuel. Il leur dit : « Ne travaillez pas pour la nourriture qui se perd »., En effet il est écrit : « Marie a choisi la meilleure part : elle ne lui sera pas enlevée ». Quand l'ancien l'entendit il dit à un de ses disciples : « Donne à ce frère un livre et installe-le dans sa cellule ». Lorsque vint l’heure du repas les moines se mirent à table sans inviter ce frère. Celui-ci finit par sortir de sa cellule et demanda au saint : « Pourquoi donc ne m'as-tu pas convié à manger avec eux ? Il lui répondit : « Tu es un homme spirituel qui n’a pas besoin de nourriture. Quant à nous, nous travaillons pour pouvoir manger ». Ce frère sut alors qu'il s'était trompé. Il se prosterna en demandant pardon. Le père lui dit alors : « Mon fils, Marie a forcément besoin de Marthe puisque Marie a été louée par l’intermédiaire de Marthe ». Ce frère apprit la leçon.", 
   "وفي أحَدْ الأَيَّامْ جَاءَ إلى الدير راهب، فوجد الرُهْبانْ يعملون بأيديهم، فَقَالَ لهم: 'لا تعملوا للطعام الفاني فإن مَرْيَمْ اختارت النَصِيبَ الصالح'. فَقَالَ القِدّيسْ لتلميذه: 'أعط الأخ كتاباً وأدخله قلاية'. وفي مَوْعِدِ الطعام، تناول الرُهْبانْ طعامهم دون أَنَّ يدعو ذَلِكْ الرَاهِبْ الضيف، فخَرَجَ من قلايته وسأل القِدِّيْسْ: 'لماذا لَمْ تَدْعُني لتناول الطعام مَعَ الإخْوَةِ؟'. فَقَالَ لَهُ القِدِّيْسْ: 'أنت رَجُلٍ روحاني لا تحتاج إلى الطعام، أما نحن فنعمل لنأكل'. فعلِم الرَاهِبْ أَنَّهُ أخطأ، فضرب ميطانية مُستغفراً. فأجابه القِدِّيْسْ: 'يا بُنىَّ لاَبُدَّ لِمَرْيَمْ أَنَّ تحتاج لمرثا، لِأنَّ بمرثا مُدِحَت مريم'. فانتفع الأخ.", 
   ],
   [
@@ -14846,7 +14836,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Nous commémorons en ce jour le martyre de saint Christophe (خرستوفورس). Ce saint avait une apparence hideuse. Il avait aussi un corps de géant mais son âme était humble et bonne. Lorsqu’il fût arrêté par les soldats de l’empereur païen Dèce (ديسيوس) il leur reprocha la persécution des chrétiens. Alors, le chef des soldats le frappa mais saint Christophe lui dit : \"Si le Christ ne m’avait pas enseigné de ne pas rendre le mal qu’on m’a fait par le mal, je ne craindrais ni toi ni tes soldats. »", 
+  "Nous commémorons en ce jour le martyre de saint Christophe (خرستوفورس). Ce saint avait une apparence hideuse. Il avait aussi un corps de géant mais son âme était humble et bonne. Lorsqu’il fût arrêté par les soldats de l’empereur païen Dèce (ديسيوس) il leur reprocha la persécution des chrétiens. Alors, le chef des soldats le frappa mais saint Christophe lui dit : \"Si le Christ ne m’avait pas enseigné de ne pas rendre le mal qu’on m’a fait par le mal, je ne craindrais ni toi ni tes soldats.", 
   "في مِثْلِ هَذَا اليَومْ اسْتَشْهَدَ القِدّيسْ خرستوفورس، وكَانَ هَذَا القِدّيسْ ذا هيئة ضخمة مخيفة وجسم كجسم الجبابرة. ولَكِنَّ نَفْسَهُ كَانَتْ وديعة صالحة. ولَمَّا وقع أسيراً في يَدِّ جند الإمبراطور ديسيوس الوثني، أَخَذَ يُوبِّخ الجُنْدِ عَلَى تعذيبهم للمسيحيين. فضربه رئيس الجند. فَقَالَ لَهُ القِدِّيْسْ: ' لولا وصية المَسِيحْ التي تُعلِّمني ألا أقابل الإساءة بمثلها، لِما كُنتَ أنت وجنودك تُحسَبون شيئاً أمامي'.", 
   ],
   [
@@ -14877,7 +14867,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "A son époque, quelques voyous s’attaquèrent aux coptes et détruisirent des églises. Le sultan Muhammad ben Qalâ'ûn (محمد بن قلاوون) voulut punir ceux qui avaient déclenché cette émeute mais les princes mamelouks le calmèrent en prétendant que cette destruction avait été ordonnée par Dieu. En effet, ceux-ci convoitaient les biens des coptes et leurs terrains. Un mois plus tard, un incendie se déclencha et l’on accusa les coptes de l’avoir allumé pour se venger de la destruction des églises. Le sultan convoqua le pape et lui présenta trois chrétiens qui avaient avoué avoir mis le feu. Le pape pleura en disant que le christianisme nous apprend l’amour et le pardon. Toutefois Dieu voulut disculper les coptes et il fût prouvé que les incendiaires n’en faisaient pas partie.", 
-  "وفي أيَّامَهُ استثار أحَدْ العامة الغوغاء ضِدَ الأقباط فدمروا الكَنَائِسْ وكَانَ السلطان محمد بن قلاوون يرغب في معاقبة مُسبـبي الفتنة. ولَكِنَّ الأمراء المماليك هدأوا ثورته بادعائهم أَنَّ هَذَا التخريب بِأمْرِ الله. وقَدْ طمع المماليك والأمراء في أموال وأوقاف الأقباط. وبَعْدَ مرور شهر اشتعلت حرائق كثيرة، فاتهموا الأقباط بإضرامها انتقاماً مِنْهُمْ لما تهدم مِنَ الكنائس. فاستدعى السلطان البابا، وقدم لَهُ ثَلاثَةْ مِنَ المَسِيحِيّينْ اعترفوا بأنهم أشعلوا النار. فبكى البابا وقَالَ ' إن المَسِيحِيَّةْ تأمرنا بالمحبة والتسامح '. ولَكِنَّ الله أرَادَ تبرئة الأقباط من هَذِهِ التهمة، إذ قَدْ ثبت أَنَّ المتسببين في الحريق كانوا من غير الأقباط.", 
+  "وفي أيَّامَهُ استثار أحَدْ العامة الغوغاء ضِدَ الأقباط فدمروا الكَنَائِسْ وكَانَ السلطان محمد بن قلاوون يرغب في معاقبة مُسبـبي الفتنة. ولَكِنَّ الأمراء المماليك هدأوا ثورته بادعائهم أَنَّ هَذَا التخريب بِأمْرِ الله. وقَدْ طمع المماليك والأمراء في أموال وأوقاف الأقباط. وبَعْدَ مرور شهر اشتعلت حرائق كثيرة، فاتهموا الأقباط بإضرامها انتقاماً مِنْهُمْ لما تهدم مِنَ الكنائس. فاستدعى السلطان البابا، وقدم لَهُ ثَلاثَةْ مِنَ المَسِيحِيّينْ اعترفوا بأنهم أشعلوا النار. فبكى البابا وقَالَ ' إن المَسِيحِيَّةْ تأمرنا بالمحبة والتسامح '. ولَكِنَّ الله أرَادَ تبرئة الأقباط من هَذِهِ التهمة، إذ قَدْ ثبت أَنَّ المتسببين في الحريق كَانُوا من غير الأقباط.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -14966,7 +14956,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Ces saints vécurent à l’époque de l’empereur Constantin le grand (الملك قسطنطين الكبير) et de son fils qui avaient détruits plusieurs temples païens et les avaient convertis en églises. Lorsque Julien l’apostat (يوليانوس الجاحد) prit les rênes du pouvoir, il institua à nouveau le culte des idoles et il tua un grand nombre de chrétiens.", 
-  "هؤلاء الّذِينَ كانوا في زمان المَلِكْ قسطنطين الكبير وابنه من بعده. وقَدْ هدموا معابد وثنية وحولوها إلى كنائس. وبَعْدَ أَنْ تملك يوليانوس الجاحد، عضد عبادة الأَوْثَانَ، وقتل عدداً كبيراً مِنَ المَسِيحِيِّين.", 
+  "هؤلاء الّذِينَ كَانُوا في زمان المَلِكْ قسطنطين الكبير وابنه من بعده. وقَدْ هدموا معابد وثنية وحولوها إلى كنائس. وبَعْدَ أَنْ تملك يوليانوس الجاحد، عضد عبادة الأَوْثَانَ، وقتل عدداً كبيراً مِنَ المَسِيحِيِّين.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -15001,7 +14991,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Lorsqu’il avança en âge et qu’approcha l’heure de son décès, il réunit ses disciples, les bénit et les consola. L’un de ceux-ci vit un ange emporter l’âme du saint. Celui-ci fit une courte prière et rendit l’âme entre les mains du Seigneur qu’il avait tant aimé. Sa cellule fût remplie d’une bonne odeur d’encens. Ses disciples prièrent sur sa dépouille et l’enterrèrent dans son monastère proche de Nisibe. Ce monastère portant le nom de Mâr-Eugine (دير مار أوكين أو مار أوجين) se trouve toujours sur le flan du mont al-Azal (جبل الأزل) proche de cette ville et appartient à l’Église Syriaque orthodoxe (السريان الأرثوذكس).", 
-  "ولما شاخ وقرب مَوْعِدِ نِيَاحَتِهِ جمع تلاميذه وباركهم وعزاهم، ورأى أحَدْ تلاميذه ملاكاً قَدْ حضر لأَخَذَ روحه. فصلى القِدّيسْ صلاة قصيرة، وأسلم رُوحَهُ بيد الرَّبْ الذي أحبه، وامتلأت القلاية من رائحة طيب زكى. فصلى عَلَيْهِ تلاميذه، ودَفَنُوهُ في دَيْرِهِ بقرب نصيبين. وما زال دير مِارِ أوكين (مار أوجين) موجوداً في سفح جبل الأزل المطل عَلَى نصيبين، وهْوَ تابع لكنيسة السِرّْيانْ الأرثوذكس.", 
+  "ولما شاخ وقرب مَوْعِدِ نِيَاحَتِهِ جمع تلاميذه وباركهم وعزاهم، ورأى أحَدْ تلاميذه ملاكاً قَدْ حَضَرَ لأَخَذَ روحه. فصلى القِدّيسْ صلاة قصيرة، وأسلم رُوحَهُ بيد الرَّبْ الذي أحبه، وامتلأت القلاية من رائحة طيب زكى. فصلى عَلَيْهِ تلاميذه، ودَفَنُوهُ في دَيْرِهِ بقرب نصيبين. وما زال دير مِارِ أوكين (مار أوجين) موجوداً في سفح جبل الأزل المطل عَلَى نصيبين، وهْوَ تابع لكنيسة السِرّْيانْ الأرثوذكس.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -15032,7 +15022,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Ezéchiel annonça aussi la résurrection de la chair. Enfin, il prédit aussi l’avènement du Sauveur Qui naîtra de la sainte Marie qui demeura Vierge puisqu’il dit : \"Cette porte restera fermée, et jamais elle ne sera ouverte, et nui n’y passera ; parce que le Seigneur Dieu d'Israël entrera par cette porte, et elle sera fermée pour tout autre. »", 
+  "Ezéchiel annonça aussi la résurrection de la chair. Enfin, il prédit aussi l’avènement du Sauveur Qui naîtra de la sainte Marie qui demeura Vierge puisqu’il dit : \"Cette porte restera fermée, et jamais elle ne sera ouverte, et nui n’y passera ; parce que le Seigneur Dieu d'Israël entrera par cette porte, et elle sera fermée pour tout autre.", 
   "ثم تَنَبَأ عَن قيامة الأجساد (حز 37: 1 – 14). وأخيراً تَنَبَأ عَن ميلاد المُخَلِّصْ مِنَ القِدِّيسَةْ مَرْيَمْ وبقاء بتوليتها مختومة، إذ قَالَ 'هذا الباب يَكُونَ مُغلَقاً لا يفتح ولا يدخل مِنْهُ إنْسَانْ لِأنَّ الرَّبْ إله إسْرائِيلْ دخل مِنْهُ، فيكون مُغلَقاً' (حز 44: 2، 3).", 
   ],
   [
@@ -15058,7 +15048,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "En 325 après Jésus Christ, saint Hypatius participa au concile de Nicée (مجمع نيقية). Sur le chemin du retour après la fin des travaux de ce concile, il fût attaqué par un groupe d’hérétiques qui le lapidèrent à mort et jetèrent sa dépouille dans une grange. Lorsque les fidèles de Gangre apprirent cela, ils se rendirent à l’endroit où se trouvait sa dépouille et la ramenèrent avec eux pour l’enterrer dans la ville avec beaucoup de respect.", 
-  "وقد حضر هَذَا الأبْ مَجْمَعَ نيقية سَنَةْ 325م وبَعْدَ انْتْهَاءِ جلسات المجمع، وفِيمَا هُوَ عائد إلى بَلَدِهِ خَرَجَ عَلَيْهِ فريق مِنَ الهراطقة، ووثبوا عَلَيْهِ ورجموه بالحجارة ثُمَّ طرحوا جَسَدَهُ في مخزن تبن. فَلَمَّا عَلِمَ أهالي غنغرة أسرعوا إلى مَكَانِ الجَسَدْ ونقلوه حَيْثُ دفنوه بِإكْرَامٍ عظيم.", 
+  "وقد حَضَرَ هَذَا الأبْ مَجْمَعَ نيقية سَنَةْ 325م وبَعْدَ انْتْهَاءِ جلسات المجمع، وفِيمَا هُوَ عائد إلى بَلَدِهِ خَرَجَ عَلَيْهِ فريق مِنَ الهراطقة، ووثبوا عَلَيْهِ ورجموه بالحجارة ثُمَّ طرحوا جَسَدَهُ في مخزن تبن. فَلَمَّا عَلِمَ أهالي غنغرة أسرعوا إلى مَكَانِ الجَسَدْ ونقلوه حَيْثُ دفنوه بِإكْرَامٍ عظيم.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -15084,7 +15074,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Ensuite, elle se tint devant l’icône de la sainte Vierge et lui demanda d’intercéder en sa faveur. Elle entendit alors une voie émanant de l’icône lui dire : \"Traverse le Jourdain et tu trouveras un endroit pour obtenir le Salut ».", 
+  "Ensuite, elle se tint devant l’icône de la sainte Vierge et lui demanda d’intercéder en sa faveur. Elle entendit alors une voie émanant de l’icône lui dire : \"Traverse le Jourdain et tu trouveras un endroit pour obtenir le Salut .", 
   "ووقفت أمَامَ أيقونة القِدِّيسَةْ العَذْرَاءْ وطلبت شفاعتها. عندئذ سَمِعَتْ صوتاً مِنَ الأيقونة يقول: 'اُعبري الأردن تجدي مَكَاناً لخلاصك'.", 
   ],
   [
@@ -15099,7 +15089,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Après quarante-cinq années d’errance dans le désert, un prêtre nommé Zosime (زوسيما) se rendit à cet endroit pendant le carême pour y faire une retraite selon la coutume des moines. Sur le chemin du retour, il vit cette sainte de loin et crut, en premier lieu, que c’était un mirage. Il pria, alors, Dieu pour qu’Il lui fasse savoir ce dont il s’agissait puis il comprit qu’il s’agissait d’un être humain. Il voulut la rejoindre mais elle fuyait et se cacha derrière un rocher. Alors, elle l’interpella en disant : \"Père Zosime, si tu veux t’entretenir avec moi, lance-moi d’abord un vêtement pour que je puisse couvrir ma nudité. ». Il fût surpris qu’elle l’appelle par son nom et il lui jeta son manteau pour qu’elle se protège. Enfin, elle lui demanda de la bénir car il était prêtre. Cependant il fût surpris qu’elle sache sa qualité de prêtre et il lui demanda aussi qu’elle le bénisse.", 
+  "Après quarante-cinq années d’errance dans le désert, un prêtre nommé Zosime (زوسيما) se rendit à cet endroit pendant le carême pour y faire une retraite selon la coutume des moines. Sur le chemin du retour, il vit cette sainte de loin et crut, en premier lieu, que c’était un mirage. Il pria, alors, Dieu pour qu’Il lui fasse savoir ce dont il s’agissait puis il comprit qu’il s’agissait d’un être humain. Il voulut la rejoindre mais elle fuyait et se cacha derrière un rocher. Alors, elle l’interpella en disant : \"Père Zosime, si tu veux t’entretenir avec moi, lance-moi d’abord un vêtement pour que je puisse couvrir ma nudité. . Il fût surpris qu’elle l’appelle par son nom et il lui jeta son manteau pour qu’elle se protège. Enfin, elle lui demanda de la bénir car il était prêtre. Cependant il fût surpris qu’elle sache sa qualité de prêtre et il lui demanda aussi qu’elle le bénisse.", 
   "وفي السِنِّة الخامسة والأربعين لسياحتها خَرَجَ القِدّيسْ زوسيما القِسّْ إلى البَرِّيَة حَسَب عَادَةِ الرُهْبانْ في الصوم الكبير للاختلاء والتنسك. وقرب نهاية الصوم رَأَى في طَرِيقِ عودته هَذِهِ القِدِّيسَةْ فظنها خيالاً، فهربت مِنْهُ فجرى وراءها حَتَّى اختبأت وراء صخرة. فخاطبته قائلة: 'يا أبي زوسيما سامحني وإن شئت أَنَّ تخاطبني فاترك شيئاً أستتر بِهِ لأني عارية'. فتعجب إذ دعته بِاسْمِهِ. ورمى لَهَا رداءه فاستترت به. وطلبت مِنْهُ أَنَّ يباركها لِأَنَّهُ كَانَ كاهناً. فتعجب من معرفتها بكهنوته، ولَمْ يتمالك نَفْسَهُ وطَلَبَ مِنْهُا أَنَّ تباركه.", 
   ],
   [
@@ -15109,8 +15099,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "L'année d'après, Zosime revint et trouva qu’elle était décédée en étant prosternée. se Il trouvât près d’elle une inscription disant : \"Père Zosime, enterre ici le corps de la pauvre Marie. Laisse à la terre ce corps qui a péché et prie pour moi. ».", 
-  "وفي الميعاد المُحَدَّد مِنَ العام التالي حضر القِدّيسْ زوسيما، فوجدها قَدْ تنيَّحت وهي ساجدة، فصلى عَلَيْهَا ووجد عِنْدَ رأسها مكتوباً ' يا أبى زوسيما ادفن هنا جَسَد مَرْيَمْ البائسة واترك للتراب جَسَدِ الخطية هذا، وَصَلَ من أجلى'.", 
+  "L'année d'après, Zosime revint et trouva qu’elle était décédée en étant prosternée. se Il trouvât près d’elle une inscription disant : \"Père Zosime, enterre ici le corps de la pauvre Marie. Laisse à la terre ce corps qui a péché et prie pour moi. .", 
+  "وفي الميعاد المُحَدَّد مِنَ العام التالي حَضَرَ القِدّيسْ زوسيما، فوجدها قَدْ تنيَّحت وهي ساجدة، فصلى عَلَيْهَا ووجد عِنْدَ رأسها مكتوباً ' يا أبى زوسيما ادفن هنا جَسَد مَرْيَمْ البائسة واترك للتراب جَسَدِ الخطية هذا، وَصَلَ من أجلى'.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -15215,7 +15205,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=0908&C=Title", 
-  "9 Parmouté\n1) Décès de saint Zosime, le prêtre ;\n2) Commémoration du grand miracle que Dieu accomplit par l’intermédiaire du pape Chénouda 1er, le 55ème patriarche", 
+  "9 Parmouté\n1) Décès de saint Zosime, le prêtre ;\n2) Commémoration du grand miracle que Dieu accomplit par l’intermédiaire du pape Chénouda 1er", 
   "9 برمودة\nنِيَاحَةْ القِدّيسْ الأنبا زوسيما القس\nتِذْكَارْ الأعجوبة التي صُنعَت عَلَى يَدِِّ القِدّيسْ البابا شنوده الأول", 
   ],
   [
@@ -15250,7 +15240,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "En effet, ce pape avait pris l’habitude de se rendre chaque année au monastère de saint Macaire (دير القِدّيس مكاريوس) pour y célébrer la semaine sainte. Une fois, après qu’il eût terminé la divine liturgie du jeudi saint, les moines partirent pour se rendre dans leurs cellules. Ils furent alors attaqués par les bédouins qui se mirent à les lapider. Effrayés, ils revinrent vers le pape pour lui raconter ce qui se passait. Il les rassura puis prit son bâton qui portait le signe de la croix et sorti à la rencontre des bédouins en disant : \"il est préférable pour moi que je meurs avec le peuple de Dieu. » Lorsque les bédouins le virent sortir seul et sans arme, ils reculèrent et s’enfuirent comme s’ils étaient poursuivis par un grand nombre de soldats. Depuis ce moment-là, ils ne revinrent plus en ce lieu avec de mauvaises intentions.", 
+  "En effet, ce pape avait pris l’habitude de se rendre chaque année au monastère de saint Macaire (دير القِدّيس مكاريوس) pour y célébrer la semaine sainte. Une fois, après qu’il eût terminé la divine liturgie du jeudi saint, les moines partirent pour se rendre dans leurs cellules. Ils furent alors attaqués par les bédouins qui se mirent à les lapider. Effrayés, ils revinrent vers le pape pour lui raconter ce qui se passait. Il les rassura puis prit son bâton qui portait le signe de la croix et sorti à la rencontre des bédouins en disant : \"il est préférable pour moi que je meurs avec le peuple de Dieu. Lorsque les bédouins le virent sortir seul et sans arme, ils reculèrent et s’enfuirent comme s’ils étaient poursuivis par un grand nombre de soldats. Depuis ce moment-là, ils ne revinrent plus en ce lieu avec de mauvaises intentions.", 
   "وهي أَنَّهُ كَانَ لهذا الأبْ الجليل عَادَةِ سنوية، أَنَّ يصعد إلى دَيْرٍ القِدّيسْ مكاريوس ليقضى أسبوع الآلام بالدير. وفي إحدى المرات وبَعْدَ أَنْ صلى قداس خميس العهد، عَادَ الآبَاءِ الرُهْبانْ إلى قلاليهم، عندئذ هجم عليهم البربر ورموهم بالحجارة. فَرَجِعَ الآبَاءِ هاربين إلى البابا ليعرفوه بِمَا حدث، فطمأنهم بكلمات النعمة. ثُمَّ أَخَذَ البابا عكازه الذي عَلَيْهِ علامة الصليب، وخَرَجَ لملاقاة الأعداء قائلاً: 'الأفضل لي أَنَّ أموت مَعَ شعب الله'. وحين رآه البربر خارجاً وحده أعزل مِنَ السلاح، تراجعوا أمَامَ شجاعته النادرة، كأن جنوداً قَدْ صدوهم عَن ذَلِكْ المكان، ولَمْ يعودوا إلَيهِ منذ ذَلِكْ اليَوْم بقَصَدَ رديء.", 
   ],
   [
@@ -15267,12 +15257,12 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Nous commémorons aujourd’hui le décès du père combattant abba Isaac (أنبا ايساك), le disciple d’abba Apollo (أنبا أبُلوس). Ce saint méprisa le monde dès sa jeunesse et il devint moine à Scété. Il fût disciple d’abba Apollo pendant 25 ans pendant lesquels il lutta pour se débarrasser des désirs du corps. Il acquit les vertus du silence et du calme durant les prières De plus, il avait pris l’habitude de demeurer debout silencieux avec les bras croisés et la tête inclinée pendant toute la liturgie eucharistique. Ensuite, il retournait s’enfermer dans sa cellule et ne rencontrait personne ce jour-là. Lorsqu’on lui demanda : \"Pourquoi ne dis-tu rien à personne pendant la prière et la liturgie eucharistique ? » il répondit : \"Il y a un temps pour parler et un autre pour prier. »", 
+  "Nous commémorons aujourd’hui le décès du père combattant abba Isaac (أنبا ايساك), le disciple d’abba Apollo (أنبا أبُلوس). Ce saint méprisa le monde dès sa jeunesse et il devint moine à Scété. Il fût disciple d’abba Apollo pendant 25 ans pendant lesquels il lutta pour se débarrasser des désirs du corps. Il acquit les vertus du silence et du calme durant les prières De plus, il avait pris l’habitude de demeurer debout silencieux avec les bras croisés et la tête inclinée pendant toute la liturgie eucharistique. Ensuite, il retournait s’enfermer dans sa cellule et ne rencontrait personne ce jour-là. Lorsqu’on lui demanda : \"Pourquoi ne dis-tu rien à personne pendant la prière et la liturgie eucharistique ? il répondit : \"Il y a un temps pour parler et un autre pour prier.", 
   "في مِثْلِ هَذَا اليَومْ تَنَيَّحَ الأبْ المُجَاهِد الأنبا إيساك تِلْمِيذْ الأبْ الكبير الأنبا أبُلوس. وقَدْ زهد هَذَا القِدّيسْ العالم منذ صباه. وتَرَّهَبَ في بَرِّيَّةِ شِيهِيتْ عَلَى يَدِِّ الأنبا أبُلوس، مُدَةِ خمس وعشرين سَنَةً، أجهد نَفْسَهُ فِيهَا جهاداً عنيفاً. كَمَا أَنَّهُ أتقن فضيلة الصمت والهدوء أَثْنَاءَ الصلوات والقداسات. وكَانَ من عادته وقت القداس أَنَّ يظل مكتوف اليدين خافضاً رأسه حَتَّى نهاية الصَلاةِ، ثُمَّ يعود إلى قلايته ويُغلق بابها، ولا يقابل أحداً في ذَلِكْ اليَوْم. ولَمَّا سألوه: 'لماذا لا تكلم من يُرِيدُ الكلام معك وقت الصَلاةِ أو القداس'، أجابهم قائلاً: 'للكلام وقت وللصلاة وقت'.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "A l’approche de son décès, les moines se réunirent autour de lui pour recevoir sa bénédiction. Ils en profitèrent pour lui demander : \"pourquoi fuyais-tu les gens ? » Il leur répondit : \"Je ne fuyais pas les gens mais Satan. » et il poursuivit : \"Si quelqu’un tient une lampe allumée dans le vent, elle s’éteint. Nous aussi nos esprits sont éclairés par la prière et la liturgie eucharistique. Cependant, si nous détournons nôtre attention de cela, nos esprits s’obscurciront. » Et lorsqu’il eût accompli son bon combat, il décéda en paix.", 
+  "A l’approche de son décès, les moines se réunirent autour de lui pour recevoir sa bénédiction. Ils en profitèrent pour lui demander : \"pourquoi fuyais-tu les gens ? Il leur répondit : \"Je ne fuyais pas les gens mais Satan. et il poursuivit : \"Si quelqu’un tient une lampe allumée dans le vent, elle s’éteint. Nous aussi nos esprits sont éclairés par la prière et la liturgie eucharistique. Cependant, si nous détournons nôtre attention de cela, nos esprits s’obscurciront. Et lorsqu’il eût accompli son bon combat, il décéda en paix.", 
   "ولما دنا وقت نياحته، اجْتَمَعَ عنده الآبَاءِ الرُهْبانْ لنيل بركته، وسألوه: 'لماذا كنت تهرب مِنَ الناس ؟'، فأجابهم: 'ما كنت أهرب مِنَ الناس بل مِنَ الشيطان، لِأنَّ الإنسان إذا أمسك مصباحاً متقداً في الهواء ينطفئ، وهكذا نحن إذا أضاء عقلنا وقت الصَلاةِ والقداس، ثُمَّ تشاغلنا بالأحاديث، فإن عقلنا يظلم'. ولَمَّا أكْمَلَ جِهَادَهُ الصالح تَنَيَّحَ بِسَلامٍ.", 
   ],
   [
@@ -15297,13 +15287,13 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Après son intronisation, le pape se rendit au monastère de saint Macaire à Scété (دير أنبا مكاريوس بشهيت) et, lorsqu’il célébra liturgie eucharistique, il ajouta dans la prière de la confession finale l’expression : \"Il L’a rendu Un avec sa Divinité. ». Les moines protestèrent à cause de cet ajout mais il leur expliqua que c’était une décision du saint Synode. Il s’en suivit une discussion et, de crainte de tomber dans l’hérésie d’Eutychès (هرطقة أوطاخي), ils lui suggérèrent d’y ajouter l’expression : \"sans confusion, sans mélange, et sans changement. ».", 
+  "Après son intronisation, le pape se rendit au monastère de saint Macaire à Scété (دير أنبا مكاريوس بشهيت) et, lorsqu’il célébra liturgie eucharistique, il ajouta dans la prière de la confession finale l’expression : \"Il L’a rendu Un avec sa Divinité. . Les moines protestèrent à cause de cet ajout mais il leur expliqua que c’était une décision du saint Synode. Il s’en suivit une discussion et, de crainte de tomber dans l’hérésie d’Eutychès (هرطقة أوطاخي), ils lui suggérèrent d’y ajouter l’expression : \"sans confusion, sans mélange, et sans changement. .", 
   "بعد الرسامة ذهب البابا إلى دَيْرٍ أنبا مكاريوس بشيهيت، حَيْثُ صلى القداس الإلهي، وأضاف للاعتراف الأخير النص القائل وجعله واحداً مَعَ لاهوته'. ولَمَّا احتج الآبَاءِ عَلَى ذَلِكَ، أفادهم بِأنَّ هَذَا النص هُوَ قَرَار المَجْمَعْ المقدس. وبَعْدَ التداول طلبوا مِنْهُ إضافة ' بغير اختلاط ولا امتزاج ولا تغيير' خشية الانسياق لهرطقة أوطاخي.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Ce père consacra cinquante-trois évêques et il refusait la simonie (السيمونية). En effet un prêtre nommé Bakirah (بقيرة) souhaitait être sacré évêque sur Akhmîm (أخميم) contre une somme d’argent qu’il aurait versé. Lorsque le pape refusa, ce prêtre alla se plaindre auprès du fils du calife et lui demanda d’appuyer sa demande auprès du pape. Celui-ci écrivit au calife : \"Ma religion m’interdit de sacrer un prêtre qui souhaite obtenir cet honneur contre de l’argent. ». Il fit aussi de grandes choses dont nous pouvons citer :", 
-  "وقد رسم قَدَاسَتِهِ في عهده ثَلاثَةْ وخمسين أسقفاً، وقَدْ رَفَضَ السيمونية في الرسامات، حَتَّى أَنَّهُ حضر إلَيهِ قس يُدْعَى 'بقيرة ' يُرِيدُ رِسَامَتْهُ أُسْقُفَاً عَلَى أَخْمِيمْ نظير مبَلَغَ مِنَ المال. ولَمَّا رَفَضَ البابا مطلبه ذهب القِسّْ إلى ابْنِ الخليفة يطلب وساطته. فكَتَبَ البابا للخليفة قائلاً: 'إن ديني يمنعني من رسامة كَاهِنْ يبغى هَذِهِ الكرامة بالمال'. وقَدْ كَانَ لهذا القِدّيسْ البابا أعمال جليلة مِنْهُا", 
+  "Ce père consacra cinquante-trois évêques et il refusait la simonie (السيمونية). En effet un prêtre nommé Bakirah (بقيرة) souhaitait être sacré évêque sur Akhmîm (أخميم) contre une somme d’argent qu’il aurait versé. Lorsque le pape refusa, ce prêtre alla se plaindre auprès du fils du calife et lui demanda d’appuyer sa demande auprès du pape. Celui-ci écrivit au calife : \"Ma religion m’interdit de sacrer un prêtre qui souhaite obtenir cet honneur contre de l’argent. . Il fit aussi de grandes choses dont nous pouvons citer :", 
+  "وقد رسم قَدَاسَتِهِ في عهده ثَلاثَةْ وخمسين أسقفاً، وقَدْ رَفَضَ السيمونية في الرسامات، حَتَّى أَنَّهُ حَضَرَ إلَيهِ قس يُدْعَى 'بقيرة ' يُرِيدُ رِسَامَتْهُ أُسْقُفَاً عَلَى أَخْمِيمْ نظير مبَلَغَ مِنَ المال. ولَمَّا رَفَضَ البابا مطلبه ذهب القِسّْ إلى ابْنِ الخليفة يطلب وساطته. فكَتَبَ البابا للخليفة قائلاً: 'إن ديني يمنعني من رسامة كَاهِنْ يبغى هَذِهِ الكرامة بالمال'. وقَدْ كَانَ لهذا القِدّيسْ البابا أعمال جليلة مِنْهُا", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -15322,7 +15312,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Après que ce saint eût accompli son devoir, il tomba très malade. Alors, il vit un attroupement de prêtres et de moines portant des Evangiles, des encensoirs et des croix qui lui dirent : \"Tu vas guérir mais nous reviendrons dans un an pour t’emmener avec nous. ». Effectivement abba Gabriel guérit. Il décéda un an plus tard après avoir séjourné sur le trône de saint Marc pendant quatorze années et trois mois. Il fût enseveli et enterré avec beaucoup de respect au monastère à l’église de saint Mercure le détenteur des deux épées (كنيسة الشهيد مرقوريوس أبي سيفين).", 
+  "Après que ce saint eût accompli son devoir, il tomba très malade. Alors, il vit un attroupement de prêtres et de moines portant des Evangiles, des encensoirs et des croix qui lui dirent : \"Tu vas guérir mais nous reviendrons dans un an pour t’emmener avec nous. . Effectivement abba Gabriel guérit. Il décéda un an plus tard après avoir séjourné sur le trône de saint Marc pendant quatorze années et trois mois. Il fût enseveli et enterré avec beaucoup de respect au monastère à l’église de saint Mercure le détenteur des deux épées (كنيسة الشهيد مرقوريوس أبي سيفين).", 
   "وبَعْدَ أَنَّ أدى هَذَا القِدّيسْ واجبه مَرَض مَرَضَاً شديداً. وفي أَثْنَاءَ مرضه، رَأَى في حلم مجموعة مِنَ الكهنة والرهبان يحملون الأناجيل والمجامر والصلبان وسمعهم يقولون: 'ستنال الشفاء ولكننا سنعود إليك بَعْدَ سَنَةْ لنأخذك لتكون معنا'. وفعلاً نال الشفاء. وبَعْدَ سَنَةْ تنيَّح، بَعْدَ أَنَّ قضى عَلَى الكُرْسِي المرقسي أربع عشرة سَنَةْ وثلاثة أشهر. فكفنوه ودَفَنُوهُ بكنيسة الشَهْيد مرقوريوس أبى سيفين.", 
   ],
   [
@@ -15364,7 +15354,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Ni l’ascèse, ni les veillées ni tout autre combat ne peut sauver. Seule la véritable humilité peut le faire. Voyez comment la modestie peut vaincre le démon. Il y avait un ermite qui chassait les démons, celui-ci leur demanda : \"qu’est-ce qui vous fait sortir ? Est-ce le jeûne ? » Ils lui répondirent : \"nous n’avons pas besoin de manger ni de boire. » Ils lui répondirent : \"nous n’avons pas besoin dormir. » Il poursuivit encore : \"Est-ce la retraite du monde ? » Ils lui dirent : \"nous vivons dans les déserts. » Alors il poursuivit : \"Alors, quelle force vous fait sortir ? » Ils lui répondirent : \"Seule la modestie peut nous vaincre. ».", 
+  "Ni l’ascèse, ni les veillées ni tout autre combat ne peut sauver. Seule la véritable humilité peut le faire. Voyez comment la modestie peut vaincre le démon. Il y avait un ermite qui chassait les démons, celui-ci leur demanda : \"qu’est-ce qui vous fait sortir ? Est-ce le jeûne ? Ils lui répondirent : \"nous n’avons pas besoin de manger ni de boire. Ils lui répondirent : \"nous n’avons pas besoin dormir. Il poursuivit encore : \"Est-ce la retraite du monde ? Ils lui dirent : \"nous vivons dans les déserts. Alors il poursuivit : \"Alors, quelle force vous fait sortir ? Ils lui répondirent : \"Seule la modestie peut nous vaincre. .", 
   "لا النُسك ولا السهر ولا أي تعب يقدر أَنَّ يُخَلِّص الإنسان سِوىَ الاتِضَاعِ الحقيقي. فَكَانَ هُناَكَ متوحداً يُخَرَجَ الشياطين، فسألهم: بماذا تَخرُجون؟ هل بالصوم؟ أجابوا نحن لا نأكل ولا نشرب. أبالسهر؟، أجابوا نحن لا ننام، أباعتزال العالم؟ أجابوا نحن نعيش في البراري، عندئذ قَالَ لَهُمْ بأية قوة تخرجون؟ قَالَوا ليس شيء يغلبنا سِوىَ الاتضاع. انظروا كَيْفَ يغلب الاتِضَاعِ الشياطين.", 
   ],
   [
@@ -15374,7 +15364,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Un homme avait insulté une personne pieuse. Celui-ci lui répondit : \"j’aurais pu te répondre comme tu m’as parlé mais la Loi de Dieu me ferme la bouche ».", 
+  "Un homme avait insulté une personne pieuse. Celui-ci lui répondit : \"j’aurais pu te répondre comme tu m’as parlé mais la Loi de Dieu me ferme la bouche .", 
   "حدث أَنَّ إنْسَانْاً شتم إنْسَانْاً تقياً. فأجابه: ' كنت قادراً أَنَّ أجيبك بِمَا يوافق كلامك، لكن ناموس الله يغلق فمي'.", 
   ],
   [
@@ -15384,7 +15374,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Il y avait un moine qui, à la suite d’une foule de tentations, dit : \"Je m’en vais d’ici. » Et comme il prenait ses sandales, il vit un homme qui mettait, lui aussi, les siennes. Il lui demanda : \"Où vas-tu ? » L’autre lui répondit : \"Je vais là où tu iras. En effet je suis ici à cause de toi et je marcherai devant toi partout où tu iras. » Alors, le moine resta à sa place.", 
+  "Il y avait un moine qui, à la suite d’une foule de tentations, dit : \"Je m’en vais d’ici. Et comme il prenait ses sandales, il vit un homme qui mettait, lui aussi, les siennes. Il lui demanda : \"Où vas-tu ? L’autre lui répondit : \"Je vais là où tu iras. En effet je suis ici à cause de toi et je marcherai devant toi partout où tu iras. Alors, le moine resta à sa place.", 
   "قَالَ رَاهِبْ من شدة التجارب التي تلاحقه 'لنترك هَذَا المكان'. وعِنْدَمَا ابتدأ يلبس حذاءه، رَأَى شخصاً يلبس حذاءه أيضاً. فَقَالَ لَهُ 'إلى أين أنت ماض أيضاً؟ '، أجَابَهُ 'إلى الموضع الذي أنت ماض إليه، لأني من أجلك أنا مقيم في هَذَا المَوْضِعِ. فإن أردت الانتقَالَ من ههنا فسوف أنتقل بدوري، لأني ملازم لك حَيْثُمَا سكنت. فمكث الرَاهِبْ في مَكَانِهِ ولَمْ يغيره.", 
   ],
   [
@@ -15394,12 +15384,12 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "\"Efforçons-nous d’entrer par la porte étroite car nous sommes similaires à l’arbre qui ne peut porter de fruit que s’il affronte les tempêtes de l’hiver. En effet, ce monde est, pour nous, un hiver tempétueux et nous ne pourrons gagner le royaume des cieux qu’en affrontant les difficultés et les épreuves. ».", 
+  "\"Efforçons-nous d’entrer par la porte étroite car nous sommes similaires à l’arbre qui ne peut porter de fruit que s’il affronte les tempêtes de l’hiver. En effet, ce monde est, pour nous, un hiver tempétueux et nous ne pourrons gagner le royaume des cieux qu’en affrontant les difficultés et les épreuves. .", 
   "لنجاهد أَنَّ ندخل مِنَ الباب الضيق، لِأَنَّهُ كَمَا أَنَّ الشجرة إذا لَمْ تتعرض لعواصف الشتاء لا يمكنها أَنَّ تأتى بثمر، هكذا الحال بِالنِسْبَةِ لَنا أيضاً. هَذَا الدهر شتاء عاصف، فَقَطْ بالضيقات والتجارب المتنوعة يمكننا أَنَّ نرث ملكوت الله.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Sainte Théodora demanda au pape Théophile de lui expliquer la parole de saint Paul: \"sachez tirer parti de la période présente » Le pape lui répondit : \"ce verset signifie que nous devons profiter de tout nôtre temps. Par exemple, si on est dans un moment d’humiliation, il faut en profiter par l’humilité et la patience. Si on est dans une phase de mépris (هوان) on peut en tirer parti par l’endurance. Ainsi toutes les périodes d’adversité et de difficulté peuvent être converties en bénéfice si nous le voulons. ».", 
+  "Sainte Théodora demanda au pape Théophile de lui expliquer la parole de saint Paul: \"sachez tirer parti de la période présente Le pape lui répondit : \"ce verset signifie que nous devons profiter de tout nôtre temps. Par exemple, si on est dans un moment d’humiliation, il faut en profiter par l’humilité et la patience. Si on est dans une phase de mépris (هوان) on peut en tirer parti par l’endurance. Ainsi toutes les périodes d’adversité et de difficulté peuvent être converties en bénéfice si nous le voulons. .", 
   "هذا وقَدْ سألت هَذِهِ القِدِّيسَةْ البابا ثاؤفيلس عَن قول الرسول بولس: 'مفتدين الوقت' (كو 4:5)، فأجابها: 'هذا القول يظهر لنا كَيْفَ نربح كُلَّ أوقاتنا. كمثال، إن كنت في وقت إهانة، اربحي وقت الإهانة بالاتضاع والصبر وانتفعي مِنْهُ، إنه وقت هوان أقتنيه بالصبر واربحيه. هكذا كُلَّ الأمور المضادة لنا يمكننا – إن أردنا – أَنَّ نصيرها ربحاً لنا'.", 
   ],
   [
@@ -15426,7 +15416,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=1208&C=Title", 
-  "12 Parmouté\n1) Commémoration de l’archange Michel ;\n2) Décès de saint Alexandre le confesseur, l’évêque de Jérusalem ;\n2) Décès de saint Antoine, l’évêque de Thmoui", 
+  "12 Parmouté\n1) Commémoration de l’archange Michel ;\n2) Décès de saint Alexandre le confesseur, l’évêque de Jérusalem ;\n3) Décès de saint Antoine, l’évêque de Thmoui", 
   "12 برمودة\nتِذْكَارْ رئيس الملائكة الجليل ميخائيل\nنِيَاحَةْ القِدّيسْ ألكسندروس المعترف أُسْقُفْ أورشليم\nنِيَاحَةْ القِدّيسْ أنطونيوس أُسْقُفْ طمويه", 
   ],
   [
@@ -15581,7 +15571,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "En ce jour de l’an 105 des martyrs (389 après Jésus Christ) décéda saint Ehrôn de Séroug le syriaque (القديس إهرون السرياني). Ce saint naquit à Séroug (سروج) en Mésopotamie (ما بين النهرين) de parents chrétiens. Ceux-ci étaient pieux et ils lui donnèrent une bonne éducation chrétienne conforme aux prescriptions de l’Evangile. En conséquence, il fût attiré par la prière et l’adoration de Dieu dès sa prime jeunesse. A l’adolescence, il gardait le troupeau de son père avec les autres bergers. A proximité du lieu de son pâturage, il y avait un monastère où le jeune homme se rendit et constata la vertu des moines. Il entendit leurs prières et fût attiré par leur vie. Ensuite, il demanda à l’abbé du monastère de le recevoir. Celui-ci fût satisfait par cette demande et lui prédit qu’il sera une source de nombreuses bénédictions. Il demeura dans le monastère plusieurs années puis s’installa dans une grotte à proximité pendant trois ans.", 
-  "وفيه أيْضَاً مِنْ سَنَةْ 105 لِلْشُهَداءِ (389م)، تَنَيَّحَ القِدّيسْ إهرون السروجي السِرّْيانْي. وُلِدَ هَذَا القِدّيسْ في سروج في بِلادْ ما بَيْنَ النهرين مِنْ أَبَوينِ مَسيحِيَّيْنْ تقيين، فربياه تَرْبِيَةً مِسِيحِيَّةْ وعَلَّمَاهُ الآداب الإنجيلية، فأحب منذ صغره حَيَاةِ الصَلاةِ والعبادة. ولَمَّا أَصْبَحَ شاباً خَرَجَ مَعَ الرعاة ليرعى غنم أبيه، وهُنَاكَ أَبْصَرَ ديراً بِهِ رهبان فذهب إلَيهِ ورأى الرُهْبانْ كَيْفَ كانوا كاملين في الفضيلة والعبادة، وأصغى إلى صلواتهم، فأعجب بهذه الحياة وطَلَبَ من رئيس الدير أَنَّ يقبله، ففرح بِهِ وقبله وتَنَبَأَ لَهُ أَنَّهُ سَيَكُونُ بركة لكثيرين. مكث في الدير عدة سنوات في الجهاد والعبادة ثُمَّ خَرَجَ وسكن في مغارة بالجبل القَرِيبِ مِنْ الدير ثلاث سنوات.", 
+  "وفيه أيْضَاً مِنْ سَنَةْ 105 لِلْشُهَداءِ (389م)، تَنَيَّحَ القِدّيسْ إهرون السروجي السِرّْيانْي. وُلِدَ هَذَا القِدّيسْ في سروج في بِلادْ ما بَيْنَ النهرين مِنْ أَبَوينِ مَسيحِيَّيْنْ تقيين، فربياه تَرْبِيَةً مِسِيحِيَّةْ وعَلَّمَاهُ الآداب الإنجيلية، فأحب منذ صغره حَيَاةِ الصَلاةِ والعبادة. ولَمَّا أَصْبَحَ شاباً خَرَجَ مَعَ الرعاة ليرعى غنم أبيه، وهُنَاكَ أَبْصَرَ ديراً بِهِ رهبان فذهب إلَيهِ ورأى الرُهْبانْ كَيْفَ كَانُوا كاملين في الفضيلة والعبادة، وأصغى إلى صلواتهم، فأعجب بهذه الحياة وطَلَبَ من رئيس الدير أَنَّ يقبله، ففرح بِهِ وقبله وتَنَبَأَ لَهُ أَنَّهُ سَيَكُونُ بركة لكثيرين. مكث في الدير عدة سنوات في الجهاد والعبادة ثُمَّ خَرَجَ وسكن في مغارة بالجبل القَرِيبِ مِنْ الدير ثلاث سنوات.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -15607,7 +15597,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Nous commémorons aujourd’hui la consécration de l’église de saint Agabus (أغابوس), l’un des soixante-dix disciples. Ce saint avait prédit ce que devait subir l’apôtre saint Paul en disant : \"L’homme à qui appartient cette ceinture, les Juifs le ligoteront de la sorte à Jérusalem et le livreront aux mains des nations. ».", 
+  "Nous commémorons aujourd’hui la consécration de l’église de saint Agabus (أغابوس), l’un des soixante-dix disciples. Ce saint avait prédit ce que devait subir l’apôtre saint Paul en disant : \"L’homme à qui appartient cette ceinture, les Juifs le ligoteront de la sorte à Jérusalem et le livreront aux mains des nations. .", 
   "في مِثْلِ هَذَا اليَومْ تَمَّ تَكّرْيسِ كِنِيسَةْ القِدّيسْ أغابوس الرسول أحَدْ السبعين، وهْوَ الذي تَنَبَأ بِمَا أصاب القِدّيسْ بُولِسْ الرسول إذ قَالَ: 'الرَجُلٍ الذي لَهُ هَذِهِ المنطقة سيربطه اليهود هكذا في أورشليم ويسلمونه إلى أيْدِي الأمم' (أع 21: 11).", 
   ],
   [
@@ -15617,7 +15607,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Nous commémorons aussi en ce jour le martyre de sainte Alexandra (ألكسندرة), l’impératrice et l’épouse de l’empereur Dioclétien (داديانوس). En effet, tandis que cet empereur cruel faisait torturer saint Georges (مار جرجس الروماني), cette impératrice constata tous les tourments qu’il subissait ainsi que son endurance pour les supporter et sa fermeté dans la Foi. Elle fût touchée au fond de son cœur et demanda au saint de lui expliquer le secret de cette force qui l’anime. Alors, saint Georges lui expliqua la Divinité du Christ en lui interprétant la sainte Bible. Elle fût sensible à ses paroles et elle crut en Jésus Christ. Lorsque saint Georges se trouva devant les idoles, il invoqua le Nom du Christ et elles furent brisées. Dioclétien se mit en colère et, de retour chez lui, il raconta à Alexandra ce qui s’était passé. Celle-ci, qui avait déjà entendu parler de ce miracle, lui dit : \"Ne t’avais-je pas dit de ne pas t’entêter contre les chrétiens car leur Dieu est très puissant ? » Ces paroles mirent Dioclétien en colère et il sut qu’elle avait cru en Jésus Christ. Alors, il la fit torturer puis mettre en prison où elle demeura jusqu’à ce qu’elle décéda en paix. Elle obtint ainsi la couronne du martyre.", 
+  "Nous commémorons aussi en ce jour le martyre de sainte Alexandra (ألكسندرة), l’impératrice et l’épouse de l’empereur Dioclétien (داديانوس). En effet, tandis que cet empereur cruel faisait torturer saint Georges (مار جرجس الروماني), cette impératrice constata tous les tourments qu’il subissait ainsi que son endurance pour les supporter et sa fermeté dans la Foi. Elle fût touchée au fond de son cœur et demanda au saint de lui expliquer le secret de cette force qui l’anime. Alors, saint Georges lui expliqua la Divinité du Christ en lui interprétant la sainte Bible. Elle fût sensible à ses paroles et elle crut en Jésus Christ. Lorsque saint Georges se trouva devant les idoles, il invoqua le Nom du Christ et elles furent brisées. Dioclétien se mit en colère et, de retour chez lui, il raconta à Alexandra ce qui s’était passé. Celle-ci, qui avait déjà entendu parler de ce miracle, lui dit : \"Ne t’avais-je pas dit de ne pas t’entêter contre les chrétiens car leur Dieu est très puissant ? Ces paroles mirent Dioclétien en colère et il sut qu’elle avait cru en Jésus Christ. Alors, il la fit torturer puis mettre en prison où elle demeura jusqu’à ce qu’elle décéda en paix. Elle obtint ainsi la couronne du martyre.", 
   "وفيه أيْضَاً استشهدت القِدِّيسَةْ ألكسندرة الملكة زوجة المَلِكْ داديانوس. وذلك إنه بَيْنَمَا كَانَ هَذَا المَلِكْ القاسي يعذِّب الشَهْيد مِارِ جرجس الروماني شاهدت الملكة هَذِهِ العذابات واحتمال القِدّيسْ لَهَا وثباته عَلَى الإِيمَانِ. فتحرك قلبِهَا واستفسرت مِنَ القِدّيسْ عَن سر هَذِهِ القوة فحدثها عَن ألوهية السَّيْد المَسِيحْ وفسر لَهَا جزءاً مِنَ الكِتَابْ المُقَدّسْ فَدَخَلَ كلامه إلى قلبِهَا وآمنت بِالسَيِّدِ المَسِيحِ. وحَدَثَ لما وقف الشَهْيد مِارِ جرجس أمَامَ الأصنام صلى للسيد المَسِيحْ فتحطمت، فغَضِبَ داديانوس ودخل إلى منزله حزيناً وأخبر الملكة بِمَا حدث، وكَانَتْ قَدْ سَمِعَتْ بالمعجزة فزاد إيمانها فقَالَت لزوجها: 'أما قلت لك لا تعاند المَسِيحِيّينْ فإن إلههم قوي'. فغَضِبَ المَلِكْ جداً وعَلِمَ أنها آمنت بِالسَيِّدِ المَسِيحِْ فعذَّبِهَا كَثِيراً ثُمَّ ألقاها في السجن حَيْثُ تنيَّحت بِسَلامْ ونَالَتْ إكْلْيلْ الشِهَادَةْ.", 
   ],
   [
@@ -15679,7 +15669,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "La sainte Bible témoigne qu’Enoch marcha avec Dieu c’est-à-dire qu’il Lui plut à cause de sa bonne conduite et qu’il Lui était obéissant alors qu’il était entouré d’une génération corrompue et dépravé. La Bible dit : \"Enoch marcha avec Dieu, puis il disparut, car Dieu l'enleva. » Le sens de l’enleva est qu’Il l’éleva vivant vers le ciel et qu’il ne mourut pas exactement comme pour Elie. Ces deux saints demeureront jusqu’à ce qu’ils combattent la Bête. Elle les vaincra et les fera mourir comme tous les autres êtres humains.", 
+  "La sainte Bible témoigne qu’Enoch marcha avec Dieu c’est-à-dire qu’il Lui plut à cause de sa bonne conduite et qu’il Lui était obéissant alors qu’il était entouré d’une génération corrompue et dépravé. La Bible dit : \"Enoch marcha avec Dieu, puis il disparut, car Dieu l'enleva. Le sens de l’enleva est qu’Il l’éleva vivant vers le ciel et qu’il ne mourut pas exactement comme pour Elie. Ces deux saints demeureront jusqu’à ce qu’ils combattent la Bête. Elle les vaincra et les fera mourir comme tous les autres êtres humains.", 
   "ويَشْهَدْ الكِتَابْ المُقَدّسْ عَن أخنوخ البار أَنَّهُ سار مَعَ الله أي أرضى الله بسيرته الحسنة وعَاشْ في طاعته في وسط جيل استشرى فيه الفساد وتفاقمت فيه الرذيلة: 'وسار أخنوخ مَعَ الله ولَمْ يُوجَدْ لِأنَّ الله أخذه' (تك 5: 24). ومعنى أخذه أي أصعده إلى السماء حياً بِجَسَدِهِ ولَمْ يذق الموت تماماً كَمَا حَدَثَ بَعْدَ ذَلِكْ مَعَ إيليا النبي (2مل 2) وسيظل هذان القِدِّيْسْان بجسديهما في السماء إلى أَنَّ يأتيا ويحاربا الوحش (رؤ 11: 7) فيقتلهما ويذوقان الموت كباقي الناس.", 
   ],
   [
@@ -15731,7 +15721,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Son amour pour le Christ se révéla lors de la crucifixion de nôtre Seigneur. En effet, avec Joseph d’Arimathie, ils ensevelirent Son corps. Saint Jean précise dans son Evangile qu’ \"il apportait un mélange de myrrhe et d’aloès pesant environ cent livres. » Cette quantité prouve sa richesse et son grand amour pour le Christ.", 
+  "Son amour pour le Christ se révéla lors de la crucifixion de nôtre Seigneur. En effet, avec Joseph d’Arimathie, ils ensevelirent Son corps. Saint Jean précise dans son Evangile qu’ \"il apportait un mélange de myrrhe et d’aloès pesant environ cent livres. Cette quantité prouve sa richesse et son grand amour pour le Christ.", 
   "وقد تجلت محبته للسيد المَسِيحْ عِنْدَ صلبه، فقد اشترك مَعَ يوسف الرامي في تكفين جَسَدَهُ الطَاهِر 'وأحضر مزيج مر وعود نَحْوَ مائة منا' (يو 19: 39) (أي ما يعادل قنطاراً مِصْرْياً مِنَ الأطياب)، مما يدل عَلَى غناه وسخائه ومحبته الفياضة للسيد المسيح.", 
   ],
   [
@@ -15795,13 +15785,13 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Lorsque la Providence voulut que saint Siméon soit évêque, il prit soin de ses fidèles et les affermissait dans la Foi en les visitant et en leur prodiguant ses enseignements pour les guider sur le chemin de la sainteté. Dès que Sapor entendit parler de lui, il lui écrivit une lettre dans laquelle il l’invitait à se détourner de sa Foi pour adorer les idoles. Le saint lui répondit en disant : \"Ceux que le Christ a racheté par son Sang ont été délivrés de l’esclavage des hommes et il n’est plus permis d’adorer des idoles fabriqués par les hommes. ».", 
+  "Lorsque la Providence voulut que saint Siméon soit évêque, il prit soin de ses fidèles et les affermissait dans la Foi en les visitant et en leur prodiguant ses enseignements pour les guider sur le chemin de la sainteté. Dès que Sapor entendit parler de lui, il lui écrivit une lettre dans laquelle il l’invitait à se détourner de sa Foi pour adorer les idoles. Le saint lui répondit en disant : \"Ceux que le Christ a racheté par son Sang ont été délivrés de l’esclavage des hommes et il n’est plus permis d’adorer des idoles fabriqués par les hommes. .", 
   "اختارته العناية الإلهية لِيَكُونَ أُسْقُفَاً عَلَى بِلادْ فارس، فاهتم برعاية شَعْبَهُ وافتقادهم وتعليمهم ووعظهم وقيادتهم في طَرِيقِ القداسة، كَمَا ثبتهم عَلَى الإيمان الصحيح. ولَمَّا سَمِعَ بِهِ سابور ملك الفرس، بعث لَهُ برسالة يدعوه فِيهَا أَنَّ يترك إيمانه ويعبد الأَوْثَانَ المصنوعة بالأيدي. فرد عَلَيْهِ القِدّيسْ برسالة يقول فيها: 'إن الّذِينَ اشتراهم السَّيْد المَسِيحْ بدمه قَدْ تخلصوا من عبودية الشر، ولا يجوز لَهُمْ أَنَّ يعبدوا مصنوعات الأيدي'.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
   "Cette lettre mit le roi en colère et, par conséquent, il le fit comparaitre devant lui chargé de chaines puis le mit en prison. Saint Siméon y trouva des adorateurs du soleil à qui il enseigna le christianisme. Ils crurent en Jésus Christ et proclamèrent leur Foi devant le roi qui les fit décapiter. Enfin il fit venir saint Siméon de sa prison ainsi que 150 personnes que le saint avait convertis à cet endroit. L’un d’entre eux faiblit et voulut parjurer mais l’évêque le sermonna et l’encouragea à supporter les souffrances. Il fut, alors, torturer puis décapiter et il obtint la couronne de la Vie. Par la suite, le roi fit décapiter aussi les cent-quarante-neuf autres et ils obtinrent la couronne du martyre.", 
-  "فَلَمَّا قرأ المَلِكْ الرسالة غَضِبَ جداً واستحضر القِدّيسْ وربطه بالحديد وألقاه في السِجْنِ، فوجد بَعْضُ المحبوسين يعبدون الشمس فعلَّمهم ووعظهم حَتَّى آمنوا بِالسَيِّدِ المَسِيحِِ، وأقروا بِذَلِكَ أمَامَ الملك، فَأمَرَ بِقَطْعِ رؤوسِهِمْ. ثُمَّ استحضر القِدّيسْ مِنَ السجن ومعه مائة وخمسين شخصاً، كانوا قَدْ آمنوا عَلَى يَدَيْهِ في السِجْنِ، فضعف أحدهم وأَرَادَ أَنَّ ينكر إيمانه فوعظه القِدّيسْ وشجعه عَلَى الاحتمال قائلاً له: 'ليست الضربة شيئاً إذا أغمضت عينيك'، فعذَّبوه وقطعوا رأسه فنال إكليل الحياة. ثُمَّ أَمَرَ المَلِكْ بِقَطْعِ رُؤوسْ المائة والتسعة والأربعين أيْضَاً (تجد خبر استشهادهم في اليَوْم الثامن من شهر برموده المبارك). فنالوا إكليل الشِهَادَة.", 
+  "فَلَمَّا قرأ المَلِكْ الرسالة غَضِبَ جداً واستحضر القِدّيسْ وربطه بالحديد وألقاه في السِجْنِ، فوجد بَعْضُ المحبوسين يعبدون الشمس فعلَّمهم ووعظهم حَتَّى آمنوا بِالسَيِّدِ المَسِيحِِ، وأقروا بِذَلِكَ أمَامَ الملك، فَأمَرَ بِقَطْعِ رؤوسِهِمْ. ثُمَّ استحضر القِدّيسْ مِنَ السجن ومعه مائة وخمسين شخصاً، كَانُوا قَدْ آمنوا عَلَى يَدَيْهِ في السِجْنِ، فضعف أحدهم وأَرَادَ أَنَّ ينكر إيمانه فوعظه القِدّيسْ وشجعه عَلَى الاحتمال قائلاً له: 'ليست الضربة شيئاً إذا أغمضت عينيك'، فعذَّبوه وقطعوا رأسه فنال إكليل الحياة. ثُمَّ أَمَرَ المَلِكْ بِقَطْعِ رُؤوسْ المائة والتسعة والأربعين أيْضَاً (تجد خبر استشهادهم في اليَوْم الثامن من شهر برموده المبارك). فنالوا إكليل الشِهَادَة.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -15825,12 +15815,12 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Le calife le convoqua avec neuf autres personnes et lui demanda de renier sa Foi pour se convertir à l’Islam en lui promettant d’en faire son vizir (وزير) et de lui confier la conduite des affaires du royaume. Jean lui demanda un délai de réflexion jusqu’au lendemain ce qui lui fût accordé. Il rentra chez lui et convia ses amis à qui il raconta ce qui s’était passé avec le calife. Puis leur dit qu’il était prêt à donner sa vie pour le nom du Christ et leur donna ce conseil : \"Ne recherchez pas la gloire vaine de ce monde qui vous fera perdre la gloire éternelle du Christ. ».", 
+  "Le calife le convoqua avec neuf autres personnes et lui demanda de renier sa Foi pour se convertir à l’Islam en lui promettant d’en faire son vizir (وزير) et de lui confier la conduite des affaires du royaume. Jean lui demanda un délai de réflexion jusqu’au lendemain ce qui lui fût accordé. Il rentra chez lui et convia ses amis à qui il raconta ce qui s’était passé avec le calife. Puis leur dit qu’il était prêt à donner sa vie pour le nom du Christ et leur donna ce conseil : \"Ne recherchez pas la gloire vaine de ce monde qui vous fera perdre la gloire éternelle du Christ. .", 
   "أَرْسَلَ إلَيهِ الخليفة مَعَ تسعة آخرين وقَالَ له: 'أريد أَنَّ تترك دينك وتَدَخَلَ في ديني فأجعلك وزيري وتقوم بتدبير مملكتي'. فأجابه يُوحَنَّا قائلاً: 'أمهلني إلى الغد'، فجمع أصدقاءه وقَالَ لهم: 'أنا مستعد أَنَّ أموت عَلَى اسْمِ السَيِّدْ المَسِيحْ، فلا تطلبوا المجد الفاني، فيضيع عليكم مجد المَسِيحْ الباقي'.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Le lendemain il se rendit chez al-Hakim à qui il confirma avec courage son refus de renier sa Foi. Le calife se mit en colère et il ordonna qu’on lui donne 1000 coups de fouet. Lorsqu’il eût reçu 300 autres coups, il dit \"J’ai soif. ». Les tortionnaires consultèrent al-Hakim qui leur dit de lui donner à boire après lui avoir demandé de renier sa Foi. Mais il leur répondit avec fierté : \"Reprenez l’eau car mon Maître Jésus Christ m’a donné à boire et m’a désaltérer. ».", 
+  "Le lendemain il se rendit chez al-Hakim à qui il confirma avec courage son refus de renier sa Foi. Le calife se mit en colère et il ordonna qu’on lui donne 1000 coups de fouet. Lorsqu’il eût reçu 300 autres coups, il dit \"J’ai soif. . Les tortionnaires consultèrent al-Hakim qui leur dit de lui donner à boire après lui avoir demandé de renier sa Foi. Mais il leur répondit avec fierté : \"Reprenez l’eau car mon Maître Jésus Christ m’a donné à boire et m’a désaltérer. .", 
   "وفي الغد مَضَى إلى الحاكم الذي سأله قائلاً: 'هل طابت نفسك'، فأجاب يُوحَنَّا وقَالَ: 'نعم وسأبقى عَلَى ديني'. فغَضِبَ الخليفة وأَمَرَ أَنَّ يجلدوه ألف جلدة، فَلَمَّا أكْمَلَ ثلاثمائة قَالَ: 'أنا عطشان'. فأعلَموا الحاكم الذي قَالَ: 'اسقوه بَعْدَ أَنَّ تقولوا لَهُ أنْ يَرْجِعْ عَن دينه'. فأجاب يُوحَنَّا قائلاً: 'أعيدوا الماء لِأنَّ سيدي يَسْوعْ المَسِيحْ قَدْ سقاني وأطفأ ظمأي'.", 
   ],
   [
@@ -15840,7 +15830,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Après cela, le calife convoqua Abou-l-‘Ala fils d’Ibrahim (أبو العلا بن ابراهيم) qui était fidèle à son Église et charitable envers les pauvres. Il faisait partie des grands de l’état. Le calife lui dit : \"Tu sais que je t’ai mis à rang supérieur à celui de tous ceux qui sont dans mon administration (دولتي). Si tu écoutais mes paroles et te convertissait à ma religion, je t’élèverai encore plus et tu seras comme mon frère. ».", 
+  "Après cela, le calife convoqua Abou-l-‘Ala fils d’Ibrahim (أبو العلا بن ابراهيم) qui était fidèle à son Église et charitable envers les pauvres. Il faisait partie des grands de l’état. Le calife lui dit : \"Tu sais que je t’ai mis à rang supérieur à celui de tous ceux qui sont dans mon administration (دولتي). Si tu écoutais mes paroles et te convertissait à ma religion, je t’élèverai encore plus et tu seras comme mon frère. .", 
   "بعد ذَلِكْ أَرْسَلَ الخليفة واستحضر أبو العلا فهد بن إبراهيم، الذي كَانَ مخلصاً لكنيسته مُحِبّاً للمساكين، وكَانَ من أكابر رجال الدولة. فَقَالَ لَهُ الخليفة: 'أنت تعلَم إني قدمتك عَلَى كُلَّ مَنْ في دولتي، فاسمع منى وكن معي في ديني فأرفعك أَكْثَرَ مما أنت فيه وتكون لى مثل أخ'.", 
   ],
   [
@@ -15882,13 +15872,13 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Lorsque Paphnouté se rendit devant lui, il proclama sa Foi à haute voix en disant : \"Je suis un chrétien qui croit en Jésus Christ. » Lorsque le gouverneur le reconnut, il le fit torturer, lui fit mettre les chaines et le jeta dans une prison obscure. Une lumière céleste l’éclaira puis l’ange du Seigneur lui apparut et le guérit de ses blessures.", 
+  "Lorsque Paphnouté se rendit devant lui, il proclama sa Foi à haute voix en disant : \"Je suis un chrétien qui croit en Jésus Christ. Lorsque le gouverneur le reconnut, il le fit torturer, lui fit mettre les chaines et le jeta dans une prison obscure. Une lumière céleste l’éclaira puis l’ange du Seigneur lui apparut et le guérit de ses blessures.", 
   "فَلَمَّا جَاءَ إلَيهِ القِدّيسْ اعْتَرَفَ أَمَامَهُ قائلاً: 'أنا مسيحي مؤمن بِالسَيِّدِ المَسِيحِ' فَلَمَّا عرف الوالي أَنَّهُ ذَلِكْ المتوحد الذي يبحث عَنْهُ قبض عَلَيْهِ وعذَّبه عذاباً شَدِيدَاً ثُمَّ قيده بالحديد وطرحه في سجن مظلم فأشرق عَلَيْهِ نور سماوي وظهر لَهُ مَلاكُ الرَّبِ وشفاه من جراحاته.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
   "Il y avait dans cette ville un homme nommé Cyrille (Kyrillos كيرلس) avec sa femme, sa fille et ses douze serviteurs qui avaient reçu la Foi grâce aux enseignements de ce saint. Ils furent tous décapités et obtinrent la couronne du martyre. Par conséquent, le gouverneur se mit en colère contre Paphnouté et ordonna que l’on suspende une grosse pierre à son cou et qu’il soit jeté dans le Nil. Ainsi, il obtint ainsi la couronne du martyre.", 
-  "وكان في المَدِينَةِ رَجُلاً اسْمُهُ كيرلس وزوجته وابنته واثني عَشَرْ صبياً آخرون، كانوا قَدْ آمنوا بتعاليم القِدّيسْ ووعظه فاستشهدوا جميعاً بِقَطْعِ رؤوسِهِمْ. فنالوا أَكَاليلِ الشِهَادَة. ولَمَّا عرف الوالي ذَلِكْ غَضِبَ وأَمَرَ فعلقوا في رقبته حَجَرَاً كبيراً وطرحوه في النيل فنَالَ إكْلْيلْ الشِهَادَة.", 
+  "وكان في المَدِينَةِ رَجُلاً اسْمُهُ كيرلس وزوجته وابنته واثني عَشَرْ صبياً آخرون، كَانُوا قَدْ آمنوا بتعاليم القِدّيسْ ووعظه فاستشهدوا جميعاً بِقَطْعِ رؤوسِهِمْ. فنالوا أَكَاليلِ الشِهَادَة. ولَمَّا عرف الوالي ذَلِكْ غَضِبَ وأَمَرَ فعلقوا في رقبته حَجَرَاً كبيراً وطرحوه في النيل فنَالَ إكْلْيلْ الشِهَادَة.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -15919,7 +15909,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Au début, il était membre de l’aéropage (الأريوباغوس المنشقة), un conseil de notables Athéniens, puis il eût de longues discutions avec saint Paul, l’apôtre, qui lui transmit la Foi et les préceptes chrétiens puis le baptisa. Il l’ordonna prêtre pour cette ville. Saint Hiérothée proclama l’Evangile du Salut et convertit un grand nombre de personnes à la Foi Chrétienne. Après le décès de l’évêque d’Athènes, saint Denys, qui avait été son maitre, le peuple voulut qu’il soit leur évêque mais il refusa en disant : \"Je voudrais juste pouvoir accomplir mes devoirs de prêtre. » Toutefois, il fût sacré plus tard évêque d’Athènes.", 
+  "Au début, il était membre de l’aéropage (الأريوباغوس المنشقة), un conseil de notables Athéniens, puis il eût de longues discutions avec saint Paul, l’apôtre, qui lui transmit la Foi et les préceptes chrétiens puis le baptisa. Il l’ordonna prêtre pour cette ville. Saint Hiérothée proclama l’Evangile du Salut et convertit un grand nombre de personnes à la Foi Chrétienne. Après le décès de l’évêque d’Athènes, saint Denys, qui avait été son maitre, le peuple voulut qu’il soit leur évêque mais il refusa en disant : \"Je voudrais juste pouvoir accomplir mes devoirs de prêtre. Toutefois, il fût sacré plus tard évêque d’Athènes.", 
   "وكان بروتاؤس أحَدْ فلاسفة أثينا وأحد أعضاء الأريوباغوس المنشقة. وقَدْ اهتدى إلى الإيمان عَلَى يَدِِّ القِدّيسْ بُولِسْ الرسول، وجرت بَيْنَهُمَا مناقشات أدت بِهِ إلى أَنَّ يؤمن عَلَى يده، فعمَّده وعلَّمه الوصايا المسيحية، ورسمه قِسّاً عَلَى تلك المَدِينَةِ. فكرز ببشرى الخلاص ورد كَثِيرينْ إلى معرفة السَيِّدِ المَسِيحِ. وبَعْدَ نِياحَةْ القِدّيسْ ديونيسيوس الأريوباغي أُسْقُفْ أثينا، الذي كَانَ أستاذاً لَهُ ومعلَّماً، أرَادَ الشَّعْبِ رِسَامَتْهُ أُسْقُفَاً بدلاً من معلِّمِهِ فَلَمْ يقبل وقَالَ: 'ليتني أقدر عَلَى القيام بواجبات القسيسية'. إلا أنَّهُ وافق بَعْدَ ذَلِكْ ورَسَمُوهُ أُسْقُفَاً عَلَى أثينا.", 
   ],
   [
@@ -15930,7 +15920,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Il était présent lors du décès de la sainte Vierge Marie, la Mère de Dieu et il rédigea un grand nombre de louanges la concernant dont il composa la musique. Il écrivit aussi quelques livres ainsi que de belles hymnes. De plus, il convertit beaucoup de Juifs et de païens à la Foi chrétienne. Enfin, lorsqu’il eût accompli son bon combat, il décéda en paix.", 
-  "وقد حضر هَذَا القِدّيسْ يوم نِياحَةْ القِدِّيسَةْ العَذْرَاءْ مَرْيَمْ والدة الإله. هَذَا وقَدْ نظم مدائح لِلْقِدِّيسِة مَرْيَمْ بَعْدَ نياحتها ولَحّنها بالموسيقى. كَمَا كَتَبَ بَعْضُ الكُتُبِ والتراتيل الروحية. وقَدْ ردّ هَذَا القِدّيسْ جماعة كبيرة مِنَ اليهود والأمم إلى معرفة السَيِّدِ المَسِيحِ. ولَمَّا أكْمَلَ سَعْيَّهُ الصَالِحْ رقد بالرَّبُ في أوائل الجيل الثاني الميلادي.", 
+  "وقد حَضَرَ هَذَا القِدّيسْ يوم نِياحَةْ القِدِّيسَةْ العَذْرَاءْ مَرْيَمْ والدة الإله. هَذَا وقَدْ نظم مدائح لِلْقِدِّيسِة مَرْيَمْ بَعْدَ نياحتها ولَحّنها بالموسيقى. كَمَا كَتَبَ بَعْضُ الكُتُبِ والتراتيل الروحية. وقَدْ ردّ هَذَا القِدّيسْ جماعة كبيرة مِنَ اليهود والأمم إلى معرفة السَيِّدِ المَسِيحِ. ولَمَّا أكْمَلَ سَعْيَّهُ الصَالِحْ رقد بالرَّبُ في أوائل الجيل الثاني الميلادي.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -15951,7 +15941,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Après le décès du pape Achille (أرشلاؤس), ce père fût élu patriarche et il fût intronisé le 3 Apip 28 des martyrs (312 après Jésus Christ). Arius (أريوس), qui convoitait le siège patriarcal, s’irrita. Ensuite, il tenta de se faire absoudre de l’anathème qu’avait prononcé le pape Pierre à son encontre. Néanmoins, saint Alexandre répondit à ses émissaires : \"Mon père le pape Pierre m’a recommandé de ne jamais recevoir Arius. Qu’il se repente du mal qu’il a fait et lorsque le Sauveur aura accepté sa repentance, il me ferra un signe pour que je l’absolve. »", 
+  "Après le décès du pape Achille (أرشلاؤس), ce père fût élu patriarche et il fût intronisé le 3 Apip 28 des martyrs (312 après Jésus Christ). Arius (أريوس), qui convoitait le siège patriarcal, s’irrita. Ensuite, il tenta de se faire absoudre de l’anathème qu’avait prononcé le pape Pierre à son encontre. Néanmoins, saint Alexandre répondit à ses émissaires : \"Mon père le pape Pierre m’a recommandé de ne jamais recevoir Arius. Qu’il se repente du mal qu’il a fait et lorsque le Sauveur aura accepté sa repentance, il me ferra un signe pour que je l’absolve.", 
   "وبَعْدَ نِياحَةْ البابا أرشلاوس، كَانَ قَدْ تقدم في الأَيَّامْ فانتخبوه بطريركاً ورَسَمُوهُ يوم 3 أبيب سَنَةْ 28 لِلْشُهَداءِ (312م). فغَضِبَ أريوس لِأَنَّهُ كَانَ يطمع في هَذِهِ الكرامة. وعِنْدَمَا حَاوَلَ أَنَّ ينال مِنْهُ الحل، قَالَ البابا لمندوبي أريوس: 'لقد أوصاني أبي القِدّيسْ البابا بُطْرُسْ أَنَّ لا أقبله، فليَتُب عَمَّا ارتكبه من خطية. ومتى قبل الفادي توبته فليعطني علامة لِكَيّْ أحله'.", 
   ],
   [
@@ -15961,7 +15951,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Quant au pape, il réunit divers concile à travers toute l’Égypte et écrivit plusieurs lettres à ce sujet. Il conclut cela par une lettre encyclique qu’il construisit autour de l’introduction de l’Evangile de saint Jean : \"Au Commencement était le Verbe, et le Verbe était auprès de Dieu, et le Verbe était Dieu. » Puis il demanda aux évêques d’approuver le contenu de cette lettre en la contresignant comme l’avait déjà fait les évêques d’Asie, de Syrie et de Lybie. Un grand nombre d’entre eux apposèrent leur signature. En conséquence, Eusèbe convainquit Constantin (قسطنطين) d’écrire au pape d’Alexandrie pour lui demander d’absoudre Arius. Celui-ci refusa et envoya une lettre à l’évêque de Byzance, Alexandre (ألكسندروس أسقف بيزنطة), dans laquelle il expliquait la Foi orthodoxe (الإيمان القويم). Cette lettre est connue sous le nom de tome d’Alexandre (طومس ألكسندروس). Elle fût contresignée par les évêques d’Égypte, de Cappadoce, de Pamphylie et d’Asie au nombre de 250.", 
+  "Quant au pape, il réunit divers concile à travers toute l’Égypte et écrivit plusieurs lettres à ce sujet. Il conclut cela par une lettre encyclique qu’il construisit autour de l’introduction de l’Evangile de saint Jean : \"Au Commencement était le Verbe, et le Verbe était auprès de Dieu, et le Verbe était Dieu. Puis il demanda aux évêques d’approuver le contenu de cette lettre en la contresignant comme l’avait déjà fait les évêques d’Asie, de Syrie et de Lybie. Un grand nombre d’entre eux apposèrent leur signature. En conséquence, Eusèbe convainquit Constantin (قسطنطين) d’écrire au pape d’Alexandrie pour lui demander d’absoudre Arius. Celui-ci refusa et envoya une lettre à l’évêque de Byzance, Alexandre (ألكسندروس أسقف بيزنطة), dans laquelle il expliquait la Foi orthodoxe (الإيمان القويم). Cette lettre est connue sous le nom de tome d’Alexandre (طومس ألكسندروس). Elle fût contresignée par les évêques d’Égypte, de Cappadoce, de Pamphylie et d’Asie au nombre de 250.", 
   "أما البابا فعقد عدة مجامع في مختلف البلاد المصرية، وكَتَبَ كَثِيراً مِنَ الرسائل، أرفقها برسالة دورية ضمِنْهُا عرضاً كاملاً للإيمان الأرثوذكسي وتلخيصاً لبدعة أريوس. هَذَا وقَدْ تأثر بَعْضُ الأسَاقِفَةْ من بلاغة أريوس. فكتبوا للبابا يرجون العفو عنه. فرد البابا برسالة بناها عَلَى قول القِدّيسْ يُوحَنَّا الإنجيلي 'في البدء كَانَ الكلمة. والكلمة كَانَ عِنْدَ الله. وكَانَ الكلمة الله.' (يو 1:1). ورجا من إخوته الأسَاقِفَةْ أَنَّ يصادقوا بتوقيعاتهم عَلَى ما كتب، أسوة بإخوتهم أَسَاقِفَةِ آسيا وسوريا وليبيا. وقَدْ استجاب العديد مِنْهُم، مما جعل أوسابيوس يقنع الإمبراطور قسطنطين بِأنَّ يُرْسِلْ خطاباً للبابا الإسكندري يطلب حل أريوس، فَلَمْ يقبل البابا. ثُمَّ بعث البابا الإسكندري برسالة إلى ألكسندروس أُسْقُفْ بيزنطة، يشرح فِيهَا الإيمان القويم، تُعرَف بطومس ألكسندروس. وقَدْ بعث بهذا الطومس إلى أَسَاقِفَةِ المسكونة، فوقع عَلَيْهِ أَسَاقِفَةِ مِصْرْ وكبادوكيا وبمفيليا وآسيا، وكَانَ عددهم مائتين وخمسين.", 
   ],
   [
@@ -16021,7 +16011,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Lorsque le temps du carême arriva, il se rendit au désert pour y célébrer la fête de Pâques. Il se souvint de sa vie d’avant et pria Dieu avec ferveur en versant des larmes et en disant : \"Tu sais Seigneur que je désire toujours la solitude et que j’ai de la difficulté à supporter mes responsabilités actuelles. » Dieu accepta sa prière et il décéda en paix après avoir siégé sur le trône apostolique pendant une année, 4 mois et 28 jours. Il fût le premier patriarche à être enterrer au monastère de saint Macaire.", 
+  "Lorsque le temps du carême arriva, il se rendit au désert pour y célébrer la fête de Pâques. Il se souvint de sa vie d’avant et pria Dieu avec ferveur en versant des larmes et en disant : \"Tu sais Seigneur que je désire toujours la solitude et que j’ai de la difficulté à supporter mes responsabilités actuelles. Dieu accepta sa prière et il décéda en paix après avoir siégé sur le trône apostolique pendant une année, 4 mois et 28 jours. Il fût le premier patriarche à être enterrer au monastère de saint Macaire.", 
   "ولما كَانَ الصوم الكبير سَنَةْ 567 لِلْشُهَداءِ توجه إلى البَرِّيَة ليصلى عيد القيامة، فتذكر حياته الأولى في البَرِّيَة فسأل الله ببكاء وتضرع قائلاً: 'أنت تعلَم يارب إني لا أزال أهوى الوحدة، وليس لي طاقة عَلَى هَذَا المركز'. فقبل الرَّبْ صلاته وتَنَيَّحَ بِسَلامْ بَعْدَ أَنَّ قضى عَلَى الكُرْسِي سَنَةً واحِدَةٍ وأربعة أشهر وثمانية وعشرين يوماً. وكَانَ أَوَّلِ من دُفن مِنَ البطاركة بِدِيرْ القِدّيسْ مكاريوس وجعلوا جَسَدَهُ في بيعة القِدّيسْ مكاريوس.", 
   ],
   [
@@ -16069,11 +16059,11 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Alors, il se présenta devant Tatien et confessa sa Foi en Jésus Christ. Le roi fût surpris de sa prestance et de son courage. Apprenant que Georges était le fils d’un prince, il tenta de l’amadouer et lui promit que s’il adorait les idoles, il lui donnera tout ce qu’il voudra. Mais Georges dédaigna toutes ces promesses terrestres et périssables et s’attacha au Christ. Le roi se mit en colère et le fit torturer cruellement mais Dieu le protégeait. Le roi attribua cela à la sorcellerie et poursuivit la torture en utilisant le feu, les clous, les bâtons et le fouet mais le Seigneur le consolait sans cesse et guérissait ses plaies. En conséquences Georges gardait son calme et sa bonne humeur ce qui surprit le roi et ceux qui étaient avec lui.", 
-  "تقدم جرجس إلى المَلِكِ داديانوس واعْتَرَفَ أَمَامَهُ بِالسَيِّدِ المَسِيحِْ فتعجب المَلِكْ من منظره ومن شجاعته، وعلم أَنَّهُ ابْنِ أمير كبير، فَأَخَذَ يلاطفه ويغريه بالوعود حَتَّى يبخر للأصنام فيعطيه كُلَّ ما أراد. رَفَضَ جرجس كُلَّ وعوده الأرضية الزَائِلة وتمسك بمسيحه وإيمانه. غَضِبَ المَلِكْ وأَمَرَ بتعذيبه بأشد أنواع العذابات الرهيبة، فوضعوه في الهِنْبَازيْنْ حَتَّى تمزق جَسَدَهُ وسال دمه، ثُمَّ طرحوه في الجير الحي ثَلاثَةْ أَيَّامٍ ولَكِنَّ الله حفظه، وكَانَ المَلِكْ ينسب كُلَّ ذَلِكْ إلى السحر. ألبسوه حذاء من حديد وفيه مسامير محماة بِالنَارِ وكانوا يضربونه بالعصي لِكَيّْ يمشي وهم يهزأون به. جلدوه بأعصاب البقر حَتَّى سالت دماؤه وفي كُلِّ ذَلِكْ كَانَ الرَّبْ يعزيه ويَشْفِيه من جراحاته. وظل محتفظاً بهدوئه وبشاشته حَتَّى تعجب المَلِكْ وكل الولاة الّذِينَ كانوا يحكمون عَلَيْهِ بهذه العذابات.", 
+  "تقدم جرجس إلى المَلِكِ داديانوس واعْتَرَفَ أَمَامَهُ بِالسَيِّدِ المَسِيحِْ فتعجب المَلِكْ من منظره ومن شجاعته، وعلم أَنَّهُ ابْنِ أمير كبير، فَأَخَذَ يلاطفه ويغريه بالوعود حَتَّى يبخر للأصنام فيعطيه كُلَّ ما أراد. رَفَضَ جرجس كُلَّ وعوده الأرضية الزَائِلة وتمسك بمسيحه وإيمانه. غَضِبَ المَلِكْ وأَمَرَ بتعذيبه بأشد أنواع العذابات الرهيبة، فوضعوه في الهِنْبَازيْنْ حَتَّى تمزق جَسَدَهُ وسال دمه، ثُمَّ طرحوه في الجير الحي ثَلاثَةْ أَيَّامٍ ولَكِنَّ الله حفظه، وكَانَ المَلِكْ ينسب كُلَّ ذَلِكْ إلى السحر. ألبسوه حذاء من حديد وفيه مسامير محماة بِالنَارِ وكانوا يضربونه بالعصي لِكَيّْ يمشي وهم يهزأون به. جلدوه بأعصاب البقر حَتَّى سالت دماؤه وفي كُلِّ ذَلِكْ كَانَ الرَّبْ يعزيه ويَشْفِيه من جراحاته. وظل محتفظاً بهدوئه وبشاشته حَتَّى تعجب المَلِكْ وكل الولاة الّذِينَ كَانُوا يحكمون عَلَيْهِ بهذه العذابات.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Alors le roi convoqua un sorcier nommé Athanase (أثناسيوس). Celui-ci donna à Georges une coupe remplie de poison pour qu’il la boive. Celui-ci fit alors le signe de la Croix sur la coupe et but son contenu sans que cela ne lui fasse de mal. Le sorcier lui donna alors une seconde coupe après qu’on lui eût attaché les mains. Alors Georges leur dit : \"Voulez-vous que je boive d’ici, de là, ou de là ou encore de là ? » En disant cela il fit de la tête un signe de Croix puis il but le contenu de cette coupe sans que ceci ne lui fasse aucun mal. Le sorcier crut alors en Jésus Christ. Toutefois l’entêtement du roi et de ceux qui l’accompagnaient leur firent attribuer ce miracle à de la sorcellerie et ils ordonnèrent qu’Athanase soit tué, alors, il reçut la couronne du martyre.", 
+  "Alors le roi convoqua un sorcier nommé Athanase (أثناسيوس). Celui-ci donna à Georges une coupe remplie de poison pour qu’il la boive. Celui-ci fit alors le signe de la Croix sur la coupe et but son contenu sans que cela ne lui fasse de mal. Le sorcier lui donna alors une seconde coupe après qu’on lui eût attaché les mains. Alors Georges leur dit : \"Voulez-vous que je boive d’ici, de là, ou de là ou encore de là ? En disant cela il fit de la tête un signe de Croix puis il but le contenu de cette coupe sans que ceci ne lui fasse aucun mal. Le sorcier crut alors en Jésus Christ. Toutefois l’entêtement du roi et de ceux qui l’accompagnaient leur firent attribuer ce miracle à de la sorcellerie et ils ordonnèrent qu’Athanase soit tué, alors, il reçut la couronne du martyre.", 
   "استدعى المَلِكْ ساحراً يُدعى أثناسيوس فقدم لجرجس كأساً بِهَا سم قاتل فرشم عَلَى الكأس علامة الصليب وشرب ما بِهَا ولَمْ يضره شيء، فقدم لَهُ كأساً ثَانِيَة بَعْدَ أَنَّ قيدوا يَدَيْهِ خلف ظهره فَقَالَ لَهُمْ مشيراً برأسه: 'أتريدون أَنَّ أشربِهَا من هنا أو من هنا أو من هنا أو من هنا'. وبِذَلِكَ رشمها بعلامة الصليب برأسه وشربِهَا فَلَمْ تؤذه (مر 16: 14) فآمن الساحر بِالسَيِّدِ المَسِيحِ. ولَكِنَّ المَلِكْ والولاة المرافقين لَهُ بِسَبَبِ عنادهم نسبوا المعجزة للسحر وأمروا بقتل أثناسيوس فنَالَ إكْلْيلْ الشِهَادَة.", 
   ],
   [
@@ -16120,7 +16110,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "A son époque certaines personnes, du village de Boukhnessa (بوخنسا), de la région de Mariout (مريوط), prétendaient que le corps du Christ n’avait pas vraiment subit Sa Passion mais que ceci était imaginaire. Le pape leur répondit \"Le Christ a pris chair de la Vierge et l’a rendu Un avec Sa Divinité et Ils ne se sont pas séparés un seul instant ni l’espace d’un battement de cil. Lorsque le Christ subit Sa Passion, les douleurs n’affectèrent pas sa Divinité alors qu’Elle n’a pas été séparée de son Humanité pendant la Passion. » Puis il utilisa l’image du fer chauffé à blanc qui conserve sa nature malgré le feu et que les coups de marteau n’affecte pas la chaleur alors qu’elle est unifiée au fer. La Divinité n’a donc pas été séparée de l’Humanité dans le tombeau et les disciples le virent avec le corps qui a été crucifié. Ceux qui s’étaient égarés revinrent dans le droit chemin.", 
+  "A son époque certaines personnes, du village de Boukhnessa (بوخنسا), de la région de Mariout (مريوط), prétendaient que le corps du Christ n’avait pas vraiment subit Sa Passion mais que ceci était imaginaire. Le pape leur répondit \"Le Christ a pris chair de la Vierge et l’a rendu Un avec Sa Divinité et Ils ne se sont pas séparés un seul instant ni l’espace d’un battement de cil. Lorsque le Christ subit Sa Passion, les douleurs n’affectèrent pas sa Divinité alors qu’Elle n’a pas été séparée de son Humanité pendant la Passion. Puis il utilisa l’image du fer chauffé à blanc qui conserve sa nature malgré le feu et que les coups de marteau n’affecte pas la chaleur alors qu’elle est unifiée au fer. La Divinité n’a donc pas été séparée de l’Humanité dans le tombeau et les disciples le virent avec le corps qui a été crucifié. Ceux qui s’étaient égarés revinrent dans le droit chemin.", 
   "وكان عَالِمَاً حكيماً تقياً. وكَانَ في عهده بقرية بوخنسا من قرى مريوط قوماً يقولون أَنَّ آلام السَّيْد المَسِيحْ لَمْ تقع عَلَى الجَسَدْ حقيقة ولكنها كَانَتْ خيالية. فَقَالَ لَهُمْ البابا: 'إن السَّيْد المَسِيحْ اتخذ جسداً مِنَ العَذْرَاءْ وجعله متحداً بلاهوته ولَمْ يفترقا لحظة واحدة ولا طرفة عين، وحينما جاز السَّيْد المَسِيحْ الآلام، تألم بِجَسَدِهِ ولَمْ تمس الآلام لاهوته، مَعَ أَنَّ اللاهوت لَمْ يفترق عَن الناسوت ساعة آلامه'. وقَدْ استعان البابا بالرمز وهْوَ اتحاد الحديد بالنار. فالنار تظل محتفظة بطبيعتها النارية مَعَ كونها متحدة بالحديد، كَمَا يظل الحديد محتفظاً بطبيعته رغم انصهاره بالنار. والمطرقة حينما تنـزل عَلَى الحديد لا تؤلم النار رغم اتحادها بالحديد، وهكذا رجعوا عَن ضلالتهم.", 
   ],
   [
@@ -16177,12 +16167,12 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Peu de temps après, la tempête se calma et le navire reprit son chemin jusqu’à Alexandrie. A son arrivée, elle se rendit immédiatement à l’église et porta ses enfants auprès du pape Pierre le sceau des martyrs (بطرس خاتم الشهداء) afin qu’il les baptise avec les enfants de la ville. Lorsque celui-ci voulut les plonger dans l’eau du baptême, celle-ci devint dure comme de la pierre. Tout surpris de ce qui se passait, le pape les laissa de côté et poursuivit le baptême des autres enfants qui se déroula normalement. Ensuite il reprit les deux enfants pour les baptiser mais l’eau se figea à nouveau. Puis il fit une troisième tentative sans plus de succès. Alors il fit venir la mère pour s’enquérir de la raison de ce qui se passait. Elle lui raconta leur aventure sur le navire et ce qu’elle avait fait. Le pape, alors, loua Dieu en disant : \"Vraiment, il n’y a qu’un seul baptême. ».", 
+  "Peu de temps après, la tempête se calma et le navire reprit son chemin jusqu’à Alexandrie. A son arrivée, elle se rendit immédiatement à l’église et porta ses enfants auprès du pape Pierre le sceau des martyrs (بطرس خاتم الشهداء) afin qu’il les baptise avec les enfants de la ville. Lorsque celui-ci voulut les plonger dans l’eau du baptême, celle-ci devint dure comme de la pierre. Tout surpris de ce qui se passait, le pape les laissa de côté et poursuivit le baptême des autres enfants qui se déroula normalement. Ensuite il reprit les deux enfants pour les baptiser mais l’eau se figea à nouveau. Puis il fit une troisième tentative sans plus de succès. Alors il fit venir la mère pour s’enquérir de la raison de ce qui se passait. Elle lui raconta leur aventure sur le navire et ce qu’elle avait fait. Le pape, alors, loua Dieu en disant : \"Vraiment, il n’y a qu’un seul baptême. .", 
   "وبَعْدَ ذَلِكْ سكنت الرياح وهدأ البحر وسارت المركب. وعِنْدَ وصولها إلى الإسْكَنْدَرِيَّة دخلت الكَنيسَةْ وقدمت ولديها للبابا بُطْرُسْ خاتم الشُهَدَاءْ ليعمِّدهما مَعَ أطفال المَدِينَةِ. فَلَمَّا أَخَذَ الولدين ليُعمدهما تجمد ماء المعمودية كالحجر. فتعجب البابا من ذَلِكْ وتركهما وأَخَذَ غيرهما مِنَ الأطفال فعاد الماء إلى طبيعته. ثُمَّ عَادَ فَأَخَذَ الولدين مَرَّةً ثَانِيَة فتجمد الماء أيضاً. وهكذا إلى ثلاث مرات. فاستغرب البابا واستخبر من والدتهما عَن الأمر. فعرفته بِمَا جرى لَهَا في البحر وما عملته لولديها. فمجد الله قائلاً: 'حقاً إنها معمودية واحدة'.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Lorsque Sarah retourna à Antioche, son mari lui reprocha ce qu’elle avait fait et alla se plaindre auprès du roi. Celui-ci la convoqua et la blâma en lui disant : \"Pourquoi as-tu été commettre l’adultère avec les chrétiens à Alexandrie ? » Elle lui répondit : \"Les chrétiens ne commettent pas l’adultère et ils n’adorent pas les idoles. Maintenant fais ce que tu veux je ne dirai plus rien. » Et elle ne voulut plus rien lui dire. En conséquence il la fit ligoter et mettre sur le bûcher. Ils déposèrent ses deux enfants sur son ventre et ils furent brulés vivants. Elle fit une prière puis rendit l’âme à Dieu en même temps que ses fils et ils obtinrent tous la couronne du martyre.", 
+  "Lorsque Sarah retourna à Antioche, son mari lui reprocha ce qu’elle avait fait et alla se plaindre auprès du roi. Celui-ci la convoqua et la blâma en lui disant : \"Pourquoi as-tu été commettre l’adultère avec les chrétiens à Alexandrie ? Elle lui répondit : \"Les chrétiens ne commettent pas l’adultère et ils n’adorent pas les idoles. Maintenant fais ce que tu veux je ne dirai plus rien. Et elle ne voulut plus rien lui dire. En conséquence il la fit ligoter et mettre sur le bûcher. Ils déposèrent ses deux enfants sur son ventre et ils furent brulés vivants. Elle fit une prière puis rendit l’âme à Dieu en même temps que ses fils et ils obtinrent tous la couronne du martyre.", 
   "ولما عادت المرأة إلى أنطاكية أنكر عَلَيْهَا زَوْجِهَا ما فعلته، وأخبر المَلِكْ بِذَلِكَ فاستحضرها ووبخها قائلاً: 'لماذا ذهبت إلى الإسْكَنْدَرِيَّة لتزني مَعَ النصارى ؟'. فأجابت القِدِّيسَةْ قائلة: 'إن النصارى لا يزنون ولا يعبدون الأصنام، ومهما أردت بَعْدَ هَذَا فافعله، وسوف لا تسمع منى كلمة أخرى'. فَقَالَ لها: 'عرفيني ماذا فعلت بالإسْكَنْدَريّة ؟'، فَلَمْ تجبه. فَأمَرَ بشد يَدَيْهِا إلى خلفها ووَضْعِ ولديها عَلَى بَطْنِهَا ثُمَّ أحرقهم بالنار. فحولت وجهها إلى الشَّرْقِ وصلت ثُمَّ أسلمت روحها الطَاهِرَةِ مَعَ ولديها. ونَالوا أَكَاليلِ الشِهَادَة.", 
   ],
   [
@@ -16291,12 +16281,12 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Lorsque sainte Théodora (ثاؤذورا) la mère des deux martyrs Côme (قزمان) et Damien (دميان) fût décapitée, personne n'osa l'enterrer à cause de la peur qu'ils avaient de l'empereur. Alors saint Côme apostropha la foule en disant : \"n'y a-t-il personne dans cette ville ayant un cœur assez généreux pour protéger le corps de cette vielle veuve et l'enterrer ? » Victor avança immédiatement au milieu de la foule, il prit le corps de la sainte et il la mit en terre en ne tenant pas compte des ordres de l’empereur. Lorsque Romanos, le père de Victor, eût vent de ce qu’il avait fait, il le convoqua et le questionna à ce sujet. Il se mit alors à reprocher à son père d’adorer les idoles en se détournant du Dieu vivant. Son père se mit en colère et le conduisit auprès de l’empereur. Celui-ci tenta de l’amadouer mais le saint lui reprochait avec bonté d’avoir renié la Foi et lui demandait de revenir à son Sauveur.", 
+  "Lorsque sainte Théodora (ثاؤذورا) la mère des deux martyrs Côme (قزمان) et Damien (دميان) fût décapitée, personne n'osa l'enterrer à cause de la peur qu'ils avaient de l'empereur. Alors saint Côme apostropha la foule en disant : \"n'y a-t-il personne dans cette ville ayant un cœur assez généreux pour protéger le corps de cette vielle veuve et l'enterrer ? Victor avança immédiatement au milieu de la foule, il prit le corps de la sainte et il la mit en terre en ne tenant pas compte des ordres de l’empereur. Lorsque Romanos, le père de Victor, eût vent de ce qu’il avait fait, il le convoqua et le questionna à ce sujet. Il se mit alors à reprocher à son père d’adorer les idoles en se détournant du Dieu vivant. Son père se mit en colère et le conduisit auprès de l’empereur. Celui-ci tenta de l’amadouer mais le saint lui reprochait avec bonté d’avoir renié la Foi et lui demandait de revenir à son Sauveur.", 
   "ولما قُطعت رأس القِدِّيسَةْ ثيئودورة أم الشهيدين قزمان ودميان، بقى جسدها مطروحاً لَمْ يجسر أحَدْ أَنَّ يدفنه. فصرخ قزمان قائلاً: 'يا أهل المَدِينَةِ ألا يُوجَدْ أحَدْ قلبه رحيم يتقدم فيستر جَسَد هَذِهِ الأرملة العجوز ويدفنها؟'. عندئذ تقدم القِدّيسْ بقطر وأَخَذَ الجَسَدْ وكَفَّنَهُ ثُمَّ دفنه غير مبال بِأمْرِ دقلديانوس. فسمع وَالِدَه بذلك. ولَمَّا استدعاه لسؤاله، قَامَ بتبكيت وَالِدَه عَلَى عبادة الأَوْثَانَ، وتركه الإيمان بالله الحي. فغَضِبَ أبوه عَلَيْهِ وسعى بِهِ لَدَى المَلِكْ الذي استدعاه وصار يلاطفه. وكَانَ بقطر في مَحَبَّةِ يوبخ المَلِكْ عَلَى جحده الإيمان، طالباً مِنْهُ أنْ يَرْجِعْ إلى مخلصه ويكف عَن مقاومته للإيمان.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Ceci augmenta la colère de l’empereur qui ordonna qu’on l’envoie à Alexandrie afin qu’il y soit torturé et tué loin d’Antioche. En chemin il croisa sa mère qui pleurait et lui dit : \"Mère ne pleure pas pour moi mais plutôt pour ton mari, Romanos, afin que Dieu le ramène dans le droit chemin. »", 
+  "Ceci augmenta la colère de l’empereur qui ordonna qu’on l’envoie à Alexandrie afin qu’il y soit torturé et tué loin d’Antioche. En chemin il croisa sa mère qui pleurait et lui dit : \"Mère ne pleure pas pour moi mais plutôt pour ton mari, Romanos, afin que Dieu le ramène dans le droit chemin.", 
   "فغَضِبَ المَلِكْ وأَمَرَ بإرساله إلى الإسْكَنْدَرِيَّة لتعذيبه وقتله بعيداً عَن أنطاكية. وفي طريقه التقى بأمه التي كَانَتْ تبكى عليه. فَقَالَ لها: يا أمي لا تبكى علىَّ ولَكِنَّ ابكي عَلَى زوجك رُومَانوس لعل الرَّبْ يهديه.", 
   ],
   [
@@ -16348,7 +16338,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Les fils du roi de cette région sortirent pour chasser et installèrent des pièges. Ce saint se fit prendre par l’un d’eux alors qu’il était revêtu de peau de bête. En le voyant, les princes prirent peur et lui demandèrent : \"Qui es-tu ? D’où viens-tu ? » Il leur répondit : \"Je suis un homme et un pécheur qui demeure dans la montagne pour adorer le Seigneur Jésus Christ le Fils du Dieu vivant. » Ils lui répondirent : \"il n’y a pas d’autres dieux que le soleil et le feu. Présente-leur tes offrandes et tu auras la vie sauve ». Il leur répondit : \"Tout ceci n’est que la créature de Dieu. Vous ne connaissez pas la vérité et il serait préférable que vous adoriez le vrai Dieu qui a créé tout ceci. » Ils lui demandèrent: \"Prétends-tu que celui que les juifs ont crucifié est Dieu ? » Il leur répondit : \"Oui. Il a lui-même crucifié le péché et tué la mort. ». Alors ils se mirent en colère, attrapèrent les deux disciples, les torturèrent puis les tuèrent. Ensuite ils poursuivirent la persécution de Milius pendant deux semaines.", 
+  "Les fils du roi de cette région sortirent pour chasser et installèrent des pièges. Ce saint se fit prendre par l’un d’eux alors qu’il était revêtu de peau de bête. En le voyant, les princes prirent peur et lui demandèrent : \"Qui es-tu ? D’où viens-tu ? Il leur répondit : \"Je suis un homme et un pécheur qui demeure dans la montagne pour adorer le Seigneur Jésus Christ le Fils du Dieu vivant. Ils lui répondirent : \"il n’y a pas d’autres dieux que le soleil et le feu. Présente-leur tes offrandes et tu auras la vie sauve . Il leur répondit : \"Tout ceci n’est que la créature de Dieu. Vous ne connaissez pas la vérité et il serait préférable que vous adoriez le vrai Dieu qui a créé tout ceci. Ils lui demandèrent: \"Prétends-tu que celui que les juifs ont crucifié est Dieu ? Il leur répondit : \"Oui. Il a lui-même crucifié le péché et tué la mort. . Alors ils se mirent en colère, attrapèrent les deux disciples, les torturèrent puis les tuèrent. Ensuite ils poursuivirent la persécution de Milius pendant deux semaines.", 
   "وحدث أَنَّ خَرَجَ ولدا ملك خوراسان لصيد الوحوش ونصبا شباكهما، فوقع هَذَا القِدّيسْ داخلها. وكَانَ هَذَا القِدّيسْ لابساً ثَوْبَاً مِنَ الشعر. فَلَمَّا رأياه خافا مِنْهُ وسألاه قائلين: 'من أنت ومن أين أتيتَ '. فأجابهما: 'أنا إنْسَانْ خاطىء ساكن في هَذَا الجبل لعبادة الرَّبْ يَسْوعْ ابْنِ الله الحي'. فقَالَا له: 'ليس إله إلا الشمس والنار فتقدم واعبدهما وإلا قتلناك'. فأجابهما: 'إن هَذِهِ من صنع الله وأنتما لا تعرفان الحق، والأفضل لكما أَنَّ تعبدا الإله الحقيقي خالق هَذِهِ كلها'. فَقَالَ له: 'أتزعم أَنَّ المصلوب مِنَ اليهود إله ؟'. فقَالَ: 'نعم ذاك الذي صلب الخطية، وأمات الموت هُوَ الإله'. فحنق الاثنان عَلَيْهِ وأمسكا تلميذيه وعذَّباهما وقتلاهما. وظلا يعذِّبان القِدّيسْ مُدَةِ أسبوعين.", 
   ],
   [
@@ -16432,17 +16422,17 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Il naquit à Cyrène(درنابوليس) une ville de la Pentapole (الخمس مدن الغربية) en Lybie. Son père se prénommait Aristopoulos (أرسطوبولس) et était le cousin de la femme de l’apôtre Pierre (بطرس). Sa mère se prénommait Marie (مريم). Elle faisait partie des \"Marie » qui suivaient le Christ. Elle était la sœur de l’apôtre Barnabé (برنابا). Saint Marc avait aussi un lien de parenté avec saint Thomas (توما) l’apôtre.", 
+  "Il naquit à Cyrène(درنابوليس) une ville de la Pentapole (الخمس مدن الغربية) en Lybie. Son père se prénommait Aristopoulos (أرسطوبولس) et était le cousin de la femme de l’apôtre Pierre (بطرس). Sa mère se prénommait Marie (مريم). Elle faisait partie des \"Marie qui suivaient le Christ. Elle était la sœur de l’apôtre Barnabé (برنابا). Saint Marc avait aussi un lien de parenté avec saint Thomas (توما) l’apôtre.", 
   "وُلِدَ في درنابوليس إحدى الخمس مدن الغربية بليبيا. وَالِدَه أرسطوبولس هُوَ ابْنِ عم أو ابْنِ عمة زوجة بُطْرُسْ الرسول، وأُمُّهُ مَرْيَمْ هي إحدى المريمات اللائي تبعن السَيِّدِ المَسِيحِِ، وهي أخت برنابا الرَسُول. ويَمُت القِدّيسْ مَرْقُسْ أيْضَاً بصلة قَرَابَة لِلقِدّْيسِ توما الرَسُول.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Les tribus barbares attaquèrent la propriété de la famille de saint Marc en Lybie et la pillèrent. Alors, ils furent forcés d’émigrer en Palestine. La maison de saint Marc était le lieu où le Seigneur retrouvait les apôtres. Il est aussi là où l’Esprit Saint se répandit sur les apôtres. Lorsque l’ange libéra saint Pierre de la prison, celui-ci se refugia dans cette maison. Saint Marc est \"l’homme portant une cruche d'eau » chez qui les disciples préparèrent la Pâque dans la chambre haute.", 
+  "Les tribus barbares attaquèrent la propriété de la famille de saint Marc en Lybie et la pillèrent. Alors, ils furent forcés d’émigrer en Palestine. La maison de saint Marc était le lieu où le Seigneur retrouvait les apôtres. Il est aussi là où l’Esprit Saint se répandit sur les apôtres. Lorsque l’ange libéra saint Pierre de la prison, celui-ci se refugia dans cette maison. Saint Marc est \"l’homme portant une cruche d'eau chez qui les disciples préparèrent la Pâque dans la chambre haute.", 
   "هجمت القبائل الهمجية عَلَى أملاك أسرته في موطنه بليبيا ونهبتها، فاضطرت الأسرة للهجرة إلى فلسطين. وكَانَ بَيْت مِارِ مَرْقُسْ هُوَ المكان الذي يجتمع فيه الرَّبْ مَعَ تلاميذه (أع 1: 13، 14)، وفيه حل الرُوحِ القُدُسْ يوم الخمسين (أع 2: 1 – 4)، وإليه لجأ القِدّيسْ بُطْرُسْ بَعْدَ أَنَّ أخرجه المَلاك مِنَ السجن (أع 12: 12). ومرقس هُوَ الرَجُلْ حامل جرة الماء، والذي أعد السَّيْد المَسِيحْ الفصح في عِلِّيَّة بَيْتِه (مر 14: 13 – 15).", 
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "La première personne qui fût évangélisée par Marc fût son père. En effet, alors qu’ils longeaient le Jourdain (الأردن) un lion apparut devant eux. Le père voulut sauver son fils et lui ordonna de s’échapper. Mais, Marc lui répondit : \"Le Christ qui tient dans Sa main la vie de chacun d’entre nous ne le laissera pas nous nuire. » Alors il pria et le lion fût fendu en deux. Aristipoulos crut alors en Jésus Chris et l’emblème de Marc devint le lion à cause de cet évènement et aussi parce qu’au début de son évangile il est écrit : \"A travers le désert, une voix crie… ».", 
+  "La première personne qui fût évangélisée par Marc fût son père. En effet, alors qu’ils longeaient le Jourdain (الأردن) un lion apparut devant eux. Le père voulut sauver son fils et lui ordonna de s’échapper. Mais, Marc lui répondit : \"Le Christ qui tient dans Sa main la vie de chacun d’entre nous ne le laissera pas nous nuire. Alors il pria et le lion fût fendu en deux. Aristipoulos crut alors en Jésus Chris et l’emblème de Marc devint le lion à cause de cet évènement et aussi parce qu’au début de son évangile il est écrit : \"A travers le désert, une voix crie… .", 
   "إن أَوَّلِ شخص اجتذبه مَرْقُسْ إلى الإيمان هُوَ أبوه، وذلك عِنْدَمَا كانَا سائرين في طريقهما إلى الأردن فلاقاهما أسد، ولَمَّا أرَادَ الأبْ أَنَّ ينقذ ابنه بالهروب، قَالَ مَرْقُسْ لأبيه: 'إن السَّيْد المَسِيحْ الذي بيده نسمة كُلَّ منا لا يدعه يؤذينا'. ثُمَّ صلى فانشق الوحش، فآمن أرسطوبولس بالمسيح. وأصبح شعار مَرْقُسْ الرسول هُوَ الأسد بِسَبَبِ هَذِهِ المعجزة، وأيضاً لِأنَّ بداية إنجيله 'صوت صارخ في البرية'(مر 1: 3).", 
   ],
   [
@@ -16467,7 +16457,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Le 29 Parmouté 69, les chrétiens célébraient la glorieuse fête de Pâques dans une église bâtie dans un endroit appelé Boucoléon(بوكاليا) alors que les païens célébraient le même jour la fête de Sérapis (سيرابيس). Ceux-ci déferlèrent dans l’église et s’emparèrent de saint Marc et le trainèrent en criant : \"Trainaiez le dragon (التنين)dans la demeure des bœufs. » Puis ils le déposèrent dans une prison obscure. Au milieu de la nuit, un ange lui apparut, il le guérit et le fortifia ensuite le Seigneur lui apparut et le consola. Le lendemain, 30 Parmouté, ils le trainèrent dans les rue d’Alexandrie. Alors sa peau se déchiqueta, son sang coula et il obtint la couronne du martyre.", 
+  "Le 29 Parmouté 69, les chrétiens célébraient la glorieuse fête de Pâques dans une église bâtie dans un endroit appelé Boucoléon(بوكاليا) alors que les païens célébraient le même jour la fête de Sérapis (سيرابيس). Ceux-ci déferlèrent dans l’église et s’emparèrent de saint Marc et le trainèrent en criant : \"Trainaiez le dragon (التنين)dans la demeure des bœufs. Puis ils le déposèrent dans une prison obscure. Au milieu de la nuit, un ange lui apparut, il le guérit et le fortifia ensuite le Seigneur lui apparut et le consola. Le lendemain, 30 Parmouté, ils le trainèrent dans les rue d’Alexandrie. Alors sa peau se déchiqueta, son sang coula et il obtint la couronne du martyre.", 
   "وفي اليَوْم التاسع والعشرين من برموده سَنَةْ 68م، كَانَ المسيحيون يحتفلون بِعِيدِ القيامة المَجِيدِ في كِنِيسَةْ بوكاليا، وكَانَ عيد الإله سيرابيس في نَفْسِ اليَوْم، فهجم الوثنيون عَلَى الكَنيسَةْ وقَبَضُوا عَلَى القِدّيسْ مَرْقُسْ وجروه وهم يصيحون: 'جُروا التنين في دار البقر'. وبَعْدَ أَنْ جروه وضعوه في سجن مظلم. وفي نصف اللّيْلِ ظَهَرَ لَهُ مَلاكُ الرَّبِ وشفاه وقواه، ثُمَّ ظَهَرَ لَهُ المُخَلِّصْ وعزاه. وفي صباح اليَوْم الثلاثين من برموده، جروه أيْضَاً في شوارع الإسْكَنْدَرِيَّة فتهرأ لحمه وسال دمه، ونَالَ إكْلْيلْ الشِهَادَة.", 
   ],
   [
@@ -16499,7 +16489,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Lorsqu’il plût à Dieu d’accomplir son dessin divin, Il envoya son ange proclamer la nouvelle à Joachim alors que celui-ci s’était retiré dans la montagne pour prier durant quarante jours. Il lui dit : \"le Seigneur te donnera une progéniture par laquelle viendra le Salut du monde. » Joachim crut ce que l’ange lui annonçait et descendit immédiatement de la montagne pour en informer son épouse. Elle en fût réjouie et rendit grâce à Dieu puis elle lui raconta que l’ange lui avait annoncé aussi que leurs prières avaient été exaucées et qu’elle aura une fille qui sera bénie et que toutes les générations lui diront \"bienheureuse ». L’ange lui avait dit aussi que de cette fille viendra le Salut pour Adam et toute sa descendance.", 
+  "Lorsqu’il plût à Dieu d’accomplir son dessin divin, Il envoya son ange proclamer la nouvelle à Joachim alors que celui-ci s’était retiré dans la montagne pour prier durant quarante jours. Il lui dit : \"le Seigneur te donnera une progéniture par laquelle viendra le Salut du monde. Joachim crut ce que l’ange lui annonçait et descendit immédiatement de la montagne pour en informer son épouse. Elle en fût réjouie et rendit grâce à Dieu puis elle lui raconta que l’ange lui avait annoncé aussi que leurs prières avaient été exaucées et qu’elle aura une fille qui sera bénie et que toutes les générations lui diront \"bienheureuse . L’ange lui avait dit aussi que de cette fille viendra le Salut pour Adam et toute sa descendance.", 
   "ولما سر الله أَنَّ يتمم قصده الإلهي، أَرْسَلَ ملاكاً وبشَّر الشيخ يواقيم، حينما كَانَ مُصَلِيَّاً في الجبل لمدة أربعين يوماً، وقَالَ له: 'إن الرَّبْ سيعطيك نسلاً يَكُونَ مِنْهُ خلاص العالم'. فنـزل مِنَ الجبل لِوَقْتِهِ موقناً ومصدقاً لما قَالَه لَهُ الملاك. وأعلم زَوْجَتَهُ بِمَا رَأَى وسمع، فَفَرِحَتْ وشكرت الله. ثُمَّ قصت عَلَيْهِ أَنَّ المَلاك بَشرها هي أيْضَاً باستجابة صلواتها وأنها ستحبل وتلد ابْنَةْ مباركة تطوبِهَا الأجيال لِأنَّ مِنْهُا سَيَكُونُ خلاص آدم ونسله.", 
   ],
   [
@@ -16521,12 +16511,12 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Nous commémorons aujourd’hui le décès de Job, le juste (ايوب الصديق). \"Il n'a pas son pareil sur la terre : c'est un homme intègre et droit, qui craint Dieu et s'écarte du mal. » Le démon le jalousa et demanda à Dieu d’avoir le pouvoir sur lui ainsi que sur tout ce qu’il possède et Dieu le lui permit car Il était convaincu de la grande patience de Job et qu’il sera un exemple pour ceux qui viendront après lui. Ainsi saint Jacques dit dans son épître : \"Vous avez entendu dire comment Job a tenu bon, et vous avez vu ce qu'à la fin le Seigneur a fait pour lui. »En effet, en un seul jour il a perdu ses fils et ses filles, ses bêtes et toute sa fortune. De plus l’adversaire l’attaqua dans sa chair et il fût atteint d’une lèpre maligne qui l’atteignit du sommet de la tête jusqu’à la plante des pieds. Dans toutes ces épreuves, il rendait grâce à Dieu sans se rebeller ni blasphémer son créateur mais il dit uniquement : \"Qu'il périsse, le jour qui m'a vu naître. »Lors de la perte de ses enfants il dit aussi : \"Le Seigneur avait donné, le Seigneur a repris : Que le nom du Seigneur soit béni ! » Au milieu de tous ces malheurs, Job ne commit pas de péché. Il n'eut pas la folie de faire des reproches à Dieu.", 
+  "Nous commémorons aujourd’hui le décès de Job, le juste (ايوب الصديق). \"Il n'a pas son pareil sur la terre : c'est un homme intègre et droit, qui craint Dieu et s'écarte du mal. Le démon le jalousa et demanda à Dieu d’avoir le pouvoir sur lui ainsi que sur tout ce qu’il possède et Dieu le lui permit car Il était convaincu de la grande patience de Job et qu’il sera un exemple pour ceux qui viendront après lui. Ainsi saint Jacques dit dans son épître : \"Vous avez entendu dire comment Job a tenu bon, et vous avez vu ce qu'à la fin le Seigneur a fait pour lui. En effet, en un seul jour il a perdu ses fils et ses filles, ses bêtes et toute sa fortune. De plus l’adversaire l’attaqua dans sa chair et il fût atteint d’une lèpre maligne qui l’atteignit du sommet de la tête jusqu’à la plante des pieds. Dans toutes ces épreuves, il rendait grâce à Dieu sans se rebeller ni blasphémer son créateur mais il dit uniquement : \"Qu'il périsse, le jour qui m'a vu naître. Lors de la perte de ses enfants il dit aussi : \"Le Seigneur avait donné, le Seigneur a repris : Que le nom du Seigneur soit béni ! Au milieu de tous ces malheurs, Job ne commit pas de péché. Il n'eut pas la folie de faire des reproches à Dieu.", 
   "في مِثْلِ هَذَا اليَومْ تَنَيَّحَ أيوب الصديق. كَانَ باراً في جيله 'ليس مثله في الأرض كامل ومستقيم يتقى الله ويحيد عَن الشر' (أي 1: 8). حسده الشيطان وطَلَبَ مِنَ الله أَنَّ يمكّنه مِنْهُ ومن كُلَّ ماله، فسمح لَهُ بِذَلِكَ لعلمه بصبر أيوب، وأنه سَيَكُونُ مثالاً لمن يأتي بعده، كَمَا يقول القِدّيسْ يعقوب: 'قد سمعتم بصبر أيوب ورأيتم عاقبة الرب' (يع 5: 11). هَذَا الذي في يوم واحد فقد أبناءه وبناته ومواشيه وجميع ماله. بل وضربه العدو في جَسَدَهُ بمرض جلدي خطير من رأسه إلى قدميه. وكَانَ في ذَلِكْ جميعه شاكراً لله، ولَمْ يتذمر قط ولا جدف عَلَى خالقه. وكل ما قَالَه هو: ليته هلك اليَوْم الذي ولدت فيه' (أي 3: 3). وقَالَ عَن فقد أولاده: 'لرب أعطى والرَّبُ أَخَذَ فليكن اسْمِ الرَّبْ مباركاً. في كُلِّ هَذَا لَمْ يخطىء أيوب ولَمْ ينسب لله جهالة' (أي 1: 21، 22).", 
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Ce qui a le plus peiné Job furent les reproches qui lui firent ses amis et sa femme. Elle l’incita à blasphémer contre Dieu mais il lui répondit : \"Tu parles comme une folle. Si nous accueillons le bonheur comme un don de Dieu, comment ne pas accepter de même le malheur ! »", 
+  "Ce qui a le plus peiné Job furent les reproches qui lui firent ses amis et sa femme. Elle l’incita à blasphémer contre Dieu mais il lui répondit : \"Tu parles comme une folle. Si nous accueillons le bonheur comme un don de Dieu, comment ne pas accepter de même le malheur !", 
   "وأشد ما آلمه هُوَ تبكيت أصدقائه وزوجته لَهُ لأنها أشارت عَلَيْهِ بالتجديف، أما هُوَ فوبخها قائلاً: 'تتكلمين كإحدى الجاهلات. الخير نقبل من عِنْدَ الله والشر لا نقبل' (أي 2: 10).", 
   ],
   [
@@ -16588,7 +16578,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Nous commémorons aujourd’hui le décès de saint Jason (ياسون), l’un des soixante-dix disciples. Ce saint naquit à Tarse (طرسوس) et était parent de l’apôtre saint Paul qui le mentionna dans son épître aux romains en disant : \"Timothée, mon compagnon de travail, vous salue, ainsi que Lucius (لوكيوس), Jason et Sosipatros (سوسيبابرس), mes parents. » Il fût choisi par le Seigneur parmi les soixante-dix disciples qu’Il envoya en mission. Il prêcha avant la passion de nôtre sauveur et fit des miracles. Le Saint Esprit descendit sur lui le jour de la Pentecôte.", 
+  "Nous commémorons aujourd’hui le décès de saint Jason (ياسون), l’un des soixante-dix disciples. Ce saint naquit à Tarse (طرسوس) et était parent de l’apôtre saint Paul qui le mentionna dans son épître aux romains en disant : \"Timothée, mon compagnon de travail, vous salue, ainsi que Lucius (لوكيوس), Jason et Sosipatros (سوسيبابرس), mes parents. Il fût choisi par le Seigneur parmi les soixante-dix disciples qu’Il envoya en mission. Il prêcha avant la passion de nôtre sauveur et fit des miracles. Le Saint Esprit descendit sur lui le jour de la Pentecôte.", 
   "في مِثْلِ هَذَا اليَومْ تَنَيَّحَ القِدّيسْ ياسون أحَدْ السبعين رسولاً. وُلِدَ بطرسوس وهْوَ نسيب القِدّيسْ بُولِسْ الرسول وقَدْ ذكره في رِسَالَتِهِ إلى رومية بقوله: 'يسلم عليكم تِيمُوثَاوُسْ العامل معي ولوكيوس وياسون وسوسيباترس أنسبائي' (رو 16: 21).وقد كرز مَعَ التلاميذ قبل آلام المخلِّص، وصنع آيَاتٍ وعجائب (لو 10: 1، 17). وقَدْ حلّ عَلَيْهِ الرُوحِ القُدُسْ في يوم الخمسين.", 
   ],
   [
@@ -16598,7 +16588,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Lorsque saint Paul se rendit à Thessalonique aux environs de 51 après Jésus Christ, il demeura chez Jason et travailla avec lui dans la fabrication des tentes pour ne pas constituer un poids financier pour ce dernier comme il mentionna ceci dans son épître en disant : \"Vous vous rappelez, frères, nos peines et nos fatigues : c'est en travaillant nuit et jour, pour n'être à la charge d'aucun d'entre vous, que nous vous avons annoncé l'Évangile de Dieu »", 
+  "Lorsque saint Paul se rendit à Thessalonique aux environs de 51 après Jésus Christ, il demeura chez Jason et travailla avec lui dans la fabrication des tentes pour ne pas constituer un poids financier pour ce dernier comme il mentionna ceci dans son épître en disant : \"Vous vous rappelez, frères, nos peines et nos fatigues : c'est en travaillant nuit et jour, pour n'être à la charge d'aucun d'entre vous, que nous vous avons annoncé l'Évangile de Dieu", 
   "وعِنْدَمَا وَصَلَ القِدّيسْ بُولِسْ إلى تسالونيكي سَنَةْ 51م تقريباً نزل ضيفاً عَلَى ياسون وعمل مَعْهُ في صناعة الخيام حَتَّى لا يُثَقِل عليه، وقَدْ ذكر ذَلِكْ في رسالته: 'أنكم تذكرون أيها الإخْوَةِ تعبنا وكدنا إذ كنا نبشِّركم بإنجيل الله ونحن نعمل ليل نهار لئلا نثقل عَلَى أحَدْ منكم' (1تى 2: 9).", 
   ],
   [
@@ -16608,7 +16598,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Après le départ de Paul, Jason poursuivit son ministère en subissant de grandes souffrances au point que Paul les mentionna en disant : \"parce que vous avez souffert de la part de vos compatriotes de la même manière »\"C'est pourquoi vous êtes nôtre orgueil au milieu des Églises de Dieu, à cause de votre persévérance et de votre foi dans toutes les persécutions et les détresses que vous supportez. »", 
+  "Après le départ de Paul, Jason poursuivit son ministère en subissant de grandes souffrances au point que Paul les mentionna en disant : \"parce que vous avez souffert de la part de vos compatriotes de la même manière \"C'est pourquoi vous êtes nôtre orgueil au milieu des Églises de Dieu, à cause de votre persévérance et de votre foi dans toutes les persécutions et les détresses que vous supportez.", 
   "وبَعْدَ خروج بُولِسْ مِنَ المَدِينَةِ استمر ياسون في الخدمة، وقَدْ قابل شدائد كَثِيرَة حَتَّى أَنَّ بُولِسْ ذكَرها بقوله: 'لأنكم تألمتم أنتم أيْضَاً من أهل عشيرتكم تلك الآلام عينها' (1تى 2: 4). 'حتى أننا نحن أنفسنا نفتخر بكم في كنائس الله مِنْ أَجْلِ صبركم وإيمانكم في جَمِيعِ اضطهاداتكم والضيقات التي تحتملونها' (2تى 1: 4).", 
   ],
   [
@@ -16735,7 +16725,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "A l’époque de ce pape il fût ajouté dans la prière de confession finale de la sainte liturgie eucharistique le mot \"vivifiant » (لفظة المحي) Pireftanqo après l’expression \"que c’est le Corps » et depuis il est dit : \"que c’est le Corps vivifiant que Ton Fils Unique, nôtre Seigneur, Dieu et Sauveur Jésus Christ, a pris de nôtre Dame et nôtre Reine à tous, la Mère de Dieu sainte Marie ». Ceci fût fait après de grandes discussions.", 
+  "A l’époque de ce pape il fût ajouté dans la prière de confession finale de la sainte liturgie eucharistique le mot \"vivifiant (لفظة المحي) Pireftanqo après l’expression \"que c’est le Corps et depuis il est dit : \"que c’est le Corps vivifiant que Ton Fils Unique, nôtre Seigneur, Dieu et Sauveur Jésus Christ, a pris de nôtre Dame et nôtre Reine à tous, la Mère de Dieu sainte Marie . Ceci fût fait après de grandes discussions.", 
   "وفي عهده أُضيف إلى الاعتراف الأخير بالقداس ' كلمة المحيي ' Pireftan'o بَعْدَ عبارة 'هذا هُوَ الجَسَدْ'. لتصبح: 'هذا هُوَ الجَسَدْ المحيى الذي أخذه ابنك الوحيد'، بَعْدَ أَنَّ حَدَثَتْ بسببِهَا مجادلات كَثِيرَةْ.", 
   ],
   [
@@ -16757,7 +16747,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Le Seigneur l’appela à prophétiser par une vision qu’il eût à peu près en même temps que la venue du prophète Sophonie (صفنيا النبي). Lorsque Jérémie protesta qu’il était très jeune, le Seigneur lui toucha la bouche et lui dit : \"Ainsi, je mets dans ta bouche mes paroles ! Sache que je te donne aujourd'hui autorité sur les peuples et les royaumes, pour arracher et abattre, pour démolir et détruire, pour bâtir et planter. »", 
+  "Le Seigneur l’appela à prophétiser par une vision qu’il eût à peu près en même temps que la venue du prophète Sophonie (صفنيا النبي). Lorsque Jérémie protesta qu’il était très jeune, le Seigneur lui toucha la bouche et lui dit : \"Ainsi, je mets dans ta bouche mes paroles ! Sache que je te donne aujourd'hui autorité sur les peuples et les royaumes, pour arracher et abattre, pour démolir et détruire, pour bâtir et planter.", 
   "دعاه الرَّبْ للعمل النبوي في رؤيا في فترة نبوءة صفنيا النبي (صف 1:1)، ولَمَّا اعترض إرميا لكونه صغير السن، مد الرَّبْ يده ولمس فمه وقَالَ له: 'هأنذا قَدْ جعلت كلامي في فمك أنظر قَدْ أقمتك اليَوْم عَلَى الشعوب والممالك لتقلع وتهدم وتهلك وتنقض وتبنى وتغرس' (إر 1: 1).", 
   ],
   [
@@ -16787,7 +16777,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Jérémie avait un cœur aimant qui ne supportait pas le péché et l’anéantissement du peuple. Il était amer car il a vécu à une époque pendant laquelle la corruption avait envahi la Judée. A cause de cela il proclamait la vérité avec amour et il faisait des reproches aux gouvernants et aux rois de Judée ainsi qu’aux prêtres, aux faux prophètes et à tout le peuple. Il les avertissait des jugements divins et pleurait souvent pour son peuple et, par conséquent, il fût surnommé \"le prophète pleurant. »", 
+  "Jérémie avait un cœur aimant qui ne supportait pas le péché et l’anéantissement du peuple. Il était amer car il a vécu à une époque pendant laquelle la corruption avait envahi la Judée. A cause de cela il proclamait la vérité avec amour et il faisait des reproches aux gouvernants et aux rois de Judée ainsi qu’aux prêtres, aux faux prophètes et à tout le peuple. Il les avertissait des jugements divins et pleurait souvent pour son peuple et, par conséquent, il fût surnommé \"le prophète pleurant.", 
   "كان إرميا يحمل قلباً مُحِبّاً لا يطيق الخطية ولا هلاك شعبه، فكَانَتْ نَفْسَهُ مرة لِأَنَّهُ عاش في فترة اتسم فِيهَا يهوذا بالفساد، الأَمْرِ الذي جعله في حب عميق ينادى بالحق ويوبخ الحكام وملوك يهوذا والكَهَنَةَ والأنبياء الكذبة والشعب، منذراً إياهم بأحكام الله. وكَانَ دائم البكاء لأجل شعبه، لذلك دُعيَ 'النبي الباكي.'.", 
   ],
   [
@@ -16797,7 +16787,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Le livre des \"Lamentations de Jérémie » qu’il écrivit, comprend 5 chapitres. Dans ce livre il se lamente au sujet de la prise de Jérusalem et sa destruction ainsi que toutes les grandes douleurs que devaient subir ceux qui la défendaient par la faim et par l’épée. Il proclame que les péchés du peuple sont la cause de cette catastrophe.", 
+  "Le livre des \"Lamentations de Jérémie qu’il écrivit, comprend 5 chapitres. Dans ce livre il se lamente au sujet de la prise de Jérusalem et sa destruction ainsi que toutes les grandes douleurs que devaient subir ceux qui la défendaient par la faim et par l’épée. Il proclame que les péchés du peuple sont la cause de cette catastrophe.", 
   "وبجانب نبوته كَتَبَ أيْضَاً سفر مراثي إرميا من خمسة إصحاحات. في شكل رثاء موضوعه: 'غزو أورشليم وخرابِهَا والآلام المروعة التي قاساها المدافعون عَنْهَا من جوع وسيف'. ويعلن في الرثاء أَنَّ خطايا الشَّعْبِ كَانَتْ هي سبب الكارثة.", 
   ],
   [
@@ -16819,7 +16809,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Nous commémorons aujourd’hui le martyre de saint Isaac de Tiphré(القديس إسحاق الدفراوي) en l’an 20 des martyrs (304 après Jésus Christ). C’était un jeune homme de cette ville qui avait vingt-cinq ans. Un jour, alors qu’il dormait dans le champ avec les moissonneurs, il eût un songe dans lequel l’ange du Seigneur lui dit : \"Salut à toi, Isaac, toi qui es pieux et qui connait Dieu. Pourquoi dors-tu alors que le combat fait rage ? » Puis il lui montra une couronne.", 
+  "Nous commémorons aujourd’hui le martyre de saint Isaac de Tiphré(القديس إسحاق الدفراوي) en l’an 20 des martyrs (304 après Jésus Christ). C’était un jeune homme de cette ville qui avait vingt-cinq ans. Un jour, alors qu’il dormait dans le champ avec les moissonneurs, il eût un songe dans lequel l’ange du Seigneur lui dit : \"Salut à toi, Isaac, toi qui es pieux et qui connait Dieu. Pourquoi dors-tu alors que le combat fait rage ? Puis il lui montra une couronne.", 
   "في مِثْلِ هَذا اليَومْ مِنْ سَنَةْ 20 لِلْشُهَداءِ (304م)، كَانَ يعيش بِبَلْدَةِ دفرا (دفرا: إحدى قرى مُحَافَظَة الغربية)، شاب يُدْعَى إسحاق، كَانَ قَدْ بَلَغَ مِنَ العمر الخامسة والعشرين. وإذ كَانَ نائماً في الحقل مَعَ الحصادين، رَأَى مَلاكُ الرَّبِ يقول له: 'سلام لك يا إسحاق رَجُلٍ الله التقى، لماذا أنت نائم والجهاد قائم؟'، ثُمَّ أراه إكليلاً.", 
   ],
   [
@@ -16899,7 +16889,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Puis constatant que le saint était âgé il lui dit : \"Tu es un vieillard sage et tu pourrais devenir un conseiller pour Dioclétien. » Le saint lui répondit : \"Je suis un soldat pour le vrai Roi, Jésus Christ. » Le gouverneur voulut le donner en pâture aux lions mais les fauves se prosternèrent devant lui. Pensant qu’il s’agissait de magie, le gouverneur lui dit : \"Ô magicien malin, tu as perverti les gens avec ton Dieu Jésus Christ. » Alors Paphnouté lui répondit qu’à partir de ce moment il ne pourra plus parler jusqu’à ce qu’il confesse le Seigneur Jésus Christ. ». Ayant perdu la parole, le gouverneur fit signe qu’il confessait alors il récupéra la parole. Il invita le saint à venir se nourrir chez lui afin qu’il puisse se détendre pour encenser les idoles mais le saint rejeta la proposition.", 
+  "Puis constatant que le saint était âgé il lui dit : \"Tu es un vieillard sage et tu pourrais devenir un conseiller pour Dioclétien. Le saint lui répondit : \"Je suis un soldat pour le vrai Roi, Jésus Christ. Le gouverneur voulut le donner en pâture aux lions mais les fauves se prosternèrent devant lui. Pensant qu’il s’agissait de magie, le gouverneur lui dit : \"Ô magicien malin, tu as perverti les gens avec ton Dieu Jésus Christ. Alors Paphnouté lui répondit qu’à partir de ce moment il ne pourra plus parler jusqu’à ce qu’il confesse le Seigneur Jésus Christ. . Ayant perdu la parole, le gouverneur fit signe qu’il confessait alors il récupéra la parole. Il invita le saint à venir se nourrir chez lui afin qu’il puisse se détendre pour encenser les idoles mais le saint rejeta la proposition.", 
   "وإذ رَأَى الوالي شيخوخة القِدّيسْ قَالَ له: 'إنك شَيْخ عاقل تصلح لتكون مشيراً للملك دِقْلِدْيانُوسْ '، فأجابه: 'أنا جندي للملك الحقيقي يَسْوعْ المسيح'. فَأمَرَ الوالي أَنَّ يقيدوه ويطرحوه للأسود، فسجدت له، فظن الوالي أَنَّ هَذَا من عمل السحر وقَالَ له: 'أيها الرَجُلْ الساحر الماكر لقد ضللت الناس بإلهك يَسْوعْ المسيح'. فأجابه القِدِّيْسْ: 'إنك مِنَ الآن تصير أخرس حَتَّى تعترف بالرَّبُ يَسْوعْ'. ولَمَّا لَمْ يَقْدِرَ عَلَى الكلام أشار بيده دلالة عَلَى اعترافه، فانحلت عُقدة لسانه. وقَامَ وقبلّ رأس القِدّيسْ وقَالَ له: إنك رَجُلٍ تقي وشيخ وقور، والآن قم نمضى لنأكل ونشرب، لِكَيّْ تطيب نفسك كي ما ترفع البخور للآلهة.", 
   ],
   [
@@ -17036,12 +17026,12 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "En 362, après le décès de Constance II et l’avènement de Julien, Athanase sortit de sa clandestinité et il réunit un synode à Alexandrie connu sous le nom du \"synode des saints et des confesseurs » (مجمع القديسين والمعترفين). Julien ressentit le danger que représentait saint Athanase envers les païens et demanda au gouverneur d’Alexandrie de l’exiler. Le pape fût alors forcé à se cacher dans le tombeau de son père pendant six mois.", 
+  "En 362, après le décès de Constance II et l’avènement de Julien, Athanase sortit de sa clandestinité et il réunit un synode à Alexandrie connu sous le nom du \"synode des saints et des confesseurs (مجمع القديسين والمعترفين). Julien ressentit le danger que représentait saint Athanase envers les païens et demanda au gouverneur d’Alexandrie de l’exiler. Le pape fût alors forcé à se cacher dans le tombeau de son père pendant six mois.", 
   "وفي سَنَةْ 362م، عَادَ البابا بَعْدَ موت قسطنطيوس وتولى بعده الإمبراطور يوليانوس وعقد البابا مَجْمَعَاً بالإسْكَنْدَريّة دعي 'مجمع القِدِّيسْينْ والمعترفين'. فشعر يوليانوس بخطورة أثناسيوس عَلَى الوثنية، فأَرْسَلَ رسالة لوالي الإسْكَنْدَرِيَّة لِكَيّْ يطرد أثناسيوس، فاضطر البابا للاختفاء في مَقْبَرَةْ أبيه ستة شهور.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Comme l’empereur insistait auprès du gouverneur, saint Athanase fût contraint de partir en bateau pour la haute Égypte. Il fût rattrapé par celui du gouverneur. Comme les soldats lui demandait où se trouvait abba Athanase, il leur répondit : \"il n’est pas loin de vous. » Ceux-ci poursuivirent leur recherche en haute Égypte. Quant à lui, il rebroussa chemin en direction de la basse Égypte. Il continua à se déplacer d’un monastère à l’autre et finit par s’installer dans celui d’Akhmîm (أخميم).", 
+  "Comme l’empereur insistait auprès du gouverneur, saint Athanase fût contraint de partir en bateau pour la haute Égypte. Il fût rattrapé par celui du gouverneur. Comme les soldats lui demandait où se trouvait abba Athanase, il leur répondit : \"il n’est pas loin de vous. Ceux-ci poursuivirent leur recherche en haute Égypte. Quant à lui, il rebroussa chemin en direction de la basse Égypte. Il continua à se déplacer d’un monastère à l’autre et finit par s’installer dans celui d’Akhmîm (أخميم).", 
   "وإذ شدد الإمبراطور الخناق عَلَى الوالي، اضطر أثناسيوس أَنَّ يتجه إلى الصَعِيدِ في قارب لحق بِهِ قارب الوالي، فَسَأَلَهُ الجُنْدِ عَن أثناسيوس، أما هُوَ فَقَالَ لهم: 'إنه ليس ببعيد عنكم'، فأسرعوا إلى الصعيد، أما البابا فعَادَ إلى بحري، وأَخَذَ يتنقل بَيْنَ الأديرة في الصَعِيدِ واستقر في أَخْمِيمْ.", 
   ],
   [
@@ -17083,7 +17073,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Nous commémorons aussi le martyre de saint Jean de Senhout (يحنس السنهوتي) en l’an 21 des martyrs (305 après Jésus Christ). Il était né à Senhout, le nom de son père était Macaire et celui de sa mère : Anne. Un jour que Jean veillait sur le troupeau de moutons de son père, l'Ange du Seigneur lui apparut, lui montrant une couronne de Lumière et lui disant : \"Pourquoi restes-tu ici alors que le combat pour la Foi est engagé ? Lève-toi, va à la ville d'Atrib (Banha), et lutte pour le Nom du Seigneur Christ. ». Puis l'Ange le salua et le quitta.", 
+  "Nous commémorons aussi le martyre de saint Jean de Senhout (يحنس السنهوتي) en l’an 21 des martyrs (305 après Jésus Christ). Il était né à Senhout, le nom de son père était Macaire et celui de sa mère : Anne. Un jour que Jean veillait sur le troupeau de moutons de son père, l'Ange du Seigneur lui apparut, lui montrant une couronne de Lumière et lui disant : \"Pourquoi restes-tu ici alors que le combat pour la Foi est engagé ? Lève-toi, va à la ville d'Atrib (Banha), et lutte pour le Nom du Seigneur Christ. . Puis l'Ange le salua et le quitta.", 
   "وفيه أيْضَاً مِنْ سَنَةْ 21 لِلْشُهَداءِ (305م)، اسْتَشْهَدَ القِدّيسْ يحنس السنهوتي. وُلِدَ بسنهوت (سنهوت: إحدى قرى مركز منيا القمح مُحَافَظَة الشرقية) مِنْ أبٍ اسْمُهُ مقارة وأم اسْمَهَا حنة. وحَدَثَ وهْوَ يرعى غنم أبيه أَنَّ ظَهَرَ لَهُ مَلاكُ الرَّبِ وأراه إكليلاً من نور وقَالَ له: 'لماذا أنت جالس هنا والجهاد قائم. قم امض إلى أتريب وجاهد عَلَى اسْمِ السَيِّدْ المَسِيحْ'. ثُمَّ أعطاه السَّلامِ ومضى عنه.", 
   ],
   [
@@ -17140,7 +17130,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Après que sainte Hélène eût dépassé l’âge de soixante-dix ans, elle eût une vision et entendit une voix lui dire : \"Va à Jérusalem et cherche la croix du Sauveur. » Elle en informa son fils Constantin qui l’a fit escortée par une troupe de soldats. Arrivée à Jérusalem, elle rencontra saint Macaire (القديس مكاريوس) l’évêque de cette ville pour lui demander où se trouve la Croix. Un juif âgé lui indiqua un talus sur lequel l’empereur Hadrien avait édifié un temple dédié à Vénus en 135 après Jésus Christ dans le but de cacher la Croix. La reine fit détruire le temple et rasé le talus. Alors, elle trouva trois Croix parmi lesquelles se trouvait celle du Christ qu’ils reconnurent en la posant sur un mort qui se leva. Sur cette Croix ils trouvèrent l’inscription qu’avait faite Ponce Pilate.", 
+  "Après que sainte Hélène eût dépassé l’âge de soixante-dix ans, elle eût une vision et entendit une voix lui dire : \"Va à Jérusalem et cherche la croix du Sauveur. Elle en informa son fils Constantin qui l’a fit escortée par une troupe de soldats. Arrivée à Jérusalem, elle rencontra saint Macaire (القديس مكاريوس) l’évêque de cette ville pour lui demander où se trouve la Croix. Un juif âgé lui indiqua un talus sur lequel l’empereur Hadrien avait édifié un temple dédié à Vénus en 135 après Jésus Christ dans le but de cacher la Croix. La reine fit détruire le temple et rasé le talus. Alors, elle trouva trois Croix parmi lesquelles se trouvait celle du Christ qu’ils reconnurent en la posant sur un mort qui se leva. Sur cette Croix ils trouvèrent l’inscription qu’avait faite Ponce Pilate.", 
   "وبَعْدَ أَنَّ تجاوزت هيلانة السبعين من عمرها رأت في رؤيا من يقول لها: 'امضي إلى أورشليم وابحثي عَن صليب المخلِّص'. وإذ أعلمت ابنها، أرسلها ومَعْهَا حاشية مِنَ الجُنْدِ إلى أورشليم حَيْثُ التقت بالقديس مكاريوس أُسْقُفْ أورشليم، واستعلمت مِنْهُ عَن المكان المدفون فيه الصليب. وبَعْدَ سؤال أحَدْ المسنين مِنَ اليهود، أعلمها عَن هضبة فوقها هيكل وَثَنِي لفينوس أقامه الإمبراطور الروماني هدريان سَنَةْ 135م إمعاناً مِنْهُ في إخفاء الصليب. أمرت الملكة هيلانة بهدم الهَيّكَلْ ورفع الأتربة، فوجدت ثَلاثَةْ صلبان وتأكدوا من صليب الرَّبْ لما وضعوه عَلَى ميت فقام. كَمَا أَنَّهُمْ وجدوا عَلَى الصليب الكتابة التي كتبِهَا بيلاطس البنطي.", 
   ],
   [
@@ -17299,7 +17289,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Son corps fût décharné et il tomba malade à cause de l'intensité de son érémitisme. Alors il pria Dieu en disant : \"Mon Seigneur Jésus Christ ne me retire pas Ta grâce pour que je puisse accomplir ma tâche d’évêque. » Alors l’ange du Seigneur lui apparut et lui dit : \"Sâche que, lorsque tu étais au désert, il n’y avait personne pour s’occuper de toi si tu tombais malade et que tu ne pouvais pas trouver de médicament ; alors Dieu t’a protégé de la maladie. Maintenant que tu vis dans le monde, tu es entouré de gens qui prendront soin de toi et tu auras ce dont tu as besoin. ».", 
+  "Son corps fût décharné et il tomba malade à cause de l'intensité de son érémitisme. Alors il pria Dieu en disant : \"Mon Seigneur Jésus Christ ne me retire pas Ta grâce pour que je puisse accomplir ma tâche d’évêque. Alors l’ange du Seigneur lui apparut et lui dit : \"Sâche que, lorsque tu étais au désert, il n’y avait personne pour s’occuper de toi si tu tombais malade et que tu ne pouvais pas trouver de médicament ; alors Dieu t’a protégé de la maladie. Maintenant que tu vis dans le monde, tu es entouré de gens qui prendront soin de toi et tu auras ce dont tu as besoin. .", 
   "ومن شدة النُسك نحل جَسَدَهُ ومرض. فسأل الله في صلاته قائلاً: 'يا ربى يَسْوعْ المَسِيحْ لا تنـزع عنى نعمتك مِنْ أَجْلِ الأسقفية'. فظهر لَهُ مَلاكُ الرَّبِ وقَالَ له: 'اعلم أنك حين كنت في البَرِّيَة لَمْ يكن من يَهْتَمْ بك عِنْدَ مرضك ولا تجد دواء، فَكَانَ الله يعضدك ويمنع عنك المرض، أما الآن فأنت في العالم وعندك من يَهْتَمْ بك وما تحتاجه عِنْدَ مرضك'.", 
   ],
   [
@@ -17329,7 +17319,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Il voulut l’amadouer mais elle lui répondit : \"Que pourrais-tu m’offrir alors que j’ai dédaigné l’empire et que j’ai accepté d’être séparée de mon mari et mon fils par fidélité pour le Seigneur Jésus Christ ? » Le gouverneur ordonna alors de la torturer et de l’emprisonner mais l’ange du Seigneur lui apparut, la guérit, la consola et la fortifia. Un grand nombre de prisonniers et de spectateurs païens venus voir la reine qui souffrait se convertirent à cause d’elle.", 
+  "Il voulut l’amadouer mais elle lui répondit : \"Que pourrais-tu m’offrir alors que j’ai dédaigné l’empire et que j’ai accepté d’être séparée de mon mari et mon fils par fidélité pour le Seigneur Jésus Christ ? Le gouverneur ordonna alors de la torturer et de l’emprisonner mais l’ange du Seigneur lui apparut, la guérit, la consola et la fortifia. Un grand nombre de prisonniers et de spectateurs païens venus voir la reine qui souffrait se convertirent à cause d’elle.", 
   "أَخَذَ الوالي يلاطفها، فقَالَت له: 'ماذا يمكنك أَنَّ تعطيني وأنا قَدْ تركت المملكة ورضيت بمفارقة زوجي وابني مِنْ أَجْلِ السَيِّدِ المَسِيحِ؟'. أَمَرَ الوالي بضربِهَا وتَقْطِيعِ جسدها ثُمَّ أودعها السِجْنِ، فظهر لَهَا مَلاكُ الرَّبِ وشفاها وعزاها وقواها. وبسببِهَا آمن كَثِيرُون مِنَ المسجونين والمشاهدين الوثنيين الّذِينَ جاءوا يرون الملكة التي تتألم.", 
   ],
   [
@@ -17376,8 +17366,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "En ce jour de l'an 67 des martyrs (351 après Jésus Christ) une croix apparut au-dessus du Golgotha. Ceci eût lieu à l'époque de l'empereur Constance (قسطنديوس) le fils de Constantin le Grand (قسطنطين الكبير) et de saint Cyrille, évêque de Jérusalem. Ce dernier écrit à ce sujet : \"En ces jours mêmes de la sainte Pentecôte (7 mai 351), vers la troisième heure, une croix lumineuse gigantesque apparut dans le ciel, au-dessus du saint Golgotha, s'étendant jusqu'à la montagne des Oliviers. Elle ne fût pas seulement aperçue par une ou deux personnes mais se montra, fort nettement, à la population entière de la cité. Elle ne disparut pas rapidement comme on pourrait le supposer, à la façon d'un rêve fugace. Elle demeura visible pendant plusieurs heures, estompant par son éclat, les rayons du soleil. Assurément, elle aurait été éclipsée et dissimulée par eux, si elle n'avait offert aux spectateurs un éclat plus puissant que celui du soleil. Ainsi, tous les habitants de Jérusalem se précipitèrent brusquement au lieu de l'apparition, saisis d'une crainte mêlée de joie au spectacle de cette vision céleste. Tous, d'une seule voix, firent monter des louanges sonores vers le Christ Jésus, nôtre Seigneur. »", 
-  "وفيه أيْضَاً مِنْ سَنَةْ 67 لِلْشُهَداءِ (351م)، ظَهَرَ صليب فوق الجلجثة في زمن الإمبراطور قسطنديوس ابْنِ المَلِكْ قسطنطين الكبير. وكَانَ هَذَا في عَهْدِ القِدّيسْ كيرلس أُسْقُفْ أورشليم حَيْثُ كَتَبَ قائلاً: 'في الأَيَّامْ المُقَدَّسَةْ لعيد الخمسين نَحْوَ الساعة الثالثة مِنَ النهار، ظَهَرَ في السماء صليب ضخم فوق الجلجثة وامتد حَتَّى جبل الزيتون. ولَمْ يره واحد أو اثنان فَقَطْ ولَكِنَّهُ كَانَ واضحاً جداً لكافة سكان المَدِينَةِ. ولَمْ يختف بسرعة كَمَا كنا نتوقع كأنه خيال ولَكِنَّهُ ظَلَّ مرئياً للنظر الطبيعي ممتداً فوق الأرض عدة ساعات مضيئاً بنور أَكْثَرَ لمعاناً من أشعة الشمس. وبالتأكيد أَنَّهُ إذا لَمْ يكن لمعانه المنظور أَكْثَرَ من قوة الشمس لكَانَتْ الشمس أخفته وضيّعته. وقَدْ تدافعت كُلَّ المَدِينَةِ مرة واحدة إلى مَكَانِ المشهد مشدوهين خائفين، إنما في فرح لرؤية هَذَا المنظر السماوي، وجميعهم كانوا يسبحون للمسيح يَسْوعْ ربنا'.", 
+  "En ce jour de l'an 67 des martyrs (351 après Jésus Christ) une croix apparut au-dessus du Golgotha. Ceci eût lieu à l'époque de l'empereur Constance (قسطنديوس) le fils de Constantin le Grand (قسطنطين الكبير) et de saint Cyrille, évêque de Jérusalem. Ce dernier écrit à ce sujet : \"En ces jours mêmes de la sainte Pentecôte (7 mai 351), vers la troisième heure, une croix lumineuse gigantesque apparut dans le ciel, au-dessus du saint Golgotha, s'étendant jusqu'à la montagne des Oliviers. Elle ne fût pas seulement aperçue par une ou deux personnes mais se montra, fort nettement, à la population entière de la cité. Elle ne disparut pas rapidement comme on pourrait le supposer, à la façon d'un rêve fugace. Elle demeura visible pendant plusieurs heures, estompant par son éclat, les rayons du soleil. Assurément, elle aurait été éclipsée et dissimulée par eux, si elle n'avait offert aux spectateurs un éclat plus puissant que celui du soleil. Ainsi, tous les habitants de Jérusalem se précipitèrent brusquement au lieu de l'apparition, saisis d'une crainte mêlée de joie au spectacle de cette vision céleste. Tous, d'une seule voix, firent monter des louanges sonores vers le Christ Jésus, nôtre Seigneur.", 
+  "وفيه أيْضَاً مِنْ سَنَةْ 67 لِلْشُهَداءِ (351م)، ظَهَرَ صليب فوق الجلجثة في زمن الإمبراطور قسطنديوس ابْنِ المَلِكْ قسطنطين الكبير. وكَانَ هَذَا في عَهْدِ القِدّيسْ كيرلس أُسْقُفْ أورشليم حَيْثُ كَتَبَ قائلاً: 'في الأَيَّامْ المُقَدَّسَةْ لعيد الخمسين نَحْوَ الساعة الثالثة مِنَ النهار، ظَهَرَ في السماء صليب ضخم فوق الجلجثة وامتد حَتَّى جبل الزيتون. ولَمْ يره واحد أو اثنان فَقَطْ ولَكِنَّهُ كَانَ واضحاً جداً لكافة سكان المَدِينَةِ. ولَمْ يختف بسرعة كَمَا كنا نتوقع كأنه خيال ولَكِنَّهُ ظَلَّ مرئياً للنظر الطبيعي ممتداً فوق الأرض عدة ساعات مضيئاً بنور أَكْثَرَ لمعاناً من أشعة الشمس. وبالتأكيد أَنَّهُ إذا لَمْ يكن لمعانه المنظور أَكْثَرَ من قوة الشمس لكَانَتْ الشمس أخفته وضيّعته. وقَدْ تدافعت كُلَّ المَدِينَةِ مرة واحدة إلى مَكَانِ المشهد مشدوهين خائفين، إنما في فرح لرؤية هَذَا المنظر السماوي، وجميعهم كَانُوا يسبحون للمسيح يَسْوعْ ربنا'.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -17468,12 +17458,12 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Saint Arsène pensait souvent à la fin du monde et priait en disant : \"Seigneur, apprends-moi comment être sauvé ». Et une voix lui parvint et lui dit : \"Fuis les hommes et tu seras sauvé ». Arsène avait une sœur : il l’emmena à Constantinople et l’installa dans un monastère où se trouvaient 120 moniales. Après cela, il se rendit à Alexandrie et de là il alla à Scété où il devint le disciple de saint Jean Colobos (abba Iwannyc pikoloboc – القِدّيس يحنس القصير) puis d’Isaïe de Scété (إشعياء الإسقيطي). Il s’épuisa dans le jeune, l’adoration et la privation. Trois ans plus tard, il entendit une voix qui lui disait : \"Sois calme, isole-toi du monde et tais-toi et tu seras sauvé. » Alors, il s’isola dans une caverne.", 
+  "Saint Arsène pensait souvent à la fin du monde et priait en disant : \"Seigneur, apprends-moi comment être sauvé . Et une voix lui parvint et lui dit : \"Fuis les hommes et tu seras sauvé . Arsène avait une sœur : il l’emmena à Constantinople et l’installa dans un monastère où se trouvaient 120 moniales. Après cela, il se rendit à Alexandrie et de là il alla à Scété où il devint le disciple de saint Jean Colobos (abba Iwannyc pikoloboc – القِدّيس يحنس القصير) puis d’Isaïe de Scété (إشعياء الإسقيطي). Il s’épuisa dans le jeune, l’adoration et la privation. Trois ans plus tard, il entendit une voix qui lui disait : \"Sois calme, isole-toi du monde et tais-toi et tu seras sauvé. Alors, il s’isola dans une caverne.", 
   "كان القِدّيسْ يفكر في زوال العالم، فداوم عَلَى الصَلاةِ قائلاً: 'عَرِّفْني يارب كَيْفَ أخلص'، فجاءه يوماً صوت يقول: 'اهرب مِنَ الناس وأنت تخلص'. وكَانَتْ لَهُ أختاً فَمَضَى بِهَا إلى القُسْطَنْطِينِيَّة وأدخلها ديراً كَانَ بِهِ مائة وعشرين راهبة. وتوجه هُوَ إلى الإسْكَنْدَرِيَّةْ، ومِنْهُا إلى الإسقيط وتتلمذ عَلَى القِدّيسْ يحنس القصير ثُمَّ إشعياء الإسقيطي. فأجهد نَفْسَهُ بالصوم والعبادة والتقشف. وبَعْدَ ثلاث سنوات جاءه صوت يقول: 'الزم الهدوء والبعد عَن الناس واصمت وأنت تخلص'، فانفرد في مغارة.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Un jour il questionnait un ancien au sujet de ces pensées ; alors, un autre ancien lui demanda : \"Comment toi, qui a appris le grec et le latin, tu poses des questions à cet égyptien ignorant ? » Arsène lui répondit : \"Je connais bien la littérature grecque et latine. Toutefois je ne suis pas encore parvenu à apprendre l’alphabet que cet égyptien maitrise. » Il voulait parler du chemin qui conduit vers la vertu.", 
+  "Un jour il questionnait un ancien au sujet de ces pensées ; alors, un autre ancien lui demanda : \"Comment toi, qui a appris le grec et le latin, tu poses des questions à cet égyptien ignorant ? Arsène lui répondit : \"Je connais bien la littérature grecque et latine. Toutefois je ne suis pas encore parvenu à apprendre l’alphabet que cet égyptien maitrise. Il voulait parler du chemin qui conduit vers la vertu.", 
   "وفي أحَدْ الأَيَّامْ سأل أحَدْ الشيوخ عَن أفكاره، فرآه شَيْخ آخر وقَالَ له: 'كيف وأنت المتأدب بالرومية واليونانية تحتاج إلى أَنَّ تسأل هَذَا المصري الأمي؟'. فأجابه أرسانيوس: 'أما الأدب الرومي واليوناني فإني عارف بهما جيداً، وأما الألفا ڤيتا التي أحسنها هَذَا المصري فإني إلى الآن لَمْ أتعلمها'. وهْوَ يقَصَدَ طَرِيقِ الفَضِيلَةِ.", 
   ],
   [
@@ -17483,7 +17473,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Le pape Théophile (ثاؤفيلس), le 23ème patriarche, lui envoya un messager pour annoncer sa venue. Il répondit au messager : \"Dis au pape : ‘si tu viens je vais t’ouvrir ma porte mais je ne pourrais plus la refermer pour quiconque ; et si je l’ouvre pour tout le monde, je pourrai plus vivre ici’. » Saint Arsène pratiquait le silence à la perfection et il disait : \"Je me suis souvent repenti d'avoir parlé, jamais d'avoir gardé le silence. »", 
+  "Le pape Théophile (ثاؤفيلس), le 23ème patriarche, lui envoya un messager pour annoncer sa venue. Il répondit au messager : \"Dis au pape : ‘si tu viens je vais t’ouvrir ma porte mais je ne pourrais plus la refermer pour quiconque ; et si je l’ouvre pour tout le monde, je pourrai plus vivre ici’. Saint Arsène pratiquait le silence à la perfection et il disait : \"Je me suis souvent repenti d'avoir parlé, jamais d'avoir gardé le silence.", 
   "أَرْسَلَ البابا ثاؤفيلس البَطْرِيَرْكْ (23) رسولاً لِلقِدّْيسِ لِكَيّْ يزوره، فرد عَلَى الرسول قائلاً: 'قل للبابا إن جئت فتحت لك، وإن فتحت لك فلن أستطيع أَنَّ أغلق بابي في وَجْهَ أحد، وإن أنا فتحت لِكُلِّ الناس فلن أستطيع الإقامة هنا'. وقَدْ أتقن فضيلة الصمت، وله قول مشهور في ذلك: 'كثيراً ما تكلمت فندمت، أما عَن السكوت فما ندمت قط'.", 
   ],
   [
@@ -17513,7 +17503,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Lorsqu’Armanius perdit patience, il l’envoya à Arien (أريانوس) le gouverneur d’Antinoë (أنصنا) qui le tortura cruellement de différentes manières pendant lesquels il le mit au défi en disant : \"Je veux bien voir qui pourra te sauver d’entre mes mains. » Mais l’ange du Seigneur le sauvait et un grand nombre d’habitants d’Antinoë crurent au Christ.", 
+  "Lorsqu’Armanius perdit patience, il l’envoya à Arien (أريانوس) le gouverneur d’Antinoë (أنصنا) qui le tortura cruellement de différentes manières pendant lesquels il le mit au défi en disant : \"Je veux bien voir qui pourra te sauver d’entre mes mains. Mais l’ange du Seigneur le sauvait et un grand nombre d’habitants d’Antinoë crurent au Christ.", 
   "ولما تَحَيَّرَ الوالي من تعذيبه أرسله إلى أريانوس والي أنصنا، فعذَّبه بالهنبازين، فأضاء وجهه وامتلأ جَسَدَهُ قوة. ولَمَّا رَأَى أريانوس ذَلِكْ صاح قائلاً: 'سأرى من يقدر أَنَّ ينقذك من يدي'. ثُمَّ أَمَرَ بقلع أظافر يَدَيْهِ ورجليه وضربه بمزارب حديد، وبتعليقه عَلَى ساري طويل منكس الرأس ثُمَّ قطعوا الحبال لِكَيّْ يسقط عَلَى رأسه ويموت، ولَكِنَّ مَلاكُ الرَّبِ خلصه، فآمن كَثِيرُون من أهالي أنصنا.", 
   ],
   [
@@ -17535,7 +17525,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Nous commémorons en ce jour le décès en l'an 64 des martyrs (348 après Jésus Christ) d’abba Pacôme (أنبا باخوميوس) le père du monachisme cénobitique (أب الشركة الرهبانية). Ce saint naquit de parents païens vers 290 après Jésus Christ à Thèbes (طيبة), Louxor actuellement. Dès son enfance il fût attiré par la chasteté et la pureté rejetant l’adoration des idoles et refusant de participer aux festins de leurs adeptes. Un jour, son père l’emmena avec lui pour offrir un sacrifice aux démons qui étaient dans le fleuve mais un prêtre idolâtre l’ayant vu s’écria : \"Eloignez d’ici l’ennemi des dieux afin qu’ils arrêtent leurs colères contre nous. »", 
+  "Nous commémorons en ce jour le décès en l'an 64 des martyrs (348 après Jésus Christ) d’abba Pacôme (أنبا باخوميوس) le père du monachisme cénobitique (أب الشركة الرهبانية). Ce saint naquit de parents païens vers 290 après Jésus Christ à Thèbes (طيبة), Louxor actuellement. Dès son enfance il fût attiré par la chasteté et la pureté rejetant l’adoration des idoles et refusant de participer aux festins de leurs adeptes. Un jour, son père l’emmena avec lui pour offrir un sacrifice aux démons qui étaient dans le fleuve mais un prêtre idolâtre l’ayant vu s’écria : \"Eloignez d’ici l’ennemi des dieux afin qu’ils arrêtent leurs colères contre nous.", 
   "في مِثْلِ هَذا اليَومْ مِنْ سَنَةْ 64 لِلْشُهَداءِ (348م)، تَنَيَّحَ القِدّيسْ الأنبا باخوميوس أب الشركة الرُهْبَانية. وُلِدَ في طيبة (الأقصر حَالِيَاً)، مِنْ أَبَوينِ وثنيين نَحْوَ سَنَةْ 290م. كَانَ منذ طفولته مُحِبّاً لِلْعِفَّةِ والطهارة، غير راض عَن العبادة الوثنية، ولا يشترك في ولائمها. أخذه وَالِدَه مرة ليقدما ذبيحة للشياطين التي في النَهْرِ، وإذ رآه كَاهِنْ وَثَنِي صرخ قائلاً: 'ابعدوا عدو الآلهة من هنا حَتَّى تكف عَن غضبِهَا علينا'.", 
   ],
   [
@@ -17555,7 +17545,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Pacôme institua la même règle pour tous les monastères. Elle comprenait le travail manuel, les heures de prière en communauté. En ce qui concerne le jeune, le moine se nourrissait deux fois par jour. Il était le père de tous les monastères. Cependant il installa un abbé pour chacun d’entre eux et les visitait régulièrement. Il refusa que les moines soient ordonnés prêtre. En effet, lorsqu’il eût le sentiment que le pape abba Athanase l’apostolique (البابا أثناسيوس الرسولي) pensait l’ordonner, il s’échappa. Alors le pape dit à ses enfants : \"Dites à votre père qui a construit sa maison sur la pierre pour qu’elle ne s’ébranle pas et qui s’est échapper de la vaine gloire : \"Heureux es-tu et heureux soient tes enfants. » Ayant compris que le pape ne l’ordonnera pas, il le reçut avec grande joie lors de son retour d’Assouan.", 
+  "Pacôme institua la même règle pour tous les monastères. Elle comprenait le travail manuel, les heures de prière en communauté. En ce qui concerne le jeune, le moine se nourrissait deux fois par jour. Il était le père de tous les monastères. Cependant il installa un abbé pour chacun d’entre eux et les visitait régulièrement. Il refusa que les moines soient ordonnés prêtre. En effet, lorsqu’il eût le sentiment que le pape abba Athanase l’apostolique (البابا أثناسيوس الرسولي) pensait l’ordonner, il s’échappa. Alors le pape dit à ses enfants : \"Dites à votre père qui a construit sa maison sur la pierre pour qu’elle ne s’ébranle pas et qui s’est échapper de la vaine gloire : \"Heureux es-tu et heureux soient tes enfants. Ayant compris que le pape ne l’ordonnera pas, il le reçut avec grande joie lors de son retour d’Assouan.", 
   "جعل باخوميوس جَمِيع الأديرة تحت نظام واحد في عمل اليد وأوقات الصلوات الجماعية، ومن حَيْثُ الصوم كَانَ عَلَى الرَاهِبْ أَنَّ يتناول الطعام مرتين في اليَوْم. وكَانَ هُوَ أبَّاً عَلَى جَمِيع الأديرة، وجعل لِكُلِّ دير رئيساً وكَانَ يتفقد الرُهْبانْ بصفة منتظمة للاطمئنان عليهم. وقَدْ رَفَضَ باخوميوس الدرجات الكهنوتية في الأديرة، وعِنْدَمَا شعر أَنَّ البابا أثناسيوس الرسولي سيقوم برسامته كاهناً هرب، فَقَالَ البابا لأولاده الرُهْبَان: 'قولوا لأبيكم الذي بَنَى بَيْتِه عَلَى الصخرة التي لا تتزعزع وهرب مِنَ المجد الباطل: طوباك وطوبى لأولادك'. وعِنْدَمَا اطمأن أَنَّ البابا لن يرسمه استقبله عِنْدَ عودته من أسوان بفرح شديد.", 
   ],
   [
@@ -17565,7 +17555,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Ce saint était resté doux et humble et, lorsqu’un des frères lui demanda de lui raconter une vision, il lui répondait : \"Si tu vois un frère doux et humble, ne recherche pas une autre vision. »", 
+  "Ce saint était resté doux et humble et, lorsqu’un des frères lui demanda de lui raconter une vision, il lui répondait : \"Si tu vois un frère doux et humble, ne recherche pas une autre vision.", 
   "أما عَن القِدّيسْ فَكَانَ مَعْرُوفَاً بوداعته واتضاعه، فعِنْدَمَا سأله أحَدْ الإخْوَةِ أَنَّ يحكى لَهُ منظراً مِنَ المناظر الروحانية، أجاب: 'إذا رأيت أخاً وديعاً متواضعاً فعن غير هَذَا المنظر لا تسأل'.", 
   ],
   [
@@ -17618,12 +17608,12 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Nous commémorons en ce jour le martyre, en 68 après Jésus Christ, de saint Siméon le zélote (الغيور) ou le cananite (القانوي), l’un des douze apôtres. Ce saint naquit à Cana en Galilée (قانا الجليل). Il est appelé le zélote car il faisait partie de cette secte rigoriste et révolutionnaire qui était attaché fortement aux rites de Moïse. Il avait rejoint ce groupe environ vingt ans avant d’être appelé par le Seigneur.", 
-  "في مِثْلِ هَذا اليَومْ مِنْ سَنَةْ 68م اسْتَشْهَدَ القِدّيسْ سَمْعَانْ الغيور أحَدْ الاثنى عشر. وُلِدَ بقانا الجليل. وسُمى بالغيور إذ أَنَّهُ كَانَ من ضمن جماعة الغيورين الثائرين الّذِينَ كانوا يتمسكون بشدة بالطقوس الموسوية، وكَانَ قَدْ انتسب إليهم قَبْلَ أَنّْ يدعوه الرَّبْ بنحو عشرين عاماً.", 
+  "في مِثْلِ هَذا اليَومْ مِنْ سَنَةْ 68م اسْتَشْهَدَ القِدّيسْ سَمْعَانْ الغيور أحَدْ الاثنى عشر. وُلِدَ بقانا الجليل. وسُمى بالغيور إذ أَنَّهُ كَانَ مِنْ ضِمْنِ جماعة الغيورين الثائرين الّذِينَ كَانُوا يتمسكون بشدة بالطقوس الموسوية، وكَانَ قَدْ انتسب إليهم قَبْلَ أَنّْ يدعوه الرَّبْ بنحو عشرين عاماً.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
   "Notre Seigneur a assisté aux noces de Siméon à Cana où il transforma l’eau en vin. Lorsque Jésus Christ l’appela pour le ministère, il quitta tout et le suivit. Il était aussi présent lorsque la foule fût rassasiée par cinq pains et deux poissons. Dans les icônes grecs il est souvent représenté avec un poisson accroché à un hameçon ou portant un panier de pain.", 
-  "وسمعان القانوي هُوَ الذي حضر السَّيْد المَسِيحْ عرسه بقانا الجليل وحول الماء إلى خمر. وقَدْ تأثر بِالسَيِّدِ المَسِيحِْ فترك كُلَّ شيء وتبعه بَعْدَ أَنَّ دعاه للخدمة. حضر إشباع الجموع مِنَ الخمس خبزات والسمكتين. ويظهر هَذَا القِدّيسْ في أيقونات الكَنيسَةْ اليونانية يحمل صنارة بِهَا سمكة أو يحمل سلة خبز.", 
+  "وسمعان القانوي هُوَ الذي حَضَرَ السَّيْد المَسِيحْ عرسه بقانا الجليل وحول الماء إلى خمر. وقَدْ تأثر بِالسَيِّدِ المَسِيحِْ فترك كُلَّ شيء وتبعه بَعْدَ أَنَّ دعاه للخدمة. حَضَرَ إشباع الجموع مِنَ الخمس خبزات والسمكتين. ويظهر هَذَا القِدّيسْ في أيقونات الكَنيسَةْ اليونانية يحمل صنارة بِهَا سمكة أو يحمل سلة خبز.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -17632,7 +17622,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Après cela il se rendit en Syrie avec saint Jude (يهوذا) l’apôtre appelé aussi Thaddée (تداوس) pour proclamer l’Évangile, puis poursuivit sa prédication en Mésopotamie (ما بين النهرين) et en Perse où ils trouvèrent que l’armée se préparait à envahir l’Inde. Ils entrèrent dans un camp où les démons faisaient des prophéties par l’intermédiaire de quelques magiciens. Dès que ces deux apôtres pénétrèrent dans cet endroit, les démons se turent et, par l’intermédiaire d’une idole, dirent : \"Cela s’est passé à cause de la présence de Jude et Siméon, les 2 apôtres du Christ. » Lorsque le commandant voulut les entendre, ils lui proclamèrent le Seigneur Jésus Christ et toute sa puissance et lui prédirent que le lendemain un messager arrivera pour faire la paix.", 
+  "Après cela il se rendit en Syrie avec saint Jude (يهوذا) l’apôtre appelé aussi Thaddée (تداوس) pour proclamer l’Évangile, puis poursuivit sa prédication en Mésopotamie (ما بين النهرين) et en Perse où ils trouvèrent que l’armée se préparait à envahir l’Inde. Ils entrèrent dans un camp où les démons faisaient des prophéties par l’intermédiaire de quelques magiciens. Dès que ces deux apôtres pénétrèrent dans cet endroit, les démons se turent et, par l’intermédiaire d’une idole, dirent : \"Cela s’est passé à cause de la présence de Jude et Siméon, les 2 apôtres du Christ. Lorsque le commandant voulut les entendre, ils lui proclamèrent le Seigneur Jésus Christ et toute sa puissance et lui prédirent que le lendemain un messager arrivera pour faire la paix.", 
   "وبعدها اصطحب مَعْهُ القِدّيسْ يهوذا (تداوس) الرسول فبشَّرا معاً في بِلادْ سوريا وما بَيْنَ النهرين (العراق)، ثُمَّ ذَهَبَا إلى بِلادْ فارس حَيْثُ وجدا جيشاً يستعد لمهاجمة الهند، ولَمَّا دَخَلا المعسكر إذا بالشياطين التي كَانَتْ تنطق بالنبوة عَلَى أيْدِي السحرة لزمت الصمت ونطقت في أحَدْ الأصنام قائلة: 'إن ذَلِكْ حَدَثَ لأجل وجود يهوذا وسمعان رسوليّ المسيح'. ولَمَّا أرَادَ القائد سماعهما، بشَّراه بِالسَيِّدِ المَسِيحِْ وخلاصه وقدرته وسلطانه. ثُمَّ قَالَا للأمير: 'غداً سيأتيك رسل الهند حاملين لك صلحاً ولأجل مصلحتك'.", 
   ],
   [
@@ -17653,7 +17643,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Nous commémorons aussi le martyre de 400 personnes qui assistaient au jugement de saint Paphnouté l’ermite (ببنودة المتوحد) par Arien (إريانوس) le gouverneur d’Antinoë (أنصنا). Ceci eût lieu à Dendérah (دندرة) en l’an 20 du calendrier des martyrs (304 après Jésus Christ). Lorsque ces saints constatèrent les miracles qu’effectuait saint Paphnouté, ils crurent en Jésus Christ et proclamèrent leur Foi devant le gouverneur. Alors il les fit incinérer et ils obtinrent les couronnes du martyre.", 
-  "وفيه أيْضَاً مِنْ سَنَةْ 20 لِلْشُهَداءِ (304م) اسْتَشْهَدَ أربعمائة شخص ممَنْ كانوا يشاهدون محاكمة القِدّيسْ ببنوده المتوحد عَلَى يَدِِّ أريانوس والي أنصنا بِمَدِينَةِ دندرة وذلك أَنَّهُمْ رأوا معجزاته فآمنوا بِالسَيِّدِ المَسِيحِْ وأعلنوا إيمَانَهُم أمَامَ الوالي فأحرقهم جميعاً ونَالوا أَكَاليلِ الشِهَادَة.", 
+  "وفيه أيْضَاً مِنْ سَنَةْ 20 لِلْشُهَداءِ (304م) اسْتَشْهَدَ أربعمائة شخص ممَنْ كَانُوا يشاهدون محاكمة القِدّيسْ ببنوده المتوحد عَلَى يَدِِّ أريانوس والي أنصنا بِمَدِينَةِ دندرة وذلك أَنَّهُمْ رأوا معجزاته فآمنوا بِالسَيِّدِ المَسِيحِْ وأعلنوا إيمَانَهُم أمَامَ الوالي فأحرقهم جميعاً ونَالوا أَكَاليلِ الشِهَادَة.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -17687,7 +17677,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Il écrivit plusieurs livres utiles dont \"la lanterne dans l’obscurité éclairant le ministère » (مصباح الظلمة في إيضاح الخدمة) qui comprenait un chapitre décrivant la recette du saint Chrême et son mode de cuisson. Il regroupa aussi les canons de l’Église.", 
+  "Il écrivit plusieurs livres utiles dont \"la lanterne dans l’obscurité éclairant le ministère (مصباح الظلمة في إيضاح الخدمة) qui comprenait un chapitre décrivant la recette du saint Chrême et son mode de cuisson. Il regroupa aussi les canons de l’Église.", 
   "وكَتَبَ مجموعة مِنَ الكُتُبِ النَافِعَةْ مثل كتاب 'مصباح الظلمة في إيضاح الخدمة'، الذي يضم فصلاً عَن وصف المواد التي يتكون مِنْهُا الميرون المُقَدّسْ وطريقة طبخه، كَمَا جمع الكَثِيرِ مِنَ القوانين الكنسية.", 
   ],
   [
@@ -17715,7 +17705,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "L’Église le surnomme \"l’apôtre de l’amour » car ses épîtres en sont débordantes. Lorsqu’il eût atteint un âge avancé, on le portait à l’église et il répétait toujours la même phrase : \"Mes enfants, aimez-vous les uns les autres. »", 
-  "ولقبته الكَنيسَةْ برسول المحبة، لِأنَّ رسائله تفيض بالمحبة، وفي شيخوخته كانوا يحملونه إلى الكنيسة، فيردد عبارة واحدة هي: 'يا أولادي أحبوا بعضكم بعضاً'.", 
+  "ولقبته الكَنيسَةْ برسول المحبة، لِأنَّ رسائله تفيض بالمحبة، وفي شيخوخته كَانُوا يحملونه إلى الكنيسة، فيردد عبارة واحدة هي: 'يا أولادي أحبوا بعضكم بعضاً'.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -17737,7 +17727,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Un jour il croisât un pauvre qui faisait la manche mais il ne s’en soucia pas. Toutefois un moine passant par-là lui offrit son vêtement car il ne possédait rien d’autre. A l’instant, il vit comme un habit blanc descendant du ciel et remplaçant celui que le moine avait retiré. Epiphane en fût très surpris, il interpella le moine et le questionna au sujet de sa Foi. Lorsqu’il sut qu’il était chrétien, il voulut avoir un complément d’information concernant cette religion. Alors, le moine le présenta à l’évêque de cette région qui l’enseigna et le baptisa.", 
-  "وحدث مرة وهْوَ سائر في الطَرِيْقِ أَنَّهُ أَبْصَرَ فقيراً يطلب صدقة فَلَمْ يَهْتَمْ به، بَيْنَمَا أَبْصَرَ أحَدْ الرُهْبانْ يخلع ثوبه ويعطيه للفقير لِأَنَّهُ لَمْ يكن يمتلك غيره. في هَذَا الوَقْت رَأَى إبيفانيوس وكأن حلة بيضاء نزلت مِنَ السماء عَلَى هَذَا الرَاهِبْ عوض الثوب. تعجب من ذَلِكْ وانطلق إلى الرَاهِبْ وسأله عَن إيمانه، فأعلمه أَنَّهُ مسيحي. طلب إلَيهِ أَنَّ يُرْشِدَهُ إلى حقائق هَذَا الدين فأجابه إلى طلبه وأتى بِهِ إلى أُسْقُفْ المنطقة التي كانوا فيها، فعلمه ووعظه ثُمَّ عمَّده.", 
+  "وحدث مرة وهْوَ سائر في الطَرِيْقِ أَنَّهُ أَبْصَرَ فقيراً يطلب صدقة فَلَمْ يَهْتَمْ به، بَيْنَمَا أَبْصَرَ أحَدْ الرُهْبانْ يخلع ثوبه ويعطيه للفقير لِأَنَّهُ لَمْ يكن يمتلك غيره. في هَذَا الوَقْت رَأَى إبيفانيوس وكأن حلة بيضاء نزلت مِنَ السماء عَلَى هَذَا الرَاهِبْ عوض الثوب. تعجب من ذَلِكْ وانطلق إلى الرَاهِبْ وسأله عَن إيمانه، فأعلمه أَنَّهُ مسيحي. طلب إلَيهِ أَنَّ يُرْشِدَهُ إلى حقائق هَذَا الدين فأجابه إلى طلبه وأتى بِهِ إلى أُسْقُفْ المنطقة التي كَانُوا فيها، فعلمه ووعظه ثُمَّ عمَّده.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -17814,7 +17804,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "\"Ils se trouvaient réunis tous ensemble. Soudain un bruit survint du ciel comme un violent coup de vent : la maison où ils étaient assis en fût remplie tout entière. Alors leur apparurent des langues qu’on aurait dites de feu, qui se partageaient, et il s’en posa une sur chacun d’eux. Tous furent remplis d’Esprit Saint. »", 
-  "'فبينما كَانَ الجَمِيع معاً بِنَفْسِ واحدة صَارَ بغتة مِنَ السماء صوت كَمَا من هبوب ريح عاصفة وملأ كُلَّ البيت حَيْثُ كانوا جالسين وظَهَرَتْ لَهُمْ ألسنة من نار واستقرت عَلَى كُلَّ واحد مِنْهُمْ وامتلأ الجَمِيع مِنَ الرُوحِ القدس' (أع 2: 1 – 3).", 
+  "'فبينما كَانَ الجَمِيع معاً بِنَفْسِ واحدة صَارَ بغتة مِنَ السماء صوت كَمَا من هبوب ريح عاصفة وملأ كُلَّ البيت حَيْثُ كَانُوا جالسين وظَهَرَتْ لَهُمْ ألسنة من نار واستقرت عَلَى كُلَّ واحد مِنْهُمْ وامتلأ الجَمِيع مِنَ الرُوحِ القدس' (أع 2: 1 – 3).", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -17881,7 +17871,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Abba Isaac vécut en ermite pendant 30 ans. Il faisait partie d’un conseil de huit anciens qui dirigeaient les Kélias et Nitrie. Il était présent lorsque le pape Théophile (ثاؤفيلس) visita Nitrie pour étudier le problème des \"frères grands de taille (الاخوة الطوال). » Comme un grand nombre, il fût exilé de Nitrie en même temps que son homonyme Isaac, le prêtre de Scété (إسحاق قس شهيت). Et il revint de Palestine en 403.", 
-  "وقد عاش إسحاق في نُسكه 30 سَنَةً. وكَانَ واحداً ضمن مَجْمَعَ الثمانية شيوخ الّذِينَ كانوا يرأسون نتريا والقلالى. وكَانَ حاضراً في وقت مجيء البابا ثاؤفيلس إلى نتريا لبحث موضوع الإخْوَةِ الطوال، فأصابه ما أصاب آخرين وهْوَ الطرد من نتريا إلى فلسطين نَحْوَ سَنَةْ 400م مَعَ الأبْ إسحاق قس شِيهِيتْ. عَادَ نَحْوَ سَنَةْ 403م من فلسطين إلى نتريا.", 
+  "وقد عاش إسحاق في نُسكه 30 سَنَةً. وكَانَ واحداً ضمن مَجْمَعَ الثمانية شيوخ الّذِينَ كَانُوا يرأسون نتريا والقلالى. وكَانَ حاضراً في وقت مجيء البابا ثاؤفيلس إلى نتريا لبحث موضوع الإخْوَةِ الطوال، فأصابه ما أصاب آخرين وهْوَ الطرد من نتريا إلى فلسطين نَحْوَ سَنَةْ 400م مَعَ الأبْ إسحاق قس شِيهِيتْ. عَادَ نَحْوَ سَنَةْ 403م من فلسطين إلى نتريا.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -18035,7 +18025,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "A cause de cet épisode, le saint eût peur des ruses du démon et partit s’installer sur une île déserte. Un jour une forte tempête se leva et un navire se brisa contre les rochers. Une femme qui s’y trouvait s’agrippa à une planche jusqu’à ce qu’elle arrive sur cette île. Le saint lui donna tous les vivres dont il disposa et, se jetant dans la mer, s’accrocha à cette planche qui le ramena sur la terre ferme. Alors, il décida de ne plus s’installer nulle part et erra pendant deux ans dans les déserts.", 
-  "أما القِدّيسْ فخاف من مكائد عدو الخير فَمَضَى إلى جزيرة في وسط البحر وسكن هناك. وذَاتَ يوم حَدَثَ أَنَّ هاجت الرياح عَلَى إحدى السفن فاصطدمت بصخرة وانكسرت، فتعلقت امْرَأَةْ ممن كانوا فِيهَا بلوح خشب حَتَّى وصلت تلك الجزيرة، فَلَمَّا رآها القِدّيسْ أعطاها كُلَّ ما عنده مِنَ الخبز ورُسِمَ ذاته بعلامة الصليب وطرح نَفْسَهُ في البحر وتعلق بلوح الخشب حَتَّى وَصَلَ إلى البر، وقرر أَنَّ لا يستقر بَعْدَ ذَلِكْ في مَكَان، وأَخَذَ يجول في البراري والقفار لمدة سنتين.", 
+  "أما القِدّيسْ فخاف من مكائد عدو الخير فَمَضَى إلى جزيرة في وسط البحر وسكن هناك. وذَاتَ يوم حَدَثَ أَنَّ هاجت الرياح عَلَى إحدى السفن فاصطدمت بصخرة وانكسرت، فتعلقت امْرَأَةْ ممن كَانُوا فِيهَا بلوح خشب حَتَّى وصلت تلك الجزيرة، فَلَمَّا رآها القِدّيسْ أعطاها كُلَّ ما عنده مِنَ الخبز ورُسِمَ ذاته بعلامة الصليب وطرح نَفْسَهُ في البحر وتعلق بلوح الخشب حَتَّى وَصَلَ إلى البر، وقرر أَنَّ لا يستقر بَعْدَ ذَلِكْ في مَكَان، وأَخَذَ يجول في البراري والقفار لمدة سنتين.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -18067,7 +18057,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Il reçut le Saint Esprit dans la chambre haute et proclama l’Évangile avec les apôtres. Ce saint proclama l’Évangile dans de nombreuses villes en compagnie de Junias (يونياس) jusqu’à la conversion (اهتداء) de saint Paul. Après la conversion de ce dernier, ils l’accompagnèrent dans beaucoup d’endroits, notamment à Rome où ils proclamèrent l’Évangile et supportèrent de nombreuses tortures au point que saint Paul leur envoya un salut particulier dans sa lettre aux Romains. Saint Jean Chrysostome interprète l’expression \"qui ont été en prison avec moi » ne signifie pas qu’ils ont été physiquement en prison mais qu’ils ont supporté de plus grandes difficultés tel que l’exil, la privation de leurs familles, la faim, les morts successives, et les grandes tortures.", 
-  "هذا القِدّيسْ حضر حلول الرُوحِ القُدُسْ في يوم الخمسين، وبشَّر في مدن كَثِيرَة بصحبه القِدّيسْ يونياس قبل اهتداء الرسول بولس. أما بَعْدَ اهتداء بُولِسْ فإنهما ذَهَبَا مَعْهُ إلى أماكن عَدِيدَة أهمها مدينة رومية حَيْثُ بشَّرا هُناَكَ واحتملا كَثِيراً مِنَ الآلام، حَتَّى أَنَّ القِدّيسْ بُولِسْ الرسول عِنْدَمَا أَرْسَلَ رِسَالَتِهِ إلى رومية أقرأهما سلاماً خاصاً. ويرى القِدّيسْ يُوحَنَّا ذهبي الفم أَنَّ معنى كلمة 'المأسورين معي' أَنَّهُمَا لَمْ يسقطا تحت الأسر بالمعنى المعروف كأسرى حرب، بل احتملا ما هُوَ أقسى من ذَلِكَ، إذ عاشا في الغربة محرومين من أقربائهما، واحتملا المجاعة، والميتات المستمرة، وسقطا تحت مَتَاعِبَ كَثِيرَةْ.", 
+  "هذا القِدّيسْ حَضَرَ حلول الرُوحِ القُدُسْ في يوم الخمسين، وبشَّر في مدن كَثِيرَة بصحبه القِدّيسْ يونياس قبل اهتداء الرسول بولس. أما بَعْدَ اهتداء بُولِسْ فإنهما ذَهَبَا مَعْهُ إلى أماكن عَدِيدَة أهمها مدينة رومية حَيْثُ بشَّرا هُناَكَ واحتملا كَثِيراً مِنَ الآلام، حَتَّى أَنَّ القِدّيسْ بُولِسْ الرسول عِنْدَمَا أَرْسَلَ رِسَالَتِهِ إلى رومية أقرأهما سلاماً خاصاً. ويرى القِدّيسْ يُوحَنَّا ذهبي الفم أَنَّ معنى كلمة 'المأسورين معي' أَنَّهُمَا لَمْ يسقطا تحت الأسر بالمعنى المعروف كأسرى حرب، بل احتملا ما هُوَ أقسى من ذَلِكَ، إذ عاشا في الغربة محرومين من أقربائهما، واحتملا المجاعة، والميتات المستمرة، وسقطا تحت مَتَاعِبَ كَثِيرَةْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -18149,7 +18139,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Nous commémorons en ce jour le décès de saint Junias (القديس يونياس), un des soixante-dix disciples que le Seigneur a choisi pour proclamer le Royaume des Cieux. Il naquit à Beit-Gébraïl (بيت جبرائيل) de la tribu de Juda (سبط يهوذا). Il était présent lors de la descente du Saint Esprit le jour de la Pentecôte. Il accompagna saint Andronique (أندرونيقوس) pour la prédication de l’Évangile. Ces saints étaient en contact avec saint Paul qui leur transmit ses salutations dans son épître aux Romains. Après le décès de saint Andronique, saint Junias l’ensevelit et le mit en terre puis pria le Seigneur pour ne pas qu’il soit séparé de son ami. Alors, il décéda le lendemain.", 
-  "في مِثْلِ هَذَا اليَومْ تَنَيَّحَ القِدّيسْ يونياس أحَدْ السبعين الّذِينَ انتخبهم الرَّبْ وأرسلهم ليكرزوا بملكوت السماوات. وُلِدَ في بَيْت جبرائيل من سبط يهوذا. حضر حلول الرُوحِ القُدُسْ يوم الخمسين. رافق القِدّيسْ أندرونيقوس في الكرازة، وكانَا عَلَى صلة بالقديس بُولِسْ الرسول حَتَّى أَنَّهُ عِنْدَمَا كَتَبَ رِسَالَتِهِ إلى أهل رومية أقرأهما سلامه، وبَعْدَ أَنْ تَنَيَّحَ الرسول أندرونيقوس كفنه ودَفَنَهُ، صلى إلى الرَّبْ أَنَّ لا يفارقه، فتَنَيَّحَ هُوَ أيْضَاً في اليَوْم التالي.", 
+  "في مِثْلِ هَذَا اليَومْ تَنَيَّحَ القِدّيسْ يونياس أحَدْ السبعين الّذِينَ انتخبهم الرَّبْ وأرسلهم ليكرزوا بملكوت السماوات. وُلِدَ في بَيْت جبرائيل من سبط يهوذا. حَضَرَ حلول الرُوحِ القُدُسْ يوم الخمسين. رافق القِدّيسْ أندرونيقوس في الكرازة، وكانَا عَلَى صلة بالقديس بُولِسْ الرسول حَتَّى أَنَّهُ عِنْدَمَا كَتَبَ رِسَالَتِهِ إلى أهل رومية أقرأهما سلامه، وبَعْدَ أَنْ تَنَيَّحَ الرسول أندرونيقوس كفنه ودَفَنَهُ، صلى إلى الرَّبْ أَنَّ لا يفارقه، فتَنَيَّحَ هُوَ أيْضَاً في اليَوْم التالي.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -18179,7 +18169,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Il accompagna le pape Athanase au concile de Tyr (مجمع صور) en 335 et y prit sa défense. Il fit des reproches à l’évêque Eusèbe (يوسابيوس) qui avait été son compagnon en prison lui demandant comment il pouvait accepter de juger saint Athanase, le champion de la Foi alors qu’il avait était lâche et avait encensé les idoles. En conséquence il considérait qu’Eusèbe n’avait plus le droit de présider ce concile.", 
-  "وفي سَنَةْ 335م حضر مَجْمَعَ صور، حَيْثُ دافع عَن البابا أثناسيوس كبطل الإيمان، وقَدْ وَجْهَ اللوم للأسقف يوسابيوس الذي كَانَ زميله في السِجْنِ، كَيْفَ يقبل أَنَّ يُحَاكِم بطل الإيمان وهْوَ قَدْ سبق لَهُ أَنَّ جبن وقدم ذبيحة للأوثان؟، لذا يسقط حقه في اعتلاء كُرْسِي رئاسة المجمع.", 
+  "وفي سَنَةْ 335م حَضَرَ مَجْمَعَ صور، حَيْثُ دافع عَن البابا أثناسيوس كبطل الإيمان، وقَدْ وَجْهَ اللوم للأسقف يوسابيوس الذي كَانَ زميله في السِجْنِ، كَيْفَ يقبل أَنَّ يُحَاكِم بطل الإيمان وهْوَ قَدْ سبق لَهُ أَنَّ جبن وقدم ذبيحة للأوثان؟، لذا يسقط حقه في اعتلاء كُرْسِي رئاسة المجمع.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -18765,7 +18755,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Lorsque saint Paul vint pour le concile de Jérusalem, il le choisit pour l’accompagner dans son second voyage missionnaire en l’an 51 après Jésus Christ. Puis, lorsque qu’il institua l’Église de Troas (ترواس), saint Paul établit ce saint comme son évêque. Plus tard, sur le chemin de retour de son troisième voyage missionnaire vers Jérusalem, saint Paul passa par cette ville pour visiter cette Église et prendre des nouvelles de saint Carpos.", 
-  "وبَعْدَ أَنَّ حضر القِدّيسْ بُولِسْ الرسول مَجْمَعَ أورشليم، بَدَأَ رحلته التبشيرية الثانية في سَنَةْ 51م، فاختار القِدّيسْ كاربوس ليمضى معه. ولَمَّا أسس القِدّيسْ بُولِسْ الكَنيسَةْ في ترواس (ترواس: ميناء من أعمال ميسية، وفيها رَأَى القِدّيسْ بُولِسْ رَجُلاً مقدونياً في رؤيا يدعوه لزيارة أوروبا (أع 16: 8 – 10، 2كو 2: 12). وأقَامَ فِيهَا بُولِسْ أيْضَاً أسبوعاً حينما كَانَ راجعاً من رحلته الثالثة (أع 20: 6)، رَسَمَ هَذَا القِدّيسْ أُسْقُفَاً عليها. وفى طريق عودة القِدّيسْ بُولِسْ إلى أورشليم في ربيع سَنَةْ 58م، مر عَلَى ترواس ليفتقد الكَنيسَةْ هُناَكَ وليطمئن عَلَى القِدّيسْ كاربوس.", 
+  "وبَعْدَ أَنَّ حَضَرَ القِدّيسْ بُولِسْ الرسول مَجْمَعَ أورشليم، بَدَأَ رحلته التبشيرية الثانية في سَنَةْ 51م، فاختار القِدّيسْ كاربوس ليمضى معه. ولَمَّا أسس القِدّيسْ بُولِسْ الكَنيسَةْ في ترواس (ترواس: ميناء من أعمال ميسية، وفيها رَأَى القِدّيسْ بُولِسْ رَجُلاً مقدونياً في رؤيا يدعوه لزيارة أوروبا (أع 16: 8 – 10، 2كو 2: 12). وأقَامَ فِيهَا بُولِسْ أيْضَاً أسبوعاً حينما كَانَ راجعاً من رحلته الثالثة (أع 20: 6)، رَسَمَ هَذَا القِدّيسْ أُسْقُفَاً عليها. وفى طريق عودة القِدّيسْ بُولِسْ إلى أورشليم في ربيع سَنَةْ 58م، مر عَلَى ترواس ليفتقد الكَنيسَةْ هُناَكَ وليطمئن عَلَى القِدّيسْ كاربوس.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -20003,7 +19993,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Elisée fit de nombreux autres miracles puis décéda après avoir accompli son bon combat et il fût enterré en Samarie. Des bandes de Moabites faisaient incursion dans le pays chaque année. Il arriva que des gens qui portaient un homme en terre virent la bande ; ils jetèrent l'homme dans la tombe d'Elisée et partirent. L'homme toucha les ossements d'Elisée : il reprit vie et se dressa sur ses pieds. .", 
-  "وحدثت أيْضَاً معجزة مِنْ جَسَدَهُ بَعْدَ نياحته، فبعدما أكْمَلَ سَعْيَّهُ الصَالِحْ وتَنَيَّحَ بِسَلامْ ودُفِنَ في السامرة، وكَانَ غزاة موآب يدخلون أرض إسرائيل، وفيما كانوا يدفنون رجلاً، إذ بِهِمْ رأوا الغزاة فطرحوا الرَجُلْ في قبر أليشع، فَلَمَّا نزل الرَجُلْ ومس عظام أليشع عاش وقَامَ عَلَى رجليه (2مل 13: 21).", 
+  "وحدثت أيْضَاً معجزة مِنْ جَسَدَهُ بَعْدَ نياحته، فبعدما أكْمَلَ سَعْيَّهُ الصَالِحْ وتَنَيَّحَ بِسَلامْ ودُفِنَ في السامرة، وكَانَ غزاة موآب يدخلون أرض إسرائيل، وفيما كَانُوا يدفنون رجلاً، إذ بِهِمْ رأوا الغزاة فطرحوا الرَجُلْ في قبر أليشع، فَلَمَّا نزل الرَجُلْ ومس عظام أليشع عاش وقَامَ عَلَى رجليه (2مل 13: 21).", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -20013,7 +20003,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "L'Église commémore aussi en ce jour la consécration de l’église du martyr saint Kloug, le prêtre (أباكلوج القس). Après que cette église fût édifiée, l’évêque abba Cyrille (Kyrellos أنبا كيرلس) vint pour la consacrer. Le Seigneur ouvrit les yeux d’un enfant qui vit abba Kloug entrer dans l’église dans une grande gloire accompagné d’un être lumineux ; tous deux prirent place sur deux sièges au milieu de l’église. Il raconta ce qu’il voyait au prêtre qui lui demanda d’attendre la fin des prières. A ce moment-là, une personne possédée par le démon entra dans l’église et se mit à hurler : \"Je te conjure, saint de Dieu, ne me fait pas de mal. Je vais le quitter rapidement. » Cet homme, qui était muet, se mit immédiatement à parler et tous ceux qui étaient présents se mirent à louer Dieu.", 
-  "وفيه أيْضَاً تُعَيِِّدُ الكَنيسَةْ بتِذْكَارْ تَكّرْيسِ كِنِيسَةْ القِدّيسْ الشَهْيد أبى كلوج القِسّْ. فبعد أَنَّ تَمَّ بناء البيعة المُقَدَّسَةْ حضر الأنبا كيرلس الأُسْقُفْ وكشف الرَّبْ لشماس صغير منظر القِدّيسْ أبا كلوج يدخل البيعة بمجد عَظِيمٍ وبصحبته شخص نوراني وجلسا عَلَى كرسيين وسط البيعة وأخبر الشماس الأبْ الكاهن بالمنظر فأمره أَنَّ يتمهل حَتَّى الانتهاء، وفي هَذِهِ اللحظة دخل البيعة شخص بِهِ رُوحِ نجس وحالما دخل صرخ قائلاً: 'استحلفك يا قِدِّيسْ الله ألا تعذبني وسأخَرَجَ مِنْهُ سريعاً'. وكَانَ أخرساً فتكلم في الحال ومجد جَمِيع الموجودين الله.", 
+  "وفيه أيْضَاً تُعَيِِّدُ الكَنيسَةْ بتِذْكَارْ تَكّرْيسِ كِنِيسَةْ القِدّيسْ الشَهْيد أبى كلوج القِسّْ. فبعد أَنَّ تَمَّ بناء البيعة المُقَدَّسَةْ حَضَرَ الأنبا كيرلس الأُسْقُفْ وكشف الرَّبْ لشماس صغير منظر القِدّيسْ أبا كلوج يدخل البيعة بمجد عَظِيمٍ وبصحبته شخص نوراني وجلسا عَلَى كرسيين وسط البيعة وأخبر الشماس الأبْ الكاهن بالمنظر فأمره أَنَّ يتمهل حَتَّى الانتهاء، وفي هَذِهِ اللحظة دخل البيعة شخص بِهِ رُوحِ نجس وحالما دخل صرخ قائلاً: 'استحلفك يا قِدِّيسْ الله ألا تعذبني وسأخَرَجَ مِنْهُ سريعاً'. وكَانَ أخرساً فتكلم في الحال ومجد جَمِيع الموجودين الله.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -20156,7 +20146,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Avec le temps de nombreux moines se rassemblèrent autour de lui et il devint leur père spirituel. Ce nombre atteignit cinq cent. Ils le choisirent pour qu’il soit ordonné prêtre. Le patriarche, étant venu dans ce but, voulut l’examiner. Il dit alors aux anciens : \"Qui donc a amené ce noir ici, chassez-le. » Moïse obéit alors et sortit en se disant : \"Bien fait pour toi, le noir ». Voyant son humilité et son endurance, le patriarche le rappela et l’ordonna en lui disant : \"Moïse, tu es devenu maintenant entièrement blanc. »", 
-  "ذَاتَ يوم اجْتَمَعَ حوله خمسمائة أَخٍ وأرادوا أَنَّ يرسموه قِسَّاً، ولَمَّا حضر أمَامَ الأبْ البَطْرِيَرْكْ لرسامته، أرَادَ البَطْرِيَرْكْ أَنَّ يجربه فَقَالَ للشيوخ: 'من أتى بهذا الأسود إلى هنا، اطردوه' فأطاع وخَرَجَ وهْوَ يقول لنفسه: 'حسناً عملوا بك يا أسود اللون'، ولَمَّا رَأَى الآب البَطْرِيَرْكْ اتِضَاعِهِ واحتماله استدعاه ورسمه قِسّاً وقَالَ له: 'يا موسى قَدْ صرت الآن أبيض بالكامل'.", 
+  "ذَاتَ يوم اجْتَمَعَ حوله خمسمائة أَخٍ وأرادوا أَنَّ يرسموه قِسَّاً، ولَمَّا حَضَرَ أمَامَ الأبْ البَطْرِيَرْكْ لرسامته، أرَادَ البَطْرِيَرْكْ أَنَّ يجربه فَقَالَ للشيوخ: 'من أتى بهذا الأسود إلى هنا، اطردوه' فأطاع وخَرَجَ وهْوَ يقول لنفسه: 'حسناً عملوا بك يا أسود اللون'، ولَمَّا رَأَى الآب البَطْرِيَرْكْ اتِضَاعِهِ واحتماله استدعاه ورسمه قِسّاً وقَالَ له: 'يا موسى قَدْ صرت الآن أبيض بالكامل'.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -20166,7 +20156,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Après leur retour, les barbares firent leur première invasion de la vallée de Scété et ils attaquèrent le monastère en 407 après Jésus Christ. Moïse dit alors aux frères : \"Que celui qui veut s’échapper le fasse. » Ils lui dirent alors : \"Et toi, père, pourquoi ne t’échappes-tu pas ? » Il leur répondit : \"J’attends ce jour depuis longtemps. » Les barbares envahirent le monastère et le tuèrent ainsi que sept autres moines qui étaient restés avec lui. Mais l’un de ces moines s’était caché derrière une paillasse. Il vit l’ange du Seigneur qui, ayant déposé des couronnes sur la tête de martyrs, l’attendait, une couronne à la main. Il se dépêcha de sortir et les barbares le tuèrent lui aussi.", 
-  "ولما رجع إلى الدير لَمْ يلبث طويلاً حَتَّى هجم البربر عَلَى الدير في غارتهم الأولى سَنَةْ 407م، فَقَالَ للإخوة: 'من شاء منكم أَنَّ يهرب فليهرب' فقَالَوا له: 'وأنت لماذا لا تهرب يا أبانا؟' فقَالَ: 'أنا أنتظر هَذَا اليَوْم منذ عدة سنين'. ثُمَّ دخل البربر وقتلوه هُوَ وسبعة إخوة كانوا معه، وكَانَ واحدٌ مختبئاً وراء حصير فرأى مَلاكُ الرَّبِ قَدْ وضع أَكَاليلِ عَلَى الشهداء، وبيده إكليل وهْوَ واقف ينتظره، فخَرَجَ مسرعاً إلى البربر فقتلوه ونال مَعْهُمْ إكليل الشِهَادَة.", 
+  "ولما رجع إلى الدير لَمْ يلبث طويلاً حَتَّى هجم البربر عَلَى الدير في غارتهم الأولى سَنَةْ 407م، فَقَالَ للإخوة: 'من شاء منكم أَنَّ يهرب فليهرب' فقَالَوا له: 'وأنت لماذا لا تهرب يا أبانا؟' فقَالَ: 'أنا أنتظر هَذَا اليَوْم منذ عدة سنين'. ثُمَّ دخل البربر وقتلوه هُوَ وسبعة إخوة كَانُوا معه، وكَانَ واحدٌ مختبئاً وراء حصير فرأى مَلاكُ الرَّبِ قَدْ وضع أَكَاليلِ عَلَى الشهداء، وبيده إكليل وهْوَ واقف ينتظره، فخَرَجَ مسرعاً إلى البربر فقتلوه ونال مَعْهُمْ إكليل الشِهَادَة.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -20228,7 +20218,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "A son époque, le peuple d’Antioche avait installé, dans les mêmes conditions, un patriarche nommé Théophane (ثيئوفانيوس) au monastère d’Amonius (دير أمونيوس) car les hérétiques lui faisaient subir les mêmes ennuis. Celui-ci échangea avec le pape Pierre des lettres concernant la Foi orthodoxe.", 
-  "وفى أيَّامَهُ أقَامَ شعب أنطاكية بطريركاً لَهُمْ بِاسْمِ ثيئوفانيوس، في دير أمونيوس لِأنَّ الهراطقة أيْضَاً كانوا يضايقونهم. وتبادل مَعَ البابا بُطْرُسْ رَسَائِل الإيمان الأرثوذكسي.", 
+  "وفى أيَّامَهُ أقَامَ شعب أنطاكية بطريركاً لَهُمْ بِاسْمِ ثيئوفانيوس، في دير أمونيوس لِأنَّ الهراطقة أيْضَاً كَانُوا يضايقونهم. وتبادل مَعَ البابا بُطْرُسْ رَسَائِل الإيمان الأرثوذكسي.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -20537,7 +20527,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Ce saint était le frère de saint Jacques le mineur (يعقوب الصغير), l’évêque de Jérusalem, de Simon (سمعان) et de Joset (يوسى) qui sont surnommés les frères du Seigneur (إخوة الرب). L’Évangile de saint Jean précise que Jude posa une question au Christ au sujet de Sa Parousie en disant : \"Seigneur, et qu'est-il advenu, que tu doives te manifester à nous et non pas au monde ? » car les juifs, incluant le apôtres, attendaient le Christ comme un roi victorieux à la tête de forces armées. Le Seigneur lui répondit que son royaume n’est pas temporel mais celui de la grâce qui se trouve dans le cœur de ceux qui l’aiment et qui gardent ses paroles. Ceux-ci auront le Royaume des cieux.", 
-  "وكان هَذَا القِدّيسْ أخاً ليعقوب الصغير أُسْقُفْ أورشليم ولسمعان ويوسي المدعوين إخوة الرَبّ، وقَدْ خصّ إنجيل يُوحَنَّا يهوذا بسؤال وجهه للسيد المَسِيحْ عَن كيفية ظهوره، بقوله: 'يا سيد ماذا حَدَثَ حَتَّى أنك مُزمع أَنَّ تظهر ذاتك لنا وليس للعالم' (يو 14: 22)، لِأنَّ اليهود ومِنْهُم الرسل، كانوا ينتظرون المَسِيحْ ملكاً جباراً غنياً، تحيط بِهِ قوات مسلحة. فَقَالَ لَهُمْ الرَّبْ أَنَّ مُلْكِهِ ليس مُلْكَاً زمنياً، بل هُوَ مُلْك النعمة في قلوب محبيه وحافظي وصاياه، ولهؤلاء ملكوت سماوي.", 
+  "وكان هَذَا القِدّيسْ أخاً ليعقوب الصغير أُسْقُفْ أورشليم ولسمعان ويوسي المدعوين إخوة الرَبّ، وقَدْ خصّ إنجيل يُوحَنَّا يهوذا بسؤال وجهه للسيد المَسِيحْ عَن كيفية ظهوره، بقوله: 'يا سيد ماذا حَدَثَ حَتَّى أنك مُزمع أَنَّ تظهر ذاتك لنا وليس للعالم' (يو 14: 22)، لِأنَّ اليهود ومِنْهُم الرسل، كَانُوا ينتظرون المَسِيحْ ملكاً جباراً غنياً، تحيط بِهِ قوات مسلحة. فَقَالَ لَهُمْ الرَّبْ أَنَّ مُلْكِهِ ليس مُلْكَاً زمنياً، بل هُوَ مُلْك النعمة في قلوب محبيه وحافظي وصاياه، ولهؤلاء ملكوت سماوي.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -20745,7 +20735,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Lorsqu’il apprit que saint Paul était en prison, lors de son dernier emprisonnement, il se rendit à Rome et y rencontra saint Pierre et saint Paul avant leur martyre. Il était présent lorsque saint Pierre fût crucifié et le descendit de la croix, l’ensevelît et le porta dans la maison d’un fidèle. Il fût dénoncé à Néron qui le convoqua et le questionna à ce sujet. Il avoua et confessa sa Foi chrétienne. Après l'avoir torturé, l'empereur lui demanda comment il voulait mourir. Le saint lui répondit : \"Peu importe, pourvu que je meure pour le Christ. Choisis comment tu veux me faire mourir pour que j'atteigne rapidement mon but ». Néron ordonna alors qu'on le batte et qu'on le mette à mort la tête en bas comme saint Pierre. Ceci fût fait ainsi et il obtint la couronne du martyre.", 
-  "ولما سَمِعَ بسجن القِدّيسْ بُولِسْ الأخير في رُومَا مَضَى إلى هُناَكَ وتقابل مَعْهُ ومع القِدّيسْ بُطْرُسْ الرسول قبل استشهادهما. وقَدْ حضر هَذَا القِدّيسْ لحظة اسْتِشْهَادْ القِدّيسْ بُطْرُسْ الرسول، وهْوَ الذي أنزله عَن الصليب وكَفَّنه ونقله إلى بَيْتِ أحَدْ المَسِيحِيِّين. ولَمَّا علم الإمبراطور نيرون بعمله هذا، استحضره وسأله عَن إيمانه فأقر أَمَامَهُ بإيمانه المسيحي. فعذبه نيرون عذاباً أليماً. وسأله قائلاً: ' أية ميتة تريد أَنَّ تموت بِهَا ؟ '، فأجابه القِدّيسْ قائلاً: 'أريد أَنَّ أموت مِنْ أَجْلِ السَّيْد المَسِيحْ وكفي. ولك الحرية أَنَّ تختار طريقة موتى لأصل إلى مرادي سريعاً'. فَأمَرَ الإمبراطور بضربه وصلبه منكساً مثل القِدّيسْ بُطْرُسْ فنَالَ إكْلْيلْ الشِهَادَة.", 
+  "ولما سَمِعَ بسجن القِدّيسْ بُولِسْ الأخير في رُومَا مَضَى إلى هُناَكَ وتقابل مَعْهُ ومع القِدّيسْ بُطْرُسْ الرسول قبل استشهادهما. وقَدْ حَضَرَ هَذَا القِدّيسْ لحظة اسْتِشْهَادْ القِدّيسْ بُطْرُسْ الرسول، وهْوَ الذي أنزله عَن الصليب وكَفَّنه ونقله إلى بَيْتِ أحَدْ المَسِيحِيِّين. ولَمَّا علم الإمبراطور نيرون بعمله هذا، استحضره وسأله عَن إيمانه فأقر أَمَامَهُ بإيمانه المسيحي. فعذبه نيرون عذاباً أليماً. وسأله قائلاً: ' أية ميتة تريد أَنَّ تموت بِهَا ؟ '، فأجابه القِدّيسْ قائلاً: 'أريد أَنَّ أموت مِنْ أَجْلِ السَّيْد المَسِيحْ وكفي. ولك الحرية أَنَّ تختار طريقة موتى لأصل إلى مرادي سريعاً'. فَأمَرَ الإمبراطور بضربه وصلبه منكساً مثل القِدّيسْ بُطْرُسْ فنَالَ إكْلْيلْ الشِهَادَة.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -21231,7 +21221,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Lorsque sa mère apprit sa conversion, elle se mit en colère et en informa Dioclétien. Celui-ci ordonna au gouverneur de Césarée de Palestine (قيصرية فلسطين) de le torturer. Le gouverneur l’ayant convoqué, Procope confessa sa Foi en Jésus Christ. En conséquence, il le fit fouetter avec une telle cruauté qu’il faillit mourir puis le fit jeter en prison. Alors, le Christ lui apparut, le réconforta et le guérit. Le lendemain, il fût amené devant le gouverneur et tout le monde vit qu’il était guéri. Ceux qui l’avaient aperçu en bonne santé proclamèrent leur Foi en Jésus Christ. Parmi eux se trouvaient deux princes et douze femmes. En conséquence, ils furent décapités et obtinrent la couronne du martyre. Le gouverneur poursuivit la torture de saint Procope et, finalement, le fit décapiter. Ainsi, il obtint la couronne du martyre.", 
-  "علمت أمه بإيمانه فغضبت مِنْهُ وأعلمت دِقْلِدْيانُوسْ الذي أَمَرَ حاكم قيصرية فلسطين أَنَّ يتولى تعذيبه، فَلَمَّا حضر أَمَامَهُ اعترف بِالسَيِّدِ المَسِيحِْ فضربه ضرباً موجعاً حَتَّى أشرف عَلَى الموت ثُمَّ وَضَعَهُ في الحبس، فظهر لَهُ السَّيْد المَسِيحْ وعزاه وشفاه. وفي الصباح حضر القِدّيسْ أمَامَ الوالي ولَمَّا رآه الناس صحيحاً صرخوا قائلين 'نحن مسيحيون نؤمن بإله بروكونيوس' فضرب الوالي أعناقهم ونَالوا أَكَاليلِ الشِهَادَة، وكَانَ بينهم اثنين مِنَ الأمراء واثنتا عشرة امرأة، أما القِدّيسْ فعذبه الوالي كثيراً، أخيراً أَمَرَ بِقَطْعِ رَأسِهِ فنَالَ إكْلْيلْ الشِهَادَة.", 
+  "علمت أمه بإيمانه فغضبت مِنْهُ وأعلمت دِقْلِدْيانُوسْ الذي أَمَرَ حاكم قيصرية فلسطين أَنَّ يتولى تعذيبه، فَلَمَّا حَضَرَ أَمَامَهُ اعترف بِالسَيِّدِ المَسِيحِْ فضربه ضرباً موجعاً حَتَّى أشرف عَلَى الموت ثُمَّ وَضَعَهُ في الحبس، فظهر لَهُ السَّيْد المَسِيحْ وعزاه وشفاه. وفي الصباح حَضَرَ القِدّيسْ أمَامَ الوالي ولَمَّا رآه الناس صحيحاً صرخوا قائلين 'نحن مسيحيون نؤمن بإله بروكونيوس' فضرب الوالي أعناقهم ونَالوا أَكَاليلِ الشِهَادَة، وكَانَ بينهم اثنين مِنَ الأمراء واثنتا عشرة امرأة، أما القِدّيسْ فعذبه الوالي كثيراً، أخيراً أَمَرَ بِقَطْعِ رَأسِهِ فنَالَ إكْلْيلْ الشِهَادَة.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -21345,7 +21335,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Un jour, alors que Jean avait douze ans, un moine venant des bords de l’Euphrate et qui se dirigeait vers Jérusalem passa par Constantinople. Le jeune homme le questionna au sujet de son monastère et de la vie que les moines menaient. En conséquence Jean souhaita devenir moine. A son retour, le moine l’emmena avec lui au monastère sans que ses parents ne soient au courant. Ceux-ci furent attristés par sa disparition et le recherchèrent en vain. Quant à lui, il revêtit l’habit monastique et s’adonna avec zèle aux prières et à l’ascétisme au point qu’il n’avait plus que la peau et les os.", 
-  "وفي أحَدْ الأَيَّامْ حضر رَاهِبْ من أحَدْ الأديرة المطلة عَلَى نهر الفرات واجتاز القُسْطَنْطِينِيَّة قاصداً زيارة الأماكن المُقَدَّسَةْ بأورشليم. وكَانَ يُوحَنَّا ابْنِ اثنتي عشرة سَنَةً. فسأل الرَاهِبْ عَن مَكَانِ دَيْرِهِ وطريقة حَيَاةِ الرُهْبانْ فيه، فاشتاق لحياتهم. وعِنْدَ عودة الرَاهِبْ من أورشليم اصطحب مَعْهُ يُوحَنَّا سراً دون علم والديه ومضى إلى الدير. فحزن والداه لفراقه وبذلا الجهد في التفتيش عَنْهُ طويلاً فَلَمْ يجداه. أما القِدّيسْ فلبس الشكل الرُهْبَاني وأجهد نَفْسَهُ في أصوام كَثِيرَة ونسك زائد إلى أَنَّ نحف جسمه.", 
+  "وفي أحَدْ الأَيَّامْ حَضَرَ رَاهِبْ من أحَدْ الأديرة المطلة عَلَى نهر الفرات واجتاز القُسْطَنْطِينِيَّة قاصداً زيارة الأماكن المُقَدَّسَةْ بأورشليم. وكَانَ يُوحَنَّا ابْنِ اثنتي عشرة سَنَةً. فسأل الرَاهِبْ عَن مَكَانِ دَيْرِهِ وطريقة حَيَاةِ الرُهْبانْ فيه، فاشتاق لحياتهم. وعِنْدَ عودة الرَاهِبْ من أورشليم اصطحب مَعْهُ يُوحَنَّا سراً دون علم والديه ومضى إلى الدير. فحزن والداه لفراقه وبذلا الجهد في التفتيش عَنْهُ طويلاً فَلَمْ يجداه. أما القِدّيسْ فلبس الشكل الرُهْبَاني وأجهد نَفْسَهُ في أصوام كَثِيرَة ونسك زائد إلى أَنَّ نحف جسمه.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -21481,7 +21471,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Lorsque Dioclétien déclencha la persécution des chrétiens, Arien (أريانوس) le gouverneur d’Antinoë (أنصنا) se rendit à Latopolis (Esna إسنا). Saint Badaba se présenta devant lui en compagnie du père André ainsi que de saint Christodule (خرستوذولوس). Arien tenta d’abord de les amadouer mais constatant leur fermeté, il les fit mettre en prison. Dans la nuit le Christ leur apparut pour les consoler.", 
-  "وعِنْدَمَا أثَارَ دِقْلِدْيانُوسْ الاضطهاد، حضر أريانوس والي أنصنا إلى إسنا، فتوجه إلَيهِ القِدّيسْ بضابا واعْتَرَفَ أَمَامَهُ بِالسَيِّدِ المَسِيحِْ وكَانَ مَعْهُ القِسّْ أندراوس والقديس خرستوذولس. ولَمَّا عرف الوالي شخصياتهم أَخَذَ يلاطفهم بالوعود، فَلَمْ يفلح معهم. فَأمَرَ بوضعهم في السِجْنِ، فظهر لَهُمْ السَّيْد المَسِيحْ وعزاهم.", 
+  "وعِنْدَمَا أثَارَ دِقْلِدْيانُوسْ الاضطهاد، حَضَرَ أريانوس والي أنصنا إلى إسنا، فتوجه إلَيهِ القِدّيسْ بضابا واعْتَرَفَ أَمَامَهُ بِالسَيِّدِ المَسِيحِْ وكَانَ مَعْهُ القِسّْ أندراوس والقديس خرستوذولس. ولَمَّا عرف الوالي شخصياتهم أَخَذَ يلاطفهم بالوعود، فَلَمْ يفلح معهم. فَأمَرَ بوضعهم في السِجْنِ، فظهر لَهُمْ السَّيْد المَسِيحْ وعزاهم.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -21496,7 +21486,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "En ce jour de l’an 19 des martyrs (303 après Jésus Christ) eût lieu le grand massacre de Latopolis (Esna إسنا). En effet lorsqu’Arien, le gouverneur d’Antinoë arriva, les fidèles quittèrent la ville le jour de la fête d’abba Isaac l’anachorète (أنبا إسحاق السائح) et firent la prière d’action de grâce puis grimpèrent le mont d’Agathôn (جبل أغاثون) où leur évêque, abba Amonius (أنبا أمونيوس), s’était retiré dans sa cellule. Il les reçut et les incita à être fermes dans la Foi et leur expliquant les gloires célestes et les couronnes lumineuses qui sont préparés pour les saints et les martyrs.", 
-  "وفيه أيْضَاً مِنْ سَنَةْ 19 لِلْشُهَداءِ (303م) كَانَتْ المَذْبَحْة الكُبْرَى في مَدِينَةِ إسنا. وذلك لما حضر أريانوس والي أنصنا وسمع بِهِ الشَّعْبِ اجتمعوا جميعاً كباراً وصغاراً وخرجوا إلى باب المَدِينَةِ وَصَلُوا صلاة الشكر ثُمَّ صعدوا إلى جبل أغاثون، حَيْثُ كَانَ عيد الأنبا إسحاق السائح. وكَانَ الأنبا أمونيوس أُسْقُفْ إسنا مقيماً في قلايته في الجبل، فاستقبلهم ووعظهم أَنَّ يثبتوا عَلَى الإيمان وأوضح لَهُمْ الأمجاد السماوية والأكاليل النورانية المعدة لِلْشُهَداءِ والقديسين.", 
+  "وفيه أيْضَاً مِنْ سَنَةْ 19 لِلْشُهَداءِ (303م) كَانَتْ المَذْبَحْة الكُبْرَى في مَدِينَةِ إسنا. وذلك لما حَضَرَ أريانوس والي أنصنا وسمع بِهِ الشَّعْبِ اجتمعوا جميعاً كباراً وصغاراً وخرجوا إلى باب المَدِينَةِ وَصَلُوا صلاة الشكر ثُمَّ صعدوا إلى جبل أغاثون، حَيْثُ كَانَ عيد الأنبا إسحاق السائح. وكَانَ الأنبا أمونيوس أُسْقُفْ إسنا مقيماً في قلايته في الجبل، فاستقبلهم ووعظهم أَنَّ يثبتوا عَلَى الإيمان وأوضح لَهُمْ الأمجاد السماوية والأكاليل النورانية المعدة لِلْشُهَداءِ والقديسين.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -21526,7 +21516,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Des médecins jaloux le dénoncèrent à l'empereur en l’informant qu’il était chrétien. Ils dénoncèrent en même temps le prêtre qui l’avait christianisé ainsi qu’un grand nombre de fidèles. L’empereur exigea qu’ils renient leur Foi mais ils n’en firent rien. Par conséquent ils furent condamnés à divers supplices puis furent décapités. Quant au saint, il fût jeté dans la fosse aux lions mais ceux-ci ne lui firent aucun mal et le Seigneur le consolait et lui donnait de la force. Finalement, l’empereur le fit décapiter et il obtint la couronne du martyre.", 
-  "فحسده الأطباء وسعوا بِهِ وبالقس وبجماعة كَثِيرَة كانوا قَدْ آمنوا لَدَى الملك. فاستحضرهم وهددهم بالتعذيب إن لَمْ يكفروا بِالسَيِّدِ المَسِيحِ. وإذ لَمْ يكترثوا بتهديده عذبهم كَثِيراً ثُمَّ قطع رؤوسهم. أما القِدّيسْ فقد أرَادَ أَنَّ يبالغ في تعذيبه بِأنَّ ألقاه للأسود فَلَمْ تؤذه وكَانَ الرَّبْ يُقَوِّيه ويَشْفِيه. ثُمَّ أَمَرَ أخيراً بِقَطْعِ رَأسِهِ.", 
+  "فحسده الأطباء وسعوا بِهِ وبالقس وبجماعة كَثِيرَة كَانُوا قَدْ آمنوا لَدَى الملك. فاستحضرهم وهددهم بالتعذيب إن لَمْ يكفروا بِالسَيِّدِ المَسِيحِ. وإذ لَمْ يكترثوا بتهديده عذبهم كَثِيراً ثُمَّ قطع رؤوسهم. أما القِدّيسْ فقد أرَادَ أَنَّ يبالغ في تعذيبه بِأنَّ ألقاه للأسود فَلَمْ تؤذه وكَانَ الرَّبْ يُقَوِّيه ويَشْفِيه. ثُمَّ أَمَرَ أخيراً بِقَطْعِ رَأسِهِ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -21689,7 +21679,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Saint Longin assista à la mise au tombeau du Christ et faisait partie des gardes qui le surveillaient. La Résurrection du Christ alors que le tombeau était scellé, l'intrigua et il refusa l’argent donnée par les juifs pour nier cette Résurrection. Il demanda à Dieu de l'éclairer au sujet de ce mystère alors l'apôtre Pierre lui fût envoyé. Il lui expliqua la réalité de la personne du Christ, de Sa Divinité, et du grand Salut qu’Il avait opéré sur la Croix. Longin crut alors, se fit baptiser et quitta l'armée. Il rentra en Cappadoce où il proclama la bonne nouvelle du Christ. Dieu fit par son intermédiaire des miracles surprenants et un grand nombre crut.", 
-  "كما حضر أيْضَاً دفن السَّيْد المَسِيحْ وكَانَ حارساً لقبر المُخَلِّصْ مَعَ جنوده، فَلَمَّا قَامَ السَّيْد المَسِيحْ والقبر مختوم زاد عجبه ورفض رشوة اليهود لإنكار قيامة السَيِّدِ المَسِيحِِ، وكَانَ يسأل الله أَنَّ يعرفه الحقيقة فأَرْسَلَ إلَيهِ بُطْرُسْ الرسول فأعلمه بحقيقة شخص المُخَلِّصْ وألوهيته والفداء العَظِيمْ الذي صنعه عَلَى الصليب، فآمن واعتمد وترك الجندية وذهب ليبشر في بِلادْ الكبادوك فآمن كَثِيرُون عَلَى يَدَيْهِ وأجْرَى الله عَلَى يَدَيْهِ آيَاتٍ باهرة.", 
+  "كما حَضَرَ أيْضَاً دفن السَّيْد المَسِيحْ وكَانَ حارساً لقبر المُخَلِّصْ مَعَ جنوده، فَلَمَّا قَامَ السَّيْد المَسِيحْ والقبر مختوم زاد عجبه ورفض رشوة اليهود لإنكار قيامة السَيِّدِ المَسِيحِِ، وكَانَ يسأل الله أَنَّ يعرفه الحقيقة فأَرْسَلَ إلَيهِ بُطْرُسْ الرسول فأعلمه بحقيقة شخص المُخَلِّصْ وألوهيته والفداء العَظِيمْ الذي صنعه عَلَى الصليب، فآمن واعتمد وترك الجندية وذهب ليبشر في بِلادْ الكبادوك فآمن كَثِيرُون عَلَى يَدَيْهِ وأجْرَى الله عَلَى يَدَيْهِ آيَاتٍ باهرة.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -21945,7 +21935,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "\"Quand Hérode eût cessé de vivre, voici que l'Ange du Seigneur apparaît en songe à Joseph, en Égypte, et lui dit: ‘Lève-toi, prends avec toi l'enfant et sa mère, et mets-toi en route pour la terre d'Israël; car ils sont morts, ceux qui en voulaient à la vie de l'enfant.’ Il se leva, prit avec lui l'enfant et sa mère, et rentra dans la terre d'Israël. ... Averti en songe, il se retira dans la région de Galilée et vint s'établir dans une ville appelée Nazareth. »", 
-  "فَلَمَّا مات هيرودس، إذا مَلاكُ الرَّبِ قَدْ ظَهَرَ في حلم ليوسف في مِصْرْ قائلاً: 'قم وخذ الصبي وأُمُّهُ واذهب إلى أرض إسرائيل، لِأَنَّهُ قَدْ مات الّذِينَ كانوا يَطْلُبونَ نفس الصبي. فَقَامَ وأَخَذَ الصبي وأُمُّهُ وجاء إلى أرض إسرائيل... وإذ أوحى إلَيهِ في حلم انصرف إلى نواحي الجليل وأتى وسكن في مَدِينَةِ يقَالَ لَهَا ناصرة (مت 2: 19 – 23).", 
+  "فَلَمَّا مات هيرودس، إذا مَلاكُ الرَّبِ قَدْ ظَهَرَ في حلم ليوسف في مِصْرْ قائلاً: 'قم وخذ الصبي وأُمُّهُ واذهب إلى أرض إسرائيل، لِأَنَّهُ قَدْ مات الّذِينَ كَانُوا يَطْلُبونَ نفس الصبي. فَقَامَ وأَخَذَ الصبي وأُمُّهُ وجاء إلى أرض إسرائيل... وإذ أوحى إلَيهِ في حلم انصرف إلى نواحي الجليل وأتى وسكن في مَدِينَةِ يقَالَ لَهَا ناصرة (مت 2: 19 – 23).", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -22796,7 +22786,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Il y avait à Alexandrie un juif nommé Philoxène (فيلوكسينوس) qui était très riche, et pratiquait rigoureusement la Loi de Moïse. Dans cette ville se trouvaient aussi deux chrétiens misérables et indigents. L'un d'entre eux se mit à dire : \"Pourquoi adorons-nous le Christ et restons pauvres alors que ce juif est très riche ? » Le second lui répondit : \"Les biens de ce monde ne comptent pas auprès de Dieu. S’ils comptaient, il n’en aurait pas donné aux idolâtres, aux adultères, aux voleurs ni aux assassins. La richesse n’est pas une preuve du consentement de Dieu. En effet les prophètes et les apôtres étaient pauvres » Le premier homme ne fût pas convaincu par ces paroles. Il se rendit chez Philoxène et lui demanda de le prendre à son service. Celui-ci lui répondit : \"Il ne m’est pas permis d’avoir à mon service que ceux qui ont la même religion que moi. Si tu veux l’aumône je te donne. » Le pauvre lui répondit : \"Prend-moi chez toi, je me convertirai et obéirai à tous tes ordres. »", 
-  "وذلك أَنَّهُ كَانَ في مَدِينَةِ الإسْكَنْدَرِيَّة رَجُلٍ يهودي اسْمُهُ فيلوكسينوس وكَانَ غنياً جداً ومدققاً في شريعة موسى وكَانَ بِهَا كذلك مسيحيان فقيران، فَقَالَ أحدهما 'لماذا نعبد المَسِيحْ ونحن فقراء وهذا اليهودي غني جداً'. أجَابَهُ الثاني قائلاً: 'إن مال الدنيا ليس لَهُ عِنْدَ الله حساباً. ولو كَانَ لَهُ حساباً لما أعطاه لعابدي الأَوْثَانَ والزناة واللصوص والقتلة، وإن الغنى ليس دليلاً كافياً عَلَى رضى الله، فالأنبياء والرسل كانوا فقراء'. فَلَمْ يقتنع الرَجُلْ فذهب إلى فيلوكسينوس اليهودي وسأله أَنَّ يقبله في خدمته. فَقَالَ لَهُ لا يحل أَنَّ يخدمني إلا من يدين بديني فإن أردت صدقة أعطيتك، فأجابه قائلاً: 'خذني عندك وأنا اعتنق دينك وأعمل جَمِيع ما تأمرني به'.", 
+  "وذلك أَنَّهُ كَانَ في مَدِينَةِ الإسْكَنْدَرِيَّة رَجُلٍ يهودي اسْمُهُ فيلوكسينوس وكَانَ غنياً جداً ومدققاً في شريعة موسى وكَانَ بِهَا كذلك مسيحيان فقيران، فَقَالَ أحدهما 'لماذا نعبد المَسِيحْ ونحن فقراء وهذا اليهودي غني جداً'. أجَابَهُ الثاني قائلاً: 'إن مال الدنيا ليس لَهُ عِنْدَ الله حساباً. ولو كَانَ لَهُ حساباً لما أعطاه لعابدي الأَوْثَانَ والزناة واللصوص والقتلة، وإن الغنى ليس دليلاً كافياً عَلَى رضى الله، فالأنبياء والرسل كَانُوا فقراء'. فَلَمْ يقتنع الرَجُلْ فذهب إلى فيلوكسينوس اليهودي وسأله أَنَّ يقبله في خدمته. فَقَالَ لَهُ لا يحل أَنَّ يخدمني إلا من يدين بديني فإن أردت صدقة أعطيتك، فأجابه قائلاً: 'خذني عندك وأنا اعتنق دينك وأعمل جَمِيع ما تأمرني به'.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -23188,7 +23178,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Ces sept jeunes faisaient partie de l'armée de l'empereur Dèce (ديسيوس) qui leur avait confié la tâche de surveiller le trésor royal. Lorsque l'empereur voulut relancer l'adoration des idoles, ils furent dénoncés comme chrétiens car il avait confiance en eux. Lorsque l’empereur déclencha la persécution des chrétiens, ils craignirent de faiblir et de renier le Christ. Alors, ils se refugièrent dans une caverne hors de la ville et s'y cachèrent. Lorsque l'empereur apprit cela il ordonna de boucher avec de murer l’entrée de la caverne. En conséquence ils rendirent leurs âmes entre les mains du Seigneur et ils obtinrent la couronne du martyre. Cependant l'un des soldats chargés de cette obligation était croyant. Il grava leur histoire sur une plaque de cuivre qu'il laissa dans la caverne.", 
-  "هؤلاء كانوا من جُنُود المَلِكْ ديسيوس وقَدْ عينهم عَلَى خزائنه لثقته في أمانتهم ولَمَّا أثَارَ عبادة الأَوْثَانَ وَشَى بِهِمْ بَعْضُ الأشرار إلى المَلِكِ فالتجأوا إلى كهف خَارِجَ المَدِينَةِ، ولَمَّا علم المَلِكْ بِذَلِكَ أَمَرَ بسد باب الكهف عليهم فأسلموا أرواحهم الطَاهِرَةِ بيد الرَّبْ ونَالوا أَكَاليلِ الشِهَادَة. وكَانَ يُوجَدْ جندي تقي يعرفهم فنقش أسماءهم وسيرتهم عَلَى لوح نحاس وألقاه في الكهف.", 
+  "هؤلاء كَانُوا من جُنُود المَلِكْ ديسيوس وقَدْ عينهم عَلَى خزائنه لثقته في أمانتهم ولَمَّا أثَارَ عبادة الأَوْثَانَ وَشَى بِهِمْ بَعْضُ الأشرار إلى المَلِكِ فالتجأوا إلى كهف خَارِجَ المَدِينَةِ، ولَمَّا علم المَلِكْ بِذَلِكَ أَمَرَ بسد باب الكهف عليهم فأسلموا أرواحهم الطَاهِرَةِ بيد الرَّبْ ونَالوا أَكَاليلِ الشِهَادَة. وكَانَ يُوجَدْ جندي تقي يعرفهم فنقش أسماءهم وسيرتهم عَلَى لوح نحاس وألقاه في الكهف.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
