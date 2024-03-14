@@ -611,8 +611,8 @@ async function changeDate(
   showAlert: boolean = true
 ): Promise<Date> {
   if (date) {
-    if (!todayDate || checkIfDateIsToday(date)) todayDate = new Date();
-    else todayDate.setTime(new Date(date).getTime());
+    if (!todayDate || checkIfDateIsToday(date)) todayDate = new Date();//If todayDate is not set, or if the "date" argument is today, we set todayDate = today (i.e., newDate())
+    else todayDate.setTime(new Date(date).getTime());//If todayDate is set, and the date passed as argument is not today, we set todayDate to the "date" argument
   } else {
     if (next) {
       todayDate.setTime(todayDate.getTime() + days * calendarDay); //advancing the date by the number of calendar years
@@ -642,6 +642,7 @@ async function changeDate(
       copticDate +
       " of the coptic calendar "
     );
+  showChildButtonsOrPrayers(btnMainMenu); //We return to the main page menu because in some cases when the date changes, the buttons/prayers availabe are not the same according to the Season
   return todayDate;
 }
 

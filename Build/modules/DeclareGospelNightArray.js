@@ -612,7 +612,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "1HEProphecies&D=GL7thSunday&C=Title",
             "Prophecies de la Première heure de la veille du lundi",
-            "",
+            "Prophecies de la Première heure de la veille du lundi",
             "نبوات الساعة الأولى من ليلة الإثنين",
         ],
         [
@@ -644,7 +644,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "1HEGospel&D=GL7thSunday&C=Title",
             "Evangile de la Première heure de la veille du lundi",
-            "",
+            "Evangile de la Première heure de la veille du lundi",
             " إنجيل الساعة الأولى من ليلة الإثنين",
         ],
         [
@@ -655,7 +655,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         ],
         [
             Prefix.HolyWeek + "1HEGospel&D=GL7thSunday&C=Diacon",
-            "Iwannhn   Kev  i/b/> k/-l/\nNe ouon anoueinin de pe `èebol'en nheqnhou `èe`è\\rhi `èe`èp]ai ina `èntououw]t > nai oun au`èi a Vilippoc pirem Bhqcaida `ènte ;Galilea ouo nau;o `èerof pe eujw `èmmoc je pen_ tenouw] `èenau `èeIhc? > Af`èi `ènje Vilippoc afjoc `ènAndreac > Andreac de on nem Vilippoc au`èi aujoc `ènIhc?. Ihc? de `èetaferou`èw pejaf nwou je ac`èi `ènje ;ounou ina `ènte `èp]hri `èmvrwmi siwou. Amhn amhn ;jw `èmmoc nwten je `èare`è]tem ;navri `èncouo ei ijen pikai ouo `ènte`ècmou `ènqoc `èmmauatc `èe]ac]wpi `èe]wp de ac]anmou ]acen oumh] `ènouta `èebol. Vheqmei `èntefyuxh ef`èetakoc ouo vheqmoc; `èntefyuxh `èn`è'rhi 'en paikocmoc `èef`èeare `èeroc euwn' `èn`èene. Vheqna]em]i `èmmoi marefoua `èncwi ouo `èvma `èe;]op `èmmof ef`èe]wpi `èmmau nemhi `ènje paref]em]i ouo vheqnaerref]em]i nhi `èfnaertiman `èmmof `ènje paiwt > ;nou `èa tauyxh `è]qorter ouo oupe;najof paiwt namet `èebol'en taiounou alla eqbe vai ai`èi `èetai ounou > Viwt ma`èwou `èmpek]hri ou`ècmh ac`èi `èebol'en `ètve ecjw `èmmoc je ai;`èwou palin on ;na;`èwou. \nPimh] oun `èenafo`èi `èeratf `èetaucwtem nau jw `èmmoc je ou'arabai petac]wpi ankexwouni de naujw `èmmoc je ouaggeloc petafcaji nemaf. Aferou`èw nwou `ènje Ihc? ouo pejaf je `èetac]wpi   an eqbht `ènje tai`ècmh alla eqbe qhnou > ;nou `èpap pe `ènte paikocmoc ;nou `èparxwn `ènte paikocmoc eu`èeitf `èebol > ouo `èanok w ai]ansici `èebol a `èpkai ei`èecek ouon niben aroi. Vai de naf jw `èmmof ef;mhini je 'en a] `èmmou  `èfnamou > `èaferou`èw naf `ènje pimh] efjw `èmmoc je `èanon ancwtem `èebol'en pinomoc je Pxc? ]op ]a `èene > ouo pwc ekjw `èmmoc `ènqok je w; pe `èntousec `èp]hri `èm`èvrwmi > nim pe `èp]hri `èm`èvrwmi.  Peje Ihc? nwou je `èeti kekouji `ènchou piouwini 'en qhnou mo]i oun 'en piouwini wc piouwini `ènten qhnou ina `ènte`è]tem pixaki tae qhnou je vheqmo]i 'en pixaki `èn`èfemi an je afmo]i `èeqwn > oc piouwini `ènten qhnou na;`èepiouwini ina `èntetener]hri `èmpiouwini. Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
+            "Iwannhn   Kev  i/b/> k/-l/\nNe ouon anoueinin de pe `èebol'en nheqnhou `èe`è\rhi `èe`èp]ai ina `èntououw]t > nai oun au`èi a Vilippoc pirem Bhqcaida `ènte ;Galilea ouo nau;o `èerof pe eujw `èmmoc je pen_ tenouw] `èenau `èeIhc? > Af`èi `ènje Vilippoc afjoc `ènAndreac > Andreac de on nem Vilippoc au`èi aujoc `ènIhc?. Ihc? de `èetaferou`èw pejaf nwou je ac`èi `ènje ;ounou ina `ènte `èp]hri `èmvrwmi siwou. Amhn amhn ;jw `èmmoc nwten je `èare`è]tem ;navri `èncouo ei ijen pikai ouo `ènte`ècmou `ènqoc `èmmauatc `èe]ac]wpi `èe]wp de ac]anmou ]acen oumh] `ènouta `èebol. Vheqmei `èntefyuxh ef`èetakoc ouo vheqmoc; `èntefyuxh `èn`è'rhi 'en paikocmoc `èef`èeare `èeroc euwn' `èn`èene. Vheqna]em]i `èmmoi marefoua `èncwi ouo `èvma `èe;]op `èmmof ef`èe]wpi `èmmau nemhi `ènje paref]em]i ouo vheqnaerref]em]i nhi `èfnaertiman `èmmof `ènje paiwt > ;nou `èa tauyxh `è]qorter ouo oupe;najof paiwt namet `èebol'en taiounou alla eqbe vai ai`èi `èetai ounou > Viwt ma`èwou `èmpek]hri ou`ècmh ac`èi `èebol'en `ètve ecjw `èmmoc je ai;`èwou palin on ;na;`èwou. \nPimh] oun `èenafo`èi `èeratf `èetaucwtem nau jw `èmmoc je ou'arabai petac]wpi ankexwouni de naujw `èmmoc je ouaggeloc petafcaji nemaf. Aferou`èw nwou `ènje Ihc? ouo pejaf je `èetac]wpi   an eqbht `ènje tai`ècmh alla eqbe qhnou > ;nou `èpap pe `ènte paikocmoc ;nou `èparxwn `ènte paikocmoc eu`èeitf `èebol > ouo `èanok w ai]ansici `èebol a `èpkai ei`èecek ouon niben aroi. Vai de naf jw `èmmof ef;mhini je 'en a] `èmmou  `èfnamou > `èaferou`èw naf `ènje pimh] efjw `èmmoc je `èanon ancwtem `èebol'en pinomoc je Pxc? ]op ]a `èene > ouo pwc ekjw `èmmoc `ènqok je w; pe `èntousec `èp]hri `èm`èvrwmi > nim pe `èp]hri `èm`èvrwmi.  Peje Ihc? nwou je `èeti kekouji `ènchou piouwini 'en qhnou mo]i oun 'en piouwini wc piouwini `ènten qhnou ina `ènte`è]tem pixaki tae qhnou je vheqmo]i 'en pixaki `èn`èfemi an je afmo]i `èeqwn > oc piouwini `ènten qhnou na;`èepiouwini ina `èntetener]hri `èmpiouwini. Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
             "Jean 12 : 20 - 36\nIl y avait là quelques Grecs, de ceux qui montaient pour adorer pendant la fête. Ils s'avancèrent vers Philippe, qui était de Bethsaïde en Galilée, et ils lui firent cette demande: «Seigneur, nous voulons voir Jésus.» Philippe vient le dire à André; André et Philippe viennent le dire à Jésus.  Jésus leur répond: «Voici venue l'heure où doit être glorifié le Fils de l'homme. En vérité, en vérité, je vous le dis, ",
             "يوحنا ١٢: ٢٠ – ٣٦\nوكان إناس يونانيون من الذين صعدوا ليسجدوا في العيد، فتقدم هؤلاء إلى فيلبس الذي من بيت صيدا الجليل وسألوه قائلين: يا سيد، نريد أن نرى يسوع. فأتى فيلبس وقال لأندراوس، ثم قال أندراوس وفيلبس ليسوع. وأما يسوع فأجابهما قائلاً: قد أتت الساعة ليتمجد إبن الإنسان، الحق الحق أقول لكم",
         ],
@@ -688,7 +688,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "1HECommentary&D=GL7thSunday&C=Title",
             "Commentaire de la Première heure de la veille du lundi",
-            "",
+            "Commentaire de la Première heure de la veille du lundi",
             "طرح الساعة الأولى من ليلة الإثنين",
         ],
         [
@@ -714,7 +714,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "3HEProphecies&D=GL7thSunday&C=Title",
             "Prophecies de la Troisième heure de la veille du lundi",
-            "",
+            "Prophecies de la Troisième heure de la veille du lundi",
             "نبوات الساعة الثالثة من ليلة الإثنين",
         ],
         [
@@ -746,7 +746,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "3HEPsalm&D=GL7thSunday&C=Title",
             "Psaume de la Troisième heure de la veille du lundi",
-            "",
+            "Psaume de la Troisième heure de la veille du lundi",
             "مزمور الساعة الثالثة من ليلة الإثنين",
         ],
         [
@@ -766,7 +766,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "3HEGospel&D=GL7thSunday&C=Title",
             "Evangile de la Troisième heure de la veille du lundi",
-            "",
+            "Evangile de la Troisième heure de la veille du lundi",
             " إنجيل الساعة الثالثة من ليلة الإثنين",
         ],
         [
@@ -804,7 +804,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "3HECommentary&D=GL7thSunday&C=Title",
             "Commentaire de la Troisième heure de la veille du lundi",
-            "",
+            "Commentaire de la Troisième heure de la veille du lundi",
             "طرح الساعة الثالثة من ليلة الإثنين",
         ],
         [
@@ -817,14 +817,14 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "3HECommentary&D=GL7thSunday&C=Diacon",
             "",
             "Alors Pierre répondit et dit: «Le Christ de Dieu». Heureux es-tu Pierre, car ce n'est pas quelqu'un de chair et de sang qui t'a révélé cela mais Mon Père qui te l'a fait apparaître afin que tu le prêches dans l'univers. Mais les juifs maudits me renieront à cause de leur jalousie et me condamneront à mort. Mais Moi je divulguerai et dévoilerai leur action, et je leur ferai porter la honte et l’affront éternels.",
-            "فأجاب بطرس وقال: أنت هو المسيح إبن الله الذي أتى إلى العالم حتى يخلصنا. طوباك أنت يا بطرس الصخرة الغير متزعزعة لأنه ليس جسد ودم كشف لك هذا لكن أبى هو الذي أظهره لك، لكي تكرز به في المسكونة. فأما اليهود الملاعين فإنهم يجحدونني من أجل حسدهم ويسلمونني إلى الموت. أنا أشهرهم وافضحهم وأعطيهم عاراً وخزياً أبدياً.",
+            "فأجاب بطرس وقال: أنت هو المسيح إبن الله الذي أتى إلى العالم حتى يخلصنا. طوباك أنت يا بطرس الصخرة الغير متزعزعة لأنه ليس جسد ودم كشف لك هذا لكن أبي هو الذي أظهره لك، لكي تكرز به في المسكونة. فأما اليهود الملاعين فإنهم يجحدونني من أجل حسدهم ويسلمونني إلى الموت. أنا أشهرهم وافضحهم وأعطيهم عاراً وخزياً أبدياً.",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "6HEProphecies&D=GL7thSunday&C=Title",
             "Prophecies de la Sixième heure de la veille du lundi",
-            "",
+            "Prophecies de la Sixième heure de la veille du lundi",
             "نبوات الساعة السادسة من ليلة الإثنين",
         ],
         [
@@ -856,7 +856,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "6HEPsalm&D=GL7thSunday&C=Title",
             "Psaume de la Sixième heure de la veille du lundi",
-            "",
+            "Psaume de la Sixième heure de la veille du lundi",
             "مزمور الساعة السادسة من ليلة الإثنين",
         ],
         [
@@ -870,7 +870,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "6HEGospel&D=GL7thSunday&C=Title",
             "Evangile de la Sixième heure de la veille du lundi",
-            "",
+            "Evangile de la Sixième heure de la veille du lundi",
             " إنجيل الساعة السادسة من ليلة الإثنين",
         ],
         [
@@ -896,7 +896,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "6HECommentary&D=GL7thSunday&C=Title",
             "Commentaire de la Sixième heure de la veille du lundi",
-            "",
+            "Commentaire de la Sixième heure de la veille du lundi",
             "طرح الساعة السادسة من ليلة الإثنين",
         ],
         [
@@ -909,14 +909,14 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "6HECommentary&D=GL7thSunday&C=Diacon",
             "",
             "et le livreront aux païens. Ils se moqueront de Lui, Lui cracheront au visage, Le crucifieront sur le bois de la croix et le troisième jour Il ressuscitera. Comment as-tu osé, malheureux Israël, faire cela dans ton ignorance ? Tu as crucifié Jésus Christ venu pour te sauver de l'esclavage. Tu as rendu le mal pour le bien. A cause de cela ton péché demeure jusqu'à la fin des temps.",
-            "ويسلمونه إلى الأمم، فيهزءون به ويبصقون فى وجهه، ويصلبونه على خشبة الصليب ويقوم فى اليوم الثالث. كيف تجاسرت يا إسرائيل المسكين وفعلت هذا الأمر بجهلك؟ وصلبت يسوع المسيح الذى أنقذك من العبودية! وجازيت الإحسان بالإساءة! من أجل ذلك خطيتك باقية إلى كمال الدهور.",
+            "ويسلمونه إلى الأمم، فيهزءون به ويبصقون في وجهه، ويصلبونه على خشبة الصليب ويقوم في اليوم الثالث. كيف تجاسرت يا إسرائيل المسكين وفعلت هذا الأمر بجهلك؟ وصلبت يسوع المسيح الذي أنقذك من العبودية! وجازيت الإحسان بالإساءة! من أجل ذلك خطيتك باقية إلى كمال الدهور.",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "9HEProphecies&D=GL7thSunday&C=Title",
             "Prophecies de la Neuvième heure de la veille du lundi",
-            "",
+            "Prophecies de la Neuvième heure de la veille du lundi",
             "نبوات الساعة التاسعة من ليلة الإثنين",
         ],
         [
@@ -954,7 +954,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "9HEPsalm&D=GL7thSunday&C=Title",
             "Psaume de la Neuvième heure de la veille du lundi",
-            "",
+            "Psaume de la Neuvième heure de la veille du lundi",
             "مزمور الساعة التاسعة من ليلة الإثنين",
         ],
         [
@@ -968,7 +968,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "9HEGospel&D=GL7thSunday&C=Title",
             "Evangile de la Neuvième heure de la veille du lundi",
-            "",
+            "Evangile de la Neuvième heure de la veille du lundi",
             " إنجيل الساعة التاسعة من ليلة الإثنين",
         ],
         [
@@ -1000,7 +1000,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "9HECommentary&D=GL7thSunday&C=Title",
             "Commentaire de la Neuvième heure de la veille du lundi",
-            "",
+            "Commentaire de la Neuvième heure de la veille du lundi",
             "طرح الساعة التاسعة من ليلة الإثنين",
         ],
         [
@@ -1026,7 +1026,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "11HEProphecies&D=GL7thSunday&C=Title",
             "Prophecies de la Onzième heure de la veille du lundi",
-            "",
+            "Prophecies de la Onzième heure de la veille du lundi",
             "نبوات الساعة الحادية عشر من ليلة الإثنين",
         ],
         [
@@ -1058,7 +1058,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "11HEPsalm&D=GL7thSunday&C=Title",
             "Psaume de la Onzième heure de la veille du lundi",
-            "",
+            "Psaume de la Onzième heure de la veille du lundi",
             "مزمور الساعة الحادية عشر من ليلة الإثنين",
         ],
         [
@@ -1078,7 +1078,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "11HEGospel&D=GL7thSunday&C=Title",
             "Evangile de la Onzième heure de la veille du lundi",
-            "",
+            "Evangile de la Onzième heure de la veille du lundi",
             " إنجيل الساعة الحادية عشر من ليلة الإثنين",
         ],
         [
@@ -1104,7 +1104,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "11HECommentary&D=GL7thSunday&C=Title",
             "Commentaire de la Onzième heure de la veille du lundi",
-            "",
+            "Commentaire de la Onzième heure de la veille du lundi",
             "طرح الساعة الحادية عشر من ليلة الإثنين",
         ],
         [
@@ -1130,7 +1130,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "1HDProphecies&D=GL52&C=Title",
             "Prophecies de la Première heure du lundi",
-            "",
+            "Prophecies de la Première heure du lundi",
             "نبوات الساعة الأولى من يوم الإثنين",
         ],
         [
@@ -1258,7 +1258,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "1HDSermony&D=GL52&C=Title",
             "Sermon de  Première heure du lundi",
-            "",
+            "Sermon de  Première heure du lundi",
             "عظة لأبينا الساعة الأولى من يوم الإثنين",
         ],
         [
@@ -1289,7 +1289,7 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "1HDSermony&D=GL52&C=Diacon",
             "",
             "celles qu’il aura faites de nuit comme celles qu’il aura faites de jour. Ce n’est pas que Dieu ne sache pas nos actions, jamais de la vie, Il les connaît bien car il est écrit que les yeux du Seigneur voient en tout temps et partout ceux qui font le mal et ceux qui font le bien. Mais les anges sont des serviteurs que le Créateur de tout a envoyés pour le service de ceux qui doivent avoir en héritage le salut.",
-            "(الليلية والنهارية) ليس لأن الله غير عارف بأعمالنا. حاشا. بل هو عارف بها أكثر كما هو مكتوب: إن عينى الرب ناظرة كل حين، في كل مكان على صانعى الشر وفاعلى الخير. إنما الملائكة هم خدام قد أقامهم خالق الكل من أجل المزمعين لوراثة الخلاص.",
+            "(الليلية والنهارية) ليس لأن الله غير عارف بأعمالنا. حاشا. بل هو عارف بها أكثر كما هو مكتوب: إن عَيْنِي الرب ناظرة كل حين، في كل مكان على صانعى الشر وفاعلى الخير. إنما الملائكة هم خدام قد أقامهم خالق الكل من أجل المزمعين لوراثة الخلاص.",
         ],
         [
             Prefix.HolyWeek + "1HDSermony&D=GL52&C=Diacon",
@@ -1301,14 +1301,14 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "1HDSermony&D=GL52&C=Diacon",
             "Marener `c`vragizin `n]katy,ycic `nte peniwt `e;ouab abba Senou] pi`ar,yman`drityc `vyetaferouwini `mpennouc nem nibal `nte nenhyt @ qen `vran `m~Viwt nem ~Psyri nem Pi`pneuma `e;ouab ounou] `nouwt @ `amyn",
             "",
-            "فلنختم عظة أبينا القديس أنبا شنودة رئيس المتوحدين الذى أنار عقولنا وعيون قلوبنا بإسم الآب والإبن والروح القدس إله واحد. آمين.",
+            "فلنختم عظة أبينا القديس أنبا شنودة رئيس المتوحدين الذي أنار عقولنا وعيون قلوبنا بإسم الآب والإبن والروح القدس إله واحد. آمين.",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "1HDPsalm&D=GL52&C=Title",
             "Psaume de la Première heure du lundi",
-            "",
+            "Psaume de la Première heure du lundi",
             "مزمور الساعة الأولى من يوم الإثنين",
         ],
         [
@@ -1328,7 +1328,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "1HDGospel&D=GL52&C=Title",
             "Evangile de la Première heure du lundi",
-            "",
+            "Evangile de la Première heure du lundi",
             " إنجيل الساعة الأولى من يوم الإثنين",
         ],
         [
@@ -1365,7 +1365,7 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "1HDGospel&D=GL52&C=Diacon",
             "",
             "Cela vint aux oreilles des grands prêtres et des scribes et ils cherchaient comment le faire périr; car ils le craignaient, parce que tout le peuple était ravi de son enseignement. Le soir venu, il s'en allait hors de la ville. Passant au matin, ils virent le figuier desséché jusqu'aux racines. Et Pierre, se ressouvenant, lui dit: «Rabbi, regarde: le figuier que tu as maudit est desséché.»",
-            "و سمع رؤساء الكهنة والكتبة وكانوا يطلبون بأى نوع يهلكونه لأنهم كانوا يخافونه، لأن الجمع كله كان يتعجب من تعليمه. وإذ كان المساء خرج إلى خارج المدينة. وفى الصباح إذ كانوا مجتازين رأوا التينة قد يبست من أصلها. فتذكر بطرس وقال له: ربى ها أن التينة التي لعنتها قد يبست.",
+            "و سمع رؤساء الكهنة والكتبة وكانوا يطلبون بِأَي نوع يهلكونه لأنهم كانوا يخافونه، لأن الجمع كله كان يتعجب من تعليمه. وإذ كان المساء خرج إلى خارج المدينة. وفى الصباح إذ كانوا مجتازين رأوا التينة قد يبست من أصلها. فتذكر بطرس وقال له: ربى ها أن التينة التي لعنتها قد يبست.",
         ],
         [
             Prefix.HolyWeek + "1HDGospel&D=GL52&C=Diacon",
@@ -1378,7 +1378,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "1HDCommentary&D=GL52&C=Title",
             "Commentaire de la Première heure du lundi",
-            "",
+            "Commentaire de la Première heure du lundi",
             "طرح الساعة الأولى من يوم الإثنين",
         ],
         [
@@ -1410,7 +1410,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "3HDProphecies&D=GL52&C=Title",
             "Prophecies de la Troisième heure du lundi",
-            "",
+            "Prophecies de la Troisième heure du lundi",
             "نبوات الساعة الثالثة من يوم الإثنين",
         ],
         [
@@ -1459,7 +1459,7 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "3HDProphecies&D=GL52&C=Diacon",
             "",
             "Pourquoi le pays est-il perdu, incendié comme le désert où nul ne passe? Le Seigneur dit: C'est qu'ils ont abandonné ma Loi, que je leur avais donnée; ils n'ont pas écouté ma voix, ils ne l'ont pas suivie; mais ils ont suivi l'obstination de leur cœur, ils ont suivi les Baals que leur pères leur avaient fait connaître. C'est pourquoi, ainsi parle le Seigneur Sabaot, le Dieu d'Israël:",
-            "لماذا هلكت الأرض وإحترقت وصارت كبرية بلا عابر. فقال لى الرب: لأنهم تركوا ناموسى عنهم الذي جعلته أمامهم ولم يسمعوا لصوتى، بل ساروا وراء عناد قلوبهم الشريرة، وسلكوا وراء الأصنام التي علمهم إياها أباؤهم لذلك قال الرب إله إسرائيل:",
+            "لماذا هلكت الأرض وإحترقت وصارت كبرية بلا عابر. فقال لي الرب: لأنهم تركوا ناموسى عنهم الذي جعلته أمامهم ولم يسمعوا لصوتى، بل ساروا وراء عناد قلوبهم الشريرة، وسلكوا وراء الأصنام التي علمهم إياها أباؤهم لذلك قال الرب إله إسرائيل:",
         ],
         [
             Prefix.HolyWeek + "3HDProphecies&D=GL52&C=Diacon",
@@ -1478,7 +1478,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "3HDPsalm&D=GL52&C=Title",
             "Psaume de la Troisième heure du lundi",
-            "",
+            "Psaume de la Troisième heure du lundi",
             "مزمور الساعة الثالثة من يوم الإثنين",
         ],
         [
@@ -1491,14 +1491,14 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "3HDPsalm&D=GL52&C=Diacon",
             "Yalmoc  to Dauid\nAiounof `èejen nh`èetaujoc nhi > je tenna]enan `èe`èphi `èmP_. Nensalauj au`èoi `èeratou> 'en niaulhou `ènte Ieroucalhm  >  `allhloui`a.",
             "Psaume 122 : 1 – 2\nQuelle joie quand on m’a dit: Allons à la maison du Seigneur! Nos pieds s’arrêtent dans tes portes, Jérusalem. Alléluia",
-            "المزمور ١٢١ : ١، ٢ \nفرحت بالقائلين لي إلى بيت الرب نذهب. وقفت أرجلنا فى ديار أورشليم. الليلويا",
+            "المزمور ١٢١ : ١، ٢ \nفرحت بالقائلين لي إلى بيت الرب نذهب. وقفت أرجلنا في ديار أورشليم. الليلويا",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "3HDGospel&D=GL52&C=Title",
             "Evangile de la Troisième heure du lundi",
-            "",
+            "Evangile de la Troisième heure du lundi",
             " إنجيل الساعة الثالثة من يوم الإثنين",
         ],
         [
@@ -1511,13 +1511,13 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "3HDGospel&D=GL52&C=Diacon",
             "Yalmoc  to Dauid\nAiounof `èejen nh`èetaujoc nhi > je tenna]enan `èe`èphi `èmP_. Nensalauj au`èoi `èeratou> 'en niaulhou `ènte Ieroucalhm  >  `allhloui`a.",
             "Psaume 122 : 1 – 2\nQuelle joie quand on m’a dit: Allons à la maison du Seigneur! Nos pieds s’arrêtent dans tes portes, Jérusalem. Alléluia",
-            "المزمور ١٢١ : ١، ٢ \nفرحت بالقائلين لي إلى بيت الرب نذهب. وقفت أرجلنا فى ديار أورشليم. الليلويا",
+            "المزمور ١٢١ : ١، ٢ \nفرحت بالقائلين لي إلى بيت الرب نذهب. وقفت أرجلنا في ديار أورشليم. الليلويا",
         ],
         [
             Prefix.HolyWeek + "3HDGospel&D=GL52&C=Diacon",
             "",
             "Marc 11 : 11 – 19\nEt Jésus entra à Jérusalem dans le Temple. Après avoir tout regardé autour de lui, comme c'était déjà le soir, il sortit pour se rendre à Béthanie avec les Douze. Le lendemain, à leur sortie de Béthanie, il eut faim. Voyant de loin un figuier qui avait des feuilles, il alla voir s'il n'y trouverait pas quelque chose. Et s'étant approché, il ne trouva que des feuilles, car ce n'était pas le temps des figues.",
-            "مرقس ١١ : ١١ – ١٩ \nولما جاء يسوع إلى أورشليم دخل الهيكل ونظر الجمع. وإذ كان المساء في تلك الساعة خرج إلى بيت عنيا مع الإثنى عشر. وفى الغد لما خرجوا من بيت عنيا جاع. فرأى شجرة تين عن بعد. وكان عليها ورق فجاء إليها لعله يجد فيها شيئًا. فلما جاء إليها لم يجد شيئا الا ورقًا لأنه لم يكن أوان التين",
+            "مرقس ١١ : ١١ – ١٩ \nولما جاء يسوع إلى أورشليم دخل الهيكل ونظر الجمع. وإذ كان المساء في تلك الساعة خرج إلى بيت عنيا مع الإثنى عشر. وفى الغد لما خرجوا من بيت عنيا جاع. فرأى شجرة تين عن بعد. وكان عليها ورق فجاء إليها لعله يجد فيها شيئًا. فلما جاء إليها لم يجد شيئا إلَّا ورقًا لأنه لم يكن أوان التين",
         ],
         [
             Prefix.HolyWeek + "3HDGospel&D=GL52&C=Diacon",
@@ -1529,14 +1529,14 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "3HDGospel&D=GL52&C=Diacon",
             "",
             "Et il les enseignait et leur disait: «N'est-il pas écrit: Ma maison sera appelée maison de prière pour toutes les nations? Mais vous, vous en avez fait une caverne de bandits.» Les grands prêtres et les scribes l'apprirent et ils cherchaient comment ils le feraient périr. Car ils le redoutaient, parce que la foule était frappée de son enseignement. Le soir venu, Jésus et ses disciples sortirent de la ville.\nGloire à Dieu éternellement.",
-            "و كان يعلم قائلًا لهم: أليس مكتوبًا أن بيتى بيت صلاة يدعى لجميع الأمم. وأنتم جعلتموه مغارة للصوص. فلما سمع رؤساء الكهنة والكتبة كانوا يطلبون بأى نوع يهلكونه، لأنهم كانوا يخافونه إذ الجمع كله كان يتعجب من تعليمه. ولما صار المساء خرج إلى خارج المدينة.\nوالمجد لله دائماً.",
+            "و كان يعلم قائلًا لهم: أليس مكتوبًا أن بيتى بيت صلاة يدعى لجميع الأمم. وأنتم جعلتموه مغارة للصوص. فلما سمع رؤساء الكهنة والكتبة كانوا يطلبون بِأَي نوع يهلكونه، لأنهم كانوا يخافونه إذ الجمع كله كان يتعجب من تعليمه. ولما صار المساء خرج إلى خارج المدينة.\nوالمجد لله دائماً.",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "3HDCommentary&D=GL52&C=Title",
             "Commentaire de la Troisième heure du lundi",
-            "",
+            "Commentaire de la Troisième heure du lundi",
             "طرح الساعة الثالثة من يوم الإثنين",
         ],
         [
@@ -1555,7 +1555,7 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "3HDCommentary&D=GL52&C=Diacon",
             "",
             "Ne vous étonnez pas que ce figuier se soit desséché jusqu’aux racines à cause d’un seul mot. Si vous avez la Foi vous pourrez déplacer cette montagne de sa place. Venez voir, vous les ignorants, ce qui est arrivé à ce figuier. Produisez un bon fruit pour le Seigneur afin que vous soyez délivrés du malin. Repentez-vous, vous les paresseux, et vous serez pardonnés.",
-            "ولا تتعجبوا من شجرة التين هذه أنها بكلمة واحدة يبست من أصلها. فإذا كان في قلوبكم إيمان لنقلتم هذا الجبل من مكانه. تعالوا وأنظروا أيها الناس الجهال ما كان من شجرة التين هذه، وإصنعوا ثمرة صالحة للرب لكي تخلصوا من الشرير، وأصنعوا توبة أيها الكسالى لكى تنالوا الغفران،",
+            "ولا تتعجبوا من شجرة التين هذه أنها بكلمة واحدة يبست من أصلها. فإذا كان في قلوبكم إيمان لنقلتم هذا الجبل من مكانه. تعالوا وأنظروا أيها الناس الجهال ما كان من شجرة التين هذه، وإصنعوا ثمرة صالحة للرب لكي تخلصوا من الشرير، وأصنعوا توبة أيها الكسالى لِكَي تنالوا الغفران،",
         ],
         [
             Prefix.HolyWeek + "3HDCommentary&D=GL52&C=Diacon",
@@ -1568,7 +1568,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "6HDProphecies&D=GL52&C=Title",
             "Prophecies de la Sixième heure du lundi",
-            "",
+            "Prophecies de la Sixième heure du lundi",
             "نبوات الساعة السادسة من يوم الإثنين",
         ],
         [
@@ -1599,7 +1599,7 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "6HDProphecies&D=GL52&C=Diacon",
             "",
             "Souviens-toi de tes serviteurs Abraham, Isaac et Israël, à qui tu as juré par toi-même et à qui tu as dit: Je multiplierai votre postérité comme les étoiles du ciel, et tout ce pays dont je vous ai parlé, je le donnerai à vos descendants et il sera leur héritage à jamais. Et le Seigneur renonça à faire le mal dont il avait menacé son peuple.",
-            "وأذكر إبراهيم وأسحق ويعقوب، الذين أقسمت لهم بذاتك وقلت لهم أنى أكثر نسلكم جدًا كنجوم السماء في كثرتها. وكل هذه الأرض التي قلت عنها أن تعطيها لنسلهم فيرثوها إلى الأبد. فصفح الرب عن شر شعبه.",
+            "وأذكر ابراهيم وأسحق ويعقوب، الذين أقسمت لهم بذاتك وقلت لهم أني أكثر نسلكم جدًا كنجوم السماء في كثرتها. وكل هذه الأرض التي قلت عنها أن تعطيها لنسلهم فيرثوها إلى الأبد. فصفح الرب عن شر شعبه.",
         ],
         [
             Prefix.HolyWeek + "6HDProphecies&D=GL52&C=Diacon",
@@ -1636,7 +1636,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "6HDPsalm&D=GL52&C=Title",
             "Psaume de la Sixième heure du lundi",
-            "",
+            "Psaume de la Sixième heure du lundi",
             "مزمور الساعة السادسة من يوم الإثنين",
         ],
         [
@@ -1656,7 +1656,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "6HDGospel&D=GL52&C=Title",
             "Evangile de la Sixième heure du lundi",
-            "",
+            "Evangile de la Sixième heure du lundi",
             " إنجيل الساعة السادسة من يوم الإثنين",
         ],
         [
@@ -1688,7 +1688,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "6HDCommentary&D=GL52&C=Title",
             "Commentaire de la Sixième heure du lundi",
-            "",
+            "Commentaire de la Sixième heure du lundi",
             "طرح الساعة السادسة من يوم الإثنين",
         ],
         [
@@ -1720,7 +1720,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "9HDProphecies&D=GL52&C=Title",
             "Prophecies de la Neuvième heure du lundi",
-            "",
+            "Prophecies de la Neuvième heure du lundi",
             "نبوات الساعة التاسعة من يوم الإثنين",
         ],
         [
@@ -1775,7 +1775,7 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "9HDProphecies&D=GL52&C=Diacon",
             "",
             "Il reprit: Et qui t'a appris que tu étais nu? Tu as donc mangé de l'arbre dont je t'avais défendu de manger? L'homme répondit: C’est la femme que tu as mise auprès de moi qui m'a donné de l'arbre, et j'ai mangé! Le Seigneur Dieu dit à la femme: Qu’as-tu fait là? Et la femme répondit: C’est le serpent qui m'a séduite, et j'ai mangé. Alors le Seigneur Dieu dit au serpent: Parce que tu as fait cela, maudit sois-tu",
-            "فقال له ومن أعلمك أنك عريان؟ إلا أنك أكلت من الشجرة التي أوصيتك أن لا تأكل منها وحدها، فأكلت منها؟ فقال آدم: إن المرأة التي أعطيتها لى هي التي أعطتنى من الشجرة فأكلت. فقال الرب الإله للمرأة: لما فعلت هذا؟ فقالت المرأة: الحية أغوتنى فأكلت.\nفقال الرب الإله للحية: لأنك فعلت هذا، فملعونة أنت",
+            "فقال له ومن أعلمك أنك عريان؟ إلا أنك أكلت من الشجرة التي أوصيتك أن لا تأكل منها وحدها، فأكلت منها؟ فقال آدم: إن المرأة التي أعطيتها لي هي التي أعطتنى من الشجرة فأكلت. فقال الرب الإله للمرأة: لما فعلت هذا؟ فقالت المرأة: الحية أغوتنى فأكلت.\nفقال الرب الإله للحية: لأنك فعلت هذا، فملعونة أنت",
         ],
         [
             Prefix.HolyWeek + "9HDProphecies&D=GL52&C=Diacon",
@@ -1805,13 +1805,13 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "9HDProphecies&D=GL52&C=Diacon",
             "Ebolqen Yca`yac piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nPeje V; je ma;o ma;o `èepalaoc niouhb > caji `èe`èpht `ènIlh?m?.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
             "Isaïe 40 : 1-5\nConsolez, consolez mon peuple, dit votre Dieu, parlez au cœur de Jérusalem",
-            "أشعياء ٤٠ : ١ – ٥\nعزوا عزوا شعبى أيها الكهنة قال الله. تكلموا فى قلب أورشليم.",
+            "أشعياء ٤٠ : ١ – ٥\nعزوا عزوا شعبى أيها الكهنة قال الله. تكلموا في قلب أورشليم.",
         ],
         [
             Prefix.HolyWeek + "9HDProphecies&D=GL52&C=Diacon",
             "",
             "et criez-lui que son service est accompli, que sa faute est expiée, qu'elle a reçu de la main du Seigneur double punition pour tous ses péchés. Une voix crie dans le désert: «Frayez le chemin du Seigneur dans la steppe, aplanissez une route pour notre Dieu. Que toute vallée soit comblée, toute montagne et toute colline abaissées, que les lieux accidentés se changent en plaine et les escarpements en large vallée ;",
-            "عزوها لأنه قد كثر ذلها، وأنحلت خطيتها، وقبلت من يد الرب ضعفين عن خطاياها، صوت صارخ فى البرية: أعدوا طريق الرب، ومهدوا سبل إلهنا، كل جبل وكل تل ينخفض، ويصير المعوج مستقيماً، والطرق الوعرة لينة",
+            "عزوها لأنه قد كثر ذلها، وأنحلت خطيتها، وقبلت من يد الرب ضعفين عن خطاياها، صوت صارخ في البرية: أعدوا طريق الرب، ومهدوا سبل إلهنا، كل جبل وكل تل ينخفض، ويصير المعوج مستقيماً، والطرق الوعرة لينة",
         ],
         [
             Prefix.HolyWeek + "9HDProphecies&D=GL52&C=Diacon",
@@ -1829,7 +1829,7 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "9HDProphecies&D=GL52&C=Diacon",
             "",
             "pour pénétrer les discours profonds, pour acquérir une discipline avisée - justice, équité, droiture - pour procurer aux simples le savoir-faire, au jeune homme le savoir et la réflexion. Que le sage écoute, il augmentera son acquis, et l'homme entendu acquerra l'art de diriger; pour pénétrer proverbes et sentences obscures, les dits des sages et leurs énigmes. La crainte du Seigneur, principe de savoir:",
-            "لإدراك أقوال الفطنة، لقبول تدرب الكلام، لتعليم العدل الحقيقى والحكم المستقيم. لكى تعطى لمن لا شر فيهم حكمة وعقلا وفهما للشاب الحدث. لأن الحكيم إذا سمع هذه فيزداد حكمة، والفهيم يكتسب تدبيراً. فيفهم المثل والكلام العويص وأقوال الحكماء وغوامضهم. رأس الحكمة مخافة الرب،",
+            "لإدراك أقوال الفطنة، لقبول تدرب الكلام، لتعليم العدل الحقيقى والحكم المستقيم. لِكَي تعطى لمن لا شر فيهم حكمة وعقلا وفهما للشاب الحدث. لأن الحكيم إذا سمع هذه فيزداد حكمة، والفهيم يكتسب تدبيراً. فيفهم المثل والكلام العويص وأقوال الحكماء وغوامضهم. رأس الحكمة مخافة الرب،",
         ],
         [
             Prefix.HolyWeek + "9HDProphecies&D=GL52&C=Diacon",
@@ -1841,558 +1841,600 @@ ReadingsArrays.GospelNightArrayFR = [[
     [
         [
             Prefix.HolyWeek + "9HDPsalm&D=GL52&C=Title",
-            "Psaume de la Neuvième heure du lundi",
-            "",
-            "مزمور الساعة التاسعة من يوم الإثنين",
+            "Psaume de la Neuvième heure du lundi\nYalmoc to Dauid",
+            "Psaume de la Neuvième heure du lundi\nYalmoc to Dauid",
+            "مزمور الساعة التاسعة من يوم الإثنين\n(مزمور ٦٤: ٤، ٦)",
         ],
         [
-            Prefix.HolyWeek + "9HDPsalm&D=GL52&C=Diacon",
-            "",
-            "",
-            "",
+            Prefix.same + "&C=Diacon",
+            "Cwtem `èeron V; Pencwthr > ;elpic `ènte aurhjf `èm`èpkai thrf.",
+            "Tu nous réponds en prodiges de justice, Dieu de notre salut. Espoir des extrémités de la terre.",
+            "استجب لنا يا الله مخلصنا يا رجاء جميع أقطار الأرض.",
         ],
         [
-            Prefix.HolyWeek + "9HDPsalm&D=GL52&C=Diacon",
-            "Yalmoc  to Dauid\nCwtem `èeron V; Pencwthr > ;elpic `ènte aurhjf `èm`èpkai thrf.\nWouniatf `èmvh`èetakcotpf ouo ak]opf `èerok > èef`èe]wpi 'en nekaulhou ]a `èene > ``allhloui`a",
-            "Psaume 64 : 6, 5 \nTu nous réponds en prodiges de justice, Dieu de notre salut. Espoir des extrémités de la terre.\nHeureux ton élu, ton familier, il demeure en tes parvis. Alléluia",
-            "مزمور ٦٤ : ٤، ٦\nأستجب لنا يا الله مخلصنا يا رجاء جميع أقطار الأرض. \nطوبى لمن أخترته وقبلته ليسكن فى ديارك إلى الأبد.\nالليلويا",
+            Prefix.same + "&C=Diacon",
+            "Wouniatf `èmvh`èetakcotpf ouo ak]opf `èerok > èef`èe]wpi 'en nekaulhou ]a `èene > ``\nallhloui`a",
+            "Heureux ton élu, ton familier, il demeure en tes parvis.\nAlléluia",
+            "طوبى لمن أخترته وقبلته ليسكن في ديارك إلى الأبد.\nالليلويا\n",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "9HDGospel&D=GL52&C=Title",
-            "Evangile de la Neuvième heure du lundi",
-            "",
-            " إنجيل الساعة التاسعة من يوم الإثنين",
+            "Evangile de la Neuvième heure du lundi\nMatqeon Kev k/a/> k/g/-k/z\n",
+            "Evangile de la Neuvième heure du lundi\nMatqeon Kev k/a/> k/g/-k/z\n",
+            "إنجيل الساعة التاسعة من يوم الإثنين\n(متى ٢١: ٢٣–٢٧)",
         ],
         [
-            Prefix.HolyWeek + "9HDGospel&D=GL52&C=Diacon",
-            "",
-            "",
-            "",
+            Prefix.same + "&C=Diacon",
+            "Ouo `èetaf`èi `èe'oun `èepiervei au`èi arof ef;`ècbw `ènje niarxh`èereuc nem niprecbuthroc `ènte pilaoc eujw `èmmoc > je ak`èiri `ènnai 'en a] `èner]i]i > ouo nim petaf; mè`èpaier]i]i nak. Af`èerou`èw de `ènje Ihc? pejaf nwou> je ;na]enqhnou w `èeoucaji > `èe]wp `èareten]antamoi `èerof > `èanok w ;natamwten je ai`èiri `ènnai 'en a] `èner]i]i.",
+            "Jésus était entré dans le Temple et il enseignait, quand les grands prêtres et les anciens du peuple s'approchèrent et lui dirent : « Par quelle autorité fais-tu cela ? Et qui t'a donné cette autorité ? » Jésus leur répondit : « De mon côté, je vais vous poser une question, une seule ; si vous m'y répondez, moi aussi je vous dirai par quelle autorité je fais cela. Le baptême de Jean, d'où était-il ? Du Ciel ou des hommes ?",
+            "ولما دخل إلى الهيكل تقدم إلَيْهِ رؤساء الكهنة وشيوخ الشعب وهو يعلم قائلين له: \"بِأَي سلطان تفعل هذا؟ ومن أعطاك هذا السلطان؟\" فأجاب يسوع وقال لهم: \"وأنا أيضاً أسألكم كلمة، فإن أعلمتمونى عنها أعلمكم أنا أيضاً بِأَي سلطان فعلت هذا: معمودية يوحنا من أين كانت؟ من السماء أم من الناس؟\"",
         ],
         [
-            Prefix.HolyWeek + "9HDGospel&D=GL52&C=Diacon",
-            "Matqeon Kev  k/a/> k/g/-k/z\nOuo `èetaf`èi `èe'oun `èepiervei au`èi arof ef;`ècbw `ènje niarxh`èereuc nem niprecbuthroc `ènte pilaoc eujw `èmmoc > je ak`èiri `ènnai 'en a] `èner]i]i > ouo nim petaf; mè`èpaier]i]i nak. Af`èerou`èw de `ènje Ihc? pejaf nwou> je ;na]enqhnou w `èeoucaji > `èe]wp `èareten]antamoi `èerof > `èanok w ;natamwten je ai`èiri `ènnai 'en a] `èner]i]i. \nPiwmc `ènte Iwannhc ne ou `èebol qwn pe > ou `èebol'en `ètve pe ]an ou `èebol'en nirwmi pe> `ènqwou de naumokmek `èn`è'rhi`è n'htou eujw `èmmoc > je `èe]wp an]anjoc je ou `èebol'en `ètve pe `èfnajoc nan je eqbe ou `èmptenna; `èerof. E]wp de an]anjoc je ou `èebol'en nirwmi pe tenero; 'a`èth `èmpimh] Iwannhc gar `èntotou wc ou provhthc. Ouo au`èerou`èw pejwou `ènIhc? je ten`èemi an > pejaf de nwou je oude `èanok w `èn;natamwten an je ai`èiri `ènnai 'en a] `èner]i]i.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
-            "",
-            "",
-        ],
-        [
-            Prefix.HolyWeek + "9HDGospel&D=GL52&C=Diacon",
-            "Yalmoc  to Dauid\nCwtem `èeron V; Pencwthr > ;elpic `ènte aurhjf `èm`èpkai thrf.\nWouniatf `èmvh`èetakcotpf ouo ak]opf `èerok > èef`èe]wpi 'en nekaulhou ]a `èene > ``allhloui`a",
-            "Psaume 64 : 4, 6 \nTu nous réponds en prodiges de justice, Dieu de notre salut. Espoir des extrémités de la terre.\nHeureux ton élu, ton familier, il demeure en tes parvis. Alléluia",
-            "مزمور ٦٤ : ٤، ٦\nأستجب لنا يا الله مخلصنا يا رجاء جميع أقطار الأرض. \nطوبى لمن أخترته وقبلته ليسكن فى ديارك إلى الأبد.\nالليلويا",
-        ],
-        [
-            Prefix.HolyWeek + "9HDGospel&D=GL52&C=Diacon",
-            "",
-            "Matthieu 21 : 23-27\nJésus était entré dans le Temple et il enseignait, quand les grands prêtres et les anciens du peuple s'approchèrent et lui dirent : « Par quelle autorité fais-tu cela ? Et qui t'a donné cette autorité ? » Jésus leur répondit : « De mon côté, je vais vous poser une question, une seule ; si vous m'y répondez, moi aussi je vous dirai par quelle autorité je fais cela. Le baptême de Jean, d'où était-il ?",
-            "متى ٢١ : ٢٣ – ٢٧\nولما دخل الى الهيكل تقدم اليه رؤساء الكهنة وشيوخ الشعب وهو  يعلم قائلين له: بأى سلطان تفعل هذا؟ ومن أعطاك هذا السلطان؟ فأجاب يسوع وقال لهم: وأنا أيضاً أسألكم كلمة، فإن أعلمتمونى عنها أعلمكم أنا أيضاً بأى سلطان فعلت هذا. معمودية يوحنا من أين كانت:",
-        ],
-        [
-            Prefix.HolyWeek + "9HDGospel&D=GL52&C=Diacon",
-            "",
-            "Du Ciel ou des hommes ? Mais ils se faisaient en eux-mêmes ce raisonnement: « Si nous disons: Du Ciel, il nous dira: Pourquoi donc n'avez-vous pas cru en lui? Et si nous disons: Des hommes, nous avons à craindre la foule, car tous tiennent Jean pour un prophète. » Et ils firent à Jésus cette réponse: «Nous ne savons pas.» De son côté il répliqua : « Moi non plus, je ne vous dis pas par quelle autorité je fais cela. »\nGloire à Dieu éternellement.",
-            "من السماء أم من الناس؟ أما هم فكانوا يفكرون فى أنفسهم قائلين: إن قلنا من السماء يقول لنا فلماذا لم تؤمنوا به، وإن قلنا من الناس فإنا نخاف من الجمع، لأن يوحنا كان عندهم مثل نبي.\nفأجابوا وقالوا ليسوع: لا نعلم. فقال لهم هو أيضاً: ولا أنا أعلمكم بأى  سلطان فعلت هذا.\nوالمجد لله دائماً",
+            Prefix.same + "&C=Diacon",
+            "Piwmc `ènte Iwannhc ne ou `èebol qwn pe > ou `èebol'en `ètve pe ]an ou `èebol'en nirwmi pe> `ènqwou de naumokmek `èn`è'rhi`è n'htou eujw `èmmoc > je `èe]wp an]anjoc je ou `èebol'en `ètve pe `èfnajoc nan je eqbe ou `èmptenna; `èerof. E]wp de an]anjoc je ou `èebol'en nirwmi pe tenero; 'a`èth `èmpimh] Iwannhc gar `èntotou wc ou provhthc. Ouo au`èerou`èw pejwou `ènIhc? je ten`èemi an > pejaf de nwou je oude `èanok w `èn;natamwten an je ai`èiri `ènnai 'en a] `èner]i]i. Ouw]t `mpieuaggelion eqouab.\nDo[a ci Kuri`e.\n",
+            "Mais ils se faisaient en eux-mêmes ce raisonnement: « Si nous disons: Du Ciel, il nous dira: Pourquoi donc n'avez-vous pas cru en lui? Et si nous disons: Des hommes, nous avons à craindre la foule, car tous tiennent Jean pour un prophète. » Et ils firent à Jésus cette réponse: «Nous ne savons pas.» De son côté il répliqua : « Moi non plus, je ne vous dis pas par quelle autorité je fais cela. »\nGloire à Dieu éternellement.",
+            " أما هم فكانوا يفكرون في أنفسهم قائلين: \"إن قلنا من السماء يقول لنا فلماذا لم تؤمنوا به، وإن قلنا من الناس فإنا نخاف من الجمع، لأن يوحنا كان عندهم مثل نبي\". فأجابوا وقالوا ليسوع: \"لا نعلم\". فقال لهم هو أيضاً: \"ولا أنا أعلمكم بِأَي سلطان فعلت هذا\".\nوالمجد لله دائماً",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "9HDCommentary&D=GL52&C=Title",
             "Commentaire de la Neuvième heure du lundi",
-            "",
+            "Commentaire de la Neuvième heure du lundi",
             "طرح الساعة التاسعة من يوم الإثنين",
         ],
         [
-            Prefix.HolyWeek + "9HDCommentary&D=GL52&C=Diacon",
+            Prefix.same + "&C=Diacon",
             "",
-            "",
-            "",
+            "De Tes mains immaculées, Seigneur, Tu m’as créé. Tu m’as orné comme un manteau décoré. Tu m’as donné la grâce du paradis et les fruits des arbres. Tu m’as accordé la majesté de Ton pouvoir sur toute la création. Tu as créé les bestiaux et les bêtes sauvages selon leur espèce. Tu ne m’as pas dépourvu d’honneur. Tu m’as soumis toute chose. Tu m’as fait un commandement auquel j’ai contrevenu, mon Seigneur et mon Dieu.",
+            "بيديك اللتين بلا عيب يارب خلقتنى وزينتنى مضيئاً كالقرمص ووهبت لي نعيم الفردوس وثمر الأشجار أعطيته لي إنعاماً. منحتنى عزة سلطانك على كل الخليقة التى تحت السماء وجعلت سائر الأشياء دون جنس الهوام والوحوش. ولم تعوزنى شيئاً من الكرامة وجعلت كل شئ يخضع لى. وأوصيتنى وصية فخالفتها ياربى وإلهى.",
         ],
         [
-            Prefix.HolyWeek + "9HDCommentary&D=GL52&C=Diacon",
+            Prefix.same + "&C=Diacon",
             "",
-            "Commentaire\nDe Tes mains immaculées, Seigneur, Tu m’as créé. Tu m’as orné comme un manteau décoré. Tu m’as donné la grâce du paradis et les fruits des arbres. Tu m’as accordé la majesté de Ton pouvoir sur toute la création. Tu as créé les bestiaux et les bêtes sauvages selon leur espèce. Tu ne m’as pas dépourvu d’honneur. Tu m’as soumis toute chose. Tu m’as fait un commandement auquel j’ai contrevenu, mon Seigneur et mon Dieu.",
-            "طــرح\nبيديك اللتين بلا عيب يارب خلقتنى وزينتنى مضيئاً كالقرمص ووهبت لى نعيم الفردوس وثمر الأشجار أعطيته لى إنعاماً. منحتنى عزة سلطانك على كل الخليقة التى تحت السماء وجعلت سائر الأشياء دون جنس الهوام والوحوش. ولم تعوزنى شيئاً من الكرامة وجعلت كل شئ يخضع لى. وأوصيتنى وصية فخالفتها ياربى وإلهى.",
+            "Je T’implore, ô très bon, aie pitié de moi selon Ta grande miséricorde.",
+            "أسألك أيها الصالح أن تصنع مَعِي رحمة كعظيم رحمتك.",
         ],
         [
-            Prefix.HolyWeek + "9HDCommentary&D=GL52&C=Diacon",
+            Prefix.same + "&C=Diacon",
             "",
-            "Je T’implore, ô très bon, aie pitié de moi selon Ta grande miséricorde.\nJe t’ai vu, Adam, seul. Tout était par paire. Alors j’ai modelé pour toi à partir de tes os une femme à ton image et à ta ressemblance. J’ai dit qu’il n’était pas bon que tu sois seul. Je me suis soucié de toi et j’ai fait cela pour toi. Je t’ai donné le pouvoir sur elle et sur tout l’univers pour qu’elle te soit soumise.",
-            "أسألك أيها الصالح أن تصنع معى رحمة كعظيم رحمتك.\nرأيتك يا آدم كائناً وحدك وكل شئ غير مفرد، فجبلت لك واحدة من عظامك كشبهك ومثالك، وقلت لا يحسن أن تكون وحدك، فأهتممت بك وفعلت لك هذا وسلطتك عليها وعلى جميع المسكونة كى تكون تحت سلطانك",
+            "Je t’ai vu, Adam, seul. Tout était par paire. Alors j’ai modelé pour toi à partir de tes os une femme à ton image et à ta ressemblance. J’ai dit qu’il n’était pas bon que tu sois seul. Je me suis soucié de toi et j’ai fait cela pour toi. Je t’ai donné le pouvoir sur elle et sur tout l’univers pour qu’elle te soit soumise. Mais tu lui as obéi, tu as délaissé mes ordres, tu as rejeté ma parole et mes commandements.",
+            "رأيتك يا آدم كائناً وحدك وكل شئ غير مفرد، فجبلت لك واحدة من عظامك كشبهك ومثالك، وقلت لا يحسن أن تكون وحدك، فأهتممت بك وفعلت لك هذا وسلطتك عليها وعلى جميع المسكونة كي تكون تحت سلطانك، فأطعتها وتركت أَوامِرِي ورفضت قَوْلي ووَصَايَاي.",
         ],
         [
-            Prefix.HolyWeek + "9HDCommentary&D=GL52&C=Diacon",
+            Prefix.same + "&C=Diacon",
             "",
-            "Mais tu lui as obéi, tu as délaissé mes ordres, tu as rejeté ma parole et mes commandements.\nJe T’implore, ô très bon, aie pitié de moi selon Ta grande miséricorde.",
-            "فأطعتها وتركت أوامرى ورفضت قولى ووصاياى.\nأسألك أيها الصالح أن تصنع معى رحمة كعظيم رحمتك.",
+            "Je T’implore, ô très bon, aie pitié de moi selon Ta grande miséricorde.",
+            "أسألك أيها الصالح أن تصنع مَعِي رحمة كعظيم رحمتك.",
         ],
         [
-            Prefix.HolyWeek + "9HDCommentary&D=GL52&C=Diacon",
+            Prefix.same + "&C=Diacon",
             "",
-            "\nاذكرنى يارب اننى تراب وكمثل العشب الذى فى الحقل أعطيتنى يارب عزة قوتك فتناقصت حقارتى، شجرة واحدة أوصيتنى عنها فكيف صرت مخالفا لوصيتك وإستظلمت المرأة التى لم توصها مثلى، فأطعتها ورفضت كلامك واختفيت فى الشجر كى لا أراك.",
-            "",
+            "Souviens-toi de moi, Seigneur, car je suis poussière et semblable à l’herbe qui pousse dans les champs. Tu m’as donné, Seigneur, la majesté de Ta puissance. Je t’ai recommandé d’éviter un seul arbre. Comment as-tu pu contrevenir à mon commandement? Tu as été injuste envers la femme qui n’avait pas reçu ce commandement comme toi. Tu lui as obéi en rejetant mes paroles. Tu t’es caché dans les arbres afin que Je ne te vois pas.",
+            "اذكرنى يارب اننى تراب وكمثل العشب الذى في الحقل أعطيتنى يارب عزة قوتك فتناقصت حقارتى، شجرة واحدة أوصيتنى عنها فكيف صرت مخالفا لوصيتك وإستظلمت المرأة التى لم توصها مثلى، فأطعتها ورفضت كلامك واختفيت في الشجر كي لا أراك.",
         ],
         [
-            Prefix.HolyWeek + "9HDCommentary&D=GL52&C=Diacon",
+            Prefix.same + "&C=Diacon",
             "",
-            "Je T’implore, ô très bon, aie pitié de moi selon Ta grande miséricorde.\nTu as eu des prétentions au-delà de ce qui est raisonnable, c’est à dire la Divinité. Tu as voulu devenir un créateur comme ton Maître. Tu as connu le bien et le mal à cause du fruit de l’arbre défendu afin que tu deviennes un dieu, Adam. Où est la gloire que tu avais? Tu t’es déshabillé de la robe dont Je t’avais revêtu.",
-            "أسألك أيها الصالح أن تصنع معى رحمة كعظيم رحمتك.\nوفكرت (يا آدم) فى العلويات أعنى الألوهية، وأنك تصير خالقاً مثل سيدك. وبثمرة الشجرة علمت الخير والشر لتصير إلهاً. يا آدم، أين هو المجد الذى كان لك؟ تعريت من الحلة التى ألبستك إياها،",
+            "Je T’implore, ô très bon, aie pitié de moi selon Ta grande miséricorde.",
+            "أسألك أيها الصالح أن تصنع مَعِي رحمة كعظيم رحمتك.",
         ],
         [
-            Prefix.HolyWeek + "9HDCommentary&D=GL52&C=Diacon",
+            Prefix.same + "&C=Diacon",
             "",
-            "Tu as pris des feuilles des arbres et tu as couvert ta nudité de Ma Face. Je t’ai appris que c’est Moi qui t’aie créé et qui t’aie connu avant que tu ne sois.\nJe T’implore, ô très bon, aie pitié de moi selon Ta grande miséricorde.",
-            "وأخذت الورق من الشجر وسترت عورتك من وجهى. أعلمتك إننى خلقتك وعرفتك قبل أن تكون. \nأسألك أيها الصالح أن تصنع معى رحمة كعظيم رحمتك.",
+            "Tu as eu des prétentions au-delà de ce qui est raisonnable, c’est à dire la Divinité. Tu as voulu devenir un créateur comme ton Maître. Tu as connu le bien et le mal à cause du fruit de l’arbre défendu afin que tu deviennes un dieu, Adam. Où est la gloire que tu avais? Tu t’es déshabillé de la robe dont Je t’avais revêtu.",
+            "وفكرت (يا آدم) في العلويات أعنى الألوهية، وأنك تصير خالقاً مثل سيدك. وبثمرة الشجرة علمت الخير والشر لتصير إلهاً. يا آدم، أين هو المجد الذي كان لك؟ تعريت من الحلة التى ألبستك إياها.",
         ],
         [
-            Prefix.HolyWeek + "9HDCommentary&D=GL52&C=Diacon",
+            Prefix.same + "&C=Diacon",
             "",
-            "\nسبقت فأخترتك من أول الأمر، سلمت إليك كلام وصاياى. وهكذا أعلمتك عن هذه الشجرة من دون جميع الشجر الذى فى الفردوس، هذه التى فى ثمرتها مرارة الموت وإنك إن أكلت منها فموتاً تموت، وأنا لم أدعك جاهلاً بل أعلمتك قبل أن يكون هذا. فأملت سمعك وأطعتها لذلك سأجلب عليك العقوبة.",
-            "",
+            "Tu as pris des feuilles des arbres et tu as couvert ta nudité de Ma Face. Je t’ai appris que c’est Moi qui t’aie créé et qui t’aie connu avant que tu ne sois.",
+            "وأخذت الورق من الشجر وسترت عورتك من وجهى. أعلمتك إننى خلقتك وعرفتك قبل أن تكون.",
         ],
         [
-            Prefix.HolyWeek + "9HDCommentary&D=GL52&C=Diacon",
+            Prefix.same + "&C=Diacon",
             "",
-            "Je T’implore, ô très bon, aie pitié de moi selon Ta grande miséricorde.\nTu es poussière, Adam, et Je te retournerai à la poussière à cause de ce que tu as osé faire. Et toi, Eve, pourquoi as-tu fait cela? Pourquoi as-tu contrevenu à mes commandements? Ce n’est pas un ange qui t’a parlé, ni même un oiseau du ciel, mais un serpent monstrueux par nature. Tu as écouté son conseil.",
-            "أسألك أيها الصالح أن تصنع معى رحمة كعظيم رحمتك.\nيا آدم أنت تراب وسأردك إلى التراب عوض الأعمال التى تجاسرت عليها. وأنت يا حواء لماذا صنعت هكذا وخالفت وصاياى؟ ليس ملاك تكلم معك ولا طائر من الجو، بل وحش ثعبان بطبيعته فسمعت منه مشورته،",
+            "Je T’implore, ô très bon, aie pitié de moi selon Ta grande miséricorde.",
+            "أسألك أيها الصالح أن تصنع مَعِي رحمة كعظيم رحمتك.",
         ],
         [
-            Prefix.HolyWeek + "9HDCommentary&D=GL52&C=Diacon",
+            Prefix.same + "&C=Diacon",
+            "",
+            "Je me suis empressé et Je t’ai choisi dès le début. Je t’ai remis mes commandements. Je t’ai informé sur cet arbre contrairement à tous les arbres qui étaient au paradis ; cet arbre dont le fruit contenait la mort amère, Je t’ai averti que si tu en mangeais, tu mourrais. Je ne t’ai pas laissé dans l’ignorance mais Je t’ai informé de tout cela avant qu’il ne soit. Tu as penché l’oreille et tu l’as écoutée. Alors je te punirai.",
+            "سبقت فاخترتك من أول الأمر، سلمت إليك كلام وصاياى. وهكذا أعلمتك عن هذه الشجرة من دون جميع الشجر الذى فى الفردوس، هذه التى فى ثمرتها مرارة الموت وإنك إن أكلت منها فموتاً تموت، وأنا لم أدعك جاهلاً بل أعلمتك قبل أن يكون هذا. فأملت سمعك وأطعتها لذلك سأجلب عليك العقوبة.\n",
+        ],
+        [
+            Prefix.same + "&C=Diacon",
+            "",
+            "Je T’implore, ô très bon, aie pitié de moi selon Ta grande miséricorde.",
+            "أسألك أيها الصالح أن تصنع مَعِي رحمة كعظيم رحمتك.",
+        ],
+        [
+            Prefix.same + "&C=Diacon",
+            "",
+            "Tu es poussière, Adam, et Je te retournerai à la poussière à cause de ce que tu as osé faire. Et toi, Eve, pourquoi as-tu fait cela? Pourquoi as-tu contrevenu à mes commandements? Ce n’est pas un ange qui t’a parlé, ni même un oiseau du ciel, mais un serpent monstrueux par nature. Tu as écouté son conseil.",
+            "يا آدم أنت تراب وسأردك إلى التراب عوض الأعمال التى تجاسرت عليها. وأنت يا حواء لماذا صنعت هكذا وخالفت وَصَايَاي؟ ليس ملاك تكلم معك ولا طائر من الجو، بل وحش ثعبان بطبيعته فسمعت منه مشورته.",
+        ],
+        [
+            Prefix.same + "&C=Diacon",
             "",
             "Nombreuses seront les peines que tu auras, et grands seront les cris et les pleurs que tu pousseras. Je mettrai une hostilité entre toi et le serpent, entre ta descendance et la sienne jusqu’à la fin des temps. Lui, atteindra le talon de ta descendance et ta descendance lui écrasera la tête.",
             "فكثيرة هى الأحزان التى تكون لك والتنهد والنوح العظيمان، وسأقيم عداوة بينك وبين الحية، وبين نسلك ونسلها إلى إنقضاء الدهور. فهى ترصد عقب نسلك ونسلك يسحق رأسها.",
         ],
         [
-            Prefix.HolyWeek + "9HDCommentary&D=GL52&C=Diacon",
+            Prefix.same + "&C=Diacon",
             "",
-            "Je T’implore, ô très bon, aie pitié de moi selon Ta grande miséricorde.\nLe sauveur appela le serpent et le maudit ainsi que sa nature. Il dit: «Maudit sois-tu entre toutes les bêtes sauvages. Tu marcheras sur ton ventre et tu mangeras la poussière de la terre parce que tu es devenu un doute et que l’ennemi a trouvé demeure en toi. Puisque l’homme a tendu l’oreille vers toi, toute la terre est maudite avec lui. »",
-            "أسألك أيها الصالح أن تصنع معى رحمة كعظيم رحمتك.\nثم دعا المخلص الحية ولعنها مع طبيعتها، وقال: ملعونة أنت من بين جميع الوحوش وعلى بطنك تسعين وتراب الأرض يكون لك طعاماً من أجل أنك صرت عثرة، فوجد العدو مسكناً فيك وصرت بيتا للشرير ومن أجل أن الرجل أمال سمعه إليك، فالأرض كلها ملعونة معه.",
+            "Je T’implore, ô très bon, aie pitié de moi selon Ta grande miséricorde.",
+            "أسألك أيها الصالح أن تصنع مَعِي رحمة كعظيم رحمتك.",
         ],
         [
-            Prefix.HolyWeek + "9HDCommentary&D=GL52&C=Diacon",
+            Prefix.same + "&C=Diacon",
             "",
-            "Je T’implore, ô très bon, aie pitié de moi selon Ta grande miséricorde.\nIl dit à Adam, le premier qui ait habité le paradis: «Puisque tu as écouté ta femme, la terre sera maudite à cause de tes œuvres. Tu vivras triste, et la terre produira pour toi épines et chardons.» Puis Il dit à Eve: «Tu accoucheras dans la peine et les sanglots. Tu reviendras vers ton mari et il dominera sur toi. Et il n’y aura pas de repos dans ta vie ».",
-            "أسألك أيها الصالح أن تصنع معى رحمة كعظيم رحمتك.\nوأما الرجل الذى هو آدم أول من سكن فى الفردوس، فقال له: من أجل أنك سمعت لإمرأتك لعنت الأرض بأعمالك. وتعيش يا آدم حزين القلب والأرض تنبت لك حسكاً وشوكاً. ثم قال لحواء: ستلدين البنين بالأحزان والتنهد، وترجعين إلى بعلك وهو يتسلط عليك ولا تكون لك راحة فى حياتك.",
+            "Le sauveur appela le serpent et le maudit ainsi que sa nature. Il dit: «Maudit sois-tu entre toutes les bêtes sauvages. Tu marcheras sur ton ventre et tu mangeras la poussière de la terre parce que tu es devenu un doute et que l’ennemi a trouvé demeure en toi. Puisque l’homme a tendu l’oreille vers toi, toute la terre est maudite avec lui. »",
+            "ثم دعا المخلص الحية ولعنها مع طبيعتها، وقال: ملعونة أنت من بين جميع الوحوش وعلى بطنك تسعين وتراب الأرض يكون لك طعاماً من أجل أنك صرت عثرة، فوجد العدو مسكناً فيك وصرت بيتا للشرير ومن أجل أن الرجل أمال سمعه إليك، فالأرض كلها ملعونة معه.",
         ],
         [
-            Prefix.HolyWeek + "9HDCommentary&D=GL52&C=Diacon",
+            Prefix.same + "&C=Diacon",
             "",
-            "Je T’implore, ô très bon, aie pitié de moi selon Ta grande miséricorde.\nLe Seigneur dit alors: «Voilà qu’Adam est devenu comme l'un de nous, par la connaissance du bien et du mal! Je ne vais pas le laisser au paradis qu'il ne tende pas sa main droite pour manger aussi de l'arbre de vie.» Il chassa Adam et sa femme du paradis de la joie. Il posta un chérubin et un glaive de feu pour garder la porte du paradis.",
-            "أسألك أيها الصالح أن تصنع معى رحمة كعظيم رحمتك.\nثم قال الرب: هو ذا آدم صار كواحد منا، يعرف الخير والشر، فلا أتركه فى الفردوس لئلا يمد يمينه ويأكل من شجرة الحياة. فأخرج آدم وإمرأته معه من فردوس النعيم وجعل كاروبيم وسيف نار لحراسة باب الفردوس.",
+            "Je T’implore, ô très bon, aie pitié de moi selon Ta grande miséricorde.",
+            "أسألك أيها الصالح أن تصنع مَعِي رحمة كعظيم رحمتك.",
         ],
         [
-            Prefix.HolyWeek + "9HDCommentary&D=GL52&C=Diacon",
+            Prefix.same + "&C=Diacon",
             "",
-            "Je T’implore, ô très bon, aie pitié de moi selon Ta grande miséricorde.\nOù irai-je loin de Ton Esprit? Où me cacherai-je de Ta Face? Que je monte au plus haut des cieux ou que je descende au fond des abîmes, je Te trouverai. Adam alla devant la porte du paradis pour travailler la terre et en manger le fruit alors qu’il était dupé par le trompeur. Il est devenu esclave de ses penchants, lui et toute sa descendance, jusqu’à la fin des temps.",
-            "أسألك أيها الصالح أن تصنع معى رحمة كعظيم رحمتك.\nإلى أين أذهب من روحك؟ وإلى أين أهرب من وجهك؟ إن صعدت إلى أعلا السموات أو إلى الأماكن السفلية أجدك هناك. فمضى آدم إلى مكان أسفل أمام باب الفردوس ليحرث فى الأرض ويأكل ثمرتها عندما كان فى خديعة المضل. وكتب على آدم وحواء كتاب رق العبودية لأنه تبع هواءه، هو وبنوه كلهم إلى كمال الدهور.",
+            "Il dit à Adam, le premier qui ait habité le paradis: «Puisque tu as écouté ta femme, la terre sera maudite à cause de tes œuvres. Tu vivras triste, et la terre produira pour toi épines et chardons.» Puis Il dit à Eve: «Tu accoucheras dans la peine et les sanglots. Tu reviendras vers ton mari et il dominera sur toi. Et il n’y aura pas de repos dans ta vie ».",
+            "وأما الرجل الذي هو آدم أول من سكن في الفردوس، فقال له: من أجل أنك سمعت لإمرأتك لعنت الأرض بأعمالك. وتعيش يا آدم حزين القلب والأرض تنبت لك حسكاً وشوكاً. ثم قال لحواء: ستلدين البنين بالأحزان والتنهد، وترجعين إلى بعلك وهو يتسلط عليك ولا تكون لك راحة في حياتك.",
+        ],
+        [
+            Prefix.same + "&C=Diacon",
+            "",
+            "Je T’implore, ô très bon, aie pitié de moi selon Ta grande miséricorde.",
+            "أسألك أيها الصالح أن تصنع مَعِي رحمة كعظيم رحمتك.",
+        ],
+        [
+            Prefix.same + "&C=Diacon",
+            "",
+            "Le Seigneur dit alors: «Voilà qu’Adam est devenu comme l'un de nous, par la connaissance du bien et du mal! Je ne vais pas le laisser au paradis qu'il ne tende pas sa main droite pour manger aussi de l'arbre de vie.» Il chassa Adam et sa femme du paradis de la joie. Il posta un chérubin et un glaive de feu pour garder la porte du paradis.",
+            "ثم قال الرب: \"هو ذا آدم صار كواحد منا، يعرف الخير والشر، فلا أتركه في الفردوس لئلا يمد يمينه ويأكل من شجرة الحياة. فأخرج آدم وإمرأته معه من فردوس النعيم\". وجعل كاروبيم وسيف نار لحراسة باب الفردوس.",
+        ],
+        [
+            Prefix.same + "&C=Diacon",
+            "",
+            "Je T’implore, ô très bon, aie pitié de moi selon Ta grande miséricorde.",
+            "أسألك أيها الصالح أن تصنع مَعِي رحمة كعظيم رحمتك.",
+        ],
+        [
+            Prefix.same + "&C=Diacon",
+            "",
+            "Où irai-je loin de Ton Esprit? Où me cacherai-je de Ta Face? Que je monte au plus haut des cieux ou que je descende au fond des abîmes, je Te trouverai. Adam alla devant la porte du paradis pour travailler la terre et en manger le fruit alors qu’il était dupé par le trompeur. Il est devenu esclave de ses penchants, lui et toute sa descendance, jusqu’à la fin des temps.",
+            "إلى أين أذهب من روحك؟ وإلى أين أهرب من وجهك؟ إن صعدت إلى أعلى السموات أو إلى الأماكن السفلية أجدك هناك. فمضى آدم إلى مكان أسفل أمام باب الفردوس ليحرث في الأرض ويأكل ثمرتها عندما كان في خديعة المضل. وكتب على آدم وحواء كتاب رق العبودية لأنه تبع هواءه، هو وبنوه كلهم إلى كمال الدهور.",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "11HDProphecies&D=GL52&C=Title",
             "Prophecies de la Onzième heure du lundi",
-            "",
-            "نبوات الساعة الحادية عشر من يوم الإثنين",
+            "Prophecies de la Onzième heure du lundi",
+            "نبوات الساعة الحادية عشر من يوم الإثنين\nإشعياء (٥٠: ١–٣)\n",
         ],
         [
-            Prefix.HolyWeek + "11HDProphecies&D=GL52&C=Diacon",
-            "",
+            Prefix.same + "&C=Diacon",
+            "Ⲉⲃⲟⲗϧⲉⲛ Ⲏⲥⲁⲏ̀ⲁⲥ ⲡⲓⲡⲣⲟⲫⲏⲧⲏⲥ : ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̅ⲑ̅ⲩ̅ : ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ",
             "",
             "",
         ],
         [
-            Prefix.HolyWeek + "11HDProphecies&D=GL52&C=Diacon",
-            "Ebolqen Yca`yac piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nFai pe `èm`èvrh; etefjw `èmmoc `ènje P_ > je a]pe pijwm `èniou`èi `èebol `ènte tenmau `èetaiitc `èebol `èn'htf.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
-            "Isaïe 50 : 1-3\nAinsi parle le Seigneur : Où est la lettre de divorce de votre mère par laquelle je l'ai répudiée ?",
-            "إشعياء ٥٠ : ١ – ٣\nهكذا يقول الرب: أين هو كتاب طلاق أمكم الذي طلقتها به؟",
-        ],
-        [
-            Prefix.HolyWeek + "11HDProphecies&D=GL52&C=Diacon",
+            Prefix.same + "&C=Diacon",
+            "Fai pe `èm`èvrh; etefjw `èmmoc `ènje P_ > je a]pe pijwm `èniou`èi `èebol `ènte tenmau `èetaiitc `èebol `èn'htf.",
             "",
-            "Ou encore: Auquel de mes créanciers vous ai-je vendus? Oui, c'est pour vos fautes que vous avez été vendus, c'est pour vos crimes que j'ai répudié votre mère. Pourquoi suis-je venu sans qu'il y ait personne? Pourquoi ai-je appelé sans que nul ne réponde ? \nSerait-ce que ma main est trop courte pour racheter, que je n'ai pas la force de délivrer? Voici: par ma menace je dessèche la mer, je change les fleuves en désert.",
-            "أو إلى أى غريم أسلمتكم؟ هو ذا من أجل خطاياكم قد بعتكم، وبسبب آثامكم طلقت أمكم. لماذا أتيت ولم يكن إنسان؟ دعوت وليس من مجيب؟ أقصرت يدى عن أن تخلص، أو ثقلت أذنى عن السماع؟\nإنما خطاياكم قائمة بينكم وبين الله، لأجل ذنوبكم صرف وجهه عنكم لكي لا يرحمكم. هل ليس لى قوة على خلاصكم؟ هو ذا بغضبى أنشف البحر وأصير الأنهار قفارًا",
-        ],
-        [
-            Prefix.HolyWeek + "11HDProphecies&D=GL52&C=Diacon",
             "",
-            "Les poissons s'y corrompent faute d'eau, ils meurent de soif. Je revêts les cieux de noirceur, je leur mets un sac comme vêtement.\nGloire à la sainte Trinité notre Dieu.",
-            "فييبس سمكها من عدم الماء، ويموت من العطش. وألبس السماء ظلامًا وأجعل المسح غطاؤها\nمجدًا للثالوث الأقدس إلهنا آمين",
         ],
         [
-            Prefix.HolyWeek + "11HDProphecies&D=GL52&C=Diacon",
-            "Ebolqen Iycou `nte Cira, piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \n0nouni gar `èn;covia pe `èpero; 'a`èth `èmPç_ > ouo anmh] `èn`èeoou ne nec`èkladoc.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
-            "Ecclésiastique 1 : 25 - 40\nLa racine de la sagesse, c'est de craindre le Seigneur, et sa frondaison, c'est une longue vie.",
-            "يشوع بن سيراخ ١ : ٢٥-٤٠\nأصل الحكمة هى مخافة الرب. وأغصانها كثرة الأيام",
+            Prefix.same + "&C=Diacon",
+            "Ⲟⲩⲱ̀ⲟⲩ ⲛ̀Ϯⲧ̀ⲣⲓⲁⲥ ⲉ̀ⲑⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ : ϣⲁ ⲉ̀ⲛⲉϩ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ⲛⲉϩ ⲧⲏⲣⲟⲩ : ⲁ̀ⲙⲏⲛ.",
+            "",
+            "",
         ],
         [
-            Prefix.HolyWeek + "11HDProphecies&D=GL52&C=Diacon",
+            Prefix.same + "&C=Diacon",
+            "",
+            "Ainsi parle le Seigneur : Où est la lettre de divorce de votre mère par laquelle je l'ai répudiée ? Ou encore: Auquel de mes créanciers vous ai-je vendus? Oui, c'est pour vos fautes que vous avez été vendus, c'est pour vos crimes que j'ai répudié votre mère.",
+            "هكذا يقول الرب: أين هو كتاب طلاق أمكم الذي طلقتها به؟ أو إلى أى غريم أسلمتكم؟ هو ذا من أجل خطاياكم قد بعتكم، وبسبب آثامكم طلقت أمكم.",
+        ],
+        [
+            Prefix.same + "&C=Diacon",
+            "",
+            "Pourquoi suis-je venu sans qu'il y ait personne? Pourquoi ai-je appelé sans que nul ne réponde ?\nSerait-ce que ma main est trop courte pour racheter, que je n'ai pas la force de délivrer?",
+            "لماذا أتيت ولم يكن إنسان؟ دعوت وليس من مجيب؟ أقصرت يدى عن أن تخلص، أو ثقلت أذنى عن السماع؟\nإنما خطاياكم قائمة بينكم وبين الله، لأجل ذنوبكم صرف وجهه عنكم لكي لا يرحمكم. هل ليس لي قوة على خلاصكم؟",
+        ],
+        [
+            Prefix.same + "&C=Diacon",
+            "",
+            " Voici: par ma menace je dessèche la mer, je change les fleuves en désert. Les poissons s'y corrompent faute d'eau, ils meurent de soif. Je revêts les cieux de noirceur, je leur mets un sac comme vêtement.\nGloire à la sainte Trinité notre Dieu.",
+            " هو ذا بغضبى أنشف البحر وأصير الأنهار قفارًا فييبس سمكها من عدم الماء، ويموت من العطش. وألبس السماء ظلامًا وأجعل المسح غطاؤها.\nمجدًا للثالوث الأقدس إلهنا آمين",
+        ],
+        [
+            Prefix.same + "&C=Title",
+            "",
+            "Ecclésiastique (1: 25-40)",
+            "يشوع بن سيراخ (١: ٢٥-٤٠)",
+        ],
+        [
+            Prefix.same + "&C=Diacon",
+            "Ⲉⲃⲟⲗϧⲉⲛ Ⲓⲏⲥⲟⲩ ⲛ̀ⲧⲉ Ⲥⲓⲣⲁⲭ ⲡⲓⲡⲣⲟⲫⲏⲧⲏⲥ :Ⲥ ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̅ⲑ̅ⲩ̅ : ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ",
+            "",
+            "",
+        ],
+        [
+            Prefix.same + "&C=Diacon",
+            "0nouni gar `èn;covia pe `èpero; 'a`èth `èmPç_ > ouo anmh] `èn`èeoou ne nec`èkladoc.",
+            "",
+            "",
+        ],
+        [
+            Prefix.same + "&C=Diacon",
+            "Ⲟⲩⲱ̀ⲟⲩ ⲛ̀Ϯⲧ̀ⲣⲓⲁⲥ ⲉ̀ⲑⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ : ϣⲁ ⲉ̀ⲛⲉϩ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ⲛⲉϩ ⲧⲏⲣⲟⲩ : ⲁ̀ⲙⲏⲛ.",
+            "",
+            "",
+        ],
+        [
+            Prefix.same + "&C=Diacon",
+            "",
+            "La racine de la sagesse, c'est de craindre le Seigneur, et sa frondaison, c'est une longue vie.",
+            "أصل الحكمة هى مخافة الرب. وأغصانها كثرة الأيام",
+        ],
+        [
+            Prefix.same + "&C=Diacon",
             "",
             "La passion du méchant ne saurait le justifier, car le poids de sa passion est sa ruine. L'homme patient tient bon jusqu'à son heure, mais à la fin, sa joie éclate. Jusqu'à son heure, il dissimule ses paroles, et tout le monde proclame son intelligence. Dans les trésors de la sagesse sont les maximes de la science, mais le pécheur a la piété en horreur. Convoites-tu la sagesse ? Garde les commandements, le Seigneur te la prodiguera.",
-            "والغضوب لا يمكن أن يتبرر، لأن ميله للغضب يسقطه. الطويل الروح يصبر إلى حين ثم يعاوده السرور. يكتم كلامه إلى حين وشفاه الكثيرين تنطق بحكمة. أمثال التعليم كائنة فى كنوز الحكمة، أما عند الخاطئ فعبادة الله رجس. إن إشتهيت الحكمة فإحفظ الوصايا، فيهبها لك الرب.",
+            "والغضوب لا يمكن أن يتبرر، لأن ميله للغضب يسقطه. الطويل الروح يصبر إلى حين ثم يعاوده السرور. يكتم كلامه إلى حين وشفاه الكثيرين تنطق بحكمة. أمثال التعليم كائنة في كنوز الحكمة، أما عند الخاطئ فعبادة الله رجس. إن إشتهيت الحكمة فإحفظ الوصايا، فيهبها لك الرب.",
         ],
         [
-            Prefix.HolyWeek + "11HDProphecies&D=GL52&C=Diacon",
+            Prefix.same + "&C=Diacon",
             "",
             "Car la crainte du Seigneur est sagesse et instruction, ce qu'il aime, c'est la fidélité et la douceur. Ne sois pas indocile à la crainte du Seigneur, et ne la pratique pas avec un cœur double. Ne sois pas hypocrite devant le monde, et veille sur tes lèvres. Ne t'élève pas, de peur de tomber et de te couvrir de honte, car le Seigneur révélerait tes secrets et, au milieu de l'assemblée, il te renverserait, parce que tu n'as pas pratiqué la crainte du Seigneur et que ton cœur est plein de fraude.\nGloire à la sainte Trinité notre Dieu.",
-            "فإن الحكمة والأدب هما مخافة الرب، والذى يرضيه هو الإيمان والوداعة. لا تكن مخالفاً لمخافة الرب ولا تتقدم إليه بقلبين. لا تكن مرائياً قدام الناس وإحفظ فمك وشفتيك، لا تترفع لئلا تسقط فتجلب على نفسك الهوان، ويكشف الرب خفاياك، ويصرعك فى وسط الجماعة. لأنك لم تتقدم إلى مخافة الرب، وقلبك ممتلئ غشاً.\nمجدًا للثالوث الأقدس إلهنا آمين",
+            "فإن الحكمة والأدب هما مخافة الرب، والذى يرضيه هو الإيمان والوداعة. لا تكن مخالفاً لمخافة الرب ولا تتقدم إليه بقلبين. لا تكن مرائياً قدام الناس وإحفظ فمك وشفتيك، لا تترفع لئلا تسقط فتجلب على نفسك الهوان، ويكشف الرب خفاياك، ويصرعك في وسط الجماعة. لأنك لم تتقدم إلى مخافة الرب، وقلبك ممتلئ غشاً.\nمجدًا للثالوث الأقدس إلهنا آمين",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "11HDSermony&D=GL52&C=Title",
-            "Sermon de  Onzième heure du lundi",
-            "",
+            "Sermon de Onzième heure du lundi",
+            "Sermon de Onzième heure du lundi",
             "عظة لأبينا الساعة الحادية عشر من يوم الإثنين",
         ],
         [
-            Prefix.HolyWeek + "11HDSermony&D=GL52&C=Diacon",
-            "",
-            "",
-            "",
-        ],
-        [
-            Prefix.HolyWeek + "11HDSermony&D=GL52&C=Diacon",
+            Prefix.same + "&C=Diacon",
             "Oukaty,ycic `nte peniwt `e;ouab abba Senou] pi`ar,yman`drityc `ere pef`cmou `e;ouab swpi neman `amyn",
-            "",
-            "عظة لأبينا القديس أنبا شنودة رئيس المتوحدين بركته المقدسة تكون معنا آمين",
+            "Sermon de notre saint père Anba Chénouté l'archimandrite, que sa sainte bénédiction repose sur nous tous. Amen!",
+            "عظة لأبينا القديس أنبا شنودة رئيس المتوحدين بركته المقدسة تكون معنا آمين.",
         ],
         [
-            Prefix.HolyWeek + "11HDSermony&D=GL52&C=Diacon",
+            Prefix.same + "&C=Diacon",
             "",
-            "Sermon de notre saint père Anba Chénouté l'archimandrite, que sa sainte bénédiction repose sur nous tous.  Amen! \nIl peut y avoir des actions que nous croyons bonnes mais qui pour Dieu sont mauvaises. Nous pouvons être indulgents les uns envers les autres et nous péchons dans les lieux sacrés. Le Seigneur n’a pas planté dans le paradis des arbres bons et des arbres mauvais, mais Il n’a planté que de bons arbres.",
-            "عظة لأبينا القديس أنبا شنودة رئيس المتوحدين بركته المقدسة تكون معنا. آمين. \nقد توجد أعمال نخالها أنها صالحة، ولكنها رديئة عند الله. وذلك إننا نرى من يخطئ فى المواضع المقدسة ونصبر عليه، وهذا مما يجعله يتمادى فى الشر. لأن الرب لم يغرس فى الفردوس الأشجار الصالحة والغير الصالحة، بل غرسه من الأشجار الصالحة فقط.",
+            "Il peut y avoir des actions que nous croyons bonnes mais qui pour Dieu sont mauvaises. Nous pouvons être indulgents les uns envers les autres et nous péchons dans les lieux sacrés.",
+            "قد توجد أعمال نخالها أنها صالحة، ولكنها رديئة عند الله. وذلك إننا نرى من يخطئ في المواضع المقدسة ونصبر عليه، وهذا مما يجعله يتمادى في الشر.",
         ],
         [
-            Prefix.HolyWeek + "11HDSermony&D=GL52&C=Diacon",
+            Prefix.same + "&C=Diacon",
             "",
-            "Il a planté des arbres donnant de bons fruits et non de mauvais fruits. Il en est de même pour les gens qu’Il a placé au paradis, et lorsqu’ils ont désobéi, Il ne les a plus supportés et les a renvoyés. Apprenons, frères bien-aimés, que nous ne devons pas remplir les saintes maisons de Dieu de gens mauvais et bons comme dans le monde qui est rempli de pécheurs, de personnes injustes, de saints et d’impurs. Mais ceux qui pèchent ne doivent pas y rester mais doivent en être sortis.",
-            "ولم يجعل فيه أشجارا غير مثمرة ولا التى بها ثمر ردئ. وليس هذا فقط، بل والإنسان نفسه الذى جعله فيه، عندما خالف لم يتركه وشأنه بل أخرجه منه. فمن هذا إعلموا أيها الأخوة الأحباء، انه لا يجب أن تكون بيوت الله المقدسة ملأى من الناس الأشرار والصالحين، كما فى العالم المملؤ من الخطاة والظالمين، والقديسين والنجسين، بل يجب علينا أن نعزل كل من نراه يسلك بغير ترتيب فى بيت الله.  ",
+            "Le Seigneur n’a pas planté dans le paradis des arbres bons et des arbres mauvais, mais Il n’a planté que de bons arbres. Il a planté des arbres donnant de bons fruits et non de mauvais fruits. Il en est de même pour les gens qu’Il a placé au paradis, et lorsqu’ils ont désobéi, Il ne les a plus supportés et les a renvoyés. Apprenons, frères bien-aimés, que nous ne devons pas remplir les saintes maisons de Dieu de gens mauvais et bons comme dans le monde qui est rempli de pécheurs, de personnes injustes, de saints et d’impurs. Mais ceux qui pèchent ne doivent pas y rester mais doivent en être sortis.",
+            "لأن الرب لم يغرس في الفردوس الأشجار الصالحة والغير الصالحة، بل غرسه من الأشجار الصالحة فقط. ولم يجعل فيه أشجارا غير مثمرة ولا التى بها ثمر ردئ. وليس هذا فقط، بل والإنسان نفسه الذي جعله فيه، عندما خالف لم يتركه وشأنه بل أخرجه منه. فمن هذا إعلموا أيها الأخوة الأحباء، انه لا يجب أن تكون بيوت الله المقدسة ملأى من الناس الأشرار والصالحين، كما في العالم المملؤ من الخطاة والظالمين، والقديسين والنجسين، بل يجب علينا أن نعزل كل من نراه يسلك بغير ترتيب في بيت الله.",
         ],
         [
-            Prefix.HolyWeek + "11HDSermony&D=GL52&C=Diacon",
+            Prefix.same + "&C=Diacon",
             "",
             "Je sais que la terre toute entière appartient au Seigneur. Si Sa maison est comme le reste de la terre, quel serait alors sa marque distinctive par rapport au reste? Si moi, étant prêtre, je fais le mal comme le font les méchants sur terre, je n’ai plus le droit d’être appelé prêtre. Car souvent nous péchons et ne savons pas comment nous juger nous-mêmes. Personne n’osera remplir ta maison de déchets sauf s’il te trouve négligent.",
-            "أنا أعرف أن الأرض كلها هى للرب. فإذا كان بيته كباقى الأرض، فما هى ميزته إذن على غيره؟ فإن كنت وأنا الكاهن أعمل الشر كما يعمله الأشرار على الأرض فلا يحق لى أن أدعى كاهناً لأنه مراراً كثيرة نخطئ ولا نعرف كيف ندين أنفسنا بما نقول، لأنه لا يتجرأ أحد أن يملأ بيتك قذارة الا اذا رأى منك التهاون،",
+            "أنا أعرف أن الأرض كلها هى للرب. فإذا كان بيته كباقى الأرض، فما هى ميزته إذن على غيره؟ فإن كنت وأنا الكاهن أعمل الشر كما يعمله الأشرار على الأرض فلا يحق لي أن أُدْعَى كاهناً لأنه مراراً كثيرة نخطئ ولا نعرف كيف ندين أنفسنا بما نقول، لأنه لا يتجرأ أحد أن يملأ بيتك قذارة إلَّا إذا رأى منك التهاون.",
         ],
         [
-            Prefix.HolyWeek + "11HDSermony&D=GL52&C=Diacon",
+            Prefix.same + "&C=Diacon",
             "",
-            "Les gardes du roi n’oseront pas faire entrer toute personne dans sa maison, qu’ils soient de bons sujets ou de mauvais sujets, sans son ordre; et s’ils agissent autrement, ils sont punis. \nClôturons le sermon de notre père Anba Chénouté l'archimandrite qui a éclairé nos pensées et les yeux de nos cœurs au Nom du Père, du Fils et du Saint Esprit, un seul Dieu, Amen",
-            "ولا حجاب الملك يتجرأون أن يدخلوا بكل إنسان إلى بيته من الحافظين مراسيمه والمخالفين لها الإ بأمره. ومتى عملوا بخلاف ذلك يعاقبون. \nفلنختم عظة أبينا القديس  أنبا شنودة رئيس المتوحدين الذي أنار عقولنا وعيون قلوبنا بإسم الآب والإبن والروح القدس إله واحد. آمين.",
+            "Les gardes du roi n’oseront pas faire entrer toute personne dans sa maison, qu’ils soient de bons sujets ou de mauvais sujets, sans son ordre; et s’ils agissent autrement, ils sont punis.\n",
+            "ولا حجاب الملك يتجرأون أن يدخلوا بكل إنسان إلى بيته من الحافظين مراسيمه والمخالفين لها الإ بأمره. ومتى عملوا بخلاف ذلك يعاقبون.\n",
         ],
         [
-            Prefix.HolyWeek + "11HDSermony&D=GL52&C=Diacon",
+            Prefix.same + "&C=RedingEnd",
             "",
-            "",
-            "فلنختم عظة أبينا القديس أنبا شنودة رئيس المتوحدين الذى أنار عقولنا وعيون قلوبنا بإسم الآب والإبن والروح القدس إله واحد. آمين.",
+            "Clôturons le sermon de notre père Anba Chénouté l'archimandrite qui a éclairé nos pensées et les yeux de nos cœurs au Nom du Père, du Fils et du Saint Esprit, un seul Dieu, Amen!",
+            "فلنختم عظة أبينا القديس أنبا شنودة رئيس المتوحدين الذي أنار عقولنا وعيون قلوبنا بإسم الآب والإبن والروح القدس إله واحد. آمين.",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "11HDPsalm&D=GL52&C=Title",
-            "Psaume de la Onzième heure du lundi",
-            "",
-            "مزمور الساعة الحادية عشر من يوم الإثنين",
+            "Psaume de la Onzième heure du lundi\nYalmoc to Dauid\n",
+            "Psaume de la Onzième heure du lundi\nYalmoc to Dauid\n",
+            "مزمور الساعة الحادية عشر من يوم الإثنين\nمزمور (١٢: ٤)\n",
         ],
         [
-            Prefix.HolyWeek + "11HDPsalm&D=GL52&C=Diacon",
-            "",
-            "",
-            "",
-        ],
-        [
-            Prefix.HolyWeek + "11HDPsalm&D=GL52&C=Diacon",
-            "Yalmoc  to Dauid\nComc cwtem `èeroi P_ Panou; > ma`èvouwini `ènnabal mhpwc `èntawrp 'en `èvmou > mhpote `ènte pajaji joc > je  aijemjom  oubhf  > `` allhloui`a",
-            "Psaume 12 : 4 et 5\nRegarde, réponds-moi, Seigneur mon Dieu ! Donne la lumière à mes yeux, garde moi du sommeil de la mort; que l’adversaire ne crie pas. «Je l’ai vaincu.»   Alléluia",
-            "مزمور ١٢ : ٤\nأنظر وأستجب لى ياربي وألهى. أنر عينى لئلا أنام فى الموت. لئلا يقول عدوى أنى قد قويت عليه الليلويا",
+            Prefix.same + "&C=Diacon",
+            "Comc cwtem `èeroi P_ Panou; > ma`èvouwini `ènnabal mhpwc `èntawrp 'en `èvmou > mhpote `ènte pajaji joc > je aijemjom oubhf >\n `` allhloui`a",
+            "Regarde, réponds-moi, Seigneur mon Dieu ! Donne la lumière à mes yeux, garde moi du sommeil de la mort; que l’adversaire ne crie pas. «Je l’ai vaincu.»\nAlléluia",
+            "انظر واستجب لي ياربي وألهى. أنر عَيْنِي لئلا أنام في الموت. لئلا يقول عَدُوِّي أني قد قويت عليه.\nالليلويا",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "11HDGospel&D=GL52&C=Title",
-            "Evangile de la Onzième heure du lundi",
-            "",
-            " إنجيل الساعة الحادية عشر من يوم الإثنين",
+            "Evangile de la Onzième heure du lundi\nIwannhn Kev h/> n/a/- ]/b/l/\n",
+            "Evangile de la Onzième heure du lundi\nIwannhn Kev h/> n/a/- ]/b/l/\n",
+            "إنجيل الساعة الحادية عشر من يوم الإثنين\nيوحنا (٨: ٥١-٥٩)\n",
         ],
         [
-            Prefix.HolyWeek + "11HDGospel&D=GL52&C=Diacon",
-            "",
-            "",
-            "",
+            Prefix.same + "&C=Diacon",
+            "èAmhn `èamhn ;jw `èmmoc nwten je `èe]wp `èare]an ouai `èare `èepacaji `ènnefnau `èe`èvmou ]a `èene. Peje niIoudai naf je ;nou an`èemi je ouon oudemwn nemak > Abraam afmou nem nikeprovhthc ouo `ènqok `èkjw `è mmoc je vheqnaare `èepacaji `ènnefjem; pi `èm`èvmou ]a `èene. Mh `ènqok ouni]; `ènqok `èepeniwt Abraam vhetafmou nem nikeprovhthc aumou `èk`èiri `èmmok `ènnim.",
+            "En vérité, en vérité, je vous le dis: si quelqu'un garde ma parole, il ne verra jamais la mort. Les Juifs lui dirent: «Maintenant nous savons que tu as un démon. Abraham est mort, les prophètes aussi, et tu dis: Si quelqu'un garde ma parole, il ne goûtera jamais de la mort. Es-tu donc plus grand qu'Abraham, notre père, qui est mort? Les prophètes aussi sont morts. Qui prétends-tu être? »",
+            "الحق الحق أقول لكم إن كان أحد يحفظ كلامى فلن يرى الموت إلى الأبد. فقال له اليهود: الآن علمنا أن بك شيطاناً. قد مات ابراهيم والأنبياء وأنت تقول إن كان أحد يحفظ كلامى فلن يذوق الموت إلى الأبد. ألعلك أنت أعظم من أبينا ابراهيم الذي مات؟ والأنبياء قد ماتوا أيضاً، من تجعل نفسك؟",
         ],
         [
-            Prefix.HolyWeek + "11HDGospel&D=GL52&C=Diacon",
-            "Iwannhn  Kev h/> n/a/- ]/b/l/\nèAmhn `èamhn ;jw `èmmoc nwten je `èe]wp `èare]an ouai `èare `èepacaji `ènnefnau `èe`èvmou ]a `èene. Peje niIoudai naf je ;nou an`èemi je ouon oudemwn nemak > Abraam afmou nem nikeprovhthc ouo `ènqok `èkjw `è mmoc je vheqnaare `èepacaji `ènnefjem; pi `èm`èvmou ]a `èene. Mh `ènqok ouni]; `ènqok `èepeniwt Abraam vhetafmou nem nikeprovhthc aumou `èk`èiri `èmmok `ènnim.\nAferouw `ènje Ihc? efjw `èmmoc je `èe]wp `èanok ai]an ;wou nhi `èmmauat pawou `èli an pe > `èf]op `ènje paiwt eqna;wou nhi > vh`ènqwten etetenjw `èmmoc je Pennou; pe > ouo `èmpetencouwnf `èanok de ;cwoun `èmmof `èe]wp de ai]anjoc je ;cwoun `èmmof an ei`èe]wpi ei`èoni `èmmwten `èncameqnouj alla ;cwoun `èmmof ouo pefcaji ;`èare `èerof > Abraam peteniwt nafqelhl pe efouw] `èenau `èeoue`èoou `ènthi ouo afnau afra]i.\nPeje niioudai oun naf je `èmpateker tebi `ènrompi ouo aknau `èeAbraam. Peje Ihc? nwou je `èamhn `èamhn ;jw `èmmoc nwten je `èmpate Abraam ]wpi `èanok pe > auel wni oun `ènje niioudai ina `ènceiou`èi `èejwf > Ihc? de afxopf ouo af`èi `èebol'en piervei ouo afcini nafmo]i pe 'en toumh; ouo nafciniwou  `èmpairh;\nOuw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
-            "",
-            "",
+            Prefix.same + "&C=Diacon",
+            "Aferouw `ènje Ihc? efjw `èmmoc je `èe]wp `èanok ai]an ;wou nhi `èmmauat pawou `èli an pe > `èf]op `ènje paiwt eqna;wou nhi > vh`ènqwten etetenjw `èmmoc je Pennou; pe > ouo `èmpetencouwnf `èanok de ;cwoun `èmmof `èe]wp de ai]anjoc je ;cwoun `èmmof an ei`èe]wpi ei`èoni `èmmwten `èncameqnouj alla ;cwoun `èmmof ouo pefcaji ;`èare `èerof > Abraam peteniwt nafqelhl pe efouw] `èenau `èeoue`èoou `ènthi ouo afnau afra]i.",
+            "Jésus répondit: «Si je me glorifie moi-même, ma gloire n'est rien; c'est mon Père qui me glorifie, lui dont vous dites: Il est notre Dieu, et vous ne le connaissez pas; mais moi, je le connais; et si je disais: Je ne le connais pas, je serais semblable à vous, un menteur. Mais je le connais et je garde sa parole. Abraham, votre père, exulta à la pensée qu'il verrait mon Jour. Il l'a vu et fut dans la joie.»",
+            "أجاب يسوع قائلاً: \"إن كنت أنا أمجد نفسى وحدى فليس مجدى شيئاً. أبي هو الذي يمجدنى. الذي تقولون أنتم أنه إلهكم ولستم تعرفونه، وأما أنا فأعرفه وإن قلت أني لست أعرفه صرت كاذباً مثلكم لكننى أعرفه وأحفظ كلامه. ابراهيم أبوكم تهلل مشتهيا أن يرى يومى فرأى وفرح.\"",
         ],
         [
-            Prefix.HolyWeek + "11HDGospel&D=GL52&C=Diacon",
-            "Yalmoc  to Dauid\nComc cwtem `èeroi P_ Panou; > ma`èvouwini `ènnabal mhpwc `èntawrp 'en `èvmou > mhpote `ènte pajaji joc > je  aijemjom  oubhf  > `` allhloui`a",
-            "Psaume 12 : 4 et 5\nRegarde, réponds-moi, Seigneur mon Dieu ! Donne la lumière à mes yeux, garde moi du sommeil de la mort; que l’adversaire ne crie pas. «Je l’ai vaincu.»   Alléluia",
-            "مزمور ١٢ : ٤\nأنظر وأستجب لى ياربي وألهى. أنر عينى لئلا أنام فى الموت. لئلا يقول عدوى أنى قد قويت عليه الليلويا",
-        ],
-        [
-            Prefix.HolyWeek + "11HDGospel&D=GL52&C=Diacon",
-            "",
-            "Jean 8 : 51-59\nEn vérité, en vérité, je vous le dis: si quelqu'un garde ma parole, il ne verra jamais la mort. Les Juifs lui dirent: «Maintenant nous savons que tu as un démon. Abraham est mort, les prophètes aussi, et tu dis: Si quelqu'un garde ma parole, il ne goûtera jamais de la mort. Es-tu donc plus grand qu'Abraham, notre père, qui est mort? Les prophètes aussi sont morts. Qui prétends-tu être? »",
-            "يوحنا ٨ : ٥١ -٥٩ \nالحق الحق أقول لكم إن كان أحد يحفظ كلامى فلن يرى الموت إلى الأبد. فقال له اليهود: الآن علمنا أن بك شيطاناً. قد مات إبراهيم والأنبياء وأنت تقول إن كان أحد يحفظ كلامى فلن يذوق الموت إلى الأبد. ألعلك أنت أعظم من أبينا إبراهيم الذى مات؟ والأنبياء قد ماتوا أيضاً، من تجعل نفسك؟",
-        ],
-        [
-            Prefix.HolyWeek + "11HDGospel&D=GL52&C=Diacon",
-            "",
-            "Jésus répondit: «Si je me glorifie moi-même, ma gloire n'est rien; c'est mon Père qui me glorifie, lui dont vous dites: Il est notre Dieu, et vous ne le connaissez pas; mais moi, je le connais; et si je disais: Je ne le connais pas, je serais semblable à vous, un menteur. Mais je le connais et je garde sa parole. Abraham, votre père, exulta à la pensée qu'il verrait mon Jour. Il l'a vu et fut dans la joie.»  Les Juifs lui dirent alors:",
-            "أجاب يسوع قائلاً: إن كنت أنا أمجد نفسى وحدى فليس مجدى شيئاً. أبى هو الذى يمجدنى. الذى تقولون أنتم أنه إلهكم ولستم تعرفونه، وأما أنا فأعرفه وإن قلت أنى لست أعرفه صرت كاذباً مثلكم لكننى أعرفه وأحفظ كلامه. إبراهيم أبوكم تهلل مشتهيا أن يرى يومى فرأى وفرح. فقال له اليهود:",
-        ],
-        [
-            Prefix.HolyWeek + "11HDGospel&D=GL52&C=Diacon",
-            "",
-            "«Tu n'as pas 50 ans, et tu as vu Abraham!» Jésus leur dit: «En vérité, en vérité, je vous le dis, avant qu'Abraham existât, Je Suis.» Ils ramassèrent alors des pierres pour les lui jeter ; mais Jésus se déroba et sortit du Temple.\nGloire à Dieu éternellement.",
-            "ليس لك خمسون سنة بعد وقد رأيت إبراهيم. فقال لهم يسوع: الحق الحق أقول لكم، قبل أن يكون إبراهيم أنا كائن. فأخذ اليهود حجارة ليرجموه، فتوارى يسوع وخرج من الهيكل مجتازاً فى وسطهم ومضى هكذا.\nوالمجد لله دائماً",
+            Prefix.same + "&C=Diacon",
+            "Peje niioudai oun naf je `èmpateker tebi `ènrompi ouo aknau `èeAbraam. Peje Ihc? nwou je `èamhn `èamhn ;jw `èmmoc nwten je `èmpate Abraam ]wpi `èanok pe > auel wni oun `ènje niioudai ina `ènceiou`èi `èejwf > Ihc? de afxopf ouo af`èi `èebol'en piervei ouo afcini nafmo]i pe 'en toumh; ouo nafciniwou `èmpairh;.\nOuw]t `mpieuaggelion eqouab.\nDo[a ci Kuri`e.\n",
+            "Les Juifs lui dirent alors: «Tu n'as pas 50 ans, et tu as vu Abraham!» Jésus leur dit: «En vérité, en vérité, je vous le dis, avant qu'Abraham existât, Je Suis.» Ils ramassèrent alors des pierres pour les lui jeter ; mais Jésus se déroba et sortit du Temple.\nGloire à Dieu éternellement.",
+            " فقال له اليهود: \"ليس لك خمسون سنة بعد وقد رأيت إبراهيم\". فقال لهم يسوع: \"الحق الحق أقول لكم، قبل أن يكون ابراهيم أنا كائن\". فأخذ اليهود حجارة ليرجموه، فتوارى يسوع وخرج من الهيكل مجتازاً في وسطهم ومضى هكذا.\nوالمجد لله دائماً",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "11HDCommentary&D=GL52&C=Title",
             "Commentaire de la Onzième heure du lundi",
-            "",
+            "Commentaire de la Onzième heure du lundi",
             "طرح الساعة الحادية عشر من يوم الإثنين",
         ],
         [
-            Prefix.HolyWeek + "11HDCommentary&D=GL52&C=Diacon",
+            Prefix.same + "&C=Diacon",
             "",
-            "",
-            "",
+            "Ô lumière véritable qui éclaire tout, Toi qui remplis tout lieu dans l’univers, Jésus, la vraie lumière qui éclaire toutes les nations sauf les juifs car ils ne s’en sont pas rapprochés pour Te contempler. Il fit apparaître en eux Son mystère en disant que quiconque croit en Lui ne mourra jamais. Ecoutez comment les ignorants et ceux qui contreviennent à la Loi ont dit qu’Il sortait les démons avec l’aide de Satan.",
+            "أيها النور الحقيقى الذي يضئ المالئ كل مكان في المسكونة، أعنى يسوع النور الحقيقى الذي يضئ لجميع الأمم ما خلا اليهود، فإنهم لم يقتربوا من هذا النور ليتأملوه. أما هو فأظهر فيهم سره قائلًا: \"إن من يؤمن به لن يموت إلى الأبد\". إسمعوا كيف أن الجهال ومخالفى الناموس قالوا أن معه شيطان يخرج الشياطين.",
         ],
         [
-            Prefix.HolyWeek + "11HDCommentary&D=GL52&C=Diacon",
+            Prefix.same + "&C=Diacon",
             "",
-            "Commentaire\nÔ lumière véritable qui éclaire tout, Toi qui remplis tout lieu dans l’univers, Jésus, la vraie lumière qui éclaire toutes les nations sauf les juifs car ils ne s’en sont pas rapprochés pour Te contempler. Il fit apparaître en eux Son mystère en disant que quiconque croit en Lui ne mourra jamais. Ecoutez comment les ignorants et ceux qui contreviennent à la Loi ont dit qu’Il sortait les démons avec l’aide de Satan.",
-            "طــرح\nأيها النور الحقيقى الذي يضئ المالئ كل مكان في المسكونة، أعنى يسوع النور الحقيقى الذي يضئ لجميع الأمم ما خلا اليهود، فإنهم لم يقتربوا من هذا النور ليتأملوه. أما هو فأظهر فيهم سره قائلًا: إن من يؤمن به لن يموت إلى الأبد. إسمعوا كيف أن الجهال ومخالفى الناموس قالوا أن معه شيطان يخرج الشياطين،",
+            "Abraham est mort. Les prophètes sont morts aussi. Comment donc celui qui croit en Toi ne mourra pas? Si Je Me glorifie Moi-même, ma gloire n’est rien. J’ai quelqu’un qui Me glorifie. Es-Tu plus grand que notre père Abraham et sa descendance qui ont goûté la mort? Toi qui n'as pas cinquante ans, Tu as vu Abraham?",
+            "\"ابراهيم مات والأنبياء أيضاً فكيف لا يموت الذي يؤمن بك؟ إن أنا مجدت نفسى فليس مجدى شيئاً، لي من يمجدنى. ألعلك أعظم من أبينا ابراهيم ومن نسله الذين ذاقوا الموت؟ لم يكن لك خمسون سنة من الزمان فهل رأيت إبراهيم؟ من يصدقك؟\".",
         ],
         [
-            Prefix.HolyWeek + "11HDCommentary&D=GL52&C=Diacon",
+            Prefix.same + "&C=Diacon",
             "",
-            "Abraham est mort. Les prophètes sont morts aussi. Comment donc celui qui croit en Toi ne mourra pas? Si Je Me glorifie Moi-même, ma gloire n’est rien. J’ai quelqu’un qui Me glorifie. Es-Tu plus grand que notre père Abraham et sa descendance qui ont goûté la mort? Toi qui n'as pas cinquante ans, Tu as vu Abraham? Le sauveur a dit: en vérité, avant qu'Abraham ait existé, Moi, Je suis. Nous aussi, les peuples nouveaux, nous croyons",
-            "إبراهيم مات والأنبياء أيضاً فكيف لا يموت الذى يؤمن بك؟ إن أنا مجدت نفسى فليس مجدى شيئاً، لى من يمجدنى. ألعلك أعظم من أبينا إبراهيم ومن نسله الذين ذاقوا الموت؟ لم يكن لك خمسون سنة من الزمان فهل رأيت إبراهيم؟ من يصدقك؟ قال المخلص الحق أنه كائن من قبل أن يكون إبراهيم. فنحن أيضاً نؤمن، معشر الشعوب الجديدة،",
+            "Le sauveur a dit: en vérité, avant qu'Abraham ait existé, Moi, Je suis. Nous aussi, les peuples nouveaux, nous croyons Et persistons dans Ses commandements. Nous confessons au plus profond de nos cœurs, par le Verbe véritable du Tout-puissant, que le Très bon est depuis le commencement avec le Saint Esprit consolateur.",
+            "قال المخلص الحق أنه كائن من قبل أن يكون إبراهيم. فنحن أيضاً نؤمن، معشر الشعوب الجديدة، ونواظب على وصاياه في أفواهنا ونعترف من عمق قلوبنا بالكلمة الحقيقى الذي للآب الضابط الكل أن الصالح كائن منذ البدء مع الروح القدس المعزى.",
         ],
         [
-            Prefix.HolyWeek + "11HDCommentary&D=GL52&C=Diacon",
+            Prefix.same + "&C=Diacon",
             "",
-            "Et persistons dans Ses commandements. Nous confessons au plus profond de nos cœurs, par le Verbe véritable du Tout-puissant, que le Très bon est depuis le commencement avec le Saint Esprit consolateur. Il continue à parler aux ignorants, aux pécheurs, aux contrevenants, aux fils rejetés. Ils ont renié la grâce immense et les nombreux miracles qu’il a faits devant eux.",
-            "ونواظب على وصاياه فى أفواهنا ونعترف من عمق قلوبنا بالكلمة الحقيقى الذى للآب الضابط الكل أن الصالح كائن منذ البدء مع الروح القدس المعزى. لم يزل يخبر الجهال المملوئين إثماً والمخالفين الأبناء المرذولين، فجحدوا هذه النعمة الغظيمة والعجائب الجزيلة التى أظهرها فيها،",
-        ],
-        [
-            Prefix.HolyWeek + "11HDCommentary&D=GL52&C=Diacon",
-            "",
-            "Ils n’ont pas compris qu’Il est leur sauveur comme l’ont dit les prophètes. Ils L’ont renié, ne L’ont pas accepté, L’ont rejeté et sont devenus sans Dieu.",
-            "ولم يفهموا انه هو مخلصهم كما قال الأنبياء، فجحدوه ولم يقبلوه ورفضوه وصاروا بغير إله.",
+            "Il continue à parler aux ignorants, aux pécheurs, aux contrevenants, aux fils rejetés. Ils ont renié la grâce immense et les nombreux miracles qu’il a faits devant eux. Ils n’ont pas compris qu’Il est leur sauveur comme l’ont dit les prophètes. Ils L’ont renié, ne L’ont pas accepté, L’ont rejeté et sont devenus sans Dieu.",
+            "لم يزل يخبر الجهال المملوئين إثماً والمخالفين الأبناء المرذولين، فجحدوا هذه النعمة الغظيمة والعجائب الجزيلة التى أظهرها فيها، ولم يفهموا انه هو مخلصهم كما قال الأنبياء، فجحدوه ولم يقبلوه ورفضوه وصاروا بغير إله.",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "1HEProphecies&D=GL52&C=Title",
             "Prophecies de la Première heure de la veille du mardi",
-            "",
-            "نبوات الساعة الأولى من ليلة الثلاثاء",
+            "Prophecies de la Première heure de la veille du mardi",
+            "نبوات الساعة الأولى من ليلة الثلاثاء\nزكريا (١: ١–٦)\n",
         ],
         [
-            Prefix.HolyWeek + "1HEProphecies&D=GL52&C=Diacon",
-            "",
+            Prefix.same + "&C=Diacon",
+            "Ⲉⲃⲟⲗϧⲉⲛ Ⲍⲁⲭⲁⲣⲓⲁⲥ ⲡⲓⲡⲣⲟⲫⲏⲧⲏⲥ : ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̅ⲑ̅ⲩ̅ : ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ",
             "",
             "",
         ],
         [
-            Prefix.HolyWeek + "1HEProphecies&D=GL52&C=Diacon",
-            "Ebolqen Za,ariac piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nN`è\\rhi de 'en pi`èabot `èmma ]mhn `ènte ;rompi `èmma`ècnou; iDarioc.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
-            "Zacharie 1 : 1 - 6\nLa deuxième année de Darius, au huitième mois, la parole du Seigneur fut adressée au prophète Zacharie ",
-            "زكريا ١ : ١ – ٦ \nوفى الشهر الثامن من السنة الثانية لداريوس، كانت كلمة الرب إلى زكريا ",
+            Prefix.same + "&C=Diacon",
+            "N`è\\rhi de 'en pi`èabot `èmma ]mhn `ènte ;rompi `èmma`ècnou; iDarioc.",
+            "",
+            "",
         ],
         [
-            Prefix.HolyWeek + "1HEProphecies&D=GL52&C=Diacon",
+            Prefix.same + "&C=Diacon",
+            "Ⲟⲩⲱ̀ⲟⲩ ⲛ̀Ϯⲧ̀ⲣⲓⲁⲥ ⲉ̀ⲑⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ : ϣⲁ ⲉ̀ⲛⲉϩ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ⲛⲉϩ ⲧⲏⲣⲟⲩ : ⲁ̀ⲙⲏⲛ.",
             "",
-            "fils de Bérékya, fils de Iddo, en ces termes : Le Seigneur s'est grandement irrité contre vos pères. Tu leur diras : Ainsi parle le Seigneur Sabaot. Revenez à moi - oracle du Seigneur Sabaot - et je reviendrai vers vous, dit le Seigneur Sabaot. Ne soyez pas comme vos pères à qui les prophètes du passé lancèrent cet appel : Ainsi parle le Seigneur Sabaot. Revenez donc de vos voies mauvaises",
-            "ابن براشيا بن عدو النبى قائلاً: قد غضب الرب على آبائكم قائلاً، قل لهم هكذا ما يقوله الرب الضابط الكل، إرجعوا إلىّ وأنا أيضاً أرجع إليكم، قال الرب الضابط الكل. ولا تكونوا كآبائكم الذين خاطبهم الأنبياء الأولون قائلين: هذا ما يقوله الرب الضابط الكل، إرجعوا عن طرقكم الرديئة",
+            "",
         ],
         [
-            Prefix.HolyWeek + "1HEProphecies&D=GL52&C=Diacon",
+            Prefix.same + "&C=Diacon",
             "",
-            "et de vos actions mauvaises. Mais eux n'écoutèrent pas et ne me prêtèrent pas attention - oracle du Seigneur. Vos pères, où sont-ils ? Et les prophètes, sont-ils toujours en vie ? Mais mes ordres et mes  décrets, ceux que j'avais donnés à mes serviteurs les prophètes, n'ont-ils pas atteint vos pères ? Alors ils se sont convertis et ont dit : le Seigneur Sabaot nous a traités comme il avait résolu de le faire, selon nos voies et nos actions.\nGloire à la sainte Trinité notre Dieu.",
-            "وعن أعمالكم الشريرة، فلم يصغوا. قال الرب الضابط الكل: فأين هم آباؤكم والأنبياء؟ فهل يحيون إلى الأبد؟\nلكن نواميسى وأقوالى إقبلوها، تلك التى أمرت بها روح عبيدى الأنبياء الذين أدركوا آباءكم وخاطبوهم قائلين: كما أمر الرب الضابط الكل أن يصنع بكم بحسب طرقكم. وكأعمالكم هكذا صنع بكم\nمجدًا للثالوث الأقدس إلهنا آمين",
+            "\nLa deuxième année de Darius, au huitième mois, la parole du Seigneur fut adressée au prophète Zacharie fils de Bérékya, fils de Iddo, en ces termes :",
+            "وفى الشهر الثامن من السنة الثانية لداريوس، كانت كلمة الرب إلى زكريا ابن براشيا بن عدو النبى قائلاً:",
+        ],
+        [
+            Prefix.same + "&C=Diacon",
+            "",
+            "Le Seigneur s'est grandement irrité contre vos pères. Tu leur diras : Ainsi parle le Seigneur Sabaot. Revenez à moi - oracle du Seigneur Sabaot - et je reviendrai vers vous, dit le Seigneur Sabaot. Ne soyez pas comme vos pères à qui les prophètes du passé lancèrent cet appel : Ainsi parle le Seigneur Sabaot. Revenez donc de vos voies mauvaises et de vos actions mauvaises. Mais eux n'écoutèrent pas et ne me prêtèrent pas attention - oracle du Seigneur.",
+            "\"قد غضب الرب على آبائكم قائلاً، قل لهم هكذا ما يقوله الرب الضابط الكل، إرجعوا إلىّ وأنا أيضاً أرجع إليكم، قال الرب الضابط الكل. ولا تكونوا كآبائكم الذين خاطبهم الأنبياء الأولون قائلين: هذا ما يقوله الرب الضابط الكل، إرجعوا عن طرقكم الرديئة وعن أعمالكم الشريرة، فلم يصغوا. قال الرب الضابط الكل.",
+        ],
+        [
+            Prefix.same + "&C=Diacon",
+            "",
+            "Vos pères, où sont-ils ? Et les prophètes, sont-ils toujours en vie ? Mais mes ordres et mes décrets, ceux que j'avais donnés à mes serviteurs les prophètes, n'ont-ils pas atteint vos pères ? Alors ils se sont convertis et ont dit : le Seigneur Sabaot nous a traités comme il avait résolu de le faire, selon nos voies et nos actions.\nGloire à la sainte Trinité notre Dieu.",
+            "فأين هم آباؤكم والأنبياء؟ فهل يحيون إلى الأبد؟ لكن نواميسى وأقوالى إقبلوها، تلك التى أمرت بها روح عبيدى الأنبياء الذين أدركوا آباءكم وخاطبوهم قائلين: كما أمر الرب الضابط الكل أن يصنع بكم بحسب طرقكم. وكأعمالكم هكذا صنع بكم\nمجدًا للثالوث الأقدس إلهنا آمين",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "1HEPsalm&D=GL52&C=Title",
             "Psaume de la Première heure de la veille du mardi",
-            "",
-            "مزمور الساعة الأولى من ليلة الثلاثاء",
+            "Psaume de la Première heure de la veille du mardi",
+            "مزمور الساعة الأولى من ليلة الثلاثاء\nمزمور (٦١: ١،٤)\n",
         ],
         [
-            Prefix.HolyWeek + "1HEPsalm&D=GL52&C=Diacon",
-            "",
+            Prefix.same + "&C=Diacon",
+            "Yalmoc to Dauid",
             "",
             "",
         ],
         [
-            Prefix.HolyWeek + "1HEPsalm&D=GL52&C=Diacon",
-            "Yalmoc  to Dauid\nPaoujai nem pa`wou au'en Panou; > V; `nte tabohqi`a ouo taelpic ac'en V;. Ke gar `nqof pe Panou; Pacwthr > paref ]opt `erof `nnakim `nou`o >   ``allhloui`a",
-            "Psaume 61 : 4, 1\nMon salut et ma gloire se trouvent près de Dieu. Je n’ai de repos qu’en Dieu, mon salut vient de Lui. Lui seul est mon rocher, mon salut, ma citadelle: je suis inébranlable. Alléluia",
-            "مزمور ٦١ : ١،٤\nخلاصى ومجدي هما بإلهي، إله معونتى ورجائى هو بالله. لأنه إلهى ومخلصى، ناصرى فلا أتزعزع أبداً.\nهلليلويا.",
+            Prefix.same + "&C=Diacon",
+            "Paoujai nem pa`wou au'en Panou; > V; `nte tabohqi`a ouo taelpic ac'en V;. Ke gar `nqof pe Panou; Pacwthr > paref ]opt `erof `nnakim `nou`o >\n ``allhloui`a",
+            "Mon salut et ma gloire se trouvent près de Dieu. Je n’ai de repos qu’en Dieu, mon salut vient de Lui. Lui seul est mon rocher, mon salut, ma citadelle: je suis inébranlable.\nAlléluia",
+            "خلاصى ومجدي هما بإلهي، إله معونتى ورجائى هو بالله. لأنه إلهى ومخلصى، ناصرى فلا أتزعزع أبداً.\nهلليلويا.",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "1HEGospel&D=GL52&C=Title",
             "Evangile de la Première heure de la veille du mardi",
-            "",
-            " إنجيل الساعة الأولى من ليلة الثلاثاء",
+            "Evangile de la Première heure de la veille du mardi",
+            "إنجيل الساعة الأولى من ليلة الثلاثاء",
         ],
         [
-            Prefix.HolyWeek + "1HEGospel&D=GL52&C=Diacon",
-            "Yalmoc  to Dauid\nPaoujai nem pa`wou au'en Panou; > V; `nte tabohqi`a ouo taelpic ac'en V;. Ke gar `nqof pe Panou; Pacwthr > paref ]opt `erof `nnakim `nou`o >   ``allhloui`a",
-            "Psaume 61 : 4, 1\nMon salut et ma gloire se trouvent près de Dieu. Je n’ai de repos qu’en Dieu, mon salut vient de Lui. Lui seul est mon rocher, mon salut, ma citadelle: je suis inébranlable. Alléluia",
+            Prefix.same + "&C=Diacon",
+            "Yalmoc to Dauid\nPaoujai nem pa`wou au'en Panou; > V; `nte tabohqi`a ouo taelpic ac'en V;. Ke gar `nqof pe Panou; Pacwthr > paref ]opt `erof `nnakim `nou`o > ``allhloui`a",
+            "\nMon salut et ma gloire se trouvent près de Dieu. Je n’ai de repos qu’en Dieu, mon salut vient de Lui. Lui seul est mon rocher, mon salut, ma citadelle: je suis inébranlable. Alléluia",
             "مزمور ٦١ : ١،٤\nخلاصى ومجدي هما بإلهي، إله معونتى ورجائى هو بالله. لأنه إلهى ومخلصى، ناصرى فلا أتزعزع أبداً.\nهلليلويا.",
         ],
         [
-            Prefix.HolyWeek + "1HEGospel&D=GL52&C=Diacon",
-            "Loukan Kev i/g/> k/g/-l/\nPeje ouai de naf je ~Psoic ankouji ne nheqnanoem > `nqof de pejaf nwou > je `ari`agwnizecqe `e`i`e'oun `eboliten piro etjhou je ne ouon oumh] ;jw `mmoc nwten nakw; `nca`i`e'oun ouo `nnou`]jemjom > af]an vo etwnf `nje pinhb hi ouo `ntef`]qam `mpiro > ouo `nte tennaerhtc noi `eraten qhnou cabol ouo ekwl epiro `eretenjw `èmmoc > je ~Psoic ~Psoic `aouwn nan > ouo `ntf`erou`w `ntefjoc nwten > je `n;cwoun `mmwten an je `nqwten an `ebol qwn. \nTote `ereten erhtc `njoc > je anouwm `mpek`mqo ouo ancw > ouo ak;`cbw 'en nen`plati`a > ouo `fnajoc nwten je `n;cwoun `mmwten an je `nqwten an `ebolqwn > ma]enwten `ebolaroi throu niergathc `nte ;`adiki`a. Pima `ete`èmmau `fna]wpi `nje `vrimi nem pi`cqerter `nte ninaji > otan `areten]annau `eAbraam nem Icaak nem Iakwb nem ni`provhthc throu 'en ;metouro `ènte ~Vnou; `nqwten de eu`eiou`i `mmwten `ebol.\nOuo eu`e`i `ebol 'en nima`n]ai nem nima`nwtp nem pe`èmit nem carhc ouo eu`eroqbou 'en ;metouro `nte ~Vnou; > ouo hppe ouon an'aeu eunaer]orp ouo an]orp eunaer 'a`e. Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
+            Prefix.same + "&C=Diacon",
+            "Loukan Kev i/g/> k/g/-l/\nPeje ouai de naf je ~Psoic ankouji ne nheqnanoem > `nqof de pejaf nwou > je `ari`agwnizecqe `e`i`e'oun `eboliten piro etjhou je ne ouon oumh] ;jw `mmoc nwten nakw; `nca`i`e'oun ouo `nnou`]jemjom > af]an vo etwnf `nje pinhb hi ouo `ntef`]qam `mpiro > ouo `nte tennaerhtc noi `eraten qhnou cabol ouo ekwl epiro `eretenjw `èmmoc > je ~Psoic ~Psoic `aouwn nan > ouo `ntf`erou`w `ntefjoc nwten > je `n;cwoun `mmwten an je `nqwten an `ebol qwn.\nTote `ereten erhtc `njoc > je anouwm `mpek`mqo ouo ancw > ouo ak;`cbw 'en nen`plati`a > ouo `fnajoc nwten je `n;cwoun `mmwten an je `nqwten an `ebolqwn > ma]enwten `ebolaroi throu niergathc `nte ;`adiki`a. Pima `ete`èmmau `fna]wpi `nje `vrimi nem pi`cqerter `nte ninaji > otan `areten]annau `eAbraam nem Icaak nem Iakwb nem ni`provhthc throu 'en ;metouro `ènte ~Vnou; `nqwten de eu`eiou`i `mmwten `ebol.\nOuo eu`e`i `ebol 'en nima`n]ai nem nima`nwtp nem pe`èmit nem carhc ouo eu`eroqbou 'en ;metouro `nte ~Vnou; > ouo hppe ouon an'aeu eunaer]orp ouo an]orp eunaer 'a`e. Ouw]t `mpieuaggelion eqouab.\nDo[a ci Kuri`e.",
             "Luc 13 : 23 - 30\nQuelqu'un lui dit: «Seigneur, n'y aura-t-il que peu de gens qui seront sauvés?» Il leur dit alors: «Efforcez-vous d'entrer par la porte étroite, car beaucoup, je vous le dis, chercheront à entrer et ne le pourront pas. Après que le maître de maison se sera levé et aura fermé la porte, quand, restés dehors, vous commencerez à frapper à la porte en disant: Seigneur, ouvre-nous, et qu'il vous répondra :",
             "لوقا ١٣ : ٢٣ – ٣٠\nفقال له واحد: يارب أقليل هم الذين يخلصون؟ فأما هو فقال لهم: إجتهدوا أن تدخلوا من الباب الضيق. فإنى أقول لكم: إن كثيرين سيطلبون أن يدخلوا فلا يستطيعون. فإذا بلغ أن يقوم رب البيت ليغلق الباب، فتبدأون بأن تقفوا خارجاً وتقرعون الباب قائلين: يارب، يارب إفتح لنا. فيجيبكم قائلاً:",
         ],
         [
-            Prefix.HolyWeek + "1HEGospel&D=GL52&C=Diacon",
+            Prefix.same + "&C=Diacon",
             "",
-            "Vous, je ne sais d'où vous êtes.\nAlors vous vous mettrez à dire: Nous avons mangé et bu devant toi, et c'est sur nos places que tu as enseigné ; et il vous dira: Je ne sais d'où vous êtes. Éloignez-vous de moi, vous tous qui faites le mal. Il y aura des pleurs et des grincements de dents, quand vous verrez Abraham, Isaac et Jacob, ainsi que tous les prophètes dans le Royaume de Dieu, et que vous serez jetés dehors. ",
-            "إنى لست أعرفكم، من أين أنتم؟\nحينئذ تبتدئون أن تقولوا: أكلنا قدامك، وشربنا، وعلّمت فى شوارعنا. فيقول لكم: إنى لا أعرفكم، من أين أنتم؟ إذهبوا عنى يا جميع فاعلى الإثم. هناك يكون البكاء وصرير الأسنان. إذا رأيتم إبراهيم وإسحق ويعقوب وجميع الأنبياء فى ملكوت الله وأنتم تطردون خارجاً. ",
+            "Vous, je ne sais d'où vous êtes.\nAlors vous vous mettrez à dire: Nous avons mangé et bu devant toi, et c'est sur nos places que tu as enseigné ; et il vous dira: Je ne sais d'où vous êtes. Éloignez-vous de moi, vous tous qui faites le mal. Il y aura des pleurs et des grincements de dents, quand vous verrez Abraham, Isaac et Jacob, ainsi que tous les prophètes dans le Royaume de Dieu, et que vous serez jetés dehors.",
+            "إنى لست أعرفكم، من أين أنتم؟\nحينئذ تبتدئون أن تقولوا: أكلنا قدامك، وشربنا، وعلّمت في شوارعنا. فيقول لكم: إنى لا أعرفكم، من أين أنتم؟ إذهبوا عنى يا جميع فاعلى الإثم. هناك يكون البكاء وصرير الأسنان. إذا رأيتم ابراهيم وإسحق ويعقوب وجميع الأنبياء في ملكوت الله وأنتم تطردون خارجاً.",
         ],
         [
-            Prefix.HolyWeek + "1HEGospel&D=GL52&C=Diacon",
+            Prefix.same + "&C=Diacon",
             "",
             "Alors il en viendra du levant et du couchant, du nord et du midi, pour prendre place au festin dans le Royaume de Dieu. Et ainsi, il y a des derniers qui seront premiers et il y a des premiers qui seront derniers. »\nGloire à Dieu éternellement.",
-            "وسيأتون من المشارق والمغارب والشمال والجنوب ويتكئون فى ملكوت الله. فهو ذا آخرون يكونون أولين وأولون يكونون آخرين.\nوالمجد لله دائماً",
+            "وسيأتون من المشارق والمغارب والشمال والجنوب ويتكئون في ملكوت الله. فهو ذا آخرون يكونون أولين وأولون يكونون آخرين.\nوالمجد لله دائماً",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "1HECommentary&D=GL52&C=Title",
             "Commentaire de la Première heure de la veille du mardi",
-            "",
+            "Commentaire de la Première heure de la veille du mardi",
             "طرح الساعة الأولى من ليلة الثلاثاء",
         ],
         [
-            Prefix.HolyWeek + "1HECommentary&D=GL52&C=Diacon",
+            Prefix.same + "&C=Diacon",
             "",
-            "",
-            "",
+            "Notre Sauveur marchait vers Jérusalem avec ses disciples. Quelqu’un du milieu de la foule Lui dit: «Seigneur, n'y aura-t-il que peu de gens à être sauvés?». Notre Sauveur lui répondit: « Efforcez-vous d’entrer par la porte étroite de peur qu’à votre arrivée vous vous mettiez à frapper à la porte en disant: «Seigneur, ouvre-nous» et qu’Il vous réponde de l’intérieur: «Je ne sais pas d’où vous êtes. Éloignez-vous de moi, vous tous qui faites le mal, là où il y aura des pleurs et des grincements de dents.»",
+            "إن مخلصنا جعل مسيره إلى أورشليم مع خواصه، فقال له واحد من الجمع: يارب، أقليلون هم الذين يخلصون؟ فأجابه مخلصنا قائلاً: \"احرصوا على الدخول من الباب الضيق لئلا تأتوا وتقرعوا الباب وتقولون يارب افتح لنا\"، فيجيب هو من داخل قائلاً لكم: \"إنى ما أعرفكم، من أين أنتم؟ اذهبوا عنى خارجاً يا جميع فاعلى الإثم حيث يكون البكاء وصرير الأسنان معاً\".",
         ],
         [
-            Prefix.HolyWeek + "1HECommentary&D=GL52&C=Diacon",
+            Prefix.same + "&C=Diacon",
             "",
-            "Commentaire\nNotre Sauveur marchait vers Jérusalem avec ses disciples. Quelqu’un du milieu de la foule Lui dit: «Seigneur, n'y aura-t-il que peu de gens à être sauvés?». Notre Sauveur lui répondit: « Efforcez-vous d’entrer par la porte étroite de peur qu’à votre arrivée vous vous mettiez à frapper à la porte en disant: «Seigneur, ouvre-nous» et qu’Il vous réponde de l’intérieur: «Je ne sais pas d’où vous êtes.",
-            "طــرح\nإن مخلصنا جعل مسيره إلى أورشليم مع خواصه، فقال له واحد من الجمع: يارب، أقليلون هم الذين يخلصون؟ فأجابه مخلصنا قائلاً: إحرصوا على الدخول من الباب الضيق لئلا تأتوا وتقرعوا الباب وتقولون يارب إفتح لنا، فيجيب هو من داخل قائلاً لكم: إنى ما أعرفكم، من أين أنتم؟ ",
-        ],
-        [
-            Prefix.HolyWeek + "1HECommentary&D=GL52&C=Diacon",
-            "",
-            "Éloignez-vous de moi, vous tous qui faites le mal, là où il y aura des pleurs et des grincements de dents.» Un grand nombre viendront des nations païennes, de l’orient et de l’occident, et s’installeront dans le sein d’Abraham, d’Isaac et de Jacob, dans le royaume des cieux, quant à vous, vous serez jetés dehors et vos péchés vous domineront. Ecartez-vous des chemins du mal pour que vos fautes soient effacées.",
-            "إذهبوا عنى خارجاً يا جميع فاعلى الإثم حيث يكون البكاء وصرير الأسنان معاً، كثيرون من الأمم يأتون من المشرق والمغرب فيتكئون فى حضن إبراهيم وإسحق ويعقوب فى ملكوت السموات، وأما أنتم فسيطردونكم خارجاً وتتسلط عليكم آثامكم. فإرجعوا عن طرقكم الرديئة لكى تمحى عنكم هفواتكم.",
+            "Un grand nombre viendront des nations païennes, de l’orient et de l’occident, et s’installeront dans le sein d’Abraham, d’Isaac et de Jacob, dans le royaume des cieux, quant à vous, vous serez jetés dehors et vos péchés vous domineront. Ecartez-vous des chemins du mal pour que vos fautes soient effacées.",
+            " كثيرون من الأمم يأتون من المشرق والمغرب فيتكئون في حضن ابراهيم واسحق ويعقوب في ملكوت السموات، وأما أنتم فسيطردونكم خارجاً وتتسلط عليكم آثامكم. فارجعوا عن طرقكم الرديئة لِكَي تمحى عنكم هفواتكم.",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "3HEProphecies&D=GL52&C=Title",
             "Prophecies de la Troisième heure de la veille du mardi",
-            "",
-            "نبوات الساعة الثالثة من ليلة الثلاثاء",
+            "Prophecies de la Troisième heure de la veille du mardi",
+            "نبوات الساعة الثالثة من ليلة الثلاثاء\n(ملاخي ١: ١–٩)",
         ],
         [
-            Prefix.HolyWeek + "3HEProphecies&D=GL52&C=Diacon",
-            "",
+            Prefix.same + "&C=Diacon",
+            "Ⲉⲃⲟⲗϧⲉⲛ Ⲙⲁⲗⲁⲭⲓⲁⲥ ⲡⲓⲡⲣⲟⲫⲏⲧⲏⲥ : ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̅ⲑ̅ⲩ̅ : ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ",
             "",
             "",
         ],
         [
-            Prefix.HolyWeek + "3HEProphecies&D=GL52&C=Diacon",
-            "Ebolqen Mala,iac piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nPlhmma `èm`èpcaji `m~P_ `èejen `pIcrahl 'en `ètjij `èmpefaggeloc > xac `èejen petenht > aimenre qhnou peje P_ ouo pejwten je 'en ou akmenriten. \nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
-            "Malachie 1 : 1 - 9\nOracle. Parole du Seigneur à Israël, par le ministère de Malachie. Je vous ai aimés! dit le Seigneur. Cependant vous dites: En quoi nous as-tu aimés ?",
-            "ملاخي ١ : ١ – ٩ \nبدء كلام الرب لإسرائيل على يد ملاكه: ضعوا فى قلوبكم أنى أحببتكم يقول الرب. وقلتم: بم أحببتنا؟",
+            Prefix.same + "&C=Diacon",
+            "Plhmma `èm`èpcaji `m~P_ `èejen `pIcrahl 'en `ètjij `èmpefaggeloc > xac `èejen petenht > aimenre qhnou peje P_ ouo pejwten je 'en ou akmenriten.",
+            "",
+            "",
         ],
         [
-            Prefix.HolyWeek + "3HEProphecies&D=GL52&C=Diacon",
+            Prefix.same + "&C=Diacon",
+            "Ⲟⲩⲱ̀ⲟⲩ ⲛ̀Ϯⲧ̀ⲣⲓⲁⲥ ⲉ̀ⲑⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ : ϣⲁ ⲉ̀ⲛⲉϩ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ⲛⲉϩ ⲧⲏⲣⲟⲩ : ⲁ̀ⲙⲏⲛ.",
+            "",
+            "",
+        ],
+        [
+            Prefix.same + "&C=Diacon",
+            "",
+            "Oracle. Parole du Seigneur à Israël, par le ministère de Malachie. Je vous ai aimés! dit le Seigneur. Cependant vous dites: En quoi nous as-tu aimés ?",
+            "بدء كلام الرب لإسرائيل على يد ملاكه: ضعوا في قلوبكم أني أحببتكم يقول الرب. وقلتم: بم أحببتنا؟",
+        ],
+        [
+            Prefix.same + "&C=Diacon",
             "",
             "Ésaü n'était-il pas le frère de Jacob ? Oracle du Seigneur or j'ai aimé Jacob mais j'ai haï Ésaü. Je fis de ses montagnes une solitude et de son héritage des pâturages de désert. Si Édom dit : \" Nous avons été détruits, mais nous relèverons nos ruines\", ainsi parle le Seigneur Sabaot : Qu'ils bâtissent, moi je démolirai ! On les surnommera \" Territoire d'impiété\" et \" Le peuple contre qui le Seigneur est courroucé à jamais \".",
-            "أليس عيسو أخا ليعقوب؟ يقول الرب. وقد أحببت يعقوب وأبغضت عيسو. وجعلت حدوده للفساد ونصيب ميراثه قفراً. ( لبنات آوى ) وإن قال الأدوميون إننا قد إنهدمنا فلنرجع ونبنى خربها هذا ما يقول الرب الضابط الكل. هم يبنون وأنا أهدم. وأدعوها تخم الإثم والشعب الذى قاومه الرب إلى الأبد. ",
+            "أليس عيسو أخا ليعقوب؟ يقول الرب. وقد أحببت يعقوب وأبغضت عيسو. وجعلت حدوده للفساد ونصيب ميراثه قفراً. ( لبنات آوى ) وإن قال الأدوميون إننا قد إنهدمنا فلنرجع ونبنى خربها هذا ما يقول الرب الضابط الكل. هم يبنون وأنا أهدم. وأدعوها تخم الإثم والشعب الذي قاومه الرب إلى الأبد.",
         ],
         [
-            Prefix.HolyWeek + "3HEProphecies&D=GL52&C=Diacon",
+            Prefix.same + "&C=Diacon",
             "",
-            "Vos yeux le verront et vous direz: le Seigneur est grand par-delà le territoire d'Israël! Un fils honore son père; un serviteur craint son maître. Mais si je suis père, où donc est l'honneur qui m'est dû? Si je suis maître, où donc est ma crainte? dit le Seigneur Sabaot, à vous les prêtres, qui méprisez mon Nom. Mais vous dites: En quoi avons-nous méprisé ton Nom? C'est que vous offrez sur mon autel des aliments souillés. ",
-            "فتبصر عيونكم وأنتم تقولون لقد تعظم الرب فوق تخوم إسرائيل. الإبن يكرم أباه والعبد سيده. فإن كنت أنا أباً فأين كرامتى. وإن كنت سيداً فأين مهابتى. قال الرب الضابط الكل وأنتم أيها الكهنة المحتقرون إسمي. وقلتم بم أحتقرنا إسمك. لأنكم قربتم على مذبحى خبزاً نجساً",
+            "Vos yeux le verront et vous direz: le Seigneur est grand par-delà le territoire d'Israël! Un fils honore son père; un serviteur craint son maître. Mais si je suis père, où donc est l'honneur qui m'est dû? Si je suis maître, où donc est ma crainte? dit le Seigneur Sabaot, à vous les prêtres, qui méprisez mon Nom. Mais vous dites: En quoi avons-nous méprisé ton Nom? C'est que vous offrez sur mon autel des aliments souillés.",
+            "فتبصر عيونكم وأنتم تقولون لقد تعظم الرب فوق تخوم إسرائيل. الإبن يكرم أباه والعبد سيده. فإن كنت أنا أباً فأين كرامتى. وإن كنت سيداً فأين مهابتى. قال الرب الضابط الكل وأنتم أيها الكهنة المحتقرون إسمي.",
         ],
         [
-            Prefix.HolyWeek + "3HEProphecies&D=GL52&C=Diacon",
+            Prefix.same + "&C=Diacon",
             "",
-            "Mais vous dites: En quoi t'avons-nous souillé? En disant: La table du Seigneur est méprisable. Quand vous amenez des bêtes aveugles pour le sacrifice, n'est-ce pas mal? Et quand vous en amenez des boiteuses ou des malades, n'est-ce pas mal? Présente-les donc à ton gouverneur: en sera-t-il content? Te recevra-t-il bien? dit le Seigneur Sabaot. \nGloire à la sainte Trinité notre Dieu.",
-            "وقلتم بم نجسناه. بقولكم أن مائدة الرب حقيرة وحقيرة هى الأطعمة الموضوعة عليها. إذ قربتم الأعمى ذبيحة ، أفليس ذلك شرا؟ وإذ قربتم الأعرج أو السقيم أفليس ذلك شراً؟ قربه لرئيسك أفيقبله منك؟ أو يقبل وجهك؟ يقول الرب الضابط الكل\nمجدًا للثالوث الأقدس إلهنا آمين",
+            "Mais vous dites: En quoi t'avons-nous souillé? En disant: La table du Seigneur est méprisable. Quand vous amenez des bêtes aveugles pour le sacrifice, n'est-ce pas mal? Et quand vous en amenez des boiteuses ou des malades, n'est-ce pas mal? Présente-les donc à ton gouverneur: en sera-t-il content? Te recevra-t-il bien? dit le Seigneur Sabaot.\nGloire à la sainte Trinité notre Dieu.",
+            "وقلتم بم أحتقرنا إسمك. لأنكم قربتم على مذبحى خبزاً نجساً وقلتم بم نجسناه. بقولكم أن مائدة الرب حقيرة وحقيرة هى الأطعمة الموضوعة عليها. إذ قربتم الأعمى ذبيحة ، أفليس ذلك شرا؟ وإذ قربتم الأعرج أو السقيم أفليس ذلك شراً؟ قربه لرئيسك أفيقبله منك؟ أو يقبل وجهك؟ يقول الرب الضابط الكل\nمجدًا للثالوث الأقدس إلهنا آمين",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "3HEPsalm&D=GL52&C=Title",
-            "Psaume de la Troisième heure de la veille du mardi",
-            "",
-            "مزمور الساعة الثالثة من ليلة الثلاثاء",
+            "Psaume de la Troisième heure de la veille du mardi\nYalmoc to Dauid\n",
+            "Psaume de la Troisième heure de la veille du mardi\nYalmoc to Dauid\n",
+            "مزمور الساعة الثالثة من ليلة الثلاثاء\n(مزمور ١٢: ٤ & ٦)",
         ],
         [
-            Prefix.HolyWeek + "3HEPsalm&D=GL52&C=Diacon",
-            "Yalmoc  to Dauid\nComc cwtem `eroi ~Psoic Panou; > ma`vouwini `nnabal mhpwc `ntawrp 'en `vmou. Anok de aierelpic `epeknai > paht naqelhl `e`\\rhi `ejen peknoem > ``allhloui`a",
-            "Psaume 12 : 4, 6\nRegarde, réponds-moi, Seigneur, mon Dieu! donne la lumière à mes yeux, garde-moi du sommeil de la mort.\nMoi, j’ai espéré en ta miséricorde que mon cœur ait la joie de ton salut, Alléluia",
-            "مزمور ١٢ : ٤ ، ٦\nأنظر وإستجب لى ياربى وإلهى، أنر عينى لئلا أنام فى الموت.\nأما أنا فعلى رحمتك توكلت، يبتهج قلبى بخلاصك. الليلويا",
+            Prefix.same + "&C=Diacon",
+            "Comc cwtem `eroi ~Psoic Panou; > ma`vouwini `nnabal mhpwc `ntawrp 'en `vmou.",
+            "Regarde, réponds-moi, Seigneur, mon Dieu! donne la lumière à mes yeux, garde-moi du sommeil de la mort.",
+            "انظر واستجب لي ياربى وإلهى، أنر عَيْنِي لئلا أنام في الموت.",
+        ],
+        [
+            Prefix.same + "&C=Diacon",
+            "Anok de aierelpic `epeknai > paht naqelhl `e`\\rhi `ejen peknoem >\n ``allhloui`a.",
+            "Moi, j’ai espéré en ta miséricorde que mon cœur ait la joie de ton salut.\nAlléluia",
+            "أما أنا فعلى رحمتك توكلت، يبتهج قلبى بخلاصك.\nالليلويا",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "3HEGospel&D=GL52&C=Title",
-            "Evangile de la Troisième heure de la veille du mardi",
-            "",
-            " إنجيل الساعة الثالثة من ليلة الثلاثاء",
-        ],
-        [
-            Prefix.HolyWeek + "3HEGospel&D=GL52&C=Diacon",
-            "Loukan Kev i/g/> l/a/- ]/b/l/\nN`è\\rhi de 'en pi`eoou `ete `mmau auiarof `nje anvariceoc eujw `mmoc naf > je ma]enak `ebol ouo wl `ebol tai je Prwdhc `fouw] `e'oqbek> ouo pejaf nwou je ma]enwten `ajoc `ntaiba]or > je hppe ;i demwn `ebol > ouo ;jwk nantalso `mvoou nem rac; ouo 'en pima ]omt ;najwk `ebol.\nPlhn w; `eroi pe `ntaervoou nem rac; ouo peqnhou `nta]enhi > je `n`cxh an `nte ou`provhthc tako cabol `nIeroucalhm.\nIeroucalhm Ieroucalhm qhet'wteb `nni`provhthc ouo eti`wni `nnh`etauouorpou aroc > ouhr `ncop aiouw] `eqouht ne]hri `mvrh; `noualht `mpefmo 'en neften ouo `mpetenouw] > hppe ic petenhi efxaf nwten ef]wf > ;jw de `mmoc nwten je `nneten nau `eroi icjen ;nou ]atetenjoc je `f`cmarwout `nje vheqnhou 'en `vran `m~Psoic.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
-            "Luc 13 : 31 - 35\nA cet instant, quelques Pharisiens s'approchèrent et lui dirent: «Va-t'en, pars d'ici, car Hérode veut te faire mourir.» Il leur dit: «Allez dire à ce renard: Voici, je chasse les démons et j'accomplis des guérisons aujourd'hui et demain, et le troisième jour c'est fini. Mais il me faut poursuivre ma route aujourd'hui, demain et le jour suivant, car il n'est pas possible qu'un prophète périsse hors de Jérusalem.",
-            "لوقا ١٣ : ٣١ – ٣٠\nوفى ذلك اليوم جاء إليه قوم من الفريسيين وقالوا له: أخرج وأذهب من هنا، فإن هيرودس يريد قتلك. فقال لهم: أذهبوا وقولوا لهذا الثعلب، ها أنا أخرج الشياطين، وأتمم الشفاء اليوم وغداً، وفى اليوم الثالث أكمل. ولكن ينبغى لى أن أقيم اليوم وغداً وفى اليوم الآتى أذهب. لأنه لا يهلك نبي خارج عن أورشليم.",
+            "Evangile de la Troisième heure de la veille du mardi\nLoukan Kev i/g/> l/a/- ]/b/l/\n",
+            "Evangile de la Troisième heure de la veille du mardi\nLoukan Kev i/g/> l/a/- ]/b/l/\n",
+            "إنجيل الساعة الثالثة من ليلة الثلاثاء\n(لوقا ١٣: ٣١–٣٠)",
         ],
         [
             Prefix.same + "&C=Diacon",
-            "",
+            "N`è\\rhi de 'en pi`eoou `ete `mmau auiarof `nje anvariceoc eujw `mmoc naf > je ma]enak `ebol ouo wl `ebol tai je Prwdhc `fouw] `e'oqbek> ouo pejaf nwou je ma]enwten `ajoc `ntaiba]or > je hppe ;i demwn `ebol > ouo ;jwk nantalso `mvoou nem rac; ouo 'en pima ]omt ;najwk `ebol. Plhn w; `eroi pe `ntaervoou nem rac; ouo peqnhou `nta]enhi > je `n`cxh an `nte ou`provhthc tako cabol `nIeroucalhm.",
+            "A cet instant, quelques Pharisiens s'approchèrent et lui dirent: «Va-t'en, pars d'ici, car Hérode veut te faire mourir.» Il leur dit: «Allez dire à ce renard: Voici, je chasse les démons et j'accomplis des guérisons aujourd'hui et demain, et le troisième jour c'est fini. Mais il me faut poursuivre ma route aujourd'hui, demain et le jour suivant, car il n'est pas possible qu'un prophète périsse hors de Jérusalem.",
+            "وفى ذلك اليوم جاء إليه قوم من الفريسيين وقالوا له: \"اخرج واذهب من هنا، فإن هيرودس يريد قتلك\". فقال لهم: \"اذهبوا وقولوا لهذا الثعلب، ها أنا أخرج الشياطين، وأتمم الشفاء اليوم وغداً، وفى اليوم الثالث أكمل. ولكن ينبغى لي أن أقيم اليوم وغداً وفى اليوم الآتى أذهب. لأنه لا يهلك نبي خارج عن أورشليم\".",
+        ],
+        [
+            Prefix.same + "&C=Diacon",
+            "Ieroucalhm Ieroucalhm qhet'wteb `nni`provhthc ouo eti`wni `nnh`etauouorpou aroc > ouhr `ncop aiouw] `eqouht ne]hri `mvrh; `noualht `mpefmo 'en neften ouo `mpetenouw] > hppe ic petenhi efxaf nwten ef]wf > ;jw de `mmoc nwten je `nneten nau `eroi icjen ;nou ]atetenjoc je `f`cmarwout `nje vheqnhou 'en `vran `m~Psoic. Ouw]t `mpieuaggelion eqouab.\nDo[a ci Kuri`e.",
             "Jérusalem, Jérusalem, toi qui tues les prophètes et lapides ceux qui te sont envoyés, combien de fois j'ai voulu rassembler tes enfants comme une poule rassemble sa couvée sous ses ailes, et vous n'avez pas voulu. Voici que votre maison va vous être laissée. Oui, je vous le dis, vous ne me verrez plus, jusqu'à ce qu'arrive le jour où vous direz : Béni soit celui qui vient au nom du Seigneur!»\nGloire à Dieu éternellement.\n\n",
-            "أورشليم يا أورشليم، يا قاتلة الأنبياء وراجمه المرسلين إليها، كم من مرة أردت أن أجمع بنيك كما يجمع الطائر فراخه تحت جناحيه، فلم تريدوا. هو ذا بيتكم يترك لكم خراباً وإنى أقول لكم إنكم لا تروننى من الآن، حتى تقولوا: مبارك الآتى بإسم الرب.\nوالمجد لله دائماً.",
+            "\"أورشليم يا أورشليم، يا قاتلة الأنبياء وراجمه المرسلين إليها، كم من مرة أردت أن أجمع بنيك كما يجمع الطائر فراخه تحت جناحيه، فلم تريدوا. هو ذا بيتكم يترك لكم خراباً وإنى أقول لكم إنكم لا تروننى من الآن، حتى تقولوا: مبارك الآتى بإسم الرب\".\nوالمجد لله دائماً.",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "3HECommentary&D=GL52&C=Title",
             "Commentaire de la Troisième heure de la veille du mardi",
-            "",
+            "Commentaire de la Troisième heure de la veille du mardi",
             "طرح الساعة الثالثة من ليلة الثلاثاء",
         ],
         [
-            Prefix.HolyWeek + "3HECommentary&D=GL52&C=Diacon",
+            Prefix.same + "&C=Diacon",
             "",
-            "",
-            "",
+            "En ce jour-là quelques-uns vinrent et l’informèrent sur les intentions du roi Hérode en disant: «Maître, va-t’en, pars d’ici: Hérode veut Te faire mourir.» Il répliqua en disant à celui qui lui avait dit cela: «Va dire à ce mauvais renard que je vais accomplir les guérisons aujourd’hui, demain et le jour suivant. En effet, il est écrit qu’il n’est pas possible qu’un prophète meure en dehors de Jérusalem. Jérusalem, Jérusalem, toi qui tues les prophètes, toi qui lapides ceux qui te sont envoyés,",
+            "فى ذلك اليوم وافاه قوم وأخبروه عن هيرودس الملك قائلين: يا معلم أخرج من ههنا فإن هيرودس المارق يريد قتلك. فأجاب وقال للذى قال له: إمض وقل لهذا الثعلب الشرير إنى أكمل شفاء كثيرين اليوم وغداً وفى اليوم الآتى، فقد كتب أنه لا يهلك نبي خارجاً عن أورشليم. يا أورشليم يا أورشليم، يا قاتلة الأنبياء وراجمة المرسلين.",
         ],
         [
-            Prefix.HolyWeek + "3HECommentary&D=GL52&C=Diacon",
-            "",
-            "Commentaire\nEn ce jour-là quelques-uns vinrent et l’informèrent sur les intentions du roi Hérode en disant: «Maître, va-t’en, pars d’ici: Hérode veut Te faire mourir.» Il répliqua en disant à celui qui lui avait dit cela: «Va dire à ce mauvais renard que je vais accomplir les guérisons aujourd’hui, demain et le jour suivant. En effet, il est écrit qu’il n’est pas possible qu’un prophète meure en dehors de Jérusalem. Jérusalem, Jérusalem, toi qui tues les prophètes, toi qui lapides ceux qui te sont envoyés,",
-            "طــرح\nفى ذلك اليوم وافاه قوم وأخبروه عن هيرودس الملك قائلين: يا معلم أخرج من ههنا فإن هيرودس المارق يريد قتلك. فأجاب وقال للذى قال له: إمض وقل لهذا الثعلب الشرير إنى أكمل شفاء كثيرين اليوم وغداً وفى اليوم الآتى، فقد كتب أنه لا يهلك نبي خارجاً عن أورشليم. يا أورشليم يا أورشليم، يا قاتلة الأنبياء وراجمة المرسلين.",
-        ],
-        [
-            Prefix.HolyWeek + "3HECommentary&D=GL52&C=Diacon",
+            Prefix.same + "&C=Diacon",
             "",
             "combien de fois j’ai voulu rassembler tes enfants et vous n’avez pas voulu! Maintenant, J’abandonne votre Temple entre vos mains pour toutes les générations. Je vous le déclare, vous qui m’entendez : vous ne me verrez plus jusqu’au jour où vous direz en chœur: Béni soit celui qui vient au nom du Seigneur Dieu!»",
             "كم من مرة أردت أن أجمع بنيك فلم تريدى. هوذا أترك لكم بيتكم خراباً إلى كل الأجيال. أقول لكم أيها الذين تسمعوننى، أنكم لا تروننى منذ هذا اليوم حتى تقولوا كلكم من فم واحد: مبارك الآتى بإسم الرب الإله.",
@@ -2402,105 +2444,117 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "6HEProphecies&D=GL52&C=Title",
             "Prophecies de la Sixième heure de la veille du mardi",
-            "",
-            "نبوات الساعة السادسة من ليلة الثلاثاء",
+            "Prophecies de la Sixième heure de la veille du mardi",
+            "نبوات الساعة السادسة من ليلة الثلاثاء\n(هوشع ٤: ١٥ & ٥: ٧)",
         ],
         [
-            Prefix.HolyWeek + "6HEProphecies&D=GL52&C=Diacon",
-            "Ebolqen Wci`e piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nNqok de P`èicrahl `èmpererat`èemi > ouo Iouda `èmper]e e`è'oun  `èeGalgada.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
-            "Osée 4 : 15 - 5 : 7\nSi toi, tu te prostitues, Israël, que Juda ne se rende pas coupable! N'allez pas à Gilgal, ne montez pas à Bet-Aven, et ne jurez pas «par la vie du Seigneur». Car telle une vache rétive, Israël a été rétif; ",
-            "هوشع ٤ : ١٥- ٥ : ٧\nو أما أنت يا إسرائيل فلا تكن جاهلاً، ويا يهوذا لا تدخل الجلجال، ولا تذهبوا إلى الظلم.  ولا تحلفوا بالرب الحى، لأنه قد جمح إسرائيل كعجلة جامحة. ",
-        ],
-        [
-            Prefix.HolyWeek + "6HEProphecies&D=GL52&C=Diacon",
+            Prefix.same + "&C=Diacon",
+            "Ⲉⲃⲟⲗϧⲉⲛ Ⲱⲥⲓⲉ̀ ⲡⲓⲡⲣⲟⲫⲏⲧⲏⲥ : ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̅ⲑ̅ⲩ̅ : ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ",
             "",
-            "et maintenant le Seigneur le ferait paître comme un agneau dans un vaste parcage? Éphraïm est l'allié des idoles, laisse-le! Leur beuverie terminée, ils ne font que se prostituer ; ils préfèrent l'Ignominie à leur Orgueil. Le vent les emportera de ses ailes, et ils auront honte de leurs sacrifices. Écoutez ceci, prêtres, sois attentive, maison d'Israël, maison du roi, prête l'oreille! Car c'est vous que concerne le droit, ",
-            "فالآن يرعاهم الرب كحمل فى موضع رحب. خليل الأصنام إفرايم قد كنت له شكاً، فأطاعوا الكنعانيين وزنوا زنى إلى الآخر، وأحبوا الهوان بالتعاظم، وأنت فى جناحيك هبوب ريح، وسيخزون فى مذبحهم. إسمعوا لهذا أيها الكهنة وأنصتوا يا بيت إسرائيل. وإصغوا يا بيت الملك. لأن الحكم موضوع قبالتكم. ",
-        ],
-        [
-            Prefix.HolyWeek + "6HEProphecies&D=GL52&C=Diacon",
-            "",
-            " إذا قد صرتم فخاً للمحرس، وكالشبكة المنصوبة على تابور( تل مرتفع ) تلك التى ينصبها الصيادون للصيد وأنا معلمكم أنا عرفت أفرايم ولم يخف عنى إسرائيل لأن الآن قد زنى أفرايم وتنجس إسرائيل. ولم يوجهوا أفكار قلوبهم ليرجعوا إلى إلههم. لأن روح الزنى فيهم والرب لم يعرفوه. و سيغطى إسرائيل وجهه بذراعه     (من الخزى). ",
             "",
         ],
         [
-            Prefix.HolyWeek + "6HEProphecies&D=GL52&C=Diacon",
+            Prefix.same + "&C=Diacon",
+            "Nqok de P`èicrahl `èmpererat`èemi > ouo Iouda `èmper]e e`è'oun `èeGalgada.",
+            "",
+            "",
+        ],
+        [
+            Prefix.same + "&C=Diacon",
+            "Ⲟⲩⲱ̀ⲟⲩ ⲛ̀Ϯⲧ̀ⲣⲓⲁⲥ ⲉ̀ⲑⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ : ϣⲁ ⲉ̀ⲛⲉϩ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ⲛⲉϩ ⲧⲏⲣⲟⲩ : ⲁ̀ⲙⲏⲛ.",
+            "",
+            "",
+        ],
+        [
+            Prefix.same + "&C=Diacon",
+            "\n",
+            "Si toi, tu te prostitues, Israël, que Juda ne se rende pas coupable! N'allez pas à Gilgal, ne montez pas à Bet-Aven, et ne jurez pas «par la vie du Seigneur». Car telle une vache rétive, Israël a été rétif;",
+            "و أما أنت يا إسرائيل فلا تكن جاهلاً، ويا يهوذا لا تدخل الجلجال، ولا تذهبوا إلى الظلم. ولا تحلفوا بالرب الحى، لأنه قد جمح إسرائيل كعجلة جامحة.",
+        ],
+        [
+            Prefix.same + "&C=Diacon",
+            "",
+            "et maintenant le Seigneur le ferait paître comme un agneau dans un vaste parcage? Éphraïm est l'allié des idoles, laisse-le! Leur beuverie terminée, ils ne font que se prostituer ; ils préfèrent l'Ignominie à leur Orgueil. Le vent les emportera de ses ailes, et ils auront honte de leurs sacrifices. Écoutez ceci, prêtres, sois attentive, maison d'Israël, maison du roi, prête l'oreille! Car c'est vous que concerne le droit,",
+            "فالآن يرعاهم الرب كحمل في موضع رحب. خليل الأصنام إفرايم قد كنت له شكاً، فأطاعوا الكنعانيين وزنوا زنى إلى الآخر، وأحبوا الهوان بالتعاظم، وأنت في جناحيك هبوب ريح، وسيخزون في مذبحهم. إسمعوا لهذا أيها الكهنة وأنصتوا يا بيت إسرائيل. وإصغوا يا بيت الملك. لأن الحكم موضوع قبالتكم.",
+        ],
+        [
+            Prefix.same + "&C=Diacon",
+            "",
+            "",
+            "إذا قد صرتم فخاً للمحرس، وكالشبكة المنصوبة على تابور( تل مرتفع ) تلك التى ينصبها الصيادون للصيد وأنا معلمكم أنا عرفت أفرايم ولم يخف عنى إسرائيل لأن الآن قد زنى أفرايم وتنجس إسرائيل. ولم يوجهوا أفكار قلوبهم ليرجعوا إلى إلههم. لأن روح الزنى فيهم والرب لم يعرفوه. و سيغطى إسرائيل وجهه بذراعه (من الخزى).",
+        ],
+        [
+            Prefix.same + "&C=Diacon",
             "",
             "Israël et Éphraïm trébuchent à cause de leur faute, Juda aussi trébuche avec eux. Avec leurs brebis et leurs bœufs, ils iront chercher le Seigneur, mais ils ne le trouveront pas: il s'est retiré d'eux! Ils ont trahi le Seigneur, ils ont engendré des bâtards; maintenant la néoménie va les dévorer, eux et leurs champs.\nGloire à la sainte Trinité notre Dieu.",
-            "فيرجم إسرائيل وأفرايم بالظلم ويرجم يهوذا أيضاً معهم، ويذهبون بغنم وثيران ليطلبوا الرب فلا يجدونه، لأنه قد تنحى عنهم. بما أنهم قد إنصرفوا عن الرب وصارت لهم ثيران وكان لهم بنين غرباء، فالآن يأكلهم الدبا ( القمل ) مع ميراثهم.\nمجدًا للثالوث الأقدس إلهنا آمين",
+            "فيرجم إسرائيل وأفرايم بالظلم ويرجم يهوذا أيضاً معهم، ويذهبون بغنم وثيران ليطلبوا الرب فلا يجدونه، لأنه قد تنحى عنهم. بما أنهم قد إنصرفوا عن الرب وصارت لهم ثيران وكان لهم بنين غرباء، فالآن يأكلهم الدبا (القمل) مع ميراثهم.\nمجدًا للثالوث الأقدس إلهنا آمين",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "6HEPsalm&D=GL52&C=Title",
             "Psaume de la Sixième heure de la veille du mardi",
-            "",
-            "مزمور الساعة السادسة من ليلة الثلاثاء",
+            "Psaume de la Sixième heure de la veille du mardi",
+            "مزمور الساعة السادسة من ليلة الثلاثاء\n(مزمور٩٠: ١، ٢)",
         ],
         [
-            Prefix.HolyWeek + "6HEPsalm&D=GL52&C=Diacon",
-            "Yalmoc  to Dauid\nPama`mvwt Panou; ;naerelpic `erof > je `nqof ef`enamet `ebola piva] `nte pirefjwrj > nem `ebola oucaji `nref`]qorter > ```allhloui`a",
-            "Psaume 90 : 1, 2\nMon refuge, mon rempart, mon Dieu, dont je suis sûr. C’est Lui qui te sauve des filets du chasseur, et des paroles maléfiques. Alléluia",
-            "مزمور٩٠ : ١،  ٢\nملجأي وإلهى فأتكل عليه. لأنه ينجينى من فخ الصياد. ومن كلمة مقلقة. الليلويا",
+            Prefix.same + "&C=Diacon",
+            "Yalmoc to Dauid\nPama`mvwt Panou; ;naerelpic `erof > je `nqof ef`enamet `ebola piva] `nte pirefjwrj > nem `ebola oucaji `nref`]qorter > ```allhloui`a",
+            "Mon refuge, mon rempart, mon Dieu, dont je suis sûr. C’est Lui qui te sauve des filets du chasseur, et des paroles maléfiques. Alléluia",
+            "ملجأي وإلهى فأتكل عليه. لأنه ينجينى من فخ الصياد. ومن كلمة مقلقة. الليلويا",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "6HEGospel&D=GL52&C=Title",
-            "Evangile de la Sixième heure de la veille du mardi",
-            "",
-            " إنجيل الساعة السادسة من ليلة الثلاثاء",
+            "Evangile de la Sixième heure de la veille du mardi\nLoukan Kev k/a/> l/d/ ]bl/\n",
+            "Evangile de la Sixième heure de la veille du mardi\nLoukan Kev k/a/> l/d/ ]bl/\n",
+            "إنجيل الساعة السادسة من ليلة الثلاثاء\nلوقا (٢١: ٣٤-٣٨)\n",
         ],
         [
-            Prefix.HolyWeek + "6HEGospel&D=GL52&C=Diacon",
-            "Yalmoc  to Dauid\nPama`mvwt Panou; ;naerelpic `erof > je `nqof ef`enamet `ebola piva] `nte pirefjwrj > nem `ebola oucaji `nref`]qorter > ```allhloui`a",
-            "Psaume 90 : 1, 2\nMon refuge, mon rempart, mon Dieu, dont je suis sûr. C’est Lui qui te sauve des filets du chasseur, et des paroles maléfiques. Alléluia",
-            "مزمور٩٠ : ١،  ٢\nملجأي وإلهى فأتكل عليه. لأنه ينجينى من فخ الصياد. ومن كلمة مقلقة. الليلويا",
+            Prefix.same + "&C=Diacon",
+            "Maqhten de `èerwten mhpote `èntou`è\\ro] `ènje neteBnht 'en ousimh nem ouqi'i nem anrwou] `èmbi`èwtikon ouo è`ènouo;'en ouo; `èntef`èi `èejen qhnou `ènje pie`èoou `èete`èmmau `èm`èvrh; `ènouva] ef`èe`èi gar `èejen ouon niben etemci ijen `èpo`è mpkai thrf > rwic oun `ènchou niben `èeretentwb ina `ènteten`è]jemjom `èeer cabol `èenai throu eqna]wpi> ouo `ènteten`èoi qhnou `èmpe`èmqo `èm`èp]hri `èm`èvrwmi.",
+            "«Tenez-vous sur vos gardes, de peur que vos cœurs ne s'appesantissent dans la débauche, l'ivrognerie, les soucis de la vie, et que ce Jour-là ne fonde soudain sur vous comme un filet; car il s'abattra sur tous ceux qui habitent la surface de toute la terre. Veillez donc et priez en tout temps, afin d'avoir la force d'échapper à tout ce qui doit arriver, et de vous tenir debout devant le Fils de l'homme.»",
+            "\"فإحترزوا لأنفسكم لئلا تثقل قلوبكم من الشبع والسكر والهموم الدنياوية فيقبل عليكم بغته ذلك اليوم، لأنه يأتى كالفخ على جميع الجالسين على وجه الأرض كلها. إسهروا إذن وتضرعوا في كل حين لِكَي تقووا على الهرب من هذه الأمور المزمعة أن تصير وتقفوا أمام ابن الإنسان.\"",
         ],
         [
-            Prefix.HolyWeek + "6HEGospel&D=GL52&C=Diacon",
-            "Loukan Kev k/a/> l/d/ ]bl/\nMaqhten de `èerwten mhpote `èntou`è\\ro] `ènje netenht 'en ousimh nem ouqi'i nem anrwou] `èmbi`èwtikon ouo è`ènouo;'en ouo; `èntef`èi `èejen qhnou `ènje pie`èoou `èete`èmmau `èm`èvrh; `ènouva] ef`èe`èi gar `èejen ouon niben etemci ijen `èpo`è mpkai thrf > rwic oun `ènchou niben `èeretentwb ina `ènteten`è]jemjom `èeer cabol `èenai throu eqna]wpi> ouo `ènteten`èoi qhnou `èmpe`èmqo `èm`èp]hri `èm`èvrwmi.\nNaf`èiri de `ènni`èeoou ef;`ècbw 'en piervei > ni`èejwr de nafnhou `èèebol ef`èmton `èmmof ijen pitwou vh`èetoumou; `èerof je vanijwi> ouo pilaoc thrf naf]wrp `èmmof arof 'en piervei `èecwtem `èerof.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
-            "Luc 21 : 34 – 38\n«Tenez-vous sur vos gardes, de peur que vos cœurs ne s'appesantissent dans la débauche, l'ivrognerie, les soucis de la vie, et que ce Jour-là ne fonde soudain sur vous comme un filet; car il s'abattra sur tous ceux qui habitent la surface de toute la terre. Veillez donc et priez en tout temps, afin d'avoir la force d'échapper à tout ce qui doit arriver, et de vous tenir debout devant le Fils de l'homme.»  ",
-            "لوقا ٢١ : ٣٤- ٣٨\nفإحترزوا لأنفسكم لئلا تثقل قلوبكم من الشبع والسكر والهموم الدنياوية فيقبل عليكم بغته ذلك اليوم، لأنه يأتى كالفخ على جميع الجالسين على وجه الأرض كلها. إسهروا إذن وتضرعوا فى كل حين لكى تقووا على الهرب من هذه الأمور المزمعة أن تصير وتقفوا أمام إبن الإنسان",
-        ],
-        [
-            Prefix.HolyWeek + "6HEGospel&D=GL52&C=Diacon",
-            "",
+            Prefix.same + "&C=Diacon",
+            "Naf`èiri de `ènni`èeoou ef;`ècbw 'en piervei > ni`èejwr de nafnhou `èèebol ef`èmton `èmmof ijen pitwou vh`èetoumou; `èerof je vanijwi> ouo pilaoc thrf naf]wrp `èmmof arof 'en piervei `èecwtem `èerof. Ouw]t `mpieuaggelion eqouab.\nDo[a ci Kuri`e.\n",
             "Pendant le jour, il était dans le Temple à enseigner; mais la nuit, il s'en allait la passer en plein air sur le mont dit des Oliviers. Et, dès l'aurore, tout le peuple venait à lui dans le Temple pour l'écouter.\nGloire à Dieu éternellement.",
-            "و كان فى النهار يعلم فى الهيكل. وفى الليل يخرج ويبيت فى الجبل الذى يدعى جبل الزيتون. وكان جميع الشعب يبكرون إليه فى الهيكل ليسمعوا منه.\nوالمجد لله دائماً",
+            "وكان في النهار يعلم في الهيكل. وفى الليل يخرج ويبيت في الجبل الذي يدعى جبل الزيتون. وكان جميع الشعب يبكرون إليه في الهيكل ليسمعوا منه.\nوالمجد لله دائماً",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "6HECommentary&D=GL52&C=Title",
             "Commentaire de la Sixième heure de la veille du mardi",
-            "",
+            "Commentaire de la Sixième heure de la veille du mardi",
             "طرح الساعة السادسة من ليلة الثلاثاء",
         ],
         [
-            Prefix.HolyWeek + "6HECommentary&D=GL52&C=Diacon",
+            Prefix.same + "&C=Diacon",
             "",
-            "Commentaire\nComme un médecin, le Christ notre Dieu soignait gratuitement en disant que l’excès de nourriture pèse sur les cœurs, réduit la force du corps. Les préoccupations terrestres attirent de nombreux maux sur l’être humain et l’écartent de la crainte de Dieu. Alors, le mauvais l’étouffera, l’éloignera du chemin du salut et de la connaissance du salut de son âme et le fera succomber sous l’autorité de la mort comme un piège qui attrape la proie. ",
-            "طــرح\nكمثل طبيب مداو كان المسيح إلهنا يداوى مجاناً قائلاً إن زيادة الأكل تثقل القلوب وتقطع القوة من الجسد، والإهتمام أيضاً الدنياوى يجلب على الإنسان شروراً كثيرة ويحيد بالإنسان عن مخافة الله، فيخنقه الشرير ويبعده عن طريق الخلاص ومعرفة خلاص نفسه، ويوقعه فى سلطان الموت مثل الفخ الذى يخطف الفريسة.",
+            "Comme un médecin, le Christ notre Dieu soignait gratuitement en disant que l’excès de nourriture pèse sur les cœurs, réduit la force du corps. Les préoccupations terrestres attirent de nombreux maux sur l’être humain et l’écartent de la crainte de Dieu. Alors, le mauvais l’étouffera, l’éloignera du chemin du salut et de la connaissance du salut de son âme et le fera succomber sous l’autorité de la mort comme un piège qui attrape la proie.",
+            "كمثل طبيب مُداوٍ كان المسيح إلهنا يداوى مجاناً قائلاً إن زيادة الأكل تثقل القلوب وتقطع القوة من الجسد، والإهتمام أيضاً الدُنْيَوي يَجْلُبْ على الإنسان شروراً كثيرة ويحيد بالإنسان عن مخافة الله، فيخنقه الشرير ويبعده عن طريق الخلاص ومعرفة خلاص نفسه، ويوقعه في سلطان الموت مثل الفخ الذي يخطف الفريسة.",
         ],
         [
-            Prefix.HolyWeek + "6HECommentary&D=GL52&C=Diacon",
+            Prefix.same + "&C=Diacon",
             "",
-            "Quant à vous, veillez et produisez un fruit digne de la justice et du repentir afin que vous puissiez vous présenter avec dignité devant le juge, Jésus notre Sauveur. Dans la journée, Il venait à Jérusalem enseigner la foule dans le temple et se reposait la nuit au mont des Oliviers. Et tout le peuple, dès l’aurore, venait à Lui dans le temple pour écouter Ses enseignements pleins de bonté. Ceux qui L’entendaient, ",
-            "أسهروا أنتم أيضاً وأصنعوا ثمرة تليق بالبر والتوبة لكى تكونوا واقفين أمام الديان يسوع المخلص. وكان يعلم الجموع فى الهيكل وفى الليل كان يستريح وكانت راحته فى جبل الزيتون وفى النهار كان يأتى إلى أورشليم. وكان جميع الشعب يبكرون إليه ليسمعوا تعاليمه المفعمة صلاحاً، والذين سمعوا",
+            "Quant à vous, veillez et produisez un fruit digne de la justice et du repentir afin que vous puissiez vous présenter avec dignité devant le juge, Jésus notre Sauveur. Dans la journée, Il venait à Jérusalem enseigner la foule dans le temple et se reposait la nuit au mont des Oliviers. Et tout le peuple, dès l’aurore, venait à Lui dans le temple pour écouter Ses enseignements pleins de bonté. Ceux qui L’entendaient, se hâtaient vers Sa source pour boire l’eau pure.",
+            "اسهروا أنتم أيضاً واصنعوا ثمرة تليق بالبر والتوبة لِكَي تكونوا واقفين أمام الديان يسوع المخلص. وكان يعلم الجموع في الهيكل وفى الليل كان يستريح وكانت راحته في جبل الزيتون وفى النهار كان يأتى إلى أورشليم. وكان جميع الشعب يبكرون إليه ليسمعوا تعاليمه المفعمة صلاحاً، والذين سمعوا كانوا يسبقون إلى ينبوعه ويشربون منه الماء الحلو.",
         ],
         [
-            Prefix.HolyWeek + "6HECommentary&D=GL52&C=Diacon",
+            Prefix.same + "&C=Diacon",
             "",
-            "se hâtaient vers Sa source pour boire l’eau pure. \nAinsi les Écritures témoignent qu’Il est la nourriture incorruptible qui nourrit tous ceux qui croient en Lui",
-            "كانوا يسبقون إلى ينبوعه ويشربون منه الماء الحلو. كما قال الكتاب الشاهد بمجيئه أنه الطعام الغير الفاسد المغذى لكل الذين يؤمنون به.",
+            "Ainsi les Écritures témoignent qu’Il est la nourriture incorruptible qui nourrit tous ceux qui croient en Lui.",
+            "كما قال الكتاب الشاهد بمجيئه أنه الطعام الغير الفاسد المغذى لكل الذين يؤمنون به.",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "9HEProphecies&D=GL52&C=Title",
             "Prophecies de la Neuvième heure de la veille du mardi",
-            "",
+            "Prophecies de la Neuvième heure de la veille du mardi",
             "نبوات الساعة التاسعة من ليلة الثلاثاء",
         ],
         [
@@ -2513,7 +2567,7 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "9HEProphecies&D=GL52&C=Diacon",
             "",
             "jusqu'à ce qu'il vienne faire pleuvoir sur vous la justice. Vous avez labouré la méchanceté, vous avez moissonné l'injustice, vous avez mangé le fruit du mensonge. Parce que tu t'es confié dans tes chars, dans la multitude de tes guerriers, un grondement s'élèvera parmi ton peuple et toutes tes forteresses seront dévastées, comme Shalmân dévasta Bet-Arbel, au jour du combat, quand la mère était écrasée sur ses enfants. ",
-            "حتى يأتيكم ثمرة البر. لماذا سكتم على النفاق الذى فيكم، وحفظتم ظلمكم، وأكلتم ثمرة الكذب؟ لأنك توكلت على مركباتك وكثرة قوتك، فيقوم هلاك فى شعبك وتخرب جميع حصونك (المسيجة) كخراب بيت يوربعام من أراخنة سليمان يوم الحرب. إذ حطمت الأمهات على البنين. هكذا أصنع بكم يا بيت إسرائيل ",
+            "حتى يأتيكم ثمرة البر. لماذا سكتم على النفاق الذي فيكم، وحفظتم ظلمكم، وأكلتم ثمرة الكذب؟ لأنك توكلت على مركباتك وكثرة قوتك، فيقوم هلاك في شعبك وتخرب جميع حصونك (المسيجة) كخراب بيت يوربعام من أراخنة سليمان يوم الحرب. إذ حطمت الأمهات على البنين. هكذا أصنع بكم يا بيت إسرائيل ",
         ],
         [
             Prefix.HolyWeek + "9HEProphecies&D=GL52&C=Diacon",
@@ -2526,7 +2580,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "9HEPsalm&D=GL52&C=Title",
             "Psaume de la Neuvième heure de la veille du mardi",
-            "",
+            "Psaume de la Neuvième heure de la veille du mardi",
             "مزمور الساعة التاسعة من ليلة الثلاثاء",
         ],
         [
@@ -2540,7 +2594,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "9HEGospel&D=GL52&C=Title",
             "Evangile de la Neuvième heure de la veille du mardi",
-            "",
+            "Evangile de la Neuvième heure de la veille du mardi",
             " إنجيل الساعة التاسعة من ليلة الثلاثاء",
         ],
         [
@@ -2553,13 +2607,13 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "9HEGospel&D=GL52&C=Diacon",
             "Loukan Kev i/a/ > l/z/ - n/b\nEfcaji de af;o `èerof `ènje ouvariceoc opwc `èntefouwm 'atotf ouo `èetaf]e `èe'oun afrwteb. Pivariceoc de `èetafnau afer`è]vhri je `èmpefsiwmc `èn]orp 'ajen piouwm pejaf de naf `ènje P_/ je ;nou `ènqwten 'anivariceoc tetentoubo cabol `èmpi`èavot nem pibinaj> ca'oun de `èmmwten me `ènwlem nem ponhri`èa.\nNiatht mh vh an `èetafqami`èe cabol `ènqof on afqami`èe ca'oun. Pdhn nhet]op mhitou `èe`èqmetnaht ouo ic wb niben cetoubhout nwten. Alla ouoi nwten nivariceoc je teten; `èm`èvremht `èmpi`èasin `èn`ècqoi nem piba]ou] nem ou`èo; niben ouo tetenxw `èncwten `èmpiap nem ;`èagaph `ènte Vnou;> nai de nacem`èp]a `èntetenaitou ouo nikexwouni `ènteten`è]temxau `ènca qhnou.\nOuoi nwte	n nivariceoc je tetenmei `ènni]orp `èmmanemci 'en nicunagwgh nem niacpacmoc 'en niagwra. Ouoi nwten nica' nem ni variceoc ni]obi je te tenoi `èm`èvrh; `ènni`èmèau `èetenceouwn `èebol an ouo nirwmi eqmo]i ijwou `ènce`èemi an. Af`èerou`èw de `ènje ouai `ènninomikoc pejaf naf je piref;`ècbw nai ekjw `èmmwou ek;]w] `èmmon wn.\nNqof de pejaf naf je `ènqwten wten 'aninomikoc ouoi nwten je teten talo `ènanetvwou`èi eumok `ènfitou `èejen nirwmi euo `ènqwten tetensi nem nietvwou`èi an `ènouai `ènnetenthb > ouoi nwten je tetenkwt `ènni`èmau `ènte niprovhthc netenio; de au'oqbou. –|ara tetenermeqre ouo teten ;ma; `èejen ni`èhou`èi `ènte netenio; > je `ènqwou men au'oqbou `ènqwten de tetenkwt `ènnou`èmau.\nEqbe vai `èa;kecovia `ènte V; joc > je ;naouwrp arwou `ènanprovhthc nem an`èapoctoloc ouo eu`èe'wteb `èebol`èn'htou ouo eu`èesoji `èncwou > ina `èncesi `èmpe`èm`p]i] `èm`èp`ècnof `ènniprovhthc throu `èetauvonf `èebol icjen `ètkatabolh `èmpikocmoc `èntotoc `èntaigene`èa > icjen `èp`ècnof `ènAbel pi`èqmhi ]a `èp`ècnof `ènZaxariac `èp]hri `èmBaraxiac vh`èetautakof oute pima`èner]wou]i nem pihi ce ;jw `èmmoc nwten je cenakw; `èncwf `èntotc `èntaigenea. Ouoi nwten ninomikoc je `èateten`èwli `ènni]o]t `ènte `èpcwoun `ènqwten `èmpeten`èi `èe'oun ouo nheqnhou `èe'oun `èetetenerkwlin `èmmwou.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
             "Luc 11 : 37 – 52\nComme il parlait, un Pharisien l'invita à déjeuner chez lui. Il entra et se mit à table. Le Pharisien fut étonné en voyant qu'il n'avait pas d'abord fait une ablution avant le déjeuner. Le Seigneur lui dit: Maintenant vous, les Pharisiens, c'est l'extérieur de la coupe et du plat que vous purifiez, mais votre intérieur est rempli de rapacité et de méchanceté. Insensés! Est-ce que Celui qui a fait l'extérieur",
-            "لوقا ١١ : ٣٧ – ٥٢\nوفيما هو يتكلم سأله فريسى أن يأكل عنده. فدخل وأتكأ، وأما الفريسى فلما رأى أنه لم يغتسل أولاً قبل الأكل تعجب. فقال له الرب: أنتم الآن معشر الفريسيين، تطهرون خارج الكأس والصحفة، وأما داخلهما فمملوء إختطافاً وخبثاً. أيها الجهال، أليس الذى صنع الخارج",
+            "لوقا ١١ : ٣٧ – ٥٢\nوفيما هو يتكلم سأله فريسى أن يأكل عنده. فدخل وأتكأ، وأما الفريسى فلما رأى أنه لم يغتسل أولاً قبل الأكل تعجب. فقال له الرب: أنتم الآن معشر الفريسيين، تطهرون خارج الكأس والصحفة، وأما داخلهما فمملوء إختطافاً وخبثاً. أيها الجهال، أليس الذي صنع الخارج",
         ],
         [
             Prefix.HolyWeek + "9HEGospel&D=GL52&C=Diacon",
             "",
             "n'a pas fait aussi l'intérieur? Donnez plutôt en aumône ce qui est dedans, et alors tout sera pur pour vous. Mais malheureux êtes-vous, Pharisiens, vous qui versez la dîme de la menthe, de la rue et de tout ce qui pousse dans le jardin, et qui laissez de côté la justice et l'amour de Dieu. C'est ceci qu'il fallait faire, sans négliger cela. Malheureux êtes-vous, Pharisiens, vous qui aimez le premier siège dans les synagogues et les salutations sur les places publiques.",
-            "صنع الداخل أيضاً؟ بل إعطوا ما عندكم صدقة.  فهوذا كل شئ يتطهر لكم. ولكن ويل لكم أيها الفريسيون لأنكم تعشرون النعنع والسذاب وكل بقل وتتجاوزون حكم الله ومحبته. وكان ينبغى أن تفعلوا هذه ولا تتركوا تلك. ويل لكم أيها الفريسيون لأنكم تحبون أوائل المجالس فى المجامع والتحيات فى الأسواق. ",
+            "صنع الداخل أيضاً؟ بل إعطوا ما عندكم صدقة.  فهوذا كل شئ يتطهر لكم. ولكن ويل لكم أيها الفريسيون لأنكم تعشرون النعنع والسذاب وكل بقل وتتجاوزون حكم الله ومحبته. وكان ينبغى أن تفعلوا هذه ولا تتركوا تلك. ويل لكم أيها الفريسيون لأنكم تحبون أوائل المجالس في المجامع والتحيات في الأسواق. ",
         ],
         [
             Prefix.HolyWeek + "9HEGospel&D=GL52&C=Diacon",
@@ -2571,27 +2625,27 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "9HEGospel&D=GL52&C=Diacon",
             "",
             "des prophètes, alors que ce sont vos pères qui les ont tués. Ainsi vous témoignez que vous êtes d'accord avec les actes de vos pères, puisque, eux, ils ont tué les prophètes et vous, vous bâtissez leurs tombeaux. C'est pourquoi la Sagesse de Dieu elle-même a dit: je leur enverrai des prophètes et des apôtres; ils en tueront et persécuteront, afin qu'il soit demandé compte à cette génération du sang de tous les prophètes qui a été versé",
-            "الأنبياء الذين قتلهم آباؤكم، فأنتم إذاً تشهدون وتسرون بأعمال آبائكم. لأنهم قتلوهم وأنتم تبنون قبورهم. لذلك أيضاً قالت حكمة الله: إنى أرسل إليهم أنبياءً ورسلاً فيقتلون منهم ويطردون. لكى يُطلب من هذا الجيل دم جميع الأنبياء الذى سفك",
+            "الأنبياء الذين قتلهم آباؤكم، فأنتم إذاً تشهدون وتسرون بأعمال آبائكم. لأنهم قتلوهم وأنتم تبنون قبورهم. لذلك أيضاً قالت حكمة الله: إنى أرسل إليهم أنبياءً ورسلاً فيقتلون منهم ويطردون. لِكَي يُطلب من هذا الجيل دم جميع الأنبياء الذي سفك",
         ],
         [
             Prefix.HolyWeek + "9HEGospel&D=GL52&C=Diacon",
             "",
             "depuis la fondation du monde, depuis le sang d'Abel jusqu'au sang de Zacharie qui a péri entre l'autel et le sanctuaire. Oui, je vous le déclare, il en sera demandé compte à cette génération. Malheureux êtes-vous, légistes, vous qui avez pris la clé de la connaissance: vous n'êtes pas entrés vous-mêmes, et ceux qui voulaient entrer, vous les en avez empêchés.»\nGloire à Dieu éternellement.",
-            "منذ أنشاء العالم: من دم هابيل الصديق إلى دم زكريا بن براشيا الذى أهلك بين المذبح والبيت. نعم أقول لكم أنه يطلب من هذا الجيل. الويل لكم أيها الناموسيون لأنكم أخذتم مفاتيح المعرفة فما دخلتم أنتم والداخلون منعتموهم.\n\nوالمجد لله دائماً",
+            "منذ أنشاء العالم: من دم هابيل الصديق إلى دم زكريا بن براشيا الذي أهلك بين المذبح والبيت. نعم أقول لكم أنه يطلب من هذا الجيل. الويل لكم أيها الناموسيون لأنكم أخذتم مفاتيح المعرفة فما دخلتم أنتم والداخلون منعتموهم.\n\nوالمجد لله دائماً",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "9HECommentary&D=GL52&C=Title",
             "Commentaire de la Neuvième heure de la veille du mardi",
-            "",
+            "Commentaire de la Neuvième heure de la veille du mardi",
             "طرح الساعة التاسعة من ليلة الثلاثاء",
         ],
         [
             Prefix.HolyWeek + "9HECommentary&D=GL52&C=Diacon",
             "",
             "Commentaire\nEcoutez celui qui est compatissant, miséricordieux et patient nous recommander d’être purs, non seulement en nos corps mais aussi au fond de nos cœurs. Ce pharisien qui l’avait invité chez lui, lorsqu’il le vit manger le pain sans se laver les mains fut très surpris. Notre Maître, qui connaît toute chose avant qu’elle ne soit, lui parla en disant: vous les pharisiens, ",
-            "طــرح\nإسمعوا الرؤوف الرحوم الكثير الرحمة المتأنى كيف يوصينا أن نكون أطهاراً، ليس فى أجسادنا فقط بل وفى قلوبنا أيضاً، لما تعجب منه ذلك الفريسى الذى سأله أن يأكل عنده. فلما رآه يأكل الخبز بغير طهر ولا غسل يديه، تكلم معه المعلم العارف بكل الأشياء قبل كونها قائلاً: أنتم يا معشر الفريسيين",
+            "طــرح\nإسمعوا الرؤوف الرحوم الكثير الرحمة المتأنى كيف يوصينا أن نكون أطهاراً، ليس في أجسادنا فقط بل وفى قلوبنا أيضاً، لما تعجب منه ذلك الفريسى الذي سأله أن يأكل عنده. فلما رآه يأكل الخبز بغير طهر ولا غسل يديه، تكلم معه المعلم العارف بكل الأشياء قبل كونها قائلاً: أنتم يا معشر الفريسيين",
         ],
         [
             Prefix.HolyWeek + "9HECommentary&D=GL52&C=Diacon",
@@ -2604,7 +2658,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "11HEProphecies&D=GL52&C=Title",
             "Prophecies de la Onzième heure de la veille du mardi",
-            "",
+            "Prophecies de la Onzième heure de la veille du mardi",
             "نبوات الساعة الحادية عشر من ليلة الثلاثاء",
         ],
         [
@@ -2617,7 +2671,7 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "11HEProphecies&D=GL52&C=Diacon",
             "",
             "Ils changent le droit en absinthe et jettent à terre la justice. C'est lui qui fait les Pléiades et Orion, qui change en matin les ténèbres épaisses et obscurcit le jour comme la nuit; lui qui appelle les eaux de la mer et les répand sur la face de la terre; le Seigneur tout puissant est son nom. \nIl déchaîne la dévastation sur celui qui est fort, et la dévastation arrive sur la citadelle. Ils haïssent quiconque réprimande à la Porte, ",
-            "الرب يصنع حكماً في العلى. ووضع العدل على الأرض. هو الذى خلق كل الأشياء وينقلها، الذى يحول الظل صباحاً ويغشى النهار بالليل. الذى يدعو مياه البحر فيفيضها على وجه الأرض كلها، الرب الإله الضابط الكل هو إسمه. المنزل الإنحطام على القوة ويأتي بالدمار على الموضع الحصين. لقد أبغضوا الموبخ في الأبواب. ",
+            "الرب يصنع حكماً في العلى. ووضع العدل على الأرض. هو الذي خلق كل الأشياء وينقلها، الذي يحول الظل صباحاً ويغشى النهار بالليل. الذي يدعو مياه البحر فيفيضها على وجه الأرض كلها، الرب الإله الضابط الكل هو إسمه. المنزل الإنحطام على القوة ويأتي بالدمار على الموضع الحصين. لقد أبغضوا الموبخ في الأبواب. ",
         ],
         [
             Prefix.HolyWeek + "11HEProphecies&D=GL52&C=Diacon",
@@ -2636,7 +2690,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "11HEPsalm&D=GL52&C=Title",
             "Psaume de la Onzième heure de la veille du mardi",
-            "",
+            "Psaume de la Onzième heure de la veille du mardi",
             "مزمور الساعة الحادية عشر من ليلة الثلاثاء",
         ],
         [
@@ -2650,7 +2704,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "11HEGospel&D=GL52&C=Title",
             "Evangile de la Onzième heure de la veille du mardi",
-            "",
+            "Evangile de la Onzième heure de la veille du mardi",
             " إنجيل الساعة الحادية عشر من ليلة الثلاثاء",
         ],
         [
@@ -2663,7 +2717,7 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "11HEGospel&D=GL52&C=Diacon",
             "Markon Kev i/g/ > l/b/ ]/b/l/ nem Kev i/d/> a/ nem b/\nEqbe pie`èoou de `èete`èmmau nem ;ounou `èmmon `èli `èemi `èerwou oude niaggeloc nhet'en `ètve oude P]hri `èebhl `èeViwt. Jou]t `èebol rwic ouo `èariproceuxecqe `ènteten cwoun gar an je `èqnau pe pichou> M`èvrh; `ènourwmi `èeafmo]i `èe`èp]emmo ouo `èeafxw `èmpefhi ouo af; `ènnef`èebiaik `èmpier]i]i `èvouai `èvouai `èmpefwb ouo afonen `èetotf `èmpim`ènout ina `èntefrwic.\nRwic oun je `èntetencwoun gar an je `èare P_/ `èmpihi nhou `èn`èqnau ie anaroui ie `ètva]i `èmpi`èejwr ie `èere pi`èalektwr mou; ie anatoou`èi > mhpwc `èntef`èi > `èènouo; 'en ouo; `èntefjem qhnou `èereten`ènkot > pe ;jw `èmmof nwten ;jw `èmmof nouon niben rwic.\nNe pipacxa de pe nem niat]emhr menenca `èeoou `ècnau ouo naukw; pe `ènje niarxh`èereuc nem nica' je pwc `èntou`èamoni `èmmof 'en ou`èxrof `èntou'oqbef > naujw gar `èmmoc pe je `èmpen`èqrenaic 'en `èp]ai mhpote `ènte ou`è]qorter ]wpi 'en pilaoc. Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
             "Marc 13 : 32 – 14 : 1-2\nQuant à la date de ce jour, ou à l'heure, personne ne les connaît, ni les anges dans le ciel, ni le Fils, personne que le Père.  Soyez sur vos gardes, veillez, car vous ne savez pas quand ce sera le moment. Il en sera comme d'un homme parti en voyage: il a quitté sa maison, donné pouvoir à ses serviteurs, à chacun sa tâche, et au portier il a recommandé de veiller. ",
-            "مرقس ١٣ : ٣٢ - ١٤ : ١- ٢\nفأما ذلك اليوم وتلك الساعة فلا يعلمهما أحد، ولا الملائكة الذين في السماء ولا الإبن، إلا الآب. أنظروا وأسهروا وصلوا لأنكم لا تعلمون متى يكون الزمان. كمثل إنسان مسافر فترك بيته وأعطى عبيده السلطان، كل واحد فى عمله وأوصى البواب بالسهر",
+            "مرقس ١٣ : ٣٢ - ١٤ : ١- ٢\nفأما ذلك اليوم وتلك الساعة فلا يعلمهما أحد، ولا الملائكة الذين في السماء ولا الإبن، إلا الآب. أنظروا وأسهروا وصلوا لأنكم لا تعلمون متى يكون الزمان. كمثل إنسان مسافر فترك بيته وأعطى عبيده السلطان، كل واحد في عمله وأوصى البواب بالسهر",
         ],
         [
             Prefix.HolyWeek + "11HEGospel&D=GL52&C=Diacon",
@@ -2675,14 +2729,14 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "11HEGospel&D=GL52&C=Diacon",
             "",
             "\net les grands prêtres et les scribes cherchaient comment arrêter Jésus par ruse pour le tuer. Car ils se disaient: «Pas en pleine fête, de peur qu'il n'y ait du tumulte parmi le peuple». \nGloire à Dieu éternellement.",
-            " \nوكان رؤساء الكهنة والكتبة يطلبون كيف يمسكونه بمكر ليقتلوه، ولكنهم قالوا: لا نفعل هذا فى العيد لئلا يكون شغب في الشعب.\nوالمجد لله دائماً",
+            " \nوكان رؤساء الكهنة والكتبة يطلبون كيف يمسكونه بمكر ليقتلوه، ولكنهم قالوا: لا نفعل هذا في العيد لئلا يكون شغب في الشعب.\nوالمجد لله دائماً",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "11HECommentary&D=GL52&C=Title",
             "Commentaire de la Onzième heure de la veille du mardi",
-            "",
+            "Commentaire de la Onzième heure de la veille du mardi",
             "طرح الساعة الحادية عشر من ليلة الثلاثاء",
         ],
         [
@@ -2695,14 +2749,14 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "11HECommentary&D=GL52&C=Diacon",
             "",
             "Personne parmi les hommes ou les anges ne connaît le jour et l’heure. Même le Fils ne les connaît pas non plus, mais uniquement le Père, qui connaît tout. \nVeillez-donc en tout temps et priez car vous ne savez pas quand sera l’heure, pour qu’Il ne vienne pas à l’improviste et vous trouve endormis. Prenez garde et protégez-vous pour que vous soyez sauvés des pièges qui vous sont tendus.",
-            "إنه ليس أحد من سائر البشر ولا الملائكة يعلمهما، والإبن أيضاً لا يعلمهما، إلا الآب فقط العارف بكل شيء .  فإسهروا كل حين وصلوا، فإنكم لستم تعلمون متى يكون الوقت. لئلا يأتي بغتة فيجدكم نياماً. فإحترزوا وإحفظوا ذواتكم لكى تخلصوا من الفخاخ المنصوبة.",
+            "إنه ليس أحد من سائر البشر ولا الملائكة يعلمهما، والإبن أيضاً لا يعلمهما، إلا الآب فقط العارف بكل شيء .  فإسهروا كل حين وصلوا، فإنكم لستم تعلمون متى يكون الوقت. لئلا يأتي بغتة فيجدكم نياماً. فإحترزوا وإحفظوا ذواتكم لِكَي تخلصوا من الفخاخ المنصوبة.",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "1HDProphecies&D=GL53&C=Title",
             "Prophecies de la Première heure du mardi",
-            "",
+            "Prophecies de la Première heure du mardi",
             "نبوات الساعة الأولى من يوم الثلاثاء",
         ],
         [
@@ -2721,7 +2775,7 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "1HDProphecies&D=GL53&C=Diacon",
             "",
             "amenés vers moi. Maintenant, si vous écoutez ma voix et gardez mon alliance, je vous tiendrai pour mon bien propre parmi tous les peuples, car toute la terre est à moi. Je vous tiendrai pour un royaume de prêtres, une nation sainte. Voilà les paroles que tu diras aux Israélites.» Moïse alla et convoqua les anciens du peuple et leur exposa tout ce que le Seigneur lui avait ordonné, et le peuple entier, d'un commun accord, répondit :",
-            "وأتيت بكم إليّ والآن إن كنتم سمعاً تسمعون لصوتى وتحفظون عهدى. فإنكم تكونون لى شعباً مجتمعاً إلى الأبد من بين جميع الأمم. لأن لى الأرض بأسرها وأنتم تكونون لى مملكة مقدسة وأمة مطهرة. هذا هو الكلام الذى تقوله لبيت إسرائيل. فجاء موسى ودعا شيوخ الشعب وقص عليهم كل هذه الكلمات التى أمره الله بها. فأجاب جميع الشعب معاً وقالوا: ",
+            "وأتيت بكم إليّ والآن إن كنتم سمعاً تسمعون لصوتى وتحفظون عهدى. فإنكم تكونون لي شعباً مجتمعاً إلى الأبد من بين جميع الأمم. لأن لي الأرض بأسرها وأنتم تكونون لي مملكة مقدسة وأمة مطهرة. هذا هو الكلام الذي تقوله لبيت إسرائيل. فجاء موسى ودعا شيوخ الشعب وقص عليهم كل هذه الكلمات التى أمره الله بها. فأجاب جميع الشعب معاً وقالوا: ",
         ],
         [
             Prefix.HolyWeek + "1HDProphecies&D=GL53&C=Diacon",
@@ -2739,7 +2793,7 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "1HDProphecies&D=GL53&C=Diacon",
             "",
             "Oh! Si je savais comment l'atteindre, parvenir jusqu'à sa demeure, J'ouvrirais un procès devant lui, ma bouche serait pleine de griefs. Je connaîtrais les termes de sa réponse, attentif à ce qu'il me dirait. Jetterait-il toute sa force dans ce débat avec moi ? Non, il lui suffirait de me prêter attention. Il reconnaîtrait dans son adversaire un homme droit, et je triompherais de mon juge. Si je vais vers l'orient, il est absent ; ",
-            "من الذي يعلم أنى أجده؟ وأنهم تحابوا معى إلى التمام، ولست أستطيع أن أقول حكمًا أمامه، فيمتلئ فمي توبيخًا. أنا أعلم بثبات ما يقوله لي، وأشعر بما يعرفنى إياه، ولا يأتى على بقوة عظيمة، ولا يفسح لي في الرجز. لأن البر والتوبيخ هما منه. و يخرج حكمي إلى الإنقضاء وأمضى إلى الأوائل. ولا أكون بعد، ولا أعلم ما في الأواخر. ",
+            "من الذي يعلم أني أجده؟ وأنهم تحابوا مَعِي إلى التمام، ولست أستطيع أن أقول حكمًا أمامه، فيمتلئ فمي توبيخًا. أنا أعلم بثبات ما يقوله لي، وأشعر بما يعرفنى إياه، ولا يأتى على بقوة عظيمة، ولا يفسح لي في الرجز. لأن البر والتوبيخ هما منه. و يخرج حكمي إلى الإنقضاء وأمضى إلى الأوائل. ولا أكون بعد، ولا أعلم ما في الأواخر. ",
         ],
         [
             Prefix.HolyWeek + "1HDProphecies&D=GL53&C=Diacon",
@@ -2781,7 +2835,7 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "1HDProphecies&D=GL53&C=Diacon",
             "",
             "montré dur pour la veuve. Mais Celui qui se saisit des tyrans avec force surgit et lui ôte l'assurance de la vie. Il le laissait s'appuyer sur une sécurité trompeuse, mais, des yeux, il surveillait ses démarches. Elevé pour un temps, il disparaît, il s'affaisse comme l'arroche qu'on cueille, il se fane comme la tête des épis. N'en est-il pas ainsi ? Qui me convaincra de mensonge et réduira mes paroles à néant?\nGloire à la sainte Trinité notre Dieu.",
-            "ولم يرحموا الأرملة. وبغضب طرحوا الضعفاء.\nفاذا قام لا يأمن على حياته. وإذا مرض لا يجعلوه يرجو أن يشفى بل يسقط بالمرض. إن كثيرين خفضهم إرتفاعه فذبلت خضرتهم بالحر مثل السنبل إذا سقط وحده من البرائب. وإلا فمن قال له أنى كذبت ويجعل كلامى كلا شيء؟\nمجدًا للثالوث الأقدس إلهنا آمين",
+            "ولم يرحموا الأرملة. وبغضب طرحوا الضعفاء.\nفاذا قام لا يأمن على حياته. وإذا مرض لا يجعلوه يرجو أن يشفى بل يسقط بالمرض. إن كثيرين خفضهم إرتفاعه فذبلت خضرتهم بالحر مثل السنبل إذا سقط وحده من البرائب. وإلا فمن قال له أني كذبت ويجعل كلامى كلا شيء؟\nمجدًا للثالوث الأقدس إلهنا آمين",
         ],
         [
             Prefix.HolyWeek + "1HDProphecies&D=GL53&C=Diacon",
@@ -2812,7 +2866,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "1HDSermony&D=GL53&C=Title",
             "Sermon de  Première heure du mardi",
-            "",
+            "Sermon de  Première heure du mardi",
             "عظة لأبينا الساعة الأولى من يوم الثلاثاء",
         ],
         [
@@ -2849,14 +2903,14 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "1HDSermony&D=GL53&C=Diacon",
             "Marener `c`vragizin `n]katy,ycic `nte peniwt `e;ouab abba Senou] pi`ar,yman`drityc `vyetaferouwini `mpennouc nem nibal `nte nenhyt @ qen `vran `m~Viwt nem ~Psyri nem Pi`pneuma `e;ouab ounou] `nouwt @ `amyn",
             "",
-            "فلنختم عظة أبينا القديس أنبا شنودة رئيس المتوحدين الذى أنار عقولنا وعيون قلوبنا بإسم الآب والإبن والروح القدس إله واحد. آمين.",
+            "فلنختم عظة أبينا القديس أنبا شنودة رئيس المتوحدين الذي أنار عقولنا وعيون قلوبنا بإسم الآب والإبن والروح القدس إله واحد. آمين.",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "1HDPsalm&D=GL53&C=Title",
             "Psaume de la Première heure du mardi",
-            "",
+            "Psaume de la Première heure du mardi",
             "مزمور الساعة الأولى من يوم الثلاثاء",
         ],
         [
@@ -2870,7 +2924,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "1HDGospel&D=GL53&C=Title",
             "Evangile de la Première heure du mardi",
-            "",
+            "Evangile de la Première heure du mardi",
             " إنجيل الساعة الأولى من يوم الثلاثاء",
         ],
         [
@@ -2889,46 +2943,46 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "1HDGospel&D=GL53&C=Diacon",
             "",
             "Si, en effet, vous ne croyez pas que Je Suis, vous mourrez dans vos péchés.»  Ils dirent alors: «Toi, qui es-tu?» Jésus leur répondit: «Ce que je ne cesse de vous dire depuis le commencement. En ce qui vous concerne, j'ai beaucoup à dire et à juger; mais Celui qui m'a envoyé est véridique, et ce que j'ai entendu auprès de lui, c'est cela que je déclare au monde.» Ils ne comprirent pas qu'il leur avait parlé du Père. ",
-            "لأنكم إن لم تؤمنوا إنى أنا هو تموتون بخطاياكم. \nفقالوا له: من أنت؟ فقال لهم يسوع: أنا من البدء تكلمت معكم ولى أشياء كثيرة أقولها وأحكم بها من نحوكم. ولكن الذي أرسلنى هو حق، وأنا ما سمعته منه فهذا أتكلم به فى العالم. فلم يفهموا أنه كان يقول لهم عن الآب. ",
+            "لأنكم إن لم تؤمنوا إنى أنا هو تموتون بخطاياكم. \nفقالوا له: من أنت؟ فقال لهم يسوع: أنا من البدء تكلمت معكم ولى أشياء كثيرة أقولها وأحكم بها من نحوكم. ولكن الذي أرسلنى هو حق، وأنا ما سمعته منه فهذا أتكلم به في العالم. فلم يفهموا أنه كان يقول لهم عن الآب. ",
         ],
         [
             Prefix.HolyWeek + "1HDGospel&D=GL53&C=Diacon",
             "",
             "Jésus leur dit alors:  «Lorsque vous aurez élevé le Fils de l'homme, vous connaîtrez que Je Suis et que je ne fais rien de moi-même: je dis ce que le Père m'a enseigné. Celui qui m'a envoyé est avec moi: il ne m'a pas laissé seul, parce que je fais toujours ce qui lui plaît.»\nGloire à Dieu éternellement.",
-            "فقال لهم يسوع متى رفعتم إبن الإنسان فحينئذ تعلمون إنى أنا هو. ولست أفعل شيئاَ من ذاتى وحدى. بل أتكلم بهذا كما علمنى أبى. والذي أرسلنى هو معى ولم يدعنى وحدى لأنى في كل حين أفعل ما يرضيه.\nوالمجد لله دائماً",
+            "فقال لهم يسوع متى رفعتم إبن الإنسان فحينئذ تعلمون إنى أنا هو. ولست أفعل شيئاَ من ذاتى وحدى. بل أتكلم بهذا كما علمنى أبى. والذي أرسلنى هو مَعِي ولم يدعنى وحدى لأنى في كل حين أفعل ما يرضيه.\nوالمجد لله دائماً",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "1HDCommentary&D=GL53&C=Title",
             "Commentaire de la Première heure du mardi",
-            "",
+            "Commentaire de la Première heure du mardi",
             "طرح الساعة الأولى من يوم الثلاثاء",
         ],
         [
             Prefix.HolyWeek + "1HDCommentary&D=GL53&C=Diacon",
             "",
             "Commentaire\nAprès 3 mois, Israël arriva au désert de Rephidim. Les enfants d'Israël sortirent d'Egypte et du Sinaï et arrivèrent dans cet endroit. Moïse alors monta et se tint devant Dieu. Le Seigneur l'appela de la montagne et lui dit: «Tu parleras ainsi à la maison de Jacob, tu déclareras aux Israélites: Vous avez vu vous-mêmes tout ce que j'ai fait aux Égyptiens, et comment je vous ai emportés avec ma force exaltée comme sur des",
-            "طــرح\nوجاء إسرائيل إلى جبل رافازين من بعد ثلاثة أشهر وهو فى البرية. وخرج بنو إسرائيل من مصر وجبل سيناء إلى هذا المكان. فجاء موسى ووقف قدام الله فناداه وتكلم معه قائلاً : هذا ما تقوله لبيت يعقوب وتخبر به بنى إسرائيل. أنكم قد رأيتم أعمالى الكثيرة التى صنعتها أنا بالمصريين وكيف حملتكم أنا بقوتى العالية كأنكم على ",
+            "طــرح\nوجاء إسرائيل إلى جبل رافازين من بعد ثلاثة أشهر وهو في البرية. وخرج بنو إسرائيل من مصر وجبل سيناء إلى هذا المكان. فجاء موسى ووقف قدام الله فناداه وتكلم معه قائلاً : هذا ما تقوله لبيت يعقوب وتخبر به بنى إسرائيل. أنكم قد رأيتم أعمالى الكثيرة التى صنعتها أنا بالمصريين وكيف حملتكم أنا بقوتى العالية كأنكم على ",
         ],
         [
             Prefix.HolyWeek + "1HDCommentary&D=GL53&C=Diacon",
             "",
             "ailes d'aigles. Gardez ma loi et mes commandements, écoutez mes paroles et agissez selon ma volonté. Je vous ai choisis parmi toutes les nations; car toute la terre et la mer sont à Moi; afin que vous deveniez un royaume et un peuple choisis et une nation pure.» Moïse vint et rapporta au peuple toutes les paroles du Seigneur. Le peuple s'écria d'une seule voix: «Tout ce que le Seigneur a dit, nous le ferons.»",
-            "أجنحة النسور. فإحفظوا ناموسى ووصاياى وإنصتوا لكلامى وإصنعوا إرادتى فإننى أخترتكم من بين جميع الأمم لأن لى الأرض كلها والبحر معاً. لتصيروا لى مملكة وشعباً مختاراً وأمة مطهرة. فجاء موسى وأخبر الشعب بجميع هذا الكلام الذى قاله الرب. فصرخ جميع الشعب بصوت واحد قائلين: كل ما يأمر به الله نحن نحفظه. ",
+            "أجنحة النسور. فإحفظوا ناموسى ووَصَايَاي وإنصتوا لكلامى وإصنعوا إرادتى فإننى أخترتكم من بين جميع الأمم لأن لي الأرض كلها والبحر معاً. لتصيروا لي مملكة وشعباً مختاراً وأمة مطهرة. فجاء موسى وأخبر الشعب بجميع هذا الكلام الذي قاله الرب. فصرخ جميع الشعب بصوت واحد قائلين: كل ما يأمر به الله نحن نحفظه. ",
         ],
         [
             Prefix.HolyWeek + "1HDCommentary&D=GL53&C=Diacon",
             "",
             "Alors Moïse dit à Celui qui sait tout que le peuple avait entendu Ses ordres. Mais Israël se retourna, et Jacob revint en arrière. Les commandements de Dieu furent méprisés et Ses ordres furent anéantis. A cause de cela Il les abandonna entre les mains d'ennemis haineux, ils furent soumis à nouveau aux étrangers. Ils durent baisser la tête devant les nations et ils devinrent une infamie et une honte éternelle.",
-            "فقام موسى وخبر العارف (الله) أن الشعب سمع أوامره. فعاد إسرائيل ورجع يعقوب إلى خلف وحاد بنو إسرائيل. وصارت وصاياه كلا شئ وأوامره عادت باطلة. فلذلك أسلمهم إلى أعداء مبغضين وأستعبدوا للغرباء مرة أخرى. ونكس رؤوسهم أمام الأمم وصاروا فى فضيحة وخزى أبدى.",
+            "فقام موسى وخبر العارف (الله) أن الشعب سمع أوامره. فعاد إسرائيل ورجع يعقوب إلى خلف وحاد بنو إسرائيل. وصارت وصاياه كلا شئ وأوامره عادت باطلة. فلذلك أسلمهم إلى أعداء مبغضين وأستعبدوا للغرباء مرة أخرى. ونكس رؤوسهم أمام الأمم وصاروا في فضيحة وخزى أبدى.",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "3HDProphecies&D=GL53&C=Title",
             "Prophecies de la Troisième heure du mardi",
-            "",
+            "Prophecies de la Troisième heure du mardi",
             "نبوات الساعة الثالثة من يوم الثلاثاء",
         ],
         [
@@ -2947,7 +3001,7 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "3HDProphecies&D=GL53&C=Diacon",
             "",
             "lui qui dans un lieu sans eau a fait pour toi jaillir l'eau de la roche la plus dure; lui qui dans le désert t'a donné à manger la manne, inconnue de tes pères, afin de t'humilier et de t'éprouver pour que ton avenir soit heureux! Garde-toi de dire en ton cœur: «C'est ma force, c'est la vigueur de ma main qui m'ont fait agir avec cette puissance.» Souviens-toi du Seigneur ton Dieu: c'est lui qui t'a donné cette force, pour agir avec puissance,",
-            "الذي أخرج لك ينبوع ماء من صخرة صماء. الذي أطعمك المن في البرية. هذا الذي لم يعرفه آباؤك. لكي يؤدبك ويجربك ثم يحسن إليك في آخرتك. ولا تقل في قلبك أننى بشجاعتى وقوة يدى صنعت لى هذه الخيرات العظيمة. بل تذكر الرب إلهك فهو الذي ثبتك ليجعل لك القوة. ",
+            "الذي أخرج لك ينبوع ماء من صخرة صماء. الذي أطعمك المن في البرية. هذا الذي لم يعرفه آباؤك. لكي يؤدبك ويجربك ثم يحسن إليك في آخرتك. ولا تقل في قلبك أننى بشجاعتى وقوة يدى صنعت لي هذه الخيرات العظيمة. بل تذكر الرب إلهك فهو الذي ثبتك ليجعل لك القوة. ",
         ],
         [
             Prefix.HolyWeek + "3HDProphecies&D=GL53&C=Diacon",
@@ -2965,7 +3019,7 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "3HDProphecies&D=GL53&C=Diacon",
             "",
             "Fais-toi un cœur droit, arme-toi de courage, ne te laisse pas entraîner, au temps de l'adversité. Attache-toi à lui, ne t'éloigne pas, afin d'être exalté à ton dernier jour. Tout ce qui t'advient, accepte-le et, dans les vicissitudes de ta pauvre condition, montre-toi patient, car l'or est éprouvé dans le feu, et les élus dans la fournaise de l'humiliation. Mets en Dieu ta confiance et il te viendra en aide, suis droit ton chemin et espère en lui. Vous qui craignez le",
-            "قوم قلبك وإحتمل ولا تنحل فى زمان أتعابك، إلتصق به ولا تبتعد عنه لكى تنمو فى آخرتك. إقبل كل ما يأتى عليك، لتكون طويل الروح فى أرض تواضعك، فإن الذهب يمحص بالنار. والمختارين من الناس فى أتون الذل، آمن به فينصرك، قوم طرقك، وليكن عليه أتكالك. ",
+            "قوم قلبك وإحتمل ولا تنحل في زمان أتعابك، إلتصق به ولا تبتعد عنه لِكَي تنمو في آخرتك. إقبل كل ما يأتى عليك، لتكون طويل الروح في أرض تواضعك، فإن الذهب يمحص بالنار. والمختارين من الناس في أتون الذل، آمن به فينصرك، قوم طرقك، وليكن عليه أتكالك. ",
         ],
         [
             Prefix.HolyWeek + "3HDProphecies&D=GL53&C=Diacon",
@@ -2977,19 +3031,19 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "3HDProphecies&D=GL53&C=Diacon",
             "Ebolqen Iwb pi`;myi @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nP_ on pentaf`èkrine `èmmoi i nai ouo pipantokratwr `èntefnesc tayuxh.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
             "Job 27 : 1-20 ; 28 : 1,2\nPar le Dieu vivant qui me refuse justice, par le tout puissant qui m'emplit d'amertume,",
-            "أيوب ٢٧: ١ – ٠ ٢ ، ٢٨: ١ ، ٢\nحى هو الرب الذى حكم علىّ هكذا والضابط الكل الذى احزن نفسى،",
+            "أيوب ٢٧: ١ – ٠ ٢ ، ٢٨: ١ ، ٢\nحى هو الرب الذي حكم علىّ هكذا والضابط الكل الذي احزن نفسى،",
         ],
         [
             Prefix.HolyWeek + "3HDProphecies&D=GL53&C=Diacon",
             "",
             "tant qu'un reste de vie m'animera, que le souffle de Dieu passera dans mes narines, mes lèvres ne diront rien de mal, ma langue n'exprimera aucun mensonge. Bien loin de vous donner raison, jusqu'à mon dernier souffle, je maintiendrai mon innocence. Je tiens à ma justice et ne lâche pas; ma conscience ne me reproche aucun de mes jours. Que mon ennemi ait le sort du méchant, mon adversaire celui de l'injuste! Quel profit peut espérer l'impie",
-            "إنه  ما دام نفسى فىّ والروح القدس فى أنفى فلن تنطق شفتاى إثماً، ولن تتلو نفسى ظلماً، حاشا لى أن أقول أنكم أبراراً حتى أموت لأنى لن أترك وداعتى، متمسكا بالبر فلن أسقط، ولست أعرف عن ذاتى انى صنعت ظلماً. كلا، إن أعدائى يصيرون مثل سقوط المنافقين، والذين يقومون علىّ مثل هلاك مخالفى الناموس، لأن ما هو رجاء المنافق؟ ",
+            "إنه  ما دام نفسى فىّ والروح القدس في أنفى فلن تنطق شفتاى إثماً، ولن تتلو نفسى ظلماً، حاشا لي أن أقول أنكم أبراراً حتى أموت لأنى لن أترك وداعتى، متمسكا بالبر فلن أسقط، ولست أعرف عن ذاتى انى صنعت ظلماً. كلا، إن أعدائى يصيرون مثل سقوط المنافقين، والذين يقومون علىّ مثل هلاك مخالفى الناموس، لأن ما هو رجاء المنافق؟ ",
         ],
         [
             Prefix.HolyWeek + "3HDProphecies&D=GL53&C=Diacon",
             "",
             "quand Dieu lui retire la vie? Est-ce que Dieu entend ses cris, quand fond sur lui la détresse? Faisait-il ses délices de par le tout puissant, invoquait-il Dieu en tout temps? Mais je vous instruis sur la puissance de Dieu, sans rien vous cacher des pensées du tout puissant. Et si vous tous aviez su l'observer, à quoi bon vos vains discours dans le vide? Voici le lot que Dieu assigne au méchant, l'héritage que le violent reçoit du tout puissant. ",
-            "إنه إذا توكل مؤمناً بالله، اتراه يخلص أو يسمع الرب صلاته؟ إذا حل عليه ضيق هل يجد اى دالة أمامه؟ او إذا ما صرخ إليه يستجيب له؟ بل انى أعرفكم بما هو فى يد الرب ولا أكذب بما هو عند الضابط الكل، هوذا كلكم تعلمون أنه باطل، هو نصيب الرجل المنافق من قبل الرب، وخزى الأقوياء يأتى عليهم من قبل ضابط الكل. ",
+            "إنه إذا توكل مؤمناً بالله، اتراه يخلص أو يسمع الرب صلاته؟ إذا حل عليه ضيق هل يجد اى دالة أمامه؟ او إذا ما صرخ إليه يستجيب له؟ بل انى أعرفكم بما هو في يد الرب ولا أكذب بما هو عند الضابط الكل، هوذا كلكم تعلمون أنه باطل، هو نصيب الرجل المنافق من قبل الرب، وخزى الأقوياء يأتى عليهم من قبل ضابط الكل. ",
         ],
         [
             Prefix.HolyWeek + "3HDProphecies&D=GL53&C=Diacon",
@@ -3013,13 +3067,13 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "3HDProphecies&D=GL53&C=Diacon",
             "",
             "Il répondit: «Je suis rempli d'un zèle jaloux pour le Seigneur Sabaot, parce que les Israélites ont abandonné ton alliance, qu'ils ont abattu tes autels et tué tes prophètes par l'épée. Je suis resté moi seul et ils cherchent à m'enlever la vie.» Il lui fut dit: «Sors et tiens-toi dans la montagne devant le Seigneur.» Et voici que le Seigneur passa. Il y eut un grand ouragan, si fort qu'il fendait les montagnes et brisait les rochers, en avant du Seigneur,",
-            "فقال: غرت غيرة أيها السيد إله القوات ضابط الكل. لأن بنى إسرائيل قد تركوك. وهدموا مذابحك وقتلوا أنبياءك بالسيف، وبقيت أنا وحدى وهم يطلبون نفسى. فقال الرب له: أخرج أنت غداً وقف أمام الرب فى الجبل وإذا الرب عابر وريح شديدة منيعة تشقق الجبال وتحطم الصخور أمام الرب، ",
+            "فقال: غرت غيرة أيها السيد إله القوات ضابط الكل. لأن بنى إسرائيل قد تركوك. وهدموا مذابحك وقتلوا أنبياءك بالسيف، وبقيت أنا وحدى وهم يطلبون نفسى. فقال الرب له: أخرج أنت غداً وقف أمام الرب في الجبل وإذا الرب عابر وريح شديدة منيعة تشقق الجبال وتحطم الصخور أمام الرب، ",
         ],
         [
             Prefix.HolyWeek + "3HDProphecies&D=GL53&C=Diacon",
             "",
             "mais le Seigneur n'était pas dans l'ouragan; et après l'ouragan un tremblement de terre, mais le Seigneur n'était pas dans le tremblement de terre; et après le tremblement de terre un feu, mais le Seigneur n'était pas dans le feu; et après le feu, le bruit d'une brise légère. Dès qu'Élie l'entendit, il se voila le visage avec son manteau, il sortit et se tint à l'entrée de la grotte. Alors une voix lui parvint, qui dit: «Que fais-tu ici, Élie?»",
-            "ولم يكن الرب فى الريح، وبعد الريح زلزلة، وبعد الزلزلة نار، ولم يكن الرب فى النار، وبعد النار صوت نسيم لطيف وهدوء عظيم والرب هناك، وحدث لما سمع إيليا ستر وجهه بردائه، وخرج ووقف أمام المغارة، وهو ذا صوت الرب صار إليه قائلاً له : مالك هنا يا إيليا؟",
+            "ولم يكن الرب في الريح، وبعد الريح زلزلة، وبعد الزلزلة نار، ولم يكن الرب في النار، وبعد النار صوت نسيم لطيف وهدوء عظيم والرب هناك، وحدث لما سمع إيليا ستر وجهه بردائه، وخرج ووقف أمام المغارة، وهو ذا صوت الرب صار إليه قائلاً له : مالك هنا يا إيليا؟",
         ],
         [
             Prefix.HolyWeek + "3HDProphecies&D=GL53&C=Diacon",
@@ -3032,7 +3086,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "3HDPsalm&D=GL53&C=Title",
             "Psaume de la Troisième heure du mardi",
-            "",
+            "Psaume de la Troisième heure du mardi",
             "مزمور الساعة الثالثة من يوم الثلاثاء",
         ],
         [
@@ -3046,7 +3100,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "3HDGospel&D=GL53&C=Title",
             "Evangile de la Troisième heure du mardi",
-            "",
+            "Evangile de la Troisième heure du mardi",
             " إنجيل الساعة الثالثة من يوم الثلاثاء",
         ],
         [
@@ -3072,14 +3126,14 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "3HDCommentary&D=GL53&C=Title",
             "Commentaire de la Troisième heure du mardi",
-            "",
+            "Commentaire de la Troisième heure du mardi",
             "طرح الساعة الثالثة من يوم الثلاثاء",
         ],
         [
             Prefix.HolyWeek + "3HDCommentary&D=GL53&C=Diacon",
             "",
             "Commentaire\nLe Seigneur a dit: combien de fois J'ai voulu rassembler tes enfants, Jérusalem, comme la poule qui rassemble ses poussins sous ses ailes et vous n'avez pas voulu. Maintenant, J'abandonne votre temple désert jusqu'à la fin des temps. Lorsque les disciples entendirent la prophétie du Sauveur, ils Lui montrèrent l'architecture du temple, les pierres sacrées et les lieux interdits aux païens",
-            "طــرح\nكم من مرة قال الرب: أردت أن أجمع بنيك يا أورشليم كمثل الطائر الذى يجمع فراخه تحت جناحيه فلم تريدوا. أنا أترك لكم بيتكم خراباً قال الرب إلى الإنقضاء فلما سمع التلاميذ نبوة النبي والمخلص أروه بناء الهيكل والحجارة المكرمة والمحرمات (المكان الذى لا يدخله أممى)",
+            "طــرح\nكم من مرة قال الرب: أردت أن أجمع بنيك يا أورشليم كمثل الطائر الذي يجمع فراخه تحت جناحيه فلم تريدوا. أنا أترك لكم بيتكم خراباً قال الرب إلى الإنقضاء فلما سمع التلاميذ نبوة النبي والمخلص أروه بناء الهيكل والحجارة المكرمة والمحرمات (المكان الذي لا يدخله أممى)",
         ],
         [
             Prefix.HolyWeek + "3HDCommentary&D=GL53&C=Diacon",
@@ -3092,7 +3146,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "6HDProphecies&D=GL53&C=Title",
             "Prophecies de la Sixième heure du mardi",
-            "",
+            "Prophecies de la Sixième heure du mardi",
             "نبوات الساعة السادسة من يوم الثلاثاء",
         ],
         [
@@ -3172,7 +3226,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "6HDPsalm&D=GL53&C=Title",
             "Psaume de la Sixième heure du mardi",
-            "",
+            "Psaume de la Sixième heure du mardi",
             "مزمور الساعة السادسة من يوم الثلاثاء",
         ],
         [
@@ -3186,7 +3240,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "6HDGospel&D=GL53&C=Title",
             "Evangile de la Sixième heure du mardi",
-            "",
+            "Evangile de la Sixième heure du mardi",
             " إنجيل الساعة السادسة من يوم الثلاثاء",
         ],
         [
@@ -3205,7 +3259,7 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "6HDGospel&D=GL53&C=Diacon",
             "",
             "et où je vais; mais vous, vous ne savez pas d'où je viens ni où je vais.\nVous, vous jugez selon la chair; moi, je ne juge personne; et s'il m'arrive de juger, moi, mon jugement est selon la vérité, parce que je ne suis pas seul; mais il y a moi et celui qui m'a envoyé; et il est écrit dans votre Loi que le témoignage de deux personnes est valable. Je suis à moi-même mon propre témoin, et pour moi témoigne le Père qui m'a envoyé. Ils lui disaient donc:",
-            "وإلي أين أذهب، وأما أنتم فلا تعلمون من أين أتيت ولا إلي أين أمضي. أنتم إنما تدينون بحسب الجسد وأنا لا أدين أحداً. وإن أنا دنت فدينونتي حق هي، لأني لست وحدي بل أنا والآب الذي أرسلني وقد كُتب أيضا فى ناموسكمأن شهادة رجلين حق هى، أنا أشهد لنفسى وأبى الذى أرسلنى يشهد لي. قالوا له:",
+            "وإلي أين أذهب، وأما أنتم فلا تعلمون من أين أتيت ولا إلي أين أمضي. أنتم إنما تدينون بحسب الجسد وأنا لا أدين أحداً. وإن أنا دنت فدينونتي حق هي، لأني لست وحدي بل أنا والآب الذي أرسلني وقد كُتب أيضا في ناموسكمأن شهادة رجلين حق هى، أنا أشهد لنفسى وأبى الذي أرسلنى يشهد لي. قالوا له:",
         ],
         [
             Prefix.HolyWeek + "6HDGospel&D=GL53&C=Diacon",
@@ -3218,7 +3272,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "6HDCommentary&D=GL53&C=Title",
             "Commentaire de la Sixième heure du mardi",
-            "",
+            "Commentaire de la Sixième heure du mardi",
             "طرح الساعة السادسة من يوم الثلاثاء",
         ],
         [
@@ -3238,7 +3292,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "9HDProphecies&D=GL53&C=Title",
             "Prophecies de la Neuvième heure du mardi",
-            "",
+            "Prophecies de la Neuvième heure du mardi",
             "نبوات الساعة التاسعة من يوم الثلاثاء",
         ],
         [
@@ -3474,7 +3528,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "9HDSermony&D=GL53&C=Title",
             "Sermon de  Neuvième heure du mardi",
-            "",
+            "Sermon de  Neuvième heure du mardi",
             "عظة لأبينا الساعة التاسعة من يوم الثلاثاء",
         ],
         [
@@ -3505,14 +3559,14 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "9HDSermony&D=GL53&C=Diacon",
             "Marener `c`vragizin `n]katy,ycic `nte peniwt `e;ouab abba Senou] pi`ar,yman`drityc `vyetaferouwini `mpennouc nem nibal `nte nenhyt @ qen `vran `m~Viwt nem ~Psyri nem Pi`pneuma `e;ouab ounou] `nouwt @ `amyn",
             "",
-            "فلنختم عظة أبينا القديس أنبا شنودة رئيس المتوحدين الذى أنار عقولنا وعيون قلوبنا بإسم الآب والإبن والروح القدس إله واحد. آمين.",
+            "فلنختم عظة أبينا القديس أنبا شنودة رئيس المتوحدين الذي أنار عقولنا وعيون قلوبنا بإسم الآب والإبن والروح القدس إله واحد. آمين.",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "9HDPsalm&D=GL53&C=Title",
             "Psaume de la Neuvième heure du mardi",
-            "",
+            "Psaume de la Neuvième heure du mardi",
             "مزمور الساعة التاسعة من يوم الثلاثاء",
         ],
         [
@@ -3526,7 +3580,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "9HDGospel&D=GL53&C=Title",
             "Evangile de la Neuvième heure du mardi",
-            "",
+            "Evangile de la Neuvième heure du mardi",
             " إنجيل الساعة التاسعة من يوم الثلاثاء",
         ],
         [
@@ -3594,7 +3648,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "9HDCommentary&D=GL53&C=Title",
             "Commentaire de la Neuvième heure du mardi",
-            "",
+            "Commentaire de la Neuvième heure du mardi",
             "طرح الساعة التاسعة من يوم الثلاثاء",
         ],
         [
@@ -3614,7 +3668,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "11HDProphecies&D=GL53&C=Title",
             "Prophecies de la Onzième heure du mardi",
-            "",
+            "Prophecies de la Onzième heure du mardi",
             "نبوات الساعة الحادية عشر من يوم الثلاثاء",
         ],
         [
@@ -3669,14 +3723,14 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "11HDProphecies&D=GL53&C=Diacon",
             "",
             "même si tu multiplies les présents. Mon fils, garde mes paroles, conserve chez toi mes préceptes. Garde mes préceptes et tu vivras, que mon enseignement soit comme la pupille de tes yeux. Fixe-les à tes doigts, inscris-les sur la tablette de ton cœur. Dis à la sagesse: \"Tu es ma sœur!\" donne le nom de parente à l'intelligence.\nGloire à la sainte Trinité notre Dieu.",
-            "ولا نظير أي هدية. يا إبني إحفظ كلامي وإدخر وصاياي عندك. أكرم الله لتتقوي ولا تخف أحدا سواه، وإحفظ وصاياى فتحيا، وإحرص علي كلامي كحدقة العين، وأربطه علي أصابعك. أكتبه في عمق قلبك، قل للحكمة: أنت أختي وللفهم: هو رجلك.\nمجداً للثالوث الأقدس إلهنا آمين",
+            "ولا نظير أي هدية. يا إبني إحفظ كلامي وإدخر وصاياي عندك. أكرم الله لتتقوي ولا تخف أحدا سواه، وإحفظ وَصَايَاي فتحيا، وإحرص علي كلامي كحدقة العين، وأربطه علي أصابعك. أكتبه في عمق قلبك، قل للحكمة: أنت أختي وللفهم: هو رجلك.\nمجداً للثالوث الأقدس إلهنا آمين",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "11HDSermony&D=GL53&C=Title",
             "Sermon de  Onzième heure du mardi",
-            "",
+            "Sermon de  Onzième heure du mardi",
             "عظة لأبينا الساعة الحادية عشر من يوم الثلاثاء",
         ],
         [
@@ -3719,14 +3773,14 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "11HDSermony&D=GL53&C=Diacon",
             "Marener `c`vragizin `n]katy,ycic `nte peniwt `e;ouab abba Iwannyc pi,rycoctomoc `vyetaferouwini `mpennouc nem nibal `nte nenhyt @ qen `vran `m~Viwt nem ~Psyri nem Pi`pneuma `e;ouab ounou] `nouwt @ `amyn",
             "Clôturons le sermon de notre saint père Abba Jean Chrysostome qui a éclairé nos pensées et les yeux de nos cœurs au nom du Père, du Fils et du Saint Esprit, un seul Dieu, Amen !",
-            "فلنختم عظة أبينا القديس أنبا يوحنا فم الذهب الذى أنار عقولنا وعيون قلوبنا بإسم الآب والإبن والروح القدس إله واحد. آمين.",
+            "فلنختم عظة أبينا القديس أنبا يوحنا فم الذهب الذي أنار عقولنا وعيون قلوبنا بإسم الآب والإبن والروح القدس إله واحد. آمين.",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "11HDPsalm&D=GL53&C=Title",
             "Psaume de la Onzième heure du mardi",
-            "",
+            "Psaume de la Onzième heure du mardi",
             "مزمور الساعة الحادية عشر من يوم الثلاثاء",
         ],
         [
@@ -3740,7 +3794,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "11HDGospel&D=GL53&C=Title",
             "Evangile de la Onzième heure du mardi",
-            "",
+            "Evangile de la Onzième heure du mardi",
             " إنجيل الساعة الحادية عشر من يوم الثلاثاء",
         ],
         [
@@ -3814,7 +3868,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "11HDCommentary&D=GL53&C=Title",
             "Commentaire de la Onzième heure du mardi",
-            "",
+            "Commentaire de la Onzième heure du mardi",
             "طرح الساعة الحادية عشر من يوم الثلاثاء",
         ],
         [
@@ -3846,7 +3900,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "1HEProphecies&D=GL53&C=Title",
             "Prophecies de la Première heure de la veille du mercredi",
-            "",
+            "Prophecies de la Première heure de la veille du mercredi",
             "نبوات الساعة الأولى من ليلة الأربعاء",
         ],
         [
@@ -3890,7 +3944,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "1HEPsalm&D=GL53&C=Title",
             "Psaume de la Première heure de la veille du mercredi",
-            "",
+            "Psaume de la Première heure de la veille du mercredi",
             "مزمور الساعة الأولى من ليلة الأربعاء",
         ],
         [
@@ -3904,7 +3958,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "1HEGospel&D=GL53&C=Title",
             "Evangile de la Première heure de la veille du mercredi",
-            "",
+            "Evangile de la Première heure de la veille du mercredi",
             " إنجيل الساعة الأولى من ليلة الأربعاء",
         ],
         [
@@ -3942,7 +3996,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "1HECommentary&D=GL53&C=Title",
             "Commentaire de la Première heure de la veille du mercredi",
-            "",
+            "Commentaire de la Première heure de la veille du mercredi",
             "طرح الساعة الأولى من ليلة الأربعاء",
         ],
         [
@@ -3974,7 +4028,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "3HEProphecies&D=GL53&C=Title",
             "Prophecies de la Troisième heure de la veille du mercredi",
-            "",
+            "Prophecies de la Troisième heure de la veille du mercredi",
             "نبوات الساعة الثالثة من ليلة الأربعاء",
         ],
         [
@@ -4000,7 +4054,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "3HEPsalm&D=GL53&C=Title",
             "Psaume de la Troisième heure de la veille du mercredi",
-            "",
+            "Psaume de la Troisième heure de la veille du mercredi",
             "مزمور الساعة الثالثة من ليلة الأربعاء",
         ],
         [
@@ -4014,7 +4068,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "3HEGospel&D=GL53&C=Title",
             "Evangile de la Troisième heure de la veille du mercredi",
-            "",
+            "Evangile de la Troisième heure de la veille du mercredi",
             " إنجيل الساعة الثالثة من ليلة الأربعاء",
         ],
         [
@@ -4033,7 +4087,7 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "3HEGospel&D=GL53&C=Diacon",
             "",
             "Tel sera aussi l'avènement du Fils de l'homme. Alors deux hommes seront aux champs: l'un est pris, l'autre laissé; deux femmes en train de moudre à la meule: l'une est prise, l'autre laissée. \nVeillez donc, car vous ne savez pas quel jour votre Seigneur va venir. Vous le savez: si le maître de maison connaissait l'heure de la nuit à laquelle le voleur va venir, il veillerait et ne laisserait pas percer le mur de sa maison. ",
-            "كذلك يكون أيضاً مجئ إبن الإنسان. حينئذ يكون إثنان فى الحقل ويؤخذ الواحد ويترك الآخر، وإثنتان تطحنان علي رحي، فتؤخذ الواحدة وتترك الأخرى.\nإسهروا إذاً لأنكم لا تعلمون في أية ساعة يأتي ربكم. وإعلموا هذا، إنه لو علم رب البيت في أية ساعة يأتي السارق لسهر ولم يدع بيته ينقب، ",
+            "كذلك يكون أيضاً مجئ إبن الإنسان. حينئذ يكون إثنان في الحقل ويؤخذ الواحد ويترك الآخر، وإثنتان تطحنان علي رحي، فتؤخذ الواحدة وتترك الأخرى.\nإسهروا إذاً لأنكم لا تعلمون في أية ساعة يأتي ربكم. وإعلموا هذا، إنه لو علم رب البيت في أية ساعة يأتي السارق لسهر ولم يدع بيته ينقب، ",
         ],
         [
             Prefix.HolyWeek + "3HEGospel&D=GL53&C=Diacon",
@@ -4052,7 +4106,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "3HECommentary&D=GL53&C=Title",
             "Commentaire de la Troisième heure de la veille du mercredi",
-            "",
+            "Commentaire de la Troisième heure de la veille du mercredi",
             "طرح الساعة الثالثة من ليلة الأربعاء",
         ],
         [
@@ -4065,7 +4119,7 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "3HECommentary&D=GL53&C=Diacon",
             "",
             "et le trouvera agir ainsi, sera nommé intendant sur toutes ses propriétés. Mais celui dont le maître arrive le jour où il ne l'attend pas et à l'heure qu'il n'a pas prévue, et qu'il trouve endormi, laissant passer les jours l'un après l'autre; Il le mettra en pièces, et lui donnera sa part avec les hypocrites dans les ténèbres, le lieu de torture. ",
-            "فيجده يفعل هكذا. أقول لكم إنه يقيمه وكيلا على جميع ماله، فأما ذلك الذى يجده متغافلاً ويهمل يوماً بعد يوم، فيجئ سيده في ساعة لا يعرفها فيشقه من وسطه ويجعل نصيبه مع المرائين في الظلمة وموضع العذاب، ",
+            "فيجده يفعل هكذا. أقول لكم إنه يقيمه وكيلا على جميع ماله، فأما ذلك الذي يجده متغافلاً ويهمل يوماً بعد يوم، فيجئ سيده في ساعة لا يعرفها فيشقه من وسطه ويجعل نصيبه مع المرائين في الظلمة وموضع العذاب، ",
         ],
         [
             Prefix.HolyWeek + "3HECommentary&D=GL53&C=Diacon",
@@ -4078,7 +4132,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "6HEProphecies&D=GL53&C=Title",
             "Prophecies de la Sixième heure de la veille du mercredi",
-            "",
+            "Prophecies de la Sixième heure de la veille du mercredi",
             "نبوات الساعة السادسة من ليلة الأربعاء",
         ],
         [
@@ -4104,7 +4158,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "6HEPsalm&D=GL53&C=Title",
             "Psaume de la Sixième heure de la veille du mercredi",
-            "",
+            "Psaume de la Sixième heure de la veille du mercredi",
             "مزمور الساعة السادسة من ليلة الأربعاء",
         ],
         [
@@ -4118,7 +4172,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "6HEGospel&D=GL53&C=Title",
             "Evangile de la Sixième heure de la veille du mercredi",
-            "",
+            "Evangile de la Sixième heure de la veille du mercredi",
             " إنجيل الساعة السادسة من ليلة الأربعاء",
         ],
         [
@@ -4131,7 +4185,7 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "6HEGospel&D=GL53&C=Diacon",
             "Matqeon  Kev k/e/ > a/- i/g /\nTote `èc`èoni `ènje ;metouro `ènte nivhou`èi `èmmh; `èmparqenoc nh`èetausi  `ènnoulampac au`èi `èebol `èe`è\\ren pipat]elet. Ne ouon `ètiou de `èncoj `èn'htou nem `ètiou `èncabh. Nicoj gar `èetausi `ènnoulampac `èmpouel ne nemwou. Nicabeu de auel ne `èn`è'rhi 'en noumoki nem noulampac. Etafwck de `ènje pipat]elet aui nim throu ouo auenkot > `èeta `ètva]i de `èmpi`èejwr ]wpi > `èa ou`è'rwou ]wpi je ic pipat]elet af`èi tenqhnou `èamwini `èebol `e`\\raf.\nTote autwounou `ènje niparqenoc throu `èete`èmmau ouo aucolcel `ènnoulampac > peje nicoj de `ènnicabeu je moi nan `èebol'en petenne `èmmon nenlampac naseno > au`èerou`èw de `ènje nicabeu eujw `èmmoc > je mhpote `èntef`è]tem ra]tennemwten > ma]enwten de mallon a nhet; `èebol ouo ]wp nwten.\nEtau]enwou de je `èntou]wp > af`èi `ènje pipat]elet ouo nhetcebtwt au]enwou nemaf `èe'oun `èepiop ouo auma`è]qam `èmpiro > `èe`èp'a`èe de au`èi `ènje `èpcwjp `ènniparqenoc eujw `èmmoc > je pen_ pen_ `èaouwn nan > `ènqof de af`èerou`èw pejaf je `èamhn ;jw `èmmoc nwten je ;cwoun `èmmwten an > rwic oun je tetencwoun an `èmpi`èeoou oude ;ounou. Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
             "Matthieu 25 : 1 - 13\nAlors il en sera du Royaume des cieux comme de dix jeunes filles qui prirent leurs lampes et sortirent à la rencontre de l'époux. Cinq d'entre elles étaient insensées et cinq étaient avisées. En prenant leurs lampes, les filles insensées n'avaient pas emporté d'huile; les  filles avisées, elles, avaient pris, avec leurs lampes, de l'huile dans des fioles. Comme l'époux tardait, elles s'assoupirent toutes",
-            "متى ٢٥: ١- ١٣\nحينئذ يشبه ملكوت السموات عشر عذارى اخذن مصابيحهن وخرجن للقاء العريس، وكان خمس منهن جاهلات وخمس حكيمات. أما الجاهلات فأخذن مصابيحهن ولم يأخذن معهن زيتا وأما الحكيمات فأخذن زيتا فى أنيتهن مع مصابيحهن، فلما ابطأ العريس نعسن كلهن ",
+            "متى ٢٥: ١- ١٣\nحينئذ يشبه ملكوت السموات عشر عذارى اخذن مصابيحهن وخرجن للقاء العريس، وكان خمس منهن جاهلات وخمس حكيمات. أما الجاهلات فأخذن مصابيحهن ولم يأخذن معهن زيتا وأما الحكيمات فأخذن زيتا في أنيتهن مع مصابيحهن، فلما ابطأ العريس نعسن كلهن ",
         ],
         [
             Prefix.HolyWeek + "6HEGospel&D=GL53&C=Diacon",
@@ -4143,40 +4197,40 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "6HEGospel&D=GL53&C=Diacon",
             "",
             "Pendant qu'elles allaient en acheter, l'époux arriva; celles qui étaient prêtes entrèrent avec lui dans la salle des noces, et l'on ferma la porte. Finalement, arrivent à leur tour les autres jeunes filles, qui disent: «Seigneur, seigneur, ouvre-nous!» Mais il répondit: «En vérité, je vous le déclare, je ne vous connais pas.» Veillez donc, car vous ne savez ni le jour ni l'heure.\nGloire à Dieu éternellement.",
-            "فلما ذهبن ليبتعن جاء العريس ودخلت معه المستعدات الى العرس وأُغلق الباب. واخيراً جاءت بقية العذارى قائلات : ربنا إفتح لنا. أما هو فأجاب وقال: الحق اقول لكن إننى لا أعرفكن. فإسهروا اذاً لأنكم لا تعرفون اليوم ولا الساعة.\nوالمجد لله دائماً",
+            "فلما ذهبن ليبتعن جاء العريس ودخلت معه المستعدات إلى العرس وأُغلق الباب. واخيراً جاءت بقية العذارى قائلات : ربنا إفتح لنا. أما هو فأجاب وقال: الحق اقول لكن إننى لا أعرفكن. فإسهروا اذاً لأنكم لا تعرفون اليوم ولا الساعة.\nوالمجد لله دائماً",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "6HECommentary&D=GL53&C=Title",
             "Commentaire de la Sixième heure de la veille du mercredi",
-            "",
+            "Commentaire de la Sixième heure de la veille du mercredi",
             "طرح الساعة السادسة من ليلة الأربعاء",
         ],
         [
             Prefix.HolyWeek + "6HECommentary&D=GL53&C=Diacon",
             "",
             "Commentaire\nQuelles sont toutes ces vertus et ces paraboles qu'a dites le Roi de gloire, Jésus, le Roi de grâce et de bonté, qui accomplit la paix. Il a accordé aux hommes Son royaume en héritage. Ecoutez, méditez, comprenez et apprenez Ses paraboles bienheureuses. Les cinq vierges sages dont Il a parlé dans l'Évangile sont semblables à Son royaume plein de joie et d'allégresse. Le Seigneur a dit : ",
-            "طــرح\nيالهذه الفضائل وهذه الأمثال التى قالها ملك المجد، الذى هو يسوع ملك النعمة والخيرات، المكمل السلام، الذى أنعم لجنس البشر بشركة ملكوته. إسمعوا وتأملوا وإفهموا وإعلموا امثاله الطوباوية، من أجل العذارى الحكيمات اللواتى نطق من أجلهن في الإنجيل وشبههن بملكوته المملوء فرحا وسرورا ...",
+            "طــرح\nيالهذه الفضائل وهذه الأمثال التى قالها ملك المجد، الذي هو يسوع ملك النعمة والخيرات، المكمل السلام، الذي أنعم لجنس البشر بشركة ملكوته. إسمعوا وتأملوا وإفهموا وإعلموا امثاله الطوباوية، من أجل العذارى الحكيمات اللواتى نطق من أجلهن في الإنجيل وشبههن بملكوته المملوء فرحا وسرورا ...",
         ],
         [
             Prefix.HolyWeek + "6HECommentary&D=GL53&C=Diacon",
             "",
             "Il y avait dix vierges, cinq d'entre elles étaient folles, et cinq étaient sages. Il a dit que ces dix étaient vierges mais leurs actions les différenciaient. Il bénit les cinq sages à cause de leur sagesse, elles ont rempli leurs lampes et avaient pris de l'huile en réserve. Mais les folles, elles, n'ont pas compris la valeur de leurs lampes et ont été nonchalantes. Mais lorsqu'elles se sont toutes levées en même temps pour marcher devant l'époux,",
-            "عشر عذارى - قال الرب - خمس جاهلات وخمس حكيمات. قال: هؤلاء العشرة كن عذارى ولكنهن إفترقن لأجل أعمالهن، فطوبى للحكيمات الفهيمات لأنهن صنعن الحكمة بإجتهاد، وملأن مصابيحهن من الزيت وأوعيتهن مما فضل عنهن. فأما العذارى الجاهلات فتكاسلن ولم يفهمن قيمة مصابيحهن، فلما قمن جميعهن فى ساعة واحدة ليمشين قدام العريس",
+            "عشر عذارى - قال الرب - خمس جاهلات وخمس حكيمات. قال: هؤلاء العشرة كن عذارى ولكنهن إفترقن لأجل أعمالهن، فطوبى للحكيمات الفهيمات لأنهن صنعن الحكمة بإجتهاد، وملأن مصابيحهن من الزيت وأوعيتهن مما فضل عنهن. فأما العذارى الجاهلات فتكاسلن ولم يفهمن قيمة مصابيحهن، فلما قمن جميعهن في ساعة واحدة ليمشين قدام العريس",
         ],
         [
             Prefix.HolyWeek + "6HECommentary&D=GL53&C=Diacon",
             "",
             "leurs lampes se sont éteintes au moment de la fête et elles ne sont pas venues avec lui. Celles qui étaient prêtes entrèrent avec l'époux et les nonchalantes restèrent dehors.",
-            "تعطلت مصابيحهن وقت الفرح ولم يحضرن مع العريس، والمستعدات دخلن معه الى العرس والمتكاسلات وقفن خارجا.",
+            "تعطلت مصابيحهن وقت الفرح ولم يحضرن مع العريس، والمستعدات دخلن معه إلى العرس والمتكاسلات وقفن خارجا.",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "9HEProphecies&D=GL53&C=Title",
             "Prophecies de la Neuvième heure de la veille du mercredi",
-            "",
+            "Prophecies de la Neuvième heure de la veille du mercredi",
             "نبوات الساعة التاسعة من ليلة الأربعاء",
         ],
         [
@@ -4202,7 +4256,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "9HEPsalm&D=GL53&C=Title",
             "Psaume de la Neuvième heure de la veille du mercredi",
-            "",
+            "Psaume de la Neuvième heure de la veille du mercredi",
             "مزمور الساعة التاسعة من ليلة الأربعاء",
         ],
         [
@@ -4216,7 +4270,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "9HEGospel&D=GL53&C=Title",
             "Evangile de la Neuvième heure de la veille du mercredi",
-            "",
+            "Evangile de la Neuvième heure de la veille du mercredi",
             " إنجيل الساعة التاسعة من ليلة الأربعاء",
         ],
         [
@@ -4235,26 +4289,26 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "9HEGospel&D=GL53&C=Diacon",
             "Matqeon  Kev k/g/> k/q/ - l/,\nOuoi nwten nica' nem nivariceoc ni]obi> je tetenkwt `ènni`èmau `ènte niprovhthc ouo `èntetencolcel `ènnibhb `ènte ni`èqmhi > ouo tetenjw `èmmoc je `èenanxh pe 'en ni`èeoou `ènte nenio; nan na]wpi `èenoi `èn`è]vhr `èerwou an pe 'en `èp`ècnof `ènte niprovhthc > wcte tetenermeqre 'ar> je `ènqwten nen]hri `ènte nh`èetau'wteb `ènniprovhthc.\nOuo `ènqwten wten jek `èp]i `ènnetenio; `èebol. Niof `èmmici `èebol'en ni`èajw > pwc tetenna`è]vwt `èebol'en ;krhcic `ènte ;geenna > eqbe vai hppe `èanok ;naouwrp arwten `ènanprovhthc nem ancabeu `ènca' ouo `èereten`èe'wteb `èebol `èn'htou ouo `èereten`èe`èi]i ouo `èereten`èeermactiggoin `èmmwou 'en netencunagwgh ouo `èereten`èesoji `èncwou icjen baki `èebaki. –|opwc `èntef`èi `èejen qhnou `ènje `ècnof niben `èn`èqmhi `èetavonf `èebol ijen pikai > icjen `èp`ècnof `ènAbel pi`èqmhi ]a `èp`ècnof `ènZaxariac `èp]hri `èmBaraxiac> vh`èetareten'oqbef oute piervei nem pima`èner]wou]i > `èamhn ;jw `èmmoc nwten je `èere nai throu nhou `èejen tai gene`èa. Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
             "Matthieu 22 : 29 - 36\nMalheureux, scribes et Pharisiens hypocrites, vous qui bâtissez les sépulcres des prophètes et décorez les tombeaux des justes, et vous dites: «Si nous avions vécu du temps de nos pères, nous n'aurions pas été leurs complices pour verser le sang des prophètes.» Ainsi vous témoignez contre vous-mêmes: vous êtes les fils de ceux qui ont assassiné les prophètes! Eh bien! vous, comblez la mesure de vos pères!",
-            "متى ٢٢ : ٢٩ – ٣٦\nالويل لكم أيها الكتبة والفريسيون المراؤون، لأنكم تبنون قبور الأنبياء وتزينون مدافن الصديقين وتقولون: لو كنا فى أيام أبائنا لما كنا شاركناهم فى دم الأنبياء، فأنتم تشهدون على أنفسكم أنكم بنو قتلة الأنبياء، فكملوا انتم مكاييل ابائكم.",
+            "متى ٢٢ : ٢٩ – ٣٦\nالويل لكم أيها الكتبة والفريسيون المراؤون، لأنكم تبنون قبور الأنبياء وتزينون مدافن الصديقين وتقولون: لو كنا في أيام أبائنا لما كنا شاركناهم في دم الأنبياء، فأنتم تشهدون على أنفسكم أنكم بنو قتلة الأنبياء، فكملوا انتم مكاييل ابائكم.",
         ],
         [
             Prefix.HolyWeek + "9HEGospel&D=GL53&C=Diacon",
             "",
             "Serpents, engeance de vipères, comment pourriez-vous échapper au châtiment de la géhenne ? C'est pourquoi, voici que moi, j'envoie vers vous des prophètes, des sages et des scribes. Vous en tuerez et mettrez en croix, vous en flagellerez dans vos synagogues et vous les pourchasserez de ville en ville pour que retombe sur vous tout le sang des justes répandu sur la terre, depuis le sang d'Abel le juste",
-            "أيها الحيات أولاد الأفاعى، كيف تهربون من دينونة جهنم؟ من أجل ذلك ها أنا أرسل إليكم أنبياء وحكماء وكتبة، فمنهم من تقتلون وتصلبون، ومنهم من تجلدون فى مجامعكم وتطردونهم من مدينة الى مدينة، لكى يأتى عليكم كل دم بار سُفِك على الأرض، من دم هابيل الصديق",
+            "أيها الحيات أولاد الأفاعى، كيف تهربون من دينونة جهنم؟ من أجل ذلك ها أنا أرسل إليكم أنبياء وحكماء وكتبة، فمنهم من تقتلون وتصلبون، ومنهم من تجلدون في مجامعكم وتطردونهم من مدينة إلى مدينة، لِكَي يأتى عليكم كل دم بار سُفِك على الأرض، من دم هابيل الصديق",
         ],
         [
             Prefix.HolyWeek + "9HEGospel&D=GL53&C=Diacon",
             "",
             "jusqu'au sang de Zacharie, fils de Barachie, que vous avez assassiné entre le sanctuaire et l'autel. En vérité, je vous le déclare, tout cela va retomber sur cette génération.\nGloire à Dieu éternellement.",
-            "إلى دم زكريا بن برشيا الذى قتلتموه بين الهيكل والمذبح. الحق أقول لكم ان هذه كلها ستأتى علي هذا الجيل.\nوالمجد لله دائماً",
+            "إلى دم زكريا بن برشيا الذي قتلتموه بين الهيكل والمذبح. الحق أقول لكم ان هذه كلها ستأتى علي هذا الجيل.\nوالمجد لله دائماً",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "9HECommentary&D=GL53&C=Title",
             "Commentaire de la Neuvième heure de la veille du mercredi",
-            "",
+            "Commentaire de la Neuvième heure de la veille du mercredi",
             "طرح الساعة التاسعة من ليلة الأربعاء",
         ],
         [
@@ -4274,7 +4328,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "11HEProphecies&D=GL53&C=Title",
             "Prophecies de la Onzième heure de la veille du mercredi",
-            "",
+            "Prophecies de la Onzième heure de la veille du mercredi",
             "نبوات الساعة الحادية عشر من ليلة الأربعاء",
         ],
         [
@@ -4300,7 +4354,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "11HEPsalm&D=GL53&C=Title",
             "Psaume de la Onzième heure de la veille du mercredi",
-            "",
+            "Psaume de la Onzième heure de la veille du mercredi",
             "مزمور الساعة الحادية عشر من ليلة الأربعاء",
         ],
         [
@@ -4314,7 +4368,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "11HEGospel&D=GL53&C=Title",
             "Evangile de la Onzième heure de la veille du mercredi",
-            "",
+            "Evangile de la Onzième heure de la veille du mercredi",
             " إنجيل الساعة الحادية عشر من ليلة الأربعاء",
         ],
         [
@@ -4334,14 +4388,14 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "11HECommentary&D=GL53&C=Title",
             "Commentaire de la Onzième heure de la veille du mercredi",
-            "",
+            "Commentaire de la Onzième heure de la veille du mercredi",
             "طرح الساعة الحادية عشر من ليلة الأربعاء",
         ],
         [
             Prefix.HolyWeek + "11HECommentary&D=GL53&C=Diacon",
             "",
             "Commentaire\nLes juifs avaient pris l'habitude de monter de la campagne à Jérusalem, en grand nombre, à l'approche de la pâque, pour se purifier. Lorsqu'ils montèrent, ils ne virent pas Jésus monter et ils se disaient entre eux au temple: Ne viendra-t-Il vraiment pas à la fête? Ils disaient cela avec hypocrisie et malice car les grand-prêtres, les pharisiens et les anciens avaient recommandé que si quiconque savait où Il était, ",
-            "طــرح\nجرت العادة لسائر اليهود أنه إذا إقترب عيد الفصح تصعد جموع كثيرة من الذكور إلى أورشليم ليتطهروا، فلما صعدوا كالعادة لم ينظروا يسوع يصعد، فقالوا لبعضهم وهم في الهيكل: ألعله حقا لا يأتي الى العيد؟ وكان المنافقون يفتكرون أفكاراً مملوءة من الخبث والرياء، لأن رؤساء الكهنة والفريسيين والشيوخ كانوا قد أوصوا أنه إن علم أحد أين هو",
+            "طــرح\nجرت العادة لسائر اليهود أنه إذا إقترب عيد الفصح تصعد جموع كثيرة من الذكور إلى أورشليم ليتطهروا، فلما صعدوا كالعادة لم ينظروا يسوع يصعد، فقالوا لبعضهم وهم في الهيكل: ألعله حقا لا يأتي إلى العيد؟ وكان المنافقون يفتكرون أفكاراً مملوءة من الخبث والرياء، لأن رؤساء الكهنة والفريسيين والشيوخ كانوا قد أوصوا أنه إن علم أحد أين هو",
         ],
         [
             Prefix.HolyWeek + "11HECommentary&D=GL53&C=Diacon",
@@ -4354,7 +4408,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "1HDProphecies&D=GL54&C=Title",
             "Prophecies de la Première heure du mercredi",
-            "",
+            "Prophecies de la Première heure du mercredi",
             "نبوات الساعة الأولى من يوم الأربعاء",
         ],
         [
@@ -4458,7 +4512,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "1HDSermony&D=GL54&C=Title",
             "Sermon de  Première heure du mercredi",
-            "",
+            "Sermon de  Première heure du mercredi",
             "عظة لأبينا الساعة الأولى من يوم الأربعاء",
         ],
         [
@@ -4483,35 +4537,35 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "1HDSermony&D=GL54&C=Diacon",
             "Marener `c`vragizin `n]katy,ycic `nte peniwt `e;ouab abba Senou] pi`ar,yman`drityc `vyetaferouwini `mpennouc nem nibal `nte nenhyt @ qen `vran `m~Viwt nem ~Psyri nem Pi`pneuma `e;ouab ounou] `nouwt @ `amyn",
             "Clôturons le sermon de notre saint père Abba Chénouté l’archimandrite qui a éclairé nos pensées et les yeux de nos cœurs au nom du Père, du Fils et du Saint Esprit, un seul Dieu, Amen !",
-            "فلنختم عظة أبينا القديس أنبا شنودة رئيس المتوحدين الذى أنار عقولنا وعيون قلوبنا بإسم الآب والإبن والروح القدس إله واحد. آمين.",
+            "فلنختم عظة أبينا القديس أنبا شنودة رئيس المتوحدين الذي أنار عقولنا وعيون قلوبنا بإسم الآب والإبن والروح القدس إله واحد. آمين.",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "1HDPsalm&D=GL54&C=Title",
             "Psaume de la Première heure du mercredi",
-            "",
+            "Psaume de la Première heure du mercredi",
             "مزمور الساعة الأولى من يوم الأربعاء",
         ],
         [
             Prefix.HolyWeek + "1HDPsalm&D=GL54&C=Diacon",
             "Yalmoc  to Dauid\nopwc `èntekmai 'en nekcaji > ouo `ènteksro eknasiap > P_ najer nicosni `ènte nieqnoc `èebol > ouo  `èfna]o]f  `ènnimokmek  `ènte   anlaoc .  ``allhloui`a",
             "Psaume 50 : 6 et 32 : 10\nAinsi, tu peux parler et montrer ta justice, être juge et montrer ta victoire. Le Seigneur a déjoué les plans des nations, anéanti les projets des peuples. Alléluia",
-            "مزمور ٥٠ : ٤ ؛ مز ٣٢ : ١٠\nلكيما تبرر فى اقوالك وتغلب اذا حوكمت الرب يفرق مؤامرة الأمم ويرذل أفكار الشعوب : الليلويا",
+            "مزمور ٥٠ : ٤ ؛ مز ٣٢ : ١٠\nلكيما تبرر في اقوالك وتغلب إذا حوكمت الرب يفرق مؤامرة الأمم ويرذل أفكار الشعوب : الليلويا",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "1HDGospel&D=GL54&C=Title",
             "Evangile de la Première heure du mercredi",
-            "",
+            "Evangile de la Première heure du mercredi",
             " إنجيل الساعة الأولى من يوم الأربعاء",
         ],
         [
             Prefix.HolyWeek + "1HDGospel&D=GL54&C=Diacon",
             "Yalmoc  to Dauid\nopwc `èntekmai 'en nekcaji > ouo `ènteksro eknasiap > P_ najer nicosni `ènte nieqnoc `èebol > ouo  `èfna]o]f  `ènnimokmek  `ènte   anlaoc .  ``allhloui`a",
             "Psaume 50 : 6 et 32 : 10\nAinsi, tu peux parler et montrer ta justice, être juge et montrer ta victoire. Le Seigneur a déjoué les plans des nations, anéanti les projets des peuples. Alléluia",
-            "مزمور ٥٠ : ٤ ؛ مز ٣٢ : ١٠\nلكيما تبرر فى اقوالك وتغلب اذا حوكمت الرب يفرق مؤامرة الأمم ويرذل أفكار الشعوب : الليلويا",
+            "مزمور ٥٠ : ٤ ؛ مز ٣٢ : ١٠\nلكيما تبرر في اقوالك وتغلب إذا حوكمت الرب يفرق مؤامرة الأمم ويرذل أفكار الشعوب : الليلويا",
         ],
         [
             Prefix.HolyWeek + "1HDGospel&D=GL54&C=Diacon",
@@ -4542,33 +4596,33 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "1HDCommentary&D=GL54&C=Title",
             "Commentaire de la Première heure du mercredi",
-            "",
+            "Commentaire de la Première heure du mercredi",
             "طرح الساعة الأولى من يوم الأربعاء",
         ],
         [
             Prefix.HolyWeek + "1HDCommentary&D=GL54&C=Diacon",
             "",
             "Commentaire\nLes pharisiens se réunirent et se demandaient que faire. Cet homme fait de nombreux signes et des miracles abondants. Si nous le laissons faire tout le monde va croire en lui, et les Romains viendront détruire notre Lieu saint. Caïphe, l'un d'entre eux, dit: il vaut mieux qu'un seul homme meure pour le peuple, et non l'ensemble de la nation. ",
-            "طــرح\nفإجتمع الفريسيون وخاطب بعضهم بعضاً قائلين: ما الذى نصنعه؟ فإن هذا الرجل يصنع آيات وعجائب كثيرة وإن تركناه فسيؤمن به الكل، فيأتى الرومانيون ويأخذون موضعنا. فقال أحدهم، الذى هو قيافا رئيس كهنة اليهود: إنه يجب أن يموت رجل واحد عن الشعب دون الأمة كلها. ",
+            "طــرح\nفإجتمع الفريسيون وخاطب بعضهم بعضاً قائلين: ما الذي نصنعه؟ فإن هذا الرجل يصنع آيات وعجائب كثيرة وإن تركناه فسيؤمن به الكل، فيأتى الرومانيون ويأخذون موضعنا. فقال أحدهم، الذي هو قيافا رئيس كهنة اليهود: إنه يجب أن يموت رجل واحد عن الشعب دون الأمة كلها. ",
         ],
         [
             Prefix.HolyWeek + "1HDCommentary&D=GL54&C=Diacon",
             "",
             "A cette heure ils décidèrent méchamment de faire mourir Jésus. Alors, Jésus partit pour une région du désert et y demeura avec Ses disciples. La fête des juifs était proche et ils Le cherchaient pour Le tuer. La prophétie d'Isaïe à leur sujet a en vérité été accomplie: «Malheur! Nation chargée de péché, race de malfaisants, fils corrompus. Le bœuf connaît son possesseur, et l'âne la crèche de son maître, Israël ne me connaît pas, ",
-            "ومن تلك الساعة تشاوروا على يسوع مشورة رديئة ليقتلوه، فمضى يسوع الى كورة فى البرية وأقام هناك مع تلاميذه. وكان قد قرب عيد اليهود. وكانوا يطلبونه لكى يقتلوه. بالحقيقة أُكمل ما قاله عليهم اشعياء النبي: الويل للأمة المملوءة إثما، الزرع الفاسد، الأبناء المخالفين. من أجل أن الثور عرف مذوده، والحمار عرف قانيه، أما إسرائيل فلم يعرفنى",
+            "ومن تلك الساعة تشاوروا على يسوع مشورة رديئة ليقتلوه، فمضى يسوع إلى كورة في البرية وأقام هناك مع تلاميذه. وكان قد قرب عيد اليهود. وكانوا يطلبونه لِكَي يقتلوه. بالحقيقة أُكمل ما قاله عليهم اشعياء النبي: الويل للأمة المملوءة إثما، الزرع الفاسد، الأبناء المخالفين. من أجل أن الثور عرف مذوده، والحمار عرف قانيه، أما إسرائيل فلم يعرفنى",
         ],
         [
             Prefix.HolyWeek + "1HDCommentary&D=GL54&C=Diacon",
             "",
             "il ne sait pas que c'est Moi qui l'ai créé. Pour cela, ils resteront, eux et\nleurs enfants, pour toujours dans le séjour des morts, leur demeure éternelle. »",
-            "ولم يعلم إننى أنا خالقه. من أجل ذلك يخلدون هم وأبناؤهم فى الجحيم، بيتهم الى الأبد.",
+            "ولم يعلم إننى أنا خالقه. من أجل ذلك يخلدون هم وأبناؤهم في الجحيم، بيتهم إلى الأبد.",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "3HDProphecies&D=GL54&C=Title",
             "Prophecies de la Troisième heure du mercredi",
-            "",
+            "Prophecies de la Troisième heure du mercredi",
             "نبوات الساعة الثالثة من يوم الأربعاء",
         ],
         [
@@ -4581,19 +4635,19 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "3HDProphecies&D=GL54&C=Diacon",
             "",
             "bien qu'elle fût plus proche, car Dieu s'était dit qu'à la vue des combats le peuple pourrait se repentir et retourner en Égypte. Dieu fit donc faire au peuple un détour par la route du désert de la mer des Roseaux. C'est bien armé que les Israélites montèrent du pays d'Égypte. Moïse emporta les ossements de Joseph avec lui, car celui-ci avait adjuré les Israélites en disant: ",
-            "مع إنها كانت قريبة لأن الرب قال: لئلا يندم الشعب إذا رأى حرباً فيرجع إلى مصر، فأدار الله الشعب الى الطريق الوعرة إلى البحر الأحمر، فى الجيل الخامس خرج بنو إسرائيل من مصر، وحمل موسى عظام يوسف معه، لأن يوسف كان قد إستحلف بنى إسرائيل بحلف قائلا :",
+            "مع إنها كانت قريبة لأن الرب قال: لئلا يندم الشعب إذا رأى حرباً فيرجع إلى مصر، فأدار الله الشعب إلى الطريق الوعرة إلى البحر الأحمر، في الجيل الخامس خرج بنو إسرائيل من مصر، وحمل موسى عظام يوسف معه، لأن يوسف كان قد إستحلف بنى إسرائيل بحلف قائلا :",
         ],
         [
             Prefix.HolyWeek + "3HDProphecies&D=GL54&C=Diacon",
             "",
             "«Oui, Dieu vous visitera, et alors vous emporterez d'ici mes ossements avec vous.» Ils partirent de Sukkot et campèrent à Étam, en bordure du désert. Le Seigneur marchait avec eux, le jour dans une colonne de nuée pour leur indiquer la route, et la nuit dans une colonne de feu pour les éclairer, afin qu'ils puissent marcher de jour et de nuit. La colonne de nuée ne se retirait pas le jour devant le peuple, ni la colonne de feu la nuit.\nGloire à la sainte Trinité notre Dieu.",
-            "إن الرب سيفتقدكم إفتقاداً، فإحملوا عظامى من هنا معكم، وإرتحل بنو إسرائيل من سكون ونزلوا فى آثوم عند البرية، وكان الله يسير أمامهم نهارا بعمود سحاب ليهديهم الطريق وليلا فى عمود نار ولم يزل عمود السحاب نهارا وعمود النار ليلا من أمام الشعب بأسره.\nمجدًا للثالوث الأقدس إلهنا آمين.",
+            "إن الرب سيفتقدكم إفتقاداً، فإحملوا عظامى من هنا معكم، وإرتحل بنو إسرائيل من سكون ونزلوا في آثوم عند البرية، وكان الله يسير أمامهم نهارا بعمود سحاب ليهديهم الطريق وليلا في عمود نار ولم يزل عمود السحاب نهارا وعمود النار ليلا من أمام الشعب بأسره.\nمجدًا للثالوث الأقدس إلهنا آمين.",
         ],
         [
             Prefix.HolyWeek + "3HDProphecies&D=GL54&C=Diacon",
             "Ebolqen Iycou `nte Cira, piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nFhet ;`ècbw gar è`ènoucoj `èfoi `èm`èvrh; `èmvhettem velj `èevelj > nem `èm`èvrh; `èmvettounoc vhetenkot 'en ou\\unim efor].\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
             "Ecclésiastique 22 : 7 – 18 \nC'est recoller des tessons que d'enseigner un sot, c'est réveiller un homme abruti de sommeil.",
-            "يشوع بن سيراخ ٢٢ : ٧-١٨ \nالذى يؤدب الأحمق كمن يجبر إناء من خزف، وكمن ينبه مستغرقاً فى نوم ثقيل،",
+            "يشوع بن سيراخ ٢٢ : ٧-١٨ \nالذى يؤدب الأحمق كمن يجبر إناء من خزف، وكمن ينبه مستغرقاً في نوم ثقيل،",
         ],
         [
             Prefix.HolyWeek + "3HDProphecies&D=GL54&C=Diacon",
@@ -4605,7 +4659,7 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "3HDProphecies&D=GL54&C=Diacon",
             "",
             "N'adresse pas de longs discours à l'insensé, ne va pas au-devant du sot, garde toi de lui pour n'avoir pas d'ennuis, pour ne pas te souiller à son contact. Ecarte-toi de lui, tu trouveras le repos, ses divagations ne t'ennuieront pas. Qu'y a-t-il de plus lourd que le plomb? Comment cela s'appelle-t-il ? L'insensé. ",
-            "لا تكثر الكلام مع الأحمق ولا تخالط الجاهل، تحفظ منه لئلا تتعب وتتدنس اذا شد الرحال، إعرض عنه فتجد راحة ولا تحزن بآثامه، ما هو الأثقل من الرصاص وما اسمه أيضا إلا الأحمق.",
+            "لا تكثر الكلام مع الأحمق ولا تخالط الجاهل، تحفظ منه لئلا تتعب وتتدنس إذا شد الرحال، إعرض عنه فتجد راحة ولا تحزن بآثامه، ما هو الأثقل من الرصاص وما اسمه أيضا إلا الأحمق.",
         ],
         [
             Prefix.HolyWeek + "3HDProphecies&D=GL54&C=Diacon",
@@ -4672,7 +4726,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "3HDPsalm&D=GL54&C=Title",
             "Psaume de la Troisième heure du mercredi",
-            "",
+            "Psaume de la Troisième heure du mercredi",
             "مزمور الساعة الثالثة من يوم الأربعاء",
         ],
         [
@@ -4686,7 +4740,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "3HDGospel&D=GL54&C=Title",
             "Evangile de la Troisième heure du mercredi",
-            "",
+            "Evangile de la Troisième heure du mercredi",
             " إنجيل الساعة الثالثة من يوم الأربعاء",
         ],
         [
@@ -4712,14 +4766,14 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "3HDCommentary&D=GL54&C=Title",
             "Commentaire de la Troisième heure du mercredi",
-            "",
+            "Commentaire de la Troisième heure du mercredi",
             "طرح الساعة الثالثة من يوم الأربعاء",
         ],
         [
             Prefix.HolyWeek + "3HDCommentary&D=GL54&C=Diacon",
             "",
             "Commentaire\nQuand la fête des pains sans levain, c'est à dire la Pâque des juifs, était proche, les scribes et les grands prêtres cherchaient comment faire périr Jésus. Ils ne savaient que faire: ils avaient peur du peuple. Alors Satan s'est trouvé une demeure dans le cœur de son ami: Judas l'Iscariote. Celui-ci était compté parmi les disciples, mais il était un démon comme l'a dit le Seigneur.",
-            "طــرح\nولما قرب عيد الفطير الذى هو فصح اليهود، كان الكتبة ورؤساء الكهنة يطلبون كيف يهلكون يسوع، ولم يعلموا ماذا يصنعون، لأنهم كانوا يخافون من الجمع. فوجد الشيطان له مسكناً فى قلب رفيقه يهوذا الإسخريوطى وكان هذا محسوباً فى عداد التلاميذ، وكان شيطاناً كقول الرب.",
+            "طــرح\nولما قرب عيد الفطير الذي هو فصح اليهود، كان الكتبة ورؤساء الكهنة يطلبون كيف يهلكون يسوع، ولم يعلموا ماذا يصنعون، لأنهم كانوا يخافون من الجمع. فوجد الشيطان له مسكناً في قلب رفيقه يهوذا الإسخريوطى وكان هذا محسوباً في عداد التلاميذ، وكان شيطاناً كقول الرب.",
         ],
         [
             Prefix.HolyWeek + "3HDCommentary&D=GL54&C=Diacon",
@@ -4732,14 +4786,14 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "6HDProphecies&D=GL54&C=Title",
             "Prophecies de la Sixième heure du mercredi",
-            "",
+            "Prophecies de la Sixième heure du mercredi",
             "نبوات الساعة السادسة من يوم الأربعاء",
         ],
         [
             Prefix.HolyWeek + "6HDProphecies&D=GL54&C=Diacon",
             "Ebolqen pidoxodoc `nte Mw`ucyc piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nPeje Mw`èuchc de na\\ren pilaoc je jemno; > `èereten`èoi `èeraten qhnou `èeretennau `èepioujai pi`èeboliten P_.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
             "Exode 14 : 13 à 15 :1 \nMoïse dit au peuple: «Ne craignez pas! Tenez ferme et vous verrez ce que le Seigneur va faire pour vous sauver aujourd'hui,",
-            "خروج ١٤ : ١٣ - ١٥ : ١ \nفقال موسى للشعب: تقووا قفوا وإنظروا خلاص الرب الذى يصنعه لكم اليوم. ",
+            "خروج ١٤ : ١٣ - ١٥ : ١ \nفقال موسى للشعب: تقووا قفوا وإنظروا خلاص الرب الذي يصنعه لكم اليوم. ",
         ],
         [
             Prefix.HolyWeek + "6HDProphecies&D=GL54&C=Diacon",
@@ -4830,7 +4884,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "6HDPsalm&D=GL54&C=Title",
             "Psaume de la Sixième heure du mercredi",
-            "",
+            "Psaume de la Sixième heure du mercredi",
             "مزمور الساعة السادسة من يوم الأربعاء",
         ],
         [
@@ -4844,7 +4898,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "6HDGospel&D=GL54&C=Title",
             "Evangile de la Sixième heure du mercredi",
-            "",
+            "Evangile de la Sixième heure du mercredi",
             " إنجيل الساعة السادسة من يوم الأربعاء",
         ],
         [
@@ -4857,83 +4911,83 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "6HDGospel&D=GL54&C=Diacon",
             "Iwannhn  Kev i/b/> a/-h\nIhcouc oun > ‘'ajen coou `èn`èeoou `ènte pipacxa af`èi `èeBhq`èani`èa pima `èenare Lazaroc `èmmof vh`èetafmou vh`èeta Ihc? tounocf `èebol'en nheqmwout. Auer oudipnon oun `èerof `èmpima `èete`èmmau ouo Marqa nac]em]i pe > ouo Lazaroc ne ouai pe `èebol 'en nheqrwteb nemaf > Mari`èa oun acsi `ènoulitra `èncojen `ènte ounardoc `èmpictikh `èena]e `èncouenf > ouo acqwc `ènnensalauj `ènIhc? `èmmof > ouo acfotou `èmpifwi `ènte tec`èave > `èa pihi de mo `èebol'en pic`èqoi `èmpicojen.\nPeje ouai de `èebol'en nefmaqhthc `èete Ioudac pe Cimwn Piickari`èwthc vh`èenafnathif > je eqbe ou paicojen `èmpouthif `èebol 'a ]omt]e `èncaqeri ouo `èntouthitou `ènnihki > vai de afjof ouxoti je acermelin naf 'a nihki> alla je ne ourefsiou`èi pe > ouo `èere piglocokomwn `èntotf nh`èe]auitou `èerof ne ]aftwoun `èmmou.\nPeje Ihc? oun je xac pe ina `èntec`èare `èerof `èepi`èeoou `èmpakwc > nihki gar ce nemwten `ènchou niben > `èanok de ;nemwten an `ènchou niben.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
             "Jean 12 :  1 – 8\nSix jours avant la Pâque, Jésus vint à Béthanie, où était Lazare, que Jésus avait ressuscité d'entre les morts. On lui fit là un repas. Marthe servait. Lazare était l'un des convives. Alors Marie, prenant une livre d'un parfum de nard pur, de grand prix, oignit les pieds de Jésus et les essuya avec ses cheveux; et la maison s'emplit de la senteur du parfum. ",
-            "يوحنا ١٢ : ١- ٨ \nوقبل الفصح بستة أيام أتى يسوع إلى بيت عنيا حيث كان لعازر الذى مات وأقامه من بين الأموات. فصنعوا له هناك عشاءً فى ذلك المكان. وكانت مرثا تخدم وكان لعازر أحد المتكئين معه، أما مريم فأخذت رطل طيب ناردين خالص كثير الثمن ودهنت به قدمى يسوع، ومسحتهما بشعر رأسها. فإمتلأ البيت من رائحة الطيب، ",
+            "يوحنا ١٢ : ١- ٨ \nوقبل الفصح بستة أيام أتى يسوع إلى بيت عنيا حيث كان لعازر الذي مات وأقامه من بين الأموات. فصنعوا له هناك عشاءً في ذلك المكان. وكانت مرثا تخدم وكان لعازر أحد المتكئين معه، أما مريم فأخذت رطل طيب ناردين خالص كثير الثمن ودهنت به قدمى يسوع، ومسحتهما بشعر رأسها. فإمتلأ البيت من رائحة الطيب، ",
         ],
         [
             Prefix.HolyWeek + "6HDGospel&D=GL54&C=Diacon",
             "",
             "Mais Judas l'Iscariote, l'un de ses disciples, celui qui allait le livrer, dit: «Pourquoi ce parfum n'a-t-il pas été vendu 300 deniers qu'on aurait donnés à des pauvres?» Mais il dit cela non par souci des pauvres, mais parce qu'il était voleur et que, tenant la bourse, il dérobait ce qu'on y mettait. Jésus dit alors: « Laisse-la : c'est pour le jour de ma sépulture qu'elle devait garder ce parfum. ",
-            "فقال أحد تلاميذه الذى هو يهوذا سمعان الإسخريوطى الذى كان مزمعاً أن يسلمه: لماذا لم يبع هذا الطيب بثلثمائة دينار ويعطى للمساكين ؟! قال هذا ليس لأنه كان يهتم بالمساكين، بل لأنه كان سارقاً وكان الصندوق عنده وكان يحمل ما يلقى فيه. فقال يسوع : دعوها لأنها حفظته ليوم دفنى، ",
+            "فقال أحد تلاميذه الذي هو يهوذا سمعان الإسخريوطى الذي كان مزمعاً أن يسلمه: لماذا لم يبع هذا الطيب بثلثمائة دينار ويعطى للمساكين ؟! قال هذا ليس لأنه كان يهتم بالمساكين، بل لأنه كان سارقاً وكان الصندوق عنده وكان يحمل ما يلقى فيه. فقال يسوع : دعوها لأنها حفظته ليوم دفنى، ",
         ],
         [
             Prefix.HolyWeek + "6HDGospel&D=GL54&C=Diacon",
             "",
             "Les pauvres, en effet, vous les aurez toujours avec vous; mais moi, vous ne m'aurez pas toujours.»  \nGloire à Dieu éternellement.",
-            "فإن المساكين معكم فى كل حين، وأما أنا فلست معكم فى كل حين  « \nوالمجد لله دائماً.",
+            "فإن المساكين معكم في كل حين، وأما أنا فلست معكم في كل حين  « \nوالمجد لله دائماً.",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "6HDCommentary&D=GL54&C=Title",
             "Commentaire de la Sixième heure du mercredi",
-            "",
+            "Commentaire de la Sixième heure du mercredi",
             "طرح الساعة السادسة من يوم الأربعاء",
         ],
         [
             Prefix.HolyWeek + "6HDCommentary&D=GL54&C=Diacon",
             "",
             "Commentaire\nJésus, notre Dieu, est venu à Béthanie six jours avant la Pâque. On lui fit un repas dans la maison de Marie et sa sœur Marthe. Il y avait là Lazare qu'Il avait ressuscité d'entre les morts. Marthe, la sœur du mort était là et les servait. Lazare, leur frère, était avec Jésus parmi les convives. Marie avait pris une livre d'un parfum très pur et de très grande valeur ;",
-            "طــرح\nجاء المسيح إلهنا إلى بيت عنيا قبل الفصح بستة أيام، فصنعوا له وليمة فى بيت مريم ومرثا أختها، وكان هناك لعازر الذى أقامه من الأموات، وكانت مرثا أخت الميت واقفه تخدمهم، وكان أحد المتكئين مع السيد يسوع لعازر أخوها، فأخذت مريم رطل طيب ناردين كثير الثمن ",
+            "طــرح\nجاء المسيح إلهنا إلى بيت عنيا قبل الفصح بستة أيام، فصنعوا له وليمة في بيت مريم ومرثا أختها، وكان هناك لعازر الذي أقامه من الأموات، وكانت مرثا أخت الميت واقفه تخدمهم، وكان أحد المتكئين مع السيد يسوع لعازر أخوها، فأخذت مريم رطل طيب ناردين كثير الثمن ",
         ],
         [
             Prefix.HolyWeek + "6HDCommentary&D=GL54&C=Diacon",
             "",
             "elle versa le parfum sur les pieds de Jésus, qu'elle essuya avec ses cheveux. Judas l'Iscariote, le contrevenant, fut rempli de l'envie diabolique. Il dit avec ruse, et son cœur rempli de toute amertume, de malice et d'hypocrisie: «Pourquoi n'a-t-on pas vendu ce parfum pour trois cents pièces d'argent, que l'on aurait données aux pauvres?» Il n'a pas dit cela avec une bonne pensée, ni par amour envers les pauvres, ",
-            "ودهنت به رجلى يسوع ومسحتهما بشعر رأسها. فإمتلاء يهوذا الإسخريوطى المخالف من الحسد الشيطانى وقال بمكر وقلب مملوء من كل مرارة وخبث ورياء، وقال: لماذا لم يبع هذا الطيب بثلثمائة دينار ويدفع للمساكين؟ ولم يقل هذا بفكر صالح ومحبة فى المساكين، ",
+            "ودهنت به رجلى يسوع ومسحتهما بشعر رأسها. فإمتلاء يهوذا الإسخريوطى المخالف من الحسد الشيطانى وقال بمكر وقلب مملوء من كل مرارة وخبث ورياء، وقال: لماذا لم يبع هذا الطيب بثلثمائة دينار ويدفع للمساكين؟ ولم يقل هذا بفكر صالح ومحبة في المساكين، ",
         ],
         [
             Prefix.HolyWeek + "6HDCommentary&D=GL54&C=Diacon",
             "",
             "mais parce que c'était un voleur et il prenait ce qu'on mettait dans la bourse. Le Sauveur lui dit: «Laisse-la! Elle a gardé ce parfum pour le jour de ma sépulture. Les pauvres, vous en aurez toujours avec vous, mais moi, vous ne m'aurez pas toujours.» Rapprochons-nous du Seigneur, pleurons devant Lui, mouillons Ses pieds de nos larmes et implorons-Le de nous accorder la rémission de nos péchés selon Sa grande miséricorde.",
-            "ولكنه كان سارقاً وكان يسرق ما يلقى فى الصندوق، فقال المخلص: لا تتعبوها لأنها قد حفظته ليوم دفنى، المساكين معكم فى كل حين وأما أنا فلست معكم فى كل حين. فلنقترب من الرب ولنبك أمامه ونبل قدميه بدموعنا ونسأله أن ينعم علينا بالغفران كعظيم رحمته.",
+            "ولكنه كان سارقاً وكان يسرق ما يلقى في الصندوق، فقال المخلص: لا تتعبوها لأنها قد حفظته ليوم دفنى، المساكين معكم في كل حين وأما أنا فلست معكم في كل حين. فلنقترب من الرب ولنبك أمامه ونبل قدميه بدموعنا ونسأله أن ينعم علينا بالغفران كعظيم رحمته.",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "9HDProphecies&D=GL54&C=Title",
             "Prophecies de la Neuvième heure du mercredi",
-            "",
+            "Prophecies de la Neuvième heure du mercredi",
             "نبوات الساعة التاسعة من يوم الأربعاء",
         ],
         [
             Prefix.HolyWeek + "9HDProphecies&D=GL54&C=Diacon",
             "Ebolqen ]genecic `nte Mw`ucyc piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nOuo Abraam ne ou'ello pe `èeafaiai 'en nef`èeoou > ouo `èaP_ `ècmou `èeAbraam kata ca `ènrh; niben.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
             "Genèse 24 : 1-9\nAbraham était alors un vieillard avancé en âge, et le Seigneur avait béni Abraham en tout. Abraham dit au plus vieux serviteur de sa maison, le régisseur de tous ses biens:",
-            "تكوين ٢٤ : ١- ٩\nوشاخ إبراهيم وهرم أيامه وبارك الرب إبراهيم فى كل شئ، فقال إبراهيم لعبده كبير بيته المولى على جميع ماله: ",
+            "تكوين ٢٤ : ١- ٩\nوشاخ ابراهيم وهرم أيامه وبارك الرب ابراهيم في كل شئ، فقال ابراهيم لعبده كبير بيته المولى على جميع ماله: ",
         ],
         [
             Prefix.HolyWeek + "9HDProphecies&D=GL54&C=Diacon",
             "",
             "Mets ta main sous ma cuisse. Je te fais jurer par le Seigneur, le Dieu du ciel et le Dieu de la terre, que tu ne prendras pas pour mon fils une femme parmi les filles des Cananéens au milieu desquels j'habite. Mais tu iras dans mon pays, dans ma parenté, et tu choisiras une femme pour mon fils Isaac. Le serviteur lui demanda : Peut-être la femme ne voudra-t-elle pas me suivre dans ce pays-ci: ",
-            "ضع يدك تحت فخذى لأستحلفك بالرب إله السماء وإله الأرض، أن لا تأخذ زوجة لإبنى إسحق من بنات الكنعانيين اللذين أنا ساكن بينهم، بل إنطلق إلى أرضى والموضع الذى كنت فيه وإلى عشيرتى وتأخذ زوجة لإبنى اسحق من هناك، فقال العبد له: ربما لا تشاء المرأة أن تأتى معى لبُعد هذه الأرض،",
+            "ضع يدك تحت فخذى لأستحلفك بالرب إله السماء وإله الأرض، أن لا تأخذ زوجة لإبنى إسحق من بنات الكنعانيين اللذين أنا ساكن بينهم، بل إنطلق إلى أرضى والموضع الذي كنت فيه وإلى عشيرتى وتأخذ زوجة لإبنى اسحق من هناك، فقال العبد له: ربما لا تشاء المرأة أن تأتى مَعِي لبُعد هذه الأرض،",
         ],
         [
             Prefix.HolyWeek + "9HDProphecies&D=GL54&C=Diacon",
             "",
             "faudra-t-il que je ramène ton fils dans le pays d'où tu es sorti? Abraham lui répondit: Garde-toi bien de ramener mon fils là-bas. Le Seigneur, le Dieu du ciel et le Dieu de la terre, qui m'a pris de ma maison paternelle et du pays de ma parenté, qui m'a dit et qui m'a juré qu'il donnerait ce pays-ci à ma descendance, Le Seigneur enverra son Ange devant toi, pour que tu prennes une femme de là-bas. ",
-            "أتريد أن أرد ابنك إلى الأرض التى خرجت منها؟ فقال له إبراهيم: إحذر من أن ترد إبنى إلى هناك لأن الرب إله السماء وإله الأرض الذى أخذنى من بيت أبى ومن الأرض التى ولدت فيها، الذى كلمنى وأقسم لى قائلاَ: إنى أعطيك هذه الأرض ولنسلك، وهو يرسل ملاكه أمامك، فتأخذ زوجة لإبنى اسحق من هناك، ",
+            "أتريد أن أرد ابنك إلى الأرض التى خرجت منها؟ فقال له إبراهيم: إحذر من أن ترد إبنى إلى هناك لأن الرب إله السماء وإله الأرض الذي أخذنى من بيت أبي ومن الأرض التى ولدت فيها، الذي كلمنى وأقسم لي قائلاَ: إنى أعطيك هذه الأرض ولنسلك، وهو يرسل ملاكه أمامك، فتأخذ زوجة لإبنى اسحق من هناك، ",
         ],
         [
             Prefix.HolyWeek + "9HDProphecies&D=GL54&C=Diacon",
             "",
             "Et si la femme ne veut pas te suivre, tu seras quitte du serment que je t'impose. En tout cas, ne ramène pas mon fils là-bas. Le serviteur mit sa main sous la cuisse de son maître Abraham et il lui prêta serment pour cette affaire.\nGloire à la sainte Trinité notre Dieu.",
-            "وإن لم تشأ المرأة أن تأتى معك إلى هذه الأرض فتكون أنت برئ من حلفى، فقط لا تُرجع إبنى إلى هناك. فوضع العبد يده تحت فخذ إبراهيم سيده وحلف له من أجل هذا الأمر\nمجدًا للثالوث الأقدس إلهنا آمين",
+            "وإن لم تشأ المرأة أن تأتى معك إلى هذه الأرض فتكون أنت برئ من حلفى، فقط لا تُرجع إبنى إلى هناك. فوضع العبد يده تحت فخذ ابراهيم سيده وحلف له من أجل هذا الأمر\nمجدًا للثالوث الأقدس إلهنا آمين",
         ],
         [
             Prefix.HolyWeek + "9HDProphecies&D=GL54&C=Diacon",
             "Ebolqen pi`ari;moc `nte Mw`ucyc piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nOuo au`èi `ènje nen]hri `èmPic?l ? ;cunagwgh thrc  `èe`è\\rhi  `èe`èptwou  `ènCina  'en  pi`èabot `ènouit.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
             "Nombres 20 : 1 – 13\nLes Israélites, toute la communauté, arrivèrent le premier mois au désert de Çîn. Le peuple s'établit à Cadès. ",
-            "عدد ٢٠ : ١- ١٣\nوجاء بنو إسرائيل الجماعة كلها إلى جبل سيناء فى الشهر الأول، وأقام الشعب بقادش، ",
+            "عدد ٢٠ : ١- ١٣\nوجاء بنو إسرائيل الجماعة كلها إلى جبل سيناء في الشهر الأول، وأقام الشعب بقادش، ",
         ],
         [
             Prefix.HolyWeek + "9HDProphecies&D=GL54&C=Diacon",
@@ -4963,19 +5017,19 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "9HDProphecies&D=GL54&C=Diacon",
             "Ebolqen Niparoimi`a `nte Colomwn piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nPa]hri `èmpen`èqroucormek `ènje anrwmi `èn`èacebhc > oude `èmperraou`èw.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
             "Proverbes 1 : 10 – 33\nMon fils, si des pécheurs veulent te séduire, n'y va pas ! S'ils disent: «Viens avec nous, embusquons-nous pour répandre le sang,",
-            "أمثال سليمان ١ : ١٠ – ٣٣\nيا إبنى لا يضلك الرجال المنافقون، ولا تجبهم إذا دعوك قائلين: هلم شاركنا فى الدم لنختف فى الأرض ",
+            "أمثال سليمان ١ : ١٠ – ٣٣\nيا إبنى لا يضلك الرجال المنافقون، ولا تجبهم إذا دعوك قائلين: هلم شاركنا في الدم لنختف في الأرض ",
         ],
         [
             Prefix.HolyWeek + "9HDProphecies&D=GL54&C=Diacon",
             "",
             "sans raison, prenons l'affût contre l'innocent; comme le shéol, avalons-les tout vifs, tout entiers, tels ceux qui descendent dans la fosse! Nous trouverons mainte chose précieuse, nous emplirons de butin nos maisons; avec nous tu tireras ta part au sort, nous ferons tous bourse commune!» Mon fils, ne les suis pas dans leur voie, éloigne tes pas de leur sentier, ",
-            "للرجل البار ظلماً، فلنبتلعه حياً كالجحيم ونبيد ذكره من الأرض، فنظفر بقنيته الثمينة، ونملأ بيوتنا غنيمة ونصيبه يقع لنا، فلنقتنيه لنا جميعاً كيس واحد، ليكن لنا. لا تمش فى الطريق معهم، وامنع رجلك عن طريقهم ",
+            "للرجل البار ظلماً، فلنبتلعه حياً كالجحيم ونبيد ذكره من الأرض، فنظفر بقنيته الثمينة، ونملأ بيوتنا غنيمة ونصيبه يقع لنا، فلنقتنيه لنا جميعاً كيس واحد، ليكن لنا. لا تمش في الطريق معهم، وامنع رجلك عن طريقهم ",
         ],
         [
             Prefix.HolyWeek + "9HDProphecies&D=GL54&C=Diacon",
             "",
             "car c'est en vain qu'on étend le filet sous les yeux de tout volatile. C'est pour répandre leur propre sang qu'ils s'embusquent, contre eux-mêmes, ils sont à l'affût! Tels sont les sentiers de tout homme avide de rapine: elle ôte la vie à ceux qu'elle habite. La Sagesse crie par les rues, sur les places elle élève la voix; à l'angle des carrefours, elle appelle, près des portes, dans la ville, elle prononce son discours: «Jusques à quand, ô niais, aimerez-vous la niaiserie?",
-            "لأنهم نصبوا شباكهم للطيور بمكر وشاركوا القتلة فيدخرون لأنفسهم الشرور، وسقوط الآثمة ردئ، هذه طرق كل من تناهى الإثم، بالنفاق تنزع نفوسهم. الحكمة تُمدح فى الطرقات وفى الشوارع ظاهرة، وعلى زوايا الأسوار يُبشر بها، على أبواب الأقوياء وأبواب المدن قد قالت بقلب قوى فى كل حين، ان عديمى الشر يتمسكون بالبر فلن يخزوا، ",
+            "لأنهم نصبوا شباكهم للطيور بمكر وشاركوا القتلة فيدخرون لأنفسهم الشرور، وسقوط الآثمة ردئ، هذه طرق كل من تناهى الإثم، بالنفاق تنزع نفوسهم. الحكمة تُمدح في الطرقات وفى الشوارع ظاهرة، وعلى زوايا الأسوار يُبشر بها، على أبواب الأقوياء وأبواب المدن قد قالت بقلب قوى في كل حين، ان عديمى الشر يتمسكون بالبر فلن يخزوا، ",
         ],
         [
             Prefix.HolyWeek + "9HDProphecies&D=GL54&C=Diacon",
@@ -4987,7 +5041,7 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "9HDProphecies&D=GL54&C=Diacon",
             "",
             "quand viendra sur vous l'épouvante, quand l'épouvante viendra sur vous comme l'orage, quand votre détresse arrivera comme un tourbillon, quand l'épreuve et l'angoisse fondront sur vous. Alors ils m'appelleront, mais je ne répondrai pas; ils me chercheront et ne me trouveront pas. Ils ont détesté le savoir, ils n'ont pas choisi la crainte du Seigneur, ils n'ont pas voulu de mon conseil, ils ont méprisé toutes mes exhortations:",
-            "وأفرح إذا لحقكم الفناء وفاجأكم الذعر، ويأتى الخراب كالعاصفة، إذا جاء عليكم الإستئصال فى طلبى فلا يجدنى،  بما أنهم أبغضوا الحكمة ولم يختاروا مخافة الرب ولم يريدوا أن يتأملوا مشورتى، مستهزئين بكلامى، ",
+            "وأفرح إذا لحقكم الفناء وفاجأكم الذعر، ويأتى الخراب كالعاصفة، إذا جاء عليكم الإستئصال في طلبى فلا يجدنى،  بما أنهم أبغضوا الحكمة ولم يختاروا مخافة الرب ولم يريدوا أن يتأملوا مشورتى، مستهزئين بكلامى، ",
         ],
         [
             Prefix.HolyWeek + "9HDProphecies&D=GL54&C=Diacon",
@@ -5011,13 +5065,13 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "9HDProphecies&D=GL54&C=Diacon",
             "",
             "Qui mange de leurs œufs en meurt; écrasés, il en sort un serpent. Leurs toiles ne feront pas un vêtement, ils ne pourront se vêtir de leurs œuvres; leurs œuvres sont des œuvres mauvaises, les actes de violence sont dans leurs mains. Leurs pieds courent au mal; ils ont hâte de verser le sang innocent. Leurs pensées sont des pensées mauvaises, ravage et destruction sont sur leur chemin. Ils n'ont pas connu la voie de la paix, ",
-            "والمزمع أن يأكل من بيضهم لما كسره وجد فيه وحشاً وأفعى، ونسيجهم لا يكون لهم ثوباً ولا يستترون من أعمالهم لأن أعمالهم أعمال إثم، وأرجلهم تجرى إلى الشر وتسرع إلى سفك الدم، وأفكارهم أفكار جُهال. الكسل والشقاوة فى سبلهم وطريق السلام لم يعرفوه، ",
+            "والمزمع أن يأكل من بيضهم لما كسره وجد فيه وحشاً وأفعى، ونسيجهم لا يكون لهم ثوباً ولا يستترون من أعمالهم لأن أعمالهم أعمال إثم، وأرجلهم تجرى إلى الشر وتسرع إلى سفك الدم، وأفكارهم أفكار جُهال. الكسل والشقاوة في سبلهم وطريق السلام لم يعرفوه، ",
         ],
         [
             Prefix.HolyWeek + "9HDProphecies&D=GL54&C=Diacon",
             "",
             "le droit ne suit pas leurs traces, ils se font des sentiers tortueux, quiconque les suit ignore la paix. Aussi le droit reste loin de nous, la justice ne nous atteint pas. Nous attendions la lumière, et voici les ténèbres, la clarté, et nous marchons dans l'obscurité. Nous tâtonnons comme des aveugles cherchant un mur, comme privés d'yeux nous tâtonnons. Nous trébuchons en plein midi comme au crépuscule, ",
-            "وخوف الله ليس فى طريقهم لأن طرقهم التى يمشون فيها معوجة ولا يعرفون السلام، لهذا بعد عنهم الحكم، ولا يدركهم العدل، وإذ هم يترقبون النور صار لهم الظلام. إنتظروا ضوء فمشوا فى عتمة، يتلمسون الحائط مثل أعمى ويشعرون كمن ليس له أعين، ويسقطون فى الظهيرة كأنهم فى نصف الليل",
+            "وخوف الله ليس في طريقهم لأن طرقهم التى يمشون فيها معوجة ولا يعرفون السلام، لهذا بعد عنهم الحكم، ولا يدركهم العدل، وإذ هم يترقبون النور صار لهم الظلام. إنتظروا ضوء فمشوا في عتمة، يتلمسون الحائط مثل أعمى ويشعرون كمن ليس له أعين، ويسقطون في الظهيرة كأنهم في نصف الليل",
         ],
         [
             Prefix.HolyWeek + "9HDProphecies&D=GL54&C=Diacon",
@@ -5029,7 +5083,7 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "9HDProphecies&D=GL54&C=Diacon",
             "",
             "cesser de suivre notre Dieu; proférer violence et révolte, concevoir et méditer le mensonge. On repousse le jugement, on tient éloignée la justice, car la vérité a trébuché sur la place publique, et la droiture ne trouve point d'accès. La vérité a disparu; ceux qui s'abstiennent du mal sont dépouillés. Le Seigneur l'a vu, il a jugé mauvais qu'il n'y ait plus de jugement. Il a vu qu'il n'y avait personne, il s'est étonné que nul n'intervînt, ",
-            "وبعدنا عن الله، تكلمنا ظلماً وخالفنا وحبلنا وتلونا من قلبنا أقوالاً ظالمة ورددنا الحكم إلى خلف، وبعد العدل لأن الحق بار فى أيامهم ولم يستطيعوا أن يعبروا بإستقامة، والحق رفع وتحول قلبهم عن الحق، ونظر الرب ولم يرضه، لأنه لم يكن حكم ونظر ولم يكن رجل وتأمل ولم يكن ناصر، ",
+            "وبعدنا عن الله، تكلمنا ظلماً وخالفنا وحبلنا وتلونا من قلبنا أقوالاً ظالمة ورددنا الحكم إلى خلف، وبعد العدل لأن الحق بار في أيامهم ولم يستطيعوا أن يعبروا بإستقامة، والحق رفع وتحول قلبهم عن الحق، ونظر الرب ولم يرضه، لأنه لم يكن حكم ونظر ولم يكن رجل وتأمل ولم يكن ناصر، ",
         ],
         [
             Prefix.HolyWeek + "9HDProphecies&D=GL54&C=Diacon",
@@ -5047,14 +5101,14 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "9HDProphecies&D=GL54&C=Diacon",
             "",
             "Je leur dis alors: Si cela vous semble bon, donnez-moi mon salaire, sinon n'en faites rien. Ils pesèrent mon salaire: trente sicles d'argent. Le Seigneur me dit: Jette le au potier, ce prix splendide auquel ils m'ont estimé! Je pris donc les trente sicles d'argent et les jetai à la Maison du Seigneur, pour le potier. Puis je mis en morceaux mon deuxième bâton Liens, pour rompre la fraternité entre Juda et Israël.\nGloire à la sainte Trinité notre Dieu.",
-            "وأنا أقول لهم: إذا حسن لديكم فأعطونى أجرتى التى قررتموها وإلا فإمتنعوا. فقرروا أجرتى ثلاثين من الفضة، فقال لى الرب: ألقها فى المسبك وأنا أفحصها، هل هى مختارة مثل ما جربت بها؟ فأخذت الثلاثين من الفضة وطرحتها فى المسبك فى بيت الرب، ثم طرحت عصاى الثانية التى هى حبل القياس لأنقض عهدى الذى بين يهوذا وبنى إسرائيل.\nمجدًا للثالوث الأقدس إلهنا آمين",
+            "وأنا أقول لهم: إذا حسن لديكم فأعطونى أجرتى التى قررتموها وإلا فإمتنعوا. فقرروا أجرتى ثلاثين من الفضة، فقال لي الرب: ألقها في المسبك وأنا أفحصها، هل هى مختارة مثل ما جربت بها؟ فأخذت الثلاثين من الفضة وطرحتها في المسبك في بيت الرب، ثم طرحت عصاى الثانية التى هى حبل القياس لأنقض عهدى الذي بين يهوذا وبنى إسرائيل.\nمجدًا للثالوث الأقدس إلهنا آمين",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "9HDSermony&D=GL54&C=Title",
             "Sermon de  Neuvième heure du mercredi",
-            "",
+            "Sermon de  Neuvième heure du mercredi",
             "عظة لأبينا الساعة التاسعة من يوم الأربعاء",
         ],
         [
@@ -5067,7 +5121,7 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "9HDSermony&D=GL54&C=Diacon",
             "",
             "Sermon de notre saint père Anba Chénouté l'archimandrite que sa sainte bénédiction repose sur nous tous. Amen\nJe vous dis deux choses. Ceux pour qui il y a une joie dans le ciel à cause de leur repentir sur terre, ne verront ni tristesse ni douleur dans ce lieu. Quant à ceux pour qui il n’y a pas eu de joie dans le ciel car ils ne se sont pas repentis sur terre, ceux-là ne verront ni joie ni repos là où ils seront. ",
-            "عظة لأبينا القديس أنبا شنودة رئيس المتوحدين، بركته المقدسة تكون معنا. آمين\nأمران أقولهما لكم: إن جميع اللذين يفرح بهم فى السماء من أجل توبتهم وهى على الأرض لن يروا حزناً ولا وجعاً فى ذلك المكان، وأولئك اللذين لم يفرح بهم فى السماء لأجل عدم توبتهم وهم على الأرض لن يروا فرحاً ولا راحة فى ذلك المكان، ",
+            "عظة لأبينا القديس أنبا شنودة رئيس المتوحدين، بركته المقدسة تكون معنا. آمين\nأمران أقولهما لكم: إن جميع اللذين يفرح بهم في السماء من أجل توبتهم وهى على الأرض لن يروا حزناً ولا وجعاً في ذلك المكان، وأولئك اللذين لم يفرح بهم في السماء لأجل عدم توبتهم وهم على الأرض لن يروا فرحاً ولا راحة في ذلك المكان، ",
         ],
         [
             Prefix.HolyWeek + "9HDSermony&D=GL54&C=Diacon",
@@ -5079,20 +5133,20 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "9HDSermony&D=GL54&C=Diacon",
             "",
             "Eveillons-nous mes biens aimés, avant que la porte de la salle des noces ne se ferme et qu'il n'y ait plus de possibilité de repentir. Nous entendrions, de derrière la porte, ces paroles : Je ne vous connais pas. Nous pourrions entendre cela et pire encore si nous demeurions dans nos péchés.\nClôturons le sermon de notre père anba Chénouté l'archimandrite qui a éclairé nos pensées et les yeux de nos cœurs au Nom du Père, du Fils et du Saint Esprit, un seul Dieu, Amen",
-            "فلنتيقظ يا أحبائى قبلما يقفل دوننا الخدر وباب التوبة، ونضرع أمام الباب فنسمع: لست أعرفكم. كل هذه وأردأ منها نسمعها إذا تمادينا فى خطايانا.\nفلنختم موعظة أبينا القديس أنبا شنودة الذي أنار عقولنا وعيون قلوبنا بإسم الآب والإبن والروح القدس الإله الواحد آمين",
+            "فلنتيقظ يا أحبائى قبلما يقفل دوننا الخدر وباب التوبة، ونضرع أمام الباب فنسمع: لست أعرفكم. كل هذه وأردأ منها نسمعها إذا تمادينا في خطايانا.\nفلنختم موعظة أبينا القديس أنبا شنودة الذي أنار عقولنا وعيون قلوبنا بإسم الآب والإبن والروح القدس الإله الواحد آمين",
         ],
         [
             Prefix.HolyWeek + "9HDSermony&D=GL54&C=Diacon",
             "Marener `c`vragizin `n]katy,ycic `nte peniwt `e;ouab abba Senou] pi`ar,yman`drityc `vyetaferouwini `mpennouc nem nibal `nte nenhyt @ qen `vran `m~Viwt nem ~Psyri nem Pi`pneuma `e;ouab ounou] `nouwt @ `amyn",
             "Clôturons le sermon de notre saint père Abba Chénouté l’archimandrite qui a éclairé nos pensées et les yeux de nos cœurs au nom du Père, du Fils et du Saint Esprit, un seul Dieu, Amen !",
-            "فلنختم عظة أبينا القديس أنبا شنودة رئيس المتوحدين الذى أنار عقولنا وعيون قلوبنا بإسم الآب والإبن والروح القدس إله واحد. آمين.",
+            "فلنختم عظة أبينا القديس أنبا شنودة رئيس المتوحدين الذي أنار عقولنا وعيون قلوبنا بإسم الآب والإبن والروح القدس إله واحد. آمين.",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "9HDPsalm&D=GL54&C=Title",
             "Psaume de la Neuvième heure du mercredi",
-            "",
+            "Psaume de la Neuvième heure du mercredi",
             "مزمور الساعة التاسعة من يوم الأربعاء",
         ],
         [
@@ -5106,7 +5160,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "9HDGospel&D=GL54&C=Title",
             "Evangile de la Neuvième heure du mercredi",
-            "",
+            "Evangile de la Neuvième heure du mercredi",
             " إنجيل الساعة التاسعة من يوم الأربعاء",
         ],
         [
@@ -5119,19 +5173,19 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "9HDGospel&D=GL54&C=Diacon",
             "Matqeon  Kev k/ /> g/i\nTote auqwou; `ènje niarxh`èereuc nem niprecbuteroc `ènte pilaoc `èe'oun `èe;aulh `ènte piarxh`èereuc vh`èe]aumou; `èerof je Kai`èava. Ouo aueroucosni ina `ènce`èamoni `ènIhc? 'en ou`èxrof ouo `ènce'oqbef> naujw `èmmoc de pe je `èmpen`èqrenaic 'en `èp]ai je `ènne ou`è]qorter ]wpi 'en pilaoc.\nIhc? de efxh 'en Bhq`èani`èa 'en `èphi `ènCimwn pikakce	> ac`èi arof `ènje ou`ècimi `èere ouon oumoki `èncojen `èntotc`è ena]e `èncouenf ouo acjo]f `èe`è\\rhi `èejen tef`èave efrwteb > `èetaunau de `ènje nimaqhthc au`èxremrem eujw `èmmoc je paitako ou pe. Ne ouon `è]jom gar pe `èe; `èmvai `èebol 'a oumh] ouo `èethitou `ènnihki > `èetaf`èemi de `ènje Ih/c/ pejaf nwou > je eqbeou tetenoua'ici `èe;`ècimi > ouwb gar `èenanef petacaif `èeroi > nihki gar ce nemwten `ènchou niben `èanok de ;nemwten an `ènchou niben.\nAciou`èi gar `ènje qai `èmpaicojen `èejen pacwma `èe`èpjinkoct > `èamhn ;jw `èmmoc nwten > je `èvma `èetounaiwi] `èmpaieuaggelion `èmmof 'en pikocmoc thrf eu`èecaji wf `èmvh`èeta tai `ècimi aif eumeu`èi nac > tote af]enaf `ènje ouai `èebol'en pimht `ècnau vh`èe]aumou; `èerof je Ioudac Piickari`èwthc a niarxh`èereucè. Pejaf nwou je ou pe `èetetennathif nhi ouo `èanok w `èntathif `èetenqhnou `ènqwou de aucemnhtc nemaf `èe; naf `èmmap `ènat > ouo icjen pichou `èete `èmmau nafkw; pe `ènca oueukeria ina `èntefthif nwou.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
             "Matthieu 26 : 3-16\nAlors les grands prêtres et les anciens du peuple se réunirent dans le palais du Grand Prêtre, qui s'appelait Caïphe. Ils tombèrent d'accord pour arrêter Jésus par ruse et le tuer. Toutefois ils disaient: «Pas en pleine fête, pour éviter des troubles dans le peuple.» Comme Jésus se trouvait à Béthanie, dans la maison de Simon le lépreux, une femme s'approcha de lui, avec un flacon d'albâtre",
-            "متى ٢٦ : ٣ – ١٦\nحينئذ إجتمع رؤساء الكهنة وشيوخ الشعب فى دار رئيس الكهنة الذى يُدعى قيافا، وتشاوروا لكى يمسكوا يسوع بمكر ويقتلوه. وكانوا يقولون: لا نفعل هذا فى العيد لئلا يحدث شغب فى الشعب. وفيما كان يسوع فى بيت عنيا فى بيت سمعان الأبرص، جاءت إليه إمرأة ومعها قارورة طيب",
+            "متى ٢٦ : ٣ – ١٦\nحينئذ إجتمع رؤساء الكهنة وشيوخ الشعب في دار رئيس الكهنة الذي يُدعى قيافا، وتشاوروا لِكَي يمسكوا يسوع بمكر ويقتلوه. وكانوا يقولون: لا نفعل هذا في العيد لئلا يحدث شغب في الشعب. وفيما كان يسوع في بيت عنيا في بيت سمعان الأبرص، جاءت إليه إمرأة ومعها قارورة طيب",
         ],
         [
             Prefix.HolyWeek + "9HDGospel&D=GL54&C=Diacon",
             "",
             "contenant un parfum de grand prix; elle le versa sur la tête de Jésus pendant qu'il était à table. Voyant cela, les disciples s'indignèrent: «A quoi bon, disaient-ils, cette perte? On aurait pu le vendre très cher et donner la somme à des pauvres.» S'en apercevant, Jésus leur dit: «Pourquoi tracasser cette femme? C'est une bonne œuvre qu'elle vient d'accomplir envers moi. Des pauvres, en effet, vous en avez toujours avec vous; ",
-            "كثير الثمن وسكبته على رأسه وهو متكئ. فلما رأى التلاميذ ذلك تذمروا قائلين: لماذا هذا الإتلاف، لأنه قد كان يمكن أن يباع هذا بكثير ويعطى للمساكين، فعلم يسوع وقال لهم: لماذا تتعبون المرأة فإنها قد عملت بى عملاً حسناً، لأن المساكين معكم فى كل حين",
+            "كثير الثمن وسكبته على رأسه وهو متكئ. فلما رأى التلاميذ ذلك تذمروا قائلين: لماذا هذا الإتلاف، لأنه قد كان يمكن أن يباع هذا بكثير ويعطى للمساكين، فعلم يسوع وقال لهم: لماذا تتعبون المرأة فإنها قد عملت بى عملاً حسناً، لأن المساكين معكم في كل حين",
         ],
         [
             Prefix.HolyWeek + "9HDGospel&D=GL54&C=Diacon",
             "",
             "mais moi, vous ne m'avez pas pour toujours. En répandant ce parfum sur mon corps, elle a préparé mon ensevelissement. En vérité, je vous le déclare: partout où sera proclamé cet Évangile dans le monde entier, on racontera aussi, en souvenir d'elle, ce qu'elle a fait.» Alors l'un des Douze, qui s'appelait Judas Iscariote, se rendit chez les grands prêtres et leur dit: «Que voulez-vous me donner, et je vous le livrerai?»",
-            "وأما أنا فلست معكم فى كل حين، وهذه إنما سكبت هذا الطيب على جسدى لدفنى. الحق أقول لكم أنه حيثما يكرز بهذا الإنجيل فى كل العالم يخبر أيضا بما عملته هذه المرأة تذكاراً لها. حينئذ ذهب واحد من الإثنى عشر الذى يدعى يهوذا الإسخريوطى إلى رؤساء الكهنة، وقال لهم: ماذا تعطونى وأنا أسلمه إليكم؟ ",
+            "وأما أنا فلست معكم في كل حين، وهذه إنما سكبت هذا الطيب على جسدى لدفنى. الحق أقول لكم أنه حيثما يكرز بهذا الإنجيل في كل العالم يخبر أيضا بما عملته هذه المرأة تذكاراً لها. حينئذ ذهب واحد من الإثنى عشر الذي يدعى يهوذا الإسخريوطى إلى رؤساء الكهنة، وقال لهم: ماذا تعطونى وأنا أسلمه إليكم؟ ",
         ],
         [
             Prefix.HolyWeek + "9HDGospel&D=GL54&C=Diacon",
@@ -5144,33 +5198,33 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "9HDCommentary&D=GL54&C=Title",
             "Commentaire de la Neuvième heure du mercredi",
-            "",
+            "Commentaire de la Neuvième heure du mercredi",
             "طرح الساعة التاسعة من يوم الأربعاء",
         ],
         [
             Prefix.HolyWeek + "9HDCommentary&D=GL54&C=Diacon",
             "",
             "Commentaire\nEn prenant notre corps de la descendance d'Abraham, le père de tous les peuples, Tu as caché le mystère de Ton incarnation ô Christ notre Dieu. Lorsque, par la Foi, il sut que Dieu le Verbe devait S'incarner de sa descendance, et lorsqu'en plus il constata que sa vie sur terre tendait à sa fin, et que Dieu avait béni ses œuvres, il appela son plus vieux serviteur, le fidèle régisseur de tous ses biens et lui dit :",
-            "طــرح\nسر تأنسك أخفيته مع جسدنا أيها المسيح إلهنا. من زرع إبراهيم الأب العظيم أب جميع الشعوب، الذى لما علم بإيمان أن الإله الكلمة لابد أن يتجسد من نسله، وبالأكثر عندما رأى أيامه نقصت وأن الله بارك فى أعماله، فدعا عبده الكبير فى بيته، الوكيل  الأمين، وخاطبه قائلا:",
+            "طــرح\nسر تأنسك أخفيته مع جسدنا أيها المسيح إلهنا. من زرع ابراهيم الأب العظيم أب جميع الشعوب، الذي لما علم بإيمان أن الإله الكلمة لابد أن يتجسد من نسله، وبالأكثر عندما رأى أيامه نقصت وأن الله بارك في أعماله، فدعا عبده الكبير في بيته، الوكيل  الأمين، وخاطبه قائلا:",
         ],
         [
             Prefix.HolyWeek + "9HDCommentary&D=GL54&C=Diacon",
             "",
             "Mets ta main sous ma cuisse. Je te fais jurer par le Dieu du ciel que tu ne prendras pas pour mon fils Isaac une femme parmi les filles de cette terre où j'habite. Mais tu iras au pays de mes pères, et tu lui choisiras une femme de là-bas, de ma tribu et de la race de mes pères. Le serviteur répondit avec raison: écoute mon maître, si la femme ne veut pas me suivre dans ce pays-ci, voudras-tu que je ramène ton fils dans le pays d'où tu es sorti et que je le serve ? ",
-            "ضع يدك تحت فخذى لأحلفك بإله السماء أنك لا تأخذ إمرأة لإبنى إسحق من هذه الأرض التى أنا أسكنها، بل إمض إلى أرض آبائى وخذ له إمرأة من ذلك المكان، من قبيلتى ومن جنس آبائى، خذ له العربون بغير تهاون. فأجابه العبد بعقل هكذا قائلاً: إسمع يا سيدى، إن أبت المرأة أن تأتى معى إلى هذه الأرض أفتريد أن أرد إبنك إسحق وآخذه معى إلى أن آتى به إلى هنا ؟ ",
+            "ضع يدك تحت فخذى لأحلفك بإله السماء أنك لا تأخذ إمرأة لإبنى إسحق من هذه الأرض التى أنا أسكنها، بل إمض إلى أرض آبائى وخذ له إمرأة من ذلك المكان، من قبيلتى ومن جنس آبائى، خذ له العربون بغير تهاون. فأجابه العبد بعقل هكذا قائلاً: إسمع يا سيدى، إن أبت المرأة أن تأتى مَعِي إلى هذه الأرض أفتريد أن أرد إبنك إسحق وآخذه مَعِي إلى أن آتى به إلى هنا ؟ ",
         ],
         [
             Prefix.HolyWeek + "9HDCommentary&D=GL54&C=Diacon",
             "",
             "Abraham lui répondit: Garde-toi bien de ramener mon fils là-bas, si elle ne veut pas te suivre, tu seras quitte du serment. Le serviteur mit sa main sous la cuisse de son maître et il lui prêta serment pour cette affaire. Et à la fin des temps, Dieu accomplit cette promesse qu'Il a faite à notre père Abraham et le Christ S'est manifesté de sa postérité. Par Lui toutes les nations sont bénies.",
-            "فقال له : إحذر أن ترد إبنى، فإن لم تجئ فأنت برئ. فوضع العبد يده وحلف له على ثبات هذا القول. وفى آخر الزمان أكمل الله هذا الوعد الذى وعد به أبانا إبراهيم وظهر المسيح من صلبه الذى تتبارك به سائر الأمم.",
+            "فقال له : إحذر أن ترد إبنى، فإن لم تجئ فأنت برئ. فوضع العبد يده وحلف له على ثبات هذا القول. وفى آخر الزمان أكمل الله هذا الوعد الذي وعد به أبانا ابراهيم وظهر المسيح من صلبه الذي تتبارك به سائر الأمم.",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "11HDProphecies&D=GL54&C=Title",
             "Prophecies de la Onzième heure du mercredi",
-            "",
+            "Prophecies de la Onzième heure du mercredi",
             "نبوات الساعة الحادية عشر من يوم الأربعاء",
         ],
         [
@@ -5208,7 +5262,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "11HDSermony&D=GL54&C=Title",
             "Sermon de  Onzième heure du mercredi",
-            "",
+            "Sermon de  Onzième heure du mercredi",
             "عظة لأبينا الساعة الحادية عشر من يوم الأربعاء",
         ],
         [
@@ -5221,32 +5275,32 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "11HDSermony&D=GL54&C=Diacon",
             "",
             "Sermon de notre saint père Saint Sévère que sa sainte bénédiction repose sur nous tous. Amen !\nFrères, je vous rappelle maintenant la voix qu'entendront les pécheurs qui renient la Loi et les commandements de vie. Il a dit: éloignez-vous de moi, maudits, et allez vers le feu éternel. Quelle consolation pourront-ils attendre encore? Ce lieu est la vallée des pleurs et des larmes. Ce sont des larmes qui ne mènent pas à la",
-            "عظة لأبينا القديس أنبا ساويرس بركته المقدسة تكون معنا. آمين\nأيها الإخوة ها أنا أذكركم الآن من أجل وقوع الصوت الذى ينزل بالخطاة، والذين يكفرون بالناموس ووصايا الحيوة، لأنه يقول: أبعدوا عنى يا ملاعين إلى النار الأبدية، فأى عزاء ينظرونه هؤلاء بعد ذلك ؟ ها هنا بالحقيقة هو وادى البكاء حيث تكون الدموع، هذه هى التى ليست بعدها زينة للنفس. ",
+            "عظة لأبينا القديس أنبا ساويرس بركته المقدسة تكون معنا. آمين\nأيها الإخوة ها أنا أذكركم الآن من أجل وقوع الصوت الذي ينزل بالخطاة، والذين يكفرون بالناموس ووصايا الحيوة، لأنه يقول: أبعدوا عنى يا ملاعين إلى النار الأبدية، فأى عزاء ينظرونه هؤلاء بعد ذلك ؟ ها هنا بالحقيقة هو وادى البكاء حيث تكون الدموع، هذه هى التى ليست بعدها زينة للنفس. ",
         ],
         [
             Prefix.HolyWeek + "11HDSermony&D=GL54&C=Diacon",
             "",
             "consolation. Qui pourra intercéder pour les pécheurs en ce jour? Les anges, les chérubins et les séraphins, se tairont. En ce jour, aucun parmi les justes et les saints ne pourra intercéder pour l'humanité. Toute la création se tiendra silencieuse et le monde entier sera soumis à la justice du jugement divin. Ceci est le temps de la récolte. Ceci est le moment de tirer le filet sur la rive où on séparera le bon poisson du mauvais. Ceci est le jour où il sera",
-            "من ذا الذى يقدر أن يطلب عن الخطاة فى ذلك اليوم لأن الملائكة والشروبيم والسارافيم تصمت وجميع الأبرار والصديقين، لا يستطيع أحد منهم أن يشفع فى البشرية فى ذلك اليوم. وتقف جميع الخليقة صامتة والعالم كله يكون تحت الحكم الإلهى العادل. هذا هو زمان الحصاد، هذا هو وقت جذب الشبكة للشاطئ وعزل السمك الجيد عن الردئ، ",
+            "من ذا الذي يقدر أن يطلب عن الخطاة في ذلك اليوم لأن الملائكة والشروبيم والسارافيم تصمت وجميع الأبرار والصديقين، لا يستطيع أحد منهم أن يشفع في البشرية في ذلك اليوم. وتقف جميع الخليقة صامتة والعالم كله يكون تحت الحكم الإلهى العادل. هذا هو زمان الحصاد، هذا هو وقت جذب الشبكة للشاطئ وعزل السمك الجيد عن الردئ، ",
         ],
         [
             Prefix.HolyWeek + "11HDSermony&D=GL54&C=Diacon",
             "",
             "dit aux pécheurs: allez à la géhenne, votre demeure éternelle. \nClôturons le sermon de notre père saint Sévère qui a éclairé nos pensées et les yeux de nos cœurs au Nom du Père, du Fils et du Saint Esprit, un seul Dieu, Amen",
-            "هذا هو اليوم الذى يقال فيه للخطاة: إذهبوا إلى الجحيم مسكنكم إلى الأبد.\nفلنختم عظة أبينا القديس أنبا ساويرس الذي أنار عقولنا وعيون قلوبنا بإسم الآب الإبن والروح القدس إله واحد. آمين.",
+            "هذا هو اليوم الذي يقال فيه للخطاة: إذهبوا إلى الجحيم مسكنكم إلى الأبد.\nفلنختم عظة أبينا القديس أنبا ساويرس الذي أنار عقولنا وعيون قلوبنا بإسم الآب الإبن والروح القدس إله واحد. آمين.",
         ],
         [
             Prefix.HolyWeek + "11HDSermony&D=GL54&C=Diacon",
             "Marener `c`vragizin `n]katy,ycic `nte peniwt `e;ouab abba Ceuyroc `vyetaferouwini `mpennouc nem nibal `nte nenhyt @ qen `vran `m~Viwt nem ~Psyri nem Pi`pneuma `e;ouab ounou] `nouwt @ `amyn",
             "Clôturons le sermon de notre saint père Abba Sévère qui a éclairé nos pensées et les yeux de nos cœurs au nom du Père, du Fils et du Saint Esprit, un seul Dieu, Amen !",
-            "فلنختم عظة أبينا القديس أنبا ساويرس الذى أنار عقولنا وعيون قلوبنا بإسم الآب والإبن والروح القدس إله واحد. آمين.",
+            "فلنختم عظة أبينا القديس أنبا ساويرس الذي أنار عقولنا وعيون قلوبنا بإسم الآب والإبن والروح القدس إله واحد. آمين.",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "11HDPsalm&D=GL54&C=Title",
             "Psaume de la Onzième heure du mercredi",
-            "",
+            "Psaume de la Onzième heure du mercredi",
             "مزمور الساعة الحادية عشر من يوم الأربعاء",
         ],
         [
@@ -5260,7 +5314,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "11HDGospel&D=GL54&C=Title",
             "Evangile de la Onzième heure du mercredi",
-            "",
+            "Evangile de la Onzième heure du mercredi",
             " إنجيل الساعة الحادية عشر من يوم الأربعاء",
         ],
         [
@@ -5273,7 +5327,7 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "11HDGospel&D=GL54&C=Diacon",
             "Iwannhn  Kev i/b/> k/z/ - l/ ,/\nÛ:nou `èa tayuxh `è]qorter ouo ou pe;najof > paiwt namet `èebol'en tai ounou > alla eqbe vai ai`èi `èetai ounou > Viwt ma`èwou `èmpek]hri > ou`ècmh ac`èi `èebol'en `ètve ecjw `èmmoc > je ai;`èwou palin ;na;`èwou > pimh] oun `èenafo`èi `èeratf `èetaucwtem naujw `èmmoc je ou 'arabai petac]wpi > ankexwouni de naujw `èmmoc je ouaggeloc petafcaji nemaf.\nAferou`èw `ènje Ihc? efjw `èmmoc je `èetac]wpi an eqbht `ènje tai `ècmh > alla eqbe qhnou > ;nou `èpap `èmpaikocmoc > ;nou `èparxwn `ènte paikocmoc eu`èeitf `èebol > ouo `èanok w ai]ansici `èebola `èpkai ei`èecek ouon niben aroi > vai de efjw `èmmof ef;mhini je 'en a] `èmmou `èfnamou.\nAferou`èw `ènje pimh] efjw `èmmoc je `èanon ancwtem `èebol'en pinomoc je Pxc? ]op ]a `èene ouo pwc `ènqok `èkjw `èmmoc > je w; pe `èntousec `èp]hri `èm`èvrwmi > nim pe `èp]hri `èm`èvrwmi > peje Ihc? nwou > je `èeti kekouji `ènchou piouwini 'en qhnou > mo]i oun 'en piouwini oc piouwini `èntenqhnou > ina `ènte`è]tem pixaki tae qhnou > je vheqmo]i 'en pixaki `èn`èf`èemi an je afmo]i `èeqwn > wc piouwini `èntenqhnou na; `èepiouwini ina `èntetener]hri `èmpiouwini.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
             "Jean 12 : 27-36\n«Maintenant mon âme est troublée, et que dirai-je? Père, sauve-moi de cette heure? Mais c'est précisément pour cette heure que je suis venu. Père, glorifie ton nom.» Alors, une voix vint du ciel: «Je l'ai glorifié et je le glorifierai encore.» La foule qui se trouvait là et qui avait entendu disait que c'était le tonnerre; d'autres disaient qu'un ange lui avait parlé. Jésus reprit la parole: «Ce n'est pas pour moi que cette voix a",
-            "يوحنا ١٢ : ٢٧ – ٣٦\nالآن نفسى قد إضطربت، فماذا أقول، يا أبتاه نجنى من هذه الساعة، ولكن لأجل هذا أتيت إلى هذه الساعة. أيها الآب مجد إبنك. فجاء صوت من السماء قائلاً: قد مجدت وسأمجد أيضاً. فلما سمع الجمع الذى كان واقفاً قالوا: رعد هو الذى حدث، وآخرون قالوا: ملاك هو الذى كلمه. أجاب يسوع وقال: ليس من أجلى حدث هذا الصوت، ",
+            "يوحنا ١٢ : ٢٧ – ٣٦\nالآن نفسى قد إضطربت، فماذا أقول، يا أبتاه نجنى من هذه الساعة، ولكن لأجل هذا أتيت إلى هذه الساعة. أيها الآب مجد إبنك. فجاء صوت من السماء قائلاً: قد مجدت وسأمجد أيضاً. فلما سمع الجمع الذي كان واقفاً قالوا: رعد هو الذي حدث، وآخرون قالوا: ملاك هو الذي كلمه. أجاب يسوع وقال: ليس من أجلى حدث هذا الصوت، ",
         ],
         [
             Prefix.HolyWeek + "11HDGospel&D=GL54&C=Diacon",
@@ -5285,66 +5339,66 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "11HDGospel&D=GL54&C=Diacon",
             "",
             "Qui est-il, ce Fils de l'homme?» Jésus leur répondit: «La lumière est encore parmi vous pour un peu de temps. Marchez pendant que vous avez la lumière, pour que les ténèbres ne s'emparent pas de vous: car celui qui marche dans les ténèbres ne sait où il va. Pendant que vous avez la lumière croyez en la lumière, pour devenir des fils de lumière.»\nGloire à Dieu éternellement.",
-            "من هو هذا إبن الإنسان ؟! فقال لهم يسوع : النور معكم زماناً يسيراً، فسيروا فى النورمادام لكم النور لئلا يدرككم الظلام، لأن الذى يمشى فى الظلام لا يدرى أين يذهب. مادام لكم النور آمنوا بالنور لتصيروا أبناء النور.	\nوالمجد لله دائماً.",
+            "من هو هذا إبن الإنسان ؟! فقال لهم يسوع : النور معكم زماناً يسيراً، فسيروا في النورمادام لكم النور لئلا يدرككم الظلام، لأن الذي يمشى في الظلام لا يدرى أين يذهب. مادام لكم النور آمنوا بالنور لتصيروا أبناء النور.	\nوالمجد لله دائماً.",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "11HDCommentary&D=GL54&C=Title",
             "Commentaire de la Onzième heure du mercredi",
-            "",
+            "Commentaire de la Onzième heure du mercredi",
             "طرح الساعة الحادية عشر من يوم الأربعاء",
         ],
         [
             Prefix.HolyWeek + "11HDCommentary&D=GL54&C=Diacon",
             "",
             "Commentaire\nAdmirez, vous les savants, l'organisation de Dieu le Verbe qui détient entre ses mains le pouvoir de vie et de mort pour chacun. A cause du corps humain qu'Il a pris, Il est pris d'inquiétude et de faiblesse. Le Sauveur a dit: maintenant mon âme est bouleversée. Que dirai-je? Père, délivre-moi de cette heure? Mais c'est pour cela que je suis parvenu à cette heure-ci! En vérité, Il est venu dans le monde pour",
-            "طــرح\nتأملوا يا أهل المعرفة تدبير الله الكلمة الذى بيده سلطان الموت وحياة كل أحد من عنده، لكن لأجل جسد البشرية الذى أخذه منا يظهر القلق والضعف. قال المخلص : الآن نفسى مضطربة وماذا أقول، يا أبتاه نجنى من هذه الساعة، لكن لأجل هذه الساعة أتيت. نعم بالحقيقة أتى إلى العالم لكى ",
+            "طــرح\nتأملوا يا أهل المعرفة تدبير الله الكلمة الذي بيده سلطان الموت وحياة كل أحد من عنده، لكن لأجل جسد البشرية الذي أخذه منا يظهر القلق والضعف. قال المخلص : الآن نفسى مضطربة وماذا أقول، يا أبتاه نجنى من هذه الساعة، لكن لأجل هذه الساعة أتيت. نعم بالحقيقة أتى إلى العالم لِكَي ",
         ],
         [
             Prefix.HolyWeek + "11HDCommentary&D=GL54&C=Diacon",
             "",
             "souffrir afin de nous sauver, faire sortir de l'enfer le premier homme qu'Il a créé et, selon Sa grande miséricorde, le rendre à sa patrie d'origine, lui et sa descendance. Implorons-Le sans nonchalance, demandons-Lui sans tiédeur de nous associer à la gloire de Son royaume et de nous enraciner jusqu'au dernier soupir dans la Foi en son saint Nom. ",
-            "يتألم من أجل خلاصنا، ويصعد من الجحيم الإنسان الأول الذى خلقه ويرده إلى وطنه الأول هو وبنيه كعظيم رحمته. فلنصرخ نحوه بغير تكاسل ونطلب إليه بغير فتور لكى يجعلنا شركاء معه فى مجد ملكوته ويثبتنا إلى النفس الأخير علي الإيمان بإسمه القدوس.",
+            "يتألم من أجل خلاصنا، ويصعد من الجحيم الإنسان الأول الذي خلقه ويرده إلى وطنه الأول هو وبنيه كعظيم رحمته. فلنصرخ نحوه بغير تكاسل ونطلب إليه بغير فتور لِكَي يجعلنا شركاء معه في مجد ملكوته ويثبتنا إلى النفس الأخير علي الإيمان بإسمه القدوس.",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "1HEProphecies&D=GL54&C=Title",
             "Prophecies de la Première heure de la veille du jeudi",
-            "",
+            "Prophecies de la Première heure de la veille du jeudi",
             "نبوات الساعة الأولى من ليلة الخميس",
         ],
         [
             Prefix.HolyWeek + "1HEProphecies&D=GL54&C=Diacon",
             "Ebolqen Iezekiyl piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nOuo afolt `ènje oup/n/a/ ouo afent `èe'oun `èe;aulh `èetca'oun > ouo hppe ic pihi `èeafmo `èebol'en `èp`èwou `ènte Pç_.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
             "Ezechiel 43 : 5-11\nL'esprit m'enleva et me fit entrer dans le parvis intérieur, et voici que la gloire du Seigneur emplissait le Temple. J'entendis quelqu'un me parler depuis le Temple, ",
-            "حزقيال ٤٣ : ٥- ١١\nفحملنى الروح وأدخلنى إلى الدار الداخلية. وإذ البيت ممتلئ من مجد الرب. فوقفت وإذا بصوت يتكلم معى من البيت،",
+            "حزقيال ٤٣ : ٥- ١١\nفحملنى الروح وأدخلنى إلى الدار الداخلية. وإذ البيت ممتلئ من مجد الرب. فوقفت وإذا بصوت يتكلم مَعِي من البيت،",
         ],
         [
             Prefix.HolyWeek + "1HEProphecies&D=GL54&C=Diacon",
             "",
             "tandis que l'homme se tenait près de moi. On me dit: Fils d'homme, c'est ici le lieu de mon trône, le lieu où je pose la plante de mes pieds. J'y habiterai au milieu des Israélites, à jamais; et la maison d'Israël, eux et leurs rois, ne souilleront plus mon saint nom par leurs prostitutions et par les cadavres de leurs rois, en mettant leur seuil près de mon seuil et leurs montants près de mes montants, en établissant un mur commun entre eux et moi. ",
-            "وكان الرجل واقفاً بجانبى، وقال لى: أترى يا إبن الإنسان مكان عرشى وموضع باطن قدمى؟ هؤلاء الذين يكون فيهم إسمى فى وسط بيت إسرائيل إلى الأبد، ولن ينجس بعد بيت إسرائيل إسمى القدوس. لا هم ولا مدبريهم فى الإثم. وقتل مدبريهم فى وسطهم عندما جعلوا بابى عند أبوابهم، وأعتابى بجانب أعتابهم، وجعلوا سياجهم كالحائط بينى وبينهم، ",
+            "وكان الرجل واقفاً بجانبى، وقال لى: أترى يا إبن الإنسان مكان عرشى وموضع باطن قدمى؟ هؤلاء الذين يكون فيهم إسمى في وسط بيت إسرائيل إلى الأبد، ولن ينجس بعد بيت إسرائيل إسمى القدوس. لا هم ولا مدبريهم في الإثم. وقتل مدبريهم في وسطهم عندما جعلوا بابى عند أبوابهم، وأعتابى بجانب أعتابهم، وجعلوا سياجهم كالحائط بينى وبينهم، ",
         ],
         [
             Prefix.HolyWeek + "1HEProphecies&D=GL54&C=Diacon",
             "",
             "Ils souillaient mon saint nom par les abominations auxquelles ils se livraient, c'est pourquoi je les ai dévorés dans ma colère. Désormais ils éloigneront de moi leurs prostitutions et les cadavres de leurs rois, et j'habiterai au milieu d'eux, à jamais. Et toi, fils d'homme, décris ce Temple à la maison d'Israël, afin qu'ils rougissent de leurs abominations. Qu'ils en mesurent le plan. Et s'ils rougissent de toute leur conduite, ",
-            "فنجسوا إسمى القدوس بآثامهم التى يفعلونها، فسحقتهم بغضبى قتلاً. والآن فليتركوا شرورهم. وقتل مدبريهم أمامى، فأحل فى وسطهم إلى الأبد، وأنت أيضاً يا إبن الإنسان أخبر بيت إسرائيل عن البيت وشكله ورسمه فيكفون عن خطاياهم، وهؤلاء ينالون عقابهم من أجل كل ما صنعوه، ",
+            "فنجسوا إسمى القدوس بآثامهم التى يفعلونها، فسحقتهم بغضبى قتلاً. والآن فليتركوا شرورهم. وقتل مدبريهم أمامى، فأحل في وسطهم إلى الأبد، وأنت أيضاً يا إبن الإنسان أخبر بيت إسرائيل عن البيت وشكله ورسمه فيكفون عن خطاياهم، وهؤلاء ينالون عقابهم من أجل كل ما صنعوه، ",
         ],
         [
             Prefix.HolyWeek + "1HEProphecies&D=GL54&C=Diacon",
             "",
             "enseigne-leur la forme du Temple et son plan, ses issues et ses entrées, sa forme et toutes ses dispositions, toute sa forme et toutes ses lois. Mets tout cela par écrit devant leurs yeux, afin qu'ils observent sa forme et toutes ses dispositions et qu'ils les réalisent.\nGloire à la sainte Trinité notre Dieu.",
-            "وترسم البيت وهيئته ومخارجه ومداخله ونظامه، وكل أوامره أخبرهم بها. وأكتب ذلك أمامهم فيحفظون جميع حقوقى وجميع وصاياى ويعملون بها.\nمجداً للثالوث الأقدس إلهنا آمين.",
+            "وترسم البيت وهيئته ومخارجه ومداخله ونظامه، وكل أوامره أخبرهم بها. وأكتب ذلك أمامهم فيحفظون جميع حقوقى وجميع وَصَايَاي ويعملون بها.\nمجداً للثالوث الأقدس إلهنا آمين.",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "1HEPsalm&D=GL54&C=Title",
             "Psaume de la Première heure de la veille du jeudi",
-            "",
+            "Psaume de la Première heure de la veille du jeudi",
             "مزمور الساعة الأولى من ليلة الخميس",
         ],
         [
@@ -5358,7 +5412,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "1HEGospel&D=GL54&C=Title",
             "Evangile de la Première heure de la veille du jeudi",
-            "",
+            "Evangile de la Première heure de la veille du jeudi",
             " إنجيل الساعة الأولى من ليلة الخميس",
         ],
         [
@@ -5384,20 +5438,20 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "1HECommentary&D=GL54&C=Title",
             "Commentaire de la Première heure de la veille du jeudi",
-            "",
+            "Commentaire de la Première heure de la veille du jeudi",
             "طرح الساعة الأولى من ليلة الخميس",
         ],
         [
             Prefix.HolyWeek + "1HECommentary&D=GL54&C=Diacon",
             "",
             "Commentaire\nNotre Seigneur, notre Dieu et notre Roi le Christ montre sa Divinité et son autorité. Il est le Dieu qui s'élève au dessus de tout pouvoir, au ciel et sur terre. Ainsi Il a dit: «Le Père m'aime, parce que je donne ma vie pour la reprendre. Personne ne me l'enlève; mais je la donne de moi-même. J'ai pouvoir de la donner et j'ai pouvoir de la reprendre.» Il y eut une division parmi les Juifs à cause de ces paroles. ",
-            "طــرح\nربنا وسيدنا وملكنا المسيح يظهر لاهوته وسلطانه. أنه هو الإله المتعالى على كل رئاسة وكل سلطان فى السماء وعلى الأرض، فلذلك يقال: إن الآب يحبنى فإنى أضع نفسى لكى آخذها، وليس أحد ينزعها منى، لكن أنا الذى أضعها بإرادتى. فإن لى سلطان أن أضعها لى ولى سلطان أن آخذها. فصار إنشقاق بين اليهود من أجل هذا الكلام الذى قاله لهم. ",
+            "طــرح\nربنا وسيدنا وملكنا المسيح يظهر لاهوته وسلطانه. أنه هو الإله المتعالى على كل رئاسة وكل سلطان في السماء وعلى الأرض، فلذلك يقال: إن الآب يحبنى فإنى أضع نفسى لِكَي آخذها، وليس أحد ينزعها منى، لكن أنا الذي أضعها بإرادتى. فإن لي سلطان أن أضعها لي ولى سلطان أن آخذها. فصار إنشقاق بين اليهود من أجل هذا الكلام الذي قاله لهم. ",
         ],
         [
             Prefix.HolyWeek + "1HECommentary&D=GL54&C=Diacon",
             "",
             "Quelques-uns parmi les hypocrites dirent: «Il est fou, pourquoi est-ce que vous l’écoutez?» D'autres disaient: «Ces paroles ne sont pas de quelqu’un possédé par le démon. Un démon ne peut pas ouvrir les yeux d'un aveugle-né.» C'est Lui en vérité qui éclaire les cœurs de ceux qui croient en Lui à l'exception des Juifs contrevenants. Il a aveuglé les yeux de leurs cœurs et de leurs corps pour empêcher leurs yeux de voir et leurs cœurs de comprendre ",
-            "وقال قوم من المنافقين إنه مجنون،\nلماذا تسمعون منه؟ وقال آخرون: هذا الكلام ليس هو كلام إنسان به شيطان، لا يقدر مجنون أن يفتح عينى أعمى مولود. هو بالحقيقة الذى يضيئ أعين قلوب المؤمنين به ما خلا اليهود المخالفين، طمس عيون قلوبهم وأجسادهم كيلا ينظروا بعيونهم ويفهموا بقلوبهم ",
+            "وقال قوم من المنافقين إنه مجنون،\nلماذا تسمعون منه؟ وقال آخرون: هذا الكلام ليس هو كلام إنسان به شيطان، لا يقدر مجنون أن يفتح عَيْنِي أعمى مولود. هو بالحقيقة الذي يضيئ أعين قلوب المؤمنين به ما خلا اليهود المخالفين، طمس عيون قلوبهم وأجسادهم كيلا ينظروا بعيونهم ويفهموا بقلوبهم ",
         ],
         [
             Prefix.HolyWeek + "1HECommentary&D=GL54&C=Diacon",
@@ -5410,7 +5464,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "3HEProphecies&D=GL54&C=Title",
             "Prophecies de la Troisième heure de la veille du jeudi",
-            "",
+            "Prophecies de la Troisième heure de la veille du jeudi",
             "نبوات الساعة الثالثة من ليلة الخميس",
         ],
         [
@@ -5423,7 +5477,7 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "3HEProphecies&D=GL54&C=Diacon",
             "",
             "faites brûler du levain en sacrifice de louange, criez vos offrandes volontaires, annoncez-les, puisque c'est cela que vous aimez, enfants d'Israël! Oracle du Seigneur Dieu. Aussi, moi je vous ai fait les dents nettes en toutes vos villes, je vous ai privés de pain dans tous vos villages; et vous n'êtes pas revenus à moi! Oracle du Seigneur. Aussi, moi je vous ai refusé la pluie, juste trois mois avant la moisson; ",
-            "وقرأتم ناموساً خارجاً. طلبوا الإعتراف والإنذار لأن بنى إسرائيل أحبوا هذه قال الرب الإله، فإنى أنا سأعطيكم ضرس الأسنان فى جميع مدنكم، وعوز الخبز فى جميع أماكنكم، فلم ترجعوا إلىّ يقول الرب، وأنا أيضاً منعت عنكم المطر قبل الحصاد بثلاثة أشهر، ",
+            "وقرأتم ناموساً خارجاً. طلبوا الإعتراف والإنذار لأن بنى إسرائيل أحبوا هذه قال الرب الإله، فإنى أنا سأعطيكم ضرس الأسنان في جميع مدنكم، وعوز الخبز في جميع أماكنكم، فلم ترجعوا إلىّ يقول الرب، وأنا أيضاً منعت عنكم المطر قبل الحصاد بثلاثة أشهر، ",
         ],
         [
             Prefix.HolyWeek + "3HEProphecies&D=GL54&C=Diacon",
@@ -5435,20 +5489,20 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "3HEProphecies&D=GL54&C=Diacon",
             "",
             "la sauterelle les a dévorés; et vous n'êtes pas revenus à moi! Oracle du Seigneur. J'ai envoyé parmi vous une peste, comme la peste d'Égypte; j'ai tué vos jeunes gens par l'épée, tandis que vos chevaux étaient capturés; j'ai fait monter à vos narines la puanteur de vos camps; et vous n'êtes pas revenus à moi! Oracle du Seigneur. Je vous ai bouleversés comme Dieu bouleversa Sodome et Gomorrhe, et vous avez été comme un tison sauvé de l'incendie; ",
-            "وكذلك أيضاً لم ترجعوا إلىّ قال الرب، فأرسلت عليكم وباءً فى طرق مصر. قتلت بالسيف شبابكم مع سلب خيلكم، وأتيت بالنار على عساكركم بغضب، هكذا أيضاً لم ترجعوا إلىّ يقول الرب. فهدمتكم كما هدم اللهُ سَدُومَ وَعَمُورَةَ، فَصِرْتُمْ كعشب قد أُحرق بالنار، ",
+            "وكذلك أيضاً لم ترجعوا إلىّ قال الرب، فأرسلت عليكم وباءً في طرق مصر. قتلت بالسيف شبابكم مع سلب خيلكم، وأتيت بالنار على عساكركم بغضب، هكذا أيضاً لم ترجعوا إلىّ يقول الرب. فهدمتكم كما هدم اللهُ سَدُومَ وَعَمُورَةَ، فَصِرْتُمْ كعشب قد أُحرق بالنار، ",
         ],
         [
             Prefix.HolyWeek + "3HEProphecies&D=GL54&C=Diacon",
             "",
             "et vous n'êtes pas revenus à moi! Oracle du Seigneur. C'est pourquoi, voici comment je vais te traiter, Israël! Parce que je vais te traiter ainsi, prépare-toi à rencontrer ton Dieu, Israël! Car c'est lui qui forme les montagnes et qui crée le vent, qui révèle à l'homme ses pensées, qui change l'aurore en ténèbres, et qui marche sur les hauteurs de la terre: Le Seigneur, Dieu Sabaot, est son nom.\nGloire à la sainte Trinité notre Dieu.",
-            "فَلَمْ تَرْجِعُوا إِلَيَّ، يَقُولُ الرَّبُّ. \nلذلك أصنع بك هكذا يا إسرائيل، وبما إنى أصنع هذا فإستعد لتدعوا إلهك يا إسرائيل فها أنا المثبت الرعد والخالق الريح والمبشر بمسيحه فى البشر، الخالق الصبح والنسمة والراكب على أعالى الأرض، الرب الإله الضابط الكل هو إسمه.\nمجدًا للثالوث الأقدس إلهنا آمين",
+            "فَلَمْ تَرْجِعُوا إِلَيَّ، يَقُولُ الرَّبُّ. \nلذلك أصنع بك هكذا يا إسرائيل، وبما إنى أصنع هذا فإستعد لتدعوا إلهك يا إسرائيل فها أنا المثبت الرعد والخالق الريح والمبشر بمسيحه في البشر، الخالق الصبح والنسمة والراكب على أعالى الأرض، الرب الإله الضابط الكل هو إسمه.\nمجدًا للثالوث الأقدس إلهنا آمين",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "3HEPsalm&D=GL54&C=Title",
             "Psaume de la Troisième heure de la veille du jeudi",
-            "",
+            "Psaume de la Troisième heure de la veille du jeudi",
             "مزمور الساعة الثالثة من ليلة الخميس",
         ],
         [
@@ -5462,7 +5516,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "3HEGospel&D=GL54&C=Title",
             "Evangile de la Troisième heure de la veille du jeudi",
-            "",
+            "Evangile de la Troisième heure de la veille du jeudi",
             " إنجيل الساعة الثالثة من ليلة الخميس",
         ],
         [
@@ -5475,65 +5529,65 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "3HEGospel&D=GL54&C=Diacon",
             "Markon Kev i/d/ > g/ - i/a /\nOuo efxh 'en Bhqani`èa 'en `èphi `ènCimwn pikakce	 efrwteb ac`èi `ènje ou`ècimi `èereouon oumoki `èncojen nardoc è`èntotc `èmpictikh `èena]e `èncouenf. Eac'om'em `èmpimoki `èeacjo]f `èejen tef`èave. Nare anouon `èxremrem nem nou`èerhou > je eqbe ou `èa paitako `ènte paicojen ]wpi. Ne ouon `è]jom gar `èe; `èmvai `èebol ca`èp]wi `èn]omt ]e `èncaqeri ouo `èntou thitou `ènnihki > ouo nau`èmbon `èeroc pe.\nIh/c/ de pejaf nwou je xac > `èa'wten teten;'ici nac > ouwb `èenanef `èetacerwb `èerof `èn'ht. Nchou niben nihki ce nemwten > ouo `èe]wp `èntetenouw] ouon`è]jom `èmmwten `èeer peqnanef nwou `ènchou niben > `èanok de ;nemwten an `ènchou niben. Vh`èetacsitf acaif acer]orp gar `ènqac `èmpacwma `èmpaicojen `èe`èpjinkoct. \nAmhn ;jw `èmmoc nwten > je pima `èetounaiwi] `èmpaieuaggelion `èmmof 'en pikocmoc thrf > vhwf `èeta qai aif eu`èecaji `èmmof eumeu`èi nac. Ouo Ioudac Piickariwthc piouai `ènte pimht `ècnau af]enaf a niarxh`èereuc ina `èntefthif nwou. Nqwou de `èetaucwtem aura]i ouo au; naf `ènouat > ouo nafkw; je pwc `èfnathif 'en oueukeria .  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
             "Marc 14 : 3-11\nComme il se trouvait à Béthanie, chez Simon le lépreux, alors qu'il était à table, une femme vint, avec un flacon d'albâtre contenant un nard pur, de grand prix. Brisant le flacon, elle le lui versa sur la tête. Or il y en eut qui s'indignèrent entre eux: «A quoi bon ce gaspillage de parfum? Ce parfum pouvait être vendu plus de trois cents deniers et donné aux pauvres.» Et ils la rudoyaient. ",
-            "مرقس ١٤ : ٣-١١\nوفيما هو فى بيت عنيا فى منزل سمعان الأبرص متكئاً، جاءت إمرأة ومعها قارورة طيب ناردين خالص كثير الثمن، فكسرت القارورة وسكبته على رأسه، وكان قوم قد تذمروا فيما بينهم قائلين: لم كان إتلاف هذا الطيب، فإنه كان يمكن أن يباع هذا بأكثر من ثلثمائة دينار ويعطى للمساكين. وكانوا يؤنبونها، ",
+            "مرقس ١٤ : ٣-١١\nوفيما هو في بيت عنيا في منزل سمعان الأبرص متكئاً، جاءت إمرأة ومعها قارورة طيب ناردين خالص كثير الثمن، فكسرت القارورة وسكبته على رأسه، وكان قوم قد تذمروا فيما بينهم قائلين: لم كان إتلاف هذا الطيب، فإنه كان يمكن أن يباع هذا بأكثر من ثلثمائة دينار ويعطى للمساكين. وكانوا يؤنبونها، ",
         ],
         [
             Prefix.HolyWeek + "3HEGospel&D=GL54&C=Diacon",
             "",
             "Mais Jésus dit: «Laissez-la ; pourquoi la tracassez-vous? C'est une bonne œuvre qu'elle a accomplie sur moi. Les pauvres, en effet, vous les aurez toujours avec vous et, quand vous le voudrez, vous pourrez leur faire du bien, mais moi, vous ne m'aurez pas toujours. Elle a fait ce qui était en son pouvoir: d'avance elle a parfumé mon corps pour l'ensevelissement. En vérité, je vous le dis, partout où sera proclamé l'Évangile au monde entier,",
-            "فقال لهم يسوع: دعوها، ما بالكم تعنفونها؟ عملاً حسناً الذى عملته بى، فإن المساكين معكم كل حين، وإذا أردتم أمكنكم أن تحسنوا إليهم فى كل حين، وأما أنا فلست معكم فى كل حين، وما نالته قد فعلته إذ سبقت فدهنت جسدى بهذا الطيب لدفنى. الحق أقول لكم إنه حيثما يكرز بهذا الإنجيل فى العالم كله، ",
+            "فقال لهم يسوع: دعوها، ما بالكم تعنفونها؟ عملاً حسناً الذي عملته بى، فإن المساكين معكم كل حين، وإذا أردتم أمكنكم أن تحسنوا إليهم في كل حين، وأما أنا فلست معكم في كل حين، وما نالته قد فعلته إذ سبقت فدهنت جسدى بهذا الطيب لدفنى. الحق أقول لكم إنه حيثما يكرز بهذا الإنجيل في العالم كله، ",
         ],
         [
             Prefix.HolyWeek + "3HEGospel&D=GL54&C=Diacon",
             "",
             "on redira aussi, à sa mémoire, ce qu'elle vient de faire.» Judas Iscariote, l'un des Douze, s'en alla auprès des grands prêtres pour le leur livrer. À cette nouvelle ils se réjouirent et ils promirent de lui donner de l'argent. Et il cherchait une occasion favorable pour le livrer.\nGloire à Dieu éternellement.",
-            "يخبر أيضاً بما عملته هذه تذكاراً لها. ثم أن يهوذا الإسخريوطى أحد الإثنى عشر ذهب إلى رؤساء الكهنة لكى يسلمه إليهم، فلما سمعوا فرحوا وأعطوه فضة، فكان يلتمس فرصة كيف يسلمه بحيلة.\nوالمجد لله دائماً",
+            "يخبر أيضاً بما عملته هذه تذكاراً لها. ثم أن يهوذا الإسخريوطى أحد الإثنى عشر ذهب إلى رؤساء الكهنة لِكَي يسلمه إليهم، فلما سمعوا فرحوا وأعطوه فضة، فكان يلتمس فرصة كيف يسلمه بحيلة.\nوالمجد لله دائماً",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "3HECommentary&D=GL54&C=Title",
             "Commentaire de la Troisième heure de la veille du jeudi",
-            "",
+            "Commentaire de la Troisième heure de la veille du jeudi",
             "طرح الساعة الثالثة من ليلة الخميس",
         ],
         [
             Prefix.HolyWeek + "3HECommentary&D=GL54&C=Diacon",
             "",
             "Commentaire\nLa femme qui a oint les pieds du Seigneur avec le parfum précieux et les a essuyés avec ses cheveux, grâce à la constance de sa fidélité et à son grand amour, a acquis une bonne part et une excellente renommée universelle. Les apôtres ont annoncé ce qu'elle a fait dans le monde entier. Son nom est resté connu à travers les générations. Tous les croyants en parlent. Voyez tous ces dons spirituels et ces grands ",
-            "طــرح\nالمرأة التى دهنت رجلى الرب بالطيب الفائق ومسحتهما بشعر رأسها، من أجل ثبات أمانتها وحبها الكثير. هذه إقتنت لها نصيباً صالحاً وصيتاً عالياً فى جميع العالم، وبشر الرسل بما فعلته فى جميع زوايا الأرض، فدام إسمها فى جميع الأجيال، يتلوه سائر المؤمنين. يا لهذه المواهب الروحانية وهذه الكرامات العالية",
+            "طــرح\nالمرأة التى دهنت رجلى الرب بالطيب الفائق ومسحتهما بشعر رأسها، من أجل ثبات أمانتها وحبها الكثير. هذه إقتنت لها نصيباً صالحاً وصيتاً عالياً في جميع العالم، وبشر الرسل بما فعلته في جميع زوايا الأرض، فدام إسمها في جميع الأجيال، يتلوه سائر المؤمنين. يا لهذه المواهب الروحانية وهذه الكرامات العالية",
         ],
         [
             Prefix.HolyWeek + "3HECommentary&D=GL54&C=Diacon",
             "",
             "honneurs dont elle a bénéficié. Imitons sa vertu et aimons Dieu de tout notre cœur. N'imitons pas Judas qui l'a accablé à cause du bien qu'elle a fait. Ces mauvaises idées lui ont valu de trahir son maître et l’argent qu’il a reçu pour prix du sang précieux descendra avec lui dans la géhenne et son nom sera banni en une seule génération et il n'aura pas de descendance sur terre.",
-            "التى فازت بها، فلنمتلئ غيرة على فضيلتها ونحب الرب من كل قلوبنا، وليس مثل يهوذا الذى حنق عليها من أجل أنها صنعت الخير. فدفعته أفكاره الشريرة أن يبيع سيده، والفضة التى أخذها ثمن الذكى ستهبط معه إلى الجحيم، ليفنى إسمه فى جيل واحد ولا يكون له خلف على الأرض.",
+            "التى فازت بها، فلنمتلئ غيرة على فضيلتها ونحب الرب من كل قلوبنا، وليس مثل يهوذا الذي حنق عليها من أجل أنها صنعت الخير. فدفعته أفكاره الشريرة أن يبيع سيده، والفضة التى أخذها ثمن الذكى ستهبط معه إلى الجحيم، ليفنى إسمه في جيل واحد ولا يكون له خلف على الأرض.",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "6HEProphecies&D=GL54&C=Title",
             "Prophecies de la Sixième heure de la veille du jeudi",
-            "",
+            "Prophecies de la Sixième heure de la veille du jeudi",
             "نبوات الساعة السادسة من ليلة الخميس",
         ],
         [
             Prefix.HolyWeek + "6HEProphecies&D=GL54&C=Diacon",
             "Ebolqen Amoc piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nCwtem `èepaicaji vai `èetaicaji `èmmof `èejen qhnou `èphi `èmPic/l/ > nem 'a vulh niben `èetai `èenou `èebol'en `èpkai `ènXhmi eujw `èmmoc.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
             "Amos 3 : 1-11\nÉcoutez cette parole que Le Seigneur prononce contre vous, enfants d'Israël, contre toute la famille que j'ai fait monter du pays d'Égypte :",
-            "عاموس ٣ : ١-١١\nإسمعوا هذا القول الذى تكلمت به عليكم يا بيت إسرائيل وعلى كل القبائل التى أخرجتها من أرض مصر قائلاً :",
+            "عاموس ٣ : ١-١١\nإسمعوا هذا القول الذي تكلمت به عليكم يا بيت إسرائيل وعلى كل القبائل التى أخرجتها من أرض مصر قائلاً :",
         ],
         [
             Prefix.HolyWeek + "6HEProphecies&D=GL54&C=Diacon",
             "",
             "Je n'ai connu que vous de toutes les familles de la terre, c'est pourquoi je vous châtierai pour toutes vos fautes. La vocation prophétique est irrésistible. Deux hommes vont-ils ensemble sans s'être concertés? Le lion rugit-il dans la forêt sans avoir une proie? Le lionceau donne-t-il de la voix, de sa tanière, sans qu'il ait rien pris? Le passereau tombe-t-il dans le filet, à terre, sans qu'il y ait de piège? Le filet se soulève-t-il du sol sans rien attraper? ",
-            "إياكم عرفت من بين جميع قبائل الأرض، فلذلك أنتقم منكم عن جميع خطاياكم. أيسير إثنان معاً ولا يعرف بعضهما البعض قط؟ أيزمجر الأسد فى الغابة وليس له فريسة؟ أيطلق الشبل صوته من عرينه قط، إلا إذا خطف شيئا؟ أيسقط طير على الأرض من غير قانص؟ أيكون فخ على الأرض من غير أن يصيد شيئاً؟ ",
+            "إياكم عرفت من بين جميع قبائل الأرض، فلذلك أنتقم منكم عن جميع خطاياكم. أيسير إثنان معاً ولا يعرف بعضهما البعض قط؟ أيزمجر الأسد في الغابة وليس له فريسة؟ أيطلق الشبل صوته من عرينه قط، إلا إذا خطف شيئا؟ أيسقط طير على الأرض من غير قانص؟ أيكون فخ على الأرض من غير أن يصيد شيئاً؟ ",
         ],
         [
             Prefix.HolyWeek + "6HEProphecies&D=GL54&C=Diacon",
             "",
             "Sonne-t-on du cor dans une ville sans que le peuple soit effrayé? Arrive-t-il un malheur dans une ville sans que Le Seigneur en soit l'auteur? Mais le Seigneur Dieu ne fait rien qu'il n'en ait révélé le secret à ses serviteurs les prophètes. Le lion a rugi: qui ne craindrait? Le Seigneur Dieu a parlé: qui ne prophétiserait? Samarie, corrompue, périra. Proclamez-le sur les palais d'Assur et sur les palais du pays d'Égypte; dites:",
-            "أيصوت بوق فى مدينة ولا يهلع الشعب؟ هل تحدث بلية فى مدينة والرب لم يصنعها؟ إن الرب الإله لا يصنع أمراً إلا ويعلن تأديبه لعبيده الأنبياء، أسد قد زمجر فمن لا يخاف؟ الرب الإله تكلم فمن لا يتنبأ؟ أخبروا كور الآشوريين وكور مصر وقولوا :",
+            "أيصوت بوق في مدينة ولا يهلع الشعب؟ هل تحدث بلية في مدينة والرب لم يصنعها؟ إن الرب الإله لا يصنع أمراً إلا ويعلن تأديبه لعبيده الأنبياء، أسد قد زمجر فمن لا يخاف؟ الرب الإله تكلم فمن لا يتنبأ؟ أخبروا كور الآشوريين وكور مصر وقولوا :",
         ],
         [
             Prefix.HolyWeek + "6HEProphecies&D=GL54&C=Diacon",
@@ -5546,34 +5600,34 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "6HEPsalm&D=GL54&C=Title",
             "Psaume de la Sixième heure de la veille du jeudi",
-            "",
+            "Psaume de la Sixième heure de la veille du jeudi",
             "مزمور الساعة السادسة من ليلة الخميس",
         ],
         [
             Prefix.HolyWeek + "6HEPsalm&D=GL54&C=Diacon",
             "Yalmoc  to Dauid\nNamet P_ cabol `ènourwmi efwou > `èebola ourwmi `ènrefs`èinjonc matoujoi  > nh`èetaucosni `ènans`èinjonc 'en pouht  >   `èmpi`èeoou  thrf  aucob;  `ènanbwtc > ``allhloui`a",
             "Psaume 139 : 2 et 3\nDélivre-moi, Seigneur, de l'homme mauvais, contre l'homme violent défends-moi, contre ceux qui préméditent le mal et tout le jour entretiennent la guerre. Alléluia",
-            "مزمور ١٣٩ : ١، ٢ \nنجنى يا رب من إنسان شرير ومن رجل ظالم أنقذنى. الذين تفكروا بالظلم فى قلوبهم النهار كله كانوا يستعدون للقتال. الليلويا",
+            "مزمور ١٣٩ : ١، ٢ \nنجنى يا رب من إنسان شرير ومن رجل ظالم أنقذنى. الذين تفكروا بالظلم في قلوبهم النهار كله كانوا يستعدون للقتال. الليلويا",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "6HEGospel&D=GL54&C=Title",
             "Evangile de la Sixième heure de la veille du jeudi",
-            "",
+            "Evangile de la Sixième heure de la veille du jeudi",
             " إنجيل الساعة السادسة من ليلة الخميس",
         ],
         [
             Prefix.HolyWeek + "6HEGospel&D=GL54&C=Diacon",
             "Yalmoc  to Dauid\nNamet P_ cabol `ènourwmi efwou > `èebola ourwmi `ènrefs`èinjonc matoujoi  > nh`èetaucosni `ènans`èinjonc 'en pouht  >   `èmpi`èeoou  thrf  aucob;  `ènanbwtc > ``allhloui`a",
             "Psaume 139 : 2 et 3\nDélivre-moi, Seigneur, de l'homme mauvais, contre l'homme violent défends-moi, contre ceux qui préméditent le mal et tout le jour entretiennent la guerre. Alléluia",
-            "مزمور ١٣٩ : ١، ٢ \nنجنى يا رب من إنسان شرير ومن رجل ظالم أنقذنى. الذين تفكروا بالظلم فى قلوبهم النهار كله كانوا يستعدون للقتال. الليلويا",
+            "مزمور ١٣٩ : ١، ٢ \nنجنى يا رب من إنسان شرير ومن رجل ظالم أنقذنى. الذين تفكروا بالظلم في قلوبهم النهار كله كانوا يستعدون للقتال. الليلويا",
         ],
         [
             Prefix.HolyWeek + "6HEGospel&D=GL54&C=Diacon",
             "Iwannhn Kev i/b/ > l/-/m/g/\nNai `èetafjotou `ènje Ih/c/ af]enaf afxopf `èebol arwou. Nai mh] de `èmmhni etafaitou `èmpou`èmqo `èmpouna; `èerof > ina `èntefjwk `èebol `ènje `èpcaji `ènHca`èhac piprovhthc vh`èetafjof je P_ nim pe `èetafna; `èeten`ècmh > ouo `èp]wb] `èmP_/ `èetafswrp `èenim. Eqbe vai ne `èmmon `è]jom `èmmwou `èena; > je afjoc on `ènje Hca`èhac > je afqwm `ènnoubal > ouo afqwm `èmpouht > ina `èntou`è]temnau 'en noubal > ouo `èntou`è]temka; 'en pouht > ouo `èntoukotou aroi `èntatoujwou.\n Nai afjotou `ènje Hca`èhac je afnau `èe`èp`èwou `èmV; ouo afcaji eqbhtf. Omwc mentoi oumh] `èebol'en nikearxwn auna; `èerof > alla nauouwn `èmmof `èebol an pe eqbe nivariceoc > je `ènnouaitou `èn`èapocunagwgoc. Aumenre `èp`èwou gar `ènnirwmi mallon `èeote `èp`èwou `èmV;.\n Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
             "Jean 12 : 36-43\nAinsi parla Jésus, et s'en allant il se déroba à leur vue. Bien qu'il eût fait tant de signes devant eux, ils ne croyaient pas en lui, afin que s'accomplît la parole dite par Isaïe le prophète: Seigneur, qui a cru à notre parole? Et le bras du Seigneur, à qui a-t-il été révélé?\nAussi bien ne pouvaient-ils croire, car Isaïe a dit encore: Il a aveuglé leurs yeux et il a endurci leur cœur, pour que leurs yeux ne voient pas,",
-            "يوحنا ١٢: ٣٦- ٤٣\nقال يسوع هذا ثم مضى وتوارى عنهم، ومع هذه الآيات الكثيرة التى صنعها أمامهم لم يؤمنوا به، ليتم كلام إشعياء النبى الذى قاله : يارب من صدق خبرنا؟ ولمن أعلنت ذراع الرب؟\nومن أجل هذا لم يقدروا أن يؤمنوا لأن إشعياء قال أيضاً: قد طمس عيونهم، وأغلق قلوبهم لئلا يبصروا بعيونهم ",
+            "يوحنا ١٢: ٣٦- ٤٣\nقال يسوع هذا ثم مضى وتوارى عنهم، ومع هذه الآيات الكثيرة التى صنعها أمامهم لم يؤمنوا به، ليتم كلام إشعياء النبى الذي قاله : يارب من صدق خبرنا؟ ولمن أعلنت ذراع الرب؟\nومن أجل هذا لم يقدروا أن يؤمنوا لأن إشعياء قال أيضاً: قد طمس عيونهم، وأغلق قلوبهم لئلا يبصروا بعيونهم ",
         ],
         [
             Prefix.HolyWeek + "6HEGospel&D=GL54&C=Diacon",
@@ -5586,7 +5640,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "6HECommentary&D=GL54&C=Title",
             "Commentaire de la Sixième heure de la veille du jeudi",
-            "",
+            "Commentaire de la Sixième heure de la veille du jeudi",
             "طرح الساعة السادسة من ليلة الخميس",
         ],
         [
@@ -5599,26 +5653,26 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "6HECommentary&D=GL54&C=Diacon",
             "",
             "les plantes qui ne portent pas de fruit. Rejette leurs idées ô grand prophète. Ils ressemblent à leurs pères et ils ont comblé leurs mesures. Il dit: «Seigneur, qui a cru à notre parole? et le bras du Seigneur, à qui a-t-il été révélé?» La voix du Seigneur c'est son Fils Unique qui est apparu charnellement aux fils d'Israël. Il les a traités avec Sa justice et Sa miséricorde. Mais ils ne Lui ont pas obéi, ils n'ont pas cru en Lui. ",
-            "والزرع الغير مثمر، بكّت رأيهم أيها النبى العظيم، لأنهم تشبهوا بآبائهم وأكملوا مكاييلهم فقال: يارب من صدق خبرنا؟ وذراعك يارب لمن أعلنت؟ إن صوت الرب هو إبنه الوحيد الذى تراءى بالجسد لبنى إسرائيل وعدله ورحمته أظهرهما فيهم، ومع هذا لم يطيعوا ولم يؤمنوا به. ",
+            "والزرع الغير مثمر، بكّت رأيهم أيها النبى العظيم، لأنهم تشبهوا بآبائهم وأكملوا مكاييلهم فقال: يارب من صدق خبرنا؟ وذراعك يارب لمن أعلنت؟ إن صوت الرب هو إبنه الوحيد الذي تراءى بالجسد لبنى إسرائيل وعدله ورحمته أظهرهما فيهم، ومع هذا لم يطيعوا ولم يؤمنوا به. ",
         ],
         [
             Prefix.HolyWeek + "6HECommentary&D=GL54&C=Diacon",
             "",
             "Comment auraient-ils pu croire au Christ puisque Isaïe avait déjà dit à leur sujet: «Il a aveuglé leurs yeux et il a endurci leur cœur, pour que leurs yeux ne voient pas, que leur cœur ne comprenne pas, qu'ils ne se convertissent pas…» Ecoute Israël! Aucun autre ne se lèvera pour sauver ton peuple de Sa part. Lui seul, Jésus le Sauveur du monde, a uni les juifs et les païens par Son incarnation. La lumière est venue chez les siens, ",
-            "كيف يؤمنون وإشعياء سبق فنطق من أجلهم هكذا قائلاً: إنه طمس عيونهم وبلد قلوبهم وثقل آذانهم وأفهامهم معاً. إسمع يا إسرائيل، ليس آخر يقوم يخلص شعبك من قبله إلا يسوع مخلص العالم، الذى جعل الإثنين واحداً بتجسده. جاء النور إلى خاصته",
+            "كيف يؤمنون وإشعياء سبق فنطق من أجلهم هكذا قائلاً: إنه طمس عيونهم وبلد قلوبهم وثقل آذانهم وأفهامهم معاً. إسمع يا إسرائيل، ليس آخر يقوم يخلص شعبك من قبله إلا يسوع مخلص العالم، الذي جعل الإثنين واحداً بتجسده. جاء النور إلى خاصته",
         ],
         [
             Prefix.HolyWeek + "6HECommentary&D=GL54&C=Diacon",
             "",
             "mais ils ne l'ont pas reçue. Ils ont mieux aimé les ténèbres. Les nations étrangères ont reçu ses commandements, ils sont devenus Son peuple réuni en tout lieu. Ils ont connu Sa miséricorde et Sa grâce débordante dont Il les a comblées par Sa bonté.",
-            "وخاصته لم تقبله، بل أحبوا الظلمة، والشعوب الغريبة قبلت وصاياه وصارت له شعباً مجتمعاً فى كل مكان، وعرفوا رحمته وغزير نعمته التى أفاضها عليهم كصلاحه.",
+            "وخاصته لم تقبله، بل أحبوا الظلمة، والشعوب الغريبة قبلت وصاياه وصارت له شعباً مجتمعاً في كل مكان، وعرفوا رحمته وغزير نعمته التى أفاضها عليهم كصلاحه.",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "9HEProphecies&D=GL54&C=Title",
             "Prophecies de la Neuvième heure de la veille du jeudi",
-            "",
+            "Prophecies de la Neuvième heure de la veille du jeudi",
             "نبوات الساعة التاسعة من ليلة الخميس",
         ],
         [
@@ -5631,13 +5685,13 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "9HEProphecies&D=GL54&C=Diacon",
             "",
             "En cela encore vos pères m'ont outragé en m'étant infidèles. Et pourtant je les ai menés au pays que j'avais juré solennellement de leur donner. Ils y ont vu toutes sortes de collines élevées, toutes sortes d'arbres touffus, et ils y ont offert leurs sacrifices et présenté leurs offrandes provocantes ; ils y ont déposé leurs parfums d'apaisement et versé leurs libations. Et je leur ai dit : Qu'est-ce que le haut lieu où vous allez ? ",
-            "إلى هذه الساعة أغضبنى آباؤكم بآثامهم التى سقطوا فيها أمامى، وأدخلتهم إلى الأرض التى بسطت يدى عليها لأعطيهم إياها. فرأوا كل تل عال، وإلى أسفل كل الأشجار المورقة، وذبحوا هناك الذبائح للآلهة وقربوا البخور فى ذلك الموضع، وسكبوا هناك سكائبهم. فقلت لهم: ما هذه الأبانا المرتفعة التى تدخلون إليها؟ ",
+            "إلى هذه الساعة أغضبنى آباؤكم بآثامهم التى سقطوا فيها أمامى، وأدخلتهم إلى الأرض التى بسطت يدى عليها لأعطيهم إياها. فرأوا كل تل عال، وإلى أسفل كل الأشجار المورقة، وذبحوا هناك الذبائح للآلهة وقربوا البخور في ذلك الموضع، وسكبوا هناك سكائبهم. فقلت لهم: ما هذه الأبانا المرتفعة التى تدخلون إليها؟ ",
         ],
         [
             Prefix.HolyWeek + "9HEProphecies&D=GL54&C=Diacon",
             "",
             "et ils l'ont appelé du nom de Bama jusqu'à ce jour. Eh bien! dis à la maison d'Israël: Ainsi parle le Seigneur Dieu. Est-il vrai que vous vous souillez en vous conduisant comme vos pères, en vous prostituant en suivant leurs horreurs, en présentant vos offrandes et en faisant passer vos enfants par le feu? que vous vous souillez avec toutes vos ordures jusqu'à ce jour? Et moi, je me laisserais consulter par vous, maison d'Israël ? ",
-            "فدُعى إسمها أبانا إلى هذا اليوم، لذلك قلت لبيت إسرائيل هذا ما يقوله السيد الرب، إذ كنتم ستتنجسون بآثام الآباء وتتبعون أرجاسهم بتقديم باكورات تقدماتكم وإجازة أبنائكم فى النار، تتنجسون بجميع أفكاركم إلى هذا اليوم، وأنا أيضاُ هل أجاوبكم يا بيت إسرائيل ؟ ",
+            "فدُعى إسمها أبانا إلى هذا اليوم، لذلك قلت لبيت إسرائيل هذا ما يقوله السيد الرب، إذ كنتم ستتنجسون بآثام الآباء وتتبعون أرجاسهم بتقديم باكورات تقدماتكم وإجازة أبنائكم في النار، تتنجسون بجميع أفكاركم إلى هذا اليوم، وأنا أيضاُ هل أجاوبكم يا بيت إسرائيل ؟ ",
         ],
         [
             Prefix.HolyWeek + "9HEProphecies&D=GL54&C=Diacon",
@@ -5650,73 +5704,73 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "9HEPsalm&D=GL54&C=Title",
             "Psaume de la Neuvième heure de la veille du jeudi",
-            "",
+            "Psaume de la Neuvième heure de la veille du jeudi",
             "مزمور الساعة التاسعة من ليلة الخميس",
         ],
         [
             Prefix.HolyWeek + "9HEPsalm&D=GL54&C=Diacon",
             "Yalmoc  to Dauid\nP_ Panou; aixa`èqhi `èerok > namet ouo matoujoi > `èebol `èntotou `ènnhetsoji `èncwi > mhpote `èntouwlem `èntayuxh `èm`èvrh; `ènoumou`èi   >  `allhloui`a.",
             "Psaume  7 : 2-3 \nSeigneur mon Dieu, tu es mon refuge, sauve-moi de tous mes persécuteurs et délivre-moi ! De peur qu'à tout moment l'ennemi emporte mon âme comme un lion. Alléluia",
-            "مزمور ٧ : ١، ٢ \nأيها الرب إلهى، عليك توكلت فخلصنى، ومن أيدى جميع الطاردين لى نجنى، لئلا يخطفوا نفسى مثل الأسد. الليلويا",
+            "مزمور ٧ : ١، ٢ \nأيها الرب إلهى، عليك توكلت فخلصنى، ومن أيدى جميع الطاردين لي نجنى، لئلا يخطفوا نفسى مثل الأسد. الليلويا",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "9HEGospel&D=GL54&C=Title",
             "Evangile de la Neuvième heure de la veille du jeudi",
-            "",
+            "Evangile de la Neuvième heure de la veille du jeudi",
             " إنجيل الساعة التاسعة من ليلة الخميس",
         ],
         [
             Prefix.HolyWeek + "9HEGospel&D=GL54&C=Diacon",
             "Yalmoc  to Dauid\nP_ Panou; aixa`èqhi `èerok > namet ouo matoujoi > `èebol `èntotou `ènnhetsoji `èncwi > mhpote `èntouwlem `èntayuxh `èm`èvrh; `ènoumou`èi   >  `allhloui`a.",
             "Psaume  7 : 2-3 \nSeigneur mon Dieu, tu es mon refuge, sauve-moi de tous mes persécuteurs et délivre-moi ! De peur qu'à tout moment l'ennemi emporte mon âme comme un lion. Alléluia",
-            "مزمور ٧ : ١، ٢ \nأيها الرب إلهى، عليك توكلت فخلصنى، ومن أيدى جميع الطاردين لى نجنى، لئلا يخطفوا نفسى مثل الأسد. الليلويا",
+            "مزمور ٧ : ١، ٢ \nأيها الرب إلهى، عليك توكلت فخلصنى، ومن أيدى جميع الطاردين لي نجنى، لئلا يخطفوا نفسى مثل الأسد. الليلويا",
         ],
         [
             Prefix.HolyWeek + "9HEGospel&D=GL54&C=Diacon",
             "Iwannhn Kev i/ > k/q/ l/h\nFh`èeta paiwt tpif nhi ouni]; pe `èeouon niben > ouo `èmmon `èli na`è]olmou `èebol'en `ètjij `èmpaiwt > `èanok nem paiwt `èanon ouai > auel `èwni oun `ènje niIoudai ina `ènceiou`èi `èejwf. Af`èerou`èw nwou `ènje Ih/c/ efjw `èmmoc > je oumh] `ènwb `èenaneu aitamwten `èerwou `èeboliten paiwt > eqbe a] oun `ènwb tetennai`èwni `èejwi. Au`èerou`èw naf `ènje niIoudai ouo pejwou je > eqbe ouwb `èenanef tennai`èwn`èi `èejwk an alla eqbe oujeou`èa > je `ènqok ourwmi wk kiri `èmmok `ènnou;. Aferou`èw nwou `ènje Ih/c/ ouo pejaf > je mh `èc`èc'hout an 'en petennomoc je `èanok aijoc je `ènqwten annou;. \n Icje afjoc `ènnh je nou; nh`èeta `èpcaji `èmV; ]wpi arwou ouo `èmmon `è]jom `ènte ;gravh bwl `èebol > vh`èeta Viwt toubof ouo afouorpf `èepikocmoc `ènqwten tetenjw `èmmoc je akjeou`èa je aijoc je `èanok pe `èp]hri `èmV;. Icje ;`èiri an `ènni`èhou`èi `ènte paiwt `èmperna; `èeroi > icje de ;`èiri `èmmwou kan `èe]wp `èareten`è]temna; `èeroi na; `èeni`èhou`èi > ina `ènteten`èemi ouo `èntetencwoun je `èanok ;'en paiwt ouo paiwt `èn'ht.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
             "Jean 10 : 29 – 38\nMon Père, quant à ce qu'il m'a donné, est plus grand que tous. Nul ne peut rien arracher de la main du Père. Moi et le Père nous sommes un. Les Juifs apportèrent de nouveau des pierres pour le lapider. Jésus leur dit alors: «Je vous ai montré quantité de bonnes œuvres, venant du Père; pour laquelle de ces œuvres me lapidez-vous?» Les Juifs lui répondirent : ",
-            "يوحنا ١٠ : ٢٩ – ٣٨ \nأبى الذى أعطانى إياها هو أعظم من الكل، فلا يقدر أحد أن يخطفها من يد أبى. أنا وأبى واحد. فتناول اليهود حجارة ليرجموه، فأجابهم يسوع قائلاً: أعمالاً كثيرة حسنة أريتكم إياها من عند أبى، فمن أجل أى عمل ترجموننى؟ فأجابه اليهود قائلين :",
+            "يوحنا ١٠ : ٢٩ – ٣٨ \nأبى الذي أعطانى إياها هو أعظم من الكل، فلا يقدر أحد أن يخطفها من يد أبى. أنا وأبى واحد. فتناول اليهود حجارة ليرجموه، فأجابهم يسوع قائلاً: أعمالاً كثيرة حسنة أريتكم إياها من عند أبى، فمن أجل أى عمل ترجموننى؟ فأجابه اليهود قائلين :",
         ],
         [
             Prefix.HolyWeek + "9HEGospel&D=GL54&C=Diacon",
             "",
             "«Ce n'est pas pour une bonne œuvre que nous te lapidons, mais pour un blasphème et parce que toi, n'étant qu'un homme, tu te fais Dieu.» Jésus leur répondit: «N'est-il pas écrit dans votre Loi: J'ai dit: vous êtes des dieux? Alors qu'elle a appelé dieux ceux à qui la parole de Dieu fut adressée - et l'Écriture ne peut être récusée - à celui que le Père a consacré et envoyé dans le monde vous dites: «Tu blasphèmes»,",
-            "لسنا من أجل عمل حسن نرجمك بل لأجل تجديف، لأنك وأنت إنسان تجعل نفسك إلهاً. فأجابهم يسوع وقال : أليس مكتوباً فى ناموسكم أنا قلت إنكم آلهة،  فإن كان قد قال آلهة لأولئك الذين صارت إليهم كلمة الله ولا يمكن أن ينقض المكتوب، فالذى قدسه الآب وأرسله إلى العالم أتقولون له أنتم أنك تجدف ",
+            "لسنا من أجل عمل حسن نرجمك بل لأجل تجديف، لأنك وأنت إنسان تجعل نفسك إلهاً. فأجابهم يسوع وقال : أليس مكتوباً في ناموسكم أنا قلت إنكم آلهة،  فإن كان قد قال آلهة لأولئك الذين صارت إليهم كلمة الله ولا يمكن أن ينقض المكتوب، فالذى قدسه الآب وأرسله إلى العالم أتقولون له أنتم أنك تجدف ",
         ],
         [
             Prefix.HolyWeek + "9HEGospel&D=GL54&C=Diacon",
             "",
             "parce que j'ai dit: «Je suis Fils de Dieu»! Si je ne fais pas les œuvres de mon Père, ne me croyez pas; mais si je les fais, quand bien même vous ne me croiriez pas, croyez en ces œuvres, afin de reconnaître une bonne fois que le Père est en moi et moi dans le Père.» \nGloire à Dieu éternellement.",
-            "لأنى قلت أنا إبن الله. إن كنت لا أعمل أعمال أبى فلا تؤمنوا بى، وإن كنت أعملها فإن لم تؤمنوا بى، فآمنوا بالأعمال، لتعلموا وتعرفوا أنى أنا فى أبى وأبى فىّ.\nوالمجد لله دائماً.",
+            "لأنى قلت أنا إبن الله. إن كنت لا أعمل أعمال أبي فلا تؤمنوا بى، وإن كنت أعملها فإن لم تؤمنوا بى، فآمنوا بالأعمال، لتعلموا وتعرفوا أني أنا في أبي وأبى فىّ.\nوالمجد لله دائماً.",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "9HECommentary&D=GL54&C=Title",
             "Commentaire de la Neuvième heure de la veille du jeudi",
-            "",
+            "Commentaire de la Neuvième heure de la veille du jeudi",
             "طرح الساعة التاسعة من ليلة الخميس",
         ],
         [
             Prefix.HolyWeek + "9HECommentary&D=GL54&C=Diacon",
             "",
             "Commentaire\nVous les ignorants et les obstinés, le peuple impur et contrevenant; écoutez le Miséricordieux faire l'éloge des croyants par Sa voix divine en disant: «Mon Père qui me les a donnés est plus grand que tout ce qui est sur cette terre. Nul ne peut rien arracher ni voler de la main de mon Père. Moi et le Père nous sommes UN avec le Saint Esprit sans séparation.»  ",
-            "طــرح\nأيها الناس الجهلة المعاندون، الشعب النجس، والمخالف، إسمعوا الرحوم بفمه الإلهى يمدح المؤمنين به قائلاً: الذى أعطانى الآب هو أعظم من كل مَن على الأرض، وليس أحد يقدر أن يخطفهم ولا يسلبهم من يد أبى، وأنا والآب واحد مع الروح القدس بغير إفتراق. ",
+            "طــرح\nأيها الناس الجهلة المعاندون، الشعب النجس، والمخالف، إسمعوا الرحوم بفمه الإلهى يمدح المؤمنين به قائلاً: الذي أعطانى الآب هو أعظم من كل مَن على الأرض، وليس أحد يقدر أن يخطفهم ولا يسلبهم من يد أبى، وأنا والآب واحد مع الروح القدس بغير إفتراق. ",
         ],
         [
             Prefix.HolyWeek + "9HECommentary&D=GL54&C=Diacon",
             "",
             "Les juifs ramassèrent immédiatement des pierres avec méchanceté pour le lapider. Le Sauveur leur répondit avec douceur en guise d'enseignement en disant: «Je vous ai montré un grand nombre de bonnes œuvres honorables venant de mon Père; pour laquelle de ces œuvres me lapidez-vous alors que je désire votre salut? Sachez et soyez sûrs, vous les Juifs ignorants, que Je suis dans le Père et le Père est en Moi.»",
-            "وللوقت تناول اليهود حجارة بحسد عظيم ليرجموه، فأجابهم المخلص بوداعة ليعلمهم: أظهرت لكم أعمالاً حسنة مكرمة جداً من عند أبى، من أجل أى شئ ترجمونى وأنا أريد خلاصكم؟! إعلموا وتيقنوا أيها اليهود الجهال إننى فى أبى وأبى فيّ.",
+            "وللوقت تناول اليهود حجارة بحسد عظيم ليرجموه، فأجابهم المخلص بوداعة ليعلمهم: أظهرت لكم أعمالاً حسنة مكرمة جداً من عند أبى، من أجل أى شئ ترجمونى وأنا أريد خلاصكم؟! إعلموا وتيقنوا أيها اليهود الجهال إننى في أبي وأبى فيّ.",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "11HEProphecies&D=GL54&C=Title",
             "Prophecies de la Onzième heure de la veille du jeudi",
-            "",
+            "Prophecies de la Onzième heure de la veille du jeudi",
             "نبوات الساعة الحادية عشر من ليلة الخميس",
         ],
         [
@@ -5729,20 +5783,20 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "11HEProphecies&D=GL54&C=Diacon",
             "",
             "Pourquoi ce peuple-là est-il rebelle, pourquoi Jérusalem est-elle continuellement rebelle? Ils tiennent fermement à la tromperie, ils refusent de se convertir. J'ai écouté attentivement, ils ne parlent pas dans ce sens-là. Nul ne déplore sa méchanceté en disant: «Qu'ai-je fait?» Tous retournent à leur course, tel un cheval qui fonce au combat.\nMême la cigogne dans le ciel connaît sa saison, ",
-            "لما إرتد هذا الشعب إرتداداً وقحاً، وتمسكوا بهواهم وأبوا أن يرجعوا؟ أنصتوا الآن وإسمعوا كلاماً لأنه هكذا ليس أحد من الناس يتوب عن شره قائلاً ماذا صنعت، الذى يجرى قد كف عن موضع جريه، كحصان عرقان من صهيله، عرف اللقلق فى السماء ميعاده",
+            "لما إرتد هذا الشعب إرتداداً وقحاً، وتمسكوا بهواهم وأبوا أن يرجعوا؟ أنصتوا الآن وإسمعوا كلاماً لأنه هكذا ليس أحد من الناس يتوب عن شره قائلاً ماذا صنعت، الذي يجرى قد كف عن موضع جريه، كحصان عرقان من صهيله، عرف اللقلق في السماء ميعاده",
         ],
         [
             Prefix.HolyWeek + "11HEProphecies&D=GL54&C=Diacon",
             "",
             "la tourterelle, l'hirondelle et la grue observent le temps de leur migration. Mais mon peuple ne connaît pas le droit du Seigneur! Comment pouvez-vous dire: «Nous sommes sages et la Loi du Seigneur est avec nous!» Vraiment c'est en mensonge que l'a changée le calame mensonger des scribes! Les sages seront honteux, consternés et pris au piège. Voilà qu'ils ont méprisé la parole du Seigneur! Qu'est donc la sagesse pour eux ? \nGloire à la sainte Trinité notre Dieu.",
-            "واليمامة والسنونة وعصفورة الحقل عرفت أوقات دخولها، وأما شعبى فلم يعرف حُكم الرب! كيف تقولون إنا نحن حكماء وناموس الرب لنا، والناموس الذى كان محسوباً للكتبة صار باطلاً وليس حقاً؟!. خزى الحكماء والفلاسفة وتملكهم الفزع لأنهم رفضوا كلمة الرب، بعيدة هى الحكمة عنهم.\nمجدًا للثالوث الأقدس إلهنا آمين",
+            "واليمامة والسنونة وعصفورة الحقل عرفت أوقات دخولها، وأما شعبى فلم يعرف حُكم الرب! كيف تقولون إنا نحن حكماء وناموس الرب لنا، والناموس الذي كان محسوباً للكتبة صار باطلاً وليس حقاً؟!. خزى الحكماء والفلاسفة وتملكهم الفزع لأنهم رفضوا كلمة الرب، بعيدة هى الحكمة عنهم.\nمجدًا للثالوث الأقدس إلهنا آمين",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "11HEPsalm&D=GL54&C=Title",
             "Psaume de la Onzième heure de la veille du jeudi",
-            "",
+            "Psaume de la Onzième heure de la veille du jeudi",
             "مزمور الساعة الحادية عشر من ليلة الخميس",
         ],
         [
@@ -5756,7 +5810,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "11HEGospel&D=GL54&C=Title",
             "Evangile de la Onzième heure de la veille du jeudi",
-            "",
+            "Evangile de la Onzième heure de la veille du jeudi",
             " إنجيل الساعة الحادية عشر من ليلة الخميس",
         ],
         [
@@ -5769,27 +5823,27 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "11HEGospel&D=GL54&C=Diacon",
             "Iwannhn Kev i/b/ > m/d/ - n\nIh/c/ de afw] `èebol ouo pejaf > je vheona; `èeroi afna; `èeroi an > alla afna; `èevh`èetaftaouoi. Ouo vheqnau `èeroi afnau `èevh`èetaftaouoi. Anok ai`èi `èeouwini `èmpikocmoc > ina ouon niben eqna; `èeroi `èntef`è]tem`èoi 'en pixaki.\nOuo vh`èeqnacwtem `èenacaji ouo `èntef`è]tem`èare `èerwou `èanok eqna;ap `èerof an > ne`èetai`èi gar an ina `ènta;ap `èepikocmoc alla ina `èntanoem `èmpikocmoc. Vhetjwl `èmmoi `èebol ouo `èete `èn`èfsi `ènnacaji an > ouon `èntaf `èmvheqna;ap `èerof > picaji `èetai caji `èmmof vh`èete`èmmau eqna;ap `èerof 'en pi`èeoou `èn'a`èe. Je `èanok `èmpicaji `èebolitot `èmmauat > alla Viwt vh`èetaftaouoi `ènqof pe etaf; entolh nhi > ou pe ;najof ie ou pe ;nacaji `èmmof.\nOuo ;`èemi je tefentoli ouwn' `èn`èene te > nh oun `èanok `èe;jw `èmmwou kata `èvrh; `èetafjoc nhi `ènje paiwt pairh; ;caji.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
             "Jean 12 : 44 - 50\nJésus a dit, il l'a clamé: «Qui croit en moi, ce n'est pas en moi qu'il croit, mais en celui qui m'a envoyé, et qui me voit, voit celui qui m'a envoyé. Moi, lumière, je suis venu dans le monde, pour que quiconque croit en moi ne demeure pas dans les ténèbres. Si quelqu'un entend mes paroles et ne les garde pas, je le ne juge pas, car je ne suis pas venu pour juger le monde, mais pour sauver le monde. ",
-            "يوحنا ١٢ : ٤٤ – ٥٠\nفصاح يسوع وقال: الذى يؤمن بى فليس بى يؤمن بل آمن بالذى أرسلنى، ومن يرانى فقد رأى الذى أرسلنى. أنا قد جئت نوراً للعالم، حتى كل من يؤمن بى لا يمكث فى الظلمة، وإن كان أحد يسمع كلامى و لا يحفظه فأنا لا أدينه، لأنى لم آت لأدين العالم بل لأخلص العالم، ",
+            "يوحنا ١٢ : ٤٤ – ٥٠\nفصاح يسوع وقال: الذي يؤمن بى فليس بى يؤمن بل آمن بالذى أرسلنى، ومن يرانى فقد رأى الذي أرسلنى. أنا قد جئت نوراً للعالم، حتى كل من يؤمن بى لا يمكث في الظلمة، وإن كان أحد يسمع كلامى و لا يحفظه فأنا لا أدينه، لأنى لم آت لأدين العالم بل لأخلص العالم، ",
         ],
         [
             Prefix.HolyWeek + "11HEGospel&D=GL54&C=Diacon",
             "",
             "Qui me rejette et n'accueille pas mes paroles a son juge: La parole que j'ai fait entendre, c'est elle qui le jugera au dernier jour; car ce n'est pas de moi-même que j'ai parlé, mais le Père qui m'a envoyé m'a lui-même commandé ce que j'avais à dire et à faire connaître; et je sais que mon commandement est vie éternelle. Ainsi donc ce que je dis, tel que le Père me l'a dit je le dis.»\nGloire à Dieu éternellement.",
-            "ومن ينكرنى و لا يقبل كلامى فله من يدينه. الكلام الذى تكلمت به هو الذى يدينه فى اليوم الأخير، لأنى لم أتكلم من ذاتى وحدى، بل الآب الذى أرسلنى هو الذى أعطانى الوصية: ماذا أقول وبماذا أتكلم؟ وأعلم أن وصيته هى حياة أبدية، والذى أتكلم أنا به فكما قال لى أبى هكذا أتكلم.\nوالمجد لله دائماً",
+            "ومن ينكرنى و لا يقبل كلامى فله من يدينه. الكلام الذي تكلمت به هو الذي يدينه في اليوم الأخير، لأنى لم أتكلم من ذاتى وحدى، بل الآب الذي أرسلنى هو الذي أعطانى الوصية: ماذا أقول وبماذا أتكلم؟ وأعلم أن وصيته هى حياة أبدية، والذى أتكلم أنا به فكما قال لي أبي هكذا أتكلم.\nوالمجد لله دائماً",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "11HECommentary&D=GL54&C=Title",
             "Commentaire de la Onzième heure de la veille du jeudi",
-            "",
+            "Commentaire de la Onzième heure de la veille du jeudi",
             "طرح الساعة الحادية عشر من ليلة الخميس",
         ],
         [
             Prefix.HolyWeek + "11HECommentary&D=GL54&C=Diacon",
             "",
             "Commentaire\nLe Sauveur, Fils du Dieu vivant a dit: «Je suis la Lumière du monde. Celui qui croit en moi et accepte mes paroles ne peut demeurer dans les ténèbres. Si quelqu'un me renie, refuse d'écouter mes paroles et d’y obéir, je ne le jugerai pas, mais c’est la parole que J'ai prononcée qui le condamnera. La parole que j'ai prononcée n'est pas à Moi, mais du Père qui m'a envoyé; ",
-            "طــرح\nقال المخلص إبن الله الحى: أنا هو نور العالم بأسره، ومن يؤمن بى ويقبل كلامى لا يمكن أن يلبث فى الظلام، ومن يجحدنى ولم يرد أن يسمع لقولى ولم يطعه فأنا لا أدينه، لكن القول الذى قلته أنا هو يدينه، فإن القول الذى نطقت به ليس هو لى بل للآب الذى أرسلنى، ",
+            "طــرح\nقال المخلص إبن الله الحى: أنا هو نور العالم بأسره، ومن يؤمن بى ويقبل كلامى لا يمكن أن يلبث في الظلام، ومن يجحدنى ولم يرد أن يسمع لقولى ولم يطعه فأنا لا أدينه، لكن القول الذي قلته أنا هو يدينه، فإن القول الذي نطقت به ليس هو لي بل للآب الذي أرسلنى، ",
         ],
         [
             Prefix.HolyWeek + "11HECommentary&D=GL54&C=Diacon",
@@ -5802,32 +5856,32 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "1HDProphecies&D=GL55&C=Title",
             "Prophecies de la Première heure du jeudi",
-            "",
+            "Prophecies de la Première heure du jeudi",
             "نبوات الساعة الأولى من يوم الخميس",
         ],
         [
             Prefix.HolyWeek + "1HDProphecies&D=GL55&C=Diacon",
             "Ebolqen pidoxodoc `nte Mw`ucyc piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nAf`èi  de  `ènje  piAmalhk  ouo  afbwtc  `èe`èpIcl ?  'en  Ravazin  >  pe  je Mw`èuchc de `ènIhcou.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
             "Exode : 17 : 8-16\nLes Amalécites survinrent et combattirent contre Israël à Rephidim. Moïse dit alors à Josué:",
-            "خروج ١٧ : ٨ -١٦\nوأتى عماليق وحارب إسرائيل فى رفازين، فقال موسى ليشوع: ",
+            "خروج ١٧ : ٨ -١٦\nوأتى عماليق وحارب إسرائيل في رفازين، فقال موسى ليشوع: ",
         ],
         [
             Prefix.HolyWeek + "1HDProphecies&D=GL55&C=Diacon",
             "",
             "«Choisis-toi des hommes et demain, sors combattre Amalek; moi, je me tiendrai au sommet de la colline, le bâton de Dieu à la main.» Josué fit ce que lui avait dit Moïse, il sortit pour combattre Amalek, et Moïse, Aaron et Hur montèrent au sommet de la colline. Lorsque Moïse tenait ses mains levées, Israël l'emportait, et quand il les laissait retomber, Amalek l'emportait. Comme les mains de Moïse s'alourdissaient, ils prirent une pierre et la mirent sous lui.",
-            "إختر لك رجالاً وأخرج حارب عماليق غداً، وهوذا أنا واقف على رأس الجبل وعصا الله فى يدى. ففعل يشوع كما قال له موسى وخرج فحارب عماليق، وصعد موسى وهرون وحور على قمة الجبل، فكان إذا رفع موسى يديه يغلب بنو إسرائيل، وإذا خفض يديه يغلب عماليق. فلما كلّت يدا موسى أخذا حجراً ووضعاه تحته ",
+            "إختر لك رجالاً وأخرج حارب عماليق غداً، وهوذا أنا واقف على رأس الجبل وعصا الله في يدى. ففعل يشوع كما قال له موسى وخرج فحارب عماليق، وصعد موسى وهرون وحور على قمة الجبل، فكان إذا رفع موسى يديه يغلب بنو إسرائيل، وإذا خفض يديه يغلب عماليق. فلما كلّت يدا موسى أخذا حجراً ووضعاه تحته ",
         ],
         [
             Prefix.HolyWeek + "1HDProphecies&D=GL55&C=Diacon",
             "",
             "Il s'assit dessus tandis qu'Aaron et Hur lui soutenaient les mains, l'un d'un côté, l'autre de l'autre. Ainsi ses mains restèrent-elles fermes jusqu'au coucher du soleil. Josué défit Amalek et son peuple au fil de l'épée. Le Seigneur dit alors à Moïse: «Ecris cela dans un livre pour en garder le souvenir, et déclare à Josué que j'effacerai la mémoire d'Amalek de dessous les cieux.» Moïse bâtit un autel, lui donna le nom de «Le Seigneur, mon étendard»",
-            "وجلس عليه، ودعم هرون وحور يديه، أحدهما من هنا والآخر من هناك. فكانت يدا موسى ثابتتين إلى غروب الشمس، فقتل يشوع عماليق وكل جمعه قتلاً بحد السيف، فقال الرب لموسى: إكتب هذا فى سفر للذكرى وسلّمه ليدى يشوع لأنى سأمحو ذكر عماليق محواً من تحت السماء. فبنى موسى مذبحاً ودعا إسمه الرب ملجأى",
+            "وجلس عليه، ودعم هرون وحور يديه، أحدهما من هنا والآخر من هناك. فكانت يدا موسى ثابتتين إلى غروب الشمس، فقتل يشوع عماليق وكل جمعه قتلاً بحد السيف، فقال الرب لموسى: إكتب هذا في سفر للذكرى وسلّمه ليدى يشوع لأنى سأمحو ذكر عماليق محواً من تحت السماء. فبنى موسى مذبحاً ودعا إسمه الرب ملجأى",
         ],
         [
             Prefix.HolyWeek + "1HDProphecies&D=GL55&C=Diacon",
             "",
             "et dit: «Puisqu'une main s'est levée contre le trône du Seigneur, c'est la guerre entre le Seigneur et Amalek d'âge en âge!»\nGloire à la sainte Trinité notre Dieu.",
-            "لأنه بيد خفية يحارب الرب عماليق من جيل الى جيل.\nمجداً للثالوث الأقدس إلهنا آمين.",
+            "لأنه بيد خفية يحارب الرب عماليق من جيل إلى جيل.\nمجداً للثالوث الأقدس إلهنا آمين.",
         ],
         [
             Prefix.HolyWeek + "1HDProphecies&D=GL55&C=Diacon",
@@ -5839,25 +5893,25 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "1HDProphecies&D=GL55&C=Diacon",
             "",
             "Ils marchèrent trois jours au désert sans trouver d'eau. Ils arrivèrent à Mara, mais ne purent boire l'eau de Mara car elle était amère - d'où son nom \"Mara\". Le peuple murmura contre Moïse en disant: «Que boirons-nous?» Celui-ci cria vers le Seigneur et le Seigneur lui indiqua un arbre d'une certaine espèce. Il en jeta un morceau dans l'eau et l'eau devint douce. C'est là qu'il leur fixa des lois et coutumes. C'est là qu'il les mit à l'épreuve. Il dit :",
-            "وساروا ثلاثة أيام فى البرية ولم يجدوا ماءً للشرب، فجاءوا الى مارة ولم يقدروا أن يشربوا ماء من مارة لأنه مرّ، ولذلك دعى ذلك المكان مر، فتذمر الشعب على موسى قائلين: ماذا نشرب؟ فصرخ موسى الى الرب، فأراه الرب عوداً فطرحه فى الماء، فصار الماء عذباً. وفى ذلك المكان قرر له الفرائض والاحكام، وفى ذلك المكان جربه وقال له",
+            "وساروا ثلاثة أيام في البرية ولم يجدوا ماءً للشرب، فجاءوا إلى مارة ولم يقدروا أن يشربوا ماء من مارة لأنه مرّ، ولذلك دعى ذلك المكان مر، فتذمر الشعب على موسى قائلين: ماذا نشرب؟ فصرخ موسى إلى الرب، فأراه الرب عوداً فطرحه في الماء، فصار الماء عذباً. وفى ذلك المكان قرر له الفرائض والاحكام، وفى ذلك المكان جربه وقال له",
         ],
         [
             Prefix.HolyWeek + "1HDProphecies&D=GL55&C=Diacon",
             "",
             "«Si tu entends bien la voix du Seigneur, ton Dieu, si tu fais ce qui est droit à ses yeux, si tu prêtes l'oreille à ses commandements, si tu gardes tous ses décrets, je ne t'infligerai aucune des maladies que j'ai infligées à l'Égypte, car c'est moi le Seigneur qui te guéris.» Ils arrivèrent à Elim: il y a là douze sources d'eau et soixante-dix palmiers. Ils campèrent là, près de l'eau. Ils partirent d'Elim",
-            "إن أنت سمعت وأطعت صوت الرب إلهك، وعملت ما يرضيه أمامه وحفظت كل وصاياه وأوامره، فكل مرض أتيت به على المصريين لا أجلبه عليك، لأنى أنا الرب الذى يشفيك. وجاءوا الى ايليم وكان هناك اثنتا عشرة عين ماء وسبعون نخلة. فنزلوا هناك عند الماء، ثم إرتحلوا من إيليم",
+            "إن أنت سمعت وأطعت صوت الرب إلهك، وعملت ما يرضيه أمامه وحفظت كل وصاياه وأوامره، فكل مرض أتيت به على المصريين لا أجلبه عليك، لأنى أنا الرب الذي يشفيك. وجاءوا إلى ايليم وكان هناك اثنتا عشرة عين ماء وسبعون نخلة. فنزلوا هناك عند الماء، ثم إرتحلوا من إيليم",
         ],
         [
             Prefix.HolyWeek + "1HDProphecies&D=GL55&C=Diacon",
             "",
             "et toute la communauté des fils d'Israël arriva au désert de Sîn, entre Elim et le Sinaï, le quinzième jour du deuxième mois de leur sortie d'Égypte. Dans le désert, toute la communauté des fils d'Israël murmura contre Moïse et Aaron. Les fils d'Israël leur dirent: «Ah ! si nous étions morts de la main du Seigneur au pays d'Égypte, quand nous étions assis près du chaudron de viande, quand nous mangions du pain à satiété ! ",
-            "وأتى كل جماعة بنى إسرائيل الى برية سيناء التى بين إيليم وبين سيناء فى اليوم الخامس عشر من الشهر الثانى لخروجهم من أرض مصر، فتذمر جماعة بنى إسرائيل على موسى وهارون وقال لهما بنو إسرائيل : ليتنا متنا فى أرض مصر إذ كنا جالسين عند قدور اللحم ونأكل خبزاً ونشبع. ",
+            "وأتى كل جماعة بنى إسرائيل إلى برية سيناء التى بين إيليم وبين سيناء في اليوم الخامس عشر من الشهر الثانى لخروجهم من أرض مصر، فتذمر جماعة بنى إسرائيل على موسى وهارون وقال لهما بنو إسرائيل : ليتنا متنا في أرض مصر إذ كنا جالسين عند قدور اللحم ونأكل خبزاً ونشبع. ",
         ],
         [
             Prefix.HolyWeek + "1HDProphecies&D=GL55&C=Diacon",
             "",
             "Vous nous avez fait sortir dans ce désert pour laisser mourir de faim toute cette assemblée! \nGloire à la sainte Trinité notre Dieu.",
-            "فأنكما أخرجتمانا الى البرية، لكى تميتونا مع كل الجماعة بالجوع.\nمجدًا للثالوث الأقدس إلهنا آمين.",
+            "فأنكما أخرجتمانا إلى البرية، لِكَي تميتونا مع كل الجماعة بالجوع.\nمجدًا للثالوث الأقدس إلهنا آمين.",
         ],
         [
             Prefix.HolyWeek + "1HDProphecies&D=GL55&C=Diacon",
@@ -5869,25 +5923,25 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "1HDProphecies&D=GL55&C=Diacon",
             "",
             "C'est moi qu'ils recherchent jour après jour, ils désirent connaître mes voies, comme une nation qui a pratiqué la justice, qui n'a pas négligé le droit de son Dieu. Ils s'informent près de moi des lois justes, ils désirent être proches de Dieu. «Pourquoi avons-nous jeûné sans que tu le voies, nous sommes-nous mortifiés sans que tu le saches?» C'est qu'au jour où vous jeûnez, vous traitez des affaires, et vous opprimez tous vos ouvriers. ",
-            "يطلبوننى يوماً فيوماً ويشتهون أن يعرفوا طرقى، مثل شعب يصنع العدل ولم يترك حكم الهه، يسألونى الآن حكماً عادلاً. ويشتهون أن يقتربوا الى الله قائلين: لماذا صمنا ولم تنظر؟ وأذللنا أنفسنا ولم تعلم؟ لأن فى أيام صومكم تجدون مسرتكم وتسخرون من هم تحت سلطانكم،",
+            "يطلبوننى يوماً فيوماً ويشتهون أن يعرفوا طرقى، مثل شعب يصنع العدل ولم يترك حكم الهه، يسألونى الآن حكماً عادلاً. ويشتهون أن يقتربوا إلى الله قائلين: لماذا صمنا ولم تنظر؟ وأذللنا أنفسنا ولم تعلم؟ لأن في أيام صومكم تجدون مسرتكم وتسخرون من هم تحت سلطانكم،",
         ],
         [
             Prefix.HolyWeek + "1HDProphecies&D=GL55&C=Diacon",
             "",
             "C’est que vous jeûnez pour vous livrer aux querelles et aux disputes, pour frapper du poing méchamment. Vous ne jeûnerez pas comme aujourd'hui, si vous voulez faire entendre votre voix là-haut! Est-ce là le jeûne qui me plaît, le jour où l'homme se mortifie? Courber la tête comme un jonc, se faire une couche de sac et de cendre, est-ce là ce que tu appelles un jeûne, un jour agréable au Seigneur? N'est-ce pas plutôt ceci, ",
-            "وتصومون للمنازعات والمخاصمات وتضربون الذليل. لماذا تصومون لى مثل اليوم لأسمع صوتكم بصراخ؟ لست أختار أنا هذا الصوم، ولا يوماً يذل الإنسان نفسه ولو أنك احنيت عنقك مثل الطوق وتفرش مسحاً ورماداً تحتك، فليس هكذا تدعون صوماً مقبولاً، ليس هذا الصوم الذى أنا إخترته قال الرب، لكن حل كل رباط الظلم،",
+            "وتصومون للمنازعات والمخاصمات وتضربون الذليل. لماذا تصومون لي مثل اليوم لأسمع صوتكم بصراخ؟ لست أختار أنا هذا الصوم، ولا يوماً يذل الإنسان نفسه ولو أنك احنيت عنقك مثل الطوق وتفرش مسحاً ورماداً تحتك، فليس هكذا تدعون صوماً مقبولاً، ليس هذا الصوم الذي أنا إخترته قال الرب، لكن حل كل رباط الظلم،",
         ],
         [
             Prefix.HolyWeek + "1HDProphecies&D=GL55&C=Diacon",
             "",
             "le jeûne que je préfère: défaire les chaînes injustes, délier les liens du joug; renvoyer libres les opprimés, et briser tous les jougs? N'est-ce pas partager ton pain avec l'affamé, héberger chez toi les pauvres sans abri, si tu vois un homme nu, le vêtir, ne pas te dérober devant celui qui est ta propre chair? Alors ta lumière éclatera comme l'aurore, ta blessure se guérira rapidement, ta justice marchera devant toi et la gloire du Seigneur te suivra. ",
-            "فك كل عقد المعاملات الاقتسارية، أرسل للمنكسرين بالتخلية وخزق كل مكتوب ظالم، إكسر خبزك للجائع، أدخل المساكين الذين لا مأوى لهم الى بيتك، إن رأيت عرياناً إكسوه، وخواص زرعك لا تتغافل عنه، حينئذ ينفجر نورك مثل الصبح وشفاؤك يشرق سريعاً، ويتقدم عدلك قدامك، ومجد الله يجللك، ",
+            "فك كل عقد المعاملات الاقتسارية، أرسل للمنكسرين بالتخلية وخزق كل مكتوب ظالم، إكسر خبزك للجائع، أدخل المساكين الذين لا مأوى لهم إلى بيتك، إن رأيت عرياناً إكسوه، وخواص زرعك لا تتغافل عنه، حينئذ ينفجر نورك مثل الصبح وشفاؤك يشرق سريعاً، ويتقدم عدلك قدامك، ومجد الله يجللك، ",
         ],
         [
             Prefix.HolyWeek + "1HDProphecies&D=GL55&C=Diacon",
             "",
             "Alors tu crieras et le Seigneur répondra, tu appelleras, il dira: Me voici! Si tu bannis de chez toi le joug, le geste menaçant et les paroles méchantes, si tu te prives pour l'affamé et si tu rassasies l'opprimé, ta lumière se lèvera dans les ténèbres, et l'obscurité sera pour toi comme le milieu du jour. Le Seigneur sans cesse te conduira, il te rassasiera dans les lieux arides.\nGloire à la sainte Trinité notre Dieu.",
-            "حينئذ تصرخ والله يسمعك، وإذ تتكلم يقول: هأنذا. وإن نزعت عنك الرباط والمشورة الردية وكلمة التمرد، وتعطى للجائع خبزك من كل قلبك وتشبع النفس الذليلة، حينئذ يشرق نورك فى الظلمة، وتصير ظلمتك مثل الظهيرة ويكون إلهك معك كل حين وتمتلىء كما تشتهى نفسك.\nمجداً للثالوث الأقدس إلهنا آمين.",
+            "حينئذ تصرخ والله يسمعك، وإذ تتكلم يقول: هأنذا. وإن نزعت عنك الرباط والمشورة الردية وكلمة التمرد، وتعطى للجائع خبزك من كل قلبك وتشبع النفس الذليلة، حينئذ يشرق نورك في الظلمة، وتصير ظلمتك مثل الظهيرة ويكون إلهك معك كل حين وتمتلىء كما تشتهى نفسك.\nمجداً للثالوث الأقدس إلهنا آمين.",
         ],
         [
             Prefix.HolyWeek + "1HDProphecies&D=GL55&C=Diacon",
@@ -5899,19 +5953,19 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "1HDProphecies&D=GL55&C=Diacon",
             "",
             "au juste sera imputée sa justice et au méchant sa méchanceté. Quant au méchant, s'il renonce à tous les péchés qu'il a commis, observe toutes mes lois et pratique le droit et la justice, il vivra, il ne mourra pas. On ne se souviendra plus de tous les péchés qu'il a commis, il vivra à cause de la justice qu'il a pratiquée. Prendrais-je donc plaisir à la mort du méchant - oracle du Seigneur Dieu - et non pas plutôt à le voir renoncer à sa conduite",
-            "بر البار عليه يعود، ونفاق المنافق عليه يعود، والمنافق اذا تاب عن جميع خطاياه وحفظ وصاياى كلها وأجرى العدل والرحمة، فإنه يحيا حياة ولا يموت. وكل خطاياه لا تُذكر وببره الذى صنعه يحيا. لأننى لا أريد موت الخاطىء يقول الرب، مثل ما يرجع عن طريقه الرديه ",
+            "بر البار عليه يعود، ونفاق المنافق عليه يعود، والمنافق إذا تاب عن جميع خطاياه وحفظ وَصَايَاي كلها وأجرى العدل والرحمة، فإنه يحيا حياة ولا يموت. وكل خطاياه لا تُذكر وببره الذي صنعه يحيا. لأننى لا أريد موت الخاطىء يقول الرب، مثل ما يرجع عن طريقه الرديه ",
         ],
         [
             Prefix.HolyWeek + "1HDProphecies&D=GL55&C=Diacon",
             "",
             "et vivre? Mais si le juste renonce à sa justice et commet le mal, imitant toutes les abominations que commet le méchant, vivra-t-il? On ne se souviendra plus de toute la justice qu'il a pratiquée, mais à cause de l'infidélité dont il s'est rendu coupable et du péché qu'il a commis, il mourra. Et vous dites: «La manière d'agir du Seigneur n'est pas juste.» Ecoutez donc, maison d'Israël: est-ce ma manière d'agir qui n'est pas juste? ",
-            "ويحيا، واذا إرتد البار عن بره وصنع كل الآثام التى يصنعها المنافق فكل بره الذى صنعه فى زلاته التى صنعها لا يذكر له، ولكنه يموت بالخطية التى أخطأ بها. فإسمعوا الآن يا بيت اسرائيل لأنكم تقولون: إن طريقى غير مستقيم",
+            "ويحيا، واذا إرتد البار عن بره وصنع كل الآثام التى يصنعها المنافق فكل بره الذي صنعه في زلاته التى صنعها لا يذكر له، ولكنه يموت بالخطية التى أخطأ بها. فإسمعوا الآن يا بيت اسرائيل لأنكم تقولون: إن طريقى غير مستقيم",
         ],
         [
             Prefix.HolyWeek + "1HDProphecies&D=GL55&C=Diacon",
             "",
             "N'est-ce pas votre manière d'agir qui n'est pas juste? Si le juste se détourne de sa justice pour commettre le mal et meurt, c'est à cause du mal qu'il a commis qu'il meurt. Et si le pécheur se détourne du péché qu'il a commis, pour pratiquer le droit et la justice, il assure sa vie. Il a choisi de se détourner de tous les crimes qu'il avait commis, il vivra, il ne mourra pas. Et pourtant la maison d'Israël dit: «La manière d'agir du Seigneur n'est pas juste.»",
-            "وطرقنا مستقيمة، فطرقكم غير مستقيمة. عندما يرتد البار عن بره ويفعل الإثم، فإنه بإثمه الذى صنعه يموت. وعندما يرجع المنافق عن طريق نفاقه الذى صنعه ويجرى حكماً وعدلاً، فإنه يحفظ نفسه. وإذ يرجع عن كل نفاقه الذى صنعه يحيا حياة ولا يموت، لأن بيت إسرائيل يقول أن طريقى ليست مستقيمة.",
+            "وطرقنا مستقيمة، فطرقكم غير مستقيمة. عندما يرتد البار عن بره ويفعل الإثم، فإنه بإثمه الذي صنعه يموت. وعندما يرجع المنافق عن طريق نفاقه الذي صنعه ويجرى حكماً وعدلاً، فإنه يحفظ نفسه. وإذ يرجع عن كل نفاقه الذي صنعه يحيا حياة ولا يموت، لأن بيت إسرائيل يقول أن طريقى ليست مستقيمة.",
         ],
         [
             Prefix.HolyWeek + "1HDProphecies&D=GL55&C=Diacon",
@@ -5930,7 +5984,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "1HDSermony&D=GL55&C=Title",
             "Sermon de  Première heure du jeudi",
-            "",
+            "Sermon de  Première heure du jeudi",
             "عظة لأبينا الساعة الأولى من يوم الخميس",
         ],
         [
@@ -5943,25 +5997,25 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "1HDSermony&D=GL55&C=Diacon",
             "",
             "Sermon de notre père St Jean Chrysostome que sa bénédiction soit sur nous tous Amen\nVoici le jour pour se présenter à la table redoutable : Avançons donc tous vers elle en pureté et qu'aucun ne soit méchant, comme Juda. Car il est écrit que lorsqu’il prit la bouchée, Satan entra en lui, et il livra le Seigneur de gloire. Que chacun d'entre-nous scrute son cœur avant de se présenter pour prendre le Corps et le Sang du Christ afin qu'ils ne soient pas pour lui une ",
-            "عظة لأبينا القديس أنبا يوحنا ذهبي الفم، بركته المقدسة تكون معنا. آمين.\nهذا هو يوم التقدم الى المائدة الرهيبة، فلنتقدم كلنا اليها بطهارة ولا يكن أحدنا شريراً مثل يهوذا، لأنه مكتوب: لما تناول الخبز دخله الشيطان فسلّم رب المجد. وليفحص كل واحد منا ذاته قبل ان يتقدم الى جسد ودم المسيح لكى لا يكون له دينونة،",
+            "عظة لأبينا القديس أنبا يوحنا ذهبي الفم، بركته المقدسة تكون معنا. آمين.\nهذا هو يوم التقدم إلى المائدة الرهيبة، فلنتقدم كلنا اليها بطهارة ولا يكن أحدنا شريراً مثل يهوذا، لأنه مكتوب: لما تناول الخبز دخله الشيطان فسلّم رب المجد. وليفحص كل واحد منا ذاته قبل ان يتقدم إلى جسد ودم المسيح لِكَي لا يكون له دينونة،",
         ],
         [
             Prefix.HolyWeek + "1HDSermony&D=GL55&C=Diacon",
             "",
             "condamnation. Ce n'est pas un homme qui donne le Corps et le Sang mais le Christ qui a été crucifié pour nous. C'est Lui qui se tient mystérieusement à cette table. Lui qui avec puissance et grâce  dit: «Ceci est mon corps.»  Tout comme la parole concernant notre reproduction, qu'Il a prononcé une seule fois dès le commencement: «soyez féconds, multipliez-vous et remplissez toute la terre;»  cette parole est agissante en permanence",
-            "دينونة، لأنه ليس إنسان الذى يناول الخبز والدم، ولكن هو المسيح الذى صلب عنا وهو القائم على هذه المائدة بسر. هذا الذى له القوة والنعمة يقول: هذا هو جسدى. وكما أن الكلمة التى نطق بها مرة واحدة منذ البدء قائلاً: اكثروا وانموا واملأوا الأرض، هى دائمة فى كل حين",
+            "دينونة، لأنه ليس إنسان الذي يناول الخبز والدم، ولكن هو المسيح الذي صلب عنا وهو القائم على هذه المائدة بسر. هذا الذي له القوة والنعمة يقول: هذا هو جسدى. وكما أن الكلمة التى نطق بها مرة واحدة منذ البدء قائلاً: اكثروا وانموا واملأوا الأرض، هى دائمة في كل حين",
         ],
         [
             Prefix.HolyWeek + "1HDSermony&D=GL55&C=Diacon",
             "",
             "en notre nature, tout comme la parole qu'a prononcée le Christ à cette table est permanente dans les Églises jusqu'à ce jour et jusqu'à Son Avènement et elle accomplit le même Sacrifice.  \nCloturons le sermon de notre père Saint Jean Chrysostome qui a éclairé notre esprit et les yeux de notre cœur au Nom du Père, du Fils et du Saint-Esprit, un seul Dieu, Amen! \n ",
-            "تفعل فى طبيعتنا زيادة التناسل،كذلك الكلمة التى قالها المسيح على تلك المائدة الباقية فى الكنائس الى هذا اليوم والى مجيئه مكملة كل عمل الذبيحة.\nفلنختم عظة أبينا القديس أنبا يوحنا ذهبي الفم الذي أنار عقولنا وعيون قلوبنا بإسم الآب والإبن والروح القدس إله واحد. آمين.",
+            "تفعل في طبيعتنا زيادة التناسل،كذلك الكلمة التى قالها المسيح على تلك المائدة الباقية في الكنائس إلى هذا اليوم والى مجيئه مكملة كل عمل الذبيحة.\nفلنختم عظة أبينا القديس أنبا يوحنا ذهبي الفم الذي أنار عقولنا وعيون قلوبنا بإسم الآب والإبن والروح القدس إله واحد. آمين.",
         ],
         [
             Prefix.HolyWeek + "1HDSermony&D=GL55&C=Diacon",
             "Marener `c`vragizin `n]katy,ycic `nte peniwt `e;ouab abba Iwannyc pi,rycoctomoc `vyetaferouwini `mpennouc nem nibal `nte nenhyt @ qen `vran `m~Viwt nem ~Psyri nem Pi`pneuma `e;ouab ounou] `nouwt @ `amyn",
             "",
-            "فلنختم عظة أبينا القديس أنبا يوحنا فم الذهب الذى أنار عقولنا وعيون قلوبنا بإسم الآب والإبن والروح القدس إله واحد. آمين.",
+            "فلنختم عظة أبينا القديس أنبا يوحنا فم الذهب الذي أنار عقولنا وعيون قلوبنا بإسم الآب والإبن والروح القدس إله واحد. آمين.",
         ],
     ],
     [
@@ -6039,26 +6093,26 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "1HDJudasHymn&D=GL55&C=Diacon",
             "Ioudac (,/) ouparanomoc. Barabban ton katakriton> `apelucan auton ton `krithn> ke decpothn ectaurwcan> ic thn `pleuran lonxhn `epiqentec> ke wc lhcthn> [ulw `proc`hlwnac `eqhkan> en `mnhmi`w` o ek tou tavou> `egirac ton Lazaron.",
             "Judas (6), le contrevenant de la Loi. Barabbas le larron jugé, ils l’ont libéré ; et le Maître, le Juge, ils l’ont crucifié. Ils T’ont percé le côté avec une lance. Comme un larron, ils T’ont cloué sur le bois. Ils T’ont mis dans un tombeau, Toi, qui as ressuscité Lazare.",
-            "يهوذا)٦ (مخالف الناموس بارباس اللص المسجون أطلقوه والسيد الديان صلبوه. فى جنبك وضعوا حربة ومثل لص سمروك على خشبة ووضعوك فى قبر يا من أقام لعازر من القبر.",
+            "يهوذا)٦ (مخالف الناموس بارباس اللص المسجون أطلقوه والسيد الديان صلبوه. في جنبك وضعوا حربة ومثل لص سمروك على خشبة ووضعوك في قبر يا من أقام لعازر من القبر.",
         ],
         [
             Prefix.HolyWeek + "1HDJudasHymn&D=GL55&C=Diacon",
             "Ioudac (,/) ouparanomoc. Wcper gar Iwnac `tric `hmerac `eminen> enkili`a tou khtouc ontwc ke cwthr `hmwn> `tric `hmerac `eminen> meta ton teqnhkotwn ton tavon> ecvragicanto.",
             "Judas (6), le contrevenant de la Loi. Car comme Jonas est resté trois jours dans le ventre de la baleine, ainsi notre Sauveur a demeuré trois jours : après Sa mort, ils ont scellé le tombeau",
-            "يهوذا)٦ (مخالف الناموس لأنه كما مكث يونان ثلاثة ايام فى بطن الحوت هكذا مخلصنا اقام ثلاثة أيام وبعد أن مات ختموا القبر",
+            "يهوذا)٦ (مخالف الناموس لأنه كما مكث يونان ثلاثة ايام في بطن الحوت هكذا مخلصنا اقام ثلاثة أيام وبعد أن مات ختموا القبر",
         ],
         [
             Prefix.HolyWeek + "1HDJudasHymn&D=GL55&C=Diacon",
             "Ioudac (,/) ouparanomoc. Ontwc `anecth ke ouk egnwcan ctrati``wte> ontwc hgerqhc `o cwthr tou kocmou> `opaqwn ke `anactac di`a tou> genoc `hmwn Kuri`e Do[aci> amhn.",
             "Judas (6), le contrevenant de la Loi. En vérité Il est ressuscité et les soldats ne l’ont pas su. Le Sauveur du monde S'est levé vraiment, Lui qui a souffert et est ressuscité pour le genre humain. Ô Seigneur gloire à Toi, Amen !",
-            "يهوذا)٦ (مخالف الناموس بالحقيقة قام والجند لم يعلموا. انه حقاً نهض مخلص العالم الذى تألم وقام لأجل جنسنا يارب المجد لك إلى الأبد. آمين",
+            "يهوذا)٦ (مخالف الناموس بالحقيقة قام والجند لم يعلموا. انه حقاً نهض مخلص العالم الذي تألم وقام لأجل جنسنا يارب المجد لك إلى الأبد. آمين",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "1HDPsalm&D=GL55&C=Title",
             "Psaume de la Première heure du jeudi",
-            "",
+            "Psaume de la Première heure du jeudi",
             "مزمور الساعة الأولى من يوم الخميس",
         ],
         [
@@ -6072,7 +6126,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "1HDGospel&D=GL55&C=Title",
             "Evangile de la Première heure du jeudi",
-            "",
+            "Evangile de la Première heure du jeudi",
             " إنجيل الساعة الأولى من يوم الخميس",
         ],
         [
@@ -6085,33 +6139,33 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "1HDGospel&D=GL55&C=Diacon",
             "Loukan  Kev k/b/ > z/-i/g\nAf`èi de `ènje pi`èeoou `ènte niat]emhr vh`èete`èc]e `èe]at `èmpipacxa `èn'htf. Ouo afouwrp `èmPetroc nem Iwannhc `èeafjoc> je ma]enwten cebte pipacxa nan ina `èntenouomf. `èNqwou de pejwou naf je `èxouw] `èecebtwtf qwn. `èNqof de pejaf nwou > je hppe `èeretenna]enwten `èe'oun `èe;baki> `èfna`èi `èebol `èe`è\\ren qhnou `ènje ourwmi effai `ènou]o]ou `èmmwou> mo]i `èncwf `èepihi> `èetefna]e `èe'oun `èerof.\n Ouo `èajoc `èmpinebhi `ènte pihi > je peje piref;`ècbw nak je a]pe pama`ènemton > `èvma `èe;naouwm `èmpapacxa èè`èmmof nem namaqhthc. Ouo vh`èete`èmmau `èfnatamwten `èeouni]; `èmma `èefca`èp]wi efvwr]> cebtwtf  `èmmau. Etau]enwou de aujimi kata `èvrh; `èetafjoc nwou> ouo aucebte pipacxa. Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
             "Luc 22 : 7-13 \nVint le jour des Azymes, où devait être immolée la pâque, et il envoya Pierre et Jean en disant: «Allez nous préparer la pâque, que nous la mangions.» Ils lui dirent: «Où veux-tu que nous la préparions?»\nIl leur dit: «Voici qu'en entrant dans la ville, vous rencontrerez un homme portant une cruche d'eau. Suivez-le dans la maison où il pénétrera, et vous direz au propriétaire de la maison:",
-            "لوقا ٢٢ : ٧ – ١٣\nوجاء يوم الفطير الذى ينبغى أن يذبح فيه الفصح، فأرسل بطرس ويوحنا قائلاً: أمضيا وأعدا لنا الفصح لنأكله. فقالا له: أين تريد أن نعده؟\nفقال لهما: إذا دخلتما المدينة يلقاكما رجل حامل جرة ماء فإتبعاه الى البيت الذى يدخله وقولا لرب البيت: ",
+            "لوقا ٢٢ : ٧ – ١٣\nوجاء يوم الفطير الذي ينبغى أن يذبح فيه الفصح، فأرسل بطرس ويوحنا قائلاً: أمضيا وأعدا لنا الفصح لنأكله. فقالا له: أين تريد أن نعده؟\nفقال لهما: إذا دخلتما المدينة يلقاكما رجل حامل جرة ماء فإتبعاه إلى البيت الذي يدخله وقولا لرب البيت: ",
         ],
         [
             Prefix.HolyWeek + "1HDGospel&D=GL55&C=Diacon",
             "",
             "Le Maître te fait dire: Où est la salle où je pourrai manger la pâque avec mes disciples? Et celui-ci vous montrera, à l'étage, une grande pièce garnie de coussins; faites-y les préparatifs.» S'en étant donc allés, ils trouvèrent comme il leur avait dit, et ils préparèrent la pâque.\nGloire à Dieu éternellement.",
-            "المعلم يقول لك أين موضع راحتى الذى آكل فيه الفصح مع تلاميذى؟ فذاك يريكما علية كبيرة مفروشة فأعدا هناك. ولما مضيا وجدا كما قال لهما، فأعدا الفصح.\nوالمجد لله دائماً.",
+            "المعلم يقول لك أين موضع راحتى الذي آكل فيه الفصح مع تلاميذى؟ فذاك يريكما علية كبيرة مفروشة فأعدا هناك. ولما مضيا وجدا كما قال لهما، فأعدا الفصح.\nوالمجد لله دائماً.",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "1HDCommentary&D=GL55&C=Title",
             "Commentaire de la Première heure du jeudi",
-            "",
+            "Commentaire de la Première heure du jeudi",
             "طرح الساعة الأولى من يوم الخميس",
         ],
         [
             Prefix.HolyWeek + "1HDCommentary&D=GL55&C=Diacon",
             "",
             "Commentaire\nVoici le jour de la Pâque qui approche. Indique-nous, Seigneur, où nous devons Te la préparer. Les apôtres s'adressèrent ainsi au Maître. Tu es notre Pâques ô Seigneur Jésus Christ. Il envoya deux de ses disciples Pierre et Jean en leur disant: Entrez dans la ville, vous trouverez un homme portant une cruche d'eau. Suivez-le jusqu'à l'endroit où il entrera. Là vous direz au maître de maison:",
-            "طــرح\nيوم الفصح قد اقترب يا سيدنا، عرّفنا المكان الذى نعده لك، هكذا قال التلاميذ للمعلم. أنت هو فصحنا يا يسوع المسيح. فأرسل إثنين من تلاميذه - الصفا ويوحنا - وقال لهما: قوما وأمضيا الى هذه المدينة فتجدان رجلاً حاملاً جرة ماء. إذا مشى، سيرا أنتما خلفه الى الموضع الذى يدخل اليه، فقولا لصاحب البيت:",
+            "طــرح\nيوم الفصح قد اقترب يا سيدنا، عرّفنا المكان الذي نعده لك، هكذا قال التلاميذ للمعلم. أنت هو فصحنا يا يسوع المسيح. فأرسل إثنين من تلاميذه - الصفا ويوحنا - وقال لهما: قوما وأمضيا إلى هذه المدينة فتجدان رجلاً حاملاً جرة ماء. إذا مشى، سيرا أنتما خلفه إلى الموضع الذي يدخل اليه، فقولا لصاحب البيت:",
         ],
         [
             Prefix.HolyWeek + "1HDCommentary&D=GL55&C=Diacon",
             "",
             "Le Maître te fait dire: Où est la salle où je pourrai manger la pâque? Et celui-ci vous montrera, à l'étage, une grande pièce garnie de coussins; faites-y les préparatifs. Ils firent ce que le Seigneur leur a dit. Venez, toutes les nations, réjouissez-vous et exultez car Dieu le Verbe est devenu votre Pâques. La première Pâque, celle de l'agneau, a sauvé le peuple de l'esclavage de Pharaon. La nouvelle Pâques, le Fils de Dieu, a sauvé le monde de toute souillure. ",
-            "يقول المعلم: أين المكان الذى آكل فيه الفصح؟ فذلك يريكما عُلية علوية خالية مفروشة، أعدا الفصح فى ذلك الموضع. وهكذا صنعا كقول الرب. تعالوا أيها الأمم، إفرحوا وتهللوا لأن الإله الكلمة صار لكم فصحاً. الفصح الأول الذي بالخروف خلص الشعب من عبودية فرعون، والفصح الجديد هو إبن الله الذي خلص العالم من الفساد، ",
+            "يقول المعلم: أين المكان الذي آكل فيه الفصح؟ فذلك يريكما عُلية علوية خالية مفروشة، أعدا الفصح في ذلك الموضع. وهكذا صنعا كقول الرب. تعالوا أيها الأمم، إفرحوا وتهللوا لأن الإله الكلمة صار لكم فصحاً. الفصح الأول الذي بالخروف خلص الشعب من عبودية فرعون، والفصح الجديد هو إبن الله الذي خلص العالم من الفساد، ",
         ],
         [
             Prefix.HolyWeek + "1HDCommentary&D=GL55&C=Diacon",
@@ -6124,14 +6178,14 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "3HDProphecies&D=GL55&C=Title",
             "Prophecies de la Troisième heure du jeudi",
-            "",
+            "Prophecies de la Troisième heure du jeudi",
             "نبوات الساعة الثالثة من يوم الخميس",
         ],
         [
             Prefix.HolyWeek + "3HDProphecies&D=GL55&C=Diacon",
             "Ebolqen pidoxodoc `nte Mw`ucyc piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nAc]wpi  de  menenca  pefrac;  > peje  Mwèè`èuchc  na\\ren  pilaoc > je  `ènqwten  `èateten`èiri è`è nouni]; `è nnobi.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
             "Exode  32 : 30 à 33 : 5\nLe lendemain, Moïse dit au peuple: «Vous avez commis, vous, un grand péché. »",
-            "خروج ٣٢: ٣٠ - ٣٣ : ١ – ٥\nوكان فى الغد أن قال موسي للشعب: أنتم قد اخطأتم خطية عظيمة",
+            "خروج ٣٢: ٣٠ - ٣٣ : ١ – ٥\nوكان في الغد أن قال موسي للشعب: أنتم قد اخطأتم خطية عظيمة",
         ],
         [
             Prefix.HolyWeek + "3HDProphecies&D=GL55&C=Diacon",
@@ -6143,7 +6197,7 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "3HDProphecies&D=GL55&C=Diacon",
             "",
             "où je t'ai dit. Voici que mon ange ira devant toi, mais au jour de ma visite, je les punirai de leur péché.» Et le Seigneur frappa le peuple parce qu'ils avaient fabriqué le veau, celui qu'avait fabriqué Aaron. Le Seigneur dit à Moïse: «Va, monte d'ici, toi et le peuple que tu as fait monter du pays d'Égypte, vers la terre dont j'ai dit par serment à Abraham, Isaac et Jacob que je la donnerais à leur descendance. J'enverrai un ange devant toi et j'expulserai les",
-            "إلي حيث قلت لك، هوذا ملاكي يسير أمامك، وفي يوم إفتقادي أجلب عليهم خطيتهم. فضرب الرب الشعب بسبب صُنع العجل الذي صنعه هرون، وقال الرب لموسي: إذهب وإنطلق من ههنا أنت وشعبك، هؤلاء الذين اخرجتهم من أرض مصر إلي الأرض التي أقسمت لإبراهيم وإسحق ويعقوب قائلا: لنسلك اعطيها. وأنا أرسل أمامك ملاكي",
+            "إلي حيث قلت لك، هوذا ملاكي يسير أمامك، وفي يوم إفتقادي أجلب عليهم خطيتهم. فضرب الرب الشعب بسبب صُنع العجل الذي صنعه هرون، وقال الرب لموسي: إذهب وإنطلق من ههنا أنت وشعبك، هؤلاء الذين اخرجتهم من أرض مصر إلي الأرض التي أقسمت لابراهيم وإسحق ويعقوب قائلا: لنسلك اعطيها. وأنا أرسل أمامك ملاكي",
         ],
         [
             Prefix.HolyWeek + "3HDProphecies&D=GL55&C=Diacon",
@@ -6210,7 +6264,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "3HDPsalm&D=GL55&C=Title",
             "Psaume de la Troisième heure du jeudi",
-            "",
+            "Psaume de la Troisième heure du jeudi",
             "مزمور الساعة الثالثة من يوم الخميس",
         ],
         [
@@ -6224,7 +6278,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "3HDGospel&D=GL55&C=Title",
             "Evangile de la Troisième heure du jeudi",
-            "",
+            "Evangile de la Troisième heure du jeudi",
             " إنجيل الساعة الثالثة من يوم الخميس",
         ],
         [
@@ -6237,14 +6291,14 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "3HDGospel&D=GL55&C=Diacon",
             "Matqeon  Kev k/>/i/z/-i/q/\nN\\rhi de 'en pi`èeoou `ènouit `ènte niatkwb > au`èi a Ih/c/ `ènje nefmaqhthc eujw `èmmoc > je akouw] `èecebte pipacxa nak qwn `èeouomf. \nNqof de pejaf nwou > je ma]enwten `èetai baki a pa`èvman `ènrwmi ouo `èajoc naf > je peje piref;`ècbw je pachou af'wnt > aina`èiri `èmpapacxa 'atotk nem namaqhthc. Ouo au`èiri `ènje nimaqhthc `èm`èvrh; `èeta Ih/c/ joc nwou ouo aucob; `èmpipacxa.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
             "Matthieu 26 : 17-19\nLe premier jour des Azymes, les disciples s'approchèrent de Jésus et lui dirent: «Où veux-tu que nous te préparions de quoi manger la Pâque?» Il dit: «Allez à la ville, chez un tel, et dites-lui: Le Maître te fait dire: Mon temps est proche, c'est chez toi que je vais faire la Pâque avec mes disciples.» Les disciples firent comme Jésus leur avait ordonné et préparèrent la Pâque. Gloire à Dieu éternellement.",
-            "متى ٢٦ : ١٧ – ١٩\nوفى اليوم الأول من الفطير، جاء التلاميذ الى يسوع قائلين: أين تريد أن نُعد الفصح لتأكله ؟ وأما هو فقال لهم: إذهبوا إلى هذه المدينة، إلى فلان الرجل وقولوا له: المعلم يقول أن زمانى قد إقترب، وعندك أصنع فصحى مع تلاميذى. ففعل التلاميذ كما قال لهم يسوع وأعدوا الفصح.\nوالمجد لله دائماً.",
+            "متى ٢٦ : ١٧ – ١٩\nوفى اليوم الأول من الفطير، جاء التلاميذ إلى يسوع قائلين: أين تريد أن نُعد الفصح لتأكله ؟ وأما هو فقال لهم: إذهبوا إلى هذه المدينة، إلى فلان الرجل وقولوا له: المعلم يقول أن زمانى قد إقترب، وعندك أصنع فصحى مع تلاميذى. ففعل التلاميذ كما قال لهم يسوع وأعدوا الفصح.\nوالمجد لله دائماً.",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "3HDCommentary&D=GL55&C=Title",
             "Commentaire de la Troisième heure du jeudi",
-            "",
+            "Commentaire de la Troisième heure du jeudi",
             "طرح الساعة الثالثة من يوم الخميس",
         ],
         [
@@ -6257,14 +6311,14 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "3HDCommentary&D=GL55&C=Diacon",
             "",
             "efface-moi, de grâce, du livre que tu as écrit!» Le Seigneur lui répondit: «Celui qui a péché, contre moi, c'est lui que j'effacerai de Mon livre.» Le peuple entendit ces paroles et les trouva sévères. Il prit le deuil. Alors le Seigneur dit: «Vous êtes un peuple à la nuque raide et pécheur. Sache et sois assuré que je te frapperai d'un grand coup, je t'exterminerai.»",
-            "فأمح إسمى من سفر الحياة. فقال له الرب: إن الذى أخطأ هو الذى يمحى من سفرى. فلما سمع الشعب هذا القول الصعب جداً، ناح بنحيب عظيم. فقال الرب: إنك أنت شعب قاس، غليظ الرقبة، أثيم، فأنظر وتيقن فإننى منزل عليك ضربة عظيمة وأمحوك.",
+            "فأمح إسمى من سفر الحياة. فقال له الرب: إن الذي أخطأ هو الذي يمحى من سفرى. فلما سمع الشعب هذا القول الصعب جداً، ناح بنحيب عظيم. فقال الرب: إنك أنت شعب قاس، غليظ الرقبة، أثيم، فأنظر وتيقن فإننى منزل عليك ضربة عظيمة وأمحوك.",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "6HDProphecies&D=GL55&C=Title",
             "Prophecies de la Sixième heure du jeudi",
-            "",
+            "Prophecies de la Sixième heure du jeudi",
             "نبوات الساعة السادسة من يوم الخميس",
         ],
         [
@@ -6277,25 +6331,25 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "6HDProphecies&D=GL55&C=Diacon",
             "",
             "Améliorez vos voies et vos œuvres et je vous ferai demeurer en ce lieu. Ne vous fiez pas aux paroles mensongères: «C'est le sanctuaire du Seigneur, le sanctuaire du Seigneur, le sanctuaire du Seigneur!» Mais si vous améliorez réellement vos voies et vos œuvres, si vous avez un vrai souci du droit, chacun avec son prochain, si vous n'opprimez pas l'étranger, l'orphelin et la veuve, si vous ne répandez pas le sang innocent en ce lieu",
-            "قوموا طرقكم وأعمالكم فأسكنكم فى هذا الموضع، لا تتكلوا على نفوسكم ولا على كلام الكذب لأنه لا ينفعكم البتة، قائلين هذا هو هيكل الرب. لأنكم إذا قومتم طرقكم وأعمالكم وأجريتم الحكم بين الرجل وصاحبه، ولم تظلموا الغريب واليتيم والأرملة، ولم تسفكوا دماً ذكياً فى هذا الموضع، ",
+            "قوموا طرقكم وأعمالكم فأسكنكم في هذا الموضع، لا تتكلوا على نفوسكم ولا على كلام الكذب لأنه لا ينفعكم البتة، قائلين هذا هو هيكل الرب. لأنكم إذا قومتم طرقكم وأعمالكم وأجريتم الحكم بين الرجل وصاحبه، ولم تظلموا الغريب واليتيم والأرملة، ولم تسفكوا دماً ذكياً في هذا الموضع، ",
         ],
         [
             Prefix.HolyWeek + "6HDProphecies&D=GL55&C=Diacon",
             "",
             "et si vous n'allez pas, pour votre malheur, à la suite d'autres dieux, alors je vous ferai demeurer en ce lieu, dans le pays que j'ai donné à vos pères depuis toujours et pour toujours. Mais voici que vous vous fiez à des paroles mensongères, à ce qui est vain. Quoi! Voler, tuer, commettre l'adultère, se parjurer, encenser Baal, suivre des dieux étrangers que vous ne connaissez pas, puis venir se présenter devant moi en ce Temple qui porte mon nom, ",
-            "ولم تتبعوا آلهه غريبة هى شر لكم، فإنى أسكنكم فى هذا الموضع، وفى الأرض التى أعطيتها لكم ولآبائكم من الأبد والى الدهر. \nفإن توكلتم على كلام الكذب الذى لا تستفيدون منه، وتسرقون وتقتلون وتزنون وتحلفون بالكذب على الظلم، وتبخرون للبعل وتتبعون آلهة غريبة لم تعرفوها، فإنه سيكون شر لكم. ثم تأتون وتقفون أمامى فى البيت الذى دعى إسمى عليه، ",
+            "ولم تتبعوا آلهه غريبة هى شر لكم، فإنى أسكنكم في هذا الموضع، وفى الأرض التى أعطيتها لكم ولآبائكم من الأبد والى الدهر. \nفإن توكلتم على كلام الكذب الذي لا تستفيدون منه، وتسرقون وتقتلون وتزنون وتحلفون بالكذب على الظلم، وتبخرون للبعل وتتبعون آلهة غريبة لم تعرفوها، فإنه سيكون شر لكم. ثم تأتون وتقفون أمامى في البيت الذي دعى إسمى عليه، ",
         ],
         [
             Prefix.HolyWeek + "6HDProphecies&D=GL55&C=Diacon",
             "",
             "et dire: «Nous voilà en sûreté!» pour continuer toutes ces abominations! A vos yeux, est-ce un repaire de brigands, ce Temple qui porte mon nom? Moi, en tout cas, je vois clair, oracle du Seigneur! Allez donc au lieu qui fut le mien, à Silo: autrefois j'y fis habiter mon Nom; regardez ce que j'en ai fait, à cause de la perversité de mon peuple Israël. Et maintenant, puisque vous avez commis tous ces actes oracle du Seigneur",
-            "وتقولون: إننا قد إمتنعنا عن أن نعمل الخطايا جميعها. هل صار بيتى مغارة لصوص؟ هذا الذى دعى إسمى عليه أمامكم؟ هأنذا قد رأيت ذلك، يقول الرب، إنكم قد دخلتم موضعى فى شيلوه، المكان الذى جعلت إسمى فيه أولاً، ورأيتم ما قد صنعت به بسبب شر شعبى إسرائيل. والآن بما أنكم عملتم هذه الأعمال كلها، ",
+            "وتقولون: إننا قد إمتنعنا عن أن نعمل الخطايا جميعها. هل صار بيتى مغارة لصوص؟ هذا الذي دعى إسمى عليه أمامكم؟ هأنذا قد رأيت ذلك، يقول الرب، إنكم قد دخلتم موضعى في شيلوه، المكان الذي جعلت إسمى فيه أولاً، ورأيتم ما قد صنعت به بسبب شر شعبى إسرائيل. والآن بما أنكم عملتم هذه الأعمال كلها، ",
         ],
         [
             Prefix.HolyWeek + "6HDProphecies&D=GL55&C=Diacon",
             "",
             "puisque vous n'avez pas écouté quand je vous parlais instamment et sans me lasser, et que vous n'avez pas répondu à mes appels, je vais traiter ce Temple qui porte mon nom, et dans lequel vous placez votre confiance, ce lieu que j'ai donné à vous et à vos pères, comme j'ai traité Silo. Je vous rejetterai de devant moi comme j'ai rejeté tous vos frères, toute la race d'Ephraïm.\nGloire à la sainte Trinité notre Dieu.",
-            "وقد كلمتكم فلم تستمعوا إلىّ، ودعوتكم فلم تجيبونى، فالآن سأصنع ببيتى هذا الذى دعى إسمى عليه، هذا الذى أنتم تترجونه، وبالموضع الذى أعطيته لكم ولآبائكم كما صنعت بشيلوه. وأخرجكم كما أخرجت جميع إخوتكم، كل نسل أفرايم.\n\nمجدًا للثالوث الأقدس إلهنا آمين.",
+            "وقد كلمتكم فلم تستمعوا إلىّ، ودعوتكم فلم تجيبونى، فالآن سأصنع ببيتى هذا الذي دعى إسمى عليه، هذا الذي أنتم تترجونه، وبالموضع الذي أعطيته لكم ولآبائكم كما صنعت بشيلوه. وأخرجكم كما أخرجت جميع إخوتكم، كل نسل أفرايم.\n\nمجدًا للثالوث الأقدس إلهنا آمين.",
         ],
         [
             Prefix.HolyWeek + "6HDProphecies&D=GL55&C=Diacon",
@@ -6307,19 +6361,19 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "6HDProphecies&D=GL55&C=Diacon",
             "",
             "Que chacun aille servir ses ordures, mais ensuite, on verra si vous ne m'écoutez pas! Et vous ne profanerez plus mon saint Nom par vos offrandes et vos ordures. Car c'est sur ma montagne sainte, sur la haute montagne d'Israël - oracle du Seigneur - que me servira toute la maison d'Israël, tout entière dans le pays. C'est là que j'accueillerai et que je rechercherai vos offrandes, le meilleur de vos dons et toutes vos choses saintes.",
-            "ليقلع كل واحد منكم عن شروره، وبعد ذلك تطيعونى ولا تنجسوا إسمى القدوس بأصنامكم وأعمالكم، لأنى أتيت على جبل قدسى، على جبل إسرائيل العالى يقول الرب. هناك يتعبد لى كل بيت إسرائيل، وهناك أقبلكم إلىّ، وهناك أطلب قرابينكم وباكورات مرفوعاتكم مع جميع مقدّساتكم،",
+            "ليقلع كل واحد منكم عن شروره، وبعد ذلك تطيعونى ولا تنجسوا إسمى القدوس بأصنامكم وأعمالكم، لأنى أتيت على جبل قدسى، على جبل إسرائيل العالى يقول الرب. هناك يتعبد لي كل بيت إسرائيل، وهناك أقبلكم إلىّ، وهناك أطلب قرابينكم وباكورات مرفوعاتكم مع جميع مقدّساتكم،",
         ],
         [
             Prefix.HolyWeek + "6HDProphecies&D=GL55&C=Diacon",
             "",
             "Comme un parfum d'apaisement, je vous accueillerai, quand je vous ferai sortir du milieu des peuples; je vous rassemblerai des pays où vous êtes dispersés, je serai sanctifié par vous aux yeux des nations, et vous saurez que je suis le Seigneur, lorsque je vous ramènerai sur le sol d'Israël, au pays que j'ai juré solennellement de donner à vos pères. C'est là que vous vous souviendrez de votre conduite et de toutes les actions par lesquelles vous vous êtes souillés, et",
-            "وبرائحة البخور أقبلكم إلىّ اذا أخرجتكم من بين الشعوب، وقبلتكم إلىّ من الكور التى تشتتم فيها، وأتقدس فيكم أمام أعين الأمم، فتعلمون إنى أنا هو الرب. حينما دخلتم إلى أرض إسرائيل، إلى الأرض التى مددت يدى عليها لأعطيها لآبائكم. وفى ذلك الموضع تذكرون طرقكم النجسة وأعمالكم الشريرة التى تنجستم بها، ",
+            "وبرائحة البخور أقبلكم إلىّ إذا أخرجتكم من بين الشعوب، وقبلتكم إلىّ من الكور التى تشتتم فيها، وأتقدس فيكم أمام أعين الأمم، فتعلمون إنى أنا هو الرب. حينما دخلتم إلى أرض إسرائيل، إلى الأرض التى مددت يدى عليها لأعطيها لآبائكم. وفى ذلك الموضع تذكرون طرقكم النجسة وأعمالكم الشريرة التى تنجستم بها، ",
         ],
         [
             Prefix.HolyWeek + "6HDProphecies&D=GL55&C=Diacon",
             "",
             "vous éprouverez du dégoût pour vous-mêmes, à cause de tous les méfaits que vous avez commis. Et vous saurez que je suis le Seigneur, quand j'agirai envers vous par égard pour mon nom, et non pas d'après votre mauvaise conduite et vos actions corrompues, maison d'Israël, oracle du Seigneur Dieu.\nGloire à la sainte Trinité notre Dieu.",
-            "وترون وتنظرون وجوهكم فى كل ظلمكم، وتعلمون أنى أنا هو الرب، حينما أصنع بكم هكذا لكيلا يتدنس إسمى كطرقكم الرديئة وأعمالكم الفاسدة، يقول أدونى الرب\n\nمجدًا للثالوث الأقدس إلهنا آمين.",
+            "وترون وتنظرون وجوهكم في كل ظلمكم، وتعلمون أني أنا هو الرب، حينما أصنع بكم هكذا لكيلا يتدنس إسمى كطرقكم الرديئة وأعمالكم الفاسدة، يقول أدونى الرب\n\nمجدًا للثالوث الأقدس إلهنا آمين.",
         ],
         [
             Prefix.HolyWeek + "6HDProphecies&D=GL55&C=Diacon",
@@ -6331,7 +6385,7 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "6HDProphecies&D=GL55&C=Diacon",
             "",
             "Il en va de même de celui qui fait du pécheur son compagnon et qui prend part à ses péchés. Il reste quelque temps avec toi, mais, si tu chancelles, il ne se contient plus. L'ennemi n'a que douceur sur les lèvres, mais dans son cœur il médite de te jeter dans la fosse. L'ennemi a des larmes dans les yeux, et s'il trouve l'occasion il ne se rassasiera pas de sang. Si le sort t'est contraire, tu le trouveras là avant toi, et sous prétexte de t'aider il te saisira le talon.",
-            "هكذا الذى يساير الرجل الخاطىء يمتزج بخطاياه. أنه يلبث معك ساعة وإن ملت لا يثبت. العدو يتملق بشفتيه و فى قلبه يأتمر ليسقطك فى الحفرة. العدو تدمع عيناه، وإن وجد فرصة لا يشبع من دمك. إن لحقك شر وجدته قريباً منك ويوهمك أنه سيعينك، وهو يعطيك مرارة ",
+            "هكذا الذي يساير الرجل الخاطىء يمتزج بخطاياه. أنه يلبث معك ساعة وإن ملت لا يثبت. العدو يتملق بشفتيه و في قلبه يأتمر ليسقطك في الحفرة. العدو تدمع عيناه، وإن وجد فرصة لا يشبع من دمك. إن لحقك شر وجدته قريباً منك ويوهمك أنه سيعينك، وهو يعطيك مرارة ",
         ],
         [
             Prefix.HolyWeek + "6HDProphecies&D=GL55&C=Diacon",
@@ -6344,7 +6398,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "6HDPsalm&D=GL55&C=Title",
             "Psaume de la Sixième heure du jeudi",
-            "",
+            "Psaume de la Sixième heure du jeudi",
             "مزمور الساعة السادسة من يوم الخميس",
         ],
         [
@@ -6358,7 +6412,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "6HDGospel&D=GL55&C=Title",
             "Evangile de la Sixième heure du jeudi",
-            "",
+            "Evangile de la Sixième heure du jeudi",
             " إنجيل الساعة السادسة من يوم الخميس",
         ],
         [
@@ -6377,7 +6431,7 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "6HDGospel&D=GL55&C=Diacon",
             "",
             "Marc 14 : 12-16\nLe premier jour des Azymes, où l'on immolait la Pâque, ses disciples lui disent: «Où veux-tu que nous allions faire les préparatifs pour que tu manges la Pâque?» Il envoie alors deux de ses disciples, en leur disant:  «Allez à la ville; vous rencontrerez un homme portant une cruche d'eau. Suivez-le, et là où il entrera, dites au propriétaire: «Le Maître te fait dire: Où est ma salle, où je pourrai manger la Pâque ",
-            "مرقس ١٤ : ١٢ – ١٦\nوفى اليوم الأول من الفطير إذ كانوا يذبحون الفصح، قال له تلاميذه: أين تريد أن نمضى ونعد لتأكل الفصح، فأرسل إثنين من تلاميذه وقال لهما: إذهبا إلى المدينة فسيلقاكما رجل حامل جرة ماء فإتبعاه، وحينما يدخل فقولا لرب البيت إن المعلم يقول أين موضع الراحة الذى آكل فيه الفصح ",
+            "مرقس ١٤ : ١٢ – ١٦\nوفى اليوم الأول من الفطير إذ كانوا يذبحون الفصح، قال له تلاميذه: أين تريد أن نمضى ونعد لتأكل الفصح، فأرسل إثنين من تلاميذه وقال لهما: إذهبا إلى المدينة فسيلقاكما رجل حامل جرة ماء فإتبعاه، وحينما يدخل فقولا لرب البيت إن المعلم يقول أين موضع الراحة الذي آكل فيه الفصح ",
         ],
         [
             Prefix.HolyWeek + "6HDGospel&D=GL55&C=Diacon",
@@ -6390,14 +6444,14 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "6HDCommentary&D=GL55&C=Title",
             "Commentaire de la Sixième heure du jeudi",
-            "",
+            "Commentaire de la Sixième heure du jeudi",
             "طرح الساعة السادسة من يوم الخميس",
         ],
         [
             Prefix.HolyWeek + "6HDCommentary&D=GL55&C=Diacon",
             "",
             "Commentaire\nEcoutez les paroles du Seigneur, vous le peuple d'Israël. Ainsi parle le Seigneur Adonaï Tout-puissant :  «Que chacun d'entre vous s'écarte de ses mauvaises actions et de ses péchés. Vous avez profané Mon Saint Nom par vos idoles et vos actions pernicieuses. Je vous accueillerai sur Ma Montagne Sainte et vous m'adorerez à cet endroit. Je serai sanctifié par vous et Je vous élèverai devant toutes les nations. ",
-            "طــرح\nإسمعوا قول الرب يا آل إسرائيل، قال أدوناى الرب ضابط الكل: ليبتعد كل واحد منكم عن شروره وآثامه، فإنكم نجستم إسمى القدوس بأوثانكم وأعمالكم الخبيثة، وأنا أقبلكم على جبل قدسى، وتعبدوننى فى ذلك الموضع، وأتقدس فيكم وأرفعكم عند جميع الأمم، ",
+            "طــرح\nإسمعوا قول الرب يا آل إسرائيل، قال أدوناى الرب ضابط الكل: ليبتعد كل واحد منكم عن شروره وآثامه، فإنكم نجستم إسمى القدوس بأوثانكم وأعمالكم الخبيثة، وأنا أقبلكم على جبل قدسى، وتعبدوننى في ذلك الموضع، وأتقدس فيكم وأرفعكم عند جميع الأمم، ",
         ],
         [
             Prefix.HolyWeek + "6HDCommentary&D=GL55&C=Diacon",
@@ -6410,50 +6464,50 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "9HDProphecies&D=GL55&C=Title",
             "Prophecies de la Neuvième heure du jeudi",
-            "",
+            "Prophecies de la Neuvième heure du jeudi",
             "نبوات الساعة التاسعة من يوم الخميس",
         ],
         [
             Prefix.HolyWeek + "9HDProphecies&D=GL55&C=Diacon",
             "Ebolqen ]genecic `nte Mw`ucyc piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nAc]wpi  de  menenca  naicaji  nare V;  swnt `ènAbraam pe ouo  pejaf naf > je Abraam  Abraam.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
             "Genèse 22 : 1-19\nAprès ces événements, il arriva que Dieu éprouva Abraham et lui dit: «Abraham! Abraham!»",
-            "تكوين ٢٢ : ١ – ١٩\nوحدث بعد هذه الأمور أن الله إمتحن إبراهيم وقال له: يا إبراهيم يا إبراهيم. ",
+            "تكوين ٢٢ : ١ – ١٩\nوحدث بعد هذه الأمور أن الله إمتحن ابراهيم وقال له: يا ابراهيم يا إبراهيم. ",
         ],
         [
             Prefix.HolyWeek + "9HDProphecies&D=GL55&C=Diacon",
             "",
             "Il répondit: «Me voici!» Dieu dit: «Prends ton fils, ton unique, que tu chéris, Isaac, et va-t'en au pays de Moriyya, et là tu l'offriras en holocauste sur une montagne que je t'indiquerai.» Abraham se leva tôt, sella son âne et prit avec lui deux de ses serviteurs et son fils Isaac. Il fendit le bois de l'holocauste et se mit en route pour l'endroit que Dieu lui avait dit. Le troisième jour, Abraham, levant les yeux, vit l'endroit de loin. ",
-            "فقال: هآنذا. قال له: خذ إبنك الحبيب الذي تحبه، إسحق، وإمض إلى الأرض المرتفعة وأصعده لى هناك مُحرقة على أحد الجبال التي أريك. فقام إبراهيم مبكراً وأسرج أتانه، وأخذ إثنين من غلمانه معه وإسحق إبنه، وشقق حطب المحرقة، وقام ومضى إلى الموضع الذي قال له الله، وفى اليوم الثالث رفع إبراهيم عينيه فأبصر المكان من بعيد، ",
+            "فقال: هآنذا. قال له: خذ إبنك الحبيب الذي تحبه، إسحق، وإمض إلى الأرض المرتفعة وأصعده لي هناك مُحرقة على أحد الجبال التي أريك. فقام ابراهيم مبكراً وأسرج أتانه، وأخذ إثنين من غلمانه معه وإسحق إبنه، وشقق حطب المحرقة، وقام ومضى إلى الموضع الذي قال له الله، وفى اليوم الثالث رفع ابراهيم عينيه فأبصر المكان من بعيد، ",
         ],
         [
             Prefix.HolyWeek + "9HDProphecies&D=GL55&C=Diacon",
             "",
             "Abraham dit à ses serviteurs: «Demeurez ici avec l'âne. Moi et l'enfant nous irons jusque là-bas, nous adorerons et nous reviendrons vers vous.» Abraham prit le bois de l'holocauste et le chargea sur son fils Isaac, lui-même prit en mains le feu et le couteau et ils s'en allèrent tous deux ensemble. Isaac s'adressa à son père Abraham et dit: «Mon père!» Il répondit: «Oui, mon fils!»  «Eh bien, reprit-il, voilà le feu et le bois, mais où est l'agneau pour l'holocauste?» ",
-            "فقال إبراهيم لغلاميه: إجلسا أنتما ههنا مع الأتان، وأنا والغلام نمضى إلى هناك فنسجد ونرجع إليكما. فأخذ إبراهيم حطب المحرقة وحمله إسحق إبنه، وأخذ بيده النار والسكين وذهبا كلاهما معاً، وقال إسحق لإبراهيم أبيه: يا أبى. فقال: ماذا تقول يا إبنى؟ قال: هوذا النار والحطب، فأين الحمل الذي يقدم للمحرقة؟",
+            "فقال ابراهيم لغلاميه: إجلسا أنتما ههنا مع الأتان، وأنا والغلام نمضى إلى هناك فنسجد ونرجع إليكما. فأخذ ابراهيم حطب المحرقة وحمله إسحق إبنه، وأخذ بيده النار والسكين وذهبا كلاهما معاً، وقال إسحق لابراهيم أبيه: يا أبى. فقال: ماذا تقول يا إبنى؟ قال: هوذا النار والحطب، فأين الحمل الذي يقدم للمحرقة؟",
         ],
         [
             Prefix.HolyWeek + "9HDProphecies&D=GL55&C=Diacon",
             "",
             "Abraham répondit:  «C'est Dieu qui pourvoira à l'agneau pour l'holocauste, mon fils,» et ils s'en allèrent tous deux ensemble. Quand ils furent arrivés à l'endroit que Dieu lui avait indiqué, Abraham y éleva l'autel et disposa le bois, puis il lia son fils Isaac et le mit sur l'autel, par-dessus le bois. Abraham étendit la main et saisit le couteau pour immoler son fils. Mais l'Ange du Seigneur l'appela du ciel et dit: «Abraham ! Abraham !»",
-            "فقال إبراهيم: إن الله يأتى له بحمل للمحرقة  يا إبنى. ومضيا كلاهما معاً. فلما وصلا إلى المكان الذي قال له الله عنه، بنى هناك إبراهيم مذبحاً ورفع عليه الحطب، وأوثق إسحق إبنه، ووضعه على المذبح فوق الحطب، ومد إبراهيم يده ليأخذ السكين ليذبح إسحق إبنه، فناداه ملاك الرب من السماء قائلاً: إبراهيم. إبراهيم. ",
+            "فقال إبراهيم: إن الله يأتى له بحمل للمحرقة  يا إبنى. ومضيا كلاهما معاً. فلما وصلا إلى المكان الذي قال له الله عنه، بنى هناك ابراهيم مذبحاً ورفع عليه الحطب، وأوثق إسحق إبنه، ووضعه على المذبح فوق الحطب، ومد ابراهيم يده ليأخذ السكين ليذبح إسحق إبنه، فناداه ملاك الرب من السماء قائلاً: إبراهيم. إبراهيم. ",
         ],
         [
             Prefix.HolyWeek + "9HDProphecies&D=GL55&C=Diacon",
             "",
             "Il répondit: «Me voici!» L'Ange dit: «N'étends pas la main contre l'enfant! Ne lui fais aucun mal! Je sais maintenant que tu crains Dieu: tu ne m'as pas refusé ton fils, ton unique.» Abraham leva les yeux et vit un bélier, qui s'était pris par les cornes dans un buisson, et Abraham alla prendre le bélier et l'offrit en holocauste à la place de son fils. A ce lieu, Abraham donna le nom «le Seigneur pourvoit», en sorte qu'on dit aujourd'hui : Sur la montagne, ",
-            "فقال: هأنذا. فقال: لا تمد يدك إلى الغلام ولا تفعل به شيئاً، لأنى الآن علمت أنك تخاف الله ولم تشفق على إبنك الحبيب لأجلى، فرفع إبراهيم عينيه ونظر وإذا بكبش موثق بقرنيه في شجرة صاباك (بلوط) فمضى إبراهيم وأخذ الكبش وأصعده محرقة عوضاً عن إسحق إبنه، وسمى إبراهيم إسم ذلك الموضع: الرب تراءى لى على هذا الجبل،",
+            "فقال: هأنذا. فقال: لا تمد يدك إلى الغلام ولا تفعل به شيئاً، لأنى الآن علمت أنك تخاف الله ولم تشفق على إبنك الحبيب لأجلى، فرفع ابراهيم عينيه ونظر وإذا بكبش موثق بقرنيه في شجرة صاباك (بلوط) فمضى ابراهيم وأخذ الكبش وأصعده محرقة عوضاً عن إسحق إبنه، وسمى ابراهيم إسم ذلك الموضع: الرب تراءى لي على هذا الجبل،",
         ],
         [
             Prefix.HolyWeek + "9HDProphecies&D=GL55&C=Diacon",
             "",
             "le Seigneur pourvoit. L'Ange du Seigneur appela une seconde fois Abraham du ciel et dit: «Je jure par moi-même, parole du Seigneur: parce que tu as fait cela, que tu ne m'as pas refusé ton fils, ton unique, je te comblerai de bénédictions, je rendrai ta postérité aussi nombreuse que les étoiles du ciel et que le sable qui est sur le bord de la mer, et ta postérité conquerra la porte de ses ennemis. Par ta postérité se béniront",
-            "ونادى ملاك الرب إبراهيم مرة ثانية من السماء قائلاً: إنى أقسمت بذاتى يقول الرب بما أنك عملت بكلامى ولم تشفق على إبنك الحبيب من أجلى لأباركنك تبريكاً، وأكثرن نسلك تكثيراً كنجوم السماء وكالرمل الذي على شاطىء البحر، ويرث نسلك مدن مضايقيك وتتبارك بك",
+            "ونادى ملاك الرب ابراهيم مرة ثانية من السماء قائلاً: إنى أقسمت بذاتى يقول الرب بما أنك عملت بكلامى ولم تشفق على إبنك الحبيب من أجلى لأباركنك تبريكاً، وأكثرن نسلك تكثيراً كنجوم السماء وكالرمل الذي على شاطىء البحر، ويرث نسلك مدن مضايقيك وتتبارك بك",
         ],
         [
             Prefix.HolyWeek + "9HDProphecies&D=GL55&C=Diacon",
             "",
             "toutes les nations de la terre, parce que tu m'as obéi.» Abraham revint vers ses serviteurs et ils se mirent en route ensemble pour Bersabée.\n\nGloire à la sainte Trinité notre Dieu.",
-            "جميع قبائل الأرض، من أجل أنك سمعت لقولى. ثم رجع إبراهيم إلى غلاميه، فقاموا وإنصرفوا معاً إلى بئر الحلف (بئر سبع).\nمجدًا للثالوث الأقدس إلهنا آمين.",
+            "جميع قبائل الأرض، من أجل أنك سمعت لقولى. ثم رجع ابراهيم إلى غلاميه، فقاموا وإنصرفوا معاً إلى بئر الحلف (بئر سبع).\nمجدًا للثالوث الأقدس إلهنا آمين.",
         ],
         [
             Prefix.HolyWeek + "9HDProphecies&D=GL55&C=Diacon",
@@ -6483,31 +6537,31 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "9HDProphecies&D=GL55&C=Diacon",
             "Ebolqen ]genecic `nte Mw`ucyc piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nApiouro  de  `ènCodoma  e`èi  `èebol  `èetwmt ` èeAbraam  menenca  etrefkotf  `èebol'en pisojsej  `ènXodologomor  nem niourwou eqnemaf `èe`è'rhi `èe ;ellot `ènte Cauh qai te `ètcw]i `èmpiouro.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn. ",
             "Genèse 14 : 17-20\nQuand Abram revint après avoir battu Kedor-Laomer et les rois qui étaient avec lui, le roi de Sodome alla à sa rencontre dans la vallée de Shavé (c'est la vallée du Roi).",
-            "تكوين ١٤ : ١٧ – ٢٠\nثم خرج ملك سدوم فتلقاه إبرام بعد رجوعه من حرب كدر لعومر والملوك الذين معه إلى مرج شوى الذى هو مرج الملك،",
+            "تكوين ١٤ : ١٧ – ٢٠\nثم خرج ملك سدوم فتلقاه إبرام بعد رجوعه من حرب كدر لعومر والملوك الذين معه إلى مرج شوى الذي هو مرج الملك،",
         ],
         [
             Prefix.HolyWeek + "9HDProphecies&D=GL55&C=Diacon",
             "",
             "Melchisédech, roi de Shalem, apporta du pain et du vin; il était prêtre du Dieu Très Haut. Il prononça cette bénédiction: «Béni soit Abram par le Dieu Très Haut qui créa ciel et terre, et béni soit le Dieu Très Haut qui a livré tes ennemis entre tes mains.» Et Abram lui donna la dîme de tout.\nGloire à la sainte Trinité notre Dieu.",
-            "وأخرج ملكى صادق ملك ساليم خبزاً وخمراً لأنه كان كاهن الله العلى. وبارك إبرام وقال: مبارك إبرام من الله العلى الذى خلق السماء والأرض، ومبارك الله العلى هذا الذى أسلم أعدائك فى يديك، وأعطاه العُشر من كل شىء.\nمجدًا للثالوث الأقدس إلهنا آمين.",
+            "وأخرج ملكى صادق ملك ساليم خبزاً وخمراً لأنه كان كاهن الله العلى. وبارك إبرام وقال: مبارك إبرام من الله العلى الذي خلق السماء والأرض، ومبارك الله العلى هذا الذي أسلم أعدائك في يديك، وأعطاه العُشر من كل شىء.\nمجدًا للثالوث الأقدس إلهنا آمين.",
         ],
         [
             Prefix.HolyWeek + "9HDProphecies&D=GL55&C=Diacon",
             "Ebolqen Iwb pidikeoc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nFon'   `ènje  P_  vh`èetaf  ;ap `  èeroi  `èmpairh; > nem  pipantokratwr vh`èetaf; `èmka `èntayuxh.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn. ",
             "Job 27 : 1 à 28 :13\nEt Job continua de s'exprimer en sentences et dit: Par le Dieu vivant qui me refuse justice, par le Tout-puissant qui m'emplit d'amertume,",
-            "أيوب ٢٧ : ١ - ٢٨ :  ١٣\nحى هو الرب الذى حكم علىّ هكذا والضابط الكل الذى أحزن نفسى،",
+            "أيوب ٢٧ : ١ - ٢٨ :  ١٣\nحى هو الرب الذي حكم علىّ هكذا والضابط الكل الذي أحزن نفسى،",
         ],
         [
             Prefix.HolyWeek + "9HDProphecies&D=GL55&C=Diacon",
             "",
             "tant qu'un reste de vie m'animera, que le souffle de Dieu passera dans mes narines, mes lèvres ne diront rien de mal, ma langue n'exprimera aucun mensonge. Bien loin de vous donner raison, jusqu'à mon dernier souffle, je maintiendrai mon innocence. Je tiens à ma justice et ne lâche pas; ma conscience ne me reproche aucun de mes jours. Que mon ennemi ait le sort du méchant, mon adversaire celui de l'injuste! Quel profit peut espérer l'impie",
-            "إنه ما دامت نسمتى فىّ والروح القدس فى أنفى لن تنطق شفتاى إثماً ولا تتلوا نفسى ظلماً، حاشاى أن أقول أنكم أبرار إلى الآن، ولن أقلع عن كمالى وقد تمسكت بالحق فلا أتركه عنى، ولست أعرف أنى فعلت شيئاً من الشر أو الظلم بل أعدائى يصيرون مثل سقوط المنافقين والقائمون علىّ مثل هلاك مخالفى الناموس، فإنه ما هو رجاء المنافق",
+            "إنه ما دامت نسمتى فىّ والروح القدس في أنفى لن تنطق شفتاى إثماً ولا تتلوا نفسى ظلماً، حاشاى أن أقول أنكم أبرار إلى الآن، ولن أقلع عن كمالى وقد تمسكت بالحق فلا أتركه عنى، ولست أعرف أني فعلت شيئاً من الشر أو الظلم بل أعدائى يصيرون مثل سقوط المنافقين والقائمون علىّ مثل هلاك مخالفى الناموس، فإنه ما هو رجاء المنافق",
         ],
         [
             Prefix.HolyWeek + "9HDProphecies&D=GL55&C=Diacon",
             "",
             "quand Dieu lui retire la vie? Est-ce que Dieu entend ses cris, quand fond sur lui la détresse? Faisait-il ses délices après du Tout-puissant, invoquait-il Dieu en tout temps? Mais je vous instruis sur la puissance de Dieu, sans rien vous cacher des pensées du Tout-puissant. Et si vous tous aviez su l'observer, à quoi bon vos vains discours dans le vide? Voici le lot que Dieu assigne au méchant, l'héritage que le violent reçoit du Tout-puissant. ",
-            "إذا صبر وتوكل على الرب؟ أتراه يخلص أو يسمع الرب صلاته؟ أو إذا أتى عليه ضيق، هل يجد أى دالة أمامه؟ أو إذا صرخ إليه هل يسمعه؟ بل إنى أعرفكم بما فى يدى الرب ولا أكذب بما هو عند الضابط الكل، هوذا كلكم تعلمون أنه باطل هو نصيب الرجل المنافق من قبل الرب وخزى الأقوياء يأتى عليه من قبل الضابط الكل ",
+            "إذا صبر وتوكل على الرب؟ أتراه يخلص أو يسمع الرب صلاته؟ أو إذا أتى عليه ضيق، هل يجد أى دالة أمامه؟ أو إذا صرخ إليه هل يسمعه؟ بل إنى أعرفكم بما في يدى الرب ولا أكذب بما هو عند الضابط الكل، هوذا كلكم تعلمون أنه باطل هو نصيب الرجل المنافق من قبل الرب وخزى الأقوياء يأتى عليه من قبل الضابط الكل ",
         ],
         [
             Prefix.HolyWeek + "9HDProphecies&D=GL55&C=Diacon",
@@ -6519,26 +6573,26 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "9HDProphecies&D=GL55&C=Diacon",
             "",
             "riche il se couche, mais c'est la dernière fois; quand il ouvre les yeux, plus rien. Les terreurs l'assaillent en plein jour, la nuit, un tourbillon l'enlève. Un vent d'est le soulève et l'entraîne, l'arrache à son lieu de séjour. Sans pitié, on le prend pour cible, il doit fuir des mains menaçantes. On applaudit à sa ruine, on le siffle partout où il va. Il existe, pour l'argent, des mines, pour l'or, un lieu où on l'épure. Le fer est tiré du sol, la pierre fondue livre du cuivre. ",
-            "يضطجع الغنى ولا يعود يفتح عينيه فلا يوجد. دخلت عليه الأحزان كالمياه فى الليل فيحمله الضباب، ويأخذه اليقظ فيذهب ويقتلعه من مقره مهاناً منبوذاً ولا يشفق عليه، وهروباً يهرب من يديه فيرفع يديه عليه ويستأصله من مكانه، الموضع الذى إستخرجوا منه الفضة لا يوجد، وأستخرجوا الحديد من الأرض ومن الحجر يشغل النحاس. ",
+            "يضطجع الغنى ولا يعود يفتح عينيه فلا يوجد. دخلت عليه الأحزان كالمياه في الليل فيحمله الضباب، ويأخذه اليقظ فيذهب ويقتلعه من مقره مهاناً منبوذاً ولا يشفق عليه، وهروباً يهرب من يديه فيرفع يديه عليه ويستأصله من مكانه، الموضع الذي إستخرجوا منه الفضة لا يوجد، وأستخرجوا الحديد من الأرض ومن الحجر يشغل النحاس. ",
         ],
         [
             Prefix.HolyWeek + "9HDProphecies&D=GL55&C=Diacon",
             "",
             "On met fin aux ténèbres, on fouille jusqu'à l'extrême limite la pierre obscure et sombre. Des étrangers percent les ravins en des lieux non fréquentés, et ils oscillent, suspendus, loin des humains. La terre d'où sort le pain est ravagée en dessous comme par un feu. Là, les pierres sont le gisement du saphir, et aussi des parcelles d'or. L'oiseau de proie en ignore le sentier, l'œil du vautour ne l'aperçoit pas. Il n'est point foulé par les fauves altiers, le lion ne l'a jamais frayé. ",
-            "وضع للظلمة حداً وهو يفحص فى كل طرف على الحجر الذى فى الظلمة وظلال الموت، ويقطع جيراً من الوادى والذين ينسون البر مرضوا من البشر والأرض تأتى بالخبز. ينقلب أسفلها كما بالنار، حجارتها هى موضع الياقوت وترابها ذهب، سبيل لم يعرفه طير ولم تنظره عين نسر، ولم يطأه بنو المتكبرين، ولم يعبره الأسد إلى الزاوية،",
+            "وضع للظلمة حداً وهو يفحص في كل طرف على الحجر الذي في الظلمة وظلال الموت، ويقطع جيراً من الوادى والذين ينسون البر مرضوا من البشر والأرض تأتى بالخبز. ينقلب أسفلها كما بالنار، حجارتها هى موضع الياقوت وترابها ذهب، سبيل لم يعرفه طير ولم تنظره عين نسر، ولم يطأه بنو المتكبرين، ولم يعبره الأسد إلى الزاوية،",
         ],
         [
             Prefix.HolyWeek + "9HDProphecies&D=GL55&C=Diacon",
             "",
             "L'homme s'attaque au silex, il bouleverse les montagnes dans leurs racines. Dans les roches il perce des canaux, l'œil ouvert sur tout objet précieux. Il explore les sources des fleuves, amène au jour ce qui restait caché. Mais la Sagesse, d'où provient-elle ? Où se trouve-telle, l'Intelligence ? L'homme en ignore le chemin, on ne la découvre pas sur la terre des vivants.\nGloire à la sainte Trinité notre Dieu.",
-            "يمد يده ويهدم الجبال من أساساتها ويقلب قوة الأنهار، وأظهر لهم كل فعل جليل رأته أعينهم، وكشف قوته كالنور. أما الحكمة فأين توجد؟ وأين مقر الفهم؟ لا يعرف الإنسان طريقها، و لا وجود لها فى البشر.\n\nمجداً للثالوث الأقدس إلهنا آمين.",
+            "يمد يده ويهدم الجبال من أساساتها ويقلب قوة الأنهار، وأظهر لهم كل فعل جليل رأته أعينهم، وكشف قوته كالنور. أما الحكمة فأين توجد؟ وأين مقر الفهم؟ لا يعرف الإنسان طريقها، و لا وجود لها في البشر.\n\nمجداً للثالوث الأقدس إلهنا آمين.",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "9HDSermony&D=GL55&C=Title",
             "Sermon de  Neuvième heure du jeudi",
-            "",
+            "Sermon de  Neuvième heure du jeudi",
             "عظة لأبينا الساعة التاسعة من يوم الخميس",
         ],
         [
@@ -6551,65 +6605,65 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "9HDSermony&D=GL55&C=Diacon",
             "",
             "Sermon de notre saint père Anba Chénouda l'archimandrite que sa sainte bénédiction repose sur nous tous. Amen !\nCertaines œuvres peuvent nous apparaître bonnes mais elles sont mauvaises devant Dieu. Nous nous ignorons les uns les autres et péchons dans le saint lieu. Le Seigneur n'a pas planté dans le paradis des bons et des mauvais arbres mais il y a planté uniquement des bons arbres. Il n'y a pas planté",
-            "عظة لأبينا القديس أنبا شنودة رئيس المتوحدين، بركته المقدسة تكون معنا. آمين.\nقد توجد أعمال نخالها أنها صالحة ولكنها رديئة عند الله، وذلك أننا نتغاضى عن بعضنا بعضاً فنخطىء فى المواضع المقدسة. لأن الرب لم يغرس فى الفردوس الأشجار الصالحة والغير الصالحة، بل غرسه من الأشجار الصالحة فقط، ولم يغرس فيه",
+            "عظة لأبينا القديس أنبا شنودة رئيس المتوحدين، بركته المقدسة تكون معنا. آمين.\nقد توجد أعمال نخالها أنها صالحة ولكنها رديئة عند الله، وذلك أننا نتغاضى عن بعضنا بعضاً فنخطىء في المواضع المقدسة. لأن الرب لم يغرس في الفردوس الأشجار الصالحة والغير الصالحة، بل غرسه من الأشجار الصالحة فقط، ولم يغرس فيه",
         ],
         [
             Prefix.HolyWeek + "9HDSermony&D=GL55&C=Diacon",
             "",
             "d'arbres sans fruits ou avec de mauvais fruits. Il en est de même pour les gens qu’Il a placés au paradis, et lorsqu’ils ont désobéi, Il ne les a plus supportés et les a renvoyés. Apprenez de cela, mes frères bien-aimés qu'il n'est pas bon que les saints lieux soient remplis de bons et de méchants comme dans le monde pleins de pécheurs et d'injustes, de saints et d'impurs. Dieu ne garde pas dans ces lieux ceux qui pèchent mais Il les met dehors.",
-            "أشجاراً غير مثمرة أو رديئة الثمر، وليس هذا فقط بل والناس أنفسهم الذين نجعلهم هناك عندما خالفوا لم يحتملهم بل أخرجهم منه. فمن هذا إعلموا أيها الأخوة الأحباء أنه لا يجب أن تملأ مساكن الله المقدسة من الناس الأشرار والصالحين، كما فى العالم المملوء من الخطاة والظالمين والقديسين والأنجاس، ولكن الذين يخطئون لا يتركهم فيها بل يخرجهم. ",
+            "أشجاراً غير مثمرة أو رديئة الثمر، وليس هذا فقط بل والناس أنفسهم الذين نجعلهم هناك عندما خالفوا لم يحتملهم بل أخرجهم منه. فمن هذا إعلموا أيها الأخوة الأحباء أنه لا يجب أن تملأ مساكن الله المقدسة من الناس الأشرار والصالحين، كما في العالم المملوء من الخطاة والظالمين والقديسين والأنجاس، ولكن الذين يخطئون لا يتركهم فيها بل يخرجهم. ",
         ],
         [
             Prefix.HolyWeek + "9HDSermony&D=GL55&C=Diacon",
             "",
             "Je sais que toute la terre appartient au Seigneur. Et puisque toute la terre est Sa demeure, tous ceux qui y habitent vivent par Lui. Ainsi nous devons Le craindre et garder Ses commandements. Si nous faillissons envers l'un des commandements, pleurons et prenons le deuil devant Lui. Lorsqu'Il verra nos soupirs et le désir de nos âmes, comme pour la femme qui a mouillé Ses pieds avec ses larmes, que nous soyons vraiment dignes d'entendre Sa voix",
-            "أنا أعرف أن الأرض كلها هى للرب، فإن كان هكذا بيته مثل الأرض كلها، فالذين يسكنون فيها كيف يحيون به؟ لهذا يجب علينا أن نخافه ونحفظ وصاياه، فإذا ما سقطنا فى واحدة منها فلنبك وننتحب أمامه حتى إذا ما رأى تنهد وشوق أنفسنا مثل المرأة التى بلت قدميه بدموعها. نكون حقاً مستحقين سماع صوته",
+            "أنا أعرف أن الأرض كلها هى للرب، فإن كان هكذا بيته مثل الأرض كلها، فالذين يسكنون فيها كيف يحيون به؟ لهذا يجب علينا أن نخافه ونحفظ وصاياه، فإذا ما سقطنا في واحدة منها فلنبك وننتحب أمامه حتى إذا ما رأى تنهد وشوق أنفسنا مثل المرأة التى بلت قدميه بدموعها. نكون حقاً مستحقين سماع صوته",
         ],
         [
             Prefix.HolyWeek + "9HDSermony&D=GL55&C=Diacon",
             "",
             "douce qui dit: «Tes péchés sont remis… Ta foi t'a sauvée; va en paix.» Mes frères, vous avez-vu que la Foi conduit vers le salut et révèle son désir pour lui. Ainsi tous ceux qui n'ont pas de désir de garder les commandements de Dieu, et qui n'ont pas de Foi succombent dans toute action mauvaise. Ceux qui ne sont pas avides de prendre comme exemple les gens spirituels et le bon témoignage qu’ils ont reçu:",
-            "الحلو القائل: مغفورة لك خطاياك، إذهب بسلام، إيمانك قد خلصك. وقد رأيتم يا إخوتى أن الإيمان يعمل فى القلب للخلاص ويعلن شوقه فيه، فإذن كل من ليس له شوق فى حفظ وصايا الله وغيرة فى إقتداء العقلاء بالروح الذين شُهد لهم أنهم عرفوا الحق وقبلوا نصيحته بأعمالهم،",
+            "الحلو القائل: مغفورة لك خطاياك، إذهب بسلام، إيمانك قد خلصك. وقد رأيتم يا إخوتى أن الإيمان يعمل في القلب للخلاص ويعلن شوقه فيه، فإذن كل من ليس له شوق في حفظ وصايا الله وغيرة في إقتداء العقلاء بالروح الذين شُهد لهم أنهم عرفوا الحق وقبلوا نصيحته بأعمالهم،",
         ],
         [
             Prefix.HolyWeek + "9HDSermony&D=GL55&C=Diacon",
             "",
             "eux qui ont connu la vérité et l'ont révélée par leurs actes, font périr leur âme, car comme il est écrit: l'homme sage accepte le conseil et agit mais le sot tombe sur sa face.\nClôturons le sermon de notre père Anba Chénouda l'archimandrite qui a éclairé nos pensées et les yeux de nos cœurs au Nom du Père, du Fils et du Saint Esprit, un seul Dieu, Amen",
-            "والذين ليس لهم إيمان يسقطون فى كل عمل ردىء ويهلكون النفس كما هو مكتوب أن الرجل العاقل يقبل النصيحة ويعمل والجاهل يسقط على وجهه.\nفلنختم عظة أبينا أنبا شنودة رئيس المتوحدين الذي أنار عقولنا وعيون قلوبنا بإسم الآب الإبن والروح القدس إله واحد. آمين",
+            "والذين ليس لهم إيمان يسقطون في كل عمل ردىء ويهلكون النفس كما هو مكتوب أن الرجل العاقل يقبل النصيحة ويعمل والجاهل يسقط على وجهه.\nفلنختم عظة أبينا أنبا شنودة رئيس المتوحدين الذي أنار عقولنا وعيون قلوبنا بإسم الآب الإبن والروح القدس إله واحد. آمين",
         ],
         [
             Prefix.HolyWeek + "9HDSermony&D=GL55&C=Diacon",
             "Marener `c`vragizin `n]katy,ycic `nte peniwt `e;ouab abba Senou] pi`ar,yman`drityc `vyetaferouwini `mpennouc nem nibal `nte nenhyt @ qen `vran `m~Viwt nem ~Psyri nem Pi`pneuma `e;ouab ounou] `nouwt @ `amyn",
             "Clôturons le sermon de notre saint père Abba Chénouté l’archimandrite qui a éclairé nos pensées et les yeux de nos cœurs au nom du Père, du Fils et du Saint Esprit, un seul Dieu, Amen !",
-            "فلنختم عظة أبينا القديس أنبا شنودة رئيس المتوحدين الذى أنار عقولنا وعيون قلوبنا بإسم الآب والإبن والروح القدس إله واحد. آمين.",
+            "فلنختم عظة أبينا القديس أنبا شنودة رئيس المتوحدين الذي أنار عقولنا وعيون قلوبنا بإسم الآب والإبن والروح القدس إله واحد. آمين.",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "9HDPsalm&D=GL55&C=Title",
             "Psaume de la Neuvième heure du jeudi",
-            "",
+            "Psaume de la Neuvième heure du jeudi",
             "مزمور الساعة التاسعة من يوم الخميس",
         ],
         [
             Prefix.HolyWeek + "9HDPsalm&D=GL55&C=Diacon",
             "Yalmoc  to Dauid\nP_ peqna`èamoni `èmmoi  > `ènnef`èqri er'a`èe `èn`èli > af`èqri]wpi 'en ouma efouetouwt > af]anou]t ijen  `èvmwou  `ènte  `èpemton  >  `allhloui`a",
             "Psaume 22 : 1 et 2 \nLe Seigneur est mon berger je ne manque de rien. Sur des prés d'herbe fraîche, il me fait reposer. Il me mène vers les eaux tranquilles. Alléluia.",
-            "مزمور ٢٢ : ١ \nالرب يرعانى فلا يعوزنى شىء، فى مكان خضرة أسكننى، على ماء الراحة ربانى الليلويا.",
+            "مزمور ٢٢ : ١ \nالرب يرعانى فلا يعوزنى شىء، في مكان خضرة أسكننى، على ماء الراحة ربانى الليلويا.",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "9HDGospel&D=GL55&C=Title",
             "Evangile de la Neuvième heure du jeudi",
-            "",
+            "Evangile de la Neuvième heure du jeudi",
             " إنجيل الساعة التاسعة من يوم الخميس",
         ],
         [
             Prefix.HolyWeek + "9HDGospel&D=GL55&C=Diacon",
             "Yalmoc  to Dauid\nP_ peqna`èamoni `èmmoi  > `ènnef`èqri er'a`èe `èn`èli > af`èqri]wpi 'en ouma efouetouwt > af]anou]t ijen  `èvmwou  `ènte  `èpemton  >  `allhloui`a",
             "Psaume 22 : 1 et 2 \nLe Seigneur est mon berger je ne manque de rien. Sur des prés d'herbe fraîche, il me fait reposer. Il me mène vers les eaux tranquilles. Alléluia.",
-            "مزمور ٢٢ : ١ \nالرب يرعانى فلا يعوزنى شىء، فى مكان خضرة أسكننى، على ماء الراحة ربانى الليلويا.",
+            "مزمور ٢٢ : ١ \nالرب يرعانى فلا يعوزنى شىء، في مكان خضرة أسكننى، على ماء الراحة ربانى الليلويا.",
         ],
         [
             Prefix.HolyWeek + "9HDGospel&D=GL55&C=Diacon",
@@ -6622,39 +6676,39 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "9HDCommentary&D=GL55&C=Title",
             "Commentaire de la Neuvième heure du jeudi",
-            "",
+            "Commentaire de la Neuvième heure du jeudi",
             "طرح الساعة التاسعة من يوم الخميس",
         ],
         [
             Prefix.HolyWeek + "9HDCommentary&D=GL55&C=Diacon",
             "",
             "Commentaire\nLorsqu'Abraham a été élevé devant le Seigneur plus que tous les autres hommes, le Seigneur lui est apparu et lui dit: «Abraham, Abraham, que j'aime; écoute mes paroles et fait ma volonté. Prends Isaac ton fils, que tu chéris et offre le Moi en holocauste sur une montagne.» Abraham se leva comme le lui avait ordonné le Seigneur. Il prit son fils bien-aimé et deux de ses serviteurs, il sella son âne et partit. ",
-            "طــرح\nفلما إزداد إبراهيم رفعة أمام الرب أكثر من جميع الناس، ظهر له الرب وخاطبه هكذا قائلاً: يا إبراهيم، يا إبراهيم الذى أحبه، إسمع كلامى وإفعل إرادتى، خذ إسحق إبنك حبيبك، وقدّمه لى محرقة على أحد الجبال. فقام إبراهيم كقول الرب وأخذ إبنه حبيبه وغلامين من عبيده وأسرج دابته وسار هكذا. ",
+            "طــرح\nفلما إزداد ابراهيم رفعة أمام الرب أكثر من جميع الناس، ظهر له الرب وخاطبه هكذا قائلاً: يا إبراهيم، يا ابراهيم الذي أحبه، إسمع كلامى وإفعل إرادتى، خذ إسحق إبنك حبيبك، وقدّمه لي محرقة على أحد الجبال. فقام ابراهيم كقول الرب وأخذ إبنه حبيبه وغلامين من عبيده وأسرج دابته وسار هكذا. ",
         ],
         [
             Prefix.HolyWeek + "9HDCommentary&D=GL55&C=Diacon",
             "",
             "Lorsqu'il vit de loin la montagne, il laissa ses deux serviteurs et sa monture et dit: «Moi et l’enfant nous irons jusque là-bas nous adorerons et nous reviendrons vers vous.» Il chargea le bois sur son fils unique, il prit lui-même le couteau et le feu et ils montèrent sur la sainte montagne, le lieu que lui avait indiqué le Tout-puissant. Isaac dit à son père Abraham: «Voici le feu et le bois, mais où est l'agneau?» Il lui répondit:",
-            "فلما رأى الجبل من بعيد ترك الغلامين والدابة معهما وقال: أنا وإبنى ننطلق الى هناك لنسجد ثم نعود إليكما. وحمل الحطب على وحيده، والسكين والنار كانا مع إبراهيم، وصعد الإثنان على الجبل المقدس، الموضع الذى أعلمه به ضابط الكل. فقال إسحق لأبيه إبراهيم: هوذا الحطب، فأين هو الحمل؟ فقال:",
+            "فلما رأى الجبل من بعيد ترك الغلامين والدابة معهما وقال: أنا وإبنى ننطلق إلى هناك لنسجد ثم نعود إليكما. وحمل الحطب على وحيده، والسكين والنار كانا مع إبراهيم، وصعد الإثنان على الجبل المقدس، الموضع الذي أعلمه به ضابط الكل. فقال إسحق لأبيه إبراهيم: هوذا الحطب، فأين هو الحمل؟ فقال:",
         ],
         [
             Prefix.HolyWeek + "9HDCommentary&D=GL55&C=Diacon",
             "",
             "«Mon fils, Dieu pourvoira à l'agneau qui lui plaît pour l'holocauste.» Abraham assembla alors des pierres pour construire un autel et déposa le bois dessus. Il prit son fils, et lia ses mains et ses pieds sur l'autel, par-dessus le bois. Il étendit sa main et saisit le couteau pour accomplir son œuvre. Et voici qu'une voix envoyée par le Seigneur s'adressa à Abraham en disant: «N'étends pas la main contre l'enfant! Ne lui fais aucun mal! ",
-            "يا بنى، الله يعد حملاً للذبح مقبولاً يرضيه. ثم جمع أحجار وبنى مذبحاً وجعل الحطب عليه قبل أن يوقد النار، وشد يدى الصبى وساقيه وجعله على الحطب، فقال الصبى: هآنذا اليوم قربانك يا أبتاه الذى تصنعه. فمد يده وأخذ السكين لكى يكمل القضية، وإذا بصوت كان من الرب نحو إبراهيم هكذا قائلاً: إمسك يدك ولا تصنع به شراً",
+            "يا بنى، الله يعد حملاً للذبح مقبولاً يرضيه. ثم جمع أحجار وبنى مذبحاً وجعل الحطب عليه قبل أن يوقد النار، وشد يدى الصبى وساقيه وجعله على الحطب، فقال الصبى: هآنذا اليوم قربانك يا أبتاه الذي تصنعه. فمد يده وأخذ السكين لِكَي يكمل القضية، وإذا بصوت كان من الرب نحو ابراهيم هكذا قائلاً: إمسك يدك ولا تصنع به شراً",
         ],
         [
             Prefix.HolyWeek + "9HDCommentary&D=GL55&C=Diacon",
             "",
             "Je sais maintenant ton amour pour moi. Comme tu ne m'as pas refusé ton fils, ton unique, Je te comblerai de bénédictions, Je rendrai ta postérité aussi nombreuse que les étoiles et le sable.» Abraham se retourna et vit un bélier qui s'était pris par les cornes dans un buisson. Il délia Isaac et offrit le bélier à sa place. Le Seigneur Tout-puissant bénit Abraham car Il le trouva obéissant dans tout ce qu'il faisait. Alors le vieillard prit son fils et les deux serviteurs et ils se mirent en route.",
-            "فقد عرفت محبتك لى، بالنمو ينمو وبالكثرة يكثر إسحق إبنك الحبيب، وكما أنك لم تشفق على ابنك بكرك أنا سأباركك وزرعك معاً وبنوك يكونون مثل النجوم ويكثر عددهم مثل الرمل. ثم إلتفت إبراهيم فنظر خروفاً مربوطاً بقرنيه فى شجرة صاباك (بلوط)، فحل إسحق من وثاقه وذبح الخروف عوضاً عنه، وبارك الرب ضابط الكل إبراهيم لأنه وجده مُرضيا له فى سائر أعماله، وهكذا رجع الشيخ وأخذ الغلامين وإبنه ومضوا.",
+            "فقد عرفت محبتك لى، بالنمو ينمو وبالكثرة يكثر إسحق إبنك الحبيب، وكما أنك لم تشفق على ابنك بكرك أنا سأباركك وزرعك معاً وبنوك يكونون مثل النجوم ويكثر عددهم مثل الرمل. ثم إلتفت ابراهيم فنظر خروفاً مربوطاً بقرنيه في شجرة صاباك (بلوط)، فحل إسحق من وثاقه وذبح الخروف عوضاً عنه، وبارك الرب ضابط الكل ابراهيم لأنه وجده مُرضيا له في سائر أعماله، وهكذا رجع الشيخ وأخذ الغلامين وإبنه ومضوا.",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "LakanProphecies&D=GL55&C=Diacon",
             "Ebolqen ]genecic `nte Mw`ucyc piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nA Vnou; de  ouon  `èerof  ‘'aten  pi`è]]hn  `ènte  Mambrh  efemci  iren  `èvro  `ète tefckunh  `èm`èvnau  `èmmeri.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
-            "Genèse 18 : 1-23\nLe Seigneur lui apparut au Chêne de Mambré, tandis qu'il était assis à l'entrée de la tente, au plus chaud du jour.",
+            "Ebolqen ]genecic `nte Mw`ucyc piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nA Vnou; de  ouon  `èerof  ‘'aten  pi`è]]hn  `ènte  Mambrh  efemci  iren  `èvro  `ète tefckunh  `èm`èvnau  `èmmeri.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
             "تكوين ١٨: ١ – ٢٣\nوَظَهَرَ لَهُ ٱلرَّبُّ عِنْدَ بَلُّوطَاتِ مَمْرَا وَهُوَ جَالِسٌ فِي بَابِ ٱلْخَيْمَةِ وَقْتَ حَرِّ ٱلنَّهَارِ،",
         ],
         [
@@ -6739,7 +6793,7 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "LakanProphecies&D=GL55&C=Diacon",
             "",
             "Les prêtres qui portaient l'arche de l'alliance du Seigneur se tinrent au sec, immobiles au milieu du Jourdain, tandis que tout Israël traversait à sec, jusqu'à ce que toute la nation eût achevé de traverser le Jourdain.\nGloire à la sainte Trinité notre Dieu.",
-            "ووطئت أرجلهم الحجارة التى فى المياه فتوثقت أقدامهم وأهلكوا أعداءهم.\nمجدًا للثالوث الأقدس إلهنا آمين.",
+            "ووطئت أرجلهم الحجارة التى في المياه فتوثقت أقدامهم وأهلكوا أعداءهم.\nمجدًا للثالوث الأقدس إلهنا آمين.",
         ],
         [
             Prefix.HolyWeek + "LakanProphecies&D=GL55&C=Diacon",
@@ -6836,14 +6890,14 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "LakanSermony&D=GL55&C=Diacon",
             "Oukaty,ycic `nte peniwt `e;ouab abba Senou] pi`ar,yman`drityc `ere pef`cmou `e;ouab swpi neman `amyn",
-            "",
+            "Oukaty,ycic `nte peniwt `e;ouab abba Senou] pi`ar,yman`drityc `ere pef`cmou `e;ouab swpi neman `amyn",
             "عظة لأبينا القديس أنبا شنودة رئيس المتوحدين بركته المقدسة تكون معنا آمين",
         ],
         [
             Prefix.HolyWeek + "LakanSermony&D=GL55&C=Diacon",
             "",
             "Sermon de notre saint père Anba Chénouda l'archimandrite que sa sainte bénédiction repose sur nous tous. Amen !\nAyons honte maintenant, mes frères, de Celui qui a souffert pour nous. Craignons Celui qui s'est ceint d'un linge, a versé l'eau dans le bassin et a lavé les pieds de Ses disciples avec ses mains pures. Produisons des fruits dignes de cette grande humilité qu'Il a eue pour nous. ",
-            "عظة لأبينا القديس أنبا شنودة رئيس المتوحدين، بركته المقدسة تكون معنا. آمين.\nفلنستحِ الآن يا اخوتى من الذى تألم عنا. ولنخف من الذي اشتد بمنديل وصب الماء في المغسل وغسل أرجل تلاميذه بيديه الطاهرتين، ولنصنع ثماراً تستحق هذا الاتضاع العظيم الذي صار فيه من أجلنا،",
+            "عظة لأبينا القديس أنبا شنودة رئيس المتوحدين، بركته المقدسة تكون معنا. آمين.\nفلنستحِ الآن يا اخوتى من الذي تألم عنا. ولنخف من الذي اشتد بمنديل وصب الماء في المغسل وغسل أرجل تلاميذه بيديه الطاهرتين، ولنصنع ثماراً تستحق هذا الاتضاع العظيم الذي صار فيه من أجلنا،",
         ],
         [
             Prefix.HolyWeek + "LakanSermony&D=GL55&C=Diacon",
@@ -6883,7 +6937,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "MaroEtshasfHymn&D=GL55&C=Diacon",
             "Marou[acf qen `tek`klycia `nte peflaoc@ ouoh marou`cmou `erof hi `tka;edra `nte ni`precbuteroc@ je af,w `noumetiwt `m`vry]\n`nhan`ecwou@ eu`enau `nje ny`etcoutwn ouoh eu`eounof@",
-            "Qu’il l’élève sur son peuple \net qu’il le bénisse sur des anciens \ncar il a rendu la parenté comme les pâturages. Les hommes droits voient cela et s’en réjouissent",
+            "Marou[acf qen `tek`klycia `nte peflaoc@ ouoh marou`cmou `erof hi `tka;edra `nte ni`precbuteroc@ je af,w `noumetiwt `m`vry]\n`nhan`ecwou@ eu`enau `nje ny`etcoutwn ouoh eu`eounof@",
             "فليرفعوه في كنيسة شعبه  وليباركوه علي منابر الشيوخ،  لأنه جعل أُبوَّة مثل الخراف،  يُبصِرُ المستقيمون ويفرحون.",
         ],
         [
@@ -6935,7 +6989,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "11HDProphecies&D=GL55&C=Title",
             "Prophecies de la Onzième heure du jeudi",
-            "",
+            "Prophecies de la Onzième heure du jeudi",
             "نبوات الساعة الحادية عشر من يوم الخميس",
         ],
         [
@@ -6984,7 +7038,7 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "11HDProphecies&D=GL55&C=Diacon",
             "Ebolqen `Yca`yac piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nQen pi`èeoou `èete `èmmau oun ouquciac thrion na]wpi `èmP_ 'en Xhmi ouo ou`ècthllh at `èmpecto] `èèmP_.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
             "Isaïe 19 : 19-25\nCe jour-là, il y aura un autel dédié au Seigneur au milieu du pays d'Égypte, et près de la frontière une stèle dédiée au Seigneur.",
-            "أشعياء ١٩: ١٩- ٢٥\nفى ذلك اليوم يكون مذبح للرب فى مصر، و عمود الرب عند تخومها",
+            "أشعياء ١٩: ١٩- ٢٥\nفى ذلك اليوم يكون مذبح للرب في مصر، و عمود الرب عند تخومها",
         ],
         [
             Prefix.HolyWeek + "11HDProphecies&D=GL55&C=Diacon",
@@ -6996,7 +7050,7 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "11HDProphecies&D=GL55&C=Diacon",
             "",
             "ils se convertiront au Seigneur qui accueillera leurs demandes et les guérira. Ce jour-là, il y aura un chemin allant d'Égypte à Assur. Assur viendra en Égypte et l'Égypte en Assur. L'Égypte servira avec Assur. Ce jour-là, Israël viendra en troisième avec l'Égypte et Assur, bénédiction au milieu de la terre, bénédiction que prononcera le Seigneur Sabaot: «Béni mon peuple l'Égypte, et Assur l'œuvre de mes mains, et Israël mon héritage.»\nGloire à la sainte Trinité notre Dieu.",
-            "فيرجعون إلى الرب، فيستجيب لهم ويشفيهم. في ذلك اليوم يكون طريقه من مصر إلى الأشوريين، فيأتى الأشوريون إلى مصر والمصريون إلى الأشوريين ويخدم المصريون الأشوريين في ذلك اليوم.  ويكون إسرائيل ثالثاً للأشوريين والمصريين مباركاً فى الأرض التى باركها رب الجنود قائلا: مبارك شعبى فى مصر والأشوريون وإسرائيل ميراثي\nمجدًا للثالوث الأقدس إلهنا آمين",
+            "فيرجعون إلى الرب، فيستجيب لهم ويشفيهم. في ذلك اليوم يكون طريقه من مصر إلى الأشوريين، فيأتى الأشوريون إلى مصر والمصريون إلى الأشوريين ويخدم المصريون الأشوريين في ذلك اليوم.  ويكون إسرائيل ثالثاً للأشوريين والمصريين مباركاً في الأرض التى باركها رب الجنود قائلا: مبارك شعبى في مصر والأشوريون وإسرائيل ميراثي\nمجدًا للثالوث الأقدس إلهنا آمين",
         ],
         [
             Prefix.HolyWeek + "11HDProphecies&D=GL55&C=Diacon",
@@ -7038,20 +7092,20 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "11HDProphecies&D=GL55&C=Diacon",
             "",
             "ne sera pas retranché de la ville. Alors le Seigneur sortira pour combattre les nations, comme lorsqu'il combat au jour de la guerre. En ce jour-là, ses pieds se poseront sur le mont des Oliviers qui fait face à Jérusalem vers l'Orient. Il arrivera, en ce jour-là, qu'il n'y aura plus de lumière mais du froid et du gel. Et il y aura un jour unique - le Seigneur le connaît - plus de jour ni de nuit, mais au temps du soir, il y aura de la lumière. ",
-            "لا يمحي من المدينة، ويخرج الرب ويحارب تلك الأمم كما فى يوم حربه، يوم القتال تقف قدماه فى جبل الزيتون الذى قبالة أورشليم من الشرق ،ويأتى الرب إلهى وجميع القديسين معه ولا يكون فى ذلك اليوم نور بل يكون برد وجليد في يوم واحد ويكون ذلك اليوم معروفاً عند الرب، ليس بنهار ولا بليل بل يشرق وقت المساء نور. ",
+            "لا يمحي من المدينة، ويخرج الرب ويحارب تلك الأمم كما في يوم حربه، يوم القتال تقف قدماه في جبل الزيتون الذي قبالة أورشليم من الشرق ،ويأتى الرب إلهى وجميع القديسين معه ولا يكون في ذلك اليوم نور بل يكون برد وجليد في يوم واحد ويكون ذلك اليوم معروفاً عند الرب، ليس بنهار ولا بليل بل يشرق وقت المساء نور. ",
         ],
         [
             Prefix.HolyWeek + "11HDProphecies&D=GL55&C=Diacon",
             "",
             "Il arrivera, en ce jour-là, que des eaux vives sortiront de Jérusalem, moitié vers la mer orientale, moitié vers la mer occidentale : il y en aura été comme hiver. Alors le Seigneur sera roi sur toute la terre.\nGloire à la sainte Trinité notre Dieu.",
-            "وفى ذلك اليوم يخرج ماء حى من أورشليم نصفه الى البحر الأول ونصفه الثانى الى البحر الأخير ويكون فى الصيف وفى الربيع ويكون الرب ملكاً على كل الأرض.\nمجدًا للثالوث الأقدس إلهنا آمين",
+            "وفى ذلك اليوم يخرج ماء حى من أورشليم نصفه إلى البحر الأول ونصفه الثانى إلى البحر الأخير ويكون في الصيف وفى الربيع ويكون الرب ملكاً على كل الأرض.\nمجدًا للثالوث الأقدس إلهنا آمين",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "11HDPsalm&D=GL55&C=Title",
             "Psaume de la Onzième heure du jeudi",
-            "",
+            "Psaume de la Onzième heure du jeudi",
             "مزمور الساعة الحادية عشر من يوم الخميس",
         ],
         [
@@ -7065,7 +7119,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "11HDGospel&D=GL55&C=Title",
             "Evangile de la Onzième heure du jeudi",
-            "",
+            "Evangile de la Onzième heure du jeudi",
             " إنجيل الساعة الحادية عشر من يوم الخميس",
         ],
         [
@@ -7097,7 +7151,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "11HDCommentary&D=GL55&C=Title",
             "Commentaire de la Onzième heure du jeudi",
-            "",
+            "Commentaire de la Onzième heure du jeudi",
             "طرح الساعة الحادية عشر من يوم الخميس",
         ],
         [
@@ -7135,7 +7189,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "1HEProphecies&D=GL55&C=Title",
             "Prophecies de la Première heure de la veille du vendredi",
-            "",
+            "Prophecies de la Première heure de la veille du vendredi",
             "نبوات الساعة الأولى من ليلة الجمعة",
         ],
         [
@@ -7173,7 +7227,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "1HEPsalm&D=GL55&C=Title",
             "Psaume de la Première heure de la veille du vendredi",
-            "",
+            "Psaume de la Première heure de la veille du vendredi",
             "مزمور الساعة الأولى من ليلة الجمعة",
         ],
         [
@@ -7187,7 +7241,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "1HEGospel&D=GL55&C=Title",
             "Evangile de la Première heure de la veille du vendredi",
-            "",
+            "Evangile de la Première heure de la veille du vendredi",
             " إنجيل الساعة الأولى من ليلة الجمعة",
         ],
         [
@@ -7224,25 +7278,25 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "1HEGospel&D=GL55&C=Diacon",
             "",
             "Montre-nous le Père! Ne crois-tu pas que je suis dans le Père et que le Père est en moi? Les paroles que je vous dis, je ne les dis pas de moi-même: mais le Père demeurant en moi fait ses œuvres. Croyez-m'en! Je suis dans le Père et le Père est en moi. Croyez du moins à cause des œuvres mêmes. En vérité, en vérité, je vous le dis, celui qui croit en moi fera, lui aussi, les œuvres que je fais; et il en fera même de plus grandes, parce que je vais vers le Père. ",
-            "أرنا الآب؟ أما تؤمن إنى في الآب والآب فيّ؟! وهذا الكلام الذي أقوله لكم لست أقوله من ذاتي وحدى، بل الآب الحال فيّ هو الذي يعمل الأعمال. آمنوا بى إنى أنا في أبى وأبي فيّ، وإلا فآمنوا بى من أجل الأعمال. الحق الحق أقول لكم: إن من يؤمن بى فالأعمال التي أعملها أنا يعملها هو أيضاً، ويعمل أعظم منها، لأنى ماضِ إلى الآب، ",
+            "أرنا الآب؟ أما تؤمن إنى في الآب والآب فيّ؟! وهذا الكلام الذي أقوله لكم لست أقوله من ذاتي وحدى، بل الآب الحال فيّ هو الذي يعمل الأعمال. آمنوا بى إنى أنا في أبي وأبي فيّ، وإلا فآمنوا بى من أجل الأعمال. الحق الحق أقول لكم: إن من يؤمن بى فالأعمال التي أعملها أنا يعملها هو أيضاً، ويعمل أعظم منها، لأنى ماضِ إلى الآب، ",
         ],
         [
             Prefix.HolyWeek + "1HEGospel&D=GL55&C=Diacon",
             "",
             "Et tout ce que vous demanderez en mon nom, je le ferai, afin que le Père soit glorifié dans le Fils. Si vous me demandez quelque chose en mon nom, je le ferai. Si vous m'aimez, vous garderez mes commandements; et je prierai le Père et il vous donnera un autre Paraclet, pour qu'il soit avec vous à jamais, l'Esprit de Vérité, que le monde ne peut pas recevoir, parce qu'il ne le voit pas ni ne le reconnaît. Vous, vous le connaissez, ",
-            "ومهما تسألونه بإسمى أفعله لكم، ليتمجد الآب بالإبن، وما تسألونه بإسمى هذا أفعله. إن كنتم تحبونني فإحفظوا وصاياى، وأنا أسأل الآب فيعطيكم معزياً آخر، ليمكث معكم إلى الأبد، روح الحق الذي لا يستطيع العالم أن يقبله لأنه لم يره ولم يعرفه، وأما أنتم فتعرفونه",
+            "ومهما تسألونه بإسمى أفعله لكم، ليتمجد الآب بالإبن، وما تسألونه بإسمى هذا أفعله. إن كنتم تحبونني فإحفظوا وَصَايَاي، وأنا أسأل الآب فيعطيكم معزياً آخر، ليمكث معكم إلى الأبد، روح الحق الذي لا يستطيع العالم أن يقبله لأنه لم يره ولم يعرفه، وأما أنتم فتعرفونه",
         ],
         [
             Prefix.HolyWeek + "1HEGospel&D=GL55&C=Diacon",
             "",
             "parce qu'il demeure auprès de vous et qu'il est en vous. Je ne vous laisserai pas orphelins. Je viendrai vers vous. Encore un peu de temps et le monde ne me verra plus. Mais vous, vous verrez que je vis et vous aussi, vous vivrez. Ce jour là, vous reconnaîtrez que je suis en mon Père et vous en moi et moi en vous. Celui qui a mes commandements et qui les garde, c'est celui-là qui m'aime; or celui qui m'aime sera aimé de mon Père; ",
-            "لأنه ماكث معكم وحال فيكم. لا أترككم يتامى إنى آتى إليكم عما قليل. لا يرانى العالم بعد وأما أنتم فترونني، لأنى أنا حى وأنتم ايضاً ستحيون. في ذلك اليوم تعلمون إنى أنا في أبى وأنتم فيّ، وأنا أيضاً فيكم. من كانت عنده وصاياى ويحفظها فذاك هو الذي يحبنى والذي يحبنى يحبه أبى، ",
+            "لأنه ماكث معكم وحال فيكم. لا أترككم يتامى إنى آتى إليكم عما قليل. لا يرانى العالم بعد وأما أنتم فترونني، لأنى أنا حى وأنتم ايضاً ستحيون. في ذلك اليوم تعلمون إنى أنا في أبي وأنتم فيّ، وأنا أيضاً فيكم. من كانت عنده وَصَايَاي ويحفظها فذاك هو الذي يحبنى والذي يحبنى يحبه أبى، ",
         ],
         [
             Prefix.HolyWeek + "1HEGospel&D=GL55&C=Diacon",
             "",
             "et je l'aimerai et je me manifesterai à lui.«  Judas - pas l'Iscariote - lui dit: «Seigneur, et qu'est-il advenu, que\ntu doives te manifester à nous et non pas au monde?» Jésus lui répondit: «Si quelqu'un m'aime, il gardera ma parole, et mon Père l'aimera et nous viendrons vers lui et nous nous ferons une demeure chez lui. Celui qui ne m'aime pas ne garde pas mes paroles; et la parole que vous entendez n'est pas de moi, mais du Père qui m'a envoyé. ",
-            "وأنا أحبه وأظهر له ذاتى. فقال له يهوذا وليس الإسخريوطى: يا رب ما الذي حدث حتى إنك مزمع أن تظهر لنا ذاتك وليس للعالم؟!. أجاب يسوع وقال له: من يحبنى يحفظ كلامي وأبي يحبه وإليه نأتى وعنده نصنع مسكننا ومن لا يحبنى لا يحفظ قولى، والقول الذي تسمعونه ليس لى بل للآب الذي أرسلني",
+            "وأنا أحبه وأظهر له ذاتى. فقال له يهوذا وليس الإسخريوطى: يا رب ما الذي حدث حتى إنك مزمع أن تظهر لنا ذاتك وليس للعالم؟!. أجاب يسوع وقال له: من يحبنى يحفظ كلامي وأبي يحبه وإليه نأتى وعنده نصنع مسكننا ومن لا يحبنى لا يحفظ قولى، والقول الذي تسمعونه ليس لي بل للآب الذي أرسلني",
         ],
         [
             Prefix.HolyWeek + "1HEGospel&D=GL55&C=Diacon",
@@ -7254,13 +7308,13 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "1HEGospel&D=GL55&C=Diacon",
             "Iwannhn  Kev i/d/ > k/ /]/b/l/ nem i/e/ > a/- k/e\nE]wp de af]an`èi `ènje piparaklhtoc Pip/n/a/ eq/u/ > vh`èete Viwt naouorpf 'en paran > `ènqof eqna`ètcabe qhnou `èewb niben > ouo `èfna; `èm`èvmeu`èi nwten `èewb niben `èetaijotou nwten. :naxw `èntairhnh nwten > tairhnh `èanok ;nathic nwten > `èm`èvrh; an `èete pikocmoc ;`èmmoc `èe;na; `èmpen`èqref`è]qorter `ènje petenht oude `èmperer`è]la `ènht. Aretencwtem je aijoc nwten > je ;na]enhi ouo ;nhou arwten > `èenaretenmei `èmmoi naretennara]i pe > je ;na]enhi a Viwt > je paiwt ouni]; `èeroi pe. Ouo ;nou aijoc nwten `èmpatec]wpi > ina ac]an]wpi `èntetenna; > `èn;naje oumh] `èncaji nwten an > je `èfnhou gar `ènje `èparxwn `ènte paikocmoc ouo `èmmon `èli`èntaf `èn'ht > alla ina `èntef`èemi `ènje pikocmoc je ;er`èagapan `èmpaiwt > ouo kata `èvrh; `èetafonen nhi `ènje paiwt ;`èiri `èmpairh;> tenqhnou maron `èeboltai. Anok pe ;bw `èn`èaloli `ènta`èvmhi ouo paiwt pe piouwi > klhma niben `èete `èn'ht `èete `èn`èfnaen outa `èebol an `èfnakorjf > ouo vh niben eqnaen outa `èebol `èfnatoubof > ina `èntefen ou`èo `ènouta `èebol > hdh `ènqwten `èatetentoubo eqbe picaji `èetaicaji `èmmof nemwten. }wpi `èn`è'rhi `èn'ht ouo `èanok w 'en qhnou > `èm`èvrh; `èmpiklhma `èete `èmmon`è]jom `èmmof `èntefen outa `èebol itotf `èmmauatf > af`è]tem]wpi 'en ;bw `èn`èaloli > pairh; `ènqwten wten `èmmon`è]jom `èmmwten `èareten`è]tem]wpi `èn`è'rhi `èn'ht. Anok pe ;bw `èn`èaloli ouo `ènqwten ne niklhma > vheqna]wpi `èn'ht ouo `èanok w `èn'htf> vai ef`èeen oumh] `ènouta `èebol > je atsnou`èi `èmmon`è]jom `èmmwten `èeer `èli. Are`è]tem ouai ]wpi `èn'ht cenaitf `èebol > `èm`èvrh; `èmpiklhma ouo ]af]wou`èi ouo ]auqou`èwtou `ènceitou `èepi`èxrwm ouo ]aurwk. E]wp de `èareten]an]pi `èn`è'rhi `èn'ht ouo `ènte nacaji ]wpi 'en qhnou > vh`èetetenoua]f `èari`èetin `èmmof ouo `èfna]wpi nwten > 'en vai afsi`èwou `ènje paiwt > ina `èntetennen oumh] `ènouta `èebol > ouo `ènteten]wpi nhi `èmmaqhtc. M`èvrh; `èetafmenrit `ènje paiwt `èanok w aimenre qhnou > ]wpi `èn`è'rhi 'en ta`èagaph. E]wp `ènteten`èare `èenaentolh tetenna]wpi 'en ta`èagaph > `èm`èvrh; w `èetai`èare `èenientolh `ènte paiwt > ouo ;]op 'en tef`èagaph. Nai aijotou nwten ina `ènte para]i ]wpi 'en qhnou > ouo `ènte petenra]i wten `èntefjwk `èebol. Qai `èanok te taentolh ina `ènqwten `èntetenmenre neten`èerhou `èm`èvrh; `èetaimenre qhnou `èmmof. Mmon peqnaac `èetai `èagaph `ènten `èli > ina `ènte ouai xw `èntefyuxh `èe`è\\rhi `èejen nef`è]vhr > `ènqwten `ènqwten na`è]vhr > `èe]wp `èaretenan`èiri `ènnhe;onen `èmmwten `èerwou > `èn;namou; `è`èerwten an je bwk > je `èmpare pibwk `èemi je ou pete pef_ ra `èmmof > `ènqwten de aimou; `èerwten je na`è]vhr > je wb niben `èetaicoqmou `èntotf `èmpaiwt aitamwten `èerwou. Nqwten an `èatetencotpt alla `èanok aicetp qhnou> ouo aixa qhnou ina `ènteten]enwten ouo `èntetenen outa `èebol ouo petenouta `èntef`èoi > ina vh`èeteteneretin `èmmof `èntotf `èmViwt 'en paran `èntefthif nwten. Nai de ;onen `èmmwten `èerwou > ina `èntetenmenre neten`èerhou > icje pikocmoc moc; `èmmwten > `èari`èemi je `èanok `èn]orp pe `èetafmectwi. Ene `ènqwten `èebol'en pikocmoc > nare pikocmoc namenre vh`èete vwf > `èoti de `ènqwten an `èebol'en pikocmoc an > alla `èanok aicetp qhnou `èebol'en pikocmoc > eqbe vai pikocmoc moc; `èmmwten. Ari`èvmeui `èmpicaji `èetaijof nwten > je `èmmon bwk `èenaaf `èepef_ > icje ausoji `èncwi `ènqwten wten eu`èesoji `èncaqhnou > icje au`èare `èepacaji eu`èe`èare `èevwten wten. Alla nai throu cenaaitou nwten eqbe paran > je cecwoun an `èmvh`èetaftaouoi. Ene `èmpi`èi pe ouo `èntacaji nemwou > ne `èmmon tounobi `èmmau pe > ;nou de `èmmontou lwiji `èmmau eqbe nounobi > vheqmoc; `èmmoi `èfmoc; `èmpakeiwt > `èene `èmpi`èiri pe `ènni`èhou`èi `èn`è'rhi `èn'htou nh`èete `èmpikeouai aitou > ne `èmmontou nobi `èmmau pe> ;nou de aunau ouo aumectwi nem pakeiwt. Alla ina `èntefjwk `èebol `ènje picaji et`èc'hout ipounomoc > je aumectwi `ènjinjh. Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
             "Jean 14 : 26 à 15 : 25\nMais le Paraclet, l'Esprit Saint, que le Père enverra en mon nom, lui, vous enseignera tout et vous rappellera tout ce que je vous ai dit. Je vous laisse la paix; c'est ma paix que je vous donne; je ne vous la donne pas comme le monde la donne. Que votre cœur ne se trouble ni ne s'effraie. Vous avez entendu que je vous ai dit: Je m'en vais et je reviendrai vers vous. Si vous m'aimiez, vous vous réjouiriez",
-            "يوحنا ١٤: ٢٦ - ١٥: ٢٥\nوإذا جاء المعزى الروح القدس الذي يرسله أبى بإسمى فهو يعلمكم كل شيء ويذكركم بكل ما قلته لكم. سلامى أترك لكم، سلامى أنا أعطيكم ليس كما يعطى العالم أعطيكم. لا تضطرب قلوبكم ولا تجزع، فقد سمعتم إني قلت لكم إننى ماض ثم آتى إليكم، فلو كنتم تحبوننى لكنتم تفرحون",
+            "يوحنا ١٤: ٢٦ - ١٥: ٢٥\nوإذا جاء المعزى الروح القدس الذي يرسله أبي بإسمى فهو يعلمكم كل شيء ويذكركم بكل ما قلته لكم. سلامى أترك لكم، سلامى أنا أعطيكم ليس كما يعطى العالم أعطيكم. لا تضطرب قلوبكم ولا تجزع، فقد سمعتم إني قلت لكم إننى ماض ثم آتى إليكم، فلو كنتم تحبوننى لكنتم تفرحون",
         ],
         [
             Prefix.HolyWeek + "1HEGospel&D=GL55&C=Diacon",
             "",
             "de ce que je vais vers le Père, parce que le Père est plus grand que moi. Je vous le dis maintenant avant que cela n'arrive, pour qu'au moment où cela arrivera, vous croyiez. Je ne m'entretiendrai plus beaucoup avec vous, car il vient, le Prince de ce monde; sur moi il n'a aucun pouvoir, mais il faut que le monde reconnaisse que j'aime le Père et que je fais comme le Père m'a commandé. Levez-vous! Partons d'ici! \"Je suis la vigne véritable ",
-            "بأنى أمضى إلى الآب لأن أبى هو أعظم منى وقد قلت لكم الآن قبل أن يكون حتى متى كان تؤمنون. لست أكلمكم كلاماً كثيراً بعد فإن رئيس هذا العالم آت وليس له في شيء، لكن ليعلم العالم إنى أحب أبى، وكما أوصاني أبي هكذا أفعل قوموا ننطلق من ههنا. أنا هو الكرمة الحقيقية",
+            "بأنى أمضى إلى الآب لأن أبي هو أعظم منى وقد قلت لكم الآن قبل أن يكون حتى متى كان تؤمنون. لست أكلمكم كلاماً كثيراً بعد فإن رئيس هذا العالم آت وليس له في شيء، لكن ليعلم العالم إنى أحب أبى، وكما أوصاني أبي هكذا أفعل قوموا ننطلق من ههنا. أنا هو الكرمة الحقيقية",
         ],
         [
             Prefix.HolyWeek + "1HEGospel&D=GL55&C=Diacon",
@@ -7272,13 +7326,13 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "1HEGospel&D=GL55&C=Diacon",
             "",
             "Celui qui demeure en moi, et moi en lui, celui-là porte beaucoup de fruit; car hors de moi vous ne pouvez rien faire.\nSi quelqu'un ne demeure pas en moi, il est jeté dehors comme le sarment et il se dessèche; on les ramasse et on les jette au feu et ils brûlent. Si vous demeurez en moi et que mes paroles demeurent en vous, demandez ce que vous voudrez, et vous l'aurez. C'est la gloire de mon Père que vous portiez",
-            "من يثبت في وأنا أيضاً فيه. فهذا يأتى بثمر كثير لأنكم بدوني لا تقدرون أن تفعلوا شيئا.\nإن كان أحد لا يثبت في يطرح خارجاً كالغصن فيجف ويجمع ويطرح في النار فيحترق، فإن انتم ثبتم في وثبت كلامي فيكم، تطلبون ما تريدون فيكون لكم. بهذا يتمجد أبى أن تأتوا",
+            "من يثبت في وأنا أيضاً فيه. فهذا يأتى بثمر كثير لأنكم بدوني لا تقدرون أن تفعلوا شيئا.\nإن كان أحد لا يثبت في يطرح خارجاً كالغصن فيجف ويجمع ويطرح في النار فيحترق، فإن انتم ثبتم في وثبت كلامي فيكم، تطلبون ما تريدون فيكون لكم. بهذا يتمجد أبي أن تأتوا",
         ],
         [
             Prefix.HolyWeek + "1HEGospel&D=GL55&C=Diacon",
             "",
             "beaucoup de fruit et deveniez mes disciples. Comme le Père m'a aimé, moi aussi je vous ai aimés. Demeurez en mon amour. Si vous gardez mes commandements, vous demeurerez en mon amour, comme moi j'ai gardé les commandements de mon Père et je demeure en son amour. Je vous dis cela pour que ma joie soit en vous et que votre joie soit complète. Voici quel est mon commandement : vous aimer les uns les autres comme je vous ai aimés. ",
-            "بثمر كثير وتكونوا لى تلاميذاً. كما أحبنى أبى كذلك أنا أحببتكم، إثبتوا في محبتى. إن حفظتم وصاياى تثبتون فى محبتى، كما إنى أنا قد حفظت وصايا أبى وثابت فى محبته.  قلت لكم هذا ليكون فرحى فيكم ويكمل فرحكم أنتم أيضاً. هذه هي وصيتي أنا أن تحبوا بعضكم بعضا كما أحببتكم أنا. ",
+            "بثمر كثير وتكونوا لي تلاميذاً. كما أحبنى أبي كذلك أنا أحببتكم، إثبتوا في محبتى. إن حفظتم وَصَايَاي تثبتون في محبتى، كما إنى أنا قد حفظت وصايا أبي وثابت في محبته.  قلت لكم هذا ليكون فرحى فيكم ويكمل فرحكم أنتم أيضاً. هذه هي وصيتي أنا أن تحبوا بعضكم بعضا كما أحببتكم أنا. ",
         ],
         [
             Prefix.HolyWeek + "1HEGospel&D=GL55&C=Diacon",
@@ -7308,7 +7362,7 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "1HEGospel&D=GL55&C=Diacon",
             "Iwannhn  Kev i/g/ > l/g/ ]/b/l/ nem i/d/ >a/-k/e\nE]wp de af]an`èi `ènje piparaklhtoc vh `èanok `èe;naouorpf nwten `èebolitotf `èmpaiwt > Pip/n/a/ `ènte ;meqmhi vheqnhou `èebola `èViwt> `ènqof eqnaermeqre eqbht. Ouo `ènqwten wten tetenermeqre je tetenxh nemhi icjen ]orp. Nai aijotou nwten ina `ènteten`è]tem erckandalizecqe. Au]anerqhnou `èn`èapoucunagwgoc > alla `ècnhou `ènje ouounou ina vh niben eqna'wteb `èmmwten > `èntefmeu`èi je af`èini `ènou]ou]wou]i `èe`è\\rhi a V;. Ouo nai eu`èeaitou nwten je ouhi `èmpoucouen Viwt oude `èanok `èmpoucouwnt. Alla nai aijotou nwten ina ac]an`èi `ènje ;ounou `èntetener`èvmeu`èi je aiou`èw `èanok èeijw `èmmwou nwten > nai de `èmpijotou nwten icjen h je naixh nemwten pe ;nou de ;na]enhi a vh`èetaftaouoi > ouo `èmmon `èli `èebol'en qhnou ]ini `èmmoi je akna]enak `èeqwn > alla je aije nai nwten `èa pe`èmka `ènht ma petenht. Alla `èanok `èqmhi pe ;jw `èmmoc nwten > `ècernofri nwten ina `èanok `ènta]enhi > `èe]wp gar ai`è]tem]enhi piparaklhtoc na`èi arwten an> ]wp gar ai]an]henhi ;naouorpf nwten. Ouo af]an`èi `ènje vh`èete`èmmau ef`èecoi `èmpikocmoc eqbe `èvnobi > nem eqbe oumeqmhi > nem eqbe ouap > eqbe `èvnobi men je cena; `èeroi an. Eqbe oumeqmhi de je ;na]enhi a `èviwt ouo tetennau eroi an je. Eqbe ouap de je `èparxwn `ènte paikocmoc auou`èw eu;ap `èerof. Ouon`ènthi `ènankemh] `èejotou nwten alla tetenna`è]fai 'arwou an ;nou. E]wp de af]an`èi `ènje vh`èete`èmmau pipn ?a ? `ènte ;meqmhi > ef`èesimwit nwten 'en meqmhi niben > `èfnacaji gar an `èebolitotf `èmmauataf > alla nh`èetafcoqmou `èete`èfnacaji `èmmwou > ouo nheqnhou ef`èetamwten `èerwou. Vh`èete`èmmau `èfna;`èwou nhi > je `èfnasi `èebol'en vh`èete vwi ouo `èfnatame qhnou > wb niben `èete `ènte paiwt nou`èi ne > eqbe vai aijoc nwten je `èfnasi `èebol'en vh`èete vwi ouo `ènteftame qhnou. Kekouji tetennanau `èeroi je `èanok ;na]enhi a Viwt. Peje anouon `èebol'en nefmaqhthc `ènnou`èerhou > je paicaji ou pe `èetefjw `èmmof nan > je kekoji tetennanau `èeroi an> ouo palin kekouji tetennau `èeroi ouo je `èanok ;na]enhi a Viwt. Naujw oun `èmmoc pe je ou pe vai `èetefjw `èmmof je ke kouji > `ènten`èemi an je afjw `èmmoc je ou. Af`èemi de `ènje Ihc ? je nauouw] `èe]enf pe > ouo pejaf nwou je tetenkw; `ènca paicaji nem neten`èerhou > je aijoc nwten je kekouji tetennanau `èeroi an> ouo palin kekouji tetennanau `èeroi. Amhn amhn ;jw `èmmoc nwten je tetennarimi nqwten ntetenerhbi > pikocmoc `ènqof `ènara]i > `ènqwten tetennaer`èmka `ènht > alla petene`èmka `ènht `èfna]wpi nwten eura]i. :`ècimi ac]annou`èi `èemici ]acer`èmka `ènht je ac`èi `ènje tecounou > `èe]wp de ac]anmici `èmpi]hri `èmpacer`èvmeui je `èmpiojej eqbe pira]i  > je acmec ourwmi `èepikocmoc. Ouo `ènqwten wten ;nou men eretèè`èesi `ènoumka `ènht > palin on ;nanau `èerwten ouo tetennara]i > ouo petenra]i `èmmon `èli naolf `ènten qhnou 'en pi`èeoou `èete`èmmau tetenna]ent `èe`èli nai > `èamhn ;jw `èmmoc nwten je vh`èetetenna`èeretin `èmmof `èntotf `èmViwt 'en paran ef`èethif nwten. }a ;nou `èmpateteneretin `èn`èli 'en paran > `èari`èetin ouo tetennasi > ina `ènte petenra]i ]wpi efjhk `èebol. Nai de aijotou nwten 'en anparoimia > `ècnhou de `ènje ouounou ote einacaji nemwten an je 'en anparoimia> alla 'en ouparrhcia ainatamwten eqbe Viwt > 'en pi`èeoou `èete`èmmau `èereten`èeretin 'en paran > ouo ;najoc nwten an je `èanok eqna;o `èeViwt eqbe qhnou. Nqof gar wf Viwt `èfmei `èmmwten je `ènqwten `èaretenmenrit > ouo `èaretenna	 je `èetai`èi `èebola `èViwt. Ai`èi `èebola Viwt ouo ai`èi `èepikocmoc > palin on ;naxw `èncwi `èmpikocmoc `ènta]enhi a Viwt. Peje nefmaqhthc naf > je hppe ;nou `èkcaji 'en ouparrhcia > ouo `èn`èkje `èli an `èmparoimia > ;nou ten`èemi je `èkcwoun `ènwb niben ouo `èn`èkerxria an `ènte ouai ]enk > 'en vai tenna; je `èetak`èi ebokl iten V;. Af`èerou`èw nwou `ènje Ihc ? je ;nou tetenna; hppe `ècnhou `ènje ouounou ouo ac`èi ina `èntetenjwr `èebol `èvouai `èvouai èè`èepefma > ouo ;xh `èmmauat an > je `èfxh nemhi `ènje paiwt. Nai aijotou nwten ina `ènte ouirhnh ]wpi nwten `èn`è'rhi `èn'ht> ouon `èntwten `èmmau `ènouojej `èmpikocmoc > alla jemnom; `èanok aisro `èepikocmoc. Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
             "Jean 15 : 26 à 16 : 33\nLorsque viendra le Paraclet, que je vous enverrai d'auprès du Père, l'Esprit de vérité, qui vient du Père, il me rendra témoignage. Mais vous aussi, vous témoignerez, parce que vous êtes avec moi depuis le commencement. Je vous ai dit cela pour vous éviter le scandale. On vous exclura des synagogues. Bien plus, l'heure vient où quiconque vous tuera pensera rendre un culte à Dieu. Et cela, ils le feront",
-            "يوحنا ١٥: ٢٦ - ١٦: ١-٣٣\nوإذا جاء المعزى الذي أرسله أنا إليكم من عند أبى، روح الحق المنبثق من الآب فهو يشهد لى، وأنتم أيضاً تشهدون لأنكم معي منذ الإبتداء. كملتكم بهذا لكى لا تشكوا، فإنهم سيخرجونكم من المجامع، بل ستأتى ساعة يظن فيها كل من يقتلكم أنه يقرب قرباناً لله. وسيفعلون هذا بكم",
+            "يوحنا ١٥: ٢٦ - ١٦: ١-٣٣\nوإذا جاء المعزى الذي أرسله أنا إليكم من عند أبى، روح الحق المنبثق من الآب فهو يشهد لى، وأنتم أيضاً تشهدون لأنكم معي منذ الإبتداء. كملتكم بهذا لِكَي لا تشكوا، فإنهم سيخرجونكم من المجامع، بل ستأتى ساعة يظن فيها كل من يقتلكم أنه يقرب قرباناً لله. وسيفعلون هذا بكم",
         ],
         [
             Prefix.HolyWeek + "1HEGospel&D=GL55&C=Diacon",
@@ -7326,7 +7380,7 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "1HEGospel&D=GL55&C=Diacon",
             "",
             "porter à présent. Mais quand il viendra, lui, l'Esprit de vérité, il vous introduira dans la vérité tout entière; car il ne parlera pas de lui-même, mais ce qu'il entendra, il le dira et il vous dévoilera les choses à venir. Lui me glorifiera, car c'est de mon bien qu'il recevra et il vous le dévoilera. Tout ce qu'a le Père est à moi. Voilà pourquoi j'ai dit que c'est de mon bien qu'il reçoit et qu'il vous le dévoilera. \"Encore un peu et vous ne me verrez plus et puis un peu encore",
-            "تقدرون أن تتحملوا الآن، ولكن إذا جاء ذاك روح الحق فهو يرشدكم إلى جميع الحق لأنه لا يتكلم من عنده بل كل ما يسمع يتكلم به ويخبركم بما يأتى وذاك يمجدني لأنه يأخذ مما لى ويخبركم. كل ما لأبي فهو لى ومن أجل هذا قلت لكم أنه يأخذ مما لى ويخبركم بعد قليل لا ترونني ثم بعد قليل",
+            "تقدرون أن تتحملوا الآن، ولكن إذا جاء ذاك روح الحق فهو يرشدكم إلى جميع الحق لأنه لا يتكلم من عنده بل كل ما يسمع يتكلم به ويخبركم بما يأتى وذاك يمجدني لأنه يأخذ مما لي ويخبركم. كل ما لأبي فهو لي ومن أجل هذا قلت لكم أنه يأخذ مما لي ويخبركم بعد قليل لا ترونني ثم بعد قليل",
         ],
         [
             Prefix.HolyWeek + "1HEGospel&D=GL55&C=Diacon",
@@ -7374,7 +7428,7 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "1HEGospel&D=GL55&C=Diacon",
             "",
             "l'œuvre que tu m'as donné de faire. Et maintenant, Père, glorifie-moi auprès de toi de la gloire que j'avais auprès de toi, avant que fût le monde. J'ai manifesté ton nom aux hommes, que tu as tirés du monde pour me les donner. Ils étaient à toi et tu me les as donnés et ils ont gardé ta parole. Maintenant ils ont reconnu que tout ce que tu m'as donné vient de toi; car les paroles que tu m'as données, je les leur ai données, et ils les ont accueillies et",
-            "العمل الذي اعطيتني لأعمله، والآن مجدني أنت يا أبت عندك بالمجد الذي كان لي عندك قبل أن يكون العالم. قد أظهرت إسمك للناس الذين اعطيتهم لى من العالم. هم لك وقد أعطيتهم لي وكلامك حفظوه، والآن قد علموا أن كل ما اعطيته لى هو منك، لأن الكلام الذي أعطيته لي قد اعطيته لهم، وهم أيضا قبلوه ",
+            "العمل الذي اعطيتني لأعمله، والآن مجدني أنت يا أبت عندك بالمجد الذي كان لي عندك قبل أن يكون العالم. قد أظهرت إسمك للناس الذين اعطيتهم لي من العالم. هم لك وقد أعطيتهم لي وكلامك حفظوه، والآن قد علموا أن كل ما اعطيته لي هو منك، لأن الكلام الذي أعطيته لي قد اعطيته لهم، وهم أيضا قبلوه ",
         ],
         [
             Prefix.HolyWeek + "1HEGospel&D=GL55&C=Diacon",
@@ -7386,13 +7440,13 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "1HEGospel&D=GL55&C=Diacon",
             "",
             "comme nous. Quand j'étais avec eux, je les gardais dans ton nom que tu m'as donné. J'ai veillé et aucun d'eux ne s'est perdu, sauf le fils de perdition, afin que l'Écriture fût accomplie.\nMais maintenant je viens vers toi et je parle ainsi dans le monde, afin qu'ils aient en eux-mêmes ma joie complète. Je leur ai donné ta parole et le monde les a haïs, parce qu'ils ne sont pas du monde, comme moi je ne suis pas du monde. ",
-            "كما نحن. حين كنت معهم كنت أحفظهم في إسمك، الذين أعطيتهم لي حفظتهم ولم يهلك منهم أحد إلا إبن الهلاك ليتم الكتاب، \nأما الآن فإنى آتى إليك وأتكلم بهذا في العالم ليكون فرحي كاملاً بهم. أنا قد سلمتهم كلامك فأبغضهم العالم، لأنهم ليسوا من العالم كما أنى أنا أيضاً لست من العالم، ",
+            "كما نحن. حين كنت معهم كنت أحفظهم في إسمك، الذين أعطيتهم لي حفظتهم ولم يهلك منهم أحد إلا إبن الهلاك ليتم الكتاب، \nأما الآن فإنى آتى إليك وأتكلم بهذا في العالم ليكون فرحي كاملاً بهم. أنا قد سلمتهم كلامك فأبغضهم العالم، لأنهم ليسوا من العالم كما أني أنا أيضاً لست من العالم، ",
         ],
         [
             Prefix.HolyWeek + "1HEGospel&D=GL55&C=Diacon",
             "",
             "Je ne te prie pas de les enlever du monde, mais de les garder du Mauvais. Ils ne sont pas du monde, comme moi je ne suis pas du monde. Sanctifie-les dans la vérité: ta parole est vérité. Comme tu m'as envoyé dans le monde, moi aussi, je les ai envoyés dans le monde. Pour eux je me sanctifie moi-même, afin qu'ils soient, eux aussi, sanctifiés dans la vérité. Je ne prie pas pour eux seulement, mais aussi pour ceux qui, grâce à leur parole, ",
-            "ولست أسأل أن تأخذهم من العالم بل أن تحفظهم من الشرير، فإنهم ليسوا من العالم كما أنى أنا لست من العالم. قدسهم في حقك وكلامك هو الحق، وكما أرسلتنى إلى العالم أرسلتهم أنا أيضا إلى العالم، ولأجلهم أقدس أنا ذاتي ليكونوا هم ايضاً مقدسين في الحق. ولست أسأل من أجل هؤلاء فقط بل أيضاً من اجل الذين يؤمنون بي بكلامهم، ",
+            "ولست أسأل أن تأخذهم من العالم بل أن تحفظهم من الشرير، فإنهم ليسوا من العالم كما أني أنا لست من العالم. قدسهم في حقك وكلامك هو الحق، وكما أرسلتنى إلى العالم أرسلتهم أنا أيضا إلى العالم، ولأجلهم أقدس أنا ذاتي ليكونوا هم ايضاً مقدسين في الحق. ولست أسأل من أجل هؤلاء فقط بل أيضاً من اجل الذين يؤمنون بي بكلامهم، ",
         ],
         [
             Prefix.HolyWeek + "1HEGospel&D=GL55&C=Diacon",
@@ -7411,7 +7465,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "1HECommentary&D=GL55&C=Title",
             "Commentaire de la Première heure de la veille du vendredi",
-            "",
+            "Commentaire de la Première heure de la veille du vendredi",
             "طرح الساعة الأولى من ليلة الجمعة",
         ],
         [
@@ -7443,7 +7497,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "3HEProphecies&D=GL55&C=Title",
             "Prophecies de la Troisième heure de la veille du vendredi",
-            "",
+            "Prophecies de la Troisième heure de la veille du vendredi",
             "نبوات الساعة الثالثة من ليلة الجمعة",
         ],
         [
@@ -7475,7 +7529,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "3HEPsalm&D=GL55&C=Title",
             "Psaume de la Troisième heure de la veille du vendredi",
-            "",
+            "Psaume de la Troisième heure de la veille du vendredi",
             "مزمور الساعة الثالثة من ليلة الجمعة",
         ],
         [
@@ -7489,7 +7543,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "3HEGospel&D=GL55&C=Title",
             "Evangile de la Troisième heure de la veille du vendredi",
-            "",
+            "Evangile de la Troisième heure de la veille du vendredi",
             " إنجيل الساعة الثالثة من ليلة الجمعة",
         ],
         [
@@ -7514,7 +7568,7 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "3HEGospel&D=GL55&C=Diacon",
             "Markon  Kev i/d/> k/-/l/a/\nOuo `èetau`ècmou au`èi `èebol èè`èepitwou `ènte nijwit. Ouo pejaf nwou `ènje Ihc? je tetennaerckandadizecqe throu `èn`è'rhi `èn'ht 'en pai`èejwr je ouhi `èc`èc'hout je ;na]ari `èepiman`èecwou ouo cenajwr `èebol `ènje ni`èecwou. Alla menenca `èqritwnt ;naer]wrp `èerwten `èe;Galilea. Petroc de pejaf naf je kan au]anerckandalizecqe throu alla `èanok an. Ouo pejaf naf `ènje Ihc? je `èamhn ;jw `èmmoc nak > je `ènqok `èm`èvoou 'en pai`èejwr `èmpate oualektwr mou; `èncop `ècnau > `èxnajolt `èebol `èn]omt `èncop. Nqof de nafcaji 'en oumetou`èo je kan ac]anvo `èntamou nemak `ènnajolk `èebol > pairh; de on naujw `èmmoc throu.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
             "Marc 14 : 26-31 \nAprès le chant des psaumes, ils partirent pour le mont des Oliviers. Et Jésus leur dit: «Tous, vous allez succomber, car il est écrit: Je frapperai le pasteur et les brebis seront dispersées. Mais après ma résurrection, je vous précéderai en Galilée.» Pierre lui dit: «Même si tous succombent, du moins pas moi!»",
-            "مرقس ١٤: ٢٦- ٣١\nولما سبحوا خرجوا إلى جبل الزيتون، فقال لهم يسوع: إنكم كلكم تشكون فيّ في هذه الليلة، لأنه مكتوب أنى أضرب الراعى فتتفرق الخراف. ولكن بعد قيامتى أسبقكم إلى الجليل. فقال له بطرس: لو شك فيك الجميع فأنا لا أشك.",
+            "مرقس ١٤: ٢٦- ٣١\nولما سبحوا خرجوا إلى جبل الزيتون، فقال لهم يسوع: إنكم كلكم تشكون فيّ في هذه الليلة، لأنه مكتوب أني أضرب الراعى فتتفرق الخراف. ولكن بعد قيامتى أسبقكم إلى الجليل. فقال له بطرس: لو شك فيك الجميع فأنا لا أشك.",
         ],
         [
             Prefix.HolyWeek + "3HEGospel&D=GL55&C=Diacon",
@@ -7551,7 +7605,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "3HECommentary&D=GL55&C=Title",
             "Commentaire de la Troisième heure de la veille du vendredi",
-            "",
+            "Commentaire de la Troisième heure de la veille du vendredi",
             "طرح الساعة الثالثة من ليلة الجمعة",
         ],
         [
@@ -7577,7 +7631,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "6HEProphecies&D=GL55&C=Title",
             "Prophecies de la Sixième heure de la veille du vendredi",
-            "",
+            "Prophecies de la Sixième heure de la veille du vendredi",
             "نبوات الساعة السادسة من ليلة الجمعة",
         ],
         [
@@ -7603,7 +7657,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "6HEPsalm&D=GL55&C=Title",
             "Psaume de la Sixième heure de la veille du vendredi",
-            "",
+            "Psaume de la Sixième heure de la veille du vendredi",
             "مزمور الساعة السادسة من ليلة الجمعة",
         ],
         [
@@ -7617,7 +7671,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "6HEGospel&D=GL55&C=Title",
             "Evangile de la Sixième heure de la veille du vendredi",
-            "",
+            "Evangile de la Sixième heure de la veille du vendredi",
             " إنجيل الساعة السادسة من ليلة الجمعة",
         ],
         [
@@ -7648,7 +7702,7 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "6HEGospel&D=GL55&C=Diacon",
             "Markon  Kev i/d/>l/b/-m/b/\nOuo au`èi `èeouioi `èepefran pe Ghqcemani > ouo pejaf `ènnefmaqhthc je emci a `èmnai wc ;erproceuxecqe. Ouo af`èwli nemaf `èmPetroc nem Iakwboc nem Iwannhc > ouo aferhtc `èn`è]qorter nem `èeer`èmka `ènht. Ouo pejaf nwou je tayuxh mok ]a `èe`è'rhi `èe`èvmou > `èoi `èmpaima ouo rwic. Ouo `èetafcini `èeth `ènoukouji nafi `èmmof `èe`è'rhi ijen pikai > ouo naferproceuxecqe ina icje ouon `è]jom `ènte ;ounou cini `èebol arof. Ouo nafjw `èmmoc je abba Viwt > ouon `è]jom `ènwb niben 'atotk > mare pai`èavot cini `èebolaroi > alla `èm`èvrh; `èete\nhi `èanok an > alla `èm`èvrh; `èete\nak `ènqok.\nOuo af`èi afjemou euenkot > ouo pejaf `èmPetroc je Cimwn `èkenkot > `èmpek`è]jemjom `ènrwic nemhi `ènouounou. Rwic oun `èntetenerproceuxecqe ina `ènteten`è]tem`èi `èe'oun `èepiracmoc > pipn?a men `èfrwout > ;car[ de ouacqenhcte. Ouo palin `èetaf]enaf naferproceuxecqe afje paicaji rw on. Ouo af`èi on afjemou euenkot > nare noubal gar or] pe > ouo nau`èemi an je ou pe `èetouna`èerou`èw `èmmof naf. Af`èi on `èm`èvma ]omt `èncop ouo pejaf nwou > je enkot je ouo `èmton `èmmwten > acou`èw ac`èi `ènje ;ounou > hppe cena; `èm`èp]hri `èm`èvrwmi `èenenjij `ènnirefernobi. Ten qhnou maron > hppe af'wnt `ènje vheqnathit.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
             "Marc 14 : 32-42\nIls parviennent à un domaine du nom de Gethsémani, et il dit à ses disciples: «Restez ici tandis que je prierai.» Puis il prend avec lui Pierre, Jacques et Jean, et il commença à ressentir effroi et angoisse. Et il leur dit: «Mon âme est triste à en mourir; demeurez ici et veillez.» Étant allé un peu plus loin, il tombait à terre, et il priait pour que, s'il était possible, cette heure passât loin de lui. Et il disait: «Abba Père! \n ",
-            "مرقس ١٤: ٣٢– ٤٢\nثم جاء إلى حقل إسمه جثسيماني، فقال لتلاميذه: إجلسوا ههنا حتى أصلى. ثم أخذ معه بطرس ويعقوب ويوحنا، وإبتدأ يرتاع ويحزن. فقال لهم: إن نفسى حزينة حتى الموت، أمكثوا ههنا وإسهروا. ثم تقدم قليلاً وخر على الأرض، وكان يصلى لكى تعبر عنه الساعة إن أمكن، وكان يقول: يا أبا الآب",
+            "مرقس ١٤: ٣٢– ٤٢\nثم جاء إلى حقل إسمه جثسيماني، فقال لتلاميذه: إجلسوا ههنا حتى أصلى. ثم أخذ معه بطرس ويعقوب ويوحنا، وإبتدأ يرتاع ويحزن. فقال لهم: إن نفسى حزينة حتى الموت، أمكثوا ههنا وإسهروا. ثم تقدم قليلاً وخر على الأرض، وكان يصلى لِكَي تعبر عنه الساعة إن أمكن، وكان يقول: يا أبا الآب",
         ],
         [
             Prefix.HolyWeek + "6HEGospel&D=GL55&C=Diacon",
@@ -7691,7 +7745,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "6HECommentary&D=GL55&C=Title",
             "Commentaire de la Sixième heure de la veille du vendredi",
-            "",
+            "Commentaire de la Sixième heure de la veille du vendredi",
             "طرح الساعة السادسة من ليلة الجمعة",
         ],
         [
@@ -7704,7 +7758,7 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "6HECommentary&D=GL55&C=Diacon",
             "",
             "que cette coupe passe loin de moi! Cependant, non pas comme je veux, mais comme tu veux.» Il vint vers ses disciples et les trouva en train de dormir. Il fut attristé et réveilla Pierre et lui dit: «N'aurais-tu pas pu veiller une heure avec moi?! Priez sans cesse pour ne pas entrer en tentation.» La deuxième fois Il pria de même pour que la coupe passe loin de Lui. La troisième fois il en fut de même. «Levez-vous, veillez avec moi, ne dormez pas",
-            "أن تعبر عني هذه الكأس، ولكن ليست إرادتي بل إرادتك. ثم عاد وجاء إلى تلاميذه فوجدهم نياماً بحزن عظيم، فأيقظ بطرس وقال:آلا يجب عليك أن تسهر معي ساعة واحدة؟! صلوا بلا فتور لكي لا تدخلوا في تجربة. والمرة الثانية صلى هكذا من أجل الكأس لكى تعبر عنه. والمرة الثالثة هكذا صلى بهذا الكلام الذي قاله: قوموا إسهروا معي واتركوا النوم",
+            "أن تعبر عني هذه الكأس، ولكن ليست إرادتي بل إرادتك. ثم عاد وجاء إلى تلاميذه فوجدهم نياماً بحزن عظيم، فأيقظ بطرس وقال:آلا يجب عليك أن تسهر معي ساعة واحدة؟! صلوا بلا فتور لكي لا تدخلوا في تجربة. والمرة الثانية صلى هكذا من أجل الكأس لِكَي تعبر عنه. والمرة الثالثة هكذا صلى بهذا الكلام الذي قاله: قوموا إسهروا معي واتركوا النوم",
         ],
         [
             Prefix.HolyWeek + "6HECommentary&D=GL55&C=Diacon",
@@ -7717,7 +7771,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "9HEProphecies&D=GL55&C=Title",
             "Prophecies de la Neuvième heure de la veille du vendredi",
-            "",
+            "Prophecies de la Neuvième heure de la veille du vendredi",
             "نبوات الساعة التاسعة من ليلة الجمعة",
         ],
         [
@@ -7748,7 +7802,7 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "9HEProphecies&D=GL55&C=Diacon",
             "",
             "L'épée, l'épée est tirée pour le massacre, fourbie pour dévorer, pour jeter des éclairs - pendant que tu as des visions vaines, que tu consultes des présages menteurs - pour égorger les vils criminels dont le jour approche avec le dernier de leurs crimes. Remets-la au fourreau. C'est au lieu où tu as été créé, au pays de ton origine que je te jugerai; je déverserai sur toi ma fureur, je soufflerai contre toi le feu de mon emportement, ",
-            "وقل للسيف: أيها السيف المسلول للذبح، المصقول للنهاية، قم وأبرق برؤياك الباطل وللتهديد بالكذب، لتقطع أعناق المخالفين الذين قد قربت أيامهم، وكمل زمان ظلمهم. إرجع ولا تسترح فى المكان الذى ولدت فيه، سأدينك فى أرضك. وأفيض عليك رجزى وبنار سخطى أنفخ عليك غضبى. ",
+            "وقل للسيف: أيها السيف المسلول للذبح، المصقول للنهاية، قم وأبرق برؤياك الباطل وللتهديد بالكذب، لتقطع أعناق المخالفين الذين قد قربت أيامهم، وكمل زمان ظلمهم. إرجع ولا تسترح في المكان الذي ولدت فيه، سأدينك في أرضك. وأفيض عليك رجزى وبنار سخطى أنفخ عليك غضبى. ",
         ],
         [
             Prefix.HolyWeek + "9HEProphecies&D=GL55&C=Diacon",
@@ -7761,7 +7815,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "9HEPsalm&D=GL55&C=Title",
             "Psaume de la Neuvième heure de la veille du vendredi",
-            "",
+            "Psaume de la Neuvième heure de la veille du vendredi",
             "مزمور الساعة التاسعة من ليلة الجمعة",
         ],
         [
@@ -7775,7 +7829,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "9HEGospel&D=GL55&C=Title",
             "Evangile de la Neuvième heure de la veille du vendredi",
-            "",
+            "Evangile de la Neuvième heure de la veille du vendredi",
             " إنجيل الساعة التاسعة من ليلة الجمعة",
         ],
         [
@@ -7794,7 +7848,7 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "9HEGospel&D=GL55&C=Diacon",
             "",
             "Alors, s'avançant, ils mirent la main sur Jésus et l'arrêtèrent. Et voilà qu'un des compagnons de Jésus, portant la main à son glaive, le dégaina, frappa le serviteur du Grand Prêtre et lui enleva l'oreille. Alors Jésus lui dit: «Rengaine ton glaive; car tous ceux qui prennent le glaive périront par le glaive.\nPenses-tu donc que je ne puisse faire appel à mon Père, qui me fournirait sur-le-champ plus de douze légions d’anges? ",
-            "حينئذ ألقوا أيديهم على يسوع وأمسكوه، وإذ واحد من الذين كانوا مع يسوع مد يده وإستل سيفه وضرب عبد رئيس الكهنة، فقطع أذنه اليمنى. حينئذ قال له يسوع: رد السيف إلى مكانه، لأن كل الذين يأخذون بالسيف بالسيف يهلكون.\nأتظن إنى لا أستطيع الآن أن أطلب من أبي فيقدم لى في الحال ههنا أكثر من إثنتى عشرة جوقة من الملائكة؟ \n",
+            "حينئذ ألقوا أيديهم على يسوع وأمسكوه، وإذ واحد من الذين كانوا مع يسوع مد يده وإستل سيفه وضرب عبد رئيس الكهنة، فقطع أذنه اليمنى. حينئذ قال له يسوع: رد السيف إلى مكانه، لأن كل الذين يأخذون بالسيف بالسيف يهلكون.\nأتظن إنى لا أستطيع الآن أن أطلب من أبي فيقدم لي في الحال ههنا أكثر من إثنتى عشرة جوقة من الملائكة؟ \n",
         ],
         [
             Prefix.HolyWeek + "9HEGospel&D=GL55&C=Diacon",
@@ -7848,7 +7902,7 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "9HEGospel&D=GL55&C=Diacon",
             "Iwannhn  Kev i/h/>i/-i/d\nCimwn oun petroc ne ouon ouchfi `èntotf > afqokmec afiou`èi `ènca `èvbwk `èmpiarxh`èereuc > ouo afjwji `èmpefma]j `ènou`èinam `èebol > ne `èvran `èmpibwk pe Malxoc. Peje Ihc? oun `èmPetroc > je iou`èi `èn;chfi `èetecqhkh > pi`èavot etafthif nhi `ènje paiwt an `èn;nacof an.\n Pimh] oun nem pixiliarxoc nem ni\\uperethc `ènte niIoudai > au`èamoni `ènIhc? ouo aucon. Ouo auenf `èn]orp a Anna > ne`èp]om gar pe `ènKai`èava > vh`èenafoi `ènarxh`èereuc `ènte ;rompi `èete`èmmau. Ne vai de pe Kai`èava vh`èetaf;cosni `ènniIoudai efjw `èmmoc > je `ècernofri èè`ènte ourwmi `ènouwt mou `èe`è\\rhi `èejen pilaoc.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
             "Jean 18 : 10-14\nAlors Simon-Pierre, qui portait un glaive, le tira, frappa le serviteur du grand prêtre et lui trancha l'oreille droite. Ce serviteur avait le nom Malchus. Jésus dit à Pierre: «Rentre le glaive dans le fourreau. La coupe que m'a donnée le Père, ne la boirai-je pas?» Alors la cohorte, le tribun et les gardes des Juifs saisirent Jésus et le lièrent. Ils le menèrent d'abord chez Anne; c'était en effet le beau-père de Caïphe, \n",
-            "يوحنا ١٨: ١٠ – ١٤\nوكان مع سمعان بطرس سيف، فإستله وضرب عبد رئيس الكهنة، فقطع أذنه اليمنى. وكان إسم العبد ملخس. فقال يسوع لبطرس: إلق السيف في غمده. الكأس التي أعطاني إياها أبى ألا أشربها؟\nثم أن الجمع وقائد الألف وخدام اليهود قبضوا على يسوع وأوثقوه، وجاءوا به أولاً إلى الحنان، لأنه كان حما قيافا ",
+            "يوحنا ١٨: ١٠ – ١٤\nوكان مع سمعان بطرس سيف، فإستله وضرب عبد رئيس الكهنة، فقطع أذنه اليمنى. وكان إسم العبد ملخس. فقال يسوع لبطرس: إلق السيف في غمده. الكأس التي أعطاني إياها أبي ألا أشربها؟\nثم أن الجمع وقائد الألف وخدام اليهود قبضوا على يسوع وأوثقوه، وجاءوا به أولاً إلى الحنان، لأنه كان حما قيافا ",
         ],
         [
             Prefix.HolyWeek + "9HEGospel&D=GL55&C=Diacon",
@@ -7861,20 +7915,20 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "9HECommentary&D=GL55&C=Title",
             "Commentaire de la Neuvième heure de la veille du vendredi",
-            "",
+            "Commentaire de la Neuvième heure de la veille du vendredi",
             "طرح الساعة التاسعة من ليلة الجمعة",
         ],
         [
             Prefix.HolyWeek + "9HECommentary&D=GL55&C=Diacon",
             "",
             "Commentaire\nLorsque notre Sauveur eu fini de parler à ses disciple au sujet de sa passion, voici qu’arrive Judas, l’un des Douze, et avec lui une bande nombreuse armée de glaives et de bâtons avec des soldats envoyés par les scribes et les grands prêtres. Or le traître, le pêcheur, leur avait donné un signe: celui à qui je donnerai un baiser, c’est lui; arrêtez-le. Reconnaissez-le à partir du moment où je ferais ceci.",
-            "طــرح\nلما فرغ كلام المخلص لتلاميذه عن آلامه، جاء واحد من الإثنى عشر الذى هو يهوذا، ومعه جمع بسيوف وعصى وجند من الكتبة و رؤساء الكهنة. وكان الدافع، إبن الشرير، المخالف، المملوء من الآثام قد أعطاهم علامة قائلاً: الذى أُقبله هو هو فإمسكوه، وإعرفوا من ذلك الوقت الذى أصنع به هذا. ",
+            "طــرح\nلما فرغ كلام المخلص لتلاميذه عن آلامه، جاء واحد من الإثنى عشر الذي هو يهوذا، ومعه جمع بسيوف وعصى وجند من الكتبة و رؤساء الكهنة. وكان الدافع، إبن الشرير، المخالف، المملوء من الآثام قد أعطاهم علامة قائلاً: الذي أُقبله هو هو فإمسكوه، وإعرفوا من ذلك الوقت الذي أصنع به هذا. ",
         ],
         [
             Prefix.HolyWeek + "9HECommentary&D=GL55&C=Diacon",
             "",
             "Lorsque je m’en approcherai pour lui parler et lui donner un baiser c’est lui, attrapez le. Il s’approcha de Jésus en disant: «Salut Rabbi!» et il lui donna un baiser. Mais Jésus lui dit: «Ami, comment as-tu osé me donner par un baiser aux nations?» Et voilà qu’un des compagnons de Jésus dégaina rapidement son glaive, frappa le serviteur du Grand Prêtre et lui enleva l’oreille. Alors Jésus lui dit: «Rengaine ton glaive; car celui qui prend le glaive ",
-            "إذا دنوت منه لأقبله وأخاطبه هو هو فإمسكوه. وأتى الى يسوع وقال له: السلام يا معلم. وقبله. فقال له:\n ياصاحب، كيف تجاسرت لأن تسلمنى بقبلة الى الأمم؟\n فأسرع واحد وإستل سيفه وقطع به أذن عبد رئيس الكهنة. فقال يسوع: أردد السيف إلى غمده، فإن الذى يقتل بالسيف",
+            "إذا دنوت منه لأقبله وأخاطبه هو هو فإمسكوه. وأتى إلى يسوع وقال له: السلام يا معلم. وقبله. فقال له:\n ياصاحب، كيف تجاسرت لأن تسلمنى بقبلة إلى الأمم؟\n فأسرع واحد وإستل سيفه وقطع به أذن عبد رئيس الكهنة. فقال يسوع: أردد السيف إلى غمده، فإن الذي يقتل بالسيف",
         ],
         [
             Prefix.HolyWeek + "9HECommentary&D=GL55&C=Diacon",
@@ -7887,7 +7941,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "11HEProphecies&D=GL55&C=Title",
             "Prophecies de la Onzième heure de la veille du vendredi",
-            "",
+            "Prophecies de la Onzième heure de la veille du vendredi",
             "نبوات الساعة الحادية عشر من ليلة الجمعة",
         ],
         [
@@ -7937,7 +7991,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "11HEPsalm&D=GL55&C=Title",
             "Psaume de la Onzième heure de la veille du vendredi",
-            "",
+            "Psaume de la Onzième heure de la veille du vendredi",
             "مزمور الساعة الحادية عشر من ليلة الجمعة",
         ],
         [
@@ -7951,7 +8005,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "11HEGospel&D=GL55&C=Title",
             "Evangile de la Onzième heure de la veille du vendredi",
-            "",
+            "Evangile de la Onzième heure de la veille du vendredi",
             " إنجيل الساعة الحادية عشر من ليلة الجمعة",
         ],
         [
@@ -8000,7 +8054,7 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "11HEGospel&D=GL55&C=Diacon",
             "",
             "et en trois jours j'en rebâtirai un autre qui ne sera pas fait de main d'homme.» Et sur cela même leurs dépositions n'étaient pas d'accord. Se levant alors au milieu, le Grand Prêtre interrogea Jésus: «Tu ne réponds rien? Qu'est-ce que ces gens attestent contre toi?» Mais lui se taisait et ne répondit rien. De nouveau le Grand Prêtre l'interrogeait, et il lui dit: «Tu es le Christ, le Fils du Béni?» Je le suis, dit Jésus, ",
-            "وفي ثلاثة أيام أبنى آخر غير مصنوع بأيد. ولا في هذا ايضاً كانت شهادتهم تتفق. فقام رئيس الكهنة فى الوسط وسأل يسوع قائلاً: أما تجيب بشئ عما يشهد به هؤلاء عليك؟ أما هو فكان ساكتاً ولم يجب بشئ. فسأله رئيس الكهنة أيضأً وقال له : أأنت المسيح ابن المبارك؟ فقال له يسوع: أنا هو، ",
+            "وفي ثلاثة أيام أبنى آخر غير مصنوع بأيد. ولا في هذا ايضاً كانت شهادتهم تتفق. فقام رئيس الكهنة في الوسط وسأل يسوع قائلاً: أما تجيب بشئ عما يشهد به هؤلاء عليك؟ أما هو فكان ساكتاً ولم يجب بشئ. فسأله رئيس الكهنة أيضأً وقال له : أأنت المسيح ابن المبارك؟ فقال له يسوع: أنا هو، ",
         ],
         [
             Prefix.HolyWeek + "11HEGospel&D=GL55&C=Diacon",
@@ -8067,7 +8121,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "11HECommentary&D=GL55&C=Title",
             "Commentaire de la Onzième heure de la veille du vendredi",
-            "",
+            "Commentaire de la Onzième heure de la veille du vendredi",
             "طرح الساعة الحادية عشر من ليلة الجمعة",
         ],
         [
@@ -8099,7 +8153,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "1HDProphecies&D=GL56&C=Title",
             "Prophecies de la Première heure du vendredi",
-            "",
+            "Prophecies de la Première heure du vendredi",
             "نبوات الساعة الأولى من يوم الجمعة",
         ],
         [
@@ -8124,7 +8178,7 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "1HDProphecies&D=GL56&C=Diacon",
             "",
             "que le Seigneur m'a fait entrer en possession de ce pays, alors que c'est en raison de leur perversité que le Seigneur dépossède ces nations à ton profit. Ce n'est pas en raison de ta juste conduite ni de la droiture de ton cœur que tu entres en possession de leur pays, mais c'est en raison de leur perversité que le Seigneur ton Dieu dépossède ces nations à ton profit; et c'est aussi pour tenir la parole qu'il a jurée à tes pères, Abraham, Isaac et Jacob.",
-            "أخرجني الرب لأمتلك هذه الأرض الجيدة، ولأجل إثم هؤلاء الشعوب يبيدهم الرب من أمام وجهك. ليس من أجل برّك وطهارة قلبك تمضي لترث أرضهم، بل ليفي بالعهد الذي أقسم به لآبائك إبراهيم واسحق ويعقوب.",
+            "أخرجني الرب لأمتلك هذه الأرض الجيدة، ولأجل إثم هؤلاء الشعوب يبيدهم الرب من أمام وجهك. ليس من أجل برّك وطهارة قلبك تمضي لترث أرضهم، بل ليفي بالعهد الذي أقسم به لآبائك ابراهيم واسحق ويعقوب.",
         ],
         [
             Prefix.HolyWeek + "1HDProphecies&D=GL56&C=Diacon",
@@ -8196,7 +8250,7 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "1HDProphecies&D=GL56&C=Diacon",
             "Ebolqen Yca`yac piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nNai ne etere P_ jw `èmmwou je bwk `e'oun a petra `ntetenhp thute 'en `pkai. \nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
             "Isaïe 2 : 10-21 \nVa dans le rocher, terre-toi dans la poussière devant la terreur du Seigneur,",
-            "إشعياء ٢ : ١٠ – ٢١ \nهذا ما يقوله الرب: إدخلوا فى الصخور وإختفوا فى الأرض من أمام خوف الرب",
+            "إشعياء ٢ : ١٠ – ٢١ \nهذا ما يقوله الرب: إدخلوا في الصخور وإختفوا في الأرض من أمام خوف الرب",
         ],
         [
             Prefix.HolyWeek + "1HDProphecies&D=GL56&C=Diacon",
@@ -8244,13 +8298,13 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "1HDProphecies&D=GL56&C=Diacon",
             "",
             "Aussi de Jérémie le prophète\nPuis Jérémie dit à Pashehour : Vous étiez en ce temps avec vos pères combattants la vérité et vos enfants commettent après vous un péché plus grand, car ils mettent en vente ce qui n’est pas à eux, ils font du mal au guérisseur des maladies et à celui qui pardonne les iniquités. Ils prennent les trente pièces d’argent, le prix qu’ont estimé les fils d’Israël, ",
-            "وأيضاً من أرميا النبى\nثم قال أرميا لفشحور: إنكم كنتم زماناً مع آبائكم مقاومين للحق وأولادكم الذين يأتون بعدكم، هؤلاء الذين يصنعون خطية أشر منكم، لأنهم يتمنون الذى ليس لهم، ويؤلمون الذى يشفى الأمراض ويغفر الذنوب، ويأخذون الثلاثين من الفضة، الثمن الذى شارط عليه بنى إسرائيل،",
+            "وأيضاً من أرميا النبى\nثم قال أرميا لفشحور: إنكم كنتم زماناً مع آبائكم مقاومين للحق وأولادكم الذين يأتون بعدكم، هؤلاء الذين يصنعون خطية أشر منكم، لأنهم يتمنون الذي ليس لهم، ويؤلمون الذي يشفى الأمراض ويغفر الذنوب، ويأخذون الثلاثين من الفضة، الثمن الذي شارط عليه بنى إسرائيل،",
         ],
         [
             Prefix.HolyWeek + "1HDProphecies&D=GL56&C=Diacon",
             "",
             "et le payent pour le champ du potier. Comme le Seigneur m’a ordonné voici je l’annonce : Ils verront le jugement de la perdition pour toujours et sur leurs enfants car ils ont livré un sang innocent au jugement.\nGloire à la sainte Trinité notre Dieu.",
-            "ويدفعونها فى حقل الفاخورى، كما أمرنى الرب وهكذا أقول، ستأتى عليهم دينونة الهلاك إلى الأبد وعلى أولادهم لأنهم ألقوا دماً ذكياً فى الحكم.\nمجداً للثالوث الأقدس إلهنا آمين",
+            "ويدفعونها في حقل الفاخورى، كما أمرنى الرب وهكذا أقول، ستأتى عليهم دينونة الهلاك إلى الأبد وعلى أولادهم لأنهم ألقوا دماً ذكياً في الحكم.\nمجداً للثالوث الأقدس إلهنا آمين",
         ],
         [
             Prefix.HolyWeek + "1HDProphecies&D=GL56&C=Diacon",
@@ -8334,7 +8388,7 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "1HDProphecies&D=GL56&C=Diacon",
             "",
             "Je leur dis alors: Si cela vous semble bon, donnez-moi mon salaire, sinon n'en faites rien. Ils pesèrent mon salaire: trente sicles d'argent. Le Seigneur me dit: Jette-le au fondeur, ce prix splendide auquel ils m'ont apprécié! Je pris donc les trente sicles d'argent et les jetai à la Maison du Seigneur, pour le fondeur. Puis je mis en morceaux mon deuxième bâton Liens, pour rompre la fraternité entre Juda et Israël.\nGloire à la sainte Trinité notre Dieu.",
-            "أقولها لهم: إن حسن لديكم فأعطوني أجرتي التي قررتموها وإلا فإمتنعوا، فقرروا أجرتى ثلاثين من الفضة. فقال لى الرب: إلقها في الخزانة وإفحص هل هي مختارة مثل ما جربوني بها؟ فأخذت الثلاثين من الفضة وطرحتها داخل بيت الرب في الخزانة، وطرحت العصاة الثانية التي هي حبل القياس لأبعد العزة من بين يهوذا وإسرائيل. \nمجداً للثالوث الأقدس إلهنا آمين ",
+            "أقولها لهم: إن حسن لديكم فأعطوني أجرتي التي قررتموها وإلا فإمتنعوا، فقرروا أجرتى ثلاثين من الفضة. فقال لي الرب: إلقها في الخزانة وإفحص هل هي مختارة مثل ما جربوني بها؟ فأخذت الثلاثين من الفضة وطرحتها داخل بيت الرب في الخزانة، وطرحت العصاة الثانية التي هي حبل القياس لأبعد العزة من بين يهوذا وإسرائيل. \nمجداً للثالوث الأقدس إلهنا آمين ",
         ],
         [
             Prefix.HolyWeek + "1HDProphecies&D=GL56&C=Diacon",
@@ -8377,7 +8431,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "1HDSermony&D=GL56&C=Title",
             "Sermon de  Première heure du vendredi",
-            "",
+            "Sermon de  Première heure du vendredi",
             "عظة لأبينا الساعة الأولى من يوم الجمعة",
         ],
         [
@@ -8408,14 +8462,14 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "1HDSermony&D=GL56&C=Diacon",
             "Marener `c`vragizin `n]katy,ycic `nte peniwt `e;ouab abba Iwannyc pi,rycoctomoc `vyetaferouwini `mpennouc nem nibal `nte nenhyt @ qen `vran `m~Viwt nem ~Psyri nem Pi`pneuma `e;ouab ounou] `nouwt @ `amyn",
             "Clôturons le sermon de notre saint père Abba Jean Chrysostome qui a éclairé nos pensées et les yeux de nos cœurs au nom du Père, du Fils et du Saint Esprit, un seul Dieu, Amen !",
-            "فلنختم عظة أبينا القديس أنبا يوحنا فم الذهب الذى أنار عقولنا وعيون قلوبنا بإسم الآب والإبن والروح القدس إله واحد. آمين.",
+            "فلنختم عظة أبينا القديس أنبا يوحنا فم الذهب الذي أنار عقولنا وعيون قلوبنا بإسم الآب والإبن والروح القدس إله واحد. آمين.",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "1HDPsalm&D=GL56&C=Title",
             "Psaume de la Première heure du vendredi",
-            "",
+            "Psaume de la Première heure du vendredi",
             "مزمور الساعة الأولى من يوم الجمعة",
         ],
         [
@@ -8429,7 +8483,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "1HDGospel&D=GL56&C=Title",
             "Evangile de la Première heure du vendredi",
-            "",
+            "Evangile de la Première heure du vendredi",
             " إنجيل الساعة الأولى من يوم الجمعة",
         ],
         [
@@ -8466,7 +8520,7 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "1HDGospel&D=GL56&C=Diacon",
             "Matqeon  Kev k/z/ > a/-i/d\nEta toou`èi de wpi aueroucosni throu `ènje niarxh`èereuc nem niprecbuteroc `ènte pilaoc 'a Ihc? > wcte `ènce'oqbef > ouo `èetaucon auolf ouo authif `èmPilatoc pihgemwn. Tote `èetafnau `ènje Ioudac vh`èetafthif je auerkatakrinin `èmmof `èetafouem`èqhf > aftacqo `èn;map `ènat a niarxh`èereuc nem niprecbuteroc. Efjw `èmmoc je aiernobi je ai; `ènou`ècnof `èn`èqmhi > `ènqwou de pejwou naf > je `èa'on `èanon `ènqok ek`èerw]i > ouo afborber `ènniat `èe'oun `èepiervei > ouo af]enaf afoj > niarxh`èereuc de `èetausi `ènniat > pejwou je `èc]e nan an `èeitou `èepikorbanon > je `èttimh èè`ènou`ècnof pe.\nEtauer oucosni de au]wp `èebol `èn'htou `èmpiioi `ènte pikerameuc euma`ènqwmc `ènni]emmwou > eqbe vai aumou; `èe`èvran `èmpiioi `èete`èmmau > je piioi `èmpi`ècnof ]a `èe'oun `èevoou. Tote afjwk `èebol `ènje vh`èetafjof `èebol itotf `ènIeremiac piprovhthc efjw `èmmoc je ausi `èn;map `ènat ;timh `ènte vh`èetauertimh `èerof `ènje nen]hri `èm`èpIc/l./ Ouo authitou 'a piioi `èmpikerameuc > kata `èvrh; `èetafouaca\ninhi `ènje P_. \nIhc? de af`èoi `èeratf `èmpe`èmqo `èmpi\\ugemwn ouo af]enf nje pi\\ugemwn efjw `èmmoc> je `ènqok pe `èpouro `ènte niIoudai > Ihc? de pejaf je `ènqok petjw `èmmoc. Ouo 'en `èpjin`èqrou erkathgorin `èerof `ènje niarxh`èereuc nem niprecbuteroc `èmpef`èerou`èw `ènli. Tote peje Pilatoc naf je `èn`èkcwtem an je ceermeqre 'arok `ènouhr > ouo `èmpef`èerou`èw naf `èli `èncaji wcte `èntefer`è]vhri `ènje pi\\ugemwn `èema]o. Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
             "Matthieu 27 : 1-14\nLe matin étant arrivé, tous les grands prêtres et les anciens du peuple tinrent un conseil contre Jésus, en sorte de le faire mourir. Et, après l'avoir ligoté, ils l'emmenèrent et le livrèrent à Pilate le gouverneur. Alors Judas, qui l'avait livré, voyant qu'il avait été condamné, fut pris de remords et rapporta les trente pièces d'argent aux grands prêtres et aux anciens: J'ai péché, dit-il, en livrant un sang innocent.",
-            "متى ٢٧: ١-١٤ \nولما كان الصباح تشاور جميع رؤساء الكهنة وشيوخ الشعب على يسوع لكى يقتلوه، فأوثقوه وأخذوه وأسلموه إلى بيلاطس الوالى. حينئذ لما رأى يهوذا الذي أسلمه أنه قد دين، ندم ورد الثلاثين من الفضة إلى رؤساء الكهنة والشيوخ قائلا: إنى قد أخطأت إذ سلمت دماً ذكيا.",
+            "متى ٢٧: ١-١٤ \nولما كان الصباح تشاور جميع رؤساء الكهنة وشيوخ الشعب على يسوع لِكَي يقتلوه، فأوثقوه وأخذوه وأسلموه إلى بيلاطس الوالى. حينئذ لما رأى يهوذا الذي أسلمه أنه قد دين، ندم ورد الثلاثين من الفضة إلى رؤساء الكهنة والشيوخ قائلا: إنى قد أخطأت إذ سلمت دماً ذكيا.",
         ],
         [
             Prefix.HolyWeek + "1HDGospel&D=GL56&C=Diacon",
@@ -8508,7 +8562,7 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "1HDGospel&D=GL56&C=Diacon",
             "",
             "Vous le dites: je le suis.  Et ils dirent: Qu'avons-nous encore besoin de témoignage? Car nous-mêmes l'avons entendu de sa bouche! Puis toute l'assemblée se leva, et ils l'amenèrent devant Pilate. Ils se mirent alors à l'accuser, en disant: Nous avons trouvé cet homme mettant le trouble dans notre nation, empêchant de payer les impôts à César et se disant Christ Roi. Pilate l'interrogea en disant: Tu es le roi des Juifs?",
-            "أنتم تقولون إنى أنا هو. أما هم فقالوا: ما حاجتنا بعد إلى شهادة، فإننا نحن قد سمعنا من فمه. فقام جمعهم كله وجاءوا به إلى بيلاطس، وطفقوا يشتكون عليه قائلين: إننا وجدنا هذا يفسد أمتنا، ويمنع أن نؤدي الجزية لقيصر قائلاً عن نفسه أنى أنا هو المسيح الملك. فسأله بيلاطس قائلا: أأنت ملك اليهود؟.",
+            "أنتم تقولون إنى أنا هو. أما هم فقالوا: ما حاجتنا بعد إلى شهادة، فإننا نحن قد سمعنا من فمه. فقام جمعهم كله وجاءوا به إلى بيلاطس، وطفقوا يشتكون عليه قائلين: إننا وجدنا هذا يفسد أمتنا، ويمنع أن نؤدي الجزية لقيصر قائلاً عن نفسه أني أنا هو المسيح الملك. فسأله بيلاطس قائلا: أأنت ملك اليهود؟.",
         ],
         [
             Prefix.HolyWeek + "1HDGospel&D=GL56&C=Diacon",
@@ -8544,7 +8598,7 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "1HDGospel&D=GL56&C=Diacon",
             "",
             "Fait?» \nJésus répondit: «Mon royaume n'est pas de ce monde. Si mon royaume était de ce monde, mes gens auraient combattu pour que je ne sois pas livré aux Juifs. Mais mon royaume n'est pas d'ici.» Pilate lui dit: «Donc tu es roi?» Jésus répondit: «Tu le dis: je suis roi. Je ne suis né, et je ne suis venu dans le monde, que pour rendre témoignage à la vérité. Quiconque est de la vérité écoute ma voix.»",
-            "فعلت؟!\nأجاب يسوع: إن مملكتي ليست من هذا العالم. لو كانت مملكتي من هذا العالم لكان خدامي يحاربون عني لكى لا أسلم إلى اليهود. والآن مملكتي ليست من هذا العالم. فقال له بيلاطس: أملك إذن أنت؟! أجاب يسوع: أنت الذي تقول أنى ملك، وأنى أنا لهذا العمل ولدت، ومن أجل هذا أتيت إلى العالم لأشهد للحق. فكل من هو من الحق يسمع صوتى.",
+            "فعلت؟!\nأجاب يسوع: إن مملكتي ليست من هذا العالم. لو كانت مملكتي من هذا العالم لكان خدامي يحاربون عني لِكَي لا أسلم إلى اليهود. والآن مملكتي ليست من هذا العالم. فقال له بيلاطس: أملك إذن أنت؟! أجاب يسوع: أنت الذي تقول أني ملك، وأنى أنا لهذا العمل ولدت، ومن أجل هذا أتيت إلى العالم لأشهد للحق. فكل من هو من الحق يسمع صوتى.",
         ],
         [
             Prefix.HolyWeek + "1HDGospel&D=GL56&C=Diacon",
@@ -8557,7 +8611,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "1HDCommentary&D=GL56&C=Title",
             "Commentaire de la Première heure du vendredi",
-            "",
+            "Commentaire de la Première heure du vendredi",
             "طرح الساعة الأولى من يوم الجمعة",
         ],
         [
@@ -8589,7 +8643,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "3HDProphecies&D=GL56&C=Title",
             "Prophecies de la Troisième heure du vendredi",
-            "",
+            "Prophecies de la Troisième heure du vendredi",
             "نبوات الساعة الثالثة من يوم الجمعة",
         ],
         [
@@ -8626,7 +8680,7 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "3HDProphecies&D=GL56&C=Diacon",
             "",
             "tête de Manassé, en croisant ses mains - en effet Manassé était l'aîné. Il bénit ainsi Joseph: \"Que le Dieu devant qui ont marché mes pères Abraham et Isaac, que le Dieu qui fut mon pasteur depuis que je vis jusqu'à maintenant, que l'Ange qui m'a sauvé de tout mal bénisse ces enfants, que survivent en eux mon nom et le nom de mes ancêtres, Abraham et Isaac, qu'ils croissent et multiplient sur la terre!\" Cependant Joseph vit que son père",
-            "رأس منسي، وخالف يديه. مع أن منسي هو البكر وباركهما، وقال: اللهم الذي أحسن أمامه أبواي إبراهيم وإسحق، الله الذي عالني منذ صباي إلي هذا اليوم، الملاك الذي خلصني من كل شر، يبارك علي هذين الغلامين، ويدعي إسمي عليهما، وإسم أبواي إبراهيم وإسحق، فيكثران كثرة عظيمة علي الأرض. فلما رأي يوسف أن أباه",
+            "رأس منسي، وخالف يديه. مع أن منسي هو البكر وباركهما، وقال: اللهم الذي أحسن أمامه أبواي ابراهيم وإسحق، الله الذي عالني منذ صباي إلي هذا اليوم، الملاك الذي خلصني من كل شر، يبارك علي هذين الغلامين، ويدعي إسمي عليهما، وإسم أبواي ابراهيم وإسحق، فيكثران كثرة عظيمة علي الأرض. فلما رأي يوسف أن أباه",
         ],
         [
             Prefix.HolyWeek + "3HDProphecies&D=GL56&C=Diacon",
@@ -8741,7 +8795,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "3HDSermony&D=GL56&C=Title",
             "Sermon de  Troisième heure du vendredi",
-            "",
+            "Sermon de  Troisième heure du vendredi",
             "عظة لأبينا الساعة الثالثة من يوم الجمعة",
         ],
         [
@@ -8778,14 +8832,14 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "3HDSermony&D=GL56&C=Diacon",
             "Marener `c`vragizin `n]katy,ycic `nte peniwt `e;ouab abba abba A;anacioc pi`apoctolikoc `vyetaferouwini `mpennouc nem nibal `nte nenhyt @ qen `vran `m~Viwt nem ~Psyri nem Pi`pneuma `e;ouab ounou] `nouwt @ `amyn",
             "Clôturons le sermon de notre saint père saint Athanase l'apostolique qui a éclairé nos pensées et les yeux de nos cœurs au nom du Père, du Fils et du Saint Esprit, un seul Dieu, Amen !",
-            "فلنختم عظة أبينا القديس  أنبا أثناسيوس الرسولى الذى أنار عقولنا وعيون قلوبنا بإسم الآب والإبن والروح القدس إله واحد. آمين.",
+            "فلنختم عظة أبينا القديس  أنبا أثناسيوس الرسولى الذي أنار عقولنا وعيون قلوبنا بإسم الآب والإبن والروح القدس إله واحد. آمين.",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "3HDPsalm&D=GL56&C=Title",
             "Psaume de la Troisième heure du vendredi",
-            "",
+            "Psaume de la Troisième heure du vendredi",
             "مزمور الساعة الثالثة من يوم الجمعة",
         ],
         [
@@ -8799,7 +8853,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "3HDGospel&D=GL56&C=Title",
             "Evangile de la Troisième heure du vendredi",
-            "",
+            "Evangile de la Troisième heure du vendredi",
             " إنجيل الساعة الثالثة من يوم الجمعة",
         ],
         [
@@ -8903,7 +8957,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "3HDCommentary&D=GL56&C=Title",
             "Commentaire de la Troisième heure du vendredi",
-            "",
+            "Commentaire de la Troisième heure du vendredi",
             "طرح الساعة الثالثة من يوم الجمعة",
         ],
         [
@@ -8929,7 +8983,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "6HDProphecies&D=GL56&C=Title",
             "Prophecies de la Sixième heure du vendredi",
-            "",
+            "Prophecies de la Sixième heure du vendredi",
             "نبوات الساعة السادسة من يوم الجمعة",
         ],
         [
@@ -9086,32 +9140,32 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "OMonoGuenisHymn&D=GL56&C=Diacon",
             "Omonogenyc `Uioc ke Logoc tou :eou @ (`a;anatoc)=g `upar,wn ke kata dexamenoc @ diatyn `ymeteran cwtyrian @ carkw;yne ek tyc `agiac ;e`otokou ke `a`i (par;enou Mariac)=b.",
-            "Ô Toi Fils Unique de Dieu, Toi le Verbe Immortel de Dieu, Toi qui pour notre salut, acceptas de t’incarner, de mère de Dieu, (toujours Vierge, Sainte Marie)²	",
-            "أومونوجينيس إيوس كى لوغوس توو ثيؤو (أثاناطوس)3 إب أرخون كى كاطا ذيكسامينوس: ذى أتين إيميتران سوتيريان: صاركوثيني تيس أجياس ثيؤتوكو كى أ إى (بارثينو مارياس) ²",
+            "Omonogenyc `Uioc ke Logoc tou :eou @ (`a;anatoc)=g `upar,wn ke kata dexamenoc @ diatyn `ymeteran cwtyrian @ carkw;yne ek tyc `agiac ;e`otokou ke `a`i (par;enou Mariac)=b.",
+            "أومونوجينيس إيوس كي لوغوس توو ثيؤو (أثاناطوس)3 إب أرخون كي كاطا ذيكسامينوس: ذى أتين إيميتران سوتيريان: صاركوثيني تيس أجياس ثيؤتوكو كي أ إى (بارثينو مارياس) ²",
         ],
         [
             Prefix.HolyWeek + "OMonoGuenisHymn&D=GL56&C=Diacon",
             "(Atreptwc)=g  `enan`;rwpicac `o`ctaurw;ic te `<ricte `o :eoc. :anatw ;anaton patycac @ ic wntyc `agiac ~Triadoc @ cun doxa zomenoc tw Patri ke tw `agiw `Pneumati @ cwcon `ymac.",
             "Ô Toi qui sans changement, devins Homme, fus crucifié, ô Christ Dieu ; par la mort vainquit la mort, l’un de la Sainte Trinité, glorifié, avec le Père, et le Saint-Esprit, pitié pour nous.",
-            "(أتريبطوس)3 إنان إثروبيساس أو إسطاﭭروتيس تيه إخريس تى أوثيؤس. ثاناطو ثاناطون باتيساس:يس أون تيس أجياس إترى أذوس:سين ذوكصا زومينوس. طو باترى كى طو أجيو بنيفما تى :سوسون إيماس",
+            "(أتريبطوس)3 إنان إثروبيساس أو إسطاﭭروتيس تيه إخريس تى أوثيؤس. ثاناطو ثاناطون باتيساس:يس أون تيس أجياس إترى أذوس:سين ذوكصا زومينوس. طو باترى كي طو أجيو بنيفما تى :سوسون إيماس",
         ],
         [
             Prefix.HolyWeek + "OMonoGuenisHymn&D=GL56&C=Diacon",
             "(Agioc)=g `o :eoc `odi `ymac an `;rwpoc @ ge gonwc atreptwc ke minac :eoc. Agioc Ic,uroc `o `en ac;enia to `upere,on tyc Ic,uroc `epidixamenoc.",
             "Saint Dieu incarné pour nous, sans hésitation, Lui qui est Dieu. Saint Fort, apparu faible, Lui qui est le plus puissant.",
-            "أجيوس أوثيؤس: أوذى إيماس أن إثروبوس جى غونوس أتريبتوس كى مى ناس ثيؤس أجيوس يسشيروس أو إنا ثنيا طو إي بيريخو تيس يسشيروس إبى ذيكسامينوس",
+            "أجيوس أوثيؤس: أوذى إيماس أن إثروبوس جى غونوس أتريبتوس كي مى ناس ثيؤس أجيوس يسشيروس أو إنا ثنيا طو إي بيريخو تيس يسشيروس إبى ذيكسامينوس",
         ],
         [
             Prefix.HolyWeek + "OMonoGuenisHymn&D=GL56&C=Diacon",
             "Agioc `A;anatoc `o `ctaurw;ic di `ymac @ `oton di`a`ctaurou ;anaton `upominac carki ke dixacuwc ke en ;anatw gegonwc `upar,ic. `A;anatoc. Agia ~Triac `ele`ycon `ymac.",
             "Saint immortel, qui a été crucifié pour nous, a supporté la mort sur la croix, et l’a acceptée dans sa chair, Lui l’Eternel, qui ne meurt pas. Ô Trinité Sainte, pitié pour nous.",
-            "أجيوس أثاناتوس أو إسطاﭭروتيس ذى إيماس أو طون ذى إسطاﭭرو ثاناطون إيبوميناس ساركى كى ذيكساسوس كى إن ثاناطو جى جونوس إيبارشيس أثاناطوس. أجيا ترياس اليسون إيماس",
+            "أجيوس أثاناتوس أو إسطاﭭروتيس ذى إيماس أو طون ذى إسطاﭭرو ثاناطون إيبوميناس ساركى كي ذيكساسوس كي إن ثاناطو جى جونوس إيبارشيس أثاناطوس. أجيا ترياس اليسون إيماس",
         ],
         [
             Prefix.HolyWeek + "OMonoGuenisHymn&D=GL56&C=Diacon",
             "Agioc  o ;eoc @ Agioc Ic,uroc @ Agioc A;anatoc @ o `ctaurw;ic diymac @ eleycon ` ymac\nJe Agioc  o ;eoc @ Agioc Ic,uroc @ Agioc A;anatoc @ o `ctaurw;ic diymac @ eleycon ` ymac\nJe Agioc  o ;eoc @ Agioc Ic,uroc @ Agioc A;anatoc @ o `ctaurw;ic diymac @ eleycon ` ymac",
             "Dieu Saint, Dieu Puissant, Dieu vivant et immortel, crucifié pour nous, aie pitié de nous\nDieu Saint, Dieu Puissant, Dieu vivant et immortel, crucifié pour nous, aie pitié de nous\nDieu Saint, Dieu Puissant, Dieu vivant et immortel, crucifié pour nous, aie pitié de nous",
-            "قدوس الله قدوس القوى قدوس الحى الذى لا يموت، الذى صُلب عنا ارحمنا\nقدوس الله قدوس القوى قدوس الحى الذى لا يموت، الذى صُلب عنا ارحمنا\nقدوس الله قدوس القوى قدوس الحى الذى لا يموت، الذى صُلب عنا ارحمنا",
+            "قدوس الله قدوس القوى قدوس الحى الذي لا يموت، الذي صُلب عنا ارحمنا\nقدوس الله قدوس القوى قدوس الحى الذي لا يموت، الذي صُلب عنا ارحمنا\nقدوس الله قدوس القوى قدوس الحى الذي لا يموت، الذي صُلب عنا ارحمنا",
         ],
         [
             Prefix.HolyWeek + "OMonoGuenisHymn&D=GL56&C=Diacon",
@@ -9124,7 +9178,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "6HDPsalm&D=GL56&C=Title",
             "Psaume de la Sixième heure du vendredi",
-            "",
+            "Psaume de la Sixième heure du vendredi",
             "مزمور الساعة السادسة من يوم الجمعة",
         ],
         [
@@ -9138,7 +9192,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "6HDGospel&D=GL56&C=Title",
             "Evangile de la Sixième heure du vendredi",
-            "",
+            "Evangile de la Sixième heure du vendredi",
             " إنجيل الساعة السادسة من يوم الجمعة",
         ],
         [
@@ -9248,7 +9302,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "6HDCommentary&D=GL56&C=Title",
             "Commentaire de la Sixième heure du vendredi",
-            "",
+            "Commentaire de la Sixième heure du vendredi",
             "طرح الساعة السادسة من يوم الجمعة",
         ],
         [
@@ -9305,7 +9359,7 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "EfnotiNayNanRefrain&D=GL56&C=Diacon",
             "",
             "Fnou] nai nan ;es ounai `eron `ari ounai neman qen tekmetouro",
-            "يا الله إرحمنا، قرر لنا رحمة، إصنع معنا رحمة فى ملكوتك.",
+            "يا الله إرحمنا، قرر لنا رحمة، إصنع معنا رحمة في ملكوتك.",
         ],
     ],
     [
@@ -9332,19 +9386,19 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "6HDConfessionOfDimas&D=GL56&C=Diacon",
             "",
             "Souviens-Toi de moi, Seigneur, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Saint, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Maître, quand Tu viendras dans Ton Royaume.",
-            "اذكرنى يارب متى جئت فى ملكوتك.\nاذكرني يا قدوس متى جئت فى ملكوتك.\nاذكرني يا سيد متى جئت فى ملكوتك.",
+            "اذكرنى يارب متى جئت في ملكوتك.\nاذكرني يا قدوس متى جئت في ملكوتك.\nاذكرني يا سيد متى جئت في ملكوتك.",
         ],
         [
             Prefix.HolyWeek + "6HDConfessionOfDimas&D=GL56&C=Diacon",
             "",
             "Ô Roi des rois, le Christ notre Dieu et Seigneur des seigneurs, comme Tu t’es souvenu du larron qui a cru en Toi sur la croix, souviens-Toi de nous dans Ton royaume.",
-            "يا ملك الملوك المسيح إلهنا ورب الأرباب كما ذكرت اللص الذي آمن بك على الصليب، اذكرنا فى ملكوتك",
+            "يا ملك الملوك المسيح إلهنا ورب الأرباب كما ذكرت اللص الذي آمن بك على الصليب، اذكرنا في ملكوتك",
         ],
         [
             Prefix.HolyWeek + "6HDConfessionOfDimas&D=GL56&C=Diacon",
             "",
             "Souviens-Toi de moi, Seigneur, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Saint, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Maître, quand Tu viendras dans Ton Royaume.",
-            "اذكرنى يارب متى جئت فى ملكوتك.\nاذكرني يا قدوس متى جئت فى ملكوتك.\nاذكرني يا سيد متى جئت فى ملكوتك.",
+            "اذكرنى يارب متى جئت في ملكوتك.\nاذكرني يا قدوس متى جئت في ملكوتك.\nاذكرني يا سيد متى جئت في ملكوتك.",
         ],
         [
             Prefix.HolyWeek + "6HDConfessionOfDimas&D=GL56&C=Diacon",
@@ -9356,7 +9410,7 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "6HDConfessionOfDimas&D=GL56&C=Diacon",
             "",
             "Souviens-Toi de moi, Seigneur, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Saint, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Maître, quand Tu viendras dans Ton Royaume.",
-            "اذكرنى يارب متى جئت فى ملكوتك.\nاذكرني يا قدوس متى جئت فى ملكوتك.\nاذكرني يا سيد متى جئت فى ملكوتك.",
+            "اذكرنى يارب متى جئت في ملكوتك.\nاذكرني يا قدوس متى جئت في ملكوتك.\nاذكرني يا سيد متى جئت في ملكوتك.",
         ],
         [
             Prefix.HolyWeek + "6HDConfessionOfDimas&D=GL56&C=Diacon",
@@ -9368,7 +9422,7 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "6HDConfessionOfDimas&D=GL56&C=Diacon",
             "",
             "Souviens-Toi de moi, Seigneur, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Saint, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Maître, quand Tu viendras dans Ton Royaume.",
-            "اذكرنى يارب متى جئت فى ملكوتك.\nاذكرني يا قدوس متى جئت فى ملكوتك.\nاذكرني يا سيد متى جئت فى ملكوتك.",
+            "اذكرنى يارب متى جئت في ملكوتك.\nاذكرني يا قدوس متى جئت في ملكوتك.\nاذكرني يا سيد متى جئت في ملكوتك.",
         ],
         [
             Prefix.HolyWeek + "6HDConfessionOfDimas&D=GL56&C=Diacon",
@@ -9380,7 +9434,7 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "6HDConfessionOfDimas&D=GL56&C=Diacon",
             "",
             "Souviens-Toi de moi, Seigneur, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Saint, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Maître, quand Tu viendras dans Ton Royaume.",
-            "اذكرنى يارب متى جئت فى ملكوتك.\nاذكرني يا قدوس متى جئت فى ملكوتك.\nاذكرني يا سيد متى جئت فى ملكوتك.",
+            "اذكرنى يارب متى جئت في ملكوتك.\nاذكرني يا قدوس متى جئت في ملكوتك.\nاذكرني يا سيد متى جئت في ملكوتك.",
         ],
         [
             Prefix.HolyWeek + "6HDConfessionOfDimas&D=GL56&C=Diacon",
@@ -9392,19 +9446,19 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "6HDConfessionOfDimas&D=GL56&C=Diacon",
             "",
             "Souviens-Toi de moi, Seigneur, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Saint, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Maître, quand Tu viendras dans Ton Royaume.",
-            "اذكرنى يارب متى جئت فى ملكوتك.\nاذكرني يا قدوس متى جئت فى ملكوتك.\nاذكرني يا سيد متى جئت فى ملكوتك.",
+            "اذكرنى يارب متى جئت في ملكوتك.\nاذكرني يا قدوس متى جئت في ملكوتك.\nاذكرني يا سيد متى جئت في ملكوتك.",
         ],
         [
             Prefix.HolyWeek + "6HDConfessionOfDimas&D=GL56&C=Diacon",
             "",
             "Tu n’as pas vu le Christ Dieu transfiguré sur le mont Thabor dans la gloire de Son Père ; mais tu L’as vu suspendu au calvaire. Immédiatement tu as crié en disant :",
-            "ما رأيت المسيح الإله متجلياً على طور طابور فى مجد أبيه بل رأيته معلقاً على الاقرانيون فلوقتك صرخت قائلاً:",
+            "ما رأيت المسيح الإله متجلياً على طور طابور في مجد أبيه بل رأيته معلقاً على الاقرانيون فلوقتك صرخت قائلاً:",
         ],
         [
             Prefix.HolyWeek + "6HDConfessionOfDimas&D=GL56&C=Diacon",
             "",
             "Souviens-Toi de moi, Seigneur, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Saint, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Maître, quand Tu viendras dans Ton Royaume.",
-            "اذكرنى يارب متى جئت فى ملكوتك.\nاذكرني يا قدوس متى جئت فى ملكوتك.\nاذكرني يا سيد متى جئت فى ملكوتك.",
+            "اذكرنى يارب متى جئت في ملكوتك.\nاذكرني يا قدوس متى جئت في ملكوتك.\nاذكرني يا سيد متى جئت في ملكوتك.",
         ],
         [
             Prefix.HolyWeek + "6HDConfessionOfDimas&D=GL56&C=Diacon",
@@ -9416,31 +9470,31 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "6HDConfessionOfDimas&D=GL56&C=Diacon",
             "",
             "Souviens-Toi de moi, Seigneur, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Saint, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Maître, quand Tu viendras dans Ton Royaume.",
-            "اذكرنى يارب متى جئت فى ملكوتك.\nاذكرني يا قدوس متى جئت فى ملكوتك.\nاذكرني يا سيد متى جئت فى ملكوتك.",
+            "اذكرنى يارب متى جئت في ملكوتك.\nاذكرني يا قدوس متى جئت في ملكوتك.\nاذكرني يا سيد متى جئت في ملكوتك.",
         ],
         [
             Prefix.HolyWeek + "6HDConfessionOfDimas&D=GL56&C=Diacon",
             "",
             "En vérité, en vérité je te le dis, répondis le Seigneur, ô larron, aujourd’hui tu seras avec moi dans mon paradis et tu hériteras de mon Royaume. Le disciple a renié le Christ et le larron a crié en disant :",
-            "الحق الحق اقول لك قال الرب، أيها اللص إنك انت اليوم تكون معى فى فردوسى وترث ملكوتي. التلميذ أنكر واللص صرخ قائلاً:",
+            "الحق الحق اقول لك قال الرب، أيها اللص إنك انت اليوم تكون مَعِي في فردوسى وترث ملكوتي. التلميذ أنكر واللص صرخ قائلاً:",
         ],
         [
             Prefix.HolyWeek + "6HDConfessionOfDimas&D=GL56&C=Diacon",
             "",
             "Souviens-Toi de moi, Seigneur, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Saint, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Maître, quand Tu viendras dans Ton Royaume.",
-            "اذكرنى يارب متى جئت فى ملكوتك.\nاذكرني يا قدوس متى جئت فى ملكوتك.\nاذكرني يا سيد متى جئت فى ملكوتك.",
+            "اذكرنى يارب متى جئت في ملكوتك.\nاذكرني يا قدوس متى جئت في ملكوتك.\nاذكرني يا سيد متى جئت في ملكوتك.",
         ],
         [
             Prefix.HolyWeek + "6HDConfessionOfDimas&D=GL56&C=Diacon",
             "",
             "Heureux es-tu Dimas le larron, plus que tous ceux qui sont sur la terre, tu as obtenu une possibilité que nul n’a eue. Toute ta vie tu as été larron dans la région de Jérusalem. Un seul mot tu as dit au Seigneur et Il t’a mené au paradis.",
-            "طوباك أنت يا ديماس اللص أكثر من كل من على الأرض لأنك نلت وسيلة لم ينلها أحد قط كل زمانك كنت لصاً فى غابات أورشليم وبكلمة واحدة قلتها للرب ارسلك إلى الفردوس",
+            "طوباك أنت يا ديماس اللص أكثر من كل من على الأرض لأنك نلت وسيلة لم ينلها أحد قط كل زمانك كنت لصاً في غابات أورشليم وبكلمة واحدة قلتها للرب ارسلك إلى الفردوس",
         ],
         [
             Prefix.HolyWeek + "6HDConfessionOfDimas&D=GL56&C=Diacon",
             "",
             "Souviens-Toi de moi, Seigneur, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Saint, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Maître, quand Tu viendras dans Ton Royaume.",
-            "اذكرنى يارب متى جئت فى ملكوتك.\nاذكرني يا قدوس متى جئت فى ملكوتك.\nاذكرني يا سيد متى جئت فى ملكوتك.",
+            "اذكرنى يارب متى جئت في ملكوتك.\nاذكرني يا قدوس متى جئت في ملكوتك.\nاذكرني يا سيد متى جئت في ملكوتك.",
         ],
         [
             Prefix.HolyWeek + "6HDConfessionOfDimas&D=GL56&C=Diacon",
@@ -9452,43 +9506,43 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "6HDConfessionOfDimas&D=GL56&C=Diacon",
             "",
             "Souviens-Toi de moi, Seigneur, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Saint, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Maître, quand Tu viendras dans Ton Royaume.",
-            "اذكرنى يارب متى جئت فى ملكوتك.\nاذكرني يا قدوس متى جئت فى ملكوتك.\nاذكرني يا سيد متى جئت فى ملكوتك.",
+            "اذكرنى يارب متى جئت في ملكوتك.\nاذكرني يا قدوس متى جئت في ملكوتك.\nاذكرني يا سيد متى جئت في ملكوتك.",
         ],
         [
             Prefix.HolyWeek + "6HDConfessionOfDimas&D=GL56&C=Diacon",
             "",
             "Notre Sauveur lui répondit : Ce jour tu seras avec moi dans mon paradis et tu t’y réjouiras.",
-            "قال له مخلصنا إنك اليوم تكون معى فى فردوسى وتتنعم فيه.",
+            "قال له مخلصنا إنك اليوم تكون مَعِي في فردوسى وتتنعم فيه.",
         ],
         [
             Prefix.HolyWeek + "6HDConfessionOfDimas&D=GL56&C=Diacon",
             "",
             "Souviens-Toi de moi, Seigneur, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Saint, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Maître, quand Tu viendras dans Ton Royaume.",
-            "اذكرنى يارب متى جئت فى ملكوتك.\nاذكرني يا قدوس متى جئت فى ملكوتك.\nاذكرني يا سيد متى جئت فى ملكوتك.",
+            "اذكرنى يارب متى جئت في ملكوتك.\nاذكرني يا قدوس متى جئت في ملكوتك.\nاذكرني يا سيد متى جئت في ملكوتك.",
         ],
         [
             Prefix.HolyWeek + "6HDConfessionOfDimas&D=GL56&C=Diacon",
             "",
             "Nous implorons Celui qui a été élevé sur le bois de la croix, a versé son sang divin pour nous, a anéanti la mort par Sa Mort, de nous remettre nos péchés, de préserver la vie de notre père le patriarche le pape Anba (…), ainsi que la vie notre père l’évêque Anba (…), et de protéger mes pères réunis dans cette église du plus petit au plus grand. Dites tous (Amen!)3",
-            "ونحن نطلب إلى الذى رفع على خشبة الصليب وبذل دمه الإلهى عنا وابطل الموت بموته أن يغفر خطايانا ويحفظ لنا حياة الآب البطريرك البابا) …(  و أبينا الأسقف الأنبا )…( وسادتى الآباء المجتمعين فى هذه البيعة من صغيرهم إلى كبيرهم قولوا كلكم (آمين)3",
+            "ونحن نطلب إلى الذي رفع على خشبة الصليب وبذل دمه الإلهى عنا وابطل الموت بموته أن يغفر خطايانا ويحفظ لنا حياة الآب البطريرك البابا) …(  و أبينا الأسقف الأنبا )…( وسادتى الآباء المجتمعين في هذه البيعة من صغيرهم إلى كبيرهم قولوا كلكم (آمين)3",
         ],
         [
             Prefix.HolyWeek + "6HDConfessionOfDimas&D=GL56&C=Diacon",
             "Wouniatk `n;ok `w Dymac piconi @ para ouon niben ethijen pikahi @ je aksasni `n;ok @ `eoueu Kuri`e `mpeouai sasni `erof `eneh.\nAkerpekcyou tyrf @ ekoi `nconi hipiiah `ssyn `nte Ieroucalym @ oucaji `nouwt akjof `mP=o=c @ afouorpk `epiparadicoc.",
             "Heureux es-tu Dimas le larron parmi ceux qui sont sur la terre car tu as reçu le chemin que personne n’a reçu.\nToute ta vie tu fus larron dans la forêt de Jérusalem, et une seule parole tu dis au Seigneur et Il t’envoya au paradis.",
-            "طوباك أنت يا ديماس اللص أكثر من كل من على الأرض لأنك نلت وسيلة لم ينلها أحد قط\nكل زمانك أقمت لصاً فى غابات أورشليم وكلمة واحدة قلت للرب فارسلك إلى الفردوس",
+            "طوباك أنت يا ديماس اللص أكثر من كل من على الأرض لأنك نلت وسيلة لم ينلها أحد قط\nكل زمانك أقمت لصاً في غابات أورشليم وكلمة واحدة قلت للرب فارسلك إلى الفردوس",
         ],
         [
             Prefix.HolyWeek + "6HDConfessionOfDimas&D=GL56&C=Diacon",
             "Acswpi `etau`isi `mPencwtyr @ `ejen pise `nte pi`ctauroc @ au`isi nemaf `nconi `cnau  @ caou`inam nem caja[i `mmof.\nAfws `ebol `nje Dymac piconi @ etcaou`inam afjw `mmoc @ je `aripameu`i `w Pa=o=c @ aksan`i qen tekmetouro.",
             "Quand notre Sauveur fut crucifié, sur le bois de la croix, ils crucifièrent avec lui deux larrons, à sa droite et à sa gauche.\nDimas le larron à sa droite s’écria en disant “Souviens-Toi de moi, Seigneur, quand Tu viendras dans Ton Royaume.”",
-            "كان لما صلب مخلصنا على خشبة الصليب، صلبوا معه لصين عن يمينه ويساره.\nفصرخ ديماس اللص اليمين قائلاً: اذكرنى يارب متى جئت فى ملكوتك.",
+            "كان لما صلب مخلصنا على خشبة الصليب، صلبوا معه لصين عن يمينه ويساره.\nفصرخ ديماس اللص اليمين قائلاً: اذكرنى يارب متى جئت في ملكوتك.",
         ],
         [
             Prefix.HolyWeek + "6HDConfessionOfDimas&D=GL56&C=Diacon",
             "Pejaf naf `nje Pencwtyr @ je `mvoou ek`eswpi nemyi @ `n`hryi qen piparadicoc @ `ntekounof `mmok `nqytf.\n`Ere vy`etaf `aly`i `ejen pise `nte pi`ctauroc @ af] `mpef`cnof `nnou] qaron @ afkwrf `m`vmou hiten pefmou @ `m`p,w `ebol `nte nennobi.",
             "\nNotre Sauveur lui répondit, “Aujourd’hui, tu seras avec moi au paradis et t’y seras comblé.”\nNous demandons à celui qui fut élevé sur le bois de la croix, a versé son sang divin pour nous, et a écrasé la mort, de nous pardonner nos péchés.",
-            "قال له مخلصنا انك اليوم تكون معى فى فردوسى وتتنعم فيه.\nونحن نطلب إلى الذى رفع على خشبة الصليب وبذل دمه الإلهى عنا وابطل الموت بموته أن يغفر خطايانا.",
+            "قال له مخلصنا انك اليوم تكون مَعِي في فردوسى وتتنعم فيه.\nونحن نطلب إلى الذي رفع على خشبة الصليب وبذل دمه الإلهى عنا وابطل الموت بموته أن يغفر خطايانا.",
         ],
         [
             Prefix.HolyWeek + "6HDConfessionOfDimas&D=GL56&C=Diacon",
@@ -9501,7 +9555,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "9HDProphecies&D=GL56&C=Title",
             "Prophecies de la Neuvième heure du vendredi",
-            "",
+            "Prophecies de la Neuvième heure du vendredi",
             "نبوات الساعة التاسعة من يوم الجمعة",
         ],
         [
@@ -9601,7 +9655,7 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "9HDStPaul&D=GL56&C=Diacon",
             "",
             "Epitre de Saint Paul aux \nPhilippiens 2 : 5-11\nAyez entre vous les mêmes sentiments qui sont dans le Christ Jésus : Lui, de condition divine, ne retint pas jalousement le rang qui l'égalait à Dieu.  Mais il s'anéantit lui-même, prenant condition d'esclave, et devenant semblable aux hommes. S'étant comporté comme un homme, il s'humilia plus encore, obéissant jusqu'à la mort, et à la mort sur une croix !",
-            "فيلبي ٢ : ٤– ١١\nلا ينظر أحد إلى ما هو لنفسه بل فلينظر كل واحد إلى ما هو لغيره أيضاً. فليكن فيكم هذا الفكر الذي في المسيح يسوع أيضاً، الذي اذ هو فى صورة الله لم يكن يحسب خلسة أن يكون مساوياً لله، لكنه وضع ذاته آخذاً صورة عبد، صائراً في شبه الناس، وإذ وجد في الهيئة كإنسان، وضع ذاته وأطاع حتي الموت، موت الصليب،",
+            "فيلبي ٢ : ٤– ١١\nلا ينظر أحد إلى ما هو لنفسه بل فلينظر كل واحد إلى ما هو لغيره أيضاً. فليكن فيكم هذا الفكر الذي في المسيح يسوع أيضاً، الذي اذ هو في صورة الله لم يكن يحسب خلسة أن يكون مساوياً لله، لكنه وضع ذاته آخذاً صورة عبد، صائراً في شبه الناس، وإذ وجد في الهيئة كإنسان، وضع ذاته وأطاع حتي الموت، موت الصليب،",
         ],
         [
             Prefix.HolyWeek + "9HDStPaul&D=GL56&C=Diacon",
@@ -9614,7 +9668,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "9HDPsalm&D=GL56&C=Title",
             "Psaume de la Neuvième heure du vendredi",
-            "",
+            "Psaume de la Neuvième heure du vendredi",
             "مزمور الساعة التاسعة من يوم الجمعة",
         ],
         [
@@ -9628,7 +9682,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "9HDGospel&D=GL56&C=Title",
             "Evangile de la Neuvième heure du vendredi",
-            "",
+            "Evangile de la Neuvième heure du vendredi",
             " إنجيل الساعة التاسعة من يوم الجمعة",
         ],
         [
@@ -9678,7 +9732,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "9HDCommentary&D=GL56&C=Title",
             "Commentaire de la Neuvième heure du vendredi",
-            "",
+            "Commentaire de la Neuvième heure du vendredi",
             "طرح الساعة التاسعة من يوم الجمعة",
         ],
         [
@@ -9722,7 +9776,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "11HDProphecies&D=GL56&C=Title",
             "Prophecies de la Onzième heure du vendredi",
-            "",
+            "Prophecies de la Onzième heure du vendredi",
             "نبوات الساعة الحادية عشر من يوم الجمعة",
         ],
         [
@@ -9784,7 +9838,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "11HDSermony&D=GL56&C=Title",
             "Sermon de  Onzième heure du vendredi",
-            "",
+            "Sermon de  Onzième heure du vendredi",
             "عظة لأبينا الساعة الحادية عشر من يوم الجمعة",
         ],
         [
@@ -9797,7 +9851,7 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "11HDSermony&D=GL56&C=Diacon",
             "",
             "Sermon de notre père saint Athanase l'apostolique que sa sainte bénédiction repose sur nous tous. Amen !\nAinsi il est écrit dans les livres : si nos âmes sont liées à la Loi de Dieu les forces des ténèbres ne pourront rien contre elles. Si nous nous éloignons de Dieu, ces forces des ténèbres nous domineront. Toi, qui veux être sauvé, apprends à nager dans la mer de la richesse et de la sagesse de Dieu. ",
-            "عظة لأبينا القديس أنبا أثناسيوس الرسولى، بركته المقدسة تكون معنا. آمين.\nمكتوب فى الكتب هكذا أن نفوسنا إذا كانت مرتبطة بناموس الله فلن تقوى علينا قوات الظلمة. وإذا ابتعدنا عن الله فهي تتسلط علينا. فأنت أيها الانسان الذي تريد أن تخلص علم ذاتك أن تسبح فى لجة غنى وحكمة الله.",
+            "عظة لأبينا القديس أنبا أثناسيوس الرسولى، بركته المقدسة تكون معنا. آمين.\nمكتوب في الكتب هكذا أن نفوسنا إذا كانت مرتبطة بناموس الله فلن تقوى علينا قوات الظلمة. وإذا ابتعدنا عن الله فهي تتسلط علينا. فأنت أيها الانسان الذي تريد أن تخلص علم ذاتك أن تسبح في لجة غنى وحكمة الله.",
         ],
         [
             Prefix.HolyWeek + "11HDSermony&D=GL56&C=Diacon",
@@ -9815,7 +9869,7 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "11HDSermony&D=GL56&C=Diacon",
             "",
             "grâce au signe de la croix. De même Suzanne a été sauvée de la main des deux vieillards. Judith a été sauvée des mains de Holopherne et les trois jeunes saints du feu ardent. Tous ont été sauvés par le signe de la croix. Il est dit aussi que ta seule demeure c’est l'Eglise. C’est le seul lieu où tu trouveras la consolation par ce qui est écrit dans les livres, par le pain céleste et par le sang du Christ. Console-toi en permanence par les paroles des Ecritures.",
-            "بمثال الصليب. وسوسنة من يدي الشيخين ويهوديت من يد الوفرنيس. والثلاثة فتية القديسون. من اتون النار المتقدة. هؤلاء كلهم خلصوا بمثال الصليب وقيل ايضا ليكن مستقرك فى موضع واحد الذي هو الكنيسة لتتغذي بكلام الكتب، ومن الخبز السمائى، ومن دم المسيح وتتعزى كل حين من كلام الكتب.",
+            "بمثال الصليب. وسوسنة من يدي الشيخين ويهوديت من يد الوفرنيس. والثلاثة فتية القديسون. من اتون النار المتقدة. هؤلاء كلهم خلصوا بمثال الصليب وقيل ايضا ليكن مستقرك في موضع واحد الذي هو الكنيسة لتتغذي بكلام الكتب، ومن الخبز السمائى، ومن دم المسيح وتتعزى كل حين من كلام الكتب.",
         ],
         [
             Prefix.HolyWeek + "11HDSermony&D=GL56&C=Diacon",
@@ -9827,14 +9881,14 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "11HDSermony&D=GL56&C=Diacon",
             "Marener `c`vragizin `n]katy,ycic `nte peniwt `e;ouab abba A;anacioc pi`apoctolikoc `vyetaferouwini `mpennouc nem nibal `nte nenhyt @ qen `vran `m~Viwt nem ~Psyri nem Pi`pneuma `e;ouab ounou] `nouwt @ `amyn",
             "Clôturons le sermon de notre saint père Abba Athanase l’apostolique qui a éclairé nos pensées et les yeux de nos cœurs au nom du Père, du Fils et du Saint Esprit, un seul Dieu, Amen !",
-            "فلنختم عظة أبينا القديس أنبا أثناسيوس الرسولى الذى أنار عقولنا وعيون قلوبنا بإسم الآب والإبن والروح القدس إله واحد. آمين.",
+            "فلنختم عظة أبينا القديس أنبا أثناسيوس الرسولى الذي أنار عقولنا وعيون قلوبنا بإسم الآب والإبن والروح القدس إله واحد. آمين.",
         ],
     ],
     [
         [
             Prefix.HolyWeek + "11HDPsalm&D=GL56&C=Title",
             "Psaume de la Onzième heure du vendredi",
-            "",
+            "Psaume de la Onzième heure du vendredi",
             "مزمور الساعة الحادية عشر من يوم الجمعة",
         ],
         [
@@ -9848,7 +9902,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "11HDGospel&D=GL56&C=Title",
             "Evangile de la Onzième heure du vendredi",
-            "",
+            "Evangile de la Onzième heure du vendredi",
             " إنجيل الساعة الحادية عشر من يوم الجمعة",
         ],
         [
@@ -9904,7 +9958,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "11HDCommentary&D=GL56&C=Title",
             "Commentaire de la Onzième heure du vendredi",
-            "",
+            "Commentaire de la Onzième heure du vendredi",
             "طرح الساعة الحادية عشر من يوم الجمعة",
         ],
         [
@@ -9936,7 +9990,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "12HDProphecies&D=GL56&C=Title",
             "Prophecies de la Douzième heure du vendredi",
-            "",
+            "Prophecies de la Douzième heure du vendredi",
             "نبوات الساعة الثانية عشر من يوم الجمعة",
         ],
         [
@@ -10058,7 +10112,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "12HDPsalm&D=GL56&C=Title",
             "Psaume de la Douzième heure du vendredi",
-            "",
+            "Psaume de la Douzième heure du vendredi",
             "مزمور الساعة الثانية عشر من يوم الجمعة",
         ],
         [
@@ -10072,7 +10126,7 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "12HDGospel&D=GL56&C=Title",
             "Evangile de la Douzième heure du vendredi",
-            "",
+            "Evangile de la Douzième heure du vendredi",
             " إنجيل الساعة الثانية عشر من يوم الجمعة",
         ],
         [
@@ -10134,26 +10188,26 @@ ReadingsArrays.GospelNightArrayFR = [[
         [
             Prefix.HolyWeek + "12HDCommentary&D=GL56&C=Title",
             "Commentaire de la Douzième heure du vendredi",
-            "",
+            "Commentaire de la Douzième heure du vendredi",
             "طرح الساعة الثانية عشر من يوم الجمعة",
         ],
         [
             Prefix.HolyWeek + "12HDCommentary&D=GL56&C=Diacon",
             "",
             "Commentaire\nLe soir de ce jour, le vendredi de la grande fête, la veille du sabbat, vint un homme riche nommé Joseph. Il était écouté, connaissant la Loi. Un autre homme nommé Nicodème, bienheureux et aimant Dieu, vint avec lui. Joseph et ses ascendants s'occupaient des corps des saints. Il demanda à Pilate le corps de Dieu le Verbe, l'unique par sa nature. Pilate demanda s'il était mort et fut très surpris de la réponse. Il ordonna au",
-            "طــرح\nوفى عشية ذلك اليوم الذى هو جمعة العيد العظيم. الذى يأتي قبل السبت الذى هو لسر السيد. جاء إنسان غنى اسمه يوسف وكان ذا رأى يعرف الناموس. وإنسان آخر يسمى نيقوديموس طوباوي محب للإله. وكان يوسف هذا هو وآباؤه يهتمون بأجساد القديسين. فأتى إلى بيلاطس وسأله عن جسد الإله الكلمة الوحيد الجنس. فاستفهم منه هل مات فتعجب الوالى جداً. وهكذا أمر",
+            "طــرح\nوفى عشية ذلك اليوم الذي هو جمعة العيد العظيم. الذي يأتي قبل السبت الذي هو لسر السيد. جاء إنسان غنى اسمه يوسف وكان ذا رأى يعرف الناموس. وإنسان آخر يسمى نيقوديموس طوباوي محب للإله. وكان يوسف هذا هو وآباؤه يهتمون بأجساد القديسين. فأتى إلى بيلاطس وسأله عن جسد الإله الكلمة الوحيد الجنس. فاستفهم منه هل مات فتعجب الوالى جداً. وهكذا أمر",
         ],
         [
             Prefix.HolyWeek + "12HDCommentary&D=GL56&C=Diacon",
             "",
             "centurion de lui remettre le corps de Jésus. Le juste, à la bonne influence, prit donc le corps et s'en occupa. Il se procura des linges propres et doux, comme il convient pour le Fils de Dieu. Nicodème apporta aussi une grande quantité d'aromates précieux, environ cent livres. Ils l'ensevelirent selon la coutume des hébreux et versèrent les aromates sur son Corps. Il y avait dans le jardin un tombeau neuf qui n'avait jamais servi.",
-            "قائد المائة بأن يعطوه جسد يسوع. فأخذ صاحب المشورة الصالحة الصديق الجسد واهتم به. وأحضر أكفاناً ناعمة نقية كما يليق بإبن الله. وأحضر أيضاً نيقوديموس أطياباً كثيرة الثمن نحو مائة رطل طيب. وهكذا كفنوه كعادة العبرانيين ووضعوا الطيب على المبارك. وكان قبر جديد فى البستان طاهراً نقياً لم يوضع أحداً فيه.",
+            "قائد المائة بأن يعطوه جسد يسوع. فأخذ صاحب المشورة الصالحة الصديق الجسد واهتم به. وأحضر أكفاناً ناعمة نقية كما يليق بإبن الله. وأحضر أيضاً نيقوديموس أطياباً كثيرة الثمن نحو مائة رطل طيب. وهكذا كفنوه كعادة العبرانيين ووضعوا الطيب على المبارك. وكان قبر جديد في البستان طاهراً نقياً لم يوضع أحداً فيه.",
         ],
         [
             Prefix.HolyWeek + "12HDCommentary&D=GL56&C=Diacon",
             "",
             "Ils y déposèrent le corps du Fils unique. Puis ils roulèrent une pierre à l’entrée du tombeau et se tinrent au repos selon le précepte, à cause du sabbat. Des femmes se tenaient là. Elles virent ce qui avait été fait. Il y avait là Marie de Magdala et l'autre Marie. Elles surent vraiment où il avait été déposé.",
-            "فوضعوا جسد الوحيد فى ذلك القبر وتركوا حجراً عليه. فاستراحوا كالوصية من أجل السبت صنعوا هكذا. وكن نسوة واقفات ينظرن ما كان. مريم المجدلية ومريم الأخرى علمن جيدا أين وضع.",
+            "فوضعوا جسد الوحيد في ذلك القبر وتركوا حجراً عليه. فاستراحوا كالوصية من أجل السبت صنعوا هكذا. وكن نسوة واقفات ينظرن ما كان. مريم المجدلية ومريم الأخرى علمن جيدا أين وضع.",
         ],
     ],
     [
@@ -10168,7 +10222,7 @@ ReadingsArrays.GospelNightArrayFR = [[
             Prefix.HolyWeek + "12HDGolghosaHymn&D=GL56&C=Diacon",
             "dgJolgo;a `mmet hebreoc @ pi`kranion `mmetoueinin @ pimaetauask P=o=c `nqytf @ akvwrs `nnekjij `ebol af`isi nemak `nkeconi `cnau @ catekou`inam nem catekjat[y @ `n;ok ek,y qen toumy] `w picwtyr `naga;oc.",
             "Le Golgotha en hébreu, le Lieu du Crâne en grec, ce lieu où Tu as été crucifié Seigneur. Tu as étendu tes mains. Et ils crucifièrent avec Toi 2 larrons : à Ta droite et à Ta gauche, et Toi en leur milieu, ô bon Sauveur.",
-            "غولغوثا إمميت هيفرى أوش : بي إكرانيون إمميت أو إينين : بي ما إيطاف أشك إبشويس إنخيتف : أك فورش إن نيك جيج إيفول : أف إيشي نيماك إن كى سوني إسناف صا تيك أوي نام  نيم صا تيك جاتشي : إنثوك إك كي خين توميتي أو بي سوتير إن آغاثوس.",
+            "غولغوثا إمميت هيفرى أوش : بي إكرانيون إمميت أو إينين : بي ما إيطاف أشك إبشويس إنخيتف : أك فورش إن نيك جيج إيفول : أف إيشي نيماك إن كي سوني إسناف صا تيك أوي نام  نيم صا تيك جاتشي : إنثوك إك كي خين توميتي أو بي سوتير إن آغاثوس.",
         ],
         [
             Prefix.HolyWeek + "12HDGolghosaHymn&D=GL56&C=Diacon",
@@ -10220,4 +10274,4 @@ ReadingsArrays.GospelNightArrayFR = [[
         ],
     ],
 ];
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRGVjbGFyZUdvc3BlbE5pZ2h0QXJyYXkuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi9tb2R1bGVzL0RlY2xhcmVHb3NwZWxOaWdodEFycmF5LnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLGNBQWMsQ0FBQyxrQkFBa0IsR0FBRSxDQUFDO1FBQ2xDO1lBQ0EsTUFBTSxDQUFDLFdBQVcsR0FBQyw2QkFBNkI7WUFDaEQsY0FBYztZQUNkLGVBQWU7WUFDZixlQUFlO1NBQ2Q7UUFDRDtZQUNBLE1BQU0sQ0FBQyxJQUFJLEdBQUMsWUFBWTtZQUN4QixxRkFBcUY7WUFDckYsaUlBQWlJO1lBQ2pJLGlLQUFpSztTQUNoSztLQUNBO0lBQ0Q7UUFDQTtZQUNBLE1BQU0sQ0FBQyxXQUFXLEdBQUMsOEJBQThCO1lBQ2pELHVCQUF1QjtZQUN2QixlQUFlO1lBQ2YsZUFBZTtTQUNkO1FBQ0Q7WUFDQSxNQUFNLENBQUMsSUFBSSxHQUFDLFlBQVk7WUFDeEIsMEhBQTBIO1lBQzFILHFLQUFxSztZQUNySyxrTEFBa0w7U0FDakw7UUFDRDtZQUNBLE1BQU0sQ0FBQyxJQUFJLEdBQUMsWUFBWTtZQUN4QixxT0FBcU87WUFDck8sNFFBQTRRO1lBQzVRLGlSQUFpUjtTQUNoUjtRQUNEO1lBQ0EsTUFBTSxDQUFDLElBQUksR0FBQyxZQUFZO1lBQ3hCLDhOQUE4TjtZQUM5TiwrUUFBK1E7WUFDL1EseVNBQXlTO1NBQ3hTO1FBQ0Q7WUFDQSxNQUFNLENBQUMsSUFBSSxHQUFDLFlBQVk7WUFDeEIsMk1BQTJNO1lBQzNNLHVYQUF1WDtZQUN2WCwyVEFBMlQ7U0FDMVQ7UUFDRDtZQUNBLE1BQU0sQ0FBQyxJQUFJLEdBQUMsWUFBWTtZQUN4Qix5TEFBeUw7WUFDekwsOFNBQThTO1lBQzlTLDBTQUEwUztTQUN6UztRQUNEO1lBQ0EsTUFBTSxDQUFDLElBQUksR0FBQyxZQUFZO1lBQ3hCLHdOQUF3TjtZQUN4TixzT0FBc087WUFDdE8scVNBQXFTO1NBQ3BTO0tBQ0E7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
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRGVjbGFyZUdvc3BlbE5pZ2h0QXJyYXkuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi9tb2R1bGVzL0RlY2xhcmVHb3NwZWxOaWdodEFycmF5LnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLGNBQWMsQ0FBQyxrQkFBa0IsR0FBRyxDQUFDO1FBQ25DO1lBQ0EsTUFBTSxDQUFDLFdBQVcsR0FBQyw2QkFBNkI7WUFDaEQsY0FBYztZQUNkLGVBQWU7WUFDZixlQUFlO1NBQ2Q7UUFDRDtZQUNBLE1BQU0sQ0FBQyxJQUFJLEdBQUMsWUFBWTtZQUN4QixxRkFBcUY7WUFDckYsaUlBQWlJO1lBQ2pJLGlLQUFpSztTQUNoSztLQUNBO0lBQ0Q7UUFDQTtZQUNBLE1BQU0sQ0FBQyxXQUFXLEdBQUMsOEJBQThCO1lBQ2pELHVCQUF1QjtZQUN2QixlQUFlO1lBQ2YsZUFBZTtTQUNkO1FBQ0Q7WUFDQSxNQUFNLENBQUMsSUFBSSxHQUFDLFlBQVk7WUFDeEIsMEhBQTBIO1lBQzFILHFLQUFxSztZQUNySyxrTEFBa0w7U0FDakw7UUFDRDtZQUNBLE1BQU0sQ0FBQyxJQUFJLEdBQUMsWUFBWTtZQUN4QixxT0FBcU87WUFDck8sNFFBQTRRO1lBQzVRLGlSQUFpUjtTQUNoUjtRQUNEO1lBQ0EsTUFBTSxDQUFDLElBQUksR0FBQyxZQUFZO1lBQ3hCLDhOQUE4TjtZQUM5TiwrUUFBK1E7WUFDL1EseVNBQXlTO1NBQ3hTO1FBQ0Q7WUFDQSxNQUFNLENBQUMsSUFBSSxHQUFDLFlBQVk7WUFDeEIsMk1BQTJNO1lBQzNNLHVYQUF1WDtZQUN2WCwyVEFBMlQ7U0FDMVQ7UUFDRDtZQUNBLE1BQU0sQ0FBQyxJQUFJLEdBQUMsWUFBWTtZQUN4Qix5TEFBeUw7WUFDekwsOFNBQThTO1lBQzlTLDBTQUEwUztTQUN6UztRQUNEO1lBQ0EsTUFBTSxDQUFDLElBQUksR0FBQyxZQUFZO1lBQ3hCLHdOQUF3TjtZQUN4TixzT0FBc087WUFDdE8scVNBQXFTO1NBQ3BTO0tBQ0E7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

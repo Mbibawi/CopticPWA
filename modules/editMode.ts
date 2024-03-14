@@ -875,6 +875,7 @@ function paragraphsKeyShortcuts(e: KeyboardEvent) {
   if (e.key === 'C') {e.preventDefault; convertCopticFontFromAPI(p)};
   if (e.key === 'L') {e.preventDefault; deleteRow(p)};
   if (e.key === 'P') {e.preventDefault; splitParagraphsToTheRowsBelow(p)};
+  if (e.key === 'F') {e.preventDefault; FixCopticText(p)};
 
 }
 
@@ -1383,7 +1384,7 @@ async function convertCopticFontFromAPI(htmlElement: HTMLElement, fontFrom?: str
   while (htmlElement.tagName !== "P" && htmlElement.parentElement)
     htmlElement = htmlElement.parentElement;
 
-  if (selected) sendHttpRequest(selected.toString());
+  if (selected && !selected.isCollapsed) sendHttpRequest(selected.toString());
   else sendHttpRequest(htmlElement.textContent);
 
   function sendHttpRequest(originalText: string): string {
@@ -1715,4 +1716,21 @@ function convertAllCopticParagraphsFonts(fontFrom?: string) {
 
     })
 
+}
+
+function FixCopticText(parag: HTMLElement) {
+  let htmlRow = getHtmlRow(parag);
+  if (!htmlRow) return alert('We couldn\'t find the parent html row element');
+    let previous: HTMLElement | void,
+    parags = parag.innerHTML.split('<br>');
+  for (let i = 0; i < parags.length; i++) {
+    previous = addNewRow(parag, false, parag.title, false);
+    if (!previous) return alert('addNewRow() didn\'t return a row');
+    previous.children[0].innerHTML = parags[i];
+    window.Selection = null;
+    if ([0, 2].includes(i))
+      convertCopticFontFromAPI(previous.children[0] as HTMLParagraphElement, 'CS Avva Shenouda');
+  }
+  //parag.innerText = ""
+  
 }
