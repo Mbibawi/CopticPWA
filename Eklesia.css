@@ -746,7 +746,7 @@ br{
   border-right: rgb(129, 95, 7) solid 7px;
 }
 .ReadingEnd{
-  background-image: (to bottom, rgb(222, 184, 135), rgb(222, 184, 135));
+  background-image: linear-gradient(to bottom, rgb(222, 184, 135), rgb(222, 184, 135));
   margin-bottom: 1px;
   border-bottom: #111 solid 4pt;
   border-left: rgb(224, 163, 85) solid 7px;
