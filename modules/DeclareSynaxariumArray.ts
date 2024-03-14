@@ -2,7 +2,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0101&C=Title", 
   "1er Thout\n1) Jour de l’an copte\n2) Commémoration de la guérison de Job le juste;\n3) Martyre de l’apôtre saint Barthélémy;\n4) Décès de saint Mylious, 3ème pape d’Alexandrie;\n5) Décès du pape Marc V – le 98ème patriarche de saint Marc", 
-  "1 توت\nعيد النيروز رأس السنة القبطية\nتِذْكَارْ شفاء أيوب الصدِّيق\nاسْتِشْهَادْ القِدّيسْ برثولماوس الرسول\nنِيَاحَةْ البابا ميليوس البَطْرِيَرْكْ الثَالِثْ مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة\nنِيَاحَةْ البابا مَرْقُسْ الخامس البَطْرِيَرْكْ الثامن والتسعين مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة\n", 
+  "1 توت\nعيد النيروز رأس السنة القبطية\nتِذْكَارْ شفاء أيوب الصدِّيق\nاسْتِشْهَادْ القِدّيسْ برثولماوس الرسول\nنِيَاحَةْ البابا ميليوس البَطْرِيَرْكْ الثَالِثْ مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة\nنِيَاحَةْ البابا مَرْقُسْ الخامس البَطْرِيَرْكْ الثامن والتسعين مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -77,7 +77,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Ce père était originaire d’al-Bayadéya (البياضية). Dès son adolescence il fût attiré par la vie d dévotion et de prière. Il quitta le monde et se rendit au monastère de saint Macaire de la vallée de Scété où il devint moine. Après le départ du pape Gabriel VIII, les évêques et les notables choisirent le moine Marc du monastère de saint Macaire pour devenir patriarche. Il fût sacré à l’église de saint Mercure le titulaire des deux épées (مرقوريوس أبي سيفين) le 26 Paoni 1319 des martyrs (1603 après Jésus Christ) sous le nom de Marc V.", 
-  "كان هَذَا الأبْ من أهالي البياضية (البياضية: قرية بمركز ملوى مُحَافَظَة المنيا). مال منذ شبابه إلى حَيَاةِ الزهد والعبادة فترك العالم وذهب إلى دَيْرٍ القِدّيسْ مكاريوس ببرية شيهيت، حَيْثُ تَرَهَّبَ هناك. وبَعْدَ انتقَالَ البابا غُبْرِيَالْ الثامن، وقع اخْتِيَارْ الأسَاقِفَةْ والأراخنة عَلَى الرَاهِبْ مَرْقُسْ المقاري لِيَكُونَ بطريركاً. وتَمَّتْ رِسَامَتْهُ يوم الأحد 26 من بؤونة سَنَةْ 1319 لِلْشُهَداءِ (1603م)، في كِنِيسَةْ الشَهْيدِ مرقوريوس أبى سيفين بِمِصْرَ القَدِيمَةِ، بِاسْمِ مَرْقُسْ الخامس.", 
+  "كان هَذَا الأبْ من أهالي البياضية (البياضية: قرية بمركز ملوى مُحَافَظَة المنيا). مال منذ شبابه إلى حَيَاةِ الزهد والعبادة فترك العالم وذهب إلى دَيْرٍ القِدّيسْ مكاريوس ببرية شِيهِيتْ، حَيْثُ تَرَهَّبَ هناك. وبَعْدَ انتقَالَ البابا غُبْرِيَالْ الثامن، وقع اخْتِيَارْ الأسَاقِفَةْ والأراخنة عَلَى الرَاهِبْ مَرْقُسْ المقاري لِيَكُونَ بطريركاً. وتَمَّتْ رِسَامَتْهُ يوم الأحد 26 من بؤونة سَنَةْ 1319 لِلْشُهَداءِ (1603م)، في كِنِيسَةْ الشَهْيدِ مرقوريوس أبى سيفين بِمِصْرَ القَدِيمَةِ، بِاسْمِ مَرْقُسْ الخامس.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -87,7 +87,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Après avoir achevé son bon combat, il décéda en paix et l’on pria sur son corps dans l’église patriarcal. Puis il fût transféré au monastère de saint Macaire où il fût mis à terre avec tous les honneurs.", 
-  "ولما أكْمَلَ سَعْيَّهُ الصَالِحْ تَنَيَّحَ بِسَلامٍ. فصلوا عَلَيْهِ في كِنِيسَةْ البطريركية ونقلوه إلى دَيْرٍ القِدّيسْ مكاريوس ببرية شيهيت حَيْثُ دُفن هُناَكَ بِإكْرَامٍ جَزيلٍ.", 
+  "ولما أكْمَلَ سَعْيَّهُ الصَالِحْ تَنَيَّحَ بِسَلامٍ. فصلوا عَلَيْهِ في كِنِيسَةْ البطريركية ونقلوه إلى دَيْرٍ القِدّيسْ مكاريوس ببرية شِيهِيتْ حَيْثُ دُفن هُناَكَ بِإكْرَامٍ جَزيلٍ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -99,7 +99,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0201&C=Title", 
   "2 Thout\n1) Martyre de saint Jean le baptiste; \n2) Martyre de saint Dassya, le soldat", 
-  "2 توت\nاسْتِشْهَادْ القِدّيسْ يُوحَنَّا المعمدان\nاسْتِشْهَادْ القِدّيسْ داسيه الجندى\n", 
+  "2 توت\nاسْتِشْهَادْ القِدّيسْ يُوحَنَّا المعمدان\nاسْتِشْهَادْ القِدّيسْ داسيه الجندى", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -151,7 +151,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0301&C=Title", 
   "3 Thout \n1) Tenue d'un concile à Alexandrie à l’époque du pape Denys au sujet de l’éternité de l’âme; \n2) Décès de sainte Théodora, la pénitente", 
-  "3 توت\nنِيَاحَةْ البابا كيرلس الأَوَّلْ عمود الدين\nنِيَاحَةْ البابا كلستينوس بابا رومية\n", 
+  "3 توت\nنِيَاحَةْ البابا كيرلس الأَوَّلْ عمود الدين\nنِيَاحَةْ البابا كلستينوس بابا رومية", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -268,7 +268,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Durant la guerre ente les fils d’Israël et Amalèk (عماليق), il conduisait l’armée tandis que Moïse se tenait en prière sur la colline. \"Josué défit Amaleq et son peuple au fil de l'épée.  ", 
-  "وفي أَثْنَاءَ حرب بَنَى إسْرائِيلْ مَعَ عماليق كَانَ هُوَ يقود الجيش بينما موسى عَلَى الجبل يُصَلِّي \"فهزم يشوع عماليق وَقَوْمَهُ بحد السيف\" ().", 
+  "وفي أَثْنَاءَ حرب بَنَى إسْرائِيلْ مَعَ عماليق كَانَ هُوَ يقود الجيش بَيْنَمَا موسى عَلَى الجبل يُصَلِّي \"فهزم يشوع عماليق وَقَوْمَهُ بحد السيف\" ().", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -412,7 +412,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0601&C=Title", 
   "6 Thout\n1) Martyre du prophète Isaïe fils d’Amos;\n2) Martyre de sainte Bassiliya", 
-  "6 توت\nاسْتِشْهَادْ إشعياء النبي بن آموص\nاسْتِشْهَادْ القِدِّيسَةْ باشيلية أو باسيليا\n", 
+  "6 توت\nاسْتِشْهَادْ إشعياء النبي بن آموص\nاسْتِشْهَادْ القِدِّيسَةْ باشيلية أو باسيليا", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -494,7 +494,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0701&C=Title", 
   " 7 Thout\n1) Décès du pape Dioscore ; \n2) Décès du pape Jean XII ; \n3) Martyre de sainte Rébecca et de ses cinq enfants ; \n4) Décès du saint Sévérien évêque de Gabala", 
-  "7 توت\nنِيَاحَةْ البابا ديوسقوروس\nنِيَاحَةْ البابا يوأنس الثاني عشر \nاسْتِشْهَادْ القِدِّيسَةْ رفقة وأولادها الخمسة\nنياحة القِدّيسْ سوريانوس أُسْقُفْ جبلة", 
+  "7 توت\nنِيَاحَةْ البابا ديوسقوروس\nنِيَاحَةْ البابا يوأنس الثاني عشر \nاسْتِشْهَادْ القِدِّيسَةْ رفقة وأولادها الخمسة\nنِيَاحِةِ القِدّيسْ سوريانوس أُسْقُفْ جبلة", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -524,7 +524,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Après le décès de l’empereur Théodose en 450 après Jésus Christ, Marcien (مركيان) lui succéda sur le trône. En effet, ce dernier, qui avait des penchants nestoriens, avait épousé Pulchérie (بولشاريا), la sœur de Théodose. Celle-ci était connue pour sa ruse et sa sagacité et elle cherchait à réduire la puissance de Dioscore qu’elle craignait. Léon saisit cette occasion et écrivit un courrier à Marcien pour se plaindre de Dioscore qui l’avait excommunié et demanda la tenue d’un nouveau concile pour rediscuter de la Foi.", 
-  "مات الإمبراطور ثيئودوسيوس سَنَةْ 450م غربية واعتلى الكُرْسِي مركيان الذي تزوج بولشاريا أخت ثيئودوسيوس الصغير، وكَانَ يَمِيلْ إلى أفكار نسطور، كَمَا كَانَتْ بولشاريا مشهورة بالمكر والدهاء وكَانَتْ تخشى قوة ديوسقوروس وتعمل عَلَى إضعاف مركزه. انتهز لاون فرصة اعتلاء مركيان لكرسي القُسْطَنْطِينِيَّة وبعث إلَيهِ برسالة يشكو فِيهَا ديوسقوروس الذي حرمه، ويطلب فِيهَا عَقْدِ مَجْمَع لمناقشة الإيمان من جديد.", 
+  "مات الإمبراطور ثيئودوسيوس سَنَةْ 450م غربية واعتلى الكُرْسِي مركيان الذي تَزَوَّجَ بولشاريا أخت ثيئودوسيوس الصغير، وكَانَ يَمِيلْ إلى أفكار نسطور، كَمَا كَانَتْ بولشاريا مشهورة بالمكر والدهاء وكَانَتْ تخشى قوة ديوسقوروس وتعمل عَلَى إضعاف مركزه. انتهز لاون فرصة اعتلاء مركيان لكرسي القُسْطَنْطِينِيَّة وبعث إلَيهِ برسالة يشكو فِيهَا ديوسقوروس الذي حرمه، ويطلب فِيهَا عَقْدِ مَجْمَع لمناقشة الإيمان من جديد.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -559,7 +559,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Lorsque le siège de saint Marc devint vacant à la suite du décès du pape Michel IV (ميخائيل الرابع), il fût choisi par les évêques et les fidèles pour lui succéder. Son sacre eût lieu le 23 Parmouté 1196 des martyrs (1480 après Jésus Christ) et reçut le nom de Jean XII. ", 
-  "وعند خلو الكُرْسِي البطريركي بنياحة البابا ميخائيل الرابع. وقع اخْتِيَارْ الأسَاقِفَةْ والشعب عَلَى هَذَا الأب، فرَسَمْوهُ بطريركاً بِاسْمِ البابا يوأنس الثاني عَشَرْ يوم 23 برمودة سَنَةْ 1196 لِلْشُهَداءِ (1480م).", 
+  "وعند خلو الكُرْسِي البطريركي بنِيَاحِةِ البابا ميخائيل الرابع. وقع اخْتِيَارْ الأسَاقِفَةْ والشعب عَلَى هَذَا الأب، فرَسَمْوهُ بطريركاً بِاسْمِ البابا يوأنس الثاني عَشَرْ يوم 23 برمودة سَنَةْ 1196 لِلْشُهَداءِ (1480م).", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -651,7 +651,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0801&C=Title", 
   " 8 Thout\n1) Décès du prophète Moïse; \n2) Martyre du prêtre Zacharie\n3) Martyre de saint Diomède", 
-  " 8 توت\nنياحة موسى النبي\nاستشهاد زكريا الكاهن\nاستشهاد القِدّيسْ ديميدس القس\n", 
+  " 8 توت\nنِيَاحِةِ موسى النبي\nاستشهاد زكريا الكاهن\nاستشهاد القِدّيسْ ديميدس القس", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -726,7 +726,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Après que l’ange Gabriel eût annoncé à Zacharie la naissance de son fils Jean (يُوحَنَّا), et comme il n’avait pas cru à ses paroles, il le rendit muet jusqu’à ce que l’enfant naisse . A sa naissance, Zacharie se fit donner une tablette sur laquelle il écrivit : \"Son nom est Jean. A l'instant même … il parlait et il bénissait Dieu. C’est de lui et de sa femme Elizabeth que témoigne l’Evangile en disant : \"Tous les deux vivaient comme des justes devant Dieu : ils suivaient tous les commandements et les préceptes du Seigneur d'une manière irréprochable .", 
-  "وبينما كَانَ يرفع البخور عَلَى المَذْبَحْ ظَهَرَ لَهُ جبرائيل المَلاك وبشره بميلاد ابنه يوحنا، ولَمَّا لَمْ يصدق كلام الملاك، أوجب عَلَيْهِ الصمت حَتَّى تمت معجزة ميلاد الطفل. حِينَئِذٍ تكلم وسبَّح الله وتَنَبَأَ عَن يُوحَنَّا كسابق للسيد المَسِيحْ الآتي لخلاص العالم.", 
+  "وبينما كَانَ يرفع البخور عَلَى المَذْبَحْ ظَهَرَ لَهُ جبرائيل المَلاك وبشره بِمِيلادِ ابنه يوحنا، ولَمَّا لَمْ يصدق كلام الملاك، أوجب عَلَيْهِ الصمت حَتَّى تمت معجزة ميلاد الطفل. حِينَئِذٍ تكلم وسبَّح الله وتَنَبَأَ عَن يُوحَنَّا كسابق للسيد المَسِيحْ الآتي لخلاص العالم.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -736,7 +736,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Après le massacre des enfants de Bethléem, quelques juifs rapportèrent à Hérode que Zacharie avait eu un enfant après qu’il lui fût annoncé par un ange. Il pensa que cet efant pourrait être le roi annoncé et envoya une troupe pour réclamer l’enfant à son père. Alors Zacharie leur dit qu’il avait reçu cet enfant du temple et qu’ils pourraient le suivre pour le prendre de ce même lieu. Il s’y rendit et déposa l’enfant sur l’autel où il avait reçu l’annonce de l’ange. L’ange le saisit et l’emporta dans le désert d’Ez-Zifânâ (بريةالزيفانا).", 
-  "أما هيرودس فبعدما قَتَلَ أطفال بَيْت لحم، قيل لَهُ من بَعْضُ اليهود أَنَّ زَكَرِيَّا الكاهن قَدْ وُلِدَ لَهُ ابْنِ ببشارة من مَلاك الرب، لعله هُوَ المَلِكْ المقصود. فأَرْسَلَ هيرودس الجُنْدِ إلى زَكَرِيَّا يطلب الطفل فَقَالَ لَهُمْ زَكَرِيَّا أنا أخذت هَذَا الصبي من مَكَانِ فهلموا لتأخذوه من هناك. فأتوا مَعْهُ إلى الهَيْكَلْ، ووَضَعَهُ عَلَى المَذْبَحْ حَيْثُ بشره بِهِ الملاك. فخطفه مَلاكُ الرَّبِ إلى برية الزيفانا.", 
+  "أما هيرودس فبعدما قَتَلَ أطفال بَيْت لحم، قيل لَهُ من بَعْضُ اليهود أَنَّ زَكَرِيَّا الكاهن قَدْ وُلِدَ لَهُ ابْنِ ببشارة من مَلاك الرَبّ، لعله هُوَ المَلِكْ المقصود. فأَرْسَلَ هيرودس الجُنْدِ إلى زَكَرِيَّا يطلب الطفل فَقَالَ لَهُمْ زَكَرِيَّا أنا أخذت هَذَا الصبي من مَكَانِ فهلموا لتأخذوه من هناك. فأتوا مَعْهُ إلى الهَيْكَلْ، ووَضَعَهُ عَلَى المَذْبَحْ حَيْثُ بشره بِهِ الملاك. فخطفه مَلاكُ الرَّبِ إلى بَرِّيَّةِ الزيفانا.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -773,7 +773,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0901&C=Title", 
   "9 Thout\n1) Martyre d’abba Pissora l’évêque;\n2) Martyre des deux évêques vénérables Pélée et Nil", 
-  "9 توت\nاسْتِشْهَادْ الأبْ القِدّيسْ الأنبا بيسورة الأسقف\nاسْتِشْهَادْ الأسقفين الجليلين بيلوس ونيليوس\n", 
+  "9 توت\nاسْتِشْهَادْ الأبْ القِدّيسْ الأنبا بيسورة الأسقف\nاسْتِشْهَادْ الأسقفين الجليلين بيلوس ونيليوس", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -820,7 +820,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1001&C=Title", 
   "10 Thout\n1) Martyre de saint Jean l’égyptien et de ses compagnons; \n2) Martyre de sainte Matrouna; \n3) Martyre de sainte Bassine et de ces trois enfants ", 
-  "10 توت\nاسْتِشْهَادْ القِدِّيسْينْ يوأنس المصري وزملائه\nاسْتِشْهَادْ القِدِّيسَةْ مطرونة\nتِذْكَارْ اسْتِشْهَادْ القِدِّيسَةْ باسين وأولادها الثلاثة\n", 
+  "10 توت\nاسْتِشْهَادْ القِدِّيسْينْ يوأنس المصري وزملائه\nاسْتِشْهَادْ القِدِّيسَةْ مطرونة\nتِذْكَارْ اسْتِشْهَادْ القِدِّيسَةْ باسين وأولادها الثلاثة", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -860,7 +860,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de ses prières soit avec nous. Amen !", 
-  "بركة صلواتها فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة صلواتها فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -877,7 +877,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1101&C=Title", 
   "11 Thout\n1) Martyre de saint Basilides, le ministre; \n2) Martyre des trois paysans d’Esna ", 
-  "11 توت\nاسْتِشْهَادْ القِدّيسْ واسيليدس الوزير\nاسْتِشْهَادْ الثلاثة فلاحين بإسنا\n", 
+  "11 توت\nاسْتِشْهَادْ القِدّيسْ واسيليدس الوزير\nاسْتِشْهَادْ الثلاثة فلاحين بإسنا", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -887,7 +887,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Ce saint était un ministre à l’époque de l'empereur Numérien (نورماريوس). Ce dernier avait épousé la sœur de ce saint. Basilides avait deux fils : l'un d'entre eux se nommait Eusèbe يوساييوس) et l'autre Macaire (مكاريوس). Quand les perses attquèrent les romains, l'empereur envoya Juste (يسطس), son fils, à la guerre contre eux.", 
-  "كان وزيراً في عَهْدِ المَلِكْ نوماريوس الذي تزوج أخت واسيليدس. وكَانَ لواسيليدس ابنان هما يوسابيوس ومكاريوس. ولَمَّا ثَارَ الفرس عَلَى الروم أَرْسَلَ المَلِكْ نوماريوس ابنه يسطس لمقاتلة الفرس.", 
+  "كان وزيراً في عَهْدِ المَلِكْ نوماريوس الذي تَزَوَّجَ أخت واسيليدس. وكَانَ لواسيليدس ابنان هما يوسابيوس ومكاريوس. ولَمَّا ثَارَ الفرس عَلَى الروم أَرْسَلَ المَلِكْ نوماريوس ابنه يسطس لمقاتلة الفرس.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -996,7 +996,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1301&C=Title", 
   "13 Thout\n1) Commémoration du miracle fait par saint Basile le Grand, évêque de Césarée de Cappadoce;\n2) Décès du pape Matthieu II, le 90ème patriarche de la prédication de saint Marc", 
-  "13 توت\nتِذْكَارْ الأعجوبة التي صنعها القِدّيسْ باسيليوس الكبير أُسْقُفْ قيصارية الكبادوك\nنِيَاحَةْ البابا متاؤس الثاني البَطْرِيَرْكْ التسعين مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة\n", 
+  "13 توت\nتِذْكَارْ الأعجوبة التي صنعها القِدّيسْ باسيليوس الكبير أُسْقُفْ قيصارية الكبادوك\nنِيَاحَةْ البابا متاؤس الثاني البَطْرِيَرْكْ التسعين مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -1058,7 +1058,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1401&C=Title", 
   "14 Thout\n1) Décès des saint Agathôn le stylite; \n2) Martyre de saint Felix, de sa sœur sainte Regula ainsi que saint Exuperantius", 
-  "14 توت\nنِيَاحَةْ القِدّيسْ أغاثون العمودي\nاسْتِشْهَادْ القِدّيسْ فيلكس وريجولا أخته والقديس أكسيوبرانتيوس\n", 
+  "14 توت\nنِيَاحَةْ القِدّيسْ أغاثون العمودي\nاسْتِشْهَادْ القِدّيسْ فيلكس وريجولا أخته والقديس أكسيوبرانتيوس", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -1073,7 +1073,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Finalement le Seigneur exauça son vœu. 'ange du Seigneur lui apparut vêtu comme un moine et le conduisit au monastère de saint Macaire. Il y rencontra deux anciens Abraham (أبرآم) et Georges (جورجى), devint leur disciple et demeura avec eux trois ans. Ils le revêtirent des vêtements monastiques. A partir de ce jour il vécut dans l’ascétisme menant son combat en jeûnant et en priant pendant sept années. Il persévérait dans la lecture, spécialement celle de la vie de saint Siméon le stylite. En conséquence il désira suivre son exemple. Après avoir reçu le consentement des pères du monastère, il quitta Scété et arriva aux alentours de Sakha (سخا) où il demeura dans une petite égise. Les fidèles lui construisirent un logement au-dessus d'un pilier où il s'installa.", 
-  "كان يطلب مِنَ السَّيْد المَسِيحْ أَنَّ يسهل خروجه من هَذَا العالم ليمضى إلى البرية، فاستجاب لَهُ السَيِّدِ المَسِيحِ. وظهر لَهُ مَلاكُ الرَّبِ في زىّ راهب، ورافقه إلى البرية، حَتَّى أوصله إلى دَيْرٍ الأنبا مكاريوس الكبير وهُنَاكَ التقى بالقديسين أبرآم وجورجى وتتلمذ لَهُمَا مُدَةِ ثلاث سنوات فألبساه شكل الرهبنة، فَصَارَ يجاهد في حياته النسكية بأصوام وصلوات مُدَةِ سبع سنوات، وكَانَ مداوماً عَلَى القراءة خاصة في سِيرَةِ القِدّيسْ سَمْعَانْ العمودي، فاشتاق أَنَّ يتمثل به، فترك شيهيت بَعْدَ استئذان آباء الدير ومضى إلى نواحي سخا، وأقَامَ في كِنِيسَةْ صغيرة إلى أَنَّ بَنَى لَهُ المؤمنون مسكناً صغيراً عَلَى شبه عمود، فصعد إلَيهِ ومكث به.", 
+  "كان يطلب مِنَ السَّيْد المَسِيحْ أَنَّ يسهل خروجه من هَذَا العالم ليمضى إلى البرية، فاستجاب لَهُ السَيِّدِ المَسِيحِ. وظهر لَهُ مَلاكُ الرَّبِ في زىّ راهب، ورافقه إلى البرية، حَتَّى أوصله إلى دَيْرٍ الأنبا مكاريوس الكبير وهُنَاكَ التقى بالقديسين أبرآم وجورجى وتتلمذ لَهُمَا مُدَةِ ثلاث سنوات فألبساه شكل الرهبنة، فَصَارَ يجاهد في حياته النسكية بأصوام وصلوات مُدَةِ سبع سنوات، وكَانَ مداوماً عَلَى القراءة خاصة في سِيرَةِ القِدّيسْ سَمْعَانْ العمودي، فاشتاق أَنَّ يتمثل به، فترك شِيهِيتْ بَعْدَ استئذان آباء الدير ومضى إلى نواحي سخا، وأقَامَ في كِنِيسَةْ صغيرة إلى أَنَّ بَنَى لَهُ المؤمنون مسكناً صغيراً عَلَى شبه عمود، فصعد إلَيهِ ومكث به.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -1083,7 +1083,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Ce père vécut 100 ans dont il passa 35 dans le monde, 5 en tant que prêtre à Tanis, 10 au désert et 50 en haut du pilier à Sakha.", 
-  "عاش هَذَا الأبْ مائة سَنَةً، أقَامَ مِنْهُا 35 سَنَةْ في العالم، وخمس سنوات كاهناً بتانيس، وعشر سنوات ببرية شيهيت، ثُمَّ 50 سَنَةْ فوق العمود في سخا.", 
+  "عاش هَذَا الأبْ مائة سَنَةً، أقَامَ مِنْهُا 35 سَنَةْ في العالم، وخمس سنوات كاهناً بتانيس، وعشر سنوات ببرية شِيهِيتْ، ثُمَّ 50 سَنَةْ فوق العمود في سخا.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -1135,7 +1135,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1501&C=Title", 
   "15 Thout\n1) Translation du corps de saint Etienne; \n2) Décès d’abba Athanase de Qous", 
-  "15 توت\nنقل جَسَدِ القِدّيسْ إسطفانوس\nنِيَاحَةْ الأنبا أثناسيوس القوصي\n", 
+  "15 توت\nنقل جَسَدِ القِدّيسْ إسطفانوس\nنِيَاحَةْ الأنبا أثناسيوس القوصي", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -1202,7 +1202,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1601&C=Title", 
   "16 Thout\n1) Consécration de la basilique de la Résurrection à Jérusalem ", 
-  " 16 توت\nتَكّرْيسِ كِنِيسَةْ القيامة بأورشليم\n", 
+  " 16 توت\nتَكّرْيسِ كِنِيسَةْ القيامة بأورشليم", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -1229,7 +1229,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1701&C=Title", 
   "17 Thout\n1)Commémoration des festivités de la sainte Croix; \n2) Martyre de saint Castor le prêtre;\n3) Décès de sainte Théoghnosta;\n4) Décès d’el Mo’allem Guirguis al-Gohari, le saint ", 
-  " 17 توت\nتِذْكَارْ الاحتفال بالصليب المَجِيدِ في كِنِيسَةْ القيامة\nاسْتِشْهَادْ القِدّيسْ قسطور القس\nنِيَاحَةْ القِدِّيسَةْ ثاؤغنسطا\nنِيَاحَةْ القِدّيسْ المعلم جرجس الجوهري\n", 
+  " 17 توت\nتِذْكَارْ الاحتفال بالصليب المَجِيدِ في كِنِيسَةْ القيامة\nاسْتِشْهَادْ القِدّيسْ قسطور القس\nنِيَاحَةْ القِدِّيسَةْ ثاؤغنسطا\nنِيَاحَةْ القِدّيسْ المعلم جرجس الجوهري", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -1254,7 +1254,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Ce saint naquit au village de Bardanouha بردنوها) en haute Égypte. Ces parents étaient chrétiens, ils l’élevèrent dans la vertu et la piété et il fût ordonné diacre. Dès lors, il fréquenta assidûment l’église et, après son mariage, fût ordonné prêtre et il s’occupa des fidèles de la meilleure des manières. Il eût un fils qu’il nomma Afraham (أفراهام) et une fille nommée Darmoudah (درمودة).", 
-  "وُلِدَ هَذَا القِدّيسْ في قرية بردنوها (بردنوها: قرية بمركز مطاى ـ مُحَافَظَة المنيا) بصعيد مِصْرْ مِنْ أَبَوينِ مَسِيحِيَّيْنِ، وقَدْ ربياه عَلَى الفضيلة والتقوى. رُسِمَ شماساً، فلازم البيعة. بَعْدَ ذَلِكْ تزوج ورَسَمُوهُ قِسّاً عَلَى كِنِيسَةْ بلدته، فرعى الشَّعْبِ أَحْسَنْ رعاية. وقَدْ أنجب ابناً أسماه أفراهام عَلَى اسْمِ والده، وابنة اسْمَهَا درمودة.", 
+  "وُلِدَ هَذَا القِدّيسْ في قرية بردنوها (بردنوها: قرية بمركز مطاى ـ مُحَافَظَة المنيا) بصعيد مِصْرْ مِنْ أَبَوينِ مَسِيحِيَّيْنِ، وقَدْ ربياه عَلَى الفضيلة والتقوى. رُسِمَ شماساً، فلازم البيعة. بَعْدَ ذَلِكْ تَزَوَّجَ ورَسَمُوهُ قِسّاً عَلَى كِنِيسَةْ بلدته، فرعى الشَّعْبِ أَحْسَنْ رعاية. وقَدْ أنجب ابناً أسماه أفراهام عَلَى اسْمِ والده، وابنة اسْمَهَا درمودة.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -1351,7 +1351,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1801&C=Title", 
   " 18 Thout\n1) Deuxième jour de la commémoration de la manifestation de la sainte Croix;\n2) Martyre de saint Porphyre;\n3) Martyre de saint Etienne le prêtre et de sainte Niketé", 
-  " 18 توت\nثاني يوم عيد الصليب\nاسْتِشْهَادْ القِدّيسْ بروفوريوس\nاسْتِشْهَادْ القِدّيسْ إسطفانوس القِسّْ والقديسة نيكيتي\n", 
+  " 18 توت\nثاني يوم عيد الصليب\nاسْتِشْهَادْ القِدّيسْ بروفوريوس\nاسْتِشْهَادْ القِدّيسْ إسطفانوس القِسّْ والقديسة نيكيتي", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -1408,7 +1408,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1901&C=Title", 
   "19 Thout\n1) Troisième jour de la commémoration de la manifestation de la sainte Croix;\n2) Commémoration de la remontée de saint Grégoire l’arménien de sa fosse", 
-  " 19 توت\nاليوم الثَالِثْ من أَيَّامٍ عيد الصليب المجيد\nتِذْكَارْ إصعاد القِدّيسْ غريغوريوس الأرمني مِنَ الجب\n", 
+  " 19 توت\nاليوم الثَالِثْ من أَيَّامٍ عيد الصليب المجيد\nتِذْكَارْ إصعاد القِدّيسْ غريغوريوس الأرمني مِنَ الجب", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -1418,7 +1418,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de la glorieuse Croix soit avec nous. Amen !", 
-  "بركة الصليب المُقَدّسْ فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة الصليب المُقَدّسْ فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -1460,7 +1460,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2001&C=Title", 
   "20 Thout\n1) Décès de sainte Théopista. Décès du pape Athanase II, le 28ème patriarche de la prédication de saint Marc; \n2) Martyre de sainte Mélitine", 
-  " 20 توت\nنِيَاحَةْ القِدِّيسَةْ ثاؤبستى\nنِيَاحَةْ البابا أثناسيوس الثاني البَطْرِيَرْكْ الثامن والعشرين مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة\nاسْتِشْهَادْ القِدِّيسَةْ ملاتينى العذراء\n", 
+  " 20 توت\nنِيَاحَةْ القِدِّيسَةْ ثاؤبستى\nنِيَاحَةْ البابا أثناسيوس الثاني البَطْرِيَرْكْ الثامن والعشرين مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة\nاسْتِشْهَادْ القِدِّيسَةْ ملاتينى العذراء", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -1537,7 +1537,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2101&C=Title", 
   "21 Thout\n1) Commémoration de la sainte vierge Marie;\n2)Martyre de saint Cyprien et sainte Justine", 
-  " 21 توت\nتِذْكَارْ والدة الإله القِدِّيسَةْ مريم\nاسْتِشْهَادْ القِدّيسْ كبريانوس الأُسْقُفْ والقديسة يوستينة\n", 
+  " 21 توت\nتِذْكَارْ والدة الإله القِدِّيسَةْ مريم\nاسْتِشْهَادْ القِدّيسْ كبريانوس الأُسْقُفْ والقديسة يوستينة", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -1557,7 +1557,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que son intercession soit avec nous. Amen !", 
-  "شفاعتها المُقَدَّسَةْ فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "شفاعتها المُقَدَّسَةْ فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -1604,7 +1604,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2201&C=Title", 
   "22 Thout\n1) Martyre de saint Cotylas, de sa sœur sainte Axoua, et de saint Tâtâs son ami;  \n2) Martyre de saint Jules d’Akfahs, le biographe des martyrs et de ses compagnons; ", 
-  " 22 توت\nاسْتِشْهَادْ القِدِّيسْينْ كوتلاس وأكسوا أخته وتاتاس صديقه\nاسْتِشْهَادْ القِدّيسْ يوليوس الأقفهصى كاتب سِيَر الشُهَدَاءْ ومن معه\n", 
+  " 22 توت\nاسْتِشْهَادْ القِدِّيسْينْ كوتلاس وأكسوا أخته وتاتاس صديقه\nاسْتِشْهَادْ القِدّيسْ يوليوس الأقفهصى كاتب سِيَر الشُهَدَاءْ ومن معه", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -1634,7 +1634,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Nous commémorons aussi aujourd’hui le martyre de saint Jules d’Akfahs (يوليوس ألأقفهصى).", 
-  "وفيه أيْضَاً اسْتَشْهَدَ القِدّيسْ يوليوس الأقفهصي (أى من أقفهص وهي قرية مازالت بنفس اسْمَهَا تابعة لمركز الفشن مُحَافَظَة بَنَى سويف).", 
+  "وفيه أيْضَاً اسْتَشْهَدَ القِدّيسْ يوليوس الأقفهصي (أى من أقفهص وهي قرية مازالت بِنَفْسِ اسْمَهَا تابعة لمركز الفشن مُحَافَظَة بَنَى سويف).", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -1649,7 +1649,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Lorsque vint le moment où saint Jules devait être soulagé des fatigues de ce monde, le Christ lui apparut en songe et lui demanda de se rendre après d’Arcadius (أركاديوس) le gouverneur de Samannoud (سمنود) pour confesser sa Foi. Il s’y rendit et fût immédiatement torturé par le gouverneur mais le Seigneur l’affermissait. Lorsqu’on lui présenta les idoles pour les adorer, il pria et la terre s’ouvrit et engloutit les soixante-dix idoles et les quarante prêtres qui les servaient. Lorsqu’il vit la destruction de ses idoles et la mort des prêtres, le gouverneur crut en Jésus Christ et ils se rendirent tous les deux auprès du gouverneur d’Atrib (أتريب) qui les tortura de la pire des manières. Le saint invoqua le Seigneur qui envoya son ange pour décapiter les idoles, et les noircir de cendre. En conséquence il crut, lui aussi, en Jésus Christ et ils se rendirent, tous les trois, à Touwah (طوه)et se présentèrent devant son gouverner Alexandre (ألكسندروس). Celui-ci décréta qu’ils devaient être décapités et ils obtinrent la couronne du martyre.", 
-  "ولما أرَادَ السَّيْد المَسِيحْ أَنَّ يتمم ما أنبأه بِهِ القِدِّيْسْون ويريحه مِنْ أتْعَابِ هَذَا العالم، ظَهَرَ لَهُ في رؤيا اللّيْلِ وأمره أَنَّ يذهب إلى أركاديوس والي سمنود ويعترف أَمَامَهُ بِالسَيِّدِ المَسِيحِِ، فانطلق إلى هُناَكَ كأمر الرب، فعذبه الوالي عذابات شَدِيدَةْ بأنواع مختلفة وكَانَ الرَّبْ يُقَوِّيه. وصلى صلاة ففتحت الأرض فاها وابتلعت سبعين وثناً وأربعين كاهناً كانوا يخدمون أمامها. فَلَمَّا رَأَى الوالي هلاك الكهنة وزوال الآلهة آمن بِالسَيِّدِ المَسِيحِِ، ثُمَّ مَضَى مَعَ القِدّيسْ إلى والي أتريب الذي عذبهما كثيراً، ولَمَّا صلى القِدّيسْ أَرْسَلَ الرَّبْ مَلاكَه إلى بربا الأصنام فنزع رؤوس الأصنام وسوَّدَها بالرماد، فآمن والى أتريب عَلَى يَدَيّ القِدّيسْ يوليوس. ثُمَّ ذهب ثلاثتهم إلى ألكسندروس والي طوة (طوة: كَانَتْ بقاياها بقرب طنطا مُحَافَظَة الغربية وحلت محلها محلة مرحوم)، فكَتَبَ قضيتهم وأَمَرَ الجُنْدِ فقطعوا رؤوسهم.", 
+  "ولما أرَادَ السَّيْد المَسِيحْ أَنَّ يتمم ما أنبأه بِهِ القِدِّيْسْون ويريحه مِنْ أتْعَابِ هَذَا العالم، ظَهَرَ لَهُ في رؤيا اللّيْلِ وأمره أَنَّ يذهب إلى أركاديوس والي سمنود ويعترف أَمَامَهُ بِالسَيِّدِ المَسِيحِِ، فانطلق إلى هُناَكَ كأمر الرَبّ، فعذبه الوالي عذابات شَدِيدَةْ بأنواع مختلفة وكَانَ الرَّبْ يُقَوِّيه. وصلى صلاة ففتحت الأرض فاها وابتلعت سبعين وثناً وأربعين كاهناً كانوا يخدمون أمامها. فَلَمَّا رَأَى الوالي هلاك الكهنة وزوال الآلهة آمن بِالسَيِّدِ المَسِيحِِ، ثُمَّ مَضَى مَعَ القِدّيسْ إلى والي أتريب الذي عذبهما كثيراً، ولَمَّا صلى القِدّيسْ أَرْسَلَ الرَّبْ مَلاكَه إلى بربا الأصنام فنزع رؤوس الأصنام وسوَّدَها بالرماد، فآمن والى أتريب عَلَى يَدَيّ القِدّيسْ يوليوس. ثُمَّ ذهب ثلاثتهم إلى ألكسندروس والي طوة (طوة: كَانَتْ بقاياها بقرب طنطا مُحَافَظَة الغربية وحلت محلها محلة مرحوم)، فكَتَبَ قضيتهم وأَمَرَ الجُنْدِ فقطعوا رؤوسهم.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -1671,7 +1671,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2301&C=Title", 
   " 23 Thout\n1) Martyre de saint Onanius et saint André;\n2) Martyre de sainte Thècle", 
-  " 23 توت\nاسْتِشْهَادْ القِدِّيسْينْ أونانيوس وأندراوس أخيه\nتِذْكَارْ القِدِّيسَةْ الشهيدة تكلا\n", 
+  " 23 توت\nاسْتِشْهَادْ القِدِّيسْينْ أونانيوس وأندراوس أخيه\nتِذْكَارْ القِدِّيسَةْ الشهيدة تكلا", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -1681,7 +1681,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Ces deux frères faisaient partie des notables de la ville de Lod (لدّة) en Palestine. Dès leur jeunesse, ils voulurent devenir moines et ils s’installèrent dans un monastre de Syrie (الشام). Par la suite ils rejoignirent saint Macaire le grand (مكاريوس الكبير) et devinrent ses disciples durant trente années durant lesquels ils vécurent dans l’amour et l’humilité en priant et en jeûnant sans cesse. Leurs ascèses et leurs connaissances eurent une grande réputation aux alentours. Onanius fût sacré évêque tandis qu’André fût ordonné prêtre. Ils s’occupèrent du troupeau du Christ de la meilleure des mnières.", 
-  "كان هذان القِدِّيْسْان ابنين لِأَحَدِ أكابر لدّة بفلسطين، اتفقا منذ صباهما عَلَى عيشة الرهبنة، فانطلقا إلى أحَدْ أديرة الشام وترَّهبا هناك. وبَعْدَ قليل، قصدا القِدّيسْ مكاريوس الكبير ببرية شيهيت وتتلمذا لَهُ مُدَةِ ثلاثين عاماً، أمضياها في الأصوام والصَلَواتِ والاتضاع والمحبة. فشاع خبر نسكهما وعلمهما. فتم اخْتِيَارْ أونانيوس أسقفاً، وأندراوس قِسَّاً. فرعيا رعية المَسِيحْ أَحْسَنْ رعاية.", 
+  "كان هذان القِدِّيْسْان ابنين لِأَحَدِ أكابر لدّة بفلسطين، اتفقا منذ صباهما عَلَى عيشة الرهبنة، فانطلقا إلى أحَدْ أديرة الشام وترَّهبا هناك. وبَعْدَ قليل، قصدا القِدّيسْ مكاريوس الكبير ببرية شِيهِيتْ وتتلمذا لَهُ مُدَةِ ثلاثين عاماً، أمضياها في الأصوام والصَلَواتِ والاتضاع والمحبة. فشاع خبر نسكهما وعلمهما. فتم اخْتِيَارْ أونانيوس أسقفاً، وأندراوس قِسَّاً. فرعيا رعية المَسِيحْ أَحْسَنْ رعاية.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -1830,7 +1830,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2501&C=Title", 
   "25 Thout\n1) Décès du prophète Jonas;\n2) Martyre de saint Maurie, commandant de la légion thébaine ", 
-  " 25 توت\nتِذْكَارْ نِياحَةْ يونان النبي\nاسْتِشْهَادْ القِدّيسْ موريس قائد الفرقة الطيبية\n", 
+  " 25 توت\nتِذْكَارْ نِياحَةْ يونان النبي\nاسْتِشْهَادْ القِدّيسْ موريس قائد الفرقة الطيبية", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -1902,17 +1902,17 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2601&C=Title", 
   "26 Thout\nL’annonce faite par l’ange à Zacharie concernant la naissance de Jean le Baptiste ", 
-  " 26 توت\nبشارة زَكَرِيَّا الكاهن بميلاد يُوحَنَّا المعمدان\n", 
+  " 26 توت\nبشارة زَكَرِيَّا الكاهن بِمِيلادِ يُوحَنَّا المعمدان", 
   ],
   [
   Prefix.same+"&C=NoActor", 
   "Nous commémorons en ce jour l’annonce que l’archange Gabriel a faite à Zacharie (زكريا) concernant la naissance de Jean le précurseur (يوحنا السابق).", 
-  "رتَّبت الكَنيسَةْ المُقَدَّسَةْ أَنَّ تحتفل في مِثْلِ هَذَا اليَومْ بتِذْكَارْ بشارة رئيس الملائكة جبرائيل، لِلقِدّْيسِ زَكَرِيَّا بميلاد يُوحَنَّا السابق.", 
+  "رتَّبت الكَنيسَةْ المُقَدَّسَةْ أَنَّ تحتفل في مِثْلِ هَذَا اليَومْ بتِذْكَارْ بشارة رئيس الملائكة جبرائيل، لِلقِدّْيسِ زَكَرِيَّا بِمِيلادِ يُوحَنَّا السابق.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
   "En effet, Dieu envoya son archange auprès de Zacharie alors qu’il offrai l’encens dans le temple tandis que toute la multitude du peuple était en prière au dehors, à l’heure de l’offrande de l’encens. Lorsqu’il vit l’ange, il fût bouleversé et saisi d’une grande crainte mais \"13 L’ange lui dit : ‘Sois sas crainte, Zacharie, car ta supplication a été exaucée : ta femme Élisabeth mettra au monde pour toi un fils, et tu lui donneras le nom de Jean. 14 Tu seras ans la joie et l’allégresse, et beaucoup se réjouiront de sa naissance, 15 car il sera grand devant le Seigneur. Il ne boira pas de vin ni de boisson forte, et il sera rempli d’Esprit Saint dès le ventre de sa mère ; 16 il fera revenir de nmbreux fils d’Israël au Seigneur leur Dieu ; 17 il marchera devant, en présence du Seigneur, avec l’esprit t la pussane du prophète Élie, pour faire revenir le cœur des pères vers leurs enfants, ramener les rebelle à la sagesse des justes, et préparer au Seigneur un peuple bien disposé ».", 
-  "وذلك أَنَّ الله أَرْسَلَ رئيس الملائكة جبرائيل إلى زَكَرِيَّا الكاهن بينما كَانَ يرفع البخور داخل الهَيْكَلْ. وكَانَ جمهور الشَّعْبِ خارجاً وقت البخور. فَلَمَّا رَأَى زَكَرِيَّا المَلاك اضطرب وخاف، فَقَالَ لَهُ الملاك: \"لا تخف يا زَكَرِيَّا لِأنَّ طلبتك قَدْ سُمعت وامرأتك أَليصَابَات ستلد لك ابناً وتسميه يُوحَنَّا. ويكون لك فرح وابتهاج، وكَثِيرُونَ سيفرحون بولادته، لِأَنَّهُ يَكُونَ عَظِيمَاً أمَامَ الرَّبْ ومن بطن أمه يمتلىء مِنَ الرُوحِ القُدُسْ ويرد كَثِيرينْ من بَنَى إسْرائِيلْ إلى الرَّبْ إلههم، ويتقدم أَمَامَهُ برُوحِ إيليا وقوته، ليرد قلوب الآبَاءِ إلى الأبناء، والعصاة إلى فكر الأبرار ويهيىء لِلْرَبِّ شعباً مستعداً\".", 
+  "وذلك أَنَّ الله أَرْسَلَ رئيس الملائكة جبرائيل إلى زَكَرِيَّا الكاهن بَيْنَمَا كَانَ يرفع البخور داخل الهَيْكَلْ. وكَانَ جمهور الشَّعْبِ خارجاً وقت البخور. فَلَمَّا رَأَى زَكَرِيَّا المَلاك اضطرب وخاف، فَقَالَ لَهُ الملاك: \"لا تخف يا زَكَرِيَّا لِأنَّ طلبتك قَدْ سُمعت وامرأتك أَليصَابَات ستلد لك ابناً وتسميه يُوحَنَّا. ويكون لك فرح وابتهاج، وكَثِيرُونَ سيفرحون بولادته، لِأَنَّهُ يَكُونَ عَظِيمَاً أمَامَ الرَّبْ ومن بطن أمه يمتلىء مِنَ الرُوحِ القُدُسْ ويرد كَثِيرينْ من بَنَى إسْرائِيلْ إلى الرَّبْ إلههم، ويتقدم أَمَامَهُ برُوحِ إيليا وقوته، ليرد قلوب الآبَاءِ إلى الأبناء، والعصاة إلى فكر الأبرار ويهيىء لِلْرَبِّ شعباً مستعداً\".", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -1934,7 +1934,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2701&C=Title", 
   "27 Thout\nMartyre de saint Eustathe, de ses deux fils et de son épouse", 
-  " 27 توت\nاسْتِشْهَادْ القِدّيسْ أسطاثيوس وولديه وزوجته\n", 
+  " 27 توت\nاسْتِشْهَادْ القِدّيسْ أسطاثيوس وولديه وزوجته", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -1966,7 +1966,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2801&C=Title", 
   "28 Thout\nMartyre des saints Abadir et Iraï sa sœur ", 
-  " 28 توت\nاسْتِشْهَادْ القِدِّيسْينْ أبادير وإيرائى اخته\n", 
+  " 28 توت\nاسْتِشْهَادْ القِدِّيسْينْ أبادير وإيرائى اخته", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -1981,7 +1981,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Ils arrivèrent à Alexandrie et, de là, se rendirent à Antinoë (أنصنا) où ils confessèrent le Christ devant Arien (أريانوس), le gouverneur de cette ville. Ce dernier les fit torturer très durement alors que le Seigneur les fortifiait. Le Seigneur prit leurs âmes pour leur faire contempler le paradis ce qui leur prodiga encore plus de force d’endurance et de fermeté dans la Foi. En conséquence, le gouverneur rédigea la sentene et onles écapita.", 
-  "فانطلقا بفرح ليتمما ما أمرهما بِهِ الرب، ووصلا إلى الإسْكَنْدَرِيَّة ومِنْهُا إلى أنصنا حَيْثُ اعترفا أمَامَ إريانوس بِالسَيِّدِ المَسِيحِِ، فعذبهما عذابات شَدِيدَةْ، وكَانَ الرَّبْ يُقَوِّيهما في وسط هَذِهِ الآلام الشديدة وقَدْ حمل نفسيهما ليشاهدا الفردوس، فامتلأ كُلَّ مِنْهُما قوة وثباتاً. ثُمَّ كَتَبَ الوالي قضيتهما وحكم بِقَطْعِ رأسيهما فَنَالا إكليل الشِهَادَة. ", 
+  "فانطلقا بفرح ليتمما ما أمرهما بِهِ الرَبّ، ووصلا إلى الإسْكَنْدَرِيَّة ومِنْهُا إلى أنصنا حَيْثُ اعترفا أمَامَ إريانوس بِالسَيِّدِ المَسِيحِِ، فعذبهما عذابات شَدِيدَةْ، وكَانَ الرَّبْ يُقَوِّيهما في وسط هَذِهِ الآلام الشديدة وقَدْ حمل نفسيهما ليشاهدا الفردوس، فامتلأ كُلَّ مِنْهُما قوة وثباتاً. ثُمَّ كَتَبَ الوالي قضيتهما وحكم بِقَطْعِ رأسيهما فَنَالا إكليل الشِهَادَة. ", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -1998,7 +1998,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2901&C=Title", 
   "29 Thout\n1) Commémoration de l’Annonciation, la Nativité et la Résurrection;\n2) Martyre de sainte Rhipsimé et de ses sœurs ;\n3) Martyre de sainte Fébronya", 
-  " 29 توت\nتِذْكَارْ الأَعْيَادِ الثلاثة السيدية الكُبْرَى\nاسْتِشْهَادْ القِدِّيسَةْ أربسيما ومن معها\nاسْتِشْهَادْ القِدِّيسَةْ فبرونيا\n", 
+  " 29 توت\nتِذْكَارْ الأَعْيَادِ الثلاثة السيدية الكُبْرَى\nاسْتِشْهَادْ القِدِّيسَةْ أربسيما ومن معها\nاسْتِشْهَادْ القِدِّيسَةْ فبرونيا", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -2008,7 +2008,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Cette commémoration a lieu le vingt-neuvième jour de chaque mois copte à l’exception des mois de Taubi et de Méchir car ceux-ci symbolisent l’Ancien Testament puisqu’ils précèdent la fête de l’Annonciation qui a lieu le 29 Paramhat.", 
-  "ولا يَتِمَّ هَذَا الاحتفال في شهري طوبه وأمشير اللذين يرمزان إلى الناموس والأنبياء. ولأنهما يسبقان شهر برمهات الذي تمت فيه البشارة بميلاد الرَّبْ يَسْوعْ.", 
+  "ولا يَتِمَّ هَذَا الاحتفال في شهري طوبه وأمشير اللذين يرمزان إلى الناموس والأنبياء. ولأنهما يسبقان شهر برمهات الذي تمت فيه البشارة بِمِيلادِ الرَّبْ يَسْوعْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -2085,7 +2085,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=3001&C=Title", 
   "30 Thout\nCommémoration du grand miracle que le Seigneur fit en faveur de saint Athanase l’apostolique", 
-  " 30 توت\nتِذْكَارْ المعجزة التي صنعها الرَّبْ مَعَ القِدّيسْ أثناسيوس الرسولي\n", 
+  " 30 توت\nتِذْكَارْ المعجزة التي صنعها الرَّبْ مَعَ القِدّيسْ أثناسيوس الرسولي", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -2117,7 +2117,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0102&C=Title", 
   " 1er Paopi\nMartyre de sainte Anastasie", 
-  " 1 بابه\nاسْتِشْهَادْ القِدِّيسَةْ أنسطاسيه\n", 
+  " 1 بابه\nاسْتِشْهَادْ القِدِّيسَةْ أنسطاسيه", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -2149,7 +2149,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0202&C=Title", 
   "2 Paopi\nVenue en Égypte des saint Sévère, le patriarche d'Antioche ", 
-  " 2 بابه\nتِذْكَارْ مجيء القِدّيسْ ساويرس بطريرك أنطاكية إلى مِصْرْ\n", 
+  " 2 بابه\nتِذْكَارْ مجيء القِدّيسْ ساويرس بطريرك أنطاكية إلى مِصْرْ", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -2169,7 +2169,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Un jour qu'il était au désert de Scété, il entra dans une église déguisé comme un oine étange. Le prêtre, ayant déposé le pain sur l'autel, encensa l'église et toute les lectures furent dites. Au moment où il leva le drap qui recouvre l'autel (الإبروسفارين), il ne trouva pas le pain dans la patène (الصينية). Ceci le troubla profondément, alors, il se retourna vers l'assemblée et leur dit : \"Je ne trouve pas le pain dans la patène et je ne sais pas si ceci est à cause de mes péchés ou des vôtres. » Les fidèles pleurèrent mais l'nge du Seigneur apparut à cet instant et lui dit : \"Ceci n'est ni à cause de tes péchés ni des leurs. C'est parce que tu as offert le pain en présence du patriarche. » Le prêtre demanda à l'ange où il était et celui-ci le lui indiqua alors qu'il était assis dans un coin de l'église.", 
-  "وحدث أَنَّ دخل في إحدى المرات، متنكراً، إلى كِنِيسَةْ بِدِيرْ في برية شيهيت، في زى رَاهِبْ غريب. ولَمَّا وضع الكاهن القربان عَلَى المَذْبَحْ وغطاه بالإبروسفارين، وعِنْدَ بدء القداس رفع الإبروسفارين، فَلَمْ يجد قربانة الحمل في الصينية. فاضطرب والتفت إلى المصلين قائلاً: \"إني لا أجد القربانة في الصينية، ولست أدرى إن كَانَ هَذَا مِنْ أَجْلِ خطيتي أو خطيتكم\". فبكى المصلون. وللوقت ظَهَرَ مَلاكُ الرَّبِ وقَالَ للكاهن: \"ليس هَذَا لأجل خطيتك ولا خطية المصلين، بل لِأَنَّكَ رفعت القربان في حضور الأبْ البطريرك\". فَقَالَ لَهُ الكاهن: \"وأين هُوَ يا سيدي ؟\" فأشار إلَيهِ الملاك. وكَانَ القِدّيسْ ساويرس واقفاً بإحدى زوايا الكنيسة.", 
+  "وحدث أَنَّ دخل في إحدى المرات، متنكراً، إلى كِنِيسَةْ بِدِيرْ في بَرِّيَّةِ شِيهِيتْ، في زى رَاهِبْ غريب. ولَمَّا وضع الكاهن القربان عَلَى المَذْبَحْ وغطاه بالإبروسفارين، وعِنْدَ بدء القداس رفع الإبروسفارين، فَلَمْ يجد قربانة الحمل في الصينية. فاضطرب والتفت إلى المصلين قائلاً: \"إني لا أجد القربانة في الصينية، ولست أدرى إن كَانَ هَذَا مِنْ أَجْلِ خطيتي أو خطيتكم\". فبكى المصلون. وللوقت ظَهَرَ مَلاكُ الرَّبِ وقَالَ للكاهن: \"ليس هَذَا لأجل خطيتك ولا خطية المصلين، بل لِأَنَّكَ رفعت القربان في حضور الأبْ البطريرك\". فَقَالَ لَهُ الكاهن: \"وأين هُوَ يا سيدي ؟\" فأشار إلَيهِ الملاك. وكَانَ القِدّيسْ ساويرس واقفاً بإحدى زوايا الكنيسة.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -2191,7 +2191,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0302&C=Title", 
   " 3 Paopi\n1) Décès du pape Simon II, le 51ème pape de la prédication de saint Marc ;\n2) Martyre de saint Ours et saint Victor de la légion thébaine ;\n3) Martyre de saint Jean le soldat ;\n4) Décès de la reine sainte Théodora", 
-  " 3 بابه\nنِيَاحَةْ البابا سيمون الثاني البَطْرِيَرْكْ الحادي والخمسون مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة\nاسْتِشْهَادْ القِدِّيسْينْ أورسوس وبقطر مِنَ الفرقة الطيبية\nاسْتِشْهَادْ القِدّيسْ يُوحَنَّا الجُندي الأشروبي\nنِيَاحَةْ القِدِّيسَةْ ثيئودورا الملكة\n", 
+  " 3 بابه\nنِيَاحَةْ البابا سيمون الثاني البَطْرِيَرْكْ الحادي والخمسون مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة\nاسْتِشْهَادْ القِدِّيسْينْ أورسوس وبقطر مِنَ الفرقة الطيبية\nاسْتِشْهَادْ القِدّيسْ يُوحَنَّا الجُندي الأشروبي\nنِيَاحَةْ القِدِّيسَةْ ثيئودورا الملكة", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -2201,7 +2201,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Ce père naquit à Alexandrie d’une famille de notables chrétiens. Dès sa plus tendre enfance, il fût élevé dans la Foi et étudia rapidement les sciences ecclésiastiques. Lorsqu’il grandit, il choisit la vie monacale et se rendit à Scété où il s’installa dans le cloitre d’Abba Jacob (قلاية الأنبا يعقوب) qui devait le précéder et il y demeura plusieurs années pendant lesquelles il s’adonna à la prière et au jeûne délaissant les besins du corps.", 
-  "وُلِدَ هَذَا الأبْ بِمَدِينَةِ الإسْكَنْدَرِيَّةْ، مِنْ أَبَوينِ مَسيحِيَّيْنْ من أكابر المَدِينَةِ، فربياه عَلَى المبادىء القويمة، وأدباه بعلوم الكنيسة. ولَمَّا كَبُرَ اختار لنفسه سِيرَةِ الرهبنة، فقَصَدَ برية شيهيت، وتَرَّهَبَ في قلاية سلفه البابا يَعْقُوبْ البَطْرِيَرْكْ الخمسين، وتتلمذ عَلَى يَدَيْهِ عدة سنوات، أضنى فِيهَا جَسَدَهُ بِالنُسْكِ والعبادة.", 
+  "وُلِدَ هَذَا الأبْ بِمَدِينَةِ الإسْكَنْدَرِيَّةْ، مِنْ أَبَوينِ مَسيحِيَّيْنْ من أكابر المَدِينَةِ، فربياه عَلَى المبادىء القويمة، وأدباه بعلوم الكنيسة. ولَمَّا كَبُرَ اختار لنفسه سِيرَةِ الرهبنة، فقَصَدَ بَرِّيَّةِ شِيهِيتْ، وتَرَّهَبَ في قلاية سلفه البابا يَعْقُوبْ البَطْرِيَرْكْ الخمسين، وتتلمذ عَلَى يَدَيْهِ عدة سنوات، أضنى فِيهَا جَسَدَهُ بِالنُسْكِ والعبادة.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -2308,7 +2308,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0402&C=Title", 
   "4 Paopi\nMartyre de saint Bacchus, le compagnon de saint Serges", 
-  " 4 بابه\nاسْتِشْهَادْ القِدّيسْ واخس رفيق القِدّيسْ سرجيوس\n", 
+  " 4 بابه\nاسْتِشْهَادْ القِدّيسْ واخس رفيق القِدّيسْ سرجيوس", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -2335,7 +2335,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0502&C=Title", 
   "5 Paopi\n1) Martyre de saint Paul, patriarche de Constantinople ;\n2) Décès d’aba Pierre, l’évêque de Bahnassa ", 
-  " 5 بابه\nاسْتِشْهَادْ القِدّيسْ بُولِسْ بطريرك القسطنطينية\nنِيَاحَةْ الأنبا بُطْرُسْ أُسْقُفْ البهنسا\n", 
+  " 5 بابه\nاسْتِشْهَادْ القِدّيسْ بُولِسْ بطريرك القسطنطينية\nنِيَاحَةْ الأنبا بُطْرُسْ أُسْقُفْ البهنسا", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -2380,7 +2380,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Cet évêque rédigea un grand nombre de livres liturgiques. Citons ici les plus importants : (1) Les lectures et les chants de la semaine de Pâque (la semaine sainte): En effet, au début de l’ère chrétienne, la Bible était entièrement lue à l’église pendant la semaine sainte. Ceci prenait beaucoup de temps. A l’époque du pape Gabriel II (البابا غبريال الثاني), le 70ème patriarche de la prédication de saint Marc, connu sous le nom d’Ibn Tourayk (ابن تريك) (1131 – 1145 après Jésus Christ), ls fonctionnaires chrétiens n’avaient pas de jours de congés pour les chrétiens pendant la semaine de Pâque. Le pape, ayant occupé un poste de fonctionnaire, était sensible à cette situation et était conscient que les fidèles n'avaient pas le temps ni la possiblité de chômer pendant la semaine sainte ce qui leur faisait râter les lectures de cette semaine. Il entreprit, avec l’aide de moines du monastère de saint Macaire, de choisir des passages de l’ancienne et de la nouvelle alliance qui correspondent à chacune des heures de cette semaine sainte afin que chaque fidèle puisse la suivre selon ses disponibilités.", 
-  "ولهذا الأُسْقُفْ مؤلفات طقسية كَثِيرَة أهمها: أولاً قراءات وألحان البصخة المقدسة: فقد كَانَ المؤمنون في العصور القَدِيمَة يقرأون الكِتَابْ المُقَدّسْ كُلَّهُ في الكَنيسَةْ أَثْنَاءَ أسبوع الآلام، وكَانَ ذَلِكْ يستغرق وقتاً طويلاً. ولَمَّا جلس البابا غُبْرِيَالْ الثاني البابا السبعون، المعروف بابن تريك عَلَى السدة المرقسية في المدة من 1131 – 1145م. وكَانَ قبل بطريركته موظفاً عاماً في الدولة، ويعرف انشغال الناس وعدم وجود أجازات في أسبوع الآلام للمسيحيين مما يضيع عَلَى الناس فرص الاستمتاع بقراءات أسبوع الآلام الكثيرة، فَقَامَ بمعاونة بَعْضُ رهبان دير القِدّيسْ مكاريوس ببرية شيهيت بتنظيم وتدوين طقس قراءات البصخة واختار مِنَ العهدين ما يناسب كُلَّ ساعة من ساعات البصخة حَتَّى يستطيع المؤمنون متابعة القراءات حسبما تسمح بِهِ ظروفهم.", 
+  "ولهذا الأُسْقُفْ مؤلفات طقسية كَثِيرَة أهمها: أولاً قراءات وألحان البصخة المقدسة: فقد كَانَ المؤمنون في العصور القَدِيمَة يقرأون الكِتَابْ المُقَدّسْ كُلَّهُ في الكَنيسَةْ أَثْنَاءَ أسبوع الآلام، وكَانَ ذَلِكْ يستغرق وقتاً طويلاً. ولَمَّا جلس البابا غُبْرِيَالْ الثاني البابا السبعون، المعروف بابن تريك عَلَى السدة المرقسية في المدة من 1131 – 1145م. وكَانَ قبل بطريركته موظفاً عاماً في الدولة، ويعرف انشغال الناس وعدم وجود أجازات في أسبوع الآلام للمسيحيين مما يضيع عَلَى الناس فرص الاستمتاع بقراءات أسبوع الآلام الكثيرة، فَقَامَ بمعاونة بَعْضُ رهبان دير القِدّيسْ مكاريوس ببرية شِيهِيتْ بتنظيم وتدوين طقس قراءات البصخة واختار مِنَ العهدين ما يناسب كُلَّ ساعة من ساعات البصخة حَتَّى يستطيع المؤمنون متابعة القراءات حسبما تسمح بِهِ ظروفهم.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -2442,7 +2442,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0602&C=Title", 
   "6 Paopi\nDécès d’Anne la juste, la mère du prophète Samuel", 
-  " 6 بابه\nنِيَاحَةْ الصديقة حَنَّة أم صموئيل النبي\n", 
+  " 6 بابه\nنِيَاحَةْ الصديقة حَنَّة أم صموئيل النبي", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -2457,7 +2457,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Anne conçut et, le temps venu, elle enfanta un fils ; elle lui donna le nom de Samuel, c’est-à-dire : Dieu exauce, car, disait-elle : \"Je l’ai demandé au Seigneur. ». Lorsque Samuel fût sevré, Anne, le conduisit à la Maison du Seigneur pour accomplir son vœu. Elle le présenta au prêtre Eli en lui expliquant : \"je suis la femme que tu as vue assise devant toi, priant le Seigneur. J'ai prié pour obtenir cet enfant, et le Seineur a exaucé la prière que je lui avais faite. 28 Cet enfant, je le donne au Seigneur pour être tous les jours de sa vie au service du Seigneur. »", 
-  "فلم تقبل حنة عزاء، ثُمَّ صعدت إلى بَيْتِ الرب، وعالي الكاهن جالس عَلَى الكُرْسِي عِنْدَ الباب. فصلَّت إلى الرَّبْ وبكت ونذرت نذراً لِلْرَبِّ إذا أعطاها نسلاً، وقَالَت: \"إذا أعطيتني زرع بشر فإني أعطيه لك كُلَّ أَيَّامٍ حياته ولا يعلو رأسه موسى\" (1صم: 1: 11). ولَمَّا رآها عالي الكاهن واقفة ساكتة لأنها كَانَتْ تصلى بقلبِهَا فقط، ظنها سكرى، فانتهرها قائلاً: \"انزعي خمرك عنك\". فأجابت حنة وقَالَت: \"لا يا سيد إني امْرَأَةْ حزينة الرُوحِ ولَمْ أشرب خمراً ولا مسكراً. بل أسكب نفسي أمَامَ الرَّبْ من كثرة كربتي\". فَقَالَ لَهَا عالي: \"اذهبي بِسَلامْ وإله إسْرائِيلْ يعطيك سؤل قلبك\". فآمنت ومضت في طريقها، وأكلت ولَمْ يكن وجهها بَعْدَ حزيناً. ثُمَّ حبلت وولدت ابناً ودعت اسْمُهُ صموئيل وهْوَ اسْمِ عبراني معناه \"الله سمع\". ولَمَّا فطمته أصعدته إلى بَيْتِ الرَّبْ وفاء لنذرها، وقدمته إلى عالي الكاهن قائلة: \"أنا المرأة التي وَقَفَتْ تصلى إلى الرَّبْ لأجل هَذَا الصبي فأعطاني الرَّبْ سؤل قلبي. وها أنا أقدمه لِلْرَبِّ لِيَكُونَ خادماً لَهُ في بَيْتِه إلى الأبد.\"", 
+  "فلم تقبل حنة عزاء، ثُمَّ صعدت إلى بَيْتِ الرَبّ، وعالي الكاهن جالس عَلَى الكُرْسِي عِنْدَ الباب. فصلَّت إلى الرَّبْ وبكت ونذرت نذراً لِلْرَبِّ إذا أعطاها نسلاً، وقَالَت: \"إذا أعطيتني زرع بشر فإني أعطيه لك كُلَّ أَيَّامٍ حياته ولا يعلو رأسه موسى\" (1صم: 1: 11). ولَمَّا رآها عالي الكاهن واقفة ساكتة لأنها كَانَتْ تصلى بقلبِهَا فقط، ظنها سكرى، فانتهرها قائلاً: \"انزعي خمرك عنك\". فأجابت حنة وقَالَت: \"لا يا سيد إني امْرَأَةْ حزينة الرُوحِ ولَمْ أشرب خمراً ولا مسكراً. بل أسكب نفسي أمَامَ الرَّبْ من كثرة كربتي\". فَقَالَ لَهَا عالي: \"اذهبي بِسَلامْ وإله إسْرائِيلْ يعطيك سؤل قلبك\". فآمنت ومضت في طريقها، وأكلت ولَمْ يكن وجهها بَعْدَ حزيناً. ثُمَّ حبلت وولدت ابناً ودعت اسْمُهُ صموئيل وهْوَ اسْمِ عبراني معناه \"الله سمع\". ولَمَّا فطمته أصعدته إلى بَيْتِ الرَّبْ وفاء لنذرها، وقدمته إلى عالي الكاهن قائلة: \"أنا المرأة التي وَقَفَتْ تصلى إلى الرَّبْ لأجل هَذَا الصبي فأعطاني الرَّبْ سؤل قلبي. وها أنا أقدمه لِلْرَبِّ لِيَكُونَ خادماً لَهُ في بَيْتِه إلى الأبد.\"", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -2474,7 +2474,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0702&C=Title", 
   "7 Paopi\nDécès de Paul de Tammouh ", 
-  " 7 بابه\nنِيَاحَةْ القِدّيسْ الأنبا بولا الطموهي\n", 
+  " 7 بابه\nنِيَاحَةْ القِدّيسْ الأنبا بولا الطموهي", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -2494,7 +2494,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Lorsqu’abba Pichoï (أنبا بيشوي) se rendit à Antinoë (أنصنا), après que les berbères envahirent Scété pour la première fois en 407 après Jésus Christ, il fût reçu avec joie par abba Paul car l’ange u Seigneur lui avait promit qu’ils seront enterrés ensemble. En effet, abba Pichoï décéda le 7 Apip 133 des martyrs (417 après Jésus Christ) et fût enterré à Antinoë. Trois mois plus tard eût lieu le décès d’abba Paul qui fût nterré à côté d’abba Pichoï.", 
-  "ثم مَضَى البار الأنبا بيشوي إلى جبل أنصنا بَعْدَ غارة البربر الأولى عَلَى برية شيهيت سَنَةْ 407م، واستقبله القِدّيسْ بولا بفرح، لِأنَّ مَلاكُ الرَّبِ كَانَ قَدْ ظَهَرَ لَهُ وقَالَ له: \"إن جسدك سَيَكُونُ مَعَ جَسَدِ الأنبا بيشوي\". وقَدْ تَمَّ قول الملاك، إذ تَنَيَّحَ الأنبا بيشوي في 7 أبيب 133 لِلْشُهَداءِ (417م) ودُفِنَ جَسَدَهُ هُناَكَ وبعده بثلاثة شهور تَنَيَّحَ القِدّيسْ الأنبا بولا ووضعوا جَسَدَهُ بِجِوارْ جَسَدِ الأنبا بيشوي.", 
+  "ثم مَضَى البار الأنبا بيشوي إلى جبل أنصنا بَعْدَ غارة البربر الأولى عَلَى بَرِّيَّةِ شِيهِيتْ سَنَةْ 407م، واستقبله القِدّيسْ بولا بفرح، لِأنَّ مَلاكُ الرَّبِ كَانَ قَدْ ظَهَرَ لَهُ وقَالَ له: \"إن جسدك سَيَكُونُ مَعَ جَسَدِ الأنبا بيشوي\". وقَدْ تَمَّ قول الملاك، إذ تَنَيَّحَ الأنبا بيشوي في 7 أبيب 133 لِلْشُهَداءِ (417م) ودُفِنَ جَسَدَهُ هُناَكَ وبعده بثلاثة شهور تَنَيَّحَ القِدّيسْ الأنبا بولا ووضعوا جَسَدَهُ بِجِوارْ جَسَدِ الأنبا بيشوي.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -2504,7 +2504,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Lorsqu’ils arrivèrent au monastère d’abba Pichoï à Scété, ils les déposèrent côte-à-côte dans le même coffre à l’intérieur de l’église d’abba Pichoï où ils se trouvent toujours. De temps en temps des mircles et des guérisons ont lieu à cet endroit.", 
-  "ولما وَصَلُوا بهما إلى دَيْرٍ الأنبا بيشوي ببرية شيهيت، وضعوهما في صندوق واحد مَعَ بعضهما داخل كِنِيسَةْ الأنبا بيشوي. وما زالا يرقدان معاً داخل مقصورة جميلة تظهر مِنْهُا بَعْضُ المعجزات والأشفية.", 
+  "ولما وَصَلُوا بهما إلى دَيْرٍ الأنبا بيشوي ببرية شِيهِيتْ، وضعوهما في صندوق واحد مَعَ بعضهما داخل كِنِيسَةْ الأنبا بيشوي. وما زالا يرقدان معاً داخل مقصورة جميلة تظهر مِنْهُا بَعْضُ المعجزات والأشفية.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -2516,7 +2516,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0802&C=Title", 
   "8 Paopi\n1) Martyre de saint Matra;\n2) Martyre d’abba Hour et de Tossiya et leurs enfants ;\n3) Martyre d’abba Aghathon l’ermite ", 
-  " 8 بابه\nاسْتِشْهَادْ القِدّيسْ مطرا\nاسْتِشْهَادْ القِدِّيسْينْ أباهور وطوسيا وأولادهما\nنِيَاحَةْ القِدّيسْ الأنبا أغاثون المتوحد\n", 
+  " 8 بابه\nاسْتِشْهَادْ القِدّيسْ مطرا\nاسْتِشْهَادْ القِدِّيسْينْ أباهور وطوسيا وأولادهما\nنِيَاحَةْ القِدّيسْ الأنبا أغاثون المتوحد", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -2546,7 +2546,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de leurs prières soit avec nous. Amen !", 
-  "بركة صلواتهم فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة صلواتهم فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -2556,7 +2556,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Ce saint était le disciple de saint Pœmen (بيمن) dans la vallée de Scété au cours du 4ème siècle. Après le décès de sn maitre, il se mit sous la conduite de saint Arsène. Après la première attaque des barbares qui eût lieu en 410, il s’installa à Torah (جبل طرة).", 
-  "تتلمذ عَلَى القِدّيسْ بيمن ببرية شيهيت في القَرْنِ الرابع وبَعْدَ نِياحَةْ معلمه سلك بإرشاد القِدّيسْ أرسانيوس وقَدْ تَرَكَ القِدّيسْ بَعْدَ هجوم البربر الأَوَّلْ عام 410م وعَاشْ بجبل طرة (جبل طرة: جنوب القاهرة وعَاشْ بِهِ أيْضَاً فترة القِدّيسْ أرسانيوس).", 
+  "تتلمذ عَلَى القِدّيسْ بيمن ببرية شِيهِيتْ في القَرْنِ الرابع وبَعْدَ نِياحَةْ معلمه سلك بإرشاد القِدّيسْ أرسانيوس وقَدْ تَرَكَ القِدّيسْ بَعْدَ هجوم البربر الأَوَّلْ عام 410م وعَاشْ بجبل طرة (جبل طرة: جنوب القاهرة وعَاشْ بِهِ أيْضَاً فترة القِدّيسْ أرسانيوس).", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -2583,7 +2583,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0902&C=Title", 
   "9 Paopi\n1) Décès de saint Euménis, le septième pape de la prédication de saint Marc ;\n2) Commémoration de l'évêque saint Siméon et de ses compagnons", 
-  " 9 بابه\nنِيَاحَةْ البابا أومانيوس البَطْرِيَرْكْ السابع مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة\nتِذْكَارْ اسْتِشْهَادْ القِدّيسْ سَمْعَانْ الأُسْقُفْ ورفقائه\n", 
+  " 9 بابه\nنِيَاحَةْ البابا أومانيوس البَطْرِيَرْكْ السابع مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة\nتِذْكَارْ اسْتِشْهَادْ القِدّيسْ سَمْعَانْ الأُسْقُفْ ورفقائه", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -2635,7 +2635,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1002&C=Title", 
   "10 Paopi\nMartyre de saint Serges le compagnon de saint Bacchus ", 
-  " 10 بابه\nاسْتِشْهَادْ القِدّيسْ سرجيوس رفيق واخس\n", 
+  " 10 بابه\nاسْتِشْهَادْ القِدّيسْ سرجيوس رفيق واخس", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -2677,7 +2677,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1102&C=Title", 
   "11 Paopi\n1) Décès de saint Jacques, patriarche d’Antioche ;\n2) Décès de sainte Pélagie, la pénitente", 
-  " 11 بابه\nنِيَاحَةْ الأنبا يَعْقُوبْ بطريرك أنطاكية\nنِيَاحَةْ القِدِّيسَةْ بيلاجية التائبة\n", 
+  " 11 بابه\nنِيَاحَةْ الأنبا يَعْقُوبْ بطريرك أنطاكية\nنِيَاحَةْ القِدِّيسَةْ بيلاجية التائبة", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -2729,12 +2729,12 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1202&C=Title", 
   " 12 Paopi\n1) Commémoration de l'archane Michel ;\n2) Martyre de saint Matthieu l'évangéliste ;\n3) Décès de saint Démétrios 1er le 12ème pape d'Alexandrie", 
-  " 12 بابه\nتِذْكَارْ رئيس الملائكة الجليل ميخائيل\nاسْتِشْهَادْ القِدّيسْ متى الإنجيلي المبشر\nنِيَاحَةْ البابا القِدّيسْ ديمتريوس الكرام البَطْرِيَرْكْ الثاني عَشَرْ مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة\n", 
+  " 12 بابه\nتِذْكَارْ رئيس الملائكة الجليل ميخائيل\nاسْتِشْهَادْ القِدّيسْ متى الإنجيلي المبشر\nنِيَاحَةْ البابا القِدّيسْ ديمتريوس الكرام البَطْرِيَرْكْ الثاني عَشَرْ مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة", 
   ],
   [
   Prefix.same+"&C=NoActor", 
   "Le 12ème jour de chaque mois copte nous commémorons l’archange Michel, le chef des troupes célestes. Il se tient devant le trône céleste de Dieu et intercède pour le genre humain.", 
-  "تُعيِّد الكَنيسَةْ في هَذَا اليُومْ من كُلَّ شهر قبطي بتِذْكَارْ رئيس الملائكة الجليل ميخائيل رئيس الأجناد السماوية. القائم كُلَّ حين أمَامَ كُرْسِي العظمة الإلهية يشفع في جنس البشر.شفاعته المُقَدَّسَةْ فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "تُعيِّد الكَنيسَةْ في هَذَا اليُومْ من كُلَّ شهر قبطي بتِذْكَارْ رئيس الملائكة الجليل ميخائيل رئيس الأجناد السماوية. القائم كُلَّ حين أمَامَ كُرْسِي العظمة الإلهية يشفع في جنس البشر.شفاعته المُقَدَّسَةْ فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -2789,7 +2789,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Ce père naquit à Ahnassia-la-ville (أهناسيا المدينة). Il était un paysan analphabète qui travaillait comme vigneron dans les vignobles d’Alexandrie. Il était marié mais a vécu avec son épouse dans la chasteté.", 
-  "وُلِدَ هَذَا القِدّيسْ بأهناسيا المَدِينَةِ (أهناسيا المَدِينَةِ: مدينة أثرية مازالت موجودة بنفس اسْمَهَا وهي إحدى مراكز مُحَافَظَة بَنَى سويف) وكَانَ فَلَّاحَاً أمياً، متزوجاً وقَدْ عاش مَعَ امرأته في بتولية كاملة في عفة ونقاوة في مَدِينَةِ الإسْكَنْدَرِيَّة يَعْمَلْ كرَّاماً في بساتينها.", 
+  "وُلِدَ هَذَا القِدّيسْ بأهناسيا المَدِينَةِ (أهناسيا المَدِينَةِ: مدينة أثرية مازالت موجودة بِنَفْسِ اسْمَهَا وهي إحدى مراكز مُحَافَظَة بَنَى سويف) وكَانَ فَلَّاحَاً أمياً، متزوجاً وقَدْ عاش مَعَ امرأته في بتولية كاملة في عفة ونقاوة في مَدِينَةِ الإسْكَنْدَرِيَّة يَعْمَلْ كرَّاماً في بساتينها.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -2826,7 +2826,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1302&C=Title", 
   "13 Paopi\nDécès de saint Zacharie, le moine", 
-  " 13 بابه\nنِيَاحَةْ القِدّيسْ زَكَرِيَّا الراهب\n", 
+  " 13 بابه\nنِيَاحَةْ القِدّيسْ زَكَرِيَّا الراهب", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -2836,7 +2836,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Son père, prénommé Carion(قاريون) était marié et avait aussi une fille. Il désira mener une vie de moine et en discuta avec sa femme qui accepta. Il laissa les deux enfants avec elle et partit à Scété s’installant comme moine auprès d’un ancien.", 
-  "كان أبوه يُدعى قاريون ولَكِنَّهُ اشتاق إلى الرهبنة، فكاشف زَوْجَتَهُ بِمَا في فكره فوافقته عَلَى ذَلِكْ وكَانَ لَهُ ابْنِ وابنة تركهما مَعَ والدتهما وذهب إلى برية شيهيت حَيْثُ تَرَهَّبَ عِنْدَ شَيْخ قديس.", 
+  "كان أبوه يُدعى قاريون ولَكِنَّهُ اشتاق إلى الرهبنة، فكاشف زَوْجَتَهُ بِمَا في فكره فوافقته عَلَى ذَلِكْ وكَانَ لَهُ ابْنِ وابنة تركهما مَعَ والدتهما وذهب إلى بَرِّيَّةِ شِيهِيتْ حَيْثُ تَرَهَّبَ عِنْدَ شَيْخ قديس.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -2873,7 +2873,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1402&C=Title", 
   "14 Paopi\nDécès de Saint Philippe l’un des sept diacres ", 
-  " 14 بابه\nنِيَاحَةْ القِدّيسْ فيلبس أحَدْ الشمامسة السبعة\n", 
+  " 14 بابه\nنِيَاحَةْ القِدّيسْ فيلبس أحَدْ الشمامسة السبعة", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -2920,7 +2920,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1502&C=Title", 
   " 15 Paopi\nMartyre de saint Pantéléïmôn, le médecin", 
-  " 15 بابه\nاسْتِشْهَادْ بندلائيمون الطبيب\n", 
+  " 15 بابه\nاسْتِشْهَادْ بندلائيمون الطبيب", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -2957,7 +2957,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1602&C=Title", 
   "16 Paopi\n1) Décès de saint Agathon le trente-neuvième pape d'Alexandrie ;\n2) Commémoration des saints Carpus, Apollos et Pierre ", 
-  " 16 بابه\nنِيَاحَةْ القِدّيسْ البابا الأنبا أغاثون، البَطْرِيَرْكْ التاسع والثلاثون مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة\nتِذْكَارْ القِدِّيسْينْ كاربوس وأبولوس وبطرس\n", 
+  " 16 بابه\nنِيَاحَةْ القِدّيسْ البابا الأنبا أغاثون، البَطْرِيَرْكْ التاسع والثلاثون مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة\nتِذْكَارْ القِدِّيسْينْ كاربوس وأبولوس وبطرس", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -2977,7 +2977,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "A l'époque de ce patriarche fût achevée la construction de l'église de saint Macaire dans son monastère e Scété", 
-  "وفي زمن هَذَا البابا كملت عمارة كِنِيسَةْ القِدّيسْ مكاريوس بديره ببرية شيهيت.", 
+  "وفي زمن هَذَا البابا كملت عمارة كِنِيسَةْ القِدّيسْ مكاريوس بديره ببرية شِيهِيتْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -3004,7 +3004,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1702&C=Title", 
   "17 Paopi\nDécès du pape Dioscore II le 31ème patriarche de la prédication de saint Marc", 
-  " 17 بابه\nنِيَاحَةْ البابا الأنبا ديوسقوروس الثاني البَطْرِيَرْكْ الحادي والثلاثين مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة\n", 
+  " 17 بابه\nنِيَاحَةْ البابا الأنبا ديوسقوروس الثاني البَطْرِيَرْكْ الحادي والثلاثين مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -3041,7 +3041,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1802&C=Title", 
   "18 Paopi\nDécès du pape saint Théophile le 23ème patriarche de la prédication de sant Marc", 
-  " 18 بابه\nنِيَاحَةْ البابا القِدّيسْ ثاؤفيلس البَطْرِيَرْكْ الثَالِثْ والعشرين مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة\n", 
+  " 18 بابه\nنِيَاحَةْ البابا القِدّيسْ ثاؤفيلس البَطْرِيَرْكْ الثَالِثْ والعشرين مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -3098,7 +3098,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1902&C=Title", 
   "19 Paopi\n1) Martyre à Fayoum de saint Théophile et de sa femme ;\n2) Tenue du concile d’Antioche pour juger Paul de Samosate ", 
-  " 19 بابه\nاسْتِشْهَادْ القِدّيسْ ثاؤفيلس وزوجته بالفيوم\nعقد مَجْمَعَ بأنطاكية لمحاكمة بُولِسْ الساموساطي\n", 
+  " 19 بابه\nاسْتِشْهَادْ القِدّيسْ ثاؤفيلس وزوجته بالفيوم\nعقد مَجْمَعَ بأنطاكية لمحاكمة بُولِسْ الساموساطي", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -3150,7 +3150,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2002&C=Title", 
   "20 Paopi\nDécès de saint Jean Colobos ", 
-  " 20 بابه\nنِيَاحَةْ القِدّيسْ يُوحَنَّا القصير\n", 
+  " 20 بابه\nنِيَاحَةْ القِدّيسْ يُوحَنَّا القصير", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -3160,7 +3160,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "A l’âge de dix-huit ans, il fût animé par la grâce divine et se rendit à Scété où il rencontra un ancien, abba Pambo (أنبا بموا)qui était un saint homme. Il se prosterna devant lui et lui demanda s’il pouvait demeurer auprès de lui.", 
-  "فَلَمَّا بَلَغَ الثامنة عشرة، حركته نعمة الله أَنَّ يمضى إلى برية شيهيت مشتاقاً إلى حَيَاةِ الرُهْبَانية، فتقابل مَعَ رَاهِبْ شَيْخ قِدِّيسْ هُوَ الأنبا بموا، فسجد لَهُ وسأله أَنَّ يسمح بإقامته عنده.", 
+  "فَلَمَّا بَلَغَ الثامنة عشرة، حركته نعمة الله أَنَّ يمضى إلى بَرِّيَّةِ شِيهِيتْ مشتاقاً إلى حَيَاةِ الرُهْبَانية، فتقابل مَعَ رَاهِبْ شَيْخ قِدِّيسْ هُوَ الأنبا بموا، فسجد لَهُ وسأله أَنَّ يسمح بإقامته عنده.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -3195,7 +3195,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Lorsqu’il eût accompli son bon combat il décéda en paix à Colzim. Plus tard ses enfants spirituels transférèrent sa dépouille à Scété. Ses reliques se trouvent actuellement au monastère de saint Macaire le grand et Dieu fit un grand nombre de miracles par son intermédiaire.", 
-  "ولما أكْمَلَ سعيه الحسن تَنَيَّحَ بِسَلامْ في مغارته بجبل القلزم، وبَعْدَ ذَلِكْ حمله أولاده إلى برية شيهيت (يوجد جَسَدَهُ الآن في أنبوبة خاصة داخل مقصورة الثَلاثْ مقارات بِدِيرْ الأنبا مكاريوس الكبير ببرية شيهيت)، وقد أجرى الله مِنْ جَسَدَهُ المُقَدّسْ معجزات كَثِيرَةْ.", 
+  "ولما أكْمَلَ سعيه الحسن تَنَيَّحَ بِسَلامْ في مغارته بجبل القلزم، وبَعْدَ ذَلِكْ حمله أولاده إلى بَرِّيَّةِ شِيهِيتْ (يوجد جَسَدَهُ الآن في أنبوبة خاصة داخل مقصورة الثَلاثْ مقارات بِدِيرْ الأنبا مكاريوس الكبير ببرية شِيهِيتْ)، وقد أجرى الله مِنْ جَسَدَهُ المُقَدّسْ معجزات كَثِيرَةْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -3247,7 +3247,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Nous commémorons aussi en ce jour le transfert des reliques de Lazare (لعازر), le bien-aimé de nôtre Seigneur Jésus Christ, celui qu’Il a ressuscité d’entre les morts.", 
-  "وفيه أيْضَاً تُعَيِِّدُ الكَنيسَةْ بتِذْكَارْ نَقْلِ جَسَد لعازر حبيب الرب، الذي أقامه من بَيْنَ الأموات.", 
+  "وفيه أيْضَاً تُعَيِِّدُ الكَنيسَةْ بتِذْكَارْ نَقْلِ جَسَد لعازر حبيب الرَبّ، الذي أقامه من بَيْنَ الأموات.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -3324,7 +3324,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2202&C=Title", 
   "22 Paopi\nMartyre de Saint Luc l'évangéliste ", 
-  " 22 بابه\nاسْتِشْهَادْ القِدّيسْ لوقا الإنجيلي\n", 
+  " 22 بابه\nاسْتِشْهَادْ القِدّيسْ لوقا الإنجيلي", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -3381,7 +3381,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2302&C=Title", 
   "23 Paopi\n1) Martyre de saint Denys, évêque de Corinthe ;\n2) Décès du pape Joseph 1er, le cinquante-deuxième patriarche de la prédication de saint Marc", 
-  " 23 بابه\nاسْتِشْهَادْ القِدّيسْ ديونيسيوس أُسْقُفْ كورنثوس\nنِيَاحَةْ البابا يوساب الأَوَّلْ البَطْرِيَرْكْ الثاني والخمسين مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة\n", 
+  " 23 بابه\nاسْتِشْهَادْ القِدّيسْ ديونيسيوس أُسْقُفْ كورنثوس\nنِيَاحَةْ البابا يوساب الأَوَّلْ البَطْرِيَرْكْ الثاني والخمسين مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -3406,7 +3406,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Ce saint était issu de la ville de Ménouf (منوف) et était fils unique. Ses parents décédèrent alors qu’il était encore jeune et il fût élevé par un notable chez qui il vécut heureux. Lorsqu’il grandit, il fût attiré par la vie monatique et se rendit chez le pape Marc II et lui soumit son souhait. Celui-ci en fût très heureux et l’envoya au monastère saint Macaire au désert de Scété où il se fit moine sous la conduite d'un ancien.", 
-  "كان ابناً وحيداً لأبويه في مَدِينَةِ منوف بِمُحَافَظَةِ المنوفية، ومات أبواه وهْوَ طفل فاهتم بتربيته رَجُلٍ غنى، عاش يوساب عنده سعيداً. ولَمَّا كَبُرَ اشتاق إلى حَيَاةِ الرَهْبَانِيَّة فذهب إلى الأبْ البَطْرِيَرْكْ البابا مَرْقُسْ الثاني، وأطلعه عَلَى رغبته، ففرح بِهِ وأرسله إلى دَيْرٍ القِدّيسْ مكاريوس ببرية شيهيت وتَرَّهَبَ عِنْدَ شَيْخ قديس.", 
+  "كان ابناً وحيداً لأبويه في مَدِينَةِ منوف بِمُحَافَظَةِ المنوفية، ومات أبواه وهْوَ طفل فاهتم بتربيته رَجُلٍ غنى، عاش يوساب عنده سعيداً. ولَمَّا كَبُرَ اشتاق إلى حَيَاةِ الرَهْبَانِيَّة فذهب إلى الأبْ البَطْرِيَرْكْ البابا مَرْقُسْ الثاني، وأطلعه عَلَى رغبته، ففرح بِهِ وأرسله إلى دَيْرٍ القِدّيسْ مكاريوس ببرية شِيهِيتْ وتَرَّهَبَ عِنْدَ شَيْخ قديس.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -3438,7 +3438,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2402&C=Title", 
   "24 Paopi\n1) Décès du moine saint Hilarion le grand ;\n2) Martyre de sant Paul, saint Longin et sainte Dina ", 
-  " 24 بابه\nنِيَاحَةْ القِدّيسْ إيلاريون الكبير الراهب\nاسْتِشْهَادْ القِدِّيسْينْ بُولِسْ ولُونجينوس ودينة\n", 
+  " 24 بابه\nنِيَاحَةْ القِدّيسْ إيلاريون الكبير الراهب\nاسْتِشْهَادْ القِدِّيسْينْ بُولِسْ ولُونجينوس ودينة", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -3490,7 +3490,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2502&C=Title", 
   "25 Paopi\n1) Décès de saint Abib l’ami de saint Apollo ;\n2) Conscration de l’église de Saint Jules d’Akfahs ", 
-  " 25 بابه\nنِيَاحَةْ القِدّيسْ أبيب صديق القِدّيسْ أبوللو\nتَكّرْيسِ كِنِيسَةْ الشَهْيدِ يوليوس الأقفهصي كاتب سير الشهداء\n", 
+  " 25 بابه\nنِيَاحَةْ القِدّيسْ أبيب صديق القِدّيسْ أبوللو\nتَكّرْيسِ كِنِيسَةْ الشَهْيدِ يوليوس الأقفهصي كاتب سير الشهداء", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -3505,7 +3505,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Lorsque son père tomba malade et qu’il sentit approcher son départ de ce monde, il fit venir Abib et lui demada de lui pardonner ses reproches et de prier pour lui afin que Dieu ne le juge pas pour les difficultés qu’il lui a faite subir. Il avoua qu’il se conduisait selon des penchants terrestres tandis qu’Abib ne recherchait que Dieu seul. Puis réunissant ses autres enfants il leur dit qu’ils doivent considérer Abib comme leur père, leur guide, leur conseillant d’avoir une conscience vive comme il le leur dira. Tous furent affectés par ce qui leur était dit et l’éternité se révéla à eux tandis que leur père rendait l’âme.", 
-  "اشتد المرض بوالده. ولَمَّا حضرته الوفاة، ناداه وقَالَ له: \"صلِّ يا بَنَى إلى الرَّبْ لِكَيّْ لا يحاسبني عَلَى ما سببته لك من أحزان ومضايقات. لقد كنت أنت تطلب الله وحده، أما أنا فكنت أسلك بمفاهيم بشرية \". وأمسك بيدي ابنه وبكى، ثُمَّ جمع أولاده، وأشار إلى أبيب قائلاً: \"من الآن هَذَا هُوَ أبوكم ومعلمكم. اسلكوا بضمير حي كَمَا يقول لكم\". تأثر الأبناء جداً، وتجلَّت الأَبَدِيََة أمَامَ أعينهم، بينما كَانَ والدهم يسلم الروح.", 
+  "اشتد المرض بوالده. ولَمَّا حضرته الوفاة، ناداه وقَالَ له: \"صلِّ يا بَنَى إلى الرَّبْ لِكَيّْ لا يحاسبني عَلَى ما سببته لك من أحزان ومضايقات. لقد كنت أنت تطلب الله وحده، أما أنا فكنت أسلك بمفاهيم بشرية \". وأمسك بيدي ابنه وبكى، ثُمَّ جمع أولاده، وأشار إلى أبيب قائلاً: \"من الآن هَذَا هُوَ أبوكم ومعلمكم. اسلكوا بضمير حي كَمَا يقول لكم\". تأثر الأبناء جداً، وتجلَّت الأَبَدِيََة أمَامَ أعينهم، بَيْنَمَا كَانَ والدهم يسلم الروح.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -3552,7 +3552,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2602&C=Title", 
   "26 Paopi\n1) Martyre de saint Timon, le disciple et le diacre ;\n2) Commémoration des 7 martyrs de la montagne de saint Antoine ", 
-  " 26 بابه\nاسْتِشْهَادْ القِدّيسْ تيمون الرسول، أحَدْ السبعين، وأحد الشمامسة السبعة\nتِذْكَارْ السبعة الشُهَدَاءْ بجبل أنطونيوس\n", 
+  " 26 بابه\nاسْتِشْهَادْ القِدّيسْ تيمون الرسول، أحَدْ السبعين، وأحد الشمامسة السبعة\nتِذْكَارْ السبعة الشُهَدَاءْ بجبل أنطونيوس", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -3589,12 +3589,12 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2702&C=Title", 
   "27 Paopi\nMartyre de saint Macaire, évêque de Qaw ", 
-  " 27 بابه\nاسْتِشْهَادْ القِدّيسْ مكاريوس أُسْقُفْ قاو\n", 
+  " 27 بابه\nاسْتِشْهَادْ القِدّيسْ مكاريوس أُسْقُفْ قاو", 
   ],
   [
   Prefix.same+"&C=NoActor", 
   "En ce jour de l’an 267 des martyrs (451 aprs Jésus Christ) eût lieu le martyre de saint Macaire (القديس مكاريوس), l’évêque de Qaw (قاو). ", 
-  "في مِثْلِ هَذا اليَومْ مِنْ سَنَةْ 267 لِلْشُهَداءِ (451م) اسْتَشْهَدَ القِدّيسْ مكاريوس أُسْقُفْ قاو (قاو: قرية ما زالت بنفس اسْمَهَا القديم في مركز البداري مُحَافَظَة أسيوط، وكَانَتْ أحياناً تُنطق إدكو أو إدكاو).", 
+  "في مِثْلِ هَذا اليَومْ مِنْ سَنَةْ 267 لِلْشُهَداءِ (451م) اسْتَشْهَدَ القِدّيسْ مكاريوس أُسْقُفْ قاو (قاو: قرية ما زالت بِنَفْسِ اسْمَهَا القديم في مركز البداري مُحَافَظَة أسيوط، وكَانَتْ أحياناً تُنطق إدكو أو إدكاو).", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -3619,7 +3619,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Les fidèles emportèrent son corps et le déposèrent auprès de ceux de saint Jean le baptiste (يوحنا المعمدان) et du prophète Elysée (اليشع النبي) pour que s’accomplisse ce que ces deux saints lui avaient prédit en songe en lui disant que son corps sera avec les leurs. Ces reliques se trouvent actuellement au monastère de saint Macaire le grand à Scété auprès de celles des trois saints Macaire et de clles de saint Jean Colobos.", 
-  "أَخَذَ المؤمنون جَسَدَهُ الطَاهِر وجعلوه مَعَ جسديّ يُوحَنّا المِعْمِدَانْ وأليشع النبي، فتحقق بِذَلِكَ ما قَالَه هذان القِدِّيْسْان لهذا الأبْ لأسقف في الرؤيا: أَنَّ جَسَدَهُ سَيَكُونُ مَعَ جسديهما ومازال جَسَدَهُ موجوداً في مقصورة بِدِيرْ القِدّيسْ مكاريوس الكبير ببرية شيهيت تحوى أَجْسَادَ الثلاثة مقارات والقديس يُوحَنَّا القصير.", 
+  "أَخَذَ المؤمنون جَسَدَهُ الطَاهِر وجعلوه مَعَ جسديّ يُوحَنّا المِعْمِدَانْ وأليشع النبي، فتحقق بِذَلِكَ ما قَالَه هذان القِدِّيْسْان لهذا الأبْ لأسقف في الرؤيا: أَنَّ جَسَدَهُ سَيَكُونُ مَعَ جسديهما ومازال جَسَدَهُ موجوداً في مقصورة بِدِيرْ القِدّيسْ مكاريوس الكبير ببرية شِيهِيتْ تحوى أَجْسَادَ الثلاثة مقارات والقديس يُوحَنَّا القصير.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -3631,7 +3631,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2802&C=Title", 
   "28 Paopi\nMartyre des saints Marcien et Mercure ", 
-  " 28 بابه\nاسْتِشْهَادْ القِدِّيسْينْ مركيانوس ومركوريوس\n", 
+  " 28 بابه\nاسْتِشْهَادْ القِدِّيسْينْ مركيانوس ومركوريوس", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -3653,7 +3653,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2902&C=Title", 
   "29 Paopi\n1) Commémoration des 3 fêtes du Seigneur : l’annonciation, la nativité et Pâques ;\n2) Martyre de saint Dimitri de Thessalonique ;\n3) Décès du pape Gabriel VII, le 95ème patriarche de la prédication de saint Marc ", 
-  " 29 بابه\nتِذْكَارْ الأَعْيَادِ الثلاثة السيدية \" البشارة والميلاد والقيامة \"اسْتِشْهَادْ القِدّيسْ ديمتريوس التسالونيكي\nنِيَاحَةْ البابا القِدّيسْ غُبْرِيَالْ السابع البَطْرِيَرْكْ الخامس والتسعين مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة\n", 
+  " 29 بابه\nتِذْكَارْ الأَعْيَادِ الثلاثة السيدية \" البشارة والميلاد والقيامة \"اسْتِشْهَادْ القِدّيسْ ديمتريوس التسالونيكي\nنِيَاحَةْ البابا القِدّيسْ غُبْرِيَالْ السابع البَطْرِيَرْكْ الخامس والتسعين مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -3693,7 +3693,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Ce saint naquit à Manchiet-aldeir-almouharrak (منشية الدير المحرق). Ses parents lui donnèrent une bonne éducation chrétienne et, lorsqu’il grandit, il s’enrôla au monastère de la sainte ierge plus connu sous le nom d’al-Souryân (السريان) et il y eût une conduite irréprochable.", 
-  "وُلِدَ هَذَا القِدّيسْ بمنشية الدير المُحَرَّقْ بِاسْمِ روفائيل. رَبَّاهُ أبواه تَرْبِيَةً مِسِيحِيَّةْ حقيقية، ولَمَّا كَبُرَ مَضَى وتَرَّهَبَ بِدِيرْ القِدِّيسَةْ العَذْرَاءْ المعروف بالسريان في برية شيهيت وسَارَ سِيرَةِ رَهْبانِيَّةً فَاضِلَة.", 
+  "وُلِدَ هَذَا القِدّيسْ بمنشية الدير المُحَرَّقْ بِاسْمِ روفائيل. رَبَّاهُ أبواه تَرْبِيَةً مِسِيحِيَّةْ حقيقية، ولَمَّا كَبُرَ مَضَى وتَرَّهَبَ بِدِيرْ القِدِّيسَةْ العَذْرَاءْ المعروف بالسريان في بَرِّيَّةِ شِيهِيتْ وسَارَ سِيرَةِ رَهْبانِيَّةً فَاضِلَة.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -3715,7 +3715,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=3002&C=Title", 
   "30 Paopi\n1) Apparition de la tête de saint Marc, l'évangéliste et Consécration de son église ;\n2) Décès de saint Abraham l'ermite ", 
-  " 30 بابه\nظهور رأس القِدّيسْ مِارِ مَرْقُسْ الإنجيلي الرسول، وتَكّرْيسِ كنيسته\nنِيَاحَةْ القِدّيسْ إبراهيم المنوفي المتوحد\n", 
+  " 30 بابه\nظهور رأس القِدّيسْ مِارِ مَرْقُسْ الإنجيلي الرسول، وتَكّرْيسِ كنيسته\nنِيَاحَةْ القِدّيسْ إبراهيم المنوفي المتوحد", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -3782,7 +3782,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0103&C=Title", 
   "1er Athor\n1) Commémoration de saint Cléopas, un des deux disciples d’Emmaüs ;\n2) Martre de saint Cyriaque, évêque de Jérusalem, et de sa mère ;\n3) Martyre des saints Maxime, Numitius, Victor et Philippe ;\n4) Martyre de sainte Anastasie la grande et de saint Cyrille", 
-  " 1 هاتور\nاسْتِشْهَادْ القِدّيسْ كليوباس الرسول أحَدْ تلميذي عمواس\nاسْتِشْهَادْ القِدّيسْ كيرياكوس أُسْقُفْ أورشليم ووالدته\nاسْتِشْهَادْ القِدِّيسْينْ مكسيموس ونوميتيوس وبقطر وفيلبس\nاسْتِشْهَادْ القِدِّيسَةْ أنسطاسية الكبيرة، والقديس كيرلس\n", 
+  " 1 هاتور\nاسْتِشْهَادْ القِدّيسْ كليوباس الرسول أحَدْ تلميذي عمواس\nاسْتِشْهَادْ القِدّيسْ كيرياكوس أُسْقُفْ أورشليم ووالدته\nاسْتِشْهَادْ القِدِّيسْينْ مكسيموس ونوميتيوس وبقطر وفيلبس\nاسْتِشْهَادْ القِدِّيسَةْ أنسطاسية الكبيرة، والقديس كيرلس", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -3884,7 +3884,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0203&C=Title", 
   "2 Athor\n1) Décès du pape Pierre III, le 27ème patriarche de la prédication de Saint Marc ;\n2) Martyre de Saint Macaire, le libyen ;\n3) Décès de Saint Ephramios d’Edesse", 
-  " 2 هاتور\nنِيَاحَةْ البابا بُطْرُسْ الثَالِثْ البَطْرِيَرْكْ السابع والعشرين مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة\nاسْتِشْهَادْ القِدّيسْ مقار الليـبي\nنِيَاحَةْ القِدّيسْ أفراميوس الرهاوى\n", 
+  " 2 هاتور\nنِيَاحَةْ البابا بُطْرُسْ الثَالِثْ البَطْرِيَرْكْ السابع والعشرين مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة\nاسْتِشْهَادْ القِدّيسْ مقار الليـبي\nنِيَاحَةْ القِدّيسْ أفراميوس الرهاوى", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -3971,7 +3971,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0303&C=Title", 
   "3 Athor\n1) Martyre de Saint Athanase et sa sœur Irène ;\n2) Martyre de Saint Agathon ;\n3) Décès de Saint Cyriaque de Corinthe ", 
-  " 3 هاتور\nاسْتِشْهَادْ القِدّيسْ أثناسيوس وأُخْتَهُ إيرينى\nاسْتِشْهَادْ القِدّيسْ أغاثون\nنِيَاحَةْ القِدّيسْ كيرياكوس من أهل كورنثوس\n", 
+  " 3 هاتور\nاسْتِشْهَادْ القِدّيسْ أثناسيوس وأُخْتَهُ إيرينى\nاسْتِشْهَادْ القِدّيسْ أغاثون\nنِيَاحَةْ القِدّيسْ كيرياكوس من أهل كورنثوس", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -4043,7 +4043,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0403&C=Title", 
   "4 Athor\n1) Martyre des saints Jean et Jacques, les évêques de Perse ;\n2) Martyr de Saint Thomas, l’évêque ;\n3) Martyre des Saints Epimaque et Gordien ", 
-  " 4 هاتور\nاسْتِشْهَادْ القِدِّيسْينْ يُوحَنَّا ويعقوب أسقفيّ فارس\nاسْتِشْهَادْ الأنبا توماس الأسقف\nاسْتِشْهَادْ القِدِّيْسَْيْن أبيماخوس وعزاريانوس\n", 
+  " 4 هاتور\nاسْتِشْهَادْ القِدِّيسْينْ يُوحَنَّا ويعقوب أسقفيّ فارس\nاسْتِشْهَادْ الأنبا توماس الأسقف\nاسْتِشْهَادْ القِدِّيْسَْيْن أبيماخوس وعزاريانوس", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -4105,7 +4105,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0503&C=Title", 
   " 5 Athor\n1) Apparition de la tête de Saint Longin, le soldat ;\n2) Martyre de saint Timothée ;\n3)  Transfert des reliques de Saint Théodore à Choteb ;\n4) Décès de Saint Joseph au mont Chamah", 
-  " 5 هاتور\nظهور رأس القِدّيسْ لُونجينوس الجُندي\nاسْتِشْهَادْ القِدّيسْ تِيمُوثَاوُسْ وزوجته مورا\nنقل جَسَدِ الأمير تَادْرُسْ الشُطبى إلى بلدة شُطب\nنِيَاحَةْ القِدّيسْ يوساب بجبل شامة\n", 
+  " 5 هاتور\nظهور رأس القِدّيسْ لُونجينوس الجُندي\nاسْتِشْهَادْ القِدّيسْ تِيمُوثَاوُسْ وزوجته مورا\nنقل جَسَدِ الأمير تَادْرُسْ الشُطبى إلى بلدة شُطب\nنِيَاحَةْ القِدّيسْ يوساب بجبل شامة", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -4150,7 +4150,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de leurs prières soit avec nous. Amen !", 
-  "بركة صلواتهما فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة صلواتهما فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -4185,7 +4185,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Plus tard Joseph tomba malade et s’endormit dans le Seigneur. Lorsqu’ils le mirent en terre Eli leur demanda d’élargir la tombe pour qu’elle puisse contenir deux personnes. Ils comprirent que son départ de ce monde était proche. En effet, il tomba malade et décéda en paix.", 
-  "مَرِضِ القِدّيسْ يوساب ورقد في الرب، فتأثر معلمه تأثراً كبيراً وقَالَ للذين يدفنونه، أوسعوا القَبْرِ ليسع لاثنين، فأدركوا أَنَّ حَيَاةِ القِدّيسْ إلياس قَدْ قربت مِنَ الانتهاء. وفعلاً مَرَض بَعْدَ قليل وتَنَيَّحَ بِسَلامٍ.", 
+  "مَرِضِ القِدّيسْ يوساب ورقد في الرَبّ، فتأثر معلمه تأثراً كبيراً وقَالَ للذين يدفنونه، أوسعوا القَبْرِ ليسع لاثنين، فأدركوا أَنَّ حَيَاةِ القِدّيسْ إلياس قَدْ قربت مِنَ الانتهاء. وفعلاً مَرَض بَعْدَ قليل وتَنَيَّحَ بِسَلامٍ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -4254,7 +4254,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0703&C=Title", 
   "7 Athor\n1) Consécration de l'église de Saint Georges de Cappadoce ;\n2) Martyre de Saint Georges d'Alexandrie ;\n3) Martyre de Saint Nehroua ;\n4) Martyre des saints Akepsimas, Aithala et Joseph ;\n5) Décès de saint Menas, l'évêque de Thmouï ", 
-  " 7 هاتور\nتَكّرْيسِ كِنِيسَةْ الشَهْيدِ العَظِيمْ مِارِ جرجس الروماني باللدّ\nاسْتِشْهَادْ القِدّيسْ مِارِ جرجس الإسكندري\nاسْتِشْهَادْ الأنبا نهروه\nاسْتِشْهَادْ القِدِّيسْينْ أكبسيما وإيتالا ويوسف\nنِيَاحَةْ القِدّيسْ الأنبا مينا أُسْقُفْ تَمى الأَمْدِيدْ\n", 
+  " 7 هاتور\nتَكّرْيسِ كِنِيسَةْ الشَهْيدِ العَظِيمْ مِارِ جرجس الروماني باللدّ\nاسْتِشْهَادْ القِدّيسْ مِارِ جرجس الإسكندري\nاسْتِشْهَادْ الأنبا نهروه\nاسْتِشْهَادْ القِدِّيسْينْ أكبسيما وإيتالا ويوسف\nنِيَاحَةْ القِدّيسْ الأنبا مينا أُسْقُفْ تَمى الأَمْدِيدْ", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -4391,7 +4391,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0803&C=Title", 
   " 8 Athor\n1) Commémoration des quatre vivants incorporels ;\n2) Martyre de Saint Nikandros, le pêtre de Myre ;\n3) Décès du père Piryos, le directeur de l’écolethéologique d’Alexandrie", 
-  " 8 هاتور\nتِذْكَارْ الأربعة مخلوقات الحية غير المتجسدين\nاسْتِشْهَادْ القِدّيسْ نيكاندروس كَاهِنْ ميرا\nنِيَاحَةْ الأبْ بيريّوس مدير مدرسة الإسْكَنْدَرِيَّة اللاهوتية\n", 
+  " 8 هاتور\nتِذْكَارْ الأربعة مخلوقات الحية غير المتجسدين\nاسْتِشْهَادْ القِدّيسْ نيكاندروس كَاهِنْ ميرا\nنِيَاحَةْ الأبْ بيريّوس مدير مدرسة الإسْكَنْدَرِيَّة اللاهوتية", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -4441,7 +4441,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "De plus il rédigea de nombreux articles trèsdiversifiés et dû supporter beaucoup de difficultés par fidélité et à cause de sa Foi en Jésus Christ. Il passa les derniers jours de sa vie à Rome puis décéda en paix.", 
-  "كَتبَ مقَالَات كَثِيرَة في مواضيع متعددة. احتمل عذابات كَثِيرَة مِنْ أَجْلِ الإيمان بِالسَيِّدِ المَسِيحِِ، وقضى أيَّامَهُ الأخيرة في رُومَا حَيْثُ تَنَيَّحَ بِسَلامٍ.", 
+  "كَتبَ مقَالَات كَثِيرَة في مواضيع متعددة. احتمل عذابات كَثِيرَة مِنْ أَجْلِ الإيمان بِالسَيِّدِ المَسِيحِِ، وقضى أيَّامَهُ الأَخِيرَةِ في رُومَا حَيْثُ تَنَيَّحَ بِسَلامٍ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -4525,7 +4525,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1003&C=Title", 
   "10 Athor\n1) Martyre des 50 vierges et de leur mère spirituelle ;\n2) Réunion d’un concileà Rome au sujet de la fête de l’Epiphanie et du carême ", 
-  " 10 هاتور\nاسْتِشْهَادْ العذارى الخمسين وأمهن\nاجتماع مَجْمَعَ بروما بِسَبَبِ عيد الغطاس المَجِيدِ والصوم الكبير\n", 
+  " 10 هاتور\nاسْتِشْهَادْ العذارى الخمسين وأمهن\nاجتماع مَجْمَعَ بروما بِسَبَبِ عيد الغطاس المَجِيدِ والصوم الكبير", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -4612,7 +4612,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Ce saint était originaire de Damiette. Il s’enrôla au monastère de saint Jean à Scété puis, Satan, l’ennemi des Hommes, le dupa. Il se rendit au Caire où il renia sa Foi et se maria. Puis il vécut avec son épouse huit jours ensuite il regretta ce qu’il avait fait.", 
-  "كان من أهل دمياط وتَرَّهَبَ في دير القِدّيسْ أنبا يحنس ببرية شيهيت، وبخديعة مِنَ العدو الشيطان نزل يوماً إلى مَدِينَةِ القاهرة، وأنكر الإيمان وتزوج، وأقَامَ مَعَ زَوْجَتَهُ ثمانية أَيَّامٍ.", 
+  "كان من أهل دمياط وتَرَّهَبَ في دير القِدّيسْ أنبا يحنس ببرية شِيهِيتْ، وبخديعة مِنَ العدو الشيطان نزل يوماً إلى مَدِينَةِ القاهرة، وأنكر الإيمان وتزوج، وأقَامَ مَعَ زَوْجَتَهُ ثمانية أَيَّامٍ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -4644,7 +4644,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1203&C=Title", 
   "12 Athor\n1) Commémoration de l’Archange Michel ;\n2) Décès de Saint Jean le syriaque ", 
-  " 12 هاتور\nتِذْكَارْ رئيس الملائكة الجليل ميخائيل رئيس جند الرب\nنِيَاحَةْ القِدّيسْ يُوحَنَّا السِرّْيانْي\n", 
+  " 12 هاتور\nتِذْكَارْ رئيس الملائكة الجليل ميخائيل رئيس جند الرب\nنِيَاحَةْ القِدّيسْ يُوحَنَّا السِرّْيانْي", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -4711,7 +4711,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1303&C=Title", 
   "13 Athor\n1) Commémoration de l’Archange Gabriel ;\n2) Décès du pape abba Zacharie, le 64ème patriarche de la prédication de Saint Marc ;\n3) Martyre de Saint Théodore Tiron ;\n4) Décès de Saint Timothée, évêque d’Antinoë ;\n5) Décès d’Abba Joseph au mont al-Assas", 
-  " 13 هاتور\nتِذْكَارْ رئيس الملائكة الجليل جبرائيل\nنِيَاحَةْ البابا الأنبا زخارياس البَطْرِيَرْكْ الرابع والستين مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة\nاسْتِشْهَادْ القِدّيسْ تَادْرُسْ تيرو\nنِيَاحَةْ الأنبا تِيمُوثَاوُسْ أُسْقُفْ أنصنا\nنِيَاحَةْ الأنبا يوساب بجبل الأساس\n", 
+  " 13 هاتور\nتِذْكَارْ رئيس الملائكة الجليل جبرائيل\nنِيَاحَةْ البابا الأنبا زخارياس البَطْرِيَرْكْ الرابع والستين مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة\nاسْتِشْهَادْ القِدّيسْ تَادْرُسْ تيرو\nنِيَاحَةْ الأنبا تِيمُوثَاوُسْ أُسْقُفْ أنصنا\nنِيَاحَةْ الأنبا يوساب بجبل الأساس", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -4721,7 +4721,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "C’est lui qui annonça à Zacharie la naissance de Jean le baptiste. Il annonça aussi à la sainte Vierge Marie la naissance du Sauveur du monde. Pour cela l’Église le surnomme \"l’ange de l’annonciation ».", 
-  "وهو الذي بشَّر زَكَرِيَّا الكاهن بميلاد يُوحَنّا المِعْمِدَانْ (لو 1: 8 – 22). وكذلك هُوَ الذي بشَّر العَذْرَاءْ مَرْيَمْ بميلاد مُخَلِّصِ العالم (لو 1: 26 – 38). لذلك أعطته الكَنيسَةْ لقب \"ملاك البشارة\". (تذكارات الملائكة والسمائيين عموماً تكون بمناسبة بناء وتدشين أَوَّلِ كِنِيسَةْ عَلَى اسْمِ هَذَا المَلاك أو ذاك).", 
+  "وهو الذي بشَّر زَكَرِيَّا الكاهن بِمِيلادِ يُوحَنّا المِعْمِدَانْ (لو 1: 8 – 22). وكذلك هُوَ الذي بشَّر العَذْرَاءْ مَرْيَمْ بِمِيلادِ مُخَلِّصِ العالم (لو 1: 26 – 38). لذلك أعطته الكَنيسَةْ لقب \"ملاك البشارة\". (تذكارات الملائكة والسمائيين عموماً تكون بمناسبة بناء وتدشين أَوَّلِ كِنِيسَةْ عَلَى اسْمِ هَذَا المَلاك أو ذاك).", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -4925,7 +4925,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1503&C=Title", 
   "15 Athor\n1) Martyre de Saint Ménas, le thaumaturge ;\n2) Décès de Saint Jean ar-Robbane ", 
-  " 15 هاتور\nاسْتِشْهَادْ القِدّيسْ مِارِ مينا العجائبى\nنِيَاحَةْ القِدّيسْ يُوحَنَّا الربان\n", 
+  " 15 هاتور\nاسْتِشْهَادْ القِدّيسْ مِارِ مينا العجائبى\nنِيَاحَةْ القِدّيسْ يُوحَنَّا الربان", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -4945,7 +4945,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Le 21 Taubi, jour de la fête du décès de la sainte Vierge, Euphémie se rendit à son église située à Atrib (أتريب). Elle vit la foule qui s’y rendait et les femmes qui portaient leurs enfants, alors, elle se tint devant l’icôe de la Vierge et pria Dieu avec ferveur en lui demandant de lui donner un enfant. A cet instant elle entendit une voix venant de l'icône qui disait : \"Amen ! ». Ceci la réjouit et de retour chez elle, elle raconta à son mari ce qui lui était arrivé. Celui-ci lui répondit alors : \"Notre confiance est grande en Dieu qui peut réaliser ce que tu as entendu. ». Elle eût un garçon et l’appela \"Ménas » car, disait-elle, cela corresondait au mot \"Amen » qu’elle avait entendu. Sa naissance fût l’occasion de grandes réjouissances et Eudoxe distribua des présents aux pauvres et aux malheureux.", 
-  "وفي عيد نِياحَةْ القِدِّيسَةْ العَذْرَاءْ (21 طوبة) ذهبت القِدِّيسَةْ أوفومية إلى كِنِيسَةْ العَذْرَاءِ بأتريب (أتريب: مدينة قديمة محلها الآن مدينة بنها، ومَازَالَتْ آثارها موجودة حَتَّى الآن)، وهُنَاكَ رأت الجموع يتقاطرون عَلَى الكَنيسَةْ وهم فرحون متهللون، والسيدات يحملن أطفالهن بفرح، فوقفت أمَامَ أيقونة العَذْرَاءْ وصلَّت رافعة قلبِهَا متضرعة إلى الله بلجاجة أَنَّ يهبِهَا نسلاً فسمعت صوتاً مِنَ الأيقونة يقول \" آمين \". ففرحت، وبَعْدَ انْتْهَاءِ القداس الإلهي، رجعت إلى بيتها وأخبرت زَوْجِهَا البار أودوكسيوس بِمَا حدث، ففرح مَعْهَا وقَالَ \"إن ثقتنا كبيرة في إلهنا القادر أَنَّ يفعل كَمَا سَمِعْتِ\". وبَعْدَ قليل حملت القِدِّيسَةْ أوفومية وكَانَتْ تشكر الله عَلَى هَذِهِ النعمة، وعِنْدَ الولادة أرادوا تسمية الطفل بِاسْمِ جده بلوديانوس، ولَكِنَّ أمه رفضت بِسَبَبِ كلمة \" آمين \" التي سمعتها من أيقونة القِدِّيسَةْ العذراء، ودعت اسْمُهُ \" مينا \" قائلة أَنَّ مينا هي \" آمين \" بنفس حروفها. وحَدَثَ فرح وابتهاج بولادته، ووزع أودوكسيوس صدقات كَثِيرَة عَلَى الفقراء والمحتاجين بهذه المناسبة السعيدة.", 
+  "وفي عيد نِياحَةْ القِدِّيسَةْ العَذْرَاءْ (21 طوبة) ذهبت القِدِّيسَةْ أوفومية إلى كِنِيسَةْ العَذْرَاءِ بأتريب (أتريب: مدينة قديمة محلها الآن مدينة بنها، ومَازَالَتْ آثارها موجودة حَتَّى الآن)، وهُنَاكَ رأت الجموع يتقاطرون عَلَى الكَنيسَةْ وهم فرحون متهللون، والسيدات يحملن أطفالهن بفرح، فوقفت أمَامَ أيقونة العَذْرَاءْ وصلَّت رافعة قلبِهَا متضرعة إلى الله بلجاجة أَنَّ يهبِهَا نسلاً فسمعت صوتاً مِنَ الأيقونة يقول \" آمين \". ففرحت، وبَعْدَ انْتْهَاءِ القداس الإلهي، رجعت إلى بيتها وأخبرت زَوْجِهَا البار أودوكسيوس بِمَا حدث، ففرح مَعْهَا وقَالَ \"إن ثقتنا كبيرة في إلهنا القادر أَنَّ يفعل كَمَا سَمِعْتِ\". وبَعْدَ قليل حملت القِدِّيسَةْ أوفومية وكَانَتْ تشكر الله عَلَى هَذِهِ النعمة، وعِنْدَ الولادة أرادوا تسمية الطفل بِاسْمِ جده بلوديانوس، ولَكِنَّ أمه رفضت بِسَبَبِ كلمة \" آمين \" التي سمعتها من أيقونة القِدِّيسَةْ العذراء، ودعت اسْمُهُ \" مينا \" قائلة أَنَّ مينا هي \" آمين \" بِنَفْسِ حروفها. وحَدَثَ فرح وابتهاج بولادته، ووزع أودوكسيوس صدقات كَثِيرَة عَلَى الفقراء والمحتاجين بهذه المناسبة السعيدة.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -5017,7 +5017,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1603&C=Title", 
   "16 Athor\n1) Début du jeûne de l’avent pour l’Église copte orthodoxe ;\n2) Consécration de l’église de Saint Onuphre l'Anachorète ;\n3) Martyre de Saint Juste, l’évêque ;\n4) Décès du pape Ménas II, le 61ème patriarche de la prédication de saint Marc ;\n5) Décès de Saint Nylus le sinaïte ", 
-  " 16 هاتور\nبدء صوم الميلاد في كنيستنا القبطية الأرثوذكسية\nتَكّرْيسِ كِنِيسَةْ القِدّيسْ أبى نُفر السائح\nاسْتِشْهَادْ القِدّيسْ يسطس الأسقف\nنِيَاحَةْ البابا مينا الثاني البَطْرِيَرْكْ الحادي والستين مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة\nنِيَاحَةْ القِدّيسْ نيلس السينائى\n", 
+  " 16 هاتور\nبدء صوم الميلاد في كنيستنا القبطية الأرثوذكسية\nتَكّرْيسِ كِنِيسَةْ القِدّيسْ أبى نُفر السائح\nاسْتِشْهَادْ القِدّيسْ يسطس الأسقف\nنِيَاحَةْ البابا مينا الثاني البَطْرِيَرْكْ الحادي والستين مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة\nنِيَاحَةْ القِدّيسْ نيلس السينائى", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -5067,7 +5067,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Ce père naquit à Sândala (صندلا) de parents chrétiens. Lorsqu’il grandit, ils le marièrent contre sa volonté mais il se mit d’accord avec son épouse de vivre dans la chasteté. Plus tard, avec l’accord de son épouse, il partit pour Scété et s’installa au monastère de saint Macaire où il eût une bonne conduite.", 
-  "وُلِدَ وتربى في بلدة صندلا (صندلا: إحدى قرى مُحَافَظَة كفر الشيخ حَالِيَاً) مِنْ أَبَوينِ مَسِيحِيَّيْنِ، ولَمَّا كَبُرَ زوجاه رغم إرادته، لكنه اتَفَقَ مَعَ زَوْجَتَهُ أَنَّ يعيشا معاً حَيَاةِ البتولية. ثُمَّ استأذنها وذهب إلى برية شيهيت وتَرَّهَبَ في برية مكاريوس الكبير، حَيْثُ سار سِيرَةِ صالحة.", 
+  "وُلِدَ وتربى في بلدة صندلا (صندلا: إحدى قرى مُحَافَظَة كفر الشيخ حَالِيَاً) مِنْ أَبَوينِ مَسِيحِيَّيْنِ، ولَمَّا كَبُرَ زوجاه رغم إرادته، لكنه اتَفَقَ مَعَ زَوْجَتَهُ أَنَّ يعيشا معاً حَيَاةِ البتولية. ثُمَّ استأذنها وذهب إلى بَرِّيَّةِ شِيهِيتْ وتَرَّهَبَ في بَرِّيَّةِ مكاريوس الكبير، حَيْثُ سار سِيرَةِ صالحة.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -5097,7 +5097,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Ce saint naquit au milieu du 4ème siècle d’une riche famille chrétienne et ses parents lui donnèrent une bonne éducation conforme à leur Foi. Il grandit orné de toutes les vertus spirituelles et excella dans les sciences et les lettres. Ceci onduit l’empereur Théodose le grand (ثيؤدوسيوس البير) à le faire évoluer dans la hiérarchie de l’empire. Il se maria et eût un garçon et une fille. Néanmoins, il désira mener une vie monastique et délaisser les affaires de ce monde. En conséquence, il se mit d’accord avec son épouse, quitta Constantinople et se retira comme anachorète sur le mont Sinaï avec son fils Théodore (ثاؤدورس) qui partageait avec son père la vie d’isolement et de dépouillement. Quant à son épouse et sa fille, elles s’installèrent dans un monastère de moniales.", 
-  "وُلِدَ هَذَا القِدّيسْ نَحْوَ منتصف القَرْنْ الرابع الميلادي من أسرة مسيحية غنية. ربَّاه وَالِدَه تَرْبِيَةً مِسِيحِيَّةْ حقيقية، فنشأ متحلّياً بالفضائل الروحية، كَمَا نبغ في العُلُومِ والآداب، مما جعل الإمبراطور ثيئودوسيوس الكبير يرفعه إلى أعظم مراتب المملكة. ثُمَّ تزوج وأنجب ولداً وبنتاً، ولَكِنَّهُ اشتاق إلى حَيَاةِ الرَهْبَنَةْ وزهد في أمور هَذَا العالم، فاتفق مَعَ زَوْجَتَهُ وترك مَدِينَةِ القُسْطَنْطِينِيَّة وذهب إلى دَيْرٍ طور سينا، عاش هُناَكَ عيشة الوحدة والتجرد هُوَ وابنه المدعو ثاؤدوروس الذي كَانَ يشارك أباه حَيَاةِ الوحدة والتجرد، أما زَوْجَتَهُ وابنته فعاشتا في أحَدْ أديرة الراهبات.", 
+  "وُلِدَ هَذَا القِدّيسْ نَحْوَ منتصف القَرْنْ الرابع الميلادي من أسرة مسيحية غنية. ربَّاه وَالِدَه تَرْبِيَةً مِسِيحِيَّةْ حقيقية، فنشأ متحلّياً بالفضائل الروحية، كَمَا نبغ في العُلُومِ والآداب، مما جعل الإمبراطور ثيئودوسيوس الكبير يرفعه إلى أعظم مراتب المملكة. ثُمَّ تَزَوَّجَ وأنجب ولداً وبنتاً، ولَكِنَّهُ اشتاق إلى حَيَاةِ الرَهْبَنَةْ وزهد في أمور هَذَا العالم، فاتفق مَعَ زَوْجَتَهُ وترك مَدِينَةِ القُسْطَنْطِينِيَّة وذهب إلى دَيْرٍ طور سينا، عاش هُناَكَ عيشة الوحدة والتجرد هُوَ وابنه المدعو ثاؤدوروس الذي كَانَ يشارك أباه حَيَاةِ الوحدة والتجرد، أما زَوْجَتَهُ وابنته فعاشتا في أحَدْ أديرة الراهبات.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -5119,7 +5119,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1703&C=Title", 
   "17 Athor\n1) Décès de saint Jean Chrysostome ;\n2) Décès de saint Paul au mont Danfiq ", 
-  " 17 هاتور\nنِيَاحَةْ القِدّيسْ يُوحَنَّا ذهبي الفم\nنِيَاحَةْ القِدّيسْ بُولِسْ بجبل دنفيق\n", 
+  " 17 هاتور\nنِيَاحَةْ القِدّيسْ يُوحَنَّا ذهبي الفم\nنِيَاحَةْ القِدّيسْ بُولِسْ بجبل دنفيق", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -5181,7 +5181,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1803&C=Title", 
   "18 Athor\n1) Martyre de Saint Philippe, l’apôtre ;\n2) Martyre des Saintes Atrasis et Jeanne ;\n3) Commémoration du miracle du transfert de la colline du Mokattam ", 
-  " 18 هاتور\nاسْتِشْهَادْ القِدّيسْ فيلبس الرسول\nاسْتِشْهَادْ القِدِّيْسْتين أدروسيس ويوأنا\nتِذْكَارْ معجزة نَقْلِ الجبل المقطم\n", 
+  " 18 هاتور\nاسْتِشْهَادْ القِدّيسْ فيلبس الرسول\nاسْتِشْهَادْ القِدِّيْسْتين أدروسيس ويوأنا\nتِذْكَارْ معجزة نَقْلِ الجبل المقطم", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -5278,7 +5278,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1903&C=Title", 
   "19 Athor\n1) Consécration de l’église de Saint Serge et Saint Bacchus à el-Rassafa ;\n2) Martyre de Saint Habib", 
-  " 19 هاتور\nتَكّرْيسِ كِنِيسَةْ سرجيوس وواخس – بالرصافة\nاسْتِشْهَادْ القِدّيسْ أبيبوس\n", 
+  " 19 هاتور\nتَكّرْيسِ كِنِيسَةْ سرجيوس وواخس – بالرصافة\nاسْتِشْهَادْ القِدّيسْ أبيبوس", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -5320,7 +5320,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2003&C=Title", 
   "20 Athor\n1) Décès de Saint Anien, le 2ème patriarche de la prédication de Saint Marc ;\n2) Consécration de l’église du prince Théodore de Choteb et celle du prince Théodore l’oriental", 
-  " 20 هاتور\nنِيَاحَةْ القِدّيسْ إنيانوس البَطْرِيَرْكْ الثاني مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة\nتَكّرْيسِ بيعتي الأمير تَادْرُسْ الشُطبى والأمير تَادْرُسْ المشرقي\n", 
+  " 20 هاتور\nنِيَاحَةْ القِدّيسْ إنيانوس البَطْرِيَرْكْ الثاني مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة\nتَكّرْيسِ بيعتي الأمير تَادْرُسْ الشُطبى والأمير تَادْرُسْ المشرقي", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -5382,7 +5382,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2103&C=Title", 
   "21 Athor\n1) Commémoration de Sainte vierge Marie, la mère de Dieu ;\n2) Décès de Saint Grégoire le Thaumaturge ;\n3) Décès du pape Côme II, le 54ème patriarche de la prédication de Saint Marc ;\n4) Décès de Jean de Lycopolis dans la montagne de cette ville ;\n5) Commémoration des saints Alphée, Zachée, Romain et Jean les martyrs ainsi que des saints Thomas, Victor et Isaac d'al-Achmounein ;\n6) Transfert du corps de saint Jean Kamé au monastère el-Souryan ", 
-  " 21 هاتور\nتِذْكَارْ نِياحَةْ القِدِّيسَةْ مَرْيَمْ العَذْرَاءْ والدة الإله\nنِيَاحَةْ القِدّيسْ غريغوريوس العجائبى\nنِيَاحَةْ البابا قسما الثاني البَطْرِيَرْكْ الرابع والخمسين مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة\nنِيَاحَةْ القِدّيسْ يُوحَنَّا التبايسي بجبل أسيوط\nتِذْكَارْ القِدِّيسْينْ حلفا وزكا ورومانوس ويُوحَنَّا الشهداء. وتِذْكَارْ القِدِّيسْينْ توما وبقطر وإسحاق مِنَ الأشمونين\nنقل جَسَدِ القِدّيسْ الأنبا يحنس كاما من دَيْرِهِ إلى دَيْرٍ السِرّْيانْ\n", 
+  " 21 هاتور\nتِذْكَارْ نِياحَةْ القِدِّيسَةْ مَرْيَمْ العَذْرَاءْ والدة الإله\nنِيَاحَةْ القِدّيسْ غريغوريوس العجائبى\nنِيَاحَةْ البابا قسما الثاني البَطْرِيَرْكْ الرابع والخمسين مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة\nنِيَاحَةْ القِدّيسْ يُوحَنَّا التبايسي بجبل أسيوط\nتِذْكَارْ القِدِّيسْينْ حلفا وزكا ورومانوس ويُوحَنَّا الشهداء. وتِذْكَارْ القِدِّيسْينْ توما وبقطر وإسحاق مِنَ الأشمونين\nنقل جَسَدِ القِدّيسْ الأنبا يحنس كاما من دَيْرِهِ إلى دَيْرٍ السِرّْيانْ", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -5412,7 +5412,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Lorsque le siège épiscopal de Néocésaréedevint vacant, l'évêque d'Amasée, Faidimos (فيديم أسقف أماسيا) fût inspiré par Dieu que Théodore l’adorateur (ثيؤدورس العابد) était celui qui convenait à ce poste. Dès qu’il eût vent de ceprojet, le saint s’évada dans le désert ce qui obligea l’évêque Faidimos à l’ordonner à distance, sans lui imposer les mains directement. Il apporta un Évangile et le consacra évêque en lui donnant le nom de Grégoire. Dans sa fuite, Grégoire eût une vision qui lui apprit que cette ordination était voulue par Dieu. Alors, il retourna en Néocésarée et ils achevèrent la cérémonie de la consécration en 244 après Jésus Christ.", 
-  "وبَعْدَ أَنَّ خلا كُرْسِي قيصرية الجديدة رأي فيديم أُسْقُفْ أماسيا، بإعلان سماوي أَنَّ من يستحق رتبة الأسقفية هُوَ ثيئودورس العابد. ولَمَّا علم القِدّيسْ بِذَلِكَ كَانَ يهرب من برية إلى برية، مما اضطر الأُسْقُفْ فيديم أَنَّ أحضر إنجيلاً وصلى عَلَيْهِ ورسمه أُسْقُفَاً بِاسْمِ غريغوريوس. وأَثْنَاءِ هروبه رأي في رؤيا من يخبره بِأنَّ هَذِهِ الرسامة مِنَ الله. فَرَجِعَ إلى قيصرية الجديدة، واستقبله الشَّعْبِ بكرامة عظيمة، وكملوا تكريسه في سَنَةْ 244م.", 
+  "وبَعْدَ أَنَّ خلا كُرْسِي قيصرية الجديدة رأي فيديم أُسْقُفْ أماسيا، بإعلان سماوي أَنَّ من يستحق رتبة الأسقفية هُوَ ثيئودورس العابد. ولَمَّا علم القِدّيسْ بِذَلِكَ كَانَ يهرب من بَرِّيَّةِ إلى برية، مما اضطر الأُسْقُفْ فيديم أَنَّ أحضر إنجيلاً وصلى عَلَيْهِ ورسمه أُسْقُفَاً بِاسْمِ غريغوريوس. وأَثْنَاءِ هروبه رأي في رؤيا من يخبره بِأنَّ هَذِهِ الرسامة مِنَ الله. فَرَجِعَ إلى قيصرية الجديدة، واستقبله الشَّعْبِ بكرامة عظيمة، وكملوا تكريسه في سَنَةْ 244م.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -5467,7 +5467,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Ce saint naquit au début du 4ème siècle dans la ville d’Assiout de parents chrétiens qui lui donnèrent une bonne éducation conforme à leur Foi. Il se rendit à Scété où il devint un disciple de saint Isidore et y vécut pendant cinq années dans l’ascèse et l’adoration. Après cela, un ange lui apparut et lui indiquât qu’il devait retourner à la montagne d’Assiout où il s’installa dans une grotte. Il y vécut pour le restant de sa vie.", 
-  "وُلِدَ هَذَا القِدّيسْ بأسيوط في أوائل القَرْنْ الرابع الميلادي، مِنْ أَبَوينِ مَسيحِيَّيْنْ ربياه عَلَى الآداب المسيحية. مَضَى إلى برية شيهيت. تَرَهَّبَ عَلَى يَدِِّ القِدّيسْ إيسوذوروس وقضى هُناَكَ خمس سنوات في جِهَاد وعبادة. ظهر لَهُ مَلاكُ الرَّبِ وأرْشَدَهُ أَنَّ يمضى إلى جبل أسيوط وأقَامَ هُناَكَ مغارة قضى فِيهَا بقية حياته.", 
+  "وُلِدَ هَذَا القِدّيسْ بأسيوط في أوائل القَرْنْ الرابع الميلادي، مِنْ أَبَوينِ مَسيحِيَّيْنْ ربياه عَلَى الآداب المسيحية. مَضَى إلى بَرِّيَّةِ شِيهِيتْ. تَرَهَّبَ عَلَى يَدِِّ القِدّيسْ إيسوذوروس وقضى هُناَكَ خمس سنوات في جِهَاد وعبادة. ظهر لَهُ مَلاكُ الرَّبِ وأرْشَدَهُ أَنَّ يمضى إلى جبل أسيوط وأقَامَ هُناَكَ مغارة قضى فِيهَا بقية حياته.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -5517,7 +5517,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de leurs prières soit avec nous. Amen !", 
-  "بركة صلواتهم جميعاً فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة صلواتهم جميعاً فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -5569,7 +5569,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2203&C=Title", 
   "22 Athor\n1) Martyre de Saint Côme et de Saint Damien, de leurs frères et de leur mère ", 
-  " 22 هاتور\nاسْتِشْهَادْ القِدِّيسْينْ قزمان ودميان وإخوتهما وأمهما\n", 
+  " 22 هاتور\nاسْتِشْهَادْ القِدِّيسْينْ قزمان ودميان وإخوتهما وأمهما", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -5616,7 +5616,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2303&C=Title", 
   "23 Athor\n1) Décès de Saint Corneille, le centurion ;\n2) Consécration de l’église de Sainte Marina ", 
-  "23 هاتور\nنِيَاحَةْ القِدّيسْ كرنيليوس قائد المائة\nتِذْكَارْ تَكّرْيسِ كِنِيسَةْ القِدِّيسَةْ مارينا الشهيدة\n", 
+  "23 هاتور\nنِيَاحَةْ القِدّيسْ كرنيليوس قائد المائة\nتِذْكَارْ تَكّرْيسِ كِنِيسَةْ القِدِّيسَةْ مارينا الشهيدة", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -5668,7 +5668,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2403&C=Title", 
   "24 Athor\nCommémoration des 24 prêtres incorporels ;\n2) Martyre de l’évêque Narcisse et de sainte Tekla ;\n3) Décès de Saint Proclus, le patriarche de Constantinople ", 
-  " 24 هاتور\nتِذْكَارْ الأربعة والعشرين قسيساً غير الجَسَدْانيين\nاسْتِشْهَادْ الأُسْقُفْ نارسيس والقديسة تكلا\nنِيَاحَةْ البابا بروكلس بطريرك القسطنطينية\n", 
+  " 24 هاتور\nتِذْكَارْ الأربعة والعشرين قسيساً غير الجَسَدْانيين\nاسْتِشْهَادْ الأُسْقُفْ نارسيس والقديسة تكلا\nنِيَاحَةْ البابا بروكلس بطريرك القسطنطينية", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -5730,7 +5730,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2503&C=Title", 
   "25 Athor\nMartyre de Saint Mercure ", 
-  " 25 هاتور\nاسْتِشْهَادْ القِدّيسْ مرقوريوس الشهير بأبي سيفين\n", 
+  " 25 هاتور\nاسْتِشْهَادْ القِدّيسْ مرقوريوس الشهير بأبي سيفين", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -5762,7 +5762,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2603&C=Title", 
   "26 Athor\n1) Martyre de Saint Valérien et Saint Tiburce son frère ;\n2° Commémoration de Saint Grégoire, évêque de Nysse ", 
-  "26 هاتور\nاسْتِشْهَادْ القِدّيسْ بالاريانوس وأخيه تيبورينوس\nنِيَاحَةْ القِدّيسْ غريغوريوس النيصي أُسْقُفْ نيصص\n", 
+  "26 هاتور\nاسْتِشْهَادْ القِدّيسْ بالاريانوس وأخيه تيبورينوس\nنِيَاحَةْ القِدّيسْ غريغوريوس النيصي أُسْقُفْ نيصص", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -5802,7 +5802,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Après le décès de ses parents, Macrine et Basile en prirent soin. Il étudia la rhétorique dont il devint un maître. Ensuite, il épousa une jeune femme pieuse avec qui il vécut dans la chasteté.", 
-  "اهتم بتربيته بَعْدَ وفاة والده، كُلَّ من أخته ماكرينا وأخيه باسيليوس. درَس علوم البلاغة وصار معلّماً لها. تزوج من امْرَأَةْ فَاضِلَة كَانَتْ تعيش مَعْهُ بأسلوب يتفق مَعَ تعاليم الإِنْجِيلِ وعاشا معاً في حَيَاةِ بتولية كاملة.", 
+  "اهتم بتربيته بَعْدَ وفاة والده، كُلَّ من أخته ماكرينا وأخيه باسيليوس. درَس علوم البلاغة وصار معلّماً لها. تَزَوَّجَ من امْرَأَةْ فَاضِلَة كَانَتْ تعيش مَعْهُ بأسلوب يتفق مَعَ تعاليم الإِنْجِيلِ وعاشا معاً في حَيَاةِ بتولية كاملة.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -5824,7 +5824,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2703&C=Title", 
   "27 Athor\n1) Martyre de Saint Jacques l’intercis ;\n2) Consécration de l’église de Saint Victor le martyr, le fils de Romanos ", 
-  "27 هاتور\nاسْتِشْهَادْ القِدّيسْ يَعْقُوبْ الفارسي المقطع\nتَكّرْيسِ كِنِيسَةْ الشَهْيدِ بقطر بن رُومَانوس\n", 
+  "27 هاتور\nاسْتِشْهَادْ القِدّيسْ يَعْقُوبْ الفارسي المقطع\nتَكّرْيسِ كِنِيسَةْ الشَهْيدِ بقطر بن رُومَانوس", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -5844,7 +5844,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Puis ayant su qu’il rendra bientôt son âme auprès de son créateur, il fit une prière pour le monde et les fidèles en implorant Dieu d’avoir pour eux de la miséricorde et de la pitié. Et il s’excusait de ne pouvoir se tenir debout devant Lui en disant : \"Il ne me reste plus de pieds pour me lever devant Toi ni de mains pour les lever vers Toi. Voici que mes membres sont dispersés autour de moi, alors reçois mon âme auprès de Toi, Seigneur. » A ce moment le Christ lui apparut pour le consoler et lui donner du courage de telle sorte que saint Jacques en fût réjouit. Un soldat le décapita et il obtint la couronne du martyre.", 
-  "ولما علم بدنو ساعته الأخيرة سأل الرَّبْ من اجل العالم والشعب لِكَيّْ يرحمهم ويتحنن عليهم، معتذرًا عَن عدم وقوفه أمَامَ عزته بقوله: \"يارب ليس لي رجلان لِكَيّْ أقف أمامك ولا يدان أبسطهما قدامك وهوذا أعضائي مطروحة حولي. فاقبل نفسي إليك يارب\". وللوقت ظَهَرَ لَهُ السَّيْد المَسِيحْ وعزاه وقواه فابتهجت نفسه، وقبل إن يسلم الرُوحِ أسرع أحَدْ الجُنْدِ وقطع رأسه، فنَالَ إكْلْيلْ الشِهَادَة.", 
+  "ولما علم بدنو ساعته الأَخِيرَةِ سأل الرَّبْ من اجل العالم والشعب لِكَيّْ يرحمهم ويتحنن عليهم، معتذرًا عَن عدم وقوفه أمَامَ عزته بقوله: \"يارب ليس لي رجلان لِكَيّْ أقف أمامك ولا يدان أبسطهما قدامك وهوذا أعضائي مطروحة حولي. فاقبل نفسي إليك يارب\". وللوقت ظَهَرَ لَهُ السَّيْد المَسِيحْ وعزاه وقواه فابتهجت نفسه، وقبل إن يسلم الرُوحِ أسرع أحَدْ الجُنْدِ وقطع رأسه، فنَالَ إكْلْيلْ الشِهَادَة.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -5859,7 +5859,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Une fois, alors qu’ils priaient la louange de la sixième heure, le saint martyr apparut aux moines en compagnie d’autres martyrs perses et s’associa à cette prière, ils bénirent les moines puis les quittèrent après leur avoir dit que le Seigneur voulait que ses reliques restent à cet endroit.", 
-  "وحدث بينما هُمْ يسبحون وقت الساعة السادسة في الموضع الذي فيه الجَسَدْ المقدس، إن ظَهَرَ لَهُمْ القِدّيسْ يَعْقُوبْ مَعَ جماعة من شهداء الفرس واشتركوا مَعْهُمْ في الترتيل وباركوهم، وغابوا عنهم بَعْدَ إن قَالَ لَهُمْ القِدّيسْ يَعْقُوبْ إن جسدي يَكُونَ ههنا كَمَا أَمَرَ الرب.", 
+  "وحدث بَيْنَمَا هُمْ يسبحون وقت الساعة السادسة في الموضع الذي فيه الجَسَدْ المقدس، إن ظَهَرَ لَهُمْ القِدّيسْ يَعْقُوبْ مَعَ جماعة من شهداء الفرس واشتركوا مَعْهُمْ في الترتيل وباركوهم، وغابوا عنهم بَعْدَ إن قَالَ لَهُمْ القِدّيسْ يَعْقُوبْ إن جسدي يَكُونَ ههنا كَمَا أَمَرَ الرب.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -5901,7 +5901,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2803&C=Title", 
   "28 Athor\nMartyre de Saint Sarabamôn, évêque de Nikiou ", 
-  "28 هاتور\nاسْتِشْهَادْ القِدّيسْ صرابامون أُسْقُفْ نيقيوس\n", 
+  "28 هاتور\nاسْتِشْهَادْ القِدّيسْ صرابامون أُسْقُفْ نيقيوس", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -5948,7 +5948,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2903&C=Title", 
   "29 Athor\n1) Commémoration des 3 fêtes majeures du Seigneur : l’Annonciatio, la Nativité et Pâques ;\n2) Martyre du pape Pierre, le sceau des martyrs, le 17ème patriarche de la prédication de Saint Marc ;\n3) Martyre de Saint Clément 1er, le pape de Rome ;\n4) Martyre de Sainte Catherine d’Alexandrie", 
-  "29 هاتور\nتِذْكَارْ الأَعْيَادِ الثلاثة السيدية الكُبْرَى \" البشارة والميلاد والقيامة \"اسْتِشْهَادْ البابا بُطْرُسْ \" خاتم الشُهَدَاءْ \" البَطْرِيَرْكْ السابع عَشَرْ مِنْ بَطارِكَةْ الكُرْسِي المرقسي\nاسْتِشْهَادْ القِدّيسْ إكليمنضس الأَوَّلْ بابا رُومَا\nاسْتِشْهَادْ القِدِّيسَةْ كاترين الإسكندرانية\n", 
+  "29 هاتور\nتِذْكَارْ الأَعْيَادِ الثلاثة السيدية الكُبْرَى \" البشارة والميلاد والقيامة \"اسْتِشْهَادْ البابا بُطْرُسْ \" خاتم الشُهَدَاءْ \" البَطْرِيَرْكْ السابع عَشَرْ مِنْ بَطارِكَةْ الكُرْسِي المرقسي\nاسْتِشْهَادْ القِدّيسْ إكليمنضس الأَوَّلْ بابا رُومَا\nاسْتِشْهَادْ القِدِّيسَةْ كاترين الإسكندرانية", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -5988,7 +5988,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Lorsqu'Arius apprit que saint Pierre allait quitter ce monde sans avoir levé son excommunication, il fit appel à plusieurs prêtres pour demander l'asolution du patriarche mais celui-ci refusa catégoriquement et leur expliqua que le Seigneur lui était appru en snge vêtu d'un habit déchiré. Il Lui demanda \"Seigneur, qui a déchiré ton vêtement ? » Le Seigneur lui répondit : \"C'est Arius car il m'a séparé de mon Père. Je te mets en garde de l'accepter. »", 
-  "ولما علم أريوس أَنَّ القِدّيسْ سيمضي إلى الرب، استغاث بالكهنة لِكَيّْ يطلبوا إلى البابا أَنَّ يحله، فزاد القِدّيسْ في حَرْمه قائلاً: \"إن السَّيْد المَسِيحْ ظَهَرَ لي في رؤيا وعليه ثَوْبَ ممزق، فسألته: \"من شقَّ ثوبك يا سيدي؟\"، فأجاب: \"أريوس هُوَ الذي شق ثوبي فلا تقبله\".", 
+  "ولما علم أريوس أَنَّ القِدّيسْ سيمضي إلى الرَبّ، استغاث بالكهنة لِكَيّْ يطلبوا إلى البابا أَنَّ يحله، فزاد القِدّيسْ في حَرْمه قائلاً: \"إن السَّيْد المَسِيحْ ظَهَرَ لي في رؤيا وعليه ثَوْبَ ممزق، فسألته: \"من شقَّ ثوبك يا سيدي؟\"، فأجاب: \"أريوس هُوَ الذي شق ثوبي فلا تقبله\".", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -5997,7 +5997,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Sa prière étant terminée, le bourreau lui trancha la tête et il obtint la couronne du martyre. Lorsque les fidèles apprirent cela, ils prirent le corps du saint martyr, le revêtirent des vêtements sacerdotaux, et l'assirent sur le siège de saint Marc alors qu’il avait refusé durant toute sa vie de s'asseoir dessus car il y voyait la Puissance Divine. Puis ils l’enterrèrent avec beaucoup de respect.\n", 
+  "Sa prière étant terminée, le bourreau lui trancha la tête et il obtint la couronne du martyre. Lorsque les fidèles apprirent cela, ils prirent le corps du saint martyr, le revêtirent des vêtements sacerdotaux, et l'assirent sur le siège de saint Marc alors qu’il avait refusé durant toute sa vie de s'asseoir dessus car il y voyait la Puissance Divine. Puis ils l’enterrèrent avec beaucoup de respect.", 
   "ولما أتم صلاته، تقدَّم السيَّاف وقَطَعَ رَأْسَهُ المقدس. ونَالَ إكْلْيلْ الشِهَادَة. ولَمَّا علم المؤمنون باسْتِشْهَادْ بطريركهم. أتوا وأخذوا الجَسَدْ الطَاهِر وألبسوه ثياب الكهنوت، وأجلسوه عَلَى كُرْسِي مِارِ مَرْقُسْ الذي لَمْ يجلس عَلَيْهِ في حياته لِأَنَّهُ كَانَ يرى قوة الرَّبْ عليه. ثُمَّ صلوا عَلَيْهِ ودَفَنُوهُ بِإكْرَامٍ جَزيلٍ.", 
   ],
   [
@@ -6075,7 +6075,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=3003&C=Title", 
   "30 Athor\n1) Martyre de Saint Macaire ;\n2) Martyre de Saint Jean de Qalyoub, le moine ;\n3) Décès de Saint Acace, patriarche de Constantinople ;\n4) Consécration de l’églisede Saint Côme et Saint Damien, de leurs frères et de leur mère ", 
-  "30 هاتور\nاسْتِشْهَادْ القِدّيسْ مكاريوس\nاسْتِشْهَادْ الرَاهِبْ القِدّيسْ يُوحَنَّا القليوبي\nنِيَاحَةْ القِدّيسْ أكاكيوس بطريرك القسطنطينية\nتَكّرْيسِ بَيْعَةِ القِدِّيسْينْ قزمان ودميان وإخوتهما وأمهم\n", 
+  "30 هاتور\nاسْتِشْهَادْ القِدّيسْ مكاريوس\nاسْتِشْهَادْ الرَاهِبْ القِدّيسْ يُوحَنَّا القليوبي\nنِيَاحَةْ القِدّيسْ أكاكيوس بطريرك القسطنطينية\nتَكّرْيسِ بَيْعَةِ القِدِّيسْينْ قزمان ودميان وإخوتهما وأمهم", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -6100,7 +6100,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Constatant la fermeté de sa Foi, ils le clouèrent à une croix jusqu’à ce qu’il remette son âme entre les mains du Seigneur. Ainsi, il obtint la couronne du martyre.", 
-  "ولما رأوا ثباته في الإيمان سمّروه عَلَى صليب إلى أَنَّ سَلَّم رُوحَهُ في يَدِّ الرب، ونَالَ إكْلْيلْ الشِهَادَة.", 
+  "ولما رأوا ثباته في الإيمان سمّروه عَلَى صليب إلى أَنَّ سَلَّم رُوحَهُ في يَدِّ الرَبّ، ونَالَ إكْلْيلْ الشِهَادَة.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -6167,7 +6167,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Ce saint naquit à Samanoud (سمنود) qui se trouve au gouvernorat d’al-Gharbieh (الغربية) et devint moine au monastère de saint Macaire à Scété. Après le décès du pape Agathon (أغاثو) ce père fût choisi pour être patriarche. Il fût confronté à de nombreuses difficultés provoquées principalement par les adeptes du concile de Chalcédoine mais il supporta avec humilité en priant Dieu de préserver son Eglise. ", 
-  "وُلِدَ هَذَا القِدّيسْ في سمنود – مُحَافَظَة الغربية، وتَرَّهَبَ بِدِيرْ القِدّيسْ مكاريوس ببرية شيهيت، وبَعْدَ نِياحَةْ البابا أغاثو اُختير هَذَا الأبْ لِلْبَطْرِيَّرْكِيَّة، فلاقى شدائد كَثِيرَة خصوصاً مِنَ الخلقيدونيين ولَكِنَّهُ كَانَ يحتمل بوداعة مُصلياً ليحفظ الرَّبْ كنيسته.", 
+  "وُلِدَ هَذَا القِدّيسْ في سمنود – مُحَافَظَة الغربية، وتَرَّهَبَ بِدِيرْ القِدّيسْ مكاريوس ببرية شِيهِيتْ، وبَعْدَ نِياحَةْ البابا أغاثو اُختير هَذَا الأبْ لِلْبَطْرِيَّرْكِيَّة، فلاقى شدائد كَثِيرَة خصوصاً مِنَ الخلقيدونيين ولَكِنَّهُ كَانَ يحتمل بوداعة مُصلياً ليحفظ الرَّبْ كنيسته.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -6257,7 +6257,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Nous commémorons aussi aujourd’hui la consécration de l’église de saint Chénouté, l’archimandrite. Cette église avait la même taille que le monastère qui se trouve actuellement à l’ouest de Sohag (سوهاج) et qui est connu sous le nom de monastère blanc (الدير الأبيض). Cette église est une représentation honorable de l’architecture copte à cause de la taille des pierres qui ont été utilisées et dont certaines dépassent les deux mètres. Saint Chénouté avait regroupé ces pierres des ruines d’anciens bâtiments pharaoniques.", 
-  "وفيه أيْضَاً تُعَيِِّدُ الكَنيسَةْ بتِذْكَارْ تَكّرْيسِ كِنِيسَةْ القِدّيسْ الأنبا شنوده رئيس المتوحدين، وهي بنفس اتساع الدير القائم حَالِيَاً بغرب سوهاج والمعروف بالدير الأبيض، وهْوَ يمثل عظمة فن المعمار القبطي ليس من جهة مساحته العظيمة ولَكِنَّ من جهة ضخامة الأحجار التي بُنى بِهَا إذ يزيد طول بعضها عَن مترين، والتي جمَعْهَا القِدّيسْ الأنبا شنوده من بَعْضُ المباني الفرعونية القَدِيمَة المِنْهُدمة.", 
+  "وفيه أيْضَاً تُعَيِِّدُ الكَنيسَةْ بتِذْكَارْ تَكّرْيسِ كِنِيسَةْ القِدّيسْ الأنبا شنوده رئيس المتوحدين، وهي بِنَفْسِ اتساع الدير القائم حَالِيَاً بغرب سوهاج والمعروف بالدير الأبيض، وهْوَ يمثل عظمة فن المعمار القبطي ليس من جهة مساحته العظيمة ولَكِنَّ من جهة ضخامة الأحجار التي بُنى بِهَا إذ يزيد طول بعضها عَن مترين، والتي جمَعْهَا القِدّيسْ الأنبا شنوده من بَعْضُ المباني الفرعونية القَدِيمَة المِنْهُدمة.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -6273,8 +6273,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=0204&C=Title", 
-  "2 Koyak\n1) Décès de saint Abba Hour, le moine ;\n2) Décès de saint Hormina, l’anachorète\n", 
-  "2 كيهك\nنِيَاحَةْ القِدّيسْ أباهور الراهب\nنِيَاحَةْ القِدّيسْ الأنبا هورمينا السائح\n", 
+  "2 Koyak\n1) Décès de saint Abba Hour, le moine ;\n2) Décès de saint Hormina, l’anachorète", 
+  "2 كيهك\nنِيَاحَةْ القِدّيسْ أباهور الراهب\nنِيَاحَةْ القِدّيسْ الأنبا هورمينا السائح", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -6341,7 +6341,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0304&C=Title", 
   "3 Koyak\n1) Entrée de la sainte Vierge Marie au temple de Jérusalem ;\n2) Martyre de Saint Bastavrôs le nouveau", 
-  "3 كيهك\nتِذْكَارْ تقديم القِدِّيسَةْ العَذْرَاءْ مَرْيَمْ إلى الهَيّكَلْ بأورشليم\nاسْتِشْهَادْ القِدّيسْ بسطفروس (صليب الجديد)\n", 
+  "3 كيهك\nتِذْكَارْ تقديم القِدِّيسَةْ العَذْرَاءْ مَرْيَمْ إلى الهَيّكَلْ بأورشليم\nاسْتِشْهَادْ القِدّيسْ بسطفروس (صليب الجديد)", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -6361,7 +6361,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de son intercession soit avec nous. Amen !", 
-  "بركة شفاعتها فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة شفاعتها فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -6417,8 +6417,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=0404&C=Title", 
-  "4 Koyak\n1) Martyre de Saint André l’apôtre le frère de saint Pierre\n2) Consécration de l’église de Saint Jean d’Héraclée à Om-el-Kossour à Manfalout\n3) Commémoration des reliques des deux Saints: abba Pichoï et abba Paul\n", 
-  "4 كيهك\nاسْتِشْهَادْ القِدّيسْ أندراوس أحَدْ الاثنى عَشَرْ رسولاً\nتِذْكَارْ تَكّرْيسِ كِنِيسَةْ القِدّيسْ مِارِ يُوحَنَّا الهرقلي بأم القصور بمنفلوط\nتِذْكَارْ نَقْلِ جسديّ القِدِّيسْينْ الأنبا بيشوي والأنبا بولا\n", 
+  "4 Koyak\n1) Martyre de Saint André l’apôtre le frère de saint Pierre\n2) Consécration de l’église de Saint Jean d’Héraclée à Om-el-Kossour à Manfalout\n3) Commémoration des reliques des deux Saints: abba Pichoï et abba Paul", 
+  "4 كيهك\nاسْتِشْهَادْ القِدّيسْ أندراوس أحَدْ الاثنى عَشَرْ رسولاً\nتِذْكَارْ تَكّرْيسِ كِنِيسَةْ القِدّيسْ مِارِ يُوحَنَّا الهرقلي بأم القصور بمنفلوط\nتِذْكَارْ نَقْلِ جسديّ القِدِّيسْينْ الأنبا بيشوي والأنبا بولا", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -6458,12 +6458,12 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "En ce jour nous commémorons aussi le transfert des corps des deux grands saints abba Pichoï (أنبا بشوي) l’homme parfait, l’ami de nôtre bon Sauveur et abba Paul de Tammouh (أنبا بولا الطموهي).", 
-  "وفيه أيْضَاً تَمَّ نَقْلِ جسديّ القِدِّيْسَْيْن العظيمين الأنبا بيشوي الرَجُلْ الكامل حبيب مخلصنا الصالح وصديق جِهَادَهُ الأنبا بولا الطموهي، من أنصنا بشرق ملوي (دير البرشا حَالِيَاً)، إلى دَيْرٍ الأنبا بيشوي العامر بوادي النطرون ببرية شيهيت المقدسة.", 
+  "وفيه أيْضَاً تَمَّ نَقْلِ جسديّ القِدِّيْسَْيْن العظيمين الأنبا بيشوي الرَجُلْ الكامل حبيب مخلصنا الصالح وصديق جِهَادَهُ الأنبا بولا الطموهي، من أنصنا بشرق ملوي (دير البرشا حَالِيَاً)، إلى دَيْرٍ الأنبا بيشوي العامر بوادي النطرون ببرية شِيهِيتْ المقدسة.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
   "Ces corps qui étaient à l’est de Mallawi (ملوي) à l’emplacement du village actuel Deir el-Bersha (دير البرشا) furent transférés au monastère d’abba Pichoï. Ceci eût lieu en l’an 557 des martyrs (842 après Jésus Christ) à l’époque du pape Joseph 1er (البابا يوساب الأول), le 52ème patriarche. Celui-ci voulut transférer le corps d’abba Pichoï vers son monastère à Scété mais il n’a pas été possible de faire avancer le bateau sur lequel il avait été posé. Un ancien nommé Jérémie (أرميا), qui menait une vie sainte, leur indiqua que le navire n’avancera jamais avec uniquement le corps d’abba Pichoï car il y avait un accord entre lui et abba Paul de ne jamais être séparés sur terre. En conséquence, ils amenèrent le corps de saint Paul sur le bateau qui avança sur le champ, alors, ils louèrent Dieu et glorifièrent ses saints.", 
-  "كان ذَلِكْ في سَنَةْ 557 لِلْشُهَداءِ (842م) في عَهْدِ البابا يوساب الأَوَّلْ البَطْرِيَرْكْ الثاني والخمسين، الذي أرَادَ نَقْلِ جَسَدِ الأنبا بيشوي إلى دَيْرِهِ ببرية شيهيت لِيَكُونَ بَيْنَ أولاده الرُهْبَان، ولَمَّا قَامَ المكلفون بهذه المهمة، بوضع جَسَدِ القِدّيسْ الأنبا بيشوي في السفينة، تعطلت عَن المسير. وكَانَ هُناَكَ شَيْخ قِدِّيسْ يُدعَى إرميا أخبرهم بِأنَّ المركب لن تتحرك بجسد الأنبا بيشوي وحده لِأَنَّهُ كَانَ يُوجَدْ عَهْد بَيْنَ القِدِّيْسَْيْن الأنبا بيشوي والأنبا بولا الطموهي أَنَّ يظلا غير مفترقَيْن في أَيَّامٍ غربتهما عَلَى الأَرْضِ وبَعْدَ نياحتهما فرجعوا وحَمَلُوا جَسَدِ الأنبا بولا الطموهي ووضعوه في السفينة فتحركت للحال وسارت في سَلام فسبحوا الله ومجدوا قديسيه.", 
+  "كان ذَلِكْ في سَنَةْ 557 لِلْشُهَداءِ (842م) في عَهْدِ البابا يوساب الأَوَّلْ البَطْرِيَرْكْ الثاني والخمسين، الذي أرَادَ نَقْلِ جَسَدِ الأنبا بيشوي إلى دَيْرِهِ ببرية شِيهِيتْ لِيَكُونَ بَيْنَ أولاده الرُهْبَان، ولَمَّا قَامَ المكلفون بهذه المهمة، بوضع جَسَدِ القِدّيسْ الأنبا بيشوي في السفينة، تعطلت عَن المسير. وكَانَ هُناَكَ شَيْخ قِدِّيسْ يُدعَى إرميا أخبرهم بِأنَّ المركب لن تتحرك بجسد الأنبا بيشوي وحده لِأَنَّهُ كَانَ يُوجَدْ عَهْد بَيْنَ القِدِّيْسَْيْن الأنبا بيشوي والأنبا بولا الطموهي أَنَّ يظلا غير مفترقَيْن في أَيَّامٍ غربتهما عَلَى الأَرْضِ وبَعْدَ نياحتهما فرجعوا وحَمَلُوا جَسَدِ الأنبا بولا الطموهي ووضعوه في السفينة فتحركت للحال وسارت في سَلام فسبحوا الله ومجدوا قديسيه.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -6480,7 +6480,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0504&C=Title", 
   "5 Koyak\n1) Décès du Saint prophète Nahoum\n2) Martyre de Saint Victor d’Assiout\n3) Martyre de Saint Isidore", 
-  "5 كيهك\nنِيَاحَةْ ناحوم النبي\nاسْتِشْهَادْ القِدّيسْ بقطر الذي من أسيوط\nاسْتِشْهَادْ القِدّيسْ إيسوذوروس\n", 
+  "5 كيهك\nنِيَاحَةْ ناحوم النبي\nاسْتِشْهَادْ القِدّيسْ بقطر الذي من أسيوط\nاسْتِشْهَادْ القِدّيسْ إيسوذوروس", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -6546,8 +6546,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=0604&C=Title", 
-  "6 Koyak\n1) Décès de Saint Abraham ibn Zara’a, le 62ème pape de la prédication de Saint Marc\n2) Martyre de Saint Patlasse, le prêtre\n", 
-  "6 كيهك\nنِيَاحَةْ البابا أبرآم بن زرعة\nاسْتِشْهَادْ القِدّيسْ باطلس القس\n", 
+  "6 Koyak\n1) Décès de Saint Abraham ibn Zara’a, le 62ème pape de la prédication de Saint Marc\n2) Martyre de Saint Patlasse, le prêtre", 
+  "6 كيهك\nنِيَاحَةْ البابا أبرآم بن زرعة\nاسْتِشْهَادْ القِدّيسْ باطلس القس", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -6614,7 +6614,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0704&C=Title", 
   "7 Koyak\n1) Décès de saint Matthieu al-Fakhouri\n2) Martyre de saint Bâninâ et saint Nàou\n3) Consécration de l’église de saint abba Éschyrône de Qualline\n4) Décès de saint Jean, évêque d’Armânt\n5) Martyre de l'architecte Saïd ibn Kâteb al-Farghani", 
-  "7 كيهك\nنِيَاحَةْ القِدّيسْ متاؤس الفاخوري\nاسْتِشْهَادْ القِدِّيسْينْ بانينا وباناوا\nتِذْكَارْ تَكّرْيسِ كِنِيسَةْ الشَهْيدِ أبسخيرون القليني\nنِيَاحَةْ القِدّيسْ يُوحَنَّا أُسْقُفْ أرمنت\nاسْتِشْهَادْ المهندس سعيد بن كاتب الفرغاني\n", 
+  "7 كيهك\nنِيَاحَةْ القِدّيسْ متاؤس الفاخوري\nاسْتِشْهَادْ القِدِّيسْينْ بانينا وباناوا\nتِذْكَارْ تَكّرْيسِ كِنِيسَةْ الشَهْيدِ أبسخيرون القليني\nنِيَاحَةْ القِدّيسْ يُوحَنَّا أُسْقُفْ أرمنت\nاسْتِشْهَادْ المهندس سعيد بن كاتب الفرغاني", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -6684,7 +6684,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de leurs prières soit avec nous. Amen ! ", 
-  "بركة صلواتهما فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة صلواتهما فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -6761,7 +6761,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0804&C=Title", 
   "8 Koyak\n1) Martyre de saint Aissé et de sa sœur sainte Thècle\n2) Martyre des saintes Barbara et Julienne\n3) Décès de saint Samuel le confesseur\n4) Décès de saint Hiéraclas, 13ème patriarche", 
-  "8 كيهك\nاسْتِشْهَادْ القِدّيسْ إيسي وتكلا أخته\nاسْتِشْهَادْ القِدِّيْسْتين بربارة ويوليانة\nنِيَاحَةْ القِدّيسْ الأنبا صموئيل المعترف\nنِيَاحَةْ البابا ياروكلاس\n", 
+  "8 كيهك\nاسْتِشْهَادْ القِدّيسْ إيسي وتكلا أخته\nاسْتِشْهَادْ القِدِّيْسْتين بربارة ويوليانة\nنِيَاحَةْ القِدّيسْ الأنبا صموئيل المعترف\nنِيَاحَةْ البابا ياروكلاس", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -6851,7 +6851,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de leurs prières soit avec nous. Amen !", 
-  "بركة صلواتهما فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة صلواتهما فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -6866,7 +6866,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Dès son enfance, Samuel était pur, semblable au prophète Samuel et lorsqu’il grandit, se fit moine à Scété auprès d’un saint homme nommé abba Aghathôn (انبا أغاثون. Trois ans plus tard le saint homme décéda. Samuel se mit alors à jeuner et à prier avec intensité et persévérance ensuite il fût ordonné prêtre pour l’église de saint Macaire le grand.", 
-  "وكان الصبي طاهراً مثل صموئيل النبي. ولَمَّا كَبُرَ تَرَهَّبَ في برية شيهيت عِنْدَ القِدّيسْ أغاثون، فأقَامَ مَعْهُ ثلاث سِنينَ طائعاً. وبَعْدَ نِياحَةْ الأنبا أغاثون تفرّغ الرَاهِبْ صموئيل للصلوات والأصوام، فرَسَمْوهُ قِسّاً عَلَى كِنِيسَةْ القِدّيسْ مكاريوس الكبير.", 
+  "وكان الصبي طاهراً مثل صموئيل النبي. ولَمَّا كَبُرَ تَرَهَّبَ في بَرِّيَّةِ شِيهِيتْ عِنْدَ القِدّيسْ أغاثون، فأقَامَ مَعْهُ ثلاث سِنينَ طائعاً. وبَعْدَ نِياحَةْ الأنبا أغاثون تفرّغ الرَاهِبْ صموئيل للصلوات والأصوام، فرَسَمْوهُ قِسّاً عَلَى كِنِيسَةْ القِدّيسْ مكاريوس الكبير.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -6881,7 +6881,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Plus tard, les berbères attaquèrent le monastère et l’emmenèrent dans leur pays. Il y rencontra abba Jean (أنبا يؤنس), l’higoumène de Scété et ils se consolaient mutuellement. Son geôlier tenta de le séduire pour qu’il adore le soleil. Comme il n’y parvenait pas, il attacha son pied à celui d’une jeune esclave en leur ordonnant de garder les chameaux dans le but de le faire chuter dans le péché et, dans ce cas, il pourrait en disposer à son gré. Mais avec l’aide de Dieu il put y résister.", 
-  "وبَعْدَ قليل هجم البربر وأخذوه مَعْهُمْ إلى بلادهم وهُنَاكَ وجد الأنبا يوأنس قمص شيهيت فَكَانَ الاثنان يتعزيان معاً. وحَاوَلَ الرَجُلْ الذي سباه أَنَّ يغويه إلى عبادة الشمس فرفض، فربط رجليه مَعَ رجليّ جارية من جواريه وكلّفهما برعاية الإبل قصداً مِنْهُ أَنَّ يقع مَعْهَا في الخطية، وعِنْدَ ذَلِكْ يوجهه حَسَب هواه. وبمعونة الله نجا من هَذِهِ التجربة.", 
+  "وبَعْدَ قليل هجم البربر وأخذوه مَعْهُمْ إلى بلادهم وهُنَاكَ وجد الأنبا يوأنس قمص شِيهِيتْ فَكَانَ الاثنان يتعزيان معاً. وحَاوَلَ الرَجُلْ الذي سباه أَنَّ يغويه إلى عبادة الشمس فرفض، فربط رجليه مَعَ رجليّ جارية من جواريه وكلّفهما برعاية الإبل قصداً مِنْهُ أَنَّ يقع مَعْهَا في الخطية، وعِنْدَ ذَلِكْ يوجهه حَسَب هواه. وبمعونة الله نجا من هَذِهِ التجربة.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -6932,8 +6932,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=0904&C=Title", 
-  "9 Koyak\nDécès de saint Pœmen, le confesseur\n", 
-  "9 كيهك\nنِيَاحَةْ القِدّيسْ بيمن المعترف\n", 
+  "9 Koyak\nDécès de saint Pœmen, le confesseur", 
+  "9 كيهك\nنِيَاحَةْ القِدّيسْ بيمن المعترف", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -6975,7 +6975,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1004&C=Title", 
   "10 Koyak\n1) Décès de saint Nicolas, évêque de Myre\n2) Martyre de saint Choura d’Akhmîm\n3) Transfert des reliques de saint Sévère, patriarche d’Antioche", 
-  "10 كيهك\nنِيَاحَةْ القِدّيسْ نيقولاوس أُسْقُفْ مورا\nاسْتِشْهَادْ القِدّيسْ شورة من أهل أخميم\nنقل جَسَدِ القِدّيسْ ساويرس بطريرك أنطاكية\n", 
+  "10 كيهك\nنِيَاحَةْ القِدّيسْ نيقولاوس أُسْقُفْ مورا\nاسْتِشْهَادْ القِدّيسْ شورة من أهل أخميم\nنقل جَسَدِ القِدّيسْ ساويرس بطريرك أنطاكية", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -7077,7 +7077,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1104&C=Title", 
   "11 Koyak\n1) Décès de saint Pijimi, l’anachorète ;\n2) Martyre de saint Ptolémée de Tentyris ;\n3) Consécration de l’église de saint Claude à Bakour Abou-Tig", 
-  "11 كيهك\nنِيَاحَةْ القِدّيسْ الأنبا بيجيمي السائح\nاسْتِشْهَادْ القِدّيسْ أبطلماوس من أهل دندرة\nتِذْكَارْ تَكّرْيسِ كِنِيسَةْ القِدّيسْ إقلاديوس بناحية باقور أبو تيج\n", 
+  "11 كيهك\nنِيَاحَةْ القِدّيسْ الأنبا بيجيمي السائح\nاسْتِشْهَادْ القِدّيسْ أبطلماوس من أهل دندرة\nتِذْكَارْ تَكّرْيسِ كِنِيسَةْ القِدّيسْ إقلاديوس بناحية باقور أبو تيج", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -7087,7 +7087,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Ce saint était natif de la ville de Fichah du diocèse Massil (فيشا التابعة لكرسي ميصيل). A l’âge de douze ans, alors qu’il gardait le troupeau de son père, un ange du Seigneur lui apparut en prenant l’apparence d’un jeune homme qui lui dit : \"Allons au désert pour nous faire moines ». Pijimi accepta la suggestion et ils se dirigèrent vers le désert de Scété en un lieu où se trouvaient trois anciens. L’ange le leur confit puis disparut. ", 
-  "كان من أهل فيشا التابعة لكرسي ميصيل (ميصيل: هي الآن قرية مليج مركز شبين الكوم مُحَافَظَة المنوفية) ولَمَّا بَلَغَ الثانية عَشَرْ مِنْ عُمْرِهِ كَانَ يرعى غنم أبيه فظهر لَهُ مَلاكُ الرَّبِ في زى شاب وقَالَ له: \"هلم نذهب إلى البَرِّيَة لتصير راهباً\"، فوافقه وأتى إلى برية شيهيت إلى موضع بِهِ ثَلاثَةْ شيوخ وسلمه لَهُمْ المَلاك ثُمَّ غاب عنهم.", 
+  "كان من أهل فيشا التابعة لكرسي ميصيل (ميصيل: هي الآن قرية مليج مركز شبين الكوم مُحَافَظَة المنوفية) ولَمَّا بَلَغَ الثانية عَشَرْ مِنْ عُمْرِهِ كَانَ يرعى غنم أبيه فظهر لَهُ مَلاكُ الرَّبِ في زى شاب وقَالَ له: \"هلم نذهب إلى البَرِّيَة لتصير راهباً\"، فوافقه وأتى إلى بَرِّيَّةِ شِيهِيتْ إلى موضع بِهِ ثَلاثَةْ شيوخ وسلمه لَهُمْ المَلاك ثُمَّ غاب عنهم.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -7107,7 +7107,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Lorsque le moment de quitter ce bas monde approcha, il en informa son serviteur lui donnant comme instruction de l’enterrer sur place. Il tomba malade puis vit un groupe de saints venir auprès de lui. Alors il rendit l’âme entre les mains du Seigneur et les anges le portèrent vers les cieux en chantant des louanges.", 
-  "ولما قربت أَيَّامٍ انتقَالَه من هَذَا العالم، دعا خادمه وعرَّفه بذلك، وأمره بِأنَّ يدفن جَسَدَهُ في نَفْسِ المكان الذي يسكن فيه. ثُمَّ مرض، ورأى جماعةً مِنَ القِدِّيسْينْ قَدْ حضروا إلَيهِ وبَعْدَ قليل أسلم رُوحَهُ الطَاهِرَةْ بيد الرب، فحملتها الملائكة إلى السماء وهم يرتلون.", 
+  "ولما قربت أَيَّامٍ انتقَالَه من هَذَا العالم، دعا خادمه وعرَّفه بذلك، وأمره بِأنَّ يدفن جَسَدَهُ في نَفْسِ المكان الذي يسكن فيه. ثُمَّ مرض، ورأى جماعةً مِنَ القِدِّيسْينْ قَدْ حضروا إلَيهِ وبَعْدَ قليل أسلم رُوحَهُ الطَاهِرَةْ بيد الرَبّ، فحملتها الملائكة إلى السماء وهم يرتلون.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -7159,17 +7159,17 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1204&C=Title", 
   "12 Koyak\n1) Commémoration de l'archange Michel ;\n2) Décès de saint Hadra d'Assouan ;\n3) Commémoration de saint Jean le confesseur ;\n4) Tenue d'un concile à Rome pour juger le prêtre Novatien", 
-  "12 كيهك\nتِذْكَارْ رئيس الملائكة الطَاهِر ميخائيل\nنِيَاحَةْ القِدّيسْ الأنبا هدرا الأسواني\nنِيَاحَةْ القِدّيسْ يُوحَنَّا المعترف\nانعقاد مَجْمَعَ برومية عَلَى نوباطس القس\n", 
+  "12 كيهك\nتِذْكَارْ رئيس الملائكة الطَاهِر ميخائيل\nنِيَاحَةْ القِدّيسْ الأنبا هدرا الأسواني\nنِيَاحَةْ القِدّيسْ يُوحَنَّا المعترف\nانعقاد مَجْمَعَ برومية عَلَى نوباطس القس", 
   ],
   [
   Prefix.same+"&C=NoActor", 
   "Nous célébrons aujourd'hui la commémoration mensuelle de l’archange Michel, le chef des armées de nôtre Seigneur, qui se tient devant Dieu tout-puissant et qui intercède pour les hommes en disant : \"Toi qui es compatissant, ne te met pas en colère.\"\"Toi qui es bon, soit compatissant envers ta création.\"\"Toi qui es patient, ne fais pas périr ceux que Tu as créés.\"", 
-  "تُعيِّد الكَنيسَةْ في هَذَا اليُومْ بالتِذْكَارْ الشهري لرئيس الملائكة ميخائيل، رئيس جند الرب، الذي يشفع فينا أمَامَ ضابط الكل قائلاً: \"أيها الرؤوف لا تغضب، أيها الصالح تحنن عَلَى خليقتك، أيها الطويل الرُوحِ لا ُتهلك صنعة يديك\".", 
+  "تُعيِّد الكَنيسَةْ في هَذَا اليُومْ بالتِذْكَارْ الشهري لرئيس الملائكة ميخائيل، رئيس جند الرَبّ، الذي يشفع فينا أمَامَ ضابط الكل قائلاً: \"أيها الرؤوف لا تغضب، أيها الصالح تحنن عَلَى خليقتك، أيها الطويل الرُوحِ لا ُتهلك صنعة يديك\".", 
   ],
   [
   Prefix.same+"&C=NoActor", 
   "Que son intercession soit avec nous. Amen!", 
-  "شفاعته المُقَدَّسَةْ فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "شفاعته المُقَدَّسَةْ فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -7229,7 +7229,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Les pères lui expliquèrent que l'apôtre ne disait pas cela au sujet de la pénitence mais à propos de qui veut se faire baptiser à chaque fois qu'il aura péché car le baptême ne peut avoir lieu qu'une seule fois. C'est pour cela que l'apôtre a dit \"pour leur compte ils crucifient de nouveau et bafouent le Fils de Dieu » indiquant par-là que comme le Christ n'a été crucifié qu'une seule fois, de même le baptême ne peut avoir lieu qu'une seule fois mais le repentir est toujours possible. Si le repentir n'était pas possible celui du prophète David n'aurait pas été accepté. De même le repentir de Pierre après qu'il ait renié le Christ a été accepté autrement il n'aurait pas pu recevoir la grâce du Saint Esprit et le Christ ne lui aurait pas demandé de paître ses brebis. De plus le baptême de tous ceux qu'il a baptisé serait nul. Donc si on suit ce raisonnement tous auraient péris. Ceci est le comble de l'ignorance alors que le Christ est venu dans le monde pour sauver les pécheurs et les conduire au repentir. Ils lui demandèrent de renoncer à cette opinion erronée en disant : \"Ne t'oppose pas à Dieu, à toi-même et à l'humanité. »", 
-  "فوضح لَهُ الآبَاءِ بِأنَّ القِدّيسْ بُولِسْ الرسول لَمْ يقل هَذَا عَن مَنْ يتوب بل عَن مَنْ يُرِيدُ أَنَّ يكرر المعمودية بَعْدَ كُلَّ خطية، لِأنَّ المعمودية إنما تكون مرة واحدة. ولهذا أضاف الرسول قائلاً: \"إذ هُمْ يصلبون لأنفسهم ابْنِ الله ثَانِيَة\"، يعنى بهذا أَنَّهُ لما كَانَ الصلب قَدْ حَدَثَ مرة واحدة هكذا تكون المعمودية واحدة، أما التوبة فبابِهَا مفتوح لِكُلِّ تائب وإلا فيكون كُلَّ من سقط في الخطية غير مقبول ولو تاب، فداود النبي إذن لَمْ تُقبل توبته، وكذلك القِدّيسْ بُطْرُسْ الرسول لما أنكر ثُمَّ تاب وبكى لَمْ تُقبل توبته أيضاً، وعلى ذَلِكْ يَكُونَ باطلاً حلول الرُوحِ القُدُسْ عَلَيْهِ وباطلاً أيْضَاً تقليده رعاية خراف المَسِيحْ الناطقة وتكون معمودية كُلَّ من اعتمد عَلَى يَدَيْهِ باطلة. وبالإجماع عَلَى حَسَب رأيك قَدْ هلكوا، وهذا منتهي الجهل، بينما السَّيْد المَسِيحْ قَدْ أتى ليُخلِّص الخطاة ويقتادهم للتوبة. فلا تكن يا نوباطس عدواً لله ولنفسك وللإنسانية\".", 
+  "فوضح لَهُ الآبَاءِ بِأنَّ القِدّيسْ بُولِسْ الرسول لَمْ يقل هَذَا عَن مَنْ يتوب بل عَن مَنْ يُرِيدُ أَنَّ يكرر المعمودية بَعْدَ كُلَّ خطية، لِأنَّ المعمودية إنما تكون مرة واحدة. ولهذا أضاف الرسول قائلاً: \"إذ هُمْ يصلبون لأنفسهم ابْنِ الله ثَانِيَة\"، يعنى بهذا أَنَّهُ لما كَانَ الصلب قَدْ حَدَثَ مرة واحدة هكذا تكون المعمودية واحدة، أما التوبة فبابِهَا مفتوح لِكُلِّ تائب وإلا فيكون كُلَّ من سقط في الخطية غير مقبول ولو تاب، فداود النبي إذن لَمْ تُقبل توبته، وكذلك القِدّيسْ بُطْرُسْ الرسول لما أنكر ثُمَّ تاب وبكى لَمْ تُقبل توبته أيضاً، وعلى ذَلِكْ يَكُونَ باطلاً حلول الرُوحِ القُدُسْ عَلَيْهِ وباطلاً أيْضَاً تقليده رعاية خراف المَسِيحْ الناطقة وتكون معمودية كُلَّ من اعتمد عَلَى يَدَيْهِ باطلة. وبالإجماع عَلَى حَسَب رأيك قَدْ هلكوا، وهذا منتهي الجهل، بَيْنَمَا السَّيْد المَسِيحْ قَدْ أتى ليُخلِّص الخطاة ويقتادهم للتوبة. فلا تكن يا نوباطس عدواً لله ولنفسك وللإنسانية\".", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -7358,7 +7358,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1404&C=Title", 
   "14 Koyak\n1) Martyre de saint Behnâm et sainte Sarah, sa sœur ;\n2) Martyre de saint Amonius, évêque d’Esna (Latopolis) ;\n3) Martyre des saints Siméon de Ménouf, abba Hour et abba Ménas l’ancien ;\n4) Décès du pape Christodule ;\n5) Décès de saint Christodule, l’anachorète", 
-  "14 كيهك\nاسْتِشْهَادْ القِدّيسْ بهنام وسارة أخته\nاسْتِشْهَادْ القِدّيسْ الأنبا أمونيوس أُسْقُفْ إسنا\nاسْتِشْهَادْ القِدِّيسْينْ سَمْعَانْ المنوفي وأباهور وأبا مينا الشيخ\nنِيَاحَةْ البابا خرستوذولوس\nنِيَاحَةْ القِدّيسْ خرستوذولوس السائح\n", 
+  "14 كيهك\nاسْتِشْهَادْ القِدّيسْ بهنام وسارة أخته\nاسْتِشْهَادْ القِدّيسْ الأنبا أمونيوس أُسْقُفْ إسنا\nاسْتِشْهَادْ القِدِّيسْينْ سَمْعَانْ المنوفي وأباهور وأبا مينا الشيخ\nنِيَاحَةْ البابا خرستوذولوس\nنِيَاحَةْ القِدّيسْ خرستوذولوس السائح", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -7373,7 +7373,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "A son réveil, il retrouva ses gens et ils se mirent à la recherche de saint Matthieu qu’ils trouvèrent dans une caverne. Behnâm salua le saint homme, lui raconta sa vision et lui demanda de l’accompagner à la ville. Saint Matthieu se mit en chemin avec Behnâm. Celui-ci se dépêcha et arriva en premier. Il informa sa mère de ce qui s’était passé et lui expliqua que Matthieu se trouvait hors de la ville. Comme la mère de Behnâm l’aimait beaucoup, elle accepta que Sarah parte en secret avec son frère. Quand ils arrivèrent près du saint, celui-ci pria à son intention et le Seigneur la guérit. Saint Matthieu leur enseigna la voie qui mène à la Vie et la foi chrétienne, alors, ils crurent. Le saint pria à nouveau et, aussitôt, une source d’eau apparut et il les baptisa au nom du Père, du Fils et du Saint Esprit. Après quoi, il retourna à sa caverne.", 
-  "فَلَمَّا استيقظ بهنام من نومه اجْتَمَعَ بغلمانه وبحثوا عَن القِدّيسْ متى حَتَّى وجدوه في مغارة، فسلّم عَلَيْهِ بهنام وأعْلَمَهُ بالرؤيا، وطَلَبَ مِنْهُ الذهاب مَعْهُ إلى المَدِينَةِ، فَقَامَ وذهب معه، وفي الطَرِيقِ سبقه بهنام وأعلم والدته بالرؤيا وبوجود القِدّيسْ متى خَارِجَ المَدِينَةِ. ونظراً لمحبتها لَهُ سمحت بذهاب أخته مَعْهُ سراً. فصلَّى عَلَيْهَا فشفاها الرب، ثُمَّ وعظهما وعلَّمهما طريق الحياة والإيمَانِ بِالسَيِّدِ المَسِيحِْ فآمنا، وصلَّى أيْضَاً فأنبع الرَّبْ عين ماء، فعمَّدهما بِاسْمِ الآب والابن والرُوحِ القُدُسْ الإله الواحد، ثُمَّ عَادَ إلى مَكَانِهِ.", 
+  "فَلَمَّا استيقظ بهنام من نومه اجْتَمَعَ بغلمانه وبحثوا عَن القِدّيسْ متى حَتَّى وجدوه في مغارة، فسلّم عَلَيْهِ بهنام وأعْلَمَهُ بالرؤيا، وطَلَبَ مِنْهُ الذهاب مَعْهُ إلى المَدِينَةِ، فَقَامَ وذهب معه، وفي الطَرِيقِ سبقه بهنام وأعلم والدته بالرؤيا وبوجود القِدّيسْ متى خَارِجَ المَدِينَةِ. ونظراً لمحبتها لَهُ سمحت بذهاب أخته مَعْهُ سراً. فصلَّى عَلَيْهَا فشفاها الرَبّ، ثُمَّ وعظهما وعلَّمهما طريق الحياة والإيمَانِ بِالسَيِّدِ المَسِيحِْ فآمنا، وصلَّى أيْضَاً فأنبع الرَّبْ عين ماء، فعمَّدهما بِاسْمِ الآب والابن والرُوحِ القُدُسْ الإله الواحد، ثُمَّ عَادَ إلى مَكَانِهِ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -7393,7 +7393,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de ses prières soit avec nous. Amen !", 
-  "بركة صلواتهما فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة صلواتهما فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -7443,7 +7443,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de leurs prières soit avec nous. Amen !", 
-  "بركة صلواتهم فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة صلواتهم فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -7473,7 +7473,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Son activité pastorale et son attachement à la Foi lui valurent beaucoup de tourments de la part des dirigeants du pays qu’il supporta avec patience et en rendant grâce à Dieu. Lorsqu’il eût achevé son bon combat, il décéda en paix après avoir siégé sur le trône apostolique pendant trente-et-un ans. Il fût enterré à l’église de saint Mercure avec beaucoup de respect. Plus tard, sa dépouille fût transférée au monastère de saint Macaire dans la vallée de Scété.", 
-  "وقد نالته تجارب كَثِيرَة مِنَ الحكام بِسَبَبِ تمسُّكه بالإيمان ونشاطه الرعوي، فاحتملها بصبر وشكر، ولَمَّا أكْمَلَ سَعْيَّهُ الصَالِحْ تَنَيَّحَ بِسَلامٍ، بَعْدَ أَنَّ قضى عَلَى الكُرْسِي إحدى وثلاثين سَنَةْ ودَفَنُوهُ بكنيسة المعلقة بِإكْرَامٍ جَزيلٍ، ثُمَّ نُقِلَ جَسَدَهُ فيما بَعْدَ إلى دَيْرٍ القِدّيسْ مكاريوس ببرية شيهيت.", 
+  "وقد نالته تجارب كَثِيرَة مِنَ الحكام بِسَبَبِ تمسُّكه بالإيمان ونشاطه الرعوي، فاحتملها بصبر وشكر، ولَمَّا أكْمَلَ سَعْيَّهُ الصَالِحْ تَنَيَّحَ بِسَلامٍ، بَعْدَ أَنَّ قضى عَلَى الكُرْسِي إحدى وثلاثين سَنَةْ ودَفَنُوهُ بكنيسة المعلقة بِإكْرَامٍ جَزيلٍ، ثُمَّ نُقِلَ جَسَدَهُ فيما بَعْدَ إلى دَيْرٍ القِدّيسْ مكاريوس ببرية شِيهِيتْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -7515,7 +7515,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1504&C=Title", 
   "15 Koyak\n1) Décès de saint Grégoire, patriarche des Arméniens ;\n2) Décès de saint Luc le stylite Décès ; d’abba Ezéchiel d’ Hermonthis ;\n3) Décès d’abba Ezéchiel d’ Hermonthis", 
-  "15 كيهك\nنِيَاحَةْ القِدّيسْ غريغوريوس بطريرك الأرمن\nنِيَاحَةْ القِدّيسْ لوكاس العمودي\nنِيَاحَةْ القِدّيسْ الأنبا حزقيال من أرمنت\n", 
+  "15 كيهك\nنِيَاحَةْ القِدّيسْ غريغوريوس بطريرك الأرمن\nنِيَاحَةْ القِدّيسْ لوكاس العمودي\nنِيَاحَةْ القِدّيسْ الأنبا حزقيال من أرمنت", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -7617,7 +7617,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1604&C=Title", 
   "16 Koyak\n1) Décès de Gédéon le juste ;\n2) Martyre des saints Harouâdj, Ananias et Khouzi d’Akhmîm ;\n3) Martyre des saints Euloge et Arsène ;\n4) Martyre de saint Emsah de Qift ;\n5) Consécration de l’église de saint Jacques le persan", 
-  "16 كيهك\nنِيَاحَةْ البار جدعون أحَدْ قضاة بني إسرائيل\nاسْتِشْهَادْ القِدِّيسْينْ هرواج وحنانيا وخوزى \nاسْتِشْهَادْ القِدِّيسْينْ أولوجيوس وأرسانيوس\nاسْتِشْهَادْ القِدّيسْ إمساح القفطي\nتَكّرْيسِ كِنِيسَةْ القِدّيسْ يَعْقُوبْ الفارسي\n", 
+  "16 كيهك\nنِيَاحَةْ البار جدعون أحَدْ قضاة بني إسرائيل\nاسْتِشْهَادْ القِدِّيسْينْ هرواج وحنانيا وخوزى \nاسْتِشْهَادْ القِدِّيسْينْ أولوجيوس وأرسانيوس\nاسْتِشْهَادْ القِدّيسْ إمساح القفطي\nتَكّرْيسِ كِنِيسَةْ القِدّيسْ يَعْقُوبْ الفارسي", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -7667,7 +7667,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de leurs prières soit avec nous. Amen !", 
-  "بركة صلواتهما فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة صلواتهما فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -7714,7 +7714,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1704&C=Title", 
   "17 Koyak\n1) Commémoration du transfert des reliques de saint Luc le stylite ;\n2) Décès de saint Elie au mont Pichwaw", 
-  "17 كيهك\nتِذْكَارْ نَقْلِ جَسَدِ القِدّيسْ لوكاس العمودي\nنِيَاحَةْ القِدّيسْ إيلياس بجبل بِشْوَاو\n", 
+  "17 كيهك\nتِذْكَارْ نَقْلِ جَسَدِ القِدّيسْ لوكاس العمودي\nنِيَاحَةْ القِدّيسْ إيلياس بجبل بِشْوَاو", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -7750,8 +7750,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=1804&C=Title", 
-  "18 Koyak\n1) Transfert des reliques de saint Tite à Constantinople ;\n12) Commémoration de saint Héraclès, le martyr, et de saint Philémon le prêtre\n", 
-  "18 كيهك\nنقل جَسَدِ القِدّيسْ تيطس أُسْقُفْ كريت إلى القسطنطينية\nاسْتِشْهَادْ القِدِّيسْينْ ياروكلاس وفليمون\n", 
+  "18 Koyak\n1) Transfert des reliques de saint Tite à Constantinople ;\n12) Commémoration de saint Héraclès, le martyr, et de saint Philémon le prêtre", 
+  "18 كيهك\nنقل جَسَدِ القِدّيسْ تيطس أُسْقُفْ كريت إلى القسطنطينية\nاسْتِشْهَادْ القِدِّيسْينْ ياروكلاس وفليمون", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -7783,7 +7783,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1904&C=Title", 
   "19 Koyak\n1) Décès du pape Gabriel VI ;\n2) Décès de saint Jean, évêque d'al-Borollos", 
-  "19 كيهك\nنِيَاحَةْ البابا غُبْرِيَالْ السادس\nنِيَاحَةْ الأنبا يُوحَنَّا أُسْقُفْ البُرلُّس\n", 
+  "19 كيهك\nنِيَاحَةْ البابا غُبْرِيَالْ السادس\nنِيَاحَةْ الأنبا يُوحَنَّا أُسْقُفْ البُرلُّس", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -7818,7 +7818,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Son père était prêtre et sa mère une femme vertueuse ; ils l’éduquèrent selon leur Foi. Après leur décès, Jean fit construire avec son héritage une hostellerie pour les étrangers où Il assemblait les malades qu'il servait et soignait lui-même. Un moine qui passait par là, constata cette bonne-œuvre et le félicita pour son action.  Ensuite, il lui parla de la vie monastique et lui en fit l'éloge. Jean apprécia ses paroles et voulut embrasser la vie monastique. Immédiatement, il vendit tout ce qui lui appartenait, en distribua le revenu aux pauvres et aux nécessiteux puis alla au désert de Scété (برية شهيت) où il fût revêtu du shème des moines (إسكيم الرهبنة) par abba Daniel (أنبا دانيال), l'higoumène de la vallée. Il pratiqua une profonde dévotion et un grand ascétisme. Satan et ses légions le jalousèrent à cause de sa bonne conduite et l'attaquèrent jusqu'à ce qu'il fût malade pour une longue période mais le Christ le guérit et lui donna la force nécessaire pour pouvoir les vaincre.", 
-  "وُلِدَ هَذَا القِدّيسْ مِنْ أبٍ كَاهِنْ تقي وأم فَاضِلَة فربيّاه وهذّباه بالآداب المسيحية. ولَمَّا تَنَيَّحَ والداه أَخَذَ ما تركاه لَهُ وبنى فندقاً للغرباء والمرضى وكَانَ يخدمهم بنفسه، واتفق مرور أحَدْ الرُهْبانْ عَلَى ذَلِكْ المكان، فشاهد هَذَا العمل الحسن وأثنى عليه، ثُمَّ حدثه عَن الرَهْبَنَةْ وعظمتها وسُموّها، فمال قلبه إليها. وفي الحال باع كُلَّ ماله ووزّعه عَلَى الفقراء والمَسَاكِينْ وذهب إلى برية شيهيت المُقَدَّسَةْ حَيْثُ ألبسه الأنبا دانيال قمص البَرِّيَة إسكيم الرهبنة، فسلك في سِيرَةِ فَاضِلَة واشْتَهَرَ بِكثرة النُسْكْ وحُسن العبادة. فحسدته الشياطين عَلَى ذَلِكْ وضربوه ضرباً مبرحاً رقد عَلَى أثره مُدَةِ مِنَ الزمان. بَعْدَ ذَلِكْ شفاه السَّيْد المَسِيحْ ونصره عَلَى حروبهم.", 
+  "وُلِدَ هَذَا القِدّيسْ مِنْ أبٍ كَاهِنْ تقي وأم فَاضِلَة فربيّاه وهذّباه بالآداب المسيحية. ولَمَّا تَنَيَّحَ والداه أَخَذَ ما تركاه لَهُ وبنى فندقاً للغرباء والمرضى وكَانَ يخدمهم بنفسه، واتفق مرور أحَدْ الرُهْبانْ عَلَى ذَلِكْ المكان، فشاهد هَذَا العمل الحسن وأثنى عليه، ثُمَّ حدثه عَن الرَهْبَنَةْ وعظمتها وسُموّها، فمال قلبه إليها. وفي الحال باع كُلَّ ماله ووزّعه عَلَى الفقراء والمَسَاكِينْ وذهب إلى بَرِّيَّةِ شِيهِيتْ المُقَدَّسَةْ حَيْثُ ألبسه الأنبا دانيال قمص البَرِّيَة إسكيم الرهبنة، فسلك في سِيرَةِ فَاضِلَة واشْتَهَرَ بِكثرة النُسْكْ وحُسن العبادة. فحسدته الشياطين عَلَى ذَلِكْ وضربوه ضرباً مبرحاً رقد عَلَى أثره مُدَةِ مِنَ الزمان. بَعْدَ ذَلِكْ شفاه السَّيْد المَسِيحْ ونصره عَلَى حروبهم.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -7845,7 +7845,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2004&C=Title", 
   "20 Koyak\n1) Décès du prophète Aggée le juste ;\n2) Martyre d’abba Elie, l’évêque du monastère al-Mouharrak et de Qousiah", 
-  "20 كيهك\nنِيَاحَةْ حَجِّي النبي\nاسْتِشْهَادْ الأنبا إيلياس أُسْقُفْ دير المُحَرَّقْ والقوصية\n", 
+  "20 كيهك\nنِيَاحَةْ حَجِّي النبي\nاسْتِشْهَادْ الأنبا إيلياس أُسْقُفْ دير المُحَرَّقْ والقوصية", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -7860,7 +7860,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Sur l’ordre de Dieu ce prophète délivra son message à Zorobabel puis à Josué (يهوشع), le prêtre, pour inciter les juifs à achever la reconstruction du temple. Ils avaient, en effet, commencé cette reconstruction dès leur retour d'exil puis l'avaient négligées préférant se faire construire des maisons. Il les réprimanda de se loger dans des maisons lambrissées alors que la maison de Dieu restait dévastée. Alors les justes du peuple (أبرار الشعب) qui entendirent cela craignirent les menaces de Dieu, ils se mirent à l'œuvre et construisirent le Temple comme il fallait. Aggée annonça alors que Dieu était satisfait de cela.", 
-  "وقد وجّه هَذَا النبي نبوته بِأمْرِ الله إلى زربابل ثُمَّ يهوشع الكاهن العَظِيمْ مُحرِّضاً اليهود عَلَى إتمام تجديد بناء الهَيّكَلْ الذي كانوا قَدْ بدأوا في تشييده بَعْدَ رجوعهم مِنَ السبي، ثُمَّ انصرفوا عَنْهُ لبناء بيوتهم الخاصة، فبكّتهم (حجى 1: 1 – إلخ) النبي عَلَى سُكناهم في بيوت مزّينة بينما بَيْت الله خراب. فسمع أبرار الشَّعْبِ قوله، وخافوا مِنَ التهديد وبنوا الهَيّكَلْ كَمَا ينبغي. وأعلن هَذَا النبي للشعب بَعْدَ الفراغ من بناء الهَيّكَلْ أَنَّ الرَّبْ قَدْ سُرَّ بذلك.", 
+  "وقد وجّه هَذَا النبي نبوته بِأمْرِ الله إلى زربابل ثُمَّ يهوشع الكاهن العَظِيمْ مُحرِّضاً اليهود عَلَى إتمام تجديد بناء الهَيّكَلْ الذي كانوا قَدْ بدأوا في تشييده بَعْدَ رجوعهم مِنَ السبي، ثُمَّ انصرفوا عَنْهُ لبناء بيوتهم الخاصة، فبكّتهم (حجى 1: 1 – إلخ) النبي عَلَى سُكناهم في بيوت مزّينة بَيْنَمَا بَيْت الله خراب. فسمع أبرار الشَّعْبِ قوله، وخافوا مِنَ التهديد وبنوا الهَيّكَلْ كَمَا ينبغي. وأعلن هَذَا النبي للشعب بَعْدَ الفراغ من بناء الهَيّكَلْ أَنَّ الرَّبْ قَدْ سُرَّ بذلك.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -7907,7 +7907,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2104&C=Title", 
   "21 Koyak\n1) Commémoration de la Mère de Dieu, la très sainte Vierge Marie ;\n2) Martyre de saint Barnabé, l’un des douze disciples", 
-  "21 كيهك\nتِذْكَارْ والدة الإله القِدِّيسَةْ الطَاهِرَةِ مَرْيَمْ العذراء\nاسْتِشْهَادْ القِدّيسْ برنابا أحَدْ السبعين رسولاً\n", 
+  "21 كيهك\nتِذْكَارْ والدة الإله القِدِّيسَةْ الطَاهِرَةِ مَرْيَمْ العذراء\nاسْتِشْهَادْ القِدّيسْ برنابا أحَدْ السبعين رسولاً", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -7917,7 +7917,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que son intercession soit avec nous. Amen !", 
-  "شفاعتها فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "شفاعتها فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -7974,7 +7974,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2204&C=Title", 
   "22 Koyak\n1) Commémoration de l'archange Gabriel ;\n2) Martyre de saint Pacôme et de sa sœur sainte Dhalusham ;\n3) Décès de saint Anastase, le 36ème patriarche", 
-  "22 كيهك\nتِذْكَارْ المَلاك الجليل غُبْرِيَالْ المُبشر\nاسْتِشْهَادْ القِدّيسْ باخوم وضالوشام أخته\nنِيَاحَةْ البابا أنسطاسيوس\n", 
+  "22 كيهك\nتِذْكَارْ المَلاك الجليل غُبْرِيَالْ المُبشر\nاسْتِشْهَادْ القِدّيسْ باخوم وضالوشام أخته\nنِيَاحَةْ البابا أنسطاسيوس", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -7984,7 +7984,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Cet ange fût envoyé auprès du prêtre Zacharie pour lui annoncer la naissance de Jean le Baptiste. Il fût aussi envoyer auprès de la sainte Vierge Marie pour lui annoncer qu’elle portera le sauveur du monde. Voici pourquoi l’Eglise l’a surnommé : l’ange de l’annonciation.", 
-  "هذا المَلاك هُوَ الذي أرسله الله ليبشّر زَكَرِيَّا الكاهن بميلاد يُوحَنّا المِعْمِدَانْ كَمَا أرسله ليبشر القِدِّيسَةْ العَذْرَاءْ مَرْيَمْ بحلول كلمة الله فِيهَا لخلاص العالم. ولذلك لقَّبته الكَنيسَةْ \"ملاك البشارة\".", 
+  "هذا المَلاك هُوَ الذي أرسله الله ليبشّر زَكَرِيَّا الكاهن بِمِيلادِ يُوحَنّا المِعْمِدَانْ كَمَا أرسله ليبشر القِدِّيسَةْ العَذْرَاءْ مَرْيَمْ بحلول كلمة الله فِيهَا لخلاص العالم. ولذلك لقَّبته الكَنيسَةْ \"ملاك البشارة\".", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -7994,7 +7994,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que son intercession soit avec nous. Amen !", 
-  "شفاعته المُقَدَّسَةْ فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "شفاعته المُقَدَّسَةْ فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -8029,7 +8029,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de leurs prières soit avec nous. Amen !", 
-  "بركة صلواتهما فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة صلواتهما فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -8044,7 +8044,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Après sa consécration, il s'occupa intensément de l’Eglise en consacrant des évêques pour occuper les postes vacants. Il construisit plusieurs églises et récupéra des Melkites celles dont ils s'étaient emparés. Le patriarche chalcédonien (الخلقيدوني) en fût irrité et alla se plaindre auprès de l’empereur qui donna des ordres au gouverneur de la ville pour que celui-ci remette au patriarche étranger quelques-unes des églises qui dépendaient de saint Anastase. Ceci attrista le pape qui se retira dans le désert pendant une longue période en priant et en jeûnant pour implorer l’intervention divine.", 
-  "اهتم بَعْدَ رِسَامَتْهُ بالكنيسة اهتماماً كبيراً فَرُسِمَ أَسَاقِفَةِ وكهنة في الإيبارشيات الخالية وشيَّد عدة كنائس جديدة، واستعاد مِنَ الخلقيدونيين ما قَدْ وضعوا أيديهم عَلَيْهِ من كنائس، فتضايق البَطْرِيَرْكْ الخلقيدوني ووشى بِهِ لَدَى الإمبراطور فأَرْسَلَ أوامره إلى والي الإسْكَنْدَرِيَّة أَنَّ يغتصب بَعْضُ الكَنَائِسْ التابعة للبطريرك أنسطاسيوس ويُسلِّمها للبطريرك الدخيل. فحزن البابا أنسطاسيوس وذهب إلى برية شيهيت وقضى أَيَّامٍاً كَثِيرَة في الأصوام والصَلَواتِ طالباً تدخُّل العناية الإلهية.", 
+  "اهتم بَعْدَ رِسَامَتْهُ بالكنيسة اهتماماً كبيراً فَرُسِمَ أَسَاقِفَةِ وكهنة في الإيبارشيات الخالية وشيَّد عدة كنائس جديدة، واستعاد مِنَ الخلقيدونيين ما قَدْ وضعوا أيديهم عَلَيْهِ من كنائس، فتضايق البَطْرِيَرْكْ الخلقيدوني ووشى بِهِ لَدَى الإمبراطور فأَرْسَلَ أوامره إلى والي الإسْكَنْدَرِيَّة أَنَّ يغتصب بَعْضُ الكَنَائِسْ التابعة للبطريرك أنسطاسيوس ويُسلِّمها للبطريرك الدخيل. فحزن البابا أنسطاسيوس وذهب إلى بَرِّيَّةِ شِيهِيتْ وقضى أَيَّامٍاً كَثِيرَة في الأصوام والصَلَواتِ طالباً تدخُّل العناية الإلهية.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -8061,7 +8061,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2304&C=Title", 
   "23 Koyak\n1) Décès de David, le prophète et le roi ;\n2) Décès de saint Timothée, l’anachorète", 
-  "23 كيهك\nنِيَاحَةْ داود النبي والملك\nنِيَاحَةْ القِدّيسْ تِيمُوثَاوُسْ السائح\n", 
+  "23 كيهك\nنِيَاحَةْ داود النبي والملك\nنِيَاحَةْ القِدّيسْ تِيمُوثَاوُسْ السائح", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -8122,8 +8122,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=2404&C=Title", 
-  "24 Koyak\nMartyre de saint Ignace le Théophore, l’évêque d’Antioche\n", 
-  "24 كيهك\nاسْتِشْهَادْ القِدّيسْ أغناطيوس الثيئوفوروس\n", 
+  "24 Koyak\nMartyre de saint Ignace le Théophore, l’évêque d’Antioche", 
+  "24 كيهك\nاسْتِشْهَادْ القِدّيسْ أغناطيوس الثيئوفوروس", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -8175,7 +8175,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2504&C=Title", 
   "25 Koyak\n1) Décès de saint Jean Kamé, le prêtre ;\n2) Décès de saint Pichaï au mont al-Tôd", 
-  "25 كيهك\nنِيَاحَةْ القِدّيسْ الأنبا يحنس كاما القس\nنِيَاحَةْ القِدّيسْ الأنبا بشاي بجبل الطود\n", 
+  "25 كيهك\nنِيَاحَةْ القِدّيسْ الأنبا يحنس كاما القس\nنِيَاحَةْ القِدّيسْ الأنبا بشاي بجبل الطود", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -8200,7 +8200,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   " Dès que Jean quitta son village, un ange le guida vers la vallée de Scété (برية شهيت) où il s’installa comme moine dans la cellule du père Darudi (درودي) dans le monastère de saint Macaire. Il demeura auprès de ce père jusqu’au décès de ce dernier. L’ange lui demanda d’aller à l’ouest du monastère de saint Jean Colobos (abba Iwannyc pikoloboc – أبو يحنس القصير) et de se construire un monastère à cet endroit. Il fit ce qui lui était demandé et près de trois cent moines s’assemblèrent autour de lui. Le saint leur apprit à prier et à louer Dieu ainsi que les vertus monastiques.", 
-  "أما القِدّيسْ يحنس فأرْشَدَهُ مَلاكُ الرَّبِ إلى برية شيهيت، وهُنَاكَ تَرَهَّبَ عِنْدَ شَيْخ قِدِّيسْ يُدْعَى درودي بِدِيرْ القِدّيسْ مكاريوس، فأقَامَ عِنْدَ هَذَا الشيخ يتعلم مِنْهُ الفضيلة حَتَّى نال بركته الأخيرة فأمره مَلاكُ الرَّبِ أَنَّ يمضى إلى غربي دير القِدّيسْ يحنس القصير بقليل ويبنى لَهُ ديراً، فَمَضَى وفعل كَمَا أمره الملاك. واجْتَمَعَ حَوْلَهُ ثلاثمائة راهب، فعلَّمهم الصلوات والتسابيح والفضائل الرُهْبَانية.", 
+  "أما القِدّيسْ يحنس فأرْشَدَهُ مَلاكُ الرَّبِ إلى بَرِّيَّةِ شِيهِيتْ، وهُنَاكَ تَرَهَّبَ عِنْدَ شَيْخ قِدِّيسْ يُدْعَى درودي بِدِيرْ القِدّيسْ مكاريوس، فأقَامَ عِنْدَ هَذَا الشيخ يتعلم مِنْهُ الفضيلة حَتَّى نال بركته الأَخِيرَةِ فأمره مَلاكُ الرَّبِ أَنَّ يمضى إلى غربي دير القِدّيسْ يحنس القصير بقليل ويبنى لَهُ ديراً، فَمَضَى وفعل كَمَا أمره الملاك. واجْتَمَعَ حَوْلَهُ ثلاثمائة راهب، فعلَّمهم الصلوات والتسابيح والفضائل الرُهْبَانية.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -8242,7 +8242,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2604&C=Title", 
   "26 Koyak\n1) Martyre de sainte Anastasie ;\n2) Consécration de l’église des deux saints : abba Pichaï et abba Pierre", 
-  "26 كيهك\nاسْتِشْهَادْ القِدِّيسَةْ أنسطاسيه\nتَكّرْيسِ كِنِيسَةْ الشهيدين أنبا بشاي وأنبا بطرس\n", 
+  "26 كيهك\nاسْتِشْهَادْ القِدِّيسَةْ أنسطاسيه\nتَكّرْيسِ كِنِيسَةْ الشهيدين أنبا بشاي وأنبا بطرس", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -8272,7 +8272,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de ses prières soit avec nous. Amen !", 
-  "بركة صلواتها فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة صلواتها فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -8298,8 +8298,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=2704&C=Title", 
-  "27 Koyak\nMartyre de saint Psoté, l'évêque de Psoï\n", 
-  "27 كيهك\nاسْتِشْهَادْ القِدّيسْ الأنبا بساده أُسْقُفْ أبصاي\n", 
+  "27 Koyak\nMartyre de saint Psoté, l'évêque de Psoï", 
+  "27 كيهك\nاسْتِشْهَادْ القِدّيسْ الأنبا بساده أُسْقُفْ أبصاي", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -8345,8 +8345,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=2804&C=Title", 
-  "28 Koyak\n1) Préparation de la fête de la Nativité de nôtre Seigneur Jésus Christ ;\n2) Martyre de cent cinquante hommes et vingt-quatre femmes à Antinoë\n", 
-  "28 كيهك\nبرمون عيد الميلاد المجيد\nاسْتِشْهَادْ 150 رجلاً، و24 امْرَأَةْ من مدينة أنصنا\n", 
+  "28 Koyak\n1) Préparation de la fête de la Nativité de nôtre Seigneur Jésus Christ ;\n2) Martyre de cent cinquante hommes et vingt-quatre femmes à Antinoë", 
+  "28 كيهك\nبرمون عيد الميلاد المجيد\nاسْتِشْهَادْ 150 رجلاً، و24 امْرَأَةْ من مدينة أنصنا", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -8398,12 +8398,12 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2904&C=Title", 
   "29 Koyak\n1) Glorieuse Nativité de nôtre Seigneur Jésus Christ ;\n2) Commémoration des martyrs d’Akhmîm", 
-  "29 كيهك\nعيد الميلاد المجيد\nتِذْكَارْ شهداء أخميم\n", 
+  "29 كيهك\nعيد الميلاد المجيد\nتِذْكَارْ شهداء أخميم", 
   ],
   [
   Prefix.same+"&C=NoActor", 
   "En ce jour de l’an 5501 après la création du monde selon la tradition de nôtre Eglise copte orthodoxe, et en l’an 42 du règne d’Auguste César, naquit nôtre Seigneur, nôtre Dieu et nôtre Sauveur Jésus Christ selon la chair de la très sainte Vierge Marie.", 
-  "في مِثْلِ هَذا اليَومْ مِنْ سَنَةْ 5501 (يوجد رَأَى آخر يقول أَنَّ المدة بَيْنَ آدم والمسيح أَكْثَرَ من 5500 سَنَةً) للعالم بحسب تقليد كنيستنا القبطية الأرثوذكسية، وسنة 42 لمُلك أوغسطس قيصر، وُلِدَ ربنا وإلهنا ومخلصنا يَسْوعْ المَسِيحْ بالجسد مِنَ العَذْرَاءْ البتول القِدِّيسَةْ مَرْيَمْ.", 
+  "في مِثْلِ هَذا اليَومْ مِنْ سَنَةْ 5501 (يوجد رَأَى آخر يقول أَنَّ المدة بَيْنَ آدم والمسيح أَكْثَرَ من 5500 سَنَةً) للعالم بحسب تقليد كنيستنا القبطية الأرثوذكسية، وسنة 42 لمُلك أوغسطس قيصر، وُلِدَ ربنا وإلهنا ومخلصنا يَسْوعْ المَسِيحْ بِالجَسَدِ مِنَ العَذْرَاءْ البتول القِدِّيسَةْ مَرْيَمْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -8428,7 +8428,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Nous devons donc concentrer nos pensées vers cette crèche de Bethléem et contempler le mystère de l’incarnation de Dieu et de Sa naissance dans une mangeoire pour nôtre Salut. Sachons qu’en faisant ceci, Il nous enseignait à mépriser le monde et toutes ses vanités et nous incitait à l’humilité, l’amour du prochain et la recherche de son bien. Nous devons vivre dans la vertu, la piété selon les principes chrétiens et ne jamais oublier le grand honneur qui nous a été fait par la naissance de nôtre bon Sauveur.", 
-  "فيجب علينا الآن أَنَّ نتوجه بعقولنا نَحْوَ مزود بَيْت لحم متأملين في سر تجسد الإله وولادته في مزود لأجل خلاصنا، عالمين أَنَّهُ بهذا يعلمنا احتقار أباطيل العالم، ويحثنا عَلَى الاتِضَاعِ ومَحَبَّةْ القريب والسعي في الخير، وأَنَّ نعيش بالفضيلة والتقوى المسيحية، عارفين مقدار الكرامة العظيمة التي صارت لنا بميلاد مخلصنا الصالح. ", 
+  "فيجب علينا الآن أَنَّ نتوجه بعقولنا نَحْوَ مزود بَيْت لحم متأملين في سر تجسد الإله وولادته في مزود لأجل خلاصنا، عالمين أَنَّهُ بهذا يعلمنا احتقار أباطيل العالم، ويحثنا عَلَى الاتِضَاعِ ومَحَبَّةْ القريب والسعي في الخير، وأَنَّ نعيش بالفضيلة والتقوى المسيحية، عارفين مقدار الكرامة العظيمة التي صارت لنا بِمِيلادِ مخلصنا الصالح. ", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -8480,17 +8480,17 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=3004&C=Title", 
   "30 Koyak\n1) Décès de saint Jean, l’higoumène de Scété ;\n2) Adoration de nôtre Seigneur par les mages ;\n3) Martyre de saint Michel de Toukh ;\n4) Martyre de l’enfant Zacharie et ses compagnons à Akhmîm", 
-  "30 كيهك\nنِيَاحَةْ القِدّيسْ يوأنس قمص شيهيت\nسجود المجوس للمخلص\nاسْتِشْهَادْ القِدّيسْ القُمُّصْ ميخائيل الطوخي\nاسْتِشْهَادْ الطفل زَكَرِيَّا ومن مَعْهُ بأخميم\n", 
+  "30 كيهك\nنِيَاحَةْ القِدّيسْ يوأنس قمص شِيهِيتْ\nسجود المجوس للمخلص\nاسْتِشْهَادْ القِدّيسْ القُمُّصْ ميخائيل الطوخي\nاسْتِشْهَادْ الطفل زَكَرِيَّا ومن مَعْهُ بأخميم", 
   ],
   [
   Prefix.same+"&C=NoActor", 
   "En ce jour de l’an 391 des martyrs (675 après Jésus Christ) décéda saint Jean (يؤنس), l’higoumène de Scété (شيهيت).", 
-  "في مِثْلِ هَذا اليَومْ مِنْ سَنَةْ 391 لِلْشُهَداءِ (675م) تَنَيَّحَ القِدّيسْ الأنبا يوأنس قمص برية شيهيت.", 
+  "في مِثْلِ هَذا اليَومْ مِنْ سَنَةْ 391 لِلْشُهَداءِ (675م) تَنَيَّحَ القِدّيسْ الأنبا يوأنس قمص بَرِّيَّةِ شِيهِيتْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
   "Ce saint naquit en 585 après Jésus Christ à Choubramanso (شبرا منصو) qui faisait partie des dépendances de Sa-al-hagar (التابعة لصا الحجر) de parents chrétiens qui l’élevèrent dans la piété et la vertu. Lorsqu’il grandit, il voulut devenir moine et se rendit au monastère de saint Macaire à Scété en l’an 603 après Jésus Christ.", 
-  "وُلِدَ هَذَا القِدّيسْ سَنَةْ 585م بِبَلْدَةِ شبرا منصو التابعة لبلدة صا الحَجَرْ (صا الحجر: هي الآن قرية تابعة لمركز بسيون مُحَافَظَة الغربية)، مِنْ أَبَوينِ مَسيحِيَّيْنْ ربياه في حَيَاةِ التقوى والفَضِيلَةْ وعلماه العِلُومِ الكَنَسِيَّة. ولَمَّا كَبُرَ اشتاق إلى الرَهْبَنَةْ فذهب وتَرَّهَبَ في دير القِدّيسْ مكاريوس ببرية شيهيت سَنَةْ 603م.", 
+  "وُلِدَ هَذَا القِدّيسْ سَنَةْ 585م بِبَلْدَةِ شبرا منصو التابعة لبلدة صا الحَجَرْ (صا الحجر: هي الآن قرية تابعة لمركز بسيون مُحَافَظَة الغربية)، مِنْ أَبَوينِ مَسيحِيَّيْنْ ربياه في حَيَاةِ التقوى والفَضِيلَةْ وعلماه العِلُومِ الكَنَسِيَّة. ولَمَّا كَبُرَ اشتاق إلى الرَهْبَنَةْ فذهب وتَرَّهَبَ في دير القِدّيسْ مكاريوس ببرية شِيهِيتْ سَنَةْ 603م.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -8505,7 +8505,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Ce saint fût capturé trois fois par les berbères qui le traitèrent comme un esclave et l’humilièrent. Lors de sa dernière déportation il y rencontra saint Samuel le confesseur (القديس صموئيل المعترف) l’abbé du monastère d’el-Qalamôn (دير القلمون). Par la grâce de Dieu, il finit par revenir à son monastère et à ses enfants spirituels.", 
-  "وقع هَذَا القِدّيسْ في أسر البربر ثلاث مرات، فاستعبدوه وأذلّوه. التقى في المرة الأخيرة بالقديس صموئيل المعترف رئيس دير جبل القلمون، وبنعمة الله عَادَ إلى دَيْرِهِ وإلى أولاده.", 
+  "وقع هَذَا القِدّيسْ في أسر البربر ثلاث مرات، فاستعبدوه وأذلّوه. التقى في المرة الأَخِيرَةِ بالقديس صموئيل المعترف رئيس دير جبل القلمون، وبنعمة الله عَادَ إلى دَيْرِهِ وإلى أولاده.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -8545,7 +8545,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Ce saint était originaire de Toukh-el-Nassara (طوخ النصارى) du gouvernorat de Ménoufieh (المنوفية). Il apprit la sainte Bible et les sciences de l’Eglise dès son plus jeune âge. Plus tard, il devint un serviteur à l’église (شمَّاس). Après son mariage, il fût choisi par le peuple pour être ordonné prêtre. Ensuite il devint higoumène et il guidait ses fidèles.", 
-  "كان من بلدة طوخ النصارى مُحَافَظَة المنوفية. حفظ الكُتُبِ الإلهية وعلوم الكَنيسَةْ منذ صغره، فَصَارَ شماساً، وبَعْدَ أَنْ تزوج اختاره الشَّعْبِ قِسَّاً، ثُمَّ صَارَ قمصاً مدبراً لشعبه.", 
+  "كان من بلدة طوخ النصارى مُحَافَظَة المنوفية. حفظ الكُتُبِ الإلهية وعلوم الكَنيسَةْ منذ صغره، فَصَارَ شماساً، وبَعْدَ أَنْ تَزَوَّجَ اختاره الشَّعْبِ قِسَّاً، ثُمَّ صَارَ قمصاً مدبراً لشعبه.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -8597,7 +8597,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0105&C=Title", 
   "1 Taubi\n1) Martyre de saint Etienne, l’archidiacre ;\n2) Martyre de saint Léonce ;\n3) Martyre de saint Dioscores et de son frère saint Séclapios", 
-  "1 طوبة\nاسْتِشْهَادْ القِدّيسْ إسطفانوس رئيس الشمامسة\nاسْتِشْهَادْ القِدّيسْ لاونديانوس\nاسْتِشْهَادْ القِدِّيسْينْ ديوسقوروس وأخيه سكلابيوس\n", 
+  "1 طوبة\nاسْتِشْهَادْ القِدّيسْ إسطفانوس رئيس الشمامسة\nاسْتِشْهَادْ القِدّيسْ لاونديانوس\nاسْتِشْهَادْ القِدِّيسْينْ ديوسقوروس وأخيه سكلابيوس", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -8612,7 +8612,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Étienne, proclamait l’Evangile et il opérait de grands prodiges et signes parmi le peuple. Sa personnalité et ses miracles provoquèrent la jalousie de ses concitoyens juifs et grecs qui ne pouvaient pas résister à la sagesse et à l’Esprit qui le faisaient parler. Alors, ils s’emparèrent de lui, l’emmenèrent dans leur synagogue et l’accusèrent de blasphème contre le temple et la Loi. Etienne présenta sa défense en utilisant des arguments historiques d’une manière convaincante. Ceux qui siégeaient au Conseil suprême virent que son visage était comme celui d’un ange. Tous ensemble, ils se précipitèrent sur lui, l’entraînèrent hors de la ville et se mirent à le lapider. Étienne, pendant qu’on le lapidait, priait ainsi : \"Seigneur Jésus, reçois mon esprit. Puis, se mettant à genoux, il s’écria d’une voix forte : \"Seigneur, ne leur compte pas ce péché.", 
-  "وكان إسطفانوس يعظ ويصنع عجائب عظيمة في الشَّعْبِ (أع 6: 8). وقَدْ أثارت شخصيته ومعجزاته حسد ومقاومة مواطنيه مِنَ اليهود اليونانيين الّذِينَ لَمْ يقدروا أَنَّ يقاوموا الرُوحِ والحكمة التي كَانَ يتكلم بها، فخطفوه وأتوا بِهِ إلى مجمعهم واتهموه بأنه يجدف ضِدَ الهَيّكَلْ والناموس. فوقف إسطفانوس بينهم وعرض احتجاجه في صورة تاريخية عميقة ومستفيضة، وكَانَتْ كلماته نارية مقنعة، ورأوا وجهه كأنه وَجْهَ مَلاك (أع 6: 15)، ثُمَّ هجموا عَلَيْهِ بنفس واحدة وأخرجوه خَارِجَ المَدِينَةِ ورجموه وهْوَ يدعو ويقول: \"أيها الرَّبْ يَسْوعْ اقبل روحي\". ورأى مجد يَسْوعْ قائماً عَن يمين الله، ثُمَّ جثا عَلَى ركبتيه وصرخ بِصَوْتٍ عَظِيمٍ قائلاً: \"يارب لا تُقم لَهُمْ هَذِهِ الخطية\".", 
+  "وكان إسطفانوس يعظ ويصنع عجائب عظيمة في الشَّعْبِ (أع 6: 8). وقَدْ أثارت شخصيته ومعجزاته حسد ومقاومة مواطنيه مِنَ اليهود اليونانيين الّذِينَ لَمْ يقدروا أَنَّ يقاوموا الرُوحِ والحكمة التي كَانَ يتكلم بها، فخطفوه وأتوا بِهِ إلى مجمعهم واتهموه بأنه يجدف ضِدَ الهَيّكَلْ والناموس. فوقف إسطفانوس بينهم وعرض احتجاجه في صورة تاريخية عميقة ومستفيضة، وكَانَتْ كلماته نارية مقنعة، ورأوا وجهه كأنه وَجْهَ مَلاك (أع 6: 15)، ثُمَّ هجموا عَلَيْهِ بِنَفْسِ واحدة وأخرجوه خَارِجَ المَدِينَةِ ورجموه وهْوَ يدعو ويقول: \"أيها الرَّبْ يَسْوعْ اقبل روحي\". ورأى مجد يَسْوعْ قائماً عَن يمين الله، ثُمَّ جثا عَلَى ركبتيه وصرخ بِصَوْتٍ عَظِيمٍ قائلاً: \"يارب لا تُقم لَهُمْ هَذِهِ الخطية\".", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -8657,7 +8657,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Quelques temps plus tard, sentant que son départ de ce monde était proche, le père Moïse les convoqua et leur recommanda de demeurer fermes dans la Foi et de se conformer aux commandements de Dieu. Puis, il les bénit et rendit l’âme à Dieu. Ils l’ensevelirent et l’enterrèrent avec beaucoup de respect et continuèrent à mener leur combat spirituel. Ils poursuivirent la pratique de l’ascétisme et l’adoration ainsi que la résistance aux attaques du démon.", 
-  "وبَعْدَ قليل إذ شعر القِدّيسْ بقرب نِيَاحَتِهِ استدعاهما وأوصاهما بالثبات عَلَى الإيمان وحفظ وصَايا الرب، ثُمَّ باركهما وفَاضَتْ رُوحَهُ الطَاهِرَةِ. فكفَّناه بِإكْرَامٍ جَزِيلْ وعاشا بعده في جِهَاد روحي ونسك وصلاة ومقاومة لحروب الشياطين.", 
+  "وبَعْدَ قليل إذ شعر القِدّيسْ بقرب نِيَاحَتِهِ استدعاهما وأوصاهما بالثبات عَلَى الإيمان وحفظ وصَايا الرَبّ، ثُمَّ باركهما وفَاضَتْ رُوحَهُ الطَاهِرَةِ. فكفَّناه بِإكْرَامٍ جَزِيلْ وعاشا بعده في جِهَاد روحي ونسك وصلاة ومقاومة لحروب الشياطين.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -8719,7 +8719,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0205&C=Title", 
   "2 Taubi\n1) Décès de saint Théonas ;\n2) Martyre de saint Gallinicus, évêque d’Oussime ;\n3) Décès de saint Youna", 
-  "2 طوبة\nنِيَاحَةْ الأنبا ثاؤناس\nاسْتِشْهَادْ القِدّيسْ غللينيكوس أُسْقُفْ أوسيم\nنِيَاحَةْ القِدّيسْ الأنبا يونا\n", 
+  "2 طوبة\nنِيَاحَةْ الأنبا ثاؤناس\nاسْتِشْهَادْ القِدّيسْ غللينيكوس أُسْقُفْ أوسيم\nنِيَاحَةْ القِدّيسْ الأنبا يونا", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -8785,8 +8785,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=0305&C=Title", 
-  "3 Taubi\nCommémoration de l’assassinat des enfants de Bethléem\n", 
-  "3 طوبة\nاسْتِشْهَادْ أطفال بَيْت لحم\n", 
+  "3 Taubi\nCommémoration de l’assassinat des enfants de Bethléem", 
+  "3 طوبة\nاسْتِشْهَادْ أطفال بَيْت لحم", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -8812,8 +8812,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=0405&C=Title", 
-  "4 Taubi\nDécès de saint Jean l’évangéliste\n", 
-  "4 طوبة\nنِيَاحَةْ القِدّيسْ يُوحَنَّا الإنجيلي\n", 
+  "4 Taubi\nDécès de saint Jean l’évangéliste", 
+  "4 طوبة\nنِيَاحَةْ القِدّيسْ يُوحَنَّا الإنجيلي", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -8865,7 +8865,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0505&C=Title", 
   "5 Taubi\n1) Martyre de saint Eugénios, le soldat ;\n2) Martyre de saint Bâniqouros ;\n3) Décès du pape Théodose II ;\n4) Décès du pape Matthieu 1er", 
-  "5 طوبة\nاسْتِشْهَادْ القِدّيسْ أوساغنيوس الجُندي\nاسْتِشْهَادْ القِدّيسْ بانيكاروس\nنِيَاحَةْ البابا ثيئودوسيوس الثاني\nنِيَاحَةْ البابا متاؤس الأول\n", 
+  "5 طوبة\nاسْتِشْهَادْ القِدّيسْ أوساغنيوس الجُندي\nاسْتِشْهَادْ القِدّيسْ بانيكاروس\nنِيَاحَةْ البابا ثيئودوسيوس الثاني\nنِيَاحَةْ البابا متاؤس الأول", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -9006,8 +9006,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=0605&C=Title", 
-  "6 Taubi\n1) Fête de la circoncision de Notre Seigneur Jésus Christ ;\n2) Commémoration de l’enlèvement du prophète Elie ;\n3) Martyre des quatre notables d’Esna ;\n4) Décès du pape Marcien, huitième patriarche de la prédication de saint Marc ;\n5) Décès du pape Marc III ;\n6) Décès du pape Gabriel III ;\n7) Décès de saint Basile le grand, archevêque de Césarée en Capadoce ; \n8) Consécration de l’église du martyr Isaac al-Dafrawi\n", 
-  "6 طوبة\nعيد الختان المجيد\nتِذْكَارْ صعود إيليا النبي إلى السماء حياً\nاسْتِشْهَادْ الأربعة أراخنة بإسنا\nنِيَاحَةْ البابا مركيانوس\nنِيَاحَةْ البابا مرقس\nنِيَاحَةْ البابا غُبْرِيَالْ الثالث\nنِيَاحَةْ القِدّيسْ باسيليوس الكبير\nتَكّرْيسِ كِنِيسَةْ الشَهْيدِ إسحاق الدفراوي\n", 
+  "6 Taubi\n1) Fête de la circoncision de Notre Seigneur Jésus Christ ;\n2) Commémoration de l’enlèvement du prophète Elie ;\n3) Martyre des quatre notables d’Esna ;\n4) Décès du pape Marcien, huitième patriarche de la prédication de saint Marc ;\n5) Décès du pape Marc III ;\n6) Décès du pape Gabriel III ;\n7) Décès de saint Basile le grand, archevêque de Césarée en Capadoce ; \n8) Consécration de l’église du martyr Isaac al-Dafrawi", 
+  "6 طوبة\nعيد الختان المجيد\nتِذْكَارْ صعود إيليا النبي إلى السماء حياً\nاسْتِشْهَادْ الأربعة أراخنة بإسنا\nنِيَاحَةْ البابا مركيانوس\nنِيَاحَةْ البابا مرقس\nنِيَاحَةْ البابا غُبْرِيَالْ الثالث\nنِيَاحَةْ القِدّيسْ باسيليوس الكبير\nتَكّرْيسِ كِنِيسَةْ الشَهْيدِ إسحاق الدفراوي", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -9042,12 +9042,12 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "En effet, lorsqu’Élie sût qu’il allait être enlevé, il partit de Guilgal (جلجال) pour se rendre à Béthel (بيت إيل) avec son disciple Élisée (أليشع). Ensuite, ils se rendirent ensemble au bord du Jourdain. Élie prit son manteau, le roula et en frappa les eaux, qui s’écartèrent de part et d’autre. Ils traversèrent tous deux à pied sec. Ils étaient en train de marcher tout en parlant lorsqu’un char de feu, avec des chevaux de feu, les sépara. Alors, Élie monta au ciel dans un ouragan. Élisée le vit et se mit à crier : \"Mon père !... Mon père !... Char d’Israël et ses cavaliers ! Puis il cessa de le voir. Il ramassa le manteau qu’Élie avait laissé tomber, puis il revint et s’arrêta sur la rive du Jourdain. Ensuite avec le manteau d’Élie, il frappa les eaux, qui s’écartèrent, et il traversa. Alors il revint là d’où il était venu.", 
-  "وذلك أَنَّهُ لما علم إيليا بِأمْرِ صعوده ذهب مَعَ تِلْمِيذَهُ أليشع مِنَ الجلجال إلى بَيْتِ إيل حَيْثُ أعلم تِلْمِيذَهُ أليشع بالأمر. ثُمَّ ذَهَبَا سوياً إلى نهر الأردن وضرب إيليا مياه النهر بردائه فانشقت المياه إلى نصفين فعبر كلاهما عَلَى اليابسة. وبينما هما يسيران ويتكلمان إذا مركبة من نار وخيل من نار ففصلت بَيْنَهُمَا فصعد إيليا في العاصفة إلى السماء، وكَانَ أليشع تِلْمِيذَهُ يرى وهْوَ يصرخ: \"يا أبى يا أبى، يا مركبة إسْرائِيلْ وفرسانها\"، ولَمْ يره بعد. ورفع أليشع النبي رداء إيليا الذي سقط عَنْهُ ووقف عَلَى شاطىء نهر الأردن وضرب بِهِ الماء فانفلق إلى نصفين ومشى عَلَى اليابسة راجعاً إلى حَيْثُ كَانَ (2ملوك 2: 1 – 15).\n", 
+  "وذلك أَنَّهُ لما علم إيليا بِأمْرِ صعوده ذهب مَعَ تِلْمِيذَهُ أليشع مِنَ الجلجال إلى بَيْتِ إيل حَيْثُ أعلم تِلْمِيذَهُ أليشع بالأمر. ثُمَّ ذَهَبَا سوياً إلى نهر الأردن وضرب إيليا مياه النهر بردائه فانشقت المياه إلى نصفين فعبر كلاهما عَلَى اليابسة. وبينما هما يسيران ويتكلمان إذا مركبة من نار وخيل من نار ففصلت بَيْنَهُمَا فصعد إيليا في العاصفة إلى السماء، وكَانَ أليشع تِلْمِيذَهُ يرى وهْوَ يصرخ: \"يا أبى يا أبى، يا مركبة إسْرائِيلْ وفرسانها\"، ولَمْ يره بعد. ورفع أليشع النبي رداء إيليا الذي سقط عَنْهُ ووقف عَلَى شاطىء نهر الأردن وضرب بِهِ الماء فانفلق إلى نصفين ومشى عَلَى اليابسة راجعاً إلى حَيْثُ كَانَ (2ملوك 2: 1 – 15).", 
   ],
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction d’Élie et de son disciple Élisée soit avec nous. Amen !", 
-  "بركة إيليا النبي وتلميذه اليشع فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة إيليا النبي وتلميذه اليشع فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -9087,7 +9087,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Il décéda en paix après avoir siégé sur le trône apostolique vingt-deux ans et sept mois. Il fût enterré au monastère de saint Mercure le titulaire des deux épées (دير الشهيد مرقوريوس أبي سيفين). ", 
-  "وبَعْدَ أَنَّ جلس عَلَى السِّدة المرقسية اثنين وعشرين عاماً وسبعة أشهر تَنَيَّحَ بِسَلامْ ودُفِنَ بِدِيرْ القِدّيسْ مكاريوس ببرية شيهيت.", 
+  "وبَعْدَ أَنَّ جلس عَلَى السِّدة المرقسية اثنين وعشرين عاماً وسبعة أشهر تَنَيَّحَ بِسَلامْ ودُفِنَ بِدِيرْ القِدّيسْ مكاريوس ببرية شِيهِيتْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -9107,7 +9107,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Puis Basile poursuivit ses études auprès d’un philosophe d’Antioche nommé Libanios d’Antioche (ليبانيوس الأنطاقي) et exerça durant quelque temps la profession d'avocat.En 358, il renonça au monde et se rendit en Egypte où il se déplaça dans le désert et put rencontrer les moines qui lui apprirent la piété, la vertu et l’ascétisme. De retour chez lui il se retira dans le désert du Pont (برية بنطس) où il pratiqua l’adoration et l’ascétisme.", 
-  "ذهب لتَلَقِّى العلم أيْضَاً في أنطاكية عِنْدَ الفيلسوف ليبانيوس الأنطاكي واشتغل زماناً بمهنة المحاماة، وفي سَنَةْ 358م هجر العالم وجاء إلى مِصْرْ وطاف في براريها يتعلم من رهبانها التقوى والفَضِيلَةْ وحياة النسك، ثُمَّ عَادَ واعتزل في برية بنطُس ومارس حَيَاةِ النُسْكْ والعبادة.", 
+  "ذهب لتَلَقِّى العلم أيْضَاً في أنطاكية عِنْدَ الفيلسوف ليبانيوس الأنطاكي واشتغل زماناً بمهنة المحاماة، وفي سَنَةْ 358م هجر العالم وجاء إلى مِصْرْ وطاف في براريها يتعلم من رهبانها التقوى والفَضِيلَةْ وحياة النسك، ثُمَّ عَادَ واعتزل في بَرِّيَّةِ بنطُس ومارس حَيَاةِ النُسْكْ والعبادة.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -9167,7 +9167,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "En effet, après son martyre, les fidèles recueillirent son corps, l’ensevelirent dignement et l’envoyèrent dans son village de Tiphré. Une église fût édifiée à l’endroit où il avait vécu et elle fût consacrée par l’évêque du lieu en ce jour. Le corps du saint martyr y fût déposé. Le Seigneur fit apparaitre de nombreux miracles et de guérisons dans cette église. ", 
-  "فبعد استشهاده (تُعيِّد الكَنيسَةْ بتاريخ اسْتِشْهَادْ القِدّيسْ إسحاق الدفراوي في 6 بشنس) أَخَذَ المؤمنون جَسَدَهُ الطَاهِر في أكْفَانٍ نقية، وأرسلوه إلى بلدته دفرة (دفرة: قرية مازالت بنفس اسْمَهَا تابعة لمركز طنطا بِمُحَافَظَةِ الغربية) حَيْثُ بُنيت لَهُ كِنِيسَةْ في نَفْسِ المكان الذي كَانَ يعيش فيه وكرسها أُسْقُفْ الإيبارشية في مِثْلِ هَذَا اليَوْم، ووَضْعِ فِيهَا الجَسَدْ الطاهر. وقد أظهر الرَّبْ عجائب كَثِيرَة في هَذِهِ الكَنيسَةْ فَكَانَ كُلَّ الّذِينَ أصابتهم أمراض مستعصية يذهبون إليها وينالون الشفاء بمجرد دخولهم فِيهَا والتبرُّك من جَسَدِ القِدِّيْسْ.", 
+  "فبعد استشهاده (تُعيِّد الكَنيسَةْ بتاريخ اسْتِشْهَادْ القِدّيسْ إسحاق الدفراوي في 6 بشنس) أَخَذَ المؤمنون جَسَدَهُ الطَاهِر في أكْفَانٍ نقية، وأرسلوه إلى بلدته دفرة (دفرة: قرية مازالت بِنَفْسِ اسْمَهَا تابعة لمركز طنطا بِمُحَافَظَةِ الغربية) حَيْثُ بُنيت لَهُ كِنِيسَةْ في نَفْسِ المكان الذي كَانَ يعيش فيه وكرسها أُسْقُفْ الإيبارشية في مِثْلِ هَذَا اليَوْم، ووَضْعِ فِيهَا الجَسَدْ الطاهر. وقد أظهر الرَّبْ عجائب كَثِيرَة في هَذِهِ الكَنيسَةْ فَكَانَ كُلَّ الّذِينَ أصابتهم أمراض مستعصية يذهبون إليها وينالون الشفاء بمجرد دخولهم فِيهَا والتبرُّك من جَسَدِ القِدِّيْسْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -9178,8 +9178,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=0705&C=Title", 
-  "7 Taubi\nDécès de saint Sylvestre, le pape de Rome\n", 
-  "7 طوبة\nنِيَاحَةْ القِدّيسْ سلفستروس بابا رُومَا\n", 
+  "7 Taubi\nDécès de saint Sylvestre, le pape de Rome", 
+  "7 طوبة\nنِيَاحَةْ القِدّيسْ سلفستروس بابا رُومَا", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -9215,8 +9215,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=0805&C=Title", 
-  "8 Taubi\n1) Restitution de la tête de l’apôtre saint Marc ;\n2) Décès du pape Andronic ;\n3) Décès du pape Benjamin 1er ;\n4) Décès du pape Gabriel V ;\n5) Consécration de l’église de saint Macaire le grand\n", 
-  "8 طوبة\nعودة رأس القِدّيسْ مِارِ مَرْقُسْ الرسول\nنِيَاحَةْ البابا أندرونيقوس\nنِيَاحَةْ البابا بنيامين الأول\nنِيَاحَةْ البابا غُبْرِيَالْ الخامس\nتِذْكَارْ تَكّرْيسِ كِنِيسَةْ القِدّيسْ مكاريوس الكبير\n", 
+  "8 Taubi\n1) Restitution de la tête de l’apôtre saint Marc ;\n2) Décès du pape Andronic ;\n3) Décès du pape Benjamin 1er ;\n4) Décès du pape Gabriel V ;\n5) Consécration de l’église de saint Macaire le grand", 
+  "8 طوبة\nعودة رأس القِدّيسْ مِارِ مَرْقُسْ الرسول\nنِيَاحَةْ البابا أندرونيقوس\nنِيَاحَةْ البابا بنيامين الأول\nنِيَاحَةْ البابا غُبْرِيَالْ الخامس\nتِذْكَارْ تَكّرْيسِ كِنِيسَةْ القِدّيسْ مكاريوس الكبير", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -9236,7 +9236,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction des prières de l’apôtre saint Marc soit avec nous. Amen !", 
-  "بركة القِدّيسْ مِارِ مَرْقُسْ الرسول فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة القِدّيسْ مِارِ مَرْقُسْ الرسول فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -9286,7 +9286,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Il supporta beaucoup de difficultés à cause de Cyrus (المقوقس) qui était simultanément le gouverneur et le patriarche chalcédonien. Le pape fût inspiré par Dieu d’entrer en clandestinité et de se rendre dans la vallée de Scété. Il put constater l’état de délabrement de cette vallée à cause des destructions faites par les perses. Puis il se rendit en haute Egypte où il s’installa dans un monastère et rédigea plusieurs lettres pour affermir les fidèles dans la Foi et les inciter à supporter les difficultés. ", 
-  "نال هَذَا الأبْ شدائد كَثِيرَة مِنَ المقوقس، الوالي والبطريرك الخلقيدوني في نَفْسِ الوقت، وبإرشاد إلهي هرب البابا إلى برية شيهيت ورأى بنفسه ما حلَّ بالبرية من خراب عَلَى أيْدِي الفُرس. ثُمَّ انطلق من شيهيت إلى الصَعِيدِ حَيْثُ عاش في أحَدْ الأديرة وكَتَب من هُناَكَ رَسَائِل باباوية يثبِّت فِيهَا الشَّعْبِ عَلَى الإيمان واحتمال الآلام وظَلَّ هُناَكَ ثلاث عشرة سَنَةً.", 
+  "نال هَذَا الأبْ شدائد كَثِيرَة مِنَ المقوقس، الوالي والبطريرك الخلقيدوني في نَفْسِ الوقت، وبإرشاد إلهي هرب البابا إلى بَرِّيَّةِ شِيهِيتْ ورأى بنفسه ما حلَّ بالبرية من خراب عَلَى أيْدِي الفُرس. ثُمَّ انطلق من شِيهِيتْ إلى الصَعِيدِ حَيْثُ عاش في أحَدْ الأديرة وكَتَب من هُناَكَ رَسَائِل باباوية يثبِّت فِيهَا الشَّعْبِ عَلَى الإيمان واحتمال الآلام وظَلَّ هُناَكَ ثلاث عشرة سَنَةً.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -9336,7 +9336,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "En ce jour de l’an 371 des martyrs (655 après Jésus Christ) eût lieu la consécration de l’église du monastère de saint Macaire (كنيسة القِدّيس مقاريوس بديره) par abba Benjamin (الأنبا بنيامين) le 38ème pape d’Alexandrie.", 
-  "وفيه أيْضَاً مِنْ سَنَةْ 371 لِلْشُهَداءِ (655م)، تَمَّ تَكّرْيسِ كِنِيسَةْ القِدّيسْ مكاريوس الكبير بديره ببرية شيهيت عَلَى يَدِِّ البابا بنيامين الأَوَّلْ البَطْرِيَرْكْ الثامن والثلاثين.", 
+  "وفيه أيْضَاً مِنْ سَنَةْ 371 لِلْشُهَداءِ (655م)، تَمَّ تَكّرْيسِ كِنِيسَةْ القِدّيسْ مكاريوس الكبير بديره ببرية شِيهِيتْ عَلَى يَدِِّ البابا بنيامين الأَوَّلْ البَطْرِيَرْكْ الثامن والثلاثين.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -9353,7 +9353,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0905&C=Title", 
   "9 Tabui\n1) Décès de saint Abraham, le compagnon d’abba Gawarguy ;\n2) Décès d’abba Phîs", 
-  "9 طوبة\nنِيَاحَةْ القِدّيسْ أبرآم رفيق الأنبا جاورجي\nنِيَاحَةْ القِدّيسْ أنبا فيس\n", 
+  "9 طوبة\nنِيَاحَةْ القِدّيسْ أبرآم رفيق الأنبا جاورجي\nنِيَاحَةْ القِدّيسْ أنبا فيس", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -9368,12 +9368,12 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Abraham se rendit au monastère saint Macaire à Scété (دير القِدّيس مكاريوس ببرية شهيت), se mit sous la direction de saint Jean l’higoumène de cette vallée (القديس يؤنس قمص البرية) et occupa son temps dans la prière, le jeune et l’isolation. Par conséquent il put atteindre un haut degré de sainteté.", 
-  "ذهب إلى دَيْرٍ القِدّيسْ مكاريوس ببرية شيهيت، وتتلمذ لِلقِدّْيسِ الأنبا يوأنس قمص البرية. وكَانَ يجتهد في الصَلاةِ والصوم والنُسْكِ والوحدة حَتَّى وَصَلَ إلى مرتبة عالية مِنَ القداسة.", 
+  "ذهب إلى دَيْرٍ القِدّيسْ مكاريوس ببرية شِيهِيتْ، وتتلمذ لِلقِدّْيسِ الأنبا يوأنس قمص البرية. وكَانَ يجتهد في الصَلاةِ والصوم والنُسْكِ والوحدة حَتَّى وَصَلَ إلى مرتبة عالية مِنَ القداسة.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
   "Dieu voulut qu’il fasse la connaissance de saint Gawarguy et ils se lièrent d’amitié. Puis ils s’installèrent ensemble dans une cellule connue sous le nom de Bajij (قلاية بجيج) proche de la cellule de saint Jean.", 
-  "وبتدبير مِنَ الله تعرَّف عَلَى القِدّيسْ جاورجى وصارا صَدِيقين حميمين وعاشا معاً في قلاية بيجيج بِالقُرْبِ مِنْ دَيْرِ القِدّيسْ مكاريوس إلى نِياحَةْ الأنبا يوأنس قمص شيهيت.", 
+  "وبتدبير مِنَ الله تعرَّف عَلَى القِدّيسْ جاورجى وصارا صَدِيقين حميمين وعاشا معاً في قلاية بيجيج بِالقُرْبِ مِنْ دَيْرِ القِدّيسْ مكاريوس إلى نِياحَةْ الأنبا يوأنس قمص شِيهِيتْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -9419,8 +9419,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=1005&C=Title", 
-  "10 Tabui\n1) Préparation (برمون) de la fête de l'Epiphanie ;\n2) Décès de saint Juste, le disciple d’abba Samuel le confesseur\n", 
-  "10 طوبة\nبرمون عيد الغطاس المجيد\nنِيَاحَةْ القِدّيسْ يسطس تِلْمِيذْ الأنبا صموئيل المعترف\n", 
+  "10 Tabui\n1) Préparation (برمون) de la fête de l'Epiphanie ;\n2) Décès de saint Juste, le disciple d’abba Samuel le confesseur", 
+  "10 طوبة\nبرمون عيد الغطاس المجيد\nنِيَاحَةْ القِدّيسْ يسطس تِلْمِيذْ الأنبا صموئيل المعترف", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -9450,7 +9450,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Par la volonté divine, Archilidès tomba malade et se rendit à Scété pour recevoir la bénédiction des moines. Il retrouva abba Samuel qui pria pour lui et il lui précisât qu’en rentrant chez lui, il rencontrera en chemin un homme portant une jarre, qu’il devait en boire pour guérir. Le notable monta sur sa monture et tout se passa comme abba Samuel le lui avait prédit. Archilidés ne reconnut pas l’homme portant la jarre qui n’était autre que son esclave Juste.", 
-  "وبتدبير إلهي، مَرَض الأرخن أرشليدس، فذهب إلى برية شيهيت لِيَتَبَارَكَ مِنَ الرُهْبانْ ويطلب صلواتهم لشفائه، وهُنَاكَ التقى بالأنبا صموئيل، فصلَّى له، وأمره أنْ يَرْجِعْ إلى بلده، وأَثْنَاءِ عودته سيقابل رَجُلاً مَعْهُ جرة ماء يشرب مِنْهُا فيُشفى من مرضه. وفعلاً ركب الأرخن دابّته ليعود إلى بيته، وبالقرب مِنَ المَدِينَةِ رَأَى رَجُلاً حاملاً جرة ماء، فشرب مِنْهُا وشُفي، ولَمْ يَتَعَرَّفَ عَلَى ذَلِكْ الرَجُلْ حامل الجرة حَيْثُ كَانَ هُوَ عبده يسطس.", 
+  "وبتدبير إلهي، مَرَض الأرخن أرشليدس، فذهب إلى بَرِّيَّةِ شِيهِيتْ لِيَتَبَارَكَ مِنَ الرُهْبانْ ويطلب صلواتهم لشفائه، وهُنَاكَ التقى بالأنبا صموئيل، فصلَّى له، وأمره أنْ يَرْجِعْ إلى بلده، وأَثْنَاءِ عودته سيقابل رَجُلاً مَعْهُ جرة ماء يشرب مِنْهُا فيُشفى من مرضه. وفعلاً ركب الأرخن دابّته ليعود إلى بيته، وبالقرب مِنَ المَدِينَةِ رَأَى رَجُلاً حاملاً جرة ماء، فشرب مِنْهُا وشُفي، ولَمْ يَتَعَرَّفَ عَلَى ذَلِكْ الرَجُلْ حامل الجرة حَيْثُ كَانَ هُوَ عبده يسطس.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -9460,7 +9460,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Par la suite il resta dans la maison du notable pendant six mois puis retourna à Scété, s’attacha à abba Samuel le confesseur et devint son disciple. Il s’adonna à l’ascétisme, la prière et le jeûne pendant plusieurs années puis s’isola dans une grotte jusqu’à l’attaque de la vallée par les barbares. Ceux-ci l’emmenèrent et le vendirent comme esclave à al-Bahnassa (البهنسا). Il y demeura avec patience supportant les épreuves en rendant grâce à Dieu.", 
-  "ومكث القِدّيسْ يسطس في بَيْت أرشليدس نَحْوَ ستة أشهر وتبارك مِنْهُ الجميع، ثُمَّ انطلق القِدّيسْ يسطس إلى برية شيهيت وتتلمذ عَلَى يَدَيّ القِدّيسْ الأنبا صموئيل المعترف، عاكفاً عَلَى النُسْكْ والصوم والصَلَواتِ عدة سنوات، وبَعْدَ ذَلِكْ انفرد متوحداً في مغارة حَتَّى هجم البربر عَلَى الدير وأخذوه مَعْهُمْ وباعوه بالبهنسا. فأقَامَ فِيهَا صابراً محتملاً التجارب في صمت وشكر لله.", 
+  "ومكث القِدّيسْ يسطس في بَيْت أرشليدس نَحْوَ ستة أشهر وتبارك مِنْهُ الجميع، ثُمَّ انطلق القِدّيسْ يسطس إلى بَرِّيَّةِ شِيهِيتْ وتتلمذ عَلَى يَدَيّ القِدّيسْ الأنبا صموئيل المعترف، عاكفاً عَلَى النُسْكْ والصوم والصَلَواتِ عدة سنوات، وبَعْدَ ذَلِكْ انفرد متوحداً في مغارة حَتَّى هجم البربر عَلَى الدير وأخذوه مَعْهُمْ وباعوه بالبهنسا. فأقَامَ فِيهَا صابراً محتملاً التجارب في صمت وشكر لله.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -9476,13 +9476,13 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=1105&C=Title", 
-  "11 Tabui\n1) Fête de la Théophanie ;\n2) Décès du pape Jean VI ;\n3) Décès du pape Benjamin II\n", 
+  "11 Tabui\n1) Fête de la Théophanie ;\n2) Décès du pape Jean VI ;\n3) Décès du pape Benjamin II", 
   "11 طوبة\nعيد الظهور الإلهي (الغطاس المجيد)\nنِيَاحَةْ البابا يوأنس السادس\nنِيَاحَةْ البابا بنيامين الثاني", 
   ],
   [
   Prefix.same+"&C=NoActor", 
   "L’Eglise commémore aujourd’hui la fête de la Théophanie (الثيؤفانيا) qui signifie en grec la manifestation divine (الظهور الإلهي).", 
-  "تحتفل الكَنيسَةْ اليَوْم بِعِيدِ الغطاس المجيد، ويُسمَّى باللغة اليونانية عيد الثيئوفانيا أي الظهور الإلهي. ففي مِثْلِ هَذا اليَومْ مِنْ سَنَةْ 31 ميلادية اعتمد السَّيْد المَسِيحْ لَهُ المجد من يَدِّ القِدّيسْ يُوحَنّا المِعْمِدَانْ في نهر الأردن (مت 3: 13 – 17)، فظهر الثالوث القدوس واضحاً لِلْجَمِيعِ الآب في السماء يقول \" هَذَا هُوَ ابني الحبيب الذي بِهِ سررت\" والابن في نهر الأردن، والرُوحِ القُدُسْ نازلاً عَلَيْهِ مثل حمامة. كذلك ظَهَرَ أيْضَاً مجد السَّيْد المَسِيحْ لِأَنَّهُ لَمْ يُظهر نَفْسَهُ في مُدَةِ الثلاثين سَنَةْ الماضية، فَأَظْهَرَ ذاته في مِثْلِ هَذَا اليَومْ لبنى إسْرائِيلْ (يو 1: 29 – 31). وقَدْ أَسَّس السَّيْد المَسِيحْ بعماده سِرَّ المَعْمُودِّيََةِ المُقَدّسْ أَوَّلِ الأسرار وباب الدخول إلى ملكوت الله. فكل من آمن واعتمد خَلُص (مر 16: 16)، حينما يحفظ عَهْد معموديته بالتوبة الدائمة والأعمال الصالحة. فنشكر الله الذي تنازل وصار في الهيئة كإنسان مثلَنا، ورُسِمَ لنا طريق الحياة الأَبَدِيََة. لَهُ المجد الدائم إلى الأبد آمْينْ.\nوفيه أيْضَاً مِنْ سَنَةْ 932 لِلْشُهَداءِ (1216م) تَنَيَّحَ البابا يوأنس السادس، البَطْرِيَرْكْ الرابع والسبعون مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة. كَانَ اسْمُهُ أبو المجد، ويعمل بالتجارة. وكَانَ شماساً تَقِيَّاً متبتلاً وعالماً في علوم الكنيسة، ذا وَجْهَ بشوش وحديث عذْب. ولَمَّا خَلا الكُرْسِي البطريركي بنِيَاحَةْ البابا مَرْقُسْ الثالث، اتفق رَأَى الجَمِيع عَلَى اخْتِيَارِ هَذَا الشماس لرتبة البطريركية فَلَمَّا جلس عَلَى الكُرْسِي المرقسي، اهتم برعيته في مِصْرْ والحبشة. وكَانَ صَدِيقاً للسلطان صلاح الدين الأيوبي وعالج كُلَّ المشاكل بالحكمة والعلاقات الطيّبة مَعَ الجميع. وفي أيَّامَهُ بَطُلَ إرسال الأسَاقِفَةْ إلى الخمس مدن الغربية. ولَمَّا أكْمَلَ سعيه بِسَلامٍ، انتقل إلى الفردوس بَعْدَ أَنَّ جلس عَلَى الكُرْسِي المرقسي حوالي 27 سَنَةً. بَرَكِةْ صَلَوَاتُهُ فَلْتَكُنْ مَعْنَا، آمْينْ.\nوفيه أيْضَاً مِنْ سَنَةْ 1055 لِلْشُهَداءِ (1339م) تَنَيَّحَ الأبْ القِدّيسْ الأنبا بنيامين الثاني البَطْرِيَرْكْ الثاني والثمانون مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة. كَانَ من أهالي الدمقراط التابعة لأرمنت بِمُحَافَظَةِ قنا. وصار راهباً بجبل طره بِاسْمِ بنيامين. وتَنَبَأَ لَهُ القِدّيسْ برسوم العريان أَنَّهُ سَيَصِيرَ بطريركاً. فَلَمَّا خلت السِّدَة المرقسية بنِيَاحَةْ البابا يوأنس التاسع، اجْتَمَعَ الآبَاءِ الأسَاقِفَةْ والكَهَنَةَ والأراخنة ووقع اخْتِيَارَهُمْ عَلَى الرَاهِبْ بنيامين، فرَسَمْوهُ سَنَةْ 1327م بِاسْمِ البابا بنيامين الثاني. فاهتم بتعمير الكَنَائِسْ والأديرة وخاصة دير الأنبا بيشوي الذي اهتم بِهِ عمرانياً ورهبانياً. كَمَا قَامَ بعمل الميرون في دير القِدّيسْ مكاريوس سَنَةْ 1330م واشترك مَعْهُ عشرون أسقفاً. وحَدَثَ في عهده اضطهاد للأقباط عَلَى يَدِِّ والي مِصْرْ شرف الدين بن التاج وتدخَّل ملك الحبشة للصلح وهدَّأ الموقف، وأعاد الأقباط بناء الكَنَائِسْ التي تهدَّمت. وبَعْدَ جِهَادٍ طَويْلٍ في خدمة الكَنيسَةْ نَحْوَ اثنتي عشرة سَنَةْ تَنَيَّحَ بِسَلامْ ودُفِنَ في دير القِدّيسْ العَظِيمْ الأنبا بيشوي ببرية شيهيت. بَرَكِةْ صَلَواتُهُ فَلْتَكُنْ مَعْنَا، ولِرَبِنَا المَجْدْ دائِمَاً أبَدِيَّاً آمْينْ.\n", 
+  "تحتفل الكَنيسَةْ اليَوْم بِعِيدِ الغطاس المجيد، ويُسمَّى باللغة اليونانية عيد الثيئوفانيا أي الظهور الإلهي. ففي مِثْلِ هَذا اليَومْ مِنْ سَنَةْ 31 ميلادية اعتمد السَّيْد المَسِيحْ لَهُ المجد من يَدِّ القِدّيسْ يُوحَنّا المِعْمِدَانْ في نهر الأردن (مت 3: 13 – 17)، فظهر الثالوث القدوس واضحاً لِلْجَمِيعِ الآب في السماء يقول \" هَذَا هُوَ ابني الحبيب الذي بِهِ سررت\" والابن في نهر الأردن، والرُوحِ القُدُسْ نازلاً عَلَيْهِ مثل حمامة. كذلك ظَهَرَ أيْضَاً مجد السَّيْد المَسِيحْ لِأَنَّهُ لَمْ يُظهر نَفْسَهُ في مُدَةِ الثلاثين سَنَةْ الماضية، فَأَظْهَرَ ذاته في مِثْلِ هَذَا اليَومْ لبنى إسْرائِيلْ (يو 1: 29 – 31). وقَدْ أَسَّس السَّيْد المَسِيحْ بعماده سِرَّ المَعْمُودِّيََةِ المُقَدّسْ أَوَّلِ الأسرار وباب الدخول إلى ملكوت الله. فكل من آمن واعتمد خَلُص (مر 16: 16)، حينما يحفظ عَهْد معموديته بالتوبة الدائمة والأعمال الصالحة. فنشكر الله الذي تنازل وصار في الهيئة كإنسان مثلَنا، ورُسِمَ لنا طريق الحياة الأَبَدِيََة. لَهُ المجد الدائم إلى الأبد آمْينْ.\nوفيه أيْضَاً مِنْ سَنَةْ 932 لِلْشُهَداءِ (1216م) تَنَيَّحَ البابا يوأنس السادس، البَطْرِيَرْكْ الرابع والسبعون مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة. كَانَ اسْمُهُ أبو المجد، ويعمل بالتجارة. وكَانَ شماساً تَقِيَّاً متبتلاً وعالماً في علوم الكنيسة، ذا وَجْهَ بشوش وحديث عذْب. ولَمَّا خَلا الكُرْسِي البطريركي بنِيَاحَةْ البابا مَرْقُسْ الثالث، اتفق رَأَى الجَمِيع عَلَى اخْتِيَارِ هَذَا الشماس لرتبة البطريركية فَلَمَّا جلس عَلَى الكُرْسِي المرقسي، اهتم برعيته في مِصْرْ والحبشة. وكَانَ صَدِيقاً للسلطان صلاح الدين الأيوبي وعالج كُلَّ المشاكل بالحكمة والعلاقات الطيّبة مَعَ الجميع. وفي أيَّامَهُ بَطُلَ إرسال الأسَاقِفَةْ إلى الخمس مدن الغربية. ولَمَّا أكْمَلَ سعيه بِسَلامٍ، انتقل إلى الفردوس بَعْدَ أَنَّ جلس عَلَى الكُرْسِي المرقسي حوالي 27 سَنَةً. بَرَكِةْ صَلَوَاتُهُ فَلْتَكُنْ مَعْنَا، آمْينْ.\nوفيه أيْضَاً مِنْ سَنَةْ 1055 لِلْشُهَداءِ (1339م) تَنَيَّحَ الأبْ القِدّيسْ الأنبا بنيامين الثاني البَطْرِيَرْكْ الثاني والثمانون مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة. كَانَ من أهالي الدمقراط التابعة لأرمنت بِمُحَافَظَةِ قنا. وصار راهباً بجبل طره بِاسْمِ بنيامين. وتَنَبَأَ لَهُ القِدّيسْ برسوم العريان أَنَّهُ سَيَصِيرَ بطريركاً. فَلَمَّا خلت السِّدَة المرقسية بنِيَاحَةْ البابا يوأنس التاسع، اجْتَمَعَ الآبَاءِ الأسَاقِفَةْ والكَهَنَةَ والأراخنة ووقع اخْتِيَارَهُمْ عَلَى الرَاهِبْ بنيامين، فرَسَمْوهُ سَنَةْ 1327م بِاسْمِ البابا بنيامين الثاني. فاهتم بتعمير الكَنَائِسْ والأديرة وخاصة دير الأنبا بيشوي الذي اهتم بِهِ عمرانياً ورهبانياً. كَمَا قَامَ بعمل الميرون في دير القِدّيسْ مكاريوس سَنَةْ 1330م واشترك مَعْهُ عشرون أسقفاً. وحَدَثَ في عهده اضطهاد للأقباط عَلَى يَدِِّ والي مِصْرْ شرف الدين بن التاج وتدخَّل ملك الحبشة للصلح وهدَّأ الموقف، وأعاد الأقباط بناء الكَنَائِسْ التي تهدَّمت. وبَعْدَ جِهَادٍ طَويْلٍ في خدمة الكَنيسَةْ نَحْوَ اثنتي عشرة سَنَةْ تَنَيَّحَ بِسَلامْ ودُفِنَ في دير القِدّيسْ العَظِيمْ الأنبا بيشوي ببرية شِيهِيتْ. بَرَكِةْ صَلَواتُهُ فَلْتَكُنْ مَعْنَا، ولِرَبِنَا المَجْدْ دائِمَاً أبَدِيَّاً آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -9538,13 +9538,13 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=1205&C=Title", 
-  "12 Tabui\n1) Lendemain de la fête de la Théophanie ;\n2) Commémoration de l’archange Michel ;\n3) Martyre de saint Théodore l’oriental ;\n4) Martyre de saint Anatole\n", 
-  "12 طوبة\nثاني أَيَّامٍ عيد الغطاس المجيد\nتِذْكَارْ رئيس الملائكة الجليل ميخائيل\nاسْتِشْهَادْ القِدّيسْ تَادْرُسْ المشرقي\nاسْتِشْهَادْ القِدّيسْ أناطوليوس\n", 
+  "12 Tabui\n1) Lendemain de la fête de la Théophanie ;\n2) Commémoration de l’archange Michel ;\n3) Martyre de saint Théodore l’oriental ;\n4) Martyre de saint Anatole", 
+  "12 طوبة\nثاني أَيَّامٍ عيد الغطاس المجيد\nتِذْكَارْ رئيس الملائكة الجليل ميخائيل\nاسْتِشْهَادْ القِدّيسْ تَادْرُسْ المشرقي\nاسْتِشْهَادْ القِدّيسْ أناطوليوس", 
   ],
   [
   Prefix.same+"&C=NoActor", 
   "Aujourd’hui, 12 Toubah, c’est le lendemain de la fête de la Théophanie. La prière se fait selon l’air joyeux et on ne jeûne pas sans manger.  ", 
-  "وتحتفل الكَنيسَةْ في هَذَا اليُومْ بالتِذْكَارْ الشهري لرئيس الملائكة الجليل ميخائيل رئيس جند الرَّبْ الشفيع في جنس البشر. شفاعته المُقَدَّسَةْ فَلْتَكُنْ مَعْنَا. آمْينْ.\nرتَّبت الكَنيسَةْ أَنَّ يَكُونَ هَذَا اليَوْم ثاني أَيَّامٍ عيد الغطاس المَجِيدِ وتُقَامَ الصَلاةِ فيه بالطقس الفرايحي ولا يُصام انقطاعياً. بركة مخلصنا الصالح الذي اعتمد لأجلنا فلتشملنا جميعاً آمْينْ.\nوفيه أيْضَاً مِنْ سَنَةْ 22 لِلْشُهَداءِ (306م) اسْتَشْهَدَ القِدّيسْ تَادْرُسْ المشرقي. وُلِدَ هَذَا القِدّيسْ سَنَةْ 275م في مَدِينَةِ صور بسوريا لذلك يُدعى بالمشرقي تمييزاً لَهُ عَن القِدّيسْ تَادْرُسْ الشُطبي. كَانَ وَالِدَه وزيراً أما هُوَ فَكَانَ قائداً للجيش الروماني، حارَب ضِدَ الفُرس. ورأى في رؤيا سلماً مرتفعاً إلى السماء وعِنْدَ قمته جلس الرَّبْ يَسْوعْ المَسِيحْ ومعه ملائكته وأسفل السلم رَأَى تنيناً الذي هُوَ الشيطان، وقَدْ أبلغه الرَّبْ أَنَّهُ سيسفك دمه مَعَ زميليه لونديوس السِرّْيانْي وبانيكاروس الفارسي. حَدَثَ صلح مَعَ الفُرس فَرَجِعَ القِدّيسْ إلى أنطاكية ووَجد أَنَّ دِقْلِدْيانُوسْ كفر بالإيمان وطَلَبَ مِنْهُ أَنْ يُبَخِّرَ للأوثان فرفض وأعلن إيمانه بِالسَيِّدِ المَسِيحِْ وصاح في جنوده قائلاً: \" من أرَادَ الاسْتِشْهَادْ عَلَى اسْمِ السَيِّدْ المَسِيحْ فليأتِ معي \" فصاحوا جميعاً: \" نحن معك وإلهك هُوَ إلهنا \". فاغتاظ الإمبراطور وأَمَرَ الجنود أَنَّ يسمّروه عَلَى شجرة وأَنَّ يشدّدوا في عذابه ولَكِنَّ الرَّبْ كَانَ يُقَوِّيه ويعزيه. بَعْدَ ذَلِكْ سلَّمه للوالي ليحاكمه ويعذبه ثُمَّ أَمَرَ بِنَفْيِّهِ حَيْثُ ظلوا يعذبونه وكَانَ رئيس الملائكة ميخائيل يأتي إلَيهِ ليشجعه. أخيراً أحرقوه حياً في أَيَّامٍ حكم <span style=\"&quot;color:blue;&quot;\" uib-popover=\"&quot;'مكسيموس\" إسم=\"\" معناه=\"\" العظيم=\"\" جداً'\"=\"\" popover-placement=\"&quot;left-top&quot;\">مكسيميانوس</span> وجالريوس فنَالَ إكْلْيلْ الشِهَادَة. بَرَكِةْ صَلَوَاتُهُ فَلْتَكُنْ مَعْنَا، آمْينْ.\nوفيه أيْضَاً مِنْ سَنَةْ 20 لِلْشُهَداءِ (304م) اسْتَشْهَدَ القِدّيسْ أناطوليوس الفارسي، وُلِدَ هَذَا القِدّيسْ في بِلادْ فارس والْتَحَقَ بالجيش الروماني وارتقى إلى رتبة قائد وظَلَّ فيه خمسة عَشَرْ عاماً. لما كفر دِقْلِدْيانُوسْ وأثار الاضْطِهَادْ عَلَى المَسِيحِيّينْ اشتاق هَذَا القِدّيسْ إلى الإكليل السماوي أفْضَل من مجد هَذَا العالم الزَائِل فأتى وخلع ثياب الجُندية أمَامَ الإمبراطور وأعلن إيمانه بِالسَيِّدِ المَسِيحِْ فدُهش المَلِكْ من جرأته، وإذ علم أَنَّهُ مِنَ الفُرس لاطفه ثُمَّ سلَّمه إلى الوالي رُومَانس لعلَّه يتراجع عَن إيمانه. ولَمَّا عَجَزَ رُومَانوس أعاده إلى المَلِكِ الذي أمَرَ بتعذيبه بالضرب والجَلْد والعصر بالهِنْبَازيْنْ وقطعوا لسانه ثُمَّ ألقوه للوحوش وكَانَ الرَّبْ يُرْسِلْ مَلاكَه ليَشْفِيه ويُقَوِّيه ولَمَّا ضاقوا من تعذيبه قطعوا رأسه بِحَدِّ السَيْفِ فنَالَ إكْلْيلْ الشِهَادَة. بَرَكِةْ صَلَواتُهُ فَلْتَكُنْ مَعْنَا، ولِرَبِنَا المَجْدْ دائِمَاً أبَدِيَّاً آمْينْ.\n\"", 
+  "وتحتفل الكَنيسَةْ في هَذَا اليُومْ بالتِذْكَارْ الشهري لرئيس الملائكة الجليل ميخائيل رئيس جند الرَّبْ الشفيع في جنس البشر. شفاعته المُقَدَّسَةْ فَلْتَكُنْ مَعْنَا، آمْينْ.\nرتَّبت الكَنيسَةْ أَنَّ يَكُونَ هَذَا اليَوْم ثاني أَيَّامٍ عيد الغطاس المَجِيدِ وتُقَامَ الصَلاةِ فيه بالطقس الفرايحي ولا يُصام انقطاعياً. بركة مخلصنا الصالح الذي اعتمد لأجلنا فلتشملنا جميعاً آمْينْ.\nوفيه أيْضَاً مِنْ سَنَةْ 22 لِلْشُهَداءِ (306م) اسْتَشْهَدَ القِدّيسْ تَادْرُسْ المشرقي. وُلِدَ هَذَا القِدّيسْ سَنَةْ 275م في مَدِينَةِ صور بسوريا لذلك يُدعى بالمشرقي تمييزاً لَهُ عَن القِدّيسْ تَادْرُسْ الشُطبي. كَانَ وَالِدَه وزيراً أما هُوَ فَكَانَ قائداً للجيش الروماني، حارَب ضِدَ الفُرس. ورأى في رؤيا سلماً مرتفعاً إلى السماء وعِنْدَ قمته جلس الرَّبْ يَسْوعْ المَسِيحْ ومعه ملائكته وأسفل السلم رَأَى تنيناً الذي هُوَ الشيطان، وقَدْ أبلغه الرَّبْ أَنَّهُ سيسفك دمه مَعَ زميليه لونديوس السِرّْيانْي وبانيكاروس الفارسي. حَدَثَ صلح مَعَ الفُرس فَرَجِعَ القِدّيسْ إلى أنطاكية ووَجد أَنَّ دِقْلِدْيانُوسْ كفر بالإيمان وطَلَبَ مِنْهُ أَنْ يُبَخِّرَ للأوثان فرفض وأعلن إيمانه بِالسَيِّدِ المَسِيحِْ وصاح في جنوده قائلاً: \" من أرَادَ الاسْتِشْهَادْ عَلَى اسْمِ السَيِّدْ المَسِيحْ فليأتِ معي \" فصاحوا جميعاً: \" نحن معك وإلهك هُوَ إلهنا \". فاغتاظ الإمبراطور وأَمَرَ الجنود أَنَّ يسمّروه عَلَى شجرة وأَنَّ يشدّدوا في عذابه ولَكِنَّ الرَّبْ كَانَ يُقَوِّيه ويعزيه. بَعْدَ ذَلِكْ سلَّمه للوالي ليحاكمه ويعذبه ثُمَّ أَمَرَ بِنَفْيِّهِ حَيْثُ ظلوا يعذبونه وكَانَ رئيس الملائكة ميخائيل يأتي إلَيهِ ليشجعه. أخيراً أحرقوه حياً في أَيَّامٍ حكم <span style=\"&quot;color:blue;&quot;\" uib-popover=\"&quot;'مكسيموس\" إسم=\"\" معناه=\"\" العظيم=\"\" جداً'\"=\"\" popover-placement=\"&quot;left-top&quot;\">مكسيميانوس</span> وجالريوس فنَالَ إكْلْيلْ الشِهَادَة. بَرَكِةْ صَلَوَاتُهُ فَلْتَكُنْ مَعْنَا، آمْينْ.\nوفيه أيْضَاً مِنْ سَنَةْ 20 لِلْشُهَداءِ (304م) اسْتَشْهَدَ القِدّيسْ أناطوليوس الفارسي، وُلِدَ هَذَا القِدّيسْ في بِلادْ فارس والْتَحَقَ بالجيش الروماني وارتقى إلى رتبة قائد وظَلَّ فيه خمسة عَشَرْ عاماً. لما كفر دِقْلِدْيانُوسْ وأثار الاضْطِهَادْ عَلَى المَسِيحِيّينْ اشتاق هَذَا القِدّيسْ إلى الإكليل السماوي أفْضَل من مجد هَذَا العالم الزَائِل فأتى وخلع ثياب الجُندية أمَامَ الإمبراطور وأعلن إيمانه بِالسَيِّدِ المَسِيحِْ فدُهش المَلِكْ من جرأته، وإذ علم أَنَّهُ مِنَ الفُرس لاطفه ثُمَّ سلَّمه إلى الوالي رُومَانس لعلَّه يتراجع عَن إيمانه. ولَمَّا عَجَزَ رُومَانوس أعاده إلى المَلِكِ الذي أمَرَ بتعذيبه بالضرب والجَلْد والعصر بالهِنْبَازيْنْ وقطعوا لسانه ثُمَّ ألقوه للوحوش وكَانَ الرَّبْ يُرْسِلْ مَلاكَه ليَشْفِيه ويُقَوِّيه ولَمَّا ضاقوا من تعذيبه قطعوا رأسه بِحَدِّ السَيْفِ فنَالَ إكْلْيلْ الشِهَادَة. بَرَكِةْ صَلَواتُهُ فَلْتَكُنْ مَعْنَا، ولِرَبِنَا المَجْدْ دائِمَاً أبَدِيَّاً آمْينْ.\n\"", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -9605,8 +9605,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=1305&C=Title", 
-  "13 Tabui\n1) Commémoration de la noce de Cana en Galilée ;\n2) Martyre de sainte Damiana ;\n3)Décès de saint Théophile le moine\n", 
-  "13 طوبة\nعيد عرس قانا الجليل\nاسْتِشْهَادْ القِدِّيسَةْ دميانة\nنِيَاحَةْ القِدّيسْ ثاؤفيلس الراهب\n", 
+  "13 Tabui\n1) Commémoration de la noce de Cana en Galilée ;\n2) Martyre de sainte Damiana ;\n3)Décès de saint Théophile le moine", 
+  "13 طوبة\nعيد عرس قانا الجليل\nاسْتِشْهَادْ القِدِّيسَةْ دميانة\nنِيَاحَةْ القِدّيسْ ثاؤفيلس الراهب", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -9651,7 +9651,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de leurs prières soit avec nous. Amen !", 
-  "بركة صلواتهم فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة صلواتهم فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -9677,8 +9677,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=1405&C=Title", 
-  "14 Tabui\n1) Décès de saint Archélides ;\n2) Martyre de sainte Mohrati ;\n3) Décès de saint Maxime frère de Dométien\n", 
-  "14 طوبة\nنِيَاحَةْ القِدّيسْ أرشليدس الراهب\nاسْتِشْهَادْ القِدِّيسَةْ مُهْراتي\nنِيَاحَةْ القِدّيسْ مكسيموس أخى دوماديوس\n", 
+  "14 Tabui\n1) Décès de saint Archélides ;\n2) Martyre de sainte Mohrati ;\n3) Décès de saint Maxime frère de Dométien", 
+  "14 طوبة\nنِيَاحَةْ القِدّيسْ أرشليدس الراهب\nاسْتِشْهَادْ القِدِّيسَةْ مُهْراتي\nنِيَاحَةْ القِدّيسْ مكسيموس أخى دوماديوس", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -9713,7 +9713,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction des prières de ce saint soit avec nous. Amen ! ", 
-  "بَرَكِةْ صَلَوَاتْ هَذَا القِدّيسْ فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بَرَكِةْ صَلَوَاتْ هَذَا القِدّيسْ فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -9754,8 +9754,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=1505&C=Title", 
-  "15 Tabui\nDécès du saint prophète Abdias\n", 
-  "15 طوبة\nنِيَاحَةْ عوبديا النبي\n", 
+  "15 Tabui\nDécès du saint prophète Abdias", 
+  "15 طوبة\nنِيَاحَةْ عوبديا النبي", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -9786,8 +9786,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=1605&C=Title", 
-  "16 Tabui\n1) Martyre de saint Philothée ;\n2) Décès de saint Jean le 48ème patriarche\n", 
-  "16 طوبة\nاسْتِشْهَادْ القِدّيسْ فيلوثيئوس\nنِيَاحَةْ البابا يوأنس الرابع\n", 
+  "16 Tabui\n1) Martyre de saint Philothée ;\n2) Décès de saint Jean le 48ème patriarche", 
+  "16 طوبة\nاسْتِشْهَادْ القِدّيسْ فيلوثيئوس\nنِيَاحَةْ البابا يوأنس الرابع", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -9853,8 +9853,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=1705&C=Title", 
-  "17 Tabui\n1) Décès de saint Domitien (Domèce), le frère de saint Maxime ;\n2) Décès d'Abba Youssab al-abah, évêque de Guérga\n", 
-  "17 طوبة\nنِيَاحَةْ القِدّيسْ دوماديوس أخي القِدّيسْ مكسيموس\nنِيَاحَةْ القِدّيسْ الأنبا يوساب الأبحّ أُسْقُفْ جرجا\n", 
+  "17 Tabui\n1) Décès de saint Domitien (Domèce), le frère de saint Maxime ;\n2) Décès d'Abba Youssab al-abah, évêque de Guérga", 
+  "17 طوبة\nنِيَاحَةْ القِدّيسْ دوماديوس أخي القِدّيسْ مكسيموس\nنِيَاحَةْ القِدّيسْ الأنبا يوساب الأبحّ أُسْقُفْ جرجا", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -9869,7 +9869,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "A cet endroit, ils rencontrèrent un saint moine nommé Jean (يُوحَنَّا) à qui ils ouvrirent le cœur. Il en fût réjoui et leur suggéra de se rendre en Syrie auprès d'un saint homme nommé abba Agabus (الأنبا أغابيوس) dont la renommée c’était propagée partout. Ils s’y rendirent et demeurèrent auprès d’abba Agabus pendant six années environ pendant lesquels ils évoluèrent dans la grâce et la vertu. Avant son décès, abba Agabus leur indiqua de se rendre en Egypte auprès de saint Macaire le grand (الأنبا مقاريوس الكبير) le père de la vallée de Scété.", 
-  "ولما وصلا أمرا الجُنْدِ أَنَّ يرجعوا إلى أبيهما ويقولوا لَهُ إنهما يُريدان أَنَّ يمكثا هُناَكَ أَيَّامٍاً. ثُمَّ كشفا أفكارهما لِأَحَدِ الرُهْبانْ القِدِّيسْينْ من أَنَّهُمَا يريدان لُباس الإسكيم المقدس، فَلَمْ يوافقهما عَلَى ذَلِكْ خوفا من أبيهما، وأشار عليهما أَنْ يذَهَبَا إلَيهِ وظلا عنده حَتَّى تنيح. وكَانَ قبل نِيَاحَتِهِ قَدْ البسهما شكل الرهبنة، وعَرِفَهما بأنه رَأَى في رؤيا اللّيْلِ القِدّيسْ مقاريوس وهْوَ يقول لَهُ أوص ولديك أَنْ يأتيا إلى بَعْدَ نياحتك ويصيرا لي بنينا. ثُمَّ قَالَ لهما: \"إنني كنت اشتهي أَنَّ انظر هَذَا القِدّيسْ بالجسد، ولكنني قَدْ رأيته بالروح. فبعد نياحتي امضيا إلَيهِ بِسَلامٍ\".", 
+  "ولما وصلا أمرا الجُنْدِ أَنَّ يرجعوا إلى أبيهما ويقولوا لَهُ إنهما يُريدان أَنَّ يمكثا هُناَكَ أَيَّامٍاً. ثُمَّ كشفا أفكارهما لِأَحَدِ الرُهْبانْ القِدِّيسْينْ من أَنَّهُمَا يريدان لُباس الإسكيم المقدس، فَلَمْ يوافقهما عَلَى ذَلِكْ خوفا من أبيهما، وأشار عليهما أَنْ يذَهَبَا إلَيهِ وظلا عنده حَتَّى تنيح. وكَانَ قبل نِيَاحَتِهِ قَدْ البسهما شكل الرهبنة، وعَرِفَهما بأنه رَأَى في رؤيا اللّيْلِ القِدّيسْ مقاريوس وهْوَ يقول لَهُ أوص ولديك أَنْ يأتيا إلى بَعْدَ نياحتك ويصيرا لي بنينا. ثُمَّ قَالَ لهما: \"إنني كنت اشتهي أَنَّ انظر هَذَا القِدّيسْ بِالجَسَدِ، ولكنني قَدْ رأيته بالروح. فبعد نياحتي امضيا إلَيهِ بِسَلامٍ\".", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -9884,7 +9884,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Après le décès d’abba Agabus ils restèrent en Syrie et leur réputation augmenta et il fût question de sacrer Maxime comme patriarche. Dès qu’ils eurent vent de cette tendance, ils partirent pour l’Egypte auprès de saint Macaire et demandèrent de vivre dans une grotte.", 
-  "وبَعْدَ ذَلِكْ بقليل تَنَيَّحَ بطريرك رومية، فتذكروا القِدّيسْ مكسيموس ليقيموه بدلا عنه، ففرح وَالِدَه بذلك. ولَمَّا وَصَلَ هَذَا الخبر إلى القِدّيسْ مكسيموس وأخيه، تذكرا وصية أبيهما الأنبا أغابيوس، فغير الاثنان شكلهما، وقصدا طريق البحر الأبيض، وكانَا إذا عطشا يبدل الله لَهُمَا الماء المالح بماء عذب. وتعبا كَثِيراً مِنَ السير حَتَّى أدمت أرجلهما، فناما عَلَى الجبل وقَدْ أعياهما التعب، فأَرْسَلَ الله لَهُمَا قوة حملتهما إلى برية الاسقيط، حَيْثُ القِدّيسْ مقاريوس، وعَرَّفَاه أَنَّهُمَا يريدان السُكْني عِنده. ولَمَّا رأهما من ذوي التنعم، ظَنَّ أنّهُما لا يستطيعان الإقامة في البَرِّيَة لِشَظِفِ العيشة فيها، فأجاباه قائلين: \"إن كنا لا نقدر يا أبانا فأننا نعود إلى حَيْثُ جئنا\".", 
+  "وبَعْدَ ذَلِكْ بقليل تَنَيَّحَ بطريرك رومية، فتذكروا القِدّيسْ مكسيموس ليقيموه بدلا عنه، ففرح وَالِدَه بذلك. ولَمَّا وَصَلَ هَذَا الخبر إلى القِدّيسْ مكسيموس وأخيه، تذكرا وصية أبيهما الأنبا أغابيوس، فغير الاثنان شكلهما، وقصدا طريق البحر الأبيض، وكانَا إذا عطشا يبدل الله لَهُمَا الماء المالح بماء عذب. وتعبا كَثِيراً مِنَ السير حَتَّى أدمت أرجلهما، فناما عَلَى الجبل وقَدْ أعياهما التعب، فأَرْسَلَ الله لَهُمَا قوة حملتهما إلى بَرِّيَّةِ الاسقيط، حَيْثُ القِدّيسْ مقاريوس، وعَرَّفَاه أَنَّهُمَا يريدان السُكْني عِنده. ولَمَّا رأهما من ذوي التنعم، ظَنَّ أنّهُما لا يستطيعان الإقامة في البَرِّيَة لِشَظِفِ العيشة فيها، فأجاباه قائلين: \"إن كنا لا نقدر يا أبانا فأننا نعود إلى حَيْثُ جئنا\".", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -9940,8 +9940,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=1805&C=Title", 
-  "18 Tabui\n1) Décès de saint Jacques, l’évêque de Nisibe ;\n2) Commémoration de Marie et Marthe, les deux sœurs de Lazare, le bien-aimé ;\n3) Décès de saint Andrâs surnommé Abou-l-lif\n", 
-  "18 طوبة\nنِيَاحَةْ القِدّيسْ يَعْقُوبْ أُسْقُفْ نصيبين\nتِذْكَارْ مَرْيَمْ ومرثا أختيّ لعازر الحبيب\nنِيَاحَةْ الأنبا أندراس الشهير بـ (أبو الليف)\n", 
+  "18 Tabui\n1) Décès de saint Jacques, l’évêque de Nisibe ;\n2) Commémoration de Marie et Marthe, les deux sœurs de Lazare, le bien-aimé ;\n3) Décès de saint Andrâs surnommé Abou-l-lif", 
+  "18 طوبة\nنِيَاحَةْ القِدّيسْ يَعْقُوبْ أُسْقُفْ نصيبين\nتِذْكَارْ مَرْيَمْ ومرثا أختيّ لعازر الحبيب\nنِيَاحَةْ الأنبا أندراس الشهير بـ (أبو الليف)", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -9991,7 +9991,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de leurs prières soit avec nous. Amen !", 
-  "بركة صلواتهنا فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة صلواتهنا فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -10027,8 +10027,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=1905&C=Title", 
-  "19 Tabui\nDécouverte des reliques de saint abba Hour, saint Pissouri ainsi que sainte Ampira, leur mère\n", 
-  "19 طوبة\nاكتشاف أعضاء القِدِّيسْينْ أباهور وبيسوري وأمبيرة أمهما\n", 
+  "19 Tabui\nDécouverte des reliques de saint abba Hour, saint Pissouri ainsi que sainte Ampira, leur mère", 
+  "19 طوبة\nاكتشاف أعضاء القِدِّيسْينْ أباهور وبيسوري وأمبيرة أمهما", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -10064,8 +10064,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=2005&C=Title", 
-  "20 Tabui\n1) Décès de saint Prochore, l’un des 70 disciples ;\n2) Martyre de saint Klog, le prêtre - Martyre de saint Bahna ;\n3) Consécration de l’église de saint Jean le détenteur de l'Evangile en or\n", 
-  "20 طوبة\nنِيَاحَةْ القِدّيسْ بروخورس أحَدْ السبعين رسولاً\nاسْتِشْهَادْ القِدّيسْ أبا كلوج القس\nاسْتِشْهَادْ القِدّيسْ بهناو\nتِذْكَارْ تَكّرْيسِ كِنِيسَةْ القِدّيسْ يُوحَنَّا صَاحِبْ الإِنْجِيلِ الذهب\n", 
+  "20 Tabui\n1) Décès de saint Prochore, l’un des 70 disciples ;\n2) Martyre de saint Klog, le prêtre - Martyre de saint Bahna ;\n3) Consécration de l’église de saint Jean le détenteur de l'Evangile en or", 
+  "20 طوبة\nنِيَاحَةْ القِدّيسْ بروخورس أحَدْ السبعين رسولاً\nاسْتِشْهَادْ القِدّيسْ أبا كلوج القس\nاسْتِشْهَادْ القِدّيسْ بهناو\nتِذْكَارْ تَكّرْيسِ كِنِيسَةْ القِدّيسْ يُوحَنَّا صَاحِبْ الإِنْجِيلِ الذهب", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -10110,7 +10110,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Abba Kloug prit soin des croyants de son village avec fidélité et droiture et sa réputation atteignit saint Jules d’Akfahs (يوليوس ألاقفهصى) qui chercha à le voir et reçut sa bénédiction ainsi que ses gens. Il l’invita à Akfahs (أقفهص) où il resta quelques temps puis retourna chez lui.", 
-  "رعى شَعْبَهُ بأمانة واسْتِقامة حَتَّى انتشرت رائحة سيرته الزكية في كُلّ مَكَان، واشتهي القِدّيسْ يوليوس الأقفهصي أَنَّ يراه، فجاء إلَيهِ مَعَ بَعْضُ غِلْمَانُه، وتَبارك مِنه، ثُمَّ أخَذه إلى قريته أقفهص (أقفهص: قرية مازالت بنفس اسْمَهَا بِجِوارْ الفنت)، حَيْثُ ظَلَّ فِيهَا عدة أَيَّامٍ ثُمَّ عَادَ إلى بلده.", 
+  "رعى شَعْبَهُ بأمانة واسْتِقامة حَتَّى انتشرت رائحة سيرته الزكية في كُلّ مَكَان، واشتهي القِدّيسْ يوليوس الأقفهصي أَنَّ يراه، فجاء إلَيهِ مَعَ بَعْضُ غِلْمَانُه، وتَبارك مِنه، ثُمَّ أخَذه إلى قريته أقفهص (أقفهص: قرية مازالت بِنَفْسِ اسْمَهَا بِجِوارْ الفنت)، حَيْثُ ظَلَّ فِيهَا عدة أَيَّامٍ ثُمَّ عَادَ إلى بلده.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -10125,7 +10125,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de ses prières soit avec nous. Amen !", 
-  "بَرَكِةْ صَلَوَاتْ القِدّيسْ أبا كلوج فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بَرَكِةْ صَلَوَاتْ القِدّيسْ أبا كلوج فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -10141,8 +10141,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=2105&C=Title", 
-  "21 Tabui\n1) Décès de nôtre Dame, la Vierge Marie, la sainte Mère de Dieu ;\n2) Décès de sainte Hilarie, la fille de l’empereur Zénon\n", 
-  "21 طوبة\nنِيَاحَةْ والدة الإله القِدِّيسَةْ مَرْيَمْ العذراء\nنِيَاحَةْ القِدِّيسَةْ إيلارية ابْنَةْ المَلِكْ زينون\n", 
+  "21 Tabui\n1) Décès de nôtre Dame, la Vierge Marie, la sainte Mère de Dieu ;\n2) Décès de sainte Hilarie, la fille de l’empereur Zénon", 
+  "21 طوبة\nنِيَاحَةْ والدة الإله القِدِّيسَةْ مَرْيَمْ العذراء\nنِيَاحَةْ القِدِّيسَةْ إيلارية ابْنَةْ المَلِكْ زينون", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -10162,7 +10162,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que sa sainte intercession soit avec nous. Amen !", 
-  "شفاعتها المُقَدَّسَةْ فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "شفاعتها المُقَدَّسَةْ فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -10182,17 +10182,17 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Sa sœur Théopiste fût attaquée par un mauvais démon et son père l’envoya auprès des moines de Scété dont la sainteté était réputée dans tout l’empire. Lorsque la princesse arriva à Scété, les anciens prièrent pour elle des journées entières sans résultat. Finalement, ils décidèrent de l’emmener auprès du  moine Hilaire l’eunuque  pour qu’il prie sur elle jusqu’à ce qu’elle guérisse. Quelques jours plus tard, Théopiste guérit et Hilarie la ramena auprès des anciens. Alors Théopiste rentra saine et sauve auprès de son père.", 
-  " حدث أَنَّ اعترى أختها الصُغْرَى شيطان رديء، فأرسلها المَلِكْ إلى البَرِّيَة ليُصَلى لَهَا الآبَاءِ الرُهْبانْ ببرية شيهيت، فَلَمَّا وصلت إلى الدير صَلَّى لَهَا الرُهْبانْ أَيَّامٍاً كَثِيرَة فَلَمْ تَبْرأ، وأخيراً سلَّموها للراهب إيلاري الخِصْي ليُصَلي لها، فأخذها وظل يُصَلي حَتَّى بُرئت.", 
+  " حدث أَنَّ اعترى أختها الصُغْرَى شيطان رديء، فأرسلها المَلِكْ إلى البَرِّيَة ليُصَلى لَهَا الآبَاءِ الرُهْبانْ ببرية شِيهِيتْ، فَلَمَّا وصلت إلى الدير صَلَّى لَهَا الرُهْبانْ أَيَّامٍاً كَثِيرَة فَلَمْ تَبْرأ، وأخيراً سلَّموها للراهب إيلاري الخِصْي ليُصَلي لها، فأخذها وظل يُصَلي حَتَّى بُرئت.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
   "A son arrivée au palais, son père se réjouit de sa guérison et la questionna au sujet de son séjour à Scété. Elle lui répondit que le moine qui l’avait guérie la prenait dans ses bras et l’embrassait. Cette explication remplit l’empereur de doute au sujet du moine Hilaire puis il envoya un messager aux anciens de la vallée pour leur demander de lui envoyer le moine Hilaire afin que celui-ci bénisse le royaume.", 
-  "ثم أَحْضَرَهَا إلى الشيوخ فأرسلوها إلى المَلِكِ سالمة، ففرح بقدومها، وسألها كَيْفَ بُرئت وكيف كَانَ حالها في شيهيت، فقَالَت لَهُ أَنَّ القِدّيسْ الذي أبرأها بِصَلاتُه كَانَ يُعانِقْها ويُقبّلها كثيراً، فَلَمْ يَسْتَرِحْ المَلِكْ لسلوك الرَاهِبْ إيلاري تِجَاهْ ابنته، فأَرْسَلَ إلى شيوخ البَرِّيَة قائلاً أرسلوا لي القِدّيسْ إيلاري ليبارك المملكة، فأرسلوه.", 
+  "ثم أَحْضَرَهَا إلى الشيوخ فأرسلوها إلى المَلِكِ سالمة، ففرح بقدومها، وسألها كَيْفَ بُرئت وكيف كَانَ حالها في شِيهِيتْ، فقَالَت لَهُ أَنَّ القِدّيسْ الذي أبرأها بِصَلاتُه كَانَ يُعانِقْها ويُقبّلها كثيراً، فَلَمْ يَسْتَرِحْ المَلِكْ لسلوك الرَاهِبْ إيلاري تِجَاهْ ابنته، فأَرْسَلَ إلى شيوخ البَرِّيَة قائلاً أرسلوا لي القِدّيسْ إيلاري ليبارك المملكة، فأرسلوه.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
   "Lorsqu’elle arriva, l’empereur et l’impératrice la prirent à part pour lui demander comment il avait pu prendre la princesse dans ces bras et l’embrasser. Elle leur dit :  Promettez-moi d’abord devant l’Evangile que vous ne m’empêcherez pas de retourner à Scété, ensuite je vous répondrai. Ils firent ce qu’elle leur demandait alors Hilarie se dévoila à eux. Ceci réjouit ses parents et elle demeura un mois au palais. Lorsqu’elle voulut retourner à Scété, ils tentèrent de l’en dissuader mais elle leur rappela leur serment et ils la laissèrent partir.", 
-  "فَلَمَّا وَصَلَ اختلى بِهِ المَلِكْ والملكة وسألاه: \"كَيْفَ كُنْتَ تُعانِقْ وتُقبِّلْ الأميرة؟ّ!\" فَقَالَ لَهُمْ الراهب: \"أحْضِرا لي الإنجيل، وتعهَّدا عَلَيْهِ أنكما لا تعيقاني عَن العودة إلى البَرِّيَة إذا قُلْتُ لَكُما الحقيقة\". فَلَمّا تَعَهَّدا لَهُ بِذَلِك، قَالَ: \"أنا ابنتكما إيلارية\"، فَفَرِحَ المَلِكْ والملكة وكُل القصر المَلكي، وظَلَّتْ في القصر شهراً مِنَ الزمان، ثُمَّ أرادت العودة إلى شيهيت، فَلَمْ يُرِد والداها أَنَّ يطلقاها إلا بَعْدَ أَنَّ ذكَّرَتهما بالتعهد.", 
+  "فَلَمَّا وَصَلَ اختلى بِهِ المَلِكْ والملكة وسألاه: \"كَيْفَ كُنْتَ تُعانِقْ وتُقبِّلْ الأميرة؟ّ!\" فَقَالَ لَهُمْ الراهب: \"أحْضِرا لي الإنجيل، وتعهَّدا عَلَيْهِ أنكما لا تعيقاني عَن العودة إلى البَرِّيَة إذا قُلْتُ لَكُما الحقيقة\". فَلَمّا تَعَهَّدا لَهُ بِذَلِك، قَالَ: \"أنا ابنتكما إيلارية\"، فَفَرِحَ المَلِكْ والملكة وكُل القصر المَلكي، وظَلَّتْ في القصر شهراً مِنَ الزمان، ثُمَّ أرادت العودة إلى شِيهِيتْ، فَلَمْ يُرِد والداها أَنَّ يطلقاها إلا بَعْدَ أَنَّ ذكَّرَتهما بالتعهد.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -10213,8 +10213,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=2205&C=Title", 
-  "22 Tabui\nDécès de saint Antoine le grand, le père de tous les moines\n", 
-  "22 طوبة\nنِيَاحَةْ القِدّيسْ العَظِيمْ الأنبا أنطونيوس أب جَمِيع الرُهْبَان\n", 
+  "22 Tabui\nDécès de saint Antoine le grand, le père de tous les moines", 
+  "22 طوبة\nنِيَاحَةْ القِدّيسْ العَظِيمْ الأنبا أنطونيوس أب جَمِيع الرُهْبَان", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -10269,7 +10269,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Il reçut la visite de saint Macaire et le revêtit des vêtements monastiques. Ce dernier retourna à Scété où il mit les bases du monachisme. Vers la fin de sa vie, saint Antoine avait de nombreux disciples dispersés en Egypte. Ils se trouvaient à divers endroits d’Egypte tels que Scété (شهيت), Nitrie (نتريا), au mont el-Nakloun à Fayoum (جبل النقلون بالفيوم). Il leur rendait visite ou leur envoyait des lettres dont une vingtaine nous est parvenue.", 
-  "زاره القِدِّيسْ مكاريوس، فألبسه زى الرهبنة، ثُمّ َرجع إلى برية شيهيت وأَسَّس الرَهْبَنَةْ فِيهَا. وفي أواخر أَيَّامٍ الأنبا أنطونيوس كَانَ لَهُ تلاميذ كَثِيرُون في مَناطِق مُخْتَلِفَة مِن مِصْرْ، مثل شيهيت، ونتريا، وجبل النقلون بالفيوم، كَانَ يفتقدهم أحياناً، إمَّا بنفسه أو برسائله، وله عشرون رسالة بهذا الصدد.", 
+  "زاره القِدِّيسْ مكاريوس، فألبسه زى الرهبنة، ثُمّ َرجع إلى بَرِّيَّةِ شِيهِيتْ وأَسَّس الرَهْبَنَةْ فِيهَا. وفي أواخر أَيَّامٍ الأنبا أنطونيوس كَانَ لَهُ تلاميذ كَثِيرُون في مَناطِق مُخْتَلِفَة مِن مِصْرْ، مثل شِيهِيتْ، ونتريا، وجبل النقلون بالفيوم، كَانَ يفتقدهم أحياناً، إمَّا بنفسه أو برسائله، وله عشرون رسالة بهذا الصدد.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -10341,7 +10341,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Saint Cyrille IV siégea sur le trône de saint Marc pendant environ sept années et, après un dur combat, il s’endormit dans le Seigneur. Toute la nation en fût attristée et il fût enterré à la cathédrale saint Marc du Caire. L’Eglise le surnomma le père de la réforme (أبي الإصلاح) à cause de la multitude des travaux qu’il mena. ", 
-  "وبَعْدَ جِهَاد شاق، رقد في الرب، فحزنت عَلَيْهِ الأُمَّة كُلها، ودُفِنَ بالكنيسة المُرْقُسِيَّة بالقاهرة، بَعْدَ أَنَّ جَلَسَ عَلَى الكُرْسِي المرقسي نَحْوَ سبع سنوات. ولكثرة أعْمالُه، لَقَّبَتْهُ الكَنيسَةْ بأبي الإصلاح.", 
+  "وبَعْدَ جِهَاد شاق، رقد في الرَبّ، فحزنت عَلَيْهِ الأُمَّة كُلها، ودُفِنَ بالكنيسة المُرْقُسِيَّة بالقاهرة، بَعْدَ أَنَّ جَلَسَ عَلَى الكُرْسِي المرقسي نَحْوَ سبع سنوات. ولكثرة أعْمالُه، لَقَّبَتْهُ الكَنيسَةْ بأبي الإصلاح.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -10352,8 +10352,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=2405&C=Title", 
-  "24 Tabui\n1) Décès de sainte Marie l’ascète ;\n2) Martyre d'Abba Bissada le prêtre\n", 
-  "24 طوبة\nنِيَاحَةْ القِدِّيسَةْ مَرْيَمْ الحبيسة الناسك\nاسْتِشْهَادْ القِدّيسْ بساده القس\n", 
+  "24 Tabui\n1) Décès de sainte Marie l’ascète ;\n2) Martyre d'Abba Bissada le prêtre", 
+  "24 طوبة\nنِيَاحَةْ القِدِّيسَةْ مَرْيَمْ الحبيسة الناسك\nاسْتِشْهَادْ القِدّيسْ بساده القس", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -10414,8 +10414,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=2505&C=Title", 
-  "25 Tabui\n1) Décès de saint Pierre, l’adorateur ;\n2) Martyre de saint Askalâs\n", 
-  "25 طوبة\nنِيَاحَةْ القِدِّيسْ بُطْرُسْ العَابِد\nاسْتِشْهَادْ القِدّيسْ أسكلاس\n", 
+  "25 Tabui\n1) Décès de saint Pierre, l’adorateur ;\n2) Martyre de saint Askalâs", 
+  "25 طوبة\nنِيَاحَةْ القِدِّيسْ بُطْرُسْ العَابِد\nاسْتِشْهَادْ القِدّيسْ أسكلاس", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -10429,8 +10429,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Alors, Pierre se réveilla en sursaut. Il était tout terrifié et se reprochait ses mauvaises actions et la dureté de son cœur. Il commença à s’intéresser à son prochain et à avoir de la compassion. En effet, il se mit à distribuer tout ce qu’il possédait aux pauvres et aux nécessiteux, jusqu’à son dernier vêtement. N’ayant plus rien, il se vendit comme esclave et distribua le montant aux pauvres. Comme il devenait très réputé, il s’échappa de ce lieu et alla s’installé dans la vallée de Scété. Il se fit moine et eût une vie d’ascète. Sa conduite irréprochable le rendit digne de connaître le jour de son départ. Le moment venu, il convoqua les anciens de la vallée pour leur faire ses adieux puis décéda en paix.\n", 
-  "اسْتَيْقَظَ بُطْرُسْ مِنْ نَوْمِه فَزِعَاً مَرْعوباً، فَأَخَذَ يلوم نَفْسَهُ عَلَى ظُلمِه وقساوته فباع كُلَّ أملاكه ووزع أمواله عَلَى الفقراء والمحتاجين. ولمَّا لَمْ يَبقَ لَهُ شيء يوزعه عَلَى الفقراء، بَاعَ نَفْسَهُ كعبد وتصدَّق بالثمن عَلَى الفقراء، ولَمَّا اشْتَهَرَ أمره هرب إلى برية شيهيت وتَرَّهَبَ وسَارَ سِيرَةِ حَسَنَة أهَّلته لِأنَّ يعرف يوم انتقَالَه فاستدعى الرُهْبانْ وودَّعهم وتَنَيَّحَ بِسَلامٍ. ", 
+  "Alors, Pierre se réveilla en sursaut. Il était tout terrifié et se reprochait ses mauvaises actions et la dureté de son cœur. Il commença à s’intéresser à son prochain et à avoir de la compassion. En effet, il se mit à distribuer tout ce qu’il possédait aux pauvres et aux nécessiteux, jusqu’à son dernier vêtement. N’ayant plus rien, il se vendit comme esclave et distribua le montant aux pauvres. Comme il devenait très réputé, il s’échappa de ce lieu et alla s’installé dans la vallée de Scété. Il se fit moine et eût une vie d’ascète. Sa conduite irréprochable le rendit digne de connaître le jour de son départ. Le moment venu, il convoqua les anciens de la vallée pour leur faire ses adieux puis décéda en paix.", 
+  "اسْتَيْقَظَ بُطْرُسْ مِنْ نَوْمِه فَزِعَاً مَرْعوباً، فَأَخَذَ يلوم نَفْسَهُ عَلَى ظُلمِه وقساوته فباع كُلَّ أملاكه ووزع أمواله عَلَى الفقراء والمحتاجين. ولمَّا لَمْ يَبقَ لَهُ شيء يوزعه عَلَى الفقراء، بَاعَ نَفْسَهُ كعبد وتصدَّق بالثمن عَلَى الفقراء، ولَمَّا اشْتَهَرَ أمره هرب إلى بَرِّيَّةِ شِيهِيتْ وتَرَّهَبَ وسَارَ سِيرَةِ حَسَنَة أهَّلته لِأنَّ يعرف يوم انتقَالَه فاستدعى الرُهْبانْ وودَّعهم وتَنَيَّحَ بِسَلامٍ. ", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -10461,13 +10461,13 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=2605&C=Title", 
-  "26 Tabui\n1) Martyre des 49 saints, les anciens de Scété ;\n2) Martyre de saint Bagouch ;\n3) Décès de sainte Anastasie\n", 
-  "26 طوبة\nاسْتِشْهَادْ التسعة والأربعين شهيداً شيوخ شيهيت\nاسْتِشْهَادْ القِدّيسْ بجوش\nنِيَاحَةْ القِدِّيسَةْ أنسطاسية\n", 
+  "26 Tabui\n1) Martyre des 49 saints, les anciens de Scété ;\n2) Martyre de saint Bagouch ;\n3) Décès de sainte Anastasie", 
+  "26 طوبة\nاسْتِشْهَادْ التسعة والأربعين شهيداً شيوخ شِيهِيتْ\nاسْتِشْهَادْ القِدّيسْ بجوش\nنِيَاحَةْ القِدِّيسَةْ أنسطاسية", 
   ],
   [
   Prefix.same+"&C=NoActor", 
   "En ce jour de l’an 160 des martyrs (444 après Jésus Christ) eût lieu le martyre des 49 saints, les anciens de Scété (شيوخ شيهيت).", 
-  "في مِثْلِ هَذَا اليَوْم مِنْ سَنَةْ 160 لِلْشُهَداءِ (444م) اسْتَشْهَدَ التسعة والأربعون شيوخ شيهيت.", 
+  "في مِثْلِ هَذَا اليَوْم مِنْ سَنَةْ 160 لِلْشُهَداءِ (444م) اسْتَشْهَدَ التسعة والأربعون شيوخ شِيهِيتْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -10492,7 +10492,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de leurs prières soit avec nous. Amen !", 
-  "بركة صلواتهم فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة صلواتهم فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -10548,8 +10548,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=2705&C=Title", 
-  "27 Tabui\n1) Commémoration de l’archange Suriel ;\n2) Martyre d’abba Fam (Phœbammon) d’Ossîm, le soldat ;\n3) Martyre de saint Sérapion ;\n4) Translation des reliques de saint Timothée, le disciple de l’apôtre saint Paul\n", 
-  "27 طوبة\nتِذْكَارْ رئيس الملائكة الجليل سُورِيَالْ\nاسْتِشْهَادْ القِدّيسْ أبى فام الجُندي الأوسيمي\nاسْتِشْهَادْ القِدّيسْ سيرابيون\nتِذْكَارْ نَقْلِ جَسَدِ القِدّيسْ تِيمُوثَاوُسْ تِلْمِيذْ القِدّيسْ بُولِسْ الرسول\n", 
+  "27 Tabui\n1) Commémoration de l’archange Suriel ;\n2) Martyre d’abba Fam (Phœbammon) d’Ossîm, le soldat ;\n3) Martyre de saint Sérapion ;\n4) Translation des reliques de saint Timothée, le disciple de l’apôtre saint Paul", 
+  "27 طوبة\nتِذْكَارْ رئيس الملائكة الجليل سُورِيَالْ\nاسْتِشْهَادْ القِدّيسْ أبى فام الجُندي الأوسيمي\nاسْتِشْهَادْ القِدّيسْ سيرابيون\nتِذْكَارْ نَقْلِ جَسَدِ القِدّيسْ تِيمُوثَاوُسْ تِلْمِيذْ القِدّيسْ بُولِسْ الرسول", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -10645,8 +10645,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=2805&C=Title", 
-  "28 Tabui\n1) Martyre d’abba Kaou ;\n2) Martyre de saint Clément, l’évêque d’Ankara ;\n3)Martyre de saint Phylias, l’évêque de Tamyel-Amdid\n", 
-  "28 طوبة\nاسْتِشْهَادْ القِدّيسْ الأنبا كاؤو\nاسْتِشْهَادْ القِدّيسْ إكليمنضس أُسْقُفْ أَنْقَرَةْ\nاسْتِشْهَادْ القِدّيسْ فيلياس أُسْقُفْ تَمى الأَمْدِيدْ\n", 
+  "28 Tabui\n1) Martyre d’abba Kaou ;\n2) Martyre de saint Clément, l’évêque d’Ankara ;\n3)Martyre de saint Phylias, l’évêque de Tamyel-Amdid", 
+  "28 طوبة\nاسْتِشْهَادْ القِدّيسْ الأنبا كاؤو\nاسْتِشْهَادْ القِدّيسْ إكليمنضس أُسْقُفْ أَنْقَرَةْ\nاسْتِشْهَادْ القِدّيسْ فيلياس أُسْقُفْ تَمى الأَمْدِيدْ", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -10742,8 +10742,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=2905&C=Title", 
-  "29 Tabui\n1) Décès de sainte Xani ;\n2) Commémoration de saint Syriaque, le combattant\n", 
-  "29 طوبة\nنِيَاحَةْ القِدِّيْسْة أكساني\nنِيَاحَةْ القِدّيسْ سِرْياكُوسْ المُجَاهِد\n", 
+  "29 Tabui\n1) Décès de sainte Xani ;\n2) Commémoration de saint Syriaque, le combattant", 
+  "29 طوبة\nنِيَاحَةْ القِدِّيْسْة أكساني\nنِيَاحَةْ القِدّيسْ سِرْياكُوسْ المُجَاهِد", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -10784,8 +10784,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=3005&C=Title", 
-  "30 Tabui\n1) Martyre des trois vierges saintes Pistis, Helpis et Agapi et décès de leur mère Sophie ;\n2) Décès du pape Ménas 1er ;\n3) Décès de saint Abraham d’Edesse\n", 
-  "30 طوبة\nاسْتِشْهَادْ العذارى القِدِّيْسْات بيستيس وهلبيس وأغابى ونِيَاحَةْ أُمَّهُنَّ صوفية\nنِيَاحَةْ البابا مينا الأول\nنِيَاحَةْ القِدّيسْ إبراهيم الرهاوي المتوحد\n", 
+  "30 Tabui\n1) Martyre des trois vierges saintes Pistis, Helpis et Agapi et décès de leur mère Sophie ;\n2) Décès du pape Ménas 1er ;\n3) Décès de saint Abraham d’Edesse", 
+  "30 طوبة\nاسْتِشْهَادْ العذارى القِدِّيْسْات بيستيس وهلبيس وأغابى ونِيَاحَةْ أُمَّهُنَّ صوفية\nنِيَاحَةْ البابا مينا الأول\nنِيَاحَةْ القِدّيسْ إبراهيم الرهاوي المتوحد", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -10805,7 +10805,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Lorsque l’empereur constata la fermeté de leur Foi, il commença par torturer l’ainée en la faisant fouetter jusqu’au sang mais sans obtenir de résultat. Alors il la fit décapiter. Puis il s’attaqua à la cadette qui montra la même fermeté et fût décapitée. Enfin, Agapi, la plus jeune subit le même sort et fût décapitée à son tour. Leur mère, Sophie, se réjouit que ses filles étaient demeurées fermes dans la Foi, qu’elles aient obtenu la couronne du martyre et étaient devenue les fiancées du Christ. Elle prit leurs corps, les ensevelit dans des linges précieux et demanda à Dieu de prendre son âme. Sa demande fût exaucée et elle remit l’âme entre les mains du Seigneur. Des fidèles recueillirent leurs dépouilles et les enterrèrent avec beaucoup d’honneurs.", 
-  "ولما رَأَى المَلِكْ تَمَسُّكَهُنَّ بالإيمان، مَزَّقَ جَسَد بيستيس بالسِياطْ وألقاها في أتون النار، ثُمَّ قَطَعَ رأسها، أما هلبيس فَمَشَّطَ جَسَدَهْا بالأمْشاطْ الحديدية، ثُمَّ ضرب عنقها بالسيف، ولَمَّا جَاءَ دور أغابى الصغيرة ووَجَدَها مُتَمَسِّكَة بالإيمان ولَمْ تَرْتَعِب مِنْ قَتْل أختيها أمامها، أَمَرَ بإلقائها في أتون النار ثُمَّ عصرها بالهِنْبَازيْنْ وأخيراً قطع رأسها فَفَرِحَتْ جداً أُمَّهُنَّ صوفية وتهللت، وشكرت الرَّبْ عَلَى ثبات بناتها عَلَى الإيمان وأنَّهُنَّ نِلْنَ أَكَاليلِ الشِهَادَةْ وصِرْنَ عرائس للسيد المَسِيحِ، فأخذت أجسادِهِنَّ ولَفَّتَهُنَّ بِلَفائفْ ثَمينْة، وطلبت إلى الرَّبْ أَنَّ يَقْبَلْ روحها، فسمع الله صَلاتها، واستودعت روحها الطَاهِرَةِ في يَدَيّ الرب، فَأَخَذَ المؤمنون أجسادهن الطَاهِرَةِ ودفنوها بِإكْرَامٍ جَزيلٍ. ", 
+  "ولما رَأَى المَلِكْ تَمَسُّكَهُنَّ بالإيمان، مَزَّقَ جَسَد بيستيس بالسِياطْ وألقاها في أتون النار، ثُمَّ قَطَعَ رأسها، أما هلبيس فَمَشَّطَ جَسَدَهْا بالأمْشاطْ الحديدية، ثُمَّ ضرب عنقها بالسيف، ولَمَّا جَاءَ دور أغابى الصغيرة ووَجَدَها مُتَمَسِّكَة بالإيمان ولَمْ تَرْتَعِب مِنْ قَتْل أختيها أمامها، أَمَرَ بإلقائها في أتون النار ثُمَّ عصرها بالهِنْبَازيْنْ وأخيراً قطع رأسها فَفَرِحَتْ جداً أُمَّهُنَّ صوفية وتهللت، وشكرت الرَّبْ عَلَى ثبات بناتها عَلَى الإيمان وأنَّهُنَّ نِلْنَ أَكَاليلِ الشِهَادَةْ وصِرْنَ عرائس للسيد المَسِيحِ، فأخذت أجسادِهِنَّ ولَفَّتَهُنَّ بِلَفائفْ ثَمينْة، وطلبت إلى الرَّبْ أَنَّ يَقْبَلْ روحها، فسمع الله صَلاتها، واستودعت روحها الطَاهِرَةِ في يَدَيّ الرَبّ، فَأَخَذَ المؤمنون أجسادهن الطَاهِرَةِ ودفنوها بِإكْرَامٍ جَزيلٍ. ", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -10866,8 +10866,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=0106&C=Title", 
-  "1er Amshir\n1) Commémoration du second concile œcuménique à Constantinople ;\n2) Martyre de saint Abâdyoun, évêque d’Antinoë ;\n3) Commémoration de la consécration de la première église construite en l'honneur de saint Pierre, le sceau des martyrs, à Alexandrie\n", 
-  "1 أمشير\nتِذْكَارْ اجتماع المجمع المسكوني الثاني بِمَدِينَةِ القسطنطينية\nاسْتِشْهَادْ القِدّيسْ أباديون أُسْقُفْ أنصنا\nتَكّرْيسِ كِنِيسَةْ القِدّيسْ بُطْرُسْ خاتم الشُهَدَاءْ بِمَدِينَةِ الإسْكَنْدَرِيَّةْ\n", 
+  "1er Amshir\n1) Commémoration du second concile œcuménique à Constantinople ;\n2) Martyre de saint Abâdyoun, évêque d’Antinoë ;\n3) Commémoration de la consécration de la première église construite en l'honneur de saint Pierre, le sceau des martyrs, à Alexandrie", 
+  "1 أمشير\nتِذْكَارْ اجتماع المجمع المسكوني الثاني بِمَدِينَةِ القسطنطينية\nاسْتِشْهَادْ القِدّيسْ أباديون أُسْقُفْ أنصنا\nتَكّرْيسِ كِنِيسَةْ القِدّيسْ بُطْرُسْ خاتم الشُهَدَاءْ بِمَدِينَةِ الإسْكَنْدَرِيَّةْ", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -10897,7 +10897,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "S'adressant ensuite à Apollinaire il lui demanda d'exposer sa Foi. Il répondit que l'incarnation du Fils se fit par son union avec le corps humain mais sans son âme car Sa Divinité a pris la place de l'âme et de l'esprit. Le pape lui répondit : \"Dieu le Verbe s'est uni à la nature humaine dans le but de nous sauver. Si, comme tu le dis, Il s'est uni uniquement à un corps animal, Il n'a donc pas sauvé les hommes mais les animaux. Or les hommes se lèveront le jour de la résurrection avec leur âme et leur intelligence, il leur sera demandé de rendre des comptes et ils recevront la bénédiction ou la malédiction. Ainsi l'utilité de l'incarnation serait anéantie. Par ailleurs, s'il en était ainsi, comment aurait-Il pu dire qu'Il est le fils de l’homme ? . Il lui proposa de revenir à la Foi orthodoxe mais Apollinaire refusa. Alors le concile décréta son ex-communion.", 
-  "3 - هرطقة أبوليناريوس أُسْقُفْ اللاذقية 310 - 390م الذي أنكر وجود نفس عاقلة في المَسِيحْ ابْنِ الله المتجسد وأَنَّ اللوغوس حل محلها. وبهذا يَكُونَ السَّيْد المَسِيحْ حَسَب زعمه قَدْ اتخذ لَهُ طبيعة بشرية ناقصة لا تشمل النَفْس الإنسانية العاقلة. وقَدْ فنَّد الآبَاءِ هَذِهِ البدعة أيْضَاً وقَالَوا أَنَّ أبوليناريوس بهرطقته هَذِهِ يَكُونَ قَدْ شوّه عملية الفداء والخلاص لِأنَّ الكلمة المتجسد لِكَيّْ يَكُونَ مخلصاً وفادياً للإنسان بكامله اتخذ طبيعتنا كاملة بنفس بشرية عاقلة لِأنَّ ما لَمْ يُتخذ لا يخلص.", 
+  "3 - هرطقة أبوليناريوس أُسْقُفْ اللاذقية 310 - 390م الذي أنكر وجود نفس عاقلة في المَسِيحْ ابْنِ الله المتجسد وأَنَّ اللوغوس حل محلها. وبهذا يَكُونَ السَّيْد المَسِيحْ حَسَب زعمه قَدْ اتخذ لَهُ طبيعة بشرية ناقصة لا تشمل النَفْس الإنسانية العاقلة. وقَدْ فنَّد الآبَاءِ هَذِهِ البدعة أيْضَاً وقَالَوا أَنَّ أبوليناريوس بهرطقته هَذِهِ يَكُونَ قَدْ شوّه عملية الفداء والخلاص لِأنَّ الكلمة المتجسد لِكَيّْ يَكُونَ مخلصاً وفادياً للإنسان بكامله اتخذ طبيعتنا كاملة بِنَفْسِ بشرية عاقلة لِأنَّ ما لَمْ يُتخذ لا يخلص.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -10907,7 +10907,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction des prières de ces pères soit avec nous. Amen !", 
-  "بَرَكِةْ صَلَوَاتْ هؤلاء الآبَاءِ القِدِّيسْينْ فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بَرَكِةْ صَلَوَاتْ هؤلاء الآبَاءِ القِدِّيسْينْ فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -10953,8 +10953,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=0206&C=Title", 
-  "2 Amshir\n1) Décès de saint Paul, le premier des Ermites ;\n2) Décès de saint Longin, abbé du monastère d’al-Zougag\n", 
-  "2 أمشير\nنِيَاحَةْ القِدّيسْ العَظِيمْ الأنبا بولا أَوَّلِ السواح\nنِيَاحَةْ القِدّيسْ لُونجينوس رَئيسْ دَيْرِ الزُجَاجْ\n", 
+  "2 Amshir\n1) Décès de saint Paul, le premier des Ermites ;\n2) Décès de saint Longin, abbé du monastère d’al-Zougag", 
+  "2 أمشير\nنِيَاحَةْ القِدّيسْ العَظِيمْ الأنبا بولا أَوَّلِ السواح\nنِيَاحَةْ القِدّيسْ لُونجينوس رَئيسْ دَيْرِ الزُجَاجْ", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -10999,7 +10999,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de ses prières soit avec nous. Amen !", 
-  "بَرَكِةْ صَلَوَاتْ القِدّيسْ الأنبا بولا فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بَرَكِةْ صَلَوَاتْ القِدّيسْ الأنبا بولا فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -11030,8 +11030,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=0306&C=Title", 
-  "3 Amshir\n1) Décès de saint Jacques le moine ;\n2) Décès de saint Hédra dans la roche de Benhadeb\n", 
-  "3 أمشير\nنِيَاحَةْ القِدّيسْ يَعْقُوبْ الراهب\nنِيَاحَةْ القِدّيسْ هِدْرَا بحاجر بنهدب\n", 
+  "3 Amshir\n1) Décès de saint Jacques le moine ;\n2) Décès de saint Hédra dans la roche de Benhadeb", 
+  "3 أمشير\nنِيَاحَةْ القِدّيسْ يَعْقُوبْ الراهب\nنِيَاحَةْ القِدّيسْ هِدْرَا بحاجر بنهدب", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -11087,8 +11087,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=0406&C=Title", 
-  "4 Amshir\nMartyre de saint Agabus, l’un des soixante-dix disciples du Christ\n", 
-  "4 أمشير\nاسْتِشْهَادْ القِدّيسْ أغابوس أحَدْ السبعين رسولاً\n", 
+  "4 Amshir\nMartyre de saint Agabus, l’un des soixante-dix disciples du Christ", 
+  "4 أمشير\nاسْتِشْهَادْ القِدّيسْ أغابوس أحَدْ السبعين رسولاً", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -11129,13 +11129,13 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=0506&C=Title", 
-  "5 Amshir\n1) Commémoration de la translation des reliques des quarante-neuf les anciens de Scété ;\n2) Décès du pape Agrippin, le 10ème patriarche de la prédication de saint Marc ;\n3) Décès de saint abba Pichaï, du monastère rouge ;\n4) Décès de saint Apollo, le compagnon de saint Abib ;\n5) Martyre de saint Hippolyte, pape de Rome ;\n6) Décès de saint abba Noub, le propriétaire de l’éventail en or\n", 
-  "5 أمشير\nتِذْكَارْ نَقْلِ أعضاء التسعة والأربعين شهيداً شيوخ شيهيت\nنِيَاحَةْ البابا أغريبينوس البَطْرِيَرْكْ العاشر مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة\nنِيَاحَةْ القِدّيسْ الأنبا بشاي صاحب الدير الأحمر\nنِيَاحَةْ الأنبا أبوللو رفيق القِدّيسْ الأنبا أبيب\nاسْتِشْهَادْ القِدّيسْ أبوليدس بابا رُومَا\nنِيَاحَةْ القِدّيسْ أبانوب صاحب المروحة الذهب\n", 
+  "5 Amshir\n1) Commémoration de la translation des reliques des quarante-neuf les anciens de Scété ;\n2) Décès du pape Agrippin, le 10ème patriarche de la prédication de saint Marc ;\n3) Décès de saint abba Pichaï, du monastère rouge ;\n4) Décès de saint Apollo, le compagnon de saint Abib ;\n5) Martyre de saint Hippolyte, pape de Rome ;\n6) Décès de saint abba Noub, le propriétaire de l’éventail en or", 
+  "5 أمشير\nتِذْكَارْ نَقْلِ أعضاء التسعة والأربعين شهيداً شيوخ شِيهِيتْ\nنِيَاحَةْ البابا أغريبينوس البَطْرِيَرْكْ العاشر مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة\nنِيَاحَةْ القِدّيسْ الأنبا بشاي صاحب الدير الأحمر\nنِيَاحَةْ الأنبا أبوللو رفيق القِدّيسْ الأنبا أبيب\nاسْتِشْهَادْ القِدّيسْ أبوليدس بابا رُومَا\nنِيَاحَةْ القِدّيسْ أبانوب صاحب المروحة الذهب", 
   ],
   [
   Prefix.same+"&C=NoActor", 
   "L'Eglise commémore aujourd'hui la translation des reliques des quarante-neuf martyrs, les anciens de Scété vers leur église au monastère de saint Macaire.", 
-  " في مِثْلِ هَذَا اليَومْ تُعَيِِّدُ الكَنيسَةْ بتِذْكَارْ نَقْلِ أعضاء التسعة والأربعين شهيداً شيوخ شيهيت.", 
+  " في مِثْلِ هَذَا اليَومْ تُعَيِِّدُ الكَنيسَةْ بتِذْكَارْ نَقْلِ أعضاء التسعة والأربعين شهيداً شيوخ شِيهِيتْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -11170,7 +11170,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Ce saint naquit dans le village d’Absouna (أبصونا) et, dans sa jeunesse, il n’avait pas une bonne conduite. A cause de l’amour de Dieu, il tomba malade et les lieux des tourments éternels lui apparurent dans une vision. En conséquence, il soupira, se mit à pleurer et, levant les yeux vers le ciel, il pria :  Mon Maître et mon Dieu guéris moi alors je me repentirai et je T’adorai de ton mon cœur. ", 
-  "وُلِدَ هَذَا القِدّيسْ في قرية أبصونة (أبصونة:قرية قديمة ما زالت بنفس الاسم تابعة لمركز المراغة بِمُحَافَظَةِ سوهاج). كَانَ في شبابه يَعْمَلْ أعمالاً لا تليق، ولمحبة الرَّبْ لَهُ جلب عَلَيْهِ مَرَضَاً ورأى رؤيا نظر فِيهَا مواضع العذاب، فتنهَّد وبكى، ورفع عينيه إلى السماء وقَالَ: \"يا سيدي وإلهي إذا شفيتني فأنا أتوب وأعبدك من كُلَّ قلبي\".", 
+  "وُلِدَ هَذَا القِدّيسْ في قرية أبصونة (أبصونة:قرية قديمة ما زالت بِنَفْسِ الاسم تابعة لمركز المراغة بِمُحَافَظَةِ سوهاج). كَانَ في شبابه يَعْمَلْ أعمالاً لا تليق، ولمحبة الرَّبْ لَهُ جلب عَلَيْهِ مَرَضَاً ورأى رؤيا نظر فِيهَا مواضع العذاب، فتنهَّد وبكى، ورفع عينيه إلى السماء وقَالَ: \"يا سيدي وإلهي إذا شفيتني فأنا أتوب وأعبدك من كُلَّ قلبي\".", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -11215,7 +11215,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de ses prières soit avec nous. Amen !", 
-  "بركة صلواته فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة صلواته فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -11257,7 +11257,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0606&C=Title", 
   "6 Amshir\n1) Martyre des saints Aboukir, Jean ainsi que des trois vierges et de leur mère ;\n2) Décès du pape Marc IV ;\n3) Décès de saint Zânoufyous", 
-  "6 أمشير\nاسْتِشْهَادْ القِدِّيسْينْ أباكير ويوحنا والثلاث عذارى وأمهن\nنِيَاحَةْ البابا مرقس الرابع\nنِيَاحَةْ القِدّيس زانوفيوس\n", 
+  "6 أمشير\nاسْتِشْهَادْ القِدِّيسْينْ أباكير ويوحنا والثلاث عذارى وأمهن\nنِيَاحَةْ البابا مرقس الرابع\nنِيَاحَةْ القِدّيس زانوفيوس", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -11343,8 +11343,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=0706&C=Title", 
-  "7 Amshir\n1) Décès du pape saint Alexandre II ;\n2) Décès du pape saint Théodore 1er\n", 
-  "7 أمشير\nنِيَاحَةْ البابا القِدّيسْ ألكسندروس الثاني\nنِيَاحَةْ البابا القِدّيسْ ثيئودوروس الأول\n", 
+  "7 Amshir\n1) Décès du pape saint Alexandre II ;\n2) Décès du pape saint Théodore 1er", 
+  "7 أمشير\nنِيَاحَةْ البابا القِدّيسْ ألكسندروس الثاني\nنِيَاحَةْ البابا القِدّيسْ ثيئودوروس الأول", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -11395,8 +11395,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=0806&C=Title", 
-  "8 Amshir\n1) Présentation de Jésus Christ au temple ;\n2) Décès de saint Syméon, le vieillard\n", 
-  "8 أمشير\nعيد دخول السَّيْدِ المَسِيحْ إلى الهَيّكَلْ\nنِيَاحَةْ القِدّيسْ سَمْعَانْ الشيخ\n", 
+  "8 Amshir\n1) Présentation de Jésus Christ au temple ;\n2) Décès de saint Syméon, le vieillard", 
+  "8 أمشير\nعيد دخول السَّيْدِ المَسِيحْ إلى الهَيّكَلْ\nنِيَاحَةْ القِدّيسْ سَمْعَانْ الشيخ", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -11457,8 +11457,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=0906&C=Title", 
-  "9 Amshir\n1)Décès de saint Parsouma, le père des moines syriens ;\n2) Martyre de saint Paul le syriaque ;\n3) Martyre de saint Siméon ;\n4) Décès de sainte Euphrosiné\n", 
-  "9 أمشير\nنِيَاحَةْ القِدّيسْ برسوما أب رُهْبَانِ السِرّْيانْ\nاسْتِشْهَادْ القِدّيسْ بُولِسْ السِرّْيانْي\nاسْتِشْهَادْ القِدّيسْ سمعان\nنِيَاحَةْ القِدِّيسَةْ إفروسينا\n", 
+  "9 Amshir\n1)Décès de saint Parsouma, le père des moines syriens ;\n2) Martyre de saint Paul le syriaque ;\n3) Martyre de saint Siméon ;\n4) Décès de sainte Euphrosiné", 
+  "9 أمشير\nنِيَاحَةْ القِدّيسْ برسوما أب رُهْبَانِ السِرّْيانْ\nاسْتِشْهَادْ القِدّيسْ بُولِسْ السِرّْيانْي\nاسْتِشْهَادْ القِدّيسْ سمعان\nنِيَاحَةْ القِدِّيسَةْ إفروسينا", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -11570,7 +11570,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1006&C=Title", 
   "10 Amshir\n1) Martyre de saint Philo, évêque de Perse ;\n2) Martyre de saint Juste, le fils de Numérien ;\n3) Décès de saint Isidore de Péluse", 
-  "10 أمشير\nاسْتِشْهَادْ القِدّيسْ فيلو أُسْقُفْ فارس\nاسْتِشْهَادْ القِدّيسْ يُسْطُسْ ابْنِ المَلِكْ نوماريوس\nنِيَاحَةْ القِدّيسْ إيسوذوروس الفَرمِي\n", 
+  "10 أمشير\nاسْتِشْهَادْ القِدّيسْ فيلو أُسْقُفْ فارس\nاسْتِشْهَادْ القِدّيسْ يُسْطُسْ ابْنِ المَلِكْ نوماريوس\nنِيَاحَةْ القِدّيسْ إيسوذوروس الفَرمِي", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -11642,7 +11642,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1106&C=Title", 
   "11 Amshir\n1) Décès du pape Jean XIII ;\n2) Martyre de saint Fabien, Pape de Rome", 
-  "11 أمشير\nنِيَاحَةْ البابا القِدّيسْ يوأنس الثَالِثْ عشر\nاسْتِشْهَادْ القِدّيسْ فابيانوس بابا رُومَا\n", 
+  "11 أمشير\nنِيَاحَةْ البابا القِدّيسْ يوأنس الثَالِثْ عشر\nاسْتِشْهَادْ القِدّيسْ فابيانوس بابا رُومَا", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -11689,7 +11689,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1206&C=Title", 
   "12 Amshir\n1) Commémoration de l’archange Michel ;\n2) Décès de saint Gélasius, l’ascète", 
-  "12 أمشير\nتِذْكَارْ رئيس المَلائِكَة الجَلْيلْ ميخائيل\nنِيَاحَةْ القِدّيسْ جلاسيوس النَاسِكْ\n", 
+  "12 أمشير\nتِذْكَارْ رئيس المَلائِكَة الجَلْيلْ ميخائيل\nنِيَاحَةْ القِدّيسْ جلاسيوس النَاسِكْ", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -11709,7 +11709,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Ce saint naquit de parents chrétiens qui lui donnèrent une éducation conforme à leur Foi et lui enseignèrent les sciences de l’Eglise. Il fût ordonné diacre puis il devint moine à Scété (برية شهيت).", 
-  " وُلِدَ هَذَا القِدّيسْ مِنْ أَبَوينِ مَسِيحِيَّيْنِ، فربيَّاه تربية مسيحية، وعَلَّمَاهُ علوم الكَنيسَةْ فرُسِمَ شماساً ثُمَّ تَرَهَّبَ في بَرِّيَة شيهيت.", 
+  " وُلِدَ هَذَا القِدّيسْ مِنْ أَبَوينِ مَسِيحِيَّيْنِ، فربيَّاه تربية مسيحية، وعَلَّمَاهُ علوم الكَنيسَةْ فرُسِمَ شماساً ثُمَّ تَرَهَّبَ في بَرِّيَة شِيهِيتْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -11731,7 +11731,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1306&C=Title", 
   "13 Amshir\n1) Martyre de saint Serge d’Atrib, de ses parents, sa sœur et de plusieurs autres personnes ;\n2) Décès du pape Timothée III", 
-  "13 أمشير\nاسْتِشْهَادْ القِدّيسْ سرجيوس الأتريبي وأبيه وأُمُّهُ وأُخْتَهُ وكثيرين معهم\nنِيَاحَةْ البابا القِدّيسْ تِيمُوثَاوُسْ الثالث\n", 
+  "13 أمشير\nاسْتِشْهَادْ القِدّيسْ سرجيوس الأتريبي وأبيه وأُمُّهُ وأُخْتَهُ وكثيرين معهم\nنِيَاحَةْ البابا القِدّيسْ تِيمُوثَاوُسْ الثالث", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -11793,7 +11793,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1406&C=Title", 
   "14 Amshir\n1) Décès de saint Sévère, le patriarche d'Antioche ;\n2) Décès du pape saint Jacques", 
-  "14 أمشير\nنِيَاحَةْ القِدّيسْ ساويرس بطريرك أنطاكية\nنِيَاحَةْ البابا القِدّيسْ يعقوب\n", 
+  "14 أمشير\nنِيَاحَةْ القِدّيسْ ساويرس بطريرك أنطاكية\nنِيَاحَةْ البابا القِدّيسْ يعقوب", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -11833,7 +11833,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Ce père naquit à Nabrouh (نبروه) et ses parents lui donnèrent une bonne éducation chrétienne et une instruction religieuse. Lorsqu’il grandit, il devint moine au monastère de saint Macaire à Scété où il eût une bonne conduite conforme aux usages monastiques.", 
-  "وُلِدَ هَذَا القِدّيسْ في بلدة نبروه (نبروه:قرية بمركز طلخا مُحَافَظَة الدقهلية حَالِيَاً)، فربيَّاه أبواه تَرْبِيَةً مِسِيحِيَّةْ وعَلَّمَاهُ العِلُومِ الكَنَسِيَّة، ولَمَّا كَبُرَ تَرَهَّبَ بِدِيرْ القِدّيسْ مكاريوس ببرية شيهيت فَسَارَ سِيرَةِ رَهْبانِيَّةً فَاضِلَة.", 
+  "وُلِدَ هَذَا القِدّيسْ في بلدة نبروه (نبروه:قرية بمركز طلخا مُحَافَظَة الدقهلية حَالِيَاً)، فربيَّاه أبواه تَرْبِيَةً مِسِيحِيَّةْ وعَلَّمَاهُ العِلُومِ الكَنَسِيَّة، ولَمَّا كَبُرَ تَرَهَّبَ بِدِيرْ القِدّيسْ مكاريوس ببرية شِيهِيتْ فَسَارَ سِيرَةِ رَهْبانِيَّةً فَاضِلَة.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -11855,7 +11855,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1506&C=Title", 
   "15 Amshir\n1) Décès de saint Paphnouté, le moine ;\n2) Martyre du saint prophète Zacharie fils de Bérékya, fils de Iddo ;\n3) Martyre d’abba Pigol, le prêtre ;\n4) Consécration de la 1ère église en l’honneur des quarante martyrs de Sébaste", 
-  "15 أمشير\nنِيَاحَةْ القِدّيسْ بفنوتيوس الراهب\nاسْتِشْهَادْ الصديق زَكَرِيَّا النبي بن بَرَخِيَّا بن عِدُّو\nاسْتِشْهَادْ القِدّيسْ أنبا بيجول القس\nتَكّرْيسِ أَوَّلِ كِنِيسَةْ للأربعين شهيداً الّذِينَ استشهدوا في سبسطية\n", 
+  "15 أمشير\nنِيَاحَةْ القِدّيسْ بفنوتيوس الراهب\nاسْتِشْهَادْ الصديق زَكَرِيَّا النبي بن بَرَخِيَّا بن عِدُّو\nاسْتِشْهَادْ القِدّيسْ أنبا بيجول القس\nتَكّرْيسِ أَوَّلِ كِنِيسَةْ للأربعين شهيداً الّذِينَ استشهدوا في سبسطية", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -11910,7 +11910,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction des prières de ce prophète soit avec nous. Amen !", 
-  "بَرَكِةْ صَلَوَاتْ هَذَا النبي فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بَرَكِةْ صَلَوَاتْ هَذَا النبي فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -11957,7 +11957,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1606&C=Title", 
   "16 Amshir\n1) Décès de sainte Elisabeth, mère de saint Jean le Baptiste ;\n2) Décès du pape Michel III ;\n3) Décès de saint Michel al-Beheiry, l’hygoumène", 
-  "16 أمشير\nنِيَاحَةْ القِدِّيسَةْ أَليصَابَات أُمٍّ القِدّيسْ يُوحَنَّا المعمدان\nنِيَاحَةْ البابا القِدّيسْ ميخائيل الثالث\nنِيَاحَةْ القِدّيسْ القُمُّصْ ميخائيل البحيري المحرقي\n", 
+  "16 أمشير\nنِيَاحَةْ القِدِّيسَةْ أَليصَابَات أُمٍّ القِدّيسْ يُوحَنَّا المعمدان\nنِيَاحَةْ البابا القِدّيسْ ميخائيل الثالث\nنِيَاحَةْ القِدّيسْ القُمُّصْ ميخائيل البحيري المحرقي", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -11987,7 +11987,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de ses prières soit avec nous. Amen !", 
-  "بركة صلواتها فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة صلواتها فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -12096,7 +12096,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1806&C=Title", 
   "18 Amshir\n1) Décès de saint Mélèce le confesseur, Patriarche d’Antioche ;\n2) Consécration de l’église de saint Paul le simple", 
-  "18 أمشير\nنِيَاحَةْ القِدّيسْ ملاتيوس المعترف بطريرك أنطاكية\nتدشين كِنِيسَةْ القِدّيسْ بُولِسْ البسيط\n", 
+  "18 أمشير\nنِيَاحَةْ القِدّيسْ ملاتيوس المعترف بطريرك أنطاكية\nتدشين كِنِيسَةْ القِدّيسْ بُولِسْ البسيط", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -12136,7 +12136,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Ce saint était un simple paysan de la ville d’Atfih (أطفيح) qui se maria à un âge avancé avec une jeune fille. Celle-ci le trompait et il l’a prise sur le fait. Alors, il lui laissa la maison et partit retrouver abba Antoine pour devenir moine et être son disciple. Celui-ci voulut le détourner de sa décision à cause de son grand âge et la difficulté de la vie monacale mais sans résultat.", 
-  "كَانَ بُولِس فَلَّاحَاً بَسِيطَاً من بلدة أطفيح، تزوج وهْوَ في سِنِّ متقدم من شابة صغيرة وكَانَتْ تخونه مَعَ رجال آخرين وفي أحَدْ الأَيَّامْ دخل بَيْتِه فوجد زَوْجَتَهُ في ذَاتَ الفعل فترك لَهَا المنزل وانطلق إلى القِدّيسْ الأنبا أنطونيوس ليتَرَّهَبَ عنده ويتتلمذ عَلَى يَدَيْهِ. حَاوَلَ أنبا أنطونيوس أَنَّ يثنيه عَن هَذَا العزم نظراً لكبر سنه وصعوبة طريق الرَهْبَنَةْ.", 
+  "كَانَ بُولِس فَلَّاحَاً بَسِيطَاً من بلدة أطفيح، تَزَوَّجَ وهْوَ في سِنِّ متقدم من شابة صغيرة وكَانَتْ تخونه مَعَ رجال آخرين وفي أحَدْ الأَيَّامْ دخل بَيْتِه فوجد زَوْجَتَهُ في ذَاتَ الفعل فترك لَهَا المنزل وانطلق إلى القِدّيسْ الأنبا أنطونيوس ليتَرَّهَبَ عنده ويتتلمذ عَلَى يَدَيْهِ. حَاوَلَ أنبا أنطونيوس أَنَّ يثنيه عَن هَذَا العزم نظراً لكبر سنه وصعوبة طريق الرَهْبَنَةْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -12152,8 +12152,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=1906&C=Title", 
-  "19 Amshir\nTranslation à Antioche des reliques de saint Martin, le moine\n", 
-  "19 أمشير\nتِذْكَارْ نَقْلِ أعضاء القِدّيسْ مرتيانوس الرَاهِبْ إلى أنطاكية\n", 
+  "19 Amshir\nTranslation à Antioche des reliques de saint Martin, le moine", 
+  "19 أمشير\nتِذْكَارْ نَقْلِ أعضاء القِدّيسْ مرتيانوس الرَاهِبْ إلى أنطاكية", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -12175,7 +12175,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2006&C=Title", 
   "20 Amshir\n1) Décès du pape saint Pierre II ;\n2) Martyre des saints Basile, Théodore et Timothée", 
-  "20 أمشير\nنِيَاحَةْ البابا القِدّيسْ بُطْرُسْ الثاني\nاسْتِشْهَادْ القِدِّيسْينْ باسيليوس وثاؤدروس وتيموثاوس بِالإسْكَنْدَرِيَّة\n", 
+  "20 أمشير\nنِيَاحَةْ البابا القِدّيسْ بُطْرُسْ الثاني\nاسْتِشْهَادْ القِدِّيسْينْ باسيليوس وثاؤدروس وتيموثاوس بِالإسْكَنْدَرِيَّة", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -12222,7 +12222,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2106&C=Title", 
   "21 Amshir\n1) Commémoration de la sainte vierge Marie ;\n2) Martyre de saint Onésime, le disciple de saint Paul, l’apôtre ;\n3) Décès du pape Gabriel 1er ;\n4) Décès de saint Zacharie, l’évêque de Sakha", 
-  "21 أمشير\nتِذْكَارْ القِدِّيسَةْ العَذْرَاءْ مَرْيَمْ والدة الإله\nاسْتِشْهَادْ القِدّيسْ أُنسيموس تِلْمِيذْ القِدّيسْ بُولِسْ الرسول\nنِيَاحَةْ البابا القِدّيسْ غُبْرِيَالْ الأول\nنِيَاحَةْ القِدّيسْ زخارياس أُسْقُفْ سخا\n", 
+  "21 أمشير\nتِذْكَارْ القِدِّيسَةْ العَذْرَاءْ مَرْيَمْ والدة الإله\nاسْتِشْهَادْ القِدّيسْ أُنسيموس تِلْمِيذْ القِدّيسْ بُولِسْ الرسول\nنِيَاحَةْ البابا القِدّيسْ غُبْرِيَالْ الأول\nنِيَاحَةْ القِدّيسْ زخارياس أُسْقُفْ سخا", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -12232,7 +12232,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que sa sainte intercession soit avec nous. Amen !", 
-  "شفاعتها المُقَدَّسَةْ فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "شفاعتها المُقَدَّسَةْ فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -12302,7 +12302,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Zacharie et son ami furent revêtus de l’habit monastique et se livrèrent à de nombreuses adorations. Ceci eût lieu à l’époque des deux saints : abba Abraham (ابرآم) et abba Gawargah (جاورجي) qui furent pour eux d’excellents guides spirituels.", 
-  "أما زخارياس وصديقه فلبسا الثَّوْبَ الرُهْبَانى وأجهدا نفسيهما في عبادات كَثِيرَةْ، وكَانَ ذَلِكْ في أَيَّامٍ القِدِّيْسَْيْن أبرآم وجاورجي (القديسان أبرآم وجاورجي:من قديسي برية شيهيت في القَرْنِ السابع الميلادي)، اللَذيْن كانَا خير مُرْشِد لَهُمَا.", 
+  "أما زخارياس وصديقه فلبسا الثَّوْبَ الرُهْبَانى وأجهدا نفسيهما في عبادات كَثِيرَةْ، وكَانَ ذَلِكْ في أَيَّامٍ القِدِّيْسَْيْن أبرآم وجاورجي (القديسان أبرآم وجاورجي:من قديسي بَرِّيَّةِ شِيهِيتْ في القَرْنِ السابع الميلادي)، اللَذيْن كانَا خير مُرْشِد لَهُمَا.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -12323,8 +12323,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=2206&C=Title", 
-  "22 Amshir\nDécès de saint Marouthas évêque de Maypherkat\n", 
-  "22 أمشير\nنِيَاحَةْ القِدّيسْ ماروتا أُسْقُفْ ميافرقين\n", 
+  "22 Amshir\nDécès de saint Marouthas évêque de Maypherkat", 
+  "22 أمشير\nنِيَاحَةْ القِدّيسْ ماروتا أُسْقُفْ ميافرقين", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -12350,8 +12350,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=2306&C=Title", 
-  "23 Amshir\nMartyre de saint Eusèbe, le fils du ministre Basilidès\n", 
-  "23 أمشير\nاسْتِشْهَادْ القِدّيسْ أوسابيوس ابْنِ القِدّيسْ واسيليدس الوزير\n", 
+  "23 Amshir\nMartyre de saint Eusèbe, le fils du ministre Basilidès", 
+  "23 أمشير\nاسْتِشْهَادْ القِدّيسْ أوسابيوس ابْنِ القِدّيسْ واسيليدس الوزير", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -12383,7 +12383,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2406&C=Title", 
   "24 Amshir\n1) Décès de saint Agapet l’évêque ;\n2) Martyre de saint Timothée à Gaza et saint Mathias à Qous", 
-  "24 أمشير\nنِيَاحَةْ القِدّيسْ أغابيطوس الأسقف\nاسْتِشْهَادْ القِدِّيسْينْ تِيمُوثَاوُسْ بِمَدِينَةِ غزة ومتياس بِمَدِينَةِ قوص\n", 
+  "24 أمشير\nنِيَاحَةْ القِدّيسْ أغابيطوس الأسقف\nاسْتِشْهَادْ القِدِّيسْينْ تِيمُوثَاوُسْ بِمَدِينَةِ غزة ومتياس بِمَدِينَةِ قوص", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -12430,11 +12430,11 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2506&C=Title", 
   "25 Amshir\n1) Martyre de saint Philémon, de sainte Apphia et de leur fils Archippus ;\n2) Martyre de saint Quona à Rome ;\n3) Martyr de saint Ménas à Qos ;\n4) Décès de saint Fana au mont Délga", 
-  "25 أمشير\nاسْتِشْهَادْ القِدِّيسْينْ فليمون وأبفية وأرخِبُّس ابنهما\nاسْتِشْهَادْ القِدّيسْ قونا بِمَدِينَةِ رُومَا. (أو الشماس قزماس بروما)\nاسْتِشْهَادْ القِدّيسْ مينا بِمَدِينَةِ قوص\nنِيَاحَةْ القِدّيسْ أبو فانا بجبل دلجا\n", 
+  "25 أمشير\nاسْتِشْهَادْ القِدِّيسْينْ فليمون وأبفية وأرخِبُّس ابنهما\nاسْتِشْهَادْ القِدّيسْ قونا بِمَدِينَةِ رُومَا. (أو الشماس قزماس بروما)\nاسْتِشْهَادْ القِدّيسْ مينا بِمَدِينَةِ قوص\nنِيَاحَةْ القِدّيسْ أبو فانا بجبل دلجا", 
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "L'Eglise commémore aujourd'hui le martyre de saint Philémon (فليمون), de sainte Apphia (أبفية), son épouse, et de leur fils Archippus (أرخِبُّس). \n", 
+  "L'Eglise commémore aujourd'hui le martyre de saint Philémon (فليمون), de sainte Apphia (أبفية), son épouse, et de leur fils Archippus (أرخِبُّس). ", 
   "في مِثْلِ هَذا اليَومْ مِنْ سَنَةْ 65م اسْتَشْهَدَ القِدِّيْسْون فليمون وزوجته أبفية وابنهما أرخِبُّس.", 
   ],
   [
@@ -12527,7 +12527,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2606&C=Title", 
   "26 Amshir\n1) Décès du saint prophète Osée ;\n2) Martyres de saint Sâdouk et de ses 128 compagnons ;\n3) Martyre des deux évêque Tyrannion et Silvain ainsi que du prêtre Zénobe et de leurs compagnons dans la ville de Tyr", 
-  "26 أمشير\nنِيَاحَةْ الصِّدِّيق هوشع النبي\nاسْتِشْهَادْ القِدّيسْ صادوق والمائة والثمانية والعشرين الّذِينَ معه\nاسْتِشْهَادْ الأسقفين تيرانيوس وسلوانس والكاهن زينوبيوس ورفاقهم في مَدِينَةِ صور\n", 
+  "26 أمشير\nنِيَاحَةْ الصِّدِّيق هوشع النبي\nاسْتِشْهَادْ القِدّيسْ صادوق والمائة والثمانية والعشرين الّذِينَ معه\nاسْتِشْهَادْ الأسقفين تيرانيوس وسلوانس والكاهن زينوبيوس ورفاقهم في مَدِينَةِ صور", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -12594,7 +12594,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2706&C=Title", 
   "27 Amshir\n1) Décès du saint Eustathe, patriarche d’Antioche ;\n2) Martyre de sainte Perpétue et de ses compagnons", 
-  "27 أمشير\nنِيَاحَةْ القِدّيسْ أوسطاسيوس بطريرك أنطاكية\nاسْتِشْهَادْ القِدِّيسَةْ بِرْبِتْوَا ومَنْ معها\n", 
+  "27 أمشير\nنِيَاحَةْ القِدّيسْ أوسطاسيوس بطريرك أنطاكية\nاسْتِشْهَادْ القِدِّيسَةْ بِرْبِتْوَا ومَنْ معها", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -12665,12 +12665,12 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=2806&C=Title", 
-  "28 Amshir\nTranslation des reliques du martyr saint Théodore l’oriental\n", 
-  "28 أمشير\nنقل أعضاء القِدّيسْ تاوضروس (تادرس) المشرقي الشهيد\n", 
+  "28 Amshir\nTranslation des reliques du martyr saint Théodore l’oriental", 
+  "28 أمشير\nنقل أعضاء القِدّيسْ تاوضروس (تادرس) المشرقي الشهيد", 
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "L'Eglise commémore aujourd'hui la translation des reliques du martyr saint Théodore l’oriental (الامير تادرس المشرقي).\n", 
+  "L'Eglise commémore aujourd'hui la translation des reliques du martyr saint Théodore l’oriental (الامير تادرس المشرقي).", 
   "في مِثْلِ هَذَا اليَومْ تَمَّ نَقْلِ أعضاء القِدّيسْ تاوضروس (تادرس) المشرقي الشهيد.", 
   ],
   [
@@ -12687,8 +12687,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=2906&C=Title", 
-  "29 Amshir\nMartyre de saint Polycarpe, évêque de Smyrne\n", 
-  "29 أمشير\nاسْتِشْهَادْ القِدّيسْ بوليكاربوس أُسْقُفْ سميرنا\n", 
+  "29 Amshir\nMartyre de saint Polycarpe, évêque de Smyrne", 
+  "29 أمشير\nاسْتِشْهَادْ القِدّيسْ بوليكاربوس أُسْقُفْ سميرنا", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -12735,7 +12735,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=3006&C=Title", 
   "30 Amshir\n1) Découverte de la tête de saint Jean le baptiste ;\n2) Décès du pape Cyrille (Kyrillos) VI", 
-  "30 أمشير\nوجود رأس القِدّيسْ يُوحَنَّا المعمدان\nنِيَاحَةْ القِدّيسْ البابا كيرلس السادس\n", 
+  "30 أمشير\nوجود رأس القِدّيسْ يُوحَنَّا المعمدان\nنِيَاحَةْ القِدّيسْ البابا كيرلس السادس", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -12847,7 +12847,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0107&C=Title", 
   "1er Barmahat\n1) Martyre de saint Makronius et de saint Takla ;\n2) Martyre de saint Alexandre le soldat ;\n3) Décès de saint Narcisse, évêque de Jérusalem ;\n4) Décès de saint Markourah, l’évêque ;\n5) Décès du moine Georges (Guiguis) ibn-el-aamid, surnommé ibn-el-makin.", 
-  "1 برمهات\nاستشهاد القديسين مقرنيوس وتكلا\nاستشهاد القِدِّيسْ ألكسندروس الجندي\nنياحة القِدِّيسْ نركيسوس اسقف أورشليم\nاستشهاد القِدِّيسْ مرقورة\nاستشهاد القِدِّيسْ جرجس بن العميد الشهير بابن المكين", 
+  "1 برمهات\nاستشهاد القديسين مقرنيوس وتكلا\nاستشهاد القِدِّيسْ ألكسندروس الجندي\nنِيَاحِةِ القِدِّيسْ نركيسوس اسقف أورشليم\nاستشهاد القِدِّيسْ مرقورة\nاستشهاد القِدِّيسْ جرجس بن العميد الشهير بابن المكين", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -12857,7 +12857,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de ses prières soit avec nous. Amen !", 
-  "بركة صلواتهما فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة صلواتهما فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -12996,7 +12996,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0307&C=Title", 
   "\" Barmahat\n1) Décès du pape Côme III ;\n2) Martyre de saint Perfonios ;\n3) Martyre de saint Porphyre, l’évêque de Gaza ;\n4) Décès d’abba Hadid le prêtre", 
-  "3 برمهات\nنياحة البابا قزما (قسما) الأسكندري\nاستشهاد القديس برفونيوس \nاستشهاد القِدِّيسْ برفوريوس أسقف غزة\nنياحة الأنبا حديد القس\n", 
+  "3 برمهات\nنِيَاحِةِ البابا قزما (قسما) الأسكندري\nاستشهاد القديس برفونيوس \nاستشهاد القِدِّيسْ برفوريوس أسقف غزة\nنِيَاحِةِ الأنبا حديد القس", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -13041,7 +13041,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Ce saint naquit à Thessalonique en l’an 69 des martyrs (353 après Jésus Christ) de parents chrétiens riches spirituellement et matériellement. Ils lui donnèrent une éducation chrétienne et lui apprirent aussi les sciences terrestres. A l’âge de vingt-cinq ans, il partit pour mener la vie érémitique dans la vallée de Scété où il demeura cinq années se consacrant à l’ascèse, la prière et la méditation. Après cela, il s’installa dans une grotte où il s’isola. A force d’ascèse il s’amaigrit et faillit mourir, alors il se rendit à Jérusalem où le Seigneur le guérit.", 
-  "وُلِدَ هَذَا القِدّيسْ سَنَةْ 69 لِلْشُهَداءِ (353م)، في مَدِينَةِ تسالونيكي مِنْ أَبَوينِ مَسيحِيَّيْنْ غنيين بالفضيلة والمال، فربياه عَلَى التعاليم المسيحية، وعَلَّمَاهُ العُلُومِ العالمية. ولَمَّا بَلَغَ الخامسة والعشرين من عمره، اتخذ السيرة الرَهْبَانِيَّة في برية الإسقيط حَيْثُ أمضى خمس سنوات في عيشة النُسْكْ والصَلاةِ والتأمل، ثُمَّ انطلق إلى مغارة منفردة وتنسك فِيهَا حَتَّى نحل جسمه وأشرف عَلَى الموت، فَمَضَى إلى أورشليم حَيْثُ تَمَّ شفاؤه بقوة السَيِّدِ المَسِيحِ.", 
+  "وُلِدَ هَذَا القِدّيسْ سَنَةْ 69 لِلْشُهَداءِ (353م)، في مَدِينَةِ تسالونيكي مِنْ أَبَوينِ مَسيحِيَّيْنْ غنيين بالفضيلة والمال، فربياه عَلَى التعاليم المسيحية، وعَلَّمَاهُ العُلُومِ العالمية. ولَمَّا بَلَغَ الخامسة والعشرين من عمره، اتخذ السيرة الرَهْبَانِيَّة في بَرِّيَّةِ الإسقيط حَيْثُ أمضى خمس سنوات في عيشة النُسْكْ والصَلاةِ والتأمل، ثُمَّ انطلق إلى مغارة منفردة وتنسك فِيهَا حَتَّى نحل جسمه وأشرف عَلَى الموت، فَمَضَى إلى أورشليم حَيْثُ تَمَّ شفاؤه بقوة السَيِّدِ المَسِيحِ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -13050,7 +13050,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "En ces jours il y eut une grande sécheresse et les gens étaient affamés en Palestine, alors les païens offraient des sacrifices à leurs idoles pour qu’il pleuve sans résultat. Ceux-ci se tournèrent alors vers saint Porphyre pour lui demander de prier, alors il le fit. Immédiatement, le ciel se couvrit et il plut abondamment. Un grand nombre crut en Jésus Christ et ils furent baptisés au nom de la sainte Trinité.", 
+  "En ces jours il y eût une grande sécheresse et les gens étaient affamés en Palestine, alors les païens offraient des sacrifices à leurs idoles pour qu’il pleuve sans résultat. Ceux-ci se tournèrent alors vers saint Porphyre pour lui demander de prier, alors il le fit. Immédiatement, le ciel se couvrit et il plut abondamment. Un grand nombre crut en Jésus Christ et ils furent baptisés au nom de la sainte Trinité.", 
   "وفي تلك الأَيَّامْ لَمْ يَنْزِلْ المطر فحدث جوع شديد في بِلادْ فلسطين، فَقَامَ الوثنيون بتقديم الذبائح للآلهة لِكَيّْ يَنْزِلْ المطر، فَلَمْ ينزل. فلجأوا لِلقِدّْيسِ برفوريوس الذي بصلواته أنزل الله المطر فآمن كَثِيرُون مِنَ الوثنيين واعتمدوا بِاسْمِ الثالوث القدوس.", 
   ],
   [
@@ -13075,18 +13075,18 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Il naquit au village de Séngar (سنجار) dans la région d’al-Boroullos (البرلس) de parents pieux. Son père était pêcheur de poissons. Sa mère, qui n’avait pas d’enfant, eut un songe dans lequel un ange lumineux lui annonçait qu’ils auront un fils, que celui-ci sera béni et deviendra un chef pour le peuple. Il lui demanda de le nommer Hadid. Après sa naissance ils firent ce que l’ange avait demandé et l’éduquèrent chrétiennement. Hadid persévéra dans le jeûne et la prière Lorsqu’il grandit il travailla avec son père dans la pêche.", 
+  "Il naquit au village de Séngar (سنجار) dans la région d’al-Boroullos (البرلس) de parents pieux. Son père était pêcheur de poissons. Sa mère, qui n’avait pas d’enfant, eût un songe dans lequel un ange lumineux lui annonçait qu’ils auront un fils, que celui-ci sera béni et deviendra un chef pour le peuple. Il lui demanda de le nommer Hadid. Après sa naissance ils firent ce que l’ange avait demandé et l’éduquèrent chrétiennement. Hadid persévéra dans le jeûne et la prière Lorsqu’il grandit il travailla avec son père dans la pêche.", 
   "وُلِدَ هَذَا القِدّيسْ في قرية سنجار بِالقُرْبِ مِنَ البرلس مِنْ أَبَوينِ تقيين، وكَانَ وَالِدَه يَعْمَلْ صياداً للسمك. لَمْ يكن لَهُمَا ولداً، فرأت أمه رؤيا في اللّيْلِ وإذ مَلاك نوراني يقول لها: \"اعلمي أَنَّ الله سيرزقك ابناً مُبَارَكَاً يَكُونَ رئيساً عَلَى شعبه. ومتى أتم الله وعده تسمينه حديد\". فأتم الله وعده وأنجبت هَذَا القِدّيسْ وأسمته حديد، فرباه والداه عَلَى التعاليم المسيحية، فواظب عَلَى الصوم والصَلاةِ بِلا فتور.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Sa mère voulut le marier mais il refusa. Comme il était réputé pour sa grande vertu, il eut peur de succomber aux pièges du démon et partit se mettre au service de quelqu’un. Il distribuait tout ce qu’il gagnait aux pauvres et servait les nécessiteux pendant ses heures de loisirs.", 
+  "Sa mère voulut le marier mais il refusa. Comme il était réputé pour sa grande vertu, il eût peur de succomber aux pièges du démon et partit se mettre au service de quelqu’un. Il distribuait tout ce qu’il gagnait aux pauvres et servait les nécessiteux pendant ses heures de loisirs.", 
   "ولَمَّا كَبُرَ عرضت عَلَيْهِ أمه الزواج فرفض. كَانَ يَعْمَلْ مَعَ وَالِدَه في صيد السمك، فاشتهرت فضائله، ومن شدة حرصه عَلَى حَيَاةِ القَدَاسَة والاتضاع ذهب وعمل أجيراً، وكَانَ يتصدق بِكُلِّ ما يحصُل عَلَيْهِ ويخدم المحتاجين في أوقات فراغه.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
   "Plus tard il voulut devenir moine dans la vallée de saint Macaire mais la sainte Vierge lui apparut pour lui indiquer que le Seigneur veut qu’il s’installe dans une église qui porte son nom au village de Matoubas-al-Roummane (مطوبس الرمان). Il s’y rendit pour servir dans cette église avec toute humilité tout en persévérant dans la lecture de la sainte Bible.", 
-  "أَرَادَ أَنَّ يمضى ليتَرَّهَبَ في برية القِدّيسْ مكاريوس، ولَكِنَّ العَذْرَاءْ القِدِّيسَةْ مَرْيَمْ ظهرت لَهُ في رؤيا وأعلمته بِأنَّ الرَّبْ أرَادَ لَهُ أَنَّ يقيم في بيعة عَلَى اسْمَهَا في قرية ماطوبس الرمان  (معناها مَكَانِ زراعة الرومان، وهي الآن مركز بنفس الاسم تابع لمحافظة كفر الشيخ)، فَمَضَى إلى الكَنيسَةْ وخدم فِيهَا بأمانة واتضاع مواظباً عَلَى قراءة الكُتُبِ الإلهية.", 
+  "أَرَادَ أَنَّ يمضى ليتَرَّهَبَ في بَرِّيَّةِ القِدّيسْ مكاريوس، ولَكِنَّ العَذْرَاءْ القِدِّيسَةْ مَرْيَمْ ظهرت لَهُ في رؤيا وأعلمته بِأنَّ الرَّبْ أرَادَ لَهُ أَنَّ يقيم في بيعة عَلَى اسْمَهَا في قرية ماطوبس الرمان  (معناها مَكَانِ زراعة الرومان، وهي الآن مركز بِنَفْسِ الاسم تابع لمحافظة كفر الشيخ)، فَمَضَى إلى الكَنيسَةْ وخدم فِيهَا بأمانة واتضاع مواظباً عَلَى قراءة الكُتُبِ الإلهية.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -13095,7 +13095,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Lorsqu’il acheva son bon combat, il eut une forte fièvre et il rendit l’âme. Ses fidèles le regrettèrent et l’ensevelirent avec beaucoup d’honneur.", 
+  "Lorsqu’il acheva son bon combat, il eût une forte fièvre et il rendit l’âme. Ses fidèles le regrettèrent et l’ensevelirent avec beaucoup d’honneur.", 
   "ولَمَّا أكْمَلَ سعيه الحسن أُصيب بحمى شَدِيدَةْ، وعلى أثرها فَاضَتْ روحه، فبكاه شَعْبَهُ وكفنوه بِإكْرَامٍ جَزيلٍ.", 
   ],
   [
@@ -13108,7 +13108,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0407&C=Title", 
   "4 Barmahat\n1) Réunion d’un concile dans l’île de béni-omar ;\n2) Martyre de saint Hanolious, le prince", 
-  "4 برمهات\nمجمع الأربعة عشرية بجزيرة بني عُمَرْ\nاستشهاد القِدِّيسْ هانوليوس الأمير\n", 
+  "4 برمهات\nمجمع الأربعة عشرية بجزيرة بني عُمَرْ\nاستشهاد القِدِّيسْ هانوليوس الأمير", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -13154,8 +13154,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=0507&C=Title", 
-  "5 Barmahat\n1) Décès d'abba Sarapamôn, higoumène du monastère de saint Jean Colobos ;\n2) Commémoration du martyre de sainte Eudoxie\n", 
-  "5 برمهات\nنياحة الأنبا صرابامون أسقف دير أنبا يحنس\nإستشهاد القِدِّيسَة أوذوكسية\nنياحة القِدِّيسْ بطرس القِسّْ\n", 
+  "5 Barmahat\n1) Décès d'abba Sarapamôn, higoumène du monastère de saint Jean Colobos ;\n2) Commémoration du martyre de sainte Eudoxie", 
+  "5 برمهات\nنِيَاحِةِ الأنبا صرابامون أسقف دير أنبا يحنس\nإستشهاد القِدِّيسَة أوذوكسية\nنِيَاحِةِ القِدِّيسْ بطرس القِسّْ", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -13221,8 +13221,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=0607&C=Title", 
-  "6 Barmahat\n1) Martyre de saint Dioscore à l’époque des arabes ;\n2) Décès de saint Théodote, l’évêque et le confesseur\n", 
-  "6 برمهات\nإستشهاد ديسقورس فى زمن العرب\nنياحة ثاؤدوس الأُسْقُفْ المعترف\n", 
+  "6 Barmahat\n1) Martyre de saint Dioscore à l’époque des arabes ;\n2) Décès de saint Théodote, l’évêque et le confesseur", 
+  "6 برمهات\nإستشهاد ديسقورس فى زمن العرب\nنِيَاحِةِ ثاؤدوس الأُسْقُفْ المعترف", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -13268,8 +13268,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=0707&C=Title", 
-  "7 Barmahat\n1) Martyre des saints Philémon et Apollonius ;\n2) Martyre de sainte Marie l’israélite.\n", 
-  "7 برمهات\nاستشهاد أنبا فليمون المغني وأنبا أبلابيوس\nاستشهاد مريم الإسرائيلية\n", 
+  "7 Barmahat\n1) Martyre des saints Philémon et Apollonius ;\n2) Martyre de sainte Marie l’israélite.", 
+  "7 برمهات\nاستشهاد أنبا فليمون المغني وأنبا أبلابيوس\nاستشهاد مريم الإسرائيلية", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -13294,7 +13294,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de ses prières soit avec nous. Amen !", 
-  "بركة صلواتهما فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة صلواتهما فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -13325,8 +13325,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=0807&C=Title", 
-  "8 Barmahat\n1) Martyre de saint Matthias, l’apôtre ;\n2) Décès de saint Julien ;\n3) Martyre de saint Arien, le gouverneur d’Antinoë\n", 
-  "8 برمهات\nاستشهاد متياس الرسول\nنياحة البابا يوليانوس الإسكندري\nاستشهاد إريانوس والي إنصنا\n", 
+  "8 Barmahat\n1) Martyre de saint Matthias, l’apôtre ;\n2) Décès de saint Julien ;\n3) Martyre de saint Arien, le gouverneur d’Antinoë", 
+  "8 برمهات\nاستشهاد متياس الرسول\nنِيَاحِةِ البابا يوليانوس الإسكندري\nاستشهاد إريانوس والي إنصنا", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -13413,7 +13413,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0907&C=Title", 
   "9 Barmahat\n1) Décès de l’évêque saint Konan ;\n2) Martyre des saints Adrien et son épouse ainsi qu’Eusèbe, Arma et quarante martyrs", 
-  "9 برمهات\nنياحة القِدِّيسْ كوش المجاهد العظيم (كونن)\nاستشهاد القديسين أندريانوس ومرتا زَوْجَتَهُ وأوسابيوس والأربعين شهيدًا\n", 
+  "9 برمهات\nنِيَاحِةِ القِدِّيسْ كوش المجاهد العظيم (كونن)\nاستشهاد القديسين أندريانوس ومرتا زَوْجَتَهُ وأوسابيوس والأربعين شهيدًا", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -13432,7 +13432,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Le gouverneur qui avait été nommé par l’empereur Claude (كلوديوس قيصر) entendit parler de ce saint. Il lui suggéra d’adorer les idoles mais Konan refusa et confessa sa Foi en Jésus Christ. En conséquence, le gouverneur le fit torturer. La foule présente attaqua les soldats et délivra le saint. Il fut ramené chez lui et soigné jusqu’à sa guérison. Lorsqu’il eut achevé son bon combat, il décéda en paix. Les chrétiens convertirent sa maison en église et y déposèrent son corps.", 
+  "Le gouverneur qui avait été nommé par l’empereur Claude (كلوديوس قيصر) entendit parler de ce saint. Il lui suggéra d’adorer les idoles mais Konan refusa et confessa sa Foi en Jésus Christ. En conséquence, le gouverneur le fit torturer. La foule présente attaqua les soldats et délivra le saint. Il fut ramené chez lui et soigné jusqu’à sa guérison. Lorsqu’il eût achevé son bon combat, il décéda en paix. Les chrétiens convertirent sa maison en église et y déposèrent son corps.", 
   "سَمِعَ نائب الإمبراطور كلوديوس قيصر، بِخَبْرِ هَذَا القِدِّيْسْ، فَاسْتَحْضَرَهُ وعرض عَلَيْهِ عبادة الأَوْثَانَ، فرفض، وأَقَرَّ بإيمانه بِالسَيِّدِ المَسِيحِِ، فَأمَرَ بربطه وضربه ضرباً شديداً، فوثب الشَّعْبِ الحاضر عَلَى الجُنْدِ وخلَّصوا القِدّيسْ من أيديهم وأتوا بِهِ إلى بيته، وضمدوا جراحه حَتَّى شُفي، ولَمَّا أكْمَلَ جِهَادَهُ الصالح تَنَيَّحَ بِسَلامٍ. فَجَعَلَ المسيحيون داره كِنِيسَةْ ووضعوا جَسَدَهُ فِيهَا.", 
   ],
   [
@@ -13454,8 +13454,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=1007&C=Title", 
-  "10 Barmahat\nCommémoration de la manifestation de la glorieuse croix\n", 
-  "10 برمهات\nظهور الصليب على يد القديسة هيلانة الملكة سنة 326 م\n", 
+  "10 Barmahat\nCommémoration de la manifestation de la glorieuse croix", 
+  "10 برمهات\nظهور الصليب على يد القديسة هيلانة الملكة سنة 326 م", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -13491,8 +13491,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=1107&C=Title", 
-  "11 Barmahat\n1) Martyre de saint Basile, l’évêque de Jérusalem ;\n2) Décès de saint Narcisse, évêque de Jérusalem\n", 
-  "11 برمهات\nاستشهاد باسيلاؤس الأسقف\nنياحة نارسيس أسقف أورشليم\n", 
+  "11 Barmahat\n1) Martyre de saint Basile, l’évêque de Jérusalem ;\n2) Décès de saint Narcisse, évêque de Jérusalem", 
+  "11 برمهات\nاستشهاد باسيلاؤس الأسقف\nنِيَاحِةِ نارسيس أسقف أورشليم", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -13548,8 +13548,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=1207&C=Title", 
-  "12 Barmahat\n1) Commémoration de l’archange Michel ;\n2) Manifestation de la chasteté de saint Démétrios d’Alexandrie ;\n3) Martyre de saint Malachie en Palestine ;\n4) Martyre de saint Glathinos à Damas\n", 
-  "12 برمهات\nالتذكار الشهري لرئيس الملائكة الجليل ميخائيل\nظهور بتولية البابا ديمتريوس الكرَّام\nاستشهاد القِدِّيسْ ملاخى بأرض فلسطين\nاستشهاد القِدِّيسْ جلاذينوس فى دمشق", 
+  "12 Barmahat\n1) Commémoration de l’archange Michel ;\n2) Manifestation de la chasteté de saint Démétrios d’Alexandrie ;\n3) Martyre de saint Malachie en Palestine ;\n4) Martyre de saint Glathinos à Damas", 
+  "12 برمهات\nالتِذْكَارِ الشهري لرئيس الملائكة الجليل ميخائيل\nظهور بتولية البابا ديمتريوس الكرَّام\nاستشهاد القِدِّيسْ ملاخى بأرض فلسطين\nاستشهاد القِدِّيسْ جلاذينوس فى دمشق", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -13559,7 +13559,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de son intercession soit avec nous. Amen !", 
-  "بركة شفاعته المُقَدَّسَةْ فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة شفاعته المُقَدَّسَةْ فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -13615,12 +13615,12 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=1307&C=Title", 
-  "13 Barmahat\n1) Martyre des 40 saints de Sébaste و\n2) Décès de saint Denys le 14ème pape d’Alexandrie ;\n3) Retour de saint Macaire le grand et saint Macaire d’Alexandrie de leur exil\n", 
-  "13 برمهات\nاستشهاد الأربعين شهيدًا بسبسطية\nنياحة البابا ديونيسيوس الأسكندري\nعودة القديسين الأنبا مقاريوس الكبير والأنبا مقاريوس الأسكندري من منفاهما\n", 
+  "13 Barmahat\n1) Martyre des 40 saints de Sébaste و\n2) Décès de saint Denys le 14ème pape d’Alexandrie ;\n3) Retour de saint Macaire le grand et saint Macaire d’Alexandrie de leur exil", 
+  "13 برمهات\nاستشهاد الأربعين شهيدًا بسبسطية\nنِيَاحِةِ البابا ديونيسيوس الأسكندري\nعودة القديسين الأنبا مقاريوس الكبير والأنبا مقاريوس الأسكندري من منفاهما", 
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "En ce jour de l’an 36 des martyrs (320 après Jésus Christ) eut lieu le martyre des quarante saints de Sébaste (الأربعون شهيداً بمدينة سبسطية) en Syrie.", 
+  "En ce jour de l’an 36 des martyrs (320 après Jésus Christ) eût lieu le martyre des quarante saints de Sébaste (الأربعون شهيداً بمدينة سبسطية) en Syrie.", 
   "في مِثْلِ هَذا اليَومْ مِنْ سَنَةْ 36 لِلْشُهَداءِ (320م)، اسْتَشْهَدَ القِدِّيْسْون الأبرار الأربعون شهيداً بِمَدِينَةِ سبسطية بسوريا.", 
   ],
   [
@@ -13650,7 +13650,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "En ce jour de l’an 264 après Jésus Christ eut lieu le décès de saint Denys (ديونيسيوس) le 14ème patriarche de la prédication de saint Marc.", 
+  "En ce jour de l’an 264 après Jésus Christ eût lieu le décès de saint Denys (ديونيسيوس) le 14ème patriarche de la prédication de saint Marc.", 
   "وفيه أيْضَاً مِنْ سَنَةْ 264م تَنَيَّحَ القِدّيسْ البابا ديونيسيوس البَطْرِيَرْكْ الرابع عَشَرْ مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة.", 
   ],
   [
@@ -13685,7 +13685,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Ceci eut lieu en ce jour de l’an 92 des martyrs (376 après Jésus Christ). En effet ils avaient été exilés par l’empereur Arien Valens (والس) à cet endroit dont les habitants étaient païens et ils firent subir aux deux saints de grandes épreuves pendant trois ans. ", 
+  "Ceci eût lieu en ce jour de l’an 92 des martyrs (376 après Jésus Christ). En effet ils avaient été exilés par l’empereur Arien Valens (والس) à cet endroit dont les habitants étaient païens et ils firent subir aux deux saints de grandes épreuves pendant trois ans. ", 
   "وكَانَ قَدْ نفاهما إليها المَلِكْ فالنس الأريوسي. وكَانَ أهل تلك المَدِينَةِ يعبدون الأَوْثَانَ، وقَدْ ألحقوا بالقديسين عذابات شَدِيدَةْ لمدة ثلاث سنوات.", 
   ],
   [
@@ -13696,7 +13696,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Voulant retourner chez eux, ils ne retrouvaient pas leur chemin. Un ange du Seigneur leur apparut et les guida jusqu’à Alexandrie et de là ils allèrent à Scété. A leur arrivée, ils furent reçus avec une grande joie par tous les moines.", 
-  "وعِنْدَمَا أرادا العودة، لَمْ يعرفا الطريق، فظهر لَهُمَا ملاكٌ وسَارَ معهما يرشدهما حَتَّى وصلا إلى الإسْكَنْدَرِيَّة ومِنْهُا إلى برية شيهيت، فلاقاهما الرُهْبانْ بفرح شديد.", 
+  "وعِنْدَمَا أرادا العودة، لَمْ يعرفا الطريق، فظهر لَهُمَا ملاكٌ وسَارَ معهما يرشدهما حَتَّى وصلا إلى الإسْكَنْدَرِيَّة ومِنْهُا إلى بَرِّيَّةِ شِيهِيتْ، فلاقاهما الرُهْبانْ بفرح شديد.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -13707,8 +13707,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=1407&C=Title", 
-  "14 Barmahat\n1) Martyre de saint Chénouda de Bahnassa ;\n2) Martyre des saints Eugène, Agathodore et Elpidius ;\n", 
-  "14 برمهات\nاستشهاد القِدِّيسْ شنودة البهنساوى\nاستشهاد الأباء الاساقفة اوجانيوس وأغابودوس ولانديوس\n", 
+  "14 Barmahat\n1) Martyre de saint Chénouda de Bahnassa ;\n2) Martyre des saints Eugène, Agathodore et Elpidius ;", 
+  "14 برمهات\nاستشهاد القِدِّيسْ شنودة البهنساوى\nاستشهاد الأباء الاساقفة اوجانيوس وأغابودوس ولانديوس", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -13749,8 +13749,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=1507&C=Title", 
-  "15 Barmahat\n1) Décès de sainte Sarah, la moniale ;\n2) Martyre de saint Elias d’Ahnâs\n", 
-  "15 برمهات\nنياحة القديسة سارة الراهبة\nاستشهاد القِدِّيسْ ايلياس الأهناسي", 
+  "15 Barmahat\n1) Décès de sainte Sarah, la moniale ;\n2) Martyre de saint Elias d’Ahnâs", 
+  "15 برمهات\nنِيَاحِةِ القديسة سارة الراهبة\nاستشهاد القِدِّيسْ ايلياس الأهناسي", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -13780,7 +13780,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de ses prières soit avec nous. Amen !", 
-  "بركة صلواتها فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة صلواتها فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -13816,8 +13816,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=1607&C=Title", 
-  "16 Barmahat\n1) Apparition de la sainte Vierge Marie à l’église de sainte Damiana à Choubra au Caire ;\n2) Décès du pape Michel (Khaïl)\n", 
-  "16 برمهات\nنياحة البابا ميخائيل خائيل الـ46\nظهور العذراء مريم بكنيسة الشهيدة دميانة بشبرا", 
+  "16 Barmahat\n1) Apparition de la sainte Vierge Marie à l’église de sainte Damiana à Choubra au Caire ;\n2) Décès du pape Michel (Khaïl)", 
+  "16 برمهات\nنِيَاحِةِ البابا ميخائيل خائيل الـ46\nظهور العذراء مريم بكنيسة الشهيدة دميانة بشبرا", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -13857,7 +13857,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Ce père était moine pieux du monastère de saint Macaire le grand à Scété. Après le décès de son prédécesseur, le pape Théodore (ثيؤدوروس), les évêques, les prêtres et les notables se mirent d’accord pour choisir ce moine pour lui succéder à cause de sa vertu et sa piété. Il fût consacré le 17 Thout 460 des martyrs (743 après Jésus Christ) et il plut pendant trois jours d’affiler après une sécheresse qui avait duré deux ans. Les alexandrins considérèrent cela comme un bon pressage.", 
-  "كَانَ راهباً تَقِيَّاً في دير القِدّيسْ مكاريوس الكبير ببرية شيهيت، فَلَمَّا تَنَيَّحَ البابا ثيئودوروس، اتفق رَأَى الأسَاقِفَةْ والكَهَنَةَ والأراخنة عَلَى اخْتِيَارِ القِدّيسْ خائيل المقاري لرسامته بطريركاً، لما اشْتَهَرَ بِهِ من تقوى وفضيلة وعلم. فأمسكوه رَغْمَاً عَنْهُ وأتوا بِهِ إلى الإسْكَنْدَرِيَّة، وأقاموه بطريركاً يوم 17 توت سَنَةْ 460 لِلْشُهَداءِ (743م)، بِاسْمِ البابا خائيل الأول. وفي يوم الرسامة هطلت الأمطار بغزارة لمدة ثَلاثَةْ أَيَّامٍ بَعْدَ أَنَّ كَانَتْ منقطعة سنتين متواليتين. فاستبشر أهل الإسْكَنْدَرِيَّة خيراً.", 
+  "كَانَ راهباً تَقِيَّاً في دير القِدّيسْ مكاريوس الكبير ببرية شِيهِيتْ، فَلَمَّا تَنَيَّحَ البابا ثيئودوروس، اتفق رَأَى الأسَاقِفَةْ والكَهَنَةَ والأراخنة عَلَى اخْتِيَارِ القِدّيسْ خائيل المقاري لرسامته بطريركاً، لما اشْتَهَرَ بِهِ من تقوى وفضيلة وعلم. فأمسكوه رَغْمَاً عَنْهُ وأتوا بِهِ إلى الإسْكَنْدَرِيَّة، وأقاموه بطريركاً يوم 17 توت سَنَةْ 460 لِلْشُهَداءِ (743م)، بِاسْمِ البابا خائيل الأول. وفي يوم الرسامة هطلت الأمطار بغزارة لمدة ثَلاثَةْ أَيَّامٍ بَعْدَ أَنَّ كَانَتْ منقطعة سنتين متواليتين. فاستبشر أهل الإسْكَنْدَرِيَّة خيراً.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -13883,12 +13883,12 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=1707&C=Title", 
-  "17 Barmahat\n1) Décès de Lazare le bien-aimé du Seigneur ;\n2) Martyre de Sid-hom Bichay à Damiette ;\n3) Décès de saint Basile, le métropolite de Jérusalem ;\n4) Commémoration des saints Georges l'adorateur et de Placios le martyr ainsi que de l'évêque abba Youssef\n", 
-  "17 برمهات\nنياحة لعازر حبيب الرب أسقف قبرص\nاستشهاد سيدهم بشاي بدمياط\nنياحة الأنبا باسيليوس مطران القدس\nتذكار القديسين جرجس العابد وبلاسيوس الشهيد والأنبا يوسف الأسقف\n", 
+  "17 Barmahat\n1) Décès de Lazare le bien-aimé du Seigneur ;\n2) Martyre de Sid-hom Bichay à Damiette ;\n3) Décès de saint Basile, le métropolite de Jérusalem ;\n4) Commémoration des saints Georges l'adorateur et de Placios le martyr ainsi que de l'évêque abba Youssef", 
+  "17 برمهات\nنِيَاحِةِ لعازر حبيب الرب أسقف قبرص\nاستشهاد سيدهم بشاي بدمياط\nنِيَاحِةِ الأنبا باسيليوس مطران القدس\nتِذْكَارِ القديسين جرجس العابد وبلاسيوس الشهيد والأنبا يوسف الأسقف", 
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "En ce jour de l’an 34 après Jésus Christ décéda saint Lazare (لعازر) le juste, le bien-aimé de nôtre Seigneur Jésus.\n", 
+  "En ce jour de l’an 34 après Jésus Christ décéda saint Lazare (لعازر) le juste, le bien-aimé de nôtre Seigneur Jésus.", 
   "في مِثْلِ هَذا اليَومْ مِنْ سَنَةْ 34م، تَنَيَّحَ الصديق البار لعازر حبيب الرَّبْ.", 
   ],
   [
@@ -13909,7 +13909,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction des prières de saint Lazare soit avec nous. Amen !", 
-  "بَرَكِةْ صَلَوَاتْ لعازر البار فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بَرَكِةْ صَلَوَاتْ لعازر البار فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -13929,7 +13929,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Comme il refusait d’abjurer, il fût torturé et trainé dans les rues de la ville. Son ami le Moallem Abanoub Ibrahim (المعلم ألبانوب إبراهيم) qui passait par là tenta de lui porter secours mais ils l’agressèrent et le rouèrent de coups jusqu’à ce qu’il rende l’âme. Puis ils poursuivirent la torture de Sid-hom pendant cinq jours alors qu’il n’arrêtait pas d’invoquer le Christ Jésus et la sainte Vierge. Celle-ci l’assista lorsqu’il rendit l’âme et obtint la couronne du martyre.", 
-  "فَلَمَّا لَمْ يقبل عذبوه وجروه في شوارع المَدِينَةِ. وتصادف مرور صديقه الْمُعَلِّم أبانوب إبراهيم الذي حَاوَلَ إنقاذه، فضربوه هُوَ أيْضَاً عَلَى رأسه بالجريد فمات بَعْدَ ذلك. وظلوا يعذبون القِدّيسْ سيدهم بشاي عَلَى مدى خمسة أَيَّامٍ بعذابات رهيبة وهْوَ يحتمل كُلَّ ذَلِكْ بشكر ويقول: \"يا يَسْوعْ... يا حنونة\". يقَصَدَ العذراء. أخيراً اسْتَوّْدَعَ رُوحَهُ الطَاهِرَةْ بيد الرب، وكَانَتْ العَذْرَاءْمريم حاضرة نِيَاحَتِهِ ونَالَ إكْلْيلْ الشِهَادَة.", 
+  "فَلَمَّا لَمْ يقبل عذبوه وجروه في شوارع المَدِينَةِ. وتصادف مرور صديقه الْمُعَلِّم أبانوب إبراهيم الذي حَاوَلَ إنقاذه، فضربوه هُوَ أيْضَاً عَلَى رأسه بالجريد فمات بَعْدَ ذلك. وظلوا يعذبون القِدّيسْ سيدهم بشاي عَلَى مدى خمسة أَيَّامٍ بعذابات رهيبة وهْوَ يحتمل كُلَّ ذَلِكْ بشكر ويقول: \"يا يَسْوعْ... يا حنونة\". يقَصَدَ العذراء. أخيراً اسْتَوّْدَعَ رُوحَهُ الطَاهِرَةْ بيد الرَبّ، وكَانَتْ العَذْرَاءْمريم حاضرة نِيَاحَتِهِ ونَالَ إكْلْيلْ الشِهَادَة.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -14006,7 +14006,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Alors, le gouverneur entreprit de les torturer puis il ordonna que l’on jette Isidore dans une fournaise. Pendant ce temps celui-ci ne s’arrêtait pas de prier le Seigneur l’implorant d’accueillir son âme et il obtint la couronne du martyre. La mère de Sana pleurait car son fils allait se retrouver seul. A ce moment-là elle vit les anges emportant l’âme de saint Isidore. Elle prit son corps, l’ensevelit et l’enterra.", 
-  "بدأ الوالي في تعذيبهما، فألقى إيسوذوروس في أتون نار وهْوَ يُصَلِّي طالباً مِنَ السَّيْد المَسِيحْ أَنَّ يقبل رُوحَهُ ونَالَ إكْلْيلْ الشِهَادَة. وكَانَتْ والدة القِدّيسْ سنا واقفة تبكي لحرمان ابنها من صديقه فرأت جماعة مِنَ الملائكة تصعد برُوحِ القِدّيسْ إيسوذوروس، فاهتمت بالجسد وكفنته ودفنته.", 
+  "بدأ الوالي في تعذيبهما، فألقى إيسوذوروس في أتون نار وهْوَ يُصَلِّي طالباً مِنَ السَّيْد المَسِيحْ أَنَّ يقبل رُوحَهُ ونَالَ إكْلْيلْ الشِهَادَة. وكَانَتْ والدة القِدّيسْ سنا واقفة تبكي لحرمان ابنها من صديقه فرأت جماعة مِنَ الملائكة تصعد برُوحِ القِدّيسْ إيسوذوروس، فاهتمت بِالجَسَدِ وكفنته ودفنته.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -14065,7 +14065,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2107&C=Title", 
   "21 Barmahat\n1) Commémoration de la mère de Dieu ;\n2) Venue de Notre Sauveur à Béthanie et concertation des grands prêtres pour tuer Lazare, celui que le Seigneur a ressuscité ;\n3) Martyre des saints Théodore et Timothée", 
-  "21 برمهات\nالتذكار الشهري لِوالِدَةِ الإله القِدِّيسَةْ مَرْيَمْ العَذْرَاء\nدخول المخلص بيت عنيا وتشاور عظماء الكهنة على قتل لعازر الصديق الذي أَقَامَهُ الرَبُّ\nاسْتِشْهَادِ القديسين ثاؤدورس وتيموثاوس", 
+  "21 برمهات\nالتِذْكَارِ الشهري لِوالِدَةِ الإله القِدِّيسَةْ مَرْيَمْ العَذْرَاء\nدخول المخلص بيت عنيا وتشاور عظماء الكهنة على قتل لعازر الصديق الذي أَقَامَهُ الرَبُّ\nاسْتِشْهَادِ القديسين ثاؤدورس وتيموثاوس", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -14179,12 +14179,12 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2307&C=Title", 
   "23 Barmahat\nDécès du prophète Daniel, le juste", 
-  "23 برمهات\nنياحة دانيال النبي", 
+  "23 برمهات\nنِيَاحِةِ دانيال النبي", 
   ],
   [
   Prefix.same+"&C=NoActor", 
   "En ce jour nous commémorons le décès du prophète Daniel (دانيال). ", 
-  "في مِثْلِ هَذَا اليَومْ مِنَ السنة الأخيرة لمُلكْ كورش ملك بابل، تَنَيَّحَ الصديق العَظِيمْ دانيال النبي أحَدْ الأنبياء الكبار. ", 
+  "في مِثْلِ هَذَا اليَومْ مِنَ السنة الأَخِيرَةِ لمُلكْ كورش ملك بابل، تَنَيَّحَ الصديق العَظِيمْ دانيال النبي أحَدْ الأنبياء الكبار. ", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -14236,7 +14236,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2407&C=Title", 
   "24 Barmahat\n1) Apparition de la Sainte vierge Marie sur le toit de l'église qui lui est dédiée à Zeitoun ;\n2) Décès du pape saint Macaire 1er", 
-  "24 برمهات\nتجلى العذراء بالزيتون\nنياحة البابا مقاريوس", 
+  "24 برمهات\nتجلى العذراء بالزيتون\nنِيَاحِةِ البابا مقاريوس", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -14271,7 +14271,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Il naquit au village de Choubra (بلدة شبرا) de parents chrétiens. Son père décéda alors qu’il était encore jeune et sa mère l’éleva seule. Puis il désira mener la vie monastique et se fit moine au monastère de saint Macaire à Scété. Sa bonne conduite le rendit digne d'être élu par les évêques, les prêtres et les notables pour succéder au pape abba Côme III (Kosma قسما الثالث). Il fût consacré en l’an 932 après Jésus Christ.", 
-  "وُلِدَ هَذَا القِدّيسْ في بلدة شبرا (قرية قريبة من دمِنْهُور مُحَافَظَة البحيرة) مِنْ أَبَوينِ مَسيحِيَّيْنْ تقيين، تُوُفِيَّ وَالِدَه وهْوَ صغير وأصبح وحيداً لأمه، اشتاق لحياة الرَهْبَنَةْ فتَرَّهَبَ بِدِيرْ القِدّيسْ مكاريوس ببرية شيهيت، فَسَارَ سِيرَةِ صالحة وبَعْدَ نِياحَةْ البابا قسما الثَالِثْ اتفق رَأَى الآبَاءِ الأسَاقِفَةْ والكَهَنَةَ والأراخنة عَلَى اختياره لِيَكُونَ بطريركاً، فرَسَمْوهُ سَنَةْ 932م.", 
+  "وُلِدَ هَذَا القِدّيسْ في بلدة شبرا (قرية قريبة من دمِنْهُور مُحَافَظَة البحيرة) مِنْ أَبَوينِ مَسيحِيَّيْنْ تقيين، تُوُفِيَّ وَالِدَه وهْوَ صغير وأصبح وحيداً لأمه، اشتاق لحياة الرَهْبَنَةْ فتَرَّهَبَ بِدِيرْ القِدّيسْ مكاريوس ببرية شِيهِيتْ، فَسَارَ سِيرَةِ صالحة وبَعْدَ نِياحَةْ البابا قسما الثَالِثْ اتفق رَأَى الآبَاءِ الأسَاقِفَةْ والكَهَنَةَ والأراخنة عَلَى اختياره لِيَكُونَ بطريركاً، فرَسَمْوهُ سَنَةْ 932م.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -14298,7 +14298,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2507&C=Title", 
   "25 Barmahat\n1) Décès de saint Prisca, l’un des 70 disciples ;\n2) Martyre de saint Onésiphore, l’un des 70 disciples ;\n3) Décès du pape Mathieu III", 
-  "25 برمهات\nنياحة القِدِّيسْ فريسكا أَحَدِالسبعين رسولاً\nنياحة القِدِّيسْ أنيسيفوروس أَحَدِ السبعين رسولاً", 
+  "25 برمهات\nنِيَاحِةِ القِدِّيسْ فريسكا أَحَدِالسبعين رسولاً\nنِيَاحِةِ القِدِّيسْ أنيسيفوروس أَحَدِ السبعين رسولاً", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -14370,122 +14370,402 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2607&C=Title", 
   "26 Barmahat\nDécès de sainte Eupraxie, la vierge ;\nDécès du pape Pierre VI", 
-  "26 برمهات", 
+  "S26 برمهات\nنِيَاحِةِ القِدِّيسَةْ براكسيا العذراء\nنياحة القِدّيسْ البابا بُطْرُسْ السادس", 
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "PNous commémorons en ce jour le décès d’une vierge, sainte Eupraxie (براكسية).", 
-  "في مِثْلِ هَذَا اليَومْ تنيَّحت القِدِّيسَةْ براكسيا العذراء. وُلِدَت هَذِهِ القِدِّيسَةْ بِمَدِينَةِ رُومَا مِنْ أَبَوينِ من عظمائها، ومن عائلة المَلِكْ أندريوس، وبَعْدَ وفاة والدها، مضت والدتها إلى مصر لتحصيل أجرة الأراضي التي تركها لَهَا زوجها. وأحضرت مَعْهَا ابنتها وكَانَ عمرها تسع سنوات. فأقامت بِأَحَدِ أديرة العذارى، وكَانَتْ راهبات ذَلِكْ الدير عَلَى غاية مِنَ النُسْكْ والتقشف. فأحبت الصبية حَيَاةِ الرَهْبَنَةْ وطلبت من والدتها أَنَّ تبقى في الدير، وأمام إلحاحها وصدق نواياها قامت الوالدة بتوزيع أموالها عَلَى المَسَاكِينْ، وأقامت مَعْهَا في الدير عدة سِنينَ ثُمَّ تنيَّحت بِسَلامٍ. وعِنْدَمَا سَمِعَ المَلِكْ أندريوس هَذَا الخبر، أَرْسَلَ يطلب القِدِّيْسْة، فأجابته قائلة بأنها قَدْ نذرت نفسها للسيد المسيح. فتعجَّب المَلِكْ من تقواها رغم صغر سنها وتركها. أما هي فعاشت حَيَاةِ فَاضِلَة في نُسْكٍ وعبادة، وكَانَتْ تطوي أَيَّامٍاً في الصوم، وتلبس المسوح وتفترش الأرض، وكَانَتْ تكرس وقتاً لدراسة الكِتَابْ المقدس، مَعَ التَسْبِيح المستمر. فحسدها الشيطان وضربِهَا في رجلها ضربة آلمتها زماناً طويلاً إلى أَنَّ تحنن الرَّبْ عَلَيْهَا وشفاها. وقَدْ أنعم عَلَيْهَا بموهبة شفاء المرضى، وكَانَتْ محبوبة مِنَ الأخوات والأم الرئيسة، لطاعتها العظيمة لهن. ولَمَّا دنت ساعة انتقَالَها، مرضت بحمى شَدِيدَةْ، وقَدْ جلست الراهبات حولها فظلت تشجعهن ثُمَّ رفعت عينيها نَحْوَ السماء ورشمت نفسها بعلامة الصليب، وفَاضَتْ روحها الطَاهِرَةِ. بركة صلواتها فَلْتَكُنْ مَعْنَا. آمْينْ.\nوفيه أيْضَاً مِنْ سَنَةْ 1442 لِلْشُهَداءِ (1726م)، تَنَيَّحَ القِدّيسْ البابا بُطْرُسْ السادس البَطْرِيَرْكْ المائة والرابع مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة. وُلِدَ هَذَا القِدّيسْ في مَدِينَةِ أسيوط، مِنْ أَبَوينِ مَسيحِيَّيْنْ أسمياه (مرجان)، وربياه تربية مسيحية. وكَانَتْ نعمة الله حالة عَلَيْهِ منذ صغره، واختار حَيَاةِ الرَهْبَنَةْ فتَرَّهَبَ بِدِيرْ القِدّيسْ الأنبا أنطونيوس، وكَانَ يجهد نَفْسَهُ في الصلوات والقراءات، ورسمه البابا يوأنس (16) البَطْرِيَرْكْ (103) قِسّاً وعينه رئيساً عَلَى دير الأنبا بولا. ولَمَّا خَلا الكُرْسِي البطريركي، صام الآبَاءِ الأسَاقِفَةْ والكَهَنَةَ والأراخنة وصلوا، فوَقَعَتْ القُرْعَة عَلَيْهِ ورَسَمُوهُ يوم 17 مسرى 1434 لِلْشُهَداءِ (1708م) بطريركاً. فرعى رعيته أَحْسَنْ رعاية، وقَامَ بافتقاد الوجهين البحري والقبلي، ورُسِمَ أساقفة، وبنى كنائس عديدة، واهتم بِأنَّ لا يَكُونَ هُناَكَ تطليق إلا لعلة الزنا. ولَمَّا أكْمَلَ سَعْيَّهُ الصَالِحْ تَنَيَّحَ بِسَلامٍ، فبكاه شعبه، وكفَّنُوهُ ودَفَنُوهُ بِإكْرَامٍ جَزِيلْ في مَقْبَرَةْ الآبَاءِ البطاركة بكنيسة الشَهْيد مرقوريوس أبى سيفين بِمِصْرَ القَدِيمَةِ. بَرَكِةْ صَلَواتُهُ فَلْتَكُنْ مَعْنَا، ولِرَبِنَا المَجْدْ دائِمَاً أبَدِيَّاً آمْينْ.", 
+  "Nous commémorons en ce jour le décès d’une vierge, sainte Eupraxie (براكسية).", 
+  "في مِثْلِ هَذَا اليَومْ تنيَّحت القِدِّيسَةْ براكسيا العذراء.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
   "Ses parents étaient des notables de Rome apparentés à l’empereur André (أندريوس). Après le décès de son père, sa mère se rendit en Egypte avec sa fille qui avait neuf ans pour recevoir les revenus d’un domaine que son mari lui avait laissé. Elle se logea dans un monastère de vierges dont les moniales pratiquaient une ascèse et une abstinence rigoureuses. La fillette aima cette vie et demanda à sa mère avec insistance de rester dans ce monastère. Quand sa mère vit la résolution d’Eupraxie, elle vendit toutes ses propriétés, distribua les revenus aux pauvres et demeura quelques années dans ce monastère puis décéda en paix.", 
-  "", 
+  "وُلِدَت هَذِهِ القِدِّيسَةْ بِمَدِينَةِ رُومَا مِنْ أَبَوينِ من عظمائها، ومن عائلة المَلِكْ أندريوس، وبَعْدَ وفاة والدها، مضت والدتها إلى مصر لتحصيل أجرة الأراضي التي تركها لَهَا زوجها. وأحضرت مَعْهَا ابنتها وكَانَ عمرها تسع سنوات. فأقامت بِأَحَدِ أديرة العذارى، وكَانَتْ راهبات ذَلِكْ الدير عَلَى غاية مِنَ النُسْكْ والتقشف. فأحبت الصبية حَيَاةِ الرَهْبَنَةْ وطلبت من والدتها أَنَّ تبقى في الدير، وأمام إلحاحها وصدق نواياها قامت الوالدة بتوزيع أموالها عَلَى المَسَاكِينْ، وأقامت مَعْهَا في الدير عدة سِنينَ ثُمَّ تنيَّحت بِسَلامٍ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
   "Lorsqu’André apprit la nouvelle, il demanda à la jeune fille de rentrer à Rome mais celle-ci lui répondit qu’elle s’était vouée au Christ et qu’elle ne pouvait pas violer son vœu. L’empereur fût surpris par sa piété malgré son jeune âge et la laissa faire ce qu’elle avait décidé.", 
-  "", 
+  "وعِنْدَمَا سَمِعَ المَلِكْ أندريوس هَذَا الخبر، أَرْسَلَ يطلب القِدِّيْسْة، فأجابته قائلة بأنها قَدْ نذرت نفسها للسيد المسيح. فتعجَّب المَلِكْ من تقواها رغم صغر سنها وتركها.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
   "Eupraxie se conduisit de manière vertueuse. Elle adorait Dieu intensément et pratiquait une ascèse rigoureuse. Pendant le carême, elle jeûnait plusieurs jours d’affilés. Ses vêtements étaient faits d’une étoffe de crin (المسوح) et elle se couchait à même le sol. De plus, elle consacrait du temps pour l’étude de la sainte Bible et chantait la louange en permanence. Satan l’envia, et l’accabla d’une maladie douloureuse à la jambe qui dura longtemps puis le Seigneur l’a prise en pitié et la guérit. Elle avait le don de guérir les malades et était très aimée par ses sœurs les moniales et par la mère supérieure à cause de sa docilité.", 
-  "", 
+  "أما هي فعاشت حَيَاةِ فَاضِلَة في نُسْكٍ وعبادة، وكَانَتْ تطوي أَيَّامٍاً في الصوم، وتلبس المسوح وتفترش الأرض، وكَانَتْ تكرس وقتاً لدراسة الكِتَابْ المقدس، مَعَ التَسْبِيح المستمر. فحسدها الشيطان وضربِهَا في رجلها ضربة آلمتها زماناً طويلاً إلى أَنَّ تحنن الرَّبْ عَلَيْهَا وشفاها. وقَدْ أنعم عَلَيْهَا بموهبة شفاء المرضى، وكَانَتْ محبوبة مِنَ الأخوات والأم الرئيسة، لطاعتها العظيمة لهن.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
   "Lorsque le moment arriva où elle devait quitter ce monde, elle tomba gravement malade. Les sœurs se réunirent autour d’elle mais elle ne cessait pas de les encourager. Puis elle leva les yeux vers le ciel, fit le signe de la Croix et décéda en paix.", 
-  "", 
+  "Pولَمَّا دنت ساعة انتقَالَها، مرضت بحمى شَدِيدَةْ، وقَدْ جلست الراهبات حولها فظلت تشجعهن ثُمَّ رفعت عينيها نَحْوَ السماء ورشمت نفسها بعلامة الصليب، وفَاضَتْ روحها الطَاهِرَةِ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de ses prières soit avec nous. Amen !", 
-  "", 
+  "بركة صلواتها فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
   "En ce jour de l’an 1442 des martyrs (1726 après Jésus Christ) décéda pape Pierre VI (بطرس السادس), le 104ème patriarche de la prédication de saint Marc.", 
-  "", 
+  "Pوفيه أيْضَاً مِنْ سَنَةْ 1442 لِلْشُهَداءِ (1726م)، تَنَيَّحَ القِدّيسْ البابا بُطْرُسْ السادس البَطْرِيَرْكْ المائة والرابع مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
   "Ce père était natif d’Assiout (أسيوط) de parents chrétiens qui le nommèrent Morgân (مرجان) et lui donnèrent une bonne éducation. La grâce de Dieu le comblait dès son plus jeune âge. Lorsqu’il grandit, il se rendit au monastère saint Antoine où il installa et devint moine. Comme il menait une vie de prière et lisait souvent la Bible, il fût ordonné prêtre par abba Jean XVI (يؤنس ١٦), le 103ème patriarche, qui le nomma abbé du monastère de saint Paul (أنبا بولا), le premier des anachorètes (أول السواح).", 
-  "", 
+  "Pوُلِدَ هَذَا القِدّيسْ في مَدِينَةِ أسيوط، مِنْ أَبَوينِ مَسيحِيَّيْنْ أسمياه (مرجان)، وربياه تربية مسيحية. وكَانَتْ نعمة الله حالة عَلَيْهِ منذ صغره، واختار حَيَاةِ الرَهْبَنَةْ فتَرَّهَبَ بِدِيرْ القِدّيسْ الأنبا أنطونيوس، وكَانَ يجهد نَفْسَهُ في الصلوات والقراءات، ورسمه البابا يوأنس (16) البَطْرِيَرْكْ (103) قِسّاً وعينه رئيساً عَلَى دير الأنبا بولا.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
   "Lorsque le siège patriarcal devint vacant, les évêques, les prêtres et les notables jeûnèrent et prièrent puis firent un tirage au sort qui le désigna. Il fût consacré patriarche le 17 Messori 1434 des martyrs (1708 après Jésus Christ). Il prit soin de ses fidèles, visita la basse et la haute Egypte, consacra des évêques et édifia de nombreuses églises. Enfin, il s’assura qu’il n’y ait pas de divorce sauf en cas d’adultère.", 
-  "", 
+  "ولَمَّا خَلى الكُرْسِي البطريركي، صام الآبَاءِ الأسَاقِفَةْ والكَهَنَةَ والأراخنة وصلوا، فوَقَعَتْ القُرْعَة عَلَيْهِ ورَسَمُوهُ يوم 17 مسرى 1434 لِلْشُهَداءِ (1708م) بطريركاً. فرعى رعيته أَحْسَنْ رعاية، وقَامَ بافتقاد الوجهين البحري والقبلي، ورُسِمَ أساقفة، وبنى كنائس عديدة، واهتم بِأنَّ لا يَكُونَ هُناَكَ تطليق إلا لعلة الزنا. ", 
   ],
   [
   Prefix.same+"&C=NoActor", 
   "Lorsqu’il eût accompli son combat sur cette terre, il décéda en paix et fût regretté par l’ensemble du peuple. Ensuite, il fût ensevelit et enterré avec beaucoup de respect à l’église du martyr saint Mercure, le titulaire des deux épées (مرقوريوس ابو سيفين) dans le vieux Caire.", 
-  "", 
+  "ولَمَّا أكْمَلَ سَعْيَّهُ الصَالِحْ تَنَيَّحَ بِسَلامٍ، فبكاه شعبه، وكفَّنُوهُ ودَفَنُوهُ بِإكْرَامٍ جَزِيلْ في مَقْبَرَةْ الآبَاءِ البطاركة بكنيسة الشَهْيد مرقوريوس أبى سيفين بِمِصْرَ القَدِيمَةِ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de ses prières soit avec nous et gloire soit à nôtre Seigneur, éternellement. Amen !", 
-  "", 
+  "بَرَكِةْ صَلَواتُهُ فَلْتَكُنْ مَعْنَا، ولِرَبِنَا المَجْدْ دائِمَاً أبَدِيَّاً آمْينْ.", 
   ],
   ],
   [
   [
   Prefix.synaxarium+"&D=2707&C=Title", 
-  "27 Barmahat", 
-  "27 برمهات", 
+  "27 Barmahat\n1) Commémoration de la crucifixion de notre Seigneur Jésus Christ ;\n2) Décès de saint Macaire le grand ;\n3) Martyre de saint Domikios.", 
+  "27 برمهات\nصَلبِ رَبَنَا يَسْوعْ المَسِيحْ بِالجَسَدِ\nنِيَاحِةِ القِدّيسْ مكاريوس الكَبِير أَبِ رُهْبَانِ بَرِّيَّةِ شِيهِيتْ\nاسْتِشْهَادِ القِدّيسْ دوميكيوس", 
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "\n", 
-  "في مِثْلِ هَذا اليَومْ مِنْ سَنَةْ 34م صُلب ربنا يَسْوعْ المَسِيحْ بالجسد مِنْ أَجْلِ خلاص العالم، وكَانَتْ ظلمة عَلَى الأَرْضِ كلها مِنَ الساعة السادسة إلى الساعة التاسعة، ثُمَّ سلَّم الرَّبْ رُوحَهُ في يَدَيّ الآب فتشققت الصخور، وانشق حجاب الهَيْكَلْ. وأتم الابن بصليبه الخلاص العجيب، فليشملنا ببركاته ويعيننا آمْينْ.\nوفي مِثْلِ هَذا اليَومْ مِنْ سَنَةْ 106 لِلْشُهَداءِ (390م)، تَنَيَّحَ الأبْ المغبوط اللابس الروح، أب رهبان برية شيهيت، القِدّيسْ العَظِيمْ الأنبا مكاريوس الكبير. وُلِدَ هَذَا القِدّيسْ في شنشور مركز منوف سَنَةْ 300م. كَانَ وَالِدَه كاهناً اسْمُهُ إبراهيم، لَمْ يكن لَهُ ولداً ورأى في رؤيا مَلاكُ الرَّبِ يقول لَهُ أَنَّ الله سيرزقه ولداً يَكُونَ ذكره شائعاً في أقطار الأرض، ويصير أبَّاً لبنين روحانيين، وبَعْدَ فترة قصيرة رُزق بهذا القِدّيسْ فسماه مكاريوس أي الطوباوي. وكَانَ مطيعاً لوالديه، فحلَّت عَلَيْهِ نعمة الله. ولَمَّا كَبُرَ زوَّجه وَالِدَه بغير إرادته، فتظاهر بالمرض أَيَّامٍاً ثُمَّ استسمح أباه أَنَّ يمضى إلى البَرِّيَة ليطلب الخلوة والراحة، فسمح له. وفي البَرِّيَة أَبْصَرَ رؤيا كأن كاروباً ذا أجنحة أمسك بيده وأصعده عَلَى رأس الجبل وقَالَ لَهُ \" إن الله قَدْ أعطاك هَذَا الجبل ميراثاً لك ولبنيك من بعدك \". لما عَادَ مِنَ البَرِّيَة وجَدَ أنَّ زَوْجَتَهُ قَدْ تنيَّحت وهي عذراء، وبَعْدَ ذَلِكْ تَنَيَّحَ أبواه، فوزع كُلَّ ما تركاه لَهُ عَلَى الفقراء، ومضى إلى شنشور (إحدى قرى مركز أشمون مُحَافَظَة المنوفية) وسكن فِيهَا. ولَمَّا ذَاعَ صيت فَضَائِلِه أخذوه إلى أُسْقُفْ أشمون فرسمه قِسّاً عَلَى شنشور. وكانوا يأتون إلَيهِ للتناول مِنَ الأسرار المقدسة، وعيَّنوا لَهُ خادماً ليبيع لَهُ عمل يَدَيْهِ وقضاء ما يحتاجه. ولَمَّا رَأَى الشيطان سُموَّه في الفضيلة أوعز إلى فتاة كَانَتْ قَدْ ارتكبت الخطية مَعَ شاب، بِأنَّ تدعى أَنَّ القِسّْ مكاريوس هُوَ الذي ارتكب مَعْهَا هَذَا الشر. فَمَضَى إلَيهِ أهل الفتاة وأهانوه وضربوه وألزموه بِأنَّ يتكفل بالطفل وأمه. فَلَمَّا أتت ساعة الولادة ظلت الفتاة أربعة أَيَّامٍ مُعذَّبة ولَمْ تَلِدْ حَتَّى اعترفت بافترائها عَلَى القِدِّيْسْ. فَرَجِعَ أهل الفتاة يَطْلُبونَ مِنَ القِدّيسْ المغفرة، فهرب، ومضى إلى برية شيهيت وهْوَ في الثلاثين من عمره. وسكن في موضع دير البرموس الحالي. وواظب عَلَى الصَلاةِ والصوم والقراءة والتأمل. ذهب القِدّيسْ لزيارة القِدّيسْ الأنبا أنطونيوس، فاستقبله، وقَالَ له: \" إنك عتيد أَنَّ تصير مغبوطاً كاسمك \"، وألبسه إسكيم الرهبنة، ورجع إلى قلايته. فالتَّفْ حوله كثيرون، وذَاعَ صِيتِه، وسمع الملوك بكثرة العجائب التي كَانَ يعملها. ثُمَّ ظَهَرَ لَهُ مَلاكُ الرَّبِ وأتى بِهِ إلى رأس الجبل عِنْدَ البحيرة الغربية المالحة، وأعْلَمَهُ بِأنَّ يتخذ لَهُ هَذَا المكان سكناً. فبنى لنفسه قلاية وكنيسة، وهي المعروفة حَالِيَاً بِدِيرْ القِدّيسْ مكاريوس. ولَمَّا ازدادت عَلَيْهِ حرب العدو، مَضَى مرة أخرى لأَخَذَ نصائح القِدّيسْ الأنبا أنطونيوس في ما يتعلق بحياته الخاصة، وأيضاً في ما يختص بالرهبان الّذِينَ تتلمذوا عَلَى يَدَيْهِ. وقَدْ واجه هَذَا الأبْ شدائد كَثِيرَة في سبيل دفاعه عَن الإيمان القويم في عَهْدِ الإمبراطور فالنس الأريوسي، الذي نَفَاهُ إلى جزيرة فيلة جنوب أسوان، وهُنَاكَ أنقذ ابْنَةْ كَاهِنْ الأَوْثَانَ من شيطان كَانَ يعذبها، فآمن هُوَ وكل سكان الجزيرة بِالسَيِّدِ المَسِيحِ. وبعدها عَادَ إلى ديره. تميز هَذَا القِدّيسْ باتضاعه ومحبته لأولاده وطول أناته عليهم، وكَانَ يستر عَلَى عيوبهم. حَتَّى جاءه صوت مِنَ السماء يقول: \" طوباك يا مكاريوس الروحاني يا من تشبَّهت بخالقك، تستُر العيوب مثله \". ولَمَّا أكْمَلَ جِهَادَهُ الحسن، حضر القِدِّيْسْان أنطونيوس وباخوميوس وجماعة مِنَ الملائكة والقديسين، واستودع رُوحَهُ الطَاهِرَةْ بيد الرَّبْ عَن عمر يناهز التسعين عاماً ومازال جَسَدَهُ بديره العامر ببرية شيهيت. بَرَكِةْ صَلَوَاتُهُ فَلْتَكُنْ مَعْنَا، آمْينْ.\nوفيه أيْضَاً مِنْ سَنَةْ 78 لِلْشُهَداءِ (362م)، اسْتَشْهَدَ القِدّيسْ دوميكيوس. كَانَ من أهل أنطاكية، عائشاً في النُسك والتقوى، منفرداً في مَكَانِ منعزل، وقَدْ ذَاعَ صيته إذ وهبه الله عمل معجزات الشفاء وإِخْرَاجِ الشياطين، فكَانَتْ الجموع تتقاطر حوله ملتمسة البركة والشفاء. وأَثْنَاءِ مرور الإمبراطور يوليانوس الوثني رَأَى هَذِهِ الجموع وعَرِفَ بِخَبْرِ هَذَا القِدِّيْسْ، فغَضِبَ واستحضره وقَالَ لَهُ \" إن كنت تقيم في هَذِهِ المغارة لتنال رضى الله، فلماذا تتوخى رضى الناس ؟ ولماذا لا تختفي عنهم؟ \". فأجابه القِدّيسْ قائلاً \" لقد سلمت نفسي وجسدي في يَدَيّ الله إله السماوات والأرض الرَّبْ يَسْوعْ المسيح. وقضيت عدة سِنينَ معتزلاً في هَذِهِ المغارة، أما هَذِهِ الجماهير الّذِينَ يأتون عندي بإيمان قوى فلا أستطيع أَنَّ أطردهم \". فَلَمَّا سَمِعَ الإمبراطور إجابته أَمَرَ جنوده أَنَّ يسدّوا باب المغارة عليه، ففَاضَتْ رُوحَهُ ونَالَ إكْلْيلْ الشِهَادَة. بَرَكِةْ صَلَواتُهُ فَلْتَكُنْ مَعْنَا، ولِرَبِنَا المَجْدْ دائِمَاً أبَدِيَّاً آمْينْ.\n", 
+  "En ce jour de l’an 34 après la nativité de notre Seigneur Jésus Christ eût lieu Sa crucifixion pour le salut du monde.", 
+  "في مِثْلِ هَذا اليَومْ مِنْ سَنَةْ 34م صُلب ربنا يَسْوعْ المَسِيحْ بِالجَسَدِ مِنْ أَجْلِ خلاص العالم.", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "L’Evangile nous apprend que l'obscurité se fit sur toute la terre de la sixième heure jusqu’à la neuvième heure puis son âme quitta son corps. Le rideau du Sanctuaire se déchira en deux, depuis le haut jusqu’en bas ; la terre trembla et les rochers se fendirent. Les tombeaux s’ouvrirent ; les corps de nombreux saints qui étaient morts ressuscitèrent. Par Sa crucifixion le Fils accomplit le mystère du Salut.", 
+  "وكَانَتْ ظلمة عَلَى الأَرْضِ كلها مِنَ الساعة السادسة إلى الساعة التاسعة، ثُمَّ سلَّم الرَّبْ رُوحَهُ في يَدَيّ الآب فتشققت الصخور، وانشق حجاب الهَيْكَلْ. وأتم الابن بصليبه الخلاص العجيب.", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "Que Ses bénédictions soient avec nous. Amen !", 
+  "فليشملنا ببركاته ويعيننا آمْينْ.", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "En ce jour de l’an 106 des martyrs (390 après Jésus Christ) eût lieu le décès de saint Macaire le grand (أنبا مكاريوس الكبير), le Pneumatophore (porteur de l’Esprit لابس الروح), le père des moines de Scété.", 
+  "وفي مِثْلِ هَذا اليَومْ مِنْ سَنَةْ 106 لِلْشُهَداءِ (390م)، تَنَيَّحَ الأبْ المغبوط اللابس الروح، أب رهبان بَرِّيَّةِ شِيهِيتْ، القِدّيسْ العَظِيمْ الأنبا مكاريوس الكبير.", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "Ce saint est né à Chabchir (شبشير) du district de Ménouf (مركز منوف). Son père était un prêtre qui se prénommait Abraham et n’avait aucun enfant. Une nuit il eût une vision au cours de laquelle l’ange du Seigneur lui annonçait qu’il aura un fils, et que la réputation de ce dernier sera répandue sur toute la terre et qu’il aura de nombreux enfants spirituels. Quelques temps plus tard, Abraham eût un fils qu’il nomma Macaire, c'est-à-dire le bienheureux. Macaire était obéissant envers ses parents et la grâce de Dieu le remplit dès son enfance. Lorsqu’il grandit, son père le maria contre sa volonté. Il simula la maladie puis prit l’autorisation de son père d’aller quelques jours dans le désert pour faire une retraite et se reposer. Dans le désert Macaire eût une vision dans laquelle un Chérubin (كاروباً) le prenait par la main pour le conduire au sommet d’une montagne du haut de laquelle il lui montra l’étendue du désert tout autour d’eux en lui disant que Dieu lui donne cette montagne en héritage pour lui ainsi que pour ses enfants qui lui succéderont.", 
+  "وُلِدَ هَذَا القِدّيسْ في شنشور مركز منوف سَنَةْ 300م. كَانَ وَالِدَه كاهناً اسْمُهُ إبراهيم، لَمْ يكن لَهُ ولداً ورأى في رؤيا مَلاكُ الرَّبِ يقول لَهُ أَنَّ الله سيرزقه ولداً يَكُونَ ذكره شائعاً في أقطار الأرض، ويصير أبَّاً لبنين روحانيين، وبَعْدَ فترة قصيرة رُزق بهذا القِدّيسْ فسماه مكاريوس أي الطوباوي. وكَانَ مطيعاً لوالديه، فحلَّت عَلَيْهِ نعمة الله. ولَمَّا كَبُرَ زوَّجه وَالِدَه بغير إرادته، فتظاهر بالمرض أَيَّامٍاً ثُمَّ استسمح أباه أَنَّ يمضى إلى البَرِّيَة ليطلب الخلوة والراحة، فسمح له. وفي البَرِّيَة أَبْصَرَ رؤيا كأن كاروباً ذا أجنحة أمسك بيده وأصعده عَلَى رأس الجبل وقَالَ لَهُ: \"إن الله قَدْ أعطاك هَذَا الجبل ميراثاً لك ولبنيك من بعدك\".", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "A son retour, il trouva que sa jeune épouse était déjà morte en étant encore vierge. Quelques temps plus tard ses parents décédèrent et il distribua aux pauvres tout ce qu’ils lui laissèrent en héritage et s’installa à Chânchour (شنشور). Les habitants de cette ville ayant constaté sa pureté et sa chasteté le conduisirent auprès de l’évêque d’Achmoun (أشمون) qui l’ordonna prêtre. Ils venaient à lui pour communier aux saints sacrements. Puis ils désignèrent pour lui un serviteur qui vendait le fruit de son labeur et lui achetait ce dont il avait besoin.", 
+  "لما عَادَ مِنَ البَرِّيَة وجَدَ أنَّ زَوْجَتَهُ قَدْ تنيَّحت وهي عذراء، وبَعْدَ ذَلِكْ تَنَيَّحَ أبواه، فوزع كُلَّ ما تركاه لَهُ عَلَى الفقراء، ومضى إلى شنشور (إحدى قرى مركز أشمون مُحَافَظَة المنوفية) وسكن فِيهَا. ولَمَّا ذَاعَ صيت فَضَائِلِه أخذوه إلى أُسْقُفْ أشمون فرسمه قِسّاً عَلَى شنشور. وكانوا يأتون إلَيهِ للتناول مِنَ الأسرار المقدسة، وعيَّنوا لَهُ خادماً ليبيع لَهُ عمل يَدَيْهِ وقضاء ما يحتاجه.", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "Lorsque Satan constata sa haute spiritualité, il incita une jeune fille qui avait péché avec un jeune homme de prétendre que saint Macaire était le père de l’enfant. Il fut alors pris à partie par les parents de la jeune fille qui l’humilièrent et le battirent et le forcèrent à prendre en charge la jeune fille et l’enfant. Le temps de l'accouchement étant arrivé, les douleurs se prolongèrent durant quatre jours. Alors, la jeune femme avoua sa médisance envers le saint. Ses parents voulurent lui demander pardon mais il leur échappa et alla à la vallée de Scété. Il avait alors trente ans. Il s’installa à l’endroit où se trouve actuellement le monastère d’al-Baramous et s’adonna à la prière, le jeûne, la lecture des saintes Ecritures ainsi que la méditation.", 
+  "Pولَمَّا رَأَى الشيطان سُموَّه في الفضيلة أوعز إلى فتاة كَانَتْ قَدْ ارتكبت الخطية مَعَ شاب، بِأنَّ تدعى أَنَّ القِسّْ مكاريوس هُوَ الذي ارتكب مَعْهَا هَذَا الشر. فَمَضَى إلَيهِ أهل الفتاة وأهانوه وضربوه وألزموه بِأنَّ يتكفل بالطفل وأمه. فَلَمَّا أتت ساعة الولادة ظلت الفتاة أربعة أَيَّامٍ مُعذَّبة ولَمْ تَلِدْ حَتَّى اعترفت بافترائها عَلَى القِدِّيْسْ. فَرَجِعَ أهل الفتاة يَطْلُبونَ مِنَ القِدّيسْ المغفرة، فهرب، ومضى إلى بَرِّيَّةِ شِيهِيتْ وهْوَ في الثلاثين من عمره. وسكن في موضع دير البرموس الحالي. وواظب عَلَى الصَلاةِ والصوم والقراءة والتأمل.", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "Plus tard il rendit visite à saint Antoine le grand. Celui-ci le reçut en lui disant qu’il sera bienheureux comme son nom l’indique puis le revêtit du Schème des moines (إسكيم الرهبانة) et saint Macaire retourna dans sa cellule. Il fut rapidement entouré par un grand nombre. Sa bonne réputation se répandit et beaucoup de rois entendirent parler des miracles qu’il faisait.", 
+  "ذهب القِدّيسْ لزيارة القِدّيسْ الأنبا أنطونيوس، فاستقبله، وقَالَ له: إنك عتيد أَنَّ تصير مغبوطاً كاسمك ، وألبسه إسكيم الرهبنة، ورجع إلى قلايته. فالتَّفْ حوله كثيرون، وذَاعَ صِيتِه، وسمع الملوك بكثرة العجائب التي كَانَ يعملها.", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "L’ange du Seigneur lui apparut un jour, le mena au sommet de la montagne près du lac salé occidental, lui demanda de s’installer à cet endroit. Alors saint Macaire construisit une cellule et une église. Il s’agit du monastère actuel de saint Macaire. Lorsque les attaques de Satan s’intensifièrent, il retourna auprès d’abba Antoine pour lui demander ses conseils pour lui-même et pour les moines qui l’entouraient. Ce père dût supporter beaucoups de difficultés provoquées par l’empereur Valens qui faisait partie des adeptes d’Arius. Celui-ci l’expulsa dans l’île de Philae (فيلة) au sud d’Assouan. Dans cette île il convertit le prêtre païen et tous les habitants après avoir sauvé la fille de ce dernier du démon qui la torturait. Par la suite il retourna à son monastère.", 
+  "ثُمَّ ظَهَرَ لَهُ مَلاكُ الرَّبِ وأتى بِهِ إلى رأس الجبل عِنْدَ البحيرة الغربية المالحة، وأعْلَمَهُ بِأنَّ يتخذ لَهُ هَذَا المكان سكناً. فبنى لنفسه قلاية وكنيسة، وهي المعروفة حَالِيَاً بِدِيرْ القِدّيسْ مكاريوس. ولَمَّا ازدادت عَلَيْهِ حرب العدو، مَضَى مرة أخرى لأَخَذَ نصائح القِدّيسْ الأنبا أنطونيوس في ما يتعلق بحياته الخاصة، وأيضاً في ما يختص بالرهبان الّذِينَ تتلمذوا عَلَى يَدَيْهِ. وقَدْ واجه هَذَا الأبْ شدائد كَثِيرَة في سبيل دفاعه عَن الإيمان القويم في عَهْدِ الإمبراطور فالنس الأريوسي، الذي نَفَاهُ إلى جزيرة فيلة جنوب أسوان، وهُنَاكَ أنقذ ابْنَةْ كَاهِنْ الأَوْثَانَ من شيطان كَانَ يعذبها، فآمن هُوَ وكل سكان الجزيرة بِالسَيِّدِ المَسِيحِ. وبعدها عَادَ إلى ديره.", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "Ce saint a été réputé pour son humilité et son amour pour ses enfants spirituels. Il était patient envers eux et occultait leurs défauts. Une voix lui parvint du ciel et lui dit : « Bienheureux es-tu Macaire car, dans ta spiritualité, tu recouvres les défauts comme ton créateur l’a fait. »", 
+  "تميز هَذَا القِدّيسْ باتضاعه ومحبته لأولاده وطول أناته عليهم، وكَانَ يستر عَلَى عيوبهم. حَتَّى جاءه صوت مِنَ السماء يقول: \"طوباك يا مكاريوس الروحاني يا من تشبَّهت بخالقك، تستُر العيوب مثله\".", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "Lorsqu’il eût achevé son bon combat, saint Antoine et saint Pacôme lui rendirent visite accompagnés d’un groupement d’anges et de saints. Alors il rendit son âme entre les mains du Seigneur après avoir atteint l’âge de 90 ans environ. Son corps se trouve toujours à son monastère dans la vallée de Scété.", 
+  "ولَمَّا أكْمَلَ جِهَادَهُ الحسن، حضر القِدِّيْسْان أنطونيوس وباخوميوس وجماعة مِنَ الملائكة والقديسين، واستودع رُوحَهُ الطَاهِرَةْ بيد الرَّبْ عَن عمر يناهز التسعين عاماً ومازال جَسَدَهُ بديره العامر ببرية شِيهِيتْ.", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "Que la bénédiction de ses prières soit avec nous. Amen !", 
+  "بَرَكِةْ صَلَوَاتُهُ فَلْتَكُنْ مَعْنَا، آمْينْ.", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "En ce jour de l’an 78 des martyrs (362 après Jésus Christ) eût lieu le martyre de saint Domikios (دوميكيوس).", 
+  "وفيه أيْضَاً مِنْ سَنَةْ 78 لِلْشُهَداءِ (362م)، اسْتَشْهَدَ القِدّيسْ دوميكيوس.", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "Ce saint était originaire d’Antioche où il s’était isolé et vivait pieusement en pratiquant l’ascétisme. Il était très réputé à cause des miracles qu’il avait reçu le don de faire. De plus, il guérissait les malades et chassait les démons. ", 
+  "كَانَ من أهل أنطاكية، عائشاً في النُسك والتقوى، منفرداً في مَكَانِ منعزل، وقَدْ ذَاعَ صيته إذ وهبه الله عمل معجزات الشفاء وإِخْرَاجِ الشياطين، فكَانَتْ الجموع تتقاطر حوله ملتمسة البركة والشفاء.", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "Lorsque julien l’apostat passa par-là, il aperçut l’attroupement et s’informa au sujet de ce saint. Il se mit en colère, le convoqua et lui dit : « Si tu demeures dans cette caverne pour plaire à Dieu, pourquoi cherches-tu à plaire aux hommes ? Pourquoi ne te caches-tu pas d’eux ? » Le saint lui répondit : « Je me suis offert corps et âme à Dieu, le Dieu du ciel et de la terre, le Seigneur Jésus Christ. J’ai vécu de nombreuses années reclus dans cette caverne. Toutefois il m’est impossible de chasser cette foule qui est venue animée d’une Foi profonde. » Ayant entendu cela, l’empereur ordonna à ses soldats d’enfermer le saint dans la caverne et de l’emmurer. En conséquence, il rendit l’âme et obtint la couronne du martyre.", 
+  "وأَثْنَاءِ مرور الإمبراطور يوليانوس الوثني رَأَى هَذِهِ الجموع وعَرِفَ بِخَبْرِ هَذَا القِدِّيْسْ، فغَضِبَ واستحضره وقَالَ لَهُ: \"إن كنت تقيم في هَذِهِ المغارة لتنال رضى الله، فلماذا تتوخى رضى الناس؟ ولماذا لا تختفي عنهم؟\". فأجابه القِدّيسْ قائلاً: \"لقد سلمت نفسي وجسدي في يَدَيّ الله إله السماوات والأرض الرَّبْ يَسْوعْ المسيح. وقضيت عدة سِنينَ معتزلاً في هَذِهِ المغارة، أما هَذِهِ الجماهير الّذِينَ يأتون عندي بإيمان قوى فلا أستطيع أَنَّ أطردهم\". فَلَمَّا سَمِعَ الإمبراطور إجابته، أَمَرَ جنوده أَنَّ يسدّوا باب المغارة عليه، ففَاضَتْ رُوحَهُ ونَالَ إكْلْيلْ الشِهَادَة.", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "Que la bénédiction de ses prières soit avec nous et gloire soit à notre Seigneur, éternellement. Amen ! ", 
+  "بَرَكِةْ صَلَواتُهُ فَلْتَكُنْ مَعْنَا، ولِرَبِنَا المَجْدْ دائِمَاً أبَدِيَّاً آمْينْ.", 
   ],
   ],
   [
   [
   Prefix.synaxarium+"&D=2807&C=Title", 
-  "28 Barmahat", 
-  "28 برمهات", 
+  "28 Barmahat\n1) Décès de l’empereur Constantin le grand ;\n2) Décès du pape Pierre (Boutros) VII ;\n3) Commémoration d’Abba Sarabamôn, surnommé abou Tarha (le voilé).", 
+  "28 برمهات\nنِيَاحِةِ الإمبراطور قسطنطين الكبير\nنِيَاحِةِ البابا بطرس السابع\nنِيَاحِةِ الأنبا صرابامون أُسْقُفْ المنوفية الشهير بأبي طرحة", 
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Fête de l’annonciation - Commémoration de la résurrection du Christ d’entre les morts.\n1. Fête de l’annonciation.\nL’Eglise commémore en ce jour la fête de « l’annonciation », c’est-à-dire l’annonce faite à nôtre Dame, la très sainte Vierge Marie, la Mère de Dieu. En effet, lorsque vint la plénitude des temps établis par Dieu avant tous les siècles pour le Salut du genre humain, « l’ange Gabriel fût envoyé par Dieu dans une ville de Galilée, appelée Nazareth, une vierge, accordée en mariage à un homme de la maison de David, appelé Joseph ; et le nom de la vierge était Marie. L’ange entra chez elle et dit : « Je te salue, Comblée-de-grâce, le Seigneur est avec toi, Tu es bénie entre toutes les femmes. » À cette parole, elle fût toute bouleversée, et elle se demandait ce que pouvait signifier cette salutation. L’ange lui dit alors : « Sois sans crainte, Marie, car tu as trouvé grâce auprès de Dieu. Voici que tu vas concevoir et enfanter un fils ; tu lui donneras le nom de Jésus. Il sera grand, il sera appelé Fils du Très-Haut ; le Seigneur Dieu lui donnera le trône de David son père ; il régnera pour toujours sur la maison de Jacob, et son règne n’aura pas de fin. » Marie dit à l’ange : « Comment cela va-t-il se faire puisque je ne connais pas d’homme ? » L’ange lui répondit : « L’Esprit Saint viendra sur toi, et la puissance du Très-Haut te prendra sous son ombre ; c’est pourquoi celui qui va naître sera saint, il sera appelé Fils de Dieu. ... ... Car rien n’est impossible à Dieu. » Marie dit alors : « Voici la servante du Seigneur ; que tout m’advienne selon ta parole. » Alors l’ange la quitta. » Dès lors le Fils unique, le Verbe de Dieu vint en elle par un grand mystère.\nCette fête est donc la première de toutes les fêtes (بكر الاعياد) car c’est par elle que le Salut de l’humanité a été proclamé.\nQue la bénédiction de l’annonce du Salut soit avec nous. Amen !\n Précision ajoutée lors de la traduction.\nLc 1 : 26 – 38.\n2. Commémoration de la résurrection du Christ d’entre les morts.\nEn ce jour de l’an 34 après la nativité de Jésus Christ le Seigneur a accompli le Salut et la Rédemption par Sa sainte Résurrection d’entre les morts. Ainsi il devint le premier ressuscité parmi ceux qui se sont endormis.\nImplorons nôtre Dieu très-bon de nous ressusciter de la mort du péché et qu’Il nous remette nos iniquités. A Lui est due la gloire éternellement. Amen ! \n 1 Co 15 : 20 (nouvelle traduction liturgique).\n	", 
-  "في مِثْلِ هَذا اليَومْ مِنْ سَنَةْ 53 لِلْشُهَداءِ (337م)، تَنَيَّحَ المَلِكْ قسطنطين الكبير. وُلِدَ سَنَةْ 274م واسم أبيه قونسطا وأُمُّهُ القِدِّيسَةْ هيلانة. وفي الفَتْرَة التي كَانَ فِيهَا أبوه ملكاً عَلَى بيزنطية كَانَ مكسيمانوس ملكاً عَلَى رُومَا ودقلديانوس ملكاً عَلَى أنطاكية ومصر. وكَانَ وَالِدَه قونسطا وثنياً إلا إنه كَانَ رحوماً مُحِبّاً للخير. وحَدَثَ أَنَّهُ مَضَى إلى الرها وهُنَاكَ رَأَى هيلانة فتزوجها، وكَانَتْ مسيحية وأنجبت قسطنطين وربته تربية حَسَنَة وكَانَتْ تبث في قلبه الرحمة والشفقة عَلَى المَسِيحِيِّين، ولَمَّا كَبُرَ تزوج ابْنَةْ مكسيمانوس قيصر بَعْدَ وفاة وَالِدَه سَنَةْ 306م، فأعطاه لقب قيصر فتسلم المملكة ونشر العدل والإنصاف فأحبه الجميع. تأهب قسطنطين المَلِكْ لمحاربة مكسنديوس ملك إيطاليا وطَلَبَ مِنَ المَسِيحِيّينْ أَنَّ يُصلّوا من أجله. وفي أَثْنَاءَ الحرب رَأَى في السماء في نصف النهار صليباً منيراً جداً مكوناً من كواكب مكتوباً أسفله باللغة اليونانية \" بهذا تغلب \"، وكَانَ ضياؤه يشع أَكْثَرَ من نور الشمس، فأراه لوزرائه وقادة جيشه، ثُمَّ أَمَرَ بعمل علم كَبِيرْ ورُسِمَ عَلَيْهِ علامة الصليب. ثُمَّ شن الحرب عَلَى مكسنديوس فهزمه وأغرقه في نهر التيبر هُوَ وغالبية جنوده، ودخل قسطنطين رُومَا فاستقبله أهلها بالفرح والتهليل، وأصبح قسطنطين ملكاً عَلَى الشَّرْقِ والغرب. ولَمَّا استقر بِهِ المقَامَ في رُومَا أصدر أمراً في سائر أنحاء المملكة بإطلاق المَسِيحِيّينْ المسجونين بِسَبَبِ إيمانهم، كَمَا أَمَرَ أَنَّ لا يشتغل أحَدْ في أسبوع الآلام كأوامر الرسل. كَمَا أَرْسَلَ أمه الملكة هيلانة إلى أورشليم للبحث عَن الصليب المقدس، فوجدته وبنت كِنِيسَةْ القيامة، ووضعت فِيهَا الصليب. وفي السِنِّة السابعة عَشَرْ من ملكه والتي توافق 325م اجْتَمَعَ المَجْمَعْ المُقَدّسْ المسكوني الأَوَّلْ في مَدِينَةِ نيقية الذي حَرَّمْ بدعة أريوس وأصدر قانون الإيمان النيقاوي مَعَ عَدَدَ مِنَ القوانين، رتب بِهَا أمور الكَنيسَةْ المَسِيحِيَّةْ عَلَى أفضل وجه. جدد قسطنطين مدينة بيزنطية ودعاها بِاسْمِهِ القسطنطينية، وبنى فِيهَا الكَثِيرِ مِنَ الكَنَائِسْ وأَحْضَرَ إليها أَجْسَادَ الكثيرين مِنَ الرسل والقديسين. ولَمَّا أكْمَلَ سَعْيَّهُ الصَالِحْ تَنَيَّحَ بِسَلامْ في نيقوميديا، فوضعوه في تَابُوتٍ من ذهب وحملوه إلى القُسْطَنْطِينِيَّة فاستقبله البَطْرِيَرْكْ والكَهَنَةَ بالصلوات والتسابيح الروحية ودَفَنُوهُ في كِنِيسَةْ الرسل في المقبرة التي أعدها لنفسه. بَرَكِةْ صَلَوَاتُهُ فَلْتَكُنْ مَعْنَا، آمْينْ.\nوفيه أيْضَاً مِنْ سَنَةْ 1568 لِلْشُهَداءِ (1852م)، تَنَيَّحَ القِدّيسْ البابا <span style=\"&quot;color:blue;&quot;\" uib-popover=\"&quot;'دعاة\" يَسْوعْ=\"\" \"صفا\"=\"\" وهي=\"\" كلمة=\"\" أرامية،=\"\" يقابلها=\"\" باليونانية=\"\" بطرس=\"\" ومعناها=\"\" حجر=\"\" أو=\"\" صخر'\"=\"\" popover-placement=\"&quot;left-top&quot;\">بطرس</span> السابع البَطْرِيَرْكْ المائة والتاسع مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة. وُلِدَ هَذَا القِدّيسْ بقرية الجاولي (قرية بمركز منفلوط مُحَافَظَة أسيوط) لذلك لُقِّب \" بالجاولي \"، تَرَهَّبَ بِدِيرْ القِدّيسْ الأنبا أنطونيوس، ولحسن سيرته وكثرة فَضَائِلِه رسموه قِسّاً ثُمَّ قمصاً. ولَمَّا بَلَغَ خبره إلى البابا مَرْقُسْ الثامن استدعاه لِكَيّْ يرسمه مطراناً عَلَى الحبشة، وبدلاً من ذَلِكْ رسمه أُسْقُفَاً عاماً للكرازة سَنَةْ 1808م بِاسْمِ الأنبا ثاؤفيلس وأقَامَ في الدار البطريركية يساعد البابا مَرْقُسْ في مهام الرعاية. ولَمَّا تَنَيَّحَ البابا مَرْقُسْ اتفق رَأَى الجَمِيع عَلَى إقامة الأنبا ثاؤفيلس الأُسْقُفْ العام خليفةً له، فأجلسوه بطريركاً بِاسْمِ البابا <span style=\"&quot;color:blue;&quot;\" uib-popover=\"&quot;'دعاة\" يَسْوعْ=\"\" \"صفا\"=\"\" وهي=\"\" كلمة=\"\" أرامية،=\"\" يقابلها=\"\" باليونانية=\"\" بطرس=\"\" ومعناها=\"\" حجر=\"\" أو=\"\" صخر'\"=\"\" popover-placement=\"&quot;left-top&quot;\">بطرس</span> السابع سَنَةْ 1810م. كَانَ هَذَا القِدّيسْ ناسكاً في مأكله وملبسه متوشحاً بالوداعة والاتضاع واسع الإطلاع، وقَدْ نالت الكَنيسَةْ في عهده سلاماً وطمأنينة. وكَانَ البابا <span style=\"&quot;color:blue;&quot;\" uib-popover=\"&quot;'دعاة\" يَسْوعْ=\"\" \"صفا\"=\"\" وهي=\"\" كلمة=\"\" أرامية،=\"\" يقابلها=\"\" باليونانية=\"\" بطرس=\"\" ومعناها=\"\" حجر=\"\" أو=\"\" صخر'\"=\"\" popover-placement=\"&quot;left-top&quot;\">بطرس</span> يُبغض السيمونية جداً ولَمْ يكن يرسم أحَدْ في أي رتبة من رتب الكهنوت إلا بَعْدَ التأكد من صلاحيته لهذه الخدمة. وفي أيَّامَهُ انخفضت مياه النيل فطَلَبَ مِنْهُ الحاكم الصَلاةِ مِنْ أَجْلِ ارتفاع مياه النيل، فأقَامَ البابا خيمة عَلَى شاطئ النيل ورفع فِيهَا صلوات القداس الإلهي هُوَ والأساقفة والكَهَنَةَ والشعب. وبَعْدَ انْتْهَاءِ القداس وغسل الأواني صب بَعْضُ الماء في الأواني وسكب هَذِهِ المياه في النيل، فارتفع منسوب ماء النيل عَلَى الفور حَتَّى وَصَلَ إلى مستوى الخيمة التي أُقيم فِيهَا القداس الإلهي. وفي عهده وَصَلَ إلى إبراهيم باشا ابْنِ محمد عَلَى باشا، الذي كَانَ والياً عَلَى الشام، خبر بِأنَّ النور المُقَدّسْ يظهر من قبر السَّيْد المَسِيحْ يوم سبت النور. فاستدعى إبراهيم باشا البابا <span style=\"&quot;color:blue;&quot;\" uib-popover=\"&quot;'دعاة\" يَسْوعْ=\"\" \"صفا\"=\"\" وهي=\"\" كلمة=\"\" أرامية،=\"\" يقابلها=\"\" باليونانية=\"\" بطرس=\"\" ومعناها=\"\" حجر=\"\" أو=\"\" صخر'\"=\"\" popover-placement=\"&quot;left-top&quot;\">بطرس</span> وأعرب لَهُ عَن رغبته في الذهاب إلى <span style=\"&quot;color:blue;&quot;\" uib-popover=\"&quot;'أسس\" السلام=\"\"،=\"\" إمتلاك=\"\" مؤسس=\"\" السلام'\"=\"\" popover-placement=\"&quot;left-top&quot;\">أورشليم</span> ليتحقق مِنْهُ صدق هَذَا الكلام. وذهب بالفعل وظهر النور المُقَدّسْ ورآه إبراهيم باشا بنفسه. وبهذا الحدث تأكدت صحة الإيمان في النور المقدس. وكرَّم إبراهيم باشا البابا <span style=\"&quot;color:blue;&quot;\" uib-popover=\"&quot;'دعاة\" يَسْوعْ=\"\" \"صفا\"=\"\" وهي=\"\" كلمة=\"\" أرامية،=\"\" يقابلها=\"\" باليونانية=\"\" بطرس=\"\" ومعناها=\"\" حجر=\"\" أو=\"\" صخر'\"=\"\" popover-placement=\"&quot;left-top&quot;\">بطرس</span> وأعاده إلى القاهرة بِكُلِّ إكرام. ومن الأحداث الشهيرة التي خلَّدت ذكرى البابا <span style=\"&quot;color:blue;&quot;\" uib-popover=\"&quot;'دعاة\" يَسْوعْ=\"\" \"صفا\"=\"\" وهي=\"\" كلمة=\"\" أرامية،=\"\" يقابلها=\"\" باليونانية=\"\" بطرس=\"\" ومعناها=\"\" حجر=\"\" أو=\"\" صخر'\"=\"\" popover-placement=\"&quot;left-top&quot;\">بطرس</span> وأكَّدت وطنية الكَنيسَةْ القبطية أَنَّ قيصر روسيا أوفد إلى البابا أحَدْ الأمراء ليعرض عَلَيْهِ أَنَّ يَتِمَّ وضع الكَنيسَةْ القبطية تحت حماية القيصر، فرفض البابا هَذَا العرض بحكمة روحية ووطنية أصيلة إذ سأل الأمير \" هل ملككم سيموت ؟ \" قَالَ لَهُ الأمير: \" نعم \" فَقَالَ البابا: \" نحن تحت حماية ملك لا يموت وهْوَ الرَّبْ <span style=\"&quot;color:blue;&quot;\" uib-popover=\"&quot;'هوشع\"،=\"\" يشوع=\"\" يَسْوعْ=\"\" أليشع=\"\" اسم=\"\" عبرى=\"\" معناه=\"\" يهوه=\"\" معين=\"\" أو=\"\" مخلِّص=\"\" يخلص=\"\" خلاص'\"=\"\" popover-placement=\"&quot;left-top&quot;\">يسوع</span> المَسِيحْ \"، ولَمَّا سَمِعَ الوالي محمد عَلَى بهذا الكلام ارتفع قدر البابا <span style=\"&quot;color:blue;&quot;\" uib-popover=\"&quot;'دعاة\" يَسْوعْ=\"\" \"صفا\"=\"\" وهي=\"\" كلمة=\"\" أرامية،=\"\" يقابلها=\"\" باليونانية=\"\" بطرس=\"\" ومعناها=\"\" حجر=\"\" أو=\"\" صخر'\"=\"\" popover-placement=\"&quot;left-top&quot;\">بطرس</span> في عينيه كَثِيراً وتأكد من وطنية الكَنيسَةْ القبطية. ولَمَّا أكْمَلَ سَعْيَّهُ الصَالِحْ تَنَيَّحَ بِسَلامْ ودُفِنَ في الكَنيسَةْ المرقسية الكُبْرَى بالأزبكية. بَرَكِةْ صَلَوَاتُهُ فَلْتَكُنْ مَعْنَا، آمْينْ.\nوفيه أيْضَاً مِنْ سَنَةْ 1569 لِلْشُهَداءِ (1853م)، تَنَيَّحَ القِدّيسْ الأنبا صرابامون أُسْقُفْ المنوفية الشهير \" بأبي طرحة \" (سُمِّى بأبي طرحة لِأَنَّهُ كَانَ يضع شالاً عَلَى رأسه يَنْزِلْ عَلَى وجهه). وُلِدَ هَذَا القِدّيسْ بإحدى بِلادْ الشَرْقِيَّةِ مِنْ أَبَوينِ مَسيحِيَّيْنْ تَقِيَّيْنِ أسمياه \" صليب \"، ربياه تَرْبِيَةً مِسِيحِيَّةْ حقيقية، ولَمَّا كَبُرَ اشتغل ببيع الزيت. وحَدَثَ أَنَّ امْرَأَةْ شريرة ادّعت عَلَيْهِ بأنه قتل ابنها، ووصل الأَمْرِ إلى القاضي، فطلب صليب مِنَ الله أَنَّ يُظهر براءته من هَذِهِ التهمة. ولَمَّا مَثُلَ أمَامَ القاضي أَمَرَ الطفل الميت بالقيام ليخبر القاضي بالحقيقة، فَقَامَ الطفل وشهد ببراءته أمَامَ الجميع. وعلى أثر هَذِهِ المعجزة ذهب وتَرَّهَبَ بِدِيرْ القِدّيسْ الأنبا أنطونيوس. وهُنَاكَ نَمَا في الفضيلة حَتَّى اُختير أُسْقُفَاً لكرسي المنوفية عَلَى غير إرادته، وقَدْ مَنَحَهُ الله مَوْهِبَةِ شفاء الأمراض وإِخْرَاجِ الأرواح الشريرة، فقد أخَرَجَ الرُوحِ النجس مِنَ الأميرة زهرة ابْنَةْ محمد عَلَى باشا، ومن كَثِيرينْ بقوة الصليب. كَانَ هَذَا القِدّيسْ مُحِبّاً للعطاء في الخفاء فَكَانَ يحمل قفصاً بِهِ بَعْضُ العطايا يوزعها بنفسه عَلَى المحتاجين دون أَنَّ يعرفه أحد، واشتهر أيْضَاً بالبساطة والحكمة وكَانَ الرَّبْ يسمع صلواته وبصفة خاصة صلاته مِنْ أَجْلِ أَنَّ يعطي الله نسلاً للذين ليس لهم. كَمَا كَانَتْ لَهُ الشفافية الروحية التي بِهَا يعرف بَعْضُ الأمور المستقبلية. وبَعْدَ أَنْ أكْمَلَ سَعْيَّهُ الصَالِحْ تَنَيَّحَ بِسَلامٍ. بركة صلواته فَلْتَكُنْ مَعْنَا، ولِرَبِنَا المَجْدِ دَائِمَاً أبَدِيَّاً آمْينْ.\n", 
+  "En ce jour de l’an 53 des martyrs (337 après Jésus Christ), décéda Constantin le grand (قسطنطين الكبير).", 
+  "في مِثْلِ هَذا اليَومْ مِنْ سَنَةْ 53 لِلْشُهَداءِ (337م)، تَنَيَّحَ المَلِكْ قسطنطين الكبير.", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "Son père était Constance Ier \"Chlore\" (قونسطا) et sa mère Hélène (هيلانة). Ce dernier régnait sur Byzance (بيزنطية) tandis que Maximien (مكسيميانوس) régnait sur Rome et Dioclétien (دقلديانوس) sur Antioche et l’Egypte. Son père, Constance, était païen ce qui ne l’empêchait pas d’être bon et miséricordieux. Il se rendit à Edesse (ألرُها) où il rencontra et épousa Hélène. Cette dernière était chrétienne et ils eurent un fils, Constantin. Elle lui donna une bonne éducation et lui inculqua la bonté et la compassion envers les chrétiens. Lorsqu’il grandit, il épousa en 306 la fille de Maximien qui le nomma César. Alors il prit en charge l’empire et propagea partout la justice et l’équité. En conséquence il fût aimé et respecté par tout le monde.", 
+  "وُلِدَ سَنَةْ 274م واسم أبيه قونسطا وأُمُّهُ القِدِّيسَةْ هيلانة. وفي الفَتْرَة التي كَانَ فِيهَا أبوه ملكاً عَلَى بيزنطية كَانَ مكسيمانوس ملكاً عَلَى رُومَا ودقلديانوس ملكاً عَلَى أنطاكية ومصر. وكَانَ وَالِدَه قونسطا وثنياً إلا إنه كَانَ رحوماً مُحِبّاً للخير. وحَدَثَ أَنَّهُ مَضَى إلى الرها وهُنَاكَ رَأَى هيلانة فتزوجها، وكَانَتْ مسيحية وأنجبت قسطنطين وربته تربية حَسَنَة وكَانَتْ تبث في قلبه الرحمة والشفقة عَلَى المَسِيحِيِّين، ولَمَّا كَبُرَ تَزَوَّجَ ابْنَةْ مكسيمانوس قيصر بَعْدَ وفاة وَالِدَه سَنَةْ 306م، فأعطاه لقب قيصر فتسلم المملكة ونشر العدل والإنصاف فأحبه الجميع.", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "Il combattit Maxence (مكسنديوس), le roi d’Italie, et demanda aux chrétiens de prier pour lui. Au cours de cette bataille, il vit en plein jour une croix resplendissante plus que le soleil constituée d’étoiles au-dessous de laquelle était inscrit en grec « Par ce signe, tu vaincras. » Il montra ce signe à ses ministres et aux chefs de son armée, puis ordonna qu’on fasse un grand drapeau sur lequel il dessina une croix puis partit combattre. Maxence fût défait et il se noya dans le Tibre (نهر التيبر) avec un grand nombre de ses soldats. Constantin entra alors dans Rome où il fût accueilli avec joie par la population et il devint l’empereur de l’orient et de l’occident.", 
+  "تأهب قسطنطين المَلِكْ لمحاربة مكسنديوس ملك إيطاليا وطَلَبَ مِنَ المَسِيحِيّينْ أَنَّ يُصلّوا من أجله. وفي أَثْنَاءَ الحرب رَأَى في السماء في نصف النهار صليباً منيراً جداً مكوناً من كواكب مكتوباً أسفله باللغة اليونانية \"بهذا تغلب\"، وكَانَ ضياؤه يشع أَكْثَرَ من نور الشمس، فأراه لوزرائه وقادة جيشه، ثُمَّ أَمَرَ بعمل علم كَبِيرْ ورُسِمَ عَلَيْهِ علامة الصليب. ثُمَّ شن الحرب عَلَى مكسنديوس فهزمه وأغرقه في نهر التيبر هُوَ وغالبية جنوده، ودخل قسطنطين رُومَا فاستقبله أهلها بالفرح والتهليل، وأصبح قسطنطين ملكاً عَلَى الشَّرْقِ والغرب.", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "Quand il eût affermi sa présence dans la ville, il ordonna de libérer tous les chrétiens qui avaient été mis en prison à cause de leur Foi dans tout l’empire et décréta que personne ne travaille pendant la semaine de Pâques selon les commandements des apôtres. Ensuite il envoya sa mère la reine Hélène à Jérusalem où elle trouva la sainte Croix et édifia la basilique de la Résurrection.", 
+  "ولَمَّا استقر بِهِ المقَامَ في رُومَا أصدر أمراً في سائر أنحاء المملكة بإطلاق المَسِيحِيّينْ المسجونين بِسَبَبِ إيمانهم، كَمَا أَمَرَ أَنَّ لا يشتغل أحَدْ في أسبوع الآلام كأوامر الرسل. كَمَا أَرْسَلَ أمه الملكة هيلانة إلى أورشليم للبحث عَن الصليب المقدس، فوجدته وبنت كِنِيسَةْ القيامة، ووضعت فِيهَا الصليب.", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "Pendant la dix-septième année de son règne se tint le concile de Nicée où se réunirent trois cent dix-huit pères en 325 après Jésus Christ. Ce concile mit fin à l’hérésie d’Arius et rédigea l’acte de Foi. D’autres canons qui mirent de l’ordre dans les affaires de l’Eglise furent promulgués.", 
+  "وفي السِنِّة السابعة عَشَرْ من ملكه والتي توافق 325م اجْتَمَعَ المَجْمَعْ المُقَدّسْ المسكوني الأَوَّلْ في مَدِينَةِ نيقية الذي حَرَّمْ بدعة أريوس وأصدر قانون الإيمان النيقاوي مَعَ عَدَدَ مِنَ القوانين، رتب بِهَا أمور الكَنيسَةْ المَسِيحِيَّةْ عَلَى أفضل وجه.", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "Constantin réhabilita Byzance (مدينة بيزنطية), lui donna le nom de Constantinople. Il y construisit de nombreuses églises dans lesquelles il rassembla les reliques de nombreux apôtres et d’autres saints. Lorsqu’il eût achevé son bon combat, il décéda à Nicomédie (نيقوميديا) et fût mis dans un cercueil en or et transporté à Constantinople où il fût reçu par le patriarche et les prêtres avec des prières, des lectures et des cantiques. Sa dépouille fût déposée sous l’autel de l’église des saints apôtres où il s’était préparé un tombeau.", 
+  "جدد قسطنطين مدينة بيزنطية ودعاها بِاسْمِهِ القسطنطينية، وبنى فِيهَا الكَثِيرِ مِنَ الكَنَائِسْ وأَحْضَرَ إليها أَجْسَادَ الكثيرين مِنَ الرسل والقديسين. ولَمَّا أكْمَلَ سَعْيَّهُ الصَالِحْ تَنَيَّحَ بِسَلامْ في نيقوميديا، فوضعوه في تَابُوتٍ من ذهب وحملوه إلى القُسْطَنْطِينِيَّة فاستقبله البَطْرِيَرْكْ والكَهَنَةَ بالصلوات والتسابيح الروحية ودَفَنُوهُ في كِنِيسَةْ الرسل في المقبرة التي أعدها لنفسه.", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "Que la bénédiction de ses prières soit avec nous. Amen !", 
+  "بَرَكِةْ صَلَوَاتُهُ فَلْتَكُنْ مَعْنَا، آمْينْ.", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "En ce jour de l’an 1568 des martyrs (1852 après Jésus Christ) eût lieu le décès du pape Pierre VII (Boutros – بطرس السابع) le 109ème patriarche de la prédication de saint Marc.", 
+  "وفيه أيْضَاً مِنْ سَنَةْ 1568 لِلْشُهَداءِ (1852م)، تَنَيَّحَ القِدّيسْ البابا بطرس السابع البَطْرِيَرْكْ المائة والتاسع مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة.", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "Ce père est né au village d’al-Gawli (الجاولى). C’est pour cette raison qu’il fût surnommé Boutros-el-Gawli. Il se fit moine au monastère de saint Antoine où il fût ordonné prêtre puis higoumène à cause de sa bonne conduite et ses nombreuses vertus.", 
+  "وُلِدَ هَذَا القِدّيسْ بقرية الجاولي (قرية بمركز منفلوط مُحَافَظَة أسيوط) لذلك لُقِّب بـ\"الجاولي\"، تَرَهَّبَ بِدِيرْ القِدّيسْ الأنبا أنطونيوس، ولحسن سيرته وكثرة فَضَائِلِه رسموه قِسّاً ثُمَّ قمصاً.", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "Lorsque sa réputation parvint au pape Marc VIII, celui-ci le fit venir auprès de lui dans le but de le sacrer métropolite sur l’Ethiopie. Toutefois il le nomma comme métropolite général pour l’Eglise (أسقف عام للبشارة) sous le nom d’Abba Théophile (ثاوفيلس) en le gardant auprès de lui pour organiser les affaires de l’Eglise.", 
+  "ولَمَّا بَلَغَ خبره إلى البابا مَرْقُسْ الثامن استدعاه لِكَيّْ يرسمه مطراناً عَلَى الحبشة، وبدلاً من ذَلِكْ رسمه أُسْقُفَاً عاماً للكرازة سَنَةْ 1808م بِاسْمِ الأنبا ثاؤفيلس وأقَامَ في الدار البطريركية يساعد البابا مَرْقُسْ في مهام الرعاية.", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "Après le décès du pape Marc VIII ce père fût choisi pour lui succéder. Il fût intronisé trois jours plus tard dans la cathédrale saint Marc sous le nom de Pierre VII en 1810. Il mena une vie d’ascète tant dans sa manière de se nourrir que dans ces vêtements. De plus il était humble et lisait beaucoup. A son époque la paix et la quiétude comblèrent l’Eglise. Il méprisait la simonie (السيمونية) et était très strict dans le choix des personnes auxquelles il conférait une quelconque ordination.", 
+  "ولَمَّا تَنَيَّحَ البابا مَرْقُسْ اتفق رَأَى الجَمِيع عَلَى إقامة الأنبا ثاؤفيلس الأُسْقُفْ العام خليفةً له، فأجلسوه بطريركاً بِاسْمِ البابا بطرس السابع سَنَةْ 1810م. كَانَ هَذَا القِدّيسْ ناسكاً في مأكله وملبسه متوشحاً بالوداعة والاتضاع واسع الإطلاع، وقَدْ نالت الكَنيسَةْ في عهده سلاماً وطمأنينة. وكَانَ البابا بطرس يُبغض السيمونية جداً ولَمْ يكن يرسم أحَدْ في أي رتبة من رتب الكهنوت إلا بَعْدَ التأكد من صلاحيته لهذه الخدمة.", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "Une année où la crue du Nil n’arrivait pas le gouverneur d’Egypte lui demanda de prier pour la montée de l’eau. Le pape fit dresser une tente sur les rives du Nil pour y célébrer la liturgie eucharistique avec les évêques, les prêtres et les fidèles. Lorsqu’il eût finit, il lava les vases de l’autel puis versa l’eau dans le Nil en utilisant les ustensiles de l’autel. L’eau se mit immédiatement à gonfler et atteint rapidement la tente qu’il avait dressée.", 
+  "وفي أيَّامَهُ انخفضت مياه النيل فطَلَبَ مِنْهُ الحاكم الصَلاةِ مِنْ أَجْلِ ارتفاع مياه النيل، فأقَامَ البابا خيمة عَلَى شاطئ النيل ورفع فِيهَا صلوات القداس الإلهي هُوَ والأساقفة والكَهَنَةَ والشعب. وبَعْدَ انْتْهَاءِ القداس وغسل الأواني صب بَعْضُ الماء في الأواني وسكب هَذِهِ المياه في النيل، فارتفع منسوب ماء النيل عَلَى الفور حَتَّى وَصَلَ إلى مستوى الخيمة التي أُقيم فِيهَا القداس الإلهي.", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "Ibrahim pacha (إبراهيم باشا), fils de Mohammad Ali pacha (محمد علي باشا) qui était gouverneur de la Syrie (الشام) apprit qu’une lumière sacrée apparaissait du tombeau de nôtre Seigneur le samedi saint. Voulant s’assurer de la véracité de ces faits, il convoqua le pape Pierre à Jérusalem. Ayant constaté ce phénomène personnellement, il honora le pape et le ramena au Caire avec beaucoup de respect.", 
+  "وفي عهده وَصَلَ إلى إبراهيم باشا ابْنِ محمد عَلَى باشا، الذي كَانَ والياً عَلَى الشام، خبر بِأنَّ النور المُقَدّسْ يظهر من قبر السَّيْد المَسِيحْ يوم سبت النور. فاستدعى إبراهيم باشا البابا بطرس وأعرب لَهُ عَن رغبته في الذهاب إلى أورشليم ليتحقق مِنْهُ صدق هَذَا الكلام. وذهب بالفعل وظهر النور المُقَدّسْ ورآه إبراهيم باشا بنفسه. وبهذا الحدث تأكدت صحة الإيمان في النور المقدس. وكرَّم إبراهيم باشا البابا بطرس وأعاده إلى القاهرة بِكُلِّ إكرام.", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "A cette époque aussi, l’empereur de Russie envoya en délégation des membres de sa famille pour proposer au pape de prendre l’Eglise copte sous sa protection. Mais le pape déclina cette proposition avec tact en lui demandant : « Est-ce que votre roi va mourir ? » Lorsque le prince lui répondit par l’affirmative il lui dit : « Nous sommes sous la protection d’un Roi immortel, le Seigneur Jésus Christ. » Lorsque Mohammad Ali apprit ce qui s’était passé, il le respecta de plus en plus et s’assura de son patriotisme et de celui d’ l’Eglise copte.", 
+  "ومن الأحداث الشهيرة التي خلَّدت ذكرى البابا بطرس وأكَّدت وطنية الكَنيسَةْ القبطية أَنَّ قيصر روسيا أوفد إلى البابا أحَدْ الأمراء ليعرض عَلَيْهِ أَنَّ يَتِمَّ وضع الكَنيسَةْ القبطية تحت حماية القيصر، فرفض البابا هَذَا العرض بحكمة روحية ووطنية أصيلة إذ سأل الأمير \"هل ملككم سيموت ؟\" قَالَ لَهُ الأمير: \"نعم\" فَقَالَ البابا: \"نحن تحت حماية ملك لا يموت وهْوَ الرَّبْ يسوع المَسِيحْ\". ولَمَّا سَمِعَ الوالي محمد عَلَى بهذا الكلام ارتفع قدر البابا بطرس في عينيه كَثِيراً وتأكد من وطنية الكَنيسَةْ القبطية.", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "Après avoir accompli son bon combat, il décéda en paix et fût enterré à la cathédrale saint Marc à el-Azbakia (الأزبكية) au Caire.", 
+  "ولَمَّا أكْمَلَ سَعْيَّهُ الصَالِحْ تَنَيَّحَ بِسَلامْ ودُفِنَ في الكَنيسَةْ المرقسية الكُبْرَى بالأزبكية.", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "Que la bénédiction de ses prières soit avec nous. Amen !", 
+  "بَرَكِةْ صَلَوَاتُهُ فَلْتَكُنْ مَعْنَا، آمْينْ.", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "En ce jour de l’an 1569 des martyrs (1853 après Jésus Christ) eût lieu le décès d’abba Sarabamôn (الأنبا صرابامون), l’évêque de Ménoufieh (المنوفية), surnommé abou Tarha (le voilé – أبو طرحة).", 
+  "وفيه أيْضَاً مِنْ سَنَةْ 1569 لِلْشُهَداءِ (1853م)، تَنَيَّحَ القِدّيسْ الأنبا صرابامون أُسْقُفْ المنوفية الشهير \"بأبي طرحة\" (سُمِّى بأبي طرحة لِأَنَّهُ كَانَ يضع شالاً عَلَى رأسه يَنْزِلْ عَلَى وجهه).", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "Ce saint naquit dans le gouvernorat d’el-Charkia (الشرقية) de parents chrétiens pieux qui l’appelèrent Salib (صليب) et lui donnèrent une bonne éducation conforme à leur Foi. Lorsqu’il grandit il travailla dans le commerce de l’huile. Une femme de mauvaises mœurs porta plainte contre lui prétendant qu’il avait tué son fils. Salib pria Dieu pour qu’il démontre son innocence de ce crime. Lorsqu’il fût devant le juge, l’enfant se leva et témoigna publiquement que Salib ne lui avait rien fait. Après ce miracle, Salib se fit moine au monastère de saint Antoine.", 
+  "وُلِدَ هَذَا القِدّيسْ بإحدى بِلادْ الشَرْقِيَّةِ مِنْ أَبَوينِ مَسيحِيَّيْنْ تَقِيَّيْنِ أسمياه \"صليب\"، ربياه تَرْبِيَةً مِسِيحِيَّةْ حقيقية، ولَمَّا كَبُرَ اشتغل ببيع الزيت. وحَدَثَ أَنَّ امْرَأَةْ شريرة ادّعت عَلَيْهِ بأنه قتل ابنها، ووصل الأَمْرِ إلى القاضي، فطلب صليب مِنَ الله أَنَّ يُظهر براءته من هَذِهِ التهمة. ولَمَّا مَثُلَ أمَامَ القاضي أَمَرَ الطفل الميت بالقيام ليخبر القاضي بالحقيقة، فَقَامَ الطفل وشهد ببراءته أمَامَ الجميع. وعلى أثر هَذِهِ المعجزة ذهب وتَرَّهَبَ بِدِيرْ القِدّيسْ الأنبا أنطونيوس.", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "Dans le monastère, il progressa dans la vertu et fût choisi contre son gré pour être évêque de Ménoufieh. Dieu lui avait accordé le don de guérir les malades et de chasser les esprits impurs. Par la puissance de la Croix, il chassa un esprit impur qui tourmentait la princesse Zohra (زهرة) la fille de Mohammad Ali pacha ainsi que d’autres personnes.", 
+  "وهُنَاكَ نَمَا في الفضيلة حَتَّى اُختير أُسْقُفَاً لكرسي المنوفية عَلَى غير إرادته، وقَدْ مَنَحَهُ الله مَوْهِبَةِ شفاء الأمراض وإِخْرَاجِ الأرواح الشريرة، فقد أخَرَجَ الرُوحِ النجس مِنَ الأميرة زهرة ابْنَةْ محمد عَلَى باشا، ومن كَثِيرينْ بقوة الصليب.", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "De plus, ce saint fût réputé par sa simplicité et sa sagesse et il aimait faire des dons en cachette. En effet il prenait un panier et distribuait le contenu aux pauvres qui en avaient besoin sans que personne ne le reconnaisse. Ses prières étaient souvent reçues par le Seigneur surtout en faveur de ceux qui demandaient au Seigneur de leur donner des enfants. Il avait une telle spiritualité qu’il pouvait prévoir ce qui devait arriver. Après avoir accompli son bon combat, il décéda en paix.", 
+  "كَانَ هَذَا القِدّيسْ مُحِبّاً للعطاء في الخفاء فَكَانَ يحمل قفصاً بِهِ بَعْضُ العطايا يوزعها بنفسه عَلَى المحتاجين دون أَنَّ يعرفه أحد، واشتهر أيْضَاً بالبساطة والحكمة وكَانَ الرَّبْ يسمع صلواته وبصفة خاصة صلاته مِنْ أَجْلِ أَنَّ يعطي الله نسلاً للذين ليس لهم. كَمَا كَانَتْ لَهُ الشفافية الروحية التي بِهَا يعرف بَعْضُ الأمور المستقبلية. وبَعْدَ أَنْ أكْمَلَ سَعْيَّهُ الصَالِحْ تَنَيَّحَ بِسَلامٍ.", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "Que la bénédiction de ses prières soit avec nous et gloire soit à nôtre Seigneur, éternellement. Amen !", 
+  "بركة صلواته فَلْتَكُنْ مَعْنَا، ولِرَبِنَا المَجْدِ دَائِمَاً أبَدِيَّاً آمْينْ.", 
   ],
   ],
   [
   [
   Prefix.synaxarium+"&D=2907&C=Title", 
-  "29 Barmahat", 
-  "29 برمهات", 
+  "29 Barmahat\n1) Fête de l’annonciation ;\n2) Commémoration de la résurrection du Christ", 
+  "29 برمهات\nعيد البشارة المجيد\nتِذْكَارِ قيامة مخلصنا الصالح من الأموات", 
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Décès de l’empereur Constantin le grand - Décès du pape Pierre (Boutros) VII, le 109ème patriarche de la prédication de saint Marc - Commémoration d’Abba Sarabamôn, surnommé abou Tarha (le voilé).\n1. Décès de l’empereur Constantin le grand.\nEn ce jour de l’an 53 des martyrs (337 après Jésus Christ), décéda Constantin le grand (قسطنطين الكبير). Son père était Constance Ier \"Chlore\" (قونسطا) et sa mère Hélène (هيلانة). Ce dernier régnait sur Byzance (بيزنطية) tandis que Maximien (مكسيميانوس) régnait sur Rome et Dioclétien (دقلديانوس) sur Antioche et l’Egypte. Son père, Constance, était païen ce qui ne l’empêchait pas d’être bon et miséricordieux. Il se rendit à Edesse (ألرُها) où il rencontra et épousa Hélène. Cette dernière était chrétienne et ils eurent un fils, Constantin. Elle lui donna une bonne éducation et lui inculqua la bonté et la compassion envers les chrétiens. Lorsqu’il grandit, il épousa en 306 la fille de Maximien qui le nomma César. Alors il prit en charge l’empire et propagea partout la justice et l’équité. En conséquence il fût aimé et respecté par tout le monde.\nIl combattit Maxence (مكسنديوس), le roi d’Italie, et demanda aux chrétiens de prier pour lui. Au cours de cette bataille, il vit en plein jour une croix resplendissante plus que le soleil constituée d’étoiles au-dessous de laquelle était inscrit en grec « Par ce signe, tu vaincras. » Il montra ce signe à ses ministres et aux chefs de son armée, puis ordonna qu’on fasse un grand drapeau sur lequel il dessina une croix puis partit combattre. Maxence fût défait et il se noya dans le Tibre (نهر التيبر) avec un grand nombre de ses soldats. Constantin entra alors dans Rome où il fût accueilli avec joie par la population et il devint l’empereur de l’orient et de l’occident.\nQuand il eût affermi sa présence dans la ville, il ordonna de libérer tous les chrétiens qui avaient été mis en prison à cause de leur Foi dans tout l’empire et décréta que personne ne travaille pendant la semaine de Pâques selon les commandements des apôtres. Ensuite il envoya sa mère la reine Hélène à Jérusalem où elle trouva la sainte Croix et édifia la basilique de la Résurrection.\nPendant la dix-septième année de son règne se tint le concile de Nicée où se réunirent trois cent dix-huit pères en 325 après Jésus Christ. Ce concile mit fin à l’hérésie d’Arius et rédigea l’acte de Foi. D’autres canons qui mirent de l’ordre dans les affaires de l’Eglise furent promulgués.\nConstantin réhabilita Byzance (مدينة بيزنطية), lui donna le nom de Constantinople. Il y construisit de nombreuses églises dans lesquelles il rassembla les reliques de nombreux apôtres et d’autres saints. Lorsqu’il eût achevé son bon combat, il décéda à Nicomédie (نيقوميديا) et fût mis dans un cercueil en or et transporté à Constantinople où il fût reçu par le patriarche et les prêtres avec des prières, des lectures et des cantiques. Sa dépouille fût déposée sous l’autel de l’église des saints apôtres où il s’était préparé un tombeau.\nQue la bénédiction de ses prières soit avec nous. Amen !\n Sur certains sites historiques il semblerait que Constantin ait été nommé César par Galère puis reconnu Auguste (c’est-à-dire empereur) par Maximien.\nEn latin : In hoc signo vinces.\n2. Décès du pape Pierre (Boutros) VII, le 109ème patriarche de la prédication de saint Marc.\nEn ce jour de l’an 1568 des martyrs (1852 après Jésus Christ) eût lieu le décès du pape Pierre VII (Boutros – بطرس السابع) le 109ème patriarche de la prédication de saint Marc. Ce père est né au village d’al-Gawli (الجاولى). C’est pour cette raison qu’il fût surnommé Boutros-el-Gawli. Il se fit moine au monastère de saint Antoine où il fût ordonné prêtre puis higoumène à cause de sa bonne conduite et ses nombreuses vertus.\nLorsque sa réputation parvint au pape Marc VIII, celui-ci le fit venir auprès de lui dans le but de le sacrer métropolite sur l’Ethiopie. Toutefois il le nomma comme métropolite général pour l’Eglise (أسقف عام للبشارة) sous le nom d’Abba Théophile (ثاوفيلس) en le gardant auprès de lui pour organiser les affaires de l’Eglise.\nAprès le décès du pape Marc VIII ce père fût choisi pour lui succéder. Il fût intronisé trois jours plus tard dans la cathédrale saint Marc sous le nom de Pierre VII en 1810. Il mena une vie d’ascète tant dans sa manière de se nourrir que dans ces vêtements. De plus il était humble et lisait beaucoup. A son époque la paix et la quiétude comblèrent l’Eglise. Il méprisait la simonie (السيمونية) et était très strict dans le choix des personnes auxquelles il conférait une quelconque ordination.\nUne année où la crue du Nil n’arrivait pas le gouverneur d’Egypte lui demanda de prier pour la montée de l’eau. Le pape fit dresser une tente sur les rives du Nil pour y célébrer la liturgie eucharistique avec les évêques, les prêtres et les fidèles. Lorsqu’il eût finit, il lava les vases de l’autel puis versa l’eau dans le Nil en utilisant les ustensiles de l’autel. L’eau se mit immédiatement à gonfler et atteint rapidement la tente qu’il avait dressée.\nIbrahim pacha (إبراهيم باشا), fils de Mohammad Ali pacha (محمد علي باشا) qui était gouverneur de la Syrie (الشام) apprit qu’une lumière sacrée apparaissait du tombeau de nôtre Seigneur le samedi saint. Voulant s’assurer de la véracité de ces faits, il convoqua le pape Pierre à Jérusalem. Ayant constaté ce phénomène personnellement, il honora le pape et le ramena au Caire avec beaucoup de respect.\nA cette époque aussi, l’empereur de Russie envoya en délégation des membres de sa famille pour proposer au pape de prendre l’Eglise copte sous sa protection. Mais le pape déclina cette proposition avec tact en lui demandant : « Est-ce que votre roi va mourir ? » Lorsque le prince lui répondit par l’affirmative il lui dit : « Nous sommes sous la protection d’un Roi immortel, le Seigneur Jésus Christ. » Lorsque Mohammad Ali apprit ce qui s’était passé, il le respecta de plus en plus et s’assura de son patriotisme et de celui d’ l’Eglise copte.\nAprès avoir accompli son bon combat, il décéda en paix et fût enterré à la cathédrale saint Marc à el-Azbakia (الأزبكية) au Caire.\nQue la bénédiction de ses prières soit avec nous. Amen !\n Village du district de Manfalout (مركز منفلوط) du gouvernorat d’Assiout.\nPratique caractérisée par l’achat et la vente de biens spirituels, tout particulièrement d'un sacrement et, par conséquent, d’une charge ecclésiastique. Elle doit son nom à Simon le Magicien qui voulut acheter à saint Pierre son pouvoir de faire des miracles (Actes, 8 : 9 – 21).\n3. Commémoration d’Abba Sarabamôn, surnommé abou Tarha (le voilé).\nEn ce jour de l’an 1569 des martyrs (1853 après Jésus Christ) eût lieu le décès d’abba Sarabamôn (الأنبا صرابامون), l’évêque de Ménoufieh (المنوفية), surnommé abou Tarha (le voilé – أبو طرحة). Ce saint naquit dans le gouvernorat d’el-Charkia (الشرقية) de parents chrétiens pieux qui l’appelèrent Salib (صليب) et lui donnèrent une bonne éducation conforme à leur Foi. Lorsqu’il grandit il travailla dans le commerce de l’huile. Une femme de mauvaises mœurs porta plainte contre lui prétendant qu’il avait tué son fils. Salib pria Dieu pour qu’il démontre son innocence de ce crime. Lorsqu’il fût devant le juge, l’enfant se leva et témoigna publiquement que Salib ne lui avait rien fait. Après ce miracle, Salib se fit moine au monastère de saint Antoine.\nDans le monastère, il progressa dans la vertu et fût choisi contre son gré pour être évêque de Ménoufieh. Dieu lui avait accordé le don de guérir les malades et de chasser les esprits impurs. Par la puissance de la Croix, il chassa un esprit impur qui tourmentait la princesse Zohra (زهرة) la fille de Mohammad Ali pacha ainsi que d’autres personnes.\nDe plus, ce saint fût réputé par sa simplicité et sa sagesse et il aimait faire des dons en cachette. En effet il prenait un panier et distribuait le contenu aux pauvres qui en avaient besoin sans que personne ne le reconnaisse. Ses prières étaient souvent reçues par le Seigneur surtout en faveur de ceux qui demandaient au Seigneur de leur donner des enfants. Il avait une telle spiritualité qu’il pouvait prévoir ce qui devait arriver. Après avoir accompli son bon combat, il décéda en paix.\nQue la bénédiction de ses prières soit avec nous et gloire soit à nôtre Seigneur, éternellement. Amen ! 	", 
-  "تحتفل الكَنيسَةْ اليَوْم بِعِيدِ البشارة المجيد، فعِنْدَمَا حان الوَقْت المعيَّن منذ الأزل مِنَ الله لخلاص جنسنا، أَرْسَلَ الله رئيس الملائكة جبرائيل \" إلى مدينة مِنَ الجليل اسْمَهَا ناصرة، إلى عذراء مخطوبة لرَجُلٍ من بَيْت داود اسْمُهُ يوسف واسم العَذْرَاءْ مريم، فَدَخَلَ إليها المَلاك وقَالَ: \" سَلام لك أيتها الممتلئة نعمة الرَّبْ معك، مُبَارَكةٌ أَنْتِ في النِسَاءِ \"، فَلَمَّا رأته اضطربت من كلامه و فكرت ما عسى أَنَّ تكون هَذِهِ التحية. فَقَالَ لَهَا الملاك: \" لا تخافي يا مَرْيَمْ لِأَنَّكَ وجدت نعمة عِنْدَ الله، وها أنت ستحبلين وتلدين ابنا وتسمينه يَسْوعْ، هَذَا يَكُونَ عَظِيمَاً وابن العلي يُدعَى، ويعطيه الرَّبْ الإله كُرْسِي داود أبيه، ويملك عَلَى بَيْت يَعْقُوبْ إلى الأبد، ولا يَكُونَ لملكه نهاية \" فقَالَت مَرْيَمْ للملاك: \" كَيْفَ يَكُونَ هَذَا وأنا لست أعرف رجلاً؟ \" فأجاب المَلاك وقَالَ لها: \" الرُوحِ القُدُسْ يحل عليك، وقوة العلي تظللك، فلذلك أيْضَاً القدوس المولود منك يُدعَى ابْنِ الله.... لِأَنَّهُ ليس شيء غير ممكن لَدَى الله \". فقَالَت مريم: \" هوذا أنا أمة الرَّبْ ليكن لي كقولك فَمَضَى من عندها المَلاك \" (لو 1: 26 – 38). ومن تلك اللحظة حل في أحشاء العَذْرَاءْ الابن الوحيد الكلمة. هَذَا اليَوْم هُوَ بكر الأَعْيَادِ السيدية الكُبْرَى، لِأنَّ فيه كَانَتْ البُشرى بخلاص العالم. بركة بشرى الخلاص فَلْتَكُنْ مَعْنَا. آمْينْ.\nوفيه أيْضَاً مِنْ سَنَةْ 34م أكْمَلَ الرَّبْ تدبير الخلاص والفداء بقيامته المُقَدَّسَةْ من بَيْنَ الأموات، وصار بكر الراقدين. نسأل إلهنا الصالح أَنَّ يقيمنا من موت الخطية ويغفر لنا آثامنا وينعم لنا بالحياة الأَبَدِيََة. لَهُ المَجْدِ دَائِمَاً أبَدِيَّاً آمْينْ.\n", 
+  "L’Eglise commémore en ce jour la fête de l’annonciation, c’est-à-dire l’annonce faite à nôtre Dame, la très sainte Vierge Marie, la Mère de Dieu.", 
+  "تحتفل الكَنيسَةْ اليَوْم بِعِيدِ البشارة المجيد.", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "En effet, lorsque vint la plénitude des temps établis par Dieu avant tous les siècles pour le Salut du genre humain, l’ange Gabriel fût envoyé par Dieu « dans une ville de Galilée, appelée Nazareth, une vierge, accordée en mariage à un homme de la maison de David, appelé Joseph ; et le nom de la vierge était Marie. L’ange entra chez elle et dit : Je te salue, Comblée-de-grâce, le Seigneur est avec toi, Tu es bénie entre toutes les femmes. À cette parole, elle fût toute bouleversée, et elle se demandait ce que pouvait signifier cette salutation. L’ange lui dit alors : Sois sans crainte, Marie, car tu as trouvé grâce auprès de Dieu. Voici que tu vas concevoir et enfanter un fils ; tu lui donneras le nom de Jésus. Il sera grand, il sera appelé Fils du Très-Haut ; le Seigneur Dieu lui donnera le trône de David son père ; il régnera pour toujours sur la maison de Jacob, et son règne n’aura pas de fin. Marie dit à l’ange : Comment cela va-t-il se faire puisque je ne connais pas d’homme ? L’ange lui répondit : L’Esprit Saint viendra sur toi, et la puissance du Très-Haut te prendra sous son ombre ; c’est pourquoi celui qui va naître sera saint, il sera appelé Fils de Dieu. ... Car rien n’est impossible à Dieu. Marie dit alors : Voici la servante du Seigneur ; que tout m’advienne selon ta parole ».", 
+  "فعِنْدَمَا حان الوَقْت المعيَّن منذ الأزل مِنَ الله لخلاص جنسنا، أَرْسَلَ الله رئيس الملائكة جبرائيل \"إلى مدينة مِنَ الجليل اسْمَهَا ناصرة، إلى عذراء مخطوبة لرَجُلٍ من بَيْت داود اسْمُهُ يوسف واسم العَذْرَاءْ مريم، فَدَخَلَ إليها المَلاك وقَالَ: سَلام لك أيتها الممتلئة نعمة الرَّبْ معك، مُبَارَكةٌ أَنْتِ في النِسَاءِ\"، فَلَمَّا رأته اضطربت من كلامه و فكرت ما عسى أَنَّ تكون هَذِهِ التحية. فَقَالَ لَهَا الملاك: لا تخافي يا مَرْيَمْ لِأَنَّكَ وجدت نعمة عِنْدَ الله، وها أنت ستحبلين وتلدين ابنا وتسمينه يَسْوعْ، هَذَا يَكُونَ عَظِيمَاً وابن العلي يُدعَى، ويعطيه الرَّبْ الإله كُرْسِي داود أبيه، ويملك عَلَى بَيْت يَعْقُوبْ إلى الأبد، ولا يَكُونَ لملكه نهاية. فقَالَت مَرْيَمْ للملاك: كَيْفَ يَكُونَ هَذَا وأنا لست أعرف رجلاً؟. فأجاب المَلاك وقَالَ لها: الرُوحِ القُدُسْ يحل عليك، وقوة العلي تظللك، فلذلك أيْضَاً القدوس المولود منك يُدعَى ابْنِ الله ... لِأَنَّهُ ليس شيء غير ممكن لَدَى الله. فقَالَت مريم: هوذا أنا أمة الرَّبْ ليكن لي كقولك\".\"", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "Alors l’ange la quitta. Dès lors le Fils unique, le Verbe de Dieu vint en elle par un grand mystère.", 
+  "فَمَضَى من عندها المَلاك\" (لو 1: 26 – 38). ومن تلك اللحظة حل في أحشاء العَذْرَاءْ الابن الوحيد الكلمة.", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "Cette fête est donc la première de toutes les fêtes (بكر الاعياد) car c’est par elle que le Salut de l’humanité a été proclamé.", 
+  "هَذَا اليَوْم هُوَ بكر الأَعْيَادِ السيدية الكُبْرَى، لِأنَّ فيه كَانَتْ البُشرى بخلاص العالم.", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "Que la bénédiction de l’annonce du Salut soit avec nous. Amen !", 
+  "بركة بشرى الخلاص فَلْتَكُنْ مَعْنَا، آمْينْ.", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "En ce jour de l’an 34 après la nativité de Jésus Christ le Seigneur a accompli le Salut et la Rédemption par Sa sainte Résurrection d’entre les morts. Ainsi il devint le premier ressuscité parmi ceux qui se sont endormis.", 
+  "وفيه أيْضَاً مِنْ سَنَةْ 34م أكْمَلَ الرَّبْ تدبير الخلاص والفداء بقيامته المُقَدَّسَةْ من بَيْنَ الأموات، وصار بكر الراقدين.", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "Implorons nôtre Dieu très-bon de nous ressusciter de la mort du péché et qu’Il nous remette nos iniquités. A Lui est due la gloire éternellement. Amen !", 
+  "نسأل إلهنا الصالح أَنَّ يقيمنا من موت الخطية ويغفر لنا آثامنا وينعم لنا بالحياة الأَبَدِيََة. لَهُ المَجْدِ دَائِمَاً أبَدِيَّاً آمْينْ.", 
   ],
   ],
   [
   [
   Prefix.synaxarium+"&D=3007&C=Title", 
-  "30 Barmahat", 
-  "30 برمهات", 
+  "30 Barmahat\n1) Commémoration de l’archange Gabriel, le Messager ;\n2) Commémoration de Samson, l’un des juges d’Israël ;\n3) Translation des reliques de saint Jacques, l’intercis", 
+  "30 برمهات\nتِذْكَارِ الملاك غبريال\nنِيَاحِةِ شمشون أحد قضاة بني إسرائيل\nتِذْكَارِ القديس يعقوب المقطع", 
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "Commémoration de l’archange Gabriel, le Messager - Commémoration de Samson, l’un des juges d’Israël - Translation des reliques de saint Jacques, l’intercis.\n1. Commémoration de l’archange Gabriel, le Messager.\nNous commémorons aujourd’hui l’archange Gabriel (جبرائيل), le messager (المبشر). Il a mérité de porter à la sainte Vierge Marie l’annonce de la naissance du Fils unique. C’est lui qui auparavant avait annoncé au prophète Daniel le retour d’exil du peuple d’Israël ainsi que la venue du Christ pour le Salut du monde et la fin des sacrifices animaux. Il lui proclama aussi ce qui devait se passer à la fin des temps. De plus il prédit au prêtre Zacharie la naissance de Jean le baptiste, le précurseur. Nous devons l’honorer et lui demander d’intercéder en nôtre faveur.\nQue sa sainte intercession soit avec nous. Amen !\nLc 1 : 26 – 38.\nDaniel 9 : 21 – 25.\nDaniel 9 : 25 – 27.\nDaniel 10, 11 et 12.\n2. Commémoration de Samson, l’un des juges d’Israël.\nNous commémorons aussi en ce jour le décès de Samson (شمشون), l’un des juges d’Israël. Il était de la tribu de Dane (سبط دان) et il naquit à Soréa (صُرعة) après que sa naissance ait été annoncée à sa mère stérile par un ange du Seigneur. Il lui dit aussi « garde-toi de boire du vin ou d'autre boisson enivrante ... ... et le fer (le rasoir) ne passera point sur sa tête, parce qu’il sera Nazir de Dieu (نذير الله). » L’ange apparut aussi à son père Manoah (منوح) et lui fit la même annonce. « Et la femme accoucha d'un fils qu'elle nomma Samson ; l’enfant devint grand, et le Seigneur le bénit. Et au camp de Dane, l'Esprit du Seigneur commença à l'accompagner entre Soréa et Eshtaol. »\nSamson épousa une païenne de Timna (تمنة).  En chemin pour la retrouver, « voici venir à sa rencontre un jeune lion rugissant. L'Esprit du Seigneur s'élança sur Samson, qui broya le lionceau comme il eût broyé une jeune chèvre ; or, il n'avait rien dans les mains. » Quelques jours plus tard il repassa par là. « Il se détourna pour voir le cadavre du lion, et voilà qu'il y avait dans sa gueule un essaim d'abeilles et du miel. II prit du miel dans ses mains, et il s'en alla en mangeant. Quand il eût rejoint son père et sa mère, il leur en donna, et ils en mangèrent. »\nSamson se rendit à nouveau à Timna où il y eût un festin. Il proposa aux Philistins une énigme en disant : « L’aliment a été tiré du mangeur ; la douceur de la force. » Comme ils ne trouvaient pas la solution, ils demandèrent à la jeune femme « Trompe ton mari, et qu'il t'explique l'énigme ; sinon nous te livrerons aux flammes, toi et la maison de ton père. » Alors elle pleura auprès de son époux qui finit par lui donner la solution. Le septième jour du festin, les habitants de la ville lui dirent : « ‘Qu'y a-t-il de plus doux que le miel ? Qu'y a-t-il de plus fort que le lion ?’ Et Samson leur dit : ‘Si vous n'aviez point labouré avec ma génisse, vous ne sauriez point mon énigme.’ Aussitôt, l'Esprit du Seigneur s'élança sur lui ; il alla en Ascalon, il y tua trente hommes, puis il prit leurs vêtements, et il donna leurs tuniques changeantes à ceux qui avaient expliqué l’énigme. Et Samson fût courroucé, et il revint à la maison de son père. Et la femme de Samson épousa l’un des amis qu'il aimait. » Alors Samson se mit en colère et il brûla leur plantation et leur vignoble puis il s’installa dans un rocher.\nLes philistins partirent en campagne contre Juda et demandèrent que Samson leur soit livré. Alors, trois mille hommes allèrent demander à Samson de revenir avec eux et lui promirent de ne pas le tuer eux-mêmes. Ils le lièrent donc avec deux cordes neuves, et ils l'enlevèrent de cette roche. Dès qu’il retrouva les philistins, l'Esprit du Seigneur s'élança sur lui, ... ...et les liens de ses mains se rompirent. Et il trouva à terre une mâchoire d'âne, et il étendit la main, et il la ramassa, et, avec cette mâchoire, il tua mille hommes.[16] Samson jugea pendant vingt ans Israël à l’époque des Philistins.\nUne fois qu’il se rendit à Gaza ils l’entourèrent, et ils l’épièrent à la porte de la ville, et ils ne bougèrent pas de toute la nuit. S’étant levé il prit les portes de la ville avec les deux jambages ; puis, les soulevant à l'aide du verrou, il les mit sur ses épaules. Alors, il monta au sommet de la montagne, où il les déposa[17].\nLes chefs des Philistins demandèrent à Dalila de leur faire connaitre le secret de la force de Samson. Après plusieurs tentatives, il finit par lui ouvrir tout son cœur et lui dit : « Jamais le fer (le rasoir) n'a passé sur ma tête, parce que, depuis les entrailles de ma mère, je suis consacré au Seigneur. » Elle alla en informer les Philistins puis, l’ayant endormi, elle lui rasa tresses de sa tête. Les Philistins le saisirent, lui arrachèrent les yeux, et le transportèrent à Gaza, où ils le mirent en prison avec des entraves d'airain aux pieds ; enfin, ils lui firent tourner la meule, dans la maison du geôlier.\nLes chefs des Philistins étaient réunis pour offrir un grand sacrifice a Dagon leur dieu, et pour se réjouir. Ils disaient « Dieu a livré à nos mains Samson nôtre ennemi ». Ils le firent venir pour qu’il les divertisse et le placèrent entre les colonnes. Or ses cheveux commençaient à pousser. Alors, il invoqua le Seigneur en disant : « Souviens-Toi de moi, et rends-moi encore une fois mes forces, ô mon Dieu ! Qu'une fois au moins je tire vengeance des Philistins, pour mes deux yeux. » Alors il saisit les deux colonnes du milieu et s’écria : « Mort à moi et aux Philistins ! » Et le temple s’écroula sur tous ceux qui s’y trouvait et plus de trois mille hommes moururent en même temps que Samson.\nSes frères vinrent le prendre et ils l’ensevelirent entre Soréa et Eshtaol, dans le sépulcre de Manoah son père.\nQue la bénédiction de ses prières soit avec nous. Amen !\nVoir dans le livre des Juges les chapitres 13 à 16.\nOrthographe de la nouvelle traduction liturgique. On retrouve aussi Dan (Bible de Jérusalem, Traduction de la Septante par P.Giguet)\nOrthographe de la nouvelle traduction liturgique. On retrouve aussi Çoréa (Bible de Jérusalem et TOB), Saraa (Traduction de la Septante par P.Giguet)\nUne ville de la côte de Judée à environ 14 miles à l’ouest de Jérusalem.\nC’est-à-dire « voué ou consacré à Dieu ».\nJg 13 : 3 – 5. (Traduction de la Septante par P.Giguet)\nOrthographe de la nouvelle traduction liturgique, Bible de Jérusalem et TOB. On retrouve aussi Manué (Traduction de la Septante par P.Giguet)\nOrthographe de la nouvelle traduction liturgique, la Bible de Jérusalem et la TOB. On retrouve aussi Esthaol (Traduction de la Septante par P.Giguet)\nJg 13 : 24 & 25. (Traduction de la Septante par P.Giguet sauf pour les noms propre comme indiqué ci-dessus.)\nOrthographe de la nouvelle traduction liturgique, la Bible de Jérusalem et la TOB. On retrouve aussi Thamnatha (Traduction de la Septante par P.Giguet)\nJg 14 : 5 & 6. (Traduction de la Septante par P.Giguet)\nJg 14 : 8 & 9. (Traduction de la Septante par P.Giguet)\nJg 14 : 14. (Traduction de la Septante par P.Giguet)\nJg 14 : 15. (Traduction de la Septante par P.Giguet)\nJg 14 : 18 – 20. (Traduction de la Septante par P.Giguet)\n[16] Jg 15 : 14 – 15. (Traduction de la Septante par P.Giguet)\n[17] Jg 16 : 1 – 3. (Traduction de la Septante par P.Giguet)\n3. Translation des reliques de saint Jacques, l’intercis.\nNous commémorons aussi aujourd’hui la translation des reliques de saint Jacques le persan surnommé l’Intercis (يعقوب الفارسي المعروف بالمقَطَّع). Celles-ci se trouvaient à Gaza et furent transférées en Egypte où elles furent déposées dans une église construite à son nom au vieux Caire. L’histoire de sa vie et de son martyre se trouve dans le Synaxaire du 27 Athor.\nQue la bénédiction de ses prières soit avec nous et gloire soit à nôtre Seigneur, éternellement. Amen ! \nQui signifie « taillé en pièces. »\n	", 
-  "في هَذَا اليُومْ تُعَيِِّدُ الكَنيسَةْ بتِذْكَارْ رئيس الملائكة الجليل جبرائيل المبشِّر (قد يَكُونَ هَذَا التِذْكَارْ لتكريم رئيس الملائكة الجليل جبرائيل بَعْدَ الاحتفال بِعِيدِ البشارة يوم 29 برمهات)، الذي استحق أَنَّ يحمل البشارة بتجسُّد الابن الوحيد، إلى العَذْرَاءْ القِدِّيسَةْ مَرْيَمْ (لو 1: 26 – 38). وهْوَ الذي سبق فأنبأ دانيال النبي عَن عودة الشَّعْبِ اليهودي مِنَ السبي (دا 9: 21 – 25)، وعَنْ مجيء السَّيْد المَسِيحْ لخلاص العالم، وإبطال الذبائح (دا 9: 25 – 27)، وعما سيحدث في الأَيَّامْ الأخيرة (دانيال إصحاحات 10، 11، 12). كَمَا أَنَّهُ بشَّر زَكَرِيَّا الكاهن بميلاد يُوحَنّا المِعْمِدَانْ السابق الصابغ (لو 1: 11 – 20). فلهذا نكرمه ونطلب شفاعته في كُلِّ حين. شفاعته المُقَدَّسَةْ فَلْتَكُنْ مَعْنَا. آمْينْ.\nوفيه أيْضَاً تَنَيَّحَ شمشون أحَدْ قضاة بني إسرائيل. وهْوَ من سبط دان ووُلِدَ في صُرعة (صرعة مدينة عَلَى ساحل يهوذا وتبعد 14 ميلاً غربي القدس (<span style=\"&quot;color:blue;&quot;\" uib-popover=\"&quot;'أسس\" السلام=\"\"،=\"\" إمتلاك=\"\" مؤسس=\"\" السلام'\"=\"\" popover-placement=\"&quot;left-top&quot;\">أورشليم</span>))، بإعلان إلهي إذ ظَهَرَ مَلاكُ الرَّبِ لوالدته العاقر وبشَّرها بميلاده، وأمرها أَنَّ تتجنب الخمر والمسكر، ولا تحلق رأسه لِأَنَّهُ يَكُونَ نذيراً لله (قض 13: 3 – 5). كَمَا ظَهَرَ لوالده منوح وكلمه بنفس البشارة (قض 13: 11 – 20). فحبلت المرأة وولدت شمشون، فكبر الصبي وباركه الرب، وابتدأ رُوحِ الرَّبْ يُرْشِدَهُ للعمل في محلة دان بَيْنَ صُرعة وأشتأول (قض 13: 24، 25). تزوج شمشون بامرأة أممية، من مدينة تمنة، وحَدَثَ أَنَّهُ بينما كَانَ ذاهباً إليها إذ بشبل أسد يزمجر للقائه، فحل عَلَيْهِ رُوحِ الرَّبْ فشقه نصفين. وفي طَرِيقِ العودة نظر في جوف الأسد فوجد عسل نحل فَأَخَذَ مِنْهُ وأكل وأعطى أبويه. ذهب شمشون إلى تمنة مرة أخرى حَيْثُ أقيمت وليمة هناك، وقص عَلَى الفلسطينيين أحجية: \" مِنَ الآكل خَرَجَ أكل ومن الجافي خرجت حلاوة \". فَلَمْ يفهموا ما هُوَ المقصود، وقَالَوا لزوجته تملَّقي رجُلك لِكَيّْ يُظهر لنا الأحجية لئلا نحرقك وبيت أبيك بنار. فذهبت وألَحّت عَلَيْهِ باكية أَنَّ يخبرها بمعنى تلك الأحجية حَتَّى أخبرها. فَقَالَ لَهُ رجال المَدِينَةِ في اليَوْم السابع للوليمة: \" أي شيء أحلى مِنَ العسل وما أجفي مِنَ الأسد\". فَقَالَ لَهُمْ \" لو لَمْ تحرثوا عَلَى عجلتي لما وجدتم أحجيتي \". وحل عَلَيْهِ رُوحِ الرَّبْ فنزل إلى أشقلون وقتل مِنْهُمْ ثلاثين رجلاً. وحمى غضبه وصعد إلى بَيْتِ أبيه فصارت امْرَأَةْ شمشون لصاحبه (قض 14: 1 – الخ). فَلَمَّا عَادَ ليأَخَذَ زوجته، رَفَضَ والدها أَنَّ يعطيها له، وعرض عَلَيْهِ الزواج بأختها، فغَضِبَ شمشون وأحرق زرع الفلسطينيين وكل كرومهم، ونَزَلَ وأقَامَ في صخرة. ثُمَّ جَاءَ الفلسطينيون إلى يهوذا وطلبوا من رجالها أَنَّ يُسلِّموا لَهُمْ شمشون. فَمَضَى إلَيهِ ثَلاثَةْ آلاف رَجُلٍ من يهوذا وطلبوا مِنْهُ أَنَّ يذهب مَعْهُمْ ووعدوه أَنَّ لا يقعوا به، فأوثقوه بحبلين جديدين وأصعدوه مِنَ الصخرة. ولَمَّا التقى بالفلسطينيين حل عَلَيْهِ رُوحِ الرب، فانحل الوثاق عَن يَدَيْهِ ووجد لحى حمار طرياً، فَأَخَذَهُ وضرب بِهِ ألف رجل. وظل قاضياً عَلَى إسْرائِيلْ في أَيَّامٍ الفلسطينيين عشرين سَنَةْ (قض 15: 1 – الخ). ثُمَّ ذهب شمشون إلى غزة، وأخبروا أهلها بذلك، فأحاطوا بِهِ اللّيْلِ كُلَّهُ عِنْدَ باب المَدِينَةِ. فَقَامَ وأَخَذَ مِصْرْاعي باب المَدِينَةِ والقائمتين وقلعهما مَعَ العارضة ووضعها عَلَى كتفيه وصعد بِهَا إلى رأس الجبل، وطَلَبَ أقطاب الفلسطينيين من دليلة أَنَّ تعرف مِنْهُ سبب قوته، وبَعْدَ محاولات كَثِيرَة أخبرها بِكُلِّ ما في قلبه وقَالَ لَهَا \" لَمْ يَعلُ موسى رأسي لأني نذير الله من بطن أمي \". فمضت وأخبرت الفلسطينيين وأنامته عَلَى ركبتيها وحلقت خُصَل شعره، فضاعت قُوَّته وقبض عَلَيْهِ الفلسطينيون وقلعوا عينيه وأوثقوه بسلاسل نحاس وكَانَ يطحن في بَيْت السجن. اجْتَمَعَ أقطاب الفلسطينيين ليذبحوا لإلههم داجون، وقَالَوا قَدْ دفع إلهنا ليدنا شمشون عدوَّنا. ثُمَّ دعوا شمشون من بَيْت السجن وأوقفوه بَيْنَ الأعمدة ليلعب أمامهم وكَانَ قَدْ نبت شعره. فدعا الرَّبْ وقَالَ \" اُذكرني وشددني يا الله هَذِهِ المرة فقط، فأنتقم نقمة واحدة عَن عينيَّ مِنَ الفلسطينيين \". وقبض عَلَى العمودين المتوسطين وقَالَ \" لتمت نفسي مَعَ الفلسطينيين \". فسقط البيت ومات ثَلاثَةْ آلاف رجل. ومات شمشون. فنزل إخوته وصعدوا بِهِ ودَفَنُوهُ في قبر منوح أبيه (قض 16: 1 – الخ). بركته المُقَدَّسَةْ فَلْتَكُنْ مَعْنَا. آمْينْ.\nوفيه أيْضَاً تَمَّ نَقْلِ جَسَدِ القِدّيسْ يَعْقُوبْ الفارسي الشهير بالمقطَّع من مدينة غزة إلى ديار مِصْرْ حَيْثُ بُنيت عَلَى اسْمِهِ كِنِيسَةْ بمِصْرَ القَدِيمَةِِ ووُضع جسدُه فيها، وتجد خبر استشهاده تحت يوم 27 هاتور. بَرَكِةْ صَلَواتُهُ فَلْتَكُنْ مَعْنَا، ولِرَبِنَا المَجْدْ دائِمَاً أبَدِيَّاً آمْينْ.\n", 
+  "Nous commémorons aujourd’hui l’archange Gabriel (جبرائيل), le messager (المبشر). Il a mérité de porter à la sainte Vierge Marie l’annonce de la naissance du Fils unique.", 
+  "في هَذَا اليُومْ تُعَيِِّدُ الكَنيسَةْ بتِذْكَارْ رئيس الملائكة الجليل جبرائيل المبشِّر (قد يَكُونَ هَذَا التِذْكَارْ لتكريم رئيس الملائكة الجليل جبرائيل بَعْدَ الاحتفال بِعِيدِ البشارة يوم 29 برمهات)، الذي استحق أَنَّ يحمل البشارة بتجسُّد الابن الوحيد، إلى العَذْرَاءْ القِدِّيسَةْ مَرْيَمْ (لو 1: 26–38).", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "C’est lui qui auparavant avait annoncé au prophète Daniel le retour d’exil du peuple d’Israël ainsi que la venue du Christ pour le Salut du monde et la fin des sacrifices animaux. Il lui proclama aussi ce qui devait se passer à la fin des temps. De plus il prédit au prêtre Zacharie la naissance de Jean le baptiste, le précurseur. Nous devons l’honorer et lui demander d’intercéder en nôtre faveur.", 
+  "وهْوَ الذي سبق فأنبأ دانيال النبي عَن عودة الشَّعْبِ اليهودي مِنَ السبي (دا 9: 21– 25)، وعَنْ مجيء السَّيْد المَسِيحْ لخلاص العالم، وإبطال الذبائح (دا 9: 25 – 27)، وعَمَّا سَيَحْدُثُ في الأَيَّامْ الأَخِيرَةِ (دانيال إصحاحات 10، 11، 12). كَمَا أَنَّهُ بشَّر زَكَرِيَّا الكاهن بِمِيلادِ يُوحَنّا المِعْمِدَانْ السابق الصابغ (لو 1: 11–20). فلهذا نكرمه ونطلب شفاعته في كُلِّ حين.", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "Que sa sainte intercession soit avec nous. Amen !", 
+  "شفاعته المُقَدَّسَةْ فَلْتَكُنْ مَعْنَا، آمْينْ.", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "Nous commémorons aussi en ce jour le décès de Samson (شمشون), l’un des juges d’Israël.", 
+  "وفيه أيْضَاً تَنَيَّحَ شمشون أحَدْ قضاة بني إسرائيل.", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "Il était de la tribu de Dane (سبط دان) et il naquit à Soréa (صُرعة) après que sa naissance ait été annoncée à sa mère stérile par un ange du Seigneur. Il lui dit aussi « garde-toi de boire du vin ou d'autre boisson enivrante ... et le fer (le rasoir) ne passera point sur sa tête, parce qu’il sera Nazir de Dieu (نذير الله) ». L’ange apparut aussi à son père Manoah (منوح) et lui fit la même annonce. « Et la femme accoucha d'un fils qu'elle nomma Samson ; l’enfant devint grand, et le Seigneur le bénit. Et au camp de Dane, l'Esprit du Seigneur commença à l'accompagner entre Soréa et Eshtaol. »", 
+  "وهْوَ من سبط دان ووُلِدَ في صُرعة (صرعة مدينة عَلَى ساحل يهوذا وتبعد 14 ميلاً غربي القدس أورشليم، بإعلان إلهي إذ ظَهَرَ مَلاكُ الرَّبِ لوالدته العاقر وبشَّرها بميلاده، وأَمَرَهَا أَنْ تَتَجَنَبْ الخمر والمُسْكِرْ، ولا تَحْلِقْ رَأْسَهُ لِأَنَّهُ يَكُونَ نَذِيرَاً لله (قض 13: 3–5). كَمَا ظَهَرَ لوالده منوح وكَلَّمَهُ بِنَفْسِ البشارة (قض 13: 11 – 20). فحبلت المرأة وولدت شمشون، فكبر الصبي وبَارَكَهُ الرَبُّ، وابْتَدَأَ رُوحِ الرَّبْ يُرْشِدَهُ للعمل في مَحَلَّةِ دان بَيْنَ صُرعة وأشتأول\" (قض 13: 24، 25). تَزَوَّجَ شمشون بامرأة أممية، من مدينة تمنة، وحَدَثَ أَنَّهُ بَيْنَمَا كَانَ ذاهباً إليها إذ بشبل أسد يزمجر للقائه، فحل عَلَيْهِ رُوحِ الرَّبْ فشقه نصفين. وفي طَرِيقِ العودة نظر في جوف الأسد فوجد عسل نحل فَأَخَذَ مِنْهُ وأكل وأعطى أبويه. ذهب شمشون إلى تمنة مرة أخرى حَيْثُ أقيمت وليمة هناك، وقص عَلَى الفلسطينيين أحجية: مِنَ الآكل خَرَجَ أكل ومن الجافي خرجت حلاوة . فَلَمْ يفهموا ما هُوَ المقصود، وقَالَوا لزوجته تملَّقي رجُلك لِكَيّْ يُظهر لنا الأحجية لئلا نحرقك وبيت أبيك بنار. فذهبت وألَحّت عَلَيْهِ باكية أَنَّ يخبرها بمعنى تلك الأحجية حَتَّى أخبرها. فَقَالَ لَهُ رجال المَدِينَةِ في اليَوْم السابع للوليمة: أي شيء أحلى مِنَ العسل وما أجفي مِنَ الأسد. فَقَالَ لَهُمْ لو لَمْ تحرثوا عَلَى عجلتي لما وجدتم أحجيتي . وحل عَلَيْهِ رُوحِ الرَّبْ فنزل إلى أشقلون وقتل مِنْهُمْ ثلاثين رجلاً. وحمى غضبه وصعد إلى بَيْتِ أبيه فصارت امْرَأَةْ شمشون لصاحبه (قض 14: 1 – الخ). فَلَمَّا عَادَ ليأَخَذَ زوجته، رَفَضَ والدها أَنَّ يعطيها له، وعرض عَلَيْهِ الزواج بأختها، فغَضِبَ شمشون وأحرق زرع الفلسطينيين وكل كرومهم، ونَزَلَ وأقَامَ في صخرة. ثُمَّ جَاءَ الفلسطينيون إلى يهوذا وطلبوا من رجالها أَنَّ يُسلِّموا لَهُمْ شمشون. فَمَضَى إلَيهِ ثَلاثَةْ آلاف رَجُلٍ من يهوذا وطلبوا مِنْهُ أَنَّ يذهب مَعْهُمْ ووعدوه أَنَّ لا يقعوا به، فأوثقوه بحبلين جديدين وأصعدوه مِنَ الصخرة. ولَمَّا التقى بالفلسطينيين حل عَلَيْهِ رُوحِ الرَبّ، فانحل الوثاق عَن يَدَيْهِ ووجد لحى حمار طرياً، فَأَخَذَهُ وضرب بِهِ ألف رجل. وظل قاضياً عَلَى إسْرائِيلْ في أَيَّامٍ الفلسطينيين عشرين سَنَةْ (قض 15: 1 – الخ). ثُمَّ ذهب شمشون إلى غزة، وأخبروا أهلها بذلك، فأحاطوا بِهِ اللّيْلِ كُلَّهُ عِنْدَ باب المَدِينَةِ. فَقَامَ وأَخَذَ مِصْرْاعي باب المَدِينَةِ والقائمتين وقلعهما مَعَ العارضة ووضعها عَلَى كتفيه وصعد بِهَا إلى رأس الجبل، وطَلَبَ أقطاب الفلسطينيين من دليلة أَنَّ تعرف مِنْهُ سبب قوته، وبَعْدَ محاولات كَثِيرَة أخبرها بِكُلِّ ما في قلبه وقَالَ لَهَا لَمْ يَعلُ موسى رأسي لأني نذير الله من بطن أمي . فمضت وأخبرت الفلسطينيين وأنامته عَلَى ركبتيها وحلقت خُصَل شعره، فضاعت قُوَّته وقبض عَلَيْهِ الفلسطينيون وقلعوا عينيه وأوثقوه بسلاسل نحاس وكَانَ يطحن في بَيْت السجن. اجْتَمَعَ أقطاب الفلسطينيين ليذبحوا لإلههم داجون، وقَالَوا قَدْ دفع إلهنا ليدنا شمشون عدوَّنا. ثُمَّ دعوا شمشون من بَيْت السجن وأوقفوه بَيْنَ الأعمدة ليلعب أمامهم وكَانَ قَدْ نبت شعره. فدعا الرَّبْ وقَالَ اُذكرني وشددني يا الله هَذِهِ المرة فقط، فأنتقم نقمة واحدة عَن عينيَّ مِنَ الفلسطينيين . وقبض عَلَى العمودين المتوسطين وقَالَ لتمت نفسي مَعَ الفلسطينيين . فسقط البيت ومات ثَلاثَةْ آلاف رجل. ومات شمشون. فنزل إخوته وصعدوا بِهِ ودَفَنُوهُ في قبر منوح أبيه (قض 16: 1 – الخ). بركته المُقَدَّسَةْ فَلْتَكُنْ مَعْنَا، آمْينْ. وفيه أيْضَاً تَمَّ نَقْلِ جَسَدِ القِدّيسْ يَعْقُوبْ الفارسي الشهير بالمقطَّع من مدينة غزة إلى ديار مِصْرْ حَيْثُ بُنيت عَلَى اسْمِهِ كِنِيسَةْ بمِصْرَ القَدِيمَةِِ ووُضع جسدُه فيها، وتجد خبر استشهاده تحت يوم 27 هاتور. بَرَكِةْ صَلَواتُهُ فَلْتَكُنْ مَعْنَا، ولِرَبِنَا المَجْدْ دائِمَاً أبَدِيَّاً آمْينْ.", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "Samson épousa une païenne de Timna (تمنة). En chemin pour la retrouver, « voici venir à sa rencontre un jeune lion rugissant. L'Esprit du Seigneur s'élança sur Samson, qui broya le lionceau comme il eût broyé une jeune chèvre ; or, il n'avait rien dans les mains. » Quelques jours plus tard il repassa par là. « Il se détourna pour voir le cadavre du lion, et voilà qu'il y avait dans sa gueule un essaim d'abeilles et du miel. II prit du miel dans ses mains, et il s'en alla en mangeant. Quand il eût rejoint son père et sa mère, il leur en donna, et ils en mangèrent. »", 
+  "", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "Samson se rendit à nouveau à Timna où il y eût un festin. Il proposa aux Philistins une énigme en disant : « L’aliment a été tiré du mangeur ; la douceur de la force. » Comme ils ne trouvaient pas la solution, ils demandèrent à la jeune femme « Trompe ton mari, et qu'il t'explique l'énigme ; sinon nous te livrerons aux flammes, toi et la maison de ton père. » Alors elle pleura auprès de son époux qui finit par lui donner la solution. Le septième jour du festin, les habitants de la ville lui dirent : « ‘Qu'y a-t-il de plus doux que le miel ? Qu'y a-t-il de plus fort que le lion ?’ Et Samson leur dit : ‘Si vous n'aviez point labouré avec ma génisse, vous ne sauriez point mon énigme.’ Aussitôt, l'Esprit du Seigneur s'élança sur lui ; il alla en Ascalon, il y tua trente hommes, puis il prit leurs vêtements, et il donna leurs tuniques changeantes à ceux qui avaient expliqué l’énigme. Et Samson fût courroucé, et il revint à la maison de son père. Et la femme de Samson épousa l’un des amis qu'il aimait. » Alors Samson se mit en colère et il brûla leur plantation et leur vignoble puis il s’installa dans un rocher.", 
+  "", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "Les philistins partirent en campagne contre Juda et demandèrent que Samson leur soit livré. Alors, trois mille hommes allèrent demander à Samson de revenir avec eux et lui promirent de ne pas le tuer eux-mêmes. Ils le lièrent donc avec deux cordes neuves, et ils l'enlevèrent de cette roche. Dès qu’il retrouva les philistins, l'Esprit du Seigneur s'élança sur lui, ... et les liens de ses mains se rompirent. Et il trouva à terre une mâchoire d'âne, et il étendit la main, et il la ramassa, et, avec cette mâchoire, il tua mille hommes. Samson jugea pendant vingt ans Israël à l’époque des Philistins.", 
+  "", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "Une fois qu’il se rendit à Gaza ils l’entourèrent, et ils l’épièrent à la porte de la ville, et ils ne bougèrent pas de toute la nuit. S’étant levé il prit les portes de la ville avec les deux jambages ; puis, les soulevant à l'aide du verrou, il les mit sur ses épaules. Alors, il monta au sommet de la montagne, où il les déposa.", 
+  "", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "Les chefs des Philistins demandèrent à Dalila de leur faire connaitre le secret de la force de Samson. Après plusieurs tentatives, il finit par lui ouvrir tout son cœur et lui dit : « Jamais le fer (le rasoir) n'a passé sur ma tête, parce que, depuis les entrailles de ma mère, je suis consacré au Seigneur. » Elle alla en informer les Philistins puis, l’ayant endormi, elle lui rasa tresses de sa tête. Les Philistins le saisirent, lui arrachèrent les yeux, et le transportèrent à Gaza, où ils le mirent en prison avec des entraves d'airain aux pieds ; enfin, ils lui firent tourner la meule, dans la maison du geôlier.", 
+  "", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "Les chefs des Philistins étaient réunis pour offrir un grand sacrifice a Dagon leur dieu, et pour se réjouir. Ils disaient « Dieu a livré à nos mains Samson nôtre ennemi ». Ils le firent venir pour qu’il les divertisse et le placèrent entre les colonnes. Or ses cheveux commençaient à pousser. Alors, il invoqua le Seigneur en disant : « Souviens-Toi de moi, et rends-moi encore une fois mes forces, ô mon Dieu ! Qu'une fois au moins je tire vengeance des Philistins, pour mes deux yeux. » Alors il saisit les deux colonnes du milieu et s’écria : « Mort à moi et aux Philistins ! » Et le temple s’écroula sur tous ceux qui s’y trouvait et plus de trois mille hommes moururent en même temps que Samson.", 
+  "", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "Ses frères vinrent le prendre et ils l’ensevelirent entre Soréa et Eshtaol, dans le sépulcre de Manoah son père.", 
+  "", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "Que la bénédiction de ses prières soit avec nous. Amen !", 
+  "",
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "Nous commémorons aussi aujourd’hui la translation des reliques de saint Jacques le persan surnommé l’Intercis (يعقوب الفارسي المعروف بالمقَطَّع).", 
+  "", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "Celles-ci se trouvaient à Gaza et furent transférées en Egypte où elles furent déposées dans une église construite à son nom au vieux Caire. L’histoire de sa vie et de son martyre se trouve dans le Synaxaire du 27 Athor.", 
+  "", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "Que la bénédiction de ses prières soit avec nous et gloire soit à nôtre Seigneur, éternellement. Amen !", 
+  "", 
   ],
   ],
   [
   [
   Prefix.synaxarium+"&D=0108&C=Title", 
   "1 Parmouté\n1) décès de saint Silvain, le moine ;\n2) Décès d'Aaron le prêtre", 
-  "1 برمودة\nنِيَاحَةْ القِدّيسْ سلوانس الراهب\nنِيَاحَةْ هارون الكاهن\nتِذْكَارْ غارة عُربان الصَعِيدِ عَلَى برية شيهيت\n", 
+  "1 برمودة\nنِيَاحَةْ القِدّيسْ سلوانس الراهب\nنِيَاحَةْ هارون الكاهن\nتِذْكَارْ غارة عُربان الصَعِيدِ عَلَى بَرِّيَّةِ شِيهِيتْ", 
   ],
   [
   Prefix.same+"&C=NoActor", 
   "Nous commémorons aujourd'hui le décès de saint Silvain, le moine (القديس سلوانس الراهب). Dès son plus jeune âge il fût moine au monastère de saint Macaire le grand (دير القِدّيس مكاريوس الكبير) dans la vallée de Scété. Il emprunta le chemin étroit en jeûnant longuement et en pratiquant la veille et l’ascétisme avec humilité et amour du prochain. Il quitta la vallée en 407 après Jésus Christ à cause de la première agression des berbères et se rendit en Sinaï puis il revint à Scété pour accomplir son combat.", 
-  "في مِثْلِ هَذَا اليَومْ تَنَيَّحَ الأبْ القِدّيسْ سلوانس الراهب. تَرَهَّبَ هَذَا القِدّيسْ منذ صغره عَلَى يَدِِّ القِدّيسْ الأنبا مكاريوس الكبير ببرية شيهيت. وسَارَ في كُلِّ طريق ضيِّق، بالصوم الطويل والسهر الكثير والنُسك الزائد والاتضاع والمحبة. وقَدْ تَرَكَ البَرِّيَة سَنَةْ 407م، أَثْنَاءَ غارة البربر الأولى، وذهب إلى سيناء ثُمَّ عَادَ إلى شيهيت حَيْثُ أكْمَلَ جِهَادَهُ فِيهَا.", 
+  "في مِثْلِ هَذَا اليَومْ تَنَيَّحَ الأبْ القِدّيسْ سلوانس الراهب. تَرَهَّبَ هَذَا القِدّيسْ منذ صغره عَلَى يَدِِّ القِدّيسْ الأنبا مكاريوس الكبير ببرية شِيهِيتْ. وسَارَ في كُلِّ طريق ضيِّق، بالصوم الطويل والسهر الكثير والنُسك الزائد والاتضاع والمحبة. وقَدْ تَرَكَ البَرِّيَة سَنَةْ 407م، أَثْنَاءَ غارة البربر الأولى، وذهب إلى سيناء ثُمَّ عَادَ إلى شِيهِيتْ حَيْثُ أكْمَلَ جِهَادَهُ فِيهَا.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -14525,7 +14805,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Lorsqu’Aaron et sa sœur Miryam (مريم) critiquèrent Moïse parce que celui-ci avait épousé une kushite (المرأة الكوشية), Miryam devint lépreuse. Aaron se repentit et implora la miséricorde du Seigneur qui leur pardonna à tous les deux.", 
-  "ولما تكلم هارون ومريم أخته رديئاً عَلَى موسى عِنْدَمَا تزوج بالمرأة الكوشية (عدد 12: 1 – الخ)، اُصيبت مَرْيَمْ بالبرص، أما هارون فطلب رحمة الرَّبْ واعترف بالخطأ، فغفر لَهُ ولأخته.", 
+  "ولما تكلم هارون ومريم أخته رديئاً عَلَى موسى عِنْدَمَا تَزَوَّجَ بالمرأة الكوشية (عدد 12: 1 – الخ)، اُصيبت مَرْيَمْ بالبرص، أما هارون فطلب رحمة الرَّبْ واعترف بالخطأ، فغفر لَهُ ولأخته.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -14550,7 +14830,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "En ce jour de l’an 582 des martyrs (866 après Jésus Christ) les bédouins de haute Égypte (عُربان الصعيد) agressèrent la vallée de Scété (برية شهيت), celle de saint Macaire (إسقيط القِدّيس مكاريوس). Ils pillèrent le contenu des églises et des monastères. Les moines se réunirent, prièrent, implorèrent l'intercession de la sainte Vierge. Dieu exauça ces prières et chassa les agresseurs. Ainsi, les moines furent sauvés de leurs méfaits.", 
-  "وفيه أيْضَاً مِنْ سَنَةْ 582 لِلْشُهَداءِ (866م)، أغار عُربان الصَعِيدِ عَلَى برية شيهيت، إسقيط القِدّيسْ مكاريوس، ونهبوا الكَنَائِسْ والأديرة. فصلى الآبَاءِ وتشفعوا بِالقِدِّيسَةِ العَذْرَاءْ مَرْيَمْ والملائكة والقديسين، فاستجاب الله لهذه الصلوات وطردهم ونجَّى الرُهْبانْ من شرِّهم.", 
+  "وفيه أيْضَاً مِنْ سَنَةْ 582 لِلْشُهَداءِ (866م)، أغار عُربان الصَعِيدِ عَلَى بَرِّيَّةِ شِيهِيتْ، إسقيط القِدّيسْ مكاريوس، ونهبوا الكَنَائِسْ والأديرة. فصلى الآبَاءِ وتشفعوا بِالقِدِّيسَةِ العَذْرَاءْ مَرْيَمْ والملائكة والقديسين، فاستجاب الله لهذه الصلوات وطردهم ونجَّى الرُهْبانْ من شرِّهم.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -14561,8 +14841,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=0208&C=Title", 
-  "2 Parmouté\n1) Martyre de saint Christophe ;\n2) Décès du Pape Jean IX\n", 
-  "2 برمودة\nاسْتِشْهَادْ القِدّيسْ خرستوفورس\nنِيَاحَةْ القِدّيسْ البابا يوأنس التاسع\n", 
+  "2 Parmouté\n1) Martyre de saint Christophe ;\n2) Décès du Pape Jean IX", 
+  "2 برمودة\nاسْتِشْهَادْ القِدّيسْ خرستوفورس\nنِيَاحَةْ القِدّيسْ البابا يوأنس التاسع", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -14624,12 +14904,12 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0308&C=Title", 
   "3 Parmouté\n1) Décès du pape Michel II ;\n2) Décès de saint Jean, l’évêque de Jérusalem", 
-  "3 برمودة\nنِيَاحَةْ القِدّيسْ البابا ميخائيل الثاني\nنِيَاحَةْ القِدّيسْ يُوحَنَّا أُسْقُفْ أورشليم\n", 
+  "3 برمودة\nنِيَاحَةْ القِدّيسْ البابا ميخائيل الثاني\nنِيَاحَةْ القِدّيسْ يُوحَنَّا أُسْقُفْ أورشليم", 
   ],
   [
   Prefix.same+"&C=NoActor", 
   "En ce jour de l’an 862 des martyrs (1146 après Jésus Christ) décéda le pape Michel II (البابا ميخائيل الثاني), le soixante-et-onzième patriarche de la prédication de saint Marc. Ce père naquit à Dakadôs (دقادوس) et, lorsqu’il grandit, il devint moine au monastère de saint Macaire le grand (دير القِدّيس مكاريوس الكبير) à Scété. Ensuite il mena une vie d’ascétisme en s’adonnant à la prière et aux lectures saintes et il fût réputé pour sa vertu.", 
-  "في مِثْلِ هَذا اليَومْ مِنْ سَنَةْ 862 لِلْشُهَداءِ (1146م)، تَنَيَّحَ القِدّيسْ البابا ميخائيل الثاني البَطْرِيَرْكْ الحادي والسبعون مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة. وُلِدَ هَذَا الأبْ بقرية دقادوس (دقادوس: قرية ملاصقة لمدينة ميت غمر بِمُحَافَظَةِ الدقهلية. واسمها مأخوذ من ثيئوتوكوس أي والدة الإله وما زالت بِهَا كِنِيسَةْ أثرية بِاسْمِ والدة الإله العَذْرَاءْ مريم). ولَمَّا كَبُرَ تَرَهَّبَ بِدِيرْ القِدّيسْ مكاريوس الكبير ببرية شيهيت. فَعَاشَ في نُسْكٍ زائد، مواظباً عَلَى الصَلاةِ والقراءة إلى أَنَّ ذَاعَ صيت فضائله.", 
+  "في مِثْلِ هَذا اليَومْ مِنْ سَنَةْ 862 لِلْشُهَداءِ (1146م)، تَنَيَّحَ القِدّيسْ البابا ميخائيل الثاني البَطْرِيَرْكْ الحادي والسبعون مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة. وُلِدَ هَذَا الأبْ بقرية دقادوس (دقادوس: قرية ملاصقة لمدينة ميت غمر بِمُحَافَظَةِ الدقهلية. واسمها مأخوذ من ثيئوتوكوس أي والدة الإله وما زالت بِهَا كِنِيسَةْ أثرية بِاسْمِ والدة الإله العَذْرَاءْ مريم). ولَمَّا كَبُرَ تَرَهَّبَ بِدِيرْ القِدّيسْ مكاريوس الكبير ببرية شِيهِيتْ. فَعَاشَ في نُسْكٍ زائد، مواظباً عَلَى الصَلاةِ والقراءة إلى أَنَّ ذَاعَ صيت فضائله.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -14644,7 +14924,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Mais la période durant laquelle ce pape siégea sur le trône apostolique fût de courte durée. Il tomba malade et se rendit à Scété où il décéda en paix après avoir siégé huit mois.", 
-  "إلا أَنَّ أَيَّامٍ هَذَا البابا كَانَتْ قصيرة، إذ أَنَّهُ قَدْ أُصيب بالمرض، الأَمْرِ الذي اضطره للعودة إلى برية شيهيت، وهُنَاكَ تَنَيَّحَ بِسَلامٍ، بَعْدَ أَنَّ أقَامَ عَلَى الكُرْسِي ثمانية شهور.", 
+  "إلا أَنَّ أَيَّامٍ هَذَا البابا كَانَتْ قصيرة، إذ أَنَّهُ قَدْ أُصيب بالمرض، الأَمْرِ الذي اضطره للعودة إلى بَرِّيَّةِ شِيهِيتْ، وهُنَاكَ تَنَيَّحَ بِسَلامٍ، بَعْدَ أَنَّ أقَامَ عَلَى الكُرْسِي ثمانية شهور.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -14676,7 +14956,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0408&C=Title", 
   "4 Parmouté\n1) Martyre de saint Victor, saint Acace, saint Dèce, sainte Iriny la vierge ainsi que de nombreuses personnes, hommes et femmes, qui les accompagnaient ;\n2) Décès de saint Eugine", 
-  "4 برمودة\nشهادة القِدِّيسْينْ بقطر وأكاكيوس وداكيوس وإيريني العَذْرَاءْ ومن مَعْهُمْ من رجال ونساء وعذارى\nنِيَاحَةْ القِدّيسْ أوكين\n", 
+  "4 برمودة\nشهادة القِدِّيسْينْ بقطر وأكاكيوس وداكيوس وإيريني العَذْرَاءْ ومن مَعْهُمْ من رجال ونساء وعذارى\nنِيَاحَةْ القِدّيسْ أوكين", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -14696,7 +14976,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de ses prières soit avec nous. Amen !", 
-  "بركة صلواتهم فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة صلواتهم فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -14733,7 +15013,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0508&C=Title", 
   "5 Parmouté\n1) Martyre du prophète Ezéchiel fils de Buzi ;\n2) Martyre de saint Hypatius, évêque de Gangre", 
-  "5 برمودة\nاسْتِشْهَادْ النبي حزقيال بن بوزي\nاسْتِشْهَادْ القِدّيسْ هيباتيوس أُسْقُفْ غنغرة\n", 
+  "5 برمودة\nاسْتِشْهَادْ النبي حزقيال بن بوزي\nاسْتِشْهَادْ القِدّيسْ هيباتيوس أُسْقُفْ غنغرة", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -14789,8 +15069,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=0608&C=Title", 
-  "6 Parmouté\nDécès de sainte Marie l’égyptienne, l’anachorète\n", 
-  "6 برمودة\nتِذْكَارْ نِياحَةْ القِدِّيسَةْ مَرْيَمْ المصرية السائحة\n", 
+  "6 Parmouté\nDécès de sainte Marie l’égyptienne, l’anachorète", 
+  "6 برمودة\nتِذْكَارْ نِياحَةْ القِدِّيسَةْ مَرْيَمْ المصرية السائحة", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -14847,7 +15127,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0708&C=Title", 
   "7 Parmouté\n1) Décès de Joachim le juste, le père de la sainte Vierge Marie ;\n2) Décès de saint Macrobe ;\n3) Martyre de saint Agapius et sainte Théodora", 
-  "7 برمودة\nنِيَاحَةْ الصديق يواقيم والد القِدِّيسَةْ العَذْرَاءْ مريم\nنِيَاحَةْ القِدّيسْ مقروفيوس\nاسْتِشْهَادْ القِدِّيسْينْ أغابيوس وثيئودورة\n", 
+  "7 برمودة\nنِيَاحَةْ الصديق يواقيم والد القِدِّيسَةْ العَذْرَاءْ مريم\nنِيَاحَةْ القِدّيسْ مقروفيوس\nاسْتِشْهَادْ القِدِّيسْينْ أغابيوس وثيئودورة", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -14904,7 +15184,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0808&C=Title", 
   "8 Parmouté\n1) Martyre des vierges, saintes Agapé, Irène et Chiona ;\n2) Martyre de 150 fidèles tués par le roi des perses", 
-  "8 برمودة\nاسْتِشْهَادْ العذارى القِدِّيْسْات أغابي وإيريني وشيونيه\nاسْتِشْهَادْ المائة والخمسين مؤمناً عَلَى يَدِِّ ملك الفرس\n", 
+  "8 برمودة\nاسْتِشْهَادْ العذارى القِدِّيْسْات أغابي وإيريني وشيونيه\nاسْتِشْهَادْ المائة والخمسين مؤمناً عَلَى يَدِِّ ملك الفرس", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -14919,7 +15199,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de ses prières soit avec nous. Amen !", 
-  "بركة صلواتهن فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة صلواتهن فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -14936,7 +15216,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0908&C=Title", 
   "9 Parmouté\n1) Décès de saint Zosime, le prêtre ;\n2) Commémoration du grand miracle que Dieu accomplit par l’intermédiaire du pape Chénouda 1er, le 55ème patriarche", 
-  "9 برمودة\nنِيَاحَةْ القِدّيسْ الأنبا زوسيما القس\nتِذْكَارْ الأعجوبة التي صُنعَت عَلَى يَدِِّ القِدّيسْ البابا شنوده الأول\n", 
+  "9 برمودة\nنِيَاحَةْ القِدّيسْ الأنبا زوسيما القس\nتِذْكَارْ الأعجوبة التي صُنعَت عَلَى يَدِِّ القِدّيسْ البابا شنوده الأول", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -14983,12 +15263,12 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1008&C=Title", 
   "10 Parmouté\n1) Décès d’abba Isaac, le disciple d’abba Apollo ;\n2) Décès du pape Gabriel II", 
-  "10 برمودة\nنِيَاحَةْ الأنبا إيساك تِلْمِيذْ الأنبا أبُلوس\nنِيَاحَةْ القِدّيسْ البابا غُبْرِيَالْ الثاني\n", 
+  "10 برمودة\nنِيَاحَةْ الأنبا إيساك تِلْمِيذْ الأنبا أبُلوس\nنِيَاحَةْ القِدّيسْ البابا غُبْرِيَالْ الثاني", 
   ],
   [
   Prefix.same+"&C=NoActor", 
   "Nous commémorons aujourd’hui le décès du père combattant abba Isaac (أنبا ايساك), le disciple d’abba Apollo (أنبا أبُلوس). Ce saint méprisa le monde dès sa jeunesse et il devint moine à Scété. Il fût disciple d’abba Apollo pendant 25 ans pendant lesquels il lutta pour se débarrasser des désirs du corps. Il acquit les vertus du silence et du calme durant les prières De plus, il avait pris l’habitude de demeurer debout silencieux avec les bras croisés et la tête inclinée pendant toute la liturgie eucharistique. Ensuite, il retournait s’enfermer dans sa cellule et ne rencontrait personne ce jour-là. Lorsqu’on lui demanda : \"Pourquoi ne dis-tu rien à personne pendant la prière et la liturgie eucharistique ? » il répondit : \"Il y a un temps pour parler et un autre pour prier. »", 
-  "في مِثْلِ هَذَا اليَومْ تَنَيَّحَ الأبْ المُجَاهِد الأنبا إيساك تِلْمِيذْ الأبْ الكبير الأنبا أبُلوس. وقَدْ زهد هَذَا القِدّيسْ العالم منذ صباه. وتَرَّهَبَ في برية شيهيت عَلَى يَدِِّ الأنبا أبُلوس، مُدَةِ خمس وعشرين سَنَةً، أجهد نَفْسَهُ فِيهَا جهاداً عنيفاً. كَمَا أَنَّهُ أتقن فضيلة الصمت والهدوء أَثْنَاءَ الصلوات والقداسات. وكَانَ من عادته وقت القداس أَنَّ يظل مكتوف اليدين خافضاً رأسه حَتَّى نهاية الصَلاةِ، ثُمَّ يعود إلى قلايته ويُغلق بابها، ولا يقابل أحداً في ذَلِكْ اليَوْم. ولَمَّا سألوه: 'لماذا لا تكلم من يُرِيدُ الكلام معك وقت الصَلاةِ أو القداس'، أجابهم قائلاً: 'للكلام وقت وللصلاة وقت'.", 
+  "في مِثْلِ هَذَا اليَومْ تَنَيَّحَ الأبْ المُجَاهِد الأنبا إيساك تِلْمِيذْ الأبْ الكبير الأنبا أبُلوس. وقَدْ زهد هَذَا القِدّيسْ العالم منذ صباه. وتَرَّهَبَ في بَرِّيَّةِ شِيهِيتْ عَلَى يَدِِّ الأنبا أبُلوس، مُدَةِ خمس وعشرين سَنَةً، أجهد نَفْسَهُ فِيهَا جهاداً عنيفاً. كَمَا أَنَّهُ أتقن فضيلة الصمت والهدوء أَثْنَاءَ الصلوات والقداسات. وكَانَ من عادته وقت القداس أَنَّ يظل مكتوف اليدين خافضاً رأسه حَتَّى نهاية الصَلاةِ، ثُمَّ يعود إلى قلايته ويُغلق بابها، ولا يقابل أحداً في ذَلِكْ اليَوْم. ولَمَّا سألوه: 'لماذا لا تكلم من يُرِيدُ الكلام معك وقت الصَلاةِ أو القداس'، أجابهم قائلاً: 'للكلام وقت وللصلاة وقت'.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -15013,7 +15293,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Vers la fin du pontificat du pape Macaire (البابا مكاريوس), on rapporta au calife que les coptes utilisaient l’argent des églises pour approvisionner les Francs (الإفرنج) en secret. Ceci le mit en colère et il donna l’ordre que cet argent soit saisi et déposé dans le trésor public (بيت المال). A cause de cela, les coptes durent donc attendre deux ans pour demander l’autorisation nécessaire pour cette élection. En effet, ceux qui avaient déclenché cette sédition avaient été tués et le calme était revenu. Finalement, le calife donna son autorisation. En conséquence, un groupe de fidèles se rendit dans la vallée de saint Macaire où ils rencontrèrent Abba Joseph (الأنبا يوسف), l’abbé du monastère de saint Jean Kamé (دير القِدّيس أنبا يوأنس كاما) qui leur demanda de retourner au Caire car celui qui avait été choisi par Dieu est le diacre Abou-l-‘élaa Saéd ibn Tourayk. Alors ils emmenèrent Abou-l-‘élaa du Caire vers Alexandrie où il fût consacré le 9 Méchir 847 des martyrs (1131 après Jésus Christ). Il avait atteint l’âge de quarante-sept ans et il prit le nom de Gabriel II.", 
-  "وفي أواخر حَيَاةِ البابا مكاريوس، كَانَ بديوان الخليفة من وَشى لَهُ بِأنَّ الأقباط يأخذون أموال الكَنَائِسْ ويمدون بِهَا الإفرنج سراً. فغَضِبَ الخليفة وأَمَرَ بأخذها إلى بَيْتِ المال. لذلك لَمْ يجسر الأقباط عَلَى الاستئذان في انتخاب البَطْرِيَرْكْ الجديد. وانتظروا ما يقرب سنتين حَتَّى قتل الّذِينَ وشوا بالأقباط، فهدأت الأحوال. فأذن لَهُمْ الخليفة برسامة بطريرك. عندئذ ذهب مجموعة مِنَ الشَّعْبِ إلى برية القِدّيسْ مكاريوس وهُنَاكَ تقابلوا مَعَ الأنبا يوسف أب دير القِدّيسْ أنبا يوأنس كاما، فَقَالَ لهم: 'عودوا يا أولادي إلى مِصْرْ لِأنَّ المختار مِنَ الله هُوَ الشماس أبو العلا بن تُريك'. فعادوا إلى مِصْرْ وأخذوا أبا العلا إلى الإسْكَنْدَرِيَّة ورُسِمَ في التاسع من أمشير سَنَةْ 847 لِلْشُهَداءِ (1131م). وكَانَ عُمْرِهِ حِينَئِذٍ سبعاً وأربعين سَنَةْ وسُميّ غُبْرِيَالْ الثاني.", 
+  "وفي أواخر حَيَاةِ البابا مكاريوس، كَانَ بديوان الخليفة من وَشى لَهُ بِأنَّ الأقباط يأخذون أموال الكَنَائِسْ ويمدون بِهَا الإفرنج سراً. فغَضِبَ الخليفة وأَمَرَ بأخذها إلى بَيْتِ المال. لذلك لَمْ يجسر الأقباط عَلَى الاستئذان في انتخاب البَطْرِيَرْكْ الجديد. وانتظروا ما يقرب سنتين حَتَّى قتل الّذِينَ وشوا بالأقباط، فهدأت الأحوال. فأذن لَهُمْ الخليفة برسامة بطريرك. عندئذ ذهب مجموعة مِنَ الشَّعْبِ إلى بَرِّيَّةِ القِدّيسْ مكاريوس وهُنَاكَ تقابلوا مَعَ الأنبا يوسف أب دير القِدّيسْ أنبا يوأنس كاما، فَقَالَ لهم: 'عودوا يا أولادي إلى مِصْرْ لِأنَّ المختار مِنَ الله هُوَ الشماس أبو العلا بن تُريك'. فعادوا إلى مِصْرْ وأخذوا أبا العلا إلى الإسْكَنْدَرِيَّة ورُسِمَ في التاسع من أمشير سَنَةْ 847 لِلْشُهَداءِ (1131م). وكَانَ عُمْرِهِ حِينَئِذٍ سبعاً وأربعين سَنَةْ وسُميّ غُبْرِيَالْ الثاني.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -15060,7 +15340,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1108&C=Title", 
   "11 Parmouté\n1) Décès de sainte Théodora ;\n2) Décès de saint Jean, l’évêque de Gaza", 
-  "11 برمودة\nنِيَاحَةْ القِدِّيسَةْ ثيئودورا\nنِيَاحَةْ القِدّيسْ يُوحَنَّا أُسْقُفْ غزة\n", 
+  "11 برمودة\nنِيَاحَةْ القِدِّيسَةْ ثيئودورا\nنِيَاحَةْ القِدّيسْ يُوحَنَّا أُسْقُفْ غزة", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -15130,7 +15410,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de ses prières soit avec nous. Amen !", 
-  "بركة صلواتها فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة صلواتها فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -15147,7 +15427,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1208&C=Title", 
   "12 Parmouté\n1) Commémoration de l’archange Michel ;\n2) Décès de saint Alexandre le confesseur, l’évêque de Jérusalem ;\n2) Décès de saint Antoine, l’évêque de Thmoui", 
-  "12 برمودة\nتِذْكَارْ رئيس الملائكة الجليل ميخائيل\nنِيَاحَةْ القِدّيسْ ألكسندروس المعترف أُسْقُفْ أورشليم\nنِيَاحَةْ القِدّيسْ أنطونيوس أُسْقُفْ طمويه\n", 
+  "12 برمودة\nتِذْكَارْ رئيس الملائكة الجليل ميخائيل\nنِيَاحَةْ القِدّيسْ ألكسندروس المعترف أُسْقُفْ أورشليم\nنِيَاحَةْ القِدّيسْ أنطونيوس أُسْقُفْ طمويه", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -15157,7 +15437,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que sa sainte intercession soit avec nous. Amen !", 
-  "بركة شفاعته المُقَدَّسَةْ فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة شفاعته المُقَدَّسَةْ فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -15199,7 +15479,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1308&C=Title", 
   "13 Parmouté\n1) Martyre des deux saints Josué et Joseph ;\n2)  Décès du pape Jean XVII ;\n3) Commémoration de sainte Denise ;\n4) Martyre de saint Médius", 
-  "13 برمودة\nاسْتِشْهَادْ القِدِّيسْينْ يشوع ويوسف\nنِيَاحَةْ القِدّيسْ البابا يوأنس السابع عشر\nنِيَاحَةْ القِدِّيسَةْ ديونيسة\nاسْتِشْهَادْ القِدّيسْ ميديوس\n", 
+  "13 برمودة\nاسْتِشْهَادْ القِدِّيسْينْ يشوع ويوسف\nنِيَاحَةْ القِدّيسْ البابا يوأنس السابع عشر\nنِيَاحَةْ القِدِّيسَةْ ديونيسة\nاسْتِشْهَادْ القِدّيسْ ميديوس", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -15214,7 +15494,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de ses prières soit avec nous. Amen !", 
-  "بركة صلواتهما فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة صلواتهما فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -15254,7 +15534,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de ses prières soit avec nous. Amen !", 
-  "بركة صلواتها فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة صلواتها فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -15271,7 +15551,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1408&C=Title", 
   "14 Parmouté\n1) Décès du pape Maxime ;\n2) Décès de saint Ehrôn le syriaque", 
-  "14 برمودة\nنِيَاحَةْ القِدّيسْ البابا مكسيموس\nنِيَاحَةْ القِدّيسْ إهرون السِرّْيانْي\n", 
+  "14 برمودة\nنِيَاحَةْ القِدّيسْ البابا مكسيموس\nنِيَاحَةْ القِدّيسْ إهرون السِرّْيانْي", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -15323,7 +15603,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1508&C=Title", 
   "15 Parmouté\n1) Consécration de l’église de saint Agabus, l’un des soixante-dix disciples du Christ ;\n2) Martyre de la reine sainte Alexandra ;\n3) Décès du pape Marc VI", 
-  "15 برمودة\nتَكّرْيسِ كِنِيسَةْ القِدّيسْ أغابوس أحَدْ السبعين\nاسْتِشْهَادْ القِدِّيسَةْ ألكسندرة الملكة\nنِيَاحَةْ القِدّيسْ البابا مَرْقُسْ السادس\n", 
+  "15 برمودة\nتَكّرْيسِ كِنِيسَةْ القِدّيسْ أغابوس أحَدْ السبعين\nاسْتِشْهَادْ القِدِّيسَةْ ألكسندرة الملكة\nنِيَاحَةْ القِدّيسْ البابا مَرْقُسْ السادس", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -15338,12 +15618,12 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Nous commémorons aussi en ce jour le martyre de sainte Alexandra (ألكسندرة), l’impératrice et l’épouse de l’empereur Dioclétien (داديانوس). En effet, tandis que cet empereur cruel faisait torturer saint Georges (مار جرجس الروماني), cette impératrice constata tous les tourments qu’il subissait ainsi que son endurance pour les supporter et sa fermeté dans la Foi. Elle fût touchée au fond de son cœur et demanda au saint de lui expliquer le secret de cette force qui l’anime. Alors, saint Georges lui expliqua la Divinité du Christ en lui interprétant la sainte Bible. Elle fût sensible à ses paroles et elle crut en Jésus Christ. Lorsque saint Georges se trouva devant les idoles, il invoqua le Nom du Christ et elles furent brisées. Dioclétien se mit en colère et, de retour chez lui, il raconta à Alexandra ce qui s’était passé. Celle-ci, qui avait déjà entendu parler de ce miracle, lui dit : \"Ne t’avais-je pas dit de ne pas t’entêter contre les chrétiens car leur Dieu est très puissant ? » Ces paroles mirent Dioclétien en colère et il sut qu’elle avait cru en Jésus Christ. Alors, il la fit torturer puis mettre en prison où elle demeura jusqu’à ce qu’elle décéda en paix. Elle obtint ainsi la couronne du martyre.", 
-  "وفيه أيْضَاً استشهدت القِدِّيسَةْ ألكسندرة الملكة زوجة المَلِكْ داديانوس. وذلك إنه بينما كَانَ هَذَا المَلِكْ القاسي يعذِّب الشَهْيد مِارِ جرجس الروماني شاهدت الملكة هَذِهِ العذابات واحتمال القِدّيسْ لَهَا وثباته عَلَى الإِيمَانِ. فتحرك قلبِهَا واستفسرت مِنَ القِدّيسْ عَن سر هَذِهِ القوة فحدثها عَن ألوهية السَّيْد المَسِيحْ وفسر لَهَا جزءاً مِنَ الكِتَابْ المُقَدّسْ فَدَخَلَ كلامه إلى قلبِهَا وآمنت بِالسَيِّدِ المَسِيحِ. وحَدَثَ لما وقف الشَهْيد مِارِ جرجس أمَامَ الأصنام صلى للسيد المَسِيحْ فتحطمت، فغَضِبَ داديانوس ودخل إلى منزله حزيناً وأخبر الملكة بِمَا حدث، وكَانَتْ قَدْ سَمِعَتْ بالمعجزة فزاد إيمانها فقَالَت لزوجها: 'أما قلت لك لا تعاند المَسِيحِيّينْ فإن إلههم قوي'. فغَضِبَ المَلِكْ جداً وعَلِمَ أنها آمنت بِالسَيِّدِ المَسِيحِْ فعذَّبِهَا كَثِيراً ثُمَّ ألقاها في السجن حَيْثُ تنيَّحت بِسَلامْ ونَالَتْ إكْلْيلْ الشِهَادَةْ.", 
+  "وفيه أيْضَاً استشهدت القِدِّيسَةْ ألكسندرة الملكة زوجة المَلِكْ داديانوس. وذلك إنه بَيْنَمَا كَانَ هَذَا المَلِكْ القاسي يعذِّب الشَهْيد مِارِ جرجس الروماني شاهدت الملكة هَذِهِ العذابات واحتمال القِدّيسْ لَهَا وثباته عَلَى الإِيمَانِ. فتحرك قلبِهَا واستفسرت مِنَ القِدّيسْ عَن سر هَذِهِ القوة فحدثها عَن ألوهية السَّيْد المَسِيحْ وفسر لَهَا جزءاً مِنَ الكِتَابْ المُقَدّسْ فَدَخَلَ كلامه إلى قلبِهَا وآمنت بِالسَيِّدِ المَسِيحِ. وحَدَثَ لما وقف الشَهْيد مِارِ جرجس أمَامَ الأصنام صلى للسيد المَسِيحْ فتحطمت، فغَضِبَ داديانوس ودخل إلى منزله حزيناً وأخبر الملكة بِمَا حدث، وكَانَتْ قَدْ سَمِعَتْ بالمعجزة فزاد إيمانها فقَالَت لزوجها: 'أما قلت لك لا تعاند المَسِيحِيّينْ فإن إلههم قوي'. فغَضِبَ المَلِكْ جداً وعَلِمَ أنها آمنت بِالسَيِّدِ المَسِيحِْ فعذَّبِهَا كَثِيراً ثُمَّ ألقاها في السجن حَيْثُ تنيَّحت بِسَلامْ ونَالَتْ إكْلْيلْ الشِهَادَةْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de ses prières soit avec nous. Amen !", 
-  "بركة صلواتها فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة صلواتها فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -15370,7 +15650,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1608&C=Title", 
   "16 Parmouté\n1) Martyre de saint Antipas, évêque de Pergame et disciple de l’apôtre saint Jean ;\n2) Commémoration de l’élévation d’Enoch le juste vivant vers le ciel", 
-  "16 برمودة\nاسْتِشْهَادْ القِدّيسْ أنتيباس أُسْقُفْ برغامس تِلْمِيذْ القِدّيسْ يُوحَنَّا الرسول\nتِذْكَارْ إصعاد أخنوخ البار حياً إلى السماء\n", 
+  "16 برمودة\nاسْتِشْهَادْ القِدّيسْ أنتيباس أُسْقُفْ برغامس تِلْمِيذْ القِدّيسْ يُوحَنَّا الرسول\nتِذْكَارْ إصعاد أخنوخ البار حياً إلى السماء", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -15417,7 +15697,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1708&C=Title", 
   "17 Parmouté\n1) Martyre de saint Jacques le majeur, un des douze apôtres ainsi que le frère de saint Jean le bien-aimé ;\n2) Décès de saint Nicodème", 
-  "17 برمودة\nاسْتِشْهَادْ القِدّيسْ يَعْقُوبْ الكبير أحَدْ الاثني عَشَرْ رسولاً\nنِيَاحَةْ القِدّيسْ نيقوديموس\n", 
+  "17 برمودة\nاسْتِشْهَادْ القِدّيسْ يَعْقُوبْ الكبير أحَدْ الاثني عَشَرْ رسولاً\nنِيَاحَةْ القِدّيسْ نيقوديموس", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -15469,7 +15749,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1808&C=Title", 
   "18 Parmouté\n1) Martyre de saint Arsène le disciple de saint Sissinius ;\n2) Décès de saint Apollo, le disciple de saint Samuel le confesseur", 
-  "18 برمودة\nاسْتِشْهَادْ القِدّيسْ أرسانيوس تِلْمِيذْ القِدّيسْ سوسنيوس\nنِيَاحَةْ القِدّيسْ أبوللو تِلْمِيذْ القِدّيسْ الأنبا صموئيل المعترف\n", 
+  "18 برمودة\nاسْتِشْهَادْ القِدّيسْ أرسانيوس تِلْمِيذْ القِدّيسْ سوسنيوس\nنِيَاحَةْ القِدّيسْ أبوللو تِلْمِيذْ القِدّيسْ الأنبا صموئيل المعترف", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -15506,7 +15786,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1908&C=Title", 
   "19 Parmouté\n1) Martyre de saint Siméon l’arménien, évêque de Perse ;\n2) Martyre du bienheureux Jean Abou-Nagah le grand et du notable Abou-l-‘Ala Fahd fils d’Ibrahim ainsi que de leurs compagnons ;\n3) Martyre de David, le moine, le fils de Gabriel el-Borgui", 
-  "19 برمودة\nاسْتِشْهَادْ القِدّيسْ سَمْعَانْ الأرمني أُسْقُفْ بِلادْ فارس\nاسْتِشْهَادْ الشُهَدَاءْ يُوحَنَّا أبو نجاح الكبير والرئيس أبو العلا فهد بن إبراهيم وزملائهما\nاسْتِشْهَادْ الرَاهِبْ داود بن غُبْرِيَالْ البرجي\n", 
+  "19 برمودة\nاسْتِشْهَادْ القِدّيسْ سَمْعَانْ الأرمني أُسْقُفْ بِلادْ فارس\nاسْتِشْهَادْ الشُهَدَاءْ يُوحَنَّا أبو نجاح الكبير والرئيس أبو العلا فهد بن إبراهيم وزملائهما\nاسْتِشْهَادْ الرَاهِبْ داود بن غُبْرِيَالْ البرجي", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -15576,7 +15856,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de leurs prières soit avec nous. Amen !", 
-  "بَرَكِةْ صَلَوَاتْ الجَمِيع فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بَرَكِةْ صَلَوَاتْ الجَمِيع فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -15592,8 +15872,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=2008&C=Title", 
-  "20 Parmouté\nMartyre de saint Paphnouté de Déndérah\n", 
-  "20 برمودة\nاسْتِشْهَادْ القِدّيسْ ببنوده الذي من دندرة\n", 
+  "20 Parmouté\nMartyre de saint Paphnouté de Déndérah", 
+  "20 برمودة\nاسْتِشْهَادْ القِدّيسْ ببنوده الذي من دندرة", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -15620,7 +15900,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2108&C=Title", 
   "21 Parmouté\n1) Commémoration de la sainte Vierge Marie, la Mère de Dieu ;\n2) Décès de saint Hiérothée, évêque d’Athènes", 
-  "21 برمودة\nتِذْكَارْ القِدِّيسَةْ العَذْرَاءْ مَرْيَمْ والدة الإله\nنِيَاحَةْ القِدّيسْ بروتاؤس أُسْقُفْ أثينا\n", 
+  "21 برمودة\nتِذْكَارْ القِدِّيسَةْ العَذْرَاءْ مَرْيَمْ والدة الإله\nنِيَاحَةْ القِدّيسْ بروتاؤس أُسْقُفْ أثينا", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -15630,7 +15910,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que sa sainte intercession soit avec nous. Amen !", 
-  "بركة شفاعتها المُقَدَّسَةْ فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة شفاعتها المُقَدَّسَةْ فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -15662,7 +15942,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2208&C=Title", 
   "22 Parmouté\n1) Décès du pape Alexandre I ;\n2) Décès du pape Marc II ;\n3) Décès du pape Michel II ;\n4) Décès de saint Isaac de Hourîn", 
-  "22 برمودة\nنِيَاحَةْ القِدّيسْ البابا ألكسندروس الأول\nنِيَاحَةْ القِدّيسْ البابا مَرْقُسْ الثاني\nنِيَاحَةْ القِدّيسْ البابا خائيل الثاني\nنِيَاحَةْ القِدّيسْ إسحاق الهوريني\n", 
+  "22 برمودة\nنِيَاحَةْ القِدّيسْ البابا ألكسندروس الأول\nنِيَاحَةْ القِدّيسْ البابا مَرْقُسْ الثاني\nنِيَاحَةْ القِدّيسْ البابا خائيل الثاني\nنِيَاحَةْ القِدّيسْ إسحاق الهوريني", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -15712,7 +15992,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Après le décès de Hâroun-ar-Rachîd (هارون الرشيد), ses deux fils se disputèrent pour la succession. L’ainé, al-Ma'mûn (المأمون) était le fils d’une esclave (جارية) tandis que la mère du cadet, al-Amin, était une femme libre. Le conflit dégénéra en une guerre et, chacun des deux prétendants au trône, nomma un gouverneur pour l’Égypte. Le gouverneur d’al-Amin prit le dessus et ses supporteurs tuèrent celui qui avait été nommé par al-Ma'mûn. Pendant le conflit l’empereur de Constantinople tenta d’envahir Damiette (دمياط) dans l’espoir de reconquérir l’Égypte. En même temps un intrus (أحد الخوارج) s’autoproclama gouverneur d’Égypte.", 
-  "وبَعْدَ وفاة هارون الرشيد اختصم ابناه عَلَى الخلافة. فَكَانَ المأمون هُوَ الأكبر، إلا أَنَّ أمه كَانَتْ جارية، بينما الأمين، ابْنِ الحرة، كَانَ الأصغر. وتحول الخصام إلى حرب طاحنة. وعيَّن كُلَّ مِنَ الأخوين والياً ليحكم مِصْرْ بِاسْمِهِ. فانتصر أنصار والي الأمين وقتلوا والي المأمون. وأَثْنَاءِ التطاحن رَأَى الإمبراطور بالقسطنطينية أَنَّ الفرصة مواتية، فأَرْسَلَ أسطوله ليغزو دمياط أملاً في استرجاع حكمه عَلَى مِصْرْ. وفي نفس الوَقْت انتهز أحَدْ الخوارج الفرصة وأعلن نَفْسَهُ والياً عَلَى مِصْرْ.", 
+  "وبَعْدَ وفاة هارون الرشيد اختصم ابناه عَلَى الخلافة. فَكَانَ المأمون هُوَ الأكبر، إلا أَنَّ أمه كَانَتْ جارية، بَيْنَمَا الأمين، ابْنِ الحرة، كَانَ الأصغر. وتحول الخصام إلى حرب طاحنة. وعيَّن كُلَّ مِنَ الأخوين والياً ليحكم مِصْرْ بِاسْمِهِ. فانتصر أنصار والي الأمين وقتلوا والي المأمون. وأَثْنَاءِ التطاحن رَأَى الإمبراطور بالقسطنطينية أَنَّ الفرصة مواتية، فأَرْسَلَ أسطوله ليغزو دمياط أملاً في استرجاع حكمه عَلَى مِصْرْ. وفي نفس الوَقْت انتهز أحَدْ الخوارج الفرصة وأعلن نَفْسَهُ والياً عَلَى مِصْرْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -15757,7 +16037,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Lorsque le jeune homme grandit, il se fit moine et s’installa auprès d’un saint homme nommé abba Elie (أنبا ايليا) pendant un certain temps. Après le décès d’abba Elie, Isaac se rendit au mont Barnoug (جبل برنوج) auprès d’abba Zacharie (أنبا زخارياس). Pendant ce temps son père ne cessait de le rechercher. Finalement il le retrouva chez abba Zacharie et lui demanda de rentrer avec lui. Son maître l’incita à le suivre, alors, il obéit à son père et demeura avec lui jusqu’à son décès. Après le décès de son père, Isaac distribua son héritage aux pauvres et se construisit un refuge près de la ville et y demeura en menant une vie d’ascétisme et d’adoration jusqu’à son décès puis il fût enterré sur place.", 
-  "ولما كبر مَضَى وتَرَّهَبَ عَلَى يَدَيّ قِدِّيسْ اسْمُهُ الأنبا إيليا وعَاشْ مَعْهُ حَتَّى وقت نياحته، ثُمَّ مَضَى إلى جبل برنوج وأقَامَ عِنْدَ شَيْخ قِدِّيسْ اسْمُهُ الأنبا زخارياس، بينما كَانَ أبوه يبحث عنه. فَلَمَّا وَجَدَهُ طَلَبَ مِنْهُ الرجوع معه، فأشار عَلَيْهِ معلِّمه أَنَّ يطيع والده، فَرَجِعَ مَعْهُ ومكث حَتَّى مات أبوه. ففرق ما تركه لَهُ وانفرد في مَكَانِ بناه لنفسه بِالقُرْبِ مِنَ المَدِينَةِ. وداوم عَلَى النُسك والعبادة إلى أَنَّ تَنَيَّحَ بِسَلامٍ. فدفنوه في مَكَانِ عِبَادَتِهِ.", 
+  "ولما كبر مَضَى وتَرَّهَبَ عَلَى يَدَيّ قِدِّيسْ اسْمُهُ الأنبا إيليا وعَاشْ مَعْهُ حَتَّى وقت نياحته، ثُمَّ مَضَى إلى جبل برنوج وأقَامَ عِنْدَ شَيْخ قِدِّيسْ اسْمُهُ الأنبا زخارياس، بَيْنَمَا كَانَ أبوه يبحث عنه. فَلَمَّا وَجَدَهُ طَلَبَ مِنْهُ الرجوع معه، فأشار عَلَيْهِ معلِّمه أَنَّ يطيع والده، فَرَجِعَ مَعْهُ ومكث حَتَّى مات أبوه. ففرق ما تركه لَهُ وانفرد في مَكَانِ بناه لنفسه بِالقُرْبِ مِنَ المَدِينَةِ. وداوم عَلَى النُسك والعبادة إلى أَنَّ تَنَيَّحَ بِسَلامٍ. فدفنوه في مَكَانِ عِبَادَتِهِ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -15773,8 +16053,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=2308&C=Title", 
-  "23 Parmouté\nMartyre de saint Georges, le grand martyr\n", 
-  "23 برمودة\nشهادة القِدّيسْ جورجيوس العَظِيمْ في الشهداء\n", 
+  "23 Parmouté\nMartyre de saint Georges, le grand martyr", 
+  "23 برمودة\nشهادة القِدّيسْ جورجيوس العَظِيمْ في الشهداء", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -15815,8 +16095,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=2408&C=Title", 
-  "24 Parmouté\n1) Martyre de saint Sina, le soldat et le compagnon de saint Isidore ;\n2) Décès du pape Chénouté I\n", 
-  "24 برمودة\nاسْتِشْهَادْ القِدّيسْ سنا الجندي رفيق القِدّيسْ إيسوذوروس\nنِيَاحَةْ القِدّيسْ البابا شنوده الأول\n", 
+  "24 Parmouté\n1) Martyre de saint Sina, le soldat et le compagnon de saint Isidore ;\n2) Décès du pape Chénouté I", 
+  "24 برمودة\nاسْتِشْهَادْ القِدّيسْ سنا الجندي رفيق القِدّيسْ إيسوذوروس\nنِيَاحَةْ القِدّيسْ البابا شنوده الأول", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -15831,7 +16111,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de ses prières soit avec nous. Amen !", 
-  "بركة صلواتهما فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة صلواتهما فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -15883,7 +16163,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2508&C=Title", 
   "25 Parmouté\n1) Martyre de sainte Sarah et de ses deux fils ;\n2) Martyre de saint Théodore l’adorateur et de 100 autres personnes", 
-  "25 برمودة\nاسْتِشْهَادْ القِدِّيسَةْ سارة وولديها\nاسْتِشْهَادْ القِدّيسْ تاوضروس العابد والمائة والعشرين شهيداً\n", 
+  "25 برمودة\nاسْتِشْهَادْ القِدِّيسَةْ سارة وولديها\nاسْتِشْهَادْ القِدّيسْ تاوضروس العابد والمائة والعشرين شهيداً", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -15908,7 +16188,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de leurs prières soit avec nous. Amen !", 
-  "بركة صلواتهم فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة صلواتهم فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -15925,7 +16205,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2608&C=Title", 
   "26 Parmouté\n1) Martyre de saint Sousnyos et de 1100 autres personnes ;\n2) Décès du pape Jean VII", 
-  "26 برمودة\nشهادة القِدّيسْ سوسنيوس ومعه 1100 شخصاً\nنِيَاحَةْ القِدّيسْ البابا يوأنس السابع\n", 
+  "26 برمودة\nشهادة القِدّيسْ سوسنيوس ومعه 1100 شخصاً\nنِيَاحَةْ القِدّيسْ البابا يوأنس السابع", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -15945,7 +16225,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de ses prières soit avec nous. Amen !", 
-  "بركة صلواتهم فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة صلواتهم فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -15996,8 +16276,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=2708&C=Title", 
-  "27 Parmouté\nMartyre de saint Victor, le fils de Romanos\n", 
-  "27 برمودة\nشهادة القِدّيسْ بقطر بن رُومَانوس\n", 
+  "27 Parmouté\nMartyre de saint Victor, le fils de Romanos", 
+  "27 برمودة\nشهادة القِدّيسْ بقطر بن رُومَانوس", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -16058,8 +16338,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=2808&C=Title", 
-  "28 Parmouté\nMartyre de saint Milius, l’ermite\n", 
-  "28 برمودة\nاسْتِشْهَادْ القِدّيسْ ميليوس الناسك\n", 
+  "28 Parmouté\nMartyre de saint Milius, l’ermite", 
+  "28 برمودة\nاسْتِشْهَادْ القِدّيسْ ميليوس الناسك", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -16101,7 +16381,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de nôtre bon Sauveur soit avec nous. Amen !", 
-  "بركة مخلصنا الصالح فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة مخلصنا الصالح فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -16142,8 +16422,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=3008&C=Title", 
-  "30 Parmouté\nMartyre de saint Marc l’évangéliste, le prédicateur de l’Egypte\n", 
-  "30 برمودة\nاسْتِشْهَادْ القِدّيسْ مِارِ مَرْقُسْ الرسول الإنجيلي كاروز الديار المصرية\n", 
+  "30 Parmouté\nMartyre de saint Marc l’évangéliste, le prédicateur de l’Egypte", 
+  "30 برمودة\nاسْتِشْهَادْ القِدّيسْ مِارِ مَرْقُسْ الرسول الإنجيلي كاروز الديار المصرية", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -16204,8 +16484,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=0109&C=Title", 
-  "1er Pachôns\nNativité de la très sainte Vierge Marie, la Mère de Dieu\n", 
-  "1 بشنس\nميلاد البتول العَذْرَاءْ مَرْيَمْ والدة الإله\n", 
+  "1er Pachôns\nNativité de la très sainte Vierge Marie, la Mère de Dieu", 
+  "1 بشنس\nميلاد البتول العَذْرَاءْ مَرْيَمْ والدة الإله", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -16237,7 +16517,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0209&C=Title", 
   " 2 Pachôns\n1) Décès de Job, le juste ;\n2) Décès de saint Théodore de Tabenne, le disciple de saint Pacôme, le père des Cénobites ;\n3) Martyre de saint Phylothée de Dronka.", 
-  "2 بشنس\nنِيَاحَةْ أيوب الصديق\nنِيَاحَةْ القِدّيسْ تَادْرُسْ الطبانيسي تِلْمِيذْ القِدّيسْ باخوميوس أب الشركة\nاسْتِشْهَادْ القِدّيسْ فيلوثاوس من درنكة\n", 
+  "2 بشنس\nنِيَاحَةْ أيوب الصديق\nنِيَاحَةْ القِدّيسْ تَادْرُسْ الطبانيسي تِلْمِيذْ القِدّيسْ باخوميوس أب الشركة\nاسْتِشْهَادْ القِدّيسْ فيلوثاوس من درنكة", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -16391,7 +16671,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0409&C=Title", 
   "4 Pachôns\n1) Décès du pape Jean 1er ;\n2) Décès du pape Jean V", 
-  "4 بشنس\nنِيَاحَةْ القِدّيسْ البابا يوأنس الأول\nنِيَاحَةْ القِدّيسْ البابا يوأنس الخامس\n", 
+  "4 بشنس\nنِيَاحَةْ القِدّيسْ البابا يوأنس الأول\nنِيَاحَةْ القِدّيسْ البابا يوأنس الخامس", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -16411,7 +16691,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "L’Église d’Alexandrie connut un grand essor à l’époque du pape Jean car le calme et la paix avaient comblé les cœurs puisque l’empereur Anastase était un homme de paix. Ce dernier envoyait aux pères de la vallée de Scété tout ce qui leur était nécessaire. Cependant une épidémie s’est propagée à Alexandrie et fit périr un grand nombre de ses enfants spirituels.", 
-  "ولقد ازدهرت كِنِيسَةْ الإسْكَنْدَرِيَّة في عَهْدِ البابا يوأنس، لِأنَّ النفوس كَانَتْ قَدْ اطمأنت، وهدأت القلوب، إذ أَنَّ الإمبراطور أنسطاسيوس كَانَ مسالماً، وكَانَ يُرْسِلْ إلى برية شيهيت ما يحتاجه الآبَاءِ الرُهْبَان. وكَانَتْ أَيَّامٍ حبريته أَيَّامٍ هدوء وسلام. ولَمْ يكدر الصفو غير الوباء الذي انتشر في الإسْكَنْدَرِيَّة وقضى عَلَى كثير من أبنائه.", 
+  "ولقد ازدهرت كِنِيسَةْ الإسْكَنْدَرِيَّة في عَهْدِ البابا يوأنس، لِأنَّ النفوس كَانَتْ قَدْ اطمأنت، وهدأت القلوب، إذ أَنَّ الإمبراطور أنسطاسيوس كَانَ مسالماً، وكَانَ يُرْسِلْ إلى بَرِّيَّةِ شِيهِيتْ ما يحتاجه الآبَاءِ الرُهْبَان. وكَانَتْ أَيَّامٍ حبريته أَيَّامٍ هدوء وسلام. ولَمْ يكدر الصفو غير الوباء الذي انتشر في الإسْكَنْدَرِيَّة وقضى عَلَى كثير من أبنائه.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -16467,8 +16747,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=0509&C=Title", 
-  "5 Pachôns\nMartyre du prophète Jérémie\n", 
-  "5 بشنس\nاسْتِشْهَادْ إرميا النبي\n", 
+  "5 Pachôns\nMartyre du prophète Jérémie", 
+  "5 بشنس\nاسْتِشْهَادْ إرميا النبي", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -16498,12 +16778,12 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Lorsque Jérusalem fût assiégée, les autorités juives étudièrent les prévisions de Jérémie qui prévoyait l’avancée des chaldéens et l’exil des juifs. Celles-ci les mirent mal-à-l’aise et ils le jetèrent au cachot.Plus tard le roi Sédécias l’envoya chercher de sa prison et lui demanda secrètement ce que le Seigneur avait dit à son sujet. Jérémie l’informa alors qu’il sera livré entre les mains du roi de Babylone. Alors, Sédécias ordonna de le remettre en prison mais qu’il soit mieux traité qu’auparavant. Toutefois, les princes le jetèrent dans la citerne afin qu’il meure de faim. Mais, un eunuque éthiopien eût pitié de lui et demanda au roi l’autorisation de le sortir de la citerne ce qui lui fût accordé. Alors l’eunuque le remit en prison où il demeura jusqu’à la prise de Jérusalem.", 
-  "وعِنْدَمَا كَانَتْ أورشليم مُحاصَرة، تدارست السلطات اليهودية نبوات إرميا الخاصة بتقدم الكلدانيين وسبى يهوذا، فتضايقوا مِنْهُ وألقوه في الجب (إر 37: 1 – 15)، وبَعْدَ أَيَّامٍ كَثِيرَة أطلق المَلِكْ صدقيا سراحه، وسأله سراً عَن ما تقوله عَنْهُ كلمة الرب، فأخبره إرميا أَنَّهُ يُدفع إلى ملك بابل، فَأمَرَ صدقيا بِأنَّ يلقوه في السجن عَلَى أَنَّ يحسنوا معاملته بَعْضُ الشيء، ولَكِنَّ الرؤساء رموه في الجب ليموت جوعاً (إر 37: 16 – 21، 38: 1 – 6)، فأشفق عَلَيْهِ خصي حبشي واستأذن المَلِكْ في أَنَّ يرفع إرميا مِنَ الجب، فأذن لَهُ ووَضَعَهُ في السِجْنِ، وكَانَ هُناَكَ إلى أَنَّ أُخذت أورشليم (إر 38: 7 – 28).", 
+  "وعِنْدَمَا كَانَتْ أورشليم مُحاصَرة، تدارست السلطات اليهودية نبوات إرميا الخاصة بتقدم الكلدانيين وسبى يهوذا، فتضايقوا مِنْهُ وألقوه في الجب (إر 37: 1 – 15)، وبَعْدَ أَيَّامٍ كَثِيرَة أطلق المَلِكْ صدقيا سراحه، وسأله سراً عَن ما تقوله عَنْهُ كلمة الرَبّ، فأخبره إرميا أَنَّهُ يُدفع إلى ملك بابل، فَأمَرَ صدقيا بِأنَّ يلقوه في السجن عَلَى أَنَّ يحسنوا معاملته بَعْضُ الشيء، ولَكِنَّ الرؤساء رموه في الجب ليموت جوعاً (إر 37: 16 – 21، 38: 1 – 6)، فأشفق عَلَيْهِ خصي حبشي واستأذن المَلِكْ في أَنَّ يرفع إرميا مِنَ الجب، فأذن لَهُ ووَضَعَهُ في السِجْنِ، وكَانَ هُناَكَ إلى أَنَّ أُخذت أورشليم (إر 38: 7 – 28).", 
   ],
   [
   Prefix.same+"&C=NoActor", 
   "Lorsque les chaldéens apprirent ce qu’avait subi Jérémie, Nabuchodonosor (نبوخذنصر) ordonna de le libérer. Ce que Nebuzaradân (نبو زرادان), commandant de la garde, fit et lui proposa d’habiter à Babylone. Toutefois, Jérémie préféra demeurer en terre de Judée avec ces frères qui y étaient restés après l’exil et il demeura chez Godolias, fils d'Ahiqam. Lorsque ce dernier fût tué, Jérémie incita le peuple de ne pas s’échapper en Égypte mais ceux-ci refusèrent ces conseils et l’obligèrent de les suivre en Égypte et, là-bas, il proclama sa dernière prophétie à Tahpanhès (تحفانحيس).", 
-  "ولما علم الكلدانيون بِمَا عاناه، أَمَرَ نبوخذنصر أَنَّ يطلقوه، فأطلقه نبو زرادان رئيس الشُرط وعرض عَلَيْهِ السكنى في بابل، إلا أنَّهُ رَفَضَ واختار أرض يهوذا لِيَكُونَ مَعَ إخوته الّذِينَ بقوا بَعْدَ السبي (إر 39: 11 – 14، 40: 1 – 6). فأتى وسكن عِنْدَ جدليا بن أخيقام، ولَمَّا قُتل جدليا، حث إرميا الشَّعْبِ أَنَّ لا يهربوا إلى مِصْرْ، ولكنهم رفضوا نصيحته بل وأجبروه أَنَّ يذهب مَعْهُمْ (إر 41: 1، 43: 7) وهُنَاكَ نطق بنبواته الأخيرة في تحفنحيس (إر 43: 8 إلى 44: 30).", 
+  "ولما علم الكلدانيون بِمَا عاناه، أَمَرَ نبوخذنصر أَنَّ يطلقوه، فأطلقه نبو زرادان رئيس الشُرط وعرض عَلَيْهِ السكنى في بابل، إلا أنَّهُ رَفَضَ واختار أرض يهوذا لِيَكُونَ مَعَ إخوته الّذِينَ بقوا بَعْدَ السبي (إر 39: 11 – 14، 40: 1 – 6). فأتى وسكن عِنْدَ جدليا بن أخيقام، ولَمَّا قُتل جدليا، حث إرميا الشَّعْبِ أَنَّ لا يهربوا إلى مِصْرْ، ولكنهم رفضوا نصيحته بل وأجبروه أَنَّ يذهب مَعْهُمْ (إر 41: 1، 43: 7) وهُنَاكَ نطق بنبواته الأَخِيرَةِ في تحفنحيس (إر 43: 8 إلى 44: 30).", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -16513,7 +16793,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Il appelait le peuple à faire pénitence en proclamant la miséricorde de Dieu et son pardon divin. Il annonça la fin de l’exil après soixante-dix ans ainsi que la chute de la grande cité de Babylone après que l’empire ait perdu toute sa puissance. Finalement il prophétisa tout le bien qui est réservé pour le peuple de Dieu à la fin des tempssous le règne du Christ. Sa prophétie comprend 52 chapitres.", 
-  "وكان يدعو الشَّعْبِ إلى التوبة بإعلانه مراحم الله وغفرانه الإلهي. كَمَا أعلن عَن نهاية السبي بَعْدَ سبعين عاماً، وسقوط المَدِينَةِ العظمى بابل حَيْثُ تفقد الإمبراطورية سلطانها. وأخيراً تَنَبَأ عَن الخير المحفوظ لشعب الله في الأَيَّامْ الأخيرة (إر 30 – 33)، وذلك في ملكوت المَسِيحِ، وقَدْ اشتملت نبوته عَلَى اثنين وخمسين إصحاحاً.", 
+  "وكان يدعو الشَّعْبِ إلى التوبة بإعلانه مراحم الله وغفرانه الإلهي. كَمَا أعلن عَن نهاية السبي بَعْدَ سبعين عاماً، وسقوط المَدِينَةِ العظمى بابل حَيْثُ تفقد الإمبراطورية سلطانها. وأخيراً تَنَبَأ عَن الخير المحفوظ لشعب الله في الأَيَّامْ الأَخِيرَةِ (إر 30 – 33)، وذلك في ملكوت المَسِيحِ، وقَدْ اشتملت نبوته عَلَى اثنين وخمسين إصحاحاً.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -16535,7 +16815,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0609&C=Title", 
   "6 Pachôns\n1) Martyre de saint Isaac de Tiphré ;\n2) Martyre de sainte Doulaguy et de ses quatre enfants ;\n3) Martyre de saint Paphnouté d’el Bandarah ; \n4) Décès de saint Macaire d’Alexandrie", 
-  "6 بشنس\nاسْتِشْهَادْ القِدّيسْ إسحاق الدفراوي\nاسْتِشْهَادْ الأم دولاجي وأولادها الأربعة\nاسْتِشْهَادْ الأنبا ببنوده مِنَ البندارة\nنِيَاحَةْ القِدّيسْ مكاريوس الإسكندري\n", 
+  "6 بشنس\nاسْتِشْهَادْ القِدّيسْ إسحاق الدفراوي\nاسْتِشْهَادْ الأم دولاجي وأولادها الأربعة\nاسْتِشْهَادْ الأنبا ببنوده مِنَ البندارة\nنِيَاحَةْ القِدّيسْ مكاريوس الإسكندري", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -16590,7 +16870,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de leurs prières soit avec nous. Amen !", 
-  "بركة صلواتهم فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة صلواتهم فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -16655,7 +16935,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Il fût baptisé à l’âge de trente ans et progressa dans la vertu. Puis il entendit parler des ermites et des moines ce qui le conduisit à rendre visite à saint Antoine, le père des moines en 335 après Jésus Christ. A son retour, il se rendit dans la vallée de Nitrie (برية نتريا)alors qu’il avait environ 38 ans. Cet endroit comprenait un grand nombre de cellules monacales qui furent instaurées pas saint Amon (القديس آمون) vers 335 après Jésus Christ.", 
-  "نال سِرَّ المَعْمُودِّيََةِ المُقَدَّسَةْ في الثلاثين من عمره، فتقوى بالنعمة، وكَانَ يسمع عَن أخبار النُسَّاك والرهبان. فَقَامَ بزيارة القِدّيسْ أنطونيوس أب الرُهْبانْ سَنَةْ 335م. وعِنْدَ عودته قَصَدَ برية نتريا (برية نتريا: تبعد 65كم جنوب غرب الإسْكَنْدَرِيَّةْ، 15كم عَن دمِنْهُور، وهي حَالِيَاً أطلال بمركز حوش عيسى مُحَافَظَة البحيرة) وكَانَ عُمْرِهِ وقتئذ 38 سَنَةْ تقريباً. كَانَتْ المنطقة عامرة بالقلالي الرَهْبَانِيَّة التي أَسَّسَهَا القِدّيسْ آمون سَنَةْ 315م تقريباً.", 
+  "نال سِرَّ المَعْمُودِّيََةِ المُقَدَّسَةْ في الثلاثين من عمره، فتقوى بالنعمة، وكَانَ يسمع عَن أخبار النُسَّاك والرهبان. فَقَامَ بزيارة القِدّيسْ أنطونيوس أب الرُهْبانْ سَنَةْ 335م. وعِنْدَ عودته قَصَدَ بَرِّيَّةِ نتريا (برية نتريا: تبعد 65كم جنوب غرب الإسْكَنْدَرِيَّةْ، 15كم عَن دمِنْهُور، وهي حَالِيَاً أطلال بمركز حوش عيسى مُحَافَظَة البحيرة) وكَانَ عُمْرِهِ وقتئذ 38 سَنَةْ تقريباً. كَانَتْ المنطقة عامرة بالقلالي الرَهْبَانِيَّة التي أَسَّسَهَا القِدّيسْ آمون سَنَةْ 315م تقريباً.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -16665,7 +16945,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Mais saint Pacôme, par inspiration divine, le reconnut. Macaire se rendit alors dans la région de kellia (les cellules) (القلالي - سيليا) à une vingtaine de kilomètres de Nitrie. A cette époque saint Isidore (إيسوذوروس) était le prêtre de kellia. En 355, saint Macaire fût ordonné prêtre et succéda à saint Isidore qui s’était rendu à Scété pour seconder saint Macaire le grand (l’égyptien) (القديس مكاريوس المصري - الكبير).", 
-  "أما باخوم فعرفه بإرشاد إلهي. ولَمَّا اُكْتشِفَ أمره، ذهب وتوحد بمنطقة القلالى (سيليا) والتي تبعد عَن نتريا بنحو عشرين كيلومتراً، وكَانَ القِدّيسْ إيسوذوروس قِسّاً للقلالى. وفي سَنَةْ 355م رسموا القِدّيسْ مكاريوس قِسّاً وسَلَّمُوهُ رئاسة القلالى بدلاً مِنَ القِدّيسْ إيسوذوروس، الذي ذهب إلى شيهيت لمساعدة القِدّيسْ مكاريوس المصري (الكبير).", 
+  "أما باخوم فعرفه بإرشاد إلهي. ولَمَّا اُكْتشِفَ أمره، ذهب وتوحد بمنطقة القلالى (سيليا) والتي تبعد عَن نتريا بنحو عشرين كيلومتراً، وكَانَ القِدّيسْ إيسوذوروس قِسّاً للقلالى. وفي سَنَةْ 355م رسموا القِدّيسْ مكاريوس قِسّاً وسَلَّمُوهُ رئاسة القلالى بدلاً مِنَ القِدّيسْ إيسوذوروس، الذي ذهب إلى شِيهِيتْ لمساعدة القِدّيسْ مكاريوس المصري (الكبير).", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -16686,8 +16966,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=0709&C=Title", 
-  "7 Pachôns\nDécès du pape saint Athanase l’apostolique\n", 
-  "7 بشنس\nنِيَاحَةْ القِدّيسْ العَظِيمْ البابا أثناسيوس الرسولي\n", 
+  "7 Pachôns\nDécès du pape saint Athanase l’apostolique", 
+  "7 بشنس\nنِيَاحَةْ القِدّيسْ العَظِيمْ البابا أثناسيوس الرسولي", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -16747,7 +17027,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Les ariens profitèrent de l’assassinat de Constant 1er, l’ami d’Athanase, pour l’accuser d’avoir une relation secrète avec l’assassin. Dès que Constance II, désormais empereur d’orient et d’occident, fût débarrassé de l’assassin, il entreprit de s’attaquer au pape en raison de l’animosité qu’il avait. A cet effet, il obligea les évêques d’orient et d’occident à se réunir à Arles (آرل بفرنسا) en 353 puis à Milan en 355 pour destituer et exiler le pape. En 356, les soldats attaquèrent l’église de saint Théonas (ثيؤناس) alors que le pape présidait la prière. Ce dernier refusa de quitter l’église avant que la totalité des fidèles soient en lieu sûr, mais les prêtres finirent par le forcer à s’échapper.", 
-  "وقد انتهز الأريوسيون فرصة مقتل قسطانس صديق أثناسيوس، فاتهموا البابا بِأنَّ لَهُ علاقة سرية بالقاتل. وإذ تخلص الإمبراطور قسطنطيوس إمبراطور الشَّرْقِ والغرب مِنَ القاتل تفرغ لمقاومة البابا لكراهيته له، وألزم أَسَاقِفَةِ الشَّرْقِ والغرب بعقد مجمعين في آرل بفرنسا سَنَةْ 353م وميلان سَنَةْ 355م لعزل البابا ونفيه. وفي سَنَةْ 356م هاجم الجُنْدِ كِنِيسَةْ القِدّيسْ ثيئوناس بينما كَانَ البابا يصلِّي، فَظَلَّ البابا في الكَنيسَةْ ولَمْ يغادرها إلى أَنَّ خَرَجَ مِنْهُا آخر شخص، إلا أَنَّ الكهنة ألزموه بالهرب.", 
+  "وقد انتهز الأريوسيون فرصة مقتل قسطانس صديق أثناسيوس، فاتهموا البابا بِأنَّ لَهُ علاقة سرية بالقاتل. وإذ تخلص الإمبراطور قسطنطيوس إمبراطور الشَّرْقِ والغرب مِنَ القاتل تفرغ لمقاومة البابا لكراهيته له، وألزم أَسَاقِفَةِ الشَّرْقِ والغرب بعقد مجمعين في آرل بفرنسا سَنَةْ 353م وميلان سَنَةْ 355م لعزل البابا ونفيه. وفي سَنَةْ 356م هاجم الجُنْدِ كِنِيسَةْ القِدّيسْ ثيئوناس بَيْنَمَا كَانَ البابا يصلِّي، فَظَلَّ البابا في الكَنيسَةْ ولَمْ يغادرها إلى أَنَّ خَرَجَ مِنْهُا آخر شخص، إلا أَنَّ الكهنة ألزموه بالهرب.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -16794,7 +17074,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0809&C=Title", 
   "8 Pachôns\n1) Commémoration de l’ascension de nôtre Seigneur Jésus Christ ;\n2) Martyre de saint Jean de Senhout ;\n3) Décès de saint Daniel l’higoumène de la vallée de Scété", 
-  "8 بشنس\nتِذْكَارْ صعود ربنا يَسْوعْ المَسِيحْ إلى السماء\nاسْتِشْهَادْ القِدّيسْ يحنس السنهوتي\nنِيَاحَةْ القِدّيسْ الأنبا دانيال قمص برية شيهيت\n", 
+  "8 بشنس\nتِذْكَارْ صعود ربنا يَسْوعْ المَسِيحْ إلى السماء\nاسْتِشْهَادْ القِدّيسْ يحنس السنهوتي\nنِيَاحَةْ القِدّيسْ الأنبا دانيال قمص بَرِّيَّةِ شِيهِيتْ", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -16824,7 +17104,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Nous commémorons aussi en ce jour le décès de saint Daniel (القديس الأنبا دانيال) l’higoumène de la vallée de Scété (قمص برية شهيت) en l’an 296 des martyrs (580 après Jésus Christ). Ce saint naquit en 485 et se rendit à Scété pendant sa jeunesse. Tous les jours il ne se nourrissait qu’après le coucher du soleil et fabriquait des paniers d’osier. Comme les razzias des barbares se multipliaient sur la vallée, les moines la quittèrent. Cependant, saint Daniel fût emprisonné trois fois par les barbares. Après une période de prières et d’ascétisme, il fût nommé higoumène de la vallée.", 
-  "وفيه أيْضَاً مِنْ سَنَةْ 296 لِلْشُهَداءِ (580م)، تَنَيَّحَ القِدّيسْ الأنبا دانيال قمص برية شيهيت. وُلِدَ نَحْوَ سَنَةْ 485م. وانطلق إلى شيهيت في شبابه. كَانَ يأكل يومياً عِنْدَ الغروب، ويعمل في صنع السلال. توالت هجمات البربر واللصوص عَلَى البرية، فهجرها الرُهْبانْ هرباً مِنَ الخطر، أما هُوَ فقد أسره البربر ثلاث مرات. وبَعْدَ فترة مِنَ العبادة والنُسك رسمه البابا قمصاً عَلَى البرية.", 
+  "وفيه أيْضَاً مِنْ سَنَةْ 296 لِلْشُهَداءِ (580م)، تَنَيَّحَ القِدّيسْ الأنبا دانيال قمص بَرِّيَّةِ شِيهِيتْ. وُلِدَ نَحْوَ سَنَةْ 485م. وانطلق إلى شِيهِيتْ في شبابه. كَانَ يأكل يومياً عِنْدَ الغروب، ويعمل في صنع السلال. توالت هجمات البربر واللصوص عَلَى البرية، فهجرها الرُهْبانْ هرباً مِنَ الخطر، أما هُوَ فقد أسره البربر ثلاث مرات. وبَعْدَ فترة مِنَ العبادة والنُسك رسمه البابا قمصاً عَلَى البرية.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -16834,7 +17114,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Lorsque le tome de Léon, approuvé par le concile de Chalcédoine, arriva dans la vallée pour que les pères l’approuvent, Abba Daniel et ses moines refusèrent de le signer. Ils furent alors maltraités par les soldats. Par conséquent, Daniel s’échappa au village de Tâmbok (تمبوك) du district de Chabrakhyt (شبراخيت) où il demeura jusqu’au décès de Justinien en 565 après Jésus Christ.", 
-  "أما عَن الأنبا دانيال فإنه عِنْدَمَا وَصَلَ قَرَار 'لاون' إلى شيهيت الذي أقره مَجْمَعَ خلقيدونية، لِكَيّْ يوقع عَلَيْهِ الآباء، رَفَضَ الأنبا دانيال ورهبانه التوقيع. فأوقع الجنود بِهِمْ ضربات كَثِيرَةْ. هرب عَلَى أثرها إلى قرية 'تمبوك' مركز شبراخيت (شبراخيت: إحدى بِلادْ مُحَافَظَة البحيرة)، وسكن حَتَّى موت جوستنيان سَنَةْ 565م. ثُمَّ عَادَ إلى شيهيت.", 
+  "أما عَن الأنبا دانيال فإنه عِنْدَمَا وَصَلَ قَرَار 'لاون' إلى شِيهِيتْ الذي أقره مَجْمَعَ خلقيدونية، لِكَيّْ يوقع عَلَيْهِ الآباء، رَفَضَ الأنبا دانيال ورهبانه التوقيع. فأوقع الجنود بِهِمْ ضربات كَثِيرَةْ. هرب عَلَى أثرها إلى قرية 'تمبوك' مركز شبراخيت (شبراخيت: إحدى بِلادْ مُحَافَظَة البحيرة)، وسكن حَتَّى موت جوستنيان سَنَةْ 565م. ثُمَّ عَادَ إلى شِيهِيتْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -16851,7 +17131,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0909&C=Title", 
   "9 Pachôns\n1) Décès de sainte Hélène, la reine ;\n2) Décès du pape Jean XI ;\n3) Décès du pape Gabriel VIII", 
-  "9 بشنس\nنِيَاحَةْ القِدِّيسَةْ هيلانة الملكة\nنِيَاحَةْ القِدّيسْ البابا يوأنس الحادي عشر\nنِيَاحَةْ القِدّيسْ البابا غُبْرِيَالْ الثامن\n", 
+  "9 بشنس\nنِيَاحَةْ القِدِّيسَةْ هيلانة الملكة\nنِيَاحَةْ القِدّيسْ البابا يوأنس الحادي عشر\nنِيَاحَةْ القِدّيسْ البابا غُبْرِيَالْ الثامن", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -16876,7 +17156,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de ses prières soit avec nous. Amen !", 
-  "بركة صلواتها فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة صلواتها فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -16953,7 +17233,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1009&C=Title", 
   " 10 Pachôns\nLancement des trois jeunes saints : Ananias, Azarias et Misaël dans la fournaise de feu", 
-  "10 بشنس\nلقاء الثلاثة فتية القِدِّيسْينْ حنانيا وعزاريا وميصائيل في أتون النار\n", 
+  "10 بشنس\nلقاء الثلاثة فتية القِدِّيسْينْ حنانيا وعزاريا وميصائيل في أتون النار", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -16978,7 +17258,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Constatant cela, le roi bénit Shadrak, Meshak et Abed Nego puis en fit les gouverneurs de Babel. Lorsqu’ils eurent achevés leur combat, ils rendirent leurs âmes au Seigneur alors qu’ils priaient chez eux. A ce moment il y eût un grand tremblement de terre sur cette ville. Le roi ordonna qu’on leur construise trois mausolées en ivoire (أسرة من عاج) et qu’ils soient ensevelis dans des vêtements de soie. Il ordonna aussi qu’on lui prépare un lit en or auprès de leurs dépouilles pour qu’il y repose après son décès.", 
-  "ولما رَأَى المَلِكْ ذَلِكْ بارك إله شدرخ وميشخ وعبدنغو، ثُمَّ قدمهم في ولاية بابل. وعِنْدَ تمام جهادهم، وبينما هُمْ يصلون في منزلهم أسلموا نفوسهم بيد الرب، فحدثت زلزلة عظيمة في المَدِينَةِ. ولَمَّا علم المَلِكْ حزن وأَمَرَ أَنَّ تعمل لَهُمْ ثَلاثَةْ أسرّة من عاج، وأَنَّ يكفنوا بحلل من حرير. ثُمَّ أَمَرَ أَنَّ يَعْمَلْ لَهُ سرير من ذهب حَتَّى إذا مات يوضع جَسَدَهُ عَلَيْهِ بَيْنَ أجسادهم.", 
+  "ولما رَأَى المَلِكْ ذَلِكْ بارك إله شدرخ وميشخ وعبدنغو، ثُمَّ قدمهم في ولاية بابل. وعِنْدَ تمام جهادهم، وبينما هُمْ يصلون في منزلهم أسلموا نفوسهم بيد الرَبّ، فحدثت زلزلة عظيمة في المَدِينَةِ. ولَمَّا علم المَلِكْ حزن وأَمَرَ أَنَّ تعمل لَهُمْ ثَلاثَةْ أسرّة من عاج، وأَنَّ يكفنوا بحلل من حرير. ثُمَّ أَمَرَ أَنَّ يَعْمَلْ لَهُ سرير من ذهب حَتَّى إذا مات يوضع جَسَدَهُ عَلَيْهِ بَيْنَ أجسادهم.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -17005,7 +17285,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1109&C=Title", 
   "11 Pachôns\n1) Décès d'abba Paphnouté, l'évêque ;\n2) Martyre de sainte Théoclia épouse de saint Juste fils de l’empereur Numérien", 
-  "11 بشنس\nتِذْكَارْ نِياحَةْ القِدّيسْ الأنبا بفنوتيوس الأسقف\nتِذْكَارْ اسْتِشْهَادْ القِدِّيسَةْ ثاؤكليا زوجة القِدّيسْ يسطس ابْنِ المَلِكْ نوماريوس\n", 
+  "11 بشنس\nتِذْكَارْ نِياحَةْ القِدّيسْ الأنبا بفنوتيوس الأسقف\nتِذْكَارْ اسْتِشْهَادْ القِدِّيسَةْ ثاؤكليا زوجة القِدّيسْ يسطس ابْنِ المَلِكْ نوماريوس", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -17067,7 +17347,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1209&C=Title", 
   "12 Pachôns\n1) Commémoration de l'archange Michel ;\n2) Translation des reliques de saint Jean Chrysostome ;\n3) Commémoration de l'apparition d'une croix lumineuse au-dessus du Golgotha ;\n4) Décès du pape Marc VII ;\n5) Martyre du notable el-moallem Malaty ;\n6) Consécration de l'église de sainte Damienne. ", 
-  "12 بشنس\nتِذْكَارْ رئيس الملائكة الجليل ميخائيل\nتِذْكَارْ نَقْلِ أعضاء القِدّيسْ يُوحَنَّا ذهبي الفم\nتِذْكَارْ ظهور صليب من نور فوق الجلجثة\nتِذْكَارْ نِياحَةْ القِدّيسْ البابا مَرْقُسْ السابع\nتِذْكَارْ اسْتِشْهَادْ الْمُعَلِّم ملطي\nتِذْكَارْ تَكّرْيسِ كِنِيسَةْ الشهيدة دميانة\n", 
+  "12 بشنس\nتِذْكَارْ رئيس الملائكة الجليل ميخائيل\nتِذْكَارْ نَقْلِ أعضاء القِدّيسْ يُوحَنَّا ذهبي الفم\nتِذْكَارْ ظهور صليب من نور فوق الجلجثة\nتِذْكَارْ نِياحَةْ القِدّيسْ البابا مَرْقُسْ السابع\nتِذْكَارْ اسْتِشْهَادْ الْمُعَلِّم ملطي\nتِذْكَارْ تَكّرْيسِ كِنِيسَةْ الشهيدة دميانة", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -17077,7 +17357,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que son intercession soit avec nous. Amen !", 
-  "شفاعته فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "شفاعته فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -17087,12 +17367,12 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Lorsque la procession parvint à Constantinople, les fidèles sortirent en masse pour accueillir leur pasteur qui offrit sa vie pour eux. Il est considéré comme martyr sans effusion de sang. En conséquence, il fût très honoré et fêté puis son corps fût déposé à l'église des apôtres. Théodose se jeta à terre devant le corps du saint avec une grande dévotion en demandant pardon pour lui-même ainsi que pour ses parents Arcadius (أركاديوس) et Eudoxie (أوذوكسيا - أفدوكسيا).", 
-  "ولما وَصَلُوا بالجسد الطَاهِر إلى القسطنطينية، خرجت أفواج الشَّعْبِ تستقبل راعيها، الذي اسْتَشْهَدَ بدون سفك دم، باذلاً حياته عنهم. واحتفلوا بِهِ احتفالاً مهيباً، وحملوه إلى كِنِيسَةْ الرسل. حَيْثُ خرّ الإمبراطور أَمَامَهُ في انسحاق شديد، والدموع تنهمر من عينيه، طالباً الغفران لنفسه ولوالديه أركاديوس وأفدوكسيا.", 
+  "ولما وَصَلُوا بِالجَسَدِ الطَاهِر إلى القسطنطينية، خرجت أفواج الشَّعْبِ تستقبل راعيها، الذي اسْتَشْهَدَ بدون سفك دم، باذلاً حياته عنهم. واحتفلوا بِهِ احتفالاً مهيباً، وحملوه إلى كِنِيسَةْ الرسل. حَيْثُ خرّ الإمبراطور أَمَامَهُ في انسحاق شديد، والدموع تنهمر من عينيه، طالباً الغفران لنفسه ولوالديه أركاديوس وأفدوكسيا.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction des prières de saint Jean Chrysostome soit avec. Amen !", 
-  "بَرَكِةْ صَلَوَاتْ القِدّيسْ يُوحَنَّا ذهبي الفم فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بَرَكِةْ صَلَوَاتْ القِدّيسْ يُوحَنَّا ذهبي الفم فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -17102,7 +17382,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de la glorieuse croix soit avec nous. Amen !", 
-  "بركة الصليب المَجِيدِ فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة الصليب المَجِيدِ فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -17112,7 +17392,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Ce saint naquit au village de Quoulousna (قلوصنا)et il fût nommé Simon (سمعان) à sa naissance et devint moine au monastère de saint Paul (أنبا بولا). Il fût ordonné prêtre par le pape Jean XVII (abba Youhannés يوأنس السابع عشر). Après le décès d'abba Youhannés, il fût choisi patriarche à cause de sa miséricorde, sa voix douce et sa logique et il fût sacré le 24 Pachôns 1461 des martyrs (1745 après Jésus Christ), fête de l'entrée du Christ en Égypte.", 
-  "وُلِدَ في قلوصنا (قلوصنا: قرية ما زالت بنفس الاسم بمركز سمالوط مُحَافَظَة المنيا) بِاسْمِ سَمْعَانْ وتَرَّهَبَ بِدِيرْ القِدّيسْ الأنبا بولا. رسمه البابا يوأنس السابع عَشَرْ قِسَّاً. وبَعْدَ نِياحَةْ الأنبا يوأنس اخْتَارُوهُ لِلْبَطْرِيَّرْكِيَّة لِأَنَّهُ تميز بالرحمة وعذوبة الصوت وفصاحة المنطق.كرسوه بطريركاً في الرابع والعشرين من بشنس سَنَةْ 1461 لِلْشُهَداءِ (1745م)، وهْوَ تِذْكَارْ دخول السَّيْد المَسِيحْ أرض مِصْرْ.", 
+  "وُلِدَ في قلوصنا (قلوصنا: قرية ما زالت بِنَفْسِ الاسم بمركز سمالوط مُحَافَظَة المنيا) بِاسْمِ سَمْعَانْ وتَرَّهَبَ بِدِيرْ القِدّيسْ الأنبا بولا. رسمه البابا يوأنس السابع عَشَرْ قِسَّاً. وبَعْدَ نِياحَةْ الأنبا يوأنس اخْتَارُوهُ لِلْبَطْرِيَّرْكِيَّة لِأَنَّهُ تميز بالرحمة وعذوبة الصوت وفصاحة المنطق.كرسوه بطريركاً في الرابع والعشرين من بشنس سَنَةْ 1461 لِلْشُهَداءِ (1745م)، وهْوَ تِذْكَارْ دخول السَّيْد المَسِيحْ أرض مِصْرْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -17179,7 +17459,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1309&C=Title", 
   "13 Pachôns\n1) Décès de saint Arsène, le précepteur des fils de l'empereur ;\n2) Martyre d'abba Pigol, le soldat", 
-  "13 بشنس\nنِيَاحَةْ القِدّيسْ أرسانيوس معلم أولاد الملوك\nاسْتِشْهَادْ القِدّيسْ أبا بيجول الجندي\n", 
+  "13 بشنس\nنِيَاحَةْ القِدّيسْ أرسانيوس معلم أولاد الملوك\nاسْتِشْهَادْ القِدّيسْ أبا بيجول الجندي", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -17209,7 +17489,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Saint Arsène était contemporain de la première incursion des barbares sur Scété en 407 après Jésus Christ. En 411 il partit pour Canope (كانوب) mais rapidement revint à Scété où il demeura jusqu’en 432. Par la suite il se réfugia dans un monastère à Troë (Toura près du Caire طرة) nommé le monastère du nain (دير القصير). Ce monastère a été aussi surnommé le monastère d’Hercule (دير هرقل) ou le monastère des bœufs (دير البغل). En 442, il quitta Troë à cause de l’attaque des barbare et se rendit à Canope où il demeura trois ans jusqu’en 445 puis il revint à Troë. Il y décéda deux ans plus tard.", 
-  "عاصر القِدّيسْ أرسانيوس غارة البربر الأولى عَلَى برية شيهيت سَنَةْ 407م. وفي سَنَةْ 411م سافر إلى كانوب (كانوب: حَالِيَاً هي أبو قير شرقي الإسْكَنْدَرِيَّةْ)، وسرعان ما عَادَ إلى الإسقيط واسْتَمَرَ فيه حَتَّى سَنَةْ 432م. ثُمَّ تَرَكَ البَرِّيَة ليحتمي في دير بِمَدِينَةِ طرة الذي دُعي فيما بَعْدَ دير القصير، ويسمى دير هرقل أو دير البغل، حَيْثُ عاش فيه عَشَرْ سنوات. وفي سَنَةْ 442م تَرَكَ طرة بِسَبَبِ هجوم البربر، وذهب إلى كانوب ومكث بِهَا حوالي ثلاث سنوات حَتَّى سَنَةْ 445م. ثُمَّ عَادَ إلى طرة مرة أخرى، حَيْثُ أقَامَ بِهَا سنتين، وتنيَّح.", 
+  "عاصر القِدّيسْ أرسانيوس غارة البربر الأولى عَلَى بَرِّيَّةِ شِيهِيتْ سَنَةْ 407م. وفي سَنَةْ 411م سافر إلى كانوب (كانوب: حَالِيَاً هي أبو قير شرقي الإسْكَنْدَرِيَّةْ)، وسرعان ما عَادَ إلى الإسقيط واسْتَمَرَ فيه حَتَّى سَنَةْ 432م. ثُمَّ تَرَكَ البَرِّيَة ليحتمي في دير بِمَدِينَةِ طرة الذي دُعي فيما بَعْدَ دير القصير، ويسمى دير هرقل أو دير البغل، حَيْثُ عاش فيه عَشَرْ سنوات. وفي سَنَةْ 442م تَرَكَ طرة بِسَبَبِ هجوم البربر، وذهب إلى كانوب ومكث بِهَا حوالي ثلاث سنوات حَتَّى سَنَةْ 445م. ثُمَّ عَادَ إلى طرة مرة أخرى، حَيْثُ أقَامَ بِهَا سنتين، وتنيَّح.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -17301,7 +17581,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Nous commémorons aussi le martyre de saint Épimaque de Péluse (أبيماخوس الفرمي) en l’an 250 après Jésus Christ. Ce saint naquit à Péluse(الفرما) et il était tisserand (حائك). Son caractère était calme et il était attiré par la vie de contemplation. Il se rendait souvent au désert à proximité de sa ville recherchant la vie érémitique et l’adoration mais il reçut la couronne du martyre.", 
-  "وفيه أيْضَاً مِنْ سَنَةْ 250م اسْتَشْهَدَ القِدّيسْ أبيماخوس الفرمي. وُلِدَ هَذَا القِدّيسْ بالفرما وهي بلدة بلوزيوم القَدِيمَة، وكَانَ يَعْمَلْ حائكاً. وقَدْ اتسم برقة الطبع والهدوء، مُحِبّاً لحياة التأمل، وكثيراً ما كَانَ ينطلق إلى برية الفرما مشتاقاً إلى حَيَاةِ النُسك والعبادة، لكنه نال إكليل الاسْتِشْهَادْ عوض هَذِهِ الحياة.", 
+  "وفيه أيْضَاً مِنْ سَنَةْ 250م اسْتَشْهَدَ القِدّيسْ أبيماخوس الفرمي. وُلِدَ هَذَا القِدّيسْ بالفرما وهي بلدة بلوزيوم القَدِيمَة، وكَانَ يَعْمَلْ حائكاً. وقَدْ اتسم برقة الطبع والهدوء، مُحِبّاً لحياة التأمل، وكثيراً ما كَانَ ينطلق إلى بَرِّيَّةِ الفرما مشتاقاً إلى حَيَاةِ النُسك والعبادة، لكنه نال إكليل الاسْتِشْهَادْ عوض هَذِهِ الحياة.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -17333,7 +17613,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1509&C=Title", 
   "15 Pachôns\n1) Martyre de saint Siméon le cananite et le zélote, un des douze apôtres ;\n2) Martyre de quatre cent personnes à Déndérah ;\n3) Commémoration du diacre Ménas, l’anachorète ;\n4) Décès du prêtre Chams-el-Riassa abou-Barakât, connu sous le nom d’ibn-Kébar", 
-  "15 بشنس\nاسْتِشْهَادْ القِدّيسْ سَمْعَانْ الغيور القانوي أحَدْ الاثنى عشر\nاسْتِشْهَادْ أربعمائة شهيد بدندرة عَلَى اسْمِ السَيِّدْ المَسِيحْ\nتِذْكَارْ الشماس مينا المتوحد\nنِيَاحَةْ الشيخ شمس الرئاسة أبي البركات الشهير بابن كبر\n", 
+  "15 بشنس\nاسْتِشْهَادْ القِدّيسْ سَمْعَانْ الغيور القانوي أحَدْ الاثنى عشر\nاسْتِشْهَادْ أربعمائة شهيد بدندرة عَلَى اسْمِ السَيِّدْ المَسِيحْ\nتِذْكَارْ الشماس مينا المتوحد\nنِيَاحَةْ الشيخ شمس الرئاسة أبي البركات الشهير بابن كبر", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -17368,7 +17648,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de leurs prières soit avec nous. Amen !", 
-  "بركة صلواتهما فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة صلواتهما فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -17378,7 +17658,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de leurs prières soit avec nous. Amen !", 
-  "بركة صلواتهم فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة صلواتهم فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -17425,7 +17705,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1609&C=Title", 
   "16 Pachôns\nConsécration de l’église de saint Jean l’évangéliste, à Alexandrie ", 
-  "16 بشنس\nتَكّرْيسِ كِنِيسَةْ القِدّيسْ يُوحَنَّا الإنجيلي بِمَدِينَةِ الإسْكَنْدَرِيَّةْ\n", 
+  "16 بشنس\nتَكّرْيسِ كِنِيسَةْ القِدّيسْ يُوحَنَّا الإنجيلي بِمَدِينَةِ الإسْكَنْدَرِيَّةْ", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -17447,7 +17727,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1709&C=Title", 
   "17 Pachôns\nCommémoration de la Pentecôte", 
-  "17 بشنس\nتِذْكَارْ نِياحَةْ القِدّيسْ إبيفانيوس أُسْقُفْ قبرص\n", 
+  "17 بشنس\nتِذْكَارْ نِياحَةْ القِدّيسْ إبيفانيوس أُسْقُفْ قبرص", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -17457,7 +17737,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Un jour il croisât un pauvre qui faisait la manche mais il ne s’en soucia pas. Toutefois un moine passant par-là lui offrit son vêtement car il ne possédait rien d’autre. A l’instant, il vit comme un habit blanc descendant du ciel et remplaçant celui que le moine avait retiré. Epiphane en fût très surpris, il interpella le moine et le questionna au sujet de sa Foi. Lorsqu’il sut qu’il était chrétien, il voulut avoir un complément d’information concernant cette religion. Alors, le moine le présenta à l’évêque de cette région qui l’enseigna et le baptisa.", 
-  "وحدث مرة وهْوَ سائر في الطَرِيْقِ أَنَّهُ أَبْصَرَ فقيراً يطلب صدقة فَلَمْ يَهْتَمْ به، بينما أَبْصَرَ أحَدْ الرُهْبانْ يخلع ثوبه ويعطيه للفقير لِأَنَّهُ لَمْ يكن يمتلك غيره. في هَذَا الوَقْت رَأَى إبيفانيوس وكأن حلة بيضاء نزلت مِنَ السماء عَلَى هَذَا الرَاهِبْ عوض الثوب. تعجب من ذَلِكْ وانطلق إلى الرَاهِبْ وسأله عَن إيمانه، فأعلمه أَنَّهُ مسيحي. طلب إلَيهِ أَنَّ يُرْشِدَهُ إلى حقائق هَذَا الدين فأجابه إلى طلبه وأتى بِهِ إلى أُسْقُفْ المنطقة التي كانوا فيها، فعلمه ووعظه ثُمَّ عمَّده.", 
+  "وحدث مرة وهْوَ سائر في الطَرِيْقِ أَنَّهُ أَبْصَرَ فقيراً يطلب صدقة فَلَمْ يَهْتَمْ به، بَيْنَمَا أَبْصَرَ أحَدْ الرُهْبانْ يخلع ثوبه ويعطيه للفقير لِأَنَّهُ لَمْ يكن يمتلك غيره. في هَذَا الوَقْت رَأَى إبيفانيوس وكأن حلة بيضاء نزلت مِنَ السماء عَلَى هَذَا الرَاهِبْ عوض الثوب. تعجب من ذَلِكْ وانطلق إلى الرَاهِبْ وسأله عَن إيمانه، فأعلمه أَنَّهُ مسيحي. طلب إلَيهِ أَنَّ يُرْشِدَهُ إلى حقائق هَذَا الدين فأجابه إلى طلبه وأتى بِهِ إلى أُسْقُفْ المنطقة التي كانوا فيها، فعلمه ووعظه ثُمَّ عمَّده.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -17524,7 +17804,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1809&C=Title", 
   "18 Pachôns\n1) Commémoration de la Pentecôte ;\n2) Décès de saint Georges, le compagnon de saint Abraam", 
-  "18 بشنس\nتِذْكَارْ عيد العنصرة\nنِيَاحَةْ القِدّيسْ جورجى رفيق القِدّيسْ أبرآم\n", 
+  "18 بشنس\nتِذْكَارْ عيد العنصرة\nنِيَاحَةْ القِدّيسْ جورجى رفيق القِدّيسْ أبرآم", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -17534,12 +17814,12 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "\"Ils se trouvaient réunis tous ensemble. Soudain un bruit survint du ciel comme un violent coup de vent : la maison où ils étaient assis en fût remplie tout entière. Alors leur apparurent des langues qu’on aurait dites de feu, qui se partageaient, et il s’en posa une sur chacun d’eux. Tous furent remplis d’Esprit Saint. »", 
-  "'فبينما كَانَ الجَمِيع معاً بنفس واحدة صَارَ بغتة مِنَ السماء صوت كَمَا من هبوب ريح عاصفة وملأ كُلَّ البيت حَيْثُ كانوا جالسين وظَهَرَتْ لَهُمْ ألسنة من نار واستقرت عَلَى كُلَّ واحد مِنْهُمْ وامتلأ الجَمِيع مِنَ الرُوحِ القدس' (أع 2: 1 – 3).", 
+  "'فبينما كَانَ الجَمِيع معاً بِنَفْسِ واحدة صَارَ بغتة مِنَ السماء صوت كَمَا من هبوب ريح عاصفة وملأ كُلَّ البيت حَيْثُ كانوا جالسين وظَهَرَتْ لَهُمْ ألسنة من نار واستقرت عَلَى كُلَّ واحد مِنْهُمْ وامتلأ الجَمِيع مِنَ الرُوحِ القدس' (أع 2: 1 – 3).", 
   ],
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de cette fête soit avec nous.", 
-  "بركة هَذَا العيد المُقَدّسْ فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة هَذَا العيد المُقَدّسْ فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -17549,12 +17829,12 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Il eût un penchant pour le monachisme, quitta le troupeau et voulut se rendre dans la vallée de saint Macaire (برية القِدّيس مكاريوس). En chemin, il vit une colonne de lumière qui guidait ses pas. Il en fût réjoui et ressentit de la consolation. Tout d’un coup, cette colonne disparut et un vieil homme lui apparut et lui dit : \"En passant par une ville, j’ai rencontré un homme dont les vêtements étaient déchirés criant et pleurant en disant : ‘un lion a dévoré mon fils alors qu’il gardait les moutons.’ Je suis convaincu que c’est ton père. Tu devrais retourner pour le réconforter car il est écrit : ‘Honore ton père et ta mère’ ensuite tu pourras revenir dans la vallée.", 
-  "اشتاق للرهبنة فترك الغنم وهْوَ في الرابعة عشرة مِنْ عُمْرِهِ وقَصَدَ برية القِدّيسْ مكاريوس. وفي الطَرِيقِ رَأَى عمود نور يُرْشِدَهُ ففرح وتعزى، ثُمَّ اختفي النور ليظهر لَهُ إنْسَانْ عجوز يقول له: 'لقد عبرت إحدى المدن فوجدت رَجُلاً مشقوق الثياب ينوح ويبكى بشدة ويصرخ بِصَوْتٍ عَظِيمٍ قائلاً: إن الأسد قَدْ افترس ابني وهْوَ يرعى الغنم، وأغلب الظن أَنَّهُ أبوك، فعليك أَنَّ ترجع وتطيب قلبه، لِأَنَّهُ مكتوب: 'أكرم أباك وأمك، (خر 20: 12) ثُمَّ تعود إلى البرية'.", 
+  "اشتاق للرهبنة فترك الغنم وهْوَ في الرابعة عشرة مِنْ عُمْرِهِ وقَصَدَ بَرِّيَّةِ القِدّيسْ مكاريوس. وفي الطَرِيقِ رَأَى عمود نور يُرْشِدَهُ ففرح وتعزى، ثُمَّ اختفي النور ليظهر لَهُ إنْسَانْ عجوز يقول له: 'لقد عبرت إحدى المدن فوجدت رَجُلاً مشقوق الثياب ينوح ويبكى بشدة ويصرخ بِصَوْتٍ عَظِيمٍ قائلاً: إن الأسد قَدْ افترس ابني وهْوَ يرعى الغنم، وأغلب الظن أَنَّهُ أبوك، فعليك أَنَّ ترجع وتطيب قلبه، لِأَنَّهُ مكتوب: 'أكرم أباك وأمك، (خر 20: 12) ثُمَّ تعود إلى البرية'.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
   "Le jeune homme répondit : \"Il est aussi écrit ‘Celui qui aime son père ou sa mère plus que moi n’est pas digne de moi ». A l’instant le vieillard se transforma en fumée et disparut. Georges sut qu’il s’agissait d’une feinte du démon, alors, il rendit grâce à Dieu. Immédiatement l’ange Gabriel prit l’aspect d’un jeune homme qui l’accompagna jusqu’au mont d’abba Orion (أنبا أوريون) proche de la vallée de Scété où il devint le disciple d’un saint moine pendant dix ans pendant lesquels il ne gouta pas d’aliment cuit ni de fruit. Il passait les nuits à prier et à méditer les livres de la sainte Bible au point qu’il en apprit quatorze par cœur. Son combat lui valut qu’une troupe d’anges s’entretienne avec lui pour le consoler et l’encourager.", 
-  "أجاب الشاب قائلاً مكتوب: 'من أحَبَّ أبَّاً أو أُمَّاً أَكْثَرَ منى فلا يستحقني' (مت 10: 37)، وللحال تحول ذَلِكْ الشيخ إلى دخان واختفي، فعرف جورجى أنها خدعة شيطانية، فقدم الشكر لله. عندئذ ظَهَرَ لَهُ المَلاك غُبْرِيَالْ عَلَى شكل صبى صغير حسن الصورة وبهي الملبس رافقه في الطَرِيْقِ حَتَّى بَلَغَ جبل الأنبا أوريون بقرب شيهيت. تتلمذ عَلَى يَدَيّ رَاهِبْ قِدِّيسْ مُدَةِ عَشَرْ سنوات لَمْ يذق فِيهَا طعاماً مطبوخاً أو فاكهة. وكَانَ يقيم اللّيْلِ كُلَّهُ في الصَلاةِ والهذيذ في الكُتُبِ حَتَّى حفظ أربعة عَشَرْ سفراً من أسفار الكِتَابْ المقدس. ولكثرة جهاداته استحق أَنَّ تؤانسه قوة ملائكية تعزيه وتشجعه.", 
+  "أجاب الشاب قائلاً مكتوب: 'من أحَبَّ أبَّاً أو أُمَّاً أَكْثَرَ منى فلا يستحقني' (مت 10: 37)، وللحال تحول ذَلِكْ الشيخ إلى دخان واختفي، فعرف جورجى أنها خدعة شيطانية، فقدم الشكر لله. عندئذ ظَهَرَ لَهُ المَلاك غُبْرِيَالْ عَلَى شكل صبى صغير حسن الصورة وبهي الملبس رافقه في الطَرِيْقِ حَتَّى بَلَغَ جبل الأنبا أوريون بقرب شِيهِيتْ. تتلمذ عَلَى يَدَيّ رَاهِبْ قِدِّيسْ مُدَةِ عَشَرْ سنوات لَمْ يذق فِيهَا طعاماً مطبوخاً أو فاكهة. وكَانَ يقيم اللّيْلِ كُلَّهُ في الصَلاةِ والهذيذ في الكُتُبِ حَتَّى حفظ أربعة عَشَرْ سفراً من أسفار الكِتَابْ المقدس. ولكثرة جهاداته استحق أَنَّ تؤانسه قوة ملائكية تعزيه وتشجعه.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -17569,7 +17849,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Saint Abraam partit en premier pour préparer un emplacement pour saint Georges qui quitta le mont Orion après avoir reçu la bénédiction des pères. Abraam lui présenta son maitre abba Jean (أنبا يوأنس) l’higoumène de la vallée de Scété. Ils s’installèrent dans la cellule appelée \"Béjig » (بيچيج) proche de celle abba Jean. Cette cellule faisait partie des repères du monastère jusqu’au 14ème siècle et fût visitée par le pape Benjamin II (بنيامين الثاني) (1327 – 1339 après Jésus Christ).", 
-  "ترك الأنبا جورجى جبل أوريون بَعْدَ أَنَّ نال بركة الآبَاءِ وانطلق إلى الإسقيط وكَانَ قَدْ سبقه الأنبا أبرآم ليعد لَهُ مَكَاناً. وهُنَاكَ عرّفه الأنبا أبرآم بمعلمه القِدّيسْ الأنبا يوأنس قمص برية شيهيت. وسكنا معاً في قلاية 'بيچيج' بِجِوارْ قلاية الأنبا يوأنس. وقَدْ ظلت هَذِهِ القلاية من معالم الدير حَتَّى القَرْنْ الرابع عَشَرْ حَيْثُ زارها البابا بنيامين الثاني البَطْرِيَرْكْ (82) (1327 – 1339م).", 
+  "ترك الأنبا جورجى جبل أوريون بَعْدَ أَنَّ نال بركة الآبَاءِ وانطلق إلى الإسقيط وكَانَ قَدْ سبقه الأنبا أبرآم ليعد لَهُ مَكَاناً. وهُنَاكَ عرّفه الأنبا أبرآم بمعلمه القِدّيسْ الأنبا يوأنس قمص بَرِّيَّةِ شِيهِيتْ. وسكنا معاً في قلاية 'بيچيج' بِجِوارْ قلاية الأنبا يوأنس. وقَدْ ظلت هَذِهِ القلاية من معالم الدير حَتَّى القَرْنْ الرابع عَشَرْ حَيْثُ زارها البابا بنيامين الثاني البَطْرِيَرْكْ (82) (1327 – 1339م).", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -17585,8 +17865,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=1909&C=Title", 
-  "19 Pachôns\n1) Décès de saint Isaac, le prêtre des Kélias ;\n2) Martyre de saint Isidore d’Antioche\n", 
-  "19 بشنس\nنِيَاحَةْ القِدّيسْ إسحاق قس القلالى\nاسْتِشْهَادْ القِدّيسْ إيسوذوروس الأنطاكي\n", 
+  "19 Pachôns\n1) Décès de saint Isaac, le prêtre des Kélias ;\n2) Martyre de saint Isidore d’Antioche", 
+  "19 بشنس\nنِيَاحَةْ القِدّيسْ إسحاق قس القلالى\nاسْتِشْهَادْ القِدّيسْ إيسوذوروس الأنطاكي", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -17601,7 +17881,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Abba Isaac vécut en ermite pendant 30 ans. Il faisait partie d’un conseil de huit anciens qui dirigeaient les Kélias et Nitrie. Il était présent lorsque le pape Théophile (ثاؤفيلس) visita Nitrie pour étudier le problème des \"frères grands de taille (الاخوة الطوال). » Comme un grand nombre, il fût exilé de Nitrie en même temps que son homonyme Isaac, le prêtre de Scété (إسحاق قس شهيت). Et il revint de Palestine en 403.", 
-  "وقد عاش إسحاق في نُسكه 30 سَنَةً. وكَانَ واحداً ضمن مَجْمَعَ الثمانية شيوخ الّذِينَ كانوا يرأسون نتريا والقلالى. وكَانَ حاضراً في وقت مجيء البابا ثاؤفيلس إلى نتريا لبحث موضوع الإخْوَةِ الطوال، فأصابه ما أصاب آخرين وهْوَ الطرد من نتريا إلى فلسطين نَحْوَ سَنَةْ 400م مَعَ الأبْ إسحاق قس شيهيت. عَادَ نَحْوَ سَنَةْ 403م من فلسطين إلى نتريا.", 
+  "وقد عاش إسحاق في نُسكه 30 سَنَةً. وكَانَ واحداً ضمن مَجْمَعَ الثمانية شيوخ الّذِينَ كانوا يرأسون نتريا والقلالى. وكَانَ حاضراً في وقت مجيء البابا ثاؤفيلس إلى نتريا لبحث موضوع الإخْوَةِ الطوال، فأصابه ما أصاب آخرين وهْوَ الطرد من نتريا إلى فلسطين نَحْوَ سَنَةْ 400م مَعَ الأبْ إسحاق قس شِيهِيتْ. عَادَ نَحْوَ سَنَةْ 403م من فلسطين إلى نتريا.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -17673,7 +17953,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2009&C=Title", 
   "20 Pachôns\n1) Martyre des six soldats qui ont accompagné le prince Claude, le martyr ;\n2) Décès d’abba Amonius, l’ermite ", 
-  "20 بشنس\nاسْتِشْهَادْ الجنود الستة الّذِينَ رافقوا الأمير إقلاديوس الشهيد\nنِيَاحَةْ القِدّيسْ الأنبا أمونيوس المتوحد بجبل تونة\n", 
+  "20 بشنس\nاسْتِشْهَادْ الجنود الستة الّذِينَ رافقوا الأمير إقلاديوس الشهيد\nنِيَاحَةْ القِدّيسْ الأنبا أمونيوس المتوحد بجبل تونة", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -17688,7 +17968,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de leurs prières soit avec nous. Amen !", 
-  "بركة صلواتهم فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة صلواتهم فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -17703,7 +17983,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Abba Apollo (أنبا أبولو) voulut le visiter, il se rendit chez lui avec abba Youssab (أنبا يوساب). Après avoir parlé des merveilles de Dieu, ils lui demandèrent un peu de pain mais il n’en avait pas. Il les informa qu’il se nourrissait des herbes qui poussent dans le désert. Pendant la prière, un ange leur apporta du pain chaud qu’ils mangèrent après avoir prié et rendirent grâce à Dieu. Après cela ils le quittèrent et retournèrent dans leur monastère.", 
-  "أَرَادَ الأنبا أبللو المتشبه بالملائكة أَنَّ يفتقد الأنبا أمونيوس فأتى إلَيهِ ومعه الأنبا يوساب وبَعْدَ أَنْ تحدثوا بِعَظائِمِ الله طلبا مِنْهُ قليلاً مِنَ الخبز فَقَالَ لهما: 'ليس في قلايتى خبزاً وأنا آكل من حشائش البرية'، فتعجبا من عِبَادَتِهِ ونُسكه، وأَثْنَاءِ الصَلاةِ جَاءَ مَلاكُ الرَّبِ ووَضْعِ خبزاً ساخناً لَهُمْ وبَعْدَ الصَلاةِ أكلوا وشكروا الرب، ثُمَّ ودعاه ورجعا إلى ديرهما.", 
+  "أَرَادَ الأنبا أبللو المتشبه بالملائكة أَنَّ يفتقد الأنبا أمونيوس فأتى إلَيهِ ومعه الأنبا يوساب وبَعْدَ أَنْ تحدثوا بِعَظائِمِ الله طلبا مِنْهُ قليلاً مِنَ الخبز فَقَالَ لهما: 'ليس في قلايتى خبزاً وأنا آكل من حشائش البرية'، فتعجبا من عِبَادَتِهِ ونُسكه، وأَثْنَاءِ الصَلاةِ جَاءَ مَلاكُ الرَّبِ ووَضْعِ خبزاً ساخناً لَهُمْ وبَعْدَ الصَلاةِ أكلوا وشكروا الرَبّ، ثُمَّ ودعاه ورجعا إلى ديرهما.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -17719,8 +17999,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=2109&C=Title", 
-  "21 Pachôns\n1) Commémoration de la sainte Vierge Marie, la Mère de Dieu ;\n2) Décès de saint Marcien\n", 
-  "21 بشنس\nالتِذْكَارْ الشهري لِلْقِدِّيسِة العَذْرَاءْ مَرْيَمْ والدة الإله\nنِيَاحَةْ القِدّيسْ مارتينيانوس\n", 
+  "21 Pachôns\n1) Commémoration de la sainte Vierge Marie, la Mère de Dieu ;\n2) Décès de saint Marcien", 
+  "21 بشنس\nالتِذْكَارْ الشهري لِلْقِدِّيسِة العَذْرَاءْ مَرْيَمْ والدة الإله\nنِيَاحَةْ القِدّيسْ مارتينيانوس", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -17730,7 +18010,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que sa sainte intercession soit avec nous. Amen !", 
-  "شفاعتها المُقَدَّسَةْ فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "شفاعتها المُقَدَّسَةْ فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -17760,7 +18040,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Lorsqu’il ressentit que son décès était proche, il se rendit à Athènes où il tomba malade. Il rencontra l’évêque de cette ville et lui narra son histoire puis il rendit l’âme à Dieu. Il fût enseveli et enterré avec un grand honneur.", 
-  "ولما شعر بقرب نِيَاحَتِهِ ذهب إلى أثينا حَيْثُ اعتراه مَرَض شديد، فطلب مقابلة الأبْ الأُسْقُفْ وأخبره بقصته، ثُمَّ فَاضَتْ رُوحَهُ بيد الرب، فكفنوه ودَفَنُوهُ بِإكْرَامٍ جَزيلٍ.", 
+  "ولما شعر بقرب نِيَاحَتِهِ ذهب إلى أثينا حَيْثُ اعتراه مَرَض شديد، فطلب مقابلة الأبْ الأُسْقُفْ وأخبره بقصته، ثُمَّ فَاضَتْ رُوحَهُ بيد الرَبّ، فكفنوه ودَفَنُوهُ بِإكْرَامٍ جَزيلٍ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -17772,7 +18052,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2209&C=Title", 
   "22 Pachôns\n1) Décès de saint Andronique, l’un des soixante-dix disciples ;\n2) Martyre de 142 enfants et 28 femmes ;\n3) Décès de saint Amoun, le fondateur de la vallée de Nitrie", 
-  "22 بشنس\nنِيَاحَةْ القِدّيسْ أندرونيقوس أحَدْ السبعين\nاسْتِشْهَادْ 142 صبياً و28 سيدة\nنِيَاحَةْ القِدّيسْ آمون مؤسس برية نتريا\n", 
+  "22 بشنس\nنِيَاحَةْ القِدّيسْ أندرونيقوس أحَدْ السبعين\nاسْتِشْهَادْ 142 صبياً و28 سيدة\nنِيَاحَةْ القِدّيسْ آمون مؤسس بَرِّيَّةِ نتريا", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -17802,7 +18082,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de leurs prières soit avec nous. Amen !", 
-  "بركة صلواتهما فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة صلواتهما فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -17827,7 +18107,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de leurs prières soit avec nous. Amen !", 
-  "بركة صلواتهم فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة صلواتهم فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -17864,7 +18144,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2309&C=Title", 
   "23 Pachôns\n1) Décès de saint Junias, un des soixante-dix disciples ;\n2) Martyre de sainte Tekla pendant le martyre du prince Claude ;\n3) Décès de saint Potamon le confesseur ;\n4) Martyre de saint Julien et sa mère à Alexandrie", 
-  "23 بشنس\nنِيَاحَةْ القِدّيسْ يونياس أحَدْ السبعين\nشهادة القِدِّيسَةْ تكلا أَثْنَاءَ محاكمة الأمير إقلاديوس\nنِيَاحَةْ القِدّيسْ بوتامون المعترف\nشهادة القِدّيسْ يوليانوس وأُمُّهُ بِالإسْكَنْدَرِيَّة\n", 
+  "23 بشنس\nنِيَاحَةْ القِدّيسْ يونياس أحَدْ السبعين\nشهادة القِدِّيسَةْ تكلا أَثْنَاءَ محاكمة الأمير إقلاديوس\nنِيَاحَةْ القِدّيسْ بوتامون المعترف\nشهادة القِدّيسْ يوليانوس وأُمُّهُ بِالإسْكَنْدَرِيَّة", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -17884,7 +18164,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de ses prières soit avec nous. Amen !", 
-  "بركة صلواتها فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة صلواتها فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -17926,7 +18206,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2409&C=Title", 
   " 24 Pachôns\n1) Commémoration de la venue du Christ en Égypte ;\n2) Décès du prophète Habacuc ;\n3) Martyre de saint Chatoufa, le moine du monastère d’abba Macaire", 
-  "24 بشنس\nتِذْكَارْ مجيء السَّيْد المَسِيحْ إلى أرض مِصْرْ\nنِيَاحَةْ حبقوق النبي\nاسْتِشْهَادْ الرَاهِبْ القِدّيسْ شتوفا المقاري (بشنونة)\n", 
+  "24 بشنس\nتِذْكَارْ مجيء السَّيْد المَسِيحْ إلى أرض مِصْرْ\nنِيَاحَةْ حبقوق النبي\nاسْتِشْهَادْ الرَاهِبْ القِدّيسْ شتوفا المقاري (بشنونة)", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -17991,7 +18271,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de cette fête soit avec nous. Amen !", 
-  "بركة هَذَا العيد المَجِيدِ فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة هَذَا العيد المَجِيدِ فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -18021,7 +18301,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction des prières de ce prophète soit avec nous. Amen !", 
-  "بركة صلاة هَذَا النبي العَظِيمْ فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة صلاة هَذَا النبي العَظِيمْ فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -18043,7 +18323,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2509&C=Title", 
   "25 Pachôns\n1) Martyre de saint Colluthus d’Antinoë, le médecin ;\n2) Décès du Mo’allem Ibrahim al-Gohari, le grand dignitaire", 
-  "25 بشنس\nاسْتِشْهَادْ القِدّيسْ قلتة الأنصناوي الطبيب\nنِيَاحَةْ الأرخن الكريم المعلم إبراهيم الجوهري\n", 
+  "25 بشنس\nاسْتِشْهَادْ القِدّيسْ قلتة الأنصناوي الطبيب\nنِيَاحَةْ الأرخن الكريم المعلم إبراهيم الجوهري", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -18134,8 +18414,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=2609&C=Title", 
-  "26 Pachôns\nMartyre de saint Thomas, l'apôtre\n", 
-  "26 بشنس\nاسْتِشْهَادْ القِدّيسْ توما أحَدْ الاثني عَشَرْ رسولاً\n", 
+  "26 Pachôns\nMartyre de saint Thomas, l'apôtre", 
+  "26 بشنس\nاسْتِشْهَادْ القِدّيسْ توما أحَدْ الاثني عَشَرْ رسولاً", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -18202,7 +18482,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2709&C=Title", 
   "27 Pachôns\n1) Décès de saint Lazare, le bien-aimé du Seigneur ;\n2) Décès d’abba Thomas l’anachorète au mont Chénechéf ;\n3) Décès du pape Jean II", 
-  "27 بشنس\nنِيَاحَةْ القِدّيسْ لعازر حبيب الرب\nنِيَاحَةْ القِدّيسْ الأنبا توماس السائح بجبل شنشيف\nنِيَاحَةْ القِدّيسْ البابا يوأنس الثاني\n", 
+  "27 بشنس\nنِيَاحَةْ القِدّيسْ لعازر حبيب الرب\nنِيَاحَةْ القِدّيسْ الأنبا توماس السائح بجبل شنشيف\nنِيَاحَةْ القِدّيسْ البابا يوأنس الثاني", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -18277,7 +18557,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Après son intronisation, le pape Jean II reçut une lettre de la part de saint Sévère d’Antioche pour le féliciter. Dans ce courrier, saint Sévère confirmait l’unicité de la nature et de la volonté du Christ sans aucune séparation. Il affirmait que sa Foi était conforme à celle de saint Cyrille (كيرلس) et saint Dioscore (ديسقوروس). Ce courrier réjouit le pape Jean qui rédigea une réponse. Dans cette réponse il confirmait l’unicité de Dieu en trois personnes (وحدانية جوهر الله و تثليث أقانيمه). Il affirmait l’Incarnation du Fils éternel. Par cette incarnation, la Divinité et l’Humanité ont été unies et non séparées en deux. Il écartait ceux qui prétendaient que le Christ était séparé en deux ou que les deux natures étaient mélangées. Il écartait aussi ceux qui disaient que le Crucifié était un homme ordinaire ainsi que ceux qui disaient que la Divinité a subit la passion et la mort. Il certifiait que la Foi orthodoxe consistait à confesser que Dieu le Verbe a souffert sa passion dans la chair qu’Il a prise de l’humanité avec laquelle Il s’est uni.", 
-  "وبَعْدَ رسامة البابا بعث لَهُ القِدّيسْ ساويرس الأنطاكي برسالة يهنئه فِيهَا ويؤكد عَلَى أَنَّ للسيد المَسِيحِ، بَعْدَ الاتحاد، طبيعة واحدة ومشيئة واحدة بغير افتراق، وأنه يؤمن بإيمان القِدّيسْ كيرلس والقديس ديسقوروس. ولَمَّا تلقى الأنبا يوأنس الرسالة فرح بِهَا هُوَ والآباء الأساقفة، ثُمَّ أَرْسَلَ لَهُ رداً شهد فيه بوحدانية جوهر الله وتثليث أقانيمه، وبتجسد الابن الأزلي بالطبيعة البشَرية التي اتحدت بالطبيعة اللاهوتية وأصبحت بالاتحاد واحداً لا اثنين، ومبعداً كُلَّ مَنْ يفرق المَسِيحْ أو يمزج طبيعته بطبيعة اللاهوت، وكذا كُلَّ من يقول أَنَّ المتألم المصلوب المائت عَن البشَر إنْسَانْ عادى، أو يُدخل الآلام والموت عَلَى طبيعة اللاهوت، وأكد عَلَى أَنَّ الإيمَانْ المُسْتَقِيمْ هُوَ أَنَّ نعترف أَنَّ الله الكَلِمَة تألم بالجسد الذي اتحد بِهِ منا.", 
+  "وبَعْدَ رسامة البابا بعث لَهُ القِدّيسْ ساويرس الأنطاكي برسالة يهنئه فِيهَا ويؤكد عَلَى أَنَّ للسيد المَسِيحِ، بَعْدَ الاتحاد، طبيعة واحدة ومشيئة واحدة بغير افتراق، وأنه يؤمن بإيمان القِدّيسْ كيرلس والقديس ديسقوروس. ولَمَّا تلقى الأنبا يوأنس الرسالة فرح بِهَا هُوَ والآباء الأساقفة، ثُمَّ أَرْسَلَ لَهُ رداً شهد فيه بوحدانية جوهر الله وتثليث أقانيمه، وبتجسد الابن الأزلي بالطبيعة البشَرية التي اتحدت بالطبيعة اللاهوتية وأصبحت بالاتحاد واحداً لا اثنين، ومبعداً كُلَّ مَنْ يفرق المَسِيحْ أو يمزج طبيعته بطبيعة اللاهوت، وكذا كُلَّ من يقول أَنَّ المتألم المصلوب المائت عَن البشَر إنْسَانْ عادى، أو يُدخل الآلام والموت عَلَى طبيعة اللاهوت، وأكد عَلَى أَنَّ الإيمَانْ المُسْتَقِيمْ هُوَ أَنَّ نعترف أَنَّ الله الكَلِمَة تألم بِالجَسَدِ الذي اتحد بِهِ منا.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -18298,8 +18578,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=2809&C=Title", 
-  "28 Pachôns\nTranslation des reliques de saint Epiphane\n", 
-  "28 بشنس\nتِذْكَارْ نَقْلِ جَسَدِ القِدّيسْ إبيفانيوس أُسْقُفْ قبرص\n", 
+  "28 Pachôns\nTranslation des reliques de saint Epiphane", 
+  "28 بشنس\nتِذْكَارْ نَقْلِ جَسَدِ القِدّيسْ إبيفانيوس أُسْقُفْ قبرص", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -18336,7 +18616,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2909&C=Title", 
   "29 Pachôns\n1) Commémoration de l’Annonciation, la Nativité et la Résurrection ;\n2) Décès de saint Siméon le stylite", 
-  "29 بشنس\nتِذْكَارْ الأَعْيَادِ السيدية البشارة والميلاد والقيامة\nنِيَاحَةْ القِدّيسْ سَمْعَانْ العمودي\n", 
+  "29 بشنس\nتِذْكَارْ الأَعْيَادِ السيدية البشارة والميلاد والقيامة\nنِيَاحَةْ القِدّيسْ سَمْعَانْ العمودي", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -18346,7 +18626,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de nôtre bon Sauveur soit avec nous. Amen !", 
-  "بركة مخلصنا الصالح فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة مخلصنا الصالح فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -18408,7 +18688,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=3009&C=Title", 
   " 30 Pachôns\n1) Décès de saint Phorus, l’un des soixante-dix disciples ;\n2) Décès de saint Michel 1er", 
-  "30 بشنس\nنِيَاحَةْ القِدّيسْ فورس الرسول أحَدْ السبعين\nنِيَاحَةْ القِدّيسْ البابا ميخائيل الأول\n", 
+  "30 بشنس\nنِيَاحَةْ القِدّيسْ فورس الرسول أحَدْ السبعين\nنِيَاحَةْ القِدّيسْ البابا ميخائيل الأول", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -18448,7 +18728,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Il prodiguait perpétuellement ses enseignements aux fidèles. Michel 1er fût contemporain des derniers jours du calife al-Moustânsir-bil-lah (المستنصر بالله) et son ministre Badr-el-gamaly (بدر الجمالي) puis le calife al-Mousta’aly-bil-lah (المستعلي بالله) et son ministre al-Afdal (الافضل). Durant cette époque le calme se répandit en Égypte.", 
-  "وكان مداوماً عَلَى وعظ الشَّعْبِ وتعليمه. وقَدْ عاصر الأَيَّامْ الأخيرة من خلافة 'المستنصر بالله' ووزيره 'بدر الجمالي'، وبَعْدَ وفاتهما أقاموا الخليفة 'المستعلي بالله' ووزيره 'الأفضل'، فساد الهدوء في مِصْرْ هَذِهِ الفترة.", 
+  "وكان مداوماً عَلَى وعظ الشَّعْبِ وتعليمه. وقَدْ عاصر الأَيَّامْ الأَخِيرَةِ من خلافة 'المستنصر بالله' ووزيره 'بدر الجمالي'، وبَعْدَ وفاتهما أقاموا الخليفة 'المستعلي بالله' ووزيره 'الأفضل'، فساد الهدوء في مِصْرْ هَذِهِ الفترة.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -18475,7 +18755,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0110&C=Title", 
   "1er Paoni\n1) Décès de Saint Carpos, l’un des soixante-dix disciples ;\n2) Martyre de saint abba Fam le soldat ;\n3) Martyre de saint Côme de Taha ainsi que ses compagnons ;\n4) Consécration de l’église de saint Léonce de Tripoli", 
-  "1 بؤنة\nنِيَاحَةْ القِدّيسْ كاربوس أحَدْ السبعين\nاسْتِشْهَادْ القِدّيسْ أبي فام الطحاوي الجُندي\nاسْتِشْهَادْ القِدّيسْ قزمان الطحاوي ورفقته\nتَكّرْيسِ كِنِيسَةْ القِدّيسْ لاونديوس الشامي\n", 
+  "1 بؤنة\nنِيَاحَةْ القِدّيسْ كاربوس أحَدْ السبعين\nاسْتِشْهَادْ القِدّيسْ أبي فام الطحاوي الجُندي\nاسْتِشْهَادْ القِدّيسْ قزمان الطحاوي ورفقته\nتَكّرْيسِ كِنِيسَةْ القِدّيسْ لاونديوس الشامي", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -18540,7 +18820,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de ses prières soit avec nous. Amen !", 
-  "بركة صلواتهم فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة صلواتهم فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -18562,7 +18842,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0210&C=Title", 
   "2 Paoni\n1) Apparition des reliques de saint Jean le baptiste et du prophète Elysée ;\n2) Décès du pape Jean XVIII", 
-  "2 بؤنة\nظهور جسديّ القِدّيسْ يُوحَنّا المِعْمِدَانْ وأليشع النبي\nنِيَاحَةْ القِدّيسْ البابا يوأنس الثامن عشر\n", 
+  "2 بؤنة\nظهور جسديّ القِدّيسْ يُوحَنّا المِعْمِدَانْ وأليشع النبي\nنِيَاحَةْ القِدّيسْ البابا يوأنس الثامن عشر", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -18577,7 +18857,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Lorsque le pape Théophile fût intronisé, il se souvint des paroles de son prédécesseur, alors, il construisit l’église et y déposa les reliques des deux saints. Quand ils prirent les reliques pour les porter à l’église, la procession passa devant la maison d’une païenne (صابئة)qui était dans les douleurs de l’accouchement depuis quatre jours. Lorsqu’elle apprit la raison du bruit qu’elle entendait, celle-ci demanda l’intercession de saint Jean le baptiste et fit le vœu de devenir chrétienne si elle s’en sortait. Dès qu’elle eût prononcé ces paroles, elle accoucha d’un fils qu’elle nomma Jean et se fit baptiser ainsi que toute sa famille.", 
-  "ولما جلس البابا ثاؤفيلس عَلَى الكُرْسِي المرقسي تذكر ما قَالَه البابا أثناسيوس. فبنى الكَنيسَةْ ونقل إليها الجَسَدْين. وحَدَثَ وهم سائرون بالجسدين أَنَّ عبروا أمَامَ بَيْت امْرَأَةْ مِنَ الصابئة (صابئة: تنتمي لِمَنْ يعبدون الكواكب)، وكَانَ لَهَا أربعة أَيَّامٍ متعسرة في الولادة، فسمعت ضجة الاحتفال، فتشفعت بالقديس يُوحَنّا المِعْمِدَانْ ونذرت أنها تصير مسيحية إذا نجت من هَذِهِ الشدة، ولَمْ تتم كلمتها حَتَّى وضعت ولداً وأسمته يوحنا، ثُمَّ اعتمدت هي وأهل بيتها.", 
+  "ولما جلس البابا ثاؤفيلس عَلَى الكُرْسِي المرقسي تذكر ما قَالَه البابا أثناسيوس. فبنى الكَنيسَةْ ونقل إليها الجَسَدْين. وحَدَثَ وهم سائرون بِالجَسَدِين أَنَّ عبروا أمَامَ بَيْت امْرَأَةْ مِنَ الصابئة (صابئة: تنتمي لِمَنْ يعبدون الكواكب)، وكَانَ لَهَا أربعة أَيَّامٍ متعسرة في الولادة، فسمعت ضجة الاحتفال، فتشفعت بالقديس يُوحَنّا المِعْمِدَانْ ونذرت أنها تصير مسيحية إذا نجت من هَذِهِ الشدة، ولَمْ تتم كلمتها حَتَّى وضعت ولداً وأسمته يوحنا، ثُمَّ اعتمدت هي وأهل بيتها.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -18587,7 +18867,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de leurs prières soit avec nous. Amen !", 
-  "بركة صلواتهما فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة صلواتهما فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -18624,7 +18904,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0310&C=Title", 
   "3 Paoni\n1) Martyre de saint Alladius, l'évêque ;\n2) Décès de saint Abraham, l'évêque de Fayoum et de Guizeh ;\n4) Décès de sainte Marthe, l'ermite", 
-  "3 بؤنة\nاسْتِشْهَادْ القِدّيسْ اللاديوس الأسقف\nنِيَاحَةْ القِدّيسْ الأنبا أبرآم أُسْقُفْ الفَيُّومِ والجيزة\nنِيَاحَةْ القِدِّيسَةْ مرثا المصرية الناسكة\n", 
+  "3 بؤنة\nاسْتِشْهَادْ القِدّيسْ اللاديوس الأسقف\nنِيَاحَةْ القِدّيسْ الأنبا أبرآم أُسْقُفْ الفَيُّومِ والجيزة\nنِيَاحَةْ القِدِّيسَةْ مرثا المصرية الناسكة", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -18674,7 +18954,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de ses prières soit avec nous. Amen !", 
-  "بَرَكِةْ صَلَوَاتْ هَذَا القِدّيسْ العَظِيمْ فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بَرَكِةْ صَلَوَاتْ هَذَا القِدّيسْ العَظِيمْ فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -18706,7 +18986,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0410&C=Title", 
   "4 Paoni\n1) Martyre de saint Sinoussious ;\n2) Martyre de saint Jean d’Héraclée ;\n3) Martyre d’abba Amon et la juste Sophie ;\n4) Décès de saint abba Hor ;\n5) Décès du pape Jean VIII", 
-  "4 بؤنة\nاسْتِشْهَادْ القِدّيسْ سينوسيوس\nاسْتِشْهَادْ القِدّيسْ يُوحَنَّا الهرقلي\nاسْتِشْهَادْ القِدّيسْ الأنبا آمون والبارة صوفية\nنِيَاحَةْ القِدّيسْ أباهور\nنِيَاحَةْ القِدّيسْ البابا يوأنس الثامن\n", 
+  "4 بؤنة\nاسْتِشْهَادْ القِدّيسْ سينوسيوس\nاسْتِشْهَادْ القِدّيسْ يُوحَنَّا الهرقلي\nاسْتِشْهَادْ القِدّيسْ الأنبا آمون والبارة صوفية\nنِيَاحَةْ القِدّيسْ أباهور\nنِيَاحَةْ القِدّيسْ البابا يوأنس الثامن", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -18766,7 +19046,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de leurs prières soit avec nous. Amen !", 
-  "بركة صلواتهما فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة صلواتهما فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -18776,7 +19056,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Après le décès de ses parents, il fit faire à sa sœur un bon mariage puis se rendit dans la vallée de Scété et devint moine auprès d’un saint homme nommé Gallinikos (غلينيكوس). Il eût une bonne conduite et aima la vie de prière qu’il pratiquait avec assiduité.", 
-  "ولما تَنَيَّحَ أبواه كَانَتْ لَهُ أخت، زَوَجَ أخته زيجة صالحة، ثُمَّ مَضَى إلى برية شيهيت وتَرَّهَبَ عَلَى يَدَيّ رَجُلٍ قِدِّيسْ يُدْعَى غِلينيكُوس وسَارَ سِيرَةِ فَاضِلَة وأحب الصَلاةِ وداوم عليها.", 
+  "ولما تَنَيَّحَ أبواه كَانَتْ لَهُ أخت، زَوَجَ أخته زيجة صالحة، ثُمَّ مَضَى إلى بَرِّيَّةِ شِيهِيتْ وتَرَّهَبَ عَلَى يَدَيّ رَجُلٍ قِدِّيسْ يُدْعَى غِلينيكُوس وسَارَ سِيرَةِ فَاضِلَة وأحب الصَلاةِ وداوم عليها.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -18818,7 +19098,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0510&C=Title", 
   "5 Paoni\n1) Décès de saint Jacques d’orient, le confesseur ;\n2) Martyre de saint Pifâm ;\n3) Martyre de saint Pichaï et saint Pierre ;\n3) Commémoration de la consécration de l’église de saint Victor dans la région de Cho ", 
-  "5 بؤنة\nنِيَاحَةْ القِدّيسْ يَعْقُوبْ المشرقي المعترف\nاسْتِشْهَادْ القِدّيسْ بيفام\nاسْتِشْهَادْ القِدّيسْ بشاي وبطرس\nتَكّرْيسِ كِنِيسَةْ القِدّيسْ بقطر بناحية شو\n", 
+  "5 بؤنة\nنِيَاحَةْ القِدّيسْ يَعْقُوبْ المشرقي المعترف\nاسْتِشْهَادْ القِدّيسْ بيفام\nاسْتِشْهَادْ القِدّيسْ بشاي وبطرس\nتَكّرْيسِ كِنِيسَةْ القِدّيسْ بقطر بناحية شو", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -18905,7 +19185,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0610&C=Title", 
   "6 Paoni\n1) Martyre de saint Théodore, le moine ;\n2) Décès de saint Didyme l'aveugle. 6 Paoni", 
-  "6 بؤنة\nاسْتِشْهَادْ القِدّيسْ ثيئودوروس الراهب\nنِيَاحَةْ القِدّيسْ ديديموس الضرير\n", 
+  "6 بؤنة\nاسْتِشْهَادْ القِدّيسْ ثيئودوروس الراهب\nنِيَاحَةْ القِدّيسْ ديديموس الضرير", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -18967,7 +19247,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0710&C=Title", 
   "7 Paoni", 
-  "7 بؤنة\nاسْتِشْهَادْ القِدّيسْ أبسخيرون الجندي القلينى\nنِيَاحَةْ القِدّيسْ مويسيس بجبل أخميم\nتَكّرْيسِ كِنِيسَةْ الأنبا متاؤس الفاخورى بجبل إسنا\n", 
+  "7 بؤنة\nاسْتِشْهَادْ القِدّيسْ أبسخيرون الجندي القلينى\nنِيَاحَةْ القِدّيسْ مويسيس بجبل أخميم\nتَكّرْيسِ كِنِيسَةْ الأنبا متاؤس الفاخورى بجبل إسنا", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -18997,7 +19277,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Après un long combat, saint Moïse ressentit que son décès était proche. Il fit venir ses enfants spirituels, les bénit et leur fit ses dernières recommandations afin qu’ils demeurent fermes dans la Foi et qu’ils suivent les commandements du Seigneur, puis, il rendit l’âme. Ils l’ensevelirent et l’enterrèrent avec respect.", 
-  "وبَعْدَ جِهَاد طويل شعر القِدّيسْ مويسيس بقرب نياحته، فاستدعى أولاده وباركهم، وأوصاهم بالثبات عَلَى الإيمان وحفظ وصَايا الرب، ثُمَّ فَاضَتْ رُوحَهُ الطَاهِرَةِ، فكفنوه ودَفَنُوهُ بِإكْرَامٍ جَزيلٍ.", 
+  "وبَعْدَ جِهَاد طويل شعر القِدّيسْ مويسيس بقرب نياحته، فاستدعى أولاده وباركهم، وأوصاهم بالثبات عَلَى الإيمان وحفظ وصَايا الرَبّ، ثُمَّ فَاضَتْ رُوحَهُ الطَاهِرَةِ، فكفنوه ودَفَنُوهُ بِإكْرَامٍ جَزيلٍ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -19024,7 +19304,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0810&C=Title", 
   "Consécration de l’église de la sainte Vierge surnommée al-Mahammah. Martyre de Saint Georges le Néo-martyr. Commémoration de sainte Tamada et ses enfants ainsi que saint Armanous et sa mère. 8 Paoni", 
-  "8 بؤنة\nتِذْكَارْ تَكّرْيسِ كِنِيسَةْ السيدة العَذْرَاءْ المعروفة بالمحمَّة\nاسْتِشْهَادْ القِدّيسْ جرجس الجديد\nتِذْكَارْ القِدِّيسَةْ تمادا وأولادها وأرمانوس وأمه\n", 
+  "8 بؤنة\nتِذْكَارْ تَكّرْيسِ كِنِيسَةْ السيدة العَذْرَاءْ المعروفة بالمحمَّة\nاسْتِشْهَادْ القِدّيسْ جرجس الجديد\nتِذْكَارْ القِدِّيسَةْ تمادا وأولادها وأرمانوس وأمه", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -19034,7 +19314,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que l’intercession de la sainte Vierge soit avec nous. Amen !", 
-  "شفاعتها المُقَدَّسَةْ فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "شفاعتها المُقَدَّسَةْ فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -19061,7 +19341,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0910&C=Title", 
   "9 Paoni", 
-  "9 بؤنة\nنِيَاحَةْ القِدّيسْ صموئيل النبي\nاسْتِشْهَادْ القِدّيسْ لوكيليانوس وأربعة آخرين معه\nاسْتِشْهَادْ القِدِّيسْينْ أبامون وسرنا\nنقل أعضاء الشَهْيد مرقوريوس أبى سيفين إلى مِصْرْ\n", 
+  "9 بؤنة\nنِيَاحَةْ القِدّيسْ صموئيل النبي\nاسْتِشْهَادْ القِدّيسْ لوكيليانوس وأربعة آخرين معه\nاسْتِشْهَادْ القِدِّيسْينْ أبامون وسرنا\nنقل أعضاء الشَهْيد مرقوريوس أبى سيفين إلى مِصْرْ", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -19076,7 +19356,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Lorsque Samuel fût devenu vieux, il établit ses fils juges pour Israël. Mais ceux-ci ne se conduisirent pas comme lui recherchant le gain facile et ils détournèrent les règles du droit. Alors, le peuple demanda à Samuel de leur choisir un roi et il oignit Saül (شاول)que le Seigneur lui avait désigné. Samuel et tout le peuple célébrèrent l’installation de Saül comme roi et il offrit des sacrifices et des offrandes de paix devant le Seigneur.Puis il leur recommanda de suivre les commandements de Dieu. Et tout le peuple craignit fortement le Seigneur et Samuel et ils lui demandèrent de prier pour eux. Il leur répondit : \"Quant à moi, pas question de pécher contre le Seigneur, de cesser de prier pour vous. » Lorsque Saül offrit un holocauste à Makhemas(مخماس), Samuel le lui reprocha et prédit la fin de sa royauté. Il lui refit des reproches lorsqu’il préserva du bétail d’Amalek (عماليق) pour les offrir en holocauste. Il lui dit : \"La docilité vaut mieux que les offrandes ; l’obéissance vaut mieux que la graisse des béliers. La désobéissance est un péché comme la divination ; le theraphim (الترافيم) amènent peines et douleurs. Parce que tu as dédaigné la parole du Seigneur, le Seigneur te rejettera du trône d’Israël. »", 
-  "ولما شاخ صموئيل جعل ابنيه قضاةً لإسرائيل. ولَمْ يسلك ابناه في طريقه بل سعيا وراء المكسب، وعَوَجا القضاء. فطلب الشَّعْبِ من صموئيل أَنَّ يختار لَهُمْ ملكاً، فمسح (1صم 8: 10) لَهُمْ شاول الذي عينه لَهُ الرب، واحتفل صموئيل والشعب بتنصيب (1صم 11: 14، 15) شاول ملكاً وذبح ذبائح سلامة. وأوصى الشَّعْبِ بحفظ وصَايا الرب، فخاف الشَّعْبِ الرَّبْ وصموئيل جداً، وطلبوا مِنْهُ أَنَّ يُصَلِّي عنهم، فَقَالَ لهم: 'وأما أنا فحاشا لي أَنَّ أخطئ إلى الرَّبْ فأكف عَن الصَلاةِ من أجلكم' (1صم: 12). ولَمَّا قدم شاول الذبيحة في مخماس وبخه صموئيل وتَنَبَأَ لَهُ بِزَوَالِ ملكه (1صم 13: 8 – 15). ثُمَّ وبخه مرة أخرى عِنْدَمَا استبقى من ذبائح المحرقة التي لعماليق، فَقَالَ له: 'هوذا الاستماع أفضل مِنَ الذبيحة والإصغاء أفضل من شحم الكباش. لِأنَّ التمرد كخطية العرافة والعناد كالوثن والترافيم. لِأَنَّكَ رفضت كلام الرَّبْ رفضك مِنَ المُلك' (1صم 15: 1 – 23).", 
+  "ولما شاخ صموئيل جعل ابنيه قضاةً لإسرائيل. ولَمْ يسلك ابناه في طريقه بل سعيا وراء المكسب، وعَوَجا القضاء. فطلب الشَّعْبِ من صموئيل أَنَّ يختار لَهُمْ ملكاً، فمسح (1صم 8: 10) لَهُمْ شاول الذي عينه لَهُ الرَبّ، واحتفل صموئيل والشعب بتنصيب (1صم 11: 14، 15) شاول ملكاً وذبح ذبائح سلامة. وأوصى الشَّعْبِ بحفظ وصَايا الرَبّ، فخاف الشَّعْبِ الرَّبْ وصموئيل جداً، وطلبوا مِنْهُ أَنَّ يُصَلِّي عنهم، فَقَالَ لهم: 'وأما أنا فحاشا لي أَنَّ أخطئ إلى الرَّبْ فأكف عَن الصَلاةِ من أجلكم' (1صم: 12). ولَمَّا قدم شاول الذبيحة في مخماس وبخه صموئيل وتَنَبَأَ لَهُ بِزَوَالِ ملكه (1صم 13: 8 – 15). ثُمَّ وبخه مرة أخرى عِنْدَمَا استبقى من ذبائح المحرقة التي لعماليق، فَقَالَ له: 'هوذا الاستماع أفضل مِنَ الذبيحة والإصغاء أفضل من شحم الكباش. لِأنَّ التمرد كخطية العرافة والعناد كالوثن والترافيم. لِأَنَّكَ رفضت كلام الرَّبْ رفضك مِنَ المُلك' (1صم 15: 1 – 23).", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -19101,7 +19381,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de leurs prières soit avec nous. Amen !", 
-  "بركة صلواتهم فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة صلواتهم فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -19121,7 +19401,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de leurs prières soit avec nous. Amen !", 
-  "بركة صلواتهما فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة صلواتهما فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -19148,12 +19428,12 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1010&C=Title", 
   "Martyre de saint Maksy de Chénra, le prêtre. Martyre de sainte Dabamoune, sa sœur Bastamoune ainsi que leur mère Sophie. Commémoration de l’ouverture des églises. Décès du pape Jean XVI le 103ème patriarche de la prédication de saint Marc. 10 Paoni", 
-  "10 بؤنة\nاسْتِشْهَادْ القِدّيسْ القِسّْ مكسي الشنراوي\nاسْتِشْهَادْ القِدِّيسَةْ دابامون وأختها بصطامون وأمهما صوفية\nتِذْكَارْ فتح الكنائس\nنِيَاحَةْ القِدّيسْ البابا يوأنس السادس عشر\n", 
+  "10 بؤنة\nاسْتِشْهَادْ القِدّيسْ القِسّْ مكسي الشنراوي\nاسْتِشْهَادْ القِدِّيسَةْ دابامون وأختها بصطامون وأمهما صوفية\nتِذْكَارْ فتح الكنائس\nنِيَاحَةْ القِدّيسْ البابا يوأنس السادس عشر", 
   ],
   [
   Prefix.same+"&C=NoActor", 
   "En ce jour de l’an 20 des martyrs (304 après Jésus Christ) eût lieu le martyre de saint Maksy de Chénra(القديس القس مكسي الشنراوي), le prêtre. Ce saint était miséricordieux envers les pauvres et les nécessiteux et fût ordonné prêtre de son village à cause de ses vertus. De plus il était très fidèle dans son ministère et devint un bon exemple pour ses confrères.", 
-  "في مِثْلِ هَذا اليَومْ مِنْ سَنَةْ 20 لِلْشُهَداءِ (304م) اسْتَشْهَدَ القِدّيسْ القِسّْ مكسى الذي من شنرا (قرية قديمة ما زالت بنفس اسْمَهَا في مركز الفشن مُحَافَظَة بَنَى سويف). كَانَ رحوماً مُحِبّاً للفقراء والمَسَاكِينْ، ولَمَّا رأوا فَضَائِلِه رسموه قِسّاً عَلَى كِنِيسَةْ بلدته شنرا، وكَانَ أميناً في خدمته ومثالاً حسناً للكاهن الخادم.", 
+  "في مِثْلِ هَذا اليَومْ مِنْ سَنَةْ 20 لِلْشُهَداءِ (304م) اسْتَشْهَدَ القِدّيسْ القِسّْ مكسى الذي من شنرا (قرية قديمة ما زالت بِنَفْسِ اسْمَهَا في مركز الفشن مُحَافَظَة بَنَى سويف). كَانَ رحوماً مُحِبّاً للفقراء والمَسَاكِينْ، ولَمَّا رأوا فَضَائِلِه رسموه قِسّاً عَلَى كِنِيسَةْ بلدته شنرا، وكَانَ أميناً في خدمته ومثالاً حسناً للكاهن الخادم.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -19193,7 +19473,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de leurs prières soit avec nous. Amen !", 
-  "بركة صلواتهن فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة صلواتهن فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -19240,7 +19520,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1110&C=Title", 
   "11 Paoni", 
-  "11 بؤنة\nاسْتِشْهَادْ القِدّيسْ إقلاديوس\nتِذْكَارْ تَكّرْيسِ هيكل الأربعين شهيداً بكنيسة إبسوتير (المخلص) بِالإسْكَنْدَرِيَّة\n", 
+  "11 بؤنة\nاسْتِشْهَادْ القِدّيسْ إقلاديوس\nتِذْكَارْ تَكّرْيسِ هيكل الأربعين شهيداً بكنيسة إبسوتير (المخلص) بِالإسْكَنْدَرِيَّة", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -19302,7 +19582,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction des intercessions de l’archange Michel soit avec nous. Amen !", 
-  "بركة شفاعة رئيس الملائكة ميخائيل فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة شفاعة رئيس الملائكة ميخائيل فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -19317,7 +19597,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de ses prières soit avec nous. Amen !", 
-  "بركة صلواتها فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة صلواتها فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -19337,7 +19617,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Nous commémorons aussi en ce jour le décès en l’an 808 des martyrs (1092 après Jésus Christ) du pape Cyrille II (كيرلس الثاني) le 67ème patriarche de la prédication de saint Marc. Ce père naquit dans le village d’Aklaka (أقلاقة)du gouvernorat d’al-Béheira (البحيرة) et grandit dans une ambiance de piété et de vertu. Puis il s’enrôla au monastère de saint Macaire dans la vallée de Scété et, ensuite, s’isola dans une cellule à Séngâr (صومعة بسنجار).", 
-  "وفيه أيْضَاً مِنْ سَنَةْ 808 لِلْشُهَداءِ (1092م)، تَنَيَّحَ القِدّيسْ البابا كيرلس الثاني البَطْرِيَرْكْ السابع والستون مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة. وُلِدَ هَذَا القِدّيسْ بِبَلْدَةِ أقلاقة بِمُحَافَظَةِ البحيرة، نَمَا في الفضيلة والتقوى. ثُمَّ مَضَى وتَرَّهَبَ بِدِيرْ القِدّيسْ مكاريوس ببرية شيهيت، وبَعْدَ فترة تَوَحَدْ في قلاية بسنجار (سنجار: جزيرة بقرب بحيرة البرلس عَلَى ساحل البحر الأبيض المتوسط وكَانَتْ مركز تجمع رهباني كَبِيرْ ومِنْهُا جَاءَ اللحن السنجاري الفرايحي ومحلها اليَوْم قرية كوم سنجار).", 
+  "وفيه أيْضَاً مِنْ سَنَةْ 808 لِلْشُهَداءِ (1092م)، تَنَيَّحَ القِدّيسْ البابا كيرلس الثاني البَطْرِيَرْكْ السابع والستون مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة. وُلِدَ هَذَا القِدّيسْ بِبَلْدَةِ أقلاقة بِمُحَافَظَةِ البحيرة، نَمَا في الفضيلة والتقوى. ثُمَّ مَضَى وتَرَّهَبَ بِدِيرْ القِدّيسْ مكاريوس ببرية شِيهِيتْ، وبَعْدَ فترة تَوَحَدْ في قلاية بسنجار (سنجار: جزيرة بقرب بحيرة البرلس عَلَى ساحل البحر الأبيض المتوسط وكَانَتْ مركز تجمع رهباني كَبِيرْ ومِنْهُا جَاءَ اللحن السنجاري الفرايحي ومحلها اليَوْم قرية كوم سنجار).", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -19359,7 +19639,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1310&C=Title", 
   "13 Paoni", 
-  "13 بؤنة\nتِذْكَارْ رئيس الملائكة جبرائيل المبشر\nنِيَاحَةْ القِدّيسْ يُوحَنَّا أُسْقُفْ أورشليم\n", 
+  "13 بؤنة\nتِذْكَارْ رئيس الملائكة جبرائيل المبشر\nنِيَاحَةْ القِدّيسْ يُوحَنَّا أُسْقُفْ أورشليم", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -19369,7 +19649,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que sa sainte intercession soit avec nous. Amen !", 
-  "شفاعته المُقَدَّسَةْ فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "شفاعته المُقَدَّسَةْ فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -19401,7 +19681,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1410&C=Title", 
   "Martyre des saints abba Kir, Philippe, Jean et Ptolémée. Décès du pape Jean XIX, 113ème patriarche de la prédication de saint Marc. 14 Paoni", 
-  "14 بؤنة\nاسْتِشْهَادْ القِدِّيسْينْ أباكير وفيلبس ويُوحَنَّا وأبطلماوس\nنِيَاحَةْ القِدّيسْ البابا يوأنس التاسع عشر\n", 
+  "14 بؤنة\nاسْتِشْهَادْ القِدِّيسْينْ أباكير وفيلبس ويُوحَنَّا وأبطلماوس\nنِيَاحَةْ القِدّيسْ البابا يوأنس التاسع عشر", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -19411,7 +19691,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de leurs prières soit avec nous. Amen !", 
-  "بركة صلواتهم فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة صلواتهم فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -19443,7 +19723,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1510&C=Title", 
   "15 Paoni", 
-  "15 بؤنة\nتَكّرْيسِ كِنِيسَةْ الشَهْيدِ مِارِ مينا العجائبي بمريوط\nاستلام جَسَد مِارِ مرقس\n", 
+  "15 بؤنة\nتَكّرْيسِ كِنِيسَةْ الشَهْيدِ مِارِ مينا العجائبي بمريوط\nاستلام جَسَد مِارِ مرقس", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -19473,7 +19753,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction des prières de saint Ménas soit avec nous. Amen !", 
-  "بَرَكِةْ صَلَوَاتْ القِدّيسْ مِارِ مينا العجايبي فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بَرَكِةْ صَلَوَاتْ القِدّيسْ مِارِ مينا العجايبي فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -19490,7 +19770,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1610&C=Title", 
   "16 Paoni", 
-  "16 بؤنة\nنِيَاحَةْ القِدّيسْ أبى نوفر السائح\n", 
+  "16 بؤنة\nنِيَاحَةْ القِدّيسْ أبى نوفر السائح", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -19522,7 +19802,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1710&C=Title", 
   "Décès de saint Latsoun de Bahnassa. Retour des reliques de saint Marc en Égypte. 17 Paoni", 
-  "17 بؤنة\nنِيَاحَةْ القِدّيسْ لاتصون البهنساوي\nعودة رفات القِدّيسْ مِارِ مَرْقُسْ إلى الكاتدرائية المرقسية الجديدة\n", 
+  "17 بؤنة\nنِيَاحَةْ القِدّيسْ لاتصون البهنساوي\nعودة رفات القِدّيسْ مِارِ مَرْقُسْ إلى الكاتدرائية المرقسية الجديدة", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -19532,7 +19812,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Il fût très touché par ces paroles et, quittant tout, il se rendit dans la vallée de Scété et là, il se mit à prier et à jeûner sans discontinuer. Un ange du Seigneur lui apparut et lui demanda de se rendre auprès de saint Isidore pour qu’il le revête du saint Schème (المقدس ألإسكيم). Il s’y rendit et après quarante jours saint Isidore le revêtit du saint Schème. Il redoubla alors de piété et d’ascétisme puis s’isola dans le désert. Enfin, lorsqu’il eût achevé son bon combat, il décéda en paix.", 
-  "فَلَمَّا سَمِعَ ذَلِكْ التهب قلبه فترك العالم ومضى إلى برية شيهيت، وأجهد نَفْسَهُ بالصلوات والأصوام الكثيرة، فظهر لَهُ مَلاكُ الرَّبِ وأمره أَنَّ يمضى إلى القِدّيسْ إيسوذوروس ليلبسه الإسكيم، فذهب إلَيهِ وبَعْدَ أربعين يوماً ألبسه الإسكيم، فزاد في نسكه وصلواته، ثُمَّ انفرد في البَرِّيَة متوحداً. ولَمَّا أكْمَلَ سَعْيَّهُ الصَالِحْ تَنَيَّحَ بِسَلامٍ.", 
+  "فَلَمَّا سَمِعَ ذَلِكْ التهب قلبه فترك العالم ومضى إلى بَرِّيَّةِ شِيهِيتْ، وأجهد نَفْسَهُ بالصلوات والأصوام الكثيرة، فظهر لَهُ مَلاكُ الرَّبِ وأمره أَنَّ يمضى إلى القِدّيسْ إيسوذوروس ليلبسه الإسكيم، فذهب إلَيهِ وبَعْدَ أربعين يوماً ألبسه الإسكيم، فزاد في نسكه وصلواته، ثُمَّ انفرد في البَرِّيَة متوحداً. ولَمَّا أكْمَلَ سَعْيَّهُ الصَالِحْ تَنَيَّحَ بِسَلامٍ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -19559,12 +19839,12 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1810&C=Title", 
   "18 Paoni", 
-  "18 بؤنة\nنِيَاحَةْ القِدّيسْ البابا داميانوس\nافتتاح الكاتدرائية الجديدة بِدِيرْ الأنبا رويس بالقاهرة\n", 
+  "18 بؤنة\nنِيَاحَةْ القِدّيسْ البابا داميانوس\nافتتاح الكاتدرائية الجديدة بِدِيرْ الأنبا رويس بالقاهرة", 
   ],
   [
   Prefix.same+"&C=NoActor", 
   "En ce jour de l’an 321 des martyrs (605 après Jésus Christ) eût lieu le décès du pape Damien (البابا داميانوس), le 35ème patriarche de la prédication de saint Marc. Ce pape naquit à Alexandrie de parents chrétiens qui lui donnèrent une bonne éducation chrétienne. Dès sa jeunesse il désira mener une vie monastique, et lorsqu’il grandit il se rendit au désert de Scété pour devenir moine. Ensuite il s’installa au monastère Patirônec'est-à-dire des Pères (دير الآباء) qui se trouve à l'ouest d'Alexandrie où il approfondit sa vie d'ermite.", 
-  "في مِثْلِ هَذا اليَومْ مِنْ سَنَةْ 321 لِلْشُهَداءِ (605م) تَنَيَّحَ القِدّيسْ البابا داميانوس البَطْرِيَرْكْ الخامس والثلاثون مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة. وُلِدَ بالإسْكَنْدَريّة مِنْ أَبَوينِ مَسِيحِيَّيْنِ، ربياه تَرْبِيَةً مِسِيحِيَّةْ حقيقية، فاشتاق منذ صغره إلى الحياة الرُهْبَانية، ولَمَّا كَبُرَ ذهب إلى برية شيهيت وتَرَّهَبَ ثُمَّ ذهب إلى دَيْرٍ الآبَاءِ غربي الإسْكَنْدَرِيَّة حَيْثُ سكن وازداد في نسكه.", 
+  "في مِثْلِ هَذا اليَومْ مِنْ سَنَةْ 321 لِلْشُهَداءِ (605م) تَنَيَّحَ القِدّيسْ البابا داميانوس البَطْرِيَرْكْ الخامس والثلاثون مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة. وُلِدَ بالإسْكَنْدَريّة مِنْ أَبَوينِ مَسِيحِيَّيْنِ، ربياه تَرْبِيَةً مِسِيحِيَّةْ حقيقية، فاشتاق منذ صغره إلى الحياة الرُهْبَانية، ولَمَّا كَبُرَ ذهب إلى بَرِّيَّةِ شِيهِيتْ وتَرَّهَبَ ثُمَّ ذهب إلى دَيْرٍ الآبَاءِ غربي الإسْكَنْدَرِيَّة حَيْثُ سكن وازداد في نسكه.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -19601,7 +19881,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1910&C=Title", 
   "Martyre de saint Georges al-Mouzahim. Décès de saint Pichaï Anoub. Décès du pape Achille, le 18ème patriarche de la prédication de saint Marc. Dépose des reliques de l’apôtre saint Marc dans le sanctuaire prévu à cet effet au monastère de saint Freige. 19 Paoni", 
-  "19 بؤنة\nاسْتِشْهَادْ القِدّيسْ جرجس المزاحم\nاسْتِشْهَادْ القِدّيسْ بشاي أنوب\nنِيَاحَةْ البابا أرشيلاؤس\nوضع جَسَدِ القِدّيسْ مِارِ مَرْقُسْ الرسول بالمزار المخصص لَهُ بكنيسته بِدِيرْ الأنبا رويس\n", 
+  "19 بؤنة\nاسْتِشْهَادْ القِدّيسْ جرجس المزاحم\nاسْتِشْهَادْ القِدّيسْ بشاي أنوب\nنِيَاحَةْ البابا أرشيلاؤس\nوضع جَسَدِ القِدّيسْ مِارِ مَرْقُسْ الرسول بالمزار المخصص لَهُ بكنيسته بِدِيرْ الأنبا رويس", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -19673,7 +19953,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2010&C=Title", 
   "Décès du saint prophète Elisée. Consécration de l’église de saint Kloug le prêtre. 20 Paoni", 
-  "20 بؤنة\nنِيَاحَةْ القِدّيسْ أليشع النبي\nتَكّرْيسِ كِنِيسَةْ القِدّيسْ أباكلوج القس\n", 
+  "20 بؤنة\nنِيَاحَةْ القِدّيسْ أليشع النبي\nتَكّرْيسِ كِنِيسَةْ القِدّيسْ أباكلوج القس", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -19755,7 +20035,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2110&C=Title", 
   "21 Paoni", 
-  "21 بؤنة\nاسْتِشْهَادْ القِدّيسْ إقلاديوس\nتِذْكَارْ تَكّرْيسِ هيكل الأربعين شهيداً بكنيسة إبسوتير (المخلص) بِالإسْكَنْدَرِيَّة\n", 
+  "21 بؤنة\nاسْتِشْهَادْ القِدّيسْ إقلاديوس\nتِذْكَارْ تَكّرْيسِ هيكل الأربعين شهيداً بكنيسة إبسوتير (المخلص) بِالإسْكَنْدَرِيَّة", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -19790,7 +20070,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que l’intercession de nôtre dame, la sainte Vierge Marie soit avec nous. Amen !", 
-  "شفاعتها المُقَدَّسَةْ فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "شفاعتها المُقَدَّسَةْ فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -19817,7 +20097,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2210&C=Title", 
   "22 Paoni", 
-  "22 بؤنة\nتَكّرْيسِ كِنِيسَةْ الشهيدين قزمان ودميان وإخوتهما وأمهما\n", 
+  "22 بؤنة\nتَكّرْيسِ كِنِيسَةْ الشهيدين قزمان ودميان وإخوتهما وأمهما", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -19834,7 +20114,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2310&C=Title", 
   "Décès de saint abba Noub le confesseur. 23 Paoni", 
-  "23 بؤنة\nنِيَاحَةْ القِدّيسْ أبانوب المعترف\n", 
+  "23 بؤنة\nنِيَاحَةْ القِدّيسْ أبانوب المعترف", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -19856,7 +20136,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2410&C=Title", 
   "Martyre du grand saint Moïse le noir. Décès de saint Isidore, le prêtre de Scété. 24 Paoni", 
-  "24 بؤنة\nاسْتِشْهَادْ القِدّيسْ الأنبا موسى الأسود\nنِيَاحَةْ القِدّيسْ إيسوذوروس قس الإسقيط\n", 
+  "24 بؤنة\nاسْتِشْهَادْ القِدّيسْ الأنبا موسى الأسود\nنِيَاحَةْ القِدّيسْ إيسوذوروس قس الإسقيط", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -19866,7 +20146,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Souvent il s’adressait au soleil en disant : \"Si tu es le dieu, fais-le-moi savoir. » Il disait aussi : \"Toi, le Dieu que je ne connais pas, fais-Toi connaître à moi.» Un jour il entendit une voix qui lui disait : \"Les moines de Scété connaissent Dieu. Rends-toi chez eux et ils te le feront connaitre. » Il se leva sur-le-champ, prit son épée et se rendit au désert. A cet endroit il rencontra saint Isidore (إيسوذوروس) le prêtre de Scété qui, en le voyant, prit peur à cause de son apparence. Moïse le rassura alors en disant qu’il était venu auprès d’eux afin qu’ils lui fassent connaître le vrai Dieu. Alors saint Isidore le conduisit auprès de saint Macaire le grand (مكاريوس الكبير) qui lui parla du Christ, de l’Incarnation et de la Rédemption. Finalement il crut et saint Macaire le baptisa et le reçut comme moine. Moïse se mit alors à prier et à adorer Dieu sans compter. Mais le démon le combattait en lui rappelant sa vie antérieure. Il s’en ouvrait à saint Isidore qui le consolait, et lui enseignait comment faire pour vaincre les forces du mal.", 
-  "وكَانَتْ الخيوط الأولى من توبته بدأت عِنْدَمَا كَانَ يخاطب الشمس قائلاً: 'إن كنت أنت الإله فعرفيني وأنت أيها الإله الذي لا أعرفه عرفني ذاتك'. فسمع يوماً من يقول لَهُ أَنَّ رهبان برية شيهيت يعرفون الله فاذهب إليهم، فَقَامَ لِوَقْتِهِ وتقلد سيفه وأتى إلى البرية، فالتقى بالقديس إيسوذوروس قس الإسقيط، الذي لما رآه خاف من منظره، فطمأنه موسى قائلاً: 'لا تخف فقدأتيتُ إليكم لتعرفوني الإله الحقيقي'. فأتى بِهِ إلى القِدّيسْ مكاريوس الكبير فكلمه عَن السَّيْد المَسِيحْ والتجسد والفداء فآمن، فعمده وقبله راهباً فَعَاشَ القِدّيسْ موسى في حَيَاةِ روحية قوية وكَانَ الشيطان يقاتله بِمَا كَانَ يمارسه أولاً من خطايا، فَكَانَ يأتي إلى القِدّيسْ إيسوذوروس معلمه ويخبره بذلك، فَكَانَ يعزيه ويشجعه ويعلمه كَيْفَ يتغلب عَلَى حيل الشياطين.", 
+  "وكَانَتْ الخيوط الأولى من توبته بدأت عِنْدَمَا كَانَ يخاطب الشمس قائلاً: 'إن كنت أنت الإله فعرفيني وأنت أيها الإله الذي لا أعرفه عرفني ذاتك'. فسمع يوماً من يقول لَهُ أَنَّ رهبان بَرِّيَّةِ شِيهِيتْ يعرفون الله فاذهب إليهم، فَقَامَ لِوَقْتِهِ وتقلد سيفه وأتى إلى البرية، فالتقى بالقديس إيسوذوروس قس الإسقيط، الذي لما رآه خاف من منظره، فطمأنه موسى قائلاً: 'لا تخف فقدأتيتُ إليكم لتعرفوني الإله الحقيقي'. فأتى بِهِ إلى القِدّيسْ مكاريوس الكبير فكلمه عَن السَّيْد المَسِيحْ والتجسد والفداء فآمن، فعمده وقبله راهباً فَعَاشَ القِدّيسْ موسى في حَيَاةِ روحية قوية وكَانَ الشيطان يقاتله بِمَا كَانَ يمارسه أولاً من خطايا، فَكَانَ يأتي إلى القِدّيسْ إيسوذوروس معلمه ويخبره بذلك، فَكَانَ يعزيه ويشجعه ويعلمه كَيْفَ يتغلب عَلَى حيل الشياطين.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -19933,7 +20213,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2510&C=Title", 
   "25 Paoni", 
-  "25 بؤنة\nنِيَاحَةْ القِدّيسْ البابا بُطْرُسْ الرابع\n", 
+  "25 بؤنة\nنِيَاحَةْ القِدّيسْ البابا بُطْرُسْ الرابع", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -19965,7 +20245,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2610&C=Title", 
   "26 Paoni", 
-  "26 بؤنة\nتَكّرْيسِ كِنِيسَةْ المَلاك غُبْرِيَالْ بجبل النقلون بالفيوم\n", 
+  "26 بؤنة\nتَكّرْيسِ كِنِيسَةْ المَلاك غُبْرِيَالْ بجبل النقلون بالفيوم", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -19987,7 +20267,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2710&C=Title", 
   "Martyre de saint Ananie, le disciple. Martyre de saint Thomas de Chânedalâte. Décès de saint Jean fils d’al-Abah. 27 Paoni", 
-  "27 بؤنة\nاسْتِشْهَادْ القِدّيسْ حنانيا الرسول\nاسْتِشْهَادْ القِدّيسْ توماس الذي من شندلات\nنِيَاحَةْ القِدّيسْ يُوحَنَّا بن الأبح\n", 
+  "27 بؤنة\nاسْتِشْهَادْ القِدّيسْ حنانيا الرسول\nاسْتِشْهَادْ القِدّيسْ توماس الذي من شندلات\nنِيَاحَةْ القِدّيسْ يُوحَنَّا بن الأبح", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -20054,7 +20334,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2810&C=Title", 
   "28 Paoni", 
-  "28 بؤنة\nنِيَاحَةْ القِدّيسْ البابا ثاؤدوسيوس\nتِذْكَارْ تَكّرْيسِ كِنِيسَةْ الأنبا صرابامون أُسْقُفْ نيقيوس\n", 
+  "28 بؤنة\nنِيَاحَةْ القِدّيسْ البابا ثاؤدوسيوس\nتِذْكَارْ تَكّرْيسِ كِنِيسَةْ الأنبا صرابامون أُسْقُفْ نيقيوس", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -20096,7 +20376,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2910&C=Title", 
   "Commémoration de l’Annonciation, la Nativité et la Résurrection. Martyre des sept ermites du mont Tounah. Martyre de saint abba Hour et de sa mère Théodora. 29 Paoni", 
-  "29 بؤنة\nتِذْكَارْ الأَعْيَادِ السيدية البشارة والميلاد والقيامة\nاسْتِشْهَادْ السبعة نساك بجبل تونة\nاسْتِشْهَادْ القِدِّيسْينْ أباهور وديودورة أمه\n", 
+  "29 بؤنة\nتِذْكَارْ الأَعْيَادِ السيدية البشارة والميلاد والقيامة\nاسْتِشْهَادْ السبعة نساك بجبل تونة\nاسْتِشْهَادْ القِدِّيسْينْ أباهور وديودورة أمه", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -20106,7 +20386,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de nôtre bon Sauveur soit avec nous. Amen !", 
-  "بركة مخلصنا الصالح فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة مخلصنا الصالح فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -20131,7 +20411,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de leurs prières soit avec nous. Amen !", 
-  "بركة صلواتهم فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة صلواتهم فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -20153,7 +20433,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=3010&C=Title", 
   "30 Paoni", 
-  "30 بؤنة\nميلاد القِدّيسْ يُوحَنَّا المعمدان\nنِيَاحَةْ القِدّيسْ البابا قسما الأول\n", 
+  "30 بؤنة\nميلاد القِدّيسْ يُوحَنَّا المعمدان\nنِيَاحَةْ القِدّيسْ البابا قسما الأول", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -20163,7 +20443,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Tandis que Zacharie, durant la période attribuée aux prêtres de son groupe, assurait le service du culte devant Dieu, l’ange Gabriel lui annonça la naissance de Jean le baptiste. Après cela, Elisabeth devint enceinte. Dès que l’ange Gabriel informa la sainte Vierge Marie, elle se leva promptement et se rendit auprès d’elle pour la féliciter et la servir. \"Elle entra chez Zacharie et salua Elisabeth. Et il advint, dès qu'Elisabeth eût entendu la salutation de Marie, que l'enfant tressaillit dans son sein et Elisabeth fût remplie d'Esprit Saint. »", 
-  "وبينما كَانَ زَكَرِيَّا يكهن في نوبة فرقته أمَامَ الله، ظَهَرَ لَهُ المَلاك جبرائيل وبشره بميلاد يُوحَنّا المِعْمِدَانْ (لو 1: 8 – 22). بَعْدَ ذَلِكْ حبلت أليصابات، ولَمَّا سَمِعَتْ العَذْرَاءْ مَرْيَمْ بِذَلِكَ مِنَ المَلاك جبرائيل حين بشرها، قامت بسرعة وذهبت إلى أَليصَابَات لِكَيّْ تهنئها وتخدمها. 'فدخلت مَرْيَمْ بَيْت زَكَرِيَّا وسلمت عَلَى أليصابات، فَلَمَّا سَمِعَتْ أَليصَابَات سَلام مَرْيَمْ ارْتَكَضَ الجَنِينُ في بَطْنِهَا وامتلأت أَليصَابَات مِنَ الرُوحِ القدس' (لو 1: 40 – 44).", 
+  "وبينما كَانَ زَكَرِيَّا يكهن في نوبة فرقته أمَامَ الله، ظَهَرَ لَهُ المَلاك جبرائيل وبشره بِمِيلادِ يُوحَنّا المِعْمِدَانْ (لو 1: 8 – 22). بَعْدَ ذَلِكْ حبلت أليصابات، ولَمَّا سَمِعَتْ العَذْرَاءْ مَرْيَمْ بِذَلِكَ مِنَ المَلاك جبرائيل حين بشرها، قامت بسرعة وذهبت إلى أَليصَابَات لِكَيّْ تهنئها وتخدمها. 'فدخلت مَرْيَمْ بَيْت زَكَرِيَّا وسلمت عَلَى أليصابات، فَلَمَّا سَمِعَتْ أَليصَابَات سَلام مَرْيَمْ ارْتَكَضَ الجَنِينُ في بَطْنِهَا وامتلأت أَليصَابَات مِنَ الرُوحِ القدس' (لو 1: 40 – 44).", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -20173,12 +20453,12 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction des prières et des intercessions de ce grand saint, le précurseur et le baptiste, soient avec nous. Amen !", 
-  "بَرَكِةْ صَلَوَاتْ وشفاعات هَذَا القِدّيسْ العَظِيمْ السابق الصابغ فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بَرَكِةْ صَلَوَاتْ وشفاعات هَذَا القِدّيسْ العَظِيمْ السابق الصابغ فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
   "En ce jour de l’an 446 des martyrs (730 après Jésus Christ) eût lieu le décès du pape Côme 1er, le 44ème patriarche de la prédication de saint Marc. Ce père naquit aux environs d’el-Mahalla el-Koubra (المحلة الكبرى) et reçut une bonne éducation chrétienne. Lorsqu’il grandit, il devint moine au monastère de saint Macaire. Après le décès du pape Alexandre II, il fût choisi pour lui succéder et fût intronisé en 726 après Jésus Christ en recevant le nom de Cosme 1er.", 
-  "وفيه أيْضَاً مِنْ سَنَةْ 446 لِلْشُهَداءِ (730م) تَنَيَّحَ القِدّيسْ البابا قسما الأَوَّلْ البَطْرِيَرْكْ الرابع والأربعون مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة. وُلِدَ بنواحي المحلة الكُبْرَى، وتربى تَرْبِيَةً مِسِيحِيَّةْ حقيقية. ولَمَّا كَبُرَ تَرَهَّبَ في برية القِدّيسْ مكاريوس، وبَعْدَ نِياحَةْ البابا ألكسندروس الثاني اخْتَارُوهُ بطريركاً ورَسَمُوهُ سَنَةْ 726م بِاسْمِ البابا قسما الأول.", 
+  "وفيه أيْضَاً مِنْ سَنَةْ 446 لِلْشُهَداءِ (730م) تَنَيَّحَ القِدّيسْ البابا قسما الأَوَّلْ البَطْرِيَرْكْ الرابع والأربعون مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة. وُلِدَ بنواحي المحلة الكُبْرَى، وتربى تَرْبِيَةً مِسِيحِيَّةْ حقيقية. ولَمَّا كَبُرَ تَرَهَّبَ في بَرِّيَّةِ القِدّيسْ مكاريوس، وبَعْدَ نِياحَةْ البابا ألكسندروس الثاني اخْتَارُوهُ بطريركاً ورَسَمُوهُ سَنَةْ 726م بِاسْمِ البابا قسما الأول.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -20195,7 +20475,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0111&C=Title", 
   "1er Apip\n1) Martyre de sainte Fébronia, l’ascète ;\n2) Décès des saints Bioukha et Tayâban les prêtres ;\n3) Consécration de l’église de saint Ménas au mont Abnoub ", 
-  "1 أبيب\nاسْتِشْهَادْ القِدِّيسَةْ أفرونيا الناسكة\nنِيَاحَةْ القِدِّيسْينْ بيوخا وتيابان القسيسين\nتَكّرْيسِ كِنِيسَةْ الشَهْيدِ مِارِ مينا بجبل أبنوب\n", 
+  "1 أبيب\nاسْتِشْهَادْ القِدِّيسَةْ أفرونيا الناسكة\nنِيَاحَةْ القِدِّيسْينْ بيوخا وتيابان القسيسين\nتَكّرْيسِ كِنِيسَةْ الشَهْيدِ مِارِ مينا بجبل أبنوب", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -20215,22 +20495,22 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de ses prières soit avec nous. Amen !", 
-  "بركة صلواتها فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة صلواتها فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
   "Nous commémorons aussi en ce jour le décès des saints Bioukha (بيوخا) et Tayâbân (تيابان). Ces saints étaient prêtres de l’église de Touna (تونة) dans les environs de Tenda (تندا). Dieu leur avait accordé le don de faire des miracles. Leur père était le régisseur de cette église. Un jour où le prêtre Tayâbân célébrait la divine liturgie eucharistique, quelqu’un lui dit que son père était en train de décéder et qu’il souhaitait le voir. Il lui répondit qu’il ne pouvait pas ôter les vêtements sacerdotaux et quitter l’autel avant que la liturgie ne soit terminée. Il dit aussi : \"Si Dieu le veut je le verrai avant son décès. Sinon que Sa volonté soit faite. »", 
-  "وفيه أيْضَاً تَنَيَّحَ القِدِّيْسْان بيوخا وتيابان. كَانَ هذان القِدِّيْسْان كاهنين عَلَى كِنِيسَةْ تونة بناحية تندا (تونة الجبل وتندا: قريتان تابعتان لمركز ملوى مُحَافَظَة المنيا)، وقَدْ وهبهما الله صنع الآيات والعجائب وشفاء المرضى، وكَانَ والِدَهُمَا ناظراً للكنيسة. وحَدَثَ أَنَّهُ بينما كَانَ القِسّْ تيابان يصلِّي القداس الإلهي جاءه من أخبره أَنَّ وَالِدَه يلفظ أنفاسه الأخيرة ويود رؤيته. ولَمَّا كَانَ قَدْ لبس الحُلة الكهنوتية ولا يليق بِهِ مفارقة الكنيسة، لذلك اعتذر وقَالَ: 'إن كَانَ الرَّبْ يشاء أَنَّ أبصره قبل نِيَاحَتِهِ وإلا فلتكن إرادته.'.", 
+  "وفيه أيْضَاً تَنَيَّحَ القِدِّيْسْان بيوخا وتيابان. كَانَ هذان القِدِّيْسْان كاهنين عَلَى كِنِيسَةْ تونة بناحية تندا (تونة الجبل وتندا: قريتان تابعتان لمركز ملوى مُحَافَظَة المنيا)، وقَدْ وهبهما الله صنع الآيات والعجائب وشفاء المرضى، وكَانَ والِدَهُمَا ناظراً للكنيسة. وحَدَثَ أَنَّهُ بَيْنَمَا كَانَ القِسّْ تيابان يصلِّي القداس الإلهي جاءه من أخبره أَنَّ وَالِدَه يلفظ أنفاسه الأَخِيرَةِ ويود رؤيته. ولَمَّا كَانَ قَدْ لبس الحُلة الكهنوتية ولا يليق بِهِ مفارقة الكنيسة، لذلك اعتذر وقَالَ: 'إن كَانَ الرَّبْ يشاء أَنَّ أبصره قبل نِيَاحَتِهِ وإلا فلتكن إرادته.'.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
   "Lorsque la liturgie fût terminée, il se rendit auprès de son père mais trouva qu’il était déjà décédé et il en fût attristé. Or les ustensiles de l’autel étaient déposés dans un endroit que seul le défunt connaissait. Alors, il se rendit à Scété auprès de l’higoumène Daniel pour lui demander conseil. Grâce à l’inspiration divine, celui-ci put lui indiquer le lieu où se trouvaient les ustensiles. Ces deux saints eurent une conduite exemplaire tout le long de leur vie et accomplirent leur tâche pastorale de la meilleure manière. Enfin, après avoir accompli leur bon combat, ils décédèrent en paix.", 
-  "وبَعْدَ نهاية القداس ذهب لوالده فوجده قَدْ تَنَيَّحَ فحزن جداً. ولَمَّا كَانَتْ بَعْضُ مقتنيات الكَنيسَةْ في حوزته حزن من أجلها. ومضى إلى برية شيهيت وتقابل مَعَ القِدّيسْ الأنبا دانيال قمص البَرِّيَة وحدثه عَن ما يخص تلك المقتنيات، فأرْشَدَهُ الأبْ دانيال إلى مَكَانِهِا بإعلان إلهي. وعِنْدَ عودته إلى الكَنيسَةْ وجد هَذِهِ المقتنيات في نَفْسِ الموضع الذي أرْشَدَهُ إلَيهِ الأنبا دانيال. وقَدْ عاش هَذَا القِدّيسْ مَعَ أخيه القِسّْ بيوخا في سِيرَةِ مُقَدَّسَة وفي رعاية ناجحة حَتَّى أكملا سعيهما وتنيَّحا بِسَلامٍ.", 
+  "وبَعْدَ نهاية القداس ذهب لوالده فوجده قَدْ تَنَيَّحَ فحزن جداً. ولَمَّا كَانَتْ بَعْضُ مقتنيات الكَنيسَةْ في حوزته حزن من أجلها. ومضى إلى بَرِّيَّةِ شِيهِيتْ وتقابل مَعَ القِدّيسْ الأنبا دانيال قمص البَرِّيَة وحدثه عَن ما يخص تلك المقتنيات، فأرْشَدَهُ الأبْ دانيال إلى مَكَانِهِا بإعلان إلهي. وعِنْدَ عودته إلى الكَنيسَةْ وجد هَذِهِ المقتنيات في نَفْسِ الموضع الذي أرْشَدَهُ إلَيهِ الأنبا دانيال. وقَدْ عاش هَذَا القِدّيسْ مَعَ أخيه القِسّْ بيوخا في سِيرَةِ مُقَدَّسَة وفي رعاية ناجحة حَتَّى أكملا سعيهما وتنيَّحا بِسَلامٍ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de leurs prières soit avec nous. Amen !", 
-  "بركة صلواتهما فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة صلواتهما فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -20246,8 +20526,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=0211&C=Title", 
-  "2 Apip\nDécès de l'apôtre saint Jude (Lebbaeus surnommé Thaddée)\n", 
-  "2 أبيب\nاسْتِشْهَادْ القِدّيسْ يهوذا الرسول (لباوس الملقب تداوس)\n", 
+  "2 Apip\nDécès de l'apôtre saint Jude (Lebbaeus surnommé Thaddée)", 
+  "2 أبيب\nاسْتِشْهَادْ القِدّيسْ يهوذا الرسول (لباوس الملقب تداوس)", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -20257,7 +20537,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Ce saint était le frère de saint Jacques le mineur (يعقوب الصغير), l’évêque de Jérusalem, de Simon (سمعان) et de Joset (يوسى) qui sont surnommés les frères du Seigneur (إخوة الرب). L’Évangile de saint Jean précise que Jude posa une question au Christ au sujet de Sa Parousie en disant : \"Seigneur, et qu'est-il advenu, que tu doives te manifester à nous et non pas au monde ? » car les juifs, incluant le apôtres, attendaient le Christ comme un roi victorieux à la tête de forces armées. Le Seigneur lui répondit que son royaume n’est pas temporel mais celui de la grâce qui se trouve dans le cœur de ceux qui l’aiment et qui gardent ses paroles. Ceux-ci auront le Royaume des cieux.", 
-  "وكان هَذَا القِدّيسْ أخاً ليعقوب الصغير أُسْقُفْ أورشليم ولسمعان ويوسي المدعوين إخوة الرب، وقَدْ خصّ إنجيل يُوحَنَّا يهوذا بسؤال وجهه للسيد المَسِيحْ عَن كيفية ظهوره، بقوله: 'يا سيد ماذا حَدَثَ حَتَّى أنك مُزمع أَنَّ تظهر ذاتك لنا وليس للعالم' (يو 14: 22)، لِأنَّ اليهود ومِنْهُم الرسل، كانوا ينتظرون المَسِيحْ ملكاً جباراً غنياً، تحيط بِهِ قوات مسلحة. فَقَالَ لَهُمْ الرَّبْ أَنَّ مُلْكِهِ ليس مُلْكَاً زمنياً، بل هُوَ مُلْك النعمة في قلوب محبيه وحافظي وصاياه، ولهؤلاء ملكوت سماوي.", 
+  "وكان هَذَا القِدّيسْ أخاً ليعقوب الصغير أُسْقُفْ أورشليم ولسمعان ويوسي المدعوين إخوة الرَبّ، وقَدْ خصّ إنجيل يُوحَنَّا يهوذا بسؤال وجهه للسيد المَسِيحْ عَن كيفية ظهوره، بقوله: 'يا سيد ماذا حَدَثَ حَتَّى أنك مُزمع أَنَّ تظهر ذاتك لنا وليس للعالم' (يو 14: 22)، لِأنَّ اليهود ومِنْهُم الرسل، كانوا ينتظرون المَسِيحْ ملكاً جباراً غنياً، تحيط بِهِ قوات مسلحة. فَقَالَ لَهُمْ الرَّبْ أَنَّ مُلْكِهِ ليس مُلْكَاً زمنياً، بل هُوَ مُلْك النعمة في قلوب محبيه وحافظي وصاياه، ولهؤلاء ملكوت سماوي.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -20284,7 +20564,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0311&C=Title", 
   "3 Apip\n1) Décès du pape saint Cyrille 1er, le 24ème patriarche de la prédication de saint Marc ;\n2) Décès de saint Célestin, le pape de Rome", 
-  "3 أبيب\nنِيَاحَةْ القِدّيسْ البابا كيرلس الأَوَّلْ البَطْرِيَرْكْ الرابع والعشرين مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة\nنِيَاحَةْ القِدّيسْ كلستينوس بابا رُومَا\n", 
+  "3 أبيب\nنِيَاحَةْ القِدّيسْ البابا كيرلس الأَوَّلْ البَطْرِيَرْكْ الرابع والعشرين مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة\nنِيَاحَةْ القِدّيسْ كلستينوس بابا رُومَا", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -20294,7 +20574,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Saint Cyrille se rendit à Scété et devint moine sous la direction d’abba Sérapion (سيرابيون) et il évolua dans la vertu, la connaissance spirituelle, l’adoration et l’ascétisme. Son oncle, le pape, le convoqua et il l’ordonna prêtre à Alexandrie où il servit ses fidèles avec ardeur. Il attira à lui un grand nombre et fût aimé de tous à cause de sa piété et sa chasteté. Après le décès du pape Théophile, il fût choisi pour lui succéder et fût sacré patriarche le 20 Paopi 128 des martyrs (412 après Jésus Christ). Immédiatement il se préoccupa de la conduite de son troupeau et de son enseignement.", 
-  "مضى القِدّيسْ إلى برية شيهيت وتَرَّهَبَ عَلَى يَدَيّ القِدّيسْ الأنبا سيرابيون، فنما في الفضيلة والمعرفة الروحية والعبادة والنُسْكِ. واستدعاه خاله ورسمه قِسّاً بِالإسْكَنْدَرِيَّة، وخدم فِيهَا بنشاط وجذب الكثيرين بتَقّْوَاهْ وعفته، فأحبه الجميع. وبَعْدَ نِياحَةْ خاله اختاره الأسَاقِفَةْ والأراخنة بطريركاً وتَمَّتْ رِسَامَتْهُ يوم 20 بابه سَنَةْ 128 لِلْشُهَداءِ (412م)، فاهتم برعاية شَعْبَهُ وتعليمه.", 
+  "مضى القِدّيسْ إلى بَرِّيَّةِ شِيهِيتْ وتَرَّهَبَ عَلَى يَدَيّ القِدّيسْ الأنبا سيرابيون، فنما في الفضيلة والمعرفة الروحية والعبادة والنُسْكِ. واستدعاه خاله ورسمه قِسّاً بِالإسْكَنْدَرِيَّة، وخدم فِيهَا بنشاط وجذب الكثيرين بتَقّْوَاهْ وعفته، فأحبه الجميع. وبَعْدَ نِياحَةْ خاله اختاره الأسَاقِفَةْ والأراخنة بطريركاً وتَمَّتْ رِسَامَتْهُ يوم 20 بابه سَنَةْ 128 لِلْشُهَداءِ (412م)، فاهتم برعاية شَعْبَهُ وتعليمه.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -20356,7 +20636,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0411&C=Title", 
   "1) 4 Apip\nTransfert des reliques de saint Cyr et saint Jean", 
-  "4 أبيب\nتِذْكَارْ نَقْلِ أعضاء الشهيدين أباكير ويوجنا\n", 
+  "4 أبيب\nتِذْكَارْ نَقْلِ أعضاء الشهيدين أباكير ويوجنا", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -20383,7 +20663,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0511&C=Title", 
   "5 Apip\n1) Martyre de saint Pierre et saint Paul ;\n2) Martyre de saint Marc, le gouverneur d’al-Borollos ", 
-  "5 أبيب\nاسْتِشْهَادْ القِدِّيسْينْ بُطْرُسْ وبولس\nاسْتِشْهَادْ القِدّيسْ مَرْقُسْ والي البرلس\n", 
+  "5 أبيب\nاسْتِشْهَادْ القِدِّيسْينْ بُطْرُسْ وبولس\nاسْتِشْهَادْ القِدّيسْ مَرْقُسْ والي البرلس", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -20438,7 +20718,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction des prières de saint Pierre et saint Paul soit avec nous. Amen !", 
-  "بركة صلواتهما فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة صلواتهما فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -20455,7 +20735,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0611&C=Title", 
   "6 Apip\n1) Martyre de saint Olympas, le disciple ;\n2) Martyre de sainte Théodosie et de ses compagnons", 
-  "6 أبيب\nاسْتِشْهَادْ القِدّيسْ أولمباس أحَدْ السبعين تلميذاً\nاسْتِشْهَادْ القِدِّيسَةْ ثاؤدوسية ومن معها\n", 
+  "6 أبيب\nاسْتِشْهَادْ القِدّيسْ أولمباس أحَدْ السبعين تلميذاً\nاسْتِشْهَادْ القِدِّيسَةْ ثاؤدوسية ومن معها", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -20486,13 +20766,13 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=0711&C=Title", 
-  "7 Apip\nDécès d’Abba Chénouda, l’archimandrite\n", 
-  "7 أبيب\nنِيَاحَةْ القِدّيسْ العَظِيمْ الأنبا شنوده رئيس المتوحدين\n", 
+  "7 Apip\nDécès d’Abba Chénouda, l’archimandrite", 
+  "7 أبيب\nنِيَاحَةْ القِدّيسْ العَظِيمْ الأنبا شنوده رئيس المتوحدين", 
   ],
   [
   Prefix.same+"&C=NoActor", 
   "En ce jour de l’an 168 des martyrs (452 après Jésus Christ) décéda le grand saint, abba Chénouda l’archimandrite (piar,yman`drityc - أنبا شنوده رئيس المتوحدين). Il naquit à Chétlala ou Chândawil (شتلالا – شندويل), d’un père qui se prénommait Abigôs (أبيجوس) et d’une mère qui se prénommait Droba (دروبا). Ils l’éduquèrent dans la piété et la vertu. il recherchait à s’isoler pour prier dès son plus jeune âge.", 
-  "في مِثْلِ هَذا اليَومْ مِنْ سَنَةْ 168 لِلْشُهَداءِ (452م) تَنَيَّحَ القِدّيسْ العَظِيمْ الأنبا شنوده رئيس المتوحدين. وُلِدَ هَذَا القِدّيسْ العَظِيمْ بقرية شتلالا (شندويل) (شندويل: حَالِيَاً بنفس اسْمَهَا قرية تابعة لمركز المراغة مُحَافَظَة سوهاج) مِنْ أَبَوينِ مَسيحِيَّيْنْ تقيين، وكَانَ أبوه يُدْعَى أبيجوس وأُمُّهُ دروبا. رَبَّاهُ أبواه عَلَى التقوى والفضيلة، وكَانَ يَمِيلْ منذ صغره للخلوة والصَلاةِ.", 
+  "في مِثْلِ هَذا اليَومْ مِنْ سَنَةْ 168 لِلْشُهَداءِ (452م) تَنَيَّحَ القِدّيسْ العَظِيمْ الأنبا شنوده رئيس المتوحدين. وُلِدَ هَذَا القِدّيسْ العَظِيمْ بقرية شتلالا (شندويل) (شندويل: حَالِيَاً بِنَفْسِ اسْمَهَا قرية تابعة لمركز المراغة مُحَافَظَة سوهاج) مِنْ أَبَوينِ مَسيحِيَّيْنْ تقيين، وكَانَ أبوه يُدْعَى أبيجوس وأُمُّهُ دروبا. رَبَّاهُ أبواه عَلَى التقوى والفضيلة، وكَانَ يَمِيلْ منذ صغره للخلوة والصَلاةِ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -20539,7 +20819,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0811&C=Title", 
   "8 Apip\n1) Décès de saint Pichoï ;\n2) Martyre de saint Pirô’ouh et saint Athom ;\n3) Martyre de saint Plana, le prêtre ;\n4) Martyre de saint Pimanôn ;\n5) Décès de saint Karas frère du roi Théodose ;\n6)  Décès de saint Marc al-Antouni", 
-  "8 أبيب\nنِيَاحَةْ القِدّيسْ الأنبا بيشوي\nاسْتِشْهَادْ القِدِّيسْينْ أبيرؤوه وأثوم\nاسْتِشْهَادْ القِدّيسْ بلانا القس\nاسْتِشْهَادْ القِدّيسْ بيمانون\nنِيَاحَةْ القِدّيسْ الأنبا كاراس السائح\nنِيَاحَةْ القِدّيسْ مَرْقُسْ الأنطوني\n", 
+  "8 أبيب\nنِيَاحَةْ القِدّيسْ الأنبا بيشوي\nاسْتِشْهَادْ القِدِّيسْينْ أبيرؤوه وأثوم\nاسْتِشْهَادْ القِدّيسْ بلانا القس\nاسْتِشْهَادْ القِدّيسْ بيمانون\nنِيَاحَةْ القِدّيسْ الأنبا كاراس السائح\nنِيَاحَةْ القِدّيسْ مَرْقُسْ الأنطوني", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -20559,7 +20839,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Une autre fois le Seigneur lui apparut et saint Pichoï lui lava les pieds. Il Le reconnut en voyant la trace des clous. Par conséquence le saint but de l’eau qui avait servi au lavage des pieds du Seigneur et, lorsque son disciple arriva, il lui dit d’en boire. Mais celui-ci hésita et lorsqu’il se décida à le faire, il trouva le récipient vide et regretta de n’avoir pas obéi à son maître.", 
-  "دفعةً ظَهَرَ لَهُ الرب، فَأَخَذَ ماء وغسل قدميه، فعرفه من موضع المسامير. ثُمَّ عزاه الرَّبْ وباركه. فشرب القِدّيسْ مِنَ الماء ولَمَّا جَاءَ تِلْمِيذَهُ طَلَبَ مِنْهُ أَنَّ يشرب مِنَ الماء، فَلَمَّا توانى وجد الإناء فارغاً. فندم التلميذ عَلَى عدم طاعته لمعلمه.", 
+  "دفعةً ظَهَرَ لَهُ الرَبّ، فَأَخَذَ ماء وغسل قدميه، فعرفه من موضع المسامير. ثُمَّ عزاه الرَّبْ وباركه. فشرب القِدّيسْ مِنَ الماء ولَمَّا جَاءَ تِلْمِيذَهُ طَلَبَ مِنْهُ أَنَّ يشرب مِنَ الماء، فَلَمَّا توانى وجد الإناء فارغاً. فندم التلميذ عَلَى عدم طاعته لمعلمه.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -20574,12 +20854,12 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Saint Pichoï quitta la vallée de Scété lors de la première invasion par les barbares. Il se rendit à Antinoë (أنصنا) et y demeura auprès de saint Paul de Tammouh (أنبا بولا لاطموهي). Ces deux saints ne furent plus jamais séparés, même après leur décès. Après avoir accompli son bon combat, saint Pichoï décéda en 417 après Jésus Christ et fût enterré au fort de Miniet-al-sakkar (منية السقار), proche d’Antinoë.", 
-  "ترك القِدّيسْ شيهيت أَثْنَاءَ غارة البربر الأولى سَنَةْ 407م ومضى إلى أنصنا، وهي قرية الشيخ عبادة شرقي ملوي، وسكن هُناَكَ مَعَ الأنبا بولا الطموهي ولَمْ يفترقا حَتَّى نياحتهما. ولَمَّا أكْمَلَ جِهَادَهُ تَنَيَّحَ سَنَةْ 417م ودُفِنَ في حصن منية السقار بِجِوارْ أنصنا.", 
+  "ترك القِدّيسْ شِيهِيتْ أَثْنَاءَ غارة البربر الأولى سَنَةْ 407م ومضى إلى أنصنا، وهي قرية الشيخ عبادة شرقي ملوي، وسكن هُناَكَ مَعَ الأنبا بولا الطموهي ولَمْ يفترقا حَتَّى نياحتهما. ولَمَّا أكْمَلَ جِهَادَهُ تَنَيَّحَ سَنَةْ 417م ودُفِنَ في حصن منية السقار بِجِوارْ أنصنا.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
   "Au neuvième siècle, à l’époque du pape Joseph 1er (Youssab يوساب الأول), le 52ème patriarche, les dépouilles des deux saints furent ramenées à Scété, au monastère actuel d’abba Pichoï.", 
-  "وفي زمن بطريركية الأنبا يوساب الأَوَّلْ البَطْرِيَرْكْ 52 في القَرْنِ التاسع أعيد الجَسَدْان إلى شيهيت بديره الحالي.", 
+  "وفي زمن بطريركية الأنبا يوساب الأَوَّلْ البَطْرِيَرْكْ 52 في القَرْنِ التاسع أعيد الجَسَدْان إلى شِيهِيتْ بديره الحالي.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -20609,7 +20889,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de leurs prières soit avec nous. Amen !", 
-  "بركة صلواتهما فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة صلواتهما فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -20639,7 +20919,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Nous commémorons aussi en ce jour le décès de saint Karas, l’anachorète, (القديس كاراس السائح) le frère de l’empereur Théodose le Grand. Ce saint se rendit compte de la vanité de ce monde. Quittant tout ce qu’il possédait, il se rendit au désert occidental où il demeura 57 ans sans rencontrer qui que ce soit. Par la volonté divine, il rencontra abba Pimwah (أنبا بموا) et le salua en disant : \"Bienvenue à toi, abba Pimwah, le prêtre de Scété. » Puis il lui demanda des nouvelles du monde, des gouvernants et des fidèles. Le soir étant venu, saint Karas fût saisi d’une fièvre. Alors, il pria en se prosternant à terre puis rendit l’âme entre les mains du Seigneur. Abba Pimwah l’ensevelit et l’enterra dans sa grotte puis retourna à Scété en racontant aux moines la vie de saint Karas.", 
-  "وفيه أيْضَاً تَنَيَّحَ القِدّيسْ كاراس السائح أخو الإمبراطور ثيئودوسيوس الكبير. عرف هَذَا القِدّيسْ زوال العالم، فترك ماله ومضى إلى البَرِّيَة الغربية. وهُنَاكَ قضى نَحْوَ سبع وخمسين سَنَةْ لَمْ ينظر خلالها وَجْهَ إنْسَانْ. وبإرشاد مِنَ الله التقى بالقديس الأنبا بموا فناداه القِدّيسْ قائلاً: 'أهلاً بالأنبا بموا قس شيهيت'. وسأله عَن أمور العالم وأحوال الولاة والمؤمنين. وفي المساء أخذته حمى، فصلى وسجد عَلَى الأَرْضِ وفَاضَتْ رُوحَهُ بيد الرَّبْ الذي أحبه. فكفنه الأنبا بموا بعباءته ودَفَنَهُ بمغارته، ورجع يحدث بسيرته.", 
+  "وفيه أيْضَاً تَنَيَّحَ القِدّيسْ كاراس السائح أخو الإمبراطور ثيئودوسيوس الكبير. عرف هَذَا القِدّيسْ زوال العالم، فترك ماله ومضى إلى البَرِّيَة الغربية. وهُنَاكَ قضى نَحْوَ سبع وخمسين سَنَةْ لَمْ ينظر خلالها وَجْهَ إنْسَانْ. وبإرشاد مِنَ الله التقى بالقديس الأنبا بموا فناداه القِدّيسْ قائلاً: 'أهلاً بالأنبا بموا قس شِيهِيتْ'. وسأله عَن أمور العالم وأحوال الولاة والمؤمنين. وفي المساء أخذته حمى، فصلى وسجد عَلَى الأَرْضِ وفَاضَتْ رُوحَهُ بيد الرَّبْ الذي أحبه. فكفنه الأنبا بموا بعباءته ودَفَنَهُ بمغارته، ورجع يحدث بسيرته.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -20671,7 +20951,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0911&C=Title", 
   "9 Apip\n1) Martyre de Simon fils d’Alphée, l’évêque de Jérusalem ;\n2) Décès du pape Céladion le 9ème patriarche de la prédication de saint Marc ", 
-  "9 أبيب\nاسْتِشْهَادْ القِدّيسْ سَمْعَانْ بن حلفي أُسْقُفْ أورشليم\nنِيَاحَةْ القِدّيسْ البابا كلاوديانوس البَطْرِيَرْكْ التاسع مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة\n", 
+  "9 أبيب\nاسْتِشْهَادْ القِدّيسْ سَمْعَانْ بن حلفي أُسْقُفْ أورشليم\nنِيَاحَةْ القِدّيسْ البابا كلاوديانوس البَطْرِيَرْكْ التاسع مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -20713,7 +20993,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1011&C=Title", 
   "10 Apip\n1) Martyre de saint Théodore, évêque de la Pentapole occidentale ;\n2) Martyre de saint Théodore, évêque de Corinthe ainsi que ses compagnons", 
-  "10 ابيب\nاسْتِشْهَادْ القِدّيسْ ثاؤدوروس أُسْقُفْ الخمس مدن الغربية\nاسْتِشْهَادْ القِدّيسْ ثاؤدوروس أُسْقُفْ كورنثوس ومن معه\n", 
+  "10 ابيب\nاسْتِشْهَادْ القِدّيسْ ثاؤدوروس أُسْقُفْ الخمس مدن الغربية\nاسْتِشْهَادْ القِدّيسْ ثاؤدوروس أُسْقُفْ كورنثوس ومن معه", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -20750,7 +21030,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1111&C=Title", 
   "11 Apip\n1) Martyre de saint Jean et de son cousin Siméon ;\n2) Décès de saint Isaïe de Scété", 
-  "11 أبيب\nاسْتِشْهَادْ القِدِّيسْينْ يُوحَنَّا وسمعان ابْنِ عمه\nنِيَاحَةْ القِدّيسْ العَظِيمْ الأنبا إشعياء الإسقيطى\n", 
+  "11 أبيب\nاسْتِشْهَادْ القِدِّيسْينْ يُوحَنَّا وسمعان ابْنِ عمه\nنِيَاحَةْ القِدّيسْ العَظِيمْ الأنبا إشعياء الإسقيطى", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -20770,12 +21050,12 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de leurs prières soit avec nous. Amen !", 
-  "بركة صلواتهما فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة صلواتهما فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
   "En ce jour de l’an 163 des martyrs (447 après Jésus Christ) décéda un grand saint, abba Isaïe de Scété (إشعياء الإسقيطي), l’ermite. Ce saint naquit en 337 après Jésus Christ et fût rapidement attiré par l’ascétisme et l’adoration de Dieu. A l’âge de dix-huit ans, il devint moine à Scété et fût un disciple de saint Achille (أخيلس) qui l’entraina à pratiquer l’ascétisme. Il fût contemporain et compagnon de saint Macaire le grand qui lui apprit beaucoup de choses. Il faisait partie des ermites réputés dont saint Athanase l’apostolique demandait des nouvelles dans ses lettres.", 
-  "وفيه أيْضَاً مِنْ سَنَةْ 163 لِلْشُهَداءِ (447م) تَنَيَّحَ القِدّيسْ العَظِيمْ الأنبا إشعياء الإسقيطى المتوحد بجبل شيهيت. وُلِدَ هَذَا القِدّيسْ سَنَةْ 337م، أحَبَّ النُسْكْ والصَلاةِ والصوم وغير ذَلِكْ منذ صغره ولَمَّا بَلَغَ سِنّ الثامنة عشرة مِنْ عُمْرِهِ تَرَهَّبَ ببرية شيهيت وتتلمذ عَلَى يَدِِّ القِدّيسْ أخيلس الذي دربه عَلَى النُسْكْ الشديد. عاصر القِدّيسْ مكاريوس الكبير ورافقه كَثِيراً وتعلم مِنْهُ. وكَانَ بَيْنَ مشاهير النُسَّاك في برية شيهيت الّذِينَ شغف بِهِمْ البابا أثناسيوس الرسولى وكَانَ يسأل عنهم في رسائله.", 
+  "وفيه أيْضَاً مِنْ سَنَةْ 163 لِلْشُهَداءِ (447م) تَنَيَّحَ القِدّيسْ العَظِيمْ الأنبا إشعياء الإسقيطى المتوحد بجبل شِيهِيتْ. وُلِدَ هَذَا القِدّيسْ سَنَةْ 337م، أحَبَّ النُسْكْ والصَلاةِ والصوم وغير ذَلِكْ منذ صغره ولَمَّا بَلَغَ سِنّ الثامنة عشرة مِنْ عُمْرِهِ تَرَهَّبَ ببرية شِيهِيتْ وتتلمذ عَلَى يَدِِّ القِدّيسْ أخيلس الذي دربه عَلَى النُسْكْ الشديد. عاصر القِدّيسْ مكاريوس الكبير ورافقه كَثِيراً وتعلم مِنْهُ. وكَانَ بَيْنَ مشاهير النُسَّاك في بَرِّيَّةِ شِيهِيتْ الّذِينَ شغف بِهِمْ البابا أثناسيوس الرسولى وكَانَ يسأل عنهم في رسائله.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -20790,7 +21070,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "En 407 après Jésus Christ, abba Isaïe quitta la vallée avec ses disciples à cause de la première invasion des barbares. Il s’installa pendant quarante ans au sud de la ville de Nisibe (نصيبين) et rédigea de nombreux écris concernant l'ascétisme qui furent nommés \"Les écrits ascétiques d’Isaïe » (نسكيات إشعياء). Il a aussi des livres traitant de la crainte de Dieu (مخافة الله), l’examen de conscience (محاسبة النفس), l’humilité (الإتضاع), la soumission à Dieu (طرح النفس أمام الله), la douceur envers les frères (اللطف مع الإخوة), l’éternité (الأبدية) et des conseils destinés aux débutants (نصائح للمبتدئين). Dans ses écrits saint Isaïe s’appuyait en permanence sur les principes et les textes de la sainte Bible. Ils furent répandus parmi les moines dans l’orient chrétiens dans les langues coptes, syriaques, éthiopiennes, grecques et latines. Il fût aussi traduit en français.", 
-  "وفي عام 407م تَرَكَ القِدّيسْ الأنبا إشعياء برية شيهيت هُوَ وتلاميذه بِسَبَبِ غارة البربر الأولى وعَاشْ جنوب مدينة نصيبين مُدَةِ أربعين سَنَةً، كَتَبَ فِيهَا كتابات كَثِيرَة عَن النسكيات سُميت 'نسكيات إشعياء' وكَتَبَ أيْضَاً عَن مخافة الله، ومحاسبة النفس، والاتضاع وطرح النَفْس أمَامَ الله، واللطف مَعَ الإخْوَةِ، والأبدية، ونصائح للمبتدئين. وامتازت جَمِيع كتاباته بالاستناد إلى المبادىء والمفاهيم الإنجيلية وهي منتشرة بَيْنَ الرُهْبانْ في الشَّرْقِ المسيحي كُلَّهُ وبكافة اللغات القبطية والسريانية والحبشية واليونانية واللاتينية، كَمَا تُرجمت إلى اللُّغَةِ الفرنسية.", 
+  "وفي عام 407م تَرَكَ القِدّيسْ الأنبا إشعياء بَرِّيَّةِ شِيهِيتْ هُوَ وتلاميذه بِسَبَبِ غارة البربر الأولى وعَاشْ جنوب مدينة نصيبين مُدَةِ أربعين سَنَةً، كَتَبَ فِيهَا كتابات كَثِيرَة عَن النسكيات سُميت 'نسكيات إشعياء' وكَتَبَ أيْضَاً عَن مخافة الله، ومحاسبة النفس، والاتضاع وطرح النَفْس أمَامَ الله، واللطف مَعَ الإخْوَةِ، والأبدية، ونصائح للمبتدئين. وامتازت جَمِيع كتاباته بالاستناد إلى المبادىء والمفاهيم الإنجيلية وهي منتشرة بَيْنَ الرُهْبانْ في الشَّرْقِ المسيحي كُلَّهُ وبكافة اللغات القبطية والسريانية والحبشية واليونانية واللاتينية، كَمَا تُرجمت إلى اللُّغَةِ الفرنسية.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -20806,8 +21086,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=1211&C=Title", 
-  "12 Apip\n1) Commémoration de l'archange Michel ;\n2) Martyre de saint abba Hour El-Siriakousy ;\nDécès de saint Sisoès le grand\n", 
-  " 12 أبيب\nتِذْكَارْ رئيس الملائكة الجليل ميخائيل رئيس جند الرب\nاسْتِشْهَادْ القِدّيسْ أباهور السرياقوسي\nنِيَاحَةْ القِدّيسْ الأنبا شيشوي الكبير\n", 
+  "12 Apip\n1) Commémoration de l'archange Michel ;\n2) Martyre de saint abba Hour El-Siriakousy ;\nDécès de saint Sisoès le grand", 
+  " 12 أبيب\nتِذْكَارْ رئيس الملائكة الجليل ميخائيل رئيس جند الرب\nاسْتِشْهَادْ القِدّيسْ أباهور السرياقوسي\nنِيَاحَةْ القِدّيسْ الأنبا شيشوي الكبير", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -20817,7 +21097,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que son intercession soit avec nous. Amen !", 
-  "شفاعته فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "شفاعته فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -20837,7 +21117,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "En ce jour de l’an 146 des martyrs (430 après Jésus Christ) décéda saint Sisoès (القديس العظيم الأنبا شيشوي). Ce saint naquit en 320 et devint moine à Scété en 340 auprès de saint Macaire le grand dont il était l’un des premiers disciples. Comme il aimait le calme et l’isolement, il quitta Scété en 356 car les moines qui s’y trouvaient étaient devenus très nombreux et se rendit sur la montagne de saint Antoine pour trouver de la quiétude. Ceci eût lieu après le décès de saint Antoine. Il se conforma à la vie de ce dernier et vécut dans le silence, la prière et l’ascétisme en s’adonnant aux travaux manuels et ne mangeant qu’une fois tous les deux jours. Après soixante-dix ans, il retourna à Scété en 426 et fit parti du conseil (المجمع) à cause de son âge avancé.", 
-  "وفيه أيْضَاً مِنْ سَنَةْ 146 لِلْشُهَداءِ (430م) تَنَيَّحَ القِدّيسْ العَظِيمْ الأنبا شيشوي. وُلِدَ هَذَا القِدّيسْ سَنَةْ 320م، تَرَهَّبَ عِنْدَ القِدّيسْ مكاريوس الكبير في برية شيهيت سَنَةْ 340م وصار من أوائل تلاميذه. كَانَ مُحِبّاً للوحدة والهدوء. فَلَمَّا كثر عَدَدَ الرُهْبانْ في شيهيت مَضَى إلى جبل القِدّيسْ أنطونيوس طلباً للهدوء في سَنَةْ 356م بَعْدَ نِياحَةْ القِدّيسْ الأنبا أنطونيوس الكبير، حَيْثُ اتبع سيرته بِكُلِّ دقة، حَتَّى أَنَّهُ كَانَ لَهُ صورة حية مِنْهُ. فانعكف عَلَى الصمت والصَلاةِ والتقشف وعمل اليد، لا يأكل إلا مرة كُلَّ يومين. وعَاشْ عَلَى هَذَا الحال سبعين سَنَةً. ثُمَّ رجع إلى شيهيت سَنَةْ 426م ودخل المَجْمَعْ لشيخوخته.", 
+  "وفيه أيْضَاً مِنْ سَنَةْ 146 لِلْشُهَداءِ (430م) تَنَيَّحَ القِدّيسْ العَظِيمْ الأنبا شيشوي. وُلِدَ هَذَا القِدّيسْ سَنَةْ 320م، تَرَهَّبَ عِنْدَ القِدّيسْ مكاريوس الكبير في بَرِّيَّةِ شِيهِيتْ سَنَةْ 340م وصار من أوائل تلاميذه. كَانَ مُحِبّاً للوحدة والهدوء. فَلَمَّا كثر عَدَدَ الرُهْبانْ في شِيهِيتْ مَضَى إلى جبل القِدّيسْ أنطونيوس طلباً للهدوء في سَنَةْ 356م بَعْدَ نِياحَةْ القِدّيسْ الأنبا أنطونيوس الكبير، حَيْثُ اتبع سيرته بِكُلِّ دقة، حَتَّى أَنَّهُ كَانَ لَهُ صورة حية مِنْهُ. فانعكف عَلَى الصمت والصَلاةِ والتقشف وعمل اليد، لا يأكل إلا مرة كُلَّ يومين. وعَاشْ عَلَى هَذَا الحال سبعين سَنَةً. ثُمَّ رجع إلى شِيهِيتْ سَنَةْ 426م ودخل المَجْمَعْ لشيخوخته.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -20879,7 +21159,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1311&C=Title", 
   "13 Apip\n1) Décès de saint Pisentius, l’évêque de Qift (Coptos) ;\n2) Martyre de saint Abamôn de Toukh ; \n2) Martyre de saint Chénouté, au début de l'époque arabe ", 
-  " 13 أبيب\nنِيَاحَةْ القِدّيسْ بسنتاؤس أُسْقُفْ قفط\nاسْتِشْهَادْ القِدّيسْ أبامون الطوخى\nاسْتِشْهَادْ القِدّيسْ شنوده في أوائل حكم العرب\n", 
+  " 13 أبيب\nنِيَاحَةْ القِدّيسْ بسنتاؤس أُسْقُفْ قفط\nاسْتِشْهَادْ القِدّيسْ أبامون الطوخى\nاسْتِشْهَادْ القِدّيسْ شنوده في أوائل حكم العرب", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -20941,7 +21221,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1411&C=Title", 
   "14 Apip\n1) Martyre de saint Procope ;\n2) Décès du pape Pierre V, le 83ème patriarche de la prédication de saint Marc", 
-  " 14 أبيب\nاسْتِشْهَادْ القِدّيسْ بروكونيوس\nنِيَاحَةْ القِدّيسْ البابا بُطْرُسْ الخامس البَطْرِيَرْكْ الثَالِثْ والثمانين مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة\n", 
+  " 14 أبيب\nاسْتِشْهَادْ القِدّيسْ بروكونيوس\nنِيَاحَةْ القِدّيسْ البابا بُطْرُسْ الخامس البَطْرِيَرْكْ الثَالِثْ والثمانين مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -20973,7 +21253,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1511&C=Title", 
   "15 Apip\n1) Décès de saint Ephrem le syriaque ;\n2) Martyr de saint Cyr et sainte Julitte ;\n3) Martyr de saint Horesius de Soul", 
-  " 15 أبيب\nنِيَاحَةْ القِدّيسْ مِارِ أفرام السِرّْيانْي\nاسْتِشْهَادْ القِدِّيسْينْ كيرياكوس ويوليطة أمه\nاسْتِشْهَادْ القِدّيسْ أوروسيوس\n", 
+  " 15 أبيب\nنِيَاحَةْ القِدّيسْ مِارِ أفرام السِرّْيانْي\nاسْتِشْهَادْ القِدِّيسْينْ كيرياكوس ويوليطة أمه\nاسْتِشْهَادْ القِدّيسْ أوروسيوس", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -20988,7 +21268,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Saint Ephrem rendit aussi visite à la vallée de Scété réputée par ses moines et ses érudits comme abba Pichoï (أنبا بيشوي) et abba Jean Colobos (abba Iwannyc pikoloboc – أنبا يحنس القصير) et il y demeura pendant huit années puis retourna chez lui. Il est considéré comme l’un des principaux maîtres à penser de l’Église Syriaque et un de ses plus prestigieux auteurs. Il écrivit des homélies, des poèmes, et des hymnes.", 
-  "زار مِارِ أفرام برية شيهيت الشهيرة برهبانها ومعلميها الحاذقين أمثال الأنبا بيشوي والأنبا يحنس القصير وقضى بينهم حوالي ثماني سنوات (مازال أثره باقياً حَتَّى الآن في برية شيهيت وهْوَ شجرة مِارِ أفرام السِرّْيانْي الموجودة بِدِيرْ السِرّْيانْ العامر وهي من نوع التمر هندي، كَمَا يُوجَدْ أيْضَاً جزء من رفاته في أنبوبة القِدِّيسْينْ بالدير)، ثُمَّ رجع إلى بلاده حَيْثُ أَصْبَحَ من أشهر معلمي الكَنيسَةْ السِرّْيانْية ومن أعظم أدباء السِرّْيانْ وله كتابات وأشعار روحية كَثِيرَة وميامر متعددة.", 
+  "زار مِارِ أفرام بَرِّيَّةِ شِيهِيتْ الشهيرة برهبانها ومعلميها الحاذقين أمثال الأنبا بيشوي والأنبا يحنس القصير وقضى بينهم حوالي ثماني سنوات (مازال أثره باقياً حَتَّى الآن في بَرِّيَّةِ شِيهِيتْ وهْوَ شجرة مِارِ أفرام السِرّْيانْي الموجودة بِدِيرْ السِرّْيانْ العامر وهي من نوع التمر هندي، كَمَا يُوجَدْ أيْضَاً جزء من رفاته في أنبوبة القِدِّيسْينْ بالدير)، ثُمَّ رجع إلى بلاده حَيْثُ أَصْبَحَ من أشهر معلمي الكَنيسَةْ السِرّْيانْية ومن أعظم أدباء السِرّْيانْ وله كتابات وأشعار روحية كَثِيرَة وميامر متعددة.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -21028,17 +21308,17 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Julitte se réjouit que son fils fût martyr, et le gouverneur poursuivit sa torture et finalement la fit décapiter, et elle reçut aussi la couronne du martyre. Les deux servantes prirent les dépouilles des deux martyrs et les cachèrent dans une grotte à proximité de Tarse. A l’époque de l’empereur Constantin, ils furent embaumés et enterrés avec de grands honneurs.", 
-  "ولما نظرت أمه القِدِّيسَةْ يوليطة أَنَّ ابنها نَالَ إكْلْيلْ الشِهَادَة امتلأت ابتهاجاً وشكرت الرب، وزاد احتمالها للعذاب الشديد. أما الوالي فَأمَرَ أَنَّ يُمَزَقْ جسمها بمخالب حديدية وسكبوا عَلَيْهَا القار المغلي. وأخيراً قطعوا رأسها بِحَدِّ السَيْفِ فنَالَتْ إكْلْيلْ الشِهَادَةْ. وكَانَ ذَلِكْ في سَنَةْ 305م فجاءت الجاريتان وأخذتا الجَسَدْين الطاهرين وخبأتهما في إحدى المغارات بِجِوارْ مدينة طرسوس ولَمَّا ملك قسطنطين أخذوا الجَسَدْين الطاهرين وكفنوهما بأطياب فاخرة ودفنوهما بِإكْرَامٍ عظيم.", 
+  "ولما نظرت أمه القِدِّيسَةْ يوليطة أَنَّ ابنها نَالَ إكْلْيلْ الشِهَادَة امتلأت ابتهاجاً وشكرت الرَبّ، وزاد احتمالها للعذاب الشديد. أما الوالي فَأمَرَ أَنَّ يُمَزَقْ جسمها بمخالب حديدية وسكبوا عَلَيْهَا القار المغلي. وأخيراً قطعوا رأسها بِحَدِّ السَيْفِ فنَالَتْ إكْلْيلْ الشِهَادَةْ. وكَانَ ذَلِكْ في سَنَةْ 305م فجاءت الجاريتان وأخذتا الجَسَدْين الطاهرين وخبأتهما في إحدى المغارات بِجِوارْ مدينة طرسوس ولَمَّا ملك قسطنطين أخذوا الجَسَدْين الطاهرين وكفنوهما بأطياب فاخرة ودفنوهما بِإكْرَامٍ عظيم.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
   "Il existe des reliques de ces deux saints au monastère al-Souryân (دير السريان العامر) à Scété ainsi que l’église de la sainte Vierge au vieux Caire (al-moallaka – المعلقة). Il existe à Tahta (طهطا) une église remontant à l’an 550 après Jésus Christ portant le nom de saint Kérikos et sainte Julitte.", 
-  "وتوجد أجْزَاء من رفات الشهيدين كيرياكوس ويوليطة أمه بِدِيرْ السِرّْيانْ العامر ببرية شيهيت وكذلك بكنيسة السيدة العَذْرَاءْ المعلقة بِمِصْرَ القَدِيمَةِ. وتوجد كِنِيسَةْ تحمل اسْمِ الشهيدين كيرياكوس ويوليطة أمه في مَدِينَةِ طهطا ويرجع تاريخها إلى سَنَةْ 550م.", 
+  "وتوجد أجْزَاء من رفات الشهيدين كيرياكوس ويوليطة أمه بِدِيرْ السِرّْيانْ العامر ببرية شِيهِيتْ وكذلك بكنيسة السيدة العَذْرَاءْ المعلقة بِمِصْرَ القَدِيمَةِ. وتوجد كِنِيسَةْ تحمل اسْمِ الشهيدين كيرياكوس ويوليطة أمه في مَدِينَةِ طهطا ويرجع تاريخها إلى سَنَةْ 550م.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de ses prières soit avec nous. Amen !", 
-  "بركة صلواتهما فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة صلواتهما فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -21055,7 +21335,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1611&C=Title", 
   "16 Apip\n1) Décès de saint Jean, le détenteur de l'Evangile en or ;\n2) Arrivée de la dépouille du grand martyr saint Georges de Cappadoce à son église du vieux Caire ;\n3) Consécration de l’église de saint Philotée", 
-  " 16 أبيب\nنِيَاحَةْ القِدّيسْ يُوحَنَّا صَاحِبْ الإِنْجِيلِ الذهب\nوضع جَسَدِ الشَهْيد مِارِ جرجس الروماني بكنيسته بِمِصْرَ القَدِيمَةِ\nتَكّرْيسِ بَيْعَةِ الشَهْيد فيلوثيئوس\n", 
+  " 16 أبيب\nنِيَاحَةْ القِدّيسْ يُوحَنَّا صَاحِبْ الإِنْجِيلِ الذهب\nوضع جَسَدِ الشَهْيد مِارِ جرجس الروماني بكنيسته بِمِصْرَ القَدِيمَةِ\nتَكّرْيسِ بَيْعَةِ الشَهْيد فيلوثيئوس", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -21075,7 +21355,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "A l’approche de son décès, Dieu l’informa en songe qu’il ne lui restait plus que trois jours à vivre sur terre. Alors il fit venir ses parents et leur fit promettre avec insistance de l’enterrer dans sa hutte et de l’ensevelir avec ses vêtements puis leur montra son Évangile en or. Ainsi ils surent qu’il était leur fils. Ensuite il rendit l’âme entre les mains du Seigneur qu’il avait tant aimé. Ses parents furent attristés et l’enterrèrent comme il le leur avait demandé.", 
-  "ولما دنت نِيَاحَتِهِ أعلمه الله في رؤيا أَنَّهُ سينتقل من هَذَا العالم بَعْدَ ثَلاثَةْ أَيَّامٍ فاستدعى والديه وطَلَبَ مِنْهُما بإلحاح أَنَّ يعطوه وعداً بِأنَّ يدفناه في كوخه ويكفناه بنفس ثوبه، ثُمَّ أظهر لَهُمَا الإِنْجِيلِ الذهب، فعرفا أَنَّهُ ابنهما، وبَعْدَ ذَلِكْ فَاضَتْ رُوحَهُ الطَاهِرَةْ بيد الرَّبْ الذي أحبه. فحزن والداه حزناً عَظِيمَاً عَلَى فراقه. وكفناه بنفس ثوبه ودفناه في الكوخ حَسَب وصيته.", 
+  "ولما دنت نِيَاحَتِهِ أعلمه الله في رؤيا أَنَّهُ سينتقل من هَذَا العالم بَعْدَ ثَلاثَةْ أَيَّامٍ فاستدعى والديه وطَلَبَ مِنْهُما بإلحاح أَنَّ يعطوه وعداً بِأنَّ يدفناه في كوخه ويكفناه بِنَفْسِ ثوبه، ثُمَّ أظهر لَهُمَا الإِنْجِيلِ الذهب، فعرفا أَنَّهُ ابنهما، وبَعْدَ ذَلِكْ فَاضَتْ رُوحَهُ الطَاهِرَةْ بيد الرَّبْ الذي أحبه. فحزن والداه حزناً عَظِيمَاً عَلَى فراقه. وكفناه بِنَفْسِ ثوبه ودفناه في الكوخ حَسَب وصيته.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -21116,8 +21396,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=1711&C=Title", 
-  "17 Apip\n1) Martyre de sainte Euphémie ;\n2) Martyre de sainte Téklé et sainte Marthe d’Esna\n", 
-  " 17 أبيب\nاسْتِشْهَادْ القِدِّيسَةْ أوفيمية\nاسْتِشْهَادْ القِدِّيْسْتين تكلا ومرثا من إسنا\n", 
+  "17 Apip\n1) Martyre de sainte Euphémie ;\n2) Martyre de sainte Téklé et sainte Marthe d’Esna", 
+  " 17 أبيب\nاسْتِشْهَادْ القِدِّيسَةْ أوفيمية\nاسْتِشْهَادْ القِدِّيْسْتين تكلا ومرثا من إسنا", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -21127,7 +21407,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de ses prières soit avec nous. Amen !", 
-  "بركة صلواتها فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة صلواتها فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -21143,8 +21423,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=1811&C=Title", 
-  "18 Apip\nMartyre de l’apôtre saint Jacques, le frère du Seigneur\n", 
-  " 18 أبيب\nاسْتِشْهَادْ القِدّيسْ يَعْقُوبْ الرسول أخي الرب\n", 
+  "18 Apip\nMartyre de l’apôtre saint Jacques, le frère du Seigneur", 
+  " 18 أبيب\nاسْتِشْهَادْ القِدّيسْ يَعْقُوبْ الرسول أخي الرب", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -21180,8 +21460,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=1911&C=Title", 
-  "19 Apip\n1) Martyre de saint Badaba, évêque de Coptos ainsi qu'abba André et abba Christodule ;\n2) Commémoration des martyrs de la tuerie d’Esna ;\n3) Martyre de saint Pantaléon, le médecin ;\n4) Décès d'abba Jean X, le 85ème patriarche d'Alexandrie \n", 
-  " 19 أبيب\nاسْتِشْهَادْ القِدِّيسْينْ الأنبا بضابا أُسْقُفْ قفط وأنبا أندراوس وأنبا خرستوذولوس\nاسْتِشْهَادْ شهداء مذبحة إسنا\nاسْتِشْهَادْ القِدّيسْ بطلون الطبيب\nنِيَاحَةْ القِدّيسْ البابا يوأنس العاشر البَطْرِيَرْكْ الخامس والثمانين مِنْ بَطارِكَةْ الكرازة المر\n", 
+  "19 Apip\n1) Martyre de saint Badaba, évêque de Coptos ainsi qu'abba André et abba Christodule ;\n2) Commémoration des martyrs de la tuerie d’Esna ;\n3) Martyre de saint Pantaléon, le médecin ;\n4) Décès d'abba Jean X, le 85ème patriarche d'Alexandrie ", 
+  " 19 أبيب\nاسْتِشْهَادْ القِدِّيسْينْ الأنبا بضابا أُسْقُفْ قفط وأنبا أندراوس وأنبا خرستوذولوس\nاسْتِشْهَادْ شهداء مذبحة إسنا\nاسْتِشْهَادْ القِدّيسْ بطلون الطبيب\nنِيَاحَةْ القِدّيسْ البابا يوأنس العاشر البَطْرِيَرْكْ الخامس والثمانين مِنْ بَطارِكَةْ الكرازة المر", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -21211,7 +21491,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de leurs prières soit avec nous. Amen !", 
-  "بركة صلواتهم فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة صلواتهم فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -21226,7 +21506,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de leurs prières soit avec nous. Amen !", 
-  "بركة صلواتهم فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة صلواتهم فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -21272,13 +21552,13 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=2011&C=Title", 
-  "20 Apip\nMartyre de saint Théodore de Choteb\n", 
-  " 20 أبيب\nاسْتِشْهَادْ القِدّيسْ تَادْرُسْ الشُطبي\n", 
+  "20 Apip\nMartyre de saint Théodore de Choteb", 
+  " 20 أبيب\nاسْتِشْهَادْ القِدّيسْ تَادْرُسْ الشُطبي", 
   ],
   [
   Prefix.same+"&C=NoActor", 
   "En ce jour de l’an 36 des martyrs (320 après Jésus Christ) mourut martyr saint Théodore de Choteb (القديس تادرس الشطبي). Son père se nommait Jean et était originaire de Choteb (شُطب) en haute Égypte. Il fût envoyé à Antioche avec d’autres soldats où il épousa une princesse païenne puis ils eurent un fils à qui ils donnèrent le nom de Théodore. La princesse voulut l'éduquer à la manière des païens et lui apprendre l’adoration des idoles, mais son père s'y opposa car il était chrétien. Sa femme se mit alors en colère et le chassa. L'enfant demeura avec sa mère. Mais Jean priait sans cesse pour le salut de son fils et il s’installa dans son village à Choteb.", 
-  "في مِثْلِ هَذا اليَومْ مِنْ سَنَةْ 36 لِلْشُهَداءِ (320م) اسْتَشْهَدَ القِدّيسْ تَادْرُسْ الشُطبي. وكَانَ أبوه يسمى يُوحَنَّا من بلدة شُطب (شُطب: قرية مازالت بنفس اسْمَهَا بِجِوارْ مدينة أسيوط). ذهب يُوحَنَّا إلى أنطاكية ضمن جُنُود جيش الملك، وهُنَاكَ تزوج بابنة أحَدْ الأمراء الوثنيين، فرُزق مِنْهُا بتادرس. ولَمَّا أرادت أَنَّ تعلم ابنها عبادة الأصنام رَفَضَ أبوه لِأَنَّهُ كَانَ مسيحياً، فغضبت مِنْهُ وطردته. أما يُوحَنَّا فَكَانَ مداوماً الصَلاةِ مِنْ أَجْلِ ابنه أَنَّ يهديه الله إلى طَرِيقِ الخلاص، ورجع إلى بلدته شُطب واستقر فِيهَا.", 
+  "في مِثْلِ هَذا اليَومْ مِنْ سَنَةْ 36 لِلْشُهَداءِ (320م) اسْتَشْهَدَ القِدّيسْ تَادْرُسْ الشُطبي. وكَانَ أبوه يسمى يُوحَنَّا من بلدة شُطب (شُطب: قرية مازالت بِنَفْسِ اسْمَهَا بِجِوارْ مدينة أسيوط). ذهب يُوحَنَّا إلى أنطاكية ضمن جُنُود جيش الملك، وهُنَاكَ تَزَوَّجَ بابنة أحَدْ الأمراء الوثنيين، فرُزق مِنْهُا بتادرس. ولَمَّا أرادت أَنَّ تعلم ابنها عبادة الأصنام رَفَضَ أبوه لِأَنَّهُ كَانَ مسيحياً، فغضبت مِنْهُ وطردته. أما يُوحَنَّا فَكَانَ مداوماً الصَلاةِ مِنْ أَجْلِ ابنه أَنَّ يهديه الله إلى طَرِيقِ الخلاص، ورجع إلى بلدته شُطب واستقر فِيهَا.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -21314,8 +21594,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=2111&C=Title", 
-  "21 Apip\n1) Commémoration de la sainte Vierge Marie ;\n2) Décès de saint Sisinnios (Sosenius), l’eunuque \n", 
-  " 21 أبيب\nتِذْكَارْ القِدِّيسَةْ العَذْرَاءْ مريم\nنِيَاحَةْ القِدّيسْ سوسنيوس الخصي\n", 
+  "21 Apip\n1) Commémoration de la sainte Vierge Marie ;\n2) Décès de saint Sisinnios (Sosenius), l’eunuque ", 
+  " 21 أبيب\nتِذْكَارْ القِدِّيسَةْ العَذْرَاءْ مريم\nنِيَاحَةْ القِدّيسْ سوسنيوس الخصي", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -21325,7 +21605,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que son intercession soit avec nous. Amen !", 
-  "شفاعتها المُقَدَّسَةْ فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "شفاعتها المُقَدَّسَةْ فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -21347,7 +21627,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2211&C=Title", 
   "22 Apip\n1) Martyre de saint Macaire, le fils du ministre Basile ;\n2) Martyre de saint Léonce", 
-  " 22 أبيب\nاسْتِشْهَادْ القِدّيسْ مكاريوس بن واسيليدس الوزير\nاسْتِشْهَادْ القِدّيسْ لاونديوس\n", 
+  " 22 أبيب\nاسْتِشْهَادْ القِدّيسْ مكاريوس بن واسيليدس الوزير\nاسْتِشْهَادْ القِدّيسْ لاونديوس", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -21398,8 +21678,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=2311&C=Title", 
-  "23 Apip\n1) Martyre de saint Longin, le centurion ;\n2) Martyre de sainte Marina\n", 
-  " 23 أبيب\nاسْتِشْهَادْ القِدّيسْ لونجينوس القائد\nاسْتِشْهَادْ القِدِّيسَةْ مارينا\n", 
+  "23 Apip\n1) Martyre de saint Longin, le centurion ;\n2) Martyre de sainte Marina", 
+  " 23 أبيب\nاسْتِشْهَادْ القِدّيسْ لونجينوس القائد\nاسْتِشْهَادْ القِدِّيسَةْ مارينا", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -21434,7 +21714,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Le lendemain, il la fit venir et fût surpris par sa guérison. Il poursuivit ses tortures de plus en plus cruelles mais le Seigneur la sauvait et un grand nombre crût à cause d’elle. Ils obtinrent la couronne du martyre.", 
-  "وفي الغد أَمَرَ الوالي بإحضارها فَلَمَّا رآها سالمة تعجب جداً وأَمَرَ أَنَّ تعلق عَلَى الهِنْبَازيْنْ وتعصر بشدة. فشفاها مَلاك الرب، فوضعها في مرَجُلٍ كَبِيرْ بِهِ رصاص ساخن فأنقذها الرَّبْ فآمن كَثِيرُون بسببِهَا ونَالوا إكليل الشِهَادَة.", 
+  "وفي الغد أَمَرَ الوالي بإحضارها فَلَمَّا رآها سالمة تعجب جداً وأَمَرَ أَنَّ تعلق عَلَى الهِنْبَازيْنْ وتعصر بشدة. فشفاها مَلاك الرَبّ، فوضعها في مرَجُلٍ كَبِيرْ بِهِ رصاص ساخن فأنقذها الرَّبْ فآمن كَثِيرُون بسببِهَا ونَالوا إكليل الشِهَادَة.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -21451,7 +21731,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2411&C=Title", 
   "24 Apip\n1) Martyre de saint abba Noub de Nahissa ;\n2) Décès du pape Simon 1er, le 42ème patriarche de la prédication de saint Marc ", 
-  " 24 أبيب\nاسْتِشْهَادْ القِدّيسْ أبانوب النهيسي\nنِيَاحَةْ القِدّيسْ البابا سيماؤن الثاني البَطْرِيَرْكْ الثاني والأربعين مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة\n", 
+  " 24 أبيب\nاسْتِشْهَادْ القِدّيسْ أبانوب النهيسي\nنِيَاحَةْ القِدّيسْ البابا سيماؤن الثاني البَطْرِيَرْكْ الثاني والأربعين مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -21506,7 +21786,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Ce pape consacra un certain nombre d’évêques expérimentés dans les sciences le jour de la Pentecôte. Parmi ces évêques il y eût : abba Zacharie (أنبا زكريا) l’évêque de Sakha (سخا), ainsi que son frère Atalmôs (أطلموس) l’évêque de Ménouf supérieure (منوف العليا) et d’autres. Après cette consécration il se rendit à Scété pour visiter les moines puis retourna à Alexandrie et décéda quelques jours plus tard après avoir siégé pendant sept ans et sept mois sur le trône de saint Marc.", 
-  "وقد رسم هَذَا البابا في أحَدْ العنصرة جملة أَسَاقِفَةِ مختبرين في العُلُومِ مِنْهُمْ الأنبا زَكَرِيَّا أُسْقُفْ سخا وأطلموس أَخُوهُ أُسْقُفْ منوف العليا وغيرهما. وبَعْدَ الرسامة مَضَى إلى برية شيهيت وافتقد رهبان الأديرة. وبعدها رجع إلى الإسْكَنْدَرِيَّةْ، حَيْثُ ضعف جسده. وبَعْدَ أَيَّامٍ تَنَيَّحَ بِسَلامْ بَعْدَ أَنَّ أمضى عَلَى الكُرْسِي المرقسي سبع سِنينَ وسبعة أشهر.", 
+  "وقد رسم هَذَا البابا في أحَدْ العنصرة جملة أَسَاقِفَةِ مختبرين في العُلُومِ مِنْهُمْ الأنبا زَكَرِيَّا أُسْقُفْ سخا وأطلموس أَخُوهُ أُسْقُفْ منوف العليا وغيرهما. وبَعْدَ الرسامة مَضَى إلى بَرِّيَّةِ شِيهِيتْ وافتقد رهبان الأديرة. وبعدها رجع إلى الإسْكَنْدَرِيَّةْ، حَيْثُ ضعف جسده. وبَعْدَ أَيَّامٍ تَنَيَّحَ بِسَلامْ بَعْدَ أَنَّ أمضى عَلَى الكُرْسِي المرقسي سبع سِنينَ وسبعة أشهر.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -21518,7 +21798,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2511&C=Title", 
   "25 Apip\n1) Consécration de l’église de saint Mercure, le détenteur des deux épées; \n2) Martyre de saint abba Isaac ;\n3) Martyre de sainte Hilarie ;\n4) Martyre de sainte Thècle et sainte Mouji ;\n5) Martyre de saint Antoine de Béba ;\n6) Martyre de Saint Aba Kragon ;\n7) Martyre de saint Domitien le syrien ;\n8) Décès de saint Plamôn ", 
-  " 25 أبيب\nتَكّرْيسِ كِنِيسَةْ الشَهْيدِ مرقوريوس أبي سيفين\nاسْتِشْهَادْ القِدّيسْ إسحاق\nاسْتِشْهَادْ القِدِّيسَةْ ليارية\nاسْتِشْهَادْ القِدِّيْسْتين تكلة وموجي\nاسْتِشْهَادْ القِدّيسْ أنطونيوس البباوي\nاسْتِشْهَادْ القِدّيسْ أباكراجون\nاسْتِشْهَادْ القِدّيسْ دوماديوس السِرّْيانْي\nنِيَاحَةْ القِدّيسْ بلامون\n", 
+  " 25 أبيب\nتَكّرْيسِ كِنِيسَةْ الشَهْيدِ مرقوريوس أبي سيفين\nاسْتِشْهَادْ القِدّيسْ إسحاق\nاسْتِشْهَادْ القِدِّيسَةْ ليارية\nاسْتِشْهَادْ القِدِّيْسْتين تكلة وموجي\nاسْتِشْهَادْ القِدّيسْ أنطونيوس البباوي\nاسْتِشْهَادْ القِدّيسْ أباكراجون\nاسْتِشْهَادْ القِدّيسْ دوماديوس السِرّْيانْي\nنِيَاحَةْ القِدّيسْ بلامون", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -21528,7 +21808,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction des prières de saint Mercure, le détenteur des deux épées, soit avec nous. Amen !", 
-  "بَرَكِةْ صَلَوَاتْ القِدّيسْ العَظِيمْ مرقوريوس أبي سيفين فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بَرَكِةْ صَلَوَاتْ القِدّيسْ العَظِيمْ مرقوريوس أبي سيفين فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -21548,7 +21828,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de ses prières soit avec nous. Amen !", 
-  "بركة صلواتها فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة صلواتها فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -21558,7 +21838,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de ses prières soit avec nous. Amen !", 
-  "بركة صلواتهما فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة صلواتهما فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -21635,7 +21915,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2611&C=Title", 
   "26 Apip\n1) Décès de saint Joseph, le juste, le fiancé de la sainte Vierge Marie ;\n2) Décès de saint Timothée, le 22ème patriarche de la prédication de saint Marc", 
-  " 26 أبيب\nنِيَاحَةْ القِدّيسْ يوسف البار خطيب القِدِّيسَةْ مَرْيَمْ العذراء\nنِيَاحَةْ القِدّيسْ البابا تِيمُوثَاوُسْ الأَوَّلْ البَطْرِيَرْكْ الثاني والعشرين مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة\n", 
+  " 26 أبيب\nنِيَاحَةْ القِدّيسْ يوسف البار خطيب القِدِّيسَةْ مَرْيَمْ العذراء\nنِيَاحَةْ القِدّيسْ البابا تِيمُوثَاوُسْ الأَوَّلْ البَطْرِيَرْكْ الثاني والعشرين مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -21685,7 +21965,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction des prières de saint Joseph le charpentier qui se mit au service du mystère de la sainte Incarnation, soit avec nous. Amen !", 
-  "بَرَكِةْ صَلَوَاتْ القِدّيسْ يوسف النجار خادم سر التجسد الإلهي فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بَرَكِةْ صَلَوَاتْ القِدّيسْ يوسف النجار خادم سر التجسد الإلهي فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -21717,7 +21997,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2711&C=Title", 
   "27 Apip\n1) Martyre de saint Apamôn ;\n2) Consécration de l'église de saint Abba Fâm", 
-  " 27 أبيب\nاسْتِشْهَادْ القِدّيسْ أبامون\nتَكّرْيسِ كِنِيسَةْ القِدّيسْ أبي فام الجندي الأوسيمي\n", 
+  " 27 أبيب\nاسْتِشْهَادْ القِدّيسْ أبامون\nتَكّرْيسِ كِنِيسَةْ القِدّيسْ أبي فام الجندي الأوسيمي", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -21748,8 +22028,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=2811&C=Title", 
-  "28 Apip\nDécès de sainte Marie de Magdala\n", 
-  " 28 أبيب\nنِيَاحَةْ القِدِّيسَةْ مَرْيَمْ المجدلية\n", 
+  "28 Apip\nDécès de sainte Marie de Magdala", 
+  " 28 أبيب\nنِيَاحَةْ القِدِّيسَةْ مَرْيَمْ المجدلية", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -21796,7 +22076,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2911&C=Title", 
   "29 Apip\n1) Commémoration de l’Annonciation, la Nativité et la Résurrection ;\n2) Transfert des reliques de l'apôtre saint André ;\n3) Martyre de saint Warchenoufa", 
-  " 29 أبيب\nتِذْكَارْ الأَعْيَادِ السيدية البشارة والميلاد والقيامة\nتِذْكَارْ نَقْلِ أعضاء القِدّيسْ أندراوس الرسول\nاسْتِشْهَادْ القِدّيسْ ورشنوفيوس\n", 
+  " 29 أبيب\nتِذْكَارْ الأَعْيَادِ السيدية البشارة والميلاد والقيامة\nتِذْكَارْ نَقْلِ أعضاء القِدّيسْ أندراوس الرسول\nاسْتِشْهَادْ القِدّيسْ ورشنوفيوس", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -21806,7 +22086,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de nôtre bon Sauveur soit avec nous. Amen !", 
-  "بركة مخلصنا الصالح فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة مخلصنا الصالح فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -21816,7 +22096,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de ses prières soit avec nous. Amen !", 
-  "بَرَكِةْ صَلَوَاتْ القِدّيسْ أندراوس فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بَرَكِةْ صَلَوَاتْ القِدّيسْ أندراوس فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -21837,8 +22117,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=3011&C=Title", 
-  "30 Apip\nMartyre des saints Mercure et Ephrem\n", 
-  " 30 أبيب\nاسْتِشْهَادْ القِدّيسْ مرقوريوس وأفرام من أخميم\n", 
+  "30 Apip\nMartyre des saints Mercure et Ephrem", 
+  " 30 أبيب\nاسْتِشْهَادْ القِدّيسْ مرقوريوس وأفرام من أخميم", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -21864,8 +22144,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=0112&C=Title", 
-  "1er Messori\n1) Martyre de saint Apali fils de Juste ;\n2) Décès du pape Cyrille V le 112ème patriarche de la prédication de saint Marc \n", 
-  " 1 مسرى\nاسْتِشْهَادْ القِدّيسْ أبالي بن يسطس\nنِيَاحَةْ القِدّيسْ البابا كيرلس الخامس البَطْرِيَرْكْ الثاني عَشَرْ بَعْدَ المائة مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة\n", 
+  "1er Messori\n1) Martyre de saint Apali fils de Juste ;\n2) Décès du pape Cyrille V le 112ème patriarche de la prédication de saint Marc ", 
+  " 1 مسرى\nاسْتِشْهَادْ القِدّيسْ أبالي بن يسطس\nنِيَاحَةْ القِدّيسْ البابا كيرلس الخامس البَطْرِيَرْكْ الثاني عَشَرْ بَعْدَ المائة مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -21931,8 +22211,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=0212&C=Title", 
-  "2 Messori\nDécès de sainte Païssa\n", 
-  " 2 مسرى\nنِيَاحَةْ القِدِّيسَةْ بائيسة\n", 
+  "2 Messori\nDécès de sainte Païssa", 
+  " 2 مسرى\nنِيَاحَةْ القِدِّيسَةْ بائيسة", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -21947,7 +22227,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Ses nouvelles parvinrent aux moines de Scété (شهيت). Ils en furent très peinés et demandèrent à saint Jean Colobos (abba Iwannyc pikoloboc – يحنس القصير) de l’aider pour le salut de son âme car elle leur avait fait beaucoup de bien. Lorsqu’il arriva, il fût reçu par la servante de Païssa. Alors il lui demanda de l’annoncer à sa maitresse. En entrant il chantait avec le psalmiste : \"Même si je marche au milieu des ombres de la mort, je ne craindrai aucun mal, car tu es avec moi »Lorsqu’il s’installa il lui demanda : \"Pourquoi as-tu délaissé le Christ pour faire tout ce mal ? » Puis il se mit à pleurer. Elle en fût affectée et lui demanda : \"Pourquoi pleures-tu ? » Il lui répondit : \"Je pleure parce que je vois sur ton visage les démons s’amuser, c’est pour cela que je pleure pour toi. » Elle lui demanda si elle pouvait se repentir. Il lui répondit : \"Oui, mais pas ici ! » Elle lui dit alors : \"Emmène-moi où tu veux. »", 
-  "وعِنْدَمَا سَمِعَ آباء برية شيهيت بِذَلِكَ حزنوا عَلَيْهَا وأرسلوا إليها القِدّيسْ يحنس القصير لمساعدتها عَلَى خلاص نَفْسَهَا، وعِنْدَمَا وَصَلَ إلى منزلها قَالَ للبوابة: 'اعلمي سيدتك بقدومي'. ثُمَّ دخل وهْوَ يرتل: 'إذا سرت في وادي ظَلَّ الموت لا أخاف شراً لِأَنَّكَ أنت معي' (مز 23: 4). ثُمَّ قَالَ لها: 'لماذا استهنت بِالسَيِّدِ المَسِيحِْ بهذا القرار وأتيتَ هَذَا الأَمْرِ الرديء؟'. فتأثرت من كلامه، أما هُوَ فبكى. فقَالَت له: 'لماذا تبكي؟'. فأجابها: 'لأني أعاين الشياطين تلهو عَلَى وجهك فلهذا أنا أبكي'. فقَالَت له: 'هل لي توبة؟'. فأجابِهَا القِدِّيْسْ: 'نعم ولَكِنَّ ليس في هَذَا المكان'. فقَالَت له: 'خذني إلى حَيْثُ تشاء'.", 
+  "وعِنْدَمَا سَمِعَ آباء بَرِّيَّةِ شِيهِيتْ بِذَلِكَ حزنوا عَلَيْهَا وأرسلوا إليها القِدّيسْ يحنس القصير لمساعدتها عَلَى خلاص نَفْسَهَا، وعِنْدَمَا وَصَلَ إلى منزلها قَالَ للبوابة: 'اعلمي سيدتك بقدومي'. ثُمَّ دخل وهْوَ يرتل: 'إذا سرت في وادي ظَلَّ الموت لا أخاف شراً لِأَنَّكَ أنت معي' (مز 23: 4). ثُمَّ قَالَ لها: 'لماذا استهنت بِالسَيِّدِ المَسِيحِْ بهذا القرار وأتيتَ هَذَا الأَمْرِ الرديء؟'. فتأثرت من كلامه، أما هُوَ فبكى. فقَالَت له: 'لماذا تبكي؟'. فأجابها: 'لأني أعاين الشياطين تلهو عَلَى وجهك فلهذا أنا أبكي'. فقَالَت له: 'هل لي توبة؟'. فأجابِهَا القِدِّيْسْ: 'نعم ولَكِنَّ ليس في هَذَا المكان'. فقَالَت له: 'خذني إلى حَيْثُ تشاء'.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -21969,7 +22249,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0312&C=Title", 
   "3 Messori\n1) Translation à Constantinople des reliques de saint Siméon le stylite ;\n2) Décès du pape Prime, le 5ème patriarche de la prédication de saint Marc ", 
-  " 3 مسرى\nنقل جَسَدِ القِدّيسْ سَمْعَانْ العمودي إلى مَدِينَةِ القسطنطينية\nنِيَاحَةْ القِدّيسْ البابا إبريموس البَطْرِيَرْكْ الخامس مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة\n", 
+  " 3 مسرى\nنقل جَسَدِ القِدّيسْ سَمْعَانْ العمودي إلى مَدِينَةِ القسطنطينية\nنِيَاحَةْ القِدّيسْ البابا إبريموس البَطْرِيَرْكْ الخامس مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -22011,7 +22291,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0412&C=Title", 
   "4 Messori\n1) Translation à Constantinople des reliques de saint Siméon le stylite ;\n2) Décès du pape Prime, le 5ème patriarche de la prédication de saint Marc", 
-  " 4 مسرى\nنِيَاحَةْ حزقيا المَلِكْ البار\nتَكّرْيسِ كِنِيسَةْ القِدّيسْ العَظِيمْ الأنبا أنطونيوس\n", 
+  " 4 مسرى\nنِيَاحَةْ حزقيا المَلِكْ البار\nتَكّرْيسِ كِنِيسَةْ القِدّيسْ العَظِيمْ الأنبا أنطونيوس", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -22062,8 +22342,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=0512&C=Title", 
-  "5 Messori\nDécès de saint Jean le soldat\n", 
-  " 5 مسرى\nنِيَاحَةْ القِدّيسْ يُوحَنَّا الجُندي\n", 
+  "5 Messori\nDécès de saint Jean le soldat", 
+  " 5 مسرى\nنِيَاحَةْ القِدّيسْ يُوحَنَّا الجُندي", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -22095,7 +22375,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Cette sainte est née à Césarée de Cappadoce (قيصرية القبادوق). Ses parents étaient des très riches chrétiens. Ayant hérité tous leurs biens elle en fût dépouillée par un escroc. Lorsqu’elle voulut les récupérer, il la dénonça devant le gouverneur de la ville comme étant chrétienne. Ce dernier l’arrêta et la questionna au sujet de sa Foi. Alors, elle confessa sa Foi en Jésus Christ. Le gouverneur la fit torturer puis il la condamna au bûcher ; elle rendit son âme entre les mains du Seigneur et elle reçut la couronne du martyre. Toutefois son corps demeura intact.", 
-  "وُلِدَت هَذِهِ القِدِّيسَةْ في قيصرية الكبادوك مِنْ أَبَوينِ مَسيحِيَّيْنْ غنيين جداً، فورثت عنهما أموالاً كثيرة، اغتصبِهَا مِنْهُا أحَدْ الظالمين. ولَمَّا أرادت أَنَّ تسترد أموالها مِنْهُ، سعى بِهَا عِنْدَ والي قيصرية الكبادوك أنها مسيحية. فقبض عَلَيْهَا وسألها عَن إيمانها. فَاعْتَرَفَتْ أَمَامَهُ بِالسَيِّدِ المَسِيحِ. وبَعْدَ أَنْ عذبِهَا كَثِيراً طرحها في النار، فأسلمت روحها بيد الرب، وبقى جسدها سالماً. ونَالَتْ إكْلْيلْ الشِهَادَةْ.", 
+  "وُلِدَت هَذِهِ القِدِّيسَةْ في قيصرية الكبادوك مِنْ أَبَوينِ مَسيحِيَّيْنْ غنيين جداً، فورثت عنهما أموالاً كثيرة، اغتصبِهَا مِنْهُا أحَدْ الظالمين. ولَمَّا أرادت أَنَّ تسترد أموالها مِنْهُ، سعى بِهَا عِنْدَ والي قيصرية الكبادوك أنها مسيحية. فقبض عَلَيْهَا وسألها عَن إيمانها. فَاعْتَرَفَتْ أَمَامَهُ بِالسَيِّدِ المَسِيحِ. وبَعْدَ أَنْ عذبِهَا كَثِيراً طرحها في النار، فأسلمت روحها بيد الرَبّ، وبقى جسدها سالماً. ونَالَتْ إكْلْيلْ الشِهَادَةْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -22180,7 +22460,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "A l’approche du décès d’abba Chénouda, le Christ apparut à celui-ci et lui recommanda de nommer Wissa comme son successeur. Alors il convoqua les anciens du monastère, les informa qu’il allait bientôt s’en aller vers le Seigneur et leur demanda d’obéir à abba Wissa qui sera dorénavant leur père spirituel et leur pasteur. Comme Wissa tentait de protester, et trouvait que cette charge était trop lourde pour lui, il lui dit que c’était le Christ qui l’avait choisi pour qu’il soit un père pour la communauté monastique et un maitre pour les moines. Il lui donna sa bénédiction et invoqua Dieu pour qu’Il le bénisse perpétuellement et qu’Il l’affermisse dans la paix divine. Puis il décéda en paix.", 
-  "وقبل نِياحَةْ القِدّيسْ الأنبا شنوده بقليل ظَهَرَ لَهُ الرَّبْ يَسْوعْ وأوصاه أَنَّ يعين ويصا تِلْمِيذَهُ خلفاً لَهُ في رياسة الدير، فاستدعى الأنبا شنوده المتقدمين مِنَ الرُهْبانْ وقَالَ لهم: 'أستودعكم الله يا أولادي الأحباء وهوذا أنا منطلق إلى الرب، فاسمعوا من أبيكم ويصا مِنَ اليَوْم فصاعداً، فَهْوَ الذي سَيَكُونُ لكم أبَّاً وراعياً'. وعِنْدَمَا حَاوَلَ الأنبا ويصا الاعتذار لثقل المسئولية قَالَ لَهُ الأنبا شنوده: 'إن السَّيْد المَسِيحْ هُوَ الذي أقامك وقدمك أبَّاً للشركة الرَهْبَانِيَّة ومعلماً للرهبان. الرَّبْ يديم بركته المُقَدَّسَةْ عليكم وعلى أماكنكم المُقَدَّسَةْ إلى الأبد. اثبت في سَلام الله سائر أَيَّامٍك يا بُنى'. ولَمَّا قَالَ هَذَا تَنَيَّحَ بِسَلامٍ.", 
+  "وقبل نِياحَةْ القِدّيسْ الأنبا شنوده بقليل ظَهَرَ لَهُ الرَّبْ يَسْوعْ وأوصاه أَنَّ يعين ويصا تِلْمِيذَهُ خلفاً لَهُ في رياسة الدير، فاستدعى الأنبا شنوده المتقدمين مِنَ الرُهْبانْ وقَالَ لهم: 'أستودعكم الله يا أولادي الأحباء وهوذا أنا منطلق إلى الرَبّ، فاسمعوا من أبيكم ويصا مِنَ اليَوْم فصاعداً، فَهْوَ الذي سَيَكُونُ لكم أبَّاً وراعياً'. وعِنْدَمَا حَاوَلَ الأنبا ويصا الاعتذار لثقل المسئولية قَالَ لَهُ الأنبا شنوده: 'إن السَّيْد المَسِيحْ هُوَ الذي أقامك وقدمك أبَّاً للشركة الرَهْبَانِيَّة ومعلماً للرهبان. الرَّبْ يديم بركته المُقَدَّسَةْ عليكم وعلى أماكنكم المُقَدَّسَةْ إلى الأبد. اثبت في سَلام الله سائر أَيَّامٍك يا بُنى'. ولَمَّا قَالَ هَذَا تَنَيَّحَ بِسَلامٍ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -22197,12 +22477,12 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0712&C=Title", 
   "7 Messori\n1) Annonce de la naissance de la sainte Vierge à saint Joachim ;\n2) Décès de saint Timothée II, 26ème Patriarche de la prédication de saint Marc ;\n3) Décès de saint Pasentaos, l’ermite, sur le mont el-Tod", 
-  " 7 مسرى\nبشارة المَلاك لِلقِدّْيسِ يواقيم بميلاد القِدِّيسَةْ العَذْرَاءْ مريم\nنِيَاحَةْ القِدّيسْ البابا تِيمُوثَاوُسْ الثاني البَطْرِيَرْكْ السادس والعشرين مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة\nنِيَاحَةْ القِدّيسْ بسنتاؤس الناسك بجبل الطود\n", 
+  " 7 مسرى\nبشارة المَلاك لِلقِدّْيسِ يواقيم بِمِيلادِ القِدِّيسَةْ العَذْرَاءْ مريم\nنِيَاحَةْ القِدّيسْ البابا تِيمُوثَاوُسْ الثاني البَطْرِيَرْكْ السادس والعشرين مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة\nنِيَاحَةْ القِدّيسْ بسنتاؤس الناسك بجبل الطود", 
   ],
   [
   Prefix.same+"&C=NoActor", 
   "Nous commémorons en ce jour l'envoi par Dieu de l'archange Gabriel (جبرائيل) auprès de saint Joachim (يواقيم) pour lui annoncer la naissance de la sainte vierge Marie, la mère de Dieu.", 
-  "في مِثْلِ هَذَا اليَومْ أَرْسَلَ الله مَلاكَه الجليل جبرائيل ليبشر القِدّيسْ يواقيم بميلاد البتول والدة الإله مَرْيَمْ.", 
+  "في مِثْلِ هَذَا اليَومْ أَرْسَلَ الله مَلاكَه الجليل جبرائيل ليبشر القِدّيسْ يواقيم بِمِيلادِ البتول والدة الإله مَرْيَمْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -22217,7 +22497,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de leurs prières soit avec nous. Amen !", 
-  "بركة صلواتهم فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة صلواتهم فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -22278,8 +22558,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=0812&C=Title", 
-  "8 Messori\nMartyre d’Eléazar, de son épouse Salomé et de leurs enfants\n", 
-  " 8 مسرى\nاسْتِشْهَادْ القِدِّيسْينْ أليعازر وزوجته سالومى وأولادهما\n", 
+  "8 Messori\nMartyre d’Eléazar, de son épouse Salomé et de leurs enfants", 
+  " 8 مسرى\nاسْتِشْهَادْ القِدِّيسْينْ أليعازر وزوجته سالومى وأولادهما", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -22306,7 +22586,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0912&C=Title", 
   "9 Messori\nMartyre de saint Ari, prêtre de Chetnouf ", 
-  " 9 مسرى\nاسْتِشْهَادْ القِدّيسْ آري الشطانوفي القس\n", 
+  " 9 مسرى\nاسْتِشْهَادْ القِدّيسْ آري الشطانوفي القس", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -22343,7 +22623,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1012&C=Title", 
   "10 Messori\n1) Martyre de saint Pikhebs ;\n2) Martyre de saint Matra", 
-  " 10 مسرى\nاسْتِشْهَادْ القِدّيسْ بيخبيس\nاسْتِشْهَادْ القِدّيسْ مطرا\n", 
+  " 10 مسرى\nاسْتِشْهَادْ القِدّيسْ بيخبيس\nاسْتِشْهَادْ القِدّيسْ مطرا", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -22385,7 +22665,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1112&C=Title", 
   "11 Messori\nDécès de saint Moïse évêque d’Oussim", 
-  " 11 مسرى\nنِيَاحَةْ القِدّيسْ مويسيس أُسْقُفْ أوسيم\n", 
+  " 11 مسرى\nنِيَاحَةْ القِدّيسْ مويسيس أُسْقُفْ أوسيم", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -22395,7 +22675,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Ce saint était pur et chaste. Il avait étudié la théologie et fût ordonné diacre. Puis il se rendit à Scété (شيهيت) où il devint moine sous la direction d’un saint homme au service de qui il demeura dix-huit ans. Il jeûnait et priait sans relâche dans la charité et l’humilité.", 
-  "عاش هَذَا القِدّيسْ بتولاً ودرس علوم الكَنيسَةْ ورُسِمَ شماساً. ثُمَّ مَضَى وتَرَّهَبَ في برية شيهيت عِنْدَ رَجُلٍ قِدِّيسْ قضى في خدمته ثماني عشرة سَنَةً، مداوماً عَلَى الصَلاةِ والصوم، متحلياً بالاتضاع والمحبة.", 
+  "عاش هَذَا القِدّيسْ بتولاً ودرس علوم الكَنيسَةْ ورُسِمَ شماساً. ثُمَّ مَضَى وتَرَّهَبَ في بَرِّيَّةِ شِيهِيتْ عِنْدَ رَجُلٍ قِدِّيسْ قضى في خدمته ثماني عشرة سَنَةً، مداوماً عَلَى الصَلاةِ والصوم، متحلياً بالاتضاع والمحبة.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -22422,7 +22702,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1212&C=Title", 
   "12 Messori\n1) Commémoration de l’archange Michel ;\n2) Intronisation de l’empereur Constantin ", 
-  " 12 مسرى\nتِذْكَارْ رئيس الملائكة الجليل ميخائيل\nتِذْكَارْ تملك الإمبراطور قسطنطين عَلَى عرش رُومَا\n", 
+  " 12 مسرى\nتِذْكَارْ رئيس الملائكة الجليل ميخائيل\nتِذْكَارْ تملك الإمبراطور قسطنطين عَلَى عرش رُومَا", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -22432,7 +22712,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que son intercession soit avec nous. Amen !", 
-  "شفاعته المُقَدَّسَةْ فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "شفاعته المُقَدَّسَةْ فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -22463,8 +22743,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=1312&C=Title", 
-  "13 Messori\nTransfiguration de nôtre Seigneur Jésus Christ sur le mont Thabor\n", 
-  " 13 مسرى\nعيد التجلي المجيد\n", 
+  "13 Messori\nTransfiguration de nôtre Seigneur Jésus Christ sur le mont Thabor", 
+  " 13 مسرى\nعيد التجلي المجيد", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -22505,8 +22785,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=1412&C=Title", 
-  "14 Messori\nCommémoration du grand miracle que Dieu a fait à l’époque du pape Théophile le 23ème patriarche\n", 
-  " 14 مسرى\nتِذْكَارْ الآية العظيمة التي صنعها الله في عَهْدِ البابا ثاؤفيلس البَطْرِيَرْكْ الثَالِثْ والعشرين\n", 
+  "14 Messori\nCommémoration du grand miracle que Dieu a fait à l’époque du pape Théophile le 23ème patriarche", 
+  " 14 مسرى\nتِذْكَارْ الآية العظيمة التي صنعها الله في عَهْدِ البابا ثاؤفيلس البَطْرِيَرْكْ الثَالِثْ والعشرين", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -22547,8 +22827,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=1512&C=Title", 
-  "15 Messori\nDécès de sainte Marina, la moniale\n", 
-  " 15 مسرى\nنِيَاحَةْ القِدِّيسَةْ مارينا الراهبة\nنِيَاحَةْ القِدّيسْ الأرشيدياكون حبيب جرجس \n", 
+  "15 Messori\nDécès de sainte Marina, la moniale", 
+  " 15 مسرى\nنِيَاحَةْ القِدِّيسَةْ مارينا الراهبة\nنِيَاحَةْ القِدّيسْ الأرشيدياكون حبيب جرجس ", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -22655,7 +22935,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1612&C=Title", 
   "16 Messori\n1) Proclamation de l’assomption du corps de la très sainte vierge Marie ;\n2) Décès du pape Matthieu IV le 102ème patriarche de la prédication de saint Marc", 
-  " 16 مسرى\nإعلان إصعاد جَسَدِ القِدِّيسَةْ الطَاهِرَةِ مَرْيَمْ إلى السماء\nنِيَاحَةْ القِدّيسْ البابا متاؤس الرابع البَطْرِيَرْكْ الثاني بَعْدَ المائة مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة\n", 
+  " 16 مسرى\nإعلان إصعاد جَسَدِ القِدِّيسَةْ الطَاهِرَةِ مَرْيَمْ إلى السماء\nنِيَاحَةْ القِدّيسْ البابا متاؤس الرابع البَطْرِيَرْكْ الثاني بَعْدَ المائة مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -22710,7 +22990,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que l’intercession de la très sainte Vierge Marie soit avec nous. Amen !", 
-  "شفاعة القِدِّيسَةْ الطَاهِرَةِ مَرْيَمْ فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "شفاعة القِدِّيسَةْ الطَاهِرَةِ مَرْيَمْ فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -22720,7 +23000,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Ce père naquit dans le village de Mir (مير)de parents chrétiens qui lui donnèrent une bonne éducation chrétienne et lui enseignèrent la théologie. Lorsqu’il grandit il s’enrôla au monastère d’al-Baramous (دير البرموس) à Scété où il eût une conduite irréprochable conforme aux traditions monastiques dans l’ascèse et la prière.", 
-  "وُلِدَ هَذَا الأبْ في بلدة مير (مير: قرية كبيرة تابعة لمركز القوصية مُحَافَظَة أسيوط) مِنْ أَبَوينِ مَسيحِيَّيْنْ تَقِيَّيْنِ فربياه تَرْبِيَةً مِسِيحِيَّةْ حَقِيقِيَّةْ وعلماه العِلُومِ الكَنَسِيَّة. ولَمَّا كَبُرَ مَضَى وتَرَّهَبَ في دير البرموس ببرية شيهيت وسَارَ سِيرَةِ رَهْبانِيَّةً فَاضِلَة بِالنُسْكِ والعبادة.", 
+  "وُلِدَ هَذَا الأبْ في بلدة مير (مير: قرية كبيرة تابعة لمركز القوصية مُحَافَظَة أسيوط) مِنْ أَبَوينِ مَسيحِيَّيْنْ تَقِيَّيْنِ فربياه تَرْبِيَةً مِسِيحِيَّةْ حَقِيقِيَّةْ وعلماه العِلُومِ الكَنَسِيَّة. ولَمَّا كَبُرَ مَضَى وتَرَّهَبَ في دير البرموس ببرية شِيهِيتْ وسَارَ سِيرَةِ رَهْبانِيَّةً فَاضِلَة بِالنُسْكِ والعبادة.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -22746,8 +23026,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=1712&C=Title", 
-  "17 Messori\nMartyre de saint Jacques, le soldat\n", 
-  " 17 مسرى\nاسْتِشْهَادْ القِدّيسْ يَعْقُوبْ الجُندي\n", 
+  "17 Messori\nMartyre de saint Jacques, le soldat", 
+  " 17 مسرى\nاسْتِشْهَادْ القِدّيسْ يَعْقُوبْ الجُندي", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -22757,7 +23037,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Ce saint naquit à Mengoug (منجوج) de parents chrétiens. Ceux-ci avaient eu trois filles avant la naissance de Jacques qu'ils firent entrer dans un couvent pour leur donner une bonne éducation et pour qu'elles grandissent dans la crainte de Dieu. Quand leur père voulut qu'elles rentrent à la maison, elles refusèrent et voulurent rester au couvent et offrirent leur vie au Christ. Les parents furent très attristés mais Dieu les consola en leur donnant un fils qui reçut une bonne éducation et une instruction parfaite.", 
-  "وُلِدَ هَذَا القِدّيسْ في قرية منجوج (منجوج: حَالِيَاً قرية بنفس اسْمَهَا في مركز المنشأة بِمُحَافَظَةِ سوهاج) مِنْ أَبَوينِ مَسِيحِيَّيْنِ، كَانَ الله قَدْ رزقهما بثلاث بنات، مضين إلى بَيْتِ للعذارى ليتعلمن. ولَمَّا قرر والدهن عودتهن لَمْ يوافقنه عَلَى العودة، بل بقين مواظبات عَلَى الصوم والصَلاةِ والنُسْكِ. فحزن الأبوان عَلَى فراقهن، ولَكِنَّ الله عزاهما بِأنَّ رزقهما بهذا القِدِّيْسْ، ففرحا بِهِ فرحاً عَظِيمَاً وعلماه وأدباه بِكُلِّ أدب وعلم.", 
+  "وُلِدَ هَذَا القِدّيسْ في قرية منجوج (منجوج: حَالِيَاً قرية بِنَفْسِ اسْمَهَا في مركز المنشأة بِمُحَافَظَةِ سوهاج) مِنْ أَبَوينِ مَسِيحِيَّيْنِ، كَانَ الله قَدْ رزقهما بثلاث بنات، مضين إلى بَيْتِ للعذارى ليتعلمن. ولَمَّا قرر والدهن عودتهن لَمْ يوافقنه عَلَى العودة، بل بقين مواظبات عَلَى الصوم والصَلاةِ والنُسْكِ. فحزن الأبوان عَلَى فراقهن، ولَكِنَّ الله عزاهما بِأنَّ رزقهما بهذا القِدِّيْسْ، ففرحا بِهِ فرحاً عَظِيمَاً وعلماه وأدباه بِكُلِّ أدب وعلم.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -22777,7 +23057,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Mais saint Jacques continua à subir des persécutions puis il fût mis dans un sac et jeté dans la mer mais l’ange du Seigneur le sauva. Le saint retourna devant le gouverneur pour témoigner sa Foi à nouveau.", 
-  "أما القِدّيسْ فبعد أَنَّ عذبوه وضعوه في كيس وطرحوه في الماء. فأنقذه مَلاك الرب، وعاد ووقف أمَامَ الوالي واعترف مرة أخرى بِالسَيِّدِ المَسِيحِ.", 
+  "أما القِدّيسْ فبعد أَنَّ عذبوه وضعوه في كيس وطرحوه في الماء. فأنقذه مَلاك الرَبّ، وعاد ووقف أمَامَ الوالي واعترف مرة أخرى بِالسَيِّدِ المَسِيحِ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -22794,7 +23074,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=1812&C=Title", 
   "18 Messori\n1) Décès de saint Alexandre, le patriarche de Constantinople ;\n2) Martyre de saint Eudamon d’Hermonthis", 
-  " 18 مسرى\nنِيَاحَةْ البابا ألكسندروس بطريرك القسطنطينية\nاسْتِشْهَادْ وادامون الأرمنتي\n", 
+  " 18 مسرى\nنِيَاحَةْ البابا ألكسندروس بطريرك القسطنطينية\nاسْتِشْهَادْ وادامون الأرمنتي", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -22860,13 +23140,13 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=1912&C=Title", 
-  "19 Messori\nRapatriement des reliques de saint Macaire à son monastère de Scété \n", 
-  " 19 مسرى\nإعادة جَسَدِ القِدّيسْ مكاريوس الكبير إلى دَيْرِهِ ببرية شيهيت\n", 
+  "19 Messori\nRapatriement des reliques de saint Macaire à son monastère de Scété ", 
+  " 19 مسرى\nإعادة جَسَدِ القِدّيسْ مكاريوس الكبير إلى دَيْرِهِ ببرية شِيهِيتْ", 
   ],
   [
   Prefix.same+"&C=NoActor", 
   "Nous commémorons aujourd'hui le rapatriement des reliques de saint Macaire le grand (القديس مقاريوس الكبير) dans son monastère de la vallée de Scété. Ceci eût lieu en ce jour de l’an 509 des martyrs (793 après Jésus Christ), à l’époque du pape Jean IV (يوأنس الرابع), le 84ème patriarche.", 
-  "في مِثْلِ هَذا اليَومْ مِنْ سَنَةْ 509 لِلْشُهَداءِ (793م)، وفى عَهْد البابا يوأنس الرابع البَطْرِيَرْكْ الثامن والأربعين، تَمَّ إعادة جَسَدِ القِدّيسْ مكاريوس الكبير إلى دَيْرِهِ ببرية شيهيت.", 
+  "في مِثْلِ هَذا اليَومْ مِنْ سَنَةْ 509 لِلْشُهَداءِ (793م)، وفى عَهْد البابا يوأنس الرابع البَطْرِيَرْكْ الثامن والأربعين، تَمَّ إعادة جَسَدِ القِدّيسْ مكاريوس الكبير إلى دَيْرِهِ ببرية شِيهِيتْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -22881,7 +23161,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Alors, saint Michel (القديس خائيل) l’higoumène de la vallée et saint Kyri (القديس كيري) le prêtre se rendirent à al-Maï accompagnés de vingt autres moines. Ils portèrent le corps du saint et embarquèrent jusqu’à Tarnout (ترنوط) où se trouve une église portant le nom de saint Macaire. Ils y célébrèrent la sainte liturgie Eucharistique puis installèrent le corps à dos de dromadaire et décidèrent de ne pas faire de pose avant d’arriver au lieu où le chérubin s’était adressé à saint Macaire. Ils reconnurent cet endroit car le dromadaire s’y est arrêté.", 
-  "فَمَضَى القِدّيسْ خائيل قمص شيهيت والقديس كيرى القِسّْ وعشرون راهباً إلى ألماي وحَمَلُوا الجَسَدْ الطَاهِر في مركب ومضوا بِهِ إلى ساحل ترنوط (ترنوط: هي حَالِيَاً قرية الطرانة مركز الخطاطبة بِمُحَافَظَةِ البحيرة) حَيْثُ كِنِيسَةْ القِدّيسْ مكاريوس. فصلوا فِيهَا القداس الإلهي، ثُمَّ وضعوا الجَسَدْ الطَاهِر فوق جمل وقَالَوا لا نستريح حَتَّى نصل إلى الموضع الذي خاطب فيه الشاروبيم القِدِّيْسْ. وقَدْ علموا بهذا الموضع بِسَبَبِ وقوف الجمل فيه.", 
+  "فَمَضَى القِدّيسْ خائيل قمص شِيهِيتْ والقديس كيرى القِسّْ وعشرون راهباً إلى ألماي وحَمَلُوا الجَسَدْ الطَاهِر في مركب ومضوا بِهِ إلى ساحل ترنوط (ترنوط: هي حَالِيَاً قرية الطرانة مركز الخطاطبة بِمُحَافَظَةِ البحيرة) حَيْثُ كِنِيسَةْ القِدّيسْ مكاريوس. فصلوا فِيهَا القداس الإلهي، ثُمَّ وضعوا الجَسَدْ الطَاهِر فوق جمل وقَالَوا لا نستريح حَتَّى نصل إلى الموضع الذي خاطب فيه الشاروبيم القِدِّيْسْ. وقَدْ علموا بهذا الموضع بِسَبَبِ وقوف الجمل فيه.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -22897,8 +23177,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=2012&C=Title", 
-  "20 Messori\nMartyre des 7 jeunes à Ephèse\n", 
-  " 20 مسرى\nاسْتِشْهَادْ الفتية السبعة الّذِينَ من أَفَسُسْ\n", 
+  "20 Messori\nMartyre des 7 jeunes à Ephèse", 
+  " 20 مسرى\nاسْتِشْهَادْ الفتية السبعة الّذِينَ من أَفَسُسْ", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -22925,7 +23205,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2112&C=Title", 
   "21 Messori\n1) Commémoration de la mère de Dieu, la sainte vierge Marie ;\n2) Décès de sainte Irène ", 
-  " 21 مسرى\nتِذْكَارْ القِدِّيسَةْ العَذْرَاءْ مَرْيَمْ والدة الإله\nنِيَاحَةْ القِدِّيسَةْ إيريني\n", 
+  " 21 مسرى\nتِذْكَارْ القِدِّيسَةْ العَذْرَاءْ مَرْيَمْ والدة الإله\nنِيَاحَةْ القِدِّيسَةْ إيريني", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -22935,7 +23215,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que son intercession soit avec nous. Amen !", 
-  "بركة شفاعتها فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة شفاعتها فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -22992,7 +23272,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2212&C=Title", 
   "22 Messori\n1) Décès du prophète Michée ;\n2) Décès de saint Augustin", 
-  " 22 مسرى\nنِيَاحَةْ ميخا النبي\nنِيَاحَةْ القِدّيسْ أوغسطينوس\n", 
+  " 22 مسرى\nنِيَاحَةْ ميخا النبي\nنِيَاحَةْ القِدّيسْ أوغسطينوس", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -23032,7 +23312,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction des prières de ce grand prophète soit avec nous. Amen !", 
-  "بَرَكِةْ صَلَوَاتْ هَذَا النبي العَظِيمْ فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بَرَكِةْ صَلَوَاتْ هَذَا النبي العَظِيمْ فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -23099,7 +23379,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2312&C=Title", 
   "23 Messori\n1) Martyre de trente mille chrétiens à Alexandrie ;\n2) Martyre de saint Damien à Antioche", 
-  " 23 مسرى\nاسْتِشْهَادْ ثلاثين ألف مسيحي بِمَدِينَةِ الإسْكَنْدَرِيَّةْ\nاسْتِشْهَادْ القِدّيسْ دميان بأنطاكية\n", 
+  " 23 مسرى\nاسْتِشْهَادْ ثلاثين ألف مسيحي بِمَدِينَةِ الإسْكَنْدَرِيَّةْ\nاسْتِشْهَادْ القِدّيسْ دميان بأنطاكية", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -23119,7 +23399,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de leurs prières soit avec nous. Amen !", 
-  "بركة صلواتهم فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة صلواتهم فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -23146,7 +23426,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2412&C=Title", 
   "24 Messori\n1) Décès de saint Thomas, évêque de Mar’ach ;\n2) Décès de saint Takla-Haymanot, l’éthiopien", 
-  " 24 مسرى\nنِيَاحَةْ القِدّيسْ توما أُسْقُفْ مرعش\nنِيَاحَةْ القِدّيسْ تكلاهيمانوت الحبشي\n", 
+  " 24 مسرى\nنِيَاحَةْ القِدّيسْ توما أُسْقُفْ مرعش\nنِيَاحَةْ القِدّيسْ تكلاهيمانوت الحبشي", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -23228,7 +23508,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2512&C=Title", 
   "25 Messori\n1) Décès de Saint Bessarion le grand ;\n2) Décès du pape Macaire III, le 114ème patriarche de la prédication de saint Marc ", 
-  " 25 مسرى\nنِيَاحَةْ القِدّيسْ بيساريون الكبير\nنِيَاحَةْ القِدّيسْ البابا مكاريوس الثَالِثْ البَطْرِيَرْكْ الرابع عَشَرْ بَعْدَ المائة مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة\n", 
+  " 25 مسرى\nنِيَاحَةْ القِدّيسْ بيساريون الكبير\nنِيَاحَةْ القِدّيسْ البابا مكاريوس الثَالِثْ البَطْرِيَرْكْ الرابع عَشَرْ بَعْدَ المائة مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -23320,7 +23600,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2612&C=Title", 
   "26 Messori\n1) Martyre de saint Moïse et sa sœur Sara ;\n2) Martyre de saint Agapius, le soldat, et sa sœur Thécla ", 
-  " 26 مسرى\nاسْتِشْهَادْ القِدّيسْ مويسيس والبارة سارة أخته\nاسْتِشْهَادْ القِدّيسْ أغابيوس الجندي والبارة تكلة أخته\n", 
+  " 26 مسرى\nاسْتِشْهَادْ القِدّيسْ مويسيس والبارة سارة أخته\nاسْتِشْهَادْ القِدّيسْ أغابيوس الجندي والبارة تكلة أخته", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -23330,7 +23610,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Après le décès de leurs parents, Moïse voulut marier sa sœur et lui laisser tout l’héritage avant de se rendre au monastère. Mais elle lui demanda de se marier en premier. Il lui répondit : \"J’ai commis beaucoup de péchés et je voudrais expier mes fautes en allant au monastère. Il m’est impossible de m’occuper à la fois d’un foyer et du salut de mon âme. » Elle lui rétorqua : \"Comment peux-tu vouloir me laisser dans ce monde et te préoccuper du salut de ton âme ? »", 
-  "وُلِدَ هذان القِدِّيْسْان مِنْ أَبَوينِ مَسيحِيَّيْنْ غنيين. وبَعْدَ وفاة والديهما أرَادَ القِدّيسْ مويسيس أَنَّ يزوج أخته ويسلمها جَمِيع مالها ويترَّهب. فأجابته: تزوج أنت أولاً وحينئذ أتزوج أنا أيضاً. فَقَالَ لها: 'أنا صنعت خطايا كَثِيرَة وقصدي أَنَّ أمحوها، ولا يمكن أَنَّ اهتم بالزيجة وبخلاص نفسي'. فأجابته: 'كيف تتركني في هَذَا العالم وتسعى أنت لخلاص نفسك؟'.", 
+  "وُلِدَ هذان القِدِّيْسْان مِنْ أَبَوينِ مَسيحِيَّيْنْ غنيين. وبَعْدَ وفاة والديهما أرَادَ القِدّيسْ مويسيس أَنَّ يزوج أخته ويسلمها جَمِيع مالها ويترَّهب. فأجابته: تَزَوَّجَ أنت أولاً وحينئذ أتزوج أنا أيضاً. فَقَالَ لها: 'أنا صنعت خطايا كَثِيرَة وقصدي أَنَّ أمحوها، ولا يمكن أَنَّ اهتم بالزيجة وبخلاص نفسي'. فأجابته: 'كيف تتركني في هَذَا العالم وتسعى أنت لخلاص نفسك؟'.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -23367,7 +23647,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=2712&C=Title", 
   "27 Messori\n1) Martyre de saint Benjamin et de sa sœur sainte Eudoxie ;\n2) Martyre de sainte Marie l'arménienne", 
-  " 27 مسرى\nاسْتِشْهَادْ القِدّيسْ بنيامين وأودكسية أخته\nاسْتِشْهَادْ القِدِّيسَةْ مَرْيَمْ الأرمنية\n", 
+  " 27 مسرى\nاسْتِشْهَادْ القِدّيسْ بنيامين وأودكسية أخته\nاسْتِشْهَادْ القِدِّيسَةْ مَرْيَمْ الأرمنية", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -23402,7 +23682,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de ses prières soit avec nous. Amen !", 
-  "بركة صلواتهما فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة صلواتهما فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -23428,8 +23708,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=2812&C=Title", 
-  "28 Messori\nCommémoration des patriarches Abraham, Isaac et Jacob\n", 
-  " 28 مسرى\nتِذْكَارْ الآبَاءِ القِدِّيسْينْ إبراهيم وإسحاق ويعقوب\n", 
+  "28 Messori\nCommémoration des patriarches Abraham, Isaac et Jacob", 
+  " 28 مسرى\nتِذْكَارْ الآبَاءِ القِدِّيسْينْ إبراهيم وإسحاق ويعقوب", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -23510,8 +23790,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=2912&C=Title", 
-  "29 Messori\n1) Commémoration de l’Annonciation, la Nativité et la Résurrection ;\n2) Martyre de saint Athanase, l’évêque ainsi que ses deux disciples;\n3) Translation des reliques de saint Jean Colobos au désert de Scété\n", 
-  " 29 مسرى\nتِذْكَارْ الأَعْيَادِ السيدية البشارة والميلاد والقيامة\nاسْتِشْهَادْ القِدّيسْ أثناسيوس الأُسْقُفْ وغلاميه\nوصول جَسَدِ القِدّيسْ يحنس القصير إلى برية شيهيت\n", 
+  "29 Messori\n1) Commémoration de l’Annonciation, la Nativité et la Résurrection ;\n2) Martyre de saint Athanase, l’évêque ainsi que ses deux disciples;\n3) Translation des reliques de saint Jean Colobos au désert de Scété", 
+  " 29 مسرى\nتِذْكَارْ الأَعْيَادِ السيدية البشارة والميلاد والقيامة\nاسْتِشْهَادْ القِدّيسْ أثناسيوس الأُسْقُفْ وغلاميه\nوصول جَسَدِ القِدّيسْ يحنس القصير إلى بَرِّيَّةِ شِيهِيتْ", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -23521,7 +23801,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de nôtre bon Sauveur soit avec nous. Amen !", 
-  "بركة مخلصنا الصالح فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة مخلصنا الصالح فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -23546,17 +23826,17 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que la bénédiction de leurs prières soit avec nous. Amen !", 
-  "بركة صلواتهم فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "بركة صلواتهم فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
   "En ce jour de l’an 520 des martyrs (804 après Jésus Christ) eût lieu la translation des reliques de saint Jean Colobos (abba Iwannyc pikoloboc – يحنس القصير) d’al-Qulzum (القلزم) pour les installer à Scété (برية شيهيت). Ceci eût lieu à l’époque du pape Jean IV (يوأنس الرابع), le 48ème patriarche.", 
-  "وفيه أيْضَاً مِنْ سَنَةْ 520 لِلْشُهَداءِ (804م)، تَمَّ نَقْلِ جَسَدِ القِدّيسْ العَظِيمْ يحنس القصير مِنَ القلزم إلى برية شيهيت، وذلك في عَهْدِ البابا يوأنس الرابع البَطْرِيَرْكْ (48).", 
+  "وفيه أيْضَاً مِنْ سَنَةْ 520 لِلْشُهَداءِ (804م)، تَمَّ نَقْلِ جَسَدِ القِدّيسْ العَظِيمْ يحنس القصير مِنَ القلزم إلى بَرِّيَّةِ شِيهِيتْ، وذلك في عَهْدِ البابا يوأنس الرابع البَطْرِيَرْكْ (48).", 
   ],
   [
   Prefix.same+"&C=NoActor", 
   "L’émir qui gouvernait al-Qulzum était un ami de l’évêque abba Michel (Khaïl أنبا خائيل). Par conséquent, des moines de Scété, revêtirent par-dessus leurs vêtements d’autre similaires à ceux des arabes, se rendirent à al-Qulzum et ramenèrent les reliques de saint Jean au monastère de saint Macaire le grand (دير الأنبا مكاريوس الكبير).", 
-  "حيث كَانَ قَدْ تولى عَلَى القلزم أمير كَانَ صديقاً للأنبا خائيل الأسقف، فذهب رهبان برية شيهيت وهم يلبسون ثياب العرب فوق ثيابهم ودخلوا إلى القلزم وأخذوا الجَسَدْ ليلاً ومضوا بِهِ إلى دَيْرٍ القِدّيسْ مكاريوس الكبير.", 
+  "حيث كَانَ قَدْ تولى عَلَى القلزم أمير كَانَ صديقاً للأنبا خائيل الأسقف، فذهب رهبان بَرِّيَّةِ شِيهِيتْ وهم يلبسون ثياب العرب فوق ثيابهم ودخلوا إلى القلزم وأخذوا الجَسَدْ ليلاً ومضوا بِهِ إلى دَيْرٍ القِدّيسْ مكاريوس الكبير.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -23577,8 +23857,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=3012&C=Title", 
-  "30 Messori\nDécès du prophète Malachie\n", 
-  " 30 مسرى\nنِيَاحَةْ ملاخي النبي\n", 
+  "30 Messori\nDécès du prophète Malachie", 
+  " 30 مسرى\nنِيَاحَةْ ملاخي النبي", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -23609,8 +23889,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=0113&C=Title", 
-  "1er jour du petit mois\n1) Décès de saint Eutyque ;\n2) Martyre de saint Pishaï d'Antioche, le frère de saint abba Hour \n", 
-  " 1 نسىي\nنِيَاحَةْ القِدّيسْ أفتيخوس\nاسْتِشْهَادْ القِدّيسْ بشاي أخي القِدّيسْ أباهور\n", 
+  "1er jour du petit mois\n1) Décès de saint Eutyque ;\n2) Martyre de saint Pishaï d'Antioche, le frère de saint abba Hour ", 
+  " 1 نسىي\nنِيَاحَةْ القِدّيسْ أفتيخوس\nاسْتِشْهَادْ القِدّيسْ بشاي أخي القِدّيسْ أباهور", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -23646,8 +23926,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=0213&C=Title", 
-  "2ème jour du petit mois\nDécès de Saint Tite, le disciple\n", 
-  " 2 نسي\nنِيَاحَةْ القِدّيسْ تيطس الرسول\n", 
+  "2ème jour du petit mois\nDécès de Saint Tite, le disciple", 
+  " 2 نسي\nنِيَاحَةْ القِدّيسْ تيطس الرسول", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -23679,7 +23959,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.synaxarium+"&D=0313&C=Title", 
   "3ème jour du petit mois\n1) Commémoration de l’archange Raphaël ;\n2) Martyre de saint Adrien et ses compagnons ;\n3) Décès du pape Jean XIV, le 96ème patriarche de la prédication de saint Marc ", 
-  " 3 نسي\nتِذْكَارْ رئيس الملائكة الجليل روفائيل\nاسْتِشْهَادْ القِدِّيسْينْ أندريانوس ومن معه\nنِيَاحَةْ القِدّيسْ البابا يوأنس الرابع عَشَرْ البَطْرِيَرْكْ السادس والتسعين مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة\n", 
+  " 3 نسي\nتِذْكَارْ رئيس الملائكة الجليل روفائيل\nاسْتِشْهَادْ القِدِّيسْينْ أندريانوس ومن معه\nنِيَاحَةْ القِدّيسْ البابا يوأنس الرابع عَشَرْ البَطْرِيَرْكْ السادس والتسعين مِنْ بَطارِكَةْ الكِرازَة المُرْقُسِيَّة", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -23694,7 +23974,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Que l’intercession de l’archange Raphaël soit avec nous. Amen !", 
-  "شفاعته المُقَدَّسَةْ فَلْتَكُنْ مَعْنَا. آمْينْ.", 
+  "شفاعته المُقَدَّسَةْ فَلْتَكُنْ مَعْنَا، آمْينْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -23724,7 +24004,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "Il se rendit une fois à Alexandrie. De retour, à al-Nahrawiya (النحراوية) il fût très fatigué et décéda en paix. Il fût enterré à l’église saint Georges à Perma (بيعة مار جرجس ببرما). Plus tard, sa dépouille fût transférée au monastère al-Souryân (دير السريان) à Scété. Ce pape demeura sur le siège patriarcal 15 ans, 4 mois et 19 jours.", 
-  "وفي إحدى المرات توجه إلى الإسْكَنْدَرِيَّة لافتقاد شَعْبَهُ وأَثْنَاءِ عودته أَحَسَّ بضعف شديد، فاتجه إلى بلدة النحراوية حَيْثُ تَنَيَّحَ بِسَلامٍ، ودُفِنَ في كِنِيسَةْ مِارِ جرجس بِمَدِينَةِ برما (برما: إحدى مدن مُحَافَظَة الغربية) بَعْدَ أَنَّ جلس عَلَى الكُرْسِي المرقسي خمس عشرة سَنَةْ وأربعة أشهر وتسعة عَشَرْ يوماً. وتَمَّ نَقْلِ جَسَدَهُ بَعْدَ ذَلِكْ إلى دَيْرٍ القِدِّيسَةْ العَذْرَاءْ مَرْيَمْ الشهير بالسريان ببرية شيهيت.", 
+  "وفي إحدى المرات توجه إلى الإسْكَنْدَرِيَّة لافتقاد شَعْبَهُ وأَثْنَاءِ عودته أَحَسَّ بضعف شديد، فاتجه إلى بلدة النحراوية حَيْثُ تَنَيَّحَ بِسَلامٍ، ودُفِنَ في كِنِيسَةْ مِارِ جرجس بِمَدِينَةِ برما (برما: إحدى مدن مُحَافَظَة الغربية) بَعْدَ أَنَّ جلس عَلَى الكُرْسِي المرقسي خمس عشرة سَنَةْ وأربعة أشهر وتسعة عَشَرْ يوماً. وتَمَّ نَقْلِ جَسَدَهُ بَعْدَ ذَلِكْ إلى دَيْرٍ القِدِّيسَةْ العَذْرَاءْ مَرْيَمْ الشهير بالسريان ببرية شِيهِيتْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -23735,13 +24015,13 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=0413&C=Title", 
-  "4ème jour du petit mois\nDécès d’Abba Pœmen, l’ermite\n", 
+  "4ème jour du petit mois\nDécès d’Abba Pœmen, l’ermite", 
   " 4 نسي\nنِيَاحَةْ القِدّيسْ بيمن المتوحد", 
   ],
   [
   Prefix.same+"&C=NoActor", 
   "En ce jour de l’an 176 des martyrs (460 après Jésus Christ) décéda saint Pœmen (أنبا بيمن), l’ermite. Ce saint naquit en 350 d’une famille pieuse et il avait six frères : Jean (يُوحَنَّا), Job (أيوب), Joseph (يوسف), Baïsôs (بائيسوس), Jacques (يعقوب), et Abraham (إبراهيم). En l’an 390 environ après Jésus Christ ils se mirent d’accord pour quitter le monde et mener une vie d’ermite à Scété en jeûnant, en priant et en se privant. Lorsque les berbères envahirent la vallée en 407, ces moines la quittèrent pour se réfugier à Térénuthin (Tarnout ترنوط)où ils demeurèrent dans un ancien temple païen (بربا للأوثان). Plus tard, ils revinrent à Scété. Lors de la seconde invasion des berbères en 434, il se rendit à Memphis (منف) puis revint à Scété. Lorsqu’eut lieu la troisième invasion en 444, il s’exila en haute Égypte pendant une longue durée puis revint à Scété lorsque la situation le permit.", 
-  "في مِثْلِ هَذا اليَومْ مِنْ سَنَةْ 176 لِلْشُهَداءِ (460م) تَنَيَّحَ القِدّيسْ الناسك الأنبا ييمن. وُلِدَ هَذَا القِدّيسْ سَنَةْ 350م من أسرة تقية، وكَانَ لَهُ ستة إخوة وهم يُوحَنَّا وأيوب ويوسف وبائيسوس ويعقوب وإبراهيم. تَرَكَ جميعهم العالم وانفردوا في برية شيهيت في صوم وصلاة وعبادة، وذلك نَحْوَ سَنَةْ 390م. ولَمَّا أغار البربر عَلَى البَرِّيَة سَنَةْ 407م، نزل القِدّيسْ مَعَ إخوته إلى ترنوط (ترنوط: هي قرية الطرانة مركز الخطاطبة مُحَافَظَة البحيرة حَالِيَاً) ومكثوا في بربا قديمة للأوثان، ثُمَّ رجعوا بعدها إلى برية شيهيت. ولَمَّا أغار البربر ثَانِيَة سَنَةْ 434م، نزل القِدّيسْ إلى منف ثُمَّ عَادَ إلى شيهيت. أما عِنْدَ وقوع الغارة الثالثة سَنَةْ 444م توجه إلى الصَعِيدِ حَيْثُ تغرب هُناَكَ فترة طويلة، إلى أَنَّ تهيأت الظروف وعاد أخيراً إلى شيهيت.", 
+  "في مِثْلِ هَذا اليَومْ مِنْ سَنَةْ 176 لِلْشُهَداءِ (460م) تَنَيَّحَ القِدّيسْ الناسك الأنبا ييمن. وُلِدَ هَذَا القِدّيسْ سَنَةْ 350م من أسرة تقية، وكَانَ لَهُ ستة إخوة وهم يُوحَنَّا وأيوب ويوسف وبائيسوس ويعقوب وإبراهيم. تَرَكَ جميعهم العالم وانفردوا في بَرِّيَّةِ شِيهِيتْ في صوم وصلاة وعبادة، وذلك نَحْوَ سَنَةْ 390م. ولَمَّا أغار البربر عَلَى البَرِّيَة سَنَةْ 407م، نزل القِدّيسْ مَعَ إخوته إلى ترنوط (ترنوط: هي قرية الطرانة مركز الخطاطبة مُحَافَظَة البحيرة حَالِيَاً) ومكثوا في بربا قديمة للأوثان، ثُمَّ رجعوا بعدها إلى بَرِّيَّةِ شِيهِيتْ. ولَمَّا أغار البربر ثَانِيَة سَنَةْ 434م، نزل القِدّيسْ إلى منف ثُمَّ عَادَ إلى شِيهِيتْ. أما عِنْدَ وقوع الغارة الثالثة سَنَةْ 444م توجه إلى الصَعِيدِ حَيْثُ تغرب هُناَكَ فترة طويلة، إلى أَنَّ تهيأت الظروف وعاد أخيراً إلى شِيهِيتْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -23808,7 +24088,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "En ce jour de l’an 804 des martyrs (1088 après Jésus Christ) décéda abba Jacques (Jacob – أنبا يعقوب), l’évêque du Caire (أسقف مصر).", 
-  "وفيه أيْضَاً مِنْ سَنَةْ 804 لِلْشُهَداءِ (1088م) تَنَيَّحَ الأنبا يَعْقُوبْ أُسْقُفْ مِصْرْ. اشتاق هَذَا القِدّيسْ منذ حداثته إلى حَيَاةِ الرَهْبَنَةْ فَمَضَى إلى برية القِدّيسْ مكاريوس وتَرَّهَبَ هُناَكَ ثُمَّ رسموه شماساً في دير الأنبا يحنس ونظراً لحسن سيرته وعظم فضله وتَقّْوَاهْ رسموه أُسْقُفَاً عَلَى مِصْرْ.", 
+  "وفيه أيْضَاً مِنْ سَنَةْ 804 لِلْشُهَداءِ (1088م) تَنَيَّحَ الأنبا يَعْقُوبْ أُسْقُفْ مِصْرْ. اشتاق هَذَا القِدّيسْ منذ حداثته إلى حَيَاةِ الرَهْبَنَةْ فَمَضَى إلى بَرِّيَّةِ القِدّيسْ مكاريوس وتَرَّهَبَ هُناَكَ ثُمَّ رسموه شماساً في دير الأنبا يحنس ونظراً لحسن سيرته وعظم فضله وتَقّْوَاهْ رسموه أُسْقُفَاً عَلَى مِصْرْ.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -23833,7 +24113,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "A son époque, il y eût une grande épidémie qui provoqua la mort de nombreuses personnes. Il visita la haute Égypte plusieurs fois. Sur le chemin du retour de sa dernière visite, il s’arrêta à Abnoub (ﺃبنوب) pour y passer la nuit. Il tomba malade et voulut poursuivre la route en bateau. Il décéda en chemin et ils l’emmenèrent à al Bayadiyya (ﺍﻟﺒﻴﺎضية) proche de Mallawi (ملوي) où furent célébrées ses funérailles. Il fût enterré au monastère d’abba Pichoï (دير الأنبا بيشوي) qui est situé à Deir-el-Bercha (دير البرشا).", 
-  "حدث في أيَّامِهِ وباء مات بسببه كثيرون. فافتقد أبناءه في الصَعِيدِ مرات عديدة. وفي أَثْنَاءَ عودته مِنَ الصَعِيدِ بَعْدَ زيارته الأخيرة زار أبنوب وبات ليلة هُناَكَ أَحَسَّ فِيهَا بمرض شديد فطلب قارباً ليسافر فتوجهوا بِهِ إلى البياضية بِالقُرْبِ من ملوى. وتنيح هُناَكَ وأقاموا لَهُ جنازة ودَفَنُوهُ في دير القِدّيسْ الأنبا بيشوي بِدِيرْ البرشا.", 
+  "حدث في أيَّامِهِ وباء مات بسببه كثيرون. فافتقد أبناءه في الصَعِيدِ مرات عديدة. وفي أَثْنَاءَ عودته مِنَ الصَعِيدِ بَعْدَ زيارته الأَخِيرَةِ زار أبنوب وبات ليلة هُناَكَ أَحَسَّ فِيهَا بمرض شديد فطلب قارباً ليسافر فتوجهوا بِهِ إلى البياضية بِالقُرْبِ من ملوى. وتنيح هُناَكَ وأقاموا لَهُ جنازة ودَفَنُوهُ في دير القِدّيسْ الأنبا بيشوي بِدِيرْ البرشا.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -23874,8 +24154,8 @@ ReadingsArrays.SynaxariumArrayFR= [[
   [
   [
   Prefix.synaxarium+"&D=0613&C=Title", 
-  "6ème jour du petit mois\nAction de Grâce\n", 
-  " 6 نسي\nاليوم السادس مِنَ الشهر الصغير المبارك شكر إلى الله\n", 
+  "6ème jour du petit mois\nAction de Grâce", 
+  " 6 نسي\nاليوم السادس مِنَ الشهر الصغير المبارك شكر إلى الله", 
   ],
   [
   Prefix.same+"&C=NoActor", 

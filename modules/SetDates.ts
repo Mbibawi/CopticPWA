@@ -198,7 +198,6 @@ function checkIfInASpecificSeason(today: Date): string {
   readingsDate = checkForUnfixedEvent(
     todayUTC, //this is a number reflecting the date of today at UTC 0 hour
     resurrection, //we get a number reflecting the resurrection date at UTC 0 hour
-    today.getDay() //we get the day of the week as a number starting from 0
   );
   return readingsDate;
 }
@@ -207,13 +206,11 @@ function checkIfInASpecificSeason(today: Date): string {
  * @param {number} today  - is a number of milliseconds equal to the date of today at UTC 0 hours
  *
  * @param {number} resDate  - is a number of milliseconds equal to date of Resurrection in current year at UTC 0 hours
- * @param {number} weekDay - is a number expressing which day of the week we are (e.g.: Sunday = 0)
  * @returns {string} - which is equal to the season: e.g.: "Resurrection", "GreatLent30", "Pentecoste20", etc.
  */
 function checkForUnfixedEvent(
   today: number,
   resDate: number,
-  weekDay: number
 ): string {
   let difference = Math.floor((resDate - today) / calendarDay); // we get the difference between the 2 dates in days
   //We initiate the Season to NoSeason
@@ -223,9 +220,7 @@ function checkForUnfixedEvent(
   (function ifResurrection() {
     if (difference < 0) return;
     if (difference > 1) return;
-    if (difference === 1 && todayDate.getHours() > 15) return;
-
-    //If we are Saturday (which means that difference = 1) and we are after 3 PM, we will retrieve the readings of the Resurrection because we use to celebrate the Resurrection Mass on Saturday evening not on Sunday itself
+    if (difference === 1 && todayDate.getHours() < 16) return; //If we are Saturday (which means that difference = 1) and we are after 4 PM, we will retrieve the readings of the Resurrection because we use to celebrate the Resurrection Mass on Saturday evening not on Sunday itself
     Season = Seasons.PentecostalDays; //we set teh Season value
     date = isItSundayOrWeekDay(Seasons.GreatLent, 58, weekDay);
   })();
@@ -234,7 +229,7 @@ function checkForUnfixedEvent(
     if (difference > 68) return;
     if (difference < 65) return;
 
-    //We are in the Jonah Fast days (3 days + 1)
+    //We are durings the Jonah Fast days (3 days + 1)
     //The Jonah feast starts 15 days before the begining of the Great Lent
 
     difference === 65
@@ -256,16 +251,24 @@ function checkForUnfixedEvent(
     if (difference < 1) return;//If <1 it means we are after the Great Lent Preiod (potentially during the Pentecostal days, or on the Resurrection day itself)
     if (difference > 55) return; //it means we are before the begining of the Great Lent
     //We are during the Great Lent period which counts 56 days from the Saturday preceding the 1st Sunday (which is the begining of the so called "preparation week") until the Resurrection day
-    if (copticDate === "1007")
+    if (copticDate === copticFeasts.Cross2)
+    {
       Season =
         Seasons.CrossFeast; //! CAUTION: This must come BEFORE Seasons.GreatLent because the cross feast is celebrated twice, one of which during the Great Lent (10 Bramhat). If we do not place this 'else if' condition before the Great Lent season, it will never be fulfilled during the Great Lent
-    else if (difference < 7 || (difference === 7 && todayDate.getHours() > 12))
+      return date = copticFeasts.Cross1; //!Caution: we must return here because otherwise, the function will continue and set the date to the GL prefixed date . 
+      //Notice that the readings are those of copticFeasts.Cross1 (i.e. 1701)
+    }
+    else if (difference > 9 && copticDate === copticFeasts.Annonciation)
+      //The Annonciation Feast is not celebrated if it falls between the "End of Great Lent Friday" (i.e. difference = 9) and Resurrection (i.e. difference = 0)  
+    {
+      Season = Seasons.NoSeason; //We set the Season to Seasons.NoSeason, in order to prevent the Great Lent prayers (eg.: Doxologies, Cymbal Verses, Nefsinty, etc.) to be displayed. We are on a Lord Feast day
+      return date = copticFeasts.Annonciation; //!Caution: we must return here because otherwise, the function will continue and set the date to the GL prefixed date  
+    }
+    else if (difference < 7)
       Season =
         Seasons.HolyWeek; //i.e., if we are between Monday and Friday of the Holy Week or if we are on Palm Sunday afternoon
     else Season = Seasons.GreatLent;
-
     date = isItSundayOrWeekDay(Seasons.GreatLent, 58 - difference, weekDay);
-
   })();
 
   (function ifPentecostalPeriod() {
@@ -318,7 +321,7 @@ function checkForUnfixedEvent(
     if (copticDate !== "3003") return;
     if (weekDay !== 0) return;
 
-    //If 30th of Hatour is a Sunday, it means that Kiahk will have only 3 Sundays before Kiahk 28th (i.e., on the 7th, 14th && 21th). We hence consider that 30th of Hatour is the 1st Sunday of Kiahk
+    //If the 30th of Hatour is a Sunday, it means that there will only be 3 Sundays in the month of Kiahk between the 1st and the 28th of Kiahk (The 3 Sundays will fall respectively on the 7th, 14th and 21th of Kiahk). We hence consider that 30th of Hatour is the 1st Sunday of Kiahk
     Season = Seasons.KiahkWeek1;
     date = checkWhichSundayWeAre(7, 0);
   })();
@@ -404,7 +407,6 @@ function checkForUnfixedEvent(
 
   })();
 
-
   (function ifBaptismeParamoun() {
     if (Number(copticMonth) !== 5) return;
     if (Number(copticDay) > 10) return;
@@ -441,7 +443,6 @@ function checkForUnfixedEvent(
     }
 
   })();
-
 
   return date
 };

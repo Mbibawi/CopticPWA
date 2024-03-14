@@ -385,7 +385,8 @@ const Seasons = {
 const copticFeasts = {
   AnyDay: "AnyDay",
   Nayrouz: "0101",
-  Cross: "1701",
+  Cross1: "1701",
+  Cross2: "1007",
   BeguiningNativityLent: "1603",
   NativityParamoun: "2804",
   Nativity: "2904",

@@ -6330,7 +6330,7 @@ PrayersArrayFR = [
       "",
       "Réponse du Psaume Fête de la Croix",
       "",
-      " مَرَدُ مَزْمُورِ عيد  الصليب",
+      " مَرَدُ مَزْمُورِ عيد الصليب",
     ],
     [
       Prefix.same + "&C=Diacon",
