@@ -858,7 +858,7 @@ function addNewRow(htmlParag: HTMLElement, isPlaceHolder: boolean = false, title
       isPlaceHolder ? p.lang = 'FR' : p.lang = child.lang;
       p.classList.add(p.lang.toUpperCase());
       p.contentEditable = "true";
-      p.addEventListener('keydown', (e:KeyboardEvent) => { e.preventDefault; paragraphsKeyShortcuts(e)})
+      p.addEventListener('keydown', (e: KeyboardEvent) => { e.preventDefault; paragraphsKeyShortcuts(e) })
     });
   let position: InsertPosition;
   below ? position = 'afterend' : position = 'beforebegin'
@@ -868,14 +868,14 @@ function addNewRow(htmlParag: HTMLElement, isPlaceHolder: boolean = false, title
 function paragraphsKeyShortcuts(e: KeyboardEvent) {
   if (!e.shiftKey) return;
   let p = e.target as HTMLElement
-  if (e.key === 'A') {e.preventDefault; addNewRow(p, false, undefined, true)};
-  if (e.key === 'B') {e.preventDefault; addNewRow(p, false, undefined, false)};
-  if (e.key === 'S') {e.preventDefault; saveModifiedArray({exportToFile:false, exportToStorage:true})};
-  if (e.key === 'E') {e.preventDefault; saveModifiedArray({exportToFile:true, exportToStorage:true})};
-  if (e.key === 'C') {e.preventDefault; convertCopticFontFromAPI(p)};
-  if (e.key === 'L') {e.preventDefault; deleteRow(p)};
-  if (e.key === 'P') {e.preventDefault; splitParagraphsToTheRowsBelow(p)};
-  if (e.key === 'F') {e.preventDefault; FixCopticText(p)};
+  if (e.key === 'A') { e.preventDefault; addNewRow(p, false, undefined, true) };
+  if (e.key === 'B') { e.preventDefault; addNewRow(p, false, undefined, false) };
+  if (e.key === 'S') { e.preventDefault; saveModifiedArray({ exportToFile: false, exportToStorage: true }) };
+  if (e.key === 'E') { e.preventDefault; saveModifiedArray({ exportToFile: true, exportToStorage: true }) };
+  if (e.key === 'C') { e.preventDefault; convertCopticFontFromAPI(p) };
+  if (e.key === 'L') { e.preventDefault; deleteRow(p) };
+  if (e.key === 'P') { e.preventDefault; splitParagraphsToTheRowsBelow(p) };
+  if (e.key === 'F') { e.preventDefault; FixCopticText(p) };
 
 }
 
@@ -1114,7 +1114,7 @@ function createHtmlElementForPrayerEditingMode(args: {
     p.lang = lang; //we are adding this in order to be able to retrieve all the paragraphs in a given language by its data attribute. We need to do this in order for example to amplify the font of a given language when the user double clicks
     p.innerText = text;
     p.contentEditable = "true";
-    p.addEventListener('keydown', (e: KeyboardEvent) => {e.preventDefault; paragraphsKeyShortcuts(e)})
+    p.addEventListener('keydown', (e: KeyboardEvent) => { e.preventDefault; paragraphsKeyShortcuts(e) })
     htmlRow.appendChild(p); //the row which is a <div></div>, will encapsulate a <p></p> element for each language in the 'prayer' array (i.e., it will have as many <p></p> elements as the number of elements in the 'prayer' array)
   }
   //@ts-ignore
@@ -1564,89 +1564,7 @@ function editDayReadings(date?: string) {
         });
     });
 }
-function showBtnInEditingMode(btn: Button) {
-  if (containerDiv.children.length > 0)
-    saveModifiedArray({ exportToFile: true, exportToStorage: true });
 
-  let container: HTMLElement | DocumentFragment = containerDiv;
-  if (btn.docFragment) container = btn.docFragment;
-  hideExpandableButtonsPannel();
-  expandableBtnsPannel.innerHTML = "";
-  containerDiv.style.gridTemplateColumns = "100%";
-  if (btn.onClick) btn.onClick();
-
-  if (btn.prayersSequence && btn.prayersArray && btn.languages)
-    showPrayersFromSequence();
-
-  closeSideBar(leftSideBar);
-
-  function showPrayersFromSequence() {
-    let array: string[][][];
-
-    btn.prayersSequence.forEach((title) => {
-      if (!title.includes("&D=")) return;
-      array = getTablesArrayFromTitlePrefix(title);
-      if (!array) return console.log("tablesArray is undefined");
-      showTables({
-        tablesArray: [findTable(title, array, { equal: true }) as string[][]],
-        languages: getLanguages(getArrayNameFromArray(array)),
-        position: container,
-        container: container,
-        clear: false,
-      });
-    });
-  }
-
-  if (btn.children && btn.children.length > 0) {
-    //We will not empty the left side bar unless the btn has children to be shown  in the side bar instead of the children of the btn's parent (btn being itself one of those children)
-    //!CAUTION, this must come after btn.onClick() is called because some buttons are not initiated with children, but their children are added  when their onClick()  is called
-    sideBarBtnsContainer.innerHTML = "";
-
-    btn.children.forEach((childBtn: Button) => {
-      //for each child button that will be created, we set btn as its parent in case we need to use this property on the button
-      if (btn.btnID != btnGoToPreviousMenu.btnID) childBtn.parentBtn = btn;
-      //We create the html element reprsenting the childBtn and append it to btnsDiv
-      createBtn({
-        btn: childBtn,
-        btnsContainer: sideBarBtnsContainer,
-        btnClass: childBtn.cssClass,
-      });
-    });
-  }
-
-  showTitlesInRightSideBar(
-    Array.from(
-      container.querySelectorAll(".Title, .SubTitle")
-    ) as HTMLDivElement[]
-  );
-
-  if (
-    btn.parentBtn &&
-    btn.btnID !== btnGoToPreviousMenu.btnID &&
-    !sideBarBtnsContainer.querySelector("#" + btnGoToPreviousMenu.btnID)
-  ) {
-    //i.e., if the button passed to showChildButtonsOrPrayers() has a parentBtn property and it is not itself a btnGoback (which we check by its btnID property), we wil create a goBack button and append it to the sideBar
-    //the goBack Button will only show the children of btn in the sideBar: it will not call showChildButonsOrPrayers() passing btn to it as a parameter. Instead, it will call a function that will show its children in the SideBar
-    createGoBackBtn(btn.parentBtn, sideBarBtnsContainer, btn.cssClass);
-    lastClickedButton = btn;
-  }
-  if (
-    btn.btnID !== btnMainMenu.btnID && //The button itself is not btnMain
-    btn.btnID !== btnGoToPreviousMenu.btnID && //The button itself is not btnGoBack
-    !sideBarBtnsContainer.querySelector("#" + "settings") &&
-    !sideBarBtnsContainer.querySelector("#" + btnMainMenu.btnID) //No btnMain is displayed in the sideBar
-  ) {
-    createBtn({
-      btn: btnMainMenu,
-      btnsContainer: sideBarBtnsContainer,
-      btnClass: btnMainMenu.cssClass,
-    });
-  }
-
-  if (btn.docFragment) containerDiv.appendChild(btn.docFragment);
-
-  if (btn.btnID === btnMainMenu.btnID) addSettingsButton();
-}
 
 function modifyAllSelectedText() {
   let paragraph = document.getSelection().focusNode.parentElement;
@@ -1721,7 +1639,7 @@ function convertAllCopticParagraphsFonts(fontFrom?: string) {
 function FixCopticText(parag: HTMLElement) {
   let htmlRow = getHtmlRow(parag);
   if (!htmlRow) return alert('We couldn\'t find the parent html row element');
-    let previous: HTMLElement | void,
+  let previous: HTMLElement | void,
     parags = parag.innerHTML.split('<br>');
   for (let i = 0; i < parags.length; i++) {
     previous = addNewRow(parag, false, parag.title, false);
@@ -1732,5 +1650,5 @@ function FixCopticText(parag: HTMLElement) {
       convertCopticFontFromAPI(previous.children[0] as HTMLParagraphElement, 'CS Avva Shenouda');
   }
   //parag.innerText = ""
-  
+
 }

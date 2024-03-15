@@ -311,22 +311,27 @@ async function showTitlesInRightSideBar(
 async function showChildButtonsOrPrayers(btn: Button, clear: boolean = true) {
   if (!btn) return;
 
-  if (containerDiv.dataset.editingMode) return showBtnInEditingMode(btn);
-
+  
   let container: HTMLElement | DocumentFragment = containerDiv;
   if (btn.docFragment) container = btn.docFragment;
-
+  
   hideExpandableButtonsPannel();
-
-  if (clear) {
+  
+  if (clear && !containerDiv.dataset.editingMode) {
+    //If we are in the "Editing Mode" We do not clear the containerDiv at this stage 
     expandableBtnsPannel.innerHTML = "";
     containerDiv.style.gridTemplateColumns = "100%";
   }
-
+  
   if (btn.onClick) btn.onClick();
-
+  
   (function processPrayersSequence() {
-    if (!btn.prayersSequence || !btn.languages || !btn.showPrayers) return;
+    if (!btn.prayersSequence || !btn.languages || !btn.showPrayers)
+      return showBtnsOnMainPage(btn);
+
+    if (containerDiv.dataset.editingMode)
+      return showPrayersInEditingMode();
+    
     showPrayers({
       prayersSequence: btn.prayersSequence,
       container: container,
@@ -335,6 +340,26 @@ async function showChildButtonsOrPrayers(btn: Button, clear: boolean = true) {
       clearRightSideBar: true,
       position: container,
     });
+
+    function showPrayersInEditingMode(){
+      if (!btn.prayersSequence) return;
+      if (containerDiv.children.length > 0)
+        saveModifiedArray({ exportToFile: true, exportToStorage: true });//We save what is shown in the containerDiv
+      let array: string[][][];
+      btn.prayersSequence
+        .forEach((title) => {
+        if (!title.includes("&D=")) return;
+          array = getTablesArrayFromTitlePrefix(title);
+          if (!array) return console.log("tablesArray is undefined");
+          showTables({
+            tablesArray: [findTable(title, array, { equal: true }) as string[][]],
+            languages: getLanguages(getArrayNameFromArray(array)),
+            position: container,
+            container: container,
+            clear: false,
+          });
+      });
+    };
   })();
 
   (async function processAfterShowPrayers() {
@@ -356,20 +381,16 @@ async function showChildButtonsOrPrayers(btn: Button, clear: boolean = true) {
     //!CAUTION, this must come after btn.onClick() is called because some buttons are not initiated with children, but their children are added on the fly when their onClick() method  is called
     if (!btn.children || btn.children.length < 1) return;
 
-    if (clear) {
-      //We will not empty the left side bar unless the btn has children to be shown  in the side bar instead of the children of the btn's parent (btn being itself one of those children)
-      sideBarBtnsContainer.innerHTML = "";
-    }
-
+    sideBarBtnsContainer.innerHTML = "";
+    
     btn.children
       .forEach((childBtn) => {
         //for each child button that will be created, we set btn as its parent in case we need to use this property on the button
         if (btn !== btnGoToPreviousMenu) childBtn.parentBtn = btn;
         //We create the html element reprsenting the childBtn and append it to btnsDiv
-        createBtn({
+        createHtmlBtn({
           btn: childBtn,
           btnsContainer: sideBarBtnsContainer,
-          btnClass: childBtn.cssClass,
         });
       });
 
@@ -381,7 +402,7 @@ async function showChildButtonsOrPrayers(btn: Button, clear: boolean = true) {
       .filter(div => isTitlesContainer(div))
   );
 
-  appendGoBackAndGoToMainButtons(btn);
+    appendGoBackAndGoToMainButtons(btn, sideBarBtnsContainer, btn.cssClass);
 
   if (btn.docFragment) containerDiv.appendChild(btn.docFragment);
 
@@ -390,15 +411,6 @@ async function showChildButtonsOrPrayers(btn: Button, clear: boolean = true) {
   if (localStorage.displayMode === displayModes[1])
     showSlidesInPresentationMode();
 
-  (function showMainMenuButtonsInContainerDiv() {
-    //If at the end no prayers are displayed in containerDiv, we will show the children of btnMain in containerDiv
-    if (btn === btnMainMenu) return;
-    if (!containerDiv.children || containerDiv.children.length < 1) return;
-    if (!containerDiv.children[0].classList.contains("mainPageBtns")) return;
-    btnMainMenu.onClick();
-
-  });
-
   (function moveSettingsButtonToTheButton() {
     //If settingsBtn is included in the menu (which means it is the main menu), we will move it to the buttom of the menu
     let settingsBtn: HTMLElement =
@@ -406,47 +418,121 @@ async function showChildButtonsOrPrayers(btn: Button, clear: boolean = true) {
     if (!settingsBtn) return;
     sideBarBtnsContainer.append(settingsBtn); //If the button is already there, we move it to the bottom of the list
   })();
+
+  function showBtnsOnMainPage(btn: Button) {
+    if (!btn.children || btn.children.length<1) return;
+    if (leftSideBar.classList.contains("extended")) return; //If the left side bar is not hidden, we do not show the buttons on the main page because it means that the user is using the buttons in the side bar and doesn't need to navigate using the btns in the main page
+    let parentHtmlBtn = containerDiv.querySelector(
+      "#" + btn.btnID
+    ) as HTMLElement; //This is the html element reflecting the btn passed as argument. 
+
+    containerDiv.innerHTML = "";
+
+    let btnsDiv: HTMLDivElement = createBtnsDiv();
+
+    let images: string[] = [
+      "url(./assets/btnMassBackground.jpg)",
+      "url(./assets/btnMassBackground.jpg)",
+      "url(./assets/btnMassBackground.jpg)",
+      "url(./assets/btnMassBackground.jpg)",
+      "url(./assets/btnMassBackground.jpg)",
+      "url(./assets/btnMassBackground.jpg)",
+      "url(./assets/btnIncenseBackground.jpg)",
+      "url(./assets/btnReadingsBackground.jpg)",
+      "url(./assets/btnBOHBackground.jpg)",
+      "url(./assets/btnBOHBackground.jpg)",
+    ];
+
+    let created: HTMLButtonElement, cssClass:string = "mainPageBtn";
+
+    //We create html elements representing each of btnMain children. The created buttons will be appended to containerDiv directly
+    btn.children
+    .map((childBtn) => {
+      if (btn !== btnGoToPreviousMenu) childBtn.parentBtn = btn;
+      if (!childBtn.backGroundImage && btn.backGroundImage) childBtn.backGroundImage = btn.backGroundImage;
+      if (!childBtn.backGroundImage) childBtn.backGroundImage = images[btn.children.indexOf(childBtn)];
+      
+      createMainPageButton(childBtn); //We create an HTML button 
+
+      });
+      
+    appendGoBackAndGoToMainButtons(btn, btnsDiv, cssClass);//We append the buttons then we add the background image for each button
+    
+    btnsDiv.style.gridTemplateColumns = setGridColumnsOrRowsNumber(btnsDiv, 3);//!Caution: this must come after the buttons have been appended to btnsDiv
+
+
+    function createMainPageButton(btn: Button)
+      : HTMLButtonElement {
+      if (!btnsDiv) btnsDiv = createBtnsDiv();
+      return createHtmlBtn({
+        btn: btn,
+        btnsContainer: btnsDiv,
+        btnClass: cssClass,
+        backGroundImage: btn.backGroundImage,
+        clear: false,
+      }) as HTMLButtonElement
+    }
+
+    function createBtnsDiv(): HTMLDivElement {
+      let div = document.createElement('div');
+      if (defaultLanguage === 'AR') div.dir = "rtl";
+      div.id = 'btnsMainPageDiv'
+      div.style.display = 'grid';
+      containerDiv.appendChild(div);
+      return div;
+    }
+
+  }
+
+  function appendGoBackAndGoToMainButtons(btn: Button, btnsContainer: HTMLDivElement, cssClass: string): HTMLElement[] {
+
+    let goBackHtml: HTMLElement, mainMenuHtml: HTMLElement;
+    
+    (function appendGoBackBtn() {
+      //This function inserts an html button that navigates the user to the previous menu from which he had been directed when clicking on the button
+      if (btn === btnGoToPreviousMenu) return; //If the btn is itself a GoBack btn, we will not insert it twice
+      if (btnsContainer.querySelector('#' + btnGoToPreviousMenu.btnID))
+        btnsContainer.querySelector('#' + btnGoToPreviousMenu.btnID).remove();//If the sideBar already contains a btnGoBack, we will replace it with a new button pointing to the right parent button in the buttons tree
+
+      if (!btn.parentBtn) return;
+      //Notice that the GoBack Button that we will insert, will only show the children of btn in the sideBar: it will not call showChildButonsOrPrayers() passing btn to it as a parameter. Instead, it will call a function that will show its children in the SideBar
+
+      if(btn.parentBtn === btnMainMenu) return; //If the parent btn is btnMainMenu, the goBackButton will bring us to the main menu any way, so no need for it
+      
+      let goBack = new Button({
+        btnID: btnGoToPreviousMenu.btnID,
+        label: btnGoToPreviousMenu.label,
+        cssClass: cssClass,
+        backGroundImage: btnsContainer === sideBarBtnsContainer?undefined: btnGoToPreviousMenu.backGroundImage, //We do not show the background image if the button is appended to the sideBar
+        onClick: () => showChildButtonsOrPrayers(btn.parentBtn, true),
+      });
+  
+      goBackHtml = createHtmlBtn({
+        btn: goBack,
+        btnsContainer: btnsContainer,
+        backGroundImage:  goBack.backGroundImage,
+      });
+    })();
+  
+    (function appendGoToMainMenuButton() {
+      //This function will insert a button by which the user will return back to the 'Main Menu' (i.e., the list of buttons displayed when the app starts)
+      if (!btn.parentBtn) return; //We will insert a "Go To Main Menu" button only if btn has a parent btn (if the btn has a parentBtn it means that btn is a children of another button and is not one of the 'Main Menu' list of buttons. The user may need to return directly to the main menu instead to going to the previous menu)
+
+      if ([btnMainMenu, btnGoToPreviousMenu].includes(btn)) return; //Obviously, we will not insert 'Go To Main Menu' Button if the btn is it self btnMain. We also do not insert 'Go To Main Menu' when the GoBack button is clicked because it will be inserted by the button that will passed to showChildButtonsOrPrayers() when called
+
+      if (btnsContainer.querySelector('#' + btnMainMenu.btnID)) btnsContainer.querySelector('#' + btnMainMenu.btnID).remove(); //If there is already a btnMainMenu in the btnsContainer, we will remove it
+  
+      mainMenuHtml = createHtmlBtn({
+        btn: btnMainMenu,
+        btnsContainer: btnsContainer,
+        btnClass: cssClass,
+        backGroundImage:  btnsContainer === sideBarBtnsContainer?undefined: btnMainMenu.backGroundImage,
+      });
+    })();
+    return [goBackHtml, mainMenuHtml]
+  };
 }
 
-async function appendGoBackAndGoToMainButtons(btn: Button) {
-  (function insertGoBackBtn() {
-    //This function inserts an html button that navigates the user to the previous menu from which he had been directed when clicking on the button
-    if (!btn.parentBtn) return;//If the btn doesn't have a parentBtn, we don't need to insert a GoBack btn.
-    if (btn === btnGoToPreviousMenu) return; //If the btn is itself a GoBack btn, we will not insert it twice
-    if (sideBarBtnsContainer.querySelector("#" + btnGoToPreviousMenu.btnID)) return; //If the rightSideBar already includes a GoBack button, we will not insert it again
-
-    //Notice that the GoBack Button that we will insert, will only show the children of btn in the sideBar: it will not call showChildButonsOrPrayers() passing btn to it as a parameter. Instead, it will call a function that will show its children in the SideBar
-
-    let goBack = new Button({
-      btnID: btnGoToPreviousMenu.btnID,
-      label: btnGoToPreviousMenu.label,
-      cssClass: btn.cssClass,
-      onClick: () => { showChildButtonsOrPrayers(btn.parentBtn), false },
-    });
-
-    createBtn({
-      btn: goBack,
-      btnsContainer: sideBarBtnsContainer,
-      btnClass: goBack.cssClass,
-    });
-  })();
-
-  (function insertGoToMainMenuButton() {
-    //This function will insert a button by which the user will return back to the 'Main Menu' (i.e., the list of buttons displayed when the app starts)
-    if (!btn.parentBtn) return; //We will insert a "Go To Main Menu" button only if btn has a parent btn (if the btn has a parentBtn it means that btn is a children of another button and is not one of the 'Main Menu' list of buttons. The user may need to return directly to the main menu instead to going to the previous menu)
-    if (btn === btnMainMenu) return; //Obviously, we will not insert 'Go To Main Menu' Button if the btn is it self btnMain
-    if (sideBarBtnsContainer.querySelector("#" + btnMainMenu.btnID)) return; //If the rightSideBar already includes a 'Go To Main Menu' html button we will not insert it again
-    if (btn === btnGoToPreviousMenu) return; //We do not insert 'Go To Main Menu' when the GoBack button is clicked
-
-    /*     if (sideBarBtnsContainer.querySelector("#" + btnGoToPreviousMenu.btnID)) return; //If the rightSideBar already includes a GoBack button, we do not insert a 'Go To Main Menu' button */
-
-    createBtn({
-      btn: btnMainMenu,
-      btnsContainer: sideBarBtnsContainer,
-      btnClass: btnMainMenu.cssClass,
-    });
-  })();
-};
 
 async function showSlidesInPresentationMode() {
   if (containerDiv.children[0].classList.contains("mainPageBtns")) return;
@@ -988,7 +1074,7 @@ async function createGoBackBtn(
       if (goTo.children)
         goTo.children
           .forEach((childBtn) => {
-            createBtn({
+            createHtmlBtn({
               btn: childBtn,
               btnsContainer: btnsDiv,
               btnClass: childBtn.cssClass,
@@ -1002,7 +1088,7 @@ async function createGoBackBtn(
       if (btnsDiv === sideBarBtnsContainer) addSettingsButton();
     },
   });
-  return createBtn({
+  return createHtmlBtn({
     btn: goBak,
     btnsContainer: btnsDiv,
     btnClass: goBak.cssClass,
@@ -1030,10 +1116,11 @@ function createFakeAnchor(id: string) {
  * @param {Function} onClick - this is the function that will be attached to the 'click' eventListner of the button, and will be called when it is clicked
  * @returns {HTMLElement} - the html element created for the button
  */
-function createBtn(args: {
+function createHtmlBtn(args: {
   btn: Button;
   btnsContainer: HTMLElement;
   btnClass?: string;
+  backGroundImage?: string;
   clear?: boolean;
   onClick?: Function;
 }): HTMLElement {
@@ -1044,9 +1131,12 @@ function createBtn(args: {
   if (!args.clear) args.clear = true;
 
   let newBtn: HTMLButtonElement = document.createElement("button");
+
   args.btnClass
     ? newBtn.classList.add(args.btnClass)
     : newBtn.classList.add(args.btn.cssClass);
+
+  if (args.backGroundImage) newBtn.style.backgroundImage = args.backGroundImage;
 
   newBtn.id = args.btn.btnID;
 
@@ -1569,8 +1659,8 @@ function toggleAmplifyText(target: HTMLElement, myClass: string) {
 function buildSideBar(id: string) {
   let sideBar: HTMLElement = document.createElement("div"),
     btnsDiv: HTMLElement = document.createElement("div"),
-  colseBtnDiv: HTMLElement = document.createElement("div"),
-  a: HTMLElement = document.createElement("a");
+    colseBtnDiv: HTMLElement = document.createElement("div"),
+    a: HTMLElement = document.createElement("a");
 
   sideBar.id = id;
   sideBar.classList.add(id);
@@ -2121,7 +2211,7 @@ async function showMultipleChoicePrayersButton(args: {
     });
 
     (function createMasterBtnHtml() {//Creating an html button element for prayersMasterBtn and displaying it in btnsDiv (which is an html element passed to the function)
-      createBtn({
+      createHtmlBtn({
         btn: btn,
         btnsContainer: args.masterBtnDiv,
         btnClass: btn.cssClass,
@@ -2166,7 +2256,7 @@ async function showMultipleChoicePrayersButton(args: {
       }
 
       if (!next.onClick) return; //If no onClick function was assigned to next, we do not create the next button
-      createBtn({
+      createHtmlBtn({
         btn: next,
         btnsContainer: expandableBtnsPannel,
         btnClass: next.cssClass,
@@ -2198,7 +2288,7 @@ async function showMultipleChoicePrayersButton(args: {
         childBtn = masterBtn.children[n];
         if (!foreingLanguage && !childBtn.label[defaultLanguage]) return;//If no foreign language has been set by the user, and the prayer is not availble in the defaultLanguage (we check this by seeing if there is a label in this language), we will not create the btn
         if (!childBtn.label[defaultLanguage] && !childBtn.label[foreingLanguage]) return; //Also if a foreign language has been set by the user, but the prayer is not availble in neither the defaultLanguage  nor the default language (we check this by seeing if there is a label in each language), we will not create the btn
-        createBtn({
+        createHtmlBtn({
           btn: childBtn,
           btnsContainer: btnsDiv,
           btnClass: childBtn.cssClass,
@@ -2383,7 +2473,7 @@ function showExpandableBtnsPannel(status: string, clear: boolean = false) {
   if (clear) expandableBtnsPannel.innerHTML = "";
 
 
-  status !== 'settingsPanel' ? expandableBtnsPannel.style.backgroundImage = "url(./assets/PageBackgroundCross.jpg)" : expandableBtnsPannel.style.backgroundColor = 'grey';
+  //status !== 'settingsPanel' ? expandableBtnsPannel.style.backgroundImage = "url(./assets/PageBackgroundCross.jpg)" : expandableBtnsPannel.style.backgroundColor = 'grey';
 
   expandableBtnsPannel.style.backgroundSize = "10%";
   expandableBtnsPannel.style.backgroundRepeat = "repeat";
@@ -2662,7 +2752,6 @@ function showSettingsPanel() {
         //If the array does not contain the language at any of its indexes, we add it at the index passed as argument
         userLanguages[index] = lang;
 
-
       defaultLanguage = userLanguages[0];
       foreingLanguage = userLanguages[1];
       copticLanguage = userLanguages[2];
@@ -2901,12 +2990,8 @@ function showSettingsPanel() {
   ) {
     let btnsContainer = document.createElement("div");
     btnsContainer.id = id;
-    btnsContainer.style.display = "grid";
-    //btnsContainer.classList.add('settingsBtnsContainer');
-    btnsContainer.style.columnGap = "5px";
-    btnsContainer.style.justifyItems = "center";
-    btnsContainer.style.height = "fit-content";
-    btnsContainer.style.width = "fit-content";
+    btnsContainer.classList.add('settingsBtnsContainer');
+
     expandableBtnsPannel.appendChild(btnsContainer);
     let labelsDiv = document.createElement("div");
     labelsDiv.classList.add("settingsLabel");
@@ -2914,14 +2999,6 @@ function showSettingsPanel() {
     let label = document.createElement("h3");
     label.innerText = labelText[defaultLanguage];
     labelsDiv.appendChild(label);
-
-    (function addForeignLanguage() {
-      return //Desactiviting it for the moment
-      if (!foreingLanguage) return;
-      let foreignLabel = document.createElement("h3");
-      foreignLabel.innerText = labelText[foreingLanguage];
-      labelsDiv.appendChild(foreignLabel);
-    })();
 
     return btnsContainer;
   }
@@ -3052,7 +3129,7 @@ async function insertRedirectionButtons(
   div.classList.add(inlineBtnsContainerClass);
   btns.map((btn) =>
     div.appendChild(
-      createBtn({ btn: btn, btnsContainer: div, btnClass: btn.cssClass })
+      createHtmlBtn({ btn: btn, btnsContainer: div, btnClass: btn.cssClass })
     )
   );
   position.el.insertAdjacentElement(position.beforeOrAfter, div);
@@ -3264,7 +3341,7 @@ function convertHtmlDivElementsIntoArrayTable(
     );
     let firstElement: string;
     if (table.length === 1)
-        firstElement = row.title; //If the row that we have pushed is the first element of the table (i.e., the first row of the table), its first element is the full title of the table
+      firstElement = row.title; //If the row that we have pushed is the first element of the table (i.e., the first row of the table), its first element is the full title of the table
     else if (row.dataset.isPlaceHolder)
       firstElement = Prefix.placeHolder;
     else if (row.dataset.isPrefixSame || [splitTitle(row.title)[0], splitTitle(row.dataset.root)[0]].includes(splitTitle(title)[0]))
@@ -11860,45 +11937,25 @@ async function createHtmlArray() {
 
 
   };
-}
-
   let GN = structuredClone(ReadingsArrays.GospelNightArrayFR);
   let newArray: string[][][] = [];
 
   newArray.push(...GN.filter(table => table[0][0].startsWith(Prefix.gospelNight)));
+}
 
-  [
-    ["GL7thSunday", "9HD", "11HD", "1HE", "3HE", "6HE", "9HE", "11HE"],
-    ["GL52", "1HD", "3HD", "6HD", "9HD", "11HD", "1HE", "3HE", "6HE", "9HE", "11HE"],
-    ["GL53", "1HD", "3HD", "6HD", "9HD", "11HD", "1HE", "3HE", "6HE", "9HE", "11HE"],
-    ["GL54", "1HD", "3HD", "6HD", "9HD", "11HD", "1HE", "3HE", "6HE", "9HE", "11HE"],
-    ["GL55", "1HD", "3HD", "6HD", "9HD", "11HD", "1HE", "3HE", "6HE", "9HE", "11HE"],
-  ].forEach(array => {
-    for (let i = 1; i < array.length; i++) {
-      newArray.push(...returnGroup(Prefix.HolyWeek, "&D=" + array[0], array[i]))
-    }
-  }
-  );
-  console.log(newArray)
-  saveOrExportArray(newArray, "ReadingsArrays.GospelNightArrayFR", true, false)
-
-  function returnGroup(prefix: string, date: string, service: string): string[][][] {
-    return GN.filter(table => table[0][0].startsWith(prefix + service))
-      .filter(table => table[0][0].includes(date))
-  };
 
 /**
  * Replaces the titles of each row with Prefix.same
  */
-  function prefixSame(Array:string[][][]){
-    Array.forEach(table => {
-          table.forEach(row => {
-                if (table.indexOf(row) === 0) return;
-                if (splitTitle(row[0])[0] === splitTitle(table[0][0])[0])
-                      table[table.indexOf(row)][0] = Prefix.same + '&C=' + splitTitle(row[0])[1];
-          })
-    }
-    );
-    console.log(Array)
+function prefixSame(Array: string[][][]) {
+  Array.forEach(table => {
+    table.forEach(row => {
+      if (table.indexOf(row) === 0) return;
+      if (splitTitle(row[0])[0] === splitTitle(table[0][0])[0])
+        table[table.indexOf(row)][0] = Prefix.same + '&C=' + splitTitle(row[0])[1];
+    })
+  }
+  );
+  console.log(Array)
 
 }

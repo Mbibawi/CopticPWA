@@ -17,6 +17,7 @@ type typeButton = {
   onClick?: Function; //a function that is called when the html element created for the button is clicked
   afterShowPrayers?: Function; //a function that will be called after the prayers of the button are processed and appended as html children of containerDiv
   cssClass?: string; //the CSS class that will be added to the html element created to display the button
+  backGroundImage?: string; //The link for the image that will be shown in the backGround of the Button
   showPrayers?: boolean; //Tells whether to show the button's prayers when it is clicked. We need it in some scenarios where the button.onClick() function calls showPrayers(), and we don't hence need showChildButtonsOrPrayers() to call it again
   pursue?: boolean; //this is a boolean that will tell the showchildButtonsOrPrayers() whether to continue after calling the onClick() property of the button
   docFragment?: DocumentFragment;
@@ -24,7 +25,7 @@ type typeButton = {
 };
 //CONSTANTS
 const version: string =
-  "v5.7.6 (Started correcting the Holy Week tables)";
+  "v5.7.7 (Changes to the creation of sideBar and Main Page Buttons)";
 const calendarDay: number = 24 * 60 * 60 * 1000; //this is a day in milliseconds
 const containerDiv: HTMLDivElement = document.getElementById(
   "containerDiv") as HTMLDivElement;
@@ -474,8 +475,6 @@ const copticLanguages = [['COP', 'Coptic'], ['CA', 'قبطي مُعَرَبْ'],
 const allLanguages: string[][] = [...nonCopticLanguages, ...copticLanguages];
 
 
-
-
 var defaultLanguage: string = setLanguage(0, 'your default', nonCopticLanguages) || 'AR';
 var foreingLanguage: string = setLanguage(1, 'a foreign', nonCopticLanguages);
 var copticLanguage: string = setLanguage(2, 'the characters in which you want the coptic text to be displayed', copticLanguages);
@@ -487,7 +486,8 @@ localStorage.userLanguages = JSON.stringify([defaultLanguage, foreingLanguage, c
 function setLanguage(index: number, text: string, languages: string[][]): string {
   let userLanguages: string[] = [];
 
-  if (localStorage.userLanguages) userLanguages = JSON.parse(localStorage.userLanguages) as string[];
+  if (localStorage.userLanguages)
+    userLanguages = JSON.parse(localStorage.userLanguages) as string[];
 
   if (userLanguages[index]) return userLanguages[index];//We return the value storaged in the localStorage if it is null. When it is null, it means that the user had willingly ignored setting the foreign language when he installed the app for the first time. We do this for any other language than the default language because it must be set.
 
