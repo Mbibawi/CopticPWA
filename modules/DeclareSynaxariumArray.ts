@@ -14015,6 +14015,48 @@ ReadingsArrays.SynaxariumArrayFR= [[
   ],
   ],
   [
+    [
+    Prefix.synaxarium+"&D=1907&C=Title", 
+    "19 Barmahat\n1) Décès de saint Aristobule, un des soixante-dix disciples ;\n2)  Martyre de saint Alexandre, saint Agapius et de leurs compagnons", 
+    "19 برمهات\nنِياحَةِ أرسطوبولس أحد السبعين رسولاً\nhستشهاد القديسين ألكسندروس وأغابيوس ومن مَعْهُمَا", 
+    ],
+    [
+    Prefix.same+"&C=NoActor", 
+    "Nous commémorons aujourd’hui le martyre de saint Aristobule (ارسطوبولس), l’un des soixante-dix disciples que le Seigneur a choisis pour les envoyer prêcher avant sa passion.", 
+    "في مِثْلِ هَذَا اليَومْ اسْتَشْهَدَ القِدّيسْ أرسطوبولس، أحَدْ السبعين رسولاً الّذِينَ انتخبهم الرَّبْ وأرسلهم للكرازة قبل آلامه.", 
+    ],
+    [
+    Prefix.same+"&C=NoActor", 
+    "Ce saint reçut les dons du Saint Esprit en même temps que les apôtres le jour de la pentecôte. Il proclama avec eux la Bonne Nouvelle vivifiante. Ainsi, il ramena un grand nombre sur le chemin du Salut ; ils crurent en Jésus Christ et il les baptisa et leur apprit les commandements divins.", 
+    "نَالَ مَعَ التلاميذ نِعْمَةِ الرُوحِ القُدُسْ في يوم الخمسين، وكَرَزَ مَعْهُمْ بالبشارة المحيية، ورد كَثِيرينْ إلى طَرِيقِ الخلاص، فآمنوا بِالسَيِّدِ المَسِيحِْ وعَمَّدَهُمْ وعَلَّمَهُمْ الوَصَايَا الإلهية.", 
+    ],
+    [
+    Prefix.same+"&C=NoActor", 
+    "Les apôtres l’établirent évêque au nord de la France (إحدى مقاطعات شمال فرنسا) où il se rendit. Il proclama l’Evangile parmi ses habitants, les enseigna et les baptisa puis leur appris les commandements de Dieu et les règles de l’Eglise. Il fit de nombreux miracles qui attirèrent un grand nombre à la Foi mais il subit beaucoup d’humiliations de la part des Juifs et des Grecs qui le lapidèrent et il reçut la couronne du martyre.", 
+    "أقامه التلاميذ أُسْقُفَاً عَلَى أبريطانياس، وهي إحدى مقاطعات شمال فرنسا، فبشر أهلها ووعظهم وعمدهم، وعَلَّمَهُمْ الوَصَايَا الإلهية والقوانين الكنسية. وقَدْ أجرى الله عَلَى أيْدِي هَذَا القِدّيسْ آيَاتٍ كثيرة، كَانَتْ سبباً في إيمان الكثيرين، فلحقت بِهِ إهانات شَدِيدَةْ مِنَ اليهود واليونانيين، ورجموه بالحجارة فنَالَ إكْلْيلْ الشِهَادَة.", 
+    ],
+    [
+    Prefix.same+"&C=NoActor", 
+    "Que la bénédiction de ses prières soit avec nous. Amen !", 
+    "بَرَكِةْ صَلَوَاتُهُ فَلْتَكُنْ مَعْنَا، آمْينْ.", 
+    ],
+    [
+    Prefix.same+"&C=NoActor", 
+    "Nous commémorons aussi en ce jour le martyre de sept saints en l’an 21 des martyrs (305 après Jésus Christ):\n- Quatre saints égyptiens : Saint Alexandre (الكسندروس), Saint Romulus (روميلوس) et Saint Plesius (بليسوس) et saint Mélèce (مليس);\n- Saint Agapius (أغابيوس) de Gaza;\n- Saint Timolaus (تيمولاؤس) du Pont (البنطس);\n- Saint Denys (ديوناسيوس) de Tripoli.", 
+    "وفيه أيْضَاً مِنْ سَنَةْ 21 لِلْشُهَداءِ (305م)، اسْتَشْهَدَ القِدِّيْسْون ألكسندروس وروميلوس وبليسوس ومليس المصريون، وأغابيوس من غزة، وتيموثاؤس مِنَ البنطس، وديوناسيوس من طرابلس.", 
+    ],
+    [
+    Prefix.same+"&C=NoActor", 
+    "Ces saints étaient liés d’une profonde amitié chrétienne et ils se rendirent à Césarée de Palestine et se présentèrent devant le gouverneur en confessant leur Foi en Jésus Christ. Celui-ci tenta de les amadouer pour qu’ils renient leur Foi. Comme il n’atteignait pas son but, il les fit torturer cruellement et ils obtinrent la couronne du martyre.", 
+    "ارتبط هؤلاء السبعة القِدِّيْسْون بالمحبة المسيحية، ومضوا إلى والي قيصرية فلسطين واعترفوا أَمَامَهُ بِالسَيِّدِ المَسِيحِ. فلاطفهم محاولاً إقناعهم بترك إيمانهم، ولَمَّا لَمْ يفلح أَمَرَ بتعذيبهم بعذابات شَدِيدَةْ فنالوا إكليل الشِهَادَة.", 
+    ],
+    [
+    Prefix.same+"&C=NoActor", 
+    "Que la bénédiction de leurs prières soit avec nous et gloire soit à notre Seigneur, éternellement. Amen !", 
+    "بركة صلواتهم فَلْتَكُنْ مَعْنَا، ولِرَبِنَا المَجْدِ دَائِمَاً أبَدِيَّاً آمين.", 
+    ],
+    ],
+  [
   [
   Prefix.synaxarium+"&D=2007&C=Title", 
   "20 Barmahat\n1) Décès du pape Michel (Khaïl) III ;\n2) Commémoration de la résurrection de Lazare, l’ami de nôtre Seigneur", 

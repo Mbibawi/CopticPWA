@@ -244,7 +244,8 @@ function checkForUnfixedEvent(
 
   (function ifGreatLentPreparation() {
     if (![57, 56].includes(difference)) return; //the 57th and the 56th days before Resurrection correspond to the Saturday and the Sunday preceding the first day of the Great Lent (which is a Monday = Resurrection - 55 days). The readings of those 2 days are linked to the Great Lent Season.
-    date = Seasons.GreatLent + (58 - difference).toString();
+    
+    date = isItSundayOrWeekDay(Seasons.GreatLent, 58 - difference, 0);
   })();
 
   (function ifGreatLent() {
@@ -272,7 +273,7 @@ function checkForUnfixedEvent(
   })();
 
   (function ifPentecostalPeriod() {
-    if (difference > 0) return;
+    if (difference >= 0) return;
     if (Math.abs(difference) > 49) return;
     // we are during the 50 Pentecostal days
     Season = Seasons.PentecostalDays;
@@ -458,13 +459,9 @@ function isItSundayOrWeekDay(
   days: number,
   weekDay: number
 ): string {
-  if (weekDay === 0) {
-    //we are a Sunday
-    return period + checkWhichSundayWeAre(days, weekDay);
-  } else {
-    // we are not a sunday
-    return period + days.toString();
-  }
+  if (weekDay === 0)
+    return period + checkWhichSundayWeAre(days, weekDay);  //we are a Sunday
+  else   return period + days.toString(); // we are not a sunday
 }
 /**
  * Shows the dates (Gregorian, coptic, coptic readings etc.), in an html element in the Temporary Dev Area
@@ -665,73 +662,6 @@ function checkIfDateIsToday(date: Date): boolean {
   return false;
 }
 
-function testReadings() {
-  addConsoleSaveMethod(console);
-  let btns: Button[] = [
-    ...btnDayReadings.children,
-    btnReadingsGospelNight,
-    btnReadingsPropheciesDawn,
-  ];
-  let query: string,
-    result: string = "";
-  setCopticDates(new Date("2022.12.31"));
-
-  for (let i = 1; i < 367; i++) {
-    changeDate(undefined, true, undefined, false);
-    result += "copticDate = " + copticDate + "\n";
-    result += "copticReadingsDate = " + copticReadingsDate + "\n";
-    if (weekDay === 0) result += "it is a Sunday \n";
-
-    btns.forEach((btn) => {
-      if (
-        !(Season === Seasons.GreatLent || Season === Seasons.JonahFast) &&
-        (btn === btnReadingsGospelNight || btn === btnReadingsPropheciesDawn)
-      )
-        return;
-      if (
-        (Season === Seasons.GreatLent || Season === Seasons.JonahFast) &&
-        (weekDay === 0 || weekDay === 6) &&
-        btn === btnReadingsPropheciesDawn
-      )
-        return; //During the Great Lent and Jonah Fast, only the week-days have Prophecies Readings in the Incense Dawn office
-      if (
-        Season === Seasons.GreatLent &&
-        weekDay !== 0 &&
-        (btn === btnReadingsGospelIncenseVespers ||
-          btn === btnReadingsGospelNight)
-      )
-        return; //During the Great Lent, only Sunday has Vespers (on Saturday afternoon), and Gospel Night (on Sunday afternoon)
-      if (
-        Season === Seasons.GreatLent &&
-        weekDay === 0 &&
-        btn === btnReadingsGospelIncenseVespers &&
-        copticReadingsDate === "GL9thSunday"
-      )
-        return; //no vespers for the Resurrection Sunday
-      if (
-        Season === Seasons.JonahFast &&
-        weekDay !== 1 &&
-        btn === btnReadingsGospelIncenseVespers
-      )
-        return; //During the Jonah Fast, only Monday has Vespers prayers
-      if (Season === Seasons.HolyWeek) return; //No readings during the holy week
-      if (btn.prayersArray && btn.prayersSequence) {
-        query = btn.prayersSequence[0] + "&D=" + copticReadingsDate + "&C=";
-        let reading: string[][][] = btn.prayersArray.filter((tbl) =>
-          tbl[0][0].startsWith(query)
-        );
-
-        if (reading.length < 1)
-          result += "\tmissing: " + btn.label.FR + "\nquery= " + query + "\n";
-        if (reading.length > 1) result += "\textra table: " + query;
-      }
-    });
-  }
-  //@ts-ignore
-  console.save(result, "testReadings Result.doc");
-
-  changeDate(new Date());
-}
 function testDateFunction(date: Date = new Date("2020.12.31")) {
   addConsoleSaveMethod(console);
 

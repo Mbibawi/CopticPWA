@@ -91,7 +91,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 [
   [
     Prefix.gospelMass + "Gospel&D=011stSunday&C=Title",
-    " لوقا ( 7 : 28 ـ 35 )",
+    " لوقا ( 7 : 28-35 )",
     "Luc 7:28-35",
     "",
   ],
@@ -163,7 +163,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 [
   [
     Prefix.gospelMass + "Gospel&D=013rdSunday&C=Title",
-    " لوقا ( 19 : 1 ـ 10 )",
+    " لوقا ( 19 : 1-10 )",
     "Luc 19:1-10",
     "Luke 19:1-10",
   ],
@@ -215,9 +215,9 @@ ReadingsArrays.GospelMassArrayFR = [[
 [
   [
     Prefix.gospelMass + "Gospel&D=014thSunday&C=Title",
-    " لوقا ( 7 : 36 ـ 50 )",
-    "Luc 7:36-50",
-    "Luke 7:36-50",
+    "لوقا (7: 36-50)",
+    "Luc (7: 36-50)",
+    "Luke (7: 36-50)",
   ],
   [
     Prefix.same + "&C=NoActor",
@@ -347,7 +347,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 [
   [
     Prefix.gospelMass + "Gospel&D=0201&C=Title",
-    " مرقس ( 6 : 14 ـ 29 )",
+    " مرقس ( 6 : 14-29 )",
     "Marc 6:14-29",
     "Mark 6:14-29",
   ],
@@ -1427,7 +1427,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 [
   [
     Prefix.gospelMass + "Gospel&D=031stSunday&C=Title",
-    " لوقا ( 8 : 4 ـ 15 )",
+    " لوقا ( 8 : 4-15 )",
     "Luke 8:4-15",
     "Luc 8:4-15",
   ],
@@ -1549,7 +1549,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 [
   [
     Prefix.gospelMass + "Gospel&D=034thSunday&C=Title",
-    " مرقس ( 10 : 17 ـ 31 )",
+    " مرقس ( 10 : 17-31 )",
     "Mark 10:17-31",
     "Marc 10:17-31",
   ],
@@ -2311,7 +2311,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 [
   [
     Prefix.gospelMass + "Gospel&D=041stSunday&C=Title",
-    " لوقا ( 1 : 1 ـ 25 )",
+    " لوقا ( 1 : 1-25 )",
     "Luke 1:1-25",
     "Luc 1:1-25",
   ],
@@ -2384,10 +2384,10 @@ ReadingsArrays.GospelMassArrayFR = [[
 ],
 [
   [
-    Prefix.gospelMass + "Psalm&D=042ndSunday&C=Title",
-    " مزمور(45:10-11)",
-    "Psalms 45:10-11",
-    "Psaumes 45:10-11",
+    Prefix.gospelMass + "Psalm&D=042ndSunday||2907&C=Title",
+    " مزمور(44: 10-11)",
+    "Psalms (44: 10-11)",
+    "Psaumes (44: 10-11)",
   ],
   [
     Prefix.same + "&C=NoActor",
@@ -2398,10 +2398,10 @@ ReadingsArrays.GospelMassArrayFR = [[
 ],
 [
   [
-    Prefix.gospelMass + "Gospel&D=042ndSunday&C=Title",
-    " لوقا ( 1: 26 ـ 38 )",
-    "Luke 1:26-38",
-    "Luc 1:26-38",
+    Prefix.gospelMass + "Gospel&D=042ndSunday||2907&C=Title",
+    " لوقا (1: 26-38)",
+    "Luke (1: 26-38)",
+    "Luc (1: 26-38)",
   ],
   [
     Prefix.same + "&C=NoActor",
@@ -2463,7 +2463,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 [
   [
     Prefix.gospelMass + "Gospel&D=043rdSunday&C=Title",
-    " لوقا ( 1 : 39 ـ 56 )",
+    " لوقا ( 1 : 39-56 )",
     "Luke 1:39-56",
     "Luc 1:39-56",
   ],
@@ -2533,7 +2533,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 [
   [
     Prefix.gospelMass + "Gospel&D=044thSunday&C=Title",
-    " لوقا ( 1 : 57 ـ 80 )",
+    " لوقا ( 1 : 57-80 )",
     "Luke 1:57-80",
     "Luc 1:57-80",
   ],
@@ -3205,7 +3205,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 [
   [
     Prefix.gospelMass + "Gospel&D=051stSunday&C=Title",
-    " متى ( 2 : 13 ـ 23 )",
+    " متى ( 2 : 13-23 )",
     "Matthew 2:13-23",
     "Matthieu 2:13-23",
   ],
@@ -3279,7 +3279,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 [
   [
     Prefix.gospelMass + "Gospel&D=052ndSunday&C=Title",
-    " لوقا ( 11: 27 ـ 36 )",
+    " لوقا ( 11: 27-36 )",
     "Luke 11:27-36",
     "Luc 11:27-36",
   ],
@@ -3349,7 +3349,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 [
   [
     Prefix.gospelMass + "Gospel&D=053rdSunday&C=Title",
-    " يوحنا ( 3 : 22 ـ 36 )",
+    " يوحنا ( 3 : 22-36 )",
     "John 3:22-36",
     "Jean 3:22-36",
   ],
@@ -3413,7 +3413,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 [
   [
     Prefix.gospelMass + "Gospel&D=054thSunday&C=Title",
-    " يوحنا ( 9: 1 ـ 38 )",
+    " يوحنا ( 9: 1-38 )",
     "John 9:1-38",
     "Jean 9:1-38",
   ],
@@ -3437,7 +3437,7 @@ ReadingsArrays.GospelMassArrayFR = [[
   ],
   [
     Prefix.same + "&C=NoActor",
-    "وتفلَ على الأرضِ وصنع طيناً وطلَى بهِ عيني المولود أعمَى.وقال لهُ: ' امضِ واغسل وجهكَ في بِركةِ سلوامَ ' ـ الذي تفسيره مُرسَلٌ ـ فمضَى وغسلَ وجهَهُ وأتَى بصيراً.",
+    "وتفلَ على الأرضِ وصنع طيناً وطلَى بهِ عيني المولود أعمَى.وقال لهُ: ' امضِ واغسل وجهكَ في بِركةِ سلوامَ '-الذي تفسيره مُرسَلٌ-فمضَى وغسلَ وجهَهُ وأتَى بصيراً.",
     "He spat on the ground and made clay with the saliva; and He anointed the eyes of the blind man with the clay. 7 And He said to him, Go, wash in the pool of Siloam (which is translated, Sent). So he went and washed, and came back seeing.",
     "il cracha par terre et fit de la boue avec sa salive. Puis il appliqua cette boue sur les yeux de l’aveugle",
   ],
@@ -4137,7 +4137,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 [
   [
     Prefix.gospelMass + "Gospel&D=0206&C=Title",
-    " مرقس ( 9 : 33 ـ 41 )",
+    " مرقس ( 9 : 33-41 )",
     "Marc 9 : 33 - 41",
     "Mark 9:33-41",
   ],
@@ -4189,7 +4189,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 [
   [
     Prefix.gospelMass + "Gospel&D=061stSunday&C=Title",
-    " يوحنا ( 6 : 22 ـ 27 )",
+    " يوحنا ( 6 : 22-27 )",
     "Jean 6:22-27",
     "John 6:22-27",
   ],
@@ -4645,7 +4645,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 [
   [
     Prefix.gospelMass + "Gospel&D=3008&C=Title",
-    " مرقس ( 1 : 1 ـ 11 ) ",
+    " مرقس ( 1 : 1-11 ) ",
     "Marc 1 : 1 - 11",
     "Mark 1:1-11",
   ],
@@ -4685,7 +4685,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 [
   [
     Prefix.gospelMass + "Gospel&D=093rdSunday&C=Title",
-    " لوقا ( 11 : 1 ـ 13 )",
+    " لوقا ( 11 : 1-13 )",
     "Luke 11:1-13",
     "Luc 11:1-13",
   ],
@@ -4749,7 +4749,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 [
   [
     Prefix.gospelMass + "Gospel&D=094thSunday&C=Title",
-    " لوقا ( 5: 17 ـ 26 )",
+    " لوقا ( 5: 17-26 )",
     "Luke 5:17-26",
     "Luc 5:17-26",
   ],
@@ -5113,7 +5113,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 [
   [
     Prefix.gospelMass + "Gospel&D=101stSunday&C=Title",
-    " لوقا ( 11 : 1 ـ 13 )",
+    " لوقا ( 11 : 1-13 )",
     "Luke 11:1-13",
     "Luc 11:1-13",
   ],
@@ -5177,7 +5177,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 [
   [
     Prefix.gospelMass + "Gospel&D=102ndSunday&C=Title",
-    " لوقا ( 5: 17 ـ 26 )",
+    " لوقا ( 5: 17-26 )",
     "Luke 5:17-26",
     "Luc 5:17-26",
   ],
@@ -5671,7 +5671,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 [
   [
     Prefix.gospelMass + "Gospel&D=111stSunday&C=Title",
-    " لوقا (10 : 1 ـ 20)",
+    " لوقا (10 : 1-20)",
     "Luc 10:1-20",
     "Luke 10:1-20",
   ],
@@ -5747,7 +5747,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 [
   [
     Prefix.gospelMass + "Gospel&D=112ndSunday&C=Title",
-    " متى ( 18: 1 ـ 9 )",
+    " متى ( 18: 1-9 )",
     "Matthew 18:1-9",
     "Matthew 18:1-9",
   ],
@@ -5805,7 +5805,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 [
   [
     Prefix.gospelMass + "Gospel&D=113rdSunday&C=Title",
-    " لوقا ( 9 : 10 ـ 17 )",
+    " لوقا ( 9 : 10-17 )",
     "Luc 9:10-17",
     "Luke 9:10-17",
   ],
@@ -5857,7 +5857,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 [
   [
     Prefix.gospelMass + "Gospel&D=114thSunday&C=Title",
-    " يوحنا ( 11: 1 ـ 45 )",
+    " يوحنا ( 11: 1-45 )",
     "John 11:1-45",
     "John 11:1-45",
   ],
@@ -6119,7 +6119,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 [
   [
     Prefix.gospelMass + "Gospel&D=121stSunday&C=Title",
-    " لوقا (91 : 9 ـ 20)",
+    " لوقا (91 : 9-20)",
     "Luc 20: 9 – 19",
     "Luke 20: 9 - 19",
   ],
@@ -6521,7 +6521,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 [
   [
     Prefix.gospelMass + "Gospel&D=1712&C=Title",
-    " مرقس ( 10 : 35 ـ 45 )",
+    " مرقس ( 10 : 35-45 )",
     "Marc 10 : 35 - 45",
     "Mark 10:35-45",
   ],
@@ -6741,7 +6741,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 [
   [
     Prefix.gospelMass + "Gospel&D=2912&C=Title",
-    " يوحنا ( 8 : 21 ـ 27 )",
+    " يوحنا ( 8 : 21-27 )",
     "Jean 8 : 21 - 27",
     "John 8:21-27",
   ],
@@ -6793,7 +6793,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 [
   [
     Prefix.gospelMass + "Gospel&D=3012&C=Title",
-    " لوقا ( 14 : 16 ـ 24 )",
+    " لوقا ( 14 : 16-24 )",
     "Luc 14 : 16 - 24",
     "Luke 14:16-24",
   ],
@@ -6909,7 +6909,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 [
   [
     Prefix.gospelMass + "Gospel&D=0213&C=Title",
-    " لوقا ( 6 : 12 ـ 23 )",
+    " لوقا ( 6 : 12-23 )",
     "Luc 6 : 12 - 23",
     "Luke 6:12-23",
   ],
@@ -7043,7 +7043,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 [
   [
     Prefix.gospelMass + "Gospel&D=0413&C=Title",
-    " لوقا ( 16 : 1 ـ 12 )",
+    " لوقا ( 16 : 1-12 )",
     "Luc 16 : 1-12",
     "Luke 16:1-12",
   ],
@@ -7225,7 +7225,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 [
   [
     Prefix.gospelMass + "Psalm&D=GL10&C=Title",
-    " مزمور ( 28 : 1 ـ 2 )",
+    " مزمور ( 28 : 1-2 )",
     "Psaume 29 : 1, 2",
     "Psalms 29:1-2",
   ],
@@ -7239,7 +7239,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 [
   [
     Prefix.gospelMass + "Gospel&D=GL10&C=Title",
-    " لوقا ( 18 : 1 ـ 8 )",
+    " لوقا ( 18 : 1-8 )",
     "Luc 18 : 1 - 8",
     "Luke 18:1-8",
   ],
@@ -7291,7 +7291,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 [
   [
     Prefix.gospelMass + "Gospel&D=GL11&C=Title",
-    " مرقس ( 10 : 17 ـ 27 )",
+    " مرقس ( 10 : 17-27 )",
     "Marc 10:17-27",
     "Mark 10:17-27",
   ],
@@ -7357,7 +7357,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 [
   [
     Prefix.gospelMass + "Gospel&D=GL12&C=Title",
-    " مرقس ( 10 : 17 ـ 27 )",
+    " مرقس ( 10 : 17-27 )",
     "Marc 10:17-27",
     "Matthew 15:32-38",
   ],
@@ -7477,7 +7477,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 [
   [
     Prefix.gospelMass + "Psalm&D=GL14&C=Title",
-    " مزمور ( 28 : 01 ـ 11 )",
+    " مزمور ( 28 : 01-11 )",
     "Psaume 29 : 10, 11",
     "Psalms 29:10-11",
   ],
@@ -7659,7 +7659,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 [
   [
     Prefix.gospelMass + "Gospel&D=GL18&C=Title",
-    " يوحنا ( 8 : 31 ـ 39 )",
+    " يوحنا ( 8 : 31-39 )",
     "Jean 8:31-39",
     "John 8:31-39",
   ],
@@ -7777,7 +7777,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 [
   [
     Prefix.gospelMass + "Gospel&D=GL1&C=Title",
-    " لوقا ( 13 : 1 ـ 5 )",
+    " لوقا ( 13 : 1-5 )",
     "Luke 13:1-5",
     "Luc 13:1-5",
   ],
@@ -7887,7 +7887,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 [
   [
     Prefix.gospelMass + "Gospel&D=GL20&C=Title",
-    " يوحنا ( 12 : 44 ـ 50 )",
+    " يوحنا ( 12 : 44-50 )",
     "Jean 12:44-50",
     "John 12:44-50",
   ],
@@ -8009,7 +8009,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 [
   [
     Prefix.gospelMass + "Gospel&D=GL22&C=Title",
-    " متى ( 18 : 23 ـ 35 )",
+    " متى ( 18 : 23-35 )",
     "Matthew 18:23-35",
     "Matthew 18:23-35",
   ],
@@ -8177,7 +8177,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 [
   [
     Prefix.gospelMass + "Gospel&D=GL26&C=Title",
-    " مرقس ( 4 : 35 ـ 41 )",
+    " مرقس ( 4 : 35-41 )",
     "Marc 4:35-41",
     "Mark 4:35-41",
   ],
@@ -8223,7 +8223,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 [
   [
     Prefix.gospelMass + "Gospel&D=GL27&C=Title",
-    " لوقا ( 18 : 35 ـ 43 )",
+    " لوقا ( 18 : 35-43 )",
     "Luc 18:35-43",
     "Luke 18:35-43",
   ],
@@ -8275,7 +8275,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 [
   [
     Prefix.gospelMass + "Gospel&D=GL28&C=Title",
-    " متى ( 15 : 21 ـ 31 )",
+    " متى ( 15 : 21-31 )",
     "Mathieu 15 : 21 - 31",
     "Matthew 15:21-31",
   ],
@@ -8415,7 +8415,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 [
   [
     Prefix.gospelMass + "Gospel&D=GL2ndSunday&C=Title",
-    " متى ( 6 : 19 ـ 33 )",
+    " متى ( 6 : 19-33 )",
     "Mathieu 6 : 19 - 33",
     "Matthew 6:19-33",
   ],
@@ -8583,7 +8583,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 [
   [
     Prefix.gospelMass + "Gospel&D=GL33&C=Title",
-    " لوقا ( 13 : 6 ـ 9 )",
+    " لوقا ( 13 : 6-9 )",
     "Luc 13:6-9",
     "Luke 13:6-9",
   ],
@@ -8679,7 +8679,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 [
   [
     Prefix.gospelMass + "Gospel&D=GL35&C=Title",
-    " يوحنا ( 8 : 21 ـ 27 )",
+    " يوحنا ( 8 : 21-27 )",
     "Jean 8:21-27",
     "John 8:21-27",
   ],
@@ -8901,7 +8901,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 [
   [
     Prefix.gospelMass + "Gospel&D=GL39&C=Title",
-    " لوقا ( 9 : 18 ـ 22 )",
+    " لوقا ( 9 : 18-22 )",
     "Luke 9:18-22",
     "Luke 9:18-22",
   ],
@@ -9021,7 +9021,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 [
   [
     Prefix.gospelMass + "Gospel&D=GL3rdSunday&C=Title",
-    " متى ( 4 : 1 ـ 11 )",
+    " متى ( 4 : 1-11 )",
     "Mathieu 4 :1 -1",
     "Matthew 4:1-11",
   ],
@@ -9131,7 +9131,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 [
   [
     Prefix.gospelMass + "Gospel&D=GL41&C=Title",
-    " يوحنا ( 6 : 47 ـ 71 )",
+    " يوحنا ( 6 : 47-71 )",
     "Jean 6:47-71",
     "John 6:47-71",
   ],
@@ -9229,7 +9229,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 [
   [
     Prefix.gospelMass + "Gospel&D=GL42&C=Title",
-    " يوحنا ( 3 : 1 ـ 13 )",
+    " يوحنا ( 3 : 1-13 )",
     "John 3:1-13",
     "John 3:1-13",
   ],
@@ -9339,7 +9339,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 [
   [
     Prefix.gospelMass + "Gospel&D=GL45&C=Title",
-    " يوحنا( 5 : 31 ـ 47 )",
+    " يوحنا( 5 : 31-47 )",
     "Jean 5:31-47",
     "John 5:31-47",
   ],
@@ -9397,7 +9397,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 [
   [
     Prefix.gospelMass + "Gospel&D=GL46&C=Title",
-    " لوقا ( 9 : 18 ـ 22 )",
+    " لوقا ( 9 : 18-22 )",
     "Jean 12:36-43",
     "John 12:36-43",
   ],
@@ -9443,7 +9443,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 [
   [
     Prefix.gospelMass + "Gospel&D=GL47&C=Title",
-    " يوحنا ( 6 : 35 ـ 45 )",
+    " يوحنا ( 6 : 35-45 )",
     "Jean 6 : 35-45",
     "John 6:35-45",
   ],
@@ -9501,7 +9501,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 [
   [
     Prefix.gospelMass + "Gospel&D=GL48&C=Title",
-    " مرقس ( 12 : 18 ـ 27 )",
+    " مرقس ( 12 : 18-27 )",
     "Marc 12 : 18-27",
     "Mark 12:18-27",
   ],
@@ -9553,7 +9553,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 [
   [
     Prefix.gospelMass + "Gospel&D=GL49&C=Title",
-    " لوقا ( 13 : 31 ـ 35 )",
+    " لوقا ( 13 : 31-35 )",
     "Luc 13 : 31 -35",
     "Luke 13:31-35",
   ],
@@ -9657,7 +9657,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 [
   [
     Prefix.gospelMass + "Gospel&D=GL4thSunday&C=Title",
-    " لوقا ( 15 : 11 ـ 32 )",
+    " لوقا ( 15 : 11-32 )",
     "Luc 15 : 11 - 32",
     "Luke 15:11-32",
   ],
@@ -9944,7 +9944,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 [
   [
     Prefix.gospelMass + "Gospel&D=GL5thSunday&C=Title",
-    " يوحنا ( 4 : 1 ـ 42 )",
+    " يوحنا ( 4 : 1-42 )",
     "Jean 4 : 1 - 42",
     "John 4:1-42",
   ],
@@ -10138,7 +10138,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 [
   [
     Prefix.gospelMass + "Gospel&D=GL6thSunday&C=Title",
-    " يوحنا ( 5 : 1 ـ 18 )",
+    " يوحنا ( 5 : 1-18 )",
     "Jean 5:1-18",
     "John 5:1-18",
   ],
@@ -10272,7 +10272,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 [
   [
     Prefix.gospelMass + "Gospel&D=GL7thSunday&C=Title",
-    " يوحنا ( 9 : 1 ـ 41 )",
+    " يوحنا ( 9 : 1-41 )",
     "Jean 9:1-41",
     "John 9:1-41",
   ],
@@ -10298,7 +10298,7 @@ ReadingsArrays.GospelMassArrayFR = [[
   ],
   [
     Prefix.same + "&C=NoActor",
-    "وقالَ لهُ: ' اذهب فاغسل وجهكَ في بِركةِ سلوامَ ' ـ الذي تفسيرُهُ: المُرسَل ـ فذهب وغسلَ وجهَهُ وأتَى بَصِيراً. فجيرانُهُ والذينَ يعرفونَهُ مِن قَبل أنَّهُ كان أعمَى، كانوا يقُولُون: ' أليسَ هذا هُو الذي كانَ يجلسُ ويَستعطِي؟ '",
+    "وقالَ لهُ: ' اذهب فاغسل وجهكَ في بِركةِ سلوامَ '-الذي تفسيرُهُ: المُرسَل-فذهب وغسلَ وجهَهُ وأتَى بَصِيراً. فجيرانُهُ والذينَ يعرفونَهُ مِن قَبل أنَّهُ كان أعمَى، كانوا يقُولُون: ' أليسَ هذا هُو الذي كانَ يجلسُ ويَستعطِي؟ '",
     "7 et il lui dit: \"Va te laver à la piscine de Siloé\" - ce qui signifie Envoyé. L'aveugle y alla, il se lava et, à son retour, il voyait. 8 Les gens du voisinage et ceux qui auparavant avaient l'habitude de le voir - car c'était un mendiant - disaient: \"N'est-ce pas celui qui était assis à mendier?\"",
     "7 And He said to him, Go, wash in the pool of Siloam (which is translated, Sent). So he went and washed, and came back seeing. 8 Therefore the neighbors and those who previously had seen that he was blind said, Is not this he who sat and begged?",
   ],
@@ -10474,7 +10474,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 [
   [
     Prefix.gospelMass + "1Gospel&D=GL8thSunday&C=Title",
-    " متى ( 21 : 1 ـ 17 )",
+    " متى ( 21 : 1-17 )",
     "Mathieu 21 : 1-17",
     "Matthew 21:1-17",
   ],
@@ -10530,7 +10530,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 [
   [
     Prefix.gospelMass + "2&D=GL8thSunday&C=Title",
-    " مرقس ( 11 : 1 ـ 11 )",
+    " مرقس ( 11 : 1-11 )",
     "Marc 11:1-11",
     "Mark 11:1-11",
   ],
@@ -10568,7 +10568,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 [
   [
     Prefix.gospelMass + "3&D=GL8thSunday&C=Title",
-    " لوقا ( 19 : 29 ـ 48 )",
+    " لوقا ( 19 : 29-48 )",
     "Luc 19 : 29-48",
     "Luke 19:29-48",
   ],
@@ -10648,7 +10648,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 [
   [
     Prefix.gospelMass + "4Gospel&D=GL8thSunday&C=Title",
-    " يوحنا ( 12 : 12 ـ 19 )",
+    " يوحنا ( 12 : 12-19 )",
     "Jean 12 : 12-19",
     "John 12:12-19",
   ],

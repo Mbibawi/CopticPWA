@@ -1888,10 +1888,10 @@ ReadingsArrays.GospelVespersArrayFR = [[
 ],
 [
   [
-    Prefix.gospelVespers + "Psalm&D=042ndSunday&C=Title",
-    " مزمور( 143 : 5 ، 7 )",
-    "Psalms 144:5, 7",
-    "Psaumes 144:5, 7",
+    Prefix.gospelVespers + "Psalm&D=042ndSunday||2907&C=Title",
+    " مزمور(143 : 5 ، 7)",
+    "Psaumes (143: 5, 7)",
+    "Psalms (143: 5, 7)",
   ],
   [
     Prefix.same + "&C=NoActor",
@@ -1902,10 +1902,10 @@ ReadingsArrays.GospelVespersArrayFR = [[
 ],
 [
   [
-    Prefix.gospelVespers + "Gospel&D=042ndSunday&C=Title",
-    " لوقا ( 7 : 36 ـ 50 )",
-    "Luke 7:36-50",
-    "Luc 7:36-50",
+    Prefix.gospelVespers + "Gospel&D=042ndSunday||2907&C=Title",
+    "لوقا (7: 36-50)",
+    "Luc (7: 36-50)",
+    "Luke (7: 36-50)",
   ],
   [
     Prefix.same + "&C=NoActor",

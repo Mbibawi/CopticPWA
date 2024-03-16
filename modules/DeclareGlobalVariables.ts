@@ -25,7 +25,7 @@ type typeButton = {
 };
 //CONSTANTS
 const version: string =
-  "v5.7.7 (Changes to the creation of sideBar and Main Page Buttons)";
+  "v5.7.8 (Fixes to the readings: completed part of the missing readings)";
 const calendarDay: number = 24 * 60 * 60 * 1000; //this is a day in milliseconds
 const containerDiv: HTMLDivElement = document.getElementById(
   "containerDiv") as HTMLDivElement;

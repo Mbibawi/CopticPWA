@@ -311,27 +311,27 @@ async function showTitlesInRightSideBar(
 async function showChildButtonsOrPrayers(btn: Button, clear: boolean = true) {
   if (!btn) return;
 
-  
+
   let container: HTMLElement | DocumentFragment = containerDiv;
   if (btn.docFragment) container = btn.docFragment;
-  
+
   hideExpandableButtonsPannel();
-  
+
   if (clear && !containerDiv.dataset.editingMode) {
     //If we are in the "Editing Mode" We do not clear the containerDiv at this stage 
     expandableBtnsPannel.innerHTML = "";
     containerDiv.style.gridTemplateColumns = "100%";
   }
-  
+
   if (btn.onClick) btn.onClick();
-  
+
   (function processPrayersSequence() {
     if (!btn.prayersSequence || !btn.languages || !btn.showPrayers)
       return showBtnsOnMainPage(btn);
 
     if (containerDiv.dataset.editingMode)
       return showPrayersInEditingMode();
-    
+
     showPrayers({
       prayersSequence: btn.prayersSequence,
       container: container,
@@ -341,14 +341,14 @@ async function showChildButtonsOrPrayers(btn: Button, clear: boolean = true) {
       position: container,
     });
 
-    function showPrayersInEditingMode(){
+    function showPrayersInEditingMode() {
       if (!btn.prayersSequence) return;
       if (containerDiv.children.length > 0)
         saveModifiedArray({ exportToFile: true, exportToStorage: true });//We save what is shown in the containerDiv
       let array: string[][][];
       btn.prayersSequence
         .forEach((title) => {
-        if (!title.includes("&D=")) return;
+          if (!title.includes("&D=")) return;
           array = getTablesArrayFromTitlePrefix(title);
           if (!array) return console.log("tablesArray is undefined");
           showTables({
@@ -358,7 +358,7 @@ async function showChildButtonsOrPrayers(btn: Button, clear: boolean = true) {
             container: container,
             clear: false,
           });
-      });
+        });
     };
   })();
 
@@ -382,7 +382,7 @@ async function showChildButtonsOrPrayers(btn: Button, clear: boolean = true) {
     if (!btn.children || btn.children.length < 1) return;
 
     sideBarBtnsContainer.innerHTML = "";
-    
+
     btn.children
       .forEach((childBtn) => {
         //for each child button that will be created, we set btn as its parent in case we need to use this property on the button
@@ -402,7 +402,7 @@ async function showChildButtonsOrPrayers(btn: Button, clear: boolean = true) {
       .filter(div => isTitlesContainer(div))
   );
 
-    appendGoBackAndGoToMainButtons(btn, sideBarBtnsContainer, btn.cssClass);
+  appendGoBackAndGoToMainButtons(btn, sideBarBtnsContainer, btn.cssClass);
 
   if (btn.docFragment) containerDiv.appendChild(btn.docFragment);
 
@@ -420,7 +420,7 @@ async function showChildButtonsOrPrayers(btn: Button, clear: boolean = true) {
   })();
 
   function showBtnsOnMainPage(btn: Button) {
-    if (!btn.children || btn.children.length<1) return;
+    if (!btn.children || btn.children.length < 1) return;
     if (leftSideBar.classList.contains("extended")) return; //If the left side bar is not hidden, we do not show the buttons on the main page because it means that the user is using the buttons in the side bar and doesn't need to navigate using the btns in the main page
     let parentHtmlBtn = containerDiv.querySelector(
       "#" + btn.btnID
@@ -443,21 +443,21 @@ async function showChildButtonsOrPrayers(btn: Button, clear: boolean = true) {
       "url(./assets/btnBOHBackground.jpg)",
     ];
 
-    let created: HTMLButtonElement, cssClass:string = "mainPageBtn";
+    let created: HTMLButtonElement, cssClass: string = "mainPageBtn";
 
     //We create html elements representing each of btnMain children. The created buttons will be appended to containerDiv directly
     btn.children
-    .map((childBtn) => {
-      if (btn !== btnGoToPreviousMenu) childBtn.parentBtn = btn;
-      if (!childBtn.backGroundImage && btn.backGroundImage) childBtn.backGroundImage = btn.backGroundImage;
-      if (!childBtn.backGroundImage) childBtn.backGroundImage = images[btn.children.indexOf(childBtn)];
-      
-      createMainPageButton(childBtn); //We create an HTML button 
+      .map((childBtn) => {
+        if (btn !== btnGoToPreviousMenu) childBtn.parentBtn = btn;
+        if (!childBtn.backGroundImage && btn.backGroundImage) childBtn.backGroundImage = btn.backGroundImage;
+        if (!childBtn.backGroundImage) childBtn.backGroundImage = images[btn.children.indexOf(childBtn)];
+
+        createMainPageButton(childBtn); //We create an HTML button 
 
       });
-      
+
     appendGoBackAndGoToMainButtons(btn, btnsDiv, cssClass);//We append the buttons then we add the background image for each button
-    
+
     btnsDiv.style.gridTemplateColumns = setGridColumnsOrRowsNumber(btnsDiv, 3);//!Caution: this must come after the buttons have been appended to btnsDiv
 
 
@@ -487,7 +487,7 @@ async function showChildButtonsOrPrayers(btn: Button, clear: boolean = true) {
   function appendGoBackAndGoToMainButtons(btn: Button, btnsContainer: HTMLDivElement, cssClass: string): HTMLElement[] {
 
     let goBackHtml: HTMLElement, mainMenuHtml: HTMLElement;
-    
+
     (function appendGoBackBtn() {
       //This function inserts an html button that navigates the user to the previous menu from which he had been directed when clicking on the button
       if (btn === btnGoToPreviousMenu) return; //If the btn is itself a GoBack btn, we will not insert it twice
@@ -497,23 +497,23 @@ async function showChildButtonsOrPrayers(btn: Button, clear: boolean = true) {
       if (!btn.parentBtn) return;
       //Notice that the GoBack Button that we will insert, will only show the children of btn in the sideBar: it will not call showChildButonsOrPrayers() passing btn to it as a parameter. Instead, it will call a function that will show its children in the SideBar
 
-      if(btn.parentBtn === btnMainMenu) return; //If the parent btn is btnMainMenu, the goBackButton will bring us to the main menu any way, so no need for it
-      
+      if (btn.parentBtn === btnMainMenu) return; //If the parent btn is btnMainMenu, the goBackButton will bring us to the main menu any way, so no need for it
+
       let goBack = new Button({
         btnID: btnGoToPreviousMenu.btnID,
         label: btnGoToPreviousMenu.label,
         cssClass: cssClass,
-        backGroundImage: btnsContainer === sideBarBtnsContainer?undefined: btnGoToPreviousMenu.backGroundImage, //We do not show the background image if the button is appended to the sideBar
+        backGroundImage: btnsContainer === sideBarBtnsContainer ? undefined : btnGoToPreviousMenu.backGroundImage, //We do not show the background image if the button is appended to the sideBar
         onClick: () => showChildButtonsOrPrayers(btn.parentBtn, true),
       });
-  
+
       goBackHtml = createHtmlBtn({
         btn: goBack,
         btnsContainer: btnsContainer,
-        backGroundImage:  goBack.backGroundImage,
+        backGroundImage: goBack.backGroundImage,
       });
     })();
-  
+
     (function appendGoToMainMenuButton() {
       //This function will insert a button by which the user will return back to the 'Main Menu' (i.e., the list of buttons displayed when the app starts)
       if (!btn.parentBtn) return; //We will insert a "Go To Main Menu" button only if btn has a parent btn (if the btn has a parentBtn it means that btn is a children of another button and is not one of the 'Main Menu' list of buttons. The user may need to return directly to the main menu instead to going to the previous menu)
@@ -521,12 +521,12 @@ async function showChildButtonsOrPrayers(btn: Button, clear: boolean = true) {
       if ([btnMainMenu, btnGoToPreviousMenu].includes(btn)) return; //Obviously, we will not insert 'Go To Main Menu' Button if the btn is it self btnMain. We also do not insert 'Go To Main Menu' when the GoBack button is clicked because it will be inserted by the button that will passed to showChildButtonsOrPrayers() when called
 
       if (btnsContainer.querySelector('#' + btnMainMenu.btnID)) btnsContainer.querySelector('#' + btnMainMenu.btnID).remove(); //If there is already a btnMainMenu in the btnsContainer, we will remove it
-  
+
       mainMenuHtml = createHtmlBtn({
         btn: btnMainMenu,
         btnsContainer: btnsContainer,
         btnClass: cssClass,
-        backGroundImage:  btnsContainer === sideBarBtnsContainer?undefined: btnMainMenu.backGroundImage,
+        backGroundImage: btnsContainer === sideBarBtnsContainer ? undefined : btnMainMenu.backGroundImage,
       });
     })();
     return [goBackHtml, mainMenuHtml]
@@ -1282,26 +1282,27 @@ function getCopticReadingsDates(): string[][] {
       "3005",
       "0501",
       "1001",
-      "1003",
-      "1108",
-      "1507",
-      "1512",
-      "1711",
-      "2121",
-      "2405",
-      "2508",
-      "2604",
-      "2607",
-      "2811",
-      "2905",
-      "0102",
-      "0212",
-      "0602",
-      "0608",
-      "0612",
-      "0808",
       "2001",
+      "0102",
       "2901",
+      "0602",
+      "1003",
+      "2604",
+      "2405",
+      "2905",
+      "1507",
+      "2607",
+      "0608",
+      "0808",
+      "1108",
+      "2508",
+      "0111", 
+      "1711",
+      "2811",
+      "0212",
+      "0612",
+      "1512",
+      "2112",
     ],
     [
       "0105",
@@ -1485,7 +1486,7 @@ function getCopticReadingsDates(): string[][] {
       "1802",
     ],
     ["2905", "1810"],
-    ["3008", "0211", "2003", "2309", "2710", "0111", "0911", "3002"],
+    ["3008", "0211", "2003", "2309", "2710", "0911", "3002"],
   ];
 }
 
@@ -2386,6 +2387,92 @@ async function showMultipleChoicePrayersButton(args: {
       createFakeAnchor(args.masterBtnID);
     };
   }
+}
+
+/**
+ * Tests if the readings are available for all the days
+ */
+function testReadings() {
+  addConsoleSaveMethod(console);
+  let Readings: string[][] = [
+    [Prefix.gospelDawn, "Gospel Dawn"],
+    [Prefix.gospelMass, "Gospel Mass"],
+    [Prefix.gospelVespers, "Gospel Vespers"],
+    [Prefix.gospelNight, 'Gospel Night'],
+    [Prefix.stPaul, 'Saint Paul'],
+    [Prefix.katholikon, 'Katholikon'],
+    [Prefix.praxis, 'Praxis'],
+    [Prefix.synaxarium, 'Synaxarium'],
+    [Prefix.propheciesDawn, 'Prophecies Dawn'],
+  ];
+  let readingDate: string,
+    result: string = "";
+  setCopticDates(new Date("2023.12.31"));
+
+  for (let i = 1; i < 367; i++) {
+    changeDate(undefined, true, undefined, false);
+    Readings.forEach((prefix) => {
+      if (
+        ![Seasons.GreatLent, Seasons.JonahFast].includes(Season)
+        &&
+        [Prefix.gospelNight, Prefix.propheciesDawn].includes(prefix[0]))
+        return;
+      if (
+        Season === Seasons.GreatLent
+        &&
+        [0, 6].includes(weekDay)
+        &&
+        prefix[0] === Prefix.propheciesDawn)
+        return; //During the Great Lent and Jonah Fast, only the week-days have Prophecies Readings in the Incense Dawn office
+      if (Season === Seasons.JonahFast
+        && prefix[0] === Prefix.gospelNight
+      )
+        return; //No Gospel Night during Jonah Fast
+      if (
+        Season === Seasons.GreatLent
+        &&
+        weekDay !== 0
+        && [Prefix.gospelVespers, Prefix.gospelNight].includes(prefix[0]))
+        return; //During the Great Lent, only Sunday has Vespers (on Saturday afternoon), and Gospel Night (on Sunday afternoon)
+      if (
+        Season === Seasons.GreatLent
+        && weekDay === 6
+        && prefix[0] === Prefix.gospelVespers
+        && copticReadingsDate === "GL57"
+      )
+        return; //no vespers for the Resurrection Sunday
+      if (
+        Season === Seasons.JonahFast
+        && weekDay !== 1
+        && prefix[0] === Prefix.gospelVespers
+      )
+        return; //During the Jonah Fast, only Monday has Vespers prayers
+      if (Season === Seasons.HolyWeek) return; //No readings during the holy week
+
+      (function fetchReadings() {
+        readingDate = copticReadingsDate;
+        if (prefix[0] === Prefix.synaxarium)
+          readingDate = copticDate;
+        let reading: string[][][] =
+          getTablesArrayFromTitlePrefix(prefix[0])
+            .filter((tbl) => isMultiDatedTitleMatching(tbl[0][0], readingDate));//We do a filter not a find because Gospels arrays include 2 tables for each day: Psalm table and Gospel table
+
+        if (reading.length < 1) {
+          result += "\n\n\ncopticDate = " + copticDate + "\n";
+          result += "copticReadingsDate = " + copticReadingsDate + "\n";
+          if (weekDay === 0) result += "it is a Sunday \n";
+          result += "\tmissing: " + prefix[1] + "\nquery= " + readingDate + "\n";
+        }
+        // if (reading.length > 0) result += "\ttable: " + '&D=' + copticReadingsDate;
+
+      })();
+
+    });
+  }
+  //@ts-ignore
+  console.save(result, "testReadings Result.doc");
+
+  changeDate(new Date());
 }
 
 let testArray = [
@@ -11958,4 +12045,14 @@ function prefixSame(Array: string[][][]) {
   );
   console.log(Array)
 
+}
+
+function fixPraxisArray(readingsArray:string[][][]) {
+  readingsArray.forEach(tbl => {
+    tbl.forEach(row => {
+      if (tbl.indexOf(row) === 0) return;
+      if (row[1].includes('-') && confirm(row[1].replaceAll('-', '&&-&&')))  row[1] = row[1].replaceAll('-', '')
+    });
+  });
+  saveOrExportArray(readingsArray, getArrayNameFromArray(readingsArray), true)
 }

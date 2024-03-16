@@ -1885,24 +1885,24 @@ ReadingsArrays.GospelDawnArrayFR = [
   ],
   [
     [
-      Prefix.gospelDawn + "Psalm&D=042ndSunday&C=Title",
+      Prefix.gospelDawn + "Psalm&D=042ndSunday||2907&C=Title",
       " مزمور ( 71 : 5 ، 6 )",
-      "Psalms 72:6-7",
-      "Psaumes 72:6-7",
+      "Psalms (71: 5-6)",
+      "Psaumes (71: 5-6)",
     ],
     [
       Prefix.same + "&C=NoActor",
-      "ينزلُ مثل المَطر على الجُزَّة، ومثل قطراتٍ تقطر على الأرض. يُشرق في أيَّامِهِ العدلُ، وكثرةُ السَّلامِ. هللويا.",
+      "ينزلُ مثل المَطر على الجُزَّة، ومثل قطراتٍ تقطر على الأرض. يُشرق في أيَّامِهِ العدلُ، وكثرةُ السَّلامِ.",
       "6 He shall come down like rain upon the grass before mowing, Like showers that water the earth. 7 In His days the righteous shall flourish, And abundance of peace. Alleluia",
       "6 Il descendra comme une pluie qui tombe sur un terrain fauché, Comme des ondées qui arrosent la terre. 7 En ses jours, le juste fleurira, Et la paix abondera. Alleluia",
     ],
   ],
   [
     [
-      Prefix.gospelDawn + "Gospel&D=042ndSunday&C=Title",
-      " لوقا ( 11 : 20 ـ 28 )",
-      "Luke 11:20-28",
-      "Luc 11:20-28",
+      Prefix.gospelDawn + "Gospel&D=042ndSunday||2907&C=Title",
+      " لوقا (11: 20-28)",
+      "Luke (11: 20-28)",
+      "Luc (11: 20-28)",
     ],
     [
       Prefix.same + "&C=NoActor",
@@ -3465,6 +3465,7 @@ ReadingsArrays.GospelDawnArrayFR = [
       "12 Now brother will betray brother to death, and a father his child; and children will rise up against parents and cause them to be put to death. 13 And you will be hated by all for My name's sake. But he who endures to the end shall be saved.",
     ],
   ],
+
   [
     [
       Prefix.gospelDawn + "Psalm&D=2308&C=Title",
