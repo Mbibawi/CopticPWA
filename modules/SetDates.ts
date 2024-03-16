@@ -324,7 +324,7 @@ function checkForUnfixedEvent(
 
     //If the 30th of Hatour is a Sunday, it means that there will only be 3 Sundays in the month of Kiahk between the 1st and the 28th of Kiahk (The 3 Sundays will fall respectively on the 7th, 14th and 21th of Kiahk). We hence consider that 30th of Hatour is the 1st Sunday of Kiahk
     Season = Seasons.KiahkWeek1;
-    date = checkWhichSundayWeAre(7, 0);
+    date = "04" + checkWhichSundayWeAre(7, 0);
   })();
 
   (function ifKiahk() {
@@ -340,7 +340,7 @@ function checkForUnfixedEvent(
         //When the 1st of Kiahk is a Monday, Kiahk will have only 3 Sundays before Kiahk 28th (i.e., on the 7th, the 14th, and the 21th of Kiahk), we will hence consider that the 30th of Hatour is the 1st Sunday of Kiahk, and will count Kiahk's Sundays from 2
         sunday = checkWhichSundayWeAre(Number(copticDay) + 7 - weekDay);
 
-      else sunday = checkWhichSundayWeAre(Number(copticDay) - weekDay);
+        else sunday = checkWhichSundayWeAre(Number(copticDay) - weekDay);
 
 
       Season = [
@@ -350,7 +350,7 @@ function checkForUnfixedEvent(
         ["4thSunday", Seasons.KiahkWeek4],
       ].find((el) => el[0] === sunday)[1]; //We set the Season accroding to the value of sunday
 
-      if (weekDay === 0) return sunday; //!Caution: we need to return the value of Sunday (which will set the readings for this day not only the Season), because it is modified when Kiahk has only 3 Sundays. We do this for the Sundays only because the readings of the other days are not affected. It is just the Season that changes.
+      if (weekDay === 0) return "04" + sunday; //!Caution: we need to return the value of Sunday (which will set the readings for this day not only the Season), because it is modified when Kiahk has only 3 Sundays. We do this for the Sundays only because the readings of the other days are not affected. It is just the Season that changes.
     }
 
   })();

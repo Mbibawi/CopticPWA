@@ -96,45 +96,68 @@ ReadingsArrays.GospelVespersArrayFR = [[
     "",
   ],
 ],
-[
+[ 
   [
-    Prefix.gospelVespers + "&D=012ndSunday",
-    "",
-    "",
-    "",
+      Prefix.gospelVespers + "Psalm&D=012ndSunday&C=Title",
+      "مزمور (7: 10ـ11)",
+      "Psaume (7: 10-11)",
   ],
   [
-    Prefix.same + "&C=NoActor",
-    "",
-    "",
-    "",
-  ],
-  [
-    Prefix.same + "&C=NoActor",
-    "",
-    "",
-    "",
+      Prefix.same + "&C=NoActor",
+      "صادقةٌ هى مَعونتي مِنْ عندِ اللهِ. المُنجِّي مُستقيمي القلوبِ. اللهُ قاضٍ عادلٌ. وقويٌّ وطويلُ الروحِ.",
+      "10 Mon bouclier est auprès de Dieu, Qui sauve ceux dont le cœur est droit. 11 Dieu est un juste juge, Un Dieu qui peut s’irriter chaque jour.",
   ],
 ],
 [
   [
-    Prefix.gospelVespers + "&D=013rdSunday",
-    "",
-    "",
-    "",
+      Prefix.gospelVespers + "Gospel&D=012ndSunday&C=Title",
+      "لوقا (4: 38-41)",
+      "Luc (4: 38-41)",
   ],
   [
-    Prefix.same + "&C=NoActor",
-    "",
-    "",
-    "",
+      Prefix.same + "&C=NoActor",
+      "لثُمَّ قامَ من المَجمَع ودَخلَ بَيتَ سمعانَ وكانت حمَاةُ سمعانَ قد أخَذَتها حُمَّى عَظيمةٌ، فَسألوهُ من أجلِها. فَوقَفَ فَوقَها وزجر الحُمَّى فَتَركتهوفي الحال قامَت وخَدمَتهُم. ولمَّا غربت الشَّمس، جَميع الذينَ عندَهُم مَرضَى بأمراض مُختلفةٍ قَدَّموهُم إليهِ",
+      "38 En quittant la synagogue, il se rendit à la maison de Simon. La belle–mère de Simon était atteinte d’une forte fièvre, et ils le prièrent en sa faveur. 39 Il se pencha sur elle, menaça la fièvre, et la fièvre la quitta. A l’instant elle se leva et se mit à les servir. 40 Après le coucher du soleil, tous ceux qui avaient des malades atteints de divers maux les lui amenèrent. ",
   ],
   [
-    Prefix.same + "&C=NoActor",
-    "",
-    "",
-    "",
+      Prefix.same + "&C=NoActor",
+      "، فَوَضعَ يده على كل واحدٍ منهُم وشَفاهُم. وكانت أيضاً شياطين تَخرُجُ من كثيرينَ وهيَ تَصرُخ قائلة: \" أنتَ هو المَسيحُ ابن اللـه! \". فكان ينتهرهُم ولم يَدعهُم يَتكلَّمونَ، لأنَّهم عَرَفوهُ أنَّه هو المسيحُ.",
+      "Il imposa les mains à chacun d’eux et les guérit. Des démons aussi sortaient de beaucoup de personnes, en criant et en disant : Tu es le Fils de Dieu. Mais il les menaçait et ne leur permettait pas de parler, parce qu’ils savaient qu’il était le Christ.",
   ],
+  ],
+  [
+    [
+        Prefix.gospelVespers + "Psalm&D=013rdSunday&C=Title",
+        "مزمور (9:1)",
+        "Psaume (9: 2-3)",
+        "Psalm (9: 2-3)",
+    ],
+    [
+        Prefix.same + "&C=NoActor",
+        "أَعْتَرِفُ لَكَ يَارَبُّ مِنْ كُلِّ قَلْبي. وَأُحَدِّثُ بِجَمِيعِ عَجَائِبِكَ. أَفْرَحُ وَأَتَهَلَّلُ بِكَ. أُرَتِّلُ لاِسْمِكَ أَيهَا الْعَلِيُّ.",
+        "2Je louerai l'Éternel de tout mon coeur, Je raconterai toutes tes merveilles. 3 Je ferai de toi le sujet de ma joie et de mon allégresse, Je chanterai ton nom, Dieu Très Haut!",
+        "",
+    ],
+],
+[
+    [
+        Prefix.gospelVespers + "Gospel&D=013rdSunday&C=Title",
+        "مرقس (1: 29-34)",
+        "Marc (1: 29-34)",
+        "",
+    ],
+    [
+        Prefix.same + "&C=NoActor",
+        "وَلِلْوَقْتِ لَمَّا خَرَجُوا مِنَ الْمَجْمَعِ دَخَلُوا بَيْتَ سِمْعَانَ وَأَندَرَاوسَ، وَمَعَهُمْ يَعْقُوبُ وَيُوحَنَّا، وَكَانَتْ حَمَاةُ سِمْعَانَ مُضْطَجِعَةً مَحْمُومَةً، فَلِلْوَقْتِ أَخْبَرُوهُ عَنْهَا. فَتَقَدَّمَ وَأَقَامَهَا مَاسِكَاً بِيَدِهَا، فَتَرَكَتْهَا الْحُمَّى وَصَارَتْ تَخْدُمُهُمْ.",
+        "29 Aussitôt sortis de la synagogue, ils allèrent, avec Jacques et Jean, dans la maison de Simon et d’André. 30 Or, la belle-mère de Simon était au lit, elle avait de la fièvre. Aussitôt, on parla à Jésus de la malade. 31 Jésus s’approcha, la saisit par la main et la fit lever. La fièvre la quitta, et elle les servait.",
+        "",
+    ],
+    [
+        Prefix.same + "&C=NoActor",
+        "وَلَمَّا صَارَ الْمَسَاءُ، إذْ غَرَبَتِ الْشَّمْسُ، قَدَّمُوا إلَيْهِ جَمِيعَ الْمُعَذَّبِينَ والَّذينَ بِهِمْ شَيَاطِينُ. وَكَانَتِ الْمَدِينَةُ كُلُّهَا مُجْتَمِعَةً عِنَدَ الْبَابِ. فَشَفَى كَثِيرِينَ كَانُوا مُعَذَّبِينَ بِأَمْرَاضٍ كَثِيرَةٍ مُخْتَلِفَةٍ، وَأَخْرَجَ شَيَاطِينَ كَثِيرَةً، وَلَمْ يَدَعِ الشَّيَاطِينَ يَتَكَلَّمُونَ لأنهُمْ كَانُوا يَعْرِفُونَهُ أنهُ هُوَ الْمَسِيحُ.",
+        "32 Le soir venu, après le coucher du soleil, on lui amenait tous ceux qui étaient atteints d’un mal ou possédés par des démons. 33 La ville entière se pressait à la porte. 34 Il guérit beaucoup de gens atteints de toutes sortes de maladies, et il expulsa beaucoup de démons ; il empêchait les démons de parler, parce qu’ils savaient, eux, qui il était.",
+        "",
+    ],
 ],
 [
   [

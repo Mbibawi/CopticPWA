@@ -1,5 +1,5 @@
 //CONSTANTS
-const version = "v5.7.8 (Fixes to the readings: completed part of the missing readings)";
+const version = "v5.8.0 (Fixes to the readings: completed most of the missing readings)";
 const calendarDay = 24 * 60 * 60 * 1000; //this is a day in milliseconds
 const containerDiv = document.getElementById("containerDiv");
 const leftSideBar = document.getElementById("leftSideBar");

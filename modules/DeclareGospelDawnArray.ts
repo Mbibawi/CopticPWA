@@ -86,10 +86,34 @@ ReadingsArrays.GospelDawnArrayFR = [
     ],
   ],
   [
-    [Prefix.gospelDawn + "&D=012ndSunday", "", "", ""],
-    [Prefix.same + "&C=NoActor", "", "", ""],
-    [Prefix.same + "&C=NoActor", "", "", ""],
-  ],
+    [
+        Prefix.gospelDawn + "Psalm&D=012ndSunday&C=Title",
+        "مزمور (8: 1 ، 3)",
+        "Psaume (8: 1, 4)",
+    ],
+    [
+        Prefix.same + "&C=NoActor",
+        "أيُّها الربُّ ربُّنا مِثلُ عَجبٍ. صارَ اسمُكَ على الأرضِ كُلِّها. مَنْ هو الإنسانُ حتى تَذكُرَهُ، أو ابنُ الإنسانِ حتى تَفتقِدَهُ.  هللويا.",
+        "1 Éternel, notre Seigneur ! Que ton nom est magnifique sur toute la terre ! 4 Qu’est ce que l’homme, pour que tu te souviennes de lui ? Et le fils de l’homme, pour que tu prennes garde à lui ?",
+    ],
+],
+[
+    [
+        Prefix.gospelDawn + "Gospel&D=012ndSunday&C=Title",
+        "مرقس (1: 35-39 )",
+        "Marc (1: 35-39)",
+    ],
+    [
+        Prefix.same + "&C=NoActor",
+        "وقام في الصُّبحِ باكراً جدّاً وخَرجَ ومَضَى إلى مكانٍ خلاءٍ، وكان يُصلِّي هناك، وكان يَتبعهُ سِمعان والذين معهُ. ولمَّا وجَدوهُ قالوا له: \" إنَّ الكُلَّ يَطلُبونَكَ \". فقال لهُم: \" لنذهب إلى  مكانٍ آخر مِن القرى القريبة لنا لِنُبَشِّرَ هناك أيضاً، ",
+        "35 Vers le matin, pendant qu’il faisait encore très sombre, il se leva et sortit pour aller dans un lieu désert où il se mit à prier. 36 Simon et ceux qui étaient avec lui s’empressèrent de le rechercher, 37 et quand ils l’eurent trouvé, ils lui dirent : Tous te cherchent. 38 Il leur répondit : Allons ailleurs, dans les bourgades voisines, afin que j’y prêche aussi ; ",
+    ],
+    [
+        Prefix.same + "&C=NoActor",
+        "لأنِّي لهذا العمل خَرجتُ \". وجاء يكرِزُ في مجامِعهم في كُلِّ الجليلِ ويُخرِجُ الشياطينَ.",
+        "car c’est pour cela que je suis sorti. 39  Et il s’en alla par toute la Galilée, prêchant dans les synagogues et chassant les démons.",
+    ],
+],
   [
     [
       Prefix.gospelDawn + "&D=013rdSunday&C=Title",

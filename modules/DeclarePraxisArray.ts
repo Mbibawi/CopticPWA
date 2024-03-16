@@ -26,6 +26,39 @@ ReadingsArrays.PraxisArrayFR= [[
   ],
   [
   [
+  Prefix.praxis+"&D=012ndSunday&C=Title", 
+  "أعمال الرسل الأطهار (11: 19-26)", 
+  "Actes (11: 19-26)", 
+  "Acts (11: 19-26)", 
+  "", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "أما الذين تشتَّتُوا من الضِّيق الذي حصل بسبب استفانوس فأتوا إلى فينيقية وقبرس وأنطاكية، وهم لا يُكلِّمون أحداً بالكلمة إلا اليهود فقط. ", 
+  "19 Ceux qui avaient été dispersés à cause de la persécution survenue après la mort d’Étienne allèrent jusqu’en Phénicie, à Chypre et à Antioche ; ils n’annonçaient la parole à personne d’autre qu’aux Juifs. ", 
+  "", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "وكان منهم قومٌ، قُبرسيُّون وقيروانيُّون، هؤلاء الذين لمَّا دخلوا أنطاكية كانوا يتكلَّمون مع اليونانيِّين مُبشِّرين بالربِّ يسوع. وكانت يد الربِّ معهم، فآمن جمعٌ كثيرٌ ورجعوا إلى الربِّ. ", 
+  "20 Il y eut cependant parmi eux quelques hommes de Chypre et de Cyrène, qui, venus à Antioche, parlèrent aussi aux Grecs et leur annoncèrent la bonne nouvelle du Seigneur Jésus. 21 La main du Seigneur était avec eux, et grand fut le nombre de ceux qui crurent et se convertirent au Seigneur. ", 
+  "", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "فبلغ القول عنهم إلى آذان الكنيسة التي في أُورُشليم، فأرسلوا برنابا إلى أنطاكية. هذا لما أتى ورأى نعمة الله فرِح، وكان يُعزي الجميع أن يثبُتوا في الربِّ برضاء القلب لأنه كان رجلاً صالحاً ومُمتلئاً من الرُّوح القدس والإيمان. فانضَّم إلى الربِّ جمعٌ عظيمٌ.", 
+  "Le bruit en parvint aux oreilles (des membres) de l’Église de Jérusalem, et ils envoyèrent Barnabas jusqu’à Antioche. Lorsqu’il fut arrivé et qu’il vit la grâce de Dieu, il s’en réjouit et les exhorta tous à rester d’un cœur résolu attachés au Seigneur. 24 Car c’était un homme bon, plein d’Esprit Saint et de foi. Et une foule assez nombreuse se joignit au Seigneur.", 
+  "", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "ثمَّ خرج إلى طَرسُوسَ ليَطلُب شَاوُل. ولمَّا وجده أَصعده إلى أنطاكية. فحدث أنَّهما اجتمعا في الكنيسة سنةً كاملةً وعلَّمَا جمعاً كبيراً. وسُميَّ التَّلاميذ الذين في أنطاكية أولاً مَسيحيِّين. ", 
+  "Barnabas partit ensuite pour Tarse, afin de chercher Saul ; 26  et après l’avoir trouvé, il le conduisit à Antioche. Pendant une année entière, ils participèrent aux réunions de l’Église et enseignèrent une foule assez nombreuse. Ce fut à Antioche que, pour la première fois, les disciples furent appelés chrétiens.", 
+  "", 
+  ],
+  ],
+  [
+  [
   Prefix.praxis+"&D=014thSunday&C=Title", 
   " الإبركسيس  من أعمال الرسل 9 : 36 - 42", 
   "Actes (9: 36-42)", 
@@ -836,8 +869,46 @@ ReadingsArrays.PraxisArrayFR= [[
   ],
   [
   [
+  Prefix.praxis+"&D=032ndSunday&C=Title", 
+  "الإبركسيس من أعمال الرسل (5: 19-29)", 
+  "Actes (5: 19-29)", 
+  "Acts (5: 19-29)", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  " ١٩ وَلَكِنَّ مَلاَكَ الرَّبِّ فِي اللَّيْلِ فَتَحَ أَبْوَابَ السِّجْنِ وَأَخْرَجَهُمْ وَقَالَ: ٢٠ \"اذْهَبُوا قِفُوا وَكَلِّمُوا الشَّعْبَ فِي الْهَيْكَلِ بِجَمِيعِ كَلاَمِ هَذِهِ الْحَيَاةِ\".", 
+  "19 Mais pendant la nuit un ange du Seigneur ouvrit les portes de la prison ; il les fit sortir et leur dit : 20 Allez, tenez-vous dans le temple, et annoncez au peuple toutes les paroles de cette Vie. ", 
+  "19  But at night an angel of the Lord opened the prison doors and brought them out, and said, 20 \"Go, stand in the temple and speak to the people all the words of this life.\"", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "٢١ فَلَمَّا سَمِعُوا دَخَلُوا الْهَيْكَلَ نَحْوَ الصُّبْحِ وَجَعَلُوا يُعَلِّمُونَ. ثُمَّ جَاءَ رَئِيسُ الْكَهَنَةِ وَالَّذِينَ مَعَهُ وَدَعَوُا الْمَجْمَعَ وَكُلَّ مَشْيَخَةِ بَنِي إِسْرَائِيلَ فَأَرْسَلُوا إِلَى الْحَبْسِ لِيُؤْتَى بِهِمْ.", 
+  "21 Après avoir entendu cela, ils entrèrent, dès le matin, dans le temple et se mirent à enseigner. Le souverain sacrificateur et ceux qui étaient avec lui arrivèrent, convoquèrent le sanhédrin et toute l'assemblée des anciens des enfants d'Israël, et envoyèrent chercher les apôtres à la prison.", 
+  "21  And when they heard that, they entered the temple early in the morning and taught. But the high priest and those with him came and called the council together, with all the elders of the children of Israel, and sent to the prison to have them brought.", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "٢٢ وَلَكِنَّ الْخُدَّامَ لَمَّا جَاءُوا لَمْ يَجِدُوهُمْ فِي السِّجْنِ فَرَجَعُوا وَأَخْبَرُوا ٢٣ قَائِلِينَ: \"إِنَّنَا وَجَدْنَا الْحَبْسَ مُغْلَقاً بِكُلِّ حِرْصٍ وَالْحُرَّاسَ وَاقِفِينَ خَارِجاً أَمَامَ الأَبْوَابِ وَلَكِنْ لَمَّا فَتَحْنَا لَمْ نَجِدْ فِي الدَّاخِلِ أَحَداً\".", 
+  "22 Les gardes, à leur arrivée, ne les trouvèrent pas dans la prison. Ils s'en retournèrent et firent leur rapport en disant : 23 Nous avons trouvé la prison soigneusement fermée, et les gardiens à leur poste devant les portes, mais après avoir ouvert, nous n'avons trouvé personne à l'intérieur.", 
+  "22  But when the officers came and did not find them in the prison, they returned and reported, 23  saying, \"Indeed we found the prison shut securely, and the guards standing outside before the doors; but when we opened them, we found no one inside!\"", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "٢٤ فَلَمَّا سَمِعَ الْكَاهِنُ وَقَائِدُ جُنْدِ الْهَيْكَلِ وَرُؤَسَاءُ الْكَهَنَةِ هَذِهِ الأَقْوَالَ ارْتَابُوا مِنْ جِهَتِهِمْ: مَا عَسَى أَنْ يَصِيرَ هَذَا؟ ٢٥ ثُمَّ جَاءَ وَاحِدٌ وَأَخْبَرَهُمْ قَائِلاً: \"هُوَذَا الرِّجَالُ الَّذِينَ وَضَعْتُمُوهُمْ فِي السِّجْنِ هُمْ فِي الْهَيْكَلِ وَاقِفِينَ يُعَلِّمُونَ الشَّعْبَ\". ٢٦ حِينَئِذٍ مَضَى قَائِدُ الْجُنْدِ مَعَ الْخُدَّامِ فَأَحْضَرَهُمْ لاَ بِعُنْفٍ لأَنَّهُمْ كَانُوا يَخَافُونَ الشَّعْبَ لِئَلاَّ يُرْجَمُوا.", 
+  "24 Lorsqu'ils eurent entendu ces paroles, le commandant du temple et les principaux sacrificateurs, perplexes à leur sujet, se demandaient ce qu'il adviendrait de cette affaire. 25 Quelqu'un vint leur annoncer : Voici : les hommes que vous avez jetés en prison se tiennent dans le temple et enseignent le peuple. 26 Alors le commandant et les gardes partirent et les amenèrent sans violence, car ils avaient peur d'être lapidés par le peuple. ", 
+  "24  Now when the high priest, the captain of the temple, and the chief priests heard these things, they wondered what the outcome would be. 25  So one came and told them, saying, “Look, the men whom you put in prison are standing in the temple and teaching the people!” 26  Then the captain went with the officers and brought them without violence, for they feared the people, lest they should be stoned. ", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "٢٧ فَلَمَّا أَحْضَرُوهُمْ أَوْقَفُوهُمْ فِي الْمَجْمَعِ. فَسَأَلَهُمْ رَئِيسُ الْكَهَنَةِ: ٢٨ \"أَمَا أَوْصَيْنَاكُمْ وَصِيَّةً أَنْ لاَ تُعَلِّمُوا بِهَذَا الاِسْمِ؟ وَهَا أَنْتُمْ قَدْ مَلَأْتُمْ أُورُشَلِيمَ بِتَعْلِيمِكُمْ وَتُرِيدُونَ أَنْ تَجْلِبُوا عَلَيْنَا دَمَ هَذَا الإِنْسَانِ\". ٢٩ فَأَجَابَ بُطْرُسُ وَالرُّسُلُ: \"يَنْبَغِي أَنْ يُطَاعَ اللهُ أَكْثَرَ مِنَ النَّاسِ\".", 
+  "27 Après les avoir amenés, ils les firent comparaître devant le sanhédrin. Le souverain sacrificateur les interrogea en ces termes : 28 Nous vous avions formellement défendu d'enseigner en ce nom-là. Et voici que vous avez rempli Jérusalem de votre enseignement, et que vous voudriez faire retomber sur nous le sang de cet homme ! 29 Pierre répondit ainsi que les apôtres : Il faut obéir à Dieu plutôt qu'aux hommes.", 
+  "27  And when they had brought them, they set them before the council. And the high priest asked them, 28  saying, \"Did we not strictly command you not to teach in this name? And look, you have filled Jerusalem with your doctrine, and intend to bring this Man’s blood on us!\" 29  But Peter and the other apostles answered and said: \"We ought to obey God rather than men\".", 
+  ],
+  ],
+  [
+  [
   Prefix.praxis+"&D=033rdSunday&C=Title", 
-  " الإبركسيس  من أعمال الرسل(5:30-42", 
+  " الإبركسيس  من أعمال الرسل (5:30-42", 
   "Acts (5: 30-42)", 
   "Acts (5: 30-42)", 
   ],
@@ -1845,7 +1916,7 @@ ReadingsArrays.PraxisArrayFR= [[
   Prefix.same+"&C=NoActor", 
   "\"فَاللهُ الآنَ يَأْمُرُ جَمِيعَ النَّاسِ فِي كُلِّ مَكَانٍ أَنْ يَتُوبُوا، مُتَغَاضِيًا عَنْ أَزْمِنَةِ الْجَهْلِ لأَنَّهُ أَقَامَ يَوْمًا هُوَ فِيهِ مُزْمِعٌ أَنْ يَدِينَ الْمَسْكُونَةَ بِالْعَدْلِ، بِرَجُل قَدْ عَيَّنَهُ، مُقَدِّمًا لِلْجَمِيعِ إِيمَانًا إِذْ أَقَامَهُ مِنَ الأَمْوَاتِ\".", 
   "30 Et voici que Dieu, sans tenir compte des temps où les hommes l’ont ignoré, leur enjoint maintenant de se convertir, tous et partout. 31 En effet, il a fixé le jour où il va juger la terre avec justice, par un homme qu’il a établi pour cela, quand il l’a accrédité auprès de tous en le ressuscitant d’entre les morts.", 
-  "\"30 And the times of this ignorance God winked at; but now commandeth all men every where to repent: 31 Because he hath appointed a day, in the which he will judge the world in righteousness by that man whom he hath ordained; whereof he hath given assurance unto all men, in that he hath raised him from the dead\".\n\n\n\n", 
+  "\"30 And the times of this ignorance God winked at; but now commandeth all men every where to repent: 31 Because he hath appointed a day, in the which he will judge the world in righteousness by that man whom he hath ordained; whereof he hath given assurance unto all men, in that he hath raised him from the dead\".\n\n\n", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -2576,9 +2647,9 @@ ReadingsArrays.PraxisArrayFR= [[
   ],
   [
   [
-  Prefix.praxis+"&D=3010&C=Title", 
-  " الإبركسيس  من أعمال الرسل 7:8 - 22", 
-  "Actes 7:8 - 22", 
+  Prefix.praxis+"&D=3010||044thSunday&C=Title", 
+  "الإبركسيس  من أعمال الرسل (7: 8-22)", 
+  "Actes (7: 8-22)", 
   "Acts (7: 8-22)", 
   ],
   [

@@ -206,38 +206,46 @@ ReadingsArrays.StPaulArrayFR= [[
   "", 
   ],
   ],
+
   [
-  [
-  Prefix.stPaul+"&D=012ndSunday", 
-  "", 
-  "", 
-  "", 
-  ],
-  [
-  Prefix.same+"&C=NoActor", 
-  "", 
-  "", 
-  "", 
-  ],
-  [
-  Prefix.same+"&C=NoActor", 
-  "", 
-  "", 
-  "", 
-  ],
-  [
-  Prefix.same+"&C=NoActor", 
-  "", 
-  "", 
-  "", 
-  ],
-  ],
+    
+    [
+        Prefix.stPaul + "&D=012ndSunday&C=Title",
+        "رسالة بولس الرسول الثانية إلى تيموثاوس (1: 12 & 2:10)",
+        "2 Timothée (1: 12 & 2:10)",
+        "",
+    ],
+    [
+        Prefix.same + "&C=NoActor",
+        "لهذا أنا أَحتَمِلُ هذه الآلام. لكِنَّنِي لستُ أَخجَلُ، لأنَّنِي عارفٌ بِمَن آمَنتُ، وقلبي واثقٌ أنَّهُ قادِرٌ أنْ يَحفَظَ لي وديعتي إلى ذلك اليومِ. تَمسَّك بِصورةِ الأقوالِ الصَّحيحةِ التي سَمعتها مِنِّي، في الإيمان والمَحبَّةِ التي في المسيح يسوع. تَمسَّك بِصورةِ الأقوالِ الصَّحيحةِ التي سَمعتها مِنِّي، في الإيمان والمَحبَّةِ التي في المسيح يسوع.",
+        "Et pour cette cause, j’endure ces souffrances, mais je n’en ai pas honte, car je sais en qui j’ai cru, et je suis persuadé qu’il a la puissance de garder mon dépôt jusqu’à ce Jour là. 13 Retiens dans la foi et dans l’amour qui est en Christ Jésus, le modèle des saines paroles que tu as reçues de moi. 13  Retiens dans la foi et dans l’amour qui est en Christ Jésus, le modèle des saines paroles que tu as reçues de moi. \n",
+        "",
+    ],
+    [
+        Prefix.same + "&C=NoActor",
+        "احفظ الوديعةَ الصَّالِحةَ بِالرُّوحِ القُدُس السَّاكن فينا. أنتَ تَعرِفُ هذا أنَّ جَميعَ السَّاكنين في أسِيَّا قد ارتَدُّوا عَنِّي، الذين مِنهُم فِيجَلُّسُ وَهَرموجَانِسُ. الربُّ يُعطي رَحمةً لِبيتِ أُنِيسِفُورُسَ، لأنَّهُ أَرَاحَنِي مِراراً كثيرةً ولم يَخجَل بِسِلسِلَتي، بَل لمَّا أتى إلى رومية، أسرع في طلبي فَوجَدَني. ِيُعطِهِ الرَّبُّ أنْ يَجِدَ رَحمةً مِنْ عند الربِّ في ذلك اليوم. وكُلُّ خدمةٍ خدَمنِي بها في أفسسَ أنت تَعرِفُها جيداً. ",
+        "14 Garde le bon dépôt par le Saint–Esprit qui habite en nous. 15 Tu sais que tous ceux qui sont en Asie m’ont abandonné, entre autres Phygèle et Hermogène. 16 Que le Seigneur répande sa miséricorde sur la famille d’Onésiphore, car il m’a souvent consolé et il n’a pas eu honte de mes chaînes ;17 au contraire, lorsqu’il est venu à Rome, il m’a cherché avec beaucoup d’empressement et il m’a trouvé. 18 Que le Seigneur lui donne d’obtenir miséricorde auprès du Seigneur en ce Jour là. Tu sais mieux que personne combien de services il m’a rendus à Éphèse. ",
+        "",
+    ],
+    [
+        Prefix.same + "&C=NoActor",
+        "وأنتَ أيضاً يا ابني تقوَّ بِالنِّعمةِ التي بالمسيحِ يسوعَ. وما سَمِعتهُ مِنِّي بِشهودٍ كثيرينَ، هذا أَودِعهُ أُناساً أُمَنَاءَ، يَكونونَ أهلاً أن يُعَلِّموا آخرين. فاشتَرِك أنتَ فى قبول الآلام كجُندىٍّ صَالِح للمَسيح يسوع. لأن ليسَ أحدٌ وهوَ يَتجنَّد يَرتَبكُ بأمور هذه الحياة لكى يُرضي مَن جَنَّده. وأيضاً إذا كان أحدٌ لا ينال الإكليل إلا إذا جاهد قانونيَّاً. يجب أنَّ الفلاح الذى يتعبُ، يأخذ هو أولاً مِن الأثمار.",
+        "1 Toi donc, mon enfant, fortifie toi dans la grâce qui est en Christ Jésus. ce que tu as entendu de moi en présence de beaucoup de témoins, confie le à des hommes fidèles, qui soient capables de l’enseigner aussi à d’autres.3  Souffre avec moi comme un bon soldat du Christ Jésus. 4 Il n’est pas de soldat en  campagne qui s’embarrasse des affaires de la vie, s’il veut plaire à celui qui l’a enrôlé, 5 et l’athlète n’est pas couronné, s’il n’a combattu suivant les règles. 6 Le laboureur qui peine doit être le premier à recueillir le fruit.",
+        "",
+    ],
+    [
+        Prefix.same + "&C=NoActor",
+        "افهم ما أقول. لأن الربُّ هو الذى يُعطيكَ فهماً فى كُل شيء. اُذكُر يسوع المسيح الذى قام من الأموات، الذى هو نسل داود بحسب إنجيلي، الذى أنا أحتمل فيه المشَقَّات حتى القُيود كفاعل شر. \nلكنَّ كلِمة الله لا تُقيَّد. لأجل هذا أنا أصبِرُ على كل شيءٍ لأجل المُختارينَ، لِكى ينالوا هُمْ أيضاً الخلاص الذى فى المَسيح يَسوع، مَع المَجدِ الأبَديِّ. ",
+        "7 Comprends ce que je dis ; car le Seigneur te donnera l’intelligence en tout. 8  Souviens toi de Jésus–Christ, ressuscité d’entre les morts, issu de la descendance de David, selon mon Évangile, 9  pour lequel je souffre jusqu’à être lié comme un malfaiteur. Mais la parole de Dieu n’est pas liée.10 C’est pourquoi je supporte tout à cause des élus, afin qu’eux aussi obtiennent le salut qui est en Christ Jésus, avec la gloire éternelle.",
+        "",
+    ],
+],
   [
   [
   Prefix.stPaul+"&D=013rdSunday&C=Title", 
   " رِسَالَةِ بُولِسِ الرَسُولِ الأولى إلى أَهْلِ كورنثوس( 2: 1 - 16 )", 
-  "1 Corinthiens 2:1-16", 
-  "1 Corinthians 2:1-16", 
+  "1 Corinthiens (2: 1-16)", 
+  "1 Corinthians (2: 1-16)", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -2568,7 +2576,7 @@ ReadingsArrays.StPaulArrayFR= [[
   ],
   [
   [
-  Prefix.stPaul+"&D=JFast4||2609||0511||0113&C=Title", 
+  Prefix.stPaul+"&D=JFast4||2609||0405||0511||0113&C=Title", 
   "رِسَالَةِ بُولِسِ الرَسُولِ إلى أَهْلِ رُومِيَةِ (10: 4-18)", 
   "Romains (10: 4-18)", 
   "Romans (10: 4-18)", 
@@ -4876,7 +4884,7 @@ ReadingsArrays.StPaulArrayFR= [[
   ],
   [
   [
-  Prefix.stPaul+"&D=1712&||2703C=Title", 
+  Prefix.stPaul+"&D=2703&C=Title", 
   " رِسَالَةِ بُولِسِ الرَسُولِ أهل غلاطية ( 1 : 1 - 19 )", 
   "Galates (1: 1-19)", 
   "Galatians (1: 1-19)", 

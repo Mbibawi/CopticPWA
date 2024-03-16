@@ -114,38 +114,54 @@ ReadingsArrays.GospelMassArrayFR = [[
     "",
   ],
 ],
+
 [
   [
-    Prefix.gospelMass + "&D=012ndSunday",
-    "",
-    "",
-    "",
-  ],
-  [
-    Prefix.same + "&C=NoActor",
-    "",
-    "",
+    Prefix.gospelMass + "Psalm&D=012ndSunday&C=Title",
+    "من مزمور ( 20 : 1 ، 2 ) ",
+    "Psaume (21: 1–2)",
     "",
   ],
   [
     Prefix.same + "&C=NoActor",
-    "",
-    "",
-    "",
-  ],
-  [
-    Prefix.same + "&C=NoActor",
-    "",
-    "",
-    "",
-  ],
-  [
-    Prefix.same + "&C=NoActor",
-    "",
-    "",
+    "ياربُّ بِقوَّتِكَ يَفرحُ الملكُ. وبِخلاصِكَ يَتهللُ جداً. شهوةَ قلبهِ أعطيتهُ. وسؤالَ شَفتيهِ لم تَمنَعهُ.",
+    " Éternel ! le roi se réjouit de ta force. Combien ton salut le remplit d’allégresse !\n2 Tu lui as donné ce que désirait son cœur, Et tu n’as pas refusé ce que souhaitaient ses lèvres. Alleluia",
     "",
   ],
 ],
+[
+  [
+    Prefix.gospelMass + "Gospel&D=012ndSunday&C=Title",
+    "لوقا ( 10 : 21 ـ 28 ) ",
+    "Luc (10: 21-28)",
+    "",
+  ],
+  [
+    Prefix.same + "&C=NoActor",
+    "وفى تِلك السَّاعة تهلَّل يسوع بالرُّوح القُدس وقال: \" أشكُرك أيُّها الآبُ، ربُّ السَّماء والأرض، لأنَّك أخفَيت هذه عن الحُكماءِ والفُهماءِ وأعلنتها للأطفال. ",
+    "21 En ce moment même, Jésus tressaillit de joie par le Saint–Esprit et dit : Je te loue, Père, Seigneur du ciel et de la terre, de ce que tu as caché ces choses aux sages et aux intelligents, et de ce que tu les as révélées aux enfants. ",
+    "",
+  ],
+  [
+    Prefix.same + "&C=NoActor",
+    "نعم أيُّها الآبُ، لأنه هكذا صارت المسَرَّةُ أمامَك. كل شيءٍ قد دُفِعَ إليَّ مِن أبي. \nوليسَ أحدٌ يَعرفُ مَن هو الابنُ إلاَّ الآبُ، ومَن هو الآب إلاَّ الابن، ومَن يُريد الابن أن يُعلِنَ له \". ثم عاد إلى تلاميذهِ على انفرادٍ وحدهم وقال لهُم: \" طُوبى للعُيون التى تَنظُرُ ما تَنظُرونَهُ،",
+    "Oui, Père, parce que tel a été ton bienveillant dessein. 22 Tout m’a été remis par mon Père, et personne ne connaît qui est le Fils, si ce n’est le Père, ni qui est le Père, si ce n’est le Fils et celui à qui le Fils veut le révéler. 23 Et se tournant vers les disciples, il leur dit en privé : Heureux les yeux qui voient ce que vous voyez ! ",
+    "",
+  ],
+  [
+    Prefix.same + "&C=NoActor",
+    "لأنِّي أقولُ لكُم: إنَّ أنبياءَ كَثيرينَ ومُلوكاً أرادوا أن يَنظُروا ما أنتُم تنظُرون فلم ينظروا، وأن يَسمعوا ما أنتُم تَسمعُون فلم يَسمعُوا \". وإذا ناموسيٌّ قَامَ يُجرِّبه قائلاً: \" يا مُعلِّمُ، ماذا أصنعُ لأرِثَ الحياةَ  الأبدِيَّةَ؟",
+    "24 Car je vous dis que beaucoup de prophètes et de rois ont désiré voir ce que vous voyez, et ne l’ont pas vu, entendre ce que vous entendez, et ne l’ont pas entendu. 25 Et voici qu’un docteur de la loi se leva et lui dit, pour le mettre à l’épreuve : Maître, que dois je faire pour hériter la vie éternelle ?",
+    "",
+  ],
+  [
+    Prefix.same + "&C=NoActor",
+    "\" فقال له: \" ما هو مَكتوبٌ في النَّاموسِ. كيف تقرَأُ؟ \" فأجاب وقال: \" تُحِبُّ الربَّ إلهَكَ مِنْ كُلِّ قَلبِكَ، ومِنْ كُلِّ نَفسِكَ، ومِنْ كُلِّ فِكرِكَ، وقَرِيبَكَ مِثلَ نَفسِكَ \". فقال له: \" بِالصَّوابِ أجبتَ. اِفعَل هذا فَتَحيَا \".",
+    "Jésus lui dit : Qu’est il écrit dans la loi ? Qu’y lis tu ? 27  Il répondit : Tu aimeras le Seigneur, ton Dieu, de tout ton cœur, de toute ton âme, de toute ta force et de toute ta pensée ; et ton prochain comme toi–même.",
+    "",
+  ],
+],
+
 [
   [
     Prefix.gospelMass + "Psalm&D=013rdSunday&C=Title",
@@ -711,49 +727,97 @@ ReadingsArrays.GospelMassArrayFR = [[
     "2 Conduis–moi sur le rocher trop élevé pour moi !",
     "2 Lead me to the rock that is higher than I",
   ],
+  ],
+  [
+    [
+        Prefix.gospelMass + "Psalm&D=032ndSunday&C=Title",
+        "مزمور ( 103 : 16 ، 10 )",
+        "Psaumes 104:16, 10",
+        "Psalms 104:16, 10",
+    ],
+    [
+        Prefix.same + "&C=NoActor",
+        "تَشْبَعُ جميعُ شجر الحقل. وأرزُ لُبنانَ الذي غرستهُ. الذي يُرسلُ العيونَ في الأوديةِ. وفي وسطِ الجبال تعبُرُ المياهُ.",
+        "16 Les arbres de l’Éternel se rassasient, Les cèdres du Liban, qu’il a plantés. 10 Il conduit les sources dans des torrents Qui coulent entre les montagnes.",
+        "16 The trees of the Lord are full of sap, The cedars of Lebanon which He planted. 10 He sends the springs into the valleys, They flow among the hills.",
+    ],
+],
+[
+    [
+        Prefix.gospelMass + "Gospel&D=032ndSunday&C=Title",
+        "متى (13: 1-9) ",
+        "Matthieu (13: 1-9)",
+        "Matthew (13: 1-9)",
+    ],
+    [
+        Prefix.same + "&C=NoActor",
+        "في ذلكَ اليوم خرجَ يسوعُ من البيتِ وجلس عند عبر البحر، فاجتمعَ إليه جموعٌ كثيرةٌ، حتَّى إنَّهُ صعد إلى السَّفينة وجلس. والجمعُ كلُّهُ وقفَ على الشَّاطئ.",
+        "1 Ce jour–là, Jésus sortit de la maison et s’assit au bord de la mer. 2 De si grandes foules s’assemblèrent auprès de lui qu’il monta s’asseoir dans une barque. Toute la foule se tenait sur le rivage.",
+        "1 On the same day Jesus went out of the house and sat by the sea. 2 And great multitudes were gathered together to Him, so that He got into a boat and sat; and the whole multitude stood on the shore. ",
+    ],
+    [
+        Prefix.same + "&C=NoActor",
+        "فكلَّمهم كثيراً بأمثالٍ قائلاً: \" هوذا الزَّارعُ قد خرجَ ليزرعَ، وفيما هو يَزرعُ سقطَ بعضٌ على الطريق، فجاءتِ الطُّيورُ وأكلته.",
+        "3  Il leur parla longuement en paraboles ; il disait :4  Le semeur sortit pour semer. Comme il semait, quelques (grains) tombèrent le long du chemin ; les oiseaux vinrent et les mangèrent.",
+        "3 Then He spoke many things to them in parables, saying: Behold, a sower went out to sow. 4 And as he sowed, some seed fell by the wayside; and the birds came and devoured them.",
+    ],
+    [
+        Prefix.same + "&C=NoActor",
+        "وسقطَ آخرُ على الأماكن المحجرة، حيثُ لم يكن لها عمق أرض، فنبتَ حالاً إذ لم يكن لهُ عمقُ أرضٍ. ولكن لمَّا أشرقت الشَّمسُ احترقَ، وإذ لم يكن لهُ أصلٌ جفَّ.",
+        "5 D’autres tombèrent dans les endroits pierreux, où ils n’avaient pas beaucoup de terre : ils levèrent aussitôt, parce qu’ils ne trouvèrent pas une terre profonde ; 6  mais, quand le soleil se leva, ils furent brûlés et séchèrent faute de racines. ",
+        "6 But when the sun was up they were scorched, and because they had no root they withered away. 5 Some fell on stony places, where they did not have much earth; and they immediately sprang up because they had no depth of earth.",
+    ],
+    [
+        Prefix.same + "&C=NoActor",
+        "وسقطَ آخر على الشَّوك، فطلعَ الشَّوكُ وخنقهُ. وسقط آخرُ على الأرض الجيِّدة فأعطى ثمراً، بعضٌ مئةً وآخرُ ستِّينَ وآخرُ ثلاثينَ. مَن لهُ أذنان للسَّمعِ، فليسمع \".",
+        "7 D’autres tombèrent parmi les épines : les épines montèrent et les étouffèrent. 8 D’autres tombèrent dans la bonne terre : ils donnèrent du fruit, un (grain) cent, un autre soixante, un autre trente.9  Que celui qui a des oreilles entende.",
+        "7 And some fell among thorns, and the thorns sprang up and choked them. 8 But others fell on good ground and yielded a crop: some a hundredfold, some sixty, some thirty. 9 He who has ears to hear, let him hear!.",
+    ],
 ],
 [
   [
-    Prefix.gospelMass + "Gospel&D=1901&C=Title",
-    " لوقا (14:25-35 )",
-    "Luc 14:25-35",
-    "Luke 14:25-35",
+    Prefix.gospelMass + "Psalm&D=033rdSunday&C=Title",
+    "مزمور (85: 14-15)",
+    "Psaume (85: 15-16)",
+    "Pslm (85: 15-16)",
   ],
   [
     Prefix.same + "&C=NoActor",
-    "وكان جموع كثيرة سائرين معه فالتفت وقال لهم : ان كان احد يأتي اليّ ولا يبغض اباه وامه وامرأته واولاده واخوته واخواته حتى نفسه ايضا فلا يقدر ان يكون لي تلميذا.",
+    "وَأَنْتَ أيهَا الرَّبُّ الإلَهُ أَنْتَ رَحُومٌ وَرَؤُوفٌ. أَنْتَ طَوِيلُ الرُّوحِ وَكَثِيرُ الرَّحْمَةِ وَصَادِقٌ. اُنْظُرْ إليَّ وَارْحَمْنِي. أَعْطِ عِزَّةً لِعَبْدِكَ وَخَلِّصِ ابْنَ أَمَتِكَ.",
+    "15 Toi, Seigneur, Dieu de tendresse et de pitié, lent à la colère, plein d'amour et de vérité ! 16 Regarde vers moi, prends pitié de moi. Donne à ton serviteur ta force, et sauve le fils de ta servante.",
+    "",
+  ],
+],
+[
+  [
+    Prefix.gospelMass + "Gospel&D=1901||033rdSunday&C=Title",
+    " لوقا (14:25-35 )",
+    "Luc (14: 25-35)",
+    "Luke (14: 25-35)",
+  ],
+  [
+    Prefix.same + "&C=NoActor",
+    "وَكَانَ جُمُوعٌ كَثِيرَةٌ سَائِرِينَ مَعَهُ، فَالْتَفَتَ وَقَالَ لَهُمْ: \" مَنْ يَأتِي إلَيَّ وَلا يُبْغِضُ أباهُ وَأُمَّهُ وَامْرَأتهُ وَأَوْلاَدَهُ وَإخْوَتَهُ وَأَخَوَاتِهِ، حَتَّى نَفْسَهُ أيْضاً، فَلاَ يَقْدِرُ أنْ يَكُونَ لِي تِلْمِيذاً.",
     "25 De grandes foules faisaient route avec Jésus. Il se retourna et leur dit : 26 Si quelqu’un vient à moi, et s’il ne hait pas son père, sa mère, sa femme, ses enfants, ses frères et ses soeurs, et même sa propre vie, il ne peut être mon disciple.",
     "25 Now great multitudes went with Him. And He turned and said to them, 26 If anyone comes to Me and does not hate his father and mother, wife and children, brothers and sisters, yes, and his own life also, he cannot be My disciple.",
   ],
   [
     Prefix.same + "&C=NoActor",
-    "ومن لا يحمل صليبه ويأتي ورائي فلا يقدر ان يكون لي تلميذا. ومن منكم وهو يريد ان يبني برجا لا يجلس اولا ويحسب النفقة هل عنده ما يلزم لكماله.",
-    "27 Et quiconque ne porte pas sa croix et ne me suit pas, ne peut être mon disciple. 28 Car, lequel d’entre vous, s’il veut bâtir une tour, ne s’assied pas d’abord pour calculer la dépense et voir s’il a de quoi la terminer,",
-    "27 And whoever does not bear his cross and come after Me cannot be My disciple. 28 For which of you, intending to build a tower, does not sit down first and count the cost, whether he has enough to finish it--",
+    "وَمَنْ لا يَحْمِلُ صَلِيبَهُ وَيَتْبَعُنِي فَلاَ يُمْكِنُهُ أنْ يَصِيرَ لِي تِلْمِيذاً. فَإنَّهُ مَنْ مِنْكُمْ يُرِيدُ أنْ يَبْنِيَ بُرْجاً أَفَلا يَجْلِسُ أوَّلاً وَيَحْسُبُ  لِئَلاَّ يَضَعَ الأسَاسَ وَلا يَقْدِرَ أنْ يُكَمِّلَهُ، فَيَبْتَدِئَ جَمِيعُ النَّاظِرِينَ يَهْزَأُونَ بِهِ، قَائِلِينَ: إنَّ هَذَا الرَّجُلَ ابْتَدَأَ يَبْنِي وَلَمْ يَقْدِرْ أنْ يُكَمِّلَهُ.النَّفَقَةَ، وَهَلْ عِنْدَهُ مَا يُكَمِّلُهُ؟",
+    "27 Et quiconque ne porte pas sa croix et ne me suit pas, ne peut être mon disciple. 28 Car, lequel d’entre vous, s’il veut bâtir une tour, ne s’assied pas d’abord pour calculer la dépense et voir s’il a de quoi la terminer, 29 de peur qu’après avoir posé les fondations, il ne soit pas capable d’achever, et que tous ceux qui le verront, ne se moquent et ne disent : 30 Cet homme a commencé à bâtir et n’a pas été capable d’achever.",
+    "27 And whoever does not bear his cross and come after Me cannot be My disciple. 28 For which of you, intending to build a tower, does not sit down first and count the cost, whether he has enough to finish it 29 lest, after he has laid the foundation, and is not able to finish, all who see it begin to mock him, 30 saying, `This man began to build and was not able to finish.",
   ],
   [
     Prefix.same + "&C=NoActor",
-    "لئلا يضع الاساس ولا يقدر ان يكمل فيبتدئ جميع الناظرين يهزأون به. قائلين هذا الانسان ابتدأ يبني ولم يقدر ان يكمل.",
-    "29 de peur qu’après avoir posé les fondations, il ne soit pas capable d’achever, et que tous ceux qui le verront, ne se moquent et ne disent : 30 Cet homme a commencé à bâtir et n’a pas été capable d’achever.",
-    "- 29 lest, after he has laid the foundation, and is not able to finish, all who see it begin to mock him, 30 saying, `This man began to build and was not able to finish.'",
+    "أوْ أَيُّ مَلِكٍ يَمْضِي إلى مُحَارَبَةِ مَلِكٍ آخَرَ، أَفَلاَ يَجْلِسُ أوَّلاً وَيَتَشَاوَرُ: هَلْ يَقْدِرُ أنْ يُلاقِيَ بِعَشَرَةِ آلافٍ الَّذِي يَأْتِي عَلَيْهِ بِعِشْرِينَ أَلْفاً؟ وَإلاَّ فَمَا دَامَ بَعِيداً عَنْهُ، يُرْسِلُ شَفَاعَةً طَالِبَاً سِلْمَاً.",
+    "31 Ou quel roi, s’il part pour s’engager dans une guerre contre un autre roi, ne s’assied pas d’abord pour examiner s’il a le pouvoir avec dix mille hommes de marcher à la rencontre de celui qui vient contre lui avec vingt mille ? 32 Tandis que l’autre est encore loin, il lui envoie une ambassade, pour demander les conditions de paix. ",
+    "31 Or what king, going to make war against another king, does not sit down first and consider whether he is able with ten thousand to meet him who comes against him with twenty thousand? 32 Or else, while the other is still a great way off, he sends a delegation and asks conditions of peace.",
   ],
   [
     Prefix.same + "&C=NoActor",
-    "واي ملك ان ذهب لمقاتلة ملك آخر في حرب لا يجلس اولا ويتشاور هل يستطيع ان يلاقي بعشرة آلاف الذي يأتي عليه بعشرين الفا.",
-    "31 Ou quel roi, s’il part pour s’engager dans une guerre contre un autre roi, ne s’assied pas d’abord pour examiner s’il a le pouvoir avec dix mille hommes de marcher à la rencontre de celui qui vient contre lui avec vingt mille ?",
-    "31 Or what king, going to make war against another king, does not sit down first and consider whether he is able with ten thousand to meet him who comes against him with twenty thousand?",
-  ],
-  [
-    Prefix.same + "&C=NoActor",
-    "وإلا فما دام ذلك بعيدا يرسل سفارة ويسأل ما هو للصلح. فكذلك كل واحد منكم لا يترك جميع امواله لا يقدر ان يكون لي تلميذا. الملح جيد.ولكن اذا فسد الملح فبماذا يصلح.",
-    "32 Tandis que l’autre est encore loin, il lui envoie une ambassade, pour demander les conditions de paix. 33 Ainsi donc, quiconque d’entre vous ne renonce pas à tout ce qu’il possède ne peut être mon disciple. 34 Le sel est une bonne chose ; mais si le sel devient fade, avec quoi l’assaisonnera–t–on ?",
-    "32 Or else, while the other is still a great way off, he sends a delegation and asks conditions of peace. 33 So likewise, whoever of you does not forsake all that he has cannot be My disciple. 34 Salt is good; but if the salt has lost its flavor, how shall it be seasoned?",
-  ],
-  [
-    Prefix.same + "&C=NoActor",
-    "لا يصلح لارض ولا لمزبلة فيطرحونه خارجا. من له اذنان للسمع فليسمع. ",
-    "Il n’est utile ni pour la terre, ni pour le fumier ; on le jette dehors.",
-    "35 It is neither fit for the land nor for the dunghill, but men throw it out.",
+    " فَهكَذَا كُلُّ وَاحِدٍ مِنْكُمْ إنْ لَمْ يَتْرُكْ جَمِيعَ أمْوَالِهِ، فَلاَ يَقْدِرُ أنْ يَصِيرَ لِي تِلْمِيذاً. الْمِلْحُ جَيِّدٌ. فَإنْ فَسَدَ الْمِلْحُ، فَبِمَاذا يُمَلَّحُ؟ فَلاَ لأرْضٍ يَصْلُحُ وَلا لِمَزْبَلَةٍ، بَلْ يُلْقَى خَارِجاً.\"",
+    "33 Ainsi donc, quiconque d’entre vous ne renonce pas à tout ce qu’il possède ne peut être mon disciple. 34 Le sel est une bonne chose ; mais si le sel devient fade, avec quoi l’assaisonnera–t–on ? Il n’est utile ni pour la terre, ni pour le fumier ; on le jette dehors.",
+    "33 So likewise, whoever of you does not forsake all that he has cannot be My disciple. 34 Salt is good; but if the salt has lost its flavor, how shall it be seasoned? 35 It is neither fit for the land nor for the dunghill, but men throw it out.",
   ],
 ],
 [
@@ -9851,42 +9915,42 @@ ReadingsArrays.GospelMassArrayFR = [[
     "44 Et celui qui avait été mort sortit, les pieds et les mains attachés par des bandes, et le visage enveloppé d'un linge. Jésus dit aux gens: \"Déliez-le et laissez-le aller!\". Beaucoup de ces Juifs qui étaient venus auprès de Marie et qui avaient vu ce que Jésus avait fait, crurent en lui.",
     "44 And he who had died came out bound hand and foot with graveclothes, and his face was wrapped with a cloth. Jesus said to them, Loose him, and let him go. 45 Then many of the Jews who had come to Mary, and had seen the things Jesus did, believed in Him.",
   ],
-  ],
+],
+[
   [
-    [
-      Prefix.gospelMass + "Psalm&D=GL55&C=Title",
-      "  مزامير 22: 4-5 و 40: 8",
-      "Psaume (22: 5 & 40: 10)",
-      "",
-    ],
-    
-    [
+    Prefix.gospelMass + "Psalm&D=GL55&C=Title",
+    "  مزامير 22: 4-5 و 40: 8",
+    "Psaume (22: 5 & 40: 10)",
+    "",
+  ],
+
+  [
     Prefix.same + "&C=NoActor",
     "\nهيأت قدامى مائدةً مقابل الذين يضايقوننى. الذى أكل خبزى رفع علىّ عقبه. هلليلويا.",
     "Psaume 22 : 5 et 40 : 10\nTu prépares la table devant moi, devant mes ennemis. Même l'ami, qui avait ma confiance et partageait mon pain, lève le talon contre moi.\nAlléluia !",
     "Akcob] n~outrapeza m~pam~yo e~bol: m~pem~yo n~nhethojhej m~moi. V/eyouwm m~pawik: aftwoun m~pefyibc e~hr/i e~jwi: a~llhlouia~.",
-    ],
-    ],
+  ],
+],
+[
   [
-    [
-      Prefix.gospelMass + "Gospel&D=GL55&C=Title",
-      " متى ( 26: 20–29)",
-      "Matthieu (26: 20-29)",
-      "",
-    ],
-    [
+    Prefix.gospelMass + "Gospel&D=GL55&C=Title",
+    " متى ( 26: 20–29)",
+    "Matthieu (26: 20-29)",
+    "",
+  ],
+  [
     Prefix.same + "&C=NoActor",
     "",
     "وَلَمَّا كَانَ الْمَسَاءُ اتَّكَأَ مَعَ الاِثْنَيْ عَشَرَ. وَفِيمَا هُمْ يَأْكُلُونَ قَالَ: «الْحَقَّ أَقُولُ لَكُمْ إِنَّ وَاحِداً مِنْكُمْ يُسَلِّمُنِي». فَحَزِنُوا جِدّاً وَابْتَدَأَ كُلُّ وَاحِدٍ مِنْهُمْ يَقُولُ لَهُ: «هَلْ أَنَا هُوَ يَا رَبُّ؟» فَأَجَابَ: «الَّذِي يَغْمِسُ يَدَهُ مَعِي فِي الصَّحْفَةِ هُوَ يُسَلِّمُنِي. إِنَّ ابْنَ الإِنْسَانِ مَاضٍ كَمَا هُوَ مَكْتُوبٌ عَنْهُ وَلَكِنْ وَيْلٌ لِذَلِكَ الرَّجُلِ الَّذِي بِهِ يُسَلَّمُ ابْنُ الإِنْسَانِ. كَانَ خَيْراً لِذَلِكَ الرَّجُلِ لَوْ لَمْ يُولَدْ».",
     "Le soir venu, il était à table avec les Douze. Et tandis qu’ils mangeaient, il dit : \" En vérité je vous le dis, l'un de vous me livrera. \" Fort attristés, ils se mirent chacun à lui dire : \" Serait-ce moi, Seigneur? «  Il répondit : «Quelqu'un qui a plongé avec moi la main dans le plat, voilà celui qui va me livrer ! Le Fils de l'homme s'en va selon qu'il est écrit de lui ; mais malheur à cet homme-là par qui le Fils de l'homme est livré ! Mieux eût valu pour cet homme-là de ne pas naître ! \"\n",
-    ],
-    [
+  ],
+  [
     Prefix.same + "&C=NoActor",
     "",
     "A son tour, Judas, celui qui allait le livrer, lui demanda : \" Serait-ce moi, Rabbi ? \" - \" Tu l'as dit \", répond Jésus. Or, tandis qu'ils mangeaient, Jésus prit du pain, le bénit, le rompit et le donna aux disciples en disant : \" Prenez, mangez, ceci est mon corps.«  Puis, prenant une coupe, il rendit grâces et la leur donna en disant : \" Buvez-en tous ; car ceci est mon sang, le sang de l'alliance, qui va être répandu pour une multitude en rémission des péchés. Je vous le dis, je ne boirai plus désormais de ce produit de la vigne jusqu'au jour où je le boirai avec vous, nouveau, dans le Royaume de mon Père.\"",
     "فَسَأَلَ يَهُوذَا مُسَلِّمُهُ: «هَلْ أَنَا هُوَ يَا سَيِّدِي؟» قَالَ لَهُ: «أَنْتَ قُلْتَ». وَفِيمَا هُمْ يَأْكُلُونَ أَخَذَ يَسُوعُ الْخُبْزَ وَبَارَكَ وَكَسَّرَ وَأَعْطَى التَّلاَمِيذَ وَقَالَ: «خُذُوا كُلُوا. هَذَا هُوَ جَسَدِي». وَأَخَذَ الْكَأْسَ وَشَكَرَ وَأَعْطَاهُمْ قَائِلاً: «اشْرَبُوا مِنْهَا كُلُّكُمْ لأَنَّ هَذَا هُوَ دَمِي الَّذِي لِلْعَهْدِ الْجَدِيدِ الَّذِي يُسْفَكُ مِنْ أَجْلِ كَثِيرِينَ لِمَغْفِرَةِ الْخَطَايَا. وَأَقُولُ لَكُمْ: إِنِّي مِنَ الآنَ لاَ أَشْرَبُ مِنْ نِتَاجِ الْكَرْمَةِ هَذَا إِلَى ذَلِكَ الْيَوْمِ حِينَمَا أَشْرَبُهُ مَعَكُمْ جَدِيداً فِي مَلَكُوتِ أَبِي».\n",
-    ],
-    ],
+  ],
+],
 [
   [
     Prefix.gospelMass + "Psalm&D=GL5&C=Title",
@@ -13298,7 +13362,7 @@ ReadingsArrays.GospelMassArrayFR = [[
     Prefix.gospelMass + "Psalm&D=JFast2&C=Title",
     "مزمور (85 : 2)",
     "Psaume (85: 2)",
-    "Tuesday of Jonah Fast",
+    "Psalm (85: 2)",
   ],
   [
     Prefix.same + "&C=NoActor",
