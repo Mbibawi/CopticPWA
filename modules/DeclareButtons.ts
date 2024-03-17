@@ -178,9 +178,7 @@ const btnIncenseOffice: Button = new Button({
 
     //We will remove the Vespers Button during if we are during the Great Lent or the Jonah Fast, and we are not a Saturday
     if ([Seasons.GreatLent, Seasons.JonahFast].includes(Season) &&
-      weekDay !== 6)
-      btnIncenseOffice.children = btnIncenseOffice.children.filter(
-        (btn) => btn !== btnIncenseVespers);
+      weekDay !== 6) btnIncenseOffice.children = [btnIncenseDawn];
 
     if (returnBtnChildren) return btnIncenseOffice.children;
   },
