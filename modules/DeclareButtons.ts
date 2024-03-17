@@ -177,13 +177,10 @@ const btnIncenseOffice: Button = new Button({
     //show or hide the PropheciesDawn button if we are in the Great Lent or JonahFast:
 
     //We will remove the Vespers Button during if we are during the Great Lent or the Jonah Fast, and we are not a Saturday
-    if (
-      (Season === Seasons.GreatLent || Season === Seasons.JonahFast) &&
-      weekDay !== 6
-    )
+    if ([Seasons.GreatLent, Seasons.JonahFast].includes(Season) &&
+      weekDay !== 6)
       btnIncenseOffice.children = btnIncenseOffice.children.filter(
-        (btn) => btn !== btnIncenseVespers
-      );
+        (btn) => btn !== btnIncenseVespers);
 
     if (returnBtnChildren) return btnIncenseOffice.children;
   },
@@ -199,11 +196,6 @@ const btnIncenseDawn: Button = new Button({
   languages: [...prayersLanguages],
   docFragment: new DocumentFragment(),
   onClick: (): string[] => {
-    btnIncenseDawn.children = [btnReadingsGospelIncenseDawn];
-
-    if ([Seasons.GreatLent, Seasons.JonahFast].includes(Season) && ![0, 6].includes(weekDay))
-      btnIncenseDawn.children.unshift(btnReadingsPropheciesDawn); //We add the prophecies button during the Great Leant and Jonah Fast except on Saturday and Sunday
-
     btnIncenseDawn.prayersSequence = [...IncensePrayersSequence].filter(
       (title) => !title.startsWith(Prefix.incenseVespers)
     ); //We will remove all the Incense Vespers titles from the prayersSequence Array
