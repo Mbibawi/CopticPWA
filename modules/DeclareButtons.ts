@@ -201,8 +201,8 @@ const btnIncenseDawn: Button = new Button({
   onClick: (): string[] => {
     btnIncenseDawn.children = [btnReadingsGospelIncenseDawn];
 
-    if (Season === Seasons.GreatLent || Season === Seasons.JonahFast)
-      btnIncenseDawn.children.unshift(btnReadingsPropheciesDawn); //We add the prophecies button during the Great Leant and Jonah Fast
+    if ([Seasons.GreatLent, Seasons.JonahFast].includes(Season) && ![0, 6].includes(weekDay))
+      btnIncenseDawn.children.unshift(btnReadingsPropheciesDawn); //We add the prophecies button during the Great Leant and Jonah Fast except on Saturday and Sunday
 
     btnIncenseDawn.prayersSequence = [...IncensePrayersSequence].filter(
       (title) => !title.startsWith(Prefix.incenseVespers)
