@@ -825,13 +825,8 @@ br{
   background-color: rgb(190, 66, 175);
 }
 
-.ReadingIntro{
-  background-image: linear-gradient(to bottom, rgb(221, 161, 12), rgb(239, 196, 90));
-  margin-top: 0px;
-  border-left: rgb(171, 124, 3) solid 7px;
-  border-right: rgb(129, 95, 7) solid 7px;
-}
-.ReadingEnd{
+
+.ReadingIntro, .ReadingEnd{
   background-image: linear-gradient(to bottom, rgb(166, 139, 102), rgb(222, 184, 135));
   margin-bottom: 1px;
   border-bottom: #111 solid 4pt;
