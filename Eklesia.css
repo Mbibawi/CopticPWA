@@ -152,35 +152,42 @@ margin-bottom: 2px !important;
 
 @media (orientation: landscape){
   .sideBarBtn{
-    min-width: 10cqw !important;
-    max-width: 45cqw !important;
-    min-height: 20cqh !important;
+    min-width: 1cqw !important;
+    max-width: 40cqw !important;
+    min-height: 16cqh !important;
     max-height: 20cqh !important;
   }
   .mainPageBtn{
-    min-height: 18cqw !important;
+    min-height: 6cqw !important;
     max-height: 30cqh !important;
   }
   .settings{
     font-size: 2cqw !important;
     max-width: 14cqw !important;
-    height: 4cqh !important;
+    height: 2.2cqw !important;
   }
   .dateBox{
     height: fit-content !important;
-    min-height:4cqh !important;
-    max-height: 6cqw !important;
+    min-height: 7cqw !important;
+    max-height: 9cqw !important;
+    max-height: 6cqw !important;  
   }
   .sideBarBtn>p{
     font-size: 3cqw !important;
     line-height: 3cqw !important;
   }
   .mainPageBtn>p{
-    font-size: 4cqw !important;
-    line-height: 5cqw !important;
+    font-size: 2.2cqw !important;
+    line-height: 3cqw !important;
   }
   .dateBox>p{
-    font-size: 1cqw !important;
+    font-size: 1.5cqw !important;
+  }
+  .homeImg{
+    width: 30%;
+  }
+  .credentialsDiv{
+    font-size: 1cqw;
   }
 }
 
@@ -192,18 +199,19 @@ margin-bottom: 2px !important;
     max-height: 40cqh !important;
   }
   .mainPageBtn{
-    min-height: 35cqw !important;
+    min-height: 15cqw !important;
     max-height: 40cqh !important;
   }
   .dateBox{
     height: fit-content !important;
-    min-height:4cqh !important;
-    max-height: 6cqw !important;
+    min-height: 9cqw !important;
+    max-height: 9cqw !important;
+    min-width: 15cqw !important;
   }
   .settings{
     font-size: 3cqw !important;
     max-width: 14cqw !important;
-    height: 1cqh !important;
+    height: 3cqw !important;
   }
 
   .sideBarBtn>p{
@@ -212,12 +220,18 @@ margin-bottom: 2px !important;
   }
 
   .mainPageBtn>p{
-    font-size: 4cqw !important;
+    font-size: 5cqw !important;
     line-height: 6cqw !important;
   }
   .dateBox>p{
-    font-size: 1.2cqw !important;
-    line-height: 1.5cqw;
+    font-size: 1.7cqw !important;
+    line-height: 2cqw;
+  }
+  .homeImg{
+    width: 70%;
+  }
+  .credentialsDiv{
+    font-size: 2cqw;
   }
 }
 
@@ -225,7 +239,6 @@ margin-bottom: 2px !important;
 align-self: center;
 justify-self: center;
 margin-top: 5px;
-width: 40%;
 border-radius: 50%;
 box-shadow: 0px 0px 5px 5px rgb(181, 179, 179), 0px 0px 6px 6px rgba(3, 36, 87, 0.745);
 }
@@ -374,7 +387,6 @@ color:white;
 
 .credentialsDiv{
   font-style: italic;
-  font-size: 2cqw;
   color:white
 }
 
