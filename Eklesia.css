@@ -120,19 +120,105 @@ body{
   border-radius: 9px;
   border-width: 3px;
   border: 3px solid #c93702;
-  width:38cqi;
-  max-width: 400px;
-  height: 13cqi;
-  max-height: 80px;
+  width:50cqw;
+  height: fit-content;
   margin-top: 2px !important;
 margin-bottom: 2px !important;
 }
 
 .sideBarBtn>p{
   font-weight: bold !important;
-  font-size: 15pt !important;
   text-align: center;
   text-shadow: 0.5px 0.5px grey;
+}
+
+.mainPageBtn{
+  background-position: center;
+  background-size:cover;
+  background-clip: border-box;
+  border-radius: 15px;
+  box-shadow: 2px 2px 4px rgb(96, 27, 2);
+  border: none !important;
+  margin: 5px 2px;
+  height: 22cqh;
+  width: 31cqw;
+  justify-self: center;
+}
+.mainPageBtn>p{
+  text-align: center !important;
+  color:rgb(255, 255, 255) !important;
+  text-shadow: 0.5px 0.5px white;
+}
+
+@media (orientation: landscape){
+  .sideBarBtn{
+    min-width: 10cqw !important;
+    max-width: 45cqw !important;
+    min-height: 20cqh !important;
+    max-height: 20cqh !important;
+  }
+  .mainPageBtn{
+    min-height: 18cqw !important;
+    max-height: 30cqh !important;
+  }
+  .settings{
+    font-size: 2cqw !important;
+    max-width: 14cqw !important;
+    height: 4cqh !important;
+  }
+  .dateBox{
+    height: fit-content !important;
+    min-height:4cqh !important;
+    max-height: 6cqw !important;
+  }
+  .sideBarBtn>p{
+    font-size: 3cqw !important;
+    line-height: 3cqw !important;
+  }
+  .mainPageBtn>p{
+    font-size: 4cqw !important;
+    line-height: 5cqw !important;
+  }
+  .dateBox>p{
+    font-size: 1cqw !important;
+  }
+}
+
+@media (orientation: portrait){
+  .sideBarBtn{
+    min-width: 10cqw !important;
+    max-width:50cqw !important;
+    min-height: 8cqh !important;
+    max-height: 40cqh !important;
+  }
+  .mainPageBtn{
+    min-height: 35cqw !important;
+    max-height: 40cqh !important;
+  }
+  .dateBox{
+    height: fit-content !important;
+    min-height:4cqh !important;
+    max-height: 6cqw !important;
+  }
+  .settings{
+    font-size: 3cqw !important;
+    max-width: 14cqw !important;
+    height: 1cqh !important;
+  }
+
+  .sideBarBtn>p{
+    font-size: 3.6cqw !important;
+    line-height: 4cqw !important;
+  }
+
+  .mainPageBtn>p{
+    font-size: 4cqw !important;
+    line-height: 6cqw !important;
+  }
+  .dateBox>p{
+    font-size: 1.2cqw !important;
+    line-height: 1.5cqw;
+  }
 }
 
 .homeImg{
@@ -286,29 +372,9 @@ color:white;
   line-height: 3cqi;
 }
 
-.mainPageBtn{
-  background-position: center;
-  background-size:cover;
-  background-clip: border-box;
-  border-radius: 15px;
-  box-shadow: 2px 2px 4px rgb(96, 27, 2);
-  border: none !important;
-  margin: 5px 2px;
-  height: 22cqh;
-  width: 31cqw;
-  justify-self: center;
-}
-.mainPageBtn>p{
-  text-align: center !important;
-  color:rgb(255, 255, 255) !important;
-  font-size: 15pt !important;
-  font-weight: bold !important;
-  text-shadow: 0.5px 0.5px white;
-  line-height: calc(var(--fSize)*10cqh) !important;
-}
 .credentialsDiv{
   font-style: italic;
-  font-size: 8pt;
+  font-size: 2cqw;
   color:white
 }
 
@@ -630,12 +696,9 @@ br{
   color: #C45911 !important;
 }
 .settings{
-  width:fit-content;
-  height: fit-content;
   text-align: center;
   text-justify: center ;
   background-color: rgb(81, 0, 128);
-  font-size: 12pt;
   font-weight: bold;
   color:white;
   border-radius: 30px;
@@ -697,8 +760,6 @@ br{
   display:block;
   background-color: #00000030 !important;
   color:rgb(255, 255, 255);
-  height: 13cqh;
-  font-size: 1.5cqi;
   font-style: italic;
   border-style: groove;
   border-color: #422121;
@@ -713,7 +774,6 @@ br{
   justify-self: stretch;
   margin-top: 2px;
   padding: 3px;
-  line-height: 4cqh;
 }
 
 

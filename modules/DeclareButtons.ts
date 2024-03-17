@@ -169,7 +169,7 @@ const btnIncenseOffice: Button = new Button({
   btnID: "btnIncenseOffice",
   label: {
     AR: "رفع بخور باكر أو عشية",
-    FR: "Office des Encens Aube et Vêpres",
+    FR: "Encens Matin et Vêpres",
   },
   onClick: (returnBtnChildren: boolean = false) => {
     //setting the children of the btnIncenseOffice. This must be done by the onClick() in order to reset them each time the button is clicked
@@ -193,7 +193,7 @@ const btnIncenseDawn: Button = new Button({
   btnID: "btnIncenseDawn",
   label: {
     AR: "بُخُورِ بَاكِرِ",
-    FR: "Encens Aube",
+    FR: "Encens du Matin",
   },
   showPrayers: true,
   languages: [...prayersLanguages],
@@ -346,7 +346,7 @@ const btnIncenseDawn: Button = new Button({
         btnID: "AdamDoxologies",
         label: {
           AR: "ذكصولوجيات باكر آدام",
-          FR: "Doxologies Adam Aube",
+          FR: "Doxologies Adam du Matin",
         },
         prayers: DoxologiesPrayersArray.filter((table) =>
           table[0][0].startsWith(Prefix.doxologies + "AdamDawn")),
@@ -1636,7 +1636,7 @@ const btnReadingsGospelIncenseVespers: Button = new Button({
   btnID: "btnReadingsGospelIncenseVespers",
   label: {
     AR: "إنجيل عشية",
-    FR: "Evangile  Vêpres",
+    FR: "Évangile  Vêpres",
     EN: "Vespers Gospel",
   },
   showPrayers: true,
@@ -1649,7 +1649,7 @@ const btnReadingsGospelIncenseDawn: Button = new Button({
   btnID: "btnReadingsGospelIncenseDawn",
   label: {
     AR: "إنجيل باكر",
-    FR: "Evangile Aube",
+    FR: "Évangile du Matin",
     EN: "Gospel Dawn",
   },
   showPrayers: true,
@@ -1676,7 +1676,7 @@ const btnReadingsGospelNight: Button = new Button({
   btnID: "btnReadingsGospelNight",
   label: {
     AR: "إنجيل المساء",
-    FR: "Evangile du Soir",
+    FR: "Évangile du Soir",
     EN: "Night Gospel",
   },
   showPrayers: true,
@@ -1807,7 +1807,7 @@ const btnDayReadings: Button = new Button({
         btnID: "btnReadingsGospelMass",
         label: {
           AR: "إنجيل القداس",
-          FR: "l'Evangile",
+          FR: "l'Évangile",
           EN: "Gospel",
         },
         showPrayers: true,

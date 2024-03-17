@@ -7497,7 +7497,7 @@ PrayersArrayFR = [
     [
       Prefix.massCommon + "SpasmosAdamLong&D=$Seasons.KiahkWeek1&C=Title",
       "",
-      "Aspasmos Adam  pour la 1ère semaine de Kiahk",
+      "Aspasmos Adam pour la 1ère semaine de Kiahk",
       "",
       "اسبسمس آدام للأسبوع الأول من شهر كيهك",
     ],
@@ -7776,7 +7776,7 @@ PrayersArrayFR = [
       Prefix.massCommon +
       "SpasmosWatesLong&D=$Seasons.GreatLent||$Seasons.JonahFast&C=Title",
       "",
-      "",
+      "Et je le sais : Tu es Très-Bon Clément",
       "",
       "أنَا أَعْرِفُ أَنَّكَ صالح",
     ],
@@ -7797,23 +7797,23 @@ PrayersArrayFR = [
     [
       Prefix.same + "&C=Assembly",
       "Ϯⲧⲱⲃϩ ⲙ̀ⲙⲟⲕ ⲱ̀ ⲡⲁϬⲟⲓⲥ Ⲓⲏ̅ⲥ̅: ⲙ̀ⲡⲉⲣⲥⲟϩⲓ ⲙ̀ⲙⲟⲓ ϧⲉⲛ ⲡⲉⲕϫⲱⲛⲧ: ⲟ̀ⲩⲇⲉ ⲟⲛ ϧⲉⲛ ⲡⲉⲕⲙ̀ⲃⲟⲛ ⲙ̀ⲡⲉⲣϯⲥ̀ⲃⲱ ⲛ̀ⲧⲁⲙⲉⲧⲁⲧⲉ̀ⲙⲓ. ",
-      "J’implore ô mon Seigneur Jésus Oh ! ne me réprimande pas. Sois sans colère et sans rejet Corrige aussi mon ignorance.",
+      "J’implore ô mon Seigneur Jésus Oh ! ne me réprimande pas. Sois sans colère et sans rejet Corrige aussi mon ignorance.",
       "",
-      "أَطْلُبُ إليَكَ يا رَبّى يَسُوعْ، أنْ لا تُبَكِّتَنِى بِغَضَبِكَ، ولا بِرِجْزِكَ، تُؤَدِّبُ جِهَالَتي. ",
+      "أَطْلُبُ إليَكَ يا رَبّى يَسُوعْ، أنْ لا تُبَكِّتَنِى بِغَضَبِكَ، ولا بِرِجْزِكَ، تُؤَدِّبُ جِهَالَتي. ",
     ],
     [
       Prefix.same + "&C=Assembly",
       "Ⲁⲗ̅ Ⲁⲗ̅ Ⲁⲗ̅: ",
-      "Alléluia, Alléluia, Alléluia.",
+      "Alléluia, Alléluia, Alléluia.",
       "",
       "هَلِّليلُويا، هَلِّليلُويا، هَلِّليلُويا،",
     ],
     [
       Prefix.same + "&C=Assembly",
-      "Ⲡⲭ̅ⲥ̅Ⲁϥⲉ̀ⲣⲛⲏⲥⲧⲉⲩⲓⲛ     ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ: ⲛ̀ϩ̀ⲙⲉ ⲛ̀ⲉ̀ϩⲟⲟ̀ⲩ ⲛⲉⲙ ϩ̀ⲙⲉ ⲛ̀ⲉ̀ϫⲱⲣϩ.",
-      "Christ a jeûné pour nous,  quarante jours et quarante nuits.",
+      "Ⲡⲭ̅ⲥ̅Ⲁϥⲉ̀ⲣⲛⲏⲥⲧⲉⲩⲓⲛ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ: ⲛ̀ϩ̀ⲙⲉ ⲛ̀ⲉ̀ϩⲟⲟ̀ⲩ ⲛⲉⲙ ϩ̀ⲙⲉ ⲛ̀ⲉ̀ϫⲱⲣϩ.",
+      "Christ a jeûné pour nous, quarante jours et quarante nuits.",
       "",
-      "المَسِيحْ صَامْ عَنَّا أرَبّعين نهارًا وأرَبّعين ليلة.",
+      "المَسِيحْ صَامْ عَنَّا أرَبّعين نهارًا وأرَبّعين ليلة.",
     ],
     [
       Prefix.same + "&C=Assembly",
