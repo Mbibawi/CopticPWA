@@ -189,6 +189,16 @@ margin-bottom: 2px !important;
   .credentialsDiv{
     font-size: 1cqw;
   }
+  .inlineBtn{
+  max-height: 27cqh;
+  min-height: 10cqh;
+  width: 27cqw;
+  max-width: 35cqw;
+  }
+  .btnText{
+    font-size: 2.1cqw !important;
+    line-height: 2.5cqw !important;
+  }
 }
 
 @media (orientation: portrait){
@@ -233,6 +243,16 @@ margin-bottom: 2px !important;
   .credentialsDiv{
     font-size: 2cqw;
   }
+  .inlineBtn{
+    min-height: 5cqh !important;
+    max-height: 24cqh !important;
+    width: 30cqw;
+    max-width: 30cqw;
+    }
+    .btnText{
+      font-size: 3.2cqw !important;
+      line-height: 4cqw !important;
+    }
 }
 
 .homeImg{
@@ -273,7 +293,7 @@ box-shadow: 0px 0px 5px 5px rgb(181, 179, 179), 0px 0px 6px 6px rgba(3, 36, 87, 
 }
 .NoActor{
   background-image: linear-gradient(to bottom, rgb(192, 182, 140), rgb(235, 223, 175) );
-  /*background: cornsilk;*/
+  color:#01043f;
 }
 .Row {
   display: grid;
@@ -366,9 +386,6 @@ p{
 
 .inlineBtn {
   background-image: radial-gradient(circle, #ce2e1c 0%, #701308 100%);
-height: 60px;
-width: 28cqw;
-max-width: 250px;
 justify-self: center;
 border-color: #d44d2b;
 border-width: 2px;
@@ -376,13 +393,11 @@ border-radius: 9px;
 color:white;
 }
 .btnText{
-  font-size: 2cqi !important;
   text-shadow: 2px 2px 2px grey;
   text-align: center!important;
   border: none !important;
   margin-top: 3px;
   margin-bottom: 3px;
-  line-height: 3cqi;
 }
 
 .credentialsDiv{
@@ -827,11 +842,14 @@ br{
 
 
 .ReadingIntro, .ReadingEnd{
-  background-image: linear-gradient(to bottom, rgb(166, 139, 102), rgb(222, 184, 135));
+  background-image: radial-gradient(circle,rgb(221, 179, 125), rgb(128, 100, 61) );
   margin-bottom: 1px;
-  border-bottom: #111 solid 4pt;
-  border-left: rgb(224, 163, 85) solid 7px;
-  border-right: rgb(224, 163, 85)  solid 7px;
+  border-top: rgb(80, 77, 74) solid 7px;
+  border-bottom: rgb(91, 89, 86)  solid 7px;
+  font-style: italic;
+  padding: 0px 30px 0px 30px;
+  color: #560c04;
+  font-weight: bolder !important;
 }
 
 .musicalNote.amplifiedText{
