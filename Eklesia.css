@@ -7,12 +7,12 @@
   src: url(./fonts/CS_Avva_Shenouda.ttf);
 }
 @font-face {
-  font-family: ArialCoptic;
+  font-family: Coptic;
   src: url(./fonts/ArialCoptic.ttf);
 }
 @font-face {
-  font-family: ArialCoptic;
-  src: url(./fonts/Athanasius.ttf);
+  font-family: Coptic;
+ src: url(./fonts/Athanasius.ttf);
 }
 @font-face {
   font-family: CormorantGaramond;
@@ -349,7 +349,7 @@ p{
 .COP
 {
   grid-area: COP;
-  font-family: ArialCoptic;
+  font-family: Coptic, Athanasius;
   font-size: calc(var(--fSize) * 2.6cqw);
   line-height: calc(var(--fSize) *4.6cqw);
   font-stretch: condensed;
@@ -869,12 +869,14 @@ br{
 }
 
 .btnEditing{
-  min-width: 20vw !important;
-  max-width: 20vw !important;
+  min-width: 17.5cqw !important;
+  max-width: 17.5cqw !important;
   max-height: 40px !important;
   margin-bottom: 4px !important;
 }
 .btnsDiv{
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
   justify-content: center;
   align-items: center;
   grid-template-columns: 100%;
@@ -1004,6 +1006,26 @@ q{
   background-color: #ccc5c5;
   border-radius: 5px;
   font-family: 'Times New Roman', Times, serif;
+}
+.modalContainer{
+  width: fit-content;
+  min-width: 15cqw;
+  min-height: 15cqh;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  padding: 20Px;
+  background-color: #011d36;
+  border: 3px solid white;
+ border-radius: 10px;
+ position: absolute;
+ top: 20px;
+ left: 30cqw;
+}
+.modalContainer>h3{
+  color: white;
+  font-size: 13pt;
 }
 
 .settingsLabel>h3{

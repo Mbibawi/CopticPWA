@@ -25,7 +25,7 @@ type typeButton = {
 };
 //CONSTANTS
 const version: string =
-  "v5.8.0 (Fixes to the readings: completed most of the missing readings)";
+  "v5.9.0 (Changes to the initial setting of the languages when the app is installed for the first time)";
 const calendarDay: number = 24 * 60 * 60 * 1000; //this is a day in milliseconds
 const containerDiv: HTMLDivElement = document.getElementById(
   "containerDiv") as HTMLDivElement;
@@ -470,46 +470,15 @@ const AngelsFeasts: string[] = [
 
 const martyrsFeasts: string[] = [];
 
-const nonCopticLanguages = [['AR', 'Arabic'], ['FR', 'French'], ['EN', 'English']];
-const copticLanguages = [['COP', 'Coptic'], ['CA', 'قبطي مُعَرَبْ'], ['CF', 'Copte en charachères français']];
+const nonCopticLanguages = [["AR", "العربية"], ["FR", "Français"], ["EN", "English"]];
+const copticLanguages = [["COP", "Coptic"], ["CA", "قبطي مُعَرَّبْ"], ['CF', 'Copte en charachères français']];
 const allLanguages: string[][] = [...nonCopticLanguages, ...copticLanguages];
 
-
-var defaultLanguage: string = setLanguage(0, 'your default', nonCopticLanguages) || 'AR';
-var foreingLanguage: string = setLanguage(1, 'a foreign', nonCopticLanguages);
-var copticLanguage: string = setLanguage(2, 'the characters in which you want the coptic text to be displayed', copticLanguages);
-
-
-localStorage.userLanguages = JSON.stringify([defaultLanguage, foreingLanguage, copticLanguage]);//We do this in case it has been changed
-
-
-function setLanguage(index: number, text: string, languages: string[][]): string {
-  let userLanguages: string[] = [];
-
-  if (localStorage.userLanguages)
-    userLanguages = JSON.parse(localStorage.userLanguages) as string[];
-
-  if (userLanguages[index]) return userLanguages[index];//We return the value storaged in the localStorage if it is null. When it is null, it means that the user had willingly ignored setting the foreign language when he installed the app for the first time. We do this for any other language than the default language because it must be set.
-
-  if (index > 0 && userLanguages[index] === null) return userLanguages[index];
-
-  let choices = languages.map(lang => lang[1]);
-
-  if (defaultLanguage && index < 2) choices.splice(choices.indexOf(languages.find(lang => lang[0] === defaultLanguage)[1]), 1)//If the function is called while the defaultLanguage was set, we remove the chosen language from the list
-
-
-  let choice = prompt('Choose ' + text + ' language from the following: ', choices.join(', '));
-
-  if (!choice || !choices.includes(choice)) return undefined;
-
-
-  let found = allLanguages.find(lang => lang[1] === choice);
-  if (!found) return undefined;
-
-  userLanguages[index] = found[0];
-  return userLanguages[index];
-
-}
+var userLanguages;
+if (localStorage.userLanguages) userLanguages = JSON.parse(localStorage.userLanguages) || undefined;
+var defaultLanguage: string = (() => { if (userLanguages) return userLanguages[0]})() || undefined ;
+var foreingLanguage: string = (() => { if (userLanguages) return userLanguages[1]})() || undefined;
+var copticLanguage: string = (() => { if (userLanguages) return userLanguages[2]})() || undefined;
 
 const prayersLanguages: string[] = ["COP", "FR", "CA", "AR"];
 const readingsLanguages: string[] = ["AR", "FR", "EN"];

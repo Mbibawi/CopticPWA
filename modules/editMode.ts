@@ -228,9 +228,9 @@ function addEdintingButtons() {
   let btnsDiv = document.createElement("div");
   btnsDiv.classList.add("btnsDiv");
   btnsDiv.style.display = "grid";
-  btnsDiv.style.gridTemplateColumns = ((100 / 3).toString() + "% ").repeat(3);
+  btnsDiv.style.gridTemplateColumns = ((100 / 5).toString() + "% ").repeat(5);
   btnsDiv.style.top = "10px";
-  btnsDiv.style.width = "90%";
+  btnsDiv.style.width = "95%";
   btnsDiv.style.justifySelf = "top !important";
   btnsDiv.style.justifyItems = "stretch";
   btnsDiv.style.position = "fixed";
@@ -858,7 +858,7 @@ function addNewRow(htmlParag: HTMLElement, isPlaceHolder: boolean = false, title
       isPlaceHolder ? p.lang = 'FR' : p.lang = child.lang;
       p.classList.add(p.lang.toUpperCase());
       p.contentEditable = "true";
-      p.addEventListener('keydown', (e: KeyboardEvent) => { e.preventDefault; paragraphsKeyShortcuts(e) })
+      p.addEventListener('keydown', (e: KeyboardEvent) => { paragraphsKeyShortcuts(e); return false })
     });
   let position: InsertPosition;
   below ? position = 'afterend' : position = 'beforebegin'
@@ -1114,7 +1114,7 @@ function createHtmlElementForPrayerEditingMode(args: {
     p.lang = lang; //we are adding this in order to be able to retrieve all the paragraphs in a given language by its data attribute. We need to do this in order for example to amplify the font of a given language when the user double clicks
     p.innerText = text;
     p.contentEditable = "true";
-    p.addEventListener('keydown', (e: KeyboardEvent) => { e.preventDefault; paragraphsKeyShortcuts(e) })
+    p.addEventListener('keydown', (e: KeyboardEvent) => { paragraphsKeyShortcuts(e); return false })
     htmlRow.appendChild(p); //the row which is a <div></div>, will encapsulate a <p></p> element for each language in the 'prayer' array (i.e., it will have as many <p></p> elements as the number of elements in the 'prayer' array)
   }
   //@ts-ignore
@@ -1379,7 +1379,7 @@ async function convertCopticFontFromAPI(htmlElement: HTMLElement, fontFrom?: str
   const apiURL: string =
     "https://www.copticchurch.net/coptic_language/fonts/convert";
 
-  if (!fontFrom) fontFrom = prompt("Provide the font", "Coptic1/CS Avva Shenouda");
+  if (!fontFrom) fontFrom = prompt("Provide the font", "Coptic1/CS Avva Shenouda/Avva Shenouda/Athanasius/New Athanasius");
 
   while (htmlElement.tagName !== "P" && htmlElement.parentElement)
     htmlElement = htmlElement.parentElement;

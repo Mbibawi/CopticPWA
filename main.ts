@@ -36,42 +36,73 @@ async function startApp() {
     setCopticDates();
   }
 
-  showChildButtonsOrPrayers(btnMainMenu); //!Caution: btnMain must be displayed after the dates and the Season have been set. Otherwise, btn Psalmody will not change its title
+  await loadTextScripts(); //! We need to await in order to halt the execution until all the scripts are loaded
 
-  (async function loadTextScripts() {
+  async function loadTextScripts() {
     //! We must load the text scripts after the dates were set and the 'giaki' variable was defined
-    let textFiles: string[] = [
-      "./Build/modules/DeclarePrayersArray.js",
-      "./Build/modules/DeclarePrayersSequences.js",
-      "./Build/modules/DeclareGospelVespersArray.js",
-      "./Build/modules/DeclareGospelDawnArray.js",
-      "./Build/modules/DeclareStPaulArray.js",
-      "./Build/modules/DeclareKatholikonArray.js",
-      "./Build/modules/DeclarePraxisArray.js",
-      "./Build/modules/DeclareSynaxariumArray.js",
-      "./Build/modules/DeclareGospelMassArray.js",
-      "./Build/modules/DeclareGospelNightArray.js",
-      "./Build/modules/DeclarePropheciesDawnArray.js",
-      "./Build/modules/DeclareHolyWeek.js",
-    ];
-    return textFiles.map((link) => {
-      let script: HTMLScriptElement = document.createElement("script");
-      script.src = link;
-      script.id = link.split("/Declare")[1].split(".js")[0];
-      script.type = "text/javascript";
-      script.onload = () => console.log(script.id + " has been loaded");
-      if (script.id === "PrayersArray")
-        script.onload = () => populatePrayersArrays(); //! We must wait that the PrayersArray script is loaded before calling populatePrayersArrays
-      return document.getElementsByTagName("body")[0].appendChild(script);
-    });
-  })();
+    let base = "./Build/modules/Declare";
+    return [
+      "PrayersArray",
+      "PrayersSequences",
+      "GospelVespersArray",
+      "GospelDawnArray",
+      "StPaulArray",
+      "KatholikonArray",
+      "PraxisArray",
+      "SynaxariumArray",
+      "GospelMassArray",
+      "GospelNightArray",
+      "DeclarePropheciesDawnArray",
+      "HolyWeek",
+    ].map(async (name) => await loadScript(base, name));//!We need to return in order to halt the code until all the scripts are loaded
+  }
 
   addKeyDownListnerToElement(document, "keydown", undefined);
 
+  if (!defaultLanguage) 
+    defaultLanguage = await setLanguage(0, nonCopticLanguages) || 'AR'; //If the user has not set the defaultLanguage yet (first time installed), or if for any reason the defaultLanguage setting was corrupted, we will call the languges setting process for all the languages
+  
+
+  showChildButtonsOrPrayers(btnMainMenu); //!Caution: btnMain must be displayed after the dates and the Season have been set. Otherwise, btn Psalmody will not change its title
   //  document.getElementById('homeImg').addEventListener('dblclick', createHtmlArray);
+
   alert(version)
 }
 
+async function loadScript(base: string, id: string): Promise<HTMLScriptElement> {
+  if (document.scripts.namedItem(id)) return;
+  let script: HTMLScriptElement = document.createElement("script");
+  script.src = base + id + '.js';
+  script.type = "text/javascript";
+  script.id = id;
+  script.onload = () => console.log(id + " has been loaded");
+  if (id === "PrayersArray")
+    script.onload = () => populatePrayersArrays(); //! We must wait that the PrayersArray script is loaded before calling populatePrayersArrays
+  return document.getElementsByTagName("body")[0].appendChild(script);
+}
+
+/**
+ * Sets the defaultLanguage, the foreignLang and the Coptic Language version for the first time
+ * @param {number} index - a number indicating whether the language to be set is the main/default language (index = 0), or the foreign language (index =1) or the Coptic language (index = 2)
+ * @param {string[][]} languages - a list of the languages from which the user will chose in each case
+ */
+async function setLanguage(index: number, languages: string[][]): Promise<string> {
+
+  if (localStorage.userLanguages)
+    userLanguages = JSON.parse(localStorage.userLanguages) as string[];
+
+  if (userLanguages && userLanguages[index]) return userLanguages[index];//We return the value storaged in the localStorage if it is null. When it is null, it means that the user had willingly ignored setting the foreign language when he installed the app for the first time. We do this for any other language than the default language because it must be set.
+
+
+  if (index > 0 && userLanguages && userLanguages[index] === null) return userLanguages[index];
+
+
+  if (index === 1) await showSettingsPanel(languages.filter(lang => lang[0] !== defaultLanguage), index);
+  else if (index !== 1) await showSettingsPanel(languages, index);
+
+  return [defaultLanguage, foreingLanguage, copticLanguage][index];
+
+}
 /**
  * @param {string[]} tblRow - an array of the text of the prayer which id matched the id in the idsArray. The first element in this array is the id of the prayer. The other elements are, each, the text in a given language. The prayers array is hence structured like this : ['prayerID', 'prayer text in Arabic', 'prayer text in French', 'prayer text in Coptic']
  * @param {string[]} languagesArray - the languages available for this prayer. The button itself provides this array from its "Languages" property
@@ -2604,7 +2635,15 @@ function hideExpandableButtonsPannel() {
   expandableBtnsPannel.classList.add(hidden);
 }
 
-function showSettingsPanel() {
+/**
+ * Shows the settings panel
+ * @param {string} getLangsBts - the list of languages buttons that we might need to return 
+ * @param {number} index - the index of the languages (0 = default language, 1 = foreign languages, 2 = Coptic language version)
+ */
+function showSettingsPanel(langs?: string[][], index?: number): Promise<string> {
+
+  if (langs && index >= 0) return showAddOrRemoveLanguagesBtns();//! since index can be = 0, if we check for !index, it will return false, that's why we check if index>=0 instead of !index
+
   showExpandableBtnsPannel("settingsPanel", true);
   let btn: HTMLElement;
 
@@ -2764,51 +2803,62 @@ function showSettingsPanel() {
   })();
 
   //Appending Add or Remove language Buttons
-  (async function showAddOrRemoveLanguagesBtns() {
-    let langs = [
-      ["AR", "العربية"],
-      ["FR", "Français"],
-      ["EN", "English"],
-      ["COP", "Coptic"],
-      ["CA", "قبطي مُعرب"],
+  showAddOrRemoveLanguagesBtns();
+  async function showAddOrRemoveLanguagesBtns(): Promise<string> {
+
+    let labels = [
+      {
+        AR: "اختر اللغة الأساسية (لغة الإعدادات)",
+        FR: "Sélectionner la langue par défaut",
+        EN: "Choose your Main Language (required)",
+        Type: 'Main Language'
+      },
+      {
+        AR: "اختر اللغة الأجنبية (اختياري)",
+        FR: "Sélectionner une langue étrangère (optionnel)",
+        EN: "Choose a foreign Language (optional)",
+        Type: 'Foreign language'
+      },
+      {
+        AR: "اختر نسخة النص القبطي (أحرف قبطية أو قبطي معرب )",
+        FR: "Sélectionner les caractères d'affichage de la version copte (si disponible)",
+        EN: "Choose the coptic language version",
+        Type: 'The Coptic version'
+      }
     ];
 
-    let defaultLangContainer = createBtnsContainer("defaultLanguage", {
-      AR: "اختر اللغة الأساسية (لغة الإعدادات)",
-      FR: "Sélectionner la langue par défaut",
-      EN: "Choose the default Language",
-    });
+    if (langs && index >= 0) return showLanguagesModal();//! since index can be = 0, if we check for !index, it will return false, that's why we check if index>=0 instead of !index
 
-    let foreignLangContainer = createBtnsContainer("foreignLanguage", {
-      AR: "اختر اللغة الأجنبية (اختياري)",
-      FR: "Sélectionner une langue étrangère (optionnel)",
-      EN: "Choose the foreign Language",
-    });
+    let btnsLangs = [
+      ...nonCopticLanguages,
+      ...copticLanguages.filter(lang => lang[0] !== 'CF')
+    ];
 
-    let copticLangContainer = createBtnsContainer("copticLanguage", {
-      AR: "اختر نسخة النص القبطي (أحرف قبطية أو قبطي معرب )",
-      FR: "Sélectionner les caractères d'affichage de la version copte (si disponible)",
-      EN: "Choose the coptic language version",
-    });
+
+    let defaultLangContainer = createBtnsContainer("defaultLanguage", labels[0]);
+
+    let foreignLangContainer = createBtnsContainer("foreignLanguage", labels[1]);
+
+    let copticLangContainer = createBtnsContainer("copticLanguage", labels[2]);
 
     addLangsBtns({
       btnsContainer: defaultLangContainer,
       fun: (lang) => setLanguage(lang, 0), //0 means that we are changing the element from which the default language is retrieved
-      langsOptions: [langs[0], langs[1], langs[2]],
+      langsOptions: [btnsLangs[0], btnsLangs[1], btnsLangs[2]],
       index: 0,
     });
 
     addLangsBtns({
       btnsContainer: foreignLangContainer,
       fun: (lang) => setLanguage(lang, 1), //1 means that we are changing the element from which the foreign language is retrieved
-      langsOptions: [langs[0], langs[1], langs[2]],
+      langsOptions: [btnsLangs[0], btnsLangs[1], btnsLangs[2]],
       index: 1,
     });
 
     addLangsBtns({
       btnsContainer: copticLangContainer,
       fun: (lang) => setLanguage(lang, 2), //2 means that we are changing the element from which the coptic version is retrieved
-      langsOptions: [langs[3], langs[4]],
+      langsOptions: [btnsLangs[3], btnsLangs[4]],
       index: 2,
     });
 
@@ -2816,8 +2866,9 @@ function showSettingsPanel() {
      * @param {string} lang - the language that the button changes when clicked
      * @param {number} index - the index of the language in the userLanguages array stored in the localStorage. This index indicated whether the language is the defaultLanguage (index=0) or the foreignLanguage (index=1), or the version of the Coptic text (index=2)
      */
-    function setLanguage(lang: string, index: number) {
-      let userLanguages: string[] = JSON.parse(localStorage.userLanguages);
+    async function setLanguage(lang: string, index: number):Promise<string[]|void> {
+      let userLanguages: string[];
+      if (localStorage.userLanguages) userLanguages = JSON.parse(localStorage.userLanguages);
       if (!userLanguages) userLanguages = [];
       if (index > 0 && userLanguages.indexOf(lang) === index)
         //If the language is already defined at the same index, we will set the element at the same index to undefined (i.e., we will desactivate the language and remove it from the list of userLanguages). We never set the default language (i.e. stored[0]) to undefined that's why we exclude the case where index = 0
@@ -2844,7 +2895,7 @@ function showSettingsPanel() {
         userLanguages[1] = undefined;
         userLanguages[index] = lang;
       }
-      else if (userLanguages.indexOf(lang) < 0)
+      else if (!userLanguages.includes(lang))
         //If the array does not contain the language at any of its indexes, we add it at the index passed as argument
         userLanguages[index] = lang;
 
@@ -2854,6 +2905,7 @@ function showSettingsPanel() {
 
       localStorage.userLanguages = JSON.stringify(userLanguages);
       console.log(localStorage.userLanguages);
+      return userLanguages
     }
 
     function addLangsBtns(args: {
@@ -2893,7 +2945,59 @@ function showSettingsPanel() {
         3
       );
     }
-  })();
+
+    async function showLanguagesModal(): Promise<string> {
+
+      if (!defaultLanguage) defaultLanguage = 'EN';//We do this in order for the container to select the English version of the label until the user chooses his prefered language
+
+      let choices: string[][][] =[nonCopticLanguages, nonCopticLanguages, copticLanguages];
+      let langs = [defaultLanguage, foreingLanguage, copticLanguage];
+
+      let container = createBtnsContainer("modalContainer", labels[index], 'modalContainer');
+      addLabel(index);
+      document.getElementById('content').prepend(container);
+
+      function addLabel(i:number){
+        if (!container) return;
+        let lable = document.createElement('h3');
+        lable.innerText = labels[i][defaultLanguage];
+        container.appendChild(lable)
+      };
+
+    return await showModal(index);
+      
+      async function showModal(i: number) {
+        let choice = choices[i];
+        if (i === 1) choice = choice.filter(l => l[0] !== defaultLanguage);
+
+        let newBtn: HTMLElement;
+        choice.forEach((lang) => {
+            newBtn = createSettingsBtn({
+                      tag: "button",
+                      role: "button",
+                      btnClass: "settingsBtn",
+                      innerText: lang[1],
+                      btnsContainer: container,
+                      id: "userLang",
+                      onClick: {event: 'click', fun: ()=>onClick(lang)},
+          });
+        });
+        return defaultLanguage;
+      
+        async function onClick(lang:string[]){
+          if (!confirm(lang[1] + ' will be set as your ' + labels[i].Type)) return;   
+          await setLanguage(lang[0], i);    
+          if (choices[i + 1]){
+                  container.innerHTML = '';
+                  addLabel(i+1);
+                  showModal(i + 1)
+                  showChildButtonsOrPrayers(btnMainMenu);
+          }  else container.remove();
+        };
+    }
+
+    }
+  }
 
   (async function showExcludeActorButon() {
     let btnsContainer = createBtnsContainer("showOrHideActor", {
@@ -3082,11 +3186,12 @@ function showSettingsPanel() {
 
   function createBtnsContainer(
     id: string,
-    labelText: { AR?: string; FR?: string; EN?: string }
-  ) {
+    labelText: { AR?: string; FR?: string; EN?: string },
+    cssClass: string = 'settingsBtnsContainer'
+  ): HTMLDivElement {
     let btnsContainer = document.createElement("div");
     btnsContainer.id = id;
-    btnsContainer.classList.add('settingsBtnsContainer');
+    btnsContainer.classList.add(cssClass);
 
     expandableBtnsPannel.appendChild(btnsContainer);
     let labelsDiv = document.createElement("div");
@@ -3115,9 +3220,7 @@ function showSettingsPanel() {
 
     let btn = document.createElement(args.tag);
 
-    if (!args.role) args.role = args.tag;
-
-    if (args.role) btn.role = args.role;
+    btn.role = args.role || args.tag;
 
     if (args.innerText) btn.innerHTML = args.innerText;
 
