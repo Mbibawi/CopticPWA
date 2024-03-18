@@ -52,7 +52,7 @@ async function startApp() {
       "SynaxariumArray",
       "GospelMassArray",
       "GospelNightArray",
-      "DeclarePropheciesDawnArray",
+      "PropheciesDawnArray",
       "HolyWeek",
     ].map(async (name) => await loadScript(base, name));//!We need to return in order to halt the code until all the scripts are loaded
   }
