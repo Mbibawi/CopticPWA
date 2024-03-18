@@ -59,8 +59,7 @@ async function startApp() {
 
   addKeyDownListnerToElement(document, "keydown", undefined);
 
-  if (!defaultLanguage) 
-    defaultLanguage = await setLanguage(0, nonCopticLanguages) || 'AR'; //If the user has not set the defaultLanguage yet (first time installed), or if for any reason the defaultLanguage setting was corrupted, we will call the languges setting process for all the languages
+  if (!defaultLanguage) await showSettingsPanel(0); //If the user has not set the defaultLanguage yet (first time installed), or if for any reason the defaultLanguage setting was corrupted, we will call the languges setting process for all the languages
   
 
   showChildButtonsOrPrayers(btnMainMenu); //!Caution: btnMain must be displayed after the dates and the Season have been set. Otherwise, btn Psalmody will not change its title
@@ -81,28 +80,6 @@ async function loadScript(base: string, id: string): Promise<HTMLScriptElement> 
   return document.getElementsByTagName("body")[0].appendChild(script);
 }
 
-/**
- * Sets the defaultLanguage, the foreignLang and the Coptic Language version for the first time
- * @param {number} index - a number indicating whether the language to be set is the main/default language (index = 0), or the foreign language (index =1) or the Coptic language (index = 2)
- * @param {string[][]} languages - a list of the languages from which the user will chose in each case
- */
-async function setLanguage(index: number, languages: string[][]): Promise<string> {
-
-  if (localStorage.userLanguages)
-    userLanguages = JSON.parse(localStorage.userLanguages) as string[];
-
-  if (userLanguages && userLanguages[index]) return userLanguages[index];//We return the value storaged in the localStorage if it is null. When it is null, it means that the user had willingly ignored setting the foreign language when he installed the app for the first time. We do this for any other language than the default language because it must be set.
-
-
-  if (index > 0 && userLanguages && userLanguages[index] === null) return userLanguages[index];
-
-
-  if (index === 1) await showSettingsPanel(languages.filter(lang => lang[0] !== defaultLanguage), index);
-  else if (index !== 1) await showSettingsPanel(languages, index);
-
-  return [defaultLanguage, foreingLanguage, copticLanguage][index];
-
-}
 /**
  * @param {string[]} tblRow - an array of the text of the prayer which id matched the id in the idsArray. The first element in this array is the id of the prayer. The other elements are, each, the text in a given language. The prayers array is hence structured like this : ['prayerID', 'prayer text in Arabic', 'prayer text in French', 'prayer text in Coptic']
  * @param {string[]} languagesArray - the languages available for this prayer. The button itself provides this array from its "Languages" property
@@ -2640,9 +2617,9 @@ function hideExpandableButtonsPannel() {
  * @param {string} getLangsBts - the list of languages buttons that we might need to return 
  * @param {number} index - the index of the languages (0 = default language, 1 = foreign languages, 2 = Coptic language version)
  */
-function showSettingsPanel(langs?: string[][], index?: number): Promise<string> {
+function showSettingsPanel(index?: number): Promise<string> {
 
-  if (langs && index >= 0) return showAddOrRemoveLanguagesBtns();//! since index can be = 0, if we check for !index, it will return false, that's why we check if index>=0 instead of !index
+  if (index >= 0) return showAddOrRemoveLanguagesBtns();//! since index can be = 0, if we check for !index, it will return false, that's why we check if index>=0 instead of !index
 
   showExpandableBtnsPannel("settingsPanel", true);
   let btn: HTMLElement;
@@ -2827,7 +2804,7 @@ function showSettingsPanel(langs?: string[][], index?: number): Promise<string> 
       }
     ];
 
-    if (langs && index >= 0) return showLanguagesModal();//! since index can be = 0, if we check for !index, it will return false, that's why we check if index>=0 instead of !index
+    if (index >= 0) return showLanguagesModal();//! since index can be = 0, if we check for !index, it will return false, that's why we check if index>=0 instead of !index
 
     let btnsLangs = [
       ...nonCopticLanguages,
@@ -2951,7 +2928,6 @@ function showSettingsPanel(langs?: string[][], index?: number): Promise<string> 
       if (!defaultLanguage) defaultLanguage = 'EN';//We do this in order for the container to select the English version of the label until the user chooses his prefered language
 
       let choices: string[][][] =[nonCopticLanguages, nonCopticLanguages, copticLanguages];
-      let langs = [defaultLanguage, foreingLanguage, copticLanguage];
 
       let container = createBtnsContainer("modalContainer", labels[index], 'modalContainer');
       addLabel(index);
