@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@stmarkus/coptic-font-unicode-converter": "^1.1.3"
+  }
+}

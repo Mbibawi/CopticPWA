@@ -25,7 +25,7 @@ type typeButton = {
 };
 //CONSTANTS
 const version: string =
-  "v5.9.0 (Changes to the initial setting of the languages when the app is installed for the first time)";
+  "v5.9.2 (Some fixes)";
 const calendarDay: number = 24 * 60 * 60 * 1000; //this is a day in milliseconds
 const containerDiv: HTMLDivElement = document.getElementById(
   "containerDiv") as HTMLDivElement;
