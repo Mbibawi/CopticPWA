@@ -25,7 +25,7 @@ type typeButton = {
 };
 //CONSTANTS
 const version: string =
-  "v5.9.2 (Some fixes)";
+  "v5.9.2.2 (Some fixes)";
 const calendarDay: number = 24 * 60 * 60 * 1000; //this is a day in milliseconds
 const containerDiv: HTMLDivElement = document.getElementById(
   "containerDiv") as HTMLDivElement;
@@ -548,9 +548,10 @@ const GreatLordFeasts = [
   ],
   textAmplified = [];
 //VARS
-let PrayersArrayFR: string[][][] = [];
-let lastClickedButton: Button;
-let selectedDate: number, //This is the date that the user might have manually selected
+
+var PrayersArrayFR: string[][][] = [];
+var lastClickedButton: Button;
+var selectedDate: number, //This is the date that the user might have manually selected
   copticDate: string, //The Coptic date is stored in a string not in a number like the gregorian date, this is to avoid complex calculations
   copticMonth: string, //same comment as above
   copticDay: string, //same comment as above
@@ -559,10 +560,10 @@ let selectedDate: number, //This is the date that the user might have manually s
   Season: string, //This is a value telling whether we are during a special period of the year like the Great Lent or the 50 Pentecostal days, etc.
   weekDay: number; //This is today's day of the week (Sunday, Monday, etc.) expressed in number starting from 0
 var todayDate: Date;
-let isFast: boolean;
+var isFast: boolean;
 type Actor = { EN: string; FR?: string; AR?: string };
 
-let actors: Actor[] = [
+const actors: Actor[] = [
   {
     EN: "Priest",
     FR: "Prêtre",
@@ -590,7 +591,7 @@ let actors: Actor[] = [
     EN: "NoActor",
   },
 ]; //These are the names of the classes given to each row accordin to which we give a specific background color to the div element in order to show who tells the prayer
-let showActors = [];
+var showActors = [];
 actors.map((actor) => showActors.push([actor, true]));
 showActors[3][1] = false; //this is in order to initiate the app without the comments displayed. The user will activate it from the settings if he wants
 showActors[4][1] = false; //same comment as above concerning the 'CommentText'
