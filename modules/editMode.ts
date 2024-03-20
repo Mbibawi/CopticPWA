@@ -876,7 +876,7 @@ function paragraphsKeyShortcuts(e: KeyboardEvent) {
   if (e.key === 'L') { e.preventDefault; deleteRow(p) };
   if (e.key === 'P') { e.preventDefault; splitParagraphsToTheRowsBelow(p) };
   if (e.key === 'F') { e.preventDefault; FixCopticText(p) };
-
+  return false
 }
 
 /**
@@ -1374,15 +1374,32 @@ function getLanguages(arrayName?): string[] {
  * Converts the coptic font of the text in the selected html element, to a unicode font
  * @param {HTMLElement} htmlElement - an editable html element in which the cursor is placed, containing coptic text in a non unicode font, that we need to convert
  */
-async function convertCopticFontFromAPI(htmlElement: HTMLElement, fontFrom?: string) {
+async function convertCopticFontFromAPI(htmlElement: HTMLElement, fontFrom?: string, promptAll: boolean = true) {
   let text: string, selected: Selection = getSelectedText();
-  const apiURL: string =
-    "https://www.copticchurch.net/coptic_language/fonts/convert";
 
-  if (!fontFrom) fontFrom = prompt("Provide the font", "Coptic1/CS Avva Shenouda/Avva Shenouda/Athanasius/New Athanasius");
+
+  if (!fontFrom) fontFrom = prompt("Provide the font", "COPTIC1/CS_AVVA_SHENOUDA/AVVA_SHENOUDA/ATHANASIUS/NEW_ATHANASIUS");
+
+  if (promptAll && confirm('Do you want to edit all the coptic paragraphs with the same font?')) {
+    Array.from(containerDiv.querySelectorAll('P') as NodeListOf<HTMLParagraphElement>)
+      .filter(p => p.lang === 'COP')
+      .forEach((p) => convertCopticFontFromAPI(p, fontFrom, false));
+
+    return;
+
+  }
 
   while (htmlElement.tagName !== "P" && htmlElement.parentElement)
     htmlElement = htmlElement.parentElement;
+
+  if (!htmlElement) return alert('Html element not a paragraph');
+
+
+  if (fontFrom !== 'CS_AVVA_SHENOUDA') return htmlElement.innerText = await convertFont(htmlElement.innerText, fontFrom) || htmlElement.innerText;
+
+
+  const apiURL: string =
+    "https://www.copticchurch.net/coptic_language/fonts/convert";
 
   if (selected && !selected.isCollapsed) sendHttpRequest(selected.toString());
   else sendHttpRequest(htmlElement.textContent);
@@ -1636,18 +1653,20 @@ function convertAllCopticParagraphsFonts(fontFrom?: string) {
 
 }
 
-function FixCopticText(parag: HTMLElement) {
+async function FixCopticText(parag: HTMLElement) {
   let htmlRow = getHtmlRow(parag);
   if (!htmlRow) return alert('We couldn\'t find the parent html row element');
   let previous: HTMLElement | void,
+    font: string,
     parags = parag.innerHTML.split('<br>');
   for (let i = 0; i < parags.length; i++) {
     previous = addNewRow(parag, false, parag.title, false);
     if (!previous) return alert('addNewRow() didn\'t return a row');
-    previous.children[0].innerHTML = parags[i];
+    (previous.children[0] as HTMLParagraphElement).innerText = parags[i];
     window.Selection = null;
-    if ([0, 2].includes(i))
-      convertCopticFontFromAPI(previous.children[0] as HTMLParagraphElement, 'CS Avva Shenouda');
+    i===1? font = 'ATHANASIUS' : font = 'CS_AVVA_SHENOUDA';
+    await convertCopticFontFromAPI(previous.children[0] as HTMLParagraphElement, font, false);
+
   }
   //parag.innerText = ""
 
