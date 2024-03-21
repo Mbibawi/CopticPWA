@@ -3620,10 +3620,6 @@ PrayersArrayFR= [[
   Prefix.placeHolder, 
   Prefix.commonPrayer+"KyrieElieson&D=$copticFeasts.AnyDay", 
   ],
-  [
-  Prefix.placeHolder, 
-  Prefix.commonPrayer+"AmeenKyrieElieson3Times&D=$copticFeasts.AnyDay", 
-  ],
   ],
   [
   [

@@ -160,7 +160,7 @@ const btnMass: Button = new Button({
   btnID: "btnMass",
   label: { AR: "القداسات", FR: "Messes" },
   onClick: (returnBtnChildren: boolean = false) => {
-    btnMass.children = [btnIncenseDawn, btnMassUnBaptised, btnMassBaptised];
+    btnMass.children = [btnIncenseMorning, btnMassUnBaptised, btnMassBaptised];
     if (returnBtnChildren) return btnMass.children;
   },
 });
@@ -173,18 +173,18 @@ const btnIncenseOffice: Button = new Button({
   },
   onClick: (returnBtnChildren: boolean = false) => {
     //setting the children of the btnIncenseOffice. This must be done by the onClick() in order to reset them each time the button is clicked
-    btnIncenseOffice.children = [btnIncenseDawn, btnIncenseVespers];
+    btnIncenseOffice.children = [btnIncenseMorning, btnIncenseVespers];
     //show or hide the PropheciesDawn button if we are in the Great Lent or JonahFast:
 
     //We will remove the Vespers Button during if we are during the Great Lent or the Jonah Fast, and we are not a Saturday
     if ([Seasons.GreatLent, Seasons.JonahFast].includes(Season) &&
-      weekDay !== 6) btnIncenseOffice.children = [btnIncenseDawn];
+      weekDay !== 6) btnIncenseOffice.children = [btnIncenseMorning];
 
     if (returnBtnChildren) return btnIncenseOffice.children;
   },
 });
 
-const btnIncenseDawn: Button = new Button({
+const btnIncenseMorning: Button = new Button({
   btnID: "btnIncenseDawn",
   label: {
     AR: "بُخُورِ بَاكِرِ",
@@ -194,14 +194,14 @@ const btnIncenseDawn: Button = new Button({
   languages: [...prayersLanguages],
   docFragment: new DocumentFragment(),
   onClick: (): string[] => {
-    btnIncenseDawn.prayersSequence = [...IncensePrayersSequence].filter(
+    btnIncenseMorning.prayersSequence = [...IncensePrayersSequence].filter(
       (title) => !title.startsWith(Prefix.incenseVespers)
     ); //We will remove all the Incense Vespers titles from the prayersSequence Array
 
     if (weekDay === 6)
       //If we are a Saturday, we pray only the 'Departed Litany', we will hence remove the 'Sick Litany' and the 'Travellers Litany'
-      btnIncenseDawn.prayersSequence.splice(
-        btnIncenseDawn.prayersSequence.indexOf(
+      btnIncenseMorning.prayersSequence.splice(
+        btnIncenseMorning.prayersSequence.indexOf(
           Prefix.incenseDawn + "SickPrayer&D=$copticFeasts.AnyDay"
         ),
         3, //We remove the SickPrayer, the TravelersParayer and the Oblations Prayer
@@ -209,7 +209,7 @@ const btnIncenseDawn: Button = new Button({
       );
     else if (weekDay === 0 || lordFeasts.includes(copticDate))
       //If we are a Sunday or the day is a Lord's Feast, or the oblation is present, we remove the 'Travellers Litany' and keep the 'Sick Litany' and the 'Oblation Litany'
-      btnIncenseDawn.prayersSequence = btnIncenseDawn.prayersSequence.filter(
+      btnIncenseMorning.prayersSequence = btnIncenseMorning.prayersSequence.filter(
         (tbl) =>
           !tbl[0][0].startsWith(
             Prefix.incenseDawn + "TravelersPrayer&D=$copticFeasts.AnyDay"
@@ -217,10 +217,10 @@ const btnIncenseDawn: Button = new Button({
       );
 
     scrollToTop();
-    return btnIncenseDawn.prayersSequence;
+    return btnIncenseMorning.prayersSequence;
   },
   afterShowPrayers: async (
-    btn: Button = btnIncenseDawn,
+    btn: Button = btnIncenseMorning,
     gospelPrefix: string = Prefix.gospelDawn,
     gospelArray: string[][][] = ReadingsArrays.GospelDawnArrayFR
   ) => {
@@ -276,17 +276,18 @@ const btnIncenseDawn: Button = new Button({
       });
     })();
 
-    (async function insertEklonominTaghonata() {
-      if (btn.btnID !== btnIncenseDawn.btnID) return; //We insert "Eklonomin Taghonata" only for the Incense Dawn liturgy
+    if (btn !== btnIncenseMorning) return; //The functions from this point on concern the Morning Incense service only
 
+    let efnotiNaynan: HTMLDivElement[] = selectElementsByDataSetValue(
+      btnDocFragment,
+      Prefix.commonPrayer + "EfnotiNaynan&D=$copticFeasts.AnyDay", undefined, 'group'
+    );
+    
+
+    (async function insertEklonominTaghonata() {
       if (![Seasons.GreatLent, Seasons.JonahFast].includes(Season)) return;
 
       if ([0, 6].includes(weekDay)) return; //We are neither a Saturday nor a Sunday, we will hence display the Prophecies dawn buton
-
-      let efnotiNaynan: HTMLDivElement[] = selectElementsByDataSetValue(
-        btnDocFragment,
-        Prefix.commonPrayer + "EfnotiNaynan&D=$copticFeasts.AnyDay", undefined, 'group'
-      );
 
       let godHaveMercy = findTable(Prefix.incenseDawn + "GodHaveMercyOnUs&D=$Seasons.GreatLent", IncensePrayersArray);
 
@@ -313,10 +314,30 @@ const btnIncenseDawn: Button = new Button({
       });
     })();
 
+    (async function insertPropheciesReadings() {
+      //! This must come after Eklonomin Taghonata has been inserted
+      if (![Seasons.GreatLent, Seasons.JonahFast].includes(Season)) return;
+
+     if ([0, 6].includes(weekDay)) return; //We are neither a Saturday nor a Sunday, we will hence display the Prophecies dawn buton
+
+     let Prophecies = findTable(Prefix.propheciesDawn + "&D=" + copticReadingsDate, ReadingsArrays.PropheciesDawnArrayFR);
+
+     if (!Prophecies) return console.log("Didn't find Prophecies with the current date");
+      let title = [[Prophecies[0][0], 'نبوات باكر', 'Prophecies', '']];
+
+     insertPrayersAdjacentToExistingElement({
+       tables: [title, Prophecies],
+       languages: getLanguages(getArrayNameFromArray(ReadingsArrays.PropheciesDawnArrayFR)),
+       position: {
+         beforeOrAfter: "beforebegin",
+         el: efnotiNaynan[efnotiNaynan.length - 1].nextSibling as HTMLElement //i.e., we insert after the end of efnotiNayNan
+       },
+       container: btnDocFragment,
+     });
+   })();
 
     (async function addExpandableBtnForAdamDoxolgies() {
       //We add an expandable button for the Incense Dawn Adam Doxologies
-      if (btn !== btnIncenseDawn) return;
       if (btnDocFragment.children.length === 0) return;
 
       addExpandablePrayer({
@@ -328,7 +349,7 @@ const btnIncenseDawn: Button = new Button({
         },
         prayers: DoxologiesPrayersArray.filter((table) =>
           table[0][0].startsWith(Prefix.doxologies + "AdamDawn")),
-        languages: btnIncenseDawn.languages,
+        languages: btnIncenseMorning.languages,
       })[1];
     })();
   },
@@ -354,7 +375,7 @@ const btnIncenseVespers: Button = new Button({
     return btnIncenseVespers.prayersSequence;
   },
   afterShowPrayers: async () => {
-    btnIncenseDawn.afterShowPrayers(
+    btnIncenseMorning.afterShowPrayers(
       btnIncenseVespers,
       Prefix.gospelVespers,
       ReadingsArrays.GospelVespersArrayFR

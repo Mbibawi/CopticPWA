@@ -60,12 +60,12 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   Prefix.gospelNight+"Psalm&D=GL2ndSunday&C=Title", 
   "مزمور 48:10-11 ", 
-  "Psaume 48:10-11 ", 
-  "Psalms 48:10-11 ", 
+  "Psaume 48:10-11", 
+  "Psalms 48:10-11", 
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "يمينك مملؤة عدلاً. فليفرح جبل صهيون ولتتهلل بنات اليهودية من أجل أحكامك يارب . ", 
+  "يمينك مملؤة عدلاً. فليفرح جبل صهيون ولتتهلل بنات اليهودية من أجل أحكامك يارب. ", 
   "10 Ta droite est pleine de justice, 11 la montagne de Sion se réjouit, Les villes de Juda exultent, à cause de tes jugements,    ", 
   "10 Your right hand is full of righteousness  11 Let Mount Zion rejoice, Let the daughters of Judah be glad, Because of Your judgments.      Alleluia ", 
   ],
@@ -103,7 +103,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   ],
   [
   Prefix.same+"&C=NoActor", 
-  "وتكونوا بني العليِّ، فإنَّه منعم على غير الشَّاكرين والأشرار. فكونوا رُحماء كما أن أباكُم هو رحيمٌ.لا تدينوا فلا تُدانوا. لا توجهوا الحكم على أحدٍ فلا يُحكم عليكم. اغفروا يُغفَر لكم.  ", 
+  "وتكونوا بني العليِّ، فإنَّه منعم على غير الشَّاكرين والأشرار. فكونوا رُحماء كما أن أباكُم هو رحيمٌ. لا تدينوا فلا تُدانوا. لا توجهوا الحكم على أحدٍ فلا يُحكم عليكم. اغفروا يُغفَر لكم.  ", 
   "et vous serez les fils du Très Haut, car il est bon, lui, pour les ingrats et les méchants. 36 Soyez généreux comme votre Père est généreux. 37 Ne vous posez pas en juges et vous ne serez pas jugés, ne condamnez pas et vous ne serez pas condamnés,  ", 
   "and you will be sons of the Most High. For He is kind to the unthankful and evil. 36 Therefore be merciful, just as your Father also is merciful. 37 Judge not, and you shall not be judged. Condemn not, and you shall not be condemned. Forgive, and you will be forgiven.  ", 
   ],
@@ -1149,7 +1149,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   Prefix.same+"&C=Diacon", 
   "", 
   "Dieu appela la lumière jour et les ténèbres nuit. Il y eut un soir et il y eut un matin: premier jour. Dieu dit: Qu’il y ait un firmament au milieu des eaux et qu'il sépare les eaux d'avec les eaux et il en fut ainsi. Dieu fit le firmament, qui sépara les eaux qui sont sous le firmament d'avec les eaux qui sont au-dessus du firmament, et Dieu appela le firmament ciel. Il y eut un soir et il y eut un matin: deuxième jour.", 
-  "ودعا الله النور نهاراً والظلام دعاه ليلاً، وكَانَ مساء وكَانَ صباح يوماً أولاً. وقال الله: ليكن جلد متوسط بين المياه، وليكن فاصلاً بين مياه ومياه، فكان كذلك . فخلق الله الجلد في وسط المياه، وفصل الله بين المياه التي تحت الجلد والمياه التي فوق الجلد. ودعا الله الجلد سماء. ورأى الله أن ذلك حسن. وكان مساء وكَانَ صباح يوماً ثانياً.", 
+  "ودعا الله النور نهاراً والظلام دعاه ليلاً، وكَانَ مساء وكَانَ صباح يوماً أولاً. وقال الله: ليكن جلد متوسط بين المياه، وليكن فاصلاً بين مياه ومياه، فكان كذلك. فخلق الله الجلد في وسط المياه، وفصل الله بين المياه التي تحت الجلد والمياه التي فوق الجلد. ودعا الله الجلد سماء. ورأى الله أن ذلك حسن. وكان مساء وكَانَ صباح يوماً ثانياً.", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -2633,7 +2633,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   Prefix.same+"&C=Diacon", 
   "", 
   "Voilà ce que vous a fait Béthel, pour votre méchanceté sans nom; à l'aurore, oui, c'en sera fait du roi d'Israël ! Quand Israël était jeune, je l'ai aimé, et d'Egypte j'ai appelé mon fils. Mais plus je les appelais, plus ils s'écartaient de moi; aux Baals ils sacrifiaient, aux idoles ils brûlaient de l'encens.\nGloire à la sainte Trinité notre Dieu.", 
-  "أمامكم من قدام وجهي. لأن ظلمكم وشروركم طرحت ملك إسرائيل خارجاً. لأن إسرائيل صغير وأنا أحببته ودعوت أبنه وأبنى من مصر. فكما دعوتهم. هكذا ذهبوا عن وجهى. فذبحوا للبعليم وبخروا للمنحوتات .\nمجداً للثالوث الأقدس إلهنا آمين", 
+  "أمامكم من قدام وجهي. لأن ظلمكم وشروركم طرحت ملك إسرائيل خارجاً. لأن إسرائيل صغير وأنا أحببته ودعوت أبنه وأبنى من مصر. فكما دعوتهم. هكذا ذهبوا عن وجهى. فذبحوا للبعليم وبخروا للمنحوتات.\nمجداً للثالوث الأقدس إلهنا آمين", 
   ],
   ],
   [
@@ -2815,7 +2815,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   Prefix.same+"&C=Diacon", 
   "", 
   "Personne parmi les hommes ou les anges ne connaît le jour et l’heure. Même le Fils ne les connaît pas non plus, mais uniquement le Père, qui connaît tout.\nVeillez-donc en tout temps et priez car vous ne savez pas quand sera l’heure, pour qu’Il ne vienne pas à l’improviste et vous trouve endormis. Prenez garde et protégez-vous pour que vous soyez sauvés des pièges qui vous sont tendus.", 
-  "إنه ليس أحد من سائر البشر ولا الملائكة يعلمهما، والإبن أيضاً لا يعلمهما، إلا الآب فقط العارف بكل شيء . فإسهروا كل حين وصلوا، فإنكم لستم تعلمون متى يكون الوقت. لئلا يأتي بغتة فيجدكم نياماً. فَاحْتَرِزُوا وإحفظوا ذواتكم لِكَي تخلصوا من الفخاخ المنصوبة.", 
+  "إنه ليس أحد من سائر البشر ولا الملائكة يعلمهما، والإبن أيضاً لا يعلمهما، إلا الآب فقط العارف بكل شيء. فإسهروا كل حين وصلوا، فإنكم لستم تعلمون متى يكون الوقت. لئلا يأتي بغتة فيجدكم نياماً. فَاحْتَرِزُوا وإحفظوا ذواتكم لِكَي تخلصوا من الفخاخ المنصوبة.", 
   ],
   ],
   [
@@ -3735,7 +3735,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   ],
   [
   Prefix.same+"&C=Diacon", 
-  "Ⲙⲁϣⲉⲛⲁⲕ ⲉ̀ⲡ̀ϣⲱⲓ ⲓϫⲉⲛ ⲟⲩⲧⲱⲟⲩ ⲉϥϭⲟⲥⲓ ⲫⲏⲉⲧⲓϣⲉⲛⲛⲟⲩϥⲓ ⲛ̀Ⲥⲓⲱⲛ ϭⲓⲥⲓ ⲛ̀ⲧⲉⲕⲥ̀ⲙⲏ ϧⲉⲛ ⲟⲩϫⲟⲙ ⲫⲏⲉⲧⲓⲱⲓϣ ⲛ̀Ⲓⲗⲏⲙ .", 
+  "Ⲙⲁϣⲉⲛⲁⲕ ⲉ̀ⲡ̀ϣⲱⲓ ⲓϫⲉⲛ ⲟⲩⲧⲱⲟⲩ ⲉϥϭⲟⲥⲓ ⲫⲏⲉⲧⲓϣⲉⲛⲛⲟⲩϥⲓ ⲛ̀Ⲥⲓⲱⲛ ϭⲓⲥⲓ ⲛ̀ⲧⲉⲕⲥ̀ⲙⲏ ϧⲉⲛ ⲟⲩϫⲟⲙ ⲫⲏⲉⲧⲓⲱⲓϣ ⲛ̀Ⲓⲗⲏⲙ.", 
   "", 
   "", 
   ],
@@ -3895,13 +3895,13 @@ ReadingsArrays.GospelNightArrayFR= [[
   Prefix.same+"&C=Diacon", 
   "", 
   "Frères, faisons la volonté de Dieu tant qu’il est encore temps de faire les œuvres du Seigneur. Souvenez-vous que la mort ne tarde pas et que notre destinée est de quitter ce monde. Où sont tous ceux qui étaient avant nous? Ils sont tous couchés dans les tombeaux. Produisons des fruits dignes de la grâce que Dieu nous a accordée. Nous, et tous les chrétiens, devons prendre exemple sur Jésus Christ.", 
-  "فلنصنع إرادة الله يا أخوتي ما دام لنا وقت أن نعمل فيه أعمال الرب . تذكروا أن الموت لا يتأخر ومصيرنا أن نترك العالم . أين جميع الذين كانوا قبلنا هوذا كلهم الآن يرقدون في القبور فلنصنع أثماراً تليق بنعمة الله التي أعطاها لنا وعلينا نحن وكل المسيحيين أن نتشبه بيسوع المسيح.\n", 
+  "فلنصنع إرادة الله يا أخوتي ما دام لنا وقت أن نعمل فيه أعمال الرب. تذكروا أن الموت لا يتأخر ومصيرنا أن نترك العالم. أين جميع الذين كانوا قبلنا هوذا كلهم الآن يرقدون في القبور فلنصنع أثماراً تليق بنعمة الله التي أعطاها لنا وعلينا نحن وكل المسيحيين أن نتشبه بيسوع المسيح.\n", 
   ],
   [
   Prefix.same+"&C=Diacon", 
   "", 
   "la vraie lumière, car nous sommes des humains. Il est le maître et nous sommes des serviteurs. Il est le pasteur et nous les brebis qu’Il conduit. Il est né du Père et nous sommes ses créatures. Il est Lumière né de la Lumière mort pour nous, les pêcheurs. Il s’est livré pour nous sur l’arbre de la Croix pour nous faire don de Son Royaume. Les serviteurs ne se sont pas astreints à mourir pour leur Maître mais le Maître a méprisé la honte et Il est mort pour ses serviteurs afin qu’à son exemple, ils meurent avec Lui et comme Il est vivant, eux aussi vivent.", 
-  "النور الحقيقي لأننا نحن بشر. هو السيد ونحن عبيده هو الراعي ونحن غنم تحت يده هو مولود من الآب ولكن نحن خليقته نور من نور مات عنا نحن الخطاة وأسلم ذاته عنا علي خشبة الصليب لينعم لنا بملكوته، ما كان العبيد ملتزمين أن يموتوا عن سيدهم أما السيد فقد إستهان بالخزي ومات عن عبيده كي حسبما مات هو هم يموتون معه وكما هو حي فهم أيضاً يحيون .", 
+  "النور الحقيقي لأننا نحن بشر. هو السيد ونحن عبيده هو الراعي ونحن غنم تحت يده هو مولود من الآب ولكن نحن خليقته نور من نور مات عنا نحن الخطاة وأسلم ذاته عنا علي خشبة الصليب لينعم لنا بملكوته، ما كان العبيد ملتزمين أن يموتوا عن سيدهم أما السيد فقد إستهان بالخزي ومات عن عبيده كي حسبما مات هو هم يموتون معه وكما هو حي فهم أيضاً يحيون.", 
   ],
   [
   Prefix.same+"&C=ReadingEnd", 
@@ -4901,7 +4901,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   Prefix.same+"&C=Diacon", 
   "", 
   " Venez, retournons vers le Seigneur. Il a déchiré, il nous guérira; il a frappé, il pansera nos plaies; après deux jours il nous fera revivre, le troisième jour il nous relèvera et nous vivrons en sa présence. Connaissons, appliquons-nous à connaître le Seigneur ; sa venue est certaine comme l'aurore ; il viendra pour nous comme l'ondée, comme la pluie de printemps qui arrose la terre.", 
-  "ويأتون إلي قائلين فلنمضي ولنرجع إلي الرب إلهنا، لأنه إختطف وهو يشفي ويضرب ويداوي أيضاً.ويشفينا بعد يومين وفي اليوم الثالث نقوم ونحيا أمامه ونعلم ونسرع إلي معرفة الرب، فنجده كالفجر المعد ويأتي إلينا كالمطر المبكر والمتأخر علي الأرض.", 
+  "ويأتون إلي قائلين فلنمضي ولنرجع إلي الرب إلهنا، لأنه إختطف وهو يشفي ويضرب ويداوي أيضاً. ويشفينا بعد يومين وفي اليوم الثالث نقوم ونحيا أمامه ونعلم ونسرع إلي معرفة الرب، فنجده كالفجر المعد ويأتي إلينا كالمطر المبكر والمتأخر علي الأرض.", 
   ],
   [
   Prefix.same+"&C=Title", 
@@ -4942,7 +4942,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   Prefix.same+"&C=Diacon", 
   "", 
-  "Vous qui craignez le Seigneur, comptez sur Sa miséricorde, ne vous détournez pas, de peur de tomber. Considérez les générations passées et voyez: qui donc, confiant dans le Seigneur, a été confondu? Ou qui, persévérant dans sa crainte, a été abandonné? Ou qui l'a imploré sans avoir été écouté? Malheur aux cœurs lâches et aux mains nonchalantes, et au pécheur dont la conduite est double. Malheur à vous qui avez perdu l'endurance, que ferez-vous lorsque le Seigneur vous visitera? Ceux qui craignent le Seigneur ne transgressent pas ses paroles ... ceux qui l'aiment se rassasient de la Loi.", 
+  "Vous qui craignez le Seigneur, comptez sur Sa miséricorde, ne vous détournez pas, de peur de tomber. Considérez les générations passées et voyez: qui donc, confiant dans le Seigneur, a été confondu? Ou qui, persévérant dans sa crainte, a été abandonné? Ou qui l'a imploré sans avoir été écouté? Malheur aux cœurs lâches et aux mains nonchalantes, et au pécheur dont la conduite est double. Malheur à vous qui avez perdu l'endurance, que ferez-vous lorsque le Seigneur vous visitera? Ceux qui craignent le Seigneur ne transgressent pas ses paroles... ceux qui l'aiment se rassasient de la Loi.", 
   "أَيُّهَا المتقون الرب إنتظروا رحمته ولا تحيدوا لئلا تسقطوا، إنظروا إلي الأجيال القديمة وتأملوا، من آمن بالرب فخزي او من ثبت في وصاياه فتركه، أو من صرخ إليه فأهمله قط؟ ويل لكل قلب هياب وللأيدي المتراخية وللخاطئ الذي يمشي في طريقين. ويل لكم ايها الذين تركوا الصبر فماذا تصنعون عندما يفتقدكم الرب؟ إن المتقين الرب لا يخالفون كلماته، وأبراره يمتلئون من شرائعه.", 
   ],
   [
@@ -5229,7 +5229,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   ],
   [
   Prefix.same+"&C=Diacon", 
-  "Ⲛⲁϥⲛⲏⲟⲩ ⲉ̀ϧⲟⲩⲛ ⲡⲉ ⲉ̀ⲛⲁⲩ ⲛⲁϥⲥⲁϫⲓ ⲛ̀ⲟⲩⲙⲉⲧⲉ̀ⲫ̀ⲗⲏⲟⲩ : ⲟⲩⲟ ⲡⲉϥⲏⲧ ⲁϥⲑⲱⲟⲩϯ ⲛⲁϥ ⲛ̀ⲟⲩⲁ̀ⲛⲟⲙⲓⲁ̀ . Ⲱⲟⲩⲛⲓⲁⲧϥ ⲙ̀ⲫⲏⲉⲑⲛⲁⲕⲁϯ ⲉ̀ϫⲉⲛ ⲟⲩⲏⲕⲓ ⲛⲉⲙ ⲟⲩϫⲱⲃ : ϧⲉⲛ ⲡⲓⲉ̀ⲟⲟⲩ ⲉⲧⲱⲟⲩ ⲉϥⲉ̀ⲛⲁⲙⲉϥ ⲛ̀ϫⲉ Ⲡ⳪.", 
+  "Ⲛⲁϥⲛⲏⲟⲩ ⲉ̀ϧⲟⲩⲛ ⲡⲉ ⲉ̀ⲛⲁⲩ ⲛⲁϥⲥⲁϫⲓ ⲛ̀ⲟⲩⲙⲉⲧⲉ̀ⲫ̀ⲗⲏⲟⲩ : ⲟⲩⲟ ⲡⲉϥⲏⲧ ⲁϥⲑⲱⲟⲩϯ ⲛⲁϥ ⲛ̀ⲟⲩⲁ̀ⲛⲟⲙⲓⲁ̀. Ⲱⲟⲩⲛⲓⲁⲧϥ ⲙ̀ⲫⲏⲉⲑⲛⲁⲕⲁϯ ⲉ̀ϫⲉⲛ ⲟⲩⲏⲕⲓ ⲛⲉⲙ ⲟⲩϫⲱⲃ : ϧⲉⲛ ⲡⲓⲉ̀ⲟⲟⲩ ⲉⲧⲱⲟⲩ ⲉϥⲉ̀ⲛⲁⲙⲉϥ ⲛ̀ϫⲉ Ⲡ⳪.", 
   "Si quelqu'un vient me voir, ses propos sont vides; il emplit son cœur de pensées méchantes. Heureux qui pense au pauvre et au faible, le Seigneur le sauve au jour du malheur.\n", 
   "كان يدخل لينظر فكان يتكلم باطلاً، وقلبه جمع له إثماً. طوبي لمن يتفهم في أمر المسكين والضعيف، في يوم السوء ينجيه الرب.", 
   ],
@@ -5383,7 +5383,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   Prefix.HolyWeek+"6HDPsalm&D=GL54&C=Diacon", 
   "Yalmoc  to Dauid\nhppe ic nekjaji auw] `èebol > ouo nheqmoc; `èmmok ausici `èntou`èave. Aucosni eucop 'en ouht `ènouwt > aucemni `ènoudiaqhkh 'arok> `allhloui`a.", 
   "Psaume 82 : 2 , 4\nVois tes ennemis qui grondent. Tes adversaires qui lèvent la tête. Ils conspirent tous d'un seul cœur; ils ont fait alliance contre toi. Alléluia", 
-  "مزمور ٨٢: ٢، ٤ \nهوذا أعداؤك قد صرخوا، وقد رفع مبغضوك رؤوسهم . تآمروا جميعاً بقلب واحد وتعاهدوا عليك عهداً. الليلويا", 
+  "مزمور ٨٢: ٢، ٤ \nهوذا أعداؤك قد صرخوا، وقد رفع مبغضوك رؤوسهم. تآمروا جميعاً بقلب واحد وتعاهدوا عليك عهداً. الليلويا", 
   ],
   ],
   [
@@ -5397,7 +5397,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   Prefix.HolyWeek+"6HDGospel&D=GL54&C=Diacon", 
   "Yalmoc  to Dauid\nhppe ic nekjaji auw] `èebol > ouo nheqmoc; `èmmok ausici `èntou`èave. Aucosni eucop 'en ouht `ènouwt > aucemni `ènoudiaqhkh 'arok> `allhloui`a.", 
   "Psaume 82 : 2 , 4\nVois tes ennemis qui grondent. Tes adversaires qui lèvent la tête. Ils conspirent tous d'un seul cœur; ils ont fait alliance contre toi. Alléluia", 
-  "مزمور ٨٢: ٢، ٤ \nهوذا أعداؤك قد صرخوا، وقد رفع مبغضوك رؤوسهم . تآمروا جميعاً بقلب واحد وتعاهدوا عليك عهداً. الليلويا", 
+  "مزمور ٨٢: ٢، ٤ \nهوذا أعداؤك قد صرخوا، وقد رفع مبغضوك رؤوسهم. تآمروا جميعاً بقلب واحد وتعاهدوا عليك عهداً. الليلويا", 
   ],
   [
   Prefix.HolyWeek+"6HDGospel&D=GL54&C=Diacon", 
@@ -6019,7 +6019,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   ],
   [
   Prefix.HolyWeek+"3HEGospel&D=GL54&C=Diacon", 
-  "Markon Kev i/d/ > g/ - i/a /\nOuo efxh 'en Bhqani`èa 'en `èphi `ènCimwn pikakce	 efrwteb ac`èi `ènje ou`ècimi `èereouon oumoki `èncojen nardoc è`èntotc `èmpictikh `èena]e `èncouenf. Eac'om'em `èmpimoki `èeacjo]f `èejen tef`èave. Nare anouon `èxremrem nem nou`èerhou > je eqbe ou `èa paitako `ènte paicojen ]wpi. Ne ouon `è]jom gar `èe; `èmvai `èebol ca`èp]wi `èn]omt ]e `èncaqeri ouo `èntou thitou `ènnihki > ouo nau`èmbon `èeroc pe.\nIh/c/ de pejaf nwou je xac > `èa'wten teten;'ici nac > ouwb `èenanef `èetacerwb `èerof `èn'ht. Nchou niben nihki ce nemwten > ouo `èe]wp `èntetenouw] ouon`è]jom `èmmwten `èeer peqnanef nwou `ènchou niben > `èanok de ;nemwten an `ènchou niben. Vh`èetacsitf acaif acer]orp gar `ènqac `èmpacwma `èmpaicojen `èe`èpjinkoct. \nAmhn ;jw `èmmoc nwten > je pima `èetounaiwi] `èmpaieuaggelion `èmmof 'en pikocmoc thrf > vhwf `èeta qai aif eu`èecaji `èmmof eumeu`èi nac. Ouo Ioudac Piickariwthc piouai `ènte pimht `ècnau af]enaf a niarxh`èereuc ina `èntefthif nwou. Nqwou de `èetaucwtem aura]i ouo au; naf `ènouat > ouo nafkw; je pwc `èfnathif 'en oueukeria .  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.", 
+  "Markon Kev i/d/ > g/ - i/a /\nOuo efxh 'en Bhqani`èa 'en `èphi `ènCimwn pikakce	 efrwteb ac`èi `ènje ou`ècimi `èereouon oumoki `èncojen nardoc è`èntotc `èmpictikh `èena]e `èncouenf. Eac'om'em `èmpimoki `èeacjo]f `èejen tef`èave. Nare anouon `èxremrem nem nou`èerhou > je eqbe ou `èa paitako `ènte paicojen ]wpi. Ne ouon `è]jom gar `èe; `èmvai `èebol ca`èp]wi `èn]omt ]e `èncaqeri ouo `èntou thitou `ènnihki > ouo nau`èmbon `èeroc pe.\nIh/c/ de pejaf nwou je xac > `èa'wten teten;'ici nac > ouwb `èenanef `èetacerwb `èerof `èn'ht. Nchou niben nihki ce nemwten > ouo `èe]wp `èntetenouw] ouon`è]jom `èmmwten `èeer peqnanef nwou `ènchou niben > `èanok de ;nemwten an `ènchou niben. Vh`èetacsitf acaif acer]orp gar `ènqac `èmpacwma `èmpaicojen `èe`èpjinkoct. \nAmhn ;jw `èmmoc nwten > je pima `èetounaiwi] `èmpaieuaggelion `èmmof 'en pikocmoc thrf > vhwf `èeta qai aif eu`èecaji `èmmof eumeu`èi nac. Ouo Ioudac Piickariwthc piouai `ènte pimht `ècnau af]enaf a niarxh`èereuc ina `èntefthif nwou. Nqwou de `èetaucwtem aura]i ouo au; naf `ènouat > ouo nafkw; je pwc `èfnathif 'en oueukeria.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.", 
   "Marc 14 : 3-11\nComme il se trouvait à Béthanie, chez Simon le lépreux, alors qu'il était à table, une femme vint, avec un flacon d'albâtre contenant un nard pur, de grand prix. Brisant le flacon, elle le lui versa sur la tête. Or il y en eut qui s'indignèrent entre eux: «A quoi bon ce gaspillage de parfum? Ce parfum pouvait être vendu plus de trois cents deniers et donné aux pauvres.» Et ils la rudoyaient. ", 
   "مرقس ١٤ : ٣-١١\nوفيما هو في بيت عنيا في منزل سمعان الأبرص متكئاً، جاءت إمرأة ومعها قارورة طيب ناردين خالص كثير الثمن، فكسرت القارورة وسكبته على رأسه، وكَانَ قوم قد تذمروا فيما بينهم قائلين: لم كان إتلاف هذا الطيب، فإنه كان يمكن أن يباع هذا بأكثر من ثلثمائة دينار ويعطى للمساكين. وكانوا يؤنبونها، ", 
   ],
@@ -7219,7 +7219,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   Prefix.HolyWeek+"LakanProphecies&D=GL55&C=Diacon", 
   "", 
   "Il prit du caillé, du lait, le veau qu'il avait apprêté et plaça le tout devant eux ; il se tenait debout près d'eux, sous l'arbre, et ils mangèrent. Ils lui demandèrent : \"Où est Sara, ta femme ? \" Il répondit : \"Elle est dans la tente.\" L'hôte dit : \"Je reviendrai vers toi l'an prochain ; alors, ta femme Sara aura un fils.\" Sara écoutait, à l'entrée de la tente, qui se trouvait derrière lui. Or Abraham et Sara étaient vieux, avancés en âge, et Sara avait cessé d'avoir ce qu'ont les femmes.  ", 
-  "ثُمَّ أَخَذَ زُبْدًا وَلَبَنًا، وَٱلْعِجْلَ ٱلَّذِي عَمِلَهُ، وَوَضَعَهَا قُدَّامَهُمْ. وَإِذْ كَانَ هُوَ وَاقِفًا لَدَيْهِمْ تَحْتَ ٱلشَّجَرَةِ أَكَلُوا. وَقَالُوا لَهُ: «أَيْنَ سَارَةُ ٱمْرَأَتُكَ؟» فَقَالَ: «هَا هِيَ فِي ٱلْخَيْمَةِ». فَقَالَ: «إِنِّي أَرْجِعُ إِلَيْكَ نَحْوَ زَمَانِ ٱلْحَيَاةِ وَيَكُونُ لِسَارَةَ ٱمْرَأَتِكَ ٱبْنٌ». وَكَانَتْ سَارَةُ سَامِعَةً فِي بَابِ ٱلْخَيْمَةِ وَهُوَ وَرَاءَهُ. وَكَانَ إِبْرَاهِيمُ وَسَارَةُ شَيْخَيْنِ مُتَقَدِّمَيْنِ فِي ٱلْأَيَّامِ، وَقَدِ ٱنْقَطَعَ أَنْ يَكُونَ لِسَارَةَ عَادَةٌ كَٱلنِّسَاءِ. .", 
+  "ثُمَّ أَخَذَ زُبْدًا وَلَبَنًا، وَٱلْعِجْلَ ٱلَّذِي عَمِلَهُ، وَوَضَعَهَا قُدَّامَهُمْ. وَإِذْ كَانَ هُوَ وَاقِفًا لَدَيْهِمْ تَحْتَ ٱلشَّجَرَةِ أَكَلُوا. وَقَالُوا لَهُ: «أَيْنَ سَارَةُ ٱمْرَأَتُكَ؟» فَقَالَ: «هَا هِيَ فِي ٱلْخَيْمَةِ». فَقَالَ: «إِنِّي أَرْجِعُ إِلَيْكَ نَحْوَ زَمَانِ ٱلْحَيَاةِ وَيَكُونُ لِسَارَةَ ٱمْرَأَتِكَ ٱبْنٌ». وَكَانَتْ سَارَةُ سَامِعَةً فِي بَابِ ٱلْخَيْمَةِ وَهُوَ وَرَاءَهُ. وَكَانَ إِبْرَاهِيمُ وَسَارَةُ شَيْخَيْنِ مُتَقَدِّمَيْنِ فِي ٱلْأَيَّامِ، وَقَدِ ٱنْقَطَعَ أَنْ يَكُونَ لِسَارَةَ عَادَةٌ كَٱلنِّسَاءِ..", 
   ],
   [
   Prefix.HolyWeek+"LakanProphecies&D=GL55&C=Diacon", 
@@ -7266,19 +7266,19 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   Prefix.HolyWeek+"LakanProphecies&D=GL55&C=Diacon", 
   "Ebolqen pidoxodoc `nte Mw`ucyc piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nQen `èpjin`èqre Picl ? erjinior `èm`èviom `èn]ari > auwmi `ènnousalau `èejen `èviom.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.", 
-  "Exode 14 : 22 à 15 : 1 \nLes Israélites pénétrèrent à pied sec au milieu de la mer ... Moïse étendit la main sur la mer ...", 
+  "Exode 14 : 22 à 15 : 1 \nLes Israélites pénétrèrent à pied sec au milieu de la mer... Moïse étendit la main sur la mer...", 
   "خروج ١٤، ١٥ \nحينما عبر اسرائيل البحر الأحمر، وداست أرجلهم البحر،", 
   ],
   [
   Prefix.HolyWeek+"LakanProphecies&D=GL55&C=Diacon", 
   "", 
-  "Les eaux refluèrent et recouvrirent les chars et les cavaliers de toute l'armée de Pharaon ... Ce jour-là, le Seigneur sauva Israël des mains des Égyptiens ... Alors Moïse et les Israélites chantèrent pour le Seigneur le chant que voici : \"Je chante pour le Seigneur car il s'est couvert de gloire\".\nGloire à la sainte Trinité notre Dieu.", 
+  "Les eaux refluèrent et recouvrirent les chars et les cavaliers de toute l'armée de Pharaon... Ce jour-là, le Seigneur sauva Israël des mains des Égyptiens... Alors Moïse et les Israélites chantèrent pour le Seigneur le chant que voici : \"Je chante pour le Seigneur car il s'est couvert de gloire\".\nGloire à la sainte Trinité notre Dieu.", 
   "انطمس اعداءهم في العمق، وانغمست أرجل المصريين في الماء قسرا، وأما أرجُل اسرائيل وجميع بيت يعقوب فنجوا من الهلاك. وقالوا هذه التسبحة: فلنسبح الرب لأنه بالمجد قد تمجد.\nمجداً للثالوث الأقدس إلهنا آمين.", 
   ],
   [
   Prefix.HolyWeek+"LakanProphecies&D=GL55&C=Diacon", 
   "Ebolqen Iycou `nte Cira, piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nIhcou nem pilaoc thrf auerjinior `èmpiIordanhc. \nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.", 
-  "Josué 1 :1 et 3 : 17 \nJosué se leva de bon matin et partit ... avec tous les Israélites. Ils allèrent jusqu'au Jourdain...", 
+  "Josué 1 :1 et 3 : 17 \nJosué se leva de bon matin et partit... avec tous les Israélites. Ils allèrent jusqu'au Jourdain...", 
   "يشوع بن نون ١، ٣ \nيشوع وكافة الشعب عبروا الأردن", 
   ],
   [
@@ -7604,7 +7604,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   Prefix.HolyWeek+"11HDPsalm&D=GL55&C=Diacon", 
   "Yalmoc  to Dauid\nNqok de akmecte ta`ècbw > ouo akiou`èi `ènnacaji cavaou `èmmok > ak]annau `èeourefsiou`èi naksoji nemaf  >  akxw  `èntektoi  nem  ninwik > ``allhloui`a", 
   "Psaume 49 : 17 et 18\nToi tu n'aimes pas les reproches et rejettes loin de toi mes paroles. Si tu vois un voleur tu fraternises, tu es chez toi parmi les adultères. Alléluia", 
-  "مزمور٤٩: ١٧،١٨\nوأنت قد أبغضت أدبي، وألقيت كلامي إلى خلفك. إذا رأيت سارقا سعيت معه، مع الفسقة جعلت نصيبك .الليلويا", 
+  "مزمور٤٩: ١٧،١٨\nوأنت قد أبغضت أدبي، وألقيت كلامي إلى خلفك. إذا رأيت سارقا سعيت معه، مع الفسقة جعلت نصيبك.", 
   ],
   ],
   [
@@ -7618,7 +7618,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   Prefix.HolyWeek+"11HDGospel&D=GL55&C=Diacon", 
   "Yalmoc  to Dauid\nNqok de akmecte ta`ècbw > ouo akiou`èi `ènnacaji cavaou `èmmok > ak]annau `èeourefsiou`èi naksoji nemaf  >  akxw  `èntektoi  nem  ninwik > ``allhloui`a", 
   "Psaume 49 : 17 et 18\nToi tu n'aimes pas les reproches et rejettes loin de toi mes paroles. Si tu vois un voleur tu fraternises, tu es chez toi parmi les adultères. Alléluia", 
-  "مزمور٤٩: ١٧،١٨\nوأنت قد أبغضت أدبي، وألقيت كلامي إلى خلفك. إذا رأيت سارقا سعيت معه، مع الفسقة جعلت نصيبك .الليلويا", 
+  "مزمور٤٩: ١٧،١٨\nوأنت قد أبغضت أدبي، وألقيت كلامي إلى خلفك. إذا رأيت سارقا سعيت معه، مع الفسقة جعلت نصيبك.", 
   ],
   [
   Prefix.HolyWeek+"11HDGospel&D=GL55&C=Diacon", 
@@ -7726,7 +7726,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   Prefix.HolyWeek+"1HEPsalm&D=GL55&C=Diacon", 
   "Yalmoc  to Dauid\nP_ cwtem `èetaproceuxh > mare pa`è'rwou `èi `èe`èp]wi `èmpek`èmqo. Mpi`èeoou thrf nau;]w] nhi `ènje najaji  >  ouo nhet]ou]ou  `èejwi  nauwrk   `èe`è\rai   pe    > ``allhloui`a", 
   "Psaume  101 : 1 et 9\nSeigneur, entends ma prière et que mon cri parvienne jusqu'à Toi. Le jour, mes ennemis m'outragent;  ceux qui me louaient me maudissent.  Alléluia", 
-  "مزمور ١٠١ : ١، ٧\nيا رب إستمع صلاتي وليصعد أمامك صراخي. النهار كله كان يعيرني أعدائي، والذين يمدحونني كانوا يتحالفون علىّ .الليلويا", 
+  "مزمور ١٠١ : ١، ٧\nيا رب إستمع صلاتي وليصعد أمامك صراخي. النهار كله كان يعيرني أعدائي، والذين يمدحونني كانوا يتحالفون علىّ.", 
   ],
   ],
   [
@@ -7740,7 +7740,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   Prefix.HolyWeek+"1HEGospel&D=GL55&C=Diacon", 
   "Yalmoc  to Dauid\nP_ cwtem `èetaproceuxh > mare pa`è'rwou `èi `èe`èp]wi `èmpek`èmqo. Mpi`èeoou thrf nau;]w] nhi `ènje najaji  >  ouo nhet]ou]ou  `èejwi  nauwrk   `èe`è\rai   pe    > ``allhloui`a", 
   "Psaume  101 : 1 et 9\nSeigneur, entends ma prière et que mon cri parvienne jusqu'à Toi. Le jour, mes ennemis m'outragent;  ceux qui me louaient me maudissent.  Alléluia", 
-  "مزمور ١٠١ : ١، ٧\nيا رب إستمع صلاتي وليصعد أمامك صراخي. النهار كله كان يعيرني أعدائي، والذين يمدحونني كانوا يتحالفون علىّ .الليلويا", 
+  "مزمور ١٠١ : ١، ٧\nيا رب إستمع صلاتي وليصعد أمامك صراخي. النهار كله كان يعيرني أعدائي، والذين يمدحونني كانوا يتحالفون علىّ.", 
   ],
   [
   Prefix.HolyWeek+"1HEGospel&D=GL55&C=Diacon", 
@@ -8968,7 +8968,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   Prefix.HolyWeek+"1HDPsalm&D=GL56&C=Diacon", 
   "Yalmoc  to Dauid\nGe autwounou `èe`è\rhi `èejwi `ènje anmeqreu `ènrefsi`ènjonc > ouo `èa ;metsi`ènjonc  je  meqnouj  `èeroc  `èmmin  `èmmoc.\nAutwounou `ènje anmeqreu  `èn`èoji  > nau]ini  `èmmoi  `èenh`èete  `èn;cwoun  `èmmwou an. Au; nhi `ènanpetwou `èn`èt]ebi`èw `ènanpeqnaneu >  `èeau`è'rajrej  `ènnounaji  `èe`è\rhi  `èejwi  > ``allhloui`a", 
   "Psaume 26 : 12 et 34 :11, 12 et 16 \nContre moi se sont levés de faux témoins qui soufflent la violence.\nDes témoins injustes se lèvent, des inconnus m'interrogent. On me rend le mal pour le bien grinçant des dents contre moi. Alléluia", 
-  "مزمور  ٢٦: ١٥ مز ٣٤: ١٣، ١٤، ١٩ \nلأنه قام عليّ شهود زور.وكذب الظلم لذاته. قام عليّ شهود زور وعما لا أعلم سألوني. جازوني بدل الخير شراً صارين علىّ بأسنانهم. الليلويا", 
+  "مزمور  ٢٦: ١٥ مز ٣٤: ١٣، ١٤، ١٩ \nلأنه قام عليّ شهود زور. وكذب الظلم لذاته. قام عليّ شهود زور وعما لا أعلم سألوني. جازوني بدل الخير شراً صارين علىّ بأسنانهم. الليلويا", 
   ],
   ],
   [
@@ -9006,7 +9006,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   Prefix.HolyWeek+"1HDGospel&D=GL56&C=Diacon", 
   "Yalmoc  to Dauid\nGe autwounou `èe`è\rhi `èejwi `ènje anmeqreu `ènrefsi`ènjonc > ouo `èa ;metsi`ènjonc  je  meqnouj  `èeroc  `èmmin  `èmmoc.\nAutwounou `ènje anmeqreu  `èn`èoji  > nau]ini  `èmmoi  `èenh`èete  `èn;cwoun  `èmmwou an. Au; nhi `ènanpetwou `èn`èt]ebi`èw `ènanpeqnaneu >  `èeau`è'rajrej  `ènnounaji  `èe`è\rhi  `èejwi  > ``allhloui`a", 
   "Psaume 26 : 12 et 34 :11, 12 et 16 \nContre moi se sont levés de faux témoins qui soufflent la violence.\nDes témoins injustes se lèvent, des inconnus m'interrogent. On me rend le mal pour le bien grinçant des dents contre moi. Alléluia", 
-  "مزمور  ٢٦: ١٥ مز ٣٤: ١٣، ١٤، ١٩ \nلأنه قام عليّ شهود زور.وكذب الظلم لذاته. قام عليّ شهود زور وعما لا أعلم سألوني. جازوني بدل الخير شراً صارين علىّ بأسنانهم. الليلويا", 
+  "مزمور  ٢٦: ١٥ مز ٣٤: ١٣، ١٤، ١٩ \nلأنه قام عليّ شهود زور. وكذب الظلم لذاته. قام عليّ شهود زور وعما لا أعلم سألوني. جازوني بدل الخير شراً صارين علىّ بأسنانهم. الليلويا", 
   ],
   [
   Prefix.HolyWeek+"1HDGospel&D=GL56&C=Diacon", 
@@ -9110,7 +9110,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   Prefix.HolyWeek+"1HDCommentary&D=GL56&C=Diacon", 
   "", 
   "Commentaire\nA l'aube du vendredi, les grands prêtres se réunirent et préparèrent la condamnation du Sauveur avant de le présenter à Pilate pour le faire mourir. Judas, ayant appris cela, regretta ce qu'il avait fait. Il rendit l'argent aux grands prêtres en disant: «J'ai livré un sang innocent.» Puis il se retira et s'en alla se pendre, faisant ainsi un autre péché. Ayant ramassé l'argent, les grands prêtres achetèrent", 
-  "طــرح\nباكر يوم الجمعة إجتمع رؤساء الكهنة معاً وصنعوا الحكم على المخلص لكي يسلموه إلى بيلاطس ليقتله. فيهوذا لَمَّا نظر ما كان ندم على ما فعله. وأعاد الفضة إلى رؤساء الكهنة قائلاً: إنني ألقيت للحكم دماً ذكياً .فمضى وخنق نفسه وحده وكمل إثماً على إثم. فأخذ رؤساء الكهنة الفضة وإبتاعوا بها", 
+  "طــرح\nباكر يوم الجمعة إجتمع رؤساء الكهنة معاً وصنعوا الحكم على المخلص لكي يسلموه إلى بيلاطس ليقتله. فيهوذا لَمَّا نظر ما كان ندم على ما فعله. وأعاد الفضة إلى رؤساء الكهنة قائلاً: إنني ألقيت للحكم دماً ذكياً. فمضى وخنق نفسه وحده وكمل إثماً على إثم. فأخذ رؤساء الكهنة الفضة وإبتاعوا بها", 
   ],
   [
   Prefix.HolyWeek+"1HDCommentary&D=GL56&C=Diacon", 
@@ -9866,7 +9866,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   Prefix.HolyWeek+"6HDConfessionOfDimas&D=GL56&C=Diacon", 
   "Aripameu`i `w Pa=o=c @ aksan`i qen tekmetouro.\nAripameu`i `w Paouro @ aksan`i qen tekmetouro.\nAripameu`i `w Vye;ouab @ aksan`i qen tekmetouro.", 
   "Souviens-Toi de moi, Seigneur, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô mon Roi, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Saint, quand Tu viendras dans Ton Royaume.", 
-  "آري با ميفئي أوفي إثؤواب أكشان إي خين تيك ميت أورو .", 
+  "آري با ميفئي أوفي إثؤواب أكشان إي خين تيك ميت أورو.", 
   ],
   [
   Prefix.HolyWeek+"6HDConfessionOfDimas&D=GL56&C=Diacon", 
@@ -10131,7 +10131,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   Prefix.HolyWeek+"9HDProphecies&D=GL56&C=Diacon", 
   "", 
-  "Le soleil et la lune s'assombrissent, les étoiles perdent leur éclat ! Le Seigneur fait entendre sa voix à la tête de ses troupes ! ... Car il est grand, le jour du Seigneur, très redoutable - et qui peut l'affronter ?\nGloire à la sainte Trinité notre Dieu.", 
+  "Le soleil et la lune s'assombrissent, les étoiles perdent leur éclat ! Le Seigneur fait entendre sa voix à la tête de ses troupes !... Car il est grand, le jour du Seigneur, très redoutable - et qui peut l'affronter ?\nGloire à la sainte Trinité notre Dieu.", 
   "اَلشَّمْسُ وَالْقَمَرُ يُظْلِمَانِ، وَالنُّجُومُ تَحْجُزُ لَمَعَانَهَا. وَالرَّبُّ يُعْطِي صَوْتَهُ أَمَامَ جَيْشِهِ. إِنَّ عَسْكَرَهُ كَثِيرٌ جِدًّا. فَإِنَّ صَانِعَ قَوْلِهِ قَوِيٌّ، لأَنَّ يَوْمَ الرَّبِّ عَظِيمٌ وَمَخُوفٌ جِدًّا، فَمَنْ يُطِيقُهُ ؟\nمجداً للثالوث الأقدس إلهنا آمين.", 
   ],
   ],
@@ -10738,7 +10738,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   Prefix.HolyWeek+"12HDGolghosaHymn&D=GL56&C=Diacon", 
   "Au`i `nje nidikeoc @ Iwcyv nem Nikodymoc @ au[i `n`tcarz `nte P=,=c @ au] `noucojen `e`hryi `ejwf @ aukocf au,af qen ou`mhau @ euhwc erof eujw `mmoc @ je `agioc `o :eoc @ `agioc ic,uroc @ `agioc `a;anatoc @ `o `ctaurw;ic di`ymac `ele`ycon `ymac.", 
   "Les deux justes : Joseph et Nicodème ont pris le Corps du Christ, l'ont recouvert d'aromates, l'ont enseveli, en le louant et en disant : Dieu Saint, Saint fort, Saint éternel, qui a été crucifié pour nous, aie pitié de nous.", 
-  "أف إي إنجى ني ذيكيئوس يوسف نيم نيقوديموس : أف تشي إن إتصاركس إنتى بخرستوس أفتي أن أو سوجين إى إهري إيجوف أفكوسف أفكاف خين بي إمهاف. إف هوس إيروف إفجو إمموس . جى آجيوس أو ثيئوس : آجيوس إس شيروس آجيوس آثاناطوس. أو إسطافروتيس ديماس إليسون إيماس.", 
+  "أف إي إنجى ني ذيكيئوس يوسف نيم نيقوديموس : أف تشي إن إتصاركس إنتى بخرستوس أفتي أن أو سوجين إى إهري إيجوف أفكوسف أفكاف خين بي إمهاف. إف هوس إيروف إفجو إمموس. جى آجيوس أو ثيئوس : آجيوس إس شيروس آجيوس آثاناطوس. أو إسطافروتيس ديماس إليسون إيماس.", 
   ],
   [
   Prefix.HolyWeek+"12HDGolghosaHymn&D=GL56&C=Diacon", 
@@ -10756,7 +10756,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   Prefix.HolyWeek+"12HDGolghosaHymn&D=GL56&C=Diacon", 
   "Anon hwn marenouwst `mmof @ enws `ebol enjw `mmoc @ je nai nan V] Pencwtyr @ vy`etauasf `epi`ctauroc @ ek`eqomqem `m`pcatanac @ capecyt `nnen[alauj.", 
   "Et nous aussi prosternons-nous devant Lui en clamant et en disant : Aie pitié de nous ô Dieu notre Sauveur qui a été crucifié, écrase satan sous nos pieds.", 
-  "آنون هون مارين أو أوشت إمموف : إن أوش إيفول إنجو إمموس : جى ناي نان إفنوتي بين سوتير. في إيطاف أشف إى بي إسطافروس : إك إيخوم خيم إم إبصاطاناس صابيسيت إننين إتشالافج .", 
+  "آنون هون مارين أو أوشت إمموف : إن أوش إيفول إنجو إمموس : جى ناي نان إفنوتي بين سوتير. في إيطاف أشف إى بي إسطافروس : إك إيخوم خيم إم إبصاطاناس صابيسيت إننين إتشالافج.", 
   ],
   [
   Prefix.HolyWeek+"12HDGolghosaHymn&D=GL56&C=Diacon", 

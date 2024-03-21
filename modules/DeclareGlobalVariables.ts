@@ -25,7 +25,7 @@ type typeButton = {
 };
 //CONSTANTS
 const version: string =
-  "v5.9.2.4 (Continued the conversion of the Coptic fonts for Holy Week readings)";
+  "v6.0.1 (Added insertion of the Prophecies readings in the Incense Morning Office sequence)";
 const calendarDay: number = 24 * 60 * 60 * 1000; //this is a day in milliseconds
 const containerDiv: HTMLDivElement = document.getElementById(
   "containerDiv") as HTMLDivElement;
