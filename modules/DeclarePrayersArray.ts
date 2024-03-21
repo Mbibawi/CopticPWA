@@ -4022,7 +4022,7 @@ PrayersArrayFR= [[
   "", 
   "Hymne de la fin", 
   "", 
-  " الصلاة الختامية (آمين اللَّيْلِويا)", 
+  "الصلاة الختامية (آمين اللَّيْلِويا)", 
   ],
   [
   Prefix.same+"&C=Assembly", 
@@ -4032,11 +4032,7 @@ PrayersArrayFR= [[
   "آمين هَلِّليلُويا. المَجْدُ للآب والابن والْرُوحْ القُدُسْ، الآنْ وكُلَّ أوانْ وإلي دَهْرِ الدِهُورْ. آمْينْ. نَصْرُخُ قائلين: يا رَبّنا يَسُوعْ المَسِيحْ.", 
   ],
   [
-  Prefix.same+"&C=Assembly", 
-  "Ⲁϥⲧⲱⲛϥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲛⲏⲉⲑⲙⲱⲟⲩⲧ ϧⲉⲛ ⲡⲓⲉ̀ϩⲟⲟⲩ. Ⲙⲁⲣⲉ ⲡⲉⲕⲛⲁⲓ ⲛⲉⲙ ⲧⲉⲕϩⲓⲣⲏⲛⲏ ⲟⲓ ⲛ̀ⲥⲟⲃⲧ ⲙ̀ⲡⲉⲕⲗⲁⲟⲥ: Ⲥⲱϯ ⲙ̀ⲙⲟⲛ ⲟⲩⲟϩ ⲛⲁⲓ ⲛⲁⲛ:", 
-  "le roi de gloire est résuscité le troisième jour. Que Ta miséricorde et Ta paix soient un rampart pour Ton peuple. Sauve-nous et aie pitié de nous.", 
-  "إبؤورو إنتي إبؤ أو آفطونف إيفول خين نيئثُمَّوؤت. ماري بيك ناي نيم تيك هيريني أوي إنسوتب إمبيلاؤس، سوتي إممون أووه ناي نان.", 
-  "ملَكَ المَجْدُ قام من بين الأموات. فلتكن رَحْمَتُكَ وسَلامُكَ حِصْنَاً لِشَعْبِكَ خلصنا وإرحمنا.", 
+  Prefix.commonPrayer+"ConcludingHymnSeasonPlaceHolder&D=$copticFeasts.AnyDay", 
   ],
   [
   Prefix.same+"&C=Assembly", 
@@ -4059,6 +4055,109 @@ PrayersArrayFR= [[
   [
   Prefix.placeHolder, 
   Prefix.commonPrayer+"AssemblyResponseAmeenItWillBe&D=$copticFeasts.AnyDay", 
+  ],
+  ],
+  [
+  [
+  Prefix.commonPrayer+"ConcludingHymn&D=$Seasons.Rain&C=Assembly", 
+  "Ⲥⲙ̀ⲟⲩ ⲉⲛ̀ⲓⲙⲱⲟⲩ ⲙⲫ̀ⲓⲁⲣⲟⲩ: Ⲙⲁⲣⲉ ⲡⲉⲕⲛⲁⲓ ⲛⲉⲙ ⲧⲉⲕϩⲓⲣⲏⲛⲏ ⲟⲓ ⲛⲥ̀ⲟⲃⲧ ⲙⲡ̀ⲉⲕⲗⲁⲟⲥ: Ⲥⲱϯ ⲙⲙ̀ⲟⲛ ⲟⲩⲟϩ ⲛⲁⲓ ⲛⲁⲛ.", 
+  "Bénis les eaux des fleuves. Que Ta miséricorde et Ta paix soient un rampart pour Ton peuple. Sauve-nous et aie pitié de nous.", 
+  "", 
+  "بارك مياه الأنهار. فلتكن رحمتك وسلامك حصنا لشعبك. خلصنا وارحمنا.", 
+  ],
+  ],
+  [
+  [
+  Prefix.commonPrayer+"ConcludingHymn&D=$Seasons.Crops&C=Assembly", 
+  "Ⲥⲙ̀ⲟⲩ ⲉⲛ̀ⲓⲥⲓϯ ⲛⲉⲙ ⲛⲓⲥⲓⲙ: Ⲙⲁⲣⲉ ⲡⲉⲕⲛⲁⲓ ⲛⲉⲙ ⲧⲉⲕϩⲓⲣⲏⲛⲏ ⲟⲓ ⲛⲥ̀ⲟⲃⲧ ⲙⲡ̀ⲉⲕⲗⲁⲟⲥ: Ⲥⲱϯ ⲙⲙ̀ⲟⲛ ⲟⲩⲟϩ ⲛⲁⲓ ⲛⲁⲛ.", 
+  "Bénis les semences et les fourrages. Que Ta miséricorde et Ta paix soient un rampart pour Ton peuple. Sauve-nous et aie pitié de nous.", 
+  "", 
+  "بارك الزروع والعشب. فلتكن رحمتك وسلامك حصنا لشعبك. خلصنا وارحمنا.", 
+  ],
+  ],
+  [
+  [
+  Prefix.commonPrayer+"ConcludingHymn&D=$Seasons.Harvest&C=Assembly", 
+  "Ⲥⲙ̀ⲟⲩ ⲉⲛ̀ⲓⲁⲏⲣ ⲛⲧ̀ⲉ ⲧⲫ̀ⲉ: Ⲙⲁⲣⲉ ⲡⲉⲕⲛⲁⲓ ⲛⲉⲙ ⲧⲉⲕϩⲓⲣⲏⲛⲏ ⲟⲓ ⲛⲥ̀ⲟⲃⲧ ⲙⲡ̀ⲉⲕⲗⲁⲟⲥ: Ⲥⲱϯ ⲙⲙ̀ⲟⲛ ⲟⲩⲟϩ ⲛⲁⲓ ⲛⲁⲛ.", 
+  "Bénis les vents des cieux. Que Ta miséricorde et Ta paix soient un rampart pour Ton peuple. Sauve-nous et aie pitié de nous.", 
+  "", 
+  "بارك أهوية السماء. فلتكن رحمتك وسلامك حصنا لشعبك. خلصنا وارحمنا.", 
+  ],
+  ],
+  [
+  [
+  Prefix.commonPrayer+"ConcludingHymn&D=$Seasons.GreatLent&C=Assembly", 
+  "Ⲥⲱⲙⲁⲧⲟⲥ ⲕⲉ ⲉⲙ̀ⲁⲧⲟⲥ ⲙⲟⲛⲟⲅⲉⲛⲏⲥ Ⲑⲉⲟⲩ: ⲙⲉⲧ ⲁⲗ̀ⲁⲃⲟⲛⲧⲉⲥ ⲁⲩⲧⲱ: ⲉⲩⲭⲁⲣⲓⲥⲧⲏⲥⲱⲙⲉⲛ. Ⲇⲟⲝⲁ Ⲡⲁⲧⲣⲓ ⲕⲉ Ⲩⲓ̀ⲱ ⲕⲉ Ⲁⲅ̀ⲓⲱ Ⲡⲛ̀ⲉⲩⲙⲁⲧⲓ.", 
+  "Corps et Sang du Dieu Unique que nous avons communié. Rendons-lui grâce. Gloire au Père au Fils et au Saint-Esprit", 
+  "", 
+  "جسد ودم الإله الوحيد، اللذان تناولنا منهما، فلنشكره. المجد للآب الابن والروح القدس.", 
+  ],
+  [
+  Prefix.same+"&C=Assembly", 
+  "Ⲥⲱⲙⲁⲧⲟⲥ ⲕⲉ ⲉⲙ̀ⲁⲧⲟⲥ ⲙⲟⲛⲟⲅⲉⲛⲏⲥ Ⲑⲉⲟⲩ: ⲙⲉⲧ ⲁⲗ̀ⲁⲃⲟⲛⲧⲉⲥ ⲁⲩⲧⲱ: ⲉⲩⲭⲁⲣⲓⲥⲧⲏⲥⲱⲙⲉⲛ. Ⲕⲉ ⲛⲩⲛ ⲕⲉ ⲁⲓ̀ ̀ⲕⲉ ⲓⲥ ⲧⲟⲩⲥ ⲉⲱ̀ⲛ̀ⲁⲥ ⲧⲟⲛ ⲉⲱ̀ⲛ̀ⲱⲛ. Ⲁⲙⲏⲛ.", 
+  "Corps et Sang du Dieu Unique que nous avons communié. Rendons-lui grâce. Maintenant et à jamais et pour les siècles des siècles. Amen", 
+  "", 
+  "جسد ودم الإله الوحيد، اللذان تناولنا منهما، فلنشكره. الآن وكل أوان وإلي دهر الدهور. آمين.", 
+  ],
+  [
+  Prefix.same+"&C=Assembly", 
+  "Ⲫⲁⲓ ⲡⲉ ⲡⲓⲥⲱⲙⲁ ⲛⲉⲙ ⲡⲓⲥⲛ̀ⲟϥ ⲛⲧ̀ⲉ ⲡⲓⲙⲟⲛⲟⲅⲉⲛⲏⲥ ⲛⲛ̀ⲟⲩϯ: ⲛⲁⲓ ⲉⲧ̀ⲁⲛϭⲓ ⲉⲃ̀ⲟⲗ ⲛϧ̀ⲏⲧⲟⲩ.", 
+  "Ceci est le Corps et le Sang du Dieu Unique que nous avons communié. Rendons-lui grâce.", 
+  "", 
+  "هذا هو جسد ودم الإله الوحيد اللذان تناولنا منهما فلنشكره.", 
+  ],
+  [
+  Prefix.same+"&C=Assembly", 
+  "Ⲙⲁⲣⲉⲛϣⲉⲡϩⲙ̀ⲟⲧ ⲛⲧ̀ⲟⲧϥ: ⲙⲁⲣⲉⲛϩⲱⲥ ⲛⲉⲙ ⲛⲓⲁⲅⲅⲉⲗⲟⲥ ⲛⲉⲙ ⲛⲓⲧⲁⲅⲙⲁ ⲛⲧ̀ⲉ ⲡϭ̀ⲓⲥⲓ ⲛⲉⲙ ⲡⲭ̀ⲟⲣⲟⲥ ⲛⲧ̀ⲉ ⲛⲓⲑⲙ̀ⲏⲓ ⲉⲛⲱϣ ⲉⲃ̀ⲟⲗ ⲉⲛϫⲱ ⲙⲙ̀ⲟⲥ: ϫⲉ ⲫⲏⲉⲧ̀ⲁϥⲉⲣ̀ⲛⲏⲥⲧⲉⲩⲓⲛ\nⲉϩ̀ⲣ̀ⲏⲓ ⲉϫ̀ⲱⲛ ⲛϩ̀ⲙ̀ⲉ ⲛⲉ̀ϩ̀ⲟⲟⲩ̀ ⲛⲉⲙ ϩⲙ̀ⲉ ⲛⲉ̀ϫ̀ⲱⲣϩ: ϣⲱⲡ ⲉⲣ̀ⲟⲕ ⲛⲧ̀ⲉⲛⲛⲏⲥⲧⲓⲁ ⲭⲱ ⲛⲁⲛ ⲉⲃ̀ⲟⲗ ⲛⲛ̀ⲉⲛⲁⲛ̀ⲟⲙⲓⲁ: ϩⲓⲧⲉⲛ ⲛⲉⲛⲧⲟⲃϩ ⲛⲉⲙ ⲛⲉⲛⲡⲣ̀ⲉⲥⲃⲓⲁ ⲛⲧ̀ⲉ ⲧⲉⲛⲟ ⲥ ⲛⲛ̀ⲏⲃ Ⲙⲁⲣⲓⲁ.\nⲤⲱϯ ⲙⲙ̀ⲟⲛ ⲟⲩⲟϩ ⲛⲁⲓ ⲛⲁⲛ.", 
+  "Louons avec les anges, les rangs célestes, et les chœurs des justes en clamant et en disant : « ô Toi qui a jeûné pour nous quarante jours et quarante nuits, reçois nos jeûnes et pardonne-nous nos fautes; par les prières et les intercessions de notre mère Sainte Marie. Sauve-nous et aie pitié de nous. »", 
+  "", 
+  "ولنسبح مع الملائكه وطغمات العلا وصفوف الأبرار صارخين قائلين: \"يا من صام عنا أربعين يوماً وأربعين ليلة، أقبل إليك صومنا وإغفر لنا أثامنا، بطلبات وشفاعات سيدتي القديسة مريم. خلصنا وارحمنا\".", 
+  ],
+  [
+  Prefix.same+"&C=Assembly", 
+  "Ⲧⲉⲛⲱϣ ⲉ̀ⲃⲟⲗ ⲉⲛϫⲱ ⲙ̀ⲙⲟⲥ ϫⲉ ⲱ̀ Ⲡⲉⲛϭⲟⲓⲥ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅: Ⲫⲏⲉⲧ̀ⲁϥⲉⲣ̀ⲛⲏⲥ-ⲧⲉⲩⲓⲛ ⲉϩ̀ⲣ̀ⲏⲓ ⲉϫ̀ⲱⲛ: ⲛϩ̀ⲙ̀ⲉ ⲛⲉ̀ϩ̀ⲟⲟⲩ̀ ⲛⲉⲙ ϩⲙ̀ⲉ ⲛⲉ̀ϫ̀ⲱⲣϩ: ϣⲁ ⲛⲧ̀ⲉϥⲥⲱⲧⲧⲉⲛ ϧⲉⲛ ⲛⲉⲛⲛⲟⲃⲓ Ⲥⲱϯ ⲙⲙ̀ⲟⲛ ⲟⲩⲟϩ ⲛⲁⲓ ⲛⲁⲛ:", 
+  "Nous clamons en disant: « ô Notre Seigneur Jésus Christ. Qui a jeûné pour nous quarante jours et quarante nuits pour nous sauver de nos péchés Sauve-nous et aie pitié de nous ».", 
+  "", 
+  "نصرخ قائلين: \"ياربنا يسوع المسيح الذي صام عنا، أربعين يوماً وأربعين ليلة، حتي خلصنا من خطايانا. خلصنا وارحمنا\".", 
+  ],
+  ],
+  [
+  [
+  Prefix.commonPrayer+"ConcludingHymn&D=$Seasons.PentecostalDays&C=Assembly", 
+  "Ⲁϥⲧⲱⲛϥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲛⲏⲉⲑⲙⲱⲟⲩⲧ ϧⲉⲛ ⲡⲓⲉ̀ϩⲟⲟⲩ. Ⲙⲁⲣⲉ ⲡⲉⲕⲛⲁⲓ ⲛⲉⲙ ⲧⲉⲕϩⲓⲣⲏⲛⲏ ⲟⲓ ⲛ̀ⲥⲟⲃⲧ ⲙ̀ⲡⲉⲕⲗⲁⲟⲥ: Ⲥⲱϯ ⲙ̀ⲙⲟⲛ ⲟⲩⲟϩ ⲛⲁⲓ ⲛⲁⲛ:", 
+  "le roi de gloire est résuscité le troisième jour. Que Ta miséricorde et Ta paix soient un rampart pour Ton peuple. Sauve-nous et aie pitié de nous.", 
+  "إبؤورو إنتي إبؤ أو آفطونف إيفول خين نيئثُمَّوؤت. ماري بيك ناي نيم تيك هيريني أوي إنسوتب إمبيلاؤس، سوتي إممون أووه ناي نان.", 
+  "ملَكَ المَجْدُ قام من بين الأموات. فلتكن رَحْمَتُكَ وسَلامُكَ حِصْنَاً لِشَعْبِكَ خلصنا وإرحمنا.", 
+  ],
+  ],
+  [
+  [
+  Prefix.commonPrayer+"ConcludingHymnBishop&D=$copticFeasts.AnyDay&C=Assembly", 
+  "Ⲁⲕϭⲓ ⲧⲭ̀ⲁⲣⲓⲥ ⲙⲘ̀ⲱⲩⲥ̀ⲏⲥ: ϯⲙⲉⲧⲟⲩⲏⲃ ⲛⲧ̀ⲉ Ⲙⲉⲗⲭⲓⲥⲉⲇⲉⲕ: ϯⲙⲉⲧϧⲉⲗⲗⲱ ⲛⲧ̀ⲉ Ⲓⲁⲕⲱⲃ: ⲡⲓⲛⲟϫ ⲛⲁ̀ϩ̀ⲓ ⲛⲧ̀ⲉ Ⲙⲁⲑⲟⲩⲥⲁⲗⲁ: ⲡⲓⲕⲁϯ ⲉⲧⲥⲱⲧⲡ ⲛⲧ̀ⲉ Ⲇⲁⲩⲓⲇ: ϯⲥⲟⲫⲓⲁ ⲛⲧ̀ⲉ Ⲥⲟⲗⲟⲙⲱⲛ:", 
+  "Tu as obtenu la grâce de Moïse, la prêtrise de Melchisédek, l’âge de Jacob, et la longue vie de Matusalem, l’intelligence de David, la sagesse de Salomon,", 
+  "", 
+  "نلت نعمة موسي، وكهنوت ملشيصادق، وشيخوخة يعقوب، وطول عمر متوشالح، والفهم المختار الذي لداود، وحكمة سليمان،", 
+  ],
+  [
+  Prefix.same+"&C=Assembly", 
+  "Ⲡⲓⲡⲛ̀ⲉⲩⲙⲁ ⲙⲡ̀ⲁⲣⲁⲕⲗⲏⲧⲟⲛ ⲫⲏⲉⲧ̀ⲁϥⲓ ̀ⲉϫ̀ⲉⲛ ⲛⲓⲁⲡ̀ⲟⲥⲧⲟⲗⲟⲥ. Ⲡϭ̀ⲟⲓⲥ ⲉϥ̀ⲉⲁⲣ̀ⲉϩ ⲉⲡ̀ⲱ̀ⲛϧ: ⲛⲉⲙ ⲡⲧ̀ⲁϩⲟ ⲉⲣ̀ⲁⲧϥ: ⲙⲡ̀ⲉⲛⲓⲱⲧ ⲉⲧⲧⲁⲓⲏⲟⲩⲧ ⲛⲁ̀ⲣⲭⲓⲉⲣ̀ⲉⲩⲥ: ⲡⲁⲡⲁ ⲁⲃⲃⲁ Ⲧⲁⲱⲁⲇⲣⲟⲥ. Ⲛⲉⲙ ⲡⲉⲛⲓⲱⲧ ⲛⲉ̀ⲡ̀ⲓⲥⲕⲟⲡⲟⲥ ⲁⲃⲃⲁ Ⲙⲁⲣⲕ.", 
+  "et l’Esprit Saint, le Paraclet qui est descendu sur les apôtres. Que le Seigneur garde la vie de notre bienheureux père, le grand prêtre, le pape, abba (….) et notre bienheureux père l’évêque abba (….).", 
+  "", 
+  "والروح المعزى الذي حل على الرسل. الرب يحفظ حياة وقيام أبينا المكرم رئيس الكهنة البابا أنبا (....) وأبينا الأسقف أنبا (....).", 
+  ],
+  [
+  Prefix.same+"&C=Assembly", 
+  "Ⲫⲛⲟⲩϯ ⲛⲧ̀ⲉ ⲧⲫ̀ⲉ ⲉϥⲉⲧ̀ⲁϫⲣⲟϥ (ⲉϥⲉⲧ̀ⲁϫⲣⲟⲩ) ϩⲓϫⲉⲛ ⲡⲉϥⲑⲣ̀ⲟⲛⲟⲥ (ⲛⲟⲩⲑⲣ̀ⲟⲛⲟⲥ) ⲛϩ̀ⲁⲛⲙⲏϣ ⲛϭ̀ⲣⲟⲙⲡⲓ ⲛⲉⲙ ϩⲁⲛⲥⲏⲟⲩ ⲛϩ̀ⲓⲣⲏⲛⲓⲕⲟⲛ. Ⲛⲧ̀ⲉϥⲑⲉⲃⲓⲟ ⲛⲛ̀ⲉϥϫⲁϫⲓ (ⲛⲛ̀ⲟⲩϫⲁϫⲓ) ⲧⲏⲣⲟⲩ ⲥⲁⲡⲉⲥⲏⲧ ⲛⲛ̀ⲉϥϭⲁⲗⲁⲩϫ (ⲛⲛ̀ⲛⲟⲩϭⲁⲗⲁⲩϫ) ⲛⲭ̀ⲱⲗⲉⲙ.", 
+  "Que le Dieu du ciel le(s) maintienne sur son/leur trône de nombreuses années paisibles et qu’Il lui/leur soumette rapidement tous ses/leurs ennemis.", 
+  "", 
+  "إله السماء يثبته (هما) على كرسيه (كرسيهما) سنين كثيرة وأزمنة سلامية. ويخضع جميع أعداءه (أعدائهما) تحت قدميه (قدميهما) سريعاً. ويخضع جميع أعداءه (أعدائهما) تحت قدميه (قدميهما) سريعاً.", 
+  ],
+  [
+  Prefix.same+"&C=Assembly", 
+  "Ⲧⲱⲃϩ ⲉⲠ̀ⲭ ⲥ ⲉϩ̀ⲣ̀ⲏⲓ ⲉϫⲱⲛ ⲛⲧ̀ⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃ̀ⲟⲗ ϧⲉⲛ ⲟⲩϩⲓⲣⲏⲛⲏ ⲕⲁⲧⲁ ⲡⲉϥⲛⲓϣϯ ⲛⲛ̀ⲁⲓ.", 
+  "Implorez le Christ pour nous, afin qu’Il nous accorde la rémission de nos péchés dans la paix selon Sa grande miséricorde.", 
+  "", 
+  "اطلب من المسيح عنا ليغفر لنا خطايانا بسلام كعظيم رحمته.", 
   ],
   ],
   [
@@ -4094,7 +4193,7 @@ PrayersArrayFR= [[
   "", 
   "Saint, Saint, Saint Seigneur sabaot", 
   "", 
-  " قُدُّوسْ، قُدُّوسْ، قُدُّوسْ، رَبّ الصباؤوت", 
+  "قُدُّوسْ، قُدُّوسْ، قُدُّوسْ، رَبّ الصباؤوت", 
   ],
   [
   Prefix.same+"&C=Assembly", 
@@ -4979,16 +5078,7 @@ PrayersArrayFR= [[
   Prefix.massCommon+"IntroToSeasonalLitanies&D=$copticFeasts.AnyDay", 
   ],
   [
-  Prefix.placeHolder, 
-  Prefix.massCommon+"SeasonalLitanyOfTheRiver&D=$copticFeasts.AnyDay", 
-  ],
-  [
-  Prefix.placeHolder, 
-  Prefix.massCommon+"SeasonalLitanyOfThePlants&D=$copticFeasts.AnyDay", 
-  ],
-  [
-  Prefix.placeHolder, 
-  Prefix.massCommon+"SeasonalLitanyOfTheHarvest&D=$copticFeasts.AnyDay", 
+  Prefix.massCommon+"SeasonalLitanyPlaceHolder", 
   ],
   [
   Prefix.placeHolder, 
@@ -5269,7 +5359,7 @@ PrayersArrayFR= [[
   ],
   [
   [
-  Prefix.massCommon+"SeasonalLitanyOfThePlants&D=$copticFeasts.AnyDay&C=Comments", 
+  Prefix.massCommon+"SeasonalLitany&D=$Seasons.Crops&C=Comments", 
   "", 
   "من 10 بابه إلى 10 طوبة:", 
   ],
@@ -5297,7 +5387,7 @@ PrayersArrayFR= [[
   ],
   [
   [
-  Prefix.massCommon+"SeasonalLitanyOfTheHarvest&D=$copticFeasts.AnyDay&C=Comments", 
+  Prefix.massCommon+"SeasonalLitany&D=$Seasons.Harvest&C=Comments", 
   "", 
   "من 11 طوبة إلى 11 بؤونة:", 
   ],
@@ -9615,11 +9705,11 @@ PrayersArrayFR= [[
   ],
   [
   Prefix.placeHolder, 
-  Prefix.massCommon+"SeasonalLitanyOfThePlants&D=$copticFeasts.AnyDay", 
+  Prefix.massCommon+"SeasonalLitany&D=$Seasons.Crops", 
   ],
   [
   Prefix.placeHolder, 
-  Prefix.massCommon+"SeasonalLitanyOfTheHarvest&D=$copticFeasts.AnyDay", 
+  Prefix.massCommon+"SeasonalLitany&D=$Seasons.Harvest", 
   ],
   [
   Prefix.placeHolder, 
@@ -9924,11 +10014,11 @@ PrayersArrayFR= [[
   ],
   [
   Prefix.placeHolder, 
-  Prefix.massCommon+"SeasonalLitanyOfThePlants&D=$copticFeasts.AnyDay", 
+  Prefix.massCommon+"SeasonalLitany&D=$Seasons.Crops", 
   ],
   [
   Prefix.placeHolder, 
-  Prefix.massCommon+"SeasonalLitanyOfTheHarvest&D=$copticFeasts.AnyDay", 
+  Prefix.massCommon+"SeasonalLitany&D=$Seasons.Harvest", 
   ],
   [
   Prefix.placeHolder, 

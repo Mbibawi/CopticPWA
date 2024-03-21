@@ -25,7 +25,7 @@ type typeButton = {
 };
 //CONSTANTS
 const version: string =
-  "v6.0.1 (Added insertion of the Prophecies readings in the Incense Morning Office sequence)";
+  "v6.0.2 (Added insertion of adapted Concluding Hymn for certain seasons)";
 const calendarDay: number = 24 * 60 * 60 * 1000; //this is a day in milliseconds
 const containerDiv: HTMLDivElement = document.getElementById(
   "containerDiv") as HTMLDivElement;
@@ -381,6 +381,9 @@ const Seasons = {
   JonahFeast: "JFeast", //Stands for Jonah Feast
   ApostlesFast: "Apost", //Stands for Apostles Feast
   CrossFeast: "Cross", //Stands for Cross Feast
+  Rain: 'Rain', //between 12/10 and 09/02
+  Crops: 'Crops', //between 10/02 and 10/05
+  Harvest: 'Harvest', //between 11/05 and 11/10
   NoSeason: "NoSpecificSeason",
 };
 const copticFeasts = {

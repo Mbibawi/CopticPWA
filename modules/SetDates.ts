@@ -215,7 +215,7 @@ function checkForUnfixedEvent(
   let difference = Math.floor((resDate - today) / calendarDay); // we get the difference between the 2 dates in days
   //We initiate the Season to NoSeason
   let date: string;
-  Season = Seasons.NoSeason;
+  if (!Season) Season = Seasons.NoSeason;
 
   (function ifResurrection() {
     if (difference < 0) return;
@@ -244,7 +244,7 @@ function checkForUnfixedEvent(
 
   (function ifGreatLentPreparation() {
     if (![57, 56].includes(difference)) return; //the 57th and the 56th days before Resurrection correspond to the Saturday and the Sunday preceding the first day of the Great Lent (which is a Monday = Resurrection - 55 days). The readings of those 2 days are linked to the Great Lent Season.
-    
+
     date = isItSundayOrWeekDay(Seasons.GreatLent, 58 - difference, 0);
   })();
 
@@ -252,15 +252,14 @@ function checkForUnfixedEvent(
     if (difference < 1) return;//If <1 it means we are after the Great Lent Preiod (potentially during the Pentecostal days, or on the Resurrection day itself)
     if (difference > 55) return; //it means we are before the begining of the Great Lent
     //We are during the Great Lent period which counts 56 days from the Saturday preceding the 1st Sunday (which is the begining of the so called "preparation week") until the Resurrection day
-    if (copticDate === copticFeasts.Cross2)
-    {
+    if (copticDate === copticFeasts.Cross2) {
       Season =
         Seasons.CrossFeast; //! CAUTION: This must come BEFORE Seasons.GreatLent because the cross feast is celebrated twice, one of which during the Great Lent (10 Bramhat). If we do not place this 'else if' condition before the Great Lent season, it will never be fulfilled during the Great Lent
       return date = copticFeasts.Cross1; //!Caution: we must return here because otherwise, the function will continue and set the date to the GL prefixed date . 
       //Notice that the readings are those of copticFeasts.Cross1 (i.e. 1701)
     }
     else if (difference > 9 && copticDate === copticFeasts.Annonciation)
-      //The Annonciation Feast is not celebrated if it falls between the "End of Great Lent Friday" (i.e. difference = 9) and Resurrection (i.e. difference = 0)  
+    //The Annonciation Feast is not celebrated if it falls between the "End of Great Lent Friday" (i.e. difference = 9) and Resurrection (i.e. difference = 0)  
     {
       Season = Seasons.NoSeason; //We set the Season to Seasons.NoSeason, in order to prevent the Great Lent prayers (eg.: Doxologies, Cymbal Verses, Nefsinty, etc.) to be displayed. We are on a Lord Feast day
       return date = copticFeasts.Annonciation; //!Caution: we must return here because otherwise, the function will continue and set the date to the GL prefixed date  
@@ -340,7 +339,7 @@ function checkForUnfixedEvent(
         //When the 1st of Kiahk is a Monday, Kiahk will have only 3 Sundays before Kiahk 28th (i.e., on the 7th, the 14th, and the 21th of Kiahk), we will hence consider that the 30th of Hatour is the 1st Sunday of Kiahk, and will count Kiahk's Sundays from 2
         sunday = checkWhichSundayWeAre(Number(copticDay) + 7 - weekDay);
 
-        else sunday = checkWhichSundayWeAre(Number(copticDay) - weekDay);
+      else sunday = checkWhichSundayWeAre(Number(copticDay) - weekDay);
 
 
       Season = [
@@ -461,7 +460,25 @@ function isItSundayOrWeekDay(
 ): string {
   if (weekDay === 0)
     return period + checkWhichSundayWeAre(days, weekDay);  //we are a Sunday
-  else   return period + days.toString(); // we are not a sunday
+  else return period + days.toString(); // we are not a sunday
+}
+
+/**
+ * Returns the default Season according to the 3 Seasons of the Coptic year, i.e., the natural seasons not those based on fasts periods or events. Those 3 Seasons are: Rain (where the Nile is expected to flod), Crops (Where traditionnaly Egyptians started plating the fields), Harvest (Where they started harvesting)
+ */
+function naturalSeasons(): string {
+  let daysNumber: number = Number(copticDay) + ((Number(copticMonth) - 1) * 30);
+  console.log(daysNumber);
+  if (daysNumber < 38 || daysNumber >= 282) {
+    //We are duing the "Rain" seasons: between 12/10 and 09/02
+    return Seasons.Rain;
+  } else if (daysNumber >= 38 && daysNumber < 129) {
+    //We are duing the "Crops" seasons: between 10/02 and 10/05
+    return Seasons.Crops;
+  } else if (daysNumber >= 129) {
+    //We are duing the "Harvest" seasons: between 11/05 and 11/10
+    return Seasons.Harvest
+  }
 }
 /**
  * Shows the dates (Gregorian, coptic, coptic readings etc.), in an html element in the Temporary Dev Area

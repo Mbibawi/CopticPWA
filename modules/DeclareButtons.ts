@@ -275,6 +275,7 @@ const btnIncenseMorning: Button = new Button({
         dataGroup: dataRoot,
       });
     })();
+    adaptConcludingHymn(btnDocFragment);
 
     if (btn !== btnIncenseMorning) return; //The functions from this point on concern the Morning Incense service only
 
@@ -282,7 +283,7 @@ const btnIncenseMorning: Button = new Button({
       btnDocFragment,
       Prefix.commonPrayer + "EfnotiNaynan&D=$copticFeasts.AnyDay", undefined, 'group'
     );
-    
+
 
     (async function insertEklonominTaghonata() {
       if (![Seasons.GreatLent, Seasons.JonahFast].includes(Season)) return;
@@ -318,23 +319,23 @@ const btnIncenseMorning: Button = new Button({
       //! This must come after Eklonomin Taghonata has been inserted
       if (![Seasons.GreatLent, Seasons.JonahFast].includes(Season)) return;
 
-     if ([0, 6].includes(weekDay)) return; //We are neither a Saturday nor a Sunday, we will hence display the Prophecies dawn buton
+      if ([0, 6].includes(weekDay)) return; //We are neither a Saturday nor a Sunday, we will hence display the Prophecies dawn buton
 
-     let Prophecies = findTable(Prefix.propheciesDawn + "&D=" + copticReadingsDate, ReadingsArrays.PropheciesDawnArrayFR);
+      let Prophecies = findTable(Prefix.propheciesDawn + "&D=" + copticReadingsDate, ReadingsArrays.PropheciesDawnArrayFR);
 
-     if (!Prophecies) return console.log("Didn't find Prophecies with the current date");
+      if (!Prophecies) return console.log("Didn't find Prophecies with the current date");
       let title = [[Prophecies[0][0], 'نبوات باكر', 'Prophecies', '']];
 
-     insertPrayersAdjacentToExistingElement({
-       tables: [title, Prophecies],
-       languages: getLanguages(getArrayNameFromArray(ReadingsArrays.PropheciesDawnArrayFR)),
-       position: {
-         beforeOrAfter: "beforebegin",
-         el: efnotiNaynan[efnotiNaynan.length - 1].nextSibling as HTMLElement //i.e., we insert after the end of efnotiNayNan
-       },
-       container: btnDocFragment,
-     });
-   })();
+      insertPrayersAdjacentToExistingElement({
+        tables: [title, Prophecies],
+        languages: getLanguages(getArrayNameFromArray(ReadingsArrays.PropheciesDawnArrayFR)),
+        position: {
+          beforeOrAfter: "beforebegin",
+          el: efnotiNaynan[efnotiNaynan.length - 1].nextSibling as HTMLElement //i.e., we insert after the end of efnotiNayNan
+        },
+        container: btnDocFragment,
+      });
+    })();
 
     (async function addExpandableBtnForAdamDoxolgies() {
       //We add an expandable button for the Incense Dawn Adam Doxologies
@@ -747,24 +748,21 @@ const btnMassStBasil: Button = new Button({
       }
     })();
 
-    (function removeNonRelevantSeasonalLitany() {
-      let seasonal = Array.from(
-        btnDocFragment.querySelectorAll(".Row")
-      ) as HTMLDivElement[];
-      seasonal = seasonal.filter((row) =>
-        row.dataset.root.includes("SeasonalLitanyOf")
-      );
-      let dataRoot: string;
-      if (closingHymn.Season === closingHymnAll[0].Season)
-        dataRoot = "SeasonalLitanyOfThe" + closingHymn.Season; //River
-      else if (closingHymn.Season === closingHymnAll[1].Season)
-        dataRoot = "SeasonalLitanyOfThe" + closingHymn.Season; //Plants
-      else if (closingHymn.Season === closingHymnAll[2].Season)
-        dataRoot = "SeasonalLitanyOfThe" + closingHymn.Season; //Hervest
+    (function insertRelevantSeasonalLitany() {
+      let anchor = selectElementsByDataSetValue(btnDocFragment, Prefix.massCommon + "SeasonalLitanyPlaceHolder", undefined, 'root')[0];
+      if (!anchor) return console.log('Didn\'t find the anhcor');
 
-      seasonal
-        .filter((row) => !row.dataset.root.includes(dataRoot))
-        .forEach((row) => row.remove());
+      let tbl = findTable(Prefix.massCommon + 'SeasonalLitany&D=$Seasons.' + Object.entries(Seasons).find(entry => entry[1] === naturalSeasons())[0], MassCommonPrayersArray);
+      if (!tbl) return console.log('Didn\'t find the tbl');
+
+      insertPrayersAdjacentToExistingElement(
+        {
+          tables: [tbl],
+          languages: prayersLanguages,
+          position: { el: anchor, beforeOrAfter: 'beforebegin' },
+          container: btnDocFragment,
+        }
+      )
     })();
 
     (function showFractionPrayersMasterButton() {
@@ -818,6 +816,8 @@ const btnMassStBasil: Button = new Button({
         anchor: psalm150[psalm150.length - 1] as HTMLElement,
       });
     })();
+
+    adaptConcludingHymn(btnDocFragment)
   },
 });
 
@@ -2561,6 +2561,60 @@ function btnHolyWeek(): Button {
 
 }
 
+/**
+ * Adapts the Concluding Hymn of any Liturgy to the Season
+ */
+function adaptConcludingHymn(container: HTMLElement | DocumentFragment) {
+  let anchor = selectElementsByDataSetValue(container, Prefix.commonPrayer + 'ConcludingHymnSeasonPlaceHolder&D=$copticFeasts.AnyDay', undefined, 'root')[0];
+  if (!anchor) return console.log('Didn\'t find Concluding Hymn Season Anchor');
+  let tbl: string[][];
+
+  (function insertSeasonal() {
+    //!This function must come before the insertion of the expandable button for Pope And Bisphop
+    let title = Prefix.commonPrayer + "ConcludingHymn&D=$Seasons.";
+    if (Season === Seasons.NoSeason)
+      title += Object.entries(Seasons).find(entry => entry[1] === naturalSeasons())[0];
+    
+    else title += Object.entries(Seasons).find(entry => entry[1] === Season)[0];
+    
+    tbl = findTable(title, CommonPrayersArray) || undefined;  
+    if (!tbl) return console.log('Didn\'t find a relevant table');
+
+    if (Season === Seasons.GreatLent) {
+      if ([0, 6].includes(weekDay)) tbl = [tbl[tbl.length - 1]];//The last row is for the Great Lent Saturdays and Sundays
+      else tbl = [...tbl].slice(0, tbl.length - 1);//
+    }
+
+    insertPrayersAdjacentToExistingElement({
+      tables: [tbl],
+      languages: prayersLanguages,
+      position: {
+        el: anchor,
+        beforeOrAfter: 'beforebegin'
+      },
+      container: container
+    })
+  })();
+
+  (function InsertPopeAndBishopHymn() {
+    tbl = findTable(Prefix.commonPrayer + "ConcludingHymnBishop&D=$copticFeasts.AnyDay", CommonPrayersArray) || undefined;
+    if (!tbl) return console.log('Didn\'t find a relevant table');
+
+    addExpandablePrayer({
+      prayers: [tbl],
+      insertion: anchor,
+      btnID: 'concludingHymn',
+      languages: prayersLanguages,
+      label: {
+        AR: 'في حضور البطرك أو أحد الأساقفة',
+        FR: 'En présence du Pape ou d\'un évêque',
+      },
+    })
+
+  })();
+
+
+}
 /**
  * Makes a buttons div container floating on the top of the page
  * @param {HTMLDivElement} btnContainer - the buttons div container we want to make float;
