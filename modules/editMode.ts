@@ -1395,7 +1395,7 @@ async function convertCopticFontFromAPI(htmlElement: HTMLElement, fontFrom?: str
   if (!htmlElement) return alert('Html element not a paragraph');
 
 
-  if (['CS_AVVA_SHENOUDA', 'COPTIC1'].includes(fontFrom)) return htmlElement.innerText = await convertFont(htmlElement.innerText, fontFrom) || htmlElement.innerText;
+  if (!['CS_AVVA_SHENOUDA'].includes(fontFrom)) return htmlElement.innerText = await convertFont(htmlElement.innerText, fontFrom) || htmlElement.innerText;
 
 
   const apiURL: string =

@@ -10,7 +10,6 @@ const COPTIC_FONT_UNICODE_COL: number = 4;
 
 
 async function convertFont(text?: string, font: string = fontName, jimkin: string = JimkinCombining.before) {
-  //11HDGospel&D=GL52
   if (!fontsMap[0].includes(font)) {
     alert('Font: ' + font + ' is not supported');
     return undefined
@@ -19,7 +18,8 @@ async function convertFont(text?: string, font: string = fontName, jimkin: strin
   if (font === "ATHANASIUS")
     text = text.replaceAll('`è\\', '`\\')
       .replaceAll('`è', '`')
-    
+  if (font === "COPTIC1") jimkin = JimkinCombining.after;
+  console.log("font = ", font);
   text = text.
     replaceAll('\r', '\n')
     .split('\n')
@@ -96,7 +96,6 @@ function convertCopticText(font: string, text: string, jimkin: string):string {
           stringbuffer.pop(); // remove last char
           stringbuffer.push(textArray[i-1] +JIMKIN_UNICODE);
       } else if (jimkinCombining === JimkinCombining.before) {
-        //stringbuffer.push(JIMKIN_UNICODE + text[i]);
           stringbuffer.push(textArray[i+1]+JIMKIN_UNICODE);
           i++
       }

@@ -25,7 +25,7 @@ type typeButton = {
 };
 //CONSTANTS
 const version: string =
-  "v6.0.2 (Added insertion of adapted Concluding Hymn for certain seasons)";
+  "v6.0.3 (Added insertion of adapted Concluding Hymn for certain seasons)";
 const calendarDay: number = 24 * 60 * 60 * 1000; //this is a day in milliseconds
 const containerDiv: HTMLDivElement = document.getElementById(
   "containerDiv") as HTMLDivElement;
