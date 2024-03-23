@@ -3134,7 +3134,9 @@ async function insertCymbalVersesAndDoxologies(btn: Button) {
         Prefix.cymbalVerses + "Wates&D=$copticFeasts.AnyDay",
         Prefix.cymbalVerses + "&D=$copticFeasts.AnyDay",
       ];
-
+      
+      if ([0, 1, 2].includes(weekDay)) sequence[0] = sequence[0].replace("Wates&D", "Adam&D");
+      
       //If we are during any of the Lord Feasts (or any season where we follow the same pattern), we add "Jesus Christ is the same for ever...",
       if (
         [...lordFeasts, copticFeasts.Coptic29th].includes(copticDate) ||
@@ -3146,7 +3148,6 @@ async function insertCymbalVersesAndDoxologies(btn: Button) {
           Prefix.cymbalVerses + "LordFeastsEnd&D=$copticFeasts.AnyDay"
         );
 
-      if (weekDay > 2) sequence[0] = sequence[0].replace("Wates&D", "Adam&D");
 
       if (dayFeasts)
         dayFeasts.forEach((feast) =>
@@ -3162,7 +3163,7 @@ async function insertCymbalVersesAndDoxologies(btn: Button) {
 
       return processSequence(
         sequence,
-        CymbalVersesPrayersArray
+        Prefix.cymbalVerses
       );
 
     }
@@ -3232,7 +3233,7 @@ async function insertCymbalVersesAndDoxologies(btn: Button) {
 
     let doxologies: string[][][] = processSequence(
       sequence,
-      DoxologiesPrayersArray
+      Prefix.doxologies
     );
 
     if (doxologies.length === 0)
@@ -3240,14 +3241,12 @@ async function insertCymbalVersesAndDoxologies(btn: Button) {
 
     if (Season === Seasons.GreatLent) {
       //For the Great Lent, there is a doxology for the Sundays and 4 doxologies for the week days
-      if (weekDay === 0 || weekDay === 6)
+      [0, 6].includes(weekDay)?
+      doxologies = doxologies
+        .filter((tbl) => tbl[0][0].includes("Sundays&D=$Seasons.GreatLent"))
+        :
         doxologies = doxologies
-          .filter((tbl) => tbl[0][0].includes("Seasons.GreatLent"))
-          .filter((tbl) => !tbl[0][0].includes("Week"));
-      else
-        doxologies = doxologies
-          .filter((tbl) => tbl[0][0].includes("Seasons.GreatLent"))
-          .filter((tbl) => !tbl[0][0].includes("Sundays"));
+          .filter((tbl) => /Week\d&D=\$Seasons.GreatLent/.test(tbl[0][0]));
     }
 
     insertPrayersAdjacentToExistingElement({
@@ -3265,6 +3264,7 @@ async function insertCymbalVersesAndDoxologies(btn: Button) {
    * @param {string[]} sequence - the btn's prayers sequence in which the new placeholder element will be inserted
    * @param {string} feastDate - the string representing the feast or the season
    * @param {number} index - the index at which the new placeholder element will be inserted.
+   * @param {number} remove the number of elements that will be removed from the sequence after the index
    */
   function insertFeastInSequence(
     sequence: string[],
@@ -3273,31 +3273,30 @@ async function insertCymbalVersesAndDoxologies(btn: Button) {
     remove: number
   ) {
     if (!index && index !== 0) return;
-    sequence.splice(index, remove, "&Insert=" + feastDate);
+    sequence.splice(index, remove, feastDate);
   }
 
   /**
    * Searchs in tablesArray for the tables matching each title in sequence, which is a string[] of titles, and returns a string[][][] of the tables found in the
    * @param {string[]} sequence - An arry of titles that we will be looking for tables matching each of them in tablesArray[][]
-   * @param {string[][][]} tablesArray - The array containg the text tables in which we will be looking for the tables[][] having titles matching the titles in sequence[]
+   * @param {string} prefix - the prefix with which all the tables in the concerned tables array start (i.e., either Prefix.cymbalVerses, or Prefix.doxologies)
    * @returns {string[][][]} - an array of the tables[][] found
    */
-  function processSequence(sequence: string[], tablesArray: string[][][]) {
-    let tables: string[][][] = [];
-
+  function processSequence(sequence: string[], prefix:string):string[][][] {
+    let tables: string[][][] = [],
+      tablesArray: string[][][] = getTablesArrayFromTitlePrefix(prefix);
+ 
     sequence.map((title) => {
-      if (title.startsWith("&Insert="))
+      if (!title.startsWith(prefix))
         tablesArray
           //!CAUTION: we must use 'filter' not 'find' because for certain feasts there are more than one doxology
           .filter((tbl) =>
-            isMultiDatedTitleMatching(tbl[0][0], title.split("&Insert=")[1])
+            isMultiDatedTitleMatching(tbl[0][0], title)
           )
           .forEach((tbl) => tables.push(tbl));
       else
         tables.push(
-          findTable(title, tablesArray, {
-            equal: true,
-          }) as string[][]
+          findTable(title, tablesArray) as string[][]
         );
     });
 

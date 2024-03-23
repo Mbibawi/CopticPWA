@@ -504,7 +504,7 @@ PrayersArrayFR= [[
   [
   Prefix.cymbalVerses+"Wates&D=$copticFeasts.AnyDay&C=Title", 
   "", 
-  "Cymbals Verses Adam", 
+  "Quatrins du carillon Wates", 
   "", 
   "أرَبّاع الناقوس واطس", 
   ],
@@ -527,7 +527,7 @@ PrayersArrayFR= [[
   [
   Prefix.cymbalVerses+"Adam&D=$copticFeasts.AnyDay&C=Title", 
   "", 
-  "Cymbals Verses Adam", 
+  "Quatrins du carillon Adam", 
   "", 
   " أرَبّاع الناقوس آدام", 
   ],
@@ -802,8 +802,15 @@ PrayersArrayFR= [[
   ],
   ],
   [
+    [
+      Prefix.cymbalVerses+"End&D=$copticFeasts.AnyDay&C=Title",
+      "",
+      "Clôture des Quatrins du carillon",
+      "",
+      "ختام أرباع الناقوس",
+    ],
   [
-  Prefix.cymbalVerses+"End&D=$copticFeasts.AnyDay&C=Diacon", 
+  Prefix.same+"&C=Diacon", 
   "Ϩⲓⲧⲉⲛ ⲛⲓⲡ̀ⲣⲉⲥⲃⲓⲁ: ⲛ̀ⲧⲉ ϯⲑⲉⲟ̀ⲧⲟⲕⲟⲥ ⲉⲑⲟⲩⲁⲃ Ⲙⲁⲣⲓⲁ: Ⲡ̀ϭⲟⲓⲥ ⲁ̀ⲣⲓϩ̀ⲙⲟⲧ ⲛⲁⲛ ⲙ̀ⲡⲓⲭⲱ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉ ⲛⲉⲛⲛⲟⲃⲓ.", 
   "Par les intercessions de Sainte Marie♫ Mère de Dieu♫ Seigneur accorde nous la rémission de nos péchés.", 
   "هيتن ني ابريسفيا♫ انتي تي ثيؤطوكوس اثؤواب ماريا♫ ابشويس آري إهموت نان امبي كو إيفول انتي ني نوفي.", 
