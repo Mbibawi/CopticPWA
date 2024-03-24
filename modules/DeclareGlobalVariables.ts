@@ -25,7 +25,7 @@ type typeButton = {
 };
 //CONSTANTS
 const version: string =
-  "v6.0.4 (Fixes to the Cymbal verses Wates and Adam)";
+  "v6.0.4.1 (Worked on Holy Week until Wednesday 1st Hour)";
 const calendarDay: number = 24 * 60 * 60 * 1000; //this is a day in milliseconds
 const containerDiv: HTMLDivElement = document.getElementById(
   "containerDiv") as HTMLDivElement;

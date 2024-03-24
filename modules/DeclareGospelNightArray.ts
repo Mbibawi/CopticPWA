@@ -881,7 +881,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   ],
   [
   Prefix.HolyWeek+"6HEGospel&D=GL7thSunday&C=Diacon", 
-  "Markon Kev i/> l/b/ - l/d/\nNaui `èvmwit de pe eunhou `èe`è\rhi `èeIlh?m? ouo nafmo]i 'ajwou `ènje Ih/c/ ouo nauero; > nh de `èenauer`èakolouqin nauero; ouo palin afin`èi `èmpimht `ècnau `èetotf aferhtc `ènje nheqna]wpi `èmmof nwou. Je hppe tenna]enan `èe`è\rhi `èeIlh?m? ouo `èp]hri `èm`èvrwmi cenathif `ènniarxh`èereuc nem nica' ouo cena;ap `èerof `èm`èvmou ouo cenathif `ènnieqnoc > ouo cenacobi `èmmof ouo cenaiqaf `èe'oun `èe`è\raf ouo cenaermactiggoin `èmmof ouo cena'oqbef ouo menenca ]omt `èn`èeoou `èfnatwnf.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.", 
+  "Markon Kev i/> l/b/ - l/d/\nNaui `èvmwit de pe eunhou `èe`è\\rhi `èeIlh?m? ouo nafmo]i 'ajwou `ènje Ih/c/ ouo nauero; > nh de `èenauer`èakolouqin nauero; ouo palin afin`èi `èmpimht `ècnau `èetotf aferhtc `ènje nheqna]wpi `èmmof nwou. Je hppe tenna]enan `èe`è\\rhi `èeIlh?m? ouo `èp]hri `èm`èvrwmi cenathif `ènniarxh`èereuc nem nica' ouo cena;ap `èerof `èm`èvmou ouo cenathif `ènnieqnoc > ouo cenacobi `èmmof ouo cenaiqaf `èe'oun `èe`è\\raf ouo cenaermactiggoin `èmmof ouo cena'oqbef ouo menenca ]omt `èn`èeoou `èfnatwnf.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.", 
   "Marc 10 : 32 - 34\nIls étaient en chemin et montaient à Jérusalem, Jésus marchait devant eux. Ils étaient effrayés, et ceux qui suivaient avaient peur. Prenant de nouveau les Douze avec lui, il se mit à leur dire ce qui allait lui arriver: «Voici que nous montons à Jérusalem et le Fils de l'homme sera livré aux grands prêtres et aux scribes; ", 
   "مرقس ١٠ : ٣٢ – ٣٤\nوكانوا في الطريق صاعدين إلى أورشليم. وكَانَ يسوع يسير قدامهم وكانوا يتحيرون. والذين كانوا يتبعونه كانوا خائفين. فتقدم إليه أيضاً الإثنى عشر وابتدأ يقول لهم عما يحدث له: ها نحن صاعدون إلى أورشليم. وابن الإنسان سيسلم إلى رؤساء الكهنة والكتبة", 
   ],
@@ -1083,7 +1083,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   ],
   [
   Prefix.same+"&C=Diacon", 
-  "Tote au`èi `ènje nimaqhthc a Ihc? ca `èpca `èmmauatou ouo pejwou naf je eqbe ou `èanon `èmpen`è]jemjom `èeitf `èebol > `ènqof de pejaf nwou je eqbe petenkouji `ènna; `èamhn gar ;jw `èmmoc nwten je `èe]wp `èeouon teten na; `èmmau `èm`èvrh; `ènounavri `èn]eltam `èereten`èejoc `èmpaitwou je ou`èwteb `èebol tai `èe`èmnh ouo ef`èeou`èwteb ouo `ènne `èli `èera`ètjom `èntenqhnou.\nOuo paigenoc `èmpaf`èi `èebol'en `èli `èebhl `ènouproceuxh nem ounhcti`èa. Etaukotou de `èe`è\rhi `èe;Galile`èa peje Ihc? nwou je `èp]hri `èm`èvrwmi cenathif `èe`è'rhi `èenenjij `ènnirwmi > ouo cena'oqbef ouo menenca ]omt `èn`èeoou ef`èetwnf > ouo `èapouht `èmka `èema]w.\nOuw]t `mpieuaggelion eqouab.\nDo[a ci Kuri`e.", 
+  "Tote au`èi `ènje nimaqhthc a Ihc? ca `èpca `èmmauatou ouo pejwou naf je eqbe ou `èanon `èmpen`è]jemjom `èeitf `èebol > `ènqof de pejaf nwou je eqbe petenkouji `ènna; `èamhn gar ;jw `èmmoc nwten je `èe]wp `èeouon teten na; `èmmau `èm`èvrh; `ènounavri `èn]eltam `èereten`èejoc `èmpaitwou je ou`èwteb `èebol tai `èe`èmnh ouo ef`èeou`èwteb ouo `ènne `èli `èera`ètjom `èntenqhnou.\nOuo paigenoc `èmpaf`èi `èebol'en `èli `èebhl `ènouproceuxh nem ounhcti`èa. Etaukotou de `èe`è\\rhi `èe;Galile`èa peje Ihc? nwou je `èp]hri `èm`èvrwmi cenathif `èe`è'rhi `èenenjij `ènnirwmi > ouo cena'oqbef ouo menenca ]omt `èn`èeoou ef`èetwnf > ouo `èapouht `èmka `èema]w.\nOuw]t `mpieuaggelion eqouab.\nDo[a ci Kuri`e.", 
   "Alors les disciples, s'approchant de Jésus, dans le privé, lui demandèrent: «Pourquoi nous autres, n'avons-nous pu l'expulser?» «Parce que vous avez peu de foi», leur dit-il. Car, je vous le dis en vérité, si vous avez de la foi gros comme un grain de sénevé, vous direz à cette montagne : Déplace-toi d'ici à là, et elle se déplacera, et rien ne vous sera impossible. Mais cette sorte de démon ne sort que par la prière et par le jeûne.» ", 
   "حينئذ جاء التلاميذ إلى يسوع منفردين وحدهم وقالوا له: لماذا لم نقدر نحن أن نخرجه؟ أما هو فقال لهم: لأجل قلة إيمانكم. الحق أقول لكم لو كان لكم إيمان مثل حبة خردل لكنتم تقولون لهذا الجبل انتقل من هنا إلى هناك فينتقل، ولا يكون شئ غير ممكن لديكم.", 
   ],
@@ -2823,7 +2823,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   Prefix.HolyWeek+"1HDProphecies&D=GL53&C=Title", 
   "", 
   "Prophecies de la Première heure du mardi\nExode (19: 1-9)\n", 
-  "نبوات الساعة الأولى من يوم الثلاثاء\nخروج ١٩ : ١ – ٩\n", 
+  "نبوات الساعة الأولى من يوم الثلاثاء\nخروج (١٩: ١–٩)\n", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -2846,32 +2846,20 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   Prefix.same+"&C=Diacon", 
   "", 
-  "Le troisième mois après leur sortie du pays d'Égypte.", 
-  "وفى الشهر الثالث لخروج بنى إسرائيل من أرض مصر.", 
+  "Le troisième mois après leur sortie du pays d'Égypte. Ce jour-là, les Israélites atteignirent le désert du Sinaï. Ils partirent de Rephidim et atteignirent le désert du Sinaï, et ils campèrent dans le désert; Israël campa là, en face de la montagne. Moïse alors monta vers Dieu. Le Seigneur l'appela de la montagne et lui dit: «Tu parleras ainsi à la maison de Jacob, tu déclareras aux Israélites: \"Vous avez vu vous-mêmes ce que j'ai fait aux Égyptiens, et comment je vous ai emportés sur des ailes d'aigles et amenés vers moi. Maintenant, si vous écoutez ma voix et gardez mon alliance, je vous tiendrai pour mon bien propre parmi tous les peuples, car toute la terre est à moi. Je vous tiendrai pour un royaume de prêtres, une nation sainte. Voilà les paroles que tu diras aux Israélites.»", 
+  "1 فِي الشَّهْرِ الثَّالِثِ بَعْدَ خُرُوجِ بَنِي إِسْرَائِيلَ مِنْ أَرْضِ مِصْرَ، فِي ذلِكَ الْيَوْمِ جَاءُوا إِلَى بَرِّيَّةِ سِينَاءَ. 2 ارْتَحَلُوا مِنْ رَفِيدِيمَ وَجَاءُوا إِلَى بَرِّيَّةِ سِينَاءَ فَنَزَلُوا فِي الْبَرِّيَّةِ. هُنَاكَ نَزَلَ إِسْرَائِيلُ مُقَابِلَ الْجَبَلِ. 3 وَأَمَّا مُوسَى فَصَعِدَ إِلَى اللهِ. فَنَادَاهُ الرَّبُّ مِنَ الْجَبَلِ قَائِلًا: \"هكَذَا تَقُولُ لِبَيْتِ يَعْقُوبَ، وَتُخْبِرُ بَنِي إِسْرَائِيلَ: 4 \"أَنْتُمْ رَأَيْتُمْ مَا صَنَعْتُ بِالْمِصْرِيِّينَ. وَأَنَا حَمَلْتُكُمْ عَلَى أَجْنِحَةِ النُّسُورِ وَجِئْتُ بِكُمْ إِلَيَّ. 5 فَالآنَ إِنْ سَمِعْتُمْ لِصَوْتِي، وَحَفِظْتُمْ عَهْدِي تَكُونُونَ لِي خَاصَّةً مِنْ بَيْنِ جَمِيعِ الشُّعُوبِ. فَإِنَّ لِي كُلَّ الأَرْضِ. 6 وَأَنْتُمْ تَكُونُونَ لِي مَمْلَكَةَ كَهَنَةٍ وَأُمَّةً مُقَدَّسَةً. هذِهِ هِيَ الْكَلِمَاتُ الَّتِي تُكَلِّمُ بِهَا بَنِي إِسْرَائِيلَ\".", 
   ],
   [
   Prefix.same+"&C=Diacon", 
   "", 
-  "Ce jour-là, les Israélites atteignirent le désert du Sinaï. Ils partirent de Rephidim et atteignirent le désert du Sinaï, et ils campèrent dans le désert; Israël campa là, en face de la montagne. Moïse alors monta vers Dieu. Le Seigneur l'appela de la montagne et lui dit: «Tu parleras ainsi à la maison de Jacob, tu déclareras aux Israélites: \"Vous avez vu vous-mêmes ce que j'ai fait aux Égyptiens, et comment je vous ai emportés sur des ailes d'aigles et", 
-  "فى ذلك اليوم جاءوا إلى برية سيناء. ورحلوا من رافازين ووصلوا إلى برية سيناء ونزلوا هناك قبالة الجبل. فصعد موسى إلى جبل الله فناداه الله من الجبل قائلاً : هذا ما تقوله لبيت يعقوب وتخبر بنى إسرائيل قائلاً لهم. قد رأيتم كل الأعمال التى صنعتها بالمصريين وكيف حملتكم كأنكم على أجنحة النسور", 
-  ],
-  [
-  Prefix.same+"&C=Diacon", 
-  "", 
-  "amenés vers moi. Maintenant, si vous écoutez ma voix et gardez mon alliance, je vous tiendrai pour mon bien propre parmi tous les peuples, car toute la terre est à moi. Je vous tiendrai pour un royaume de prêtres, une nation sainte. Voilà les paroles que tu diras aux Israélites.» Moïse alla et convoqua les anciens du peuple et leur exposa tout ce que le Seigneur lui avait ordonné, et le peuple entier, d'un commun accord, répondit :", 
-  "وأتيت بكم إليّ والآن إن كنتم سمعاً تسمعون لصوتى وتحفظون عهدى. فإنكم تكونون لي شعباً مجتمعاً إلى الأبد من بين جميع الأمم. لأن لي الأرض بأسرها وأنتم تكونون لي مملكة مقدسة وأمة مطهرة. هذا هو الكلام الذي تقوله لبيت إسرائيل. فجاء موسى ودعا شيوخ الشعب وقص عليهم كل هذه الكلمات التى أمره الله بها. فأجاب جميع الشعب معاً وقالوا:", 
-  ],
-  [
-  Prefix.same+"&C=Diacon", 
-  "", 
-  "«Tout ce que le Seigneur a dit, nous le ferons.» Moïse rapporta au Seigneur les paroles du peuple.", 
-  "كل ما تكلم به الله. نسمعه ونعمل به. فرفع موسى كلام الشعب إلى الله.", 
+  "Moïse alla et convoqua les anciens du peuple et leur exposa tout ce que le Seigneur lui avait ordonné, et le peuple entier, d'un commun accord, répondit : «Tout ce que le Seigneur a dit, nous le ferons.» Moïse rapporta au Seigneur les paroles du peuple.", 
+  "7 فَجَاءَ مُوسَى وَدَعَا شُيُوخَ الشَّعْبِ وَوَضَعَ قُدَّامَهُمْ كُلَّ هذِهِ الْكَلِمَاتِ الَّتِي أَوْصَاهُ بِهَا الرَّبُّ. 8 فَأَجَابَ جَمِيعُ الشَّعْبِ مَعًا وَقَالُوا: «كُلُّ مَا تَكَلَّمَ بِهِ الرَّبُّ نَفْعَلُ». فَرَدَّ مُوسَى كَلاَمَ الشَّعْبِ إِلَى الرَّبِّ.\n", 
   ],
   [
   Prefix.same+"&C=Title", 
   "", 
   "Job (23: 2 & 24: 25)", 
-  "أيوب ٢٣ : ٢ - ٢٤ : ١ -٢٥", 
+  "أيوب (٢٣: ٢-٢٤ و ١ -٢٥", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -2894,62 +2882,44 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   Prefix.same+"&C=Diacon", 
   "", 
-  "C'est toujours une révolte que ma plainte ; sa main reste pesante, malgré mon gémissement.", 
-  "أنا أعلم أن توبيخي هو منه. ويده قد ثقلت على تنهدى.", 
+  "C'est toujours une révolte que ma plainte ; sa main reste pesante, malgré mon gémissement. Oh! Si je savais comment l'atteindre, parvenir jusqu'à sa demeure, J'ouvrirais un procès devant lui, ma bouche serait pleine de griefs. Je connaîtrais les termes de sa réponse, attentif à ce qu'il me dirait. Jetterait-il toute sa force dans ce débat avec moi ? Non, il lui suffirait de me prêter attention. Il reconnaîtrait dans son adversaire un homme droit, et je triompherais de mon juge. Si je vais vers l'orient, il est absent ;", 
+  " أنا أعلم أن توبيخي هو منه. ويده قد ثقلت على تنهدى. من الذي يعلم أني أجده؟ وأنهم تحابوا مَعِي إلى التمام، ولست أستطيع أن أقول حكمًا أمامه، فيمتلئ فمي توبيخًا. أنا أعلم بثبات ما يقوله لي، وأشعر بما يعرفنى إياه، ولا يأتى على بقوة عظيمة، ولا يفسح لي في الرجز. لأن البر والتوبيخ هما منه. و يخرج حكمي إلى الإنقضاء وأمضى إلى الأوائل. ولا أكون بعد، ولا أعلم ما في الأواخر.", 
   ],
   [
   Prefix.same+"&C=Diacon", 
   "", 
-  "Oh! Si je savais comment l'atteindre, parvenir jusqu'à sa demeure, J'ouvrirais un procès devant lui, ma bouche serait pleine de griefs. Je connaîtrais les termes de sa réponse, attentif à ce qu'il me dirait. Jetterait-il toute sa force dans ce débat avec moi ? Non, il lui suffirait de me prêter attention. Il reconnaîtrait dans son adversaire un homme droit, et je triompherais de mon juge. Si je vais vers l'orient, il est absent ;", 
-  "من الذي يعلم أني أجده؟ وأنهم تحابوا مَعِي إلى التمام، ولست أستطيع أن أقول حكمًا أمامه، فيمتلئ فمي توبيخًا. أنا أعلم بثبات ما يقوله لي، وأشعر بما يعرفنى إياه، ولا يأتى على بقوة عظيمة، ولا يفسح لي في الرجز. لأن البر والتوبيخ هما منه. و يخرج حكمي إلى الإنقضاء وأمضى إلى الأوائل. ولا أكون بعد، ولا أعلم ما في الأواخر.", 
+  "vers l'occident, je ne l'aperçois pas. Quand il agit au nord, je ne le saisis pas, s'il se tourne au midi, je ne le vois pas. Et pourtant, la voie qui est la mienne, il la connaît! Qu'il me passe au creuset: or pur j'en sortirai! Mon pied s'est attaché à ses pas, j'ai gardé sa voie sans dévier; je n'ai pas négligé le commandement de ses lèvres, j'ai abrité dans mon sein les paroles de sa bouche. Mais lui décide, qui le fera changer? Ce qu'il a projeté, il l'accomplit. Il exécutera donc ma sentence, comme tant d'autres de ses décrets ! C'est pourquoi, devant lui, je suis terrifié ; plus j'y songe, plus il me fait peur. Dieu a brisé mon courage, Shaddaï me remplit d'effroi. Car je n'ai pas été anéanti devant les ténèbres mais il a recouvert ma face d'obscurité. Pourquoi Shaddaï n'a-t-il pas des temps en réserve, et ses fidèles ne voient-ils pas ses jours? Les méchants déplacent les bornes, ils enlèvent troupeau et berger.", 
+  "خلق الشمال ولم أمسك ما يستر اليمين ولا أنظر. هو عارف طريقى ومحصنى مثل الذهب. فأسلك بحسب أوامره ولا أرفضها أخفى كلامه في حضنى. فإن كان قد حكم هكذا فمن هو الذي يقاومه. وهو ما يريده يفعله من أجل ذلك أسرعت إليه أدبنى فخفت منه. لهذا أسرع قدام وجهه وأتأمل فأرتعب منه. لأن الرب قد أضعف قلبى. والضابط الكل أسرع ورائى. لأنى كنت أعلم أن الظلمة ستأتى على. والضباب غطى وجهى كيف خفيت هذه الساعات عن الرب. فتجاوز المنافقون حدودهم مختطفين القطيع مع راعيه؟", 
   ],
   [
   Prefix.same+"&C=Diacon", 
   "", 
-  "vers l'occident, je ne l'aperçois pas. Quand il agit au nord, je ne le saisis pas, s'il se tourne au midi, je ne le vois pas. Et pourtant, la voie qui est la mienne, il la connaît! Qu'il me passe au creuset: or pur j'en sortirai! Mon pied s'est attaché à ses pas, j'ai gardé sa voie sans dévier; je n'ai pas négligé le commandement de ses lèvres, j'ai abrité dans mon sein les paroles de sa bouche. Mais lui décide, qui le fera changer? Ce qu'il a projeté, il l'accomplit.", 
-  "خلق الشمال ولم أمسك ما يستر اليمين ولا أنظر. هو عارف طريقى ومحصنى مثل الذهب. فأسلك بحسب أوامره ولا أرفضها أخفى كلامه في حضنى. فإن كان قد حكم هكذا فمن هو الذي يقاومه.\nوهو ما يريده يفعله من أجل ذلك أسرعت إليه أدبنى فخفت منه. لهذا", 
+  "On emmène l'âne des orphelins, on prend en gage le bœuf de la veuve. Les indigents doivent s'écarter du chemin, les pauvres du pays se cacher tous ensemble. Tels les onagres du désert, ils sortent à leur travail, cherchant dès l'aube une proie, et le soir, du pain pour leurs petits. Ils moissonnent dans le champ d'un vaurien, ils pillent la vigne d'un méchant. Ils passent la nuit nus, sans vêtements, sans couverture contre le froid. L'averse des montagnes les transperce; faute d'abri, ils étreignent le rocher. ", 
+  "وأخذوا حمار الأيتام وأرتهنوا بقرة الأرملة. وجعلوا الضعفاء يميلون عن طريق الحق وأختفى ودعاء الأرض معًا. وصاروا كالبقر في الحقل. وطرحوا أعمالهم على وإستحلوا خبز الأطفال. وحقلًا ليس لهم حصدوه قبل أوانه. يعمل الضعفاء في كروم المنافقين بلا أجرة ولا طعام. كثيرًا ما جعلوهم يبيتون عراة بغير لباس ونزعوا كساء أنفسهم. فأبتلوا من قطر الجبال. وحيث أن لا خيام لهم أستتروا بالصخور.", 
   ],
   [
   Prefix.same+"&C=Diacon", 
   "", 
-  "Il exécutera donc ma sentence, comme tant d'autres de ses décrets ! C'est pourquoi, devant lui, je suis terrifié ; plus j'y songe, plus il me fait peur. Dieu a brisé mon courage, Shaddaï me remplit d'effroi. Car je n'ai pas été anéanti devant les ténèbres mais il a recouvert ma face d'obscurité. Pourquoi Shaddaï n'a-t-il pas des temps en réserve, et ses fidèles ne voient-ils pas ses jours? Les méchants déplacent les bornes, ils enlèvent troupeau et berger.", 
-  "أسرع قدام وجهه وأتأمل فأرتعب منه. لأن الرب قد أضعف قلبى. والضابط الكل أسرع ورائى. لأنى كنت أعلم أن الظلمة ستأتى على. والضباب غطى وجهى كيف خفيت هذه الساعات عن الرب. فتجاوز المنافقون حدودهم مختطفين القطيع مع راعيه؟", 
+  "On arrache l'orphelin à la mamelle, on prend en gage le nourrisson du pauvre. Ils s'en vont nus, sans vêtements; affamés, ils portent les gerbes. Entre deux murettes, ils pressent l'huile; altérés, ils foulent les cuves. De la ville on entend gémir les mourants, les blessés, dans un souffle, crier à l'aide. Et Dieu reste sourd à la prière! D'autres sont de ceux qui repoussent la lumière: ils en méconnaissent les chemins, n'en fréquentent pas les sentiers. Il fait noir quand l'assassin se lève, pour tuer le pauvre et l'indigent. Durant la nuit rôde le voleur, L'œil de l'adultère épie le crépuscule: «Personne ne me verra», dit-il, et il met un voile sur son visage.", 
+  "خطفوا الأيتام عن ثديهم. ومن سقط أذلوه بظلمهم جعلوا قومًا ينامون عراة. و أخذوا خبز الجياع. في المواضع الضيقة إصطادوا بالظلم. وطريق العدل لم يعرفوه. والذين طردوهم من مدنهم وبيوتهم لم يعرفوهم. فصارت نفس الأطفال في تنهد شديد. لماذا لم يفتقد هؤلاء وهم على الأرض وهم لم يعرفوا طريق البر. ولم يمشوا في سبله. فلما علم بأعمالهم أسلمهم للظلمة، وفى الليل يصير مثل اللص، وعين الزانى ترقب الظلام قائلًا: لا تبصرنى عين. فيجعل سترًا على وجهه.", 
   ],
   [
   Prefix.same+"&C=Diacon", 
   "", 
-  "On emmène l'âne des orphelins, on prend en gage le bœuf de la veuve. Les indigents doivent s'écarter du chemin, les pauvres du pays se cacher tous ensemble. Tels les onagres du désert, ils sortent à leur travail, cherchant dès l'aube une proie, et le soir, du pain pour leurs petits. Ils moissonnent dans le champ d'un vaurien, ils pillent la vigne d'un méchant. Ils passent la nuit nus, sans vêtements, sans couverture contre le froid.", 
-  "وأخذوا حمار الأيتام وأرتهنوا بقرة الأرملة. وجعلوا الضعفاء يميلون عن طريق الحق وأختفى ودعاء الأرض معًا.\nو صاروا كالبقر في الحقل. وطرحوا أعمالهم على وإستحلوا خبز الأطفال. وحقلًا ليس لهم حصدوه قبل أوانه. يعمل الضعفاء في كروم المنافقين بلا أجرة ولا طعام. كثيرًا ما جعلوهم يبيتون عراة بغير لباس ونزعوا كساء أنفسهم.", 
+  "Dans les ténèbres, il perfore les maisons. Pendant le jour, ils se cachent, ceux qui ne veulent pas connaître la lumière. Pour eux tous, le matin devient l'ombre de mort, car ils éprouvent les terreurs de l'ombre de mort. Ce n'est plus qu'un fétu à la surface des eaux, son domaine est maudit dans le pays, nul ne prend le chemin de sa vigne. Comme une chaleur sèche fait disparaître la neige. Ainsi le shéol celui qui a péché. Le sein qui l'a formé l'oublie et son nom n'est plus mentionné. Ainsi est foudroyée comme un arbre l'iniquité. Il a maltraité la femme stérile, privée d'enfants, il s'est montré dur pour la veuve. ", 
+  " نقب بيوتًا في الظلام وفى النهار أغلقوا على أنفسهم. فلا يعرفون النور صباحًا.لأن ظل الموت يدركهم معًا. لأنه يعرف أهوال ظل الموت. خفيف هو على وجه الماء. فليكن نصيبهم ملعونًا على الأرض. وليظهر نباتهم يابسًا على وجه الأرض. لأَنَّهُمْ نهبوا أغمار الأيتام. وحين ذكر خطيته وصار غير ظاهر كمثل طل الندى، وسيجازى بما فعل، وينسحق كل ظالم مثل الخشب الغير النافع، لأَنَّهُمْ لم يحسنوا إلى العاقر ولم يرحموا الأرملة. وبغضب طرحوا الضعفاء.", 
   ],
   [
   Prefix.same+"&C=Diacon", 
   "", 
-  "L'averse des montagnes les transperce; faute d'abri, ils étreignent le rocher. On arrache l'orphelin à la mamelle, on prend en gage le nourrisson du pauvre. Ils s'en vont nus, sans vêtements; affamés, ils portent les gerbes. Entre deux murettes, ils pressent l'huile; altérés, ils foulent les cuves. De la ville on entend gémir les mourants, les blessés, dans un souffle, crier à l'aide. Et Dieu reste sourd à la prière! D'autres sont de ceux qui", 
-  "فأبتلوا من قطر الجبال. وحيث أن لا خيام لهم أستتروا بالصخور. خطفوا الأيتام عن ثديهم. ومن سقط أذلوه بظلمهم جعلوا قومًا ينامون عراة. و أخذوا خبز الجياع. في المواضع الضيقة إصطادوا بالظلم. وطريق العدل لم يعرفوه. والذين طردوهم من مدنهم", 
-  ],
-  [
-  Prefix.same+"&C=Diacon", 
-  "", 
-  "repoussent la lumière: ils en méconnaissent les chemins, n'en fréquentent pas les sentiers. Il fait noir quand l'assassin se lève, pour tuer le pauvre et l'indigent. Durant la nuit rôde le voleur, L'œil de l'adultère épie le crépuscule: «Personne ne me verra», dit-il, et il met un voile sur son visage. Dans les ténèbres, il perfore les maisons. Pendant le jour, ils se cachent, ceux qui ne veulent pas connaître la lumière. Pour eux tous, le matin", 
-  "وبيوتهم لم يعرفوهم. فصارت نفس الأطفال في تنهد شديد. لماذا لم يفتقد هؤلاء وهم على الأرض وهم لم يعرفوا طريق البر. ولم يمشوا في سبله. فلما علم بأعمالهم أسلمهم للظلمة، وفى الليل يصير مثل اللص، وعين الزانى ترقب الظلام قائلًا: لا تبصرنى عين. فيجعل سترًا على وجهه. نقب بيوتًا في الظلام وفى النهار أغلقوا على أنفسهم. فلا يعرفون النور صباحًا.", 
-  ],
-  [
-  Prefix.same+"&C=Diacon", 
-  "", 
-  "devient l'ombre de mort, car ils éprouvent les terreurs de l'ombre de mort. Ce n'est plus qu'un fétu à la surface des eaux, son domaine est maudit dans le pays, nul ne prend le chemin de sa vigne. Comme une chaleur sèche fait disparaître la neige. Ainsi le shéol celui qui a péché. Le sein qui l'a formé l'oublie et son nom n'est plus mentionné. Ainsi est foudroyée comme un arbre l'iniquité. Il a maltraité la femme stérile, privée d'enfants, il s'est", 
-  "لأن ظل الموت يدركهم معًا. لأنه يعرف أهوال ظل الموت. خفيف هو على وجه الماء. فليكن نصيبهم ملعونًا على الأرض. وليظهر نباتهم يابسًا على وجه الأرض. لأَنَّهُمْ نهبوا أغمار الأيتام. وحين ذكر خطيته وصار غير ظاهر كمثل طل الندى، وسيجازى بما فعل، وينسحق كل ظالم مثل الخشب الغير النافع، لأَنَّهُمْ لم يحسنوا إلى العاقر", 
-  ],
-  [
-  Prefix.same+"&C=Diacon", 
-  "", 
-  "montré dur pour la veuve. Mais Celui qui se saisit des tyrans avec force surgit et lui ôte l'assurance de la vie. Il le laissait s'appuyer sur une sécurité trompeuse, mais, des yeux, il surveillait ses démarches. Elevé pour un temps, il disparaît, il s'affaisse comme l'arroche qu'on cueille, il se fane comme la tête des épis. N'en est-il pas ainsi ? Qui me convaincra de mensonge et réduira mes paroles à néant?", 
-  "ولم يرحموا الأرملة. وبغضب طرحوا الضعفاء.\nفاذا قام لا يأمن على حياته. وإذا مرض لا يجعلوه يرجو أن يشفى بل يسقط بالمرض. إن كثيرين خفضهم إرتفاعه فذبلت خضرتهم بالحر مثل السنبل إذا سقط وحده من البرائب. وإلا فمن قال له أني كذبت ويجعل كلامى كلا شيء؟", 
+  "Mais Celui qui se saisit des tyrans avec force surgit et lui ôte l'assurance de la vie. Il le laissait s'appuyer sur une sécurité trompeuse, mais, des yeux, il surveillait ses démarches. Elevé pour un temps, il disparaît, il s'affaisse comme l'arroche qu'on cueille, il se fane comme la tête des épis. N'en est-il pas ainsi ? Qui me convaincra de mensonge et réduira mes paroles à néant?", 
+  "فاذا قام لا يأمن على حياته. وإذا مرض لا يجعلوه يرجو أن يشفى بل يسقط بالمرض. إن كثيرين خفضهم إرتفاعه فذبلت خضرتهم بالحر مثل السنبل إذا سقط وحده من البرائب. وإلا فمن قال له أني كذبت ويجعل كلامى كلا شيء؟", 
   ],
   [
   Prefix.same+"&C=Title", 
   "", 
   "Osée (4: 1-8)", 
-  "هوشع ٤ : ١ – ٨", 
+  "هوشع (٤: ١–٨)", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -2972,14 +2942,8 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   Prefix.same+"&C=Diacon", 
   "", 
-  "Écoutez la parole du Seigneur, enfants d'Israël, car le Seigneur est en procès avec les habitants du pays :", 
-  "إسمعوا كلام الرب يا بنى إسرائيل فإن للرب محاكمة مع سكان الأرض", 
-  ],
-  [
-  Prefix.same+"&C=Diacon", 
-  "", 
-  "Il n'y a ni fidélité ni amour, ni connaissance de Dieu dans le pays, mais parjure et mensonge, assassinat et vol, adultère et violence, et le sang versé succède au sang versé. Voilà pourquoi le pays est en deuil et tous ses habitants dépérissent, jusqu'aux bêtes des champs et aux oiseaux du ciel, et même les poissons de la mer disparaîtront. Pourtant que nul n'intente procès, que nul ne réprimande !", 
-  "لأنه لا حق ولا رحمة ولا معرفة الله على الأرض. بل لعنة وكذب وقتل وسرقة وفسق قد فاضت على الأرض ودماء تختلط بدماء. لذلك تنوح الأرض وكل من يسكن فيها يذبل مع وحوش البرية ودبابات الأرض وطيور السماء وسمك البحر أيضاً يفنى، حتى لا يكون من يحاكم ولا من يوبخ.", 
+  "Écoutez la parole du Seigneur, enfants d'Israël, car le Seigneur est en procès avec les habitants du pays : Il n'y a ni fidélité ni amour, ni connaissance de Dieu dans le pays, mais parjure et mensonge, assassinat et vol, adultère et violence, et le sang versé succède au sang versé. Voilà pourquoi le pays est en deuil et tous ses habitants dépérissent, jusqu'aux bêtes des champs et aux oiseaux du ciel, et même les poissons de la mer disparaîtront. Pourtant que nul n'intente procès, que nul ne réprimande !", 
+  " إسمعوا كلام الرب يا بنى إسرائيل فإن للرب محاكمة مع سكان الأرض لأنه لا حق ولا رحمة ولا معرفة الله على الأرض. بل لعنة وكذب وقتل وسرقة وفسق قد فاضت على الأرض ودماء تختلط بدماء. لذلك تنوح الأرض وكل من يسكن فيها يذبل مع وحوش البرية ودبابات الأرض وطيور السماء وسمك البحر أيضاً يفنى، حتى لا يكون من يحاكم ولا من يوبخ.", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -2993,10 +2957,10 @@ ReadingsArrays.GospelNightArrayFR= [[
   Prefix.HolyWeek+"1HDSermony&D=GL53&C=Title", 
   "", 
   "Sermon de Première heure du mardi", 
-  "عظة لأبينا الساعة الأولى من يوم الثلاثاء", 
+  "عظة الساعة الأولى من يوم الثلاثاء", 
   ],
   [
-  Prefix.same+"&C=Diacon", 
+  Prefix.same+"&C=ReadingIntro", 
   "Ⲟⲩⲕⲁⲧⲏⲭⲏⲥⲓⲥ ⲛ̀ⲧⲉ ⲡⲉⲛⲓⲱⲧ ⲉ̀ⲑⲟⲩⲁⲃ ⲁⲃⲃⲁ Ϣⲉⲛⲟⲩϯ ⲡⲓⲁ̀ⲣⲭⲏⲙⲁⲛⲇ̀ⲣⲓⲧⲏⲥ ⲉ̀ⲣⲉ ⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̀ⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ.", 
   "Sermon de notre saint père Abba Chénouté l’archimandrite. Que sa sainte bénédiction soit avec nous Amen.", 
   "عظة لأبينا القديس أنبا شنودة رئيس المتوحدين بركته المقدسة تكون معنا آمين", 
@@ -3004,8 +2968,8 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   Prefix.same+"&C=Diacon", 
   "", 
-  "Sermon de notre saint père Anba Chénouté l'archimandrite que sa sainte bénédiction repose sur nous tous. Amen\nJe vous dis deux choses. Ceux pour qui il y a une joie dans le ciel à cause de leur repentir sur terre, ne verront ni tristesse ni douleur dans le ciel. Quant à ceux pour qui il n’y a pas eu de joie dans le ciel car, sur terre, ils se sont détournés de leur repentir, ceux-là ne verront ni joie ni repos là où ils seront. En effet, ceux qui", 
-  "عظة لأبينا القديس أنبا شنودة رئيس المتوحدين، بركته المقدسة تكون معنا. آمين\nأنا أخبركم بأمرين: إن كل الذين فرح بهم في السماء لأجل توبتهم على الأرض. سوف لا يرون حزنا ولا ألمًا في ذلك المكان وأما الذين لم يفرح بهم في السماء لأجل الإرتداد من توبتهم على الأرض فسوف لا يرون فرحًا ولا نياحا في ذلك الموضع.", 
+  "Je vous dis deux choses. Ceux pour qui il y a une joie dans le ciel à cause de leur repentir sur terre, ne verront ni tristesse ni douleur dans le ciel. Quant à ceux pour qui il n’y a pas eu de joie dans le ciel car, sur terre, ils se sont détournés de leur repentir, ceux-là ne verront ni joie ni repos là où ils seront. En effet, ceux qui", 
+  "أنا أخبركم بأمرين: إن كل الذين فرح بهم في السماء لأجل توبتهم على الأرض. سوف لا يرون حزنا ولا ألمًا في ذلك المكان وأما الذين لم يفرح بهم في السماء لأجل الإرتداد من توبتهم على الأرض فسوف لا يرون فرحًا ولا نياحا في ذلك الموضع.", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -3020,12 +2984,6 @@ ReadingsArrays.GospelNightArrayFR= [[
   "والذي ليس بقوى يقول أنا قوى عندما يعطى قلبه للقول المكتوب. و كقول النبي: كثيرون هم الذين ضعفت أجسادهم من كثرة زناهم، سيضعفون أيضًا في قلوبهم. كما يقول الكتاب عن هؤلاء هكذا أنه يتحطم بنجاسة نفسه، وأما المجاهدون بشجاعة فقد قيل عنهم: أسرع وقوّم ذاتك صفيا لله، فاعلا لا يخزى. يقطع كلمة الحق.", 
   ],
   [
-  Prefix.same+"&C=Diacon", 
-  "", 
-  "Clôturons le sermon de notre père\nAnba Chénouté l’Archimandrite, qui a éclairé nos pensées et les yeux de nos cœurs au Nom du Père, du Fils et du Saint Esprit, un seul Dieu, Amen", 
-  "فلنختم موعظة أبينا القديس أنبا شنودة الذي أنار عقولنا وعيون قلوبنا بإسم الآب والإبن والروح القدس الإله الواحد آمين", 
-  ],
-  [
   Prefix.same+"&C=ReadingEnd", 
   "Ⲙⲁⲣⲉⲛⲉⲣ ⲥ̀ⲫ̀ⲣⲁⲅⲓⲍⲓⲛ ⲛ̀ϯⲕⲁⲧⲏⲭⲏⲥⲓⲥ ⲛ̀ⲧⲉ ⲡⲉⲛⲓⲱⲧ ⲉ̀ⲑⲟⲩⲁⲃ ⲁⲃⲃⲁ Ϣⲉⲛⲟⲩϯ ⲡⲓⲁ̀ⲣⲭⲏⲙⲁⲛⲇ̀ⲣⲓⲧⲏⲥ ⲫ̀ⲏⲉⲧⲁϥⲉⲣⲟⲩⲱⲓⲛⲓ ⲙ̀ⲡⲉⲛⲛⲟⲩⲥ ⲛⲉⲙ ⲛⲓⲃⲁⲗ ⲛ̀ⲧⲉ ⲛⲉⲛϩⲏⲧ : ϧⲉⲛ ⲫ̀ⲣⲁⲛ ⲙ̀ϮⲪⲓⲱⲧ ⲛⲉⲙ ϮⲠϣⲏⲣⲓ ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉ̀ⲑⲟⲩⲁⲃ ⲟⲩⲛⲟⲩϯ ⲛ̀ⲟⲩⲱⲧ : ⲁ̀ⲙⲏⲛ.", 
   "Clôturons le sermon de notre père\nAnba Chénouté l’Archimandrite, qui a éclairé nos pensées et les yeux de nos cœurs au Nom du Père, du Fils et du Saint Esprit, un seul Dieu, Amen!", 
@@ -3036,8 +2994,8 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   Prefix.HolyWeek+"1HDPsalm&D=GL53&C=Title", 
   "Ⲯⲁⲗⲙⲟⲥ ⲧⲟ Ⲇⲁⲩⲓⲇ ", 
-  "Psaume de la Première heure du mardi\nPsaume (119 :2, 6 et 7)\n", 
-  "مزمور الساعة الأولى من يوم الثلاثاء\nمزمور ١١٩ : ٢، ٥\n", 
+  "Psaume de la Première heure du mardi\nPsaume (119: 2, 6 et 7)\n", 
+  "مزمور الساعة الأولى من يوم الثلاثاء\nمزمور (١١٩: ٢، ٥)\n", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -3051,25 +3009,25 @@ ReadingsArrays.GospelNightArrayFR= [[
   Prefix.HolyWeek+"1HDGospel&D=GL53&C=Title", 
   "Ⲓⲱⲁⲛⲛⲏⲛ Ⲕⲉⲫ ⲏ : ⲕⲁ ⲕⲑ\n", 
   "Evangile de la Première heure du mardi\nJean (8: 21-29)\n", 
-  "إنجيل الساعة الأولى من يوم الثلاثاء\nيوحنا ٨ : ٢١ – ٢٩\n", 
+  "إنجيل الساعة الأولى من يوم الثلاثاء\nيوحنا (٨: ٢١–٢٩)\n", 
   ],
   [
   Prefix.same+"&C=Diacon", 
   "Ⲡⲁⲗⲓⲛ ⲟⲛ ⲡⲉϫⲉ Ⲓⲏⲥ ⲛⲱⲟⲩ ϫⲉ ⲁ̀ⲛⲟⲕ ϯⲛⲁϣⲉⲛⲏⲓ ⲟⲩⲟϩ ⲧⲉⲧⲉⲛⲛⲁⲕⲱϯ ⲛ̀ⲥⲱⲓ ⲟⲩⲟϩ ⲧⲉⲧⲉⲛⲛⲁϫⲉⲙⲧ ⲁⲛ ⲟⲩⲟϩ ⲧⲉⲧⲉⲛⲛⲁⲙⲟⲩ ϧⲉⲛ ⲛⲉⲧⲉⲛⲛⲟⲃⲓ. Ⲟⲩⲟϩ ⲡⲓⲙⲁ ⲁ̀ⲛⲟⲕ ⲉ̀ϯⲛⲁϣⲉⲛⲏⲓ ⲉ̀ⲣⲟϥ ⲙ̀ⲙⲟⲛ ϣ̀ϫⲟⲙ ⲙ̀ⲙⲱⲧⲉⲛ ⲉ̀ⲓ̀ ⲉ̀ⲣⲟϥ. Ⲛⲁⲩϫⲱ ⲟⲩⲛ ⲙ̀ⲙⲟⲥ ⲡⲉ ⲛ̀ϫⲉ ⲛⲓⲓⲟⲩⲇⲁⲓ ϫⲉ ⲙⲏⲧⲓ ⲁϥⲛⲁϧⲟⲑⲃⲉϥ ⲙ̀ⲙⲁⲩⲁⲧϥ : ϫⲉ ̀ϥϫⲱ ⲙ̀ⲙⲟⲥ ϫⲉ ⲡⲓⲙⲁ ⲁ̀ⲛⲟⲕ ⲉ̀ϯⲛⲁϣⲉⲛⲏⲓ ⲉ̀ⲣⲟϥ ⲛ̀ⲑⲱⲧⲉⲛ ⲛ̀ⲧⲉⲧⲉⲛⲛⲁϣ̀ⲓ̀ ⲉ̀ⲣⲟϥ ⲁⲛ.", 
-  "Jésus leur dit encore: «Je m'en vais; vous me chercherez, mais vous mourrez dans votre péché. Là où je vais, vous ne pouvez aller.» Les Juifs dirent alors: «Aurait-il l'intention de se tuer puisqu'il dit: Là où je vais, vous ne pouvez aller?» Jésus leur répondit: «Vous êtes d'en bas; moi, je suis d'en haut; vous êtes de ce monde, moi je ne suis pas de ce monde. C'est pourquoi je vous ai dit que vous mourrez dans vos péchés.", 
-  "ثم قال لهم يسوع أيضًا: أنا أمضى وستطلبوننى فلا تجدوننى وتموتون بخطاياكم. وحيث أمضى أنا فلا تقدرون أنتم أن تأتوا. فقال اليهود: ألعله يقتل نفسه وحده حتى يقول حيت أمضى أنا لا تقدرون أنتم أن تأتوا؟ فقال لهم: أنتم من أسفل، وأما أنا فمن فوق. أنتم من هذا العالم، وأما أنا فلست من هذا العالم. قد قلت لكم أنكم تموتون بخطاياكم.", 
+  "Jésus leur dit encore: «Je m'en vais; vous me chercherez, mais vous mourrez dans votre péché. Là où je vais, vous ne pouvez aller.» Les Juifs dirent alors: «Aurait-il l'intention de se tuer puisqu'il dit: Là où je vais, vous ne pouvez aller?» Jésus leur répondit: «Vous êtes d'en bas; moi, je suis d'en haut; vous êtes de ce monde, moi je ne suis pas de ce monde. C'est pourquoi je vous ai dit que vous mourrez dans vos péchés. Si, en effet, vous ne croyez pas que Je Suis, vous mourrez dans vos péchés.»", 
+  "21 قَالَ لَهُمْ يَسُوعُ أَيْضًا: «أَنَا أَمْضِي وَسَتَطْلُبُونَنِي، وَتَمُوتُونَ فِي خَطِيَّتِكُمْ. حَيْثُ أَمْضِي أَنَا لاَ تَقْدِرُونَ أَنْتُمْ أَنْ تَأْتُوا» 22 فَقَالَ الْيَهُودُ: «أَلَعَلَّهُ يَقْتُلُ نَفْسَهُ حَتَّى يَقُولُ: حَيْثُ أَمْضِي أَنَا لاَ تَقْدِرُونَ أَنْتُمْ أَنْ تَأْتُوا؟» 23 فَقَالَ لَهُمْ: «أَنْتُمْ مِنْ أَسْفَلُ، أَمَّا أَنَا فَمِنْ فَوْقُ. أَنْتُمْ مِنْ هذَا الْعَالَمِ، أَمَّا أَنَا فَلَسْتُ مِنْ هذَا الْعَالَمِ. 24 فَقُلْتُ لَكُمْ: إِنَّكُمْ تَمُوتُونَ فِي خَطَايَاكُمْ، لأَنَّكُمْ إِنْ لَمْ تُؤْمِنُوا أَنِّي أَنَا هُوَ تَمُوتُونَ فِي خَطَايَاكُمْ».", 
   ],
   [
   Prefix.same+"&C=Diacon", 
   "Ⲟⲩⲟϩ ⲛⲁⲩϫⲱ ⲙ̀ⲙⲟⲥ ⲛⲱⲟⲩ ⲡⲉ ϫⲉ ⲛ̀ⲑⲱⲧⲉⲛ ⲛ̀ⲑⲱⲧⲉⲛ ϩⲁⲛ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲏⲉ̀ⲧⲉ ⲛ̀ϧ̀ⲣⲏⲓ ⲁ̀ⲛⲟⲕ ⲇⲉ ⲁ̀ⲛⲟⲕ ⲟⲩⲉ̀ⲃⲟⲗ ⲙ̀ⲡ̀ϣⲱⲓ : ⲛ̀ⲑⲱⲧⲉⲛ ⲛ̀ⲑⲱⲧⲉⲛ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲡⲁⲓⲕⲟⲥⲙⲟⲥ: ⲁ̀ⲛⲟⲕ ⲇⲉ ⲁ̀ⲛⲟⲕ ⲟⲩⲉ̀ⲃⲟⲗϧⲉⲛ ⲡⲁⲓⲕⲟⲥⲙⲟⲥ ⲁⲛ. Ⲁⲓϫⲟⲥ ⲟⲩⲛ ⲛⲱⲧⲉⲛ ϫⲉ ⲧⲉⲧⲉⲛⲛⲁⲙⲟⲩ ⲛ̀ϧ̀ⲣⲏⲓ ϧⲉⲛ ⲛⲉⲧⲉⲛⲛⲟⲃⲓ: ⲉ̀ϣⲱⲡ ⲟⲩⲛ ⲁ̀ⲣⲉⲧⲉⲛϣ̀ⲧⲉⲙⲛⲁϩϯ ϫⲉ ⲁ̀ⲛⲟⲕ ⲡⲉ : ⲧⲉⲧⲉⲛⲛⲁⲙⲟⲩ ⲛ̀ϧ̀ⲣⲏⲓ ϧⲉⲛ ⲛⲉⲧⲉⲛⲛⲟⲃⲓ. ", 
-  "Si, en effet, vous ne croyez pas que Je Suis, vous mourrez dans vos péchés.» Ils dirent alors: «Toi, qui es-tu?» Jésus leur répondit: «Ce que je ne cesse de vous dire depuis le commencement. En ce qui vous concerne, j'ai beaucoup à dire et à juger; mais Celui qui m'a envoyé est véridique, et ce que j'ai entendu auprès de lui, c'est cela que je déclare au monde.» Ils ne comprirent pas qu'il leur avait parlé du Père.", 
-  "لأنكم إن لم تؤمنوا إنى أنا هو تموتون بخطاياكم.\nفقالوا له: من أنت؟ فقال لهم يسوع: أنا من البدء تكلمت معكم ولى أشياء كثيرة أقولها وأحكم بها من نحوكم. ولكن الذي أرسلنى هو حق، وأنا ما سمعته منه فهذا أتكلم به في العالم. فلم يفهموا أنه كان يقول لهم عن الآب.", 
+  "Ils dirent alors: «Toi, qui es-tu?» Jésus leur répondit: «Ce que je ne cesse de vous dire depuis le commencement. En ce qui vous concerne, j'ai beaucoup à dire et à juger; mais Celui qui m'a envoyé est véridique, et ce que j'ai entendu auprès de lui, c'est cela que je déclare au monde.» Ils ne comprirent pas qu'il leur avait parlé du Père.", 
+  "25 فَقَالُوا لَهُ: «مَنْ أَنْتَ؟» فَقَالَ لَهُمْ يَسُوعُ: «أَنَا مِنَ الْبَدْءِ مَا أُكَلِّمُكُمْ أَيْضًا بِهِ. 26 إِنَّ لِي أَشْيَاءَ كَثِيرَةً أَتَكَلَّمُ وَأَحْكُمُ بِهَا مِنْ نَحْوِكُمْ، لكِنَّ الَّذِي أَرْسَلَنِي هُوَ حَقٌ. وَأَنَا مَا سَمِعْتُهُ مِنْهُ، فَهذَا أَقُولُهُ لِلْعَالَمِ». 27 وَلَمْ يَفْهَمُوا أَنَّهُ كَانَ يَقُولُ لَهُمْ عَنِ الآبِ.", 
   ],
   [
   Prefix.same+"&C=Diacon", 
   "Ⲛⲁⲩϫⲱ ⲟⲩⲛ ⲙ̀ⲙⲟⲥ ⲛⲁϥ ⲡⲉ ϫⲉ ⲛ̀ⲑⲟⲕ ⲛⲓⲙ : ⲡⲉϫⲉ Ⲓⲏⲥ ⲛⲱⲟⲩ ϫⲉ ⲛ̀ϯⲁⲣⲭⲏ ⲁⲓⲉⲣ̀ⲡⲕⲉⲥⲁϫⲓ ⲛⲉⲙⲱⲧⲉⲛ : ⲟⲩⲟⲛϯ ⲟⲩⲙⲏϣ ⲉ̀ϫⲟⲧⲟⲩ ⲉⲑⲃⲉ ⲑⲏⲛⲟⲩ ⲟⲩⲟϩ ⲉ̀ϯϩⲁⲡ: ⲁⲗⲗⲁ ⲫⲏⲉ̀ⲧⲁϥⲧⲁⲟⲩⲟⲓ ⲟⲩⲑ̀ⲙⲏⲓ ⲡⲉ : ⲟⲩⲟϩ ⲁ̀ⲛⲟⲕ ϩⲱ ⲛⲏⲉ̀ⲧⲁⲓⲥⲟⲑⲙⲟⲩ ⲛ̀ⲧⲟⲧϥ : ⲛⲁⲓ ϯⲥⲁϫⲓ ⲙ̀ⲙⲱⲟⲩ ϧⲉⲛ ⲡⲓⲕⲟⲥⲙⲟⲥ. Ⲙ̀ⲡⲟⲩⲉ̀ⲙⲓ ϫⲉ ⲛⲁϥⲥⲁϫⲓ ⲛⲉⲙⲱⲟⲩ ⲉⲑⲃⲉ Ⲫⲓⲱⲧ.", 
   "Jésus leur dit alors: «Lorsque vous aurez élevé le Fils de l'homme, vous connaîtrez que Je Suis et que je ne fais rien de moi-même: je dis ce que le Père m'a enseigné. Celui qui m'a envoyé est avec moi: il ne m'a pas laissé seul, parce que je fais toujours ce qui lui plaît.»", 
-  "فقال لهم يسوع متى رفعتم إبن الإنسان فحينئذ تعلمون إنى أنا هو. ولست أفعل شيئاَ من ذاتى وحدى. بل أتكلم بهذا كما علمنى أبى. والذي أرسلنى هو مَعِي ولم يدعنى وحدى لأنى في كل حين أفعل ما يرضيه.", 
+  "28 فَقَالَ لَهُمْ يَسُوعُ: «مَتَى رَفَعْتُمُ ابْنَ الإِنْسَانِ، فَحِينَئِذٍ تَفْهَمُونَ أَنِّي أَنَا هُوَ، وَلَسْتُ أَفْعَلُ شَيْئًا مِنْ نَفْسِي، بَلْ أَتَكَلَّمُ بِهذَا كَمَا عَلَّمَنِي أَبِي. 29 وَالَّذِي أَرْسَلَنِي هُوَ مَعِي، وَلَمْ يَتْرُكْنِي الآبُ وَحْدِي، لأَنِّي فِي كُلِّ حِينٍ أَفْعَلُ مَا يُرْضِيهِ».", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -3088,14 +3046,8 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   Prefix.same+"&C=Diacon", 
   "", 
-  "Après 3 mois, Israël arriva au désert de Rephidim. Les enfants d'Israël sortirent d'Egypte et du Sinaï et arrivèrent dans cet endroit. Moïse alors monta et se tint devant Dieu. Le Seigneur l'appela de la montagne et lui dit: «Tu parleras ainsi à la maison de Jacob, tu déclareras aux Israélites: Vous avez vu vous-mêmes tout ce que j'ai fait aux Égyptiens, et comment je vous ai emportés avec ma force exaltée comme sur des", 
-  "وجاء إسرائيل إلى جبل رافازين من بعد ثلاثة أشهر وهو في البرية. وخرج بنو إسرائيل من مصر وجبل سيناء إلى هذا المكان. فجاء موسى ووقف قدام الله فناداه وتكلم معه قائلاً : هذا ما تقوله لبيت يعقوب وتخبر به بنى إسرائيل. أنكم قد رأيتم أعمالى الكثيرة التى صنعتها أنا بالمصريين وكيف حملتكم أنا بقوتى العالية كأنكم على", 
-  ],
-  [
-  Prefix.same+"&C=Diacon", 
-  "", 
-  "ailes d'aigles. Gardez ma loi et mes commandements, écoutez mes paroles et agissez selon ma volonté. Je vous ai choisis parmi toutes les nations; car toute la terre et la mer sont à Moi; afin que vous deveniez un royaume et un peuple choisis et une nation pure.» Moïse vint et rapporta au peuple toutes les paroles du Seigneur. Le peuple s'écria d'une seule voix: «Tout ce que le Seigneur a dit, nous le ferons.»", 
-  "أجنحة النسور. فإحفظوا ناموسى ووَصَايَاي وإنصتوا لكلامى واصْنَعُوا إرادتى فإننى أخترتكم من بين جميع الأمم لأن لي الأرض كلها والبحر معاً. لتصيروا لي مملكة وشعباً مختاراً وأمة مطهرة. فجاء موسى وأخبر الشعب بجميع هذا الكلام الذي قاله الرب. فصرخ جميع الشعب بصوت واحد قائلين: كل ما يأمر به الله نحن نحفظه.", 
+  "Après 3 mois, Israël arriva au désert de Rephidim. Les enfants d'Israël sortirent d'Egypte et du Sinaï et arrivèrent dans cet endroit. Moïse alors monta et se tint devant Dieu. Le Seigneur l'appela de la montagne et lui dit: «Tu parleras ainsi à la maison de Jacob, tu déclareras aux Israélites: Vous avez vu vous-mêmes tout ce que j'ai fait aux Égyptiens, et comment je vous ai emportés avec ma force exaltée comme sur des ailes d'aigles. Gardez ma loi et mes commandements, écoutez mes paroles et agissez selon ma volonté. Je vous ai choisis parmi toutes les nations; car toute la terre et la mer sont à Moi; afin que vous deveniez un royaume et un peuple choisis et une nation pure.» Moïse vint et rapporta au peuple toutes les paroles du Seigneur. Le peuple s'écria d'une seule voix: «Tout ce que le Seigneur a dit, nous le ferons.»", 
+  "وجاء إسرائيل إلى جبل رافازين من بعد ثلاثة أشهر وهو في البرية. وخرج بنو إسرائيل من مصر وجبل سيناء إلى هذا المكان. فجاء موسى ووقف قدام الله فناداه وتكلم معه قائلاً : هذا ما تقوله لبيت يعقوب وتخبر به بنى إسرائيل. أنكم قد رأيتم أعمالى الكثيرة التى صنعتها أنا بالمصريين وكيف حملتكم أنا بقوتى العالية كأنكم على أجنحة النسور. فإحفظوا ناموسى ووَصَايَاي وإنصتوا لكلامى واصْنَعُوا إرادتى فإننى أخترتكم من بين جميع الأمم لأن لي الأرض كلها والبحر معاً. لتصيروا لي مملكة وشعباً مختاراً وأمة مطهرة. فجاء موسى وأخبر الشعب بجميع هذا الكلام الذي قاله الرب. فصرخ جميع الشعب بصوت واحد قائلين: كل ما يأمر به الله نحن نحفظه.", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -3109,7 +3061,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   Prefix.HolyWeek+"3HDProphecies&D=GL53&C=Title", 
   "", 
   "Prophecies de la Troisième heure du mardi\nDeutéronome (8: 11-20)\n", 
-  "نبوات الساعة الثالثة من يوم الثلاثاء\nالتثنية ٨ : ١١ –٢٠\n", 
+  "نبوات الساعة الثالثة من يوم الثلاثاء\nالتثنية (٨: ١١–٢٠)\n", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -3132,14 +3084,8 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   Prefix.same+"&C=Diacon", 
   "", 
-  "Garde-toi d'oublier le Seigneur ton Dieu en négligeant ses commandements, ses coutumes et ses lois que je te prescris aujourd'hui. Quand tu auras mangé et tu seras rassasié,", 
-  "إحترز من أن تنسى الرب إلهك ولا تحفظ وصاياه وأحكامه وحقوقه. هذه التي أنا أوصيك بها. لئلا تأكل وتشبع", 
-  ],
-  [
-  Prefix.same+"&C=Diacon", 
-  "", 
-  "quand tu auras bâti de belles maisons et les habiteras, quand tu auras vu multiplier ton gros et ton petit bétail, abonder ton argent et ton or, s'accroître tous tes biens, que tout cela n'élève pas ton cœur! N'oublie pas alors le Seigneur ton Dieu qui t'a fait sortir du pays d'Égypte, de la maison de servitude; lui qui t'a fait passer à travers ce désert grand et redoutable, pays des serpents brûlants, des scorpions et et de la soif;", 
-  "وتبنى بيوتًا حسنة جميلة وتسكنها، ويكثر لك الغنم والبقر، ويكثر لك الذهب والفضة، وتكثر كل مقتنياتك فتنسى الرب إلهك الذي أخرجك من أرض مصر، من بيت عبوديتك الذي أجازك هذا القفر العظيم المخوف، حيث الحيات والعقارب اللادغة، وحيث العطش ولا يوجد ماء.", 
+  "Garde-toi d'oublier le Seigneur ton Dieu en négligeant ses commandements, ses coutumes et ses lois que je te prescris aujourd'hui. Quand tu auras mangé et tu seras rassasié, quand tu auras bâti de belles maisons et les habiteras, quand tu auras vu multiplier ton gros et ton petit bétail, abonder ton argent et ton or, s'accroître tous tes biens, que tout cela n'élève pas ton cœur! N'oublie pas alors le Seigneur ton Dieu qui t'a fait sortir du pays d'Égypte, de la maison de servitude; lui qui t'a fait passer à travers ce désert grand et redoutable, pays des serpents brûlants, des scorpions et et de la soif;", 
+  "إحترز من أن تنسى الرب إلهك ولا تحفظ وصاياه وأحكامه وحقوقه. هذه التي أنا أوصيك بها. لئلا تأكل وتشبعوتبنى بيوتًا حسنة جميلة وتسكنها، ويكثر لك الغنم والبقر، ويكثر لك الذهب والفضة، وتكثر كل مقتنياتك فتنسى الرب إلهك الذي أخرجك من أرض مصر، من بيت عبوديتك الذي أجازك هذا القفر العظيم المخوف، حيث الحيات والعقارب اللادغة، وحيث العطش ولا يوجد ماء.", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -3156,8 +3102,8 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   Prefix.same+"&C=Title", 
   "", 
-  "Ecclésiastique 2 : 1 – 9", 
-  "يشوع بن سيراخ ٢ : ١ – ٩", 
+  "Ecclésiastique (2: 1–9)", 
+  "يشوع بن سيراخ (٢: ١–٩)", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -3180,14 +3126,8 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   Prefix.same+"&C=Diacon", 
   "", 
-  "Mon fils, si tu prétends servir le Seigneur, prépare-toi à l'épreuve.", 
-  "يا إبنى أن تقدمت لخدمة الرب هيئ نفسك للتجارب.", 
-  ],
-  [
-  Prefix.same+"&C=Diacon", 
-  "", 
-  "Fais-toi un cœur droit, arme-toi de courage, ne te laisse pas entraîner, au temps de l'adversité. Attache-toi à lui, ne t'éloigne pas, afin d'être exalté à ton dernier jour. Tout ce qui t'advient, accepte-le et, dans les vicissitudes de ta pauvre condition, montre-toi patient, car l'or est éprouvé dans le feu, et les élus dans la fournaise de l'humiliation. Mets en Dieu ta confiance et il te viendra en aide, suis droit ton chemin et espère en lui. Vous qui craignez le", 
-  "قوم قلبك وإحتمل ولا تنحل في زمان أتعابك، إلتصق به ولا تبتعد عنه لِكَي تنمو في آخرتك. إقبل كل ما يأتى عليك، لتكون طويل الروح في أرض تواضعك، فإن الذهب يمحص بالنار. والمختارين من الناس في أتون الذل، آمن به فينصرك، قوم طرقك، وليكن عليه أتكالك.", 
+  "Mon fils, si tu prétends servir le Seigneur, prépare-toi à l'épreuve. Fais-toi un cœur droit, arme-toi de courage, ne te laisse pas entraîner, au temps de l'adversité. Attache-toi à lui, ne t'éloigne pas, afin d'être exalté à ton dernier jour. Tout ce qui t'advient, accepte-le et, dans les vicissitudes de ta pauvre condition, montre-toi patient, car l'or est éprouvé dans le feu, et les élus dans la fournaise de l'humiliation. Mets en Dieu ta confiance et il te viendra en aide, suis droit ton chemin et espère en lui. Vous qui craignez le", 
+  "يا إبنى أن تقدمت لخدمة الرب هيئ نفسك للتجارب. قوم قلبك وإحتمل ولا تنحل في زمان أتعابك، إلتصق به ولا تبتعد عنه لِكَي تنمو في آخرتك. إقبل كل ما يأتى عليك، لتكون طويل الروح في أرض تواضعك، فإن الذهب يمحص بالنار. والمختارين من الناس في أتون الذل، آمن به فينصرك، قوم طرقك، وليكن عليه أتكالك.", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -3198,8 +3138,8 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   Prefix.same+"&C=Title", 
   "", 
-  "Job 27 : 1-20 ; 28 : 1,2", 
-  "أيوب ٢٧: ١ – ٠ ٢ ، ٢٨: ١ ، ٢", 
+  "Job (27: 1-20 et 28: 1, 2)", 
+  "أيوب ٢٧: ١–٠ ٢ و ٢٨: ١–٢)", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -3222,14 +3162,8 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   Prefix.same+"&C=Diacon", 
   "", 
-  "Par le Dieu vivant qui me refuse justice, par le tout puissant qui m'emplit d'amertume,", 
-  "حى هو الرب الذي حكم علىّ هكذا والضابط الكل الذي احزن نفسى،", 
-  ],
-  [
-  Prefix.same+"&C=Diacon", 
-  "", 
-  "tant qu'un reste de vie m'animera, que le souffle de Dieu passera dans mes narines, mes lèvres ne diront rien de mal, ma langue n'exprimera aucun mensonge. Bien loin de vous donner raison, jusqu'à mon dernier souffle, je maintiendrai mon innocence. Je tiens à ma justice et ne lâche pas; ma conscience ne me reproche aucun de mes jours. Que mon ennemi ait le sort du méchant, mon adversaire celui de l'injuste! Quel profit peut espérer l'impie", 
-  "إنه ما دام نفسى فىّ والروح القدس في أنفى فلن تنطق شفتاى إثماً، ولن تتلو نفسى ظلماً، حاشا لي أن أقول أنكم أبراراً حتى أموت لأنى لن أترك وداعتى، متمسكا بالبر فلن أسقط، ولست أعرف عن ذاتى انى صنعت ظلماً. كلا، إن أعدائى يصيرون مثل سقوط المنافقين، والذين يقومون علىّ مثل هلاك مخالفى الناموس، لأن ما هو رجاء المنافق؟", 
+  "Par le Dieu vivant qui me refuse justice, par le tout puissant qui m'emplit d'amertume, tant qu'un reste de vie m'animera, que le souffle de Dieu passera dans mes narines, mes lèvres ne diront rien de mal, ma langue n'exprimera aucun mensonge. Bien loin de vous donner raison, jusqu'à mon dernier souffle, je maintiendrai mon innocence. Je tiens à ma justice et ne lâche pas; ma conscience ne me reproche aucun de mes jours. Que mon ennemi ait le sort du méchant, mon adversaire celui de l'injuste! Quel profit peut espérer l'impie", 
+  " حى هو الرب الذي حكم علىّ هكذا والضابط الكل الذي احزن نفسى، إنه ما دام نفسى فىّ والروح القدس في أنفى فلن تنطق شفتاى إثماً، ولن تتلو نفسى ظلماً، حاشا لي أن أقول أنكم أبراراً حتى أموت لأنى لن أترك وداعتى، متمسكا بالبر فلن أسقط، ولست أعرف عن ذاتى انى صنعت ظلماً. كلا، إن أعدائى يصيرون مثل سقوط المنافقين، والذين يقومون علىّ مثل هلاك مخالفى الناموس، لأن ما هو رجاء المنافق؟", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -3252,8 +3186,8 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   Prefix.same+"&C=Title", 
   "", 
-  "1 Rois 19 : 9-14", 
-  "الملوك الأول ١٩ : ٩ – ١٤", 
+  "1 Rois (19: 9-14)", 
+  "الملوك الأول (١٩: ٩–١٤)", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -3276,34 +3210,22 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   Prefix.same+"&C=Diacon", 
   "", 
-  "Voici que la parole du Seigneur lui fut adressée, lui disant : \"Que fais-tu ici, Elie ?\"", 
-  "وصار كلام الرب إلى إيليا قائلاً : مالك هنا يا إيليا؟", 
+  "Voici que la parole du Seigneur lui fut adressée, lui disant : \"Que fais-tu ici, Elie ?\" Il répondit: «Je suis rempli d'un zèle jaloux pour le Seigneur Sabaot, parce que les Israélites ont abandonné ton alliance, qu'ils ont abattu tes autels et tué tes prophètes par l'épée. Je suis resté moi seul et ils cherchent à m'enlever la vie.» Il lui fut dit: «Sors et tiens-toi dans la montagne devant le Seigneur.» Et voici que le Seigneur passa. Il y eut un grand ouragan, si fort qu'il fendait les montagnes et brisait les rochers, en avant du Seigneur, mais le Seigneur n'était pas dans l'ouragan; et après l'ouragan un tremblement de terre, mais le Seigneur n'était pas dans le tremblement de terre; et après le tremblement de terre un feu, mais le Seigneur n'était pas dans le feu; et après le feu, le bruit d'une brise légère.", 
+  "9 وَدَخَلَ هُنَاكَ الْمُغَارَةَ وَبَاتَ فِيهَا. وَكَانَ كَلاَمُ الرَّبِّ إِلَيْهِ يَقُولُ: «مَا لَكَ ههُنَا يَا إِيلِيَّا؟» 10 فَقَالَ: «قَدْ غِرْتُ غَيْرَةً لِلرَّبِّ إِلهِ الْجُنُودِ، لأَنَّ بَنِي إِسْرَائِيلَ قَدْ تَرَكُوا عَهْدَكَ، وَنَقَضُوا مَذَابِحَكَ، وَقَتَلُوا أَنْبِيَاءَكَ بِالسَّيْفِ، فَبَقِيتُ أَنَا وَحْدِي، وَهُمْ يَطْلُبُونَ نَفْسِي لِيَأْخُذُوهَا». 11 فَقَالَ: «اخْرُجْ وَقِفْ عَلَى الْجَبَلِ أَمَامَ الرَّبِّ». وَإِذَا بِالرَّبِّ عَابِرٌ وَرِيحٌ عَظِيمَةٌ وَشَدِيدَةٌ قَدْ شَقَّتِ الْجِبَالَ وَكَسَّرَتِ الصُّخُورَ أَمَامَ الرَّبِّ، وَلَمْ يَكُنِ الرَّبُّ فِي الرِّيحِ. وَبَعْدَ الرِّيحِ زَلْزَلَةٌ، وَلَمْ يَكُنِ الرَّبُّ فِي الزَّلْزَلَةِ. 12 وَبَعْدَ الزَّلْزَلَةِ نَارٌ، وَلَمْ يَكُنِ الرَّبُّ فِي النَّارِ. وَبَعْدَ النَّارِ صَوْتٌ مُنْخَفِضٌ خَفِيفٌ.", 
   ],
   [
   Prefix.same+"&C=Diacon", 
   "", 
-  "Il répondit: «Je suis rempli d'un zèle jaloux pour le Seigneur Sabaot, parce que les Israélites ont abandonné ton alliance, qu'ils ont abattu tes autels et tué tes prophètes par l'épée. Je suis resté moi seul et ils cherchent à m'enlever la vie.» Il lui fut dit: «Sors et tiens-toi dans la montagne devant le Seigneur.» Et voici que le Seigneur passa. Il y eut un grand ouragan, si fort qu'il fendait les montagnes et brisait les rochers, en avant du Seigneur,", 
-  "فقال: غرت غيرة أَيُّهَا السيد إله القوات ضابط الكل. لأن بنى إسرائيل قد تركوك. وهدموا مذابحك وقتلوا أنبياءك بالسيف، وبقيت أنا وحدى وهم يطلبون نفسى. فقال الرب له: أخرج أنت غداً وقف أمام الرب في الجبل وإذا الرب عابر وريح شديدة منيعة تشقق الجبال وتحطم الصخور أمام الرب،", 
-  ],
-  [
-  Prefix.same+"&C=Diacon", 
-  "", 
-  "mais le Seigneur n'était pas dans l'ouragan; et après l'ouragan un tremblement de terre, mais le Seigneur n'était pas dans le tremblement de terre; et après le tremblement de terre un feu, mais le Seigneur n'était pas dans le feu; et après le feu, le bruit d'une brise légère. Dès qu'Élie l'entendit, il se voila le visage avec son manteau, il sortit et se tint à l'entrée de la grotte. Alors une voix lui parvint, qui dit: «Que fais-tu ici, Élie?»", 
-  "ولم يكن الرب في الريح، وبعد الريح زلزلة، وبعد الزلزلة نار، ولم يكن الرب في النار، وبعد النار صوت نسيم لطيف وهدوء عظيم والرب هناك، وحدث لَمَّا سمع إيليا ستر وجهه بردائه، وخرج ووقف أمام المغارة، وهو ذا صوت الرب صار إليه قائلاً له : مالك هنا يا إيليا؟", 
-  ],
-  [
-  Prefix.same+"&C=Diacon", 
-  "", 
-  "Il répondit: «Je suis rempli d'un zèle jaloux pour le Seigneur Sabaot, parce que les Israélites ont abandonné ton alliance, qu'ils ont abattu tes autels et tué tes prophètes par l'épée. Je suis resté moi seul, et ils cherchent à m'enlever la vie.»", 
-  "فقال إيليا: غرت غيرة أَيُّهَا السيد ضابط الكل ورب القوات إله إسرائيل، لأن بنى إسرائيل قد تركوا عهدك، وهدموا مذابحك وقتلوا أنبياءك بالسيف وبقيت أنا وحدى وهم يطلبون نفسى ليأخذوها.", 
+  "Dès qu'Élie l'entendit, il se voila le visage avec son manteau, il sortit et se tint à l'entrée de la grotte. Alors une voix lui parvint, qui dit: «Que fais-tu ici, Élie?» Il répondit: «Je suis rempli d'un zèle jaloux pour le Seigneur Sabaot, parce que les Israélites ont abandonné ton alliance, qu'ils ont abattu tes autels et tué tes prophètes par l'épée. Je suis resté moi seul, et ils cherchent à m'enlever la vie.»", 
+  "13 فَلَمَّا سَمِعَ إِيلِيَّا لَفَّ وَجْهَهُ بِرِدَائِهِ وَخَرَجَ وَوَقَفَ فِي بَابِ الْمُغَارَةِ، وَإِذَا بِصَوْتٍ إِلَيْهِ يَقُولُ: «مَا لَكَ ههُنَا يَا إِيلِيَّا؟» 14 فَقَالَ: «غِرْتُ غَيْرَةً لِلرَّبِّ إِلهِ الْجُنُودِ، لأَنَّ بَنِي إِسْرَائِيلَ قَدْ تَرَكُوا عَهْدَكَ، وَنَقَضُوا مَذَابِحَكَ، وَقَتَلُوا أَنْبِيَاءَكَ بِالسَّيْفِ، فَبَقِيتُ أَنَا وَحْدِي، وَهُمْ يَطْلُبُونَ نَفْسِي لِيَأْخُذُوهَا».", 
   ],
   ],
   [
   [
   Prefix.HolyWeek+"3HDPsalm&D=GL53&C=Title", 
   "Ⲯⲁⲗⲙⲟⲥ ⲧⲟ Ⲇⲁⲩⲓⲇ", 
-  "Psaume de la Troisième heure du mardi\nPsaume 118 : 118 – 119\n", 
-  "مزمور الساعة الثالثة من يوم الثلاثاء\nمزمور ١١٨ : ١١٨، ١١٩\n", 
+  "Psaume de la Troisième heure du mardi\nPsaume (118: 118–119)\n", 
+  "مزمور الساعة الثالثة من يوم الثلاثاء\nمزمور (١١٨: ١١٨و ١١٩)\n", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -3316,8 +3238,8 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   Prefix.HolyWeek+"3HDGospel&D=GL53&C=Title", 
   "Ⲙⲁⲧⲑⲉⲟⲛ Ⲕⲉⲫ ⲕⲅ : ⲗⲇ ϣⲃⲗ ⲛⲉⲙ Ⲕⲉⲫ ⲕⲇ:ⲁⲃ", 
-  "Evangile de la Troisième heure du mardi\nMatthieu 23 : 37 à 24 : 2\n", 
-  "إنجيل الساعة الثالثة من يوم الثلاثاء\nمتى ٢٣ : ٣٧ -٣٩، ٢٤ : ١، ٢\n", 
+  "Evangile de la Troisième heure du mardi\nMatthieu (23: 37 à 24: 2)\n", 
+  "إنجيل الساعة الثالثة من يوم الثلاثاء\nمتى (٢٣: ٣٧-٣٩ و ٢٤: ١-٢)\n", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -3328,8 +3250,8 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   Prefix.same+"&C=Diacon", 
   "Ϯϫⲱ ⲅⲁⲣ ⲙ̀ⲙⲟⲥ ⲛⲱⲧⲉⲛ ϫⲉ ⲛ̀ⲛⲉⲧⲉⲛⲛⲁⲩ ⲉ̀ⲣⲟⲓ ⲓⲥϫⲉⲛ ϯⲛⲟⲩ ϣⲁⲧⲉⲧⲉⲛϫⲟⲥ ϫⲉ ϥ̀ⲥ̀ⲙⲁⲣⲱⲟⲩⲧ ⲛ̀ϫⲉ ⲫⲏⲉⲑⲛⲏⲟⲩ ϧⲉⲛ ⲫ̀ⲣⲁⲛ ⲙ̀Ⲡ⳪. Ⲟⲩⲟϩ ⲉⲧⲁϥⲓ̀ ⲛ̀ϫⲉ Ⲓⲏⲥ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲡⲓⲉⲣⲫⲉⲓ ⲛⲁϥⲙⲟϣⲓ ⲡⲉ : ⲟⲩⲟϩ ⲁⲩⲓ̀ ϩⲁⲣⲟϥ ⲛ̀ϫⲉ ⲛⲉϥⲙⲁⲑⲏⲧⲏⲥ ⲉⲩⲧⲁⲙⲟ ⲙ̀ⲙⲟϥ ⲛ̀ⲛⲓⲕⲱⲧ ⲛ̀ⲧⲉ ⲡⲓⲉⲣⲫⲉⲓ : ⲛ̀ⲑⲟϥ ⲇⲉ ⲁϥⲉ̀ⲣⲟⲩⲱ̀ ⲡⲉϫⲁϥ ⲛⲱⲟⲩ ϫⲉ ⲧⲉⲧⲉⲛⲛⲁⲩ ⲉ̀ⲛⲁⲓ ⲧⲏⲣⲟⲩ : ⲁ̀ⲙⲏⲛ ϯϫⲱ ⲙ̀ⲙⲟⲥ ⲛⲱⲧⲉⲛ ϫⲉ ⲛ̀ⲛⲟⲩⲭⲁ ⲟⲩⲱ̀ⲛⲓ ⲉ̀ϫⲉⲛ ⲟⲩⲱ̀ⲛⲓ ⲙ̀ⲡⲁⲓⲙⲁ ⲛ̀ⲥⲉⲛⲁⲃⲟⲗϥ ⲉ̀ⲃⲟⲗ ⲁⲛ.", 
-  "Jésus était sorti du Temple et s'en allait. Ses disciples s'avancèrent pour lui faire remarquer les constructions du Temple. Prenant la parole, il leur dit: «Vous voyez tout cela, n'est-ce pas? En vérité, je vous le déclare, il ne restera pas ici pierre sur pierre : tout sera détruit.»\nGloire à Dieu éternellement.", 
-  "ولما خرج يسوع من الهيكل ومضى، تقدم إليه تلاميذه ليروه بناء الهيكل. أما هو فأجاب وقال لهم: انْظُرُوا هذا كله. الحق أقول لكم إنه لا يترك ههنا حجر على حجر إلا وينقض.\nوالمجد لله دائماً", 
+  "Jésus était sorti du Temple et s'en allait. Ses disciples s'avancèrent pour lui faire remarquer les constructions du Temple. Prenant la parole, il leur dit: «Vous voyez tout cela, n'est-ce pas? En vérité, je vous le déclare, il ne restera pas ici pierre sur pierre : tout sera détruit.»", 
+  "ولما خرج يسوع من الهيكل ومضى، تقدم إليه تلاميذه ليروه بناء الهيكل. أما هو فأجاب وقال لهم: انْظُرُوا هذا كله. الحق أقول لكم إنه لا يترك ههنا حجر على حجر إلا وينقض.", 
   ],
   ],
   [
@@ -3343,7 +3265,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   Prefix.same+"&C=Diacon", 
   "", 
   "Le Seigneur a dit: combien de fois J'ai voulu rassembler tes enfants, Jérusalem, comme la poule qui rassemble ses poussins sous ses ailes et vous n'avez pas voulu. Maintenant, J'abandonne votre temple désert jusqu'à la fin des temps. Lorsque les disciples entendirent la prophétie du Sauveur, ils Lui montrèrent l'architecture du temple, les pierres sacrées et les lieux interdits aux païens", 
-  "كم من مرة قال الرب: أردت أن أجمع بنيك يا أورشليم كمثل الطائر الذي يجمع فراخه تحت جناحيه فلم تريدوا. أنا أترك لكم بيتكم خراباً قال الرب إلى الإنقضاء فلما سمع التلاميذ نبوة النبي والمخلص أروه بناء الهيكل والحجارة المكرمة والمحرمات (المكان الذي لا يدخله أممى)", 
+  "كم من مرة قال الرب: أردت أن أجمع بنيك يا أورشليم كمثل الطائر الذي يجمع فراخه تحت جناحيه فلم تريدوا. أنا أترك لكم بيتكم خراباً قال الرب إلى الإنقضاء فلما سمع التلاميذ نبوة النبي والمخلص أروه بناء الهيكل والحجارة المكرمة والمحرمات (المكان الذي لا يدخله أممى).", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -3357,7 +3279,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   Prefix.HolyWeek+"6HDProphecies&D=GL53&C=Title", 
   "", 
   "Prophecies de la Sixième heure du mardi\nEzéchiel (21: 3-13)\n", 
-  "نبوات الساعة السادسة من يوم الثلاثاء\nحزقيال ٢١ : ٣-١٣\n", 
+  "نبوات الساعة السادسة من يوم الثلاثاء\nحزقيال (٢١: ٣-١٣)\n", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -3380,32 +3302,20 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   Prefix.same+"&C=Diacon", 
   "", 
-  "Tu diras au pays d'Israël: Ainsi parle le Seigneur. Me voici contre toi; je vais tirer mon épée du fourreau et retrancher de chez toi le juste et l'impie.", 
-  "هذا ما يقوله السيد الرب: هآنذا ضدك وأستل سيفي من غمده، وأستأصل منك الظالم والمتجاوز الناموس،", 
+  "Tu diras au pays d'Israël: Ainsi parle le Seigneur. Me voici contre toi; je vais tirer mon épée du fourreau et retrancher de chez toi le juste et l'impie. C'est pour retrancher le juste et l'impie que mon épée va sortir de son fourreau, contre toute chair, du Négeb jusqu'au Nord. Et toute chair saura que c'est moi, le Seigneur, qui ai tiré mon épée du fourreau, et elle n'y rentrera plus. Quant à toi, fils d'homme, pousse des gémissements, le cœur brisé; rempli d'amertume, tu pousseras des gémissements, sous leurs yeux. Et s'ils te disent: «Pourquoi ces gémissements?» tu diras: «A cause de la nouvelle qui va venir, tous les cœurs vont défaillir, les mains vont faiblir, les esprits seront abattus, les genoux s'en iront en eau.  Voici qu'elle vient; c'est fait, oracle du Seigneur.» ", 
+  "هذا ما يقوله السيد الرب: هآنذا ضدك وأستل سيفي من غمده، وأستأصل منك الظالم والمتجاوز الناموس، هكذا يخرج سيفي من غمده علي كل ذي جسد، من المغرب إلي الشمال ويعلم كل ذي جسد إني أنا هو الرب، جردت سيفي من غمده ولا يرتد بعد، أما أنت يا إبن الإنسان فتنهد بتنهد قراك وبإنسحاق الحزن تتأوه أمام عيونهم، ويكون إذا قالوا لك: علام تتنهد فتقول: إنني أتنهد علي الخير لأنه آت فينسحق كل قلب وترتخي كل يد ويضعف كل جسد وكل روح ويتدنس كل صلب بالردي. ها هو آت ويكون قال الرب.", 
   ],
   [
   Prefix.same+"&C=Diacon", 
   "", 
-  "C'est pour retrancher le juste et l'impie que mon épée va sortir de son fourreau, contre toute chair, du Négeb jusqu'au Nord. Et toute chair saura que c'est moi, le Seigneur, qui ai tiré mon épée du fourreau, et elle n'y rentrera plus. Quant à toi, fils d'homme, pousse des gémissements, le cœur brisé; rempli d'amertume, tu pousseras des gémissements, sous leurs yeux. Et s'ils te disent: «Pourquoi ces gémissements?» tu diras:", 
-  "هكذا يخرج سيفي من غمده علي كل ذي جسد، من المغرب إلي الشمال ويعلم كل ذي جسد إني أنا هو الرب، جردت سيفي من غمده ولا يرتد بعد، أما أنت يا إبن الإنسان فتنهد بتنهد قراك وبإنسحاق الحزن تتأوه أمام عيونهم، ويكون إذا قالوا لك: علام تتنهد فتقول:", 
-  ],
-  [
-  Prefix.same+"&C=Diacon", 
-  "", 
-  "«A cause de la nouvelle qui va venir, tous les cœurs vont défaillir, les mains vont faiblir, les esprits seront abattus, les genoux s'en iront en eau. Voici qu'elle vient; c'est fait, oracle du Seigneur.» La parole du Seigneur me fut adressée en ces termes: Fils d'homme, prophétise. Tu diras: Ainsi parle le Seigneur! Dis: L’épée, l'épée! Elle est affûtée, elle est fourbie. Pour accomplir le massacre, elle est affûtée, pour jeter des éclairs, elle est fourbie. ", 
-  "إنني أتنهد علي الخير لأنه آت فينسحق كل قلب وترتخي كل يد ويضعف كل جسد وكل روح ويتدنس كل صلب بالردي. ها هو آت ويكون قال الرب. وكان إلي كلام الرب قائلاً: يا إبن الإنسان تنبأ وقل: هذا ما يقوله السيد الرب قل للسيف: يا سيف يا سيف إحتد وإضرب لكي تذبح ذبحاً، وإضرب بحدك لكي تكون لامعاً، وتأهب وإسحق العار وإسقط كل الأشجار", 
-  ],
-  [
-  Prefix.same+"&C=Diacon", 
-  "", 
-  "Il l'a donnée à fourbir pour la saisir à pleine main, elle est affûtée, l'épée, et fourbie, pour mettre dans la main du tueur. Crie, hurle, fils d'homme, car elle est destinée à mon peuple, à tous les princes d'Israël voués à l'épée avec mon peuple. Aussi, frappe-toi la poitrine, car c'est une épreuve et qu’arriverait-il s’il n’y avait aussi de sceptre méprisant? Oracle du Seigneur Dieu.", 
-  "لأنه قد أعطي ليكون مهيئاً ليمسك باليد وليضرب بحده سيفاً مستعداً ليعطي ليد الذي يذبح. إصرخ وولول يا إبن الإنسان لأن هذا قد صار لشعبي وعلى كل مدبرى بيت اسرائيل، سيف الهول قد صار لشعبى، لذلك صفق علي يدك فإنه قد تزكي وهو يضرب لإخراج القبائل فلا تكون، قال الرب الإله.\n", 
+  "La parole du Seigneur me fut adressée en ces termes: « Fils d'homme, prophétise. Tu diras: Ainsi parle le Seigneur! Dis: L’épée, l'épée! Elle est affûtée, elle est fourbie. Pour accomplir le massacre, elle est affûtée, pour jeter des éclairs, elle est fourbie. Il l'a donnée à fourbir pour la saisir à pleine main, elle est affûtée, l'épée, et fourbie, pour mettre dans la main du tueur. Crie, hurle, fils d'homme, car elle est destinée à mon peuple, à tous les princes d'Israël voués à l'épée avec mon peuple. Aussi, frappe-toi la poitrine, car c'est une épreuve et qu’arriverait-il s’il n’y avait aussi de sceptre méprisant? » Oracle du Seigneur Dieu.", 
+  "وكان إلي كلام الرب قائلاً: يا إبن الإنسان تنبأ وقل: هذا ما يقوله السيد الرب قل للسيف: يا سيف يا سيف إحتد وإضرب لكي تذبح ذبحاً، وإضرب بحدك لكي تكون لامعاً، وتأهب وإسحق العار وإسقط كل الأشجار لأنه قد أعطي ليكون مهيئاً ليمسك باليد وليضرب بحده سيفاً مستعداً ليعطي ليد الذي يذبح. إصرخ وولول يا إبن الإنسان لأن هذا قد صار لشعبي وعلى كل مدبرى بيت اسرائيل، سيف الهول قد صار لشعبى، لذلك صفق علي يدك فإنه قد تزكي وهو يضرب لإخراج القبائل فلا تكون، قال الرب الإله.", 
   ],
   [
   Prefix.same+"&C=Title", 
   "", 
   "Ecclésiastique (4: 20 à  5: 2)", 
-  "يشوع بن سيراخ ٤ :٢٣ -٥ :١،٢", 
+  "يشوع بن سيراخ (4: 20 حتى 5: 2)", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -3428,32 +3338,20 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   Prefix.same+"&C=Diacon", 
   "", 
-  "Tiens compte des circonstances et garde-toi du mal, et n'aie pas à rougir de toi-même.", 
-  "تأمل الزمان وتحفظ من الشر ولا تستحي من عدم معرفتك،", 
+  "Tiens compte des circonstances et garde-toi du mal, et n'aie pas à rougir de toi-même. Car il y a une honte qui conduit au péché et il y a une honte qui est gloire et grâce. Ne sois pas trop sévère pour toi-même et ne rougis pas pour ta perte. Ne tais pas une parole lorsqu'elle peut sauver et ne cache pas ta sagesse. Car c'est au discours qu'on connaît la sagesse et dans la parole que paraît l'instruction. Ne parle pas contre la vérité, mais rougis de ton ignorance. N'aie pas honte de confesser tes péchés,", 
+  " تأمل الزمان وتحفظ من الشر ولا تستحي من عدم معرفتك، فإن من الحياء ما يجلب الخطية، ومنه ماهو مجد ونعمة لا تحاب، فلذلك ضرر لنفسك ولا تستحي من سقطتك، ولا تمتنع عن الكلام في وقت الخلاص، لأن بالكلام تعرف الحكمة، والفهم من نطق اللسان، لا تقاوم الحق وتستحي من جهالتك، لا تستحي أن تعترف بخطاياك", 
   ],
   [
   Prefix.same+"&C=Diacon", 
   "", 
-  "Car il y a une honte qui conduit au péché et il y a une honte qui est gloire et grâce. Ne sois pas trop sévère pour toi-même et ne rougis pas pour ta perte. Ne tais pas une parole lorsqu'elle peut sauver et ne cache pas ta sagesse. Car c'est au discours qu'on connaît la sagesse et dans la parole que paraît l'instruction. Ne parle pas contre la vérité, mais rougis de ton ignorance. N'aie pas honte de confesser tes péchés,", 
-  "فإن من الحياء ما يجلب الخطية، ومنه ماهو مجد ونعمة لا تحاب، فلذلك ضرر لنفسك ولا تستحي من سقطتك، ولا تمتنع عن الكلام في وقت الخلاص، لأن بالكلام تعرف الحكمة، والفهم من نطق اللسان، لا تقاوم الحق وتستحي من جهالتك، لا تستحي أن تعترف بخطاياك", 
-  ],
-  [
-  Prefix.same+"&C=Diacon", 
-  "", 
-  "ne t'oppose pas au courant du fleuve. Ne t'aplatis pas devant un sot, ne sois pas partial en faveur du puissant. Jusqu'à la mort lutte pour la vérité, le Seigneur Dieu combattra pour toi. Ne sois pas hardi en paroles, paresseux et lâche dans tes actes. Ne sois pas comme un lion à la maison et un poltron avec tes serviteurs. Que ta main ne soit pas tendue pour recevoir et fermée quand il s'agit de rendre. Ne te confie pas en tes richesses", 
-  "ولا تغالب نهراً ولا تتذلل للرجل الأحمق. ولا تحاب المقتدر، جاهد عن الحق إلي الموت لكي يقاتل الله عنك، ولا تكن سريع الكلام كسلاناً متراخياً في أعمالك، لا تكن كأسد في بيتك، قاسياً علي عبيدك، لا تكن يدك مبسوطة للأخذ مقبوضة عن العطاء، لا تتوكل علي الأموال", 
-  ],
-  [
-  Prefix.same+"&C=Diacon", 
-  "", 
-  "et ne dis pas: «Cela me suffit.» Ne laisse pas ton désir et ta force t'entraîner à suivre les passions de ton cœur.\nGloire à la sainte Trinité notre Dieu.", 
-  "ولا تقل هي تكفيني في حياتي، لا تتبع هواك وقوتك لتسير في شهوات قلبك\nمجدًا للثالوث الأقدس إلهنا آمين.", 
+  "ne t'oppose pas au courant du fleuve. Ne t'aplatis pas devant un sot, ne sois pas partial en faveur du puissant. Jusqu'à la mort lutte pour la vérité, le Seigneur Dieu combattra pour toi. Ne sois pas hardi en paroles, paresseux et lâche dans tes actes. Ne sois pas comme un lion à la maison et un poltron avec tes serviteurs. Que ta main ne soit pas tendue pour recevoir et fermée quand il s'agit de rendre. Ne te confie pas en tes richesses et ne dis pas: «Cela me suffit.» Ne laisse pas ton désir et ta force t'entraîner à suivre les passions de ton cœur.", 
+  "ولا تغالب نهراً ولا تتذلل للرجل الأحمق. ولا تحاب المقتدر، جاهد عن الحق إلي الموت لكي يقاتل الله عنك، ولا تكن سريع الكلام كسلاناً متراخياً في أعمالك، لا تكن كأسد في بيتك، قاسياً علي عبيدك، لا تكن يدك مبسوطة للأخذ مقبوضة عن العطاء، لا تتوكل علي الأموال ولا تقل هي تكفيني في حياتي، لا تتبع هواك وقوتك لتسير في شهوات قلبك.", 
   ],
   [
   Prefix.same+"&C=Title", 
   "", 
   "Isaïe (1: 1-9)", 
-  "أشعياء النبي ١:١-٩", 
+  "أشعياء النبي (١: ١-٩)", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -3476,14 +3374,8 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   Prefix.same+"&C=Diacon", 
   "", 
-  "Vision d'Isaïe, fils d'Amoç, qu'il reçut au sujet de Juda et de Jérusalem, au temps d'Ozias, de Yotam, d'Achaz et d'Ézéchias,", 
-  "رؤيا أشعياء إبن آموص التي رآها علي يهوذا وأورشليم في مملكة عزيا ويوسام وآحاز وحزقيا", 
-  ],
-  [
-  Prefix.same+"&C=Diacon", 
-  "", 
-  "rois de Juda. Cieux écoutez, terre prête l'oreille, car le Seigneur parle. J'ai élevé des enfants, je les ai fait grandir, mais ils se sont révoltés contre moi. Le bœuf connaît son possesseur, et l'âne la crèche de son maître, Israël ne connaît pas, mon peuple ne comprend pas. Malheur! Nation pécheresse! Peuple coupable! Race de malfaiteurs, fils pervertis! Ils ont abandonné le Seigneur, ils ont méprisé le Saint d'Israël, ils se sont détournés de lui. Où frapper encore, si vous persévérez dans la trahison? Toute la tête est mal-en-point, tout le cœur est malade, de la plante des pieds à la tête, il ne reste rien de sain. Ce n'est que blessures, contusions, plaies ouvertes, qui ne sont pas pansées ni bandées, ni soignées avec de l'huile. Votre pays est une désolation, vos villes sont la proie du feu, votre sol, sous vos yeux des étrangers le ravagent, c'est la désolation comme une dévastation d'étrangers.", 
-  "الذين ملكوا علي يهوذا: إسمعي أيتها السموات وإصغي أيتها الأرض فإن الرب قد تكلم، إني ربيت بنين ورفعتهم أمامهم فتمردوا علي، الثور يعرف قانيه والحمار معلف صاحبه، أما إسرائيل فلم يعرفني وشعبي لم يفهمني. ويل للأمة الخاطئة، الشعب الممتلئي إثمًا. النسل الخبيث، أولاد المخالفين، تركتم الرب عنكم وأغضبتم قدوس إسرائيل، وإزددتم إثمًا علي إثم، فنزلت عليكم الضربات، كل رأس للوجع وكل قلب للحزن من أخمص القدم إلي قمة الرأس، ليس فيه صحة بل جرح لم يوضع عليه مرهم ولا دهنًا ولا عصائب. أرضكم تخرب ومدنكم تحرق بالنار وكوركم تأكلها غرباء قدامكم. وقد خربت وإنهدمت من الشعوب الغرباء.", 
+  "Vision d'Isaïe, fils d'Amoç, qu'il reçut au sujet de Juda et de Jérusalem, au temps d'Ozias, de Yotam, d'Achaz et d'Ézéchias, rois de Juda. Cieux écoutez, terre prête l'oreille, car le Seigneur parle. J'ai élevé des enfants, je les ai fait grandir, mais ils se sont révoltés contre moi. Le bœuf connaît son possesseur, et l'âne la crèche de son maître, Israël ne connaît pas, mon peuple ne comprend pas. Malheur! Nation pécheresse! Peuple coupable! Race de malfaiteurs, fils pervertis! Ils ont abandonné le Seigneur, ils ont méprisé le Saint d'Israël, ils se sont détournés de lui. Où frapper encore, si vous persévérez dans la trahison? Toute la tête est mal-en-point, tout le cœur est malade, de la plante des pieds à la tête, il ne reste rien de sain. Ce n'est que blessures, contusions, plaies ouvertes, qui ne sont pas pansées ni bandées, ni soignées avec de l'huile. Votre pays est une désolation, vos villes sont la proie du feu, votre sol, sous vos yeux des étrangers le ravagent, c'est la désolation comme une dévastation d'étrangers.", 
+  " رؤيا أشعياء إبن آموص التي رآها علي يهوذا وأورشليم في مملكة عزيا ويوسام وآحاز وحزقيا الذين ملكوا علي يهوذا: إسمعي أيتها السموات وإصغي أيتها الأرض فإن الرب قد تكلم، إني ربيت بنين ورفعتهم أمامهم فتمردوا علي، الثور يعرف قانيه والحمار معلف صاحبه، أما إسرائيل فلم يعرفني وشعبي لم يفهمني. ويل للأمة الخاطئة، الشعب الممتلئي إثمًا. النسل الخبيث، أولاد المخالفين، تركتم الرب عنكم وأغضبتم قدوس إسرائيل، وإزددتم إثمًا علي إثم، فنزلت عليكم الضربات، كل رأس للوجع وكل قلب للحزن من أخمص القدم إلي قمة الرأس، ليس فيه صحة بل جرح لم يوضع عليه مرهم ولا دهنًا ولا عصائب. أرضكم تخرب ومدنكم تحرق بالنار وكوركم تأكلها غرباء قدامكم. وقد خربت وإنهدمت من الشعوب الغرباء.", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -3497,13 +3389,13 @@ ReadingsArrays.GospelNightArrayFR= [[
   Prefix.HolyWeek+"6HDPsalm&D=GL53&C=Title", 
   "Ⲯⲁⲗⲙⲟⲥ ⲧⲟ Ⲇⲁⲩⲓⲇ", 
   "Psaume de la Sixième heure du mardi\nPsaume (17: 48, 19)\n", 
-  "مزمور الساعة السادسة من يوم الثلاثاء\nمزمور١٧ : ٤٨، ١٩\n", 
+  "مزمور الساعة السادسة من يوم الثلاثاء\nمزمور (١٧: 48 و 19)\n", 
   ],
   [
   Prefix.same+"&C=Diacon", 
   "Ⲡⲁⲣⲉϥⲛⲁⲙⲉⲧ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲟⲧⲟⲩ ⲛ̀ⲛⲁϫⲁϫⲓ ⲛ̀ⲣⲉϥϫⲱⲛⲧ : ⲛⲉⲙ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲟⲧⲟⲩ ⲛ̀ⲛⲏⲉⲧⲧⲱⲟⲩⲛ ⲙ̀ⲙⲱⲟⲩ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲓ ⲉⲕⲉ̀ϭⲁⲥⲧ. Ⲛⲁⲙⲉⲧ ⲉ̀ⲃⲟⲗⲁ ⲟⲩⲣⲱⲙⲓ ⲛ̀ⲟ̀ϫⲓ ⲉϥⲉ̀ⲛⲁⲙⲉⲧ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲟⲧⲟⲩ ⲛ̀ⲛⲁϫⲁϫⲓ ⲉⲧϫⲟⲣ : ⲛⲉⲙ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲟⲧⲟⲩ ⲛ̀ⲛⲏⲉⲑⲙⲟⲥϯ ⲙ̀ⲙⲟⲓ.", 
   "Tu me délivres de tous mes ennemis, Tu me fais triompher de l'agresseur, Tu m'arraches à la violence de l'homme. Il me délivre d'un puissant ennemi, d'adversaires plus forts que moi.", 
-  "منقذي من أعدائي الراجزين ومن الذين يقومون علي ترفعني.\nومن الرجل الظالم تنجيني، يخلصني من أعدائي الأشداء ومن ايدي الذين يبغضونني.", 
+  "منقذي من أعدائي الراجزين ومن الذين يقومون علي ترفعني. ومن الرجل الظالم تنجيني، يخلصني من أعدائي الأشداء ومن ايدي الذين يبغضونني.", 
   ],
   ],
   [
@@ -3516,20 +3408,20 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   Prefix.same+"&C=Diacon", 
   "Ⲡⲁⲗⲓⲛ ⲟⲛ ⲁϥⲥⲁϫⲓ ⲛⲉⲙⲱⲟⲩ ⲛ̀ϫⲉ Ⲓⲏⲥⲟⲩⲥ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ : ϫⲉ ⲁ̀ⲛⲟⲕ ⲡⲉ ⲫ̀ⲟⲩⲱⲓⲛⲓ ⲙ̀ⲡⲓⲕⲟⲥⲙⲟⲥ : ⲫⲏⲉⲑⲛⲁⲙⲟϣⲓ ⲛ̀ⲥⲱⲓ ⲛ̀ⲛⲉϥⲙⲟϣⲓ ϧⲉⲛ ⲡⲓⲭⲁⲕⲓ : ⲁⲗⲗⲁ ⲉϥⲉ̀ϭⲓ ⲙ̀ⲫⲟⲩⲱⲓⲛⲓ ⲛ̀ⲧⲉ ⲡ̀ⲱⲛϧ. Ⲡⲉϫⲉ ⲛⲓⲫⲁⲣⲓⲥⲉⲟⲥ ⲛⲁϥ ϫⲉ ⲛ̀ⲑⲟⲕ ⲙ̀ⲙⲁⲩⲁⲧⲕ ⲉⲧⲉⲣⲙⲉⲑⲣⲉ ϧⲁⲣⲟⲕ: ⲧⲉⲕⲙⲉⲧⲙⲉⲑⲣⲉ ⲟⲩⲙⲏⲓ ⲁⲛ ⲧⲉ.", 
-  "De nouveau Jésus adressa la parole aux juifs et dit: «Je suis la lumière du monde. Qui me suit ne marchera pas dans les ténèbres, mais aura la lumière de la vie.» Les Pharisiens lui dirent alors: «Tu te rends témoignage à toi-même; ton témoignage n'est pas valable.» Jésus leur répondit: «Bien que je me rende témoignage à moi-même, mon témoignage est valable, parce que je sais d'où je suis venu", 
-  "ثم كلمهم أيضاً يسوع قائلاً: أنا هو نور العالم ومن يتبعني لا يمشي في الظلمة بل يكون له نور الحياة. فقال له الفريسيون: أنت وحدك تشهد لنفسك فليست شهادتك حقاً. أجاب يسوع وقال لهم: إني وإن كنت أشهد لنفسي فشهادتي حق. لأني أعلم من أين جئت", 
+  "De nouveau Jésus adressa la parole aux juifs et dit: «Je suis la lumière du monde. Qui me suit ne marchera pas dans les ténèbres, mais aura la lumière de la vie.» Les Pharisiens lui dirent alors: «Tu te rends témoignage à toi-même; ton témoignage n'est pas valable.» Jésus leur répondit: «Bien que je me rende témoignage à moi-même, mon témoignage est valable, parce que je sais d'où je suis venu et où je vais; mais vous, vous ne savez pas d'où je viens ni où je vais. Vous, vous jugez selon la chair; moi, je ne juge personne; et s'il m'arrive de juger, moi, mon jugement est selon la vérité, parce que je ne suis pas seul; mais il y a moi et celui qui m'a envoyé; et il est écrit dans votre Loi que le témoignage de deux personnes est valable. Je suis à moi-même mon propre témoin, et pour moi témoigne le Père qui m'a envoyé. ", 
+  "ثم كلمهم أيضاً يسوع قائلاً: أنا هو نور العالم ومن يتبعني لا يمشي في الظلمة بل يكون له نور الحياة. فقال له الفريسيون: أنت وحدك تشهد لنفسك فليست شهادتك حقاً. أجاب يسوع وقال لهم: إني وإن كنت أشهد لنفسي فشهادتي حق. لأني أعلم من أين جئت وإلي أين أذهب، وأما أنتم فلا تعلمون من أين أتيت ولا إلي أين أمضي.  أنتم إنما تدينون بحسب الجسد وأنا لا أدين أحداً. وإن أنا دنت فدينونتي حق هي، لأني لست وحدي بل أنا والآب الذي أرسلني وقد كُتب أيضا في ناموسكمأن شهادة رجلين حق هى، أنا أشهد لنفسى وأبى الذي أرسلنى يشهد لي.", 
   ],
   [
   Prefix.same+"&C=Diacon", 
   "Ⲁϥⲉ̀ⲣⲟⲩⲱ̀ ⲛ̀ϫⲉ Ⲓⲏⲥⲟⲩⲥ  ⲟⲩⲟϩ ⲡⲉϫⲁϥ ⲛⲱⲟⲩ : ϫⲉ ⲕⲁⲛ ⲉ̀ϣⲱⲡ ⲁ̀ⲛⲟⲕ ⲁⲓϣⲁⲛⲉⲣⲙⲉⲑⲣⲉ ϧⲁⲣⲟⲓ ⲧⲁⲙⲉⲧⲙⲉⲑⲣⲉ ⲟⲩⲙⲏⲓ ⲧⲉ : ϫⲉ ϯⲉ̀ⲙⲓ ϫⲉ ⲉ̀ⲧⲁⲓⲓ̀ ⲉ̀ⲃⲟⲗⲑⲱⲛ ⲓⲉ ⲉⲓⲛⲁϣⲉⲛⲏⲓ è̀ⲉⲑⲱⲛ : ⲛ̀ⲑⲱⲧⲉⲛ ⲇⲉ ⲧⲉⲧⲉⲛⲉ̀ⲙⲓ ⲁⲛ ϫⲉ ⲉⲧⲁⲓⲓ̀ ⲉ̀ⲃⲟⲗⲑⲱⲛ ⲓⲉ ⲉⲓⲛⲁϣⲉⲛⲏⲓ ⲉ̀ⲑⲱⲛ.", 
-  "et où je vais; mais vous, vous ne savez pas d'où je viens ni où je vais.\nVous, vous jugez selon la chair; moi, je ne juge personne; et s'il m'arrive de juger, moi, mon jugement est selon la vérité, parce que je ne suis pas seul; mais il y a moi et celui qui m'a envoyé; et il est écrit dans votre Loi que le témoignage de deux personnes est valable. Je suis à moi-même mon propre témoin, et pour moi témoigne le Père qui m'a envoyé. Ils lui disaient donc:", 
-  "وإلي أين أذهب، وأما أنتم فلا تعلمون من أين أتيت ولا إلي أين أمضي. أنتم إنما تدينون بحسب الجسد وأنا لا أدين أحداً. وإن أنا دنت فدينونتي حق هي، لأني لست وحدي بل أنا والآب الذي أرسلني وقد كُتب أيضا في ناموسكمأن شهادة رجلين حق هى، أنا أشهد لنفسى وأبى الذي أرسلنى يشهد لي. قالوا له:", 
+  "Ils lui disaient donc: «Où est ton Père?» Jésus répondit: «Vous ne connaissez ni moi ni mon Père; si vous me connaissiez, vous connaîtriez aussi mon Père.» Il prononça ces paroles au Trésor, alors qu'il enseignait dans le Temple. Personne ne se saisit de lui, parce que son heure n'était pas encore venue.", 
+  "قالوا له: أين هو أبوك ؟ ! قال يسوع : لستم تعرفونني أنا ولا أبي، لو كنتم تعرفونني لعرفتم أبي أيضاً. هذه الأقوال قالها في الخزانة وهو يعلم في الهيكل ولم يمسكه أحد لأن ساعته لم تكن قد أتت بعد.", 
   ],
   [
   Prefix.same+"&C=Diacon", 
   "Ⲛⲑⲱⲧⲉⲛ ⲇⲉ ⲁ̀ⲣⲉⲧⲉⲛϯϩⲁⲡ ⲕⲁⲧⲁ ⲥⲁⲣⲝ ⲁ̀ⲛⲟⲕ ⲇⲉ ϯϯϩⲁⲡ ⲉ̀ϩ̀ⲗⲓ ⲁⲛ : ⲟⲩⲟϩ ⲉ̀ϣⲱⲡ ⲁ̀ⲛⲟⲕ ⲁⲓϣⲁⲛϯϩⲁⲡ ⲡⲁϩⲁⲡ ⲁ̀ⲛⲟⲕ ⲟⲩⲙⲏⲓ ⲡⲉ: ϫⲉ ⲛ̀ϯⲭⲏ ⲙ̀ⲙⲁⲩⲁⲧ ⲁⲛ ⲁⲗⲗⲁ ⲁ̀ⲛⲟⲕ ⲛⲉⲙ ⲫⲏⲉ̀ⲧⲁϥⲧⲁⲟⲩⲟⲓ Ⲫ̀ⲓⲱⲧ : ⲟⲩⲟϩ ⲥ̀ⲥ̀ϧⲏⲟⲩⲧ ⲇⲉ ⲟⲛ ϧⲉⲛ ⲡⲉⲧⲉⲛⲛⲟⲙⲟⲥ ϫⲉ ⲑ̀ⲙⲉⲧⲙⲉⲑⲣⲉ ⲛ̀ⲣⲱⲙⲓ ⲥ̀ⲛⲁⲩ ⲟⲩⲙⲏⲓⲧⲉ.", 
-  "«Où est ton Père?» Jésus répondit: «Vous ne connaissez ni moi ni mon Père; si vous me connaissiez, vous connaîtriez aussi mon Père.» Il prononça ces paroles au Trésor, alors qu'il enseignait dans le Temple. Personne ne se saisit de lui, parce que son heure n'était pas encore venue.", 
-  "أين هو أبوك ؟ ! قال يسوع : لستم تعرفونني أنا ولا أبي، لو كنتم تعرفونني لعرفتم أبي أيضاً. هذه الأقوال قالها في الخزانة وهو يعلم في الهيكل ولم يمسكه أحد لأن ساعته لم تكن قد أتت بعد.", 
+  "", 
+  "", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -3548,14 +3440,14 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   Prefix.same+"&C=Diacon", 
   "", 
-  "Le Dieu véritable qui est venu dans le monde parle et la parole de vérité sort de Sa bouche qui ne ment jamais: «Moi, je suis la lumière du monde. Celui qui me suit ne marchera pas dans les ténèbres, il aura la lumière de la vie.» Cette lumière qui le guide vers le chemin de la vérité. Tu es en vérité la lumière du Père et l'expression de son Être, Celui dont la gloire resplendit sur l'univers", 
-  "الإله الحقيقي الذي أتي إلي العالم يقول وقوله الحق من فمه غير الكاذب: إنني أنا نور العالم ومن يتبعني لن يمشي في الظلام، بل يجد نور الحياة يهديه إلي طريق الحق، أنت هو بالحق نور الآب والشخص الذي من جوهره، الذي مجده يشرق بلمعان عظيم علي المسكونة", 
+  "Le Dieu véritable qui est venu dans le monde parle et la parole de vérité sort de Sa bouche qui ne ment jamais: «Moi, je suis la lumière du monde. Celui qui me suit ne marchera pas dans les ténèbres, il aura la lumière de la vie.» Cette lumière qui le guide vers le chemin de la vérité. ", 
+  "الإله الحقيقي الذي أتي إلي العالم يقول وقوله الحق من فمه غير الكاذب: إنني أنا نور العالم ومن يتبعني لن يمشي في الظلام، بل يجد نور الحياة يهديه إلي طريق الحق.", 
   ],
   [
   Prefix.same+"&C=Diacon", 
   "", 
-  "jusqu'à la fin des temps. Il nous a attirés, nous les peuples étrangers, vers la connaissance de la Vérité dans Son Nom. Il nous a éclairés de la lumière de Sa Divinité alors que nous étions dans les ténèbres et l'ombre de la mort. Quant aux juifs, les contrevenants, les siens, Il les a jetés dans les ténèbres de l'enfer jusqu'à la fin des temps car ils ont refusé Sa parole et ne L'ont pas accepté. Ils L'ont condamné à mort. Exaltons Son saint Nom et glorifions-Le sans tiédeur.", 
-  "في آخر الدهور. جذبنا معاً نحن معشر الشعوب الغريبة إلي معرفة الحق بإسمه. وأضاء علينا بنور لاهوته نحن الجلوس في الظلمة وظلال الموت، فأما اليهود المخالفون الذين هم خواصه ألقاهم في ظلمة الجحيم إلي الأبد، لأَنَّهُمْ رفضوا أقواله ولم يقبلوه وحكموا عليه بحكم الموت. فلنعظم نحن إسمه القدوس ونمجده بغير فتور.", 
+  "Tu es en vérité la lumière du Père et l'expression de son Être, Celui dont la gloire resplendit sur l'univers jusqu'à la fin des temps. Il nous a attirés, nous les peuples étrangers, vers la connaissance de la Vérité dans Son Nom. Il nous a éclairés de la lumière de Sa Divinité alors que nous étions dans les ténèbres et l'ombre de la mort. Quant aux juifs, les contrevenants, les siens, Il les a jetés dans les ténèbres de l'enfer jusqu'à la fin des temps car ils ont refusé Sa parole et ne L'ont pas accepté. Ils L'ont condamné à mort. Exaltons Son saint Nom et glorifions-Le sans tiédeur.", 
+  "أنت هو بالحق نور الآب والشخص الذي من جوهره، الذي مجده يشرق بلمعان عظيم علي المسكونة في آخر الدهور. جذبنا معاً نحن معشر الشعوب الغريبة إلي معرفة الحق بإسمه. وأضاء علينا بنور لاهوته نحن الجلوس في الظلمة وظلال الموت، فأما اليهود المخالفون الذين هم خواصه ألقاهم في ظلمة الجحيم إلي الأبد، لأَنَّهُمْ رفضوا أقواله ولم يقبلوه وحكموا عليه بحكم الموت. فلنعظم نحن إسمه القدوس ونمجده بغير فتور.", 
   ],
   ],
   [
@@ -3563,7 +3455,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   Prefix.HolyWeek+"9HDProphecies&D=GL53&C=Title", 
   "", 
   "Prophecies de la Neuvième heure du mardi\nGenèse (6:5 à 9:6)\n", 
-  "نبوات الساعة التاسعة من يوم الثلاثاء\nتكوين ٦ : ٥ - ٩: ٦\n", 
+  "نبوات الساعة التاسعة من يوم الثلاثاء\nتكوين (٦: ٥- ٩: ٦\n", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -3586,50 +3478,32 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   Prefix.same+"&C=Diacon", 
   "", 
-  "Le Seigneur vit que la méchanceté de l'homme était grande sur la terre Et que son cœur ne formait que de mauvais desseins à longueur de journée.", 
-  "ولما رأي الرب الإله أن شرور الناس قد كثرت علي الأرض وأن كل واحد قد مال بقلبه كثيرًا إلي الشر كل الأيام،", 
+  "Le Seigneur vit que la méchanceté de l'homme était grande sur la terre Et que son cœur ne formait que de mauvais desseins à longueur de journée. Le Seigneur se repentit d'avoir fait l'homme sur la terre et il s'affligea dans son cœur. Et le Seigneur dit: Je vais effacer de la surface du sol les hommes que j'ai créés - et avec les hommes, les bestiaux, les bestioles et les oiseaux du ciel -, car je me repens de les avoir faits. Mais Noé avait trouvé grâce aux yeux du Seigneur.", 
+  "ولما رأي الرب الإله أن شرور الناس قد كثرت علي الأرض وأن كل واحد قد مال بقلبه كثيرًا إلي الشر كل الأيام، فندم الرب الإله أنه خلق الإنسان علي الأرض، وفكر الرب الإله في قلبه وقال: إني مبيد عن وجه الأرض الإنسان الذي خلقته من الإنسان إلي البهائم، ومن الهوام إلي طيور السماء، لأني حنقت إذ خلقتهم. وأما نوح فوجد نعمة أمام الرب الإله.", 
   ],
   [
   Prefix.same+"&C=Diacon", 
   "", 
-  "Le Seigneur se repentit d'avoir fait l'homme sur la terre et il s'affligea dans son cœur. Et le Seigneur dit: Je vais effacer de la surface du sol les hommes que j'ai créés - et avec les hommes, les bestiaux, les bestioles et les oiseaux du ciel -, car je me repens de les avoir faits. Mais Noé avait trouvé grâce aux yeux du Seigneur. Voici l'histoire de Noé : Noé était un homme juste, intègre parmi ses contemporains, et il marchait avec Dieu.", 
-  "فندم الرب الإله أنه خلق الإنسان علي الأرض، وفكر الرب الإله في قلبه وقال: إني مبيد عن وجه الأرض الإنسان الذي خلقته من الإنسان إلي البهائم، ومن الهوام إلي طيور السماء، لأني حنقت إذ خلقتهم. وأما نوح فوجد نعمة أمام الرب الإله، وهذه مواليد نوح: وكَانَ نوح رجلًا بارًا كاملًا في جيله وأرضي نوح الله", 
+  "Voici l'histoire de Noé : Noé était un homme juste, intègre parmi ses contemporains, et il marchait avec Dieu. Noé engendra trois fils: Sem, Cham et Japhet. La terre se pervertit au regard de Dieu et elle se remplit de violence. Dieu vit la terre: elle était pervertie, car toute chair avait une conduite perverse sur la terre.", 
+  "وهذه مواليد نوح: وكَانَ نوح رجلًا بارًا كاملًا في جيله وأرضي نوح اللهوولد نوح ثلاثة بنين سامًا وحامًا ويافث، وتنجست الأرض أمام الله وإمتلأت الأرض ظلمًا، فنظر الرب الإله إلي الأرض فإذا هي قد فسدت، لأن كل ذي جسد قد نجس طريقه علي الأرض.", 
   ],
   [
   Prefix.same+"&C=Diacon", 
   "", 
-  "Noé engendra trois fils: Sem, Cham et Japhet. La terre se pervertit au regard de Dieu et elle se remplit de violence. Dieu vit la terre: elle était pervertie, car toute chair avait une conduite perverse sur la terre. Dieu dit à Noé: La fin de toute chair est arrivée, je l'ai décidé, car la terre est pleine de violence à cause des hommes et je vais les faire disparaître de la terre. Fais-toi une arche en bois résineux, tu la feras en roseaux et tu l'enduiras de bitume", 
-  "وولد نوح ثلاثة بنين سامًا وحامًا ويافث، وتنجست الأرض أمام الله وإمتلأت الأرض ظلمًا، فنظر الرب الإله إلي الأرض فإذا هي قد فسدت، لأن كل ذي جسد قد نجس طريقه علي الأرض، فقال الرب الإله لنوح: إن أجل كل بشر قد أقترب أمامي، لأن الأرض قد إمتلأت ظلمًا منهم. وها أنا مهلكهم والأرض معًا فإصنع لك فلكًا من خشب الساج الذي لا يسوس وإصنع الفلك كاملًا وتطلي داخله (وخارجه) بالقار", 
+  " Dieu dit à Noé: La fin de toute chair est arrivée, je l'ai décidé, car la terre est pleine de violence à cause des hommes et je vais les faire disparaître de la terre. Fais-toi une arche en bois résineux, tu la feras en roseaux et tu l'enduiras de bitume en dedans et en dehors. Voici comment tu la feras: trois cents coudées pour la longueur de l'arche, cinquante coudées pour sa largeur, trente coudées pour sa hauteur. Tu feras à l'arche un toit et tu l'achèveras une coudée plus haut, tu placeras l'entrée de l'arche sur le côté et tu feras un premier, un second et un troisième étages. Pour moi, je vais amener le déluge, les eaux, sur la terre, pour exterminer de dessous le ciel toute chair ayant souffle de vie: tout ce qui est sur la terre doit périr. Mais j'établirai mon alliance avec toi et tu entreras dans l'arche, toi et tes fils, ta femme et les femmes de tes fils avec toi. De tout ce qui vit, de tout ce qui est chair, tu feras entrer dans l'arche deux de chaque espèce pour les garder en vie avec toi; qu'il y ait un mâle et une femelle. De chaque espèce d'oiseaux, de chaque espèce de bestiaux, de chaque espèce de toutes les bestioles du sol, un couple viendra avec toi pour que tu les gardes en vie. De ton côté, procure-toi de tout ce qui se mange et fais-en provision: cela servira de nourriture pour toi et pour eux.", 
+  "فقال الرب الإله لنوح: إن أجل كل بشر قد أقترب أمامي، لأن الأرض قد إمتلأت ظلمًا منهم. وها أنا مهلكهم والأرض معًا فإصنع لك فلكًا من خشب الساج الذي لا يسوس وإصنع الفلك كاملًا وتطلي داخله (وخارجه) بالقار وهكذا تصنع الفلك: ثلاثمائة ذراعًا يكون طول الفلك وخمسين ذراعًا عرضه وثلاثين ذراعا إرتفاعه، ويكون الفلك مقببًا وتصنع له كوًا وتكمله إلي حد ذراع من فوق وتصنع باب الفلك في جانبه وطبقات سفلية ومتوسطة وعلوية تجعله، فها أنا آت بطوفان الماء علي الأرض، لأهلك كل جسد فيه روح الحياة تحت السماءوكل شيء كائن علي الأرض يموت وأقرر عهدي معك. فتدخل الفلك أنت وبنوك وإمرأتك ونساء بنيك معك ومن جميع الوحوش ومن جميع الدواب ومن كل ذي جسد إثنين إثنين من كل حى تدخل إلي الفلك لكي تعولها معك. تكون ذكرًا وأنثي. ومن الطيور الطائرة كجنسها. ومن جميع البهائم كأجناسها ومن الهوام التي علي الأرض كأجناسها إثنين إثنين تدخل إليك لتعولها معك. ويكون ذكرًا وأنثي، وأنت فخذ لك من كل الأطعمة التي تأكلونها وإجمعها إليك لتكون لك وللآخرين مأكلًا.", 
   ],
   [
   Prefix.same+"&C=Diacon", 
   "", 
-  "en dedans et en dehors. Voici comment tu la feras: trois cents coudées pour la longueur de l'arche, cinquante coudées pour sa largeur, trente coudées pour sa hauteur. Tu feras à l'arche un toit et tu l'achèveras une coudée plus haut, tu placeras l'entrée de l'arche sur le côté et tu feras un premier, un second et un troisième étages. Pour moi, je vais amener le déluge, les eaux, sur la terre, pour exterminer de dessous le ciel toute chair ayant souffle de vie:", 
-  "وهكذا تصنع الفلك: ثلاثمائة ذراعًا يكون طول الفلك وخمسين ذراعًا عرضه وثلاثين ذراعا إرتفاعه، ويكون الفلك مقببًا وتصنع له كوًا وتكمله إلي حد ذراع من فوق وتصنع باب الفلك في جانبه وطبقات سفلية ومتوسطة وعلوية تجعله، فها أنا آت بطوفان الماء علي الأرض، لأهلك كل جسد فيه روح الحياة تحت السماء", 
+  " Noé agit ainsi; tout ce que Dieu lui avait commandé, il le fit. Le Seigneur dit à Noé: Entre dans l'arche, toi et toute ta famille, car je t'ai vu seul juste à mes yeux parmi cette génération. De tous les animaux purs, tu prendras sept paires, le mâle et sa femelle; des animaux qui ne sont pas purs, tu prendras un couple, le mâle et sa femelle et aussi des oiseaux du ciel, sept paires, le mâle et sa femelle, pour perpétuer la race sur toute la terre. Car encore sept jours et je ferai pleuvoir sur la terre pendant quarante jours et quarante nuits et j'effacerai de la surface du sol tous les êtres que j'ai faits. Noé fit tout ce que Le Seigneur lui avait commandé. Noé avait six cents ans quand arriva le déluge, les eaux sur la terre. Noé - avec ses fils, sa femme et les femmes de ses fils - entra dans l'arche pour échapper aux eaux du déluge.", 
+  "ففعل نوح كل ما أمره به الرب الإله، هكذا فعل. وقال الرب الإله لنوح: إمض أنت وأهل بيتك وأدخل الفلك لأنك أنت هو الذي رأيتك بارًا أمامي في هذا الجيل. من جميع البهائم التي ليس بطاهرة إثنين إثنين ذكرًا وأنثي ومن طيور السماء الطاهرة سبعة سبعة ذكرًا وأنثي ومن طيور السماء الغير الطاهرة إثنين إثنين ذكرًا وأنثي، ليتربي منها نسلًا علي الأرض كلها، لأني بعد سبعة أيام أمطر ماء الطوفان علي الأرض أربعين يومًا وأربعين ليلة، وأمحو كل الخليقة التي خلقتها عن وجه الأرض. ففعل نوح كل ما أمر به الرب الإله. وكَانَ نوح إبن ست مئة سنة، إذ هطل ماء الطوفان علي الأرض. فمضي نوح وبنوه وإمرأته ونساء بنيه معه ودخلوا الفلك بسبب ماء الطوفان.", 
   ],
   [
   Prefix.same+"&C=Diacon", 
   "", 
-  "tout ce qui est sur la terre doit périr. Mais j'établirai mon alliance avec toi et tu entreras dans l'arche, toi et tes fils, ta femme et les femmes de tes fils avec toi. De tout ce qui vit, de tout ce qui est chair, tu feras entrer dans l'arche deux de chaque espèce pour les garder en vie avec toi; qu'il y ait un mâle et une femelle. De chaque espèce d'oiseaux, de chaque espèce de bestiaux, de chaque espèce de toutes les bestioles du sol,", 
-  "وكل شيء كائن علي الأرض يموت وأقرر عهدي معك. فتدخل الفلك أنت وبنوك وإمرأتك ونساء بنيك معك ومن جميع الوحوش ومن جميع الدواب ومن كل ذي جسد إثنين إثنين من كل حى تدخل إلي الفلك لكي تعولها معك. تكون ذكرًا وأنثي. ومن الطيور الطائرة كجنسها. ومن جميع البهائم كأجناسها ومن الهوام التي علي الأرض كأجناسها", 
-  ],
-  [
-  Prefix.same+"&C=Diacon", 
-  "", 
-  "un couple viendra avec toi pour que tu les gardes en vie. De ton côté, procure-toi de tout ce qui se mange et fais-en provision: cela servira de nourriture pour toi et pour eux. Noé agit ainsi; tout ce que Dieu lui avait commandé, il le fit. Le Seigneur dit à Noé: Entre dans l'arche, toi et toute ta famille, car je t'ai vu seul juste à mes yeux parmi cette génération. De tous les animaux purs, tu prendras sept paires, le mâle et sa femelle; des animaux qui ne sont pas purs,", 
-  "إثنين إثنين تدخل إليك لتعولها معك. ويكون ذكرًا وأنثي، وأنت فخذ لك من كل الأطعمة التي تأكلونها وإجمعها إليك لتكون لك وللآخرين مأكلًا. ففعل نوح كل ما أمره به الرب الإله، هكذا فعل. وقال الرب الإله لنوح: إمض أنت وأهل بيتك وأدخل الفلك لأنك أنت هو الذي رأيتك بارًا أمامي في هذا الجيل. من جميع البهائم التي ليس بطاهرة إثنين إثنين ذكرًا وأنثي ومن طيور السماء الطاهرة سبعة سبعة ذكرًا وأنثي", 
-  ],
-  [
-  Prefix.same+"&C=Diacon", 
-  "", 
-  "tu prendras un couple, le mâle et sa femelle et aussi des oiseaux du ciel, sept paires, le mâle et sa femelle, pour perpétuer la race sur toute la terre. Car encore sept jours et je ferai pleuvoir sur la terre pendant quarante jours et quarante nuits et j'effacerai de la surface du sol tous les êtres que j'ai faits. Noé fit tout ce que Le Seigneur lui avait commandé. Noé avait six cents ans quand arriva le déluge, les eaux sur la terre. Noé - avec ses fils, sa femme et les", 
-  "ومن طيور السماء الغير الطاهرة إثنين إثنين ذكرًا وأنثي، ليتربي منها نسلًا علي الأرض كلها، لأني بعد سبعة أيام أمطر ماء الطوفان علي الأرض أربعين يومًا وأربعين ليلة، وأمحو كل الخليقة التي خلقتها عن وجه الأرض. ففعل نوح كل ما أمر به الرب الإله. وكَانَ نوح إبن ست مئة سنة، إذ هطل ماء الطوفان علي الأرض. فمضي نوح وبنوه وإمرأته ونساء بنيه معه ودخلوا الفلك", 
-  ],
-  [
-  Prefix.same+"&C=Diacon", 
-  "", 
-  "femmes de ses fils - entra dans l'arche pour échapper aux eaux du déluge. Des animaux purs et des animaux qui ne sont pas purs, des oiseaux et de tout ce qui rampe sur le sol, un couple entra dans l'arche de Noé, un mâle et une femelle, comme Dieu avait ordonné à Noé. Au bout de sept jours, les eaux du déluge vinrent sur la terre. En l'an six cent de la vie de Noé, le second mois, le dix-septième jour du mois, ce jour-là jaillirent toutes les sources", 
-  "بسبب ماء الطوفان، ومن البهائم الطاهرة ومن البهائم التي ليست بطاهرة ومن الطيور الطاهرة ومن الطيور الغير طاهرة، ومن كل الهوام التي علي الأرض دخل إثنان إثنان مع نوح إلي الفلك، ذكرًا وأنثي كما أمره الرب الإله. وحدث بعد سبعة أيام أن مياه الطوفان صارت علي الأرض في سنة ست مئة من حياة نوح، في الشهر الثاني في اليوم السابع عشر من الشهر في ذلك اليوم تفجرت كل ينابيع الغمر العظيم", 
+  "Des animaux purs et des animaux qui ne sont pas purs, des oiseaux et de tout ce qui rampe sur le sol, un couple entra dans l'arche de Noé, un mâle et une femelle, comme Dieu avait ordonné à Noé. Au bout de sept jours, les eaux du déluge vinrent sur la terre. En l'an six cent de la vie de Noé, le second mois, le dix-septième jour du mois, ce jour-là jaillirent toutes les sources", 
+  "ومن البهائم الطاهرة ومن البهائم التي ليست بطاهرة ومن الطيور الطاهرة ومن الطيور الغير طاهرة، ومن كل الهوام التي علي الأرض دخل إثنان إثنان مع نوح إلي الفلك، ذكرًا وأنثي كما أمره الرب الإله. وحدث بعد سبعة أيام أن مياه الطوفان صارت علي الأرض في سنة ست مئة من حياة نوح، في الشهر الثاني في اليوم السابع عشر من الشهر في ذلك اليوم تفجرت كل ينابيع الغمر العظيم", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -3704,16 +3578,34 @@ ReadingsArrays.GospelNightArrayFR= [[
   "ومن أهرق دم إنسان فيهرق دمه عوضًا عنه. لأني خلقت الإنسان علي صورة الله. أما أنتم فإنموا وأكثروا وإملأوا الأرض وتكاثروا فيها.\nمجدًا للثالوث الأقدس إلهنا آمين", 
   ],
   [
+  Prefix.same+"&C=Title", 
+  "", 
+  "Proverbes (9: 1-11)", 
+  "أمثال (٩: ١-١١)", 
+  ],
+  [
   Prefix.same+"&C=Diacon", 
-  "Ebolqen Colomwn piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc\nA;covi`èa kwt nac `ènouhi> ouo actajro `èn]a]f `èn`èctulloc 'arof.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.", 
-  "Proverbes 9 : 1-11\nLa Sagesse a bâti sa maison, elle a taillé ses sept colonnes, elle a abattu ses bêtes, préparé son vin, elle a aussi dressé sa table.", 
-  "أمثال ٩ : ١- ١١\nالحكمة بنت لها بيتاً ونصبت فيه سبعة أعمدة. ذبحت ذبائحها ومزجت خمرها في البواطي (الأواني) وهيأت مائدتها.", 
+  "Ⲉⲃⲟⲗϧⲉⲛ Ⲥⲟⲗⲟⲙⲱⲛ ⲡⲓⲡⲣⲟⲫⲏⲧⲏⲥ : ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̅ⲑ̅ⲩ̅ : ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ", 
+  "", 
+  "", 
+  ],
+  [
+  Prefix.same+"&C=Diacon", 
+  "Ⲁϯⲥⲟⲫⲓⲁ̀ ⲕⲱⲧ ⲛⲁⲥ ⲛ̀ⲟⲩⲏⲓ&ⲅⲧϯ ⲟⲩⲟ ⲁⲥⲧⲁϫⲣⲟ ⲛ̀ϣⲁϣϥ ⲛ̀ⲥ̀ⲧⲩⲗⲗⲟⲥ ϧⲁⲣⲟϥ.", 
+  "", 
+  "", 
+  ],
+  [
+  Prefix.same+"&C=Diacon", 
+  "Ⲟⲩⲱ̀ⲟⲩ ⲛ̀Ϯⲧ̀ⲣⲓⲁⲥ ⲉ̀ⲑⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ : ϣⲁ ⲉ̀ⲛⲉϩ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ⲛⲉϩ ⲧⲏⲣⲟⲩ : ⲁ̀ⲙⲏⲛ.", 
+  "", 
+  "", 
   ],
   [
   Prefix.same+"&C=Diacon", 
   "", 
-  "Elle a dépêché ses servantes et proclamé sur les buttes, en haut de la cité: «Qui est simple? Qu'il passe par ici!» A l'homme insensé elle dit: «Venez, mangez de mon pain, buvez du vin que j'ai préparé! Quittez la niaiserie et vous vivrez, marchez droit dans la voie de l'intelligence.» Qui corrige un railleur s'attire le mépris, qui reprend un méchant le déshonneur. Ne reprends pas le railleur, il te haïrait, reprends le sage, il t'aimera.", 
-  "أرسلت عبيدها لينادوا بصوت عال علي الزوايا قائلين : من كان منكم جاهلاً فليأت إلي وناقصي الفهم قولوا لهم: هلموا كلوا من خبزي وإشربوا من الخمر التي مزجتها لكم، أتركوا عنكم الجهل لتحيوا، أطلبوا الحكمة لتعمروا، وقوموا فهمكم بمعرفة. من يؤدب الأشرار يلحق بنفسه هواناً ومن يبكت المنافق يكسب عيباً لذاته، لا توبخ الأشرار لئلا يبغضوك. وبخ حكيماً فيحبك. وبخ جاهلاً فيبغضك.", 
+  "La Sagesse a bâti sa maison, elle a taillé ses sept colonnes, elle a abattu ses bêtes, préparé son vin, elle a aussi dressé sa table. Elle a dépêché ses servantes et proclamé sur les buttes, en haut de la cité: «Qui est simple? Qu'il passe par ici!» A l'homme insensé elle dit: «Venez, mangez de mon pain, buvez du vin que j'ai préparé! Quittez la niaiserie et vous vivrez, marchez droit dans la voie de l'intelligence.» Qui corrige un railleur s'attire le mépris, qui reprend un méchant le déshonneur. Ne reprends pas le railleur, il te haïrait, reprends le sage, il t'aimera.", 
+  "الحكمة بنت لها بيتاً ونصبت فيه سبعة أعمدة. ذبحت ذبائحها ومزجت خمرها في البواطي (الأواني) وهيأت مائدتها. أرسلت عبيدها لينادوا بصوت عال علي الزوايا قائلين : من كان منكم جاهلاً فليأت إلي وناقصي الفهم قولوا لهم: هلموا كلوا من خبزي وإشربوا من الخمر التي مزجتها لكم، أتركوا عنكم الجهل لتحيوا، أطلبوا الحكمة لتعمروا، وقوموا فهمكم بمعرفة. من يؤدب الأشرار يلحق بنفسه هواناً ومن يبكت المنافق يكسب عيباً لذاته، لا توبخ الأشرار لئلا يبغضوك. وبخ حكيماً فيحبك. وبخ جاهلاً فيبغضك.", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -3724,8 +3616,8 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   Prefix.same+"&C=Title", 
   "", 
-  "Isaïe 40 : 9-31", 
-  "إشعياء ٤٠ : ٩ -٣١", 
+  "Isaïe (40: 9-31)", 
+  "إشعياء (٤٠: ٩-٣١)", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -3748,14 +3640,8 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   Prefix.same+"&C=Diacon", 
   "", 
-  "Monte sur une haute montagne, messagère de Sion : élève et force la voix, messagère de Jérusalem", 
-  "إصعد علي جبل عال يا مبشر صهيون. إرفع صوتك بقوة يا مبشر أورشليم.", 
-  ],
-  [
-  Prefix.same+"&C=Diacon", 
-  "", 
-  "Elève la voix, ne crains pas, dis aux villes de Juda: «Voici votre Dieu!» Voici le Seigneur Dieu qui vient avec puissance, son bras assure son autorité; voici qu'il porte avec lui sa récompense, et son salaire devant lui. Tel un berger il fait paître son troupeau, de son bras il rassemble les agneaux, il les porte sur son sein, il conduit doucement les brebis mères. Qui a mesuré dans le creux de sa main l'eau de la mer, évalué à l'empan les dimensions du ciel,", 
-  "إرفع صوتك بقوة ولاتخف، قل لمدن يهوذا : هوذا ربكم آت بقوة، وذراعه تحكم له، هو ذا أجرته معه وعمله قدامه، كراع يرعي قطيع غنمه وبذراعه يجمع الحملان ويعزي الحبالي. مَن كال الماء بيده وقاس السماء بشبره والأرض كلها بقبضته؟", 
+  "Monte sur une haute montagne, messagère de Sion : élève et force la voix, messagère de Jérusalem Elève la voix, ne crains pas, dis aux villes de Juda: «Voici votre Dieu!» Voici le Seigneur Dieu qui vient avec puissance, son bras assure son autorité; voici qu'il porte avec lui sa récompense, et son salaire devant lui. Tel un berger il fait paître son troupeau, de son bras il rassemble les agneaux, il les porte sur son sein, il conduit doucement les brebis mères. Qui a mesuré dans le creux de sa main l'eau de la mer, évalué à l'empan les dimensions du ciel,", 
+  "إصعد علي جبل عال يا مبشر صهيون. إرفع صوتك بقوة يا مبشر أورشليم. إرفع صوتك بقوة ولاتخف، قل لمدن يهوذا : هوذا ربكم آت بقوة، وذراعه تحكم له، هو ذا أجرته معه وعمله قدامه، كراع يرعي قطيع غنمه وبذراعه يجمع الحملان ويعزي الحبالي. مَن كال الماء بيده وقاس السماء بشبره والأرض كلها بقبضته؟", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -3796,8 +3682,8 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   Prefix.same+"&C=Title", 
   "", 
-  "Daniel 7 : 9-15", 
-  "دانيال ٧: ٩- ١٥", 
+  "Daniel (7: 9-15)", 
+  "دانيال (٧: ٩-١٥)", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -3820,14 +3706,14 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   Prefix.same+"&C=Diacon", 
   "", 
-  "Daniel dit: J'ai contemplé des visions dans la nuit. Tandis que je contemplais des trônes furent placés et un Ancien s'assit.", 
-  "أنا دانيال رأيت في رؤي الليل، كنت أري أنه وضعت عروش وجلس العتيق الأيام،", 
+  "", 
+  "", 
   ],
   [
   Prefix.same+"&C=Diacon", 
   "", 
-  "Son vêtement, blanc comme la neige; les cheveux de sa tête, purs comme la laine. Son trône était flammes de feu, aux roues de feu ardent. Un fleuve de feu coulait, issu de devant lui. Mille milliers le servaient, myriade de myriades, debout devant lui. Le tribunal était assis, les livres étaient ouverts. Je regardais; alors, à cause du bruit des grandes choses que disait la corne, tandis que je regardais, la bête fut tuée, son corps détruit et livré à la flamme de feu.", 
-  "لباسه أبيض كالثلج وشعر رأسه كالصوف النقي، وعرشه لهيب نار وعجلاته نار متقدة، ونهر نار يخرج ويجري أمامه، وألوف ألوف كانت تخدمه، وربوات ربوات وقوف قدامه. فجلس الديّان وفُتحت الأسفار، ورأيت في تلك الساعة من أجل صوت الكلام العظيم الذي كان يتكلم به القرن. وكنت أنظر حتي قُتل الوحش وهلك ودُفع جسمه ليحرق بالنار.", 
+  "Daniel dit: J'ai contemplé des visions dans la nuit. Tandis que je contemplais des trônes furent placés et un Ancien s'assit. Son vêtement, blanc comme la neige; les cheveux de sa tête, purs comme la laine. Son trône était flammes de feu, aux roues de feu ardent. Un fleuve de feu coulait, issu de devant lui. Mille milliers le servaient, myriade de myriades, debout devant lui. Le tribunal était assis, les livres étaient ouverts. Je regardais; alors, à cause du bruit des grandes choses que disait la corne, tandis que je regardais, la bête fut tuée, son corps détruit et livré à la flamme de feu.", 
+  "أنا دانيال رأيت في رؤي الليل، كنت أري أنه وضعت عروش وجلس العتيق الأيام، لباسه أبيض كالثلج وشعر رأسه كالصوف النقي، وعرشه لهيب نار وعجلاته نار متقدة، ونهر نار يخرج ويجري أمامه، وألوف ألوف كانت تخدمه، وربوات ربوات وقوف قدامه. فجلس الديّان وفُتحت الأسفار، ورأيت في تلك الساعة من أجل صوت الكلام العظيم الذي كان يتكلم به القرن. وكنت أنظر حتي قُتل الوحش وهلك ودُفع جسمه ليحرق بالنار.", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -3844,8 +3730,8 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   Prefix.same+"&C=Title", 
   "", 
-  "Proverbes 8 : 1 - 12", 
-  "أمثال ٨: ١-١٢", 
+  "Proverbes (8: 1-12)", 
+  "أمثال (٨: ١-١٢)", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -3868,14 +3754,8 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   Prefix.same+"&C=Diacon", 
   "", 
-  "La Sagesse n'appelle-t-elle pas? L’Intelligence n'élève-t-elle pas la voix?", 
-  "وأنت يا إبني فناد بالحكمة فتعطيك الفطنة لأنها كائنة علي الزوايا العالية", 
-  ],
-  [
-  Prefix.same+"&C=Diacon", 
-  "", 
-  "Au sommet des hauteurs qui dominent la route, au croisement des chemins, elle se poste; près des portes, à l'entrée de la cité, sur les voies d'accès, elle s'écrie: «Humains! C'est vous que j'appelle, ma voix s'adresse aux enfants des hommes. Simples! Apprenez le savoir-faire, sots, devenez raisonnables. Écoutez, j'ai à vous dire des choses importantes, j'ouvre mes lèvres pour dire des paroles droites … Car la sagesse vaut mieux que les perles, et rien de ce que l'on désire ne l'égale. Moi, la Sagesse, j'habite avec le savoir-faire, je possède la science de la réflexion.»", 
-  "وتقف في وسط الطريق وتلازم أبواب المقتدرين وتصرخ في المداخل قائلة إليك: أَيُّهَا الناس فهمي وتعليمي إلي بني البشر أعطي، أَيُّهَا البسطاء تفهموا الحكم، ويا أَيُّهَا الجهلاء تفطنوا في قلوبكم، إسمعوني فإني أنطق بتعاليم وأقبض من شفتي أقوالاً مستقيمة، الحكمة أفضل من الجواهر الكريمة وكل النفائس لا تساويها، أنا الحكمة خلقت المشورة ودعوت إلي الفكر ومحبة الله والفهم.", 
+  "La Sagesse n'appelle-t-elle pas? L’Intelligence n'élève-t-elle pas la voix? Au sommet des hauteurs qui dominent la route, au croisement des chemins, elle se poste; près des portes, à l'entrée de la cité, sur les voies d'accès, elle s'écrie: «Humains! C'est vous que j'appelle, ma voix s'adresse aux enfants des hommes. Simples! Apprenez le savoir-faire, sots, devenez raisonnables. Écoutez, j'ai à vous dire des choses importantes, j'ouvre mes lèvres pour dire des paroles droites … Car la sagesse vaut mieux que les perles, et rien de ce que l'on désire ne l'égale. Moi, la Sagesse, j'habite avec le savoir-faire, je possède la science de la réflexion.»", 
+  "وأنت يا إبني فناد بالحكمة فتعطيك الفطنة لأنها كائنة علي الزوايا العالية وتقف في وسط الطريق وتلازم أبواب المقتدرين وتصرخ في المداخل قائلة إليك: أَيُّهَا الناس فهمي وتعليمي إلي بني البشر أعطي، أَيُّهَا البسطاء تفهموا الحكم، ويا أَيُّهَا الجهلاء تفطنوا في قلوبكم، إسمعوني فإني أنطق بتعاليم وأقبض من شفتي أقوالاً مستقيمة، الحكمة أفضل من الجواهر الكريمة وكل النفائس لا تساويها، أنا الحكمة خلقت المشورة ودعوت إلي الفكر ومحبة الله والفهم.", 
   ],
   ],
   [
@@ -3915,13 +3795,13 @@ ReadingsArrays.GospelNightArrayFR= [[
   Prefix.HolyWeek+"9HDPsalm&D=GL53&C=Title", 
   "Ⲯⲁⲗⲙⲟⲥ ⲧⲟ Ⲇⲁⲩⲓⲇ ", 
   "Psaume de la Neuvième heure du mardi\nPsaume (24: 1-3)\n", 
-  "مزمور الساعة التاسعة من يوم الثلاثاء\nمزمور ٢٤: ١و ٢\n", 
+  "مزمور الساعة التاسعة من يوم الثلاثاء\nمزمور (٢٤: ١ و ٢)\n", 
   ],
   [
   Prefix.same+"&C=Diacon", 
   "Ⲁⲓϥⲁⲓ ⲛ̀ⲧⲁⲯⲩⲭⲏ ⲉ̀ⲡ̀ϣⲱⲓ ⲁⲣⲟⲕ Ⲡ⳪ Ⲡⲁⲛⲟⲩϯ : ⲁⲓⲭⲁⲑ̀ⲏⲓ ⲉ̀ⲣⲟⲕ ⲛ̀ⲛⲉⲕⲑ̀ⲣⲓϭⲓϣⲓⲡⲓ ϣⲁ ⲉ̀ⲛⲉ. Ⲟⲩⲇⲉ ⲙ̀ⲡⲉⲛⲑ̀ⲣⲟⲩⲥⲱⲃⲓ ⲛ̀ⲥⲱⲓ ⲛ̀ϫⲉ ⲛⲁϫⲁϫⲓ : ⲙⲁⲣⲟⲩϭⲓϣⲓⲡⲓ ⲛ̀ⲑⲱⲟⲩ ⲛ̀ϫⲉ ⲛⲏⲉⲧⲓⲣⲓ ⲛ̀ϯⲁ̀ⲛⲟⲙⲓⲁ̀ ϧⲉⲛ ⲡⲉⲧϣⲟⲩⲓⲧ.", 
   "Vers Toi, Seigneur, j'élève mon âme, vers Toi, mon Dieu. Je m'appuie sur Toi: épargne-moi la honte. Ne laisse pas mes ennemis rire de moi. Honte à ceux qui transgressent sans raison.", 
-  "إليك يا رب رفعت نفسي، إلهي عليك توكلت، فلا تخزني إلي الأبد: ولا تُضحك بي أعدائي. فليخز الذين يصنعون الإثم باطلاً.", 
+  "إليك يا رب رفعت نفسي، إلهي عليك توكلت، فلا تخزني إلي الأبد، ولا تُضحك بي أعدائي. فليخز الذين يصنعون الإثم باطلاً.", 
   ],
   ],
   [
@@ -3929,7 +3809,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   Prefix.HolyWeek+"9HDGospel&D=GL53&C=Title", 
   "Ⲙⲁⲧⲑⲉⲟⲛ Ⲕⲉⲫ ⲕⲇ : ⲅⲗⲉ", 
   "Evangile de la Neuvième heure du mardi\nMatthieu (24: 3-35)\n", 
-  "إنجيل الساعة التاسعة من يوم الثلاثاء\nمتى ٢٤‏:٣- ٣٥\n", 
+  "إنجيل الساعة التاسعة من يوم الثلاثاء\nمتى (٢٤‏: ٣-٣٥)\n", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -3984,14 +3864,8 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   Prefix.same+"&C=Diacon", 
   "", 
-  "Vous, tous les habitants de Jérusalem, allons au mont des Oliviers voir Jésus de Nazareth, fils de David, le Verbe du Père assis entouré de ses disciples qui le questionnent. Ils Lui montrèrent d'abord l'architecture du temple, ses grandes pierres et sa décoration parfaite. Notre Sauveur qui est rempli de miséricorde, Lui, qui guide tous ceux qui s'appuient sur Lui, leur répondit. Avec calme et connaissance", 
-  "يا جميع سكان أورشليم تعالوا لنمضي إلي جبل الزيتون لننظر يسوع الناصري إبن داود، كلمة الآب، جالساً هناك وتلاميذه محيطون به يسألونه، فأعلموه أولاً ببناء الهيكل وحجارته العظيمة وكمال زينته، فأجاب مخلصنا الكثير الرحمة، مرشد كل أحد يتوكل عليه، بهدوء ومعرفة يثبت قلوبهم علي ما سوف يكون : انْظُرُوا لا يضلكم أحدً", 
-  ],
-  [
-  Prefix.same+"&C=Diacon", 
-  "", 
-  "Il conforta leur cœur sur ce qui devait arriver. «Prenez garde que personne ne vous égare si vous succombez à la tentation. On se dressera nation contre nation, royaume contre royaume. Il y aura çà et là des tremblements de terre et des morts. Il y aura des difficultés et des tourments sur la terre. Sachez qu'ils vous tueront, que les nations vous détesteront. Ils vous feront cela à cause de mon Nom. Persévérez et vous serez sauvés.", 
-  "في شئ إذا وقعتم بالتجارب فسوف تقوم أمة علي أمة ومملكة علي مملكة، وتكون زلازل وموت في أماكن وتكون الشدائد والضيقات علي الأرض، وإعلموا أنهم سوف يقتلونكم والأمم يبغضونكم. هذا يفعلونه بكم من أجل إسمي فأصبروا أنتم لكي تخلصوا.", 
+  "Vous, tous les habitants de Jérusalem, allons au mont des Oliviers voir Jésus de Nazareth, fils de David, le Verbe du Père assis entouré de ses disciples qui le questionnent. Ils Lui montrèrent d'abord l'architecture du temple, ses grandes pierres et sa décoration parfaite. Notre Sauveur qui est rempli de miséricorde, Lui, qui guide tous ceux qui s'appuient sur Lui, leur répondit. Avec calme et connaissance Il conforta leur cœur sur ce qui devait arriver. «Prenez garde que personne ne vous égare si vous succombez à la tentation. On se dressera nation contre nation, royaume contre royaume. Il y aura çà et là des tremblements de terre et des morts. Il y aura des difficultés et des tourments sur la terre. Sachez qu'ils vous tueront, que les nations vous détesteront. Ils vous feront cela à cause de mon Nom. Persévérez et vous serez sauvés.", 
+  "يا جميع سكان أورشليم تعالوا لنمضي إلي جبل الزيتون لننظر يسوع الناصري إبن داود، كلمة الآب، جالساً هناك وتلاميذه محيطون به يسألونه، فأعلموه أولاً ببناء الهيكل وحجارته العظيمة وكمال زينته، فأجاب مخلصنا الكثير الرحمة، مرشد كل أحد يتوكل عليه، بهدوء ومعرفة يثبت قلوبهم علي ما سوف يكون : انْظُرُوا لا يضلكم أحدً في شئ إذا وقعتم بالتجارب فسوف تقوم أمة علي أمة ومملكة علي مملكة، وتكون زلازل وموت في أماكن وتكون الشدائد والضيقات علي الأرض، وإعلموا أنهم سوف يقتلونكم والأمم يبغضونكم. هذا يفعلونه بكم من أجل إسمي فأصبروا أنتم لكي تخلصوا.", 
   ],
   ],
   [
@@ -3999,7 +3873,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   Prefix.HolyWeek+"11HDProphecies&D=GL53&C=Title", 
   "", 
   "Prophecies de la Onzième heure du mardi\nIsaïe (30: 25-30)\n", 
-  "نبوات الساعة الحادية عشر من يوم الثلاثاء\nإشعياء ٣٠ : ٢٥ -٣٠\n", 
+  "نبوات الساعة الحادية عشر من يوم الثلاثاء\nإشعياء (٣٠: ٢٥-٣٠)\n", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -4040,8 +3914,8 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   Prefix.same+"&C=Title", 
   "", 
-  "Proverbes (6: 20 et 7: 1-4)", 
-  "أمثال ٦ : ٢٠ - ٧: ١-٤", 
+  "Proverbes (6: 20 à 7: 1-4)", 
+  "أمثال (٦: ٢٠ إلى ٧: ٤)", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -4064,14 +3938,8 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   Prefix.same+"&C=Diacon", 
   "", 
-  "Garde, mon fils, le précepte de ton père, ne rejette pas l'enseignement de ta mère", 
-  "يا إبني إحفظ شريعة أبيك ولا ترفض مشورة أمك", 
-  ],
-  [
-  Prefix.same+"&C=Diacon", 
-  "", 
-  "Fixe-les constamment dans ton cœur, noue-les à ton cou. Dans tes démarches ils te guideront, dans ton repos ils te garderont, à ton réveil ils s'entretiendront avec toi. Car le précepte est une lampe, l'enseignement une lumière; les exhortations de la discipline sont le chemin de la vie, pour te préserver de la femme mauvaise, de la langue doucereuse d'une étrangère. Ne convoite pas dans ton cœur sa beauté, ne te laisse pas prendre à ses œillades, car à la prostituée suffit un quignon de pain, mais la femme mariée en veut à une vie précieuse. ", 
-  "أربطها بثبات في نفسك وإجعلها قلادة في عنقك. وإذا مشيت خذها معك ولتكن لك، وإذا نمت فلتحرسك، حتى إذا استيقظت فإنها تحدثك. لأن وصية الله مصباح والناموس نور لكل السبل، لأن الأدب يكسب طريقه طول العمر، لكي يحفظك من امرأة ليست هي لك، ومن غش لسان غريب، فلا يغلبك جمال الشهوة ولا تصيدك ولا تقتنصك بحبالها لأنه بسبب إمرأة زانية تفتقر إلي رغيف خبز واحد، والمرأة تصطاد نفس الرجل الكريم.", 
+  "Garde, mon fils, le précepte de ton père, ne rejette pas l'enseignement de ta mère Fixe-les constamment dans ton cœur, noue-les à ton cou. Dans tes démarches ils te guideront, dans ton repos ils te garderont, à ton réveil ils s'entretiendront avec toi. Car le précepte est une lampe, l'enseignement une lumière; les exhortations de la discipline sont le chemin de la vie, pour te préserver de la femme mauvaise, de la langue doucereuse d'une étrangère. Ne convoite pas dans ton cœur sa beauté, ne te laisse pas prendre à ses œillades, car à la prostituée suffit un quignon de pain, mais la femme mariée en veut à une vie précieuse. ", 
+  "يا إبني إحفظ شريعة أبيك ولا ترفض مشورة أمك أربطها بثبات في نفسك وإجعلها قلادة في عنقك. وإذا مشيت خذها معك ولتكن لك، وإذا نمت فلتحرسك، حتى إذا استيقظت فإنها تحدثك. لأن وصية الله مصباح والناموس نور لكل السبل، لأن الأدب يكسب طريقه طول العمر، لكي يحفظك من امرأة ليست هي لك، ومن غش لسان غريب، فلا يغلبك جمال الشهوة ولا تصيدك ولا تقتنصك بحبالها لأنه بسبب إمرأة زانية تفتقر إلي رغيف خبز واحد، والمرأة تصطاد نفس الرجل الكريم.", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -4147,13 +4015,13 @@ ReadingsArrays.GospelNightArrayFR= [[
   Prefix.HolyWeek+"11HDPsalm&D=GL53&C=Title", 
   "Ⲯⲁⲗⲙⲟⲥ ⲧⲟ Ⲇⲁⲩⲓⲇ", 
   "Psaume de la Onzième heure du mardi\nPsaume (44: 7 et 40: 2)\n", 
-  "مزمور الساعة الحادية عشر من يوم الثلاثاء\nمزمور٤٥ : ٦ ومز ٤١ : ١\n", 
+  "مزمور الساعة الحادية عشر من يوم الثلاثاء\nمزمور (٤٥: ٦ و ٤١: ١)\n", 
   ],
   [
   Prefix.same+"&C=Diacon", 
   "Ⲡⲉⲕⲑ̀ⲣⲟⲛⲟⲥ Ⲫⲛⲟⲩϯ ϣⲁ ⲉ̀ⲛⲉ ⲛ̀ⲧⲉ ⲡⲓⲉ̀ⲛⲉ : ⲟⲩⲟ ⲡⲓϣ̀ⲃⲱⲧ ⲙ̀ⲡ̀ⲥⲱⲟⲩⲧⲉⲛ ⲡⲉ ⲡ̀ϣ̀ⲃⲱⲧ ⲛ̀ⲧⲉ ⲧⲉⲕⲙⲉⲧⲟⲩⲣⲟ. Ⲱⲟⲩⲛⲓⲁⲧϥ ⲙ̀ⲫⲏⲉⲑⲛⲁⲕⲁϯ ⲉ̀ϫⲉⲛ ⲟⲩⲏⲕⲓ ⲛⲉⲙ ⲟⲩϫⲱⲃ : ϧⲉⲛ ⲡⲓⲉ̀ⲟⲟⲩ ⲉⲧⲱⲟⲩ ⲉϥⲉ̀ⲛⲁⲙⲉϥ ⲛ̀ϫⲉ Ⲡ⳪.", 
-  "Ô Dieu, Ton Trône, est éternel; ton sceptre royal est un sceptre de droiture.\nHeureux qui pense au pauvre et au faible. Au jour du malheur le Seigneur le délivre.", 
-  "كرسيك يا الله إلي دهر الدهور. قضيب الإستقامة هو قضيب ملكك.\nطوبى للذي يتفهم في أمر المسكين والفقير، في يوم السوء ينجيه الرب.", 
+  "Ô Dieu, Ton Trône, est éternel; ton sceptre royal est un sceptre de droiture. Heureux qui pense au pauvre et au faible. Au jour du malheur le Seigneur le délivre.", 
+  "كرسيك يا الله إلي دهر الدهور. قضيب الإستقامة هو قضيب ملكك. طوبى للذي يتفهم في أمر المسكين والفقير، في يوم السوء ينجيه الرب.", 
   ],
   ],
   [
@@ -4166,62 +4034,32 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   Prefix.same+"&C=Diacon", 
   "Ⲙⲫ̀ⲣⲏϯ ⲅⲁⲣ ⲛ̀ⲟⲩⲣⲱⲙⲓ ⲉϥⲛⲁϣⲉⲛⲁϥ ⲉ̀ⲡ̀ϣⲉⲙⲙⲟ ⲁϥⲙⲟⲩϯ ⲉ̀ⲛⲉϥⲉ̀ⲃⲓⲁⲓⲕ ⲟⲩⲟϩ ⲁϥϯ ⲙ̀ⲡⲉⲧⲉⲛⲧⲁϥ ⲉ̀ⲧⲟⲧⲟⲩ : ⲟⲩⲁⲓ ⲙⲉⲛ ⲁϥϯⲛⲁϥ ⲛ̀ⲧ̀ⲓⲟⲩ ⲛ̀ϫⲓⲛϭⲱⲣ : ⲕⲉ ⲟⲩⲁⲓ ⲇⲉ ⲁϥϯⲛⲁϥ ⲛ̀ⲥ̀ⲛⲁⲩ ⲕⲉ ⲟⲩⲁⲓ ⲇⲉ ⲁϥϯⲛⲁϥ ⲛ̀ⲟⲩⲁⲓ: ⲡⲓⲟⲩⲁⲓ ⲡⲓⲟⲩⲁⲓ ⲕⲁⲧⲁ ⲧⲉϥϫⲟⲙ ⲟⲩⲟϩ ⲁϥϣⲉⲛⲁϥ ⲉ̀ⲡ̀ϣⲉⲙⲙⲟ : ⲁϥϣⲉⲛⲁϥ ⲇⲉ ⲛ̀ϫⲉ ⲫⲏⲉⲧⲁϥϭⲓ ⲙ̀ⲡⲓⲧ̀ⲓⲟⲩ ⲛ̀ϫⲓⲛϭⲱⲣ ⲁϥⲉⲣϩⲱⲃ ⲛ̀ϧⲏⲧⲟⲩ ⲟⲩⲟϩ ⲁϥϫ̀ⲫⲉ ⲕⲉ ⲧ̀ⲓⲟⲩ : ⲡⲁⲓⲣⲏϯ ⲟⲛ ⲫⲏⲉⲧⲁϥϭⲓ ⲙ̀ⲡⲓⲥ̀ⲛⲁⲩ ⲁϥϫ̀ⲫⲉ ⲕⲉ ⲥ̀ⲛⲁⲩ. Ⲫⲏ ⲇⲉ ⲉ̀ⲧⲁϥϭⲓ ⲙ̀ⲡⲓⲟⲩⲁⲓ ⲁϥϣⲉⲛⲁϥ ⲁϥϣⲱⲕ ⲛ̀ⲟⲩⲕⲁϩⲓ ⲟⲩⲟϩ ⲁϥⲭⲱⲡ ⲙ̀ⲡⲓϩⲁⲧ ⲛ̀ⲧⲉ ⲡⲉϥ⳪ : ⲙⲉⲛⲉⲛⲥⲁ ⲟⲩⲛⲓϣϯ ⲇⲉ ⲛ̀ⲥⲏⲟⲩ ⲁϥⲓ̀ ⲛ̀ϫⲉ Ⲡ⳪/ è̀ⲛⲛⲓⲉ̀ⲃⲓⲁⲓⲕ ⲉ̀ⲧⲉⲙ̀ⲙⲁⲩ ⲟⲩⲟϩ ⲁϥϥⲓⲱⲡ ⲛⲉⲙⲱⲟⲩ : ⲁϥⲓ̀ ⲇⲉ ⲛ̀ϫⲉ ⲫⲏⲉ̀ⲧⲁϥϭⲓ ⲙ̀ⲡⲓⲧ̀ⲓⲟⲩ ⲛ̀ϫⲓⲛϭⲱⲣ ⲁϥⲉⲛ ⲕⲉ ⲧ̀ⲓⲟⲩ ⲛ̀ϫⲓⲛϭⲱⲣ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ ϫⲉ ⲡⲁ⳪/ ⲧ̀ⲓⲟⲩ ⲛ̀ϫⲓⲛϭⲱⲣ ⲁⲕⲧⲏⲓⲧⲟⲩ ⲛⲏⲓ: ⲓⲥ ⲕⲉ ⲧ̀ⲓⲟⲩ ⲛ̀ϫⲓⲛϭⲱⲣ ⲁⲓϫ̀ⲫⲱⲟⲩ. Ⲡⲉϫⲉ ⲡⲉϥ⳪ ⲇⲉ ⲛⲁϥ ϫⲉ ⲕⲁⲗⲱⲥ ⲡⲓⲃⲱⲕ ⲉⲑⲛⲁⲛⲉϥ ⲟⲩⲟϩ ⲉ̀ⲧⲉⲛϩⲟⲧ  : ⲉ̀ⲡⲓⲇⲏ ⲁⲕⲉⲛϩⲟⲧ ϧⲉⲛ ϩⲁⲛⲕⲟⲩϫⲓ ⲉⲓⲉ̀ⲭⲁⲕ ϩⲓϫⲉⲛ ϩⲁⲛⲛⲓϣϯ : ⲙⲁϣⲉⲛⲁⲕ ⲉ̀ϧⲟⲩⲛ ⲉ̀ⲫ̀ⲣⲁϣⲓ ⲛ̀ⲧⲉ ⲡⲉⲕ⳪ : ⲁϥⲓ̀ ⲇⲉ ⲛ̀ϫⲉ ⲫⲏⲉ̀ⲧⲁϥϭⲓ ⲙ̀ⲡⲓϫⲓⲛϭⲱⲣ ⲥ̀ⲛⲁⲩ ⲡⲉϫⲁϥ ϫⲉ ⲡⲁ⳪ : ϫⲓⲛϭⲱⲣ ⲥ̀ⲛⲁⲩ ⲁⲕⲧⲏⲓⲧⲟⲩ ⲛⲏⲓ ⲓⲥ ⲕⲉ ⲥ̀ⲛⲁⲩ ⲁⲓϫ̀ⲫⲱⲟⲩ : ⲡⲉϫⲉ ⲡⲉϥ⳪ ⲇⲉ ⲛⲁϥ ϫⲉ ⲕⲁⲗⲱⲥ ⲡⲓⲃⲱⲕ ⲉⲑⲛⲁⲛⲉϥ ⲟⲩⲟϩ ⲉ̀ⲧⲉⲛϩⲟⲧ : ⲉ̀ⲡⲓⲇⲏ ⲁⲕⲉⲛϩⲟⲧ ϧⲉⲛ ϩⲁⲛⲕⲟⲩϫⲓ ⲉⲓⲉ̀ⲭⲁⲕ ϩⲓϫⲉⲛ ϩⲁⲛⲛⲓϣϯ : ⲙⲁϣⲉⲛⲁⲕ ⲉ̀ϧⲟⲩⲛ ⲉ̀ⲫ̀ⲣⲁϣⲓ ⲛ̀ⲧⲉ ⲡⲉⲕ⳪. Ⲁϥⲓ̀ ⲇⲉ ϩⲱϥ ⲛ̀ϫⲉ ⲫⲏⲉ̀ⲧⲁϥϭⲓ ⲙ̀ⲡⲓϫⲓⲛϭⲱⲣ ⲡⲉϫⲁϥ : ϫⲉ Ⲡⲁ⳪/ ⲁⲓⲉ̀ⲙⲓ ⲉ̀ⲣⲟⲕ ϫⲉ ⲛ̀ⲑⲟⲕ ⲟⲩⲣⲱⲙⲓ ⲉϥⲛⲁϣⲧ : ⲉⲕⲱⲥϧ ⲙ̀ⲫⲏⲉ̀ⲧⲉⲙ̀ⲡⲉⲕⲥⲁⲧϥ ⲟⲩⲟϩ ⲉⲕⲉ̀ⲑⲱⲟⲩϯ ⲉ̀ϧⲟⲩⲛ ⲙ̀ⲫⲏⲉ̀ⲧⲉⲙ̀ⲡⲉⲕϫⲟⲣϥ ⲉ̀ⲃⲟⲗ : ⲟⲩⲟϩ ⲁⲓⲉⲣϩⲟϯ ⲁⲓϣⲉⲛⲏⲓ ⲁⲓⲭⲱⲡ ⲙ̀ⲡⲉⲕϫⲓⲛϭⲱⲣ ϧⲉⲛ ⲡ̀ⲕⲁϩⲓ : ⲓⲥ ⲡⲉⲧⲉ ⲫⲱⲕ ⲛ̀ⲧⲟⲧ. Ⲁϥⲉ̀ⲣⲟⲩⲱ̀ ⲇⲉ ⲛ̀ϫⲉ ⲡⲉϥ⳪ ⲡⲉϫⲁϥ ⲛⲁϥ : ϫⲉ ⲡⲓⲃⲱⲕ ⲉⲧϩⲱⲟⲩ ⲟⲩⲟϩ ⲛ̀ϭⲉⲛⲛⲉ : ⲓⲥϫⲉ ⲁⲕⲉ̀ⲙⲓ ϫⲉ ϣⲁⲓⲱⲥϧ ⲙ̀ⲫⲏⲉ̀ⲧⲉⲙ̀ⲡⲓⲥⲁⲧϥ : ⲟⲩⲟϩ ϣⲁⲓⲑⲱⲟⲩϯ ⲉ̀ϧⲟⲩⲛ ⲙ̀ⲫⲏⲉ̀ⲧⲉⲙ̀ⲡⲓϫⲟⲣϥ ⲉ̀ⲃⲟⲗ : ⲛ̀ⲁⲥⲉ̀ⲙ̀ⲡ̀ϣⲁ ⲟⲩⲛ ⲛⲁⲕ ⲡⲉ ⲉ̀ϯ ⲙ̀ⲡⲁϩⲁⲧ ⲉ̀ⲧⲟⲧⲟⲩ ⲛ̀ⲛⲓⲧ̀ⲣⲁⲡⲉⲍⲓⲧⲏⲥ : ⲟⲩⲟϩ ⲁ̀ⲛⲟⲕ ⲁⲓⲱⲁⲛⲓ̀ ⲛⲁⲓⲛⲁϭⲓ ⲙ̀ⲡⲉⲧⲉⲫⲱⲓ ⲛⲉⲙ ⲧⲉϥⲙⲏⲥⲓ  : ⲁ̀ⲗⲓⲟⲩⲓ̀ ⲟⲩⲛ ⲙ̀ⲡⲓϫⲓⲛϭⲱⲣ ⲛ̀ⲧⲟⲧϥ ⲙ̀ⲫⲁⲓ ⲙⲏⲓϥ ⲙ̀ⲫⲁ ⲡⲓⲙⲏⲧ ⲛ̀ϫⲓⲛϭⲱⲣ. Ⲟⲩⲟⲛ ⲅⲁⲣ ⲛⲓⲃⲉⲛ ⲉ̀ⲧⲉⲟⲩⲟⲛⲧⲁϥ ⲉⲩⲉ̀ϯ ⲛⲁϥ ⲟⲩⲟϩ ⲉ̀ⲣⲉ ⲟⲩⲟⲛ ⲉⲣϩⲟⲩⲟ̀ ⲉ̀ⲣⲟϥ : ⲫⲏ ⲇⲉ ⲉ̀ⲧⲉⲙ̀ⲙⲟⲛⲛ̀ⲧⲁϥ ⲫⲏⲉ̀ⲧⲉⲛ̀ⲧⲟⲧϥ ⲉⲩⲉ̀ⲟⲗϥ ⲛ̀ⲧⲟⲧϥ : ⲟⲩⲟϩ ⲡⲓⲁⲧϣⲁⲩ ⲙ̀ⲃⲱⲕ ⲉ̀ⲧⲉⲙ̀ⲙⲁⲩ ϩⲓⲧϥ ⲉ̀ⲃⲟⲗ ⲉ̀ⲡⲓⲭⲁⲕⲓ ⲉ̀ⲧⲥⲁⲃⲟⲗ ⲡⲓⲙⲁ ⲉ̀ⲧⲉ ⲫ̀ⲣⲓⲙⲓ ⲛⲁϣⲱⲡⲓ ⲙ̀ⲙⲟϥ ⲛⲉⲙ ⲡⲓⲥⲑ̀ⲉⲣⲧⲉⲣ ⲛ̀ⲧⲉ ⲛⲓⲛⲁϫϩⲓ: ⲉ̀ϣⲱⲡ ⲇⲉ ⲁϥϣⲁⲛⲓ̀ ⲛ̀ϫⲉ ⲡ̀ϣⲏⲣⲓ ⲙ̀ⲫ̀ⲣⲱⲙⲓ ϧⲉⲛ ⲡⲉϥⲱ̀ⲟⲩ ⲛⲉⲙ ⲛⲉϥⲁⲅⲅⲉⲗⲟⲥ ⲉⲑⲟⲩⲁⲩ ⲧⲏⲣⲟⲩ ⲛⲉⲙⲁϥ ⲧⲟⲧⲉ ⲉϥⲉ̀ϩⲉⲙⲥⲓ ϩⲓϫⲉⲛ ⲡ̀ⲑⲣⲟⲛⲟⲥ ⲛ̀ⲧⲉ ⲡⲉϥⲱ̀ⲟⲩ. Ⲟⲩⲟϩ ⲉⲩⲉ̀ⲑⲱⲟⲩϯ ⲛⲁϩⲣⲁϥ ⲛ̀ϫⲉ ⲛⲓⲉⲑⲛⲟⲥ ⲧⲏⲣⲟⲩ : ⲟⲩⲟϩ ⲉϥⲉ̀ⲫⲟⲣϫⲟⲩ ⲉ̀ⲃⲟⲗ ⲛ̀ⲛⲟⲩⲉ̀ⲣⲏⲟⲩ : ⲙ̀ⲫ̀ⲣⲏϯ ⲙ̀ⲡⲓⲙⲁⲛⲉ̀ⲥⲱⲟⲩ ⲉ̀ϣⲁϥⲫⲱⲣϫ ⲛ̀ⲛⲓⲉ̀ⲥⲱⲟⲩ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲓⲃⲁⲉⲙⲡⲓ : ⲟⲩⲟϩ ⲛⲓⲉⲥ̀ⲱⲟⲩ ⲙⲉⲛ ⲉϥⲉ̀ⲭⲁⲩ ⲥⲁⲧⲉϥⲟⲩⲓ̀ⲛⲁⲙ ⲛⲓⲃⲁⲉⲙⲡⲓ ⲇⲉ ⲥⲁⲧⲉϥϫⲁϭⲏ : ⲧⲟⲧⲉ ⲉϥⲉ̀ϫⲟⲥ ⲛ̀ϫⲉ ⲡⲓⲟⲩⲣⲟ ⲛ̀ⲛⲏⲉⲧⲥⲁⲧⲉϥⲟⲩⲓ̀ⲛⲁⲙ : ϫⲉ ⲁ̀ⲙⲱⲓⲛⲓ ϩⲁⲣⲟⲓ ⲛⲏⲉⲧⲥ̀ⲙⲁⲣⲱⲟⲩⲧ ⲛ̀ⲧⲉ ⲡⲁⲓⲱⲧ ⲁ̀ⲣⲓ̀ⲕⲗⲏⲣⲟⲛⲟⲙⲓⲛ ⲛ̀ⲧⲉ ϯⲙⲉⲧⲟⲩⲣⲟ ⲑⲏⲉⲧⲥⲉⲃⲧⲱⲧ ⲛⲱⲧⲉⲛ ⲓⲥϫⲉⲛ ⲧ̀ⲕⲁⲧⲁⲃⲟⲗⲏ ⲙ̀ⲡⲓⲕⲟⲥⲙⲟⲥ.", 
-  "En effet, il en va comme d'un homme qui, partant en voyage, appela ses serviteurs et leur confia ses biens. A l'un il remit cinq talents, à un autre deux, à un autre un seul, à chacun selon ses capacités; puis il partit. Aussitôt celui qui avait reçu les cinq talents s'en alla les faire valoir et en gagna cinq autres. De même celui des deux talents en gagna deux autres. Mais celui qui n'en avait reçu qu'un s'en alla", 
-  "كمثل إنسان مسافر، دعا عبيده وسلمهم أمواله، فأعطي واحداً خمس وزنات، وآخر وزنتين، وآخر وزنة. كل واحد علي قدر طاقته، وسافر للوقت. فمضي الذي أخذ الخمس الوزنات، وتاجر بها فربح خمس وزنات آخر. وهكذا الذي أخذ الوزنتين، ربح وزنتين آخريين. وأما الذي أخذ الوزنة فمضي", 
+  "En effet, il en va comme d'un homme qui, partant en voyage, appela ses serviteurs et leur confia ses biens. A l'un il remit cinq talents, à un autre deux, à un autre un seul, à chacun selon ses capacités; puis il partit. Aussitôt celui qui avait reçu les cinq talents s'en alla les faire valoir et en gagna cinq autres. De même celui des deux talents en gagna deux autres. Mais celui qui n'en avait reçu qu'un s'en alla creuser un trou dans la terre et y cacha l'argent de son maître. Longtemps après, arrive le maître de ces serviteurs, et il règle ses comptes avec eux. Celui qui avait reçu les cinq talents s'avança et en présenta cinq autres, en disant: «Maître, tu m'avais confié cinq talents; voici cinq autres talents que j'ai gagnés.» Son maître lui dit: «C'est bien, bon et fidèle serviteur, tu as été fidèle en peu de choses, sur beaucoup je t'établirai; viens te réjouir avec ton maître.» Celui des deux talents s'avança à son tour et dit: «Maître, tu m'avais confié deux talents; voici deux autres talents que j'ai gagnés.» Son maître lui dit: «C'est bien, bon et fidèle serviteur, tu as été fidèle en peu de choses, sur beaucoup je t'établirai; viens te réjouir avec ton maître.»", 
+  "كمثل إنسان مسافر، دعا عبيده وسلمهم أمواله، فأعطي واحداً خمس وزنات، وآخر وزنتين، وآخر وزنة. كل واحد علي قدر طاقته، وسافر للوقت. فمضي الذي أخذ الخمس الوزنات، وتاجر بها فربح خمس وزنات آخر. وهكذا الذي أخذ الوزنتين، ربح وزنتين آخريين. وأما الذي أخذ الوزنة فمضي وحفر في الأرض ودفن فضة سيده. وبعد زمان كثير جاء سيد اولئك العبيد وحاسبهم، فجاء الذي أخذ الخمس الوزنات وقدم خمس وزنات أخر قائلًا: يا سيد، خمس وزنات سلمتني، وهذه خمس وزنات أخرى ربحتها. فقال له سيده: نعماً أَيُّهَا العبد الصالح والأمين، قد وجدت أميناً في القليل فسأقيمك علي الكثير، أدخل إلي فرح سيدك. ثم جاء الذي أخذ الوزنتين وقال: يا سيدي وزنتين سلمتني وهاتان وزنتان أخريان ربحتهما. فقال له سيده: نعماً أَيُّهَا العبد الصالح والأمين، قد وجدت أميناً في القليل فسأقيمك علي الكثير. أدخل إلي فرح سيدك.", 
   ],
   [
   Prefix.same+"&C=Diacon", 
   "Ⲁⲓϩ̀ⲕⲟ ⲅⲁⲣ ⲟⲩⲟϩ ⲁ̀ⲧⲉⲧⲉⲛⲧⲉⲙⲙⲟⲓ : ⲁⲓⲓ̀ⲃⲓ ⲟⲩⲟϩ ⲁ̀ⲧⲉⲧⲉⲛⲧⲥⲟⲓ : ⲛⲁⲓ ⲟⲓ ⲛ̀ϣⲉⲙⲙⲟ ⲟⲩⲟϩ ⲁ̀ⲧⲉⲧⲉⲛϣⲟⲡⲧ ⲉ̀ⲣⲱⲧⲉⲛ : ⲛⲁⲓ ⲃⲏϣ ⲟⲩⲟϩ ⲁ̀ⲧⲉⲧⲉⲛϩⲟⲃⲥⲧ : ⲛⲁⲓϣⲱⲛⲓ ⲟⲩⲟϩ ⲁ̀ⲧⲉⲧⲉⲛϫⲉⲙ ⲡⲁϣⲓⲛⲓ : ⲛⲁⲓ ⲭⲏ ϧⲉⲛ ⲡⲓϣ̀ⲧⲉⲕⲟ ⲟⲩⲟϩ ⲁ̀ⲧⲉⲧⲉⲛⲓ̀ ϣⲁⲣⲟⲓ : ⲧⲟⲧⲉ ⲉⲩⲉ̀ⲉ̀ⲣⲟⲩⲱ̀ ⲛⲁϥ ⲛ̀ϫⲉ ⲛⲓⲑ̀ⲙⲏⲓ ⲉⲩϫⲱ ̀ⲙⲙⲟⲥ : ϫⲉ ⲡⲉⲛ⳪ ⲉ̀ⲧⲁⲛⲛⲁⲩ ⲉ̀ⲣⲟⲕ ⲛ̀ⲑ̀ⲛⲁⲩ ⲉⲕϩⲟⲕⲉⲣ ⲟⲩⲟϩ ⲁⲛⲧⲉⲙⲙⲟⲕ : ⲓⲉ ⲉⲕⲟ̀ⲃⲓ ⲟⲩⲟϩ ⲁⲛⲧ̀ⲥⲟⲕ ⲓⲉ ⲉ̀ⲧⲁⲛⲛⲁⲩ ⲉ̀ⲣⲟⲕ ⲛ̀ⲑ̀ⲛⲁⲩ ⲉⲕⲟⲓ ⲛ̀ϣⲉⲙⲙⲟ ⲟⲩⲟϩ ⲁⲛϣⲟⲡⲕ ⲉ̀ⲣⲟⲛ : ⲓⲉ ⲉⲕⲃⲏϣ ⲟⲩⲟϩ ⲁⲛϩⲟⲃⲥⲕ : ⲓⲉ ⲉ̀ⲧⲁⲛⲛⲁⲩ ⲉ̀ⲣⲟⲕ ⲛ̀ⲑ̀ⲛⲁⲩ ⲉⲕϣⲱⲛⲓ ⲓⲉ ⲉⲕⲭⲏ ϧⲉⲛ ⲡⲓϣ̀ⲧⲉⲕⲟ ⲟⲩⲟϩ ⲁⲛⲓ̀ ϣⲁⲣⲟⲕ : ⲟⲩⲟϩ ⲉϥⲉ̀ⲉ̀ⲣⲟⲩⲱ̀ ⲛ̀ϫⲉ ⲡⲓⲟⲩⲣⲟ ⲉϥⲉ̀ϫⲟⲥ ⲛⲱⲟⲩ : ϫⲉ ⲁ̀ⲙⲏⲛ ϯϫⲱ ⲙ̀ⲙⲟⲥ ⲛⲱⲧⲉⲛ : ϫⲉ ⲉ̀ⲫⲟⲥⲟⲛ ⲁ̀ⲣⲉⲧⲉⲛⲁⲓⲧⲟⲩ ⲛ̀ⲟⲩⲁⲓ ⲛ̀ⲛⲁⲓⲕⲟⲩϫⲓ ⲛ̀ⲥ̀ⲛⲏⲟⲩ ⲛ̀ⲧⲏⲓ ⲁ̀ⲛⲟⲕ ⲡⲉ ⲉ̀ⲧⲁⲣⲉⲧⲉⲛⲁⲓⲧⲟⲩ ⲛⲏⲓ. Ⲧⲟⲧⲉ ⲉϥⲉ̀ϫⲟⲥ ⲛ̀ⲛⲏⲉⲧϩⲱⲟⲩ ⲉⲧⲥⲁⲧⲉϥϫⲁϭⲏ : ϫⲉ ⲙⲁϣⲉⲛⲱⲧⲉⲛ ⲉ̀ⲃⲟⲗϩⲁⲣⲟⲓ ⲛⲏⲉⲧⲥ̀ϩⲟⲩⲟⲣⲧ ⲉ̀ⲡⲓⲭ̀ⲣⲱⲙ ⲛ̀ⲉ̀ⲛⲉϩ : ⲫⲏⲉⲧⲥⲉⲃⲧⲱⲧ ⲙ̀ⲡⲓⲇⲓⲁⲃⲟⲗⲟⲥ ⲛⲉⲙ ⲛⲉϥⲁⲅⲅⲉⲗⲟⲥ ⲁⲓϩ̀ⲕⲟ ⲅⲁⲣ ⲟⲩⲟϩ ⲙ̀ⲡⲉⲧⲉⲛⲧⲉⲙⲙⲟⲓ : ⲁⲓⲓ̀ⲃⲓ ⲟⲩⲟϩ ⲙ̀ⲡⲉⲧⲉⲛⲧ̀ⲥⲟⲓ : ⲛⲁⲓⲟⲓ ⲛ̀ϣⲉⲙⲙⲟ ⲟⲩⲟϩ ⲙ̀ⲡⲉⲧⲉⲛϣⲟⲡⲧ ⲉ̀ⲣⲱⲧⲉⲛ ⲛⲁⲓⲃⲏϣ ⲟⲩⲟϩ ⲙ̀ⲡⲉⲧⲉⲛϩⲟⲃⲥⲧ ⲛⲁⲓϣⲱⲛⲓ ⲟⲩⲟϩ ⲙ̀ⲡⲉⲧⲉⲛϫⲉⲙⲡⲁϣⲓⲛⲓ : ⲛⲁⲓⲭⲏ ϧⲉⲛ ⲡⲓϣ̀ⲧⲉⲕⲟ ⲟⲩⲟϩ ⲙ̀ⲡⲉⲧⲉⲛⲓ̀ ϣⲁⲣⲟⲓ ⲧⲟⲧⲉ ⲉⲩⲉ̀ⲉ̀ⲣⲟⲩⲱ̀ ϩⲱⲟⲩ ⲉⲩϫⲱ ⲙ̀ⲙⲟⲥ : ϫⲉ ⲡⲉⲛ⳪ ⲉ̀ⲧⲁⲛⲛⲁⲩ ⲉ̀ⲣⲟⲕ ⲛ̀ⲑ̀ⲛⲁⲩ ⲉⲕϩⲟⲕⲉⲣ ⲓⲉ ⲉⲕⲟ̀ⲃⲓ : ⲓⲉ ⲉⲕⲟⲓ ⲛ̀ϣⲉⲙⲙⲟ ⲓⲉ ⲉⲕⲃⲏϣ : ⲓⲉ ⲉⲕϣⲱⲛⲓ ⲓⲉ ⲉⲕⲭⲏ ϧⲉⲛ ⲡⲓϣ̀ⲧⲉⲕⲟ ⲟⲩⲟϩ ⲙ̀ⲡⲉⲛϣⲉⲙϣⲏⲧⲕ. Ⲧⲟⲧⲉ ⲉϥⲉ̀ⲉ̀ⲣⲟⲩⲱ̀ ⲛⲱⲟⲩ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ : ϫⲉ ⲁ̀ⲙⲏⲛ ϯϫⲱ ⲙ̀ⲙⲟⲥ ⲛⲱⲧⲉⲛ : ϫⲉ ⲉ̀ⲫⲟⲥⲟⲛ ⲙ̀ⲡⲉⲧⲉⲛⲁⲓⲧⲟⲩ èⲛ̀ⲟⲩⲁⲓ ⲛ̀ⲛⲁⲓ ⲕⲟⲩϫⲓ ⲟⲩⲇⲉ ⲁ̀ⲛⲟⲕ ⲙ̀ⲡⲉⲧⲉⲛⲁⲓⲧⲟⲩ ⲛⲏⲓ : ⲟⲩⲟϩ ⲉ̀ⲩⲉϣⲉⲛⲱⲟⲩ ⲛ̀ϫⲉ ⲛⲁⲓ ⲉⲩⲕⲟⲗⲁⲥⲓⲥ ⲛ̀ⲉ̀ⲛⲉϩ ⲛⲓⲑ̀ⲙⲏⲓ ⲇⲉ ⲉⲩⲱⲛϧ ⲛ̀ⲉ̀ⲛⲉϩ. Ⲟⲩⲟϩ ⲁⲥϣⲱⲡⲓ ⲉ̀ⲧⲁ Ⲓⲏⲥ? ϫⲉⲕ ⲛⲁⲓⲥⲁϫⲓ ⲧⲏⲣⲟⲩ ⲉ̀ⲃⲟⲗ ⲡⲉϫⲁϥ ⲛ̀ⲛⲉϥⲙⲁⲑⲏⲧⲏⲥ : ϫⲉ ⲧⲉⲧⲉⲛⲉ̀ⲙⲓ ϫⲉ ⲙⲉⲛⲉⲛⲥⲁ ⲕⲉ ⲉ̀ϩⲟⲟⲩ ⲥ̀ⲛⲁⲩ ⲡⲓⲡⲁⲥⲭⲁ ⲛⲁϣⲱⲡⲓ : ⲟⲩⲟϩ ⲡ̀ϣⲏⲣⲓ ⲙ̀ⲫ̀ⲣⲱⲙⲓ ⲥⲉⲛⲁⲏⲓϥ ⲉⲑⲣⲟⲩⲁϣϥ.", 
-  "creuser un trou dans la terre et y cacha l'argent de son maître. Longtemps après, arrive le maître de ces serviteurs, et il règle ses comptes avec eux. Celui qui avait reçu les cinq talents s'avança et en présenta cinq autres, en disant: «Maître, tu m'avais confié cinq talents; voici cinq autres talents que j'ai gagnés.» Son maître lui dit: «C'est bien, bon et fidèle serviteur, tu as été fidèle en peu de choses, sur beaucoup je t'établirai;", 
-  "وحفر في الأرض ودفن فضة سيده. وبعد زمان كثير جاء سيد اولئك العبيد وحاسبهم، فجاء الذي أخذ الخمس الوزنات وقدم خمس وزنات أخر قائلًا: يا سيد، خمس وزنات سلمتني، وهذه خمس وزنات أخرى ربحتها. فقال له سيده: نعماً أَيُّهَا العبد الصالح والأمين، قد وجدت أميناً في القليل فسأقيمك علي الكثير،", 
+  "S'avançant à son tour, celui qui avait reçu un seul talent dit: «Maître, je savais que tu es un homme dur: tu moissonnes où tu n'as pas semé, tu ramasses où tu n'as pas répandu; par peur, je suis allé cacher ton talent dans la terre: le voici, tu as ton bien.» Mais son maître lui répondit: «Mauvais serviteur, timoré! Tu savais que je moissonne où je n'ai pas semé et que je ramasse où je n'ai rien répandu. Il te fallait donc placer mon argent chez les banquiers: à mon retour, j'aurais recouvré mon bien avec un intérêt. Retirez-lui donc son talent et donnez-le à celui qui a les dix talents. Car à tout homme qui a, l'on donnera et il sera dans la surabondance; mais à celui qui n'a pas, même ce qu'il a lui sera retiré. Quant à ce serviteur bon à rien, jetez-le dans les ténèbres du dehors: là seront les pleurs et les grincements de dents.» ", 
+  "ثم جاء أيضاً الذي أخذ الوزنة وقال: يا سيد علمت أنك إنسان قاس، تحصد الذي لم تزرعه وتجمع الذي لم تبذره، فخفت ومضيت ودفنت وزنتك في الأرض. وها هوذا مالك عندي. فأجاب سيده وقال له: أَيُّهَا العبد الشرير والكسلان، إن كنت قد علمت أني أحصد من حيث لم أزرع، وأجمع من حيث لم أبذر، فكان ينبغي لك أن تسلم فضتي إلي الصيارفة، وكنت متي جئت أستلمتها مع ربحها. خذوا منه الوزنة وأعطوها لصاحب العشر وزنات، لأن كل من له يعطي ويزاد، ومن ليس له فالذي عنده يؤخذ منه، وذلك العبد البطال ألقوه في الظلمة الخارجية. هناك يكون البكاء وصرير الأسنان.", 
   ],
   [
   Prefix.same+"&C=Diacon", 
   "", 
-  "viens te réjouir avec ton maître.» Celui des deux talents s'avança à son tour et dit: «Maître, tu m'avais confié deux talents; voici deux autres talents que j'ai gagnés.» Son maître lui dit: «C'est bien, bon et fidèle serviteur, tu as été fidèle en peu de choses, sur beaucoup je t'établirai; viens te réjouir avec ton maître.» S'avançant à son tour, celui qui avait reçu un seul talent dit: «Maître, je savais que tu es un homme dur:", 
-  "أدخل إلي فرح سيدك. ثم جاء الذي أخذ الوزنتين وقال: يا سيدي وزنتين سلمتني وهاتان وزنتان أخريان ربحتهما. فقال له سيده: نعماً أَيُّهَا العبد الصالح والأمين، قد وجدت أميناً في القليل فسأقيمك علي الكثير. أدخل إلي فرح سيدك. ثم جاء أيضاً الذي أخذ الوزنة وقال: يا سيد علمت أنك إنسان قاس،", 
+  "Quand le Fils de l'homme viendra dans sa gloire, accompagné de tous les anges, alors il siégera sur son trône de gloire. Devant lui seront rassemblées toutes les nations, et il séparera les hommes les uns des autres, comme le berger sépare les brebis des chèvres. Il placera les brebis à sa droite et les chèvres à sa gauche. Alors le roi dira à ceux qui seront à sa droite: «Venez, les bénis de mon Père, recevez en partage le Royaume qui a été préparé pour vous depuis la fondation du monde. Car j'ai eu faim et vous m'avez donné à manger; j'ai eu soif et vous m'avez donné à boire; j'étais un étranger et vous m'avez recueilli; nu, et vous m'avez vêtu; malade, et vous m'avez visité; en prison, et vous êtes venus à moi.» Alors les justes lui répondront: «Seigneur, quand nous est-il arrivé de te voir affamé et de te nourrir, assoiffé et de te donner à boire? Quand nous est-il arrivé de te voir étranger et de te recueillir, nu et de te vêtir? Quand nous est-il arrivé de te voir malade ou en prison, et de venir à toi?» Et le roi leur répondra: «En vérité, je vous le déclare, chaque fois que vous l'avez fait à l'un de ces plus petits, qui sont mes frères, c'est à moi que vous l'avez fait!»", 
+  "ومتي جاء إبن الإنسان في مجده ومعه جميع ملائكته الأطهار، فحينئذ يجلس علي عرش مجده، وتجتمع أمامه جميع الشعوب، فيفرز بعضهم من بعض كما يفرز الراعي الخراف من الجداء، فيقيم الخراف عن يمينه والجداء عن يساره. حينئذ يقول الملك للذين عن يمينه: تعالوا إليّ يا مباركي أبي، رثوا المُلك المعد لكم منذ إنشاء العالم، لأني جعت فأطعمتموني، وعطشت فسقيتموني، وكنت غريباً فأويتموني، وعرياناً فكسوتموني، ومريضاً فزرتموني، ومحبوساً فأتيتم إليّ. حينئذ يجيبه الصديقون قائلين: يا رب، متي رأيناك جائعاً فأطعمناك، أو عطشاناً فسقيناك؟ ومتي رأيناك غريباً فأويناك، أو عرياناً فكسوناك؟ ومتي رأيناك مريضاً أو محبوساً فأتينا إليك؟ فيجيب الملك ويقول لهم: الحق أقول لكم، إنكم كلما فعلتم ذلك بأحد إخوتي هؤلاء الصغار فبي فعلتموه.", 
   ],
   [
   Prefix.same+"&C=Diacon", 
   "", 
-  "tu moissonnes où tu n'as pas semé, tu ramasses où tu n'as pas répandu; par peur, je suis allé cacher ton talent dans la terre: le voici, tu as ton bien.» Mais son maître lui répondit: «Mauvais serviteur, timoré! Tu savais que je moissonne où je n'ai pas semé et que je ramasse où je n'ai rien répandu. Il te fallait donc placer mon argent chez les banquiers: à mon retour, j'aurais recouvré mon bien avec un intérêt. Retirez-lui donc son talent", 
-  "تحصد الذي لم تزرعه وتجمع الذي لم تبذره، فخفت ومضيت ودفنت وزنتك في الأرض. وها هوذا مالك عندي. فأجاب سيده وقال له: أَيُّهَا العبد الشرير والكسلان، إن كنت قد علمت أني أحصد من حيث لم أزرع، وأجمع من حيث لم أبذر، فكان ينبغي لك أن تسلم فضتي إلي الصيارفة، وكنت متي جئت أستلمتها مع ربحها. خذوا منه الوزنة", 
+  "Alors il dira à ceux qui seront à sa gauche: «Allez-vous-en loin de moi, maudits, au feu éternel qui a été préparé pour le diable et pour ses anges. Car j'ai eu faim et vous ne m'avez pas donné à manger; j'ai eu soif et vous ne m'avez pas donné à boire; j'étais un étranger et vous ne m'avez pas recueilli; nu, et vous ne m'avez pas vêtu; malade et en prison, et vous ne m'avez pas visité.» Alors eux aussi répondront: «Seigneur, quand nous est-il arrivé de te voir affamé ou assoiffé, étranger ou nu, malade ou en prison, sans venir t'assister?» Alors il leur répondra : \"En vérité, je vous le déclare, chaque fois que vous ne l'avez pas fait à l'un de ces plus petits, à moi non plus vous ne l'avez pas fait.\" Et ils s'en iront, ceux-ci au châtiment éternel, et les justes à la vie éternelle.", 
+  "حينئذ يقول للأشرار الذين عن يساره: إذهبوا عني يا ملاعين إلي النار الأبدية المعدة لإبليس وملائكته، لأني جعت فلم تطعموني وعطشت فلم تسقوني، وكنت غريباً فلم تأووني، وعرياناً فلم تكسوني، ومريضاً فلم تزوروني، ومحبوساً فلم تأتوا إلىّ. حينئذ يجيبونه هم أيضاً قائلين: يا رب متي رأيناك جائعاً أو عطشاناً، أو غريباً أو عرياناً، أو مريضاً أو محبوساً ولم نخدمك؟! حينئذ يجيبهم قائلاً: الحق أقول لكم، بما أنكم لم تفعلوه بأحد هؤلاء الصغار فبي لم تفعلوه. فيذهب هؤلاء إلي العذاب الدائم والصديقون إلي الحياة الأبدية.", 
   ],
   [
   Prefix.same+"&C=Diacon", 
   "", 
-  "et donnez-le à celui qui a les dix talents. Car à tout homme qui a, l'on donnera et il sera dans la surabondance; mais à celui qui n'a pas, même ce qu'il a lui sera retiré. Quant à ce serviteur bon à rien, jetez-le dans les ténèbres du dehors: là seront les pleurs et les grincements de dents.» Quand le Fils de l'homme viendra dans sa gloire, accompagné de tous les anges, alors il siégera sur son trône de gloire.", 
-  "وأعطوها لصاحب العشر وزنات، لأن كل من له يعطي ويزاد، ومن ليس له فالذي عنده يؤخذ منه، وذلك العبد البطال ألقوه في الظلمة الخارجية. هناك يكون البكاء وصرير الأسنان. ومتي جاء إبن الإنسان في مجده ومعه جميع ملائكته الأطهار، فحينئذ يجلس علي عرش مجده،", 
-  ],
-  [
-  Prefix.same+"&C=Diacon", 
-  "", 
-  "Devant lui seront rassemblées toutes les nations, et il séparera les hommes les uns des autres, comme le berger sépare les brebis des chèvres. Il placera les brebis à sa droite et les chèvres à sa gauche.\nAlors le roi dira à ceux qui seront à sa droite: «Venez, les bénis de mon Père, recevez en partage le Royaume qui a été préparé pour vous depuis la fondation du monde. Car j'ai eu faim et vous m'avez donné à manger;", 
-  "وتجتمع أمامه جميع الشعوب، فيفرز بعضهم من بعض كما يفرز الراعي الخراف من الجداء، فيقيم الخراف عن يمينه والجداء عن يساره.\nحينئذ يقول الملك للذين عن يمينه: تعالوا إليّ يا مباركي أبي، رثوا المُلك المعد لكم منذ إنشاء العالم، لأني جعت فأطعمتموني،", 
-  ],
-  [
-  Prefix.same+"&C=Diacon", 
-  "", 
-  "j'ai eu soif et vous m'avez donné à boire; j'étais un étranger et vous m'avez recueilli; nu, et vous m'avez vêtu; malade, et vous m'avez visité; en prison, et vous êtes venus à moi.» Alors les justes lui répondront: «Seigneur, quand nous est-il arrivé de te voir affamé et de te nourrir, assoiffé et de te donner à boire? Quand nous est-il arrivé de te voir étranger et de te recueillir, nu et de te vêtir? Quand nous est-il arrivé de te voir malade ou en prison,", 
-  "وعطشت فسقيتموني، وكنت غريباً فأويتموني، وعرياناً فكسوتموني، ومريضاً فزرتموني، ومحبوساً فأتيتم إليّ. حينئذ يجيبه الصديقون قائلين: يا رب، متي رأيناك جائعاً فأطعمناك، أو عطشاناً فسقيناك؟ ومتي رأيناك غريباً فأويناك، أو عرياناً فكسوناك؟ ومتي رأيناك مريضاً أو محبوساً", 
-  ],
-  [
-  Prefix.same+"&C=Diacon", 
-  "", 
-  "et de venir à toi?» Et le roi leur répondra: «En vérité, je vous le déclare, chaque fois que vous l'avez fait à l'un de ces plus petits, qui sont mes frères, c'est à moi que vous l'avez fait!» Alors il dira à ceux qui seront à sa gauche: «Allez-vous-en loin de moi, maudits, au feu éternel qui a été préparé pour le diable et pour ses anges. Car j'ai eu faim et vous ne m'avez pas donné à manger; j'ai eu soif et vous ne m'avez pas donné à boire; j'étais un étranger", 
-  "فأتينا إليك؟ فيجيب الملك ويقول لهم: الحق أقول لكم، إنكم كلما فعلتم ذلك بأحد إخوتي هؤلاء الصغار فبي فعلتموه. حينئذ يقول للأشرار الذين عن يساره: إذهبوا عني يا ملاعين إلي النار الأبدية المعدة لإبليس وملائكته، لأني جعت فلم تطعموني وعطشت فلم تسقوني، وكنت غريباً", 
-  ],
-  [
-  Prefix.same+"&C=Diacon", 
-  "", 
-  "et vous ne m'avez pas recueilli; nu, et vous ne m'avez pas vêtu; malade et en prison, et vous ne m'avez pas visité.» Alors eux aussi répondront: «Seigneur, quand nous est-il arrivé de te voir affamé ou assoiffé, étranger ou nu, malade ou en prison, sans venir t'assister?» Alors il leur répondra : \"En vérité, je vous le déclare, chaque fois que vous ne l'avez pas fait à l'un de ces plus petits, à moi non plus vous ne l'avez pas fait.\"", 
-  "فلم تأووني، وعرياناً فلم تكسوني، ومريضاً فلم تزوروني، ومحبوساً فلم تأتوا إلىّ. حينئذ يجيبونه هم أيضاً قائلين: يا رب متي رأيناك جائعاً أو عطشاناً، أو غريباً أو عرياناً، أو مريضاً أو محبوساً ولم نخدمك؟! حينئذ يجيبهم قائلاً: الحق أقول لكم، بما أنكم لم تفعلوه بأحد هؤلاء الصغار فبي لم تفعلوه.", 
-  ],
-  [
-  Prefix.same+"&C=Diacon", 
-  "", 
-  "Et ils s'en iront, ceux-ci au châtiment éternel, et les justes à la vie éternelle. Or, quand Jésus eut achevé toutes ces instructions, il dit à ses disciples: «Vous le savez, dans deux jours, c'est la Pâque: le Fils de l'homme va être livré pour être crucifié.»\nGloire à Dieu éternellement.", 
-  "فيذهب هؤلاء إلي العذاب الدائم والصديقون إلي الحياة الأبدية. ولما أكمل يسوع هذه الأقوال كلها قال لتلاميذه: تعلمون أنه بعد يومين يكون الفصح وإبن الإنسان يسلم ليصلب.\nوالمجد لله دائماً", 
+  "Or, quand Jésus eut achevé toutes ces instructions, il dit à ses disciples: «Vous le savez, dans deux jours, c'est la Pâque: le Fils de l'homme va être livré pour être crucifié.»", 
+  "ولما أكمل يسوع هذه الأقوال كلها قال لتلاميذه: تعلمون أنه بعد يومين يكون الفصح وإبن الإنسان يسلم ليصلب.", 
   ],
   ],
   [
@@ -4234,14 +4072,14 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   Prefix.same+"&C=Diacon", 
   "", 
-  "Envers Toi seul, Seigneur tout puissant, j'ai péché. Pardonne-moi, mon Seigneur et mon Dieu. J'ai fait le mal avec arrogance et j'ai été paresseux dans l'observation de Tes commandements, Seigneur. Lorsque Tu viendras dans la puissance de Ta gloire, entouré de Tes anges, et que Tu t'assiéras sur le trône de Ton royaume, Toi le vrai juge, toutes les nations s'assembleront devant Toi des quatre coins de la terre.", 
-  "لك وحدك أخطأت أَيُّهَا الرب ضابط الكل، فاغْفِرْ لي يا ربي وإلهي، وصنعت الشر بجسارة وتكاسلت في أوامرك أَيُّهَا الرب. إذا جئت بقوة مجدك ويحيط بك ملائكتك وتجلس أنت أَيُّهَا الديان العادل علي كرسي مملكتك، وتجتمع إليك جميع الأمم من الأربع رياح زوايا الأرض", 
+  "Envers Toi seul, Seigneur tout puissant, j'ai péché. Pardonne-moi, mon Seigneur et mon Dieu. J'ai fait le mal avec arrogance et j'ai été paresseux dans l'observation de Tes commandements, Seigneur. Lorsque Tu viendras dans la puissance de Ta gloire, entouré de Tes anges, et que Tu t'assiéras sur le trône de Ton royaume, Toi le vrai juge, toutes les nations s'assembleront devant Toi des quatre coins de la terre. D'un seul mot Tu les sépareras à droite et à gauche. Les brebis seront placées à Ta droite, et les chèvres à Ta gauche. Ceux qui seront à Ta droite se réjouiront avec Toi; ce sont les justes qui ont fait ce qui Te plais, qui ont retenu Tes commandements et les ont tous pratiqués, ceux qui T'ont nourri lorsque Tu avais faim, qui T'ont donné à boire lorsque Tu avais soif, qui T'ont accueilli chez eux lorsque Tu étais étranger, qui T'ont vêtu lorsque Tu étais nu, qui T'ont visité lorsque Tu étais en prison, et qui T'ont servi lorsque Tu étais malade. A ce moment-là, ils se réjouiront de leurs bonnes œuvres et recevront leurs rétributions à l'inverse des chèvres. Les justes iront vers la Vie éternelle et les méchants vers le châtiment éternel.", 
+  "لك وحدك أخطأت أَيُّهَا الرب ضابط الكل، فاغْفِرْ لي يا ربي وإلهي، وصنعت الشر بجسارة وتكاسلت في أوامرك أَيُّهَا الرب. إذا جئت بقوة مجدك ويحيط بك ملائكتك وتجلس أنت أَيُّهَا الديان العادل علي كرسي مملكتك، وتجتمع إليك جميع الأمم من الأربع رياح زوايا الأرض ويفترقون بعضهم عن بعض، يميناً وشمالاً بكلمة واحدة، وتقف الخراف عن يمينك والجداء عن يسارك، فيفرح معك الذين عن يمينك، الأبرار الذين صنعوا مرضاتك، المتمسكون بأوامرك وحفظوها وصنعوها جميعاً، الذين أطعموك في جوعك وسقوك أيضاً في عطشك وفي غربتك أووك في بيوتهم وفي عريك ستروك، وعندما دخلت السجن جاءوا لزيارتك، وفي مرضك خدموك. حينئذ يفرحون بأعمالهم الحسنة ويأخذون أجرهم دون الجداء. فيمضي الأبرار إلي الحياة الدائمة والجداء إلي العذاب.", 
   ],
   [
   Prefix.same+"&C=Diacon", 
   "", 
-  "D'un seul mot Tu les sépareras à droite et à gauche. Les brebis seront placées à Ta droite, et les chèvres à Ta gauche. Ceux qui seront à Ta droite se réjouiront avec Toi; ce sont les justes qui ont fait ce qui Te plais, qui ont retenu Tes commandements et les ont tous pratiqués, ceux qui T'ont nourri lorsque Tu avais faim, qui T'ont donné à boire lorsque Tu avais soif, qui T'ont accueilli chez eux lorsque Tu étais étranger, qui T'ont vêtu lorsque Tu étais nu, qui T'ont visité lorsque Tu étais en prison, et qui T'ont servi lorsque Tu étais malade. A ce moment-là, ils se réjouiront de leurs bonnes œuvres et recevront leurs rétributions à l'inverse des chèvres. Les justes iront vers la Vie éternelle et les méchants vers le châtiment éternel. Ecoutez, vous les ignorants, comprenez, vous qui êtes égarés: la miséricorde triomphe du jugement. Soyez miséricordieux avant que le jugement du Juge ne vous atteigne.", 
-  "ويفترقون بعضهم عن بعض، يميناً وشمالاً بكلمة واحدة، وتقف الخراف عن يمينك والجداء عن يسارك، فيفرح معك الذين عن يمينك، الأبرار الذين صنعوا مرضاتك، المتمسكون بأوامرك وحفظوها وصنعوها جميعاً، الذين أطعموك في جوعك وسقوك أيضاً في عطشك وفي غربتك أووك في بيوتهم وفي عريك ستروك، وعندما دخلت السجن جاءوا لزيارتك، وفي مرضك خدموك. حينئذ يفرحون بأعمالهم الحسنة ويأخذون أجرهم دون الجداء. فيمضي الأبرار إلي الحياة الدائمة والجداء إلي العذاب. إسمعوا أَيُّهَا الجهال، وإفهموا أَيُّهَا الضالين: إن الرحمة تفتخر في الحكم، فاصْنَعُوا الرحمة قبل أن يأتي عليكم دينونة الديان.", 
+  "Ecoutez, vous les ignorants, comprenez, vous qui êtes égarés: la miséricorde triomphe du jugement. Soyez miséricordieux avant que le jugement du Juge ne vous atteigne.", 
+  "اسمعوا أَيُّهَا الجهال، وإفهموا أَيُّهَا الضالين: إن الرحمة تفتخر في الحكم، فاصْنَعُوا الرحمة قبل أن يأتي عليكم دينونة الديان. \n", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -4254,8 +4092,8 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   Prefix.HolyWeek+"1HEProphecies&D=GL53&C=Title", 
   "", 
-  "Prophecies de la Première heure de la veille du mercredi\nEzéchiel 22 : 17 - 22\n", 
-  "نبوات الساعة الأولى من ليلة الأربعاء\nحزقيال ٢٢ : ١٧ –٢٢\n", 
+  "Prophecies de la Première heure de la veille du mercredi\nEzéchiel  (22: 17-22)\n", 
+  "نبوات الساعة الأولى من ليلة الأربعاء\nحزقيال (٢٢: ١٧–٢٢)\n", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -4277,27 +4115,21 @@ ReadingsArrays.GospelNightArrayFR= [[
   ],
   [
   Prefix.same+"&C=Diacon", 
-  "Ebolqen Iezekiyl piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc\nOuo `è aoucaji `ènte P_ ]wpi aroi efjw `èmmoc > je `èp]hri è`èmè`èvrwmi.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.", 
-  "La parole du Seigneur me fut adressée en ces termes: Fils d'homme, la maison d'Israël est devenue pour moi un métal impur;", 
-  "وكانت إليّ كلمة الرب قائلاً : يا إبن الإنسان هوذا قد صار لدي بيت إسرائيل جميعهم خليطاً،", 
+  "", 
+  "La parole du Seigneur me fut adressée en ces termes: Fils d'homme, la maison d'Israël est devenue pour moi un métal impur; ils sont tous du cuivre, de l'étain, du fer et du plomb dans une fournaise: c'est un métal impur. C'est pourquoi, ainsi parle le Seigneur Dieu: Puisque vous êtes tous du métal impur, eh bien! Je vais vous rassembler au milieu de Jérusalem. Comme on rassemble argent, cuivre, fer, plomb et étain dans une fournaise pour attiser le feu dessus et les faire fondre, ainsi je vous rassemblerai dans ma colère et ma fureur et je vous ferai fondre;", 
+  "وكانت إليّ كلمة الرب قائلاً : يا إبن الإنسان هوذا قد صار لدي بيت إسرائيل جميعهم خليطاً، نحاساً وقصديراً وحديداً ورصاصاً مخلوطاً مع الفضة، لأجل ذلك قل هذا ما يقوله الرب: بما أنكم جميعاً قد صرتم إمتزاجاً واحداً فلأجل هذا ها أنا أخذكم في أورشليم كما أخذ الفضة والنحاس والحديد والرصاص والقصدير في وسط الأتون، لنفخ النار عليها لسبكها، وهكذا آخذكم إلي برجزي وأجمعكم وأذيبكم", 
   ],
   [
   Prefix.same+"&C=Diacon", 
   "", 
-  "ils sont tous du cuivre, de l'étain, du fer et du plomb dans une fournaise: c'est un métal impur. C'est pourquoi, ainsi parle le Seigneur Dieu: Puisque vous êtes tous du métal impur, eh bien! Je vais vous rassembler au milieu de Jérusalem. Comme on rassemble argent, cuivre, fer, plomb et étain dans une fournaise pour attiser le feu dessus et les faire fondre, ainsi je vous rassemblerai dans ma colère et ma fureur et je vous ferai fondre;", 
-  "نحاساً وقصديراً وحديداً ورصاصاً مخلوطاً مع الفضة، لأجل ذلك قل هذا ما يقوله الرب: بما أنكم جميعاً قد صرتم إمتزاجاً واحداً فلأجل هذا ها أنا أخذكم في أورشليم كما أخذ الفضة والنحاس والحديد والرصاص والقصدير في وسط الأتون، لنفخ النار عليها لسبكها، وهكذا آخذكم إلي برجزي وأجمعكم وأذيبكم", 
-  ],
-  [
-  Prefix.same+"&C=Diacon", 
-  "", 
-  "je vous amasserai et j'attiserai contre vous le feu de mon emportement, et je vous ferai fondre au milieu de la ville. Comme on fond l'argent au milieu de la fournaise, ainsi serez-vous fondus au milieu d'elle, et vous saurez que c'est moi, Le Seigneur, qui ai déversé ma fureur sur vous.\nGloire à la sainte Trinité notre Dieu.", 
-  "وأنفخ عليكم بنار غضبي وأسبككم في وسطها، كما تُسبك الفضة في وسط الآتون كذلك تُسبكون في وسطه فتعلمون أني أنا هو الرب صببت غضبي عليكم\n\nمجدًا للثالوث الأقدس إلهنا آمين.", 
+  "je vous amasserai et j'attiserai contre vous le feu de mon emportement, et je vous ferai fondre au milieu de la ville. Comme on fond l'argent au milieu de la fournaise, ainsi serez-vous fondus au milieu d'elle, et vous saurez que c'est moi, Le Seigneur, qui ai déversé ma fureur sur vous.", 
+  "وأنفخ عليكم بنار غضبي وأسبككم في وسطها، كما تُسبك الفضة في وسط الآتون كذلك تُسبكون في وسطه فتعلمون أني أنا هو الرب صببت غضبي عليكم.", 
   ],
   [
   Prefix.same+"&C=Title", 
   "", 
-  "Ezéchiel 22 : 23 – 29", 
-  "حزقيال ٢٢ : ٢٣ – ٢٩", 
+  "Ezéchiel (22: 23–29)", 
+  "حزقيال (٢٢: ٢٣–٢٩)", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -4319,15 +4151,9 @@ ReadingsArrays.GospelNightArrayFR= [[
   ],
   [
   Prefix.same+"&C=Diacon", 
-  "FEbolqen Iezekiyl piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc\nPcaji ` è mP_ af]wpi ]aroi efjw `è mmoc je `èp]hri ` èm`èvrwmi ajoc nac.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.", 
-  "La parole du Seigneur me fut adressée en ces termes: Fils d'homme, dis-lui: Tu es une terre qui n'a reçu ni pluie ni averse", 
-  "وصار كلام الرب إليّ قائلاً : يا إبن الإنسان قل لها، أنت الأرض التي لم ترو،", 
-  ],
-  [
-  Prefix.same+"&C=Diacon", 
   "", 
-  "au jour de la colère, les princes qui t'habitent sont comme un lion rugissant qui déchire sa proie. Ils ont dévoré les gens, pris les richesses et les bijoux, multiplié les veuves au milieu d'elle. Ses prêtres ont violé ma loi et profané mes sanctuaires: entre le saint et le profane, ils n'ont pas fait de différence et ils n'ont pas enseigné à distinguer l'impur et le pur. Ils ont détourné les yeux de mes sabbats et j'ai été déshonoré parmi eux.", 
-  "ولم يمطر عليها في يوم غضبي. هذه التي مدبروها في وسطها مثل أسد يزأر. تخطف خطفاً وتأكل نفوساً بالظلم والرشوة، وأراملها يكثرون في وسطها، وكهنتها رذلوا ناموسى ودنسوا مقادسى. لم يميزوا بين المقدس والمدنس، وبين النجس والطاهر. وحجبوا عيونهم عن سبوتي و صرت مرذولاً في وسطها.", 
+  "La parole du Seigneur me fut adressée en ces termes: Fils d'homme, dis-lui: Tu es une terre qui n'a reçu ni pluie ni averse au jour de la colère, les princes qui t'habitent sont comme un lion rugissant qui déchire sa proie. Ils ont dévoré les gens, pris les richesses et les bijoux, multiplié les veuves au milieu d'elle. Ses prêtres ont violé ma loi et profané mes sanctuaires: entre le saint et le profane, ils n'ont pas fait de différence et ils n'ont pas enseigné à distinguer l'impur et le pur. Ils ont détourné les yeux de mes sabbats et j'ai été déshonoré parmi eux.", 
+  "وصار كلام الرب إليّ قائلاً : يا إبن الإنسان قل لها، أنت الأرض التي لم ترو، ولم يمطر عليها في يوم غضبي. هذه التي مدبروها في وسطها مثل أسد يزأر. تخطف خطفاً وتأكل نفوساً بالظلم والرشوة، وأراملها يكثرون في وسطها، وكهنتها رذلوا ناموسى ودنسوا مقادسى. لم يميزوا بين المقدس والمدنس، وبين النجس والطاهر. وحجبوا عيونهم عن سبوتي و صرت مرذولاً في وسطها.", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -4341,12 +4167,12 @@ ReadingsArrays.GospelNightArrayFR= [[
   Prefix.HolyWeek+"1HEPsalm&D=GL53&C=Title", 
   "Ⲯⲁⲗⲙⲟⲥ ⲧⲟ Ⲇⲁⲩⲓⲇ", 
   "Psaume de la Première heure de la veille du mercredi\nPsaume (58: 13-14)\n", 
-  "مزمور الساعة الأولى من ليلة الأربعاء\nمزمور ٥٨ : ١٣، ١٤\n", 
+  "مزمور الساعة الأولى من ليلة الأربعاء\nمزمور (٥٨: ١٣ و ١٤)\n", 
   ],
   [
   Prefix.same+"&C=Diacon", 
   "Ⲁⲕϣⲱⲡⲓ ⲛⲏⲓ ⲛ̀ⲟⲩⲣⲉϥϣⲟⲡⲧ ⲉ̀ⲣⲟϥ : ⲛⲉⲙ ⲟⲩⲙⲁⲙ̀ⲫⲱⲧ ϧⲉⲛ ⲡ̀ⲉ̀ⲟⲟⲩ ⲙ̀ⲡⲁⲟϫⲉϫ. Ⲛⲑⲟⲕ ⲡⲉ ⲡⲁⲃⲟⲏ̀ⲑⲟⲥ ⲁⲓⲛⲁⲉⲣⲁⲗⲓⲛ ⲉ̀ⲣⲟⲕ Ⲡⲁⲛⲟⲩϯ : ϫⲉ ⲛ̀ⲑⲟⲕ ⲡⲉ ⲡⲁⲣⲉϥϣⲟⲡⲧ ⲉ̀ⲣⲟϥ Ⲡⲁⲛⲟⲩϯ ⲡⲁⲛⲁⲓ.", 
-  "Tu as été pour moi un rempart, un refuge au jour de ma détresse.\nJe te chanterai, Toi, ma force: Oui, mon rempart, c’est Dieu, le Dieu de ma miséricorde.", 
+  "Tu as été pour moi un rempart, un refuge au jour de ma détresse. Je te chanterai, Toi, ma force: Oui, mon rempart, c’est Dieu, le Dieu de ma miséricorde.", 
   "صرت ناصري وملجأي في يوم شدتي. أنت معيني، لك أرتل يا إلهي، لأنك أنت ناصري إلهي، وارحمني.", 
   ],
   ],
@@ -4354,8 +4180,8 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   Prefix.HolyWeek+"1HEGospel&D=GL53&C=Title", 
   "Ⲙⲁⲧⲑⲉⲟⲛ Ⲕⲉⲫ ⲕ/ⲃ/ : ⲁ/-ⲓ/ⲇ/", 
-  "Evangile de la Première heure de la veille du mercredi\nMatthieu 22 : 1-14\n", 
-  "إنجيل الساعة الأولى من ليلة الأربعاء\nمتى ٢٢: ١- ١٤\n", 
+  "Evangile de la Première heure de la veille du mercredi\nMatthieu  (22 : 1-14)\n", 
+  "إنجيل الساعة الأولى من ليلة الأربعاء\nمتى (٢٢: ١-١٤)\n", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -4392,12 +4218,6 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   Prefix.same+"&C=Diacon", 
   "", 
-  "", 
-  "", 
-  ],
-  [
-  Prefix.same+"&C=Diacon", 
-  "", 
   "Qui sont ceux qui ont été conviés à la noce véritable de Dieu le Verbe? Ce sont les juifs contrevenants dont les noms ont été effacés du livre de la Vie. Il envoya d'autres serviteurs en leur disant: allez donc aux croisées des chemins: tous ceux que vous rencontrerez, invitez-les. Ils allèrent et invitèrent de nombreuses personnes, les mauvais comme les bons, et la salle de noce fut remplie de convives. Le roi entra pour voir les convives. Il vit un homme qui ne portait pas les vêtements de noce, et lui dit : «Mon ami, comment es-tu entré ici sans avoir de vêtement de noce?» L'autre garda le silence, de honte. Les serviteurs le jetèrent dans les ténèbres extérieures.", 
   "من هم الناس الذين دعوا إلي الوليمة الحقيقية التي لله الكلمة إلا اليهود المخالفون الذين محيت أسماؤهم من سفر الحياة؟ فعاد أيضاً وأرسل آخرين وأوصاهم هكذا قائلاً: أخرجوا إلي مسالك الطرق وأدعوا كل الذين تجدونهم. فلما خرجوا دعوا كثيرين صالحين وطالحين، فإمتلأ العرس من المتكئين، فلما دخل الملك لينظر المتكئين رأي هناك إنساناً لم يكن لابساً لباس العرس فقال له: يا صاحب، كيف دخلت هنا وليس عليك ثياب العرس ؟ فللوقت صمت وصار في فضيحة، ثم ألقاه الخدام إلي الظلمة الخارجية. ", 
   ],
@@ -4413,7 +4233,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   Prefix.HolyWeek+"3HEProphecies&D=GL53&C=Title", 
   "", 
   "Prophecies de la Troisième heure de la veille du mercredi\nAmos (5: 18-27)\n", 
-  "نبوات الساعة الثالثة من ليلة الأربعاء\nعاموس ٥ : ١٨ -٢٧\n", 
+  "نبوات الساعة الثالثة من ليلة الأربعاء\nعاموس (٥: ١٨-٢٧)\n", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -4451,7 +4271,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   Prefix.HolyWeek+"3HEPsalm&D=GL53&C=Title", 
   "Ⲯⲁⲗⲙⲟⲥ ⲧⲟ Ⲇⲁⲩⲓⲇ", 
   "Psaume de la Troisième heure de la veille du mercredi\nPsaume (64: 4; 5)\n", 
-  "مزمور الساعة الثالثة من ليلة الأربعاء\nمزمور ٦٤ : ٤، ٥\n", 
+  "مزمور الساعة الثالثة من ليلة الأربعاء\nمزمور (٦٤: ٤ و ٥)\n", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -4465,31 +4285,25 @@ ReadingsArrays.GospelNightArrayFR= [[
   Prefix.HolyWeek+"3HEGospel&D=GL53&C=Title", 
   "Ⲙⲁⲧⲑⲉⲟⲛ Ⲕⲉⲫ ⲕ/ⲇ/: ⲗ/ /ϣ/ⲃ/ⲗ/", 
   "Evangile de la Troisième heure de la veille du mercredi\nMatthieu (24: 36–51)\n", 
-  "إنجيل الساعة الثالثة من ليلة الأربعاء", 
+  "إنجيل الساعة الثالثة من ليلة الأربعاء\nمتى (٢٤: ٣٦-٥١)\n", 
   ],
   [
   Prefix.same+"&C=Diacon", 
   "Ⲉⲑⲃⲉ ⲡⲓⲉ̀ⲟⲟⲩ ⲇⲉ ⲉ̀ⲧⲉⲙ̀ⲙⲁⲩ ⲛⲉⲙ ϯⲟⲩⲛⲟⲩ : ⲙ̀ⲙⲟⲛ ⲗ̀ⲓ ⲉ̀ⲙⲓ ⲉ̀ⲣⲱⲟⲩ : ⲟⲩⲇⲉ ⲛⲓⲁⲅⲅⲉⲗⲟⲥ ⲛ̀ⲧⲉ ⲛⲓⲫⲏⲟⲩⲓ̀ : ⲉ̀ⲃⲏⲗ ⲉ̀Ⲫⲓⲱⲧ ⲙ̀ⲙⲁⲩⲁⲧϥ. Ⲙⲫ̀ⲣⲏϯ ⲅⲁⲣ ⲛ̀ⲛⲓⲉ̀ⲟⲟⲩ ⲛ̀ⲧⲉ Ⲛⲱⲉ̀ : ⲡⲁⲓⲣⲏϯ ⲡⲉⲑⲛⲁϣⲱⲡⲓ ϧⲉⲛ ⲧ̀ⲡⲁⲣⲟⲩⲥⲓⲁ èèⲙ̀ⲡ̀ϣⲏⲣⲓ ⲙ̀ⲫ̀ⲣⲱⲙⲓ ⲙ̀ⲫ̀ⲣⲏϯ ⲅⲁⲣ ⲉ̀ⲛⲁⲩϣⲟⲡ ϧⲉⲛ ⲛⲓⲉ̀ⲟⲟⲩ ⲉⲧϧⲁϫⲱϥ ⲙ̀ⲡⲓⲕⲁⲧⲁⲕⲗⲩⲥⲙⲟⲥ ⲉⲩⲟⲩⲱⲙ ⲟⲩⲟ ⲉⲩⲥⲱ : ⲉⲩϭⲓⲥ̀ⲓⲙⲓ ⲟⲩⲟ ⲉⲩϭⲓⲁⲓ : ϣⲁ ⲡⲓⲉ̀ⲟⲟⲩ ⲉ̀ⲧⲁ Ⲛⲱⲉ̀ ϣⲉⲛⲁϥ ⲉ̀ϧⲟⲩⲛ ⲉ̀ϯⲕⲩⲃⲱⲧⲟⲥ ⲙ̀ⲙⲟϥ. Ⲟⲩⲟ ⲙ̀ⲡⲟⲩⲉ̀ⲙⲓ ϣⲁⲧⲉϥⲓ̀ ⲛ̀ϫⲉ ⲡⲓⲕⲁⲧⲁⲕ̀ⲗⲩⲥⲙⲟⲥ ⲟⲩⲟ ⲛ̀ⲧⲉϥⲉⲗ ⲟⲩⲟⲛ ⲛⲓⲃⲉⲛ : ⲡⲁⲓⲣⲏϯ ⲉⲑⲛⲁϣⲱⲡⲓ ϧⲉⲛ ⲡ̀ϫⲓⲛⲓ̀ ⲙ̀ⲡ̀ϣⲏⲣⲓ ⲙ̀ⲫ̀ⲣⲱⲙⲓ : ⲧⲟⲧⲉ ⲥ̀ⲛⲁⲩ ⲉⲩⲭⲏ ϧⲉⲛ ⲧ̀ⲕⲟⲓ : ⲟⲩⲁⲓ ⲉⲩⲉ̀ⲟⲗϥ ⲟⲩⲟ ⲟⲩⲁⲓ ⲉⲩⲉ̀ⲭⲁϥ: ⲟⲩⲟ ⲥ̀ⲛⲟⲩϯⲉⲩⲛⲟⲩⲧ ϧⲉⲛ ⲟⲩⲉⲩⲛⲓ : ⲟⲩⲓ̀ ⲉⲩⲉ̀ⲟⲗⲥ ⲟⲩⲟ ⲟⲩⲓ̀ ⲉⲩⲉ̀ⲭⲁⲥ.\n", 
-  "\"Mais ce jour et cette heure, nul ne les connaît, ni les anges des cieux, ni le Fils, personne sinon le Père, et lui seul. Tels furent les jours de Noé, tel sera l'avènement du Fils de l'homme; car de même qu'en ces jours d'avant le déluge, on mangeait et on buvait, l'on se mariait ou l'on donnait en mariage, jusqu'au jour où Noé entra dans l'arche, et on ne se doutait de rien jusqu'à ce que vînt le déluge, qui les emporta tous.", 
-  "متى ٢٤ : ٣٦ -٥١\nوأما ذلك اليوم وتلك الساعة، فلا يعلمهما أحد ولا ملائكة السموات، إلا الآب وحده. وكما كان في أيام نوح، كذلك يكون في ظهور إبن الإنسان، لأنه كما كانوا قبل أيام الطوفان يأكلون ويشربون ويتزوجون ويزوجون إلي اليوم الذي دخل فيه نوح إلي الفلك، ولم يعلموا حتي جاء الطوفان وأخذ الجميع،", 
+  "\"Mais ce jour et cette heure, nul ne les connaît, ni les anges des cieux, ni le Fils, personne sinon le Père, et lui seul. Tels furent les jours de Noé, tel sera l'avènement du Fils de l'homme; car de même qu'en ces jours d'avant le déluge, on mangeait et on buvait, l'on se mariait ou l'on donnait en mariage, jusqu'au jour où Noé entra dans l'arche, et on ne se doutait de rien jusqu'à ce que vînt le déluge, qui les emporta tous. Tel sera aussi l'avènement du Fils de l'homme. ", 
+  "وأما ذلك اليوم وتلك الساعة، فلا يعلمهما أحد ولا ملائكة السموات، إلا الآب وحده. وكما كان في أيام نوح، كذلك يكون في ظهور إبن الإنسان، لأنه كما كانوا قبل أيام الطوفان يأكلون ويشربون ويتزوجون ويزوجون إلي اليوم الذي دخل فيه نوح إلي الفلك، ولم يعلموا حتي جاء الطوفان وأخذ الجميع، كذلك يكون أيضاً مجئ إبن الإنسان. ", 
   ],
   [
   Prefix.same+"&C=Diacon", 
   "Ⲣⲱⲓⲥ ⲟⲩⲛ ϫⲉ ⲧⲉⲧⲉⲛⲉⲙⲓ ⲁⲛ ϫⲉ ⲁ̀ⲣⲉ ⲡⲉⲧⲉⲛ⳪ ⲛⲏⲟⲩ ϧⲉⲛ ⲁϣ ⲛ̀ⲟⲩⲛⲟⲩ : Ⲫⲁⲓ ⲇⲉ ⲁ̀ⲣⲓⲉ̀ⲙⲓ ⲉ̀ⲣⲟϥ : ϫⲉ ⲉ̀ⲛⲁⲣⲉ ⲡⲓⲛⲉⲃⲏⲓ ⲉ̀ⲙⲓ ϫⲉ ⲁ̀ⲣⲉ ⲡⲓⲥⲟⲛⲓ ⲛⲏⲟⲩ ⲛⲁϥ ϧⲉⲛ ⲁϣ ⲛ̀ⲟⲩⲛⲟⲩ : ⲛⲁϥⲛⲁⲣⲱⲓⲥ: ⲓⲛⲁ ⲛ̀ⲧⲉϥϣ̀ⲧⲉⲙⲭⲁⲩ ⲉ̀ϭⲓ ⲙ̀ⲡⲉϥⲏⲓ : ⲉⲑⲃⲉ ⲫⲁⲓ ⲱⲧⲉⲛ ϣⲱⲡⲓ ⲉ̀ⲣⲉⲧⲉⲛⲥⲉⲃⲧⲱⲧ : ϫⲉ ϧⲉⲛ ϯⲟⲩⲛⲟⲩ ⲉ̀ⲧⲉⲧⲉⲛⲥⲱⲟⲩⲛ ⲙ̀ⲙⲟⲥ ⲁⲛ ⲉⲣⲉ ⲡ̀ϣⲏⲣⲓ ⲙ̀ⲫ̀ⲣⲱⲙⲓ ⲛⲏⲟⲩ ⲛ̀ϧⲏⲧⲥ. Ⲛⲓⲙ ⲁⲣⲁ ⲡⲉ ⲡⲓⲡⲓⲥⲧⲟⲥ ⲙ̀ⲃⲱⲕ ⲟⲩⲟ ⲛ̀ⲥⲁⲃⲉ: ⲫⲏⲉ̀ⲧⲉ ⲡⲉϥ⳪ ⲛⲁⲭⲁϥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲉⲛ ⲛⲉϥⲉ̀ⲃⲓⲁⲓⲕ ⲉ̀ϯ ⲛⲱⲟⲩ ⲛ̀ⲧⲟⲩϧ̀ⲣⲉ ϧⲉⲛ ⲡ̀ⲥⲏⲟⲩ ⲛ̀ⲧⲏⲓⲥ : ⲱ̀ⲟⲩⲛⲓⲁⲧϥ ⲙ̀ⲡⲓⲃⲱⲕ ⲉ̀ⲧⲉⲙ̀ⲙⲁⲩ : ⲉ̀ϣⲱⲡ ⲁϥϣⲁⲛⲓ̀ ⲛ̀ϫⲉ ⲡⲉϥ⳪ ⲛ̀ⲧⲉϥϫⲉⲙϥ ⲉϥⲓ̀ⲣⲓ ⲙ̀ⲡⲁⲓⲣⲏϯ : ⲁ̀ⲙⲏⲛ ϯϫⲱ ⲙ̀ⲙⲟⲥ ⲛⲱⲧⲉⲛ : ϫⲉ ⲉϥⲉ̀ⲭⲁϥ ⲓϫⲉⲛ ⲡⲉⲧⲉⲛⲧⲁϥ ⲧⲏⲣϥ.", 
-  "Tel sera aussi l'avènement du Fils de l'homme. Alors deux hommes seront aux champs: l'un est pris, l'autre laissé; deux femmes en train de moudre à la meule: l'une est prise, l'autre laissée.\nVeillez donc, car vous ne savez pas quel jour votre Seigneur va venir. Vous le savez: si le maître de maison connaissait l'heure de la nuit à laquelle le voleur va venir, il veillerait et ne laisserait pas percer le mur de sa maison.", 
-  "كذلك يكون أيضاً مجئ إبن الإنسان. حينئذ يكون إثنان في الحقل ويؤخذ الواحد ويترك الآخر، وإثنتان تطحنان علي رحي، فتؤخذ الواحدة وتترك الأخرى.\nإسهروا إذاً لأنكم لا تعلمون في أية ساعة يأتي ربكم. وإعلموا هذا، إنه لو علم رب البيت في أية ساعة يأتي السارق لسهر ولم يدع بيته ينقب،", 
+  "Alors deux hommes seront aux champs: l'un est pris, l'autre laissé; deux femmes en train de moudre à la meule: l'une est prise, l'autre laissée. Veillez donc, car vous ne savez pas quel jour votre Seigneur va venir. Vous le savez: si le maître de maison connaissait l'heure de la nuit à laquelle le voleur va venir, il veillerait et ne laisserait pas percer le mur de sa maison. Voilà pourquoi, vous aussi, tenez-vous prêts, car c'est à l'heure que vous ignorez que le Fils de l'homme va venir.", 
+  "حينئذ يكون إثنان في الحقل ويؤخذ الواحد ويترك الآخر، وإثنتان تطحنان علي رحي، فتؤخذ الواحدة وتترك الأخرى. إسهروا إذاً لأنكم لا تعلمون في أية ساعة يأتي ربكم. وإعلموا هذا، إنه لو علم رب البيت في أية ساعة يأتي السارق لسهر ولم يدع بيته ينقب، فلذلك كونوا انتم أيضاً مستعدين لأن إبن الإنسان يأتي في ساعة لا تعرفونها.", 
   ],
   [
   Prefix.same+"&C=Diacon", 
   "Ⲉϣⲱⲡ ⲇⲉ ⲁϥϣⲁⲛϫⲟⲥ ⲛ̀ϫⲉ ⲡⲓⲃⲱⲕ ⲉⲧⲱⲟⲩ ⲉ̀ⲧⲉⲙ̀ⲙⲁⲩ ϧⲉⲛ ⲡⲉϥⲏⲧ : ϫⲉ Ⲡⲁ⳪ ⲛⲁⲱⲥⲕ : ⲟⲩⲟ ⲛ̀ⲧⲉϥⲉⲣⲏⲧⲥ ⲛ̀ⲓⲟⲩⲓ ⲛ̀ⲛⲉϥϣ̀ⲫⲏⲣ ⲛ̀ⲉⲃⲓⲁⲓⲕ : ⲛ̀ⲧⲉϥ ⲟⲩⲱⲙ ⲇⲉ ⲟⲩⲟ ⲛ̀ⲧⲉϥⲥⲱ ⲛⲉⲙ ⲛⲏⲉⲧⲑⲁϧⲓ: ⲉϥⲉ̀ⲓ̀ ⲇⲉ ⲛ̀ϫⲉ Ⲡ⳪ ⲙ̀ⲡⲓⲃⲱⲕ ⲉ̀ⲧⲉⲙ̀ⲙⲁⲩ ϧⲉⲛ ⲡⲓⲉ̀ⲟⲟⲩ ⲉ̀ⲧⲉⲛϥ̀ϫⲟⲩϣⲧ ϧⲁϫⲱϥ ⲁⲛ : ⲛⲉⲙ ϧⲉⲛ ϯⲟⲩⲛⲟⲩ ⲉ̀ⲧⲉⲛϥ̀ⲥⲱⲟⲩⲛ ⲙ̀ⲙⲟⲥ ⲁⲛ: ⲟⲩⲟ ⲉϥⲉ̀ⲫⲟⲣϫϥ ⲧⲉϥⲙⲏϯ ⲟⲩⲟ ⲉϥⲉ̀ⲭⲱ ⲛ̀ⲧⲉϥⲧⲟⲓ ⲛⲉⲙ ⲛⲓϣⲟⲃⲓ : ⲡⲓⲙⲁ ⲉ̀ⲧⲉ ⲫ̀ⲣⲓⲙⲓ ⲛⲁϣⲱⲡⲓ ⲙ̀ⲙⲟϥ ⲛⲉⲙ ⲡⲓⲥ̀ⲑⲉⲣⲧⲉⲣ ⲛ̀ⲧⲉ ⲛⲓⲛⲁϫⲓ.", 
-  "Voilà pourquoi, vous aussi, tenez-vous prêts, car c'est à l'heure que vous ignorez que le Fils de l'homme va venir. Quel est donc le serviteur fidèle et avisé que le maître a établi sur les gens de sa maison pour leur donner la nourriture en temps voulu? Heureux ce serviteur que son maître en arrivant trouvera en train de faire ce travail. En vérité, je vous le déclare, il l'établira sur tous ses biens. Mais si ce mauvais serviteur se dit en son cœur :", 
-  "فلذلك كونوا انتم أيضاً مستعدين لأن إبن الإنسان يأتي في ساعة لا تعرفونها. فمن ترى هو العبد الأمين الحكيم الذي يقيمه سيده علي عبيده ليعطيهم طعامهم في حينه؟\nطوبي لذلك العبد الذي إذا جاء سيده فيجده يفعل هكذا. الحق أقول لكم، إنه يقيمه علي جميع ماله. ولكن إن قال ذلك العبد الشرير في قلبه،", 
-  ],
-  [
-  Prefix.same+"&C=Diacon", 
-  "", 
-  "Mon maître tarde, et qu'il se mette à battre ses compagnons de service, qu'il mange et boive avec les ivrognes, le maître de ce serviteur arrivera au jour qu'il n'attend pas et à l'heure qu'il ne sait pas; il le chassera et lui fera partager le sort des hypocrites: là seront les pleurs et les grincements de dents.", 
-  "إن سيدي يبطئ قدومه فيبتدئ يضرب العبيد رفقاءه ويأكل ويشرب مع السكيرين، فيأتي سيد ذلك العبد في يوم لا ينتظره، وساعة لا يعرفها فيشقه من وسطه ويجعل نصيبه مع المرائين هناك يكون البكاء وصرير الإسنان.", 
+  "Quel est donc le serviteur fidèle et avisé que le maître a établi sur les gens de sa maison pour leur donner la nourriture en temps voulu? Heureux ce serviteur que son maître en arrivant trouvera en train de faire ce travail. En vérité, je vous le déclare, il l'établira sur tous ses biens. Mais si ce mauvais serviteur se dit en son cœur : Mon maître tarde, et qu'il se mette à battre ses compagnons de service, qu'il mange et boive avec les ivrognes, le maître de ce serviteur arrivera au jour qu'il n'attend pas et à l'heure qu'il ne sait pas; il le chassera et lui fera partager le sort des hypocrites: là seront les pleurs et les grincements de dents.", 
+  "فمن ترى هو العبد الأمين الحكيم الذي يقيمه سيده علي عبيده ليعطيهم طعامهم في حينه؟ طوبي لذلك العبد الذي إذا جاء سيده فيجده يفعل هكذا. الحق أقول لكم، إنه يقيمه علي جميع ماله. ولكن إن قال ذلك العبد الشرير في قلبه، إن سيدي يبطئ قدومه فيبتدئ يضرب العبيد رفقاءه ويأكل ويشرب مع السكيرين، فيأتي سيد ذلك العبد في يوم لا ينتظره، وساعة لا يعرفها فيشقه من وسطه ويجعل نصيبه مع المرائين هناك يكون البكاء وصرير الإسنان.", 
   ],
   ],
   [
@@ -4502,14 +4316,8 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   Prefix.same+"&C=Diacon", 
   "", 
-  "Admirez, vous qui adorez Dieu, la douceur du Christ notre Dieu et comment il appelle Ses élus qui font Sa volonté: des serviteurs sensés et fidèles. Je parle de ceux qui gardent Ses commandements et qui attendent leur rétribution, ceux qui veillent et sont vigilants pour obtenir les promesses. En effet, il a été dit dans l'Évangile que ce serviteur est heureux, celui-ci dont le maître viendra à l'improviste et le trouvera agir ainsi, sera nommé intendant sur toutes ses propriétés. ", 
-  "تأملوا يا عابدي الإله إلي تحنن المسيح إلهنا، كيف يدعو أصفياءه الصانعين إرادته عبيداً حكماء وأمناء، أعني الذين يحفظون وصاياه المتوقعين أجراً صالحاً، الساهرين المتيقظين لكي ينالوا المواعيد كما قال في الإنجيل إن ذلك العبد مغبوطاً، أعني الذي يأتي سيده بغتة فيجده يفعل هكذا أقول لكم إنه يقيمه وكيلا على جميع ماله.", 
-  ],
-  [
-  Prefix.same+"&C=Diacon", 
-  "", 
-  "Mais celui dont le maître arrive le jour où il ne l'attend pas et à l'heure qu'il n'a pas prévue, et qu'il trouve endormi, laissant passer les jours l'un après l'autre; Il le mettra en pièces, et lui donnera sa part avec les hypocrites dans les ténèbres, le lieu de torture. Réveillons-nous de notre torpeur et attendons le jour du Seigneur afin que nous soyons heureux dans Ses demeures et bénéficions de Sa miséricorde et de Sa compassion.", 
-  "أما ذلك الذي يجده متغافلاً ويهمل يوماً بعد يوم، فيجئ سيده في ساعة لا يعرفها فيشقه من وسطه ويجعل نصيبه مع المرائين في الظلمة وموضع العذاب. فلنتيقظ من غفلتنا وننتظر يوم الرب، لنفرح معه في دياره ونفوز بمراحمه ورأفاته.", 
+  "Admirez, vous qui adorez Dieu, la douceur du Christ notre Dieu et comment il appelle Ses élus qui font Sa volonté: des serviteurs sensés et fidèles. Je parle de ceux qui gardent Ses commandements et qui attendent leur rétribution, ceux qui veillent et sont vigilants pour obtenir les promesses. En effet, il a été dit dans l'Évangile que ce serviteur est heureux, celui-ci dont le maître viendra à l'improviste et le trouvera agir ainsi, sera nommé intendant sur toutes ses propriétés. Mais celui dont le maître arrive le jour où il ne l'attend pas et à l'heure qu'il n'a pas prévue, et qu'il trouve endormi, laissant passer les jours l'un après l'autre; Il le mettra en pièces, et lui donnera sa part avec les hypocrites dans les ténèbres, le lieu de torture. Réveillons-nous de notre torpeur et attendons le jour du Seigneur afin que nous soyons heureux dans Ses demeures et bénéficions de Sa miséricorde et de Sa compassion.", 
+  "تأملوا يا عابدي الإله إلي تحنن المسيح إلهنا، كيف يدعو أصفياءه الصانعين إرادته عبيداً حكماء وأمناء، أعني الذين يحفظون وصاياه المتوقعين أجراً صالحاً، الساهرين المتيقظين لكي ينالوا المواعيد كما قال في الإنجيل إن ذلك العبد مغبوطاً، أعني الذي يأتي سيده بغتة فيجده يفعل هكذا أقول لكم إنه يقيمه وكيلا على جميع ماله. أما ذلك الذي يجده متغافلاً ويهمل يوماً بعد يوم، فيجئ سيده في ساعة لا يعرفها فيشقه من وسطه ويجعل نصيبه مع المرائين في الظلمة وموضع العذاب. فلنتيقظ من غفلتنا وننتظر يوم الرب، لنفرح معه في دياره ونفوز بمراحمه ورأفاته.", 
   ],
   ],
   [
@@ -4517,7 +4325,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   Prefix.HolyWeek+"6HEProphecies&D=GL53&C=Title", 
   "", 
   "Prophecies de la Sixième heure de la veille du mercredi\nJérémie (16: 9–13)\n", 
-  "نبوات الساعة السادسة من ليلة الأربعاء\nمن أرميا النبي ١٦: ٩ - ١٤\n", 
+  "نبوات الساعة السادسة من ليلة الأربعاء\nمن أرميا النبي (١٦: ٩-١٤)\n", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -4555,12 +4363,12 @@ ReadingsArrays.GospelNightArrayFR= [[
   Prefix.HolyWeek+"6HEPsalm&D=GL53&C=Title", 
   "Ⲯⲁⲗⲙⲟⲥ ⲧⲟ Ⲇⲁⲩⲓⲇ", 
   "Psaume de la Sixième heure de la veille du mercredi\nPsaume (101: 2 ; 3)\n", 
-  "مزمور الساعة السادسة من ليلة الأربعاء\nمزمور ١٠١ : ١، ٢\n", 
+  "مزمور الساعة السادسة من ليلة الأربعاء\nمزمور (١٠١ : ١ و ٢)\n", 
   ],
   [
   Prefix.same+"&C=Diacon", 
   "Ⲡ⳪ ⲥⲱⲧⲉⲙ ⲉ̀ⲧⲁⲡⲣⲟⲥⲉⲩⲭⲏ : ⲙⲁⲣⲉ ⲡⲁϧ̀ⲣⲱⲟⲩ ⲓ̀ ⲉ̀ⲡ̀ϣⲱⲓ ⲙ̀ⲡⲉⲕⲙ̀ⲑⲟ. Ϧⲉⲛ ⲡⲓⲉ̀ⲟⲟⲩ ⲉ̀ϯⲛⲁⲱϣ ⲉ̀ⲡ̀ϣⲱⲓ ⲟⲩⲃⲏⲕ ⲛ̀’ϧⲏⲧϥ : ⲭⲱⲗⲉⲙ ⲥⲱⲧⲉⲙ ⲉ̀ⲣⲟⲓ.", 
-  "Seigneur, entends ma prière, que mon cri parvienne jusqu'à toi.\nLe jour où j'appelle, écoute-moi, viens vite, réponds-moi.", 
+  "Seigneur, entends ma prière, que mon cri parvienne jusqu'à toi. Le jour où j'appelle, écoute-moi, viens vite, réponds-moi.", 
   "يارب إستمع صلاتي وليصعد أمامك صراخي. في اليوم الذي أدعوك فيه إستجب لي سريعاً.", 
   ],
   ],
@@ -4569,7 +4377,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   Prefix.HolyWeek+"6HEGospel&D=GL53&C=Title", 
   "Ⲙⲁⲧⲑⲉⲟⲛ Ⲕⲉⲫ ⲕ/ⲉ/ : ⲁ/- ⲓ/ⲅ /", 
   "Evangile de la Sixième heure de la veille du mercredi\nMatthieu (25: 1-13)\n", 
-  "إنجيل الساعة السادسة من ليلة الأربعاء\nمتى ٢٥: ١- ١٣\n", 
+  "إنجيل الساعة السادسة من ليلة الأربعاء\nمتى (٢٥: ١-١٣)\n", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -4614,8 +4422,8 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   Prefix.HolyWeek+"9HEProphecies&D=GL53&C=Title", 
   "", 
-  "Prophecies de la Neuvième heure de la veille du mercredi\nOsée 9 : 14-17 et 10 : 1-2\n", 
-  "نبوات الساعة التاسعة من ليلة الأربعاء\nهوشع ٩ : ١٤ - ١٠ : ١، ٢\n", 
+  "Prophecies de la Neuvième heure de la veille du mercredi\nOsée (9: 14-17 et 10: 1-2)\n", 
+  "نبوات الساعة التاسعة من ليلة الأربعاء\nهوشع ٩: (14: 17 و 10: 1-2)\n", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -4651,13 +4459,13 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   [
   Prefix.HolyWeek+"9HEPsalm&D=GL53&C=Title", 
-  "", 
+  "Ⲯⲁⲗⲙⲟⲥ ⲧⲟ Ⲇⲁⲩⲓⲇ", 
   "Psaume de la Neuvième heure de la veille du mercredi\nPsaume (21: 19 et 20)\n", 
-  "مزمور الساعة التاسعة من ليلة الأربعاء\nمزمور ٢١ : ١٩ و ٢٠\n", 
+  "مزمور الساعة التاسعة من ليلة الأربعاء\nمزمور (٢١: ١٩ و ٢٠)\n", 
   ],
   [
   Prefix.same+"&C=Diacon", 
-  "Ⲯⲁⲗⲙⲟⲥ ⲧⲟ Ⲇⲁⲩⲓⲇ\nⲚⲟⲉⲙ ⲛ̀ⲧⲁⲯⲩⲭⲏ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲟⲧⲥ ⲛ̀ⲧ̀ⲥⲏϥⲓ : ⲛⲉⲙ ⲧⲁⲙⲉⲧϣⲏⲣⲓ ⲙ̀ⲙⲁⲩⲁⲧⲥ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲟⲧϥ ⲛ̀ⲟⲩⲟⲩⲟⲣ : ⲛⲁⲙⲉⲧ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲣⲱϥ ⲛ̀ⲟⲩⲙⲟⲩⲓ̀ : ⲟⲩⲟ ⲡⲁⲑⲉⲃⲓⲟ̀ ⲉ̀ⲃⲟⲗⲁ ⲡⲓⲧⲁⲡ ⲛ̀ⲧⲉ ⲛⲁⲡⲓⲧⲁⲡ ⲛ̀ⲟⲩⲱⲧ.", 
+  "Ⲛⲟⲉⲙ ⲛ̀ⲧⲁⲯⲩⲭⲏ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲟⲧⲥ ⲛ̀ⲧ̀ⲥⲏϥⲓ : ⲛⲉⲙ ⲧⲁⲙⲉⲧϣⲏⲣⲓ ⲙ̀ⲙⲁⲩⲁⲧⲥ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲟⲧϥ ⲛ̀ⲟⲩⲟⲩⲟⲣ : ⲛⲁⲙⲉⲧ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲣⲱϥ ⲛ̀ⲟⲩⲙⲟⲩⲓ̀ : ⲟⲩⲟ ⲡⲁⲑⲉⲃⲓⲟ̀ ⲉ̀ⲃⲟⲗⲁ ⲡⲓⲧⲁⲡ ⲛ̀ⲧⲉ ⲛⲁⲡⲓⲧⲁⲡ ⲛ̀ⲟⲩⲱⲧ.", 
   "Délivre de l'épée mon âme et ma personne unique des pattes du chien. Sauve-moi de la gueule du lion, et mon humilité de la corne du rhinocéros.", 
   "نج من السيف نفسي ومن الكلب بنوتى الوحيدة. خلصني من فم الأسد وتواضعي من قرن ذى القرن الواحد.", 
   ],
@@ -4667,7 +4475,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   Prefix.HolyWeek+"9HEGospel&D=GL53&C=Title", 
   "Ⲙⲁⲧⲑⲉⲟⲛ Ⲕⲉⲫ ⲕ/ⲅ/: ⲕ/ⲑ/ - ⲗ/ⲋ", 
   "Evangile de la Neuvième heure de la veille du mercredi\nMatthieu (22: 29-36)\n", 
-  "إنجيل الساعة التاسعة من ليلة الأربعاء\nمتى ٢٢ : ٢٩ – ٣٦\n", 
+  "إنجيل الساعة التاسعة من ليلة الأربعاء\nمتى (٢٢: ٢٩–٣٦)\n", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -4707,7 +4515,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   Prefix.HolyWeek+"11HEProphecies&D=GL53&C=Title", 
   "", 
   "Prophecies de la Onzième heure de la veille du mercredi\nSagesse (7: 24-30)\n", 
-  "نبوات الساعة الحادية عشر من ليلة الأربعاء\nحكمة ٧: ٢٤ -٣٠\n", 
+  "نبوات الساعة الحادية عشر من ليلة الأربعاء\nحكمة (٧: ٢٤-٣٠)\n", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -4745,7 +4553,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   Prefix.HolyWeek+"11HEPsalm&D=GL53&C=Title", 
   "Ⲯⲁⲗⲙⲟⲥ ⲧⲟ Ⲇⲁⲩⲓⲇ", 
   "Psaume de la Onzième heure de la veille du mercredi\nPsaume (56: 1)\n", 
-  "مزمور الساعة الحادية عشر من ليلة الأربعاء\nمزمور ٥٦ : ١\n", 
+  "مزمور الساعة الحادية عشر من ليلة الأربعاء\nمزمور (٥٦ : ١)\n", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -4759,7 +4567,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   Prefix.HolyWeek+"11HEGospel&D=GL53&C=Title", 
   "Ⲓⲱⲁⲛⲛⲏⲛ Ⲕⲉⲫ ⲓ/ⲁ/: ⲛ/ⲉ/ ϣ/ⲃ/ⲗ", 
   "Evangile de la Onzième heure de la veille du mercredi\nJean (11: 55–57)\n", 
-  "إنجيل الساعة الحادية عشر من ليلة الأربعاء\nيوحنا ١١ : ٥٥ – ٥٧\n", 
+  "إنجيل الساعة الحادية عشر من ليلة الأربعاء\nيوحنا (١١: ٥٥–٥٧)\n", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -4793,23 +4601,23 @@ ReadingsArrays.GospelNightArrayFR= [[
   Prefix.HolyWeek+"1HDProphecies&D=GL54&C=Title", 
   "", 
   "Prophecies de la Première heure du mercredi\nExode (17: 1-7)\n", 
-  "نبوات الساعة الأولى من يوم الأربعاء\nخروج ١٧ : ١-٧\n", 
+  "نبوات الساعة الأولى من يوم الأربعاء\nخروج (١٧: ١-٧)\n", 
   ],
   [
   Prefix.same+"&C=Diacon", 
-  "Ⲉⲃⲟⲗ$§ⲉⲛ �⳪ⲓⲇⲟⲝⲟⲇⲟ�⳩ ⲛ￿��§ⲉ Ⲙⲱ�©￿��⳩ⲏ�⳩ �⳪ⲓ�⳪�Ⳬⲟ�<ⲏ�§ⲏ�⳩ Ⲑ ⲉ￿��Ⳬⲉ�⳪ⲉ$⳩�⳩￿�ⲙⲟ�© ⲉ￿�ⲑ￿��©￿� Ⲑ $Ⳬⲱ�⳪ⲓ ⲛⲉⲙⲁⲛ ⲁ￿�ⲙⲏⲛ ⲉ$⳩$<ⲱ ⲙ￿�ⲙⲟ�⳩", 
-  "", 
-  "", 
-  ],
-  [
-  Prefix.same+"&C=Diacon", 
-  "Ⲟ�©ⲟ ⲁ�⳩�§ⲱⲛ�⳩ ⲛ￿�$<ⲉ $��⳩�©ⲛⲁⲅⲱⲅⲏ �§ⲏ�Ⳬ�⳩ ⲛ￿��§ⲉ ⲛⲉⲛ$Ⳬⲏ�Ⳬⲓ ⲙ￿��⳪￿�Ⲓ�⳩ⲗ? ⲉ￿�ⲃⲟⲗ$§ⲉⲛ �⳪￿�$Ⳬⲁ$⳩ⲉ ⲛ￿��⳨ⲓⲛⲁ ⲕⲁ�§ⲁ ⲛⲟ�©�⳪ⲁ�Ⳬⲉⲙⲃⲟⲗⲏ ⲉ￿�ⲃⲟⲗⲓ�§ⲉⲛ �⳪￿��⳩ⲁ$<ⲓ ⲙ￿�Ⲡ�Ⳮ⳪.", 
+  "Ⲉⲃⲟⲗϧⲉⲛ ⲡⲓⲇⲟⲝⲟⲇⲟⲥ ⲛ̀ⲧⲉ Ⲙⲱⲩ̀ⲥⲏⲥ ⲡⲓⲡⲣⲟⲫⲏⲧⲏⲥ : ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̅ⲑ̅ⲩ̅ : ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ", 
   "", 
   "", 
   ],
   [
   Prefix.same+"&C=Diacon", 
-  "Ⲟ�©ⲱ￿�ⲟ�© ⲛ￿�$��§￿��Ⳬⲓⲁ�⳩ ⲉ￿�ⲑⲟ�©ⲁⲃ �⳪ⲉⲛⲛⲟ�©$� Ⲑ $Ⳬⲁ ⲉ￿�ⲛⲉ$© ⲛⲉⲙ $Ⳬⲁ ⲉ￿�ⲛⲉ$© ⲛ￿��§ⲉ ⲛⲓⲉ￿�ⲛⲉ$© �§ⲏ�Ⳬⲟ�© Ⲑ ⲁ￿�ⲙⲏⲛ.", 
+  "Ⲟⲩⲟϩ ⲁⲥⲧⲱⲛⲥ ⲛ̀ϫⲉ ϯⲥⲩⲛⲁⲅⲱⲅⲏ ⲧⲏⲣⲥ ⲛ̀ⲧⲉ ⲛⲉⲛϣⲏⲣⲓ ⲙ̀ⲡ̀Ⲓⲥⲗ? ⲉ̀ⲃⲟⲗϧⲉⲛ ⲡ̀ϣⲁϥⲉ ⲛ̀Ⲥⲓⲛⲁ ⲕⲁⲧⲁ ⲛⲟⲩⲡⲁⲣⲉⲙⲃⲟⲗⲏ ⲉ̀ⲃⲟⲗϩⲓⲧⲉⲛ ⲡ̀ⲥⲁϫⲓ ⲙ̀Ⲡè⳪.", 
+  "", 
+  "", 
+  ],
+  [
+  Prefix.same+"&C=Diacon", 
+  "Ⲟⲩⲱ̀ⲟⲩ ⲛ̀Ϯⲧ̀ⲣⲓⲁⲥ ⲉ̀ⲑⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ : ϣⲁ ⲉ̀ⲛⲉϩ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ⲛⲉϩ ⲧⲏⲣⲟⲩ : ⲁ̀ⲙⲏⲛ.", 
   "", 
   "", 
   ],
@@ -4828,8 +4636,8 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   Prefix.same+"&C=Title", 
   "", 
-  "Proverbes 3 : 5-14", 
-  "أمثال سليمان ص٣ : ٥ –١٤", 
+  "Proverbes (3: 5-14)", 
+  "أمثال سليمان (٣: ٥–١٤)", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -4871,7 +4679,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   Prefix.same+"&C=Title", 
   "", 
   "Osée (5:13 à 6: 3)", 
-  "هوشع ٥ : ١٣ - ٦: ٣", 
+  "هوشع (٥: ١٣- ٦: ٣)", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -4906,8 +4714,8 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   Prefix.same+"&C=Title", 
   "", 
-  "Ecclésiastique :\nquelques extraits de 1 : 14 à 3 : 30", 
-  "مقتطفات من يشوع بن سيراخ ١: ١٦; ٣: ٢٣", 
+  "Ecclésiastique :\nquelques extraits de (1: 14 à 3: 30)", 
+  "مقتطفات من يشوع بن سيراخ (١: ١٦ و ٣: ٢٣)", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -4989,7 +4797,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   Prefix.HolyWeek+"1HDPsalm&D=GL54&C=Title", 
   "Ⲯⲁⲗⲙⲟⲥ ⲧⲟ Ⲇⲁⲩⲓⲇ", 
   "Psaume de la Première heure du mercredi\nPsaume (50: 6 et 32: 10)\n", 
-  "مزمور الساعة الأولى من يوم الأربعاء\nمزمور ٥٠ : ٤ ؛ مز ٣٢ : ١٠\n", 
+  "مزمور الساعة الأولى من يوم الأربعاء\nمزمور (٥٠: ٤ و ٣٢ : ١٠)\n", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -5003,7 +4811,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   Prefix.HolyWeek+"1HDGospel&D=GL54&C=Title", 
   "Ⲓⲱⲁⲛⲛⲏⲛ Ⲕⲉⲫ ⲓ/ⲁ/: ⲙ/ /ϣ/ⲃ/ⲗ/", 
   "Evangile de la Première heure du mercredi\nJean (11: 46-57)\n", 
-  "إنجيل الساعة الأولى من يوم الأربعاء\nيوحنا ١١ : ٤٦ -٥٧\n", 
+  "إنجيل الساعة الأولى من يوم الأربعاء\nيوحنا (١١: ٤٦-٥٧)\n", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -5283,7 +5091,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   ],
   [
   Prefix.same+"&C=Diacon", 
-  "Ebolqen pidoxodoc `nte Mw`ucyc piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc\nPeje Mw`èuchc de na\ren pilaoc je jemno; > `èereten`èoi `èeraten qhnou `èeretennau `èepioujai pi`èeboliten P_.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.", 
+  "Ebolqen pidoxodoc `nte Mw`ucyc piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc\nPeje Mw`èuchc de na\\ren pilaoc je jemno; > `èereten`èoi `èeraten qhnou `èeretennau `èepioujai pi`èeboliten P_.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.", 
   "Exode 14 : 13 à 15 :1\nMoïse dit au peuple: «Ne craignez pas! Tenez ferme et vous verrez ce que le Seigneur va faire pour vous sauver aujourd'hui,", 
   "خروج ١٤ : ١٣ - ١٥ : ١\nفقال موسى للشعب: تقووا قفوا وإنظروا خلاص الرب الذي يصنعه لكم اليوم.", 
   ],
@@ -5477,7 +5285,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   ],
   [
   Prefix.HolyWeek+"9HDProphecies&D=GL54&C=Diacon", 
-  "Ebolqen pi`ari;moc `nte Mw`ucyc piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nOuo au`èi `ènje nen]hri `èmPic?l ? ;cunagwgh thrc  `èe`è\rhi  `èe`èptwou  `ènCina  'en  pi`èabot `ènouit.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.", 
+  "Ebolqen pi`ari;moc `nte Mw`ucyc piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nOuo au`èi `ènje nen]hri `èmPic?l ? ;cunagwgh thrc  `èe`è\\rhi  `èe`èptwou  `ènCina  'en  pi`èabot `ènouit.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.", 
   "Nombres 20 : 1 – 13\nLes Israélites, toute la communauté, arrivèrent le premier mois au désert de Çîn. Le peuple s'établit à Cadès. ", 
   "عدد ٢٠ : ١- ١٣\nوجاء بنو إسرائيل الجماعة كلها إلى جبل سيناء في الشهر الأول، وأقام الشعب بقادش، ", 
   ],
@@ -5543,7 +5351,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   ],
   [
   Prefix.HolyWeek+"9HDProphecies&D=GL54&C=Diacon", 
-  "Ebolqen `Yca`yac piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nMh`ètjij `èmP_ jemjom `èetan'o h `èntapefmaje `èe\r] `èecwtem.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.", 
+  "Ebolqen `Yca`yac piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nMh`ètjij `èmP_ jemjom `èetan'o h `èntapefmaje `èe\\r] `èecwtem.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.", 
   "Isaïe 59 : 1-17\nNon, la main du Seigneur n'est pas trop courte pour sauver, ni son oreille trop dure pour entendre. Mais ce sont vos fautes qui ont creusé un abîme entre vous et votre Dieu. ", 
   "إشعياء ٥٩ : ١- ١٧\nهل يد الرب لا تقوى أن تُخلص؟ أم أذنه ثقلت عن السمع؟ ولكن خطاياكم قامت بينكم وبين الله ", 
   ],
@@ -5663,7 +5471,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   ],
   [
   Prefix.HolyWeek+"9HDGospel&D=GL54&C=Diacon", 
-  "Matqeon  Kev k/ /> g/i\nTote auqwou; `ènje niarxh`èereuc nem niprecbuteroc `ènte pilaoc `èe'oun `èe;aulh `ènte piarxh`èereuc vh`èe]aumou; `èerof je Kai`èava. Ouo aueroucosni ina `ènce`èamoni `ènIhc? 'en ou`èxrof ouo `ènce'oqbef> naujw `èmmoc de pe je `èmpen`èqrenaic 'en `èp]ai je `ènne ou`è]qorter ]wpi 'en pilaoc.\nIhc? de efxh 'en Bhq`èani`èa 'en `èphi `ènCimwn pikakce	> ac`èi arof `ènje ou`ècimi `èere ouon oumoki `èncojen `èntotc`è ena]e `èncouenf ouo acjo]f `èe`è\rhi `èejen tef`èave efrwteb > `èetaunau de `ènje nimaqhthc au`èxremrem eujw `èmmoc je paitako ou pe. Ne ouon `è]jom gar pe `èe; `èmvai `èebol 'a oumh] ouo `èethitou `ènnihki > `èetaf`èemi de `ènje Ih/c/ pejaf nwou > je eqbeou tetenoua'ici `èe;`ècimi > ouwb gar `èenanef petacaif `èeroi > nihki gar ce nemwten `ènchou niben `èanok de ;nemwten an `ènchou niben.\nAciou`èi gar `ènje qai `èmpaicojen `èejen pacwma `èe`èpjinkoct > `èamhn ;jw `èmmoc nwten > je `èvma `èetounaiwi] `èmpaieuaggelion `èmmof 'en pikocmoc thrf eu`èecaji wf `èmvh`èeta tai `ècimi aif eumeu`èi nac > tote af]enaf `ènje ouai `èebol'en pimht `ècnau vh`èe]aumou; `èerof je Ioudac Piickari`èwthc a niarxh`èereucè. Pejaf nwou je ou pe `èetetennathif nhi ouo `èanok w `èntathif `èetenqhnou `ènqwou de aucemnhtc nemaf `èe; naf `èmmap `ènat > ouo icjen pichou `èete `èmmau nafkw; pe `ènca oueukeria ina `èntefthif nwou.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.", 
+  "Matqeon  Kev k/ /> g/i\nTote auqwou; `ènje niarxh`èereuc nem niprecbuteroc `ènte pilaoc `èe'oun `èe;aulh `ènte piarxh`èereuc vh`èe]aumou; `èerof je Kai`èava. Ouo aueroucosni ina `ènce`èamoni `ènIhc? 'en ou`èxrof ouo `ènce'oqbef> naujw `èmmoc de pe je `èmpen`èqrenaic 'en `èp]ai je `ènne ou`è]qorter ]wpi 'en pilaoc.\nIhc? de efxh 'en Bhq`èani`èa 'en `èphi `ènCimwn pikakce	> ac`èi arof `ènje ou`ècimi `èere ouon oumoki `èncojen `èntotc`è ena]e `èncouenf ouo acjo]f `èe`è\\rhi `èejen tef`èave efrwteb > `èetaunau de `ènje nimaqhthc au`èxremrem eujw `èmmoc je paitako ou pe. Ne ouon `è]jom gar pe `èe; `èmvai `èebol 'a oumh] ouo `èethitou `ènnihki > `èetaf`èemi de `ènje Ih/c/ pejaf nwou > je eqbeou tetenoua'ici `èe;`ècimi > ouwb gar `èenanef petacaif `èeroi > nihki gar ce nemwten `ènchou niben `èanok de ;nemwten an `ènchou niben.\nAciou`èi gar `ènje qai `èmpaicojen `èejen pacwma `èe`èpjinkoct > `èamhn ;jw `èmmoc nwten > je `èvma `èetounaiwi] `èmpaieuaggelion `èmmof 'en pikocmoc thrf eu`èecaji wf `èmvh`èeta tai `ècimi aif eumeu`èi nac > tote af]enaf `ènje ouai `èebol'en pimht `ècnau vh`èe]aumou; `èerof je Ioudac Piickari`èwthc a niarxh`èereucè. Pejaf nwou je ou pe `èetetennathif nhi ouo `èanok w `èntathif `èetenqhnou `ènqwou de aucemnhtc nemaf `èe; naf `èmmap `ènat > ouo icjen pichou `èete `èmmau nafkw; pe `ènca oueukeria ina `èntefthif nwou.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.", 
   "Matthieu 26 : 3-16\nAlors les grands prêtres et les anciens du peuple se réunirent dans le palais du Grand Prêtre, qui s'appelait Caïphe. Ils tombèrent d'accord pour arrêter Jésus par ruse et le tuer. Toutefois ils disaient: «Pas en pleine fête, pour éviter des troubles dans le peuple.» Comme Jésus se trouvait à Béthanie, dans la maison de Simon le lépreux, une femme s'approcha de lui, avec un flacon d'albâtre", 
   "متى ٢٦ : ٣ – ١٦\nحينئذ إجتمع رؤساء الكهنة وشيوخ الشعب في دار رئيس الكهنة الذي يُدعى قيافا، وتشاوروا لِكَي يمسكوا يسوع بمكر ويقتلوه. وكانوا يقولون: لا نفعل هذا في العيد لئلا يحدث شغب في الشعب. وفيما كان يسوع في بيت عنيا في بيت سمعان الأبرص، جاءت إليه إمرأة ومعها قارورة طيب", 
   ],
@@ -6377,7 +6185,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   ],
   [
   Prefix.HolyWeek+"1HDProphecies&D=GL55&C=Diacon", 
-  "Ebolqen pidoxodoc `nte Mw`ucyc piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nMw`èuchc  de  afsi  nen]hri  `èmpIcl  ? `èebol'en  `èviom  `ènaè  ouo  af`èini  `èmmwou `èe`è\rhi `èep]afe `ènte Cour.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.", 
+  "Ebolqen pidoxodoc `nte Mw`ucyc piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nMw`èuchc  de  afsi  nen]hri  `èmpIcl  ? `èebol'en  `èviom  `ènaè  ouo  af`èini  `èmmwou `èe`è\\rhi `èep]afe `ènte Cour.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.", 
   "Exode 15 : 22 à 16 : 3\nMoïse fit partir Israël de la mer des Joncs et ils sortirent vers le désert de Shour.", 
   "خروج ١٥ : ٢٣ - ١٦ : ١ – ٣\nثم إرتحل موسى ببنى إسرائيل من البحر الأحمر، وجاء بهم إلى برية شور،", 
   ],
@@ -6550,7 +6358,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   ],
   [
   Prefix.HolyWeek+"1HDActs&D=GL55&C=Diacon", 
-  "Pra[ewn twn `agiwn `n`apoctolwn to`anagnwcma > pra[ic pra[ic `nte nenio; `n`apoctoloc `ere pou`cmou `eqouab ]wpi neman > `amhn.\nOuo `èn`è\rhi de 'en nai`èeoou aftwnf `ènje Petroc 'en `èqmh; `ènni`ècnhou > ne ouon oumh] de euqouht ivai `èevai `èenauer ]e jout `ènran ouo pejaf. Nirwmi nen`ècnhou > w; pe `èntecjwk `èebol `ènje ;`ègravh> qhetafer]orp `ènjoc `ènje pip/n/a/ eqouab `èebol'en rwf `ènDauid> eqbe Ioudac vhetafersaumwit `ènnhetau`èamoni `ènIh/c/.\n Je nafhp	 `èn`è'rhi `èn'hten pe ouo `èapiwp `èi `èerof `èmpi`èklhroc `ènte tai di `èakoni`èa. Vai men oun af]wp `ènouioi `èebol'en `èvbexe `ènte `ètadikia > ouo afei ijen pefo > afkw] 'en tefmh; > nhet ca'oun `èmmof throu auvwn `èebol.\nOuo afouwn `èebol `ènouon niben et]op 'en Ilhm > wcte `èncemou; `èèe`èvran `èmpiioi `èete`èmmau 'en touacpi je Axeldamag > `èete piioi `ènte pi`ècnof pe. ~C`èc'hout gar i `pjwm `nte niyalmoc > (je teferbi marec]wf) g/ ouo `mpen`qref]wpi `nje vhet]op `n'htc > tefmetepickopoc mare keouai sitc\nPicaji de `nte ~P_ ef`eaiai ouo ef`e`a]ai > ef`e`amai ouo ef`etajro > 'en ;`agi`a `nek`klhci`a `nte V; > `amhn.", 
+  "Pra[ewn twn `agiwn `n`apoctolwn to`anagnwcma > pra[ic pra[ic `nte nenio; `n`apoctoloc `ere pou`cmou `eqouab ]wpi neman > `amhn.\nOuo `èn`è\\rhi de 'en nai`èeoou aftwnf `ènje Petroc 'en `èqmh; `ènni`ècnhou > ne ouon oumh] de euqouht ivai `èevai `èenauer ]e jout `ènran ouo pejaf. Nirwmi nen`ècnhou > w; pe `èntecjwk `èebol `ènje ;`ègravh> qhetafer]orp `ènjoc `ènje pip/n/a/ eqouab `èebol'en rwf `ènDauid> eqbe Ioudac vhetafersaumwit `ènnhetau`èamoni `ènIh/c/.\n Je nafhp	 `èn`è'rhi `èn'hten pe ouo `èapiwp `èi `èerof `èmpi`èklhroc `ènte tai di `èakoni`èa. Vai men oun af]wp `ènouioi `èebol'en `èvbexe `ènte `ètadikia > ouo afei ijen pefo > afkw] 'en tefmh; > nhet ca'oun `èmmof throu auvwn `èebol.\nOuo afouwn `èebol `ènouon niben et]op 'en Ilhm > wcte `èncemou; `èèe`èvran `èmpiioi `èete`èmmau 'en touacpi je Axeldamag > `èete piioi `ènte pi`ècnof pe. ~C`èc'hout gar i `pjwm `nte niyalmoc > (je teferbi marec]wf) g/ ouo `mpen`qref]wpi `nje vhet]op `n'htc > tefmetepickopoc mare keouai sitc\nPicaji de `nte ~P_ ef`eaiai ouo ef`e`a]ai > ef`e`amai ouo ef`etajro > 'en ;`agi`a `nek`klhci`a `nte V; > `amhn.", 
   "Actes des apôtres 1 : 15-20 \nEn ces jours-là, Pierre se leva au milieu des frères, ils étaient réunis au nombre d'environ cent vingt personnes, et il dit : «Frères, il fallait que s'accomplit l'Écriture où, par la bouche de David, l'Esprit Saint avait parlé d'avance de Judas, qui s'est fait le guide de ceux qui ont arrêté Jésus. Il avait rang parmi nous et s'était vu attribuer une part dans notre ministère.", 
   "أعمال ١ : ١٥ – ٢٠\nوفى تلك الايام قام بطرس في وسط الأخوة، وكَانَ عدد الأسماء معاً نحو مئة وعشرين إسماً، فقال: أَيُّهَا الرجال إخوتنا ينبغى أن يتم هذا المكتوب الذي سبق الروح القدس فقاله بفم داود عن يهوذا الذي صار دليلاً للذين قبضوا على يسوع. إذ كان معدوداً بيننا وصار له نصيب في هذه الخدمة،", 
   ],
@@ -6609,7 +6417,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   ],
   [
   Prefix.HolyWeek+"1HDPsalm&D=GL55&C=Diacon", 
-  "Yalmoc  to Dauid\nAu`snon `nje nefcaji `eote oune> `nqwou ancoqnef ne> Je `ene oujaji petaf;]w] nhi nai nafai `erof pe> ouo `ene peqmoc; `mmoi afjw `nanni]; `ncaji `e`\rhi `ejwi nai naxopt `ebol arof> `allhloui`a", 
+  "Yalmoc  to Dauid\nAu`snon `nje nefcaji `eote oune> `nqwou ancoqnef ne> Je `ene oujaji petaf;]w] nhi nai nafai `erof pe> ouo `ene peqmoc; `mmoi afjw `nanni]; `ncaji `e`\\rhi `ejwi nai naxopt `ebol arof> `allhloui`a", 
   "Psaume 54 : 18 et 10 \nSa parole est plus suave qu'un parfum, mais elle est un poignard. Si l'insulte me venait d'un ennemi, je pourrais l'endurer; si mon rival s'élevait contre moi, je pourrais me dérober. Alléluia.", 
   "مزمور ٥٤: ١٠، ١٨ \nكلامه ألين من الزيت (الدهن) وهو نصال، فلو كان العدو عيّرنى إذاً لإحتملت، ولو أن مبغضى عظّم علىّ الكلام لإختفيت منه : الليلويا.", 
   ],
@@ -6623,13 +6431,13 @@ ReadingsArrays.GospelNightArrayFR= [[
   ],
   [
   Prefix.HolyWeek+"1HDGospel&D=GL55&C=Diacon", 
-  "Yalmoc  to Dauid\nAu`snon `nje nefcaji `eote oune> `nqwou ancoqnef ne> Je `ene oujaji petaf;]w] nhi nai nafai `erof pe> ouo `ene peqmoc; `mmoi afjw `nanni]; `ncaji `e`\rhi `ejwi nai naxopt `ebol arof> `allhloui`a", 
+  "Yalmoc  to Dauid\nAu`snon `nje nefcaji `eote oune> `nqwou ancoqnef ne> Je `ene oujaji petaf;]w] nhi nai nafai `erof pe> ouo `ene peqmoc; `mmoi afjw `nanni]; `ncaji `e`\\rhi `ejwi nai naxopt `ebol arof> `allhloui`a", 
   "Psaume 54 : 18 et 10 \nSa parole est plus suave qu'un parfum, mais elle est un poignard. Si l'insulte me venait d'un ennemi, je pourrais l'endurer; si mon rival s'élevait contre moi, je pourrais me dérober. Alléluia.", 
   "مزمور ٥٤: ١٠، ١٨ \nكلامه ألين من الزيت (الدهن) وهو نصال، فلو كان العدو عيّرنى إذاً لإحتملت، ولو أن مبغضى عظّم علىّ الكلام لإختفيت منه : الليلويا.", 
   ],
   [
   Prefix.HolyWeek+"1HDGospel&D=GL55&C=Diacon", 
-  "Loukan  Kev k/b/ > z/-i/g\nAf`èi de `ènje pi`èeoou `ènte niat]emhr vh`èete`èc]e `èe]at `èmpipacxa `èn'htf. Ouo afouwrp `èmPetroc nem Iwannhc `èeafjoc> je ma]enwten cebte pipacxa nan ina `èntenouomf. `èNqwou de pejwou naf je `èxouw] `èecebtwtf qwn. `èNqof de pejaf nwou > je hppe `èeretenna]enwten `èe'oun `èe;baki> `èfna`èi `èebol `èe`è\ren qhnou `ènje ourwmi effai `ènou]o]ou `èmmwou> mo]i `èncwf `èepihi> `èetefna]e `èe'oun `èerof.\n Ouo `èajoc `èmpinebhi `ènte pihi > je peje piref;`ècbw nak je a]pe pama`ènemton > `èvma `èe;naouwm `èmpapacxa èè`èmmof nem namaqhthc. Ouo vh`èete`èmmau `èfnatamwten `èeouni]; `èmma `èefca`èp]wi efvwr]> cebtwtf  `èmmau. Etau]enwou de aujimi kata `èvrh; `èetafjoc nwou> ouo aucebte pipacxa. Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.", 
+  "Loukan  Kev k/b/ > z/-i/g\nAf`èi de `ènje pi`èeoou `ènte niat]emhr vh`èete`èc]e `èe]at `èmpipacxa `èn'htf. Ouo afouwrp `èmPetroc nem Iwannhc `èeafjoc> je ma]enwten cebte pipacxa nan ina `èntenouomf. `èNqwou de pejwou naf je `èxouw] `èecebtwtf qwn. `èNqof de pejaf nwou > je hppe `èeretenna]enwten `èe'oun `èe;baki> `èfna`èi `èebol `èe`è\\ren qhnou `ènje ourwmi effai `ènou]o]ou `èmmwou> mo]i `èncwf `èepihi> `èetefna]e `èe'oun `èerof.\n Ouo `èajoc `èmpinebhi `ènte pihi > je peje piref;`ècbw nak je a]pe pama`ènemton > `èvma `èe;naouwm `èmpapacxa èè`èmmof nem namaqhthc. Ouo vh`èete`èmmau `èfnatamwten `èeouni]; `èmma `èefca`èp]wi efvwr]> cebtwtf  `èmmau. Etau]enwou de aujimi kata `èvrh; `èetafjoc nwou> ouo aucebte pipacxa. Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.", 
   "Luc 22 : 7-13 \nVint le jour des Azymes, où devait être immolée la pâque, et il envoya Pierre et Jean en disant: «Allez nous préparer la pâque, que nous la mangions.» Ils lui dirent: «Où veux-tu que nous la préparions?»\nIl leur dit: «Voici qu'en entrant dans la ville, vous rencontrerez un homme portant une cruche d'eau. Suivez-le dans la maison où il pénétrera, et vous direz au propriétaire de la maison:", 
   "لوقا ٢٢ : ٧ – ١٣\nوجاء يوم الفطير الذي ينبغى أن يذبح فيه الفصح، فأرسل بطرس ويوحنا قائلاً: أمضيا وأعدا لنا الفصح لنأكله. فقالا له: أين تريد أن نعده؟\nفقال لهما: إذا دخلتما المدينة يلقاكما رجل حامل جرة ماء فإتبعاه إلى البيت الذي يدخله وقولا لرب البيت: ", 
   ],
@@ -6675,7 +6483,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   ],
   [
   Prefix.HolyWeek+"3HDProphecies&D=GL55&C=Diacon", 
-  "Ebolqen pidoxodoc `nte Mw`ucyc piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nAc]wpi  de  menenca  pefrac;  > peje  Mwèè`èuchc  na\ren  pilaoc > je  `ènqwten  `èateten`èiri è`è nouni]; `è nnobi.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.", 
+  "Ebolqen pidoxodoc `nte Mw`ucyc piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nAc]wpi  de  menenca  pefrac;  > peje  Mwèè`èuchc  na\\ren  pilaoc > je  `ènqwten  `èateten`èiri è`è nouni]; `è nnobi.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.", 
   "Exode  32 : 30 à 33 : 5\nLe lendemain, Moïse dit au peuple: «Vous avez commis, vous, un grand péché. »", 
   "خروج ٣٢: ٣٠ - ٣٣ : ١ – ٥\nوكان في الغد أن قال موسي للشعب: أنتم قد اخطأتم خطية عظيمة", 
   ],
@@ -6781,7 +6589,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   ],
   [
   Prefix.HolyWeek+"3HDGospel&D=GL55&C=Diacon", 
-  "Matqeon  Kev k/>/i/z/-i/q/\nN\rhi de 'en pi`èeoou `ènouit `ènte niatkwb > au`èi a Ih/c/ `ènje nefmaqhthc eujw `èmmoc > je akouw] `èecebte pipacxa nak qwn `èeouomf. \nNqof de pejaf nwou > je ma]enwten `èetai baki a pa`èvman `ènrwmi ouo `èajoc naf > je peje piref;`ècbw je pachou af'wnt > aina`èiri `èmpapacxa 'atotk nem namaqhthc. Ouo au`èiri `ènje nimaqhthc `èm`èvrh; `èeta Ih/c/ joc nwou ouo aucob; `èmpipacxa.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.", 
+  "Matqeon  Kev k/>/i/z/-i/q/\nN\\rhi de 'en pi`èeoou `ènouit `ènte niatkwb > au`èi a Ih/c/ `ènje nefmaqhthc eujw `èmmoc > je akouw] `èecebte pipacxa nak qwn `èeouomf. \nNqof de pejaf nwou > je ma]enwten `èetai baki a pa`èvman `ènrwmi ouo `èajoc naf > je peje piref;`ècbw je pachou af'wnt > aina`èiri `èmpapacxa 'atotk nem namaqhthc. Ouo au`èiri `ènje nimaqhthc `èm`èvrh; `èeta Ih/c/ joc nwou ouo aucob; `èmpipacxa.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.", 
   "Matthieu 26 : 17-19\nLe premier jour des Azymes, les disciples s'approchèrent de Jésus et lui dirent: «Où veux-tu que nous te préparions de quoi manger la Pâque?» Il dit: «Allez à la ville, chez un tel, et dites-lui: Le Maître te fait dire: Mon temps est proche, c'est chez toi que je vais faire la Pâque avec mes disciples.» Les disciples firent comme Jésus leur avait ordonné et préparèrent la Pâque. Gloire à Dieu éternellement.", 
   "متى ٢٦ : ١٧ – ١٩\nوفى اليوم الأول من الفطير، جاء التلاميذ إلى يسوع قائلين: أين تريد أن نُعد الفصح لتأكله ؟ وأما هو فقال لهم: إذهبوا إلى هذه المدينة، إلى فلان الرجل وقولوا له: المعلم يقول أن زمانى قد إقترب، وعندك أصنع فصحى مع تلاميذى. ففعل التلاميذ كما قال لهم يسوع وأعدوا الفصح.\nوالمجد لله دائماً.", 
   ],
@@ -6895,7 +6703,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   ],
   [
   Prefix.HolyWeek+"6HDPsalm&D=GL55&C=Diacon", 
-  "Yalmoc  to Dauid\nMaroueratcaji  `ènje  ni`ècvotou  `èn`èoji  >  nhetcaji `ènou`èanomi`èa 'a pi`èqmhi. Je aicwtem `èe`èp]w] `ènoumh] eu]op `èmpakw; > 'en `èpjin`èqrouqwou; eucop  `èe`è\rhi ` èejwi  aucosni  `èesi  `èntayuxh  >  `allhloui`a", 
+  "Yalmoc  to Dauid\nMaroueratcaji  `ènje  ni`ècvotou  `èn`èoji  >  nhetcaji `ènou`èanomi`èa 'a pi`èqmhi. Je aicwtem `èe`èp]w] `ènoumh] eu]op `èmpakw; > 'en `èpjin`èqrouqwou; eucop  `èe`è\\rhi ` èejwi  aucosni  `èesi  `èntayuxh  >  `allhloui`a", 
   "Psaume 30 : 19 et 14\nQu'ils deviennent muets, ces menteurs, car ils parlent contre le juste avec orgueil, insolence et mépris. J'entends les calomnies de la foule: de tous côté c'est l'épouvante. Ils ont tenu conseil contre moi, ils s'accordent pour m'ôter la vie. Alléluia.", 
   "مزمور٣٠ : ١٨، ١٣\nولتصر خرساء الشفاة الغاشة، المتكلمة على الصديق بالإثم، لأنى سمعت المذمة من كثيرين يسكنون حولى، حين إجتمعوا علىّ جميعاً تآمروا على أخذ نفسى الليلويا.", 
   ],
@@ -6915,7 +6723,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   ],
   [
   Prefix.HolyWeek+"6HDGospel&D=GL55&C=Diacon", 
-  "Yalmoc  to Dauid\nMaroueratcaji  `ènje  ni`ècvotou  `èn`èoji  >  nhetcaji `ènou`èanomi`èa 'a pi`èqmhi. Je aicwtem `èe`èp]w] `ènoumh] eu]op `èmpakw; > 'en `èpjin`èqrouqwou; eucop  `èe`è\rhi ` èejwi  aucosni  `èesi  `èntayuxh  >  `allhloui`a", 
+  "Yalmoc  to Dauid\nMaroueratcaji  `ènje  ni`ècvotou  `èn`èoji  >  nhetcaji `ènou`èanomi`èa 'a pi`èqmhi. Je aicwtem `èe`èp]w] `ènoumh] eu]op `èmpakw; > 'en `èpjin`èqrouqwou; eucop  `èe`è\\rhi ` èejwi  aucosni  `èesi  `èntayuxh  >  `allhloui`a", 
   "Psaume 30 : 19 et 14\nQu'ils deviennent muets, ces menteurs, car ils parlent contre le juste avec orgueil, insolence et mépris. J'entends les calomnies de la foule: de tous côté c'est l'épouvante. Ils ont tenu conseil contre moi, ils s'accordent pour m'ôter la vie. Alléluia.", 
   "مزمور٣٠ : ١٨، ١٣\nولتصر خرساء الشفاة الغاشة، المتكلمة على الصديق بالإثم، لأنى سمعت المذمة من كثيرين يسكنون حولى، حين إجتمعوا علىّ جميعاً تآمروا على أخذ نفسى الليلويا.", 
   ],
@@ -7159,7 +6967,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   ],
   [
   Prefix.HolyWeek+"9HDGospel&D=GL55&C=Diacon", 
-  "Matqeon  Kev k/>/ i/z/-i/q/\nN\rhi de 'en pi`èeoou `ènouit `ènte niatkwb > au`èi a Ih/c/ `ènje nefmaqhthc eujw `èmmoc > je akouw] `èecebte pipacxa nak qwn `èeoumof. \nNqof de pejaf nwou > je ma]enwten `èetai baki a pa`èvman `ènrwmi ouo `èajoc naf je > peje piref;`ècbw je pachou af'wnt > aina`èiri `èmpapacxa 'atotk nem namaqhthc. \nOuo au`èiri `ènje nimaqhthc `èm`èvrh; `èeta Ih/c/ joc nwou ouo aucob; `èmpipacxa.  Ouw]t `mpieuaggelion  eqouab. \nDo[a ci Kuri`e.", 
+  "Matqeon  Kev k/>/ i/z/-i/q/\nN\\rhi de 'en pi`èeoou `ènouit `ènte niatkwb > au`èi a Ih/c/ `ènje nefmaqhthc eujw `èmmoc > je akouw] `èecebte pipacxa nak qwn `èeoumof. \nNqof de pejaf nwou > je ma]enwten `èetai baki a pa`èvman `ènrwmi ouo `èajoc naf je > peje piref;`ècbw je pachou af'wnt > aina`èiri `èmpapacxa 'atotk nem namaqhthc. \nOuo au`èiri `ènje nimaqhthc `èm`èvrh; `èeta Ih/c/ joc nwou ouo aucob; `èmpipacxa.  Ouw]t `mpieuaggelion  eqouab. \nDo[a ci Kuri`e.", 
   "Matthieu 26 : 17 -19 \nLe premier jour des Azymes, les disciples s'approchèrent de Jésus et lui dirent: «Où veux-tu que nous te préparions de quoi manger la Pâque?» Il dit: « Allez à la ville, chez un tel, et dites-lui: «Le Maître te fait dire: Mon temps est proche, c'est chez toi que je vais faire la Pâque avec mes disciples.» Les disciples firent comme Jésus leur avait ordonné et préparèrent la Pâque. Gloire à Dieu éternellement.", 
   "متى ٢٦ : ١٧ – ١٩\nوفى اليوم الأول من الفطير، جاء التلاميذ إلى يسوع قائلين: أين تريد أن نعد لك الفصح لتأكله ؟ أما هو فقال لهم: إذهبوا إلى المدينة، إلى فلان الرجل وقولوا له: المعلم يقول أن زمانى قد إقترب، وعندك أصنع فصحى مع تلاميذى. ففعل التلاميذ كما قال لهم يسوع وأعدوا الفصح.\nوالمجد لله دائماً.", 
   ],
@@ -7355,7 +7163,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   ],
   [
   Prefix.HolyWeek+"LakanProphecies&D=GL55&C=Diacon", 
-  "Ebolqen Iezekiyl piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nOuo afolt `èe'oun `èe`è\ren piro `èmpihi hppe ic oumwou efnhou `èebol capeiebt `èmpi`èrion canica `èn`èeiebt. \nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.", 
+  "Ebolqen Iezekiyl piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nOuo afolt `èe'oun `èe`è\\ren piro `èmpihi hppe ic oumwou efnhou `èebol capeiebt `èmpi`èrion canica `èn`èeiebt. \nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.", 
   "Ezéchiel 47 : 1-9\nIl me ramena à l'entrée du Temple, et voici que de l'eau sortait de dessous le seuil du Temple, vers l'orient,", 
   "حزقيال ٤٧ : ١ – ٩\nثُمَّ أَرْجَعَنِي (الروح) إِلَى مَدْخَلِ ٱلْبَيْتِ وَإِذَا بِمِيَاهٍ تَخْرُجُ مِنْ تَحْتِ عَتَبَةِ ٱلْبَيْتِ نَحْوَ ٱلْمَشْرِقِ،", 
   ],
@@ -7724,7 +7532,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   ],
   [
   Prefix.HolyWeek+"1HEPsalm&D=GL55&C=Diacon", 
-  "Yalmoc  to Dauid\nP_ cwtem `èetaproceuxh > mare pa`è'rwou `èi `èe`èp]wi `èmpek`èmqo. Mpi`èeoou thrf nau;]w] nhi `ènje najaji  >  ouo nhet]ou]ou  `èejwi  nauwrk   `èe`è\rai   pe    > ``allhloui`a", 
+  "Yalmoc  to Dauid\nP_ cwtem `èetaproceuxh > mare pa`è'rwou `èi `èe`èp]wi `èmpek`èmqo. Mpi`èeoou thrf nau;]w] nhi `ènje najaji  >  ouo nhet]ou]ou  `èejwi  nauwrk   `èe`è\\rai   pe    > ``allhloui`a", 
   "Psaume  101 : 1 et 9\nSeigneur, entends ma prière et que mon cri parvienne jusqu'à Toi. Le jour, mes ennemis m'outragent;  ceux qui me louaient me maudissent.  Alléluia", 
   "مزمور ١٠١ : ١، ٧\nيا رب إستمع صلاتي وليصعد أمامك صراخي. النهار كله كان يعيرني أعدائي، والذين يمدحونني كانوا يتحالفون علىّ.", 
   ],
@@ -7738,13 +7546,13 @@ ReadingsArrays.GospelNightArrayFR= [[
   ],
   [
   Prefix.HolyWeek+"1HEGospel&D=GL55&C=Diacon", 
-  "Yalmoc  to Dauid\nP_ cwtem `èetaproceuxh > mare pa`è'rwou `èi `èe`èp]wi `èmpek`èmqo. Mpi`èeoou thrf nau;]w] nhi `ènje najaji  >  ouo nhet]ou]ou  `èejwi  nauwrk   `èe`è\rai   pe    > ``allhloui`a", 
+  "Yalmoc  to Dauid\nP_ cwtem `èetaproceuxh > mare pa`è'rwou `èi `èe`èp]wi `èmpek`èmqo. Mpi`èeoou thrf nau;]w] nhi `ènje najaji  >  ouo nhet]ou]ou  `èejwi  nauwrk   `èe`è\\rai   pe    > ``allhloui`a", 
   "Psaume  101 : 1 et 9\nSeigneur, entends ma prière et que mon cri parvienne jusqu'à Toi. Le jour, mes ennemis m'outragent;  ceux qui me louaient me maudissent.  Alléluia", 
   "مزمور ١٠١ : ١، ٧\nيا رب إستمع صلاتي وليصعد أمامك صراخي. النهار كله كان يعيرني أعدائي، والذين يمدحونني كانوا يتحالفون علىّ.", 
   ],
   [
   Prefix.HolyWeek+"1HEGospel&D=GL55&C=Diacon", 
-  "Iwannhn  Kev i/g/ > l/g/ ]/b/l/ nem i/d/ >a/-k/e\nNa]hri `èeti kekouji `ènchou ;xh nemwten > ouo tetennakw; `èncwi > kata `èvrh; `èetaijoc `ènniIoudai je `èvma `èanok `èe;na]enhi `èerof `ènqwten tetenna`è]`èi `èerof an > ouo ;nou wten ;jw `èmmoc nwten. Ouentolh `èmberi `èe;; `èmmoc nwten ina `èntetenmenre neten`èerhou > kata `èvrh; `èetaimenre qhnou > ina `ènqwten wten `èntetenmenre neten`èerhou. N`è\rhi 'en vai cena`èemi`è nje ouon niben je `ènqwten namaqhthc > `èe]wp `èereten]anmenre neten`èerhou. Peje Cimwn Petroc naf je P_ akna]enak `èeqwn > af`èerou`èw `ènje Ih/c/ je pima `èanok `èe;na]enhi `èerof > `èmmon `è]jom `èmmok `èemo]i `èncwi ;nou > `èe`èp'a`èe de ek`èemo]i. Peje Petroc naf je eqbeou `èmmon `è]jom `èmmoi è`èemo]i `èncwk ;nou > tayuxh ;naxac `èe`è'rhi `èejwk. Af`èerou`èw naf `ènje Ihc? > je tekyuxh `èxnaxac `èe`è'rhi `èejwi > `èamhn `èamhn ;jw `èmmoc nak je `ènne ou`èalektwr mou; > ]antekjolt `èebol `èn]omt `èncop.\nMpen`èqre petenht `è]qorter > na; `èeVnou; ouo na; `èeroi w. Ouon oumh] `èmmonh 'en `èphi `èmpaiwt > `èene `èmmon nainajoc nwten pe > je ;na]enhi `èntacebte ouma nwten. Ouo ai]an]enhi `èntacebte ouma nwten > palinon ei`èe`èi `èntael qhnou aroi > ina `èvma `èanok `èe;]op `èmmof `ènqwten wten `ènteten]wpi `èmmau nemhi. Ouo `èvma `èanok `èe;na]enhi `èerof > `ènqwten tetencwoun `èmpimwit. Peje Qwmac naf je P_/ ten`èemi an je akna]enak `èeqwn > ouo pwc ouon `è]jom `èmmon `èecouen pimwit. Peje Ihc? naf je `èanok pe pimwit nem ;meqmhi nem piwn' `èmpare `èli `èi a Viwt af`è]tem`èi `èebol itot. Icje `èaretencouwnt `èereten`èecouen pakeiwt > ouo icjen ;nou tetencwoun `èmmof ouo `èatetennau `èerof. Peje Vilippoc naf je P_ matamon `èeViwt ouo khn `èeron. Peje Ihc? naf je paichou thrf ;xh nemwten ouo `èmpekcouwnt Vilippe > vh`èetafnau `èeroi afnau `èeViwt > pwc `ènqok `èkjw `èmmoc je matamon `èeViwt.\nXna; an je `èanok ;'en paiwt ouo paiwt `èn'ht > nicaji `èe;jw `èmmwou nwten nai caji `èmmwou an `èebolitot `èmmauat > alla Viwt et]op `èn'ht `ènqof vhet`èiri `ènnihou`èi. Na; `èeroi je `èanok ;'en paiwt ouo paiwt `èn'ht> `èmmon kan eqbe ni`èhou`èi na; `èeroi > Amhn `èamhn ;jw `èmmoc nwten > je vheqna; `èeroi ni`èhou`èi `èe;ra `èmmwou ef`èeaitou wf ouo anni]; `èenai ef`èeaitou > je `èanok ;na]enhi a `èviwt. Ouo vh`èetetennaer`èetin `èmmof 'en paran ei`èeaif nwten > ina `èntefsi`èwou `ènje Viwt 'en `èP]hri. Ouo vh`èetetennaer`èetin `èmmof 'en paran vai ;naaif. E]wp tetenmei `èmmoi tetenna`èare `èenaentolh. Ouo `èanok eqna;o `èeViwt ouo ef`èe;nwten `ènkeparaklhton > ina `èntef]wpi nemwten ]a `èene > Pipn/a/ `ènte ;meqmhi vh `èete `èmmon `è]jom `èmpikocmoc `èe]opf je `èfnau `èerof an > oude `èn`èfcwoun `èmmof an > `ènqwten de tetencwoun `èmmof je af]op nemwten ouo ef`èe]wpi 'en qhnou. Nnaxa qhnou `èeretenoi `ènorvanoc > ;nhou arwten.\nEti kekouji pikocmoc nanau `èeroi an je `ènqwten de tetennanau `èeroi > je `èanok ;wn' ouo `ènqwten wten `èereten`èewn' > 'en pi`èeoou `èete`èmmau `èereten`èe`èemi `ènqwten je `èanok ;'en paiwt> ouo `ènqwten `èn`è'rhi `èn'ht > ouo `èanok w 'en qhnou. Vh`èete naentolh `èntotf ouo et`èare `èerwou > vh`èete`èmmau eqmei `èmmoi > vh de eqmei `èmmoi ef`èemenritf nje paiwt> ouo anok w ei`èemenritf > ouo ei`èeouon	  `èerof. Peje Ioudac naf Piickariwthc an > je P_ oupe `èetaf]wpi je `èxnaouonk `èeron `èanon > ouo pikocmoc `ènqof an > af`èerou`èw `ènje Ihc? efjw `èmmoc naf > je vheqmei `èmmoi ef`èe`èare `èepacaji > ouo ef`èemenritf `ènje paiwt > ouo en`èeèè`èi arof ouo en`èeqami`èo `èmpenma`èn]wpi `èn'htf. Vh`èete `èn`èfmei `èmmoi an `èfna`èare an `èepacaji > ouo picaji `èetetencwtem `èerof vwi an pe> alla va Viwt pe vh`èetaftaouoi. Nai de aijotou nwten ei]op 'aten qhnou. Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.", 
+  "Iwannhn  Kev i/g/ > l/g/ ]/b/l/ nem i/d/ >a/-k/e\nNa]hri `èeti kekouji `ènchou ;xh nemwten > ouo tetennakw; `èncwi > kata `èvrh; `èetaijoc `ènniIoudai je `èvma `èanok `èe;na]enhi `èerof `ènqwten tetenna`è]`èi `èerof an > ouo ;nou wten ;jw `èmmoc nwten. Ouentolh `èmberi `èe;; `èmmoc nwten ina `èntetenmenre neten`èerhou > kata `èvrh; `èetaimenre qhnou > ina `ènqwten wten `èntetenmenre neten`èerhou. N`è\\rhi 'en vai cena`èemi`è nje ouon niben je `ènqwten namaqhthc > `èe]wp `èereten]anmenre neten`èerhou. Peje Cimwn Petroc naf je P_ akna]enak `èeqwn > af`èerou`èw `ènje Ih/c/ je pima `èanok `èe;na]enhi `èerof > `èmmon `è]jom `èmmok `èemo]i `èncwi ;nou > `èe`èp'a`èe de ek`èemo]i. Peje Petroc naf je eqbeou `èmmon `è]jom `èmmoi è`èemo]i `èncwk ;nou > tayuxh ;naxac `èe`è'rhi `èejwk. Af`èerou`èw naf `ènje Ihc? > je tekyuxh `èxnaxac `èe`è'rhi `èejwi > `èamhn `èamhn ;jw `èmmoc nak je `ènne ou`èalektwr mou; > ]antekjolt `èebol `èn]omt `èncop.\nMpen`èqre petenht `è]qorter > na; `èeVnou; ouo na; `èeroi w. Ouon oumh] `èmmonh 'en `èphi `èmpaiwt > `èene `èmmon nainajoc nwten pe > je ;na]enhi `èntacebte ouma nwten. Ouo ai]an]enhi `èntacebte ouma nwten > palinon ei`èe`èi `èntael qhnou aroi > ina `èvma `èanok `èe;]op `èmmof `ènqwten wten `ènteten]wpi `èmmau nemhi. Ouo `èvma `èanok `èe;na]enhi `èerof > `ènqwten tetencwoun `èmpimwit. Peje Qwmac naf je P_/ ten`èemi an je akna]enak `èeqwn > ouo pwc ouon `è]jom `èmmon `èecouen pimwit. Peje Ihc? naf je `èanok pe pimwit nem ;meqmhi nem piwn' `èmpare `èli `èi a Viwt af`è]tem`èi `èebol itot. Icje `èaretencouwnt `èereten`èecouen pakeiwt > ouo icjen ;nou tetencwoun `èmmof ouo `èatetennau `èerof. Peje Vilippoc naf je P_ matamon `èeViwt ouo khn `èeron. Peje Ihc? naf je paichou thrf ;xh nemwten ouo `èmpekcouwnt Vilippe > vh`èetafnau `èeroi afnau `èeViwt > pwc `ènqok `èkjw `èmmoc je matamon `èeViwt.\nXna; an je `èanok ;'en paiwt ouo paiwt `èn'ht > nicaji `èe;jw `èmmwou nwten nai caji `èmmwou an `èebolitot `èmmauat > alla Viwt et]op `èn'ht `ènqof vhet`èiri `ènnihou`èi. Na; `èeroi je `èanok ;'en paiwt ouo paiwt `èn'ht> `èmmon kan eqbe ni`èhou`èi na; `èeroi > Amhn `èamhn ;jw `èmmoc nwten > je vheqna; `èeroi ni`èhou`èi `èe;ra `èmmwou ef`èeaitou wf ouo anni]; `èenai ef`èeaitou > je `èanok ;na]enhi a `èviwt. Ouo vh`èetetennaer`èetin `èmmof 'en paran ei`èeaif nwten > ina `èntefsi`èwou `ènje Viwt 'en `èP]hri. Ouo vh`èetetennaer`èetin `èmmof 'en paran vai ;naaif. E]wp tetenmei `èmmoi tetenna`èare `èenaentolh. Ouo `èanok eqna;o `èeViwt ouo ef`èe;nwten `ènkeparaklhton > ina `èntef]wpi nemwten ]a `èene > Pipn/a/ `ènte ;meqmhi vh `èete `èmmon `è]jom `èmpikocmoc `èe]opf je `èfnau `èerof an > oude `èn`èfcwoun `èmmof an > `ènqwten de tetencwoun `èmmof je af]op nemwten ouo ef`èe]wpi 'en qhnou. Nnaxa qhnou `èeretenoi `ènorvanoc > ;nhou arwten.\nEti kekouji pikocmoc nanau `èeroi an je `ènqwten de tetennanau `èeroi > je `èanok ;wn' ouo `ènqwten wten `èereten`èewn' > 'en pi`èeoou `èete`èmmau `èereten`èe`èemi `ènqwten je `èanok ;'en paiwt> ouo `ènqwten `èn`è'rhi `èn'ht > ouo `èanok w 'en qhnou. Vh`èete naentolh `èntotf ouo et`èare `èerwou > vh`èete`èmmau eqmei `èmmoi > vh de eqmei `èmmoi ef`èemenritf nje paiwt> ouo anok w ei`èemenritf > ouo ei`èeouon	  `èerof. Peje Ioudac naf Piickariwthc an > je P_ oupe `èetaf]wpi je `èxnaouonk `èeron `èanon > ouo pikocmoc `ènqof an > af`èerou`èw `ènje Ihc? efjw `èmmoc naf > je vheqmei `èmmoi ef`èe`èare `èepacaji > ouo ef`èemenritf `ènje paiwt > ouo en`èeèè`èi arof ouo en`èeqami`èo `èmpenma`èn]wpi `èn'htf. Vh`èete `èn`èfmei `èmmoi an `èfna`èare an `èepacaji > ouo picaji `èetetencwtem `èerof vwi an pe> alla va Viwt pe vh`èetaftaouoi. Nai de aijotou nwten ei]op 'aten qhnou. Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.", 
   "Jean 13 : 33 à 14 : 25\nPetits enfants, c'est pour peu de temps que je suis encore avec vous. Vous me chercherez, et comme je l'ai dit aux Juifs: où je vais, vous ne pouvez venir, à vous aussi je le dis à présent. Je vous donne un commandement nouveau: vous aimer les uns les autres; comme je vous ai aimés, aimez-vous les uns les autres. A ceci tous reconnaîtront que vous êtes mes disciples:", 
   "يوحنا ١٣: ٣٣ - ١٤: ١ – ٢٥\nيا أولادي أنا معكم زماناً يسيراً وستطلبونني، وكما قلت لليهود أن الموضع الذي أذهب أنا إليه لا تقدرون أنتم أن تأتوا، أقول لكم أنتم الآن أيضاً وصية جديدة أعطيكم، أن يحب بعضكم بعضاً كما أحببتكم أنا، تحبون أنتم أيضاً بعضكم بعضا، وبهذا يعرف الجميع أنكم تلاميذى", 
   ],
@@ -7798,7 +7606,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   ],
   [
   Prefix.HolyWeek+"1HEGospel&D=GL55&C=Diacon", 
-  "Iwannhn  Kev i/d/ > k/ /]/b/l/ nem i/e/ > a/- k/e\nE]wp de af]an`èi `ènje piparaklhtoc Pip/n/a/ eq/u/ > vh`èete Viwt naouorpf 'en paran > `ènqof eqna`ètcabe qhnou `èewb niben > ouo `èfna; `èm`èvmeu`èi nwten `èewb niben `èetaijotou nwten. :naxw `èntairhnh nwten > tairhnh `èanok ;nathic nwten > `èm`èvrh; an `èete pikocmoc ;`èmmoc `èe;na; `èmpen`èqref`è]qorter `ènje petenht oude `èmperer`è]la `ènht. Aretencwtem je aijoc nwten > je ;na]enhi ouo ;nhou arwten > `èenaretenmei `èmmoi naretennara]i pe > je ;na]enhi a Viwt > je paiwt ouni]; `èeroi pe. Ouo ;nou aijoc nwten `èmpatec]wpi > ina ac]an]wpi `èntetenna; > `èn;naje oumh] `èncaji nwten an > je `èfnhou gar `ènje `èparxwn `ènte paikocmoc ouo `èmmon `èli`èntaf `èn'ht > alla ina `èntef`èemi `ènje pikocmoc je ;er`èagapan `èmpaiwt > ouo kata `èvrh; `èetafonen nhi `ènje paiwt ;`èiri `èmpairh;> tenqhnou maron `èeboltai. Anok pe ;bw `èn`èaloli `ènta`èvmhi ouo paiwt pe piouwi > klhma niben `èete `èn'ht `èete `èn`èfnaen outa `èebol an `èfnakorjf > ouo vh niben eqnaen outa `èebol `èfnatoubof > ina `èntefen ou`èo `ènouta `èebol > hdh `ènqwten `èatetentoubo eqbe picaji `èetaicaji `èmmof nemwten. }wpi `èn`è'rhi `èn'ht ouo `èanok w 'en qhnou > `èm`èvrh; `èmpiklhma `èete `èmmon`è]jom `èmmof `èntefen outa `èebol itotf `èmmauatf > af`è]tem]wpi 'en ;bw `èn`èaloli > pairh; `ènqwten wten `èmmon`è]jom `èmmwten `èareten`è]tem]wpi `èn`è'rhi `èn'ht. Anok pe ;bw `èn`èaloli ouo `ènqwten ne niklhma > vheqna]wpi `èn'ht ouo `èanok w `èn'htf> vai ef`èeen oumh] `ènouta `èebol > je atsnou`èi `èmmon`è]jom `èmmwten `èeer `èli. Are`è]tem ouai ]wpi `èn'ht cenaitf `èebol > `èm`èvrh; `èmpiklhma ouo ]af]wou`èi ouo ]auqou`èwtou `ènceitou `èepi`èxrwm ouo ]aurwk. E]wp de `èareten]an]pi `èn`è'rhi `èn'ht ouo `ènte nacaji ]wpi 'en qhnou > vh`èetetenoua]f `èari`èetin `èmmof ouo `èfna]wpi nwten > 'en vai afsi`èwou `ènje paiwt > ina `èntetennen oumh] `ènouta `èebol > ouo `ènteten]wpi nhi `èmmaqhtc. M`èvrh; `èetafmenrit `ènje paiwt `èanok w aimenre qhnou > ]wpi `èn`è'rhi 'en ta`èagaph. E]wp `ènteten`èare `èenaentolh tetenna]wpi 'en ta`èagaph > `èm`èvrh; w `èetai`èare `èenientolh `ènte paiwt > ouo ;]op 'en tef`èagaph. Nai aijotou nwten ina `ènte para]i ]wpi 'en qhnou > ouo `ènte petenra]i wten `èntefjwk `èebol. Qai `èanok te taentolh ina `ènqwten `èntetenmenre neten`èerhou `èm`èvrh; `èetaimenre qhnou `èmmof. Mmon peqnaac `èetai `èagaph `ènten `èli > ina `ènte ouai xw `èntefyuxh `èe`è\rhi `èejen nef`è]vhr > `ènqwten `ènqwten na`è]vhr > `èe]wp `èaretenan`èiri `ènnhe;onen `èmmwten `èerwou > `èn;namou; `è`èerwten an je bwk > je `èmpare pibwk `èemi je ou pete pef_ ra `èmmof > `ènqwten de aimou; `èerwten je na`è]vhr > je wb niben `èetaicoqmou `èntotf `èmpaiwt aitamwten `èerwou. Nqwten an `èatetencotpt alla `èanok aicetp qhnou> ouo aixa qhnou ina `ènteten]enwten ouo `èntetenen outa `èebol ouo petenouta `èntef`èoi > ina vh`èeteteneretin `èmmof `èntotf `èmViwt 'en paran `èntefthif nwten. Nai de ;onen `èmmwten `èerwou > ina `èntetenmenre neten`èerhou > icje pikocmoc moc; `èmmwten > `èari`èemi je `èanok `èn]orp pe `èetafmectwi. Ene `ènqwten `èebol'en pikocmoc > nare pikocmoc namenre vh`èete vwf > `èoti de `ènqwten an `èebol'en pikocmoc an > alla `èanok aicetp qhnou `èebol'en pikocmoc > eqbe vai pikocmoc moc; `èmmwten. Ari`èvmeui `èmpicaji `èetaijof nwten > je `èmmon bwk `èenaaf `èepef_ > icje ausoji `èncwi `ènqwten wten eu`èesoji `èncaqhnou > icje au`èare `èepacaji eu`èe`èare `èevwten wten. Alla nai throu cenaaitou nwten eqbe paran > je cecwoun an `èmvh`èetaftaouoi. Ene `èmpi`èi pe ouo `èntacaji nemwou > ne `èmmon tounobi `èmmau pe > ;nou de `èmmontou lwiji `èmmau eqbe nounobi > vheqmoc; `èmmoi `èfmoc; `èmpakeiwt > `èene `èmpi`èiri pe `ènni`èhou`èi `èn`è'rhi `èn'htou nh`èete `èmpikeouai aitou > ne `èmmontou nobi `èmmau pe> ;nou de aunau ouo aumectwi nem pakeiwt. Alla ina `èntefjwk `èebol `ènje picaji et`èc'hout ipounomoc > je aumectwi `ènjinjh. Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.", 
+  "Iwannhn  Kev i/d/ > k/ /]/b/l/ nem i/e/ > a/- k/e\nE]wp de af]an`èi `ènje piparaklhtoc Pip/n/a/ eq/u/ > vh`èete Viwt naouorpf 'en paran > `ènqof eqna`ètcabe qhnou `èewb niben > ouo `èfna; `èm`èvmeu`èi nwten `èewb niben `èetaijotou nwten. :naxw `èntairhnh nwten > tairhnh `èanok ;nathic nwten > `èm`èvrh; an `èete pikocmoc ;`èmmoc `èe;na; `èmpen`èqref`è]qorter `ènje petenht oude `èmperer`è]la `ènht. Aretencwtem je aijoc nwten > je ;na]enhi ouo ;nhou arwten > `èenaretenmei `èmmoi naretennara]i pe > je ;na]enhi a Viwt > je paiwt ouni]; `èeroi pe. Ouo ;nou aijoc nwten `èmpatec]wpi > ina ac]an]wpi `èntetenna; > `èn;naje oumh] `èncaji nwten an > je `èfnhou gar `ènje `èparxwn `ènte paikocmoc ouo `èmmon `èli`èntaf `èn'ht > alla ina `èntef`èemi `ènje pikocmoc je ;er`èagapan `èmpaiwt > ouo kata `èvrh; `èetafonen nhi `ènje paiwt ;`èiri `èmpairh;> tenqhnou maron `èeboltai. Anok pe ;bw `èn`èaloli `ènta`èvmhi ouo paiwt pe piouwi > klhma niben `èete `èn'ht `èete `èn`èfnaen outa `èebol an `èfnakorjf > ouo vh niben eqnaen outa `èebol `èfnatoubof > ina `èntefen ou`èo `ènouta `èebol > hdh `ènqwten `èatetentoubo eqbe picaji `èetaicaji `èmmof nemwten. }wpi `èn`è'rhi `èn'ht ouo `èanok w 'en qhnou > `èm`èvrh; `èmpiklhma `èete `èmmon`è]jom `èmmof `èntefen outa `èebol itotf `èmmauatf > af`è]tem]wpi 'en ;bw `èn`èaloli > pairh; `ènqwten wten `èmmon`è]jom `èmmwten `èareten`è]tem]wpi `èn`è'rhi `èn'ht. Anok pe ;bw `èn`èaloli ouo `ènqwten ne niklhma > vheqna]wpi `èn'ht ouo `èanok w `èn'htf> vai ef`èeen oumh] `ènouta `èebol > je atsnou`èi `èmmon`è]jom `èmmwten `èeer `èli. Are`è]tem ouai ]wpi `èn'ht cenaitf `èebol > `èm`èvrh; `èmpiklhma ouo ]af]wou`èi ouo ]auqou`èwtou `ènceitou `èepi`èxrwm ouo ]aurwk. E]wp de `èareten]an]pi `èn`è'rhi `èn'ht ouo `ènte nacaji ]wpi 'en qhnou > vh`èetetenoua]f `èari`èetin `èmmof ouo `èfna]wpi nwten > 'en vai afsi`èwou `ènje paiwt > ina `èntetennen oumh] `ènouta `èebol > ouo `ènteten]wpi nhi `èmmaqhtc. M`èvrh; `èetafmenrit `ènje paiwt `èanok w aimenre qhnou > ]wpi `èn`è'rhi 'en ta`èagaph. E]wp `ènteten`èare `èenaentolh tetenna]wpi 'en ta`èagaph > `èm`èvrh; w `èetai`èare `èenientolh `ènte paiwt > ouo ;]op 'en tef`èagaph. Nai aijotou nwten ina `ènte para]i ]wpi 'en qhnou > ouo `ènte petenra]i wten `èntefjwk `èebol. Qai `èanok te taentolh ina `ènqwten `èntetenmenre neten`èerhou `èm`èvrh; `èetaimenre qhnou `èmmof. Mmon peqnaac `èetai `èagaph `ènten `èli > ina `ènte ouai xw `èntefyuxh `èe`è\\rhi `èejen nef`è]vhr > `ènqwten `ènqwten na`è]vhr > `èe]wp `èaretenan`èiri `ènnhe;onen `èmmwten `èerwou > `èn;namou; `è`èerwten an je bwk > je `èmpare pibwk `èemi je ou pete pef_ ra `èmmof > `ènqwten de aimou; `èerwten je na`è]vhr > je wb niben `èetaicoqmou `èntotf `èmpaiwt aitamwten `èerwou. Nqwten an `èatetencotpt alla `èanok aicetp qhnou> ouo aixa qhnou ina `ènteten]enwten ouo `èntetenen outa `èebol ouo petenouta `èntef`èoi > ina vh`èeteteneretin `èmmof `èntotf `èmViwt 'en paran `èntefthif nwten. Nai de ;onen `èmmwten `èerwou > ina `èntetenmenre neten`èerhou > icje pikocmoc moc; `èmmwten > `èari`èemi je `èanok `èn]orp pe `èetafmectwi. Ene `ènqwten `èebol'en pikocmoc > nare pikocmoc namenre vh`èete vwf > `èoti de `ènqwten an `èebol'en pikocmoc an > alla `èanok aicetp qhnou `èebol'en pikocmoc > eqbe vai pikocmoc moc; `èmmwten. Ari`èvmeui `èmpicaji `èetaijof nwten > je `èmmon bwk `èenaaf `èepef_ > icje ausoji `èncwi `ènqwten wten eu`èesoji `èncaqhnou > icje au`èare `èepacaji eu`èe`èare `èevwten wten. Alla nai throu cenaaitou nwten eqbe paran > je cecwoun an `èmvh`èetaftaouoi. Ene `èmpi`èi pe ouo `èntacaji nemwou > ne `èmmon tounobi `èmmau pe > ;nou de `èmmontou lwiji `èmmau eqbe nounobi > vheqmoc; `èmmoi `èfmoc; `èmpakeiwt > `èene `èmpi`èiri pe `ènni`èhou`èi `èn`è'rhi `èn'htou nh`èete `èmpikeouai aitou > ne `èmmontou nobi `èmmau pe> ;nou de aunau ouo aumectwi nem pakeiwt. Alla ina `èntefjwk `èebol `ènje picaji et`èc'hout ipounomoc > je aumectwi `ènjinjh. Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.", 
   "Jean 14 : 26 à 15 : 25\nMais le Paraclet, l'Esprit Saint, que le Père enverra en mon nom, lui, vous enseignera tout et vous rappellera tout ce que je vous ai dit. Je vous laisse la paix; c'est ma paix que je vous donne; je ne vous la donne pas comme le monde la donne. Que votre cœur ne se trouble ni ne s'effraie. Vous avez entendu que je vous ai dit: Je m'en vais et je reviendrai vers vous. Si vous m'aimiez, vous vous réjouiriez", 
   "يوحنا ١٤: ٢٦ - ١٥: ٢٥\nوإذا جاء المعزى الروح القدس الذي يرسله أبي بإسمى فهو يعلمكم كل شيء ويذكركم بكل ما قلته لكم. سلامى أترك لكم، سلامى أنا أعطيكم ليس كما يعطى العالم أعطيكم. لا تضطرب قلوبكم ولا تجزع، فقد سمعتم إني قلت لكم إننى ماض ثم آتى إليكم، فلو كنتم تحبوننى لكنتم تفرحون", 
   ],
@@ -7852,7 +7660,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   ],
   [
   Prefix.HolyWeek+"1HEGospel&D=GL55&C=Diacon", 
-  "Iwannhn  Kev i/g/ > l/g/ ]/b/l/ nem i/d/ >a/-k/e\nE]wp de af]an`èi `ènje piparaklhtoc vh `èanok `èe;naouorpf nwten `èebolitotf `èmpaiwt > Pip/n/a/ `ènte ;meqmhi vheqnhou `èebola `èViwt> `ènqof eqnaermeqre eqbht. Ouo `ènqwten wten tetenermeqre je tetenxh nemhi icjen ]orp. Nai aijotou nwten ina `ènteten`è]tem erckandalizecqe. Au]anerqhnou `èn`èapoucunagwgoc > alla `ècnhou `ènje ouounou ina vh niben eqna'wteb `èmmwten > `èntefmeu`èi je af`èini `ènou]ou]wou]i `èe`è\rhi a V;. Ouo nai eu`èeaitou nwten je ouhi `èmpoucouen Viwt oude `èanok `èmpoucouwnt. Alla nai aijotou nwten ina ac]an`èi `ènje ;ounou `èntetener`èvmeu`èi je aiou`èw `èanok èeijw `èmmwou nwten > nai de `èmpijotou nwten icjen h je naixh nemwten pe ;nou de ;na]enhi a vh`èetaftaouoi > ouo `èmmon `èli `èebol'en qhnou ]ini `èmmoi je akna]enak `èeqwn > alla je aije nai nwten `èa pe`èmka `ènht ma petenht. Alla `èanok `èqmhi pe ;jw `èmmoc nwten > `ècernofri nwten ina `èanok `ènta]enhi > `èe]wp gar ai`è]tem]enhi piparaklhtoc na`èi arwten an> ]wp gar ai]an]henhi ;naouorpf nwten. Ouo af]an`èi `ènje vh`èete`èmmau ef`èecoi `èmpikocmoc eqbe `èvnobi > nem eqbe oumeqmhi > nem eqbe ouap > eqbe `èvnobi men je cena; `èeroi an. Eqbe oumeqmhi de je ;na]enhi a `èviwt ouo tetennau eroi an je. Eqbe ouap de je `èparxwn `ènte paikocmoc auou`èw eu;ap `èerof. Ouon`ènthi `ènankemh] `èejotou nwten alla tetenna`è]fai 'arwou an ;nou. E]wp de af]an`èi `ènje vh`èete`èmmau pipn ?a ? `ènte ;meqmhi > ef`èesimwit nwten 'en meqmhi niben > `èfnacaji gar an `èebolitotf `èmmauataf > alla nh`èetafcoqmou `èete`èfnacaji `èmmwou > ouo nheqnhou ef`èetamwten `èerwou. Vh`èete`èmmau `èfna;`èwou nhi > je `èfnasi `èebol'en vh`èete vwi ouo `èfnatame qhnou > wb niben `èete `ènte paiwt nou`èi ne > eqbe vai aijoc nwten je `èfnasi `èebol'en vh`èete vwi ouo `ènteftame qhnou. Kekouji tetennanau `èeroi je `èanok ;na]enhi a Viwt. Peje anouon `èebol'en nefmaqhthc `ènnou`èerhou > je paicaji ou pe `èetefjw `èmmof nan > je kekoji tetennanau `èeroi an> ouo palin kekouji tetennau `èeroi ouo je `èanok ;na]enhi a Viwt. Naujw oun `èmmoc pe je ou pe vai `èetefjw `èmmof je ke kouji > `ènten`èemi an je afjw `èmmoc je ou. Af`èemi de `ènje Ihc ? je nauouw] `èe]enf pe > ouo pejaf nwou je tetenkw; `ènca paicaji nem neten`èerhou > je aijoc nwten je kekouji tetennanau `èeroi an> ouo palin kekouji tetennanau `èeroi. Amhn amhn ;jw `èmmoc nwten je tetennarimi nqwten ntetenerhbi > pikocmoc `ènqof `ènara]i > `ènqwten tetennaer`èmka `ènht > alla petene`èmka `ènht `èfna]wpi nwten eura]i. :`ècimi ac]annou`èi `èemici ]acer`èmka `ènht je ac`èi `ènje tecounou > `èe]wp de ac]anmici `èmpi]hri `èmpacer`èvmeui je `èmpiojej eqbe pira]i  > je acmec ourwmi `èepikocmoc. Ouo `ènqwten wten ;nou men eretèè`èesi `ènoumka `ènht > palin on ;nanau `èerwten ouo tetennara]i > ouo petenra]i `èmmon `èli naolf `ènten qhnou 'en pi`èeoou `èete`èmmau tetenna]ent `èe`èli nai > `èamhn ;jw `èmmoc nwten je vh`èetetenna`èeretin `èmmof `èntotf `èmViwt 'en paran ef`èethif nwten. }a ;nou `èmpateteneretin `èn`èli 'en paran > `èari`èetin ouo tetennasi > ina `ènte petenra]i ]wpi efjhk `èebol. Nai de aijotou nwten 'en anparoimia > `ècnhou de `ènje ouounou ote einacaji nemwten an je 'en anparoimia> alla 'en ouparrhcia ainatamwten eqbe Viwt > 'en pi`èeoou `èete`èmmau `èereten`èeretin 'en paran > ouo ;najoc nwten an je `èanok eqna;o `èeViwt eqbe qhnou. Nqof gar wf Viwt `èfmei `èmmwten je `ènqwten `èaretenmenrit > ouo `èaretenna	 je `èetai`èi `èebola `èViwt. Ai`èi `èebola Viwt ouo ai`èi `èepikocmoc > palin on ;naxw `èncwi `èmpikocmoc `ènta]enhi a Viwt. Peje nefmaqhthc naf > je hppe ;nou `èkcaji 'en ouparrhcia > ouo `èn`èkje `èli an `èmparoimia > ;nou ten`èemi je `èkcwoun `ènwb niben ouo `èn`èkerxria an `ènte ouai ]enk > 'en vai tenna; je `èetak`èi ebokl iten V;. Af`èerou`èw nwou `ènje Ihc ? je ;nou tetenna; hppe `ècnhou `ènje ouounou ouo ac`èi ina `èntetenjwr `èebol `èvouai `èvouai èè`èepefma > ouo ;xh `èmmauat an > je `èfxh nemhi `ènje paiwt. Nai aijotou nwten ina `ènte ouirhnh ]wpi nwten `èn`è'rhi `èn'ht> ouon `èntwten `èmmau `ènouojej `èmpikocmoc > alla jemnom; `èanok aisro `èepikocmoc. Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.", 
+  "Iwannhn  Kev i/g/ > l/g/ ]/b/l/ nem i/d/ >a/-k/e\nE]wp de af]an`èi `ènje piparaklhtoc vh `èanok `èe;naouorpf nwten `èebolitotf `èmpaiwt > Pip/n/a/ `ènte ;meqmhi vheqnhou `èebola `èViwt> `ènqof eqnaermeqre eqbht. Ouo `ènqwten wten tetenermeqre je tetenxh nemhi icjen ]orp. Nai aijotou nwten ina `ènteten`è]tem erckandalizecqe. Au]anerqhnou `èn`èapoucunagwgoc > alla `ècnhou `ènje ouounou ina vh niben eqna'wteb `èmmwten > `èntefmeu`èi je af`èini `ènou]ou]wou]i `èe`è\\rhi a V;. Ouo nai eu`èeaitou nwten je ouhi `èmpoucouen Viwt oude `èanok `èmpoucouwnt. Alla nai aijotou nwten ina ac]an`èi `ènje ;ounou `èntetener`èvmeu`èi je aiou`èw `èanok èeijw `èmmwou nwten > nai de `èmpijotou nwten icjen h je naixh nemwten pe ;nou de ;na]enhi a vh`èetaftaouoi > ouo `èmmon `èli `èebol'en qhnou ]ini `èmmoi je akna]enak `èeqwn > alla je aije nai nwten `èa pe`èmka `ènht ma petenht. Alla `èanok `èqmhi pe ;jw `èmmoc nwten > `ècernofri nwten ina `èanok `ènta]enhi > `èe]wp gar ai`è]tem]enhi piparaklhtoc na`èi arwten an> ]wp gar ai]an]henhi ;naouorpf nwten. Ouo af]an`èi `ènje vh`èete`èmmau ef`èecoi `èmpikocmoc eqbe `èvnobi > nem eqbe oumeqmhi > nem eqbe ouap > eqbe `èvnobi men je cena; `èeroi an. Eqbe oumeqmhi de je ;na]enhi a `èviwt ouo tetennau eroi an je. Eqbe ouap de je `èparxwn `ènte paikocmoc auou`èw eu;ap `èerof. Ouon`ènthi `ènankemh] `èejotou nwten alla tetenna`è]fai 'arwou an ;nou. E]wp de af]an`èi `ènje vh`èete`èmmau pipn ?a ? `ènte ;meqmhi > ef`èesimwit nwten 'en meqmhi niben > `èfnacaji gar an `èebolitotf `èmmauataf > alla nh`èetafcoqmou `èete`èfnacaji `èmmwou > ouo nheqnhou ef`èetamwten `èerwou. Vh`èete`èmmau `èfna;`èwou nhi > je `èfnasi `èebol'en vh`èete vwi ouo `èfnatame qhnou > wb niben `èete `ènte paiwt nou`èi ne > eqbe vai aijoc nwten je `èfnasi `èebol'en vh`èete vwi ouo `ènteftame qhnou. Kekouji tetennanau `èeroi je `èanok ;na]enhi a Viwt. Peje anouon `èebol'en nefmaqhthc `ènnou`èerhou > je paicaji ou pe `èetefjw `èmmof nan > je kekoji tetennanau `èeroi an> ouo palin kekouji tetennau `èeroi ouo je `èanok ;na]enhi a Viwt. Naujw oun `èmmoc pe je ou pe vai `èetefjw `èmmof je ke kouji > `ènten`èemi an je afjw `èmmoc je ou. Af`èemi de `ènje Ihc ? je nauouw] `èe]enf pe > ouo pejaf nwou je tetenkw; `ènca paicaji nem neten`èerhou > je aijoc nwten je kekouji tetennanau `èeroi an> ouo palin kekouji tetennanau `èeroi. Amhn amhn ;jw `èmmoc nwten je tetennarimi nqwten ntetenerhbi > pikocmoc `ènqof `ènara]i > `ènqwten tetennaer`èmka `ènht > alla petene`èmka `ènht `èfna]wpi nwten eura]i. :`ècimi ac]annou`èi `èemici ]acer`èmka `ènht je ac`èi `ènje tecounou > `èe]wp de ac]anmici `èmpi]hri `èmpacer`èvmeui je `èmpiojej eqbe pira]i  > je acmec ourwmi `èepikocmoc. Ouo `ènqwten wten ;nou men eretèè`èesi `ènoumka `ènht > palin on ;nanau `èerwten ouo tetennara]i > ouo petenra]i `èmmon `èli naolf `ènten qhnou 'en pi`èeoou `èete`èmmau tetenna]ent `èe`èli nai > `èamhn ;jw `èmmoc nwten je vh`èetetenna`èeretin `èmmof `èntotf `èmViwt 'en paran ef`èethif nwten. }a ;nou `èmpateteneretin `èn`èli 'en paran > `èari`èetin ouo tetennasi > ina `ènte petenra]i ]wpi efjhk `èebol. Nai de aijotou nwten 'en anparoimia > `ècnhou de `ènje ouounou ote einacaji nemwten an je 'en anparoimia> alla 'en ouparrhcia ainatamwten eqbe Viwt > 'en pi`èeoou `èete`èmmau `èereten`èeretin 'en paran > ouo ;najoc nwten an je `èanok eqna;o `èeViwt eqbe qhnou. Nqof gar wf Viwt `èfmei `èmmwten je `ènqwten `èaretenmenrit > ouo `èaretenna	 je `èetai`èi `èebola `èViwt. Ai`èi `èebola Viwt ouo ai`èi `èepikocmoc > palin on ;naxw `èncwi `èmpikocmoc `ènta]enhi a Viwt. Peje nefmaqhthc naf > je hppe ;nou `èkcaji 'en ouparrhcia > ouo `èn`èkje `èli an `èmparoimia > ;nou ten`èemi je `èkcwoun `ènwb niben ouo `èn`èkerxria an `ènte ouai ]enk > 'en vai tenna; je `èetak`èi ebokl iten V;. Af`èerou`èw nwou `ènje Ihc ? je ;nou tetenna; hppe `ècnhou `ènje ouounou ouo ac`èi ina `èntetenjwr `èebol `èvouai `èvouai èè`èepefma > ouo ;xh `èmmauat an > je `èfxh nemhi `ènje paiwt. Nai aijotou nwten ina `ènte ouirhnh ]wpi nwten `èn`è'rhi `èn'ht> ouon `èntwten `èmmau `ènouojej `èmpikocmoc > alla jemnom; `èanok aisro `èepikocmoc. Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.", 
   "Jean 15 : 26 à 16 : 33\nLorsque viendra le Paraclet, que je vous enverrai d'auprès du Père, l'Esprit de vérité, qui vient du Père, il me rendra témoignage. Mais vous aussi, vous témoignerez, parce que vous êtes avec moi depuis le commencement. Je vous ai dit cela pour vous éviter le scandale. On vous exclura des synagogues. Bien plus, l'heure vient où quiconque vous tuera pensera rendre un culte à Dieu. Et cela, ils le feront", 
   "يوحنا ١٥: ٢٦ - ١٦: ١-٣٣\nوإذا جاء المعزى الذي أرسله أنا إليكم من عند أبى، روح الحق المنبثق من الآب فهو يشهد لى، وأنتم أيضاً تشهدون لأنكم معي منذ الإبتداء. كملتكم بهذا لِكَي لا تشكوا، فإنهم سيخرجونكم من المجامع، بل ستأتى ساعة يظن فيها كل من يقتلكم أنه يقرب قرباناً لله. وسيفعلون هذا بكم", 
   ],
@@ -7912,7 +7720,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   ],
   [
   Prefix.HolyWeek+"1HEGospel&D=GL55&C=Diacon", 
-  "Iwannhn  Kev i/g/ > l/g/ ]/b/l/ nem i/d/ >a/-k/e\nNai `èetafcaji `èmmwou `ènje Ihc? > ouo `èetaffai `ènnefbal `èe`èp]wi `èe`ètve > pejaf je paiwt ac`èi `ènje ;ounou ma`èwou `èmpek]hri ina `ènte pekè]hri ;`èwou nak. M`èvrh; `èetak;er]i]i naf `èejen car[ niben > ina vh niben `èetakthif naf `èntef; nwou `ènouwn' `èn`èene. Vai de pe piwn' `èn`èene ina `èntoucouwnk piouai `èmmauatf V; `ènta`èvmhi > nem vh`èetakouorpf Ihc? Pxc?. Anok ai;`èwou nak ijen pikai > `èetaijwk `èmpiwb `èebol `èetakthif nhi je `èntaaif. Ouo ;nou ma`èwou nhi `ènqok paiwt 'atotk 'en pi`èwou `èenaf`ènthi `èn]orp `èmpate pikocmoc ]wpi 'atotk. Aiouwn `èmpekran `èebol `ènnirwmi `èetakthitou nhi `èebol'en pikocmoc > nouk ne ouo akthitou nhi ouo pekcaji au`èare `èerof. Ouo ;nou au`èemi je wb niben `èetakthitou nhi an`èebol itotk ne. Je nicaji `èetakthitou nhi aithitou nwou ouo `ènqwou wou ausitou ouo au`èemi ta`èvmhi je `èetai`èi `èebol itotk > ouo auna; je `ènqok pe `èetaktaouoi. Anok ;twb `èe`è\rhi `èejwou > nai twb an eqbe pikocmoc > alla eqbe nh`èetakthitou nhi je nouk ne.\nOuo nh`èetenoui nouk ne > ouo nh`èetenouk noui ne > ouo aisi`èwou `èn`è'rhi `èn'htou. Ouo ;xh an je 'en pikocmoc > nai de `ènqwou cexh 'en pikocmoc > ouo anok ;nhou arok > paiwt pi`èagioc `èare `èerwou `èn`è'rhi 'en pekran vh`èetakthif nhi > ina `èntou]wpi 'en oumetouai `èmpenrh; ote `èanok eixh nemwou nai`èare `èerwou `èn`è'rhi 'en pekran vh`èetakthif nhi> ai`èare `èerwou ouo `èmpe`èli `èn'htou tako > `èebhl `èe`èp]hri `èmptako > ina `èntecjwk `èebol `ènje ;gravh. :nou de einhou arok ouo nai ;caji `èmmwou 'en pikocmoc > ina `ènte para]i ]wpi efjhk `èebol `èn`è'rhi `èn'htou. Anok ai; nwou `èmpekcaji > ouo `èa pikocmoc mectwou > je an `èebol'en pikocmoc an ne > `èmparh; w `èete `èanok ou `èebol'en pikocmoc an. Nai;o an ina `èntek`èolou `èebol'en pikocmoc> alla ina `èntek`èare `èerwou `èebol a pipetwou. |an `èebol'en pikocmoc an ne `èmpairh; w `èete `èanok ou `èebol'en pikocmoc an. Matoubwou `èn`è'rhi 'en tekmeqmhi > vh`èetevwk `èncaji pe ;meqmhi. Kata `èvrh; `èetakouorpt `èepikocmoc > `èanok w aiouorpou `èepikocmoc.\nOuo ;toubo `èmmoi `èanok `èe`è\rhi `èejwou > ina`è ntou]wpi wou eutoubhout 'en oumeqmhi. Nai;o de eqbe nai `èmmauatou an > alla nem `èe`è\rhi `èejen nheqna; `èeroi `èeboliten poucaji ina `èntou]wpi throu 'en oumetouai kata `èvrh; `ènqok Viwt `èetek]wpi `ènè`è'rhi `èn'ht > ouo `èanok w `èn`è'rhi `èn'htk > ina `ènqwou wou `èntou]wpi `èn'hten 'en oumetouai > ina `ènte pikocmoc na; je `ènqok pe `èetaktaouoi. Ouo `èanok pi`èwou `èetakthif nhi aithif nwou > ina `èntou]wpi wou 'en oumetouai `èmpenrh; wn en]op 'en oumetouai. Anok `èn`è'rhi `èn'htou ouo `ènqok `èn'ht > ouo `èntou]wpi wou eujhk `èebol'en oumetouai > ouo `èntef`èemi `ènje pikocmoc je `ènqok pe `èetaktaouoi > ouo aimenritou `èm`èvrh; `èetakmenrit. Paiwt vh`èetakthif nhi ;ouw] ina `èmvma `èe;]op `èmmof `èanok `èntou]wpi `èmmau wou nemhi ina `èntounau `èepa`èwou `èetakthif nhi > je akmenrit 'ajen `ètkatabolh `èmpikocmoc. Paiwt pi`èqmhi `èmpe pikocmoc couwnk `èanok de aicouwnk> ouo nai kexwouni au`èemi je `ènqok pe `èetaktaouoi. Ouo aitamwou `èepekran ouo ;natamwou on > ina ;`èagaph `èetakmenrh `èn'htc `èntec]wpi `èn`è'rhi `èn'htou > ouo `èanok w `èn`è'rhi `èn'htou. Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.", 
+  "Iwannhn  Kev i/g/ > l/g/ ]/b/l/ nem i/d/ >a/-k/e\nNai `èetafcaji `èmmwou `ènje Ihc? > ouo `èetaffai `ènnefbal `èe`èp]wi `èe`ètve > pejaf je paiwt ac`èi `ènje ;ounou ma`èwou `èmpek]hri ina `ènte pekè]hri ;`èwou nak. M`èvrh; `èetak;er]i]i naf `èejen car[ niben > ina vh niben `èetakthif naf `èntef; nwou `ènouwn' `èn`èene. Vai de pe piwn' `èn`èene ina `èntoucouwnk piouai `èmmauatf V; `ènta`èvmhi > nem vh`èetakouorpf Ihc? Pxc?. Anok ai;`èwou nak ijen pikai > `èetaijwk `èmpiwb `èebol `èetakthif nhi je `èntaaif. Ouo ;nou ma`èwou nhi `ènqok paiwt 'atotk 'en pi`èwou `èenaf`ènthi `èn]orp `èmpate pikocmoc ]wpi 'atotk. Aiouwn `èmpekran `èebol `ènnirwmi `èetakthitou nhi `èebol'en pikocmoc > nouk ne ouo akthitou nhi ouo pekcaji au`èare `èerof. Ouo ;nou au`èemi je wb niben `èetakthitou nhi an`èebol itotk ne. Je nicaji `èetakthitou nhi aithitou nwou ouo `ènqwou wou ausitou ouo au`èemi ta`èvmhi je `èetai`èi `èebol itotk > ouo auna; je `ènqok pe `èetaktaouoi. Anok ;twb `èe`è\\rhi `èejwou > nai twb an eqbe pikocmoc > alla eqbe nh`èetakthitou nhi je nouk ne.\nOuo nh`èetenoui nouk ne > ouo nh`èetenouk noui ne > ouo aisi`èwou `èn`è'rhi `èn'htou. Ouo ;xh an je 'en pikocmoc > nai de `ènqwou cexh 'en pikocmoc > ouo anok ;nhou arok > paiwt pi`èagioc `èare `èerwou `èn`è'rhi 'en pekran vh`èetakthif nhi > ina `èntou]wpi 'en oumetouai `èmpenrh; ote `èanok eixh nemwou nai`èare `èerwou `èn`è'rhi 'en pekran vh`èetakthif nhi> ai`èare `èerwou ouo `èmpe`èli `èn'htou tako > `èebhl `èe`èp]hri `èmptako > ina `èntecjwk `èebol `ènje ;gravh. :nou de einhou arok ouo nai ;caji `èmmwou 'en pikocmoc > ina `ènte para]i ]wpi efjhk `èebol `èn`è'rhi `èn'htou. Anok ai; nwou `èmpekcaji > ouo `èa pikocmoc mectwou > je an `èebol'en pikocmoc an ne > `èmparh; w `èete `èanok ou `èebol'en pikocmoc an. Nai;o an ina `èntek`èolou `èebol'en pikocmoc> alla ina `èntek`èare `èerwou `èebol a pipetwou. |an `èebol'en pikocmoc an ne `èmpairh; w `èete `èanok ou `èebol'en pikocmoc an. Matoubwou `èn`è'rhi 'en tekmeqmhi > vh`èetevwk `èncaji pe ;meqmhi. Kata `èvrh; `èetakouorpt `èepikocmoc > `èanok w aiouorpou `èepikocmoc.\nOuo ;toubo `èmmoi `èanok `èe`è\\rhi `èejwou > ina`è ntou]wpi wou eutoubhout 'en oumeqmhi. Nai;o de eqbe nai `èmmauatou an > alla nem `èe`è\\rhi `èejen nheqna; `èeroi `èeboliten poucaji ina `èntou]wpi throu 'en oumetouai kata `èvrh; `ènqok Viwt `èetek]wpi `ènè`è'rhi `èn'ht > ouo `èanok w `èn`è'rhi `èn'htk > ina `ènqwou wou `èntou]wpi `èn'hten 'en oumetouai > ina `ènte pikocmoc na; je `ènqok pe `èetaktaouoi. Ouo `èanok pi`èwou `èetakthif nhi aithif nwou > ina `èntou]wpi wou 'en oumetouai `èmpenrh; wn en]op 'en oumetouai. Anok `èn`è'rhi `èn'htou ouo `ènqok `èn'ht > ouo `èntou]wpi wou eujhk `èebol'en oumetouai > ouo `èntef`èemi `ènje pikocmoc je `ènqok pe `èetaktaouoi > ouo aimenritou `èm`èvrh; `èetakmenrit. Paiwt vh`èetakthif nhi ;ouw] ina `èmvma `èe;]op `èmmof `èanok `èntou]wpi `èmmau wou nemhi ina `èntounau `èepa`èwou `èetakthif nhi > je akmenrit 'ajen `ètkatabolh `èmpikocmoc. Paiwt pi`èqmhi `èmpe pikocmoc couwnk `èanok de aicouwnk> ouo nai kexwouni au`èemi je `ènqok pe `èetaktaouoi. Ouo aitamwou `èepekran ouo ;natamwou on > ina ;`èagaph `èetakmenrh `èn'htc `èntec]wpi `èn`è'rhi `èn'htou > ouo `èanok w `èn`è'rhi `èn'htou. Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.", 
   "Jean 17 : 1-26\nAinsi parla Jésus, et levant les yeux au ciel, il dit: «Père, l'heure est venue: glorifie ton Fils, afin que ton Fils te glorifie et que, selon le pouvoir que tu lui as donné sur toute chair, il donne la vie éternelle à tous ceux que tu lui as donnés! Or, la vie éternelle, c'est qu'ils te connaissent, toi, le seul véritable Dieu, et celui que tu as envoyé, Jésus-Christ. Je t'ai glorifié sur la terre, en menant à bonne fin ", 
   "يوحنا ١٧: ١ -٢٦ \nتكلم يسوع بهذا ورفع عينيه نحو السماء وقال: أَيُّهَا الآب، قد أتت الساعة، فمجد إبنك لكي يمجدك إبنك أيضاً، كما يعطيه السلطان على كل جسد ليعطى حياة أبدية لكل من أعطيته إياه. وهذه هي الحياة الأبدية أن يعرفوك أنت الواحد وحده الإله الحق ويسوع المسيح الذي أرسلته. أنا قد مجدتك على الأرض وقد أكملت ", 
   ],
@@ -8154,7 +7962,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   ],
   [
   Prefix.HolyWeek+"6HEPsalm&D=GL55&C=Diacon", 
-  "Yalmoc  to Dauid\nNamet Vnou; `èebol `èntotou `ènnajaji > ouo cott `èebod `èntotou `ènnhettwoun `èe`è\rhi `èejwi. Ai`èoi `èmvheqnaer`èmka`è\nht nemhi  ouo naf]op  an  pe  >  ouo vheqna;mou;  nhi  ouo  `èmpijemf   >  `allhloui`a", 
+  "Yalmoc  to Dauid\nNamet Vnou; `èebol `èntotou `ènnajaji > ouo cott `èebod `èntotou `ènnhettwoun `èe`è\\rhi `èejwi. Ai`èoi `èmvheqnaer`èmka`è\nht nemhi  ouo naf]op  an  pe  >  ouo vheqna;mou;  nhi  ouo  `èmpijemf   >  `allhloui`a", 
   "Psaume  58 : 2 et 68 : 18 \nDélivre-moi de mes ennemis, mon Dieu de mes agresseurs protège-moi J'espérais un secours, mais en vain, des consolateurs, je n'en ai pas trouvé. Alléluia", 
   "مزمور  ٥٨: ١، ٦٨ : ١٨ \nخلصني من أعدائي يا الله ومن الذين يقومون على أنقذني، وانتظرت من يحزن معي فلم يوجد، ومن يعزيني فلم أصب الليلويا.", 
   ],
@@ -8168,7 +7976,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   ],
   [
   Prefix.HolyWeek+"6HEGospel&D=GL55&C=Diacon", 
-  "Yalmoc  to Dauid\nNamet Vnou; `èebol `èntotou `ènnajaji > ouo cott `èebod `èntotou `ènnhettwoun `èe`è\rhi `èejwi. Ai`èoi `èmvheqnaer`èmka`è\nht nemhi  ouo naf]op  an  pe  >  ouo vheqna;mou;  nhi  ouo  `èmpijemf   >  `allhloui`a", 
+  "Yalmoc  to Dauid\nNamet Vnou; `èebol `èntotou `ènnajaji > ouo cott `èebod `èntotou `ènnhettwoun `èe`è\\rhi `èejwi. Ai`èoi `èmvheqnaer`èmka`è\nht nemhi  ouo naf]op  an  pe  >  ouo vheqna;mou;  nhi  ouo  `èmpijemf   >  `allhloui`a", 
   "Psaume  58 : 2 et 68 : 18 \nDélivre-moi de mes ennemis, mon Dieu de mes agresseurs protège-moi J'espérais un secours, mais en vain, des consolateurs, je n'en ai pas trouvé. Alléluia", 
   "مزمور  ٥٨: ١، ٦٨ : ١٨ \nخلصني من أعدائي يا الله ومن الذين يقومون على أنقذني، وانتظرت من يحزن معي فلم يوجد، ومن يعزيني فلم أصب الليلويا.", 
   ],
@@ -8222,7 +8030,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   ],
   [
   Prefix.HolyWeek+"6HEGospel&D=GL55&C=Diacon", 
-  "Iwannhn  Kev i/h/ > g/ - q/\nIoudac oun `èetafsi `èmpimh] nem ni\\uperethc `èebol'en niarxh`èereuc nem nivariceoc > af`èi `èemau nem anvanoc nem anlampac nem anoplon. Ihc? de `èfcwoun `ènwb niben eqnhou `èe`è\rhi `èejwf > af`èi `èebol pejaf nwou > je `èaretenkw; `ènca nim. Au`èerou`èw pejwou naf je Ihc?  Pinazwreoc > peje Ihc?  nwou je `èanok pe > naf`èoi de eratf nemwou `ènje Ioudac vh`èenafnathif. \n|ote oun `èetafjoc nwou je `èanok pe > auvwt `èevaou ouo auei `èepecht. Palin on af]enwou je `èaretenkw; `ènca nim > `ènqwou de pejwou je Ihc? Pinazwreoc. Af`èerou`èw `ènje Ihc ? je aijoc nwten je `èanok pe > icje `èaretenkw; `èncwi xa nai `èebol marou]enwou > ina `ènte picaji jwk `èebol `èetafjof > je nh`èetakthitou nhi `èmpitake `èli `èebol `èn'htou.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.", 
+  "Iwannhn  Kev i/h/ > g/ - q/\nIoudac oun `èetafsi `èmpimh] nem ni\\uperethc `èebol'en niarxh`èereuc nem nivariceoc > af`èi `èemau nem anvanoc nem anlampac nem anoplon. Ihc? de `èfcwoun `ènwb niben eqnhou `èe`è\\rhi `èejwf > af`èi `èebol pejaf nwou > je `èaretenkw; `ènca nim. Au`èerou`èw pejwou naf je Ihc?  Pinazwreoc > peje Ihc?  nwou je `èanok pe > naf`èoi de eratf nemwou `ènje Ioudac vh`èenafnathif. \n|ote oun `èetafjoc nwou je `èanok pe > auvwt `èevaou ouo auei `èepecht. Palin on af]enwou je `èaretenkw; `ènca nim > `ènqwou de pejwou je Ihc? Pinazwreoc. Af`èerou`èw `ènje Ihc ? je aijoc nwten je `èanok pe > icje `èaretenkw; `èncwi xa nai `èebol marou]enwou > ina `ènte picaji jwk `èebol `èetafjof > je nh`èetakthitou nhi `èmpitake `èli `èebol `èn'htou.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.", 
   "Jean 18 : 3-9\nJudas donc, menant la cohorte et des gardes détachés par les grands prêtres et les Pharisiens, vient là avec des lanternes, des torches et des armes. Alors Jésus, sachant tout ce qui allait lui advenir, sortit et leur dit: «Qui cherchez-vous?» Ils lui répondirent: «Jésus le Nazaréen.» Il leur dit: «C'est moi.» Or Judas, qui le livrait, se tenait là, lui aussi, avec eux. Quand Jésus leur eut dit: \"C'est moi \", ils reculèrent et tombèrent", 
   "يوحنا ١٨: ٣ – ٩\nوأن يهوذا أخذ الجمع وخداما من عند رؤساء الكهنة والفريسيين، وجاء إلى هناك بمشاعل ومصابيح وسلاح، وأن يسوع كان عالماً بكل ما يأتي عليه، فخرج وقال لهم: من تطلبون؟ أجابوه وقالوا له: يسوع الناصري. فقال لهم يسوع: أنا هو. وكَانَ واقفاً معهم يهوذا المزمع أن يسلمه، فلما قال لهم اني أنا هو، رجعوا إلى الوراء وسقطوا ", 
   ],
@@ -8374,7 +8182,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   ],
   [
   Prefix.HolyWeek+"9HEGospel&D=GL55&C=Diacon", 
-  "Loukan  Kev k/b/> m/z/ -n/e/\nOuo `èeti efcaji hppe ic oumh] nem vh`èetou; `èerof je Ioudac ouai `èebol'en pimht`ècnau nafmo]i 'ajwou pe > ouo af'wnt `èeIhc? af;`èvi `èerwf. Ihc? de pejaf naf > je Ioudac akna; `èm`èp]hri `èm`èvrwmi 'en ouvi. Etaunau de `ènje nhetkw; `èerof `èmvh`èetaf]wpi > pejwou je P_/ `ènteniou`èi `èn`ètchfi. Ouo `èa ouai `èebol `èn'htou afiou`èi `ènca `èvbwk `èmpiarxh`èereuc > ouo afel pefma]j `ènou`èinam `èebol. \nAf`èerou`èw de `ènje Ihc ? pejaf je khn ]a `èmnai > ouo `èetafso `èepefma]j aftalsof. Peje Ihc ? de `ènnh`èetau`èi `èncwf `èebol'en niarxi`èereuc nem nicathgouc `ènte piervei nem niprecbuteroc `èetareten`èi `èebol `èm`èvrh; `èeretennhou `ènca ouconi > nem anchfi nem an`è]bo;. Eixh 'en piervei nemwten `èmmhni > èè`èmpetencouten netenjij `èebol `èe`è\rhi `èejwi > alla qai te tetenounou nem pier]i]i `ènte `èpxaki > `èetau`èamoni de `èmmof auenf ouo ausitf `èe'oun `èe`èphi `èmpiarxh`èereuc > Petroc de nafmo]i `èncwf i`èvouei > `èetausere ou`èxrwm de 'en `èqmh; è`èn;aulh > ouo `èetauemci nare Petroc wf emci toumh;.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.", 
+  "Loukan  Kev k/b/> m/z/ -n/e/\nOuo `èeti efcaji hppe ic oumh] nem vh`èetou; `èerof je Ioudac ouai `èebol'en pimht`ècnau nafmo]i 'ajwou pe > ouo af'wnt `èeIhc? af;`èvi `èerwf. Ihc? de pejaf naf > je Ioudac akna; `èm`èp]hri `èm`èvrwmi 'en ouvi. Etaunau de `ènje nhetkw; `èerof `èmvh`èetaf]wpi > pejwou je P_/ `ènteniou`èi `èn`ètchfi. Ouo `èa ouai `èebol `èn'htou afiou`èi `ènca `èvbwk `èmpiarxh`èereuc > ouo afel pefma]j `ènou`èinam `èebol. \nAf`èerou`èw de `ènje Ihc ? pejaf je khn ]a `èmnai > ouo `èetafso `èepefma]j aftalsof. Peje Ihc ? de `ènnh`èetau`èi `èncwf `èebol'en niarxi`èereuc nem nicathgouc `ènte piervei nem niprecbuteroc `èetareten`èi `èebol `èm`èvrh; `èeretennhou `ènca ouconi > nem anchfi nem an`è]bo;. Eixh 'en piervei nemwten `èmmhni > èè`èmpetencouten netenjij `èebol `èe`è\\rhi `èejwi > alla qai te tetenounou nem pier]i]i `ènte `èpxaki > `èetau`èamoni de `èmmof auenf ouo ausitf `èe'oun `èe`èphi `èmpiarxh`èereuc > Petroc de nafmo]i `èncwf i`èvouei > `èetausere ou`èxrwm de 'en `èqmh; è`èn;aulh > ouo `èetauemci nare Petroc wf emci toumh;.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.", 
   "Luc 22 : 47-55\nTandis qu'il parlait encore, voici une foule, et à sa tête marchait le nommé Judas, l'un des Douze, qui s'approcha de Jésus pour lui donner un baiser. Mais Jésus lui dit: «Judas, c'est par un baiser que tu livres le Fils de l'homme!» Voyant ce qui allait arriver, ses compagnons lui dirent: «Seigneur, faut-il frapper du glaive?» Et l'un d'eux frappa le serviteur du grand prêtre et lui enleva l'oreille droite. ", 
   "لوقا ٢٢: ٤٧ – ٥٥\nوفيما هو يتكلم، إذا جمع يتقدمهم المدعو يهوذا أحد الإثنى عشر. فدنا من يسوع وقبل فاه. فقال له يسوع: يا يهوذا، أبقبلة تسلم إبن الإنسان؟ فلما رأى الذين حوله ما كان قالوا: يا رب أنضرب بالسيف؟ وضرب واحد منهم عبد رئيس الكهنة فقطع أذنه اليمنى.  ", 
   ],
@@ -8392,7 +8200,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   ],
   [
   Prefix.HolyWeek+"9HEGospel&D=GL55&C=Diacon", 
-  "Iwannhn  Kev i/h/>i/-i/d\nCimwn oun petroc ne ouon ouchfi `èntotf > afqokmec afiou`èi `ènca `èvbwk `èmpiarxh`èereuc > ouo afjwji `èmpefma]j `ènou`èinam `èebol > ne `èvran `èmpibwk pe Malxoc. Peje Ihc? oun `èmPetroc > je iou`èi `èn;chfi `èetecqhkh > pi`èavot etafthif nhi `ènje paiwt an `èn;nacof an.\n Pimh] oun nem pixiliarxoc nem ni\\uperethc `ènte niIoudai > au`èamoni `ènIhc? ouo aucon. Ouo auenf `èn]orp a Anna > ne`èp]om gar pe `ènKai`èava > vh`èenafoi `ènarxh`èereuc `ènte ;rompi `èete`èmmau. Ne vai de pe Kai`èava vh`èetaf;cosni `ènniIoudai efjw `èmmoc > je `ècernofri èè`ènte ourwmi `ènouwt mou `èe`è\rhi `èejen pilaoc.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.", 
+  "Iwannhn  Kev i/h/>i/-i/d\nCimwn oun petroc ne ouon ouchfi `èntotf > afqokmec afiou`èi `ènca `èvbwk `èmpiarxh`èereuc > ouo afjwji `èmpefma]j `ènou`èinam `èebol > ne `èvran `èmpibwk pe Malxoc. Peje Ihc? oun `èmPetroc > je iou`èi `èn;chfi `èetecqhkh > pi`èavot etafthif nhi `ènje paiwt an `èn;nacof an.\n Pimh] oun nem pixiliarxoc nem ni\\uperethc `ènte niIoudai > au`èamoni `ènIhc? ouo aucon. Ouo auenf `èn]orp a Anna > ne`èp]om gar pe `ènKai`èava > vh`èenafoi `ènarxh`èereuc `ènte ;rompi `èete`èmmau. Ne vai de pe Kai`èava vh`èetaf;cosni `ènniIoudai efjw `èmmoc > je `ècernofri èè`ènte ourwmi `ènouwt mou `èe`è\\rhi `èejen pilaoc.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.", 
   "Jean 18 : 10-14\nAlors Simon-Pierre, qui portait un glaive, le tira, frappa le serviteur du grand prêtre et lui trancha l'oreille droite. Ce serviteur avait le nom Malchus. Jésus dit à Pierre: «Rentre le glaive dans le fourreau. La coupe que m'a donnée le Père, ne la boirai-je pas?» Alors la cohorte, le tribun et les gardes des Juifs saisirent Jésus et le lièrent. Ils le menèrent d'abord chez Anne; c'était en effet le beau-père de Caïphe, ", 
   "يوحنا ١٨: ١٠ – ١٤\nوكان مع سمعان بطرس سيف، فإستله وضرب عبد رئيس الكهنة، فقطع أذنه اليمنى. وكَانَ إسم العبد ملخس. فقال يسوع لبطرس: إلق السيف في غمده. الكأس التي أعطاني إياها أبي ألا أشربها؟\nثم أن الجمع وقائد الألف وخدام اليهود قبضوا على يسوع وأوثقوه، وجاءوا به أولاً إلى الحنان، لأنه كان حما قيافا ", 
   ],
@@ -8488,7 +8296,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   ],
   [
   Prefix.HolyWeek+"11HEPsalm&D=GL55&C=Diacon", 
-  "Yalmoc  to Dauid\nEqbe ou aneqnoc auw] `èebol > ouo anlaoc auermeletan 'en anpet]ouit > au`èoi `èeratou `ènje niourwou `ènte `èpkai > ouo\niarxwn auqwou; euma `èe;oube P_ nem `èe;oube Pefxc ?. Pet]op 'en nivhou`èi ef`èecwbi `èmmwou > ouo P_ ef`èeelk]ai `èncwou > tote ef`èecaji nemwou `èn`è\rhi 'en pefjwnt ouo `èn`è'rhi 'en pef`èmbon ef`èe`è]terqwrou > ``allhloui`a", 
+  "Yalmoc  to Dauid\nEqbe ou aneqnoc auw] `èebol > ouo anlaoc auermeletan 'en anpet]ouit > au`èoi `èeratou `ènje niourwou `ènte `èpkai > ouo\niarxwn auqwou; euma `èe;oube P_ nem `èe;oube Pefxc ?. Pet]op 'en nivhou`èi ef`èecwbi `èmmwou > ouo P_ ef`èeelk]ai `èncwou > tote ef`èecaji nemwou `èn`è\\rhi 'en pefjwnt ouo `èn`è'rhi 'en pef`èmbon ef`èe`è]terqwrou > ``allhloui`a", 
   "Psaume  2 : 1-5\nPourquoi ce tumulte des nations, ce vain murmure des peuples? Les rois de la terre se dressent, les grands se liguent entre eux, contre le Seigneur et son Messie. Celui qui règne dans les cieux s'en amuse, le Seigneur les tourne en dérision; puis Il leur parle avec fureur et sa colère les épouvante. Alléluia", 
   "مزمور ٢: ١، ٥\nلماذا إرتجت الأمم وهذت الشعوب بالأباطيل. قامت ملوك الأرض والرؤساء اجتمعوا معاً على الرب وعلى مسيحه. الساكن في السموات يضحك بهم والرب يمقتهم. حينئذ يكلمهم بغضبه وبرجزه يقلقهم. الليلويا", 
   ],
@@ -8502,7 +8310,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   ],
   [
   Prefix.HolyWeek+"11HEGospel&D=GL55&C=Diacon", 
-  "Yalmoc  to Dauid\nEqbe ou aneqnoc auw] `èebol > ouo anlaoc auermeletan 'en anpet]ouit > au`èoi `èeratou `ènje niourwou `ènte `èpkai > ouo\niarxwn auqwou; euma `èe;oube P_ nem `èe;oube Pefxc ?. Pet]op 'en nivhou`èi ef`èecwbi `èmmwou > ouo P_ ef`èeelk]ai `èncwou > tote ef`èecaji nemwou `èn`è\rhi 'en pefjwnt ouo `èn`è'rhi 'en pef`èmbon ef`èe`è]terqwrou > ``allhloui`a", 
+  "Yalmoc  to Dauid\nEqbe ou aneqnoc auw] `èebol > ouo anlaoc auermeletan 'en anpet]ouit > au`èoi `èeratou `ènje niourwou `ènte `èpkai > ouo\niarxwn auqwou; euma `èe;oube P_ nem `èe;oube Pefxc ?. Pet]op 'en nivhou`èi ef`èecwbi `èmmwou > ouo P_ ef`èeelk]ai `èncwou > tote ef`èecaji nemwou `èn`è\\rhi 'en pefjwnt ouo `èn`è'rhi 'en pef`èmbon ef`èe`è]terqwrou > ``allhloui`a", 
   "Psaume  2 : 1-5\nPourquoi ce tumulte des nations, ce vain murmure des peuples? Les rois de la terre se dressent, les grands se liguent entre eux, contre le Seigneur et son Messie. Celui qui règne dans les cieux s'en amuse, le Seigneur les tourne en dérision; puis Il leur parle avec fureur et sa colère les épouvante. Alléluia", 
   "مزمور ٢: ١، ٥\nلماذا إرتجت الأمم وهذت الشعوب بالأباطيل. قامت ملوك الأرض والرؤساء اجتمعوا معاً على الرب وعلى مسيحه. الساكن في السموات يضحك بهم والرب يمقتهم. حينئذ يكلمهم بغضبه وبرجزه يقلقهم. الليلويا", 
   ],
@@ -8538,7 +8346,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   ],
   [
   Prefix.HolyWeek+"11HEGospel&D=GL55&C=Diacon", 
-  "Markon  Kev i/d/> n/e/ ]/b/l/\nNiarxh`èereuc de nem pima`èn;ap thrf > naukw; `ènca oumetmeqre 'a Ihc? `èepjin'oqbef ouo naujimi an pe. Nare oumh] gar ermeqre `ènnouj 'arof pe > ouo nauoi `èn\\ucoc an pe `ènje noumetmeqre. Ouo `èetautwounou `ènje anouon > auermeqre `ènnouj 'arof eujw `èmmoc. Je anon ancwtem `èerof efjw `èmmoc je `èanok ;nabel paiervei `èebol paimounk `ènjij > ouo `èeboliten ]omt `èn`èeoou keouai `ènaqmounk `ènjij ;nakotf. Oude pairh; on nacoi `èn\\ucoc an `ènje toumetmeqre. Ouo aftwnf `ènje piarxh`èereuc 'en `èqmh; > af]en Ihc? efjw `èmmoc > je `èn`èk`èerou`èw `èn`èli an je nai ermeqre 'arok. Nqof de nafxw `ènrwf pe > ouo `èmpeferou`èw `èn`èli > palin `èa piarxh`èereuc ]enf ouo pejaf naf > je `ènqok pe Pxc? `èp]hri `èmvhet`ècmarwout Ihc? de pejaf naf je `èanok pe > ouo `èereten`èenau `èe`èp]hri `èm`èvrwmi efemci caou`èinam `èn;jom > ouo efnhou nem nishpi `ènte `ètve. Piarxh`èereuc afve' `ènnefwc pejaf > je ouon `èntetenerxri`èa `èmmof `èmmeqre. Atetencwtem `èepijeou`èa ou eqouwn nwten > `ènqwou de throu auerkatakrinin `èmmof > je `èfoi `èn`èenoxoc `èe`èvmou. Ouo `èetauerhtc `ènje anouon `èeiqaf 'en `è\raf > ouo `èewbc `èmpefo ouo `èe;ke naf > ouo `èejoc naf je `èariprovhteuin nan je nim pe `èetafiou`èi `èerok ;nou Pxc? ouo ni\\uperethc ausitf `ènan`èalwj. Ouo `èere Petroc `èn`è'rhi 'en ;aulh > ac`èi `ènje ou`èi `ènnibwki `ènte piarxh`èereuc.  Ouo eta`ècnau `èePetroc ef`èt`è'mo `èmmof > ouo `èetacjou]t `èerof pejac naf > je `ènqok wk nakxh nem Ihc? Pinazwreoc. Nqof de afjwl `èebol efjw `èmmoc > je oude ;`èemi an oude ;cwoun an je ou `ènqo petejw `èmmof > ouo af`èi `èebol `èepima etcabol `èn;aulh ouo afmou; `ènje pi`èalektwr. Ouo `èeta`ècnau `èerof `ènje ;kebwki pejac `ènnhet`èoi `èeratou > je vai ou`èebol `èn'htou pe. Nqof de on afjwl `èebol menenca oukouji palin nhet`èoi `èeratou naujw `èmmoc `èmPetroc > je alhqwc `ènqok ou `èebol `èn'htou ke gar `ènqok ouGalileoc > ouo pekcaji ef`èoni `èmpoucaji. Nqof de aferhtc `èner`èanaqematizin nem `èewrk je ;cwoun `èmpairwmi an `èetetenjw `èmmof. Ouo `èa ou`èalektwr mou; `èm`èvma cop `ècnau > ouo afer`èvmeu`èi `ènje Petroc `èmpicaji `èm`èvrh; `èetafjoc naf`è nje Ihc? > je `èmpate ou`èalektwr mou; `èncop `ècnau `èxnajolt `èebol `èn]omt `èncop > ouo `èetafitotf afrimi.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.", 
+  "Markon  Kev i/d/> n/e/ ]/b/l/\nNiarxh`èereuc de nem pima`èn;ap thrf > naukw; `ènca oumetmeqre 'a Ihc? `èepjin'oqbef ouo naujimi an pe. Nare oumh] gar ermeqre `ènnouj 'arof pe > ouo nauoi `èn\\ucoc an pe `ènje noumetmeqre. Ouo `èetautwounou `ènje anouon > auermeqre `ènnouj 'arof eujw `èmmoc. Je anon ancwtem `èerof efjw `èmmoc je `èanok ;nabel paiervei `èebol paimounk `ènjij > ouo `èeboliten ]omt `èn`èeoou keouai `ènaqmounk `ènjij ;nakotf. Oude pairh; on nacoi `èn\\ucoc an `ènje toumetmeqre. Ouo aftwnf `ènje piarxh`èereuc 'en `èqmh; > af]en Ihc? efjw `èmmoc > je `èn`èk`èerou`èw `èn`èli an je nai ermeqre 'arok. Nqof de nafxw `ènrwf pe > ouo `èmpeferou`èw `èn`èli > palin `èa piarxh`èereuc ]enf ouo pejaf naf > je `ènqok pe Pxc? `èp]hri `èmvhet`ècmarwout Ihc? de pejaf naf je `èanok pe > ouo `èereten`èenau `èe`èp]hri `èm`èvrwmi efemci caou`èinam `èn;jom > ouo efnhou nem nishpi `ènte `ètve. Piarxh`èereuc afve' `ènnefwc pejaf > je ouon `èntetenerxri`èa `èmmof `èmmeqre. Atetencwtem `èepijeou`èa ou eqouwn nwten > `ènqwou de throu auerkatakrinin `èmmof > je `èfoi `èn`èenoxoc `èe`èvmou. Ouo `èetauerhtc `ènje anouon `èeiqaf 'en `è\\raf > ouo `èewbc `èmpefo ouo `èe;ke naf > ouo `èejoc naf je `èariprovhteuin nan je nim pe `èetafiou`èi `èerok ;nou Pxc? ouo ni\\uperethc ausitf `ènan`èalwj. Ouo `èere Petroc `èn`è'rhi 'en ;aulh > ac`èi `ènje ou`èi `ènnibwki `ènte piarxh`èereuc.  Ouo eta`ècnau `èePetroc ef`èt`è'mo `èmmof > ouo `èetacjou]t `èerof pejac naf > je `ènqok wk nakxh nem Ihc? Pinazwreoc. Nqof de afjwl `èebol efjw `èmmoc > je oude ;`èemi an oude ;cwoun an je ou `ènqo petejw `èmmof > ouo af`èi `èebol `èepima etcabol `èn;aulh ouo afmou; `ènje pi`èalektwr. Ouo `èeta`ècnau `èerof `ènje ;kebwki pejac `ènnhet`èoi `èeratou > je vai ou`èebol `èn'htou pe. Nqof de on afjwl `èebol menenca oukouji palin nhet`èoi `èeratou naujw `èmmoc `èmPetroc > je alhqwc `ènqok ou `èebol `èn'htou ke gar `ènqok ouGalileoc > ouo pekcaji ef`èoni `èmpoucaji. Nqof de aferhtc `èner`èanaqematizin nem `èewrk je ;cwoun `èmpairwmi an `èetetenjw `èmmof. Ouo `èa ou`èalektwr mou; `èm`èvma cop `ècnau > ouo afer`èvmeu`èi `ènje Petroc `èmpicaji `èm`èvrh; `èetafjoc naf`è nje Ihc? > je `èmpate ou`èalektwr mou; `èncop `ècnau `èxnajolt `èebol `èn]omt `èncop > ouo `èetafitotf afrimi.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.", 
   "Marc 14 : 55-72\nOr, les grands prêtres et tout le Sanhédrin cherchaient un témoignage contre Jésus pour le faire mourir et ils n'en trouvaient pas. Car plusieurs déposaient faussement contre lui et leurs témoignages ne concordaient pas. Quelques-uns se levèrent pour porter contre lui ce faux témoignage: «Nous l'avons entendu qui disait: Je détruirai ce Sanctuaire fait de main d'homme", 
   "مرقس ١٤: ٥٥ -٧٢\nوأما رؤساء الكهنة والمجمع كله فكانوا يطلبون شهادة على يسوع ليقتلوه فلم يجدوا. لأن كثيرين كانوا يشهدون عليه زوراً ولم تتفق شهاداتهم. ثم قام قوم وشهدوا عليه كذباً قائلين: نحن سمعناه يقول إني أنقض هذا الهيكل المصنوع بالأيادي، ", 
   ],
@@ -8800,7 +8608,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   ],
   [
   Prefix.HolyWeek+"1HDProphecies&D=GL56&C=Diacon", 
-  "Ebolqen Yca`yac piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nEic hppe de P_ natako `èn;oikoumenh ouo`èfnaaic `ènjaie ouo efnajwr `èebol `ènnhetouh èè`èe`è\rhi `èn'htc.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.", 
+  "Ebolqen Yca`yac piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nEic hppe de P_ natako `èn;oikoumenh ouo`èfnaaic `ènjaie ouo efnajwr `èebol `ènnhetouh èè`èe`è\\rhi `èn'htc.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.", 
   "Isaïe 24 : 1-13\nVoici que le Seigneur dévaste la terre et la ravage, il en bouleverse la face et en disperse les habitants.", 
   "إشعياء ٢٤: ١-١٣\nها إن الرب يفسد المسكونة ويُخليها ويكشف وجهها ويبدد سكانها،", 
   ],
@@ -8830,7 +8638,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   ],
   [
   Prefix.HolyWeek+"1HDProphecies&D=GL56&C=Diacon", 
-  "Ebolqen Colomon piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nEf`èejorjf `ènou`èxrwm eqbe je `èmpef; `èloj `èepenht > ouo ef; `èe`è\ren nen`èhou`èi ouo `èe;er]w] nan `èejen nen]wft `èejen pinomoc. \nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.", 
+  "Ebolqen Colomon piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nEf`èejorjf `ènou`èxrwm eqbe je `èmpef; `èloj `èepenht > ouo ef; `èe`è\\ren nen`èhou`èi ouo `èe;er]w] nan `èejen nen]wft `èejen pinomoc. \nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.", 
   "Sagesse 2 : 12-22\n\"Tendons des pièges au juste, puisqu'il nous gêne et qu'il s'oppose à notre conduite, nous reproche nos fautes contre la Loi", 
   "حكمة سليمان ٢: ١٢- ٢٢ \nلنكمن للصديق لأنه ثقيل علينا، لأنه يقاوم أعمالنا ويرذلنا على مخالفتنا للناموس،", 
   ],
@@ -8966,7 +8774,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   ],
   [
   Prefix.HolyWeek+"1HDPsalm&D=GL56&C=Diacon", 
-  "Yalmoc  to Dauid\nGe autwounou `èe`è\rhi `èejwi `ènje anmeqreu `ènrefsi`ènjonc > ouo `èa ;metsi`ènjonc  je  meqnouj  `èeroc  `èmmin  `èmmoc.\nAutwounou `ènje anmeqreu  `èn`èoji  > nau]ini  `èmmoi  `èenh`èete  `èn;cwoun  `èmmwou an. Au; nhi `ènanpetwou `èn`èt]ebi`èw `ènanpeqnaneu >  `èeau`è'rajrej  `ènnounaji  `èe`è\rhi  `èejwi  > ``allhloui`a", 
+  "Yalmoc  to Dauid\nGe autwounou `èe`è\\rhi `èejwi `ènje anmeqreu `ènrefsi`ènjonc > ouo `èa ;metsi`ènjonc  je  meqnouj  `èeroc  `èmmin  `èmmoc.\nAutwounou `ènje anmeqreu  `èn`èoji  > nau]ini  `èmmoi  `èenh`èete  `èn;cwoun  `èmmwou an. Au; nhi `ènanpetwou `èn`èt]ebi`èw `ènanpeqnaneu >  `èeau`è'rajrej  `ènnounaji  `èe`è\\rhi  `èejwi  > ``allhloui`a", 
   "Psaume 26 : 12 et 34 :11, 12 et 16 \nContre moi se sont levés de faux témoins qui soufflent la violence.\nDes témoins injustes se lèvent, des inconnus m'interrogent. On me rend le mal pour le bien grinçant des dents contre moi. Alléluia", 
   "مزمور  ٢٦: ١٥ مز ٣٤: ١٣، ١٤، ١٩ \nلأنه قام عليّ شهود زور. وكذب الظلم لذاته. قام عليّ شهود زور وعما لا أعلم سألوني. جازوني بدل الخير شراً صارين علىّ بأسنانهم. الليلويا", 
   ],
@@ -8998,13 +8806,13 @@ ReadingsArrays.GospelNightArrayFR= [[
   ],
   [
   Prefix.HolyWeek+"1HDGospel&D=GL56&C=Diacon", 
-  "Iwannhn  Kev i/h/>kh-]bl\nAu`èini oun `ènIhcouc `èebol a Kaiava `èe'oun `èepipretwrion > ne ]wrp de pe > ouo `ènqwou `èmpou`èi `èe'oun `èepipretwrion > ina je `ènnoucwf ]atououwm `èmpipacxa. Af`èi oun è`èebol arwou `ènje Pilatoc pejaf nwou > je ou `ènkathgoria `èeteten`èini `èmmoc 'a pairwmi. Au`èerou`èw pejwou naf > je `èene vai oucampetwou an pe > nannathif nak an pe. \nPeje Pilatoc nwou je sitf `ènqwten ouo maap `èerof kata petennomoc > pejwou naf `ènje niIoudai > je `èanon `èn`èc]e nan an `èe'wteb `èn`èli > ina `ènte `èpcaji `ènIhc? jwk `èebol vh`èetafjof > efercummenin je 'en a] `èmmou `èfnamou. Palin on af`èi `ènje Pilatoc `èe'oun `èepipretwrion ouo afmou; `èeIhc? pejaf naf > je `ènqok pe `èpouro `ènte niIoudai. Af`èerou`èw naf `ènje Ihc? ouo pejaf > je `ènqok etjw `èmvai `èebol itotk ]an ankexwouni pe`èetaujoc nak eqbht.  Af`èerou`èw `ènje Pilatoc efjw `èmmoc > je mh `èanok ouIolai w > pekeqnoc `èmmin `èmmok nem niarxh`èereuc `ènqwou pe`èetauhik > ou pe `èetakaifi. Af`èerou`èw `ènje Ih/c/ je tametouro `èanok qa paikocmoc an te > `èene tametouro ou`èebol'en paikocmoc te > nare na\\uperethc na; `èe`è\rhi èè`èejwi pe > ina `èntou`è]temthit `ènniIoudai > ;nou de tametouro qa paikocmoc an te.  Pilatoc oun pejaf je mhoun `ènqok ououro > af`èerou`èw `ènje Ihc? je `ènqok pe`èetjw `èmmoc je `èanok ououro > ke gar `èetaumact `èanok `èepaiwb > ouo eqbe vai ai`èi `èepikocmoc `èe`èpjintaermetmeqre `èn;meqmhi > ouon niben `èete an `èebol'en ;meqmhi ne ]aucwtem `èeta`ècmh. Peje Pilatoc naf je ou pe ;meqmhi > ouo vai `èetafjof palin on af`èi `èebola niIoudai pejaf nwou > je `èanok `èn;jem `èli `èn`èeti`èa an 'en pairwmi > tetencunhqi`èa de ina `èntaxa ouai nwten `èebol'en pipacxa tetenouw] oun `èntaxw nwten `èebol `èm`èpouro `ènte niIoudai. Auw] de `èebol throu eujw `èmmoc > je `èmperxa vai `èebol > alla xa Barabbac `èebol > pai Barabbac de ne ouconi pe. Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.", 
+  "Iwannhn  Kev i/h/>kh-]bl\nAu`èini oun `ènIhcouc `èebol a Kaiava `èe'oun `èepipretwrion > ne ]wrp de pe > ouo `ènqwou `èmpou`èi `èe'oun `èepipretwrion > ina je `ènnoucwf ]atououwm `èmpipacxa. Af`èi oun è`èebol arwou `ènje Pilatoc pejaf nwou > je ou `ènkathgoria `èeteten`èini `èmmoc 'a pairwmi. Au`èerou`èw pejwou naf > je `èene vai oucampetwou an pe > nannathif nak an pe. \nPeje Pilatoc nwou je sitf `ènqwten ouo maap `èerof kata petennomoc > pejwou naf `ènje niIoudai > je `èanon `èn`èc]e nan an `èe'wteb `èn`èli > ina `ènte `èpcaji `ènIhc? jwk `èebol vh`èetafjof > efercummenin je 'en a] `èmmou `èfnamou. Palin on af`èi `ènje Pilatoc `èe'oun `èepipretwrion ouo afmou; `èeIhc? pejaf naf > je `ènqok pe `èpouro `ènte niIoudai. Af`èerou`èw naf `ènje Ihc? ouo pejaf > je `ènqok etjw `èmvai `èebol itotk ]an ankexwouni pe`èetaujoc nak eqbht.  Af`èerou`èw `ènje Pilatoc efjw `èmmoc > je mh `èanok ouIolai w > pekeqnoc `èmmin `èmmok nem niarxh`èereuc `ènqwou pe`èetauhik > ou pe `èetakaifi. Af`èerou`èw `ènje Ih/c/ je tametouro `èanok qa paikocmoc an te > `èene tametouro ou`èebol'en paikocmoc te > nare na\\uperethc na; `èe`è\\rhi èè`èejwi pe > ina `èntou`è]temthit `ènniIoudai > ;nou de tametouro qa paikocmoc an te.  Pilatoc oun pejaf je mhoun `ènqok ououro > af`èerou`èw `ènje Ihc? je `ènqok pe`èetjw `èmmoc je `èanok ououro > ke gar `èetaumact `èanok `èepaiwb > ouo eqbe vai ai`èi `èepikocmoc `èe`èpjintaermetmeqre `èn;meqmhi > ouon niben `èete an `èebol'en ;meqmhi ne ]aucwtem `èeta`ècmh. Peje Pilatoc naf je ou pe ;meqmhi > ouo vai `èetafjof palin on af`èi `èebola niIoudai pejaf nwou > je `èanok `èn;jem `èli `èn`èeti`èa an 'en pairwmi > tetencunhqi`èa de ina `èntaxa ouai nwten `èebol'en pipacxa tetenouw] oun `èntaxw nwten `èebol `èm`èpouro `ènte niIoudai. Auw] de `èebol throu eujw `èmmoc > je `èmperxa vai `èebol > alla xa Barabbac `èebol > pai Barabbac de ne ouconi pe. Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.", 
   "", 
   "", 
   ],
   [
   Prefix.HolyWeek+"1HDGospel&D=GL56&C=Diacon", 
-  "Yalmoc  to Dauid\nGe autwounou `èe`è\rhi `èejwi `ènje anmeqreu `ènrefsi`ènjonc > ouo `èa ;metsi`ènjonc  je  meqnouj  `èeroc  `èmmin  `èmmoc.\nAutwounou `ènje anmeqreu  `èn`èoji  > nau]ini  `èmmoi  `èenh`èete  `èn;cwoun  `èmmwou an. Au; nhi `ènanpetwou `èn`èt]ebi`èw `ènanpeqnaneu >  `èeau`è'rajrej  `ènnounaji  `èe`è\rhi  `èejwi  > ``allhloui`a", 
+  "Yalmoc  to Dauid\nGe autwounou `èe`è\\rhi `èejwi `ènje anmeqreu `ènrefsi`ènjonc > ouo `èa ;metsi`ènjonc  je  meqnouj  `èeroc  `èmmin  `èmmoc.\nAutwounou `ènje anmeqreu  `èn`èoji  > nau]ini  `èmmoi  `èenh`èete  `èn;cwoun  `èmmwou an. Au; nhi `ènanpetwou `èn`èt]ebi`èw `ènanpeqnaneu >  `èeau`è'rajrej  `ènnounaji  `èe`è\\rhi  `èejwi  > ``allhloui`a", 
   "Psaume 26 : 12 et 34 :11, 12 et 16 \nContre moi se sont levés de faux témoins qui soufflent la violence.\nDes témoins injustes se lèvent, des inconnus m'interrogent. On me rend le mal pour le bien grinçant des dents contre moi. Alléluia", 
   "مزمور  ٢٦: ١٥ مز ٣٤: ١٣، ١٤، ١٩ \nلأنه قام عليّ شهود زور. وكذب الظلم لذاته. قام عليّ شهود زور وعما لا أعلم سألوني. جازوني بدل الخير شراً صارين علىّ بأسنانهم. الليلويا", 
   ],
@@ -9076,7 +8884,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   ],
   [
   Prefix.HolyWeek+"1HDGospel&D=GL56&C=Diacon", 
-  "Iwannhn  Kev i/h/>kh-]bl\nAu`èini oun `ènIhcouc `èebol a Kaiava `èe'oun `èepipretwrion > ne ]wrp de pe > ouo `ènqwou `èmpou`èi `èe'oun `èepipretwrion > ina je `ènnoucwf ]atououwm `èmpipacxa. Af`èi oun è`èebol arwou `ènje Pilatoc pejaf nwou > je ou `ènkathgoria `èeteten`èini `èmmoc 'a pairwmi. Au`èerou`èw pejwou naf > je `èene vai oucampetwou an pe > nannathif nak an pe. \nPeje Pilatoc nwou je sitf `ènqwten ouo maap `èerof kata petennomoc > pejwou naf `ènje niIoudai > je `èanon `èn`èc]e nan an `èe'wteb `èn`èli > ina `ènte `èpcaji `ènIhc? jwk `èebol vh`èetafjof > efercummenin je 'en a] `èmmou `èfnamou. Palin on af`èi `ènje Pilatoc `èe'oun `èepipretwrion ouo afmou; `èeIhc? pejaf naf > je `ènqok pe `èpouro `ènte niIoudai. Af`èerou`èw naf `ènje Ihc? ouo pejaf > je `ènqok etjw `èmvai `èebol itotk ]an ankexwouni pe`èetaujoc nak eqbht.  Af`èerou`èw `ènje Pilatoc efjw `èmmoc > je mh `èanok ouIolai w > pekeqnoc `èmmin `èmmok nem niarxh`èereuc `ènqwou pe`èetauhik > ou pe `èetakaifi. Af`èerou`èw `ènje Ih/c/ je tametouro `èanok qa paikocmoc an te > `èene tametouro ou`èebol'en paikocmoc te > nare na\\uperethc na; `èe`è\rhi èè`èejwi pe > ina `èntou`è]temthit `ènniIoudai > ;nou de tametouro qa paikocmoc an te.  Pilatoc oun pejaf je mhoun `ènqok ououro > af`èerou`èw `ènje Ihc? je `ènqok pe`èetjw `èmmoc je `èanok ououro > ke gar `èetaumact `èanok `èepaiwb > ouo eqbe vai ai`èi `èepikocmoc `èe`èpjintaermetmeqre `èn;meqmhi > ouon niben `èete an `èebol'en ;meqmhi ne ]aucwtem `èeta`ècmh. Peje Pilatoc naf je ou pe ;meqmhi > ouo vai `èetafjof palin on af`èi `èebola niIoudai pejaf nwou > je `èanok `èn;jem `èli `èn`èeti`èa an 'en pairwmi > tetencunhqi`èa de ina `èntaxa ouai nwten `èebol'en pipacxa tetenouw] oun `èntaxw nwten `èebol `èm`èpouro `ènte niIoudai. Auw] de `èebol throu eujw `èmmoc > je `èmperxa vai `èebol > alla xa Barabbac `èebol > pai Barabbac de ne ouconi pe. Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.", 
+  "Iwannhn  Kev i/h/>kh-]bl\nAu`èini oun `ènIhcouc `èebol a Kaiava `èe'oun `èepipretwrion > ne ]wrp de pe > ouo `ènqwou `èmpou`èi `èe'oun `èepipretwrion > ina je `ènnoucwf ]atououwm `èmpipacxa. Af`èi oun è`èebol arwou `ènje Pilatoc pejaf nwou > je ou `ènkathgoria `èeteten`èini `èmmoc 'a pairwmi. Au`èerou`èw pejwou naf > je `èene vai oucampetwou an pe > nannathif nak an pe. \nPeje Pilatoc nwou je sitf `ènqwten ouo maap `èerof kata petennomoc > pejwou naf `ènje niIoudai > je `èanon `èn`èc]e nan an `èe'wteb `èn`èli > ina `ènte `èpcaji `ènIhc? jwk `èebol vh`èetafjof > efercummenin je 'en a] `èmmou `èfnamou. Palin on af`èi `ènje Pilatoc `èe'oun `èepipretwrion ouo afmou; `èeIhc? pejaf naf > je `ènqok pe `èpouro `ènte niIoudai. Af`èerou`èw naf `ènje Ihc? ouo pejaf > je `ènqok etjw `èmvai `èebol itotk ]an ankexwouni pe`èetaujoc nak eqbht.  Af`èerou`èw `ènje Pilatoc efjw `èmmoc > je mh `èanok ouIolai w > pekeqnoc `èmmin `èmmok nem niarxh`èereuc `ènqwou pe`èetauhik > ou pe `èetakaifi. Af`èerou`èw `ènje Ih/c/ je tametouro `èanok qa paikocmoc an te > `èene tametouro ou`èebol'en paikocmoc te > nare na\\uperethc na; `èe`è\\rhi èè`èejwi pe > ina `èntou`è]temthit `ènniIoudai > ;nou de tametouro qa paikocmoc an te.  Pilatoc oun pejaf je mhoun `ènqok ououro > af`èerou`èw `ènje Ihc? je `ènqok pe`èetjw `èmmoc je `èanok ououro > ke gar `èetaumact `èanok `èepaiwb > ouo eqbe vai ai`èi `èepikocmoc `èe`èpjintaermetmeqre `èn;meqmhi > ouon niben `èete an `èebol'en ;meqmhi ne ]aucwtem `èeta`ècmh. Peje Pilatoc naf je ou pe ;meqmhi > ouo vai `èetafjof palin on af`èi `èebola niIoudai pejaf nwou > je `èanok `èn;jem `èli `èn`èeti`èa an 'en pairwmi > tetencunhqi`èa de ina `èntaxa ouai nwten `èebol'en pipacxa tetenouw] oun `èntaxw nwten `èebol `èm`èpouro `ènte niIoudai. Auw] de `èebol throu eujw `èmmoc > je `èmperxa vai `èebol > alla xa Barabbac `èebol > pai Barabbac de ne ouconi pe. Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.", 
   "", 
   "يوحنا ١٨: ٢٨ -٤٠\nوجاءوا بيسوع من عند قيافا إلى دار الولاية، وكَانَ صبح فلم يدخلوا إلى دار الولاية لئلا يتنجسوا حتى يأكلوا الفصح، فخرج بيلاطس إليهم وقال لهم: أية شكاية تقدمونها على هذا الرجل؟! أجابوا وقالوا له: لو لم يكن هذا شريراً لَمَّا كنا نسلمه إليك. فقال لهم بيلاطس: خذوه أنتم وأحكموا عليه بحسب ناموسكم.", 
   ],
@@ -9260,7 +9068,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   ],
   [
   Prefix.HolyWeek+"3HDProphecies&D=GL56&C=Diacon", 
-  "Ebolqen Iwb pie;mi piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nEtaucwtem `èeroi au;`èqhou > auxarwou de `èe`è\rhi `èejen pacosni. \nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.", 
+  "Ebolqen Iwb pie;mi piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nEtaucwtem `èeroi au;`èqhou > auxarwou de `èe`è\\rhi `èejen pacosni. \nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.", 
   "Job 29 : 21 à 30 : 10 \nIls m'écoutaient, dans l'attente, silencieux pour entendre mon avis.", 
   "أيوب ٢٩ : ٢١ - ٣٠ : ١ – ١٠\nلما سمعوني أنصتوا وسكتوا عن مشورتي،", 
   ],
@@ -9356,7 +9164,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   ],
   [
   Prefix.HolyWeek+"3HDGospel&D=GL56&C=Diacon", 
-  "Matqeon  Kev k/z/ > i/e/ - k/ ,\nKata `èp]ai de ne `ètkac `èmpi\\ugemwn > `èexa ouai `èebol'en nhetcon `èmpimh] vh`èe]auoua]f > ne ouon ouai de efcon `èntotou `èmpichou `èete`èmmau `èeouconi pe > eumou; è`èerof je Barabbac. Etauqwou; oun euma > peje Pilatoc nwou > je nim `èetetenouw] `èntaxaf nwten `èebol > Barabbac ]an Ihc? vh`èetoumou; `èerof je Pxc?. Naf`èemi gar pe je `èetauthif eqbe ou`èvqonoc. Efemci de ijen pibhma acouwrp arof `ènje tef`ècimi ecjw `èmmoc je `èmperer`èli `èmpi`èqmhi etth > ai]ep oumh] gar `èn'ici eqbhtf `èmpai`èejwr 'en `èqracou`èi. Niarxh`èereuc de nem niprecbuteroc > auqet`èqhou `ènnimh] > ina `ènce`èeretin `èmBarabbac > Ihc? de `èncetakof.\nAf`èerou`èw `ènje pi\\ugemwn pejaf nwou > je nim `èetetenoua]f `èntaxaf nwten `èebol'en pai`ècnau > `ènqwou de pejwou je Barabbac. Peje Pilatoc nwou > je ou pe;naaif `ènIhc? vh`èetoumou; `èerof je Pxc? > pejwou throu je maroua]f > pejaf nwou `ènje pi\\ugemwn > je ou gar `èmpetwou `èetafaif > `ènqwou de `ènouo nauw] `èebol eujw è`èmmoc je a]f. Etafnau de `ènje Pilatoc je `èfnajemhou `èn`èli an > alla mallon ou`è]qorter peqna]wpi > afsi `ènoumwou afia `ènnefjij `èebol `èmpe`èmqo `èmpimh] efjw `èmmoc > je ;oi `ènaqnobi `èebola `èp`ècnof nte pai`èqmhi > `ènqwten `èereten`èerw]i. Ouo af`èerou`èw `ènje pilaoc thrf pejwou > je pef`ècnof `èe`è\rhi `èejwn nem `èejen nen]hri. Tote afxa Barabbac nwou `èebol > Ihc ? de `èetafervragellion `èmmof > afthif eqroua]f.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.", 
+  "Matqeon  Kev k/z/ > i/e/ - k/ ,\nKata `èp]ai de ne `ètkac `èmpi\\ugemwn > `èexa ouai `èebol'en nhetcon `èmpimh] vh`èe]auoua]f > ne ouon ouai de efcon `èntotou `èmpichou `èete`èmmau `èeouconi pe > eumou; è`èerof je Barabbac. Etauqwou; oun euma > peje Pilatoc nwou > je nim `èetetenouw] `èntaxaf nwten `èebol > Barabbac ]an Ihc? vh`èetoumou; `èerof je Pxc?. Naf`èemi gar pe je `èetauthif eqbe ou`èvqonoc. Efemci de ijen pibhma acouwrp arof `ènje tef`ècimi ecjw `èmmoc je `èmperer`èli `èmpi`èqmhi etth > ai]ep oumh] gar `èn'ici eqbhtf `èmpai`èejwr 'en `èqracou`èi. Niarxh`èereuc de nem niprecbuteroc > auqet`èqhou `ènnimh] > ina `ènce`èeretin `èmBarabbac > Ihc? de `èncetakof.\nAf`èerou`èw `ènje pi\\ugemwn pejaf nwou > je nim `èetetenoua]f `èntaxaf nwten `èebol'en pai`ècnau > `ènqwou de pejwou je Barabbac. Peje Pilatoc nwou > je ou pe;naaif `ènIhc? vh`èetoumou; `èerof je Pxc? > pejwou throu je maroua]f > pejaf nwou `ènje pi\\ugemwn > je ou gar `èmpetwou `èetafaif > `ènqwou de `ènouo nauw] `èebol eujw è`èmmoc je a]f. Etafnau de `ènje Pilatoc je `èfnajemhou `èn`èli an > alla mallon ou`è]qorter peqna]wpi > afsi `ènoumwou afia `ènnefjij `èebol `èmpe`èmqo `èmpimh] efjw `èmmoc > je ;oi `ènaqnobi `èebola `èp`ècnof nte pai`èqmhi > `ènqwten `èereten`èerw]i. Ouo af`èerou`èw `ènje pilaoc thrf pejwou > je pef`ècnof `èe`è\\rhi `èejwn nem `èejen nen]hri. Tote afxa Barabbac nwou `èebol > Ihc ? de `èetafervragellion `èmmof > afthif eqroua]f.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.", 
   "Matthieu 27 : 15-26 \nA chaque Fête, le gouverneur avait coutume de relâcher à la foule un prisonnier, celui qu'elle voulait. On avait alors un prisonnier fameux, nommé Barabbas. Pilate dit donc aux gens qui se trouvaient rassemblés: \"Lequel voulez-vous que je vous relâche, Barabbas, ou Jésus que l'on appelle Christ?\" Il savait bien que c'était par jalousie qu'on l'avait livré. Or, tandis qu'il siégeait au tribunal,", 
   "متى ٢٧ : ١٥ – ٢٦ \nوكانت عادة الوالي في كل عيد أن يطلق للجميع واحداً من الأسري من أرادوه. وكَانَ لديهم في ذلك الوقت أسير وهو لص يدعي باراباس. فلما إجتمعوا معاً، قال لهم بيلاطس: من تريدون ان أطلق لكم، باراباس أم يسوع الذي يدعي المسيح ؟ لأنه كان يعلم أنهم إنما أسلموه حسداً. وفيما هو جالس علي كرسي الولاية،", 
   ],
@@ -9374,7 +9182,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   ],
   [
   Prefix.HolyWeek+"3HDGospel&D=GL56&C=Diacon", 
-  "Markon  Kev i/e/ > -/ k/e/\nKata `èp]ai de nafxw `ènouai efcon nwou `èebol > vh`èe]au`èeretin `èmmof. Vh de `èetoumou; `èerof je Barabbac nafcon pe nem nh`èetau`èiri `ènou`è]qorter > nh`èetau`èiri `ènou'wteb 'en pi`è]qorter. Ouo `èetafi `èe`èp]wi `ènje pimh] > aferhtc `èn`èeretin kata `èvrh; `èenaf`èiri nwou. Pilatoc de af`èerou`èw nwou efjw `èmmoc > je tetenouw] `èntaxw nwten `èebol `èm`èpouro `ènte niIoudai > naf`èemi gar pe je `èetauthif eqbe ou`èvqonoc. Niarxh`èereuc de aukim `èmpimh] > ina mallon `èntefxa Barabbac nwou `èebol. Pilatoc de on `èetaf`èerou`èw pejaf nwou > je ou pe;naaif `èmvh`èetetenjw `èmmoc `èerof je `èpouro `ènniIoudai > `ènqwou de on auw] `èebol je a]f. Pilatoc gar nafjw `èmmoc nwou > je ou pe `èmpetwou pe `èetafaif > `ènqwou de `ènou`èo nauw] `èebol je a]f. \nPilatoc de efouw] `èeerpete\ne pimh] > afxa Barabbac nwou `èebol > af; de `ènIhc? `èeervragellion `èmmof ina `èntoua]f > nimatoi de ausitf `èe'oun `èe;aulh `ènte pipretwrion > ouo aumou; `èe;`ècpira thrc `èe`è\rhi `èejwf. Ouo au;iwtf `ènou`èwc `ènshji > ouo au]wnt `ènou`èxlom `èebol'en ancouri auxaf ijwf. Ouo auerhtc `èneracpazecqe `èmmof > je xere `èpouro `ènniIoudai > ouo auiou`èi 'en tef`èave `ènouka] > ouo nauiqaf 'en pefo > ouo euiou`èi `èmmwou `èejen noukeli euouw]t `èmmof. \nOuo ote `èetaucwbi `èmmof > auba]f `èmpiwc `ènshji > ouo au; `ènnef`èwc iwtf > ouo auenf `èebol ina `èncea]f. Ouo ausi `ènouai `ènxba efcini`èwou > Cimwn pikurinneoc efnhou `èebol'en `ètkoi > `èviwt `ènAle[androc nem Rovoc ina `èntef`èwli `èmpef+ > ouo auenf `èepima `ènte Golgoqa > vai `èe]auouamef je pima `ènte Pikranion ouo au; naf `ènouhrp efmoujt nem ou]a]i `ènqof de `èmpefsitf. Ouo aua]f ouo auvw] `ènnef`èwc `èe`è\rau > ouo auiwp `èerwou je nim eqna`èolou. Ne `èvnau de `ènajp ]omt pe ouo aua]f.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.", 
+  "Markon  Kev i/e/ > -/ k/e/\nKata `èp]ai de nafxw `ènouai efcon nwou `èebol > vh`èe]au`èeretin `èmmof. Vh de `èetoumou; `èerof je Barabbac nafcon pe nem nh`èetau`èiri `ènou`è]qorter > nh`èetau`èiri `ènou'wteb 'en pi`è]qorter. Ouo `èetafi `èe`èp]wi `ènje pimh] > aferhtc `èn`èeretin kata `èvrh; `èenaf`èiri nwou. Pilatoc de af`èerou`èw nwou efjw `èmmoc > je tetenouw] `èntaxw nwten `èebol `èm`èpouro `ènte niIoudai > naf`èemi gar pe je `èetauthif eqbe ou`èvqonoc. Niarxh`èereuc de aukim `èmpimh] > ina mallon `èntefxa Barabbac nwou `èebol. Pilatoc de on `èetaf`èerou`èw pejaf nwou > je ou pe;naaif `èmvh`èetetenjw `èmmoc `èerof je `èpouro `ènniIoudai > `ènqwou de on auw] `èebol je a]f. Pilatoc gar nafjw `èmmoc nwou > je ou pe `èmpetwou pe `èetafaif > `ènqwou de `ènou`èo nauw] `èebol je a]f. \nPilatoc de efouw] `èeerpete\ne pimh] > afxa Barabbac nwou `èebol > af; de `ènIhc? `èeervragellion `èmmof ina `èntoua]f > nimatoi de ausitf `èe'oun `èe;aulh `ènte pipretwrion > ouo aumou; `èe;`ècpira thrc `èe`è\\rhi `èejwf. Ouo au;iwtf `ènou`èwc `ènshji > ouo au]wnt `ènou`èxlom `èebol'en ancouri auxaf ijwf. Ouo auerhtc `èneracpazecqe `èmmof > je xere `èpouro `ènniIoudai > ouo auiou`èi 'en tef`èave `ènouka] > ouo nauiqaf 'en pefo > ouo euiou`èi `èmmwou `èejen noukeli euouw]t `èmmof. \nOuo ote `èetaucwbi `èmmof > auba]f `èmpiwc `ènshji > ouo au; `ènnef`èwc iwtf > ouo auenf `èebol ina `èncea]f. Ouo ausi `ènouai `ènxba efcini`èwou > Cimwn pikurinneoc efnhou `èebol'en `ètkoi > `èviwt `ènAle[androc nem Rovoc ina `èntef`èwli `èmpef+ > ouo auenf `èepima `ènte Golgoqa > vai `èe]auouamef je pima `ènte Pikranion ouo au; naf `ènouhrp efmoujt nem ou]a]i `ènqof de `èmpefsitf. Ouo aua]f ouo auvw] `ènnef`èwc `èe`è\\rau > ouo auiwp `èerwou je nim eqna`èolou. Ne `èvnau de `ènajp ]omt pe ouo aua]f.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.", 
   "Marc 15 : 6-25\nÀ chaque Fête, il leur relâchait un prisonnier, celui qu'ils demandaient. Or, il y avait en prison le nommé Barabbas, arrêté avec les émeutiers qui avaient commis un meurtre dans la sédition. La foule étant montée se mit à demander la grâce accoutumée. Pilate leur répondit: \"Voulez-vous que je vous relâche le roi des Juifs?\" Il se rendait bien compte que c'était par jalousie que les grands prêtres l'avaient livré. ", 
   "مرقس ١٥ : ٦ – ٢٥\nوكان في كل عيد يطلق لهم أسيراً من طلبوه، وكَانَ المدعو باراباس موثقاً مع مثيري الفتنة الذين إرتكبوا القتل في الفتنة، فلما صعد الجمع طفقوا يطلبون مثل ما كان يفعل لهم، فأجابهم بيلاطس قائلاً: أتريدون أن أطلق لكم ملك اليهود؟ لأنه كان يعلم أن رؤساء الكهنة إنما أسلموه حسداً", 
   ],
@@ -9404,7 +9212,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   ],
   [
   Prefix.HolyWeek+"3HDGospel&D=GL56&C=Diacon", 
-  "Loukan  Kev  k/g/> i/g/-k/e\nPilatoc de `èetafmou; `èeniarxhereuc nem niarxwn nem pilaoc > pejaf nwou je `èaretenini nhi `èmpairwmi wc efvwn `èmpilaoc `èebol > ouo hppe `èanok `èetai]enf `èe`è\raf `èmpeten`èmqo > `èmpijem `èli `èn`èeti`èa 'en pairwmi > `ènnh`èetenerkathgorin `èerof `èn'htou. Alla oude `èpkeHrwdhc afouorpf gar aron > ouo hppe `èmmon `èli `ènwb `èn'htf `èeafaif efem`èp]a `èm`èvmou `ènta;`ècbw oun naf `èntaxaf `èebol. Ouo `ènqof `èanagkh naf pe `èexa ouai nwou `èebol kata `èp]ai. Apimh] de thrf w] `èebol efjw `èmmoc > je `èali vai xa Barabbac nan `èebol. Vai `èetauitf `èepi`è]teko eqbe ou`è]qorter nem ou'wteb `èeaf]wpi 'en ;polic.\nPalin de on `èa Pilatoc mou; `èerwou efouw] `èexa Ihc? `èebol. Nqwou de auw] `èebol eujw èèmmoc je a]f a]f > `ènqof de pejaf nwou `èm`èvma ]omt `èncop > je ou gar `èmpetwou peta vai aif > `èmpijem `èli `èn`èeti`èa `ènte `èvmou `èn'htf > `èènta;`ècbw oun naf `èntaxaf `èebol. Nqwou de `èetauoua	otou 'en ouni]; `èn`ècmh eu`èeretin `èmmof eqroua]f > ouo naujemjom pe `ènje nou`ècmh. Ouo `èa Pilatoc ;ap eqref]wpi `ènje pou`èethma. Afxw de `èebol `èmvh`èetauitf `èepi`è]teko eqbe ou'wteb nem ou`è]qorter vh`èetau`èeretin `èmmof > Ihc? de authif kata pououw].  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.", 
+  "Loukan  Kev  k/g/> i/g/-k/e\nPilatoc de `èetafmou; `èeniarxhereuc nem niarxwn nem pilaoc > pejaf nwou je `èaretenini nhi `èmpairwmi wc efvwn `èmpilaoc `èebol > ouo hppe `èanok `èetai]enf `èe`è\\raf `èmpeten`èmqo > `èmpijem `èli `èn`èeti`èa 'en pairwmi > `ènnh`èetenerkathgorin `èerof `èn'htou. Alla oude `èpkeHrwdhc afouorpf gar aron > ouo hppe `èmmon `èli `ènwb `èn'htf `èeafaif efem`èp]a `èm`èvmou `ènta;`ècbw oun naf `èntaxaf `èebol. Ouo `ènqof `èanagkh naf pe `èexa ouai nwou `èebol kata `èp]ai. Apimh] de thrf w] `èebol efjw `èmmoc > je `èali vai xa Barabbac nan `èebol. Vai `èetauitf `èepi`è]teko eqbe ou`è]qorter nem ou'wteb `èeaf]wpi 'en ;polic.\nPalin de on `èa Pilatoc mou; `èerwou efouw] `èexa Ihc? `èebol. Nqwou de auw] `èebol eujw èèmmoc je a]f a]f > `ènqof de pejaf nwou `èm`èvma ]omt `èncop > je ou gar `èmpetwou peta vai aif > `èmpijem `èli `èn`èeti`èa `ènte `èvmou `èn'htf > `èènta;`ècbw oun naf `èntaxaf `èebol. Nqwou de `èetauoua	otou 'en ouni]; `èn`ècmh eu`èeretin `èmmof eqroua]f > ouo naujemjom pe `ènje nou`ècmh. Ouo `èa Pilatoc ;ap eqref]wpi `ènje pou`èethma. Afxw de `èebol `èmvh`èetauitf `èepi`è]teko eqbe ou'wteb nem ou`è]qorter vh`èetau`èeretin `èmmof > Ihc? de authif kata pououw].  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.", 
   "Luc 23 : 13-25\nAyant convoqué les grands prêtres, les chefs et le peuple, Pilate leur dit: \"Vous m'avez présenté cet homme comme détournant le peuple, et voici que moi je l'ai interrogé devant vous, et je n'ai trouvé en cet homme aucun motif de condamnation pour ce dont vous l'accusez. Hérode non plus d'ailleurs, puisqu'il l'a renvoyé devant nous. Vous le voyez; cet homme n'a rien fait qui mérite la mort. Je le relâcherai donc,", 
   "لوقا ٢٣ : ١٣ – ٢٥\nفدعا بيلاطس رؤساء الكهنة والعظماء والشعب، وقال لهم: قد قدمتم إليّ هذا الرجل كمن يضل الشعب، وها أنا قد فحصته أمامكم ولم أجد علة علي هذا الرجل مما تشتكون به عليه، بل ولا هيروس أيضاً، لأنه قد أرسله إلينا. وها هوذا لم يصنع شيئاً يستوجب الموت، فأنا أؤدبه وأطلقه.", 
   ],
@@ -9422,7 +9230,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   ],
   [
   Prefix.HolyWeek+"3HDGospel&D=GL56&C=Diacon", 
-  "Iwannhn  Kev i/q/> a/- i/b\nTote pilatoc afsi `ènIhc? afermactiggoin `èmmof. Ouo nimatoi au]wnt `ènou`èxlom `èebol'en ancouri > ouo authif `èejen tef`èave > ouo aujol `ènou`èebcw `ènshji. Ouo naunhou arof pe eujw `èmmoc > je xere `èpouro `ènte niIoudai ouo nau;kour naf pe. Palin on af`èi `èebol `ènje Pilatoc ouo pejaf nwou > je hppe ;naenf nwten `èebol> ina `ènteten`èemi je è`èn;jem `èli `èn`èeti`èa `èerof an. Tote af`èi `èebol `ènje Ihc? efervorin `èmpi`èxlom `èncouri nem pi`èwc `ènshji > ouo peje Pilatoc nwou je hppe ic pirwmi. |ote oun `èetaunau `èerof `ènje niarxh`èereuc nem ni\\uperethc > auw] `èebol eujw `èmmoc je a]f a]f > peje Pilatoc nwou> je mwini `èerof `ènqwten a]f `èanok gar `èn;jem `èli `èn`èeti`èa si `èerof an.\nAu`èerou`èw naf `ènje niIoudai je `èanon ouon `èntan `ènounomoc`èmmau > ouo kata pennomoc `èfem`èp]a `èm`èvmou > je afaif `èn]hri `ènte V; > ote de `èetafcwtem `èepaicaji `ènje Pilatoc afero; `ènou`èo > ouo af`èi on `èe'oun `èepipretwrion ouo pejaf `ènIhc? je `ènqok ou `èebol qwn > Ihc? de `èmpeferou`èw naf. Peje Pilatoc naf > je eqbeou `èkcaji nemhi an > ]an `èk`èemi an je ouon; er]i]i `èmmau `èea]k > ouo ouon; er]i]i `èmmau on `èexak `èebol. Af`èerou`èw `ènje Ihc? je `èmmontek `èli `èner]i]i `èmmau `èe'oun `èeroi > `èene `èmpouthic nak `èebol `èm`èp]wi > eqbe vai vh`èetafthit nak ouontefni]; `ènnobi `èmmau `ènou`èo. Eqbe vai oun Pilatoc nafkw; pe `ènca xaf `èebol > niIoudai de nauw] `èebol eujw `èmmoc > je `èe]wp ak]anxa vai `èebol > `ènqok `èp`è]vhr `èm`èpouro an > ouon gar niben et`èiri `èmmof `ènouro `èmmauatf > af; `èe'oun `èe`è\ren `èpouro.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.", 
+  "Iwannhn  Kev i/q/> a/- i/b\nTote pilatoc afsi `ènIhc? afermactiggoin `èmmof. Ouo nimatoi au]wnt `ènou`èxlom `èebol'en ancouri > ouo authif `èejen tef`èave > ouo aujol `ènou`èebcw `ènshji. Ouo naunhou arof pe eujw `èmmoc > je xere `èpouro `ènte niIoudai ouo nau;kour naf pe. Palin on af`èi `èebol `ènje Pilatoc ouo pejaf nwou > je hppe ;naenf nwten `èebol> ina `ènteten`èemi je è`èn;jem `èli `èn`èeti`èa `èerof an. Tote af`èi `èebol `ènje Ihc? efervorin `èmpi`èxlom `èncouri nem pi`èwc `ènshji > ouo peje Pilatoc nwou je hppe ic pirwmi. |ote oun `èetaunau `èerof `ènje niarxh`èereuc nem ni\\uperethc > auw] `èebol eujw `èmmoc je a]f a]f > peje Pilatoc nwou> je mwini `èerof `ènqwten a]f `èanok gar `èn;jem `èli `èn`èeti`èa si `èerof an.\nAu`èerou`èw naf `ènje niIoudai je `èanon ouon `èntan `ènounomoc`èmmau > ouo kata pennomoc `èfem`èp]a `èm`èvmou > je afaif `èn]hri `ènte V; > ote de `èetafcwtem `èepaicaji `ènje Pilatoc afero; `ènou`èo > ouo af`èi on `èe'oun `èepipretwrion ouo pejaf `ènIhc? je `ènqok ou `èebol qwn > Ihc? de `èmpeferou`èw naf. Peje Pilatoc naf > je eqbeou `èkcaji nemhi an > ]an `èk`èemi an je ouon; er]i]i `èmmau `èea]k > ouo ouon; er]i]i `èmmau on `èexak `èebol. Af`èerou`èw `ènje Ihc? je `èmmontek `èli `èner]i]i `èmmau `èe'oun `èeroi > `èene `èmpouthic nak `èebol `èm`èp]wi > eqbe vai vh`èetafthit nak ouontefni]; `ènnobi `èmmau `ènou`èo. Eqbe vai oun Pilatoc nafkw; pe `ènca xaf `èebol > niIoudai de nauw] `èebol eujw `èmmoc > je `èe]wp ak]anxa vai `èebol > `ènqok `èp`è]vhr `èm`èpouro an > ouon gar niben et`èiri `èmmof `ènouro `èmmauatf > af; `èe'oun `èe`è\\ren `èpouro.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.", 
   "Jean 19 : 1-12 \nPilate prit alors Jésus et le fit flageller. Les soldats, tressant une couronne avec des épines, la lui posèrent sur la tête, et ils le revêtirent d'un manteau de pourpre; et ils s'avançaient vers lui et disaient: \"Salut, roi des Juifs!\" Et ils lui donnaient des coups. De nouveau, Pilate sortit dehors et leur dit: \" Voyez, je vous l'amène dehors, pour que vous sachiez que je ne trouve en lui aucun motif de", 
   "يوحنا ١٩ : ١ – ١٢ \nحينئذ أخذ بيلاطس يسوع وجلده، وضفر الجند إكليلاً من الشوك ووضعوه علي رأسه، وألبسوه ثوباً من أرجوان، وكانوا يقبلون إليه ويقولون: السلام يا ملك اليهود. وكانوا يلطمونه. فخرج بيلاطس أيضاً وقال لهم: ها أنا أخرجه إليكم لتعلموا أني لست أجد فيه علة ما.", 
   ],
@@ -9675,7 +9483,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   ],
   [
   Prefix.HolyWeek+"6HDPsalm&D=GL56&C=Diacon", 
-  "Yalmoc  to Dauid\nAuberbwrt `èebol `èanok pimenrit `èm`èvrh; `ènourefmwout ef`èoreb > ouo au;iat `èetacar[ > `èmperxat `èncwk P_ Panou; > `allhloui`a\nAuswlk `èntot nem rat auwp `ènnakac throu > auvw] `ènna`èwc `èe`è\rau ouo taebcw auiwp `èeroc > aucaji 'en nou`ècvotou aukim `èntou`èave > aujoc je icje afna; aferelpic  `èeP_ marefnamef  >  mareftoujof icje afoua]f > `allhloui`a", 
+  "Yalmoc  to Dauid\nAuberbwrt `èebol `èanok pimenrit `èm`èvrh; `ènourefmwout ef`èoreb > ouo au;iat `èetacar[ > `èmperxat `èncwk P_ Panou; > `allhloui`a\nAuswlk `èntot nem rat auwp `ènnakac throu > auvw] `ènna`èwc `èe`è\\rau ouo taebcw auiwp `èeroc > aucaji 'en nou`ècvotou aukim `èntou`èave > aujoc je icje afna; aferelpic  `èeP_ marefnamef  >  mareftoujof icje afoua]f > `allhloui`a", 
   "Psaume 37 : 21 et 22\nIls m'ont rejeté, moi le bien-aimé, comme un affreux cadavre. Ils ont cloué ma chair, ne m'abandonne pas, Seigneur, mon Dieu. Alléluia Psaume 21 : 17-19, 8 et 9\nIls me percent les mains et les pieds, je peux compter tous mes os. Ils partagent entre eux mes habits et tirent au sort mon vêtement, ils ricanent et hochent la tête Il comptait sur le Seigneur : qu'il le délivre ! Qu'il le sauve, puisqu'il est sont ami ! Alléluia", 
   "مزمور  ٣٧ : ٢١، ٢٢\nرفضوني أنا الحبيب مثل ميت مرذول، وجعلوا مساميراً في جسدي، فلا تهملني ياربي وإلهي. الليلويا.\nمزمور ٢١ : ١٦، ١٧، ٨، ٩\nثقبوا يدي ورجلي وأحصوا كل عظامي. إقتسموا ثيابي بينهم وعلي لباسي إقترعوا. تكلموا بشفاههم وحركوا رؤوسهم وقالوا: إن كان آمن وإتكل علي الرب، فليخلصه ولينجيه إن كان أرده. الليلويا.", 
   ],
@@ -9689,13 +9497,13 @@ ReadingsArrays.GospelNightArrayFR= [[
   ],
   [
   Prefix.HolyWeek+"6HDGospel&D=GL56&C=Diacon", 
-  "Yalmoc  to Dauid\nAuberbwrt `èebol `èanok pimenrit `èm`èvrh; `ènourefmwout ef`èoreb > ouo au;iat `èetacar[ > `èmperxat `èncwk P_ Panou; > `allhloui`a\nAuswlk `èntot nem rat auwp `ènnakac throu > auvw] `ènna`èwc `èe`è\rau ouo taebcw auiwp `èeroc > aucaji 'en nou`ècvotou aukim `èntou`èave > aujoc je icje afna; aferelpic  `èeP_ marefnamef  >  mareftoujof icje afoua]f > `allhloui`a", 
+  "Yalmoc  to Dauid\nAuberbwrt `èebol `èanok pimenrit `èm`èvrh; `ènourefmwout ef`èoreb > ouo au;iat `èetacar[ > `èmperxat `èncwk P_ Panou; > `allhloui`a\nAuswlk `èntot nem rat auwp `ènnakac throu > auvw] `ènna`èwc `èe`è\\rau ouo taebcw auiwp `èeroc > aucaji 'en nou`ècvotou aukim `èntou`èave > aujoc je icje afna; aferelpic  `èeP_ marefnamef  >  mareftoujof icje afoua]f > `allhloui`a", 
   "Psaume 37 : 21 et 22\nIls m'ont rejeté, moi le bien-aimé, comme un affreux cadavre. Ils ont cloué ma chair, ne m'abandonne pas, Seigneur, mon Dieu. Alléluia Psaume 21 : 17-19, 8 et 9\nIls me percent les mains et les pieds, je peux compter tous mes os. Ils partagent entre eux mes habits et tirent au sort mon vêtement, ils ricanent et hochent la tête Il comptait sur le Seigneur : qu'il le délivre ! Qu'il le sauve, puisqu'il est sont ami ! Alléluia", 
   "مزمور  ٣٧ : ٢١، ٢٢\nرفضوني أنا الحبيب مثل ميت مرذول، وجعلوا مساميراً في جسدي، فلا تهملني ياربي وإلهي. الليلويا.\nمزمور ٢١ : ١٦، ١٧، ٨، ٩\nثقبوا يدي ورجلي وأحصوا كل عظامي. إقتسموا ثيابي بينهم وعلي لباسي إقترعوا. تكلموا بشفاههم وحركوا رؤوسهم وقالوا: إن كان آمن وإتكل علي الرب، فليخلصه ولينجيه إن كان أرده. الليلويا.", 
   ],
   [
   Prefix.HolyWeek+"6HDGospel&D=GL56&C=Diacon", 
-  "Matqeon  Kev  k/z/> k/z/ -m/e\nTote nimatoi `ènte pi\\ugemwn auwli Ihc? `èe'oun `èepipretwrion >  auqwou; `èn;cpira thrc `èe`è\rhi `èejwf. Ouo `èetauba]f au; `ènouxlamic `ènkokkoc iwtf > ouo au]wnt `ènou`èxlom `èebol'en ancouri authif `èejen tef`èave > ouo auxw `ènouka] 'en tefjij `ènou`èinam > ouo nauiou`èi `èmmwou `èejen noukeli `èmpef`èmqo eucwbi `èmmof eujw `èmmoc > je xere `èpouro `ènniIoudai. Ouo etauiqaf `èe'oun 'en pefo > au`èwli `èmpika] auiou`èi 'en tef`èave. Ouo `èetauou`èw eucwbi `èmmof > auba]f `èn;xlamic ouo au; `ènnef`èwc iwtf ouo auolf eqroua]f. Eunhou de `èebol aujimi `ènourwmi `ènKurinneoc > `èepefran pe Cumewn > vai ausitf `èn`èxba ina `èntefel pef+.  Ouo `èetaui euma `èe]aumou; `èerof je Golgoqa > `èete pima `ènte Pikranion pe. Au; `ènouemj naf efmoujt nem ouen]a]i > ouo `èetafjem;pi `èmpefouw] `èecw. Etaua]f de auvw] `ènnef`èwc `èe`è\rau `èeauiwp `èerwou. Ouo nauemci eu`èare `èerof `èmmau > ouo au`èc'e tef`èeti`èa ca`èp]wi `èntef`èave ec`èc'hout `èmpairh; je VAI PE IHCOUC `èPOURO NTE NIIOUDAI. Tote au`èi]i `ènkeconi `ècnau nemaf > ouai catefou`èinam > nem ouai catefjash. Nh de `èenaucini naujeou`èa `èerof pe > eukim `èntou`èave > eujw `èmmoc > je vheqnabel piervei `ènte V; `èebol ouo `èntefkotf 'en ]omt `èn`èeoou namek > icje `ènqok pe `èp]hri `èmV; > `èamou `èepecht `èeboli pi]e > vai pe `èm`èvrh; `ènniarxh`èereuc nem nica' nem niprecbuteroc > eucwbi `èmmof eujw `èmmoc je afnoem `ènankexwouni > `èmmon `è]jom `èmmof `èenamef > icje `èpouro `èm`èpIc/l/ pe maref`èi `èepecht ;nou `èebol i pi+ `èntenna; `èerof > icje de `èqhf xh `èeV; marefnamef ;nou icje `èfoua]f je afjoc je `èanok pe `èp]hri `èmV;. Vai de nare nikeconi jw `èmmof nh`èetau`èa]ou nemaf eut`è]snhni nemaf. Icjen `èvnau de `ènajp coou > `èa`èpxaki ]wpi ijen `èpkai thrf > ]a `èvnau `ènajp yi;.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.", 
+  "Matqeon  Kev  k/z/> k/z/ -m/e\nTote nimatoi `ènte pi\\ugemwn auwli Ihc? `èe'oun `èepipretwrion >  auqwou; `èn;cpira thrc `èe`è\\rhi `èejwf. Ouo `èetauba]f au; `ènouxlamic `ènkokkoc iwtf > ouo au]wnt `ènou`èxlom `èebol'en ancouri authif `èejen tef`èave > ouo auxw `ènouka] 'en tefjij `ènou`èinam > ouo nauiou`èi `èmmwou `èejen noukeli `èmpef`èmqo eucwbi `èmmof eujw `èmmoc > je xere `èpouro `ènniIoudai. Ouo etauiqaf `èe'oun 'en pefo > au`èwli `èmpika] auiou`èi 'en tef`èave. Ouo `èetauou`èw eucwbi `èmmof > auba]f `èn;xlamic ouo au; `ènnef`èwc iwtf ouo auolf eqroua]f. Eunhou de `èebol aujimi `ènourwmi `ènKurinneoc > `èepefran pe Cumewn > vai ausitf `èn`èxba ina `èntefel pef+.  Ouo `èetaui euma `èe]aumou; `èerof je Golgoqa > `èete pima `ènte Pikranion pe. Au; `ènouemj naf efmoujt nem ouen]a]i > ouo `èetafjem;pi `èmpefouw] `èecw. Etaua]f de auvw] `ènnef`èwc `èe`è\\rau `èeauiwp `èerwou. Ouo nauemci eu`èare `èerof `èmmau > ouo au`èc'e tef`èeti`èa ca`èp]wi `èntef`èave ec`èc'hout `èmpairh; je VAI PE IHCOUC `èPOURO NTE NIIOUDAI. Tote au`èi]i `ènkeconi `ècnau nemaf > ouai catefou`èinam > nem ouai catefjash. Nh de `èenaucini naujeou`èa `èerof pe > eukim `èntou`èave > eujw `èmmoc > je vheqnabel piervei `ènte V; `èebol ouo `èntefkotf 'en ]omt `èn`èeoou namek > icje `ènqok pe `èp]hri `èmV; > `èamou `èepecht `èeboli pi]e > vai pe `èm`èvrh; `ènniarxh`èereuc nem nica' nem niprecbuteroc > eucwbi `èmmof eujw `èmmoc je afnoem `ènankexwouni > `èmmon `è]jom `èmmof `èenamef > icje `èpouro `èm`èpIc/l/ pe maref`èi `èepecht ;nou `èebol i pi+ `èntenna; `èerof > icje de `èqhf xh `èeV; marefnamef ;nou icje `èfoua]f je afjoc je `èanok pe `èp]hri `èmV;. Vai de nare nikeconi jw `èmmof nh`èetau`èa]ou nemaf eut`è]snhni nemaf. Icjen `èvnau de `ènajp coou > `èa`èpxaki ]wpi ijen `èpkai thrf > ]a `èvnau `ènajp yi;.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.", 
   "Matthieu 27 : 27-45\nAlors les soldats du gouverneur prirent avec eux Jésus dans le Prétoire et ameutèrent sur lui toute la cohorte. L'ayant dévêtu, ils lui mirent une chlamyde écarlate, puis, ayant tressé une couronne avec des épines, ils la placèrent sur sa tête, avec un roseau dans sa main droite. Et, s'agenouillant devant lui, ils se moquèrent de lui en disant: \"Salut, roi des Juifs!\" et, crachant sur lui, ils prenaient le roseau et en frappaient", 
   "متى ٢٧ : ٢٧ – ٤٥ \nحينئذ أخذ جند الوالي يسوع وأدخلوه إلي الديوان وجمعوا عليه كل الكتبة، فعروه وألبسوه رداءً قرمزياً، وضفروا إكليلاً من شوك ووضعوه علي رأسه، وجعلوا في يمينه قصبة، وكانوا يجثون علي ركبهم قدامه ويستهزئون به قائلين: السلام لك يا ملك اليهود. وكانوا يبصقون في وجهه، وأخذوا القصبة وضربوه", 
   ],
@@ -9731,7 +9539,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   ],
   [
   Prefix.HolyWeek+"6HDGospel&D=GL56&C=Diacon", 
-  "Loukan  Kev  k/g/ > k/ /- m/d\nOuo wc eu`èini `èmmof `èebol > au`èamoni `ènouai je Cimewn ne ouKurinneoc efnhou `èebol'en `ètkoi > autale pictauroc `èerof eqreftwoun `èmmof cavaou `ènIhc?. Nafmo]i de `èncwf `ènje ouni]; `èmmh] `ènte pilaoc > nem ani`èomi nh`èenautwit ouo naunepi `èerof. Etafvon de `èerwou `ènje Ihc? pejaf > ni]eri `ènte Il?h?m? `èmperrimi `èejwi > `èplhn rimi `èejen qhnou nem `èejen neten]hri. Je hppe cenhou `ènje an`èeoou > nh`èetounajoc `èn'htou > je `èwouni`èatou `ènniasrhn nem nineji `èete `èmpoumici > nem ni`èmno; `èete `èmpou]an]. Tote cenaerhtc `ènjoc `ènnitwou  je ei `èejwn > nem nikalamvo je obcten > je icje ce`èiri `ènnai 'en pi]e etlhk > ie ou peqna]wpi 'en pet]ou`èwou.\nNau`èini de pe `ènkereferpetwou `ècnau nemaf `èe'oqbou. Ouo ote `èetau`èi `èejen pima `èetoumou; `èerof je Pikranion > aua]f `èmmau nem nikakourgoc > ouai men caou`èinam ouai de cajash. Ihc? de pejaf je paiwt xw nwou `èebol > je `èmpou`èemi `èenh`èetou`èiri `èmmof > euvw] de `ènnef`èwc `èe`è\rau auiwp `èerwou. Ouo naf`èoi `èeratf `ènje pilaoc efnau > nauelk]ai pe `ènje nikearxwn eujw `èmmoc > je afnoem `ènankexwouni marefnamef wf > icje vai pe Pxc? `èp]hri `èmV; picwtp. Naucwbi de `èmmof `ènje nikematoi eunhou arof eu`èini `ènouemj naf eujw `èmmoc je icje `ènqok pe `èpouro `ènniIoudai namek. Ne ouon ke`èepigravh de pe ijwf > `èmmetebreoc `èmmetrwmeoc `èmmetoueinin je > VAI  PE POURO NTE NIIOUDAI. Ouai de `èebol'en nikakourgoc `èetau`èa]ou > nafjeou`èa `èerof pe efjw `èmmoc > je icje `ènqok pe Pxc ?  namek ouo namen wn. Af`èerou`èw de `ènje pikeouai efer`èepitiman naf pejaf > je ou de V; `ènqok `èkero; an 'atefh je anxh 'en paiap `ènouwt. Ouo `èanon men 'en oumeqmhi `èetansi kata `èpem`èp]a `ènnh`èetanaitou > vai de `ènqof `èmpefer `èli `èmpetwou. Ouo nafjw `èmmoc `ènIhc? > je P_ `èaripameu`èi otan akwan`èi 'en tekmetouro. Ouo peje Ihc ? naf je `èamhn ;jw `èmmoc nak > je `èmvoou ek`èe]wpi nemhi 'en piparadicoc. Ne `èvnau hdh `ènajp coou pe > ouo `èa ouxaki ]wpi ijen `èpkai thrf > ]a `èèvnau `ènajp yi;.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.", 
+  "Loukan  Kev  k/g/ > k/ /- m/d\nOuo wc eu`èini `èmmof `èebol > au`èamoni `ènouai je Cimewn ne ouKurinneoc efnhou `èebol'en `ètkoi > autale pictauroc `èerof eqreftwoun `èmmof cavaou `ènIhc?. Nafmo]i de `èncwf `ènje ouni]; `èmmh] `ènte pilaoc > nem ani`èomi nh`èenautwit ouo naunepi `èerof. Etafvon de `èerwou `ènje Ihc? pejaf > ni]eri `ènte Il?h?m? `èmperrimi `èejwi > `èplhn rimi `èejen qhnou nem `èejen neten]hri. Je hppe cenhou `ènje an`èeoou > nh`èetounajoc `èn'htou > je `èwouni`èatou `ènniasrhn nem nineji `èete `èmpoumici > nem ni`èmno; `èete `èmpou]an]. Tote cenaerhtc `ènjoc `ènnitwou  je ei `èejwn > nem nikalamvo je obcten > je icje ce`èiri `ènnai 'en pi]e etlhk > ie ou peqna]wpi 'en pet]ou`èwou.\nNau`èini de pe `ènkereferpetwou `ècnau nemaf `èe'oqbou. Ouo ote `èetau`èi `èejen pima `èetoumou; `èerof je Pikranion > aua]f `èmmau nem nikakourgoc > ouai men caou`èinam ouai de cajash. Ihc? de pejaf je paiwt xw nwou `èebol > je `èmpou`èemi `èenh`èetou`èiri `èmmof > euvw] de `ènnef`èwc `èe`è\\rau auiwp `èerwou. Ouo naf`èoi `èeratf `ènje pilaoc efnau > nauelk]ai pe `ènje nikearxwn eujw `èmmoc > je afnoem `ènankexwouni marefnamef wf > icje vai pe Pxc? `èp]hri `èmV; picwtp. Naucwbi de `èmmof `ènje nikematoi eunhou arof eu`èini `ènouemj naf eujw `èmmoc je icje `ènqok pe `èpouro `ènniIoudai namek. Ne ouon ke`èepigravh de pe ijwf > `èmmetebreoc `èmmetrwmeoc `èmmetoueinin je > VAI  PE POURO NTE NIIOUDAI. Ouai de `èebol'en nikakourgoc `èetau`èa]ou > nafjeou`èa `èerof pe efjw `èmmoc > je icje `ènqok pe Pxc ?  namek ouo namen wn. Af`èerou`èw de `ènje pikeouai efer`èepitiman naf pejaf > je ou de V; `ènqok `èkero; an 'atefh je anxh 'en paiap `ènouwt. Ouo `èanon men 'en oumeqmhi `èetansi kata `èpem`èp]a `ènnh`èetanaitou > vai de `ènqof `èmpefer `èli `èmpetwou. Ouo nafjw `èmmoc `ènIhc? > je P_ `èaripameu`èi otan akwan`èi 'en tekmetouro. Ouo peje Ihc ? naf je `èamhn ;jw `èmmoc nak > je `èmvoou ek`èe]wpi nemhi 'en piparadicoc. Ne `èvnau hdh `ènajp coou pe > ouo `èa ouxaki ]wpi ijen `èpkai thrf > ]a `èèvnau `ènajp yi;.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.", 
   "Luc 23 : 26-44 \nQuand ils l'emmenèrent, ils mirent la main sur un certain Simon de Cyrène qui revenait des champs, et le chargèrent de la croix pour la porter derrière Jésus. Une grande masse du peuple le suivait, ainsi que des femmes qui se frappaient la poitrine et se lamentaient sur lui. Mais, se retournant vers elles, Jésus dit: \" Filles de Jérusalem, ne pleurez pas sur moi! Pleurez plutôt sur vous-mêmes et sur vos enfants!", 
   "لوقا ٢٣ : ٢٦ – ٤٤ \nوبينما هم منطلقون به، أمسكوا واحداً يدعي سمعان القيرواني، كان آتياً من الحقل، ووضعوا عليه الصليب ليحمله خلف يسوع. وكَانَ يتبعه جمهور كثير من الشعب، والنساء اللواتي كن يندبن وينحن عليه، فإلتفت إليهن يسوع وقال: يا بنات أورشليم لا تبكين عليّ، بل إبكين علي أنفسكن، وعلي أولادكن، ", 
   ],
@@ -9761,7 +9569,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   ],
   [
   Prefix.HolyWeek+"6HDGospel&D=GL56&C=Diacon", 
-  "Iwannhn  Kev i/q/ > i/g/ - k/z/\nPilatoc de `èetafcwtem `èenaicaji > afen Ihc? `èebol ouo afemci ijen pibhma > 'en pima `èetoumou; `èerof je piliqoctrwton > `èmmetebreoc je Gabbaqa. Ne `ètpareckeuh de te `ènte `è mpipacxa > ne `èvnau de `ènajp coou pe. Ouo nafjw `èmmoc `ènje Pilatoc `ènniIoudai je hppe ic petenouro. Nqwou de auw] `èebol je è`èalitf `èalitf a]f > peje Pilatoc nwou je `èntae] petenouro > `èauerou`èw `ènje niarxh`èereuc je `èmmonten ouro `èmmau `èebhl `èeKecar. Tote oun af; nwou `ènIhc ? ina `èntoua]f ausi oun `ènIhc ?. Ouo `ènqof effai `èmpefctauroc af`èi `èebol `èepima `èetoumou; è`èerof je Pikranion > `èmmetebreoc de je Pigolgoqa. Pima `èetaua]f `èmmof > ouo au`èi]i `ènkeconi `ècnau nemaf ca`èmnh nem ca`èmnai `èmmof > Ihc ? de 'en `èqmh;.\nAf`èc'e ke titloc de `ènje Pilatoc > ouo afxaf ijen pictauroc > naf `èc'hout de pe je > IHCOUC PINAZWREOC POURO NTE NIIOUDAI. Oumh] de `ènte niIoudai auw] `èmpaititloc > je naf'ent pe `èe;baki `ènje pima `èetaue] Ihc ? `èmmof > ouo naf`èc'hout pe `èmmetebreoc `èmmetrwmeoc `èmmetoueinin. Naujw oun `èmmoc pe `èmPilatoc > `ènje niarxh`èereuc `ènte niIoudai > je `èmper`èc'ai je `èpouro `ènte niIoudai > alla je `ènqof afjoc je `èanok pe `èpouro `ènte niIoudai. Af`èerou`èw `ènje Pilatoc je vh`èetai`èc'htf ai`èc'htf. Nimatoi oun `èetaue] `ènIhc ? > ausi `ènnef`èwc ouo auaitou `èn`èftou `èntoi > outoi `èe`èvouai `ènnimatoi nem ;ke`è]qhn > ;`è]qhn de ne ouatqwrp te > `èncw'i `èebol `èe`èp]wi thrc. Pejwou de `ènnou`èerhou je `èmpen`èqrenva'c alla mareniwp `èeroc > je acnaer qa nim `èmmon > ina `ènte ;gravh jwk `èebol ecjw `èmmoc > je auvw] `ènna`èwc `èe`è\rau > ouo taebcw auiwp `èeroc > nai oun `èetauaitou `ènje nimatoi. Nau`èoi de `èeratou pe 'aten pictauroc `ènIhc ? > `ènje tefmau nem `ètcwni `èntefmau > Maria `ènte Kle`èwpa nem Maria :magdalinh. Ihc ? de `èetafnau `èetefmau nem pimaqhthc `èenafmei `èmmof ef`èoi `èeratf pejaf `èntefmau > je ;`ècimi ic pe]hri > `èita pejaf `èmpimaqhthc je hppe ic tekmau > ouo icjen ;ounou `èete`èmmau afolc `ènje pimaqhthc `èe'oun `èepefhi.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.", 
+  "Iwannhn  Kev i/q/ > i/g/ - k/z/\nPilatoc de `èetafcwtem `èenaicaji > afen Ihc? `èebol ouo afemci ijen pibhma > 'en pima `èetoumou; `èerof je piliqoctrwton > `èmmetebreoc je Gabbaqa. Ne `ètpareckeuh de te `ènte `è mpipacxa > ne `èvnau de `ènajp coou pe. Ouo nafjw `èmmoc `ènje Pilatoc `ènniIoudai je hppe ic petenouro. Nqwou de auw] `èebol je è`èalitf `èalitf a]f > peje Pilatoc nwou je `èntae] petenouro > `èauerou`èw `ènje niarxh`èereuc je `èmmonten ouro `èmmau `èebhl `èeKecar. Tote oun af; nwou `ènIhc ? ina `èntoua]f ausi oun `ènIhc ?. Ouo `ènqof effai `èmpefctauroc af`èi `èebol `èepima `èetoumou; è`èerof je Pikranion > `èmmetebreoc de je Pigolgoqa. Pima `èetaua]f `èmmof > ouo au`èi]i `ènkeconi `ècnau nemaf ca`èmnh nem ca`èmnai `èmmof > Ihc ? de 'en `èqmh;.\nAf`èc'e ke titloc de `ènje Pilatoc > ouo afxaf ijen pictauroc > naf `èc'hout de pe je > IHCOUC PINAZWREOC POURO NTE NIIOUDAI. Oumh] de `ènte niIoudai auw] `èmpaititloc > je naf'ent pe `èe;baki `ènje pima `èetaue] Ihc ? `èmmof > ouo naf`èc'hout pe `èmmetebreoc `èmmetrwmeoc `èmmetoueinin. Naujw oun `èmmoc pe `èmPilatoc > `ènje niarxh`èereuc `ènte niIoudai > je `èmper`èc'ai je `èpouro `ènte niIoudai > alla je `ènqof afjoc je `èanok pe `èpouro `ènte niIoudai. Af`èerou`èw `ènje Pilatoc je vh`èetai`èc'htf ai`èc'htf. Nimatoi oun `èetaue] `ènIhc ? > ausi `ènnef`èwc ouo auaitou `èn`èftou `èntoi > outoi `èe`èvouai `ènnimatoi nem ;ke`è]qhn > ;`è]qhn de ne ouatqwrp te > `èncw'i `èebol `èe`èp]wi thrc. Pejwou de `ènnou`èerhou je `èmpen`èqrenva'c alla mareniwp `èeroc > je acnaer qa nim `èmmon > ina `ènte ;gravh jwk `èebol ecjw `èmmoc > je auvw] `ènna`èwc `èe`è\\rau > ouo taebcw auiwp `èeroc > nai oun `èetauaitou `ènje nimatoi. Nau`èoi de `èeratou pe 'aten pictauroc `ènIhc ? > `ènje tefmau nem `ètcwni `èntefmau > Maria `ènte Kle`èwpa nem Maria :magdalinh. Ihc ? de `èetafnau `èetefmau nem pimaqhthc `èenafmei `èmmof ef`èoi `èeratf pejaf `èntefmau > je ;`ècimi ic pe]hri > `èita pejaf `èmpimaqhthc je hppe ic tekmau > ouo icjen ;ounou `èete`èmmau afolc `ènje pimaqhthc `èe'oun `èepefhi.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.", 
   "Jean 19 : 1-12 \nPilate, entendant ces paroles, amena Jésus dehors et le fit asseoir au tribunal, en un lieu dit le Dallage, en hébreu Gabbatha. Or c'était la Préparation de la Pâque; c'était vers la sixième heure. Il dit aux Juifs: \"Voici votre roi.\" Eux vociférèrent: \"A mort! A mort! Crucifie-le!\" Pilate leur dit: \"Crucifierai-je votre roi?” Les grands prêtres répondirent: \"Nous n'avons de roi que César!\"", 
   "يوحنا ١٩ : ١٣ – ٢٧ \nفلما سمع بيلاطس هذا الكلام أخرج يسوع وجلس علي كرسي الولاية، في موضع يقال له رصيف الحجارة، وبالعبرانية جباثا. وكانت جمعة الفصح، وكانت الساعة السادسة. فقال بيلاطس لليهود: هوذا ملككم. فصرخوا: إرفعه، إصلبه. فقال لهم بيلاطس: أأصلب ملككم؟ أجاب رؤساء الكهنة: ليس لنا ملك إلا قيصر!", 
   ],
@@ -10309,7 +10117,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   ],
   [
   Prefix.HolyWeek+"11HDProphecies&D=GL56&C=Diacon", 
-  "Ebolqen leui nte Mw`ucyc piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nE\rhi  'en  piabot  `èn]orp ` èncou  id? `èmpiabot  jin  `èpnau  `ènroui  `èmpipacxa `èmP_. \nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.", 
+  "Ebolqen leui nte Mw`ucyc piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nE\\rhi  'en  piabot  `èn]orp ` èncou  id? `èmpiabot  jin  `èpnau  `ènroui  `èmpipacxa `èmP_. \nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.", 
   "Lévitique 23 : 5-12 \nLe premier mois, le quatorzième jour du mois, au crépuscule, c'est Pâque pour le Seigneur,", 
   "لاويين ٢٣ : ٥ – ١٥ \nفي الشهر الأول في الرابع عشر من الشهر وقت المساء فصح للرب. ", 
   ],
@@ -10417,7 +10225,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   ],
   [
   Prefix.HolyWeek+"11HDGospel&D=GL56&C=Diacon", 
-  "Markon  Kev i/e>// l/h/-m/a/\nOuo pikatapetacma `ènte piervei afvw' 'en `ècnau > icjen `èèp]wi `èe`è'rhi. Etanau de `ènje piekatontarxoc vhèet`èoi `èeratf `èmpef`èmqo je af; `èmpipn?a? > pejaf je > `èalhqwc pairwmi ne `èp]hri `èmV; pe. Ne ouon ankei`èomi de eunau ivouei nhè`èenare Maria `èn'htou pe ;Magdalinh > nem Maria `ènte Iakwboc pikouji  nem `èqmau `ènIwch nem Calwmh. Nai `èenauoue `èncwf ote euxh 'en ;Galilea ouo nau]em]i `èmmof > nem kemh] `èeau`èi nemaf `èe`è\rhi `èeIlh?m.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.", 
+  "Markon  Kev i/e>// l/h/-m/a/\nOuo pikatapetacma `ènte piervei afvw' 'en `ècnau > icjen `èèp]wi `èe`è'rhi. Etanau de `ènje piekatontarxoc vhèet`èoi `èeratf `èmpef`èmqo je af; `èmpipn?a? > pejaf je > `èalhqwc pairwmi ne `èp]hri `èmV; pe. Ne ouon ankei`èomi de eunau ivouei nhè`èenare Maria `èn'htou pe ;Magdalinh > nem Maria `ènte Iakwboc pikouji  nem `èqmau `ènIwch nem Calwmh. Nai `èenauoue `èncwf ote euxh 'en ;Galilea ouo nau]em]i `èmmof > nem kemh] `èeau`èi nemaf `èe`è\\rhi `èeIlh?m.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.", 
   "Marc 15 : 38-41 \nEt le voile du Sanctuaire se déchira en deux, du haut en bas. Voyant qu'il avait ainsi expiré, le centurion, qui se tenait en face de lui, s'écria: \"Vraiment cet homme était fils de Dieu!\" Il y avait aussi des femmes qui regardaient à distance, entre autres Marie de Magdala, Marie mère de Jacques le petit et de Joset, et Salomé, qui le suivaient et le servaient lorsqu'il était en Galilée;", 
   "مرقس ١٥ : ٣٨ – ٤١\nوإنشق حجاب الهيكل إلي إثنين من فوق إلي أسفل. ولما رأي قائد المئة الواقف مقابله أنه قد أسلم الروح قال: حقا كان هذا الإنسان إبن الله. وكانت نساء أيضاً ينظرن من بعيد، بينهن مريم المجدلية ومريم أم يعقوب الصغير، وأم يوسف وسالومة، هؤلاء اللواتي كن يتبعنه ويخدمنه حين كان في الجليل.", 
   ],
@@ -10487,7 +10295,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   ],
   [
   Prefix.HolyWeek+"12HDProphecies&D=GL56&C=Diacon", 
-  "Ebolqen Ieremiac piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nAnok  `èvrwmi ` èanok  eqnau `èe;methki > af`èi  `èe`è\rhi  `èejwi  'en  pi`è]bwt  `ènte  pefjwnt.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.", 
+  "Ebolqen Ieremiac piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nAnok  `èvrwmi ` èanok  eqnau `èe;methki > af`èi  `èe`è\\rhi  `èejwi  'en  pi`è]bwt  `ènte  pefjwnt.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.", 
   "Lamentations de Jérémie 3 : 1-66\nJe suis l'homme qui a connu la misère, sous la verge de sa fureur.", 
   "مراثي إرميا النبي ٣ : ١ -٦٦\nأنا هو الرجل الذي رأي المذلة. أتي عليّ بقضيب غضبه", 
   ],
