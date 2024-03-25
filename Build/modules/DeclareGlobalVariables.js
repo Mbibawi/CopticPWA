@@ -1,5 +1,5 @@
 //CONSTANTS
-const version = "v6.0.4.2.1 (Worked on Holy Week until Thursday 1st Hour)";
+const version = "v6.0.4.2.2 (Worked on Holy Week until Thursday 1st Hour)";
 const calendarDay = 24 * 60 * 60 * 1000; //this is a day in milliseconds
 const containerDiv = document.getElementById("containerDiv");
 const leftSideBar = document.getElementById("leftSideBar");

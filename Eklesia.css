@@ -191,9 +191,12 @@ margin-bottom: 2px !important;
   }
   .inlineBtn{
   max-height: 27cqh;
-  min-height: 7cqh;
+  min-height: 10cqh;
   width: 27cqw;
   max-width: 35cqw;
+  }
+  .inlineBtn.btnEditing{
+    max-height: 6cqh;
   }
   .btnText{
     font-size: 2.1cqw !important;
@@ -871,7 +874,7 @@ br{
 .btnEditing{
   min-width: 17.5cqw !important;
   max-width: 17.5cqw !important;
-  max-height: 40px !important;
+  max-height: 40px;
   margin-bottom: 4px !important;
 }
 .btnsDiv{
