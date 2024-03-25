@@ -24,13 +24,13 @@ async function convertFont(text?: string, font: string = fontName, jimkin: strin
     replaceAll('\r', '\n')
     .split('\n')
     .map(parag => convertCopticText(
-        font,
-        parag,
-        jimkin
-      )
-  )
+      font,
+      parag,
+      jimkin
+    )
+    )
     .join('\n');
-  return text 
+  return text
 }
 
 
@@ -41,7 +41,7 @@ async function convertFont(text?: string, font: string = fontName, jimkin: strin
  * @param {*} jimkin jimkin combining method (COMBINE_WITH_CHAR_BEFORE, COMBINE_WITH_CHAR_AFTER, NONE)
  * @returns converted text
  */
-function convertCopticText(font: string, text: string, jimkin: string):string {
+function convertCopticText(font: string, text: string, jimkin: string): string {
   const copticFontsMap: string[][] = fontsMap;
   let columnIndex: number = fontsMap[0].indexOf(font);
   let rowIndex: number;
@@ -61,7 +61,7 @@ function convertCopticText(font: string, text: string, jimkin: string):string {
     let unicode: string;
 
     if (rowIndex >= 0) unicode = fontsMap[rowIndex][COPTIC_FONT_UNICODE_COL];
-  
+
 
     if (unicode) sb.push(unicode);
     else sb.push(text[i])
@@ -69,35 +69,35 @@ function convertCopticText(font: string, text: string, jimkin: string):string {
 
   return removeCharAfterOverline(switchCharForJimkin(sb, jimkin));
 
-/**
- * Combines the Jimkin grave accet with either the letter before it or the letter after it. 
- * @param {string[]} textArray 
- * @param {string} jimkinCombining - the Jimkin combining options (with the letter before it, with the letter after it, or none). If none, it returns a string from textArray
- * @returns {string} - a string representing the text after combining the Jimkin accent
- */
-  function switchCharForJimkin(textArray: string[], jimkinCombining: string): string{
+  /**
+   * Combines the Jimkin grave accet with either the letter before it or the letter after it. 
+   * @param {string[]} textArray 
+   * @param {string} jimkinCombining - the Jimkin combining options (with the letter before it, with the letter after it, or none). If none, it returns a string from textArray
+   * @returns {string} - a string representing the text after combining the Jimkin accent
+   */
+  function switchCharForJimkin(textArray: string[], jimkinCombining: string): string {
     if (!textArray) return;
     const JIMKIN_UNICODE = "\u0300";
     if (jimkinCombining === JimkinCombining.none)
       return textArray.join('');
     // Traverse the string
     let stringbuffer = [];
-   
+
     for (let i = 0; i < textArray.length; i++) {
       if (textArray[i] == '`') i = hasJimkin(i);
       else stringbuffer.push(textArray[i]);
     }
-  
+
     //return stringbuffer.join("");
     return stringbuffer.join('')
-    
+
     function hasJimkin(i: number): number {
       if (jimkinCombining === JimkinCombining.after) {
-          stringbuffer.pop(); // remove last char
-          stringbuffer.push(textArray[i-1] +JIMKIN_UNICODE);
+        stringbuffer.pop(); // remove last char
+        stringbuffer.push(textArray[i - 1] + JIMKIN_UNICODE);
       } else if (jimkinCombining === JimkinCombining.before) {
-          stringbuffer.push(textArray[i+1]+JIMKIN_UNICODE);
-          i++
+        stringbuffer.push(textArray[i + 1] + JIMKIN_UNICODE);
+        i++
       }
       return i
     }
@@ -108,14 +108,14 @@ function convertCopticText(font: string, text: string, jimkin: string):string {
    * @param {*} unicodeString
    * @returns
    */
-    function removeCharAfterOverline(unicodeString: string):string{
-      const OVERLINE_UNICODE_VAL = 773;
+  function removeCharAfterOverline(unicodeString: string): string {
+    const OVERLINE_UNICODE_VAL = 773;
     if (!unicodeString) return unicodeString;
     // Traverse the string
     let stringbuffer = [];
     for (let i = 0; i < unicodeString.length; i++) {
       if (unicodeString.codePointAt(i) == OVERLINE_UNICODE_VAL) i++ // skip next char by incrementing
-    
+
       stringbuffer.push(unicodeString[i]);
     }
     return stringbuffer.join("");
@@ -326,7 +326,7 @@ const fontsMap = [
     "jinkim", "768", "0300", "\u0300", "`", "`", ";", "`", "", "", "", "", "", "", "", "ä", "ä", "~", "~", "", "", "", "", "ä", "ä", "ä", "ä", "ä", "", "ä", "", "ä", "ä",
   ],
   [
-    "overline", "773", "0305", "\u0305", "̅ ", "=", "", "", "", "", "", "", "", "", "", "ö", "ö", "", "#", "", "", "", "", "ö", "ö", "ö", "ö", "ö", "", "ö", "", "ö", "ö",
+    "overline", "773", "0305", "\u0305", "̅ ", "=", "", "/", "", "", "", "", "", "", "", "ö", "ö", "", "#", "", "", "", "", "ö", "ö", "ö", "ö", "ö", "", "ö", "", "ö", "ö",
   ],
   [
     "overline_double", "", "033F", "\u033F", "̿ ", "", "", "", "", "", "", "", "", "", "", "ü", "ü", "", "", "", "", "", "", "ü", "ü", "ü", "ü", "ü", "", "ü", "", "ü", "ü",
