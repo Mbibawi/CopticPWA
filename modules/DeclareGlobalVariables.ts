@@ -25,7 +25,7 @@ type typeButton = {
 };
 //CONSTANTS
 const version: string =
-  "v6.0.4.2 (Worked on Holy Week until Thursday 1st Hour)";
+  "v6.0.4.2.1 (Worked on Holy Week until Thursday 1st Hour)";
 const calendarDay: number = 24 * 60 * 60 * 1000; //this is a day in milliseconds
 const containerDiv: HTMLDivElement = document.getElementById(
   "containerDiv") as HTMLDivElement;
