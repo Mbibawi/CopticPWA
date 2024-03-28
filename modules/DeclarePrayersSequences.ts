@@ -1,6 +1,5 @@
 const IncensePrayersSequence: string[] = [
     Prefix.commonIncense + "EleysonImas&D=$copticFeasts.AnyDay",
-    Prefix.commonIncense + "CymbalVersesPlaceHolder&D=$copticFeasts.AnyDay",
     Prefix.commonIncense + "LitaniesComment1&D=$copticFeasts.AnyDay",
     Prefix.incenseDawn + "SickPrayer&D=$copticFeasts.AnyDay",
     Prefix.incenseDawn + "TravelersPrayer&D=$copticFeasts.AnyDay",
@@ -16,7 +15,6 @@ const IncensePrayersSequence: string[] = [
     Prefix.commonPrayer + "WeExaltYouStMary&D=$copticFeasts.AnyDay",
     Prefix.commonPrayer + "Creed&D=$copticFeasts.AnyDay",
     Prefix.commonPrayer + "EfnotiNaynan&D=$copticFeasts.AnyDay",
-    Prefix.commonPrayer + "GospelPrayerPlaceHolder&D=$copticFeasts.AnyDay",
     Prefix.commonPrayer + "OurFatherWhoArtInHeaven&D=$copticFeasts.AnyDay",
     Prefix.commonPrayer + "GospelLitanyComment4&D=$copticFeasts.AnyDay",
     Prefix.commonPrayer + "BlockInTheNameOfOurLord&D=$copticFeasts.AnyDay",
@@ -40,8 +38,6 @@ const MassPrayersSequences = {
         Prefix.massCommon + "Tayshoury&D=$copticFeasts.AnyDay",
         Prefix.massCommon + "Tishoury&D=$copticFeasts.AnyDay",
         Prefix.massCommon + "IntercessionsHymn&D=$copticFeasts.AnyDay",
-        Prefix.massCommon + 'ReadingsPlaceHolder&D=$copticFeasts.AnyDay',
-        Prefix.commonPrayer + "GospelPrayerPlaceHolder&D=$copticFeasts.AnyDay",
         Prefix.commonPrayer + "Creed&D=$copticFeasts.AnyDay"
     ], //Those are the prayers of the 'Unbaptized Mass'
     MassStBasil: [

@@ -14018,7 +14018,7 @@ ReadingsArrays.SynaxariumArrayFR= [[
     [
     Prefix.synaxarium+"&D=1907&C=Title", 
     "19 Barmahat\n1) Décès de saint Aristobule, un des soixante-dix disciples ;\n2)  Martyre de saint Alexandre, saint Agapius et de leurs compagnons", 
-    "19 برمهات\nنِياحَةِ أرسطوبولس أحد السبعين رسولاً\nhستشهاد القديسين ألكسندروس وأغابيوس ومن مَعْهُمَا", 
+    "19 برمهات\nنِياحَةِ أرسطوبولس أحد السبعين رسولاً\nاستشهاد القديسين ألكسندروس وأغابيوس ومن مَعْهُمَا", 
     ],
     [
     Prefix.same+"&C=NoActor", 

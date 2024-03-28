@@ -967,6 +967,7 @@ function createHtmlElementForPrayerEditingMode(args: {
     lang: string,
     text: string,
     actorClass: string,
+    dataRoot:string,
     isPlaceHolder: boolean;
 
   args.tblRow[0].startsWith(Prefix.placeHolder)
@@ -979,13 +980,15 @@ function createHtmlElementForPrayerEditingMode(args: {
   if (args.arrayName) htmlRow.dataset.arrayName = args.arrayName;
 
   if (!isPlaceHolder) {
+    args.tblRow.length > 1 ? dataRoot = args.titleBase : dataRoot = splitTitle(args.tblRow[0])[0];//If the row contains only 1 element, it means that this row has no text and was inserted in order to generate an html div that will be later on used as a placeholder anchor for another prayer to be inserted. We will give the html element as data-root and a data-group the tblRow[0] in roder to avoid this element to be treated as a "Prefix.same" element when the array is saved and exported
     htmlRow.classList.add("Row"); //we add 'Row' class to this div
     htmlRow.title = args.titleBase + "&C=" + actorClass; //We need to record the full title of each row (i.e. row[0]) in order to be able to add it when we convert the html element into an element in an Array
-    htmlRow.dataset.root = args.titleBase;
-    htmlRow.dataset.group = args.titleBase; //The data-group attribute aims at making the row part of the same of group of rows that will be shown or hidden when we click on the title
+    
     if (args.tblRow[0].startsWith(Prefix.same)) htmlRow.dataset.isPrefixSame = 'true';//We need this in order to be able to determine whether when exporting the table, the row should be a row starting with Prefix.same, or should be given the full title as the 1st row of the table
 
-    if (actorClass) htmlRow.classList.add(actorClass);
+      htmlRow.dataset.root = dataRoot;
+      htmlRow.dataset.group = dataRoot; //The data-group attribute aims at making the row part of the same of group of rows that will be shown or hidden when we click on the title
+      if (actorClass) htmlRow.classList.add(actorClass);
   } else if (isPlaceHolder) {
     args.tblRow = [...args.tblRow]; //We create a copy of the row
     let children = Array.from(args.container.children) as HTMLDivElement[];

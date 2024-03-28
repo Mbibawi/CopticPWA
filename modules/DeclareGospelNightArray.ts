@@ -1319,7 +1319,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   [
   Prefix.HolyWeek+"1HDPsalm&D=GL52&C=Title", 
-  "Ⲯⲁⲗⲙⲟⲥ ⲧⲟ Ⲇⲁⲩⲓⲇ", 
+  "", 
   "Psaume de la Première heure du lundi\nPsaume (71: 18–19)\n", 
   "مزمور الساعة الأولى من يوم الإثنين\nمزمور (٧١: ١٨، ١٩)\n", 
   ],
@@ -1489,7 +1489,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   [
   Prefix.HolyWeek+"3HDPsalm&D=GL52&C=Title", 
-  "Ⲯⲁⲗⲙⲟⲥ ⲧⲟ Ⲇⲁⲩⲓⲇ", 
+  "", 
   "Psaume de la Troisième heure du lundi\nPsaume (122: 1–2)", 
   "مزمور الساعة الثالثة من يوم الإثنين\nالمزمور (١٢١: ١، ٢)", 
   ],
@@ -1653,7 +1653,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   [
   Prefix.HolyWeek+"6HDPsalm&D=GL52&C=Title", 
-  "Ⲯⲁⲗⲙⲟⲥ ⲧⲟ Ⲇⲁⲩⲓⲇ", 
+  "", 
   "Psaume de la Sixième heure du lundi\nPsaume (121: 4)", 
   "مزمور الساعة السادسة من يوم الإثنين\nالمزمور (١٢١: ٤)", 
   ],
@@ -1895,7 +1895,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   [
   Prefix.HolyWeek+"9HDPsalm&D=GL52&C=Title", 
-  "Ⲯⲁⲗⲙⲟⲥ ⲧⲟ Ⲇⲁⲩⲓⲇ", 
+  "", 
   "Psaume de la Neuvième heure du lundi\nPsaume (64: 6, 5)", 
   "مزمور الساعة التاسعة من يوم الإثنين\n(مزمور ٦٤: ٤، ٦)", 
   ],
@@ -2199,7 +2199,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   [
   Prefix.HolyWeek+"11HDPsalm&D=GL52&C=Title", 
-  "Ⲯⲁⲗⲙⲟⲥ ⲧⲟ Ⲇⲁⲩⲓⲇ", 
+  "", 
   "Psaume de la Onzième heure du lundi\nPsaume (12: 4 et 5)", 
   "مزمور الساعة الحادية عشر من يوم الإثنين\nمزمور (١٢: 4، 5)", 
   ],
@@ -2315,7 +2315,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   [
   Prefix.HolyWeek+"1HEPsalm&D=GL52&C=Title", 
-  "Ⲯⲁⲗⲙⲟⲥ ⲧⲟ Ⲇⲁⲩⲓⲇ", 
+  "", 
   "Psaume de la Première heure de la veille du mardi\nPsaume (61: 4 et 1)\n", 
   "مزمور الساعة الأولى من ليلة الثلاثاء\nمزمور (٦١: ١،٤)", 
   ],
@@ -2425,7 +2425,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   [
   Prefix.HolyWeek+"3HEPsalm&D=GL52&C=Title", 
-  "Ⲯⲁⲗⲙⲟⲥ ⲧⲟ Ⲇⲁⲩⲓⲇ", 
+  "", 
   "Psaume de la Troisième heure de la veille du mardi\n\nPsaume (12: 4, 6)", 
   "مزمور الساعة الثالثة من ليلة الثلاثاء\n(مزمور ١٢: ٤ & ٦)", 
   ],
@@ -2535,7 +2535,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   [
   Prefix.HolyWeek+"6HEPsalm&D=GL52&C=Title", 
-  "Ⲯⲁⲗⲙⲟⲥ ⲧⲟ Ⲇⲁⲩⲓⲇ", 
+  "", 
   "Psaume de la Sixième heure de la veille du mardi\nPsaume (90: 1, 2)", 
   "مزمور الساعة السادسة من ليلة الثلاثاء\n(مزمور٩٠: ١، ٢)", 
   ],
@@ -2639,7 +2639,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   [
   Prefix.HolyWeek+"9HEPsalm&D=GL52&C=Title", 
-  "Ⲯⲁⲗⲙⲟⲥ ⲧⲟ Ⲇⲁⲩⲓⲇ", 
+  "", 
   "Psaume de la Neuvième heure de la veille du mardi\nPsaume (32: 10, 11)", 
   "مزمور الساعة التاسعة من ليلة الثلاثاء\nمزمور (٣٢: ١٠، ١١)", 
   ],
@@ -2761,7 +2761,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   [
   Prefix.HolyWeek+"11HEPsalm&D=GL52&C=Title", 
-  "Ⲯⲁⲗⲙⲟⲥ ⲧⲟ Ⲇⲁⲩⲓⲇ", 
+  "", 
   "Psaume de la Onzième heure de la veille du mardi\nPsaume 121 : 4\n", 
   "مزمور الساعة الحادية عشر من ليلة الثلاثاء\nمزمور ١٢١ : ٤\n", 
   ],
@@ -3223,7 +3223,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   [
   Prefix.HolyWeek+"3HDPsalm&D=GL53&C=Title", 
-  "Ⲯⲁⲗⲙⲟⲥ ⲧⲟ Ⲇⲁⲩⲓⲇ", 
+  "", 
   "Psaume de la Troisième heure du mardi\nPsaume (118: 118–119)\n", 
   "مزمور الساعة الثالثة من يوم الثلاثاء\nمزمور (١١٨: ١١٨و ١١٩)\n", 
   ],
@@ -3387,7 +3387,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   [
   Prefix.HolyWeek+"6HDPsalm&D=GL53&C=Title", 
-  "Ⲯⲁⲗⲙⲟⲥ ⲧⲟ Ⲇⲁⲩⲓⲇ", 
+  "", 
   "Psaume de la Sixième heure du mardi\nPsaume (17: 48, 19)\n", 
   "مزمور الساعة السادسة من يوم الثلاثاء\nمزمور (١٧: 48 و 19)\n", 
   ],
@@ -4013,7 +4013,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   [
   Prefix.HolyWeek+"11HDPsalm&D=GL53&C=Title", 
-  "Ⲯⲁⲗⲙⲟⲥ ⲧⲟ Ⲇⲁⲩⲓⲇ", 
+  "", 
   "Psaume de la Onzième heure du mardi\nPsaume (44: 7 et 40: 2)\n", 
   "مزمور الساعة الحادية عشر من يوم الثلاثاء\nمزمور (٤٥: ٦ و ٤١: ١)\n", 
   ],
@@ -4165,7 +4165,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   [
   Prefix.HolyWeek+"1HEPsalm&D=GL53&C=Title", 
-  "Ⲯⲁⲗⲙⲟⲥ ⲧⲟ Ⲇⲁⲩⲓⲇ", 
+  "", 
   "Psaume de la Première heure de la veille du mercredi\nPsaume (58: 13-14)\n", 
   "مزمور الساعة الأولى من ليلة الأربعاء\nمزمور (٥٨: ١٣ و ١٤)\n", 
   ],
@@ -4269,7 +4269,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   [
   Prefix.HolyWeek+"3HEPsalm&D=GL53&C=Title", 
-  "Ⲯⲁⲗⲙⲟⲥ ⲧⲟ Ⲇⲁⲩⲓⲇ", 
+  "", 
   "Psaume de la Troisième heure de la veille du mercredi\nPsaume (64: 4; 5)\n", 
   "مزمور الساعة الثالثة من ليلة الأربعاء\nمزمور (٦٤: ٤ و ٥)\n", 
   ],
@@ -4361,7 +4361,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   [
   Prefix.HolyWeek+"6HEPsalm&D=GL53&C=Title", 
-  "Ⲯⲁⲗⲙⲟⲥ ⲧⲟ Ⲇⲁⲩⲓⲇ", 
+  "", 
   "Psaume de la Sixième heure de la veille du mercredi\nPsaume (101: 2 ; 3)\n", 
   "مزمور الساعة السادسة من ليلة الأربعاء\nمزمور (١٠١ : ١ و ٢)\n", 
   ],
@@ -4459,7 +4459,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   [
   Prefix.HolyWeek+"9HEPsalm&D=GL53&C=Title", 
-  "Ⲯⲁⲗⲙⲟⲥ ⲧⲟ Ⲇⲁⲩⲓⲇ", 
+  "", 
   "Psaume de la Neuvième heure de la veille du mercredi\nPsaume (21: 19 et 20)\n", 
   "مزمور الساعة التاسعة من ليلة الأربعاء\nمزمور (٢١: ١٩ و ٢٠)\n", 
   ],
@@ -4551,7 +4551,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   [
   Prefix.HolyWeek+"11HEPsalm&D=GL53&C=Title", 
-  "Ⲯⲁⲗⲙⲟⲥ ⲧⲟ Ⲇⲁⲩⲓⲇ", 
+  "", 
   "Psaume de la Onzième heure de la veille du mercredi\nPsaume (56: 1)\n", 
   "مزمور الساعة الحادية عشر من ليلة الأربعاء\nمزمور (٥٦ : ١)\n", 
   ],
@@ -4795,7 +4795,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   [
   Prefix.HolyWeek+"1HDPsalm&D=GL54&C=Title", 
-  "Ⲯⲁⲗⲙⲟⲥ ⲧⲟ Ⲇⲁⲩⲓⲇ", 
+  "", 
   "Psaume de la Première heure du mercredi\nPsaume (50: 6 et 32: 10)\n", 
   "مزمور الساعة الأولى من يوم الأربعاء\nمزمور (٥٠: ٤ و ٣٢ : ١٠)\n", 
   ],
@@ -5031,7 +5031,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   [
   Prefix.HolyWeek+"3HDPsalm&D=GL54&C=Title", 
-  "Ⲯⲁⲗⲙⲟⲥ ⲧⲟ Ⲇⲁⲩⲓⲇ", 
+  "", 
   "Psaume de la Troisième heure du mercredi\nPsaume (40: 6;1)\n", 
   "مزمور الساعة الثالثة من يوم الأربعاء\nمزمور (٤٠: ٦ و ١)\n", 
   ],
@@ -5213,7 +5213,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   [
   Prefix.HolyWeek+"6HDPsalm&D=GL54&C=Title", 
-  "Ⲯⲁⲗⲙⲟⲥ ⲧⲟ Ⲇⲁⲩⲓⲇ", 
+  "", 
   "Psaume de la Sixième heure du mercredi\nPsaume (82: 2 et  4)\n", 
   "مزمور الساعة السادسة من يوم الأربعاء\nمزمور (٨٢: ٢ و ٤)\n", 
   ],
@@ -5529,7 +5529,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   [
   Prefix.HolyWeek+"9HDPsalm&D=GL54&C=Title", 
-  "Ⲯⲁⲗⲙⲟⲥ ⲧⲟ Ⲇⲁⲩⲓⲇ", 
+  "", 
   "Psaume de la Neuvième heure du mercredi\nPsaume (40: 6, 8 et 7)\n", 
   "مزمور الساعة التاسعة من يوم الأربعاء\nمزمور ٤٠ : ٥، ٦، ٧\n", 
   ],
@@ -5665,7 +5665,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   [
   Prefix.HolyWeek+"11HDPsalm&D=GL54&C=Title", 
-  "Ⲯⲁⲗⲙⲟⲥ ⲧⲟ Ⲇⲁⲩⲓⲇ", 
+  "", 
   "Psaume de la Onzième heure du mercredi\nPsaume (6: 2 et 68: 14)\n", 
   "مزمور الساعة الحادية عشر من يوم الأربعاء\nمزمور ٦ : ٢، ٦٨ : ١٤\n", 
   ],
@@ -5763,7 +5763,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   [
   Prefix.HolyWeek+"1HEPsalm&D=GL54&C=Title", 
-  "Ⲯⲁⲗⲙⲟⲥ ⲧⲟ Ⲇⲁⲩⲓⲇ", 
+  "", 
   "Psaume de la Première heure de la veille du jeudi\nPsaume 68 : 1 et 13\n", 
   "مزمور الساعة الأولى من ليلة الخميس\nمزمور ٦٨ : ١، ١٣\n", 
   ],
@@ -5861,7 +5861,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   [
   Prefix.HolyWeek+"3HEPsalm&D=GL54&C=Title", 
-  "Ⲯⲁⲗⲙⲟⲥ ⲧⲟ Ⲇⲁⲩⲓⲇ", 
+  "", 
   "Psaume de la Troisième heure de la veille du jeudi\nPsaume (54: 22 et 2)\n", 
   "مزمور الساعة الثالثة من ليلة الخميس\nمزمور ٥٤ : ١٨، ١\n", 
   ],
@@ -5959,7 +5959,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   [
   Prefix.HolyWeek+"6HEPsalm&D=GL54&C=Title", 
-  "Ⲯⲁⲗⲙⲟⲥ ⲧⲟ Ⲇⲁⲩⲓⲇ", 
+  "", 
   "Psaume de la Sixième heure de la veille du jeudi\nPsaume (139: 2 et 3)\n", 
   "مزمور الساعة السادسة من ليلة الخميس\nمزمور ١٣٩ : ١، ٢\n", 
   ],
@@ -6057,7 +6057,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   [
   Prefix.HolyWeek+"9HEPsalm&D=GL54&C=Title", 
-  "Ⲯⲁⲗⲙⲟⲥ ⲧⲟ Ⲇⲁⲩⲓⲇ", 
+  "", 
   "Psaume de la Neuvième heure de la veille du jeudi\nPsaume (7: 2-3)\n", 
   "مزمور الساعة التاسعة من ليلة الخميس\nمزمور ٧ : ١، ٢\n", 
   ],
@@ -6149,7 +6149,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   [
   Prefix.HolyWeek+"11HEPsalm&D=GL54&C=Title", 
-  "Ⲯⲁⲗⲙⲟⲥ ⲧⲟ Ⲇⲁⲩⲓⲇ", 
+  "", 
   "Psaume de la Onzième heure de la veille du jeudi\nPsaume (61: 8 et  3)\n", 
   "مزمور الساعة الحادية عشر من ليلة الخميس\nمزمور ٦١ : ۸ و ٣\n", 
   ],

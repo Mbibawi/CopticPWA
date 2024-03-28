@@ -2565,12 +2565,11 @@ function btnHolyWeek(): Button {
  * Adapts the Concluding Hymn of any Liturgy to the Season
  */
 function adaptConcludingHymn(container: HTMLElement | DocumentFragment) {
-  let anchor = selectElementsByDataSetValue(container, Prefix.commonPrayer + 'ConcludingHymnSeasonPlaceHolder&D=$copticFeasts.AnyDay', undefined, 'root')[0];
+  let anchor = selectElementsByDataSetValue(container, Prefix.commonPrayer+'ConcludingHymnPlaceHolder&D=$copticFeasts.AnyDay', undefined, 'root')[0];
   if (!anchor) return console.log('Didn\'t find Concluding Hymn Season Anchor');
   let tbl: string[][];
 
   (function insertSeasonal() {
-    //!This function must come before the insertion of the expandable button for Pope And Bisphop
     let title = Prefix.commonPrayer + "ConcludingHymn&D=$Seasons.";
     if (Season === Seasons.NoSeason)
       title += Object.entries(Seasons).find(entry => entry[1] === naturalSeasons())[0];
@@ -2582,8 +2581,12 @@ function adaptConcludingHymn(container: HTMLElement | DocumentFragment) {
 
     if (Season === Seasons.GreatLent) {
       if ([0, 6].includes(weekDay)) tbl = [tbl[tbl.length - 1]];//The last row is for the Great Lent Saturdays and Sundays
-      else tbl = [...tbl].slice(0, tbl.length - 1);//
-    }
+      else {
+        tbl = [...tbl].slice(0, -2);//We remove the 2nd row, and we remove the last row. ! Notice that we create a new table
+        selectElementsByDataSetValue(container, Prefix.commonPrayer+'ConcludingHymn&D=$copticFeasts.AnyDay', undefined, 'root')[1].remove();//We remove the first paragraph ('Amin Allelujah')
+      }
+
+      }
 
     insertPrayersAdjacentToExistingElement({
       tables: [tbl],
