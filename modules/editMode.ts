@@ -1663,7 +1663,7 @@ async function FixCopticText(parag: HTMLElement) {
     font: string,
     parags = parag.innerHTML.split('<br>');
   for (let i = 0; i < parags.length; i++) {
-    previous = addNewRow(parag, false, parag.title, false);
+    previous = addNewRow(parag, false, parag.title.replace('Diacon', 'ReadingIntro'), false);
     if (!previous) return alert('addNewRow() didn\'t return a row');
     (previous.children[0] as HTMLParagraphElement).innerText = parags[i];
     window.Selection = null;

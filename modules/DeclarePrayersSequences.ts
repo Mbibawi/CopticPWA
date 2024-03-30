@@ -15,12 +15,6 @@ const IncensePrayersSequence: string[] = [
     Prefix.commonPrayer + "WeExaltYouStMary&D=$copticFeasts.AnyDay",
     Prefix.commonPrayer + "Creed&D=$copticFeasts.AnyDay",
     Prefix.commonPrayer + "EfnotiNaynan&D=$copticFeasts.AnyDay",
-    Prefix.commonPrayer + "OurFatherWhoArtInHeaven&D=$copticFeasts.AnyDay",
-    Prefix.commonPrayer + "GospelLitanyComment4&D=$copticFeasts.AnyDay",
-    Prefix.commonPrayer + "BlockInTheNameOfOurLord&D=$copticFeasts.AnyDay",
-    Prefix.commonPrayer + "GospelLitanyComment5&D=$copticFeasts.AnyDay",
-    Prefix.commonPrayer + "BlockIriniPassi&D=$copticFeasts.AnyDay",
-    Prefix.commonPrayer + "AbsolutionForTheSon&D=$copticFeasts.AnyDay",
     Prefix.commonIncense + "LiturgyEnd&D=$copticFeasts.AnyDay"
 ]
     ; //    this is the generic sequence of all prayers for incense dawn and incense vespers. The onClick function triggered by btnIncenseDawn and btnIncenseVespers, will remove what is irrelevant and add what needs to be added according to whether it is a Dawn or Vespers office
@@ -131,11 +125,11 @@ const PsalmodyPrayersSequences = {
     Kiahk: [
         Prefix.psalmody + "WakeUpSonsOfLight&D=$copticFeasts.AnyDay",
 
-        
+
         Prefix.psalmody + "KiahkHos&D=$$copticFeasts.AnyDay",
-        
+
         Prefix.psalmody + "ChantAgiosOsiOs&D=$copticFeasts.AnyDay",
-        
+
         Prefix.psalmody + "MarenOosht&D=$copticFeasts.AnyDay",
 
         Prefix.psalmody + "PsalyOnFirstHos&D=$copticFeasts.AnyDay",

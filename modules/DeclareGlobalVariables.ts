@@ -25,7 +25,7 @@ type typeButton = {
 };
 //CONSTANTS
 const version: string =
-  "v6.1 (Fixed Concluding Hymn for Great Lent)";
+  "v6.2 (Changes to the Gospel Litany + Added the Psalm for Bishop and Pope)";
 const calendarDay: number = 24 * 60 * 60 * 1000; //this is a day in milliseconds
 const containerDiv: HTMLDivElement = document.getElementById(
   "containerDiv") as HTMLDivElement;

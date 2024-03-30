@@ -743,15 +743,13 @@ br{
   width:95%;
 }
 .multipleChoicePrayersBtn{
-  background-color: rgb(3, 87, 87) !important;
-  width: 46cqw;
-  margin: 6px 6px;
-  height: 34cqh;
+  background-color: rgb(21, 36, 59) !important;
+  width: 42cqw;
+  height: 33cqh;
   justify-items: center;
-  border-radius: 40%;
-  border-color: goldenrod;
+  border-radius: 15%;
+  border-color: rgb(4, 64, 78);
   border-width: 6px;
-  outline-color: #012723;
   outline-style: solid;
   outline-width: 2px;
   padding: 2cqi;

@@ -319,7 +319,6 @@ async function showTitlesInRightSideBar(
 async function showChildButtonsOrPrayers(btn: Button, clear: boolean = true) {
   if (!btn) return;
 
-
   let container: HTMLElement | DocumentFragment = containerDiv;
   if (btn.docFragment) container = btn.docFragment;
 
@@ -378,13 +377,6 @@ async function showChildButtonsOrPrayers(btn: Button, clear: boolean = true) {
     btn.afterShowPrayers();
   })();
 
-
-  setCSS(Array.from(container.querySelectorAll("div.Row"))); //!Important : setCSSGridTemplate() MUST be called after btn.afterShowPrayres() in order to set the CSS for all the elements that btn.afterShowPrayers() might insert
-
-  applyAmplifiedText(
-    Array.from(container.querySelectorAll("div.Row")) as HTMLDivElement[]
-  );
-
   (function processBtnChildren() {
     //!CAUTION, this must come after btn.onClick() is called because some buttons are not initiated with children, but their children are added on the fly when their onClick() method  is called
     if (!btn.children || btn.children.length < 1) return;
@@ -393,6 +385,7 @@ async function showChildButtonsOrPrayers(btn: Button, clear: boolean = true) {
 
     btn.children
       .forEach((childBtn) => {
+        if (!childBtn) return;
         //for each child button that will be created, we set btn as its parent in case we need to use this property on the button
         if (btn !== btnGoToPreviousMenu) childBtn.parentBtn = btn;
         //We create the html element reprsenting the childBtn and append it to btnsDiv
@@ -403,6 +396,12 @@ async function showChildButtonsOrPrayers(btn: Button, clear: boolean = true) {
       });
 
   })();
+
+  setCSS(Array.from(container.querySelectorAll("div.Row"))); //!Important : setCSSGridTemplate() MUST be called after btn.afterShowPrayres() in order to set the CSS for all the elements that btn.afterShowPrayers() might insert
+
+  applyAmplifiedText(
+    Array.from(container.querySelectorAll("div.Row")) as HTMLDivElement[]
+  );
 
 
   showTitlesInRightSideBar(
@@ -430,9 +429,6 @@ async function showChildButtonsOrPrayers(btn: Button, clear: boolean = true) {
   function showBtnsOnMainPage(btn: Button) {
     if (!btn.children || btn.children.length < 1) return;
     if (leftSideBar.classList.contains("extended")) return; //If the left side bar is not hidden, we do not show the buttons on the main page because it means that the user is using the buttons in the side bar and doesn't need to navigate using the btns in the main page
-    let parentHtmlBtn = containerDiv.querySelector(
-      "#" + btn.btnID
-    ) as HTMLElement; //This is the html element reflecting the btn passed as argument. 
 
     containerDiv.innerHTML = "";
 
@@ -451,11 +447,12 @@ async function showChildButtonsOrPrayers(btn: Button, clear: boolean = true) {
       "url(./assets/btnBOHBackground.jpg)",
     ];
 
-    let created: HTMLButtonElement, cssClass: string = "mainPageBtn";
+    let cssClass: string = "mainPageBtn";
 
     //We create html elements representing each of btnMain children. The created buttons will be appended to containerDiv directly
     btn.children
-      .map((childBtn) => {
+      .forEach((childBtn) => {
+        if (!childBtn) return;
         if (btn !== btnGoToPreviousMenu) childBtn.parentBtn = btn;
         if (!childBtn.backGroundImage && btn.backGroundImage) childBtn.backGroundImage = btn.backGroundImage;
         if (!childBtn.backGroundImage) childBtn.backGroundImage = images[btn.children.indexOf(childBtn)];
@@ -469,10 +466,9 @@ async function showChildButtonsOrPrayers(btn: Button, clear: boolean = true) {
     btnsDiv.style.gridTemplateColumns = setGridColumnsOrRowsNumber(btnsDiv, 3);//!Caution: this must come after the buttons have been appended to btnsDiv
 
 
-    function createMainPageButton(btn: Button)
-      : HTMLButtonElement {
+    function createMainPageButton(btn: Button){
       if (!btnsDiv) btnsDiv = createBtnsDiv();
-      return createHtmlBtn({
+      createHtmlBtn({
         btn: btn,
         btnsContainer: btnsDiv,
         btnClass: cssClass,
@@ -539,183 +535,184 @@ async function showChildButtonsOrPrayers(btn: Button, clear: boolean = true) {
     })();
     return [goBackHtml, mainMenuHtml]
   };
-}
 
-
-async function showSlidesInPresentationMode() {
-  if (containerDiv.children[0].classList.contains("mainPageBtns")) return;
-  let children = Array.from(
-    containerDiv.querySelectorAll(
-      ".Expandable, .SlideRow, ." + inlineBtnsContainerClass
-    )
-  ) as HTMLDivElement[];
-
-  children.forEach((child) => {
-    child.classList.add(hidden);
-    setSlidesCSS(child);
-  }); //!We need to remove all the divs that are empty (some of which are inlineBtns divs that were emptied when the buttons were moved to anohter container). If we do not remove them, they may be given data-same-slide attributes that will interfere with the flow of the slides
-
-  function setSlidesCSS(slideRow: HTMLDivElement) {
-    if (!slideRow.classList.contains("SlideRow")) return;
-    slideRow.style.gridTemplateColumns = setGridColumnsOrRowsNumber(slideRow);
-    slideRow.style.gridTemplateAreas = setGridAreas(slideRow);
-  }
-
-  createNewSlideGroup(children[0]);
-
-  changeRightSideBarShortCutsOnClick();
-  showTheFirstSlideInContainer();
-
-  /**
-   * Takes a slideRow and builds a slide from all its siblings subject to a maximum number of words. Each slide is marked by a data-sameSlide attribute added to the hidden HTML divs in containerDiv's children. We thus create groups of divs that will be retrieved each by its data-sameSlide attribute and retrieved as a same slide
-   * @param {HTMLDivElement} slideRow - an div element representing a row in the slide that will be displayed
-   */
-  function createNewSlideGroup(slideRow: HTMLDivElement) {
-    if (!slideRow) return; //!CAUTION: WE MUST check that slideRow is not undefined. Otherwise, each time countWords(slideRow, sameSideGroup) will be called, it will return an empty array, which will lead to hasDataRoot being undefined, and createNewSlideGroup(nextSlideRow(slideRow)) be called with an undefined argument, and so on again and again, indefinetly
-
-    let sameSlideGroup: HTMLDivElement[] = [];
-
-    countWords(slideRow, sameSlideGroup);
-
-    sameSlideGroup = sameSlideGroup.filter(
-      (div) => div && !isCommentContainer(div)
-    ); //We remove any undefined elements as well as all the comments divs in case a comment would have been included
-
-    let hasDataRoot = sameSlideGroup.find((div) => div.dataset.root); //We find the first element in toMerge[] having its data-root attribute set
-
-    if (!hasDataRoot) createNewSlideGroup(nextSlideRow(slideRow)); //If there is no element in sameSlideGroup[] having the data-root attribute, it will be useless to continue. We will hence jumb to the next row since we will not be able to create a group of the rows included in sameSlideGroup
-
-    while (
-      sameSlideGroup.length >= 1 &&
-      (isTitlesContainer(sameSlideGroup[sameSlideGroup.length - 1]) ||
-        sameSlideGroup[sameSlideGroup.length - 1].classList.contains(
-          inlineBtnsContainerClass
-        ))
-    )
-      sameSlideGroup.pop(); //If the last  div element in sameSlideGroup[] is a title row or an inlineBtns container, we remove it;
-
-    sameSlideGroup.forEach(
-      (div) =>
-      (div.dataset.sameSlide =
-        hasDataRoot.dataset.root + children.indexOf(hasDataRoot))
-    ); //We give each slideRow in toMerge[] a data-sameSlide attribute equal to the data-root attribute of the first element having a data-root attribute.
-
-    if (sameSlideGroup.length >= 1)
-      createNewSlideGroup(
-        nextSlideRow(sameSlideGroup[sameSlideGroup.length - 1])
-      );
-    else createNewSlideGroup(nextSlideRow(slideRow));
-  }
-
-  /**
-   * Cournts the letters in the innerHTML of a group of divs added to a the sameSlideGroup[] array. If the innerHTML does not exceed the countMax, it adds the next div to the sameSlideGroup[] array until the maxCount is reached or exceeded
-   * @param {HTMLDivElement} slideRow
-   * @param {HTMLDivElement[]} sameSlide
-   */
-  function countWords(slideRow: HTMLDivElement, sameSlide) {
-    if (!slideRow) return sameSlide; //We never count the words in an 'Expandable' element
-    let countMax: number = 1850;
-
-    /*     if(slideRow.innerHTML.length > countMax){
-      //We are in presence of a sole element with text exceedin the limit, we need to split it;
-      let slideClone = slideRow.cloneNode(true) as HTMLDivElement;
-      let phrases: string[];
+  async function showSlidesInPresentationMode() {
+    if (containerDiv.children[0].classList.contains("mainPageBtns")) return;
+    let children = Array.from(
+      containerDiv.querySelectorAll(
+        ".Expandable, .SlideRow, ." + inlineBtnsContainerClass
+      )
+    ) as HTMLDivElement[];
   
-      Array.from(slideRow.children as HTMLCollectionOf<HTMLDivElement>)
-        .forEach(child => {
-          if (child.innerHTML.includes('span')) console.log('there are spans');
-          phrases = child.innerHTML.split('. ');
-          let parag = slideClone.children[Array.from(slideRow.children).indexOf(child)];
-          parag.innerHTML = '';
-          phrases
-            .forEach(phrase => {
-              if (phrases.indexOf(phrase) > (phrases.length / 2))
-                parag.innerHTML += phrase + '. ';
-              child.innerHTML = child.innerHTML.replace(phrase, '');
-            });
-        });
-      
-      slideRow.insertAdjacentElement('afterend', slideClone)
-    } */
-
-    sameSlide.push(slideRow); //!CAUTION: we need the slideRow div to be pushed when the function is called, because when it is called for the first time, if the slide is not already in toMerge[], we will add its nextSibling but the first slide itself will never be added to toMerge. However, we never add an 'Expandable' div as an html element that can potentially be included in a Slide
-
-    let inlineBtns: number = sameSlide.filter((div) =>
-      div.classList.contains(inlineBtnsContainerClass)
-    ).length; //We count all the inlineBtns elements in sameSlideGroup[]
-
-    let maximum = countMax * (1 - (6 / 100) * inlineBtns); //We take into account the number of inlineBtns included in the sameSlideGroup because they take space in the slide, which reduces the number of words/letters that the slide can include
-
-    if (countInnerHTML(sameSlide) > maximum) {
-      sameSlide.pop(); //if the number of letters exceeds the maximum we remove the last slide  added to sameSlideGroup[]
-      return;
+    children.forEach((child) => {
+      child.classList.add(hidden);
+      setSlidesCSS(child);
+    }); //!We need to remove all the divs that are empty (some of which are inlineBtns divs that were emptied when the buttons were moved to anohter container). If we do not remove them, they may be given data-same-slide attributes that will interfere with the flow of the slides
+  
+    function setSlidesCSS(slideRow: HTMLDivElement) {
+      if (!slideRow.classList.contains("SlideRow")) return;
+      slideRow.style.gridTemplateColumns = setGridColumnsOrRowsNumber(slideRow);
+      slideRow.style.gridTemplateAreas = setGridAreas(slideRow);
     }
-
-    countWords(nextSlideRow(slideRow), sameSlide);
-  }
-
-  function nextSlideRow(currentSlideRow: HTMLDivElement): HTMLDivElement {
-    if (!currentSlideRow) return;
-
-    let next = currentSlideRow.nextElementSibling as HTMLDivElement;
-
-    if (next && (next.children.length < 1 || isCommentContainer(next)))
-      return nextSlideRow(next); //We escape comments
-    else if (next && next.classList.contains("Expandable"))
-      createNewSlideGroup(next.children[0] as HTMLDivElement);
-    else if (
-      !next &&
-      currentSlideRow.parentElement &&
-      currentSlideRow.parentElement.classList.contains("Expandable")
-    )
-      return currentSlideRow.parentElement.nextElementSibling as HTMLDivElement;
-    else return next;
-  }
-
-  function countInnerHTML(sameSlideGroup: HTMLDivElement[]): number {
-    let count: number = 0;
-    sameSlideGroup.forEach((child) => {
-      if (!child.classList.contains(inlineBtnsContainerClass))
-        count += child.innerHTML.length;
-    });
-    return count;
-  }
-
-  function changeRightSideBarShortCutsOnClick() {
-    return;
-    Array.from(
-      sideBarTitlesContainer.children as HTMLCollectionOf<HTMLButtonElement>
-    ).forEach((btn) => {
-      btn.classList.remove(hidden);
-
-      btn.addEventListener("click", onClick);
-      function onClick() {
-        let target = Array.from(containerDiv.children).find(
-          (child: HTMLDivElement) =>
-            child.classList.contains("SlideRow") &&
-            child.id === btn.dataset.group &&
-            child.dataset.sameSlide
-        ) as HTMLDivElement;
-        console.log("target = ", target.dataset.root);
-        if (!target) return console.log("target was not found ");
-        // let dataSameSlide = target.dataset.sameSlide;
-        //let slide = buildSlideFromDataSameSlideGroup(dataSameSlide)
-        // showOrHideSlide(true, slide.dataset.sameSlide);
-        showOrHideSlide(true, target.dataset.sameSlide);
+  
+    createNewSlideGroup(children[0]);
+  
+    changeRightSideBarShortCutsOnClick();
+    showTheFirstSlideInContainer();
+  
+    /**
+     * Takes a slideRow and builds a slide from all its siblings subject to a maximum number of words. Each slide is marked by a data-sameSlide attribute added to the hidden HTML divs in containerDiv's children. We thus create groups of divs that will be retrieved each by its data-sameSlide attribute and retrieved as a same slide
+     * @param {HTMLDivElement} slideRow - an div element representing a row in the slide that will be displayed
+     */
+    function createNewSlideGroup(slideRow: HTMLDivElement) {
+      if (!slideRow) return; //!CAUTION: WE MUST check that slideRow is not undefined. Otherwise, each time countWords(slideRow, sameSideGroup) will be called, it will return an empty array, which will lead to hasDataRoot being undefined, and createNewSlideGroup(nextSlideRow(slideRow)) be called with an undefined argument, and so on again and again, indefinetly
+  
+      let sameSlideGroup: HTMLDivElement[] = [];
+  
+      countWords(slideRow, sameSlideGroup);
+  
+      sameSlideGroup = sameSlideGroup.filter(
+        (div) => div && !isCommentContainer(div)
+      ); //We remove any undefined elements as well as all the comments divs in case a comment would have been included
+  
+      let hasDataRoot = sameSlideGroup.find((div) => div.dataset.root); //We find the first element in toMerge[] having its data-root attribute set
+  
+      if (!hasDataRoot) createNewSlideGroup(nextSlideRow(slideRow)); //If there is no element in sameSlideGroup[] having the data-root attribute, it will be useless to continue. We will hence jumb to the next row since we will not be able to create a group of the rows included in sameSlideGroup
+  
+      while (
+        sameSlideGroup.length >= 1 &&
+        (isTitlesContainer(sameSlideGroup[sameSlideGroup.length - 1]) ||
+          sameSlideGroup[sameSlideGroup.length - 1].classList.contains(
+            inlineBtnsContainerClass
+          ))
+      )
+        sameSlideGroup.pop(); //If the last  div element in sameSlideGroup[] is a title row or an inlineBtns container, we remove it;
+  
+      sameSlideGroup.forEach(
+        (div) =>
+        (div.dataset.sameSlide =
+          hasDataRoot.dataset.root + children.indexOf(hasDataRoot))
+      ); //We give each slideRow in toMerge[] a data-sameSlide attribute equal to the data-root attribute of the first element having a data-root attribute.
+  
+      if (sameSlideGroup.length >= 1)
+        createNewSlideGroup(
+          nextSlideRow(sameSlideGroup[sameSlideGroup.length - 1])
+        );
+      else createNewSlideGroup(nextSlideRow(slideRow));
+    }
+  
+    /**
+     * Cournts the letters in the innerHTML of a group of divs added to a the sameSlideGroup[] array. If the innerHTML does not exceed the countMax, it adds the next div to the sameSlideGroup[] array until the maxCount is reached or exceeded
+     * @param {HTMLDivElement} slideRow
+     * @param {HTMLDivElement[]} sameSlide
+     */
+    function countWords(slideRow: HTMLDivElement, sameSlide) {
+      if (!slideRow) return sameSlide; //We never count the words in an 'Expandable' element
+      let countMax: number = 1850;
+  
+      /*     if(slideRow.innerHTML.length > countMax){
+        //We are in presence of a sole element with text exceedin the limit, we need to split it;
+        let slideClone = slideRow.cloneNode(true) as HTMLDivElement;
+        let phrases: string[];
+    
+        Array.from(slideRow.children as HTMLCollectionOf<HTMLDivElement>)
+          .forEach(child => {
+            if (child.innerHTML.includes('span')) console.log('there are spans');
+            phrases = child.innerHTML.split('. ');
+            let parag = slideClone.children[Array.from(slideRow.children).indexOf(child)];
+            parag.innerHTML = '';
+            phrases
+              .forEach(phrase => {
+                if (phrases.indexOf(phrase) > (phrases.length / 2))
+                  parag.innerHTML += phrase + '. ';
+                child.innerHTML = child.innerHTML.replace(phrase, '');
+              });
+          });
+        
+        slideRow.insertAdjacentElement('afterend', slideClone)
+      } */
+  
+      sameSlide.push(slideRow); //!CAUTION: we need the slideRow div to be pushed when the function is called, because when it is called for the first time, if the slide is not already in toMerge[], we will add its nextSibling but the first slide itself will never be added to toMerge. However, we never add an 'Expandable' div as an html element that can potentially be included in a Slide
+  
+      let inlineBtns: number = sameSlide.filter((div) =>
+        div.classList.contains(inlineBtnsContainerClass)
+      ).length; //We count all the inlineBtns elements in sameSlideGroup[]
+  
+      let maximum = countMax * (1 - (6 / 100) * inlineBtns); //We take into account the number of inlineBtns included in the sameSlideGroup because they take space in the slide, which reduces the number of words/letters that the slide can include
+  
+      if (countInnerHTML(sameSlide) > maximum) {
+        sameSlide.pop(); //if the number of letters exceeds the maximum we remove the last slide  added to sameSlideGroup[]
+        return;
       }
-    });
-  }
-
-  /**
-   * Retrieves the first element of the container having a 'data-same-slide' attribute, and shows the slide containing all the elements with the same 'data-same-slide' attribute
-   */
-  function showTheFirstSlideInContainer() {
-    let hasSameSlide = Array.from(containerDiv.children).find(
-      (child: HTMLDivElement) => child.dataset.sameSlide
-    ) as HTMLDivElement;
-    if (hasSameSlide) showOrHideSlide(true, hasSameSlide.dataset.sameSlide);
+  
+      countWords(nextSlideRow(slideRow), sameSlide);
+    }
+  
+    function nextSlideRow(currentSlideRow: HTMLDivElement): HTMLDivElement {
+      if (!currentSlideRow) return;
+  
+      let next = currentSlideRow.nextElementSibling as HTMLDivElement;
+  
+      if (next && (next.children.length < 1 || isCommentContainer(next)))
+        return nextSlideRow(next); //We escape comments
+      else if (next && next.classList.contains("Expandable"))
+        createNewSlideGroup(next.children[0] as HTMLDivElement);
+      else if (
+        !next &&
+        currentSlideRow.parentElement &&
+        currentSlideRow.parentElement.classList.contains("Expandable")
+      )
+        return currentSlideRow.parentElement.nextElementSibling as HTMLDivElement;
+      else return next;
+    }
+  
+    function countInnerHTML(sameSlideGroup: HTMLDivElement[]): number {
+      let count: number = 0;
+      sameSlideGroup.forEach((child) => {
+        if (!child.classList.contains(inlineBtnsContainerClass))
+          count += child.innerHTML.length;
+      });
+      return count;
+    }
+  
+    function changeRightSideBarShortCutsOnClick() {
+      return;
+      Array.from(
+        sideBarTitlesContainer.children as HTMLCollectionOf<HTMLButtonElement>
+      ).forEach((btn) => {
+        btn.classList.remove(hidden);
+  
+        btn.addEventListener("click", onClick);
+        function onClick() {
+          let target = Array.from(containerDiv.children).find(
+            (child: HTMLDivElement) =>
+              child.classList.contains("SlideRow") &&
+              child.id === btn.dataset.group &&
+              child.dataset.sameSlide
+          ) as HTMLDivElement;
+          console.log("target = ", target.dataset.root);
+          if (!target) return console.log("target was not found ");
+          // let dataSameSlide = target.dataset.sameSlide;
+          //let slide = buildSlideFromDataSameSlideGroup(dataSameSlide)
+          // showOrHideSlide(true, slide.dataset.sameSlide);
+          showOrHideSlide(true, target.dataset.sameSlide);
+        }
+      });
+    }
+  
+    /**
+     * Retrieves the first element of the container having a 'data-same-slide' attribute, and shows the slide containing all the elements with the same 'data-same-slide' attribute
+     */
+    function showTheFirstSlideInContainer() {
+      let hasSameSlide = Array.from(containerDiv.children).find(
+        (child: HTMLDivElement) => child.dataset.sameSlide
+      ) as HTMLDivElement;
+      if (hasSameSlide) showOrHideSlide(true, hasSameSlide.dataset.sameSlide);
+    }
   }
 }
+
+
 
 /**
  * Shows or hides a slide in Display Presentation Mode
@@ -1881,7 +1878,8 @@ async function setCSS(htmlRows: HTMLElement[]) {
   htmlRows
     .forEach((row) => {
       if (!row) return;//!Caution: in some scenarios, htmlRows might contain undefined rows. We need to check for this in order to avoid erros
-      if (row.children.length === 0) row.classList.add(hidden); //If the row has no children, it means that it is a row created as a name of a table or as a placeholder. We will hide the html element
+      if (row.children.length === 0) row.remove(); //If the row has no children, it means that it is a row created as a name of a table or as a placeholder. We will remove the html element
+      
       //Setting the number of columns and their width for each element having the 'Row' class for each Display Mode
       row.style.gridTemplateColumns = setGridColumnsOrRowsNumber(row);
       //Defining grid areas for each language in order to be able to control the order in which the languages are displayed (Arabic always on the last column from left to right, and Coptic on the first column from left to right)
