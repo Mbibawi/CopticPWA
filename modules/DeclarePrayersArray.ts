@@ -51,7 +51,7 @@ PrayersArrayFR= [[
   Prefix.commonPrayer+"ThanksGiving&D=$copticFeasts.AnyDay", 
   ],
   [
-  Prefix.commonIncense+"CymbalVersesPlaceHolder&D=$copticFeasts.AnyDay", 
+  Prefix.anchor+"CymbalVerses&D=$copticFeasts.AnyDay", 
   ],
   ],
   [
@@ -819,7 +819,14 @@ PrayersArrayFR= [[
   ],
   [
   [
-  Prefix.commonIncense+"LitaniesComment1&D=$copticFeasts.AnyDay&C=Comments", 
+  Prefix.commonIncense+"Litanies&D=$copticFeasts.AnyDay&C=Title",
+  "",
+  "Litanies",
+  "",
+  "الأواشي",
+  ],
+  [
+  Prefix.same+"&C=Comments", 
   "", 
   "وعند فراغ الشَعْبْ من الترتيل، يلتفت الكاهن إلى الشَرْقِ والشماس واقف خلفه ويقول الكاهن:ـ", 
   ],
@@ -837,6 +844,45 @@ PrayersArrayFR= [[
   ],
   ],
   [
+    [
+      Prefix.commonIncense+"Doxolgoies&D=$copticFeasts.AnyDay",
+    ],
+    [
+      Prefix.placeHolder,
+      Prefix.commonIncense+"DoxolgiesComment&D=$copticFeasts.AnyDay",
+    ],
+    [
+      Prefix.placeHolder,
+      Prefix.commonPrayer+"Agios&D=$copticFeasts.AnyDay"
+    ],
+    [
+      Prefix.placeHolder,
+      Prefix.commonPrayer+"OurFatherWhoArtInHeaven&D=$copticFeasts.AnyDay"
+    ],
+    [
+      Prefix.placeHolder,
+      Prefix.commonPrayer+"WeSaluteYouMary&D=$copticFeasts.AnyDay"
+    ],
+    [
+      Prefix.same+"&C=Title",
+      "",
+      "Les Doxolgies",
+      "",
+      "الذكصولوجيات",
+    ],
+  [
+      Prefix.anchor+"Doxologies&D=$copticFeasts.AnyDay", 
+    ],
+    [
+      Prefix.placeHolder,
+      Prefix.commonPrayer+"WeExaltYouStMary&D=$copticFeasts.AnyDay"
+    ],
+    [
+      Prefix.placeHolder,
+      Prefix.commonPrayer+"Creed&D=$copticFeasts.AnyDay"
+    ],
+  ],
+  [
   [
   Prefix.incenseVespers+"PriestLitaniesComment&D=$copticFeasts.AnyDay&C=Comments", 
   "", 
@@ -845,7 +891,7 @@ PrayersArrayFR= [[
   ],
   [
   [
-  Prefix.incenseDawn+"SickPrayer&D=$copticFeasts.AnyDay&C=Title", 
+  Prefix.incenseDawn+"SickLitany&D=$copticFeasts.AnyDay&C=Title", 
   "", 
   "Oraison des maladies", 
   "", 
@@ -971,7 +1017,7 @@ PrayersArrayFR= [[
   ],
   [
   [
-  Prefix.incenseDawn+"TravelersPrayer&D=$copticFeasts.AnyDay&C=Title", 
+  Prefix.incenseDawn+"TravelersLitany&D=$copticFeasts.AnyDay&C=Title", 
   "", 
   "Oraison des voyageurs", 
   "", 
@@ -1030,7 +1076,7 @@ PrayersArrayFR= [[
   ],
   [
   [
-  Prefix.incenseDawn+"OblationsPrayer&D=$copticFeasts.AnyDay&C=Title", 
+  Prefix.incenseDawn+"OblationsLitany&D=$copticFeasts.AnyDay&C=Title", 
   "", 
   "Oraison des Oblations", 
   "", 
@@ -1098,7 +1144,7 @@ PrayersArrayFR= [[
   ],
   [
   [
-  Prefix.incenseVespers+"DepartedPrayer&D=$copticFeasts.AnyDay&C=Title", 
+  Prefix.incenseVespers+"DepartedLitany&D=$copticFeasts.AnyDay&C=Title", 
   "", 
   "Oraison des décédés", 
   "", 
@@ -1561,11 +1607,6 @@ PrayersArrayFR= [[
   ],
   [
   [
-  Prefix.commonIncense+"DoxologiesPlaceHolder&D=$copticFeasts.AnyDay", 
-  ],
-  ],
-  [
-  [
   Prefix.commonIncense+"DoxolgiesComment&D=$copticFeasts.AnyDay&C=Comments", 
   "", 
   "يدور الكاهن حول المَذْبَحْ دورة واحدة وينزل فيعطي البخور أمام الهَيْكَلْ كما سبق. ثُمَّ يعطي البخور للإنجيل الذي على المنجلية (القطمارس) قائلا:ـ", 
@@ -1587,12 +1628,12 @@ PrayersArrayFR= [[
   "", 
   "", 
   "", 
-  "السَّلامُ للقديس العَظِيمُ (.....) اطلب من الرَبّ عَنَّا لِيَغْفِرْ لَنَا خَطَايَانَا.", 
+  "السَّلامُ للقديس العَظِيمُ (.....) اطلب من الرَبّ عَنَّا لِيَغْفِرْ لَنَا خَطَايَانَا. ثُمَّ يقبل رفات القِدِّيسِينْ.", 
   ],
   [
   Prefix.same+"&C=Comments", 
   "", 
-  "ثُمَّ يقبل رفات القِدِّيسِينْ. إذا كان الأب البطريرك أو المُطْرانْ أو الأسقف حاضراً يعطيه البخور ثلاث أياد. أول يَدِ للآب البطريرك بعدما يقبل الصَلِيبْ الذي بيده يقول في اليد الأولى:", 
+  "إذا كان الأب البطريرك أو المُطْرانْ أو الأسقف حاضراً يعطيه البخور ثلاث أياد: أول يَدِ للآب البطريرك بعدما يقبل الصَلِيبْ الذي بيده يقول في اليد الأولى:", 
   ],
   [
   Prefix.same+"&C=CommentText", 
@@ -1745,7 +1786,7 @@ PrayersArrayFR= [[
   "", 
   "Louons Dieu avec les Anges", 
   "", 
-  " فلنسبح مَعَ المَلائِكَةْ قائلين", 
+  "فلنسبح مَعَ المَلائِكَةْ", 
   ],
   [
   Prefix.same+"&C=Assembly", 
@@ -1778,11 +1819,11 @@ PrayersArrayFR= [[
   ],
   [
   [
-  Prefix.incenseVespers+"LordKeepUsThisNightWithoutSin&D=$copticFeasts.AnyDay&C=Title", 
+  Prefix.incenseVespers+"LordKeepUsThisNight&D=$copticFeasts.AnyDay&C=Title", 
   "", 
   "Daigne, Seigneur, nous garder sans péché", 
   "", 
-  " تَفَضَّلْ يا رَبُّ أنْ تحفظنا في هَذِهِ اللَّيْلِة", 
+  "تَفَضَّلْ يا رَبُّ أنْ تحفظنا", 
   ],
   [
   Prefix.same+"&C=Assembly", 
@@ -2696,7 +2737,14 @@ PrayersArrayFR= [[
   ],
   [
   [
-  Prefix.commonPrayer+"KingOfPeaceHymn&D=$copticFeasts.AnyDay&C=Diacon", 
+  Prefix.commonPrayer+"KingOfPeaceHymn&D=$copticFeasts.AnyDay&C=Title", 
+  "", 
+  "Ⲡⲟⲩⲣⲟ ⲛ̀ⲧⲉ ϯϩⲓⲣⲏⲛⲏ", 
+  "", 
+  "يا ملَكَ السَّلامُ (إبؤرو إنتى تى هيرينى)", 
+  ],
+  [
+  Prefix.same+"&C=Diacon", 
   "Ⲡⲟⲩⲣⲟ ⲛ̀ⲧⲉ ϯϩⲓⲣⲏⲛⲏ: ⲙⲟⲓ ⲛⲁⲛ ⲛ̀ⲧⲉⲕϩⲓⲣⲏⲛⲏ: ⲥⲉⲙⲛⲓ ⲛⲁⲛ ⲛ̀ⲧⲉⲕϩⲓⲣⲏⲛⲏ: ⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ.", 
   "Ô Toi Roi de la paix♫ donne nous Ta paix♫ accorde-nous Ta paix♫ et remets nos péchés.", 
   "إبؤرو إنتى تى هيرينى♫ موى نان إنتيك هيرينى♫ سيم نى نان إنتيك هيرينى♫ كانين نوفي نان إيفول.", 
@@ -2784,7 +2832,7 @@ PrayersArrayFR= [[
   ],
   [
   [
-  Prefix.doxologies+"HeavenlyBeings&D=$copticFeasts.AnyDay&C=Title", 
+  Prefix.doxologies+"CelestialBeings&D=$copticFeasts.AnyDay&C=Title", 
   "", 
   "Doxology des creatures célestes", 
   "", 
@@ -3257,15 +3305,15 @@ PrayersArrayFR= [[
   Prefix.commonPrayer+"AmeenKyrieElieson3Times&D=$copticFeasts.AnyDay", 
   ],
   [
-    Prefix.commonPrayer + "PropheciesPlaceHolder&D=$copticFeasts.AnyDay",
+    Prefix.anchor+"Prophecies&D=$copticFeasts.AnyDay",
   ],
   [
   Prefix.placeHolder,
-  Prefix.commonPrayer + "GospelLitany&D=$copticFeasts.AnyDay", 
+  Prefix.commonPrayer+"GospelLitany&D=$copticFeasts.AnyDay", 
   ],
   [
     Prefix.placeHolder,
-      Prefix.commonPrayer + "OurFatherWhoArtInHeaven&D=$copticFeasts.AnyDay"
+      Prefix.commonPrayer+"OurFatherWhoArtInHeaven&D=$copticFeasts.AnyDay"
     ],
     [
     Prefix.same+"&C=Comments", 
@@ -3280,7 +3328,7 @@ PrayersArrayFR= [[
     "نعم يا رَبّ، يا رَبُّ الذي أعطانا السلطان أنْ ندوس الحيات والعقارَبّ وكُلَّ قُوَّة العدو، اسحق رؤوسه تَحْتَ أقدامنا سريعاً وبدد عَنَّا كُلِّ مَعَقولاته الشريرة المُقَاوَمَةِ لَنَا. لأنَّكَ أنْتَ هُوَ ملكنا أيُّهَا المَسِيحْ إلهنا، وأَنْت الذي نرسل لَكَ إلى فَوْقَ المَجْدُ والكَرَامَةْ والسِجُودِ  مَعَ أب يك الصَالِحْ ومَعَ الْرُوحْ القُدُسْ المُحْيّي المُسَاوي لَكَ الآنْ وكُلَّ أوانْ وإلى دَهْرِ الدُهُورْ كلها آمْينْ.", 
     ],
     [
-      Prefix.same + "&C=Comments",
+      Prefix.same+"&C=Comments",
       "",
       "",
       "",
@@ -3288,10 +3336,10 @@ PrayersArrayFR= [[
   ],
     [
       Prefix.placeHolder,
-      Prefix.commonPrayer + "BlockInTheNameOfOurLord&D=$copticFeasts.AnyDay"
+      Prefix.commonPrayer+"BlockInTheNameOfOurLord&D=$copticFeasts.AnyDay"
     ],
     [
-      Prefix.same + "&C=Comments",
+      Prefix.same+"&C=Comments",
       "",
       "",
       "",
@@ -3306,10 +3354,10 @@ PrayersArrayFR= [[
   ],
     [
       Prefix.placeHolder,
-      Prefix.commonPrayer + "BlockIriniPassi&D=$copticFeasts.AnyDay",
+      Prefix.commonPrayer+"BlockIriniPassi&D=$copticFeasts.AnyDay",
     ],
   [
-    Prefix.same + "&C=Comments",
+    Prefix.same+"&C=Comments",
     "",
     "",
     "",
@@ -3317,7 +3365,7 @@ PrayersArrayFR= [[
   ],
     [
       Prefix.placeHolder,
-      Prefix.commonPrayer + "AbsolutionForTheSon&D=$copticFeasts.AnyDay"
+      Prefix.commonPrayer+"AbsolutionForTheSon&D=$copticFeasts.AnyDay"
     ],
   ],
   [
@@ -3741,7 +3789,7 @@ PrayersArrayFR= [[
   "الذين سبقوا فرقدوا نيحهم المرضي اشفهم لأنََكَ أنْتَ هُوَ حياتنا كُلُّنَا وخلاصنا كُلُّنَا ورجاؤنا كُلُّنَا وشفاؤنا كُلُّنَا وقيامتنا كُلُّنَا .", 
   ],
   [
-  Prefix.commonPrayer+"PsalmResponsePlaceHolder&D=$copticFeasts.AnyDay", 
+  Prefix.anchor+"PsalmResponse&D=$copticFeasts.AnyDay", 
   ],
   [
   Prefix.same+"&C=Comments", 
@@ -3867,7 +3915,7 @@ PrayersArrayFR= [[
   "(يقرأ الشماس المَزْمُورْ وفي ختامه يرد الشعب: الليلويا", 
   ],
   [
-  Prefix.commonPrayer+"PsalmPlaceHolder&D=$copticFeasts.AnyDay", 
+  Prefix.anchor+"Psalm&D=$copticFeasts.AnyDay", 
   ],
   [
   Prefix.same+"&C=ReadingIntro", 
@@ -3882,7 +3930,7 @@ PrayersArrayFR= [[
   "يقرأ الشماس الإنجيل وفي ختامه يقول: المَجْدُ لإلَهْنَا إلى الأبَدْ آمْينْ.", 
   ],
   [
-  Prefix.commonPrayer+"GospelPlaceHolder&D=$copticFeasts.AnyDay", 
+  Prefix.anchor+"Gospel&D=$copticFeasts.AnyDay", 
   ],
   ],
   [
@@ -4064,7 +4112,7 @@ PrayersArrayFR= [[
   "آمين هَلِّليلُويا. المَجْدُ للآب والابن والْرُوحْ القُدُسْ، الآنْ وكُلَّ أوانْ وإلي دَهْرِ الدِهُورْ. آمْينْ.", 
   ],
   [
-  Prefix.commonPrayer+"ConcludingHymnPlaceHolder&D=$copticFeasts.AnyDay", 
+  Prefix.anchor+"ConcludingHymn&D=$copticFeasts.AnyDay", 
   ],
   [
   Prefix.same+"&C=Assembly", 
@@ -4612,7 +4660,7 @@ PrayersArrayFR= [[
   Prefix.massCommon+"WeBowToYouJesusChrist&D=$copticFeasts.AnyDay", 
   ],
   [
-  Prefix.massCommon+"ReadingsPlaceHolder&D=$copticFeasts.AnyDay", 
+  Prefix.anchor+"Readings&D=$copticFeasts.AnyDay", 
   ],
   [
   Prefix.placeHolder, 
@@ -4932,7 +4980,7 @@ PrayersArrayFR= [[
   ],
   [
   [
-  Prefix.praxisResponse+"PraxisResponse&D=$copticFeasts.AnyDay&C=Title", 
+  Prefix.praxisResponse+"&D=$copticFeasts.AnyDay&C=Title", 
   "", 
   "Répons du Praxis", 
   "", 
@@ -4946,11 +4994,11 @@ PrayersArrayFR= [[
   "السَّلامُُ لكِ يا مَرِيَمْ الحَمَامَة الحَسَنَةْ التي وَلَدَتْ لنا اللّه الكلمة.", 
   ],
   [
-  Prefix.same+"&C=Diacon", 
-  "Ⲕ̀ⲥ̀ⲙⲁⲣⲱⲟⲩⲧ ⲁ̀ⲗⲏⲑⲱⲥ: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ: ϫⲉ ⲁⲕ̀' ⲁⲕⲥⲱϯ ⲙ̀ⲙⲟⲛ ⲛⲁⲓ ⲛⲁⲛ.", 
-  "Bénis es-tu en vérité, avec ton Père très bon, et l’Esprit-Saint, car Tu as été crucifié et nous as sauvés, aie pitié de nous.", 
-  "اك إكسمارؤوت آليثوس نيم بي اكيوت إن آغاثوس نيم بي ابنيفما اثؤوابجي آك آشك أكسوتي إمّون ناينان.", 
-  "مُبَاركٌ أنتَ بِالحَقِيقَة مَعَ أبيكَ الصَالِحْ والْرُوحْ القُدُسْ لأنكَ صُلبتَ وخَلصْتَنا ارْحَمْنَا.", 
+    Prefix.anchor + "Saints&D=copticFeasts.AnyDay"
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.massCommon+"BlessedYouAreWithYourFather&D=copticFeasts.AnyDay"
   ],
   ],
   [
@@ -5822,9 +5870,12 @@ PrayersArrayFR= [[
   Prefix.commonPrayer+"BlockIriniPassi&D=$copticFeasts.AnyDay", 
   ],
   [
-  Prefix.placeHolder, 
-  Prefix.massCommon+"FractionPrayerPlaceholder&D=$copticFeasts.AnyDay", 
-  ],
+    Prefix.anchor+"Fraction&D=$copticFeasts.AnyDay&C=Title", 
+    "", 
+    "Fraction", 
+    "", 
+    "القسمة", 
+    ],
   ],
   [
   [
@@ -5971,15 +6022,6 @@ PrayersArrayFR= [[
   "", 
   "", 
   "من أجل خطاياي خاصة ونجاسات قَلْبِي لا تمنع شَعْبُكْ من نِعْمَةْ رُوحِكَ القُدُّوسْ حاللنا وحالل كُلِّ شَعْبُكْ مِنْ كُلِّ خطية.", 
-  ],
-  ],
-  [
-  [
-  Prefix.massCommon+"FractionPrayerPlaceholder&D=$copticFeasts.AnyDay&C=Title", 
-  "", 
-  "Fraction", 
-  "", 
-  " القسمة", 
   ],
   ],
   [
@@ -9546,9 +9588,12 @@ PrayersArrayFR= [[
   Prefix.commonPrayer+"BlockIriniPassi&D=$copticFeasts.AnyDay", 
   ],
   [
-  Prefix.placeHolder, 
-  Prefix.massCommon+"FractionPrayerPlaceholder&D=$copticFeasts.AnyDay", 
-  ],
+    Prefix.anchor+"Fraction&D=$copticFeasts.AnyDay&C=Title", 
+    "", 
+    "Fraction", 
+    "", 
+    "القسمة", 
+    ],
   [
   Prefix.placeHolder, 
   Prefix.commonPrayer+"OurFatherWhoArtInHeaven&D=$copticFeasts.AnyDay", 
@@ -10076,11 +10121,11 @@ PrayersArrayFR= [[
   ],
   [
   Prefix.placeHolder, 
-  Prefix.incenseDawn+"SickPrayer&D=$copticFeasts.AnyDay", 
+  Prefix.incenseDawn+"SickLitany&D=$copticFeasts.AnyDay", 
   ],
   [
   Prefix.placeHolder, 
-  Prefix.incenseDawn+"TravelersPrayer&D=$copticFeasts.AnyDay", 
+  Prefix.incenseDawn+"TravelersLitany&D=$copticFeasts.AnyDay", 
   ],
   [
   Prefix.placeHolder, 
@@ -10187,7 +10232,7 @@ PrayersArrayFR= [[
   ],
   [
   Prefix.placeHolder, 
-  Prefix.incenseDawn+"OblationsPrayer&D=$copticFeasts.AnyDay", 
+  Prefix.incenseDawn+"OblationsLitany&D=$copticFeasts.AnyDay", 
   ],
   [
   Prefix.placeHolder, 
@@ -19708,7 +19753,7 @@ PrayersArrayFR= [[
   [
   Prefix.same+"&C=NoActor", 
   "", 
-  "Quand je me tiens sous l'abri du Très-Haut et repose à l'ombre du Puissant, je dis au Seigneur : « Mon refuge, mon rempart, mon Dieu, dont je suis sûr ! ». C'est lui qui te sauve des filets du chasseur et de la peste maléfique ; il te couvre et te protège. Tu trouves sous son aile un refuge : sa fidélité est une armure, un bouclier. Tu ne craindras ni les terreurs de la nuit, ni la flèche qui vole au grand jour, ni la peste qui rôde dans le noir, ni le fléau qui frappe à midi. Qu'il en tombe mille à tes côtés, + qu'il en tombe dix mille à ta droite, toi, tu restes hors d'atteinte. Il suffit que tu ouvres les yeux, tu verras le salaire du méchant.", 
+  "Quand je me tiens sous l'abri du Très-Haut et repose à l'ombre du Puissant, je dis au Seigneur : « Mon refuge, mon rempart, mon Dieu, dont je suis sûr ! ». C'est lui qui te sauve des filets du chasseur et de la peste maléfique ; il te couvre et te protège. Tu trouves sous son aile un refuge : sa fidélité est une armure, un bouclier. Tu ne craindras ni les terreurs de la nuit, ni la flèche qui vole au grand jour, ni la peste qui rôde dans le noir, ni le fléau qui frappe à midi. Qu'il en tombe mille à tes côtés,+qu'il en tombe dix mille à ta droite, toi, tu restes hors d'atteinte. Il suffit que tu ouvres les yeux, tu verras le salaire du méchant.", 
   "", 
   "السَاكِنْ في عَوْنِ العَليّ، يستريح في ظل إله السَّمَاء. يقول للرَبّ أنْتَ هُوَ ناصري وملجأي، إلهي فأتكُلِّ عليه. لِأنَّهُ ينجيك من فخ الصياد، ومن كلمة مقلقة. في وسط منكبيه يظللك، وتحت جناحيه تعتصم، عدله يحيط بك كالسلاح. فلا تخشى من خَوْفٍ اللَّيْلِ، ولا من سهم يطير في النهار. ولا من أمر يسلَكَ في الظلمة، ولا من سقطة وشيطان الظهيرة. يسقط عَنْ يسارك ألوف، وعَنْ يَمِينُكَ رَبّوات، وأما أنْتَ فلا يقترَبّون إليك. بَلْ بعينيك تتأمل، ومجازاة الخطاة تبصر.", 
   ],
@@ -23501,7 +23546,14 @@ PrayersArrayFR= [[
   "Béni la couronne de cette année, par ta bonté O Seigneur. Les fleuves, les sources, les végétations et les fruits.", 
   "", 
   "بارك اكليل السنة بصلاحك يا رَبّ. الِأنَّهُار و العيون و الزروع و الأثُمَّار.", 
-  ],
+    ],
+    [
+      Prefix.anchor + "Saints&D=copticFeasts.AnyDay"
+    ],
+    [
+      Prefix.placeHolder,
+      Prefix.massCommon+"BlessedYouAreWithYourFather&D=copticFeasts.AnyDay"
+    ],
   ],
   [
   [
@@ -23517,7 +23569,11 @@ PrayersArrayFR= [[
   "Nous saluons la croix sur laquelle notre Seigneur a été crucifié pour nous sauver de nos péchés", 
   "", 
   "السَّلامُ للصليب الذي صُلبَ رَبّى عَلَيْهِ حتى خلصنا من خَطَايَانَا", 
-  ],
+    ],
+    [
+      Prefix.placeHolder,
+      Prefix.massCommon+"BlessedYouAreWithYourFather&D=copticFeasts.AnyDay"
+    ],
   ],
   [
   [
@@ -23533,7 +23589,14 @@ PrayersArrayFR= [[
   "Salut à Gabriel le grand archange Salut à celui qui a annoncé la Vierge Marie.", 
   "", 
   "السَّلامُ لغبريال، رئيس المَلائِكَةْ العظيم، السَّلامُ للذي بشَّر، مَرِيَمْ العَذْراءْ.", 
-  ],
+    ],
+    [
+      Prefix.anchor + "Saints&D=copticFeasts.AnyDay"
+    ],
+    [
+      Prefix.placeHolder,
+      Prefix.massCommon+"BlessedYouAreWithYourFather&D=copticFeasts.AnyDay"
+    ],
   ],
   [
   [
@@ -23550,6 +23613,13 @@ PrayersArrayFR= [[
   "", 
   "السَّلامُ لغبريال المبشر، العَظِيمُ في المَلائِكَةِ، والطغمات المُقَدَّسْة العلوية، الحامل السيف الملتهب ناراَ.", 
   ],
+  [
+    Prefix.anchor + "Saints&D=copticFeasts.AnyDay"
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.massCommon+"BlessedYouAreWithYourFather&D=copticFeasts.AnyDay"
+  ],
   ],
   [
   [
@@ -23557,7 +23627,7 @@ PrayersArrayFR= [[
   "", 
   "Paramoun de la Nativité", 
   "", 
-  " مرد الإبركسيس لبرامون الميلاد", 
+  "مرد الإبركسيس لبرامون الميلاد", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -23565,6 +23635,10 @@ PrayersArrayFR= [[
   "Ô merveille divine, la mère de Dieu Marie la vierge en tout temps.", 
   "", 
   "يا للطلقات الإلهية المتعجب منها الَّتِي لوالدة الإلَهَ مَرِيَمْ العَذْراءْ كُلِّ حين.", 
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.massCommon+"BlessedYouAreWithYourFather&D=copticFeasts.AnyDay"
   ],
   ],
   [
@@ -23582,6 +23656,13 @@ PrayersArrayFR= [[
   "", 
   "السَّلامُ لبيت لحم مدينة الأنبياء التي ولد فيها المَسِيحْ أدم الثاني.", 
   ],
+    [
+      Prefix.anchor + "Saints&D=copticFeasts.AnyDay"
+    ],
+    [
+      Prefix.placeHolder,
+      Prefix.massCommon+"BlessedYouAreWithYourFather&D=copticFeasts.AnyDay"
+    ],
   ],
   [
   [
@@ -23598,14 +23679,18 @@ PrayersArrayFR= [[
   "", 
   "السَّلامُ لبيت لحم مدينة الأنبياء، الَّذِينَ تنبأوا عَنْ ميلاد عِمَّانُوئِيلْ.", 
   ],
+  [
+    Prefix.placeHolder,
+    Prefix.massCommon+"BlessedYouAreWithYourFather&D=copticFeasts.AnyDay"
+  ],
   ],
   [
   [
   Prefix.praxisResponse+"&D=$Seasons.Baptism&C=Title", 
   "", 
-  "Fête de l’Épiphanie", 
+  "Fête du Baptême", 
   "", 
-  " مرد الإبركسيس لعيد التجلي", 
+  " مرد الإبركسيس لعيد الغطاس", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -23620,6 +23705,13 @@ PrayersArrayFR= [[
   "Salut à Jean le grand précurseur, salut au prêtre, parent d’Emmanuel.", 
   "", 
   "السَّلامُ ليوحنا العَظِيمُ السابق، السَّلامُ للكاهن، نسيب عِمَّانُوئِيلْ.", 
+  ],
+  [
+    Prefix.anchor + "Saints&D=copticFeasts.AnyDay"
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.massCommon+"BlessedYouAreWithYourFather&D=copticFeasts.AnyDay"
   ],
   ],
   [
@@ -23637,6 +23729,10 @@ PrayersArrayFR= [[
   "", 
   "سته أجران ماء حولها الى خمر مختار بمجده العَظِيمُ نُسَبِحَكْ ثلاثة مرات.", 
   ],
+  [
+    Prefix.placeHolder,
+    Prefix.massCommon+"BlessedYouAreWithYourFather&D=copticFeasts.AnyDay"
+  ],
   ],
   [
   [
@@ -23649,9 +23745,13 @@ PrayersArrayFR= [[
   [
   Prefix.same+"&C=Diacon", 
   "Ⲁ̀ⲣⲓⲡⲁⲙⲉⲩⲓ̀ ⲱ̀ ⲡⲁϬⲟⲓⲥ: ⲁ̀ⲣⲓⲡⲁⲙⲉⲩⲓ̀ ⲱ̀ ⲡⲁⲛⲟⲩϯ: ⲁ̀ⲣⲓⲡⲙⲁⲩⲓ̀ ⲱ̀ ⲡⲁⲟ̀ⲩⲣⲟ: ⲁⲕϣⲁⲛⲓ̀ ϧⲉⲛ ⲧⲉⲕⲙⲉⲧⲟ̀ⲩⲣⲟ.", 
-  "Souviens-toi de moi O Seigneur. Souviens-toi de moi O Dieu. Souviens-toi de moi O mon roi, quand tu viendras dans ton règne.", 
-  "", 
+  "Souviens-toi de moi Ô Seigneur. Souviens-toi de moi Ô Dieu. Souviens-toi de moi Ô mon roi, quand tu viendras dans ton règne.", 
+  "آري باميفئي أو باشويس، آري باميفئي أو بانوتي، آري باميفئي أو با أورو، أكشان خين تيك ميت أورو.", 
   "اذكرني يا رَبّي اذكرني يا إلهي. اذكرني يا ملِكَيّ متى جئت في مَلَكُوتَكْ.", 
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.massCommon+"BlessedYouAreWithYourFather&D=copticFeasts.AnyDay"
   ],
   ],
   [
@@ -23666,9 +23766,22 @@ PrayersArrayFR= [[
   Prefix.same+"&C=Diacon", 
   "Ϣ̀ⲁⲣⲉ Ⲫ̀ϯ ⲱ̀ⲗⲓ ⲙ̀ⲙⲁⲩ ⲛ̀ⲛⲓⲛⲟⲃⲓ ⲛ̀ⲧⲉ ⲡⲓⲗⲁⲟⲥ: ⲉ̀ⲃⲟⲗϩⲓⲧⲉⲛ ⲡⲓϭ̀ⲗⲓⲗ: ⲛⲉⲙ ⲡⲓⲥ̀ⲑⲟⲓ ⲛ̀ⲧⲉ ⲡⲓⲥ̀ⲑⲟⲓⲛⲟⲩϥⲓ.", 
   "Dieu enlève en cet endroit les péchés du peuple en raison des offrandes et de l’odeur de l’encens.", 
-  "", 
+  "شاري إفنوتي أولي إمماﭫ : إنني نوﭭي إنتيه بي لاؤس : إيﭬول هيتين بي إتشليل : نيم بي إسطوي إنتيه بي إسطوي نوفي. ", 
   "يرفع اللّه هناك، خطايا الشَعْبْ مِنْ قِبَلِ المحرقات، ورائحة البَخُور.", 
+    ],
+    [
+      Prefix.placeHolder,
+      Prefix.massCommon+"BlessedYouAreWithYourFather&D=copticFeasts.AnyDay"
+    ],
   ],
+  [
+    [
+      Prefix.massCommon+"BlessedYouAreWithYourFather&D=copticFeasts.AnyDay&C=Diacon", 
+      "Ⲕ̀ⲥ̀ⲙⲁⲣⲱⲟⲩⲧ ⲁ̀ⲗⲏⲑⲱⲥ: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ: " + giaki.COP + " ⲁⲕⲥⲱϯ ⲙ̀ⲙⲟⲛ ⲛⲁⲓ ⲛⲁⲛ.", 
+      "Bénis es-tu en vérité, avec ton Père très bon, et l’Esprit-Saint, car " + giaki.FR + " et nous as sauvés, aie pitié de nous.", 
+      "اك إكسمارؤوت آليثوس نيم بي اكيوت إن آغاثوس نيم بي ابنيفما اثؤواب " + giaki.CA + " أكسوتي إمّون ناينان.", 
+      "مُبَاركٌ أنتَ بِالحَقِيقَة مَعَ أبيكَ الصَالِحْ والْرُوحْ القُدُسْ  " + giaki.AR + " وخَلصْتَنا ارْحَمْنَا.", 
+      ],
   ],
   [
   [
@@ -23684,6 +23797,10 @@ PrayersArrayFR= [[
   "Salut à celle qui a trouvé grâce, le Seigneur est avec toi, salut à celle qui a reçu de l’ange la joie du monde.", 
   "", 
   "السَّلامُ للتى وجدت نِعْمَةْ الرَبّ مَعَكِ السَّلامُ للتى قبلت من المَلاكْ فرح العَالَم.", 
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.massCommon+"BlessedYouAreWithYourFather&D=copticFeasts.AnyDay"
   ],
   ],
   [
@@ -23704,7 +23821,7 @@ PrayersArrayFR= [[
   ],
   [
   [
-  Prefix.praxisResponse+"&D=$Seasons.PentecostalDays&C=Title", 
+  Prefix.praxisResponse+"Resurrection&D=$Seasons.PentecostalDays&C=Title", 
   "", 
   "La Résurrection", 
   "", 
@@ -23716,6 +23833,36 @@ PrayersArrayFR= [[
   "Salut à sa résurrection d’entre les morts pour nous sauver de nos péchés", 
   "", 
   "السَّلامُ لقيامته لما قام من بين الأموات حتي خلصنا من خَطَايَانَا.", 
+  ],
+  [
+    Prefix.anchor + "Saints&D=copticFeasts.AnyDay"
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.massCommon+"BlessedYouAreWithYourFather&D=copticFeasts.AnyDay"
+  ],
+  ],
+  [
+  [
+  Prefix.praxisResponse+"Ascension&D=$Seasons.PentecostalDays&C=Title", 
+  "", 
+  "Ascension", 
+  "", 
+  " مرد الإبركسيس لعيد الصعود", 
+  ],
+  [
+  Prefix.same+"&C=Diacon", 
+  "Ⲭⲉⲣⲉ Ⲧⲉϥⲁ̀ⲛⲁⲗⲩⲙⲯ̀ⲓⲥ: ⲉ̀ⲧⲁϥϣⲉⲛⲁϥ ⲉ̀ⲡ̀ϣⲱⲓ ⲉ̀ⲛⲓⲫⲏⲟⲩⲓ: ϧⲉⲛ ⲟⲩⲱ̀ⲟⲩ ⲛⲉⲙ ⲟⲩⲧⲁⲓⲟ: ⲁϥϩⲉⲙⲥⲓ ⲥⲁⲟⲩⲓ̀ⲛⲁⲙ ⲙ̀Ⲡⲉϥⲓⲱⲧ.", 
+  "Salut à Son ascension: lorsqu’Il monta aux cieux: avec gloire et honneur: Il s’assit à la droite du Père.", 
+  "شيريه تيف آناليم ابسيس : إيطاف شيناف إيه إبشوي إيه ني في أووي : خين أووأوأوو نيم أووطايو : آفهيمسي صاأووي نام إمبيفيوت.", 
+  "السَّلامُ لصعوده لما صعد إلى السموات، بمجد و كرامةـ جلس عن يمين ابيه.", 
+  ],
+  [
+    Prefix.anchor + "Saints&D=copticFeasts.AnyDay"
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.massCommon+"BlessedYouAreWithYourFather&D=copticFeasts.AnyDay"
   ],
   ],
   [
@@ -23732,6 +23879,30 @@ PrayersArrayFR= [[
   "Réjouis toi et sois heureuse Ô l'Égypte et tous tes enfants et tes contrées, car l’ami du genre humain t’as visité, Lui qui existe avant tous les temps.", 
   "", 
   "إفرحى وتهللي يا مصر، مَعَ بنيها وكُلَّ تخومها، لِأنَّهُ أتى إليَكَ مُحِبِ البَشَرِ، الكائن قبَلْ كُلِّ الده ور.", 
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.massCommon+"BlessedYouAreWithYourFather&D=copticFeasts.AnyDay"
+  ],
+  ],
+    [
+  [
+  Prefix.praxisResponse+"&D=$copticFeasts.EntryToEgypt&C=Title", 
+  "", 
+  "Entrée du Christ en Égypte", 
+  "", 
+  " مرد الإبركسيس لعيد دخول المَسِيحْ أرض مصر", 
+  ],
+  [
+  Prefix.same+"&C=Diacon", 
+  "Ⲣⲁϣⲓ ⲑⲉⲗⲏⲗ ⲱ̀ Ⲭⲏⲙⲓ: ⲛⲉⲙ ⲛⲉⲥϣⲏⲣⲓ ⲛⲉⲙ ⲛⲉⲥⲑⲱϣ ⲧⲏⲣⲟⲩ ϫⲉ ⲁϥⲓ̀ ϣⲁⲣⲟ ⲛ̀ϫⲉ ⲡⲓⲙⲁⲓⲣⲱⲙⲓ: ⲫⲏⲉⲧϣⲟⲡ ϧⲁϫⲱⲟ̀ⲩ ⲛ̀ⲛⲓⲉ̀ⲱ̀ⲛ ⲧⲏⲣⲟⲩ.", 
+  "Réjouis toi et sois heureuse Ô l'Égypte et tous tes enfants et tes contrées, car l’ami du genre humain t’as visité, Lui qui existe avant tous les temps.", 
+  "", 
+  "إفرحى وتهللي يا مصر، مَعَ بنيها وكُلَّ تخومها، لِأنَّهُ أتى إليَكَ مُحِبِ البَشَرِ، الكائن قبَلْ كُلِّ الده ور.", 
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.massCommon+"BlessedYouAreWithYourFather&D=copticFeasts.AnyDay"
   ],
   ],
   [
@@ -23756,6 +23927,10 @@ PrayersArrayFR= [[
   "", 
   "السَّلامُ لتجلي المَسِيحْ، عَلَى جبَلْ تابور، أَمَامْ تَلامِيذَهُ القِدِّيسِينْ، بطرس ويوحنا ويعقوب.", 
   ],
+  [
+    Prefix.placeHolder,
+    Prefix.massCommon+"BlessedYouAreWithYourFather&D=copticFeasts.AnyDay"
+  ],
   ],
   [
   [
@@ -23771,6 +23946,13 @@ PrayersArrayFR= [[
   "Salut à mes seigneurs et pères les apôtres, salut aux disciples de notre Seigneur Jésus Christ.", 
   "", 
   "السَّلامُ لسادتي الآباء، الرسل، السَّلامُ لتلاميذ، رَبّنا يَسُوعْ المَسِيحْ.", 
+  ],
+  [
+    Prefix.anchor + "Saints&D=copticFeasts.AnyDay"
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.massCommon+"BlessedYouAreWithYourFather&D=copticFeasts.AnyDay"
   ],
   ],
   [
@@ -23801,6 +23983,13 @@ PrayersArrayFR= [[
   "Salut à sa résurrection d’entre les morts pour nous sauver de nos péchés", 
   "", 
   "السَّلامُ لقيامته لما قام من بين الأموات حتي خلصنا من خَطَايَانَا.", 
+  ],
+  [
+    Prefix.anchor + "Saints&D=copticFeasts.AnyDay"
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.massCommon+"BlessedYouAreWithYourFather&D=copticFeasts.AnyDay"
   ],
   ],
   [
@@ -23837,7 +24026,7 @@ PrayersArrayFR= [[
   ],
   [
   [
-  Prefix.praxisResponse+"&D=$saintsFeasts.StMaykel&C=Title", 
+  Prefix.praxisResponse+"&D=$saintsFeasts.ArchangelMaykel&C=Title", 
   "", 
   "Fête de l’Archange Michel", 
   "", 
@@ -23853,7 +24042,7 @@ PrayersArrayFR= [[
   ],
   [
   [
-  Prefix.praxisResponse+"&D=$saintsFeasts.StGabriel&C=Title", 
+  Prefix.praxisResponse+"&D=$saintsFeasts.ArchangelGabriel&C=Title", 
   "", 
   "Fête de l’Archange Gabriel", 
   "", 
@@ -23869,7 +24058,7 @@ PrayersArrayFR= [[
   ],
   [
   [
-  Prefix.praxisResponse+"&D=$saintsFeasts.StRaphael&C=Title", 
+  Prefix.praxisResponse+"&D=$saintsFeasts.ArchangelRaphael&C=Title", 
   "", 
   "Fête de l’Archange Rapahël", 
   "", 
@@ -23885,7 +24074,7 @@ PrayersArrayFR= [[
   ],
   [
   [
-  Prefix.praxisResponse+"&D=$saintsFeasts.StSourial&C=Title", 
+  Prefix.praxisResponse+"&D=$saintsFeasts.ArchangelSourial&C=Title", 
   "", 
   "Fête de l’Archange Souriel", 
   "", 
@@ -23965,7 +24154,7 @@ PrayersArrayFR= [[
   ],
   [
   [
-  Prefix.praxisResponse+"&D=$saintsFeasts.StSergeBacchus&C=Title", 
+  Prefix.praxisResponse+"&D=$saintsFeasts.StSerge||$saintsFeasts.StBacchus&C=Title", 
   "", 
   "Fête de Saitns Serge et Bacchus", 
   "", 
@@ -24093,7 +24282,7 @@ PrayersArrayFR= [[
   ],
   [
   [
-  Prefix.praxisResponse+"&D=$saintsFeasts.DamienneBarbaraJulianaMarina&C=Title", 
+  Prefix.praxisResponse+"&D=$saintsFeasts.StMarina||$saintsFeasts.StBarbara||$saintsFeasts.StDamienne||$saintsFeasts.StJuliana&C=Title", 
   "", 
   "Fête de Saintes Damienne, Barbara, Julianne et Marina", 
   "", 
@@ -26750,7 +26939,7 @@ PrayersArrayFR= [[
   Prefix.HolyWeek+"HourIntroduction&D=$Seasons.HolyWeek", 
   ],
   [
-  Prefix.HolyWeek+"PropheciesPlaceHolder&D=$Seasons.HolyWeek", 
+  Prefix.anchor+"Prophecies&D=$Seasons.HolyWeek", 
   ],
   [
   Prefix.placeHolder, 
@@ -26854,7 +27043,7 @@ PrayersArrayFR= [[
   "والْرُوحْ القُدُسْ.", 
   ],
   [
-  Prefix.HolyWeek+"KhinEfranPlaceHolder&D=$Seasons.HolyWeek", 
+  Prefix.anchor+"KhinEfran&D=$Seasons.HolyWeek", 
   ],
   ],
   [
@@ -26935,7 +27124,7 @@ PrayersArrayFR= [[
   "مزمور لداوود ", 
   ],
   [
-  Prefix.HolyWeek+"CopticPsalmPlaceHolder&D=$Seasons.HolyWeek", 
+  Prefix.anchor+"CopticPsalm&D=$Seasons.HolyWeek", 
   ],
   [
   Prefix.same+"&C=ReadingEnd", 
@@ -26959,7 +27148,7 @@ PrayersArrayFR= [[
   "فصلٌ من الإنجيل المقدس لـ (متى/مرقس/لوقا/يوحنا) القديس.", 
   ],
   [
-  Prefix.HolyWeek+"CopticGospelPlaceHolder&D=$Seasons.HolyWeek", 
+  Prefix.anchor+"CopticGospel&D=$Seasons.HolyWeek", 
   ],
   [
   Prefix.same+"&C=ReadingEnd", 
@@ -26983,7 +27172,7 @@ PrayersArrayFR= [[
   "اللهم تراءف علينا وارحمنا واجعلنا مستحقين لسماع إنجيلكَ المقدس فصلٌ من إنجيلِ معلمنا (متى/مرقس/لوقا/يوحنا) البشير بركاته علينا آمين.", 
   ],
   [
-  Prefix.HolyWeek+"nonCopticGospelPlaceHolder&D=$Seasons.HolyWeek", 
+  Prefix.anchor+"nonCopticGospel&D=$Seasons.HolyWeek", 
   ],
   [
   Prefix.same+"&C=Assembly", 
@@ -26998,7 +27187,7 @@ PrayersArrayFR= [[
   Prefix.HolyWeek+"Commentary&D=$Seasons.HolyWeek&C=Title", 
   ],
   [
-  Prefix.HolyWeek+"CommentaryPlaceHolder&D=$Seasons.HolyWeek", 
+  Prefix.anchor+"Commentary&D=$Seasons.HolyWeek", 
   ],
   [
   Prefix.same+"&C=Priest", 
@@ -27057,10 +27246,10 @@ PrayersArrayFR= [[
   "رحمةً كعظيم رحمته.", 
   ],
   [
-  Prefix.HolyWeek+"KhinEfranPlaceHolder&D=$Seasons.HolyWeek", 
+  Prefix.anchor+"KhinEfran&D=$Seasons.HolyWeek", 
   ],
   [
-  Prefix.HolyWeek+"FinalLitanyPlaceHolder&D=$Seasons.HolyWeek", 
+  Prefix.anchor+"FinalLitany&D=$Seasons.HolyWeek", 
   ],
   ],
   [
@@ -27889,11 +28078,8 @@ PrayersArrayFR= [[
   "بشفاعات كل صفوف الملائكة. يارب..", 
   ],
   [
-  Prefix.same+"&C=Diacon", 
-  "Ⲕⲥ̀ⲙⲁⲣⲱⲟⲩⲧ ⲁ̀ⲗⲏⲑⲱⲥ : ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ : ⲛⲉⲙ Ⲡⲓⲡ̅ⲛ̅ⲁ̅ ⲉ̅ⲑ̅ⲩ̅ : ϫⲉ ⲁⲩⲁϣⲕ ⲁⲕⲥⲱϯ ⲙ̀ⲙⲟⲛ.", 
-  "Bénis es-Tu vraiment,\nAvec Ton Père très bon\nAvec le Saint Esprit\nCar Tu fut crucifié et nous sauvas.", 
-  "", 
-  "مبارك أنت بالحقيقة مع أبيك الصالح والروح القدس لأنك صُلبت وخلصتنا.", 
+    Prefix.placeHolder,
+    Prefix.massCommon+"BlessedYouAreWithYourFather&D=copticFeasts.AnyDay"
   ],
   ],
   [
@@ -30074,11 +30260,8 @@ PrayersArrayFR= [[
   "بِشَفَاعَاتْ ♫ كُلِّ صِفُوفْ المَلائِكَةْ، ♫ يا رَبُّ انْعِمْ لَنَا ♫ بِمَغْفِرَةْ خَطَايَانا.", 
   ],
   [
-  Prefix.same+"&C=Assembly", 
-  "Ⲕⲥ̀ⲙⲁⲣⲱⲟⲩⲧ ⲁ̀ⲗⲏⲑⲱⲥ : ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ : ⲛⲉⲙ Ⲡⲓⲡ̅ⲛ̅ⲁ̅ ⲉ̅ⲑ̅ⲩ̅ : ϫⲉ ⲁⲕⲓ̀ ⲁⲕⲥⲱϯ ⲙ̀ⲙⲟⲛ.", 
-  "Bénis es-Tu vraiment, ♫ avec Ton Père très bon ♫ avec le Saint Esprit ♫ car Tu vins et nous sauvas.", 
-  "إك إسماروؤوت اليثوس ♫ نيم بيك يوت إن أغاثوس ♫ نيم بي إبنفما إثؤواب ♫ جي أك أي إكسوتي إممون.", 
-  "مُبَارَكْ أنْتَ بِالحَقِيقَةْ ♫ مَع أبِيكَ الصَالِحْ ♫ والرُوحْ القُدُسْ، ♫ لِأنَّكَ أتْيْتَ وخَلَّصْتَنَا.", 
+    Prefix.placeHolder,
+    Prefix.massCommon+"BlessedYouAreWithYourFather&D=copticFeasts.AnyDay"
   ],
   ],
   [

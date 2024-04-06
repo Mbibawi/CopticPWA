@@ -1088,7 +1088,7 @@ function createHtmlElementForPrayerEditingMode(args: {
   if (actorClass && actorClass.includes("Title")) {
     htmlRow.addEventListener("dblClick", (e) => {
       e.preventDefault;
-      collapseOrExpandText({ titleRow: htmlRow });
+      collapseOrExpandText(htmlRow);
       //--------->  htmlRow.id = row.title;
       htmlRow.tabIndex = 0; //in order to make the div focusable by using the focus() method
     });

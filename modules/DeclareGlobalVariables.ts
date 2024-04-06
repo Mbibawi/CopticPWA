@@ -25,7 +25,7 @@ type typeButton = {
 };
 //CONSTANTS
 const version: string =
-  "v6.2 (Changes to the Gospel Litany + Added the Psalm for Bishop and Pope)";
+  "v6.3 (Introduced Prefix.anchor)";
 const calendarDay: number = 24 * 60 * 60 * 1000; //this is a day in milliseconds
 const containerDiv: HTMLDivElement = document.getElementById(
   "containerDiv") as HTMLDivElement;
@@ -151,6 +151,7 @@ const copticMonths: { AR: string; FR: string; EN: string }[] = [
 ];
 
 const Prefix = {
+  anchor: 'Anchor_',
   same: "S_",
   psalmResponse: "PR_",
   gospelResponse: "GR_",
@@ -170,7 +171,7 @@ const Prefix = {
   hymns: "Hymns_",
   propheciesDawn: "RPD_", //Stands for Readings Prophecies Dawn
   stPaul: "RSP_", //Stands for Readings St Paul
-  katholikon: "RK_", //Stands for Readings Katholikon
+  Catholicon: "RK_", //Stands for Readings Catholicon
   praxis: "RP_", //Stands for Readings Praxis
   gospelVespers: "RGIV_", //Stands for Readings Gospel Incense Vespers
   gospelDawn: "RGID_", //Stands for Redings Gospel Incense Dawn
@@ -212,12 +213,12 @@ const ReadingsIntrosAndEnds = {
     FR: "Que la grâce de Dieu soit avec vous tous, mes père et mes frères, Amen!",
     EN: "",
   },
-  katholikonIntro: {
+  CatholiconIntro: {
     AR: "الكَاثُولِيكُون، فَصْلٌ مِنْ رِسَالَةِ القِدِّيسِ (....) (الأولى/الثانية/الثالثة)  بَرَكَتْهُ عَلَى جَمِيعِنَا آمْينْ",
-    FR: "Katholikon, (1ère/2ème/3ème) épître à l’Église Universelle de notre père St.(....), que sa bénédiction repose sur nous tous, Amen!",
+    FR: "Catholicon, (1ère/2ème/3ème) épître à l’Église Universelle de notre père St. (....), que sa bénédiction repose sur nous tous, Amen!",
     EN: "",
   },
-  katholikonEnd: {
+  CatholiconEnd: {
     AR: "لا تُحِبُّو العَالَمَ ولا الأَشْيَاءَ التِي في العَالَمِ لأَنَّ العَالَمَ يَمْضِي وشَهْوَتَهُ مَعَهُ أَمَّا مَنْ يَصْنَعَ مَشِيئَةَ اللّهِ فَيَثْبُتُ إلى الأَبَدِ.",
     FR: "N’aimez pas le monde et ce qui est dans le monde, le monde passe, lui et sa convoitise, mais celui qui fait la volonté de Dieu demeure à jamais. Amen !",
     EN: "",
@@ -353,7 +354,7 @@ const bookOfHours: {
 
 const ReadingsArrays = {
   PraxisArrayFR: [] as string[][][],
-  KatholikonArrayFR: [] as string[][][],
+  CatholiconArrayFR: [] as string[][][],
   StPaulArrayFR: [] as string[][][],
   SynaxariumArrayFR: [] as string[][][],
   GospelMassArrayFR: [] as string[][][],
@@ -434,46 +435,48 @@ const copticFasts = [
   Seasons.ApostlesFast,
   Seasons.StMaryFast,
 ];
-const saintsFeasts = {
+const MartyrsFeasts = {
   StJohnBaptist: "0201",
-  FourCelestialBeings: "0803",
-  TwentyFourPriests: "2403",
-  StMaykel: "1203",
-  StGabriel: "1310",
-  StRaphael: "0313",
-  StSourial: "2705",
   StMarc: "3008",
   StSteven: "0105",
-  StSergeBacchus: "1002",
+  StBacchus: "0402",
+  StSerge: "1002",
   StGeorge: "2708",
   StMina: "1503",
   StTheodor: "1205",
   StPhilopatir: "2503",
-  StCome: "",
-  OneHudredTwentyFourThousands: "", //The 144000 chast
-  AbakirAndJohn: "",
-  StDamienne: "",
-  StBarbara: "",
-  StMarina: "",
+  StsCosmasDamian: "2205",
+  AbakirAndJohn: "0606",
+  StDamienne: "1305",
+  StBarbara: "0804",
+  StMarina: "2311",
+}
+const nonMartyrsFeasts = {
   StAnton: "2205",
   StBishoy: "0810",
-  StShenoute: "",
-  StTeji: "",
-  StPersoma: "",
-  StCyrilVI: "3004",
+  StShenoute: "0711",
+  StRewis: "2102",
+  StPersoma: "0513",
+  StCyrilVI: "3006",
   StBishoyKamel: "1207",
   StMikaelMetropolis: "", //St Mikhael the Metropolis of Assiut
-  StJustAnton: "", //St Just of the St. Anton
+  StJustAnton: "0804", //St Just of the St. Anton
+}
+
+const CelestialBeingsFeasts = {
+  FourCelestialBeings: "0803",
+  TwentyFourPriests: "2403",
+  OneHudredTwentyFourThousands: "", //The 144000 chast
+  ArchangelMaykel: "1203",
+  ArchangelGabriel: "1310",
+  ArchangelRaphael: "0313",
+  ArchangelSourial: "2705",
 };
 
-const AngelsFeasts: string[] = [
-  saintsFeasts.StMaykel,
-  saintsFeasts.StGabriel,
-  saintsFeasts.StRaphael,
-  saintsFeasts.StSourial,
-];
+const saintsFeasts = {
+  ...CelestialBeingsFeasts, ...MartyrsFeasts, ...nonMartyrsFeasts
+};
 
-const martyrsFeasts: string[] = [];
 
 const nonCopticLanguages = [["AR", "العربية"], ["FR", "Français"], ["EN", "English"]];
 const copticLanguages = [["COP", "Coptic"], ["CA", "قبطي مُعَرَّبْ"], ['CF', 'Copte en charachères français']];
@@ -481,9 +484,9 @@ const allLanguages: string[][] = [...nonCopticLanguages, ...copticLanguages];
 
 var userLanguages;
 if (localStorage.userLanguages) userLanguages = JSON.parse(localStorage.userLanguages) || undefined;
-var defaultLanguage: string = (() => { if (userLanguages) return userLanguages[0]})() || undefined ;
-var foreingLanguage: string = (() => { if (userLanguages) return userLanguages[1]})() || undefined;
-var copticLanguage: string = (() => { if (userLanguages) return userLanguages[2]})() || undefined;
+var defaultLanguage: string = (() => { if (userLanguages) return userLanguages[0] })() || undefined;
+var foreingLanguage: string = (() => { if (userLanguages) return userLanguages[1] })() || undefined;
+var copticLanguage: string = (() => { if (userLanguages) return userLanguages[2] })() || undefined;
 
 const prayersLanguages: string[] = ["COP", "FR", "CA", "AR"];
 const readingsLanguages: string[] = ["AR", "FR", "EN"];
@@ -561,7 +564,7 @@ var selectedDate: number, //This is the date that the user might have manually s
   copticMonth: string, //same comment as above
   copticDay: string, //same comment as above
   copticYear: string, //same comment as above
-  copticReadingsDate: string, //This is the date of the day's readings (gospel, Katholikon, praxis, etc.). It does not neceissarly correspond to the copticDate
+  copticReadingsDate: string, //This is the date of the day's readings (gospel, Catholicon, praxis, etc.). It does not neceissarly correspond to the copticDate
   Season: string, //This is a value telling whether we are during a special period of the year like the Great Lent or the 50 Pentecostal days, etc.
   weekDay: number; //This is today's day of the week (Sunday, Monday, etc.) expressed in number starting from 0
 var todayDate: Date;
@@ -688,9 +691,9 @@ const PrayersArraysKeys: [string, string, Function][] = [
     () => ReadingsArrays.StPaulArrayFR,
   ],
   [
-    Prefix.katholikon,
-    "ReadingsArrays.KatholikonArrayFR",
-    () => ReadingsArrays.KatholikonArrayFR,
+    Prefix.Catholicon,
+    "ReadingsArrays.CatholiconArrayFR",
+    () => ReadingsArrays.CatholiconArrayFR,
   ],
   [
     Prefix.praxis,
