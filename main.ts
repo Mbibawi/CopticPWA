@@ -2470,7 +2470,7 @@ function testReadings() {
           readingDate = copticDate;
         let reading: string[][][] =
           getTablesArrayFromTitlePrefix(prefix[0])
-            .filter((tbl) => isMultiDatedTitleMatching(tbl[0][0], readingDate));//We do a filter not a find because Gospels arrays include 2 tables for each day: Psalm table and Gospel table
+            .filter((tbl) => isMultiDatedTitleMatching(tbl[0][0], [readingDate]));//We do a filter not a find because Gospels arrays include 2 tables for each day: Psalm table and Gospel table
 
         if (reading.length < 1) {
           result += "\n\n\ncopticDate = " + copticDate + "\n";

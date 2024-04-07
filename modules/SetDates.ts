@@ -14,7 +14,8 @@ async function setCopticDates(today?: Date) {
 
   Season = Seasons.NoSeason; //this will be its default value unless it is changed by another function;
   copticReadingsDate = getSeasonAndCopticReadingsDate(copticDate) as string;
-  if (checkIf29thOfCopticMonth()) copticFeasts.Coptic29th = copticDate; //If we are on the 29th of the coptic Month, we will set the value of copticFeasts.Cotpic29th to today's copticDate in order to able to retrieve the prayers of this day
+  if (Number(copticDay) === 29 && ![4, 5, 6, 7].includes(Number(copticMonth))) copticFeasts.Coptic29th = copticDate; //If we are on the 29th of the coptic Month, we will set the value of copticFeasts.Cotpic29th to today's copticDate in order to able to retrieve the prayers of this day
+  if (Number(copticDay) === 21) copticFeasts.Coptic21th = copticDate;
 
   await setSeasonalTextForAll(Season); //!This must be called here after the dates and seasons were changed
   reloadScriptToBody(["PrayersArray"]);

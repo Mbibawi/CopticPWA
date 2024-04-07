@@ -12998,24 +12998,10 @@ PrayersArrayFR= [[
   "", 
   "اللّه إقبلنا نَحْنُ أيضًا طاهرين بلا عيب أمامك ونقي برُوحِكَ القُدُّوسْ وبسر القرَبّان المُحْيِّي أَرْواحَنَا وأنفسنا وأجْسَادِنَا بَلْ أيضًا أفكارنًا وقلوبنا ونياتنا حتى نجرؤ بمحبة غَيْرُ ناقصة ودالة بِغَيّْرِ مخادعة أنْ نَصْرُخُ نَحْوَ أيُّهَا الآب القُدُّوسْ السماوي بالصلاة التي علمتها لتلاميذك الطهار قائلين: \"أبَانَاالذي في السَّمَواتْ\"", 
   ],
-  [
-  Prefix.same+"&C=Priest", 
-  "", 
-  "", 
-  "", 
-  "", 
-  ],
-  [
-  Prefix.same+"&C=Priest", 
-  "", 
-  "", 
-  "", 
-  "", 
-  ],
   ],
   [
   [
-  Prefix.fractionPrayer+"&D=$copticFeasts.StMaryFeast||$Seasons.StMaryFast||2100&C=Title", 
+  Prefix.fractionPrayer+"&D=$stMaryFeasts.StMaryFeast||$stMaryFeasts.StMary1||$stMaryFeasts.StMary2||$stMaryFeasts.StMary3||$stMaryFeasts.StMary14||$stMaryFeasts.StMary5||Seasons.StMaryFast||copticFeasts.Coptic21th&C=Title", 
   "", 
   "Oraison de fraction du jeûne et des fêtes de la Sainte Vierge", 
   "", 
@@ -23855,7 +23841,30 @@ PrayersArrayFR= [[
   "Ⲭⲉⲣⲉ Ⲧⲉϥⲁ̀ⲛⲁⲗⲩⲙⲯ̀ⲓⲥ: ⲉ̀ⲧⲁϥϣⲉⲛⲁϥ ⲉ̀ⲡ̀ϣⲱⲓ ⲉ̀ⲛⲓⲫⲏⲟⲩⲓ: ϧⲉⲛ ⲟⲩⲱ̀ⲟⲩ ⲛⲉⲙ ⲟⲩⲧⲁⲓⲟ: ⲁϥϩⲉⲙⲥⲓ ⲥⲁⲟⲩⲓ̀ⲛⲁⲙ ⲙ̀Ⲡⲉϥⲓⲱⲧ.", 
   "Salut à Son ascension: lorsqu’Il monta aux cieux: avec gloire et honneur: Il s’assit à la droite du Père.", 
   "شيريه تيف آناليم ابسيس : إيطاف شيناف إيه إبشوي إيه ني في أووي : خين أووأوأوو نيم أووطايو : آفهيمسي صاأووي نام إمبيفيوت.", 
-  "السَّلامُ لصعوده لما صعد إلى السموات، بمجد و كرامةـ جلس عن يمين ابيه.", 
+  "السَّلامُ لصعوده لما صعد إلى السموات، بمجد و كرامة وجلس عن يمين أبيه.", 
+  ],
+  [
+    Prefix.anchor + "Saints&D=copticFeasts.AnyDay"
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.massCommon+"BlessedYouAreWithYourFather&D=copticFeasts.AnyDay"
+  ],
+  ],
+  [
+  [
+  Prefix.praxisResponse+"&D=$copticFeasts.Pentecoste&C=Title", 
+  "", 
+  "Réponse du Praxis pour la Fête de Pentecôte", 
+  "", 
+  " مرد الإبركسيس لعيد حلول الروح القدس (العنصرة)", 
+  ],
+  [
+  Prefix.same+"&C=Diacon", 
+  "Ⲭⲉⲣⲉ ⲧⲉϥⲁ̀ⲛⲁⲗⲩⲙⲓⲥ: ⲉⲧⲁϥϣⲉⲛⲁϥ ⲉ̀ⲡϣⲱⲓ ⲉⲛⲓⲫⲏⲟⲩⲓ: ⲁϥⲟⲩⲱⲣⲡ ⲛⲁⲛ ⲙ̀ⲡⲓⲠⲁⲣⲁⲕⲗⲏⲧⲟⲛ:ⲡⲓⲠ̀ⲛⲉⲩⲙⲁ ⲛ̀ⲧⲉ ϯⲙⲉⲑⲙⲏⲓ.", 
+  "Salut à son assomption aux cieux, Il monta aux cieux et nous envoya le consolateur, l’Esprit de vérité.", 
+  "شيريه تيف آناليم ابسيس : إيطاف شيناف إيه إبشوي إيه ني في أووي : آف أو أورب نان إمبي باراكليتون :  بي إبنيفما إنتي تي ميثمي.", 
+  "السلام لصعوده، صعد إلي السموات وأرسل لنا المعزي روح الحق.", 
   ],
   [
     Prefix.anchor + "Saints&D=copticFeasts.AnyDay"

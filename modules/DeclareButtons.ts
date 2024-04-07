@@ -648,7 +648,7 @@ const btnMassStBasil: Button = new Button({
       let spasmos: string[][] = MassCommonPrayersArray.find(
         (tbl) =>
           tbl[0][0].startsWith(spasmosTitle) &&
-          isMultiDatedTitleMatching(tbl[0][0], Season)
+          isMultiDatedTitleMatching(tbl[0][0], [Season])
       );
 
       if (!spasmos)
@@ -790,7 +790,7 @@ const btnMassStBasil: Button = new Button({
         if (Number(copticDay) === 29 && ![4, 5, 6].includes(Number(copticMonth))) dates.unshift(copticFeasts.Coptic29th);
 
         dates.forEach(date =>
-          filtered.push(...FractionsPrayersArray.filter(table => isMultiDatedTitleMatching(table[0][0], date)))
+          filtered.push(...FractionsPrayersArray.filter(table => isMultiDatedTitleMatching(table[0][0], [date])))
         );
         return getUniqueValuesFromArray(filtered) as string[][][];
       };
@@ -807,7 +807,7 @@ const btnMassStBasil: Button = new Button({
       let filtered: string[][][] = [];
       [copticDate, Season, copticFeasts.AnyDay]
         .forEach(date => {
-          filtered.push(...CommunionPrayersArray.filter(table => isMultiDatedTitleMatching(table[0][0], date)))
+          filtered.push(...CommunionPrayersArray.filter(table => isMultiDatedTitleMatching(table[0][0], [date])))
         });
 
       showMultipleChoicePrayersButton({
@@ -1038,12 +1038,11 @@ const btnMassUnBaptised: Button = new Button({
       let seasonalIntercessions = MassCommonPrayersArray.filter(
         (table) =>
           table[0][0].includes("ByTheIntercessionOf") &&
-          (isMultiDatedTitleMatching(table[0][0], copticDate) ||
-            isMultiDatedTitleMatching(table[0][0], Season))
+          (isMultiDatedTitleMatching(table[0][0], [copticDate, Season]))
       );
       if (seasonalIntercessions.length < 1)
         return console.log("No Seasonsal Intercession Hymns");
-
+        
       let anchor = setAnchorAccordingToOccasion();
 
       if (!anchor) return;
@@ -1110,19 +1109,77 @@ const btnMassUnBaptised: Button = new Button({
       (function insertPraxis() {
         (function insertPraxisResponse() {
           //!Caution, we must start by inserting the Praxis Response before inserting the Praxis reading
-          let noSeasonResponse: string[][] | HTMLDivElement[] = findTable(
-            Prefix.praxisResponse + "&D=$copticFeasts.AnyDay",
-            PraxisResponsesPrayersArray) || undefined;
+          
+          let specialResponse: (string[][]|HTMLDivElement)[];
+          let feastsDates = Object.entries(copticFeasts).map(entry => entry[1]); 
 
-          let specialResponse: string[][][] | HTMLDivElement[] = PraxisResponsesPrayersArray.filter(
-            (table) => isMultiDatedTitleMatching(table[0][0], Season));
+          if (feastsDates.includes(copticDate) || feastsDates.includes(copticReadingsDate))
+            specialResponse =
+              PraxisResponsesPrayersArray.filter(
+                (table) => isMultiDatedTitleMatching(table[0][0], [copticDate, copticReadingsDate]))
+                .filter(tbl => tbl[0][0].includes('&D=$saintsFeasts.'));//We look for a response for the copticDate or copticReadingsDate, and we exclude responses for saints feasts
+            
+            if (specialResponse.length<1) 
+            specialResponse = PraxisResponsesPrayersArray.filter(
+              (table) => isMultiDatedTitleMatching(table[0][0], [Season]));//We look for a response for the Season
+              
+               let stMaryDates = Object.entries(stMaryFeasts).map(entry => entry[1]); 
 
+          if (stMaryDates.includes(copticDate) || copticDay === '21' || specialResponse.length < 1)
+            return ifNoSpecificResponse();
+          else return ifSpecificResponse();
+        
+          function ifSpecificResponse() {
 
-          (function ifNoSeason() {
-            if (specialResponse.length > 0) return;
+                if (Season === Seasons.GreatLent) {
+                  // During the Great Lent, we should get  2 tables ('Sundays', and 'Week') for this season. We will keep the relevant table accoding to the day of the week
+                  weekDay === 0 || weekDay === 6 ?
+                    specialResponse =
+                    specialResponse.filter((table) =>
+                      table[0][0].includes("Sundays&D="))
+                    :
+                    specialResponse =
+                    specialResponse.filter((table) => table[0][0].includes("Week&D="));
+                }
+    
+                if (Season === Seasons.PentecostalDays) {
+                  // The query should yield to  2 tables ('Resurrection', and 'Ascension') for this season. We will keep the relevant one accoding to the date
+                  let day = 
+                    Number(copticReadingsDate.replace(Seasons.PentecostalDays, ''))
+                  if (day < 39)
+                    specialResponse =
+                    specialResponse.filter((table) =>
+                      table[0][0].includes("Resurrection&D="))
+                  else if (day<49)
+                    specialResponse =
+                    specialResponse.filter((table) =>
+                      table[0][0].includes("Ascension&D=")
+                      )
+                    else ;
+                }
+    
+                //We insert the special response between the first and 2nd rows
+                specialResponse =
+                  insertPrayersAdjacentToExistingElement({
+                    tables: getUniqueValuesFromArray(specialResponse as string[][][]) as string[][][], //We remove duplicates if any
+                    languages: prayersLanguages,
+                    position: {
+                      beforeOrAfter: "beforebegin",
+                      el: readingsAnchor, //This is the 'Ek Esmaroot' part of the annual response
+                    },
+                    container: btnDocFragment,
+                  })[0];
+    
+                insertSaintsResponse(specialResponse as HTMLDivElement[]);
+          };
+
+          function ifNoSpecificResponse() {
+            let noSeasonResponse: (string[]|HTMLDivElement)[] = findTable(
+              Prefix.praxisResponse + "&D=$copticFeasts.AnyDay",
+              PraxisResponsesPrayersArray) || undefined;
 
             noSeasonResponse = insertPrayersAdjacentToExistingElement({
-              tables: [noSeasonResponse],
+              tables: [noSeasonResponse as string[][]],
               languages: getLanguages(
                 PrayersArraysKeys.find(
                   (array) => array[2]() === PraxisResponsesPrayersArray
@@ -1134,52 +1191,12 @@ const btnMassUnBaptised: Button = new Button({
               },
               container: btnDocFragment,
             })[0];
-            insertSaintsResponse(noSeasonResponse);
-          })();
+            insertSaintsResponse(noSeasonResponse as HTMLDivElement[]);
+          };
 
-          (function specificResponse() {
-            if (specialResponse.length < 1) return;
-
-            if (Season === Seasons.GreatLent) {
-              // During the Great Lent, we should get  2 tables ('Sundays', and 'Week') for this season. We will keep the relevant table accoding to the day of the week
-              weekDay === 0 || weekDay === 6 ?
-                specialResponse =
-                specialResponse.filter((table) =>
-                  table[0][0].includes("Sundays&D="))
-                :
-                specialResponse =
-                specialResponse.filter((table) => table[0][0].includes("Week&D="));
-            }
-
-            if (Season === Seasons.PentecostalDays) {
-              // The query should yield to  2 tables ('Resurrection', and 'Ascension') for this season. We will keep the relevant one accoding to the date
-              Number(copticReadingsDate.replace(Seasons.PentecostalDays, '')) < 39 ?
-                specialResponse =
-                specialResponse.filter((table) =>
-                  table[0][0].includes("Resurrection&D="))
-                :
-                specialResponse =
-                specialResponse.filter((table) =>
-                  table[0][0].includes("Ascension&D=")
-                );
-            }
-
-            //We insert the special response between the first and 2nd rows
-            specialResponse =
-              insertPrayersAdjacentToExistingElement({
-                tables: getUniqueValuesFromArray(specialResponse) as string[][][], //We remove duplicates if any
-                languages: prayersLanguages,
-                position: {
-                  beforeOrAfter: "beforebegin",
-                  el: readingsAnchor, //This is the 'Ek Esmaroot' part of the annual response
-                },
-                container: btnDocFragment,
-              })[0];
-
-            insertSaintsResponse(specialResponse);
-          })();
 
           function insertSaintsResponse(responses: HTMLDivElement[]) {
+            if (!responses) return;
             let anchor = responses.find(div => div.dataset.root === Prefix.anchor + "Saints&D=copticFeasts.AnyDay");
 
             if (!anchor) return; //If no placeHolder is found, it means that we are during a special Season (not a 'NoSeason' period), and no placeHolder for the saints response is included
@@ -1187,7 +1204,7 @@ const btnMassUnBaptised: Button = new Button({
             if (!Object.entries(saintsFeasts).find(entry => entry[1] === copticDate)) return;//It means that today is not a saint feast
 
             specialResponse = PraxisResponsesPrayersArray.filter(
-              (table) => table[0][0].includes('&D=$saintsFeasts.') && isMultiDatedTitleMatching(table[0][0], copticDate));
+              (table) => table[0][0].includes('&D=$saintsFeasts.') && isMultiDatedTitleMatching(table[0][0], [copticDate]));
 
             if (specialResponse.length < 1) return;
 
@@ -2694,7 +2711,7 @@ function findMassReadingOtherThanGospel(
   if (!position.beforeOrAfter) position.beforeOrAfter = "beforebegin";
   if (!readingDate) readingDate = copticReadingsDate;
 
-  let reading = readingArray.find((table) => isMultiDatedTitleMatching(splitTitle(table[0][0])[0], readingDate));
+  let reading = readingArray.find((table) => isMultiDatedTitleMatching(splitTitle(table[0][0])[0], [readingDate]));
 
   if (!reading)
     return console.log(
@@ -2733,9 +2750,7 @@ function setGospelPrayersSequence(liturgy: string, isMass: boolean): string[] {
 
     let PsalmAndGospelResponses = PsalmAndGospelPrayersArray.filter(
       (table) =>
-        isMultiDatedTitleMatching(table[0][0], copticDate) ||
-        isMultiDatedTitleMatching(table[0][0], Season)
-    );
+        isMultiDatedTitleMatching(table[0][0], [copticDate, Season]));
 
     let psalmResponse = PsalmAndGospelResponses.filter((table) =>
       table[0][0].startsWith(Prefix.psalmResponse)
@@ -2764,7 +2779,8 @@ function setGospelPrayersSequence(liturgy: string, isMass: boolean): string[] {
       if (liturgy === Prefix.gospelDawn) prefix = 'Dawn';
       if (liturgy === Prefix.gospelMass) prefix = 'Mass';
 
-      if (Season === Seasons.JonahFast) prefix += copticReadingsDate.split(Season)[1];//There are different responses for the Dawn Gospel and the Mass Gospel for each day of the Jonah Fast. We will  add the number of the day of Jonah Fast: eg.: "Mass1&D=Jonah1&C=Title" (for 1st day of the Jonah Fast), Dawn2&D=Jonah2&C=Title", etc.
+      if (Season === Seasons.JonahFast)
+        prefix += copticReadingsDate.split(Season)[1];//There are different responses for the Dawn Gospel and the Mass Gospel for each day of the Jonah Fast. We will  add the number of the day of Jonah Fast: eg.: "Mass1&D=Jonah1&C=Title" (for 1st day of the Jonah Fast), Dawn2&D=Jonah2&C=Title", etc.
 
       (function ifGospelVespers() {
         //If the liturgy is Vespers incesnse, in some occasions there are specific gospel response for the Vespers
@@ -2887,7 +2903,7 @@ async function getGospelReadingAndResponses(args: {
   let gospel: string[][][] =
     args.prayersArray
       .filter((table) =>
-        isMultiDatedTitleMatching(splitTitle(table[0][0])[0], date));
+        isMultiDatedTitleMatching(splitTitle(table[0][0])[0], [date]));
 
   if (gospel.length === 0) return console.log("gospel.length = 0"); //if no readings are returned from the filtering process, then we end the function
 
@@ -3041,7 +3057,7 @@ function getBtnGospelPrayersArray(btn: Button, readingsArray): string[][][] {
  */
 function isMultiDatedTitleMatching(
   tableTitle: string,
-  coptDate: string = copticDate
+  coptDate: string[] = [copticDate]
 ): boolean {
   if (!tableTitle.includes("&D=")) return false; //This means that the title does not specify any date for the prayer.
 
@@ -3049,7 +3065,7 @@ function isMultiDatedTitleMatching(
 
   return tableTitle
     .split("||")
-    .map((date) => dateIsRelevant(date, coptDate))
+    .map((date) => coptDate.map(copt=>dateIsRelevant(date, copt)).includes(true))
     .includes(true);
 }
 
@@ -3063,7 +3079,10 @@ function dateIsRelevant(
   date: string,
   coptDate: string = copticDate
 ): boolean | void {
-  if (date.startsWith("$")) date = eval(date.replace("$", ""));
+  if (date.startsWith("$"))
+    date = eval(date.replace("$", ""));
+  else if (/\d{2}0{2}/.test(date))
+    date = date.replace('00', copticMonth);
 
   if (!date) return console.log("date is not valid: ", date);
 
@@ -3112,10 +3131,10 @@ async function insertCymbalVersesAndDoxologies(btn: Button) {
     let cymbals: string[][][];
 
     if ([Seasons.JonahFast, Seasons.GreatLent].includes(Season) && ![0, 6].includes(weekDay))
-          //If we are during the Jonah Fast or during the Great Lent but not on a Saturday or a Sunday, the Cymbal Verses are not chanted, they are replaced by the Long Kyrielison and the Cymbal Verses End
+      //If we are during the Jonah Fast or during the Great Lent but not on a Saturday or a Sunday, the Cymbal Verses are not chanted, they are replaced by the Long Kyrielison and the Cymbal Verses End
       cymbals =
         [
-        CommonPrayersArray.find(table => table[0][0].startsWith(Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay")),
+          CommonPrayersArray.find(table => table[0][0].startsWith(Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay")),
           CymbalVersesPrayersArray.find(table => table[0][0].startsWith(Prefix.cymbalVerses + "End&D=$copticFeasts.AnyDay"))
         ];
 
@@ -3234,7 +3253,7 @@ async function insertCymbalVersesAndDoxologies(btn: Button) {
           sequence.splice(2, 0, sequence[feastIndex]); //If it is one of the doxologies already included by default, we place it after St. Maykel
           sequence.splice(feastIndex + 1, 1); //We then delete the element itself
           index = undefined; //We set index to undefined in order to prevent insertFeastSequence from inserting any element in sequence
-        } else if (Object.entries(CelestialBeingsFeasts).filter(entry=>entry[0].startsWith('Archangel')).map(entry=>entry[1]).includes(feast)) index = 1;
+        } else if (Object.entries(celestialBeingsFeasts).filter(entry => entry[0].startsWith('Archangel')).map(entry => entry[1]).includes(feast)) index = 1;
 
         insertFeastInSequence(sequence, feast, index, 0);
       });
@@ -3301,7 +3320,7 @@ async function insertCymbalVersesAndDoxologies(btn: Button) {
         tablesArray
           //!CAUTION: we must use 'filter' not 'find' because for certain feasts there are more than one doxology
           .filter((tbl) =>
-            isMultiDatedTitleMatching(tbl[0][0], title)
+            isMultiDatedTitleMatching(tbl[0][0], [title])
           )
           .forEach((tbl) => tables.push(tbl));
       else

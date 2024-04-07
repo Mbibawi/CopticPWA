@@ -25,7 +25,7 @@ type typeButton = {
 };
 //CONSTANTS
 const version: string =
-  "v6.3 (Introduced Prefix.anchor)";
+  "v6.3.1 (Fixes to the Praxis Responses)";
 const calendarDay: number = 24 * 60 * 60 * 1000; //this is a day in milliseconds
 const containerDiv: HTMLDivElement = document.getElementById(
   "containerDiv") as HTMLDivElement;
@@ -404,7 +404,7 @@ const copticFeasts = {
   EntryToTemple: "0806",
   EntryToEgypt: "2409",
   Annonciation: "2907",
-  EndOfGreatLentFriday: Seasons.GreatLent + " 49",
+  EndOfGreatLentFriday: Seasons.GreatLent + "49",
   LazarusSaturday: Seasons.GreatLent + "50",
   PalmSunday: Seasons.GreatLent + "7thSunday",
   HolyMonday: Seasons.GreatLent + "52",
@@ -421,20 +421,44 @@ const copticFeasts = {
   StMaryFastVespers: "3010",
   StMaryFast: "0112",
   Epiphany: "1312",
-  StMaryFeast: "1612",
-  Coptic29th: "000000", //This value will be set to copticDate by setCopticDates() if today is 29th of the Coptic month and we are in a month where this feast is celebrated
+  Coptic29th: "XXXX", //This value will be set to copticDate by setCopticDates() if today is 29th of the Coptic month and we are in a month where this feast is celebrated
+  Coptic21th: "XXXX",
 };
-const copticFasts = [
-  Seasons.NativityFast,
-  Seasons.KiahkWeek1,
-  Seasons.KiahkWeek2,
-  Seasons.KiahkWeek3,
-  Seasons.KiahkWeek4,
-  Seasons.JonahFast,
-  Seasons.GreatLent,
-  Seasons.ApostlesFast,
-  Seasons.StMaryFast,
-];
+const GreatLordFeasts = [
+  copticFeasts.Annonciation,
+  copticFeasts.Nativity,
+  copticFeasts.Baptism,
+  copticFeasts.PalmSunday,
+  copticFeasts.Resurrection,
+  copticFeasts.Ascension,
+  copticFeasts.Pentecoste,
+],
+  MinorLordFeasts = [
+    copticFeasts.Epiphany,
+    copticFeasts.Circumcision,
+    copticFeasts.CanaWedding,
+    copticFeasts.EntryToEgypt,
+    copticFeasts.EntryToTemple,
+  ],
+  lordFeasts = [...GreatLordFeasts, ...MinorLordFeasts],
+  HolyWeek = [
+    copticFeasts.HolyMonday,
+    copticFeasts.HolyTuseday,
+    copticFeasts.HolyWednsday,
+    copticFeasts.HolyThursday,
+    copticFeasts.HolyFriday,
+  ],
+  copticFasts = [
+    Seasons.NativityFast,
+    Seasons.KiahkWeek1,
+    Seasons.KiahkWeek2,
+    Seasons.KiahkWeek3,
+    Seasons.KiahkWeek4,
+    Seasons.JonahFast,
+    Seasons.GreatLent,
+    Seasons.ApostlesFast,
+    Seasons.StMaryFast,
+  ];
 const MartyrsFeasts = {
   StJohnBaptist: "0201",
   StMarc: "3008",
@@ -463,7 +487,16 @@ const nonMartyrsFeasts = {
   StJustAnton: "0804", //St Just of the St. Anton
 }
 
-const CelestialBeingsFeasts = {
+const stMaryFeasts = {
+  StMaryFeast: "1612",//Ascension of St. Mary Body
+  StMary1: "0712", //Annonciation of the birth of St. Mary
+  StMary2: "0109", //birth of St. Mary
+  StMary3: "0304", //Entry of St. Mary to the Temple
+  StMary4: "2105", //Departure of St. Mary
+  StMary5: "2110", //عيد حل الحديد  
+}
+
+const celestialBeingsFeasts = {
   FourCelestialBeings: "0803",
   TwentyFourPriests: "2403",
   OneHudredTwentyFourThousands: "", //The 144000 chast
@@ -474,7 +507,7 @@ const CelestialBeingsFeasts = {
 };
 
 const saintsFeasts = {
-  ...CelestialBeingsFeasts, ...MartyrsFeasts, ...nonMartyrsFeasts
+  ...celestialBeingsFeasts, ...MartyrsFeasts, ...nonMartyrsFeasts
 };
 
 
@@ -530,31 +563,8 @@ const PrayersArrays = [
   PsalmodyPrayersArray,
 ]; //All these arrays are populated by elements from PrayersArray
 
-const GreatLordFeasts = [
-  copticFeasts.Annonciation,
-  copticFeasts.Nativity,
-  copticFeasts.Baptism,
-  copticFeasts.PalmSunday,
-  copticFeasts.Resurrection,
-  copticFeasts.Ascension,
-  copticFeasts.Pentecoste,
-],
-  MinorLordFeasts = [
-    copticFeasts.Epiphany,
-    copticFeasts.Circumcision,
-    copticFeasts.CanaWedding,
-    copticFeasts.EntryToEgypt,
-    copticFeasts.EntryToTemple,
-  ],
-  lordFeasts = [...GreatLordFeasts, ...MinorLordFeasts],
-  HolyWeek = [
-    copticFeasts.HolyMonday,
-    copticFeasts.HolyTuseday,
-    copticFeasts.HolyWednsday,
-    copticFeasts.HolyThursday,
-    copticFeasts.HolyFriday,
-  ],
-  textAmplified = [];
+
+const textAmplified = [];
 //VARS
 
 var PrayersArrayFR: string[][][] = [];
