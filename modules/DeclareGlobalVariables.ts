@@ -421,7 +421,7 @@ const copticFeasts = {
   StMaryFast: "0112",
   Epiphany: "1312",
   Coptic29th: "XXXX", //This value will be set to copticDate by setCopticDates() if today is 29th of the Coptic month and we are in a month where this feast is celebrated
-  Coptic21th: "XXXX",
+  Coptic21th: "XXXX", //This value will be set to copticDate by setCopticDates() if todya is the 21th of teh Coptic Month 
 };
 const GreatLordFeasts = [
   copticFeasts.Annonciation,

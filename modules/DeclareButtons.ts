@@ -1110,29 +1110,36 @@ const btnMassUnBaptised: Button = new Button({
         (function insertPraxisResponse() {
           //!Caution, we must start by inserting the Praxis Response before inserting the Praxis reading
           
-          let specialResponse: (string[][]|HTMLDivElement)[];
-          let feastsDates = Object.entries(copticFeasts).map(entry => entry[1]); 
+          let specialResponse: (string[][] | HTMLDivElement)[] = [];
+          let feastsDates = Object.values(copticFeasts); 
+          let isFeast = feastsDates.includes(copticDate);
+          if (!isFeast)
+            isFeast =
+            feastsDates
+              .filter(v => v.startsWith(Seasons.GreatLent) || v.startsWith(Seasons.PentecostalDays))
+              .includes(copticReadingsDate);
 
-          if (feastsDates.includes(copticDate) || feastsDates.includes(copticReadingsDate))
+          let isStMaryFeast = Object.values(stMaryFeasts).includes(copticDate); 
+          
+          if (isFeast)
             specialResponse =
               PraxisResponsesPrayersArray.filter(
                 (table) => isMultiDatedTitleMatching(table[0][0], [copticDate, copticReadingsDate]))
                 .filter(tbl => tbl[0][0].includes('&D=$saintsFeasts.'));//We look for a response for the copticDate or copticReadingsDate, and we exclude responses for saints feasts
             
-            if (!specialResponse || specialResponse.length<1) 
+          if (specialResponse.length < 1)
             specialResponse = PraxisResponsesPrayersArray.filter(
               (table) => isMultiDatedTitleMatching(table[0][0], [Season]));//We look for a response for the Season
               
-               let stMaryDates = Object.entries(stMaryFeasts).map(entry => entry[1]); 
 
-          if (stMaryDates.includes(copticDate) || copticDay === '21' || specialResponse.length < 1)
+          if (isStMaryFeast || copticDay === '21' || specialResponse.length < 1)
             return ifNoSpecificResponse();
           else return ifSpecificResponse();
         
           function ifSpecificResponse() {
-
                 if (Season === Seasons.GreatLent) {
                   // During the Great Lent, we should get  2 tables ('Sundays', and 'Week') for this season. We will keep the relevant table accoding to the day of the week
+                  
                   weekDay === 0 || weekDay === 6 ?
                     specialResponse =
                     specialResponse.filter((table) =>
@@ -1177,6 +1184,8 @@ const btnMassUnBaptised: Button = new Button({
             let noSeasonResponse: (string[]|HTMLDivElement)[] = findTable(
               Prefix.praxisResponse + "&D=$copticFeasts.AnyDay",
               PraxisResponsesPrayersArray) || undefined;
+            
+            if (!noSeasonResponse) return;
 
             noSeasonResponse = insertPrayersAdjacentToExistingElement({
               tables: [noSeasonResponse as string[][]],
@@ -1191,9 +1200,10 @@ const btnMassUnBaptised: Button = new Button({
               },
               container: btnDocFragment,
             })[0];
+
             insertSaintsResponse(noSeasonResponse as HTMLDivElement[]);
           };
-
+          
 
           function insertSaintsResponse(responses: HTMLDivElement[]) {
             if (!responses) return;
@@ -1201,7 +1211,7 @@ const btnMassUnBaptised: Button = new Button({
 
             if (!anchor) return; //If no placeHolder is found, it means that we are during a special Season (not a 'NoSeason' period), and no placeHolder for the saints response is included
 
-            if (!Object.entries(saintsFeasts).find(entry => entry[1] === copticDate)) return;//It means that today is not a saint feast
+            if (!Object.values(saintsFeasts).includes(copticDate)) return;//It means that today is not a saint feast
 
             specialResponse = PraxisResponsesPrayersArray.filter(
               (table) => table[0][0].includes('&D=$saintsFeasts.') && isMultiDatedTitleMatching(table[0][0], [copticDate]));
@@ -1219,10 +1229,6 @@ const btnMassUnBaptised: Button = new Button({
               container: btnDocFragment
             });
           }
-
-
-
-
 
         })();
 
