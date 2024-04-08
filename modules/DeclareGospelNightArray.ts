@@ -6185,7 +6185,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   ],
   [
   Prefix.same+"&C=ReadingIntro", 
-  "Ⲁϥⲓ̀ ⲇⲉ ⲛ̀ϫⲉ ⲡⲓⲀⲙⲁⲗⲏⲕ ⲟⲩⲟ ⲁϥⲃⲱⲧⲥ ⲉ̀ⲡ̀Ⲓⲥⲗ ? ϧⲉⲛ Ⲣⲁⲫⲁⲍⲓⲛ &ⲅⲧϯ ⲡⲉ ϫⲉ Ⲙⲱⲩ̀ⲥⲏⲥ ⲇⲉ ⲛ̀Ⲓⲏⲥⲟⲩ.", 
+  "Ⲁϥⲓ̀  ⲇⲉ  ⲛ̀ϫⲉ  ⲡⲓⲀⲙⲁⲗⲏⲕ  ⲟⲩⲟϩ  ⲁϥⲃⲱⲧⲥ  ⲉ̀ⲡ̀Ⲓⲥⲗ ̅  ϧⲉⲛ  Ⲣⲁⲫⲁⲍⲓⲛ  :  ⲡⲉ  ϫⲉ Ⲙⲱⲩ̀ⲥⲏⲥ ⲇⲉ ⲛ̀Ⲓⲏⲥⲟⲩ.", 
   "", 
   "", 
   ],
@@ -6409,33 +6409,57 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   Prefix.HolyWeek+"1HDJudasHymn&D=GL55&C=Title", 
   "", 
+  "Judas, le contrevenant de la Loi.", 
   "", 
-  "", 
-  "", 
+  "مرد يهوذا مخالف الناموس", 
+  ],
+  [
+  Prefix.same+"&C=Assembly", 
+  "Ⲓⲟⲩⲇⲁⲥ (ⲋ/) ⲟⲩⲡⲁⲣⲁⲛⲟⲙⲟⲥ.", 
+  "Judas (6), le contrevenant de la Loi.", 
+  "يهوذا (٦) مخالف الناموس. ", 
   ],
   [
   Prefix.same+"&C=Diacon", 
-  "Ioudac (,/) ouparanomoc. Argur`iw epraqhcac ~Xricton tic Ioudic paranomic > ~Ide par`anomi `epilabomeni ton ~Xricton> `ctaurw `proc `hlwcan entw `krani`w topw.", 
-  "Judas (6), le contrevenant de la Loi. Avec de l’argent tu as vendu le Christ aux Juifs les contrevenants de la Loi. Quant aux contrevenants de la Loi, ils ont pris le Christ, et l’ont cloué sur la croix, sur le Lieu du Crâne.", 
-  "يهوذا)٦ (مخالف الناموس بالفضة بعت المسيح لليهود مخالفي الناموس. فأما مخالفو الناموس فأخذوا المسيح وسمروه على الصليب في موضع الاقرانيون", 
+  "Ⲁⲣⲅⲩⲣⲓ̀ⲱ ⲉⲡⲣⲁⲑⲏⲥⲁⲥ Ⲭⲣⲓⲥⲧⲟⲛ ⲧⲓⲥ Ⲓⲟⲩⲇⲓⲥ ⲡⲁⲣⲁⲛⲟⲙⲓⲥ : ~Ⲓⲇⲉ ⲡⲁⲣⲁ̀ⲛⲟⲙⲓ ⲉ̀ⲡⲓⲗⲁⲃⲟⲙⲉⲛⲓ ⲧⲟⲛ Ⲭⲣⲓⲥⲧⲟⲛ: ⲥ̀ⲧⲁⲩⲣⲱ ⲡ̀ⲣⲟⲥ ⲏ̀ⲗⲱⲥⲁⲛ ⲉⲛⲧⲱ ⲕ̀ⲣⲁⲛⲓⲱ̀ ⲧⲟⲡⲱ.", 
+  "Avec de l’argent tu as vendu le Christ aux Juifs les contrevenants de la Loi. Quant aux contrevenants de la Loi, ils ont pris le Christ, et l’ont cloué sur la croix, sur le Lieu du Crâne.", 
+  "بالفضة بعت المسيح لليهود مخالفي الناموس. فأما مخالفو الناموس فأخذوا المسيح وسمروه على الصليب في موضع الاقرانيون.", 
+  ],
+  [
+  Prefix.same+"&C=Assembly", 
+  "Ⲓⲟⲩⲇⲁⲥ (ⲋ/) ⲟⲩⲡⲁⲣⲁⲛⲟⲙⲟⲥ.", 
+  "Judas (6), le contrevenant de la Loi.", 
+  "يهوذا (٦) مخالف الناموس.", 
   ],
   [
   Prefix.same+"&C=Diacon", 
-  "Ioudac (,/) ouparanomoc. Barabban ton katakriton> `apelucan auton ton `krithn> ke decpothn ectaurwcan> ic thn `pleuran lonxhn `epiqentec> ke wc lhcthn> [ulw `proc`hlwnac `eqhkan> en `mnhmi`w` o ek tou tavou> `egirac ton Lazaron.", 
-  "Judas (6), le contrevenant de la Loi. Barabbas le larron jugé, ils l’ont libéré ; et le Maître, le Juge, ils l’ont crucifié. Ils T’ont percé le côté avec une lance. Comme un larron, ils T’ont cloué sur le bois. Ils T’ont mis dans un tombeau, Toi, qui as ressuscité Lazare.", 
-  "يهوذا)٦ (مخالف الناموس بارباس اللص المسجون أطلقوه والسيد الديان صلبوه. في جنبك وضعوا حربة ومثل لص سمروك على خشبة ووضعوك في قبر يا من أقام لعازر من القبر.", 
+  "Ⲃⲁⲣⲁⲃⲃⲁⲛ ⲧⲟⲛ ⲕⲁⲧⲁⲕⲣⲓⲧⲟⲛ: ⲁ̀ⲡⲉⲗⲩⲥⲁⲛ ⲁⲩⲧⲟⲛ ⲧⲟⲛ ⲕ̀ⲣⲓⲧⲏⲛ: ⲕⲉ ⲇⲉⲥⲡⲟⲧⲏⲛ ⲉⲥⲧⲁⲩⲣⲱⲥⲁⲛ: ⲓⲥ ⲧⲏⲛ ⲡ̀ⲗⲉⲩⲣⲁⲛ ⲗⲟⲛⲭⲏⲛ ⲉ̀ⲡⲓⲑⲉⲛⲧⲉⲥ: ⲕⲉ ⲱⲥ ⲗⲏⲥⲧⲏⲛ: ⲝⲩⲗⲱ ⲡ̀ⲣⲟⲥⲏ̀ⲗⲱⲛⲁⲥ ⲉ̀ⲑⲏⲕⲁⲛ: ⲉⲛ ⲙ̀ⲛⲏⲙⲓⲱ̀ ̀ⲟ ⲉⲕ ⲧⲟⲩ ⲧⲁⲫⲟⲩ: ⲉ̀ⲅⲓⲣⲁⲥ ⲧⲟⲛ Ⲗⲁⲍⲁⲣⲟⲛ.", 
+  "Barabbas le larron jugé, ils l’ont libéré ; et le Maître, le Juge, ils l’ont crucifié. Ils T’ont percé le côté avec une lance. Comme un larron, ils T’ont cloué sur le bois. Ils T’ont mis dans un tombeau, Toi, qui as ressuscité Lazare.", 
+  "بارباس اللص المسجون أطلقوه والسيد الديان صلبوه. في جنبك وضعوا حربة ومثل لص سمروك على خشبة ووضعوك في قبر يا من أقام لعازر من القبر.", 
+  ],
+  [
+  Prefix.same+"&C=Assembly", 
+  "Ⲓⲟⲩⲇⲁⲥ (ⲋ/) ⲟⲩⲡⲁⲣⲁⲛⲟⲙⲟⲥ.", 
+  "Judas (6), le contrevenant de la Loi.", 
+  "يهوذا (٦) مخالف الناموس.", 
   ],
   [
   Prefix.same+"&C=Diacon", 
-  "Ioudac (,/) ouparanomoc. Wcper gar Iwnac `tric `hmerac `eminen> enkili`a tou khtouc ontwc ke cwthr `hmwn> `tric `hmerac `eminen> meta ton teqnhkotwn ton tavon> ecvragicanto.", 
-  "Judas (6), le contrevenant de la Loi. Car comme Jonas est resté trois jours dans le ventre de la baleine, ainsi notre Sauveur a demeuré trois jours : après Sa mort, ils ont scellé le tombeau", 
-  "يهوذا)٦ (مخالف الناموس لأنه كما مكث يونان ثلاثة ايام في بطن الحوت هكذا مخلصنا اقام ثلاثة أيام وبعد أن مات ختموا القبر", 
+  "Ⲱⲥⲡⲉⲣ ⲅⲁⲣ Ⲓⲱⲛⲁⲥ ⲧ̀ⲣⲓⲥ ⲏ̀ⲙⲉⲣⲁⲥ ⲉ̀ⲙⲓⲛⲉⲛ: ⲉⲛⲕⲓⲗⲓⲁ̀ ⲧⲟⲩ ⲕⲏⲧⲟⲩⲥ ⲟⲛⲧⲱⲥ ⲕⲉ ⲥⲱⲧⲏⲣ ⲏ̀ⲙⲱⲛ: ⲧ̀ⲣⲓⲥ ⲏ̀ⲙⲉⲣⲁⲥ ⲉ̀ⲙⲓⲛⲉⲛ: ⲙⲉⲧⲁ ⲧⲟⲛ ⲧⲉⲑⲛⲏⲕⲟⲧⲱⲛ ⲧⲟⲛ ⲧⲁⲫⲟⲛ: ⲉⲥⲫⲣⲁⲅⲓⲥⲁⲛⲧⲟ.", 
+  "Car comme Jonas est resté trois jours dans le ventre de la baleine, ainsi notre Sauveur a demeuré trois jours : après Sa mort, ils ont scellé le tombeau", 
+  "لأنه كما مكث يونان ثلاثة أيام في بطن الحوت هكذا مخلصنا أقام ثلاثة أيام وبعد أن مات ختموا القبر.", 
+  ],
+  [
+  Prefix.same+"&C=Assembly", 
+  "Ⲓⲟⲩⲇⲁⲥ (ⲋ/) ⲟⲩⲡⲁⲣⲁⲛⲟⲙⲟⲥ.", 
+  "Judas (6), le contrevenant de la Loi.", 
+  "يهوذا (٦) مخالف الناموس.", 
   ],
   [
   Prefix.same+"&C=Diacon", 
-  "Ioudac (,/) ouparanomoc. Ontwc `anecth ke ouk egnwcan ctrati``wte> ontwc hgerqhc `o cwthr tou kocmou> `opaqwn ke `anactac di`a tou> genoc `hmwn Kuri`e Do[aci> amhn.", 
-  "Judas (6), le contrevenant de la Loi. En vérité Il est ressuscité et les soldats ne l’ont pas su. Le Sauveur du monde S'est levé vraiment, Lui qui a souffert et est ressuscité pour le genre humain. Ô Seigneur gloire à Toi, Amen !", 
-  "يهوذا)٦ (مخالف الناموس بالحقيقة قام والجند لم يعلموا. انه حقاً نهض مخلص العالم الذي تألم وقام لأجل جنسنا يارب المجد لك إلى الأبد. آمين", 
+  "Ⲟⲛⲧⲱⲥ ⲁ̀ⲛⲉⲥⲧⲏ ⲕⲉ ⲟⲩⲕ ⲉⲅⲛⲱⲥⲁⲛ ⲥⲧⲣⲁⲧⲓ`̀ⲱⲧⲉ: ⲟⲛⲧⲱⲥ ⲏⲅⲉⲣⲑⲏⲥ ⲟ̀ ⲥⲱⲧⲏⲣ ⲧⲟⲩ ⲕⲟⲥⲙⲟⲩ: ⲟ̀ⲡⲁⲑⲱⲛ ⲕⲉ ⲁ̀ⲛⲁⲥⲧⲁⲥ ⲇⲓⲁ̀ ⲧⲟⲩ: ⲅⲉⲛⲟⲥ ⲏ̀ⲙⲱⲛ Ⲕⲩⲣⲓⲉ̀ Ⲇⲟⲝⲁⲥⲓ: ⲁⲙⲏⲛ.", 
+  "En vérité Il est ressuscité et les soldats ne l’ont pas su. Le Sauveur du monde S'est levé vraiment, Lui qui a souffert et est ressuscité pour le genre humain. Ô Seigneur gloire à Toi, Amen !", 
+  "بالحقيقة قام والجند لم يعلموا. أنه حقاً نهض مخلص العالم الذي تألم وقام لأجل جنسنا يارب المجد لك إلى الأبد. آمين.", 
   ],
   ],
   [
@@ -6449,7 +6473,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   Prefix.same+"&C=Diacon", 
   "Ⲁⲩϭ̀ⲛⲟⲛ ⲛ̀ϫⲉ ⲛⲉϥⲥⲁϫⲓ ⲉ̀ⲟⲧⲉ ⲟⲩⲛⲉ: ⲛ̀ⲑⲱⲟⲩ ⲁⲛⲥⲟⲑⲛⲉϥ ⲛⲉ: Ϫⲉ ⲉ̀ⲛⲉ ⲟⲩϫⲁϫⲓ ⲡⲉⲧⲁϥϯϣⲱϣ ⲛⲏⲓ ⲛⲁⲓ ⲛⲁϥⲁⲓ ⲉ̀ⲣⲟϥ ⲡⲉ: ⲟⲩⲟ ⲉ̀ⲛⲉ ⲡⲉⲑⲙⲟⲥϯ ⲙ̀ⲙⲟⲓ ⲁϥϫⲱ ⲛ̀ⲁⲛⲛⲓϣϯ ⲛ̀ⲥⲁϫⲓ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲓ ⲛⲁⲓ ⲛⲁⲭⲟⲡⲧ ⲉ̀ⲃⲟⲗ ⲁⲣⲟϥ.", 
   "Sa parole est plus suave qu'un parfum, mais elle est un poignard. Si l'insulte me venait d'un ennemi, je pourrais l'endurer; si mon rival s'élevait contre moi, je pourrais me dérober. ", 
-  "كلامه ألين من الزيت (الدهن) وهو نصال، فلو كان العدو عيّرنى إذاً لإحتملت، ولو أن مبغضى عظّم علىّ الكلام لإختفيت منه.", 
+  "كلامه ألين من الزيت (الدهن) وهو نصال، فلو كان العدو عيّرنى إذاً لاحتملت، ولو أن مبغضي عظّم علىّ الكلام لاختفيت منه.", 
   ],
   ],
   [
@@ -6513,7 +6537,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   ],
   [
   Prefix.same+"&C=ReadingIntro", 
-  "Ⲁⲥϣⲱⲡⲓ ⲇⲉ ⲙⲉⲛⲉⲛⲥⲁ ⲡⲉϥⲣⲁⲥϯ &ⲅⲧϯ ⲡⲉϫⲉ Ⲙⲱèèⲩ̀ⲥⲏⲥ ⲛⲁϩⲣⲉⲛ ⲡⲓⲗⲁⲟⲥ &ⲅⲧϯ ϫⲉ ⲛ̀ⲑⲱⲧⲉⲛ ⲁ̀ⲧⲉⲧⲉⲛⲓ̀ⲣⲓ è ̀ⲛⲟⲩⲛⲓϣϯ ̀ⲛⲛⲟⲃⲓ.", 
+  "Ⲁⲥϣⲱⲡⲓ  ⲇⲉ  ⲙⲉⲛⲉⲛⲥⲁ  ⲡⲉϥⲣⲁⲥϯ  : ⲡⲉϫⲉ  Ⲙⲱèèⲩ̀ⲥⲏⲥ  ⲛⲁϩⲣⲉⲛ  ⲡⲓⲗⲁⲟⲥ : ϫⲉ  ⲛ̀ⲑⲱⲧⲉⲛ  ⲁ̀ⲧⲉⲧⲉⲛⲓ̀ⲣⲓ è ̀ⲛⲟⲩⲛⲓϣϯ ̀ⲛⲛⲟⲃⲓ.", 
   "", 
   "", 
   ],
@@ -6555,7 +6579,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   ],
   [
   Prefix.same+"&C=ReadingIntro", 
-  "Ⲧⲥⲟⲫⲓⲁ ⲇⲉ ⲥ̀ⲥ̀ⲙⲟⲩ ⲉ̀ⲧⲉⲥ ⲯⲩⲭⲏ &ⲅⲧϯ ⲟⲩⲟ ⲥ̀ⲛⲁϣⲱⲡ ̀ⲉⲣⲟⲥ ⲛ̀ⲛⲏⲉⲧⲕⲱϯ ̀ⲛⲥⲱⲥ.", 
+  "Ⲧⲥⲟⲫⲓⲁ ⲇⲉ ⲥ̀ⲥ̀ⲙⲟⲩ ⲉ̀ⲧⲉⲥ ⲯⲩⲭⲏ : ⲟⲩⲟϩ ⲥ̀ⲛⲁϣⲱⲡ ̀ⲉⲣⲟⲥ  ⲛ̀ⲛⲏⲉⲧⲕⲱϯ  ̀ⲛⲥⲱⲥ.", 
   "", 
   "", 
   ],
@@ -6584,8 +6608,26 @@ ReadingsArrays.GospelNightArrayFR= [[
   "زكريا (٩: ١١–١٥)", 
   ],
   [
-  Prefix.same+"&C=Diacon", 
+  Prefix.same+"&C=ReadingIntro", 
+  "Ⲉⲃⲟⲗϧⲉⲛ Ⲍⲁⲭⲁⲣⲓⲁⲣⲥ ⲡⲓⲡⲣⲟⲫⲏⲧⲏⲥ : ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̅ⲑ̅ⲩ̅ : ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ ", 
   "", 
+  "", 
+  ],
+  [
+  Prefix.same+"&C=ReadingIntro", 
+  "Ⲟⲩⲟϩ  ⲛ̀ⲑⲟⲕ  ϧⲉⲛ  ⲡ̀ⲥ̀ⲛⲟϥ ̀ⲛⲧⲉⲕⲇⲓⲁⲑⲏⲕⲏ  ⲁⲕϫⲟⲟⲩ  ⲉ̀ⲃⲟⲗ  ⲛ̀ⲛⲏⲉⲧⲥⲱⲛϩ  ⲛ̀ⲧⲁⲕ  ⲉ̀ⲃⲟⲗϧⲉⲛ  ⲟⲩϣⲏⲓ  ⲙ̀ⲙⲟⲛ ⲙⲱⲟⲩ ⲛ̀ϧⲏⲧϥ.\n", 
+  "", 
+  "", 
+  ],
+  [
+  Prefix.same+"&C=ReadingIntro", 
+  "Ⲟⲩⲱ̀ⲟⲩ ⲛ̀Ϯⲧ̀ⲣⲓⲁⲥ ⲉ̀ⲑⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ : ϣⲁ ⲉ̀ⲛⲉϩ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ⲛⲉϩ ⲧⲏⲣⲟⲩ : ⲁ̀ⲙⲏⲛ.\n", 
+  "", 
+  "", 
+  ],
+  [
+  Prefix.same+"&C=Diacon", 
+  "\n", 
   "Toi aussi, pour le sang de ton alliance, j'ai renvoyé tes captifs de la fosse où il n'y a pas d'eau. Revenez vers la place forte, captifs pleins d'espoir. Aujourd'hui même, je le déclare, c'est le double que je vais te rendre. Car j'ai tendu pour moi Juda, j'ai garni l'arc avec Éphraïm; je vais exciter tes fils, Sion, contre tes fils, Yavân, et je ferai de toi comme l'épée d'un vaillant. Alors le Seigneur apparaîtra au-dessus d'eux et sa flèche jaillira comme l'éclair. Le Seigneur Dieu sonnera de la trompe.", 
   "وبدم عهدك أنت أيضا أطلق أسراك من الجب الذي ليس فيه ماء، إرجعوا الي الحصن يا أسري الرجاء، وبدل يوم واحد من سبيك سأرد عليك ضعفين، لأني أوترت يهوذا لنفسي. مثل قوس ملأت إفرايم وأقيم أولادك يا صهيون علي بني ياوان، واقويك كسيف محارب. الرب يكون عليهم وقوسه يخرج مثل البرق والرب الضابط الكل يبوق في بوق عظيم.", 
   ],
@@ -6603,7 +6645,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   ],
   [
   Prefix.same+"&C=ReadingIntro", 
-  "Ⲡⲁϣⲏⲣⲓ ⲁⲣⲓ ⲟϯ ϧⲁⲧ̀ⲏ ̀ⲛⲛⲁⲥⲁϫⲓ ϣⲟⲡⲟⲩ ⲉ̀ⲣⲟⲕ ⲛ̀ⲕ̀ⲙⲉⲧⲁⲛⲟⲓ ⲛⲁⲓ ⲉ̀ⲧⲉ ϣⲁⲣⲉ è ̀ⲫⲣⲱⲙⲓ ϫⲟⲟⲩ ⲛ̀ⲛⲉⲧⲛⲁϯ ⲉ̀Ⲫϯ.", 
+  "Ⲡⲁϣⲏⲣⲓ  ⲁⲣⲓ  ϩⲟϯ  ϧⲁⲧ̀ϩⲏ ̀ⲛⲛⲁⲥⲁϫⲓ  ϣⲟⲡⲟⲩ  ⲉ̀ⲣⲟⲕ  ⲛ̀ⲕ̀ⲙⲉⲧⲁⲛⲟⲓ  ⲛⲁⲓ  ⲉ̀ⲧⲉ  ϣⲁⲣⲉ ⲫ̀ⲣⲱⲙⲓ ϫⲟⲟⲩ  ⲛ̀ⲛⲉⲧⲛⲁϩϯ ⲉ̀Ⲫϯ.", 
   "", 
   "", 
   ],
@@ -6683,7 +6725,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   ],
   [
   Prefix.same+"&C=ReadingIntro", 
-  "Ⲥⲱⲧⲉⲙ ⲁ̀ⲡ̀ⲥⲁϫⲓ ̀ⲙⲡϭⲟⲓⲥ ϯⲒⲟⲩⲇⲉⲁ̀ ⲧⲏⲣⲥ. Ⲛⲁⲓⲛⲉ ⲛⲏⲉ̀ⲧⲉϥϫⲱ ̀ⲙⲙⲱⲟⲩ ⲛ̀ϫⲉ Ⲡ⳪ ⲛ̀ⲧⲉ ⲛⲓϫⲟⲙ Ⲫϯ ⲛ̀ⲧⲉ ⲡ̀Ⲓⲥ ⲗ .", 
+  "Ⲥⲱⲧⲉⲙ  ⲁ̀ⲡ̀ⲥⲁϫⲓ ̀ⲙⲡϭⲟⲓⲥ  ϯⲒⲟⲩⲇⲉⲁ̀  ⲧⲏⲣⲥ. Ⲛⲁⲓⲛⲉ  ⲛⲏⲉ̀ⲧⲉϥϫⲱ ̀ⲙⲙⲱⲟⲩ  ⲛ̀ϫⲉ  Ⲡ⳪  ⲛ̀ⲧⲉ  ⲛⲓϫⲟⲙ Ⲫϯ ⲛ̀ⲧⲉ ⲡ̀Ⲓⲥ̅ⲗ̅.", 
   "", 
   "", 
   ],
@@ -6725,8 +6767,8 @@ ReadingsArrays.GospelNightArrayFR= [[
   ],
   [
   Prefix.same+"&C=ReadingIntro", 
-  "Ⲟⲩⲟ ⲛ̀ⲑⲱⲧⲉⲛ ⲡ̀ⲏⲓ ̀ⲙⲡ̀Ⲓⲥ ⲗ &ⲅⲧϯ ⲥⲱⲧⲉⲙ ̀ⲉⲡ̀ⲥⲁϫⲓ ⲙ̀Ⲡ⳪ &ⲅⲧϯ ⲛⲁⲓ ⲛⲉ ⲛⲏⲉ̀ⲧⲉϥ ϫⲱ ⲙ̀ⲙⲱⲟⲩ ⲛ̀ϫⲉ Ⲁⲇⲱⲛⲁⲓ.", 
-  "", 
+  "Ⲟⲩⲟ  ⲛ̀ⲑⲱⲧⲉⲛ  ⲡ̀ⲏⲓ ̀ⲙⲡ̀Ⲓⲥ̅ⲗ̅: ⲥⲱⲧⲉⲙ ̀ⲉⲡ̀ⲥⲁϫⲓ  ⲙ̀Ⲡ⳪ : ⲛⲁⲓ  ⲛⲉ  ⲛⲏⲉ̀ⲧⲉϥ ϫⲱ  ⲙ̀ⲙⲱⲟⲩ ⲛ̀ϫⲉ Ⲁⲇⲱⲛⲁⲓ.\n\n", 
+  "\n\n", 
   "", 
   ],
   [
@@ -6761,7 +6803,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   ],
   [
   Prefix.same+"&C=ReadingIntro", 
-  "Ⲛⲓⲙ ⲡⲉⲑⲛⲁⲛⲁⲓ ̀ⲛⲟⲩⲣⲉϥⲙⲟⲩϯ ⲁ̀ⲣⲉϣⲁⲛ ⲡⲓⲟϥ ⲗⲟⲝϥ &ⲅⲧϯ ⲛⲉⲙ ⲟⲩⲟⲛ ⲛⲓⲃⲉⲛ ⲉⲑⲙⲟϣⲓ ⲉ̀ϧⲟⲩⲛ ⲉ̀ⲛⲓⲑⲏⲣⲓⲟⲛ.", 
+  "Ⲛⲓⲙ  ⲡⲉⲑⲛⲁⲛⲁⲓ ̀ⲛⲟⲩⲣⲉϥⲙⲟⲩϯ  ⲁ̀ⲣⲉϣⲁⲛ  ⲡⲓϩⲟϥ  ⲗⲟⲝϥ : ⲛⲉⲙ  ⲟⲩⲟⲛ  ⲛⲓⲃⲉⲛ ⲉⲑⲙⲟϣⲓ ⲉ̀ϧⲟⲩⲛ ⲉ̀ⲛⲓⲑⲏⲣⲓⲟⲛ.", 
   "", 
   "", 
   ],
@@ -6801,7 +6843,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   [
   Prefix.HolyWeek+"6HDGospel&D=GL55&C=Title", 
-  "Ⲙⲁⲣⲕⲟⲛ  Ⲕⲉⲫ ⲓ ⲇ : ⲓ ⲃ -ⲓ", 
+  "Ⲙⲁⲣⲕⲟⲛ  Ⲕⲉⲫ ⲓ̅ⲇ̅: ⲓ̅ⲃ̅-ⲓ̅ ̅", 
   "Evangile de la Sixième heure du jeudi\nMarc (14: 12-16)\n", 
   "إنجيل الساعة السادسة من يوم الخميس\nمرقس (١٤: ١٢–١٦)\n", 
   ],
@@ -6847,7 +6889,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   ],
   [
   Prefix.same+"&C=ReadingIntro", 
-  "Ⲁⲥϣⲱⲡⲓ ⲇⲉ ⲙⲉⲛⲉⲛⲥⲁ ⲛⲁⲓⲥⲁϫⲓ ⲛⲁⲣⲉ Ⲫϯ ϭⲱⲛⲧ ⲛ̀Ⲁⲃⲣⲁⲁⲙ ⲡⲉ ⲟⲩⲟ ⲡⲉϫⲁϥ ⲛⲁϥ &ⲅⲧϯ ϫⲉ Ⲁⲃⲣⲁⲁⲙ Ⲁⲃⲣⲁⲁⲙ.", 
+  "Ⲁⲥϣⲱⲡⲓ  ⲇⲉ  ⲙⲉⲛⲉⲛⲥⲁ  ⲛⲁⲓⲥⲁϫⲓ  ⲛⲁⲣⲉ Ⲫϯ  ϭⲱⲛⲧ ⲛ̀Ⲁⲃⲣⲁⲁⲙ ⲡⲉ ⲟⲩⲟϩ  ⲡⲉϫⲁϥ ⲛⲁϥ : ϫⲉ Ⲁⲃⲣⲁⲁⲙ  Ⲁⲃⲣⲁⲁⲙ.", 
   "", 
   "", 
   ],
@@ -6907,7 +6949,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   ],
   [
   Prefix.same+"&C=ReadingIntro", 
-  "Ⲟⲩⲡ ⲛ ⲁ ⲛ̀ⲧⲉ Ⲡ⳪ ⲉⲧⲭⲏ ⲓϫⲱⲓ &ⲅⲧϯ ⲉⲑⲃⲉ ⲫⲁⲓ ⲁϥⲑⲁⲥⲧ ̀ⲉⲓϣⲉⲛⲛⲟⲩϥⲓ ⲛ̀ⲛⲓⲏⲕⲓ ⲁϥⲟⲩⲟⲣⲡⲧ ̀èⲉⲧⲁⲗϭⲟ ⲛ̀ⲛⲏⲉⲧϧⲟⲙϧⲉⲙ ϧⲉⲛ ⲡⲟⲩⲏⲧ.", 
+  "Ⲟⲩⲡ̅ⲛ̅ⲁ̅  ⲛ̀ⲧⲉ  Ⲡ⳪  ⲉⲧⲭⲏ  ϩⲓϫⲱⲓ : ⲉⲑⲃⲉ  ⲫⲁⲓ  ⲁϥⲑⲁϩⲥⲧ ̀ⲉϩⲓϣⲉⲛⲛⲟⲩϥⲓ  ⲛ̀ⲛⲓϩⲏⲕⲓ ⲁϥⲟⲩⲟⲣⲡⲧ ̀èⲉⲧⲁⲗϭⲟ  ⲛ̀ⲛⲏⲉⲧϧⲟⲙϧⲉⲙ ϧⲉⲛ ⲡⲟⲩϩⲏⲧ.", 
   "", 
   "", 
   ],
@@ -6937,14 +6979,14 @@ ReadingsArrays.GospelNightArrayFR= [[
   ],
   [
   Prefix.same+"&C=ReadingIntro", 
-  "Ⲁⲡⲓⲟⲩⲣⲟ ⲇⲉ ⲛ̀Ⲥⲟⲇⲟⲙⲁ ⲉⲓ̀ ⲉ̀ⲃⲟⲗ ⲉ̀ⲧⲱⲙⲧ ̀èⲉⲀⲃⲣⲁⲁⲙ ⲙⲉⲛⲉⲛⲥⲁ ⲉⲧⲣⲉϥⲕⲟⲧϥ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲡⲓϭⲟϫϭⲉϫ ⲛ̀Ⲭⲟⲇⲟⲗⲟⲅⲟⲙⲟⲣ ⲛⲉⲙ ⲛⲓⲟⲩⲣⲱⲟⲩ ⲉⲑⲛⲉⲙⲁϥ ⲉ̀ϧ̀ⲣⲏⲓ ⲉ̀ ϯⲉⲗⲗⲟⲧ ⲛ̀ⲧⲉ Ⲥⲁⲩⲏ ⲑⲁⲓ ⲧⲉ ⲧ̀ⲥⲱϣⲓ ⲙ̀ⲡⲓⲟⲩⲣⲟ.", 
-  "", 
+  "Ⲁⲡⲓⲟⲩⲣⲟ ⲇⲉ ⲛ̀Ⲥⲟⲇⲟⲙⲁ ⲉⲓ̀ ⲉ̀ⲃⲟⲗ ⲉ̀ⲧⲱⲙⲧ ⲉ̀Ⲁⲃⲣⲁⲁⲙ  ⲙⲉⲛⲉⲛⲥⲁ ⲉⲧⲣⲉϥⲕⲟⲧϥ  ⲉ̀ⲃⲟⲗϧⲉⲛ ⲡⲓϭⲟϫϭⲉϫ  ⲛ̀Ⲭⲟⲇⲟⲗⲟⲅⲟⲙⲟⲣ ⲛⲉⲙ ⲛⲓⲟⲩⲣⲱⲟⲩ ⲉⲑⲛⲉⲙⲁϥ ⲉ̀ϧ̀ⲣⲏⲓ ⲉ̀ ϯⲉⲗⲗⲟⲧ ⲛ̀ⲧⲉ Ⲥⲁⲩⲏ ⲑⲁⲓ ⲧⲉ ⲧ̀ⲥⲱϣⲓ ⲙ̀ⲡⲓⲟⲩⲣⲟ.", 
+  "\n", 
   "", 
   ],
   [
   Prefix.same+"&C=ReadingIntro", 
   "Ⲟⲩⲱ̀ⲟⲩ ⲛ̀Ϯⲧ̀ⲣⲓⲁⲥ ⲉ̀ⲑⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ : ϣⲁ ⲉ̀ⲛⲉϩ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ⲛⲉϩ ⲧⲏⲣⲟⲩ : ⲁ̀ⲙⲏⲛ.", 
-  "", 
+  "\n", 
   "", 
   ],
   [
@@ -6967,7 +7009,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   ],
   [
   Prefix.same+"&C=ReadingIntro", 
-  "Ϥⲟⲛϧ ⲛ̀ϫⲉ Ⲡ⳪ ⲫⲏⲉ̀ⲧⲁϥ ϯⲁⲡ ̀èⲉⲣⲟⲓ ⲙ̀ⲡⲁⲓⲣⲏϯ &ⲅⲧϯ ⲛⲉⲙ ⲡⲓⲡⲁⲛⲧⲟⲕⲣⲁⲧⲱⲣ ⲫⲏⲉ̀ⲧⲁϥϯ ⲙ̀ⲕⲁ ⲛ̀ⲧⲁⲯⲩⲭⲏ.", 
+  "Ϥⲟⲛϧ   ⲛ̀ϫⲉ  Ⲡ⳪  ⲫⲏⲉ̀ⲧⲁϥ  ϯϩⲁⲡ ⲉ̀ⲣⲟⲓ  ⲙ̀ⲡⲁⲓⲣⲏϯ : ⲛⲉⲙ  ⲡⲓⲡⲁⲛⲧⲟⲕⲣⲁⲧⲱⲣ ⲫⲏⲉ̀ⲧⲁϥϯ ⲙ̀ⲕⲁϩ ⲛ̀ⲧⲁⲯⲩⲭⲏ.\n", 
   "", 
   "", 
   ],
@@ -7063,7 +7105,7 @@ ReadingsArrays.GospelNightArrayFR= [[
   [
   [
   Prefix.HolyWeek+"9HDGospel&D=GL55&C=Title", 
-  "Ⲙⲁⲧⲑⲉⲟⲛ Ⲕⲉⲫ ⲕ : ⲓ ⲍ -ⲓ ⲑ", 
+  "Ⲙⲁⲧⲑⲉⲟⲛ  Ⲕⲉⲫ ⲕ̅:̅ ⲓ̅ⲍ̅-ⲓ̅ⲑ̅", 
   "Evangile de la Neuvième heure du jeudi\nMatthieu (26: 17-19)\n", 
   "إنجيل الساعة التاسعة من يوم الخميس\nمتى (٢٦: ١٧–١٩)\n", 
   ],
@@ -7156,8 +7198,8 @@ ReadingsArrays.GospelNightArrayFR= [[
   "«لَمْ أَضْحَكْ». لِأَنَّهَا خَافَتْ. فَقَالَ: «لَا! بَلْ ضَحِكْتِ». ثُمَّ قَامَ ٱلرِّجَالُ مِنْ هُنَاكَ وَتَطَلَّعُوا نَحْوَ سَدُومَ. وَكَانَ إِبْرَاهِيمُ مَاشِيًا مَعَهُمْ لِيُشَيِّعَهُمْ.\nفَقَالَ ٱلرَّبُّ: «هَلْ أُخْفِي عَنْ إِبْرَاهِيمَ مَا أَنَا فَاعِلُهُ، وَإِبْرَاهِيمُ يَكُونُ أُمَّةً كَبِيرَةً وَقَوِيَّةً، وَيَتَبَارَكُ بِهِ جَمِيعُ أُمَمِ ٱلْأَرْضِ؟ ", 
   ],
   [
-    Prefix.HolyWeek+"LakanProphecies&D=GL55&C=Diacon", 
-    "", 
+  Prefix.HolyWeek+"LakanProphecies&D=GL55&C=Diacon", 
+  "", 
   "Car je l'ai distingué, pour qu'il prescrive à ses fils et à sa maison après lui de garder la voie du Seigneur en accomplissant la justice et le droit ; de la sorte, Le Seigneur réalisera pour Abraham ce qu'il lui a promis.\" Donc, le Seigneur dit : \"Le cri contre Sodome et Gomorrhe est bien grand ! Leur péché est bien grave ! Je veux descendre et voir s'ils ont fait ou non tout ce qu'indique le cri qui, contre eux, est monté vers moi ; alors je saurai.\"", 
   "لِأَنِّي عَرَفْتُهُ لِكَيْ يُوصِيَ بَنِيهِ وَبَيْتَهُ مِنْ بَعْدِهِ أَنْ يَحْفَظُوا طَرِيقَ ٱلرَّبِّ، لِيَعْمَلُوا بِرًّا وَعَدْلًا، لِكَيْ يَأْتِيَ ٱلرَّبُّ لِإِبْرَاهِيمَ بِمَا تَكَلَّمَ بِهِ».  وَقَالَ ٱلرَّبُّ: «إِنَّ صُرَاخَ سَدُومَ وَعَمُورَةَ قَدْ كَثُرَ، وَخَطِيَّتُهُمْ قَدْ عَظُمَتْ جِدًّا.  أَنْزِلُ وَأَرَى هَلْ فَعَلُوا بِٱلتَّمَامِ حَسَبَ صُرَاخِهَا ٱلْآتِي إِلَيَّ، وَإِلَا فَأَعْلَمُ»", 
   ],
@@ -7332,7 +7374,6 @@ ReadingsArrays.GospelNightArrayFR= [[
   "عنا، الذي أعطانا جسده لنأكله ودمه لنشربه، يسوع المسيح ربنا ومخلصنا، الاله ابن الاله، العلى الكائن في الأعلي إلى الأبد\nفلنختم عظة أبينا أنبا شنودة رئيس المتوحدين الذي أنار عقولنا وعيون قلوبنا بإسم الآب الإبن والروح القدس إله واحد. آمين", 
   ],
   ],
-
   [
   [
   Prefix.HolyWeek+"LakanSermony&D=GL55&C=Diacon", 

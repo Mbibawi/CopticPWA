@@ -1,5 +1,5 @@
 //CONSTANTS
-const version = "v6.3.1 (Fixes to the Praxis Responses)";
+const version = "v6.4 (Fixes to the Holy Week Passover)";
 const calendarDay = 24 * 60 * 60 * 1000; //this is a day in milliseconds
 const containerDiv = document.getElementById("containerDiv");
 const leftSideBar = document.getElementById("leftSideBar");

@@ -17,7 +17,11 @@ async function convertFont(text?: string, font: string = fontName, jimkin: strin
   //if (!text) text = prompt('Provide the text you want to convert');
   if (font === "ATHANASIUS")
     text = text.replaceAll('`è\\', String.fromCharCode(96) + '\\')
-      .replaceAll('`è', String.fromCharCode(96));
+      .replaceAll('`è', String.fromCharCode(96))
+      .replaceAll('` è', String.fromCharCode(96))
+      .replaceAll(String.fromCharCode(160) + '?', '?')
+      .replaceAll('  ', ' ');
+  
   if (font === "COPTIC1") jimkin = JimkinCombining.after;
   console.log("font = ", font);
   text = text.
@@ -109,14 +113,15 @@ function convertCopticText(font: string, text: string, jimkin: string): string {
    * @returns
    */
   function removeCharAfterOverline(unicodeString: string): string {
-    const OVERLINE_UNICODE_VAL = 773;
+    //if (font === 'ATHANASIUS') return unicodeString;
+    const OVERLINE_UNICODE_VAL:number = 773;
     if (!unicodeString) return unicodeString;
     // Traverse the string
     let stringbuffer = [];
     for (let i = 0; i < unicodeString.length; i++) {
-      if (unicodeString.codePointAt(i) == OVERLINE_UNICODE_VAL) i++ // skip next char by incrementing
-
       stringbuffer.push(unicodeString[i]);
+      if (unicodeString.charCodeAt(i) === OVERLINE_UNICODE_VAL) i++ // skip next char by incrementing
+
     }
     return stringbuffer.join("");
   };
@@ -323,10 +328,10 @@ const fontsMap = [
     "jinkim", "768", "0300", "\u0300",  String.fromCharCode(96), String.fromCharCode(96), ";", String.fromCharCode(96), "", "", "", "", "", "", "", "ä", "ä", "~", "~", "", "", "", "", "ä", "ä", "ä", "ä", "ä", "", "ä", "", "ä", "ä",
   ],
   [
-    "overline", "773", "0305", "\u0305", "̅ ", "=", "", String.fromCharCode(63), "", "", "", "", "", "", "", "ö", "ö", "", "#", "", "", "", "", "ö", "ö", "ö", "ö", "ö", "", "ö", "", "ö", "ö",
+    "overline", "773", "0305", "\u0305", "̅ ", "=", "", "/", "", "", "", "", "", "", "", "ö", "ö", "", "#", "", "", "", "", "ö", "ö", "ö", "ö", "ö", "", "ö", "", "ö", "ö",
   ],
   [
-    "overline_double", "", "033F", "\u033F", "̿ ", "", "", "", "", "", "", "", "", "", "", "ü", "ü", "", "", "", "", "", "", "ü", "ü", "ü", "ü", "ü", "", "ü", "", "ü", "ü",
+    "overline_double", "", "033F", "\u033F", "̿ ", "", "?", "", "", "", "", "", "", "", "", "ü", "ü", "", "", "", "", "", "", "ü", "ü", "ü", "ü", "ü", "", "ü", "", "ü", "ü",
   ],
   [
     "thousands_mark", "66272", "102E1", "\u102E1", "𐋠", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "",

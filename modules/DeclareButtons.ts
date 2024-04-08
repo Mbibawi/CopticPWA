@@ -2295,9 +2295,8 @@ function btnHolyWeek(): Button {
       if (['1H', '3H', '6H'].includes(hour) && weekDay === 0) return undefined;//On Plam Sunday we start at the 9th hour
 
       let hourReadings: string[][][] = ReadingsArrays.GospelNightArrayFR
-        .filter(table => table[0][0].includes('&D=' + copticReadingsDate))
-        .filter(table => table[0][0].startsWith(Prefix.HolyWeek + hour + service));
-
+        .filter(table => RegExp(Prefix.HolyWeek + hour + service +  '\.*&D=' + copticReadingsDate).test(table[0][0]));
+      
       let btnHour = new Button({
         btnID: 'btn' + hour,
         label: label,
@@ -2338,6 +2337,7 @@ function btnHolyWeek(): Button {
       function hourBtnAfterShowPrayers(btn: Button, hour: string, dayPrayers: string[][][]) {
 
         (function insertHourReadings() {
+          let readingsLangs = ['COP', 'FR', 'AR'];
           type typeReading = { table: string[][], placeHolder: HTMLElement };
           let readings: {
             coptGospel: typeReading,
@@ -2362,10 +2362,10 @@ function btnHolyWeek(): Button {
           };
 
           (function fetchKhinEfranAndLitany() {
-            readings.KhinEfran.table = findTable(Prefix.HolyWeek + "KhinEfranEnTetriyas&D=$Seasons.HolyWeek".replace("&D", service + "&D"), HolyWeekPrayersArray) || undefined
+            readings.KhinEfran.table = findTable(Prefix.HolyWeek + "KhinEfranEnTetriyas" + service + "&D=$Seasons.HolyWeek", HolyWeekPrayersArray) || undefined
             if (!readings.KhinEfran.table) return console.log('Didn\'t find Khin Efran');
 
-            readings.Litany.table = findTable(Prefix.HolyWeek + "FinalLitany&D=$Seasons.HolyWeek".replace("&D", service + "&D"), HolyWeekPrayersArray) || undefined
+            readings.Litany.table = findTable(Prefix.HolyWeek + "FinalLitany" + service + "&D=$Seasons.HolyWeek", HolyWeekPrayersArray) || undefined
             if (!readings.Litany.table) return console.log('Didn\'t find Litany');
 
             readings.KhinEfran.placeHolder = fetchAnchors('KhinEfran');
@@ -2374,34 +2374,33 @@ function btnHolyWeek(): Button {
 
 
           (function fetchHourReadings() {
-            fetchTableAndPlaceHolder(readings.coptGospel, 'Gospel', 'CopticGospel');
-            fetchTableAndPlaceHolder(readings.nonCopticGospel, 'Gospel', 'nonCopticGospel');
-            fetchTableAndPlaceHolder(readings.coptPsalm, 'Psalm', 'CopticPsalm');
-            fetchTableAndPlaceHolder(readings.nonCopticPsalm, 'Psalm', 'nonCopticGospel');
-            fetchTableAndPlaceHolder(readings.Commentary, 'Commentary', 'Commentary');
-            fetchTableAndPlaceHolder(readings.Prophecies, 'Prophecies', 'Prophecies');
-            fetchTableAndPlaceHolder(readings.Sermony, 'Sermony', 'Prophecies');
+            fetchTableOrPlaceHolder(readings.coptGospel, 'Gospel', 'CopticGospel');
+            fetchTableOrPlaceHolder(readings.nonCopticGospel, 'Gospel', 'nonCopticGospel');
+            fetchTableOrPlaceHolder(readings.coptPsalm, 'Psalm', 'CopticPsalm');
+            fetchTableOrPlaceHolder(readings.nonCopticPsalm, 'Psalm', 'nonCopticGospel');
+            fetchTableOrPlaceHolder(readings.Commentary, 'Commentary', 'Commentary');
+            fetchTableOrPlaceHolder(readings.Prophecies, 'Prophecies', 'Prophecies');
+            fetchTableOrPlaceHolder(readings.Sermony, 'Sermony', 'Prophecies');
 
             readings.nonCopticPsalm.placeHolder = readings.nonCopticPsalm.placeHolder.previousElementSibling as HTMLElement; //We need to do this because the nonCopticPsalm is inseret before the previous sibling of nonCopticGospel.placeHolder
 
-            function fetchTableAndPlaceHolder(reading: typeReading, name: string, placeholder: string) {
+            function fetchTableOrPlaceHolder(reading: typeReading, name: string, placeholder: string) {
               reading.table = fetchTable(name);
               reading.placeHolder = fetchAnchors(placeholder)
 
             }
 
-
             (function getVersionsOfGospelAndPsalm() {
               //For the gospel and the psalm, we need to get 2 versions of each: the first version is only coptic, and the 2nd version includes all the other languages except the Coptic version
 
-              ['coptGospel', 'nonCopticGospel', 'coptPsalm', 'nonCopticPsalm']
-                .forEach((version: string) => {
-                  readings[version].table = (readings[version].table)
-                    .map((row: string[]) => {
-                      if (version.startsWith('copt'))
-                        return row.filter(el => row.indexOf(el) === prayersLanguages.indexOf('COP') + 1);
-                      if (version.startsWith('nonCoptic'))
-                        return row.filter(el => row.indexOf(el) !== prayersLanguages.indexOf('COP') + 1)
+              [readings.coptGospel, readings.nonCopticGospel, readings.coptPsalm, readings.nonCopticPsalm]
+                .forEach((version) => {
+                  version.table = (version.table)
+                    .map((row) => {
+                      if ([readings.coptGospel, readings.coptPsalm].includes(version))
+                        return [row[0], row[readingsLangs.indexOf('COP') + 1]];
+                      if ([readings.nonCopticGospel, readings.nonCopticPsalm].includes(version))
+                        return row.filter(el => row.indexOf(el) !== readingsLangs.indexOf('COP') + 1)
                     });
                 });
             })();
@@ -2429,15 +2428,17 @@ function btnHolyWeek(): Button {
             readings.KhinEfran,
             readings.Litany]
               .forEach((reading: typeReading) => {
-                if (!reading.table || !reading.placeHolder) return;
+                if (!reading.table || !reading.placeHolder) return console.log('Either the table or the Anchor are missing:  table = ', reading.table, 'Anchor = ', reading.placeHolder);
+
+                reading.table = reading.table.filter(row => row);//We remove any undefined elements in the table;
 
                 if ([readings.KhinEfran, readings.Litany].includes(reading)) languages = prayersLanguages;
 
-                if ([readings.Prophecies, readings.Sermony, readings.Commentary].includes(reading)) languages = ['COP', 'FR', 'AR'];
+                if ([readings.Prophecies, readings.Sermony, readings.Commentary].includes(reading)) languages = readingsLangs;
 
-                if ([readings.nonCopticGospel, readings.nonCopticPsalm].includes(reading)) languages = ['FR', 'AR'];
+                if ([readings.nonCopticGospel, readings.nonCopticPsalm].includes(reading)) languages = [readingsLangs[1], readingsLangs[2]];
 
-                if ([readings.coptGospel, readings.coptPsalm].includes(reading)) languages = ['COP'];
+                if ([readings.coptGospel, readings.coptPsalm].includes(reading)) languages = [readingsLangs[0]];
 
                 insertPrayersAdjacentToExistingElement({
                   tables: [reading.table],
