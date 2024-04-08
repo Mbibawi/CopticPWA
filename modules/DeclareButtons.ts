@@ -1119,7 +1119,7 @@ const btnMassUnBaptised: Button = new Button({
                 (table) => isMultiDatedTitleMatching(table[0][0], [copticDate, copticReadingsDate]))
                 .filter(tbl => tbl[0][0].includes('&D=$saintsFeasts.'));//We look for a response for the copticDate or copticReadingsDate, and we exclude responses for saints feasts
             
-            if (specialResponse.length<1) 
+            if (!specialResponse || specialResponse.length<1) 
             specialResponse = PraxisResponsesPrayersArray.filter(
               (table) => isMultiDatedTitleMatching(table[0][0], [Season]));//We look for a response for the Season
               

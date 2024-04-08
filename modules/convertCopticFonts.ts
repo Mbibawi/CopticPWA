@@ -16,8 +16,8 @@ async function convertFont(text?: string, font: string = fontName, jimkin: strin
   };
   //if (!text) text = prompt('Provide the text you want to convert');
   if (font === "ATHANASIUS")
-    text = text.replaceAll('`è\\', '`\\')
-      .replaceAll('`è', '`')
+    text = text.replaceAll('`è\\', String.fromCharCode(96) + '\\')
+      .replaceAll('`è', String.fromCharCode(96));
   if (font === "COPTIC1") jimkin = JimkinCombining.after;
   console.log("font = ", font);
   text = text.
@@ -121,9 +121,6 @@ function convertCopticText(font: string, text: string, jimkin: string): string {
     return stringbuffer.join("");
   };
 }
-
-
-
 
 
 const fontsMap = [
@@ -323,10 +320,10 @@ const fontsMap = [
     "symbol_mi_ro", "11493", "2CE5", "\u2CE5", "", "", "", "", "", "^", "U", "", "u", "", "", "", "", "", "", "", "", "", "U", "", "", "", "", "", "=", ".", "", "%", "%",
   ],
   [
-    "jinkim", "768", "0300", "\u0300", "`", "`", ";", "`", "", "", "", "", "", "", "", "ä", "ä", "~", "~", "", "", "", "", "ä", "ä", "ä", "ä", "ä", "", "ä", "", "ä", "ä",
+    "jinkim", "768", "0300", "\u0300",  String.fromCharCode(96), String.fromCharCode(96), ";", String.fromCharCode(96), "", "", "", "", "", "", "", "ä", "ä", "~", "~", "", "", "", "", "ä", "ä", "ä", "ä", "ä", "", "ä", "", "ä", "ä",
   ],
   [
-    "overline", "773", "0305", "\u0305", "̅ ", "=", "", "/", "", "", "", "", "", "", "", "ö", "ö", "", "#", "", "", "", "", "ö", "ö", "ö", "ö", "ö", "", "ö", "", "ö", "ö",
+    "overline", "773", "0305", "\u0305", "̅ ", "=", "", String.fromCharCode(63), "", "", "", "", "", "", "", "ö", "ö", "", "#", "", "", "", "", "ö", "ö", "ö", "ö", "ö", "", "ö", "", "ö", "ö",
   ],
   [
     "overline_double", "", "033F", "\u033F", "̿ ", "", "", "", "", "", "", "", "", "", "", "ü", "ü", "", "", "", "", "", "", "ü", "ü", "ü", "ü", "ü", "", "ü", "", "ü", "ü",
@@ -455,12 +452,33 @@ const fontsMap = [
     "comma", "", "", "", ",", "", "", "%", "", "", "", "", "", ">", ">", ">", ">", "", "", "", "", "", "", ">", "", "", "", "", ",", "", "'", ">", ">",
   ],
   [
-    "akr_martyrus", "", "", "", "⳥", "", "=", "=", "U", "", "u", "", "", ".", "", "", "", "&", "&", "", "", "", "", "", "", "", "", "", "", ";", "", "", "",
+    "akr_martyrus", "", "", "", "⳥", "", String.fromCharCode(61), String.fromCharCode(61), "U", "", "u", "", "", ".", "", "", "", "&", "&", "", "", "", "", "", "", "", "", "", "", ";", "", "", "",
   ],
   [
-    "akr_tchois", "", "", "", "⳪", "", "_", "_", "u", "", "", "", "", "%", "V", "", "", "%", "%", "V", "V", "V", "", "", "V", "V", "V", "V", "", "V", "", "", "",
+    "akr_tchois", "", "", "", "⳪", "", String.fromCharCode(95), String.fromCharCode(95), "u", "", "", "", "", "%", "V", "", "", "%", "%", "V", "V", "V", "", "", "V", "V", "V", "V", "", "V", "", "", "",
   ],
   [
     "akr_pistavros", "", "", "", "ⳮ", "", "+", "+", "+", "", "", "", "", "", "~", "~", "~", "*", "*", "", "", "", "", "~", "", "", "", "", "", "", ".", "~", "~",
   ],
 ];
+
+
+/**
+ * Loops the fontsMap to find the character for a given font and either return the unicode value or replace wih another character
+ * @param {string} fontName - the name of the font that we want to query 
+ * @param {string} char - the character that needs to be replaced 
+ * @param {string} replace - the  
+ * @returns 
+ */
+function getOrReplaceCharacterForFont(fontName: string, char: string, replace: string = '') {
+  let index = fontsMap[0].indexOf(fontName);
+  if (!index) return console.log('font name not found');
+  let unicode = 4;
+  let row = fontsMap.find(row => row[index] === char);
+  if (!row)
+    return console.log('Character not found');
+  if (!replace)
+    return console.log('unicode =', row[unicode]);
+  fontsMap[fontsMap.indexOf(row)][index] = replace;
+  console.log(fontsMap)
+}
