@@ -2068,21 +2068,23 @@ function collapseOrExpandText(
   if (!titlesRows)
     titlesRows = children.filter((div) => isTitlesContainer(div));//Those are all the "Title" divs having the same data-group as titleRow
 
-  if (titlesRows.length === 1) 
+  let titleRowChildren: HTMLDivElement[];
+
+  titlesRows.length === 1?
     //If there is only 1 title for the same dataset.group divs, (which is the most common case)
-    toggleHidden(children.filter(child => child.dataset.group === titleRow.dataset.group));
-  else if (titlesRows.indexOf(titleRow) === 0) {
-    //If there are several titles sharing the same dataset.group  and titleRow is the first title div amongst those titles, we will toggle the 'hidden' class for all the other titles.
+    titleRowChildren = children.filter(child => child.dataset.group === titleRow.dataset.group)
+  :
+    titleRowChildren = children.filter(child => child.dataset.root === titleRow.dataset.root);
+  
+  toggleHidden(titleRowChildren);
+
+  if (titlesRows.indexOf(titleRow) === 0) {
+    //If there are more than one title sharing the same dataset.group, and titleRow is the first amongst those titles, we will toggle the 'hidden' class for all the other titles.
 
     titlesRows
       .filter(titleDiv => titleDiv !== titleRow)
       .forEach(titleDiv => collapseOrExpandText(titleDiv, Boolean(titleRow.dataset.isCollapsed), children, titlesRows));
   } 
-  
-  if (titlesRows.length>1)
-      //If there are several titles sharing the same dataset.group we will hide or unhide the divs sharing the same dataset.root of the titleRow
-      toggleHidden(children.filter(child => child.dataset.root === titleRow.dataset.root));
-
 
   function toggleHidden(htmlElements: HTMLElement[]) {
     htmlElements
