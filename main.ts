@@ -237,7 +237,7 @@ async function showTitlesInRightSideBar(
    * Adds shortcuts to the diffrent sections by redirecting to the title of the section
    * @param {HTMLElement} titles - a div including paragraphs, each displaying the title of the section in a given language
    */
-  function addTitle(titleRow: HTMLElement): HTMLDivElement {
+  function addTitle(titleRow: HTMLDivElement): HTMLDivElement {
     let titleDiv: HTMLDivElement = document.createElement("div"); //this is just a container
     titleDiv.role = "button";
     if (dataGroup) titleDiv.dataset.group = dataGroup;
@@ -1802,20 +1802,20 @@ function showPrayers(args: {
       if (!table.find(row => row[0].startsWith(Prefix.placeHolder))) return table;
 
       let newTable: string[][] = [...table],
-        placeHolder: string[][],
-        placeHolders = table.filter(row => row[0].startsWith(Prefix.placeHolder));
+        referencedTable: string[][],
+        references = table.filter(row => row[0].startsWith(Prefix.placeHolder));
 
-      placeHolders
+      references
         .forEach(row => {
-          placeHolder = findTable(row[1], getTablesArrayFromTitlePrefix(row[1])) || undefined;
+          referencedTable = findTable(row[1], getTablesArrayFromTitlePrefix(row[1])) || undefined;
 
-          if (!placeHolder) return;
+          if (!referencedTable) return;
 
-          if (placeHolder.find(row => row[0].startsWith(Prefix.placeHolder)))
+          if (referencedTable.find(row => row[0].startsWith(Prefix.placeHolder)))
             //If the returned table also has placeHolders amongst its rows, we will unfold the placeHolders.
-            placeHolder = unfoldPlaceHolders(placeHolder);
+            referencedTable = unfoldPlaceHolders(referencedTable);
 
-          newTable.splice(newTable.indexOf(row), 1, ...placeHolder);
+          newTable.splice(newTable.indexOf(row), 1, ...referencedTable);
 
         });
 
@@ -2029,13 +2029,16 @@ async function applyAmplifiedText(htmlRows: HTMLDivElement[]) {
 
 /**
  * Hides all the nextElementSiblings of a title html element (i.e., a div having the class 'Title' or 'SubsTitle') if the nextElementSibling has the same data-group attribute as the title html element
- * @param {HTMLElement} titleRow - the html element containing the title, which, when clicked, we will toggle the 'hidden' class from all its  nextElementSiblings
- * @param {HTMLElement} container - the html element containing the titleRow and its siblings. If ommitted, its default value is containerDiv
- * @param {boolean} toggleHidden - if set to 'true', the function will not toggle the 'hidden' class from the sibligings, but will instead always remove it if presnet. i.e., this option will make the function always show the siblings and never hide them. This was needed in some scenarios
+ * @param {HTMLDivElement} titleRow - the html div element containing the title (i.e. having class "Title" or "Subtitle" in its classList), which, when clicked, we will toggle the 'hidden' class from all the HTML div elements having the same dataset.goup or the same dataset.root
+ * @param {boolean} collapse - If collapse = true the funcion will hide the text, and will show it if collapse = false. If ommitted, the function will toggle the "hidden" class 
+ * @param {HTMLDivElement[]} children - an array of HTML div elements with the same dataset.group
+ * @param {HTMLDivElement[]} titlesRows - an array of HTML div elements having the same dataset-group and the class "Title" or "Subtitle" in their classList. 
  */
 function collapseOrExpandText(
-  titleRow: HTMLElement,
-  collapse?: boolean
+  titleRow: HTMLDivElement,
+  collapse?: boolean,
+  children?:HTMLDivElement[],
+  titlesRows?:HTMLDivElement[]
 ) {
   if (localStorage.displayMode === displayModes[1]) return; //When we are in the 'Presentation' display mode, the titles sibligins are not hidden when we click the title div
 
@@ -2054,26 +2057,31 @@ function collapseOrExpandText(
   }
   togglePlusAndMinusSignsForTitles(titleRow);
 
-  let children =
-    Array.from(containerDiv.querySelectorAll('div') as NodeListOf<HTMLElement>)
+  if (!children)
+    children =
+    Array.from(containerDiv.querySelectorAll('div') as NodeListOf<HTMLDivElement>)
       //!We must use querySelectorAll because some elements are not direct children of containerDiv (e.g. they may be nested in an expandable element)
       .filter(div => div.children.length > 0) //We exclude rows with no children (those are PlaceHolders)
       .filter(div => div.dataset.group)
       .filter(div => div.dataset.group === titleRow.dataset.group);
 
-  let titlesRows = children.filter((div) => isTitlesContainer(div));//Those are all the "Title" divs having the same data-group as titleRow
+  if (!titlesRows)
+    titlesRows = children.filter((div) => isTitlesContainer(div));//Those are all the "Title" divs having the same data-group as titleRow
 
-  if (titlesRows.indexOf(titleRow) === 0) {
-    //if titleRow is the first title having the same data-group, we will toggle the 'hidden' class for all the div elements with the same data-group.
+  if (titlesRows.length === 1) 
+    //If there is only 1 title for the same dataset.group divs, (which is the most common case)
+    toggleHidden(children.filter(child => child.dataset.group === titleRow.dataset.group));
+  else if (titlesRows.indexOf(titleRow) === 0) {
+    //If there are several titles sharing the same dataset.group  and titleRow is the first title div amongst those titles, we will toggle the 'hidden' class for all the other titles.
 
     titlesRows
       .filter(titleDiv => titleDiv !== titleRow)
-      .forEach(titleDiv => collapseOrExpandText(titleDiv, Boolean(titleRow.dataset.isCollapsed)));
-
-    toggleHidden(titlesRows);//We hide or show all the titles other than titleRow
-  }
-  //we will toggle the 'hidden' class for all the div elements with the same data-root.
-  toggleHidden(children.filter(div => div.dataset.root === titleRow.dataset.root));
+      .forEach(titleDiv => collapseOrExpandText(titleDiv, Boolean(titleRow.dataset.isCollapsed), children, titlesRows));
+  } 
+  
+  if (titlesRows.length>1)
+      //If there are several titles sharing the same dataset.group we will hide or unhide the divs sharing the same dataset.root of the titleRow
+      toggleHidden(children.filter(child => child.dataset.root === titleRow.dataset.root));
 
 
   function toggleHidden(htmlElements: HTMLElement[]) {
@@ -2131,7 +2139,7 @@ function collapseAllTitles(
     .forEach((row) => {
       if (!isTitlesContainer(row) && !row.classList.contains(hidden))
         row.classList.add(hidden);
-      else {
+      else if (isTitlesContainer(row)) {
         row.dataset.isCollapsed = "true";
         togglePlusAndMinusSignsForTitles(row);
       }

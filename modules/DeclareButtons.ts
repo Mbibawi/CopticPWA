@@ -353,8 +353,7 @@ const btnIncenseMorning: Button = new Button({
           AR: "ذكصولوجيات باكر آدام",
           FR: "Doxologies Adam du Matin",
         },
-        prayers: DoxologiesPrayersArray.filter((table) =>
-          table[0][0].startsWith(Prefix.doxologies + "AdamDawn")),
+        prayers: [findTable(Prefix.doxologies+"AdamDawn&D=$copticFeasts.AnyDay", DoxologiesPrayersArray) || undefined],
         languages: btnIncenseMorning.languages,
       })[1];
     })();
@@ -1491,7 +1490,7 @@ const btnMassUnBaptised: Button = new Button({
           );
 
         function hideHour(expandable: HTMLDivElement) {
-          if (expandable.classList.contains(hidden)) return;
+          if (expandable.classList.contains(hidden)) return;//If it is already hidden, we do not need to hide.
 
           expandable.classList.add(hidden);
 
@@ -1502,7 +1501,7 @@ const btnMassUnBaptised: Button = new Button({
         };
 
         async function showOrHideHour(expandable: HTMLDivElement) {
-          (async function showHour() {
+          (async function hourIsNotHidden() {
 
             if (expandable.classList.contains(hidden)) return;
 
@@ -1530,7 +1529,7 @@ const btnMassUnBaptised: Button = new Button({
             createFakeAnchor(expandable.id); //Jumbing to the begining of the expandable container
           })();
 
-          (function hideHour() {
+          (function hourIsHidden() {
             if (!expandable.classList.contains(hidden)) return;
             btnsDiv.style.top = "";
             btnsDiv.style.position = "";

@@ -2129,11 +2129,11 @@ PrayersArrayFR= [[
   ],
   [
   [
-  Prefix.doxologies+"AdamDawnIntorduction&D=$copticFeasts.AnyDay&C=Title", 
+  Prefix.doxologies+"AdamDawn&D=$copticFeasts.AnyDay&C=Title", 
   "", 
-  "Introduction aux Doxologies Adam", 
+  "Doxologie Introductive", 
   "", 
-  "مقدمة الذكصولوجيات (آدام)", 
+  "مقدمة الذكصولوجيات", 
   ],
   [
   Prefix.same+"&C=Diacon", 
