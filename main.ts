@@ -2071,10 +2071,9 @@ function collapseOrExpandText(
   let titleRowChildren: HTMLDivElement[];
 
   titlesRows.length === 1?
-    //If there is only 1 title for the same dataset.group divs, (which is the most common case)
-    titleRowChildren = children.filter(child => child.dataset.group === titleRow.dataset.group)
+    titleRowChildren = children.filter(child => child.dataset.group === titleRow.dataset.group) //There is only 1 title for the same dataset.group (which mostly the case)
   :
-    titleRowChildren = children.filter(child => child.dataset.root === titleRow.dataset.root);
+    titleRowChildren = children.filter(child => child.dataset.root === titleRow.dataset.root);//There are more than 1 title with the same dataset.group attribute. In this case, each titleRow will only hide the divs sharing the same dataset.root (not the same dataset.group because otherwise, all the other titles and their children will be affected)
   
   toggleHidden(titleRowChildren);
 
