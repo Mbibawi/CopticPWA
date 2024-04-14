@@ -135,11 +135,14 @@ const btnMainMenu: Button = new Button({
 
     if (Season === Seasons.HolyWeek) btnMainMenu.children = [btnHolyWeek(), btnBookOfHours];
 
+    btnMainMenu.children.push(btnBible());
+
     if ([Seasons.KiahkWeek1, Seasons.KiahkWeek2, Seasons.KiahkWeek3, Seasons.KiahkWeek4].includes(Season))
       btnPsalmody.label = {
         AR: "الإبصلمودية الكيهكية",
         FR: "Psalmodie de Kiahk",
       };
+
 
     if (localStorage.editingMode === "true")
       btnMainMenu.children.push(getEditModeButton());
@@ -353,7 +356,7 @@ const btnIncenseMorning: Button = new Button({
           AR: "ذكصولوجيات باكر آدام",
           FR: "Doxologies Adam du Matin",
         },
-        prayers: [findTable(Prefix.doxologies+"AdamDawn&D=$copticFeasts.AnyDay", DoxologiesPrayersArray) || undefined],
+        prayers: [findTable(Prefix.doxologies + "AdamDawn&D=$copticFeasts.AnyDay", DoxologiesPrayersArray) || undefined],
         languages: btnIncenseMorning.languages,
       })[1];
     })();
@@ -1041,7 +1044,7 @@ const btnMassUnBaptised: Button = new Button({
       );
       if (seasonalIntercessions.length < 1)
         return console.log("No Seasonsal Intercession Hymns");
-        
+
       let anchor = setAnchorAccordingToOccasion();
 
       if (!anchor) return;
@@ -1108,82 +1111,82 @@ const btnMassUnBaptised: Button = new Button({
       (function insertPraxis() {
         (function insertPraxisResponse() {
           //!Caution, we must start by inserting the Praxis Response before inserting the Praxis reading
-          
+
           let specialResponse: (string[][] | HTMLDivElement)[] = [];
-          let feastsDates = Object.values(copticFeasts); 
+          let feastsDates = Object.values(copticFeasts);
           let isFeast = feastsDates.includes(copticDate);
           if (!isFeast)
             isFeast =
-            feastsDates
-              .filter(v => v.startsWith(Seasons.GreatLent) || v.startsWith(Seasons.PentecostalDays))
-              .includes(copticReadingsDate);
+              feastsDates
+                .filter(v => v.startsWith(Seasons.GreatLent) || v.startsWith(Seasons.PentecostalDays))
+                .includes(copticReadingsDate);
 
-          let isStMaryFeast = Object.values(stMaryFeasts).includes(copticDate); 
-          
+          let isStMaryFeast = Object.values(stMaryFeasts).includes(copticDate);
+
           if (isFeast)
             specialResponse =
               PraxisResponsesPrayersArray.filter(
                 (table) => isMultiDatedTitleMatching(table[0][0], [copticDate, copticReadingsDate]))
                 .filter(tbl => tbl[0][0].includes('&D=$saintsFeasts.'));//We look for a response for the copticDate or copticReadingsDate, and we exclude responses for saints feasts
-            
+
           if (specialResponse.length < 1)
             specialResponse = PraxisResponsesPrayersArray.filter(
               (table) => isMultiDatedTitleMatching(table[0][0], [Season]));//We look for a response for the Season
-              
+
 
           if (isStMaryFeast || copticDay === '21' || specialResponse.length < 1)
             return ifNoSpecificResponse();
           else return ifSpecificResponse();
-        
+
           function ifSpecificResponse() {
-                if (Season === Seasons.GreatLent) {
-                  // During the Great Lent, we should get  2 tables ('Sundays', and 'Week') for this season. We will keep the relevant table accoding to the day of the week
-                  
-                  weekDay === 0 || weekDay === 6 ?
-                    specialResponse =
-                    specialResponse.filter((table) =>
-                      table[0][0].includes("Sundays&D="))
-                    :
-                    specialResponse =
-                    specialResponse.filter((table) => table[0][0].includes("Week&D="));
-                }
-    
-                if (Season === Seasons.PentecostalDays) {
-                  // The query should yield to  2 tables ('Resurrection', and 'Ascension') for this season. We will keep the relevant one accoding to the date
-                  let day = 
-                    Number(copticReadingsDate.replace(Seasons.PentecostalDays, ''))
-                  if (day < 39)
-                    specialResponse =
-                    specialResponse.filter((table) =>
-                      table[0][0].includes("Resurrection&D="))
-                  else if (day<49)
-                    specialResponse =
-                    specialResponse.filter((table) =>
-                      table[0][0].includes("Ascension&D=")
-                      )
-                    else ;
-                }
-    
-                //We insert the special response between the first and 2nd rows
+            if (Season === Seasons.GreatLent) {
+              // During the Great Lent, we should get  2 tables ('Sundays', and 'Week') for this season. We will keep the relevant table accoding to the day of the week
+
+              weekDay === 0 || weekDay === 6 ?
                 specialResponse =
-                  insertPrayersAdjacentToExistingElement({
-                    tables: getUniqueValuesFromArray(specialResponse as string[][][]) as string[][][], //We remove duplicates if any
-                    languages: prayersLanguages,
-                    position: {
-                      beforeOrAfter: "beforebegin",
-                      el: readingsAnchor, //This is the 'Ek Esmaroot' part of the annual response
-                    },
-                    container: btnDocFragment,
-                  })[0];
-    
-                insertSaintsResponse(specialResponse as HTMLDivElement[]);
+                specialResponse.filter((table) =>
+                  table[0][0].includes("Sundays&D="))
+                :
+                specialResponse =
+                specialResponse.filter((table) => table[0][0].includes("Week&D="));
+            }
+
+            if (Season === Seasons.PentecostalDays) {
+              // The query should yield to  2 tables ('Resurrection', and 'Ascension') for this season. We will keep the relevant one accoding to the date
+              let day =
+                Number(copticReadingsDate.replace(Seasons.PentecostalDays, ''))
+              if (day < 39)
+                specialResponse =
+                  specialResponse.filter((table) =>
+                    table[0][0].includes("Resurrection&D="))
+              else if (day < 49)
+                specialResponse =
+                  specialResponse.filter((table) =>
+                    table[0][0].includes("Ascension&D=")
+                  )
+              else;
+            }
+
+            //We insert the special response between the first and 2nd rows
+            specialResponse =
+              insertPrayersAdjacentToExistingElement({
+                tables: getUniqueValuesFromArray(specialResponse as string[][][]) as string[][][], //We remove duplicates if any
+                languages: prayersLanguages,
+                position: {
+                  beforeOrAfter: "beforebegin",
+                  el: readingsAnchor, //This is the 'Ek Esmaroot' part of the annual response
+                },
+                container: btnDocFragment,
+              })[0];
+
+            insertSaintsResponse(specialResponse as HTMLDivElement[]);
           };
 
           function ifNoSpecificResponse() {
-            let noSeasonResponse: (string[]|HTMLDivElement)[] = findTable(
+            let noSeasonResponse: (string[] | HTMLDivElement)[] = findTable(
               Prefix.praxisResponse + "&D=$copticFeasts.AnyDay",
               PraxisResponsesPrayersArray) || undefined;
-            
+
             if (!noSeasonResponse) return;
 
             noSeasonResponse = insertPrayersAdjacentToExistingElement({
@@ -1202,7 +1205,7 @@ const btnMassUnBaptised: Button = new Button({
 
             insertSaintsResponse(noSeasonResponse as HTMLDivElement[]);
           };
-          
+
 
           function insertSaintsResponse(responses: HTMLDivElement[]) {
             if (!responses) return;
@@ -2294,8 +2297,8 @@ function btnHolyWeek(): Button {
       if (['1H', '3H', '6H'].includes(hour) && weekDay === 0) return undefined;//On Plam Sunday we start at the 9th hour
 
       let hourReadings: string[][][] = ReadingsArrays.GospelNightArrayFR
-        .filter(table => RegExp(Prefix.HolyWeek + hour + service +  '\.*&D=' + copticReadingsDate).test(table[0][0]));
-      
+        .filter(table => RegExp(Prefix.HolyWeek + hour + service + '\.*&D=' + copticReadingsDate).test(table[0][0]));
+
       let btnHour = new Button({
         btnID: 'btn' + hour,
         label: label,
@@ -2618,6 +2621,176 @@ function btnHolyWeek(): Button {
 
       }
     };
+  }
+
+}
+
+function btnBible(): Button {
+  let newTestament = new Button({
+    btnID: 'newTestament',
+    label: {
+      AR: 'العهد الجديد',
+      FR: 'Nouveau Testament'
+    },
+    children: getBooksButtons(false)
+  });
+
+  let oldTestament = new Button({
+    btnID: 'oldTestament',
+    label: {
+      AR: 'العهد القديم',
+      FR: 'Ancien Testament'
+    },
+    children: getBooksButtons(true)
+  });
+
+  let btnBible = new Button({
+    btnID: 'btnBible',
+    label: {
+      AR: 'الكتاب المقدس',
+      FR: 'La Bible'
+    },
+    children: [oldTestament, newTestament]
+  });
+  return btnBible;
+
+  function getBooksButtons(old: boolean): Button[] {
+    let bibleDefault: bibleBookKeys[], bibleForeign: bibleBookKeys[];
+
+    bibleDefault = getBibleBooksList(defaultLanguage);
+    //  if (foreingLanguage) bibleForeign = getBibleBooksList(foreingLanguage);
+
+    let bookNamesDefault: string[], bookNamesForeign: string[];
+
+    bookNamesDefault = bibleDefault.map(book => book.human_long);
+    //if (bibleForeign) bookNamesForeign = bibleForeign.map(book => book.human);
+
+    if (old) bookNamesDefault = bookNamesDefault.slice(0, 39);
+    else if (!old) bookNamesDefault = bookNamesDefault.slice(39, bookNamesDefault.length - 1);
+
+    let labels = bookNamesDefault.map(bookName => {
+      let label = new Object();
+      label[defaultLanguage] = bookName;
+      return label
+    });
+
+    let booksButtons = labels.map(label => {
+      let btn: Button;
+      btn = new Button({
+        btnID: 'btnBibleBook' + labels.indexOf(label),
+        label: label,
+        onClick: () => btn.children = getChaptersButtons(bibleDefault.find(book => book.human_long === label[defaultLanguage]).usfm)
+      });
+      return btn
+
+    });
+    return booksButtons;
+
+  }
+
+
+  function getChaptersButtons(bookName: string): Button[] {
+
+    let Bibles = {
+      AR: BibleAR || undefined,
+      FR: BibleFR || undefined,
+      EN: BibleEN || undefined,
+    };
+
+    let chapterLable: typeBtnLabel = {
+      AR: 'إصحاح ',
+      FR: 'Chapître ',
+      EN: 'Chapter '
+    };
+
+    let defaultLangBible: Bible, foreignLangBible: Bible;
+
+    defaultLangBible = Object.entries(Bibles).find(entry => entry[0].endsWith(defaultLanguage))[1];
+
+    if (foreingLanguage)
+      foreignLangBible = Object.entries(Bibles).find(entry => entry[0].endsWith(defaultLanguage))[1];
+
+    let bookDefault: bibleBook, bookForeign: bibleBook;
+
+    bookDefault = defaultLangBible.find(book => book[0][0].startsWith(bookName));
+
+    if (foreignLangBible)
+      bookForeign = foreignLangBible.find(book => book[0][0].startsWith(bookName));
+
+    return chaptersBtns(bookDefault, bookName);
+
+    function chaptersBtns(bookDefault:bibleBook, bookName:string) {
+      let chaptersNumbers = bookDefault.map(chapter => chapter[0].split(bookName + '.')[1]);
+
+
+      let chaptersButtons = chaptersNumbers.map(number => {
+        let label = new Object();
+        label[defaultLanguage] = chapterLable[defaultLanguage] + number;
+        return new Button({
+          btnID: 'btnChapter' + number,
+          label: label,
+          onClick: () => chapterBtnOnClick(bookName, number)
+
+        })
+
+      });
+
+      return chaptersButtons
+
+      function chapterBtnOnClick(bookName: string, chapterNumber: string) {
+
+        let chapterVersions =
+          [defaultLangBible, foreignLangBible]
+            .map(bible =>
+              getBibleChapterText(bible, bookName, chapterNumber));
+
+        let splittedDefault: string[], splittedForeign: string[];
+
+        splittedDefault = chapterVersions[0]
+          .split('\n');
+        if (chapterVersions[1])
+          splittedForeign = chapterVersions[1].split('\n');
+
+        let table: string[][] = [
+          [
+            'Bible_' + bookName + chapterNumber + '&C=Title',
+          ]
+        ];
+
+        readingsLanguages.forEach(lang => table[0].push((chapterLable[lang]||'') + chapterNumber) );
+        
+        splittedDefault
+          .forEach(parag => {
+
+            let newRow = [];
+
+            newRow.push(Prefix.same + '&C=NoActor');
+
+            readingsLanguages.forEach(lang => newRow.push(''));
+
+            newRow[readingsLanguages.indexOf(defaultLanguage) +1] = parag;
+
+            if (splittedForeign)
+              newRow[readingsLanguages.indexOf(foreingLanguage)+1] = splittedForeign[splittedForeign.indexOf(parag)];
+            
+            table.push(newRow)
+            
+          });
+          
+        console.log('table = ', table);
+        showPrayers({
+          table: table,
+          languages: readingsLanguages,
+          container: containerDiv,
+          clearContainerDiv: true,
+          clearRightSideBar:true,
+        });
+
+      }
+
+    }
+
+
   }
 
 }
@@ -3071,7 +3244,7 @@ function isMultiDatedTitleMatching(
 
   return tableTitle
     .split("||")
-    .map((date) => coptDate.map(copt=>dateIsRelevant(date, copt)).includes(true))
+    .map((date) => coptDate.map(copt => dateIsRelevant(date, copt)).includes(true))
     .includes(true);
 }
 

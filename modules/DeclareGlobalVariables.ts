@@ -23,9 +23,17 @@ type typeButton = {
   docFragment?: DocumentFragment;
   any?: any;
 };
+
+type bibleVerse = string[];
+type bibleChapter = [string, bibleVerse[]];
+type bibleBook = bibleChapter[];
+type Bible = bibleBook[];
+
+type bibleBookKeys = { usfm: string, human: string, human_long: string, chapters: string[] };
+
 //CONSTANTS
 const version: string =
-"v6.4.1 (Fixes to the collapseOrExpandText())";
+  "v6.5 (Started adding the Bible in Arabic and French)";
 const calendarDay: number = 24 * 60 * 60 * 1000; //this is a day in milliseconds
 const containerDiv: HTMLDivElement = document.getElementById(
   "containerDiv") as HTMLDivElement;
@@ -509,10 +517,12 @@ const saintsFeasts = {
   ...celestialBeingsFeasts, ...MartyrsFeasts, ...nonMartyrsFeasts
 };
 
-
 const nonCopticLanguages = [["AR", "العربية"], ["FR", "Français"], ["EN", "English"]];
 const copticLanguages = [["COP", "Coptic"], ["CA", "قبطي مُعَرَّبْ"], ['CF', 'Copte en charachères français']];
 const allLanguages: string[][] = [...nonCopticLanguages, ...copticLanguages];
+
+
+var BibleAR: Bible, BibleFR: Bible, BibleEN: Bible;
 
 var userLanguages;
 if (localStorage.userLanguages) userLanguages = JSON.parse(localStorage.userLanguages) || undefined;

@@ -54,6 +54,9 @@ async function startApp() {
       "GospelNightArray",
       "PropheciesDawnArray",
       "HolyWeek",
+      "ArabicBible",
+      "FrenchBible",
+      "EnglishBible",
     ].map(async (name) => await loadScript(base, name));//!We need to return in order to halt the code until all the scripts are loaded
   }
 
@@ -11791,7 +11794,7 @@ async function fetchSynaxariumFrench(months: string[]) {
  * @param responseDoc
  * @param {string} method - the request method ('GET', 'PUT', 'POST' etc., ) its default value is 'GET'
  */
-function sendHttpRequest(
+function sendHttpRequest_(
   apiURL: string,
   method: string = "GET"
 ): Document | void {
