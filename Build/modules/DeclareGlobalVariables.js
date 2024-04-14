@@ -1,5 +1,5 @@
 //CONSTANTS
-const version = "v6.5.2 (Started adding the Bible in Arabic and French)";
+const version = "v6.5.3 (Started adding the Bible in Arabic and French)";
 const calendarDay = 24 * 60 * 60 * 1000; //this is a day in milliseconds
 const containerDiv = document.getElementById("containerDiv");
 const leftSideBar = document.getElementById("leftSideBar");

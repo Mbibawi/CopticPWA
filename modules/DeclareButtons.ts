@@ -2632,7 +2632,7 @@ function btnBible(): Button {
       AR: 'العهد الجديد',
       FR: 'Nouveau Testament'
     },
-    children: getBooksButtons(false)
+    onClick:()=>newTestament.children = getBooksButtons(false)//!We need the children to be added when the button is clicked not when it is created because the Bibles are not defined at this stage
   });
 
   let oldTestament = new Button({
@@ -2641,7 +2641,7 @@ function btnBible(): Button {
       AR: 'العهد القديم',
       FR: 'Ancien Testament'
     },
-    children: getBooksButtons(true)
+    onClick: () => oldTestament.children = getBooksButtons(true)//!We need the children to be added when the button is clicked not when it is created because the Bibles are not defined at this stage
   });
 
   let btnBible = new Button({
@@ -2655,20 +2655,21 @@ function btnBible(): Button {
   return btnBible;
 
   function getBooksButtons(old: boolean): Button[] {
-    let bibleDefault: bibleBookKeys[], bibleForeign: bibleBookKeys[];
+    let booksListDefault: bibleBookKeys[], booksListForeing: bibleBookKeys[];
 
-    bibleDefault = getBibleBooksList(defaultLanguage);
+    booksListDefault = getBibleBooksList(defaultLanguage);
     //  if (foreingLanguage) bibleForeign = getBibleBooksList(foreingLanguage);
 
-    let bookNamesDefault: string[], bookNamesForeign: string[];
+    let booksNamesDefault: string[], bookNamesForeign: string[];
 
-    bookNamesDefault = bibleDefault.map(book => book.human_long);
-    //if (bibleForeign) bookNamesForeign = bibleForeign.map(book => book.human);
+    booksNamesDefault = booksListDefault.map(book => book.human_long);
+    //if(foreingLanguage) booksNamesForeing = booksListForeing.map(book => book.human_long);
+    
 
-    if (old) bookNamesDefault = bookNamesDefault.slice(0, 39);
-    else if (!old) bookNamesDefault = bookNamesDefault.slice(39, bookNamesDefault.length - 1);
+    if (old) booksNamesDefault = booksNamesDefault.slice(0, 39);
+    else if (!old) booksNamesDefault = booksNamesDefault.slice(39, booksNamesDefault.length - 1);
 
-    let labels = bookNamesDefault.map(bookName => {
+    let labels = booksNamesDefault.map(bookName => {
       let label = new Object();
       label[defaultLanguage] = bookName;
       return label
@@ -2679,7 +2680,7 @@ function btnBible(): Button {
       btn = new Button({
         btnID: 'btnBibleBook' + labels.indexOf(label),
         label: label,
-        onClick: () => btn.children = getChaptersButtons(bibleDefault.find(book => book.human_long === label[defaultLanguage]).usfm)
+        onClick: () => btn.children = getChaptersButtons(booksListDefault.find(book => book.human_long === label[defaultLanguage]).usfm)//!We need the children to be added when the button is clicked not when it is created because the Bibles are not defined at this stage
       });
       return btn
 
@@ -2712,71 +2713,95 @@ function btnBible(): Button {
 
     let bookDefault: bibleBook, bookForeign: bibleBook;
 
-    bookDefault = defaultLangBible.find(book => book[0][0].startsWith(bookName));
+    bookDefault = defaultLangBible.find(book => book[0].usfm === bookName);
 
     if (foreignLangBible)
-      bookForeign = foreignLangBible.find(book => book[0][0].startsWith(bookName));
+      bookForeign = foreignLangBible.find(book => book[0].usfm === bookName);
 
-    return chaptersBtns(bookDefault, bookName);
+    return chaptersBtns(bookDefault);
 
-    function chaptersBtns(bookDefault:bibleBook, bookName:string) {
-      let chaptersNumbers = bookDefault.map(chapter => chapter[0].split(bookName + '.')[1]);
+    function chaptersBtns(book:bibleBook) {
+      
+      let chaptersButtons =
+        book[0].chaptersList
+          .map(number => {
+            if(/\D/.test(number)) return;//We ignore the introductions to the French version of the book because they have not been retrieved
+            let label = new Object();
+            label[defaultLanguage] = chapterLable[defaultLanguage] + number;
+            return new Button({
+              btnID: 'btnChapter' + number,
+              label: label,
+              onClick: () => chapterBtnOnClick(book[0].usfm, number)
 
+            })
 
-      let chaptersButtons = chaptersNumbers.map(number => {
-        if(/\D/.test(number)) return;//We ignore the introductions to the French version of the book because they have not been retrieved
-        let label = new Object();
-        label[defaultLanguage] = chapterLable[defaultLanguage] + number;
-        return new Button({
-          btnID: 'btnChapter' + number,
-          label: label,
-          onClick: () => chapterBtnOnClick(bookName, number)
-
-        })
-
-      });
+          });
 
       return chaptersButtons
 
-      function chapterBtnOnClick(bookName: string, chapterNumber: string) {
+      function chapterBtnOnClick(bookName:string, chapterNumber: string) {
 
         let chapterVersions =
           [defaultLangBible, foreignLangBible]
-            .map(bible =>
-              getBibleChapterText(bible, bookName, chapterNumber));
+            .filter(bible => bible)//We remove undefined
+            .map(bible => 
+              getBibleChapterText(
+                {
+                  book: bible.find(book => book[0].usfm === bookName), chapterNumber: chapterNumber
+                }));
 
-        let splittedDefault: string[], splittedForeign: string[];
+        let table: string[][];
 
-        splittedDefault = chapterVersions[0]
-          .split('\n');
-        if (chapterVersions[1])
-          splittedForeign = chapterVersions[1].split('\n');
+        (function addDefaultVersion() {
+          chapterVersions[0] = chapterVersions[0].replaceAll('#', '');
+          let splittedDefault = chapterVersions[0]
+            .split('\n');
+            table = [
+              [
+                'Bible_' + bookName + chapterNumber + '&C=Title',
+              ]
+            ];
+            readingsLanguages.forEach(lang => table[0].push((chapterLable[lang]||'') + chapterNumber) );
 
-        let table: string[][] = [
-          [
-            'Bible_' + bookName + chapterNumber + '&C=Title',
-          ]
-        ];
+            splittedDefault
+              .forEach(parag => {
+    
+                let newRow = [];
+    
+                newRow.push(Prefix.same + '&C=NoActor');
+    
+                readingsLanguages.forEach(lang => newRow.push(''));
+    
+                newRow[readingsLanguages.indexOf(defaultLanguage) +1] = parag;
+    
+                
+                table.push(newRow)
+                
+              });
+        })();
 
-        readingsLanguages.forEach(lang => table[0].push((chapterLable[lang]||'') + chapterNumber) );
-        
-        splittedDefault
-          .forEach(parag => {
-
-            let newRow = [];
-
-            newRow.push(Prefix.same + '&C=NoActor');
-
-            readingsLanguages.forEach(lang => newRow.push(''));
-
-            newRow[readingsLanguages.indexOf(defaultLanguage) +1] = parag;
-
-            if (splittedForeign)
-              newRow[readingsLanguages.indexOf(foreingLanguage)+1] = splittedForeign[splittedForeign.indexOf(parag)];
-            
-            table.push(newRow)
-            
-          });
+        (function addForeignVersion() {
+          return;
+          if (!chapterVersions[1]) return;
+          chapterVersions[1] = chapterVersions[1].replaceAll('#', '');
+          let splittedForeign = chapterVersions[1].split('\n');
+          
+          let row: string[];
+          splittedForeign.forEach(parag => {
+            row = table[splittedForeign.indexOf(parag)];
+            if (!row)
+              table.push(
+                [
+                  table[table.length - 1][0],
+                  ...readingsLanguages.map(lang => '')
+                ]
+              );
+              
+            row[readingsLanguages.indexOf(foreingLanguage) + 1] = parag;
+                
+          })
+  
+        })();
           
         console.log('table = ', table);
         showPrayers({
