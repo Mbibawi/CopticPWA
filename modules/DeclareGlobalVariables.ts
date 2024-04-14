@@ -33,7 +33,7 @@ type bibleBookKeys = { usfm: string, human: string, human_long: string, chapters
 
 //CONSTANTS
 const version: string =
-  "v6.5.1 (Started adding the Bible in Arabic and French)";
+  "v6.5.2 (Started adding the Bible in Arabic and French)";
 const calendarDay: number = 24 * 60 * 60 * 1000; //this is a day in milliseconds
 const containerDiv: HTMLDivElement = document.getElementById(
   "containerDiv") as HTMLDivElement;

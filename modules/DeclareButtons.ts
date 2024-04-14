@@ -2708,7 +2708,7 @@ function btnBible(): Button {
     defaultLangBible = Object.entries(Bibles).find(entry => entry[0].endsWith(defaultLanguage))[1];
 
     if (foreingLanguage)
-      foreignLangBible = Object.entries(Bibles).find(entry => entry[0].endsWith(defaultLanguage))[1];
+      foreignLangBible = Object.entries(Bibles).find(entry => entry[0].endsWith(foreingLanguage))[1];
 
     let bookDefault: bibleBook, bookForeign: bibleBook;
 
