@@ -2659,6 +2659,8 @@ function btnBible(): Button {
 
     booksListDefault = getBibleBooksList(defaultLanguage);
     //  if (foreingLanguage) bibleForeign = getBibleBooksList(foreingLanguage);
+    
+    if (!booksListDefault) return;
 
     let booksNamesDefault: string[], bookNamesForeign: string[];
 

@@ -10272,7 +10272,11 @@ function getBibleBooksList(lang: string): bibleBookKeys[] {
     FR: BibleFR,
     EN: BibleEN
   }
-  if (!Bibles[lang]) return undefined;
+  if (!Bibles[lang]) {
+    alert('The Bibles files have not been loaded yet, please try again later');
+    return
+  };
+  
   return Bibles[lang].map(book => book[0]);
 }
 
