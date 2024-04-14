@@ -2813,7 +2813,8 @@ function btnBible(): Button {
           clearContainerDiv: true,
           clearRightSideBar:true,
         });
-
+      
+        scrollToTop();
       }
 
     }
