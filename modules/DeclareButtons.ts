@@ -2724,6 +2724,7 @@ function btnBible(): Button {
 
 
       let chaptersButtons = chaptersNumbers.map(number => {
+        if(/\D/.test(number)) return;//We ignore the introductions to the French version of the book because they have not been retrieved
         let label = new Object();
         label[defaultLanguage] = chapterLable[defaultLanguage] + number;
         return new Button({

@@ -10250,7 +10250,7 @@ function getBibleVerse(bible: Bible, bookName: string, chapterNumber: string, ve
   */
 function getBibleChapterVerses(bible:Bible, bookName: string, chapterNumber: string): string[][] {
   return getBibleBook(bible, bookName)
-    .find(chapter => chapter[0].endsWith('.' + chapterNumber))[1]
+    .find(chapter => chapter[0].endsWith(chapterNumber))[1]
 }
 /**
    * Returns an array of [string, string[][]][] representing an entire book of the specified bibleVersion 
