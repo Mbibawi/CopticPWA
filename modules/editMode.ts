@@ -1909,7 +1909,7 @@ async function _fetchBibleVersesFromBibleCom(id: number | string, lang: string, 
 
     }
 
-    async function fetchBookChapter(bookUsfm: string, chapterNumber: string, version: version) {
+    async function fetchBookChapter(bookID: string, chapterNumber: string, version: version) {
 
       let init: RequestInit = {
         method: 'GET',
@@ -1917,7 +1917,7 @@ async function _fetchBibleVersesFromBibleCom(id: number | string, lang: string, 
           { 'accept': 'application/json' },
       }
 
-      let url = new URL(getURL(version.lang, version.id, version.id, bookUsfm, chapterNumber));
+      let url = new URL(getURL(version.lang, version.id, version.id, bookID, chapterNumber));
 
       const response = await fetch(url, init);
 
@@ -1926,63 +1926,53 @@ async function _fetchBibleVersesFromBibleCom(id: number | string, lang: string, 
         return
       };
 
-      if (!response || response.status !== 200) {
-        console.log('Request failed: response stauts = ', response.status);
-        return
-      };
-
       const json = await response.json();
 
+      return extractChapterFromJSON(json, bookID, chapterNumber);
+      
+    }
+    
+    function extractChapterFromJSON(json, bookID:string, chapterNumber:string) {
       if (!json || !json.pageProps || !json.pageProps.chapterInfo) return;
       let jsonContent: string = json.pageProps.chapterInfo.content;
-
       if (!jsonContent) return;
-      let parsed = new DOMParser().parseFromString(jsonContent, 'text/html');
-      if (!parsed) return [];
+      let html = new DOMParser().parseFromString(jsonContent, 'text/html');
+      if (!html) return;
+      let chapter: bibleVerse[] = []
+      if (!html) return;
+      let div = html.querySelector('div.chapter');
+      if (!div || !div.children) return;
+      let paragraphs =
+        Array.from(div.children)
+          .filter(div => ['p', 'q', 'ipi'].map(x => div.classList.contains(x)).includes(true)) as HTMLDivElement[];
 
-      return extractChapterVerses(parsed);
+      let spans: HTMLSpanElement[],
+        verses: bibleVerse[],
+        label: HTMLSpanElement,
+        content: string;
 
+      chapter.push([bookID + '.' + chapterNumber]);
 
-      //const chapter = await processResponse()
+      paragraphs
+        .forEach(div => {
+        spans = Array.from(div.querySelectorAll('span.verse'));
+        verses =
+          spans.map(span => {
+            label = span.querySelector('span.label') as HTMLSpanElement;
+            content = Array.from(span.querySelectorAll('span.content')).map((span: HTMLSpanElement) => span.innerText).join('');
 
-      function extractChapterVerses(html: Document) {
-        let chapter: bibleVerse[] = []
-        if (!html) return;
-        console.log('html = ', html);
-        let div = html.querySelector('div.chapter');
-        if (!div || !div.children) return;
-        let paragraphs =
-          Array.from(div.children)
-            .filter(div => ['p', 'q', 'ipi'].map(x => div.classList.contains(x)).includes(true)) as HTMLDivElement[];
+            if (!label || !label.innerText || !content || !content) return [''];//It means this is not a verse
 
-        let spans: HTMLSpanElement[],
-          verses: bibleVerse[],
-          label: HTMLSpanElement,
-          content: string;
-
-        chapter.push([bookUsfm + '.' + chapterNumber]);
-
-        paragraphs.forEach(div => {
-          spans = Array.from(div.querySelectorAll('span.verse'));
-          verses =
-            spans.map(span => {
-              label = span.querySelector('span.label') as HTMLSpanElement;
-              content = Array.from(span.querySelectorAll('span.content')).map((span: HTMLSpanElement) => span.innerText).join('');
-
-              if (!label || !label.innerText || !content || !content) return [''];//It means this is not a verse
-
-              return [
-                label.innerText,
-                content,
-              ]//We are returning a verse
-            });
-          verses = verses.filter(verse => verse.length > 1);
-          chapter.push(...verses);//We push the verses to the chapter
-          chapter.push(['\n']); //We push a new paragraph mark after the pargraph div    
-        });
-        return chapter
-      }
-
+            return [
+              label.innerText,
+              content,
+            ]//We are returning a verse
+          });
+        verses = verses.filter(verse => verse.length > 1);
+        chapter.push(...verses);//We push the verses to the chapter
+        chapter.push(['\n']); //We push a new paragraph mark after the pargraph div    
+      });
+      return chapter
     }
 
     function getURL(lang: string, bibleID: string, bibleUsfm: string, bookID: string, chapterNumber: string): string {

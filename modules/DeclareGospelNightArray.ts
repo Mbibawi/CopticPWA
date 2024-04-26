@@ -1010,7 +1010,9 @@ ReadingsArrays.GospelNightArrayFR = [
             "",
             "",
         ],
-        [Prefix.readingRef + "ISA:5:20-30&C=Diacon"],
+        [Prefix.readingRef + "ISA:5:20-23&C=Diacon"],
+        [Prefix.readingRef + "ISA:5:24-25&C=Diacon"],
+        [Prefix.readingRef + "ISA:5:26-30&C=Diacon"],
 
         [
             Prefix.same + "&C=Title",
@@ -1036,7 +1038,10 @@ ReadingsArrays.GospelNightArrayFR = [
             "",
             "",
         ],
-        [Prefix.readingRef + "JER:9 : 12-19&C=Diacon"],
+        [Prefix.readingRef + "JER:9 : 12-15&C=Diacon"],
+        [Prefix.readingRef + "JER:9 : 16-16&C=Diacon"],
+        [Prefix.readingRef + "JER:9 : 17-18&C=Diacon"],
+        [Prefix.readingRef + "JER:9 : 19-19 &C=Diacon"],
     ],
     [
         [
@@ -1129,7 +1134,10 @@ ReadingsArrays.GospelNightArrayFR = [
             "",
             "",
         ],
-        [Prefix.readingRef + "EXO:32:7-15&C=Diacon"],
+        [Prefix.readingRef + "EXO:32:7-10&C=Diacon"],
+        [Prefix.readingRef + "EXO:32:11-12&C=Diacon"],
+        [Prefix.readingRef + "EXO:32:13-14&C=Diacon"],
+        [Prefix.readingRef + "EXO:32:15-15&C=Diacon"],
         [
             Prefix.same + "&C=Title",
             "",
@@ -1244,8 +1252,14 @@ ReadingsArrays.GospelNightArrayFR = [
             "",
             "",
         ],
-        [Prefix.readingRef + "GEN:2:15-End&C=Diacon"],
-        [Prefix.readingRef + "GEN:3:1-24&C=Diacon"],
+        [Prefix.readingRef + "GEN:2:15-19&C=Diacon"],
+        [Prefix.readingRef + "GEN:2:20-21&C=Diacon"],
+        [Prefix.readingRef + "GEN:2:22-24&C=Diacon"],
+        [Prefix.readingRef + "GEN:3:1-7&C=Diacon"],
+        [Prefix.readingRef + "GEN:3:8-13&C=Diacon"],
+        [Prefix.readingRef + "GEN:3:14-19&C=Diacon"],
+        [Prefix.readingRef + "GEN:3:20-21&C=Diacon"],
+        [Prefix.readingRef + "GEN:3:22-24&C=Diacon"],
         [
             Prefix.same + "&C=Title",
             "",
@@ -1270,7 +1284,8 @@ ReadingsArrays.GospelNightArrayFR = [
             "",
             "",
         ],
-        [Prefix.readingRef + "ISA:40: 1-5&C=Diacon"],
+        [Prefix.readingRef + "ISA:40:1-2&C=Diacon"],
+        [Prefix.readingRef + "ISA:40:3-5&C=Diacon"],
         [
             Prefix.same + "&C=Title",
             "",
@@ -1295,7 +1310,8 @@ ReadingsArrays.GospelNightArrayFR = [
             "",
             "",
         ],
-        [Prefix.readingRef + "PRO:1:1-9&C=Diacon"],
+        [Prefix.readingRef + "PRO:1:1-6&C=Diacon"],
+        [Prefix.readingRef + "PRO:1:7-9&C=Diacon"],
     ],
     [
         [
@@ -1496,7 +1512,7 @@ ReadingsArrays.GospelNightArrayFR = [
             "",
             "",
         ],
-        [Prefix.readingRef + "ISA:50:1-3"],
+        [Prefix.readingRef + "ISA:50:1-3&C=Diacon"],
         [
             Prefix.same + "&C=Title",
             "",
@@ -1664,24 +1680,7 @@ ReadingsArrays.GospelNightArrayFR = [
             "",
             "",
         ],
-        [
-            Prefix.same + "&C=Diacon",
-            "",
-            "La deuxième année de Darius, au huitième mois, la parole du Seigneur fut adressée au prophète Zacharie fils de Bérékya, fils de Iddo, en ces termes :",
-            "وفى الشهر الثامن من السنة الثانية لداريوس، كانت كلمة الرب إلى زكريا ابن براشيا بن عدو النبى قائلاً:",
-        ],
-        [
-            Prefix.same + "&C=Diacon",
-            "",
-            "Le Seigneur s'est grandement irrité contre vos pères. Tu leur diras : Ainsi parle le Seigneur Sabaot. Revenez à moi - oracle du Seigneur Sabaot - et je reviendrai vers vous, dit le Seigneur Sabaot. Ne soyez pas comme vos pères à qui les prophètes du passé lancèrent cet appel : Ainsi parle le Seigneur Sabaot. Revenez donc de vos voies mauvaises et de vos actions mauvaises. Mais eux n'écoutèrent pas et ne me prêtèrent pas attention - oracle du Seigneur.",
-            "\"قد غضب الرب على آبائكم قائلاً، قل لهم هكذا ما يقوله الرب الضابط الكل، إرجعوا إلىّ وأنا أيضاً أرجع إليكم، قال الرب الضابط الكل. ولا تكونوا كآبائكم الذين خاطبهم الأنبياء الأولون قائلين: هذا ما يقوله الرب الضابط الكل، إرجعوا عن طرقكم الرديئة وعن أعمالكم الشريرة، فلم يصغوا. قال الرب الضابط الكل.",
-        ],
-        [
-            Prefix.same + "&C=Diacon",
-            "",
-            "Vos pères, où sont-ils ? Et les prophètes, sont-ils toujours en vie ? Mais mes ordres et mes décrets, ceux que j'avais donnés à mes serviteurs les prophètes, n'ont-ils pas atteint vos pères ? Alors ils se sont convertis et ont dit : le Seigneur Sabaot nous a traités comme il avait résolu de le faire, selon nos voies et nos actions.",
-            "فأين هم آباؤكم والأنبياء؟ فهل يحيون إلى الأبد؟ لكن نواميسى وأقوالى إقبلوها، تلك التى أمرت بها روح عبيدى الأنبياء الذين أدركوا آباءكم وخاطبوهم قائلين: كما أمر الرب الضابط الكل أن يصنع بكم بحسب طرقكم. وكأعمالكم هكذا صنع بكم.",
-        ],
+        [Prefix.readingRef + "ZEC:1:1-6&C=Diacon"],
     ],
     [
         [
@@ -1768,30 +1767,9 @@ ReadingsArrays.GospelNightArrayFR = [
             "",
             "",
         ],
-        [
-            Prefix.same + "&C=Diacon",
-            "",
-            "Oracle. Parole du Seigneur à Israël, par le ministère de Malachie. Je vous ai aimés! dit le Seigneur. Cependant vous dites: En quoi nous as-tu aimés ?",
-            "بدء كلام الرب لإسرائيل على يد ملاكه: ضعوا في قلوبكم أني أحببتكم يقول الرب. وقلتم: بم أحببتنا؟",
-        ],
-        [
-            Prefix.same + "&C=Diacon",
-            "",
-            "Ésaü n'était-il pas le frère de Jacob ? Oracle du Seigneur or j'ai aimé Jacob mais j'ai haï Ésaü. Je fis de ses montagnes une solitude et de son héritage des pâturages de désert. Si Édom dit : \" Nous avons été détruits, mais nous relèverons nos ruines\", ainsi parle le Seigneur Sabaot : Qu'ils bâtissent, moi je démolirai ! On les surnommera \" Territoire d'impiété\" et \" Le peuple contre qui le Seigneur est courroucé à jamais \".",
-            "أليس عيسو أخا ليعقوب؟ يقول الرب. وقد أحببت يعقوب وأبغضت عيسو. وجعلت حدوده للفساد ونصيب ميراثه قفراً. ( لبنات آوى ) وإن قال الأدوميون إننا قد إنهدمنا فلنرجع ونبنى خربها هذا ما يقول الرب الضابط الكل. هم يبنون وأنا أهدم. وأدعوها تخم الإثم والشعب الذي قاومه الرب إلى الأبد.",
-        ],
-        [
-            Prefix.same + "&C=Diacon",
-            "",
-            "Vos yeux le verront et vous direz: le Seigneur est grand par-delà le territoire d'Israël! Un fils honore son père; un serviteur craint son maître. Mais si je suis père, où donc est l'honneur qui m'est dû? Si je suis maître, où donc est ma crainte? dit le Seigneur Sabaot, à vous les prêtres, qui méprisez mon Nom. Mais vous dites: En quoi avons-nous méprisé ton Nom? C'est que vous offrez sur mon autel des aliments souillés.",
-            "فتبصر عيونكم وأنتم تقولون لقد تعظم الرب فوق تخوم إسرائيل. الإبن يكرم أباه والعبد سيده. فإن كنت أنا أباً فأين كرامتى. وإن كنت سيداً فأين مهابتى. قال الرب الضابط الكل وأنتم أَيُّهَا الكهنة المحتقرون إسمي.",
-        ],
-        [
-            Prefix.same + "&C=Diacon",
-            "",
-            "Mais vous dites: En quoi t'avons-nous souillé? En disant: La table du Seigneur est méprisable. Quand vous amenez des bêtes aveugles pour le sacrifice, n'est-ce pas mal? Et quand vous en amenez des boiteuses ou des malades, n'est-ce pas mal? Présente-les donc à ton gouverneur: en sera-t-il content? Te recevra-t-il bien? dit le Seigneur Sabaot.",
-            "وقلتم بم أحتقرنا إسمك. لأنكم قربتم على مذبحى خبزاً نجساً وقلتم بم نجسناه. بقولكم أن مائدة الرب حقيرة وحقيرة هى الأطعمة الموضوعة عليها. إذ قربتم الأعمى ذبيحة ، أفليس ذلك شرا؟ وإذ قربتم الأعرج أو السقيم أفليس ذلك شراً؟ قربه لرئيسك أفيقبله منك؟ أو يقبل وجهك؟ يقول الرب الضابط الكل.",
-        ],
+        [Prefix.readingRef + "MAL:1:1-1&C=Diacon"],
+        [Prefix.readingRef + "MAL:1:2-5&C=Diacon"],
+        [Prefix.readingRef + "MAL:1:6-9&C=Diacon"],
     ],
     [
         [
@@ -1878,30 +1856,10 @@ ReadingsArrays.GospelNightArrayFR = [
             "",
             "",
         ],
-        [
-            Prefix.same + "&C=Diacon",
-            "",
-            "Si toi, tu te prostitues, Israël, que Juda ne se rende pas coupable! N'allez pas à Gilgal, ne montez pas à Bet-Aven, et ne jurez pas « par la vie du Seigneur ». Car telle une vache rétive, Israël a été rétif;",
-            "و أما أنت يا إسرائيل فلا تكن جاهلاً، ويا يهوذا لا تدخل الجلجال، ولا تذهبوا إلى الظلم. ولا تحلفوا بالرب الحى، لأنه قد جمح إسرائيل كعجلة جامحة.",
-        ],
-        [
-            Prefix.same + "&C=Diacon",
-            "",
-            "et maintenant le Seigneur le ferait paître comme un agneau dans un vaste parcage? Éphraïm est l'allié des idoles, laisse-le! Leur beuverie terminée, ils ne font que se prostituer ; ils préfèrent l'Ignominie à leur Orgueil. Le vent les emportera de ses ailes, et ils auront honte de leurs sacrifices. Écoutez ceci, prêtres, sois attentive, maison d'Israël, maison du roi, prête l'oreille! Car c'est vous que concerne le droit,",
-            "فالآن يرعاهم الرب كحمل في موضع رحب. خليل الأصنام إفرايم قد كنت له شكاً، فأطاعوا الكنعانيين وزنوا زنى إلى الآخر، وأحبوا الهوان بالتعاظم، وأنت في جناحيك هبوب ريح، وسيخزون في مذبحهم. إسمعوا لهذا أَيُّهَا الكهنة وأنصتوا يا بيت إسرائيل. وإصغوا يا بيت الملك. لأن الحكم موضوع قبالتكم.",
-        ],
-        [
-            Prefix.same + "&C=Diacon",
-            "",
-            "mais vous avez été un piège à Miçpa, et un filet tendu sur le Tabor. Ils ont approfondi la fosse de Shittim, eh bien, moi, je vais les punir tous. Moi, je connais Éphraïm, Israël ne m'est point caché. Oui, tu t'es prostitué, Éphraïm, Israël s'est souillé. Leurs œuvres ne leur permettent pas de revenir vers leur Dieu, car un esprit de prostitution est en leur sein et ils ne connaissent pas le Seigneur. L'orgueil d'Israël témoigne contre lui ;",
-            "إذا قد صرتم فخاً للمحرس، وكالشبكة المنصوبة على تابور( تل مرتفع ) تلك التى ينصبها الصيادون للصيد وأنا معلمكم أنا عرفت أفرايم ولم يخف عنى إسرائيل لأن الآن قد زنى أفرايم وتنجس إسرائيل. ولم يوجهوا أفكار قلوبهم ليرجعوا إلى إلههم. لأن روح الزنى فيهم والرب لم يعرفوه. و سيغطى إسرائيل وجهه بذراعه (من الخزى).",
-        ],
-        [
-            Prefix.same + "&C=Diacon",
-            "",
-            "Israël et Éphraïm trébuchent à cause de leur faute, Juda aussi trébuche avec eux. Avec leurs brebis et leurs bœufs, ils iront chercher le Seigneur, mais ils ne le trouveront pas: il s'est retiré d'eux! Ils ont trahi le Seigneur, ils ont engendré des bâtards; maintenant la néoménie va les dévorer, eux et leurs champs.",
-            "فيرجم إسرائيل وأفرايم بالظلم ويرجم يهوذا أيضاً معهم، ويذهبون بغنم وثيران ليطلبوا الرب فلا يجدونه، لأنه قد تنحى عنهم. بما أنهم قد إنصرفوا عن الرب وصارت لهم ثيران وكَانَ لهم بنين غرباء، فالآن يأكلهم الدبا (القمل) مع ميراثهم.",
-        ],
+        [Prefix.readingRef + "HOS:4:15-End&C=Diacon"],
+        [Prefix.readingRef + "HOS:5:1-1&C=Diacon"],
+        [Prefix.readingRef + "HOS:5:2-3&C=Diacon"],
+        [Prefix.readingRef + "HOS:5:4-7&C=Diacon"],
     ],
     [
         [
@@ -1988,24 +1946,9 @@ ReadingsArrays.GospelNightArrayFR = [
             "",
             "",
         ],
-        [
-            Prefix.same + "&C=Diacon",
-            "",
-            "Faites-vous des semailles selon la justice, moissonnez à proportion de l'amour; défrichez-vous des terres en friche: il est temps de rechercher le Seigneur, jusqu'à ce qu'il vienne faire pleuvoir sur vous la justice.",
-            "إزرعوا لأنفسكم براً، إجنوا ثمرة الحياة. إستنيروا بنور المعرفة، وإطلبوا الرب حتى يأتيكم ثمرة البر.",
-        ],
-        [
-            Prefix.same + "&C=Diacon",
-            "",
-            "Vous avez labouré la méchanceté, vous avez moissonné l'injustice, vous avez mangé le fruit du mensonge. Parce que tu t'es confié dans tes chars, dans la multitude de tes guerriers, un grondement s'élèvera parmi ton peuple et toutes tes forteresses seront dévastées, comme Shalmân dévasta Bet-Arbel, au jour du combat, quand la mère était écrasée sur ses enfants.",
-            "لماذا سكتم على النفاق الذي فيكم، وحفظتم ظلمكم، وأكلتم ثمرة الكذب؟ لأنك توكلت على مركباتك وكثرة قوتك، فيقوم هلاك في شعبك وتخرب جميع حصونك (المسيجة) كخراب بيت يوربعام من أراخنة سليمان يوم الحرب. إذ حطمت الأمهات على البنين. هكذا أصنع بكم يا بيت إسرائيل",
-        ],
-        [
-            Prefix.same + "&C=Diacon",
-            "",
-            "Voilà ce que vous a fait Béthel, pour votre méchanceté sans nom; à l'aurore, oui, c'en sera fait du roi d'Israël ! Quand Israël était jeune, je l'ai aimé, et d'Egypte j'ai appelé mon fils. Mais plus je les appelais, plus ils s'écartaient de moi; aux Baals ils sacrifiaient, aux idoles ils brûlaient de l'encens.",
-            "أمامكم من قدام وجهي. لأن ظلمكم وشروركم طرحت ملك إسرائيل خارجاً. لأن إسرائيل صغير وأنا أحببته ودعوت أبنه وأبنى من مصر. فكما دعوتهم. هكذا ذهبوا عن وجهى. فذبحوا للبعليم وبخروا للمنحوتات.",
-        ],
+        [Prefix.readingRef + "HOS:10:12-14&C=Diacon"],
+        [Prefix.readingRef + "HOS:10:15-End&C=Diacon"],
+        [Prefix.readingRef + "HOS:11:1-2&C=Diacon"],
     ],
     [
         [
@@ -2104,30 +2047,9 @@ ReadingsArrays.GospelNightArrayFR = [
             "",
             "",
         ],
-        [
-            Prefix.same + "&C=Diacon",
-            "",
-            "Cherchez le Seigneur et vous vivrez, de peur qu'il ne fonde comme le feu sur la maison de Joseph, qu'il ne dévore, et personne à Béthel pour éteindre!",
-            "اطلبوا الرب فتحيوا. لئلا يتقد بيت يوسف كنار فيحترق، وليس من يطفئ من بيت اسرائيل.",
-        ],
-        [
-            Prefix.same + "&C=Diacon",
-            "",
-            "Ils changent le droit en absinthe et jettent à terre la justice. C'est lui qui fait les Pléiades et Orion, qui change en matin les ténèbres épaisses et obscurcit le jour comme la nuit; lui qui appelle les eaux de la mer et les répand sur la face de la terre; le Seigneur tout puissant est son nom.\nIl déchaîne la dévastation sur celui qui est fort, et la dévastation arrive sur la citadelle. Ils haïssent quiconque réprimande à la Porte,",
-            "الرب يصنع حكماً في العلى. ووضع العدل على الأرض. هو الذي خلق كل الأشياء وينقلها، الذي يحول الظل صباحاً ويغشى النهار بالليل. الذي يدعو مياه البحر فيفيضها على وجه الأرض كلها، الرب الإله الضابط الكل هو إسمه. المنزل الإنحطام على القوة ويأتي بالدمار على الموضع الحصين. لقد أبغضوا الموبخ في الأبواب.",
-        ],
-        [
-            Prefix.same + "&C=Diacon",
-            "",
-            "ils abhorrent celui qui parle avec intégrité. Eh bien! puisque vous piétinez le faible et que vous prélevez sur lui un tribut de froment, ces maisons en pierres de taille que vous avez bâties, vous n'y habiterez pas ; ces vignes délicieuses que vous avez plantées, vous n'en boirez pas le vin. Car je sais combien\nnombreux sont vos crimes, énormes vos péchés, oppresseurs du juste, extorqueurs de rançons, vous qui, à la Porte, déboutez les pauvres.",
-            "ونجسوا الكلام الطاهر. من أجل ذلك هذا ما يقوله الرب: بما أنكم ضربتم المساكين على رؤوسهم. وأخذتم منهم هدايا فاخرة. شيدتم بيوتا حسنة ولا تسكنون فيها. وغرستم كروما مختارة ولا تشربون من خمرها. فإنى عالم بنفاقكم الكثير وخطاياكم المتجددة. تدوسون البار وتأخذون الرشوة وتصدون البائسين من الأبواب.",
-        ],
-        [
-            Prefix.same + "&C=Diacon",
-            "",
-            "Voilà pourquoi l’homme avisé se tait en ce temps-ci, car c’est un temps de malheur. Recherchez le bien et non le mal, afin que vous viviez.",
-            "لذلك يسكت العاقل في ذلك الزمان لأنه ذلك الزمان لأنه زمان ردئ. فإطلبوا الخير لا الشر لتحيوا.",
-        ],
+        [Prefix.readingRef + "AMO:5:6-7&C=Diacon"],
+        [Prefix.readingRef + "AMO:5:8-13&C=Diacon"],
+        [Prefix.readingRef + "AMO:5:14-14&C=Diacon"],
     ],
     [
         [
@@ -2208,18 +2130,9 @@ ReadingsArrays.GospelNightArrayFR = [
             "",
             "",
         ],
-        [
-            Prefix.same + "&C=Diacon",
-            "",
-            "Le troisième mois après leur sortie du pays d'Égypte. Ce jour-là, les Israélites atteignirent le désert du Sinaï. Ils partirent de Rephidim et atteignirent le désert du Sinaï, et ils campèrent dans le désert; Israël campa là, en face de la montagne. Moïse alors monta vers Dieu. Le Seigneur l'appela de la montagne et lui dit: «Tu parleras ainsi à la maison de Jacob, tu déclareras aux Israélites: \"Vous avez vu vous-mêmes ce que j'ai fait aux Égyptiens, et comment je vous ai emportés sur des ailes d'aigles et amenés vers moi. Maintenant, si vous écoutez ma voix et gardez mon alliance, je vous tiendrai pour mon bien propre parmi tous les peuples, car toute la terre est à moi. Je vous tiendrai pour un royaume de prêtres, une nation sainte. Voilà les paroles que tu diras aux Israélites.»",
-            "1 فِي الشَّهْرِ الثَّالِثِ بَعْدَ خُرُوجِ بَنِي إِسْرَائِيلَ مِنْ أَرْضِ مِصْرَ، فِي ذلِكَ الْيَوْمِ جَاءُوا إِلَى بَرِّيَّةِ سِينَاءَ. 2 ارْتَحَلُوا مِنْ رَفِيدِيمَ وَجَاءُوا إِلَى بَرِّيَّةِ سِينَاءَ فَنَزَلُوا فِي الْبَرِّيَّةِ. هُنَاكَ نَزَلَ إِسْرَائِيلُ مُقَابِلَ الْجَبَلِ. 3 وَأَمَّا مُوسَى فَصَعِدَ إِلَى اللهِ. فَنَادَاهُ الرَّبُّ مِنَ الْجَبَلِ قَائِلًا: \"هكَذَا تَقُولُ لِبَيْتِ يَعْقُوبَ، وَتُخْبِرُ بَنِي إِسْرَائِيلَ: 4 \"أَنْتُمْ رَأَيْتُمْ مَا صَنَعْتُ بِالْمِصْرِيِّينَ. وَأَنَا حَمَلْتُكُمْ عَلَى أَجْنِحَةِ النُّسُورِ وَجِئْتُ بِكُمْ إِلَيَّ. 5 فَالآنَ إِنْ سَمِعْتُمْ لِصَوْتِي، وَحَفِظْتُمْ عَهْدِي تَكُونُونَ لِي خَاصَّةً مِنْ بَيْنِ جَمِيعِ الشُّعُوبِ. فَإِنَّ لِي كُلَّ الأَرْضِ. 6 وَأَنْتُمْ تَكُونُونَ لِي مَمْلَكَةَ كَهَنَةٍ وَأُمَّةً مُقَدَّسَةً. هذِهِ هِيَ الْكَلِمَاتُ الَّتِي تُكَلِّمُ بِهَا بَنِي إِسْرَائِيلَ\".",
-        ],
-        [
-            Prefix.same + "&C=Diacon",
-            "",
-            "Moïse alla et convoqua les anciens du peuple et leur exposa tout ce que le Seigneur lui avait ordonné, et le peuple entier, d'un commun accord, répondit : «Tout ce que le Seigneur a dit, nous le ferons.» Moïse rapporta au Seigneur les paroles du peuple.",
-            "7 فَجَاءَ مُوسَى وَدَعَا شُيُوخَ الشَّعْبِ وَوَضَعَ قُدَّامَهُمْ كُلَّ هذِهِ الْكَلِمَاتِ الَّتِي أَوْصَاهُ بِهَا الرَّبُّ. 8 فَأَجَابَ جَمِيعُ الشَّعْبِ مَعًا وَقَالُوا: «كُلُّ مَا تَكَلَّمَ بِهِ الرَّبُّ نَفْعَلُ». فَرَدَّ مُوسَى كَلاَمَ الشَّعْبِ إِلَى الرَّبِّ.\n",
-        ],
+        [Prefix.readingRef + "EXO:19:1-2&C=Diacon"],
+        [Prefix.readingRef + "EXO:19:3-6&C=Diacon"],
+        [Prefix.readingRef + "EXO:19:7-9&C=Diacon"],
         [
             Prefix.same + "&C=Title",
             "",
@@ -2244,42 +2157,14 @@ ReadingsArrays.GospelNightArrayFR = [
             "",
             "",
         ],
-        [
-            Prefix.same + "&C=Diacon",
-            "",
-            "C'est toujours une révolte que ma plainte ; sa main reste pesante, malgré mon gémissement. Oh! Si je savais comment l'atteindre, parvenir jusqu'à sa demeure, J'ouvrirais un procès devant lui, ma bouche serait pleine de griefs. Je connaîtrais les termes de sa réponse, attentif à ce qu'il me dirait. Jetterait-il toute sa force dans ce débat avec moi ? Non, il lui suffirait de me prêter attention. Il reconnaîtrait dans son adversaire un homme droit, et je triompherais de mon juge. Si je vais vers l'orient, il est absent ;",
-            "أنا أعلم أن توبيخي هو منه. ويده قد ثقلت على تنهدى. من الذي يعلم أني أجده؟ وأنهم تحابوا مَعِي إلى التمام، ولست أستطيع أن أقول حكمًا أمامه، فيمتلئ فمي توبيخًا. أنا أعلم بثبات ما يقوله لي، وأشعر بما يعرفنى إياه، ولا يأتى على بقوة عظيمة، ولا يفسح لي في الرجز. لأن البر والتوبيخ هما منه. و يخرج حكمي إلى الإنقضاء وأمضى إلى الأوائل. ولا أكون بعد، ولا أعلم ما في الأواخر.",
-        ],
-        [
-            Prefix.same + "&C=Diacon",
-            "",
-            "vers l'occident, je ne l'aperçois pas. Quand il agit au nord, je ne le saisis pas, s'il se tourne au midi, je ne le vois pas. Et pourtant, la voie qui est la mienne, il la connaît! Qu'il me passe au creuset: or pur j'en sortirai! Mon pied s'est attaché à ses pas, j'ai gardé sa voie sans dévier; je n'ai pas négligé le commandement de ses lèvres, j'ai abrité dans mon sein les paroles de sa bouche. Mais lui décide, qui le fera changer? Ce qu'il a projeté, il l'accomplit. Il exécutera donc ma sentence, comme tant d'autres de ses décrets ! C'est pourquoi, devant lui, je suis terrifié ; plus j'y songe, plus il me fait peur. Dieu a brisé mon courage, Shaddaï me remplit d'effroi. Car je n'ai pas été anéanti devant les ténèbres mais il a recouvert ma face d'obscurité. Pourquoi Shaddaï n'a-t-il pas des temps en réserve, et ses fidèles ne voient-ils pas ses jours? Les méchants déplacent les bornes, ils enlèvent troupeau et berger.",
-            "خلق الشمال ولم أمسك ما يستر اليمين ولا أنظر. هو عارف طريقى ومحصنى مثل الذهب. فأسلك بحسب أوامره ولا أرفضها أخفى كلامه في حضنى. فإن كان قد حكم هكذا فمن هو الذي يقاومه. وهو ما يريده يفعله من أجل ذلك أسرعت إليه أدبنى فخفت منه. لهذا أسرع قدام وجهه وأتأمل فأرتعب منه. لأن الرب قد أضعف قلبى. والضابط الكل أسرع ورائى. لأنى كنت أعلم أن الظلمة ستأتى على. والضباب غطى وجهى كيف خفيت هذه الساعات عن الرب. فتجاوز المنافقون حدودهم مختطفين القطيع مع راعيه؟",
-        ],
-        [
-            Prefix.same + "&C=Diacon",
-            "",
-            "On emmène l'âne des orphelins, on prend en gage le bœuf de la veuve. Les indigents doivent s'écarter du chemin, les pauvres du pays se cacher tous ensemble. Tels les onagres du désert, ils sortent à leur travail, cherchant dès l'aube une proie, et le soir, du pain pour leurs petits. Ils moissonnent dans le champ d'un vaurien, ils pillent la vigne d'un méchant. Ils passent la nuit nus, sans vêtements, sans couverture contre le froid. L'averse des montagnes les transperce; faute d'abri, ils étreignent le rocher. ",
-            "وأخذوا حمار الأيتام وأرتهنوا بقرة الأرملة. وجعلوا الضعفاء يميلون عن طريق الحق وأختفى ودعاء الأرض معًا. وصاروا كالبقر في الحقل. وطرحوا أعمالهم على وإستحلوا خبز الأطفال. وحقلًا ليس لهم حصدوه قبل أوانه. يعمل الضعفاء في كروم المنافقين بلا أجرة ولا طعام. كثيرًا ما جعلوهم يبيتون عراة بغير لباس ونزعوا كساء أنفسهم. فأبتلوا من قطر الجبال. وحيث أن لا خيام لهم أستتروا بالصخور.",
-        ],
-        [
-            Prefix.same + "&C=Diacon",
-            "",
-            "On arrache l'orphelin à la mamelle, on prend en gage le nourrisson du pauvre. Ils s'en vont nus, sans vêtements; affamés, ils portent les gerbes. Entre deux murettes, ils pressent l'huile; altérés, ils foulent les cuves. De la ville on entend gémir les mourants, les blessés, dans un souffle, crier à l'aide. Et Dieu reste sourd à la prière! D'autres sont de ceux qui repoussent la lumière: ils en méconnaissent les chemins, n'en fréquentent pas les sentiers. Il fait noir quand l'assassin se lève, pour tuer le pauvre et l'indigent. Durant la nuit rôde le voleur, L'œil de l'adultère épie le crépuscule: «Personne ne me verra», dit-il, et il met un voile sur son visage.",
-            "خطفوا الأيتام عن ثديهم. ومن سقط أذلوه بظلمهم جعلوا قومًا ينامون عراة. و أخذوا خبز الجياع. في المواضع الضيقة إصطادوا بالظلم. وطريق العدل لم يعرفوه. والذين طردوهم من مدنهم وبيوتهم لم يعرفوهم. فصارت نفس الأطفال في تنهد شديد. لماذا لم يفتقد هؤلاء وهم على الأرض وهم لم يعرفوا طريق البر. ولم يمشوا في سبله. فلما علم بأعمالهم أسلمهم للظلمة، وفى الليل يصير مثل اللص، وعين الزانى ترقب الظلام قائلًا: لا تبصرنى عين. فيجعل سترًا على وجهه.",
-        ],
-        [
-            Prefix.same + "&C=Diacon",
-            "",
-            "Dans les ténèbres, il perfore les maisons. Pendant le jour, ils se cachent, ceux qui ne veulent pas connaître la lumière. Pour eux tous, le matin devient l'ombre de mort, car ils éprouvent les terreurs de l'ombre de mort. Ce n'est plus qu'un fétu à la surface des eaux, son domaine est maudit dans le pays, nul ne prend le chemin de sa vigne. Comme une chaleur sèche fait disparaître la neige. Ainsi le shéol celui qui a péché. Le sein qui l'a formé l'oublie et son nom n'est plus mentionné. Ainsi est foudroyée comme un arbre l'iniquité. Il a maltraité la femme stérile, privée d'enfants, il s'est montré dur pour la veuve. ",
-            " نقب بيوتًا في الظلام وفى النهار أغلقوا على أنفسهم. فلا يعرفون النور صباحًا.لأن ظل الموت يدركهم معًا. لأنه يعرف أهوال ظل الموت. خفيف هو على وجه الماء. فليكن نصيبهم ملعونًا على الأرض. وليظهر نباتهم يابسًا على وجه الأرض. لأَنَّهُمْ نهبوا أغمار الأيتام. وحين ذكر خطيته وصار غير ظاهر كمثل طل الندى، وسيجازى بما فعل، وينسحق كل ظالم مثل الخشب الغير النافع، لأَنَّهُمْ لم يحسنوا إلى العاقر ولم يرحموا الأرملة. وبغضب طرحوا الضعفاء.",
-        ],
-        [
-            Prefix.same + "&C=Diacon",
-            "",
-            "Mais Celui qui se saisit des tyrans avec force surgit et lui ôte l'assurance de la vie. Il le laissait s'appuyer sur une sécurité trompeuse, mais, des yeux, il surveillait ses démarches. Elevé pour un temps, il disparaît, il s'affaisse comme l'arroche qu'on cueille, il se fane comme la tête des épis. N'en est-il pas ainsi ? Qui me convaincra de mensonge et réduira mes paroles à néant?",
-            "فاذا قام لا يأمن على حياته. وإذا مرض لا يجعلوه يرجو أن يشفى بل يسقط بالمرض. إن كثيرين خفضهم إرتفاعه فذبلت خضرتهم بالحر مثل السنبل إذا سقط وحده من البرائب. وإلا فمن قال له أني كذبت ويجعل كلامى كلا شيء؟",
-        ],
+        [Prefix.readingRef + "JOB:23:2-7&C=Diacon"],
+        [Prefix.readingRef + "JOB:23:8-12&C=Diacon"],
+        [Prefix.readingRef + "JOB:3:13-End&C=Diacon"],
+        [Prefix.readingRef + "JOB:24:1-8&C=Diacon"],
+        [Prefix.readingRef + "JOB:24:9-12&C=Diacon"],
+        [Prefix.readingRef + "JOB:24:13-17&C=Diacon"],
+        [Prefix.readingRef + "JOB:24:18-21&C=Diacon"],
+        [Prefix.readingRef + "JOB:24:22-25&C=Diacon"],
         [
             Prefix.same + "&C=Title",
             "",
@@ -2304,18 +2189,10 @@ ReadingsArrays.GospelNightArrayFR = [
             "",
             "",
         ],
-        [
-            Prefix.same + "&C=Diacon",
-            "",
-            "Écoutez la parole du Seigneur, enfants d'Israël, car le Seigneur est en procès avec les habitants du pays : Il n'y a ni fidélité ni amour, ni connaissance de Dieu dans le pays, mais parjure et mensonge, assassinat et vol, adultère et violence, et le sang versé succède au sang versé. Voilà pourquoi le pays est en deuil et tous ses habitants dépérissent, jusqu'aux bêtes des champs et aux oiseaux du ciel, et même les poissons de la mer disparaîtront. Pourtant que nul n'intente procès, que nul ne réprimande !",
-            "إسمعوا كلام الرب يا بنى إسرائيل فإن للرب محاكمة مع سكان الأرض لأنه لا حق ولا رحمة ولا معرفة الله على الأرض. بل لعنة وكذب وقتل وسرقة وفسق قد فاضت على الأرض ودماء تختلط بدماء. لذلك تنوح الأرض وكل من يسكن فيها يذبل مع وحوش البرية ودبابات الأرض وطيور السماء وسمك البحر أيضاً يفنى، حتى لا يكون من يحاكم ولا من يوبخ.",
-        ],
-        [
-            Prefix.same + "&C=Diacon",
-            "",
-            "C'est avec toi, prêtre, que je suis en procès. Tu trébucheras en plein jour, le prophète aussi trébuchera, la nuit, avec toi, et je ferai périr ta mère. Mon peuple périt, faute de connaissance. Puisque toi, tu as rejeté la connaissance, je te rejetterai de mon sacerdoce; puisque tu as oublié l'enseignement de ton Dieu, à mon tour, j'oublierai tes fils. Tous tant qu'ils sont, ils ont péché contre moi, ils ont échangé leur Gloire contre l'Ignominie. Du péché de mon peuple, ils se nourrissent, de sa faute, ils sont avides.",
-            "لأن الشعب يعاند فى عبادة الأصنام مثل الكاهن الذى يعاند فى عبادة الإله. فيتعثر بالنهار ويتعثر أيضاً النبي معك. وأمك شبهتها بالليل. فصار شعبى كمن لا معرفة له، لأنك أنت رفضت المعرفة. أنا أيضاً أرفضك فلا تكهن لى. أنسى أنا أيضاً ناموس إسرائيل وأنسى أعمالهم. هكذا أخطأوا فأبدل مجدهم هوانا. وخطايا شعبى تأكلهم، وبظلمهم تنزع نفوسهم.",
-        ],
+        [Prefix.readingRef + "HOS4:1-3&C=Diacon"],
+        [Prefix.readingRef + "HOS4:4-5&C=Diacon"],
+        [Prefix.readingRef + "HOS4:6-6&C=Diacon"],
+        [Prefix.readingRef + "HOS4:7-8&C=Diacon"],
     ],
     [
         [

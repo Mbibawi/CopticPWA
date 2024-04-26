@@ -132,7 +132,11 @@ const btnMainMenu: Button = new Button({
       btnBookOfHours,
       btnPsalmody,
     ];
-
+    if (copticReadingsDate = copticFeasts.PalmSunday){
+      btnMainMenu.children.push(btnHolyWeek());
+      btnMainMenu.children.splice(btnMainMenu.children.indexOf(btnPsalmody), 1);
+    };
+      
     if (Season === Seasons.HolyWeek) btnMainMenu.children = [btnHolyWeek(), btnBookOfHours];
 
     btnMainMenu.children.push(btnBible());
@@ -2731,7 +2735,7 @@ function btnBible(): Button {
             bible = Bibles[lang];
             if (!bible) return;
             book = bible.find(b => b[0].id === bookID);
-            table[0].push(getTitle(book[0], lang));
+            table[0].push(getTitle(book[0], lang, chapterNumber));
             chapterText = getBibleChapterText(
               {
                 book: book,
@@ -2763,9 +2767,9 @@ function btnBible(): Button {
 
         scrollToTop();
 
-        function getTitle(book: bibleBookKeys, lang: string): string {
+        function getTitle(book: bibleBookKeys, lang: string, chapterNumber:string): string {
           if (!book) return '';
-          return book.human_long + '\n' + chapterLabel[lang] || '' + chapterNumber
+          return book.human_long + '\n' + (chapterLabel[lang] || '') + chapterNumber
         }
 
         function addNewRow(table: string[][]): string[] {
@@ -2985,8 +2989,7 @@ function retrieveReadingTableFromBible(reading: string[][], langs: string[]): st
     let Bible: Bible = Bibles[lang];
     if (!Bible) return;
 
-    let range = verses.split('-');
-    if (range.length < 2) return;
+ 
     let chapterVerses: bibleVerse[];
     let exists = Array.from(ready).find(array => array[0] === bookID +":" + chapterNumber + ":" + lang);
     
@@ -2995,22 +2998,25 @@ function retrieveReadingTableFromBible(reading: string[][], langs: string[]): st
       chapterVerses = getBibleChapter(chapterNumber, undefined, Bible, bookID);
       ready.add([bookID + ":" + chapterNumber + ":" + lang, chapterVerses])
     };
+    return getVersesRange(chapterVerses, verses.split('-'));
 
+    function getVersesRange(chapter:bibleChapter, range:string[]):string {
+      if (range.length !== 2) return;
+      if (!Number(range[0]) || !Number(range[1])) return;
+      while (chapter[chapter.length - 1].length < 2) chapter.pop(); //We remove the last element of the chapter if it is not a verese.
 
-    let first: string | bibleVerse = range[0];
-    if (!first || !Number(first)) return;
-    let last: string | bibleVerse = range[1];
-    if (!last) return;
-    if (last.toUpperCase() === 'END') last = chapterVerses[chapterVerses.length - 1][0];
-    if (!Number(last)) return;
+      if (range[1].toUpperCase() === 'END') range[1] = chapter[chapter.length - 1][0];
+      if (!Number(range[1])) return;
+  
+      let first = chapter.find(verse => verse[0] === range[0]);
+      if (!first) return;
+      let last = chapter.find(verse => verse[0] === range[1]);
+      if (!last) return;
+      return chapter.slice(chapter.indexOf(first), chapter.indexOf(last) + 1)
+        .map(verse => getVerseText(verse))
+        .join('');
+    }
 
-    first = chapterVerses.find(verse => verse[0] === first);
-    if (!first) return;
-    last = chapterVerses.find(verse => verse[0] === last);
-    if (!last) return;
-    return chapterVerses.slice(chapterVerses.indexOf(first), chapterVerses.indexOf(last) + 1)
-      .map(verse => getVerseText(verse))
-      .join('');
   }
 
 }
@@ -3785,7 +3791,7 @@ function getBibleChapter(chapterNumber: string, book?: bibleBook, bible?: Bible,
   if (book[0].chaptersList.length > book[1].length && !Number(book[0].chaptersList[0]))//It means that the first element of the list is the introduction while the chapters do not include the introduction.
     index -= 1;
 
-  return book[1][index].filter(verse=>Number(verse[0]) || verse[0] === '\n');//We only return verses whith a number in order to exclude verses numbered like "1a"
+  return book[1][index];//We only return verses whith a number in order to exclude verses numbered like "1a"
 }
 /**
    * Returns an array of [string, string[][]][] representing an entire book of the specified bibleVersion 
