@@ -26,9 +26,9 @@ type typeButton = {
 
 type bibleVerse = string[];
 type bibleChapter = bibleVerse[];
-type bibleBook = [{ usfm: string, human: string, human_long: string, chaptersList: string[] }, bibleChapter[]];
+type bibleBook = [{ id: string, human: string, human_long: string, chaptersList: string[] }, bibleChapter[]];
 type Bible = bibleBook[];
-type bibleBookKeys = { usfm: string, human: string, human_long: string, chaptersList: string[] };
+type bibleBookKeys = { id: string, human: string, human_long: string, chaptersList: string[] };
 
 //CONSTANTS
 const version: string =

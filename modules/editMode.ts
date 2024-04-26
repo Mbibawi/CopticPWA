@@ -1791,7 +1791,7 @@ function insertReadingTextFromBible(htmlParag: HTMLElement) {
 
   if (!bible) bible = Bibles[prompt('Provide the langauge', "AR, FR, EN")];
   if (!bible) return alert('Could not retrieve the Bible');
-  let booksList = getBibleBooksList(defaultLanguage).map(book => [book.human_long, book.usfm]);
+  let booksList = getBibleBooksList(defaultLanguage).map(book => [book.human_long, book.id]);
 
   let select = document.createElement('select');
   select.id = 'insertReadingText';
@@ -1836,16 +1836,17 @@ function insertReadingTextFromBible(htmlParag: HTMLElement) {
 /**
  * Fetches any book of a given version of the Bible, if this book has no chapters (i.e., if book[1] = [])
  * @param {string|number} id - the id of the bible.com version from which the book will be retrieved
- * @param {string} lang - the language of the bible version in which we will search for books with empty chapters or, if usfm is provided, for the book with book[0].usfm === usfm
- * @param {string} usfm - the usfm property of the book. If not omitted, only the book having as book[0].usfm property the same usfm, will be fetched 
+ * @param {string} lang - the language of the bible version in which we will search for books with empty chapters or, if usfm is provided, for the book with book[0].id === usfm
+ * @param {string} bookIds - the usfm property of the book. If not omitted, only the book having as book[0].id property the same usfm, will be fetched 
  */
-async function _replaceBooksInBible(id: string | number, lang: string, usfm?: string[]) {
+async function _replaceBooksInBible(id: string | number, lang: string, bookIds?: string[]) {
   let Bible: Bible = Bibles[lang], retrieved: bibleBook[];
-  usfm = ['ESG', 'DAG', 'SIR', 'WIS', 'BAR'];
+  //usfm = ['ESG', 'DAG', 'SIR', 'WIS', 'BAR'];
+  bookIds = ['SIR'];
   for (let book of Bible) {
     if (book[1].length > 0) continue;
-    if (usfm && !usfm.includes(book[0].usfm)) continue;
-    retrieved = await fetchBook(id, lang, book[0].usfm);
+    if (bookIds && !bookIds.includes(book[0].id)) continue;
+    retrieved = await fetchBook(id, lang, book[0].id);
     Bible[Bible.indexOf(book)] = retrieved[0];
   }
   return Bible
@@ -1871,7 +1872,7 @@ async function _fetchBibleVersesFromBibleCom(id: number | string, lang: string, 
       { name: 'الترجمة العربية المشتركة مع الكتب اليونانية', id: '1665', usfm: 'المشتركة', lang: 'en' },
     ];
 
-  let entireBible: bibleBook[] | bibleVerse[][][] = await _fetchEntireBibleVersion(versions.find(v => v.id === id.toString() || v.usfm === id), lang, bookUsfm) as bibleVerse[][][];
+  let entireBible: bibleBook[] | bibleVerse[][][] = await _fetchEntireBibleVersion(versions.find(v => v.id === id.toString() || v.id === id), lang, bookUsfm) as bibleVerse[][][];
 
   entireBible = entireBible.filter(book => book && book.length > 0);
 
@@ -1882,7 +1883,7 @@ async function _fetchBibleVersesFromBibleCom(id: number | string, lang: string, 
   async function _fetchEntireBibleVersion(version: version, lang: string, bookUsfm: string) {
     let list = getBibleBooksList(lang);
     let entireBible: bibleVerse[][][] = [];
-    if (bookUsfm) list = list.filter(book => book.usfm === bookUsfm);
+    if (bookUsfm) list = list.filter(book => book.id === bookUsfm);
 
     for (let bookKeys of list) {
       let book = await retrieveBook(bookKeys);
@@ -1902,7 +1903,7 @@ async function _fetchBibleVersesFromBibleCom(id: number | string, lang: string, 
       async function retrieveChapter(chapterNumber: string, bookKeys: bibleBookKeys) {
         if (chapterNumber.includes('INTRODUCTION') || chapterNumber.toUpperCase() === bookKeys.human.toUpperCase()) chapterNumber = 'INTRO1';
 
-        const chapter: bibleVerse[] = await fetchBookChapter(bookKeys.usfm, chapterNumber, version);
+        const chapter: bibleVerse[] = await fetchBookChapter(bookKeys.id, chapterNumber, version);
         return chapter;
       }
 
@@ -1916,7 +1917,7 @@ async function _fetchBibleVersesFromBibleCom(id: number | string, lang: string, 
           { 'accept': 'application/json' },
       }
 
-      let url = new URL(getURL(version.lang, version.id, version.usfm, bookUsfm, chapterNumber));
+      let url = new URL(getURL(version.lang, version.id, version.id, bookUsfm, chapterNumber));
 
       const response = await fetch(url, init);
 
@@ -2031,7 +2032,7 @@ function _buildBooksFromChapters(bible: bibleVerse[][][], lang: string): bibleBo
 
     if (firstVerses.length < 1) return;
 
-    bookList = bookLists.find(list => firstVerses[0].startsWith(list.usfm + '.'));
+    bookList = bookLists.find(list => firstVerses[0].startsWith(list.id + '.'));
 
     if (!bookList) {
       console.log('bookList not found for usfm: ', book[0][0][0]);
@@ -2040,7 +2041,7 @@ function _buildBooksFromChapters(bible: bibleVerse[][][], lang: string): bibleBo
     bookChapters.forEach(ch => ch.shift());
     return [
       {
-        usfm: bookList.usfm,
+        id: bookList.id,
         human: bookList.human,
         human_long: bookList.human_long,
         chaptersList: bookList.chaptersList
@@ -2056,7 +2057,7 @@ function _buildBooksFromChapters(bible: bibleVerse[][][], lang: string): bibleBo
 function _fixTobia(bible: Bible) {
   bible.forEach(book => {
     if (!book) return;
-    if (!['JDT', 'TOB', '1MA', '2MA'].includes(book[0].usfm)) return;
+    if (!['JDT', 'TOB', '1MA', '2MA'].includes(book[0].id)) return;
     book[1] = book[1].map(chapt => chapt.filter(verse => verse.length > 1))
 
   });
