@@ -1,1 +1,1 @@
-BibleEN = [];
+Bibles.EN = [];

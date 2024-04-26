@@ -163,9 +163,7 @@ const HolyWeekPrayersSequences = {
     PassOver: [
         Prefix.HolyWeek+"HourIntroduction&D=$Seasons.HolyWeek",
 
-        Prefix.HolyWeek+"CopticPsalmAndGospel&D=$Seasons.HolyWeek",
-
-        Prefix.HolyWeek+"KhinEfranEnTetriyas&D=$Seasons.HolyWeek",
+        Prefix.HolyWeek+"PsalmAndGospel&D=$Seasons.HolyWeek",
 
         Prefix.HolyWeek+"Commentary&D=$Seasons.HolyWeek",
 

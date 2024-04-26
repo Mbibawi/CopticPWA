@@ -9,7 +9,7 @@ const JimkinCombining = {
 const COPTIC_FONT_UNICODE_COL: number = 4;
 
 
-async function convertFont(text?: string, font: string = fontName, jimkin: string = JimkinCombining.before) {
+async function convertFontWithoutAPI(text?: string, font: string = fontName, jimkin: string = JimkinCombining.before) {
   if (!fontsMap[0].includes(font)) {
     alert('Font: ' + font + ' is not supported');
     return undefined
@@ -21,7 +21,7 @@ async function convertFont(text?: string, font: string = fontName, jimkin: strin
       .replaceAll('` è', String.fromCharCode(96))
       .replaceAll(String.fromCharCode(160) + '?', '?')
       .replaceAll('  ', ' ');
-  
+
   if (font === "COPTIC1") jimkin = JimkinCombining.after;
   console.log("font = ", font);
   text = text.
@@ -114,7 +114,7 @@ function convertCopticText(font: string, text: string, jimkin: string): string {
    */
   function removeCharAfterOverline(unicodeString: string): string {
     //if (font === 'ATHANASIUS') return unicodeString;
-    const OVERLINE_UNICODE_VAL:number = 773;
+    const OVERLINE_UNICODE_VAL: number = 773;
     if (!unicodeString) return unicodeString;
     // Traverse the string
     let stringbuffer = [];
@@ -325,7 +325,7 @@ const fontsMap = [
     "symbol_mi_ro", "11493", "2CE5", "\u2CE5", "", "", "", "", "", "^", "U", "", "u", "", "", "", "", "", "", "", "", "", "U", "", "", "", "", "", "=", ".", "", "%", "%",
   ],
   [
-    "jinkim", "768", "0300", "\u0300",  String.fromCharCode(96), String.fromCharCode(96), ";", String.fromCharCode(96), "", "", "", "", "", "", "", "ä", "ä", "~", "~", "", "", "", "", "ä", "ä", "ä", "ä", "ä", "", "ä", "", "ä", "ä",
+    "jinkim", "768", "0300", "\u0300", String.fromCharCode(96), String.fromCharCode(96), ";", String.fromCharCode(96), "", "", "", "", "", "", "", "ä", "ä", "~", "~", "", "", "", "", "ä", "ä", "ä", "ä", "ä", "", "ä", "", "ä", "ä",
   ],
   [
     "overline", "773", "0305", "\u0305", "̅ ", "=", "", "/", "", "", "", "", "", "", "", "ö", "ö", "", "#", "", "", "", "", "ö", "ö", "ö", "ö", "ö", "", "ö", "", "ö", "ö",

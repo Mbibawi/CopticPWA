@@ -2189,7 +2189,7 @@ function btnHolyWeek(): Button {
                   [btnDay, btnEvening]=> 
                             [btn1stHour, btn3rdHour, etc.]*/
 
-  let Evening: string = 'E', Morning: string = 'D'
+  let Evening: string = 'E', Morning: string = 'M'
 
   let btnPassOver = new Button({
     btnID: 'btnPassover',
@@ -2280,7 +2280,7 @@ function btnHolyWeek(): Button {
           hour.lable.EN += ' of ' + days[todayDate.getDay() + 1][0] + ' Evening ';
         }
         else if (service === Evening && weekDay === 5) {
-          hour.lable.AR += ' من ليلة أبو غلميسيس ';
+          hour.lable.AR += ' من ليلة أبو غلمسيس ';
           hour.lable.FR += ' de la veille de Abou Ghalamsis ' + days[todayDate.getDay() + 1][2];
           hour.lable.EN += ' of Abou Ghalamsis'
         }
@@ -2294,7 +2294,7 @@ function btnHolyWeek(): Button {
 
       if (hour === '12H' && weekDay !== 5) return undefined;//The 12th hour is only for Friday
 
-      if (['1H', '3H', '6H'].includes(hour) && weekDay === 0) return undefined;//On Plam Sunday we start at the 9th hour
+      if (['1H', '3H', '6H'].includes(hour) && weekDay === 0) return undefined;//On Palm Sunday we start at the 9th hour
 
       let hourReadings: string[][][] = ReadingsArrays.GospelNightArrayFR
         .filter(table => RegExp(Prefix.HolyWeek + hour + service + '\.*&D=' + copticReadingsDate).test(table[0][0]));
@@ -2306,35 +2306,11 @@ function btnHolyWeek(): Button {
         languages: prayersLanguages,
         docFragment: new DocumentFragment(),
         showPrayers: true,
-        onClick: () => btnHour.prayersSequence = getPrayersSequence(),
+        onClick: () => btnHour.prayersSequence = [...HolyWeekPrayersSequences.PassOver],
         afterShowPrayers: () => hourBtnAfterShowPrayers(btnHour, hour, hourReadings),
       });
       return btnHour;
 
-      function getPrayersSequence(): string[] {
-        if (btnHour.prayersSequence) return btnHour.prayersSequence;
-
-        let sequence = [...HolyWeekPrayersSequences.PassOver];
-
-        if (service === Morning) return MorningSequence();
-        if (service === Evening) return EveningSequence();
-
-        function MorningSequence(): string[] {
-          //if (![4, 5].includes(weekDay)) return sequence;
-          return sequence
-
-
-        };
-
-        function EveningSequence(): string[] {
-          let FinalLitany = Prefix.HolyWeek + "DayLitany&D=$Seasons.HolyWeek";
-
-          sequence.splice(sequence.indexOf(FinalLitany), 1, FinalLitany.replace('Day', 'Evening1'), FinalLitany.replace('Day', 'Evening2'), FinalLitany.replace('Day', 'Evening3'));
-
-          return sequence
-        }
-
-      }
 
       function hourBtnAfterShowPrayers(btn: Button, hour: string, dayPrayers: string[][][]) {
 
@@ -2364,7 +2340,7 @@ function btnHolyWeek(): Button {
           };
 
           (function fetchKhinEfranAndLitany() {
-            readings.KhinEfran.table = findTable(Prefix.HolyWeek + "KhinEfranEnTetriyas" + service + "&D=$Seasons.HolyWeek", HolyWeekPrayersArray) || undefined
+            readings.KhinEfran.table = findTable(Prefix.HolyWeek + "KhinEfran" + service + "&D=$Seasons.HolyWeek", HolyWeekPrayersArray) || undefined
             if (!readings.KhinEfran.table) return console.log('Didn\'t find Khin Efran');
 
             readings.Litany.table = findTable(Prefix.HolyWeek + "FinalLitany" + service + "&D=$Seasons.HolyWeek", HolyWeekPrayersArray) || undefined
@@ -2432,7 +2408,6 @@ function btnHolyWeek(): Button {
               .forEach((reading: typeReading) => {
                 if (!reading.table || !reading.placeHolder) return console.log('Either the table or the Anchor are missing:  table = ', reading.table, 'Anchor = ', reading.placeHolder);
 
-                reading.table = reading.table.filter(row => row);//We remove any undefined elements in the table;
 
                 if ([readings.KhinEfran, readings.Litany].includes(reading)) languages = prayersLanguages;
 
@@ -2441,6 +2416,9 @@ function btnHolyWeek(): Button {
                 if ([readings.nonCopticGospel, readings.nonCopticPsalm].includes(reading)) languages = [readingsLangs[1], readingsLangs[2]];
 
                 if ([readings.coptGospel, readings.coptPsalm].includes(reading)) languages = [readingsLangs[0]];
+
+                reading.table = reading.table.filter(row => row);//We remove any undefined elements in the table;
+                reading.table = retrieveReadingTableFromBible(reading.table, languages);
 
                 insertPrayersAdjacentToExistingElement({
                   tables: [reading.table],
@@ -2632,7 +2610,7 @@ function btnBible(): Button {
       AR: 'العهد الجديد',
       FR: 'Nouveau Testament'
     },
-    onClick:()=>newTestament.children = getBooksButtons(false)//!We need the children to be added when the button is clicked not when it is created because the Bibles are not defined at this stage
+    onClick: () => newTestament.children = getBooksButtons(false)//!We need the children to be added when the button is clicked not when it is created because the Bibles are not defined at this stage
   });
 
   let oldTestament = new Button({
@@ -2659,17 +2637,17 @@ function btnBible(): Button {
 
     booksListDefault = getBibleBooksList(defaultLanguage);
     //  if (foreingLanguage) bibleForeign = getBibleBooksList(foreingLanguage);
-    
+
     if (!booksListDefault) return;
 
     let booksNamesDefault: string[], bookNamesForeign: string[];
 
     booksNamesDefault = booksListDefault.map(book => book.human_long);
     //if(foreingLanguage) booksNamesForeing = booksListForeing.map(book => book.human_long);
-    
 
-    if (old) booksNamesDefault = booksNamesDefault.slice(0, 39);
-    else if (!old) booksNamesDefault = booksNamesDefault.slice(39, booksNamesDefault.length - 1);
+
+    if (old) booksNamesDefault = booksNamesDefault.slice(0, 48);
+    else if (!old) booksNamesDefault = booksNamesDefault.slice(48, booksNamesDefault.length - 1);
 
     let labels = booksNamesDefault.map(bookName => {
       let label = new Object();
@@ -2694,13 +2672,7 @@ function btnBible(): Button {
 
   function getChaptersButtons(bookName: string): Button[] {
 
-    let Bibles = {
-      AR: BibleAR || undefined,
-      FR: BibleFR || undefined,
-      EN: BibleEN || undefined,
-    };
-
-    let chapterLable: typeBtnLabel = {
+    let chapterLabel: typeBtnLabel = {
       AR: 'إصحاح ',
       FR: 'Chapître ',
       EN: 'Chapter '
@@ -2708,10 +2680,10 @@ function btnBible(): Button {
 
     let defaultLangBible: Bible, foreignLangBible: Bible;
 
-    defaultLangBible = Object.entries(Bibles).find(entry => entry[0].endsWith(defaultLanguage))[1];
+    defaultLangBible = Bibles[defaultLanguage];
 
     if (foreingLanguage)
-      foreignLangBible = Object.entries(Bibles).find(entry => entry[0].endsWith(foreingLanguage))[1];
+      foreignLangBible = Bibles[foreingLanguage];
 
     let bookDefault: bibleBook, bookForeign: bibleBook;
 
@@ -2722,14 +2694,13 @@ function btnBible(): Button {
 
     return chaptersBtns(bookDefault);
 
-    function chaptersBtns(book:bibleBook) {
-      
+    function chaptersBtns(book: bibleBook) {
       let chaptersButtons =
         book[0].chaptersList
           .map(number => {
-            if(/\D/.test(number)) return;//We ignore the introductions to the French version of the book because they have not been retrieved
+            if (/\D/.test(number)) return;//We ignore the introductions to the French version of the book because they have not been retrieved
             let label = new Object();
-            label[defaultLanguage] = chapterLable[defaultLanguage] + number;
+            label[defaultLanguage] = chapterLabel[defaultLanguage] + number;
             return new Button({
               btnID: 'btnChapter' + number,
               label: label,
@@ -2741,87 +2712,74 @@ function btnBible(): Button {
 
       return chaptersButtons
 
-      function chapterBtnOnClick(bookName:string, chapterNumber: string) {
+      function chapterBtnOnClick(bookName: string, chapterNumber: string) {
+        let languages = [defaultLanguage];
+        if (foreingLanguage) languages.push(foreingLanguage);
 
-        let chapterVersions =
-          [defaultLangBible, foreignLangBible]
-            .filter(bible => bible)//We remove undefined
-            .map(bible => 
-              getBibleChapterText(
-                {
-                  book: bible.find(book => book[0].usfm === bookName), chapterNumber: chapterNumber
-                }));
+        let bible: Bible, chapterText: string, table: string[][], row: string[], splitted: string[];
 
-        let table: string[][];
+        (function addTitleRow() {
+          table = [
+            [
+              'Bible_' + bookName + chapterNumber + '&C=Title',
+            ]
+          ];
+        })();
 
-        (function addDefaultVersion() {
-          chapterVersions[0] = chapterVersions[0].replaceAll('#', '');
-          let splittedDefault = chapterVersions[0]
-            .split('\n');
-            table = [
-              [
-                'Bible_' + bookName + chapterNumber + '&C=Title',
-              ]
-            ];
-            readingsLanguages.forEach(lang => table[0].push((chapterLable[lang]||'') + chapterNumber) );
-
-            splittedDefault
-              .forEach(parag => {
-    
-                let newRow = [];
-    
-                newRow.push(Prefix.same + '&C=NoActor');
-    
-                readingsLanguages.forEach(lang => newRow.push(''));
-    
-                newRow[readingsLanguages.indexOf(defaultLanguage) +1] = parag;
-    
-                
-                table.push(newRow)
-                
+        languages
+          .forEach(lang => {
+            bible = Bibles[lang];
+            if (!bible) return;
+            book = bible.find(b => b[0].usfm === bookName);
+            table[0].push(getTitle(book[0], lang));
+            chapterText = getBibleChapterText(
+              {
+                book: book,
+                chapterNumber: chapterNumber
               });
-        })();
+            addText(chapterText, lang)
+          });
 
-        (function addForeignVersion() {
-          return;
-          if (!chapterVersions[1]) return;
-          chapterVersions[1] = chapterVersions[1].replaceAll('#', '');
-          let splittedForeign = chapterVersions[1].split('\n');
-          
-          let row: string[];
-          splittedForeign.forEach(parag => {
-            row = table[splittedForeign.indexOf(parag)];
-            if (!row)
-              table.push(
-                [
-                  table[table.length - 1][0],
-                  ...readingsLanguages.map(lang => '')
-                ]
-              );
-              
-            row[readingsLanguages.indexOf(foreingLanguage) + 1] = parag;
-                
-          })
-  
-        })();
-          
-        console.log('table = ', table);
+        function addText(chapterText: string, lang: string) {
+          if (!chapterText) return;
+          splitted = chapterText.split('\n');
+          splitted
+            .forEach(parag => {
+              if (languages.indexOf(lang) > 0 && table.length >= splitted.indexOf(parag) + 2)//It is the foreing language
+                row = table[splitted.indexOf(parag) + 1];
+              else row = addNewRow(table);
+
+              insertParagraphText(row, parag, lang);
+            });
+        }
+
         showPrayers({
           table: table,
-          languages: readingsLanguages,
+          languages: languages,
           container: containerDiv,
           clearContainerDiv: true,
-          clearRightSideBar:true,
+          clearRightSideBar: true,
         });
-      
+
         scrollToTop();
+
+        function getTitle(book: bibleBookKeys, lang: string): string {
+          if (!book) return '';
+          return book.human_long + '\n' + chapterLabel[lang] || '' + chapterNumber
+        }
+
+        function addNewRow(table: string[][]): string[] {
+          table.push([Prefix.same + '&C=NoActor', ...languages.map(lang => '')]);
+          return table[table.length - 1];
+        }
+
+        function insertParagraphText(row: string[], parag: string, lang: string) {
+          row[languages.indexOf(lang) + 1] = parag;
+        }
       }
 
     }
-
-
   }
-
 }
 
 /**
@@ -2925,16 +2883,128 @@ function findMassReadingOtherThanGospel(
     return console.log(
       "Did not find a reading for the current copticReadingsDate"
     );
+
+  let languages = getLanguages(PrayersArraysKeys.find((array) => array[0] === readingPrefix)[1]);
+
+  reading = retrieveReadingTableFromBible(reading, languages);
+
+
   return insertPrayersAdjacentToExistingElement({
     tables: [reading],
-    languages: getLanguages(
-      PrayersArraysKeys.find((array) => array[0] === readingPrefix)[1]
-    ),
+    languages: languages,
     position: position,
     container: containerDiv,
   });
-}
 
+
+}
+/**
+ * Retrives the text of the verses wher a reading table contains references to these verses instead of the text
+ * @param {string[][]} reading - The reading Table retrived from the corresponding reading array
+ * @param langs 
+ * @returns 
+ */
+function retrieveReadingTableFromBible(reading: string[][], langs: string[]): string[][] {
+  let references =
+    reading.filter(row => row.length === 1 && row[0].startsWith(Prefix.readingRef))
+      .map(row => row[0]);
+  if (references.length < 1) return reading;
+  //reading = structuredClone(reading);//We create a copy of the table;
+  let ref: string[], splitted: string[], bookName: string;
+  let usfm: Set<[string, string, bibleChapter]> = new Set();
+  const retrieved =
+    reading.map(row => {
+    if (reading.indexOf(row) === 0 && !row[0].startsWith(Prefix.HolyWeek)) {
+      return [row[0], ...langs.map(lang => getReadingTitle(lang) || '')]
+    }
+    else if (row.length === 1 && row[0].startsWith(Prefix.readingRef)) {
+      row.push(...langs.map(lang => ''));//We make the row length equal to the length of a row in a table in a reading array with the same languages sequence
+      row[0] = row[0].replace(Prefix.readingRef, '');
+      if (!row[0]) return;
+      row[0] = row[0].replaceAll(' ', '');//We remove all spaces in the reference in order to avoid errors.
+      splitted = splitTitle(row[0]);
+      ref = splitted[0].split(':');
+      if (ref.length < 3) return;//We should get an array of three elements [bookName, chapterNumber, verses] like ['GEN', '13', '3-7']
+      langs
+        .forEach(lang => row[langs.indexOf(lang) + 1] = retrieveVersesText(lang, ref[0], ref[1], ref[2]) || '');
+
+      row[0] = Prefix.same + '&C='
+      row[0] += (splitted[1] || 'NoActor');
+      return row;
+
+    } else return row;
+  });
+
+  if (bookName === "PSA") {
+    //We merge all the psalm rows into 1 row because the split is articial
+    let sliced = retrieved
+      .slice(1, retrieved.length)
+      .map(row => row.slice(1, row.length))
+    let merged = [Prefix.same + '&C=NoActor', ...sliced[0].map(el => '')];
+    sliced.forEach(row => {
+      row.forEach(el => merged[row.indexOf(el) + 1] += el)
+
+    })
+
+    return [retrieved[0], merged]
+  }
+  return retrieved
+
+  function getReadingTitle(lang: string): string {
+    if (![defaultLanguage, foreingLanguage].includes(lang)) return;
+    let list = getBibleBooksList(lang);
+    let joiner = {
+      AR: 'و',
+      FR: 'et',
+      EN: '&'
+    }
+
+    let book = list.find(book => book.usfm === bookName);
+    if (!book) return;
+    return book.human_long
+      + '\n('
+      + references.map(ref => ref.split(bookName + ':')[1])
+        .join(' ' + joiner[lang] + ' ')
+      + ')'
+
+  };
+
+  function retrieveVersesText(lang: string, bookUsfm: string, chapterNumber: string, verses: string): string {
+    if (![defaultLanguage, foreingLanguage].includes(lang)) return;//We return an empty string if the language is not either the defaultLanguage or the foreignLanguage because in all cases those are the only languages that the user will be able to see. No need to retrieve a language that will not be retrieved
+    if (!chapterNumber || !verses) return;
+    if (!bookUsfm || bookUsfm.length > 3) return;
+    if (lang === 'CA') lang = 'AR';
+    let Bible: Bible = Bibles[lang];
+    if (!Bible) return;
+
+    let range = verses.split('-');
+    if (range.length < 2) return;
+    let chapterVerses: bibleVerse[];
+    let exists = Array.from(usfm).find(el => el[0] === bookName && el[1] === lang);
+    if (exists) chapterVerses = exists[2];
+    else {
+      chapterVerses = getBibleChapter(chapterNumber, undefined, Bible, bookUsfm);
+      usfm.add([bookName, lang, chapterVerses])
+    };
+
+
+    let first: string | bibleVerse = range[0];
+    if (!first || !Number(first)) return;
+    let last: string | bibleVerse = range[1];
+    if (!last) return;
+    if (last.toUpperCase() === 'END') last = chapterVerses[chapterVerses.length - 1][0];
+    if (!Number(last)) return;
+
+    first = chapterVerses.find(verse => verse[0] === first);
+    if (!first) return;
+    last = chapterVerses.find(verse => verse[0] === last);
+    if (!last) return;
+    return chapterVerses.slice(chapterVerses.indexOf(first), chapterVerses.indexOf(last) + 1)
+      .map(verse => getVerseText(verse))
+      .join('');
+  }
+
+}
 /**
  * takes a liturgie name like "IncenseDawn" or "IncenseVespers" and replaces the word "Mass" in the buttons gospel readings prayers array by the name of the liturgie. It also sets the psalm and the gospel responses according to some sepcific occasions (e.g.: if we are the 29th day of a coptic month, etc.)
  * @param liturgie {string} - expressing the name of the liturigie that will replace the word "Mass" in the original gospel readings prayers array
@@ -3148,6 +3218,7 @@ async function getGospelReadingAndResponses(args: {
     gospel
       .forEach((table) => {
         //gospel[] should include 2 tables: the first table is the psalm and its title is like '....Psalm&D=...'. The 2nd is the gospel: its title is like '....Gospel&D=...'.
+        table = retrieveReadingTableFromBible(table, args.languages);
 
         insertPrayersAdjacentToExistingElement({
           tables: [getGospelOrPsalmTable()],
@@ -3624,18 +3695,6 @@ function addExpandablePrayer(args: {
       return expandable
     };
 
-
-    //We will create a div element for each row of each table in btn.prayersArray
-
-
-    // let htmlRows = Array.from(prayersContainerDiv.children) as HTMLDivElement[];
-    // htmlRows
-    //   .filter((div) => isTitlesContainer(div))
-    //   .forEach((div) => {
-    //     htmlRows.filter(d => d.dataset.root && d.dataset.root === div.dataset.root)
-    //       .forEach(d => d.dataset.group = div.dataset.root);//We rename the dataset.group attribute for each nested table
-    //   });
-
     return [htmlButton, expandableContainer];
   }
 
@@ -3661,4 +3720,80 @@ function addExpandablePrayer(args: {
     expandableContainer.classList.toggle(hidden);
 
   }
+}
+/**
+ * Returns the text of the specified chapter of the specified book of the specified version of the Bible
+ * @param {[string, stirng[][]][][]} bible - the array containing all the books and chapters of the Bible in a given language
+ * @param {string} bookName - the initials of a given book of bibleVersion
+ * @param {string} chapterNumber - the number of the chapter of the book specified in bookName
+ */
+function getBibleChapterText(args: { chapterNumber: string, book?: bibleBook, bible?: Bible, bookName?: string}): string {
+  if (!args.chapterNumber) return '';
+  if (args.book)
+    return joinVerses(getBibleChapter(args.chapterNumber, args.book));
+  else if (args.bible && args.bookName)
+    return joinVerses(getBibleChapter(args.chapterNumber, undefined, args.bible, args.bookName));
+  else return '';
+
+  function joinVerses(verses: bibleVerse[]): string {
+    return verses.map(verse => getVerseText(verse)).join('')
+  }
+}
+
+/**
+ * Returns the text of the verse after combining the verse number (1st element) and the text of the verse, adding 'Sup' before and after the verse number and a non breaking space after it
+ * @param {bibleVerse} verse - a string[] of 2 elements: the 1st element is the verse number, and the 2nd is the text of the verse
+ */
+function getVerseText(verse: bibleVerse) {
+  if (!verse) return;
+  if (verse.length < 2 && verse[0] === '\n')
+    return verse[0];
+  return ('Sup_' + verse[0] + '_Sup' + verse[1]).replaceAll('#', '').replaceAll('*', '');
+}
+
+/**
+ * Returns a string[] representing a verse of the specified chapter of the specified book of the specified version of the Bible. The 1st element of the string[] is the verse number, while the 2nd element is the verse text
+ * @param {[string, stirng[][]][][]} bible - the array containing all the books and chapters of the Bible in a given language
+ * @param {string} bookName - the initials of a given book of bibleVersion
+ * @param {string} chapterNumber - the number of the chapter of the book specified in bookName
+ * @param {string} verseNumber - the number of the verse to be retrieved
+ */
+function getBibleVerse(bible: Bible, bookName: string, chapterNumber: string, verseNumber: string): string[] {
+  return getBibleChapter( chapterNumber, undefined, bible, bookName).find(verse => verse[0] === verseNumber)
+}
+
+/**
+  * Returns an array of [string, string[][]] where the string[][] element represents all the verses of the specified chapter of the specified book of the specified version of the Bible. Each verse is a string[] where the 1st element is the verse number, and the 2nd element is the verse text 
+  * @param {[string, stirng[][]][][]} bible - the array containing all the books and chapters of the Bible in a given language
+  * @param {string} bookName - the initials of a given book of bibleVersion
+  * @param {string} chapterNumber - the number of the chapter of the book specified in bookName
+  */
+function getBibleChapter(chapterNumber: string, book?: bibleBook, bible?: Bible, bookName?: string): string[][] {
+  if (!chapterNumber) return;
+  if(!book) book = getBibleBook(bible, bookName);
+  if (!book) return;
+  let index = book[0].chaptersList.indexOf(chapterNumber);
+  if (book[0].chaptersList.length > book[1].length && !Number(book[0].chaptersList[0]))//It means that the first element of the list is the introduction while the chapters do not include the introduction.
+    index -= 1;
+
+  return book[1][index].filter(verse=>Number(verse[0]));//We only return verses whith a number in order to exclude verses numbered like "1a"
+}
+/**
+   * Returns an array of [string, string[][]][] representing an entire book of the specified bibleVersion 
+   * @param {[string, stirng[][]][][]} bible - the array containing all the books and chapters of the Bible in a given language
+   * @param {string} bookName - the initials of a given book of bibleVersion
+   */
+function getBibleBook(bible: Bible, bookName: string): bibleBook {
+  if (!bible || !bookName) return;
+  return bible.find(book => book[0].usfm.startsWith(bookName))
+}
+
+function getBibleBooksList(lang: string): bibleBookKeys[] {
+
+  if (!Bibles[lang]) {
+    alert('The Bibles files have not been loaded yet, please try again later');
+    return
+  };
+
+  return Bibles[lang].map((book: bibleBook) => book[0]);
 }

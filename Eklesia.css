@@ -772,7 +772,16 @@ br{
   border-radius: 10px;
   align-self: center;
 }
-
+.Modal{
+  position: fixed;
+  top:10vh;
+  right: 30%;
+  min-width: 40vw;
+  min-height: 10vh;
+  background-color: #055b8e;
+  z-index: 10;
+  text-align: center;
+}
 .dateDiv{
   display:grid;
   grid-template-columns: 32cqw 28cqw 32cqw;
@@ -861,6 +870,12 @@ br{
   color:  #95190c !important;
   font-weight: bold !important;
   font-size: calc(var(--fSize) *4cqi) !important;
+}
+.superScript{
+  color:rgb(81, 12, 10);
+  font-size: calc(var(--fSize) *1.8cqi);
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .Slide> p>span.musicalNote{

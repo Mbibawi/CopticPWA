@@ -186,9 +186,9 @@ function showTables(args: {
     table.forEach((row) => {
       if (!row) return;
       createHtmlElementForPrayerEditingMode({
-        tblRow: row,
+        tblRow: structuredClone(row),//!We pass a structured clone in order to avoid the modification of the row by the function
         titleBase: titleBase,
-        languagesArray: args.languages || getLanguages(arrayName),
+        languagesArray: structuredClone(args.languages) || getLanguages(arrayName),
         position: args.position,
         container: args.container,
         arrayName: arrayName,
@@ -276,7 +276,7 @@ function addEdintingButtons() {
   createEditingButton(() => exportSequence(), "Export Sequence", btnsDiv);
 
   createEditingButton(
-    () => addNewRow(document.getSelection().focusNode.parentElement),
+    () => addRow(document.getSelection().focusNode.parentElement),
     "Add Row",
     btnsDiv
   );
@@ -286,7 +286,7 @@ function addEdintingButtons() {
     btnsDiv
   );
   createEditingButton(
-    () => addNewRow(document.getSelection().focusNode.parentElement, true),
+    () => addRow(document.getSelection().focusNode.parentElement, true),
     "Add PlaceHolder",
     btnsDiv
   );
@@ -315,8 +315,7 @@ function addEdintingButtons() {
   );
 
   createEditingButton(
-    () =>
-      convertCopticFontFromAPI(document.getSelection().focusNode.parentElement),
+    async () => await convertCopticFont(document.getSelection().focusNode.parentElement),
     "Convert Coptic Fonts",
     btnsDiv
   );
@@ -338,6 +337,13 @@ function addEdintingButtons() {
         false
       ),
     "Previous Table",
+    btnsDiv
+  );
+  createEditingButton(
+    () =>
+      insertReadingTextFromBible(
+        document.getSelection().focusNode.parentElement),
+    "Insert Reading Text",
     btnsDiv
   );
 }
@@ -762,13 +768,13 @@ function replacePrefixes(text: string, arrayName: string): string {
 
 function replaceHtmlQuotes(innerHtml: string, lang: string): string {
   if (!innerHtml.includes("<q>")) return innerHtml;
-  if (lang === "FR")
-    return innerHtml
-      .replaceAll("<q>", String.fromCharCode(171))
-      .replaceAll("</q>", String.fromCharCode(187));
-  else if (lang === "AR" || lang === "EN")
-    return innerHtml.replaceAll("<q>", '"').replaceAll("</q>", '"');
-  return innerHtml;
+  //if (["FR", "AR", "EN", "CA"].includes(lang))
+  return innerHtml
+    .replaceAll("<q>", String.fromCharCode(171))
+    .replaceAll("</q>", String.fromCharCode(187));
+  // else if (lang === "AR" || lang === "EN")
+  //   return innerHtml.replaceAll("<q>", '"').replaceAll("</q>", '"');
+  //  return innerHtml;
 }
 
 /**
@@ -778,9 +784,12 @@ function replaceHtmlQuotes(innerHtml: string, lang: string): string {
  * @param {string} title - The title of the row that will be added. If omitted, the function will prompt for providing the title
  * @param {boolean} below - If true, the new row will be added below. Else it will inserted before the currently selected div. Its default value is true
  */
-function addNewRow(htmlParag: HTMLElement, isPlaceHolder: boolean = false, title?: string, below: boolean = true): HTMLElement | void {
+function addRow(htmlParag: HTMLElement, isPlaceHolder: boolean = false, title?: string, below: boolean = true): HTMLElement | void {
   let htmlRow = getHtmlRow(htmlParag);
   if (!htmlRow) return;
+
+  if (!title) title = prompt("Provide the Title of the new Row", htmlRow.title);
+  if (!title) return alert('You must provide a valide name for the table that will be put as PlaceHolder');
 
   let newRow = document.createElement("div"),
     p: HTMLParagraphElement,
@@ -790,7 +799,7 @@ function addNewRow(htmlParag: HTMLElement, isPlaceHolder: boolean = false, title
 
   if (isPlaceHolder) {
     rowClass = 'PlaceHolder';
-    gridColumns = '1';
+    gridColumns = '100%';
     gridAreas = 'FR';
     newRow.dataset.root = htmlRow.dataset.root;
     newRow.title = htmlRow.dataset.title;
@@ -819,14 +828,23 @@ function addNewRow(htmlParag: HTMLElement, isPlaceHolder: boolean = false, title
     }
   }
 
+  let isReference: boolean = false;
+  isReference = title.toUpperCase().startsWith('REF:');
+  if (isReference) {
+    gridColumns = '100%';
+    gridAreas = '"FR"';
+    newRow.style.gridArea = '"FR"';
+    newRow.dataset.root = htmlRow.dataset.root;
+    newRow.title = htmlRow.title;
+    newRow.dataset.isReference = 'true';
+  }
   newRow.classList.add(rowClass);
   newRow.dataset.isNewRow = "isNewRow";
   newRow.style.display = htmlRow.style.display;
   newRow.style.gridTemplateColumns = gridColumns;
   newRow.style.gridTemplateAreas = gridAreas;
 
-  if (!title) title = prompt("Provide the Title of the new Row", htmlRow.title);
-  if (!title) return alert('You must provide a valide name for the table that will be put as PlaceHolder');
+
 
   if (isPlaceHolder) newRow.dataset.isPlaceHolder = title;
 
@@ -835,7 +853,7 @@ function addNewRow(htmlParag: HTMLElement, isPlaceHolder: boolean = false, title
     newRow.dataset.root = splitTitle(title)[0];
 
 
-  if (!newRow.title) //If not already set because it is a new PlaceHolder row
+  if (!newRow.title) //If not already set because it is a new PlaceHolder or a Reading Reference row
     newRow.title = title;
 
   if (splitTitle(newRow.title)[0] === splitTitle(htmlRow.title)[0]) newRow.dataset.isPrefixSame = 'true'; //We need this in order to be sure than when the table is exported, the string[] representing the newly added row will have as first element: Prefix.same + '&C=[whatever class]' not the full title of the table
@@ -849,13 +867,14 @@ function addNewRow(htmlParag: HTMLElement, isPlaceHolder: boolean = false, title
   let children = Array.from(htmlRow.children);
   children
     .forEach((child: HTMLElement) => {
-      if (isPlaceHolder && newRow.children.length > 0) return;
+      if ((isPlaceHolder || isReference) && newRow.children.length > 0) return;
       if (!child.lang || child.tagName !== "P") return;
       p = newRow.appendChild(document.createElement("p"));
       if (isPlaceHolder) p.innerText = splitTitle(title)[0];
+      if (isReference) p.innerText = splitTitle(title)[0].replace(Prefix.readingRef, '').toUpperCase();
       p.title = newRow.title;
       p.dataset.root = newRow.dataset.root;
-      isPlaceHolder ? p.lang = 'FR' : p.lang = child.lang;
+      isPlaceHolder || isReference ? p.lang = 'FR' : p.lang = child.lang;
       p.classList.add(p.lang.toUpperCase());
       p.contentEditable = "true";
       p.addEventListener('keydown', (e: KeyboardEvent) => { paragraphsKeyShortcuts(e); return false })
@@ -868,14 +887,14 @@ function addNewRow(htmlParag: HTMLElement, isPlaceHolder: boolean = false, title
 function paragraphsKeyShortcuts(e: KeyboardEvent) {
   if (!e.shiftKey) return;
   let p = e.target as HTMLElement
-  if (e.key === 'A') { e.preventDefault; addNewRow(p, false, undefined, true) };
-  if (e.key === 'B') { e.preventDefault; addNewRow(p, false, undefined, false) };
+  if (e.key === 'A') { e.preventDefault; addRow(p, false, undefined, true) };
+  if (e.key === 'B') { e.preventDefault; addRow(p, false, undefined, false) };
   if (e.key === 'S') { e.preventDefault; saveModifiedArray({ exportToFile: false, exportToStorage: true }) };
   if (e.key === 'E') { e.preventDefault; saveModifiedArray({ exportToFile: true, exportToStorage: true }) };
-  if (e.key === 'C') { e.preventDefault; convertCopticFontFromAPI(p) };
+  if (e.key === 'C') { e.preventDefault; convertCopticFont(p) };
   if (e.key === 'L') { e.preventDefault; deleteRow(p) };
   if (e.key === 'P') { e.preventDefault; splitParagraphsToTheRowsBelow(p) };
-  if (e.key === 'F') { e.preventDefault; FixCopticText(p) };
+  if (e.key === 'F') { e.preventDefault; _FixCopticText(p) };
   return false
 }
 
@@ -965,19 +984,23 @@ function createHtmlElementForPrayerEditingMode(args: {
   let htmlRow: HTMLDivElement,
     p: HTMLParagraphElement,
     lang: string,
-    text: string,
     actorClass: string,
     dataRoot: string,
-    isPlaceHolder: boolean;
+    isPlaceHolder: boolean = false,
+    isReference: boolean = false;
 
-  args.tblRow[0].startsWith(Prefix.placeHolder)
-    ? (isPlaceHolder = true)
-    : (isPlaceHolder = false);
+  isPlaceHolder = args.tblRow[0].startsWith(Prefix.placeHolder);
+  isReference = args.tblRow[0].startsWith(Prefix.readingRef);
 
-  actorClass = splitTitle(args.tblRow[0])[1] || "";
+  actorClass = splitTitle(args.tblRow[0])[1] || "NoActor";
 
   htmlRow = document.createElement("div");
   if (args.arrayName) htmlRow.dataset.arrayName = args.arrayName;
+
+  if (isReference) {
+    args.tblRow = [args.tblRow[0], args.tblRow[0].replace(Prefix.readingRef, '')];
+    htmlRow.dataset.isReference = args.tblRow[0].toUpperCase();
+  };
 
   if (!isPlaceHolder) {
     args.tblRow.length > 1 ? dataRoot = args.titleBase : dataRoot = splitTitle(args.tblRow[0])[0];//If the row contains only 1 element, it means that this row has no text and was inserted in order to generate an html div that will be later on used as a placeholder anchor for another prayer to be inserted. We will give the html element as data-root and a data-group the tblRow[0] in roder to avoid this element to be treated as a "Prefix.same" element when the array is saved and exported
@@ -990,7 +1013,6 @@ function createHtmlElementForPrayerEditingMode(args: {
     htmlRow.dataset.group = dataRoot; //The data-group attribute aims at making the row part of the same of group of rows that will be shown or hidden when we click on the title
     if (actorClass) htmlRow.classList.add(actorClass);
   } else if (isPlaceHolder) {
-    args.tblRow = [...args.tblRow]; //We create a copy of the row
     let children = Array.from(args.container.children) as HTMLDivElement[];
     let lastChild = children[children.length - 1];
     htmlRow.classList.add("PlaceHolder");
@@ -1112,10 +1134,9 @@ function createHtmlElementForPrayerEditingMode(args: {
     }
     p.dataset.root = htmlRow.dataset.root; //we do this in order to be able later to retrieve all the divs containing the text of the prayers with similar id as the title
     p.title = htmlRow.title;
-    text = args.tblRow[x];
     if (lang) p.classList.add(lang.toUpperCase());
     p.lang = lang; //we are adding this in order to be able to retrieve all the paragraphs in a given language by its data attribute. We need to do this in order for example to amplify the font of a given language when the user double clicks
-    p.innerText = text;
+    p.innerText = args.tblRow[x];
     p.contentEditable = "true";
     p.addEventListener('keydown', (e: KeyboardEvent) => { paragraphsKeyShortcuts(e); return false })
     htmlRow.appendChild(p); //the row which is a <div></div>, will encapsulate a <p></p> element for each language in the 'prayer' array (i.e., it will have as many <p></p> elements as the number of elements in the 'prayer' array)
@@ -1317,7 +1338,7 @@ function splitParagraphsToTheRowsBelow(htmlParag: HTMLElement) {
     if (!table[i + rowIndex]) {
       //if tables rows are less than the number of paragraphs in 'clean', we add a new row to the table, and we push the new row to table
       table.push(
-        addNewRow(
+        addRow(
           table[table.length - 1].querySelector('p[lang="' + lang + '"]'),
           false,
           title
@@ -1377,18 +1398,21 @@ function getLanguages(arrayName?): string[] {
  * Converts the coptic font of the text in the selected html element, to a unicode font
  * @param {HTMLElement} htmlElement - an editable html element in which the cursor is placed, containing coptic text in a non unicode font, that we need to convert
  */
-async function convertCopticFontFromAPI(htmlElement: HTMLElement, fontFrom?: string, promptAll: boolean = true) {
-  let text: string, selected: Selection = getSelectedText();
+async function convertCopticFont(htmlElement: HTMLElement, fontFrom?: string, promptAll: boolean = true) {
+  let text: string;
 
 
   if (!fontFrom) fontFrom = prompt("Provide the font", "COPTIC1/CS_AVVA_SHENOUDA/AVVA_SHENOUDA/ATHANASIUS/NEW_ATHANASIUS");
 
   if (promptAll && confirm('Do you want to edit all the coptic paragraphs with the same font?')) {
-    Array.from(containerDiv.querySelectorAll('P') as NodeListOf<HTMLParagraphElement>)
-      .filter(p => p.lang === 'COP')
-      .forEach((p) => convertCopticFontFromAPI(p, fontFrom, false));
+    let parags = Array.from(containerDiv.querySelectorAll('P') as NodeListOf<HTMLParagraphElement>)
+      .filter(p => p.lang === 'COP');
 
-    return;
+    for (let parag of parags) {
+      await convertCopticFont(parag, fontFrom, false);
+    }
+
+    return
 
   }
 
@@ -1398,48 +1422,115 @@ async function convertCopticFontFromAPI(htmlElement: HTMLElement, fontFrom?: str
   if (!htmlElement) return alert('Html element not a paragraph');
 
 
-  if (!['CS_AVVA_SHENOUDA'].includes(fontFrom)) return htmlElement.innerText = await convertFont(htmlElement.innerText, fontFrom) || htmlElement.innerText;
+  if (!['CS_AVVA_SHENOUDA'].includes(fontFrom)) {
+    htmlElement.innerText = await convertFontWithoutAPI(htmlElement.innerText, fontFrom) || htmlElement.innerText;
+    return;
+  };
 
+  await convertFromAPI();
 
-  const apiURL: string =
-    "https://www.copticchurch.net/coptic_language/fonts/convert";
+  async function convertFromAPI() {
+    let selected: Selection = getSelectedText();
 
-  if (selected && !selected.isCollapsed) fetchConvertedFont(selected.toString());
-  else fetchConvertedFont(htmlElement.textContent);
+    if (selected && !selected.isCollapsed)
+      await convertFont(selected.toString());
+    else await convertFont(htmlElement.textContent);
 
-  function fetchConvertedFont(originalText: string): string {
-    sendHttpRequest({
-      url: apiURL,
-      method: "POST",
-      contentType: "application/x-www-form-urlencoded",
-      body: "from=" +
-        encodeURI(fontFrom) + "&encoding=unicode&action=translate&data=" + encodeURI(originalText),
-      onLoad: reqOnLoad,
-      accept: "text",
-      responseType: 'text'
-    });
+    async function convertFont(originalText: string): Promise<string | void> {
+      let apiURL = new URL("https://www.copticchurch.net/coptic_language/fonts/convert");
 
+      let init: RequestInit = {
+        method: 'POST',
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Accept": "text/html",
+        },
 
-    function reqOnLoad() {
-      if (this.status === 200) {
+        body: "from=" +
+          encodeURI(fontFrom) + "&encoding=unicode&action=translate&data=" + encodeURI(originalText)
+      };
+
+      let response = await fetch(apiURL, init);
+      if (response.status !== 200)
+        return console.log("error status text = ", response.statusText);
+
+      let textArea: HTMLElement = new DOMParser()
+        .parseFromString(await response.text(), "text/html")
+        .getElementsByTagName("textarea")[0];
+
+      if (!textArea || !textArea.innerText) {
+        text = 'Error: no textArea or textArea is empty'
+        return console.log(text)
+      };
+      text = textArea.innerText;
+      console.log("converted text = ", text);
+      if (!text) return;
+      if (selected) htmlElement.innerText = htmlElement.innerText.replace(originalText, text);
+      else htmlElement.innerText = text;
+
+      return text;
+
+      /*sendHttpRequest({
+        url: apiURL,
+        method: "POST",
+        contentType: "application/x-www-form-urlencoded",
+        body: "from=" +
+          encodeURI(fontFrom) + "&encoding=unicode&action=translate&data=" + encodeURI(originalText),
+        onLoad: requestOnLoad,
+        accept: "text",
+        responseType: 'text'
+      });*/
+
+      function requestOnLoad() {
+        return
+        if (this.status !== 200) {
+          console.log("error status text = ", this.statusText);
+          text = 'Failed and got error : ' + this.statusText
+          return this.statusText;
+        };
+
         let textArea: HTMLElement = new DOMParser()
           .parseFromString(this.response, "text/html")
           .getElementsByTagName("textarea")[0];
+        if (!textArea || !textArea.innerText) {
+          text = 'Error: no textArea or textArea is empty'
+          return console.log(text)
+        };
         text = textArea.innerText;
         console.log("converted text = ", text);
         if (selected) htmlElement.innerText = htmlElement.innerText.replace(originalText, text);
         else htmlElement.innerText = text;
-      } else {
-        console.log("error status text = ", this.statusText);
-        text = 'Failed and got error : ' + this.statusText
-        return this.statusText;
+
       }
+      //while (!text) text = text; //We do this in order to prevent the function from returnig until text is set by requestOnLoad() 
+
     }
-    return text
-  }
+
+  };
+
 }
 
-function sendHttpRequest(args: { url: string | URL, body?: Document | XMLHttpRequestBodyInit, method?: string, contentType?: string, onLoad?: XMLHttpRequestEventTarget["onload"], accept?: string, responseType?: XMLHttpRequestResponseType, apiKey?: string }): XMLHttpRequest {
+/**
+ * Creats and sends an XMLHttpRequest and returns the request
+ * @param {string | url} url - the url of the api or the site to which the request will be sent
+ * @param {Document | XMLHttpRequestBodyInit} body - the body of the request
+ * @param {string} method - the method of the request
+ * @param {string} contentType - the content-type header of the request
+ * @param {XMLHttpRequestEventTarget["onload"]} onLoad - the function that will be associated with the onLoad property of the requsest
+ * @param {string} accept - the accept header of the requsest
+ * @param {string} responseType - the response type header of the requsest
+ * @param {string} apiKey - the api key that needs to be sent with the requsest
+ */
+function sendHttpRequest(args: {
+  url: string | URL,
+  body?: Document | XMLHttpRequestBodyInit,
+  method?: string,
+  contentType?: string,
+  onLoad?: XMLHttpRequestEventTarget["onload"],
+  accept?: string,
+  responseType?: XMLHttpRequestResponseType,
+  apiKey?: string
+}): XMLHttpRequest {
   (function setDefaults() {
     if (!args.method) args.method = "GET";
     if (!args.responseType) args.responseType = "text";
@@ -1661,8675 +1752,8715 @@ function getSelectedText(): Selection {
 /**
  * Converts the fonts of all the Coptic text paragraphs in containerDiv
  */
-function convertAllCopticParagraphsFonts(fontFrom?: string) {
-  let parags = Array.from(containerDiv.querySelectorAll('P')) as HTMLParagraphElement[];
+async function convertAllCopticParagraphsFonts(fontFrom?: string) {
   if (!fontFrom) fontFrom = prompt('Provide the font from which you want to convert the Coptic text');
-  parags
-    .filter(parag => parag.lang === 'COP')
-    .forEach(parag => {
-      convertCopticFontFromAPI(parag, fontFrom)
-
-    })
+  let parags = Array.from(containerDiv.querySelectorAll('P')) as HTMLParagraphElement[];
+  parags = parags
+    .filter(parag => parag.lang === 'COP');
+  for (let parag of parags) {
+    return await convertCopticFont(parag, fontFrom)
+  }
 
 }
 
-async function FixCopticText(parag: HTMLElement) {
+async function _FixCopticText(parag: HTMLElement) {
   let htmlRow = getHtmlRow(parag);
   if (!htmlRow) return alert('We couldn\'t find the parent html row element');
   let previous: HTMLElement | void,
     font: string,
     parags = parag.innerHTML.split('<br>');
   for (let i = 0; i < parags.length; i++) {
-    previous = addNewRow(parag, false, parag.title.replace('Diacon', 'ReadingIntro'), false);
+    previous = addRow(parag, false, parag.title.replace('Diacon', 'ReadingIntro'), false);
     if (!previous) return alert('addNewRow() didn\'t return a row');
     (previous.children[0] as HTMLParagraphElement).innerText = parags[i];
     window.Selection = null;
     i === 1 ? font = 'ATHANASIUS' : font = 'CS_AVVA_SHENOUDA';
-    await convertCopticFontFromAPI(previous.children[0] as HTMLParagraphElement, font, false);
+    await convertCopticFont(previous.children[0] as HTMLParagraphElement, font, false);
 
   }
 
-  //parag.innerText = ""
-
 }
 
-function fetchBibleVersesFromScriptureApi() {
-  let appKey: string = "107645497acb44223b3a1ec595eee5f0",
-    apiUR: string = "https://api.scripture.api.bible/v1/",
-    method: "GET",
-    bibles = returnBiblesList(),
-    French: string = bibles.find(obj => obj.language.name === 'french').id,
-    Arabic: string = bibles.find(obj => obj.language.name === 'arb').id,
-    English: string = "",
-    chapter: number,
-    contentType: 'text',
-    verses: number[],
-    accept: "application/json";
+function insertReadingTextFromBible(htmlParag: HTMLElement) {
+  if (!htmlParag || htmlParag.tagName !== 'P') return alert('The selected element is undefined or not a pargraph element');
+  let lang = htmlParag.lang;
+  if (!lang) lang = prompt('Provide the langauge', lang);
+  if (lang === 'CA') lang = 'AR';
 
-
-  //fetch all books: https://api.scripture.api.bible/v1/bibles/b17e246951402e50-01/books?include-chapters=true&include-chapters-and-sections=true;
-
-  //Call specific book: https://api.scripture.api.bible/v1/bibles/b17e246951402e50-01/books/GEN?include-chapters=true
-
-  //fetch all chapters of a book :https://api.scripture.api.bible/v1/bibles/b17e246951402e50-01/books/GEN/chapters
-
-  //fetch specific chapter of a book:https://api.scripture.api.bible/v1/bibles/b17e246951402e50-01/chapters/GEN.1?content-type=text&include-notes=false&include-titles=true&include-chapter-numbers=false&include-verse-numbers=true&include-verse-spans=false
-
-  //fetch specific verse of a given chapter of a given book: https://api.scripture.api.bible/v1/bibles/b17e246951402e50-01/verses/GEN.1.3?content-type=text&include-notes=false&include-titles=false&include-chapter-numbers=false&include-verse-numbers=true&include-verse-spans=false&use-org-id=false
-
-
-  let test = "https://api.scripture.api.bible/v1/bibles?include-full-details=true"
-
-
-  function returnBiblesList(): { id: string; name: string; nameLocal: string; language: { id: string; name: string; script: string; scriptDirection: string; }; countries: {} }[] {
-    let bibles = {
-      "data": [
-        {
-          "id": "472735b48a27b402-01",
-          "dblId": "472735b48a27b402",
-          "relatedDbl": null,
-          "name": "The New Testament in Ahirani language",
-          "nameLocal": "प्रेम संदेश",
-          "abbreviation": "NTAii20",
-          "abbreviationLocal": "NTAii20",
-          "description": "The New Testament in Ahirani language, 2020",
-          "descriptionLocal": "प्रेम संदेश, नवा करार, 2020",
-          "language": {
-            "id": "ahr",
-            "name": "Ahirani",
-            "nameLocal": "Ahirani",
-            "script": "Devanagari",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T17:50:52.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "0c2ff0a5c8b9069c-01",
-          "dblId": "0c2ff0a5c8b9069c",
-          "relatedDbl": null,
-          "name": "Nend Portions - Mark",
-          "nameLocal": "MAK Yakŋ Ohɨrand Ya Imbɨr Makɨv Mpamar",
-          "abbreviation": "NendNP03",
-          "abbreviationLocal": "NendNP03",
-          "description": null,
-          "descriptionLocal": "Mark in Nend",
-          "language": {
-            "id": "anh",
-            "name": "Nend",
-            "nameLocal": "Nend",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "PG",
-              "name": "Papua New Guinea",
-              "nameLocal": "Papua New Guinea"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T05:09:04.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "b17e246951402e50-01",
-          "dblId": "b17e246951402e50",
-          "relatedDbl": null,
-          "name": "Biblica® Open New Arabic Version 2012",
-          "nameLocal": "كتاب الحياة مجانى",
-          "abbreviation": "ONAV",
-          "abbreviationLocal": "KEHM",
-          "description": "Holy Bible",
-          "descriptionLocal": "ا‫لكتاب المقدس",
-          "language": {
-            "id": "arb",
-            "name": "Arabic, Standard",
-            "nameLocal": "العربية",
-            "script": "Arabic",
-            "scriptDirection": "RTL"
-          },
-          "countries": [
-            {
-              "id": "EG",
-              "name": "Egypt",
-              "nameLocal": "Egypt"
-            },
-            {
-              "id": "SA",
-              "name": "Saudi Arabia",
-              "nameLocal": "Saudi Arabia"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2024-01-12T09:21:54.000Z",
-          "audioBibles": [
-            {
-              "id": "26b7a1cd2f8f4878-01",
-              "name": "Biblica® Open New Arabic Version 2012, Audio Edition",
-              "nameLocal": "Ketab El Hayat Majani/كتاب الحياة مجانى",
-              "dblId": "26b7a1cd2f8f4878"
-            }
-          ]
-        },
-        {
-          "id": "b7ad344da9c39262-01",
-          "dblId": "b7ad344da9c39262",
-          "relatedDbl": null,
-          "name": "Arapaho Luke",
-          "nameLocal": "Hethadenee waunauyaunee vadan Luke Vanenāna",
-          "abbreviation": "arp",
-          "abbreviationLocal": "ARP",
-          "description": "common",
-          "descriptionLocal": "common",
-          "language": {
-            "id": "arp",
-            "name": "Arapaho",
-            "nameLocal": "Arapaho",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "US",
-              "name": "United States of America",
-              "nameLocal": "United States of America"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-09-21T23:20:25.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "d199679f805f5b29-01",
-          "dblId": "d199679f805f5b29",
-          "relatedDbl": null,
-          "name": "Indian Revised Version (IRV) Assamese - 2019",
-          "nameLocal": "ইণ্ডিয়ান ৰিভাইচ ভাৰচন (IRV) আচামিচ - 2019",
-          "abbreviation": "IRVAsm",
-          "abbreviationLocal": "IRVAsm",
-          "description": "Indian Revised Version Holy Bible in the Assameese language of India",
-          "descriptionLocal": "Indian Revised Version Holy Bible in the Assameese language of India",
-          "language": {
-            "id": "asm",
-            "name": "Assamese",
-            "nameLocal": "অসমীয়া",
-            "script": "Bengali",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-05-03T22:06:10.000Z",
-          "audioBibles": [
-            {
-              "id": "b3e56f2d3a124ab3-01",
-              "name": "Assamese Indian Revised Version (IRV)",
-              "nameLocal": "Assamese Indian Revised Version (IRV)",
-              "dblId": "b3e56f2d3a124ab3"
-            }
-          ]
-        },
-        {
-          "id": "7b1975ae4d11d931-01",
-          "dblId": "7b1975ae4d11d931",
-          "relatedDbl": null,
-          "name": "The New Testament in Bodo Parja Language",
-          "nameLocal": "ସଃର୍ଗାର୍‌ ବାଟ୍‌ ନଃଉଁଆ ନିଅମ୍‌",
-          "abbreviation": "NTBPL20",
-          "abbreviationLocal": "NTBPL20",
-          "description": "The New Testament in Bodo Parja Language 2020",
-          "descriptionLocal": "ସଃର୍ଗାର୍‌ ବାଟ୍‌ ନଃଉଁଆ ନିଅମ୍‌ 2020",
-          "language": {
-            "id": "bdv",
-            "name": "Bodo Parja",
-            "nameLocal": "Bodo Parja",
-            "script": "Oriya",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T09:46:01.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "17c44f6c89de00db-01",
-          "dblId": "17c44f6c89de00db",
-          "relatedDbl": null,
-          "name": "Belarusian New Testament and Books of Old Testament",
-          "nameLocal": "Новы Запавет і Кнігі Старога Запавету",
-          "abbreviation": "NTPrv",
-          "abbreviationLocal": "НЗПрп",
-          "description": "Belarusian New Testament and Books of Old Testament",
-          "descriptionLocal": "Новы Запавет і Кнігі Старога Запавету",
-          "language": {
-            "id": "bel",
-            "name": "Belarusan",
-            "nameLocal": "беларуская",
-            "script": "Cyrillic",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "BY",
-              "name": "Belarus",
-              "nameLocal": "Belarus"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-12-31T09:09:07.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "17c44f6c89de00db-02",
-          "dblId": "17c44f6c89de00db",
-          "relatedDbl": null,
-          "name": "Bible (A.Bokun translation)",
-          "nameLocal": "Біблія (пераклад А.Бокуна)",
-          "abbreviation": "BBB",
-          "abbreviationLocal": "БББ",
-          "description": "Bible (A.Bokun translation)",
-          "descriptionLocal": "Біблія (пераклад А.Бокуна)",
-          "language": {
-            "id": "bel",
-            "name": "Belarusan",
-            "nameLocal": "беларуская",
-            "script": "Cyrillic",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "BY",
-              "name": "Belarus",
-              "nameLocal": "Belarus"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2024-04-13T09:13:45.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "b52bc8b7af3bdc6f-03",
-          "dblId": "b52bc8b7af3bdc6f",
-          "relatedDbl": null,
-          "name": "Bible (V. Semukha translation)",
-          "nameLocal": "Біблія (пераклад В. Сёмухі)",
-          "abbreviation": "BBL",
-          "abbreviationLocal": "ББЛ",
-          "description": "Synodal",
-          "descriptionLocal": "Сінадальны",
-          "language": {
-            "id": "bel",
-            "name": "Belarusian",
-            "nameLocal": "беларуская",
-            "script": "Cyrillic",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "BY",
-              "name": "Belarus",
-              "nameLocal": "Belarus"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T12:46:46.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "efd8a351a07d4264-01",
-          "dblId": "efd8a351a07d4264",
-          "relatedDbl": null,
-          "name": "Biblica® Open Bengali Contemporary Version 2019",
-          "nameLocal": "Biblica® মুক্তভাবে বাংলা সমকালীন সংস্করণের",
-          "abbreviation": "BCV",
-          "abbreviationLocal": "BCV",
-          "description": "Holy Bible",
-          "descriptionLocal": "পবিত্র বাইবেল",
-          "language": {
-            "id": "ben",
-            "name": "Bengali",
-            "nameLocal": "বাংলা",
-            "script": "Bengali",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-09-22T00:26:18.000Z",
-          "audioBibles": [
-            {
-              "id": "2d681a4ce8b8479f-01",
-              "name": "Biblica® Open Bengali Contemporary Version, Audio Edition",
-              "nameLocal": "Biblica® Open Bengali Contemporary Version™, Audio Edition",
-              "dblId": "2d681a4ce8b8479f"
-            }
-          ]
-        },
-        {
-          "id": "4c3eda00cd317568-01",
-          "dblId": "4c3eda00cd317568",
-          "relatedDbl": null,
-          "name": "Indian Revised Version (IRV) Bengali",
-          "nameLocal": "ইন্ডিয়ান রিভাইজড ভার্সন (IRV) - বেঙ্গলী",
-          "abbreviation": "IRVBen",
-          "abbreviationLocal": "IRVBen",
-          "description": "Protestant",
-          "descriptionLocal": "Protestant",
-          "language": {
-            "id": "ben",
-            "name": "Bengali",
-            "nameLocal": "বাংলা",
-            "script": "Bengali",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-09-21T20:24:25.000Z",
-          "audioBibles": [
-            {
-              "id": "7fb0e05721aa424f-01",
-              "name": "Bengali Indian Revised Version (IRV)",
-              "nameLocal": "Bengali Indian Revised Version (IRV)",
-              "dblId": "7fb0e05721aa424f"
-            }
-          ]
-        },
-        {
-          "id": "55bab459b716348c-01",
-          "dblId": "55bab459b716348c",
-          "relatedDbl": null,
-          "name": "Bedamuni Bible",
-          "nameLocal": "GODE EA SIA: IDA:IWANE GALA",
-          "abbreviation": "beo",
-          "abbreviationLocal": "BEO",
-          "description": "common",
-          "descriptionLocal": "common",
-          "language": {
-            "id": "beo",
-            "name": "Beami",
-            "nameLocal": "Beami",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "PG",
-              "name": "Papua New Guinea",
-              "nameLocal": "Papua New Guinea"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T08:03:38.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "e051b4f945d52400-02",
-          "dblId": "e051b4f945d52400",
-          "relatedDbl": null,
-          "name": "Baghlayani",
-          "nameLocal": "बग़ल्याणी",
-          "abbreviation": "BGHNT",
-          "abbreviationLocal": "BGHNT",
-          "description": "New Testament in Baghlayani",
-          "descriptionLocal": "बघल्याणी पाषा दे नवां विधान",
-          "language": {
-            "id": "bfz",
-            "name": "Pahari, Mahasu",
-            "nameLocal": "Pahari, Mahasu",
-            "script": "Devanagari",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T15:12:42.000Z",
-          "audioBibles": [
-            {
-              "id": "ee71326e788e47d7-01",
-              "name": "Baghlayani New Testament",
-              "nameLocal": "Baghlayani New Testament",
-              "dblId": "ee71326e788e47d7"
-            }
-          ]
-        },
-        {
-          "id": "2ef130d3485d3fe4-01",
-          "dblId": "2ef130d3485d3fe4",
-          "relatedDbl": null,
-          "name": "Haryanvi",
-          "nameLocal": "हरियाणवी",
-          "abbreviation": "BGCNT",
-          "abbreviationLocal": "BGCNT",
-          "description": "Bible in Haryanvi Language",
-          "descriptionLocal": "हरियाणवी बाइबिल",
-          "language": {
-            "id": "bgc",
-            "name": "Haryanvi",
-            "nameLocal": "Haryanvi",
-            "script": "Devanagari",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T06:35:35.000Z",
-          "audioBibles": [
-            {
-              "id": "a870900c030548a0-01",
-              "name": "Haryanvi New Testament",
-              "nameLocal": "Haryanvi New Testament",
-              "dblId": "a870900c030548a0"
-            }
-          ]
-        },
-        {
-          "id": "5a19af0cfc57ff3a-01",
-          "dblId": "5a19af0cfc57ff3a",
-          "relatedDbl": null,
-          "name": "Bugun New Testament",
-          "nameLocal": "Iwo Surua Mua Wie Pha Bible",
-          "abbreviation": "BUG",
-          "abbreviationLocal": "BUG",
-          "description": "Bugun New Testament",
-          "descriptionLocal": "Iwo Surua Mua Wie Pha Bible",
-          "language": {
-            "id": "bgg",
-            "name": "Bugun",
-            "nameLocal": "Bugun",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2023-04-05T09:16:29.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "c2d042a913068a25-01",
-          "dblId": "c2d042a913068a25",
-          "relatedDbl": null,
-          "name": "Bhadrawahi New Testament",
-          "nameLocal": "भड्लाई नंव्वों नियम",
-          "abbreviation": "BHD-NT",
-          "abbreviationLocal": "BHD-NT",
-          "description": "New Testament in Bhadrawahi",
-          "descriptionLocal": "भड्लाई भाषाई मां नंव्वों नियम",
-          "language": {
-            "id": "bhd",
-            "name": "Bhadrawahi",
-            "nameLocal": "Bhadrawahi",
-            "script": "Devanagari",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-26T21:15:06.000Z",
-          "audioBibles": [
-            {
-              "id": "fa9a334bd9054e2f-01",
-              "name": "Bhadrawahi New Testament",
-              "nameLocal": "Bhadrawahi New Testament",
-              "dblId": "fa9a334bd9054e2f"
-            }
-          ]
-        },
-        {
-          "id": "63d47dec7790e1cf-01",
-          "dblId": "63d47dec7790e1cf",
-          "relatedDbl": null,
-          "name": "Bhattiyali NT",
-          "nameLocal": "भटियाली नोआ नियम",
-          "abbreviation": "BHTNT",
-          "abbreviationLocal": "BHTNT",
-          "description": "Bhattiyali New Testament",
-          "descriptionLocal": "भटियाली नोआ नियम",
-          "language": {
-            "id": "bht",
-            "name": "Bhattiyali",
-            "nameLocal": "Bhattiyali",
-            "script": "Devanagari",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-03-22T14:17:51.000Z",
-          "audioBibles": [
-            {
-              "id": "df60a5e21c5c434e-01",
-              "name": "Bhattiyali New Testament",
-              "nameLocal": "Bhattiyali New Testament",
-              "dblId": "df60a5e21c5c434e"
-            }
-          ]
-        },
-        {
-          "id": "34d2d843a792981b-01",
-          "dblId": "34d2d843a792981b",
-          "relatedDbl": null,
-          "name": "Bhumiya New Testament",
-          "nameLocal": "भगवान कर सच्चा बचन,",
-          "abbreviation": "NTBTP23",
-          "abbreviationLocal": "NTBTP23",
-          "description": "The New Testament in Bhumiya Language",
-          "descriptionLocal": "भगवान कर सच्चा बचन, नबा नियम, 2023",
-          "language": {
-            "id": "bhu",
-            "name": "Bhunjia",
-            "nameLocal": "Bhunjia",
-            "script": "Devanagari",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2023-08-28T09:14:46.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "6855dabfcb711cc2-01",
-          "dblId": "6855dabfcb711cc2",
-          "relatedDbl": null,
-          "name": "Blackfoot Matthew",
-          "nameLocal": "ŎKHS' I TSĬN IK SĬN NI ST. MATTHEW OT SĬN AI PI.",
-          "abbreviation": "bla1890",
-          "abbreviationLocal": "bla1890",
-          "description": "common",
-          "descriptionLocal": "common",
-          "language": {
-            "id": "bla",
-            "name": "Siksika",
-            "nameLocal": "Siksika",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "CA",
-              "name": "Canada",
-              "nameLocal": "Canada"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T08:46:39.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "8b4c1b146ad6508a-01",
-          "dblId": "8b4c1b146ad6508a",
-          "relatedDbl": null,
-          "name": "The New Testament in Paliya Language",
-          "nameLocal": "भगवान ना खरला बोल, नवलो नेम",
-          "abbreviation": "NTPPt2020",
-          "abbreviationLocal": "NTPPt2020",
-          "description": "The New Testament in Paliya Language,2020",
-          "descriptionLocal": "भगवान ना खरला बोल, नवलो नेम,2020",
-          "language": {
-            "id": "bpx",
-            "name": "Bareli, Palya",
-            "nameLocal": "Bareli, Palya",
-            "script": "Devanagari",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T10:24:10.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "71d2075d284c4eae-01",
-          "dblId": "71d2075d284c4eae",
-          "relatedDbl": null,
-          "name": "God's Holy Book",
-          "nameLocal": "Kitabu ka Kanu",
-          "abbreviation": "Baga",
-          "abbreviationLocal": "KKK",
-          "description": "The Law books, the Gospel and the Letters of the Apostles in Baga",
-          "descriptionLocal": "Tawureta, Yabura, Iŋyila, kɔ reka ya asɔm a Yesu",
-          "language": {
-            "id": "bsp",
-            "name": "Baga Sitemu",
-            "nameLocal": "Baga Sitemu",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "GN",
-              "name": "Guinea",
-              "nameLocal": "Guinea"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2023-06-27T21:17:51.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "44e37abe1fa39aab-01",
-          "dblId": "44e37abe1fa39aab",
-          "relatedDbl": null,
-          "name": "The New Testament in Borna/Shinasha Language",
-          "nameLocal": "Handr Taara",
-          "abbreviation": "BrnNTLtn",
-          "abbreviationLocal": "BrnNTLtn",
-          "description": "The New Testament in Borna/Shinasha Language",
-          "descriptionLocal": "ቦርና/ሺናሻ አዲስ ኪዳን 2018",
-          "language": {
-            "id": "bwo",
-            "name": "Borna",
-            "nameLocal": "Borna",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "ET",
-              "name": "Ethiopia",
-              "nameLocal": "Ethiopia"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-03-22T14:50:40.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "c0209b58481727a2-01",
-          "dblId": "c0209b58481727a2",
-          "relatedDbl": null,
-          "name": "Biblica® Open Czech Living New Testament",
-          "nameLocal": "Biblica® Open Slovo na cestu",
-          "abbreviation": "OSNC",
-          "abbreviationLocal": "OSNC",
-          "description": "New Testament",
-          "descriptionLocal": "Nového zákona",
-          "language": {
-            "id": "ces",
-            "name": "Czech",
-            "nameLocal": "Čeština",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "CZ",
-              "name": "Czechia",
-              "nameLocal": "Czechia"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-09-21T23:30:08.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "c61908161b077c4c-01",
-          "dblId": "c61908161b077c4c",
-          "relatedDbl": null,
-          "name": "Czech Kralická Bible 1613",
-          "nameLocal": "Bible Kralická 1613",
-          "abbreviation": "ces1613",
-          "abbreviationLocal": "BKR",
-          "description": "common",
-          "descriptionLocal": "společný",
-          "language": {
-            "id": "ces",
-            "name": "Czech",
-            "nameLocal": "Čeština",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "CZ",
-              "name": "Czech Republic",
-              "nameLocal": "Czech Republic"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T13:38:22.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "9ab28a81b9c4587d-01",
-          "dblId": "9ab28a81b9c4587d",
-          "relatedDbl": null,
-          "name": "Biblica® Open Kurdi Sorani Standard Version 2020",
-          "nameLocal": "ببلیکا – وەشانی بێبەرامبەری کوردیی سۆرانیی ستاندەر",
-          "abbreviation": "OKSS",
-          "abbreviationLocal": "OKSS",
-          "description": "Protestant Bible",
-          "descriptionLocal": "كتێبی پیرۆز",
-          "language": {
-            "id": "ckb",
-            "name": "Kurdish, Central",
-            "nameLocal": "كوردی سۆرانی",
-            "script": "Arabic",
-            "scriptDirection": "RTL"
-          },
-          "countries": [
-            {
-              "id": "IQ",
-              "name": "Iraq",
-              "nameLocal": "Iraq"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-12-02T00:35:45.000Z",
-          "audioBibles": [
-            {
-              "id": "4bd4740816ed4a97-01",
-              "name": "Kurdi Sorani Standard 2020, Audio Edition",
-              "nameLocal": "مافی بڵاوکردنەوەی دەنگدار لە لایەن ڕێکخراوی ببلیکا و داڤار پارتنەرسی نێودەوڵەتییەوە پارێزراوە، ٢٠٢٠‎",
-              "dblId": "4bd4740816ed4a97"
-            },
-            {
-              "id": "4bd4740816ed4a97-02",
-              "name": "Biblica® Open Kurdi Sorani Standard Version™ , Audio Version",
-              "nameLocal": "مافی بڵاوکردنەوەی دەنگدار لە لایەن ڕێکخراوی ببلیکا و داڤار پارتنەرسی نێودەوڵەتییەوە پارێزراوە، ٢٠٢٠‎",
-              "dblId": "4bd4740816ed4a97"
-            }
-          ]
-        },
-        {
-          "id": "7ea794434e9ea7ee-01",
-          "dblId": "7ea794434e9ea7ee",
-          "relatedDbl": null,
-          "name": "Biblica® Open Chinese Contemporary Bible Simplified 2022",
-          "nameLocal": "当代译本",
-          "abbreviation": "OCCB",
-          "abbreviationLocal": "OCCB",
-          "description": "Bible",
-          "descriptionLocal": "圣经",
-          "language": {
-            "id": "cmn",
-            "name": "Chinese, Mandarin",
-            "nameLocal": "中文",
-            "script": "Han (Simplified variant)",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "CN",
-              "name": "China",
-              "nameLocal": "China"
-            },
-            {
-              "id": "MY",
-              "name": "Malaysia",
-              "nameLocal": "Malaysia"
-            },
-            {
-              "id": "SG",
-              "name": "Singapore",
-              "nameLocal": "Singapore"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2023-10-29T21:17:55.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "a6e06d2c5b90ad89-01",
-          "dblId": "a6e06d2c5b90ad89",
-          "relatedDbl": null,
-          "name": "Biblica® Open Chinese Contemporary Bible Traditional 2023",
-          "nameLocal": "當代譯本",
-          "abbreviation": "OCCBT",
-          "abbreviationLocal": "OCCB",
-          "description": "Bible",
-          "descriptionLocal": "聖經",
-          "language": {
-            "id": "cmn",
-            "name": "Chinese, Mandarin",
-            "nameLocal": "中文",
-            "script": "Han (Traditional variant)",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "HK",
-              "name": "Hong Kong",
-              "nameLocal": "Hong Kong"
-            },
-            {
-              "id": "TW",
-              "name": "Taiwan",
-              "nameLocal": "Taiwan"
-            },
-            {
-              "id": "MO",
-              "name": "Macao",
-              "nameLocal": "Macao"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2023-11-02T21:24:00.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "04fb2bec0d582d1f-01",
-          "dblId": "04fb2bec0d582d1f",
-          "relatedDbl": null,
-          "name": "免费的易读圣经 Free Easy-to-read Bible",
-          "nameLocal": "免费的易读圣经 Free Easy-to-read Bible",
-          "abbreviation": "FEB",
-          "abbreviationLocal": "FEB",
-          "description": null,
-          "descriptionLocal": null,
-          "language": {
-            "id": "cmn",
-            "name": "Chinese, Mandarin",
-            "nameLocal": "中文",
-            "script": "Han (Simplified variant)",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "CN",
-              "name": "China",
-              "nameLocal": "China"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-09-21T18:52:00.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "dca01eb41e39d25d-02",
-          "dblId": "dca01eb41e39d25d",
-          "relatedDbl": null,
-          "name": "Kwere Bible",
-          "nameLocal": "Biblia Ching'hwele",
-          "abbreviation": "Kwere",
-          "abbreviationLocal": "Ching'hwele",
-          "description": "NT & Pentateuch",
-          "descriptionLocal": "NT & Pentateuch",
-          "language": {
-            "id": "cwe",
-            "name": "Kwere",
-            "nameLocal": "Ching'hwele",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "TZ",
-              "name": "Tanzania, United Republic of",
-              "nameLocal": "Tanzania, United Republic of"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2024-04-13T09:28:29.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "33e024fcc7010565-01",
-          "dblId": "33e024fcc7010565",
-          "relatedDbl": null,
-          "name": "The New Testament in Kwere",
-          "nameLocal": "Lagano da Sambi kwa Wanhu Wose",
-          "abbreviation": "Kwere",
-          "abbreviationLocal": "Kwere",
-          "description": "New Testament",
-          "descriptionLocal": "New Testament",
-          "language": {
-            "id": "cwe",
-            "name": "Kwere",
-            "nameLocal": "Ching'hwele",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "TZ",
-              "name": "Tanzania, United Republic of",
-              "nameLocal": "Tanzania, United Republic of"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2023-11-22T21:15:05.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "dca01eb41e39d25d-01",
-          "dblId": "dca01eb41e39d25d",
-          "relatedDbl": null,
-          "name": "The New Testament in Kwere",
-          "nameLocal": "Lagano da Sambi kwa Wanhu Wose",
-          "abbreviation": "Kwere",
-          "abbreviationLocal": "Kwere",
-          "description": "New Testament",
-          "descriptionLocal": "Kwere",
-          "language": {
-            "id": "cwe",
-            "name": "Kwere",
-            "nameLocal": "Kwere",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "TZ",
-              "name": "Tanzania, United Republic of",
-              "nameLocal": "Tanzania, United Republic of"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2023-11-23T09:32:45.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "b84c4908b73961ba-01",
-          "dblId": "b84c4908b73961ba",
-          "relatedDbl": null,
-          "name": "New Testament in Dai",
-          "nameLocal": "Dai Cangcim Kthai",
-          "abbreviation": "DNT",
-          "abbreviationLocal": "DNT",
-          "description": "New Testament in Dai",
-          "descriptionLocal": "Dai Cangcim Kthai",
-          "language": {
-            "id": "dao",
-            "name": "Chin, Daai",
-            "nameLocal": "Chin, Daai",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "MM",
-              "name": "Myanmar",
-              "nameLocal": "Myanmar"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-03-22T21:14:53.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "f492a38d0e52db0f-01",
-          "dblId": "f492a38d0e52db0f",
-          "relatedDbl": null,
-          "name": "Elberfelder Translation (Version of bibelkommentare.de)",
-          "nameLocal": "Elberfelder Übersetzung (Version von bibelkommentare.de)",
-          "abbreviation": "ELBBK",
-          "abbreviationLocal": "ELBBK",
-          "description": "Linguistically revised text of the Unrevised Elberfelder Translation with footnotes.",
-          "descriptionLocal": "Sprachlich aufgearbeiteter Text der unrevidierten Elberfelder Übersetzung mit Fußnoten.",
-          "language": {
-            "id": "deu",
-            "name": "German, Standard",
-            "nameLocal": "Deutsch",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "DE",
-              "name": "Germany",
-              "nameLocal": "Germany"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T16:19:10.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "926aa5efbc5e04e2-01",
-          "dblId": "926aa5efbc5e04e2",
-          "relatedDbl": null,
-          "name": "German Luther Bible 1912 with Strong's numbers",
-          "nameLocal": "Lutherbibel 1912 mit Strongs",
-          "abbreviation": "deuL1912",
-          "abbreviationLocal": "L1912",
-          "description": "Protestant",
-          "descriptionLocal": "Evangelisch",
-          "language": {
-            "id": "deu",
-            "name": "German, Standard",
-            "nameLocal": "Deutsch",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "DE",
-              "name": "Germany",
-              "nameLocal": "Germany"
-            },
-            {
-              "id": "AT",
-              "name": "Austria",
-              "nameLocal": "Austria"
-            },
-            {
-              "id": "CH",
-              "name": "Switzerland",
-              "nameLocal": "Switzerland"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2023-08-10T09:19:05.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "95410db44ef800c1-01",
-          "dblId": "95410db44ef800c1",
-          "relatedDbl": null,
-          "name": "German Unrevised Elberfelder Bible",
-          "nameLocal": "Darby Unrevidierte Elberfelder",
-          "abbreviation": "deuelo",
-          "abbreviationLocal": "ELO",
-          "description": "Protestant",
-          "descriptionLocal": "evangelisch",
-          "language": {
-            "id": "deu",
-            "name": "German, Standard",
-            "nameLocal": "Deutsch",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "DE",
-              "name": "Germany",
-              "nameLocal": "Germany"
-            },
-            {
-              "id": "AT",
-              "name": "Austria",
-              "nameLocal": "Austria"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T10:53:48.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "542b32484b6e38c2-01",
-          "dblId": "542b32484b6e38c2",
-          "relatedDbl": null,
-          "name": "The Holy Bible in German, translation by Kautzsch und Weizsäcker 1906",
-          "nameLocal": "Textbibel von Kautzsch und Weizsäcker",
-          "abbreviation": "deutkw",
-          "abbreviationLocal": "TKW",
-          "description": "common",
-          "descriptionLocal": "verbreitet",
-          "language": {
-            "id": "deu",
-            "name": "German",
-            "nameLocal": "Deutsch",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "DE",
-              "name": "Germany",
-              "nameLocal": "Germany"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T07:57:36.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "f35902ba1a82ba42-01",
-          "dblId": "f35902ba1a82ba42",
-          "relatedDbl": null,
-          "name": "The New Testament in Danu",
-          "nameLocal": "The New Testament in Danu",
-          "abbreviation": "DUBT",
-          "abbreviationLocal": "DUBT",
-          "description": "The New Testament in Danu",
-          "descriptionLocal": "The New Testament in Danu",
-          "language": {
-            "id": "dnv",
-            "name": "Danu",
-            "nameLocal": "Danu",
-            "script": "Myanmar",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "MM",
-              "name": "Myanmar",
-              "nameLocal": "Myanmar"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2024-02-08T09:26:18.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "ef899709a85822c3-01",
-          "dblId": "ef899709a85822c3",
-          "relatedDbl": null,
-          "name": "The New Testament in Desiya Language",
-          "nameLocal": "ସତିଅର୍‌ ବାଟ୍‌, ନୁଆ ନିୟମ୍‌, 2020",
-          "abbreviation": "NTSaa20",
-          "abbreviationLocal": "NTSaa20",
-          "description": "The New Testament in Desiya Language, 2020",
-          "descriptionLocal": "ସତିଅର୍‌ ବାଟ୍‌, ନୁଆ ନିୟମ୍‌",
-          "language": {
-            "id": "dso",
-            "name": "Desiya",
-            "nameLocal": "Desiya",
-            "script": "Oriya",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T16:00:14.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "e578524a0893c6b7-01",
-          "dblId": "e578524a0893c6b7",
-          "relatedDbl": null,
-          "name": "Dawro New Testament",
-          "nameLocal": "Dawro New Testament",
-          "abbreviation": "DWNT",
-          "abbreviationLocal": "DWNT",
-          "description": "New Testament",
-          "descriptionLocal": "New Testament",
-          "language": {
-            "id": "dwr",
-            "name": "Dawro",
-            "nameLocal": "Dawro",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "ET",
-              "name": "Ethiopia",
-              "nameLocal": "Ethiopia"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T00:51:25.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "c1c43b459a6be524-01",
-          "dblId": "c1c43b459a6be524",
-          "relatedDbl": null,
-          "name": "Biblica® Open Estonian Contemporary Version™",
-          "nameLocal": "Biblica® Vaba kasutusega Uus Testament, Pühakiri kaasaegses eesti keeles",
-          "abbreviation": "OECV",
-          "abbreviationLocal": "OPKEK",
-          "description": "New Testament",
-          "descriptionLocal": "Uus Testament",
-          "language": {
-            "id": "ekk",
-            "name": "Estonian, Standard",
-            "nameLocal": "Eesti",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "EE",
-              "name": "Estonia",
-              "nameLocal": "Estonia"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2023-09-29T21:27:03.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "e1c5cd49c0757432-01",
-          "dblId": "e1c5cd49c0757432",
-          "relatedDbl": null,
-          "name": "Piibel Kõigile",
-          "nameLocal": "Piibel Kõigile",
-          "abbreviation": "PKP",
-          "abbreviationLocal": "PKP",
-          "description": "Protestant",
-          "descriptionLocal": "Protestant",
-          "language": {
-            "id": "ekk",
-            "name": "Estonian, Standard",
-            "nameLocal": "Eesti",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "EE",
-              "name": "Estonia",
-              "nameLocal": "Estonia"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2023-04-04T21:21:10.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "d17f683e8977c58c-01",
-          "dblId": "d17f683e8977c58c",
-          "relatedDbl": null,
-          "name": "Genesis, Exodus, and the New Testament in the Apal Language of Papua New Guinea",
-          "nameLocal": "Asɨ dɨ manasɨŋ",
-          "abbreviation": "ApalGENT",
-          "abbreviationLocal": "ApalGENT",
-          "description": "Genesis, Exodus and the New Testament in Apal",
-          "descriptionLocal": "Genesis, Exodus and the New Testament in Apal",
-          "language": {
-            "id": "ena",
-            "name": "Apali",
-            "nameLocal": "Apalɨ",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "PG",
-              "name": "Papua New Guinea",
-              "nameLocal": "Papua New Guinea"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-07-08T14:55:42.000Z",
-          "audioBibles": [
-            {
-              "id": "e088bd4b3e014bda-01",
-              "name": "Apal New Testament, Genesis, and Exodus",
-              "nameLocal": "Asɨ dɨ manasɨŋ",
-              "dblId": "e088bd4b3e014bda"
-            }
-          ]
-        },
-        {
-          "id": "685d1470fe4d5c3b-01",
-          "dblId": "685d1470fe4d5c3b",
-          "relatedDbl": null,
-          "name": "American Standard Version (Byzantine Text with Apocrypha)",
-          "nameLocal": "American Standard Version Byzantine Text with Apocrypha",
-          "abbreviation": "ASVBT",
-          "abbreviationLocal": "ASVBT",
-          "description": null,
-          "descriptionLocal": null,
-          "language": {
-            "id": "eng",
-            "name": "English",
-            "nameLocal": "English",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "US",
-              "name": "United States of America",
-              "nameLocal": "United States of America"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2024-03-05T09:17:12.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "bba9f40183526463-01",
-          "dblId": "bba9f40183526463",
-          "relatedDbl": null,
-          "name": "Berean Standard Bible",
-          "nameLocal": "English: Berean Standard Bible",
-          "abbreviation": "BSB",
-          "abbreviationLocal": "BSB",
-          "description": "Berean Standard Bible",
-          "descriptionLocal": "English: Berean Standard Bible",
-          "language": {
-            "id": "eng",
-            "name": "English",
-            "nameLocal": "English",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "US",
-              "name": "United States of America",
-              "nameLocal": "United States of America"
-            },
-            {
-              "id": "GB",
-              "name": "United Kingdom of Great Britain and Northern Ireland",
-              "nameLocal": "United Kingdom of Great Britain and Northern Ireland"
-            },
-            {
-              "id": "AU",
-              "name": "Australia",
-              "nameLocal": "Australia"
-            },
-            {
-              "id": "CA",
-              "name": "Canada",
-              "nameLocal": "Canada"
-            },
-            {
-              "id": "AG",
-              "name": "Antigua and Barbuda",
-              "nameLocal": "Antigua and Barbuda"
-            },
-            {
-              "id": "BS",
-              "name": "Bahamas",
-              "nameLocal": "Bahamas"
-            },
-            {
-              "id": "BB",
-              "name": "Barbados",
-              "nameLocal": "Barbados"
-            },
-            {
-              "id": "BZ",
-              "name": "Belize",
-              "nameLocal": "Belize"
-            },
-            {
-              "id": "DM",
-              "name": "Dominica",
-              "nameLocal": "Dominica"
-            },
-            {
-              "id": "DO",
-              "name": "Dominican Republic",
-              "nameLocal": "Dominican Republic"
-            },
-            {
-              "id": "AS",
-              "name": "American Samoa",
-              "nameLocal": "American Samoa"
-            },
-            {
-              "id": "GU",
-              "name": "Guam",
-              "nameLocal": "Guam"
-            },
-            {
-              "id": "HT",
-              "name": "Haiti",
-              "nameLocal": "Haiti"
-            },
-            {
-              "id": "GY",
-              "name": "Guyana",
-              "nameLocal": "Guyana"
-            },
-            {
-              "id": "IL",
-              "name": "Israel",
-              "nameLocal": "Israel"
-            },
-            {
-              "id": "IE",
-              "name": "Ireland",
-              "nameLocal": "Ireland"
-            },
-            {
-              "id": "JM",
-              "name": "Jamaica",
-              "nameLocal": "Jamaica"
-            },
-            {
-              "id": "MT",
-              "name": "Malta",
-              "nameLocal": "Malta"
-            },
-            {
-              "id": "NZ",
-              "name": "New Zealand",
-              "nameLocal": "New Zealand"
-            },
-            {
-              "id": "PH",
-              "name": "Philippines",
-              "nameLocal": "Philippines"
-            },
-            {
-              "id": "KN",
-              "name": "Saint Kitts and Nevis",
-              "nameLocal": "Saint Kitts and Nevis"
-            },
-            {
-              "id": "LC",
-              "name": "Saint Lucia",
-              "nameLocal": "Saint Lucia"
-            },
-            {
-              "id": "VC",
-              "name": "Saint Vincent and the Grenadines",
-              "nameLocal": "Saint Vincent and the Grenadines"
-            },
-            {
-              "id": "TT",
-              "name": "Trinidad and Tobago",
-              "nameLocal": "Trinidad and Tobago"
-            },
-            {
-              "id": "NG",
-              "name": "Nigeria",
-              "nameLocal": "Nigeria"
-            },
-            {
-              "id": "ZA",
-              "name": "South Africa",
-              "nameLocal": "South Africa"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2023-07-13T21:22:39.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "6bab4d6c61b31b80-01",
-          "dblId": "6bab4d6c61b31b80",
-          "relatedDbl": null,
-          "name": "Brenton English Septuagint (Updated Spelling and Formatting)",
-          "nameLocal": "Brenton English Septuagint (Updated Spelling and Formatting)",
-          "abbreviation": "engLXXup",
-          "abbreviationLocal": "LXXup",
-          "description": "common",
-          "descriptionLocal": "common",
-          "language": {
-            "id": "eng",
-            "name": "English",
-            "nameLocal": "English",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "ZZ",
-              "name": "Unspecific",
-              "nameLocal": "Unspecific"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T08:58:26.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "65bfdebd704a8324-01",
-          "dblId": "65bfdebd704a8324",
-          "relatedDbl": null,
-          "name": "Brenton English translation of the Septuagint",
-          "nameLocal": "Brenton English translation of the Septuagint",
-          "abbreviation": "engbrent",
-          "abbreviationLocal": "Brenton",
-          "description": "Septuagint",
-          "descriptionLocal": "Septuagint",
-          "language": {
-            "id": "eng",
-            "name": "English",
-            "nameLocal": "English",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "GB",
-              "name": "United Kingdom",
-              "nameLocal": "United Kingdom"
-            },
-            {
-              "id": "US",
-              "name": "United States",
-              "nameLocal": "United States"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T08:39:44.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "55212e3cf5d04d49-01",
-          "dblId": "55212e3cf5d04d49",
-          "relatedDbl": null,
-          "name": "Cambridge Paragraph Bible of the KJV",
-          "nameLocal": "Cambridge Paragraph Bible of the KJV",
-          "abbreviation": "engKJVCPB",
-          "abbreviationLocal": "KJVCPB",
-          "description": "Common",
-          "descriptionLocal": "Common",
-          "language": {
-            "id": "eng",
-            "name": "English",
-            "nameLocal": "English",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "US",
-              "name": "United States",
-              "nameLocal": "United States"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T17:53:30.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "179568874c45066f-01",
-          "dblId": "179568874c45066f",
-          "relatedDbl": null,
-          "name": "Douay-Rheims American 1899",
-          "nameLocal": "Douay-Rheims American 1899",
-          "abbreviation": "engDRA",
-          "abbreviationLocal": "DRA",
-          "description": "The Holy Bible in English, Douay-Rheims American Edition of 1899, translated from the Latin Vulgate",
-          "descriptionLocal": "Catholic",
-          "language": {
-            "id": "eng",
-            "name": "English",
-            "nameLocal": "English",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "US",
-              "name": "United States",
-              "nameLocal": "United States"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T17:31:25.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "55ec700d9e0d77ea-01",
-          "dblId": "55ec700d9e0d77ea",
-          "relatedDbl": null,
-          "name": "English Majority Text Version",
-          "nameLocal": "English Majority Text Version",
-          "abbreviation": "engEMTV",
-          "abbreviationLocal": "EMTV",
-          "description": "common",
-          "descriptionLocal": "common",
-          "language": {
-            "id": "eng",
-            "name": "English",
-            "nameLocal": "English",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "US",
-              "name": "United States",
-              "nameLocal": "United States"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T17:54:11.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "65eec8e0b60e656b-01",
-          "dblId": "65eec8e0b60e656b",
-          "relatedDbl": null,
-          "name": "Free Bible Version",
-          "nameLocal": "Free Bible Version",
-          "abbreviation": "FBV",
-          "abbreviationLocal": "FBV",
-          "description": "Protestant FBV full 3.0 beta",
-          "descriptionLocal": "Protestant FBV full 3.0 beta",
-          "language": {
-            "id": "eng",
-            "name": "English",
-            "nameLocal": "English",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "US",
-              "name": "United States of America",
-              "nameLocal": "United States of America"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2023-02-17T09:14:44.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "c315fa9f71d4af3a-01",
-          "dblId": "c315fa9f71d4af3a",
-          "relatedDbl": null,
-          "name": "Geneva Bible",
-          "nameLocal": "Geneva Bible",
-          "abbreviation": "enggnv",
-          "abbreviationLocal": "GNV",
-          "description": "common",
-          "descriptionLocal": "common",
-          "language": {
-            "id": "eng",
-            "name": "English",
-            "nameLocal": "English",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "GB",
-              "name": "United Kingdom",
-              "nameLocal": "United Kingdom"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T13:25:26.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "bf8f1c7f3f9045a5-01",
-          "dblId": "bf8f1c7f3f9045a5",
-          "relatedDbl": null,
-          "name": "JPS TaNaKH 1917",
-          "nameLocal": "JPS TaNaKH 1917",
-          "abbreviation": "engojps",
-          "abbreviationLocal": "OJPS",
-          "description": "Jewish",
-          "descriptionLocal": "Jewish",
-          "language": {
-            "id": "eng",
-            "name": "English",
-            "nameLocal": "English",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "US",
-              "name": "United States",
-              "nameLocal": "United States"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T13:15:20.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "de4e12af7f28f599-02",
-          "dblId": "de4e12af7f28f599",
-          "relatedDbl": null,
-          "name": "King James (Authorised) Version",
-          "nameLocal": "King James Version",
-          "abbreviation": "engKJV",
-          "abbreviationLocal": "KJV",
-          "description": "Protestant",
-          "descriptionLocal": "Protestant",
-          "language": {
-            "id": "eng",
-            "name": "English",
-            "nameLocal": "English",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "GB",
-              "name": "United Kingdom of Great Britain and Northern Ireland",
-              "nameLocal": "United Kingdom of Great Britain and Northern Ireland"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2023-05-03T09:23:59.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "de4e12af7f28f599-01",
-          "dblId": "de4e12af7f28f599",
-          "relatedDbl": null,
-          "name": "King James (Authorised) Version",
-          "nameLocal": "King James Version",
-          "abbreviation": "engKJV",
-          "abbreviationLocal": "KJV",
-          "description": "Ecumenical",
-          "descriptionLocal": "Ecumenical",
-          "language": {
-            "id": "eng",
-            "name": "English",
-            "nameLocal": "English",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "GB",
-              "name": "United Kingdom of Great Britain and Northern Ireland",
-              "nameLocal": "United Kingdom of Great Britain and Northern Ireland"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2023-05-03T21:21:08.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "01b29f4b342acc35-01",
-          "dblId": "01b29f4b342acc35",
-          "relatedDbl": null,
-          "name": "Literal Standard Version",
-          "nameLocal": "Literal Standard Version",
-          "abbreviation": "LSV",
-          "abbreviationLocal": "LSV",
-          "description": "Protestant",
-          "descriptionLocal": "Protestant",
-          "language": {
-            "id": "eng",
-            "name": "English",
-            "nameLocal": "English",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "US",
-              "name": "United States of America",
-              "nameLocal": "United States of America"
-            },
-            {
-              "id": "GB",
-              "name": "United Kingdom of Great Britain and Northern Ireland",
-              "nameLocal": "United Kingdom of Great Britain and Northern Ireland"
-            },
-            {
-              "id": "CA",
-              "name": "Canada",
-              "nameLocal": "Canada"
-            },
-            {
-              "id": "AU",
-              "name": "Australia",
-              "nameLocal": "Australia"
-            },
-            {
-              "id": "ZA",
-              "name": "South Africa",
-              "nameLocal": "South Africa"
-            },
-            {
-              "id": "NZ",
-              "name": "New Zealand",
-              "nameLocal": "New Zealand"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2023-06-20T09:10:19.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "40072c4a5aba4022-01",
-          "dblId": "40072c4a5aba4022",
-          "relatedDbl": null,
-          "name": "Revised Version 1885",
-          "nameLocal": "Revised Version 1885",
-          "abbreviation": "engRV",
-          "abbreviationLocal": "RV",
-          "description": "Interconfessional",
-          "descriptionLocal": "Interconfessional",
-          "language": {
-            "id": "eng",
-            "name": "English",
-            "nameLocal": "English",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "GB",
-              "name": "United Kingdom of Great Britain and Northern Ireland",
-              "nameLocal": "United Kingdom of Great Britain and Northern Ireland"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2023-02-16T09:10:55.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "ec290b5045ff54a5-01",
-          "dblId": "ec290b5045ff54a5",
-          "relatedDbl": null,
-          "name": "Targum Onkelos Etheridge",
-          "nameLocal": "Targum Onkelos Etheridge",
-          "abbreviation": "engOKE",
-          "abbreviationLocal": "OKE",
-          "description": "common",
-          "descriptionLocal": "common",
-          "language": {
-            "id": "eng",
-            "name": "English",
-            "nameLocal": "English",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "ZZ",
-              "name": "Unspecific",
-              "nameLocal": "Unspecific"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T15:49:34.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "2f0fd81d7b85b923-01",
-          "dblId": "2f0fd81d7b85b923",
-          "relatedDbl": null,
-          "name": "The English New Testament According to Family 35",
-          "nameLocal": "The English New Testament According to Family 35",
-          "abbreviation": "engF35",
-          "abbreviationLocal": "F35",
-          "description": "Common",
-          "descriptionLocal": "Common",
-          "language": {
-            "id": "eng",
-            "name": "English",
-            "nameLocal": "English",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "ZZ",
-              "name": "Unspecific",
-              "nameLocal": "Unspecific"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T17:41:46.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "06125adad2d5898a-01",
-          "dblId": "06125adad2d5898a",
-          "relatedDbl": null,
-          "name": "The Holy Bible, American Standard Version",
-          "nameLocal": "The Holy Bible, American Standard Version",
-          "abbreviation": "ASV",
-          "abbreviationLocal": "ASV",
-          "description": "Bible",
-          "descriptionLocal": "Bible",
-          "language": {
-            "id": "eng",
-            "name": "English",
-            "nameLocal": "English",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "US",
-              "name": "United States of America",
-              "nameLocal": "United States of America"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2024-03-05T09:11:51.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "c89622d31b60c444-02",
-          "dblId": "c89622d31b60c444",
-          "relatedDbl": null,
-          "name": "The Orthodox Jewish Bible",
-          "nameLocal": "The Orthodox Jewish Bible",
-          "abbreviation": "TOJB2011",
-          "abbreviationLocal": "TOJB2011",
-          "description": "OT follows Tanakh order, NT follows usual Protestant order",
-          "descriptionLocal": "OT follows Tanakh order, NT follows usual Protestant order",
-          "language": {
-            "id": "eng",
-            "name": "English",
-            "nameLocal": "English",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "US",
-              "name": "United States of America",
-              "nameLocal": "United States of America"
-            },
-            {
-              "id": "IL",
-              "name": "Israel",
-              "nameLocal": "Israel"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T13:47:34.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "32339cf2f720ff8e-01",
-          "dblId": "32339cf2f720ff8e",
-          "relatedDbl": null,
-          "name": "The Text-Critical English New Testament",
-          "nameLocal": "The Text-Critical English New Testament",
-          "abbreviation": "TCENT",
-          "abbreviationLocal": "TCENT",
-          "description": "common",
-          "descriptionLocal": "common",
-          "language": {
-            "id": "eng",
-            "name": "English",
-            "nameLocal": "English",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "US",
-              "name": "United States of America",
-              "nameLocal": "United States of America"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2024-03-14T21:16:35.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "66c22495370cdfc0-01",
-          "dblId": "66c22495370cdfc0",
-          "relatedDbl": null,
-          "name": "Translation for Translators",
-          "nameLocal": "Translation for Translators",
-          "abbreviation": "T4T",
-          "abbreviationLocal": "T4T",
-          "description": "common",
-          "descriptionLocal": "common",
-          "language": {
-            "id": "eng",
-            "name": "English",
-            "nameLocal": "English",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "US",
-              "name": "United States of America",
-              "nameLocal": "United States of America"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2023-07-04T09:19:29.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "9879dbb7cfe39e4d-01",
-          "dblId": "9879dbb7cfe39e4d",
-          "relatedDbl": null,
-          "name": "World English Bible",
-          "nameLocal": "World English Bible",
-          "abbreviation": "WEB",
-          "abbreviationLocal": "WEB",
-          "description": "Ecumenical",
-          "descriptionLocal": "Ecumenical",
-          "language": {
-            "id": "eng",
-            "name": "English",
-            "nameLocal": "English",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "US",
-              "name": "United States of America",
-              "nameLocal": "United States of America"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2021-07-11T09:12:36.000Z",
-          "audioBibles": [
-            {
-              "id": "105a06b6146d11e7-01",
-              "name": "English - World English Bible 2013 (Drama NT)",
-              "nameLocal": "English - World English Bible 2013 (Drama NT)",
-              "dblId": "105a06b6146d11e7"
-            }
-          ]
-        },
-        {
-          "id": "9879dbb7cfe39e4d-02",
-          "dblId": "9879dbb7cfe39e4d",
-          "relatedDbl": null,
-          "name": "World English Bible",
-          "nameLocal": "World English Bible",
-          "abbreviation": "WEB",
-          "abbreviationLocal": "WEB",
-          "description": "Catholic",
-          "descriptionLocal": "Catholic",
-          "language": {
-            "id": "eng",
-            "name": "English",
-            "nameLocal": "English",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "US",
-              "name": "United States of America",
-              "nameLocal": "United States of America"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2021-07-11T09:13:10.000Z",
-          "audioBibles": [
-            {
-              "id": "105a06b6146d11e7-01",
-              "name": "English - World English Bible 2013 (Drama NT)",
-              "nameLocal": "English - World English Bible 2013 (Drama NT)",
-              "dblId": "105a06b6146d11e7"
-            }
-          ]
-        },
-        {
-          "id": "9879dbb7cfe39e4d-03",
-          "dblId": "9879dbb7cfe39e4d",
-          "relatedDbl": null,
-          "name": "World English Bible",
-          "nameLocal": "World English Bible",
-          "abbreviation": "WEB",
-          "abbreviationLocal": "WEB",
-          "description": "Orthodox",
-          "descriptionLocal": "Orthodox",
-          "language": {
-            "id": "eng",
-            "name": "English",
-            "nameLocal": "English",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "US",
-              "name": "United States of America",
-              "nameLocal": "United States of America"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2021-07-11T09:13:41.000Z",
-          "audioBibles": [
-            {
-              "id": "105a06b6146d11e7-01",
-              "name": "English - World English Bible 2013 (Drama NT)",
-              "nameLocal": "English - World English Bible 2013 (Drama NT)",
-              "dblId": "105a06b6146d11e7"
-            }
-          ]
-        },
-        {
-          "id": "9879dbb7cfe39e4d-04",
-          "dblId": "9879dbb7cfe39e4d",
-          "relatedDbl": null,
-          "name": "World English Bible",
-          "nameLocal": "World English Bible",
-          "abbreviation": "WEB",
-          "abbreviationLocal": "WEB",
-          "description": "Protestant",
-          "descriptionLocal": "Protestant",
-          "language": {
-            "id": "eng",
-            "name": "English",
-            "nameLocal": "English",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "US",
-              "name": "United States of America",
-              "nameLocal": "United States of America"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2021-07-11T09:14:16.000Z",
-          "audioBibles": [
-            {
-              "id": "105a06b6146d11e7-01",
-              "name": "English - World English Bible 2013 (Drama NT)",
-              "nameLocal": "English - World English Bible 2013 (Drama NT)",
-              "dblId": "105a06b6146d11e7"
-            }
-          ]
-        },
-        {
-          "id": "7142879509583d59-01",
-          "dblId": "7142879509583d59",
-          "relatedDbl": null,
-          "name": "World English Bible British Edition",
-          "nameLocal": "World English Bible British Edition",
-          "abbreviation": "WEBBE",
-          "abbreviationLocal": "WEBBE",
-          "description": "Ecumenical",
-          "descriptionLocal": "Ecumenical",
-          "language": {
-            "id": "eng",
-            "name": "English",
-            "nameLocal": "English",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "GB",
-              "name": "United Kingdom",
-              "nameLocal": "United Kingdom"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T09:14:22.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "7142879509583d59-02",
-          "dblId": "7142879509583d59",
-          "relatedDbl": null,
-          "name": "World English Bible British Edition",
-          "nameLocal": "World English Bible British Edition",
-          "abbreviation": "WEBBE",
-          "abbreviationLocal": "WEBBE",
-          "description": "Catholic",
-          "descriptionLocal": "Catholic",
-          "language": {
-            "id": "eng",
-            "name": "English",
-            "nameLocal": "English",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "GB",
-              "name": "United Kingdom",
-              "nameLocal": "United Kingdom"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T09:14:56.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "7142879509583d59-03",
-          "dblId": "7142879509583d59",
-          "relatedDbl": null,
-          "name": "World English Bible British Edition",
-          "nameLocal": "World English Bible British Edition",
-          "abbreviation": "WEBBE",
-          "abbreviationLocal": "WEBBE",
-          "description": "Orthodox",
-          "descriptionLocal": "Orthodox",
-          "language": {
-            "id": "eng",
-            "name": "English",
-            "nameLocal": "English",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "GB",
-              "name": "United Kingdom",
-              "nameLocal": "United Kingdom"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T09:15:31.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "7142879509583d59-04",
-          "dblId": "7142879509583d59",
-          "relatedDbl": null,
-          "name": "World English Bible British Edition",
-          "nameLocal": "World English Bible British Edition",
-          "abbreviation": "WEBBE",
-          "abbreviationLocal": "WEBBE",
-          "description": "Protestant",
-          "descriptionLocal": "Protestant",
-          "language": {
-            "id": "eng",
-            "name": "English",
-            "nameLocal": "English",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "GB",
-              "name": "United Kingdom",
-              "nameLocal": "United Kingdom"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T09:16:05.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "72f4e6dc683324df-01",
-          "dblId": "72f4e6dc683324df",
-          "relatedDbl": null,
-          "name": "World English Bible Updated",
-          "nameLocal": "World English Bible Updated",
-          "abbreviation": "engWEBU",
-          "abbreviationLocal": "WEBU",
-          "description": "Ecumenical",
-          "descriptionLocal": "Ecumenical",
-          "language": {
-            "id": "eng",
-            "name": "English",
-            "nameLocal": "English",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "UM",
-              "name": "United States Minor Outlying Islands",
-              "nameLocal": "United States Minor Outlying Islands"
-            },
-            {
-              "id": "US",
-              "name": "United States of America",
-              "nameLocal": "United States of America"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2024-03-29T09:20:21.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "72f4e6dc683324df-02",
-          "dblId": "72f4e6dc683324df",
-          "relatedDbl": null,
-          "name": "World English Bible Updated",
-          "nameLocal": "World English Bible Updated",
-          "abbreviation": "engWEBU",
-          "abbreviationLocal": "WEBU",
-          "description": "Protestant",
-          "descriptionLocal": "Protestant",
-          "language": {
-            "id": "eng",
-            "name": "English",
-            "nameLocal": "English",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "UM",
-              "name": "United States Minor Outlying Islands",
-              "nameLocal": "United States Minor Outlying Islands"
-            },
-            {
-              "id": "US",
-              "name": "United States of America",
-              "nameLocal": "United States of America"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2024-03-29T09:21:23.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "72f4e6dc683324df-03",
-          "dblId": "72f4e6dc683324df",
-          "relatedDbl": null,
-          "name": "World English Bible Updated",
-          "nameLocal": "World English Bible Updated",
-          "abbreviation": "engWEBU",
-          "abbreviationLocal": "WEBU",
-          "description": "Catholic",
-          "descriptionLocal": "Catholic",
-          "language": {
-            "id": "eng",
-            "name": "English",
-            "nameLocal": "English",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "UM",
-              "name": "United States Minor Outlying Islands",
-              "nameLocal": "United States Minor Outlying Islands"
-            },
-            {
-              "id": "US",
-              "name": "United States of America",
-              "nameLocal": "United States of America"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2024-03-29T09:22:03.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "32664dc3288a28df-03",
-          "dblId": "32664dc3288a28df",
-          "relatedDbl": null,
-          "name": "World English Bible, American English Edition, without Strong's Numbers",
-          "nameLocal": "World English Bible, American English Edition, without Strong's Numbers",
-          "abbreviation": "engWEBUS",
-          "abbreviationLocal": "WEBUS",
-          "description": "Orthodox",
-          "descriptionLocal": "Orthodox",
-          "language": {
-            "id": "eng",
-            "name": "English",
-            "nameLocal": "English",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "US",
-              "name": "United States of America",
-              "nameLocal": "United States of America"
-            },
-            {
-              "id": "CA",
-              "name": "Canada",
-              "nameLocal": "Canada"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-09-21T18:33:56.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "32664dc3288a28df-01",
-          "dblId": "32664dc3288a28df",
-          "relatedDbl": null,
-          "name": "World English Bible, American English Edition, without Strong's Numbers",
-          "nameLocal": "World English Bible, American English Edition, without Strong's Numbers",
-          "abbreviation": "engWEBUS",
-          "abbreviationLocal": "WEBUS",
-          "description": "Ecumenical",
-          "descriptionLocal": "Ecumenical",
-          "language": {
-            "id": "eng",
-            "name": "English",
-            "nameLocal": "English",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "US",
-              "name": "United States of America",
-              "nameLocal": "United States of America"
-            },
-            {
-              "id": "CA",
-              "name": "Canada",
-              "nameLocal": "Canada"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2024-03-29T09:14:31.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "32664dc3288a28df-02",
-          "dblId": "32664dc3288a28df",
-          "relatedDbl": null,
-          "name": "World English Bible, American English Edition, without Strong's Numbers",
-          "nameLocal": "World English Bible, American English Edition, without Strong's Numbers",
-          "abbreviation": "engWEBUS",
-          "abbreviationLocal": "WEBUS",
-          "description": "Protestant",
-          "descriptionLocal": "Protestant",
-          "language": {
-            "id": "eng",
-            "name": "English",
-            "nameLocal": "English",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "US",
-              "name": "United States of America",
-              "nameLocal": "United States of America"
-            },
-            {
-              "id": "CA",
-              "name": "Canada",
-              "nameLocal": "Canada"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2024-03-29T09:15:35.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "f72b840c855f362c-04",
-          "dblId": "f72b840c855f362c",
-          "relatedDbl": null,
-          "name": "World Messianic Bible",
-          "nameLocal": "World Messianic Bible",
-          "abbreviation": "WMB",
-          "abbreviationLocal": "WMB",
-          "description": "Messianic",
-          "descriptionLocal": "Messianic",
-          "language": {
-            "id": "eng",
-            "name": "English",
-            "nameLocal": "English",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "US",
-              "name": "United States of America",
-              "nameLocal": "United States of America"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2024-04-01T21:32:04.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "04da588535d2f823-04",
-          "dblId": "04da588535d2f823",
-          "relatedDbl": null,
-          "name": "World Messianic Bible British Edition",
-          "nameLocal": "World Messianic Bible British Edition",
-          "abbreviation": "WMBBE",
-          "abbreviationLocal": "WMBBE",
-          "description": "Messianic",
-          "descriptionLocal": "Messianic",
-          "language": {
-            "id": "eng",
-            "name": "English",
-            "nameLocal": "English",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "AU",
-              "name": "Australia",
-              "nameLocal": "Australia"
-            },
-            {
-              "id": "AS",
-              "name": "American Samoa",
-              "nameLocal": "American Samoa"
-            },
-            {
-              "id": "BS",
-              "name": "Bahamas",
-              "nameLocal": "Bahamas"
-            },
-            {
-              "id": "BZ",
-              "name": "Belize",
-              "nameLocal": "Belize"
-            },
-            {
-              "id": "IO",
-              "name": "British Indian Ocean Territory",
-              "nameLocal": "British Indian Ocean Territory"
-            },
-            {
-              "id": "VG",
-              "name": "Virgin Islands, British",
-              "nameLocal": "Virgin Islands, British"
-            },
-            {
-              "id": "CA",
-              "name": "Canada",
-              "nameLocal": "Canada"
-            },
-            {
-              "id": "KE",
-              "name": "Kenya",
-              "nameLocal": "Kenya"
-            },
-            {
-              "id": "FM",
-              "name": "Micronesia, Federated States of",
-              "nameLocal": "Micronesia, Federated States of"
-            },
-            {
-              "id": "NZ",
-              "name": "New Zealand",
-              "nameLocal": "New Zealand"
-            },
-            {
-              "id": "PG",
-              "name": "Papua New Guinea",
-              "nameLocal": "Papua New Guinea"
-            },
-            {
-              "id": "WS",
-              "name": "Samoa",
-              "nameLocal": "Samoa"
-            },
-            {
-              "id": "SG",
-              "name": "Singapore",
-              "nameLocal": "Singapore"
-            },
-            {
-              "id": "TO",
-              "name": "Tonga",
-              "nameLocal": "Tonga"
-            },
-            {
-              "id": "GB",
-              "name": "United Kingdom of Great Britain and Northern Ireland",
-              "nameLocal": "United Kingdom of Great Britain and Northern Ireland"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2024-04-08T21:12:07.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "ac90bfebd4ee9c4d-01",
-          "dblId": "ac90bfebd4ee9c4d",
-          "relatedDbl": null,
-          "name": "Biblica® Open Ewe Contemporary Scriptures 2020",
-          "nameLocal": "Biblica® Se aɖeke mebla Biblia (Agbenya La™) zazã o.",
-          "abbreviation": "OECS",
-          "abbreviationLocal": "OAL",
-          "description": "Holy Scriptures",
-          "descriptionLocal": "Ŋɔŋlɔ Kɔkɔe",
-          "language": {
-            "id": "ewe",
-            "name": "Ewe",
-            "nameLocal": "eʋegbe",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "GH",
-              "name": "Ghana",
-              "nameLocal": "Ghana"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-09-21T23:04:44.000Z",
-          "audioBibles": [
-            {
-              "id": "f7a4f623ca6040c0-01",
-              "name": "Biblica® Open Ewe Contemporary Scriptures™, Audio Edition",
-              "nameLocal": "Biblica® Se aɖeke mebla Biblia zazã o Agbenya La™, Audio Edition",
-              "dblId": "f7a4f623ca6040c0"
-            }
-          ]
-        },
-        {
-          "id": "9b076bc0f1856204-01",
-          "dblId": "9b076bc0f1856204",
-          "relatedDbl": null,
-          "name": "Pular Fuuta-Jallon Version",
-          "nameLocal": "Version Pular Fuuta-Jallon",
-          "abbreviation": "PFJV",
-          "abbreviationLocal": "VPFJ",
-          "description": "New Testament",
-          "descriptionLocal": "Injil",
-          "language": {
-            "id": "fuf",
-            "name": "Pular",
-            "nameLocal": "Pular",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "GN",
-              "name": "Guinea",
-              "nameLocal": "Guinea"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T11:15:33.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "da905e46720432e2-01",
-          "dblId": "da905e46720432e2",
-          "relatedDbl": null,
-          "name": "New Testament in Mborena Kam",
-          "nameLocal": "Raraŋ Aetaniacna Kam Wembaŋ Laŋ",
-          "abbreviation": "MbKamNT",
-          "abbreviationLocal": "MbKamNT",
-          "description": "New Testament in Mbore language (Mborena Kam)",
-          "descriptionLocal": "NT Mborena Kam",
-          "language": {
-            "id": "gai",
-            "name": "Borei",
-            "nameLocal": "Mborena Kam",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "PG",
-              "name": "Papua New Guinea",
-              "nameLocal": "Papua New Guinea"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T14:52:32.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "2193678febf23d26-01",
-          "dblId": "2193678febf23d26",
-          "relatedDbl": null,
-          "name": "The Gata Didayi Testament Language",
-          "nameLocal": "ସତ୍‌ ଗାଲି, ଯୀଶୁ ମାପ୍‌ରୁନେ ତ୍ମି ନିଅମ୍",
-          "abbreviation": "NTDaa20",
-          "abbreviationLocal": "NTDaa20",
-          "description": "The Gata Didayi Testament Language, 2020",
-          "descriptionLocal": "ସତ୍‌ ଗାଲି, ଯୀଶୁ ମାପ୍‌ରୁନେ ତ୍ମି ନିଅମ୍, 2020",
-          "language": {
-            "id": "gaq",
-            "name": "Gata’",
-            "nameLocal": "Gata’",
-            "script": "Oriya",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T06:02:05.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "1849509e461c9a00-01",
-          "dblId": "1849509e461c9a00",
-          "relatedDbl": null,
-          "name": "Biblica® Open New Oromo Contemporary Version",
-          "nameLocal": "Biblica®  Hiikkaa Ammayyaa Banamaa Haaraa, Loqoda Dhi'aa",
-          "abbreviation": "omONCV22",
-          "abbreviationLocal": "HABH",
-          "description": "Holy Bible",
-          "descriptionLocal": "Kitaaba Qulqulluu",
-          "language": {
-            "id": "gaz",
-            "name": "Oromo, West Central",
-            "nameLocal": "Oromo, West Central",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "ET",
-              "name": "Ethiopia",
-              "nameLocal": "Ethiopia"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2023-09-30T09:13:42.000Z",
-          "audioBibles": [
-            {
-              "id": "3e52d5ea138e4da6-01",
-              "name": "Biblica® Open New Oromo Contemporary Version™, Audio Edition",
-              "nameLocal": "Biblica® Open New Oromo Contemporary Version™, Audio Edition",
-              "dblId": "3e52d5ea138e4da6"
-            }
-          ]
-        },
-        {
-          "id": "4aa6a1001d427a40-01",
-          "dblId": "4aa6a1001d427a40",
-          "relatedDbl": null,
-          "name": "New Oromo Contemporary Version, Western, Ethiopic 2022",
-          "nameLocal": "ክታበ ቁልቁሉ፣ ሂካ አመያ ሃራ",
-          "abbreviation": "NOCV",
-          "abbreviationLocal": "ሂአሃ",
-          "description": "Holy Bible",
-          "descriptionLocal": "ክታበ ቁልቁሉ",
-          "language": {
-            "id": "gaz",
-            "name": "Oromo, West Central",
-            "nameLocal": "Oromo, West Central",
-            "script": "Ethiopic",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "ET",
-              "name": "Ethiopia",
-              "nameLocal": "Ethiopia"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2023-09-28T21:15:34.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "e8b818f49c7c2835-01",
-          "dblId": "e8b818f49c7c2835",
-          "relatedDbl": null,
-          "name": "The New Testament in Kire",
-          "nameLocal": "Fhe Bakɨmen Kaman Kameŋ",
-          "abbreviation": "Kir-NT",
-          "abbreviationLocal": "KirNT",
-          "description": "Protestant",
-          "descriptionLocal": "Protestant",
-          "language": {
-            "id": "geb",
-            "name": "Kire",
-            "nameLocal": "Kire",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "PG",
-              "name": "Papua New Guinea",
-              "nameLocal": "Papua New Guinea"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-09-22T00:17:52.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "9915a49ed60cc12f-01",
-          "dblId": "9915a49ed60cc12f",
-          "relatedDbl": null,
-          "name": "Gamo Geesha Maxxafa New Testamen",
-          "nameLocal": "Gamo Geesha Maxxafa New Testamen",
-          "abbreviation": "GGMNT",
-          "abbreviationLocal": "GGMNT",
-          "description": "Gamo Geesha Maxxafa New Testament Unicode",
-          "descriptionLocal": "Gamo Geesha Maxxafa New Testament Unicode",
-          "language": {
-            "id": "gmv",
-            "name": "Gamo",
-            "nameLocal": "Gamotso",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "ET",
-              "name": "Ethiopia",
-              "nameLocal": "Ethiopia"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T11:06:50.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "ba74d885b27806bb-01",
-          "dblId": "ba74d885b27806bb",
-          "relatedDbl": null,
-          "name": "Gofa New Testament",
-          "nameLocal": "Gofa New Testament",
-          "abbreviation": "GOFNT",
-          "abbreviationLocal": "GOFNT",
-          "description": "Gofa New Testament",
-          "descriptionLocal": "Gofa New Testament",
-          "language": {
-            "id": "gof",
-            "name": "Gofa",
-            "nameLocal": "Goofa",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "ET",
-              "name": "Ethiopia",
-              "nameLocal": "Ethiopia"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T13:01:59.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "28d256cb603137cd-01",
-          "dblId": "28d256cb603137cd",
-          "relatedDbl": null,
-          "name": "The New Testament in Gowli Marathi Language",
-          "nameLocal": "ದೆವಾಚಿ ಖರಿ ಕಬರ್, ನವಾ ಕರಾರ್",
-          "abbreviation": "NTGMi23",
-          "abbreviationLocal": "NTGMi23",
-          "description": "The New Testament in Gowli Marathi Language",
-          "descriptionLocal": "ದೆವಾಚಿ ಖರಿ ಕಬರ್, ನವಾ ಕರಾರ್",
-          "language": {
-            "id": "gok",
-            "name": "Gowli",
-            "nameLocal": "Gowli",
-            "script": "Devanagari",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2023-08-28T21:12:52.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "901dcd9744e1bf69-01",
-          "dblId": "901dcd9744e1bf69",
-          "relatedDbl": null,
-          "name": "1904 Patriarchal Greek New Testament with 20 corrections from later editions",
-          "nameLocal": "Βυζαντινή Καινή Διαθήκη 1904",
-          "abbreviation": "grcBYZ1904c",
-          "abbreviationLocal": "BYZ1904",
-          "description": "Common",
-          "descriptionLocal": "κοινός",
-          "language": {
-            "id": "grc",
-            "name": "Greek, Ancient",
-            "nameLocal": "Ελληνιστική",
-            "script": "Greek",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "GR",
-              "name": "Greece",
-              "nameLocal": "Greece"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-12-02T00:32:35.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "c114c33098c4fef1-01",
-          "dblId": "c114c33098c4fef1",
-          "relatedDbl": null,
-          "name": "Brenton Greek Septuagint",
-          "nameLocal": "μετάφραση των εβδομήκοντα",
-          "abbreviation": "grcbrent",
-          "abbreviationLocal": "GRCBRENT",
-          "description": "common",
-          "descriptionLocal": "κοινός",
-          "language": {
-            "id": "grc",
-            "name": "Greek, Ancient",
-            "nameLocal": "Ελληνιστική",
-            "script": "Greek",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "GR",
-              "name": "Greece",
-              "nameLocal": "Greece"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T13:18:35.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "3aefb10641485092-01",
-          "dblId": "3aefb10641485092",
-          "relatedDbl": null,
-          "name": "Greek Textus Receptus",
-          "nameLocal": "Η Καινή Διαθήκη",
-          "abbreviation": "GRCTR",
-          "abbreviationLocal": "GRCTR",
-          "description": "common",
-          "descriptionLocal": "κοινός",
-          "language": {
-            "id": "grc",
-            "name": "Greek, Ancient",
-            "nameLocal": "Ελληνιστική",
-            "script": "Greek",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "ZZ",
-              "name": "Unspecific",
-              "nameLocal": "Unspecific"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2023-05-23T09:12:38.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "47f396bad37936f0-01",
-          "dblId": "47f396bad37936f0",
-          "relatedDbl": null,
-          "name": "Solid Rock Greek New Testament",
-          "nameLocal": "Η Καινή Διαθήκη",
-          "abbreviation": "grcSRGNT",
-          "abbreviationLocal": "SRGNT",
-          "description": "common",
-          "descriptionLocal": "common",
-          "language": {
-            "id": "grc",
-            "name": "Greek, Ancient",
-            "nameLocal": "Ελληνιστική",
-            "script": "Greek",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "US",
-              "name": "United States of America",
-              "nameLocal": "United States of America"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-11-18T03:26:21.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "7644de2e4c5188e5-01",
-          "dblId": "7644de2e4c5188e5",
-          "relatedDbl": null,
-          "name": "Text-Critical Greek New Testament",
-          "nameLocal": "Text-Critical Greek New Testament",
-          "abbreviation": "grcTCGNT",
-          "abbreviationLocal": "TCGNT",
-          "description": "Common",
-          "descriptionLocal": "Common",
-          "language": {
-            "id": "grc",
-            "name": "Greek, Ancient",
-            "nameLocal": "Ελληνιστική",
-            "script": "Greek",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "GR",
-              "name": "Greece",
-              "nameLocal": "Greece"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2024-03-14T21:20:50.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "5e29945cf530b0f6-01",
-          "dblId": "5e29945cf530b0f6",
-          "relatedDbl": null,
-          "name": "The Greek New Testament According to Family 35",
-          "nameLocal": "Η Ελληνική Καινή Διαθήκη Σύμφωνα με την Οικογένεια 35",
-          "abbreviation": "grcF35",
-          "abbreviationLocal": "F35",
-          "description": "common",
-          "descriptionLocal": "κοινός",
-          "language": {
-            "id": "grc",
-            "name": "Greek, Ancient",
-            "nameLocal": "Ελληνιστική",
-            "script": "Greek",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "ZZ",
-              "name": "Unspecific",
-              "nameLocal": "Unspecific"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T08:23:36.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "a3644a98420c2703-01",
-          "dblId": "a3644a98420c2703",
-          "relatedDbl": null,
-          "name": "Indian Revised Version (IRV) Gujarati-2019",
-          "nameLocal": "ઇન્ડિયન રીવાઇઝ્ડ વર્ઝન ગુજરાતી  - 2019",
-          "abbreviation": "IRVGuj",
-          "abbreviationLocal": "IRVGuj",
-          "description": "Protestant Bible for All",
-          "descriptionLocal": "Protestant Bible for All",
-          "language": {
-            "id": "guj",
-            "name": "Gujarati",
-            "nameLocal": "ગુજરાતી",
-            "script": "Gujarati",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-07-08T15:30:39.000Z",
-          "audioBibles": [
-            {
-              "id": "2abea5341ec34814-01",
-              "name": "Gujarati Indian Revised Version (IRV)",
-              "nameLocal": "Gujarati Indian Revised Version (IRV)",
-              "dblId": "2abea5341ec34814"
-            }
-          ]
-        },
-        {
-          "id": "496cafdffc23197b-01",
-          "dblId": "496cafdffc23197b",
-          "relatedDbl": null,
-          "name": "Haitian Bible",
-          "nameLocal": "Bib Sen An: Kreyòl Ayisyen",
-          "abbreviation": "hatbsa",
-          "abbreviationLocal": "BSA",
-          "description": "Common",
-          "descriptionLocal": "komen",
-          "language": {
-            "id": "hat",
-            "name": "Haitian",
-            "nameLocal": "Kreyòl Ayisyen",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "HT",
-              "name": "Haiti",
-              "nameLocal": "Haiti"
-            },
-            {
-              "id": "MQ",
-              "name": "Martinique",
-              "nameLocal": "Martinique"
-            },
-            {
-              "id": "DO",
-              "name": "Dominican Republic",
-              "nameLocal": "Dominican Republic"
-            },
-            {
-              "id": "CU",
-              "name": "Cuba",
-              "nameLocal": "Cuba"
-            },
-            {
-              "id": "US",
-              "name": "United States of America",
-              "nameLocal": "United States of America"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2024-01-13T09:15:18.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "0ab0c764d56a715d-01",
-          "dblId": "0ab0c764d56a715d",
-          "relatedDbl": null,
-          "name": "Biblica® Open Hausa Contemporary Bible 2020",
-          "nameLocal": "Biblica® Buɗaɗɗen Littafi Mai Tsarki, Sabon Rai Don Kowa 2020",
-          "abbreviation": "BHCB",
-          "abbreviationLocal": "OSRK",
-          "description": "New Testament",
-          "descriptionLocal": "Sabon Alkawari",
-          "language": {
-            "id": "hau",
-            "name": "Hausa",
-            "nameLocal": "Hausa",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "NG",
-              "name": "Nigeria",
-              "nameLocal": "Nigeria"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-12T09:08:31.000Z",
-          "audioBibles": [
-            {
-              "id": "04308387908b41f0-01",
-              "name": "Biblica® Open Hausa Contemporary Bible™, Audio Edition",
-              "nameLocal": "Biblica® Buɗaɗɗen Littafi Mai Tsarki, Sabon Rai Don Kowa™, Bugun Abin da ake sauraro",
-              "dblId": "04308387908b41f0"
-            }
-          ]
-        },
-        {
-          "id": "0ab0c764d56a715d-02",
-          "dblId": "0ab0c764d56a715d",
-          "relatedDbl": null,
-          "name": "Biblica® Open Hausa Contemporary Bible 2020",
-          "nameLocal": "Biblica® Buɗaɗɗen Littafi Mai Tsarki, Sabon Rai Don Kowa 2020",
-          "abbreviation": "OHCB",
-          "abbreviationLocal": "BSRK",
-          "description": "Holy Bible",
-          "descriptionLocal": "Littafi mai Tsarki",
-          "language": {
-            "id": "hau",
-            "name": "Hausa",
-            "nameLocal": "Hausa",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "NG",
-              "name": "Nigeria",
-              "nameLocal": "Nigeria"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-12T09:08:47.000Z",
-          "audioBibles": [
-            {
-              "id": "04308387908b41f0-01",
-              "name": "Biblica® Open Hausa Contemporary Bible™, Audio Edition",
-              "nameLocal": "Biblica® Buɗaɗɗen Littafi Mai Tsarki, Sabon Rai Don Kowa™, Bugun Abin da ake sauraro",
-              "dblId": "04308387908b41f0"
-            }
-          ]
-        },
-        {
-          "id": "0b262f1ed7f084a6-01",
-          "dblId": "0b262f1ed7f084a6",
-          "relatedDbl": null,
-          "name": "The Hebrew Bible, Westminister Leningrad Codex",
-          "nameLocal": "כתבי הקודש",
-          "abbreviation": "hboWLC",
-          "abbreviationLocal": "WLC",
-          "description": "Common",
-          "descriptionLocal": "Common",
-          "language": {
-            "id": "hbo",
-            "name": "Hebrew, Ancient",
-            "nameLocal": "עברית",
-            "script": "Hebrew",
-            "scriptDirection": "RTL"
-          },
-          "countries": [
-            {
-              "id": "IL",
-              "name": "Israel",
-              "nameLocal": "Israel"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2023-02-24T09:09:58.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "a8a97eebae3c98e4-01",
-          "dblId": "a8a97eebae3c98e4",
-          "relatedDbl": "963fbbc15c8cd2cd",
-          "name": "Biblica® Open Hebrew Living New Testament 2009",
-          "nameLocal": "Biblica® Habrit Hakhadasha/Haderekh Zekuyot Patuchot 2009",
-          "abbreviation": "OHD",
-          "abbreviationLocal": "HDZP",
-          "description": "New Testament",
-          "descriptionLocal": "New Testament",
-          "language": {
-            "id": "heb",
-            "name": "Hebrew, Modern",
-            "nameLocal": "עברית",
-            "script": "Hebrew",
-            "scriptDirection": "RTL"
-          },
-          "countries": [
-            {
-              "id": "IL",
-              "name": "Israel",
-              "nameLocal": "Israel"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-12-02T00:38:50.000Z",
-          "audioBibles": [
-            {
-              "id": "05580b0ab1e849eb-01",
-              "name": "Biblica® Open Hebrew Living New Testament Audio Edition",
-              "nameLocal": "Biblica® Habrit Hakhadasha/Haderekh Zekuyot Patuchot",
-              "dblId": "05580b0ab1e849eb"
-            }
-          ]
-        },
-        {
-          "id": "2c500771ea16da93-01",
-          "dblId": "2c500771ea16da93",
-          "relatedDbl": null,
-          "name": "Westminster Leningrad Codex",
-          "nameLocal": "Westminster Leningrad Codex",
-          "abbreviation": "WLC",
-          "abbreviationLocal": "WLC",
-          "description": "Westminster Leningrad Codex",
-          "descriptionLocal": "Westminster Leningrad Codex",
-          "language": {
-            "id": "heb",
-            "name": "Hebrew",
-            "nameLocal": "עברית",
-            "script": "Hebrew",
-            "scriptDirection": "RTL"
-          },
-          "countries": [
-            {
-              "id": "ZZ",
-              "name": "Unspecific",
-              "nameLocal": "Unspecific"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T06:26:45.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "2133003bb8b5e62b-01",
-          "dblId": "2133003bb8b5e62b",
-          "relatedDbl": null,
-          "name": "Hindi Contemporary Version 2019",
-          "nameLocal": "हिंदी समकालीन संस्करण",
-          "abbreviation": "HCV",
-          "abbreviationLocal": "HSS",
-          "description": "Holy Bible",
-          "descriptionLocal": "पवित्र बाइबिल",
-          "language": {
-            "id": "hin",
-            "name": "Hindi",
-            "nameLocal": "हिन्दी",
-            "script": "Devanagari",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-05-05T19:37:33.000Z",
-          "audioBibles": [
-            {
-              "id": "9c67e54fbdca4e3e-01",
-              "name": "Biblica® Open Hindi Contemporary Version, Audio Edition",
-              "nameLocal": "Biblica® Open Hindi Contemporary Version, Audio Edition",
-              "dblId": "9c67e54fbdca4e3e"
-            }
-          ]
-        },
-        {
-          "id": "1e8ab327edbce67f-01",
-          "dblId": "1e8ab327edbce67f",
-          "relatedDbl": null,
-          "name": "Indian Revised Version(IRV) Hindi - 2019",
-          "nameLocal": "इंडियन रिवाइज्ड वर्जन (IRV) हिंदी - 2019",
-          "abbreviation": "IRVHin",
-          "abbreviationLocal": "IRVHin",
-          "description": "Hindi Bible for All",
-          "descriptionLocal": "Hindi Bible for All",
-          "language": {
-            "id": "hin",
-            "name": "Hindi",
-            "nameLocal": "हिन्दी",
-            "script": "Devanagari",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-05-03T22:06:07.000Z",
-          "audioBibles": [
-            {
-              "id": "6b227b38145d4383-01",
-              "name": "Hindi Indian Revised Version (IRV) Old Testament",
-              "nameLocal": "Hindi Indian Revised Version (IRV) Old Testament",
-              "dblId": "6b227b38145d4383"
-            }
-          ]
-        },
-        {
-          "id": "9dec3e0ffbd4386b-01",
-          "dblId": "9dec3e0ffbd4386b",
-          "relatedDbl": null,
-          "name": "The New Testament in Holiya Language",
-          "nameLocal": "परमेश्‍वर उन खरा वचन, व्‍हाशोद नियम",
-          "abbreviation": "NTHaa20",
-          "abbreviationLocal": "NTHaa20",
-          "description": "The New Testament in Holiya Language, 2020",
-          "descriptionLocal": "परमेश्‍वर उन खरा वचन, व्‍हाशोद नियम, 2020",
-          "language": {
-            "id": "hoy",
-            "name": "Holiya",
-            "nameLocal": "Holiya",
-            "script": "Devanagari",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T11:23:52.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "b00de703b3d02a5a-01",
-          "dblId": "b00de703b3d02a5a",
-          "relatedDbl": null,
-          "name": "Biblica® Open Croatian Living New Testament 2000",
-          "nameLocal": "Biblica® Open Knjiga O Kristu",
-          "abbreviation": "OKOK",
-          "abbreviationLocal": "OKOK",
-          "description": "New Testament",
-          "descriptionLocal": "Novi Zavjet",
-          "language": {
-            "id": "hrv",
-            "name": "Croatian",
-            "nameLocal": "Hrvatski",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "HR",
-              "name": "Croatia",
-              "nameLocal": "Croatia"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-07-08T14:43:54.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "fcfc25677b0a53c9-01",
-          "dblId": "fcfc25677b0a53c9",
-          "relatedDbl": null,
-          "name": "Biblica® Open Hungarian New Testament: Life, Truth and Light 2003",
-          "nameLocal": "Biblica® Nyitott Újszövetség: élet, igazság és világosság",
-          "abbreviation": "OEIV",
-          "abbreviationLocal": "NEIV",
-          "description": "Open Hungarian Life, Truth and Light  New Testament: (Nyitott Újszövetség: élet, igazság és világosság) 2003",
-          "descriptionLocal": "Nyitott Újszövetség: élet, igazság és világosság (2003)",
-          "language": {
-            "id": "hun",
-            "name": "Hungarian",
-            "nameLocal": "Magyar",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "HU",
-              "name": "Hungary",
-              "nameLocal": "Hungary"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-08T09:14:57.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "a36fc06b086699f1-02",
-          "dblId": "a36fc06b086699f1",
-          "relatedDbl": null,
-          "name": "Biblica® Open Igbo Contemporary Bible 2020",
-          "nameLocal": "Biblica® Baịbụlụ Nsọ nʼIgbo Ndị Ugbu a nke dịrị onye ọbụla ịgụ",
-          "abbreviation": "OICB",
-          "abbreviationLocal": "BIUO",
-          "description": "Holy Bible",
-          "descriptionLocal": "Baịbụlụ Nsọ",
-          "language": {
-            "id": "ibo",
-            "name": "Igbo",
-            "nameLocal": "Igbo",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "NG",
-              "name": "Nigeria",
-              "nameLocal": "Nigeria"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T11:41:34.000Z",
-          "audioBibles": [
-            {
-              "id": "1b319c1d55564e45-01",
-              "name": "Biblica® Open Igbo Contemporary Bible™, Audio Edition",
-              "nameLocal": "Biblica® Open Igbo Contemporary Bible™, Audio Edition",
-              "dblId": "1b319c1d55564e45"
-            }
-          ]
-        },
-        {
-          "id": "2dd568eeff29fb3c-02",
-          "dblId": "2dd568eeff29fb3c",
-          "relatedDbl": null,
-          "name": "Plain Indonesian Translation",
-          "nameLocal": "Terjemahan Sederhana Indonesia",
-          "abbreviation": "TSI",
-          "abbreviationLocal": "TSI",
-          "description": "Easy to understand every day translation",
-          "descriptionLocal": "menikmati terjemahan Alkitab yang mudah dimengerti",
-          "language": {
-            "id": "ind",
-            "name": "Indonesian",
-            "nameLocal": "Indonesia, bahasa",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "ID",
-              "name": "Indonesia",
-              "nameLocal": "Indonesia"
-            },
-            {
-              "id": "MY",
-              "name": "Malaysia",
-              "nameLocal": "Malaysia"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2024-04-13T09:14:53.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "2dd568eeff29fb3c-01",
-          "dblId": "2dd568eeff29fb3c",
-          "relatedDbl": null,
-          "name": "Terjemahan Sederhana Indonesia NT Second Edition",
-          "nameLocal": "Perjanjian Baru dalam Terjemahan Sederhana Indonesia Edisi Kedua",
-          "abbreviation": "TSI",
-          "abbreviationLocal": "TSI",
-          "description": "New Testament and some other books",
-          "descriptionLocal": "Perjanjian Baru dalam Terjemahan Sederhana Indonesia",
-          "language": {
-            "id": "ind",
-            "name": "Indonesian",
-            "nameLocal": "Indonesia, bahasa",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "ID",
-              "name": "Indonesia",
-              "nameLocal": "Indonesia"
-            },
-            {
-              "id": "MY",
-              "name": "Malaysia",
-              "nameLocal": "Malaysia"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2020-02-12T00:10:07.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "e4581313051f2861-01",
-          "dblId": "e4581313051f2861",
-          "relatedDbl": null,
-          "name": "Biblica® Open Icelandic Contemporary New Testament and Psalms",
-          "nameLocal": "Biblica® Opna Nýja testamentið og Sálmarnir endursagðir á daglegu máli",
-          "abbreviation": "OLO",
-          "abbreviationLocal": "OLO",
-          "description": "Protestant NT and Psalms",
-          "descriptionLocal": "Protestant NT and Psalms",
-          "language": {
-            "id": "isl",
-            "name": "Icelandic",
-            "nameLocal": "Íslenska",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IS",
-              "name": "Iceland",
-              "nameLocal": "Iceland"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2023-03-03T09:17:44.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "41f25b97f468e10b-01",
-          "dblId": "41f25b97f468e10b",
-          "relatedDbl": null,
-          "name": "Diodati Bible 1885",
-          "nameLocal": "Diodati Bibbia 1885",
-          "abbreviation": "DB1885",
-          "abbreviationLocal": "DB1885",
-          "description": "Diodati Bible 1885",
-          "descriptionLocal": "Diodati Bibbia 1885",
-          "language": {
-            "id": "ita",
-            "name": "Italian",
-            "nameLocal": "Italiano",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IT",
-              "name": "Italy",
-              "nameLocal": "Italy"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-06T19:43:52.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "0aaff251e76ae6ba-01",
-          "dblId": "0aaff251e76ae6ba",
-          "relatedDbl": null,
-          "name": "The New Testament in Juray Soura Language",
-          "nameLocal": "ଆଜାଡ଼ି ତଙରନ୍‌, ରଙ୍‌ ଅନଗଡନ୍‌",
-          "abbreviation": "NTJaa20",
-          "abbreviationLocal": "NTJaa20",
-          "description": "The New Testament in Juray Soura Language",
-          "descriptionLocal": "ଆଜାଡ଼ି ତଙରନ୍‌, ରଙ୍‌ ଅନଗଡନ୍‌, 2020",
-          "language": {
-            "id": "juy",
-            "name": "Juray",
-            "nameLocal": "Juray",
-            "script": "Oriya",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T05:06:21.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "08389f036844c2de-01",
-          "dblId": "08389f036844c2de",
-          "relatedDbl": null,
-          "name": "Biblica® Open Kannada Contemporary Version 2022",
-          "nameLocal": "Biblica® ಉಚಿತ ಕನ್ನಡ ಸಮಕಾಲಿಕ ಭಾಷಾಂತರ™",
-          "abbreviation": "OKCV",
-          "abbreviationLocal": "OKCV",
-          "description": "Holy Bible",
-          "descriptionLocal": "ಪವಿತ್ರ ವೇದ",
-          "language": {
-            "id": "kan",
-            "name": "Kannada",
-            "nameLocal": "ಕನ್ನಡ",
-            "script": "Kannada",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2023-02-25T09:09:04.000Z",
-          "audioBibles": [
-            {
-              "id": "850cc50e70574aba-01",
-              "name": "Biblica® Open Kannada Contemporary Version, Audio Edition",
-              "nameLocal": "Biblica® ಉಚಿತ ಕನ್ನಡ ಸಮಕಾಲಿಕ ಭಾಷಾಂತರ, ಆಡಿಯೋ ಆವೃತ್ತಿ",
-              "dblId": "850cc50e70574aba"
-            }
-          ]
-        },
-        {
-          "id": "a33a100f04f2752e-01",
-          "dblId": "a33a100f04f2752e",
-          "relatedDbl": null,
-          "name": "Indian Revised Version (IRV) Kannada - 2019",
-          "nameLocal": "ಇಂಡಿಯನ್ ರಿವೈಜ್ಡ್ ವರ್ಸನ್ (IRV) - ಕನ್ನಡ - 2019",
-          "abbreviation": "IRVKan",
-          "abbreviationLocal": "IRVKan",
-          "description": "Bible for all",
-          "descriptionLocal": "Bible for all",
-          "language": {
-            "id": "kan",
-            "name": "Kannada",
-            "nameLocal": "ಕನ್ನಡ",
-            "script": "Kannada",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-09-21T22:51:24.000Z",
-          "audioBibles": [
-            {
-              "id": "c6889eadbbc14852-01",
-              "name": "Kannada Indian Revised Version (IRV)",
-              "nameLocal": "Kannada Indian Revised Version (IRV)",
-              "dblId": "c6889eadbbc14852"
-            }
-          ]
-        },
-        {
-          "id": "3a5dafd48a13c6d9-01",
-          "dblId": "3a5dafd48a13c6d9",
-          "relatedDbl": null,
-          "name": "Kamano-Kafe Bible [kbq]",
-          "nameLocal": "Anumzamofo Routage Avantafere",
-          "abbreviation": "kbq",
-          "abbreviationLocal": "KBQ",
-          "description": "common",
-          "descriptionLocal": "common",
-          "language": {
-            "id": "kbq",
-            "name": "Kamano",
-            "nameLocal": "Kamano",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "PG",
-              "name": "Papua New Guinea",
-              "nameLocal": "Papua New Guinea"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2023-01-12T09:10:09.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "913473cd3c600aa8-02",
-          "dblId": "913473cd3c600aa8",
-          "relatedDbl": null,
-          "name": "Khanty Bible Translation",
-          "nameLocal": "Хӑнты Перевод Библии",
-          "abbreviation": "KhPB",
-          "abbreviationLocal": "ХБ",
-          "description": "Khanty Bible",
-          "descriptionLocal": "Библия на хӑнты языке",
-          "language": {
-            "id": "kca",
-            "name": "Khanty",
-            "nameLocal": "Khanty",
-            "script": "Cyrillic",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "RU",
-              "name": "Russian Federation",
-              "nameLocal": "Russian Federation"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T10:40:57.000Z",
-          "audioBibles": [
-            {
-              "id": "00cf583a7b334bb5-01",
-              "name": "Khanty Bible - Luk & Act",
-              "nameLocal": "Хӑнты Перевод Библии",
-              "dblId": "00cf583a7b334bb5"
-            }
-          ]
-        },
-        {
-          "id": "9d19c0063d291d7b-03",
-          "dblId": "9d19c0063d291d7b",
-          "relatedDbl": null,
-          "name": "The Bible in Kutu",
-          "nameLocal": "Biblia Kikutu",
-          "abbreviation": "Kutu",
-          "abbreviationLocal": "King'hutu",
-          "description": null,
-          "descriptionLocal": null,
-          "language": {
-            "id": "kdc",
-            "name": "Kutu",
-            "nameLocal": "King'hutu",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "TZ",
-              "name": "Tanzania, United Republic of",
-              "nameLocal": "Tanzania, United Republic of"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2023-01-07T09:13:37.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "f2f349d77ac8f8bc-01",
-          "dblId": "f2f349d77ac8f8bc",
-          "relatedDbl": null,
-          "name": "The New Testament in Kutu",
-          "nameLocal": "Lagano da Sambi kwa Wanhu Wose",
-          "abbreviation": "Kutu",
-          "abbreviationLocal": "Kutu",
-          "description": "New Testament",
-          "descriptionLocal": "Kutu",
-          "language": {
-            "id": "kdc",
-            "name": "Kutu",
-            "nameLocal": "Kutu",
-            "script": "Roman",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "TZ",
-              "name": "Tanzania",
-              "nameLocal": "Tanzania"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T16:14:20.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "c11c93a0b8a04496-01",
-          "dblId": "c11c93a0b8a04496",
-          "relatedDbl": null,
-          "name": "The Bible in Makonde",
-          "nameLocal": "Bibiliya ya Chimakonde",
-          "abbreviation": "Makonde",
-          "abbreviationLocal": "Chimakonde",
-          "description": "NT and OT books",
-          "descriptionLocal": "Chimakonde",
-          "language": {
-            "id": "kde",
-            "name": "Makonde",
-            "nameLocal": "Shimakonde",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "TZ",
-              "name": "Tanzania, United Republic of",
-              "nameLocal": "Tanzania, United Republic of"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-09-21T23:30:40.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "16fb881ce1e27a60-01",
-          "dblId": "16fb881ce1e27a60",
-          "relatedDbl": null,
-          "name": "The New Testament in Konda Porja Language",
-          "nameLocal": "ମାପୁରୁଦି ସତ୍‌ ବାକ୍ୟ, ପୁନି ନିୟମ୍‌",
-          "abbreviation": "NTKoo20",
-          "abbreviationLocal": "NTKoo20",
-          "description": "The New Testament in Konda Porja Language, 2020",
-          "descriptionLocal": "ମାପୁରୁଦି ସତ୍‌ ବାକ୍ୟ, ପୁନି ନିୟମ୍‌, 2020",
-          "language": {
-            "id": "kfc",
-            "name": "Konda-Dora",
-            "nameLocal": "Konda-Dora",
-            "script": "Oriya",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T05:36:50.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "0d5605ba6bf41754-01",
-          "dblId": "0d5605ba6bf41754",
-          "relatedDbl": null,
-          "name": "The New Testament in Koya Language",
-          "nameLocal": "ପୁନାଦ୍ ଆର୍ର୍, ପୁନାଦ୍‍ ନିୟମ୍‍",
-          "abbreviation": "NTKaa20",
-          "abbreviationLocal": "NTKaa20",
-          "description": "The New Testament in Koya Language, 2020",
-          "descriptionLocal": "ପୁନାଦ୍ ଆର୍ର୍, ପୁନାଦ୍‍ ନିୟମ୍‍, 2020",
-          "language": {
-            "id": "kff",
-            "name": "Koya",
-            "nameLocal": "Koya",
-            "script": "Oriya",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T05:12:58.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "f258cb39615c351d-01",
-          "dblId": "f258cb39615c351d",
-          "relatedDbl": null,
-          "name": "Kharam New Testament",
-          "nameLocal": "Bible Inzootna Kathar",
-          "abbreviation": "KHMNT",
-          "abbreviationLocal": "KHMNT",
-          "description": "Kharam New Testament 2021",
-          "descriptionLocal": "Bible Inzootna Kathar",
-          "language": {
-            "id": "kfw",
-            "name": "Naga, Kharam",
-            "nameLocal": "Naga, Kharam",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2023-04-05T21:20:34.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "be8dc4ba39edf911-01",
-          "dblId": "be8dc4ba39edf911",
-          "relatedDbl": null,
-          "name": "Biblica® Open Kikuyu Holy Word of God 2013",
-          "nameLocal": "Biblica® Kiugo Gĩtheru Kĩa Ngai Kĩhingũre 2013",
-          "abbreviation": "OKGN",
-          "abbreviationLocal": "KGNK",
-          "description": "Holy Bible in Gĩkũyũ",
-          "descriptionLocal": "Kiugo Gĩtheru Kĩa Ngai",
-          "language": {
-            "id": "kik",
-            "name": "Gikuyu",
-            "nameLocal": "Gikuyu",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "KE",
-              "name": "Kenya",
-              "nameLocal": "Kenya"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-12T09:16:55.000Z",
-          "audioBibles": [
-            {
-              "id": "065f947de1613d3d-01",
-              "name": "Biblica® Open Gikuyu Holy Word of God™, Audio Edition",
-              "nameLocal": "Biblica® Kiugo Gĩtheru Kĩa Ngai Kĩhingũre™, Gĩthometwo na Mũgambo",
-              "dblId": "065f947de1613d3d"
-            }
-          ]
-        },
-        {
-          "id": "6dbbf2ccbe27d28b-01",
-          "dblId": "6dbbf2ccbe27d28b",
-          "relatedDbl": null,
-          "name": "Kosraean Bible",
-          "nameLocal": "BIBLE MUTAL",
-          "abbreviation": "kos",
-          "abbreviationLocal": "KOS",
-          "description": "common",
-          "descriptionLocal": "common",
-          "language": {
-            "id": "kos",
-            "name": "Kosraean",
-            "nameLocal": "Kosraean",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "FM",
-              "name": "Micronesia, Federated States of",
-              "nameLocal": "Micronesia, Federated States of"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2024-02-09T09:17:40.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "df7d5d71526afe9e-01",
-          "dblId": "df7d5d71526afe9e",
-          "relatedDbl": null,
-          "name": "Kapingamarangi Bible",
-          "nameLocal": "Beebaa Dabu",
-          "abbreviation": "kpg",
-          "abbreviationLocal": "KPG",
-          "description": "Common",
-          "descriptionLocal": "Common",
-          "language": {
-            "id": "kpg",
-            "name": "Kapingamarangi",
-            "nameLocal": "Kapingamarangi",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "FM",
-              "name": "Micronesia, Federated States of",
-              "nameLocal": "Micronesia, Federated States of"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-09-22T00:07:01.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "5591cba5ae063228-01",
-          "dblId": "5591cba5ae063228",
-          "relatedDbl": null,
-          "name": "Mum Language NT Portions",
-          "nameLocal": "Mum Tok Ples",
-          "abbreviation": "MumNP18",
-          "abbreviationLocal": "MumNP18",
-          "description": "Mum Matthew",
-          "descriptionLocal": "Mum Matyu",
-          "language": {
-            "id": "kqa",
-            "name": "Mum",
-            "nameLocal": "Mum",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "PG",
-              "name": "Papua New Guinea",
-              "nameLocal": "Papua New Guinea"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-09-21T20:34:34.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "6aa52b968434d882-01",
-          "dblId": "6aa52b968434d882",
-          "relatedDbl": null,
-          "name": "The Book of Mark - Kianying Balang",
-          "nameLocal": "Mak - Kiañiŋ Balaŋ",
-          "abbreviation": "KBNT",
-          "abbreviationLocal": "KBNT",
-          "description": "Gospel of Mark",
-          "descriptionLocal": "Gutnius bilong Mak",
-          "language": {
-            "id": "kql",
-            "name": "Kyenele",
-            "nameLocal": "Kiañiŋ Balaŋ",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "PG",
-              "name": "Papua New Guinea",
-              "nameLocal": "Papua New Guinea"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-09-21T21:34:37.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "8f4e6c5be17e7e8c-01",
-          "dblId": "8f4e6c5be17e7e8c",
-          "relatedDbl": null,
-          "name": "The New Testament in Kuvi Language",
-          "nameLocal": "ପୁଃନି ମେ଼ରା, କୁୱି ପୁଃନି ମେ଼ରା",
-          "abbreviation": "NTKii20",
-          "abbreviationLocal": "NTKii20",
-          "description": "The New Testament in Kuvi Language, 2020",
-          "descriptionLocal": "ପୁଃନି ମେ଼ରା, କୁୱି ପୁଃନି ମେ଼ରା, 2020",
-          "language": {
-            "id": "kxv",
-            "name": "Kuvi",
-            "nameLocal": "Kuvi",
-            "script": "Oriya",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2023-12-14T21:21:26.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "ab8b84930a5ebb89-01",
-          "dblId": "ab8b84930a5ebb89",
-          "relatedDbl": null,
-          "name": "The New Testament in Lodhi language",
-          "nameLocal": "परमेश्वर को सच्चो वचन , नयो नियम,",
-          "abbreviation": "NTLii20",
-          "abbreviationLocal": "NTLii20",
-          "description": "The New Testament in Lodhi language",
-          "descriptionLocal": "परमेश्वर को सच्चो वचन , नयो नियम,",
-          "language": {
-            "id": "lbm",
-            "name": "Lodhi",
-            "nameLocal": "Lodhi",
-            "script": "Devanagari",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T12:11:09.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "ac6b6b7cd1e93057-01",
-          "dblId": "ac6b6b7cd1e93057",
-          "relatedDbl": null,
-          "name": "Biblica® Open Lingala Contemporary Bible 2020",
-          "nameLocal": "Biblica® Salela na bonsomi Mokanda na Bomoi",
-          "abbreviation": "OLCV",
-          "abbreviationLocal": "SMNB",
-          "description": "Holy Bible",
-          "descriptionLocal": "Boyokani ya Kala mpe Boyokani ya Sika",
-          "language": {
-            "id": "lin",
-            "name": "Lingala",
-            "nameLocal": "Lingála",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "CD",
-              "name": "Congo, the Democratic Republic of the",
-              "nameLocal": "Congo, the Democratic Republic of the"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-05-03T22:06:10.000Z",
-          "audioBibles": [
-            {
-              "id": "6fdd664c807642d3-01",
-              "name": "Biblica® Open Lingala Contemporary Bible™, Audio Edition",
-              "nameLocal": "Biblica® Salela na bonsomi Mokanda na Bomoi™, Ebongisami na maloba",
-              "dblId": "6fdd664c807642d3"
-            }
-          ]
-        },
-        {
-          "id": "c6f92d2fda34d59d-01",
-          "dblId": "c6f92d2fda34d59d",
-          "relatedDbl": null,
-          "name": "Biblica® Open Lithuanian Luke-Acts",
-          "nameLocal": "Biblica® Naudojimo teisės atviros „Jėzus ir Jo pasekėjai“",
-          "abbreviation": "OJJP",
-          "abbreviationLocal": "OJJP",
-          "description": "Protestant Luke-Acts",
-          "descriptionLocal": "Protestant Luke-Acts",
-          "language": {
-            "id": "lit",
-            "name": "Lithuanian",
-            "nameLocal": "Lietuvių",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "LT",
-              "name": "Lithuania",
-              "nameLocal": "Lithuania"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2024-01-25T09:26:06.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "f276be3571f516cb-01",
-          "dblId": "f276be3571f516cb",
-          "relatedDbl": null,
-          "name": "Biblica® Open Luganda Contemporary Bible 2014",
-          "nameLocal": "Biblica® Bayibuli Entukuvu, Endagaano Enkadde nʼEndagaano Empya ekwatiddwa ku katambi™",
-          "abbreviation": "OLCB",
-          "abbreviationLocal": "EEEE",
-          "description": "The Holy Bible",
-          "descriptionLocal": "Bayibuli Entukuvu",
-          "language": {
-            "id": "lug",
-            "name": "Ganda",
-            "nameLocal": "Luganda",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "UG",
-              "name": "Uganda",
-              "nameLocal": "Uganda"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-12T09:19:45.000Z",
-          "audioBibles": [
-            {
-              "id": "14b06ff3b2cf5e97-01",
-              "name": "Biblica® Open Luganda Contemporary Bible™, Audio Edition",
-              "nameLocal": "Biblica® Bayibuli Entukuvu, Endagaano Enkadde nʼEndagaano Empya ekwatiddwa ku katambi™, Audio Edition",
-              "dblId": "14b06ff3b2cf5e97"
-            }
-          ]
-        },
-        {
-          "id": "4d4df8722134c5ee-01",
-          "dblId": "4d4df8722134c5ee",
-          "relatedDbl": null,
-          "name": "Biblica® Open New Luo Translation 2020",
-          "nameLocal": "Biblica® Ochiw Thuolo Motingʼo Loko Manyien",
-          "abbreviation": "ONLT",
-          "abbreviationLocal": "OMLM",
-          "description": "Bible",
-          "descriptionLocal": "Muma Maler Mar Nyasaye",
-          "language": {
-            "id": "luo",
-            "name": "Dholuo",
-            "nameLocal": "Dholuo",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "KE",
-              "name": "Kenya",
-              "nameLocal": "Kenya"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T17:52:15.000Z",
-          "audioBibles": [
-            {
-              "id": "5d1902ecdf5349d3-01",
-              "name": "Biblica® Open New Luo Translation™, Audio Edition",
-              "nameLocal": "Biblica® Ochiw Thuolo Motingʼo Loko Manyien™, Audio Edition",
-              "dblId": "5d1902ecdf5349d3"
-            }
-          ]
-        },
-        {
-          "id": "de295e9ba65f6d0f-01",
-          "dblId": "de295e9ba65f6d0f",
-          "relatedDbl": null,
-          "name": "Biblica® Open Malayalam Contemporary Version 2020",
-          "nameLocal": "Biblica® സമകാലിക മലയാള സ്വതന്ത്ര വിവർത്തനം 2020",
-          "abbreviation": "OMCV",
-          "abbreviationLocal": "OMCV",
-          "description": "Holy Bible",
-          "descriptionLocal": "വിശുദ്ധ ബൈബിൾ",
-          "language": {
-            "id": "mal",
-            "name": "Malayalam",
-            "nameLocal": "മലയാളം",
-            "script": "Malayalam",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-09-22T00:02:21.000Z",
-          "audioBibles": [
-            {
-              "id": "4496fa3731f54ccd-01",
-              "name": "Biblica® Open Malayalam Contemporary Version™, Audio Edition",
-              "nameLocal": "Biblica® സമകാലിക മലയാളവിവർത്തനം-സ്വതന്ത്ര ഉപലബ്ധി ™, ഓഡിയോ പതിപ്പ്",
-              "dblId": "4496fa3731f54ccd"
-            }
-          ]
-        },
-        {
-          "id": "3ea0147e32eebe47-01",
-          "dblId": "3ea0147e32eebe47",
-          "relatedDbl": null,
-          "name": "Indian Revised Version (IRV) Malayalam - 2019",
-          "nameLocal": "ഇന്ത്യൻ റിവൈസ്ഡ് വേർഷൻ - മലയാളം",
-          "abbreviation": "IRVMAL",
-          "abbreviationLocal": "IRVMAL",
-          "description": "Whole Bible",
-          "descriptionLocal": "Whole Bible",
-          "language": {
-            "id": "mal",
-            "name": "Malayalam",
-            "nameLocal": "മലയാളം",
-            "script": "Malayalam",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-07-08T15:30:41.000Z",
-          "audioBibles": [
-            {
-              "id": "57e37c60c3a94d4f-01",
-              "name": "Malayalam Indian Revised Version (IRV)",
-              "nameLocal": "Malayalam Indian Revised Version (IRV)",
-              "dblId": "57e37c60c3a94d4f"
-            }
-          ]
-        },
-        {
-          "id": "805e795e07fb9422-01",
-          "dblId": "805e795e07fb9422",
-          "relatedDbl": null,
-          "name": "Malayalam Sathyavedapusthakam 1910 Edition (Revised Orthography)",
-          "nameLocal": "മലയാളം സത്യവേദപുസ്തകം 1910 പതിപ്പ് (പരിഷ്കരിച്ച ലിപിയിൽ)",
-          "abbreviation": "MAL10RO",
-          "abbreviationLocal": "വേദപുസ്തകം",
-          "description": "Protestant Bible",
-          "descriptionLocal": "പ്രൊട്ടസ്റ്റൻ്റ് വേദപുസ്തകം",
-          "language": {
-            "id": "mal",
-            "name": "Malayalam",
-            "nameLocal": "മലയാളം",
-            "script": "Malayalam",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2024-02-08T21:39:57.000Z",
-          "audioBibles": [
-            {
-              "id": "5ac60e8e8a74417a-01",
-              "name": "Malayalam Bible (മലയാളം സത്യവേദപുസ്തകം), Binoy Chacko Audio Bible",
-              "nameLocal": "Malayalam Bible (മലയാളം സത്യവേദപുസ്തകം), Binoy Chacko Audio Bible",
-              "dblId": "5ac60e8e8a74417a"
-            }
-          ]
-        },
-        {
-          "id": "8c49129a458d4059-01",
-          "dblId": "8c49129a458d4059",
-          "relatedDbl": null,
-          "name": "Indian Revised Version (IRV) - Marathi",
-          "nameLocal": "इंडियन रीवाइज्ड वर्जन (IRV) - मराठी",
-          "abbreviation": "IRVMar",
-          "abbreviationLocal": "IRVMar",
-          "description": "Marathi Protestant Bible",
-          "descriptionLocal": "मराठी प्रोटेस्टंट बायबल",
-          "language": {
-            "id": "mar",
-            "name": "Marathi",
-            "nameLocal": "मराठी",
-            "script": "Devanagari",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-09-21T22:19:13.000Z",
-          "audioBibles": [
-            {
-              "id": "ec1e42889cad4316-01",
-              "name": "Marathi Indian Revised Version (IRV)",
-              "nameLocal": "Marathi Indian Revised Version (IRV)",
-              "dblId": "ec1e42889cad4316"
-            }
-          ]
-        },
-        {
-          "id": "385573d4ba3ff72a-01",
-          "dblId": "385573d4ba3ff72a",
-          "relatedDbl": null,
-          "name": "Maale Bible",
-          "nameLocal": "ጌኤዦ ማፃኣፖ",
-          "abbreviation": "MB",
-          "abbreviationLocal": "ጌኤ.ማፃ",
-          "description": "The Bible in Maale",
-          "descriptionLocal": "ጌኤዦ ማፃኣፖ",
-          "language": {
-            "id": "mdy",
-            "name": "Male",
-            "nameLocal": "Male",
-            "script": "Ethiopic",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "ET",
-              "name": "Ethiopia",
-              "nameLocal": "Ethiopia"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-12-02T00:09:55.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "bed82ba57f117c16-01",
-          "dblId": "bed82ba57f117c16",
-          "relatedDbl": null,
-          "name": "Maale New Testament",
-          "nameLocal": "Maale New Testament",
-          "abbreviation": "MNT",
-          "abbreviationLocal": "MNT",
-          "description": "New Testament",
-          "descriptionLocal": "New Testament",
-          "language": {
-            "id": "mdy",
-            "name": "Male (Ethiopia)",
-            "nameLocal": "Male (Ethiopia)",
-            "script": "Ethiopic",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "ET",
-              "name": "Ethiopia",
-              "nameLocal": "Ethiopia"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T00:06:32.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "abf017938be72f46-01",
-          "dblId": "abf017938be72f46",
-          "relatedDbl": null,
-          "name": "Morokodo",
-          "nameLocal": "Morokodo",
-          "abbreviation": "MKD",
-          "abbreviationLocal": "MKD",
-          "description": "Portion of Morokodo",
-          "descriptionLocal": "Portion of Morokodo",
-          "language": {
-            "id": "mgc",
-            "name": "Morokodo",
-            "nameLocal": "Morokodo",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "SS",
-              "name": "South Sudan",
-              "nameLocal": "South Sudan"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T12:12:00.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "b5105cd03c972046-01",
-          "dblId": "b5105cd03c972046",
-          "relatedDbl": null,
-          "name": "Makua New Testament",
-          "nameLocal": "Makua New Testament",
-          "abbreviation": "MNT",
-          "abbreviationLocal": "MNT",
-          "description": "Makua New Testament 2015",
-          "descriptionLocal": "Makua New Testament 2015",
-          "language": {
-            "id": "mgh",
-            "name": "Makhuwa-Meetto",
-            "nameLocal": "Makua",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "TZ",
-              "name": "Tanzania",
-              "nameLocal": "Tanzania"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T12:46:32.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "f638e44feb77f803-01",
-          "dblId": "f638e44feb77f803",
-          "relatedDbl": null,
-          "name": "New Testament in Matumbi",
-          "nameLocal": "Matumbi is Lilaganu Lyayambi’",
-          "abbreviation": "Matumbi",
-          "abbreviationLocal": "Matumbi",
-          "description": "New Testament in Matumbi",
-          "descriptionLocal": "Matumbi is Lilaganu Lyayambi’",
-          "language": {
-            "id": "mgw",
-            "name": "Matumbi",
-            "nameLocal": "Kimatu'mbi'",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "TZ",
-              "name": "Tanzania, United Republic of",
-              "nameLocal": "Tanzania, United Republic of"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-09-22T00:37:54.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "e3cd1d240c384e91-01",
-          "dblId": "e3cd1d240c384e91",
-          "relatedDbl": null,
-          "name": "Meitei New Testament (Roman Script)",
-          "nameLocal": "Anouba Warepnaba (Roman Script)",
-          "abbreviation": "RSM",
-          "abbreviationLocal": "RSM",
-          "description": "Meitei New Testament Written in Roman Script",
-          "descriptionLocal": "Roman Script ta iba Anouba Warepnaba Lairik",
-          "language": {
-            "id": "mni",
-            "name": "Meitei",
-            "nameLocal": "Meitei",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-03-22T15:30:47.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "4ffcec8e8f3c33e7-01",
-          "dblId": "4ffcec8e8f3c33e7",
-          "relatedDbl": null,
-          "name": "God's Holy Book in Sankaran",
-          "nameLocal": "Alla la Kitabu Seniman",
-          "abbreviation": "GHBS",
-          "abbreviationLocal": "AKS",
-          "description": "Portions of the Old and New Testaments",
-          "descriptionLocal": "Portions of the Old and New Testaments",
-          "language": {
-            "id": "msc",
-            "name": "Maninka, Sankaran",
-            "nameLocal": "Sankaran",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "GN",
-              "name": "Guinea",
-              "nameLocal": "Guinea"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-12-02T00:18:01.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "5e51f89e89947acb-01",
-          "dblId": "5e51f89e89947acb",
-          "relatedDbl": null,
-          "name": "Aruamu New Testament",
-          "nameLocal": "Godɨn Akar Aghuim; Akar Dɨkɨrɨzir Gavgavir Igiam",
-          "abbreviation": "AruNT04",
-          "abbreviationLocal": "AruNT04",
-          "description": "Aruamu New Testament",
-          "descriptionLocal": "Aruamu New Testament",
-          "language": {
-            "id": "msy",
-            "name": "Aruamu",
-            "nameLocal": "Aruamu",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "PG",
-              "name": "Papua New Guinea",
-              "nameLocal": "Papua New Guinea"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-09-21T21:20:01.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "98adf0b796dc9ff4-01",
-          "dblId": "98adf0b796dc9ff4",
-          "relatedDbl": null,
-          "name": "The Bible in Aruamu: Old Testament and New Testament",
-          "nameLocal": "Godɨn Eghaghanim: Akar Gavgavir Dɨkɨrɨzir Ghurim ko Igiam",
-          "abbreviation": "AruBib20",
-          "abbreviationLocal": "AruBib20",
-          "description": "Protestant",
-          "descriptionLocal": "Protestant",
-          "language": {
-            "id": "msy",
-            "name": "Aruamu",
-            "nameLocal": "Aruamu",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "PG",
-              "name": "Papua New Guinea",
-              "nameLocal": "Papua New Guinea"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-26T21:13:27.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "ed5744967fe39c8c-01",
-          "dblId": "ed5744967fe39c8c",
-          "relatedDbl": null,
-          "name": "The New Testament in Mwela",
-          "nameLocal": "Malagano ga Ambi",
-          "abbreviation": "Mwela",
-          "abbreviationLocal": "Shimwela",
-          "description": "New Testament",
-          "descriptionLocal": "Malagano ga Ambi",
-          "language": {
-            "id": "mwe",
-            "name": "Mwera",
-            "nameLocal": "Shimwela",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "TZ",
-              "name": "Tanzania, United Republic of",
-              "nameLocal": "Tanzania, United Republic of"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T15:51:48.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "e423bf8faef6643b-01",
-          "dblId": "e423bf8faef6643b",
-          "relatedDbl": null,
-          "name": "Indian Standard Version (ISV) Nagamese",
-          "nameLocal": "Indian Standard Version (ISV) Nagamese",
-          "abbreviation": "ISVNag",
-          "abbreviationLocal": "ISVNag",
-          "description": "Protestant",
-          "descriptionLocal": "Protestant",
-          "language": {
-            "id": "nag",
-            "name": "Naga Pidgin",
-            "nameLocal": "Naga Pidgin",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-07-08T15:02:31.000Z",
-          "audioBibles": [
-            {
-              "id": "eadc03d0a6784691-01",
-              "name": "Nagamese Indian Standard Version (ISV)",
-              "nameLocal": "Nagamese Indian Standard Version (ISV)",
-              "dblId": "eadc03d0a6784691"
-            }
-          ]
-        },
-        {
-          "id": "0de391111a4cac1e-02",
-          "dblId": "0de391111a4cac1e",
-          "relatedDbl": null,
-          "name": "Ndebele Contemporary Open Bible 2022",
-          "nameLocal": "Biblica® IBhayibhili Elingcwele LesiNdebele Elifinyelelekayo",
-          "abbreviation": "ndOBEN22",
-          "abbreviationLocal": "OBEN",
-          "description": "Protestant",
-          "descriptionLocal": "Protestant",
-          "language": {
-            "id": "nde",
-            "name": "Ndebele",
-            "nameLocal": "isiNdebele",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "ZW",
-              "name": "Zimbabwe",
-              "nameLocal": "Zimbabwe"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2023-06-11T21:09:46.000Z",
-          "audioBibles": [
-            {
-              "id": "2a4137fd54364e6a-01",
-              "name": "Biblica® Open Ndebele Contemporary Bible™, Audio Edition",
-              "nameLocal": "Biblica® Open Ndebele Contemporary Bible™, Audio Edition",
-              "dblId": "2a4137fd54364e6a"
-            }
-          ]
-        },
-        {
-          "id": "cb0425ae772bb042-01",
-          "dblId": "cb0425ae772bb042",
-          "relatedDbl": null,
-          "name": "The New Testament in Ndamba",
-          "nameLocal": "Lilaghanu lya shonu",
-          "abbreviation": "NdBV",
-          "abbreviationLocal": "NdBV",
-          "description": null,
-          "descriptionLocal": "Ndamba New Testament",
-          "language": {
-            "id": "ndj",
-            "name": "Ndamba",
-            "nameLocal": "Ndamba",
-            "script": "Roman",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "TZ",
-              "name": "Tanzania",
-              "nameLocal": "Tanzania"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T00:18:50.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "324f457845cb5d21-01",
-          "dblId": "324f457845cb5d21",
-          "relatedDbl": null,
-          "name": "Nguu New Testament",
-          "nameLocal": "Ndagano mp'ya kwa wanth'u wose",
-          "abbreviation": "NgBV",
-          "abbreviationLocal": "NgBV",
-          "description": null,
-          "descriptionLocal": "Nguu New Testament",
-          "language": {
-            "id": "ngp",
-            "name": "Nguu",
-            "nameLocal": "Ngulu",
-            "script": "Roman",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "TZ",
-              "name": "Tanzania",
-              "nameLocal": "Tanzania"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-06T22:54:40.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "312df00520eac624-01",
-          "dblId": "312df00520eac624",
-          "relatedDbl": null,
-          "name": "Takuu New Testament",
-          "nameLocal": "Na Taratara TeAtua i naa taratara Takuu",
-          "abbreviation": "NHO",
-          "abbreviationLocal": "Takuu",
-          "description": "commo",
-          "descriptionLocal": "commo",
-          "language": {
-            "id": "nho",
-            "name": "Takuu",
-            "nameLocal": "Takuu",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "PG",
-              "name": "Papua New Guinea",
-              "nameLocal": "Papua New Guinea"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-09-21T19:57:23.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "0672868a4bdc7281-01",
-          "dblId": "0672868a4bdc7281",
-          "relatedDbl": null,
-          "name": "The New Testament in Kolami Language",
-          "nameLocal": "కొత్త కరార్, కరే బాత్కుంఙ్ పావ్",
-          "abbreviation": "NTKP24",
-          "abbreviationLocal": "NTKP24",
-          "description": "The New Testament in Kolami Language",
-          "descriptionLocal": "కొత్త కరార్, కరే బాత్కుంఙ్ పావ్, 2024",
-          "language": {
-            "id": "nit",
-            "name": "Kolami, Southeastern",
-            "nameLocal": "Kolami, Southeastern",
-            "script": "Telugu",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2024-01-11T09:12:26.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "ead7b4cc5007389c-01",
-          "dblId": "ead7b4cc5007389c",
-          "relatedDbl": null,
-          "name": "Dutch Bible 1939",
-          "nameLocal": "De Heilige Schrift, Petrus Canisiusvertaling, 1939",
-          "abbreviation": "nld1939",
-          "abbreviationLocal": "NLD1939",
-          "description": "Catholic",
-          "descriptionLocal": "Katholiek",
-          "language": {
-            "id": "nld",
-            "name": "Dutch",
-            "nameLocal": "Nederlands",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "NL",
-              "name": "Netherlands",
-              "nameLocal": "Netherlands"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T15:44:16.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "604771cc77d9136d-01",
-          "dblId": "604771cc77d9136d",
-          "relatedDbl": null,
-          "name": "The New Testament in Nahali Language",
-          "nameLocal": "खेरलो वचन नोवालो नियम",
-          "abbreviation": "NTNii2020",
-          "abbreviationLocal": "NTNii2020",
-          "description": "The New Testament in Nahali Language, 2020",
-          "descriptionLocal": "खेरलो वचन, नोवालो नियम, 2020",
-          "language": {
-            "id": "nlx",
-            "name": "Nahali",
-            "nameLocal": "Nahali",
-            "script": "Devanagari",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T08:28:13.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "31c1130475000445-01",
-          "dblId": "31c1130475000445",
-          "relatedDbl": null,
-          "name": "Ngindo New Testament",
-          "nameLocal": "Ngindo New Testament",
-          "abbreviation": "NNQNT",
-          "abbreviationLocal": "NNQNT",
-          "description": "Ngindo New Testament",
-          "descriptionLocal": "Ngindo New Testament",
-          "language": {
-            "id": "nnq",
-            "name": "Ngindo",
-            "nameLocal": "Ngindo",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "TZ",
-              "name": "Tanzania",
-              "nameLocal": "Tanzania"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T06:42:35.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "246ad95eade0d0a1-01",
-          "dblId": "246ad95eade0d0a1",
-          "relatedDbl": null,
-          "name": "Biblica® Open Norwegian Living New Testament",
-          "nameLocal": "En Levende Bok",
-          "abbreviation": "ONLNT",
-          "abbreviationLocal": "OELB",
-          "description": "New Testament",
-          "descriptionLocal": "Det Nye Testamentet",
-          "language": {
-            "id": "nob",
-            "name": "Norwegian Bokmål",
-            "nameLocal": "Norsk: Bokmål",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "NO",
-              "name": "Norway",
-              "nameLocal": "Norway"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-11-09T22:57:24.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "43247c35dbe56e1c-01",
-          "dblId": "43247c35dbe56e1c",
-          "relatedDbl": null,
-          "name": "Biblica® Open God’s Word in Contemporary Chichewa 2016",
-          "nameLocal": "Biblica® Tsekulani Mawu a Mulungu mu Chichewa Chalero",
-          "abbreviation": "OCCL",
-          "abbreviationLocal": "OCCL",
-          "description": "Bible",
-          "descriptionLocal": "Baibulo",
-          "language": {
-            "id": "nya",
-            "name": "Chichewa",
-            "nameLocal": "Chichewa",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "MW",
-              "name": "Malawi",
-              "nameLocal": "Malawi"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-12T09:11:14.000Z",
-          "audioBibles": [
-            {
-              "id": "017c80638deecf2a-01",
-              "name": "Biblica® Open Godʼs Word in Contemporary Chichewa™, Audio Edition",
-              "nameLocal": "Biblica® Tsekulani Mawu a Mulungu mu Chichewa Chalero™, Kaseti",
-              "dblId": "017c80638deecf2a"
-            }
-          ]
-        },
-        {
-          "id": "1f0fb3b67c603710-01",
-          "dblId": "1f0fb3b67c603710",
-          "relatedDbl": null,
-          "name": "Havai Old Testament Selections",
-          "nameLocal": "Waratau Siaga Tatuei mo Vilegi",
-          "abbreviation": "HavOTS",
-          "abbreviationLocal": "WSTmV",
-          "description": "Old Testament panorama  in Havai, with the entire book of Jonah",
-          "descriptionLocal": "Waratau Siaga Tatuei mo vilegi",
-          "language": {
-            "id": "omb",
-            "name": "Ambae, East",
-            "nameLocal": "Ambae, East",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "VU",
-              "name": "Vanuatu",
-              "nameLocal": "Vanuatu"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-07-08T14:55:40.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "03e08e889c768aa7-02",
-          "dblId": "03e08e889c768aa7",
-          "relatedDbl": null,
-          "name": "Indian Revised Version(IRV) Odia - NT",
-          "nameLocal": "ଇଣ୍ଡିୟାନ ରିୱାଇସ୍ଡ୍ ୱରସନ୍ ଓଡିଆ -NT",
-          "abbreviation": "IRVOry",
-          "abbreviationLocal": "IRVOry",
-          "description": "Oriya Literal Bible",
-          "descriptionLocal": "Oriya Literal Bible",
-          "language": {
-            "id": "ory",
-            "name": "Oriya",
-            "nameLocal": "ODIA",
-            "script": "Oriya",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-04-13T21:08:58.000Z",
-          "audioBibles": [
-            {
-              "id": "671966b7eac0471b-01",
-              "name": "Odia Indian Revised Version (IRV)",
-              "nameLocal": "Odia Indian Revised Version (IRV)",
-              "dblId": "671966b7eac0471b"
-            }
-          ]
-        },
-        {
-          "id": "e2588ba61891daa5-01",
-          "dblId": "e2588ba61891daa5",
-          "relatedDbl": null,
-          "name": "Indian Revised Version (IRV) Punjabi - 2019",
-          "nameLocal": "ਇੰਡਿਅਨ ਰਿਵਾਇਜ਼ਡ ਵਰਜ਼ਨ (IRV) - ਪੰਜਾਬੀ",
-          "abbreviation": "IRVPun",
-          "abbreviationLocal": "IRVPun",
-          "description": "Bible for all",
-          "descriptionLocal": "Bible for all",
-          "language": {
-            "id": "pan",
-            "name": "Panjabi, Eastern",
-            "nameLocal": "ਪੰਜਾਬੀ",
-            "script": "Gurmukhi",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-05-03T22:06:10.000Z",
-          "audioBibles": [
-            {
-              "id": "439ac17466ab4ae1-01",
-              "name": "Punjabi Indian Revised Version (IRV)",
-              "nameLocal": "ਇੰਡਿਅਨ ਰਿਵਾਇਜ਼ਡ ਵਰਜ਼ਨ (IRV) - ਪੰਜਾਬੀ",
-              "dblId": "439ac17466ab4ae1"
-            }
-          ]
-        },
-        {
-          "id": "c3c7dadacb71fb1e-01",
-          "dblId": "c3c7dadacb71fb1e",
-          "relatedDbl": null,
-          "name": "The New Testament in Pengo Language",
-          "nameLocal": "ସତ୍‌ ବଚନ୍‌, ପୁନି ନିୟମ୍‌",
-          "abbreviation": "NTNoo20",
-          "abbreviationLocal": "NTNoo20",
-          "description": "The New Testament in Pengo Language,2020",
-          "descriptionLocal": "ସତ୍‌ ବଚନ୍‌, ପୁନି ନିୟମ୍‌ , 2020",
-          "language": {
-            "id": "peg",
-            "name": "Pengo",
-            "nameLocal": "Pengo",
-            "script": "Oriya",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T13:28:38.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "7cd100148df29c08-01",
-          "dblId": "7cd100148df29c08",
-          "relatedDbl": null,
-          "name": "Biblica® Open Persian Contemporary Bible",
-          "nameLocal": "ترجمۀ معاصر",
-          "abbreviation": "OPCB",
-          "abbreviationLocal": "OPCB",
-          "description": "Holy Bible",
-          "descriptionLocal": "کتاب‌مقدّس",
-          "language": {
-            "id": "pes",
-            "name": "Persian, Iranian",
-            "nameLocal": "فارسی",
-            "script": "Arabic",
-            "scriptDirection": "RTL"
-          },
-          "countries": [
-            {
-              "id": "IR",
-              "name": "Iran, Islamic Republic of",
-              "nameLocal": "Iran, Islamic Republic of"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-12-03T21:10:42.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "fbb8b0e1943b417c-01",
-          "dblId": "fbb8b0e1943b417c",
-          "relatedDbl": null,
-          "name": "Biblica® Open Polish Living New Testament 2016",
-          "nameLocal": "Biblica® Słowo Życia, otwarty dostęp 2016",
-          "abbreviation": "OPLNT",
-          "abbreviationLocal": "OPSZ",
-          "description": "The New Testament in easy to understand Polish",
-          "descriptionLocal": "Nowy Testament w łatwo zrozumiałym języku polskim",
-          "language": {
-            "id": "pol",
-            "name": "Polish",
-            "nameLocal": "Polski",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "PL",
-              "name": "Poland",
-              "nameLocal": "Poland"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-12T09:20:24.000Z",
-          "audioBibles": [
-            {
-              "id": "380f44ed66bb471b-01",
-              "name": "Biblica® Open Polish Living New Testament Audio Edition",
-              "nameLocal": "Biblica® Słowo Życia, otwarty dostęp™",
-              "dblId": "380f44ed66bb471b"
-            }
-          ]
-        },
-        {
-          "id": "1c9761e0230da6e0-01",
-          "dblId": "1c9761e0230da6e0",
-          "relatedDbl": null,
-          "name": "Updated Gdansk Bible",
-          "nameLocal": "UWSPÓŁCZEŚNIONA BIBLIA GDAŃSKA",
-          "abbreviation": "polUBG",
-          "abbreviationLocal": "UBG",
-          "description": "Common",
-          "descriptionLocal": "pospolity",
-          "language": {
-            "id": "pol",
-            "name": "Polish",
-            "nameLocal": "Polski",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "PL",
-              "name": "Poland",
-              "nameLocal": "Poland"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T05:49:52.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "4fb78aec8de2b86a-01",
-          "dblId": "4fb78aec8de2b86a",
-          "relatedDbl": null,
-          "name": "Old Pohnpeian Bible",
-          "nameLocal": "Kadede Kap Psam Akan",
-          "abbreviation": "ponPD",
-          "abbreviationLocal": "PONPD",
-          "description": "Common",
-          "descriptionLocal": "Common",
-          "language": {
-            "id": "pon",
-            "name": "Pohnpeian",
-            "nameLocal": "Pohnpeian",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "FM",
-              "name": "Micronesia, Federated States of",
-              "nameLocal": "Micronesia, Federated States of"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2024-03-29T09:18:11.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "d63894c8d9a7a503-01",
-          "dblId": "d63894c8d9a7a503",
-          "relatedDbl": null,
-          "name": "Biblia Livre Para Todos",
-          "nameLocal": "Biblia Livre Para Todos",
-          "abbreviation": "BLT",
-          "abbreviationLocal": "BLT",
-          "description": null,
-          "descriptionLocal": null,
-          "language": {
-            "id": "por",
-            "name": "Portuguese",
-            "nameLocal": "Português",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "BR",
-              "name": "Brazil",
-              "nameLocal": "Brazil"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-03-22T14:17:49.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "90799bb5b996fddc-01",
-          "dblId": "90799bb5b996fddc",
-          "relatedDbl": null,
-          "name": "Translation for Translators in Brasilian Portuguese",
-          "nameLocal": "Translation for Translators in Brasilian Portuguese",
-          "abbreviation": "TfTP",
-          "abbreviationLocal": "TfTP",
-          "description": "common",
-          "descriptionLocal": "comum",
-          "language": {
-            "id": "por",
-            "name": "Portuguese",
-            "nameLocal": "Português",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "BR",
-              "name": "Brazil",
-              "nameLocal": "Brazil"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T10:38:46.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "355792a03079ccdd-01",
-          "dblId": "355792a03079ccdd",
-          "relatedDbl": null,
-          "name": "The New Testament in Pogoro",
-          "nameLocal": "Lipatanu Lya Syayi Kwa Wantu Woseri",
-          "abbreviation": "PBV",
-          "abbreviationLocal": "PBV",
-          "description": "New Testament",
-          "descriptionLocal": "New Testament",
-          "language": {
-            "id": "poy",
-            "name": "Shipogoro",
-            "nameLocal": "Pogolo",
-            "script": "Roman",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "TZ",
-              "name": "Tanzania",
-              "nameLocal": "Tanzania"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-06T22:55:21.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "2c42bb3d1b8a3f1c-01",
-          "dblId": "2c42bb3d1b8a3f1c",
-          "relatedDbl": null,
-          "name": "Powari New Testament",
-          "nameLocal": "सत मारग पर चलन वारो किताब",
-          "abbreviation": "NTPSP23",
-          "abbreviationLocal": "NTPSP23",
-          "description": "The New Testament in Powari Language",
-          "descriptionLocal": "सत मारग पर चलन वारो किताब, नवतो करार, 2023",
-          "language": {
-            "id": "pwr",
-            "name": "Powari",
-            "nameLocal": "Powari",
-            "script": "Devanagari",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2023-08-28T09:13:47.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "a77409f7cf5be995-01",
-          "dblId": "a77409f7cf5be995",
-          "relatedDbl": null,
-          "name": "Nuevo Testamento K'iche' of Totonicapan",
-          "nameLocal": "RI KꞌAKꞌ TESTAMENTO PA TZIJOBꞌAL KꞌICHEꞌ",
-          "abbreviation": "QUTTOT22",
-          "abbreviationLocal": "K’iche’",
-          "description": null,
-          "descriptionLocal": null,
-          "language": {
-            "id": "quc",
-            "name": "K’iche’",
-            "nameLocal": "K’iche’",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "GT",
-              "name": "Guatemala",
-              "nameLocal": "Guatemala"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2023-02-14T09:14:28.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "95d68d324dfb24f2-01",
-          "dblId": "95d68d324dfb24f2",
-          "relatedDbl": null,
-          "name": "Relli New Testament",
-          "nameLocal": "సొత్తొ పురువురొ పవిత్రొ కొత",
-          "abbreviation": "NTRPT23",
-          "abbreviationLocal": "NTRPT23",
-          "description": "సొత్తొ పురువురొ పవిత్రొ కొత, నో నిబందన, 2023",
-          "descriptionLocal": "The New Testament in Relli Language",
-          "language": {
-            "id": "rei",
-            "name": "Reli",
-            "nameLocal": "Reli",
-            "script": "Telugu",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2023-08-28T09:21:22.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "41ca884edc327e9c-01",
-          "dblId": "41ca884edc327e9c",
-          "relatedDbl": null,
-          "name": "The New Testament in Rakhine",
-          "nameLocal": "The New Testament in Rakhine",
-          "abbreviation": "RBT",
-          "abbreviationLocal": "RBT",
-          "description": "The New Testament in Rakhine",
-          "descriptionLocal": "The New Testament in Rakhine",
-          "language": {
-            "id": "rki",
-            "name": "Rakhine",
-            "nameLocal": "Rakhine",
-            "script": "Myanmar",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "MM",
-              "name": "Myanmar",
-              "nameLocal": "Myanmar"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2024-02-07T21:16:12.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "33ac978af36830fa-02",
-          "dblId": "33ac978af36830fa",
-          "relatedDbl": null,
-          "name": "Carpathian Romani 2021",
-          "nameLocal": "Le Devleskero Lav Andre Romaňi Čhib Slovensko 2021",
-          "abbreviation": "RMC",
-          "abbreviationLocal": "RMC",
-          "description": "The Carpathian Romani Bible. Contains full NT and parts of OT that have been completed. Protestant canon.",
-          "descriptionLocal": "Le Devleskero Lav Andre Romaňi Čhib Slovensko 2021",
-          "language": {
-            "id": "rmc",
-            "name": "Romani, Carpathian",
-            "nameLocal": "Romanes",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "SK",
-              "name": "Slovakia",
-              "nameLocal": "Slovakia"
-            },
-            {
-              "id": "CZ",
-              "name": "Czechia",
-              "nameLocal": "Czechia"
-            },
-            {
-              "id": "UA",
-              "name": "Ukraine",
-              "nameLocal": "Ukraine"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2023-02-21T21:10:25.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "e952663db2e91691-01",
-          "dblId": "e952663db2e91691",
-          "relatedDbl": null,
-          "name": "Carpathian Romani Bible",
-          "nameLocal": "Біблія про закарпатцько романо чіб",
-          "abbreviation": "ZRB",
-          "abbreviationLocal": "ЗРБ",
-          "description": "Luke and Acts",
-          "descriptionLocal": "Єванґеліє ле Лукастар і Апостоленґєрі бувті",
-          "language": {
-            "id": "rmc",
-            "name": "Romani, Carpathian",
-            "nameLocal": "Romanes",
-            "script": "Cyrillic",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "UA",
-              "name": "Ukraine",
-              "nameLocal": "Ukraine"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T15:40:18.000Z",
-          "audioBibles": [
-            {
-              "id": "bb981f5c2d144879-01",
-              "name": "Carpathian Romani Bible",
-              "nameLocal": "Біблія про закарпатцько романо чіб",
-              "dblId": "bb981f5c2d144879"
-            }
-          ]
-        },
-        {
-          "id": "6c018dd7a342aa63-01",
-          "dblId": "6c018dd7a342aa63",
-          "relatedDbl": null,
-          "name": "Crimean Romani Bible",
-          "nameLocal": "Библия опэр крымски романи чиб",
-          "abbreviation": "KRB",
-          "abbreviationLocal": "КРБ",
-          "description": "Ruth, Jonah Luke, Acts",
-          "descriptionLocal": "О Лошано Габэри катар Лука тай О дилэс э апостоленги",
-          "language": {
-            "id": "rmn",
-            "name": "Romani, Balkan",
-            "nameLocal": "Romani",
-            "script": "Cyrillic",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "UA",
-              "name": "Ukraine",
-              "nameLocal": "Ukraine"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2023-06-27T21:17:32.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "0a0927a2e4c58318-01",
-          "dblId": "0a0927a2e4c58318",
-          "relatedDbl": null,
-          "name": "Romani Arli Bible",
-          "nameLocal": "I Biblija ki Arli romani čhib",
-          "abbreviation": "Arli",
-          "abbreviationLocal": "RAB",
-          "description": "New Testament",
-          "descriptionLocal": "Nevo Zavet",
-          "language": {
-            "id": "rmn",
-            "name": "Romani, Balkan",
-            "nameLocal": "Romani",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "RS",
-              "name": "Serbia",
-              "nameLocal": "Serbia"
-            },
-            {
-              "id": "HR",
-              "name": "Croatia",
-              "nameLocal": "Croatia"
-            },
-            {
-              "id": "BA",
-              "name": "Bosnia and Herzegovina",
-              "nameLocal": "Bosnia and Herzegovina"
-            },
-            {
-              "id": "ME",
-              "name": "Montenegro",
-              "nameLocal": "Montenegro"
-            },
-            {
-              "id": "MK",
-              "name": "North Macedonia",
-              "nameLocal": "North Macedonia"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2024-03-21T21:12:53.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "65b675fa952d5d27-01",
-          "dblId": "65b675fa952d5d27",
-          "relatedDbl": null,
-          "name": "Bible in Chergash Romani",
-          "nameLocal": "Biblija pe romani čhib",
-          "abbreviation": "Chergash",
-          "abbreviationLocal": "RČB",
-          "description": null,
-          "descriptionLocal": null,
-          "language": {
-            "id": "rmy",
-            "name": "Romani, Vlax",
-            "nameLocal": "Romani",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "RS",
-              "name": "Serbia",
-              "nameLocal": "Serbia"
-            },
-            {
-              "id": "HR",
-              "name": "Croatia",
-              "nameLocal": "Croatia"
-            },
-            {
-              "id": "BA",
-              "name": "Bosnia and Herzegovina",
-              "nameLocal": "Bosnia and Herzegovina"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2024-03-29T21:18:08.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "f6c04124034a114e-01",
-          "dblId": "f6c04124034a114e",
-          "relatedDbl": null,
-          "name": "Lovary Romany Bible",
-          "nameLocal": "Библия пэ ловарицко романы щиб",
-          "abbreviation": "LRB",
-          "abbreviationLocal": "ЛРБ",
-          "description": "Ruth and Jonah",
-          "descriptionLocal": "Евангелие катар о Лука ай Апостолонгэ кэримата",
-          "language": {
-            "id": "rmy",
-            "name": "Romani, Vlax",
-            "nameLocal": "Romani",
-            "script": "Cyrillic",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "UA",
-              "name": "Ukraine",
-              "nameLocal": "Ukraine"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2023-07-25T21:23:39.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "5611c12a3dafb263-01",
-          "dblId": "5611c12a3dafb263",
-          "relatedDbl": null,
-          "name": "Servi Romani Bible",
-          "nameLocal": "Библия пы сэрвицко ромско чиб",
-          "abbreviation": "SRB",
-          "abbreviationLocal": "СРБ",
-          "description": "Ruth, Jonah, Luke, Acts",
-          "descriptionLocal": "Евангелие  Лукастар тай Бути апостолэнгири",
-          "language": {
-            "id": "rmy",
-            "name": "Romani, Vlax",
-            "nameLocal": "Romani",
-            "script": "Cyrillic",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "UA",
-              "name": "Ukraine",
-              "nameLocal": "Ukraine"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2023-06-27T21:15:46.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "494329fa9b8f2892-01",
-          "dblId": "494329fa9b8f2892",
-          "relatedDbl": null,
-          "name": "The Word of God in Gurbet",
-          "nameLocal": "E Devleso Lafi ko Gurbetsko dijalekt",
-          "abbreviation": "Gurbet",
-          "abbreviationLocal": "GSP",
-          "description": null,
-          "descriptionLocal": null,
-          "language": {
-            "id": "rmy",
-            "name": "Romani, Vlax",
-            "nameLocal": "Romani",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "RS",
-              "name": "Serbia",
-              "nameLocal": "Serbia"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2024-02-29T21:18:20.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "4e046bd6977f26de-01",
-          "dblId": "4e046bd6977f26de",
-          "relatedDbl": null,
-          "name": "Власитский перевод",
-          "nameLocal": "Библия пэ влахицко романи шыб",
-          "abbreviation": "VRB",
-          "abbreviationLocal": "СРБ",
-          "description": "Eastern Vlakh Romani Portions",
-          "descriptionLocal": "Радосаво Лав Лукастар тай Апостолонэндирэ рындоря",
-          "language": {
-            "id": "rmy",
-            "name": "Romani, Vlax",
-            "nameLocal": "Romani",
-            "script": "Cyrillic",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "UA",
-              "name": "Ukraine",
-              "nameLocal": "Ukraine"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2023-07-25T21:14:42.000Z",
-          "audioBibles": [
-            {
-              "id": "ace6f1c052a342af-01",
-              "name": "(Vlakh)",
-              "nameLocal": "Библия пэ влахицко романи шыб",
-              "dblId": "ace6f1c052a342af"
-            }
-          ]
-        },
-        {
-          "id": "98d1c5bee401f80c-01",
-          "dblId": "98d1c5bee401f80c",
-          "relatedDbl": null,
-          "name": "The New Testament in Lughulu",
-          "nameLocal": "Laghano Lya Sambi Kwe Iwanu Wose",
-          "abbreviation": "LBV",
-          "abbreviationLocal": "LBV",
-          "description": "New Testament",
-          "descriptionLocal": "New Testament",
-          "language": {
-            "id": "ruf",
-            "name": "Chilughuru",
-            "nameLocal": "Luguru",
-            "script": "Roman",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "TZ",
-              "name": "Tanzania",
-              "nameLocal": "Tanzania"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-06T21:03:07.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "44cb4cae1cae773f-01",
-          "dblId": "44cb4cae1cae773f",
-          "relatedDbl": null,
-          "name": "Aromanian Frasherot Bible",
-          "nameLocal": "Biblija tu limba Rrãmãnã",
-          "abbreviation": "RUPF",
-          "abbreviationLocal": "BLRR",
-          "description": "The Aromanian prestige dialect spoken in central and southern Albania.",
-          "descriptionLocal": "Bibla në gjuhën Arumune",
-          "language": {
-            "id": "rup",
-            "name": "Aromanian",
-            "nameLocal": "Armãneashti/Arumanisht",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "AL",
-              "name": "Albania",
-              "nameLocal": "Albania"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2024-03-30T21:15:38.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "bb3df4b7c8587c77-01",
-          "dblId": "bb3df4b7c8587c77",
-          "relatedDbl": null,
-          "name": "Sanskrit Bible (NT) in Assamese Script (সত্যৱেদঃ।)",
-          "nameLocal": "সত্যৱেদঃ। Sanskrit Bible (NT) in Assamese Script",
-          "abbreviation": "SANAS",
-          "abbreviationLocal": "SANAS",
-          "description": "Sanskrit Bible (NT) in Assamese Script (সত্যৱেদঃ।)",
-          "descriptionLocal": "সত্যৱেদঃ। Sanskrit Bible (NT) in Assamese Script",
-          "language": {
-            "id": "san",
-            "name": "Sanskrit",
-            "nameLocal": "Saṃskṛtam",
-            "script": "Bengali",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T13:03:55.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "8d1ad2c921d811c3-01",
-          "dblId": "8d1ad2c921d811c3",
-          "relatedDbl": null,
-          "name": "Sanskrit Bible (NT) in Bengali Script",
-          "nameLocal": "সত্যবেদঃ। Sanskrit Bible (NT) in Bengali Script",
-          "abbreviation": "SANBN",
-          "abbreviationLocal": "SANBN",
-          "description": "Sanskrit Bible (NT) in Bengali Script (সত্যবেদঃ।)",
-          "descriptionLocal": "Sanskrit Bible (NT) in Bengali Script (সত্যবেদঃ।)",
-          "language": {
-            "id": "san",
-            "name": "Sanskrit",
-            "nameLocal": "Saṃskṛtam",
-            "script": "Bengali",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T10:28:40.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "9449d4ad98193779-01",
-          "dblId": "9449d4ad98193779",
-          "relatedDbl": null,
-          "name": "Sanskrit Bible (NT) in Burmese Script (သတျဝေဒး၊)",
-          "nameLocal": "သတျဝေဒး၊ Sanskrit Bible (NT) in Burmese Script ()",
-          "abbreviation": "SANBU",
-          "abbreviationLocal": "SANBU",
-          "description": "Sanskrit Bible (NT) in Burmese Script (သတျဝေဒး၊)",
-          "descriptionLocal": "သတျဝေဒး၊ Sanskrit Bible (NT) in Burmese Script ()",
-          "language": {
-            "id": "san",
-            "name": "Sanskrit",
-            "nameLocal": "Saṃskṛtam",
-            "script": "Code for uncoded script",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T10:50:48.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "33b6449cacf22773-01",
-          "dblId": "33b6449cacf22773",
-          "relatedDbl": null,
-          "name": "Sanskrit Bible (NT) in Cologne Script (satyavEdaH|)",
-          "nameLocal": "satyavEdaH| Sanskrit Bible (NT) in Cologne Script",
-          "abbreviation": "SANCO",
-          "abbreviationLocal": "SANCO",
-          "description": "Sanskrit Bible (NT) in Cologne Script (satyavEdaH|",
-          "descriptionLocal": "satyavEdaH| Sanskrit Bible (NT) in Cologne Script",
-          "language": {
-            "id": "san",
-            "name": "Sanskrit",
-            "nameLocal": "Saṃskṛtam",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T06:47:51.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "e9ea572977b4f504-01",
-          "dblId": "e9ea572977b4f504",
-          "relatedDbl": null,
-          "name": "Sanskrit Bible (NT) in Gujarati Script (સત્યવેદઃ।)",
-          "nameLocal": "સત્યવેદઃ। Sanskrit Bible (NT) in Gujarati Script",
-          "abbreviation": "SANGJ",
-          "abbreviationLocal": "SANGJ",
-          "description": "Sanskrit Bible (NT) in Gujarati Script (સત્યવેદઃ।)",
-          "descriptionLocal": "સત્યવેદઃ। Sanskrit Bible (NT) in Gujarati Script",
-          "language": {
-            "id": "san",
-            "name": "Sanskrit",
-            "nameLocal": "Saṃskṛtam",
-            "script": "Gujarati",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T15:42:51.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "89007ccbb2eb5187-01",
-          "dblId": "89007ccbb2eb5187",
-          "relatedDbl": null,
-          "name": "Sanskrit Bible (NT) in Harvard-Kyoto Script (satyavedaH|)",
-          "nameLocal": "satyavedaH| Sanskrit Bible (NT) in Harvard-Kyoto Script",
-          "abbreviation": "SANHK",
-          "abbreviationLocal": "SANHK",
-          "description": "Sanskrit Bible (NT) in Harvard-Kyoto Script (satyavedaH|)",
-          "descriptionLocal": "satyavedaH| Sanskrit Bible (NT) in Harvard-Kyoto Script",
-          "language": {
-            "id": "san",
-            "name": "Sanskrit",
-            "nameLocal": "Saṃskṛtam",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T10:17:22.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "0b07fcef627a2db2-01",
-          "dblId": "0b07fcef627a2db2",
-          "relatedDbl": null,
-          "name": "Sanskrit Bible (NT) in IAST Script (satyavedaḥ|)",
-          "nameLocal": "satyavedaḥ| Sanskrit Bible (NT) in IAST Script",
-          "abbreviation": "SANIA",
-          "abbreviationLocal": "SANIA",
-          "description": "Sanskrit Bible (NT) in IAST Script (satyavedaḥ|)",
-          "descriptionLocal": "satyavedaḥ| Sanskrit Bible (NT) in IAST Script",
-          "language": {
-            "id": "san",
-            "name": "Sanskrit",
-            "nameLocal": "Saṃskṛtam",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T05:07:17.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "d4599ff3c6b97f3a-01",
-          "dblId": "d4599ff3c6b97f3a",
-          "relatedDbl": null,
-          "name": "Sanskrit Bible (NT) in ISO Script (satyavēdaḥ|)",
-          "nameLocal": "satyavēdaḥ| Sanskrit Bible (NT) in ISO Script",
-          "abbreviation": "SANIS",
-          "abbreviationLocal": "SANIS",
-          "description": "Sanskrit Bible (NT) in ISO Script (satyavēdaḥ|)",
-          "descriptionLocal": "satyavēdaḥ| Sanskrit Bible (NT) in ISO Script",
-          "language": {
-            "id": "san",
-            "name": "Sanskrit",
-            "nameLocal": "Saṃskṛtam",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T14:33:13.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "6bc5ae3d6dd9009a-01",
-          "dblId": "6bc5ae3d6dd9009a",
-          "relatedDbl": null,
-          "name": "Sanskrit Bible (NT) in ITRANS Script (satyavedaH|)",
-          "nameLocal": "satyavedaH| Sanskrit Bible (NT) in ITRANS Script",
-          "abbreviation": "SANIT",
-          "abbreviationLocal": "SANIT",
-          "description": "Sanskrit Bible (NT) in ITRANS Script (satyavedaH|)",
-          "descriptionLocal": "satyavedaH| Sanskrit Bible (NT) in ITRANS Script",
-          "language": {
-            "id": "san",
-            "name": "Sanskrit",
-            "nameLocal": "Saṃskṛtam",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T08:59:02.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "c1f49ed98a65a544-01",
-          "dblId": "c1f49ed98a65a544",
-          "relatedDbl": null,
-          "name": "Sanskrit Bible (NT) in Kannada Script (ಸತ್ಯವೇದಃ।)",
-          "nameLocal": "ಸತ್ಯವೇದಃ। Sanskrit Bible (NT) in Kannada Script",
-          "abbreviation": "SANKA",
-          "abbreviationLocal": "SANKA",
-          "description": "Sanskrit Bible (NT) in Kannada Script (ಸತ್ಯವೇದಃ।)",
-          "descriptionLocal": "ಸತ್ಯವೇದಃ। Sanskrit Bible (NT) in Kannada Script",
-          "language": {
-            "id": "san",
-            "name": "Sanskrit",
-            "nameLocal": "Saṃskṛtam",
-            "script": "Kannada",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T13:21:25.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "6bb8b0fa7aca67c6-01",
-          "dblId": "6bb8b0fa7aca67c6",
-          "relatedDbl": null,
-          "name": "Sanskrit Bible (NT) in Khmer Script (សត្យវេទះ។)",
-          "nameLocal": "សត្យវេទះ។ Sanskrit Bible (NT) in Khmer Script",
-          "abbreviation": "SANKH",
-          "abbreviationLocal": "SANKH",
-          "description": "Sanskrit Bible (NT) in Khmer Script (សត្យវេទះ។)",
-          "descriptionLocal": "សត្យវេទះ។ Sanskrit Bible (NT) in Khmer Script",
-          "language": {
-            "id": "san",
-            "name": "Sanskrit",
-            "nameLocal": "Saṃskṛtam",
-            "script": "Code for uncoded script",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "KH",
-              "name": "Cambodia",
-              "nameLocal": "Cambodia"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T08:58:50.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "119375d97b57cf04-01",
-          "dblId": "119375d97b57cf04",
-          "relatedDbl": null,
-          "name": "Sanskrit Bible (NT) in Malayalam Script (സത്യവേദഃ।)",
-          "nameLocal": "സത്യവേദഃ। Sanskrit Bible (NT) in Malayalam Script",
-          "abbreviation": "SANML",
-          "abbreviationLocal": "SANML",
-          "description": "Sanskrit Bible (NT) in Malayalam Script (സത്യവേദഃ।)",
-          "descriptionLocal": "സത്യവേദഃ। Sanskrit Bible (NT) in Malayalam Script",
-          "language": {
-            "id": "san",
-            "name": "Sanskrit",
-            "nameLocal": "Saṃskṛtam",
-            "script": "Malayalam",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T05:21:56.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "5a27fd2a2de187c8-01",
-          "dblId": "5a27fd2a2de187c8",
-          "relatedDbl": null,
-          "name": "Sanskrit Bible (NT) in Oriya Script (ସତ୍ୟୱେଦଃ।)",
-          "nameLocal": "ସତ୍ୟୱେଦଃ। Sanskrit Bible (NT) in Oriya Script",
-          "abbreviation": "SANOR",
-          "abbreviationLocal": "SANOR",
-          "description": "Sanskrit Bible (NT) in Oriya Script (ସତ୍ୟୱେଦଃ।)",
-          "descriptionLocal": "ସତ୍ୟୱେଦଃ। Sanskrit Bible (NT) in Oriya Script",
-          "language": {
-            "id": "san",
-            "name": "Sanskrit",
-            "nameLocal": "Saṃskṛtam",
-            "script": "Oriya",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T08:12:28.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "07225eadadcb079a-01",
-          "dblId": "07225eadadcb079a",
-          "relatedDbl": null,
-          "name": "Sanskrit Bible (NT) in Punjabi Script (ਸਤ੍ਯਵੇਦਃ।)",
-          "nameLocal": "ਸਤ੍ਯਵੇਦਃ। Sanskrit Bible (NT) in Punjabi Script",
-          "abbreviation": "SANPN",
-          "abbreviationLocal": "SANPN",
-          "description": "Sanskrit Bible (NT) in Punjabi Script (ਸਤ੍ਯਵੇਦਃ।)",
-          "descriptionLocal": "ਸਤ੍ਯਵੇਦਃ। Sanskrit Bible (NT) in Punjabi Script",
-          "language": {
-            "id": "san",
-            "name": "Sanskrit",
-            "nameLocal": "Saṃskṛtam",
-            "script": "Code for uncoded script",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T05:00:31.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "2c2cf8df5a22a46e-01",
-          "dblId": "2c2cf8df5a22a46e",
-          "relatedDbl": null,
-          "name": "Sanskrit Bible (NT) in Sinhala Script (සත්‍යවේදඃ।)",
-          "nameLocal": "සත්‍යවේදඃ। Sanskrit Bible (NT) in Sinhala Script",
-          "abbreviation": "SANSI",
-          "abbreviationLocal": "SANSI",
-          "description": "Sanskrit Bible (NT) in Sinhala Script (සත්‍යවේදඃ।)",
-          "descriptionLocal": "සත්‍යවේදඃ। Sanskrit Bible (NT) in Sinhala Script",
-          "language": {
-            "id": "san",
-            "name": "Sanskrit",
-            "nameLocal": "Saṃskṛtam",
-            "script": "Code for uncoded script",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "LK",
-              "name": "Sri Lanka",
-              "nameLocal": "Sri Lanka"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T06:26:33.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "143e0e03cf5b12ae-01",
-          "dblId": "143e0e03cf5b12ae",
-          "relatedDbl": null,
-          "name": "Sanskrit Bible (NT) in Tamil Script (ஸத்யவேத³​:।)",
-          "nameLocal": "ஸத்யவேத³​:। Sanskrit Bible (NT) in Tamil Script",
-          "abbreviation": "SANTM",
-          "abbreviationLocal": "SANTM",
-          "description": "Sanskrit Bible (NT) in Tamil Script (ஸத்யவேத³​:।)",
-          "descriptionLocal": "ஸத்யவேத³​:। Sanskrit Bible (NT) in Tamil Script",
-          "language": {
-            "id": "san",
-            "name": "Sanskrit",
-            "nameLocal": "Saṃskṛtam",
-            "script": "Tamil",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T05:28:44.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "aa146959e1d39b78-01",
-          "dblId": "aa146959e1d39b78",
-          "relatedDbl": null,
-          "name": "Sanskrit Bible (NT) in Telugu Script (సత్యవేదః।)",
-          "nameLocal": "సత్యవేదః। Sanskrit Bible (NT) in Telugu Script",
-          "abbreviation": "SANTE",
-          "abbreviationLocal": "SANTE",
-          "description": "Sanskrit Bible (NT) in Telugu Script (సత్యవేదః।)",
-          "descriptionLocal": "సత్యవేదః। Sanskrit Bible (NT) in Telugu Script",
-          "language": {
-            "id": "san",
-            "name": "Sanskrit",
-            "nameLocal": "Saṃskṛtam",
-            "script": "Telugu",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T12:04:54.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "306d6ab1ca333a1e-01",
-          "dblId": "306d6ab1ca333a1e",
-          "relatedDbl": null,
-          "name": "Sanskrit Bible (NT) in Thai Script (สตฺยเวท:ฯ)",
-          "nameLocal": "สตฺยเวท:ฯ Sanskrit Bible (NT) in Thai Script",
-          "abbreviation": "SANTH",
-          "abbreviationLocal": "SANTH",
-          "description": "Sanskrit Bible (NT) in Thai Script (สตฺยเวท:ฯ)",
-          "descriptionLocal": "สตฺยเวท:ฯ Sanskrit Bible (NT) in Thai Script",
-          "language": {
-            "id": "san",
-            "name": "Sanskrit",
-            "nameLocal": "Saṃskṛtam",
-            "script": "Thai",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "TH",
-              "name": "Thailand",
-              "nameLocal": "Thailand"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T06:38:06.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "018ff00d7f55cbc1-01",
-          "dblId": "018ff00d7f55cbc1",
-          "relatedDbl": null,
-          "name": "Sanskrit Bible (NT) in Tibetan Script (སཏྱཝེདཿ།)",
-          "nameLocal": "སཏྱཝེདཿ། Sanskrit Bible (NT) in Tibetan Script",
-          "abbreviation": "SANTI",
-          "abbreviationLocal": "SANTI",
-          "description": "Sanskrit Bible (NT) in Tibetan Script (སཏྱཝེདཿ།)",
-          "descriptionLocal": "སཏྱཝེདཿ། Sanskrit Bible (NT) in Tibetan Script",
-          "language": {
-            "id": "san",
-            "name": "Sanskrit",
-            "nameLocal": "Saṃskṛtam",
-            "script": "Tibetan",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "CN",
-              "name": "China",
-              "nameLocal": "China"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T17:20:51.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "51b16e0b4b7c9825-01",
-          "dblId": "51b16e0b4b7c9825",
-          "relatedDbl": null,
-          "name": "Sanskrit Bible (NT) in Urdu Script (سَتْیَویدَح۔)",
-          "nameLocal": "سَتْیَویدَح۔ Sanskrit Bible (NT) in Urdu Script",
-          "abbreviation": "SANUR",
-          "abbreviationLocal": "SANUR",
-          "description": "Sanskrit Bible (NT) in Urdu Script (سَتْیَویدَح۔)",
-          "descriptionLocal": "سَتْیَویدَح۔ Sanskrit Bible (NT) in Urdu Script",
-          "language": {
-            "id": "san",
-            "name": "Sanskrit",
-            "nameLocal": "Saṃskṛtam",
-            "script": "Arabic",
-            "scriptDirection": "RTL"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T07:52:11.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "9a875168ff4df1a3-01",
-          "dblId": "9a875168ff4df1a3",
-          "relatedDbl": null,
-          "name": "Sanskrit Bible (NT) in Velthuis Script (satyaveda.h|)",
-          "nameLocal": "satyaveda.h| Sanskrit Bible (NT) in Velthuis Script",
-          "abbreviation": "SANVE",
-          "abbreviationLocal": "SANVE",
-          "description": "Sanskrit Bible (NT) in Velthuis Script (satyaveda.h|)",
-          "descriptionLocal": "satyaveda.h| Sanskrit Bible (NT) in Velthuis Script",
-          "language": {
-            "id": "san",
-            "name": "Sanskrit",
-            "nameLocal": "Saṃskṛtam",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T11:13:42.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "e8b40ccabe793c0d-01",
-          "dblId": "e8b40ccabe793c0d",
-          "relatedDbl": null,
-          "name": "Sanskrit NT in Devanagari",
-          "nameLocal": "सत्यवेदः। Sanskrit NT in Devanagari",
-          "abbreviation": "SAN-DN",
-          "abbreviationLocal": "SAN-DN",
-          "description": "Sanskrit NT in Devanagari",
-          "descriptionLocal": "सत्यवेदः। Sanskrit NT in Devanagari",
-          "language": {
-            "id": "san",
-            "name": "Sanskrit",
-            "nameLocal": "Saṃskṛtam",
-            "script": "Devanagari",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T15:38:07.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "31ce26b5803b75dd-01",
-          "dblId": "31ce26b5803b75dd",
-          "relatedDbl": null,
-          "name": "Soli New Testament",
-          "nameLocal": "Soli New Testament",
-          "abbreviation": "SBT",
-          "abbreviationLocal": "SBT",
-          "description": "Soli New Testament 2018",
-          "descriptionLocal": "Soli New Testament 2018",
-          "language": {
-            "id": "sby",
-            "name": "Soli",
-            "nameLocal": "Soli",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "ZM",
-              "name": "Zambia",
-              "nameLocal": "Zambia"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T06:42:47.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "619fcff92275df23-01",
-          "dblId": "619fcff92275df23",
-          "relatedDbl": null,
-          "name": "Sakachep New Testament",
-          "nameLocal": "Pathien Lekhabu Inthieng Chongtung Thar",
-          "abbreviation": "SAKNT",
-          "abbreviationLocal": "SAKNT",
-          "description": "Sakachep New Testament 2017",
-          "descriptionLocal": "Pathien Lekhabu Inthieng Chongtung Thar",
-          "language": {
-            "id": "sch",
-            "name": "Sakachep",
-            "nameLocal": "Sakachep",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2023-04-05T21:13:23.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "f95e2d9b384f8e6e-01",
-          "dblId": "f95e2d9b384f8e6e",
-          "relatedDbl": null,
-          "name": "Caning Bible Translation",
-          "nameLocal": "Sorunu Kaläg na Ikä Caning",
-          "abbreviation": "SHJ",
-          "abbreviationLocal": "SHJ",
-          "description": "Gospel of Luke",
-          "descriptionLocal": "Inycil Luka na Ikä Caning",
-          "language": {
-            "id": "shj",
-            "name": "Shatt",
-            "nameLocal": "Shatt",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "SS",
-              "name": "South Sudan",
-              "nameLocal": "South Sudan"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2020-06-22T20:02:00.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "239e3e9e3b8aac2e-01",
-          "dblId": "239e3e9e3b8aac2e",
-          "relatedDbl": null,
-          "name": "Sikkiligar New Testament",
-          "nameLocal": "ಕ್ಹುದಾನಿ ಕ್ಹರಿನಿ ವಾಕ್ಯಾ",
-          "abbreviation": "NTSrr23",
-          "abbreviationLocal": "NTSrr23",
-          "description": "The New Testament in Sikkiligar Language",
-          "descriptionLocal": "ಕ್ಹುದಾನಿ ಕ್ಹರಿನಿ ವಾಕ್ಯಾ , ನವು ವಡಂಬಡಿಕೆ , 2023",
-          "language": {
-            "id": "sle",
-            "name": "Sholaga",
-            "nameLocal": "Sholaga",
-            "script": "Kannada",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2023-08-28T09:13:20.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "7d49326ef827c7d1-01",
-          "dblId": "7d49326ef827c7d1",
-          "relatedDbl": null,
-          "name": "Biblica® Open Slovak Hope for All New Testament",
-          "nameLocal": "Biblica® Nádej pre každého, verejne dostupné",
-          "abbreviation": "ONPK",
-          "abbreviationLocal": "ONPK",
-          "description": "Protestant NT",
-          "descriptionLocal": "Protestant NT",
-          "language": {
-            "id": "slk",
-            "name": "Slovak",
-            "nameLocal": "Slovenčina",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "SK",
-              "name": "Slovakia",
-              "nameLocal": "Slovakia"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2023-12-07T09:17:31.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "e8d99085dcb83ab5-01",
-          "dblId": "e8d99085dcb83ab5",
-          "relatedDbl": null,
-          "name": "Biblica® Open Shona Contemporary Bible",
-          "nameLocal": "Biblica® Bhaibheri Dzvene Rakasununguka MuChiShona Chanhasi",
-          "abbreviation": "OSCB",
-          "abbreviationLocal": "BDRSC",
-          "description": "Bible",
-          "descriptionLocal": "Bhaibheri Dzvene",
-          "language": {
-            "id": "sna",
-            "name": "Shona",
-            "nameLocal": "chiShona",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "ZW",
-              "name": "Zimbabwe",
-              "nameLocal": "Zimbabwe"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-05-03T20:34:26.000Z",
-          "audioBibles": [
-            {
-              "id": "0a0157c765374368-00",
-              "name": "Biblica® Open Shona Contemporary Bible, Audio Edition",
-              "nameLocal": "Biblica® Bhaibheri Dzvene Rakasununguka MuChiShona Chanhasi™, Chikamu chinonzwika nenzeve",
-              "dblId": "0a0157c765374368"
-            },
-            {
-              "id": "0a0157c765374368-01",
-              "name": "Shona Contemporary Bible™, Audio Edition",
-              "nameLocal": "Biblica® Bhaibheri Dzvene Rakasununguka MuChiShona Chanhasi™, Chikamu chinonzwika nenzeve",
-              "dblId": "0a0157c765374368"
-            }
-          ]
-        },
-        {
-          "id": "592420522e16049f-01",
-          "dblId": "592420522e16049f",
-          "relatedDbl": null,
-          "name": "Reina Valera 1909",
-          "nameLocal": "Reina Valera 1909",
-          "abbreviation": "RVR09",
-          "abbreviationLocal": "RVR09",
-          "description": "Biblia Reina Valera 1909",
-          "descriptionLocal": "Biblia Reina Valera 1909",
-          "language": {
-            "id": "spa",
-            "name": "Spanish",
-            "nameLocal": "Español",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "ZZ",
-              "name": "Unspecific",
-              "nameLocal": "Unspecific"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2023-12-21T09:18:14.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "48acedcf8595c754-01",
-          "dblId": "48acedcf8595c754",
-          "relatedDbl": null,
-          "name": "Spanish Bible, Palabla de Dios para ti",
-          "nameLocal": "Palabla de Dios para ti",
-          "abbreviation": "spaPdDpt",
-          "abbreviationLocal": "PdDpt",
-          "description": "common",
-          "descriptionLocal": "común",
-          "language": {
-            "id": "spa",
-            "name": "Spanish",
-            "nameLocal": "Español",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "VE",
-              "name": "Venezuela, Bolivarian Republic of",
-              "nameLocal": "Venezuela, Bolivarian Republic of"
-            },
-            {
-              "id": "CO",
-              "name": "Colombia",
-              "nameLocal": "Colombia"
-            },
-            {
-              "id": "EC",
-              "name": "Ecuador",
-              "nameLocal": "Ecuador"
-            },
-            {
-              "id": "BO",
-              "name": "Bolivia, Plurinational State of",
-              "nameLocal": "Bolivia, Plurinational State of"
-            },
-            {
-              "id": "PE",
-              "name": "Peru",
-              "nameLocal": "Peru"
-            },
-            {
-              "id": "AR",
-              "name": "Argentina",
-              "nameLocal": "Argentina"
-            },
-            {
-              "id": "BR",
-              "name": "Brazil",
-              "nameLocal": "Brazil"
-            },
-            {
-              "id": "PY",
-              "name": "Paraguay",
-              "nameLocal": "Paraguay"
-            },
-            {
-              "id": "UY",
-              "name": "Uruguay",
-              "nameLocal": "Uruguay"
-            },
-            {
-              "id": "SV",
-              "name": "El Salvador",
-              "nameLocal": "El Salvador"
-            },
-            {
-              "id": "NI",
-              "name": "Nicaragua",
-              "nameLocal": "Nicaragua"
-            },
-            {
-              "id": "DO",
-              "name": "Dominican Republic",
-              "nameLocal": "Dominican Republic"
-            },
-            {
-              "id": "CU",
-              "name": "Cuba",
-              "nameLocal": "Cuba"
-            },
-            {
-              "id": "HN",
-              "name": "Honduras",
-              "nameLocal": "Honduras"
-            },
-            {
-              "id": "GT",
-              "name": "Guatemala",
-              "nameLocal": "Guatemala"
-            },
-            {
-              "id": "PA",
-              "name": "Panama",
-              "nameLocal": "Panama"
-            },
-            {
-              "id": "MX",
-              "name": "Mexico",
-              "nameLocal": "Mexico"
-            },
-            {
-              "id": "CL",
-              "name": "Chile",
-              "nameLocal": "Chile"
-            },
-            {
-              "id": "ES",
-              "name": "Spain",
-              "nameLocal": "Spain"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2024-04-10T09:16:49.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "48acedcf8595c754-02",
-          "dblId": "48acedcf8595c754",
-          "relatedDbl": null,
-          "name": "Spanish NT + PP, Palabla de Dios para ti",
-          "nameLocal": "Nuevo Contracto, Salmos y Proverbios, Palabla de Dios para ti",
-          "abbreviation": "spaPdDpt",
-          "abbreviationLocal": "PdDpt",
-          "description": "NTPP",
-          "descriptionLocal": "Nuevo Contracto y Salmos y Proverbios",
-          "language": {
-            "id": "spa",
-            "name": "Spanish",
-            "nameLocal": "Español",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "VE",
-              "name": "Venezuela, Bolivarian Republic of",
-              "nameLocal": "Venezuela, Bolivarian Republic of"
-            },
-            {
-              "id": "CO",
-              "name": "Colombia",
-              "nameLocal": "Colombia"
-            },
-            {
-              "id": "EC",
-              "name": "Ecuador",
-              "nameLocal": "Ecuador"
-            },
-            {
-              "id": "BO",
-              "name": "Bolivia, Plurinational State of",
-              "nameLocal": "Bolivia, Plurinational State of"
-            },
-            {
-              "id": "PE",
-              "name": "Peru",
-              "nameLocal": "Peru"
-            },
-            {
-              "id": "AR",
-              "name": "Argentina",
-              "nameLocal": "Argentina"
-            },
-            {
-              "id": "BR",
-              "name": "Brazil",
-              "nameLocal": "Brazil"
-            },
-            {
-              "id": "PY",
-              "name": "Paraguay",
-              "nameLocal": "Paraguay"
-            },
-            {
-              "id": "UY",
-              "name": "Uruguay",
-              "nameLocal": "Uruguay"
-            },
-            {
-              "id": "SV",
-              "name": "El Salvador",
-              "nameLocal": "El Salvador"
-            },
-            {
-              "id": "NI",
-              "name": "Nicaragua",
-              "nameLocal": "Nicaragua"
-            },
-            {
-              "id": "DO",
-              "name": "Dominican Republic",
-              "nameLocal": "Dominican Republic"
-            },
-            {
-              "id": "CU",
-              "name": "Cuba",
-              "nameLocal": "Cuba"
-            },
-            {
-              "id": "HN",
-              "name": "Honduras",
-              "nameLocal": "Honduras"
-            },
-            {
-              "id": "GT",
-              "name": "Guatemala",
-              "nameLocal": "Guatemala"
-            },
-            {
-              "id": "PA",
-              "name": "Panama",
-              "nameLocal": "Panama"
-            },
-            {
-              "id": "MX",
-              "name": "Mexico",
-              "nameLocal": "Mexico"
-            },
-            {
-              "id": "CL",
-              "name": "Chile",
-              "nameLocal": "Chile"
-            },
-            {
-              "id": "ES",
-              "name": "Spain",
-              "nameLocal": "Spain"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2024-04-10T09:17:39.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "b32b9d1b64b4ef29-01",
-          "dblId": "b32b9d1b64b4ef29",
-          "relatedDbl": null,
-          "name": "The Holy Bible in Simple Spanish",
-          "nameLocal": "La Biblia en Español Sencillo",
-          "abbreviation": "spabes",
-          "abbreviationLocal": "BES",
-          "description": "Common",
-          "descriptionLocal": "Común",
-          "language": {
-            "id": "spa",
-            "name": "Spanish",
-            "nameLocal": "Español",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "MX",
-              "name": "Mexico",
-              "nameLocal": "Mexico"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T12:40:11.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "482ddd53705278cc-01",
-          "dblId": "482ddd53705278cc",
-          "relatedDbl": null,
-          "name": "The New Testament in Spanish, Free Bible Version",
-          "nameLocal": "El Nuevo Testamento, Versión Biblia Libre",
-          "abbreviation": "VBL",
-          "abbreviationLocal": "VBL",
-          "description": "common",
-          "descriptionLocal": "Nuevo Testmento",
-          "language": {
-            "id": "spa",
-            "name": "Spanish",
-            "nameLocal": "Español",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "ES",
-              "name": "Spain",
-              "nameLocal": "Spain"
-            },
-            {
-              "id": "MX",
-              "name": "Mexico",
-              "nameLocal": "Mexico"
-            },
-            {
-              "id": "PY",
-              "name": "Paraguay",
-              "nameLocal": "Paraguay"
-            },
-            {
-              "id": "CO",
-              "name": "Colombia",
-              "nameLocal": "Colombia"
-            },
-            {
-              "id": "CL",
-              "name": "Chile",
-              "nameLocal": "Chile"
-            },
-            {
-              "id": "EC",
-              "name": "Ecuador",
-              "nameLocal": "Ecuador"
-            },
-            {
-              "id": "HN",
-              "name": "Honduras",
-              "nameLocal": "Honduras"
-            },
-            {
-              "id": "NI",
-              "name": "Nicaragua",
-              "nameLocal": "Nicaragua"
-            },
-            {
-              "id": "PE",
-              "name": "Peru",
-              "nameLocal": "Peru"
-            },
-            {
-              "id": "PA",
-              "name": "Panama",
-              "nameLocal": "Panama"
-            },
-            {
-              "id": "CU",
-              "name": "Cuba",
-              "nameLocal": "Cuba"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-09-21T21:11:04.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "482ddd53705278cc-02",
-          "dblId": "482ddd53705278cc",
-          "relatedDbl": null,
-          "name": "Versión Biblia Libre",
-          "nameLocal": "Versión Biblia Libre",
-          "abbreviation": "VBL",
-          "abbreviationLocal": "VBL",
-          "description": "Protestant",
-          "descriptionLocal": "Protestant",
-          "language": {
-            "id": "spa",
-            "name": "Spanish",
-            "nameLocal": "Español",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "ES",
-              "name": "Spain",
-              "nameLocal": "Spain"
-            },
-            {
-              "id": "MX",
-              "name": "Mexico",
-              "nameLocal": "Mexico"
-            },
-            {
-              "id": "PY",
-              "name": "Paraguay",
-              "nameLocal": "Paraguay"
-            },
-            {
-              "id": "CO",
-              "name": "Colombia",
-              "nameLocal": "Colombia"
-            },
-            {
-              "id": "CL",
-              "name": "Chile",
-              "nameLocal": "Chile"
-            },
-            {
-              "id": "EC",
-              "name": "Ecuador",
-              "nameLocal": "Ecuador"
-            },
-            {
-              "id": "HN",
-              "name": "Honduras",
-              "nameLocal": "Honduras"
-            },
-            {
-              "id": "NI",
-              "name": "Nicaragua",
-              "nameLocal": "Nicaragua"
-            },
-            {
-              "id": "PE",
-              "name": "Peru",
-              "nameLocal": "Peru"
-            },
-            {
-              "id": "PA",
-              "name": "Panama",
-              "nameLocal": "Panama"
-            },
-            {
-              "id": "CU",
-              "name": "Cuba",
-              "nameLocal": "Cuba"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-07-08T15:52:26.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "2a65010324d677b6-01",
-          "dblId": "2a65010324d677b6",
-          "relatedDbl": null,
-          "name": "Akukem Portions for DBL",
-          "nameLocal": "Mak Osɨrisira Akaman Aghuuŋ ko Iesusɨm Mbɨsevisir Gumasi",
-          "abbreviation": "Akg-MkAc",
-          "abbreviationLocal": "Akg-MkAc",
-          "description": null,
-          "descriptionLocal": "Published Mark & Acts",
-          "language": {
-            "id": "spm",
-            "name": "Akukem",
-            "nameLocal": "Akɨghɨman Akam",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "PG",
-              "name": "Papua New Guinea",
-              "nameLocal": "Papua New Guinea"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T06:19:35.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "b83db44e6dc39993-01",
-          "dblId": "b83db44e6dc39993",
-          "relatedDbl": null,
-          "name": "Biblica® Open New Serbian Translation Cyrillic 2017",
-          "nameLocal": "Biblica® Нови српски превод, слободна права",
-          "abbreviation": "ONSP",
-          "abbreviationLocal": "OНСП",
-          "description": "Holy Bible",
-          "descriptionLocal": "Свето писмо",
-          "language": {
-            "id": "srp",
-            "name": "Serbian",
-            "nameLocal": "Српски/ Srpski",
-            "script": "Cyrillic",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "RS",
-              "name": "Serbia",
-              "nameLocal": "Serbia"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2023-09-28T09:26:56.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "c1096b0470327a28-01",
-          "dblId": "c1096b0470327a28",
-          "relatedDbl": null,
-          "name": "Biblica® Open New Serbian Translation Latin 2017",
-          "nameLocal": "Novi srpski prevod",
-          "abbreviation": "ONSTL",
-          "abbreviationLocal": "ONSPL",
-          "description": "Holy Bible",
-          "descriptionLocal": "Sveto Pismo",
-          "language": {
-            "id": "srp",
-            "name": "Serbian",
-            "nameLocal": "Српски/ Srpski",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "RS",
-              "name": "Serbia",
-              "nameLocal": "Serbia"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2023-09-29T21:26:12.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "06995ce9cd23361b-01",
-          "dblId": "06995ce9cd23361b",
-          "relatedDbl": null,
-          "name": "Serbian Bible",
-          "nameLocal": "Sveta Biblija",
-          "abbreviation": "srp1865",
-          "abbreviationLocal": "SRP1865",
-          "description": "common",
-          "descriptionLocal": "zajednički",
-          "language": {
-            "id": "srp",
-            "name": "Serbian",
-            "nameLocal": "Српски/ Srpski",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "RS",
-              "name": "Serbia",
-              "nameLocal": "Serbia"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T04:58:49.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "bbeb583cd75c6356-01",
-          "dblId": "bbeb583cd75c6356",
-          "relatedDbl": null,
-          "name": "Susu Bible",
-          "nameLocal": "Soso Kitaabuie: Tawureta, Yabura, Inyila",
-          "abbreviation": "Susu",
-          "abbreviationLocal": "Soso",
-          "description": "Bible",
-          "descriptionLocal": "Soso Kitaabuie",
-          "language": {
-            "id": "sus",
-            "name": "Susu",
-            "nameLocal": "Sosoxui",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "GN",
-              "name": "Guinea",
-              "nameLocal": "Guinea"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-09-21T23:27:11.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "2d5220a02a7aaac6-01",
-          "dblId": "2d5220a02a7aaac6",
-          "relatedDbl": null,
-          "name": "Susu Bible in Arabic Script",
-          "nameLocal": "Ala xa Kitaabui Sosoe bɛ",
-          "abbreviation": "AKS",
-          "abbreviationLocal": "Susu",
-          "description": "Protestant",
-          "descriptionLocal": "Tawureta Munsa, Yabura Dawuda, Inyila Isa",
-          "language": {
-            "id": "sus",
-            "name": "Susu",
-            "nameLocal": "Sosoxui",
-            "script": "Arabic",
-            "scriptDirection": "RTL"
-          },
-          "countries": [
-            {
-              "id": "GN",
-              "name": "Guinea",
-              "nameLocal": "Guinea"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-09-21T19:51:01.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "fa4317c59f0825e0-01",
-          "dblId": "fa4317c59f0825e0",
-          "relatedDbl": null,
-          "name": "Swedish Core Bible - expanded",
-          "nameLocal": "Svenska Kärnbibeln",
-          "abbreviation": "SKB",
-          "abbreviationLocal": "SKB",
-          "description": "En expanderad översättning",
-          "descriptionLocal": "En expanderad översättning",
-          "language": {
-            "id": "swe",
-            "name": "Swedish",
-            "nameLocal": "Svenska",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "SE",
-              "name": "Sweden",
-              "nameLocal": "Sweden"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2024-02-15T21:41:16.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "611f8eb23aec8f13-01",
-          "dblId": "611f8eb23aec8f13",
-          "relatedDbl": null,
-          "name": "Biblica® Open Kiswahili Contemporary Version (Neno) 2015",
-          "nameLocal": "Biblica® Toleo Wazi la Neno: Biblia Takatifu",
-          "abbreviation": "ONEN",
-          "abbreviationLocal": "ONEN",
-          "description": "Protestant Bible",
-          "descriptionLocal": "Protestant Bible",
-          "language": {
-            "id": "swh",
-            "name": "Swahili",
-            "nameLocal": "Kiswahili",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "KE",
-              "name": "Kenya",
-              "nameLocal": "Kenya"
-            },
-            {
-              "id": "TZ",
-              "name": "Tanzania, United Republic of",
-              "nameLocal": "Tanzania, United Republic of"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2023-04-17T21:13:22.000Z",
-          "audioBibles": [
-            {
-              "id": "3533f7929cde418c-01",
-              "name": "Biblica® Open Kiswahili Contemporary Version™, Audio Edition",
-              "nameLocal": "Biblica® Toleo Wazi la Neno: Biblia Takatifu™, Toleo la Kusikiliza",
-              "dblId": "3533f7929cde418c"
-            }
-          ]
-        },
-        {
-          "id": "032ec262506b719f-01",
-          "dblId": "032ec262506b719f",
-          "relatedDbl": null,
-          "name": "Biblica® Open Indian Tamil Contemporary Version",
-          "nameLocal": "Biblica® திறந்தநிலை தமிழ் சமகால பதிப்பு",
-          "abbreviation": "OTCV",
-          "abbreviationLocal": "OTCV",
-          "description": "Holy Bible",
-          "descriptionLocal": "பரிசுத்த வேதம்",
-          "language": {
-            "id": "tam",
-            "name": "Tamil",
-            "nameLocal": "தமிழ்",
-            "script": "Tamil",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2023-02-24T21:09:37.000Z",
-          "audioBibles": [
-            {
-              "id": "232eeaf9dc544361-01",
-              "name": "Biblica® Open Indian Tamil Contemporary Version™, Audio Edition",
-              "nameLocal": "Biblica® Open Indian Tamil Contemporary Version™, Audio Edition",
-              "dblId": "232eeaf9dc544361"
-            }
-          ]
-        },
-        {
-          "id": "03a021185023710b-01",
-          "dblId": "03a021185023710b",
-          "relatedDbl": null,
-          "name": "Indian Revised Version (IRV) Tamil - 2019",
-          "nameLocal": "இண்டியன் ரிவைஸ்டு வெர்ஸன் (IRV) - தமிழ்",
-          "abbreviation": "IRVTam",
-          "abbreviationLocal": "IRVTam",
-          "description": "Protestant Bible for all",
-          "descriptionLocal": "Protestant Bible for all",
-          "language": {
-            "id": "tam",
-            "name": "Tamil",
-            "nameLocal": "தமிழ்",
-            "script": "Tamil",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-04-13T09:08:47.000Z",
-          "audioBibles": [
-            {
-              "id": "5b168850d8ff4fe2-01",
-              "name": "Tamil Indian Revised Version (IRV)",
-              "nameLocal": "Tamil Indian Revised Version (IRV)",
-              "dblId": "5b168850d8ff4fe2"
-            }
-          ]
-        },
-        {
-          "id": "8e3b1a957009c6ca-01",
-          "dblId": "8e3b1a957009c6ca",
-          "relatedDbl": null,
-          "name": "New Testament in Tay",
-          "nameLocal": "Jisas Klays Takaw Teplep Ne",
-          "abbreviation": "TayNT",
-          "abbreviationLocal": "TayNT",
-          "description": "New Testament",
-          "descriptionLocal": "New Testament",
-          "language": {
-            "id": "taw",
-            "name": "Tai",
-            "nameLocal": "Tay",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "PG",
-              "name": "Papua New Guinea",
-              "nameLocal": "Papua New Guinea"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-09-21T22:21:47.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "5b835ce16a1703ff-01",
-          "dblId": "5b835ce16a1703ff",
-          "relatedDbl": null,
-          "name": "Indian Revised Version (IRV) Telugu - 2019",
-          "nameLocal": "ఇండియన్ రివైజ్డ్ వెర్షన్ (IRV) - తెలుగు -2019",
-          "abbreviation": "IRVTel",
-          "abbreviationLocal": "IRVTel",
-          "description": "Bible for all",
-          "descriptionLocal": "Bible for all",
-          "language": {
-            "id": "tel",
-            "name": "Telugu",
-            "nameLocal": "తెలుగు",
-            "script": "Telugu",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-07-08T15:30:43.000Z",
-          "audioBibles": [
-            {
-              "id": "0d7b2453e9ae4513-01",
-              "name": "Telugu Indian Revised Version (IRV)",
-              "nameLocal": "Telugu Indian Revised Version (IRV)",
-              "dblId": "0d7b2453e9ae4513"
-            }
-          ]
-        },
-        {
-          "id": "4e901dfea8624ef8-01",
-          "dblId": "4e901dfea8624ef8",
-          "relatedDbl": null,
-          "name": "Tagin New Testament",
-          "nameLocal": "ANWNV GAMLV",
-          "abbreviation": "TAG",
-          "abbreviationLocal": "TAG",
-          "description": "Tagin New Testament",
-          "descriptionLocal": "Tagin New Testament",
-          "language": {
-            "id": "tgj",
-            "name": "Tagin",
-            "nameLocal": "Tagin",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2023-05-17T21:14:03.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "2eb94132ad61ae75-01",
-          "dblId": "2eb94132ad61ae75",
-          "relatedDbl": null,
-          "name": "Thai KJV",
-          "nameLocal": "พระคัมภีร์ภาษาไทยฉบับ KJV",
-          "abbreviation": "KJV",
-          "abbreviationLocal": "KJV",
-          "description": "Protestant",
-          "descriptionLocal": "โปรเตสแตนต์",
-          "language": {
-            "id": "tha",
-            "name": "Thai",
-            "nameLocal": "ไทย",
-            "script": "Thai",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "TH",
-              "name": "Thailand",
-              "nameLocal": "Thailand"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-09-21T19:52:35.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "00cdf9001d68edfa-01",
-          "dblId": "00cdf9001d68edfa",
-          "relatedDbl": null,
-          "name": "Tsakhur",
-          "nameLocal": "Yiqsum",
-          "abbreviation": "TKR",
-          "abbreviationLocal": "YIQSUM",
-          "description": "OT selections (Lifes of Prophets) and NT portions (Matthew, James, some Luke parables, Gospel of John) in Tsakhur",
-          "descriptionLocal": "OT selections (Lifes of Prophets) and NT portions (Matthew, James, some Luke parables, Gospel of John) in Tsakhur",
-          "language": {
-            "id": "tkr",
-            "name": "Tsakhur",
-            "nameLocal": "Tsakhur",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "AZ",
-              "name": "Azerbaijan",
-              "nameLocal": "Azerbaijan"
-            },
-            {
-              "id": "RU",
-              "name": "Russian Federation",
-              "nameLocal": "Russian Federation"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2024-01-30T21:12:53.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "30cb581bcc911c45-01",
-          "dblId": "30cb581bcc911c45",
-          "relatedDbl": null,
-          "name": "God's Word in Toma",
-          "nameLocal": "GALA Daawoo Zɛʋɛi",
-          "abbreviation": "GDZ",
-          "abbreviationLocal": "GDZ",
-          "description": null,
-          "descriptionLocal": null,
-          "language": {
-            "id": "tod",
-            "name": "Toma",
-            "nameLocal": "Lɔɠɔma",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "GN",
-              "name": "Guinea",
-              "nameLocal": "Guinea"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2023-01-25T21:10:44.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "25210406001d9aae-01",
-          "dblId": "25210406001d9aae",
-          "relatedDbl": null,
-          "name": "Tongan Revised West Translation",
-          "nameLocal": "KO E TOHI TAPU KĀTOA",
-          "abbreviation": "tonRWV",
-          "abbreviationLocal": "RWV",
-          "description": "The Holy Bible in Tongan, Revised West Translation",
-          "descriptionLocal": "The Holy Bible in Tongan, Revised West Translation",
-          "language": {
-            "id": "ton",
-            "name": "Tonga (Tonga Islands)",
-            "nameLocal": "lea fakatonga",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "TO",
-              "name": "Tonga",
-              "nameLocal": "Tonga"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T06:08:07.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "69e6826f010ee12a-01",
-          "dblId": "69e6826f010ee12a",
-          "relatedDbl": null,
-          "name": "Biblica® Open Tswana Living New Testament",
-          "nameLocal": "Biblica® Open Lefoko: La Botshelo Kgolagano e Ntsha",
-          "abbreviation": "OLEF",
-          "abbreviationLocal": "OLEF",
-          "description": "New Testament",
-          "descriptionLocal": "Kgolagano e Ntsha",
-          "language": {
-            "id": "tsn",
-            "name": "Tswana",
-            "nameLocal": "Setswana",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "BW",
-              "name": "Botswana",
-              "nameLocal": "Botswana"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-12-02T00:22:43.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "ba4ce1321bc1631e-01",
-          "dblId": "ba4ce1321bc1631e",
-          "relatedDbl": null,
-          "name": "The New Testament in Dawei",
-          "nameLocal": "The New Testament in Dawei",
-          "abbreviation": "DWBT",
-          "abbreviationLocal": "DWBT",
-          "description": "The New Testament in Dawei",
-          "descriptionLocal": "The New Testament in Dawei",
-          "language": {
-            "id": "tvn",
-            "name": "Tavoyan",
-            "nameLocal": "Tavoyan",
-            "script": "Myanmar",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "MM",
-              "name": "Myanmar",
-              "nameLocal": "Myanmar"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2024-02-08T09:22:55.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "29d55810bbb2fbcd-01",
-          "dblId": "29d55810bbb2fbcd",
-          "relatedDbl": null,
-          "name": "Tutsa New Testament",
-          "nameLocal": "ESA LEEDAP Ena Banlam",
-          "abbreviation": "TUT",
-          "abbreviationLocal": "TUT",
-          "description": "New Testament in Tutsa",
-          "descriptionLocal": "Tutsa New Testament",
-          "language": {
-            "id": "tvt",
-            "name": "Tutsa Naga",
-            "nameLocal": "Tutsa Naga",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T06:18:37.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "b6aee081108c0bc6-01",
-          "dblId": "b6aee081108c0bc6",
-          "relatedDbl": null,
-          "name": "Biblica® Open Akuapem Twi Contemporary Bible 2020",
-          "nameLocal": "Biblica® Wonhia ɛho kwamma nhoma Akuapem Twi Nkwa Asɛm",
-          "abbreviation": "OAKCB",
-          "abbreviationLocal": "WAKNA",
-          "description": "Bible",
-          "descriptionLocal": "Apam Dedaw ne Apam Foforo",
-          "language": {
-            "id": "twi",
-            "name": "Twi",
-            "nameLocal": "Twi",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "GH",
-              "name": "Ghana",
-              "nameLocal": "Ghana"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T12:50:30.000Z",
-          "audioBibles": [
-            {
-              "id": "6e21c09d8edb4838-01",
-              "name": "Biblica® Open Akuapem Twi Contemporary Bible™, Audio Edition",
-              "nameLocal": "Biblica® Wonhia Akuapem Twi Nkwa Asɛm™ ho kwamma nhoma, Nea Wotie",
-              "dblId": "6e21c09d8edb4838"
-            }
-          ]
-        },
-        {
-          "id": "18f6cf27f7b43297-01",
-          "dblId": "18f6cf27f7b43297",
-          "relatedDbl": null,
-          "name": "Biblica® Open Asante Twi Contemporary Bible 2020",
-          "nameLocal": "Biblica® Wɔnhia ɛho kwamma nwoma Asante Twi Nkwa Asɛm",
-          "abbreviation": "OASCB",
-          "abbreviationLocal": "WASNA",
-          "description": "Biible",
-          "descriptionLocal": "Apam Dada ne Apam Foforɔ",
-          "language": {
-            "id": "twi",
-            "name": "Twi",
-            "nameLocal": "Twi",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "GH",
-              "name": "Ghana",
-              "nameLocal": "Ghana"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T17:32:24.000Z",
-          "audioBibles": [
-            {
-              "id": "03d2ea6f8f7c4a19-01",
-              "name": "Biblica® Open Asante Twi Contemporary Bible™, Audio Edition",
-              "nameLocal": "Biblica® Wɔnhia ɛho kwamma nwoma Asante Twi Nkwa Asɛm™, Deɛ Wɔtie",
-              "dblId": "03d2ea6f8f7c4a19"
-            }
-          ]
-        },
-        {
-          "id": "6c696cd1d82e2723-03",
-          "dblId": "6c696cd1d82e2723",
-          "relatedDbl": null,
-          "name": "Biblica® Open New Ukrainian Translation 2022",
-          "nameLocal": "Бібліка ® Відкрита Новий Переклад Українською 2022",
-          "abbreviation": "ONPU",
-          "abbreviationLocal": "ВНПУ",
-          "description": "New Testament and Psalms",
-          "descriptionLocal": "Новий Заповіт і Книга Псалмів",
-          "language": {
-            "id": "ukr",
-            "name": "Ukrainian",
-            "nameLocal": "Українська",
-            "script": "Cyrillic",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "UA",
-              "name": "Ukraine",
-              "nameLocal": "Ukraine"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-09-21T21:36:44.000Z",
-          "audioBibles": [
-            {
-              "id": "039316d8ba074002-01",
-              "name": "Biblica® Open New Ukrainian Translation™, Audio Edition",
-              "nameLocal": "Бібліка ® Відкрита Новий Переклад Українською™, Аудіовидання",
-              "dblId": "039316d8ba074002"
-            }
-          ]
-        },
-        {
-          "id": "6c696cd1d82e2723-04",
-          "dblId": "6c696cd1d82e2723",
-          "relatedDbl": null,
-          "name": "Biblica® Open New Ukrainian Translation 2022",
-          "nameLocal": "Бібліка ® Відкрита Новий Переклад Українською 2022",
-          "abbreviation": "ONPU",
-          "abbreviationLocal": "ВНПУ",
-          "description": "New Testament",
-          "descriptionLocal": "Новий Заповіт",
-          "language": {
-            "id": "ukr",
-            "name": "Ukrainian",
-            "nameLocal": "Українська",
-            "script": "Cyrillic",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "UA",
-              "name": "Ukraine",
-              "nameLocal": "Ukraine"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-09-21T21:37:00.000Z",
-          "audioBibles": [
-            {
-              "id": "039316d8ba074002-01",
-              "name": "Biblica® Open New Ukrainian Translation™, Audio Edition",
-              "nameLocal": "Бібліка ® Відкрита Новий Переклад Українською™, Аудіовидання",
-              "dblId": "039316d8ba074002"
-            }
-          ]
-        },
-        {
-          "id": "95947b59d0434ae6-01",
-          "dblId": "95947b59d0434ae6",
-          "relatedDbl": null,
-          "name": "The New Testament in Munda Language",
-          "nameLocal": "ପାର୍‌ମେଶ୍ୱାର୍‌ଆଃ ଜୀନିଦ୍‌ ବାଚାନ୍‌, ନାୱା ନିୟାମ୍‌",
-          "abbreviation": "NTRuu20",
-          "abbreviationLocal": "NTRuu20",
-          "description": "The New Testament in Munda Language, 2020",
-          "descriptionLocal": "ପାର୍‌ମେଶ୍ୱାର୍‌ଆଃ ଜୀନିଦ୍‌ ବାଚାନ୍‌, ନାୱା ନିୟାମ୍‌ ,2020",
-          "language": {
-            "id": "unx",
-            "name": "Munda",
-            "nameLocal": "Munda",
-            "script": "Oriya",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T10:55:30.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "de0270810140edf9-01",
-          "dblId": "de0270810140edf9",
-          "relatedDbl": null,
-          "name": "Indian Revised Version (IRV) Urdu - 2019",
-          "nameLocal": "इंडियन रिवाइज्ड वर्जन (IRV) उर्दू - 2019",
-          "abbreviation": "IRVUrd",
-          "abbreviationLocal": "IRVUrd",
-          "description": "Urdu Bible for All",
-          "descriptionLocal": "Urdu Bible for All",
-          "language": {
-            "id": "urd",
-            "name": "Urdu",
-            "nameLocal": "اردو",
-            "script": "Devanagari",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-09-22T00:01:40.000Z",
-          "audioBibles": [
-            {
-              "id": "9e11d376e401469c-01",
-              "name": "Urdu Indian Revised Version (IRV)",
-              "nameLocal": "Urdu Indian Revised Version (IRV)",
-              "dblId": "9e11d376e401469c"
-            }
-          ]
-        },
-        {
-          "id": "3c6b77ab417420c5-01",
-          "dblId": "3c6b77ab417420c5",
-          "relatedDbl": null,
-          "name": "Urdu Geo Version (Hindi Script)",
-          "nameLocal": "किताबे-मुक़द्दस",
-          "abbreviation": "urdgvh",
-          "abbreviationLocal": "URDGVH",
-          "description": "common",
-          "descriptionLocal": "common",
-          "language": {
-            "id": "urd",
-            "name": "Urdu",
-            "nameLocal": "اردو",
-            "script": "Devanagari",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "PK",
-              "name": "Pakistan",
-              "nameLocal": "Pakistan"
-            },
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2023-11-30T09:16:28.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "4b2019a039084853-01",
-          "dblId": "4b2019a039084853",
-          "relatedDbl": null,
-          "name": "Urdu Geo Version (Roman Script)",
-          "nameLocal": "Kitab-i Muqaddas",
-          "abbreviation": "urdgvr",
-          "abbreviationLocal": "GVR",
-          "description": "Common",
-          "descriptionLocal": "Common",
-          "language": {
-            "id": "urd",
-            "name": "Urdu",
-            "nameLocal": "اردو",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "PK",
-              "name": "Pakistan",
-              "nameLocal": "Pakistan"
-            },
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2023-11-30T21:16:37.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "2a1480cfb6f181d7-01",
-          "dblId": "2a1480cfb6f181d7",
-          "relatedDbl": null,
-          "name": "Urdu Geo Version, Urdu Script",
-          "nameLocal": "ہولی بائبل کا اردو جیو ورژن",
-          "abbreviation": "urdgvu",
-          "abbreviationLocal": "URDGVU",
-          "description": "Common",
-          "descriptionLocal": "عام",
-          "language": {
-            "id": "urd",
-            "name": "Urdu",
-            "nameLocal": "اردو",
-            "script": "Code for uncoded script",
-            "scriptDirection": "RTL"
-          },
-          "countries": [
-            {
-              "id": "PK",
-              "name": "Pakistan",
-              "nameLocal": "Pakistan"
-            },
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-09-21T19:45:01.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "e01f11e9b4b8e338-01",
-          "dblId": "e01f11e9b4b8e338",
-          "relatedDbl": null,
-          "name": "Sob Jonah and Luke",
-          "nameLocal": "Profet Yonab / Dora Nama Lukede Feiaga",
-          "abbreviation": "SobP15",
-          "abbreviationLocal": "SobP15",
-          "description": "Sob Portions 15",
-          "descriptionLocal": "Sob Portions",
-          "language": {
-            "id": "urw",
-            "name": "Sop",
-            "nameLocal": "Sob Dora",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "PG",
-              "name": "Papua New Guinea",
-              "nameLocal": "Papua New Guinea"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T15:12:27.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "c35c4b5c6fa88595-01",
-          "dblId": "c35c4b5c6fa88595",
-          "relatedDbl": null,
-          "name": "Waghri New Testament",
-          "nameLocal": "ದೇವ್ನಿ ಖ್ಹಾಚಿ ವಚನ್",
-          "abbreviation": "NTWVe23",
-          "abbreviationLocal": "NTWVe23",
-          "description": "The New Testament in Waghri Language",
-          "descriptionLocal": "ದೇವ್ನಿ ಖ್ಹಾಚಿ ವಚನ್, ನವಿ ಒಪ್ಪಂದಾನ, 2023",
-          "language": {
-            "id": "vaa",
-            "name": "Vaagri Booli",
-            "nameLocal": "Vaagri Booli",
-            "script": "Kannada",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2023-08-31T21:25:26.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "3d4ad27248561990-01",
-          "dblId": "3d4ad27248561990",
-          "relatedDbl": null,
-          "name": "The Vagiri New Testament",
-          "nameLocal": "పవిత్ర్ బైబిల్‍, నవూ నిబంధన్,",
-          "abbreviation": "NTVII24",
-          "abbreviationLocal": "NTVII24",
-          "description": "The Vagiri New Testament.2024",
-          "descriptionLocal": "పవిత్ర్ బైబిల్‍, నవూ నిబంధన్, 2024",
-          "language": {
-            "id": "vgr",
-            "name": "Vaghri",
-            "nameLocal": "Vaghri",
-            "script": "Telugu",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "IN",
-              "name": "India",
-              "nameLocal": "India"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2024-01-11T09:15:40.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "c2d40ebca6db1ec5-01",
-          "dblId": "c2d40ebca6db1ec5",
-          "relatedDbl": null,
-          "name": "The New Testament and Old Testament Books in Vidunda",
-          "nameLocal": "Ilagano Linyale kwa Wanhu Weng'ha na Ilagano lya Katali kuli Chividunda",
-          "abbreviation": "Vidunda",
-          "abbreviationLocal": "Chividunda",
-          "description": "New testament and Old Testament books",
-          "descriptionLocal": "Ilagano Linyale kwa Wanhu Weng'ha na Ilagano lya Katali",
-          "language": {
-            "id": "vid",
-            "name": "Vidunda",
-            "nameLocal": "Chividunda",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "TZ",
-              "name": "Tanzania, United Republic of",
-              "nameLocal": "Tanzania, United Republic of"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2023-08-14T21:23:28.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "5cc7093967a0a392-01",
-          "dblId": "5cc7093967a0a392",
-          "relatedDbl": null,
-          "name": "Biblica® Open Vietnamese Contemporary Bible 2015",
-          "nameLocal": "Biblica® Thiên Ban Kinh Thánh Hiện Đại",
-          "abbreviation": "OVCB",
-          "abbreviationLocal": "OVCB",
-          "description": "Protestant Bible",
-          "descriptionLocal": "Kinh Thánh",
-          "language": {
-            "id": "vie",
-            "name": "Vietnamese",
-            "nameLocal": "Tiếng Việt",
-            "script": "Code for inherited script",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "VN",
-              "name": "Viet Nam",
-              "nameLocal": "Viet Nam"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T08:19:22.000Z",
-          "audioBibles": [
-            {
-              "id": "33e4ffc968884850-01",
-              "name": "Biblica® Open Vietnamese Contemporary Bible™, Audio Edition",
-              "nameLocal": "Biblica® Thiên Ban Kinh Thánh Hiện Đại™, Bảng Đọc Kinh Thánh",
-              "dblId": "33e4ffc968884850"
-            }
-          ]
-        },
-        {
-          "id": "1b878de073afef07-02",
-          "dblId": "1b878de073afef07",
-          "relatedDbl": null,
-          "name": "Vietnamese Bible (1934)",
-          "nameLocal": "Kinh Thánh",
-          "abbreviation": "vie1934",
-          "abbreviationLocal": "VIE1934",
-          "description": "New Testament",
-          "descriptionLocal": "Di chúc mới",
-          "language": {
-            "id": "vie",
-            "name": "Vietnamese",
-            "nameLocal": "Tiếng Việt",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "VN",
-              "name": "Viet Nam",
-              "nameLocal": "Viet Nam"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-07-08T15:06:13.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "1b878de073afef07-01",
-          "dblId": "1b878de073afef07",
-          "relatedDbl": null,
-          "name": "Vietnamese Bible (1934)",
-          "nameLocal": "Kinh Thánh",
-          "abbreviation": "vie1934",
-          "abbreviationLocal": "VIE1934",
-          "description": "common",
-          "descriptionLocal": "chung",
-          "language": {
-            "id": "vie",
-            "name": "Vietnamese",
-            "nameLocal": "Tiếng Việt",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "VN",
-              "name": "Viet Nam",
-              "nameLocal": "Viet Nam"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-09-21T19:24:35.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "9d34f37a5e8e0bf5-01",
-          "dblId": "9d34f37a5e8e0bf5",
-          "relatedDbl": null,
-          "name": "Ngoni New Testament",
-          "nameLocal": "Ngoni New Testament",
-          "abbreviation": "NNT2020",
-          "abbreviationLocal": "NNT2020",
-          "description": "Ngoni New Testament 2020",
-          "descriptionLocal": "Ngoni New Testament 2020",
-          "language": {
-            "id": "xnj",
-            "name": "Ngoni (Tanzania)",
-            "nameLocal": "Ngoni (Tanzania)",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "TZ",
-              "name": "Tanzania, United Republic of",
-              "nameLocal": "Tanzania, United Republic of"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-09-21T22:43:47.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "afe8f67d8ba9025c-01",
-          "dblId": "afe8f67d8ba9025c",
-          "relatedDbl": null,
-          "name": "Yalunka Bible",
-          "nameLocal": "Kisin Kiraan Kitabuna",
-          "abbreviation": "Yalunka",
-          "abbreviationLocal": "Kitabuna",
-          "description": "Yalunka Bible",
-          "descriptionLocal": "Kitabuna",
-          "language": {
-            "id": "yal",
-            "name": "Yalunka",
-            "nameLocal": "Yalunka",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "GN",
-              "name": "Guinea",
-              "nameLocal": "Guinea"
-            },
-            {
-              "id": "SL",
-              "name": "Sierra Leone",
-              "nameLocal": "Sierra Leone"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-09-21T23:11:43.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "6fc8bb188318063d-01",
-          "dblId": "6fc8bb188318063d",
-          "relatedDbl": null,
-          "name": "Yao New Testament",
-          "nameLocal": "Lilangano lya Sambano",
-          "abbreviation": "YNT2018",
-          "abbreviationLocal": "YNT2018",
-          "description": "New Testament in the Yao language of Tanzania 2018",
-          "descriptionLocal": "Lilangano lya Sambano 2018",
-          "language": {
-            "id": "yao",
-            "name": "Yao",
-            "nameLocal": "Chiyawo",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "TZ",
-              "name": "Tanzania, United Republic of",
-              "nameLocal": "Tanzania, United Republic of"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T09:09:38.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "8a448a0135a6a70a-01",
-          "dblId": "8a448a0135a6a70a",
-          "relatedDbl": null,
-          "name": "Yapese Bible",
-          "nameLocal": "Bible Ni Thothup",
-          "abbreviation": "yap",
-          "abbreviationLocal": "YAP",
-          "description": "common",
-          "descriptionLocal": "common",
-          "language": {
-            "id": "yap",
-            "name": "Yapese",
-            "nameLocal": "Yapese",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "FM",
-              "name": "Micronesia, Federated States of",
-              "nameLocal": "Micronesia, Federated States of"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T10:22:20.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "b8d1feac6e94bd74-01",
-          "dblId": "b8d1feac6e94bd74",
-          "relatedDbl": null,
-          "name": "Biblica® Open Yoruba Contemporary Bible 2017",
-          "nameLocal": "Biblica® ní oore ọ̀fẹ́ láti lo Bíbélì Mímọ́ ní Èdè Yorùbá Òde-Òní™",
-          "abbreviation": "OYCB",
-          "abbreviationLocal": "BMYO",
-          "description": "Protestant Bible",
-          "descriptionLocal": "Bíbélì Mímọ́",
-          "language": {
-            "id": "yor",
-            "name": "Yoruba",
-            "nameLocal": "Yorùbá",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "NG",
-              "name": "Nigeria",
-              "nameLocal": "Nigeria"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T12:57:24.000Z",
-          "audioBibles": [
-            {
-              "id": "2691a33c58f144c3-01",
-              "name": "Biblica® Open Yoruba Contemporary Bible, Audio Edition",
-              "nameLocal": "Biblica® ní oore ọ̀fẹ́ láti lo Bíbélì Mímọ́ ní Èdè Yorùbá Òde-Òní™, Ẹ̀dà Aláfetígbó",
-              "dblId": "2691a33c58f144c3"
-            }
-          ]
-        },
-        {
-          "id": "7e7a704dd32c4280-01",
-          "dblId": "7e7a704dd32c4280",
-          "relatedDbl": null,
-          "name": "The New Testament in Zaramo",
-          "nameLocal": "Lagano da Isambi da Mndewa na Mkombola Wetu Yesu Kilisto",
-          "abbreviation": "Kizalamo",
-          "abbreviationLocal": "Kizalamo",
-          "description": "New Testament in Zaramo",
-          "descriptionLocal": "Lagano da Isambi Muulonzi wa Kizalamo",
-          "language": {
-            "id": "zaj",
-            "name": "Zaramo",
-            "nameLocal": "Kizalamo",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "TZ",
-              "name": "Tanzania, United Republic of",
-              "nameLocal": "Tanzania, United Republic of"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2023-04-27T21:15:32.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "828bd246c8dfd883-01",
-          "dblId": "828bd246c8dfd883",
-          "relatedDbl": null,
-          "name": "Zaramo Bible",
-          "nameLocal": "Bibilia ya Kizalamo",
-          "abbreviation": "Kizalamo",
-          "abbreviationLocal": "Kizalamo",
-          "description": "Zaramo Bible",
-          "descriptionLocal": "Bibilia ya Kizalamo",
-          "language": {
-            "id": "zaj",
-            "name": "Zaramo",
-            "nameLocal": "Kizalamo",
-            "script": "Latin",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "TZ",
-              "name": "Tanzania, United Republic of",
-              "nameLocal": "Tanzania, United Republic of"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2023-05-23T21:15:57.000Z",
-          "audioBibles": []
-        },
-        {
-          "id": "c9f3cf58d557a9f3-01",
-          "dblId": "c9f3cf58d557a9f3",
-          "relatedDbl": null,
-          "name": "The New Testament in Zigua",
-          "nameLocal": "Lagano hya",
-          "abbreviation": "ZiBT",
-          "abbreviationLocal": "ZiBT",
-          "description": "Zigua NT",
-          "descriptionLocal": "Zigua NT",
-          "language": {
-            "id": "ziw",
-            "name": "Zigua",
-            "nameLocal": "Zigula",
-            "script": "Roman",
-            "scriptDirection": "LTR"
-          },
-          "countries": [
-            {
-              "id": "TZ",
-              "name": "Tanzania",
-              "nameLocal": "Tanzania"
-            }
-          ],
-          "type": "text",
-          "updatedAt": "2022-01-07T00:17:56.000Z",
-          "audioBibles": []
-        }
-      ]
-    };
-    return bibles.data.map(obj => { return { id: obj.id, name: obj.name, nameLocal: obj.nameLocal, language: obj.language, countries: obj.countries } });
-
-  }
-
-
-}
-async function fetchBibleVersesFromBibleCom() {
-  type version = { id: string, usfm: string, lang: string };
-
-  let frVersionLouisSegond: version = { id: '93', usfm: 'LSG', lang: "en" },
-    arVersionEgypt: version = { id: '13', usfm: 'AVD', lang: 'en' },
-    enVersion: version = { id: '13', usfm: 'AVD', lang: 'en' };
-
-  var entireBible: Bible = [];
-  // await fetchEntireBibleVersion(arVersionEgypt, entireBible, 'AR');
-  await fetchEntireBibleVersion(frVersionLouisSegond, entireBible, 'FR');
-
-  console.log(entireBible);
-
-
-
-  async function fetchEntireBibleVersion(version: version, bible, lang: string) {
-   getBibleBooksList(lang)
-      .map(async bookKeys => {
-        let chapters: bibleChapter[] = [];
-        bookKeys.chapters
-          .map(async chapterNumber => {
-            if (chapterNumber.includes('INTRODUCTION') || chapterNumber.toUpperCase() === bookKeys.human.toUpperCase()) chapterNumber = 'INTRO1';
-
-            await fetchBookChapter(bookKeys, chapterNumber, version, chapters);
-          });
-        bible.push(chapters)
-      })
-
-  }
-
-  async function fetchBookChapter(bookList: bibleBookKeys, chapterNumber: string, version: version, chapters: bibleChapter[]) {
-
-    let parser = new DOMParser();
-    let request = sendHttpRequest({
-      url: getURL(version.lang, version.id, version.usfm, bookList.usfm, chapterNumber),
-      method: 'GET',
-      accept: 'application/json',
-      body: 'versionId=' + version.id + '&usfm=' + bookList.usfm + '.' + chapterNumber + '.' + version.usfm,
-      onLoad: requestOnload
-    });
-    function requestOnload() {
-      let chapterText = request.responseText.replaceAll('\\"', '"');
-      let parsed = parser.parseFromString(chapterText, 'text/html');
-
-      let spans = Array.from(parsed.querySelectorAll('span'))
-        .filter(span => span.classList.contains('verse'));
-
-      let label: HTMLSpanElement;
-
-      let verses: bibleVerse[] = spans.map(span => {
-        label = span.querySelector('.label') as HTMLSpanElement;
-        if (!label) return ['\n'];
-        return [
-          label.innerText,
-          Array.from(span.querySelectorAll('.content') as NodeListOf<HTMLSpanElement>)
-            .map(span => span.innerText).join('')
-        ]
-      }
-      );
-
-      chapters.push(verses);
-
-    };
-  }
-
-
-  function getURL(lang: string, bibleID: string, bibleUsfm: string, bookID: string, chapterNumber: string): string {
-
-    let chapter: string = bookID + '.' + chapterNumber + '.' + bibleUsfm;
-
-    return 'https://www.bible.com/_next/data/nogh7EKJmNa2jhmizj0rV/' + lang + '/bible/' + bibleID + '/' + chapter + '.json?versionId=' + bibleID + '&usfm=' + chapter
-  }
-
-}
-
-
-/**
- * Returns the text of the specified chapter of the specified book of the specified version of the Bible
- * @param {[string, stirng[][]][][]} bible - the array containing all the books and chapters of the Bible in a given language
- * @param {string} bookName - the initials of a given book of bibleVersion
- * @param {string} chapterNumber - the number of the chapter of the book specified in bookName
- */
-function getBibleChapterText(args: { book?: bibleBook, bible?: Bible, bookName?: string, chapterNumber: string }): string {
-  if (!args.chapterNumber) return '';
-  if (args.book)
-    return joinVerses(args.book[1][args.book[0].chaptersList.indexOf(args.chapterNumber)]);
-  else if (args.bible && args.bookName)
-    return joinVerses(getBibleChapterVerses(args.bible, args.bookName, args.chapterNumber));
-  else return '';
-
-  function joinVerses(verses: bibleVerse[]): string {
-    if (!verses) return '';
-    return  verses.map(verse => verse.join('')).join('')
-    
-  }
-}
-
-/**
- * Returns a string[] representing a verse of the specified chapter of the specified book of the specified version of the Bible. The 1st element of the string[] is the verse number, while the 2nd element is the verse text
- * @param {[string, stirng[][]][][]} bible - the array containing all the books and chapters of the Bible in a given language
- * @param {string} bookName - the initials of a given book of bibleVersion
- * @param {string} chapterNumber - the number of the chapter of the book specified in bookName
- * @param {string} verseNumber - the number of the verse to be retrieved
- */
-function getBibleVerse(bible: Bible, bookName: string, chapterNumber: string, verseNumber: string): string[] {
-  return getBibleChapterVerses(bible, bookName, chapterNumber).find(verse => verse[0] === verseNumber)
-}
-
-/**
-  * Returns an array of [string, string[][]] where the string[][] element represents all the verses of the specified chapter of the specified book of the specified version of the Bible. Each verse is a string[] where the 1st element is the verse number, and the 2nd element is the verse text 
-  * @param {[string, stirng[][]][][]} bible - the array containing all the books and chapters of the Bible in a given language
-  * @param {string} bookName - the initials of a given book of bibleVersion
-  * @param {string} chapterNumber - the number of the chapter of the book specified in bookName
-  */
-function getBibleChapterVerses(bible: Bible, bookName: string, chapterNumber: string): string[][] {
-  let book = getBibleBook(bible, bookName);
-  if (!book) return;
-  return book[1][book[0].chaptersList.indexOf(chapterNumber)];
-}
-/**
-   * Returns an array of [string, string[][]][] representing an entire book of the specified bibleVersion 
-   * @param {[string, stirng[][]][][]} bible - the array containing all the books and chapters of the Bible in a given language
-   * @param {string} bookName - the initials of a given book of bibleVersion
-   */
-function getBibleBook(bible: Bible, bookName: string): bibleBook {
-  return bible.find(book => book[0].usfm.startsWith(bookName))
-}
-
-function getBibleBooksList(lang: string): bibleBookKeys[] {
-  let Bibles = {
-    AR: BibleAR,
-    FR: BibleFR,
-    EN: BibleEN
-  }
-  if (!Bibles[lang]) {
-    alert('The Bibles files have not been loaded yet, please try again later');
-    return
-  };
-  
-  return Bibles[lang].map(book => book[0]);
-}
-
-function arrangeBibleChapters(bible) {
-  return bible.map(book => {
-
-    let newBook = [];
-
-    let intro = book.filter(chapter=>!/\.\d/.test(chapter[0]));
-    
-    if (intro.length>0) console.log('intro = ', intro);
-    if (intro) newBook.push(...intro);
-    
-    
-    for (let i = 0; i <= book.length; i++){
-      let chapter = book.find(chapter => chapter[0].endsWith('.' + i.toString()));
-      if (!chapter ||newBook.includes(chapter)) continue;
-      console.log('chapter ', chapter);
-        newBook.push(chapter); 
-    }
-    console.log(newBook);
-    return newBook
-    
-  })
-}
-
-function rebuildBible(lang:string) {
-  let Bibles = {
-    AR: BibleAR,
-    FR: BibleFR,
-    EN: BibleEN,
-  }
   let bible = Bibles[lang];
-  let booksList = getBibleBooksList(lang);
-  let booksNames = booksList.map(book => book.usfm);
-  let book: bibleBook, list: bibleBookKeys;
-  type chapter = [{ usfm: string, human: string, human_long: string, chaptersList: string[] }, chapters: bibleVerse[][]];
 
-  let newBible:chapter[] =
-    booksNames.map(bookName => {
-      book = bible.find(book => book[0][0].startsWith(bookName + '.'));
-      list = booksList.find(book => book.usfm === bookName);
-      let chapters = book.map(chapter => chapter[1]);
-      return [
-        {
-          usfm: list.usfm,
-          human: list.human,
-          human_long: list.human_long,
-          chaptersList: list.chapters
-        },
-        chapters
-      ];
+  if (!bible) bible = Bibles[prompt('Provide the langauge', "AR, FR, EN")];
+  if (!bible) return alert('Could not retrieve the Bible');
+  let booksList = getBibleBooksList(defaultLanguage).map(book => [book.human_long, book.usfm]);
+
+  let select = document.createElement('select');
+  select.id = 'insertReadingText';
+  select.addEventListener('change', () => onChangeSelection(htmlParag));
+  select.classList.add('Modal');
+
+  booksList.forEach(book => {
+    let option = document.createElement('option');
+    option.value = book[1];
+    option.innerText = book[0];
+    select.options.add(option);
   });
-  console.log('newBible = ', newBible);
-  return newBible
+
+  containerDiv.insertAdjacentElement('beforebegin', select);
+
+  function onChangeSelection(parag: HTMLElement) {
+    let chapterNumber = prompt("Provide the chapter number");
+    if (!chapterNumber) return;
+    //chapterNumber = (Number(chapterNumber) - 1).toString();
+    //if (!chapterNumber) return;
+    let chapter = getBibleChapter(chapterNumber, undefined, bible, select.selectedOptions[0].value);
+    select.remove();
+    if (!chapter) return console.log('Couldn\'t retrieve the chapter');
+    let numbers = prompt("Provide verses numbers. If you want all the verses to the end, use \"End\" for the last verse");
+    if (!numbers || !numbers.includes(',')) return alert('You didn\'t provide valide numbers.You must proide only 2 verses numbers spearated by \',\'');
+    numbers = numbers.replaceAll(' ', '');
+    let verses = numbers.split(',');
+    if (verses.length !== 2) return alert('You must proide only 2 verses numbers spearated by \',\'');
+    if (verses[1] === 'End') verses[1] = (chapter.length).toString();
+    let firstVerse: bibleVerse = chapter.find(verse => verse[0] === verses[0]);
+    if (!firstVerse) return alert('Couldn\'t find the first verse');
+    let lastVerse: bibleVerse = chapter.find(verse => verse[0] === verses[1]);
+    if (!lastVerse) return alert('Couldn\'t find the last verse');
+
+    parag.innerText =
+      chapter.slice(chapter.indexOf(firstVerse), chapter.indexOf(lastVerse) + 1)
+        .map(verse => verse.join(''))
+        .join('')
+        .replaceAll('#', '');
+  }
+}
+/**
+ * Fetches any book of a given version of the Bible, if this book has no chapters (i.e., if book[1] = [])
+ * @param {string|number} id - the id of the bible.com version from which the book will be retrieved
+ * @param {string} lang - the language of the bible version in which we will search for books with empty chapters or, if usfm is provided, for the book with book[0].usfm === usfm
+ * @param {string} usfm - the usfm property of the book. If not omitted, only the book having as book[0].usfm property the same usfm, will be fetched 
+ */
+async function _replaceBooksInBible(id: string | number, lang: string, usfm?: string[]) {
+  let Bible: Bible = Bibles[lang], retrieved: bibleBook[];
+  usfm = ['ESG', 'DAG', 'SIR', 'WIS', 'BAR'];
+  for (let book of Bible) {
+    if (book[1].length > 0) continue;
+    if (usfm && !usfm.includes(book[0].usfm)) continue;
+    retrieved = await fetchBook(id, lang, book[0].usfm);
+    Bible[Bible.indexOf(book)] = retrieved[0];
+  }
+  return Bible
+  async function fetchBook(id, lang, usfm): Promise<bibleBook[]> {
+    return await _fetchBibleVersesFromBibleCom(id, lang, usfm);
+  }
+}
+/**
+ * Fetches an entire Bible version or a specific book from bible.com
+ * @param {string|number} id - the id of the Bible version as defined by bible.com
+ * @param {string} lang - the language of the version ('AR', 'FR', 'EN', etc.)
+ * @param {string} bookUsfm - the usfm of the book that needs to be fetched.
+ */
+async function _fetchBibleVersesFromBibleCom(id: number | string, lang: string, bookUsfm?: string): Promise<bibleBook[]> {
+  type version = { name: string, id: string, usfm: string, lang: string };
+  let versions: version[] =
+    [
+      { name: 'French Louis Segond', id: '93', usfm: 'LSG', lang: "en" },
+      { name: 'French New Louis Segond', id: '104', usfm: 'NBS', lang: "en" },
+      { name: 'French Louis Segond 21', id: '152', usfm: 'S21', lang: "en" },
+      { name: 'French Craponne', id: '504', usfm: 'BCC1923', lang: "en" },
+      { name: 'ترجمة دار الكتاب المقدس مصر', id: '13', usfm: 'AVD', lang: 'en' },
+      { name: 'الترجمة العربية المشتركة مع الكتب اليونانية', id: '1665', usfm: 'المشتركة', lang: 'en' },
+    ];
+
+  let entireBible: bibleBook[] | bibleVerse[][][] = await _fetchEntireBibleVersion(versions.find(v => v.id === id.toString() || v.usfm === id), lang, bookUsfm) as bibleVerse[][][];
+
+  entireBible = entireBible.filter(book => book && book.length > 0);
+
+  entireBible = _trimSpaces(_buildBooksFromChapters(entireBible, lang));
+
+  return entireBible;
+
+  async function _fetchEntireBibleVersion(version: version, lang: string, bookUsfm: string) {
+    let list = getBibleBooksList(lang);
+    let entireBible: bibleVerse[][][] = [];
+    if (bookUsfm) list = list.filter(book => book.usfm === bookUsfm);
+
+    for (let bookKeys of list) {
+      let book = await retrieveBook(bookKeys);
+      entireBible.push(book);
+    }
+    return entireBible;
+
+    async function retrieveBook(bookKeys: bibleBookKeys) {
+      let book: bibleVerse[][] = [];
+      for (let chapterNumber of bookKeys.chaptersList) {
+        let chapter = await retrieveChapter(chapterNumber, bookKeys);
+        book.push(chapter)
+      }
+      return book;
+
+
+      async function retrieveChapter(chapterNumber: string, bookKeys: bibleBookKeys) {
+        if (chapterNumber.includes('INTRODUCTION') || chapterNumber.toUpperCase() === bookKeys.human.toUpperCase()) chapterNumber = 'INTRO1';
+
+        const chapter: bibleVerse[] = await fetchBookChapter(bookKeys.usfm, chapterNumber, version);
+        return chapter;
+      }
+
+    }
+
+    async function fetchBookChapter(bookUsfm: string, chapterNumber: string, version: version) {
+
+      let init: RequestInit = {
+        method: 'GET',
+        headers:
+          { 'accept': 'application/json' },
+      }
+
+      let url = new URL(getURL(version.lang, version.id, version.usfm, bookUsfm, chapterNumber));
+
+      const response = await fetch(url, init);
+
+      if (!response.ok) {
+        console.log('response is not ok');
+        return
+      };
+
+      if (!response || response.status !== 200) {
+        console.log('Request failed: response stauts = ', response.status);
+        return
+      };
+
+      const json = await response.json();
+
+      if (!json || !json.pageProps || !json.pageProps.chapterInfo) return;
+      let jsonContent: string = json.pageProps.chapterInfo.content;
+
+      if (!jsonContent) return;
+      let parsed = new DOMParser().parseFromString(jsonContent, 'text/html');
+      if (!parsed) return [];
+
+      return extractChapterVerses(parsed);
+
+
+      //const chapter = await processResponse()
+
+      function extractChapterVerses(html: Document) {
+        let chapter: bibleVerse[] = []
+        if (!html) return;
+        console.log('html = ', html);
+        let div = html.querySelector('div.chapter');
+        if (!div || !div.children) return;
+        let paragraphs =
+          Array.from(div.children)
+            .filter(div => ['p', 'q', 'ipi'].map(x => div.classList.contains(x)).includes(true)) as HTMLDivElement[];
+
+        let spans: HTMLSpanElement[],
+          verses: bibleVerse[],
+          label: HTMLSpanElement,
+          content: string;
+
+        chapter.push([bookUsfm + '.' + chapterNumber]);
+
+        paragraphs.forEach(div => {
+          spans = Array.from(div.querySelectorAll('span.verse'));
+          verses =
+            spans.map(span => {
+              label = span.querySelector('span.label') as HTMLSpanElement;
+              content = Array.from(span.querySelectorAll('span.content')).map((span: HTMLSpanElement) => span.innerText).join('');
+
+              if (!label || !label.innerText || !content || !content) return [''];//It means this is not a verse
+
+              return [
+                label.innerText,
+                content,
+              ]//We are returning a verse
+            });
+          verses = verses.filter(verse => verse.length > 1);
+          chapter.push(...verses);//We push the verses to the chapter
+          chapter.push(['\n']); //We push a new paragraph mark after the pargraph div    
+        });
+        return chapter
+      }
+
+    }
+
+    function getURL(lang: string, bibleID: string, bibleUsfm: string, bookID: string, chapterNumber: string): string {
+
+      let chapter: string = bookID + '.' + chapterNumber + '.' + bibleUsfm, key: string = '04t0fWlBwn4WF71mJMTNU';
+
+      return 'https://www.bible.com/_next/data/' + key + '/' + lang + '/bible/' + bibleID + '/' + chapter + '.json?versionId=' + bibleID + '&usfm=' + chapter
+    }
+  }
+
+  function _trimSpaces(bible: bibleBook[]): bibleBook[] {
+    bible.filter(book => book && book.length === 2)
+      .forEach(book =>
+        book[1].forEach(ch =>
+          ch.forEach(verse => {
+            if (!verse[1]) return;
+            if (!verse[1].startsWith(' ')) return;
+            let index = ch.indexOf(verse);
+            if (ch[index - 1] && ch[index - 1].length === 1 && ch[index - 1][0] === '\n') verse[1] = verse[1].trimStart();
+            else if (!ch[index - 1]) verse[1] = verse[1].trimStart();
+          })
+        ));
+    return bible
+  }
+}
+
+
+function _buildBooksFromChapters(bible: bibleVerse[][][], lang: string): bibleBook[] {
+  let bookChapters: bibleVerse[][],
+    firstVerses: string[],
+    bookList: bibleBookKeys;
+
+  let bookLists = getBibleBooksList(lang);
+  if (!bookLists) return;
+
+  return bible.map(book => {
+    if (!book) {
+      console.log('Book is not valid or empt. Book index =', bible.indexOf(book));
+      return
+    };
+
+    bookChapters = book.filter(chapter => chapter && chapter.length > 0)//we remove null values
+
+    if (bookChapters.length < 1) return;
+
+    firstVerses = bookChapters.map(chapter => chapter[0]).filter(verse => verse && verse[0]).map(verse => verse[0]);
+
+    if (firstVerses.length < 1) return;
+
+    bookList = bookLists.find(list => firstVerses[0].startsWith(list.usfm + '.'));
+
+    if (!bookList) {
+      console.log('bookList not found for usfm: ', book[0][0][0]);
+      return
+    };
+    bookChapters.forEach(ch => ch.shift());
+    return [
+      {
+        usfm: bookList.usfm,
+        human: bookList.human,
+        human_long: bookList.human_long,
+        chaptersList: bookList.chaptersList
+      },
+      bookChapters
+    ] as bibleBook;
+
+
+  });
+}
+
+
+function _fixTobia(bible: Bible) {
+  bible.forEach(book => {
+    if (!book) return;
+    if (!['JDT', 'TOB', '1MA', '2MA'].includes(book[0].usfm)) return;
+    book[1] = book[1].map(chapt => chapt.filter(verse => verse.length > 1))
+
+  });
+  return bible;
+
+}
+
+async function _callFetchSynaxariumArabic() {
+  for (let i = 5; i < 8; i++) {
+    await _fetchSynaxariumArabic(i);
+  }
+  console.log(ReadingsArrays.SynaxariumArrayFR);
+}
+
+/**
+ * Fetches the Synaxarium text in French from https://coptipedia.com
+ */
+async function _fetchSynaxariumFrench(months: string[]) {
+  if (!months) months = ["50-toubah", "51-amshir", "52-baramhat"];
+
+  let table: string[][],
+    apiInitial: string =
+      "https://coptipedia.com/index.php/livre-1-les-temoins-de-la-foi/le-synaxaire/",
+    textContainer: HTMLElement,
+    text: string;
+
+  months.forEach(async (query) => {
+    let month = copticMonths
+      .indexOf(
+        copticMonths.filter(
+          (coptMonth) => coptMonth.FR.toLowerCase() === query.split("-")[1]
+        )[0]
+      )
+      .toString();
+    if (Number(month) < 10) month = "0" + month;
+    console.log("month =", month);
+    await processMonth(query, month);
+  });
+
+  async function processMonth(monthQuery: string, month) {
+    if (!month) return console.log("month is undefined = ", month);
+
+    let url = apiInitial + monthQuery + ".html"; //This will return an html page with links to all the days of the month. We will retrieve these links and fetch each of them in order to retrieve the text
+    let bodyText = await fetchURL(url);
+    if (!bodyText) return console.log("bodyText is undefined = ", bodyText);
+    return await processResponse(
+      new DOMParser().parseFromString(bodyText, "text/html"),
+      month,
+      monthQuery,
+      url
+    );
+  }
+
+  async function processResponse(
+    responseDoc: Document,
+    month: string,
+    monthQuery: string,
+    url: string
+  ) {
+    if (!responseDoc)
+      return console.log("responseDoc is undefined = ", responseDoc);
+    let anchors = responseDoc.querySelectorAll("a");
+
+    if (!anchors) return console.log("anchors is undefined = ", anchors);
+    let unique: Set<string> = new Set();
+    let i: number = 1;
+
+    Array.from(anchors)
+      .filter((link: HTMLAnchorElement) =>
+        link.href.includes(
+          "/index.php/livre-1-les-temoins-de-la-foi/le-synaxaire/" +
+          monthQuery +
+          "/"
+        )
+      )
+      .forEach(async (link) => {
+        if (unique.has(link.href)) return;
+        unique.add(link.href);
+        console.log(link.href);
+        let bodyText = await fetchURL(link.href);
+        if (!bodyText) return console.log("bodyText is undefined = ", bodyText);
+        let fetchedText = await editTableCell(bodyText, i++, month);
+        if (fetchedText) localStorage.fetchedText += fetchedText;
+      });
+  }
+
+  async function fetchURL(url: string) {
+    let response = await fetch(url);
+    return await response.text();
+  }
+  async function editTableCell(
+    bodyText: string,
+    i: number,
+    month: string
+  ): Promise<string | void> {
+    let day: string = i.toString();
+    if (i < 10) day = "0" + day;
+    console.log("day=", day, " and month =", month);
+    table = ReadingsArrays.SynaxariumArrayFR.filter((tbl) =>
+      tbl[0][0].includes("&D=" + day + month)
+    )[0];
+    console.log("table = ", table);
+    if (!table || !table[1]) return console.log("table is undefined", table);
+    if (table.length === 2)
+      table[1][1] = (await getText(
+        new DOMParser().parseFromString(bodyText, "text/html")
+      )) as string;
+    else
+      return await getText(
+        new DOMParser().parseFromString(bodyText, "text/html")
+      );
+  }
+
+  async function getText(responseDoc: Document): Promise<string | void> {
+    textContainer = responseDoc.querySelector(".article-content");
+    if (
+      !textContainer ||
+      !textContainer.children ||
+      textContainer.children.length === 0
+    )
+      return console.log("no textContainer = ", textContainer);
+    return textContainer.innerText;
+  }
+}
+
+/**
+ * Fetches the Synaxarium text from http://katamars.avabishoy.com/api/katamars/
+ */
+async function _fetchSynaxariumArabic(month: number) {
+  let tbl: string[][], daystring: string, monthstring: string;
+  let apiRoot = "http://katamars.avabishoy.com/api/Katamars/";
+  monthstring = month.toString();
+  if (month < 10) monthstring = "0" + monthstring;
+
+  for (let day = 1; day < 31; day++) {
+    daystring = day.toString();
+    if (day < 10) daystring = "0" + daystring;
+
+    tbl = ReadingsArrays.SynaxariumArrayFR.filter((tbl) =>
+      tbl[0][0].includes("&D=" + daystring + monthstring)
+    )[0];
+
+    if (!tbl || tbl.length === 0) return;
+
+    let synaxariumIndex = [
+      {
+        id: 1,
+        title: "عيد النيروز رأس السنة القبطية. - 1 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 1,
+        month: 1,
+      },
+      {
+        id: 2,
+        title: "تذكار شفاء أيوب الصدِّيق. - 1 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 1,
+        month: 1,
+      },
+      {
+        id: 3,
+        title: "استشهاد القديس برثولماوس الرسول - 1 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 1,
+        month: 1,
+      },
+      {
+        id: 4,
+        title:
+          "نياحة البابا ميليوس البطريرك الثالث من بطاركة الكرازة المرقسية - 1 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 1,
+        month: 1,
+      },
+      {
+        id: 5,
+        title:
+          "نياحة البابا مرقس الخامس البطريرك الثامن والتسعين من بطاركة الكرازة المرقسية - 1 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 1,
+        month: 1,
+      },
+      {
+        id: 6,
+        title: "استشهاد القديس يوحنا المعمدان - 2 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 2,
+        month: 1,
+      },
+      {
+        id: 7,
+        title: "استشهاد القديس داسيه الجُندي - 2 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 2,
+        month: 1,
+      },
+      {
+        id: 8,
+        title:
+          "اجتماع مجمع بمدينة الإسكندرية في عهد البابا ديونيسيوس بشأن خلود النفس - 3 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 3,
+        month: 1,
+      },
+      {
+        id: 9,
+        title: "نياحة القديسة ثيئودورة التائبة - 3 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 3,
+        month: 1,
+      },
+      {
+        id: 10,
+        title: "تذكار يشوع بن نون - 4 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 4,
+        month: 1,
+      },
+      {
+        id: 11,
+        title:
+          "نياحة البابا مكاريوس الثاني البطريرك التاسع والستون من بطاركة الكرازة المرقسية - 4 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 4,
+        month: 1,
+      },
+      {
+        id: 12,
+        title: "نياحة القديسة فيرينا - 4 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 4,
+        month: 1,
+      },
+      {
+        id: 13,
+        title: "استشهاد القديسة صوفيا - 5 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 5,
+        month: 1,
+      },
+      {
+        id: 14,
+        title: "استشهاد إشعياء النبي بن آموص - 6 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 6,
+        month: 1,
+      },
+      {
+        id: 15,
+        title: "استشهاد القديسة باشيلية أو باسيليا - 6 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 6,
+        month: 1,
+      },
+      {
+        id: 16,
+        title:
+          "نياحة البابا ديوسقوروس البطريرك الخامس والعشرين من بطاركة الكرازة المرقسية - 7 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 7,
+        month: 1,
+      },
+      {
+        id: 17,
+        title:
+          "نياحة البابا يوأنس الثاني عشر البطريرك الثالث والتسعين من بطاركة الكرازة المرقسية - 7 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 7,
+        month: 1,
+      },
+      {
+        id: 18,
+        title:
+          "استشهاد القديسة رفقة وأولادها الخمسة أغاثون وبطرس ويوحنا وآمون وآمونة - 7 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 7,
+        month: 1,
+      },
+      {
+        id: 19,
+        title: "نياحة القديس سوريانوس أسقف جبلة - 7 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 7,
+        month: 1,
+      },
+      {
+        id: 20,
+        title: "نياحة موسى النبي - 8 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 8,
+        month: 1,
+      },
+      {
+        id: 21,
+        title: "استشهاد زكريا الكاهن - 8 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 8,
+        month: 1,
+      },
+      {
+        id: 22,
+        title: "استشهاد القديس ديميدس القس - 8 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 8,
+        month: 1,
+      },
+      {
+        id: 23,
+        title: "استشهاد الأب القديس الأنبا بيسورة الأسقف - 9 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 9,
+        month: 1,
+      },
+      {
+        id: 24,
+        title: "استشهاد الأسقفين الجليلين بيلوس ونيليوس - 9 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 9,
+        month: 1,
+      },
+      {
+        id: 25,
+        title: "استشهاد القديسين يوأنس المصري وزملائه - 10 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 10,
+        month: 1,
+      },
+      {
+        id: 26,
+        title: "استشهاد القديسة مطرونة - 10 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 10,
+        month: 1,
+      },
+      {
+        id: 27,
+        title: "تذكار استشهاد القديسة باسين وأولادها الثلاثة - 10 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 10,
+        month: 1,
+      },
+      {
+        id: 28,
+        title: "استشهاد القديس واسيليدس الوزير - 11 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 11,
+        month: 1,
+      },
+      {
+        id: 29,
+        title: "استشهاد الثلاثة فلاحين بإسنا - 11 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 11,
+        month: 1,
+      },
+      {
+        id: 30,
+        title: "تذكار رئيس الملائكة الجليل ميخائيل - 12 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 12,
+        month: 1,
+      },
+      {
+        id: 31,
+        title: "تذكار انعقاد المجمع المسكوني بأفسس - 12 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 12,
+        month: 1,
+      },
+      {
+        id: 32,
+        title: "نقل أعضاء القديسين إقليمس وأصحابه - 12 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 12,
+        month: 1,
+      },
+      {
+        id: 33,
+        title:
+          "تذكار الأعجوبة التي صنعها القديس باسيليوس الكبير أسقف قيصارية الكبادوك - 13 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 13,
+        month: 1,
+      },
+      {
+        id: 34,
+        title:
+          "نياحة البابا متاؤس الثاني البطريرك التسعين من بطاركة الكرازة المرقسية - 13 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 13,
+        month: 1,
+      },
+      {
+        id: 35,
+        title: "نياحة القديس أغاثون العمودي - 14 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 14,
+        month: 1,
+      },
+      {
+        id: 36,
+        title:
+          "استشهاد القديس فيلكس وريجولا أخته والقديس أكسيوبرانتيوس - 14 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 14,
+        month: 1,
+      },
+      {
+        id: 37,
+        title: "نقل جسد القديس إسطفانوس - 15 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 15,
+        month: 1,
+      },
+      {
+        id: 38,
+        title: "نياحة الأنبا أثناسيوس القوصي - 15 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 15,
+        month: 1,
+      },
+      {
+        id: 39,
+        title: " تكريس كنيسة القيامة بأورشليم - 16 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 16,
+        month: 1,
+      },
+      {
+        id: 40,
+        title: "تذكار الاحتفال بالصليب المجيد في كنيسة القيامة - 17 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 17,
+        month: 1,
+      },
+      {
+        id: 41,
+        title: "استشهاد القديس قسطور القس - 17 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 17,
+        month: 1,
+      },
+      {
+        id: 42,
+        title: "نياحة القديسة ثاؤغنسطا - 17 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 17,
+        month: 1,
+      },
+      {
+        id: 43,
+        title: "نياحة القديس المعلم جرجس الجوهري - 17 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 17,
+        month: 1,
+      },
+      {
+        id: 44,
+        title: "ثاني يوم عيد الصليب - 18 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 18,
+        month: 1,
+      },
+      {
+        id: 45,
+        title: "استشهاد القديس بروفوريوس - 18 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 18,
+        month: 1,
+      },
+      {
+        id: 46,
+        title: "استشهاد القديس إسطفانوس القس والقديسة نيكيتي - 18 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 18,
+        month: 1,
+      },
+      {
+        id: 47,
+        title: "اليوم الثالث من أيام عيد الصليب المجيد - 19 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 19,
+        month: 1,
+      },
+      {
+        id: 48,
+        title: "تذكار إصعاد القديس غريغوريوس الأرمني من الجب - 19 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 19,
+        month: 1,
+      },
+      {
+        id: 49,
+        title: "نياحة القديسة ثاؤبستى - 20 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 20,
+        month: 1,
+      },
+      {
+        id: 50,
+        title:
+          "نياحة البابا أثناسيوس الثاني البطريرك الثامن والعشرين من بطاركة الكرازة المرقسية - 20 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 20,
+        month: 1,
+      },
+      {
+        id: 51,
+        title: "استشهاد القديسة ملاتينى العذراء - 20 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 20,
+        month: 1,
+      },
+      {
+        id: 52,
+        title: "تذكار والدة الإله القديسة مريم - 21 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 21,
+        month: 1,
+      },
+      {
+        id: 53,
+        title: "استشهاد القديس كبريانوس الأسقف والقديسة يوستينة - 21 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 21,
+        month: 1,
+      },
+      {
+        id: 54,
+        title: "استشهاد القديسين كوتلاس وأكسوا أخته وتاتاس صديقه - 22 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 22,
+        month: 1,
+      },
+      {
+        id: 55,
+        title:
+          "استشهاد القديس يوليوس الأقفهصى كاتب سِيَر الشهداء ومن معه - 22 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 22,
+        month: 1,
+      },
+      {
+        id: 56,
+        title: "استشهاد القديسين أونانيوس وأندراوس أخيه - 23 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 23,
+        month: 1,
+      },
+      {
+        id: 57,
+        title: "تذكار القديسة الشهيدة تكلا - 23 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 23,
+        month: 1,
+      },
+      {
+        id: 58,
+        title: "استشهاد القديس كودارتوس أحد السبعين رسولاً وتلميذاً - 24 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 24,
+        month: 1,
+      },
+      {
+        id: 59,
+        title: "نياحة القديس غريغوريوس الثيئولوغوس - 24 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 24,
+        month: 1,
+      },
+      {
+        id: 60,
+        title: "نياحة القديس غريغوريوس الراهب - 24 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 24,
+        month: 1,
+      },
+      {
+        id: 61,
+        title: "تذكار نياحة يونان النبي - 25 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 25,
+        month: 1,
+      },
+      {
+        id: 62,
+        title: "استشهاد القديس موريس قائد الفرقة الطيبية - 25 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 25,
+        month: 1,
+      },
+      {
+        id: 63,
+        title: "بشارة زكريا الكاهن بميلاد يوحنا المعمدان - 26 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 26,
+        month: 1,
+      },
+      {
+        id: 64,
+        title: "استشهاد القديس أسطاثيوس وولديه وزوجته - 27 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 27,
+        month: 1,
+      },
+      {
+        id: 65,
+        title:
+          "استشهاد القديسين أبادير وإيرائى ( بعض المصادر تذكر اسم إيرينى بدلاً من إيرائى) أخته - 28 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 28,
+        month: 1,
+      },
+      {
+        id: 66,
+        title: "تذكار الأعياد الثلاثة السيدية الكبرى - 29 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 29,
+        month: 1,
+      },
+      {
+        id: 67,
+        title: "استشهاد القديسة أربسيما ومن معها - 29 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 29,
+        month: 1,
+      },
+      {
+        id: 68,
+        title: "استشهاد القديسة فبرونيا - 29 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 29,
+        month: 1,
+      },
+      {
+        id: 69,
+        title:
+          "تذكار المعجزة التي صنعها الرب مع القديس أثناسيوس الرسولي - 30 توت",
+        date: null,
+        story: "",
+        selected: false,
+        day: 30,
+        month: 1,
+      },
+      {
+        id: 70,
+        title: "استشهاد القديسة أنسطاسيه - 1 بابه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 1,
+        month: 2,
+      },
+      {
+        id: 71,
+        title: "تذكار مجيء القديس ساويرس بطريرك أنطاكية إلى مصر - 2 بابه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 2,
+        month: 2,
+      },
+      {
+        id: 72,
+        title:
+          "نياحة البابا سيمون الثاني البطريرك الحادي والخمسون من بطاركة الكرازة المرقسية - 3 بابه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 3,
+        month: 2,
+      },
+      {
+        id: 73,
+        title: "استشهاد القديسين أورسوس وبقطر من الفرقة الطيبية - 3 بابه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 3,
+        month: 2,
+      },
+      {
+        id: 74,
+        title: "استشهاد القديس يوحنا الجُندي الأشروبي - 3 بابه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 3,
+        month: 2,
+      },
+      {
+        id: 75,
+        title: "نياحة القديسة ثيئودورا الملكة - 3 بابه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 3,
+        month: 2,
+      },
+      {
+        id: 76,
+        title: "استشهاد القديس واخس رفيق القديس سرجيوس - 4 بابه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 4,
+        month: 2,
+      },
+      {
+        id: 77,
+        title: "استشهاد القديس بولس بطريرك القسطنطينية - 5 بابه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 5,
+        month: 2,
+      },
+      {
+        id: 78,
+        title: "نياحة الأنبا بطرس أسقف البهنسا - 5 بابه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 5,
+        month: 2,
+      },
+      {
+        id: 79,
+        title: "نياحة الصديقة حَنَّة أم صموئيل النبي - 6 بابه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 6,
+        month: 2,
+      },
+      {
+        id: 80,
+        title: "نياحة القديس الأنبا بولا الطموهي - 7 بابه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 7,
+        month: 2,
+      },
+      {
+        id: 81,
+        title: "استشهاد القديس مطرا - 8 بابه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 8,
+        month: 2,
+      },
+      {
+        id: 82,
+        title: "استشهاد القديسين أباهور وطوسيا وأولادهما - 8 بابه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 8,
+        month: 2,
+      },
+      {
+        id: 83,
+        title: "نياحة القديس الأنبا أغاثون المتوحد - 8 بابه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 8,
+        month: 2,
+      },
+      {
+        id: 84,
+        title:
+          "نياحة البابا أومانيوس البطريرك السابع من بطاركة الكرازة المرقسية - 9 بابه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 9,
+        month: 2,
+      },
+      {
+        id: 85,
+        title: "تذكار استشهاد القديس سمعان الأسقف ورفقائه - 9 بابه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 9,
+        month: 2,
+      },
+      {
+        id: 86,
+        title: "استشهاد القديس سرجيوس رفيق واخس - 10 بابه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 10,
+        month: 2,
+      },
+      {
+        id: 87,
+        title: "نياحة الأنبا يعقوب بطريرك أنطاكية - 11 بابه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 11,
+        month: 2,
+      },
+      {
+        id: 88,
+        title: "نياحة القديسة بيلاجية التائبة - 11 بابه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 11,
+        month: 2,
+      },
+      {
+        id: 89,
+        title: "تذكار رئيس الملائكة الجليل ميخائيل - 12 بابه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 12,
+        month: 2,
+      },
+      {
+        id: 90,
+        title: "استشهاد القديس متى الإنجيلي المبشر - 12 بابه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 12,
+        month: 2,
+      },
+      {
+        id: 91,
+        title:
+          "نياحة البابا القديس ديمتريوس الكرام البطريرك الثاني عشر من بطاركة الكرازة المرقسية - 12 بابه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 12,
+        month: 2,
+      },
+      {
+        id: 92,
+        title: "نياحة القديس زكريا الراهب - 13 بابه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 13,
+        month: 2,
+      },
+      {
+        id: 93,
+        title: "نياحة القديس فيلبس أحد الشمامسة السبعة - 14 بابه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 14,
+        month: 2,
+      },
+      {
+        id: 94,
+        title: "استشهاد بندلائيمون الطبيب - 15 بابه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 15,
+        month: 2,
+      },
+      {
+        id: 95,
+        title:
+          "نياحة القديس البابا الأنبا أغاثون، البطريرك التاسع والثلاثون من بطاركة الكرازة المرقسية - 16 بابه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 16,
+        month: 2,
+      },
+      {
+        id: 96,
+        title: "تذكار القديسين كاربوس وأبولوس وبطرس - 16 بابه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 16,
+        month: 2,
+      },
+      {
+        id: 97,
+        title:
+          "نياحة البابا الأنبا ديوسقوروس الثاني البطريرك الحادي والثلاثين من بطاركة الكرازة المرقسية - 17 بابه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 17,
+        month: 2,
+      },
+      {
+        id: 98,
+        title:
+          "نياحة البابا القديس ثاؤفيلس البطريرك الثالث والعشرين من بطاركة الكرازة المرقسية - 18 بابه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 18,
+        month: 2,
+      },
+      {
+        id: 99,
+        title: "استشهاد القديس ثاؤفيلس وزوجته بالفيوم - 19 بابه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 19,
+        month: 2,
+      },
+      {
+        id: 100,
+        title: "عقد مجمع بأنطاكية لمحاكمة بولس الساموساطي - 19 بابه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 19,
+        month: 2,
+      },
+      {
+        id: 101,
+        title: "نياحة القديس يوحنا القصير - 20 بابه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 20,
+        month: 2,
+      },
+      {
+        id: 102,
+        title: "التذكار الشهري لوالدة الإله القديسة العذراء مريم - 21 بابه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 21,
+        month: 2,
+      },
+      {
+        id: 103,
+        title: "نياحة يوئيل النبي - 21 بابه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 21,
+        month: 2,
+      },
+      {
+        id: 104,
+        title: "نقل جسد لعازر حبيب الرب - 21 بابه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 21,
+        month: 2,
+      },
+      {
+        id: 105,
+        title: "نياحة القديس الأنبا رويس - 21 بابه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 21,
+        month: 2,
+      },
+      {
+        id: 106,
+        title: "استشهاد القديس لوقا الإنجيلي - 22 بابه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 22,
+        month: 2,
+      },
+      {
+        id: 107,
+        title: "استشهاد القديس ديونيسيوس أسقف كورنثوس - 23 بابه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 23,
+        month: 2,
+      },
+      {
+        id: 108,
+        title:
+          "نياحة البابا يوساب الأول البطريرك الثاني والخمسين من بطاركة الكرازة المرقسية - 23 بابه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 23,
+        month: 2,
+      },
+      {
+        id: 109,
+        title: "نياحة القديس إيلاريون الكبير الراهب - 24 بابه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 24,
+        month: 2,
+      },
+      {
+        id: 110,
+        title: "استشهاد القديسين بولس ولُونجينوس ودينة - 24 بابه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 24,
+        month: 2,
+      },
+      {
+        id: 111,
+        title: "نياحة القديس أبيب صديق القديس أبوللو - 25 بابه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 25,
+        month: 2,
+      },
+      {
+        id: 112,
+        title: "تكريس كنيسة الشهيد يوليوس الأقفهصي كاتب سير الشهداء - 25 بابه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 25,
+        month: 2,
+      },
+      {
+        id: 113,
+        title:
+          "استشهاد القديس تيمون الرسول، أحد السبعين، وأحد الشمامسة السبعة - 26 بابه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 26,
+        month: 2,
+      },
+      {
+        id: 114,
+        title: "تذكار السبعة الشهداء بجبل أنطونيوس - 26 بابه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 26,
+        month: 2,
+      },
+      {
+        id: 115,
+        title: "استشهاد القديس مكاريوس أسقف قاو - 27 بابه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 27,
+        month: 2,
+      },
+      {
+        id: 116,
+        title: "استشهاد القديسين مركيانوس ومركوريوس - 28 بابه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 28,
+        month: 2,
+      },
+      {
+        id: 117,
+        title:
+          'تذكار الأعياد الثلاثة السيدية " البشارة والميلاد والقيامة " - 29 بابه',
+        date: null,
+        story: "",
+        selected: false,
+        day: 29,
+        month: 2,
+      },
+      {
+        id: 118,
+        title: "استشهاد القديس ديمتريوس التسالونيكي - 29 بابه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 29,
+        month: 2,
+      },
+      {
+        id: 119,
+        title:
+          "نياحة البابا القديس غبريال السابع البطريرك الخامس والتسعين من بطاركة الكرازة المرقسية - 29 بابه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 29,
+        month: 2,
+      },
+      {
+        id: 120,
+        title:
+          "ظهور رأس القديس مار مرقس الإنجيلي الرسول، وتكريس كنيسته - 30 بابه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 30,
+        month: 2,
+      },
+      {
+        id: 121,
+        title: "نياحة القديس إبراهيم المنوفي المتوحد - 30 بابه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 30,
+        month: 2,
+      },
+      {
+        id: 122,
+        title: "استشهاد القديس كليوباس الرسول أحد تلميذي عمواس - 1 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 1,
+        month: 3,
+      },
+      {
+        id: 123,
+        title: "استشهاد القديس كيرياكوس أسقف أورشليم ووالدته - 1 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 1,
+        month: 3,
+      },
+      {
+        id: 124,
+        title: "استشهاد القديسين مكسيموس ونوميتيوس وبقطر وفيلبس - 1 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 1,
+        month: 3,
+      },
+      {
+        id: 125,
+        title: "استشهاد القديسة أنسطاسية الكبيرة، والقديس كيرلس - 1 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 1,
+        month: 3,
+      },
+      {
+        id: 126,
+        title:
+          "نياحة البابا بطرس الثالث البطريرك السابع والعشرين من بطاركة الكرازة المرقسية - 2 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 2,
+        month: 3,
+      },
+      {
+        id: 127,
+        title: "استشهاد القديس مقار الليـبي - 2 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 2,
+        month: 3,
+      },
+      {
+        id: 128,
+        title: "نياحة القديس أفراميوس الرهاوى - 2 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 2,
+        month: 3,
+      },
+      {
+        id: 129,
+        title: "استشهاد القديس أثناسيوس وأخته إيرينى - 3 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 3,
+        month: 3,
+      },
+      {
+        id: 130,
+        title: "استشهاد القديس أغاثون - 3 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 3,
+        month: 3,
+      },
+      {
+        id: 131,
+        title: "نياحة القديس كيرياكوس من أهل كورنثوس - 3 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 3,
+        month: 3,
+      },
+      {
+        id: 132,
+        title: "استشهاد القديسين يوحنا ويعقوب أسقفيّ فارس - 4 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 4,
+        month: 3,
+      },
+      {
+        id: 133,
+        title: "استشهاد الأنبا توماس الأسقف - 4 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 4,
+        month: 3,
+      },
+      {
+        id: 134,
+        title: "استشهاد القديسَيْن أبيماخوس وعزاريانوس - 4 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 4,
+        month: 3,
+      },
+      {
+        id: 135,
+        title: "ظهور رأس القديس لُونجينوس الجُندي - 5 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 5,
+        month: 3,
+      },
+      {
+        id: 136,
+        title: "استشهاد القديس تيموثاوس وزوجته مورا - 5 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 5,
+        month: 3,
+      },
+      {
+        id: 137,
+        title: "نقل جسد الأمير تادرس الشُطبى إلى بلدة شُطب - 5 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 5,
+        month: 3,
+      },
+      {
+        id: 138,
+        title: "نياحة القديس يوساب بجبل شامة - 5 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 5,
+        month: 3,
+      },
+      {
+        id: 139,
+        title:
+          "تذكار تكريس كنيسة القديسة العذراء – الأثرية – بدير المحرق العامر بجبل قسقام - 6 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 6,
+        month: 3,
+      },
+      {
+        id: 140,
+        title: "نياحة القديس فيلكس بابا رومية - 6 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 6,
+        month: 3,
+      },
+      {
+        id: 141,
+        title: "تكريس كنيسة الشهيد العظيم مار جرجس الروماني باللدّ - 7 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 7,
+        month: 3,
+      },
+      {
+        id: 142,
+        title: "استشهاد القديس مار جرجس الإسكندري - 7 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 7,
+        month: 3,
+      },
+      {
+        id: 143,
+        title: "استشهاد الأنبا نهروه - 7 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 7,
+        month: 3,
+      },
+      {
+        id: 144,
+        title: "استشهاد القديسين أكبسيما وإيتالا ويوسف - 7 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 7,
+        month: 3,
+      },
+      {
+        id: 145,
+        title: "نياحة القديس الأنبا مينا أسقف تمي الأمديد - 7 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 7,
+        month: 3,
+      },
+      {
+        id: 146,
+        title: "تذكار الأربعة مخلوقات الحية غير المتجسدين - 8 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 8,
+        month: 3,
+      },
+      {
+        id: 147,
+        title: "استشهاد القديس نيكاندروس كاهن ميرا - 8 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 8,
+        month: 3,
+      },
+      {
+        id: 148,
+        title: "نياحة الأب بيريّوس مدير مدرسة الإسكندرية اللاهوتية - 8 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 8,
+        month: 3,
+      },
+      {
+        id: 149,
+        title: "اجتماع مجمع نيقية المسكونى الأول - 9 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 9,
+        month: 3,
+      },
+      {
+        id: 150,
+        title:
+          "نياحة البابا إسحاق البطريرك الحادي والأربعين من بطاركة الكرازة المرقسية - 9 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 9,
+        month: 3,
+      },
+      {
+        id: 151,
+        title: "استشهاد العذارى الخمسين وأمهن - 10 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 10,
+        month: 3,
+      },
+      {
+        id: 152,
+        title:
+          "اجتماع مجمع بروما بسبب عيد الغطاس المجيد والصوم الكبير - 10 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 10,
+        month: 3,
+      },
+      {
+        id: 153,
+        title: "نياحة القديسة حَنّة والدة القديسة العذراء مريم - 11 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 11,
+        month: 3,
+      },
+      {
+        id: 154,
+        title: "استشهاد القديس ميخائيل الراهب - 11 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 11,
+        month: 3,
+      },
+      {
+        id: 155,
+        title: "استشهاد القديسَيْن أرشيلاؤس وأليشع القمص - 11 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 11,
+        month: 3,
+      },
+      {
+        id: 156,
+        title: "تذكار رئيس الملائكة الجليل ميخائيل رئيس جند الرب - 12 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 12,
+        month: 3,
+      },
+      {
+        id: 157,
+        title: "نياحة القديس يوحنا السرياني - 12 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 12,
+        month: 3,
+      },
+      {
+        id: 158,
+        title: "تذكار رئيس الملائكة الجليل جبرائيل - 13 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 13,
+        month: 3,
+      },
+      {
+        id: 159,
+        title:
+          "نياحة البابا الأنبا زخارياس البطريرك الرابع والستين من بطاركة الكرازة المرقسية - 13 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 13,
+        month: 3,
+      },
+      {
+        id: 160,
+        title: "استشهاد القديس تادرس تيرو - 13 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 13,
+        month: 3,
+      },
+      {
+        id: 161,
+        title: "نياحة الأنبا تيموثاوس أسقف أنصنا - 13 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 13,
+        month: 3,
+      },
+      {
+        id: 162,
+        title: "نياحة الأنبا يوساب بجبل الأساس - 13 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 13,
+        month: 3,
+      },
+      {
+        id: 163,
+        title: "نياحة القديس مرتينوس أسقف ثراكي - 14 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 14,
+        month: 3,
+      },
+      {
+        id: 164,
+        title: "استشهاد الضابط فاروس ومعلّميه - 14 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 14,
+        month: 3,
+      },
+      {
+        id: 165,
+        title: "استشهاد القديس مار مينا العجائبى - 15 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 15,
+        month: 3,
+      },
+      {
+        id: 166,
+        title: "نياحة القديس يوحنا الربان - 15 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 15,
+        month: 3,
+      },
+      {
+        id: 167,
+        title:
+          " بدء صوم الميلاد في كنيستنا القبطية الأرثوذكسية ( كانت مدة هذا الصوم أربعين يوماً، وأُضيفت إليه الثلاثة أيام التي صامها الإكليروس والشعب عند حدوث معجزة نقل جبل المقطم في عهد البابا أبرآم بن زرعة في القرن العاشر الميلادي، فأصبحت مدة الصوم 43 يوماً). - 16 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 16,
+        month: 3,
+      },
+      {
+        id: 168,
+        title: "تكريس كنيسة القديس أبى نُفر السائح - 16 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 16,
+        month: 3,
+      },
+      {
+        id: 169,
+        title: "استشهاد القديس يسطس الأسقف - 16 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 16,
+        month: 3,
+      },
+      {
+        id: 170,
+        title:
+          "نياحة البابا مينا الثاني البطريرك الحادي والستين من بطاركة الكرازة المرقسية - 16 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 16,
+        month: 3,
+      },
+      {
+        id: 171,
+        title: "نياحة القديس نيلس السينائى - 16 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 16,
+        month: 3,
+      },
+      {
+        id: 172,
+        title: "نياحة القديس يوحنا ذهبي الفم - 17 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 17,
+        month: 3,
+      },
+      {
+        id: 173,
+        title: "نياحة القديس بولس بجبل دنفيق - 17 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 17,
+        month: 3,
+      },
+      {
+        id: 174,
+        title: "استشهاد القديس فيلبس الرسول - 18 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 18,
+        month: 3,
+      },
+      {
+        id: 175,
+        title: "استشهاد القديستين أدروسيس ويوأنا - 18 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 18,
+        month: 3,
+      },
+      {
+        id: 176,
+        title: "تذكار معجزة نقل الجبل المقطم - 18 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 18,
+        month: 3,
+      },
+      {
+        id: 177,
+        title: "تكريس كنيسة سرجيوس وواخس – بالرصافة - 19 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 19,
+        month: 3,
+      },
+      {
+        id: 178,
+        title: "استشهاد القديس أبيبوس - 19 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 19,
+        month: 3,
+      },
+      {
+        id: 179,
+        title:
+          "نياحة القديس إنيانوس البطريرك الثاني من بطاركة الكرازة المرقسية - 20 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 20,
+        month: 3,
+      },
+      {
+        id: 180,
+        title:
+          "تكريس بيعتي الأمير تادرس الشُطبى والأمير تادرس المشرقي - 20 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 20,
+        month: 3,
+      },
+      {
+        id: 181,
+        title: "تذكار نياحة القديسة مريم العذراء والدة الإله - 21 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 21,
+        month: 3,
+      },
+      {
+        id: 182,
+        title: "نياحة القديس غريغوريوس العجائبى - 21 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 21,
+        month: 3,
+      },
+      {
+        id: 183,
+        title:
+          "نياحة البابا قسما الثاني البطريرك الرابع والخمسين من بطاركة الكرازة المرقسية - 21 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 21,
+        month: 3,
+      },
+      {
+        id: 184,
+        title: "نياحة القديس يوحنا التبايسي بجبل أسيوط - 21 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 21,
+        month: 3,
+      },
+      {
+        id: 185,
+        title:
+          "تذكار القديسين حلفا وزكا ورومانوس ويوحنا الشهداء. وتذكار القديسين توما وبقطر وإسحاق من الأشمونين - 21 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 21,
+        month: 3,
+      },
+      {
+        id: 186,
+        title:
+          "نقل جسد القديس الأنبا يحنس كاما من ديره إلى دير السريان - 21 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 21,
+        month: 3,
+      },
+      {
+        id: 187,
+        title: "استشهاد القديسين قزمان ودميان وإخوتهما وأمهما - 22 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 22,
+        month: 3,
+      },
+      {
+        id: 188,
+        title: "نياحة القديس كرنيليوس قائد المائة - 23 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 23,
+        month: 3,
+      },
+      {
+        id: 189,
+        title: "تذكار تكريس كنيسة القديسة مارينا الشهيدة - 23 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 23,
+        month: 3,
+      },
+      {
+        id: 190,
+        title: "تذكار الأربعة والعشرين قسيساً غير الجسدانيين - 24 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 24,
+        month: 3,
+      },
+      {
+        id: 191,
+        title: "استشهاد الأسقف نارسيس والقديسة تكلا - 24 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 24,
+        month: 3,
+      },
+      {
+        id: 192,
+        title: "نياحة البابا بروكلس بطريرك القسطنطينية - 24 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 24,
+        month: 3,
+      },
+      {
+        id: 193,
+        title: "استشهاد القديس مرقوريوس الشهير بأبي سيفين - 25 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 25,
+        month: 3,
+      },
+      {
+        id: 194,
+        title: "استشهاد القديس بالاريانوس وأخيه تيبورينوس - 26 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 26,
+        month: 3,
+      },
+      {
+        id: 195,
+        title: "نياحة القديس غريغوريوس النيصي أسقف نيصص - 26 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 26,
+        month: 3,
+      },
+      {
+        id: 196,
+        title: "استشهاد القديس يعقوب الفارسي المقطع - 27 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 27,
+        month: 3,
+      },
+      {
+        id: 197,
+        title: "تكريس كنيسة الشهيد بقطر بن رومانوس - 27 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 27,
+        month: 3,
+      },
+      {
+        id: 198,
+        title: "استشهاد القديس صرابامون أسقف نيقيوس - 28 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 28,
+        month: 3,
+      },
+      {
+        id: 199,
+        title:
+          'تذكار الأعياد الثلاثة السيدية الكبرى " البشارة والميلاد والقيامة " - 29 هاتور',
+        date: null,
+        story: "",
+        selected: false,
+        day: 29,
+        month: 3,
+      },
+      {
+        id: 200,
+        title:
+          'استشهاد البابا بطرس " خاتم الشهداء " البطريرك السابع عشر من بطاركة الكرسي المرقسي - 29 هاتور',
+        date: null,
+        story: "",
+        selected: false,
+        day: 29,
+        month: 3,
+      },
+      {
+        id: 201,
+        title: "استشهاد القديس إكليمنضس الأول بابا روما - 29 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 29,
+        month: 3,
+      },
+      {
+        id: 202,
+        title: "استشهاد القديسة كاترين الإسكندرانية - 29 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 29,
+        month: 3,
+      },
+      {
+        id: 203,
+        title: "استشهاد القديس مكاريوس - 30 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 30,
+        month: 3,
+      },
+      {
+        id: 204,
+        title: "استشهاد الراهب القديس يوحنا القليوبي - 30 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 30,
+        month: 3,
+      },
+      {
+        id: 205,
+        title: "نياحة القديس أكاكيوس بطريرك القسطنطينية - 30 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 30,
+        month: 3,
+      },
+      {
+        id: 206,
+        title: "تكريس بيعة القديسين قزمان ودميان وإخوتهما وأمهم - 30 هاتور",
+        date: null,
+        story: "",
+        selected: false,
+        day: 30,
+        month: 3,
+      },
+      {
+        id: 207,
+        title:
+          "نياحة البابا يوأنس الثالث البطريرك الأربعين من بطاركة الكرازة المرقسية - 1 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 1,
+        month: 4,
+      },
+      {
+        id: 208,
+        title:
+          "نياحة البابا أثناسيوس الثالث البطريرك السادس والسبعين من بطاركة الكرازة المرقسية - 1 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 1,
+        month: 4,
+      },
+      {
+        id: 209,
+        title: "نياحة القديس بطرس الرهاوي ( أسقف غزة ) - 1 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 1,
+        month: 4,
+      },
+      {
+        id: 210,
+        title:
+          "تكريس كنيسة الشهيد أبى فام الجُندي الطحاوي ببلدة أبنوب - 1 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 1,
+        month: 4,
+      },
+      {
+        id: 211,
+        title: "تكريس كنيسة القديس العظيم الأنبا شنودة رئيس المتوحدين - 1 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 1,
+        month: 4,
+      },
+      {
+        id: 212,
+        title: "نياحة القديس أباهور الراهب - 2 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 2,
+        month: 4,
+      },
+      {
+        id: 213,
+        title: "نياحة القديس الأنبا هورمينا السائح - 2 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 2,
+        month: 4,
+      },
+      {
+        id: 214,
+        title: "تذكار تقديم القديسة العذراء مريم إلى الهيكل بأورشليم - 3 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 3,
+        month: 4,
+      },
+      {
+        id: 215,
+        title: " استشهاد القديس بسطفروس ( صليب الجديد ) - 3 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 3,
+        month: 4,
+      },
+      {
+        id: 216,
+        title: "استشهاد القديس أندراوس أحد الاثنى عشر رسولاً - 4 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 4,
+        month: 4,
+      },
+      {
+        id: 217,
+        title:
+          "تذكار تكريس كنيسة القديس مار يوحنا الهرقلي بأم القصور بمنفلوط - 4 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 4,
+        month: 4,
+      },
+      {
+        id: 218,
+        title: "تذكار نقل جسديّ القديسين الأنبا بيشوي والأنبا بولا - 4 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 4,
+        month: 4,
+      },
+      {
+        id: 219,
+        title: "نياحة ناحوم النبي - 5 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 5,
+        month: 4,
+      },
+      {
+        id: 220,
+        title: "استشهاد القديس بقطر الذي من أسيوط - 5 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 5,
+        month: 4,
+      },
+      {
+        id: 221,
+        title: "استشهاد القديس إيسوذوروس - 5 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 5,
+        month: 4,
+      },
+      {
+        id: 222,
+        title:
+          "نياحة البابا أبرآم بن زرعة البطريرك الثاني والستين من بطاركة الكرازة المرقسية - 6 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 6,
+        month: 4,
+      },
+      {
+        id: 223,
+        title: "استشهاد القديس باطلس القس - 6 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 6,
+        month: 4,
+      },
+      {
+        id: 224,
+        title: "نياحة القديس متاؤس الفاخوري بجبل أصفون بإسنا - 7 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 7,
+        month: 4,
+      },
+      {
+        id: 225,
+        title: "استشهاد القديسين بانينا وباناوا - 7 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 7,
+        month: 4,
+      },
+      {
+        id: 226,
+        title: "تذكار تكريس كنيسة الشهيد أبسخيرون القليني - 7 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 7,
+        month: 4,
+      },
+      {
+        id: 227,
+        title: "نياحة القديس يوحنا أسقف أرمنت - 7 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 7,
+        month: 4,
+      },
+      {
+        id: 228,
+        title: "استشهاد المهندس القبطي النابغة سعيد بن كاتب الفرغاني - 7 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 7,
+        month: 4,
+      },
+      {
+        id: 229,
+        title: "استشهاد القديس إيسي وتكلا أخته - 8 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 8,
+        month: 4,
+      },
+      {
+        id: 230,
+        title: "استشهاد القديستين بربارة ويوليانة - 8 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 8,
+        month: 4,
+      },
+      {
+        id: 231,
+        title: "نياحة القديس الأنبا صموئيل المعترف - 8 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 8,
+        month: 4,
+      },
+      {
+        id: 232,
+        title:
+          "نياحة البابا ياروكلاس البطريرك الثالث عشر من بطاركة الكرازة المرقسية - 8 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 8,
+        month: 4,
+      },
+      {
+        id: 234,
+        title: "نياحة القديس بيمن المعترف - 9 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 9,
+        month: 4,
+      },
+      {
+        id: 235,
+        title: "نياحة القديس نيقولاوس أسقف مورا - 10 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 10,
+        month: 4,
+      },
+      {
+        id: 236,
+        title: "استشهاد القديس شورة من أهل أخميم - 10 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 10,
+        month: 4,
+      },
+      {
+        id: 237,
+        title: "تذكار نقل جسد القديس ساويرس بطريرك أنطاكية - 10 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 10,
+        month: 4,
+      },
+      {
+        id: 238,
+        title: "نياحة القديس الأنبا بيجيمي السائح - 11 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 11,
+        month: 4,
+      },
+      {
+        id: 239,
+        title: "استشهاد القديس أبطلماوس من أهل دندرة - 11 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 11,
+        month: 4,
+      },
+      {
+        id: 240,
+        title:
+          "تذكار تكريس كنيسة القديس إقلاديوس بناحية باقور أبو تيج - 11 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 11,
+        month: 4,
+      },
+      {
+        id: 241,
+        title: "تذكار رئيس الملائكة الطاهر ميخائيل - 12 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 12,
+        month: 4,
+      },
+      {
+        id: 242,
+        title: "نياحة القديس الأنبا هدرا الأسواني - 12 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 12,
+        month: 4,
+      },
+      {
+        id: 243,
+        title: "نياحة القديس يوحنا المعترف - 12 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 12,
+        month: 4,
+      },
+      {
+        id: 244,
+        title: "انعقاد مجمع برومية على نوباطس القس - 12 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 12,
+        month: 4,
+      },
+      {
+        id: 245,
+        title:
+          "تذكار تكريس كنيسة رئيس الملائكة الجليل رافائيل بالقسطنطينية - 13 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 13,
+        month: 4,
+      },
+      {
+        id: 246,
+        title: "استشهاد القديس برشنوفيوس الراهب - 13 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 13,
+        month: 4,
+      },
+      {
+        id: 247,
+        title:
+          "نياحة البابا مرقس الثامن البطريرك المائة وثمانية من بطاركة الكرسي المرقسي - 13 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 13,
+        month: 4,
+      },
+      {
+        id: 248,
+        title: "نياحة الأب إبراكيوس - 13 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 13,
+        month: 4,
+      },
+      {
+        id: 249,
+        title: "نياحة القديس إيليا السائح - 13 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 13,
+        month: 4,
+      },
+      {
+        id: 250,
+        title: "تكريس كنيسة القديس ميصائيل السائح - 13 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 13,
+        month: 4,
+      },
+      {
+        id: 251,
+        title: "استشهاد القديس بهنام وسارة أخته - 14 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 14,
+        month: 4,
+      },
+      {
+        id: 252,
+        title: "استشهاد القديس الأنبا أمونيوس أسقف إسنا - 14 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 14,
+        month: 4,
+      },
+      {
+        id: 253,
+        title:
+          "استشهاد القديسين سمعان المنوفي وأباهور وأبا مينا الشيخ - 14 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 14,
+        month: 4,
+      },
+      {
+        id: 254,
+        title:
+          "نياحة البابا خرستوذولوس البطريرك السادس والستين من بطاركة الكرازة المرقسية - 14 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 14,
+        month: 4,
+      },
+      {
+        id: 255,
+        title: "نياحة القديس خرستوذولوس السائح - 14 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 14,
+        month: 4,
+      },
+      {
+        id: 256,
+        title: "نياحة القديس غريغوريوس بطريرك الأرمن - 15 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 15,
+        month: 4,
+      },
+      {
+        id: 257,
+        title: "نياحة القديس لوكاس العمودي - 15 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 15,
+        month: 4,
+      },
+      {
+        id: 258,
+        title: "نياحة القديس الأنبا حزقيال من أرمنت - 15 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 15,
+        month: 4,
+      },
+      {
+        id: 259,
+        title: "نياحة البار جدعون أحد قضاة بنى إسرائيل - 16 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 16,
+        month: 4,
+      },
+      {
+        id: 260,
+        title: "استشهاد القديسين هرواج وحنانيا وخوزى الذين من أخميم  - 16 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 16,
+        month: 4,
+      },
+      {
+        id: 261,
+        title:
+          "استشهاد القديسين أولوجيوس وأرسانيوس صاحبيّ دير الحديد بأخميم - 16 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 16,
+        month: 4,
+      },
+      {
+        id: 262,
+        title: "استشهاد القديس إمساح القفطي - 16 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 16,
+        month: 4,
+      },
+      {
+        id: 263,
+        title: "تكريس كنيسة القديس يعقوب الفارسي الشهير بالمقطع - 16 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 16,
+        month: 4,
+      },
+      {
+        id: 264,
+        title: "تذكار نقل جسد القديس لوكاس العمودي - 17 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 17,
+        month: 4,
+      },
+      {
+        id: 265,
+        title:
+          "نياحة القديس إيلياس بجبل بِشْوَاو ( جبل بشْوَاو قريب من جبل الأساس الذي من نقادة حتى الجبل الغربي تجاه القصر، بمحافظة قنا) - 17 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 17,
+        month: 4,
+      },
+      {
+        id: 266,
+        title: "نقل جسد القديس تيطس أسقف كريت إلى القسطنطينية - 18 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 18,
+        month: 4,
+      },
+      {
+        id: 267,
+        title: "استشهاد القديسين ياروكلاس وفليمون - 18 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 18,
+        month: 4,
+      },
+      {
+        id: 268,
+        title:
+          "نياحة البابا غبريال السادس البطريرك الحادي والتسعين من بطاركة الكرازة المرقسية - 19 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 19,
+        month: 4,
+      },
+      {
+        id: 269,
+        title: "نياحة الأنبا يوحنا أسقف البُرلُّس – جامع السنكسار - 19 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 19,
+        month: 4,
+      },
+      {
+        id: 270,
+        title: "نياحة حَجِّي النبي - 20 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 20,
+        month: 4,
+      },
+      {
+        id: 271,
+        title: "استشهاد الأنبا إيلياس أسقف دير المحرق والقوصية - 20 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 20,
+        month: 4,
+      },
+      {
+        id: 272,
+        title: "تذكار والدة الإله القديسة الطاهرة مريم العذراء - 21 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 21,
+        month: 4,
+      },
+      {
+        id: 273,
+        title: "استشهاد القديس برنابا أحد السبعين رسولاً - 21 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 21,
+        month: 4,
+      },
+      {
+        id: 274,
+        title: "تذكار الملاك الجليل غبريال المُبشر - 22 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 22,
+        month: 4,
+      },
+      {
+        id: 275,
+        title: "استشهاد القديس باخوم وضالوشام أخته - 22 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 22,
+        month: 4,
+      },
+      {
+        id: 276,
+        title:
+          "نياحة البابا أنسطاسيوس البطريرك السادس والثلاثين من بطاركة الكرازة المرقسية - 22 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 22,
+        month: 4,
+      },
+      {
+        id: 277,
+        title: "نياحة داود النبي والملك - 23 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 23,
+        month: 4,
+      },
+      {
+        id: 278,
+        title: "نياحة القديس تيموثاوس السائح - 23 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 23,
+        month: 4,
+      },
+      {
+        id: 279,
+        title:
+          "استشهاد القديس أغناطيوس الثيئوفوروس ( ثيئوفوروس: كلمة تعنى حامل الإله أو المتوشح بالإله) أسقف أنطاكية - 24 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 24,
+        month: 4,
+      },
+      {
+        id: 280,
+        title: "نياحة القديس الأنبا يحنس كاما القس - 25 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 25,
+        month: 4,
+      },
+      {
+        id: 281,
+        title: "نياحة القديس الأنبا بشاي بجبل الطود - 25 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 25,
+        month: 4,
+      },
+      {
+        id: 282,
+        title: "استشهاد القديسة أنسطاسيه - 26 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 26,
+        month: 4,
+      },
+      {
+        id: 283,
+        title: "تكريس كنيسة الشهيدين أنبا بشاي وأنبا بطرس - 26 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 26,
+        month: 4,
+      },
+      {
+        id: 284,
+        title: "استشهاد القديس الأنبا بساده أسقف أبصاي - 27 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 27,
+        month: 4,
+      },
+      {
+        id: 285,
+        title: "برمون عيد الميلاد المجيد - 28 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 28,
+        month: 4,
+      },
+      {
+        id: 286,
+        title: "استشهاد 150 رجلاً، و24 امرأة من مدينة أنصنا - 28 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 28,
+        month: 4,
+      },
+      {
+        id: 287,
+        title: "عيد الميلاد المجيد - 29 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 29,
+        month: 4,
+      },
+      {
+        id: 288,
+        title: "تذكار شهداء أخميم - 29 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 29,
+        month: 4,
+      },
+      {
+        id: 289,
+        title: "نياحة القديس يوأنس قمص شيهيت - 30 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 30,
+        month: 4,
+      },
+      {
+        id: 290,
+        title: "سجود المجوس للمخلص - 30 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 30,
+        month: 4,
+      },
+      {
+        id: 291,
+        title: "استشهاد القديس القمص ميخائيل الطوخي - 30 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 30,
+        month: 4,
+      },
+      {
+        id: 292,
+        title: "استشهاد الطفل زكريا ومن معه بأخميم - 30 كيهك",
+        date: null,
+        story: "",
+        selected: false,
+        day: 30,
+        month: 4,
+      },
+      {
+        id: 293,
+        title: "استشهاد القديس إسطفانوس رئيس الشمامسة - 1 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 1,
+        month: 5,
+      },
+      {
+        id: 294,
+        title: "استشهاد القديس لاونديانوس - 1 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 1,
+        month: 5,
+      },
+      {
+        id: 295,
+        title: "استشهاد القديسين ديوسقوروس وأخيه سكلابيوس - 1 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 1,
+        month: 5,
+      },
+      {
+        id: 296,
+        title:
+          "نياحة الأنبا ثاؤناس البطريرك السادس عشر من بطاركة الكرازة المرقسية - 2 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 2,
+        month: 5,
+      },
+      {
+        id: 297,
+        title: "استشهاد القديس غللينيكوس أسقف أوسيم - 2 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 2,
+        month: 5,
+      },
+      {
+        id: 298,
+        title: "نياحة القديس الأنبا يونا - 2 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 2,
+        month: 5,
+      },
+      {
+        id: 299,
+        title: "استشهاد أطفال بيت لحم - 3 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 3,
+        month: 5,
+      },
+      {
+        id: 300,
+        title: "نياحة القديس يوحنا الإنجيلي - 4 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 4,
+        month: 5,
+      },
+      {
+        id: 301,
+        title: "استشهاد القديس أوساغنيوس الجُندي - 5 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 5,
+        month: 5,
+      },
+      {
+        id: 302,
+        title: "استشهاد القديس بانيكاروس - 5 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 5,
+        month: 5,
+      },
+      {
+        id: 303,
+        title:
+          "نياحة البابا ثيئودوسيوس الثاني البطريرك التاسع والسبعين من بطاركة الكرازة المرقسية - 5 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 5,
+        month: 5,
+      },
+      {
+        id: 304,
+        title:
+          "نياحة البابا متاؤس الأول البطريرك السابع والثمانين من بطاركة الكرازة المرقسية - 5 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 5,
+        month: 5,
+      },
+      {
+        id: 305,
+        title: "عيد الختان المجيد - 6 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 6,
+        month: 5,
+      },
+      {
+        id: 306,
+        title: "تذكار صعود إيليا النبي إلى السماء حياً - 6 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 6,
+        month: 5,
+      },
+      {
+        id: 307,
+        title: "استشهاد الأربعة أراخنة بإسنا - 6 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 6,
+        month: 5,
+      },
+      {
+        id: 308,
+        title:
+          "نياحة البابا مركيانوس البطريرك الثامن من بطاركة الكرازة المرقسية - 6 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 6,
+        month: 5,
+      },
+      {
+        id: 309,
+        title:
+          "نياحة البابا مرقس البطريرك الثالث والسبعين من بطاركة الكرازة المرقسية - 6 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 6,
+        month: 5,
+      },
+      {
+        id: 310,
+        title:
+          "نياحة البابا غبريال الثالث البطريرك السابع والسبعين من بطاركة الكرازة المرقسية - 6 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 6,
+        month: 5,
+      },
+      {
+        id: 311,
+        title:
+          "نياحة القديس باسيليوس الكبير رئيس أساقفة قيصرية الكبادوك - 6 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 6,
+        month: 5,
+      },
+      {
+        id: 312,
+        title: "تكريس كنيسة الشهيد إسحاق الدفراوي - 6 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 6,
+        month: 5,
+      },
+      {
+        id: 313,
+        title: "نياحة القديس سلفستروس بابا روما - 7 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 7,
+        month: 5,
+      },
+      {
+        id: 314,
+        title: "عودة رأس القديس مار مرقس الرسول - 8 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 8,
+        month: 5,
+      },
+      {
+        id: 315,
+        title:
+          "نياحة البابا أندرونيقوس البطريرك السابع والثلاثين من بطاركة الكرازة المرقسية - 8 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 8,
+        month: 5,
+      },
+      {
+        id: 316,
+        title:
+          "نياحة البابا بنيامين الأول البطريرك الثامن والثلاثين من بطاركة الكرازة المرقسية - 8 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 8,
+        month: 5,
+      },
+      {
+        id: 317,
+        title:
+          "نياحة البابا غبريال الخامس البطريرك الثامن والثمانين من بطاركة الكرازة المرقسية - 8 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 8,
+        month: 5,
+      },
+      {
+        id: 318,
+        title: "تذكار تكريس كنيسة القديس مكاريوس الكبير - 8 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 8,
+        month: 5,
+      },
+      {
+        id: 319,
+        title: "نياحة القديس أبرآم رفيق الأنبا جاورجي - 9 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 9,
+        month: 5,
+      },
+      {
+        id: 320,
+        title: "نياحة القديس أنبا فيس - 9 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 9,
+        month: 5,
+      },
+      {
+        id: 321,
+        title: "برمون عيد الغطاس المجيد - 10 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 10,
+        month: 5,
+      },
+      {
+        id: 322,
+        title: "نياحة القديس يسطس تلميذ الأنبا صموئيل المعترف - 10 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 10,
+        month: 5,
+      },
+      {
+        id: 323,
+        title: "عيد الظهور الإلهي ( الغطاس المجيد ) - 11 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 11,
+        month: 5,
+      },
+      {
+        id: 324,
+        title:
+          "نياحة البابا يوأنس السادس البطريرك الرابع والسبعين من بطاركة الكرازة المرقسية - 11 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 11,
+        month: 5,
+      },
+      {
+        id: 325,
+        title:
+          "نياحة البابا بنيامين الثاني البطريرك الثاني والثمانين من بطاركة الكرازة المرقسية - 11 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 11,
+        month: 5,
+      },
+      {
+        id: 326,
+        title: "ثاني أيام عيد الغطاس المجيد - 12 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 12,
+        month: 5,
+      },
+      {
+        id: 327,
+        title: "تذكار رئيس الملائكة الجليل ميخائيل - 12 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 12,
+        month: 5,
+      },
+      {
+        id: 328,
+        title: "استشهاد القديس تادرس المشرقي - 12 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 12,
+        month: 5,
+      },
+      {
+        id: 329,
+        title: "استشهاد القديس أناطوليوس - 12 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 12,
+        month: 5,
+      },
+      {
+        id: 330,
+        title: "عيد عرس قانا الجليل - 13 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 13,
+        month: 5,
+      },
+      {
+        id: 331,
+        title: "استشهاد القديسة دميانة - 13 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 13,
+        month: 5,
+      },
+      {
+        id: 332,
+        title: "نياحة القديس ثاؤفيلس الراهب - 13 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 13,
+        month: 5,
+      },
+      {
+        id: 333,
+        title: "نياحة القديس أرشليدس الراهب - 14 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 14,
+        month: 5,
+      },
+      {
+        id: 334,
+        title:
+          "استشهاد القديسة مُهْراتي ( مُهْراتي: كان للقديسة مهراتي اسم آخر هو مُهْرابيل) - 14 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 14,
+        month: 5,
+      },
+      {
+        id: 335,
+        title: "نياحة القديس مكسيموس أخى دوماديوس - 14 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 14,
+        month: 5,
+      },
+      {
+        id: 336,
+        title: "نياحة عوبديا النبي - 15 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 15,
+        month: 5,
+      },
+      {
+        id: 337,
+        title: "استشهاد القديس فيلوثيئوس - 16 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 16,
+        month: 5,
+      },
+      {
+        id: 338,
+        title:
+          "نياحة البابا يوأنس الرابع البطريرك الثامن والأربعين من بطاركة الكرازة المرقسية - 16 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 16,
+        month: 5,
+      },
+      {
+        id: 339,
+        title: "نياحة القديس دوماديوس أخي القديس مكسيموس - 17 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 17,
+        month: 5,
+      },
+      {
+        id: 340,
+        title: "نياحة القديس الأنبا يوساب الأبحّ أسقف جرجا - 17 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 17,
+        month: 5,
+      },
+      {
+        id: 341,
+        title: "نياحة القديس يعقوب أسقف نصيبين - 18 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 18,
+        month: 5,
+      },
+      {
+        id: 342,
+        title: "تذكار مريم ومرثا أختيّ لعازر الحبيب - 18 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 18,
+        month: 5,
+      },
+      {
+        id: 343,
+        title: "نياحة الأنبا أندراس الشهير بـ ( أبو الليف ) - 18 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 18,
+        month: 5,
+      },
+      {
+        id: 344,
+        title: "اكتشاف أعضاء القديسين أباهور وبيسوري وأمبيرة أمهما - 19 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 19,
+        month: 5,
+      },
+      {
+        id: 345,
+        title: "نياحة القديس بروخورس أحد السبعين رسولاً - 20 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 20,
+        month: 5,
+      },
+      {
+        id: 346,
+        title: "استشهاد القديس أبا كلوج القس - 20 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 20,
+        month: 5,
+      },
+      {
+        id: 347,
+        title: "استشهاد القديس بهناو - 20 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 20,
+        month: 5,
+      },
+      {
+        id: 348,
+        title: "تذكار تكريس كنيسة القديس يوحنا صاحب الإنجيل الذهب - 20 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 20,
+        month: 5,
+      },
+      {
+        id: 349,
+        title: "نياحة والدة الإله القديسة مريم العذراء - 21 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 21,
+        month: 5,
+      },
+      {
+        id: 350,
+        title: "نياحة القديسة إيلارية ابنة الملك زينون - 21 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 21,
+        month: 5,
+      },
+      {
+        id: 351,
+        title: "نياحة القديس العظيم الأنبا أنطونيوس أب جميع الرهبان - 22 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 22,
+        month: 5,
+      },
+      {
+        id: 352,
+        title:
+          "استشهاد القديس تيموثاوس تلميذ القديس بولس الرسول وأسقف أفسس - 23 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 23,
+        month: 5,
+      },
+      {
+        id: 353,
+        title:
+          "نياحة البابا كيرلس الرابع أبى الإصلاح البطريرك المائة والعاشر من بطاركة الكرازة المرقسية - 23 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 23,
+        month: 5,
+      },
+      {
+        id: 354,
+        title: "نياحة القديسة مريم الحبيسة الناسكة - 24 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 24,
+        month: 5,
+      },
+      {
+        id: 355,
+        title: "استشهاد القديس بساده القس - 24 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 24,
+        month: 5,
+      },
+      {
+        id: 356,
+        title: "نياحة القديس بطرس العابد - 25 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 25,
+        month: 5,
+      },
+      {
+        id: 357,
+        title: "استشهاد القديس أسكلاس - 25 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 25,
+        month: 5,
+      },
+      {
+        id: 358,
+        title: "استشهاد التسعة والأربعين شهيداً شيوخ شيهيت - 26 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 26,
+        month: 5,
+      },
+      {
+        id: 359,
+        title: "استشهاد القديس بجوش - 26 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 26,
+        month: 5,
+      },
+      {
+        id: 360,
+        title: "نياحة القديسة أنسطاسية - 26 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 26,
+        month: 5,
+      },
+      {
+        id: 361,
+        title: "تذكار رئيس الملائكة الجليل سوريال - 27 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 27,
+        month: 5,
+      },
+      {
+        id: 362,
+        title: "استشهاد القديس أبى فام الجُندي الأوسيمي - 27 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 27,
+        month: 5,
+      },
+      {
+        id: 363,
+        title: "استشهاد القديس سيرابيون - 27 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 27,
+        month: 5,
+      },
+      {
+        id: 364,
+        title:
+          "تذكار نقل جسد القديس تيموثاوس تلميذ معلمنا القديس بولس الرسول - 27 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 27,
+        month: 5,
+      },
+      {
+        id: 365,
+        title: "استشهاد القديس الأنبا كاؤو - 28 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 28,
+        month: 5,
+      },
+      {
+        id: 366,
+        title: "استشهاد القديس إكليمنضس أسقف أنقرة - 28 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 28,
+        month: 5,
+      },
+      {
+        id: 367,
+        title: "استشهاد القديس فيلياس أسقف تمي الأمديد - 28 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 28,
+        month: 5,
+      },
+      {
+        id: 368,
+        title: "نياحة القديسة أكساني - 29 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 29,
+        month: 5,
+      },
+      {
+        id: 369,
+        title: "نياحة القديس سرياكوس المجاهد - 29 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 29,
+        month: 5,
+      },
+      {
+        id: 370,
+        title:
+          "استشهاد العذارى القديسات بيستيس وهلبيس وأغابى ونياحة أمهن صوفية - 30 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 30,
+        month: 5,
+      },
+      {
+        id: 371,
+        title:
+          "نياحة البابا مينا الأول البطريرك السابع والأربعين من بطاركة الكرازة المرقسية - 30 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 30,
+        month: 5,
+      },
+      {
+        id: 372,
+        title: "نياحة القديس إبراهيم الرهاوي المتوحد - 30 طوبه",
+        date: null,
+        story: "",
+        selected: false,
+        day: 30,
+        month: 5,
+      },
+      {
+        id: 373,
+        title:
+          "تذكار اجتماع المجمع المسكوني الثاني بمدينة القسطنطينية - 1 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 1,
+        month: 6,
+      },
+      {
+        id: 374,
+        title: "استشهاد القديس أباديون أسقف أنصنا - 1 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 1,
+        month: 6,
+      },
+      {
+        id: 375,
+        title:
+          "تكريس كنيسة القديس بطرس خاتم الشهداء بمدينة الإسكندرية - 1 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 1,
+        month: 6,
+      },
+      {
+        id: 376,
+        title: "نياحة القديس العظيم الأنبا بولا أول السواح - 2 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 2,
+        month: 6,
+      },
+      {
+        id: 377,
+        title: "نياحة القديس لُونجينوس رئيس دير الزجاج - 2 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 2,
+        month: 6,
+      },
+      {
+        id: 378,
+        title: "نياحة القديس يعقوب الراهب - 3 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 3,
+        month: 6,
+      },
+      {
+        id: 379,
+        title: "نياحة القديس هدرا بحاجر بنهدب - 3 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 3,
+        month: 6,
+      },
+      {
+        id: 380,
+        title: "استشهاد القديس أغابوس أحد السبعين رسولاً - 4 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 4,
+        month: 6,
+      },
+      {
+        id: 381,
+        title: "تذكار نقل أعضاء التسعة والأربعين شهيداً شيوخ شيهيت - 5 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 5,
+        month: 6,
+      },
+      {
+        id: 382,
+        title:
+          "نياحة البابا أغريبينوس البطريرك العاشر من بطاركة الكرازة المرقسية - 5 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 5,
+        month: 6,
+      },
+      {
+        id: 383,
+        title: "نياحة القديس الأنبا بشاي صاحب الدير الأحمر - 5 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 5,
+        month: 6,
+      },
+      {
+        id: 384,
+        title:
+          "نياحة الأنبا أبوللو رفيق القديس الأنبا أبيب من قديسي القرن الرابع الميلادي - 5 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 5,
+        month: 6,
+      },
+      {
+        id: 385,
+        title: "استشهاد القديس أبوليدس بابا روما - 5 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 5,
+        month: 6,
+      },
+      {
+        id: 386,
+        title: "نياحة القديس أبانوب صاحب المروحة الذهب - 5 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 5,
+        month: 6,
+      },
+      {
+        id: 387,
+        title: "استشهاد القديسين أباكير ويوحنا والثلاث عذارى وأمهن - 6 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 6,
+        month: 6,
+      },
+      {
+        id: 388,
+        title:
+          "نياحة البابا مرقس الرابع البطريرك الرابع والثمانين من بطاركة الكرازة المرقسية - 6 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 6,
+        month: 6,
+      },
+      {
+        id: 389,
+        title: "نياحة القديس زانوفيوس - 6 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 6,
+        month: 6,
+      },
+      {
+        id: 390,
+        title:
+          "نياحة البابا القديس ألكسندروس الثاني البطريرك الثالث والأربعين من بطاركة الكرازة المرقسية - 7 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 7,
+        month: 6,
+      },
+      {
+        id: 391,
+        title:
+          "نياحة البابا القديس ثيئودوروس الأول البطريرك الخامس والأربعين من بطاركة الكرازة المرقسية - 7 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 7,
+        month: 6,
+      },
+      {
+        id: 392,
+        title: "عيد دخول السيد المسيح إلى الهيكل - 8 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 8,
+        month: 6,
+      },
+      {
+        id: 393,
+        title: "نياحة القديس سمعان الشيخ - 8 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 8,
+        month: 6,
+      },
+      {
+        id: 394,
+        title: "نياحة القديس برسوما أب رهبان السريان - 9 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 9,
+        month: 6,
+      },
+      {
+        id: 395,
+        title: "استشهاد القديس بولس السرياني - 9 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 9,
+        month: 6,
+      },
+      {
+        id: 396,
+        title: "استشهاد القديس سمعان - 9 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 9,
+        month: 6,
+      },
+      {
+        id: 397,
+        title: "نياحة القديسة إفروسينا - 9 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 9,
+        month: 6,
+      },
+      {
+        id: 398,
+        title: "استشهاد القديس فيلو أسقف فارس - 10 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 10,
+        month: 6,
+      },
+      {
+        id: 399,
+        title: "استشهاد القديس يسطس ابن الملك نوماريوس - 10 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 10,
+        month: 6,
+      },
+      {
+        id: 400,
+        title: "نياحة القديس إيسوذوروس الفَرمِي - 10 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 10,
+        month: 6,
+      },
+      {
+        id: 401,
+        title:
+          "نياحة البابا القديس يوأنس الثالث عشر البطريرك الرابع والتسعين من بطاركة الكرازة المرقسية - 11 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 11,
+        month: 6,
+      },
+      {
+        id: 402,
+        title: "استشهاد القديس فابيانوس بابا روما - 11 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 11,
+        month: 6,
+      },
+      {
+        id: 403,
+        title: "تذكار رئيس الملائكة الجليل ميخائيل - 12 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 12,
+        month: 6,
+      },
+      {
+        id: 404,
+        title: "نياحة القديس جلاسيوس الناسك - 12 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 12,
+        month: 6,
+      },
+      {
+        id: 405,
+        title:
+          "استشهاد القديس سرجيوس الأتريبي وأبيه وأمه وأخته وكثيرين معهم - 13 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 13,
+        month: 6,
+      },
+      {
+        id: 406,
+        title:
+          "نياحة البابا القديس تيموثاوس الثالث البطريرك الثاني والثلاثين من بطاركة الكرازة المرقسية - 13 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 13,
+        month: 6,
+      },
+      {
+        id: 407,
+        title: "نياحة القديس ساويرس بطريرك أنطاكية - 14 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 14,
+        month: 6,
+      },
+      {
+        id: 408,
+        title:
+          "نياحة البابا القديس يعقوب البطريرك الخمسين من بطاركة الكرازة المرقسية - 14 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 14,
+        month: 6,
+      },
+      {
+        id: 409,
+        title: "نياحة القديس بفنوتيوس الراهب - 15 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 15,
+        month: 6,
+      },
+      {
+        id: 410,
+        title: "استشهاد الصديق زكريا النبي بن بَرَخِيَّا بن عِدُّو - 15 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 15,
+        month: 6,
+      },
+      {
+        id: 411,
+        title: "استشهاد القديس أنبا بيجول القس - 15 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 15,
+        month: 6,
+      },
+      {
+        id: 412,
+        title:
+          "تكريس أول كنيسة للأربعين شهيداً الذين استشهدوا في سبسطية - 15 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 15,
+        month: 6,
+      },
+      {
+        id: 413,
+        title: "نياحة القديسة أليصابات أم القديس يوحنا المعمدان - 16 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 16,
+        month: 6,
+      },
+      {
+        id: 414,
+        title:
+          "نياحة البابا القديس ميخائيل الثالث البطريرك الثاني والتسعين من بطاركة الكرازة المرقسية - 16 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 16,
+        month: 6,
+      },
+      {
+        id: 415,
+        title: "نياحة القديس القمص ميخائيل البحيري المحرقي - 16 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 16,
+        month: 6,
+      },
+      {
+        id: 416,
+        title: "استشهاد القديس مينا الراهب - 17 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 17,
+        month: 6,
+      },
+      {
+        id: 417,
+        title: "تكريس كنيسة القديس قسطور البردنوهي - 17 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 17,
+        month: 6,
+      },
+      {
+        id: 418,
+        title: "نياحة القديس ملاتيوس المعترف بطريرك أنطاكية - 18 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 18,
+        month: 6,
+      },
+      {
+        id: 419,
+        title: "تدشين كنيسة القديس بولس البسيط - 18 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 18,
+        month: 6,
+      },
+      {
+        id: 420,
+        title: "تذكار نقل أعضاء القديس مرتيانوس الراهب إلى أنطاكية - 19 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 19,
+        month: 6,
+      },
+      {
+        id: 421,
+        title:
+          "نياحة البابا القديس بطرس الثاني البطريرك الحادي والعشرين من بطاركة الكرازة المرقسية - 20 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 20,
+        month: 6,
+      },
+      {
+        id: 422,
+        title:
+          "استشهاد القديسين باسيليوس وثاؤدروس وتيموثاوس بالإسكندرية - 20 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 20,
+        month: 6,
+      },
+      {
+        id: 423,
+        title: "تذكار القديسة العذراء مريم والدة الإله - 21 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 21,
+        month: 6,
+      },
+      {
+        id: 424,
+        title: "استشهاد القديس أُنسيموس تلميذ القديس بولس الرسول - 21 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 21,
+        month: 6,
+      },
+      {
+        id: 425,
+        title:
+          "نياحة البابا القديس غبريال الأول البطريرك السابع والخمسين من بطاركة الكرازة المرقسية - 21 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 21,
+        month: 6,
+      },
+      {
+        id: 426,
+        title: "نياحة القديس زخارياس أسقف سخا - 21 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 21,
+        month: 6,
+      },
+      {
+        id: 427,
+        title:
+          "نياحة القديس ماروتا أسقف ميافرقين ( ميافرقين:من بلاد ما بين النهرين شمالي نصيبين) - 22 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 22,
+        month: 6,
+      },
+      {
+        id: 428,
+        title: "استشهاد القديس أوسابيوس ابن القديس واسيليدس الوزير - 23 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 23,
+        month: 6,
+      },
+      {
+        id: 429,
+        title: "نياحة القديس أغابيطوس الأسقف - 24 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 24,
+        month: 6,
+      },
+      {
+        id: 430,
+        title:
+          "استشهاد القديسين تيموثاوس بمدينة غزة ومتياس بمدينة قوص - 24 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 24,
+        month: 6,
+      },
+      {
+        id: 431,
+        title: "استشهاد القديسين فليمون وأبفية وأرخِبُّس ابنهما - 25 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 25,
+        month: 6,
+      },
+      {
+        id: 432,
+        title:
+          "استشهاد القديس قونا بمدينة روما. ( أو الشماس قزماس بروما ) - 25 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 25,
+        month: 6,
+      },
+      {
+        id: 433,
+        title: "استشهاد القديس مينا بمدينة قوص - 25 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 25,
+        month: 6,
+      },
+      {
+        id: 434,
+        title: "نياحة القديس أبو فانا بجبل دلجا - 25 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 25,
+        month: 6,
+      },
+      {
+        id: 435,
+        title: "نياحة الصِّدِّيق هوشع النبي - 26 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 26,
+        month: 6,
+      },
+      {
+        id: 436,
+        title:
+          "استشهاد القديس صادوق والمائة والثمانية والعشرين الذين معه - 26 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 26,
+        month: 6,
+      },
+      {
+        id: 437,
+        title:
+          "استشهاد الأسقفين تيرانيوس وسلوانس والكاهن زينوبيوس ورفاقهم في مدينة صور - 26 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 26,
+        month: 6,
+      },
+      {
+        id: 438,
+        title: "نياحة القديس أوسطاسيوس بطريرك أنطاكية - 27 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 27,
+        month: 6,
+      },
+      {
+        id: 439,
+        title: "استشهاد القديسة بِرْبِتْوَا ومَنْ معها - 27 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 27,
+        month: 6,
+      },
+      {
+        id: 440,
+        title: "نقل أعضاء القديس تاوضروس ( تادرس ) المشرقي الشهيد - 28 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 28,
+        month: 6,
+      },
+      {
+        id: 441,
+        title: "استشهاد القديس بوليكاربوس أسقف سميرنا - 29 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 29,
+        month: 6,
+      },
+      {
+        id: 442,
+        title: "وجود رأس القديس يوحنا المعمدان - 30 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 30,
+        month: 6,
+      },
+      {
+        id: 443,
+        title:
+          "نياحة القديس البابا كيرلس السادس البطريرك المائة والسادس عشر من بطاركة الكرازة المرقسية - 30 امشير",
+        date: null,
+        story: "",
+        selected: false,
+        day: 30,
+        month: 6,
+      },
+      {
+        id: 444,
+        title: "استشهاد القديسين مقرونيوس وتكلا - 1 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 1,
+        month: 7,
+      },
+      {
+        id: 445,
+        title: "استشهاد القديس ألكسندروس الجندي - 1 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 1,
+        month: 7,
+      },
+      {
+        id: 446,
+        title: "نياحة القديس نركيسوس أسقف بيت المقدس - 1 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 1,
+        month: 7,
+      },
+      {
+        id: 447,
+        title: "نياحة القديس مرقورة الأسقف - 1 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 1,
+        month: 7,
+      },
+      {
+        id: 448,
+        title: "نياحة الراهب جرجس بن العميد الشهير بابن المكين - 1 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 1,
+        month: 7,
+      },
+      {
+        id: 449,
+        title: "استشهاد القديس الأنبا مكراوى الأسقف - 2 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 2,
+        month: 7,
+      },
+      {
+        id: 450,
+        title:
+          "نياحة القديس الأنبا قسما البطريرك الثامن والخمسين من بطاركة الكرازة المرقسية - 3 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 3,
+        month: 7,
+      },
+      {
+        id: 451,
+        title: "استشهاد القديس برفونيوس - 3 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 3,
+        month: 7,
+      },
+      {
+        id: 452,
+        title: "نياحة القديس برفوريوس أسقف غزة  - 3 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 3,
+        month: 7,
+      },
+      {
+        id: 453,
+        title: "نياحة القديس الأنبا حديد القس - 3 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 3,
+        month: 7,
+      },
+      {
+        id: 454,
+        title:
+          "انعقاد مجمع، بجزيرة بني عمر، على قوم يُطلق عليهم الأربعتعشرية، بخصوص القيامة المقدسة - 4 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 4,
+        month: 7,
+      },
+      {
+        id: 455,
+        title: "استشهاد القديس هانوليوس الأمير - 4 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 4,
+        month: 7,
+      },
+      {
+        id: 456,
+        title:
+          "نياحة القديس الأنبا صرابامون قمص دير القديس الأنبا يحنس القصير (أحد الأديرة المندثرة ببرية شيهيت) - 5 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 5,
+        month: 7,
+      },
+      {
+        id: 457,
+        title: "استشهاد القديسة أوذوكسية - 5 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 5,
+        month: 7,
+      },
+      {
+        id: 458,
+        title: "استشهاد القديس ديوسقوروس في زمان العرب - 6 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 6,
+        month: 7,
+      },
+      {
+        id: 459,
+        title: "نياحة القديس ثاؤدوطس الأسقف المعترف - 6 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 6,
+        month: 7,
+      },
+      {
+        id: 460,
+        title: "استشهاد القديسين فليمون وأبلانيوس - 7 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 7,
+        month: 7,
+      },
+      {
+        id: 461,
+        title: "استشهاد القديسة مريم الإسرائيلية - 7 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 7,
+        month: 7,
+      },
+      {
+        id: 462,
+        title: "استشهاد القديس متياس الرسول - 8 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 8,
+        month: 7,
+      },
+      {
+        id: 463,
+        title:
+          "نياحة القديس البابا يوليانوس البطريرك الحادي عشر من بطاركة الكرازة المرقسية - 8 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 8,
+        month: 7,
+      },
+      {
+        id: 464,
+        title: "استشهاد القديس أريانوس والي أنصنا - 8 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 8,
+        month: 7,
+      },
+      {
+        id: 465,
+        title: "نياحة القديس كونن المعترف - 9 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 9,
+        month: 7,
+      },
+      {
+        id: 466,
+        title:
+          "استشهاد القديسين أندريانوس ومرثا زوجته وأوسابيوس وأرما وأربعين شهيداً - 9 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 9,
+        month: 7,
+      },
+      {
+        id: 467,
+        title: "تذكار ظهور الصليب المجيد - 10 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 10,
+        month: 7,
+      },
+      {
+        id: 468,
+        title: "استشهاد القديس ( باسيلاوس ) باسيليوس أسقف أورشليم - 11 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 11,
+        month: 7,
+      },
+      {
+        id: 469,
+        title: "نياحة القديس نرسيس أسقف أورشليم - 11 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 11,
+        month: 7,
+      },
+      {
+        id: 470,
+        title: "تذكار رئيس الملائكة الطاهر ميخائيل - 12 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 12,
+        month: 7,
+      },
+      {
+        id: 471,
+        title:
+          "ظهور بتولية البابا ديمتريوس الكرَّام البطريرك الثاني عشر من بطاركة الكرازة المرقسية - 12 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 12,
+        month: 7,
+      },
+      {
+        id: 472,
+        title: "استشهاد القديس ملاخي بأرض فلسطين - 12 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 12,
+        month: 7,
+      },
+      {
+        id: 473,
+        title: "استشهاد القديس جلاذينوس في دمشق - 12 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 12,
+        month: 7,
+      },
+      {
+        id: 474,
+        title: "استشهاد الأربعين شهيداً بسبسطية - 13 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 13,
+        month: 7,
+      },
+      {
+        id: 475,
+        title:
+          "نياحة القديس البابا ديونيسيوس البطريرك الرابع عشر من بطاركة الكرازة المرقسية - 13 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 13,
+        month: 7,
+      },
+      {
+        id: 476,
+        title:
+          "تذكار عودة القديسين مكاريوس الكبير ومكاريوس الإسكندري من منفاهما - 13 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 13,
+        month: 7,
+      },
+      {
+        id: 477,
+        title: "استشهاد الأساقفة أوجانيوس وأغانورس ووالنديوس - 14 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 14,
+        month: 7,
+      },
+      {
+        id: 478,
+        title: "استشهاد القديس شنوده البهنساوي - 14 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 14,
+        month: 7,
+      },
+      {
+        id: 479,
+        title: "نياحة القديسة سارة الراهبة - 15 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 15,
+        month: 7,
+      },
+      {
+        id: 480,
+        title: "استشهاد القديس إيلياس الإهناسى - 15 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 15,
+        month: 7,
+      },
+      {
+        id: 481,
+        title:
+          "ظهور القديسة العذراء مريم بكنيسة الشهيدة دميانة بحي بابا دوبلو بشبرا – القاهرة - 16 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 16,
+        month: 7,
+      },
+      {
+        id: 482,
+        title:
+          "نياحة القديس البابا خائيل الأول البطريرك السادس والأربعين من بطاركة الكرازة المرقسية - 16 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 16,
+        month: 7,
+      },
+      {
+        id: 483,
+        title: "نياحة لعازر حبيب الرب - 17 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 17,
+        month: 7,
+      },
+      {
+        id: 484,
+        title: "استشهاد القديس سيدهم بشاي بدمياط - 17 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 17,
+        month: 7,
+      },
+      {
+        id: 485,
+        title: "نياحة القديس الأنبا باسيليوس مطران القدس - 17 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 17,
+        month: 7,
+      },
+      {
+        id: 486,
+        title:
+          "تذكار القديسين جرجس العابد وبلاسيوس الشهيد والأنبا يوسف الأسقف - 17 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 17,
+        month: 7,
+      },
+      {
+        id: 487,
+        title: "استشهاد القديس إيسوذوروس رفيق سنا الجندي - 18 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 18,
+        month: 7,
+      },
+      {
+        id: 488,
+        title: "استشهاد القديس أرسطوبولس الرسول أحد السبعين رسولاً - 19 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 19,
+        month: 7,
+      },
+      {
+        id: 489,
+        title: "استشهاد القديسين ألكسندروس وأغابيوس ومن معهما - 19 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 19,
+        month: 7,
+      },
+      {
+        id: 490,
+        title:
+          "نياحة القديس البابا خائيل الثالث البطريرك السادس والخمسين من بطاركة الكرازة المرقسية - 20 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 20,
+        month: 7,
+      },
+      {
+        id: 491,
+        title: "تذكار إقامة لعازر حبيب الرب من الموت - 20 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 20,
+        month: 7,
+      },
+      {
+        id: 492,
+        title: "تذكار والدة الإله القديسة الطاهرة مريم العذراء - 21 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 21,
+        month: 7,
+      },
+      {
+        id: 493,
+        title:
+          "دخول المخلص بيت عنيا، وتشاور عظماء الكهنة على قتل لعازر الصديق الذي أقامه الرب - 21 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 21,
+        month: 7,
+      },
+      {
+        id: 494,
+        title: "استشهاد القديسين تاؤدوروس وتيموثاوس - 21 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 21,
+        month: 7,
+      },
+      {
+        id: 495,
+        title: "نياحة القديس كيرلس أسقف أورشليم - 22 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 22,
+        month: 7,
+      },
+      {
+        id: 496,
+        title: "نياحة البار يوسف الرامي - 22 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 22,
+        month: 7,
+      },
+      {
+        id: 497,
+        title: "نياحة القديس ميخائيل أسقف نقادة - 22 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 22,
+        month: 7,
+      },
+      {
+        id: 498,
+        title: "نياحة الصديق العظيم دانيال النبي - 23 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 23,
+        month: 7,
+      },
+      {
+        id: 499,
+        title: "تذكار ظهور القديسة العذراء مريم بكنيستها بالزيتون - 24 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 24,
+        month: 7,
+      },
+      {
+        id: 500,
+        title:
+          "نياحة القديس البابا مكاريوس الأول البطريرك التاسع والخمسين من بطاركة الكرازة المرقسية - 24 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 24,
+        month: 7,
+      },
+      {
+        id: 501,
+        title: "نياحة القديس فريسكا أحد السبعين رسولاً - 25 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 25,
+        month: 7,
+      },
+      {
+        id: 502,
+        title: "استشهاد القديس أنيسيفورس أحد السبعين رسولاً - 25 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 25,
+        month: 7,
+      },
+      {
+        id: 503,
+        title:
+          "نياحة القديس البابا متاؤس الثالث البطريرك المائة من بطاركة الكرازة المرقسية - 25 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 25,
+        month: 7,
+      },
+      {
+        id: 504,
+        title: "نياحة القديسة براكسيا العذراء - 26 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 26,
+        month: 7,
+      },
+      {
+        id: 505,
+        title:
+          "نياحة القديس البابا بطرس السادس البطريرك المائة والرابع من بطاركة الكرازة المرقسية - 26 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 26,
+        month: 7,
+      },
+      {
+        id: 506,
+        title: "صلب ربنا يسوع المسيح بالجسد من أجل خلاص العالم - 27 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 27,
+        month: 7,
+      },
+      {
+        id: 507,
+        title: "نياحة القديس مكاريوس الكبير أب رهبان برية شيهيت - 27 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 27,
+        month: 7,
+      },
+      {
+        id: 508,
+        title: "استشهاد القديس دوميكيوس - 27 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 27,
+        month: 7,
+      },
+      {
+        id: 509,
+        title: "نياحة الإمبراطور قسطنطين الكبير - 28 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 28,
+        month: 7,
+      },
+      {
+        id: 510,
+        title:
+          "نياحة القديس البابا بطرس السابع البطريرك المائة والتاسع من بطاركة الكرازة المرقسية - 28 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 28,
+        month: 7,
+      },
+      {
+        id: 511,
+        title: "نياحة القديس الأنبا صرابامون الشهير بأبي طرحة - 28 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 28,
+        month: 7,
+      },
+      {
+        id: 512,
+        title: "عيد البشارة المجيد - 29 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 29,
+        month: 7,
+      },
+      {
+        id: 513,
+        title: "تذكار قيامة السيد المسيح من الأموات - 29 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 29,
+        month: 7,
+      },
+      {
+        id: 514,
+        title: "تذكار رئيس الملائكة جبرائيل المبشر - 30 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 30,
+        month: 7,
+      },
+      {
+        id: 515,
+        title: "نياحة شمشون، أحد قضاة بني إسرائيل - 30 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 30,
+        month: 7,
+      },
+      {
+        id: 516,
+        title:
+          "تذكار نقل أعضاء القديس يعقوب الفارسي الشهير بالمقطَّع - 30 برمهات",
+        date: null,
+        story: "",
+        selected: false,
+        day: 30,
+        month: 7,
+      },
+      {
+        id: 517,
+        title: "نياحة القديس سلوانس الراهب - 1 برمودة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 1,
+        month: 8,
+      },
+      {
+        id: 518,
+        title: "نياحة هارون الكاهن - 1 برمودة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 1,
+        month: 8,
+      },
+      {
+        id: 519,
+        title: "تذكار غارة عُربان الصعيد على برية شيهيت - 1 برمودة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 1,
+        month: 8,
+      },
+      {
+        id: 520,
+        title: "استشهاد القديس خرستوفورس - 2 برمودة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 2,
+        month: 8,
+      },
+      {
+        id: 521,
+        title:
+          "نياحة القديس البابا يوأنس التاسع البطريرك الحادي والثمانين من بطاركة الكرازة المرقسية - 2 برمودة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 2,
+        month: 8,
+      },
+      {
+        id: 522,
+        title:
+          "نياحة القديس البابا ميخائيل الثاني البطريرك الحادي والسبعين من بطاركة الكرازة المرقسية - 3 برمودة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 3,
+        month: 8,
+      },
+      {
+        id: 523,
+        title: "نياحة القديس يوحنا أسقف أورشليم - 3 برمودة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 3,
+        month: 8,
+      },
+      {
+        id: 524,
+        title:
+          "شهادة القديسين بقطر وأكاكيوس وداكيوس وإيريني العذراء ومن معهم من رجال ونساء وعذارى - 4 برمودة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 4,
+        month: 8,
+      },
+      {
+        id: 525,
+        title: "نياحة القديس أوكين - 4 برمودة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 4,
+        month: 8,
+      },
+      {
+        id: 526,
+        title: "استشهاد النبي حزقيال بن بوزي - 5 برمودة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 5,
+        month: 8,
+      },
+      {
+        id: 527,
+        title: "استشهاد القديس هيباتيوس أسقف غنغرة - 5 برمودة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 5,
+        month: 8,
+      },
+      {
+        id: 528,
+        title: "تذكار نياحة القديسة مريم المصرية السائحة - 6 برمودة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 6,
+        month: 8,
+      },
+      {
+        id: 529,
+        title: "نياحة الصديق يواقيم والد القديسة العذراء مريم - 7 برمودة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 7,
+        month: 8,
+      },
+      {
+        id: 530,
+        title: "نياحة القديس مقروفيوس - 7 برمودة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 7,
+        month: 8,
+      },
+      {
+        id: 531,
+        title: "استشهاد القديسين أغابيوس وثيئودورة - 7 برمودة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 7,
+        month: 8,
+      },
+      {
+        id: 532,
+        title: "استشهاد العذارى القديسات أغابي وإيريني وشيونيه - 8 برمودة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 8,
+        month: 8,
+      },
+      {
+        id: 533,
+        title: "استشهاد المائة والخمسين مؤمناً على يد ملك الفرس - 8 برمودة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 8,
+        month: 8,
+      },
+      {
+        id: 534,
+        title: "نياحة القديس الأنبا زوسيما القس - 9 برمودة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 9,
+        month: 8,
+      },
+      {
+        id: 535,
+        title:
+          "تذكار الأعجوبة التي صُنعَت على يد القديس البابا شنوده الأول البطريرك الخامس والخمسين - 9 برمودة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 9,
+        month: 8,
+      },
+      {
+        id: 536,
+        title: "نياحة الأنبا إيساك تلميذ الأنبا أبُلوس - 10 برمودة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 10,
+        month: 8,
+      },
+      {
+        id: 537,
+        title:
+          "نياحة القديس البابا غبريال الثاني البطريرك السبعين الشهير بابن تريك - 10 برمودة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 10,
+        month: 8,
+      },
+      {
+        id: 538,
+        title: "نياحة القديسة ثيئودورا - 11 برمودة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 11,
+        month: 8,
+      },
+      {
+        id: 539,
+        title: "نياحة القديس يوحنا أسقف غزة - 11 برمودة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 11,
+        month: 8,
+      },
+      {
+        id: 540,
+        title: "تذكار رئيس الملائكة الجليل ميخائيل - 12 برمودة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 12,
+        month: 8,
+      },
+      {
+        id: 541,
+        title: "نياحة القديس ألكسندروس المعترف أسقف أورشليم - 12 برمودة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 12,
+        month: 8,
+      },
+      {
+        id: 542,
+        title: "نياحة القديس أنطونيوس أسقف طمويه - 12 برمودة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 12,
+        month: 8,
+      },
+      {
+        id: 543,
+        title: "استشهاد القديسين يشوع ويوسف - 13 برمودة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 13,
+        month: 8,
+      },
+      {
+        id: 544,
+        title:
+          "نياحة القديس البابا يوأنس السابع عشر البطريرك الخامس بعد المائة من بطاركة الكرازة المرقسية - 13 برمودة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 13,
+        month: 8,
+      },
+      {
+        id: 545,
+        title: "نياحة القديسة ديونيسة - 13 برمودة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 13,
+        month: 8,
+      },
+      {
+        id: 546,
+        title: "استشهاد القديس ميديوس الشهيد - 13 برمودة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 13,
+        month: 8,
+      },
+      {
+        id: 547,
+        title:
+          "نياحة القديس البابا مكسيموس البطريرك الخامس عشر من بطاركة الكرازة المرقسية - 14 برمودة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 14,
+        month: 8,
+      },
+      {
+        id: 548,
+        title: "نياحة القديس إهرون السرياني - 14 برمودة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 14,
+        month: 8,
+      },
+      {
+        id: 549,
+        title: "تكريس كنيسة القديس أغابوس أحد السبعين - 15 برمودة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 15,
+        month: 8,
+      },
+      {
+        id: 550,
+        title: "استشهاد القديسة ألكسندرة الملكة - 15 برمودة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 15,
+        month: 8,
+      },
+      {
+        id: 551,
+        title:
+          "نياحة القديس البابا مرقس السادس البطريرك الأول بعد المائة من بطاركة الكرازة المرقسية - 15 برمودة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 15,
+        month: 8,
+      },
+      {
+        id: 552,
+        title:
+          "استشهاد القديس أنتيباس أسقف برغامس تلميذ القديس يوحنا الرسول - 16 برمودة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 16,
+        month: 8,
+      },
+      {
+        id: 553,
+        title: "تذكار إصعاد أخنوخ البار حياً إلى السماء - 16 برمودة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 16,
+        month: 8,
+      },
+      {
+        id: 554,
+        title:
+          "استشهاد القديس يعقوب الكبير أحد الاثني عشر رسولاً وشقيق يوحنا الحبيب - 17 برمودة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 17,
+        month: 8,
+      },
+      {
+        id: 555,
+        title: "نياحة القديس نيقوديموس - 17 برمودة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 17,
+        month: 8,
+      },
+      {
+        id: 556,
+        title: "استشهاد القديس أرسانيوس تلميذ القديس سوسنيوس - 18 برمودة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 18,
+        month: 8,
+      },
+      {
+        id: 557,
+        title:
+          "نياحة القديس أبوللو تلميذ القديس الأنبا صموئيل المعترف - 18 برمودة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 18,
+        month: 8,
+      },
+      {
+        id: 558,
+        title: "استشهاد القديس سمعان الأرمني أسقف بلاد فارس - 19 برمودة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 19,
+        month: 8,
+      },
+      {
+        id: 559,
+        title:
+          "استشهاد الشهداء يوحنا أبو نجاح الكبير والرئيس أبو العلا فهد بن إبراهيم وزملائهما - 19 برمودة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 19,
+        month: 8,
+      },
+      {
+        id: 560,
+        title: "استشهاد الراهب داود بن غبريال البرجي - 19 برمودة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 19,
+        month: 8,
+      },
+      {
+        id: 561,
+        title:
+          "استشهاد القديس ببنوده الذي من دندرة (دندرة: قرية كبيرة تقع غرب مدينة قنا) - 20 برمودة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 20,
+        month: 8,
+      },
+      {
+        id: 562,
+        title: "تذكار القديسة العذراء مريم والدة الإله - 21 برمودة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 21,
+        month: 8,
+      },
+      {
+        id: 563,
+        title: "نياحة القديس بروتاؤس أسقف أثينا - 21 برمودة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 21,
+        month: 8,
+      },
+      {
+        id: 564,
+        title:
+          "نياحة القديس البابا ألكسندروس الأول البطريرك التاسع عشر من بطاركة الكرازة المرقسية - 22 برمودة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 22,
+        month: 8,
+      },
+      {
+        id: 565,
+        title:
+          "نياحة القديس البابا مرقس الثاني البطريرك التاسع والأربعين من بطاركة الكرازة المرقسية - 22 برمودة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 22,
+        month: 8,
+      },
+      {
+        id: 566,
+        title:
+          "نياحة القديس البابا خائيل الثاني البطريرك الثالث والخمسين من بطاركة الكرازة المرقسية - 22 برمودة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 22,
+        month: 8,
+      },
+      {
+        id: 567,
+        title: "نياحة القديس إسحاق الهوريني - 22 برمودة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 22,
+        month: 8,
+      },
+      {
+        id: 568,
+        title: "شهادة القديس جورجيوس العظيم في الشهداء - 23 برمودة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 23,
+        month: 8,
+      },
+      {
+        id: 569,
+        title: "استشهاد القديس سنا الجندي رفيق القديس إيسوذوروس - 24 برمودة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 24,
+        month: 8,
+      },
+      {
+        id: 570,
+        title:
+          "نياحة القديس البابا شنوده الأول البطريرك الخامس والخمسين من بطاركة الكرازة المرقسية - 24 برمودة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 24,
+        month: 8,
+      },
+      {
+        id: 571,
+        title: "استشهاد القديسة سارة وولديها - 25 برمودة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 25,
+        month: 8,
+      },
+      {
+        id: 572,
+        title:
+          "استشهاد القديس تاوضروس العابد والمائة والعشرين شهيداً - 25 برمودة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 25,
+        month: 8,
+      },
+      {
+        id: 573,
+        title: "شهادة القديس سوسنيوس ومعه 1100 شخصاً - 26 برمودة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 26,
+        month: 8,
+      },
+      {
+        id: 574,
+        title:
+          "نياحة القديس البابا يوأنس السابع البطريرك الثامن والسبعين من بطاركة الكرازة المرقسية - 26 برمودة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 26,
+        month: 8,
+      },
+      {
+        id: 575,
+        title: "شهادة القديس بقطر بن رومانوس - 27 برمودة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 27,
+        month: 8,
+      },
+      {
+        id: 576,
+        title: "استشهاد القديس ميليوس الناسك - 28 برمودة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 28,
+        month: 8,
+      },
+      {
+        id: 577,
+        title: "تذكار الأعياد السيدية البشارة والميلاد والقيامة - 29 برمودة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 29,
+        month: 8,
+      },
+      {
+        id: 578,
+        title: "نياحة القديس أرسطوس أحد السبعين - 29 برمودة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 29,
+        month: 8,
+      },
+      {
+        id: 579,
+        title: "نياحة القديس أكاكيوس أسقف أورشليم - 29 برمودة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 29,
+        month: 8,
+      },
+      {
+        id: 580,
+        title:
+          "استشهاد القديس مار مرقس الرسول الإنجيلي كاروز الديار المصرية - 30 برمودة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 30,
+        month: 8,
+      },
+      {
+        id: 581,
+        title: "ميلاد البتول العذراء مريم والدة الإله - 1 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 1,
+        month: 9,
+      },
+      {
+        id: 582,
+        title: "نياحة أيوب الصديق - 2 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 2,
+        month: 9,
+      },
+      {
+        id: 583,
+        title:
+          "نياحة القديس تادرس الطبانيسي تلميذ القديس باخوميوس أب الشركة - 2 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 2,
+        month: 9,
+      },
+      {
+        id: 584,
+        title: "استشهاد القديس فيلوثاوس من درنكة - 2 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 2,
+        month: 9,
+      },
+      {
+        id: 585,
+        title: "نياحة القديس ياسون أحد السبعين رسولاً - 3 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 3,
+        month: 9,
+      },
+      {
+        id: 586,
+        title: "استشهاد القديس أوتيموس القس من فوه - 3 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 3,
+        month: 9,
+      },
+      {
+        id: 587,
+        title:
+          "نياحة القديس البابا غبريال الرابع البطريرك السادس والثمانين من بطاركة الكرازة المرقسية - 3 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 3,
+        month: 9,
+      },
+      {
+        id: 588,
+        title:
+          "نياحة القديس البابا يوأنس الأول البطريرك التاسع والعشرين من بطاركة الكرازة المرقسية - 4 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 4,
+        month: 9,
+      },
+      {
+        id: 589,
+        title:
+          "نياحة القديس البابا يوأنس الخامس البطريرك الثاني والسبعين من بطاركة الكرازة المرقسية - 4 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 4,
+        month: 9,
+      },
+      {
+        id: 590,
+        title: "استشهاد إرميا النبي - 5 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 5,
+        month: 9,
+      },
+      {
+        id: 591,
+        title: "استشهاد القديس إسحاق الدفراوي - 6 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 6,
+        month: 9,
+      },
+      {
+        id: 592,
+        title: "استشهاد الأم دولاجي وأولادها الأربعة - 6 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 6,
+        month: 9,
+      },
+      {
+        id: 593,
+        title: "استشهاد الأنبا ببنوده من البندارة - 6 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 6,
+        month: 9,
+      },
+      {
+        id: 594,
+        title: "نياحة القديس مكاريوس الإسكندري - 6 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 6,
+        month: 9,
+      },
+      {
+        id: 595,
+        title:
+          "نياحة القديس العظيم البابا أثناسيوس الرسولي البطريرك العشرين من بطاركة الكرازة المرقسية - 7 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 7,
+        month: 9,
+      },
+      {
+        id: 596,
+        title: "تذكار صعود ربنا يسوع المسيح إلى السماء - 8 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 8,
+        month: 9,
+      },
+      {
+        id: 597,
+        title: "استشهاد القديس يحنس السنهوتي - 8 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 8,
+        month: 9,
+      },
+      {
+        id: 598,
+        title: "نياحة القديس الأنبا دانيال قمص برية شيهيت - 8 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 8,
+        month: 9,
+      },
+      {
+        id: 599,
+        title: "نياحة القديسة هيلانة الملكة - 9 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 9,
+        month: 9,
+      },
+      {
+        id: 600,
+        title:
+          "نياحة القديس البابا يوأنس الحادي عشر البطريرك التاسع والثمانين من بطاركة الكرازة المرقسية - 9 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 9,
+        month: 9,
+      },
+      {
+        id: 601,
+        title:
+          "نياحة القديس البابا غبريال الثامن البطريرك السابع والتسعين من بطاركة الكرازة المرقسية - 9 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 9,
+        month: 9,
+      },
+      {
+        id: 602,
+        title:
+          "إلقاء الثلاثة فتية القديسين حنانيا وعزاريا وميصائيل في أتون النار.(مخطوط 295 ميامر دير السريان وتذكر المصادر أن تاريخ نياحتهم 14 هاتور) - 10 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 10,
+        month: 9,
+      },
+      {
+        id: 603,
+        title: "تذكار نياحة القديس الأنبا بفنوتيوس الأسقف - 11 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 11,
+        month: 9,
+      },
+      {
+        id: 604,
+        title:
+          "تذكار استشهاد القديسة ثاؤكليا زوجة القديس يسطس ابن الملك نوماريوس - 11 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 11,
+        month: 9,
+      },
+      {
+        id: 605,
+        title: "تذكار رئيس الملائكة الجليل ميخائيل - 12 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 12,
+        month: 9,
+      },
+      {
+        id: 606,
+        title: "تذكار نقل أعضاء القديس يوحنا ذهبي الفم - 12 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 12,
+        month: 9,
+      },
+      {
+        id: 607,
+        title: "تذكار ظهور صليب من نور فوق الجلجثة - 12 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 12,
+        month: 9,
+      },
+      {
+        id: 608,
+        title:
+          "تذكار نياحة القديس البابا مرقس السابع البطريرك السادس بعد المائة من بطاركة الكرازة المرقسية - 12 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 12,
+        month: 9,
+      },
+      {
+        id: 609,
+        title: "تذكار استشهاد الْمُعَلِّم ملطي - 12 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 12,
+        month: 9,
+      },
+      {
+        id: 610,
+        title: "تذكار تكريس كنيسة الشهيدة دميانة - 12 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 12,
+        month: 9,
+      },
+      {
+        id: 611,
+        title: "نياحة القديس أرسانيوس معلم أولاد الملوك - 13 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 13,
+        month: 9,
+      },
+      {
+        id: 612,
+        title: "استشهاد القديس أبا بيجول الجندي - 13 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 13,
+        month: 9,
+      },
+      {
+        id: 613,
+        title: "نياحة القديس الأنبا باخوميوس أب الشركة الرهبانية - 14 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 14,
+        month: 9,
+      },
+      {
+        id: 614,
+        title: "استشهاد القديس أبيماخوس الفرمي - 14 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 14,
+        month: 9,
+      },
+      {
+        id: 615,
+        title: "استشهاد القديس سمعان الغيور القانوي أحد الاثنى عشر - 15 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 15,
+        month: 9,
+      },
+      {
+        id: 616,
+        title: "استشهاد أربعمائة شهيد بدندرة على اسم السيد المسيح - 15 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 15,
+        month: 9,
+      },
+      {
+        id: 617,
+        title: "تذكار الشماس مينا المتوحد - 15 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 15,
+        month: 9,
+      },
+      {
+        id: 618,
+        title: "نياحة الشيخ شمس الرئاسة أبي البركات الشهير بابن كبر - 15 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 15,
+        month: 9,
+      },
+      {
+        id: 619,
+        title: "تكريس كنيسة القديس يوحنا الإنجيلي بمدينة الإسكندرية - 16 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 16,
+        month: 9,
+      },
+      {
+        id: 620,
+        title: "تذكار نياحة القديس إبيفانيوس أسقف قبرص - 17 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 17,
+        month: 9,
+      },
+      {
+        id: 621,
+        title: "تذكار عيد العنصرة - 18 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 18,
+        month: 9,
+      },
+      {
+        id: 622,
+        title: "نياحة القديس جورجى رفيق القديس أبرآم - 18 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 18,
+        month: 9,
+      },
+      {
+        id: 623,
+        title: "نياحة القديس إسحاق قس القلالى - 19 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 19,
+        month: 9,
+      },
+      {
+        id: 624,
+        title: "استشهاد القديس إيسوذوروس الأنطاكي - 19 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 19,
+        month: 9,
+      },
+      {
+        id: 625,
+        title:
+          "استشهاد الجنود الستة الذين رافقوا الأمير إقلاديوس الشهيد - 20 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 20,
+        month: 9,
+      },
+      {
+        id: 626,
+        title: "نياحة القديس الأنبا أمونيوس المتوحد بجبل تونة - 20 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 20,
+        month: 9,
+      },
+      {
+        id: 627,
+        title: "التذكار الشهري للقديسة العذراء مريم والدة الإله - 21 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 21,
+        month: 9,
+      },
+      {
+        id: 628,
+        title: "نياحة القديس مارتينيانوس - 21 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 21,
+        month: 9,
+      },
+      {
+        id: 629,
+        title: "نياحة القديس أندرونيقوس أحد السبعين - 22 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 22,
+        month: 9,
+      },
+      {
+        id: 630,
+        title: "استشهاد 142 صبياً، 28 سيدة - 22 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 22,
+        month: 9,
+      },
+      {
+        id: 631,
+        title: "نياحة القديس آمون مؤسس برية نتريا - 22 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 22,
+        month: 9,
+      },
+      {
+        id: 632,
+        title: "نياحة القديس يونياس أحد السبعين - 23 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 23,
+        month: 9,
+      },
+      {
+        id: 633,
+        title: "شهادة القديسة تكلا أثناء محاكمة الأمير إقلاديوس - 23 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 23,
+        month: 9,
+      },
+      {
+        id: 634,
+        title: "نياحة القديس بوتامون المعترف - 23 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 23,
+        month: 9,
+      },
+      {
+        id: 635,
+        title: "شهادة القديس يوليانوس وأمه بالإسكندرية - 23 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 23,
+        month: 9,
+      },
+      {
+        id: 636,
+        title: "تذكار مجيء السيد المسيح إلى أرض مصر - 24 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 24,
+        month: 9,
+      },
+      {
+        id: 637,
+        title: "نياحة حبقوق النبي - 24 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 24,
+        month: 9,
+      },
+      {
+        id: 638,
+        title: "استشهاد الراهب القديس شتوفا المقاري ( بشنونة ) - 24 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 24,
+        month: 9,
+      },
+      {
+        id: 639,
+        title: "استشهاد القديس قلتة الأنصناوي الطبيب - 25 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 25,
+        month: 9,
+      },
+      {
+        id: 640,
+        title: "نياحة الأرخن الكريم المعلم إبراهيم الجوهري - 25 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 25,
+        month: 9,
+      },
+      {
+        id: 641,
+        title: "استشهاد القديس توما أحد الاثني عشر رسولاً - 26 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 26,
+        month: 9,
+      },
+      {
+        id: 642,
+        title: "نياحة القديس لعازر حبيب الرب - 27 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 27,
+        month: 9,
+      },
+      {
+        id: 643,
+        title: "نياحة القديس الأنبا توماس السائح بجبل شنشيف - 27 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 27,
+        month: 9,
+      },
+      {
+        id: 644,
+        title:
+          "نياحة القديس البابا يوأنس الثاني البطريرك الثلاثين من بطاركة الكرازة المرقسية - 27 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 27,
+        month: 9,
+      },
+      {
+        id: 645,
+        title: "تذكار نقل جسد القديس إبيفانيوس أسقف قبرص - 28 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 28,
+        month: 9,
+      },
+      {
+        id: 646,
+        title: "تذكار الأعياد السيدية البشارة والميلاد والقيامة - 29 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 29,
+        month: 9,
+      },
+      {
+        id: 647,
+        title: "نياحة القديس سمعان العمودي - 29 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 29,
+        month: 9,
+      },
+      {
+        id: 648,
+        title: "نياحة القديس فورس الرسول أحد السبعين - 30 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 30,
+        month: 9,
+      },
+      {
+        id: 649,
+        title:
+          "نياحة القديس البابا ميخائيل الأول البطريرك الثامن والستين من بطاركة الكرازة المرقسية - 30 بشنس",
+        date: null,
+        story: "",
+        selected: false,
+        day: 30,
+        month: 9,
+      },
+      {
+        id: 650,
+        title: "نياحة القديس كاربوس أحد السبعين - 1 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 1,
+        month: 10,
+      },
+      {
+        id: 651,
+        title: "استشهاد القديس أبي فام الطحاوي الجُندي - 1 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 1,
+        month: 10,
+      },
+      {
+        id: 652,
+        title: "استشهاد القديس قزمان الطحاوي ورفقته - 1 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 1,
+        month: 10,
+      },
+      {
+        id: 653,
+        title: "تكريس كنيسة القديس لاونديوس الشامي - 1 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 1,
+        month: 10,
+      },
+      {
+        id: 654,
+        title: "ظهور جسديّ القديس يوحنا المعمدان وأليشع النبي - 2 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 2,
+        month: 10,
+      },
+      {
+        id: 655,
+        title:
+          "نياحة القديس البابا يوأنس الثامن عشر البطريرك السابع بعد المائة من بطاركة الكرازة المرقسية - 2 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 2,
+        month: 10,
+      },
+      {
+        id: 656,
+        title: "استشهاد القديس اللاديوس الأسقف - 3 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 3,
+        month: 10,
+      },
+      {
+        id: 657,
+        title: "نياحة القديس الأنبا أبرآم أسقف الفيوم والجيزة - 3 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 3,
+        month: 10,
+      },
+      {
+        id: 658,
+        title: "نياحة القديسة مرثا المصرية الناسكة - 3 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 3,
+        month: 10,
+      },
+      {
+        id: 659,
+        title: "استشهاد القديس سينوسيوس - 4 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 4,
+        month: 10,
+      },
+      {
+        id: 660,
+        title: "استشهاد القديس يوحنا الهرقلي - 4 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 4,
+        month: 10,
+      },
+      {
+        id: 661,
+        title: "استشهاد القديس الأنبا آمون والبارة صوفية - 4 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 4,
+        month: 10,
+      },
+      {
+        id: 662,
+        title: "نياحة القديس أباهور - 4 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 4,
+        month: 10,
+      },
+      {
+        id: 663,
+        title:
+          "نياحة القديس البابا يوأنس الثامن البطريرك الثمانين من بطاركة الكرازة المرقسية - 4 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 4,
+        month: 10,
+      },
+      {
+        id: 664,
+        title: "نياحة القديس يعقوب المشرقي المعترف - 5 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 5,
+        month: 10,
+      },
+      {
+        id: 665,
+        title: "استشهاد القديس بيفام - 5 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 5,
+        month: 10,
+      },
+      {
+        id: 666,
+        title: "استشهاد القديس بشاي وبطرس - 5 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 5,
+        month: 10,
+      },
+      {
+        id: 667,
+        title: "تكريس كنيسة القديس بقطر بناحية شو - 5 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 5,
+        month: 10,
+      },
+      {
+        id: 668,
+        title: "استشهاد القديس ثيئودوروس الراهب - 6 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 6,
+        month: 10,
+      },
+      {
+        id: 669,
+        title: "نياحة القديس ديديموس الضرير - 6 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 6,
+        month: 10,
+      },
+      {
+        id: 670,
+        title: "استشهاد القديس أبسخيرون الجندي القلينى - 7 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 7,
+        month: 10,
+      },
+      {
+        id: 671,
+        title: "نياحة القديس مويسيس بجبل أخميم - 7 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 7,
+        month: 10,
+      },
+      {
+        id: 672,
+        title: "تكريس كنيسة الأنبا متاؤس الفاخورى بجبل إسنا - 7 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 7,
+        month: 10,
+      },
+      {
+        id: 673,
+        title:
+          "تذكار تكريس كنيسة السيدة العذراء المعروفة بالمحمَّة (المحمة: مسطرد حالياً، قرب القاهرة) - 8 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 8,
+        month: 10,
+      },
+      {
+        id: 674,
+        title: "استشهاد القديس جرجس الجديد - 8 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 8,
+        month: 10,
+      },
+      {
+        id: 675,
+        title: "تذكار القديسة تمادا وأولادها وأرمانوس وأمه - 8 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 8,
+        month: 10,
+      },
+      {
+        id: 676,
+        title: "نياحة القديس صموئيل النبي - 9 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 9,
+        month: 10,
+      },
+      {
+        id: 677,
+        title: "استشهاد القديس لوكيليانوس وأربعة آخرين معه - 9 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 9,
+        month: 10,
+      },
+      {
+        id: 678,
+        title: "استشهاد القديسين أبامون وسرنا - 9 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 9,
+        month: 10,
+      },
+      {
+        id: 679,
+        title: "نقل أعضاء الشهيد مرقوريوس أبى سيفين إلى مصر - 9 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 9,
+        month: 10,
+      },
+      {
+        id: 680,
+        title: "استشهاد القديس القس مكسي الشنراوي - 10 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 10,
+        month: 10,
+      },
+      {
+        id: 681,
+        title: "استشهاد القديسة دابامون وأختها بصطامون وأمهما صوفية - 10 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 10,
+        month: 10,
+      },
+      {
+        id: 682,
+        title: "تذكار فتح الكنائس - 10 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 10,
+        month: 10,
+      },
+      {
+        id: 683,
+        title:
+          "نياحة القديس البابا يوأنس السادس عشر البطريرك 103 من بطاركة الكرازة المرقسية - 10 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 10,
+        month: 10,
+      },
+      {
+        id: 684,
+        title: "استشهاد القديس إقلاديوس - 11 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 11,
+        month: 10,
+      },
+      {
+        id: 685,
+        title:
+          "تذكار تكريس هيكل الأربعين شهيداً بكنيسة إبسوتير ( المخلص ) بالإسكندرية - 11 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 11,
+        month: 10,
+      },
+      {
+        id: 686,
+        title: "تذكار رئيس الملائكة ميخائيل - 12 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 12,
+        month: 10,
+      },
+      {
+        id: 687,
+        title: "نياحة القديسة أوفيمية - 12 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 12,
+        month: 10,
+      },
+      {
+        id: 688,
+        title:
+          "نياحة القديس البابا يسطس البطريرك السادس من بطاركة الكرازة المرقسية - 12 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 12,
+        month: 10,
+      },
+      {
+        id: 689,
+        title:
+          "نياحة القديس البابا كيرلس الثاني البطريرك السابع والستين من بطاركة الكرازة المرقسية - 12 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 12,
+        month: 10,
+      },
+      {
+        id: 690,
+        title: "تذكار رئيس الملائكة جبرائيل المبشر - 13 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 13,
+        month: 10,
+      },
+      {
+        id: 691,
+        title: "نياحة القديس يوحنا أسقف أورشليم - 13 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 13,
+        month: 10,
+      },
+      {
+        id: 692,
+        title: "استشهاد القديسين أباكير وفيلبس ويوحنا وأبطلماوس - 14 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 14,
+        month: 10,
+      },
+      {
+        id: 693,
+        title:
+          "نياحة القديس البابا يوأنس التاسع عشر البطريرك الثالث عشر بعد المائة من بطاركة الكرازة المرقسية - 14 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 14,
+        month: 10,
+      },
+      {
+        id: 694,
+        title: "تكريس كنيسة الشهيد مار مينا العجائبي بمريوط - 15 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 15,
+        month: 10,
+      },
+      {
+        id: 695,
+        title: "استلام جسد مار مرقس - 15 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 15,
+        month: 10,
+      },
+      {
+        id: 696,
+        title: "نياحة القديس أبى نوفر السائح - 16 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 16,
+        month: 10,
+      },
+      {
+        id: 697,
+        title: "نياحة القديس لاتصون البهنساوي - 17 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 17,
+        month: 10,
+      },
+      {
+        id: 698,
+        title:
+          "عودة رفات القديس مار مرقس إلى الكاتدرائية المرقسية الجديدة - 17 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 17,
+        month: 10,
+      },
+      {
+        id: 699,
+        title:
+          "نياحة القديس البابا داميانوس البطريرك الخامس والثلاثين من بطاركة الكرازة المرقسية - 18 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 18,
+        month: 10,
+      },
+      {
+        id: 700,
+        title:
+          "افتتاح الكاتدرائية الجديدة بدير الأنبا رويس بالقاهرة - 18 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 18,
+        month: 10,
+      },
+      {
+        id: 701,
+        title: "استشهاد القديس جرجس المزاحم - 19 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 19,
+        month: 10,
+      },
+      {
+        id: 702,
+        title: "استشهاد القديس بشاي أنوب - 19 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 19,
+        month: 10,
+      },
+      {
+        id: 703,
+        title:
+          "نياحة البابا أرشيلاؤس البطريرك الثامن عشر من بطاركة الكرازة المرقسية - 19 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 19,
+        month: 10,
+      },
+      {
+        id: 704,
+        title:
+          "وضع جسد القديس مار مرقس الرسول بالمزار المخصص له بكنيسته بدير الأنبا رويس - 19 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 19,
+        month: 10,
+      },
+      {
+        id: 705,
+        title: "نياحة القديس أليشع النبي - 20 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 20,
+        month: 10,
+      },
+      {
+        id: 706,
+        title: "تكريس كنيسة القديس أباكلوج القس - 20 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 20,
+        month: 10,
+      },
+      {
+        id: 707,
+        title: "استشهاد القديس إقلاديوس - 21 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 21,
+        month: 10,
+      },
+      {
+        id: 708,
+        title:
+          "تذكار تكريس هيكل الأربعين شهيداً بكنيسة إبسوتير ( المخلص ) بالإسكندرية - 21 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 21,
+        month: 10,
+      },
+      {
+        id: 709,
+        title: "تكريس كنيسة الشهيدين قزمان ودميان وإخوتهما وأمهما - 22 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 22,
+        month: 10,
+      },
+      {
+        id: 710,
+        title: "نياحة القديس أبانوب المعترف - 23 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 23,
+        month: 10,
+      },
+      {
+        id: 711,
+        title: "استشهاد القديس الأنبا موسى الأسود - 24 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 24,
+        month: 10,
+      },
+      {
+        id: 712,
+        title: "نياحة القديس إيسوذوروس قس الإسقيط - 24 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 24,
+        month: 10,
+      },
+      {
+        id: 713,
+        title:
+          "نياحة القديس البابا بطرس الرابع البطريرك الرابع والثلاثين من بطاركة الكرازة المرقسية - 25 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 25,
+        month: 10,
+      },
+      {
+        id: 714,
+        title: "تكريس كنيسة الملاك غبريال بجبل النقلون بالفيوم - 26 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 26,
+        month: 10,
+      },
+      {
+        id: 715,
+        title: "استشهاد القديس حنانيا الرسول - 27 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 27,
+        month: 10,
+      },
+      {
+        id: 716,
+        title: "استشهاد القديس توماس الذي من شندلات - 27 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 27,
+        month: 10,
+      },
+      {
+        id: 717,
+        title: "نياحة القديس يوحنا بن الأبح - 27 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 27,
+        month: 10,
+      },
+      {
+        id: 718,
+        title:
+          "نياحة القديس البابا ثاؤدوسيوس البطريرك الثالث والثلاثين من بطاركة الكرازة المرقسية - 28 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 28,
+        month: 10,
+      },
+      {
+        id: 719,
+        title: "تذكار تكريس كنيسة الأنبا صرابامون أسقف نيقيوس - 28 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 28,
+        month: 10,
+      },
+      {
+        id: 720,
+        title: "تذكار الأعياد السيدية البشارة والميلاد والقيامة - 29 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 29,
+        month: 10,
+      },
+      {
+        id: 721,
+        title: "استشهاد السبعة نساك بجبل تونة - 29 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 29,
+        month: 10,
+      },
+      {
+        id: 722,
+        title: "استشهاد القديسين أباهور وديودورة أمه - 29 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 29,
+        month: 10,
+      },
+      {
+        id: 723,
+        title: "ميلاد القديس يوحنا المعمدان - 30 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 30,
+        month: 10,
+      },
+      {
+        id: 724,
+        title:
+          "نياحة القديس البابا قسما الأول البطريرك الرابع والأربعين من بطاركة الكرازة المرقسية - 30 بؤونة",
+        date: null,
+        story: "",
+        selected: false,
+        day: 30,
+        month: 10,
+      },
+      {
+        id: 725,
+        title: "استشهاد القديسة أفرونيا الناسكة - 1 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 1,
+        month: 11,
+      },
+      {
+        id: 726,
+        title: "نياحة القديسين بيوخا وتيابان القسيسين - 1 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 1,
+        month: 11,
+      },
+      {
+        id: 727,
+        title: "تكريس كنيسة الشهيد مار مينا بجبل أبنوب - 1 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 1,
+        month: 11,
+      },
+      {
+        id: 728,
+        title: "استشهاد القديس يهوذا الرسول ( لباوس الملقب تداوس ) - 2 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 2,
+        month: 11,
+      },
+      {
+        id: 729,
+        title:
+          "نياحة القديس البابا كيرلس الأول البطريرك الرابع والعشرين من بطاركة الكرازة المرقسية - 3 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 3,
+        month: 11,
+      },
+      {
+        id: 730,
+        title: "نياحة القديس كلستينوس بابا روما - 3 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 3,
+        month: 11,
+      },
+      {
+        id: 731,
+        title: "تذكار نقل أعضاء الشهيدين أباكير ويوجنا - 4 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 4,
+        month: 11,
+      },
+      {
+        id: 732,
+        title: "استشهاد القديسين بطرس وبولس - 5 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 5,
+        month: 11,
+      },
+      {
+        id: 733,
+        title: "استشهاد القديس مرقس والي البرلس، والد القديسة دميانة - 5 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 5,
+        month: 11,
+      },
+      {
+        id: 734,
+        title: "استشهاد القديس أولمباس أحد السبعين تلميذاً - 6 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 6,
+        month: 11,
+      },
+      {
+        id: 735,
+        title: "استشهاد القديسة ثاؤدوسية ومن معها - 6 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 6,
+        month: 11,
+      },
+      {
+        id: 736,
+        title: "نياحة القديس العظيم الأنبا شنوده رئيس المتوحدين - 7 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 7,
+        month: 11,
+      },
+      {
+        id: 737,
+        title: "نياحة القديس الأنبا بيشوي - 8 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 8,
+        month: 11,
+      },
+      {
+        id: 738,
+        title: "استشهاد القديسين أبيرؤوه وأثوم - 8 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 8,
+        month: 11,
+      },
+      {
+        id: 739,
+        title: "استشهاد القديس بلانا القس - 8 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 8,
+        month: 11,
+      },
+      {
+        id: 740,
+        title: "استشهاد القديس بيمانون - 8 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 8,
+        month: 11,
+      },
+      {
+        id: 741,
+        title: "نياحة القديس الأنبا كاراس السائح - 8 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 8,
+        month: 11,
+      },
+      {
+        id: 742,
+        title: "نياحة القديس مرقس الأنطوني - 8 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 8,
+        month: 11,
+      },
+      {
+        id: 743,
+        title: "استشهاد القديس سمعان بن حلفي أسقف أورشليم - 9 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 9,
+        month: 11,
+      },
+      {
+        id: 744,
+        title:
+          "نياحة القديس البابا كلاوديانوس البطريرك التاسع من بطاركة الكرازة المرقسية - 9 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 9,
+        month: 11,
+      },
+      {
+        id: 745,
+        title: "استشهاد القديس ثاؤدوروس أسقف الخمس مدن الغربية - 10 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 10,
+        month: 11,
+      },
+      {
+        id: 746,
+        title: "استشهاد القديس ثاؤدوروس أسقف كورنثوس ومن معه - 10 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 10,
+        month: 11,
+      },
+      {
+        id: 747,
+        title: "استشهاد القديسين يوحنا وسمعان ابن عمه - 11 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 11,
+        month: 11,
+      },
+      {
+        id: 748,
+        title: "نياحة القديس العظيم الأنبا إشعياء الإسقيطى - 11 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 11,
+        month: 11,
+      },
+      {
+        id: 749,
+        title: "تذكار رئيس الملائكة الجليل ميخائيل رئيس جند الرب - 12 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 12,
+        month: 11,
+      },
+      {
+        id: 750,
+        title: "استشهاد القديس أباهور السرياقوسي - 12 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 12,
+        month: 11,
+      },
+      {
+        id: 751,
+        title: "نياحة القديس الأنبا شيشوي الكبير - 12 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 12,
+        month: 11,
+      },
+      {
+        id: 752,
+        title: "نياحة القديس بسنتاؤس أسقف قفط - 13 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 13,
+        month: 11,
+      },
+      {
+        id: 753,
+        title: "استشهاد القديس أبامون الطوخى - 13 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 13,
+        month: 11,
+      },
+      {
+        id: 754,
+        title: "استشهاد القديس شنوده في أوائل حكم العرب - 13 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 13,
+        month: 11,
+      },
+      {
+        id: 755,
+        title: "استشهاد القديس بروكونيوس - 14 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 14,
+        month: 11,
+      },
+      {
+        id: 756,
+        title:
+          "نياحة القديس البابا بطرس الخامس البطريرك الثالث والثمانين من بطاركة الكرازة المرقسية - 14 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 14,
+        month: 11,
+      },
+      {
+        id: 757,
+        title: "نياحة القديس مار أفرام السرياني - 15 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 15,
+        month: 11,
+      },
+      {
+        id: 758,
+        title: "استشهاد القديسين كيرياكوس ويوليطة أمه - 15 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 15,
+        month: 11,
+      },
+      {
+        id: 759,
+        title: "استشهاد القديس أوروسيوس - 15 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 15,
+        month: 11,
+      },
+      {
+        id: 760,
+        title: "نياحة القديس يوحنا صاحب الإنجيل الذهب - 16 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 16,
+        month: 11,
+      },
+      {
+        id: 761,
+        title:
+          "وضع جسد الشهيد مار جرجس الروماني بكنيسته بمصر القديمة - 16 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 16,
+        month: 11,
+      },
+      {
+        id: 762,
+        title: "تكريس بيعة الشهيد فيلوثيئوس - 16 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 16,
+        month: 11,
+      },
+      {
+        id: 763,
+        title: "استشهاد القديسة أوفيمية - 17 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 17,
+        month: 11,
+      },
+      {
+        id: 764,
+        title: "استشهاد القديستين تكلا ومرثا من إسنا - 17 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 17,
+        month: 11,
+      },
+      {
+        id: 765,
+        title: "استشهاد القديس يعقوب الرسول أخي الرب - 18 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 18,
+        month: 11,
+      },
+      {
+        id: 766,
+        title:
+          "استشهاد القديسين الأنبا بضابا أسقف قفط وأنبا أندراوس وأنبا خرستوذولوس - 19 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 19,
+        month: 11,
+      },
+      {
+        id: 767,
+        title: "استشهاد شهداء مذبحة إسنا - 19 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 19,
+        month: 11,
+      },
+      {
+        id: 768,
+        title: "استشهاد القديس بطلون الطبيب - 19 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 19,
+        month: 11,
+      },
+      {
+        id: 769,
+        title:
+          "نياحة القديس البابا يوأنس العاشر البطريرك الخامس والثمانين من بطاركة الكرازة المر - 19 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 19,
+        month: 11,
+      },
+      {
+        id: 770,
+        title: "استشهاد القديس تادرس الشُطبي - 20 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 20,
+        month: 11,
+      },
+      {
+        id: 771,
+        title: "تذكار القديسة العذراء مريم - 21 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 21,
+        month: 11,
+      },
+      {
+        id: 772,
+        title: "نياحة القديس سوسنيوس الخصي - 21 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 21,
+        month: 11,
+      },
+      {
+        id: 773,
+        title: "استشهاد القديس مكاريوس بن واسيليدس الوزير - 22 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 22,
+        month: 11,
+      },
+      {
+        id: 774,
+        title: "استشهاد القديس لاونديوس - 22 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 22,
+        month: 11,
+      },
+      {
+        id: 775,
+        title: "استشهاد القديس لونجينوس القائد - 23 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 23,
+        month: 11,
+      },
+      {
+        id: 776,
+        title: "استشهاد القديسة مارينا - 23 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 23,
+        month: 11,
+      },
+      {
+        id: 777,
+        title: "استشهاد القديس أبانوب النهيسي - 24 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 24,
+        month: 11,
+      },
+      {
+        id: 778,
+        title:
+          "نياحة القديس البابا سيماؤن الثاني البطريرك الثاني والأربعين من بطاركة الكرازة المرقسية - 24 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 24,
+        month: 11,
+      },
+      {
+        id: 779,
+        title: "تكريس كنيسة الشهيد مرقوريوس أبي سيفين - 25 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 25,
+        month: 11,
+      },
+      {
+        id: 780,
+        title: "استشهاد القديس إسحاق - 25 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 25,
+        month: 11,
+      },
+      {
+        id: 781,
+        title: "استشهاد القديسة ليارية - 25 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 25,
+        month: 11,
+      },
+      {
+        id: 782,
+        title: "استشهاد القديستين تكلة وموجي - 25 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 25,
+        month: 11,
+      },
+      {
+        id: 783,
+        title: "استشهاد القديس أنطونيوس البباوي - 25 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 25,
+        month: 11,
+      },
+      {
+        id: 784,
+        title: "استشهاد القديس أباكراجون - 25 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 25,
+        month: 11,
+      },
+      {
+        id: 785,
+        title: "استشهاد القديس دوماديوس السرياني - 25 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 25,
+        month: 11,
+      },
+      {
+        id: 786,
+        title: "نياحة القديس بلامون - 25 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 25,
+        month: 11,
+      },
+      {
+        id: 787,
+        title: "نياحة القديس يوسف البار خطيب القديسة مريم العذراء - 26 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 26,
+        month: 11,
+      },
+      {
+        id: 788,
+        title:
+          "نياحة القديس البابا تيموثاوس الأول البطريرك الثاني والعشرين من بطاركة الكرازة المرقسية - 26 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 26,
+        month: 11,
+      },
+      {
+        id: 789,
+        title: "استشهاد القديس أبامون - 27 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 27,
+        month: 11,
+      },
+      {
+        id: 790,
+        title: "تكريس كنيسة القديس أبي فام الجندي الأوسيمي - 27 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 27,
+        month: 11,
+      },
+      {
+        id: 791,
+        title: "نياحة القديسة مريم المجدلية - 28 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 28,
+        month: 11,
+      },
+      {
+        id: 792,
+        title: "تذكار الأعياد السيدية البشارة والميلاد والقيامة - 29 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 29,
+        month: 11,
+      },
+      {
+        id: 793,
+        title: "تذكار نقل أعضاء القديس أندراوس الرسول - 29 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 29,
+        month: 11,
+      },
+      {
+        id: 794,
+        title: "استشهاد القديس ورشنوفيوس - 29 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 29,
+        month: 11,
+      },
+      {
+        id: 795,
+        title: "استشهاد القديس مرقوريوس وأفرام من أخميم - 30 ابيب",
+        date: null,
+        story: "",
+        selected: false,
+        day: 30,
+        month: 11,
+      },
+      {
+        id: 796,
+        title: "استشهاد القديس أبالي بن يسطس - 1 مسرى",
+        date: null,
+        story: "",
+        selected: false,
+        day: 1,
+        month: 12,
+      },
+      {
+        id: 797,
+        title:
+          "نياحة القديس البابا كيرلس الخامس البطريرك الثاني عشر بعد المائة من بطاركة الكرازة المرقسية - 1 مسرى",
+        date: null,
+        story: "",
+        selected: false,
+        day: 1,
+        month: 12,
+      },
+      {
+        id: 798,
+        title: "نياحة القديسة بائيسة - 2 مسرى",
+        date: null,
+        story: "",
+        selected: false,
+        day: 2,
+        month: 12,
+      },
+      {
+        id: 799,
+        title: "نقل جسد القديس سمعان العمودي إلى مدينة القسطنطينية - 3 مسرى",
+        date: null,
+        story: "",
+        selected: false,
+        day: 3,
+        month: 12,
+      },
+      {
+        id: 800,
+        title:
+          "نياحة القديس البابا إبريموس البطريرك الخامس من بطاركة الكرازة المرقسية - 3 مسرى",
+        date: null,
+        story: "",
+        selected: false,
+        day: 3,
+        month: 12,
+      },
+      {
+        id: 801,
+        title: "نياحة حزقيا الملك البار - 4 مسرى",
+        date: null,
+        story: "",
+        selected: false,
+        day: 4,
+        month: 12,
+      },
+      {
+        id: 802,
+        title: "تكريس كنيسة القديس العظيم الأنبا أنطونيوس - 4 مسرى",
+        date: null,
+        story: "",
+        selected: false,
+        day: 4,
+        month: 12,
+      },
+      {
+        id: 803,
+        title: "نياحة القديس يوحنا الجُندي - 5 مسرى",
+        date: null,
+        story: "",
+        selected: false,
+        day: 5,
+        month: 12,
+      },
+      {
+        id: 804,
+        title: "استشهاد القديسة يوليطة المجاهدة - 6 مسرى",
+        date: null,
+        story: "",
+        selected: false,
+        day: 6,
+        month: 12,
+      },
+      {
+        id: 805,
+        title: "نياحة القديس يعقوب البرادعي - 6 مسرى",
+        date: null,
+        story: "",
+        selected: false,
+        day: 6,
+        month: 12,
+      },
+      {
+        id: 806,
+        title:
+          "نياحة القديس الأنبا ويصا تلميذ الأنبا شنوده رئيس المتوحدين - 6 مسرى",
+        date: null,
+        story: "",
+        selected: false,
+        day: 6,
+        month: 12,
+      },
+      {
+        id: 807,
+        title:
+          "بشارة الملاك للقديس يواقيم بميلاد القديسة العذراء مريم - 7 مسرى",
+        date: null,
+        story: "",
+        selected: false,
+        day: 7,
+        month: 12,
+      },
+      {
+        id: 808,
+        title:
+          "نياحة القديس البابا تيموثاوس الثاني البطريرك السادس والعشرين من بطاركة الكرازة المرقسية - 7 مسرى",
+        date: null,
+        story: "",
+        selected: false,
+        day: 7,
+        month: 12,
+      },
+      {
+        id: 809,
+        title: "نياحة القديس بسنتاؤس الناسك بجبل الطود - 7 مسرى",
+        date: null,
+        story: "",
+        selected: false,
+        day: 7,
+        month: 12,
+      },
+      {
+        id: 810,
+        title: "استشهاد القديسين أليعازر وزوجته سالومى وأولادهما - 8 مسرى",
+        date: null,
+        story: "",
+        selected: false,
+        day: 8,
+        month: 12,
+      },
+      {
+        id: 811,
+        title: "استشهاد القديس آري الشطانوفي القس - 9 مسرى",
+        date: null,
+        story: "",
+        selected: false,
+        day: 9,
+        month: 12,
+      },
+      {
+        id: 812,
+        title: "استشهاد القديس بيخبيس - 10 مسرى",
+        date: null,
+        story: "",
+        selected: false,
+        day: 10,
+        month: 12,
+      },
+      {
+        id: 813,
+        title: "استشهاد القديس مطرا - 10 مسرى",
+        date: null,
+        story: "",
+        selected: false,
+        day: 10,
+        month: 12,
+      },
+      {
+        id: 814,
+        title: "نياحة القديس مويسيس أسقف أوسيم - 11 مسرى",
+        date: null,
+        story: "",
+        selected: false,
+        day: 11,
+        month: 12,
+      },
+      {
+        id: 815,
+        title: "تذكار رئيس الملائكة الجليل ميخائيل - 12 مسرى",
+        date: null,
+        story: "",
+        selected: false,
+        day: 12,
+        month: 12,
+      },
+      {
+        id: 816,
+        title: "تذكار تملك الإمبراطور قسطنطين على عرش روما - 12 مسرى",
+        date: null,
+        story: "",
+        selected: false,
+        day: 12,
+        month: 12,
+      },
+      {
+        id: 817,
+        title: "عيد التجلي المجيد - 13 مسرى",
+        date: null,
+        story: "",
+        selected: false,
+        day: 13,
+        month: 12,
+      },
+      {
+        id: 818,
+        title:
+          "تذكار الآية العظيمة التي صنعها الله في عهد البابا ثاؤفيلس البطريرك الثالث والعشرين - 14 مسرى",
+        date: null,
+        story: "",
+        selected: false,
+        day: 14,
+        month: 12,
+      },
+      {
+        id: 819,
+        title: "نياحة القديسة مارينا الراهبة - 15 مسرى",
+        date: null,
+        story: "",
+        selected: false,
+        day: 15,
+        month: 12,
+      },
+      {
+        id: 820,
+        title:
+          "نياحة القديس الأرشيدياكون حبيب جرجس (اعترف المجمع المقدس بقداسته في جلسة 20 يونيو 2013م) - 15 مسرى",
+        date: null,
+        story: "",
+        selected: false,
+        day: 15,
+        month: 12,
+      },
+      {
+        id: 821,
+        title: "إعلان إصعاد جسد القديسة الطاهرة مريم إلى السماء - 16 مسرى",
+        date: null,
+        story: "",
+        selected: false,
+        day: 16,
+        month: 12,
+      },
+      {
+        id: 822,
+        title:
+          "نياحة القديس البابا متاؤس الرابع البطريرك الثاني بعد المائة من بطاركة الكرازة المرقسية - 16 مسرى",
+        date: null,
+        story: "",
+        selected: false,
+        day: 16,
+        month: 12,
+      },
+      {
+        id: 823,
+        title: "استشهاد القديس يعقوب الجُندي - 17 مسرى",
+        date: null,
+        story: "",
+        selected: false,
+        day: 17,
+        month: 12,
+      },
+      {
+        id: 824,
+        title: "نياحة البابا ألكسندروس بطريرك القسطنطينية - 18 مسرى",
+        date: null,
+        story: "",
+        selected: false,
+        day: 18,
+        month: 12,
+      },
+      {
+        id: 825,
+        title: "استشهاد وادامون الأرمنتي - 18 مسرى",
+        date: null,
+        story: "",
+        selected: false,
+        day: 18,
+        month: 12,
+      },
+      {
+        id: 826,
+        title: "إعادة جسد القديس مكاريوس الكبير إلى ديره ببرية شيهيت - 19 مسرى",
+        date: null,
+        story: "",
+        selected: false,
+        day: 19,
+        month: 12,
+      },
+      {
+        id: 827,
+        title: "استشهاد الفتية السبعة الذين من أفسس - 20 مسرى",
+        date: null,
+        story: "",
+        selected: false,
+        day: 20,
+        month: 12,
+      },
+      {
+        id: 828,
+        title: "تذكار القديسة العذراء مريم والدة الإله - 21 مسرى",
+        date: null,
+        story: "",
+        selected: false,
+        day: 21,
+        month: 12,
+      },
+      {
+        id: 829,
+        title: "نياحة القديسة إيريني - 21 مسرى",
+        date: null,
+        story: "",
+        selected: false,
+        day: 21,
+        month: 12,
+      },
+      {
+        id: 830,
+        title: "نياحة ميخا النبي - 22 مسرى",
+        date: null,
+        story: "",
+        selected: false,
+        day: 22,
+        month: 12,
+      },
+      {
+        id: 831,
+        title: "نياحة القديس أوغسطينوس - 22 مسرى",
+        date: null,
+        story: "",
+        selected: false,
+        day: 22,
+        month: 12,
+      },
+      {
+        id: 832,
+        title: "استشهاد ثلاثين ألف مسيحي بمدينة الإسكندرية - 23 مسرى",
+        date: null,
+        story: "",
+        selected: false,
+        day: 23,
+        month: 12,
+      },
+      {
+        id: 833,
+        title: "استشهاد القديس دميان بأنطاكية - 23 مسرى",
+        date: null,
+        story: "",
+        selected: false,
+        day: 23,
+        month: 12,
+      },
+      {
+        id: 834,
+        title: "نياحة القديس توما أسقف مرعش - 24 مسرى",
+        date: null,
+        story: "",
+        selected: false,
+        day: 24,
+        month: 12,
+      },
+      {
+        id: 835,
+        title: "نياحة القديس تكلاهيمانوت الحبشي - 24 مسرى",
+        date: null,
+        story: "",
+        selected: false,
+        day: 24,
+        month: 12,
+      },
+      {
+        id: 836,
+        title: "نياحة القديس بيساريون الكبير - 25 مسرى",
+        date: null,
+        story: "",
+        selected: false,
+        day: 25,
+        month: 12,
+      },
+      {
+        id: 837,
+        title:
+          "نياحة القديس البابا مكاريوس الثالث البطريرك الرابع عشر بعد المائة من بطاركة الكرازة المرقسية - 25 مسرى",
+        date: null,
+        story: "",
+        selected: false,
+        day: 25,
+        month: 12,
+      },
+      {
+        id: 838,
+        title: "استشهاد القديس مويسيس والبارة سارة أخته - 26 مسرى",
+        date: null,
+        story: "",
+        selected: false,
+        day: 26,
+        month: 12,
+      },
+      {
+        id: 839,
+        title: "استشهاد القديس أغابيوس الجندي والبارة تكلة أخته - 26 مسرى",
+        date: null,
+        story: "",
+        selected: false,
+        day: 26,
+        month: 12,
+      },
+      {
+        id: 840,
+        title: "استشهاد القديس بنيامين وأودكسية أخته - 27 مسرى",
+        date: null,
+        story: "",
+        selected: false,
+        day: 27,
+        month: 12,
+      },
+      {
+        id: 841,
+        title: "استشهاد القديسة مريم الأرمنية - 27 مسرى",
+        date: null,
+        story: "",
+        selected: false,
+        day: 27,
+        month: 12,
+      },
+      {
+        id: 842,
+        title: "تذكار الآباء القديسين إبراهيم وإسحاق ويعقوب - 28 مسرى",
+        date: null,
+        story: "",
+        selected: false,
+        day: 28,
+        month: 12,
+      },
+      {
+        id: 843,
+        title: "تذكار الأعياد السيدية البشارة والميلاد والقيامة - 29 مسرى",
+        date: null,
+        story: "",
+        selected: false,
+        day: 29,
+        month: 12,
+      },
+      {
+        id: 844,
+        title: "استشهاد القديس أثناسيوس الأسقف وغلاميه - 29 مسرى",
+        date: null,
+        story: "",
+        selected: false,
+        day: 29,
+        month: 12,
+      },
+      {
+        id: 845,
+        title: "وصول جسد القديس يحنس القصير إلى برية شيهيت - 29 مسرى",
+        date: null,
+        story: "",
+        selected: false,
+        day: 29,
+        month: 12,
+      },
+      {
+        id: 846,
+        title: "نياحة ملاخي النبي - 30 مسرى",
+        date: null,
+        story: "",
+        selected: false,
+        day: 30,
+        month: 12,
+      },
+      {
+        id: 847,
+        title: "نياحة القديس أفتيخوس - 1 نسئ",
+        date: null,
+        story: "",
+        selected: false,
+        day: 1,
+        month: 13,
+      },
+      {
+        id: 848,
+        title: "استشهاد القديس بشاي أخي القديس أباهور - 1 نسئ",
+        date: null,
+        story: "",
+        selected: false,
+        day: 1,
+        month: 13,
+      },
+      {
+        id: 849,
+        title: "نياحة القديس تيطس الرسول - 2 نسئ",
+        date: null,
+        story: "",
+        selected: false,
+        day: 2,
+        month: 13,
+      },
+      {
+        id: 850,
+        title: "تذكار رئيس الملائكة الجليل روفائيل - 3 نسئ",
+        date: null,
+        story: "",
+        selected: false,
+        day: 3,
+        month: 13,
+      },
+      {
+        id: 851,
+        title: "استشهاد القديسين أندريانوس ومن معه - 3 نسئ",
+        date: null,
+        story: "",
+        selected: false,
+        day: 3,
+        month: 13,
+      },
+      {
+        id: 852,
+        title:
+          "نياحة القديس البابا يوأنس الرابع عشر البطريرك السادس والتسعين من بطاركة الكرازة المرقسية - 3 نسئ",
+        date: null,
+        story: "",
+        selected: false,
+        day: 3,
+        month: 13,
+      },
+      {
+        id: 853,
+        title: "نياحة القديس بيمن المتوحد - 4 نسئ",
+        date: null,
+        story: "",
+        selected: false,
+        day: 4,
+        month: 13,
+      },
+      {
+        id: 854,
+        title: "نياحة عاموس النبي - 5 نسئ",
+        date: null,
+        story: "",
+        selected: false,
+        day: 5,
+        month: 13,
+      },
+      {
+        id: 855,
+        title: "نياحة القديس يعقوب أسقف مصر - 5 نسئ",
+        date: null,
+        story: "",
+        selected: false,
+        day: 5,
+        month: 13,
+      },
+      {
+        id: 856,
+        title:
+          "نياحة القديس البابا يوأنس الخامس عشر البطريرك التاسع والتسعين من بطاركة الكرازة المرقسية - 5 نسئ",
+        date: null,
+        story: "",
+        selected: false,
+        day: 5,
+        month: 13,
+      },
+      {
+        id: 857,
+        title: "نياحة القديس برسوم العريان - 5 نسئ",
+        date: null,
+        story: "",
+        selected: false,
+        day: 5,
+        month: 13,
+      },
+      {
+        id: 858,
+        title: "اليوم السادس من الشهر الصغير المبارك شكر إلى الله - 6 نسئ",
+        date: null,
+        story: "",
+        selected: false,
+        day: 6,
+        month: 13,
+      },
+    ];
+
+    synaxariumIndex
+      .filter((obj) => obj.day === day && obj.month === month)
+      .forEach((obj) => {
+        let response = sendHttpRequest(
+          apiRoot +
+          "GetSynaxariumStory?id=" +
+          String(obj.id) +
+          "&synaxariumSourceId=1"
+        );
+        if (!response) return;
+
+        let divs = response.querySelectorAll("div");
+        if (divs.length === 0) return;
+        if (!tbl[1]) return;
+        tbl[1][tbl[1].length - 1] += divs[1].innerHTML + "\n";
+        console.log("done ", tbl[0]);
+      });
+  }
+
+  function sendHttpRequest(apiURL: string): Document | void {
+    let request = new XMLHttpRequest();
+    request.open("GET", apiURL);
+
+    request.send();
+    console.log(request.getAllResponseHeaders());
+
+    request.onload = () => {
+      if (request.status === 200) {
+        let responseDoc = new DOMParser().parseFromString(
+          request.response,
+          "text/html"
+        );
+        if (!responseDoc) return;
+        return responseDoc;
+      } else {
+        console.log("error status text = ", request.statusText);
+        return request.statusText;
+      }
+    };
+  }
+}
+
+function _reformatReadingArray(array: string[][][]) {
+  let titlesRows: string[][];
+  return array.map(table => {
+    if (table.filter(row => row[0].startsWith(Prefix.readingRef)).length > 0) return table;
+    titlesRows = table.filter(row => row[0].endsWith('&C=Title') || row[0].endsWith('&C=SubTitle'));
+    let newTable = [];
+    titlesRows.forEach(row => {
+      newTable.push([row[0], row[1]]),
+        newTable.push([
+          Prefix.readingRef + row[2] + '\n' + row[3],
+        ])
+    });
+    return newTable
+
+  });
+}
+
+/**
+ * Removes the spaces and () from the reading references in an array, and inserts a new row if the reference contains '/'
+ * @param {string[][][]} readingArray
+ */
+function _fixReadingReferences(readingArray: string[][][]) {
+
+  let title = readingArray[0][0][0];
+  readingArray
+    .forEach(table =>
+      table.forEach(row => {
+        if (!(row.length === 1 && row[0].startsWith(Prefix.readingRef))) return;
+        row[0] = row[0]
+          .replaceAll('(', '')
+          .replaceAll(')', '')
+          .replaceAll(' ', '');
+
+        row[0] = row[0].replace(Prefix.readingRef, "Prefix.readingRef + \"");
+
+        (function processPsalm() {
+          if (!row[0].includes('PSA:')) return;
+          let parts = row[0].split(':');
+
+          if (/PSA:\d*:\d*,/.test(row[0])) {
+            let splitted = parts[2].split(',')
+            splitted.forEach(n => {
+              if (splitted.indexOf(n) === 0)
+                parts[2] = parts[2].replace(n, n + '-' + n);
+              else parts[2] = parts[2].replace(n, '/' + parts[1] + ':' + n + '-' + n)
+            });
+
+          }
+
+          if (!parts[2].includes('-'))
+            parts[2] = parts[2] + '-' + parts[2]
+
+          row[0] = parts.join(':')
+
+        })();
+
+
+        if (!checkReferenceIntegrity(row[0], title))
+
+          return console.log('The reference is not matching for table. Title = ', title, 'reference = ', row[0]);
+        if (row[0].includes('/')) {
+          let splitted = row[0].split('/');
+          row[0] = splitted[0];
+          table.push([splitted[0].split(':')[0] + ':' + splitted[1]])
+        }
+
+      }));
+
+
+  return readingArray;
+
+  function checkReferenceIntegrity(ref: string, prefix: string) {
+    let Praxis: RegExp[] = [
+      /ACT:\d*:\d*-\d/,
+      /ACT:\d*:\d*-End/
+    ];
+    let stPaul: RegExp[] = [
+      /ROM:\d*:\d*-\d/,
+      /ROM:\d*:\d*-End/,
+      /1CO:\d*:\d*-\d/,
+      /1CO:\d*:\d*-End/,
+      /2CO:\d*:\d*-\d/,
+      /2CO:\d*:\d*-End/,
+      /GAL:\d*:\d*-\d/,
+      /GAL:\d*:\d*-End/,
+      /EPH:\d*:\d*-\d/,
+      /EPH:\d*:\d*-End/,
+      /PHP:\d*:\d*-\d/,
+      /PHP:\d*:\d*-End/,
+      /COL:\d*:\d*-\d/,
+      /COL:\d*:\d*-End/,
+      /1TH:\d*:\d*-\d/,
+      /1TH:\d*:\d*-End/,
+      /2TH:\d*:\d*-\d/,
+      /2TH:\d*:\d*-End/,
+      /1TI:\d*:\d*-\d/,
+      /1TI:\d*:\d*-End/,
+      /2TI:\d*:\d*-\d/,
+      /2TI:\d*:\d*-End/,
+      /TIT:\d*:\d*-\d/,
+      /TIT:\d*:\d*-End/,
+      /PHM:\d*:\d*-\d/,
+      /PHM:\d*:\d*-End/,
+      /HEB:\d*:\d*-\d/,
+      /HEB:\d*:\d*-End/,
+    ]
+    let Catholicon = [
+      /JAS:\d*:\d*-\d/,
+      /JAS:\d*:\d*-End/,
+      /1PE:\d*:\d*-\d/,
+      /1PE:\d*:\d*-End/,
+      /2PE:\d*:\d*-\d/,
+      /2PE:\d*:\d*-End/,
+      /1JN:\d*:\d*-\d/,
+      /1JN:\d*:\d*-End/,
+      /2JN:\d*:\d*-\d/,
+      /2JN:\d*:\d*-End/,
+      /3JN:\d*:\d*-\d/,
+      /3JN:\d*:\d*-End/,
+      /JUD:\d*:\d*-\d/,
+      /JUD:\d*:\d*-End/,
+      ...stPaul
+
+    ];
+
+    let Gospels = [
+      /MAT:\d*:\d*-\d/,
+      /MAT:\d*:\d*-End/,
+      /MRK:\d*:\d*-\d/,
+      /MRK:\d*:\d*-End/,
+      /LUK:\d*:\d*-\d/,
+      /LUK:\d*:\d*-End/,
+      /JHN:\d*:\d*-\d/,
+      /JHN:\d*:\d*-End/,
+    ];
+
+    let group: [RegExp[], string][] = [
+      [stPaul, Prefix.stPaul],
+      [Praxis, Prefix.praxis],
+      [Catholicon, Prefix.Catholicon],
+      [Gospels, Prefix.gospelMass],
+      [Gospels, Prefix.gospelNight],
+      [Gospels, Prefix.gospelDawn],
+      [Gospels, Prefix.gospelVespers]];
+
+    let expressions: RegExp[] = group.find(exp => prefix.startsWith(exp[1]))[0];
+
+    return expressions.map(exp => exp.test(ref)).includes(true)
+
+  }
+}
+
+function _removeDuplicates(array: string[][][]) {
+  array.map((tbl) => {
+    array.forEach((t) => {
+      if (
+        array.indexOf(t) !== array.indexOf(tbl) &&
+        t[0][0] === tbl[0][0] &&
+        t.length === tbl.length
+      ) {
+        console.log("first table = ", tbl, " and duplicate = ", t);
+      } else console.log(t[0][0]);
+    });
+  });
+}
+
+function _findReadingArrayDuplicates(readingArray: string[][][]) {
+  let similar: Set<string> = new Set(),
+    title: string,
+    references: string,
+    allRefs: (string[] | void)[];
+
+  allRefs = readingArray
+    .map(table => {
+      if (table.length < 1) return;
+      title = table[0][0];
+      references =
+        table
+          .filter(row => row.length === 1 && row[0].startsWith(Prefix.readingRef))
+          .map(row => row[0])
+          .join('&&');
+      if (!references) return console.log('No references were found: table title = ', title);
+      if (references.split('&&').length !== table.length - 1)
+        return console.log('The references returned do not match the number of rows starting with Prefix.readingRef. Table title =  ', title);
+      return [title, references];
+
+    });
+
+
+  return allRefs
+    .filter(ref => ref && ref[0] && ref[1])
+    .map(element => {
+      if (similar.has(element[1]))
+        return element;
+      similar.add(element[1])
+    }).filter(ref => ref);
+
+}
+
+function _fixPraxisArray(readingsArray: string[][][]) {
+  readingsArray.forEach(tbl => {
+    tbl.forEach(row => {
+      if (tbl.indexOf(row) === 0) return;
+      if (row[1].includes('-') && confirm(row[1].replaceAll('-', '&&-&&'))) row[1] = row[1].replaceAll('-', '')
+    });
+  });
+  saveOrExportArray(readingsArray, getArrayNameFromArray(readingsArray), true)
+}
+
+function _HelperPrepareArabicChant() {
+  //temporary function
+  let text: string = prompt("Enter text");
+  if (!text) return;
+  let splitted = text.split("_&_"),
+    array: string[] = [];
+  for (let i = 0; i < splitted.length; i += 20) {
+    preparePart(splitted.slice(i, i + 20));
+  }
+
+  function preparePart(part: string[]) {
+    if (part.length % 2 > 0) return console.log("splitted is not even");
+    for (let i = 0; i < part.length / 2; i++) {
+      array.push(part[i]);
+      array.push(
+        " " +
+        String.fromCharCode(beamedEighthNoteCode).repeat(2) +
+        " " +
+        part[i + part.length / 2] +
+        "_&&_"
+      );
+    }
+  }
+  text = array.toString();
+  console.log(text);
+  localStorage.temp = text;
+}
+
+/**
+ * Tests if the readings are available for all the days
+ */
+function _testReadings() {
+  addConsoleSaveMethod(console);
+  let Readings: string[][] = [
+    [Prefix.gospelDawn, "Gospel Dawn"],
+    [Prefix.gospelMass, "Gospel Mass"],
+    [Prefix.gospelVespers, "Gospel Vespers"],
+    [Prefix.gospelNight, 'Gospel Night'],
+    [Prefix.stPaul, 'Saint Paul'],
+    [Prefix.Catholicon, 'Catholicon'],
+    [Prefix.praxis, 'Praxis'],
+    [Prefix.synaxarium, 'Synaxarium'],
+    [Prefix.propheciesDawn, 'Prophecies Dawn'],
+  ];
+  let readingDate: string,
+    result: string = "";
+  setCopticDates(new Date("2023.12.31"));
+
+  for (let i = 1; i < 367; i++) {
+    changeDate(undefined, true, undefined, false);
+    Readings.forEach((prefix) => {
+      if (
+        ![Seasons.GreatLent, Seasons.JonahFast].includes(Season)
+        &&
+        [Prefix.gospelNight, Prefix.propheciesDawn].includes(prefix[0]))
+        return;
+      if (
+        Season === Seasons.GreatLent
+        &&
+        [0, 6].includes(weekDay)
+        &&
+        prefix[0] === Prefix.propheciesDawn)
+        return; //During the Great Lent and Jonah Fast, only the week-days have Prophecies Readings in the Incense Dawn office
+      if (Season === Seasons.JonahFast
+        && prefix[0] === Prefix.gospelNight
+      )
+        return; //No Gospel Night during Jonah Fast
+      if (
+        Season === Seasons.GreatLent
+        &&
+        weekDay !== 0
+        && [Prefix.gospelVespers, Prefix.gospelNight].includes(prefix[0]))
+        return; //During the Great Lent, only Sunday has Vespers (on Saturday afternoon), and Gospel Night (on Sunday afternoon)
+      if (
+        Season === Seasons.GreatLent
+        && weekDay === 6
+        && prefix[0] === Prefix.gospelVespers
+        && copticReadingsDate === "GL57"
+      )
+        return; //no vespers for the Resurrection Sunday
+      if (
+        Season === Seasons.JonahFast
+        && weekDay !== 1
+        && prefix[0] === Prefix.gospelVespers
+      )
+        return; //During the Jonah Fast, only Monday has Vespers prayers
+      if (Season === Seasons.HolyWeek) return; //No readings during the holy week
+
+      (function fetchReadings() {
+        readingDate = copticReadingsDate;
+        if (prefix[0] === Prefix.synaxarium)
+          readingDate = copticDate;
+        let reading: string[][][] =
+          getTablesArrayFromTitlePrefix(prefix[0])
+            .filter((tbl) => isMultiDatedTitleMatching(tbl[0][0], [readingDate]));//We do a filter not a find because Gospels arrays include 2 tables for each day: Psalm table and Gospel table
+
+        if (reading.length < 1) {
+          result += "\n\n\ncopticDate = " + copticDate + "\n";
+          result += "copticReadingsDate = " + copticReadingsDate + "\n";
+          if (weekDay === 0) result += "it is a Sunday \n";
+          result += "\tmissing: " + prefix[1] + "\nquery= " + readingDate + "\n";
+        }
+        // if (reading.length > 0) result += "\ttable: " + '&D=' + copticReadingsDate;
+
+      })();
+
+    });
+  }
+  //@ts-ignore
+  console.save(result, "testReadings Result.doc");
+
+  changeDate(new Date());
 }

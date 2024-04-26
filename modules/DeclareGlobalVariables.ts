@@ -28,8 +28,7 @@ type bibleVerse = string[];
 type bibleChapter = bibleVerse[];
 type bibleBook = [{ usfm: string, human: string, human_long: string, chaptersList: string[] }, bibleChapter[]];
 type Bible = bibleBook[];
-
-type bibleBookKeys = { usfm: string, human: string, human_long: string, chapters: string[] };
+type bibleBookKeys = { usfm: string, human: string, human_long: string, chaptersList: string[] };
 
 //CONSTANTS
 const version: string =
@@ -192,6 +191,7 @@ const Prefix = {
   placeHolder: "PlaceHolder_",
   psalmody: "Psalmody_",
   prayersArray: 'PrayersArray_',
+  readingRef: 'RRef_'
 };
 const plusCharCode: number = 10133;
 const btnClass = "sideBarBtn";
@@ -521,8 +521,7 @@ const nonCopticLanguages = [["AR", "العربية"], ["FR", "Français"], ["EN"
 const copticLanguages = [["COP", "Coptic"], ["CA", "قبطي مُعَرَّبْ"], ['CF', 'Copte en charachères français']];
 const allLanguages: string[][] = [...nonCopticLanguages, ...copticLanguages];
 
-
-var BibleAR: Bible, BibleFR: Bible, BibleEN: Bible;
+const Bibles: { AR: Bible, FR: Bible, EN: Bible, COP:Bible } = { AR: [], FR: [], EN: [], COP: [] };
 
 var userLanguages;
 if (localStorage.userLanguages) userLanguages = JSON.parse(localStorage.userLanguages) || undefined;
