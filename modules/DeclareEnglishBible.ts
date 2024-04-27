@@ -1,1 +1,1 @@
-Bibles.EN = [];
+Bibles.EN[0] = [];

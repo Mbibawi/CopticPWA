@@ -132,11 +132,11 @@ const btnMainMenu: Button = new Button({
       btnBookOfHours,
       btnPsalmody,
     ];
-    if (copticReadingsDate = copticFeasts.PalmSunday){
+    if (copticReadingsDate = copticFeasts.PalmSunday) {
       btnMainMenu.children.push(btnHolyWeek());
       btnMainMenu.children.splice(btnMainMenu.children.indexOf(btnPsalmody), 1);
     };
-      
+
     if (Season === Seasons.HolyWeek) btnMainMenu.children = [btnHolyWeek(), btnBookOfHours];
 
     btnMainMenu.children.push(btnBible());
@@ -2684,10 +2684,10 @@ function btnBible(): Button {
 
     let defaultLangBible: Bible, foreignLangBible: Bible;
 
-    defaultLangBible = Bibles[defaultLanguage];
+    defaultLangBible = Bibles[defaultLanguage][0];
 
     if (foreingLanguage)
-      foreignLangBible = Bibles[foreingLanguage];
+      foreignLangBible = Bibles[foreingLanguage][0];
 
     let bookDefault: bibleBook, bookForeign: bibleBook;
 
@@ -2720,42 +2720,30 @@ function btnBible(): Button {
         let languages = [defaultLanguage];
         if (foreingLanguage) languages.push(foreingLanguage);
 
-        let bible: Bible, chapterText: string, table: string[][], row: string[], splitted: string[];
+        let table: string[][];
 
         (function addTitleRow() {
           table = [
             [
               'Bible_' + bookID + chapterNumber + '&C=Title',
-            ]
+            ],
           ];
         })();
+        
+        let retrievedText =
+          languages.map(lang => {
+            let book = getBibleBooksList(lang).find(b => b.id === bookID);
+            table[0].push(getTitle(book, lang, chapterNumber));
+          return getBibleChapterText({
+            bible: Bibles[lang][0],
+            bookID: bookID,
+            chapterNumber: chapterNumber
+          })
+        });
 
-        languages
-          .forEach(lang => {
-            bible = Bibles[lang];
-            if (!bible) return;
-            book = bible.find(b => b[0].id === bookID);
-            table[0].push(getTitle(book[0], lang, chapterNumber));
-            chapterText = getBibleChapterText(
-              {
-                book: book,
-                chapterNumber: chapterNumber
-              });
-            addText(chapterText, lang)
-          });
+        let rows = splitRetrievedTextIntoParagraphs(retrievedText, languages);
 
-        function addText(chapterText: string, lang: string) {
-          if (!chapterText) return;
-          splitted = chapterText.split('\n');
-          splitted
-            .forEach(parag => {
-              if (languages.indexOf(lang) > 0 && table.length >= splitted.indexOf(parag) + 2)//It is the foreing language
-                row = table[splitted.indexOf(parag) + 1];
-              else row = addNewRow(table);
-
-              insertParagraphText(row, parag, lang);
-            });
-        }
+        table.push(...rows);
 
         showPrayers({
           table: table,
@@ -2767,18 +2755,9 @@ function btnBible(): Button {
 
         scrollToTop();
 
-        function getTitle(book: bibleBookKeys, lang: string, chapterNumber:string): string {
+        function getTitle(book: bibleBookKeys, lang: string, chapterNumber: string): string {
           if (!book) return '';
           return book.human_long + '\n' + (chapterLabel[lang] || '') + chapterNumber
-        }
-
-        function addNewRow(table: string[][]): string[] {
-          table.push([Prefix.same + '&C=NoActor', ...languages.map(lang => '')]);
-          return table[table.length - 1];
-        }
-
-        function insertParagraphText(row: string[], parag: string, lang: string) {
-          row[languages.indexOf(lang) + 1] = parag;
         }
       }
 
@@ -2909,23 +2888,26 @@ function findMassReadingOtherThanGospel(
  * @returns 
  */
 function retrieveReadingTableFromBible(reading: string[][], langs: string[]): string[][] {
- let references =
-    reading.filter(row =>row[0] && row[0].startsWith(Prefix.readingRef))
-      .map(row => row[0]);
+  let references = reading
+    .filter(row => row[0].startsWith(Prefix.readingRef))
+    .map(row => row[0]);
+
   if (references.length < 1) return reading;//It means that there are no rows with references
   //reading = structuredClone(reading);//We create a copy of the table;
-  let ref: string[], splitted: string[], bookID: string;
+  let splitted: string[], bookID: string;
   let ready: Set<[string, bibleChapter]> = new Set();//this set will contain arrays of ["bookID:chapterNumber:lang", chapter] for each chapter treated. If the chapter is found, we will not retreive it again.
-  const retrieved =
-    reading.map(row => {
-      if (reading.indexOf(row) === 0) 
-        return returnTitleRow(row);
-      else if (row[0].startsWith(Prefix.readingRef))
-        return processReadingReference(row);
-      else return row;
-     });
+  const retrieved = [];
 
-    (function mergePsalmVerses() {
+  reading.forEach(row => {
+    if (row[0].startsWith(Prefix.readingRef))
+      retrieved.push(...processReadingReference(row[0]))
+    else retrieved.push(row);
+  });
+
+  retrieved.unshift(returnTitleRow(reading[0])||reading[0]);//!The title must be added after processReadingReference has been called at least once. Otherwise, bookID will not yet be set and the returnTitleRow will fail
+
+
+  (function mergePsalmVerses() {
     //We merge all the psalm rows into 1 row because the split is articial
     if (bookID !== "PSA") return;
     let sliced = retrieved
@@ -2937,33 +2919,48 @@ function retrieveReadingTableFromBible(reading: string[][], langs: string[]): st
       row.forEach(el => merged[row.indexOf(el) + 1] += el)
       return [retrieved[0], merged]
     })
-    
-    })();
+
+  })();
 
   return retrieved
 
-  function processReadingReference(row: string[]) {
-    row.push(...langs.map(lang => ''));//We make the row length equal to the length of a row in a table in a reading array with the same languages sequence
-    row[0] = row[0].replace(Prefix.readingRef, '');
-    if (!row[0]) return;
-    row[0] = row[0].replaceAll(' ', '');//We remove all spaces in the reference in order to avoid errors.
-    splitted = splitTitle(row[0]);
-    ref = splitted[0].split(':');//We should get an array of 3 elements [bookID, chapterNumber, verses], eg: ['GEN', '13', '3-7']
-    if (ref.length < 3) return;
-    langs
-      .forEach(lang => row[langs.indexOf(lang) + 1] = retrieveVersesText(lang, ref[0], ref[1], ref[2]) || '');
-      row[0] = Prefix.same + '&C='
-      row[0] += (splitted[1] || 'NoActor');
-      return row;
+  function processReadingReference(reference: string): string[][] {
+    if (!reference) return;
+    let parts: string[], actor: string;
+
+    (function processReference() {
+      reference = reference
+        .replaceAll(' ', '')//We remove all spaces in the reference in order to avoid errors.
+        .replaceAll(Prefix.readingRef, '');
+        splitted = splitTitle(reference);
+        actor = splitted[1] || 'NoActor';
+        parts = splitted[0].split(':')//We should get an array of 3 elements [bookID, chapterNumber, verses], eg: ['GEN', '13', '3-7'];     
+        if (parts.length < 3) return;
+      })();
+
+    let rows = [];
+
+    parts[2]
+      .split('/')
+      .forEach(versesRange => rows.push(...processVerses(versesRange)));
+
+      return rows;
+    
+      function processVerses(versesRange:string) {
+        let retrievedText = langs.map(lang => retrieveVersesText(lang, parts[0], parts[1], versesRange) || '');
+    
+        return splitRetrievedTextIntoParagraphs(retrievedText, langs, actor);
+    }
+
   }
 
-  function returnTitleRow(row:string[]) {
+  function returnTitleRow(row: string[]) {
     if (row[0].startsWith(Prefix.HolyWeek)) return row; //We exclude holy week because holy week prophecies and gospel title do not follow the general format of  any mass reading
     return [row[0], ...langs.map(lang => getReadingTitle(lang) || '')]
   }
   function getReadingTitle(lang: string): string {
     if (![defaultLanguage, foreingLanguage].includes(lang)) return;
-    let list = getBibleBooksList(lang);
+    let list = Bibles[lang][1] || getBibleBooksList(lang);
     let joiner = {
       AR: 'و',
       FR: 'et',
@@ -2986,13 +2983,13 @@ function retrieveReadingTableFromBible(reading: string[][], langs: string[]): st
     if (![defaultLanguage, foreingLanguage].includes(lang)) return;//We return an empty string if the language is not either the defaultLanguage or the foreignLanguage because in all cases those are the only languages that the user will be able to see. No need to retrieve a language that will not be retrieved
     if (!chapterNumber || !verses) return;
     if (!bookID || bookID.length > 3) return;//books ids are 3 letters length
-    let Bible: Bible = Bibles[lang];
+    let Bible: Bible = Bibles[lang][0];
     if (!Bible) return;
 
- 
+
     let chapterVerses: bibleVerse[];
-    let exists = Array.from(ready).find(array => array[0] === bookID +":" + chapterNumber + ":" + lang);
-    
+    let exists = Array.from(ready).find(array => array[0] === bookID + ":" + chapterNumber + ":" + lang);
+
     if (exists) chapterVerses = exists[1];
     else {
       chapterVerses = getBibleChapter(chapterNumber, undefined, Bible, bookID);
@@ -3000,14 +2997,14 @@ function retrieveReadingTableFromBible(reading: string[][], langs: string[]): st
     };
     return getVersesRange(chapterVerses, verses.split('-'));
 
-    function getVersesRange(chapter:bibleChapter, range:string[]):string {
+    function getVersesRange(chapter: bibleChapter, range: string[]): string {
       if (range.length !== 2) return;
       if (!Number(range[0]) || !Number(range[1])) return;
       while (chapter[chapter.length - 1].length < 2) chapter.pop(); //We remove the last element of the chapter if it is not a verese.
 
       if (range[1].toUpperCase() === 'END') range[1] = chapter[chapter.length - 1][0];
       if (!Number(range[1])) return;
-  
+
       let first = chapter.find(verse => verse[0] === range[0]);
       if (!first) return;
       let last = chapter.find(verse => verse[0] === range[1]);
@@ -3020,6 +3017,74 @@ function retrieveReadingTableFromBible(reading: string[][], langs: string[]): st
   }
 
 }
+
+/**
+ * Splits the array containg the retrieved text in all languages into multiple rows each containg a paragraph according to the paragraphs division in the users's defaultLanguage version of the text
+ * @param {string[]} retrievedText - the array containig the retrieved texts in all the requested languages
+ * @param {string[]} langs - the languages in which the text was retrieved
+ * @param {string} actor - the actor that will be added to the title of each row 
+ */
+function splitRetrievedTextIntoParagraphs(retrievedText: string[], langs: string[], actor:string = 'NoActor') {
+  
+  let newRows = splitDefaultLanguagePargraphsIntoRows(retrievedText[langs.indexOf(defaultLanguage)]
+    .split('\n'));
+  
+  splitOtherLanguagesTextIntoPargraphs(newRows);
+
+  return newRows;
+  
+function splitDefaultLanguagePargraphsIntoRows(paragraphs: string[]) {
+  return paragraphs
+  .map(parag => {
+    let newRow = [Prefix.same + "&C=" + actor];
+    newRow.push(...langs.map(lang => ''));
+    newRow[langs.indexOf(defaultLanguage) + 1] = parag;
+    return newRow
+  });
+}
+
+function splitOtherLanguagesTextIntoPargraphs(newRows:string[][]) {
+  let exp = RegExp('Sup_' + '\\d\*' + '_Sup', 'g');
+  let ranges =
+    newRows
+      .map(row => row[langs.indexOf(defaultLanguage) + 1])//getting the default language paragraph text in each row 
+      .map(text => Array.from(text.matchAll(exp)).map(match=>match[0]))//getting all the verses numbers in each row for the default language paragraph
+      .map(matches => [matches[0], matches[matches.length - 1]]);//returning an array of the first and last verse numbers for each row we shoud get an array like this [[row 0 1st verse, row 0 last verse], [row 1 1st 1st verse, row 1 last verse], [row 2 1st 1st verse, row 2 last verse], etc.]
+
+  langs
+    .forEach(lang => {
+      if (lang === defaultLanguage) return;
+      let text = retrievedText[langs.indexOf(lang)].replaceAll('\n', ' ');//!We must remove all the '\n' characters from the string
+      if (!text) return;
+
+      let paragraphs =
+        ranges.map(versesRange =>
+          splitTextIntoParagraphs(text, versesRange));
+
+      paragraphs
+        .forEach(parag => {
+          newRows[paragraphs.indexOf(parag)][langs.indexOf(lang) + 1] = parag
+      });
+    });
+
+
+    function splitTextIntoParagraphs(text: string, versesRange:string[]) {
+      //versesRange contains 2 elements. Each element is like "Sup_2_Sup". The 1st element is the number of the first verse in the paragraph. The 2nd element is the number of the last verse
+      
+      if (ranges.length === 1) versesRange[1] = '';
+      else if (ranges.indexOf(versesRange) < ranges.length - 1)
+        versesRange[1] = ranges[ranges.indexOf(versesRange) + 1][0];//If we have reached the last element of ranges, we will set versesRange[1] = element 0 of the next element of ranges in order to retrive the text until the end of the last verse number
+      else versesRange[1] = versesRange[1] + '\.\*';
+      let exp = RegExp(versesRange[0] + '\.\*' + versesRange[1]);
+      let match = text.match(exp);
+      if (!match) return '';
+      return match[0].replace(versesRange[1], '');
+    ;
+    }
+
+}
+}
+
 /**
  * takes a liturgie name like "IncenseDawn" or "IncenseVespers" and replaces the word "Mass" in the buttons gospel readings prayers array by the name of the liturgie. It also sets the psalm and the gospel responses according to some sepcific occasions (e.g.: if we are the 29th day of a coptic month, etc.)
  * @param liturgie {string} - expressing the name of the liturigie that will replace the word "Mass" in the original gospel readings prayers array
@@ -3742,7 +3807,7 @@ function addExpandablePrayer(args: {
  * @param {string} bookID - the initials of a given book of bibleVersion
  * @param {string} chapterNumber - the number of the chapter of the book specified in bookID
  */
-function getBibleChapterText(args: { chapterNumber: string, book?: bibleBook, bible?: Bible, bookID?: string}): string {
+function getBibleChapterText(args: { chapterNumber: string, book?: bibleBook, bible?: Bible, bookID?: string }): string {
   if (!args.chapterNumber) return '';
   if (args.book)
     return joinVerses(getBibleChapter(args.chapterNumber, args.book));
@@ -3774,7 +3839,7 @@ function getVerseText(verse: bibleVerse) {
  * @param {string} verseNumber - the number of the verse to be retrieved
  */
 function getBibleVerse(bible: Bible, bookID: string, chapterNumber: string, verseNumber: string): string[] {
-  return getBibleChapter( chapterNumber, undefined, bible, bookID).find(verse => verse[0] === verseNumber)
+  return getBibleChapter(chapterNumber, undefined, bible, bookID).find(verse => verse[0] === verseNumber)
 }
 
 /**
@@ -3785,7 +3850,7 @@ function getBibleVerse(bible: Bible, bookID: string, chapterNumber: string, vers
   */
 function getBibleChapter(chapterNumber: string, book?: bibleBook, bible?: Bible, bookID?: string): string[][] {
   if (!chapterNumber) return;
-  if(!book) book = getBibleBook(bible, bookID);
+  if (!book) book = getBibleBook(bible, bookID);
   if (!book) return;
   let index = book[0].chaptersList.indexOf(chapterNumber);
   if (book[0].chaptersList.length > book[1].length && !Number(book[0].chaptersList[0]))//It means that the first element of the list is the introduction while the chapters do not include the introduction.
@@ -3804,11 +3869,14 @@ function getBibleBook(bible: Bible, bookID: string): bibleBook {
 }
 
 function getBibleBooksList(lang: string): bibleBookKeys[] {
+  if (Bibles[lang][1]) return Bibles[lang][1];
 
-  if (!Bibles[lang]) {
+  if (!Bibles[lang][0]) {
     alert('The Bibles files have not been loaded yet, please try again later');
     return
   };
 
-  return Bibles[lang].map((book: bibleBook) => book[0]);
+  Bibles[lang][1] = Bibles[lang][0].map((book: bibleBook) => book[0]);
+
+  return Bibles[lang][1];
 }

@@ -30,9 +30,10 @@ type bibleBook = [{ id: string, human: string, human_long: string, chaptersList:
 type Bible = bibleBook[];
 type bibleBookKeys = { id: string, human: string, human_long: string, chaptersList: string[] };
 
+
 //CONSTANTS
 const version: string =
-  "v6.5.6 (Intoduced retrieval of the readings by reference; added 2nd canonical books to the bible in Arabic and French. Fixes to the editMode, and other)";
+  "v6.5.7 (Intoduced retrieval of the readings by reference; added 2nd canonical books to the bible in Arabic and French. Fixes to the editMode, and other)";
 const calendarDay: number = 24 * 60 * 60 * 1000; //this is a day in milliseconds
 const containerDiv: HTMLDivElement = document.getElementById(
   "containerDiv") as HTMLDivElement;
@@ -193,6 +194,7 @@ const Prefix = {
   prayersArray: 'PrayersArray_',
   readingRef: 'RRef_'
 };
+Object.freeze(Prefix);
 const plusCharCode: number = 10133;
 const btnClass = "sideBarBtn";
 const eighthNoteCode: number = 9834;
@@ -358,6 +360,7 @@ const bookOfHours: {
     },
   ],
 };
+Object.freeze(bookOfHours);
 
 const ReadingsArrays = {
   PraxisArrayFR: [] as string[][][],
@@ -396,6 +399,7 @@ const Seasons = {
   Harvest: 'Harvest', //between 11/05 and 11/10
   NoSeason: "NoSpecificSeason",
 };
+Object.freeze(Seasons);
 const copticFeasts = {
   AnyDay: "AnyDay",
   Nayrouz: "0101",
@@ -431,6 +435,7 @@ const copticFeasts = {
   Coptic29th: "XXXX", //This value will be set to copticDate by setCopticDates() if today is 29th of the Coptic month and we are in a month where this feast is celebrated
   Coptic21th: "XXXX", //This value will be set to copticDate by setCopticDates() if todya is the 21th of teh Coptic Month 
 };
+Object.freeze(copticFeasts);
 const GreatLordFeasts = [
   copticFeasts.Annonciation,
   copticFeasts.Nativity,
@@ -440,6 +445,7 @@ const GreatLordFeasts = [
   copticFeasts.Ascension,
   copticFeasts.Pentecoste,
 ],
+
   MinorLordFeasts = [
     copticFeasts.Epiphany,
     copticFeasts.Circumcision,
@@ -466,6 +472,12 @@ const GreatLordFeasts = [
     Seasons.ApostlesFast,
     Seasons.StMaryFast,
   ];
+
+Object.freeze(GreatLordFeasts);
+Object.freeze(MinorLordFeasts);
+Object.freeze(lordFeasts);
+Object.freeze(HolyWeek);
+Object.freeze(copticFeasts);
 const MartyrsFeasts = {
   StJohnBaptist: "0201",
   StMarc: "3008",
@@ -482,6 +494,7 @@ const MartyrsFeasts = {
   StBarbara: "0804",
   StMarina: "2311",
 }
+Object.freeze(MartyrsFeasts);
 const nonMartyrsFeasts = {
   StAnton: "2205",
   StBishoy: "0810",
@@ -493,7 +506,7 @@ const nonMartyrsFeasts = {
   StMikaelMetropolis: "", //St Mikhael the Metropolis of Assiut
   StJustAnton: "0804", //St Just of the St. Anton
 }
-
+Object.freeze(nonMartyrsFeasts);
 const stMaryFeasts = {
   StMaryFeast: "1612",//Ascension of St. Mary Body
   StMary1: "0712", //Annonciation of the birth of St. Mary
@@ -502,6 +515,7 @@ const stMaryFeasts = {
   StMary4: "2105", //Departure of St. Mary
   StMary5: "2110", //عيد حل الحديد  
 }
+Object.freeze(stMaryFeasts);
 
 const celestialBeingsFeasts = {
   FourCelestialBeings: "0803",
@@ -512,16 +526,23 @@ const celestialBeingsFeasts = {
   ArchangelRaphael: "0313",
   ArchangelSourial: "2705",
 };
+Object.freeze(celestialBeingsFeasts);
 
 const saintsFeasts = {
   ...celestialBeingsFeasts, ...MartyrsFeasts, ...nonMartyrsFeasts
 };
+Object.freeze(saintsFeasts);
 
 const nonCopticLanguages = [["AR", "العربية"], ["FR", "Français"], ["EN", "English"]];
+Object.freeze(nonCopticLanguages);
 const copticLanguages = [["COP", "Coptic"], ["CA", "قبطي مُعَرَّبْ"], ['CF', 'Copte en charachères français']];
+Object.freeze(copticLanguages)
 const allLanguages: string[][] = [...nonCopticLanguages, ...copticLanguages];
+Object.fromEntries(allLanguages)
 
-const Bibles: { AR: Bible, FR: Bible, EN: Bible, COP:Bible } = { AR: [], FR: [], EN: [], COP: [] };
+const Bibles: { AR: [Bible, bibleBookKeys], FR: [Bible, bibleBookKeys], EN: [Bible, bibleBookKeys], COP: [Bible, bibleBookKeys] } = { AR: [undefined, undefined], FR: [undefined, undefined], EN: [undefined, undefined], COP: [undefined, undefined] };
+
+
 
 var userLanguages;
 if (localStorage.userLanguages) userLanguages = JSON.parse(localStorage.userLanguages) || undefined;
@@ -530,11 +551,14 @@ var foreingLanguage: string = (() => { if (userLanguages) return userLanguages[1
 var copticLanguage: string = (() => { if (userLanguages) return userLanguages[2] })() || undefined;
 
 const prayersLanguages: string[] = ["COP", "FR", "CA", "AR"];
+Object.freeze(prayersLanguages);
 const readingsLanguages: string[] = ["AR", "FR", "EN"];
+Object.freeze(readingsLanguages);
 
 var lastScrollTop: number = 0;
 
 const displayModes = ["Normal", "Presentation", "Priest"];
+Object.freeze(displayModes);
 
 const CommonPrayersArray: string[][][] = []; //an array in which we will group all the common prayers of all the liturgies. It is a subset o PrayersArray
 const MassCommonPrayersArray: string[][][] = []; //an array in which we will save the commons prayers specific to the mass (like the Assembly, Espasmos, etc.)
@@ -617,6 +641,7 @@ const actors: Actor[] = [
     EN: "NoActor",
   },
 ]; //These are the names of the classes given to each row accordin to which we give a specific background color to the div element in order to show who tells the prayer
+Object.freeze(actors);
 var showActors = [];
 actors.map((actor) => showActors.push([actor, true]));
 showActors[3][1] = false; //this is in order to initiate the app without the comments displayed. The user will activate it from the settings if he wants
@@ -732,3 +757,4 @@ const PrayersArraysKeys: [string, string, Function][] = [
   [Prefix.psalmody, "PsalmodyPrayersArray", () => PsalmodyPrayersArray],
   [Prefix.prayersArray, 'PrayersArrayFR', () => PrayersArrayFR],
 ];
+Object.freeze(PrayersArraysKeys);
