@@ -2729,7 +2729,7 @@ function btnBible(): Button {
             ],
           ];
         })();
-        
+
         let retrievedText =
           languages.map(lang => {
             let book = getBibleBooksList(lang).find(b => b.id === bookID);
@@ -3828,7 +3828,9 @@ function getVerseText(verse: bibleVerse) {
   if (!verse) return;
   if (verse.length < 2 && verse[0] === '\n')
     return verse[0];
-  return ('Sup_' + verse[0] + '_Sup' + verse[1]).replaceAll('#', '').replaceAll('*', '');
+  return ('Sup_' + verse[0] + '_Sup' + verse[1])
+    .replaceAll('#', '')
+    .replaceAll('*', '');
 }
 
 /**
