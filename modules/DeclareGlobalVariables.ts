@@ -33,7 +33,7 @@ type bibleBookKeys = { id: string, human: string, human_long: string, chaptersLi
 
 //CONSTANTS
 const version: string =
-  "v6.5.7 (Intoduced retrieval of the readings by reference; added 2nd canonical books to the bible in Arabic and French. Fixes to the editMode, and other)";
+  "v6.5.8 (Fixes to the insertion of readings by references and to the Holy Week Passover buttons)";
 const calendarDay: number = 24 * 60 * 60 * 1000; //this is a day in milliseconds
 const containerDiv: HTMLDivElement = document.getElementById(
   "containerDiv") as HTMLDivElement;
