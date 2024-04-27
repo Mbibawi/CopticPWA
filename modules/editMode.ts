@@ -752,7 +752,7 @@ function replacePrefixes(text: string, arrayName: string): string {
     prefix = "Prefix." + entry[0];
 
     if (entry[1] === Prefix.placeHolder)
-      text = text.replaceAll('"' + eval(prefix) + '"', prefix);
+      text = text.replaceAll('"' + eval(prefix) + '"', prefix);//This is because element [0] of PlaceHoler row is the prefix without any other thing. It thus ends with (") that we neeed to remove
     else text = text.replaceAll('"' + eval(prefix), (prefix += '+"'));
   });
 
