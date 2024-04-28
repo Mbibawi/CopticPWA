@@ -1,5 +1,5 @@
 //CONSTANTS
-const version = "v6.5.8.1 (Fixes to the insertion of readings by references and to the Holy Week Passover buttons)";
+const version = "v6.5.8.2 (Fixes to the insertion of readings by references and to the Holy Week Passover buttons)";
 const calendarDay = 24 * 60 * 60 * 1000; //this is a day in milliseconds
 const containerDiv = document.getElementById("containerDiv");
 const leftSideBar = document.getElementById("leftSideBar");

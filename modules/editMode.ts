@@ -1398,45 +1398,52 @@ function getLanguages(arrayName?): string[] {
  * Converts the coptic font of the text in the selected html element, to a unicode font
  * @param {HTMLElement} htmlElement - an editable html element in which the cursor is placed, containing coptic text in a non unicode font, that we need to convert
  */
-async function convertCopticFont(htmlElement: HTMLElement, fontFrom?: string, promptAll: boolean = true) {
-  let text: string;
-
-
+async function convertCopticFont(htmlElement?: HTMLElement, fontFrom?: string, promptAll: boolean = true, text?:string):Promise<string|void> {
+  
   if (!fontFrom) fontFrom = prompt("Provide the font", "COPTIC1/CS_AVVA_SHENOUDA/AVVA_SHENOUDA/ATHANASIUS/NEW_ATHANASIUS");
-
+  
+  if (!fontFrom) return;
+  
+  if (text && fontFrom) return await convert(text);
+  
   if (promptAll && confirm('Do you want to edit all the coptic paragraphs with the same font?')) {
     let parags = Array.from(containerDiv.querySelectorAll('P') as NodeListOf<HTMLParagraphElement>)
-      .filter(p => p.lang === 'COP');
-
+    .filter(p => p.lang === 'COP');
+    
     for (let parag of parags) {
       await convertCopticFont(parag, fontFrom, false);
     }
-
+    
     return
-
+    
   }
-
+  
   while (htmlElement.tagName !== "P" && htmlElement.parentElement)
-    htmlElement = htmlElement.parentElement;
+  htmlElement = htmlElement.parentElement;
 
-  if (!htmlElement) return alert('Html element not a paragraph');
+if (!htmlElement && !text) return alert('Html element not a paragraph');
 
 
-  if (!['CS_AVVA_SHENOUDA'].includes(fontFrom)) {
-    htmlElement.innerText = await convertFontWithoutAPI(htmlElement.innerText, fontFrom) || htmlElement.innerText;
-    return;
-  };
+  let selected: Selection = getSelectedText();
 
-  await convertFromAPI();
+  if (selected && !selected.isCollapsed)
+    text = await convertFromAPI(selected.toString())|| undefined;
+  else text = await convertFromAPI(htmlElement.textContent) || undefined;
+  
+  if (!text) return alert('Failed to convert the text');
+  window.Selection = null;
+  if (selected)
+    htmlElement.innerText = htmlElement.innerText.replace(selected.toString(), text);
+  else htmlElement.innerText = text;
 
-  async function convertFromAPI() {
-    let selected: Selection = getSelectedText();
+async function convert(originalText:string){
+  if (!['CS_AVVA_SHENOUDA'].includes(fontFrom))
+    return await convertFontWithoutAPI(text, fontFrom);
+  return  await convertFromAPI(originalText);
+}
 
-    if (selected && !selected.isCollapsed)
-      await convertFont(selected.toString());
-    else await convertFont(htmlElement.textContent);
 
-    async function convertFont(originalText: string): Promise<string | void> {
+  async function convertFromAPI(originalText:string) {
       let apiURL = new URL("https://www.copticchurch.net/coptic_language/fonts/convert");
 
       let init: RequestInit = {
@@ -1446,66 +1453,28 @@ async function convertCopticFont(htmlElement: HTMLElement, fontFrom?: string, pr
           "Accept": "text/html",
         },
 
-        body: "from=" +
-          encodeURI(fontFrom) + "&encoding=unicode&action=translate&data=" + encodeURI(originalText)
+        body: 
+          encodeURI("from=" + fontFrom + "&encoding=unicode&action=translate&data=" + originalText)
       };
 
       let response = await fetch(apiURL, init);
       if (response.status !== 200)
         return console.log("error status text = ", response.statusText);
+    
+    let responseText = await response.text();
+
+    if (!responseText) return console.log('response.text could not be retrieved');
 
       let textArea: HTMLElement = new DOMParser()
-        .parseFromString(await response.text(), "text/html")
+        .parseFromString(responseText, "text/html")
         .getElementsByTagName("textarea")[0];
 
-      if (!textArea || !textArea.innerText) {
-        text = 'Error: no textArea or textArea is empty'
-        return console.log(text)
-      };
-      text = textArea.innerText;
-      console.log("converted text = ", text);
-      if (!text) return;
-      if (selected) htmlElement.innerText = htmlElement.innerText.replace(originalText, text);
-      else htmlElement.innerText = text;
-
-      return text;
-
-      /*sendHttpRequest({
-        url: apiURL,
-        method: "POST",
-        contentType: "application/x-www-form-urlencoded",
-        body: "from=" +
-          encodeURI(fontFrom) + "&encoding=unicode&action=translate&data=" + encodeURI(originalText),
-        onLoad: requestOnLoad,
-        accept: "text",
-        responseType: 'text'
-      });*/
-
-      function requestOnLoad() {
-        return
-        if (this.status !== 200) {
-          console.log("error status text = ", this.statusText);
-          text = 'Failed and got error : ' + this.statusText
-          return this.statusText;
-        };
-
-        let textArea: HTMLElement = new DOMParser()
-          .parseFromString(this.response, "text/html")
-          .getElementsByTagName("textarea")[0];
-        if (!textArea || !textArea.innerText) {
-          text = 'Error: no textArea or textArea is empty'
-          return console.log(text)
-        };
-        text = textArea.innerText;
-        console.log("converted text = ", text);
-        if (selected) htmlElement.innerText = htmlElement.innerText.replace(originalText, text);
-        else htmlElement.innerText = text;
-
-      }
-      //while (!text) text = text; //We do this in order to prevent the function from returnig until text is set by requestOnLoad() 
-
-    }
-
+      if (!textArea || !textArea.innerText)  
+        return console.log('Error: no textArea or textArea is empty')
+    
+      console.log("converted text = ", textArea.innerText);
+      return textArea.innerText;
+  
   };
 
 }
@@ -1763,22 +1732,22 @@ async function convertAllCopticParagraphsFonts(fontFrom?: string) {
 
 }
 
-async function _FixCopticText(parag: HTMLElement) {
-  let htmlRow = getHtmlRow(parag);
-  if (!htmlRow) return alert('We couldn\'t find the parent html row element');
-  let previous: HTMLElement | void,
-    font: string,
-    parags = parag.innerHTML.split('<br>');
-  for (let i = 0; i < parags.length; i++) {
-    previous = addRow(parag, false, parag.title.replace('Diacon', 'ReadingIntro'), false);
-    if (!previous) return alert('addNewRow() didn\'t return a row');
-    (previous.children[0] as HTMLParagraphElement).innerText = parags[i];
-    window.Selection = null;
-    i === 1 ? font = 'ATHANASIUS' : font = 'CS_AVVA_SHENOUDA';
-    await convertCopticFont(previous.children[0] as HTMLParagraphElement, font, false);
+async function _FixCopticText(htmlParag: HTMLElement) {
+  if (htmlParag.tagName !== 'P') return alert('Please place the cursor in the paragraph that you want to fix');
+  
+  let font: string,
+    text:string,
+    parags = htmlParag.innerHTML.split('<br>');
 
+  for (let parag of parags){
+    parags.indexOf(parag) === 1 ? font = 'ATHANASIUS' : font = 'CS_AVVA_SHENOUDA';
+    text = await convertCopticFont(undefined, font, false, parag)||''
+    if (!text) alert('Conversion has failed for ' + parag);
+    if (!text) continue;
+    let row = addRow(htmlParag, false, htmlParag.title.replace('Diacon', 'ReadingIntro'), false);
+    if (!row) return;
+    row.innerText = text
   }
-
 }
 
 function insertReadingTextFromBible(htmlParag: HTMLElement) {
