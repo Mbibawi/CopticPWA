@@ -543,13 +543,13 @@ function saveModifiedArray(args: {
           exportToFile: false,
           exportToStorage: true,
           dataRoot: htmlRow.dataset.isPlaceHolder,
-        });//Since we are not providing the htmlRows argument, the function will retrieve all the containerDiv children having 'Row' or 'PlaceHolder' class and will filter them by the data-root of the placeHolder div
+        });//Since we are not passing the htmlRows argument, the function will retrieve all the containerDiv children having 'Row' or 'PlaceHolder' class and will filter them by the data-root of the placeHolder div
         args.htmlRows
           .filter(
             (div) =>
-              !div.dataset.isPlaceHolder &&
-              div.dataset.root &&
-              div.dataset.root === htmlRow.dataset.isPlaceHolder
+              !div.dataset.isPlaceHolder
+              && div.dataset.root
+              && div.dataset.root === htmlRow.dataset.isPlaceHolder
           )
           .forEach((div) => div.remove()); //We remove all the html elements that were created to show the rows of the table referenced by the 'PlaceHolder' element.
         return;
@@ -871,7 +871,7 @@ function addRow(htmlParag: HTMLElement, isPlaceHolder: boolean = false, title?: 
       if (!child.lang || child.tagName !== "P") return;
       p = newRow.appendChild(document.createElement("p"));
       if (isPlaceHolder) p.innerText = splitTitle(title)[0];
-      if (isReference) p.innerText = splitTitle(title)[0].replace(Prefix.readingRef, '').toUpperCase();
+      if (isReference) p.innerText = splitTitle(title)[0].replace(Prefix.readingRef, '').replace('REF:', '').toUpperCase();
       p.title = newRow.title;
       p.dataset.root = newRow.dataset.root;
       isPlaceHolder || isReference ? p.lang = 'FR' : p.lang = child.lang;
@@ -1396,9 +1396,9 @@ function getLanguages(arrayName?): string[] {
 
 /**
  * Converts the coptic font of the text in the selected html element, to a unicode font
- * @param {HTMLElement} htmlElement - an editable html element in which the cursor is placed, containing coptic text in a non unicode font, that we need to convert
+ * @param {HTMLElement} htmlParag - an editable html element in which the cursor is placed, containing coptic text in a non unicode font, that we need to convert
  */
-async function convertCopticFont(htmlElement?: HTMLElement, fontFrom?: string, promptAll: boolean = true, text?:string):Promise<string|void> {
+async function convertCopticFont(htmlParag?: HTMLElement, fontFrom?: string, promptAll: boolean = true, text?:string):Promise<string|void> {
   
   if (!fontFrom) fontFrom = prompt("Provide the font", "COPTIC1/CS_AVVA_SHENOUDA/AVVA_SHENOUDA/ATHANASIUS/NEW_ATHANASIUS");
   
@@ -1418,28 +1418,34 @@ async function convertCopticFont(htmlElement?: HTMLElement, fontFrom?: string, p
     
   }
   
-  while (htmlElement.tagName !== "P" && htmlElement.parentElement)
-  htmlElement = htmlElement.parentElement;
+  while (htmlParag.tagName !== "P" && htmlParag.parentElement)
+  htmlParag = htmlParag.parentElement;
 
-if (!htmlElement && !text) return alert('Html element not a paragraph');
+if (!htmlParag && !text) return alert('Html element not a paragraph');
 
 
   let selected: Selection = getSelectedText();
 
   if (selected && !selected.isCollapsed)
-    text = await convertFromAPI(selected.toString())|| undefined;
-  else text = await convertFromAPI(htmlElement.textContent) || undefined;
+    text = await convert(selected.toString())|| undefined;
+  else text = await convert(htmlParag.textContent) || undefined;
   
   if (!text) return alert('Failed to convert the text');
   window.Selection = null;
+  htmlParag.innerHTML = "";
   if (selected)
-    htmlElement.innerText = htmlElement.innerText.replace(selected.toString(), text);
-  else htmlElement.innerText = text;
+    htmlParag.textContent = htmlParag.textContent.replace(selected.toString(), text);
+  else htmlParag.textContent = text
 
-async function convert(originalText:string){
-  if (!['CS_AVVA_SHENOUDA'].includes(fontFrom))
-    return await convertFontWithoutAPI(text, fontFrom);
-  return  await convertFromAPI(originalText);
+  async function convert(originalText: string) {
+    let converted:string[] = [];
+    let paragraphs = originalText.split('<br>');
+    for (let parag of paragraphs) {
+      if (!['CS_AVVA_SHENOUDA'].includes(fontFrom))
+        converted.push(await convertFontWithoutAPI(parag, fontFrom));
+     else converted.push(await convertFromAPI(parag) || '');
+    }
+    return converted.join('\n')
 }
 
 
@@ -1746,7 +1752,7 @@ async function _FixCopticText(htmlParag: HTMLElement) {
     if (!text) continue;
     let row = addRow(htmlParag, false, htmlParag.title.replace('Diacon', 'ReadingIntro'), false);
     if (!row) return;
-    row.innerText = text
+    (row.querySelector('p.COP') as HTMLParagraphElement).innerText = text
   }
 }
 
@@ -10119,6 +10125,10 @@ function _reformatReadingArray(array: string[][][]) {
   });
 }
 
+function _prepareReadingArrayForReferences(array:string[][][]){
+  return array.map(tbl => tbl.filter(row => !row[0].startsWith(Prefix.same)));
+}
+
 /**
  * Removes the spaces and () from the reading references in an array, and inserts a new row if the reference contains '/'
  * @param {string[][][]} readingArray
@@ -10423,4 +10433,165 @@ function _testReadings() {
   console.save(result, "testReadings Result.doc");
 
   changeDate(new Date());
+}
+
+function _mergeReferencesIntoOneRow(array: string[][][]) {
+  let refs: string[][][], first: string[];
+  for (let table of array) {
+    for (let row of table) {
+      if (row[0].includes('&C=Title')) refs.push([]);
+      if (row[0].startsWith(Prefix.readingRef))
+        refs[refs.length - 1].push(row)
+      else continue
+    }
+    for (let titleGroup of refs) {
+      if (titleGroup[0].includes('/')) continue;
+      first = [splitTitle(titleGroup[0])[0]];
+      for (let i = 1; i <titleGroup.length; i++){
+        first[0] += "/" + splitTitle(titleGroup[i][0])[0].split(Prefix.readingRef)[1];
+
+      }
+    }
+  }
+}
+
+function _splitHWGospelIntoTable() {
+  let GN = ReadingsArrays.GospelNightArrayFR;
+  GN
+    .forEach(table => {
+      if (table.length < 1) return GN.splice(GN.indexOf(table), 1);
+    if (!table[0][0].startsWith(Prefix.HolyWeek)) return;
+    if (!table[0][0].includes('Gospel&D=')) return;
+    if (table.map(row => row[0].includes('&C=Title')).length < 2) return;
+      let titleRows = table.filter(row => row[0].includes('&C=Title'));
+      titleRows = titleRows.filter(row=>row[0].includes('Gospel&D=') || ['JHN', 'MAT', 'LUK', 'MRK'].map(prefix=>row[0].includes(prefix+'&C=Title')).includes(true));
+      if (titleRows.length <= 1) return;
+      let tables =
+        titleRows
+          .map(row => table.slice(table.indexOf(row), getLastIndex(row)));
+
+      let titleBase: string = titleRows[0][0];
+      tables
+        .forEach(tbl => {
+        if (tables.indexOf(tbl) === 0) return;
+          if (tbl.length < 1) return;
+        tbl[0][0] = titleBase.replace('Gospel', tbl[0][0].split("&C=")[0].split(Prefix.same)[1] + "Gospel");
+        tables[0].push([Prefix.placeHolder, splitTitle(tbl[0][0])[0]])
+      });
+      
+        GN.splice(GN.indexOf(table), 1, ...tables);
+
+      function getLastIndex(row): number {
+           if(titleRows.indexOf(row) < titleRows.length-1) 
+            return table.indexOf(titleRows[titleRows.indexOf(row) +1])
+         return table.length
+          }
+    
+  });
+
+  saveOrExportArray(GN, getArrayNameFromArray(GN), true)
+}
+
+function _fixSIRBook(){
+  let sirAR = Bibles.AR[0].find(book => book[0].id === 'SIR')[1];
+  let sirFR = Bibles.FR[0].find(book => book[0].id === 'SIR');
+  let fixed: bibleBook = [
+    sirFR[0],
+    []
+  ];
+
+  let index:number;
+  sirAR
+    .forEach(chapter => {
+      index = sirAR.indexOf(chapter);
+      if (index === 0) return;
+      let ch = chapter.map(verse => {
+        if (verse.length === 1 && verse[0] === '\n')
+        return verse;
+      else if (verse.length === 2 && Number(verse[0])){
+          let ver = sirFR[1][index - 1].find(v => v[0] === verse[0]);
+        if (ver) return ver 
+      } 
+    })
+    
+    fixed[1].push(ch);
+    
+    });
+  
+  Bibles.FR[0].splice(Bibles.FR[0].indexOf(sirFR), 1, fixed);
+  return Bibles.FR[0].find(b=>b[0].id === 'SIR')[1];
+  
+}
+
+async function fetchBibleBookFromAELF(id:string, chapters:number[], lang:string = 'FR', bibleID?:string):Promise<bibleBook>{
+  let req, text, book: bibleBook = [{id:id, human:id, human_long:id, chaptersList:[]}, []];
+
+  if (bibleID)
+    book[0] = Bibles[lang][0].find(book => book[0].id === bibleID)[0];
+
+  for (let i = chapters[0]; i <= chapters[chapters.length-1]; i++) {
+    book[1].push(await fetchChapter(i))
+  }
+  async function fetchChapter(i:number):Promise<bibleVerse[]>{
+    req = await fetch(encodeURI('https://www.aelf.org/bible/' + id + '/' + i.toString()));
+
+    text = await req.text();
+
+    if (!text) {
+      alert('No response, i = ' + i.toString());
+      return []
+    };
+    
+    let html = new DOMParser().parseFromString(text, 'text/html');
+
+    let parags = Array.from(html.querySelectorAll('p'))
+      .filter(p => p.children[0].classList.contains('verse_number'));
+
+      
+      let chapter = [], verseNumber: string;
+      if (parags.length < 1) {
+        alert('parags.length <1');
+        return chapter
+      };
+    parags
+      .forEach(p => {
+        verseNumber = (p.children[0] as HTMLSpanElement).innerText
+        chapter.push([
+          verseNumber,
+          p.innerText
+            .replace(verseNumber + ' ', '')
+            .replaceAll('\n', ' '),
+        ]);
+        if (parags.indexOf(p) < parags.length - 1)
+          chapter.push(['\n']);
+      });
+  return chapter
+  
+  }
+
+  return book
+}
+
+function _fixReadingArray(array:string[][][]) {
+  
+  array.forEach(table =>{
+    if (table[0].length > 1)
+      table[0] = [table[0][0]];
+  
+    let refs = table.filter(row => row[0].startsWith(Prefix.readingRef));
+    refs.forEach(row => row[0] = row[0].replaceAll(' ', '').replaceAll(')', '').replaceAll('(', ''));
+    if (refs.length < 2) return;
+    refs[0][0] =
+      refs[0][0]
+    + refs
+        .filter(row => refs.indexOf(row) > 0)
+        .map(row => "/" + row[0].split(':')[1] + ':' + row[0].split(':')[2]) 
+        .join('');
+    refs
+      .filter(row => refs.indexOf(row) > 0)
+      .forEach(row => table.splice(table.indexOf(row), 1));
+  }
+  );
+  saveOrExportArray(array, getArrayNameFromArray(array), true, false);
+
 }

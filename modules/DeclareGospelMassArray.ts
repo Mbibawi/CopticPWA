@@ -1306,7 +1306,7 @@ ReadingsArrays.GospelMassArrayFR = [
           " مزمور 61:1, 2-3"
       ],
       [
-          Prefix.readingRef + "PSA:61:1/61-1/61:2-3"
+          Prefix.readingRef + "PSA:61:1-1/61:2-3"
       ]
   ],
   [
@@ -2212,7 +2212,6 @@ ReadingsArrays.GospelMassArrayFR = [
   [
       [
           Prefix.gospelMass + "Gospel&D=GL49&C=Title",
-          " مزمور (98:8-9)"
       ],
       [
           Prefix.readingRef + "LUK:13:31-35"
@@ -3319,7 +3318,7 @@ ReadingsArrays.GospelMassArrayFR = [
           "مزمور (118: 24،25،27)"
       ],
       [
-          Prefix.readingRef + "PSA:118:24-24/118:25-25/118:27-27"
+          Prefix.readingRef + "PSA:118:24-25/118:27-27"
       ]
   ],
   [

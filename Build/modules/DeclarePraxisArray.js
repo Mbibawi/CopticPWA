@@ -1,1641 +1,1378 @@
-ReadingsArrays.PraxisArrayFR = [
-    [
+ReadingsArrays.PraxisArrayFR = [[
         [
             Prefix.praxis + "&D=0210||011stSunday&C=Title",
-            " أعمال الرسل 13 : 25-33"
         ],
         [
-            Prefix.readingRef + "ACT:13:25-33"
-        ]
+            Prefix.readingRef + "ACT:13:25-33",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=012ndSunday&C=Title",
-            "أعمال الرسل الأطهار (11: 19-26)"
         ],
         [
-            Prefix.readingRef + "ACT:11:19-26"
-        ]
+            Prefix.readingRef + "ACT:11:19-26",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=014thSunday&C=Title",
-            " الإبركسيس  من أعمال الرسل 9 : 36 - 42"
         ],
         [
-            Prefix.readingRef + "ACT:9:36-42"
-        ]
+            Prefix.readingRef + "ACT:9:36-42",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=015thSunday||062ndSunday&C=Title",
-            " أعمالارسل 18 : 9-21"
         ],
         [
-            Prefix.readingRef + "ACT:18:9-21"
-        ]
+            Prefix.readingRef + "ACT:18:9-21",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=0201&C=Title",
-            " الإبركسيس  من أعمال الرسل ( 12 : 1 - 12 )"
         ],
         [
-            Prefix.readingRef + "ACT:12:1-12"
-        ]
+            Prefix.readingRef + "ACT:12:1-12",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=0801||2304&C=Title",
-            " الإبركسيس  من أعمال الرسل ( 15:21-29)"
         ],
         [
-            Prefix.readingRef + "ACT:15:21-29"
-        ]
+            Prefix.readingRef + "ACT:15:21-29",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=1601&C=Title",
-            " أعمال الرسل الأطهار19:11-20"
         ],
         [
-            Prefix.readingRef + "ACT:9:31-43"
-        ]
+            Prefix.readingRef + "ACT:9:31-43",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=1701||Pntl2&C=Title",
-            " الإبركسيس  من أعمال الرسل (10: 34-43)"
         ],
         [
-            Prefix.readingRef + "ACT:10:34-43"
-        ]
+            Prefix.readingRef + "ACT:10:34-43",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=1801&C=Title",
-            " الإبركسيس  من أعمال الرسل (4:8-18)"
         ],
         [
-            Prefix.readingRef + "ACT:4:8-18"
-        ]
+            Prefix.readingRef + "ACT:4:8-18",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=1901&C=Title",
-            " الإبركسيس  من أعمال الرسل(3:12-21 )"
         ],
         [
-            Prefix.readingRef + "ACT:3:12-21"
-        ]
+            Prefix.readingRef + "ACT:3:12-21",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=2101&C=Title",
-            " الإبركسيس فصل من أعمال الرسل الأطهار( 19 :11 - 17 )"
         ],
         [
-            Prefix.readingRef + "ACT:19:11-17"
-        ]
+            Prefix.readingRef + "ACT:19:11-17",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=2601&C=Title",
-            " الإبركسيس  من أعمال الرسل 7:2-7"
         ],
         [
-            Prefix.readingRef + "ACT:7:2-7"
-        ]
+            Prefix.readingRef + "ACT:7:2-7",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=021stSunday||3004&C=Title",
-            " الإبركسيس  من أعمال الرسل ( 13 : 36 - 43 )"
         ],
         [
-            Prefix.readingRef + "ACT:13:36-43"
-        ]
+            Prefix.readingRef + "ACT:13:36-43",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=022ndSunday||051stSunday&C=Title",
-            " الإبركسيس  من أعمال الرسل 14:24 & 15:3"
         ],
         [
-            Prefix.readingRef + "ACT:14:24-End"
+            Prefix.readingRef + "ACT:14:24-End/15:1-3",
         ],
-        [
-            Prefix.readingRef + "ACT:15:1-3"
-        ]
     ],
     [
         [
             Prefix.praxis + "&D=023rdSunday&C=Title",
-            " الإبركسيس  من أعمال الرسل 15:4-12"
         ],
         [
-            Prefix.readingRef + "ACT:15:4-12"
-        ]
+            Prefix.readingRef + "ACT:15:4-12",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=024thSunday&C=Title",
-            " الإبركسيس  من أعمال الرسل(15: 36 – 16: 5)"
         ],
         [
-            Prefix.readingRef + "ACT:15:36-End"
+            Prefix.readingRef + "ACT:15:36-End/16:1-5",
         ],
-        [
-            Prefix.readingRef + "ACT:16:1-5"
-        ]
     ],
     [
         [
             Prefix.praxis + "&D=1202&C=Title",
-            " الإبركسيس  من أعمال الرسل (5:12-18)"
         ],
         [
-            Prefix.readingRef + "ACT:5:12-18"
-        ]
+            Prefix.readingRef + "ACT:5:12-18",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=1402&C=Title",
-            " الإبركسيس  من أعمال الرسل (8: 26-38 )"
         ],
         [
-            Prefix.readingRef + "ACT:8:26-38"
-        ]
+            Prefix.readingRef + "ACT:8:26-38",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=2202||0109||041stSunday||Pntl39&C=Title",
-            " الإبركسيس  من أعمال الرسل 1:1-14"
         ],
         [
-            Prefix.readingRef + "ACT:1:1-14"
-        ]
+            Prefix.readingRef + "ACT:1:1-14",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=031stSunday&C=Title",
-            " الإبركسيس  من أعمال الرسل ( 10 : 37 - 11 :1 )"
         ],
         [
-            Prefix.readingRef + "ACT:10:37-End"
+            Prefix.readingRef + "ACT:10:37-End/11:1-1",
         ],
-        [
-            Prefix.readingRef + "ACT:11:1-1"
-        ]
     ],
     [
         [
             Prefix.praxis + "&D=032ndSunday&C=Title",
-            "الإبركسيس من أعمال الرسل (5: 19-29)"
         ],
         [
-            Prefix.readingRef + "ACT:5:19-29"
-        ]
+            Prefix.readingRef + "ACT:5:19-29",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=033rdSunday&C=Title",
-            " الإبركسيس  من أعمال الرسل (5:30-42"
         ],
         [
-            Prefix.readingRef + "ACT:5:30-42"
-        ]
+            Prefix.readingRef + "ACT:5:30-42",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=034thSunday&C=Title",
-            " الإبركسيس  من أعمال الرسل( 16 : 40 - 17:7 )"
         ],
         [
-            Prefix.readingRef + "ACT:16:40-End"
+            Prefix.readingRef + "ACT:16:40-End/17:1-7",
         ],
-        [
-            Prefix.readingRef + "ACT:17:1-7"
-        ]
     ],
     [
         [
             Prefix.praxis + "&D=0803&C=Title",
-            " الإبركسيس  من أعمال الرسل : 2 - 14"
         ],
         [
-            Prefix.readingRef + "ACT:11:2-14"
-        ]
+            Prefix.readingRef + "ACT:11:2-14",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=0903&C=Title",
-            " الإبركسيس  من أعمال الرسل (11 : 15 - 24)"
         ],
         [
-            Prefix.readingRef + "ACT:11:15-24"
-        ]
+            Prefix.readingRef + "ACT:11:15-24",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=1203&C=Title",
-            " الإبركسيس  من أعمال الرسل 10:1-20"
         ],
         [
-            Prefix.readingRef + "ACT:10:1-20"
-        ]
+            Prefix.readingRef + "ACT:10:1-20",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=1503||1312&C=Title",
-            " الإبركسيس  من أعمال الرسل ( 7:44-60 & 8:1 )"
         ],
         [
-            Prefix.readingRef + "ACT:7:44-60"
+            Prefix.readingRef + "ACT:7:44-60/8:1-1",
         ],
-        [
-            Prefix.readingRef + "ACT:8:1-1"
-        ]
     ],
     [
         [
             Prefix.praxis + "&D=1703||0311&C=Title",
-            " الإبركسيس  من أعمال الرسل 20:17-38"
         ],
         [
-            Prefix.readingRef + "ACT:20:17-38"
-        ]
+            Prefix.readingRef + "ACT:20:17-38",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=2403&C=Title",
-            " الإبركسيس  من أعمال الرسل 15:6-12"
         ],
         [
-            Prefix.readingRef + "ACT:15:6-12"
-        ]
+            Prefix.readingRef + "ACT:15:6-12",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=2503&C=Title",
-            " الإبركسيس  من أعمال الرسل 12:25 & 13:1-12"
         ],
         [
-            Prefix.readingRef + "ACT:12:25-End"
+            Prefix.readingRef + "ACT:12:25-End/13:1-12",
         ],
-        [
-            Prefix.readingRef + "ACT:13:1-12"
-        ]
     ],
     [
         [
             Prefix.praxis + "&D=2703||0605&C=Title",
-            " الإبركسيس  من أعمال الرسل 15 : 13 - 21"
         ],
         [
-            Prefix.readingRef + "ACT:15:13-21"
-        ]
+            Prefix.readingRef + "ACT:15:13-21",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=2803&C=Title",
-            " الإبركسيس  من أعمال الرسل (&)"
         ],
         [
-            Prefix.readingRef + "ACT:15:36-41"
+            Prefix.readingRef + "ACT:15:36-41/16:1-5",
         ],
-        [
-            Prefix.readingRef + "ACT:16:1-5"
-        ]
     ],
     [
         [
             Prefix.praxis + "&D=2903&C=Title",
-            " الإبركسيس  من أعمال الرسل 12:1-24)"
         ],
         [
-            Prefix.readingRef + "ACT:12:1-24"
-        ]
+            Prefix.readingRef + "ACT:12:1-24",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=042ndSunday||2907&C=Title",
-            " الإبركسيس  من أعمال الرسل ( 7 : 30 - 34 )"
         ],
         [
-            Prefix.readingRef + "ACT:7:30-34"
-        ]
+            Prefix.readingRef + "ACT:7:30-34",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=043rdSunday&C=Title",
-            " الإبركسيس  من أعمال الرسل ( 7 : 35 - 50 )"
         ],
         [
-            Prefix.readingRef + "ACT:7:35-50"
-        ]
+            Prefix.readingRef + "ACT:7:35-50",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=2804&C=Title",
-            " الإبركسيس  من أعمال الرسل(13:13-25)"
         ],
         [
-            Prefix.readingRef + "ACT:13:13-25"
-        ]
+            Prefix.readingRef + "ACT:13:13-25",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=2904&C=Title",
-            " الإبركسيس  من أعمال الرسل(13:26-32 )"
         ],
         [
-            Prefix.readingRef + "ACT:13:26-32"
-        ]
+            Prefix.readingRef + "ACT:13:26-32",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=0105&C=Title",
-            " الإبركسيس  من أعمال الرسل (6:1-15 & 7:1-2)"
         ],
         [
-            Prefix.readingRef + "ACT:6:1-15"
+            Prefix.readingRef + "ACT:6:1-15/7:1-2",
         ],
-        [
-            Prefix.readingRef + "ACT:7:1-2"
-        ]
     ],
     [
         [
             Prefix.praxis + "&D=0305&C=Title",
-            " الإبركسيس  من أعمال الرسل 9:22-30"
         ],
         [
-            Prefix.readingRef + "ACT:9:22-30"
-        ]
+            Prefix.readingRef + "ACT:9:22-30",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=052ndSunday&C=Title",
-            "الإبركسيس من أعمال الرسل( 15 : 22 - 29)"
         ],
         [
-            Prefix.readingRef + "ACT:15:22-29"
-        ]
+            Prefix.readingRef + "ACT:15:22-29",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=053rdSunday||JFast1&C=Title",
-            "الإبرَكْسِيسْ مِنْ أَعْمَالِ الرُسُلِ( 2 : 38 - 45 )"
         ],
         [
-            Prefix.readingRef + "ACT:2:38-45"
-        ]
+            Prefix.readingRef + "ACT:2:38-45",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=JFast2&C=Title",
-            "الإبرَكْسِيسْ مِنْ أَعْمَالِ الرُسُلِ(17: 30–34)"
         ],
         [
-            Prefix.readingRef + "ACT:17:30–34"
-        ]
+            Prefix.readingRef + "ACT:17:30–34",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=JFast3&C=Title",
-            "الإبركسيس من أعمال الرسل (15: 12-20)"
         ],
         [
-            Prefix.readingRef + "ACT:15:12-20"
-        ]
+            Prefix.readingRef + "ACT:15:12-20",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=JFast4&C=Title",
-            "الإبركسيس من أعمال الرسل (3: 22-26)"
         ],
         [
-            Prefix.readingRef + "ACT:3:22-26"
-        ]
+            Prefix.readingRef + "ACT:3:22-26",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=1005&C=Title",
-            " الإبركسيس  من أعمال الرسل (16:25-34 )"
         ],
         [
-            Prefix.readingRef + "ACT:16:25-34"
-        ]
+            Prefix.readingRef + "ACT:16:25-34",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=1105&C=Title",
-            " الإبركسيس  من أعمال الرسل(18:24 - 19:1 6 )"
         ],
         [
-            Prefix.readingRef + "ACT:18:24-End"
+            Prefix.readingRef + "ACT:18:24-End/19:1-6",
         ],
-        [
-            Prefix.readingRef + "ACT:19:1-6"
-        ]
     ],
     [
         [
             Prefix.praxis + "&D=1205&C=Title",
-            " الإبركسيس  من أعمال الرسل(8:26-39)"
         ],
         [
-            Prefix.readingRef + "ACT:8:26-39"
-        ]
+            Prefix.readingRef + "ACT:8:26-39",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=2205&C=Title",
-            " الإبركسيس  من أعمال الرسل 11:19-26"
         ],
         [
-            Prefix.readingRef + "ACT:11:19-26"
-        ]
+            Prefix.readingRef + "ACT:11:19-26",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=0206&C=Title",
-            " الإبركسيس  من أعمال الرسل (15 :12- 21 )"
         ],
         [
-            Prefix.readingRef + "ACT:15:12-21"
-        ]
+            Prefix.readingRef + "ACT:15:12-21",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=061stSunday&C=Title",
-            " الإبركسيس  من أعمال الرسل (9 : 3 - 9)"
         ],
         [
-            Prefix.readingRef + "ACT:9:3-9"
-        ]
+            Prefix.readingRef + "ACT:9:3-9",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=063rdSunday&C=Title",
-            " الإبركسيس  من أعمال الرسل( 20: 7 – 16 )"
         ],
         [
-            Prefix.readingRef + "ACT:20:7–16"
-        ]
+            Prefix.readingRef + "ACT:20:7–16",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=064thSunday&C=Title",
-            " الإبركسيس  من أعمال الرسل (8: 5 – 13)"
         ],
         [
-            Prefix.readingRef + "ACT:8:5–13"
-        ]
+            Prefix.readingRef + "ACT:8:5–13",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=2308&C=Title",
-            " الإبركسيس  من أعمال الرسل( 16 : 16 - 34 )"
         ],
         [
-            Prefix.readingRef + "ACT:16:16-34"
-        ]
+            Prefix.readingRef + "ACT:16:16-34",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=2708||1009&C=Title",
-            " الإبركسيس  من أعمال الرسل19:23-41"
         ],
         [
-            Prefix.readingRef + "ACT:19:23-41"
-        ]
+            Prefix.readingRef + "ACT:19:23-41",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=3008&C=Title",
-            " الإبركسيس  من أعمال الرسل( 15 : 36 - 16 : 1 - 5 ) "
         ],
         [
-            Prefix.readingRef + "ACT:15:36-End"
+            Prefix.readingRef + "ACT:15:36-End/16:1-5",
         ],
-        [
-            Prefix.readingRef + "ACT:16:1-5"
-        ]
     ],
     [
         [
             Prefix.praxis + "&D=094thSunday||102ndSunday&C=Title",
-            " الإبركسيس  من أعمال الرسل( 14 : 8 - 22 )"
         ],
         [
-            Prefix.readingRef + "ACT:14:8-22"
-        ]
+            Prefix.readingRef + "ACT:14:8-22",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=1307||101stSunday||093rdSunday&C=Title",
-            " الإبركسيس  من أعمال الرسل(12:13-25:12 )"
         ],
         [
-            Prefix.readingRef + "ACT:12:25-End"
+            Prefix.readingRef + "ACT:12:25-End/13:1-12",
         ],
-        [
-            Prefix.readingRef + "ACT:13:1-12"
-        ]
     ],
     [
         [
             Prefix.praxis + "&D=103rdSunday&C=Title",
-            " الإبركسيس  من أعمال الرسل(17: 1 – 12)"
         ],
         [
-            Prefix.readingRef + "ACT:17:1–12"
-        ]
+            Prefix.readingRef + "ACT:17:1–12",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=104thSunday&C=Title",
-            " الإبركسيس  من أعمال الرسل(18: 1 – 11)"
         ],
         [
-            Prefix.readingRef + "ACT:18:1–11"
-        ]
+            Prefix.readingRef + "ACT:18:1–11",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=1610||0413||2009&C=Title",
-            " الإبركسيس  من أعمال الرسل 18:24-19:6 )"
         ],
         [
-            Prefix.readingRef + "ACT:18:24-End"
+            Prefix.readingRef + "ACT:18:24-End/19:1-6",
         ],
-        [
-            Prefix.readingRef + "ACT:19:1-6"
-        ]
     ],
     [
         [
             Prefix.praxis + "&D=3010||044thSunday&C=Title",
-            "الإبركسيس  من أعمال الرسل (7: 8-22)"
         ],
         [
-            Prefix.readingRef + "ACT:7:8-22"
-        ]
+            Prefix.readingRef + "ACT:7:8-22",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=111stSunday&C=Title",
-            " الإبركسيس  من أعمال الرسل 5:12-21"
         ],
         [
-            Prefix.readingRef + "ACT:5:12-21"
-        ]
+            Prefix.readingRef + "ACT:5:12-21",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=112ndSunday&C=Title",
-            " الإبركسيس  من أعمال الرسل ( 5 : 19 - 23 )"
         ],
         [
-            Prefix.readingRef + "ACT:5:19-23"
-        ]
+            Prefix.readingRef + "ACT:5:19-23",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=113rdSunday&C=Title",
-            " الإبركسيس  من أعمال الرسل( 18 : 12 - 23 )"
         ],
         [
-            Prefix.readingRef + "ACT:18:12-23"
-        ]
+            Prefix.readingRef + "ACT:18:12-23",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=114thSunday&C=Title",
-            " الإبركسيس  من أعمال الرسل( 19 : 11 - 22 )"
         ],
         [
-            Prefix.readingRef + "ACT:19:11-22"
-        ]
+            Prefix.readingRef + "ACT:19:11-22",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=2011&C=Title",
-            " الإبركسيس  من أعمال الرسل(27:42-44 & 28:1-6)"
         ],
         [
-            Prefix.readingRef + "ACT:27:42-44"
+            Prefix.readingRef + "ACT:27:42-44/28:1-6",
         ],
-        [
-            Prefix.readingRef + "ACT:28:1-6"
-        ]
     ],
     [
         [
             Prefix.praxis + "&D=0312&C=Title",
-            " الإبركسيس  من أعمال الرسل 15 : 13 - 29"
         ],
         [
-            Prefix.readingRef + "ACT:15:13-29"
-        ]
+            Prefix.readingRef + "ACT:15:13-29",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=121stSunday&C=Title",
-            " الإبركسيس  من أعمال الرسل : 23 – 40"
         ],
         [
-            Prefix.readingRef + "ACT:5:12-21"
-        ]
+            Prefix.readingRef + "ACT:5:12-21",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=123rdSunday&C=Title",
-            " الإبركسيس  من أعمال الرسل( 21 : 8 - 14 )"
         ],
         [
-            Prefix.readingRef + "ACT:21:8-14"
-        ]
+            Prefix.readingRef + "ACT:21:8-14",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=124thSunday&C=Title",
-            " الإبركسيس  من أعمال الرسل( 19 : 11 - 22 )"
         ],
         [
-            Prefix.readingRef + "ACT:11:19-30"
-        ]
+            Prefix.readingRef + "ACT:11:19-30",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=Jonh3&C=Title",
-            " الإبركسيس  من أعمال الرسل ( 15 : 12 - 21 )"
         ],
         [
-            Prefix.readingRef + "ACT:15:12-20"
-        ]
+            Prefix.readingRef + "ACT:15:12-20",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=1712&C=Title",
-            " الإبركسيس  من أعمال الرسل ( 15 : 12 - 21 )"
         ],
         [
-            Prefix.readingRef + "ACT:15:12-21"
-        ]
+            Prefix.readingRef + "ACT:15:12-21",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=2512&C=Title",
-            " الإبركسيس  من أعمال الرسل : 24 19: 6"
         ],
         [
-            Prefix.readingRef + "ACT:18:24-End"
+            Prefix.readingRef + "ACT:18:24-End/19:1-6",
         ],
-        [
-            Prefix.readingRef + "ACT:19:1-6"
-        ]
     ],
     [
         [
             Prefix.praxis + "&D=2812||2409&C=Title",
-            " الإبركسيس  من أعمال الرسل 7 : 20 - 34"
         ],
         [
-            Prefix.readingRef + "ACT:7:20-34"
-        ]
+            Prefix.readingRef + "ACT:7:20-34",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=2912&C=Title",
-            " الإبركسيس  من أعمال الرسل ( 5 : 34 - 42 )"
         ],
         [
-            Prefix.readingRef + "ACT:5:34-42"
-        ]
+            Prefix.readingRef + "ACT:5:34-42",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=3012&C=Title",
-            " الإبركسيس  من أعمال الرسل( 7 : 30 - 37 )"
         ],
         [
-            Prefix.readingRef + "ACT:7:30-37"
-        ]
+            Prefix.readingRef + "ACT:7:30-37",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=0113||0405||2609||0511&C=Title",
-            " الإبركسيس  من أعمال الرسل (3:1-16)"
         ],
         [
-            Prefix.readingRef + "ACT:3:1-16"
-        ]
+            Prefix.readingRef + "ACT:3:1-16",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=0213&C=Title",
-            " الإبركسيس  من أعمال الرسل ( 14 : 1 - 7 )"
         ],
         [
-            Prefix.readingRef + "ACT:14:1-7"
-        ]
+            Prefix.readingRef + "ACT:14:1-7",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=0313||2204&C=Title",
-            " الإبركسيس  من أعمال الرسل 10:21-33"
         ],
         [
-            Prefix.readingRef + "ACT:10:21-33"
-        ]
-    ],
-    [
-        [
-            Prefix.praxis + "&D=131stSunday",
-            ""
+            Prefix.readingRef + "ACT:10:21-33",
         ],
-        [
-            Prefix.readingRef + "\n"
-        ]
     ],
     [
         [
             Prefix.praxis + "&D=GL10&C=Title",
-            " الإبركسيس  من أعمال الرسل ( 4 : 36 - 5 : 1 - 11 )"
         ],
         [
-            Prefix.readingRef + "ACT:4:36-End"
+            Prefix.readingRef + "ACT:4:36-End/5:1-11",
         ],
-        [
-            Prefix.readingRef + "ACT:5:1-11"
-        ]
     ],
     [
         [
             Prefix.praxis + "&D=GL11||Pntl4&C=Title",
-            " الإبركسيس  من أعمال الرسل ( 4 : 22 -13 )"
         ],
         [
-            Prefix.readingRef + "ACT:4:13-22"
-        ]
+            Prefix.readingRef + "ACT:4:13-22",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=GL12&C=Title",
-            " الإبركسيس  من أعمال الرسل (5:3-11)"
         ],
         [
-            Prefix.readingRef + "ACT:5:3-11"
-        ]
+            Prefix.readingRef + "ACT:5:3-11",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=GL13&C=Title",
-            " الإبركسيس  من أعمال الرسل (12 : 12 - 23)"
         ],
         [
-            Prefix.readingRef + "ACT:12:12-23"
-        ]
+            Prefix.readingRef + "ACT:12:12-23",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=GL14&C=Title",
-            " الإبركسيس  من أعمال الرسل ( 15: 22 - 31 )"
         ],
         [
-            Prefix.readingRef + "ACT:15:22-31"
-        ]
+            Prefix.readingRef + "ACT:15:22-31",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=GL15&C=Title",
-            " الإبركسيس  من أعمال الرسل ( 22 : 17 - 30 )"
         ],
         [
-            Prefix.readingRef + "ACT:22:17-30"
-        ]
+            Prefix.readingRef + "ACT:22:17-30",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=GL17&C=Title",
-            " الإبركسيس  من أعمال الرسل (17:10-14)"
         ],
         [
-            Prefix.readingRef + "ACT:17:10-14"
-        ]
+            Prefix.readingRef + "ACT:17:10-14",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=GL18&C=Title",
-            " الإبركسيس  من أعمال الرسل (27:9-12)"
         ],
         [
-            Prefix.readingRef + "ACT:27:9-12"
-        ]
+            Prefix.readingRef + "ACT:27:9-12",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=GL19&C=Title",
-            " الإبركسيس  من أعمال الرسل 28:7-11)"
         ],
         [
-            Prefix.readingRef + "ACT:28:7-11"
-        ]
+            Prefix.readingRef + "ACT:28:7-11",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=GL1&C=Title",
-            " الإبركسيس  من أعمال الرسل (21:1-14)"
         ],
         [
-            Prefix.readingRef + "ACT:21:1-14"
-        ]
+            Prefix.readingRef + "ACT:21:1-14",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=GL20&C=Title",
-            " الإبركسيس  من أعمال الرسل (28 : 1 – 6 )"
         ],
         [
-            Prefix.readingRef + "ACT:28:1-6"
-        ]
+            Prefix.readingRef + "ACT:28:1-6",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=GL21||Pntl34&C=Title",
-            " الإبركسيس  من أعمال الرسل (23:6-11)"
         ],
         [
-            Prefix.readingRef + "ACT:23:6-11"
-        ]
+            Prefix.readingRef + "ACT:23:6-11",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=GL22&C=Title",
-            " الإبركسيس  من أعمال الرسل (23:12-35)"
         ],
         [
-            Prefix.readingRef + "ACT:23:12-35"
-        ]
+            Prefix.readingRef + "ACT:23:12-35",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=GL24||054thSunday&C=Title",
-            " الإبركسيس  من أعمال الرسل (11:2-18 )"
         ],
         [
-            Prefix.readingRef + "ACT:11:2-18"
-        ]
+            Prefix.readingRef + "ACT:11:2-18",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=GL25&C=Title",
-            " الإبركسيس  من أعمال الرسل (27:9-12)"
         ],
         [
-            Prefix.readingRef + "ACT:27:1-3"
-        ]
+            Prefix.readingRef + "ACT:27:1-3",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=GL26&C=Title",
-            " الإبركسيس  من أعمال الرسل 11:26-12:2)"
         ],
         [
-            Prefix.readingRef + "ACT:11:26-End"
+            Prefix.readingRef + "ACT:11:26-End/12:1-2",
         ],
-        [
-            Prefix.readingRef + "ACT:12:1-2"
-        ]
     ],
     [
         [
             Prefix.praxis + "&D=GL27||Pntl6&C=Title",
-            " الإبركسيس  من أعمال الرسل ( 4 : 19 - 31 )"
         ],
         [
-            Prefix.readingRef + "ACT:4:19-31"
-        ]
+            Prefix.readingRef + "ACT:4:19-31",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=GL29&C=Title",
-            " الإبركسيس  من أعمال الرسل (24:24-25 : 12)"
         ],
         [
-            Prefix.readingRef + "ACT:24:24-End"
+            Prefix.readingRef + "ACT:24:24-End/25:1-12",
         ],
-        [
-            Prefix.readingRef + "ACT:25:1-12"
-        ]
     ],
     [
         [
             Prefix.praxis + "&D=GL2ndSunday&C=Title",
-            " الإبركسيس  من أعمال الرسل (21:40-22:16)"
         ],
         [
-            Prefix.readingRef + "ACT:21:40-End"
+            Prefix.readingRef + "ACT:21:40-End/22:1-16",
         ],
-        [
-            Prefix.readingRef + "ACT:22:1-16"
-        ]
     ],
     [
         [
             Prefix.praxis + "&D=GL1stSunday||GL2&C=Title",
-            " الإبركسيس  من أعمال الرسل (21:15-26)"
         ],
         [
-            Prefix.readingRef + "ACT:21:15-26"
-        ]
+            Prefix.readingRef + "ACT:21:15-26",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=GL31&C=Title",
-            " الإبركسيس  من أعمال الرسل (10:25-35 )"
         ],
         [
-            Prefix.readingRef + "ACT:10:25-35"
-        ]
+            Prefix.readingRef + "ACT:10:25-35",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=GL32&C=Title",
-            " الإبركسيس  من أعمال الرسل (24:10-23)"
         ],
         [
-            Prefix.readingRef + "ACT:24:10-23"
-        ]
+            Prefix.readingRef + "ACT:24:10-23",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=GL33||0613&C=Title",
-            " الإبركسيس  من أعمال الرسل 11:12-18)"
         ],
         [
-            Prefix.readingRef + "ACT:11:12-18"
-        ]
+            Prefix.readingRef + "ACT:11:12-18",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=3005||GL34&C=Title",
-            " الإبركسيس  من أعمال الرسل ( 21 : 5 - 14 )"
         ],
         [
-            Prefix.readingRef + "ACT:21:5-14"
-        ]
+            Prefix.readingRef + "ACT:21:5-14",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=GL35&C=Title",
-            " الإبركسيس  من أعمال الرسل (15:36-16:3)"
         ],
         [
-            Prefix.readingRef + "ACT:15:36-End"
+            Prefix.readingRef + "ACT:15:36-End/16:1-3",
         ],
-        [
-            Prefix.readingRef + "ACT:16:1-3"
-        ]
     ],
     [
         [
             Prefix.praxis + "&D=GL36||GL43&C=Title",
-            " الإبركسيس  من أعمال الرسل (26:1-18)"
         ],
         [
-            Prefix.readingRef + "ACT:26:1-18"
-        ]
+            Prefix.readingRef + "ACT:26:1-18",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=GL38&C=Title",
-            " الإبركسيس  من أعمال الرسل (18:9-18 )"
         ],
         [
-            Prefix.readingRef + "ACT:18:9-18"
-        ]
+            Prefix.readingRef + "ACT:18:9-18",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=2702||2203||2612||GL39&C=Title",
-            " الإبركسيس  من أعمال الرسل (19:11-20)"
         ],
         [
-            Prefix.readingRef + "ACT:19:11-20"
-        ]
+            Prefix.readingRef + "ACT:19:11-20",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=GL3&C=Title",
-            " الإبركسيس  من أعمال الرسل (14:19-28)"
         ],
         [
-            Prefix.readingRef + "ACT:14:19-28"
-        ]
+            Prefix.readingRef + "ACT:14:19-28",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=GL3rdSunday&C=Title",
-            " الإبركسيس  من أعمال الرسل (23:1-11 )"
         ],
         [
-            Prefix.readingRef + "ACT:23:1-11"
-        ]
+            Prefix.readingRef + "ACT:23:1-11",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=GL40&C=Title",
-            " الإبركسيس  من أعمال الرسل 26:1-8)"
         ],
         [
-            Prefix.readingRef + "ACT:26:1-8"
-        ]
+            Prefix.readingRef + "ACT:26:1-8",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=GL41&C=Title",
-            " الإبركسيس  من أعمال الرسل (27:16-20)"
         ],
         [
-            Prefix.readingRef + "ACT:27:16-20"
-        ]
+            Prefix.readingRef + "ACT:27:16-20",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=GL42&C=Title",
-            " الإبركسيس  من أعمال الرسل (8:9-17)"
         ],
         [
-            Prefix.readingRef + "ACT:8:9-17"
-        ]
+            Prefix.readingRef + "ACT:8:9-17",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=GL45||013rdSunday&C=Title",
-            " الإبركسس  من أعمال الرسل (9:22-31 )"
         ],
         [
-            Prefix.readingRef + "ACT:9:22-31"
-        ]
+            Prefix.readingRef + "ACT:9:22-31",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=GL46||GL28&C=Title",
-            " الإبركسيس  من أعمال الرسل (22:17-24)",
-            "ACT:(22: 17-24)",
-            "ACT:(22: 17-24)"
         ],
         [
-            Prefix.readingRef + "ACT:22:17-21"
+            Prefix.readingRef + "ACT:22:17-21/22:22-24",
         ],
-        [
-            Prefix.readingRef + "ACT:22:22-24"
-        ]
     ],
     [
         [
             Prefix.praxis + "&D=GL47&C=Title",
-            " الإبركسيس  من أعمال الرسل (19: 23-26)",
-            "ACT:(19: 23-26)",
-            "ACT:(19: 23-26)"
         ],
         [
-            Prefix.readingRef + "ACT:19:23-26"
-        ]
+            Prefix.readingRef + "ACT:19:23-26",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=GL48&C=Title",
-            " الإبركسيس  من أعمال الرسل (25: 23 & 26:6)",
-            "ACT:(25: 23 & 26:6",
-            "ACT:(25: 23 & 26:6"
         ],
         [
-            Prefix.readingRef + "ACT:25:23-End"
+            Prefix.readingRef + "ACT:25:23-End/26:1-6",
         ],
-        [
-            Prefix.readingRef + "ACT:26:1-6"
-        ]
     ],
     [
         [
             Prefix.praxis + "&D=GL49&C=Title",
-            " الإبركسيس  من أعمال الرسل (15: 1-18)"
         ],
         [
-            Prefix.readingRef + "ACT:15:1-18"
-        ]
+            Prefix.readingRef + "ACT:15:1-18",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=GL4&C=Title",
-            " الإبركسيس  من أعمال الرسل (5:34-42)"
         ],
         [
-            Prefix.readingRef + "ACT:5:34-42"
-        ]
+            Prefix.readingRef + "ACT:5:34-42",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=GL4thSunday&C=Title",
-            " الإبركسيس  من أعمال الرسل (24:1-23)"
         ],
         [
-            Prefix.readingRef + "ACT:24:1-23"
-        ]
+            Prefix.readingRef + "ACT:24:1-23",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=GL50&C=Title",
-            " الإبركسيس  من أعمال الرسل 27:38-28:10)"
         ],
         [
-            Prefix.readingRef + "ACT:27:38-End"
+            Prefix.readingRef + "ACT:27:38-End/28:1-10",
         ],
-        [
-            Prefix.readingRef + "ACT:28:1-10"
-        ]
     ],
     [
         [
             Prefix.praxis + "&D=GL5&C=Title",
-            " الإبركسيس  من أعمال الرسل (10:9-20)"
         ],
         [
-            Prefix.readingRef + "ACT:10:9-20"
-        ]
+            Prefix.readingRef + "ACT:10:9-20",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=GL5thSunday&C=Title",
-            " الإبركسيس  من أعمال الرسل (25:13-26:1)"
         ],
         [
-            Prefix.readingRef + "ACT:25:13-End"
+            Prefix.readingRef + "ACT:25:13-End/26:1-1",
         ],
-        [
-            Prefix.readingRef + "ACT:26:1-1"
-        ]
     ],
     [
         [
             Prefix.praxis + "&D=1305||2605||GL6&C=Title",
-            " الإبركسيس  من أعمال الرسل (8:3-13)"
         ],
         [
-            Prefix.readingRef + "ACT:8:3-13"
-        ]
+            Prefix.readingRef + "ACT:8:3-13",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=GL6thSunday&C=Title",
-            " الإبركسيس  من أعمال الرسل (24:1-23)"
         ],
         [
-            Prefix.readingRef + "ACT:26:19-End"
+            Prefix.readingRef + "ACT:26:19-End/27:1-8",
         ],
-        [
-            Prefix.readingRef + "ACT:27:1-8"
-        ]
     ],
     [
         [
             Prefix.praxis + "&D=GL7&C=Title",
-            " الإبركسيس  من أعمال الرسل (2:42-3:9)"
         ],
         [
-            Prefix.readingRef + "ACT:2:42-End"
+            Prefix.readingRef + "ACT:2:42-End/3:1-9",
         ],
-        [
-            Prefix.readingRef + "ACT:3:1-9"
-        ]
     ],
     [
         [
             Prefix.praxis + "&D=GL7thSunday&C=Title",
-            " الإبركسيس  من أعمال الرسل (27: 27-37)"
         ],
         [
-            Prefix.readingRef + "ACT:27:27-37"
-        ]
+            Prefix.readingRef + "ACT:27:27-37",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=GL8&C=Title",
-            " الإبركسيس  من أعمال الرسل (21:27-39)"
         ],
         [
-            Prefix.readingRef + "ACT:21:27-39"
-        ]
+            Prefix.readingRef + "ACT:21:27-39",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=GL8thSunday&C=Title",
-            " الإبركسيس  من أعمال الرسل (28:11-31)"
         ],
         [
-            Prefix.readingRef + "ACT:28:11-31"
-        ]
+            Prefix.readingRef + "ACT:28:11-31",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=Pntl10&C=Title",
-            " الإبركسيس  من أعمال الرسل (4:8-12)"
         ],
         [
-            Prefix.readingRef + "ACT:4:8-12"
-        ]
+            Prefix.readingRef + "ACT:4:8-12",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=Pntl11&C=Title",
-            " الإبركسيس  من أعمال الرسل 4:13-18 )"
         ],
         [
-            Prefix.readingRef + "ACT:4:13-18"
-        ]
+            Prefix.readingRef + "ACT:4:13-18",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=Pntl12&C=Title",
-            " الإبركسيس  من أعمال الرسل (4:19-21)"
         ],
         [
-            Prefix.readingRef + "ACT:4:19-21"
-        ]
+            Prefix.readingRef + "ACT:4:19-21",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=Pntl13&C=Title",
-            " الإبركسيس  من أعمال الرسل (9:31-35)"
         ],
         [
-            Prefix.readingRef + "ACT:9:31-35"
-        ]
+            Prefix.readingRef + "ACT:9:31-35",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=Pntl15&C=Title",
-            " الإبركسيس  من أعمال الرسل (4:23-27 )"
         ],
         [
-            Prefix.readingRef + "ACT:4:23-27"
-        ]
+            Prefix.readingRef + "ACT:4:23-27",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=Pntl16&C=Title",
-            " الإبركسيس  من أعمال الرسل( 4:27-31)"
         ],
         [
-            Prefix.readingRef + "ACT:4:27-31"
-        ]
+            Prefix.readingRef + "ACT:4:27-31",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=Pntl17&C=Title",
-            " الإبركسيس  من أعمال الرسل (4:32-35)"
         ],
         [
-            Prefix.readingRef + "ACT:4:32-35"
-        ]
+            Prefix.readingRef + "ACT:4:32-35",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=Pntl18&C=Title",
-            " الإبركسيس  من أعمال الرسل (5:1-6)"
         ],
         [
-            Prefix.readingRef + "ACT:5:1-6"
-        ]
+            Prefix.readingRef + "ACT:5:1-6",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=Pntl19&C=Title",
-            " الإبركسيس  من أعمال الرسل (5:5-11)"
         ],
         [
-            Prefix.readingRef + "ACT:5:5-11"
-        ]
+            Prefix.readingRef + "ACT:5:5-11",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=Pntl1&C=Title",
-            " الإبركسيس  من أعمال الرسل (3:1-20 )"
         ],
         [
-            Prefix.readingRef + "ACT:3:1-20"
-        ]
+            Prefix.readingRef + "ACT:3:1-20",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=0101||Pntl1stSunday&C=Title",
-            " الإبركسيس  من أعمال الرسل (17: 16-34)"
         ],
         [
-            Prefix.readingRef + "ACT:17:16-34"
-        ]
+            Prefix.readingRef + "ACT:17:16-34",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=Pntl20&C=Title",
-            " الإبركسيس  من أعمال الرسل (4:19-31)"
         ],
         [
-            Prefix.readingRef + "ACT:5:12-20"
-        ]
+            Prefix.readingRef + "ACT:5:12-20",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=Pntl22&C=Title",
-            " الإبركسيس  من أعمال الرسل (5:21-25 )"
         ],
         [
-            Prefix.readingRef + "ACT:5:21-25"
-        ]
+            Prefix.readingRef + "ACT:5:21-25",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=Pntl23||Pntl37&C=Title",
-            " الإبركسيس  من أعمال الرسل (5: 27-29)"
         ],
         [
-            Prefix.readingRef + "ACT:5:27-29"
-        ]
+            Prefix.readingRef + "ACT:5:27-29",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=Pntl24&C=Title",
-            " الإبركسيس  من أعمال الرسل (20: 1-6)"
         ],
         [
-            Prefix.readingRef + "ACT:20:1-6"
-        ]
+            Prefix.readingRef + "ACT:20:1-6",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=Pntl25&C=Title",
-            " الإبركسيس  من أعمال الرسل (5:30-33)"
         ],
         [
-            Prefix.readingRef + "ACT:5:30-33"
-        ]
+            Prefix.readingRef + "ACT:5:30-33",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=Pntl26&C=Title",
-            " الإبركسيس  من أعمال الرسل (5: 34-36)"
         ],
         [
-            Prefix.readingRef + "ACT:5:34-36"
-        ]
+            Prefix.readingRef + "ACT:5:34-36",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=Pntl27&C=Title",
-            " الإبركسيس  من أعمال الرسل (9:36-43)"
         ],
         [
-            Prefix.readingRef + "ACT:9:36-43"
-        ]
+            Prefix.readingRef + "ACT:9:36-43",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=Pntl29&C=Title",
-            " الإبركسيس  من أعمال الرسل (7:37-41 )"
         ],
         [
-            Prefix.readingRef + "ACT:7:37-41"
-        ]
+            Prefix.readingRef + "ACT:7:37-41",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=Pntl2ndSunday||122ndSunday&C=Title",
-            " الإبركسيس  من أعمال الرسل (20:1-12)"
         ],
         [
-            Prefix.readingRef + "ACT:20:1-12"
-        ]
+            Prefix.readingRef + "ACT:20:1-12",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=Pntl30&C=Title",
-            " الإبركسيس  من أعمال الرسل (7:40-43)"
         ],
         [
-            Prefix.readingRef + "ACT:7:40-43"
-        ]
+            Prefix.readingRef + "ACT:7:40-43",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=Pntl31&C=Title",
-            " الإبركسيس  من أعمال الرسل (7:44-50)"
         ],
         [
-            Prefix.readingRef + "ACT:7:44-50"
-        ]
+            Prefix.readingRef + "ACT:7:44-50",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=Pntl32&C=Title",
-            " الإبركسيس  من أعمال الرسل (7:51-54)"
         ],
         [
-            Prefix.readingRef + "ACT:7:51-54"
-        ]
+            Prefix.readingRef + "ACT:7:51-54",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=Pntl33&C=Title",
-            " الإبركسيس  من أعمال الرسل (8:1-4)"
         ],
         [
-            Prefix.readingRef + "ACT:8:1-4"
-        ]
+            Prefix.readingRef + "ACT:8:1-4",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=Pntl36&C=Title",
-            " الإبركسيس  من أعمال الرسل (9:23-31 )"
         ],
         [
-            Prefix.readingRef + "ACT:9:23-31"
-        ]
+            Prefix.readingRef + "ACT:9:23-31",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=Pntl38&C=Title",
-            " الإبركسيس  من أعمال الرسل (19:6-10)"
         ],
         [
-            Prefix.readingRef + "ACT:19:6-10"
-        ]
+            Prefix.readingRef + "ACT:19:6-10",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=Pntl3&C=Title",
-            " الإبركسيس  من أعمال الرسل (4:1-13)"
         ],
         [
-            Prefix.readingRef + "ACT:4:1-13"
-        ]
+            Prefix.readingRef + "ACT:4:1-13",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=Pntl3rdSunday&C=Title",
-            " الإبركسيس  من أعمال الرسل (10:37-43)"
         ],
         [
-            Prefix.readingRef + "ACT:10:37-43"
-        ]
+            Prefix.readingRef + "ACT:10:37-43",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=Pntl40&C=Title",
-            " الإبركسيس  من أعمال الرسل (22:6-10)"
         ],
         [
-            Prefix.readingRef + "ACT:22:6-10"
-        ]
+            Prefix.readingRef + "ACT:22:6-10",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=Pntl41&C=Title",
-            " الإبركسيس  من أعمال الرسل (24:10-21)"
         ],
         [
-            Prefix.readingRef + "ACT:24:10-21"
-        ]
+            Prefix.readingRef + "ACT:24:10-21",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=Pntl43&C=Title",
-            " الإبركسيس  من أعمال الرسل (14:19-23 )"
         ],
         [
-            Prefix.readingRef + "ACT:14:19-23"
-        ]
+            Prefix.readingRef + "ACT:14:19-23",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=Pntl44&C=Title",
-            " الإبركسيس  من أعمال الرسل (14:20-23)"
         ],
         [
-            Prefix.readingRef + "ACT:14:20-23"
-        ]
+            Prefix.readingRef + "ACT:14:20-23",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=Pntl45&C=Title",
-            " الإبركسيس  من أعمال الرسل (15:4-9)"
         ],
         [
-            Prefix.readingRef + "ACT:15:4-9"
-        ]
+            Prefix.readingRef + "ACT:15:4-9",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=Pntl46&C=Title",
-            " الإبركسيس  من أعمال الرسل (15:7-12)"
         ],
         [
-            Prefix.readingRef + "ACT:15:7-12"
-        ]
+            Prefix.readingRef + "ACT:15:7-12",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=Pntl47&C=Title",
-            " الإبركسيس  من أعمال الرسل (15:13-18)"
         ],
         [
-            Prefix.readingRef + "ACT:15:13-18"
-        ]
+            Prefix.readingRef + "ACT:15:13-18",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=Pntl48&C=Title",
-            " الإبركسيس  من أعمال الرسل (1:15-26)"
         ],
         [
-            Prefix.readingRef + "ACT:1:15-26"
-        ]
+            Prefix.readingRef + "ACT:1:15-26",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=Pntl4thSunday&C=Title",
-            " الإبركسيس  من أعمال الرسل (14:8-23)"
         ],
         [
-            Prefix.readingRef + "ACT:14:8-23"
-        ]
+            Prefix.readingRef + "ACT:14:8-23",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=Pntl5&C=Title",
-            " الإبركسيس  من أعمال الرسل (13:34-42)"
         ],
         [
-            Prefix.readingRef + "ACT:13:34-42"
-        ]
+            Prefix.readingRef + "ACT:13:34-42",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=Pntl5thSunday&C=Title",
-            " الإبركسيس  من أعمال الرسل (9:1-20)"
         ],
         [
-            Prefix.readingRef + "ACT:9:1-20"
-        ]
+            Prefix.readingRef + "ACT:9:1-20",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=Pntl6thSunday&C=Title",
-            " الإبركسيس  من أعمال الرسل (20:1-16)"
         ],
         [
-            Prefix.readingRef + "ACT:20:1-16"
-        ]
+            Prefix.readingRef + "ACT:20:1-16",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=Pntl7thSunday||Pntl8thSunday&C=Title",
-            " الإبركسيس  من أعمال الرسل (2:1-21)"
         ],
         [
-            Prefix.readingRef + "ACT:2:1-21"
-        ]
+            Prefix.readingRef + "ACT:2:1-21",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=Pntl8&C=Title",
-            " الإبركسيس  من أعمال الرسل (4:1-4 )"
         ],
         [
-            Prefix.readingRef + "ACT:4:1-4"
-        ]
+            Prefix.readingRef + "ACT:4:1-4",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=Pntl9&C=Title",
-            " الإبركسيس  من أعمال الرسل (4:5-7)"
         ],
         [
-            Prefix.readingRef + "ACT:4:5-7"
-        ]
+            Prefix.readingRef + "ACT:4:5-7",
+        ],
     ],
     [
         [
             Prefix.praxis + "&D=GL9thSunday&C=Title",
-            " الإبركسيس  من أعمال الرسل (2 : 22 – 28 )"
         ],
         [
-            Prefix.readingRef + "ACT:2:22-28"
-        ]
-    ]
+            Prefix.readingRef + "ACT:2:22-28",
+        ],
+    ],
 ];
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRGVjbGFyZVByYXhpc0FycmF5LmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vbW9kdWxlcy9EZWNsYXJlUHJheGlzQXJyYXkudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsY0FBYyxDQUFDLGFBQWEsR0FBRTtJQUM1QjtRQUNJO1lBQ0ksTUFBTSxDQUFDLE1BQU0sR0FBRyw4QkFBOEI7WUFDOUMseUJBQXlCO1NBQzVCO1FBQ0Q7WUFDSSxNQUFNLENBQUMsVUFBVSxHQUFHLGNBQWM7U0FDckM7S0FDSjtJQUNEO1FBQ0k7WUFDSSxNQUFNLENBQUMsTUFBTSxHQUFHLHdCQUF3QjtZQUN4QyxpQ0FBaUM7U0FDcEM7UUFDRDtZQUNJLE1BQU0sQ0FBQyxVQUFVLEdBQUcsY0FBYztTQUNyQztLQUNKO0lBQ0Q7UUFDSTtZQUNJLE1BQU0sQ0FBQyxNQUFNLEdBQUcsd0JBQXdCO1lBQ3hDLHdDQUF3QztTQUMzQztRQUNEO1lBQ0ksTUFBTSxDQUFDLFVBQVUsR0FBRyxhQUFhO1NBQ3BDO0tBQ0o7SUFDRDtRQUNJO1lBQ0ksTUFBTSxDQUFDLE1BQU0sR0FBRyxxQ0FBcUM7WUFDckQsc0JBQXNCO1NBQ3pCO1FBQ0Q7WUFDSSxNQUFNLENBQUMsVUFBVSxHQUFHLGFBQWE7U0FDcEM7S0FDSjtJQUNEO1FBQ0k7WUFDSSxNQUFNLENBQUMsTUFBTSxHQUFHLGlCQUFpQjtZQUNqQyw0Q0FBNEM7U0FDL0M7UUFDRDtZQUNJLE1BQU0sQ0FBQyxVQUFVLEdBQUcsYUFBYTtTQUNwQztLQUNKO0lBQ0Q7UUFDSTtZQUNJLE1BQU0sQ0FBQyxNQUFNLEdBQUcsdUJBQXVCO1lBQ3ZDLHdDQUF3QztTQUMzQztRQUNEO1lBQ0ksTUFBTSxDQUFDLFVBQVUsR0FBRyxjQUFjO1NBQ3JDO0tBQ0o7SUFDRDtRQUNJO1lBQ0ksTUFBTSxDQUFDLE1BQU0sR0FBRyxpQkFBaUI7WUFDakMsOEJBQThCO1NBQ2pDO1FBQ0Q7WUFDSSxNQUFNLENBQUMsVUFBVSxHQUFHLGFBQWE7U0FD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
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRGVjbGFyZVByYXhpc0FycmF5LmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vbW9kdWxlcy9EZWNsYXJlUHJheGlzQXJyYXkudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsY0FBYyxDQUFDLGFBQWEsR0FBRSxDQUFDO1FBQzNCO1lBQ0EsTUFBTSxDQUFDLE1BQU0sR0FBQyw4QkFBOEI7U0FDM0M7UUFDRDtZQUNBLE1BQU0sQ0FBQyxVQUFVLEdBQUMsY0FBYztTQUMvQjtLQUNBO0lBQ0Q7UUFDQTtZQUNBLE1BQU0sQ0FBQyxNQUFNLEdBQUMsd0JBQXdCO1NBQ3JDO1FBQ0Q7WUFDQSxNQUFNLENBQUMsVUFBVSxHQUFDLGNBQWM7U0FDL0I7S0FDQTtJQUNEO1FBQ0E7WUFDQSxNQUFNLENBQUMsTUFBTSxHQUFDLHdCQUF3QjtTQUNyQztRQUNEO1lBQ0EsTUFBTSxDQUFDLFVBQVUsR0FBQyxhQUFhO1NBQzlCO0tBQ0E7SUFDRDtRQUNBO1lBQ0EsTUFBTSxDQUFDLE1BQU0sR0FBQyxxQ0FBcUM7U0FDbEQ7UUFDRDtZQUNBLE1BQU0sQ0FBQyxVQUFVLEdBQUMsYUFBYTtTQUM5QjtLQUNBO0lBQ0Q7UUFDQTtZQUNBLE1BQU0sQ0FBQyxNQUFNLEdBQUMsaUJBQWlCO1NBQzlCO1FBQ0Q7WUFDQSxNQUFNLENBQUMsVUFBVSxHQUFDLGFBQWE7U0FDOUI7S0FDQTtJQUNEO1FBQ0E7WUFDQSxNQUFNLENBQUMsTUFBTSxHQUFDLHVCQUF1QjtTQUNwQztRQUNEO1lBQ0EsTUFBTSxDQUFDLFVBQVUsR0FBQyxjQUFjO1NBQy9CO0tBQ0E7SUFDRDtRQUNBO1lBQ0EsTUFBTSxDQUFDLE1BQU0sR0FBQyxpQkFBaUI7U0FDOUI7UUFDRDtZQUNBLE1BQU0sQ0FBQyxVQUFVLEdBQUMsYUFBYTtTQUM5QjtLQUNBO0lBQ0Q7UUFDQTtZQUNBLE1BQU0sQ0FBQyxNQUFNLEdBQUMsd0JBQXdCO1NBQ3JDO1FBQ0Q7WUFDQSxNQUFNLENBQUMsVUFBVSxHQUFDLGNBQWM7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

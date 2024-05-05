@@ -33,7 +33,7 @@ type bibleBookKeys = { id: string, human: string, human_long: string, chaptersLi
 
 //CONSTANTS
 const version: string =
-  "v6.5.8.2 (Fixes to the insertion of readings by references and to the Holy Week Passover buttons)";
+  "v6.6 (Fixes to the insertion of readings by references: Added references to Catholicon and fixed bugs)";
 const calendarDay: number = 24 * 60 * 60 * 1000; //this is a day in milliseconds
 const containerDiv: HTMLDivElement = document.getElementById(
   "containerDiv") as HTMLDivElement;
@@ -469,6 +469,7 @@ const GreatLordFeasts = [
     Seasons.KiahkWeek4,
     Seasons.JonahFast,
     Seasons.GreatLent,
+    Seasons.HolyWeek,
     Seasons.ApostlesFast,
     Seasons.StMaryFast,
   ];

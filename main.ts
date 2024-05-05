@@ -3458,32 +3458,30 @@ function convertHtmlDivElementsIntoArrayTable(
   let table: string[][] = [],
     title = htmlRows[0].title;
   let text: string;
-  htmlRows.forEach((row) => {
-    if (!row.title || !row.dataset.root)
+  htmlRows.forEach((htmlRow) => {
+    if (!htmlRow.title || !htmlRow.dataset.root)
       return alert("the row dosen't have title");
+    if (htmlRow.dataset.isReference)
+      return table.push(Array.from(htmlRow.querySelectorAll('p')).map((p:HTMLParagraphElement)=>Prefix.readingRef + p.innerText)); 
     table.push(
-      Array.from(row.children)
+      Array.from(htmlRow.children)
       .map((p: HTMLElement) => {
-          text = p.innerHTML
+          text = p.innerText //!This must be the innerText not the textContent nor the innerHTML
           //We replace the quotes in the innerHTML of the paragraph, but we will return the innerText of the paragraph in order to avoid getting <br> or any other html tags in the returned text
           text = replaceHtmlQuotes(text, p.lang); //When the text is displayed, the <quote> elment is replaced with the quotes symbol of the relevant language. We replace the quotes with the html <quote> element
-        if (row.dataset.isReference && !text.includes('&C='))
-          text += '&C=' + Array.from(row.classList).find(c => ['Title', 'SubTitle', 'Diacon', 'Priest', 'Assembly'].includes(c)) ||'NoActor';
         return text;
       })
     );
-    let firstElement: string;
-    if (table.length === 1)
-      firstElement = row.title; //If the row that we have pushed is the first element of the table (i.e., the first row of the table), its first element is the full title of the table
-    else if (row.dataset.isPlaceHolder)
-      firstElement = Prefix.placeHolder;
-    else if (row.dataset.isPrefixSame || [splitTitle(row.title)[0], splitTitle(row.dataset.root)[0]].includes(splitTitle(title)[0]))
-      firstElement = Prefix.same + '&C=' + splitTitle(row.title)[1];
-    else firstElement = row.title;
 
-    if (row.dataset.isReference)
-      table[table.length - 1][0] = Prefix.readingRef + table[table.length - 1][0].replaceAll('REF:', '')//The rows with data-reference = 'true'  have only one element which is the reference strating with Prefix.readingRef + "BOOK:CHAPTER:VERSES"
-    else table[table.length - 1].unshift(firstElement);//We add the title string element to the last row of the table that we have just pushed. 
+    let firstElement: string = title;
+    if(htmlRows.indexOf(htmlRow)===0)
+      firstElement = title;//The entire title including the "&C="
+    else if (htmlRow.dataset.isPlaceHolder)
+      firstElement = Prefix.placeHolder; 
+    else if (htmlRow.dataset.isPrefixSame || [splitTitle(htmlRow.title)[0], splitTitle(htmlRow.dataset.root)[0]].includes(splitTitle(title)[0]))
+      firstElement = Prefix.same + '&C=' + splitTitle(htmlRow.title)[1];
+    
+    table[table.length - 1].unshift(firstElement);//We add the title string element to the last row of the table that we have just pushed. 
   });
   return table;
 }
