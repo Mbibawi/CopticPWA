@@ -3270,6 +3270,8 @@ function matchPargraphsSplitting(retrieved: string[], langs:string[], add: numbe
           
             if (ranges.indexOf(versesRange) < ranges.length - 1)
               toVerse = ranges[ranges.indexOf(versesRange) + 1][0];//If we have not reached the last element of ranges, we will set versesRange[1] = element 0 of the next element of ranges in order to retrive the text until the end of the last verse number
+            else if (versesRange[0] === toVerse)
+              toVerse = '';
             else toVerse = versesRange[1] + '\.\*';
         
             let exp = RegExp(versesRange[0] + '\.\*' + toVerse);
