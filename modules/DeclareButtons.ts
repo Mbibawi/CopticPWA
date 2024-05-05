@@ -4044,6 +4044,7 @@ function getVerseText(verse: bibleVerse) {
     return verse[0];
   return ('Sup_' + verse[0] + '_Sup' + verse[1])
     .replaceAll('#', '')
+    .replaceAll('[', '')
     .replaceAll('*', '');
 }
 
