@@ -10125,8 +10125,22 @@ function _reformatReadingArray(array: string[][][]) {
   });
 }
 
-function _prepareReadingArrayForReferences(array:string[][][]){
-  return array.map(tbl => tbl.filter(row => !row[0].startsWith(Prefix.same)));
+function _prepareReadingArrayForReferences(array: string[][][]) {
+  let name = getArrayNameFromArray(array);
+  let prefix = '&C=';
+  saveOrExportArray(
+    array.map(tbl => {
+    tbl = tbl.filter(row => !row[0].startsWith(Prefix.same));
+    if(tbl[0][0].includes('Psalm&D='))
+        tbl.push([Prefix.readingRef + "PSA:&C="]);
+    else tbl.push([Prefix.readingRef + "XXX&C="]);
+
+    return tbl;
+    }),
+    name,
+    true,
+    false);
+
 }
 
 /**
@@ -10139,49 +10153,53 @@ function _fixReadingReferences(readingArray: string[][][]) {
   readingArray
     .forEach(table =>
       table.forEach(row => {
-        if (!(row.length === 1 && row[0].startsWith(Prefix.readingRef))) return;
+        if (table.indexOf(row) === 0)
+          table[0] = [row[0]];
+        if (!row[0].startsWith(Prefix.readingRef)) return;
+
         row[0] = row[0]
+          .replaceAll(' ', '')
           .replaceAll('(', '')
           .replaceAll(')', '')
-          .replaceAll(' ', '');
-
-        row[0] = row[0].replace(Prefix.readingRef, "Prefix.readingRef + \"");
-
-        (function processPsalm() {
-          if (!row[0].includes('PSA:')) return;
-          let parts = row[0].split(':');
-
-          if (/PSA:\d*:\d*,/.test(row[0])) {
-            let splitted = parts[2].split(',')
-            splitted.forEach(n => {
-              if (splitted.indexOf(n) === 0)
-                parts[2] = parts[2].replace(n, n + '-' + n);
-              else parts[2] = parts[2].replace(n, '/' + parts[1] + ':' + n + '-' + n)
-            });
-
+          .replaceAll('–', '-')
+          .replaceAll(',', ';');
+        
+        (function process() {
+          if (!row[0].includes(';')) return;
+          let actor = splitTitle(row[0])[1];
+          let parts = splitTitle(row[0])[0].split(';');
+          let root = parts[0].replace(Prefix.readingRef, '').split(':');//[PSA, 12, 2-3];
+          row[0] = Prefix.readingRef + root[0] + ':' + root[1] + ':' + correctVerses(root[2]) + '/';
+          
+          row[0] += parts.filter(part => parts.indexOf(part) > 0)
+          .map(verse => root[1] + ':' + correctVerses(verse))
+          .join('/');
+          
+          if (actor) row[0] += '&C=' + actor;
+        
+          function correctVerses(verse: string) {
+            if (verse.includes('-'))
+              return verse;
+            return verse + '-' + verse;
           }
+      })();
 
-          if (!parts[2].includes('-'))
-            parts[2] = parts[2] + '-' + parts[2]
-
-          row[0] = parts.join(':')
-
-        })();
-
-
-        if (!checkReferenceIntegrity(row[0], title))
-
-          return console.log('The reference is not matching for table. Title = ', title, 'reference = ', row[0]);
-        if (row[0].includes('/')) {
-          let splitted = row[0].split('/');
-          row[0] = splitted[0];
-          table.push([splitted[0].split(':')[0] + ':' + splitted[1]])
-        }
-
-      }));
-
-
-  return readingArray;
+      
+      /*  if (!checkReferenceIntegrity(row[0], title))
+      
+      return console.log('The reference is not matching for table. Title = ', title, 'reference = ', row[0]);
+      if (row[0].includes('/')) {
+        let splitted = row[0].split('/');
+        row[0] = splitted[0];
+        table.push([splitted[0].split(':')[0] + ':' + splitted[1]])
+      }
+      */
+     
+     
+    }));
+    
+    saveOrExportArray(readingArray, getArrayNameFromArray(readingArray), true, false);
+  
 
   function checkReferenceIntegrity(ref: string, prefix: string) {
     let Praxis: RegExp[] = [
@@ -10247,6 +10265,10 @@ function _fixReadingReferences(readingArray: string[][][]) {
       /JHN:\d*:\d*-\d/,
       /JHN:\d*:\d*-End/,
     ];
+    let Psalm = [
+      /PSA:\d*:\d*-\d/,
+      /PSA:\d*:\d*-End/,
+      ];
 
     let group: [RegExp[], string][] = [
       [stPaul, Prefix.stPaul],
@@ -10255,7 +10277,12 @@ function _fixReadingReferences(readingArray: string[][][]) {
       [Gospels, Prefix.gospelMass],
       [Gospels, Prefix.gospelNight],
       [Gospels, Prefix.gospelDawn],
-      [Gospels, Prefix.gospelVespers]];
+      [Gospels, Prefix.gospelVespers],
+      [Psalm, Prefix.gospelDawn],
+      [Psalm, Prefix.gospelVespers],
+      [Psalm, Prefix.gospelMass],
+      [Psalm, Prefix.gospelNight],
+    ];
 
     let expressions: RegExp[] = group.find(exp => prefix.startsWith(exp[1]))[0];
 

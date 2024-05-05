@@ -3691,13 +3691,13 @@ async function insertCymbalVersesAndDoxologies(btn: Button) {
 
     if (feast.length > 0) return getUniqueValuesFromArray(feast) as string[];
   })();
-
+  let anchor: HTMLElement;
   (async function InsertCymbalVerses() {
-    let cymbalsAnchor: HTMLElement = selectElementsByDataSetValue(
+    anchor = selectElementsByDataSetValue(
       btn.docFragment,
       Prefix.anchor + "CymbalVerses&D=$copticFeasts.AnyDay")[0];
 
-    if (!cymbalsAnchor)
+    if (!anchor)
       return console.log("We didn't find the cymbal verses placeholder");
 
     let cymbals: string[][][];
@@ -3723,7 +3723,7 @@ async function insertCymbalVersesAndDoxologies(btn: Button) {
       languages: btn.languages,
       position: {
         beforeOrAfter: "beforebegin",
-        el: cymbalsAnchor.nextElementSibling as HTMLElement,
+        el: anchor.nextElementSibling as HTMLElement,
       },
       container: btn.docFragment,
     });
@@ -3743,9 +3743,8 @@ async function insertCymbalVersesAndDoxologies(btn: Button) {
           Season
         )
       )
-        sequence.push(
-          Prefix.cymbalVerses + "LordFeastsEnd&D=$copticFeasts.AnyDay"
-        );
+        sequence =
+          [Prefix.cymbalVerses + "LordFeastsEnd&D=$copticFeasts.AnyDay"];
 
 
       if (dayFeasts)
@@ -3756,7 +3755,7 @@ async function insertCymbalVersesAndDoxologies(btn: Button) {
             Seasons.Baptism,
             Seasons.PentecostalDays,
           ].includes(feast) //During Seasons.Nativity (i.e., between Nativity and Circumcision) and Seasons.Baptism(from Baptism to Cana Wedding), the Cymbals verses follow the pattern of any Lord Feast: it starts with "Amoyni Marin..." or "Ten O'osht", then the cymbal verses of the feast, and finally, the "Eb'oro enti ti hirini". We will hence remove the 2nd element from the sequence
-            ? insertFeastInSequence(sequence, feast, 1, 1)
+            ? insertFeastInSequence(sequence, feast, 0, 0)
             : insertFeastInSequence(sequence, feast, 1, 0)
         ); //We always start with 'Amoyni Marin...' or with 'Tin O'osht...', so we will insert the feast element before the 2nd element, and will not delete anything
 

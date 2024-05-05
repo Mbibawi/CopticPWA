@@ -281,8 +281,8 @@ const bookOfHours: {
     [1, 2, 3, 4, 5, 6, 8, 11, 12, 14, 15, 18, 24, 26, 62, 66, 69, 112, 142],
     {
       AR: "بَاكِرْ",
-      FR: "Aube",
-      EN: "Dawn",
+      FR: "Matin",
+      EN: "Morning",
     },
   ],
   ThirdHour: [
