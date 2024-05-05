@@ -3249,15 +3249,17 @@ function matchPargraphsSplitting(retrieved: string[], langs:string[], add: numbe
       .map(match => match[0]));
 
   ranges = ranges
-    .map(range => [range[0], range[range.length - 1]]);//Those are the first and last verses numbers in each paragraph of the default language
+    .map(range => [range[0], range[range.length - 1]])//Those are the first and last verses numbers in each paragraph of the default language
+    .filter(versesRange => versesRange[0] && versesRange[1]);//!We must remove any undefined elements;
 
+  
   langs
     .forEach(lang => {
       if (lang === defaultLanguage) return;
       let text = retrieved[langs.indexOf(lang) + add].replaceAll('\n', ' ');//!We must remove all the '\n' characters from the string
       if (!text) return;
       if (!exp.test(text)) return;//If the text is not divided into verses (i.e. includes('Sup))
-
+  
       retrieved[langs.indexOf(lang) + add] =
         ranges
           .map(versesRange =>
@@ -3266,13 +3268,12 @@ function matchPargraphsSplitting(retrieved: string[], langs:string[], add: numbe
       
           function splitTextIntoParagraphs(versesRange: string[]): string {
             //versesRange contains 2 elements. Each element is like "Sup_2_Sup". The 1st element is the number of the first verse in the paragraph. The 2nd element is the number of the last verse
+            if (!versesRange[0] || !versesRange[1]) return '';
             let toVerse:string = versesRange[1];//!We need a new variable otherwise we will modify versesRange[1] in its original array
           
             if (ranges.indexOf(versesRange) < ranges.length - 1)
               toVerse = ranges[ranges.indexOf(versesRange) + 1][0];//If we have not reached the last element of ranges, we will set versesRange[1] = element 0 of the next element of ranges in order to retrive the text until the end of the last verse number
-            else if (versesRange[0] === toVerse)
-              toVerse = '';
-            else toVerse = versesRange[1] + '\.\*';
+            else toVerse = '';
         
             let exp = RegExp(versesRange[0] + '\.\*' + toVerse);
             let match = text.match(exp);
