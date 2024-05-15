@@ -33,7 +33,7 @@ type bibleBookKeys = { id: string, human: string, human_long: string, chaptersLi
 
 //CONSTANTS
 const version: string =
-  "v6.6 (Fixes to the insertion of readings by references: Added references to Catholicon and fixed bugs)";
+  "v6.7 (Fixes to the intercesion hymns for the Pentecostal season)";
 const calendarDay: number = 24 * 60 * 60 * 1000; //this is a day in milliseconds
 const containerDiv: HTMLDivElement = document.getElementById(
   "containerDiv") as HTMLDivElement;

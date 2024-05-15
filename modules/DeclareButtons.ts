@@ -1043,34 +1043,48 @@ const btnMassUnBaptised: Button = new Button({
     (function insertIntercessionsHymnsForSeasons() {
       let seasonalIntercessions = MassCommonPrayersArray.filter(
         (table) =>
-          table[0][0].includes("ByTheIntercessionOf") &&
+          RegExp('Intercessions\.\*D=').test(table[0][0])
+          &&
           (isMultiDatedTitleMatching(table[0][0], [copticDate, Season]))
       );
       if (seasonalIntercessions.length < 1)
         return console.log("No Seasonsal Intercession Hymns");
+      
+      seasonalIntercessions = getUniqueValuesFromArray(seasonalIntercessions) as string[][][];
 
-      let anchor = setAnchorAccordingToOccasion();
+      let anchor: HTMLDivElement;
+      
+      if (Season === Seasons.PentecostalDays)
+        selectElementsByDataSetValue(btnDocFragment, 'IntercessionsStMaykel', { includes: true }, 'root').forEach(div => div.remove());//We remove the intercessions of St. Maykel because they will be replaced by those of the Pentocostal days
 
-      if (!anchor) return;
-
-      insertPrayersAdjacentToExistingElement({
-        tables: getUniqueValuesFromArray(seasonalIntercessions) as string[][][],
-        languages: getLanguages(getArrayNameFromArray(MassCommonPrayersArray)),
-        position: {
-          beforeOrAfter: "beforebegin",
-          el: anchor,
-        },
-        container: btnDocFragment,
+      seasonalIntercessions.forEach(table => {
+        anchor = setIntercessionsAnchor(table[0][0]);
+        if (!anchor) return;
+        insertPrayersAdjacentToExistingElement({
+          tables: [table],
+          languages: getLanguages(getArrayNameFromArray(MassCommonPrayersArray)),
+          position: {
+            beforeOrAfter: "beforebegin",
+            el: anchor,
+          },
+          container: btnDocFragment,
+        });
       });
 
-      function setAnchorAccordingToOccasion(): HTMLDivElement {
-        let title: string = Prefix.massCommon + "ByTheIntercessionOfStMary&D=$copticFeasts.AnyDay";
+      function setIntercessionsAnchor(title: string): HTMLDivElement {
+        if (!title) return;
+        let insertion: string = "IntercessionsStMary";
 
-        if ([Seasons.JonahFast].includes(Season)) title = Prefix.massCommon + "ByTheIntercessionOfStJohnBaptist&D=$copticFeasts.AnyDay";
+        if ([Seasons.JonahFast].includes(Season))
+          insertion = "IntercessionsStJohnBaptist";
+        else if (Season === Seasons.PentecostalDays && !title.includes('IntercessionsStMaykel'))
+           insertion = "IntercessionsStMarc";//The "By the intercessions of St Maykel..." will be inserted after the intercessions of St. Mary
+        
+        if (!insertion) return;
 
         let htmlDivs = selectElementsByDataSetValue(
           btnDocFragment,
-          title);
+          Prefix.massCommon + insertion + "&D=$copticFeasts.AnyDay");
 
         if (!htmlDivs || htmlDivs.length < 1) return;
 

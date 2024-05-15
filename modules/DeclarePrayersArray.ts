@@ -4612,47 +4612,47 @@ PrayersArrayFR= [[
   ],
   [
   Prefix.placeHolder, 
-  Prefix.massCommon+"ByTheIntercessionOfStMary&D=$copticFeasts.AnyDay", 
+  Prefix.massCommon+"IntercessionsStMary&D=$copticFeasts.AnyDay", 
   ],
   [
   Prefix.placeHolder, 
-  Prefix.massCommon+"ByTheIntercessionOfStMaykel&D=$copticFeasts.AnyDay", 
+  Prefix.massCommon+"IntercessionsStMaykel&D=$copticFeasts.AnyDay", 
   ],
   [
   Prefix.placeHolder, 
-  Prefix.massCommon+"ByTheIntercessionOfTheArchangels&D=$copticFeasts.AnyDay", 
+  Prefix.massCommon+"IntercessionsArchangels&D=$copticFeasts.AnyDay", 
   ],
   [
   Prefix.placeHolder, 
-  Prefix.massCommon+"ByTheIntercessionOfStJohnBaptist&D=$copticFeasts.AnyDay", 
+  Prefix.massCommon+"IntercessionsStJohnBaptist&D=$copticFeasts.AnyDay", 
   ],
   [
   Prefix.placeHolder, 
-  Prefix.massCommon+"ByTheIntercessionOfTheApostles&D=$copticFeasts.AnyDay", 
+  Prefix.massCommon+"IntercessionsApostles&D=$copticFeasts.AnyDay", 
   ],
   [
   Prefix.placeHolder, 
-  Prefix.massCommon+"ByTheIntercessionOfStMarc&D=$copticFeasts.AnyDay", 
+  Prefix.massCommon+"IntercessionsStMarc&D=$copticFeasts.AnyDay", 
   ],
   [
   Prefix.placeHolder, 
-  Prefix.massCommon+"ByTheIntercessionOfStSteven&D=$copticFeasts.AnyDay", 
+  Prefix.massCommon+"IntercessionsStSteven&D=$copticFeasts.AnyDay", 
   ],
   [
   Prefix.placeHolder, 
-  Prefix.massCommon+"ByTheIntercessionOfStGeorgeStTheodoreStPhilopatirStMina&D=$copticFeasts.AnyDay", 
+  Prefix.massCommon+"IntercessionsStsGeorge.Theodore.Philopatir.Mina&D=$copticFeasts.AnyDay", 
   ],
   [
   Prefix.placeHolder, 
-  Prefix.massCommon+"ByTheIntercessionOfTodaySaints&D=$copticFeasts.AnyDay", 
+  Prefix.massCommon+"IntercessionsDaySaints&D=$copticFeasts.AnyDay", 
   ],
   [
   Prefix.placeHolder, 
-  Prefix.massCommon+"IntercessionForPope&D=$copticFeasts.AnyDay", 
+  Prefix.massCommon+"IntercessionsPope&D=$copticFeasts.AnyDay", 
   ],
   [
   Prefix.placeHolder, 
-  Prefix.massCommon+"IntercessionForBishop&D=$copticFeasts.AnyDay", 
+  Prefix.massCommon+"IntercessionsBishop&D=$copticFeasts.AnyDay", 
   ],
   [
   Prefix.placeHolder, 
@@ -4675,7 +4675,7 @@ PrayersArrayFR= [[
   ],
   [
   [
-  Prefix.massCommon+"ByTheIntercessionOfTheApostles&D=$copticFeasts.AnyDay&C=Title", 
+  Prefix.massCommon+"IntercessionsApostles&D=$copticFeasts.AnyDay&C=Title", 
   "", 
   "Les Apôtres", 
   "", 
@@ -4691,7 +4691,7 @@ PrayersArrayFR= [[
   ],
   [
   [
-  Prefix.massCommon+"ByTheIntercessionOfStJohnBaptist&D=$copticFeasts.AnyDay&C=Title", 
+  Prefix.massCommon+"IntercessionsStJohnBaptist&D=$copticFeasts.AnyDay&C=Title", 
   "", 
   "Saint Jean-Baptiste", 
   "", 
@@ -4707,7 +4707,7 @@ PrayersArrayFR= [[
   ],
   [
   [
-  Prefix.massCommon+"ByTheIntercessionOfTheSevenArachangles&D=$copticFeasts.AnyDay&C=Title", 
+  Prefix.massCommon+"IntercessionsArchangles&D=$copticFeasts.AnyDay&C=Title", 
   "", 
   "Les sept Arachanges et les ordres célestes", 
   "", 
@@ -4723,7 +4723,7 @@ PrayersArrayFR= [[
   ],
   [
   [
-  Prefix.massCommon+"ByTheIntercessionOfStGabriel&D=$copticFeasts.Annonciation||$saintsFeasts.StGabriel&C=Title", 
+  Prefix.massCommon+"IntercessionsStGabriel&D=$copticFeasts.Annonciation||$saintsFeasts.StGabriel&C=Title", 
   "", 
   "Archange Gabriel", 
   "", 
@@ -4739,7 +4739,7 @@ PrayersArrayFR= [[
   ],
   [
   [
-  Prefix.massCommon+"ByTheIntercessionOfStJohnBaptist&D=$Seasons.Kiahk&C=Title", 
+  Prefix.massCommon+"IntercessionsStJohnBaptist&D=$Seasons.Kiahk&C=Title", 
   "", 
   "St Jean-Baptiste (Kiahk)", 
   "", 
@@ -4755,7 +4755,7 @@ PrayersArrayFR= [[
   ],
   [
   [
-  Prefix.massCommon+"ByTheIntercessionOfStZakaryAndElisabeth&D=$Seasons.Kiahk||$Seasons.Nativity&C=Title", 
+  Prefix.massCommon+"IntercessionsStsZachary.Elisabeth&D=$Seasons.Kiahk||$Seasons.Nativity&C=Title", 
   "", 
   "St Zachary et Ste Elisabeth", 
   "", 
@@ -4771,7 +4771,7 @@ PrayersArrayFR= [[
   ],
   [
   [
-  Prefix.massCommon+"ByTheIntercessionOfStJoakimAndHanna&D=$Seasons.Kiahk||$Seasons.Nativity&C=Title", 
+  Prefix.massCommon+"IntercessionsStsJoakim.Hanna&D=$Seasons.Kiahk||$Seasons.Nativity&C=Title", 
   "", 
   "St Joakim et Hanna", 
   "", 
@@ -4787,7 +4787,7 @@ PrayersArrayFR= [[
   ],
   [
   [
-  Prefix.massCommon+"ByTheIntercessionOfStJosephAndStNikodimos&D=$Seasons.PentecostalDays||$copticFeasts.Coptic29th&C=Title", 
+  Prefix.massCommon+"IntercessionsStsJoseph.Nikodimos&D=$Seasons.PentecostalDays||$copticFeasts.Coptic29th&C=Title", 
   "", 
   "St Joseph et St Nikodimos", 
   "", 
@@ -4803,7 +4803,7 @@ PrayersArrayFR= [[
   ],
   [
   [
-  Prefix.massCommon+"ByTheIntercessionOfStMary&D=$copticFeasts.AnyDay&C=Title", 
+  Prefix.massCommon+"IntercessionsStMary&D=$copticFeasts.AnyDay&C=Title", 
   "", 
   "La Mère de Dieu", 
   "", 
@@ -4819,7 +4819,7 @@ PrayersArrayFR= [[
   ],
   [
   [
-  Prefix.massCommon+"ByTheIntercessionOfStMaykel&D=$copticFeasts.AnyDay&C=Title", 
+  Prefix.massCommon+"IntercessionsStMaykel&D=$copticFeasts.AnyDay&C=Title", 
   "", 
   "l'Archange Michel", 
   "", 
@@ -4835,7 +4835,23 @@ PrayersArrayFR= [[
   ],
   [
   [
-  Prefix.massCommon+"ByTheIntercessionOfTheArchangels&D=$copticFeasts.AnyDay&C=Title", 
+  Prefix.massCommon+"IntercessionsStMaykel&D=$Seasons.PentecostalDays&C=Title", 
+  "", 
+  "l'Archange Michel", 
+  "", 
+  "هيتنية المَلاكْ ميخائيل", 
+  ],
+  [
+  Prefix.same+"&C=Diacon", 
+  "Ϩⲓⲧⲉⲛ ⲛⲓⲡ̀ⲣⲉⲥⲃⲓⲁ: ⲛ̀ⲧⲉ ⲡⲓⲥⲁⲗⲡⲓⲥⲧⲏⲥ ⲛ̀ϯⲁ̀ⲛⲁⲥⲧⲁⲥⲓⲥ: Ⲙⲓⲭⲁⲏⲗ ⲡ̀ⲁⲣⲭⲱⲛ ⲛ̀ⲛⲁⲛⲓⲫⲏⲟⲩⲓ: ⲡ̀ϭⲟⲓⲥ ⲁⲣⲓϩ̀ⲙⲟⲧ ⲛⲁⲛ ⲙ̀ⲡⲓⲭⲱ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉ ⲛⲉⲛⲛⲟⲃⲓ", 
+  "Par les intercessions du trompettiste de la Résurrection, Michel le chef des célestes ; Ô Seigneur, accorde-nous la rémission de nos péchés.", 
+  "هيتين ني ابريسفيا انتبي سالبيستيس إنتي آناستاسيس، ميخائيل ابآرخون نانين فيؤوي،ابتشويس، آري إهموت نان امبي كو إيفول انتي نين نوفي.", 
+  "بِشَفَاعَاتْ  مُبَوِّقْ القِيَامَ، ميخائيل رئيس السمائيين يا رَبُّ انْعِمْ لَنَا بِمَغْفِرَةْ خَطَايَانا.", 
+  ],
+  ],
+  [
+  [
+  Prefix.massCommon+"IntercessionsArchangels&D=$copticFeasts.AnyDay&C=Title", 
   "", 
   "des sept archanges", 
   "", 
@@ -4851,7 +4867,7 @@ PrayersArrayFR= [[
   ],
   [
   [
-  Prefix.massCommon+"ByTheIntercessionOfStMarc&D=$copticFeasts.AnyDay&C=Title", 
+  Prefix.massCommon+"IntercessionsStMarc&D=$copticFeasts.AnyDay&C=Title", 
   "", 
   "Saint Marc l’apôtre", 
   "", 
@@ -4867,7 +4883,7 @@ PrayersArrayFR= [[
   ],
   [
   [
-  Prefix.massCommon+"ByTheIntercessionOfStSteven&D=$copticFeasts.AnyDay&C=Title", 
+  Prefix.massCommon+"IntercessionsStSteven&D=$copticFeasts.AnyDay&C=Title", 
   "", 
   "Archidiacre Etienne", 
   "", 
@@ -4883,7 +4899,7 @@ PrayersArrayFR= [[
   ],
   [
   [
-  Prefix.massCommon+"ByTheIntercessionOfStGeorgeStTheodoreStPhilopatirStMina&D=$copticFeasts.AnyDay&C=Title", 
+  Prefix.massCommon+"IntercessionsStsGeorge.Theodore.Philopatir.Mina&D=$copticFeasts.AnyDay&C=Title", 
   "", 
   "Sts Georges, Théodore, Philopatir, et Mina", 
   "", 
@@ -4899,7 +4915,7 @@ PrayersArrayFR= [[
   ],
   [
   [
-  Prefix.massCommon+"ByTheIntercessionOfTodaySaints&D=$copticFeasts.AnyDay&C=Title", 
+  Prefix.massCommon+"IntercessionsDaySaints&D=$copticFeasts.AnyDay&C=Title", 
   "", 
   "Saints de ce jour", 
   "", 
@@ -4915,7 +4931,7 @@ PrayersArrayFR= [[
   ],
   [
   [
-  Prefix.massCommon+"IntercessionForPope&D=$copticFeasts.AnyDay&C=Title", 
+  Prefix.massCommon+"IntercessionsPope&D=$copticFeasts.AnyDay&C=Title", 
   "", 
   "Le Patriarche", 
   "", 
@@ -4931,7 +4947,7 @@ PrayersArrayFR= [[
   ],
   [
   [
-  Prefix.massCommon+"IntercessionForBishop&D=$copticFeasts.AnyDay&C=Title", 
+  Prefix.massCommon+"IntercessionsBishop&D=$copticFeasts.AnyDay&C=Title", 
   "", 
   "L'évêque ou le métropolite", 
   "", 
@@ -4947,7 +4963,7 @@ PrayersArrayFR= [[
   ],
   [
   [
-  Prefix.massCommon+"ByTheIntercessionOfJonah&D=$Seasons.JonahFast&C=Title", 
+  Prefix.massCommon+"IntercessionsJonah&D=$Seasons.JonahFast&C=Title", 
   "", 
   "Jonas le Prophète", 
   "", 
@@ -27975,7 +27991,7 @@ PrayersArrayFR= [[
   ],
   [
   [
-  Prefix.massCommon+"ByTheIntercessionOfStJosephAndStSalome&D=$Seasons.Nativity||$copticFeasts.Coptic29th&C=Title", 
+  Prefix.massCommon+"IntercessionsStsJoseph.Salome&D=$Seasons.Nativity||$copticFeasts.Coptic29th&C=Title", 
   "", 
   "Saint Joseph le menuisier et Sainte Salomé", 
   "", 
