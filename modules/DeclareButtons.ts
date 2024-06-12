@@ -2740,7 +2740,8 @@ function btnBible(): Button {
     btnID: 'newTestament',
     label: {
       AR: 'العهد الجديد',
-      FR: 'Nouveau Testament'
+      FR: 'Nouveau Testament',
+      EN: 'New Testament'
     },
     onClick: () => newTestament.children = getBooksButtons(false)//!We need the children to be added when the button is clicked not when it is created because the Bibles are not defined at this stage
   });
@@ -2749,7 +2750,8 @@ function btnBible(): Button {
     btnID: 'oldTestament',
     label: {
       AR: 'العهد القديم',
-      FR: 'Ancien Testament'
+      FR: 'Ancien Testament',
+      EN: 'Old Testament'
     },
     onClick: () => oldTestament.children = getBooksButtons(true)//!We need the children to be added when the button is clicked not when it is created because the Bibles are not defined at this stage
   });
@@ -2779,7 +2781,7 @@ function btnBible(): Button {
 
 
     if (old) booksNamesDefault = booksNamesDefault.slice(0, 48);
-    else if (!old) booksNamesDefault = booksNamesDefault.slice(48, booksNamesDefault.length - 1);
+    else if (!old) booksNamesDefault = booksNamesDefault.slice(48, booksNamesDefault.length);
 
     let labels = booksNamesDefault.map(bookID => {
       let label = new Object();
