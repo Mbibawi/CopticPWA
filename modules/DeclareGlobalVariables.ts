@@ -33,7 +33,7 @@ type bibleBookKeys = { id: string, human: string, human_long: string, chaptersLi
 
 //CONSTANTS
 const version: string =
-  "v6.7.2 (Fixes to the intercesion hymns for the Pentecostal season + Fixes to missing Book of Revelation from the Bible books)";
+  "v6.8 (Refactoring the btnMassBaptized and btnIncenseOffice and other fuctions)";
 const calendarDay: number = 24 * 60 * 60 * 1000; //this is a day in milliseconds
 const containerDiv: HTMLDivElement = document.getElementById(
   "containerDiv") as HTMLDivElement;
@@ -182,7 +182,7 @@ const Prefix = {
   Catholicon: "RK_", //Stands for Readings Catholicon
   praxis: "RP_", //Stands for Readings Praxis
   gospelVespers: "RGIV_", //Stands for Readings Gospel Incense Vespers
-  gospelDawn: "RGID_", //Stands for Redings Gospel Incense Dawn
+  gospelMorning: "RGID_", //Stands for Redings Gospel Incense Dawn
   gospelMass: "RGM_", //Readings Gospel Mass
   gospelNight: "RGN_", //Stands for Readings Gospel Night
   synaxarium: "RS_", //Stands for Readings Synaxarium
@@ -369,7 +369,7 @@ const ReadingsArrays = {
   SynaxariumArrayFR: [] as string[][][],
   GospelMassArrayFR: [] as string[][][],
   GospelVespersArrayFR: [] as string[][][],
-  GospelDawnArrayFR: [] as string[][][],
+  GospelMorningArrayFR: [] as string[][][],
   GospelNightArrayFR: [] as string[][][],
   PropheciesDawnArrayFR: [] as string[][][],
 };
@@ -715,9 +715,9 @@ const PrayersArraysKeys: [string, string, Function][] = [
     () => ReadingsArrays.GospelMassArrayFR,
   ],
   [
-    Prefix.gospelDawn,
+    Prefix.gospelMorning,
     "ReadingsArrays.GospelDawnArrayFR",
-    () => ReadingsArrays.GospelDawnArrayFR,
+    () => ReadingsArrays.GospelMorningArrayFR,
   ],
   [
     Prefix.gospelVespers,

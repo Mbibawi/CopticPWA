@@ -1,6 +1,6 @@
-ReadingsArrays.GospelDawnArrayFR = [[
+ReadingsArrays.GospelMorningArrayFR = [[
         [
-            Prefix.gospelDawn + "Psalm&D=0101&C=Title",
+            Prefix.gospelMorning + "Psalm&D=0101&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:98:1-1",
@@ -8,7 +8,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=0101&C=Title",
+            Prefix.gospelMorning + "Gospel&D=0101&C=Title",
         ],
         [
             Prefix.readingRef + "MRK:2:18-22",
@@ -16,7 +16,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=011stSunday&C=Title",
+            Prefix.gospelMorning + "Psalm&D=011stSunday&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:31:1-1/31:19-19",
@@ -24,7 +24,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=011stSunday&C=Title",
+            Prefix.gospelMorning + "Gospel&D=011stSunday&C=Title",
         ],
         [
             Prefix.readingRef + "MAT:21:23-27",
@@ -32,7 +32,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=012ndSunday&C=Title",
+            Prefix.gospelMorning + "Psalm&D=012ndSunday&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:8:1-1/8:4-4",
@@ -40,7 +40,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=012ndSunday&C=Title",
+            Prefix.gospelMorning + "Gospel&D=012ndSunday&C=Title",
         ],
         [
             Prefix.readingRef + "MRK:1:35-39",
@@ -48,7 +48,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "&D=013rdSunday&C=Title",
+            Prefix.gospelMorning + "&D=013rdSunday&C=Title",
         ],
         [
             Prefix.readingRef + "MAT:8:5-13",
@@ -56,7 +56,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=014thSunday&C=Title",
+            Prefix.gospelMorning + "Psalm&D=014thSunday&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:33:20-21",
@@ -64,7 +64,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=014thSunday&C=Title",
+            Prefix.gospelMorning + "Gospel&D=014thSunday&C=Title",
         ],
         [
             Prefix.readingRef + "MAT:15:21-28",
@@ -72,7 +72,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=015thSunday&C=Title",
+            Prefix.gospelMorning + "Psalm&D=015thSunday&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:24:3-4",
@@ -80,7 +80,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=015thSunday&C=Title",
+            Prefix.gospelMorning + "Gospel&D=015thSunday&C=Title",
         ],
         [
             Prefix.readingRef + "JHN:3:17-21",
@@ -88,7 +88,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=0201&C=Title",
+            Prefix.gospelMorning + "Psalm&D=0201&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:92:10-10/92:14-15",
@@ -96,7 +96,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=0201&C=Title",
+            Prefix.gospelMorning + "Gospel&D=0201&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:9:7-12",
@@ -104,7 +104,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=0801&C=Title",
+            Prefix.gospelMorning + "Psalm&D=0801&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:105:26-27/105:45-45",
@@ -112,7 +112,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=0801&C=Title",
+            Prefix.gospelMorning + "Gospel&D=0801&C=Title",
         ],
         [
             Prefix.readingRef + "MAT:17:1-9",
@@ -120,7 +120,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=1601&C=Title",
+            Prefix.gospelMorning + "Psalm&D=1601&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:26:8-8/26:7-7",
@@ -128,7 +128,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=1601&C=Title",
+            Prefix.gospelMorning + "Gospel&D=1601&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:19:1-10",
@@ -136,7 +136,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=1701&C=Title",
+            Prefix.gospelMorning + "Psalm&D=1701&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:60:4-5",
@@ -144,7 +144,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=1701&C=Title",
+            Prefix.gospelMorning + "Gospel&D=1701&C=Title",
         ],
         [
             Prefix.readingRef + "JHN:12:26-36",
@@ -152,7 +152,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=1801&C=Title",
+            Prefix.gospelMorning + "Psalm&D=1801&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:118:28-28/118:16-16",
@@ -160,7 +160,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=1801&C=Title",
+            Prefix.gospelMorning + "Gospel&D=1801&C=Title",
         ],
         [
             Prefix.readingRef + "JHN:3:14-21",
@@ -168,7 +168,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=1901&C=Title",
+            Prefix.gospelMorning + "Psalm&D=1901&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:74:2-2/74:12-12",
@@ -176,7 +176,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=1901&C=Title",
+            Prefix.gospelMorning + "Gospel&D=1901&C=Title",
         ],
         [
             Prefix.readingRef + "MRK:8:34-End/9:1-1",
@@ -184,7 +184,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=2101&C=Title",
+            Prefix.gospelMorning + "Psalm&D=2101&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:70:5",
@@ -192,7 +192,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=2101&C=Title",
+            Prefix.gospelMorning + "Gospel&D=2101&C=Title",
         ],
         [
             Prefix.readingRef + "MRK:3:22-27",
@@ -200,7 +200,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=2601&C=Title",
+            Prefix.gospelMorning + "Psalm&D=2601&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:102:19-21",
@@ -208,7 +208,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=2601&C=Title",
+            Prefix.gospelMorning + "Gospel&D=2601&C=Title",
         ],
         [
             Prefix.readingRef + "MRK:12:41-44",
@@ -216,7 +216,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=021stSunday&C=Title",
+            Prefix.gospelMorning + "Psalm&D=021stSunday&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:63:1-2",
@@ -224,7 +224,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=021stSunday&C=Title",
+            Prefix.gospelMorning + "Gospel&D=021stSunday&C=Title",
         ],
         [
             Prefix.readingRef + "MAT:28:1-20",
@@ -232,7 +232,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=022ndSunday&C=Title",
+            Prefix.gospelMorning + "Psalm&D=022ndSunday&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:63:6-6/63:3-4",
@@ -240,7 +240,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=022ndSunday&C=Title",
+            Prefix.gospelMorning + "Gospel&D=022ndSunday&C=Title",
         ],
         [
             Prefix.readingRef + "MRK:16:2-8",
@@ -248,7 +248,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=023rdSunday&C=Title",
+            Prefix.gospelMorning + "Psalm&D=023rdSunday&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:57:8-10",
@@ -256,7 +256,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=023rdSunday&C=Title",
+            Prefix.gospelMorning + "Gospel&D=023rdSunday&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:24:1-12",
@@ -264,7 +264,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=024thSunday&C=Title",
+            Prefix.gospelMorning + "Psalm&D=024thSunday&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:35:18-28",
@@ -272,7 +272,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=024thSunday&C=Title",
+            Prefix.gospelMorning + "Gospel&D=024thSunday&C=Title",
         ],
         [
             Prefix.readingRef + "JHN:20:1-18",
@@ -280,7 +280,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=1202&C=Title",
+            Prefix.gospelMorning + "Psalm&D=1202&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:40:9-10",
@@ -288,7 +288,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=1202&C=Title",
+            Prefix.gospelMorning + "Gospel&D=1202&C=Title",
         ],
         [
             Prefix.readingRef + "MRK:2:13-17",
@@ -296,7 +296,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=1402&C=Title",
+            Prefix.gospelMorning + "Psalm&D=1402&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:145:10-12",
@@ -304,7 +304,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=1402&C=Title",
+            Prefix.gospelMorning + "Gospel&D=1402&C=Title",
         ],
         [
             Prefix.readingRef + "JHN:1:43-51",
@@ -312,7 +312,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=2202&C=Title",
+            Prefix.gospelMorning + "Psalm&D=2202&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:68:24-24/68:26-26",
@@ -320,7 +320,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=2202&C=Title",
+            Prefix.gospelMorning + "Gospel&D=2202&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:17:5-10",
@@ -328,7 +328,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=2702&C=Title",
+            Prefix.gospelMorning + "Psalm&D=2702&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:132:1-2/132:9-10",
@@ -336,7 +336,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=2702&C=Title",
+            Prefix.gospelMorning + "Gospel&D=2702&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:6:17-23",
@@ -344,7 +344,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=031stSunday&C=Title",
+            Prefix.gospelMorning + "Psalm&D=031stSunday&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:65:9",
@@ -352,7 +352,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=031stSunday&C=Title",
+            Prefix.gospelMorning + "Gospel&D=031stSunday&C=Title",
         ],
         [
             Prefix.readingRef + "MAT:28:1-20",
@@ -360,7 +360,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=032ndSunday&C=Title",
+            Prefix.gospelMorning + "Psalm&D=032ndSunday&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:67:6-7",
@@ -368,7 +368,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=032ndSunday&C=Title",
+            Prefix.gospelMorning + "Gospel&D=032ndSunday&C=Title",
         ],
         [
             Prefix.readingRef + "MRK:16:2-8",
@@ -376,7 +376,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "&D=033rdSunday&C=Title",
+            Prefix.gospelMorning + "&D=033rdSunday&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:24:1-12",
@@ -384,7 +384,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=034thSunday&C=Title",
+            Prefix.gospelMorning + "Psalm&D=034thSunday&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:143:8",
@@ -392,7 +392,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=034thSunday&C=Title",
+            Prefix.gospelMorning + "Gospel&D=034thSunday&C=Title",
         ],
         [
             Prefix.readingRef + "JHN:20:1-18",
@@ -400,7 +400,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=0803&C=Title",
+            Prefix.gospelMorning + "Psalm&D=0803&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:33:6-6/33:9-9",
@@ -408,7 +408,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=0803&C=Title",
+            Prefix.gospelMorning + "Gospel&D=0803&C=Title",
         ],
         [
             Prefix.readingRef + "JHN:12:26-36",
@@ -416,7 +416,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=0903&C=Title",
+            Prefix.gospelMorning + "Psalm&D=0903&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:112:1-2",
@@ -424,7 +424,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=0903&C=Title",
+            Prefix.gospelMorning + "Gospel&D=0903&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:6:17-23",
@@ -432,7 +432,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=1203&C=Title",
+            Prefix.gospelMorning + "Psalm&D=1203&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:104:4-4/104:3-3",
@@ -440,7 +440,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=1203&C=Title",
+            Prefix.gospelMorning + "Gospel&D=1203&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:15:3-10",
@@ -448,7 +448,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=1503&C=Title",
+            Prefix.gospelMorning + "Psalm&D=1503&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:97:11-12",
@@ -456,7 +456,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=1503&C=Title",
+            Prefix.gospelMorning + "Gospel&D=1503&C=Title",
         ],
         [
             Prefix.readingRef + "MRK:13:9-13",
@@ -464,7 +464,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=1703&C=Title",
+            Prefix.gospelMorning + "Psalm&D=1703&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:110:4-6",
@@ -472,7 +472,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=1703&C=Title",
+            Prefix.gospelMorning + "Gospel&D=1703&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:6:17-23",
@@ -480,7 +480,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=2203&C=Title",
+            Prefix.gospelMorning + "Psalm&D=2203&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:113:1-2",
@@ -488,7 +488,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=2203&C=Title",
+            Prefix.gospelMorning + "Gospel&D=2203&C=Title",
         ],
         [
             Prefix.readingRef + "MRK:8:34-End/9:1-1",
@@ -496,7 +496,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=2403&C=Title",
+            Prefix.gospelMorning + "Psalm&D=2403&C=Title",
         ],
         [
             Prefix.readingRef + "138:1-2:",
@@ -504,7 +504,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=2403&C=Title",
+            Prefix.gospelMorning + "Gospel&D=2403&C=Title",
         ],
         [
             Prefix.readingRef + "MAT:12:1-8",
@@ -512,7 +512,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=2503&C=Title",
+            Prefix.gospelMorning + "Psalm&D=2503&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:68:35-35/68:3-3",
@@ -520,7 +520,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=2503&C=Title",
+            Prefix.gospelMorning + "Gospel&D=2503&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:12:4-12",
@@ -528,7 +528,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=2703&C=Title",
+            Prefix.gospelMorning + "Psalm&D=2703&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:146:1-1/146:5-5",
@@ -536,7 +536,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=2703&C=Title",
+            Prefix.gospelMorning + "Gospel&D=2703&C=Title",
         ],
         [
             Prefix.readingRef + "MAT:4:18-22",
@@ -544,7 +544,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=2803&C=Title",
+            Prefix.gospelMorning + "Psalm&D=2803&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:132:9-10/132:17-17",
@@ -552,7 +552,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=2803&C=Title",
+            Prefix.gospelMorning + "Gospel&D=2803&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:6:17-23",
@@ -560,7 +560,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=2903&C=Title",
+            Prefix.gospelMorning + "Psalm&D=2903&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:107:32-32/107:41-42",
@@ -568,7 +568,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=2903&C=Title",
+            Prefix.gospelMorning + "Gospel&D=2903&C=Title",
         ],
         [
             Prefix.readingRef + "MRK:8:22-29",
@@ -576,7 +576,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=041stSunday&C=Title",
+            Prefix.gospelMorning + "Psalm&D=041stSunday&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:102:19-21",
@@ -584,7 +584,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=041stSunday&C=Title",
+            Prefix.gospelMorning + "Gospel&D=041stSunday&C=Title",
         ],
         [
             Prefix.readingRef + "MRK:12:41-44",
@@ -592,7 +592,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=042ndSunday||2907&C=Title",
+            Prefix.gospelMorning + "Psalm&D=042ndSunday||2907&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:71:5-6",
@@ -600,7 +600,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=042ndSunday||2907&C=Title",
+            Prefix.gospelMorning + "Gospel&D=042ndSunday||2907&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:11:20-28",
@@ -608,7 +608,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=043rdSunday&C=Title",
+            Prefix.gospelMorning + "Psalm&D=043rdSunday&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:85:7-8",
@@ -616,7 +616,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=043rdSunday&C=Title",
+            Prefix.gospelMorning + "Gospel&D=043rdSunday&C=Title",
         ],
         [
             Prefix.readingRef + "MAT:15:21-31",
@@ -624,7 +624,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=044thSunday&C=Title",
+            Prefix.gospelMorning + "Psalm&D=044thSunday&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:96:11-13",
@@ -632,7 +632,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=044thSunday&C=Title",
+            Prefix.gospelMorning + "Gospel&D=044thSunday&C=Title",
         ],
         [
             Prefix.readingRef + "MRK:3:28-35",
@@ -640,7 +640,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=2204&C=Title",
+            Prefix.gospelMorning + "Psalm&D=2204&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:97:7-8",
@@ -648,7 +648,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=2204&C=Title",
+            Prefix.gospelMorning + "Gospel&D=2204&C=Title",
         ],
         [
             Prefix.readingRef + "MAT:18:10-20",
@@ -656,7 +656,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=2304&C=Title",
+            Prefix.gospelMorning + "Psalm&D=2304&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:105:26-27/105:45-45",
@@ -664,7 +664,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=2304&C=Title",
+            Prefix.gospelMorning + "Gospel&D=2304&C=Title",
         ],
         [
             Prefix.readingRef + "MAT:17:1-9",
@@ -672,7 +672,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=2804&C=Title",
+            Prefix.gospelMorning + "Psalm&D=2804&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:76:1-2",
@@ -680,7 +680,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=2804&C=Title",
+            Prefix.gospelMorning + "Gospel&D=2804&C=Title",
         ],
         [
             Prefix.readingRef + "1:18-25",
@@ -688,7 +688,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=2904&C=Title",
+            Prefix.gospelMorning + "Psalm&D=2904&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:72:15",
@@ -696,7 +696,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=2904&C=Title",
+            Prefix.gospelMorning + "Gospel&D=2904&C=Title",
         ],
         [
             Prefix.readingRef + "1:14-17",
@@ -704,7 +704,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=3004&C=Title",
+            Prefix.gospelMorning + "Psalm&D=3004&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:72:11-11/72:19-19",
@@ -712,7 +712,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=3004&C=Title",
+            Prefix.gospelMorning + "Gospel&D=3004&C=Title",
         ],
         [
             Prefix.readingRef + "MAT:22:41-46",
@@ -720,7 +720,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=0105&C=Title",
+            Prefix.gospelMorning + "Psalm&D=0105&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:34:19-20",
@@ -728,7 +728,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=0105&C=Title",
+            Prefix.gospelMorning + "Gospel&D=0105&C=Title",
         ],
         [
             Prefix.readingRef + "JHN:12:20-26",
@@ -736,7 +736,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=0305&C=Title",
+            Prefix.gospelMorning + "Psalm&D=0305&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:119:130-130/119:141-141",
@@ -744,7 +744,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=0305&C=Title",
+            Prefix.gospelMorning + "Gospel&D=0305&C=Title",
         ],
         [
             Prefix.readingRef + "MAT:18:10-20",
@@ -752,7 +752,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=0405&C=Title",
+            Prefix.gospelMorning + "Psalm&D=0405&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:45:1-2",
@@ -760,7 +760,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=0405&C=Title",
+            Prefix.gospelMorning + "Gospel&D=0405&C=Title",
         ],
         [
             Prefix.readingRef + "JHN:1:1-17",
@@ -768,7 +768,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=051stSunday&C=Title",
+            Prefix.gospelMorning + "Psalm&D=051stSunday&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:93:1-2",
@@ -776,7 +776,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=051stSunday&C=Title",
+            Prefix.gospelMorning + "Gospel&D=051stSunday&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:4:31-37",
@@ -784,7 +784,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=052ndSunday&C=Title",
+            Prefix.gospelMorning + "Psalm&D=052ndSunday&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:97:1-2",
@@ -792,7 +792,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=052ndSunday&C=Title",
+            Prefix.gospelMorning + "Gospel&D=052ndSunday&C=Title",
         ],
         [
             Prefix.readingRef + "MRK:3:7-12",
@@ -800,7 +800,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=053rdSunday&C=Title",
+            Prefix.gospelMorning + "Psalm&D=053rdSunday&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:97:6-6/97:4-4",
@@ -808,7 +808,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=053rdSunday&C=Title",
+            Prefix.gospelMorning + "Gospel&D=053rdSunday&C=Title",
         ],
         [
             Prefix.readingRef + "JHN:3:1-21",
@@ -816,7 +816,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=054thSunday&C=Title",
+            Prefix.gospelMorning + "Psalm&D=054thSunday&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:80:7-7/80:18-18",
@@ -824,7 +824,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=054thSunday&C=Title",
+            Prefix.gospelMorning + "Gospel&D=054thSunday&C=Title",
         ],
         [
             Prefix.readingRef + "JHN:6:47-58",
@@ -832,7 +832,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=0605&C=Title",
+            Prefix.gospelMorning + "Psalm&D=0605&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:66:13-15",
@@ -840,7 +840,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=0605&C=Title",
+            Prefix.gospelMorning + "Gospel&D=0605&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:2:40-52",
@@ -848,7 +848,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=1005&C=Title",
+            Prefix.gospelMorning + "Psalm&D=1005&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:42:7-8",
@@ -856,7 +856,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=1005&C=Title",
+            Prefix.gospelMorning + "Gospel&D=1005&C=Title",
         ],
         [
             Prefix.readingRef + "JHN:3:22-29",
@@ -864,7 +864,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=1105&C=Title",
+            Prefix.gospelMorning + "Psalm&D=1105&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:29:3-4",
@@ -872,7 +872,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=1105&C=Title",
+            Prefix.gospelMorning + "Gospel&D=1105&C=Title",
         ],
         [
             Prefix.readingRef + "MRK:1:1-11",
@@ -880,7 +880,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=1205&C=Title",
+            Prefix.gospelMorning + "Psalm&D=1205&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:34:11-11/34:5-5",
@@ -888,7 +888,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=1205&C=Title",
+            Prefix.gospelMorning + "Gospel&D=1205&C=Title",
         ],
         [
             Prefix.readingRef + "MAT:3:13-17",
@@ -896,7 +896,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=1305&C=Title",
+            Prefix.gospelMorning + "Psalm&D=1305&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:104:15-15/104:24-24",
@@ -904,7 +904,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=1305&C=Title",
+            Prefix.gospelMorning + "Gospel&D=1305&C=Title",
         ],
         [
             Prefix.readingRef + "JHN:4:43-54",
@@ -912,7 +912,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=2205&C=Title",
+            Prefix.gospelMorning + "Psalm&D=2205&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:33:1-1/33:12-12",
@@ -920,7 +920,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=2205&C=Title",
+            Prefix.gospelMorning + "Gospel&D=2205&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:19:11-19",
@@ -928,7 +928,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=2605&C=Title",
+            Prefix.gospelMorning + "Psalm&D=2605&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:33:1-1/33:12-12",
@@ -936,7 +936,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=2605&C=Title",
+            Prefix.gospelMorning + "Gospel&D=2605&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:6:17-23",
@@ -944,7 +944,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=3005&C=Title",
+            Prefix.gospelMorning + "Psalm&D=3005&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:8:2-3",
@@ -952,7 +952,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=3005&C=Title",
+            Prefix.gospelMorning + "Gospel&D=3005&C=Title",
         ],
         [
             Prefix.readingRef + "JHN:4:15-24",
@@ -960,7 +960,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=0206&C=Title",
+            Prefix.gospelMorning + "Psalm&D=0206&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:32:1-1/32:12-12",
@@ -968,7 +968,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=0206&C=Title",
+            Prefix.gospelMorning + "Gospel&D=0206&C=Title",
         ],
         [
             Prefix.readingRef + "MAT:25:14-23",
@@ -976,7 +976,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=061stSunday&C=Title",
+            Prefix.gospelMorning + "Psalm&D=061stSunday&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:119:105-105/119:135-135",
@@ -984,7 +984,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=061stSunday&C=Title",
+            Prefix.gospelMorning + "Gospel&D=061stSunday&C=Title",
         ],
         [
             Prefix.readingRef + "JHN:8:51-59",
@@ -992,7 +992,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=062ndSunday&C=Title",
+            Prefix.gospelMorning + "Psalm&D=062ndSunday&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:24:3-4",
@@ -1000,7 +1000,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=062ndSunday&C=Title",
+            Prefix.gospelMorning + "Gospel&D=062ndSunday&C=Title",
         ],
         [
             Prefix.readingRef + "JHN:3:17-21",
@@ -1008,7 +1008,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=063rdSunday&C=Title",
+            Prefix.gospelMorning + "Psalm&D=063rdSunday&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:89:52-52/89:49-49",
@@ -1016,7 +1016,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=063rdSunday&C=Title",
+            Prefix.gospelMorning + "Gospel&D=063rdSunday&C=Title",
         ],
         [
             Prefix.readingRef + "JHN:12:44-50",
@@ -1024,7 +1024,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=064thSunday&C=Title",
+            Prefix.gospelMorning + "Psalm&D=064thSunday&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:89:11-11/89:1-1",
@@ -1032,7 +1032,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=064thSunday&C=Title",
+            Prefix.gospelMorning + "Gospel&D=064thSunday&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:17:11-19",
@@ -1040,7 +1040,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=0109&C=Title",
+            Prefix.gospelMorning + "Psalm&D=0109&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:48:8-8/48:1-1",
@@ -1048,7 +1048,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=0109&C=Title",
+            Prefix.gospelMorning + "Gospel&D=0109&C=Title",
         ],
         [
             Prefix.readingRef + "MAT:12:35-50",
@@ -1056,7 +1056,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=1307&C=Title",
+            Prefix.gospelMorning + "Psalm&D=1307&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:37:39-40",
@@ -1064,7 +1064,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=2308&C=Title",
+            Prefix.gospelMorning + "Psalm&D=2308&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:34:19-20",
@@ -1072,7 +1072,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=2308&C=Title",
+            Prefix.gospelMorning + "Gospel&D=2308&C=Title",
         ],
         [
             Prefix.readingRef + "MRK:8:34-9:1",
@@ -1080,7 +1080,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=2708&C=Title",
+            Prefix.gospelMorning + "Psalm&D=2708&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:5:11-12",
@@ -1088,7 +1088,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=2708&C=Title",
+            Prefix.gospelMorning + "Gospel&D=2708&C=Title",
         ],
         [
             Prefix.readingRef + "MAT:10:34-42",
@@ -1096,7 +1096,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=3008&C=Title",
+            Prefix.gospelMorning + "Psalm&D=3008&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:105:1-3",
@@ -1104,7 +1104,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=3008&C=Title",
+            Prefix.gospelMorning + "Gospel&D=3008&C=Title",
         ],
         [
             Prefix.readingRef + "MRK:10:17-30",
@@ -1112,7 +1112,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=093rdSunday&C=Title",
+            Prefix.gospelMorning + "Psalm&D=093rdSunday&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:67:1-2",
@@ -1120,7 +1120,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=093rdSunday&C=Title",
+            Prefix.gospelMorning + "Gospel&D=093rdSunday&C=Title",
         ],
         [
             Prefix.readingRef + "MAT:28:1-20",
@@ -1128,7 +1128,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=094thSunday&C=Title",
+            Prefix.gospelMorning + "Psalm&D=094thSunday&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:34:1-2",
@@ -1136,7 +1136,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=094thSunday&C=Title",
+            Prefix.gospelMorning + "Gospel&D=094thSunday&C=Title",
         ],
         [
             Prefix.readingRef + "MRK:16:2-8",
@@ -1144,7 +1144,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=1009&C=Title",
+            Prefix.gospelMorning + "Psalm&D=1009&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:113:1-2",
@@ -1152,7 +1152,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=1009&C=Title",
+            Prefix.gospelMorning + "Gospel&D=1009&C=Title",
         ],
         [
             Prefix.readingRef + "MRK:10:13-16",
@@ -1160,7 +1160,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=2009&C=Title",
+            Prefix.gospelMorning + "Psalm&D=2009&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:37:17-18/37:29-29",
@@ -1168,7 +1168,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=2009&C=Title",
+            Prefix.gospelMorning + "Gospel&D=2009&C=Title",
         ],
         [
             Prefix.readingRef + "MRK:13:33-37",
@@ -1176,7 +1176,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=2409&C=Title",
+            Prefix.gospelMorning + "Psalm&D=2409&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:106:21-22/106:4-4",
@@ -1184,7 +1184,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=2409&C=Title",
+            Prefix.gospelMorning + "Gospel&D=2409&C=Title",
         ],
         [
             Prefix.readingRef + "MAT:12:15-23",
@@ -1192,7 +1192,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=2609&C=Title",
+            Prefix.gospelMorning + "Psalm&D=2609&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:145:10-12",
@@ -1200,7 +1200,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=2609&C=Title",
+            Prefix.gospelMorning + "Gospel&D=2609&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:6:12-23",
@@ -1208,7 +1208,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=0210&C=Title",
+            Prefix.gospelMorning + "Psalm&D=0210&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:51:8-8/51:19-19",
@@ -1216,7 +1216,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=0210&C=Title",
+            Prefix.gospelMorning + "Gospel&D=0210&C=Title",
         ],
         [
             Prefix.readingRef + "JHN:3:25-36",
@@ -1224,7 +1224,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=101stSunday&C=Title",
+            Prefix.gospelMorning + "Psalm&D=101stSunday&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:67:1-2",
@@ -1232,7 +1232,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=101stSunday&C=Title",
+            Prefix.gospelMorning + "Gospel&D=101stSunday&C=Title",
         ],
         [
             Prefix.readingRef + "MAT:28:1-20",
@@ -1240,7 +1240,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=102ndSunday&C=Title",
+            Prefix.gospelMorning + "Psalm&D=102ndSunday&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:33:1-2",
@@ -1248,7 +1248,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=102ndSunday&C=Title",
+            Prefix.gospelMorning + "Gospel&D=102ndSunday&C=Title",
         ],
         [
             Prefix.readingRef + "MRK:16:2-8",
@@ -1256,7 +1256,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=103rdSunday&C=Title",
+            Prefix.gospelMorning + "Psalm&D=103rdSunday&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:38:22-23",
@@ -1264,7 +1264,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=103rdSunday&C=Title",
+            Prefix.gospelMorning + "Gospel&D=103rdSunday&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:24:1-12",
@@ -1272,7 +1272,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=104thSunday&C=Title",
+            Prefix.gospelMorning + "Psalm&D=104thSunday&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:61:5-5/61:8-8",
@@ -1280,7 +1280,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=104thSunday&C=Title",
+            Prefix.gospelMorning + "Gospel&D=104thSunday&C=Title",
         ],
         [
             Prefix.readingRef + "JHN:20:1-18",
@@ -1288,7 +1288,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=1610&C=Title",
+            Prefix.gospelMorning + "Psalm&D=1610&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:92:10-10/92:14-15",
@@ -1296,7 +1296,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=1610&C=Title",
+            Prefix.gospelMorning + "Gospel&D=1610&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:19:11-19",
@@ -1304,7 +1304,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=3010&C=Title",
+            Prefix.gospelMorning + "Psalm&D=3010&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:92:10-10/92:14-15",
@@ -1312,7 +1312,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=3010&C=Title",
+            Prefix.gospelMorning + "Gospel&D=3010&C=Title",
         ],
         [
             Prefix.readingRef + "MAT:11:11-19",
@@ -1320,7 +1320,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=0311&C=Title",
+            Prefix.gospelMorning + "Psalm&D=0311&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:73:23-24/73:28-28/9:14-14",
@@ -1328,7 +1328,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=0311&C=Title",
+            Prefix.gospelMorning + "Gospel&D=0311&C=Title",
         ],
         [
             Prefix.readingRef + "JHN:15:17-25",
@@ -1336,7 +1336,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=0511&C=Title",
+            Prefix.gospelMorning + "Psalm&D=0511&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:145:10-12",
@@ -1344,7 +1344,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=0511&C=Title",
+            Prefix.gospelMorning + "Gospel&D=0511&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:6:12-23",
@@ -1352,7 +1352,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=111stSunday&C=Title",
+            Prefix.gospelMorning + "Psalm&D=111stSunday&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:31:23-23/31:19-19",
@@ -1360,7 +1360,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=111stSunday&C=Title",
+            Prefix.gospelMorning + "Gospel&D=111stSunday&C=Title",
         ],
         [
             Prefix.readingRef + "MAT:28:1-20",
@@ -1368,7 +1368,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=112ndSunday&C=Title",
+            Prefix.gospelMorning + "Psalm&D=112ndSunday&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:41:1-2",
@@ -1376,7 +1376,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=112ndSunday&C=Title",
+            Prefix.gospelMorning + "Gospel&D=112ndSunday&C=Title",
         ],
         [
             Prefix.readingRef + "MRK:16:2-8",
@@ -1384,7 +1384,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=113rdSunday&C=Title",
+            Prefix.gospelMorning + "Psalm&D=113rdSunday&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:135:1-2",
@@ -1392,7 +1392,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=113rdSunday&C=Title",
+            Prefix.gospelMorning + "Gospel&D=113rdSunday&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:24:1-12",
@@ -1400,7 +1400,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=114thSunday&C=Title",
+            Prefix.gospelMorning + "Psalm&D=114thSunday&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:86:12-13",
@@ -1408,7 +1408,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=114thSunday&C=Title",
+            Prefix.gospelMorning + "Gospel&D=114thSunday&C=Title",
         ],
         [
             Prefix.readingRef + "JHN:20:1-18",
@@ -1416,7 +1416,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=2011&C=Title",
+            Prefix.gospelMorning + "Psalm&D=2011&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:45:3-3/45:6-6",
@@ -1424,7 +1424,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=2011&C=Title",
+            Prefix.gospelMorning + "Gospel&D=2011&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:7:11-17",
@@ -1432,7 +1432,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=0312&C=Title",
+            Prefix.gospelMorning + "Psalm&D=0312&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:89:24-24/89:19-19",
@@ -1440,7 +1440,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=0312&C=Title",
+            Prefix.gospelMorning + "Gospel&D=0312&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:13:23-30",
@@ -1448,7 +1448,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=121stSunday&C=Title",
+            Prefix.gospelMorning + "Psalm&D=121stSunday&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:33:20-21",
@@ -1456,7 +1456,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=121stSunday&C=Title",
+            Prefix.gospelMorning + "Gospel&D=121stSunday&C=Title",
         ],
         [
             Prefix.readingRef + "MAT:28:1-20",
@@ -1464,7 +1464,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=122ndSunday&C=Title",
+            Prefix.gospelMorning + "Psalm&D=122ndSunday&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:89:1-2",
@@ -1472,7 +1472,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=122ndSunday&C=Title",
+            Prefix.gospelMorning + "Gospel&D=122ndSunday&C=Title",
         ],
         [
             Prefix.readingRef + "MRK:16:2-8",
@@ -1480,7 +1480,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=123rdSunday&C=Title",
+            Prefix.gospelMorning + "Psalm&D=123rdSunday&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:15:1-2",
@@ -1488,7 +1488,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=123rdSunday&C=Title",
+            Prefix.gospelMorning + "Gospel&D=123rdSunday&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:24:1-12",
@@ -1496,7 +1496,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=124thSunday&C=Title",
+            Prefix.gospelMorning + "Psalm&D=124thSunday&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:90:1-2",
@@ -1504,7 +1504,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=124thSunday&C=Title",
+            Prefix.gospelMorning + "Gospel&D=124thSunday&C=Title",
         ],
         [
             Prefix.readingRef + "JHN:20:1-18",
@@ -1512,7 +1512,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=1312&C=Title",
+            Prefix.gospelMorning + "Psalm&D=1312&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:104:31-32",
@@ -1520,7 +1520,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=1312&C=Title",
+            Prefix.gospelMorning + "Gospel&D=1312&C=Title",
         ],
         [
             Prefix.readingRef + "MAT:17:1-9",
@@ -1528,7 +1528,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=1712&C=Title",
+            Prefix.gospelMorning + "Psalm&D=1712&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:37:39-40",
@@ -1536,7 +1536,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=1712&C=Title",
+            Prefix.gospelMorning + "Gospel&D=1712&C=Title",
         ],
         [
             Prefix.readingRef + "MAT:4:18-22",
@@ -1544,7 +1544,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=2512&C=Title",
+            Prefix.gospelMorning + "Psalm&D=2512&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:34:5-5/34:7-7",
@@ -1552,7 +1552,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=2512&C=Title",
+            Prefix.gospelMorning + "Gospel&D=2512&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:19:11-19",
@@ -1560,7 +1560,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=2612&C=Title",
+            Prefix.gospelMorning + "Psalm&D=2612&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:145:10-11/145:19-20",
@@ -1568,7 +1568,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=2612&C=Title",
+            Prefix.gospelMorning + "Gospel&D=2612&C=Title",
         ],
         [
             Prefix.readingRef + "JHN:12:20-26",
@@ -1576,7 +1576,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=2812&C=Title",
+            Prefix.gospelMorning + "Psalm&D=2812&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:105:3-4",
@@ -1584,7 +1584,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=2812&C=Title",
+            Prefix.gospelMorning + "Gospel&D=2812&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:16:19-31",
@@ -1592,7 +1592,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=2912&C=Title",
+            Prefix.gospelMorning + "Psalm&D=2912&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:110:4-5/110:7-7",
@@ -1600,7 +1600,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=2912&C=Title",
+            Prefix.gospelMorning + "Gospel&D=2912&C=Title",
         ],
         [
             Prefix.readingRef + "MAT:15:12-20",
@@ -1608,7 +1608,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=3012&C=Title",
+            Prefix.gospelMorning + "Psalm&D=3012&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:101:8-8",
@@ -1616,7 +1616,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=3012&C=Title",
+            Prefix.gospelMorning + "Gospel&D=3012&C=Title",
         ],
         [
             Prefix.readingRef + "MAT:14:1-5",
@@ -1624,7 +1624,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=0113&C=Title",
+            Prefix.gospelMorning + "Psalm&D=0113&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:37:17-18",
@@ -1632,7 +1632,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=0113&C=Title",
+            Prefix.gospelMorning + "Gospel&D=0113&C=Title",
         ],
         [
             Prefix.readingRef + "JHN:1:1-17",
@@ -1640,7 +1640,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=0213&C=Title",
+            Prefix.gospelMorning + "Psalm&D=0213&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:110:4-5/110:7-7",
@@ -1648,7 +1648,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=0213&C=Title",
+            Prefix.gospelMorning + "Gospel&D=0213&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:5:18-26",
@@ -1656,7 +1656,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=0313&C=Title",
+            Prefix.gospelMorning + "Psalm&D=0313&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:97:7-8",
@@ -1664,7 +1664,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=0313&C=Title",
+            Prefix.gospelMorning + "Gospel&D=0313&C=Title",
         ],
         [
             Prefix.readingRef + "MAT:18:10-20",
@@ -1672,7 +1672,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=0413&C=Title",
+            Prefix.gospelMorning + "Psalm&D=0413&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:97:11-12",
@@ -1680,7 +1680,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=0413&C=Title",
+            Prefix.gospelMorning + "Gospel&D=0413&C=Title",
         ],
         [
             Prefix.readingRef + "MRK:13:33-37",
@@ -1688,7 +1688,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=0613&C=Title",
+            Prefix.gospelMorning + "Psalm&D=0613&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:119:89-90",
@@ -1696,7 +1696,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=0613&C=Title",
+            Prefix.gospelMorning + "Gospel&D=0613&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:4:23-30",
@@ -1704,7 +1704,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=GL10&C=Title",
+            Prefix.gospelMorning + "Psalm&D=GL10&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:40:11-11",
@@ -1712,7 +1712,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=GL10&C=Title",
+            Prefix.gospelMorning + "Gospel&D=GL10&C=Title",
         ],
         [
             Prefix.readingRef + "MRK:9:25-29",
@@ -1720,7 +1720,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=GL11&C=Title",
+            Prefix.gospelMorning + "Psalm&D=GL11&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:41:4-4/41:13-13",
@@ -1728,7 +1728,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=GL11&C=Title",
+            Prefix.gospelMorning + "Gospel&D=GL11&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:12:22-31",
@@ -1736,7 +1736,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=GL12&C=Title",
+            Prefix.gospelMorning + "Psalm&D=GL12&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:18:17-18",
@@ -1744,7 +1744,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=GL12&C=Title",
+            Prefix.gospelMorning + "Gospel&D=GL12&C=Title",
         ],
         [
             Prefix.readingRef + "MAT:5:17-24",
@@ -1752,7 +1752,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=GL13&C=Title",
+            Prefix.gospelMorning + "Psalm&D=GL13&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:28:9-9",
@@ -1760,7 +1760,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=GL13&C=Title",
+            Prefix.gospelMorning + "Gospel&D=GL13&C=Title",
         ],
         [
             Prefix.readingRef + "MAT:11:20-30",
@@ -1768,7 +1768,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=GL14&C=Title",
+            Prefix.gospelMorning + "Psalm&D=GL14&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:116:7-8",
@@ -1776,7 +1776,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=GL14&C=Title",
+            Prefix.gospelMorning + "Gospel&D=GL14&C=Title",
         ],
         [
             Prefix.readingRef + "MAT:15:39-End/16:1-12",
@@ -1784,7 +1784,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=GL15&C=Title",
+            Prefix.gospelMorning + "Psalm&D=GL15&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:25:7-8/25:11-11",
@@ -1792,7 +1792,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=GL15&C=Title",
+            Prefix.gospelMorning + "Gospel&D=GL15&C=Title",
         ],
         [
             Prefix.readingRef + "MRK:9:43-50",
@@ -1800,7 +1800,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=GL17&C=Title",
+            Prefix.gospelMorning + "Psalm&D=GL17&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:32:1-2",
@@ -1808,7 +1808,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=GL17&C=Title",
+            Prefix.gospelMorning + "Gospel&D=GL17&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:19:11-28",
@@ -1816,7 +1816,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=GL18&C=Title",
+            Prefix.gospelMorning + "Psalm&D=GL18&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:32:10-10",
@@ -1824,7 +1824,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=GL18&C=Title",
+            Prefix.gospelMorning + "Gospel&D=GL18&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:12:54-59",
@@ -1832,7 +1832,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=GL19&C=Title",
+            Prefix.gospelMorning + "Psalm&D=GL19&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:27:4-4",
@@ -1840,7 +1840,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=GL19&C=Title",
+            Prefix.gospelMorning + "Gospel&D=GL19&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:13:18-22",
@@ -1848,7 +1848,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=GL1&C=Title",
+            Prefix.gospelMorning + "Psalm&D=GL1&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:119:49-49/119:52-52",
@@ -1856,7 +1856,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=GL1&C=Title",
+            Prefix.gospelMorning + "Gospel&D=GL1&C=Title",
         ],
         [
             Prefix.readingRef + "MRK:13:33-37",
@@ -1864,7 +1864,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=GL1stSunday&C=Title",
+            Prefix.gospelMorning + "Psalm&D=GL1stSunday&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:100:2-3",
@@ -1872,7 +1872,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=GL1stSunday&C=Title",
+            Prefix.gospelMorning + "Gospel&D=GL1stSunday&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:17:3-10",
@@ -1880,7 +1880,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=GL20&C=Title",
+            Prefix.gospelMorning + "Psalm&D=GL20&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:9:11-12",
@@ -1888,7 +1888,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=GL20&C=Title",
+            Prefix.gospelMorning + "Gospel&D=GL20&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:20:20-26",
@@ -1896,7 +1896,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=GL21&C=Title",
+            Prefix.gospelMorning + "Psalm&D=GL21&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:16:10-11",
@@ -1904,7 +1904,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=GL21&C=Title",
+            Prefix.gospelMorning + "Gospel&D=GL21&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:20:27-38",
@@ -1912,7 +1912,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=GL22&C=Title",
+            Prefix.gospelMorning + "Psalm&D=GL22&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:130:1-2",
@@ -1920,7 +1920,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=GL22&C=Title",
+            Prefix.gospelMorning + "Gospel&D=GL22&C=Title",
         ],
         [
             Prefix.readingRef + "MRK:10:17-27",
@@ -1928,7 +1928,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=GL24&C=Title",
+            Prefix.gospelMorning + "Psalm&D=GL24&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:55:1-1/27:7-8",
@@ -1936,7 +1936,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=GL24&C=Title",
+            Prefix.gospelMorning + "Gospel&D=GL24&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:14:7-15",
@@ -1944,7 +1944,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=GL25&C=Title",
+            Prefix.gospelMorning + "Psalm&D=GL25&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:17:1-1",
@@ -1952,7 +1952,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=GL25&C=Title",
+            Prefix.gospelMorning + "Gospel&D=GL25&C=Title",
         ],
         [
             Prefix.readingRef + "MAT:21:28-32",
@@ -1960,7 +1960,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=GL26&C=Title",
+            Prefix.gospelMorning + "Psalm&D=GL26&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:18:37-37/18:40-40",
@@ -1968,7 +1968,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=GL26&C=Title",
+            Prefix.gospelMorning + "Gospel&D=GL26&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:14:16-24",
@@ -1976,7 +1976,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=GL27&C=Title",
+            Prefix.gospelMorning + "Psalm&D=GL27&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:12:7-7",
@@ -1984,7 +1984,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=GL27&C=Title",
+            Prefix.gospelMorning + "Gospel&D=GL27&C=Title",
         ],
         [
             Prefix.readingRef + "MRK:3:7-12",
@@ -1992,7 +1992,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=GL28&C=Title",
+            Prefix.gospelMorning + "Psalm&D=GL28&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:28:6-7",
@@ -2000,7 +2000,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=GL28&C=Title",
+            Prefix.gospelMorning + "Gospel&D=GL28&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:4:31-37",
@@ -2008,7 +2008,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=GL29&C=Title",
+            Prefix.gospelMorning + "Psalm&D=GL29&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:142:5-5/142:7-7",
@@ -2016,7 +2016,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=GL29&C=Title",
+            Prefix.gospelMorning + "Gospel&D=GL29&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:16:19-31",
@@ -2024,7 +2024,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=GL2ndSunday&C=Title",
+            Prefix.gospelMorning + "Psalm&D=GL2ndSunday&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:18:1-2",
@@ -2032,7 +2032,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=GL2ndSunday&C=Title",
+            Prefix.gospelMorning + "Gospel&D=GL2ndSunday&C=Title",
         ],
         [
             Prefix.readingRef + "MAT:7:22-29",
@@ -2040,7 +2040,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=GL31&C=Title",
+            Prefix.gospelMorning + "Psalm&D=GL31&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:88:2-4",
@@ -2048,7 +2048,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=GL31&C=Title",
+            Prefix.gospelMorning + "Gospel&D=GL31&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:12:16-21",
@@ -2056,7 +2056,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=GL32&C=Title",
+            Prefix.gospelMorning + "Psalm&D=GL32&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:86:5-6",
@@ -2064,7 +2064,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=GL32&C=Title",
+            Prefix.gospelMorning + "Gospel&D=GL32&C=Title",
         ],
         [
             Prefix.readingRef + "MRK:9:14-24",
@@ -2072,7 +2072,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=GL33&C=Title",
+            Prefix.gospelMorning + "Psalm&D=GL33&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:55:1-2",
@@ -2080,7 +2080,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=GL33&C=Title",
+            Prefix.gospelMorning + "Gospel&D=GL33&C=Title",
         ],
         [
             Prefix.readingRef + "MRK:10:1-12",
@@ -2088,7 +2088,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=GL34&C=Title",
+            Prefix.gospelMorning + "Psalm&D=GL34&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:86:14-14",
@@ -2096,7 +2096,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=GL34&C=Title",
+            Prefix.gospelMorning + "Gospel&D=GL34&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:9:37-43",
@@ -2104,7 +2104,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=GL35&C=Title",
+            Prefix.gospelMorning + "Psalm&D=GL35&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:86:9-10",
@@ -2112,7 +2112,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=GL35&C=Title",
+            Prefix.gospelMorning + "Gospel&D=GL35&C=Title",
         ],
         [
             Prefix.readingRef + "MRK:12:28-34",
@@ -2120,7 +2120,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=GL36&C=Title",
+            Prefix.gospelMorning + "Psalm&D=GL36&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:65:2-3",
@@ -2128,7 +2128,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=GL36&C=Title",
+            Prefix.gospelMorning + "Gospel&D=GL36&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:15:3-10",
@@ -2136,7 +2136,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=GL38&C=Title",
+            Prefix.gospelMorning + "Psalm&D=GL38&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:38:9-9",
@@ -2144,7 +2144,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=GL38&C=Title",
+            Prefix.gospelMorning + "Gospel&D=GL38&C=Title",
         ],
         [
             Prefix.readingRef + "MRK:12:1-12",
@@ -2152,7 +2152,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=GL39&C=Title",
+            Prefix.gospelMorning + "Psalm&D=GL39&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:35:13-13",
@@ -2160,7 +2160,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=GL39&C=Title",
+            Prefix.gospelMorning + "Gospel&D=GL39&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:4:22-30",
@@ -2168,7 +2168,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=GL3&C=Title",
+            Prefix.gospelMorning + "Psalm&D=GL3&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:6:1-2",
@@ -2176,7 +2176,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=GL3&C=Title",
+            Prefix.gospelMorning + "Gospel&D=GL3&C=Title",
         ],
         [
             Prefix.readingRef + "MAT:12:24-34",
@@ -2184,7 +2184,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=GL3rdSunday&C=Title",
+            Prefix.gospelMorning + "Psalm&D=GL3rdSunday&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:57:1",
@@ -2192,7 +2192,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=GL3rdSunday&C=Title",
+            Prefix.gospelMorning + "Gospel&D=GL3rdSunday&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:4:1-13",
@@ -2200,7 +2200,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=GL40&C=Title",
+            Prefix.gospelMorning + "Psalm&D=GL40&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:102:17-17/102:21-21",
@@ -2208,7 +2208,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=GL40&C=Title",
+            Prefix.gospelMorning + "Gospel&D=GL40&C=Title",
         ],
         [
             Prefix.readingRef + "MRK:7:1-20",
@@ -2216,7 +2216,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=GL41&C=Title",
+            Prefix.gospelMorning + "Psalm&D=GL41&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:9:13-13",
@@ -2224,7 +2224,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=GL41&C=Title",
+            Prefix.gospelMorning + "Gospel&D=GL41&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:20:9-19",
@@ -2232,7 +2232,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=GL42&C=Title",
+            Prefix.gospelMorning + "Psalm&D=GL42&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:51:7-8",
@@ -2240,7 +2240,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=GL42&C=Title",
+            Prefix.gospelMorning + "Gospel&D=GL42&C=Title",
         ],
         [
             Prefix.readingRef + "JHN:3:14-21",
@@ -2248,7 +2248,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=GL43&C=Title",
+            Prefix.gospelMorning + "Psalm&D=GL43&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:65:2-3",
@@ -2256,7 +2256,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=GL43&C=Title",
+            Prefix.gospelMorning + "Gospel&D=GL43&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:15:3-10",
@@ -2264,7 +2264,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=GL45&C=Title",
+            Prefix.gospelMorning + "Psalm&D=GL45&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:32:10-11",
@@ -2272,7 +2272,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=GL45&C=Title",
+            Prefix.gospelMorning + "Gospel&D=GL45&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:16:19-31",
@@ -2280,7 +2280,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=GL46&C=Title",
+            Prefix.gospelMorning + "Psalm&D=GL46&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:38:18-19",
@@ -2288,7 +2288,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=GL46&C=Title",
+            Prefix.gospelMorning + "Gospel&D=GL46&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:17:1-10",
@@ -2296,7 +2296,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=GL47&C=Title",
+            Prefix.gospelMorning + "Psalm&D=GL47&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:57:1-1",
@@ -2304,7 +2304,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=GL47&C=Title",
+            Prefix.gospelMorning + "Gospel&D=GL47&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:14:28-35",
@@ -2312,7 +2312,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=GL48&C=Title",
+            Prefix.gospelMorning + "Psalm&D=GL48&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:63:1-1",
@@ -2320,7 +2320,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=GL48&C=Title",
+            Prefix.gospelMorning + "Gospel&D=GL48&C=Title",
         ],
         [
             Prefix.readingRef + "MAT:20:20-28",
@@ -2328,7 +2328,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=GL49&C=Title",
+            Prefix.gospelMorning + "Psalm&D=GL49&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:32:10-11",
@@ -2336,7 +2336,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=GL49&C=Title",
+            Prefix.gospelMorning + "Gospel&D=GL49&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:14:28-35",
@@ -2344,7 +2344,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=GL4&C=Title",
+            Prefix.gospelMorning + "Psalm&D=GL4&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:23:1-1/23:3-3",
@@ -2352,7 +2352,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=GL4&C=Title",
+            Prefix.gospelMorning + "Gospel&D=GL4&C=Title",
         ],
         [
             Prefix.readingRef + "MAT:9:10-15",
@@ -2360,7 +2360,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=GL4thSunday&C=Title",
+            Prefix.gospelMorning + "Psalm&D=GL4thSunday&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:55:1-2/55:16-16",
@@ -2368,7 +2368,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=GL4thSunday&C=Title",
+            Prefix.gospelMorning + "Gospel&D=GL4thSunday&C=Title",
         ],
         [
             Prefix.readingRef + "MAT:20:1-16",
@@ -2376,7 +2376,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=GL50&C=Title",
+            Prefix.gospelMorning + "Psalm&D=GL50&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:88:2-4",
@@ -2384,7 +2384,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=GL55&C=Title",
+            Prefix.gospelMorning + "Psalm&D=GL55&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:50:9-9/50:12-12",
@@ -2392,7 +2392,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=GL55&C=Title",
+            Prefix.gospelMorning + "Gospel&D=GL55&C=Title",
         ],
         [
             Prefix.readingRef + "JHN:13:1-17",
@@ -2400,7 +2400,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=GL50&C=Title",
+            Prefix.gospelMorning + "Gospel&D=GL50&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:18:35-43",
@@ -2408,7 +2408,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=GL5&C=Title",
+            Prefix.gospelMorning + "Psalm&D=GL5&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:25:6-7",
@@ -2416,7 +2416,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=GL5&C=Title",
+            Prefix.gospelMorning + "Gospel&D=GL5&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:6:24-34",
@@ -2424,7 +2424,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=GL5thSunday&C=Title",
+            Prefix.gospelMorning + "Psalm&D=GL5thSunday&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:31:13-14",
@@ -2432,7 +2432,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=GL5thSunday&C=Title",
+            Prefix.gospelMorning + "Gospel&D=GL5thSunday&C=Title",
         ],
         [
             Prefix.readingRef + "MAT:22:1-14",
@@ -2440,7 +2440,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=GL6&C=Title",
+            Prefix.gospelMorning + "Psalm&D=GL6&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:Psalms24:1-2",
@@ -2448,7 +2448,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=GL6&C=Title",
+            Prefix.gospelMorning + "Gospel&D=GL6&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:8:23-25",
@@ -2456,7 +2456,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=GL6thSunday&C=Title",
+            Prefix.gospelMorning + "Psalm&D=GL6thSunday&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:102:1-2/102:12-12",
@@ -2464,7 +2464,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=GL6thSunday&C=Title",
+            Prefix.gospelMorning + "Gospel&D=GL6thSunday&C=Title",
         ],
         [
             Prefix.readingRef + "MAT:21:33-46",
@@ -2472,7 +2472,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=GL7&C=Title",
+            Prefix.gospelMorning + "Psalm&D=GL7&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:30:1-2",
@@ -2480,7 +2480,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=GL7&C=Title",
+            Prefix.gospelMorning + "Gospel&D=GL7&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:5:12-16",
@@ -2488,7 +2488,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=GL7thSunday&C=Title",
+            Prefix.gospelMorning + "Psalm&D=GL7thSunday&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:26:2-3",
@@ -2496,7 +2496,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=GL7thSunday&C=Title",
+            Prefix.gospelMorning + "Gospel&D=GL7thSunday&C=Title",
         ],
         [
             Prefix.readingRef + "MAT:23:1-39",
@@ -2504,7 +2504,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=GL8&C=Title",
+            Prefix.gospelMorning + "Psalm&D=GL8&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:119:57-58",
@@ -2512,7 +2512,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=GL8&C=Title",
+            Prefix.gospelMorning + "Gospel&D=GL8&C=Title",
         ],
         [
             Prefix.readingRef + "MAT:5:25-37",
@@ -2520,7 +2520,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=GL8thSunday&C=Title",
+            Prefix.gospelMorning + "Psalm&D=GL8thSunday&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:68:19-19/68:35-35",
@@ -2528,7 +2528,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=GL8thSunday&C=Title",
+            Prefix.gospelMorning + "Gospel&D=GL8thSunday&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:19:1-10",
@@ -2536,7 +2536,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=Pntl10&C=Title",
+            Prefix.gospelMorning + "Psalm&D=Pntl10&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:63:1-2",
@@ -2544,7 +2544,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=Pntl10&C=Title",
+            Prefix.gospelMorning + "Gospel&D=Pntl10&C=Title",
         ],
         [
             Prefix.readingRef + "MAT:9:32-35",
@@ -2552,7 +2552,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=Pntl11&C=Title",
+            Prefix.gospelMorning + "Psalm&D=Pntl11&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:5:3-4",
@@ -2560,7 +2560,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=Pntl11&C=Title",
+            Prefix.gospelMorning + "Gospel&D=Pntl11&C=Title",
         ],
         [
             Prefix.readingRef + "MAT:11:2-6",
@@ -2568,7 +2568,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=Pntl12&C=Title",
+            Prefix.gospelMorning + "Psalm&D=Pntl12&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:16:10-11",
@@ -2576,7 +2576,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=Pntl12&C=Title",
+            Prefix.gospelMorning + "Gospel&D=Pntl12&C=Title",
         ],
         [
             Prefix.readingRef + "MAT:16:21-23",
@@ -2584,7 +2584,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=Pntl13&C=Title",
+            Prefix.gospelMorning + "Psalm&D=Pntl13&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:111:1-2",
@@ -2592,7 +2592,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=Pntl13&C=Title",
+            Prefix.gospelMorning + "Gospel&D=Pntl13&C=Title",
         ],
         [
             Prefix.readingRef + "JHN:5:37-47",
@@ -2600,7 +2600,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=Pntl15&C=Title",
+            Prefix.gospelMorning + "Psalm&D=Pntl15&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:19:1-2",
@@ -2608,7 +2608,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=Pntl15&C=Title",
+            Prefix.gospelMorning + "Gospel&D=Pntl15&C=Title",
         ],
         [
             Prefix.readingRef + "MAT:17:10-13",
@@ -2616,7 +2616,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=Pntl16&C=Title",
+            Prefix.gospelMorning + "Psalm&D=Pntl16&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:57:1-1/57:5-5",
@@ -2624,7 +2624,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=Pntl16&C=Title",
+            Prefix.gospelMorning + "Gospel&D=Pntl16&C=Title",
         ],
         [
             Prefix.readingRef + "MAT:17:20-23",
@@ -2632,7 +2632,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=Pntl17&C=Title",
+            Prefix.gospelMorning + "Psalm&D=Pntl17&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:57:8-10",
@@ -2640,7 +2640,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=Pntl17&C=Title",
+            Prefix.gospelMorning + "Gospel&D=Pntl17&C=Title",
         ],
         [
             Prefix.readingRef + "MAT:9:32-35",
@@ -2648,7 +2648,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=Pntl18&C=Title",
+            Prefix.gospelMorning + "Psalm&D=Pntl18&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:",
@@ -2656,7 +2656,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=Pntl18&C=Title",
+            Prefix.gospelMorning + "Gospel&D=Pntl18&C=Title",
         ],
         [
             Prefix.readingRef + "MAT:22:34-40",
@@ -2664,7 +2664,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=Pntl19&C=Title",
+            Prefix.gospelMorning + "Psalm&D=Pntl19&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:146:1-2/146:5-5",
@@ -2672,7 +2672,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=Pntl19&C=Title",
+            Prefix.gospelMorning + "Gospel&D=Pntl19&C=Title",
         ],
         [
             Prefix.readingRef + "MAT:22:41-46",
@@ -2680,7 +2680,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=Pntl1&C=Title",
+            Prefix.gospelMorning + "Psalm&D=Pntl1&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:97:1-2",
@@ -2688,7 +2688,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=Pntl1&C=Title",
+            Prefix.gospelMorning + "Gospel&D=Pntl1&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:24:1-13",
@@ -2696,7 +2696,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=Pntl1stSunday&C=Title",
+            Prefix.gospelMorning + "Psalm&D=Pntl1stSunday&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:95:1-2",
@@ -2704,7 +2704,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=Pntl1stSunday&C=Title",
+            Prefix.gospelMorning + "Gospel&D=Pntl1stSunday&C=Title",
         ],
         [
             Prefix.readingRef + "JHN:21:1-14",
@@ -2712,7 +2712,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=Pntl20&C=Title",
+            Prefix.gospelMorning + "Psalm&D=Pntl20&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:107:1-2",
@@ -2720,7 +2720,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=Pntl20&C=Title",
+            Prefix.gospelMorning + "Gospel&D=Pntl20&C=Title",
         ],
         [
             Prefix.readingRef + "JHN:7:10-13",
@@ -2728,7 +2728,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=Pntl22&C=Title",
+            Prefix.gospelMorning + "Psalm&D=Pntl22&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:43:3-3",
@@ -2736,7 +2736,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=Pntl22&C=Title",
+            Prefix.gospelMorning + "Gospel&D=Pntl22&C=Title",
         ],
         [
             Prefix.readingRef + "MRK:4:30-34",
@@ -2744,7 +2744,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=Pntl23&C=Title",
+            Prefix.gospelMorning + "Psalm&D=Pntl23&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:67:5-6",
@@ -2752,7 +2752,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=Pntl23&C=Title",
+            Prefix.gospelMorning + "Gospel&D=Pntl23&C=Title",
         ],
         [
             Prefix.readingRef + "MRK:1:40-44",
@@ -2760,7 +2760,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=Pntl24&C=Title",
+            Prefix.gospelMorning + "Psalm&D=Pntl24&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:119:33-34",
@@ -2768,7 +2768,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=Pntl24&C=Title",
+            Prefix.gospelMorning + "Gospel&D=Pntl24&C=Title",
         ],
         [
             Prefix.readingRef + "MRK:3:31-35",
@@ -2776,7 +2776,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=Pntl25&C=Title",
+            Prefix.gospelMorning + "Psalm&D=Pntl25&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:97:7-8",
@@ -2784,7 +2784,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=Pntl25&C=Title",
+            Prefix.gospelMorning + "Gospel&D=Pntl25&C=Title",
         ],
         [
             Prefix.readingRef + "MRK:4:21-25",
@@ -2792,7 +2792,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=Pntl26&C=Title",
+            Prefix.gospelMorning + "Psalm&D=Pntl26&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:70:1-1/70:5-5",
@@ -2800,7 +2800,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=Pntl26&C=Title",
+            Prefix.gospelMorning + "Gospel&D=Pntl26&C=Title",
         ],
         [
             Prefix.readingRef + "MRK:4:26-29",
@@ -2808,7 +2808,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=Pntl27&C=Title",
+            Prefix.gospelMorning + "Psalm&D=Pntl27&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:146:10-10",
@@ -2816,7 +2816,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=Pntl27&C=Title",
+            Prefix.gospelMorning + "Gospel&D=Pntl27&C=Title",
         ],
         [
             Prefix.readingRef + "JHN:7:31-36",
@@ -2824,7 +2824,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=Pntl29&C=Title",
+            Prefix.gospelMorning + "Psalm&D=Pntl29&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:118:16-17",
@@ -2832,7 +2832,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=Pntl29&C=Title",
+            Prefix.gospelMorning + "Gospel&D=Pntl29&C=Title",
         ],
         [
             Prefix.readingRef + "MRK:4:30-34",
@@ -2840,7 +2840,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=Pntl2&C=Title",
+            Prefix.gospelMorning + "Psalm&D=Pntl2&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:105:1-3",
@@ -2848,7 +2848,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=Pntl2&C=Title",
+            Prefix.gospelMorning + "Gospel&D=Pntl2&C=Title",
         ],
         [
             Prefix.readingRef + "MAT:28:16-20",
@@ -2856,7 +2856,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=Pntl2ndSunday&C=Title",
+            Prefix.gospelMorning + "Psalm&D=Pntl2ndSunday&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:111:3-4",
@@ -2864,7 +2864,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=Pntl2ndSunday&C=Title",
+            Prefix.gospelMorning + "Gospel&D=Pntl2ndSunday&C=Title",
         ],
         [
             Prefix.readingRef + "JHN:6:24-33",
@@ -2872,7 +2872,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=Pntl30&C=Title",
+            Prefix.gospelMorning + "Psalm&D=Pntl30&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:118:18-19",
@@ -2880,7 +2880,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=Pntl30&C=Title",
+            Prefix.gospelMorning + "Gospel&D=Pntl30&C=Title",
         ],
         [
             Prefix.readingRef + "MRK:4:35-41",
@@ -2888,7 +2888,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=Pntl31&C=Title",
+            Prefix.gospelMorning + "Psalm&D=Pntl31&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:118:24-25",
@@ -2896,7 +2896,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=Pntl31&C=Title",
+            Prefix.gospelMorning + "Gospel&D=Pntl31&C=Title",
         ],
         [
             Prefix.readingRef + "MRK:12:28-34",
@@ -2904,7 +2904,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=Pntl32&C=Title",
+            Prefix.gospelMorning + "Psalm&D=Pntl32&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:118:26-27",
@@ -2912,7 +2912,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=Pntl32&C=Title",
+            Prefix.gospelMorning + "Gospel&D=Pntl32&C=Title",
         ],
         [
             Prefix.readingRef + "MRK:7:5-8",
@@ -2920,7 +2920,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=Pntl33&C=Title",
+            Prefix.gospelMorning + "Psalm&D=Pntl33&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:118:28-28/118:21-21",
@@ -2928,7 +2928,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=Pntl33&C=Title",
+            Prefix.gospelMorning + "Gospel&D=Pntl33&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:14:12-15",
@@ -2936,7 +2936,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=Pntl34&C=Title",
+            Prefix.gospelMorning + "Psalm&D=Pntl34&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:36:5-6",
@@ -2944,7 +2944,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=Pntl34&C=Title",
+            Prefix.gospelMorning + "Gospel&D=Pntl34&C=Title",
         ],
         [
             Prefix.readingRef + "JHN:7:37-46",
@@ -2952,7 +2952,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=Pntl36&C=Title",
+            Prefix.gospelMorning + "Psalm&D=Pntl36&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:47:6-7",
@@ -2960,7 +2960,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=Pntl36&C=Title",
+            Prefix.gospelMorning + "Gospel&D=Pntl36&C=Title",
         ],
         [
             Prefix.readingRef + "MRK:8:22-26",
@@ -2968,7 +2968,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=Pntl37&C=Title",
+            Prefix.gospelMorning + "Psalm&D=Pntl37&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:47:3-4",
@@ -2976,7 +2976,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=Pntl37&C=Title",
+            Prefix.gospelMorning + "Gospel&D=Pntl37&C=Title",
         ],
         [
             Prefix.readingRef + "MRK:9:30-32",
@@ -2984,7 +2984,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=Pntl38&C=Title",
+            Prefix.gospelMorning + "Psalm&D=Pntl38&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:23:1-3",
@@ -2992,7 +2992,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=Pntl38&C=Title",
+            Prefix.gospelMorning + "Gospel&D=Pntl38&C=Title",
         ],
         [
             Prefix.readingRef + "MRK:9:38-42",
@@ -3000,7 +3000,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=Pntl39&C=Title",
+            Prefix.gospelMorning + "Psalm&D=Pntl39&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:68:18-19",
@@ -3008,7 +3008,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=Pntl39&C=Title",
+            Prefix.gospelMorning + "Gospel&D=Pntl39&C=Title",
         ],
         [
             Prefix.readingRef + "MRK:16:12-20",
@@ -3016,7 +3016,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=Pntl3&C=Title",
+            Prefix.gospelMorning + "Psalm&D=Pntl3&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:105:43-43/105:45-45",
@@ -3024,7 +3024,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=Pntl3&C=Title",
+            Prefix.gospelMorning + "Gospel&D=Pntl3&C=Title",
         ],
         [
             Prefix.readingRef + "JHN:1:9-14",
@@ -3032,7 +3032,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=Pntl3rdSunday&C=Title",
+            Prefix.gospelMorning + "Psalm&D=Pntl3rdSunday&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:116:4-6",
@@ -3040,7 +3040,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=Pntl3rdSunday&C=Title",
+            Prefix.gospelMorning + "Gospel&D=Pntl3rdSunday&C=Title",
         ],
         [
             Prefix.readingRef + "JHN:8:21-30",
@@ -3048,7 +3048,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=Pntl40&C=Title",
+            Prefix.gospelMorning + "Psalm&D=Pntl40&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:110:1-2",
@@ -3056,7 +3056,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=Pntl40&C=Title",
+            Prefix.gospelMorning + "Gospel&D=Pntl40&C=Title",
         ],
         [
             Prefix.readingRef + "MRK:9:2-7",
@@ -3064,7 +3064,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=Pntl41&C=Title",
+            Prefix.gospelMorning + "Psalm&D=Pntl41&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:112:4-4",
@@ -3072,7 +3072,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=Pntl41&C=Title",
+            Prefix.gospelMorning + "Gospel&D=Pntl41&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:10:21-24",
@@ -3080,7 +3080,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=Pntl43&C=Title",
+            Prefix.gospelMorning + "Psalm&D=Pntl43&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:119:164-165",
@@ -3088,7 +3088,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=Pntl43&C=Title",
+            Prefix.gospelMorning + "Gospel&D=Pntl43&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:4:42-End/5:1-3",
@@ -3096,7 +3096,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=Pntl44&C=Title",
+            Prefix.gospelMorning + "Psalm&D=Pntl44&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:138:1-1",
@@ -3104,7 +3104,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=Pntl44&C=Title",
+            Prefix.gospelMorning + "Gospel&D=Pntl44&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:6:12-16",
@@ -3112,7 +3112,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=Pntl45&C=Title",
+            Prefix.gospelMorning + "Psalm&D=Pntl45&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:12:6-6",
@@ -3120,7 +3120,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=Pntl45&C=Title",
+            Prefix.gospelMorning + "Gospel&D=Pntl45&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:7:24-28",
@@ -3128,7 +3128,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=Pntl46&C=Title",
+            Prefix.gospelMorning + "Psalm&D=Pntl46&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:91:13-14",
@@ -3136,7 +3136,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=Pntl46&C=Title",
+            Prefix.gospelMorning + "Gospel&D=Pntl46&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:8:1-3",
@@ -3144,7 +3144,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=Pntl47&C=Title",
+            Prefix.gospelMorning + "Psalm&D=Pntl47&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:119:96-96/119:89-89",
@@ -3152,7 +3152,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=Pntl47&C=Title",
+            Prefix.gospelMorning + "Gospel&D=Pntl47&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:8:18-21",
@@ -3160,7 +3160,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=Pntl48&C=Title",
+            Prefix.gospelMorning + "Psalm&D=Pntl48&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:33:5-6",
@@ -3168,7 +3168,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=Pntl48&C=Title",
+            Prefix.gospelMorning + "Gospel&D=Pntl48&C=Title",
         ],
         [
             Prefix.readingRef + "JHN:17:1-13",
@@ -3176,7 +3176,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=Pntl4&C=Title",
+            Prefix.gospelMorning + "Psalm&D=Pntl4&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:106:4-5",
@@ -3184,7 +3184,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=Pntl4&C=Title",
+            Prefix.gospelMorning + "Gospel&D=Pntl4&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:9:28-36",
@@ -3192,7 +3192,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=Pntl4thSunday&C=Title",
+            Prefix.gospelMorning + "Psalm&D=Pntl4thSunday&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:118:28-28/118:21-21",
@@ -3200,7 +3200,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=Pntl4thSunday&C=Title",
+            Prefix.gospelMorning + "Gospel&D=Pntl4thSunday&C=Title",
         ],
         [
             Prefix.readingRef + "JHN:8:51-59",
@@ -3208,7 +3208,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=Pntl5&C=Title",
+            Prefix.gospelMorning + "Psalm&D=Pntl5&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:106:47-47",
@@ -3216,7 +3216,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=Pntl5&C=Title",
+            Prefix.gospelMorning + "Gospel&D=Pntl5&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:20:27-39",
@@ -3224,7 +3224,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=Pntl5thSunday&C=Title",
+            Prefix.gospelMorning + "Psalm&D=Pntl5thSunday&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:135:19-20",
@@ -3232,7 +3232,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=Pntl5thSunday&C=Title",
+            Prefix.gospelMorning + "Gospel&D=Pntl5thSunday&C=Title",
         ],
         [
             Prefix.readingRef + "JHN:15:4-8",
@@ -3240,7 +3240,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=Pntl6&C=Title",
+            Prefix.gospelMorning + "Psalm&D=Pntl6&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:77:2-2",
@@ -3248,7 +3248,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=Pntl6&C=Title",
+            Prefix.gospelMorning + "Gospel&D=Pntl6&C=Title",
         ],
         [
             Prefix.readingRef + "JHN:20:19-23",
@@ -3256,7 +3256,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=Pntl6thSunday&C=Title",
+            Prefix.gospelMorning + "Psalm&D=Pntl6thSunday&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:147:1-2",
@@ -3264,7 +3264,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=Pntl6thSunday&C=Title",
+            Prefix.gospelMorning + "Gospel&D=Pntl6thSunday&C=Title",
         ],
         [
             Prefix.readingRef + "JHN:14:8-14",
@@ -3272,7 +3272,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=Pntl7thSunday&C=Title",
+            Prefix.gospelMorning + "Psalm&D=Pntl7thSunday&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:104:30-31",
@@ -3280,7 +3280,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=Pntl7thSunday&C=Title",
+            Prefix.gospelMorning + "Gospel&D=Pntl7thSunday&C=Title",
         ],
         [
             Prefix.readingRef + "JHN:14:26-End/15:1-4",
@@ -3288,7 +3288,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=Pntl8&C=Title",
+            Prefix.gospelMorning + "Psalm&D=Pntl8&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:112:4-4/112:6-7",
@@ -3296,7 +3296,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=Pntl8&C=Title",
+            Prefix.gospelMorning + "Gospel&D=Pntl8&C=Title",
         ],
         [
             Prefix.readingRef + "MAT:8:23-27",
@@ -3304,7 +3304,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=Pntl8thSunday&C=Title",
+            Prefix.gospelMorning + "Psalm&D=Pntl8thSunday&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:104:30-31",
@@ -3312,7 +3312,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=Pntl8thSunday&C=Title",
+            Prefix.gospelMorning + "Gospel&D=Pntl8thSunday&C=Title",
         ],
         [
             Prefix.readingRef + "JHN:14:26-End/15:1-4",
@@ -3320,7 +3320,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=Pntl9&C=Title",
+            Prefix.gospelMorning + "Psalm&D=Pntl9&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:7:6-6/7:8-8",
@@ -3328,7 +3328,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=Pntl9&C=Title",
+            Prefix.gospelMorning + "Gospel&D=Pntl9&C=Title",
         ],
         [
             Prefix.readingRef + "MAT:9:27-31",
@@ -3336,7 +3336,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=JFast1&C=Title",
+            Prefix.gospelMorning + "Psalm&D=JFast1&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:103:1-1/103:8-8",
@@ -3344,7 +3344,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=JFast1&C=Title",
+            Prefix.gospelMorning + "Gospel&D=JFast1&C=Title",
         ],
         [
             Prefix.readingRef + "MAT:7:6-12",
@@ -3352,7 +3352,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=JFast2&C=Title",
+            Prefix.gospelMorning + "Psalm&D=JFast2&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:103:14-14/103:9-9",
@@ -3360,7 +3360,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=JFast2&C=Title",
+            Prefix.gospelMorning + "Gospel&D=JFast2&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:13:6-9",
@@ -3368,7 +3368,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=JFast3&C=Title",
+            Prefix.gospelMorning + "Psalm&D=JFast3&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:103:12-13",
@@ -3376,7 +3376,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=JFast3&C=Title",
+            Prefix.gospelMorning + "Gospel&D=JFast3&C=Title",
         ],
         [
             Prefix.readingRef + "MAT:11:25-30",
@@ -3384,7 +3384,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=JFast4&C=Title",
+            Prefix.gospelMorning + "Psalm&D=JFast4&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:30:10-11",
@@ -3392,7 +3392,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=JFast4&C=Title",
+            Prefix.gospelMorning + "Gospel&D=JFast4&C=Title",
         ],
         [
             Prefix.readingRef + "MRK:8:10-21",
@@ -3400,7 +3400,7 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Psalm&D=GL9thSunday&C=Title",
+            Prefix.gospelMorning + "Psalm&D=GL9thSunday&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:78:65-65/78:69-69",
@@ -3408,11 +3408,11 @@ ReadingsArrays.GospelDawnArrayFR = [[
     ],
     [
         [
-            Prefix.gospelDawn + "Gospel&D=GL9thSunday&C=Title",
+            Prefix.gospelMorning + "Gospel&D=GL9thSunday&C=Title",
         ],
         [
             Prefix.readingRef + "MRK:16:2-11",
         ],
     ],
 ];
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRGVjbGFyZUdvc3BlbERhd25BcnJheS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uL21vZHVsZXMvRGVjbGFyZUdvc3BlbERhd25BcnJheS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxjQUFjLENBQUMsaUJBQWlCLEdBQUcsQ0FBQztRQUNsQztZQUNFLE1BQU0sQ0FBQyxVQUFVLEdBQUcsc0JBQXNCO1NBQzNDO1FBQ0Q7WUFDRSxNQUFNLENBQUMsVUFBVSxHQUFHLFlBQVk7U0FDakM7S0FDRjtJQUNEO1FBQ0U7WUFDRSxNQUFNLENBQUMsVUFBVSxHQUFHLHVCQUF1QjtTQUM1QztRQUNEO1lBQ0UsTUFBTSxDQUFDLFVBQVUsR0FBRyxhQUFhO1NBQ2xDO0tBQ0Y7SUFDRDtRQUNFO1lBQ0UsTUFBTSxDQUFDLFVBQVUsR0FBRyw2QkFBNkI7U0FDbEQ7UUFDRDtZQUNFLE1BQU0sQ0FBQyxVQUFVLEdBQUcscUJBQXFCO1NBQzFDO0tBQ0Y7SUFDRDtRQUNFO1lBQ0UsTUFBTSxDQUFDLFVBQVUsR0FBRyw4QkFBOEI7U0FDbkQ7UUFDRDtZQUNFLE1BQU0sQ0FBQyxVQUFVLEdBQUcsY0FBYztTQUNuQztLQUNGO0lBQ0Q7UUFDRTtZQUNFLE1BQU0sQ0FBQyxVQUFVLEdBQUcsNkJBQTZCO1NBQ2xEO1FBQ0Q7WUFDRSxNQUFNLENBQUMsVUFBVSxHQUFHLGlCQUFpQjtTQUN0QztLQUNGO0lBQ0Q7UUFDRTtZQUNFLE1BQU0sQ0FBQyxVQUFVLEdBQUcsOEJBQThCO1NBQ25EO1FBQ0Q7WUFDRSxNQUFNLENBQUMsVUFBVSxHQUFHLGFBQWE7U0FDbEM7S0FDRjtJQUNEO1FBQ0U7WUFDRSxNQUFNLENBQUMsVUFBVSxHQUFHLHdCQUF3QjtTQUM3QztRQUNEO1lBQ0UsTUFBTSxDQUFDLFVBQVUsR0FBRyxZQUFZO1NBQ2pDO0tBQ0Y7SUFDRDtRQUNFO1lBQ0UsTUFBTSxDQUFDLFVBQVUsR0FBRyw2QkFBNkI7U0FDbEQ7UUFDRDtZQUNFLE1BQU0sQ0FBQyxV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
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRGVjbGFyZUdvc3BlbERhd25BcnJheS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uL21vZHVsZXMvRGVjbGFyZUdvc3BlbERhd25BcnJheS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxjQUFjLENBQUMsb0JBQW9CLEdBQUcsQ0FBQztRQUNyQztZQUNFLE1BQU0sQ0FBQyxhQUFhLEdBQUcsc0JBQXNCO1NBQzlDO1FBQ0Q7WUFDRSxNQUFNLENBQUMsVUFBVSxHQUFHLFlBQVk7U0FDakM7S0FDRjtJQUNEO1FBQ0U7WUFDRSxNQUFNLENBQUMsYUFBYSxHQUFHLHVCQUF1QjtTQUMvQztRQUNEO1lBQ0UsTUFBTSxDQUFDLFVBQVUsR0FBRyxhQUFhO1NBQ2xDO0tBQ0Y7SUFDRDtRQUNFO1lBQ0UsTUFBTSxDQUFDLGFBQWEsR0FBRyw2QkFBNkI7U0FDckQ7UUFDRDtZQUNFLE1BQU0sQ0FBQyxVQUFVLEdBQUcscUJBQXFCO1NBQzFDO0tBQ0Y7SUFDRDtRQUNFO1lBQ0UsTUFBTSxDQUFDLGFBQWEsR0FBRyw4QkFBOEI7U0FDdEQ7UUFDRDtZQUNFLE1BQU0sQ0FBQyxVQUFVLEdBQUcsY0FBYztTQUNuQztLQUNGO0lBQ0Q7UUFDRTtZQUNFLE1BQU0sQ0FBQyxhQUFhLEdBQUcsNkJBQTZCO1NBQ3JEO1FBQ0Q7WUFDRSxNQUFNLENBQUMsVUFBVSxHQUFHLGlCQUFpQjtTQUN0QztLQUNGO0lBQ0Q7UUFDRTtZQUNFLE1BQU0sQ0FBQyxhQUFhLEdBQUcsOEJBQThCO1NBQ3REO1FBQ0Q7WUFDRSxNQUFNLENBQUMsVUFBVSxHQUFHLGFBQWE7U0FDbEM7S0FDRjtJQUNEO1FBQ0U7WUFDRSxNQUFNLENBQUMsYUFBYSxHQUFHLHdCQUF3QjtTQUNoRDtRQUNEO1lBQ0UsTUFBTSxDQUFDLFVBQVUsR0FBRyxZQUFZO1NBQ2pDO0tBQ0Y7SUFDRDtRQUNFO1lBQ0UsTUFBTSxDQUFDLGFBQWEsR0FBRyw2QkFBNkI7U0FDckQ7UUFDRDtZQUNFLE1BQU0sQ0FBQyxV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

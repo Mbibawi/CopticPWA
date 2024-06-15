@@ -1759,7 +1759,7 @@ function showPrayers(args: {
 
         if (!tableTitle.includes("&D="))
           tableTitle += "&D=" + copticReadingsDate; //if the date/season of the prayer is not indicated in the title of the table, it means that we need to retrieve a table with the same base, but having as date the copticReadingsDate (eg. the St Paul reading or the Katholikon).
-        
+
         tables.push(
           findTable(
             tableTitle,
@@ -1826,15 +1826,6 @@ function showPrayers(args: {
     };
   };
 
-}
-
-/**
- * returns the perfix according to the
- */
-function getMassPrefix(btnID: string): string {
-  if (btnID === btnMassStBasil.btnID) return Prefix.massStBasil;
-  if (btnID === btnMassStGregory.btnID) return Prefix.massStGregory;
-  if (btnID === btnMassStCyril.btnID) return Prefix.massStCyril;
 }
 
 /**
@@ -1909,7 +1900,7 @@ async function setCSS(htmlRows: HTMLElement[]) {
 
           row.role = "button";
 
-          let defLangParag:HTMLParagraphElement = row.querySelector(
+          let defLangParag: HTMLParagraphElement = row.querySelector(
             'p[lang="' + defaultLanguage.toLowerCase() + '"]'
           );
           if (!defLangParag) defLangParag = row.lastElementChild as HTMLParagraphElement;
@@ -1939,14 +1930,14 @@ async function setCSS(htmlRows: HTMLElement[]) {
 
       if (row.classList.contains("Diacon")) replaceMusicalNoteSign(paragraphs);
 
-     if (
+      if (
         row.dataset.root
         &&
         [
           Prefix.praxis,
           Prefix.Catholicon,
           Prefix.stPaul,
-          Prefix.gospelDawn,
+          Prefix.gospelMorning,
           Prefix.gospelVespers,
           Prefix.gospelNight,
           Prefix.gospelMass,
@@ -1957,7 +1948,7 @@ async function setCSS(htmlRows: HTMLElement[]) {
         ].find((prefix) => row.dataset.root.startsWith(prefix))
       )
         replaceQuotes(paragraphs); //If the text is one of the "Readings", we replace the quotes signs
-        insertSuperScriptTag(paragraphs);
+      insertSuperScriptTag(paragraphs);
     });
 }
 /**
@@ -1973,25 +1964,25 @@ function replaceQuotes(paragraphs: HTMLParagraphElement[]) {
         !paragraph.classList.contains("CA")
     )
     .forEach((paragraph) => {
-        paragraph.innerHTML = paragraph.innerHTML
-          .replaceAll(String.fromCharCode(171), "<q>")
-          .replaceAll(String.fromCharCode(187), "</q>");
-  
+      paragraph.innerHTML = paragraph.innerHTML
+        .replaceAll(String.fromCharCode(171), "<q>")
+        .replaceAll(String.fromCharCode(187), "</q>");
+
       let matches = Array.from(paragraph.innerHTML.matchAll(/"/g));
       matches.forEach(match => {
         if (matches.indexOf(match) % 2 === 0)
           paragraph.innerHTML = paragraph.innerHTML.replace(match[0], '<q>');
         else paragraph.innerHTML = paragraph.innerHTML.replace(match[0], '</q>')
-      });   
+      });
     });
 }
 /**
  * Replaces the verses numbers with a superScript span
  * @param {HTMLPargraphElement[]} paragraphs
  */
-function insertSuperScriptTag(paragraphs:HTMLParagraphElement[]) {
+function insertSuperScriptTag(paragraphs: HTMLParagraphElement[]) {
   //let exp: RegExp = /Sup_\d*_Sup/g
-  
+
   paragraphs
     .forEach(parag => {
       //We will convert the verses numbers into superscripts
@@ -2009,7 +2000,7 @@ function insertSuperScriptTag(paragraphs:HTMLParagraphElement[]) {
           
         });
         */
-      })
+    })
 };
 
 /**
@@ -2064,8 +2055,8 @@ async function applyAmplifiedText(htmlRows: HTMLDivElement[]) {
 function collapseOrExpandText(
   titleRow: HTMLDivElement,
   collapse?: boolean,
-  children?:HTMLDivElement[],
-  titlesRows?:HTMLDivElement[]
+  children?: HTMLDivElement[],
+  titlesRows?: HTMLDivElement[]
 ) {
   if (localStorage.displayMode === displayModes[1]) return; //When we are in the 'Presentation' display mode, the titles sibligins are not hidden when we click the title div
 
@@ -2086,22 +2077,22 @@ function collapseOrExpandText(
 
   if (!children)
     children =
-    Array.from(containerDiv.querySelectorAll('div') as NodeListOf<HTMLDivElement>)
-      //!We must use querySelectorAll because some elements are not direct children of containerDiv (e.g. they may be nested in an expandable element)
-      .filter(div => div.children.length > 0) //We exclude rows with no children (those are PlaceHolders)
-      .filter(div => div.dataset.group)
-      .filter(div => div.dataset.group === titleRow.dataset.group);
+      Array.from(containerDiv.querySelectorAll('div') as NodeListOf<HTMLDivElement>)
+        //!We must use querySelectorAll because some elements are not direct children of containerDiv (e.g. they may be nested in an expandable element)
+        .filter(div => div.children.length > 0) //We exclude rows with no children (those are PlaceHolders)
+        .filter(div => div.dataset.group)
+        .filter(div => div.dataset.group === titleRow.dataset.group);
 
   if (!titlesRows)
     titlesRows = children.filter((div) => isTitlesContainer(div));//Those are all the "Title" divs having the same data-group as titleRow
 
   let titleRowChildren: HTMLDivElement[];
 
-  titlesRows.length === 1?
+  titlesRows.length === 1 ?
     titleRowChildren = children.filter(child => child.dataset.group === titleRow.dataset.group) //There is only 1 title for the same dataset.group (which mostly the case)
-  :
+    :
     titleRowChildren = children.filter(child => child.dataset.root === titleRow.dataset.root);//There are more than 1 title with the same dataset.group attribute. In this case, each titleRow will only hide the divs sharing the same dataset.root (not the same dataset.group because otherwise, all the other titles and their children will be affected)
-  
+
   toggleHidden(titleRowChildren);
 
   if (titlesRows.indexOf(titleRow) === 0) {
@@ -2110,7 +2101,7 @@ function collapseOrExpandText(
     titlesRows
       .filter(titleDiv => titleDiv !== titleRow)
       .forEach(titleDiv => collapseOrExpandText(titleDiv, Boolean(titleRow.dataset.isCollapsed), children, titlesRows));
-  } 
+  }
 
   function toggleHidden(htmlElements: HTMLElement[]) {
     htmlElements
@@ -3462,25 +3453,25 @@ function convertHtmlDivElementsIntoArrayTable(
     if (!htmlRow.title || !htmlRow.dataset.root)
       return alert("the row dosen't have title");
     if (htmlRow.dataset.isReference)
-      return table.push(Array.from(htmlRow.querySelectorAll('p')).map((p:HTMLParagraphElement)=>Prefix.readingRef + p.innerText)); 
+      return table.push(Array.from(htmlRow.querySelectorAll('p')).map((p: HTMLParagraphElement) => Prefix.readingRef + p.innerText));
     table.push(
       Array.from(htmlRow.children)
-      .map((p: HTMLElement) => {
+        .map((p: HTMLElement) => {
           text = p.innerText //!This must be the innerText not the textContent nor the innerHTML
           //We replace the quotes in the innerHTML of the paragraph, but we will return the innerText of the paragraph in order to avoid getting <br> or any other html tags in the returned text
           text = replaceHtmlQuotes(text, p.lang); //When the text is displayed, the <quote> elment is replaced with the quotes symbol of the relevant language. We replace the quotes with the html <quote> element
-        return text;
-      })
+          return text;
+        })
     );
 
     let firstElement: string = title;
-    if(htmlRows.indexOf(htmlRow)===0)
+    if (htmlRows.indexOf(htmlRow) === 0)
       firstElement = title;//The entire title including the "&C="
     else if (htmlRow.dataset.isPlaceHolder)
-      firstElement = Prefix.placeHolder; 
+      firstElement = Prefix.placeHolder;
     else if (htmlRow.dataset.isPrefixSame || [splitTitle(htmlRow.title)[0], splitTitle(htmlRow.dataset.root)[0]].includes(splitTitle(title)[0]))
       firstElement = Prefix.same + '&C=' + splitTitle(htmlRow.title)[1];
-    
+
     table[table.length - 1].unshift(firstElement);//We add the title string element to the last row of the table that we have just pushed. 
   });
   return table;
@@ -3725,7 +3716,7 @@ async function testReplaceLanguageText() {
   let en: string = 'Lorem ipsum dolor sit amet. Est itaque incidunt ex adipisci consequatur est libero eius eos laboriosam odit. Quo quas facere cum illum dolorem ut voluptate provident ea minima exercitationem ad aspernatur explicabo est internos quia vel pariatur voluptatem? Qui atque aliquam qui numquam voluptatem et recusandae architecto qui sequi exercitationem et enim ipsam. Ea enim omnis non itaque exercitationem sit alias ullam et internos quod? Eos aperiam laboriosam ut dolorum voluptatem nam velit provident.';
   let prefixes = [
     Prefix.prayersArray,
-    Prefix.gospelDawn,
+    Prefix.gospelMorning,
     Prefix.gospelMass,
     Prefix.gospelNight,
     Prefix.gospelVespers,

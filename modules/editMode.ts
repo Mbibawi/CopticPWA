@@ -1398,38 +1398,38 @@ function getLanguages(arrayName?): string[] {
  * Converts the coptic font of the text in the selected html element, to a unicode font
  * @param {HTMLElement} htmlParag - an editable html element in which the cursor is placed, containing coptic text in a non unicode font, that we need to convert
  */
-async function convertCopticFont(htmlParag?: HTMLElement, fontFrom?: string, promptAll: boolean = true, text?:string):Promise<string|void> {
-  
+async function convertCopticFont(htmlParag?: HTMLElement, fontFrom?: string, promptAll: boolean = true, text?: string): Promise<string | void> {
+
   if (!fontFrom) fontFrom = prompt("Provide the font", "COPTIC1/CS_AVVA_SHENOUDA/AVVA_SHENOUDA/ATHANASIUS/NEW_ATHANASIUS");
-  
+
   if (!fontFrom) return;
-  
+
   if (text && fontFrom) return await convert(text);
-  
+
   if (promptAll && confirm('Do you want to edit all the coptic paragraphs with the same font?')) {
     let parags = Array.from(containerDiv.querySelectorAll('P') as NodeListOf<HTMLParagraphElement>)
-    .filter(p => p.lang === 'COP');
-    
+      .filter(p => p.lang === 'COP');
+
     for (let parag of parags) {
       await convertCopticFont(parag, fontFrom, false);
     }
-    
-    return
-    
-  }
-  
-  while (htmlParag.tagName !== "P" && htmlParag.parentElement)
-  htmlParag = htmlParag.parentElement;
 
-if (!htmlParag && !text) return alert('Html element not a paragraph');
+    return
+
+  }
+
+  while (htmlParag.tagName !== "P" && htmlParag.parentElement)
+    htmlParag = htmlParag.parentElement;
+
+  if (!htmlParag && !text) return alert('Html element not a paragraph');
 
 
   let selected: Selection = getSelectedText();
 
   if (selected && !selected.isCollapsed)
-    text = await convert(selected.toString())|| undefined;
+    text = await convert(selected.toString()) || undefined;
   else text = await convert(htmlParag.textContent) || undefined;
-  
+
   if (!text) return alert('Failed to convert the text');
   window.Selection = null;
   htmlParag.innerHTML = "";
@@ -1438,49 +1438,49 @@ if (!htmlParag && !text) return alert('Html element not a paragraph');
   else htmlParag.textContent = text
 
   async function convert(originalText: string) {
-    let converted:string[] = [];
+    let converted: string[] = [];
     let paragraphs = originalText.split('<br>');
     for (let parag of paragraphs) {
       if (!['CS_AVVA_SHENOUDA'].includes(fontFrom))
         converted.push(await convertFontWithoutAPI(parag, fontFrom));
-     else converted.push(await convertFromAPI(parag) || '');
+      else converted.push(await convertFromAPI(parag) || '');
     }
     return converted.join('\n')
-}
+  }
 
 
-  async function convertFromAPI(originalText:string) {
-      let apiURL = new URL("https://www.copticchurch.net/coptic_language/fonts/convert");
+  async function convertFromAPI(originalText: string) {
+    let apiURL = new URL("https://www.copticchurch.net/coptic_language/fonts/convert");
 
-      let init: RequestInit = {
-        method: 'POST',
-        headers: {
-          "Content-Type": "application/x-www-form-urlencoded",
-          "Accept": "text/html",
-        },
+    let init: RequestInit = {
+      method: 'POST',
+      headers: {
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Accept": "text/html",
+      },
 
-        body: 
-          encodeURI("from=" + fontFrom + "&encoding=unicode&action=translate&data=" + originalText)
-      };
+      body:
+        encodeURI("from=" + fontFrom + "&encoding=unicode&action=translate&data=" + originalText)
+    };
 
-      let response = await fetch(apiURL, init);
-      if (response.status !== 200)
-        return console.log("error status text = ", response.statusText);
-    
+    let response = await fetch(apiURL, init);
+    if (response.status !== 200)
+      return console.log("error status text = ", response.statusText);
+
     let responseText = await response.text();
 
     if (!responseText) return console.log('response.text could not be retrieved');
 
-      let textArea: HTMLElement = new DOMParser()
-        .parseFromString(responseText, "text/html")
-        .getElementsByTagName("textarea")[0];
+    let textArea: HTMLElement = new DOMParser()
+      .parseFromString(responseText, "text/html")
+      .getElementsByTagName("textarea")[0];
 
-      if (!textArea || !textArea.innerText)  
-        return console.log('Error: no textArea or textArea is empty')
-    
-      console.log("converted text = ", textArea.innerText);
-      return textArea.innerText;
-  
+    if (!textArea || !textArea.innerText)
+      return console.log('Error: no textArea or textArea is empty')
+
+    console.log("converted text = ", textArea.innerText);
+    return textArea.innerText;
+
   };
 
 }
@@ -1740,14 +1740,14 @@ async function convertAllCopticParagraphsFonts(fontFrom?: string) {
 
 async function _FixCopticText(htmlParag: HTMLElement) {
   if (htmlParag.tagName !== 'P') return alert('Please place the cursor in the paragraph that you want to fix');
-  
+
   let font: string,
-    text:string,
+    text: string,
     parags = htmlParag.innerHTML.split('<br>');
 
-  for (let parag of parags){
+  for (let parag of parags) {
     parags.indexOf(parag) === 1 ? font = 'ATHANASIUS' : font = 'CS_AVVA_SHENOUDA';
-    text = await convertCopticFont(undefined, font, false, parag)||''
+    text = await convertCopticFont(undefined, font, false, parag) || ''
     if (!text) alert('Conversion has failed for ' + parag);
     if (!text) continue;
     let row = addRow(htmlParag, false, htmlParag.title.replace('Diacon', 'ReadingIntro'), false);
@@ -1904,10 +1904,10 @@ async function _fetchBibleVersesFromBibleCom(id: number | string, lang: string, 
       const json = await response.json();
 
       return extractChapterFromJSON(json, bookID, chapterNumber);
-      
+
     }
-    
-    function extractChapterFromJSON(json, bookID:string, chapterNumber:string) {
+
+    function extractChapterFromJSON(json, bookID: string, chapterNumber: string) {
       if (!json || !json.pageProps || !json.pageProps.chapterInfo) return;
       let jsonContent: string = json.pageProps.chapterInfo.content;
       if (!jsonContent) return;
@@ -1930,23 +1930,23 @@ async function _fetchBibleVersesFromBibleCom(id: number | string, lang: string, 
 
       paragraphs
         .forEach(div => {
-        spans = Array.from(div.querySelectorAll('span.verse'));
-        verses =
-          spans.map(span => {
-            label = span.querySelector('span.label') as HTMLSpanElement;
-            content = Array.from(span.querySelectorAll('span.content')).map((span: HTMLSpanElement) => span.innerText).join('');
+          spans = Array.from(div.querySelectorAll('span.verse'));
+          verses =
+            spans.map(span => {
+              label = span.querySelector('span.label') as HTMLSpanElement;
+              content = Array.from(span.querySelectorAll('span.content')).map((span: HTMLSpanElement) => span.innerText).join('');
 
-            if (!label || !label.innerText || !content || !content) return [''];//It means this is not a verse
+              if (!label || !label.innerText || !content || !content) return [''];//It means this is not a verse
 
-            return [
-              label.innerText,
-              content,
-            ]//We are returning a verse
-          });
-        verses = verses.filter(verse => verse.length > 1);
-        chapter.push(...verses);//We push the verses to the chapter
-        chapter.push(['\n']); //We push a new paragraph mark after the pargraph div    
-      });
+              return [
+                label.innerText,
+                content,
+              ]//We are returning a verse
+            });
+          verses = verses.filter(verse => verse.length > 1);
+          chapter.push(...verses);//We push the verses to the chapter
+          chapter.push(['\n']); //We push a new paragraph mark after the pargraph div    
+        });
       return chapter
     }
 
@@ -10130,12 +10130,12 @@ function _prepareReadingArrayForReferences(array: string[][][]) {
   let prefix = '&C=';
   saveOrExportArray(
     array.map(tbl => {
-    tbl = tbl.filter(row => !row[0].startsWith(Prefix.same));
-    if(tbl[0][0].includes('Psalm&D='))
+      tbl = tbl.filter(row => !row[0].startsWith(Prefix.same));
+      if (tbl[0][0].includes('Psalm&D='))
         tbl.push([Prefix.readingRef + "PSA:&C="]);
-    else tbl.push([Prefix.readingRef + "XXX&C="]);
+      else tbl.push([Prefix.readingRef + "XXX&C="]);
 
-    return tbl;
+      return tbl;
     }),
     name,
     true,
@@ -10163,43 +10163,43 @@ function _fixReadingReferences(readingArray: string[][][]) {
           .replaceAll(')', '')
           .replaceAll('–', '-')
           .replaceAll(',', ';');
-        
+
         (function process() {
           if (!row[0].includes(';')) return;
           let actor = splitTitle(row[0])[1];
           let parts = splitTitle(row[0])[0].split(';');
           let root = parts[0].replace(Prefix.readingRef, '').split(':');//[PSA, 12, 2-3];
           row[0] = Prefix.readingRef + root[0] + ':' + root[1] + ':' + correctVerses(root[2]) + '/';
-          
+
           row[0] += parts.filter(part => parts.indexOf(part) > 0)
-          .map(verse => root[1] + ':' + correctVerses(verse))
-          .join('/');
-          
+            .map(verse => root[1] + ':' + correctVerses(verse))
+            .join('/');
+
           if (actor) row[0] += '&C=' + actor;
-        
+
           function correctVerses(verse: string) {
             if (verse.includes('-'))
               return verse;
             return verse + '-' + verse;
           }
-      })();
+        })();
 
-      
-      /*  if (!checkReferenceIntegrity(row[0], title))
-      
-      return console.log('The reference is not matching for table. Title = ', title, 'reference = ', row[0]);
-      if (row[0].includes('/')) {
-        let splitted = row[0].split('/');
-        row[0] = splitted[0];
-        table.push([splitted[0].split(':')[0] + ':' + splitted[1]])
-      }
-      */
-     
-     
-    }));
-    
-    saveOrExportArray(readingArray, getArrayNameFromArray(readingArray), true, false);
-  
+
+        /*  if (!checkReferenceIntegrity(row[0], title))
+        
+        return console.log('The reference is not matching for table. Title = ', title, 'reference = ', row[0]);
+        if (row[0].includes('/')) {
+          let splitted = row[0].split('/');
+          row[0] = splitted[0];
+          table.push([splitted[0].split(':')[0] + ':' + splitted[1]])
+        }
+        */
+
+
+      }));
+
+  saveOrExportArray(readingArray, getArrayNameFromArray(readingArray), true, false);
+
 
   function checkReferenceIntegrity(ref: string, prefix: string) {
     let Praxis: RegExp[] = [
@@ -10268,7 +10268,7 @@ function _fixReadingReferences(readingArray: string[][][]) {
     let Psalm = [
       /PSA:\d*:\d*-\d/,
       /PSA:\d*:\d*-End/,
-      ];
+    ];
 
     let group: [RegExp[], string][] = [
       [stPaul, Prefix.stPaul],
@@ -10276,9 +10276,9 @@ function _fixReadingReferences(readingArray: string[][][]) {
       [Catholicon, Prefix.Catholicon],
       [Gospels, Prefix.gospelMass],
       [Gospels, Prefix.gospelNight],
-      [Gospels, Prefix.gospelDawn],
+      [Gospels, Prefix.gospelMorning],
       [Gospels, Prefix.gospelVespers],
-      [Psalm, Prefix.gospelDawn],
+      [Psalm, Prefix.gospelMorning],
       [Psalm, Prefix.gospelVespers],
       [Psalm, Prefix.gospelMass],
       [Psalm, Prefix.gospelNight],
@@ -10382,7 +10382,7 @@ function _HelperPrepareArabicChant() {
 function _testReadings() {
   addConsoleSaveMethod(console);
   let Readings: string[][] = [
-    [Prefix.gospelDawn, "Gospel Dawn"],
+    [Prefix.gospelMorning, "Gospel Dawn"],
     [Prefix.gospelMass, "Gospel Mass"],
     [Prefix.gospelVespers, "Gospel Vespers"],
     [Prefix.gospelNight, 'Gospel Night'],
@@ -10474,7 +10474,7 @@ function _mergeReferencesIntoOneRow(array: string[][][]) {
     for (let titleGroup of refs) {
       if (titleGroup[0].includes('/')) continue;
       first = [splitTitle(titleGroup[0])[0]];
-      for (let i = 1; i <titleGroup.length; i++){
+      for (let i = 1; i < titleGroup.length; i++) {
         first[0] += "/" + splitTitle(titleGroup[i][0])[0].split(Prefix.readingRef)[1];
 
       }
@@ -10487,11 +10487,11 @@ function _splitHWGospelIntoTable() {
   GN
     .forEach(table => {
       if (table.length < 1) return GN.splice(GN.indexOf(table), 1);
-    if (!table[0][0].startsWith(Prefix.HolyWeek)) return;
-    if (!table[0][0].includes('Gospel&D=')) return;
-    if (table.map(row => row[0].includes('&C=Title')).length < 2) return;
+      if (!table[0][0].startsWith(Prefix.HolyWeek)) return;
+      if (!table[0][0].includes('Gospel&D=')) return;
+      if (table.map(row => row[0].includes('&C=Title')).length < 2) return;
       let titleRows = table.filter(row => row[0].includes('&C=Title'));
-      titleRows = titleRows.filter(row=>row[0].includes('Gospel&D=') || ['JHN', 'MAT', 'LUK', 'MRK'].map(prefix=>row[0].includes(prefix+'&C=Title')).includes(true));
+      titleRows = titleRows.filter(row => row[0].includes('Gospel&D=') || ['JHN', 'MAT', 'LUK', 'MRK'].map(prefix => row[0].includes(prefix + '&C=Title')).includes(true));
       if (titleRows.length <= 1) return;
       let tables =
         titleRows
@@ -10500,26 +10500,26 @@ function _splitHWGospelIntoTable() {
       let titleBase: string = titleRows[0][0];
       tables
         .forEach(tbl => {
-        if (tables.indexOf(tbl) === 0) return;
+          if (tables.indexOf(tbl) === 0) return;
           if (tbl.length < 1) return;
-        tbl[0][0] = titleBase.replace('Gospel', tbl[0][0].split("&C=")[0].split(Prefix.same)[1] + "Gospel");
-        tables[0].push([Prefix.placeHolder, splitTitle(tbl[0][0])[0]])
-      });
-      
-        GN.splice(GN.indexOf(table), 1, ...tables);
+          tbl[0][0] = titleBase.replace('Gospel', tbl[0][0].split("&C=")[0].split(Prefix.same)[1] + "Gospel");
+          tables[0].push([Prefix.placeHolder, splitTitle(tbl[0][0])[0]])
+        });
+
+      GN.splice(GN.indexOf(table), 1, ...tables);
 
       function getLastIndex(row): number {
-           if(titleRows.indexOf(row) < titleRows.length-1) 
-            return table.indexOf(titleRows[titleRows.indexOf(row) +1])
-         return table.length
-          }
-    
-  });
+        if (titleRows.indexOf(row) < titleRows.length - 1)
+          return table.indexOf(titleRows[titleRows.indexOf(row) + 1])
+        return table.length
+      }
+
+    });
 
   saveOrExportArray(GN, getArrayNameFromArray(GN), true)
 }
 
-function _fixSIRBook(){
+function _fixSIRBook() {
   let sirAR = Bibles.AR[0].find(book => book[0].id === 'SIR')[1];
   let sirFR = Bibles.FR[0].find(book => book[0].id === 'SIR');
   let fixed: bibleBook = [
@@ -10527,39 +10527,39 @@ function _fixSIRBook(){
     []
   ];
 
-  let index:number;
+  let index: number;
   sirAR
     .forEach(chapter => {
       index = sirAR.indexOf(chapter);
       if (index === 0) return;
       let ch = chapter.map(verse => {
         if (verse.length === 1 && verse[0] === '\n')
-        return verse;
-      else if (verse.length === 2 && Number(verse[0])){
+          return verse;
+        else if (verse.length === 2 && Number(verse[0])) {
           let ver = sirFR[1][index - 1].find(v => v[0] === verse[0]);
-        if (ver) return ver 
-      } 
-    })
-    
-    fixed[1].push(ch);
-    
+          if (ver) return ver
+        }
+      })
+
+      fixed[1].push(ch);
+
     });
-  
+
   Bibles.FR[0].splice(Bibles.FR[0].indexOf(sirFR), 1, fixed);
-  return Bibles.FR[0].find(b=>b[0].id === 'SIR')[1];
-  
+  return Bibles.FR[0].find(b => b[0].id === 'SIR')[1];
+
 }
 
-async function fetchBibleBookFromAELF(id:string, chapters:number[], lang:string = 'FR', bibleID?:string):Promise<bibleBook>{
-  let req, text, book: bibleBook = [{id:id, human:id, human_long:id, chaptersList:[]}, []];
+async function fetchBibleBookFromAELF(id: string, chapters: number[], lang: string = 'FR', bibleID?: string): Promise<bibleBook> {
+  let req, text, book: bibleBook = [{ id: id, human: id, human_long: id, chaptersList: [] }, []];
 
   if (bibleID)
     book[0] = Bibles[lang][0].find(book => book[0].id === bibleID)[0];
 
-  for (let i = chapters[0]; i <= chapters[chapters.length-1]; i++) {
+  for (let i = chapters[0]; i <= chapters[chapters.length - 1]; i++) {
     book[1].push(await fetchChapter(i))
   }
-  async function fetchChapter(i:number):Promise<bibleVerse[]>{
+  async function fetchChapter(i: number): Promise<bibleVerse[]> {
     req = await fetch(encodeURI('https://www.aelf.org/bible/' + id + '/' + i.toString()));
 
     text = await req.text();
@@ -10568,18 +10568,18 @@ async function fetchBibleBookFromAELF(id:string, chapters:number[], lang:string 
       alert('No response, i = ' + i.toString());
       return []
     };
-    
+
     let html = new DOMParser().parseFromString(text, 'text/html');
 
     let parags = Array.from(html.querySelectorAll('p'))
       .filter(p => p.children[0].classList.contains('verse_number'));
 
-      
-      let chapter = [], verseNumber: string;
-      if (parags.length < 1) {
-        alert('parags.length <1');
-        return chapter
-      };
+
+    let chapter = [], verseNumber: string;
+    if (parags.length < 1) {
+      alert('parags.length <1');
+      return chapter
+    };
     parags
       .forEach(p => {
         verseNumber = (p.children[0] as HTMLSpanElement).innerText
@@ -10592,27 +10592,27 @@ async function fetchBibleBookFromAELF(id:string, chapters:number[], lang:string 
         if (parags.indexOf(p) < parags.length - 1)
           chapter.push(['\n']);
       });
-  return chapter
-  
+    return chapter
+
   }
 
   return book
 }
 
-function _fixReadingArray(array:string[][][]) {
-  
-  array.forEach(table =>{
+function _fixReadingArray(array: string[][][]) {
+
+  array.forEach(table => {
     if (table[0].length > 1)
       table[0] = [table[0][0]];
-  
+
     let refs = table.filter(row => row[0].startsWith(Prefix.readingRef));
     refs.forEach(row => row[0] = row[0].replaceAll(' ', '').replaceAll(')', '').replaceAll('(', ''));
     if (refs.length < 2) return;
     refs[0][0] =
       refs[0][0]
-    + refs
+      + refs
         .filter(row => refs.indexOf(row) > 0)
-        .map(row => "/" + row[0].split(':')[1] + ':' + row[0].split(':')[2]) 
+        .map(row => "/" + row[0].split(':')[1] + ':' + row[0].split(':')[2])
         .join('');
     refs
       .filter(row => refs.indexOf(row) > 0)
