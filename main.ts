@@ -255,7 +255,7 @@ async function showTitlesInRightSideBar(
     bookmark = document.createElement("a");
     titleDiv.appendChild(bookmark);
     bookmark.href = "#" + titleRow.id; //we add a link to the element having as id, the id of the prayer
-
+    
     titleDiv.addEventListener("click", () => {
       closeSideBar(rightSideBar); //when the user clicks on the div, the rightSideBar is closed
       collapseOrExpandText(titleRow, false); //We pass the 'toggleHidden' paramater = false in order to always show/uncollapse the sibligns
