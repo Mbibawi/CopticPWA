@@ -33,7 +33,7 @@ type bibleBookKeys = { id: string, human: string, human_long: string, chaptersLi
 
 //CONSTANTS
 const version: string =
-  "v6.8.2 (Added Next and Previous buttons to the Bible)";
+  "v6.8.3 (Added Next and Previous buttons to the Bible)";
 const calendarDay: number = 24 * 60 * 60 * 1000; //this is a day in milliseconds
 const containerDiv: HTMLDivElement = document.getElementById(
   "containerDiv") as HTMLDivElement;

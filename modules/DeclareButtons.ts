@@ -817,7 +817,7 @@ const btnMassUnBaptised = new Button({
               .forEach(titleDiv =>
                 titleDiv.classList.remove(hidden));
 
-            floatOnTop(btnsDiv, "5px");//Making the hours buttons container float on top
+            floatOnTopOrBottom(btnsDiv, true, "5px");//Making the hours buttons container float on top
 
             masterBtnDiv.classList.add(hidden); //Hiding the master button
 
@@ -3034,6 +3034,7 @@ const btnHolyWeek = new Button({
           });
           return btn
 
+
         });
         return booksButtons;
 
@@ -3081,7 +3082,7 @@ const btnHolyWeek = new Button({
 
           return chaptersButtons
 
-          function chapterBtnOnClick(bookID: string, chapterNumber: string) {
+          function chapterBtnOnClick(bookID: string, chapterNumber: string):boolean {
             let languages = [defaultLanguage];
             if (foreingLanguage) languages.push(foreingLanguage);
 
@@ -3091,7 +3092,6 @@ const btnHolyWeek = new Button({
               ],
             ];
 
-
             let retrievedText =
               languages.map(lang => {
                 let book = getBibleBooksList(lang).find(b => b.id === bookID);
@@ -3100,9 +3100,10 @@ const btnHolyWeek = new Button({
                   bible: Bibles[lang][0],
                   bookID: bookID,
                   chapterNumber: chapterNumber
-                })
+                }) ||''
               });
 
+            if (retrievedText.join() === '') return false;
 
             table.push(...matchPargraphsSplitting(retrievedText, languages, 0, 'NoActor'));
 
@@ -3118,34 +3119,36 @@ const btnHolyWeek = new Button({
             (function appendNextAndPrevBtns() {
               let btnsDiv = document.createElement('div');
               containerDiv.append(btnsDiv);
-              let books = getBibleBooksList(defaultLanguage),
-                book = books.find(b => b.id === bookID),
-                chapterList = book.chaptersList;
-          
+              let right = '⇒', left = '⇐';
+
               let next = new Button({
                 btnID: 'btnNext',
                 label: {
-                  AR: 'التالي',
-                  FR: 'Suivant',
-                  EN: 'Next',
+                  AR: right,
+                  FR: right,
+                  EN: right,
                 },
                 onClick: () =>  nextOnClick(true)
               });
 
               let prev = new Button({
-                btnID: 'btnNext',
+                btnID: 'btnPrev',
                 label: {
-                  AR: 'السابق',
-                  FR: 'Précédent',
-                  EN: 'Previous',
+                  AR: left,
+                  FR: left,
+                  EN: left,
                 },
 
                 onClick: () => nextOnClick(false)
 
               });
 
-              [next, prev]
-              .forEach(btn => {
+              if (defaultLanguage === 'AR') {
+                prev.onClick = ()=>nextOnClick(true);
+                next.onClick = ()=>nextOnClick(false)
+              }
+
+                [prev, next].forEach(btn => {
                 createHtmlBtn({
                   btn: btn,
                   btnsContainer: btnsDiv,
@@ -3154,26 +3157,29 @@ const btnHolyWeek = new Button({
               });
 
               btnsDiv.classList.add(inlineBtnsContainerClass);
-              floatOnTop(btnsDiv, "5pt");
+             // floatOnTopOrBottom(btnsDiv, false, "0px");
               btnsDiv.style.gridTemplateColumns = setGridColumnsOrRowsNumber(btnsDiv);
 
-          function nextOnClick(next: boolean) {
+              function nextOnClick(next: boolean, id:string = bookID) {
+                let books = getBibleBooksList(defaultLanguage),
+                book = books.find(b => b.id === id),
+                chaptersList = book.chaptersList;
 
-                (function ifNext() {
+                (function nextChapter() {
                   if (!next) return;
-                  if (chapterList.indexOf(chapterNumber) === chapterList.length - 1) {
+                  if (chaptersList.indexOf(chapterNumber) === chaptersList.length - 1) {
                     //We will move to the first chapter in the  next book
                       book = books[books.indexOf(book) + 1] || books[0];//If we have already reached the last book, we move the the first book
-                      chapterNumber = book.chaptersList[book.chaptersList.length - 1];
+                      chapterNumber = book.chaptersList[0];
                     return
                   }
                   chapterNumber = book.chaptersList[book.chaptersList.indexOf(chapterNumber) +1];
                   
                 })();
 
-                (function ifPrevious() {
+                (function previousChapter() {
                   if (next) return;
-                  if (chapterList.indexOf(chapterNumber) === 0) {
+                  if (chaptersList.indexOf(chapterNumber) === 0) {
                     //We will move to the last chapter in the previous book
                     book = books[books.indexOf(book) - 1] || books[books.length-1];//If we have already reached the first book, we move to the last book
                     chapterNumber = book.chaptersList[book.chaptersList.length - 1];
@@ -3183,7 +3189,9 @@ const btnHolyWeek = new Button({
 
                 })();
 
-                chapterBtnOnClick(book.id, chapterNumber);
+            //if (!Number(chapterNumber)) nextOnClick(next, book.id);
+            chapterBtnOnClick(book.id, chapterNumber);
+
                 bookMarks[0] = [book.id, chapterNumber];//We add the chapter to the bookMarks
                 localStorage.bookMarks = JSON.stringify(bookMarks);//We save the bookMarks to the local storage
               }
@@ -3191,6 +3199,7 @@ const btnHolyWeek = new Button({
             })();
 
             scrollToTop();
+            return true
 
             function getTitle(book: bibleBookKeys, lang: string, chapterNumber: string): string {
               if (!book) return '';
@@ -3265,14 +3274,16 @@ function adaptConcludingHymn(container: HTMLElement | DocumentFragment) {
 /**
  * Makes a buttons div container floating on the top of the page
  * @param {HTMLDivElement} btnContainer - the buttons div container we want to make float;
- * @param {string} top - the value of the btnConainer.style.top
+ * @param {boolean} top - true = top, false = bottom
+ * @param {string} value - the value of the floating
  */
-function floatOnTop(
+function floatOnTopOrBottom(
   btnContainer: HTMLDivElement,
-  top: string
+  top:boolean,
+  value: string,
 ) {
   btnContainer.style.position = "fixed";
-  btnContainer.style.top = top;
+  top? btnContainer.style.top = value :btnContainer.style.bottom = value;
   btnContainer.style.justifySelf = "center";
 };
 
@@ -4078,6 +4089,7 @@ function getBibleChapterText(args: { chapterNumber: string, book?: bibleBook, bi
   else return '';
 
   function joinVerses(verses: bibleVerse[]): string {
+    if (!verses) return;
     return verses.map(verse => getVerseText(verse)).join('')
   }
 }
@@ -4120,7 +4132,6 @@ function getBibleChapter(chapterNumber: string, book?: bibleBook, bible?: Bible,
   let index = book[0].chaptersList.indexOf(chapterNumber);
   if (book[0].chaptersList.length > book[1].length && !Number(book[0].chaptersList[0]))//It means that the first element of the list is the introduction while the chapters do not include the introduction.
     index -= 1;
-
   return book[1][index];//We only return verses whith a number in order to exclude verses numbered like "1a"
 }
 /**

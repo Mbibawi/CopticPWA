@@ -1,5 +1,5 @@
 //CONSTANTS
-const version = "v6.8.2 (Added Next and Previous buttons to the Bible)";
+const version = "v6.8.3 (Added Next and Previous buttons to the Bible)";
 const calendarDay = 24 * 60 * 60 * 1000; //this is a day in milliseconds
 const containerDiv = document.getElementById("containerDiv");
 const leftSideBar = document.getElementById("leftSideBar");
