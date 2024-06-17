@@ -33,7 +33,7 @@ type bibleBookKeys = { id: string, human: string, human_long: string, chaptersLi
 
 //CONSTANTS
 const version: string =
-  "v6.8.3 (Added Next and Previous buttons to the Bible)";
+  "v6.8.5 (Added Next and Previous buttons to the Bible)";
 const calendarDay: number = 24 * 60 * 60 * 1000; //this is a day in milliseconds
 const containerDiv: HTMLDivElement = document.getElementById(
   "containerDiv") as HTMLDivElement;
@@ -43,7 +43,7 @@ const sideBarBtnsContainer: HTMLDivElement =
 const rightSideBar = document.getElementById("rightSideBar") as HTMLDivElement;
 const sideBarTitlesContainer: HTMLDivElement =
   rightSideBar.querySelector("#sideBarBtns");
-const contentDiv: HTMLElement = document.getElementById("content");
+
 
 const toggleDevBtn = document.getElementById("toggleDev") as HTMLButtonElement;
 const expandableBtnsPannel: HTMLElement = document.getElementById(
@@ -375,28 +375,29 @@ const ReadingsArrays = {
 };
 const Seasons = {
   //Seasons are periods of more than 1 day, for which we have specific prayers (e.g.: cymbal verses, doxologies, praxis response, etc.)
-  StMaryFast: "StMFast", //stands for Saint Mary Feast
-  Nayrouz: "Nay", //Stands for Nayrouz from 1 Tout to 16 Tout
+  StMaryFast: "STMARY", //stands for Saint Mary Feast
+  Nayrouz: "NAY", //Stands for Nayrouz from 1 Tout to 16 Tout
   NativityFast: "NF", //(from 16 Hatour until 28 Kiahk included) stands for Nativity Fast
-  Kiahk: "Khk", //The whole month of Kiahk
-  KiahkWeek1: "Khk1", //1st Week of Kiahk
-  KiahkWeek2: "Khk2", //2nd Week of Kiahk
-  KiahkWeek3: "Khk3", //3rd Week of Kiahk
-  KiahkWeek4: "Khk4", //4th Week of Kiahk
+  Kiahk: "KHK", //The whole month of Kiahk
+  KiahkWeek1: "KHK1", //1st Week of Kiahk
+  KiahkWeek2: "KHK2", //2nd Week of Kiahk
+  KiahkWeek3: "KHK3", //3rd Week of Kiahk
+  KiahkWeek4: "KHK4", //4th Week of Kiahk
   NativityParamoun: "NP", //either 2804 before 3 PM or 26, 27 and 2804 if 2904 is a Monday, or 27 and 28 if 2904 is a Sunday
-  Nativity: "Nat", //from 28 Kiahk afternoon to 6 Toubi
+  Nativity: "NAT", //from 28 Kiahk afternoon to 6 Toubi
   BaptismParamoun: "BP", //If the Baptism Feast comes a Monday or a Sunday , the Baptism Paramoun is 3 or 2 days
-  Baptism: "Ba", //from 11 Toubi until 12 Toubi
+  Baptism: "BA", //from 11 Toubi until 12 Toubi
   GreatLent: "GL", // Stand for Great Lent
   HolyWeek: "HW", //Stands for Holy Week
-  PentecostalDays: "Pntl", //(from the Holy Saturday Afternoon, until the 7th Sunday)  Stands for Pentecostal Days
-  JonahFast: "JFast", //Stands for Jonah Feast
-  JonahFeast: "JFeast", //Stands for Jonah Feast
-  ApostlesFast: "Apost", //Stands for Apostles Feast
-  CrossFeast: "Cross", //Stands for Cross Feast
-  Rain: 'Rain', //between 12/10 and 09/02
-  Crops: 'Crops', //between 10/02 and 10/05
-  Harvest: 'Harvest', //between 11/05 and 11/10
+  PentecostalDays: "PNT", //(from the Holy Saturday Afternoon, until the 7th Sunday)  Stands for Pentecostal Days
+  Ascension: 'AS', //From Ascenssion feast to the Pentecoste Feast
+  ApostlesFast: "APOST", //Stands for Apostles Feast
+  JonahFast: "JFAST", //Stands for Jonah Feast
+  JonahFeast: "JFEAST", //Stands for Jonah Feast
+  CrossFeast: "CRO", //Stands for Cross Feast
+  Rain: 'RAIN', //between 12/10 and 09/02
+  Crops: 'CROP', //between 10/02 and 10/05
+  Harvest: 'HARV', //between 11/05 and 11/10
   NoSeason: "NoSpecificSeason",
 };
 Object.freeze(Seasons);
@@ -426,8 +427,8 @@ const copticFeasts = {
   HolySaturday: Seasons.GreatLent + "57",
   Resurrection: Seasons.GreatLent + "9thSunday",
   ThomasSunday: Seasons.PentecostalDays + "1stSunday",
-  Ascension: Seasons.PentecostalDays + "7thSunday",
-  Pentecoste: Seasons.PentecostalDays + "39",
+  Ascension: Seasons.PentecostalDays + "39",
+  Pentecoste: Seasons.Ascension + "7thSunday",
   Apostles: "0511",
   StMaryFastVespers: "3010",
   StMaryFast: "0112",

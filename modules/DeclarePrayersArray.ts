@@ -2003,7 +2003,7 @@ PrayersArrayFR= [[
   "", 
   "Doxologie Wates pour la Vierge Marie", 
   "", 
-  "ذكصولوجية العَذْراءْ باكر (واطس)", 
+  "ذُكْصُولُوجِيَّة العَذْراءْ باكر (واطس)", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -2082,7 +2082,7 @@ PrayersArrayFR= [[
   "", 
   "Doxologie Wates pour la Vierge Marie Vêpres", 
   "", 
-  " ذكصولوجية العَذْراءْ عشية (واطس)", 
+  " ذُكْصُولُوجِيَّة العَذْراءْ عشية (واطس)", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -2210,7 +2210,7 @@ PrayersArrayFR= [[
   "", 
   "Ô Lumière véritable", 
   "", 
-  "ذكصولوجية باكر لرَبّي يَسُوعْ", 
+  "ذُكْصُولُوجِيَّة باكر لرَبّي يَسُوعْ", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -2371,7 +2371,7 @@ PrayersArrayFR= [[
   "", 
   "Ô Mère de la Lumière", 
   "", 
-  "ذكصولوجية باكر لِأَجْلِ السَيِّدَةْ العَذْراءْ", 
+  "ذُكْصُولُوجِيَّة باكر لِأَجْلِ السَيِّدَةْ العَذْراءْ", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -2406,7 +2406,7 @@ PrayersArrayFR= [[
   "", 
   "L'encens sélectionné de ta virginité", 
   "", 
-  "ذكصولوجية باكر لِأَجْلِ السَيِّدَةْ العَذْراءْ", 
+  "ذُكْصُولُوجِيَّة باكر لِأَجْلِ السَيِّدَةْ العَذْراءْ", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -2469,7 +2469,7 @@ PrayersArrayFR= [[
   "", 
   "Doxologie aube pour les anges", 
   "", 
-  "ذكصولوجية باكر لِأَجْلِ المَلائِكَةِ", 
+  "ذُكْصُولُوجِيَّة باكر لِأَجْلِ المَلائِكَةِ", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -2504,7 +2504,7 @@ PrayersArrayFR= [[
   "", 
   "Doxologie aube pour les apôtres", 
   "", 
-  "ذكصولوجية باكر لِأَجْلِ الآبَاءْ الرُسُلْ", 
+  "ذُكْصُولُوجِيَّة باكر لِأَجْلِ الآبَاءْ الرُسُلْ", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -2532,7 +2532,7 @@ PrayersArrayFR= [[
   "", 
   "Doxologie aube pour les martyrs", 
   "", 
-  "ذكصولوجية باكر لِأَجْلِ الشهداء", 
+  "ذُكْصُولُوجِيَّة باكر لِأَجْلِ الشهداء", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -2588,7 +2588,7 @@ PrayersArrayFR= [[
   "", 
   "Doxologie aube pour les prohètes et les patriarches", 
   "", 
-  "ذكصولوجية من أجل الآباء و الأنبياء", 
+  "ذُكْصُولُوجِيَّة من أجل الآباء و الأنبياء", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -2785,7 +2785,7 @@ PrayersArrayFR= [[
   "", 
   "Doxologie pour Saint Michel", 
   "", 
-  " ذكصولوجية المَلاكْ ميخائيل", 
+  " ذُكْصُولُوجِيَّة المَلاكْ ميخائيل", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -2836,7 +2836,7 @@ PrayersArrayFR= [[
   "", 
   "Doxology des creatures célestes", 
   "", 
-  " ذكصولوجية جَمِيعْ السمائيين", 
+  " ذُكْصُولُوجِيَّة جَمِيعْ السمائيين", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -2915,7 +2915,7 @@ PrayersArrayFR= [[
   "", 
   "Doxologie des Apôtres", 
   "", 
-  " ذكصولوجية الرسل", 
+  " ذُكْصُولُوجِيَّة الرسل", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -2966,7 +2966,7 @@ PrayersArrayFR= [[
   "", 
   "Doxologie de Saint Marc", 
   "", 
-  " ذكصولوجية مرقس الرسول", 
+  " ذُكْصُولُوجِيَّة مرقس الرسول", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -3017,7 +3017,7 @@ PrayersArrayFR= [[
   "", 
   "Doxologie de Saint George", 
   "", 
-  " ذكصولوجية مار جرجس", 
+  " ذُكْصُولُوجِيَّة مار جرجس", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -3068,7 +3068,7 @@ PrayersArrayFR= [[
   "", 
   "Doxologie de Saint Mina", 
   "", 
-  " ذكصولوجية مار مينا", 
+  " ذُكْصُولُوجِيَّة مار مينا", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -4210,11 +4210,11 @@ PrayersArrayFR= [[
   ],
   [
   [
-  Prefix.commonPrayer+"ConcludingHymn&D=$Seasons.PentecostalDays&C=Assembly", 
+  Prefix.commonPrayer+"ConcludingHymn&D=$Seasons.PentecostalDays||$Seasons.Ascension&C=Assembly", 
   "Ⲁϥⲧⲱⲛϥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲛⲏⲉⲑⲙⲱⲟⲩⲧ ϧⲉⲛ ⲡⲓⲉ̀ϩⲟⲟⲩ. Ⲙⲁⲣⲉ ⲡⲉⲕⲛⲁⲓ ⲛⲉⲙ ⲧⲉⲕϩⲓⲣⲏⲛⲏ ⲟⲓ ⲛ̀ⲥⲟⲃⲧ ⲙ̀ⲡⲉⲕⲗⲁⲟⲥ: Ⲥⲱϯ ⲙ̀ⲙⲟⲛ ⲟⲩⲟϩ ⲛⲁⲓ ⲛⲁⲛ:", 
   "le roi de gloire est résuscité le troisième jour. Que Ta miséricorde et Ta paix soient un rampart pour Ton peuple. Sauve-nous et aie pitié de nous.", 
   "إبؤورو إنتي إبؤ أو آفطونف إيفول خين نيئثُمَّوؤت. ماري بيك ناي نيم تيك هيريني أوي إنسوتب إمبيلاؤس، سوتي إممون أووه ناي نان.", 
-  "ملَكَ المَجْدُ قام من بين الأموات. فلتكن رَحْمَتُكَ وسَلامُكَ حِصْنَاً لِشَعْبِكَ خلصنا وإرحمنا.", 
+  "ملَكَ المَجْدُ قام مِنْ بَيْنِ الأموات. فلتكن رَحْمَتُكَ وسَلامُكَ حِصْنَاً لِشَعْبِكَ خلصنا وإرحمنا.", 
   ],
   ],
   [
@@ -4787,7 +4787,7 @@ PrayersArrayFR= [[
   ],
   [
   [
-  Prefix.massCommon+"IntercessionsStsJoseph.Nikodimos&D=$Seasons.PentecostalDays||$copticFeasts.Coptic29th&C=Title", 
+  Prefix.massCommon+"IntercessionsStsJoseph.Nikodimos&D=$Seasons.PentecostalDays||$Seasons.Ascension|| $copticFeasts.Coptic29th&C=Title", 
   "", 
   "St Joseph et St Nikodimos", 
   "", 
@@ -4835,7 +4835,7 @@ PrayersArrayFR= [[
   ],
   [
   [
-  Prefix.massCommon+"IntercessionsStMaykel&D=$Seasons.PentecostalDays&C=Title", 
+  Prefix.massCommon+"IntercessionsStMaykel&D=$Seasons.PentecostalDays||$Seasons.Ascension&C=Title", 
   "", 
   "l'Archange Michel", 
   "", 
@@ -6577,7 +6577,7 @@ PrayersArrayFR= [[
   "Ⲁ̅ⲗ ⲁ̅ⲗ: Ⲓⲏ̅̅ⲥ̅ Ⲡⲭ̅ⲥ̅ ⲡ̀ϣⲏⲣⲓ ⲙ̀Ⲫϯ: ⲁϥϭⲓⲥⲁⲣⲝ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ϯⲡⲁⲣⲑⲉⲛⲟⲥ ⲟⲩⲟϩ ⲁⲩⲙⲁⲥϥ ϧⲉⲛ Ⲃⲏⲉⲑⲗⲉⲉⲙ ⲕⲁⲧⲁ ⲛⲓⲥ̀ⲙⲏ ⲙ̀ⲡ̀ⲣⲟⲫⲏⲧⲓⲕⲟⲛ: ⲁϥⲧⲱⲛϥ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲏⲉⲑⲙⲱⲟⲩⲧ ϧⲉⲛ ⲡⲓⲉ̀ϩⲟⲟⲩ ⲙ̀ⲙⲁϩ ϣⲟⲙⲧ: ⲁ̅ⲗ ⲁ̅ⲗ", 
   "Alléluia, Alléluia, Jésus- Christ le Fils de Dieu s’est incarné de la Vierge. Et Il est né à Béthleem, selon les paroles prophétiques. Il est ressuscité d’entre les morts, le troisième jour. Alléluia, Alléluia", 
   "الليلويا الليلويا ايسوس باخرستوس ابشيري إم افنوتي آفتشي ساركس إفول خين تي بارثينوس أووه آفماسف خين باثليئيم كاتا ني اثُمَّي إم ابروفيتيكون آفتونف إفول خين ني اثُمَّؤوت خين بي إيهؤو إمماه شومت. االليلويا الليلويا", 
-  "هَلِّليلُويا هَلِّليلُويا يَسُوعْ المَسِيحْ ابن اللّه، تَجَسَّدَ من العَذْراءْ وولد في بيت لحم اليهودية كالأصوات النبوية وقام من بين الأموات، في اليَوْمَ الثالث. هَلِّليلُويا هَلِّليلُويا", 
+  "هَلِّليلُويا هَلِّليلُويا يَسُوعْ المَسِيحْ ابن اللّه، تَجَسَّدَ من العَذْراءْ وولد في بيت لحم اليهودية كالأصوات النبوية وقام مِنْ بَيْنِ الأموات، في اليَوْمَ الثالث. هَلِّليلُويا هَلِّليلُويا", 
   ],
   ],
   [
@@ -6689,12 +6689,12 @@ PrayersArrayFR= [[
   "Ⲁⲗ̅ Ⲁⲗ̅: Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ ⲡ̀ⲟⲩⲣⲟ ⲛ̀ⲧⲉ ⲡ̀ⲱⲟⲩ: ⲁϥⲧⲱⲛϥ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲏⲉⲑⲙⲱⲟⲩⲧ: ϧⲉⲛ ⲡⲓⲉ̀ϩⲟⲟⲩ ⲙ̀ⲙⲁϩϣⲟⲙⲧ: Ⲁⲗ̅ Ⲁⲗ̅.", 
   "Alléluia Alléluia, Jésus Christ, Roi de gloire est ressuscité des morts le troisième jour, Alléluia, Alléluia", 
   "الليلويا الليلويا ايسوس باخرستوس إنتي إبؤو آفتونف إفول خيني إثُمَّوؤت، خين بي إهؤو إمماشومت. االليلويا الليلويا", 
-  "هَلِّليلُويا هَلِّليلُويا، يَسُوعْ المَسِيحْ ملَكَ المَجْدُ قام من بين الأموات في اليَوْمَ الثالث. هَلِّليلُويا هَلِّليلُويا.", 
+  "هَلِّليلُويا هَلِّليلُويا، يَسُوعْ المَسِيحْ ملَكَ المَجْدُ قام مِنْ بَيْنِ الأموات في اليَوْمَ الثالث. هَلِّليلُويا هَلِّليلُويا.", 
   ],
   ],
   [
   [
-  Prefix.psalmResponse+"&D=$copticFeasts.Ascension&C=Title", 
+  Prefix.psalmResponse+"&D=$Seasons.Ascension&C=Title", 
   "", 
   "Réponse du Psaume Fête de l’Ascension", 
   "", 
@@ -7284,14 +7284,14 @@ PrayersArrayFR= [[
   "Ⲭⲟ̀ⲩⲁⲃ Ⲡⲟ̅ⲥ̅ ⲟⲩⲟϩ ⲕ̀ⲥ̀ⲙⲁⲣⲱⲟ̀ⲩⲧ: ⲁⲕϭⲓ ⲙ̀ⲕⲁϩ ⲟⲩⲟϩ ⲙ̀ⲡⲉⲕⲅⲱⲛⲧ: ⲁⲕⲧⲱⲛⲕ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲏⲉ̀ⲑⲙⲱⲟ̀ⲩⲧ: ϧⲉⲛ ⲡⲓⲉ̀ϩⲟⲟ̀ⲩ ⲙ̀ⲙⲁϩϣⲟⲙⲧ.", 
   "Saint es-tu Seigneur et Bénis car tu as souffert et tu ne t’es pas mis en colère tu es venu d’entre les morts le troisième jour.", 
   "", 
-  "قُدُّوسْ أنْتَ يا رَبُّ ومبارك، لأنَّكَ تألمت ولم تغضب، وقمت من بين الأموات، في اليَوْمَ الثالث.", 
+  "قُدُّوسْ أنْتَ يا رَبُّ ومبارك، لأنَّكَ تألمت ولم تغضب، وقمت مِنْ بَيْنِ الأموات، في اليَوْمَ الثالث.", 
   ],
   [
   Prefix.same+"&C=Diacon", 
   "Ⲁⲗ̅ Ⲁⲗ̅: Ⲁⲗ̅ Ⲁⲗ̅: Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ ⲡ̀ⲟⲩⲣⲟ ⲛ̀ⲧⲉ ⲡ̀ⲱⲟⲩ: ⲁϥⲧⲱⲛϥ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲏⲉⲑⲙⲱⲟⲩⲧ.", 
   "Alléluia Alléluia Alléluia Alléluia Jésus Christ Roi de gloire est ressuscité d’entre les morts.", 
   "", 
-  "هَلِّليلُويا هَلِّليلُويا هَلِّليلُويا هَلِّليلُويا. يَسُوعْ المَسِيحْ ملَكَ المَجْدُ قام من بين الأموات.", 
+  "هَلِّليلُويا هَلِّليلُويا هَلِّليلُويا هَلِّليلُويا. يَسُوعْ المَسِيحْ ملَكَ المَجْدُ قام مِنْ بَيْنِ الأموات.", 
   ],
   [
   Prefix.placeHolder, 
@@ -7300,7 +7300,7 @@ PrayersArrayFR= [[
   ],
   [
   [
-  Prefix.gospelResponse+"&D=$copticFeasts.Ascension&C=Title", 
+  Prefix.gospelResponse+"&D=$Seasons.Ascension&C=Title", 
   "", 
   "Réponse de l’Évangile de la Fête de l’Ascension", 
   "", 
@@ -7410,7 +7410,7 @@ PrayersArrayFR= [[
   "Ⲟⲩⲟϩ ⲁⲩⲙⲁⲥϥ ϧⲉⲛ Ⲃⲏⲉⲑⲗⲉⲉⲙ ⲕⲁⲧⲁ ⲛⲓⲥ̀ⲙⲏ ⲙ̀ⲡ̀ⲣⲟⲫⲏⲧⲓⲕⲟⲛ: ⲁϥⲧⲱⲛϥ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲏⲉⲑⲙⲱⲟⲩⲧ ϧⲉⲛ ⲡⲓⲉ̀ϩⲟⲟⲩ ⲙ̀ⲙⲁϩ ϣⲟⲙⲧ.", 
   "Et Il est né à Béthleem, selon les paroles prophétiques. Il est ressuscité d’entre les morts, le troisième jour.", 
   "", 
-  "وولد في بيت لحم اليهودية كالأصوات النبويه وقام من بين الأموات، في اليَوْمَ الثالث", 
+  "وولد في بيت لحم اليهودية كالأصوات النبويه وقام مِنْ بَيْنِ الأموات، في اليَوْمَ الثالث", 
   ],
   [
   Prefix.placeHolder, 
@@ -11971,7 +11971,7 @@ PrayersArrayFR= [[
   ],
   [
   [
-  Prefix.fractionPrayer+"&D=$Seasons.PentecostalDays&C=Title", 
+  Prefix.fractionPrayer+"&D=$Seasons.PentecostalDays||$Seasons.Ascension&C=Title", 
   "", 
   "Prière au Fils pour la fête de la Résurrection\n(Ô Christ notre Dieu, Grand Prêtre des grâces à venir)", 
   "", 
@@ -12029,7 +12029,7 @@ PrayersArrayFR= [[
   ],
   [
   [
-  Prefix.fractionPrayer+"&D=$copticFeasts.Resurrection||$Seasons.PentecostalDays&C=Title", 
+  Prefix.fractionPrayer+"&D=$Seasons.PentecostalDays||$Seasons.Ascension&C=Title", 
   "", 
   "Oraison de fraction pour la Résurrection et les 50 jours pascaux\n(Ô Maitre Seigneur, Dieu Le Pantocrator, Le Père de notre Seigneur)", 
   "", 
@@ -12047,7 +12047,7 @@ PrayersArrayFR= [[
   "Ⲁϥⲟ̀ⲙⲥⲉⲛ ⲛⲉⲙⲁϥ: ϧⲉⲛ ⲡⲉϥⲙⲟⲩ ⲁϥⲕⲱⲣϥ ⲙ̀ⲡⲓⲁ̀ⲙⲁϩⲓ ⲙ̀ⲫ̀ⲙⲟⲩ: ⲟⲩⲟϩ ϧⲉⲛ ⲡⲓⲙⲁϩϣⲟⲙⲧ ⲛ̀ⲉ̀ϩⲟⲟⲩ ⲁϥⲧⲱⲛϥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲛⲑⲉⲙ̀ⲱⲟⲩⲧ.", 
   "Il nous a enterré avec Lui. Par Sa mort Il a vaincu le pouvoir de la mort et le troisième jour Il est ressuscité d’entre les morts.", 
   "", 
-  "ودفننا مَعَه، بموته أبطل عز الموت، وفي ثالث يوم قام من بين الأموات.", 
+  "ودفننا مَعَه، بموته أبطل عز الموت، وفي ثالث يوم قام مِنْ بَيْنِ الأموات.", 
   ],
   [
   Prefix.same+"&C=Priest", 
@@ -12061,7 +12061,7 @@ PrayersArrayFR= [[
   "Ⲡⲓⲁⲣⲭⲑⲁⲅⲅⲉⲗⲟⲥ ⲁϥⲓ̀ ⲉ̀ⲡⲉⲥⲑⲧ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲧ̀ⲫⲉ: ⲁϥⲥ̀ⲕⲉⲣⲕⲉⲣ ⲙ̀ⲡⲓⲱ̀ⲛⲓ ⲉ̀ⲃⲟⲗ ϩⲓ ⲣⲱϥ ⲙ̀ⲡⲓⲙ̀ϩⲁⲩ ⲁϥϩⲓϣⲉⲛⲛⲟⲩϥⲓ ⲛ̀ⲛⲓϩⲓⲟⲙⲓ ⲙ̀ϥⲁⲓⲥⲟϫⲉⲛ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ.", 
   "L’archange descendit du ciel, fit rouler la pierre de l’entrée du tombeau et proclama les bonnes nouvelles aux femmes portant les aromates en leur disant:\"Le Christ est ressuscité des morts\".", 
   "", 
-  "رئيس المَلائِكَةْ نزل مِنَ السَّمَاء، ودحرج الحجر عَنْ فم القبر وبشر النسوة حاملات الطيب قائلا:\"المَسِيحْ قام من بين الأموات\"", 
+  "رئيس المَلائِكَةْ نزل مِنَ السَّمَاء، ودحرج الحجر عَنْ فم القبر وبشر النسوة حاملات الطيب قائلا:\"المَسِيحْ قام مِنْ بَيْنِ الأموات\"", 
   ],
   [
   Prefix.same+"&C=Priest", 
@@ -12568,7 +12568,7 @@ PrayersArrayFR= [[
   "Ⲟⲩⲟϩ Ⲉ̀ⲗⲓⲥⲁⲃⲉⲧ ⲁⲥⲉ̀ⲗⲑⲗ ⲉⲥϫⲱ ⲙ̀ⲙⲟⲥ ϫⲉ: ϥ̀ⲥ̀ⲙⲁⲣⲱⲟⲩⲧ ⲛ̀ϫⲉ Ⲡ̀ϭⲟⲓⲥ Ⲫ̀ⲛⲟⲩϯ ⲫⲑⲉ̀ⲧⲁϥⲱ̀ⲗⲓ ⲙ̀ⲡⲁϣⲱϣ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲛⲓⲣⲱⲙⲓ.", 
   "", 
   "", 
-  "وتهللت أليصابات قائلة: \"مُبارك الرَبّ الإلَهَ الذي نزع عاري من بين الناس.\"", 
+  "وتهللت أليصابات قائلة: \"مُبارك الرَبّ الإلَهَ الذي نزع عاري مِنْ بَيْنِ الناس.\"", 
   ],
   [
   Prefix.same+"&C=Priest", 
@@ -12990,7 +12990,7 @@ PrayersArrayFR= [[
   "", 
   "", 
   "", 
-  "اَللَّهُمَّ يا من وكُلَّ تَلامِيذَهُ القِدِّيسِينْ ورُسُلَهُ الأطهار أنْ يقيموا من بين المؤمنين أساقفة وكهنة وشمامسة لخدمة إنجيل الملكوت ورعاية قطيع المَسِيحْ وتدبير كنيسته المُقَدَّسْة.", 
+  "اَللَّهُمَّ يا من وكُلَّ تَلامِيذَهُ القِدِّيسِينْ ورُسُلَهُ الأطهار أنْ يقيموا مِنْ بَيْنِ المؤمنين أساقفة وكهنة وشمامسة لخدمة إنجيل الملكوت ورعاية قطيع المَسِيحْ وتدبير كنيسته المُقَدَّسْة.", 
   ],
   [
   Prefix.same+"&C=Priest", 
@@ -13408,21 +13408,21 @@ PrayersArrayFR= [[
   "", 
   "", 
   "", 
-  "يا كلمة الإلَهَ بمحبتك للبشر رفعت الخَطَايَا والآثام أنْتَ الغير خاطئ وحدك، صيرت ذاتك خطية لأجلنا، ولكنك دست الخطية والموت بقيامتك من بين الأموات. لَكَ السَّمَواتْ والأرض وكُلَّ ملئها.", 
+  "يا كلمة الإلَهَ بمحبتك للبشر رفعت الخَطَايَا والآثام أنْتَ الغير خاطئ وحدك، صيرت ذاتك خطية لأجلنا، ولكنك دست الخطية والموت بقيامتك مِنْ بَيْنِ الأموات. لَكَ السَّمَواتْ والأرض وكُلَّ ملئها.", 
   ],
   [
   Prefix.same+"&C=Priest", 
   "", 
   "", 
   "", 
-  "الأرضيون والسمائيون صاروا اليَوْمَ واحدا في التسبيح بقيامتك لِأنَّهُ قَدّْ صَارَ فرح في المسكونه من أجل أنْ الإلَهَ صَارَ مَعَ الَبشَرْ ومن بعد تأنسه أظهر مجد لاهوته بقيامته من بين الأموات.", 
+  "الأرضيون والسمائيون صاروا اليَوْمَ واحدا في التسبيح بقيامتك لِأنَّهُ قَدّْ صَارَ فرح في المسكونه من أجل أنْ الإلَهَ صَارَ مَعَ الَبشَرْ ومن بعد تأنسه أظهر مجد لاهوته بقيامته مِنْ بَيْنِ الأموات.", 
   ],
   [
   Prefix.same+"&C=Priest", 
   "", 
   "", 
   "", 
-  "فنحن أًيّْضَاً يا سَيِّدنْا نُؤمِنْ برَبّوبيتك ونعترف بتجسدك وتأنسك وقيامتك من بين الأموات.", 
+  "فنحن أًيّْضَاً يا سَيِّدنْا نُؤمِنْ برَبّوبيتك ونعترف بتجسدك وتأنسك وقيامتك مِنْ بَيْنِ الأموات.", 
   ],
   [
   Prefix.same+"&C=Priest", 
@@ -14121,7 +14121,7 @@ PrayersArrayFR= [[
   ],
   [
   [
-  Prefix.cymbalVerses+"&D=$Seasons.PentecostalDays&C=Title", 
+  Prefix.cymbalVerses+"&D=$Seasons.PentecostalDays||$Seasons.Ascension&C=Title", 
   "", 
   "Quatrins du carillon pour la fête de la Résurrection", 
   "", 
@@ -14139,7 +14139,7 @@ PrayersArrayFR= [[
   "Ⲭⲉⲣⲉ Ⲧⲉϥⲁ̀ⲛⲁⲥⲧⲁⲥⲓⲥ: ⲉ̀ⲧⲁϥⲧⲱⲛϥ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲏⲉⲑⲙⲱⲟⲩⲧ: ϣⲁⲛ̀ⲧⲉϥⲥⲱϯ ⲙ̀ⲙⲟⲛ: ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲉⲛⲛⲟⲃⲓ.", 
   "Salut à sa Résurrection♫ d’entre les morts♫ pour nous sauver♫ de nos péchés.", 
   "", 
-  "السَّلامُ لقيامته♫ لما قام من بين الأموات♫ حتى خلصنا من خَطَايَانَا.", 
+  "السَّلامُ لقيامته♫ لما قام مِنْ بَيْنِ الأموات♫ حتى خلصنا من خَطَايَانَا.", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -14173,7 +14173,7 @@ PrayersArrayFR= [[
   "Ⲁ Ⲡ̀Ϯⲭ̅ⲥ̅ Ⲡⲉⲛⲛⲟⲩϯ: ⲧⲱⲛϥ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲏⲉⲑⲙⲱⲟⲩⲧ: ⲟⲩⲟϩ ⲁϥϣⲉⲛⲁϥ ⲉ̀ⲡ̀ϣⲱⲓ ⲉ̀ⲛⲓⲫⲏⲟⲩⲓ: ⲁϥϩⲉⲙⲥⲓ ⲥⲁⲟⲩⲓⲛⲁⲙ ⲙ̀Ⲡⲉϥⲓⲱⲧ", 
   "Le Christ notre Dieu est ressuscité♫ des morts et est monté aux cieux♫ et S’est assis♫ à la droite de Son Père.", 
   "", 
-  "المَسِيحْ إلَهْنَا قام من بين الأموات♫ وصعد إلى السَّمَواتْ♫ وجلس عَنْ يمين أبيه.", 
+  "المَسِيحْ إلَهْنَا قام مِنْ بَيْنِ الأموات♫ وصعد إلى السَّمَواتْ♫ وجلس عَنْ يمين أبيه.", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -14203,7 +14203,7 @@ PrayersArrayFR= [[
   "Ⲁ Ⲡ̀Ϯⲭ̅ⲥ̅ Ⲡⲉⲛⲛⲟⲩϯ: ⲧⲱⲛϥ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲏⲉⲑⲙⲱⲟⲩⲧ: ⲟⲩⲟϩ ⲁϥϣⲉⲛⲁϥ ⲉ̀ⲡ̀ϣⲱⲓ ⲉ̀ⲛⲓⲫⲏⲟⲩⲓ: ⲁϥⲟⲩⲱⲣⲡ ⲛⲁⲛ ⲙ̀ⲡⲓⲡⲁⲣⲁⲕⲗⲏⲧⲟⲛ", 
   "Le Christ notre Dieu♫ est ressuscité des morts♫ et est monté aux cieux♫ et nous a envoyé le Consolateur.", 
   "", 
-  "المَسِيحْ إلهنا♫ قام من بين الأموات♫ وصعد إلى السَّمَواتْ وأرسل لنا المعزي.", 
+  "المَسِيحْ إلهنا♫ قام مِنْ بَيْنِ الأموات♫ وصعد إلى السَّمَواتْ وأرسل لنا المعزي.", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -14284,7 +14284,7 @@ PrayersArrayFR= [[
   ],
   [
   Prefix.placeHolder, 
-  Prefix.cymbalVerses+"&D=$Seasons.PentecostalDays", 
+  Prefix.cymbalVerses+"&D=$Seasons.PentecostalDays||$Seasons.Ascension", 
   ],
   [
   Prefix.placeHolder, 
@@ -14369,7 +14369,7 @@ PrayersArrayFR= [[
   "", 
   "", 
   "", 
-  " ذكصولوجية عيد النيروز", 
+  " ذُكْصُولُوجِيَّة عيد النيروز", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -14434,7 +14434,7 @@ PrayersArrayFR= [[
   "", 
   "Doxologie pour la Fête de la Croix", 
   "", 
-  " ذكصولوجية عيد الصليب", 
+  " ذُكْصُولُوجِيَّة عيد الصليب", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -14598,7 +14598,7 @@ PrayersArrayFR= [[
   "", 
   "1ère Doxologie pour Kiahk", 
   "", 
-  "ذكصولوجية كيهك", 
+  "ذُكْصُولُوجِيَّة كيهك", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -14691,7 +14691,7 @@ PrayersArrayFR= [[
   "", 
   "2ème Doxologie pour Kiahk", 
   "", 
-  "ذكصولوجية ثانية لكيهك", 
+  "ذُكْصُولُوجِيَّة ثانية لكيهك", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -14756,7 +14756,7 @@ PrayersArrayFR= [[
   "", 
   "3ème Doxologie pour Kiahk", 
   "", 
-  "ذكصولوجية ثالثة كيهك", 
+  "ذُكْصُولُوجِيَّة ثالثة كيهك", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -14849,7 +14849,7 @@ PrayersArrayFR= [[
   "", 
   "4ème Doxologie pour Kiahk", 
   "", 
-  " ذكصولوجية رابعة لكيهك", 
+  " ذُكْصُولُوجِيَّة رابعة لكيهك", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -14900,7 +14900,7 @@ PrayersArrayFR= [[
   "", 
   "5ème Doxologie pour Kiahk", 
   "", 
-  " ذكصولوجية خامسة كيهك", 
+  " ذُكْصُولُوجِيَّة خامسة كيهك", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -14979,7 +14979,7 @@ PrayersArrayFR= [[
   "", 
   "6ème Doxologie pour Kiahk", 
   "", 
-  " ذكصولوجية سادسة كيهك", 
+  " ذُكْصُولُوجِيَّة سادسة كيهك", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -15030,7 +15030,7 @@ PrayersArrayFR= [[
   "", 
   "", 
   "", 
-  " ذكصولوجية برامون الميلاد", 
+  " ذُكْصُولُوجِيَّة برامون الميلاد", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -15126,7 +15126,7 @@ PrayersArrayFR= [[
   "", 
   "1ère Doxologie pour la Nativité", 
   "", 
-  " ذكصولوجية للميلاد", 
+  " ذُكْصُولُوجِيَّة للميلاد", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -15202,7 +15202,7 @@ PrayersArrayFR= [[
   "", 
   "2ème Doxologie pour la Nativité", 
   "", 
-  " ذكصولوجية ثانية للميلاد", 
+  " ذُكْصُولُوجِيَّة ثانية للميلاد", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -15239,7 +15239,7 @@ PrayersArrayFR= [[
   "", 
   "3ème Doxologie pour la Nativité", 
   "", 
-  " ذكصولوجية ثالثة للميلاد", 
+  " ذُكْصُولُوجِيَّة ثالثة للميلاد", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -15352,7 +15352,7 @@ PrayersArrayFR= [[
   "", 
   "Doxologie pour la fête de la circoncision", 
   "", 
-  " ذكصولوجية عيد الختان", 
+  " ذُكْصُولُوجِيَّة عيد الختان", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -15421,7 +15421,7 @@ PrayersArrayFR= [[
   "", 
   "Doxologie du paramoun de l’Épiphanie", 
   "", 
-  " ذكصولوجية برمون الغطاس", 
+  " ذُكْصُولُوجِيَّة برمون الغطاس", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -15499,7 +15499,7 @@ PrayersArrayFR= [[
   "", 
   "Doxologie pour la fête de l’Épiphanie", 
   "", 
-  " ذكصولوجية عيد الغطاس", 
+  " ذُكْصُولُوجِيَّة عيد الغطاس", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -15589,7 +15589,7 @@ PrayersArrayFR= [[
   "", 
   "Deuxième Doxologie pour la fête de l’Épiphanie", 
   "", 
-  " ذكصولوجية ثانية لعيد الغطاس", 
+  " ذُكْصُولُوجِيَّة ثانية لعيد الغطاس", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -15693,7 +15693,7 @@ PrayersArrayFR= [[
   "", 
   "Doxologie pour la fête des Noces de Cana en Galilée", 
   "", 
-  " ذكصولوجية عُرْسِ قَانَا الجليل", 
+  " ذُكْصُولُوجِيَّة عُرْسِ قَانَا الجليل", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -15744,7 +15744,7 @@ PrayersArrayFR= [[
   "", 
   "Doxologie pour la fête de la présentation du Christ au Temple", 
   "", 
-  " ذكصولوجية دخول المَسِيحْ الهَيْكَلْ", 
+  " ذُكْصُولُوجِيَّة دخول المَسِيحْ الهَيْكَلْ", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -15795,7 +15795,7 @@ PrayersArrayFR= [[
   "", 
   "Doxologie pour le jeûne de Ninive", 
   "", 
-  " ذكصولوجية صوم يونان", 
+  " ذُكْصُولُوجِيَّة صوم يونان", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -15860,7 +15860,7 @@ PrayersArrayFR= [[
   "", 
   "Doxologie pour le Grand Carême (les Samedis et dimanches)", 
   "", 
-  " ذكصولوجية آحاد وسبوت الصوم الكبير", 
+  " ذُكْصُولُوجِيَّة آحاد وسبوت الصوم الكبير", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -15995,7 +15995,7 @@ PrayersArrayFR= [[
   "", 
   "Doxologie pour le Grand Carême (tous les jours de la semaine sauf samedi et dimanche)", 
   "", 
-  " ذكصولوجية الصوم الكبير", 
+  " ذُكْصُولُوجِيَّة الصوم الكبير", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -16046,7 +16046,7 @@ PrayersArrayFR= [[
   "", 
   "Deuxième doxologie pour le Grand Carême", 
   "", 
-  " ذكصولوجية ثانية للصوم الكبير", 
+  " ذُكْصُولُوجِيَّة ثانية للصوم الكبير", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -16167,7 +16167,7 @@ PrayersArrayFR= [[
   "", 
   "Troisième doxologie pour le Grand Carême", 
   "", 
-  " ذكصولوجية ثالثة للصوم الكبير", 
+  " ذُكْصُولُوجِيَّة ثالثة للصوم الكبير", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -16232,7 +16232,7 @@ PrayersArrayFR= [[
   "", 
   "Quatrième doxologie pour le Grand Carême", 
   "", 
-  " ذكصولوجية رابعة للصوم الكبير", 
+  " ذُكْصُولُوجِيَّة رابعة للصوم الكبير", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -16486,7 +16486,7 @@ PrayersArrayFR= [[
   "", 
   "Doxologie pour la fête de l’Annonciation", 
   "", 
-  " ذكصولوجية عيد البشارة", 
+  " ذُكْصُولُوجِيَّة عيد البشارة", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -16582,7 +16582,7 @@ PrayersArrayFR= [[
   "", 
   "1ère Doxologie Samedi de Lazare", 
   "", 
-  " ذكصولوجية سبت لعازر", 
+  " ذُكْصُولُوجِيَّة سبت لعازر", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -16633,7 +16633,7 @@ PrayersArrayFR= [[
   "", 
   "2ème Doxologie Samedi de Lazare", 
   "", 
-  " ذكصولوجية ثانية لسبت لعازر", 
+  " ذُكْصُولُوجِيَّة ثانية لسبت لعازر", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -16701,7 +16701,7 @@ PrayersArrayFR= [[
   "", 
   "1ère Doxologie Dimanche des Rameaux", 
   "", 
-  " ذكصولوجية أحد الشعانين", 
+  " ذُكْصُولُوجِيَّة أحد الشعانين", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -16780,7 +16780,7 @@ PrayersArrayFR= [[
   "", 
   "2ème Doxologie Dimanche des Rameaux", 
   "", 
-  " ذكصولوجية ثانية لأحد الشعانين", 
+  " ذُكْصُولُوجِيَّة ثانية لأحد الشعانين", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -16845,7 +16845,7 @@ PrayersArrayFR= [[
   "", 
   "3ème Doxologie Dimanche des Rameux", 
   "", 
-  " ذكصولوجية ثالثة لأحد الشعانين", 
+  " ذُكْصُولُوجِيَّة ثالثة لأحد الشعانين", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -16931,14 +16931,14 @@ PrayersArrayFR= [[
     "", 
     "1ère Doxologie pour la Résurrection", 
     "", 
-    " ذكصولوجية عيد القيامة", 
+    " ذُكْصُولُوجِيَّة عيد القيامة", 
     ],
     [
     Prefix.same+"&C=Diacon", 
     "Ⲧⲟⲧⲉ ⲣⲱⲛ ⲁϥⲙⲟϩ ⲛ̀ⲣⲁϣⲓ: ⲟⲩⲟϩ ⲡⲉⲛⲗⲁⲥ ϧⲉⲛ ⲟⲩⲑⲉⲗⲏⲗ: ϫⲉ Ⲡⲉⲛϭⲟⲓⲥ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅: ⲁϥⲧⲱⲛϥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲛⲏⲉⲑⲙⲱⲟⲩⲧ.", 
     "Alors nos bouches exultèrent Et nos langues se réjouirent Car le Seigneur Jésus-Christ Est ressuscité des morts.", 
     "", 
-    "حينئذ أمتلأ فَمُنا♫ فرحاً ولِساننا تهليلاً♫ لِأنَّ رَبّنا يَسُوعْ المسيح♫ قام من بين الأموات.", 
+    "حينئذ أمتلأ فَمُنا♫ فرحاً ولِساننا تهليلاً♫ لِأنَّ رَبّنا يَسُوعْ المسيح♫ قام مِنْ بَيْنِ الأموات.", 
     ],
     [
     Prefix.same+"&C=Diacon", 
@@ -16980,7 +16980,7 @@ PrayersArrayFR= [[
     "Ⲁⲗⲗⲏⲗⲟⲩⲓⲁ Ⲁⲗⲗⲏⲗⲟⲩⲓⲁ: Ⲁⲗⲗⲏⲗⲟⲩⲓⲁ Ⲁⲗⲗⲏⲗⲟⲩⲓⲁ: Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ ⲡ̀ⲟⲩⲣⲟ ⲛ̀ⲧⲉ ⲡ̀ⲱⲟⲩ: ⲁϥⲧⲱⲛϥ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲏⲉⲑⲙⲱⲟⲩⲧ.", 
     "Alléluia Alleluia Alleluia Alleluia Jésus-Christ le Roi de gloire Est ressuscité des morts.", 
     "", 
-    "هَلِّليلُويا هَلِّليلُويا♫ هَلِّليلُويا هَلِّليلُويا♫ يَسُوعْ المَسِيحْ ملَكَ المَجْدُ♫ قام من بين الأموات.", 
+    "هَلِّليلُويا هَلِّليلُويا♫ هَلِّليلُويا هَلِّليلُويا♫ يَسُوعْ المَسِيحْ ملَكَ المَجْدُ♫ قام مِنْ بَيْنِ الأموات.", 
     ],
     [
     Prefix.placeHolder, 
@@ -16993,7 +16993,7 @@ PrayersArrayFR= [[
     "", 
     "2ème Doxologie pour la Résurrection", 
     "", 
-    " ذكصولوجية ثانية لعيد القيامة", 
+    " ذُكْصُولُوجِيَّة ثانية لعيد القيامة", 
     ],
     [
     Prefix.same+"&C=Diacon", 
@@ -17058,7 +17058,7 @@ PrayersArrayFR= [[
   "", 
   "Doxologie pour le Dimanche de Thomas", 
   "", 
-  " ذكصولوجية أحد توما", 
+  " ذُكْصُولُوجِيَّة أحد توما", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -17107,7 +17107,7 @@ PrayersArrayFR= [[
   "Ⲁⲗⲗⲏⲗⲟⲩⲓⲁ Ⲁⲗⲗⲏⲗⲟⲩⲓⲁ: Ⲁⲗⲗⲏⲗⲟⲩⲓⲁ Ⲁⲗⲗⲏⲗⲟⲩⲓⲁ: Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ ⲡ̀ⲟⲩⲣⲟ ⲛ̀ⲧⲉ ⲡ̀ⲱⲟⲩ: ⲁϥⲧⲱⲛϥ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲏⲉⲑⲙⲱⲟⲩⲧ.", 
   "Alléluia Alleluia Alleluia Alleluia Jésus-Christ le Roi de gloire Est ressuscité des morts.", 
   "", 
-  "هَلِّليلُويا هَلِّليلُويا♫ هَلِّليلُويا هَلِّليلُويا♫ يَسُوعْ المَسِيحْ ملَكَ المَجْدُ♫ قام من بين الأموات.", 
+  "هَلِّليلُويا هَلِّليلُويا♫ هَلِّليلُويا هَلِّليلُويا♫ يَسُوعْ المَسِيحْ ملَكَ المَجْدُ♫ قام مِنْ بَيْنِ الأموات.", 
   ],
   [
   Prefix.placeHolder, 
@@ -17116,12 +17116,47 @@ PrayersArrayFR= [[
   ],
   [
   [
-  Prefix.doxologies+"&D=$copticFeasts.Ascension&C=Title", 
+  Prefix.doxologies+"&D=$Seasons.Ascension&C=Title", 
   "", 
   "Doxologie pour l’Ascension", 
   "", 
-  " ذكصولوجية عيد الصعود", 
-  ],
+  " ذُكْصُولُوجِيَّة عيد الصعود", 
+    ],
+    [
+      Prefix.same+"&C=Diacon", 
+      "Ⲧⲟⲧⲉ ⲣⲱⲛ ⲁϥⲙⲟϩ ⲛ̀ⲣⲁϣⲓ: ⲟⲩⲟϩ ⲡⲉⲛⲗⲁⲥ ϧⲉⲛ ⲟⲩⲑⲉⲗⲏⲗ: ϫⲉ Ⲡⲉⲛϭⲟⲓⲥ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅: ⲁϥⲧⲱⲛϥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲛⲏⲉⲑⲙⲱⲟⲩⲧ.", 
+      "Alors nos bouches exultèrent Et nos langues se réjouirent Car le Seigneur Jésus-Christ Est ressuscité des morts.", 
+      "", 
+      "حينئذ أمتلأ فَمُنا♫ فرحاً ولِساننا تهليلاً♫ لِأنَّ رَبّنا يَسُوعْ المسيح♫ قام مِنْ بَيْنِ الأموات.", 
+      ],
+      [
+      Prefix.same+"&C=Diacon", 
+      "Ⲁϥⲕⲱⲣϥ ⲙ̀ⲫ̀ⲙⲟⲩ ϧⲉⲛ ⲧⲉϥϫⲟⲙ: ⲁϥⲑ̀ⲣⲉⲡ̀ⲱⲛϧ ⲉⲣⲟⲩⲱⲓⲛⲓ ⲉ̀ⲣⲟⲛ: ⲛ̀ⲑⲟϥ ⲟⲛ ⲫⲏⲉ̀ⲧⲁϥϣⲉⲛⲁϥ: ⲉ̀ⲛⲓⲙⲁ ⲉⲧⲥⲁⲡⲉⲥⲏⲧ ⲙ̀ⲡ̀ⲕⲁϩⲓ.", 
+      "Par Sa force, vainquit la mort Notre vie s’illumina Aussi Il est descendu Aux profondeurs de la terre.", 
+      "", 
+      "أَبْطَلَ المَوْتَ بِقُوَّتِه♫ وجعل الحياة تُضئ لنا♫ وهو أًيّْضَاً الذي مَضَى♫ إلى الأماكن أسفل الأرْضَ.", 
+      ],
+      [
+      Prefix.same+"&C=Diacon", 
+      "Ⲛⲓⲙ̀ⲛⲟⲩⲧ ⲛ̀ⲧⲉ ⲁ̀ⲙⲉⲛϯ: ⲁⲩⲛⲁⲩ ⲉ̀ⲣⲟϥ ⲁⲩⲉⲣϩⲟϯ: ⲁϥⲧⲁⲕⲟ ⲛ̀ⲛⲓⲛⲁⲕϩⲓ ⲙ̀ⲫ̀ⲙⲟⲩ: ⲙ̀ⲡⲟⲩϣ̀ϫⲉⲙϫⲟⲙ ⲛ̀ⲁ̀ⲙⲟⲛⲓ ⲙ̀ⲙⲟϥ.", 
+      "Et les gardes de l’enfer En L’apercevant prirent peur Vainquit les forces de la mort Elles ne purent L’attraper.", 
+      "", 
+      "بَوَّابو الجحيم♫ رأوه وخافوا♫ وأهلَكَ طلقات الموت♫ فلم تستطيع أنْ تُمسكه.", 
+      ],
+      [
+      Prefix.same+"&C=Diacon", 
+      "Ⲁϥϧⲟⲙϧⲉⲙ ⲛ̀ϩⲁⲛⲡⲩⲗⲏ ⲛ̀ϩⲟⲙⲧ: ⲁϥⲕⲱϣ ⲛ̀ϩⲁⲛⲙⲟⲭⲗⲟⲩⲥ ⲙ̀ⲃⲉⲛⲓⲡⲓ: ⲁϥⲓ̀ⲛⲓ ⲛ̀ⲛⲉϥⲥⲱⲧⲡ ⲉ̀ⲃⲟⲗ: ϧⲉⲛ ⲟⲩⲟⲩⲛⲟϥ ⲛⲉⲙ ⲟⲩⲑⲉⲗⲏⲗ.", 
+      "Brisa les portes d’airain Rompit les verrous de fer Et délivra Ses élus Avec joie et allégresse.", 
+      "", 
+      "سحق الأبواب النحاس♫ وكسر المتاريس الحديد♫ وأخرج مُختاريه♫ بِفَرَحِ وتهليل.", 
+      ],
+      [
+      Prefix.same+"&C=Diacon", 
+      "Ⲁϥⲟ̀ⲗⲟⲩ ⲉ̀ⲡ̀ϭⲓⲥⲓ ⲛⲉⲙⲁϥ: ⲉ̀ϧⲟⲩⲛ ⲉ̀ⲛⲉϥⲙⲁⲛ̀ⲉⲙⲧⲟⲛ: ⲁϥⲛⲁϩⲙⲟⲩ ⲉⲑⲃⲉ ⲡⲉϥⲣⲁⲛ: ⲁϥⲟⲩⲱⲛϩ ⲛ̀ⲧⲉϥϫⲟⲙ ⲛⲱⲟⲩ ⲉ̀ⲃⲟⲗ.", 
+      "Il les éleva vers Lui Vers le lieu de Son repos Les sauva pour Son Saint Nom Et leur montra Sa puissance.", 
+      "", 
+      "وأصعدهم الى العُلُو♫ مَعَه الى مواضع راحته♫ خَلَّصَهم لِأَجْلِ اسمِه♫ وأظهر قُوَّتَهُ لهم.", 
+      ],
   [
   Prefix.same+"&C=Diacon", 
   "Ⲟⲩⲟϩ ⲙⲉⲛⲉⲛⲥⲁ ϩ̀ⲙⲉ ⲛ̀ⲉ̀ϩⲟⲟⲩ: ⲁϥϣⲉⲛⲁϥ ⲉ̀ⲡ̀ϣⲱⲓ ⲉ̀ⲛⲓⲫⲏⲟⲩⲓ: ϧⲉⲛ ⲟⲩⲱ̀ⲟⲩ ⲛⲉⲙ ⲟⲩⲧⲁⲓⲟ: ⲁϥϩⲉⲙⲥⲓ ⲥⲁⲟⲩⲓⲛⲁⲙ ⲙ̀Ⲡⲉϥⲓⲱⲧ.", 
@@ -17145,7 +17180,7 @@ PrayersArrayFR= [[
   ],
   [
   Prefix.same+"&C=Diacon", 
-  "Ⲛⲓϫⲟⲙ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲉ ⲛⲓⲫⲏⲟⲩⲓ: ⲁⲩϩⲓⲧⲟⲩ ⲉ̀ϧⲣⲏⲓ ⲁⲩⲟⲩⲱϣⲧ ⲙ̀ⲙⲟϥ: ⲛⲁ ⲛⲓⲫⲏⲟⲩⲓ ⲛⲉⲙ ⲛⲁ ⲡ̀ⲕⲁϩⲓ: ϧⲉⲛ ϩⲁⲛⲥ̀ⲙⲟⲩ ⲁⲩϩⲱⲥ ⲉ̀ⲣⲟϥ.", 
+  "Ⲛⲓϫⲟⲙ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲉ ⲛⲓⲫⲏⲟⲩⲓ: ⲁⲩϩⲓⲧⲟⲩ ⲉ̀ϧⲣⲏⲓ ⲁⲩⲟⲩⲱϣⲧ ⲙ̀ⲙⲟϥ: ⲛⲁ ⲛⲓⲫⲏⲟⲩⲓ ⲛⲉⲙ ⲛⲁ ⲡ̀ⲕⲁϩⲓ: ϧⲉⲛ ϩⲁⲛⲥ̀ⲙⲟⲩ ⲁⲩϩⲱⲥ ⲉ̀ⲣⲟϥ.",
   "Tous les pouvoirs du ciel, sont tombés et l'ont adoré, les célestes et les terrestres, avec des bénédictions l’ont loué.", 
   "", 
   "جميع قوات السَّمَواتْ♫ خَرَّتْ وسجدت له♫ السمائيون والأرضيون♫ سَبَّحُوه بالبركات.", 
@@ -17169,7 +17204,7 @@ PrayersArrayFR= [[
   "Ⲁⲗ̅ Ⲁⲗ̅: Ⲁⲗ̅ Ⲁⲗ̅: Ⲡⲭ̅ⲥ̅ ⲁϥⲧⲱⲛϥ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲏⲉⲑⲙⲱⲟⲩⲧ: ⲟⲩⲟϩ ⲁϥϣⲉⲛⲁϥ ⲉ̀ⲡ̀ϣⲱⲓ ⲉ̀ⲛⲓⲫⲏⲟⲩⲓ.", 
   "Alléluia Alléluia Alléluia Alléluia Le Christ est ressuscité des morts Et est monté aux cieux.", 
   "", 
-  "هَلِّليلُويا هَلِّليلُويا♫ هَلِّليلُويا هَلِّليلُويا♫ المَسِيحْ قام من بين الأموات♫ وصعد إلى أعلى السَّمَواتْ.", 
+  "هَلِّليلُويا هَلِّليلُويا♫ هَلِّليلُويا هَلِّليلُويا♫ المَسِيحْ قام مِنْ بَيْنِ الأموات♫ وصَعِدَ إلى أَعْلَى السَّمَواتْ.", 
   ],
   [
   Prefix.placeHolder, 
@@ -17182,7 +17217,7 @@ PrayersArrayFR= [[
   "", 
   "Doxologie pour la Pentecote", 
   "", 
-  " ذكصولوجية عيد حلول الْرُوحْ القُدُسْ", 
+  " ذُكْصُولُوجِيَّة عيد حلول الْرُوحْ القُدُسْ", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -17230,7 +17265,7 @@ PrayersArrayFR= [[
   "", 
   "Doxologie pour l’Entrée de Jésus en Egypte", 
   "", 
-  " ذكصولوجية عيد دخول المَسِيحْ مصر", 
+  " ذُكْصُولُوجِيَّة عيد دخول المَسِيحْ مصر", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -17281,7 +17316,7 @@ PrayersArrayFR= [[
   "", 
   "Doxologie pour la fête de la Transformationo", 
   "", 
-  " ذكصولوجية عيد التجلي", 
+  " ذُكْصُولُوجِيَّة عيد التجلي", 
   ],
   [
   Prefix.same+"&C=Diacon", 
@@ -19409,7 +19444,7 @@ PrayersArrayFR= [[
   "", 
   "Du ciel, qu'il m'envoie le salut : (mon adversaire a blasphémé !). Que Dieu envoie son amour et sa vérité ! Je suis au milieu de lions et gisant parmi des bêtes féroces ; ils ont pour langue une arme tranchante, pour dents, des lances et des flèches.", 
   "", 
-  "أرسل اللّه رحمته وحقه، وخلص نَفْسِي من بين الأشبال إذْ نمت مضطرَبّا. أسنان أبناء الَبشَرْ سلاح وسهام، ولسانهم سيف مرهف.", 
+  "أرسل اللّه رحمته وحقه، وخلص نَفْسِي مِنْ بَيْنِ الأشبال إذْ نمت مضطرَبّا. أسنان أبناء الَبشَرْ سلاح وسهام، ولسانهم سيف مرهف.", 
   ],
   [
   Prefix.same+"&C=NoActor", 
@@ -23206,7 +23241,7 @@ PrayersArrayFR= [[
   ],
   [
   [
-  Prefix.massCommon+"Agios&D=$Seasons.PentecostalDays&C=Title", 
+  Prefix.massCommon+"Agios&D=$Seasons.PentecostalDays||$Seasons.Ascension&C=Title", 
   "", 
   "Ô tous les chœurs célestes", 
   "", 
@@ -23350,7 +23385,7 @@ PrayersArrayFR= [[
   "Ⲡⲓⲭⲣⲓⲥⲧⲟⲥ ⲁϥⲧⲱⲛϥ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲏⲉ̀ⲑⲙⲱⲟⲩⲧ ⲫⲏⲉ̀ⲧⲁϥⲙⲟⲩ ⲁϥϩⲱⲙⲓ ⲉ̀ϫⲉⲛ ⲫ̀ⲙⲟⲩ ⲟⲩⲟϩ ⲛⲏⲉⲧ̀ⲭⲏ ϧⲉⲛ ⲛⲓⲙ̀ϩⲁⲩ ⲁϥⲉⲣϩ̀ⲙⲟⲧ ⲛⲱⲟⲩ ⲙ̀ⲡⲓⲱⲛϧ ⲛⲉ̀ⲛⲉϩ.", 
   "Le Christ est ressuscité des morts, celui qui est mort a écrasé la mort, a ceux qui sont dans les tombeaux, il a accorde la vie éternelle.", 
   "بى إخرستوس أفتونف إيفول خين نى إثُمَّو أوت. في إيتاف مو أفهومى إيجين إفمو أووه نى إتكى خين نى إمهاف أفئير إهموت نوؤو إمبى أونخ. إن إينيه.", 
-  "المَسيحُ قامَ من بين الأموات، بالموت داس الموت، والذين في القبور انعم لهم بالحياة الأبدية.", 
+  "المَسيحُ قامَ مِنْ بَيْنِ الأموات، بالموت داس الموت، والذين في القبور انعم لهم بالحياة الأبدية.", 
   ],
   [
   Prefix.same+"&C=SubTitle", 
@@ -23816,7 +23851,7 @@ PrayersArrayFR= [[
   ],
   [
   [
-  Prefix.praxisResponse+"Resurrection&D=$Seasons.PentecostalDays&C=Title", 
+  Prefix.praxisResponse+"&D=$Seasons.PentecostalDays&C=Title", 
   "", 
   "La Résurrection", 
   "", 
@@ -23827,7 +23862,7 @@ PrayersArrayFR= [[
   "Ⲭⲉⲣⲉ ⲧⲉϥⲁ̀ⲛⲁⲥⲧⲁⲥⲓⲥ: ⲉ̀ⲧⲁϥⲧⲱⲛϥ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲏⲉⲑⲙⲱⲟⲩⲧ: ϣⲁⲛ̀ⲧⲉϥⲥⲱϯ ⲙ̀ⲙⲟⲛ: ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲉⲛⲛⲟⲃⲓ.", 
   "Salut à sa résurrection d’entre les morts pour nous sauver de nos péchés", 
   "", 
-  "السَّلامُ لقيامته لما قام من بين الأموات حتي خلصنا من خَطَايَانَا.", 
+  "السَّلامُ لقيامته لما قام مِنْ بَيْنِ الأموات حتي خلصنا من خَطَايَانَا.", 
   ],
   [
   Prefix.anchor+"Saints&D=copticFeasts.AnyDay", 
@@ -23839,7 +23874,7 @@ PrayersArrayFR= [[
   ],
   [
   [
-  Prefix.praxisResponse+"Ascension&D=$Seasons.PentecostalDays&C=Title", 
+  Prefix.praxisResponse+"&D=$Seasons.Ascension&C=Title", 
   "", 
   "Ascension", 
   "", 
@@ -24000,7 +24035,7 @@ PrayersArrayFR= [[
   "Ⲭⲉⲣⲉ ⲧⲉϥ ⲁ̀ⲛⲁⲥⲧⲁⲥⲓⲥ: ⲉ̀ⲧⲁϥⲧⲱⲛϥ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲏⲉⲑⲙⲱⲟⲩⲧ: ϣⲁ ⲛ̀ⲧⲉϥⲥⲱϯ ⲙ̀ⲙⲟⲛ: ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲉⲛⲛⲟⲃⲓ.", 
   "Salut à sa résurrection d’entre les morts pour nous sauver de nos péchés", 
   "", 
-  "السَّلامُ لقيامته لما قام من بين الأموات حتي خلصنا من خَطَايَانَا.", 
+  "السَّلامُ لقيامته لما قام مِنْ بَيْنِ الأموات حتي خلصنا من خَطَايَانَا.", 
   ],
   [
   Prefix.anchor+"Saints&D=copticFeasts.AnyDay", 

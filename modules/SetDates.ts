@@ -27,7 +27,7 @@ async function setCopticDates(today?: Date) {
     );
   //copticDay = copticDate.slice(0, 2);
   isFast = (() => {
-    if (Season === Seasons.PentecostalDays)
+    if ([Seasons.PentecostalDays, Seasons.Ascension].includes(Season))
       return false;
     else if (copticFasts.indexOf(Season) > -1)
       return true; //i.e. if we are obviously during a fast period
@@ -277,6 +277,8 @@ function checkForUnfixedEvent(
     if (Math.abs(difference) > 49) return;
     // we are during the 50 Pentecostal days
     Season = Seasons.PentecostalDays;
+    if (Math.abs(difference) > 38)
+      Season = Seasons.Ascension;
     date = isItSundayOrWeekDay(
       Seasons.PentecostalDays,
       Math.abs(difference),
@@ -286,7 +288,7 @@ function checkForUnfixedEvent(
 
   (function ifApostlesFast() {
     if (difference > 0) return; //This means that we are before the Ressurrection Feast, and probably still during the Great Lent
-    if (Math.abs(difference) < 49) return; //this means that we are still during the Pentecostal Period
+    if (Math.abs(difference) < 50) return; //this means that we are still during the Pentecostal Period
     if (Number(copticMonth) > 11) return;
     if (Number(copticMonth) === 11 && Number(copticDay) > 4) return; //We are after the Apostles Feast
 
