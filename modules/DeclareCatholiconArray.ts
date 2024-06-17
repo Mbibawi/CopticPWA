@@ -1,7 +1,7 @@
 ReadingsArrays.CatholiconArrayFR =[
     [
         [
-            Prefix.Catholicon + "&D=0101||043rdSunday||122ndSunday||Pntl1stSunday&C=Title"
+            Prefix.Catholicon + "&D=0101||043rdSunday||122ndSunday||PNT1stSunday&C=Title"
         ],
         [
             Prefix.readingRef+"1JN:2:7-17"
@@ -25,7 +25,7 @@ ReadingsArrays.CatholiconArrayFR =[
     ],
     [
         [
-            Prefix.Catholicon + "&D=JFast3||GL42||Pntl48&C=Title"
+            Prefix.Catholicon + "&D=JFast3||GL42||PNT48&C=Title"
         ],
         [
             Prefix.readingRef+"1JN:2:12-17"
@@ -89,7 +89,7 @@ ReadingsArrays.CatholiconArrayFR =[
     ],
     [
         [
-            Prefix.Catholicon + "&D=1701||Pntl1&C=Title"
+            Prefix.Catholicon + "&D=1701||PNT1&C=Title"
         ],
         [
             Prefix.readingRef+"1PE:2:11-25"
@@ -201,7 +201,7 @@ ReadingsArrays.CatholiconArrayFR =[
     ],
     [
         [
-            Prefix.Catholicon + "&D=0803||1205||Pntl39&C=Title"
+            Prefix.Catholicon + "&D=0803||1205||PNT39&C=Title"
         ],
         [
             Prefix.readingRef+"2PE:3:15-22"
@@ -297,7 +297,7 @@ ReadingsArrays.CatholiconArrayFR =[
     ],
     [
         [
-            Prefix.Catholicon + "&D=052ndSunday||Pntl25&C=Title"
+            Prefix.Catholicon + "&D=052ndSunday||PNT25&C=Title"
         ],
         [
             Prefix.readingRef+"1JN:3:18-24"
@@ -377,7 +377,7 @@ ReadingsArrays.CatholiconArrayFR =[
     ],
     [
         [
-            Prefix.Catholicon + "&D=2503||1307||2308||0111||GL8thSunday||Pntl2&C=Title"
+            Prefix.Catholicon + "&D=2503||1307||2308||0111||GL8thSunday||PNT2&C=Title"
         ],
         [
             Prefix.readingRef+"1PE:4:1-11"
@@ -385,7 +385,7 @@ ReadingsArrays.CatholiconArrayFR =[
     ],
     [
         [
-            Prefix.Catholicon + "&D=2708||2011||Pntl4&C=Title"
+            Prefix.Catholicon + "&D=2708||2011||PNT4&C=Title"
         ],
         [
             Prefix.readingRef+"1PE:3:8-15"
@@ -690,7 +690,7 @@ ReadingsArrays.CatholiconArrayFR =[
     ],
     [
         [
-            Prefix.Catholicon + "&D=GL32||Pntl20&C=Title",
+            Prefix.Catholicon + "&D=GL32||PNT20&C=Title",
         ],
         [Prefix.readingRef+"1JN:3: 2-11"],
 
@@ -851,287 +851,287 @@ ReadingsArrays.CatholiconArrayFR =[
     ],
     [
         [
-            Prefix.Catholicon + "&D=Pntl10&C=Title",
+            Prefix.Catholicon + "&D=PNT10&C=Title",
         ],
         [Prefix.readingRef+"1JN:2: 1-6"],
 
     ],
     [
         [
-            Prefix.Catholicon + "&D=Pntl11&C=Title",
+            Prefix.Catholicon + "&D=PNT11&C=Title",
         ],
         [Prefix.readingRef+"1JN:2: 7-10"],
 
     ],
     [
         [
-            Prefix.Catholicon + "&D=Pntl12&C=Title",
+            Prefix.Catholicon + "&D=PNT12&C=Title",
         ],
         [Prefix.readingRef+"1JN:2: 11-14"],
 
     ],
     [
         [
-            Prefix.Catholicon + "&D=Pntl13||Pntl17&C=Title",
+            Prefix.Catholicon + "&D=PNT13||PNT17&C=Title",
         ],
         [Prefix.readingRef+"1JN:2: 21-25"],
 
     ],
     [
         [
-            Prefix.Catholicon + "&D=Pntl15&C=Title",
+            Prefix.Catholicon + "&D=PNT15&C=Title",
         ],
         [Prefix.readingRef+"1JN:2: 15-17"],
 
     ],
     [
         [
-            Prefix.Catholicon + "&D=Pntl16&C=Title",
+            Prefix.Catholicon + "&D=PNT16&C=Title",
         ],
         [Prefix.readingRef+"1JN:2: 18-23"],
 
     ],
     [
         [
-            Prefix.Catholicon + "&D=Pntl18&C=Title",
+            Prefix.Catholicon + "&D=PNT18&C=Title",
         ],
         [Prefix.readingRef+"1JN:2:26-End/3:1-1"],
 
     ],
     [
         [
-            Prefix.Catholicon + "&D=Pntl19&C=Title",
+            Prefix.Catholicon + "&D=PNT19&C=Title",
         ],
         [Prefix.readingRef+"1JN:3: 2-3"],
 
     ],
     [
         [
-            Prefix.Catholicon + "&D=Pntl22||014thSunday&C=Title",
+            Prefix.Catholicon + "&D=PNT22||014thSunday&C=Title",
         ],
         [Prefix.readingRef+"1JN:3: 8-12"],
 
     ],
     [
         [
-            Prefix.Catholicon + "&D=Pntl23&C=Title",
+            Prefix.Catholicon + "&D=PNT23&C=Title",
         ],
         [Prefix.readingRef+"1JN:3:13-17"],
 
     ],
     [
         [
-            Prefix.Catholicon + "&D=Pntl24&C=Title",
+            Prefix.Catholicon + "&D=PNT24&C=Title",
         ],
         [Prefix.readingRef+"1PE:4:8-13"],
 
     ],
     [
         [
-            Prefix.Catholicon + "&D=Pntl26&C=Title",
+            Prefix.Catholicon + "&D=PNT26&C=Title",
         ],
         [Prefix.readingRef+"1JN:4:1-6"],
 
     ],
     [
         [
-            Prefix.Catholicon + "&D=Pntl27&C=Title",
+            Prefix.Catholicon + "&D=PNT27&C=Title",
         ],
         [Prefix.readingRef+"1JN:4:15-End/5:1-1"],
 
     ],
     [
         [
-            Prefix.Catholicon + "&D=Pntl29&C=Title",
+            Prefix.Catholicon + "&D=PNT29&C=Title",
         ],
         [Prefix.readingRef+"1JN:3:21-24"],
 
     ],
     [
         [
-            Prefix.Catholicon + "&D=Pntl2ndSunday&C=Title",
+            Prefix.Catholicon + "&D=PNT2ndSunday&C=Title",
         ],
         [Prefix.readingRef+"1JN:5:10 - 20"],
 
     ],
     [
         [
-            Prefix.Catholicon + "&D=Pntl30&C=Title",
+            Prefix.Catholicon + "&D=PNT30&C=Title",
         ],
         [Prefix.readingRef+"1JN: 4:11-17"],
 
     ],
     [
         [
-            Prefix.Catholicon + "&D=Pntl31&C=Title",
+            Prefix.Catholicon + "&D=PNT31&C=Title",
         ],
         [Prefix.readingRef+"1JN:4:15-19"],
 
     ],
     [
         [
-            Prefix.Catholicon + "&D=Pntl32&C=Title",
+            Prefix.Catholicon + "&D=PNT32&C=Title",
         ],
         [Prefix.readingRef+"1JN:4:18-End/5:1-1"],
 
     ],
     [
         [
-            Prefix.Catholicon + "&D=Pntl33&C=Title",
+            Prefix.Catholicon + "&D=PNT33&C=Title",
         ],
         [Prefix.readingRef+"1JN:5:1-6"],
 
     ],
     [
         [
-            Prefix.Catholicon + "&D=Pntl34&C=Title",
+            Prefix.Catholicon + "&D=PNT34&C=Title",
         ],
         [Prefix.readingRef+"1JN:5:11-21"],
 
     ],
     [
         [
-            Prefix.Catholicon + "&D=Pntl36&C=Title",
+            Prefix.Catholicon + "&D=PNT36&C=Title",
         ],
         [Prefix.readingRef+"1JN:5:9-13"],
 
     ],
     [
         [
-            Prefix.Catholicon + "&D=Pntl37&C=Title",
+            Prefix.Catholicon + "&D=PNT37&C=Title",
         ],
         [Prefix.readingRef+"1JN:5:9 - 12"],
 
     ],
     [
         [
-            Prefix.Catholicon + "&D=Pntl38&C=Title",
+            Prefix.Catholicon + "&D=PNT38&C=Title",
         ],
         [Prefix.readingRef+"1JN:5:13-18"],
 
     ],
     [
         [
-            Prefix.Catholicon + "&D=Pntl3&C=Title",
+            Prefix.Catholicon + "&D=PNT3&C=Title",
         ],
         [Prefix.readingRef+"1PE:1:10-21"],
 
     ],
     [
         [
-            Prefix.Catholicon + "&D=Pntl3rdSunday&C=Title",
+            Prefix.Catholicon + "&D=PNT3rdSunday&C=Title",
         ],
         [Prefix.readingRef+"1JN:3:13-24"],
 
     ],
     [
         [
-            Prefix.Catholicon + "&D=Pntl40&C=Title",
+            Prefix.Catholicon + "&D=PNT40&C=Title",
         ],
         [Prefix.readingRef+"1JN:5:14-21"],
 
     ],
     [
         [
-            Prefix.Catholicon + "&D=Pntl41&C=Title",
+            Prefix.Catholicon + "&D=PNT41&C=Title",
         ],
         [Prefix.readingRef+"1PE:5:5-12"],
 
     ],
     [
         [
-            Prefix.Catholicon + "&D=Pntl43&C=Title",
+            Prefix.Catholicon + "&D=PNT43&C=Title",
         ],
         [Prefix.readingRef+"2JN:1:1-8"],
 
     ],
     [
         [
-            Prefix.Catholicon + "&D=Pntl44&C=Title",
+            Prefix.Catholicon + "&D=PNT44&C=Title",
         ],
         [Prefix.readingRef+"2JN:1:8-13"],
 
     ],
     [
         [
-            Prefix.Catholicon + "&D=Pntl45&C=Title",
+            Prefix.Catholicon + "&D=PNT45&C=Title",
         ],
         [Prefix.readingRef+"3JN:1:1-8"],
 
     ],
     [
         [
-            Prefix.Catholicon + "&D=Pntl46&C=Title",
+            Prefix.Catholicon + "&D=PNT46&C=Title",
         ],
         [Prefix.readingRef+"3JN:1:10-15"],
 
     ],
     [
         [
-            Prefix.Catholicon + "&D=Pntl47&C=Title",
+            Prefix.Catholicon + "&D=PNT47&C=Title",
         ],
         [Prefix.readingRef+"JUD:1:22-25"],
 
     ],
     [
         [
-            Prefix.Catholicon + "&D=Pntl4thSunday&C=Title",
+            Prefix.Catholicon + "&D=PNT4thSunday&C=Title",
         ],
         [Prefix.readingRef+"1JN: 4:7-13"],
 
     ],
     [
         [
-            Prefix.Catholicon + "&D=Pntl5&C=Title",
+            Prefix.Catholicon + "&D=PNT5&C=Title",
         ],
         [Prefix.readingRef+"1PE:1:25-End/2:1-10"],
 
     ],
     [
         [
-            Prefix.Catholicon + "&D=Pntl5thSunday&C=Title",
+            Prefix.Catholicon + "&D=PNT5thSunday&C=Title",
         ],
         [Prefix.readingRef+"1PE:4:6-14"],
 
     ],
     [
         [
-            Prefix.Catholicon + "&D=Pntl6&C=Title",
+            Prefix.Catholicon + "&D=PNT6&C=Title",
         ],
         [Prefix.readingRef+"1JN:1:1-7"],
 
     ],
     [
         [
-            Prefix.Catholicon + "&D=Pntl6thSunday&C=Title",
+            Prefix.Catholicon + "&D=PNT6thSunday&C=Title",
         ],
         [Prefix.readingRef+"1PE:1:2-12"],
 
     ],
     [
         [
-            Prefix.Catholicon + "&D=Pntl7thSunday&C=Title",
+            Prefix.Catholicon + "&D=PNT7thSunday&C=Title",
         ],
         [Prefix.readingRef+"1JN:2:20-End/3:1-1"],
 
     ],
     [
         [
-            Prefix.Catholicon + "&D=Pntl8&C=Title",
+            Prefix.Catholicon + "&D=PNT8&C=Title",
         ],
         [Prefix.readingRef+"1JN:1:1-7"],
 
     ],
     [
         [
-            Prefix.Catholicon + "&D=Pntl8thSunday&C=Title",
+            Prefix.Catholicon + "&D=PNT8thSunday&C=Title",
         ],
         [Prefix.readingRef+"1JN:2:20-End/3:1-1"],
 
     ],
     [
         [
-            Prefix.Catholicon + "&D=Pntl9&C=Title",
+            Prefix.Catholicon + "&D=PNT9&C=Title",
         ],
         [Prefix.readingRef+"1JN:1:6-10"],
 

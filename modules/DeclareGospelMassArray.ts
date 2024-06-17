@@ -55,7 +55,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Psalm&D=013rdSunday||Pntl17&C=Title",
+          Prefix.gospelMass + "Psalm&D=013rdSunday||PNT17&C=Title",
           " مزمور ( 17 : 46 ، 49 )"
       ],
       [
@@ -1085,7 +1085,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Psalm&D=094thSunday||102ndSunday||Pntl44&C=Title",
+          Prefix.gospelMass + "Psalm&D=094thSunday||102ndSunday||PNT44&C=Title",
           " مزمور ( 12 : 6 )"
       ],
       [
@@ -1698,7 +1698,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Gospel&D=GL18||Pntl19&C=Title",
+          Prefix.gospelMass + "Gospel&D=GL18||PNT19&C=Title",
           " يوحنا ( 8 : 31-39 )"
       ],
       [
@@ -2309,7 +2309,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Psalm&D=GL5thSunday||Pntl2&C=Title",
+          Prefix.gospelMass + "Psalm&D=GL5thSunday||PNT2&C=Title",
           " مزمور105:3-5"
       ],
       [
@@ -2453,7 +2453,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Psalm&D=Pntl10&C=Title",
+          Prefix.gospelMass + "Psalm&D=PNT10&C=Title",
           " مزمور (9:1-2)"
       ],
       [
@@ -2462,7 +2462,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Gospel&D=Pntl10&C=Title",
+          Prefix.gospelMass + "Gospel&D=PNT10&C=Title",
           " يوحنا (5:31-37)"
       ],
       [
@@ -2471,7 +2471,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Psalm&D=Pntl11&C=Title",
+          Prefix.gospelMass + "Psalm&D=PNT11&C=Title",
           " مزمور(8:4, 5)"
       ],
       [
@@ -2480,7 +2480,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Gospel&D=Pntl11&C=Title",
+          Prefix.gospelMass + "Gospel&D=PNT11&C=Title",
           " يوحنا ( 5 : 39 – 47 )"
       ],
       [
@@ -2489,7 +2489,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Psalm&D=Pntl12&C=Title",
+          Prefix.gospelMass + "Psalm&D=PNT12&C=Title",
           " مزمور (9:10-11)"
       ],
       [
@@ -2498,7 +2498,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Gospel&D=Pntl12&C=Title",
+          Prefix.gospelMass + "Gospel&D=PNT12&C=Title",
           " يوحنا ( 6 : 54 – 58 )"
       ],
       [
@@ -2507,7 +2507,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Psalm&D=Pntl13&C=Title",
+          Prefix.gospelMass + "Psalm&D=PNT13&C=Title",
           " مزمور (107:20, 22)"
       ],
       [
@@ -2516,7 +2516,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Gospel&D=Pntl13&C=Title",
+          Prefix.gospelMass + "Gospel&D=PNT13&C=Title",
           " يوحنا ( 6 : 1 – 14 )"
       ],
       [
@@ -2525,7 +2525,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Psalm&D=Pntl15&C=Title",
+          Prefix.gospelMass + "Psalm&D=PNT15&C=Title",
           " مزمور (7:1, 17)"
       ],
       [
@@ -2534,7 +2534,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Gospel&D=Pntl15&C=Title",
+          Prefix.gospelMass + "Gospel&D=PNT15&C=Title",
           " يوحنا ( 7 : 39 – 42 )"
       ],
       [
@@ -2543,7 +2543,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Psalm&D=Pntl16&C=Title",
+          Prefix.gospelMass + "Psalm&D=PNT16&C=Title",
           " مزمور (7:10-11)"
       ],
       [
@@ -2552,7 +2552,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Gospel&D=Pntl16&C=Title",
+          Prefix.gospelMass + "Gospel&D=PNT16&C=Title",
           " يوحنا ( 8 : 12 – 16 )"
       ],
       [
@@ -2561,7 +2561,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Gospel&D=Pntl17&C=Title",
+          Prefix.gospelMass + "Gospel&D=PNT17&C=Title",
           " يوحنا (8:23-26)"
       ],
       [
@@ -2570,7 +2570,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Psalm&D=Pntl18&C=Title",
+          Prefix.gospelMass + "Psalm&D=PNT18&C=Title",
           " مزمور(33:20-21)"
       ],
       [
@@ -2579,7 +2579,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Gospel&D=Pntl18&C=Title",
+          Prefix.gospelMass + "Gospel&D=PNT18&C=Title",
           " يوحنا ( 8 : 28 – 30 )"
       ],
       [
@@ -2588,7 +2588,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Psalm&D=Pntl19&C=Title",
+          Prefix.gospelMass + "Psalm&D=PNT19&C=Title",
           " مزمور (86:12, 10)"
       ],
       [
@@ -2597,7 +2597,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Psalm&D=Pntl1&C=Title",
+          Prefix.gospelMass + "Psalm&D=PNT1&C=Title",
           " مزمور (104:24, 31)"
       ],
       [
@@ -2606,7 +2606,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Gospel&D=Pntl1&C=Title",
+          Prefix.gospelMass + "Gospel&D=PNT1&C=Title",
           " لوقا (24:13-35)"
       ],
       [
@@ -2615,7 +2615,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Psalm&D=Pntl1stSunday&C=Title",
+          Prefix.gospelMass + "Psalm&D=PNT1stSunday&C=Title",
           " مزمور 98:1, 4"
       ],
       [
@@ -2624,7 +2624,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Gospel&D=Pntl1stSunday&C=Title",
+          Prefix.gospelMass + "Gospel&D=PNT1stSunday&C=Title",
           " يوحنا ( 20 : 19 – 31 )"
       ],
       [
@@ -2633,7 +2633,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Psalm&D=Pntl20&C=Title",
+          Prefix.gospelMass + "Psalm&D=PNT20&C=Title",
           " مزمور (20:5-6)"
       ],
       [
@@ -2642,7 +2642,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Gospel&D=Pntl20&C=Title",
+          Prefix.gospelMass + "Gospel&D=PNT20&C=Title",
           " يوحنا ( 6 : 47 – 56 )"
       ],
       [
@@ -2651,7 +2651,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Psalm&D=Pntl22&C=Title",
+          Prefix.gospelMass + "Psalm&D=PNT22&C=Title",
           " مزمور (119:105, 135)"
       ],
       [
@@ -2660,7 +2660,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Gospel&D=Pntl22&C=Title",
+          Prefix.gospelMass + "Gospel&D=PNT22&C=Title",
           " يوحنا ( 8 : 39 – 42 )"
       ],
       [
@@ -2669,7 +2669,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Psalm&D=Pntl23&C=Title",
+          Prefix.gospelMass + "Psalm&D=PNT23&C=Title",
           " مزمور (54:1-2)"
       ],
       [
@@ -2678,7 +2678,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Gospel&D=Pntl23&C=Title",
+          Prefix.gospelMass + "Gospel&D=PNT23&C=Title",
           " يوحنا ( 8 : 51 – 55 )"
       ],
       [
@@ -2687,7 +2687,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Psalm&D=Pntl24&C=Title",
+          Prefix.gospelMass + "Psalm&D=PNT24&C=Title",
           " مزمور (74:12-13, 22)"
       ],
       [
@@ -2696,7 +2696,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Gospel&D=Pntl24&C=Title",
+          Prefix.gospelMass + "Gospel&D=PNT24&C=Title",
           " يوحنا (7:14-29)"
       ],
       [
@@ -2705,7 +2705,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Psalm&D=Pntl25&C=Title",
+          Prefix.gospelMass + "Psalm&D=PNT25&C=Title",
           " مزمور(67:1, 7)"
       ],
       [
@@ -2714,7 +2714,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Gospel&D=Pntl25&C=Title",
+          Prefix.gospelMass + "Gospel&D=PNT25&C=Title",
           " يوحنا (8:54-59)"
       ],
       [
@@ -2723,7 +2723,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Psalm&D=Pntl26&C=Title",
+          Prefix.gospelMass + "Psalm&D=PNT26&C=Title",
           " مزمور (24:1, 4)"
       ],
       [
@@ -2732,7 +2732,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Gospel&D=Pntl26&C=Title",
+          Prefix.gospelMass + "Gospel&D=PNT26&C=Title",
           " يوحنا ( 10 : 34 – 38 )"
       ],
       [
@@ -2741,7 +2741,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Psalm&D=Pntl27&C=Title",
+          Prefix.gospelMass + "Psalm&D=PNT27&C=Title",
           " مزمور (15:4)"
       ],
       [
@@ -2750,7 +2750,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Gospel&D=Pntl27&C=Title",
+          Prefix.gospelMass + "Gospel&D=PNT27&C=Title",
           " يوحنا ( 7 : 14 – 24 )"
       ],
       [
@@ -2759,7 +2759,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Psalm&D=Pntl8||Pntl29&C=Title",
+          Prefix.gospelMass + "Psalm&D=PNT8||PNT29&C=Title",
           " مزمور (70:5)"
       ],
       [
@@ -2768,7 +2768,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Gospel&D=Pntl29&C=Title",
+          Prefix.gospelMass + "Gospel&D=PNT29&C=Title",
           " يوحنا ( 3 : 25 – 30 )"
       ],
       [
@@ -2777,7 +2777,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Gospel&D=Pntl2&C=Title",
+          Prefix.gospelMass + "Gospel&D=PNT2&C=Title",
           " مرقس (16:9-20)"
       ],
       [
@@ -2786,7 +2786,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Psalm&D=Pntl2ndSunday&C=Title",
+          Prefix.gospelMass + "Psalm&D=PNT2ndSunday&C=Title",
           " مزمور (111:9-10)"
       ],
       [
@@ -2795,7 +2795,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Gospel&D=GL47||Pntl2ndSunday&C=Title",
+          Prefix.gospelMass + "Gospel&D=GL47||PNT2ndSunday&C=Title",
           " يوحنا ( 6 : 35 – 45 )"
       ],
       [
@@ -2804,7 +2804,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Psalm&D=Pntl30&C=Title",
+          Prefix.gospelMass + "Psalm&D=PNT30&C=Title",
           " مزمور (34:5, 8)"
       ],
       [
@@ -2813,7 +2813,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Gospel&D=Pntl30&C=Title",
+          Prefix.gospelMass + "Gospel&D=PNT30&C=Title",
           " يوحنا ( 12 : 44 – 48 )"
       ],
       [
@@ -2822,7 +2822,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Psalm&D=Pntl31&C=Title",
+          Prefix.gospelMass + "Psalm&D=PNT31&C=Title",
           " مزمور (118:8-9)"
       ],
       [
@@ -2831,7 +2831,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Gospel&D=Pntl31&C=Title",
+          Prefix.gospelMass + "Gospel&D=PNT31&C=Title",
           " يوحنا (13:16-20)"
       ],
       [
@@ -2840,7 +2840,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Psalm&D=Pntl32&C=Title",
+          Prefix.gospelMass + "Psalm&D=PNT32&C=Title",
           " مزمور(39:12)"
       ],
       [
@@ -2849,7 +2849,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Gospel&D=Pntl32&C=Title",
+          Prefix.gospelMass + "Gospel&D=PNT32&C=Title",
           " يوحنا ( 17 : 18 – 21 )"
       ],
       [
@@ -2858,7 +2858,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Psalm&D=Pntl33&C=Title",
+          Prefix.gospelMass + "Psalm&D=PNT33&C=Title",
           " مزمور (119:145-146)"
       ],
       [
@@ -2867,7 +2867,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Gospel&D=Pntl33&C=Title",
+          Prefix.gospelMass + "Gospel&D=PNT33&C=Title",
           " يوحنا ( 17 : 22 – 26 )"
       ],
       [
@@ -2876,7 +2876,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Psalm&D=Pntl34&C=Title",
+          Prefix.gospelMass + "Psalm&D=PNT34&C=Title",
           " مزمور (135:3, 5)"
       ],
       [
@@ -2885,7 +2885,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Psalm&D=Pntl36&C=Title",
+          Prefix.gospelMass + "Psalm&D=PNT36&C=Title",
           " مزمور (28:9, 8)"
       ],
       [
@@ -2894,7 +2894,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Gospel&D=Pntl36||Pntl41&C=Title",
+          Prefix.gospelMass + "Gospel&D=PNT36||PNT41&C=Title",
           " يوحنا ( 16 : 15 – 23 )"
       ],
       [
@@ -2903,7 +2903,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Psalm&D=Pntl37&C=Title",
+          Prefix.gospelMass + "Psalm&D=PNT37&C=Title",
           " مزمور (116:1-2)"
       ],
       [
@@ -2912,7 +2912,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Psalm&D=Pntl38&C=Title",
+          Prefix.gospelMass + "Psalm&D=PNT38&C=Title",
           " مزمور (40:13, 17 )"
       ],
       [
@@ -2921,7 +2921,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Gospel&D=Pntl38&C=Title",
+          Prefix.gospelMass + "Gospel&D=PNT38&C=Title",
           " يوحنا (17:1-9)"
       ],
       [
@@ -2930,7 +2930,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Psalm&D=Pntl39&C=Title",
+          Prefix.gospelMass + "Psalm&D=PNT39&C=Title",
           " مزمور(24:9-10)"
       ],
       [
@@ -2939,7 +2939,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Gospel&D=Pntl39&C=Title",
+          Prefix.gospelMass + "Gospel&D=PNT39&C=Title",
           " لوقا ( 24 : 36 – 53 )"
       ],
       [
@@ -2948,7 +2948,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Psalm&D=Pntl3&C=Title",
+          Prefix.gospelMass + "Psalm&D=PNT3&C=Title",
           " مزمور (106:1-2)"
       ],
       [
@@ -2957,7 +2957,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Psalm&D=Pntl3rdSunday&C=Title",
+          Prefix.gospelMass + "Psalm&D=PNT3rdSunday&C=Title",
           " مزمور115:12-13"
       ],
       [
@@ -2966,7 +2966,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Gospel&D=GL5thSunday||Pntl3rdSunday&C=Title",
+          Prefix.gospelMass + "Gospel&D=GL5thSunday||PNT3rdSunday&C=Title",
           " يوحنا ( 4 : 1 – 42 )"
       ],
       [
@@ -2975,7 +2975,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Psalm&D=104thSunday||Pntl40&C=Title",
+          Prefix.gospelMass + "Psalm&D=104thSunday||PNT40&C=Title",
           " مزمور (69:32-33, 30)"
       ],
       [
@@ -2984,7 +2984,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Gospel&D=Pntl40&C=Title",
+          Prefix.gospelMass + "Gospel&D=PNT40&C=Title",
           " يوحنا (14:26-31)"
       ],
       [
@@ -2993,7 +2993,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Psalm&D=Pntl43&C=Title",
+          Prefix.gospelMass + "Psalm&D=PNT43&C=Title",
           " مزمور (82:8, 6)"
       ],
       [
@@ -3002,7 +3002,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Gospel&D=Pntl43&C=Title",
+          Prefix.gospelMass + "Gospel&D=PNT43&C=Title",
           " يوحنا ( 15 : 1 – 8 )"
       ],
       [
@@ -3011,7 +3011,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Gospel&D=Pntl44&C=Title",
+          Prefix.gospelMass + "Gospel&D=PNT44&C=Title",
           " يوحنا ( 15 : 9 – 15 )"
       ],
       [
@@ -3020,7 +3020,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Psalm&D=Pntl45&C=Title",
+          Prefix.gospelMass + "Psalm&D=PNT45&C=Title",
           " مزمور (89:52, 49)"
       ],
       [
@@ -3029,7 +3029,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Gospel&D=Pntl45&C=Title",
+          Prefix.gospelMass + "Gospel&D=PNT45&C=Title",
           " يوحنا ( 15 : 12 – 16 )"
       ],
       [
@@ -3038,7 +3038,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Psalm&D=Pntl46&C=Title",
+          Prefix.gospelMass + "Psalm&D=PNT46&C=Title",
           " مزمور(31:16-17)"
       ],
       [
@@ -3047,7 +3047,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Gospel&D=Pntl46&C=Title",
+          Prefix.gospelMass + "Gospel&D=PNT46&C=Title",
           " يوحنا ( 15 : 17 – 25 )"
       ],
       [
@@ -3056,7 +3056,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Psalm&D=Pntl47&C=Title",
+          Prefix.gospelMass + "Psalm&D=PNT47&C=Title",
           " مزمور (25:1-3)"
       ],
       [
@@ -3065,7 +3065,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Gospel&D=Pntl47&C=Title",
+          Prefix.gospelMass + "Gospel&D=PNT47&C=Title",
           " يوحنا ( 7 : 37 – 39 )"
       ],
       [
@@ -3074,7 +3074,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Psalm&D=Pntl48&C=Title",
+          Prefix.gospelMass + "Psalm&D=PNT48&C=Title",
           " مزمور (108:3-4)"
       ],
       [
@@ -3083,7 +3083,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Gospel&D=Pntl48&C=Title",
+          Prefix.gospelMass + "Gospel&D=PNT48&C=Title",
           " يوحنا ( 17 : 14 – 26 )"
       ],
       [
@@ -3092,7 +3092,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Psalm&D=Pntl4&C=Title",
+          Prefix.gospelMass + "Psalm&D=PNT4&C=Title",
           " مزمور( 106:48)"
       ],
       [
@@ -3101,7 +3101,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Gospel&D=024thSunday||Pntl4&C=Title",
+          Prefix.gospelMass + "Gospel&D=024thSunday||PNT4&C=Title",
           " لوقا ( 7 : 11 – 17 )"
       ],
       [
@@ -3110,7 +3110,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Psalm&D=Pntl4thSunday&C=Title",
+          Prefix.gospelMass + "Psalm&D=PNT4thSunday&C=Title",
           " مزمور118:14-16"
       ],
       [
@@ -3119,7 +3119,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Gospel&D=Pntl4thSunday&C=Title",
+          Prefix.gospelMass + "Gospel&D=PNT4thSunday&C=Title",
           " يوحنا )12 : 35 - 50 )"
       ],
       [
@@ -3128,7 +3128,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Psalm&D=Pntl5&C=Title",
+          Prefix.gospelMass + "Psalm&D=PNT5&C=Title",
           " مزمور (107:1-2)"
       ],
       [
@@ -3137,7 +3137,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Gospel&D=Pntl5&C=Title",
+          Prefix.gospelMass + "Gospel&D=PNT5&C=Title",
           " مرقس ( 16 : 2 – 8 )"
       ],
       [
@@ -3146,7 +3146,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Gospel&D=Pntl34||Pntl5thSunday&C=Title",
+          Prefix.gospelMass + "Gospel&D=PNT34||PNT5thSunday&C=Title",
           " يوحنا ( 14 : 1 - 11 )"
       ],
       [
@@ -3155,7 +3155,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Psalm&D=GL15||Pntl6&C=Title",
+          Prefix.gospelMass + "Psalm&D=GL15||PNT6&C=Title",
           " مزمور ( 118 : 19 -20 )"
       ],
       [
@@ -3164,7 +3164,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Gospel&D=Pntl6&C=Title",
+          Prefix.gospelMass + "Gospel&D=PNT6&C=Title",
           " لوقا (35-28 :9)"
       ],
       [
@@ -3173,7 +3173,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Psalm&D=Pntl6thSunday&C=Title",
+          Prefix.gospelMass + "Psalm&D=PNT6thSunday&C=Title",
           " مزمور147:12, 18"
       ],
       [
@@ -3182,7 +3182,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Gospel&D=Pntl37||Pntl6thSunday&C=Title",
+          Prefix.gospelMass + "Gospel&D=PNT37||PNT6thSunday&C=Title",
           " يوحنا ( 16 : 23 - 33)"
       ],
       [
@@ -3191,7 +3191,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Psalm&D=Pntl7thSunday||Pntl8thSunday&C=Title",
+          Prefix.gospelMass + "Psalm&D=PNT7thSunday||PNT8thSunday&C=Title",
           " مزمور 47:5, 7"
       ],
       [
@@ -3200,7 +3200,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Gospel&D=Pntl7thSunday||Pntl8thSunday&C=Title",
+          Prefix.gospelMass + "Gospel&D=PNT7thSunday||PNT8thSunday&C=Title",
           " يوحنا ( 15 : 26 – 16 : 15 )"
       ],
       [
@@ -3212,7 +3212,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Gospel&D=Pntl8&C=Title",
+          Prefix.gospelMass + "Gospel&D=PNT8&C=Title",
           "يوحنا ( 3 : 31 – 36 )"
       ],
       [
@@ -3221,7 +3221,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Psalm&D=Pntl9&C=Title",
+          Prefix.gospelMass + "Psalm&D=PNT9&C=Title",
           "مزمور (7: 6،8)"
       ],
       [
@@ -3230,7 +3230,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Gospel&D=Pntl9&C=Title",
+          Prefix.gospelMass + "Gospel&D=PNT9&C=Title",
           "يوحنا (5: 22–24)"
       ],
       [
@@ -3305,7 +3305,7 @@ ReadingsArrays.GospelMassArrayFR = [
   ],
   [
       [
-          Prefix.gospelMass + "Gospel&D=JFast4||Pntl3&C=Title",
+          Prefix.gospelMass + "Gospel&D=JFast4||PNT3&C=Title",
           "يوحنا (2: 12-25)"
       ],
       [

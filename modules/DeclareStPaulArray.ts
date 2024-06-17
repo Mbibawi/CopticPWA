@@ -424,7 +424,7 @@ ReadingsArrays.StPaulArrayFR= [[
     ],
     [
     [
-    Prefix.stPaul+"&D=1205||Pntl27&C=Title", 
+    Prefix.stPaul+"&D=1205||PNT27&C=Title", 
     ],
     [
     Prefix.readingRef+"EPH:1:1-14", 
@@ -552,7 +552,7 @@ ReadingsArrays.StPaulArrayFR= [[
     ],
     [
     [
-    Prefix.stPaul+"&D=Pntl29&C=Title", 
+    Prefix.stPaul+"&D=PNT29&C=Title", 
     ],
     [
     Prefix.readingRef+"ROM:4:4-9", 
@@ -720,7 +720,7 @@ ReadingsArrays.StPaulArrayFR= [[
     ],
     [
     [
-    Prefix.stPaul+"&D=3012||Pntl41&C=Title", 
+    Prefix.stPaul+"&D=3012||PNT41&C=Title", 
     ],
     [
     Prefix.readingRef+"EPH:4:8-16", 
@@ -1160,7 +1160,7 @@ ReadingsArrays.StPaulArrayFR= [[
     ],
     [
     [
-    Prefix.stPaul+"&D=Pntl10&C=Title", 
+    Prefix.stPaul+"&D=PNT10&C=Title", 
     ],
     [
     Prefix.readingRef+"ROM:1:11-13", 
@@ -1168,7 +1168,7 @@ ReadingsArrays.StPaulArrayFR= [[
     ],
     [
     [
-    Prefix.stPaul+"&D=Pntl11&C=Title", 
+    Prefix.stPaul+"&D=PNT11&C=Title", 
     ],
     [
     Prefix.readingRef+"ROM:1:16-17", 
@@ -1176,7 +1176,7 @@ ReadingsArrays.StPaulArrayFR= [[
     ],
     [
     [
-    Prefix.stPaul+"&D=Pntl12&C=Title", 
+    Prefix.stPaul+"&D=PNT12&C=Title", 
     ],
     [
     Prefix.readingRef+"ROM:1:19-21", 
@@ -1184,7 +1184,7 @@ ReadingsArrays.StPaulArrayFR= [[
     ],
     [
     [
-    Prefix.stPaul+"&D=Pntl13&C=Title", 
+    Prefix.stPaul+"&D=PNT13&C=Title", 
     ],
     [
     Prefix.readingRef+"2TI2:8-15", 
@@ -1192,7 +1192,7 @@ ReadingsArrays.StPaulArrayFR= [[
     ],
     [
     [
-    Prefix.stPaul+"&D=Pntl15&C=Title", 
+    Prefix.stPaul+"&D=PNT15&C=Title", 
     ],
     [
     Prefix.readingRef+"ROM:2:4-7", 
@@ -1200,7 +1200,7 @@ ReadingsArrays.StPaulArrayFR= [[
     ],
     [
     [
-    Prefix.stPaul+"&D=Pntl16&C=Title", 
+    Prefix.stPaul+"&D=PNT16&C=Title", 
     ],
     [
     Prefix.readingRef+"ROM:2:8-13", 
@@ -1208,7 +1208,7 @@ ReadingsArrays.StPaulArrayFR= [[
     ],
     [
     [
-    Prefix.stPaul+"&D=Pntl17&C=Title", 
+    Prefix.stPaul+"&D=PNT17&C=Title", 
     ],
     [
     Prefix.readingRef+"ROM:2:14-16", 
@@ -1216,7 +1216,7 @@ ReadingsArrays.StPaulArrayFR= [[
     ],
     [
     [
-    Prefix.stPaul+"&D=Pntl18&C=Title", 
+    Prefix.stPaul+"&D=PNT18&C=Title", 
     ],
     [
     Prefix.readingRef+"ROM:2:17-20", 
@@ -1224,7 +1224,7 @@ ReadingsArrays.StPaulArrayFR= [[
     ],
     [
     [
-    Prefix.stPaul+"&D=Pntl19&C=Title", 
+    Prefix.stPaul+"&D=PNT19&C=Title", 
     ],
     [
     Prefix.readingRef+"ROM:2:25-29", 
@@ -1232,7 +1232,7 @@ ReadingsArrays.StPaulArrayFR= [[
     ],
     [
     [
-    Prefix.stPaul+"&D=Pntl1&C=Title", 
+    Prefix.stPaul+"&D=PNT1&C=Title", 
     ],
     [
     Prefix.readingRef+"1TH:4:13-End/5:1-11", 
@@ -1240,7 +1240,7 @@ ReadingsArrays.StPaulArrayFR= [[
     ],
     [
     [
-    Prefix.stPaul+"&D=Pntl1stSunday&C=Title", 
+    Prefix.stPaul+"&D=PNT1stSunday&C=Title", 
     ],
     [
     Prefix.readingRef+"EPH:4:20-32", 
@@ -1248,7 +1248,7 @@ ReadingsArrays.StPaulArrayFR= [[
     ],
     [
     [
-    Prefix.stPaul+"&D=Pntl20&C=Title", 
+    Prefix.stPaul+"&D=PNT20&C=Title", 
     ],
     [
     Prefix.readingRef+"GAL:3:5-11", 
@@ -1256,7 +1256,7 @@ ReadingsArrays.StPaulArrayFR= [[
     ],
     [
     [
-    Prefix.stPaul+"&D=Pntl22&C=Title", 
+    Prefix.stPaul+"&D=PNT22&C=Title", 
     ],
     [
     Prefix.readingRef+"ROM:4:4-8", 
@@ -1264,7 +1264,7 @@ ReadingsArrays.StPaulArrayFR= [[
     ],
     [
     [
-    Prefix.stPaul+"&D=Pntl23&C=Title", 
+    Prefix.stPaul+"&D=PNT23&C=Title", 
     ],
     [
     Prefix.readingRef+"ROM:3:19-21", 
@@ -1272,7 +1272,7 @@ ReadingsArrays.StPaulArrayFR= [[
     ],
     [
     [
-    Prefix.stPaul+"&D=Pntl24&C=Title", 
+    Prefix.stPaul+"&D=PNT24&C=Title", 
     ],
     [
     Prefix.readingRef+"EPH:2:13-18", 
@@ -1280,7 +1280,7 @@ ReadingsArrays.StPaulArrayFR= [[
     ],
     [
     [
-    Prefix.stPaul+"&D=Pntl25&C=Title", 
+    Prefix.stPaul+"&D=PNT25&C=Title", 
     ],
     [
     Prefix.readingRef+"ROM:3:21-26", 
@@ -1288,7 +1288,7 @@ ReadingsArrays.StPaulArrayFR= [[
     ],
     [
     [
-    Prefix.stPaul+"&D=Pntl26&C=Title", 
+    Prefix.stPaul+"&D=PNT26&C=Title", 
     ],
     [
     Prefix.readingRef+"ROM:3:27-31", 
@@ -1296,7 +1296,7 @@ ReadingsArrays.StPaulArrayFR= [[
     ],
     [
     [
-    Prefix.stPaul+"&D=Pntl2ndSunday&C=Title", 
+    Prefix.stPaul+"&D=PNT2ndSunday&C=Title", 
     ],
     [
     Prefix.readingRef+"EPH:2:19-22/3:1-9", 
@@ -1304,7 +1304,7 @@ ReadingsArrays.StPaulArrayFR= [[
     ],
     [
     [
-    Prefix.stPaul+"&D=Pntl2&C=Title", 
+    Prefix.stPaul+"&D=PNT2&C=Title", 
     ],
     [
     Prefix.readingRef+"ROM:5:6-21", 
@@ -1312,7 +1312,7 @@ ReadingsArrays.StPaulArrayFR= [[
     ],
     [
     [
-    Prefix.stPaul+"&D=Pntl30&C=Title", 
+    Prefix.stPaul+"&D=PNT30&C=Title", 
     ],
     [
     Prefix.readingRef+"ROM:4:9-12", 
@@ -1320,7 +1320,7 @@ ReadingsArrays.StPaulArrayFR= [[
     ],
     [
     [
-    Prefix.stPaul+"&D=Pntl31&C=Title", 
+    Prefix.stPaul+"&D=PNT31&C=Title", 
     ],
     [
     Prefix.readingRef+"ROM:5:20-End/6:1-4", 
@@ -1328,7 +1328,7 @@ ReadingsArrays.StPaulArrayFR= [[
     ],
     [
     [
-    Prefix.stPaul+"&D=Pntl32&C=Title", 
+    Prefix.stPaul+"&D=PNT32&C=Title", 
     ],
     [
     Prefix.readingRef+"ROM:6:5-11", 
@@ -1336,7 +1336,7 @@ ReadingsArrays.StPaulArrayFR= [[
     ],
     [
     [
-    Prefix.stPaul+"&D=Pntl33&C=Title", 
+    Prefix.stPaul+"&D=PNT33&C=Title", 
     ],
     [
     Prefix.readingRef+"ROM:6:17-22", 
@@ -1344,7 +1344,7 @@ ReadingsArrays.StPaulArrayFR= [[
     ],
     [
     [
-    Prefix.stPaul+"&D=Pntl34&C=Title", 
+    Prefix.stPaul+"&D=PNT34&C=Title", 
     ],
     [
     Prefix.readingRef+"HEB:10:1-13", 
@@ -1352,7 +1352,7 @@ ReadingsArrays.StPaulArrayFR= [[
     ],
     [
     [
-    Prefix.stPaul+"&D=Pntl36&C=Title", 
+    Prefix.stPaul+"&D=PNT36&C=Title", 
     ],
     [
     Prefix.readingRef+"ROM:8:2-5", 
@@ -1360,7 +1360,7 @@ ReadingsArrays.StPaulArrayFR= [[
     ],
     [
     [
-    Prefix.stPaul+"&D=Pntl37&C=Title", 
+    Prefix.stPaul+"&D=PNT37&C=Title", 
     ],
     [
     Prefix.readingRef+"ROM:8:9-11", 
@@ -1368,7 +1368,7 @@ ReadingsArrays.StPaulArrayFR= [[
     ],
     [
     [
-    Prefix.stPaul+"&D=Pntl38&C=Title", 
+    Prefix.stPaul+"&D=PNT38&C=Title", 
     ],
     [
     Prefix.readingRef+"ROM:7:1-8", 
@@ -1376,7 +1376,7 @@ ReadingsArrays.StPaulArrayFR= [[
     ],
     [
     [
-    Prefix.stPaul+"&D=Pntl39&C=Title", 
+    Prefix.stPaul+"&D=PNT39&C=Title", 
     ],
     [
     Prefix.readingRef+"1TI:3:13-16", 
@@ -1384,7 +1384,7 @@ ReadingsArrays.StPaulArrayFR= [[
     ],
     [
     [
-    Prefix.stPaul+"&D=Pntl3rdSunday&C=Title", 
+    Prefix.stPaul+"&D=PNT3rdSunday&C=Title", 
     ],
     [
     Prefix.readingRef+"COL:3:1-17", 
@@ -1392,7 +1392,7 @@ ReadingsArrays.StPaulArrayFR= [[
     ],
     [
     [
-    Prefix.stPaul+"&D=Pntl3&C=Title", 
+    Prefix.stPaul+"&D=PNT3&C=Title", 
     ],
     [
     Prefix.readingRef+"1CO:15:50-58", 
@@ -1400,7 +1400,7 @@ ReadingsArrays.StPaulArrayFR= [[
     ],
     [
     [
-    Prefix.stPaul+"&D=Pntl40&C=Title", 
+    Prefix.stPaul+"&D=PNT40&C=Title", 
     ],
     [
     Prefix.readingRef+"1CO:11:2-16", 
@@ -1408,7 +1408,7 @@ ReadingsArrays.StPaulArrayFR= [[
     ],
     [
     [
-    Prefix.stPaul+"&D=Pntl43&C=Title", 
+    Prefix.stPaul+"&D=PNT43&C=Title", 
     ],
     [
     Prefix.readingRef+"ROM:8:12-17", 
@@ -1416,7 +1416,7 @@ ReadingsArrays.StPaulArrayFR= [[
     ],
     [
     [
-    Prefix.stPaul+"&D=Pntl44&C=Title", 
+    Prefix.stPaul+"&D=PNT44&C=Title", 
     ],
     [
     Prefix.readingRef+"ROM:8:22-27", 
@@ -1424,7 +1424,7 @@ ReadingsArrays.StPaulArrayFR= [[
     ],
     [
     [
-    Prefix.stPaul+"&D=Pntl45&C=Title", 
+    Prefix.stPaul+"&D=PNT45&C=Title", 
     ],
     [
     Prefix.readingRef+"ROM:8:28-39", 
@@ -1432,7 +1432,7 @@ ReadingsArrays.StPaulArrayFR= [[
     ],
     [
     [
-    Prefix.stPaul+"&D=Pntl46&C=Title", 
+    Prefix.stPaul+"&D=PNT46&C=Title", 
     ],
     [
     Prefix.readingRef+"1CO:14:5-11", 
@@ -1440,7 +1440,7 @@ ReadingsArrays.StPaulArrayFR= [[
     ],
     [
     [
-    Prefix.stPaul+"&D=Pntl47&C=Title", 
+    Prefix.stPaul+"&D=PNT47&C=Title", 
     ],
     [
     Prefix.readingRef+"1CO:14:12-17", 
@@ -1448,7 +1448,7 @@ ReadingsArrays.StPaulArrayFR= [[
     ],
     [
     [
-    Prefix.stPaul+"&D=Pntl48&C=Title", 
+    Prefix.stPaul+"&D=PNT48&C=Title", 
     ],
     [
     Prefix.readingRef+"1CO:13:1-13/14:1-4", 
@@ -1456,7 +1456,7 @@ ReadingsArrays.StPaulArrayFR= [[
     ],
     [
     [
-    Prefix.stPaul+"&D=Pntl4&C=Title", 
+    Prefix.stPaul+"&D=PNT4&C=Title", 
     ],
     [
     Prefix.readingRef+"EPH:1:15-End/2:1-3", 
@@ -1464,7 +1464,7 @@ ReadingsArrays.StPaulArrayFR= [[
     ],
     [
     [
-    Prefix.stPaul+"&D=Pntl4thSunday&C=Title", 
+    Prefix.stPaul+"&D=PNT4thSunday&C=Title", 
     ],
     [
     Prefix.readingRef+"2TH:2:13-End/3:1-5", 
@@ -1472,7 +1472,7 @@ ReadingsArrays.StPaulArrayFR= [[
     ],
     [
     [
-    Prefix.stPaul+"&D=Pntl5&C=Title", 
+    Prefix.stPaul+"&D=PNT5&C=Title", 
     ],
     [
     Prefix.readingRef+"HEB:13:10-21", 
@@ -1480,7 +1480,7 @@ ReadingsArrays.StPaulArrayFR= [[
     ],
     [
     [
-    Prefix.stPaul+"&D=Pntl5thSunday&C=Title", 
+    Prefix.stPaul+"&D=PNT5thSunday&C=Title", 
     ],
     [
     Prefix.readingRef+"HEB:10:19-38", 
@@ -1488,7 +1488,7 @@ ReadingsArrays.StPaulArrayFR= [[
     ],
     [
     [
-    Prefix.stPaul+"&D=Pntl6&C=Title", 
+    Prefix.stPaul+"&D=PNT6&C=Title", 
     ],
     [
     Prefix.readingRef+"COL:1:12-23", 
@@ -1496,7 +1496,7 @@ ReadingsArrays.StPaulArrayFR= [[
     ],
     [
     [
-    Prefix.stPaul+"&D=Pntl6thSunday&C=Title", 
+    Prefix.stPaul+"&D=PNT6thSunday&C=Title", 
     ],
     [
     Prefix.readingRef+"1CO:15:57-End/16:1-8", 
@@ -1504,7 +1504,7 @@ ReadingsArrays.StPaulArrayFR= [[
     ],
     [
     [
-    Prefix.stPaul+"&D=Pntl7thSunday||Pntl8thSunday&C=Title", 
+    Prefix.stPaul+"&D=PNT7thSunday||PNT8thSunday&C=Title", 
     ],
     [
     Prefix.readingRef+"1CO:12:1-21", 
@@ -1512,7 +1512,7 @@ ReadingsArrays.StPaulArrayFR= [[
     ],
     [
     [
-    Prefix.stPaul+"&D=Pntl8&C=Title", 
+    Prefix.stPaul+"&D=PNT8&C=Title", 
     ],
     [
     Prefix.readingRef+"ROM:1:1-4", 
@@ -1520,7 +1520,7 @@ ReadingsArrays.StPaulArrayFR= [[
     ],
     [
     [
-    Prefix.stPaul+"&D=Pntl9&C=Title", 
+    Prefix.stPaul+"&D=PNT9&C=Title", 
     ],
     [
     Prefix.readingRef+"ROM:1:7-10", 

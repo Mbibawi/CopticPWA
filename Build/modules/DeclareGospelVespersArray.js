@@ -1872,7 +1872,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Psalm&D=Pntl10&C=Title",
+            Prefix.gospelVespers + "Psalm&D=PNT10&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:41:2",
@@ -1880,7 +1880,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Gospel&D=Pntl10&C=Title",
+            Prefix.gospelVespers + "Gospel&D=PNT10&C=Title",
         ],
         [
             Prefix.readingRef + "MAT:9:36-38",
@@ -1888,7 +1888,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Psalm&D=Pntl11&C=Title",
+            Prefix.gospelVespers + "Psalm&D=PNT11&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:90:14",
@@ -1896,7 +1896,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Gospel&D=Pntl11&C=Title",
+            Prefix.gospelVespers + "Gospel&D=PNT11&C=Title",
         ],
         [
             Prefix.readingRef + "MAT:11:11-15",
@@ -1904,7 +1904,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Psalm&D=Pntl12&C=Title",
+            Prefix.gospelVespers + "Psalm&D=PNT12&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:16:9",
@@ -1912,7 +1912,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Gospel&D=Pntl12&C=Title",
+            Prefix.gospelVespers + "Gospel&D=PNT12&C=Title",
         ],
         [
             Prefix.readingRef + "MAT:17:14-18",
@@ -1920,7 +1920,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Psalm&D=Pntl13&C=Title",
+            Prefix.gospelVespers + "Psalm&D=PNT13&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:42:8-8/42:11-11",
@@ -1928,7 +1928,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Gospel&D=Pntl13&C=Title",
+            Prefix.gospelVespers + "Gospel&D=PNT13&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:18:35-43",
@@ -1936,7 +1936,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Psalm&D=Pntl15&C=Title",
+            Prefix.gospelVespers + "Psalm&D=PNT15&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:96:5-6",
@@ -1944,7 +1944,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Gospel&D=Pntl15&C=Title",
+            Prefix.gospelVespers + "Gospel&D=PNT15&C=Title",
         ],
         [
             Prefix.readingRef + "MAT:18:1-5",
@@ -1952,7 +1952,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Psalm&D=Pntl16&C=Title",
+            Prefix.gospelVespers + "Psalm&D=PNT16&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:57:6",
@@ -1960,7 +1960,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Gospel&D=Pntl16&C=Title",
+            Prefix.gospelVespers + "Gospel&D=PNT16&C=Title",
         ],
         [
             Prefix.readingRef + "MAT:18:6-7",
@@ -1968,7 +1968,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Psalm&D=Pntl17&C=Title",
+            Prefix.gospelVespers + "Psalm&D=PNT17&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:44:23-23/44:26-26",
@@ -1976,7 +1976,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Gospel&D=Pntl17&C=Title",
+            Prefix.gospelVespers + "Gospel&D=PNT17&C=Title",
         ],
         [
             Prefix.readingRef + "MAT:20:29-34",
@@ -1984,7 +1984,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Psalm&D=Pntl18&C=Title",
+            Prefix.gospelVespers + "Psalm&D=PNT18&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:101:1-2/101:4-4",
@@ -1992,7 +1992,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Gospel&D=Pntl18&C=Title",
+            Prefix.gospelVespers + "Gospel&D=PNT18&C=Title",
         ],
         [
             Prefix.readingRef + "MAT:13:53-58",
@@ -2000,7 +2000,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Psalm&D=Pntl19&C=Title",
+            Prefix.gospelVespers + "Psalm&D=PNT19&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:146:7-8",
@@ -2008,7 +2008,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Gospel&D=Pntl19&C=Title",
+            Prefix.gospelVespers + "Gospel&D=PNT19&C=Title",
         ],
         [
             Prefix.readingRef + "MAT:11:20-24",
@@ -2016,7 +2016,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Psalm&D=Pntl1&C=Title",
+            Prefix.gospelVespers + "Psalm&D=PNT1&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:96:10",
@@ -2024,7 +2024,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Gospel&D=Pntl1&C=Title",
+            Prefix.gospelVespers + "Gospel&D=PNT1&C=Title",
         ],
         [
             Prefix.readingRef + "JHN:20:19-23",
@@ -2032,7 +2032,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Psalm&D=Pntl1stSunday&C=Title",
+            Prefix.gospelVespers + "Psalm&D=PNT1stSunday&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:33:3-4",
@@ -2040,7 +2040,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Gospel&D=Pntl1stSunday&C=Title",
+            Prefix.gospelVespers + "Gospel&D=PNT1stSunday&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:5:1-11",
@@ -2048,7 +2048,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Psalm&D=Pntl20&C=Title",
+            Prefix.gospelVespers + "Psalm&D=PNT20&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:32:8",
@@ -2056,7 +2056,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Gospel&D=Pntl20&C=Title",
+            Prefix.gospelVespers + "Gospel&D=PNT20&C=Title",
         ],
         [
             Prefix.readingRef + "15:29-31",
@@ -2064,7 +2064,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Psalm&D=Pntl22&C=Title",
+            Prefix.gospelVespers + "Psalm&D=PNT22&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:43:5",
@@ -2072,7 +2072,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Gospel&D=Pntl22&C=Title",
+            Prefix.gospelVespers + "Gospel&D=PNT22&C=Title",
         ],
         [
             Prefix.readingRef + "MRK:16:17-20",
@@ -2080,7 +2080,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Psalm&D=Pntl23&C=Title",
+            Prefix.gospelVespers + "Psalm&D=PNT23&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:67:1-2",
@@ -2088,7 +2088,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Gospel&D=Pntl23&C=Title",
+            Prefix.gospelVespers + "Gospel&D=PNT23&C=Title",
         ],
         [
             Prefix.readingRef + "MRK:4:35-41",
@@ -2096,7 +2096,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Psalm&D=Pntl24&C=Title",
+            Prefix.gospelVespers + "Psalm&D=PNT24&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:119:49-50",
@@ -2104,7 +2104,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Gospel&D=Pntl24&C=Title",
+            Prefix.gospelVespers + "Gospel&D=PNT24&C=Title",
         ],
         [
             Prefix.readingRef + "MRK:6:47-52",
@@ -2112,7 +2112,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Psalm&D=Pntl25&C=Title",
+            Prefix.gospelVespers + "Psalm&D=PNT25&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:127:2-3",
@@ -2120,7 +2120,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Gospel&D=Pntl25&C=Title",
+            Prefix.gospelVespers + "Gospel&D=PNT25&C=Title",
         ],
         [
             Prefix.readingRef + "MRK:7:1-4",
@@ -2128,7 +2128,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Psalm&D=Pntl26&C=Title",
+            Prefix.gospelVespers + "Psalm&D=PNT26&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:70:1-2",
@@ -2136,7 +2136,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Gospel&D=Pntl26&C=Title",
+            Prefix.gospelVespers + "Gospel&D=PNT26&C=Title",
         ],
         [
             Prefix.readingRef + "MRK:8:10-15",
@@ -2144,7 +2144,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Psalm&D=Pntl27&C=Title",
+            Prefix.gospelVespers + "Psalm&D=PNT27&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:129:1-2",
@@ -2152,7 +2152,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Gospel&D=Pntl27&C=Title",
+            Prefix.gospelVespers + "Gospel&D=PNT27&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:11:17-23",
@@ -2160,7 +2160,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Psalm&D=Pntl29&C=Title",
+            Prefix.gospelVespers + "Psalm&D=PNT29&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:42:5",
@@ -2168,7 +2168,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Gospel&D=Pntl29&C=Title",
+            Prefix.gospelVespers + "Gospel&D=PNT29&C=Title",
         ],
         [
             Prefix.readingRef + "MRK:5:21-43",
@@ -2176,7 +2176,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Psalm&D=Pntl2&C=Title",
+            Prefix.gospelVespers + "Psalm&D=PNT2&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:92:4-5",
@@ -2184,7 +2184,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Gospel&D=Pntl2&C=Title",
+            Prefix.gospelVespers + "Gospel&D=PNT2&C=Title",
         ],
         [
             Prefix.readingRef + "JHN:6:15-22",
@@ -2192,7 +2192,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Psalm&D=Pntl2ndSunday&C=Title",
+            Prefix.gospelVespers + "Psalm&D=PNT2ndSunday&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:111:1-2",
@@ -2200,7 +2200,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Gospel&D=Pntl2ndSunday&C=Title",
+            Prefix.gospelVespers + "Gospel&D=PNT2ndSunday&C=Title",
         ],
         [
             Prefix.readingRef + "JHN:6:16-23",
@@ -2208,7 +2208,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Psalm&D=Pntl30&C=Title",
+            Prefix.gospelVespers + "Psalm&D=PNT30&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:118:1-2",
@@ -2216,7 +2216,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Gospel&D=Pntl30&C=Title",
+            Prefix.gospelVespers + "Gospel&D=PNT30&C=Title",
         ],
         [
             Prefix.readingRef + "JHN:3:31-36",
@@ -2224,7 +2224,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Psalm&D=Pntl31&C=Title",
+            Prefix.gospelVespers + "Psalm&D=PNT31&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:19:2-2/19:4-4",
@@ -2232,7 +2232,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Gospel&D=Pntl31&C=Title",
+            Prefix.gospelVespers + "Gospel&D=PNT31&C=Title",
         ],
         [
             Prefix.readingRef + "MRK:12:35-40",
@@ -2240,7 +2240,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Psalm&D=Pntl32&C=Title",
+            Prefix.gospelVespers + "Psalm&D=PNT32&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:18:46-47",
@@ -2248,7 +2248,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Gospel&D=Pntl32&C=Title",
+            Prefix.gospelVespers + "Gospel&D=PNT32&C=Title",
         ],
         [
             Prefix.readingRef + "JHN:6:70-End/7:1-1",
@@ -2256,7 +2256,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Psalm&D=Pntl33&C=Title",
+            Prefix.gospelVespers + "Psalm&D=PNT33&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:118:8-9",
@@ -2264,7 +2264,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Gospel&D=Pntl33&C=Title",
+            Prefix.gospelVespers + "Gospel&D=PNT33&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:14:7-11",
@@ -2272,7 +2272,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Psalm&D=Pntl34&C=Title",
+            Prefix.gospelVespers + "Psalm&D=PNT34&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:135:19-20",
@@ -2280,7 +2280,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Gospel&D=Pntl34&C=Title",
+            Prefix.gospelVespers + "Gospel&D=PNT34&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:14:1-6",
@@ -2288,7 +2288,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Psalm&D=Pntl36&C=Title",
+            Prefix.gospelVespers + "Psalm&D=PNT36&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:47:1",
@@ -2296,7 +2296,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Gospel&D=Pntl36&C=Title",
+            Prefix.gospelVespers + "Gospel&D=PNT36&C=Title",
         ],
         [
             Prefix.readingRef + "MRK:6:30-34",
@@ -2304,7 +2304,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Psalm&D=Pntl37&C=Title",
+            Prefix.gospelVespers + "Psalm&D=PNT37&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:47:4-5",
@@ -2312,7 +2312,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Gospel&D=Pntl37&C=Title",
+            Prefix.gospelVespers + "Gospel&D=PNT37&C=Title",
         ],
         [
             Prefix.readingRef + "MRK:9:14-29",
@@ -2320,7 +2320,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Psalm&D=Pntl38&C=Title",
+            Prefix.gospelVespers + "Psalm&D=PNT38&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:23:5",
@@ -2328,7 +2328,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Gospel&D=Pntl38&C=Title",
+            Prefix.gospelVespers + "Gospel&D=PNT38&C=Title",
         ],
         [
             Prefix.readingRef + "MRK:9:33-37",
@@ -2336,7 +2336,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Psalm&D=Pntl39&C=Title",
+            Prefix.gospelVespers + "Psalm&D=PNT39&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:68:32-34",
@@ -2344,7 +2344,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Gospel&D=Pntl39&C=Title",
+            Prefix.gospelVespers + "Gospel&D=PNT39&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:9:51-62",
@@ -2352,7 +2352,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Psalm&D=Pntl3&C=Title",
+            Prefix.gospelVespers + "Psalm&D=PNT3&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:30:5-7",
@@ -2360,7 +2360,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Gospel&D=Pntl3&C=Title",
+            Prefix.gospelVespers + "Gospel&D=PNT3&C=Title",
         ],
         [
             Prefix.readingRef + "MAT:9:15-17",
@@ -2368,7 +2368,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Psalm&D=Pntl3rdSunday&C=Title",
+            Prefix.gospelVespers + "Psalm&D=PNT3rdSunday&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:116:1-2",
@@ -2376,7 +2376,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Gospel&D=Pntl3rdSunday&C=Title",
+            Prefix.gospelVespers + "Gospel&D=PNT3rdSunday&C=Title",
         ],
         [
             Prefix.readingRef + "JHN:8:12-20",
@@ -2384,7 +2384,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Psalm&D=Pntl40&C=Title",
+            Prefix.gospelVespers + "Psalm&D=PNT40&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:99:1-2",
@@ -2392,7 +2392,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Gospel&D=Pntl40&C=Title",
+            Prefix.gospelVespers + "Gospel&D=PNT40&C=Title",
         ],
         [
             Prefix.readingRef + "MRK:8:34-End/9:1-1",
@@ -2400,7 +2400,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Psalm&D=Pntl41&C=Title",
+            Prefix.gospelVespers + "Psalm&D=PNT41&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:51:10-10",
@@ -2408,7 +2408,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Gospel&D=Pntl41&C=Title",
+            Prefix.gospelVespers + "Gospel&D=PNT41&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:11:53-End/12:1-3",
@@ -2416,7 +2416,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Psalm&D=Pntl43&C=Title",
+            Prefix.gospelVespers + "Psalm&D=PNT43&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:22:2-2",
@@ -2424,7 +2424,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Gospel&D=Pntl43&C=Title",
+            Prefix.gospelVespers + "Gospel&D=PNT43&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:4:38-41",
@@ -2432,7 +2432,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Psalm&D=Pntl44&C=Title",
+            Prefix.gospelVespers + "Psalm&D=PNT44&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:48:1-1",
@@ -2440,7 +2440,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Gospel&D=Pntl44&C=Title",
+            Prefix.gospelVespers + "Gospel&D=PNT44&C=Title",
         ],
         [
             Prefix.readingRef + "MRK:9:14-29",
@@ -2448,7 +2448,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Psalm&D=Pntl45&C=Title",
+            Prefix.gospelVespers + "Psalm&D=PNT45&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:119:130-130",
@@ -2456,7 +2456,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Gospel&D=Pntl45&C=Title",
+            Prefix.gospelVespers + "Gospel&D=PNT45&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:7:18-23",
@@ -2464,7 +2464,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Psalm&D=Pntl46&C=Title",
+            Prefix.gospelVespers + "Psalm&D=PNT46&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:132:4-5",
@@ -2472,7 +2472,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Gospel&D=Pntl46&C=Title",
+            Prefix.gospelVespers + "Gospel&D=PNT46&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:8:22-25",
@@ -2480,7 +2480,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Psalm&D=Pntl47&C=Title",
+            Prefix.gospelVespers + "Psalm&D=PNT47&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:42:8-8",
@@ -2488,7 +2488,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Gospel&D=Pntl47&C=Title",
+            Prefix.gospelVespers + "Gospel&D=PNT47&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:11:24-26",
@@ -2496,7 +2496,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Psalm&D=Pntl48&C=Title",
+            Prefix.gospelVespers + "Psalm&D=PNT48&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:107:2-3",
@@ -2504,7 +2504,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Gospel&D=Pntl48&C=Title",
+            Prefix.gospelVespers + "Gospel&D=PNT48&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:8:40-56",
@@ -2512,7 +2512,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Psalm&D=Pntl4&C=Title",
+            Prefix.gospelVespers + "Psalm&D=PNT4&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:97:8-9",
@@ -2520,7 +2520,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Gospel&D=Pntl4&C=Title",
+            Prefix.gospelVespers + "Gospel&D=PNT4&C=Title",
         ],
         [
             Prefix.readingRef + "MRK:2:3-13",
@@ -2528,7 +2528,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Psalm&D=Pntl4thSunday&C=Title",
+            Prefix.gospelVespers + "Psalm&D=PNT4thSunday&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:118:1-2",
@@ -2536,7 +2536,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Gospel&D=Pntl4thSunday&C=Title",
+            Prefix.gospelVespers + "Gospel&D=PNT4thSunday&C=Title",
         ],
         [
             Prefix.readingRef + "JHN:6:57-69",
@@ -2544,7 +2544,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Psalm&D=Pntl5&C=Title",
+            Prefix.gospelVespers + "Psalm&D=PNT5&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:12:4-5",
@@ -2552,7 +2552,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Gospel&D=Pntl5&C=Title",
+            Prefix.gospelVespers + "Gospel&D=PNT5&C=Title",
         ],
         [
             Prefix.readingRef + "LUK:4:38-42",
@@ -2560,7 +2560,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Psalm&D=Pntl5thSunday&C=Title",
+            Prefix.gospelVespers + "Psalm&D=PNT5thSunday&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:135:6-6/135:21-21",
@@ -2568,7 +2568,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Gospel&D=Pntl5thSunday&C=Title",
+            Prefix.gospelVespers + "Gospel&D=PNT5thSunday&C=Title",
         ],
         [
             Prefix.readingRef + "JHN:14:21-25",
@@ -2576,7 +2576,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Psalm&D=Pntl6&C=Title",
+            Prefix.gospelVespers + "Psalm&D=PNT6&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:119:10-11",
@@ -2584,7 +2584,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Gospel&D=Pntl6&C=Title",
+            Prefix.gospelVespers + "Gospel&D=PNT6&C=Title",
         ],
         [
             Prefix.readingRef + "JHN:6:54-58",
@@ -2592,7 +2592,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Psalm&D=Pntl6thSunday&C=Title",
+            Prefix.gospelVespers + "Psalm&D=PNT6thSunday&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:146:1-2/146:10-10",
@@ -2600,7 +2600,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Gospel&D=Pntl6thSunday&C=Title",
+            Prefix.gospelVespers + "Gospel&D=PNT6thSunday&C=Title",
         ],
         [
             Prefix.readingRef + "MRK:12:28-37",
@@ -2608,7 +2608,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Psalm&D=Pntl7thSunday&C=Title",
+            Prefix.gospelVespers + "Psalm&D=PNT7thSunday&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:51:12-12/51:14-14",
@@ -2616,7 +2616,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Gospel&D=Pntl7thSunday&C=Title",
+            Prefix.gospelVespers + "Gospel&D=PNT7thSunday&C=Title",
         ],
         [
             Prefix.readingRef + "JHN:7:37-44",
@@ -2624,7 +2624,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Psalm&D=Pntl8&C=Title",
+            Prefix.gospelVespers + "Psalm&D=PNT8&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:27:13-14",
@@ -2632,7 +2632,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Gospel&D=Pntl8&C=Title",
+            Prefix.gospelVespers + "Gospel&D=PNT8&C=Title",
         ],
         [
             Prefix.readingRef + "MAT:14:23-33",
@@ -2640,7 +2640,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Psalm&D=Pntl8thSunday&C=Title",
+            Prefix.gospelVespers + "Psalm&D=PNT8thSunday&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:51:12-12/51:14-14",
@@ -2648,7 +2648,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Gospel&D=Pntl8thSunday&C=Title",
+            Prefix.gospelVespers + "Gospel&D=PNT8thSunday&C=Title",
         ],
         [
             Prefix.readingRef + "JHN:7:37-44",
@@ -2656,7 +2656,7 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Psalm&D=Pntl9&C=Title",
+            Prefix.gospelVespers + "Psalm&D=PNT9&C=Title",
         ],
         [
             Prefix.readingRef + "PSA:9:19",
@@ -2664,11 +2664,11 @@ ReadingsArrays.GospelVespersArrayFR = [[
     ],
     [
         [
-            Prefix.gospelVespers + "Gospel&D=Pntl9&C=Title",
+            Prefix.gospelVespers + "Gospel&D=PNT9&C=Title",
         ],
         [
             Prefix.readingRef + "MAT:17:19-23",
         ],
     ],
 ];
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRGVjbGFyZUdvc3BlbFZlc3BlcnNBcnJheS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uL21vZHVsZXMvRGVjbGFyZUdvc3BlbFZlc3BlcnNBcnJheS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxjQUFjLENBQUMsb0JBQW9CLEdBQUUsQ0FBQztRQUNwQztZQUNBLE1BQU0sQ0FBQyxhQUFhLEdBQUMsc0JBQXNCO1NBQzFDO1FBQ0Q7WUFDQSxNQUFNLENBQUMsVUFBVSxHQUFDLFlBQVk7U0FDN0I7S0FDQTtJQUNEO1FBQ0E7WUFDQSxNQUFNLENBQUMsYUFBYSxHQUFDLHVCQUF1QjtTQUMzQztRQUNEO1lBQ0EsTUFBTSxDQUFDLFVBQVUsR0FBQyxjQUFjO1NBQy9CO0tBQ0E7SUFDRDtRQUNBO1lBQ0EsTUFBTSxDQUFDLGFBQWEsR0FBQyw2QkFBNkI7U0FDakQ7UUFDRDtZQUNBLE1BQU0sQ0FBQyxVQUFVLEdBQUMscUJBQXFCO1NBQ3RDO0tBQ0E7SUFDRDtRQUNBO1lBQ0EsTUFBTSxDQUFDLGFBQWEsR0FBQyw4QkFBOEI7U0FDbEQ7UUFDRDtZQUNBLE1BQU0sQ0FBQyxVQUFVLEdBQUMsVUFBVTtTQUMzQjtLQUNBO0lBQ0Q7UUFDQTtZQUNBLE1BQU0sQ0FBQyxhQUFhLEdBQUMsNkJBQTZCO1NBQ2pEO1FBQ0Q7WUFDQSxNQUFNLENBQUMsVUFBVSxHQUFDLGFBQWE7U0FDOUI7S0FDQTtJQUNEO1FBQ0E7WUFDQSxNQUFNLENBQUMsYUFBYSxHQUFDLDhCQUE4QjtTQUNsRDtRQUNEO1lBQ0EsTUFBTSxDQUFDLFVBQVUsR0FBQyxhQUFhO1NBQzlCO0tBQ0E7SUFDRDtRQUNBO1lBQ0EsTUFBTSxDQUFDLGFBQWEsR0FBQyw2QkFBNkI7U0FDakQ7UUFDRDtZQUNBLE1BQU0sQ0FBQyxVQUFVLEdBQUMsV0FBVztTQUM1QjtLQUNBO0lBQ0Q7UUFDQTtZQUNBLE1BQU0sQ0FBQyxhQUFhLEdBQUMsOEJBQThCO1NBQ2xEO1FBQ0Q7WUFDQSxNQUFNLENB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QUFNLENBQUMsVUFBVSxHQUFDLE1BQU07U0FDdkI7S0FDQTtJQUNEO1FBQ0E7WUFDQSxNQUFNLENBQUMsYUFBYSxHQUFDLHVCQUF1QjtTQUMzQztRQUNEO1lBQ0EsTUFBTSxDQUFDLFVBQVUsR0FBQyxLQUFLO1NBQ3RCO0tBQ0E7SUFDRDtRQUNBO1lBQ0EsTUFBTSxDQUFDLGFBQWEsR0FBQyxzQkFBc0I7U0FDMUM7UUFDRDtZQUNBLE1BQU0sQ0FBQyxVQUFVLEdBQUMsTUFBTTtTQUN2QjtLQUNBO0lBQ0Q7UUFDQTtZQUNBLE1BQU0sQ0FBQyxhQUFhLEdBQUMsdUJBQXVCO1NBQzNDO1FBQ0Q7WUFDQSxNQUFNLENBQUMsVUFBVSxHQUFDLEtBQUs7U0FDdEI7S0FDQTtJQUNEO1FBQ0E7WUFDQSxNQUFNLENBQUMsYUFBYSxHQUFDLHNCQUFzQjtTQUMxQztRQUNEO1lBQ0EsTUFBTSxDQUFDLFVBQVUsR0FBQyxNQUFNO1NBQ3ZCO0tBQ0E7SUFDRDtRQUNBO1lBQ0EsTUFBTSxDQUFDLGFBQWEsR0FBQyx1QkFBdUI7U0FDM0M7UUFDRDtZQUNBLE1BQU0sQ0FBQyxVQUFVLEdBQUMsS0FBSztTQUN0QjtLQUNBO0lBQ0Q7UUFDQTtZQUNBLE1BQU0sQ0FBQyxhQUFhLEdBQUMsc0JBQXNCO1NBQzFDO1FBQ0Q7WUFDQSxNQUFNLENBQUMsVUFBVSxHQUFDLE1BQU07U0FDdkI7S0FDQTtJQUNEO1FBQ0E7WUFDQSxNQUFNLENBQUMsYUFBYSxHQUFDLHVCQUF1QjtTQUMzQztRQUNEO1lBQ0EsTUFBTSxDQUFDLFVBQVUsR0FBQyxLQUFLO1NBQ3RCO0tBQ0E7SUFDRDtRQUNBO1lBQ0EsTUFBTSxDQUFDLGFBQWEsR0FBQyxzQkFBc0I7U0FDMUM7UUFDRDtZQUNBLE1BQU0sQ0FBQyxVQUFVLEdBQUMsTUFBTTtTQUN2QjtLQUNBO0lBQ0Q7UUFDQTtZQUNBLE1BQU0sQ0FBQyxhQUFhLEdBQUMsdUJBQXVCO1NBQzNDO1FBQ0Q7WUFDQSxNQUFNLENBQUMsVUFBVSxHQUFDLEtBQUs7U0FDdEI7S0FDQTtJQUNEO1FBQ0E7WUFDQSxNQUFN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
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRGVjbGFyZUdvc3BlbFZlc3BlcnNBcnJheS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uL21vZHVsZXMvRGVjbGFyZUdvc3BlbFZlc3BlcnNBcnJheS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxjQUFjLENBQUMsb0JBQW9CLEdBQUUsQ0FBQztRQUNwQztZQUNBLE1BQU0sQ0FBQyxhQUFhLEdBQUMsc0JBQXNCO1NBQzFDO1FBQ0Q7WUFDQSxNQUFNLENBQUMsVUFBVSxHQUFDLFlBQVk7U0FDN0I7S0FDQTtJQUNEO1FBQ0E7WUFDQSxNQUFNLENBQUMsYUFBYSxHQUFDLHVCQUF1QjtTQUMzQztRQUNEO1lBQ0EsTUFBTSxDQUFDLFVBQVUsR0FBQyxjQUFjO1NBQy9CO0tBQ0E7SUFDRDtRQUNBO1lBQ0EsTUFBTSxDQUFDLGFBQWEsR0FBQyw2QkFBNkI7U0FDakQ7UUFDRDtZQUNBLE1BQU0sQ0FBQyxVQUFVLEdBQUMscUJBQXFCO1NBQ3RDO0tBQ0E7SUFDRDtRQUNBO1lBQ0EsTUFBTSxDQUFDLGFBQWEsR0FBQyw4QkFBOEI7U0FDbEQ7UUFDRDtZQUNBLE1BQU0sQ0FBQyxVQUFVLEdBQUMsVUFBVTtTQUMzQjtLQUNBO0lBQ0Q7UUFDQTtZQUNBLE1BQU0sQ0FBQyxhQUFhLEdBQUMsNkJBQTZCO1NBQ2pEO1FBQ0Q7WUFDQSxNQUFNLENBQUMsVUFBVSxHQUFDLGFBQWE7U0FDOUI7S0FDQTtJQUNEO1FBQ0E7WUFDQSxNQUFNLENBQUMsYUFBYSxHQUFDLDhCQUE4QjtTQUNsRDtRQUNEO1lBQ0EsTUFBTSxDQUFDLFVBQVUsR0FBQyxhQUFhO1NBQzlCO0tBQ0E7SUFDRDtRQUNBO1lBQ0EsTUFBTSxDQUFDLGFBQWEsR0FBQyw2QkFBNkI7U0FDakQ7UUFDRDtZQUNBLE1BQU0sQ0FBQyxVQUFVLEdBQUMsV0FBVztTQUM1QjtLQUNBO0lBQ0Q7UUFDQTtZQUNBLE1BQU0sQ0FBQyxhQUFhLEdBQUMsOEJBQThCO1NBQ2xEO1FBQ0Q7WUFDQSxNQUFNLENB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QUFNLENBQUMsVUFBVSxHQUFDLE1BQU07U0FDdkI7S0FDQTtJQUNEO1FBQ0E7WUFDQSxNQUFNLENBQUMsYUFBYSxHQUFDLHVCQUF1QjtTQUMzQztRQUNEO1lBQ0EsTUFBTSxDQUFDLFVBQVUsR0FBQyxLQUFLO1NBQ3RCO0tBQ0E7SUFDRDtRQUNBO1lBQ0EsTUFBTSxDQUFDLGFBQWEsR0FBQyxzQkFBc0I7U0FDMUM7UUFDRDtZQUNBLE1BQU0sQ0FBQyxVQUFVLEdBQUMsTUFBTTtTQUN2QjtLQUNBO0lBQ0Q7UUFDQTtZQUNBLE1BQU0sQ0FBQyxhQUFhLEdBQUMsdUJBQXVCO1NBQzNDO1FBQ0Q7WUFDQSxNQUFNLENBQUMsVUFBVSxHQUFDLEtBQUs7U0FDdEI7S0FDQTtJQUNEO1FBQ0E7WUFDQSxNQUFNLENBQUMsYUFBYSxHQUFDLHNCQUFzQjtTQUMxQztRQUNEO1lBQ0EsTUFBTSxDQUFDLFVBQVUsR0FBQyxNQUFNO1NBQ3ZCO0tBQ0E7SUFDRDtRQUNBO1lBQ0EsTUFBTSxDQUFDLGFBQWEsR0FBQyx1QkFBdUI7U0FDM0M7UUFDRDtZQUNBLE1BQU0sQ0FBQyxVQUFVLEdBQUMsS0FBSztTQUN0QjtLQUNBO0lBQ0Q7UUFDQTtZQUNBLE1BQU0sQ0FBQyxhQUFhLEdBQUMsc0JBQXNCO1NBQzFDO1FBQ0Q7WUFDQSxNQUFNLENBQUMsVUFBVSxHQUFDLE1BQU07U0FDdkI7S0FDQTtJQUNEO1FBQ0E7WUFDQSxNQUFNLENBQUMsYUFBYSxHQUFDLHVCQUF1QjtTQUMzQztRQUNEO1lBQ0EsTUFBTSxDQUFDLFVBQVUsR0FBQyxLQUFLO1NBQ3RCO0tBQ0E7SUFDRDtRQUNBO1lBQ0EsTUFBTSxDQUFDLGFBQWEsR0FBQyxzQkFBc0I7U0FDMUM7UUFDRDtZQUNBLE1BQU0sQ0FBQyxVQUFVLEdBQUMsTUFBTTtTQUN2QjtLQUNBO0lBQ0Q7UUFDQTtZQUNBLE1BQU0sQ0FBQyxhQUFhLEdBQUMsdUJBQXVCO1NBQzNDO1FBQ0Q7WUFDQSxNQUFNLENBQUMsVUFBVSxHQUFDLEtBQUs7U0FDdEI7S0FDQTtJQUNEO1FBQ0E7WUFDQSxNQUFN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WUFDQSxNQUFNLENBQUMsVUFBVSxHQUFDLFdBQVc7U0FDNUI7S0FDQTtJQUNEO1FBQ0E7WUFDQSxNQUFNLENBQUMsYUFBYSxHQUFDLHdCQUF3QjtTQUM1QztRQUNEO1lBQ0EsTUFBTSxDQUFDLFVBQVUsR0FBQyxjQUFjO1NBQy9CO0tBQ0E7SUFDRDtRQUNBO1lBQ0EsTUFBTSxDQUFDLGFBQWEsR0FBQyx1QkFBdUI7U0FDM0M7UUFDRDtZQUNBLE1BQU0sQ0FBQyxVQUFVLEdBQUMsVUFBVTtTQUMzQjtLQUNBO0lBQ0Q7UUFDQTtZQUNBLE1BQU0sQ0FBQyxhQUFhLEdBQUMsd0JBQXdCO1NBQzVDO1FBQ0Q7WUFDQSxNQUFNLENBQUMsVUFBVSxHQUFDLGNBQWM7U0FDL0I7S0FDQTtJQUNEO1FBQ0E7WUFDQSxNQUFNLENBQUMsYUFBYSxHQUFDLHVCQUF1QjtTQUMzQztRQUNEO1lBQ0EsTUFBTSxDQUFDLFVBQVUsR0FBQyxxQkFBcUI7U0FDdEM7S0FDQTtJQUNEO1FBQ0E7WUFDQSxNQUFNLENBQUMsYUFBYSxHQUFDLHdCQUF3QjtTQUM1QztRQUNEO1lBQ0EsTUFBTSxDQUFDLFVBQVUsR0FBQyxjQUFjO1NBQy9CO0tBQ0E7SUFDRDtRQUNBO1lBQ0EsTUFBTSxDQUFDLGFBQWEsR0FBQyx1QkFBdUI7U0FDM0M7UUFDRDtZQUNBLE1BQU0sQ0FBQyxVQUFVLEdBQUMsWUFBWTtTQUM3QjtLQUNBO0lBQ0Q7UUFDQTtZQUNBLE1BQU0sQ0FBQyxhQUFhLEdBQUMsd0JBQXdCO1NBQzVDO1FBQ0Q7WUFDQSxNQUFNLENBQUMsVUFBVSxHQUFDLFlBQVk7U0FDN0I7S0FDQTtJQUNEO1FBQ0E7WUFDQSxNQUFNLENBQUMsYUFBYSxHQUFDLHVCQUF1QjtTQUMzQztRQUNEO1lBQ0EsTUFBTSxDQUFDLFVBQVUsR0FBQyxVQUFVO1NBQzNCO0tBQ0E7SUFDRDtRQUNBO1lBQ0EsTUFBTSxDQUFDLGFBQWEsR0FBQyx3QkFBd0I7U0FDNUM7UUFDRDtZQUNBLE1BQU0sQ0FBQyxVQUFVLEdBQUMsWUFBWTtTQUM3QjtLQUNBO0lBQ0Q7UUFDQTtZQUNBLE1BQU0sQ0FBQyxhQUFhLEdBQUMsdUJBQXVCO1NBQzNDO1FBQ0Q7WUFDQSxNQUFNLENBQUMsVUFBVSxHQUFDLHVCQUF1QjtTQUN4QztLQUNBO0lBQ0Q7UUFDQTtZQUNBLE1BQU0sQ0FBQyxhQUFhLEdBQUMsd0JBQXdCO1NBQzVDO1FBQ0Q7WUFDQSxNQUFNLENBQUMsVUFBVSxHQUFDLGNBQWM7U0FDL0I7S0FDQTtJQUNEO1FBQ0E7WUFDQSxNQUFNLENBQUMsYUFBYSxHQUFDLHVCQUF1QjtTQUMzQztRQUNEO1lBQ0EsTUFBTSxDQUFDLFVBQVUsR0FBQyxxQkFBcUI7U0FDdEM7S0FDQTtJQUNEO1FBQ0E7WUFDQSxNQUFNLENBQUMsYUFBYSxHQUFDLHdCQUF3QjtTQUM1QztRQUNEO1lBQ0EsTUFBTSxDQUFDLFVBQVUsR0FBQyxjQUFjO1NBQy9CO0tBQ0E7SUFDRDtRQUNBO1lBQ0EsTUFBTSxDQUFDLGFBQWEsR0FBQyx1QkFBdUI7U0FDM0M7UUFDRDtZQUNBLE1BQU0sQ0FBQyxVQUFVLEdBQUMsYUFBYTtTQUM5QjtLQUNBO0lBQ0Q7UUFDQTtZQUNBLE1BQU0sQ0FBQyxhQUFhLEdBQUMsd0JBQXdCO1NBQzVDO1FBQ0Q7WUFDQSxNQUFNLENBQUMsVUFBVSxHQUFDLGNBQWM7U0FDL0I7S0FDQTtJQUNEO1FBQ0E7WUFDQSxNQUFNLENBQUMsYUFBYSxHQUFDLHNCQUFzQjtTQUMxQztRQUNEO1lBQ0EsTUFBTSxDQUFDLFVBQVUsR0FBQyxXQUFXO1NBQzVCO0tBQ0E7SUFDRDtRQUNBO1lBQ0EsTUFBTSxDQUFDLGFBQWEsR0FBQyx1QkFBdUI7U0FDM0M7UUFDRDtZQUNBLE1BQU0sQ0FBQyxVQUFVLEdBQUMsY0FBYztTQUMvQjtLQUNBO0lBQ0Q7UUFDQTtZQUNBLE1BQU0sQ0FBQyxhQUFhLEdBQUMsOEJBQThCO1NBQ2xEO1FBQ0Q7WUFDQSxNQUFNLENBQUMsVUFBVSxHQUFDLFlBQVk7U0FDN0I7S0FDQTtJQUNEO1FBQ0E7WUFDQSxNQUFNLENBQUMsYUFBYSxHQUFDLCtCQUErQjtTQUNuRDtRQUNEO1lBQ0EsTUFBTSxDQUFDLFVBQVUsR0FBQyxZQUFZO1NBQzdCO0tBQ0E7SUFDRDtRQUNBO1lBQ0EsTUFBTSxDQUFDLGFBQWEsR0FBQyx1QkFBdUI7U0FDM0M7UUFDRDtZQUNBLE1BQU0sQ0FBQyxVQUFVLEdBQUMsVUFBVTtTQUMzQjtLQUNBO0lBQ0Q7UUFDQTtZQUNBLE1BQU0sQ0FBQyxhQUFhLEdBQUMsd0JBQXdCO1NBQzVDO1FBQ0Q7WUFDQSxNQUFNLENBQUMsVUFBVSxHQUFDLFVBQVU7U0FDM0I7S0FDQTtJQUNEO1FBQ0E7WUFDQSxNQUFNLENBQUMsYUFBYSxHQUFDLHVCQUF1QjtTQUMzQztRQUNEO1lBQ0EsTUFBTSxDQUFDLFVBQVUsR0FBQyxVQUFVO1NBQzNCO0tBQ0E7SUFDRDtRQUNBO1lBQ0EsTUFBTSxDQUFDLGFBQWEsR0FBQyx3QkFBd0I7U0FDNUM7UUFDRDtZQUNBLE1BQU0sQ0FBQyxVQUFVLEdBQUMsY0FBYztTQUMvQjtLQUNBO0lBQ0Q7UUFDQTtZQUNBLE1BQU0sQ0FBQyxhQUFhLEdBQUMsdUJBQXVCO1NBQzNDO1FBQ0Q7WUFDQSxNQUFNLENBQUMsVUFBVSxHQUFDLFlBQVk7U0FDN0I7S0FDQTtJQUNEO1FBQ0E7WUFDQSxNQUFNLENBQUMsYUFBYSxHQUFDLHdCQUF3QjtTQUM1QztRQUNEO1lBQ0EsTUFBTSxDQUFDLFVBQVUsR0FBQyxhQUFhO1NBQzlCO0tBQ0E7SUFDRDtRQUNBO1lBQ0EsTUFBTSxDQUFDLGFBQWEsR0FBQyx1QkFBdUI7U0FDM0M7UUFDRDtZQUNBLE1BQU0sQ0FBQyxVQUFVLEdBQUMsZUFBZTtTQUNoQztLQUNBO0lBQ0Q7UUFDQTtZQUNBLE1BQU0sQ0FBQyxhQUFhLEdBQUMsd0JBQXdCO1NBQzVDO1FBQ0Q7WUFDQSxNQUFNLENBQUMsVUFBVSxHQUFDLGFBQWE7U0FDOUI7S0FDQTtJQUNEO1FBQ0E7WUFDQSxNQUFNLENBQUMsYUFBYSxHQUFDLHVCQUF1QjtTQUMzQztRQUNEO1lBQ0EsTUFBTSxDQUFDLFVBQVUsR0FBQyxhQUFhO1NBQzlCO0tBQ0E7SUFDRDtRQUNBO1lBQ0EsTUFBTSxD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QUFDLHVCQUF1QjtTQUMzQztRQUNEO1lBQ0EsTUFBTSxDQUFDLFVBQVUsR0FBQyxlQUFlO1NBQ2hDO0tBQ0E7SUFDRDtRQUNBO1lBQ0EsTUFBTSxDQUFDLGFBQWEsR0FBQyx3QkFBd0I7U0FDNUM7UUFDRDtZQUNBLE1BQU0sQ0FBQyxVQUFVLEdBQUMsWUFBWTtTQUM3QjtLQUNBO0lBQ0Q7UUFDQTtZQUNBLE1BQU0sQ0FBQyxhQUFhLEdBQUMsdUJBQXVCO1NBQzNDO1FBQ0Q7WUFDQSxNQUFNLENBQUMsVUFBVSxHQUFDLFVBQVU7U0FDM0I7S0FDQTtJQUNEO1FBQ0E7WUFDQSxNQUFNLENBQUMsYUFBYSxHQUFDLHdCQUF3QjtTQUM1QztRQUNEO1lBQ0EsTUFBTSxDQUFDLFVBQVUsR0FBQyxhQUFhO1NBQzlCO0tBQ0E7SUFDRDtRQUNBO1lBQ0EsTUFBTSxDQUFDLGFBQWEsR0FBQyx1QkFBdUI7U0FDM0M7UUFDRDtZQUNBLE1BQU0sQ0FBQyxVQUFVLEdBQUMsWUFBWTtTQUM3QjtLQUNBO0lBQ0Q7UUFDQTtZQUNBLE1BQU0sQ0FBQyxhQUFhLEdBQUMsd0JBQXdCO1NBQzVDO1FBQ0Q7WUFDQSxNQUFNLENBQUMsVUFBVSxHQUFDLGFBQWE7U0FDOUI7S0FDQTtJQUNEO1FBQ0E7WUFDQSxNQUFNLENBQUMsYUFBYSxHQUFDLHVCQUF1QjtTQUMzQztRQUNEO1lBQ0EsTUFBTSxDQUFDLFVBQVUsR0FBQyxVQUFVO1NBQzNCO0tBQ0E7SUFDRDtRQUNBO1lBQ0EsTUFBTSxDQUFDLGFBQWEsR0FBQyx3QkFBd0I7U0FDNUM7UUFDRDtZQUNBLE1BQU0sQ0FBQyxVQUFVLEdBQUMsYUFBYTtTQUM5QjtLQUNBO0lBQ0Q7UUFDQTtZQUNBLE1BQU0sQ0FBQyxhQUFhLEdBQUMsdUJBQXVCO1NBQzNDO1FBQ0Q7WUFDQSxNQUFNLENBQUMsVUFBVSxHQUFDLGNBQWM7U0FDL0I7S0FDQTtJQUNEO1FBQ0E7WUFDQSxNQUFNLENBQUMsYUFBYSxHQUFDLHdCQUF3QjtTQUM1QztRQUNEO1lBQ0EsTUFBTSxDQUFDLFVBQVUsR0FBQyxhQUFhO1NB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
