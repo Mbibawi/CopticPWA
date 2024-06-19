@@ -33,7 +33,7 @@ type bibleBookKeys = { id: string, human: string, human_long: string, chaptersLi
 
 //CONSTANTS
 const version: string =
-  "v6.8.5 (Added Next and Previous buttons to the Bible)";
+  "v6.8.6 (Added Bible Bookmark)";
 const calendarDay: number = 24 * 60 * 60 * 1000; //this is a day in milliseconds
 const containerDiv: HTMLDivElement = document.getElementById(
   "containerDiv") as HTMLDivElement;
@@ -177,7 +177,7 @@ const Prefix = {
   commonIncense: "IC_",
   communion: "Communion_",
   hymns: "Hymns_",
-  propheciesDawn: "RPD_", //Stands for Readings Prophecies Dawn
+  prophecies: "RPD_", //Stands for Readings Prophecies Dawn
   stPaul: "RSP_", //Stands for Readings St Paul
   Catholicon: "RK_", //Stands for Readings Catholicon
   praxis: "RP_", //Stands for Readings Praxis
@@ -390,7 +390,7 @@ const Seasons = {
   GreatLent: "GL", // Stand for Great Lent
   HolyWeek: "HW", //Stands for Holy Week
   PentecostalDays: "PNT", //(from the Holy Saturday Afternoon, until the 7th Sunday)  Stands for Pentecostal Days
-  Ascension: 'AS', //From Ascenssion feast to the Pentecoste Feast
+  Ascension: 'ASC', //From Ascenssion feast to the Pentecoste Feast
   ApostlesFast: "APOST", //Stands for Apostles Feast
   JonahFast: "JFAST", //Stands for Jonah Feast
   JonahFeast: "JFEAST", //Stands for Jonah Feast
@@ -752,7 +752,7 @@ const PrayersArraysKeys: [string, string, Function][] = [
     () => ReadingsArrays.SynaxariumArrayFR,
   ],
   [
-    Prefix.propheciesDawn,
+    Prefix.prophecies,
     "ReadingsArrays.PropheciesDawnArrayFR",
     () => ReadingsArrays.PropheciesDawnArrayFR,
   ],

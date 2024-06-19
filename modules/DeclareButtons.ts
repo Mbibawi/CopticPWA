@@ -1051,7 +1051,7 @@ const btnPropheciesMorning = new Button({
   showPrayers: true,
   onClick: () => {
     findMassReadingOtherThanGospel(
-      Prefix.propheciesDawn,
+      Prefix.prophecies,
       ReadingsArrays.PropheciesDawnArrayFR,
       { beforeOrAfter: undefined, el: undefined },
       containerDiv,
@@ -1505,7 +1505,7 @@ const btnIncenseMorning = new Button({
       (function insertProphecies() {
         //! This must come before Eklonomin Taghonata has been inserted
 
-        let Prophecies = findTable(Prefix.propheciesDawn + "&D=" + copticReadingsDate, ReadingsArrays.PropheciesDawnArrayFR);
+        let Prophecies = findTable(Prefix.prophecies + "&D=" + copticReadingsDate, ReadingsArrays.PropheciesDawnArrayFR);
 
         if (!Prophecies) return console.log("Didn't find Prophecies with the current date");
 
@@ -2939,7 +2939,15 @@ const btnBible = new Button({
     AR: 'الكتاب المقدس',
     FR: 'La Bible'
   },
-  onClick: () => {
+  onClick: (refs?:{bookID:string, chapterNumber:string}) => {
+    if (refs) {
+      chapterBtnOnClick({
+        chapterNumber: refs.chapterNumber,
+        bookID: refs.bookID
+      })
+      return;
+    }
+
     let newTestament = new Button({
       btnID: 'newTestament',
       label: {
@@ -2961,31 +2969,6 @@ const btnBible = new Button({
     });
 
     btnBible.children = [oldTestament, newTestament];
-
-    (function showUserLastReading() {
-      let bookMarkDiv: HTMLDivElement = document.createElement("div"); //this is just a container
-      bookMarkDiv.role = "button";
-      bookMarkDiv.id = 'bookmarkLast';
-      bookMarkDiv.classList.add("sideTitle");
-      sideBarTitlesContainer.appendChild(bookMarkDiv);
-
-      let bookmark = document.createElement("a");
-      bookMarkDiv.appendChild(bookmark);
-      let label: typeBtnLabel = {
-        AR: 'آخر قراءة',
-        FR: 'Dernier Chapitre',
-        EN: 'Last Reading'
-      };
-
-      bookMarkDiv.innerText = label[defaultLanguage];
-
-      bookMarkDiv.addEventListener("click", () => {
-        //We will show the reference
-
-      });
-
-
-    })();
 
     function getBooksButtons(old: boolean): Button[] {
       let booksListDefault: bibleBookKeys[], booksListForeing: bibleBookKeys[];
@@ -3027,12 +3010,6 @@ const btnBible = new Button({
 
     function getChaptersButtons(bookID: string): Button[] {
 
-      let chapterLabel: typeBtnLabel = {
-        AR: 'إصحاح ',
-        FR: 'Chapître ',
-        EN: 'Chapter '
-      };
-
       let defaultLangBible: Bible, foreignLangBible: Bible;
 
       defaultLangBible = Bibles[defaultLanguage][0];
@@ -3047,6 +3024,7 @@ const btnBible = new Button({
       if (foreignLangBible)
         bookForeign = foreignLangBible.find(book => book[0].id === bookID);
 
+
       return chaptersBtns(bookDefault);
 
       function chaptersBtns(book: bibleBook) {
@@ -3055,145 +3033,211 @@ const btnBible = new Button({
             .map(number => {
               if (/\D/.test(number)) return;//We ignore the introductions to the French version of the book because they have not been retrieved
               let label = new Object();
-              label[defaultLanguage] = chapterLabel[defaultLanguage] + number;
+              label[defaultLanguage] = getChapterLabel() + number;
               return new Button({
                 btnID: 'btnChapter' + number,
                 label: label,
-                onClick: () => chapterBtnOnClick(book[0].id, number)
+                onClick: () => chapterBtnOnClick({
+                  bookID: book[0].id, 
+                  chapterNumber: number
+                })
 
               })
 
             });
 
         return chaptersButtons
+  
+      }
+      
+    }
+    
+    function chapterBtnOnClick(refs:{ bookID: string, chapterNumber: string}): boolean {
+      let languages = [defaultLanguage];
+      if (foreingLanguage) languages.push(foreingLanguage);
 
-        function chapterBtnOnClick(bookID: string, chapterNumber: string): boolean {
-          let languages = [defaultLanguage];
-          if (foreingLanguage) languages.push(foreingLanguage);
+      let table: string[][] = [
+        [
+          'Bible_' + refs.bookID + refs.chapterNumber + '&C=Title',
+        ],
+      ];
 
-          let table: string[][] = [
-            [
-              'Bible_' + bookID + chapterNumber + '&C=Title',
-            ],
-          ];
+      let retrievedText =
+        languages.map(lang => {
+          let book = getBibleBooksList(lang).find(b => b.id === refs.bookID);
+          table[0].push(getTitle(book, lang, refs.chapterNumber));
+          return getBibleChapterText({
+            bible: Bibles[lang][0],
+            bookID: refs.bookID,
+            chapterNumber: refs.chapterNumber
+          }) || ''
+        });
 
-          let retrievedText =
-            languages.map(lang => {
-              let book = getBibleBooksList(lang).find(b => b.id === bookID);
-              table[0].push(getTitle(book, lang, chapterNumber));
-              return getBibleChapterText({
-                bible: Bibles[lang][0],
-                bookID: bookID,
-                chapterNumber: chapterNumber
-              }) || ''
-            });
+      if (retrievedText.join() === '') return false;
 
-          if (retrievedText.join() === '') return false;
-
-          table.push(...matchPargraphsSplitting(retrievedText, languages, 0, 'NoActor'));
+      table.push(...matchPargraphsSplitting(retrievedText, languages, 0, 'NoActor'));
 
 
-          showPrayers({
-            table: table,
-            languages: languages,
-            container: containerDiv,
-            clearContainerDiv: true,
-            clearRightSideBar: true,
-          });
+      showPrayers({
+        table: table,
+        languages: languages,
+        container: containerDiv,
+        clearContainerDiv: true,
+        clearRightSideBar: true,
+      });
 
-          (function appendNextAndPrevBtns() {
-            let btnsDiv = document.createElement('div');
-            containerDiv.append(btnsDiv);
-            let right = '⇒', left = '⇐';
+      updateBookmark({bookID: refs.bookID, chapterNumber: refs.chapterNumber});
 
-            let next = new Button({
-              btnID: 'btnNext',
-              label: {
-                AR: right,
-                FR: right,
-                EN: right,
-              },
-              onClick: () => nextOnClick(true)
-            });
+      (function appendNextAndPrevBtns() {
+        let btnsDiv = document.createElement('div');
+        containerDiv.append(btnsDiv);
+        let right = '⇒', left = '⇐';
 
-            let prev = new Button({
-              btnID: 'btnPrev',
-              label: {
-                AR: left,
-                FR: left,
-                EN: left,
-              },
+        let next = new Button({
+          btnID: 'btnNext',
+          label: {
+            AR: right,
+            FR: right,
+            EN: right,
+          },
+          onClick: () => nextOnClick(true)
+        });
 
-              onClick: () => nextOnClick(false)
+        let prev = new Button({
+          btnID: 'btnPrev',
+          label: {
+            AR: left,
+            FR: left,
+            EN: left,
+          },
 
-            });
+          onClick: () => nextOnClick(false)
 
-            if (defaultLanguage === 'AR') {
-              prev.onClick = () => nextOnClick(true);
-              next.onClick = () => nextOnClick(false)
+        });
+
+        if (defaultLanguage === 'AR') {
+          prev.onClick = () => nextOnClick(true);
+          next.onClick = () => nextOnClick(false)
+        }
+
+        [prev, next].forEach(btn => {
+          createHtmlBtn({
+            btn: btn,
+            btnsContainer: btnsDiv,
+            btnClass: inlineBtnClass
+          })
+        });
+
+        btnsDiv.classList.add(inlineBtnsContainerClass);
+        // floatOnTopOrBottom(btnsDiv, false, "0px");
+        btnsDiv.style.gridTemplateColumns = setGridColumnsOrRowsNumber(btnsDiv);
+
+        function nextOnClick(next: boolean, id: string = refs.bookID) {
+          let books = getBibleBooksList(defaultLanguage),
+            book = books.find(b => b.id === id),
+            chaptersList = book.chaptersList;
+
+          (function nextChapter() {
+            if (!next) return;
+            if (chaptersList.indexOf(refs.chapterNumber) === chaptersList.length - 1) {
+              //We will move to the first chapter in the  next book
+              book = books[books.indexOf(book) + 1] || books[0];//If we have already reached the last book, we move the the first book
+              refs.chapterNumber = book.chaptersList[0];
+              return
             }
-
-            [prev, next].forEach(btn => {
-              createHtmlBtn({
-                btn: btn,
-                btnsContainer: btnsDiv,
-                btnClass: inlineBtnClass
-              })
-            });
-
-            btnsDiv.classList.add(inlineBtnsContainerClass);
-            // floatOnTopOrBottom(btnsDiv, false, "0px");
-            btnsDiv.style.gridTemplateColumns = setGridColumnsOrRowsNumber(btnsDiv);
-
-            function nextOnClick(next: boolean, id: string = bookID) {
-              let books = getBibleBooksList(defaultLanguage),
-                book = books.find(b => b.id === id),
-                chaptersList = book.chaptersList;
-
-              (function nextChapter() {
-                if (!next) return;
-                if (chaptersList.indexOf(chapterNumber) === chaptersList.length - 1) {
-                  //We will move to the first chapter in the  next book
-                  book = books[books.indexOf(book) + 1] || books[0];//If we have already reached the last book, we move the the first book
-                  chapterNumber = book.chaptersList[0];
-                  return
-                }
-                chapterNumber = book.chaptersList[book.chaptersList.indexOf(chapterNumber) + 1];
-
-              })();
-
-              (function previousChapter() {
-                if (next) return;
-                if (chaptersList.indexOf(chapterNumber) === 0) {
-                  //We will move to the last chapter in the previous book
-                  book = books[books.indexOf(book) - 1] || books[books.length - 1];//If we have already reached the first book, we move to the last book
-                  chapterNumber = book.chaptersList[book.chaptersList.length - 1];
-                  return
-                }
-                chapterNumber = book.chaptersList[book.chaptersList.indexOf(chapterNumber) - 1];
-
-              })();
-
-              //if (!Number(chapterNumber)) nextOnClick(next, book.id);
-              chapterBtnOnClick(book.id, chapterNumber);
-
-              bookMarks[0] = [book.id, chapterNumber];//We add the chapter to the bookMarks
-              localStorage.bookMarks = JSON.stringify(bookMarks);//We save the bookMarks to the local storage
-            }
+            refs.chapterNumber = book.chaptersList[book.chaptersList.indexOf(refs.chapterNumber) + 1];
 
           })();
 
-          scrollToTop();
-          return true
+          (function previousChapter() {
+            if (next) return;
+            if (chaptersList.indexOf(refs.chapterNumber) === 0) {
+              //We will move to the last chapter in the previous book
+              book = books[books.indexOf(book) - 1] || books[books.length - 1];//If we have already reached the first book, we move to the last book
+              refs.chapterNumber = book.chaptersList[book.chaptersList.length - 1];
+              return
+            }
+            refs.chapterNumber = book.chaptersList[book.chaptersList.indexOf(refs.chapterNumber) - 1];
 
-          function getTitle(book: bibleBookKeys, lang: string, chapterNumber: string): string {
-            if (!book) return '';
-            return book.human_long + '\n' + (chapterLabel[lang] || '') + chapterNumber
-          }
-        }
+          })();
 
+          chapterBtnOnClick({
+            bookID: book.id,
+            chapterNumber: refs.chapterNumber
+          });
+          updateBookmark({bookID:book.id, chapterNumber:refs.chapterNumber})
+        }       
+      })();
+
+      function updateBookmark(refs:{bookID:string, chapterNumber:string}){
+      bookMarks[0] = [refs.bookID, refs.chapterNumber];//We add the chapter to the bookMarks
+        localStorage.bookMarks = JSON.stringify(bookMarks);//We save the bookMarks to the local storage
+      }
+
+      scrollToTop();
+      return true
+
+      function getTitle(book: bibleBookKeys, lang: string, chapterNumber: string): string {
+        if (!book) return '';
+        return book.human_long + '\n' + getChapterLabel() + chapterNumber
       }
     }
+    
+    function getChapterLabel():string{
+      let chapterLabel: typeBtnLabel = {
+        AR: 'إصحاح ',
+        FR: 'Chapître ',
+        EN: 'Chapter '
+      };
+      return chapterLabel[defaultLanguage] || ''
+    }
+  },
+  afterShowPrayers: () => {
+      //We create a fake button simulating the action of chapters' buttons of each book
+      let btnLabel: typeBtnLabel = {
+        AR: 'آخر قراءة',
+        FR: 'Dernier chapitre lu',
+        EN: 'Last Reading'
+      };
+      let btn = new Button({
+        btnID: 'lastReading',
+        label: btnLabel,
+        cssClass: 'btnBookMark',
+        onClick: () => {
+          let lastReading = JSON.parse(localStorage.bookMarks)[0];
+          if (!lastReading) return;
+          btnBible.onClick({bookID:lastReading[0], chapterNumber:lastReading[1]});
+        },
+      });
+
+      (function addSideBarShortcut() {
+        let bookMarkDiv: HTMLDivElement = document.createElement("div"); //this is just a container
+
+        bookMarkDiv.role = "button";
+        bookMarkDiv.id = 'bookmarkLast';
+        bookMarkDiv.classList.add("sideTitle");
+        sideBarTitlesContainer.appendChild(bookMarkDiv);
+        let bookmark = document.createElement("a");
+        bookMarkDiv.appendChild(bookmark);
+        bookmark.innerText = btnLabel[defaultLanguage];
+        bookMarkDiv.addEventListener("click", () =>
+          showChildButtonsOrPrayers(btn));
+          
+      })();
+
+      (function addMainPageBtn() {
+        let btnDiv = document.createElement('div');
+        btnDiv.classList.add(inlineBtnsContainerClass);
+        containerDiv.prepend(btnDiv);
+        createHtmlBtn({
+          btn: btn,
+          btnsContainer: btnDiv,
+          btnClass:btn.cssClass,
+          clear: false,
+        })
+
+      })();
+
 
   }
 });
@@ -3305,11 +3349,24 @@ function findMassReadingOtherThanGospel(
 
   let languages = getLanguages(PrayersArraysKeys.find((array) => array[0] === readingPrefix)[1]);
 
-  reading = retrieveReadingTableFromBible(reading, languages);
+  let subTable: string[][]=[];
 
+  let retrieved =
+    reading
+      .map(row => {
+        if (row[0].endsWith('&C=Title') && subTable.length > 1) {
+          let temp = structuredClone(subTable);
+          subTable = [row];
+          return temp
+        }
+        subTable.push(row);
+        if (reading.indexOf(row) === reading.length - 1)
+          return structuredClone(subTable);
+      })
+    .map(table => retrieveReadingTableFromBible(table, languages));
 
   return insertPrayersAdjacentToExistingElement({
-    tables: [reading],
+    tables: retrieved,
     languages: languages,
     position: position,
     container: containerDiv,
@@ -3331,6 +3388,7 @@ function retrieveReadingTableFromBible(reading: string[][], langs: string[]): st
 
   if (rowsWithReferences.length < 1) return reading;//It means that there are no rows with references
   //reading = structuredClone(reading);//We create a copy of the table;
+
   let splitted: string[];
   let ready: Set<[string, bibleChapter]> = new Set();//this set will contain arrays of ["bookID:chapterNumber:lang", chapter] for each chapter treated. If the chapter is found, we will not retreive it again.
 

@@ -922,6 +922,30 @@ q{
   font-style: italic;
 }   
 
+.btnBookMark{
+  border-radius: 50%;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  border-style: groove;
+  font-size: 1px !important;
+  border-color: white;
+  height: auto;
+  width: auto;
+  align-self: center;
+  justify-self: center;
+  background-color: #815d4c;
+  padding:2px;
+  color:wheat;
+  text-align: center;
+
+  
+  transform: rotate(2deg);
+  
+}
 /*Formatting the input for font size*/
 #inputFontSize {
   height: 38px;

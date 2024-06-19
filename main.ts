@@ -255,7 +255,7 @@ async function showTitlesInRightSideBar(
     bookmark = document.createElement("a");
     titleDiv.appendChild(bookmark);
     bookmark.href = "#" + titleRow.id; //we add a link to the element having as id, the id of the prayer
-    
+
     titleDiv.addEventListener("click", () => {
       closeSideBar(rightSideBar); //when the user clicks on the div, the rightSideBar is closed
       collapseOrExpandText(titleRow, false); //We pass the 'toggleHidden' paramater = false in order to always show/uncollapse the sibligns
@@ -1942,7 +1942,7 @@ async function setCSS(htmlRows: HTMLElement[]) {
           Prefix.gospelNight,
           Prefix.gospelMass,
           Prefix.synaxarium,
-          Prefix.propheciesDawn,
+          Prefix.prophecies,
           Prefix.bookOfHours,
           Prefix.HolyWeek
         ].find((prefix) => row.dataset.root.startsWith(prefix))
@@ -3722,7 +3722,7 @@ async function testReplaceLanguageText() {
     Prefix.gospelVespers,
     Prefix.Catholicon,
     Prefix.praxis,
-    Prefix.propheciesDawn,
+    Prefix.prophecies,
     Prefix.stPaul,
     Prefix.synaxarium];
 

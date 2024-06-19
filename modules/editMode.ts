@@ -10127,13 +10127,14 @@ function _reformatReadingArray(array: string[][][]) {
 
 function _prepareReadingArrayForReferences(array: string[][][]) {
   let name = getArrayNameFromArray(array);
-  let prefix = '&C=';
   saveOrExportArray(
     array.map(tbl => {
-      tbl = tbl.filter(row => !row[0].startsWith(Prefix.same));
-      if (tbl[0][0].includes('Psalm&D='))
-        tbl.push([Prefix.readingRef + "PSA:&C="]);
-      else tbl.push([Prefix.readingRef + "XXX&C="]);
+      tbl = tbl.filter(row => row[0].includes("&C=Title"));
+      tbl.forEach(row => {
+        if (row.includes('Psalm&D='))
+          tbl.splice(tbl.indexOf(row) + 1, 0, [Prefix.readingRef + "PSA:&C="]);
+        else tbl.splice(tbl.indexOf(row) + 1, 0, [Prefix.readingRef + "XXX&C="]);
+      })
 
       return tbl;
     }),
@@ -10148,13 +10149,11 @@ function _prepareReadingArrayForReferences(array: string[][][]) {
  * @param {string[][][]} readingArray
  */
 function _fixReadingReferences(readingArray: string[][][]) {
-
-  let title = readingArray[0][0][0];
   readingArray
     .forEach(table =>
       table.forEach(row => {
-        if (table.indexOf(row) === 0)
-          table[0] = [row[0]];
+        if (row[0].endsWith('&C=Title'))
+          table[table.indexOf(row)] = [row[0]];
         if (!row[0].startsWith(Prefix.readingRef)) return;
 
         row[0] = row[0]
@@ -10183,18 +10182,6 @@ function _fixReadingReferences(readingArray: string[][][]) {
             return verse + '-' + verse;
           }
         })();
-
-
-        /*  if (!checkReferenceIntegrity(row[0], title))
-        
-        return console.log('The reference is not matching for table. Title = ', title, 'reference = ', row[0]);
-        if (row[0].includes('/')) {
-          let splitted = row[0].split('/');
-          row[0] = splitted[0];
-          table.push([splitted[0].split(':')[0] + ':' + splitted[1]])
-        }
-        */
-
 
       }));
 
@@ -10390,7 +10377,7 @@ function _testReadings() {
     [Prefix.Catholicon, 'Catholicon'],
     [Prefix.praxis, 'Praxis'],
     [Prefix.synaxarium, 'Synaxarium'],
-    [Prefix.propheciesDawn, 'Prophecies Dawn'],
+    [Prefix.prophecies, 'Prophecies Dawn'],
   ];
   let readingDate: string,
     result: string = "";
@@ -10402,14 +10389,14 @@ function _testReadings() {
       if (
         ![Seasons.GreatLent, Seasons.JonahFast].includes(Season)
         &&
-        [Prefix.gospelNight, Prefix.propheciesDawn].includes(prefix[0]))
+        [Prefix.gospelNight, Prefix.prophecies].includes(prefix[0]))
         return;
       if (
         Season === Seasons.GreatLent
         &&
         [0, 6].includes(weekDay)
         &&
-        prefix[0] === Prefix.propheciesDawn)
+        prefix[0] === Prefix.prophecies)
         return; //During the Great Lent and Jonah Fast, only the week-days have Prophecies Readings in the Incense Dawn office
       if (Season === Seasons.JonahFast
         && prefix[0] === Prefix.gospelNight
