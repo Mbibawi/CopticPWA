@@ -296,16 +296,7 @@ box-shadow: 0px 0px 5px 5px rgb(181, 179, 179), 0px 0px 6px 6px rgba(3, 36, 87, 
 .hiddenElement {
   display:none !important;
 }
-.NoActor{
-  background-image: linear-gradient(to bottom, rgb(192, 182, 140), rgb(235, 223, 175) );
-  color:#01043f;
-}
 
-.NoActor.Single{
-  background-color: rgb(235, 223, 175) !important;
-  background-image: none;
-  
-}
 .Row {
   display: grid;
   align-items: start;
@@ -319,10 +310,25 @@ box-shadow: 0px 0px 5px 5px rgb(181, 179, 179), 0px 0px 6px 6px rgba(3, 36, 87, 
   padding-top: 2px; /*Tis is what sets the space beween the paragraphs*/
   padding-bottom: 2px; /*Tis is what sets the space beween the paragraphs*/
 }
+.NoActor{
+  background-image: linear-gradient(to bottom, rgb(192, 182, 140), rgb(235, 223, 175) );
+  color:#01043f;
+}
+
+.NoActor.Single{
+  background-color: rgb(235, 223, 175) !important;
+  background-image: none;
+  padding-top: 0px !important; /*Tis is what sets the space beween the paragraphs*/
+  padding-bottom: 0px !important; /*Tis is what sets the space beween the paragraphs*/
+
+}
+
 
 p{
  /* z-index: 10;/*We need this in order to activiate the keydown event attached to the paragraphs*/
   padding-right:7px;
+  margin-top:2px;
+  margin-bottom:2px;
   padding-left:7px;
   font-stretch: ultra-condensed ;
   align-self: stretch; /*This is what makes the paragraph extend vertically over the height of the row*/
