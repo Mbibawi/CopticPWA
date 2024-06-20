@@ -1,3332 +1,2964 @@
-ReadingsArrays.GospelMassArrayFR = [
-    [
+ReadingsArrays.GospelMassArrayFR = [[
         [
             Prefix.gospelMass + "Psalm&D=0101&C=Title",
-            " مزمور 65:11, 81:1"
         ],
         [
-            Prefix.readingRef + "PSA:65:11-11/81:1-1"
-        ]
+            Prefix.readingRef + "PSA:65:11-11/81:1-1",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=0101&C=Title",
-            " لوقا ( 4 : 14 – 30 )"
         ],
         [
-            Prefix.readingRef + "LUK:4:14–30"
-        ]
+            Prefix.readingRef + "LUK:4:14-30",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=011stSunday&C=Title",
-            " مزمور ( 30 : 26 ، 19 )"
         ],
         [
-            Prefix.readingRef + "PSA:31:23-23/31:19-19"
-        ]
+            Prefix.readingRef + "PSA:31:23-23/31:19-19",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=011stSunday&C=Title",
-            " لوقا ( 7 : 28-35 )"
         ],
         [
-            Prefix.readingRef + "LUK:7:28-35"
-        ]
+            Prefix.readingRef + "LUK:7:28-35",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=012ndSunday&C=Title",
-            "من مزمور ( 20 : 1 ، 2 ) "
         ],
         [
-            Prefix.readingRef + "PSA:21:1-2"
-        ]
+            Prefix.readingRef + "PSA:21:1-2",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=012ndSunday&C=Title",
-            "لوقا ( 10 : 21 ـ 28 ) "
         ],
         [
-            Prefix.readingRef + "LUK:10:21-28"
-        ]
+            Prefix.readingRef + "LUK:10:21-28",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=013rdSunday||PNT17&C=Title",
-            " مزمور ( 17 : 46 ، 49 )"
         ],
         [
-            Prefix.readingRef + "PSA:18:46-46/18:49-49"
-        ]
+            Prefix.readingRef + "PSA:18:46-46/18:49-49",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=014thSunday&C=Title",
-            " مزمور ( 27 : 9 ، 10 )"
         ],
         [
-            Prefix.readingRef + "PSA:28:8-9"
-        ]
+            Prefix.readingRef + "PSA:28:8-9",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=014thSunday&C=Title",
-            "لوقا (7: 36-50)"
         ],
         [
-            Prefix.readingRef + "LUK:7:36-50"
-        ]
+            Prefix.readingRef + "LUK:7:36-50",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=015thSunday||062ndSunday&C=Title",
-            " مزمور 96:7-9"
         ],
         [
-            Prefix.readingRef + "PSA:96:7-9"
-        ]
+            Prefix.readingRef + "PSA:96:7-9",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=015thSunday||062ndSunday&C=Title",
-            " يوحنا 6:5-14"
         ],
         [
-            Prefix.readingRef + "JHN:6:5-14"
-        ]
+            Prefix.readingRef + "JHN:6:5-14",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=0201&C=Title",
-            " مرقس ( 6 : 14-29 )"
         ],
         [
-            Prefix.readingRef + "MRK:6:14-29"
-        ]
+            Prefix.readingRef + "MRK:6:14-29",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=0801&C=Title",
-            " متى 23 : 14 - 36"
         ],
         [
-            Prefix.readingRef + "MAT:23:13-36"
-        ]
+            Prefix.readingRef + "MAT:23:13-36",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=1601||1701&C=Title",
-            " مزمور (65:1-2)"
         ],
         [
-            Prefix.readingRef + "PSA:65:1-2"
-        ]
+            Prefix.readingRef + "PSA:65:1-2",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=1601||0903||2903&C=Title",
-            " متى (16:13-19)"
         ],
         [
-            Prefix.readingRef + "MAT:16:13-19"
-        ]
+            Prefix.readingRef + "MAT:16:13-19",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=1701&C=Title",
-            " يوحنا ((10:22-38"
         ],
         [
-            Prefix.readingRef + "JHN:10:22-38"
-        ]
+            Prefix.readingRef + "JHN:10:22-38",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=1801&C=Title",
-            " مزمور (145:1-2 )"
         ],
         [
-            Prefix.readingRef + "PSA:145:1-2"
-        ]
+            Prefix.readingRef + "PSA:145:1-2",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=1801&C=Title",
-            " يوحنا ((6:35-46"
         ],
         [
-            Prefix.readingRef + "JHN:6:35-46"
-        ]
+            Prefix.readingRef + "JHN:6:35-46",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=1901&C=Title",
-            " مزمور 61:2-3, 5"
         ],
         [
-            Prefix.readingRef + "PSA:61:2-3/61:5-5"
-        ]
+            Prefix.readingRef + "PSA:61:2-3/61:5-5",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=032ndSunday&C=Title",
-            "مزمور ( 103 : 16 ، 10 )"
         ],
         [
-            Prefix.readingRef + "PSA:104:16-16/104:10-10"
-        ]
+            Prefix.readingRef + "PSA:104:16-16/104:10-10",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=032ndSunday&C=Title",
-            "متى (13: 1-9) "
         ],
         [
-            Prefix.readingRef + "MAT:13:1-9"
-        ]
+            Prefix.readingRef + "MAT:13:1-9",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=033rdSunday&C=Title",
-            "مزمور (85: 14-15)"
         ],
         [
-            Prefix.readingRef + "PSA:85:15-16"
-        ]
+            Prefix.readingRef + "PSA:85:15-16",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=1901||0312||033rdSunday&C=Title",
-            " لوقا (14:25-35 )"
         ],
         [
-            Prefix.readingRef + "LUK:14:25-35"
-        ]
+            Prefix.readingRef + "LUK:14:25-35",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=2101&C=Title",
-            " مزمور ( 15 : 10 ، 11 )"
         ],
         [
-            Prefix.readingRef + "PSA:16:10-11"
-        ]
+            Prefix.readingRef + "PSA:16:10-11",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=2101&C=Title",
-            " مرقس ( 3 : 28 – 35 )"
         ],
         [
-            Prefix.readingRef + "MRK:3:28-35"
-        ]
+            Prefix.readingRef + "MRK:3:28-35",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=2601&C=Title",
-            " مزمور 102:13, 16, 17"
         ],
         [
-            Prefix.readingRef + "PSA:102:13-13/102:16-17"
-        ]
+            Prefix.readingRef + "PSA:102:13-13/102:16-17",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=2601||041stSunday&C=Title",
-            " لوقا 1:1-25"
         ],
         [
-            Prefix.readingRef + "LUK:1:1-25"
-        ]
+            Prefix.readingRef + "LUK:1:1-25",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=021stSunday&C=Title",
-            " مزمور 34:1-2"
         ],
         [
-            Prefix.readingRef + "PSA:34:1-2"
-        ]
+            Prefix.readingRef + "PSA:34:1-2",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=021stSunday&C=Title",
-            " مرقس 2:1-12"
         ],
         [
-            Prefix.readingRef + "MRK:2:1-12"
-        ]
+            Prefix.readingRef + "MRK:2:1-12",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=022ndSunday&C=Title",
-            " مزمور 66:1-2, 4"
         ],
         [
-            Prefix.readingRef + "PSA:66:1-2/66:4-4"
-        ]
+            Prefix.readingRef + "PSA:66:1-2/66:4-4",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=022ndSunday&C=Title",
-            " لوقا 5:1-11"
         ],
         [
-            Prefix.readingRef + "LUK:5:1-11"
-        ]
+            Prefix.readingRef + "LUK:5:1-11",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=023rdSunday&C=Title",
-            " مزمور 71:7-8"
         ],
         [
-            Prefix.readingRef + "PSA:71:7-8"
-        ]
+            Prefix.readingRef + "PSA:71:7-8",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=023rdSunday&C=Title",
-            " متى 12:22-28"
         ],
         [
-            Prefix.readingRef + "MAT:12:22-28"
-        ]
+            Prefix.readingRef + "MAT:12:22-28",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=024thSunday&C=Title",
-            " مزمور (79: 13 )"
         ],
         [
-            Prefix.readingRef + "PSA:79:13-13"
-        ]
+            Prefix.readingRef + "PSA:79:13-13",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=1202&C=Title",
-            " مزمور 68:11-12"
         ],
         [
-            Prefix.readingRef + "PSA:68:11-12"
-        ]
+            Prefix.readingRef + "PSA:68:11-12",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=1202&C=Title",
-            " لوقا ( 5:27-32 )"
         ],
         [
-            Prefix.readingRef + "LUK:5:27-32"
-        ]
+            Prefix.readingRef + "LUK:5:27-32",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=1402&C=Title",
-            " مزمور 32:1-2"
         ],
         [
-            Prefix.readingRef + "PSA:32:1-2"
-        ]
+            Prefix.readingRef + "PSA:32:1-2",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=1402&C=Title",
-            " يوحنا 21 : 1 - 3"
         ],
         [
-            Prefix.readingRef + "JHN:3:1-21"
-        ]
+            Prefix.readingRef + "JHN:3:1-21",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=2202&C=Title",
-            " مزمور 96:2-3"
         ],
         [
-            Prefix.readingRef + "PSA:96:2-3"
-        ]
+            Prefix.readingRef + "PSA:96:2-3",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=2702&C=Title",
-            " مزمور (1:1)"
         ],
         [
-            Prefix.readingRef + "PSA:1:1-1"
-        ]
+            Prefix.readingRef + "PSA:1:1-1",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=2702&C=Title",
-            " متى (4:23-25 &5:1-16)"
         ],
         [
-            Prefix.readingRef + "MAT:4:23-25"
+            Prefix.readingRef + "MAT:4:23-25",
         ],
         [
-            Prefix.readingRef + "MAT:5:1-16"
-        ]
+            Prefix.readingRef + "MAT:5:1-16",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=031stSunday&C=Title",
-            " مزمور ( 64 : 10 ،11 )"
         ],
         [
-            Prefix.readingRef + "PSA:65:10-11"
-        ]
+            Prefix.readingRef + "PSA:65:10-11",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=031stSunday&C=Title",
-            " لوقا ( 8 : 4-15 )"
         ],
         [
-            Prefix.readingRef + "LUK:8:4-15"
-        ]
+            Prefix.readingRef + "LUK:8:4-15",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=033rdSunday&C=Title",
-            " مزمور ( 85 : 14 ، 15)"
         ],
         [
-            Prefix.readingRef + "PSA:86:15-16"
-        ]
+            Prefix.readingRef + "PSA:86:15-16",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=034thSunday&C=Title",
-            " مزمور ( 99 : 2 )"
         ],
         [
-            Prefix.readingRef + "PSA:100:3-3"
-        ]
+            Prefix.readingRef + "PSA:100:3-3",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=034thSunday&C=Title",
-            " مرقس ( 10 : 17-31 )"
         ],
         [
-            Prefix.readingRef + "MRK:10:17-31"
-        ]
+            Prefix.readingRef + "MRK:10:17-31",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=0803||044thSunday&C=Title",
-            " مزمور 80:1-3"
         ],
         [
-            Prefix.readingRef + "PSA:80:1-3"
-        ]
+            Prefix.readingRef + "PSA:80:1-3",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=0803&C=Title",
-            " يوحنا 1:43-51"
         ],
         [
-            Prefix.readingRef + "JHN:1:43-51"
-        ]
+            Prefix.readingRef + "JHN:1:43-51",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=0903&C=Title",
-            " مزمور 19:4 & 132:9-10"
         ],
         [
-            Prefix.readingRef + "PSA:19:4-4/132:9-10"
-        ]
+            Prefix.readingRef + "PSA:19:4-4/132:9-10",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=1203&C=Title",
-            " مزمور 103:20-21"
         ],
         [
-            Prefix.readingRef + "PSA:103:20-21"
-        ]
+            Prefix.readingRef + "PSA:103:20-21",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=1203&C=Title",
-            " متى ( 13 : 24 – 43 )"
         ],
         [
-            Prefix.readingRef + "MAT:13:24-43"
-        ]
+            Prefix.readingRef + "MAT:13:24-43",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=1503||2605&C=Title",
-            " مزمور34:19-20"
         ],
         [
-            Prefix.readingRef + "PSA:34:19-20"
-        ]
+            Prefix.readingRef + "PSA:34:19-20",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=1503&C=Title",
-            " لوقا (11:53-54 & 12:1-12)"
         ],
         [
-            Prefix.readingRef + "LUK:11:53-54"
+            Prefix.readingRef + "LUK:11:53-54",
         ],
         [
-            Prefix.readingRef + "LUK:12:1-12"
-        ]
+            Prefix.readingRef + "LUK:12:1-12",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=1703&C=Title",
-            " مزمور 78:5 & 135:5"
         ],
         [
-            Prefix.readingRef + "PSA:73:23-24/73:28-28/9:14-14"
-        ]
+            Prefix.readingRef + "PSA:73:23-24/73:28-28/9:14-14",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=2203||1009&C=Title",
-            " مزمور 66:12-14"
         ],
         [
-            Prefix.readingRef + "PSA:66:12-14"
-        ]
+            Prefix.readingRef + "PSA:66:12-14",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=2403&C=Title",
-            " مزمور 132:9-10,17-18"
         ],
         [
-            Prefix.readingRef + "PSA:132:9-10/132:17-18"
-        ]
+            Prefix.readingRef + "PSA:132:9-10/132:17-18",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=2403&C=Title",
-            " يوحنا 1:1-17"
         ],
         [
-            Prefix.readingRef + "JHN:1:1-17"
-        ]
+            Prefix.readingRef + "JHN:1:1-17",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=2503&C=Title",
-            " مزمور 45 :3 -4"
         ],
         [
-            Prefix.readingRef + "PSA:45:3-4"
-        ]
+            Prefix.readingRef + "PSA:45:3-4",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=2503&C=Title",
-            " متى ( 12 : 9 – 23 )"
         ],
         [
-            Prefix.readingRef + "MAT:12:9-23"
-        ]
+            Prefix.readingRef + "MAT:12:9-23",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=2703&C=Title",
-            " مزمور 78:5 & 135:5"
         ],
         [
-            Prefix.readingRef + "PSA:78:5-5/135:5-5"
-        ]
+            Prefix.readingRef + "PSA:78:5-5/135:5-5",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=2803||2304||0801&C=Title",
-            " مزمور 99 : 6 - 7"
         ],
         [
-            Prefix.readingRef + "PSA:99:6-7"
-        ]
+            Prefix.readingRef + "PSA:99:6-7",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=2803&C=Title",
-            " يوحنا 16 : 20 - 33"
         ],
         [
-            Prefix.readingRef + "JHN:16:20-33"
-        ]
+            Prefix.readingRef + "JHN:16:20-33",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=2903&C=Title",
-            " مزمور (110:4-5, 7 )"
         ],
         [
-            Prefix.readingRef + "PSA:110:4-5/110:7-7"
-        ]
+            Prefix.readingRef + "PSA:110:4-5/110:7-7",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=041stSunday&C=Title",
-            " مزمور ( 101 : 11 ، 14 )"
         ],
         [
-            Prefix.readingRef + "PSA:102:13-13/102:16-16"
-        ]
+            Prefix.readingRef + "PSA:102:13-13/102:16-16",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=042ndSunday||2907&C=Title",
-            " مزمور(44: 10-11)"
         ],
         [
-            Prefix.readingRef + "PSA:44:10-11"
-        ]
+            Prefix.readingRef + "PSA:44:10-11",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=043rdSunday&C=Title",
-            " مزمور( 84 : 9،10 )"
         ],
         [
-            Prefix.readingRef + "PSA:85:10-11"
-        ]
+            Prefix.readingRef + "PSA:85:10-11",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=2204&C=Title",
-            " مزمور 138:1-2"
         ],
         [
-            Prefix.readingRef + "PSA:138:1-2"
-        ]
+            Prefix.readingRef + "PSA:138:1-2",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=2204||||2907||042ndSunday&C=Title",
-            " لوقا 1:26-38"
         ],
         [
-            Prefix.readingRef + "LUK:1:26-38"
-        ]
+            Prefix.readingRef + "LUK:1:26-38",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=2304&C=Title",
-            " متى 23 : 14 - 36"
         ],
         [
-            Prefix.readingRef + "MAT:23:14-36"
-        ]
+            Prefix.readingRef + "MAT:23:14-36",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=2804&C=Title",
-            " مزمور (110:3)"
         ],
         [
-            Prefix.readingRef + "PSA:110:3-3"
-        ]
+            Prefix.readingRef + "PSA:110:3-3",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=2804&C=Title",
-            " لوقا ( 2 : 1 – 20)"
         ],
         [
-            Prefix.readingRef + "LUK:2:1-20"
-        ]
+            Prefix.readingRef + "LUK:2:1-20",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=2904&C=Title",
-            " مزمور 2:7-8"
         ],
         [
-            Prefix.readingRef + "PSA:2:7-8"
-        ]
+            Prefix.readingRef + "PSA:2:7-8",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=2904&C=Title",
-            " متى ( 2:1-12 )"
         ],
         [
-            Prefix.readingRef + "MAT:2:1-12"
-        ]
+            Prefix.readingRef + "MAT:2:1-12",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=3004&C=Title",
-            " مزمور 72:17"
         ],
         [
-            Prefix.readingRef + "PSA:72:17-17"
-        ]
+            Prefix.readingRef + "PSA:72:17-17",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=3004&C=Title",
-            " يوحنا ( 1: 1 -13)"
         ],
         [
-            Prefix.readingRef + "JHN:1:1-13"
-        ]
+            Prefix.readingRef + "JHN:1:1-13",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=0105&C=Title",
-            " مزمور 21 :3 & 5"
         ],
         [
-            Prefix.readingRef + "PSA:21:3-3/21:5-5"
-        ]
+            Prefix.readingRef + "PSA:21:3-3/21:5-5",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=0105||2202||111stSunday&C=Title",
-            " لوقا 1:10-20"
         ],
         [
-            Prefix.readingRef + "LUK:10:1-20"
-        ]
+            Prefix.readingRef + "LUK:10:1-20",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=0305&C=Title",
-            " مزمور 113:1-2"
         ],
         [
-            Prefix.readingRef + "PSA:113:1-2"
-        ]
+            Prefix.readingRef + "PSA:113:1-2",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=0305||2409||051stSunday&C=Title",
-            " متى 2 : 13 – 23"
         ],
         [
-            Prefix.readingRef + "MAT:2:13-23"
-        ]
+            Prefix.readingRef + "MAT:2:13-23",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=0405&C=Title",
-            " مزمور 139 : 17 - 18"
         ],
         [
-            Prefix.readingRef + "PSA:139:17-18"
-        ]
+            Prefix.readingRef + "PSA:139:17-18",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=051stSunday&C=Title",
-            " مزمور 98:2-3"
         ],
         [
-            Prefix.readingRef + "PSA:98:2-3"
-        ]
+            Prefix.readingRef + "PSA:98:2-3",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=052ndSunday&C=Title",
-            " مزمور ( 83 : 7 ، 64 : 2 )"
         ],
         [
-            Prefix.readingRef + "PSA:84:6-7/65:2-2"
-        ]
+            Prefix.readingRef + "PSA:84:6-7/65:2-2",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=052ndSunday&C=Title",
-            " لوقا ( 11: 27-36 )"
         ],
         [
-            Prefix.readingRef + "LUK:11:27-36"
-        ]
+            Prefix.readingRef + "LUK:11:27-36",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=053rdSunday&C=Title",
-            " مزمور( 65 : 11 ، 7 )"
         ],
         [
-            Prefix.readingRef + "PSA:66:12-12/66:8-8"
-        ]
+            Prefix.readingRef + "PSA:66:12-12/66:8-8",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=053rdSunday&C=Title",
-            " يوحنا ( 3 : 22-36 )"
         ],
         [
-            Prefix.readingRef + "JHN:3:22-36"
-        ]
+            Prefix.readingRef + "JHN:3:22-36",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=054thSunday&C=Title",
-            " مزمور( 36: 9 - 10 )"
         ],
         [
-            Prefix.readingRef + "PSA:36:9-10"
-        ]
+            Prefix.readingRef + "PSA:36:9-10",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=054thSunday&C=Title",
-            " يوحنا ( 9: 1-38 )"
         ],
         [
-            Prefix.readingRef + "JHN:9:1-38"
-        ]
+            Prefix.readingRef + "JHN:9:1-38",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=0605&C=Title",
-            " مزمور (50:14 & 23 )"
         ],
         [
-            Prefix.readingRef + "PSA:50:14-14/50:23-23"
-        ]
+            Prefix.readingRef + "PSA:50:14-14/50:23-23",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=0605&C=Title",
-            " لوقا (2:21-39)"
         ],
         [
-            Prefix.readingRef + "LUK:2:21-39"
-        ]
+            Prefix.readingRef + "LUK:2:21-39",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=1005&C=Title",
-            " مزمور45 :2"
         ],
         [
-            Prefix.readingRef + "PSA:45:2-2"
-        ]
+            Prefix.readingRef + "PSA:45:2-2",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=1005&C=Title",
-            " لوقا ( 3: 1 – 18 )"
         ],
         [
-            Prefix.readingRef + "LUK:3:1-18"
-        ]
+            Prefix.readingRef + "LUK:3:1-18",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=1105&C=Title",
-            " مزمور 118:26 & 28"
         ],
         [
-            Prefix.readingRef + "PSA:118:26-26/118:28-28"
-        ]
+            Prefix.readingRef + "PSA:118:26-26/118:28-28",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=1105&C=Title",
-            " يوحنا (1:18-34)"
         ],
         [
-            Prefix.readingRef + "JHN:1:18-34"
-        ]
+            Prefix.readingRef + "JHN:1:18-34",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=1205&C=Title",
-            " مزمور 104:1-2"
         ],
         [
-            Prefix.readingRef + "PSA:104:1-2"
-        ]
+            Prefix.readingRef + "PSA:104:1-2",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=1205&C=Title",
-            " يوحنا (1:35 : 51)"
         ],
         [
-            Prefix.readingRef + "JHN:1:35-51"
-        ]
+            Prefix.readingRef + "JHN:1:35-51",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=1305&C=Title",
-            " مزمور 77:14-16"
         ],
         [
-            Prefix.readingRef + "PSA:77:14-16"
-        ]
+            Prefix.readingRef + "PSA:77:14-16",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=2205&C=Title",
-            " مزمور 34:19 & 68:3"
         ],
         [
-            Prefix.readingRef + "PSA:34:19-19/68:3-3"
-        ]
+            Prefix.readingRef + "PSA:34:19-19/68:3-3",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=2605&C=Title",
-            " متى 4:23& 5:1-16"
         ],
         [
-            Prefix.readingRef + "MAT:4:23-End"
+            Prefix.readingRef + "MAT:4:23-End",
         ],
         [
-            Prefix.readingRef + "MAT:5:1-16"
-        ]
+            Prefix.readingRef + "MAT:5:1-16",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=3005&C=Title",
-            " مزمور 45:14-15"
         ],
         [
-            Prefix.readingRef + "PSA:45:14-15"
-        ]
+            Prefix.readingRef + "PSA:45:14-15",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=3005&C=Title",
-            " متى 25 : 1 - 13"
         ],
         [
-            Prefix.readingRef + "MAT:25:1-13"
-        ]
+            Prefix.readingRef + "MAT:25:1-13",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=0206&C=Title",
-            " مزمور( 131 : 7 ، 1 )"
         ],
         [
-            Prefix.readingRef + "PSA:132:9-10/132:1-2"
-        ]
+            Prefix.readingRef + "PSA:132:9-10/132:1-2",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=0206&C=Title",
-            " مرقس ( 9 : 33-41 )"
         ],
         [
-            Prefix.readingRef + "MRK:9:33-41"
-        ]
+            Prefix.readingRef + "MRK:9:33-41",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=061stSunday&C=Title",
-            " مزمور96:6, 4"
         ],
         [
-            Prefix.readingRef + "PSA:96:6-6/96:4-4"
-        ]
+            Prefix.readingRef + "PSA:96:6-6/96:4-4",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=061stSunday&C=Title",
-            " يوحنا ( 6 : 22-27 )"
         ],
         [
-            Prefix.readingRef + "JHN:6:22-27"
-        ]
-    ], ,
+            Prefix.readingRef + "JHN:6:22-27",
+        ],
+    ],
     [
         [
             Prefix.gospelMass + "Psalm&D=063rdSunday&C=Title",
-            " مزمور (89: 1, 6)"
         ],
         [
-            Prefix.readingRef + "PSA:89:1-1/89:6-6"
-        ]
+            Prefix.readingRef + "PSA:89:1-1/89:6-6",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=063rdSunday&C=Title",
-            " يوحنا ( 6 : 27 – 46 )"
         ],
         [
-            Prefix.readingRef + "JHN:6:27-46"
-        ]
+            Prefix.readingRef + "JHN:6:27-46",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=064thSunday&C=Title",
-            " مزمور 24: 11, 2"
         ],
         [
-            Prefix.readingRef + "PSA:24:11-11/24:2-2"
-        ]
+            Prefix.readingRef + "PSA:24:11-11/24:2-2",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=064thSunday||013rdSunday&C=Title",
-            " لوقا ( 19 : 1 – 10 )"
         ],
         [
-            Prefix.readingRef + "LUK:19:1-10"
-        ]
+            Prefix.readingRef + "LUK:19:1-10",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=0109&C=Title",
-            " مزمور 45:12-13"
         ],
         [
-            Prefix.readingRef + "PSA:45:12-13"
-        ]
+            Prefix.readingRef + "PSA:45:12-13",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=0109||043rdSunday&C=Title",
-            " لوقا ) 1 : 39 -56 )"
         ],
         [
-            Prefix.readingRef + "LUK:1:39-56"
-        ]
+            Prefix.readingRef + "LUK:1:39-56",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=1307||2308||1712&C=Title",
-            "مزمور 97:11-12"
         ],
         [
-            Prefix.readingRef + "PSA:97:11-12"
-        ]
+            Prefix.readingRef + "PSA:97:11-12",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=1307&C=Title",
-            "لوقا 11:53-12:12"
         ],
         [
-            Prefix.readingRef + "LUK:11:53-End"
+            Prefix.readingRef + "LUK:11:53-End",
         ],
         [
-            Prefix.readingRef + "LUK:12:1-12"
-        ]
+            Prefix.readingRef + "LUK:12:1-12",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=2308||2612||2203&C=Title",
-            " لوقا (21 : 12 – 19)"
         ],
         [
-            Prefix.readingRef + "LUK:21:12-19"
-        ]
+            Prefix.readingRef + "LUK:21:12-19",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=2708&C=Title",
-            "  مزمور 68:35, 3 "
         ],
         [
-            Prefix.readingRef + "PSA:68:35-35/68:3-3"
-        ]
+            Prefix.readingRef + "PSA:68:35-35/68:3-3",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=2708&C=Title",
-            " لوقا 12 : 4 - 12"
         ],
         [
-            Prefix.readingRef + "LUK:12:4-12"
-        ]
+            Prefix.readingRef + "LUK:12:4-12",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=3008&C=Title",
-            " مزمور 96:1-2"
         ],
         [
-            Prefix.readingRef + "PSA:96:1-2"
-        ]
+            Prefix.readingRef + "PSA:96:1-2",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=3008&C=Title",
-            " مرقس ( 1 : 1-11 ) "
         ],
         [
-            Prefix.readingRef + "MRK:1:1-11"
-        ]
+            Prefix.readingRef + "MRK:1:1-11",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=093rdSunday||101stSunday&C=Title",
-            " مزمور ( 142 : 9 ، 8 )"
         ],
         [
-            Prefix.readingRef + "PSA:143:10-10/143:8-8"
-        ]
+            Prefix.readingRef + "PSA:143:10-10/143:8-8",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=093rdSunday||101stSunday&C=Title",
-            " لوقا ( 11 : 1-13 )"
         ],
         [
-            Prefix.readingRef + "LUK:11:1-13"
-        ]
+            Prefix.readingRef + "LUK:11:1-13",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=094thSunday||102ndSunday||PNT44&C=Title",
-            " مزمور ( 12 : 6 )"
         ],
         [
-            Prefix.readingRef + "PSA:13:6-6/13:5-5"
-        ]
+            Prefix.readingRef + "PSA:13:6-6/13:5-5",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=094thSunday||02ndSunday&C=Title",
-            " لوقا ( 5: 17-26 )"
         ],
         [
-            Prefix.readingRef + "LUK:5:17-26"
-        ]
+            Prefix.readingRef + "LUK:5:17-26",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=1009&C=Title",
-            " متى ( 18 : 10 – 20 )"
         ],
         [
-            Prefix.readingRef + "MAT:18:10-20"
-        ]
+            Prefix.readingRef + "MAT:18:10-20",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=2409&C=Title",
-            " مزمور( 105:36 & 38)"
         ],
         [
-            Prefix.readingRef + "PSA:105:36-36/105:38-38"
-        ]
+            Prefix.readingRef + "PSA:105:36-36/105:38-38",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=2609||0511&C=Title",
-            " مزمور 19:1,4"
         ],
         [
-            Prefix.readingRef + "PSA:19:1-1/19:4-4"
-        ]
+            Prefix.readingRef + "PSA:19:1-1/19:4-4",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=2609||0511&C=Title",
-            " متى( 10 : 1 – 15 )"
         ],
         [
-            Prefix.readingRef + "MAT:10:1-15"
-        ]
+            Prefix.readingRef + "MAT:10:1-15",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=0210&C=Title",
-            " مزمور 34:19,15"
         ],
         [
-            Prefix.readingRef + "PSA:34:19-19/34:15-15"
-        ]
+            Prefix.readingRef + "PSA:34:19-19/34:15-15",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=0210&C=Title",
-            " متى ( 11 : 2 – 10 )"
         ],
         [
-            Prefix.readingRef + "MAT:11:2-10"
-        ]
+            Prefix.readingRef + "MAT:11:2-10",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=103rdSunday&C=Title",
-            " مزمور (61: 5, 8)"
         ],
         [
-            Prefix.readingRef + "PSA:61:5-5/61:8-8"
-        ]
+            Prefix.readingRef + "PSA:61:5-5/61:8-8",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=103rdSunday&C=Title",
-            " متى ( 12 : 22 – 37 )"
         ],
         [
-            Prefix.readingRef + "MAT:12:22-37"
-        ]
+            Prefix.readingRef + "MAT:12:22-37",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=104thSunday&C=Title",
-            " لوقا ( 6 : 27 – 38 )"
         ],
         [
-            Prefix.readingRef + "LUK:6:27-38"
-        ]
+            Prefix.readingRef + "LUK:6:27-38",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=0201||1610||3010&C=Title",
-            " مزمور 92:12-13"
         ],
         [
-            Prefix.readingRef + "PSA:92:12-13"
-        ]
+            Prefix.readingRef + "PSA:92:12-13",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=1610||2512||2205&C=Title",
-            " لوقا 12:32 – 44"
         ],
         [
-            Prefix.readingRef + "LUK:12:32-44"
-        ]
+            Prefix.readingRef + "LUK:12:32-44",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=3010||044thSunday&C=Title",
-            " لوقا 1:57-80"
         ],
         [
-            Prefix.readingRef + "LUK:1:57-80"
-        ]
+            Prefix.readingRef + "LUK:1:57-80",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=0311&C=Title",
-            " مزمور(107 : 32, 41, 42)"
         ],
         [
-            Prefix.readingRef + "PSA:107:32-32/107:41-42"
-        ]
+            Prefix.readingRef + "PSA:107:32-32/107:41-42",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=0311||1703&C=Title",
-            " يوحنا ( 10 : 1 – 16 )"
         ],
         [
-            Prefix.readingRef + "JHN:10:1-16"
-        ]
+            Prefix.readingRef + "JHN:10:1-16",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=111stSunday&C=Title",
-            " مزمور ( 88 : 6 )"
         ],
         [
-            Prefix.readingRef + "PSA:89:7-7"
-        ]
+            Prefix.readingRef + "PSA:89:7-7",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=112ndSunday&C=Title",
-            " مزمور (118 : 1 ، 2)"
         ],
         [
-            Prefix.readingRef + "PSA:119:1-2"
-        ]
+            Prefix.readingRef + "PSA:119:1-2",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=112ndSunday&C=Title",
-            " متى ( 18: 1-9 )"
         ],
         [
-            Prefix.readingRef + "MAT:18:1-9"
-        ]
+            Prefix.readingRef + "MAT:18:1-9",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=113rdSunday&C=Title",
-            " مزمور ( 145 : 17 ،18 )"
         ],
         [
-            Prefix.readingRef + "PSA:145:17-18"
-        ]
+            Prefix.readingRef + "PSA:145:17-18",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=113rdSunday&C=Title",
-            " لوقا ( 9 : 10-17 )"
         ],
         [
-            Prefix.readingRef + "LUK:9:10-17"
-        ]
+            Prefix.readingRef + "LUK:9:10-17",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=114thSunday&C=Title",
-            " مزمور( 39 : 5 ، 15 )"
         ],
         [
-            Prefix.readingRef + "PSA:40:5-5/40:16-16"
-        ]
+            Prefix.readingRef + "PSA:40:5-5/40:16-16",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=2011&C=Title",
-            " مزمور 91:13,11"
         ],
         [
-            Prefix.readingRef + "PSA:91:13-13/91:11-11"
-        ]
+            Prefix.readingRef + "PSA:91:13-13/91:11-11",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=2011&C=Title",
-            " لوقا( 10 : 21 – 24 )"
         ],
         [
-            Prefix.readingRef + "LUK:10:21-24"
-        ]
+            Prefix.readingRef + "LUK:10:21-24",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=0312&C=Title",
-            " مزمور 61:1, 2-3"
         ],
         [
-            Prefix.readingRef + "PSA:61:1-1/61:2-3"
-        ]
+            Prefix.readingRef + "PSA:61:1-1/61:2-3",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=121stSunday&C=Title",
-            " مزمور (80: 14 - 15 )"
         ],
         [
-            Prefix.readingRef + "PSA:80:14-15"
-        ]
+            Prefix.readingRef + "PSA:80:14-15",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=121stSunday&C=Title",
-            " لوقا (91 : 9-20)"
         ],
         [
-            Prefix.readingRef + "LUK:20:9–19"
-        ]
+            Prefix.readingRef + "LUK:20:9-19",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=122ndSunday&C=Title",
-            " مزمور (89:5, 15)"
         ],
         [
-            Prefix.readingRef + "PSA:89:5-5/89:15-15"
-        ]
+            Prefix.readingRef + "PSA:89:5-5/89:15-15",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=122ndSunday&C=Title",
-            " لوقا ( 5 : 27 – 39 )"
         ],
         [
-            Prefix.readingRef + "LUK:5:27-39"
-        ]
+            Prefix.readingRef + "LUK:5:27-39",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=123rdSunday&C=Title",
-            " مزمور ((28:2,8,6"
         ],
         [
-            Prefix.readingRef + "PSA:28:2-2/28:8-8/28:6-6"
-        ]
+            Prefix.readingRef + "PSA:28:2-2/28:8-8/28:6-6",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=123rdSunday&C=Title",
-            " مرقس ( 3 : 22 : 35 )"
         ],
         [
-            Prefix.readingRef + "MRK:3:22-35"
-        ]
+            Prefix.readingRef + "MRK:3:22-35",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=124thSunday&C=Title",
-            " مزمور(89:12,13,14 )"
         ],
         [
-            Prefix.readingRef + "PSA:89:12-14"
-        ]
+            Prefix.readingRef + "PSA:89:12-14",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=124thSunday&C=Title",
-            " مرقس ( 13 : 3 – 37 )"
         ],
         [
-            Prefix.readingRef + "MRK:13:3-37"
-        ]
+            Prefix.readingRef + "MRK:13:3-37",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=1312&C=Title",
-            " مزمور (87:1-2 & 5)"
         ],
         [
-            Prefix.readingRef + "PSA:87:1-2/87:5-5"
-        ]
+            Prefix.readingRef + "PSA:87:1-2/87:5-5",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=1312&C=Title",
-            " متى ( 16:13-19 )"
         ],
         [
-            Prefix.readingRef + "MRK:9:2-13"
-        ]
+            Prefix.readingRef + "MRK:9:2-13",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=1712||2703&C=Title",
-            " مرقس ( 10 : 35-45 )"
         ],
         [
-            Prefix.readingRef + "MRK:10:35-45"
-        ]
+            Prefix.readingRef + "MRK:10:35-45",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=2512&C=Title",
-            " مزمور 104:1-2,4"
         ],
         [
-            Prefix.readingRef + "PSA:104:1-2/104:4-4"
-        ]
+            Prefix.readingRef + "PSA:104:1-2/104:4-4",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=2612&C=Title",
-            " مزمور (149:5, 9)"
         ],
         [
-            Prefix.readingRef + "PSA:149:5-5/149:9-9"
-        ]
+            Prefix.readingRef + "PSA:149:5-5/149:9-9",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=2812&C=Title",
-            " مزمور 105:8-10"
         ],
         [
-            Prefix.readingRef + "PSA:105:8-10"
-        ]
+            Prefix.readingRef + "PSA:105:8-10",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=2912&C=Title",
-            " مزمور( 67 : 19 )"
         ],
         [
-            Prefix.readingRef + "PSA:68:19-19"
-        ]
+            Prefix.readingRef + "PSA:68:19-19",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=3012&C=Title",
-            " مزمور( 50 : 23 ، 14 )"
         ],
         [
-            Prefix.readingRef + "PSA:50:23-23/50:14-14"
-        ]
+            Prefix.readingRef + "PSA:50:23-23/50:14-14",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=3012&C=Title",
-            " لوقا ( 14 : 16-24 )"
         ],
         [
-            Prefix.readingRef + "LUK:14:16-24"
-        ]
+            Prefix.readingRef + "LUK:14:16-24",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=0113||2009&C=Title",
-            " مزمور 34:19-20"
         ],
         [
-            Prefix.readingRef + "PSA:37:30-31"
-        ]
+            Prefix.readingRef + "PSA:37:30-31",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=0113||0405&C=Title",
-            " يوحنا ( 21 : 15 – 25 )"
         ],
         [
-            Prefix.readingRef + "JHN:21:15-25"
-        ]
+            Prefix.readingRef + "JHN:21:15-25",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=0213&C=Title",
-            " مزمور ( 104 : 1 ، 67 : 13 )"
         ],
         [
-            Prefix.readingRef + "104:1-1/67:13-13"
-        ]
+            Prefix.readingRef + "104:1-1/67:13-13",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=0213&C=Title",
-            " لوقا ( 6 : 12-23 )"
         ],
         [
-            Prefix.readingRef + "LUK:6:12-23"
-        ]
+            Prefix.readingRef + "LUK:6:12-23",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=131stSunday&C=Title",
-            " مزمور 138:1-2"
         ],
         [
-            Prefix.readingRef + "PSA:101:20-20"
-        ]
+            Prefix.readingRef + "PSA:101:20-20",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=131stSunday&C=Title",
-            " متى ( 25 : 31 – 46 )"
         ],
         [
-            Prefix.readingRef + "MAT:24:3-35"
-        ]
+            Prefix.readingRef + "MAT:24:3-35",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=0313&C=Title",
-            " مزمور 138:1-2"
         ],
         [
-            Prefix.readingRef + "PSA:138:1-1"
-        ]
+            Prefix.readingRef + "PSA:138:1-1",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=0313&C=Title",
-            " متى ( 25 : 31 – 46 )"
         ],
         [
-            Prefix.readingRef + "MAT:25:31-46"
-        ]
+            Prefix.readingRef + "MAT:25:31-46",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=0413&C=Title",
-            " مزمور 116:15-16"
         ],
         [
-            Prefix.readingRef + "PSA:116:15-16"
-        ]
+            Prefix.readingRef + "PSA:116:15-16",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=0413||2009&C=Title",
-            " لوقا ( 16 : 1-12 )"
         ],
         [
-            Prefix.readingRef + "LUK:16:1-12"
-        ]
+            Prefix.readingRef + "LUK:16:1-12",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=0613&C=Title",
-            " مزمور 119:97-98"
         ],
         [
-            Prefix.readingRef + "PSA:119:97-98"
-        ]
+            Prefix.readingRef + "PSA:119:97-98",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=0613||1305&C=Title",
-            " يوحنا 16 : 20 - 33"
         ],
         [
-            Prefix.readingRef + "JHN:2:1-11"
-        ]
+            Prefix.readingRef + "JHN:2:1-11",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=GL10&C=Title",
-            " مزمور ( 28 : 1-2 )"
         ],
         [
-            Prefix.readingRef + "PSA:29:1-2"
-        ]
+            Prefix.readingRef + "PSA:29:1-2",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=GL10&C=Title",
-            " لوقا ( 18 : 1-8 )"
         ],
         [
-            Prefix.readingRef + "LUK:18:1-8"
-        ]
+            Prefix.readingRef + "LUK:18:1-8",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=GL11&C=Title",
-            " مزمور (41:1)"
         ],
         [
-            Prefix.readingRef + "PSA:41:1-1"
-        ]
+            Prefix.readingRef + "PSA:41:1-1",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=GL11&C=Title",
-            " مرقس ( 10 : 17-27 )"
         ],
         [
-            Prefix.readingRef + "MRK:10:17-27"
-        ]
+            Prefix.readingRef + "MRK:10:17-27",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=GL12&C=Title",
-            " مزمور (18: 1-2 )"
         ],
         [
-            Prefix.readingRef + "PSA:18:1-2"
-        ]
+            Prefix.readingRef + "PSA:18:1-2",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=GL12&C=Title",
-            " مرقس ( 10 : 17-27 )"
         ],
         [
-            Prefix.readingRef + "MAT:15:32-38"
-        ]
+            Prefix.readingRef + "MAT:15:32-38",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=GL13||GL27&C=Title",
-            " مزمور ( 48 : 10 - 11 )"
         ],
         [
-            Prefix.readingRef + "PSA:48:10-11"
-        ]
+            Prefix.readingRef + "PSA:48:10-11",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=GL13&C=Title",
-            " مرقس (19:16-30)"
         ],
         [
-            Prefix.readingRef + "MAT:19:16-30"
-        ]
+            Prefix.readingRef + "MAT:19:16-30",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=GL14&C=Title",
-            " مزمور ( 28 : 01-11 )"
         ],
         [
-            Prefix.readingRef + "PSA:29:10-11"
-        ]
+            Prefix.readingRef + "PSA:29:10-11",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=GL14&C=Title",
-            " لوقا (6 : 39 - 49)"
         ],
         [
-            Prefix.readingRef + "LUK:6:39-49"
-        ]
+            Prefix.readingRef + "LUK:6:39-49",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=GL15&C=Title",
-            " لوقا (6 : 39 - 49)"
         ],
         [
-            Prefix.readingRef + "MAT:7:13-21"
-        ]
+            Prefix.readingRef + "MAT:7:13-21",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=GL17&C=Title",
-            " مزمور (32:5)"
         ],
         [
-            Prefix.readingRef + "PSA:32:5-5"
-        ]
+            Prefix.readingRef + "PSA:32:5-5",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=GL17&C=Title",
-            " لوقا ( 11 : 33 - 36 )"
         ],
         [
-            Prefix.readingRef + "LUK:11:33-36"
-        ]
+            Prefix.readingRef + "LUK:11:33-36",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=GL18&C=Title",
-            " مزمور (2:3-32)"
         ],
         [
-            Prefix.readingRef + "PSA:32:2-3"
-        ]
+            Prefix.readingRef + "PSA:32:2-3",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=GL18||PNT19&C=Title",
-            " يوحنا ( 8 : 31-39 )"
         ],
         [
-            Prefix.readingRef + "JHN:8:31-39"
-        ]
+            Prefix.readingRef + "JHN:8:31-39",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=GL19&C=Title",
-            " مزمور (27:7, 8 )"
         ],
         [
-            Prefix.readingRef + "PSA:27:7-8"
-        ]
+            Prefix.readingRef + "PSA:27:7-8",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=GL19&C=Title",
-            " لوقا ( 4 : 1 – 13 )"
         ],
         [
-            Prefix.readingRef + "LUK:4:1-13"
-        ]
+            Prefix.readingRef + "LUK:4:1-13",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=GL1&C=Title",
-            " مزمور 95:1-2"
         ],
         [
-            Prefix.readingRef + "PSA:95:1-2"
-        ]
+            Prefix.readingRef + "PSA:95:1-2",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=GL1stSunday&C=Title",
-            " مزمور 2:11, 10"
         ],
         [
-            Prefix.readingRef + "PSA:2:11-11/2:10-10"
-        ]
+            Prefix.readingRef + "PSA:2:11-11/2:10-10",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=GL1stSunday&C=Title",
-            " متى (6:1-18)"
         ],
         [
-            Prefix.readingRef + "MAT:6:1-18"
-        ]
+            Prefix.readingRef + "MAT:6:1-18",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=GL20&C=Title",
-            " مزمور (9 : 7 -8 )"
         ],
         [
-            Prefix.readingRef + "PSA:9:7-8"
-        ]
+            Prefix.readingRef + "PSA:9:7-8",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=GL20&C=Title",
-            " يوحنا ( 12 : 44-50 )"
         ],
         [
-            Prefix.readingRef + "JHN:12:44-50"
-        ]
+            Prefix.readingRef + "JHN:12:44-50",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=GL21&C=Title",
-            " مزمور (61:1-2)"
         ],
         [
-            Prefix.readingRef + "PSA:16:1-2"
-        ]
+            Prefix.readingRef + "PSA:16:1-2",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=GL21&C=Title",
-            " لوقا (11:14-26 )"
         ],
         [
-            Prefix.readingRef + "LUK:11:14-26"
-        ]
+            Prefix.readingRef + "LUK:11:14-26",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=GL22&C=Title",
-            " مزمور (27:6-8)"
         ],
         [
-            Prefix.readingRef + "PSA:27:6-8"
-        ]
+            Prefix.readingRef + "PSA:27:6-8",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=GL22&C=Title",
-            " متى ( 18 : 23-35 )"
         ],
         [
-            Prefix.readingRef + "MAT:18:23-35"
-        ]
+            Prefix.readingRef + "MAT:18:23-35",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=GL24&C=Title",
-            " مزمور (55 : 16 -17)"
         ],
         [
-            Prefix.readingRef + "PSA:55:16-17"
-        ]
+            Prefix.readingRef + "PSA:55:16-17",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=GL24&C=Title",
-            " لوقا ( 16 : 1 - 9 )"
         ],
         [
-            Prefix.readingRef + "LUK:16:1-9"
-        ]
+            Prefix.readingRef + "LUK:16:1-9",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=GL25&C=Title",
-            " مزمور (17:6)"
         ],
         [
-            Prefix.readingRef + "PSA:17:6-6"
-        ]
+            Prefix.readingRef + "PSA:17:6-6",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=GL25&C=Title",
-            " لوقا ( 9 : 57 – 62 )"
         ],
         [
-            Prefix.readingRef + "LUK:9:57-62"
-        ]
+            Prefix.readingRef + "LUK:9:57-62",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=GL26&C=Title",
-            " مزمور (18:17-18)"
         ],
         [
-            Prefix.readingRef + "PSA:18:17-18"
-        ]
+            Prefix.readingRef + "PSA:18:17-18",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=GL26&C=Title",
-            " مرقس ( 4 : 35-41 )"
         ],
         [
-            Prefix.readingRef + "MRK:4:35-41"
-        ]
+            Prefix.readingRef + "MRK:4:35-41",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=GL27&C=Title",
-            " لوقا ( 18 : 35-43 )"
         ],
         [
-            Prefix.readingRef + "LUK:18:35-43"
-        ]
+            Prefix.readingRef + "LUK:18:35-43",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=GL28&C=Title",
-            " مزمور (28:2)"
         ],
         [
-            Prefix.readingRef + "PSA:28:2-2"
-        ]
+            Prefix.readingRef + "PSA:28:2-2",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=GL28&C=Title",
-            " متى ( 15 : 21-31 )"
         ],
         [
-            Prefix.readingRef + "MAT:15:21-31"
-        ]
+            Prefix.readingRef + "MAT:15:21-31",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=GL29&C=Title",
-            " مزمور (61:1, 5)"
         ],
         [
-            Prefix.readingRef + "PSA:61:1-1/61:5-5"
-        ]
+            Prefix.readingRef + "PSA:61:1-1/61:5-5",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=GL29&C=Title",
-            " متى (21:33-46)"
         ],
         [
-            Prefix.readingRef + "MAT:21:33-46"
-        ]
+            Prefix.readingRef + "MAT:21:33-46",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=GL2ndSunday&C=Title",
-            " مزمور 25:1-2, 4"
         ],
         [
-            Prefix.readingRef + "PSA:25:1-2/25:4-4"
-        ]
+            Prefix.readingRef + "PSA:25:1-2/25:4-4",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=GL2ndSunday&C=Title",
-            " متى ( 6 : 19-33 )"
         ],
         [
-            Prefix.readingRef + "MAT:6:19-33"
-        ]
+            Prefix.readingRef + "MAT:6:19-33",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=GL31&C=Title",
-            " مزمور (86:3-4)"
         ],
         [
-            Prefix.readingRef + "PSA:86:3-4"
-        ]
+            Prefix.readingRef + "PSA:86:3-4",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=GL31&C=Title",
-            " لوقا (9:12-17)"
         ],
         [
-            Prefix.readingRef + "LUK:9:12-17"
-        ]
+            Prefix.readingRef + "LUK:9:12-17",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=GL32||GL34&C=Title",
-            " مزمور (86 : 17 )"
         ],
         [
-            Prefix.readingRef + "PSA:86:17-17"
-        ]
+            Prefix.readingRef + "PSA:86:17-17",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=GL32&C=Title",
-            " يوحنا ( 8 12 : 20 )"
         ],
         [
-            Prefix.readingRef + "JHN:8:12-20"
-        ]
+            Prefix.readingRef + "JHN:8:12-20",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=GL33&C=Title",
-            " مزمور (86:13-14)"
         ],
         [
-            Prefix.readingRef + "PSA:86:13-14"
-        ]
+            Prefix.readingRef + "PSA:86:13-14",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=GL33&C=Title",
-            " لوقا ( 13 : 6-9 )"
         ],
         [
-            Prefix.readingRef + "LUK:13:6-9"
-        ]
+            Prefix.readingRef + "LUK:13:6-9",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=GL34&C=Title",
-            " لوقا (13:10-17)"
         ],
         [
-            Prefix.readingRef + "LUK:13:10-17"
-        ]
+            Prefix.readingRef + "LUK:13:10-17",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=GL35&C=Title",
-            " مزمور (138:1, 3, 1-2)"
         ],
         [
-            Prefix.readingRef + "PSA:138:1-3"
-        ]
+            Prefix.readingRef + "PSA:138:1-3",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=GL35||2912&C=Title",
-            " يوحنا ( 8 : 21-27 )"
         ],
         [
-            Prefix.readingRef + "JHN:8:21-27"
-        ]
+            Prefix.readingRef + "JHN:8:21-27",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=GL36||GL43&C=Title",
-            " متى (23:14-39)"
         ],
         [
-            Prefix.readingRef + "MAT:23:14-39"
-        ]
+            Prefix.readingRef + "MAT:23:14-39",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=GL38&C=Title",
-            " مزمور (35:1-2)"
         ],
         [
-            Prefix.readingRef + "PSA:35:1-2"
-        ]
+            Prefix.readingRef + "PSA:35:1-2",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=GL1||GL38&C=Title",
-            " لوقا (13:1-5)"
         ],
         [
-            Prefix.readingRef + "LUK:13:1-5"
-        ]
+            Prefix.readingRef + "LUK:13:1-5",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=GL39&C=Title",
-            " مزمور (42:1)"
         ],
         [
-            Prefix.readingRef + "PSA:42:1-1"
-        ]
+            Prefix.readingRef + "PSA:42:1-1",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=GL39&C=Title",
-            " لوقا ( 9 : 18-22 )"
         ],
         [
-            Prefix.readingRef + "LUK:9:18-22"
-        ]
+            Prefix.readingRef + "LUK:9:18-22",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=GL3&C=Title",
-            " مزمور (22:26)"
         ],
         [
-            Prefix.readingRef + "PSA:22:26-26"
-        ]
+            Prefix.readingRef + "PSA:22:26-26",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=GL3&C=Title",
-            " مرقس ( 9 : 33 - 50 )"
         ],
         [
-            Prefix.readingRef + "MRK:9:33-50"
-        ]
+            Prefix.readingRef + "MRK:9:33-50",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=GL3rdSunday&C=Title",
-            " مزمور (27:8-9, 9 )"
         ],
         [
-            Prefix.readingRef + "PSA:27:8-9"
-        ]
+            Prefix.readingRef + "PSA:27:8-9",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=GL3rdSunday&C=Title",
-            " متى ( 4 : 1-11 )"
         ],
         [
-            Prefix.readingRef + "MAT:4:1-11"
-        ]
+            Prefix.readingRef + "MAT:4:1-11",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=GL40&C=Title",
-            " مزمور (9:11-12)"
         ],
         [
-            Prefix.readingRef + "PSA:9:11-12"
-        ]
+            Prefix.readingRef + "PSA:9:11-12",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=GL40&C=Title",
-            " لوقا (11:45-52)"
         ],
         [
-            Prefix.readingRef + "LUK:11:45-52"
-        ]
+            Prefix.readingRef + "LUK:11:45-52",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=GL41&C=Title",
-            " مزمور (9:13-14)"
         ],
         [
-            Prefix.readingRef + "PSA:9:13-14"
-        ]
+            Prefix.readingRef + "PSA:9:13-14",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=GL41&C=Title",
-            " يوحنا ( 6 : 47-71 )"
         ],
         [
-            Prefix.readingRef + "JHN:6:47-71"
-        ]
+            Prefix.readingRef + "JHN:6:47-71",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=GL42&C=Title",
-            " مزمور (34:5, 4)"
         ],
         [
-            Prefix.readingRef + "PSA:34:4-5"
-        ]
+            Prefix.readingRef + "PSA:34:4-5",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=GL42&C=Title",
-            " يوحنا ( 3 : 1-13 )"
         ],
         [
-            Prefix.readingRef + "JHN:3:1-13"
-        ]
+            Prefix.readingRef + "JHN:3:1-13",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=GL36||GL43&C=Title",
-            " مزمور (143:1-2)"
         ],
         [
-            Prefix.readingRef + "PSA:143:1-2"
-        ]
+            Prefix.readingRef + "PSA:143:1-2",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=GL45&C=Title",
-            " مزمور (86:12-13)"
         ],
         [
-            Prefix.readingRef + "PSA:86:12-13"
-        ]
+            Prefix.readingRef + "PSA:86:12-13",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=GL45&C=Title",
-            " يوحنا( 5 : 31-47 )"
         ],
         [
-            Prefix.readingRef + "JHN:5:31-47"
-        ]
+            Prefix.readingRef + "JHN:5:31-47",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=GL46&C=Title",
-            " لوقا ( 9 : 18-22 )"
         ],
         [
-            Prefix.readingRef + "JHN:12:36-43"
-        ]
+            Prefix.readingRef + "JHN:12:36-43",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=GL47||GL46&C=Title",
-            " مزمور (51:2-3)"
         ],
         [
-            Prefix.readingRef + "PSA:51:2-3"
-        ]
+            Prefix.readingRef + "PSA:51:2-3",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=GL48&C=Title",
-            " مزمور (122:1-2)"
         ],
         [
-            Prefix.readingRef + "PSA:122:1-2"
-        ]
+            Prefix.readingRef + "PSA:122:1-2",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=2812||GL48&C=Title",
-            " مرقس ( 12 : 18-27 )"
         ],
         [
-            Prefix.readingRef + "MRK:12:18-27"
-        ]
+            Prefix.readingRef + "MRK:12:18-27",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=GL49&C=Title",
-            " مزمور (98:8-9)"
         ],
         [
-            Prefix.readingRef + "PSA:98:8-9"
-        ]
+            Prefix.readingRef + "PSA:98:8-9",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=GL49&C=Title",
         ],
         [
-            Prefix.readingRef + "LUK:13:31-35"
-        ]
+            Prefix.readingRef + "LUK:13:31-35",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=GL4&C=Title",
-            " مزمور (25:16-17)"
         ],
         [
-            Prefix.readingRef + "PSA:25:16-17"
-        ]
+            Prefix.readingRef + "PSA:25:16-17",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=GL4&C=Title",
-            " لوقا ( 12 : 41 – 50 )"
         ],
         [
-            Prefix.readingRef + "LUK:12:41–50"
-        ]
+            Prefix.readingRef + "LUK:12:41-50",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=GL4thSunday&C=Title",
-            " مزمور 79:8-9"
         ],
         [
-            Prefix.readingRef + "PSA:79:8-9"
-        ]
+            Prefix.readingRef + "PSA:79:8-9",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=GL4thSunday&C=Title",
-            " لوقا ( 15 : 11-32 )"
         ],
         [
-            Prefix.readingRef + "LUK:15:11-32"
-        ]
+            Prefix.readingRef + "LUK:15:11-32",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=GL50&C=Title",
-            " مزمور (129:8, 2)"
         ],
         [
-            Prefix.readingRef + "PSA:129:8-8/129:2-2"
-        ]
+            Prefix.readingRef + "PSA:129:8-8/129:2-2",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=GL50||114thSunday&C=Title",
-            " يوحنا (11:1-45)"
         ],
         [
-            Prefix.readingRef + "JHN:11:1-45"
-        ]
+            Prefix.readingRef + "JHN:11:1-45",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=GL55&C=Title",
-            "  مزامير 22: 4-5 و 40: 8"
         ],
         [
-            Prefix.readingRef + "PSA:22:5-5/40:10-10"
-        ]
+            Prefix.readingRef + "PSA:22:5-5/40:10-10",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=GL55&C=Title",
-            " متى ( 26: 20–29)"
         ],
         [
-            Prefix.readingRef + "MAT:26:20-29"
-        ]
+            Prefix.readingRef + "MAT:26:20-29",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=GL5&C=Title",
-            " مزمور (25:20, 16)"
         ],
         [
-            Prefix.readingRef + "PSA:25:20-20/25:16-16"
-        ]
+            Prefix.readingRef + "PSA:25:20-20/25:16-16",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=GL5&C=Title",
-            " لوقا ( 6 : 35 - 38 )"
         ],
         [
-            Prefix.readingRef + "LUK:6:35-38"
-        ]
+            Prefix.readingRef + "LUK:6:35-38",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=GL5thSunday||PNT2&C=Title",
-            " مزمور105:3-5"
         ],
         [
-            Prefix.readingRef + "PSA:105:3-5"
-        ]
+            Prefix.readingRef + "PSA:105:3-5",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=GL6&C=Title",
-            " مزمور (118:14, 18)"
         ],
         [
-            Prefix.readingRef + "PSA:118:14-14/118:18-18"
-        ]
+            Prefix.readingRef + "PSA:118:14-14/118:18-18",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=GL6&C=Title",
-            " مرقس (4: 21 - 29)"
         ],
         [
-            Prefix.readingRef + "MRK:4:21-29"
-        ]
+            Prefix.readingRef + "MRK:4:21-29",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=GL6thSunday&C=Title",
-            " مزمور 33:5-6"
         ],
         [
-            Prefix.readingRef + "PSA:33:5-6"
-        ]
+            Prefix.readingRef + "PSA:33:5-6",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=GL6thSunday&C=Title",
-            " يوحنا ( 5 : 1-18 )"
         ],
         [
-            Prefix.readingRef + "JHN:5:1-18"
-        ]
+            Prefix.readingRef + "JHN:5:1-18",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=GL7&C=Title",
-            " مزمور (13:5-6)"
         ],
         [
-            Prefix.readingRef + "PSA:13:5-6"
-        ]
+            Prefix.readingRef + "PSA:13:5-6",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=GL7&C=Title",
-            " لوقا (11:1-10)"
         ],
         [
-            Prefix.readingRef + "LUK:11:1-10"
-        ]
+            Prefix.readingRef + "LUK:11:1-10",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=GL7thSunday&C=Title",
-            " مزمور 143:7, 1"
         ],
         [
-            Prefix.readingRef + "PSA:143:7-7/143:1-1"
-        ]
+            Prefix.readingRef + "PSA:143:7-7/143:1-1",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=GL7thSunday&C=Title",
-            " يوحنا ( 9 : 1-41 )"
         ],
         [
-            Prefix.readingRef + "JHN:9:1-41"
-        ]
+            Prefix.readingRef + "JHN:9:1-41",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=GL8&C=Title",
-            " مزمور (5:1-2)"
         ],
         [
-            Prefix.readingRef + "PSA:5:1-2"
-        ]
+            Prefix.readingRef + "PSA:5:1-2",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=GL8&C=Title",
-            " متى ( 5 : 38 – 48 )"
         ],
         [
-            Prefix.readingRef + "MAT:5:38-48"
-        ]
+            Prefix.readingRef + "MAT:5:38-48",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "1Psalm&D=GL8thSunday&C=Title",
-            " مزمور 81 : 3 – 1 - 2"
         ],
         [
-            Prefix.readingRef + "PSA:81:3-3/81:1-2"
-        ]
+            Prefix.readingRef + "PSA:81:3-3/81:1-2",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "1Gospel&D=GL8thSunday&C=Title",
-            " متى ( 21 : 1-17 )"
         ],
         [
-            Prefix.readingRef + "MAT:21:1-17"
-        ]
+            Prefix.readingRef + "MAT:21:1-17",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "2&D=GL8thSunday&C=Title",
-            " مرقس ( 11 : 1-11 )"
         ],
         [
-            Prefix.readingRef + "MRK:11:1-11"
-        ]
+            Prefix.readingRef + "MRK:11:1-11",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "3&D=GL8thSunday&C=Title",
-            " لوقا ( 19 : 29-48 )"
         ],
         [
-            Prefix.readingRef + "LUK:19:29-48"
-        ]
+            Prefix.readingRef + "LUK:19:29-48",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "4Gospel&D=GL8thSunday&C=Title",
-            " يوحنا ( 12 : 12-19 )"
         ],
         [
-            Prefix.readingRef + "JHN:12:12-19"
-        ]
+            Prefix.readingRef + "JHN:12:12-19",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=PNT10&C=Title",
-            " مزمور (9:1-2)"
         ],
         [
-            Prefix.readingRef + "PSA:9:1-2"
-        ]
+            Prefix.readingRef + "PSA:9:1-2",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=PNT10&C=Title",
-            " يوحنا (5:31-37)"
         ],
         [
-            Prefix.readingRef + "JHN:5:31-37"
-        ]
+            Prefix.readingRef + "JHN:5:31-37",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=PNT11&C=Title",
-            " مزمور(8:4, 5)"
         ],
         [
-            Prefix.readingRef + "PSA:8:4-5"
-        ]
+            Prefix.readingRef + "PSA:8:4-5",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=PNT11&C=Title",
-            " يوحنا ( 5 : 39 – 47 )"
         ],
         [
-            Prefix.readingRef + "JHN:5:39-47"
-        ]
+            Prefix.readingRef + "JHN:5:39-47",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=PNT12&C=Title",
-            " مزمور (9:10-11)"
         ],
         [
-            Prefix.readingRef + "PSA:9:10-11"
-        ]
+            Prefix.readingRef + "PSA:9:10-11",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=PNT12&C=Title",
-            " يوحنا ( 6 : 54 – 58 )"
         ],
         [
-            Prefix.readingRef + "JHN:6:54-58"
-        ]
+            Prefix.readingRef + "JHN:6:54-58",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=PNT13&C=Title",
-            " مزمور (107:20, 22)"
         ],
         [
-            Prefix.readingRef + "PSA:107:20-20/107:22-22"
-        ]
+            Prefix.readingRef + "PSA:107:20-20/107:22-22",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=PNT13&C=Title",
-            " يوحنا ( 6 : 1 – 14 )"
         ],
         [
-            Prefix.readingRef + "JHN:6:1-14"
-        ]
+            Prefix.readingRef + "JHN:6:1-14",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=PNT15&C=Title",
-            " مزمور (7:1, 17)"
         ],
         [
-            Prefix.readingRef + "PSA:7:1-1/7:17-17"
-        ]
+            Prefix.readingRef + "PSA:7:1-1/7:17-17",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=PNT15&C=Title",
-            " يوحنا ( 7 : 39 – 42 )"
         ],
         [
-            Prefix.readingRef + "JHN:7:39-42"
-        ]
+            Prefix.readingRef + "JHN:7:39-42",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=PNT16&C=Title",
-            " مزمور (7:10-11)"
         ],
         [
-            Prefix.readingRef + "PSA:7:10-11"
-        ]
+            Prefix.readingRef + "PSA:7:10-11",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=PNT16&C=Title",
-            " يوحنا ( 8 : 12 – 16 )"
         ],
         [
-            Prefix.readingRef + "JHN:8:12-16"
-        ]
+            Prefix.readingRef + "JHN:8:12-16",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=PNT17&C=Title",
-            " يوحنا (8:23-26)"
         ],
         [
-            Prefix.readingRef + "JHN:8:23-26"
-        ]
+            Prefix.readingRef + "JHN:8:23-26",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=PNT18&C=Title",
-            " مزمور(33:20-21)"
         ],
         [
-            Prefix.readingRef + "PSA:33:20-21"
-        ]
+            Prefix.readingRef + "PSA:33:20-21",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=PNT18&C=Title",
-            " يوحنا ( 8 : 28 – 30 )"
         ],
         [
-            Prefix.readingRef + "JHN:8:28-30"
-        ]
+            Prefix.readingRef + "JHN:8:28-30",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=PNT19&C=Title",
-            " مزمور (86:12, 10)"
         ],
         [
-            Prefix.readingRef + "PSA:86:12-12/86:10-10"
-        ]
+            Prefix.readingRef + "PSA:86:12-12/86:10-10",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=PNT1&C=Title",
-            " مزمور (104:24, 31)"
         ],
         [
-            Prefix.readingRef + "PSA:104:24-24/104:31-31"
-        ]
+            Prefix.readingRef + "PSA:104:24-24/104:31-31",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=PNT1&C=Title",
-            " لوقا (24:13-35)"
         ],
         [
-            Prefix.readingRef + "LUK:24:13-35"
-        ]
+            Prefix.readingRef + "LUK:24:13-35",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=PNT1stSunday&C=Title",
-            " مزمور 98:1, 4"
         ],
         [
-            Prefix.readingRef + "PSA:98:1-1/98:4-4"
-        ]
+            Prefix.readingRef + "PSA:98:1-1/98:4-4",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=PNT1stSunday&C=Title",
-            " يوحنا ( 20 : 19 – 31 )"
         ],
         [
-            Prefix.readingRef + "JHN:20:19-31"
-        ]
+            Prefix.readingRef + "JHN:20:19-31",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=PNT20&C=Title",
-            " مزمور (20:5-6)"
         ],
         [
-            Prefix.readingRef + "PSA:20:5-6"
-        ]
+            Prefix.readingRef + "PSA:20:5-6",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=PNT20&C=Title",
-            " يوحنا ( 6 : 47 – 56 )"
         ],
         [
-            Prefix.readingRef + "JHN:6:47-56"
-        ]
+            Prefix.readingRef + "JHN:6:47-56",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=PNT22&C=Title",
-            " مزمور (119:105, 135)"
         ],
         [
-            Prefix.readingRef + "PSA:119:105-105/119:135-135"
-        ]
+            Prefix.readingRef + "PSA:119:105-105/119:135-135",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=PNT22&C=Title",
-            " يوحنا ( 8 : 39 – 42 )"
         ],
         [
-            Prefix.readingRef + "JHN:8:39-42"
-        ]
+            Prefix.readingRef + "JHN:8:39-42",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=PNT23&C=Title",
-            " مزمور (54:1-2)"
         ],
         [
-            Prefix.readingRef + "PSA:54:1-2"
-        ]
+            Prefix.readingRef + "PSA:54:1-2",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=PNT23&C=Title",
-            " يوحنا ( 8 : 51 – 55 )"
         ],
         [
-            Prefix.readingRef + "JHN:8:51-55"
-        ]
+            Prefix.readingRef + "JHN:8:51-55",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=PNT24&C=Title",
-            " مزمور (74:12-13, 22)"
         ],
         [
-            Prefix.readingRef + "PSA:74:12-13/74:22-22"
-        ]
+            Prefix.readingRef + "PSA:74:12-13/74:22-22",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=PNT24&C=Title",
-            " يوحنا (7:14-29)"
         ],
         [
-            Prefix.readingRef + "JHN:7:14-29"
-        ]
+            Prefix.readingRef + "JHN:7:14-29",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=PNT25&C=Title",
-            " مزمور(67:1, 7)"
         ],
         [
-            Prefix.readingRef + "PSA:67:1-1/67:7-7"
-        ]
+            Prefix.readingRef + "PSA:67:1-1/67:7-7",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=PNT25&C=Title",
-            " يوحنا (8:54-59)"
         ],
         [
-            Prefix.readingRef + "JHN:8:54-59"
-        ]
+            Prefix.readingRef + "JHN:8:54-59",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=PNT26&C=Title",
-            " مزمور (24:1, 4)"
         ],
         [
-            Prefix.readingRef + "PSA:24:1-1/24:4-4"
-        ]
+            Prefix.readingRef + "PSA:24:1-1/24:4-4",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=PNT26&C=Title",
-            " يوحنا ( 10 : 34 – 38 )"
         ],
         [
-            Prefix.readingRef + "JHN:10:34-38"
-        ]
+            Prefix.readingRef + "JHN:10:34-38",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=PNT27&C=Title",
-            " مزمور (15:4)"
         ],
         [
-            Prefix.readingRef + "PSA:15:4-4"
-        ]
+            Prefix.readingRef + "PSA:15:4-4",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=PNT27&C=Title",
-            " يوحنا ( 7 : 14 – 24 )"
         ],
         [
-            Prefix.readingRef + "JHN:7:14-24"
-        ]
+            Prefix.readingRef + "JHN:7:14-24",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=PNT8||PNT29&C=Title",
-            " مزمور (70:5)"
         ],
         [
-            Prefix.readingRef + "PSA:70:5-5"
-        ]
+            Prefix.readingRef + "PSA:70:5-5",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=PNT29&C=Title",
-            " يوحنا ( 3 : 25 – 30 )"
         ],
         [
-            Prefix.readingRef + "JHN:3:25-30"
-        ]
+            Prefix.readingRef + "JHN:3:25-30",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=PNT2&C=Title",
-            " مرقس (16:9-20)"
         ],
         [
-            Prefix.readingRef + "MRK:16:9-20"
-        ]
+            Prefix.readingRef + "MRK:16:9-20",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=PNT2ndSunday&C=Title",
-            " مزمور (111:9-10)"
         ],
         [
-            Prefix.readingRef + "PSA:111:9-10"
-        ]
+            Prefix.readingRef + "PSA:111:9-10",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=GL47||PNT2ndSunday&C=Title",
-            " يوحنا ( 6 : 35 – 45 )"
         ],
         [
-            Prefix.readingRef + "JHN:6:35-45"
-        ]
+            Prefix.readingRef + "JHN:6:35-45",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=PNT30&C=Title",
-            " مزمور (34:5, 8)"
         ],
         [
-            Prefix.readingRef + "PSA:34:5-5/34:8-8"
-        ]
+            Prefix.readingRef + "PSA:34:5-5/34:8-8",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=PNT30&C=Title",
-            " يوحنا ( 12 : 44 – 48 )"
         ],
         [
-            Prefix.readingRef + "JHN:12:44-48"
-        ]
+            Prefix.readingRef + "JHN:12:44-48",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=PNT31&C=Title",
-            " مزمور (118:8-9)"
         ],
         [
-            Prefix.readingRef + "PSA:118:8-9"
-        ]
+            Prefix.readingRef + "PSA:118:8-9",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=PNT31&C=Title",
-            " يوحنا (13:16-20)"
         ],
         [
-            Prefix.readingRef + "JHN:13:16-20"
-        ]
+            Prefix.readingRef + "JHN:13:16-20",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=PNT32&C=Title",
-            " مزمور(39:12)"
         ],
         [
-            Prefix.readingRef + "PSA:39:12-12"
-        ]
+            Prefix.readingRef + "PSA:39:12-12",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=PNT32&C=Title",
-            " يوحنا ( 17 : 18 – 21 )"
         ],
         [
-            Prefix.readingRef + "JHN:17:18-21"
-        ]
+            Prefix.readingRef + "JHN:17:18-21",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=PNT33&C=Title",
-            " مزمور (119:145-146)"
         ],
         [
-            Prefix.readingRef + "PSA:119:145-146"
-        ]
+            Prefix.readingRef + "PSA:119:145-146",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=PNT33&C=Title",
-            " يوحنا ( 17 : 22 – 26 )"
         ],
         [
-            Prefix.readingRef + "JHN:17:22-26"
-        ]
+            Prefix.readingRef + "JHN:17:22-26",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=PNT34&C=Title",
-            " مزمور (135:3, 5)"
         ],
         [
-            Prefix.readingRef + "PSA:135:3-3/135:5-5"
-        ]
+            Prefix.readingRef + "PSA:135:3-3/135:5-5",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=PNT36&C=Title",
-            " مزمور (28:9, 8)"
         ],
         [
-            Prefix.readingRef + "PSA:28:9-9/28:8-8"
-        ]
+            Prefix.readingRef + "PSA:28:9-9/28:8-8",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=PNT36||PNT41&C=Title",
-            " يوحنا ( 16 : 15 – 23 )"
         ],
         [
-            Prefix.readingRef + "JHN:16:15-23"
-        ]
+            Prefix.readingRef + "JHN:16:15-23",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=PNT37&C=Title",
-            " مزمور (116:1-2)"
         ],
         [
-            Prefix.readingRef + "PSA:116:1-2"
-        ]
+            Prefix.readingRef + "PSA:116:1-2",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=PNT38&C=Title",
-            " مزمور (40:13, 17 )"
         ],
         [
-            Prefix.readingRef + "PSA:40:13-13/40:17-17"
-        ]
+            Prefix.readingRef + "PSA:40:13-13/40:17-17",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=PNT38&C=Title",
-            " يوحنا (17:1-9)"
         ],
         [
-            Prefix.readingRef + "JHN:17:1-9"
-        ]
+            Prefix.readingRef + "JHN:17:1-9",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=PNT39&C=Title",
-            " مزمور(24:9-10)"
         ],
         [
-            Prefix.readingRef + "PSA:24:9-10"
-        ]
+            Prefix.readingRef + "PSA:24:9-10",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=PNT39&C=Title",
-            " لوقا ( 24 : 36 – 53 )"
         ],
         [
-            Prefix.readingRef + "LUK:24:36-53"
-        ]
+            Prefix.readingRef + "LUK:24:36-53",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=PNT3&C=Title",
-            " مزمور (106:1-2)"
         ],
         [
-            Prefix.readingRef + "PSA:106:1-2"
-        ]
+            Prefix.readingRef + "PSA:106:1-2",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=PNT3rdSunday&C=Title",
-            " مزمور115:12-13"
         ],
         [
-            Prefix.readingRef + "PSA:115:12-13"
-        ]
+            Prefix.readingRef + "PSA:115:12-13",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=GL5thSunday||PNT3rdSunday&C=Title",
-            " يوحنا ( 4 : 1 – 42 )"
         ],
         [
-            Prefix.readingRef + "JHN:4:1-42"
-        ]
+            Prefix.readingRef + "JHN:4:1-42",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=104thSunday||PNT40&C=Title",
-            " مزمور (69:32-33, 30)"
         ],
         [
-            Prefix.readingRef + "PSA:69:32-33/69:30-30"
-        ]
+            Prefix.readingRef + "PSA:69:32-33/69:30-30",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=PNT40&C=Title",
-            " يوحنا (14:26-31)"
         ],
         [
-            Prefix.readingRef + "JHN:14:26-31"
-        ]
+            Prefix.readingRef + "JHN:14:26-31",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=PNT43&C=Title",
-            " مزمور (82:8, 6)"
         ],
         [
-            Prefix.readingRef + "PSA:82:8-8/82:6-6"
-        ]
+            Prefix.readingRef + "PSA:82:8-8/82:6-6",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=PNT43&C=Title",
-            " يوحنا ( 15 : 1 – 8 )"
         ],
         [
-            Prefix.readingRef + "JHN:15:1-8"
-        ]
+            Prefix.readingRef + "JHN:15:1-8",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=PNT44&C=Title",
-            " يوحنا ( 15 : 9 – 15 )"
         ],
         [
-            Prefix.readingRef + "JHN:15:9-15"
-        ]
+            Prefix.readingRef + "JHN:15:9-15",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=PNT45&C=Title",
-            " مزمور (89:52, 49)"
         ],
         [
-            Prefix.readingRef + "PSA:89:52-52/89:49-49"
-        ]
+            Prefix.readingRef + "PSA:89:52-52/89:49-49",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=PNT45&C=Title",
-            " يوحنا ( 15 : 12 – 16 )"
         ],
         [
-            Prefix.readingRef + "JHN:15:12-16"
-        ]
+            Prefix.readingRef + "JHN:15:12-16",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=PNT46&C=Title",
-            " مزمور(31:16-17)"
         ],
         [
-            Prefix.readingRef + "PSA:31:16-17"
-        ]
+            Prefix.readingRef + "PSA:31:16-17",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=PNT46&C=Title",
-            " يوحنا ( 15 : 17 – 25 )"
         ],
         [
-            Prefix.readingRef + "JHN:15:17–25"
-        ]
+            Prefix.readingRef + "JHN:15:17-25",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=PNT47&C=Title",
-            " مزمور (25:1-3)"
         ],
         [
-            Prefix.readingRef + "PSA:25:1-3"
-        ]
+            Prefix.readingRef + "PSA:25:1-3",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=PNT47&C=Title",
-            " يوحنا ( 7 : 37 – 39 )"
         ],
         [
-            Prefix.readingRef + "JHN:7:37-39"
-        ]
+            Prefix.readingRef + "JHN:7:37-39",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=PNT48&C=Title",
-            " مزمور (108:3-4)"
         ],
         [
-            Prefix.readingRef + "PSA:108:3-4"
-        ]
+            Prefix.readingRef + "PSA:108:3-4",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=PNT48&C=Title",
-            " يوحنا ( 17 : 14 – 26 )"
         ],
         [
-            Prefix.readingRef + "JHN:17:14-26"
-        ]
+            Prefix.readingRef + "JHN:17:14-26",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=PNT4&C=Title",
-            " مزمور( 106:48)"
         ],
         [
-            Prefix.readingRef + "PSA:106:48-48"
-        ]
+            Prefix.readingRef + "PSA:106:48-48",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=024thSunday||PNT4&C=Title",
-            " لوقا ( 7 : 11 – 17 )"
         ],
         [
-            Prefix.readingRef + "LUK:7:11-17"
-        ]
+            Prefix.readingRef + "LUK:7:11-17",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=PNT4thSunday&C=Title",
-            " مزمور118:14-16"
         ],
         [
-            Prefix.readingRef + "PSA:118:14-16"
-        ]
+            Prefix.readingRef + "PSA:118:14-16",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=PNT4thSunday&C=Title",
-            " يوحنا )12 : 35 - 50 )"
         ],
         [
-            Prefix.readingRef + "JHN:12:35-50"
-        ]
+            Prefix.readingRef + "JHN:12:35-50",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=PNT5&C=Title",
-            " مزمور (107:1-2)"
         ],
         [
-            Prefix.readingRef + "PSA:107:1-2"
-        ]
+            Prefix.readingRef + "PSA:107:1-2",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=PNT5&C=Title",
-            " مرقس ( 16 : 2 – 8 )"
         ],
         [
-            Prefix.readingRef + "MRK:16:2-8"
-        ]
+            Prefix.readingRef + "MRK:16:2-8",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=PNT34||PNT5thSunday&C=Title",
-            " يوحنا ( 14 : 1 - 11 )"
         ],
         [
-            Prefix.readingRef + "JHN:14:1-11"
-        ]
+            Prefix.readingRef + "JHN:14:1-11",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=GL15||PNT6&C=Title",
-            " مزمور ( 118 : 19 -20 )"
         ],
         [
-            Prefix.readingRef + "PSA:118:19-20"
-        ]
+            Prefix.readingRef + "PSA:118:19-20",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=PNT6&C=Title",
-            " لوقا (35-28 :9)"
         ],
         [
-            Prefix.readingRef + "LUK:9:28-35"
-        ]
+            Prefix.readingRef + "LUK:9:28-35",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=PNT6thSunday&C=Title",
-            " مزمور147:12, 18"
         ],
         [
-            Prefix.readingRef + "PSA:147:12-12/147:18-18"
-        ]
+            Prefix.readingRef + "PSA:147:12-12/147:18-18",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=PNT37||PNT6thSunday&C=Title",
-            " يوحنا ( 16 : 23 - 33)"
         ],
         [
-            Prefix.readingRef + "JHN:16:23-33"
-        ]
+            Prefix.readingRef + "JHN:16:23-33",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=PNT7thSunday||PNT8thSunday&C=Title",
-            " مزمور 47:5, 7"
         ],
         [
-            Prefix.readingRef + "PSA:47:5-5/47:7-7"
-        ]
+            Prefix.readingRef + "PSA:47:5-5/47:7-7",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=PNT7thSunday||PNT8thSunday&C=Title",
-            " يوحنا ( 15 : 26 – 16 : 15 )"
         ],
         [
-            Prefix.readingRef + "JHN:15:26-End"
+            Prefix.readingRef + "JHN:15:26-End",
         ],
         [
-            Prefix.readingRef + "JHN:16:1-15"
-        ]
+            Prefix.readingRef + "JHN:16:1-15",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=PNT8&C=Title",
-            "يوحنا ( 3 : 31 – 36 )"
         ],
         [
-            Prefix.readingRef + "JHN:3:31-36"
-        ]
+            Prefix.readingRef + "JHN:3:31-36",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=PNT9&C=Title",
-            "مزمور (7: 6،8)"
         ],
         [
-            Prefix.readingRef + "PSA:7:6-6/7:8-8"
-        ]
+            Prefix.readingRef + "PSA:7:6-6/7:8-8",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=PNT9&C=Title",
-            "يوحنا (5: 22–24)"
         ],
         [
-            Prefix.readingRef + "JHN:5:22-24"
-        ]
+            Prefix.readingRef + "JHN:5:22-24",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=JFast1&C=Title",
-            "مزمور (130: 3-4)"
         ],
         [
-            Prefix.readingRef + "PSA:130:3-3/130:4-4"
-        ]
+            Prefix.readingRef + "PSA:130:3-3/130:4-4",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=JFast1&C=Title",
-            "مَتَّى (12: 35-45)"
         ],
         [
-            Prefix.readingRef + "MAT:12:35-45"
-        ]
+            Prefix.readingRef + "MAT:12:35-45",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=JFast2&C=Title",
-            "مزمور (85 : 2)"
         ],
         [
-            Prefix.readingRef + "PSA:85:2-2"
-        ]
+            Prefix.readingRef + "PSA:85:2-2",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=JFast2&C=Title",
-            "لوقا (11 : 29-36)"
         ],
         [
-            Prefix.readingRef + "LUK:11:29-36"
-        ]
+            Prefix.readingRef + "LUK:11:29-36",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=JFast3&C=Title",
-            "مزمور (32: 1،5)"
         ],
         [
-            Prefix.readingRef + "PSA:32:1-1/32:5-5"
-        ]
+            Prefix.readingRef + "PSA:32:1-1/32:5-5",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=JFast3&C=Title",
-            "مَتَّى (15: 32ـ39، 16: 1ـ4)"
         ],
         [
-            Prefix.readingRef + "MAT:15:32-39"
+            Prefix.readingRef + "MAT:15:32-39",
         ],
         [
-            Prefix.readingRef + "MAT:16:1-4"
-        ]
+            Prefix.readingRef + "MAT:16:1-4",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=JFast4&C=Title",
-            "مزمور (118: 5،18)"
         ],
         [
-            Prefix.readingRef + "PSA:118:5-5/118:18-18"
-        ]
+            Prefix.readingRef + "PSA:118:5-5/118:18-18",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=JFast4||PNT3&C=Title",
-            "يوحنا (2: 12-25)"
         ],
         [
-            Prefix.readingRef + "JHN:2:12-25"
-        ]
+            Prefix.readingRef + "JHN:2:12-25",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Psalm&D=GL9thSunday&C=Title",
-            "مزمور (118: 24،25،27)"
         ],
         [
-            Prefix.readingRef + "PSA:118:24-25/118:27-27"
-        ]
+            Prefix.readingRef + "PSA:118:24-25/118:27-27",
+        ],
     ],
     [
         [
             Prefix.gospelMass + "Gospel&D=GL9thSunday&C=Title",
-            "يوحنا (20: 1-18)"
         ],
         [
-            Prefix.readingRef + "JHN:20:1-18"
-        ]
-    ]
+            Prefix.readingRef + "JHN:20:1-18",
+        ],
+    ],
 ];
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRGVjbGFyZUdvc3BlbE1hc3NBcnJheS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uL21vZHVsZXMvRGVjbGFyZUdvc3BlbE1hc3NBcnJheS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxjQUFjLENBQUMsaUJBQWlCLEdBQUc7SUFDakM7UUFDSTtZQUNJLE1BQU0sQ0FBQyxVQUFVLEdBQUcsc0JBQXNCO1lBQzFDLG9CQUFvQjtTQUN2QjtRQUNEO1lBQ0ksTUFBTSxDQUFDLFVBQVUsR0FBRyxxQkFBcUI7U0FDNUM7S0FDSjtJQUNEO1FBQ0k7WUFDSSxNQUFNLENBQUMsVUFBVSxHQUFHLHVCQUF1QjtZQUMzQyx1QkFBdUI7U0FDMUI7UUFDRDtZQUNJLE1BQU0sQ0FBQyxVQUFVLEdBQUcsYUFBYTtTQUNwQztLQUNKO0lBQ0Q7UUFDSTtZQUNJLE1BQU0sQ0FBQyxVQUFVLEdBQUcsNkJBQTZCO1lBQ2pELHlCQUF5QjtTQUM1QjtRQUNEO1lBQ0ksTUFBTSxDQUFDLFVBQVUsR0FBRyx1QkFBdUI7U0FDOUM7S0FDSjtJQUNEO1FBQ0k7WUFDSSxNQUFNLENBQUMsVUFBVSxHQUFHLDhCQUE4QjtZQUNsRCxxQkFBcUI7U0FDeEI7UUFDRDtZQUNJLE1BQU0sQ0FBQyxVQUFVLEdBQUcsYUFBYTtTQUNwQztLQUNKO0lBQ0Q7UUFDSTtZQUNJLE1BQU0sQ0FBQyxVQUFVLEdBQUcsNkJBQTZCO1lBQ2pELDBCQUEwQjtTQUM3QjtRQUNEO1lBQ0ksTUFBTSxDQUFDLFVBQVUsR0FBRyxZQUFZO1NBQ25DO0tBQ0o7SUFDRDtRQUNJO1lBQ0ksTUFBTSxDQUFDLFVBQVUsR0FBRyw4QkFBOEI7WUFDbEQsd0JBQXdCO1NBQzNCO1FBQ0Q7WUFDSSxNQUFNLENBQUMsVUFBVSxHQUFHLGNBQWM7U0FDckM7S0FDSjtJQUNEO1FBQ0k7WUFDSSxNQUFNLENBQUMsVUFBVSxHQUFHLG9DQUFvQztZQUN4RCx5QkFBeUI7U0FDNUI7UUFDRDtZQUNJLE1BQU0sQ0FBQyxVQUFV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
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRGVjbGFyZUdvc3BlbE1hc3NBcnJheS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uL21vZHVsZXMvRGVjbGFyZUdvc3BlbE1hc3NBcnJheS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxjQUFjLENBQUMsaUJBQWlCLEdBQUUsQ0FBQztRQUMvQjtZQUNBLE1BQU0sQ0FBQyxVQUFVLEdBQUMsc0JBQXNCO1NBQ3ZDO1FBQ0Q7WUFDQSxNQUFNLENBQUMsVUFBVSxHQUFDLHFCQUFxQjtTQUN0QztLQUNBO0lBQ0Q7UUFDQTtZQUNBLE1BQU0sQ0FBQyxVQUFVLEdBQUMsdUJBQXVCO1NBQ3hDO1FBQ0Q7WUFDQSxNQUFNLENBQUMsVUFBVSxHQUFDLGFBQWE7U0FDOUI7S0FDQTtJQUNEO1FBQ0E7WUFDQSxNQUFNLENBQUMsVUFBVSxHQUFDLDZCQUE2QjtTQUM5QztRQUNEO1lBQ0EsTUFBTSxDQUFDLFVBQVUsR0FBQyx1QkFBdUI7U0FDeEM7S0FDQTtJQUNEO1FBQ0E7WUFDQSxNQUFNLENBQUMsVUFBVSxHQUFDLDhCQUE4QjtTQUMvQztRQUNEO1lBQ0EsTUFBTSxDQUFDLFVBQVUsR0FBQyxhQUFhO1NBQzlCO0tBQ0E7SUFDRDtRQUNBO1lBQ0EsTUFBTSxDQUFDLFVBQVUsR0FBQyw2QkFBNkI7U0FDOUM7UUFDRDtZQUNBLE1BQU0sQ0FBQyxVQUFVLEdBQUMsWUFBWTtTQUM3QjtLQUNBO0lBQ0Q7UUFDQTtZQUNBLE1BQU0sQ0FBQyxVQUFVLEdBQUMsOEJBQThCO1NBQy9DO1FBQ0Q7WUFDQSxNQUFNLENBQUMsVUFBVSxHQUFDLGNBQWM7U0FDL0I7S0FDQTtJQUNEO1FBQ0E7WUFDQSxNQUFNLENBQUMsVUFBVSxHQUFDLG9DQUFvQztTQUNyRDtRQUNEO1lBQ0EsTUFBTSxDQUFDLFVBQVUsR0FBQyx1QkFBdUI7U0FDeEM7S0FDQTtJQUNEO1FBQ0E7WUFDQSxNQUFNLENBQUMsVUFBVSxHQUFDLDZCQUE2QjtTQUM5QztRQUNEO1lBQ0EsTUFBTSxDQUFD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
