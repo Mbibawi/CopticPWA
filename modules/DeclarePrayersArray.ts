@@ -15109,20 +15109,20 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.doxologies + "1&D=ForNativitySeason",
+    Prefix.doxologies + "Nativity1",
   ],
   [
     Prefix.placeHolder,
-    Prefix.doxologies + "2&D=ForNativitySeason",
+    Prefix.doxologies + "Nativity2",
   ],
   [
     Prefix.placeHolder,
-    Prefix.doxologies + "3&D=ForNativitySeason",
+    Prefix.doxologies + "Nativity3",
   ],
 ],
 [
   [
-    Prefix.doxologies + "1&D=ForNativitySeason&C=Title",
+    Prefix.doxologies + "Nativity1&C=Title",
     "",
     "1ère Doxologie pour la Nativité",
     "",
@@ -15198,7 +15198,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.doxologies + "2&D=ForNativitySeason&C=Title",
+    Prefix.doxologies + "Nativity2&C=Title",
     "",
     "2ème Doxologie pour la Nativité",
     "",
@@ -15235,7 +15235,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.doxologies + "3&D=ForNativitySeason&C=Title",
+    Prefix.doxologies + "Nativity3&C=Title",
     "",
     "3ème Doxologie pour la Nativité",
     "",

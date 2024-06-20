@@ -759,13 +759,12 @@ function replacePrefixes(text: string, arrayName: string): string {
   if (arrayName !== "PrayersArray") return text;
   //Seasonal
   
-  text = text
-    .replaceAll(seasonal.giaki.AR, '"+seasonal.giaki.AR+"')
-    .replaceAll(seasonal.giaki.FR, '"+seasonal.giaki.FR+"')
-    .replaceAll(seasonal.giaki.EN, '"+seasonal.giaki.EN+"')
-    .replaceAll(seasonal.giaki.COP, '"+seasonal.giaki.COP+"')
-    .replaceAll(seasonal.giaki.CA, '"+seasonal.giaki.CA+"');
-  return text;
+  return text
+    .replaceAll(seasonal.giaki.AR, '" +seasonal.giaki.AR+ "')
+    .replaceAll(seasonal.giaki.FR, '" +seasonal.giaki.FR+ "')
+    .replaceAll(seasonal.giaki.EN, '" +seasonal.giaki.EN+ "')
+    .replaceAll(seasonal.giaki.COP, '" +seasonal.giaki.COP+ "')
+    .replaceAll(seasonal.giaki.CA, '" +seasonal.giaki.CA+ "');
 }
 
 function replaceHtmlQuotes(innerHtml: string, lang: string): string {
