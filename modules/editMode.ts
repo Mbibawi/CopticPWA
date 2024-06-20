@@ -758,11 +758,13 @@ function replacePrefixes(text: string, arrayName: string): string {
 
   if (arrayName !== "PrayersArray") return text;
   //Seasonal
+  
   text = text
-    .replaceAll(giaki.AR, '"+giaki.AR+"')
-    .replaceAll(giaki.FR, '"+giaki.FR+"')
-    .replaceAll(giaki.COP, '"+giaki.COP+"')
-    .replaceAll(giaki.CA, '"+giaki.CA+"');
+    .replaceAll(seasonal.giaki.AR, '"+seasonal.giaki.AR+"')
+    .replaceAll(seasonal.giaki.FR, '"+seasonal.giaki.FR+"')
+    .replaceAll(seasonal.giaki.EN, '"+seasonal.giaki.EN+"')
+    .replaceAll(seasonal.giaki.COP, '"+seasonal.giaki.COP+"')
+    .replaceAll(seasonal.giaki.CA, '"+seasonal.giaki.CA+"');
   return text;
 }
 

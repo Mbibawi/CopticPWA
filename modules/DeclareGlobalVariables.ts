@@ -33,7 +33,7 @@ type bibleBookKeys = { id: string, human: string, human_long: string, chaptersLi
 
 //CONSTANTS
 const version: string =
-  "v6.8.6 (Added Bible Bookmark)";
+  "v6.8.7 (Fixed the updating of \"Gi Aki\" according to seasons)";
 const calendarDay: number = 24 * 60 * 60 * 1000; //this is a day in milliseconds
 const containerDiv: HTMLDivElement = document.getElementById(
   "containerDiv") as HTMLDivElement;
@@ -540,7 +540,11 @@ Object.freeze(nonCopticLanguages);
 const copticLanguages = [["COP", "Coptic"], ["CA", "قبطي مُعَرَّبْ"], ['CF', 'Copte en charachères français']];
 Object.freeze(copticLanguages)
 const allLanguages: string[][] = [...nonCopticLanguages, ...copticLanguages];
-Object.fromEntries(allLanguages)
+Object.fromEntries(allLanguages);
+
+const seasonal = {
+  giaki: { AR: '', FR: '', EN: '', COP: '', CA: '' }
+};
 
 const Bibles: { AR: [Bible, bibleBookKeys], FR: [Bible, bibleBookKeys], EN: [Bible, bibleBookKeys], COP: [Bible, bibleBookKeys] } = { AR: [undefined, undefined], FR: [undefined, undefined], EN: [undefined, undefined], COP: [undefined, undefined] };
 
@@ -658,105 +662,128 @@ if (localStorage.textAmplified === undefined) {
 if (!localStorage.displayMode || localStorage.displayMode === "undefined") {
   localStorage.displayMode = displayModes[0];
 }
-const PrayersArraysKeys: [string, string, Function][] = [
+const PrayersArraysKeys: [string, string, ()=>string[][][]][] = [
   //!Caution: we needed to make the last element a function that returns the array instead of referrecing the array itself, because when the DeclareGlobalVariables.js file is loaded, the ReadingsPrayersArrays are still empty since the readings texts files are not loaded yet
   [
     Prefix.praxisResponse,
     "PraxisResponsesPrayersArray",
-    () => PraxisResponsesPrayersArray,
+    ():string[][][] => PraxisResponsesPrayersArray,
   ],
   [
     Prefix.psalmResponse,
     "PsalmAndGospelPrayersArray",
-    () => PsalmAndGospelPrayersArray,
+    ():string[][][] => PsalmAndGospelPrayersArray,
   ],
   [
     Prefix.gospelResponse,
     "PsalmAndGospelPrayersArray",
-    () => PsalmAndGospelPrayersArray,
+    ():string[][][] => PsalmAndGospelPrayersArray,
   ],
-  [Prefix.massCommon, "MassCommonPrayersArray", () => MassCommonPrayersArray],
-  [Prefix.commonPrayer, "CommonPrayersArray", () => CommonPrayersArray],
+  [Prefix.massCommon,
+    "MassCommonPrayersArray",
+    ():string[][][] => MassCommonPrayersArray],
+  [Prefix.commonPrayer,
+    "CommonPrayersArray",
+    ():string[][][] => CommonPrayersArray],
   [
     Prefix.massStBasil,
     "MassStBasilPrayersArray",
-    () => MassStBasilPrayersArray,
+    ():string[][][] => MassStBasilPrayersArray,
   ],
   [
     Prefix.massStCyril,
     "MassStCyrilPrayersArray",
-    () => MassStCyrilPrayersArray,
+    ():string[][][] => MassStCyrilPrayersArray,
   ],
   [
     Prefix.massStGregory,
     "MassStGregoryPrayersArray",
-    () => MassStGregoryPrayersArray,
+    ():string[][][] => MassStGregoryPrayersArray,
   ],
-  [Prefix.massStJohn, "MassStJohnPrayersArray", () => MassStJohnPrayersArray],
-  [Prefix.doxologies, "DoxologiesPrayersArray", () => DoxologiesPrayersArray],
-  [Prefix.communion, "CommunionPrayersArray", () => CommunionPrayersArray],
-  [Prefix.fractionPrayer, "FractionsPrayersArray", () => FractionsPrayersArray],
+  [Prefix.massStJohn,
+    "MassStJohnPrayersArray",
+    ():string[][][] => MassStJohnPrayersArray],
+  [Prefix.doxologies,
+    "DoxologiesPrayersArray",
+    ():string[][][] => DoxologiesPrayersArray],
+  [Prefix.communion,
+    "CommunionPrayersArray",
+    ():string[][][] => CommunionPrayersArray],
+  [Prefix.fractionPrayer,
+    "FractionsPrayersArray",
+    ():string[][][] => FractionsPrayersArray],
   [
     Prefix.cymbalVerses,
     "CymbalVersesPrayersArray",
-    () => CymbalVersesPrayersArray,
+    ():string[][][] => CymbalVersesPrayersArray,
   ],
   [
     Prefix.bookOfHours,
     "BookOfHoursPrayersArray",
-    () => BookOfHoursPrayersArray,
+    ():string[][][] => BookOfHoursPrayersArray,
   ],
-  [Prefix.HolyWeek, "HolyWeekPrayersArray", () => HolyWeekPrayersArray],
-  [Prefix.incenseDawn, "IncensePrayersArray", () => IncensePrayersArray],
-  [Prefix.incenseVespers, "IncensePrayersArray", () => IncensePrayersArray],
-  [Prefix.commonIncense, "IncensePrayersArray", () => IncensePrayersArray],
+  [Prefix.HolyWeek,
+    "HolyWeekPrayersArray",
+    ():string[][][] => HolyWeekPrayersArray],
+  [Prefix.incenseDawn,
+    "IncensePrayersArray",
+    ():string[][][] => IncensePrayersArray],
+  [Prefix.incenseVespers,
+    "IncensePrayersArray",
+    ():string[][][] => IncensePrayersArray],
+  [Prefix.commonIncense,
+    "IncensePrayersArray",
+    ():string[][][] => IncensePrayersArray],
   [
     Prefix.gospelMass,
     "ReadingsArrays.GospelMassArrayFR",
-    () => ReadingsArrays.GospelMassArrayFR,
+    ():string[][][] => ReadingsArrays.GospelMassArrayFR,
   ],
   [
     Prefix.gospelMorning,
     "ReadingsArrays.GospelDawnArrayFR",
-    () => ReadingsArrays.GospelMorningArrayFR,
+    ():string[][][] => ReadingsArrays.GospelMorningArrayFR,
   ],
   [
     Prefix.gospelVespers,
     "ReadingsArrays.GospelVespersArrayFR",
-    () => ReadingsArrays.GospelVespersArrayFR,
+    ():string[][][] => ReadingsArrays.GospelVespersArrayFR,
   ],
   [
     Prefix.gospelNight,
     "ReadingsArrays.GospelNightArrayFR",
-    () => ReadingsArrays.GospelNightArrayFR,
+    ():string[][][] => ReadingsArrays.GospelNightArrayFR,
   ],
   [
     Prefix.stPaul,
     "ReadingsArrays.StPaulArrayFR",
-    () => ReadingsArrays.StPaulArrayFR,
+    ():string[][][] => ReadingsArrays.StPaulArrayFR,
   ],
   [
     Prefix.Catholicon,
     "ReadingsArrays.CatholiconArrayFR",
-    () => ReadingsArrays.CatholiconArrayFR,
+    ():string[][][] => ReadingsArrays.CatholiconArrayFR,
   ],
   [
     Prefix.praxis,
     "ReadingsArrays.PraxisArrayFR",
-    () => ReadingsArrays.PraxisArrayFR,
+    ():string[][][] => ReadingsArrays.PraxisArrayFR,
   ],
-
   [
     Prefix.synaxarium,
     "ReadingsArrays.SynaxariumArrayFR",
-    () => ReadingsArrays.SynaxariumArrayFR,
+    ():string[][][] => ReadingsArrays.SynaxariumArrayFR,
   ],
   [
     Prefix.prophecies,
     "ReadingsArrays.PropheciesDawnArrayFR",
-    () => ReadingsArrays.PropheciesDawnArrayFR,
+    ():string[][][] => ReadingsArrays.PropheciesDawnArrayFR,
   ],
-  [Prefix.psalmody, "PsalmodyPrayersArray", () => PsalmodyPrayersArray],
-  [Prefix.prayersArray, 'PrayersArrayFR', () => PrayersArrayFR],
+  [Prefix.psalmody,
+    "PsalmodyPrayersArray",
+    (): string[][][] => PsalmodyPrayersArray],
+  [Prefix.prayersArray,
+    'PrayersArrayFR',
+    (): string[][][] => PrayersArrayFR],
 ];
 Object.freeze(PrayersArraysKeys);

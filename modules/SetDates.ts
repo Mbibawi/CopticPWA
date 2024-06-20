@@ -2,7 +2,7 @@
  * a function that runs at the beginning and sets some global dates like the coptic date (as a string), today's Gregorian date (as a Date), the day of the week (as a number), the Season (a string), etc.
  * @param {Date} today  - a Gregorian date provided by the user or set automatically to the date of today if missing
  */
-async function setCopticDates(today?: Date) {
+async function setCopticDates(today?: Date, changeDate:boolean = false) {
 
   todayDate = today || (() => {
     if (localStorage.selectedDate) localStorage.removeItem("selectedDate"); //We do this in order to reset the local storage 'selectedDate' when setCopticDates() is called without a date passed to it
@@ -17,8 +17,11 @@ async function setCopticDates(today?: Date) {
   if (Number(copticDay) === 29 && ![4, 5, 6, 7].includes(Number(copticMonth))) copticFeasts.Coptic29th = copticDate; //If we are on the 29th of the coptic Month, we will set the value of copticFeasts.Cotpic29th to today's copticDate in order to able to retrieve the prayers of this day
   else if (Number(copticDay) === 21) copticFeasts.Coptic21th = copticDate;
 
-  await setSeasonalTextForAll(Season); //!This must be called here after the dates and seasons were changed
-  reloadScriptToBody(["PrayersArray"]);
+  seasonal.giaki = setVariableSeasonalPhrases(Season).giaki; //!This must be called here after the dates and seasons were changed
+
+  if (changeDate)
+    reloadScripts(['PrayersArray']);
+
   createFakeAnchor("homeImg");
   if (!copticReadingsDate)
     return console.log(
@@ -466,6 +469,82 @@ function isItSundayOrWeekDay(
   else return period + days.toString(); // we are not a sunday
 }
 
+function setVariableSeasonalPhrases(season: string): { giaki } {
+  type seasonalPrayers = {
+    Season: string[],
+    AR: string,
+    CA?: string,
+    FR?: string,
+    EN?: string,
+    COP?: string
+  };
+
+  return {
+    giaki: setGiAki(season)
+  }
+
+  function setGiAki(season) {
+    const giaki: seasonalPrayers[] = [
+      {
+        Season: [Seasons.NoSeason],
+        AR: 'لأنَّكَ أتيْتَ وخَلصْتَنا',
+        CA: 'جي آك إي أكسوتي إمّون',
+        FR: 'car Tu es venu et nous as sauvés',
+        EN: 'for You\'ve come and saved us',
+        COP: 'ϫⲉ ⲁⲕ̀\' ⲁⲕⲥⲱϯ ⲙ̀ⲙⲟⲛ'
+      },
+      {
+        Season: [Seasons.Nativity],
+        AR: 'لأنَّكَ ولِدتَ وخَلصْتَنا',
+        CA: 'جي آك ماسف أكسوتي إمّون',
+        FR: 'car Tu es né et nous as sauvés',
+        EN: 'for You\'ve born and saved us',
+        COP: 'ϫⲉ ⲁⲩⲙⲁⲥⲕ ⲁⲕⲥⲱϯ ⲙ̀ⲙⲟⲛ'
+      },
+      {
+        Season: [Seasons.Baptism],
+        AR: 'لأنَّكَ اعتمدت وخَلصْتَنا',
+        CA: 'جي آك أومس أكسوتي إمّون',
+        FR: 'car Tu es baptisé et nous as sauvés',
+        EN: 'for You\'ve been baptized and saved us',
+        COP: 'ϫⲉ ⲁⲕϭⲓⲱⲙⲥ ⲁⲕⲥⲱϯ ⲙ̀ⲙⲟⲛ'
+      },
+      {
+
+        Season: [Seasons.PentecostalDays, Seasons.Ascension],
+        AR: 'لأنَّكَ قُمتَ وخَلصْتَنا',
+        CA: 'جي آك تونك أكسوتي إمّون',
+        FR: 'car Tu es ressuscité et nous as sauvés',
+        EN: 'for You\'ve raised and saved us',
+        COP: 'ϫⲉ ⲁⲕⲧⲱⲛⲕ ⲁⲕⲥⲱϯ ⲙ̀ⲙⲟⲛ'
+      },
+      {
+        Season: [Seasons.CrossFeast, Seasons.HolyWeek],
+        AR: 'لأنكَ صُلبتَ وخَلصْتَنا',
+        CA: 'جي آك آشك أكسوتي إمّون',
+        FR: 'car Tu as été crucifié et nous as sauvés',
+        EN: 'for You\'ve been crucified and saved us',
+        COP: 'ϫⲉ ⲁⲕ̀\' ⲁⲕⲥⲱϯ ⲙ̀ⲙⲟⲛ'
+      },
+    ];
+    //If we are a Sunday, giAki will be ge aktonk as during the Pentecostal Days
+    if (weekDay === 0)
+      return findGiAki(Seasons.PentecostalDays);
+    //If we it is the Circumcision Feast, giAki will be 'ge ak masf'
+    if (copticDate === copticFeasts.Circumcision)
+      return findGiAki(Seasons.Nativity);
+
+    if (copticReadingsDate === copticFeasts.PalmSunday && todayDate.getHours() > 15)
+      return findGiAki(Seasons.HolyWeek);
+
+    return findGiAki(season) || findGiAki(Seasons.NoSeason);
+
+    function findGiAki(season: string) {
+      return giaki.find(resp => resp.Season.includes(season));
+    }
+  }
+};
+
 /**
  * Returns the default Season according to the 3 Seasons of the Coptic year, i.e., the natural seasons not those based on fasts periods or events. Those 3 Seasons are: Rain (where the Nile is expected to flod), Crops (Where traditionnaly Egyptians started plating the fields), Harvest (Where they started harvesting)
  */
@@ -637,9 +716,8 @@ async function changeDate(
       todayDate.setTime(todayDate.getTime() - days * calendarDay);
     }
   }
-  await setCopticDates(todayDate);
-  PrayersArrays.forEach((array) => (array = []));
-  populatePrayersArrays();
+  await setCopticDates(todayDate, true);
+
   if (checkIfDateIsToday(todayDate)) {
     localStorage.removeItem("selectedDate");
   } else {

@@ -1538,17 +1538,24 @@ async function openSideBar(sideBar: HTMLElement) {
  * Removes a script (found by its id), and reloads it by appending it to the body of the document
  *@param {string[]} scriptIDs - the ids if the scripts that will be removed and reloaded as child of the body
  */
-function reloadScriptToBody(scriptIDs: string[]) {
+function reloadScripts(scriptIDs: string[]) {
   let old: HTMLScriptElement, copy: HTMLScriptElement;
-  scriptIDs.forEach((id) => {
-    old = document.getElementById(id) as HTMLScriptElement;
-    copy = document.createElement("script");
-    copy.id = old.id;
-    copy.src = old.src;
-    copy.type = old.type;
-    old.remove();
-    document.getElementsByTagName("body")[0].appendChild(copy);
-  });
+  scriptIDs
+    .forEach((id) => {
+      old = document.getElementById(id) as HTMLScriptElement;
+      if (!old) return;
+      copy = document.createElement("script");
+      copy.id = old.id;
+      copy.src = old.src;
+      copy.type = old.type;
+      old.remove();
+      copy.onload = () => {
+        if (id.includes('PrayersArray'))
+          populatePrayersArrays();
+      }
+      document.getElementsByTagName("body")[0].appendChild(copy);
+
+    });
 }
 
 /**
@@ -2558,7 +2565,7 @@ function hideExpandableButtonsPannel() {
 
 /**
  * Shows the settings panel
- * @param {string} getLangsBts - the list of languages buttons that we might need to return 
+
  * @param {number} index - the index of the languages (0 = default language, 1 = foreign languages, 2 = Coptic language version)
  */
 function showSettingsPanel(index?: number): Promise<string> {
@@ -3279,20 +3286,22 @@ function playingWithInstalation() {
   alert("swipe right or click on the image to open the menu and start");
 }
 
-async function populatePrayersArrays() {
+function populatePrayersArrays() {
   //We are populating subset arrays of PrayersArray in order to speed up the parsing of the prayers when the button is clicked
   if (PrayersArrayFR.length < 1)
     return console.log("PrayersArray is empty = ", PrayersArrayFR);
+  PrayersArraysKeys
+    .map(a => a[2]())
+    .filter(a => a !== PrayersArrayFR)
+    .forEach(a => a.length = 0);//We empty all the sub arrays of PrayersArrayFR
 
-  let array: [string, string, Function], BOH;
-
-  PrayersArrayFR.forEach((table) => {
-    if (table.length < 1 || table[0].length < 1) return;
-
-    array = PrayersArraysKeys.find((array) => table[0][0].startsWith(array[0]));
-
-    if (array) array[2]().push(table);
-  });
+  PrayersArrayFR
+    .forEach((table) => {
+      if (table.length < 1 || table[0].length < 1) return;
+      let array = PrayersArraysKeys.find(a => table[0][0].startsWith(a[0]));
+      if (!array) return;
+      array[2]().push(table);
+    });
 }
 /**
  * Returns the string[] resulting from title.split('&C=')
