@@ -357,6 +357,7 @@ p{
 {
  grid-area: FR;
  font-family: DCO;
+ font-family:'Times New Roman', Times, serif;
  font-size: calc(var(--fSize)*3cqw);
  line-height: calc(var(--fSize) *4.7cqw);
  font-weight: normal;

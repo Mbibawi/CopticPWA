@@ -580,12 +580,13 @@ function showDates(
 
   //Inserting the Gregorian date
   let date: string =
-    "Date: " +
-    todayDate.getDate().toLocaleString() +
-    "/" +
-    (todayDate.getMonth() + 1).toString() +
-    "/" +
-    todayDate.getFullYear().toString();
+    { AR: 'التاريخ', FR: 'Date', EN: 'Date' }[defaultLanguage]
+    + ' : '
+    + todayDate.getDate().toLocaleString() +
+    "/"
+    + (todayDate.getMonth() + 1).toString() +
+    "/"
+    + todayDate.getFullYear().toString();
 
   insertDateBox(date, "gregorianDateBox");
 
@@ -593,29 +594,32 @@ function showDates(
   if (!dateDiv.querySelector("#homeImg"))
     dateDiv.appendChild(document.getElementById("homeImg"));
 
+  
   //Inserting the Coptic date
   date =
-    "Coptic Date: " +
-    copticDay +
-    " " +
-    copticMonths[Number(copticMonth)].EN +
-    " " +
-    copticYear +
-    " \n" +
-    "Readings date: " +
-    (() => {
+    { AR: 'التقويم القبطي', FR: 'Date Copte', EN: 'Coptic Date' }[defaultLanguage]
+  + " : "
+  + copticDay
+  + " "
+  + (copticMonths[Number(copticMonth)][defaultLanguage] || copticMonths[Number(copticMonth)]['EN']) +
+  " "
+  + copticYear +
+  " \n"
+  + { AR: 'قراءات  ', FR: 'Lectures du', EN: 'Readings Date' }[defaultLanguage] + " : "
+  + (() => {
       if (copticReadingsDate.startsWith(Seasons.GreatLent))
         return (
-          "Day " +
+          {AR: 'اليوم الـ ', FR: ' ', EN:'Day '}[defaultLanguage] +
           copticReadingsDate.split(Seasons.GreatLent)[1] +
-          " of the Great Lent"
+          {AR: 'من الصوم الكبير  ', FR: 'ème du Grand Carême ', EN:' of the Great Lent'}[defaultLanguage]
+
         );
 
       if (copticReadingsDate.startsWith(Seasons.PentecostalDays))
         return (
-          "Day " +
+          {AR: ' اليوم الـ ', FR: ' ', EN:'Day '}[defaultLanguage]  +
           copticReadingsDate.split(Seasons.PentecostalDays)[1] +
-          " of the 50 Pentecostal Days"
+          {AR: ' من الخمسين المقدسة  ', FR: 'ème jour des 50 jours de Pentecotes', EN:' of the 50 Pentecostal days'}[defaultLanguage]
         );
 
       if (copticReadingsDate.startsWith(Seasons.JonahFast))
@@ -657,11 +661,14 @@ function showDates(
       dateBox = dateDiv.appendChild(document.createElement("div"));
       dateBox.id = id;
       dateBox.style.display = "block !important";
+  
       dateBox.classList.add("dateBox");
     }
     dateBox.innerHTML = ""; //we empty the div
     let p = dateBox.appendChild(document.createElement("p"));
     p.innerText = date;
+    if (defaultLanguage === 'AR')
+    p.style.direction = 'rtl';
   }
 
   (function insertCredentials() {
