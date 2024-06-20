@@ -30,10 +30,10 @@ async function startApp() {
         newDate.getSeconds(),
         newDate.getMilliseconds()
       ); //We set its hours, minutes, and seconds to the current time
-      setCopticDates(selectedDate);
+      await setCopticDates(selectedDate);
     }
   } else {
-    setCopticDates();
+    await setCopticDates();
   }
 
   await loadTextScripts(); //! We need to await in order to halt the execution until all the scripts are loaded
@@ -77,9 +77,11 @@ async function loadScript(base: string, id: string): Promise<HTMLScriptElement> 
   script.src = base + id + '.js';
   script.type = "text/javascript";
   script.id = id;
-  script.onload = () => console.log(id + " has been loaded");
-  if (id === "PrayersArray")
-    script.onload = () => populatePrayersArrays(); //! We must wait that the PrayersArray script is loaded before calling populatePrayersArrays
+  script.onload = () => {
+    if (id === "PrayersArray")
+      populatePrayersArrays(); //! We must wait that the PrayersArray script is loaded before calling populatePrayersArrays
+    console.log(id + " has been loaded")
+  };
   return document.getElementsByTagName("body")[0].appendChild(script);
 }
 
@@ -3294,14 +3296,15 @@ function populatePrayersArrays() {
     .map(a => a[2]())
     .filter(a => a !== PrayersArrayFR)
     .forEach(a => a.length = 0);//We empty all the sub arrays of PrayersArrayFR
-
+  let array;
   PrayersArrayFR
     .forEach((table) => {
       if (table.length < 1 || table[0].length < 1) return;
-      let array = PrayersArraysKeys.find(a => table[0][0].startsWith(a[0]));
+      array = PrayersArraysKeys.find(a => table[0][0].startsWith(a[0]));
       if (!array) return;
       array[2]().push(table);
     });
+  array = null
 }
 /**
  * Returns the string[] resulting from title.split('&C=')
