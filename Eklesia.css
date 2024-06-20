@@ -300,6 +300,12 @@ box-shadow: 0px 0px 5px 5px rgb(181, 179, 179), 0px 0px 6px 6px rgba(3, 36, 87, 
   background-image: linear-gradient(to bottom, rgb(192, 182, 140), rgb(235, 223, 175) );
   color:#01043f;
 }
+
+.NoActor.Single{
+  background-color: rgb(235, 223, 175) !important;
+  background-image: none;
+  
+}
 .Row {
   display: grid;
   align-items: start;

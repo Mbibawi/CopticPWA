@@ -129,6 +129,9 @@ function createHtmlElementForPrayer(args: {
 
   htmlRow = document.createElement("div");
   htmlRow.classList.add("Row"); //we add 'Row' class to this div
+  
+  if(! foreingLanguage && ! copticLanguage)
+    htmlRow.classList.add('Single')
 
   if (localStorage.displayMode === displayModes[1])
     htmlRow.classList.replace("Row", "SlideRow");
@@ -3292,9 +3295,7 @@ function populatePrayersArrays() {
   //We are populating subset arrays of PrayersArray in order to speed up the parsing of the prayers when the button is clicked
   if (PrayersArrayFR.length < 1)
     return console.log("PrayersArray is empty = ", PrayersArrayFR);
-  PrayersArraysKeys
-    .map(a => a[2]())
-    .filter(a => a !== PrayersArrayFR)
+  PrayersArrays
     .forEach(a => a.length = 0);//We empty all the sub arrays of PrayersArrayFR
   let array;
   PrayersArrayFR
