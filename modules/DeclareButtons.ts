@@ -3182,7 +3182,7 @@ const btnBible = new Button({
         return book.human_long + '\n' + getChapterLabel() + chapterNumber
       }
     }
-    
+
     function getChapterLabel():string{
       let chapterLabel: typeBtnLabel = {
         AR: 'إصحاح ',
@@ -4144,10 +4144,11 @@ function getBibleChapterText(args: { chapterNumber: string, book?: bibleBook, bi
 function getVerseText(verse: bibleVerse) {
   if (!verse) return;
   if (verse.length < 2 && verse[0] === '\n')
-    return verse[0];
+    return verse[0];//We return the new paragraph mark
   return ('Sup_' + verse[0] + '_Sup' + verse[1])
     .replaceAll('#', '')
     .replaceAll('[', '')
+    .replaceAll(']', '')
     .replaceAll('*', '');
 }
 
