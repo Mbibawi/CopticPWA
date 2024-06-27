@@ -57,7 +57,7 @@ function startEditingMode(args: {
   containerDiv.style.gridTemplateColumns = "100%";
 
   if (!args.languages)
-    args.languages = getLanguages(args.arrayName) || allLanguages.map(lang => lang[0]);
+    args.languages = getLanguages(PrayersArraysKeys.find(a=>a[1] ===args.arrayName)[0]) || allLanguages.map(lang => lang[0]);
 
   function addNewTable() {
     args.arrayName = "PrayersArray"; //!CAUTION: if we do not set the arrayName to an existing array, it will yeild to an error when the array name will be evaluated by eval(arrayName), and the saveModifiedArray() will stop without exporting the text to file
@@ -65,7 +65,7 @@ function startEditingMode(args: {
       prompt(
         "Provide the sequence of the languages columns",
         "COP, FR, CA, AR"
-      ).split(", ") || getLanguages(args.arrayName);
+      ).split(", ") || getLanguages(PrayersArraysKeys.find(a=>a[1] === args.arrayName)[0]);
     let title =
       prompt(
         "Provide the title for the table",
@@ -188,7 +188,7 @@ function showTables(args: {
       createHtmlElementForPrayerEditingMode({
         tblRow: structuredClone(row),//!We pass a structured clone in order to avoid the modification of the row by the function
         titleBase: titleBase,
-        languagesArray: structuredClone(args.languages) || getLanguages(arrayName),
+        languagesArray: structuredClone(args.languages) || getLanguages(titleBase),
         position: args.position,
         container: args.container,
         arrayName: arrayName,
@@ -979,7 +979,7 @@ function createHtmlElementForPrayerEditingMode(args: {
     );
   if (!args.arrayName) return;
 
-  if (args.titleBase.startsWith(Prefix.HolyWeek) && args.arrayName === 'ReadingsArrays.GospelNightArrayFR') args.languagesArray = getLanguages('PrayersArrayFR');
+  if (args.titleBase.startsWith(Prefix.HolyWeek) && args.arrayName === 'ReadingsArrays.GospelNightArrayFR') args.languagesArray = getLanguages(Prefix.massCommon);
 
 
   let htmlRow: HTMLDivElement,
@@ -1384,15 +1384,15 @@ function getHtmlRow(htmlParag: HTMLElement): HTMLDivElement | undefined | void {
  * @param {string} arrayName - the name of a string[][][], for which we will return the languages corresponding to it
  * @returns {string[]} - an array of languages
  */
-function getLanguages(arrayName?): string[] {
-  let languages: string[] = prayersLanguages;
-  if (!arrayName) return languages;
-  if (arrayName.startsWith("ReadingsArrays."))
-    languages = readingsLanguages;
-  if (arrayName.startsWith("ReadingsArrays.SynaxariumArray"))
-    languages = ["FR", "AR"];
-  if (arrayName === "NewTable") languages = ["COP", "FR", "EN", "CA", "AR"];
-  return languages;
+function getLanguages(title:string): string[] {
+  
+  if (
+    [Prefix.stPaul, Prefix.Catholicon, Prefix.praxis, Prefix.prophecies, Prefix.gospelMass, Prefix.gospelMorning, Prefix.gospelVespers, Prefix.gospelNight, Prefix.gospelVespers]
+      .find(prefix => title.startsWith(prefix)))
+      return [defaultLanguage, foreingLanguage].filter(lang=>lang);
+  else if (title.startsWith(Prefix.synaxarium))
+    return ["FR", "AR"];
+  else return prayersLanguages;
 }
 
 /**
@@ -1601,7 +1601,7 @@ function editNextOrPreviousTable(htmlParag: HTMLElement, next: boolean = true) {
 
   showTables({
     tablesArray: [table],
-    languages: getLanguages(arrayName),
+    languages: getLanguages(table[0][0]),
     position: containerDiv,
     container: containerDiv,
   });
@@ -1713,7 +1713,7 @@ function modifyAllSelectedText() {
     startEditingMode({
       tableTitle: Array.from(titles).join(', '),
       arrayName: arrayName,
-      languages: getLanguages(arrayName),
+      languages: getLanguages(PrayersArraysKeys.find(a=>a[1] === arrayName)[0]),
       clear: true
     });
 
@@ -1757,7 +1757,7 @@ async function _FixCopticText(htmlParag: HTMLElement) {
   }
 }
 
-function insertReadingTextFromBible(htmlParag: HTMLElement) {
+async function insertReadingTextFromBible(htmlParag: HTMLElement) {
   if (!htmlParag || htmlParag.tagName !== 'P') return alert('The selected element is undefined or not a pargraph element');
   let lang = htmlParag.lang;
   if (!lang) lang = prompt('Provide the langauge', lang);
@@ -1767,8 +1767,10 @@ function insertReadingTextFromBible(htmlParag: HTMLElement) {
 
   if (!bible) bible = Bibles[prompt('Provide the langauge', "AR, FR, EN")];
   if (!bible) return alert('Could not retrieve the Bible');
-  let booksList = getBibleBooksList(defaultLanguage).map(book => [book.human_long, book.id]);
-
+  
+  let temp = await getBibleBooksList(defaultLanguage);
+  let booksList = temp?.map(book => [book.human_long, book.id]);
+  if (!booksList) return;
   let select = document.createElement('select');
   select.id = 'insertReadingText';
   select.addEventListener('change', () => onChangeSelection(htmlParag));
@@ -1852,12 +1854,12 @@ async function _fetchBibleVersesFromBibleCom(id: number | string, lang: string, 
 
   entireBible = entireBible.filter(book => book && book.length > 0);
 
-  entireBible = _trimSpaces(_buildBooksFromChapters(entireBible, lang));
+  entireBible = _trimSpaces(await _buildBooksFromChapters(entireBible, lang));
 
   return entireBible;
 
   async function _fetchEntireBibleVersion(version: version, lang: string, bookUsfm: string) {
-    let list = getBibleBooksList(lang);
+    let list = await getBibleBooksList(lang);
     let entireBible: bibleVerse[][][] = [];
     if (bookUsfm) list = list.filter(book => book.id === bookUsfm);
 
@@ -1976,12 +1978,12 @@ async function _fetchBibleVersesFromBibleCom(id: number | string, lang: string, 
 }
 
 
-function _buildBooksFromChapters(bible: bibleVerse[][][], lang: string): bibleBook[] {
+async function _buildBooksFromChapters(bible: bibleVerse[][][], lang: string): Promise<bibleBook[]> {
   let bookChapters: bibleVerse[][],
     firstVerses: string[],
     bookList: bibleBookKeys;
 
-  let bookLists = getBibleBooksList(lang);
+  let bookLists = await getBibleBooksList(lang);
   if (!bookLists) return;
 
   return bible.map(book => {

@@ -7,41 +7,37 @@ document.addEventListener("DOMContentLoaded", startApp);
  * This function starts the App by setting a number of global variables like the dates, displaying the home page/main menu buttons, etc.
  */
 async function startApp() {
+  if (!defaultLanguage)
+    showSettingsPanel(0);
+
   if (localStorage.fontSize) setFontSize(localStorage.fontSize);
 
   DetectFingerSwipe();
-  if (localStorage.selectedDate) {
-    let newDate = new Date(),
-      selectedDate = new Date(Number(localStorage.selectedDate)); //We create a date from the date saved in th localStorage
-    //selectedDate.setTime();
-    if (!checkIfDateIsToday(selectedDate)) {
-      alert(
-        "WARNING ! The date is manually set by the user to " +
-        selectedDate.getDate().toString() +
-        "/" +
-        (selectedDate.getMonth() + 1).toString() +
-        "/" +
-        selectedDate.getFullYear().toString() +
-        ". This choice will not kept. If you want the current date, you have to change the date manually"
-      );
-      selectedDate.setHours(
-        newDate.getHours(),
-        newDate.getMinutes(),
-        newDate.getSeconds(),
-        newDate.getMilliseconds()
-      ); //We set its hours, minutes, and seconds to the current time
-      await setCopticDates(selectedDate);
-    }
-  } else {
-    await setCopticDates();
-  }
+  (async function setDates() { 
+    if (!localStorage.selectedDate || checkIfDateIsToday(localStorage.selectedDate))
+      return await setCopticDates();
 
-  await loadTextScripts(); //! We need to await in order to halt the execution until all the scripts are loaded
+    let selectedDate = new Date(Number(localStorage.selectedDate)); //We create a date from the date saved in th localStorage
+  //selectedDate.setTime();
 
-  async function loadTextScripts() {
+    alert(
+      "WARNING ! The date is manually set by the user to " +
+      selectedDate.getDate().toString() +
+      "/" +
+      (selectedDate.getMonth() + 1).toString() +
+      "/" +
+      selectedDate.getFullYear().toString() +
+      ". This choice will not kept. If you want the current date, you have to change the date manually"
+    );
+    await setCopticDates(selectedDate);
+  
+  })();
+ 
+
+  (function loadTextScripts() {
     //! We must load the text scripts after the dates were set and the 'giaki' variable was defined
     let base = "./Build/modules/Declare";
-    return [
+    [
       "PrayersArray",
       "PrayersSequences",
       "GospelVespersArray",
@@ -54,16 +50,14 @@ async function startApp() {
       "GospelNightArray",
       "PropheciesDawnArray",
       "HolyWeek",
-      "ArabicBible",
-      "FrenchBible",
-      "EnglishBible",
-    ].map(async (name) => await loadScript(base, name));//!We need to return in order to halt the code until all the scripts are loaded
-  }
+    ].map((name) => loadScript(base, name));//!We need to return in order to halt the code until all the scripts are loaded
+
+    if (defaultLanguage)
+      loadBible(true)
+
+  })();
 
   addKeyDownListnerToElement(document, "keydown", undefined);
-
-  if (!defaultLanguage) await showSettingsPanel(0); //If the user has not set the defaultLanguage yet (first time installed), or if for any reason the defaultLanguage setting was corrupted, we will call the languges setting process for all the languages
-
 
   showChildButtonsOrPrayers(btnMainMenu); //!Caution: btnMain must be displayed after the dates and the Season have been set. Otherwise, btn Psalmody will not change its title
   //  document.getElementById('homeImg').addEventListener('dblclick', createHtmlArray);
@@ -71,17 +65,32 @@ async function startApp() {
   alert(version)
 }
 
-async function loadScript(base: string, id: string): Promise<HTMLScriptElement> {
+function loadBible(def : boolean = true): Promise<void> {
+  let lang;
+  def?lang = defaultLanguage: lang = foreingLanguage;
+
+  return new Promise<void>((resolve) => {
+    const check = setInterval(() => {
+      if (lang) {
+        getBibleVersion(lang, false);
+        clearInterval(check);
+        resolve();
+      }
+    }, 3000); 
+  });
+}
+
+function loadScript(base: string, id: string, type: string = "text/javascript"): HTMLScriptElement {
   if (document.scripts.namedItem(id)) return;
   let script: HTMLScriptElement = document.createElement("script");
   script.src = base + id + '.js';
-  script.type = "text/javascript";
+  if (type) script.type = type;
   script.id = id;
   script.onload = () => {
     if (id === "PrayersArray")
       populatePrayersArrays(); //! We must wait that the PrayersArray script is loaded before calling populatePrayersArrays
-    console.log(id + " has been loaded")
   };
+  console.log(id + " has been loaded")
   return document.getElementsByTagName("body")[0].appendChild(script);
 }
 
@@ -129,8 +138,8 @@ function createHtmlElementForPrayer(args: {
 
   htmlRow = document.createElement("div");
   htmlRow.classList.add("Row"); //we add 'Row' class to this div
-  
-  if(! foreingLanguage && ! copticLanguage)
+
+  if (!foreingLanguage && !copticLanguage)
     htmlRow.classList.add('Single')
 
   if (localStorage.displayMode === displayModes[1])
@@ -327,8 +336,7 @@ async function showTitlesInRightSideBar(
 async function showChildButtonsOrPrayers(btn: Button, clear: boolean = true) {
   if (!btn) return;
 
-  let container: HTMLElement | DocumentFragment = containerDiv;
-  if (btn.docFragment) container = btn.docFragment;
+  let container: HTMLElement | DocumentFragment = btn.docFragment || containerDiv;
 
   hideExpandableButtonsPannel();
 
@@ -338,7 +346,8 @@ async function showChildButtonsOrPrayers(btn: Button, clear: boolean = true) {
     containerDiv.style.gridTemplateColumns = "100%";
   }
 
-  if (btn.onClick) btn.onClick();
+  if (btn.onClick)
+    await btn.onClick();
 
   (function processPrayersSequence() {
     if (!btn.prayersSequence || !btn.languages || !btn.showPrayers)
@@ -368,7 +377,7 @@ async function showChildButtonsOrPrayers(btn: Button, clear: boolean = true) {
           if (!array) return console.log("tablesArray is undefined");
           showTables({
             tablesArray: [findTable(title, array, { equal: true }) as string[][]],
-            languages: getLanguages(getArrayNameFromArray(array)),
+            languages: getLanguages(title),
             position: container,
             container: container,
             clear: false,
@@ -377,13 +386,8 @@ async function showChildButtonsOrPrayers(btn: Button, clear: boolean = true) {
     };
   })();
 
-  (async function processAfterShowPrayers() {
-    if (!btn.afterShowPrayers) return;
-    if (localStorage.displayMode === displayModes[1])
-      return await btn.afterShowPrayers(); //!btn.afterShowPrayers() is an async function, that's why we don't call it here when in Presentation Mode because processPrayersSequence() would not have finished inserting the new elements when showPrayersInPresentationMode() is called
-
-    btn.afterShowPrayers();
-  })();
+  if(btn.afterShowPrayers)
+    await processAfterShowPrayers();
 
   (function processBtnChildren() {
     //!CAUTION, this must come after btn.onClick() is called because some buttons are not initiated with children, but their children are added on the fly when their onClick() method  is called
@@ -423,15 +427,21 @@ async function showChildButtonsOrPrayers(btn: Button, clear: boolean = true) {
   if (btn === btnMainMenu) addSettingsButton();
 
   if (localStorage.displayMode === displayModes[1])
-    showSlidesInPresentationMode();
+    await showSlidesInPresentationMode();
 
-  (function moveSettingsButtonToTheButton() {
+  (function moveSettingsButtonToTheBottom() {
     //If settingsBtn is included in the menu (which means it is the main menu), we will move it to the buttom of the menu
     let settingsBtn: HTMLElement =
       sideBarBtnsContainer.querySelector("#settings");
     if (!settingsBtn) return;
     sideBarBtnsContainer.append(settingsBtn); //If the button is already there, we move it to the bottom of the list
   })();
+
+  async function processAfterShowPrayers() {
+    if (localStorage.displayMode === displayModes[1])
+      return await btn.afterShowPrayers(); //!btn.afterShowPrayers() is an async function, that's why we don't call it here when in Presentation Mode because processPrayersSequence() would not have finished inserting the new elements when showPrayersInPresentationMode() is called
+    await btn.afterShowPrayers();
+  };
 
   function showBtnsOnMainPage(btn: Button) {
     if (!btn.children || btn.children.length < 1) return;
@@ -1140,6 +1150,7 @@ function createHtmlBtn(args: {
     console.log("The button is either undefined, or has no lable");
     return;
   }
+  if (!args.btnsContainer) return;
   if (!args.clear) args.clear = true;
 
   let newBtn: HTMLButtonElement = document.createElement("button");
@@ -1543,22 +1554,23 @@ async function openSideBar(sideBar: HTMLElement) {
  * Removes a script (found by its id), and reloads it by appending it to the body of the document
  *@param {string[]} scriptIDs - the ids if the scripts that will be removed and reloaded as child of the body
  */
-function reloadScripts(scriptIDs: string[]) {
+function reloadScripts(scriptIDs: string[], src?:string, type:string = 'text/javascript', msg?:string) {
   let old: HTMLScriptElement, copy: HTMLScriptElement;
   scriptIDs
     .forEach((id) => {
       old = document.getElementById(id) as HTMLScriptElement;
-      if (!old) return;
+      src = './Build/modules/Declare' + id + '.js'; 
       copy = document.createElement("script");
-      copy.id = old.id;
-      copy.src = old.src;
-      copy.type = old.type;
-      old.remove();
+      copy.id = old?.id || id;
+      copy.src = old?.src || src;
+      copy.type = old?.type || type;
+      old?.remove();
       copy.onload = () => {
+        if(msg) alert(msg)
         if (id.includes('PrayersArray'))
           populatePrayersArrays();
       }
-      document.getElementsByTagName("body")[0].appendChild(copy);
+      document.getElementsByTagName("body")[0]?.appendChild(copy);
 
     });
 }
@@ -1664,7 +1676,7 @@ function toggleAmplifyText(target: HTMLElement, myClass: string) {
   Array.from(
     containerDiv.querySelectorAll("P") as NodeListOf<HTMLParagraphElement>
   )
-    .filter((p) => p.lang === target.lang)
+    .filter((p) => p?.lang === target.lang)
     .forEach((p) => {
       p.classList.toggle(myClass);
       Array.from(p.children).forEach((child) =>
@@ -1908,7 +1920,7 @@ async function setCSS(htmlRows: HTMLElement[]) {
           if (isTitlesContainer(row.nextElementSibling as HTMLElement)) return;
 
           if (htmlRows
-            .filter(div => div.dataset.root && div.dataset.root === row.dataset.root).length < 1) return;
+            .filter(div => div?.dataset?.root && div.dataset.root === row.dataset.root).length < 1) return;
 
           row.role = "button";
 
@@ -2091,9 +2103,9 @@ function collapseOrExpandText(
     children =
       Array.from(containerDiv.querySelectorAll('div') as NodeListOf<HTMLDivElement>)
         //!We must use querySelectorAll because some elements are not direct children of containerDiv (e.g. they may be nested in an expandable element)
-        .filter(div => div.children.length > 0) //We exclude rows with no children (those are PlaceHolders)
-        .filter(div => div.dataset.group)
-        .filter(div => div.dataset.group === titleRow.dataset.group);
+        .filter(div => div?.children?.length > 0) //We exclude rows with no children (those are PlaceHolders)
+        .filter(div => div?.dataset?.group)
+        .filter(div => div?.dataset?.group === titleRow.dataset.group);
 
   if (!titlesRows)
     titlesRows = children.filter((div) => isTitlesContainer(div));//Those are all the "Title" divs having the same data-group as titleRow
@@ -2101,9 +2113,9 @@ function collapseOrExpandText(
   let titleRowChildren: HTMLDivElement[];
 
   titlesRows.length === 1 ?
-    titleRowChildren = children.filter(child => child.dataset.group === titleRow.dataset.group) //There is only 1 title for the same dataset.group (which mostly the case)
+    titleRowChildren = children.filter(child => child?.dataset?.group === titleRow.dataset.group) //There is only 1 title for the same dataset.group (which mostly the case)
     :
-    titleRowChildren = children.filter(child => child.dataset.root === titleRow.dataset.root);//There are more than 1 title with the same dataset.group attribute. In this case, each titleRow will only hide the divs sharing the same dataset.root (not the same dataset.group because otherwise, all the other titles and their children will be affected)
+    titleRowChildren = children.filter(child => child?.dataset?.root === titleRow.dataset.root);//There are more than 1 title with the same dataset.group attribute. In this case, each titleRow will only hide the divs sharing the same dataset.root (not the same dataset.group because otherwise, all the other titles and their children will be affected)
 
   toggleHidden(titleRowChildren);
 
@@ -2140,8 +2152,8 @@ async function togglePlusAndMinusSignsForTitles(
   let parag: HTMLElement;
   parag = Array.from(titleRow.children).filter(
     (child) =>
-      child.innerHTML.startsWith(String.fromCharCode(plusCode)) ||
-      child.innerHTML.startsWith(String.fromCharCode(plusCode + 1))
+      child?.innerHTML.startsWith(String.fromCharCode(plusCode)) ||
+      child?.innerHTML.startsWith(String.fromCharCode(plusCode + 1))
   )[0] as HTMLElement;
   if (!parag) return;
   if (!titleRow.dataset.isCollapsed) {
@@ -2197,17 +2209,17 @@ function selectElementsByDataSetValue(
   dataSetName = [["root", "data-root"], ["group", 'data-group']].find(el => el[0] === dataSetName)[1];
 
   let children = Array.from(container.querySelectorAll("div")).filter(
-    (div) => div.attributes[dataSetName]
+    (div) => div?.attributes[dataSetName]
   ) as HTMLDivElement[];
   if (!options) options = { equal: true };
   if (options.equal)
-    return children.filter((div) => div.attributes[dataSetName].value === dataSet);
+    return children.filter((div) => div?.attributes[dataSetName]?.value === dataSet);
   else if (options.includes)
-    return children.filter((div) => div.attributes[dataSetName].value.includes(dataSet));
+    return children.filter((div) => div?.attributes[dataSetName]?.value.includes(dataSet));
   else if (options.startsWith)
-    return children.filter((div) => div.attributes[dataSetName].value.startsWith(dataSet));
+    return children.filter((div) => div?.attributes[dataSetName]?.value.startsWith(dataSet));
   else if (options.endsWith)
-    return children.filter((div) => div.attributes[dataSetName].value.endsWith(dataSet));
+    return children.filter((div) => div?.attributes[dataSetName]?.value.endsWith(dataSet));
 }
 
 /**
@@ -2368,8 +2380,8 @@ async function showMultipleChoicePrayersButton(args: {
       let btn = new Button({
         btnID: title, //prayerTable[0] is the 1st row, and prayerTable[0][0] is the 1st element, which represents the title of the table + the cssClass preceded by "&C="
         label: {
-          AR: table[0][args.languages.indexOf('AR') + 1], //prayerTable[0] is the first row of the Word table from which the text of the prayer was retrieved. The 1st element of each row contains  the title of the prayer (i.e. the title of the table) + the CSS class of the row, preceded by "&C=". We look for the Arabic title by the index of 'AR' in the btn.languages property. We add 1 to the index because the prayerTable[0][0] is the title of the table as mentioned before
-          FR: table[0][args.languages.indexOf('FR') + 1], //same logic and comment as above
+          AR: table[0][args.languages?.indexOf('AR') + 1], //prayerTable[0] is the first row of the Word table from which the text of the prayer was retrieved. The 1st element of each row contains  the title of the prayer (i.e. the title of the table) + the CSS class of the row, preceded by "&C=". We look for the Arabic title by the index of 'AR' in the btn.languages property. We add 1 to the index because the prayerTable[0][0] is the title of the table as mentioned before
+          FR: table[0][args.languages?.indexOf('FR') + 1], //same logic and comment as above
         },
         languages: args.languages, //we keep the languages of the btn since the fraction prayers are retrieved from a table having the same number of columns and same order for the languages
         cssClass: "multipleChoicePrayersBtn",
@@ -2380,7 +2392,7 @@ async function showMultipleChoicePrayersButton(args: {
 
     if (foreingLanguage)
       btns
-        .filter(btn => !btn.label[defaultLanguage] && btn.label[foreingLanguage])//For any button which prayer is not available in the defaultLanguage, but is available in the foreignLanguage, we will set its defaultLanguage label to be equal to its foreignLanguage lable. We do this, because any button that doesn't have a defaulLangauge label will be excluded from the btns array that the function will return
+        .filter(btn => !btn?.label[defaultLanguage] && btn.label[foreingLanguage])//For any button which prayer is not available in the defaultLanguage, but is available in the foreignLanguage, we will set its defaultLanguage label to be equal to its foreignLanguage lable. We do this, because any button that doesn't have a defaulLangauge label will be excluded from the btns array that the function will return
         .map(btn => {
           btn.label[defaultLanguage] = btn.label[foreingLanguage];
           btns.splice(btns.indexOf(btn), 1);//We remove the button from btns array, and will push it to the array later in order to move it to the end
@@ -2388,7 +2400,7 @@ async function showMultipleChoicePrayersButton(args: {
         })
         .forEach(btn => btns.push(btn));
 
-    return btns.filter(btn => btn.label[defaultLanguage]);//!We return only the btns having a lable in the defaultLanguage
+    return btns.filter(btn => btn?.label[defaultLanguage]);//!We return only the btns having a lable in the defaultLanguage
 
     function btnOnClick(btn: Button, title: string) {
       let table = findTable(title, getTablesArrayFromTitlePrefix(title)) || undefined
@@ -2505,15 +2517,15 @@ function findTable(
     );
   else if (options.startsWith)
     table = prayersArray.find(
-      (tbl) => tbl[0][0] && splitTitle(tbl[0][0])[0].startsWith(tableTitle)
+      (tbl) => splitTitle(tbl[0][0])[0]?.startsWith(tableTitle)
     );
   else if (options.endsWith)
     table = prayersArray.find(
-      (tbl) => tbl[0][0] && splitTitle(tbl[0][0])[0].endsWith(tableTitle)
+      (tbl) => splitTitle(tbl[0][0])[0]?.endsWith(tableTitle)
     );
   else if (options.includes)
     table = prayersArray.find(
-      (tbl) => tbl[0][0] && splitTitle(tbl[0][0])[0].includes(tableTitle)
+      (tbl) => splitTitle(tbl[0][0])[0]?.includes(tableTitle)
     );
 
   if (!table)
@@ -2573,7 +2585,7 @@ function hideExpandableButtonsPannel() {
 
  * @param {number} index - the index of the languages (0 = default language, 1 = foreign languages, 2 = Coptic language version)
  */
-function showSettingsPanel(index?: number): Promise<string> {
+function showSettingsPanel(index?: number) {
 
   if (index >= 0) return showAddOrRemoveLanguagesBtns();//! since index can be = 0, if we check for !index, it will return false, that's why we check if index>=0 instead of !index
 
@@ -2737,7 +2749,7 @@ function showSettingsPanel(index?: number): Promise<string> {
 
   //Appending Add or Remove language Buttons
   showAddOrRemoveLanguagesBtns();
-  async function showAddOrRemoveLanguagesBtns(): Promise<string> {
+  function showAddOrRemoveLanguagesBtns() {
 
     let labels = [
       {
@@ -2760,7 +2772,8 @@ function showSettingsPanel(index?: number): Promise<string> {
       }
     ];
 
-    if (index >= 0) return showLanguagesModal();//! since index can be = 0, if we check for !index, it will return false, that's why we check if index>=0 instead of !index
+    if (index >= 0)
+      return showLanguagesModal();//! since index can be = 0, if we check for !index, it will return false, that's why we check if index>=0 instead of !index
 
     let btnsLangs = [
       ...nonCopticLanguages,
@@ -2799,7 +2812,7 @@ function showSettingsPanel(index?: number): Promise<string> {
      * @param {string} lang - the language that the button changes when clicked
      * @param {number} index - the index of the language in the userLanguages array stored in the localStorage. This index indicated whether the language is the defaultLanguage (index=0) or the foreignLanguage (index=1), or the version of the Coptic text (index=2)
      */
-    async function setLanguage(lang: string, index: number): Promise<string[] | void> {
+    function setLanguage(lang: string, index: number): string[] | void {
       let userLanguages: string[];
       if (localStorage.userLanguages) userLanguages = JSON.parse(localStorage.userLanguages);
       if (!userLanguages) userLanguages = [];
@@ -2879,10 +2892,8 @@ function showSettingsPanel(index?: number): Promise<string> {
       );
     }
 
-    async function showLanguagesModal(): Promise<string> {
-
-      if (!defaultLanguage) defaultLanguage = 'EN';//We do this in order for the container to select the English version of the label until the user chooses his prefered language
-
+    function showLanguagesModal() {
+      containerDiv.classList.add(hidden);
       let choices: string[][][] = [nonCopticLanguages, nonCopticLanguages, copticLanguages];
 
       let container = createBtnsContainer("modalContainer", labels[index], 'modalContainer');
@@ -2890,21 +2901,21 @@ function showSettingsPanel(index?: number): Promise<string> {
       document.getElementById('content').prepend(container);
 
       function addLabel(i: number) {
+        let lang: string = defaultLanguage || 'EN'
         if (!container) return;
         let lable = document.createElement('h3');
-        lable.innerText = labels[i][defaultLanguage];
+        lable.innerText = labels[i][lang];
         container.appendChild(lable)
+        lang = null
       };
+      return showModal(index);
 
-      return await showModal(index);
-
-      async function showModal(i: number) {
+      function showModal(i: number) {
         let choice = choices[i];
         if (i === 1) choice = choice.filter(l => l[0] !== defaultLanguage);
 
-        let newBtn: HTMLElement;
-        choice.forEach((lang) => {
-          newBtn = createSettingsBtn({
+        choice.map((lang) => {
+          return createSettingsBtn({
             tag: "button",
             role: "button",
             btnClass: "settingsBtn",
@@ -2914,18 +2925,31 @@ function showSettingsPanel(index?: number): Promise<string> {
             onClick: { event: 'click', fun: () => onClick(lang) },
           });
         });
-        return defaultLanguage;
 
-        async function onClick(lang: string[]) {
-          if (!confirm(lang[1] + ' will be set as your ' + labels[i].Type)) return;
-          await setLanguage(lang[0], i);
-          if (choices[i + 1]) {
+        function onClick(lang: string[]) {
+          let confirmed = confirm(lang[1] + ' will be set as your ' + labels[i].Type);
+          if (!confirmed && i < 1)
+            return //If the user cancels and the language is the defaultLanguge, we do nothing
+          else if (!confirmed && i > 0)
+            setLanguage(null, i);
+          else
+            setLanguage(lang[0], i);
+
+          if (choices[i + 1]){ 
             container.innerHTML = '';
-            addLabel(i + 1);
+            addLabel(i + 1)
             showModal(i + 1)
+          }
+          else if (defaultLanguage) {
+            showDates();//We update the dates boxes because when the defaultLanguage is not set, they display 'undefined' values
+            container.remove(); //We remove the btns container
             showChildButtonsOrPrayers(btnMainMenu);
-          } else container.remove();
+            containerDiv.classList.remove(hidden);
+          }
+          else if (!defaultLanguage)
+            showSettingsPanel(0)
         };
+
       }
 
     }
@@ -3230,11 +3254,11 @@ function insertPrayersAdjacentToExistingElement(args: {
 
   return args.tables
     .map((table) => {
-      if (!table || table.length < 1) return [];//We return an empty array in order to avoid having "void" elements included in the array that will be returned by the function
+      if (!table || table.length < 1) return;//We return an empty array in order to avoid having "void" elements included in the array that will be returned by the function
       return showPrayers({
         table: table,
         position: args.position,
-        languages: args.languages || getLanguages(PrayersArraysKeys.find(array => table[0][0].startsWith(array[0]))[1]) || prayersLanguages,
+        languages: args.languages || getLanguages(table[0][0]),
         container: args.container,
         clearRightSideBar: false,
         clearContainerDiv: false,
@@ -3300,8 +3324,8 @@ function populatePrayersArrays() {
   let array;
   PrayersArrayFR
     .forEach((table) => {
-      if (table.length < 1 || table[0].length < 1) return;
-      array = PrayersArraysKeys.find(a => table[0][0].startsWith(a[0]));
+      if (table?.length < 1 || table[0]?.length < 1) return;
+      array = PrayersArraysKeys.find(a => table[0][0]?.startsWith(a[0]));
       if (!array) return;
       array[2]().push(table);
     });
@@ -3335,7 +3359,7 @@ function showNextOrPreviousSildeInPresentationMode(next: boolean = true) {
     return showOrHideSlide(true, children[0].dataset.sameSlide); //If not slide is already displayed, we display the slide built from the 1st data-same-slide child of containerDiv, and return
 
   let sameSlide = children.filter(
-    (div) => div.dataset.sameSlide === currentSlide.id
+    (div) => div?.dataset?.sameSlide === currentSlide.id
   ); //If a slide is already diplayed, we retrieve all the containerDiv children having the same data-same-slide attribute as the data-same-slide value stored in the currentSlide.id.
 
   if (sameSlide.length < 1)
@@ -3485,7 +3509,7 @@ function convertHtmlDivElementsIntoArrayTable(
     else if (htmlRow.dataset.isPrefixSame || [splitTitle(htmlRow.title)[0], splitTitle(htmlRow.dataset.root)[0]].includes(splitTitle(title)[0]))
       firstElement = Prefix.same + '&C=' + splitTitle(htmlRow.title)[1];
 
-    table[table.length - 1].unshift(firstElement);//We add the title string element to the last row of the table that we have just pushed. 
+    table[table.length - 1]?.unshift(firstElement);//We add the title string element to the last row of the table that we have just pushed. 
   });
   return table;
 }
@@ -3599,7 +3623,7 @@ function isTitlesContainer(htmlRow: HTMLElement): boolean {
 function hasClass(htmlRow: HTMLElement | Element, classList: string[]) {
   if (!htmlRow) return;
   return (
-    classList.filter((className) => htmlRow.classList.contains(className))
+    classList.filter((className) => htmlRow?.classList.contains(className))
       .length > 0
   );
 }
@@ -3629,7 +3653,7 @@ function hideOrShowAllTitlesInAContainer(
 
   Array.from(container.children as HTMLCollectionOf<HTMLDivElement>)
     .filter((child) => isTitlesContainer(child))
-    .forEach((child) => hideOrShowTitle(child.dataset.group, hide));
+    .forEach((child) => hideOrShowTitle(child?.dataset?.group, hide));
 }
 /**
  * Hides a title shortcut from the right side bar based on the id of the html element passed to it
@@ -3639,7 +3663,7 @@ function hideOrShowAllTitlesInAContainer(
 function hideOrShowTitle(titleGroup: string, hide: boolean) {
   let titles =
     Array.from(sideBarTitlesContainer.children)
-      .filter((title: HTMLElement) => title.dataset.group === titleGroup);
+      .filter((title: HTMLElement) => title?.dataset?.group === titleGroup);
 
   if (titles.length < 1) return;
 
@@ -3743,8 +3767,7 @@ async function testReplaceLanguageText() {
   let lorem: string[][][];//This is the array that contains the english version of our text
 
   prefixes.forEach(prefix => {
-    keys = PrayersArraysKeys.find(array => array[0] === prefix);
-    languages = getLanguages(keys[1]);//The languages[] of the array
+    languages = getLanguages(prefix);//The languages[] of the array
 
     array = keys[2]();
     lorem = [];
@@ -3788,7 +3811,7 @@ async function createHtmlArray() {
     let newArray: string[][][] = [];
     let newTable: string[][];
     let newRow: string[];
-    let languages = getLanguages(arrayName);
+    let languages = prayersLanguages;
     let langs: string[], className: string, dataRoot: string;
     array.forEach(table => {
       newArray.push([]);//Adding a table array
@@ -3856,7 +3879,7 @@ async function createHtmlArray() {
 
     [Prefix.psalmody, Prefix.communion, Prefix.bookOfHours, Prefix.massCommon, Prefix.massStBasil]
       .forEach(prefix => {
-        PrayersArrayFR.filter(table => splitTitle(table[0][0])[0].startsWith(prefix))
+        PrayersArrayFR.filter(table => splitTitle(table[0][0])[0]?.startsWith(prefix))
           .forEach(tbl => tablesTitles.push(splitTitle(tbl[0][0])[0]))
       });
 
@@ -3913,12 +3936,12 @@ async function createHtmlArray() {
         if (!table) return '';
         let html: string =
           table
-            .filter(row => table.indexOf(row) > 0)
+            .filter(row => table?.indexOf(row) > 0)
             .map(row => {
               if (!row[0].includes('PlaceHolder')) return row[0];
               title = row[0].split('>')[2];
               title = title.split('</')[0];
-              tbl = PrayersArrayHtml.find(table => table[0][0].includes(title));
+              tbl = PrayersArrayHtml.find(table => table[0][0]?.includes(title));
               return retrieveRowsHTML(tbl);
             })
             .join(' ');
@@ -3931,7 +3954,7 @@ async function createHtmlArray() {
   let GN = structuredClone(ReadingsArrays.GospelNightArrayFR);
   let newArray: string[][][] = [];
 
-  newArray.push(...GN.filter(table => table[0][0].startsWith(Prefix.gospelNight)));
+  newArray.push(...GN.filter(table => table[0][0]?.startsWith(Prefix.gospelNight)));
 }
 
 

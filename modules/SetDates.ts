@@ -3,7 +3,6 @@
  * @param {Date} today  - a Gregorian date provided by the user or set automatically to the date of today if missing
  */
 async function setCopticDates(today?: Date, changeDate:boolean = false) {
-
   todayDate = today || (() => {
     if (localStorage.selectedDate) localStorage.removeItem("selectedDate"); //We do this in order to reset the local storage 'selectedDate' when setCopticDates() is called without a date passed to it
     return new Date()

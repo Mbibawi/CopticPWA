@@ -33,7 +33,7 @@ type bibleBookKeys = { id: string, human: string, human_long: string, chaptersLi
 
 //CONSTANTS
 const version: string =
-  "v6.8.7 (Fixed the updating of \"Gi Aki\" according to seasons)";
+  "v7.0 (Many changes and fixes especially to the retrieval of the Bibles, made asynchronious, and the setting of the default language)";
 const calendarDay: number = 24 * 60 * 60 * 1000; //this is a day in milliseconds
 const containerDiv: HTMLDivElement = document.getElementById(
   "containerDiv") as HTMLDivElement;
@@ -194,7 +194,7 @@ const Prefix = {
   prayersArray: 'PrayersArray_',
   readingRef: 'RRef_'
 };
-Object.freeze(Prefix);
+const anyDay = '&D=$copticFeasts.AnyDay';
 const plusCharCode: number = 10133;
 const btnClass = "sideBarBtn";
 const eighthNoteCode: number = 9834;
@@ -259,6 +259,222 @@ const ReadingsIntrosAndEnds = {
     AR: `اليوم theday من شهر themonth المبارك، أحسن الله استقباله وأعاده علينا وأَنْتُمْ مَغْفُورِي الخَطَايَا والآثَامِ مِنْ قِبَلْ مَرَاحِمْ الرَبِّ يا آبَائِي وإخْوتِي آمين.`,
     FR: "Le theday du mois copte themonth ",
     EN: "We are the theday day of the themonth of () ",
+  },
+};
+
+const sequences = {
+  Incense: [
+    //This is the generic sequence of any incense office (morning or evening). The onClick function triggered by btnIncenseDawn and btnIncenseVespers, will remove what is irrelevant and add keeps what needs to be kept
+    Prefix.incenseDawn + "IncenseDawnIntro" + anyDay,
+    Prefix.commonIncense + "EleysonImas" + anyDay,
+    Prefix.bookOfHours + "Psalm50" + anyDay,
+    Prefix.commonIncense + "Litanies" + anyDay,
+    Prefix.incenseDawn + "SickLitany" + anyDay,
+    Prefix.incenseDawn + "TravelersLitany" + anyDay,
+    Prefix.incenseDawn + "OblationsLitany" + anyDay,
+    Prefix.incenseVespers + "DepartedLitany" + anyDay,
+    Prefix.commonPrayer + "AngelsPrayer" + anyDay,
+    Prefix.incenseVespers + "LordKeepUsThisNight" + anyDay,
+    Prefix.commonIncense + "Doxolgoies" + anyDay,
+    Prefix.commonPrayer + "EfnotiNaynan" + anyDay,
+    Prefix.commonIncense + "LiturgyEnd" + anyDay
+  ],
+  Mass: {
+    //those are the sequences of the 'Baptized' mass prayers (starting from Reconciliation) for each mass
+    Unbaptized: [
+      Prefix.massCommon + "GloryAndHonor" + anyDay,
+      Prefix.massCommon + "HallelujahFayBiBi" + anyDay,
+      Prefix.massCommon + "HallelujahFayBiBiFast" + anyDay,
+      Prefix.massCommon + "BenedictionOfTheLamb" + anyDay,
+      Prefix.commonPrayer + "ThanksGiving" + anyDay,
+      Prefix.massCommon + "AbsolutionForTheFather" + anyDay,
+      Prefix.massCommon + "Tayshoury" + anyDay,
+      Prefix.massCommon + "Tishoury" + anyDay,
+      Prefix.massCommon + "IntercessionsHymn" + anyDay,
+      Prefix.commonPrayer + "Creed" + anyDay
+    ], //Those are the prayers of the 'Unbaptized Mass'
+    StBasil: [
+      Prefix.massCommon + "ReconciliationComment" + anyDay,
+      Prefix.massStBasil + "Reconciliation" + anyDay,
+      Prefix.massCommon + "EndOfReconciliation" + anyDay,
+      Prefix.massStBasil + "Anaphora" + anyDay,
+      Prefix.massStBasil + "Agios" + anyDay,
+      Prefix.massStBasil + "InstitutionNarrative" + anyDay,
+      Prefix.massCommon + "AsWeAlsoCommemorateHisHolyPassionPart1" + anyDay,
+    ], //The sequence of prayers of St Basil Mass (starting from Reconciliation)
+    StGregory: [
+      Prefix.massCommon + "ReconciliationComment" + anyDay,
+      Prefix.massStGregory + "Reconciliation" + anyDay,
+      Prefix.massCommon + "EndOfReconciliation" + anyDay,
+      Prefix.massStGregory + "Anaphora" + anyDay,
+      Prefix.massStGregory + "Agios" + anyDay,
+      Prefix.massStGregory + "AsWeCommemorateYourHolyPassionPart1" + anyDay,
+      Prefix.massStGregory + "CallOfTheHolySpiritPart1" + anyDay,
+      Prefix.massStGregory + "LitaniesIntroduction" + anyDay,
+      Prefix.massStGregory + "Litanies" + anyDay,
+      Prefix.massStGregory + "FractionIntroduction" + anyDay
+    ], //The sequence of prayers of St Gregory Mass (starting from reconciliation)
+    StCyril: [
+      Prefix.massCommon + "ReconciliationComment" + anyDay,
+      Prefix.massStCyril + "Reconciliation" + anyDay,
+      Prefix.massCommon + "EndOfReconciliation" + anyDay,
+      Prefix.massStCyril + "Anaphora" + anyDay,
+      Prefix.massStCyril + "Agios" + anyDay,
+      Prefix.massStCyril + "Part8" + anyDay,
+      Prefix.massStCyril + "Part9" + anyDay,
+      Prefix.massStCyril + "Part10" + anyDay,
+      Prefix.massStCyril + "LitaniesIntroduction" + anyDay,
+    ], // the sequence of prayers of St Cyril Mass (starting from Reconciliation)
+    StJohn: [], // the sequence of prayers of St John Mass (tarting from Reconciliation)
+    CallOfHolySpirit: [
+      Prefix.massCommon + "CallOfTheHolySpiritPart1" + anyDay,
+    ],
+    Litanies: [
+      Prefix.massCommon + "LitaniesIntroduction" + anyDay,
+      Prefix.massCommon + "SaintsCommemoration" + anyDay,
+      Prefix.massCommon + "CommemorationOfTheDeparted" + anyDay,
+      Prefix.massCommon + "FractionIntroduction" + anyDay,
+      Prefix.commonPrayer + "OurFatherWhoArtInHeaven" + anyDay,
+      Prefix.commonPrayer + "BlockInTheNameOfOurLord" + anyDay,
+      Prefix.massCommon + "PrayerForTheFather" + anyDay,
+      Prefix.commonPrayer + "BlockIriniPassi" + anyDay,
+      Prefix.massCommon + "AbsolutionPrayerForTheFather" + anyDay,
+      Prefix.massCommon + "ConfessionIntroduction" + anyDay,
+      Prefix.massCommon + "Confession" + anyDay,
+      Prefix.commonPrayer + "ZoksasiKyrie" + anyDay
+    ], //The litanies. They are common to all masses except 
+    Communion: [
+      Prefix.massCommon + "CommunionPsalm150" + anyDay,
+      Prefix.massCommon + "LiturgyEnd" + anyDay,
+    ], //the sequence of prayers from 'Confession' until the end of the mass, it is common to all masses 
+  },
+  Psalmody: {
+    Year: [
+      Prefix.psalmody + "WakeUpSonsOfLight" + anyDay,
+  
+      Prefix.psalmody + "MarenOosht" + anyDay,
+  
+      Prefix.psalmody + "FirstHos" + anyDay,
+  
+      Prefix.psalmody + "LobshFirstHos" + anyDay,
+  
+      Prefix.psalmody + "CommentaryOnHos1" + anyDay,
+  
+      Prefix.psalmody + "SecondHos" + anyDay,
+  
+      Prefix.psalmody + "LobshSecondHos" + anyDay,
+  
+      Prefix.psalmody + "ThirdHos" + anyDay,
+  
+      Prefix.psalmody + "Arebsalin" + anyDay,
+  
+      Prefix.psalmody + "Tenen" + anyDay,
+  
+      Prefix.psalmody + "TenOwehEnthok" + anyDay,
+  
+      Prefix.psalmody + "Lobsh1WatesOnSaturdayTheotoky",
+  
+      Prefix.psalmody + "Lobsh2WatesOnSaturdayTheotoky",
+  
+      Prefix.psalmody + "EndOfWatesTheotokies" + anyDay,
+  
+    ],
+  
+    Kiahk: [
+      Prefix.psalmody + "WakeUpSonsOfLight" + anyDay,
+  
+  
+      Prefix.psalmody + "KiahkHos" + anyDay,
+  
+      Prefix.psalmody + "ChantAgiosOsiOs" + anyDay,
+  
+      Prefix.psalmody + "MarenOosht" + anyDay,
+  
+      Prefix.psalmody + "PsalyOnFirstHos" + anyDay,
+  
+      Prefix.psalmody + "FirstHos" + anyDay,
+  
+      Prefix.psalmody + "LobshFirstHos" + anyDay,
+  
+      Prefix.psalmody + "ChantGodSaidToMoses" + anyDay,
+  
+      Prefix.psalmody + "CommentaryOnHos1" + anyDay,
+  
+      Prefix.psalmody + "PsalyOnSecondHos" + anyDay,
+  
+      Prefix.psalmody + "SecondHos" + anyDay,
+  
+      Prefix.psalmody + "LobshSecondHos" + anyDay,
+  
+      Prefix.psalmody + "ThirdHos" + anyDay,
+  
+      Prefix.psalmody + "Arebsalin" + anyDay,
+  
+      Prefix.psalmody + "Tenen" + anyDay,
+  
+      Prefix.psalmody + "TenOwehEnthok" + anyDay,
+  
+      Prefix.psalmody + "Lobsh1WatesOnSaturdayTheotoky",
+  
+      Prefix.psalmody + "Lobsh2WatesOnSaturdayTheotoky",
+          
+      Prefix.psalmody + "ThirdHos" + anyDay + "&C=Title",
+  
+      Prefix.psalmody + "EndOfWatesTheotokies" + anyDay,
+
+    ],
+  },
+  HolyWeek:
+  {
+    PassOver: [
+      Prefix.HolyWeek + "HourIntroduction&D=$Seasons.HolyWeek",
+  
+      Prefix.HolyWeek + "PsalmAndGospel&D=$Seasons.HolyWeek",
+  
+      Prefix.HolyWeek + "Commentary&D=$Seasons.HolyWeek",
+  
+      Prefix.HolyWeek + "PassoverEnd&D=$Seasons.HolyWeek",
+  
+    ],
+    Lakan: [
+      Prefix.commonIncense + "EleysonImas" + anyDay,
+      Prefix.cymbalVerses + "&D=$copticFeasts.HolyThursday",
+      Prefix.bookOfHours + "Psalm50" + anyDay,
+      Prefix.HolyWeek + "LakanProphecies&D=$copticFeasts.HolyThursday",
+      Prefix.HolyWeek + "LakanSermony&D=$copticFeasts.HolyThursday",
+      Prefix.massCommon + "BiEhmotGhar" + anyDay,
+      Prefix.anchor + "Readings" + anyDay,
+      Prefix.commonPrayer + "Agios&D=$copticFeasts.HolyThursday",
+      Prefix.anchor + "GospelLitany" + anyDay,
+      Prefix.incenseDawn + "SickPrayer" + anyDay,
+      Prefix.incenseDawn + "TravelersPrayer" + anyDay,
+      Prefix.massCommon + "SeasonalLitanyOfTheHarvest" + anyDay,
+      Prefix.commonPrayer + "KyrieElieson" + anyDay,
+      Prefix.massCommon + "LitaniesFinal" + anyDay,
+      Prefix.commonPrayer + "KyrieElieson" + anyDay,
+      Prefix.massCommon + "PresidentLitany" + anyDay,
+      Prefix.incenseVespers + "DepartedPrayer" + anyDay,
+      Prefix.incenseDawn + "OblationsPrayer" + anyDay,
+      Prefix.commonPrayer + "CatechumensPrayer" + anyDay,
+      Prefix.HolyWeek + "LakanPrayer&D=$copticFeasts.HolyThursday",
+      Prefix.commonPrayer + "BlockShlil" + anyDay,
+      Prefix.commonPrayer + "BlockIriniPassi" + anyDay,
+      Prefix.commonPrayer + "ChurchLitany" + anyDay,
+      Prefix.commonPrayer + "PopeAndBishopLitany" + anyDay,
+      Prefix.commonPrayer + "MeetingsLitany" + anyDay,
+      //Insert "Eyn Sophia Si Epros"
+      Prefix.commonPrayer + "Creed" + anyDay,
+      Prefix.massCommon + "LakanSpasmosAdamLong&D=$copticFeasts.HolyThursday",
+      Prefix.massCommon + "DiaconResponseKissEachOther" + anyDay,
+      Prefix.placeHolder,
+      Prefix.massCommon + "SpasmosAdamShort" + anyDay,
+      Prefix.HolyWeek + "LakanAnaphora&D=$copticFeasts.HolyThursday",
+  
+      // Prefix.commonIncense+"LiturgyEnd" + anyDay
+    ],
+    ThursdayMass: [],
+    SaturdayIncenseDawn: [],
+    SaturdayMass: [],
   },
 };
 
@@ -360,7 +576,6 @@ const bookOfHours: {
     },
   ],
 };
-Object.freeze(bookOfHours);
 
 const ReadingsArrays = {
   PraxisArrayFR: [] as string[][][],
@@ -400,7 +615,6 @@ const Seasons = {
   Harvest: 'HARV', //between 11/05 and 11/10
   NoSeason: "NoSpecificSeason",
 };
-Object.freeze(Seasons);
 const copticFeasts = {
   AnyDay: "AnyDay",
   Nayrouz: "0101",
@@ -428,7 +642,8 @@ const copticFeasts = {
   Resurrection: Seasons.GreatLent + "9thSunday",
   ThomasSunday: Seasons.PentecostalDays + "1stSunday",
   Ascension: Seasons.PentecostalDays + "39",
-  Pentecoste: Seasons.Ascension + "7thSunday",
+  PentecosteVespers: Seasons.PentecostalDays + "48",
+  Pentecoste: Seasons.PentecostalDays + "7thSunday",
   Apostles: "0511",
   StMaryFastVespers: "3010",
   StMaryFast: "0112",
@@ -436,7 +651,6 @@ const copticFeasts = {
   Coptic29th: "XXXX", //This value will be set to copticDate by setCopticDates() if today is 29th of the Coptic month and we are in a month where this feast is celebrated
   Coptic21th: "XXXX", //This value will be set to copticDate by setCopticDates() if todya is the 21th of teh Coptic Month 
 };
-Object.freeze(copticFeasts);
 const GreatLordFeasts = [
   copticFeasts.Annonciation,
   copticFeasts.Nativity,
@@ -475,11 +689,6 @@ const GreatLordFeasts = [
     Seasons.StMaryFast,
   ];
 
-Object.freeze(GreatLordFeasts);
-Object.freeze(MinorLordFeasts);
-Object.freeze(lordFeasts);
-Object.freeze(HolyWeek);
-Object.freeze(copticFeasts);
 const MartyrsFeasts = {
   StJohnBaptist: "0201",
   StMarc: "3008",
@@ -496,7 +705,7 @@ const MartyrsFeasts = {
   StBarbara: "0804",
   StMarina: "2311",
 }
-Object.freeze(MartyrsFeasts);
+
 const nonMartyrsFeasts = {
   StAnton: "2205",
   StBishoy: "0810",
@@ -508,7 +717,7 @@ const nonMartyrsFeasts = {
   StMikaelMetropolis: "", //St Mikhael the Metropolis of Assiut
   StJustAnton: "0804", //St Just of the St. Anton
 }
-Object.freeze(nonMartyrsFeasts);
+
 const stMaryFeasts = {
   StMaryFeast: "1612",//Ascension of St. Mary Body
   StMary1: "0712", //Annonciation of the birth of St. Mary
@@ -517,7 +726,6 @@ const stMaryFeasts = {
   StMary4: "2105", //Departure of St. Mary
   StMary5: "2110", //عيد حل الحديد  
 }
-Object.freeze(stMaryFeasts);
 
 const celestialBeingsFeasts = {
   FourCelestialBeings: "0803",
@@ -528,17 +736,15 @@ const celestialBeingsFeasts = {
   ArchangelRaphael: "0313",
   ArchangelSourial: "2705",
 };
-Object.freeze(celestialBeingsFeasts);
 
 const saintsFeasts = {
   ...celestialBeingsFeasts, ...MartyrsFeasts, ...nonMartyrsFeasts
 };
-Object.freeze(saintsFeasts);
 
 const nonCopticLanguages = [["AR", "العربية"], ["FR", "Français"], ["EN", "English"]];
-Object.freeze(nonCopticLanguages);
+
 const copticLanguages = [["COP", "Coptic"], ["CA", "قبطي مُعَرَّبْ"], ['CF', 'Copte en charachères français']];
-Object.freeze(copticLanguages)
+
 const allLanguages: string[][] = [...nonCopticLanguages, ...copticLanguages];
 Object.fromEntries(allLanguages);
 
@@ -548,7 +754,11 @@ const seasonal = {
 
 const Bibles: { AR: [Bible, bibleBookKeys], FR: [Bible, bibleBookKeys], EN: [Bible, bibleBookKeys], COP: [Bible, bibleBookKeys] } = { AR: [undefined, undefined], FR: [undefined, undefined], EN: [undefined, undefined], COP: [undefined, undefined] };
 
-const bookMarks = JSON.parse(localStorage.bookMarks) || [];
+const bookMarks = (() => {
+  if (localStorage.bookMarks)
+    return JSON.parse(localStorage.bookMarks)
+  return []
+})();
 
 var userLanguages;
 if (localStorage.userLanguages) userLanguages = JSON.parse(localStorage.userLanguages) || undefined;
@@ -557,14 +767,10 @@ var foreingLanguage: string = (() => { if (userLanguages) return userLanguages[1
 var copticLanguage: string = (() => { if (userLanguages) return userLanguages[2] })() || undefined;
 
 const prayersLanguages: string[] = ["COP", "FR", "CA", "AR"];
-Object.freeze(prayersLanguages);
-const readingsLanguages: string[] = ["AR", "FR", "EN"];
-Object.freeze(readingsLanguages);
 
 var lastScrollTop: number = 0;
 
 const displayModes = ["Normal", "Presentation", "Priest"];
-Object.freeze(displayModes);
 
 const CommonPrayersArray: string[][][] = []; //an array in which we will group all the common prayers of all the liturgies. It is a subset o PrayersArray
 const MassCommonPrayersArray: string[][][] = []; //an array in which we will save the commons prayers specific to the mass (like the Assembly, Espasmos, etc.)
@@ -647,7 +853,6 @@ const actors: Actor[] = [
     EN: "NoActor",
   },
 ]; //These are the names of the classes given to each row accordin to which we give a specific background color to the div element in order to show who tells the prayer
-Object.freeze(actors);
 var showActors = [];
 actors.map((actor) => showActors.push([actor, true]));
 showActors[3][1] = false; //this is in order to initiate the app without the comments displayed. The user will activate it from the settings if he wants
@@ -786,4 +991,27 @@ const PrayersArraysKeys: [string, string, ()=>string[][][]][] = [
     'PrayersArrayFR',
     (): string[][][] => PrayersArrayFR],
 ];
-Object.freeze(PrayersArraysKeys);
+[
+  Prefix,
+  sequences,
+  bookOfHours,
+  Seasons,
+  copticFeasts,
+  GreatLordFeasts,
+  MinorLordFeasts,
+  lordFeasts,
+  HolyWeek,
+  copticFeasts,
+  MartyrsFeasts,
+  nonMartyrsFeasts,
+  stMaryFeasts,
+  celestialBeingsFeasts,
+  saintsFeasts,
+  nonCopticLanguages,
+  copticLanguages,
+  allLanguages,
+  prayersLanguages,
+  displayModes,
+  actors,
+  PrayersArraysKeys
+].forEach(obj => Object.freeze(obj))
