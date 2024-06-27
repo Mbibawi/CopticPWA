@@ -154,7 +154,7 @@ const btnMainMenu = new Button({
     if (localStorage.editingMode === "true")
       btnMainMenu.children.push(getEditModeButton());
 
-    [defaultLanguage, foreingLanguage].forEach(lang=>getBibleVersion(lang))
+    [defaultLanguage, foreingLanguage].forEach(lang=>getBibleVersion(lang, false))
 
   },
 });

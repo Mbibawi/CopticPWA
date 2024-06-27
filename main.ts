@@ -2851,6 +2851,8 @@ function showSettingsPanel(index?: number) {
 
       localStorage.userLanguages = JSON.stringify(userLanguages);
       console.log(localStorage.userLanguages);
+
+      showChildButtonsOrPrayers(btnMainMenu);
       return userLanguages
     }
 
