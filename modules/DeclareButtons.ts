@@ -149,8 +149,6 @@ const btnMainMenu = new Button({
       };
 
 
-
-
     if (localStorage.editingMode === "true")
       btnMainMenu.children.push(getEditModeButton());
 
@@ -3233,9 +3231,9 @@ const btnBible = new Button({
     AR: 'الكتاب المقدس',
     FR: 'La Bible'
   },
-  onClick: (refs?: { bookID: string, chapterNumber: string }) => {
+  onClick: async (refs?: { bookID: string, chapterNumber: string }) => {
     if (refs) {
-      chapterBtnOnClick({
+      await chapterBtnOnClick({
         chapterNumber: refs.chapterNumber,
         bookID: refs.bookID
       })
@@ -3346,12 +3344,14 @@ const btnBible = new Button({
 
     }
 
-    function chapterBtnOnClick(refs: { bookID: string, chapterNumber: string }): boolean {
+    async function chapterBtnOnClick(refs: { bookID: string, chapterNumber: string }): Promise<boolean> {
       if (!refs) return;
       let languages = [defaultLanguage];
       if (foreingLanguage) languages?.push(foreingLanguage);
 
-      (async function showChapterText() {
+      await showChapterText();
+      
+      async function showChapterText() {
         let table: string[][] = [
           [
             'Bible_' + refs.bookID + refs.chapterNumber + '&C=Title',
@@ -3382,7 +3382,7 @@ const btnBible = new Button({
           clearRightSideBar: true,
         });
 
-      })();
+      };
 
       updateBookmark({ bookID: refs.bookID, chapterNumber: refs.chapterNumber });
 
@@ -3459,7 +3459,7 @@ const btnBible = new Button({
 
           })();
 
-          chapterBtnOnClick({
+          await chapterBtnOnClick({
             bookID: book.id,
             chapterNumber: refs.chapterNumber
           });
@@ -3504,8 +3504,8 @@ const btnBible = new Button({
       btnID: 'lastReading',
       label: btnLabel,
       cssClass: 'btnBookMark',
-      onClick: () => {
-        btnBible.onClick({ bookID: lastReading[0], chapterNumber: lastReading[1] });
+      onClick: async () => {
+        await btnBible.onClick({ bookID: lastReading[0], chapterNumber: lastReading[1] });
       },
     });
 
