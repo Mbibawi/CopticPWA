@@ -2,9 +2,10 @@
  * a function that runs at the beginning and sets some global dates like the coptic date (as a string), today's Gregorian date (as a Date), the day of the week (as a number), the Season (a string), etc.
  * @param {Date} today  - a Gregorian date provided by the user or set automatically to the date of today if missing
  */
-async function setCopticDates(today?: Date, changeDate:boolean = false) {
+async function setCopticDates(today?: Date, changeDate: boolean = false) {
+ 
   todayDate = today || (() => {
-    if (localStorage.selectedDate) localStorage.removeItem("selectedDate"); //We do this in order to reset the local storage 'selectedDate' when setCopticDates() is called without a date passed to it
+    if (localStorage.selectedDate) localStorage.selectedDate = null; //We do this in order to reset the local storage 'selectedDate' when setCopticDates() is called without a date passed to it
     return new Date()
   })();
 
@@ -468,6 +469,12 @@ function isItSundayOrWeekDay(
   else return period + days.toString(); // we are not a sunday
 }
 
+function isWatesOrAdam():string {
+  if ([0, 1, 2].includes(weekDay))
+    return "Adam";
+  return "Wates"
+}
+
 function setVariableSeasonalPhrases(season: string): { giaki } {
   type seasonalPrayers = {
     Season: string[],
@@ -756,7 +763,7 @@ function checkIfDateIsToday(date: Date): boolean {
   if (!date
     ||
     (
-      date.getDate() === new Date().getDate()
+      date?.getDate() === new Date().getDate()
       &&
       date.getMonth() === new Date().getMonth()
       &&

@@ -315,7 +315,7 @@ function addEdintingButtons() {
   );
 
   createEditingButton(
-    async () => await convertCopticFont(document.getSelection().focusNode.parentElement),
+    async () => await convertCopticFont({htmlParag:document.getSelection().focusNode.parentElement}),
     "Convert Coptic Fonts",
     btnsDiv
   );
@@ -892,7 +892,7 @@ function paragraphsKeyShortcuts(e: KeyboardEvent) {
   if (e.key === 'B') { e.preventDefault; addRow(p, false, undefined, false) };
   if (e.key === 'S') { e.preventDefault; saveModifiedArray({ exportToFile: false, exportToStorage: true }) };
   if (e.key === 'E') { e.preventDefault; saveModifiedArray({ exportToFile: true, exportToStorage: true }) };
-  if (e.key === 'C') { e.preventDefault; convertCopticFont(p) };
+  if (e.key === 'C') { e.preventDefault; convertCopticFont({htmlParag:p}) };
   if (e.key === 'L') { e.preventDefault; deleteRow(p) };
   if (e.key === 'P') { e.preventDefault; splitParagraphsToTheRowsBelow(p) };
   if (e.key === 'F') { e.preventDefault; _FixCopticText(p) };
@@ -1398,52 +1398,73 @@ function getLanguages(title:string): string[] {
 /**
  * Converts the coptic font of the text in the selected html element, to a unicode font
  * @param {HTMLElement} htmlParag - an editable html element in which the cursor is placed, containing coptic text in a non unicode font, that we need to convert
- */
-async function convertCopticFont(htmlParag?: HTMLElement, fontFrom?: string, promptAll: boolean = true, text?: string): Promise<string | void> {
+ * @param {string} tableTitle - if provided, the function will find the table with the title and will convert all the coptic text in this table
+ * @param {string} text - if provided, the function will convert the text
+ * @param {string} fontFrom - The name of the font from which we will convert. If not provided, the user will be prompted to choose or to provide any other font name
+ **/
+async function convertCopticFont(args: {
+  htmlParag?: HTMLElement,
+  fontFrom?: string,
+  promptAll?: boolean,
+  text?: string,
+  tableTitle?: string
+}): Promise<string | string[][] | void> {
 
-  if (!fontFrom) fontFrom = prompt("Provide the font", "COPTIC1/CS_AVVA_SHENOUDA/AVVA_SHENOUDA/ATHANASIUS/NEW_ATHANASIUS");
+  if (args.promptAll === null)
+    args.promptAll = true;
+  if (!args.fontFrom)
+    args.fontFrom = promptForFont();
+  if (!args.fontFrom) return;
 
-  if (!fontFrom) return;
+  if (args.tableTitle) {
+    let table: string[][] = findTable(args.tableTitle, getTablesArrayFromTitlePrefix(args.tableTitle)) || undefined;
+    if (!table) return;
+    let langs = getLanguages(args.tableTitle);
+    if (!langs || !langs.includes('COP')) return;
+    for (let row of table) {
+      row[langs.indexOf('COP')] = await convert(row[langs.indexOf('COP')])
+    }
+    return args. tableTitle
+  }
+  else if (args.text) return await convert(args.text);
 
-  if (text && fontFrom) return await convert(text);
-
-  if (promptAll && confirm('Do you want to edit all the coptic paragraphs with the same font?')) {
+  if (args.promptAll && confirm('Do you want to edit all the coptic paragraphs with the same font?')) {
     let parags = Array.from(containerDiv.querySelectorAll('P') as NodeListOf<HTMLParagraphElement>)
       .filter(p => p.lang === 'COP');
 
     for (let parag of parags) {
-      await convertCopticFont(parag, fontFrom, false);
+      await convertCopticFont({htmlParag:parag, fontFrom:args.fontFrom, promptAll:false});
     }
 
     return
 
   }
 
-  while (htmlParag.tagName !== "P" && htmlParag.parentElement)
-    htmlParag = htmlParag.parentElement;
+  while (args.htmlParag.tagName !== "P" && args.htmlParag.parentElement)
+    args.htmlParag = args.htmlParag.parentElement;
 
-  if (!htmlParag && !text) return alert('Html element not a paragraph');
+  if (!args.htmlParag && !args.text) return alert('Html element not a paragraph');
 
 
   let selected: Selection = getSelectedText();
 
   if (selected && !selected.isCollapsed)
-    text = await convert(selected.toString()) || undefined;
-  else text = await convert(htmlParag.textContent) || undefined;
+    args.text = await convert(selected.toString()) || undefined;
+  else args.text = await convert(args.htmlParag.textContent) || undefined;
 
-  if (!text) return alert('Failed to convert the text');
+  if (!args.text) return alert('Failed to convert the text');
   window.Selection = null;
-  htmlParag.innerHTML = "";
+  args.htmlParag.innerHTML = "";
   if (selected)
-    htmlParag.textContent = htmlParag.textContent.replace(selected.toString(), text);
-  else htmlParag.textContent = text
+    args.htmlParag.textContent = args.htmlParag.textContent.replace(selected.toString(), args.text);
+  else args.htmlParag.textContent = args.text
 
   async function convert(originalText: string) {
     let converted: string[] = [];
     let paragraphs = originalText.split('<br>');
     for (let parag of paragraphs) {
-      if (!['CS_AVVA_SHENOUDA'].includes(fontFrom))
-        converted.push(await convertFontWithoutAPI(parag, fontFrom));
+      if (!['CS_AVVA_SHENOUDA'].includes(args.fontFrom))
+        converted.push(await convertFontWithoutAPI(parag, args.fontFrom));
       else converted.push(await convertFromAPI(parag) || '');
     }
     return converted.join('\n')
@@ -1461,7 +1482,7 @@ async function convertCopticFont(htmlParag?: HTMLElement, fontFrom?: string, pro
       },
 
       body:
-        encodeURI("from=" + fontFrom + "&encoding=unicode&action=translate&data=" + originalText)
+        encodeURI("from=" + args.fontFrom + "&encoding=unicode&action=translate&data=" + originalText)
     };
 
     let response = await fetch(apiURL, init);
@@ -1483,6 +1504,10 @@ async function convertCopticFont(htmlParag?: HTMLElement, fontFrom?: string, pro
     return textArea.innerText;
 
   };
+
+  function promptForFont():string {
+    return prompt("Provide the font", "COPTIC1/CS_AVVA_SHENOUDA/AVVA_SHENOUDA/ATHANASIUS/NEW_ATHANASIUS")
+  }
 
 }
 
@@ -1734,7 +1759,7 @@ async function convertAllCopticParagraphsFonts(fontFrom?: string) {
   parags = parags
     .filter(parag => parag.lang === 'COP');
   for (let parag of parags) {
-    return await convertCopticFont(parag, fontFrom)
+    return await convertCopticFont({htmlParag: parag, fontFrom: fontFrom, promptAll:false})
   }
 
 }
@@ -1748,7 +1773,7 @@ async function _FixCopticText(htmlParag: HTMLElement) {
 
   for (let parag of parags) {
     parags.indexOf(parag) === 1 ? font = 'ATHANASIUS' : font = 'CS_AVVA_SHENOUDA';
-    text = await convertCopticFont(undefined, font, false, parag) || ''
+    text = await convertCopticFont({fontFrom: font, promptAll:false, text:parag}) as string || '';
     if (!text) alert('Conversion has failed for ' + parag);
     if (!text) continue;
     let row = addRow(htmlParag, false, htmlParag.title.replace('Diacon', 'ReadingIntro'), false);

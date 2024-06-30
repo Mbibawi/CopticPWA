@@ -13,26 +13,8 @@ async function startApp() {
   if (localStorage.fontSize) setFontSize(localStorage.fontSize);
 
   DetectFingerSwipe();
-  (async function setDates() { 
-    if (!localStorage.selectedDate || checkIfDateIsToday(localStorage.selectedDate))
-      return await setCopticDates();
 
-    let selectedDate = new Date(Number(localStorage.selectedDate)); //We create a date from the date saved in th localStorage
-  //selectedDate.setTime();
-
-    alert(
-      "WARNING ! The date is manually set by the user to " +
-      selectedDate.getDate().toString() +
-      "/" +
-      (selectedDate.getMonth() + 1).toString() +
-      "/" +
-      selectedDate.getFullYear().toString() +
-      ". This choice will not kept. If you want the current date, you have to change the date manually"
-    );
-    await setCopticDates(selectedDate);
-  
-  })();
- 
+  await setDates();
 
   (function loadTextScripts() {
     //! We must load the text scripts after the dates were set and the 'giaki' variable was defined
@@ -62,12 +44,34 @@ async function startApp() {
   showChildButtonsOrPrayers(btnMainMenu); //!Caution: btnMain must be displayed after the dates and the Season have been set. Otherwise, btn Psalmody will not change its title
   //  document.getElementById('homeImg').addEventListener('dblclick', createHtmlArray);
 
-  alert(version)
+  alert(version);
+
+  async function setDates() {
+    let selectedDate: Date;
+
+    if (localStorage.selectedDate)
+      selectedDate = new Date(Number(localStorage.selectedDate));
+
+    if (checkIfDateIsToday(selectedDate))
+      return await setCopticDates();
+
+    await setCopticDates(selectedDate);
+
+    alert(
+      "WARNING ! The date is manually set by the user to " +
+      selectedDate.getDate().toString() +
+      "/" +
+      (selectedDate.getMonth() + 1).toString() +
+      "/" +
+      selectedDate.getFullYear().toString() +
+      ". This choice will not kept. If you want the current date, you have to change the date manually"
+    );
+  };
 }
 
-function loadBible(def : boolean = true): Promise<void> {
+function loadBible(def: boolean = true): Promise<void> {
   let lang;
-  def?lang = defaultLanguage: lang = foreingLanguage;
+  def ? lang = defaultLanguage : lang = foreingLanguage;
 
   return new Promise<void>((resolve) => {
     const check = setInterval(() => {
@@ -76,7 +80,7 @@ function loadBible(def : boolean = true): Promise<void> {
         clearInterval(check);
         resolve();
       }
-    }, 3000); 
+    }, 3000);
   });
 }
 
@@ -386,7 +390,7 @@ async function showChildButtonsOrPrayers(btn: Button, clear: boolean = true) {
     };
   })();
 
-  if(btn.afterShowPrayers)
+  if (btn.afterShowPrayers)
     await processAfterShowPrayers();
 
   (function processBtnChildren() {
@@ -1554,19 +1558,19 @@ async function openSideBar(sideBar: HTMLElement) {
  * Removes a script (found by its id), and reloads it by appending it to the body of the document
  *@param {string[]} scriptIDs - the ids if the scripts that will be removed and reloaded as child of the body
  */
-function reloadScripts(scriptIDs: string[], src?:string, type:string = 'text/javascript', msg?:string) {
+function reloadScripts(scriptIDs: string[], src?: string, type: string = 'text/javascript', msg?: string) {
   let old: HTMLScriptElement, copy: HTMLScriptElement;
   scriptIDs
     .forEach((id) => {
       old = document.getElementById(id) as HTMLScriptElement;
-      src = './Build/modules/Declare' + id + '.js'; 
+      src = './Build/modules/Declare' + id + '.js';
       copy = document.createElement("script");
       copy.id = old?.id || id;
       copy.src = old?.src || src;
       copy.type = old?.type || type;
       old?.remove();
       copy.onload = () => {
-        if(msg) alert(msg)
+        if (msg) alert(msg)
         if (id.includes('PrayersArray'))
           populatePrayersArrays();
       }
@@ -1771,8 +1775,7 @@ function showPrayers(args: {
 
   closeSideBar(leftSideBar);
 
-  let date: string,
-    tables: string[][][] = [];
+  let tables: string[][][] = [];
 
   (function retrievePrayersTables() {
     if (args.table) return tables.push(args.table);//If a table is already passed as argument, we will add this table to tables[]. Otherwise, we will retrieve the tables from args.prayersSequence;
@@ -1780,9 +1783,6 @@ function showPrayers(args: {
     args.prayersSequence
       .forEach((tableTitle) => {
         if (!tableTitle) return console.log("No tableTitle");
-
-        if (!tableTitle.includes("&D="))
-          tableTitle += "&D=" + copticReadingsDate; //if the date/season of the prayer is not indicated in the title of the table, it means that we need to retrieve a table with the same base, but having as date the copticReadingsDate (eg. the St Paul reading or the Katholikon).
 
         tables.push(
           findTable(
@@ -2937,7 +2937,7 @@ function showSettingsPanel(index?: number) {
           else
             setLanguage(lang[0], i);
 
-          if (choices[i + 1]){ 
+          if (choices[i + 1]) {
             container.innerHTML = '';
             addLabel(i + 1)
             showModal(i + 1)
@@ -3471,7 +3471,7 @@ async function replaceMusicalNoteSign(container: HTMLElement[]) {
       if (!p.innerText.includes(note)) return;
       p.innerHTML = p.innerHTML.replaceAll(
         note,
-        '<span class="musicalNote">' + note + "</span>"
+        '<span class="musicalNote">' + note + note + "</span>"
       );
     });
   });

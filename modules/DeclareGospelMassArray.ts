@@ -323,10 +323,7 @@ ReadingsArrays.GospelMassArrayFR= [[
     Prefix.gospelMass+"Gospel&D=2702&C=Title", 
     ],
     [
-    Prefix.readingRef+"MAT:4:23-25", 
-    ],
-    [
-    Prefix.readingRef+"MAT:5:1-16", 
+    Prefix.readingRef+"MAT:4:23-25/5:1-16", 
     ],
     ],
     [
@@ -422,10 +419,7 @@ ReadingsArrays.GospelMassArrayFR= [[
     Prefix.gospelMass+"Gospel&D=1503&C=Title", 
     ],
     [
-    Prefix.readingRef+"LUK:11:53-54", 
-    ],
-    [
-    Prefix.readingRef+"LUK:12:1-12", 
+    Prefix.readingRef+"LUK:11:53-54/12:1-12", 
     ],
     ],
     [
@@ -785,10 +779,7 @@ ReadingsArrays.GospelMassArrayFR= [[
     Prefix.gospelMass+"Gospel&D=2605&C=Title", 
     ],
     [
-    Prefix.readingRef+"MAT:4:23-End", 
-    ],
-    [
-    Prefix.readingRef+"MAT:5:1-16", 
+    Prefix.readingRef+"MAT:4:23-End/5:1-16", 
     ],
     ],
     [
@@ -900,10 +891,7 @@ ReadingsArrays.GospelMassArrayFR= [[
     Prefix.gospelMass+"Gospel&D=1307&C=Title", 
     ],
     [
-    Prefix.readingRef+"LUK:11:53-End", 
-    ],
-    [
-    Prefix.readingRef+"LUK:12:1-12", 
+    Prefix.readingRef+"LUK:11:53-End/12:1-12", 
     ],
     ],
     [
@@ -2847,10 +2835,7 @@ ReadingsArrays.GospelMassArrayFR= [[
     Prefix.gospelMass+"Gospel&D=PNT7thSunday||PNT8thSunday&C=Title", 
     ],
     [
-    Prefix.readingRef+"JHN:15:26-End", 
-    ],
-    [
-    Prefix.readingRef+"JHN:16:1-15", 
+    Prefix.readingRef+"JHN:15:26-End/16:1-15", 
     ],
     ],
     [

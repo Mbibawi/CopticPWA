@@ -8,7 +8,6 @@ const JimkinCombining = {
 
 const COPTIC_FONT_UNICODE_COL: number = 4;
 
-
 async function convertFontWithoutAPI(text?: string, font: string = fontName, jimkin: string = JimkinCombining.before) {
   if (!fontsMap[0].includes(font)) {
     alert('Font: ' + font + ' is not supported');
@@ -50,9 +49,6 @@ function convertCopticText(font: string, text: string, jimkin: string): string {
   let columnIndex: number = fontsMap[0].indexOf(font);
   let rowIndex: number;
 
-  //
-  // Traverse the string
-  //
   let sb = [];
 
   for (let i = 0; i < text.length; i++) {

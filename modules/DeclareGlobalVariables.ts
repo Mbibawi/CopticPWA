@@ -33,7 +33,7 @@ type bibleBookKeys = { id: string, human: string, human_long: string, chaptersLi
 
 //CONSTANTS
 const version: string =
-  "v7.0 (Many changes and fixes especially to the retrieval of the Bibles, made asynchronious, and the setting of the default language)";
+  "v7.1 (Added new prayers to the Psalmody, and reduced the size of PrayersArraysFR by removing '&D=...' from some titles)";
 const calendarDay: number = 24 * 60 * 60 * 1000; //this is a day in milliseconds
 const containerDiv: HTMLDivElement = document.getElementById(
   "containerDiv") as HTMLDivElement;
@@ -265,19 +265,19 @@ const ReadingsIntrosAndEnds = {
 const sequences = {
   Incense: [
     //This is the generic sequence of any incense office (morning or evening). The onClick function triggered by btnIncenseDawn and btnIncenseVespers, will remove what is irrelevant and add keeps what needs to be kept
-    Prefix.incenseDawn + "IncenseDawnIntro" + anyDay,
-    Prefix.commonIncense + "EleysonImas" + anyDay,
-    Prefix.bookOfHours + "Psalm50" + anyDay,
+    Prefix.incenseDawn + "IncenseDawnIntro",
+    Prefix.commonIncense + "EleysonImas",
+    Prefix.bookOfHours + "Psalm50",
     Prefix.commonIncense + "Litanies" + anyDay,
-    Prefix.incenseDawn + "SickLitany" + anyDay,
-    Prefix.incenseDawn + "TravelersLitany" + anyDay,
-    Prefix.incenseDawn + "OblationsLitany" + anyDay,
-    Prefix.incenseVespers + "DepartedLitany" + anyDay,
+    Prefix.incenseDawn + "SickLitany",
+    Prefix.incenseDawn + "TravelersLitany",
+    Prefix.incenseDawn + "OblationsLitany",
+    Prefix.incenseVespers + "DepartedLitany",
     Prefix.commonPrayer + "AngelsPrayer" + anyDay,
     Prefix.incenseVespers + "LordKeepUsThisNight" + anyDay,
     Prefix.commonIncense + "Doxolgoies" + anyDay,
-    Prefix.commonPrayer + "EfnotiNaynan" + anyDay,
-    Prefix.commonIncense + "LiturgyEnd" + anyDay
+    Prefix.commonPrayer + "EfnotiNaynan",
+    Prefix.commonIncense + "LiturgyEnd"
   ],
   Mass: {
     //those are the sequences of the 'Baptized' mass prayers (starting from Reconciliation) for each mass
@@ -291,7 +291,7 @@ const sequences = {
       Prefix.massCommon + "Tayshoury" + anyDay,
       Prefix.massCommon + "Tishoury" + anyDay,
       Prefix.massCommon + "IntercessionsHymn" + anyDay,
-      Prefix.commonPrayer + "Creed" + anyDay
+      Prefix.commonPrayer + "Creed"
     ], //Those are the prayers of the 'Unbaptized Mass'
     StBasil: [
       Prefix.massCommon + "ReconciliationComment" + anyDay,
@@ -309,7 +309,7 @@ const sequences = {
       Prefix.massStGregory + "Anaphora" + anyDay,
       Prefix.massStGregory + "Agios" + anyDay,
       Prefix.massStGregory + "AsWeCommemorateYourHolyPassionPart1" + anyDay,
-      Prefix.massStGregory + "CallOfTheHolySpiritPart1" + anyDay,
+      Prefix.massStGregory + "CallOfTheHolySpiritPart1",
       Prefix.massStGregory + "LitaniesIntroduction" + anyDay,
       Prefix.massStGregory + "Litanies" + anyDay,
       Prefix.massStGregory + "FractionIntroduction" + anyDay
@@ -327,100 +327,110 @@ const sequences = {
     ], // the sequence of prayers of St Cyril Mass (starting from Reconciliation)
     StJohn: [], // the sequence of prayers of St John Mass (tarting from Reconciliation)
     CallOfHolySpirit: [
-      Prefix.massCommon + "CallOfTheHolySpiritPart1" + anyDay,
+      Prefix.massCommon + "CallOfTheHolySpiritPart1",
     ],
     Litanies: [
       Prefix.massCommon + "LitaniesIntroduction" + anyDay,
       Prefix.massCommon + "SaintsCommemoration" + anyDay,
       Prefix.massCommon + "CommemorationOfTheDeparted" + anyDay,
       Prefix.massCommon + "FractionIntroduction" + anyDay,
-      Prefix.commonPrayer + "OurFatherWhoArtInHeaven" + anyDay,
-      Prefix.commonPrayer + "BlockInTheNameOfOurLord" + anyDay,
+      Prefix.commonPrayer + "OurFatherWhoArtInHeaven",
+      Prefix.commonPrayer + "BlockInTheNameOfOurLord",
       Prefix.massCommon + "PrayerForTheFather" + anyDay,
-      Prefix.commonPrayer + "BlockIriniPassi" + anyDay,
+      Prefix.commonPrayer + "BlockIriniPassi",
       Prefix.massCommon + "AbsolutionPrayerForTheFather" + anyDay,
-      Prefix.massCommon + "ConfessionIntroduction" + anyDay,
-      Prefix.massCommon + "Confession" + anyDay,
-      Prefix.commonPrayer + "ZoksasiKyrie" + anyDay
+      Prefix.massCommon + "ConfessionIntroduction",
+      Prefix.massCommon + "Confession",
+      Prefix.commonPrayer + "ZoksasiKyrie"
     ], //The litanies. They are common to all masses except 
     Communion: [
-      Prefix.massCommon + "CommunionPsalm150" + anyDay,
-      Prefix.massCommon + "LiturgyEnd" + anyDay,
+      Prefix.massCommon + "CommunionPsalm150",
+      Prefix.massCommon + "LiturgyEnd",
     ], //the sequence of prayers from 'Confession' until the end of the mass, it is common to all masses 
   },
   Psalmody: {
     Year: [
-      Prefix.psalmody + "WakeUpSonsOfLight" + anyDay,
-  
-      Prefix.psalmody + "MarenOosht" + anyDay,
-  
-      Prefix.psalmody + "FirstHos" + anyDay,
-  
-      Prefix.psalmody + "LobshFirstHos" + anyDay,
-  
-      Prefix.psalmody + "CommentaryOnHos1" + anyDay,
-  
-      Prefix.psalmody + "SecondHos" + anyDay,
-  
-      Prefix.psalmody + "LobshSecondHos" + anyDay,
-  
-      Prefix.psalmody + "ThirdHos" + anyDay,
-  
-      Prefix.psalmody + "Arebsalin" + anyDay,
-  
-      Prefix.psalmody + "Tenen" + anyDay,
-  
-      Prefix.psalmody + "TenOwehEnthok" + anyDay,
-  
-      Prefix.psalmody + "Lobsh1WatesOnSaturdayTheotoky",
-  
-      Prefix.psalmody + "Lobsh2WatesOnSaturdayTheotoky",
-  
-      Prefix.psalmody + "EndOfWatesTheotokies" + anyDay,
-  
+      Prefix.psalmody + "WakeUpSonsOfLight",
+
+      Prefix.psalmody + "MarenOosht",
+
+      Prefix.psalmody + "Hos1",
+
+      Prefix.psalmody + "LobshHos1",
+
+      Prefix.psalmody + "CommentaryHos1",
+      
+      Prefix.psalmody + "PsalyOnHos2",
+
+      Prefix.psalmody + "Hos2",
+
+      Prefix.psalmody + "LobshHos2",
+
+      Prefix.psalmody + "Hos3",
+
+      Prefix.psalmody + "Arebsalin",
+
+      Prefix.psalmody + "Tenen",
+
+      Prefix.psalmody + "TenOwehEnthok",
+
+      Prefix.psalmody + "Hos4",
+
+      Prefix.psalmody + "IntroductionToWatesTheotoky",
+
+      Prefix.anchor + "Theotoky", //This is will be replaced with Prefix.psalmody + "Theoktoky&D=" + weekDay
+
+      Prefix.anchor + "Lobsh1Theotoky", //This is will be replaced with Prefix.psalmody + "Lobsh1Theotoky&D=" + weekDay
+
+      Prefix.anchor + "Lobsh2Theotoky", //This is will be replaced with Prefix.psalmody + "Lobsh2Theotoky&D=" + weekDay
+
+      Prefix.anchor + "Lobsh3Theotoky", //This is will be replaced with Prefix.psalmody + "Lobsh3Theotoky&D=" + weekDay
+
+      Prefix.psalmody + "TheotokiesConclusionWates",//!Need to know when Wates and Adam Theotokies are prayed
+
     ],
-  
+
     Kiahk: [
-      Prefix.psalmody + "WakeUpSonsOfLight" + anyDay,
-  
-  
-      Prefix.psalmody + "KiahkHos" + anyDay,
-  
-      Prefix.psalmody + "ChantAgiosOsiOs" + anyDay,
-  
-      Prefix.psalmody + "MarenOosht" + anyDay,
-  
-      Prefix.psalmody + "PsalyOnFirstHos" + anyDay,
-  
-      Prefix.psalmody + "FirstHos" + anyDay,
-  
-      Prefix.psalmody + "LobshFirstHos" + anyDay,
-  
-      Prefix.psalmody + "ChantGodSaidToMoses" + anyDay,
-  
-      Prefix.psalmody + "CommentaryOnHos1" + anyDay,
-  
-      Prefix.psalmody + "PsalyOnSecondHos" + anyDay,
-  
-      Prefix.psalmody + "SecondHos" + anyDay,
-  
-      Prefix.psalmody + "LobshSecondHos" + anyDay,
-  
-      Prefix.psalmody + "ThirdHos" + anyDay,
-  
-      Prefix.psalmody + "Arebsalin" + anyDay,
-  
-      Prefix.psalmody + "Tenen" + anyDay,
-  
-      Prefix.psalmody + "TenOwehEnthok" + anyDay,
-  
-      Prefix.psalmody + "Lobsh1WatesOnSaturdayTheotoky",
-  
-      Prefix.psalmody + "Lobsh2WatesOnSaturdayTheotoky",
-          
-      Prefix.psalmody + "ThirdHos" + anyDay + "&C=Title",
-  
-      Prefix.psalmody + "EndOfWatesTheotokies" + anyDay,
+      Prefix.psalmody + "WakeUpSonsOfLight",
+
+
+      Prefix.psalmody + "KiahkHos",
+
+      Prefix.psalmody + "ChantAgiosOsiOs",
+
+      Prefix.psalmody + "MarenOosht",
+
+      Prefix.psalmody + "PsalyOnHos1",
+
+      Prefix.psalmody + "Hos1",
+
+      Prefix.psalmody + "LobshHos1",
+
+      Prefix.psalmody + "ChantGodSaidToMoses",
+
+      Prefix.psalmody + "CommentaryHos1",
+
+      Prefix.psalmody + "PsalyOnHos2",
+
+      Prefix.psalmody + "Hos2",
+
+      Prefix.psalmody + "LobshHos2",
+
+      Prefix.psalmody + "Hos3",
+
+      Prefix.psalmody + "Arebsalin",
+
+      Prefix.psalmody + "Tenen",
+
+      Prefix.psalmody + "TenOwehEnthok",
+
+      Prefix.psalmody + "Lobsh1Theotoky&D=6",
+
+      Prefix.psalmody + "Lobsh2Theotoky&D=6",
+
+      Prefix.psalmody + "Hos3",
+
+      Prefix.psalmody + "TheotokiesConclusionWates",
 
     ],
   },
@@ -428,49 +438,48 @@ const sequences = {
   {
     PassOver: [
       Prefix.HolyWeek + "HourIntroduction&D=$Seasons.HolyWeek",
-  
+
       Prefix.HolyWeek + "PsalmAndGospel&D=$Seasons.HolyWeek",
-  
+
       Prefix.HolyWeek + "Commentary&D=$Seasons.HolyWeek",
-  
+
       Prefix.HolyWeek + "PassoverEnd&D=$Seasons.HolyWeek",
-  
+
     ],
     Lakan: [
-      Prefix.commonIncense + "EleysonImas" + anyDay,
+      Prefix.commonIncense + "EleysonImas",
       Prefix.cymbalVerses + "&D=$copticFeasts.HolyThursday",
-      Prefix.bookOfHours + "Psalm50" + anyDay,
+      Prefix.bookOfHours + "Psalm50",
       Prefix.HolyWeek + "LakanProphecies&D=$copticFeasts.HolyThursday",
       Prefix.HolyWeek + "LakanSermony&D=$copticFeasts.HolyThursday",
-      Prefix.massCommon + "BiEhmotGhar" + anyDay,
+      Prefix.massCommon + "BiEhmotGhar",
       Prefix.anchor + "Readings" + anyDay,
       Prefix.commonPrayer + "Agios&D=$copticFeasts.HolyThursday",
-      Prefix.anchor + "GospelLitany" + anyDay,
-      Prefix.incenseDawn + "SickPrayer" + anyDay,
-      Prefix.incenseDawn + "TravelersPrayer" + anyDay,
+      Prefix.anchor + "GospelLitany",
+      Prefix.incenseDawn + "SickLitany",
+      Prefix.incenseDawn + "TravelersLitany",
       Prefix.massCommon + "SeasonalLitanyOfTheHarvest" + anyDay,
-      Prefix.commonPrayer + "KyrieElieson" + anyDay,
+      Prefix.commonPrayer + "KyrieElieson",
       Prefix.massCommon + "LitaniesFinal" + anyDay,
-      Prefix.commonPrayer + "KyrieElieson" + anyDay,
-      Prefix.massCommon + "PresidentLitany" + anyDay,
-      Prefix.incenseVespers + "DepartedPrayer" + anyDay,
-      Prefix.incenseDawn + "OblationsPrayer" + anyDay,
-      Prefix.commonPrayer + "CatechumensPrayer" + anyDay,
+      Prefix.commonPrayer + "KyrieElieson",
+      Prefix.massCommon + "PresidentLitany",
+      Prefix.incenseVespers + "DepartedLitany",
+      Prefix.incenseDawn + "OblationsLitany",
+      Prefix.commonPrayer + "CatechumensLitany",
       Prefix.HolyWeek + "LakanPrayer&D=$copticFeasts.HolyThursday",
-      Prefix.commonPrayer + "BlockShlil" + anyDay,
-      Prefix.commonPrayer + "BlockIriniPassi" + anyDay,
-      Prefix.commonPrayer + "ChurchLitany" + anyDay,
+      Prefix.commonPrayer + "BlockShlil",
+      Prefix.commonPrayer + "BlockIriniPassi",
+      Prefix.commonPrayer + "ChurchLitany",
       Prefix.commonPrayer + "PopeAndBishopLitany" + anyDay,
-      Prefix.commonPrayer + "MeetingsLitany" + anyDay,
+      Prefix.commonPrayer + "MeetingsLitany",
       //Insert "Eyn Sophia Si Epros"
-      Prefix.commonPrayer + "Creed" + anyDay,
+      Prefix.commonPrayer + "Creed",
       Prefix.massCommon + "LakanSpasmosAdamLong&D=$copticFeasts.HolyThursday",
       Prefix.massCommon + "DiaconResponseKissEachOther" + anyDay,
       Prefix.placeHolder,
       Prefix.massCommon + "SpasmosAdamShort" + anyDay,
       Prefix.HolyWeek + "LakanAnaphora&D=$copticFeasts.HolyThursday",
-  
-      // Prefix.commonIncense+"LiturgyEnd" + anyDay
+
     ],
     ThursdayMass: [],
     SaturdayIncenseDawn: [],
@@ -867,129 +876,129 @@ if (localStorage.textAmplified === undefined) {
 if (!localStorage.displayMode || localStorage.displayMode === "undefined") {
   localStorage.displayMode = displayModes[0];
 }
-const PrayersArraysKeys: [string, string, ()=>string[][][]][] = [
+const PrayersArraysKeys: [string, string, () => string[][][]][] = [
   //!Caution: we needed to make the last element a function that returns the array instead of referrecing the array itself, because when the DeclareGlobalVariables.js file is loaded, the ReadingsPrayersArrays are still empty since the readings texts files are not loaded yet
   [
     Prefix.praxisResponse,
     "PraxisResponsesPrayersArray",
-    ():string[][][] => PraxisResponsesPrayersArray,
+    (): string[][][] => PraxisResponsesPrayersArray,
   ],
   [
     Prefix.psalmResponse,
     "PsalmAndGospelPrayersArray",
-    ():string[][][] => PsalmAndGospelPrayersArray,
+    (): string[][][] => PsalmAndGospelPrayersArray,
   ],
   [
     Prefix.gospelResponse,
     "PsalmAndGospelPrayersArray",
-    ():string[][][] => PsalmAndGospelPrayersArray,
+    (): string[][][] => PsalmAndGospelPrayersArray,
   ],
   [Prefix.massCommon,
     "MassCommonPrayersArray",
-    ():string[][][] => MassCommonPrayersArray],
+  (): string[][][] => MassCommonPrayersArray],
   [Prefix.commonPrayer,
     "CommonPrayersArray",
-    ():string[][][] => CommonPrayersArray],
+  (): string[][][] => CommonPrayersArray],
   [
     Prefix.massStBasil,
     "MassStBasilPrayersArray",
-    ():string[][][] => MassStBasilPrayersArray,
+    (): string[][][] => MassStBasilPrayersArray,
   ],
   [
     Prefix.massStCyril,
     "MassStCyrilPrayersArray",
-    ():string[][][] => MassStCyrilPrayersArray,
+    (): string[][][] => MassStCyrilPrayersArray,
   ],
   [
     Prefix.massStGregory,
     "MassStGregoryPrayersArray",
-    ():string[][][] => MassStGregoryPrayersArray,
+    (): string[][][] => MassStGregoryPrayersArray,
   ],
   [Prefix.massStJohn,
     "MassStJohnPrayersArray",
-    ():string[][][] => MassStJohnPrayersArray],
+  (): string[][][] => MassStJohnPrayersArray],
   [Prefix.doxologies,
     "DoxologiesPrayersArray",
-    ():string[][][] => DoxologiesPrayersArray],
+  (): string[][][] => DoxologiesPrayersArray],
   [Prefix.communion,
     "CommunionPrayersArray",
-    ():string[][][] => CommunionPrayersArray],
+  (): string[][][] => CommunionPrayersArray],
   [Prefix.fractionPrayer,
     "FractionsPrayersArray",
-    ():string[][][] => FractionsPrayersArray],
+  (): string[][][] => FractionsPrayersArray],
   [
     Prefix.cymbalVerses,
     "CymbalVersesPrayersArray",
-    ():string[][][] => CymbalVersesPrayersArray,
+    (): string[][][] => CymbalVersesPrayersArray,
   ],
   [
     Prefix.bookOfHours,
     "BookOfHoursPrayersArray",
-    ():string[][][] => BookOfHoursPrayersArray,
+    (): string[][][] => BookOfHoursPrayersArray,
   ],
   [Prefix.HolyWeek,
     "HolyWeekPrayersArray",
-    ():string[][][] => HolyWeekPrayersArray],
+  (): string[][][] => HolyWeekPrayersArray],
   [Prefix.incenseDawn,
     "IncensePrayersArray",
-    ():string[][][] => IncensePrayersArray],
+  (): string[][][] => IncensePrayersArray],
   [Prefix.incenseVespers,
     "IncensePrayersArray",
-    ():string[][][] => IncensePrayersArray],
+  (): string[][][] => IncensePrayersArray],
   [Prefix.commonIncense,
     "IncensePrayersArray",
-    ():string[][][] => IncensePrayersArray],
+  (): string[][][] => IncensePrayersArray],
   [
     Prefix.gospelMass,
     "ReadingsArrays.GospelMassArrayFR",
-    ():string[][][] => ReadingsArrays.GospelMassArrayFR,
+    (): string[][][] => ReadingsArrays.GospelMassArrayFR,
   ],
   [
     Prefix.gospelMorning,
     "ReadingsArrays.GospelDawnArrayFR",
-    ():string[][][] => ReadingsArrays.GospelMorningArrayFR,
+    (): string[][][] => ReadingsArrays.GospelMorningArrayFR,
   ],
   [
     Prefix.gospelVespers,
     "ReadingsArrays.GospelVespersArrayFR",
-    ():string[][][] => ReadingsArrays.GospelVespersArrayFR,
+    (): string[][][] => ReadingsArrays.GospelVespersArrayFR,
   ],
   [
     Prefix.gospelNight,
     "ReadingsArrays.GospelNightArrayFR",
-    ():string[][][] => ReadingsArrays.GospelNightArrayFR,
+    (): string[][][] => ReadingsArrays.GospelNightArrayFR,
   ],
   [
     Prefix.stPaul,
     "ReadingsArrays.StPaulArrayFR",
-    ():string[][][] => ReadingsArrays.StPaulArrayFR,
+    (): string[][][] => ReadingsArrays.StPaulArrayFR,
   ],
   [
     Prefix.Catholicon,
     "ReadingsArrays.CatholiconArrayFR",
-    ():string[][][] => ReadingsArrays.CatholiconArrayFR,
+    (): string[][][] => ReadingsArrays.CatholiconArrayFR,
   ],
   [
     Prefix.praxis,
     "ReadingsArrays.PraxisArrayFR",
-    ():string[][][] => ReadingsArrays.PraxisArrayFR,
+    (): string[][][] => ReadingsArrays.PraxisArrayFR,
   ],
   [
     Prefix.synaxarium,
     "ReadingsArrays.SynaxariumArrayFR",
-    ():string[][][] => ReadingsArrays.SynaxariumArrayFR,
+    (): string[][][] => ReadingsArrays.SynaxariumArrayFR,
   ],
   [
     Prefix.prophecies,
     "ReadingsArrays.PropheciesDawnArrayFR",
-    ():string[][][] => ReadingsArrays.PropheciesDawnArrayFR,
+    (): string[][][] => ReadingsArrays.PropheciesDawnArrayFR,
   ],
   [Prefix.psalmody,
     "PsalmodyPrayersArray",
-    (): string[][][] => PsalmodyPrayersArray],
+  (): string[][][] => PsalmodyPrayersArray],
   [Prefix.prayersArray,
     'PrayersArrayFR',
-    (): string[][][] => PrayersArrayFR],
+  (): string[][][] => PrayersArrayFR],
 ];
 [
   Prefix,

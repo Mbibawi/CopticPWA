@@ -376,7 +376,7 @@ const btnMassUnBaptised = new Button({
       addExpandablePrayer({
         btnID: 'btnBiEhmotGhar',
         insertion: readingsAnchor,
-        prayers: [findTable(Prefix.massCommon + "BiEhmotGhar" + anyDay, MassCommonPrayersArray) || undefined],
+        prayers: [findTable(Prefix.massCommon + "BiEhmotGhar", MassCommonPrayersArray) || undefined],
         label: {
           AR: "بي إهموت غار",
           FR: "Ⲡⲓϩ̀ⲙⲟⲧ ⲅⲁⲣ"
@@ -562,7 +562,7 @@ const btnMassUnBaptised = new Button({
           ) {
             let readings;
     
-            readings = await findMassReadingOtherThanGospel(
+            readings = await insertMassReadingOtherThanGospel(
               readingPrefix,
               readingArray,
               { beforeOrAfter: "beforebegin", el: readingsAnchor },
@@ -900,13 +900,13 @@ const btnMassUnBaptised = new Button({
             Prefix.commonPrayer +
             "HolyHolyHolyLordOfSabaot" + anyDay,
           HailToYouMaria: string =
-            Prefix.commonPrayer + "WeSaluteYouMary" + anyDay,
+            Prefix.commonPrayer + "WeSaluteYouMary",
           WeExaltYou: string =
-            Prefix.commonPrayer + "WeExaltYouStMary" + anyDay,
-          Creed: string = Prefix.commonPrayer + "Creed" + anyDay,
+            Prefix.commonPrayer + "WeExaltYouStMary",
+          Creed: string = Prefix.commonPrayer + "Creed",
           OurFatherWhoArtInHeaven: string =
             Prefix.commonPrayer +
-            "OurFatherWhoArtInHeaven" + anyDay;
+            "OurFatherWhoArtInHeaven";
 
 
         let sequence: string[];
@@ -969,7 +969,7 @@ const btnReadingsStPaul = new Button({
   },
   showPrayers: true,
   onClick: async () => {
-    await findMassReadingOtherThanGospel(
+    await insertMassReadingOtherThanGospel(
       Prefix.stPaul,
       ReadingsArrays.StPaulArrayFR,
       { beforeOrAfter: undefined, el: undefined },
@@ -989,7 +989,7 @@ const btnReadingsCatholicon = new Button({
   },
   showPrayers: true,
   onClick: async () => {
-    await findMassReadingOtherThanGospel(
+    await insertMassReadingOtherThanGospel(
       Prefix.Catholicon,
       ReadingsArrays.CatholiconArrayFR,
       { beforeOrAfter: undefined, el: undefined },
@@ -1008,7 +1008,7 @@ const btnReadingsPraxis = new Button({
   },
   showPrayers: true,
   onClick: async () => {
-    await findMassReadingOtherThanGospel(
+    await insertMassReadingOtherThanGospel(
       Prefix.praxis,
       ReadingsArrays.PraxisArrayFR,
       { beforeOrAfter: undefined, el: undefined },
@@ -1027,7 +1027,7 @@ const btnReadingsSynaxarium = new Button({
   },
   showPrayers: true,
   onClick: async ()=>{
-    await findMassReadingOtherThanGospel(
+    await insertMassReadingOtherThanGospel(
       Prefix.synaxarium,
       ReadingsArrays.SynaxariumArrayFR,
       { beforeOrAfter: undefined, el: undefined },
@@ -1047,7 +1047,7 @@ const btnPropheciesMorning = new Button({
   },
   showPrayers: true,
   onClick: async () => {
-    await findMassReadingOtherThanGospel(
+    await insertMassReadingOtherThanGospel(
       Prefix.prophecies,
       ReadingsArrays.PropheciesDawnArrayFR,
       { beforeOrAfter: undefined, el: undefined },
@@ -1148,13 +1148,13 @@ const btnBookOfHours = new Button({
     if (btnBookOfHours.children.length > 1) return btnBookOfHours.children;
 
     let OurFatherWhoArtInHeaven: string =
-      Prefix.commonPrayer + "OurFatherWhoArtInHeaven" + anyDay,
+      Prefix.commonPrayer + "OurFatherWhoArtInHeaven",
       AngelsPrayers: string =
         Prefix.commonPrayer + "AngelsPrayer" + anyDay,
       HailToYouMaria: string =
-        Prefix.commonPrayer + "WeSaluteYouMary" + anyDay,
+        Prefix.commonPrayer + "WeSaluteYouMary",
       WeExaltYou: string =
-        Prefix.commonPrayer + "WeExaltYouStMary" + anyDay,
+        Prefix.commonPrayer + "WeExaltYouStMary",
       Agios: string =
         Prefix.commonPrayer + "Agios" + anyDay,
       Kyrielison41Times: string =
@@ -1165,7 +1165,7 @@ const btnBookOfHours = new Button({
       ),
       HolyLordOfSabaot: string =
         Prefix.commonPrayer + "HolyHolyHolyLordOfSabaot" + anyDay,
-      Creed: string = Prefix.commonPrayer + "Creed" + anyDay,
+      Creed: string = Prefix.commonPrayer + "Creed",
       AllHoursFinalPrayer: string =
         Prefix.bookOfHours + "AllHoursFinalPrayer" + anyDay;
 
@@ -1266,13 +1266,13 @@ const btnBookOfHours = new Button({
           //We will add the prayers sequence to btn.prayersSequence[]
           btn.prayersSequence = Object.entries(bookOfHours)
             .find((entry) => entry[0] === hourName)[1][0]
-            .map((title) => getSequence("Psalm" + title.toString()));
-
-          btn.prayersSequence.unshift(getSequence(hourName + "Title")); //This is the title of the hour prayer
+            .map((title) => Prefix.bookOfHours + "Psalm" + title.toString());//We add the psalms
+        
+          btn.prayersSequence.unshift(Prefix.bookOfHours + hourName + "Title"); //This is the title of the hour prayer
 
           ["Gospel", "Litanies"].forEach((title) =>
-            btn.prayersSequence.push(getSequence(hourName + title))
-          );
+            btn.prayersSequence.push(Prefix.bookOfHours + hourName + title)
+          );//We add the gospel and the Litanies
 
           //Then, we add the End of all Hours' prayers (ارحمنا يا الله ثم ارحمنا) except for the 1st and 2nd services of the Midnight Prayer
 
@@ -1288,7 +1288,7 @@ const btnBookOfHours = new Button({
                 "ThanksGivingPart3" + anyDay,
                 Prefix.commonPrayer +
                 "ThanksGivingPart4" + anyDay,
-                Prefix.bookOfHours + "Psalm50" + anyDay,
+                Prefix.bookOfHours + "Psalm50",
               ],
               endOfHourPrayersSequence: string[] = [
                 AngelsPrayers,
@@ -1301,13 +1301,13 @@ const btnBookOfHours = new Button({
                 Kyrielison41Times,
                 HolyLordOfSabaot,
                 OurFatherWhoArtInHeaven,
-                getSequence(hourName + "EndOfHourPrayer"),
+                Prefix.bookOfHours + hourName + "End",
                 AllHoursFinalPrayer,
                 OurFatherWhoArtInHeaven,
               ];
 
             if (btnLable === bookOfHours.MidNight1Hour[1])
-              HourIntro.push(getSequence(hourName + "WakeUpSonsOfLight")); //We add the 'Wake Up Sons of Light' for the 1st Service of Midnight
+              HourIntro.push(Prefix.bookOfHours + "WakeUpSonsOfLight"); //We add the 'Wake Up Sons of Light' for the 1st Service of Midnight
 
             if (btnLable === bookOfHours.TwelvethHour[1])
               endOfHourPrayersSequence.splice(0, 1); //If it is the 12th (Night) Hour, we remove the Angels Prayer from endOfHourPrayersSequence
@@ -1322,12 +1322,10 @@ const btnBookOfHours = new Button({
                 Kyrielison41Times,
                 HolyLordOfSabaot,
                 OurFatherWhoArtInHeaven,
-                getSequence(hourName + "2ndGospel")
+                Prefix.bookOfHours + hourName + "2ndGospel"
               );
               //Inserting the Priests Absolution at the end
-              endOfHourPrayersSequence.push(
-                getSequence(hourName + "PriestsAbsolution")
-              );
+              endOfHourPrayersSequence.push(Prefix.bookOfHours + hourName +  "PriestsAbsolution");
             }
 
             if (
@@ -1350,12 +1348,6 @@ const btnBookOfHours = new Button({
             }
           })();
         })();
-        function getSequence(replaceWith: string): string {
-          return (
-            Prefix.bookOfHours +
-            "" + anyDay.replace("&D=", replaceWith + "&D=")
-          );
-        }
       }
     })();
 
@@ -1380,18 +1372,22 @@ const btnPsalmody = new Button({
       Season))
       return btnPsalmody.prayersSequence = sequences.Psalmody.Kiahk;
 
-    btnPsalmody.prayersSequence = sequences.Psalmody.Year;
-    let weekDays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-
-    btnPsalmody.prayersSequence
-      .forEach(title => {
-        if (
-          [...weekDays].splice(weekDay, 1)
-            .map(day => title?.includes(day))
-            ?.includes(true)
-        ) btnPsalmody.prayersSequence.splice(btnPsalmody.prayersSequence.indexOf(title), 1);//If the title includes any day in weekDays*[] other than today, we will remove these titles. We do this because these prayers (mostly Theotokies prayers) are pertaining to other days than today.
-      }
-      );
+    (function customizeSequence() {
+      btnPsalmody.prayersSequence =
+      sequences.Psalmody.Year
+          .map(title => customizeTitle(title));
+    
+        function customizeTitle(title:string):string {
+          if (title.startsWith(Prefix.anchor)) {
+            return title.replace(Prefix.anchor, Prefix.psalmody) + '&D=' + weekDay.toString();
+          }
+          else if (title.includes('TheotokiesConclusion') && [Seasons.PentecostalDays, Seasons.Ascension].includes(Season))
+            return title.replace('Wates', '&D=$Seasons.PentecostalDays||$Seasons.Ascension')
+          else return title.replace('Wates', isWatesOrAdam());
+        }
+      
+    })();
+    
 
   },
 });
@@ -1415,17 +1411,17 @@ const btnIncenseMorning = new Button({
       //If we are a Saturday, we pray only the 'Departed Litany', we will hence remove the 'Sick Litany' and the 'Travellers Litany'
       btnIncenseMorning.prayersSequence.splice(
         btnIncenseMorning.prayersSequence.indexOf(
-          Prefix.incenseDawn + "SickLitany" + anyDay
+          Prefix.incenseDawn + "SickLitany"
         ),
         3, //We remove the SickPrayer, the TravelersParayer and the Oblations Prayer
-        Prefix.incenseVespers + "DepartedLitany" + anyDay
+        Prefix.incenseVespers + "DepartedLitany"
       );
     else if (weekDay === 0 || lordFeasts.includes(copticDate))
       //If we are a Sunday or the day is a Lord's Feast, or the oblation is present, we remove the 'Travellers Litany' and keep the 'Sick Litany' and the 'Oblation Litany'
       btnIncenseMorning.prayersSequence = btnIncenseMorning.prayersSequence.filter(
         (tbl) =>
           !tbl[0][0]?.startsWith(
-            Prefix.incenseDawn + "TravelersLitany" + anyDay
+            Prefix.incenseDawn + "TravelersLitany"
           )
       );
     
@@ -1607,7 +1603,7 @@ const btnIncenseMorning = new Button({
           //If we are during the Jonah Fast or during the Great Lent but not on a Saturday or a Sunday, the Cymbal Verses are not chanted, they are replaced by the Long Kyrielison and the Cymbal Verses End
           cymbals =
             [
-              CommonPrayersArray.find(table => table[0][0]?.startsWith(Prefix.commonPrayer + "KyrieElieson" + anyDay)),
+              CommonPrayersArray.find(table => table[0][0]?.startsWith(Prefix.commonPrayer + "KyrieElieson")),
               CymbalVersesPrayersArray.find(table => table[0][0]?.startsWith(Prefix.cymbalVerses + "End" + anyDay))
             ];
 
@@ -1840,13 +1836,12 @@ const btnProsternation = new Button({
     EN: "Prosternation Prayer",
   },
   onClick: () => {
-    let Commentary = Prefix.incenseVespers + 'GospelCommentaryXXX' + anyDay;
-    let Litany = Prefix.incenseVespers + 'ProsternationLitanyXXX' + anyDay;
+    
     let sequence = [
-      Prefix.commonIncense + "EleysonImas" + anyDay,
+      Prefix.commonIncense + "EleysonImas",
       Prefix.anchor + 'Cymbals',
       Prefix.cymbalVerses + anyDay,
-      Prefix.bookOfHours + "Psalm50" + anyDay,
+      Prefix.bookOfHours + "Psalm50",
       Prefix.anchor + 'PropheciesIntro',//!provide
       Prefix.anchor + 'Prophecies',
       Prefix.anchor + 'PropheciesEnd',//!provide
@@ -1855,13 +1850,14 @@ const btnProsternation = new Button({
       Prefix.anchor + 'StPaul',
       Prefix.anchor + 'StPaulEnd',//!provide
       Prefix.anchor + 'Agios',
-      Prefix.commonPrayer + "BlockIriniPassi" + anyDay,
-      Prefix.commonPrayer + "GospelLitany" + anyDay,
-      Commentary,
+      Prefix.commonPrayer + "BlockIriniPassi",
+      Prefix.commonPrayer + "GospelLitany",
+      Prefix.incenseVespers + 'GospelCommentaryXXX',
+      Prefix.gospelResponse + 'ProsternationXXX',
       Prefix.anchor + 'Litanies',
       Prefix.massCommon + "DiaconResponseWorshipGodInFearAndTrembling" + anyDay,
-      Litany,
-      Prefix.commonPrayer + "OurFatherWhoArtInHeaven" + anyDay,
+      Prefix.incenseVespers + 'ProsternationLitanyXXX',
+      Prefix.commonPrayer + "OurFatherWhoArtInHeaven",
     ];
 
     let services = [
@@ -1870,11 +1866,11 @@ const btnProsternation = new Button({
         StPaul: '1CO:12:28-End/13:1-12',
         Agios: [Prefix.massCommon + "Agios&D=$Seasons.PentecostalDays||$Seasons.Ascension"],
         Gospel: ['PSA:97:7-8/97:1-1', 'JHN:17:1-26'],
-        Responses: [Prefix.psalmResponse + "&D=$Seasons.Ascension", Prefix.gospelResponse + "&D=$Seasons.Ascension"],
-        Cymbals: [Prefix.cymbalVerses + "&D=$copticFeasts.Ascension"],
+        psalmResponse: Prefix.psalmResponse + "&D=$Seasons.Ascension",
+        Cymbals: [Prefix.cymbalVerses + "&D=$Seasons.Ascension"],
         Litanies: [
-          Prefix.incenseDawn + "SickLitany" + anyDay,
-          Prefix.incenseDawn + "TravelersLitany" + anyDay,
+          Prefix.incenseDawn + "SickLitany",
+          Prefix.incenseDawn + "TravelersLitany",
           Prefix.massCommon + "SeasonalLitany" + anyDay,
           Prefix.massCommon + "PlacesLitany" + anyDay,
         ],
@@ -1884,13 +1880,13 @@ const btnProsternation = new Button({
         StPaul: '1CO:13:13-End/14:1-17',
         Agios: [Prefix.commonPrayer + "Agios" + anyDay],
         Gospel: ['PSA:115:12-13', 'LUK:24:36-53'],
-        Responses: [Prefix.psalmResponse + anyDay + "||$Seasons.Kiahk", ''],
+        psalmResponse: Prefix.psalmResponse + anyDay + "||$Seasons.Kiahk",
         Cymbals: [Prefix.cymbalVerses + "Adam" + anyDay],
         Litanies: [
-          Prefix.massCommon + "PresidentLitany" + anyDay,
-          Prefix.incenseVespers + "DepartedLitany" + anyDay,
-          Prefix.incenseDawn + "OblationsLitany" + anyDay,
-          Prefix.massCommon + 'CatechumensLitany' + anyDay
+          Prefix.massCommon + "PresidentLitany",
+          Prefix.incenseVespers + "DepartedLitany",
+          Prefix.incenseDawn + "OblationsLitany",
+          Prefix.massCommon + 'CatechumensLitany'
         ]
       },
       {
@@ -1898,7 +1894,7 @@ const btnProsternation = new Button({
         StPaul: '1CO:14:18-40',
         Agios: [Prefix.commonPrayer + "Agios" + anyDay],
         Gospel: ['PSA:65:2-2/71:9-9', 'JHN:4:1-24'],
-        Responses: [Prefix.psalmResponse + anyDay + "||$Seasons.Kiahk", ''],
+        psalmResponse: Prefix.psalmResponse + anyDay + "||$Seasons.Kiahk",
         Cymbals: [Prefix.cymbalVerses + "Wates" + anyDay],
         Litanies: [
           Prefix.commonPrayer + "ChurchLitany" + anyDay,//!needs check + convert font
@@ -1976,13 +1972,14 @@ const btnProsternation = new Button({
           clone = [...sequence];
 
         (function customizeSequence() {
-          replaceXXX(Commentary, (index + 1).toString());
-          replaceXXX(Litany, (index + 1).toString());
-
           if (index === 0) {
             clone.unshift(
-              Prefix.bookOfHours + "Psalm116" + anyDay,
-              Prefix.psalmody + "FourthHos" + anyDay,
+              Prefix.bookOfHours + "Psalm116",
+              Prefix.psalmody + "Hos4" + anyDay,
+              Prefix.psalmody + "PsalyAdamOnSundayTheotoky" + anyDay, 
+              Prefix.psalmody + "IntroductionToAdamTheotoky", 
+              Prefix.psalmody + "Theotoky" + '&D=0', 
+              Prefix.psalmody + "TheotokiesConclusion&D=$Seasons.PentecostalDays||$Seasons.Ascension",
               Prefix.psalmody + "PsalyAdamProsternation&D=$copticFeasts.Pentecoste",
             );
           }
@@ -1991,37 +1988,34 @@ const btnProsternation = new Button({
 
             let doxlogies =
               [
-                Prefix.incenseVespers + "LordKeepUsThisNight",
-                Prefix.commonPrayer + "Agios",
+                Prefix.incenseVespers + "LordKeepUsThisNight" + anyDay,
+                Prefix.commonPrayer + "Agios" + anyDay,
                 Prefix.commonPrayer + "OurFatherWhoArtInHeaven",
                 Prefix.commonPrayer + "InTheNameOfJesusOurLord",
                 Prefix.commonPrayer + "WeSaluteYouMary",
-                Prefix.doxologies + "DawnWatesStMary",
-                Prefix.doxologies + "CelestialBeings",
-                Prefix.doxologies + "Apostles",
-                Prefix.doxologies + "StMarc",
-                Prefix.doxologies + "Pope&",
+                Prefix.doxologies + "DawnWatesStMary" + anyDay,
+                Prefix.doxologies + "CelestialBeings" + anyDay,
+                Prefix.doxologies + "Apostles" + anyDay,
+                Prefix.doxologies + "StMarc" + anyDay,
+                Prefix.doxologies + "Pope&" + anyDay,
                 Prefix.doxologies + "EndOfDoxologiesWates",
                 Prefix.commonPrayer + "WeExaltYouStMary",
                 Prefix.commonPrayer + "Creed",
-                Prefix.commonPrayer + "EfnotiNaynan"
+                Prefix.commonPrayer + "EfnotiNaynan",
               ];
 
-            clone.splice(clone.indexOf(Prefix.massCommon + "DiaconResponseWorshipGodInFearAndTrembling"), 0, ...doxlogies.map(el => el + anyDay));
+            clone.splice(clone.indexOf(Prefix.massCommon + "DiaconResponseWorshipGodInFearAndTrembling"), 0, ...doxlogies);
 
             let End: string[] = [
-              "BlockInTheNameOfOurLord",
-              "BlockIriniPassi",
-              "AbsolutionForTheSon",
-              "KyriElieson3Times"];
+              Prefix.commonPrayer + "BlockInTheNameOfOurLord",
+              Prefix.commonPrayer + "BlockIriniPassi",
+              Prefix.commonPrayer + "AbsolutionForTheSon",
+              Prefix.commonPrayer + "KyriElieson3Times",
+              Prefix.commonIncense + "LiturgyEnd"
+            ];
 
-            clone.push(...End.map(el => Prefix.commonPrayer + el + anyDay));
-            clone.push(Prefix.commonIncense + "LiturgyEnd" + anyDay);
+            clone.push(...End);
           };
-
-          function replaceXXX(el: string, replace: string) {
-            clone[clone.indexOf(el)] = el.replace('XXX', replace);
-          }
 
         })();
 
@@ -2029,7 +2023,7 @@ const btnProsternation = new Button({
           clone.map(async title => {
             if (title.startsWith(Prefix.anchor))
               return await processTitle(title)
-            else return await processTitle(title, true)
+            else return await processTitle(title.replace('XXX', (index+1).toString()), true)
           })
         );
 
@@ -2042,7 +2036,7 @@ const btnProsternation = new Button({
           };
 
           let prop = title.replace(Prefix.anchor, '');
-          if (!service[prop] || prop === 'Gospel') return;//The 'Gospel' property is handeled by the btnAfterShowPrayers() function. We insert the reading in the anchor
+          if (!service[prop] || ['Gospel', 'psalmResponse'].includes(prop)) return;//The 'Gospel' property is handeled by the btnAfterShowPrayers() function. We insert the reading in the anchor
 
           if (prop === 'StPaul')
             return await processReference(service[prop], Prefix.stPaul);
@@ -2052,7 +2046,7 @@ const btnProsternation = new Button({
 
           function processProp(prop: string[]): string[][] {
             let table = prop.map(t => [Prefix.placeHolder, t]);
-            table.unshift([Prefix.commonPrayer]);//!we add a first row with the title as first element in order to be able to retrieve the prayers array from the title prefix
+            table.unshift([Prefix.commonPrayer]);//!we add a first row with the Prefix.commonPrayer as first element in order to be able to retrieve the PrayersArray languages from the title prefix
             return table
           }
 
@@ -2066,21 +2060,19 @@ const btnProsternation = new Button({
 
     }
 
-    function btnAfterShowPrayers(n: number) {
+    async function btnAfterShowPrayers(n: number) {
       let btn = btnProsternation.children[n];
       btnIncenseMorning.afterShowPrayers(btn);//We call this function in order to insert an Expandable for the "God Have Mercy On Us" Diacon response
       if (n === 2)
         adaptConcludingHymn(btn.docFragment);
       else if (n === 0)
         btnMassUnBaptised.afterShowPrayers(btn);//We insert the Book of Hours prayers (as an expandable button)
-
-      (function insertGospel() {
+      await insertGospel();
+      async function insertGospel() {
         let gospel = services[n].Gospel;
-        let responses = services[n].Responses;
-        insertAfterAnchor('Psalm', gospel[0]);
-        insertAfterAnchor("Gospel", gospel[1]);
-        insertAfterAnchor("PsalmResponse", responses[0], Prefix.psalmResponse);
-        insertAfterAnchor("GospelResponse", responses[1], Prefix.gospelResponse);
+        await insertAfterAnchor('Psalm', gospel[0]);
+        await insertAfterAnchor("Gospel", gospel[1]);
+        await insertAfterAnchor("PsalmResponse", services[n].psalmResponse, Prefix.psalmResponse);
 
        async function insertAfterAnchor(title: string, ref: string, prefix?: string) {
           let anchor: HTMLDivElement = findAnchor(title);
@@ -2115,7 +2107,7 @@ const btnProsternation = new Button({
           }
 
         }
-      })();
+      };
       scrollToTop();
 
     }
@@ -2556,10 +2548,10 @@ const btnMassStCyril = new Button({
       ...[
         Prefix.massCommon +
         "AgiosPart3" + anyDay,
-        Prefix.commonPrayer + "KyrieElieson" + anyDay,
-        Prefix.commonPrayer + "BlockIriniPassi" + anyDay,
+        Prefix.commonPrayer + "KyrieElieson",
+        Prefix.commonPrayer + "BlockIriniPassi",
         Prefix.anchor + "Fraction" + anyDay,
-        Prefix.commonPrayer + "OurFatherWhoArtInHeaven" + anyDay,
+        Prefix.commonPrayer + "OurFatherWhoArtInHeaven",
         Prefix.massCommon + "Confession" + anyDay,
       ],
       ...sequences.Mass.Communion,
@@ -3167,7 +3159,7 @@ const btnHolyWeek = new Button({
                   return
                 }
 
-                anchor = selectElementsByDataSetValue(btn.docFragment, Prefix.anchor + "GospelLitany" + anyDay);
+                anchor = selectElementsByDataSetValue(btn.docFragment, Prefix.anchor + "GospelLitany");
 
                 (function insertGospelReading() {
                   getGospelReadingAndResponses({
@@ -3622,7 +3614,7 @@ function floatOnTopOrBottom(
  * @param {boolean} clearContainer - specifies whether the container should be cleared or not before the reading is displayed
  * @returns
  */
-async function findMassReadingOtherThanGospel(
+async function insertMassReadingOtherThanGospel(
   readingPrefix: string,
   readingArray: string[][][],
   position: { beforeOrAfter: InsertPosition; el: HTMLElement },
