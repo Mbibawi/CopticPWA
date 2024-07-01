@@ -33,7 +33,7 @@ type bibleBookKeys = { id: string, human: string, human_long: string, chaptersLi
 
 //CONSTANTS
 const version: string =
-  "v7.1.1 (Added new prayers to the Psalmody, and reduced the size of PrayersArraysFR by removing '&D=...' from some titles)";
+  "v7.1.2 (Added new prayers to the Psalmody, and reduced the size of PrayersArraysFR by removing '&D=...' from some titles)";
 const calendarDay: number = 24 * 60 * 60 * 1000; //this is a day in milliseconds
 const containerDiv: HTMLDivElement = document.getElementById(
   "containerDiv") as HTMLDivElement;
@@ -286,7 +286,7 @@ const sequences = {
       Prefix.massCommon + "HallelujahFayBiBi" + anyDay,
       Prefix.massCommon + "HallelujahFayBiBiFast" + anyDay,
       Prefix.massCommon + "BenedictionOfTheLamb" + anyDay,
-      Prefix.commonPrayer + "ThanksGiving" + anyDay,
+      Prefix.commonPrayer + "ThanksGiving",
       Prefix.massCommon + "AbsolutionForTheFather" + anyDay,
       Prefix.massCommon + "Tayshoury" + anyDay,
       Prefix.massCommon + "Tishoury" + anyDay,

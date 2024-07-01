@@ -50,7 +50,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.commonPrayer + "ThanksGiving&D=$copticFeasts.AnyDay",
+    Prefix.commonPrayer + "ThanksGiving",
   ],
   [
     Prefix.anchor + "CymbalVerses",
@@ -119,11 +119,11 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.commonPrayer + "ThanksGiving&D=$copticFeasts.AnyDay&C=",
+    Prefix.commonPrayer + "ThanksGiving",
   ],
   [
     Prefix.placeHolder,
-    Prefix.commonPrayer + "ThanksGivingPart1&D=$copticFeasts.AnyDay",
+    Prefix.commonPrayer + "ThanksGivingPart1",
   ],
   [
     Prefix.placeHolder,
@@ -135,7 +135,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.commonPrayer + "ThanksGivingPart2&D=$copticFeasts.AnyDay",
+    Prefix.commonPrayer + "ThanksGivingPart2",
   ],
   [
     Prefix.placeHolder,
@@ -147,16 +147,16 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.commonPrayer + "ThanksGivingPart3&D=$copticFeasts.AnyDay",
+    Prefix.commonPrayer + "ThanksGivingPart3",
   ],
   [
     Prefix.placeHolder,
-    Prefix.commonIncense + "ThanksGivingPart3Comment&D=$copticFeasts.AnyDay",
+    Prefix.commonIncense + "ThanksGivingPart3Comment",
   ],
 ],
 [
   [
-    Prefix.commonPrayer + "ThanksGivingPart1&D=$copticFeasts.AnyDay&C=SubTitle",
+    Prefix.commonPrayer + "ThanksGivingPart1&C=SubTitle",
     "",
     "Action de grâce",
     "",
@@ -188,7 +188,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.commonPrayer + "ThanksGivingPart2&D=$copticFeasts.AnyDay&C=Priest",
+    Prefix.commonPrayer + "ThanksGivingPart2&C=Priest",
     "Ⲫⲛⲏⲃ Ⲡϭⲟⲓⲥ Ⲫⲛⲟⲩϯ ⲡⲓⲡⲁⲛⲧⲟⲕⲣⲁⲧⲱⲣ: Ⲫⲓⲱⲧ ⲙ̀Ⲡⲉⲛϭⲟⲓⲥ ⲟⲩⲟϩ Ⲡⲉⲛⲛⲟⲩϯ ⲟⲩⲟϩ ⲡⲉⲛⲥⲱⲧⲏⲣ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅: ⲧⲉⲛϣⲉⲡϩ̀ⲙⲟⲧ ⲛ̀ⲧⲟⲧⲕ ⲕⲁⲧⲁ ϩⲱⲃ ⲛⲓⲃⲉⲛ ⲛⲉⲙ ⲉⲑⲃⲉ ϩⲱⲃ ⲛⲓⲃⲉⲛ ⲛⲉⲙ ϧⲉⲛ ϩⲱⲃ ⲛⲓⲃⲉⲛ. ",
     "Ô Maître Seigneur, Dieu Tout-Puissant, Père de notre Seigneur, Dieu et Sauveur Jésus-Christ, nous Te rendons grâce, de toute circonstance, pour toute circonstance et en toute circonstance.",
     "فنيف بشويس بينوتي بيبانتوكراتور افيوت إمبينشويس أووه بيننوتي أووه بينسوتير إيسوس باخرستوس. تين شيبيهموت انتوتك ناتا هوف نيفين نيم إثفو هوف نيفين نيم خين هوف نيفين.",
@@ -244,7 +244,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.commonPrayer + "ThanksGivingPart3&D=$copticFeasts.AnyDay&C=Priest",
+    Prefix.commonPrayer + "ThanksGivingPart3&C=Priest",
     "Ⲉⲑⲃⲉ ⲫⲁⲓ ⲧⲉⲛϯϩⲟ ⲟⲩⲟϩ ⲧⲉⲛⲧⲱⲃϩ ⲛ̀ⲧⲉⲕ ⲙⲉⲧⲁ̀ⲅⲁⲑⲟⲥ ⲡⲓⲙⲁⲓⲣⲱⲙⲓ: ⲙⲏⲓⲥ ⲛⲁⲛ ⲉⲑⲣⲉⲛϫⲱⲕ ⲉ̀ⲃⲟⲗ ⲙ̀ⲡⲁⲓ ⲕⲉ ⲉ̀ϩⲟⲟⲩ ⲉⲑⲟⲩⲁⲃ ⲫⲁⲓ: ⲛⲉⲙ ⲛⲓⲉ̀ϩⲟⲟⲩ ⲏⲣⲟⲩ ⲛ̀ⲧⲉ ⲡⲉⲛⲱⲛϧ: ϧⲉⲛ ϩⲓⲣⲏⲛⲏ ⲛⲓⲃⲉⲛ ⲛⲉⲙ ⲧⲉⲕϩⲟϯ. Ⲫⲑⲟⲛⲟⲥ ⲛⲓⲃⲉⲛ: ⲡⲓⲣⲁⲥⲙⲟⲥ ⲛⲓⲃⲉⲛ: ⲉⲛⲉⲣⲅⲓⲁ̀ ⲛⲓⲃⲉⲛ ⲛ̀ⲧⲉ ⲡ̀ⲥⲁⲧⲁⲛⲁⲥ:",
     "Pour cela, nous implorons Ta bonté, ô Ami du genre humain, donne nous d’achever ce saint jour et tous les jours de notre vie en toute paix dans Ta crainte. Toute envie, toute tentation, toute œuvre de Satan.",
     "إثفي فاي تين تيهو أووه إنتيوفه إنتيك ميت أغاثوس، بي مايرومي ميس نان إثرينجوك إفول إمباي كي إيهو إثؤواب شاي، نيم نيهؤو إروف إنتي بينؤنخ، خين هيريني نيفين نيم تيكهوتي فثونوس نيفين، بيراسموس نيفين، إن إرجيا نيفين، إنتي إبساتاناس.",
@@ -267,7 +267,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.commonIncense + "ThanksGivingPart3Comment&D=$copticFeasts.AnyDay&C=Comments",
+    Prefix.commonIncense + "ThanksGivingPart3Comment&C=Comments",
     "",
     "ثُمَّ يكمل سراً:",
   ],
@@ -448,47 +448,47 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.cymbalVerses + "StMary&D=$copticFeasts.AnyDay",
+    Prefix.cymbalVerses + "StMary",
   ],
   [
     Prefix.placeHolder,
-    Prefix.cymbalVerses + "StMaykel&D=$copticFeasts.AnyDay",
+    Prefix.cymbalVerses + "StMaykel",
   ],
   [
     Prefix.placeHolder,
-    Prefix.cymbalVerses + "SheroubimSerafim&D=$copticFeasts.AnyDay",
+    Prefix.cymbalVerses + "SheroubimSerafim",
   ],
   [
     Prefix.placeHolder,
-    Prefix.cymbalVerses + "StJohnBaptist&D=$copticFeasts.AnyDay",
+    Prefix.cymbalVerses + "StJohnBaptist",
   ],
   [
     Prefix.placeHolder,
-    Prefix.cymbalVerses + "Apostles&D=$copticFeasts.AnyDay",
+    Prefix.cymbalVerses + "Apostles",
   ],
   [
     Prefix.placeHolder,
-    Prefix.cymbalVerses + "StMarc&D=$copticFeasts.AnyDay",
+    Prefix.cymbalVerses + "StMarc",
   ],
   [
     Prefix.placeHolder,
-    Prefix.cymbalVerses + "StSteven&D=$copticFeasts.AnyDay",
+    Prefix.cymbalVerses + "StSteven",
   ],
   [
     Prefix.placeHolder,
-    Prefix.cymbalVerses + "StGeorge&D=$copticFeasts.AnyDay",
+    Prefix.cymbalVerses + "StGeorge",
   ],
   [
     Prefix.placeHolder,
-    Prefix.cymbalVerses + "StTheodor&D=$copticFeasts.AnyDay",
+    Prefix.cymbalVerses + "StTheodor",
   ],
   [
     Prefix.placeHolder,
-    Prefix.cymbalVerses + "StMarcorious&D=$copticFeasts.AnyDay",
+    Prefix.cymbalVerses + "StMarcorious",
   ],
   [
     Prefix.placeHolder,
-    Prefix.cymbalVerses + "StMina&D=$copticFeasts.AnyDay",
+    Prefix.cymbalVerses + "StMina",
   ],
   [
     Prefix.placeHolder,
@@ -623,47 +623,47 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.cymbalVerses + "StMary&D=$copticFeasts.AnyDay",
+    Prefix.cymbalVerses + "StMary",
   ],
   [
     Prefix.placeHolder,
-    Prefix.cymbalVerses + "StMaykel&D=$copticFeasts.AnyDay",
+    Prefix.cymbalVerses + "StMaykel",
   ],
   [
     Prefix.placeHolder,
-    Prefix.cymbalVerses + "SheroubimSerafim&D=$copticFeasts.AnyDay",
+    Prefix.cymbalVerses + "SheroubimSerafim",
   ],
   [
     Prefix.placeHolder,
-    Prefix.cymbalVerses + "StJohnBaptist&D=$copticFeasts.AnyDay",
+    Prefix.cymbalVerses + "StJohnBaptist",
   ],
   [
     Prefix.placeHolder,
-    Prefix.cymbalVerses + "Apostles&D=$copticFeasts.AnyDay",
+    Prefix.cymbalVerses + "Apostles",
   ],
   [
     Prefix.placeHolder,
-    Prefix.cymbalVerses + "StMarc&D=$copticFeasts.AnyDay",
+    Prefix.cymbalVerses + "StMarc",
   ],
   [
     Prefix.placeHolder,
-    Prefix.cymbalVerses + "StSteven&D=$copticFeasts.AnyDay",
+    Prefix.cymbalVerses + "StSteven",
   ],
   [
     Prefix.placeHolder,
-    Prefix.cymbalVerses + "StGeorge&D=$copticFeasts.AnyDay",
+    Prefix.cymbalVerses + "StGeorge",
   ],
   [
     Prefix.placeHolder,
-    Prefix.cymbalVerses + "StTheodor&D=$copticFeasts.AnyDay",
+    Prefix.cymbalVerses + "StTheodor",
   ],
   [
     Prefix.placeHolder,
-    Prefix.cymbalVerses + "StMarcorious&D=$copticFeasts.AnyDay",
+    Prefix.cymbalVerses + "StMarcorious",
   ],
   [
     Prefix.placeHolder,
-    Prefix.cymbalVerses + "StMina&D=$copticFeasts.AnyDay",
+    Prefix.cymbalVerses + "StMina",
   ],
   [
     Prefix.placeHolder,
@@ -676,7 +676,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.cymbalVerses + "StMary&D=$copticFeasts.AnyDay&C=Diacon",
+    Prefix.cymbalVerses + "StMary&C=Diacon",
     "Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ: ϯϭ̀ⲣⲟⲙⲡⲓ ⲉⲑⲛⲉⲥⲱⲥ: ⲑⲏⲉ̀ⲧⲁⲥⲙⲓⲥⲓ ⲛⲁⲛ: ⲙ̀Ⲫ̀ⲛⲟⲩϯ ⲡⲓⲗⲟⲅⲟⲥ.",
     "Salut à toi Marie♫ la belle colombe♫ Celle qui a enfanté pour nous Dieu le Verbe",
     "شيري ني ماريا♫ تي إتشرومبي إثنيسوس♫ ثي إيتاسميسي نان إم افنوتي بي لوغوس.",
@@ -692,7 +692,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.cymbalVerses + "StMaykel&D=$copticFeasts.AnyDay&C=Diacon",
+    Prefix.cymbalVerses + "StMaykel&C=Diacon",
     "Ⲭⲉⲣⲉ Ⲙⲓⲭⲁⲏⲗ: ⲡⲓⲛⲓϣϯ ⲛ̀ⲁⲣⲭⲓⲁⲅⲅⲉⲗⲟⲥ: ⲭⲉⲣⲉ Ⲅⲁⲃⲣⲓⲏⲗ: ⲡⲓⲥⲟⲧⲡ ⲙ̀ⲡⲓϥⲁⲓϣⲉⲛⲛⲟⲩϥⲓ",
     "Salut à Michel♫ le grand archange♫ Salut à Gabriel, l’annonciateur élu.",
     "شيري ميخائيل♫ بينيشتي إن أرشي أنجيلوس♫ شيري غابرييل بيسوتب إمبي فاي شينوفي.",
@@ -701,7 +701,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.cymbalVerses + "SheroubimSerafim&D=$copticFeasts.AnyDay&C=Diacon",
+    Prefix.cymbalVerses + "SheroubimSerafim&C=Diacon",
     "Ⲭⲉⲣⲉ ⲛⲓⲭⲉⲣⲟⲩⲃⲓⲙ: ⲭⲉⲣⲉ ⲛⲓⲥⲉⲣⲁⲫⲓⲙ: ⲭⲉⲣⲉ ⲛⲓⲧⲁⲅⲙⲁ ⲧⲏⲣⲟⲩ: ⲛ̀ⲉ̀ⲡⲟⲩⲣⲁⲛⲓⲟⲛ.",
     "Salut aux Chérubins♫ salut aux Séraphins♫ salut à tous les grades célestes.",
     "شيري شيروبيم♫ شيري ني سيرافيم♫ شيري ني طاغما تيرو إن إيبورانيون.",
@@ -710,7 +710,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.cymbalVerses + "StJohnBaptist&D=$copticFeasts.AnyDay&C=Diacon",
+    Prefix.cymbalVerses + "StJohnBaptist&C=Diacon",
     "Ⲭⲉⲣⲉ Ⲓⲱⲁⲛⲛⲏⲥ: ⲡⲓⲛⲓϣϯ ⲙ̀ⲡ̀ⲣⲟⲇⲣⲟⲙⲟⲥ: ⲭⲉⲣⲉ ⲡⲓⲟⲩⲏⲃ: ⲡ̀ⲥⲩⲅⲅⲉⲛⲏⲥ ⲛ̀Ⲉⲙⲙⲁⲛⲟⲩⲏⲗ",
     "Salut à Jean♫ le grand précurseur♫ salut au prêtre, Parent d'Emmanuel.",
     "شيري يوآنس♫ بي نيشتي إبروذروموس♫ شيري بيؤويف إبسنجنيس إن إمانوئيل.",
@@ -719,7 +719,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.cymbalVerses + "Apostles&D=$copticFeasts.AnyDay&C=Diacon",
+    Prefix.cymbalVerses + "Apostles&C=Diacon",
     "Ⲭⲉⲣⲉ ⲛⲁϭⲟⲓⲥ ⲛ̀ⲓⲟϯ: ⲛ̀ⲁ̀ⲡⲟⲥⲧⲟⲗⲟⲥ: ⲭⲉⲣⲉ ⲛⲓⲙⲁⲑⲏⲧⲏⲥ: ⲛ̀ⲧⲉ Ⲡⲉⲛϭⲟⲓⲥ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅.",
     "Salut à mes seigneurs♫ les pères apôtres♫ salut aux disciples de notre Seigneur Jésus-Christ.",
     "شيري ناتشويس إنيوتي♫ إن آبوسطولوس♫ شيري ني ماثيتيس♫ إنتي بينتشويس إيسوس بيخريستوس.",
@@ -728,7 +728,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.cymbalVerses + "StMarc&D=$copticFeasts.AnyDay&C=Diacon",
+    Prefix.cymbalVerses + "StMarc&C=Diacon",
     "Ⲭⲉⲣⲉ ⲛⲁⲕ ⲱ̀ ⲡⲓⲙⲁⲣⲧⲩⲣⲟⲥ: ⲭⲉⲣⲉ ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲥⲧⲏⲥ: ⲭⲉⲣⲉ ⲡⲓⲁ̀ⲡⲟⲥⲧⲟⲗⲟⲥ: Ⲙⲁⲣⲕⲟⲥ ⲡⲓⲑⲉⲱ̀ⲣⲓⲙⲟⲥ.",
     "Salut à toi martyr♫ salut à l'évangéliste♫ salut à l'apôtre♫ Marc le contemplateur de Dieu.",
     "شيري ناك أوبي مارتيروس♫ شيري بي إف آنجيلَيستيس♫ شيري بي أبوسطولوس♫ مارقوس بيثيؤريموس.",
@@ -737,7 +737,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.cymbalVerses + "StSteven&D=$copticFeasts.AnyDay&C=Diacon",
+    Prefix.cymbalVerses + "StSteven&C=Diacon",
     "Ⲭⲉⲣⲉ Ⲥⲧⲉⲫⲁⲛⲟⲥ: ⲡⲓϣⲟⲣⲡ ⲙ̀ⲙⲁⲣⲧⲩⲣⲟⲥ: ⲭⲉⲣⲉ ⲡⲓⲁⲣⲭⲓⲇⲓⲁⲕⲱⲛ: ⲟⲩⲟϩ ⲧ̀ⲥ̀ⲙⲁⲣⲱⲟⲩⲧ.",
     "Salut à Etienne♫ Le premier martyrs♫ salut à l’archidiacre béni.",
     "شيري استيفانوس♫ بيشورَبّ إممارتيروس♫ شيري بي أرشيذياكون♫ أووه إت إسماروؤت.",
@@ -746,7 +746,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.cymbalVerses + "StGeorge&D=$copticFeasts.AnyDay&C=Diacon",
+    Prefix.cymbalVerses + "StGeorge&C=Diacon",
     "Ⲭⲉⲣⲉ ⲛⲁⲕ ⲱ̀ ⲡⲓⲙⲁⲣⲧⲩⲣⲟⲥ: ⲭⲉⲣⲉ ⲡⲓϣⲱⲓϫ ⲛ̀ⲅⲉⲛⲛⲉⲟⲥ: ⲭⲉⲣⲉ ⲡⲓⲁⲑⲗⲟⲫⲟⲣⲟⲥ: ⲡⲁϭⲟⲓⲥ ⲡ̀ⲟⲩⲣⲟ Ⲅⲉⲱ̀ⲣⲅⲓⲟⲥ.",
     "Salut à toi ô martyr♫ salut au héros courageux♫ salut au persévérant♫ mon seigneur le roi Georges.",
     "شيري ناك أوبي مارتيروس♫ شيري بيشويج إن جينيؤوس♫ شيري بي آثلوفوروس؛ باشويس ابؤورو جاؤرجيوس.",
@@ -755,7 +755,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.cymbalVerses + "StTheodor&D=$copticFeasts.AnyDay&C=Diacon",
+    Prefix.cymbalVerses + "StTheodor&C=Diacon",
     "Ⲭⲉⲣⲉ ⲛⲁⲕ ⲱ̀ ⲡⲓⲙⲁⲣⲧⲩⲣⲟⲥ: ⲭⲉⲣⲉ ⲡⲓϣⲱⲓϫ ⲛ̀ⲅⲉⲛⲛⲉⲟⲥ: ⲭⲉⲣⲉ ⲡⲓⲁⲑⲗⲟⲫⲟⲣⲟⲥ: Ⲑⲉⲟ̀ⲇⲱⲣⲟⲥ ⲡⲓⲥ̀ⲧⲣⲁⲧⲓⲗⲁⲧⲏⲥ.",
     "Salut à toi ô martyr♫ salut au héros courageux♫ salut au persévérant♫ Théodore le stratège.",
     "شيري ناك أوبي مارتيروس♫ شيري بيشويج إن جينيؤوس♫ شيري بي آثلوفوروس؛ ثيؤدوروس بي استراتيلاتيس.",
@@ -764,7 +764,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.cymbalVerses + "StMarcorious&D=$copticFeasts.AnyDay&C=Diacon",
+    Prefix.cymbalVerses + "StMarcorious&C=Diacon",
     "Ⲭⲉⲣⲉ ⲛⲁⲕ ⲱ̀ ⲡⲓⲙⲁⲣⲧⲩⲣⲟⲥ: ⲭⲉⲣⲉ ⲡⲓϣⲱⲓϫ ⲛ̀ⲅⲉⲛⲛⲉⲟⲥ: ⲭⲉⲣⲉ ⲡⲓⲁⲑⲗⲟⲫⲟⲣⲟⲥ: ⲫⲓⲗⲟⲡⲁⲧⲏⲣ Ⲙⲉⲣⲕⲟⲩⲣⲓⲟⲥ.",
     "Salut à toi ô martyr♫ salut au héros courageux♫ salut au persévérant, Philopatir Mercorios.",
     "شيري ناك أوبي مارتيروس♫ شيري بيشويج إن جينيؤوس♫ شيري بي آثلوفوروس؛ فيلوباتير مارقوريوس.",
@@ -773,7 +773,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.cymbalVerses + "StMina&D=$copticFeasts.AnyDay&C=Diacon",
+    Prefix.cymbalVerses + "StMina&C=Diacon",
     "Ⲭⲉⲣⲉ ⲛⲁⲕ ⲱ̀ ⲡⲓⲙⲁⲣⲧⲩⲣⲟⲥ: ⲭⲉⲣⲉ ⲡⲓϣⲱⲓϫ ⲛ̀ⲅⲉⲛⲛⲉⲟⲥ: ⲭⲉⲣⲉ ⲡⲓⲁⲑⲗⲟⲫⲟⲣⲟⲥ: ⲡⲓⲁ̀ⲅⲓⲟⲥ ⲁⲃⲃⲁ Ⲙⲏⲛⲁ.",
     "Salut à toi ô martyr♫ salut au héros courageux♫ salut au persévérant♫ abba Mina.",
     "شيري ناك أوبي مارتيروس♫ شيري بيشويج إن جينيؤوس♫ شيري بي آثلوفوروس؛ بي آجيوس آبا مينا.",
@@ -958,7 +958,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.commonPrayer + "ThanksGivingPart4&D=$copticFeasts.AnyDay",
+    Prefix.commonPrayer + "ThanksGivingPart4",
   ],
 ],
 [
@@ -972,7 +972,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.commonPrayer + "ThanksGivingPart4&D=$copticFeasts.AnyDay&C=Priest",
+    Prefix.commonPrayer + "ThanksGivingPart4&C=Priest",
     "Ϧⲉⲛ ⲡⲓϩ̀ⲙⲟⲧ ⲛⲉⲙ ⲛⲓⲙⲉⲧϣⲉⲛϩⲏⲧ ⲛⲉⲙ ϯⲙⲉⲧⲙⲁⲓⲣⲱⲙⲓ: ⲛ̀ⲧⲉ ⲡⲉⲕⲙⲟⲛⲟⲅⲉⲛⲏⲥ ⲛ̀Ϣⲏⲣⲓ: Ⲡⲉⲛⲟ̅ⲥ̅ ⲟⲩⲟϩ Ⲡⲉⲛⲛⲟⲩϯ: ⲟⲩⲟϩ Ⲡⲉⲛⲥⲱⲧⲏⲣ Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭⲣⲓⲥⲧⲟⲥ. Ⲫⲁⲓ ⲉ̀ⲧⲉ ⲉ̀ⲃⲟⲗϩⲓⲧⲟⲧϥ ⲉ̀ⲣⲉ ⲡⲓⲱ̀ⲟⲩ ⲛⲉⲙ ⲡⲓⲧⲁⲓⲟ̀ ⲛⲉⲙ ⲡⲓⲁ̀ⲙⲁϩⲓ ⲛⲉⲙ ϯⲡ̀ⲣⲟⲥⲕⲩⲛⲏⲥⲓⲥ: ⲉⲣⲡ̀ⲣⲉⲡⲓ ⲛⲁⲕ ⲛⲉⲙⲁϥ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ ⲛ̀ⲣⲉϥⲧⲁⲛϧⲟ ⲟⲩⲟϩ ⲛ̀ⲟ̀ⲙⲟⲟⲩⲥⲓⲟⲥ ⲛⲉⲙⲁⲕ Ϯⲛⲟⲩ ⲛⲉⲙ ⲛ̀ⲥⲏⲟⲩ ⲛⲓⲃⲉⲛ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ⲛⲉϩ ⲧⲏⲣⲟⲩ: ⲁ̀ⲙⲏⲛ.",
     "Par la grâce, la compassion et l’amour du genre humain de Ton Fils unique notre Seigneur, notre Dieu et notre Sauveur Jésus Christ, par Qui la gloire, l’honneur, la magnificence et la prosternation Te sont dus avec Lui et le Saint-Esprit vivifiant et consubstantiel à Toi Maintenant et toujours et pour les siècles des siècles. Amen.",
     "",
@@ -1231,7 +1231,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.commonPrayer + "ThanksGivingPart4&D=$copticFeasts.AnyDay",
+    Prefix.commonPrayer + "ThanksGivingPart4",
   ],
 ],
 [
@@ -1329,7 +1329,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.commonPrayer + "ThanksGivingPart4&D=$copticFeasts.AnyDay",
+    Prefix.commonPrayer + "ThanksGivingPart4",
   ],
 ],
 [
@@ -10788,7 +10788,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.commonPrayer + "ThanksGivingPart4&D=$copticFeasts.AnyDay",
+    Prefix.commonPrayer + "ThanksGivingPart4",
   ],
   [
     Prefix.massStCyril + "Anaphora&D=$copticFeasts.AnyDay&C=Priest",
@@ -14048,7 +14048,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.cymbalVerses + "StMary&D=$copticFeasts.AnyDay",
+    Prefix.cymbalVerses + "StMary",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -14227,7 +14227,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.cymbalVerses + "StMary&D=$copticFeasts.AnyDay",
+    Prefix.cymbalVerses + "StMary",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -14365,39 +14365,39 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.cymbalVerses + "SheroubimSerafim&D=$copticFeasts.AnyDay",
+    Prefix.cymbalVerses + "SheroubimSerafim",
   ],
   [
     Prefix.placeHolder,
-    Prefix.cymbalVerses + "StJohnBaptist&D=$copticFeasts.AnyDay",
+    Prefix.cymbalVerses + "StJohnBaptist",
   ],
   [
     Prefix.placeHolder,
-    Prefix.cymbalVerses + "Apostles&D=$copticFeasts.AnyDay",
+    Prefix.cymbalVerses + "Apostles",
   ],
   [
     Prefix.placeHolder,
-    Prefix.cymbalVerses + "StMarc&D=$copticFeasts.AnyDay",
+    Prefix.cymbalVerses + "StMarc",
   ],
   [
     Prefix.placeHolder,
-    Prefix.cymbalVerses + "StSteven&D=$copticFeasts.AnyDay",
+    Prefix.cymbalVerses + "StSteven",
   ],
   [
     Prefix.placeHolder,
-    Prefix.cymbalVerses + "StGeorge&D=$copticFeasts.AnyDay",
+    Prefix.cymbalVerses + "StGeorge",
   ],
   [
     Prefix.placeHolder,
-    Prefix.cymbalVerses + "StTheodor&D=$copticFeasts.AnyDay",
+    Prefix.cymbalVerses + "StTheodor",
   ],
   [
     Prefix.placeHolder,
-    Prefix.cymbalVerses + "StMarcorious&D=$copticFeasts.AnyDay",
+    Prefix.cymbalVerses + "StMarcorious",
   ],
   [
     Prefix.placeHolder,
-    Prefix.cymbalVerses + "StMina&D=$copticFeasts.AnyDay",
+    Prefix.cymbalVerses + "StMina",
   ],
 ],
 [

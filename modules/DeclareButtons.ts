@@ -1281,13 +1281,13 @@ const btnBookOfHours = new Button({
             let btnLable = btn.label,
               HourIntro: string[] = [
                 Prefix.commonPrayer +
-                "ThanksGivingPart1" + anyDay,
+                "ThanksGivingPart1",
                 Prefix.commonPrayer +
-                "ThanksGivingPart2" + anyDay,
+                "ThanksGivingPart2",
                 Prefix.commonPrayer +
-                "ThanksGivingPart3" + anyDay,
+                "ThanksGivingPart3",
                 Prefix.commonPrayer +
-                "ThanksGivingPart4" + anyDay,
+                "ThanksGivingPart4",
                 Prefix.bookOfHours + "Psalm50",
               ],
               endOfHourPrayersSequence: string[] = [
@@ -1628,7 +1628,7 @@ const btnIncenseMorning = new Button({
         function getCymbalVerses(): string[][][] {
           let sequence = [
             Prefix.cymbalVerses +  isWatesOrAdam(),
-            Prefix.cymbalVerses + "" + anyDay,
+            Prefix.cymbalVerses + anyDay,
           ];
 
         
