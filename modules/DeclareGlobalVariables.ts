@@ -33,7 +33,7 @@ type bibleBookKeys = { id: string, human: string, human_long: string, chaptersLi
 
 //CONSTANTS
 const version: string =
-  "v7.1 (Added new prayers to the Psalmody, and reduced the size of PrayersArraysFR by removing '&D=...' from some titles)";
+  "v7.1.1 (Added new prayers to the Psalmody, and reduced the size of PrayersArraysFR by removing '&D=...' from some titles)";
 const calendarDay: number = 24 * 60 * 60 * 1000; //this is a day in milliseconds
 const containerDiv: HTMLDivElement = document.getElementById(
   "containerDiv") as HTMLDivElement;
@@ -268,14 +268,14 @@ const sequences = {
     Prefix.incenseDawn + "IncenseDawnIntro",
     Prefix.commonIncense + "EleysonImas",
     Prefix.bookOfHours + "Psalm50",
-    Prefix.commonIncense + "Litanies" + anyDay,
+    Prefix.commonIncense + "LitaniesIntroduction",
     Prefix.incenseDawn + "SickLitany",
     Prefix.incenseDawn + "TravelersLitany",
     Prefix.incenseDawn + "OblationsLitany",
     Prefix.incenseVespers + "DepartedLitany",
     Prefix.commonPrayer + "AngelsPrayer" + anyDay,
     Prefix.incenseVespers + "LordKeepUsThisNight" + anyDay,
-    Prefix.commonIncense + "Doxolgoies" + anyDay,
+    Prefix.commonIncense + "Doxolgoies",
     Prefix.commonPrayer + "EfnotiNaynan",
     Prefix.commonIncense + "LiturgyEnd"
   ],

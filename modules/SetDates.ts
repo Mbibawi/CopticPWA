@@ -469,6 +469,10 @@ function isItSundayOrWeekDay(
   else return period + days.toString(); // we are not a sunday
 }
 
+/**
+ * 
+ * @returns {string} - If today is Sunday, Monday or Tuesday, it returns "Adam", else, it returns "Wates"
+ */
 function isWatesOrAdam():string {
   if ([0, 1, 2].includes(weekDay))
     return "Adam";

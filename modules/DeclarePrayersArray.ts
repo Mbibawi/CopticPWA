@@ -53,7 +53,7 @@ PrayersArrayFR = [[
     Prefix.commonPrayer + "ThanksGiving&D=$copticFeasts.AnyDay",
   ],
   [
-    Prefix.anchor + "CymbalVerses&D=$copticFeasts.AnyDay",
+    Prefix.anchor + "CymbalVerses",
   ],
 ],
 [
@@ -437,7 +437,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.cymbalVerses + "Wates&D=$copticFeasts.AnyDay",
+    Prefix.cymbalVerses + "Wates",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -492,12 +492,12 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.cymbalVerses + "LordFeastsEnd&D=$copticFeasts.AnyDay",
+    Prefix.cymbalVerses + "LordFeastsEnd",
   ],
 ],
 [
   [
-    Prefix.cymbalVerses + "Wates&D=$copticFeasts.AnyDay&C=Title",
+    Prefix.cymbalVerses + "Wates&C=Title",
     "",
     "Quatrins du carillon Wates",
     "",
@@ -520,7 +520,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.cymbalVerses + "Adam&D=$copticFeasts.AnyDay&C=Title",
+    Prefix.cymbalVerses + "Adam&C=Title",
     "",
     "Quatrins du carillon Adam",
     "",
@@ -671,7 +671,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.cymbalVerses + "End&D=$copticFeasts.AnyDay",
+    Prefix.cymbalVerses + "End",
   ],
 ],
 [
@@ -798,7 +798,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.cymbalVerses + "End&D=$copticFeasts.AnyDay&C=Title",
+    Prefix.cymbalVerses + "End&C=Title",
     "",
     "Clôture des Quatrins du carillon",
     "",
@@ -821,7 +821,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.commonIncense + "Litanies&D=$copticFeasts.AnyDay&C=Title",
+    Prefix.commonIncense + "LitaniesIntroduction&C=Title",
     "",
     "Litanies",
     "",
@@ -847,7 +847,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.commonIncense + "Doxolgoies&D=$copticFeasts.AnyDay",
+    Prefix.commonIncense + "Doxolgoies",
   ],
   [
     Prefix.placeHolder,
@@ -873,7 +873,7 @@ PrayersArrayFR = [[
     "الذكصولوجيات",
   ],
   [
-    Prefix.anchor + "Doxologies&D=$copticFeasts.AnyDay",
+    Prefix.anchor + "Doxologies",
   ],
   [
     Prefix.placeHolder,
@@ -2882,7 +2882,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.doxologies + "CelestialBeings&D=$copticFeasts.AnyDay&C=Title",
+    Prefix.doxologies + "CelestialBeings&C=Title",
     "",
     "Doxology des creatures célestes",
     "",
@@ -3012,7 +3012,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.doxologies + "StMarc&D=$copticFeasts.AnyDay&C=Title",
+    Prefix.doxologies + "StMarc&C=Title",
     "",
     "Doxologie de Saint Marc",
     "",
@@ -3063,7 +3063,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.doxologies + "StGeorge&D=$copticFeasts.AnyDay&C=Title",
+    Prefix.doxologies + "StGeorge&C=Title",
     "",
     "Doxologie de Saint George",
     "",
@@ -3114,7 +3114,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.doxologies + "StMina&D=$copticFeasts.AnyDay&C=Title",
+    Prefix.doxologies + "StMina&C=Title",
     "",
     "Doxologie de Saint Mina",
     "",
@@ -13828,7 +13828,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.cymbalVerses + "LordFeastsEnd&D=$copticFeasts.AnyDay&C=Title",
+    Prefix.cymbalVerses + "LordFeastsEnd&C=Title",
     "",
     "Clôture des Quatrins du carillon pour les fêtes du Seigneur",
     "",

@@ -1592,7 +1592,7 @@ const btnIncenseMorning = new Button({
       (async function InsertCymbalVerses() {
         anchor = selectElementsByDataSetValue(
           btn.docFragment,
-          Prefix.anchor + "CymbalVerses" + anyDay)[0];
+          Prefix.anchor + "CymbalVerses")[0];
 
         if (!anchor)
           return console.log("We didn't find the cymbal verses placeholder");
@@ -1604,7 +1604,7 @@ const btnIncenseMorning = new Button({
           cymbals =
             [
               CommonPrayersArray.find(table => table[0][0]?.startsWith(Prefix.commonPrayer + "KyrieElieson")),
-              CymbalVersesPrayersArray.find(table => table[0][0]?.startsWith(Prefix.cymbalVerses + "End" + anyDay))
+              CymbalVersesPrayersArray.find(table => table[0][0]?.startsWith(Prefix.cymbalVerses + "End"))
             ];
 
         else cymbals = getCymbalVerses();
@@ -1627,11 +1627,11 @@ const btnIncenseMorning = new Button({
 
         function getCymbalVerses(): string[][][] {
           let sequence = [
-            Prefix.cymbalVerses + "Wates" + anyDay,
+            Prefix.cymbalVerses +  isWatesOrAdam(),
             Prefix.cymbalVerses + "" + anyDay,
           ];
 
-          if ([0, 1, 2].includes(weekDay)) sequence[0] = sequence[0].replace("Wates&D", "Adam&D");
+        
 
           //If we are during any of the Lord Feasts (or any season where we follow the same pattern), we add "Jesus Christ is the same for ever...",
           if (
@@ -1641,7 +1641,7 @@ const btnIncenseMorning = new Button({
             )
           )
             sequence =
-              [Prefix.cymbalVerses + "LordFeastsEnd" + anyDay];
+              [Prefix.cymbalVerses + "LordFeastsEnd"];
 
 
           if (dayFeasts)
@@ -1668,7 +1668,7 @@ const btnIncenseMorning = new Button({
       (async function InsertCommonDoxologies() {
         let doxologiesAnchor: HTMLElement = selectElementsByDataSetValue(
           btn.docFragment,
-          Prefix.anchor + "Doxologies" + anyDay)[0];
+          Prefix.anchor + "Doxologies")[0];
 
         if (!doxologiesAnchor)
           return console.log("Didn't find doxologiesPlaceholder");
@@ -1678,12 +1678,12 @@ const btnIncenseMorning = new Button({
         let sequence: string[] = [
           Prefix.doxologies + "DawnWatesStMary" + anyDay,
           Prefix.doxologies + "StMaykel" + anyDay,
-          Prefix.doxologies + "CelestialBeings" + anyDay,
+          Prefix.doxologies + "CelestialBeings",
           Prefix.doxologies + "Apostles" + anyDay,
-          Prefix.doxologies + "StMarc" + anyDay,
-          Prefix.doxologies + "StGeorge" + anyDay,
-          Prefix.doxologies + "StMina" + anyDay,
-          Prefix.doxologies + "EndOfDoxologiesWates" + anyDay,
+          Prefix.doxologies + "StMarc",
+          Prefix.doxologies + "StGeorge",
+          Prefix.doxologies + "StMina",
+          Prefix.doxologies + "EndOfDoxologiesWates",
         ];
 
         if (btn === btnIncenseVespers)
@@ -1881,7 +1881,7 @@ const btnProsternation = new Button({
         Agios: [Prefix.commonPrayer + "Agios" + anyDay],
         Gospel: ['PSA:115:12-13', 'LUK:24:36-53'],
         psalmResponse: Prefix.psalmResponse + anyDay + "||$Seasons.Kiahk",
-        Cymbals: [Prefix.cymbalVerses + "Adam" + anyDay],
+        Cymbals: [Prefix.cymbalVerses + "Adam"],
         Litanies: [
           Prefix.massCommon + "PresidentLitany",
           Prefix.incenseVespers + "DepartedLitany",
@@ -1895,7 +1895,7 @@ const btnProsternation = new Button({
         Agios: [Prefix.commonPrayer + "Agios" + anyDay],
         Gospel: ['PSA:65:2-2/71:9-9', 'JHN:4:1-24'],
         psalmResponse: Prefix.psalmResponse + anyDay + "||$Seasons.Kiahk",
-        Cymbals: [Prefix.cymbalVerses + "Wates" + anyDay],
+        Cymbals: [Prefix.cymbalVerses + "Wates"],
         Litanies: [
           Prefix.commonPrayer + "ChurchLitany" + anyDay,//!needs check + convert font
           Prefix.commonPrayer + "PopeAndBishopLitany" + anyDay,
