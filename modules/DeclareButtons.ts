@@ -1609,7 +1609,6 @@ const btnPsalmody = new Button({
     FR: "Psalmodie",
     EN: "Psalmody"
   },
-  docFragment: new DocumentFragment(),
   onClick: () => {
     if (btnPsalmody.children) return;
 
@@ -1672,12 +1671,15 @@ const btnPsalmody = new Button({
         btnID: 'today',
         label: label,
         languages: prayersLanguages,
+        docFragment: new DocumentFragment(),
         onClick: () => customizeSequence(btn, day, season)
       });
       return btn
     }
 
     function customizeSequence(btn:Button, day: number = weekDay, season: string = Season) {
+      scrollToTop();
+
       if ([Seasons.KiahkWeek1, Seasons.KiahkWeek2, Seasons.KiahkWeek3, Seasons.KiahkWeek4].includes(
         season))
         return btn.prayersSequence = Sequences.Psalmody.Kiahk;
@@ -2792,7 +2794,7 @@ const btnMassStBasil = new Button({
       //Inserting the Communion Chants after the Psalm 150
       let psalm150 = selectElementsByDataSetValue(
         btnDocFragment,
-        Prefix.massCommon + "CommunionPsalm150" + anyDay
+        Prefix.massCommon + "CommunionPsalm150"
       );
       let filtered: string[][][] = [];
       [copticDate, Season, copticFeasts.AnyDay]

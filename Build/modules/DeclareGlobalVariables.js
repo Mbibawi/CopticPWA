@@ -92,7 +92,7 @@ class Button {
     }
 }
 //CONSTANTS
-const version = "v7.1.3 (Added new prayers to the Psalmody, and reduced the size of PrayersArraysFR by removing '&D=...' from some titles)";
+const version = "v7.1.4 (Added new prayers to the Psalmody, and reduced the size of PrayersArraysFR by removing '&D=...' from some titles)";
 const calendarDay = 24 * 60 * 60 * 1000; //this is a day in milliseconds
 const containerDiv = document.getElementById("containerDiv");
 const leftSideBar = document.getElementById("leftSideBar");
