@@ -5199,7 +5199,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.massCommon + "LitaniesIntroduction&D=$copticFeasts.AnyDay&C=Comments",
+    Prefix.massCommon + "LitaniesIntroduction&C=Comments",
     "Le prêtre se lève, il recouvre le calice avec un linge et prend un linge sur chaque main. Il dit :",
     "يأخذ الكاهن لفافة على يده اليمنى وأخرى على يده الَيسرى ويقول:",
   ],
@@ -5271,7 +5271,7 @@ PrayersArrayFR = [[
     Prefix.massCommon + "IntroToSeasonalLitanies&D=$copticFeasts.AnyDay",
   ],
   [
-    Prefix.massCommon + "SeasonalLitanyPlaceHolder",
+    Prefix.anchor + "SeasonalLitanyPlaceHolder",
   ],
   [
     Prefix.placeHolder,
@@ -5713,7 +5713,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.massCommon + "SaintsCommemoration&D=$copticFeasts.AnyDay&C=Title",
+    Prefix.massCommon + "SaintsCommemoration&C=Title",
     "",
     "Commémoration des Saints",
     "",
@@ -5827,7 +5827,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.massCommon + "CommemorationOfTheDeparted&D=$copticFeasts.AnyDay&C=Comments",
+    Prefix.massCommon + "CommemorationOfTheDeparted&C=Comments",
     "",
     "يضع الكاهن يده في بَخُورفي المجمرة ويده مستورة بلفافة ويقول:",
   ],
@@ -5900,7 +5900,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.massCommon + "FractionIntroduction&D=$copticFeasts.AnyDay&C=Title",
+    Prefix.massCommon + "FractionIntroduction&C=Title",
     "",
     "Introduction à la Fraction",
     "",
@@ -6060,7 +6060,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.massCommon + "AbsolutionPrayerForTheFather&D=$copticFeasts.AnyDay&C=Comments",
+    Prefix.massCommon + "AbsolutionPrayerForTheFather&C=Comments",
     "",
     "يقول الكاهن تَحْلِيلُ الآب سرا:",
   ],
@@ -7606,7 +7606,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.massCommon + "EndOfReconciliation&D=$copticFeasts.AnyDay&C=Comments",
+    Prefix.massCommon + "EndOfReconciliation&C=Comments",
     "Et il achève à voix basse:",
     "ثُم يُكْمِلْ الكاهن سراً:",
   ],
@@ -7624,7 +7624,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.massCommon + "DiaconResponseKissEachOther&D=$copticFeasts.AnyDay",
+    Prefix.massCommon + "DiaconResponseKissEachOther",
   ],
   [
     Prefix.placeHolder,
@@ -7633,7 +7633,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.massCommon + "DiaconResponseKissEachOther&D=$copticFeasts.AnyDay&C=Diacon",
+    Prefix.massCommon + "DiaconResponseKissEachOther&C=Diacon",
     "Ⲁⲥⲡⲁⲍⲉⲥⲑⲉ ⲁⲗⲗⲏⲗⲟⲩⲥ ⲉⲛ ⲫⲓⲗⲏⲙⲁⲧⲓ ⲁ̀ⲅⲓⲱ. Ⲁ̀ⲙⲏⲛ: Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ: Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ: Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ: ⲉ̀ⲧⲉ ⲫⲁⲓ ⲡⲉ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ Ⲡ̀ϣⲏⲣⲓ ⲙ̀Ⲫ̀ⲛⲟⲩϯ ⲥⲱⲧⲉⲙ ⲉ̀ⲣⲟⲛ ⲟⲩⲟϩ ⲛⲁⲓ ⲛⲁⲛ.",
     "Échangez un saint baiser. Pitié Seigneur Pitié Seigneur Pitié Seigneur. Oui Seigneur Jésus Christ, le Fils de Dieu écoute nous et aie pitié de nous.",
     "اسبازيستي الليوس ان فيليماتي اجيو آمْينْ. كيريالَيسون كيريالَيسون كيريالَيسون. ايتي فاي بي ايسوس باخرستوس ابشري أم أفنوتي سوتيم ايرون أووه ناي نان.",
@@ -9577,7 +9577,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.massStGregory + "FractionIntroduction&D=$copticFeasts.AnyDay&C=Title",
+    Prefix.massStGregory + "FractionIntroduction&C=Title",
     "",
     "",
     "",
@@ -9717,7 +9717,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.massStGregory + "LitaniesIntroduction&D=$copticFeasts.AnyDay&C=Priest",
+    Prefix.massStGregory + "LitaniesIntroduction&C=Priest",
     "",
     "Oui, nous t'implorons ô Christ notre Dieu, consolide les fondations de ton Eglise.",
     "",
@@ -9951,7 +9951,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.massCommon + "SaintsCommemoration&D=$copticFeasts.AnyDay",
+    Prefix.massCommon + "SaintsCommemoration",
   ],
 ],
 [
@@ -10302,7 +10302,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.massCommon + "SaintsCommemoration&D=$copticFeasts.AnyDay",
+    Prefix.massCommon + "SaintsCommemoration",
   ],
   [
     Prefix.same + "&C=Priest",
@@ -11447,7 +11447,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.massStCyril + "LitaniesIntroduction&D=$copticFeasts.AnyDay&C=Priest",
+    Prefix.massStCyril + "LitaniesIntroduction&C=Priest",
     "",
     "Que nous recevions, nous qui y communions, une Foi sans examen, un amour sans hypocrisie",
     "",

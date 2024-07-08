@@ -32,7 +32,7 @@ const Sequences = {
     StBasil: [
       Prefix.massCommon + "ReconciliationComment" + anyDay,
       Prefix.massStBasil + "Reconciliation" + anyDay,
-      Prefix.massCommon + "EndOfReconciliation" + anyDay,
+      Prefix.massCommon + "EndOfReconciliation",
       Prefix.massStBasil + "Anaphora" + anyDay,
       Prefix.massStBasil + "Agios" + anyDay,
       Prefix.massStBasil + "InstitutionNarrative" + anyDay,
@@ -41,40 +41,40 @@ const Sequences = {
     StGregory: [
       Prefix.massCommon + "ReconciliationComment" + anyDay,
       Prefix.massStGregory + "Reconciliation" + anyDay,
-      Prefix.massCommon + "EndOfReconciliation" + anyDay,
+      Prefix.massCommon + "EndOfReconciliation",
       Prefix.massStGregory + "Anaphora" + anyDay,
       Prefix.massStGregory + "Agios" + anyDay,
       Prefix.massStGregory + "AsWeCommemorateYourHolyPassionPart1" + anyDay,
       Prefix.massStGregory + "CallOfTheHolySpiritPart1",
-      Prefix.massStGregory + "LitaniesIntroduction" + anyDay,
+      Prefix.massStGregory + "LitaniesIntroduction",
       Prefix.massStGregory + "Litanies" + anyDay,
-      Prefix.massStGregory + "FractionIntroduction" + anyDay
+      Prefix.massStGregory + "FractionIntroduction"
     ], //The sequence of prayers of St Gregory Mass (starting from reconciliation)
     StCyril: [
       Prefix.massCommon + "ReconciliationComment" + anyDay,
       Prefix.massStCyril + "Reconciliation" + anyDay,
-      Prefix.massCommon + "EndOfReconciliation" + anyDay,
+      Prefix.massCommon + "EndOfReconciliation",
       Prefix.massStCyril + "Anaphora" + anyDay,
       Prefix.massStCyril + "Agios" + anyDay,
       Prefix.massStCyril + "Part8" + anyDay,
       Prefix.massStCyril + "Part9" + anyDay,
       Prefix.massStCyril + "Part10" + anyDay,
-      Prefix.massStCyril + "LitaniesIntroduction" + anyDay,
+      Prefix.massStCyril + "LitaniesIntroduction",
     ], // the sequence of prayers of St Cyril Mass (starting from Reconciliation)
     StJohn: [], // the sequence of prayers of St John Mass (tarting from Reconciliation)
     CallOfHolySpirit: [
       Prefix.massCommon + "CallOfTheHolySpiritPart1",
     ],
     Litanies: [
-      Prefix.massCommon + "LitaniesIntroduction" + anyDay,
-      Prefix.massCommon + "SaintsCommemoration" + anyDay,
-      Prefix.massCommon + "CommemorationOfTheDeparted" + anyDay,
-      Prefix.massCommon + "FractionIntroduction" + anyDay,
+      Prefix.massCommon + "LitaniesIntroduction",
+      Prefix.massCommon + "SaintsCommemoration",
+      Prefix.massCommon + "CommemorationOfTheDeparted",
+      Prefix.massCommon + "FractionIntroduction",
       Prefix.commonPrayer + "OurFatherWhoArtInHeaven",
       Prefix.commonPrayer + "BlockInTheNameOfOurLord",
       Prefix.massCommon + "PrayerForTheFather" + anyDay,
       Prefix.commonPrayer + "BlockIriniPassi",
-      Prefix.massCommon + "AbsolutionPrayerForTheFather" + anyDay,
+      Prefix.massCommon + "AbsolutionPrayerForTheFather",
       Prefix.massCommon + "ConfessionIntroduction",
       Prefix.massCommon + "Confession",
       Prefix.commonPrayer + "ZoksasiKyrie"
@@ -229,7 +229,7 @@ const Sequences = {
       //Insert "Eyn Sophia Si Epros"
       Prefix.commonPrayer + "Creed",
       Prefix.massCommon + "LakanSpasmosAdamLong&D=$copticFeasts.HolyThursday",
-      Prefix.massCommon + "DiaconResponseKissEachOther" + anyDay,
+      Prefix.massCommon + "DiaconResponseKissEachOther",
       Prefix.placeHolder,
       Prefix.massCommon + "SpasmosAdamShort" + anyDay,
       Prefix.HolyWeek + "LakanAnaphora&D=$copticFeasts.HolyThursday",
@@ -2488,9 +2488,7 @@ const btnMassStBasil = new Button({
         btnMassStGregory,
         btnMassStCyril,
         btnMassStJohn,
-      ];
-      redirectToList.splice(redirectToList.indexOf(btn), 1); //We remove the btn of the mass from the redirection list
-      redirectToList.splice(redirectToList.indexOf(btnMassStJohn), 1); //We remove the mass of st John
+      ].filter(b=>![btn, btnMassStJohn].includes(b));//We remove the btn of the mass from the redirection list and the mass of st John
 
       let select: HTMLDivElement[];
 
@@ -2558,7 +2556,7 @@ const btnMassStBasil = new Button({
       //Adding 2 buttons to redirect to the other masses before the Fraction Introduction
       select = selectElementsByDataSetValue(
         btnDocFragment,
-        "FractionIntroduction" + anyDay,
+        "FractionIntroduction",
         { includes: true }
       );
       redirectToAnotherMass(
@@ -2616,7 +2614,7 @@ const btnMassStBasil = new Button({
       //We insert it during the Saint Mary Fast and on every 21th of the coptic month
       let spasmosTitle: string = Prefix.massCommon + "SpasmosAdamLong";
 
-      let anchorTitle = Prefix.massCommon + "DiaconResponseKissEachOther" + anyDay;
+      let anchorTitle = Prefix.massCommon + "DiaconResponseKissEachOther";
 
       insertSpasmos(
         spasmosTitle,
@@ -2671,8 +2669,7 @@ const btnMassStBasil = new Button({
       let litaniesIntro =
         findTable(
           Prefix.massStGregory + "LitaniesIntroduction",
-          MassStGregoryPrayersArray,
-          { startsWith: true }
+          MassStGregoryPrayersArray
         ) || undefined;
 
       if (!litaniesIntro)
@@ -2680,13 +2677,13 @@ const btnMassStBasil = new Button({
 
       let anchor = selectElementsByDataSetValue(
         btnDocFragment,
-        Prefix.massCommon + "LitaniesIntroduction" + anyDay)[0];
+        Prefix.massCommon + "LitaniesIntroduction")[0];
 
       if (!anchor) return console.log("Di not find the Anchor");
 
       let createdElements = addExpandablePrayer({
         insertion: anchor,
-        btnID: "btnStGregoryLitaniesIntro",
+        btnID: btnMassStGregory.btnID +"LitaniesIntro",
         label: {
           AR: "طلبات القداس الغريوري",
           FR: "Litanies de St. Gregory",
@@ -2694,30 +2691,28 @@ const btnMassStBasil = new Button({
         prayers: [litaniesIntro],
         languages: btn.languages,
       });
+
       //Adding the St Cyril Litanies Introduction to the St. Basil Mass only. St Gregory Mass has its own intro, and we do not of course add it to St Cyrill since it is already included
 
       litaniesIntro = findTable(
         Prefix.massStCyril + "LitaniesIntroduction",
-        MassStCyrilPrayersArray,
-        { startsWith: true }
+        MassStCyrilPrayersArray
       ) as string[][];
 
-      if (!litaniesIntro.length)
-        console.log("Did not find the St Cyril Litanies Introduction");
+      if (!litaniesIntro)
+        return console.log("Did not find the St Cyril Litanies Introduction");
 
-      if (litaniesIntro) {
-        litaniesIntro = structuredClone(litaniesIntro).splice(
-          litaniesIntro.length - 1,
-          1
-        ); //We remove the last row in the table of litaniesIntro because it is the "As it were, let it always be.../كما كان هكذا يكون/tel qu'il fût ainsi soit-il..."
-      }
+      litaniesIntro = structuredClone(litaniesIntro)
+      
+      litaniesIntro.pop(); //We remove the last row in the table of litaniesIntro because it is the "As it were, let it always be.../كما كان هكذا يكون/tel qu'il fût ainsi soit-il..."
+      
 
       //We will create the expandable div and its button, but will append the button to the div
       let btnsDiv = createdElements[0].parentElement as HTMLDivElement;
       btnsDiv.appendChild(
         addExpandablePrayer({
           insertion: anchor,
-          btnID: "btnStCyrilLitaniesIntro",
+          btnID: btnMassStCyril.btnID + "LitaniesIntro",
           label: {
             AR: "طلبات القداس الكيرلسي",
             FR: "Litanies de la messe de Saint Cyril",
@@ -2739,7 +2734,7 @@ const btnMassStBasil = new Button({
 
       function toggleOtherLitanies(btnID: string) {
         let div = Array.from(containerDiv.querySelectorAll(".Expandable")).find(
-          (btn) => btn.id.includes("LitaniesIntro") && !btn.id.startsWith(btnID)
+          (btn) => btn.id.endsWith("LitaniesIntroExpandable") && !btn.id.startsWith(btnID)
         );
 
         if (div && !div.classList.contains(hidden)) div.classList.add(hidden);
@@ -2747,7 +2742,7 @@ const btnMassStBasil = new Button({
     })();
 
     (function insertRelevantSeasonalLitany() {
-      let anchor = selectElementsByDataSetValue(btnDocFragment, Prefix.massCommon + "SeasonalLitanyPlaceHolder", undefined, 'root')[0];
+      let anchor = selectElementsByDataSetValue(btnDocFragment, Prefix.anchor + "SeasonalLitanyPlaceHolder", undefined, 'root')[0];
       if (!anchor) return console.log('Didn\'t find the anhcor');
 
       let tbl = findTable(Prefix.massCommon + 'SeasonalLitany&D=$Seasons.' + Object.entries(Seasons).find(entry => entry[1] === naturalSeasons())[0], MassCommonPrayersArray);
