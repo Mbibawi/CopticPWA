@@ -57,7 +57,7 @@ function startEditingMode(args: {
   containerDiv.style.gridTemplateColumns = "100%";
 
   if (!args.languages)
-    args.languages = getLanguages(PrayersArraysKeys.find(a=>a[1] ===args.arrayName)[0]) || allLanguages.map(lang => lang[0]);
+    args.languages = getLanguages(PrayersArraysKeys.find(a => a[1] === args.arrayName)[0]) || allLanguages.map(lang => lang[0]);
 
   function addNewTable() {
     args.arrayName = "PrayersArray"; //!CAUTION: if we do not set the arrayName to an existing array, it will yeild to an error when the array name will be evaluated by eval(arrayName), and the saveModifiedArray() will stop without exporting the text to file
@@ -65,7 +65,7 @@ function startEditingMode(args: {
       prompt(
         "Provide the sequence of the languages columns",
         "COP, FR, CA, AR"
-      ).split(", ") || getLanguages(PrayersArraysKeys.find(a=>a[1] === args.arrayName)[0]);
+      ).split(", ") || getLanguages(PrayersArraysKeys.find(a => a[1] === args.arrayName)[0]);
     let title =
       prompt(
         "Provide the title for the table",
@@ -144,7 +144,7 @@ function startEditingMode(args: {
   })();
 }
 /**
- * Takes a string[][][] (i.e., and array of tables, each being a string[][], where each string[] represents a rowh),  that we want to edit,and creates html div elements representing the text of each row of eah table in the tablesArray
+ * Takes a string[][][] (i.e., and array of tables, each being a string[][], where each string[] represents a row),  that we want to edit,and creates html div elements representing the text of each row of eah table in the tablesArray
  * @param {string[][][]} tablesArray - an array containing the tables that we need to show and start editing
  * @param {string[]} languages - the languages included in the tables
  */
@@ -263,7 +263,7 @@ function addEdintingButtons() {
 
   createEditingButton(
     () => saveModifiedArray({ exportToFile: true, exportToStorage: true }),
-    "Export to JS file",
+    "to JS file",
     btnsDiv
   );
 
@@ -273,7 +273,7 @@ function addEdintingButtons() {
     btnsDiv
   );
 
-  createEditingButton(() => exportSequence(), "Export Sequence", btnsDiv);
+  createEditingButton(() => exportSequence(), "Sequence", btnsDiv);
 
   createEditingButton(
     () => addRow(document.getSelection().focusNode.parentElement),
@@ -315,7 +315,7 @@ function addEdintingButtons() {
   );
 
   createEditingButton(
-    async () => await convertCopticFont({htmlParag:document.getSelection().focusNode.parentElement}),
+    async () => await convertCopticFont({ htmlParag: document.getSelection().focusNode.parentElement }),
     "Convert Coptic Fonts",
     btnsDiv
   );
@@ -489,7 +489,7 @@ function createEditingButton(
 
 /**
  * Takes the text of a modified array, and exports it to a js file
- * @param {[string, string]} arrayText - the first element is the modified text of the array that we will export to a Js file. The second element is the name of the array
+ * @param {[string, string]} arrayText - the first element is the modified text of the array that we will to a Js file. The second element is the name of the array
  */
 function exportToJSFile(arrayText: string, arrayName: string) {
   if (!arrayText || !arrayName) return;
@@ -579,7 +579,7 @@ function saveModifiedArray(args: {
       modifyEditedArray(title, tablesArray);
     });
 
-  //We finally save or export each array in the savedArrays
+  //We finally save or each array in the savedArrays
   savedArrays.forEach((arrayName) =>
     saveOrExportArray(
       eval(arrayName),
@@ -650,9 +650,9 @@ function modifyEditedArray(tableTitle: string, tablesArray: string[][][]) {
 
 /**
  *
- * @param {string} arrayName - Name of the modified array that we want to save to local storage or export to a JS file
+ * @param {string} arrayName - Name of the modified array that we want to save to local storage or to a JS file
  * @param {boolean} exportToStorage - if true the array is saved in localStorage.editedText. Its default value is true
- * @param {boolean} exportToFile - if true the array text is export as a JS file. Its default value is true
+ * @param {boolean} exportToFile - if true the array text is as a JS file. Its default value is true
  */
 function saveOrExportArray(
   tablesArray: string[][][],
@@ -756,9 +756,11 @@ function replacePrefixes(text: string, arrayName: string): string {
     else text = text.replaceAll('"' + eval(prefix), (prefix += '+"'));
   });
 
-  if (arrayName !== "PrayersArray") return text;
+  if (!arrayName.startsWith("PrayersArray"))
+      return text;
   //Seasonal
-  
+
+  debugger
   return text
     .replaceAll(seasonal.giaki.AR, '" +seasonal.giaki.AR+ "')
     .replaceAll(seasonal.giaki.FR, '" +seasonal.giaki.FR+ "')
@@ -767,16 +769,6 @@ function replacePrefixes(text: string, arrayName: string): string {
     .replaceAll(seasonal.giaki.CA, '" +seasonal.giaki.CA+ "');
 }
 
-function replaceHtmlQuotes(innerHtml: string, lang: string): string {
-  if (!innerHtml.includes("<q>")) return innerHtml;
-  //if (["FR", "AR", "EN", "CA"].includes(lang))
-  return innerHtml
-    .replaceAll("<q>", String.fromCharCode(171))
-    .replaceAll("</q>", String.fromCharCode(187));
-  // else if (lang === "AR" || lang === "EN")
-  //   return innerHtml.replaceAll("<q>", '"').replaceAll("</q>", '"');
-  //  return innerHtml;
-}
 
 /**
  * Adds a new div (row) below the div (row) passed to it as argument.
@@ -892,7 +884,7 @@ function paragraphsKeyShortcuts(e: KeyboardEvent) {
   if (e.key === 'B') { e.preventDefault; addRow(p, false, undefined, false) };
   if (e.key === 'S') { e.preventDefault; saveModifiedArray({ exportToFile: false, exportToStorage: true }) };
   if (e.key === 'E') { e.preventDefault; saveModifiedArray({ exportToFile: true, exportToStorage: true }) };
-  if (e.key === 'C') { e.preventDefault; convertCopticFont({htmlParag:p}) };
+  if (e.key === 'C') { e.preventDefault; convertCopticFont({ htmlParag: p }) };
   if (e.key === 'L') { e.preventDefault; deleteRow(p) };
   if (e.key === 'P') { e.preventDefault; splitParagraphsToTheRowsBelow(p) };
   if (e.key === 'F') { e.preventDefault; _FixCopticText(p) };
@@ -1380,22 +1372,6 @@ function getHtmlRow(htmlParag: HTMLElement): HTMLDivElement | undefined | void {
 }
 
 /**
- * Returns an array of languages based on the name of the array passed to it (if it is a reading, it returns the languages for the readings, if it is the PrayersArray, it returns the prayersLanguages)
- * @param {string} arrayName - the name of a string[][][], for which we will return the languages corresponding to it
- * @returns {string[]} - an array of languages
- */
-function getLanguages(title:string): string[] {
-  
-  if (
-    [Prefix.stPaul, Prefix.Catholicon, Prefix.praxis, Prefix.prophecies, Prefix.gospelMass, Prefix.gospelMorning, Prefix.gospelVespers, Prefix.gospelNight, Prefix.gospelVespers]
-      .find(prefix => title.startsWith(prefix)))
-      return [defaultLanguage, foreingLanguage].filter(lang=>lang);
-  else if (title.startsWith(Prefix.synaxarium))
-    return ["FR", "AR"];
-  else return prayersLanguages;
-}
-
-/**
  * Converts the coptic font of the text in the selected html element, to a unicode font
  * @param {HTMLElement} htmlParag - an editable html element in which the cursor is placed, containing coptic text in a non unicode font, that we need to convert
  * @param {string} tableTitle - if provided, the function will find the table with the title and will convert all the coptic text in this table
@@ -1421,10 +1397,11 @@ async function convertCopticFont(args: {
     if (!table) return;
     let langs = getLanguages(args.tableTitle);
     if (!langs || !langs.includes('COP')) return;
+    debugger
     for (let row of table) {
-      row[langs.indexOf('COP')] = await convert(row[langs.indexOf('COP')])
+      row[langs.indexOf('COP') +1] = await convert(row[langs.indexOf('COP')+1])
     }
-    return args. tableTitle
+    return table
   }
   else if (args.text) return await convert(args.text);
 
@@ -1433,7 +1410,7 @@ async function convertCopticFont(args: {
       .filter(p => p.lang === 'COP');
 
     for (let parag of parags) {
-      await convertCopticFont({htmlParag:parag, fontFrom:args.fontFrom, promptAll:false});
+      await convertCopticFont({ htmlParag: parag, fontFrom: args.fontFrom, promptAll: false });
     }
 
     return
@@ -1505,7 +1482,7 @@ async function convertCopticFont(args: {
 
   };
 
-  function promptForFont():string {
+  function promptForFont(): string {
     return prompt("Provide the font", "COPTIC1/CS_AVVA_SHENOUDA/AVVA_SHENOUDA/ATHANASIUS/NEW_ATHANASIUS")
   }
 
@@ -1738,7 +1715,7 @@ function modifyAllSelectedText() {
     startEditingMode({
       tableTitle: Array.from(titles).join(', '),
       arrayName: arrayName,
-      languages: getLanguages(PrayersArraysKeys.find(a=>a[1] === arrayName)[0]),
+      languages: getLanguages(PrayersArraysKeys.find(a => a[1] === arrayName)[0]),
       clear: true
     });
 
@@ -1759,7 +1736,7 @@ async function convertAllCopticParagraphsFonts(fontFrom?: string) {
   parags = parags
     .filter(parag => parag.lang === 'COP');
   for (let parag of parags) {
-    return await convertCopticFont({htmlParag: parag, fontFrom: fontFrom, promptAll:false})
+    return await convertCopticFont({ htmlParag: parag, fontFrom: fontFrom, promptAll: false })
   }
 
 }
@@ -1773,7 +1750,7 @@ async function _FixCopticText(htmlParag: HTMLElement) {
 
   for (let parag of parags) {
     parags.indexOf(parag) === 1 ? font = 'ATHANASIUS' : font = 'CS_AVVA_SHENOUDA';
-    text = await convertCopticFont({fontFrom: font, promptAll:false, text:parag}) as string || '';
+    text = await convertCopticFont({ fontFrom: font, promptAll: false, text: parag }) as string || '';
     if (!text) alert('Conversion has failed for ' + parag);
     if (!text) continue;
     let row = addRow(htmlParag, false, htmlParag.title.replace('Diacon', 'ReadingIntro'), false);
@@ -1792,7 +1769,7 @@ async function insertReadingTextFromBible(htmlParag: HTMLElement) {
 
   if (!bible) bible = Bibles[prompt('Provide the langauge', "AR, FR, EN")];
   if (!bible) return alert('Could not retrieve the Bible');
-  
+
   let temp = await getBibleBooksList(defaultLanguage);
   let booksList = temp?.map(book => [book.human_long, book.id]);
   if (!booksList) return;

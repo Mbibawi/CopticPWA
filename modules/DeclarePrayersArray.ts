@@ -11,7 +11,7 @@ PrayersArrayFR = [[
     "",
     "Aie pitié de nous",
     "",
-    " ارْحَمْنَا يااللّه",
+    "ارْحَمْنَا يااللّه",
   ],
   [
     Prefix.same + "&C=Priest",
@@ -139,7 +139,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.commonPrayer + "PrayThatGodHaveMercyOnUs&D=$copticFeasts.AnyDay",
+    Prefix.commonPrayer + "PrayThatGodHaveMercyOnUs",
   ],
   [
     Prefix.placeHolder,
@@ -160,7 +160,7 @@ PrayersArrayFR = [[
     "",
     "Action de grâce",
     "",
-    " صَلاةْ الشكر",
+    "صَلاةْ الشكر",
   ],
   [
     Prefix.same + "&C=Priest",
@@ -204,7 +204,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.commonPrayer + "PrayThatGodHaveMercyOnUs&D=$copticFeasts.AnyDay&C=Diacon",
+    Prefix.commonPrayer + "PrayThatGodHaveMercyOnUs&C=Diacon",
     "Ⲧⲱⲃϩ ϩⲓⲛⲁ ⲛ̀ⲧⲉ Ⲫϯ ⲛⲁⲓ ⲛⲁⲛ: ⲛ̀ⲧⲉϥϣⲉⲛϩⲏⲧ ϧⲁⲣⲟⲛ ⲛ̀ⲧⲉϥⲥⲱⲧⲉⲙ ⲉ̀ⲣⲟⲛ: ⲛ̀ⲧⲉϥⲉⲣⲃⲟⲏⲑⲓⲛ ⲉ̀ⲣⲟⲛ: ⲛ̀ⲧⲉϥϭⲓ ⲛ̀ⲛⲓϯϩⲟ ⲛⲉⲙ ⲛⲓⲧⲱⲃϩ ⲛ̀ⲧⲉ ⲛⲏⲉⲑⲟⲩⲁⲃ ⲛ̀ⲧⲁϥ ⲛ̀ⲧⲟⲧⲟⲩ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ ⲉ̀ⲡⲓⲁ̀ⲅⲁⲑⲟⲛ ⲛ̀ⲥⲏⲟⲩ ⲛⲓⲃⲉⲛ.",
     "Implorez pour que Dieu ait pitié de nous, qu’Il soit compatissant envers nous, nous écoute et nous aide, qu’Il agrée les demandes et les supplications que ses saints Lui adressent continuellement en notre faveur,",
     "طوفه هينا إنتي افنوتي ناي نان إنتيف شينهيت خارون إنتيف سوتيم إرون إنتيف إرفويثين إرون إنتيف اتشي إني تيهو نيم نيطوفه إنتيني إثؤواب إنتاف إنطوطو إي إهري إجون إبي آغاثون إنسيو نيفين.",
@@ -213,7 +213,7 @@ PrayersArrayFR = [[
   [
     Prefix.same + "&C=Comments",
     "En présence du Patriarche de métropolites ou d'évêques",
-    " وفي حضور البطرك أو الأسقف أو المطران",
+    "وفي حضور البطرك أو الأسقف أو المطران",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -229,7 +229,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.same + "&C=Diacon",
-    " ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ.",
+    "ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ.",
     "et qu’Il nous pardonne nos péchés",
     "إنتيف كن إنوفي نان إيفول.",
     "ويغفر لنا خَطَايَانَا.",
@@ -354,9 +354,9 @@ PrayersArrayFR = [[
   [
     Prefix.same + "&C=CommentText",
     "",
-    "Nous T’adorons ô Christ avec Ton Père très bon et le Saint Esprit car Tu es ressuscité et nous as sauvés.",
+    "Nous T’adorons ô Christ avec Ton Père très bon et le Saint Esprit " + seasonal.giaki.FR + ".",
     "",
-    "نَسْجُدْ لَكَ أيُّهَا المَسِيحْ مَعَ أبِيكَ الصَالِحْ والْرُوحْ القُدُسْ لأنَّكَ قُمتَ وخَلصْتَنا.",
+    "نَسْجُدْ لَكَ أيُّهَا المَسِيحْ مَعَ أبِيكَ الصَالِحْ والْرُوحْ القُدُسْ " + seasonal.giaki.AR + ".",
   ],
   [
     Prefix.same + "&C=Comments",
@@ -524,7 +524,7 @@ PrayersArrayFR = [[
     "",
     "Quatrins du carillon Adam",
     "",
-    " أرَبّاع الناقوس آدام",
+    "أرَبّاع الناقوس آدام",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -568,7 +568,7 @@ PrayersArrayFR = [[
     "Xere na_ `nio;> `napoctoloc> xere nimaqhthc> `nte Pen_ Ihcouc Pi`xrictoc.",
     "",
     "شيرى ناشويس إنيوتى: ان أبوسطولوس: شيرى نى ما سيتيس انتى بينشويس ايسوس بخرستوس.",
-    " السَّلامُ لسادتى الآبَاءْ الرُسُلْ السَّلامُ لتلاميذ رَبّنا يَسُوعْ المسيح",
+    "السَّلامُ لسادتى الآبَاءْ الرُسُلْ السَّلامُ لتلاميذ رَبّنا يَسُوعْ المسيح",
   ],
   [
     Prefix.same + "&C=Title",
@@ -581,7 +581,7 @@ PrayersArrayFR = [[
     Prefix.same + "&C=Title",
     "Xere nak `w pimarturoc> xere pieuaggelicthc> xere pi`apoctoloc> abba Markoc piqe`wrimoc.",
     "",
-    " شيرى ناك أو بى مارتيروس: شيرى بى أف أنجيلَيستيس شيرى بى آبوسطولوس: ماركوس بيثيئوريموس",
+    "شيرى ناك أو بى مارتيروس: شيرى بى أف أنجيلَيستيس شيرى بى آبوسطولوس: ماركوس بيثيئوريموس",
     "السَّلامُ لَكَ أيُّهَا الشَهِيدْ السَّلامُ للإنجيلى السَّلامُ للرسول مرقس ناظر الإله",
   ],
   [
@@ -602,7 +602,7 @@ PrayersArrayFR = [[
     Prefix.same + "&C=Title",
     "Siouwini siouwini> `w ;xwra `nte Xhmi> je af`i `nje peouwini> 'en oumetlamproc.",
     "",
-    "  انشيئو أوينى اتشينو: أوينى أوتى كورا إنتى كيمى: جى أفئى انجى بى أو اوينى: خين أوميت لام إبروس.",
+    "انشيئو أوينى اتشينو: أوينى أوتى كورا إنتى كيمى: جى أفئى انجى بى أو اوينى: خين أوميت لام إبروس.",
     "نورى نورى يا كورة مصر لِأنَّهُ قَدّْ أتى نورك بضياء.",
   ],
   [
@@ -813,10 +813,10 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.same + "&C=Diacon",
-    "Ⲉⲑⲣⲉⲛϩⲱⲥ ⲉ̀ⲣⲟⲕ: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ: ϫⲉ ⲁⲕⲧⲱⲛⲕ ⲁⲕⲥⲱϯ ⲙ̀ⲙⲟⲛ ⲛⲁⲓ ⲛⲁⲛ.",
-    "Afin que nous Te louions avec Ton Père très bon et le Saint Esprit♫ car Tu es ressuscité et nous as sauvés, Aie pitité de nous.",
-    "اثرين هوس♫إروك♫ نيم بيكيوت إن أغاثوس♫ نيم بي إبنيفما إثؤواب جي آك تونك أكسوتي إمّون ناي نان.",
-    "لِكَيّ نُسَبِحَكْ مَعَ، أبيك♫ الصَالِحْ والْرُوحْ القُدُسْ♫ لأنَّكَ قُمتَ وخَلصْتَنا ارْحَمْنَا.",
+    "Ⲉⲑⲣⲉⲛϩⲱⲥ ⲉ̀ⲣⲟⲕ: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ: " + seasonal.giaki.COP + " ⲛⲁⲓ ⲛⲁⲛ.",
+    "Afin que nous Te louions avec Ton Père très bon et le Saint Esprit♫ " + seasonal.giaki.FR + ", Aie pitité de nous.",
+    "اثرين هوس♫إروك♫ نيم بيكيوت إن أغاثوس♫ نيم بي إبنيفما إثؤواب " + seasonal.giaki.CA + " ناي نان.",
+    "لِكَيّ نُسَبِحَكْ مَعَ، أبيك♫ الصَالِحْ والْرُوحْ القُدُسْ♫ " + seasonal.giaki.AR + " ارْحَمْنَا.",
   ],
 ],
 [
@@ -897,7 +897,7 @@ PrayersArrayFR = [[
     "",
     "Oraison des maladies",
     "",
-    " أوشية المرضى",
+    "أوشية المرضى",
   ],
   [
     Prefix.same + "&C=Priest",
@@ -1068,7 +1068,7 @@ PrayersArrayFR = [[
     "",
     "Oraison de ceux qui ont demandé qu'on prie pour eux",
     "",
-    " أوشية الذين أمرونا أن نذكرهم",
+    "أوشية الذين أمرونا أن نذكرهم",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -1113,7 +1113,7 @@ PrayersArrayFR = [[
     "",
     "Oraison des voyageurs",
     "",
-    " أوشية المسافرين",
+    "أوشية المسافرين",
   ],
   [
     Prefix.same + "&C=Priest",
@@ -1172,7 +1172,7 @@ PrayersArrayFR = [[
     "",
     "Oraison des Oblations",
     "",
-    " أوشية القرابين",
+    "أوشية القرابين",
   ],
   [
     Prefix.same + "&C=Comments",
@@ -1389,14 +1389,14 @@ PrayersArrayFR = [[
 [
   [
     Prefix.commonPrayer + "MeetingsLitany&C=Priest",
-    "ÉAri`vmeu`i ÉP[oic `nnenjin;wou] cmou `erwou",
+    "ÉⲀⲣⲓⲫ̀ⲙⲉⲩⲓ̀ ÉⲠϭⲟⲓⲥ ⲛ̀ⲛⲉⲛϫⲓⲛⲑⲱⲟⲩϯ Ⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲱⲟⲩ",
     "Souviens-Toi Seigneur de nos assemblées, bénis-les.",
     "",
     ".أذكر يارب اجتماعاتنا باركها",
   ],
   [
     Prefix.same + "&C=Diacon",
-    "ÉProeuxac;e `uper tyc `agiac ek`klyciac tautyc ke twn cun`eleucewn `ymwn.",
+    "ÉⲠⲣⲟⲉⲩⲝⲁⲥⲑⲉ ⲩ̀ⲡⲉⲣ ⲧⲏⲥ ⲁ̀ⲅⲓⲁⲥ ⲉⲕⲕ̀ⲗⲏⲥⲓⲁⲥ ⲧⲁⲩⲧⲏⲥ ⲕⲉ ⲧⲱⲛ ⲥⲩⲛⲉ̀ⲗⲉⲩⲥⲉⲱⲛ ⲏ̀ⲙⲱⲛ.",
     "Priez pour cette sainte église et pour nos assemblées.",
     "",
     ".صلوا مِنْ أَجْلِ هذه الكنيسَة المقدسة واجتماعاتنا.",
@@ -1407,14 +1407,14 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.same + "&C=Priest",
-    "Myic e;rouswpi nan `naterkwlin `nattahno @ e;renaitou kata pekouws `e;ouab ouoh `mmakarion. Han`yi `neu,y @ han`yi `ntoubo @ han`yi `n`cmou @ ari,arizec;e `mmwou nan ÉP[oic @ nem nek`ebiaik e;nyou menencwn sa `eneh. Twnk P¡ V} @ maroujwr `ebol `nje nekjaji tyrou @ marouvwt `ebol qa`thy `mpekho `nje ouon niben e;moc] `mpekran =e=;=u",
+    "Ⲙⲏⲓⲥ ⲉⲑⲣⲟⲩϣⲱⲡⲓ ⲛⲁⲛ ⲛ̀ⲁⲧⲉⲣⲕⲱⲗⲓⲛ ⲛ̀ⲁⲧⲧⲁϩⲛⲟ : ⲉⲑⲣⲉⲛⲁⲓⲧⲟⲩ ⲕⲁⲧⲁ ⲡⲉⲕⲟⲩⲱϣ ⲉ̀ⲑⲟⲩⲁⲃ ⲟⲩⲟϩ ⲙ̀ⲙⲁⲕⲁⲣⲓⲟⲛ. Ϩⲁⲛⲏ̀ⲓ ⲛ̀ⲉⲩⲭⲏ : ϩⲁⲛⲏ̀ⲓ ⲛ̀ⲧⲟⲩⲃⲟ : ϩⲁⲛⲏ̀ⲓ ⲛ̀ⲥ̀ⲙⲟⲩ : ⲁⲣⲓⲭⲁⲣⲓⲍⲉⲥⲑⲉ ⲙ̀ⲙⲱⲟⲩ ⲛⲁⲛ ÉⲠϭⲟⲓⲥ : ⲛⲉⲙ ⲛⲉⲕⲉ̀ⲃⲓⲁⲓⲕ ⲉⲑⲛⲏⲟⲩ ⲙⲉⲛⲉⲛⲥⲱⲛ ϣⲁ ⲉ̀ⲛⲉϩ. Ⲧⲱⲛⲕ Ⲡ̀⳪ ⲪϮ : ⲙⲁⲣⲟⲩϫⲱⲣ ⲉ̀ⲃⲟⲗ ⲛ̀ϫⲉ ⲛⲉⲕϫⲁϫⲓ ⲧⲏⲣⲟⲩ : ⲙⲁⲣⲟⲩⲫⲱⲧ ⲉ̀ⲃⲟⲗ ϧⲁⲧ̀ϩⲏ ⲙ̀ⲡⲉⲕϩⲟ ⲛ̀ϫⲉ ⲟⲩⲟⲛ ⲛⲓⲃⲉⲛ ⲉⲑⲙⲟⲥϯ ⲙ̀ⲡⲉⲕⲣⲁⲛ ⲉ̅ⲑ̅ⲩ̅",
     "Fais qu’elles soient pour nous sans encombre ni obstacle afin qu’elles deviennent, selon Ta sainte et bienheureuse volonté, des maisons de prière, des maisons de pureté, des maisons de bénédiction. Accorde-les nous Seigneur, ainsi qu’à Tes serviteurs qui nous succèderont jusqu’à la fin des temps. Lève-toi Seigneur Dieu. Que tous Tes ennemis soient dispersés. Que fuient devant Toi tous ceux qui haïssent Ton Saint Nom.",
     "",
     "اجعلها أن تكون لنا بغير مانع ولاعائق لنصنعها كمشيئتك المقدسة الطوباوية بيوت صلاة بيوت طهارة بيوت بركة، أنعم بها علينا يارب وعلى عبيدك الآتين بعدنا الى الأبد قم أَيُّهَا الرَبِّ الإله وليتفرق جميع أعدائك وليهرب من قدام وجهك كل مبغضي اسمك القدوس. ",
   ],
   [
     Prefix.same + "&C=Priest",
-    "Peklaoc de marefswpi qen pi`cmou `ehananso `nso nem han`;ba `n`;ba eu`iri `mpekouws Qen pi`hmot nem nimetsenhyt nem ]metmairwmi `nte pekmonogenyc `nsyri @ Pen¡ ouoh Pennou] ouoh Pen=c=w=r I=y=c P=,=c. Vai `ete ebolhitotf `ere pi`wou nem pitai`o nem pi`amahi nem ]`prockunycic @ er`prepi nak nemaf @ nem pi=p=n=a =e=;=u `nreftanqo ouoh `n`omooucioc nemak @}nou nem `ncyou niben nem sa `eneh `nte ni`eneh tyrou `amyn.",
+    "Ⲡⲉⲕⲗⲁⲟⲥ ⲇⲉ ⲙⲁⲣⲉϥϣⲱⲡⲓ ϧⲉⲛ ⲡⲓⲥ̀ⲙⲟⲩ ⲉ̀ϩⲁⲛⲁⲛϣⲟ ⲛ̀ϣⲟ ⲛⲉⲙ ϩⲁⲛⲑ̀ⲃⲁ ⲛ̀ⲑ̀ⲃⲁ ⲉⲩⲓ̀ⲣⲓ ⲙ̀ⲡⲉⲕⲟⲩⲱϣ Ϧⲉⲛ ⲡⲓϩ̀ⲙⲟⲧ ⲛⲉⲙ ⲛⲓⲙⲉⲧϣⲉⲛϩⲏⲧ ⲛⲉⲙ ϯⲙⲉⲧⲙⲁⲓⲣⲱⲙⲓ ⲛ̀ⲧⲉ ⲡⲉⲕⲙⲟⲛⲟⲅⲉⲛⲏⲥ ⲛ̀ϣⲏⲣⲓ : Ⲡⲉⲛ⳪ ⲟⲩⲟϩ Ⲡⲉⲛⲛⲟⲩϯ ⲟⲩⲟϩ Ⲡⲉⲛⲥ̅ⲱ̅ⲣ̅ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅. Ⲫⲁⲓ ⲉ̀ⲧⲉ ⲉⲃⲟⲗϩⲓⲧⲟⲧϥ ⲉ̀ⲣⲉ ⲡⲓⲱ̀ⲟⲩ ⲛⲉⲙ ⲡⲓⲧⲁⲓⲟ̀ ⲛⲉⲙ ⲡⲓⲁ̀ⲙⲁϩⲓ ⲛⲉⲙ ϯⲡ̀ⲣⲟⲥⲕⲩⲛⲏⲥⲓⲥ : ⲉⲣⲡ̀ⲣⲉⲡⲓ ⲛⲁⲕ ⲛⲉⲙⲁϥ : ⲛⲉⲙ ⲡⲓⲡ̅ⲛ̅ⲁ̅ ⲉ̅ⲑ̅ⲩ̅ ⲛ̀ⲣⲉϥⲧⲁⲛϧⲟ ⲟⲩⲟϩ ⲛ̀ⲟ̀ⲙⲟⲟⲩⲥⲓⲟⲥ ⲛⲉⲙⲁⲕ :Ϯⲛⲟⲩ ⲛⲉⲙ ⲛ̀ⲥⲏⲟⲩ ⲛⲓⲃⲉⲛ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ⲛⲉϩ ⲧⲏⲣⲟⲩ ⲁ̀ⲙⲏⲛ.",
     "Par Ta bénédiction multiplie Ton peuple par milliers et par myriades qui agissent selon Ta Volonté. Par la grâce, la compassion et l’amour du genre humain de Ton Fils unique notre Seigneur, notre Dieu et notre Sauveur Jésus-Christ par Qui la gloire, l’honneur, la magnificence et la prosternation Te sont dus avec Lui et le Saint-Esprit vivifiant et consubstantiel à Toi Maintenant et toujours et pour les siècles des siècles. Amen",
     "",
     "وأما شعبك فليكن بالبركة ألوف ألوف وربوات ربوات يصنعون إرادتك بالنعمة والرآفات ومحبة البشر اللواتي لابنك الوحيد الجنس ربنا والهنا ومخلصنا يسوع المسيح هذا الذي من قبله المجد والكرامة والعزة والسجود تليق بك معه ومع الرُّوحِ القُدُسِ المحيي المساوي لك الآن وكل أوان والى دهر الدهور آمين",
@@ -1935,7 +1935,7 @@ PrayersArrayFR = [[
     "",
     "Le Trisagion",
     "",
-    " قُدُّوسْ اللّه",
+    "قُدُّوسْ اللّه",
   ],
   [
     Prefix.same + "&C=Assembly",
@@ -2129,7 +2129,7 @@ PrayersArrayFR = [[
     "",
     "Doxologie Wates pour la Vierge Marie Vêpres",
     "",
-    " ذُكْصُولُوجِيَّة العَذْراءْ عشية (واطس)",
+    "ذُكْصُولُوجِيَّة العَذْراءْ عشية (واطس)",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -2686,15 +2686,18 @@ PrayersArrayFR = [[
     "هيتين نو إفشى♫ آرى إهموت نان إفنوتى♫ إمبى كو إيفول إنتى نين نوفى♫ موى نان إنؤسوتى.",
     "بصلواتهم♫ انْعِمْ لنا يا اللّه♫ بِمَغْفِرَةْ خَطَايَانَا♫ وأعطنا سلاماً.",
   ],
- [Prefix.placeHolder, Prefix.psalmody + "TheotokiesConclusionAdam"],
+  [
+    Prefix.placeHolder,
+    Prefix.psalmody + "TheotokiesConclusionAdam",
+  ],
 ],
 [
   [
     Prefix.psalmody + "TheotokiesConclusionAdam&C=Title",
+    "Ϯⲑⲉⲟ̀ⲧⲟⲕⲓⲁ̀ ⲙ̀ⲡ̀ⲉ̀ϩⲟⲟⲩ ⲛ̀Ϯⲕⲩⲡⲓⲁ̀ⲕⲏ : ⲏ̀ⲭⲟⲥ Ⲁⲇⲁⲙ",
+    "Conclusion des Théotokies pour les jours Adam",
     "",
-    "Tes compassions mon Dieu",
-    "",
-    "مراحمك يا إلهي",
+    "ختام الثيؤطوكيات الآدام",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -2823,10 +2826,10 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.same + "&C=Diacon",
-    "Ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲕ ⲱ̀ Ⲡⲭ̅ⲥ̅: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̅ⲛ̅ⲁ̅ ⲉ̅ⲑ̅ⲩ̅: ϫⲉ ⲁⲕⲧⲱⲛⲕ ⲁⲕⲥⲱϯ ⲙ̀ⲙⲟⲛ.",
-    "Nous T'adorons ô Christ♫ avec Ton Père très bon♫ avec le Saint-Esprit♫ car Tu es ressuscité et nous as sauvés.",
-    "تين أووشت إمموك أوبي إخرستوس♫ نيم بيك يوت إن أغاثوس♫ نيم بي إبنفما إثؤواب♫ جي آك تونك أكسوتي إمّون.",
-    "نَسْجُدْ لَكَ أيُّهَا المسيح♫ مَعَ أَبِيكَ الصَالِح♫ والْرُوحْ القُدُسْ♫ لأنَّكَ قُمتَ وخَلصْتَنا.",
+    "Ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲕ ⲱ̀ Ⲡⲭ̅ⲥ̅: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̅ⲛ̅ⲁ̅ ⲉ̅ⲑ̅ⲩ̅: " + seasonal.giaki.COP + ".",
+    "Nous T'adorons ô Christ♫ avec Ton Père très bon♫ avec le Saint-Esprit♫ " + seasonal.giaki.FR + ".",
+    "تين أووشت إمموك أوبي إخرستوس♫ نيم بيك يوت إن أغاثوس♫ نيم بي إبنفما إثؤواب♫ " + seasonal.giaki.CA + ".",
+    "نَسْجُدْ لَكَ أيُّهَا المسيح♫ مَعَ أَبِيكَ الصَالِح♫ والْرُوحْ القُدُسْ♫ " + seasonal.giaki.AR + ".",
   ],
 ],
 [
@@ -2835,7 +2838,7 @@ PrayersArrayFR = [[
     "",
     "Doxologie pour Saint Michel",
     "",
-    " ذُكْصُولُوجِيَّة المَلاكْ ميخائيل",
+    "ذُكْصُولُوجِيَّة المَلاكْ ميخائيل",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -2886,7 +2889,7 @@ PrayersArrayFR = [[
     "",
     "Doxology des creatures célestes",
     "",
-    " ذُكْصُولُوجِيَّة جَمِيعْ السمائيين",
+    "ذُكْصُولُوجِيَّة جَمِيعْ السمائيين",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -2965,7 +2968,7 @@ PrayersArrayFR = [[
     "",
     "Doxologie des Apôtres",
     "",
-    " ذُكْصُولُوجِيَّة الرسل",
+    "ذُكْصُولُوجِيَّة الرسل",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -3016,7 +3019,7 @@ PrayersArrayFR = [[
     "",
     "Doxologie de Saint Marc",
     "",
-    " ذُكْصُولُوجِيَّة مرقس الرسول",
+    "ذُكْصُولُوجِيَّة مرقس الرسول",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -3067,7 +3070,7 @@ PrayersArrayFR = [[
     "",
     "Doxologie de Saint George",
     "",
-    " ذُكْصُولُوجِيَّة مار جرجس",
+    "ذُكْصُولُوجِيَّة مار جرجس",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -3118,7 +3121,7 @@ PrayersArrayFR = [[
     "",
     "Doxologie de Saint Mina",
     "",
-    " ذُكْصُولُوجِيَّة مار مينا",
+    "ذُكْصُولُوجِيَّة مار مينا",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -3169,7 +3172,7 @@ PrayersArrayFR = [[
     "",
     "Fin des Doxologies",
     "",
-    " ختام الذكصولجيات",
+    "ختام الذكصولجيات",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -3206,7 +3209,7 @@ PrayersArrayFR = [[
     "",
     "Nous t’exaltons ô Mère de la vraie Lumière",
     "",
-    " نُعَظِّمُكِ يا أم النور الحقيقي",
+    "نُعَظِّمُكِ يا أم النور الحقيقي",
   ],
   [
     Prefix.same + "&C=Assembly",
@@ -3236,7 +3239,7 @@ PrayersArrayFR = [[
     "",
     "Credo",
     "",
-    " قانون الإيمان",
+    "قانون الإيمان",
   ],
   [
     Prefix.same + "&C=Assembly",
@@ -3334,7 +3337,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.same + "&C=Priest",
-    "Ⲥⲙⲟⲩ ⲉ̀ⲣⲟⲛ: ⲁ̀ⲣⲉϩ ⲉ̀ⲣⲟⲛ: ⲁ̀ⲣⲓⲃⲟⲏ̀ⲑⲓⲛ ⲉ̀ⲣⲟⲛ.",
+    "Ⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟⲛ: ⲁ̀ⲣⲉϩ ⲉ̀ⲣⲟⲛ: ⲁ̀ⲣⲓⲃⲟⲏ̀ⲑⲓⲛ ⲉ̀ⲣⲟⲛ.",
     "Bénis-nous, préserve-nous, aide-nous.",
     "سمو إيرون، آريه إيرون آري فو إيثين إيرون",
     "باركنا واحْفَظَنَا وأعنا.",
@@ -4001,7 +4004,7 @@ PrayersArrayFR = [[
     "",
     "Réponse de l’Evangile",
     "",
-    " مرد الإنجيل سنوي",
+    "مرد الإنجيل سنوي",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -4096,7 +4099,7 @@ PrayersArrayFR = [[
     "",
     "Accorde-nous Ta miséricorde et coupe tous les liens de nos péchés, et si nous avons péché à Ton égard consciemment ou inconsciemment par panique ou par faiblesse du cœur, par un acte, ou par une parole ou par rapetissement du cœur. Toi Seigneur, qui connait les faiblesses des hommes, bon et Philanthrope, O Dieu accorde-nous la rémission de nos péchés.",
     "",
-    "ارزقنا رَحْمَتُكَ واقطع كُلِّ رَبّاطات خَطَايَانَا٬ وإن كنا اخطأنَا إليَكَ في شئ بعلم أو بِغَيّْرِ علم أو بجزع القلب أوبالفعل أو بالقول أوبصغر القلب ٬ فأَنْت أيُّهَا السَيِّدُ العارف بضعف الَبشَرْ كصالح ومحب الَبشَرْ اَللَّهُمَّ انْعِمْ علينا بغفران خَطَايَانَا .",
+    "ارزقنا رَحْمَتُكَ واقطع كُلِّ رَبّاطات خَطَايَانَا٬ إن كُنَّا اخطأنَا إليَكَ في شئ بعلم أو بِغَيّْرِ علم أو بجزع القلب أوبالفعل أو بالقول أوبصغر القلب ٬ فأَنْت أيُّهَا السَيِّدُ العارف بضعف الَبشَرْ كصالح ومحب الَبشَرْ اَللَّهُمَّ انْعِمْ علينا بغفران خَطَايَانَا .",
   ],
   [
     Prefix.same + "&C=Priest",
@@ -4130,7 +4133,7 @@ PrayersArrayFR = [[
     "Ⲡⲟⲩⲣⲟ ⲛ̀ⲧⲉ ϯϩⲓⲣⲏⲛⲏ: ⲙⲟⲓ ⲛⲁⲛ ⲛ̀ⲧⲉⲕϩⲓⲣⲏⲛⲏ: ⲥⲉⲙⲛⲓ ⲛⲁⲛ ⲛ̀ⲧⲉⲕϩⲓⲣⲏⲛⲏ: ⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ. Ϫⲉ ⲑⲱⲕ ⲧⲉ ϯϫⲟⲙ ⲛⲉⲙ ⲡⲓⲱ̀ⲟⲩ ⲛⲉⲙ ⲡⲓⲥ̀ⲙⲟⲩ ⲛⲉⲙ ⲡⲓⲁ̀ⲙⲁϩⲓ ϣⲁ ⲉ̀ⲛⲉϩ: ⲁ̀ⲙⲏⲛ. Ⲁⲣⲓⲧⲉⲛ ⲛ̀ⲉⲙⲡ̀ϣⲁ ⲛ̀ϫⲟⲥ ϧⲉⲛ ⲟⲩϣⲉⲡϩ̀ⲙⲟⲧ:",
     "Ô Roi de la paix, donne-nous Ta paix, accorde-nous Ta paix et remets nos péchés. A toi la puissance, la gloire, la bénédiction et la magnificence éternellement amen! Rends nous dignes de dire en action de grâce:",
     "بؤرو انتي تي هيريني، موي نان غنتيك هيريني، سيمني نان إنتيك هيريني، كا إننوفي نان إيفول جي ثوك تي تجوم، نيم بي أو نيم بي اسمو نيم بي آماهي شا إنيه آمْينْ، آريتين إنيم إبشا إنجوس، خين أو شي بيهموت.",
-    "ياملَكَ السَّلامُ أعطنا سلامك قرر لنا سلامك: وأغفر لنا خَطَايَانَا لِأنَّ لَكَ القوة والمجد والبركة والعزة الى الأبَدْ آمْينْ إجعلنا مُسْتَحِقِّينْ أنْ نقول بشكر:",
+    "ياملَكَ السَّلامُ أعطنا سلامك قرر لنا سلامك: واغفر لنا خَطَايَانَا لِأنَّ لَكَ القوة والمجد والبركة والعزة الى الأبَدْ آمْينْ إجعلنا مُسْتَحِقِّينْ أنْ نقول بشكر:",
   ],
   [
     Prefix.placeHolder,
@@ -4302,7 +4305,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.commonPrayer + "Kyrielison41TimesMassIntro&D=$copticFeasts.AnyDay&C=Priest",
+    Prefix.commonPrayer + "Kyrielison41TimesMassIntro&C=Priest",
     "",
     "Agneau de Dieu qui porte les péchés, du monde, nous T'implorons écoute nous et aie pitié de nous",
     "",
@@ -4311,7 +4314,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.commonPrayer + "Kyrielison41TimesNoMassIntro&D=$copticFeasts.AnyDay&C=Priest",
+    Prefix.commonPrayer + "Kyrielison41TimesNoMassIntro&C=Priest",
     "",
     "Agneau de Dieu qui porte les péchés, du monde, nous T'implorons écoute nous et aie pitié de nous",
     "",
@@ -4320,7 +4323,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.commonPrayer + "Kyrielison41Times&D=$copticFeasts.AnyDay&C=Assembly",
+    Prefix.commonPrayer + "Kyrielison41Times&C=Assembly",
     "Ⲕⲩⲣⲓⲉ̀ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ: Ⲕⲩⲣⲓⲉ̀ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ: Ⲕⲩⲣⲓⲉ̀ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ:",
     "Pitié Seigneur. 41 fois",
     "كيريالَيسون (41)",
@@ -4329,7 +4332,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.commonPrayer + "HolyHolyHolyLordOfSabaot&D=$copticFeasts.AnyDay&C=SubTitle",
+    Prefix.commonPrayer + "HolyLordOfSabaot&C=SubTitle",
     "",
     "Saint, Saint, Saint Seigneur sabaot",
     "",
@@ -4356,7 +4359,7 @@ PrayersArrayFR = [[
     "",
     "Procession de l’Agneau",
     "",
-    " دورة الحمل",
+    "دورة الحمل",
   ],
   [
     Prefix.same + "&C=Priest",
@@ -4434,7 +4437,7 @@ PrayersArrayFR = [[
     "",
     "Bénédiction de l'Offrance",
     "",
-    " رشومات الحمل",
+    "رشومات الحمل",
   ],
   [
     Prefix.same + "&C=Priest",
@@ -4538,7 +4541,7 @@ PrayersArrayFR = [[
     "",
     "Absolution",
     "",
-    " التحليل",
+    "التحليل",
   ],
   [
     Prefix.same + "&C=Priest",
@@ -4574,7 +4577,7 @@ PrayersArrayFR = [[
     "",
     "Cet encensoir d’or",
     "",
-    " طاي شوري",
+    "طاي شوري",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -4590,7 +4593,7 @@ PrayersArrayFR = [[
     "",
     "L'encensoir en or",
     "",
-    " تي شوري",
+    "تي شوري",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -5040,10 +5043,10 @@ PrayersArrayFR = [[
 [
   [
     Prefix.massCommon + "WeBowToYouJesusChrist&D=$copticFeasts.AnyDay&C=Diacon",
-    "Ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲕ ⲱ̀ Ⲡⲭ̅ⲥ̅: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ: ϫⲉ ⲁⲕⲧⲱⲛⲕ ⲁⲕⲥⲱϯ ⲙ̀ⲙⲟⲛ ⲛⲁⲓ ⲛⲁⲛ.",
-    "Nous T’adorons, Ô Christ, avec Ton bon Père, et L’Esprit-Saint, car Tu es ressuscité et nous as sauvés, Aie pitié de nous.",
-    "تين أوشت إمموك أو بيخرستوس، نيم بيك يوت إن آغاثوس، نيم بي ابنيفما اثؤواب، جي جي آك تونك أكسوتي إمّون ناي نان.",
-    "نسجدُ لكَ أيُّهَا المَسِيحْ مَعَ أبيكَ الصَالِحْ والْرُوحْ القُدُسْ لأنَّكَ قُمتَ وخَلصْتَنا، إرحمنا.",
+    "Ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲕ ⲱ̀ Ⲡⲭ̅ⲥ̅: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ: " + seasonal.giaki.COP + " ⲛⲁⲓ ⲛⲁⲛ.",
+    "Nous T’adorons, Ô Christ, avec Ton bon Père, et L’Esprit-Saint, " + seasonal.giaki.FR + ", Aie pitié de nous.",
+    "تين أوشت إمموك أو بيخرستوس، نيم بيك يوت إن آغاثوس، نيم بي ابنيفما اثؤواب، جي " + seasonal.giaki.CA + " ناي نان.",
+    "نسجدُ لكَ أيُّهَا المَسِيحْ مَعَ أبيكَ الصَالِحْ والْرُوحْ القُدُسْ " + seasonal.giaki.AR + "، إرحمنا.",
   ],
 ],
 [
@@ -5444,7 +5447,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.same + "&C=Diacon",
-    "Ⲡⲣⲟⲥⲉⲩⲭⲁⲥⲑⲉ ⲩ̀ⲡⲉⲣ ⲧⲏⲥ ⲥⲱⲧⲏⲣⲓⲁⲥ ⲧⲟⲩ ⲕⲟⲥⲙⲟⲩ ⲕⲉ ⲧⲏⲥ ⲡⲟⲗⲉⲱⲥ ⲏ̀ⲙⲱⲛ ⲧⲁⲩⲧⲏⲥ ⲕⲉ ⲡⲁⲥⲱⲛ ⲡⲟⲗⲉⲱⲛ ⲕⲉ ⲧⲱⲛ ⲭⲱⲣⲱⲛ ⲕⲉ ⲛⲏⲥⲱⲛ ⲕⲉ ⲙⲟⲛⲁⲥⲧⲏⲣⲓⲱⲛ.",
+    "Ⲡⲣⲟⲥⲉⲩⲭⲁⲥⲑⲉ ⲩ̀ⲡⲉⲣ ⲧⲏⲥ ⲥⲱⲧⲏⲣⲓⲁⲥ ⲧⲟⲩ Ⲥ̀ⲙⲟⲩ ⲕⲉ ⲧⲏⲥ ⲡⲟⲗⲉⲱⲥ ⲏ̀ⲙⲱⲛ ⲧⲁⲩⲧⲏⲥ ⲕⲉ ⲡⲁⲥⲱⲛ ⲡⲟⲗⲉⲱⲛ ⲕⲉ ⲧⲱⲛ ⲭⲱⲣⲱⲛ ⲕⲉ ⲛⲏⲥⲱⲛ ⲕⲉ ⲙⲟⲛⲁⲥⲧⲏⲣⲓⲱⲛ.",
     "Priez pour le salut du monde, de cette ville, de toutes les villes, des régions, des îles et des monastères.",
     "إبروس إيفئكساستي إيبرتيس سوتيرياس طوكوزموكي تيس بوليئوس إيمون طافتيس كي باسون بوليئون كي طون خورون كي نيسون كي باسون كي موناستيريون.",
     "صَلّْوا مِنْ أَجْلِ خَلاص العَالَم ومدينتنا هَذِهِ وسائر المُدن والأقاليم والجَزائر والأديرة.",
@@ -5623,7 +5626,7 @@ PrayersArrayFR = [[
     Prefix.same + "&C=Diacon",
     "Ⲧⲱⲃϩ ⲉ̀ϫⲉⲛ ⲛⲓⲁ̀ⲏⲣ ⲛ̀ⲧⲉ ⲧ̀ⲫⲉ ⲛⲉⲙ ⲛⲓⲕⲁⲣⲡⲟⲥ ⲛ̀ⲧⲉ ⲡ̀ⲕⲁϩⲓ: ⲡ̀ϫⲓⲛⲙⲟϣⲓ ⲉ̀ⲡ̀ϣⲱⲓ ⲛ̀ⲧⲉ ⲛⲓⲓⲁⲣⲱⲟⲩ ⲙ̀ⲙⲱⲟⲩ: ⲛⲓⲥⲓϯ ⲛⲉⲙ ⲛⲓⲥⲓⲙ ⲛⲉⲙ ⲛⲓⲣⲱⲧ ⲛ̀ⲧⲉ ⲧ̀ⲕⲟⲓ: ϩⲓⲛⲁ ⲛ̀ⲧⲉ Ⲡⲭ̅ⲥ̅ ⲡⲉⲛⲛⲟⲩϯ ⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲱⲟⲩ ⲟⲩⲟϩ ⲛ̀ⲧⲉϥϣⲉⲛϩⲏⲧ ϧⲁ ⲡⲉϥⲡ̀ⲗⲁⲥⲙⲁ ⲉ̀ⲧⲁ ⲛⲉϥϫⲓϫ ⲑⲁⲙⲓⲟϥ ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ.",
     "Implorez pour les vents du ciel, les fruits de la terre, les arbres, les vignes et tout arbre fruitier dans l’univers. Que le Christ notre Dieu les bénisse et les amène à maturité sans dommage et nous pardonne nos péchés.",
-    "طُفه إيجين ني آإيرإنتي إتفي نيم ني كارَبّوس إنتي إبكاهي نيم فاي إششين نيم فاني ما إن ألولي نيم إششين نيقين إنريفتي كارَبّوس إيتخين تي أى كومبني تيرس هينا إنتي بي إخرستوس بين نوتي إزمو إيروؤو إنتيف جوك إيقول خين أو هيريني أتشني إمكاه إنتيف كانين نوفي نان إيفول.",
+    "طُفه إيجين ني آإيرإنتي إتفي نيم ني كارَبّوس إنتي إبكاهي نيم فاي إششين نيم فاني ما إن ألولي نيم إششين نيقين إنريفتي كارَبّوس إيتخين تي أي كومبني تيرس هينا إنتي بي إخرستوس بين نوتي إزمو إيروؤو إنتيف جوك إيقول خين أو هيريني أتشني إمكاه إنتيف كانين نوفي نان إيفول.",
     "اطلبوا عَنْ أهوية السَّمَاء وثُمَّرات الأرض، والشجر والكروم وكُلَّ شجرة مثُمَّرة في كُلِّ المَسْكُونَةِ لِكَيّ يُبَاركهَا المسيحُ إلهُنا، ويُكمّلها سالمة بِغَيّْرِ آفة، ويغفر لنا خَطَايَانَا.",
   ],
 ],
@@ -5665,7 +5668,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.same + "&C=Priest",
-    "Ⲥⲙⲟⲩ ⲉ̀ⲡⲓⲭ̀ⲗⲟⲙ ⲛ̀ⲧⲉ ϯⲣⲟⲙⲡⲓ ϩⲓⲧⲉⲛ ⲧⲉⲕⲙⲉⲧⲭ̀ⲣⲓⲥⲧⲟⲥ: ⲉⲑⲃⲉ ⲛⲓϩⲏⲕⲓ ⲛ̀ⲧⲉ ⲡⲉⲕⲗⲁⲟⲥ: ⲉⲑⲃⲉ ϯⲭⲏⲣⲁ ⲛⲉⲙ ⲡⲓⲟⲣⲫⲁⲛⲟⲥ ⲛⲉⲙ ⲡⲓϣⲉⲙⲙⲟ ⲛⲉⲙ ⲡⲓⲣⲉⲙⲛ̀ϫⲱⲓⲗⲓ: ⲛⲉⲙ ⲉⲑⲃⲏⲧⲉⲛ ⲧⲏⲣⲉⲛ ϧⲁ ⲛⲏⲉ̀ⲧⲉⲣϩⲉⲗⲡⲓⲥ ⲉ̀ⲣⲟⲕ: ⲟⲩⲟϩ ⲉⲧⲧⲱⲃϩ ⲙ̀ⲡⲉⲕⲣⲁⲛ ⲉⲑⲟⲩⲁⲃ.",
+    "Ⲥ̀ⲙⲟⲩ ⲉ̀ⲡⲓⲭ̀ⲗⲟⲙ ⲛ̀ⲧⲉ ϯⲣⲟⲙⲡⲓ ϩⲓⲧⲉⲛ ⲧⲉⲕⲙⲉⲧⲭ̀ⲣⲓⲥⲧⲟⲥ: ⲉⲑⲃⲉ ⲛⲓϩⲏⲕⲓ ⲛ̀ⲧⲉ ⲡⲉⲕⲗⲁⲟⲥ: ⲉⲑⲃⲉ ϯⲭⲏⲣⲁ ⲛⲉⲙ ⲡⲓⲟⲣⲫⲁⲛⲟⲥ ⲛⲉⲙ ⲡⲓϣⲉⲙⲙⲟ ⲛⲉⲙ ⲡⲓⲣⲉⲙⲛ̀ϫⲱⲓⲗⲓ: ⲛⲉⲙ ⲉⲑⲃⲏⲧⲉⲛ ⲧⲏⲣⲉⲛ ϧⲁ ⲛⲏⲉ̀ⲧⲉⲣϩⲉⲗⲡⲓⲥ ⲉ̀ⲣⲟⲕ: ⲟⲩⲟϩ ⲉⲧⲧⲱⲃϩ ⲙ̀ⲡⲉⲕⲣⲁⲛ ⲉⲑⲟⲩⲁⲃ.",
     "Par Ta bonté, bénis le prémices de l’année, pour les pauvres de Ton peuple, de la veuve et de l’orphelin, de l’étranger et du voyageur, ainsi que pour nous tous qui mettons en Toi notre confiance et invoquons Ton Saint Nom.",
     "إزمو إي بي إكلوم إنتي تي رومبي هيتين تيك ميت إخرستوس إثقي ني هيكي إنتي بيك لاؤس إتقي تيشيرا نيم بي اورفانوس نيم بي شيممونيم بي ريم إنجويلي نيم إثقيتين تيرين خانئيت إيرهيلبيس إيروك اووه اتطقه إم بيكران إثؤواب.",
     "بَارك إكليل السنة بصلاحك مِنْ أَجْلِ فقراءِ شعبك. مِنْ أَجْلِ الأرملة واليتيم والغريب والضيف. ومِنْ أَجْلِنا كُلُّنَا نحنُ الذينَ نرجوكَ ونَطْلُبْ اسمِكَ القُدُّوسْ.",
@@ -5727,7 +5730,7 @@ PrayersArrayFR = [[
     Prefix.same + "&C=Priest",
     "Ⲛⲉⲛⲓⲟϯ ⲉⲑⲟⲩⲁⲃ: ⲛⲓⲡⲁⲧⲣⲓⲁⲣⲭⲏⲥ ⲛⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ ⲛⲓⲁ̀ⲡⲟⲥⲧⲟⲗⲟⲥ ⲛⲓⲣⲉϥϩⲓⲱⲓϣ ⲛⲓⲉⲩⲁⲅⲅⲉⲗⲓⲥⲧⲏⲥ ⲛⲓⲙⲁⲣⲧⲩⲣⲟⲥ ⲛⲓⲟ̀ⲙⲟⲗⲟⲅⲓⲧⲏⲥ: ⲛⲉⲙ ⲡ̀ⲛⲉⲩⲙⲁ ⲛⲓⲃⲉⲛ ⲛ̀ⲑ̀ⲙⲏⲓ ⲉ̀ⲧⲁⲩϫⲱⲕ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲫ̀ⲛⲁϩϯ.",
     "Nos saints pères les patriarches, les prophètes, les apôtres, les prédicateurs, les évangélistes, les martyrs, les confesseurs et de toutes les âmes des justes accomplis dans la Foi.",
-    " نينيوتي إثؤواب ني بطريارشيس ني إبروفيتيس ني آبوسطولوس نيريف هي أويش ني أف آنجيليستيس ني مارتيروس ني اومولوجيتيس نيم إبنيقما نيقين إن أثمي إيطاف جوك إيفول خين إفناهتي",
+    "نينيوتي إثؤواب ني بطريارشيس ني إبروفيتيس ني آبوسطولوس نيريف هي أويش ني أف آنجيليستيس ني مارتيروس ني اومولوجيتيس نيم إبنيقما نيقين إن أثمي إيطاف جوك إيفول خين إفناهتي",
     "آباءَنا القِدِّيسِينْ رؤساء الآباء والأنبياء والرُسُل والمُبشرين والانجيليين والشهداء والمعترفين وكُلَّ أرواح الصدّيقين الذينَ كَمُلوا في الإيمان.",
   ],
   [
@@ -5905,7 +5908,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.same + "&C=Priest",
-    "ϭⲓⲙⲱⲓⲧ ϧⲁϫⲱⲛ ⲉϧⲟⲩⲛ ⲉ̀ⲧⲉⲕⲙⲉⲧⲟⲩⲣⲟ: ϩⲓⲛⲁ ⲛⲉⲙ ϧⲉⲛ ⲫⲁⲓ ⲕⲁⲧⲁ ⲫ̀ⲣⲏϯ ⲟⲛ ϧⲉⲛ ϩⲱⲃ ⲛⲓⲃⲉⲛ: ⲛ̀ⲧⲉϥϭⲓⲱⲟⲩ ⲟⲩⲟϩ ⲛ̀ⲧⲉϥϭⲓⲥⲙⲟⲩ ⲟⲩⲟϩ ⲛ̀ⲧⲉϥϭⲓⲥⲓ: ⲛ̀ϫⲉ ⲡⲉⲕⲛⲓϣϯ ⲛ̀ⲣⲁⲛ ⲉⲑⲟⲩⲁⲃ: ϧⲉⲛ ϩⲱⲃ ⲛⲓⲃⲉⲛ ⲉⲧⲧⲁⲓⲏⲟⲩⲧ ⲟⲩⲟϩ ⲉⲧⲥ̀ⲙⲁⲣⲱⲟⲩⲧ: ⲛⲉⲙ Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ ⲡⲉⲕⲙⲉⲛⲣⲓⲧ ⲛ̀Ϣⲏⲣⲓ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉ̀ⲑⲟⲩⲁⲃ.",
+    "ϭⲓⲙⲱⲓⲧ ϧⲁϫⲱⲛ ⲉϧⲟⲩⲛ ⲉ̀ⲧⲉⲕⲙⲉⲧⲟⲩⲣⲟ: ϩⲓⲛⲁ ⲛⲉⲙ ϧⲉⲛ ⲫⲁⲓ ⲕⲁⲧⲁ ⲫ̀ⲣⲏϯ ⲟⲛ ϧⲉⲛ ϩⲱⲃ ⲛⲓⲃⲉⲛ: ⲛ̀ⲧⲉϥϭⲓⲱⲟⲩ ⲟⲩⲟϩ Ⲥ̀ⲙⲟⲩ ⲟⲩⲟϩ ⲛ̀ⲧⲉϥϭⲓⲥⲓ: ⲛ̀ϫⲉ ⲡⲉⲕⲛⲓϣϯ ⲛ̀ⲣⲁⲛ ⲉⲑⲟⲩⲁⲃ: ϧⲉⲛ ϩⲱⲃ ⲛⲓⲃⲉⲛ ⲉⲧⲧⲁⲓⲏⲟⲩⲧ ⲟⲩⲟϩ ⲉⲧⲥ̀ⲙⲁⲣⲱⲟⲩⲧ: ⲛⲉⲙ Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ ⲡⲉⲕⲙⲉⲛⲣⲓⲧ ⲛ̀Ϣⲏⲣⲓ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉ̀ⲑⲟⲩⲁⲃ.",
     "Et conduis-nous vers Ton Royaume afin qu’en cela ainsi qu’en toute chose soit glorifié, béni et exalté Ton Nom Saint et Puissant. En toute chose Tu es précieux et béni avec Jésus Christ Ton Fils bien aimé et le Saint Esprit,",
     "تشي مويت خاجون إيخون إيتيك ميت أوروهينا نيم خين فاي كاطا إفريتي أون خين هوب نيقين إنتيف تشي أوأو أووه إنتيف تشي إزمو أووه إنتيف تشيسي إنجي بيك نشتي إنران إثؤواب خين هوب نيقين إتطايوت أووه إيت إزماروؤت نيم إيسوس بي إخرستوس بيك مينريت إنشيري نيم بي إبنيقما إثؤواب.",
     "واهدِنا إلى مَلكوتِك لِكَيّ بهَذَا كَمَا أيّْضَاً في كُلِّ شىء يَتَمجّدَ ويَتبَارك ويرتفع اسمُكَ العَظِيمُ القُدُّوسْ في كُلِّ شىء كريم ومُبَارك مَعَ يَسُوعْ المَسِيحْ ابنِكَ الحبيب والرُوحِ القدُس.",
@@ -6087,7 +6090,7 @@ PrayersArrayFR = [[
     "",
     "Daigne pardonner et remettre tout ce que nous avons commis contre Toi en parole ou en action, Toi qui es bon et Ami du genre humain.",
     "",
-    "وإن كنا قَدّْ أخطأنَا إليَكَ بالقول أو بالفعل فسامح واغفر لنا  كصالح و مُحِبِ البَشَرِ. ",
+    "إن كُنَّا قَدّْ أخطأنَا إليَكَ بالقول أو بالفعل فسامح واغفر لنا  كصالح و مُحِبِ البَشَرِ. ",
   ],
   [
     Prefix.same + "&C=CommentText",
@@ -6314,7 +6317,7 @@ PrayersArrayFR = [[
     "",
     "Psaume 150",
     "",
-    " المَزْمُورْ المائة والخمسين",
+    "المَزْمُورْ المائة والخمسين",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -6453,7 +6456,7 @@ PrayersArrayFR = [[
     "Ⲡⲟⲩⲣⲟ ⲛ̀ⲧⲉ ϯϩⲓⲣⲏⲛⲏ: ⲙⲟⲓ ⲛⲁⲛ ⲛ̀ⲧⲉⲕϩⲓⲣⲏⲛⲏ: ⲥⲉⲙⲛⲓ ⲛⲁⲛ ⲛ̀ⲧⲉⲕϩⲓⲣⲏⲛⲏ: ⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ. Ϫⲉ ⲑⲱⲕ ⲧⲉ ϯϫⲟⲙ ⲛⲉⲙ ⲡⲓⲱ̀ⲟⲩ ⲛⲉⲙ ⲡⲓⲥ̀ⲙⲟⲩ ⲛⲉⲙ ⲡⲓⲁ̀ⲙⲁϩⲓ ϣⲁ ⲉ̀ⲛⲉϩ: ⲁ̀ⲙⲏⲛ. Ⲁⲣⲓⲧⲉⲛ ⲛ̀ⲉⲙⲡ̀ϣⲁ ⲛ̀ϫⲟⲥ ϧⲉⲛ ⲟⲩϣⲉⲡϩ̀ⲙⲟⲧ:",
     "Roi de la paix, donne-nous Ta paix, accorde-nous Ta paix et remets nos péchés. A toi la puissance, la gloire, la bénédiction et la magnificence éternellement amen! Rends nous dignes de dire en action de grâce:",
     "",
-    "يا ملَكَ السَّلامُ أعطنا سلامك قرر لنا سلامك: وأغفر لنا خَطَايَانَا لِأنَّ لَكَ القوة والمجد والبركة والعزة الى الأبَدْ آمْينْ اجعلنا مُسْتَحِقِّينْ أنْ نقول بشكر:",
+    "يا ملَكَ السَّلامُ أعطنا سلامك قرر لنا سلامك: واغفر لنا خَطَايَانَا لِأنَّ لَكَ القوة والمجد والبركة والعزة الى الأبَدْ آمْينْ اجعلنا مُسْتَحِقِّينْ أنْ نقول بشكر:",
   ],
   [
     Prefix.placeHolder,
@@ -6567,7 +6570,7 @@ PrayersArrayFR = [[
     "",
     "Réponse du Psaume Fête de la Circoncision",
     "",
-    " مرد المَزْمُورْ لعيد الختان",
+    "مرد المَزْمُورْ لعيد الختان",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -6599,7 +6602,7 @@ PrayersArrayFR = [[
     "",
     "Réponse du Psaume Fête de présentation du Christ au Temple",
     "",
-    " مَرَدُ مَزْمُورِ عيد  دخول المَسِيحْ إلى الهَيْكَلْ",
+    "مَرَدُ مَزْمُورِ عيد  دخول المَسِيحْ إلى الهَيْكَلْ",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -6615,7 +6618,7 @@ PrayersArrayFR = [[
     "",
     "Réponse du Psaume Fête de l’Annonciation",
     "",
-    " مَرَدُ مَزْمُورِ عيد  البشارة",
+    "مَرَدُ مَزْمُورِ عيد  البشارة",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -6631,7 +6634,7 @@ PrayersArrayFR = [[
     "",
     "Réponse du Psaume Fête de la Transfiguration",
     "",
-    " مَرَدُ مَزْمُورِ عيد  التجلي",
+    "مَرَدُ مَزْمُورِ عيد  التجلي",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -6647,7 +6650,7 @@ PrayersArrayFR = [[
     "",
     "Réponse du Psaume du 29 du mois copte",
     "",
-    " مَرَدُ مَزْمُورِ يوم  29 في الشهر القبطي",
+    "مَرَدُ مَزْمُورِ يوم  29 في الشهر القبطي",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -6663,7 +6666,7 @@ PrayersArrayFR = [[
     "",
     "Réponse du Psaume du Jeûne de la Vierge marie",
     "",
-    " مَرَدُ مَزْمُورِ صوم  العَذْراءْ",
+    "مَرَدُ مَزْمُورِ صوم  العَذْراءْ",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -6679,7 +6682,7 @@ PrayersArrayFR = [[
     "",
     "Réponse du Psaume Fête du Nayrouz",
     "",
-    " مَرَدُ مَزْمُورِ عيد  النيروز",
+    "مَرَدُ مَزْمُورِ عيد  النيروز",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -6695,7 +6698,7 @@ PrayersArrayFR = [[
     "",
     "Réponse du Psaume Fête de la Croix",
     "",
-    " مَرَدُ مَزْمُورِ عيد الصليب",
+    "مَرَدُ مَزْمُورِ عيد الصليب",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -6711,7 +6714,7 @@ PrayersArrayFR = [[
     "",
     "Réponse du Psaume Fête de la Nativité",
     "",
-    " مَرَدُ مَزْمُورِ عيد  الميلاد",
+    "مَرَدُ مَزْمُورِ عيد  الميلاد",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -6727,7 +6730,7 @@ PrayersArrayFR = [[
     "",
     "Réponse du Psaume Fête de l’Épiphanie",
     "",
-    " مَرَدُ مَزْمُورِ عيد  الغطاس",
+    "مَرَدُ مَزْمُورِ عيد  الغطاس",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -6743,7 +6746,7 @@ PrayersArrayFR = [[
     "",
     "Réponse du Psaume du Dimanche des Rameaux",
     "",
-    " مَرَدُ مَزْمُورِ أحد  الشعانين",
+    "مَرَدُ مَزْمُورِ أحد  الشعانين",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -6759,7 +6762,7 @@ PrayersArrayFR = [[
     "",
     "Réponse du Psaume Fête la Résurrection",
     "",
-    " مَرَدُ مَزْمُورِ عيد  القيامة",
+    "مَرَدُ مَزْمُورِ عيد  القيامة",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -6775,7 +6778,7 @@ PrayersArrayFR = [[
     "",
     "Réponse du Psaume Fête de l’Ascension",
     "",
-    " مَرَدُ مَزْمُورِ عيد  الصعود",
+    "مَرَدُ مَزْمُورِ عيد  الصعود",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -6791,7 +6794,7 @@ PrayersArrayFR = [[
     "",
     "Réponse du Psaume Fête des Pentecôtes",
     "",
-    " مَرَدُ مَزْمُورِ عيد  حلول الْرُوحْ القُدُسْ",
+    "مَرَدُ مَزْمُورِ عيد  حلول الْرُوحْ القُدُسْ",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -6815,7 +6818,7 @@ PrayersArrayFR = [[
     "",
     "Réponse du Psaume Fête de l’entrée du Christ en Égypte",
     "",
-    " مَرَدُ مَزْمُورِ عيد  دخول المَسِيحْ أرض مصر",
+    "مَرَدُ مَزْمُورِ عيد  دخول المَسِيحْ أرض مصر",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -6831,7 +6834,7 @@ PrayersArrayFR = [[
     "",
     "Réponse de l’Évangile de la Fête de Nayrouz",
     "",
-    " مَرَدِ إنْجيِلِ عيد النيروز",
+    "مَرَدِ إنْجيِلِ عيد النيروز",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -6851,7 +6854,7 @@ PrayersArrayFR = [[
     "",
     "Réponse de l’Évangile de la Fête de la Croix",
     "",
-    " مَرَدِ إنْجيِلِ عيد الصليب",
+    "مَرَدِ إنْجيِلِ عيد الصليب",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -6874,7 +6877,7 @@ PrayersArrayFR = [[
     "",
     "Réponse de l’Évangile de la première et deuxième semaine de Kiahk",
     "",
-    " مَرَدِ إنْجيِلِ الأحد الأول والثاني من شهر كيهك",
+    "مَرَدِ إنْجيِلِ الأحد الأول والثاني من شهر كيهك",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -6897,7 +6900,7 @@ PrayersArrayFR = [[
     "",
     "Réponse de l’Évangile de la troisième et quatirème semaine de Kiahk",
     "",
-    " مَرَدِ إنْجيِلِ الأحد الثَالِثْ والرابع من كيهك",
+    "مَرَدِ إنْجيِلِ الأحد الثَالِثْ والرابع من كيهك",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -6920,7 +6923,7 @@ PrayersArrayFR = [[
     "",
     "Réponse de l’Évangile du Parmoun de la Nativité",
     "",
-    " مَرَدِ إنْجيِلِ برامون الميلاد",
+    "مَرَدِ إنْجيِلِ برامون الميلاد",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -6936,7 +6939,7 @@ PrayersArrayFR = [[
     "",
     "Réponse de l’Évangile de la fête de la Nativité",
     "",
-    " مَرَدِ إنْجيِلِ عيد الميلاد",
+    "مَرَدِ إنْجيِلِ عيد الميلاد",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -6963,7 +6966,7 @@ PrayersArrayFR = [[
     "",
     "Réponse de l’Évangile de la Fête de la Circoncision",
     "",
-    " مَرَدِ إنْجيِلِ عيد الختان",
+    "مَرَدِ إنْجيِلِ عيد الختان",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -6983,7 +6986,7 @@ PrayersArrayFR = [[
     "",
     "Réponse de l’Évangile du Paramoun de l’Épiphanie",
     "",
-    " مَرَدِ إنْجيِلِ برامون الغطاس",
+    "مَرَدِ إنْجيِلِ برامون الغطاس",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -7013,7 +7016,7 @@ PrayersArrayFR = [[
     "",
     "Réponse de l’Évangile de la fête de l’Épiphanie",
     "",
-    " مَرَدِ إنْجيِلِ عيد الغطاس",
+    "مَرَدِ إنْجيِلِ عيد الغطاس",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -7224,7 +7227,7 @@ PrayersArrayFR = [[
     "",
     "Réponse de l’Évangile des jours de la semaine du Grand Carême",
     "",
-    " مَرَدِ إنْجيِلِ أيام الأسبوع من الصوم الكبير",
+    "مَرَدِ إنْجيِلِ أيام الأسبوع من الصوم الكبير",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -7254,7 +7257,7 @@ PrayersArrayFR = [[
     "",
     "Réponse de l’Évangile des Samedis et Dimanches du Grand Carême",
     "",
-    " مَرَدِ إنْجيِلِ سبوت وآحاد الصوم الكبير",
+    "مَرَدِ إنْجيِلِ سبوت وآحاد الصوم الكبير",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -7270,7 +7273,7 @@ PrayersArrayFR = [[
     "",
     "Réponse de l’Évangile de la Fête de l’Annociation",
     "",
-    " مَرَدِ إنْجيِلِ عيد البشارة",
+    "مَرَدِ إنْجيِلِ عيد البشارة",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -7290,7 +7293,7 @@ PrayersArrayFR = [[
     "",
     "Réponse de l’Évangile du Samedi de Lazarus",
     "",
-    " مَرَدِ إنْجيِلِ سبت لعازر",
+    "مَرَدِ إنْجيِلِ سبت لعازر",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -7306,7 +7309,7 @@ PrayersArrayFR = [[
     "",
     "Réponse de l’Évangile des Vêpres du Samedi de Lazarus",
     "",
-    " مَرَدِ إنْجيِلِ عشية سبت لعازر",
+    "مَرَدِ إنْجيِلِ عشية سبت لعازر",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -7322,7 +7325,7 @@ PrayersArrayFR = [[
     "",
     "Réponse de l’Évangile des Vêpres du Dimanche des Rameaux",
     "",
-    " مَرَدِ إنْجيِلِ عشية أحد الشعانين",
+    "مَرَدِ إنْجيِلِ عشية أحد الشعانين",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -7338,7 +7341,7 @@ PrayersArrayFR = [[
     "",
     "Réponse de l’Évangile des Encens de l’Aube du Dimanche des Rameaux",
     "",
-    " مَرَدِ إنْجيِلِ باكر أحد الشعانين",
+    "مَرَدِ إنْجيِلِ باكر أحد الشعانين",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -7354,7 +7357,7 @@ PrayersArrayFR = [[
     "",
     "Réponse de l’Évangile de la Fête de la Résurrection",
     "",
-    " مَرَدِ إنْجيِلِ عيد القيامة",
+    "مَرَدِ إنْجيِلِ عيد القيامة",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -7381,7 +7384,7 @@ PrayersArrayFR = [[
     "",
     "Réponse de l’Évangile de la Fête de l’Ascension",
     "",
-    " مَرَدِ إنْجيِلِ عيد الصعود",
+    "مَرَدِ إنْجيِلِ عيد الصعود",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -7401,7 +7404,7 @@ PrayersArrayFR = [[
     "",
     "Réponse de l’Évangile de la Fête des Pentecôtes",
     "",
-    " مَرَدِ إنْجيِلِ عيد حلول الْرُوحْ القُدُسْ",
+    "مَرَدِ إنْجيِلِ عيد حلول الْرُوحْ القُدُسْ",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -7421,7 +7424,7 @@ PrayersArrayFR = [[
     "",
     "Réponse de l’Évangile de la Fête de l’entrée du Christ en Égypte",
     "",
-    " مَرَدِ إنْجيِلِ عيد دخول المَسِيحْ أرض مصر",
+    "مَرَدِ إنْجيِلِ عيد دخول المَسِيحْ أرض مصر",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -7441,7 +7444,7 @@ PrayersArrayFR = [[
     "",
     "Réponse de l’Évangile des encens de l’aube du Jeûne de la Vierge Marie",
     "",
-    " مَرَدِ إنْجيِلِ باكر صوم العَذْراءْ",
+    "مَرَدِ إنْجيِلِ باكر صوم العَذْراءْ",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -7654,10 +7657,10 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.same + "&C=Assembly",
-    "Ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲕ ⲱ̀ Ⲡⲭ̅ⲥ̅: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ: ϫⲉ ⲁⲕⲧⲱⲛⲕ ⲁⲕⲥⲱϯ ⲙ̀ⲙⲟⲛ. Ⲉⲗⲉⲟⲥ ⲉⲓ̀Ϯⲣⲏⲛⲏⲥ ⲑⲩⲥⲓⲁ ⲉ̀ⲛⲉⲥⲉⲱⲥ.",
-    "Nous T’adorons ô Christ, avec Ton Père très Bon et Le Saint Esprit, car Tu es ressuscité et nous as sauvés. Miséricorde de paix, sacrifice de louange.",
-    "تين أؤوش إمموك إو بيخريستوس، نيم بيكيوت إن آغاثوس، نيم بي ابنيفما، إثؤوابن جي آك تونك أكسوتي إمّون، إليؤوس، إرينيس ثؤياس إنيسيؤس.",
-    "نسجدُ لَكَ أيُّهَا المَسِيحْ مَعَ أبِيكَ الصَالِحْ والْرُوحْ القُدُسْ لأنَّكَ قُمتَ وخَلصْتَنا. رحمة السَّلامُ ذبيحة التسبيح.",
+    "Ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲕ ⲱ̀ Ⲡⲭ̅ⲥ̅: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ: " + seasonal.giaki.COP + ". Ⲉⲗⲉⲟⲥ ⲉⲓ̀Ϯⲣⲏⲛⲏⲥ ⲑⲩⲥⲓⲁ ⲉ̀ⲛⲉⲥⲉⲱⲥ.",
+    "Nous T’adorons ô Christ, avec Ton Père très Bon et Le Saint Esprit, " + seasonal.giaki.FR + ". Miséricorde de paix, sacrifice de louange.",
+    "تين أؤوش إمموك إو بيخريستوس، نيم بيكيوت إن آغاثوس، نيم بي ابنيفما، إثؤوابن " + seasonal.giaki.CA + "، إليؤوس، إرينيس ثؤياس إنيسيؤس.",
+    "نسجدُ لَكَ أيُّهَا المَسِيحْ مَعَ أبِيكَ الصَالِحْ والْرُوحْ القُدُسْ " + seasonal.giaki.AR + ". رحمة السَّلامُ ذبيحة التسبيح.",
   ],
 ],
 [
@@ -7871,7 +7874,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.same + "&C=Assembly",
-    "Ⲉⲧⲁϥⲛⲁⲩ ⲉ̀ⲡⲓⲟ̀ⲩⲱⲓⲛⲓ: �⳥�⳥ ⲉⲧⲭⲏ ϧⲉⲛ ⲡⲉϥϩⲟ ⲁϥⲉ̀ⲣϩⲟϯ ⲟⲩⲟϩ ⲁϥϩⲉⲓ ϧⲁⲣⲁⲧⲟⲩ ⲛ̀ⲛⲉϥ ϭⲁⲗⲁⲩϫ.",
+    "Ⲉⲧⲁϥⲛⲁⲩ ⲉ̀ⲡⲓⲟ̀ⲩⲱⲓⲛⲓ: ⳥⳥ ⲉⲧⲭⲏ ϧⲉⲛ ⲡⲉϥϩⲟ ⲁϥⲉ̀ⲣϩⲟϯ ⲟⲩⲟϩ ⲁϥϩⲉⲓ ϧⲁⲣⲁⲧⲟⲩ ⲛ̀ⲛⲉϥ ϭⲁⲗⲁⲩϫ.",
     "Quand il vit la lumière, qui était sur son visage, il fut terrifié et tomba, sous ses pieds.",
     "إيتاف ناف إي بي أوأويني إتكي خين بيف هو آفئيرهوتي أووه آف هي خاراتو إن نيف إتشالفج.",
     "لَمَّا رَأَي النور الكَائِنِ في وجهه، خاف وسقط تَحْتَ رجليه.",
@@ -8061,7 +8064,7 @@ PrayersArrayFR = [[
     Prefix.same + "&C=Assembly",
     "|wcte `ntef; `mpef]hri `mmenrit > 'a nheqna; `erof eqrouwn' ]a `ene.",
     "Qu’il a offert son Fils bien-aimé aux croyants, afin qu’ils vivent éternellement",
-    "حتى بذل أبنه الحبيب عن المؤمنين لكى يحيوا إلى الإبد.",
+    "حتى بذل أبنه الحبيب عن المؤمنين لكي يحيوا إلى الإبد.",
   ],
 ],
 [
@@ -8203,7 +8206,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.same + "&C=Assembly",
-    "ϮⲀⲗⲗⲏⲗⲟⲩ̀ⲓⲁ ⲁ̀ⲗⲗⲏⲗⲟⲩ̀ⲓⲁ ⲁ̀ⲗⲗⲏⲗⲟⲩ̀ⲓⲁ. ⲥⲙⲟⲩ ⲉ̀ⲛⲓⲥⲓϯ ⲛⲉⲙ ⲛⲓⲥⲓⲙ.",
+    "ϮⲀⲗⲗⲏⲗⲟⲩ̀ⲓⲁ ⲁ̀ⲗⲗⲏⲗⲟⲩ̀ⲓⲁ ⲁ̀ⲗⲗⲏⲗⲟⲩ̀ⲓⲁ. Ⲥ̀ⲙⲟⲩ ⲉ̀ⲛⲓⲥⲓϯ ⲛⲉⲙ ⲛⲓⲥⲓⲙ.",
     "Alléluia, alléluia, alléluia Bénis les eaux des fleuves/Bénis les semences et les fourrages/Bénis les vents des cieux.",
     "الليلوياالليلويا الليلويا إزمو إيني سيتي نيم ني سيم.",
     "هَلِّليلُويا هَلِّليلُويا هَلِّليلُويا. بَارِكْ مياه الِأنَّهُار/الزروع والعشب/أهوية السَّمَاء/إكليل السنة.",
@@ -8398,7 +8401,7 @@ PrayersArrayFR = [[
     "ⲫⲁⲓ ⲉ̀ⲛⲁⲩⲁ̀ⲙⲟⲛⲓ ⲙ̀ⲙⲟⲛ ⲉ̀ⲃⲟⲗ ϩⲓⲧⲟⲧϥ: ⲉⲛⲧⲟⲓ ⲉ̀ⲃⲟⲗ ϩⲓⲧⲉⲛ ⲛⲉⲛⲛⲟⲃⲓ. Ⲁϥϣⲉⲛⲁϥ ⲉ̀ⲡⲉⲥⲏⲧ ⲉ̀ⲁ̀ⲙⲉⲛϯ ⲉ̀ⲃⲟⲗ ϩⲓⲧⲉⲛ ⲡⲓⲥ̀ⲧⲁⲩⲣⲟⲥ.",
     "et qui nous tenait enchaînés à cause de nos fautes. Il est descendu aux enfers par la croix.",
     "فاي إناف آموني إممون إيفول هيتوتف إنتوي إيفول هيتين نين نوفي أفشيناف إيبيسيت إى آمنتي إيفول هيتين بي إستافروس.",
-    "هَذَا الذي كنا مُمسَكينَ به مَبيعين مِنْ قِبَلِ خَطَايَانَا. نزلَ إلى الجحيم مِنْ قِبَلِ الصليب.",
+    "هَذَا اذي كُنَّا مُمسَكينَ به مَبيعين مِنْ قِبَلِ خَطَايَانَا. نزلَ إلى الجحيم مِنْ قِبَلِ الصليب.",
   ],
 ],
 [
@@ -9664,7 +9667,7 @@ PrayersArrayFR = [[
     Prefix.same + "&C=Priest",
     "Ⲫⲏⲉ̀ⲧⲁϥϯ ⲉ̀ⲧⲟⲧⲟⲩ ⲛ̀ⲛⲉϥⲁ̀ⲅⲓⲟⲥ ⲙ̀ⲙⲁⲑⲏⲧⲏⲥ ⲟⲩⲟϩ ⲛ̀ⲁ̀ⲡⲟⲥⲧⲟⲗⲟⲥ ⲉ̅ⲑ̅ⲩ̅ ⲙ̀ⲡⲓⲥⲏⲟⲩ. Ϯⲛⲟⲩ ⲟⲛ ⲡⲉⲛⲛⲏⲃ ⲙⲟⲓ ⲛⲁⲛ ⲛⲉⲙ ⲡⲉⲕⲗⲁⲟⲥ ⲧⲏⲣϥ: ⲡⲓⲡⲁⲛⲧⲟⲕⲣⲁⲧⲱⲣ Ⲡⲟ̅ⲥ̅ ⲡⲉⲛⲛⲟⲩϯ.",
     "Toi, qui as donné à tes saints disciples et apôtres bienheureux en ce temps là, donnes nous maintenant ô notre maître ainsi qu’à tout ton peuple; Toi qui est le Tout-puissant, le Seigneur notre Dieu.",
-    "فيئيطاف تي أى طوطو إنتيف آجيوس إم ماثيتيس أووه إن آبسطولوس إثؤواب إم بي سيو تينو اون بين نيب موى نان نيم بيك لاؤس تيرف بي بانطوكراطور إبشويس بيننوتي.",
+    "فيئيطاف تي أي طوطو إنتيف آجيوس إم ماثيتيس أووه إن آبسطولوس إثؤواب إم بي سيو تينو اون بين نيب موى نان نيم بيك لاؤس تيرف بي بانطوكراطور إبشويس بيننوتي.",
     "يا الذي أعطي تَلامِيذَهُ القِدِّيسِينْ، ورُسُلَهُ الأطهار في ذَلِكَ الزمان، الآنْ أيّْضَاً يا سَيِّدنْا أعطنا وكُلَّ شعبك، يا ضَابِطْ الكُلّ أيُّهَا الرَبّ إلَهْنَا.",
   ],
   [
@@ -9957,7 +9960,7 @@ PrayersArrayFR = [[
     "",
     "Reconciliation",
     "",
-    " صَلاةْ الصلح",
+    "صَلاةْ الصلح",
   ],
   [
     Prefix.same + "&C=Priest",
@@ -11123,7 +11126,7 @@ PrayersArrayFR = [[
     "Ⲉⲩⲗⲟⲅⲏⲧⲟⲥ Ⲕⲩⲣⲓⲟⲥ Ⲓⲏ̅ⲥ̅ Ⲭⲣⲓⲥⲧⲟⲥ Ⲩⲓⲟⲥ Ⲑⲉⲟⲩ ⲁ̀ⲅⲓⲁⲥⲙⲟⲥ ⲡ̀ⲛⲉⲩⲙⲁ ⲁ̀ⲅⲓⲟⲛ: ⲁ̀ⲙⲏⲛ.",
     "Béni soit Le Seigneur Jésus Christ Fils de Dieu; Il est Saint le Saint Esprit. Amen.",
     "",
-    " مُبَارَكْ الرَبّ يَسُوعْ المَسِيحْ ابنُ اللّه. وقُدُّوسْ الْرُوحْ القُدُسْ آمْينْ.",
+    "مُبَارَكْ الرَبّ يَسُوعْ المَسِيحْ ابنُ اللّه. وقُدُّوسْ الْرُوحْ القُدُسْ آمْينْ.",
   ],
   [
     Prefix.same + "&C=Assembly",
@@ -11137,7 +11140,7 @@ PrayersArrayFR = [[
     "Ⲉⲩⲗⲟⲅⲏⲧⲟⲥ Ⲕⲩⲣⲓⲟⲥ Ⲓⲏ̅ⲥ̅ Ⲭⲣⲓⲥⲧⲟⲥ Ⲩⲓⲟⲥ Ⲑⲉⲟⲩ ⲁ̀ⲅⲓⲁⲥⲙⲟⲥ ⲡ̀ⲛⲉⲩⲙⲁ ⲁ̀ⲅⲓⲟⲛ: ⲁ̀ⲙⲏⲛ.",
     "Béni soit Le Seigneur Jésus Christ Fils de Dieu; Il est Saint le Saint Esprit. Amen.",
     "",
-    " مُبَارَكْ الرَبّ يَسُوعْ المَسِيحْ ابنُ اللّه. وقُدُّوسْ الْرُوحْ القُدُسْ آمْينْ.",
+    "مُبَارَكْ الرَبّ يَسُوعْ المَسِيحْ ابنُ اللّه. وقُدُّوسْ الْرُوحْ القُدُسْ آمْينْ.",
   ],
   [
     Prefix.same + "&C=Assembly",
@@ -11151,7 +11154,7 @@ PrayersArrayFR = [[
     "Ⲉⲩⲗⲟⲅⲏⲧⲟⲥ Ⲕⲩⲣⲓⲟⲥ Ⲓⲏ̅ⲥ̅ Ⲭⲣⲓⲥⲧⲟⲥ Ⲩⲓⲟⲥ Ⲑⲉⲟⲩ ⲁ̀ⲅⲓⲁⲥⲙⲟⲥ ⲡ̀ⲛⲉⲩⲙⲁ ⲁ̀ⲅⲓⲟⲛ: ⲁ̀ⲙⲏⲛ.",
     "Béni soit Le Seigneur Jésus Christ Fils de Dieu; Il est Saint le Saint Esprit. Amen.",
     "",
-    " مُبَارَكْ الرَبّ يَسُوعْ المَسِيحْ ابنُ اللّه. وقُدُّوسْ الْرُوحْ القُدُسْ آمْينْ.",
+    "مُبَارَكْ الرَبّ يَسُوعْ المَسِيحْ ابنُ اللّه. وقُدُّوسْ الْرُوحْ القُدُسْ آمْينْ.",
   ],
   [
     Prefix.same + "&C=Assembly",
@@ -11553,7 +11556,7 @@ PrayersArrayFR = [[
     "",
     "Oraison de fraction de Saint Basil (Ô Maître, Seigneur, notre Dieu, grand et éternel, dont la gloire est admirable)",
     "",
-    " القسمة الباسيلي السنوي) أيُّهَا السيد الرَبّ إلَهْنَا العَظِيمُ الأَبَدِي والمتعجب منه بالمجد)",
+    "القسمة الباسيلي السنوي) أيُّهَا السيد الرَبّ إلَهْنَا العَظِيمُ الأَبَدِي والمتعجب منه بالمجد)",
   ],
   [
     Prefix.same + "&C=Priest",
@@ -11625,7 +11628,7 @@ PrayersArrayFR = [[
     "",
     "Ô mon Dieu, ce sont mes péchés qui sont les épines enfoncées dans Ta tête sainte. C’est moi qui a attristé Ton coeur par les plaisirs vains de ce monde. Quel chemin menant à la mort que Tu as emprunté, Ô mon Dieu et mon Sauveur? Que portes-Tu sur Tes épaules? C’est la croix de la honte que Tu as portée à ma place.",
     "",
-    "فيا إلهي أنْ خطاياي هي الشوك الذي يوخز رأسك المُقَدَّسْة أَنا الذي أحزنت قلبك بسروري بملاذ الدنيا الباطلة وما هَذِهِ الطريق المؤدية للموت التي انت سَائِرْ فيها يا إلهي ومُخَلِّصي أى شَيءٍ تحمل عَلَى منكبيك؟ هُوَ صليب العَارْ الذي حملته عوضًا عني.",
+    "فيا إلهي أنْ خطاياي هي الشوك الذي يوخز رأسك المُقَدَّسْة أَنا الذي أحزنت قلبك بسروري بملاذ الدنيا الباطلة وما هَذِهِ الطريق المؤدية للموت التي انت سَائِرْ فيها يا إلهي ومُخَلِّصي أي شَيءٍ تحمل عَلَى منكبيك؟ هُوَ صليب العَارْ الذي حملته عوضًا عني.",
   ],
   [
     Prefix.same + "&C=Priest",
@@ -12015,7 +12018,7 @@ PrayersArrayFR = [[
     "Ⲁⲕϭⲓ ⲉⲣϧⲟⲧ ⲉⲃ̀ⲉ ⲛⲉⲛⲛⲟⲃⲓ: ⲟⲩⲟϩ ⲁⲕϣⲱⲛⲓ ⲉⲃ̀ⲉ ⲛⲉⲛⲁ̀ⲛⲟⲙⲓⲁ ⲧ̀ⲥ̀ⲃⲱ ⲛ̀ⲧⲉⲛϩⲓⲣⲑⲛⲑ ⲉ̀ϩ̀ⲣⲑⲓ ⲉ̀ϫⲱⲕ: ϧⲉⲛ ⲛⲉⲕⲗⲉⲗⲉⲭⲑⲙⲓ ⲁⲛⲟⲩϫⲁⲓ: ⲛⲁⲛⲥⲱⲣⲉⲙ ⲧⲑⲣⲉⲛ ⲡⲉ ⲙ̀ⲫ̀ⲣⲑϯ ⲛ̀ϩⲁⲛⲉ̀ⲥⲱⲟⲩ.",
     "Tu as été blessé à cause de nos péchés, souffert à cause de nos fautes. Le châtiment qui nous rend la paix est sur Toi, et dans Tes blessures nous trouvons la guérison. Tous, comme des moutons, nous étions errants.",
     "",
-    "جُرحت لِأَجْلِ خَطَايَانَا، وتوجعت لِأَجْلِ آثَامِنَا، تأديب سلامنا عليك، وبجراحاتك شفينا، كنا كُلُّنَا ضالين مِثْلَ خراف.",
+    "جُرحت لِأَجْلِ خَطَايَانَا، وتوجعت لِأَجْلِ آثَامِنَا، تأديب سلامنا عليك، وبجراحاتك شفيا، كُنَّا كُلُّنَا ضالين مِثْلَ خراف.",
   ],
   [
     Prefix.same + "&C=Priest",
@@ -12204,7 +12207,7 @@ PrayersArrayFR = [[
   [
     Prefix.same + "&C=Priest",
     "",
-    "Tu es Pierre, et sur ce roc, je bâtirai mon Eglise, et les portes de l’enfer ne pourront rien contre elle. Ceci fut lorsque tu interrogeas tes purs disciples leur demandant : \" Que disent les gens de Moi ?\".",
+    "Tu es Pierre, et sur ce roc, je bâtirai mon Eglise, et les portes de l’enfer ne pourront rien contre elle. Ceci fut lorsque tu interrogeas tes purs disciples leur demandant : \"Que disent les gens de Moi ?\".",
     "",
     "أَنْت بطرس وعلى هَذِهِ الصخرة سأبني كنيستي وأبواب الجحيم لن تقوي عليها هَذا الذي عِنْدَمَا سألت تلاميذك الأطهار قائلًا لَهُمْ: \"من يقول الناس أني أَنا اً\".",
   ],
@@ -12842,7 +12845,7 @@ PrayersArrayFR = [[
     "",
     "Oraison de fraction de Saint Apiphanios\n(Ô notre Dieu où pouvons-nous trouver la demeure des pays de la Sagesse?)",
     "",
-    " قِسمة القديس أبيفانيوس سنوي\n(يا إلهنا،ـ بلاد الحكمة أين مسكنها وأين موطنها)",
+    "قِسمة القديس أبيفانيوس سنوي\n(يا إلهنا،ـ بلاد الحكمة أين مسكنها وأين موطنها)",
   ],
   [
     Prefix.same + "&C=Priest",
@@ -12877,7 +12880,7 @@ PrayersArrayFR = [[
     "",
     "La Sagesse a envoyé ses serviteurs proclamer sans cesse, disant : \"Pour celui qui est simple elle se penche vers lui\". Et aux insensés elle dit : \"Venez manger de mon Corps et buvez de mon Sang. Abandonnez toute ignorance et vous vivrez\".",
     "",
-    "الحكمة أرسلت عبيدها ينادون عَلَى الدَوَامِ قائلين: \"مَنْ هُوَ بسيط فتمل إليَّ.\" ولناقص الفهم تقول لَهُمْ: \"هلموا كلوا من خبزي واشرَبّوا من دمي. أتركوا الجهالة عنكم فتحيوا.\"",
+    "الحكمة أرسلت عبيدها ينادون عَلَى الدَوَامِ قائلين: \"مَنْ هُوَ بسيط فتمل إليَّ.\"ولناقص الفهم تقول لَهُمْ: \"هلموا كلوا من خبزي واشرَبّوا من دمي. أتركوا الجهالة عنكم فتحيوا.\"",
   ],
   [
     Prefix.same + "&C=Priest",
@@ -12893,7 +12896,7 @@ PrayersArrayFR = [[
     "",
     "Oraison de fraction pour la fête de la circoncision et l’entrée au Temple\n(Nous louons et glorifions Le Dieu des dieux, Seigneur des seigneurs)",
     "",
-    " قِسمة عيد الختان ودخول أورشليم\n(نسبح ونمجد إله الآلهة ورَبّ الأرَبّاب)",
+    "قِسمة عيد الختان ودخول أورشليم\n(نسبح ونمجد إله الآلهة ورَبّ الأرَبّاب)",
   ],
   [
     Prefix.same + "&C=Priest",
@@ -12937,7 +12940,7 @@ PrayersArrayFR = [[
     "",
     "",
     "",
-    " قِسمة عيد البشارة المجيد\n(نَسْجُدْ ونمجد إله الآلهة ورَبّ الأرَبّاب)",
+    "قِسمة عيد البشارة المجيد\n(نَسْجُدْ ونمجد إله الآلهة ورَبّ الأرَبّاب)",
   ],
   [
     Prefix.same + "&C=Priest",
@@ -12981,7 +12984,7 @@ PrayersArrayFR = [[
     "",
     "Oraison de fraction pour le jeûne des Apôtres\n(Toi qui est Le Logos du Père, Le Dieu qui est avant les siècles)",
     "",
-    " قِسمة للابن في صوم الرسل\n(أَنْت ھو كلمة الآب الإلَهَ الذي قبَلْ الدھور)",
+    "قِسمة للابن في صوم الرسل\n(أَنْت ھو كلمة الآب الإلَهَ الذي قبَلْ الدھور)",
   ],
   [
     Prefix.same + "&C=Priest",
@@ -13032,7 +13035,7 @@ PrayersArrayFR = [[
     "",
     "Oraison de fraction de la fête des Apôtres",
     "",
-    " قِسمة عيد الرسل\n(يا اللّه الآب السماوي القادر عَلَى كُلِّ شيء)",
+    "قِسمة عيد الرسل\n(يا اللّه الآب السماوي القادر عَلَى كُلِّ شيء)",
   ],
   [
     Prefix.same + "&C=Priest",
@@ -13097,7 +13100,7 @@ PrayersArrayFR = [[
     "",
     "Oraison de fraction du jeûne et des fêtes de la Sainte Vierge",
     "",
-    " قِسمة صوم وأعياد العَذْراءْ\n(يا اللّه الساكن في الأعالي والناظر من علو سماه)",
+    "قِسمة صوم وأعياد العَذْراءْ\n(يا اللّه الساكن في الأعالي والناظر من علو سماه)",
   ],
   [
     Prefix.same + "&C=Priest",
@@ -13190,7 +13193,7 @@ PrayersArrayFR = [[
     "",
     "Oraison de fraction pour les fêtes de la Sainte Vierge et des anges\n(Voici présent avec nous aujourd’hui sur cet autel, Emmanuel)",
     "",
-    " قِسمة أعياد العَذْراءْ والملائكة والسمائيين\n(هوذا كائن مَعَنا عَلَى هَذِهِ المائدة اليوم، عِمَّانُوئِيلْ إلهنا)",
+    "قِسمة أعياد العَذْراءْ والملائكة والسمائيين\n(هوذا كائن مَعَنا عَلَى هَذِهِ المائدة اليوم، عِمَّانُوئِيلْ إلهنا)",
   ],
   [
     Prefix.same + "&C=Priest",
@@ -13283,7 +13286,7 @@ PrayersArrayFR = [[
     "",
     "",
     "",
-    " قِسمة عيد عُرْسِ قَانَا الجليل\n(انت هُوَ كلمة الآب الذي قبَلْ الدهور، رَئِيسُ الكَهَنَةِ الأعظم)",
+    "قِسمة عيد عُرْسِ قَانَا الجليل\n(انت هُوَ كلمة الآب الذي قبَلْ الدهور، رَئِيسُ الكَهَنَةِ الأعظم)",
   ],
   [
     Prefix.same + "&C=Priest",
@@ -13334,7 +13337,7 @@ PrayersArrayFR = [[
     "",
     "",
     "",
-    " قِسمة عيد التجلي\n(أَنْت هُوَ كلمة الآب الإلَهَ الذي قبَلْ الدهور)",
+    "قِسمة عيد التجلي\n(أَنْت هُوَ كلمة الآب الإلَهَ الذي قبَلْ الدهور)",
   ],
   [
     Prefix.same + "&C=Priest",
@@ -13378,7 +13381,7 @@ PrayersArrayFR = [[
     "",
     "Oraison de fraction pour la fête de l’entrée de Jésus en Égypte\n(Ô Maître Seigneur, notre Dieu le créateur l’invisible)",
     "",
-    " قِسمة عيد دخول المَسِيحْ أرض مصر\n(إيها السَيِّدُ الرَبُّ إلَهْنَا الخالق غَيْرُ المرئي)",
+    "قِسمة عيد دخول المَسِيحْ أرض مصر\n(إيها السَيِّدُ الرَبُّ إلَهْنَا الخالق غَيْرُ المرئي)",
   ],
   [
     Prefix.same + "&C=Priest",
@@ -13436,7 +13439,7 @@ PrayersArrayFR = [[
     "",
     "Oraison de Fraction du 29 de chaque mois copte",
     "",
-    " قِسمة كُلِّ يوم 29 من الشهر القبطي\n(نَسْجُدْ ونمجد إله الآلهة ورَبّ الأرَبّاب)",
+    "قِسمة كُلِّ يوم 29 من الشهر القبطي\n(نَسْجُدْ ونمجد إله الآلهة ورَبّ الأرَبّاب)",
   ],
   [
     Prefix.same + "&C=Priest",
@@ -13871,10 +13874,10 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.same + "&C=Diacon",
-    "̀Ⲧ̀ⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲕ ⲱ̀ Ⲡⲭ̅ⲥ̅: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ: ϫⲉ ⲁⲕⲧⲱⲛⲕ ⲁⲕⲥⲱϯ ⲙ̀ⲙⲟⲛ.",
-    "Nous T'adorons ô Christ♫ avec Ton Père très bon♫ et le Saint Esprit♫ car Tu es ressuscité et nous as sauvés.",
-    "تين اوؤشت إموك أو بي اخرستوس♫ نيم بيك يوت إن آغاثوس♫ نيم بي إبنفما اثؤاب♫ جي آك تونك أكسوتي إمّون.",
-    "نَسْجُدْ لَكَ ايها المسيح♫ مَعَ ابيك الصَالِح♫ والْرُوحْ القُدُسْ♫ لأنَّكَ قُمتَ وخَلصْتَنا.",
+    "̀Ⲧ̀ⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲕ ⲱ̀ Ⲡⲭ̅ⲥ̅: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ: " + seasonal.giaki.COP + ".",
+    "Nous T'adorons ô Christ♫ avec Ton Père très bon♫ et le Saint Esprit♫ " + seasonal.giaki.FR + ".",
+    "تين اوؤشت إموك أو بي اخرستوس♫ نيم بيك يوت إن آغاثوس♫ نيم بي إبنفما اثؤاب♫ " + seasonal.giaki.CA + ".",
+    "نَسْجُدْ لَكَ ايها المسيح♫ مَعَ ابيك الصَالِح♫ والْرُوحْ القُدُسْ♫ " + seasonal.giaki.AR + ".",
   ],
 ],
 [
@@ -13899,7 +13902,7 @@ PrayersArrayFR = [[
     "",
     "Quatrins du carillon pour la fête de la Croix",
     "",
-    " أرَبّاع الناقوس لعيد الصليب",
+    "أرَبّاع الناقوس لعيد الصليب",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -13922,7 +13925,7 @@ PrayersArrayFR = [[
     "",
     "Quatrins du carillon pour le mois de Kiahk",
     "",
-    " أرَبّاع الناقوس لشهر كيهك",
+    "أرَبّاع الناقوس لشهر كيهك",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -13945,7 +13948,7 @@ PrayersArrayFR = [[
     "",
     "Quatrins du carillon pour le Paramoun de la Nativité",
     "",
-    " أرَبّاع الناقوس لبرامون عيد الميلاد",
+    "أرَبّاع الناقوس لبرامون عيد الميلاد",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -13968,7 +13971,7 @@ PrayersArrayFR = [[
     "",
     "Quatrins du carillon pour la Nativité",
     "",
-    " أرَبّاع الناقوس لعيد الميلاد",
+    "أرَبّاع الناقوس لعيد الميلاد",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -14007,7 +14010,7 @@ PrayersArrayFR = [[
     "",
     "Quatrins du carillon pour le paramoun du Baptême du Christ",
     "",
-    " أرَبّاع الناقوس لبرامون الغطاس",
+    "أرَبّاع الناقوس لبرامون الغطاس",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -14030,7 +14033,7 @@ PrayersArrayFR = [[
     "",
     "Quatrins du carillon pour le Baptême du Christ",
     "",
-    " أرَبّاع الناقوس لعيد الغطاس",
+    "أرَبّاع الناقوس لعيد الغطاس",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -14071,7 +14074,7 @@ PrayersArrayFR = [[
     "",
     "Quatrins du carillon pour les Noces de Cana",
     "",
-    " أرَبّاع الناقوس لعرس قانا الجليل",
+    "أرَبّاع الناقوس لعرس قانا الجليل",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -14087,7 +14090,7 @@ PrayersArrayFR = [[
     "",
     "Quatrins du carillon pour l’entrée du Christ au Temple",
     "",
-    " أرَبّاع الناقوس لعيد دخول المَسِيحْ إلى الهَيْكَلْ",
+    "أرَبّاع الناقوس لعيد دخول المَسِيحْ إلى الهَيْكَلْ",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -14103,7 +14106,7 @@ PrayersArrayFR = [[
     "",
     "Quatrins du carillon pour le Grand Carême",
     "",
-    " أرَبّاع الناقوس للصوم الكبير",
+    "أرَبّاع الناقوس للصوم الكبير",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -14133,7 +14136,7 @@ PrayersArrayFR = [[
     "",
     "Quatrins du carillon pour la fête de l’Annonciation",
     "",
-    " أرَبّاع الناقوس لعيد البشارة",
+    "أرَبّاع الناقوس لعيد البشارة",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -14163,7 +14166,7 @@ PrayersArrayFR = [[
     "",
     "Quatrins du carillon pour le Samedi de Lazare",
     "",
-    " أرَبّاع الناقوس لسبت لعاز",
+    "أرَبّاع الناقوس لسبت لعاز",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -14179,7 +14182,7 @@ PrayersArrayFR = [[
     "",
     "Quatrins du carillon pour le Dimanche des Rameaux",
     "",
-    " أرَبّاع الناقوس لأحد الشعانين",
+    "أرَبّاع الناقوس لأحد الشعانين",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -14202,7 +14205,7 @@ PrayersArrayFR = [[
     "",
     "Quatrins du carillon pour la fête de la Résurrection",
     "",
-    " أرَبّاع الناقوس للقيامة والخماسين",
+    "أرَبّاع الناقوس للقيامة والخماسين",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -14243,7 +14246,7 @@ PrayersArrayFR = [[
     "",
     "Quatrins du carillon pour la fête de l’Ascension",
     "",
-    " أرَبّاع الناقوس لعيد الصعود",
+    "أرَبّاع الناقوس لعيد الصعود",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -14273,7 +14276,7 @@ PrayersArrayFR = [[
     "",
     "Quatrins du carillon pour la fête de Pentecote",
     "",
-    " أرَبّاع الناقوس لعيد العنصرة",
+    "أرَبّاع الناقوس لعيد العنصرة",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -14303,7 +14306,7 @@ PrayersArrayFR = [[
     "",
     "Quatrins du carillon pour la fête de l’entrée du Christ en Egypte",
     "",
-    " أرَبّاع لعيد دخول المَسِيحْ أرض مصر",
+    "أرَبّاع لعيد دخول المَسِيحْ أرض مصر",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -14326,7 +14329,7 @@ PrayersArrayFR = [[
     "",
     "Quatrins du carillon pour la fête de l’Épiphanie",
     "",
-    " أرَبّاع الناقوس لعيد التجلي",
+    "أرَبّاع الناقوس لعيد التجلي",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -14349,7 +14352,7 @@ PrayersArrayFR = [[
     "",
     "Quatrins du carillon pour le 29 du mois copte",
     "",
-    " أرَبّاع الناقوس ليوم 29 من الشهر القبطي",
+    "أرَبّاع الناقوس ليوم 29 من الشهر القبطي",
   ],
   [
     Prefix.placeHolder,
@@ -14406,7 +14409,7 @@ PrayersArrayFR = [[
     "",
     "Quatrins du carillon en présence du Pape ou d’un Evêque",
     "",
-    " أرَبّاع الناقوس في حضور البطرك أو الأُسْقُفْ",
+    "أرَبّاع الناقوس في حضور البطرك أو الأُسْقُفْ",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -14446,7 +14449,7 @@ PrayersArrayFR = [[
     "",
     "",
     "",
-    " ذُكْصُولُوجِيَّة عيد النيروز",
+    "ذُكْصُولُوجِيَّة عيد النيروز",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -14511,7 +14514,7 @@ PrayersArrayFR = [[
     "",
     "Doxologie pour la Fête de la Croix",
     "",
-    " ذُكْصُولُوجِيَّة عيد الصليب",
+    "ذُكْصُولُوجِيَّة عيد الصليب",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -14926,7 +14929,7 @@ PrayersArrayFR = [[
     "",
     "4ème Doxologie pour Kiahk",
     "",
-    " ذُكْصُولُوجِيَّة رابعة لكيهك",
+    "ذُكْصُولُوجِيَّة رابعة لكيهك",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -14977,7 +14980,7 @@ PrayersArrayFR = [[
     "",
     "5ème Doxologie pour Kiahk",
     "",
-    " ذُكْصُولُوجِيَّة خامسة كيهك",
+    "ذُكْصُولُوجِيَّة خامسة كيهك",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -15056,7 +15059,7 @@ PrayersArrayFR = [[
     "",
     "6ème Doxologie pour Kiahk",
     "",
-    " ذُكْصُولُوجِيَّة سادسة كيهك",
+    "ذُكْصُولُوجِيَّة سادسة كيهك",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -15107,7 +15110,7 @@ PrayersArrayFR = [[
     "",
     "",
     "",
-    " ذُكْصُولُوجِيَّة برامون الميلاد",
+    "ذُكْصُولُوجِيَّة برامون الميلاد",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -15203,7 +15206,7 @@ PrayersArrayFR = [[
     "",
     "1ère Doxologie pour la Nativité",
     "",
-    " ذُكْصُولُوجِيَّة للميلاد",
+    "ذُكْصُولُوجِيَّة للميلاد",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -15279,7 +15282,7 @@ PrayersArrayFR = [[
     "",
     "2ème Doxologie pour la Nativité",
     "",
-    " ذُكْصُولُوجِيَّة ثانية للميلاد",
+    "ذُكْصُولُوجِيَّة ثانية للميلاد",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -15316,7 +15319,7 @@ PrayersArrayFR = [[
     "",
     "3ème Doxologie pour la Nativité",
     "",
-    " ذُكْصُولُوجِيَّة ثالثة للميلاد",
+    "ذُكْصُولُوجِيَّة ثالثة للميلاد",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -15429,7 +15432,7 @@ PrayersArrayFR = [[
     "",
     "Doxologie pour la fête de la circoncision",
     "",
-    " ذُكْصُولُوجِيَّة عيد الختان",
+    "ذُكْصُولُوجِيَّة عيد الختان",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -15498,7 +15501,7 @@ PrayersArrayFR = [[
     "",
     "Doxologie du paramoun de l’Épiphanie",
     "",
-    " ذُكْصُولُوجِيَّة برمون الغطاس",
+    "ذُكْصُولُوجِيَّة برمون الغطاس",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -15576,7 +15579,7 @@ PrayersArrayFR = [[
     "",
     "Doxologie pour la fête de l’Épiphanie",
     "",
-    " ذُكْصُولُوجِيَّة عيد الغطاس",
+    "ذُكْصُولُوجِيَّة عيد الغطاس",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -15666,11 +15669,11 @@ PrayersArrayFR = [[
     "",
     "Deuxième Doxologie pour la fête de l’Épiphanie",
     "",
-    " ذُكْصُولُوجِيَّة ثانية لعيد الغطاس",
+    "ذُكْصُولُوجِيَّة ثانية لعيد الغطاس",
   ],
   [
     Prefix.same + "&C=Diacon",
-    "Ϥϯ ⲡⲓⲙⲟⲛⲟⲅⲉⲛⲏⲥ: ⲁϥⲓ̀ ⲉ̀ϫⲉⲛ ⲡⲓⲒⲟⲣⲇⲁⲛⲏⲥ: ϯϩⲓⲕⲱⲛ ⲉ̀ⲧⲁⲥⲧⲁⲕⲟ: ⲟⲩⲟϩ ⲁⲥⲙⲟⲩ ϧⲉⲛ ⲡⲓⲛⲟⲃⲓ.",
+    "Ϥϯ ⲡⲓⲙⲟⲛⲟⲅⲉⲛⲏⲥ: ⲁϥⲓ̀ ⲉ̀ϫⲉⲛ ⲡⲓⲒⲟⲣⲇⲁⲛⲏⲥ: ϯϩⲓⲕⲱⲛ ⲉ̀ⲧⲁⲥⲧⲁⲕⲟ: ⲟⲩⲟϩ Ⲥ̀ⲙⲟⲩ ϧⲉⲛ ⲡⲓⲛⲟⲃⲓ.",
     "L’Unique Dieu est venu au Jourdain et l’image qui souilla et périt par le péché,",
     "",
     "الإلَهَ الوَحِيد♫ جَاءَ إلى الأردن♫ والصورة التي فسدت♫ وماتت بالخطية.",
@@ -15770,7 +15773,7 @@ PrayersArrayFR = [[
     "",
     "Doxologie pour la fête des Noces de Cana en Galilée",
     "",
-    " ذُكْصُولُوجِيَّة عُرْسِ قَانَا الجليل",
+    "ذُكْصُولُوجِيَّة عُرْسِ قَانَا الجليل",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -15821,7 +15824,7 @@ PrayersArrayFR = [[
     "",
     "Doxologie pour la fête de la présentation du Christ au Temple",
     "",
-    " ذُكْصُولُوجِيَّة دخول المَسِيحْ الهَيْكَلْ",
+    "ذُكْصُولُوجِيَّة دخول المَسِيحْ الهَيْكَلْ",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -15872,7 +15875,7 @@ PrayersArrayFR = [[
     "",
     "Doxologie pour le jeûne de Ninive",
     "",
-    " ذُكْصُولُوجِيَّة صوم يونان",
+    "ذُكْصُولُوجِيَّة صوم يونان",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -15937,7 +15940,7 @@ PrayersArrayFR = [[
     "",
     "Doxologie pour le Grand Carême (les Samedis et dimanches)",
     "",
-    " ذُكْصُولُوجِيَّة آحاد وسبوت الصوم الكبير",
+    "ذُكْصُولُوجِيَّة آحاد وسبوت الصوم الكبير",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -16072,7 +16075,7 @@ PrayersArrayFR = [[
     "",
     "Doxologie pour le Grand Carême (tous les jours de la semaine sauf samedi et dimanche)",
     "",
-    " ذُكْصُولُوجِيَّة الصوم الكبير",
+    "ذُكْصُولُوجِيَّة الصوم الكبير",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -16123,7 +16126,7 @@ PrayersArrayFR = [[
     "",
     "Deuxième doxologie pour le Grand Carême",
     "",
-    " ذُكْصُولُوجِيَّة ثانية للصوم الكبير",
+    "ذُكْصُولُوجِيَّة ثانية للصوم الكبير",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -16244,7 +16247,7 @@ PrayersArrayFR = [[
     "",
     "Troisième doxologie pour le Grand Carême",
     "",
-    " ذُكْصُولُوجِيَّة ثالثة للصوم الكبير",
+    "ذُكْصُولُوجِيَّة ثالثة للصوم الكبير",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -16309,7 +16312,7 @@ PrayersArrayFR = [[
     "",
     "Quatrième doxologie pour le Grand Carême",
     "",
-    " ذُكْصُولُوجِيَّة رابعة للصوم الكبير",
+    "ذُكْصُولُوجِيَّة رابعة للصوم الكبير",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -16563,7 +16566,7 @@ PrayersArrayFR = [[
     "",
     "Doxologie pour la fête de l’Annonciation",
     "",
-    " ذُكْصُولُوجِيَّة عيد البشارة",
+    "ذُكْصُولُوجِيَّة عيد البشارة",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -16659,7 +16662,7 @@ PrayersArrayFR = [[
     "",
     "1ère Doxologie Samedi de Lazare",
     "",
-    " ذُكْصُولُوجِيَّة سبت لعازر",
+    "ذُكْصُولُوجِيَّة سبت لعازر",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -16710,7 +16713,7 @@ PrayersArrayFR = [[
     "",
     "2ème Doxologie Samedi de Lazare",
     "",
-    " ذُكْصُولُوجِيَّة ثانية لسبت لعازر",
+    "ذُكْصُولُوجِيَّة ثانية لسبت لعازر",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -16778,7 +16781,7 @@ PrayersArrayFR = [[
     "",
     "1ère Doxologie Dimanche des Rameaux",
     "",
-    " ذُكْصُولُوجِيَّة أحد الشعانين",
+    "ذُكْصُولُوجِيَّة أحد الشعانين",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -16857,7 +16860,7 @@ PrayersArrayFR = [[
     "",
     "2ème Doxologie Dimanche des Rameaux",
     "",
-    " ذُكْصُولُوجِيَّة ثانية لأحد الشعانين",
+    "ذُكْصُولُوجِيَّة ثانية لأحد الشعانين",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -16922,7 +16925,7 @@ PrayersArrayFR = [[
     "",
     "3ème Doxologie Dimanche des Rameux",
     "",
-    " ذُكْصُولُوجِيَّة ثالثة لأحد الشعانين",
+    "ذُكْصُولُوجِيَّة ثالثة لأحد الشعانين",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -17014,7 +17017,7 @@ PrayersArrayFR = [[
     "",
     "1ère Doxologie pour la Résurrection",
     "",
-    " ذُكْصُولُوجِيَّة عيد القيامة",
+    "ذُكْصُولُوجِيَّة عيد القيامة",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -17076,7 +17079,7 @@ PrayersArrayFR = [[
     "",
     "2ème Doxologie pour la Résurrection",
     "",
-    " ذُكْصُولُوجِيَّة ثانية لعيد القيامة",
+    "ذُكْصُولُوجِيَّة ثانية لعيد القيامة",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -17141,7 +17144,7 @@ PrayersArrayFR = [[
     "",
     "Doxologie pour le Dimanche de Thomas",
     "",
-    " ذُكْصُولُوجِيَّة أحد توما",
+    "ذُكْصُولُوجِيَّة أحد توما",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -17203,7 +17206,7 @@ PrayersArrayFR = [[
     "",
     "Doxologie pour l’Ascension",
     "",
-    " ذُكْصُولُوجِيَّة عيد الصعود",
+    "ذُكْصُولُوجِيَّة عيد الصعود",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -17300,7 +17303,7 @@ PrayersArrayFR = [[
     "",
     "Doxologie pour la Pentecote",
     "",
-    " ذُكْصُولُوجِيَّة عيد حلول الْرُوحْ القُدُسْ",
+    "ذُكْصُولُوجِيَّة عيد حلول الْرُوحْ القُدُسْ",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -17348,7 +17351,7 @@ PrayersArrayFR = [[
     "",
     "Doxologie pour l’Entrée de Jésus en Egypte",
     "",
-    " ذُكْصُولُوجِيَّة عيد دخول المَسِيحْ مصر",
+    "ذُكْصُولُوجِيَّة عيد دخول المَسِيحْ مصر",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -17399,7 +17402,7 @@ PrayersArrayFR = [[
     "",
     "Doxologie pour la fête de la Transformationo",
     "",
-    " ذُكْصُولُوجِيَّة عيد التجلي",
+    "ذُكْصُولُوجِيَّة عيد التجلي",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -17461,7 +17464,7 @@ PrayersArrayFR = [[
     "",
     "Psaume 50",
     "",
-    " المَزْمُورْ الخمسون",
+    "المَزْمُورْ الخمسون",
   ],
   [
     Prefix.same + "&C=NoActor",
@@ -17551,7 +17554,7 @@ PrayersArrayFR = [[
     "",
     "Prière de la 1ère Heure",
     "",
-    " صَلاةْ باكر",
+    "صَلاةْ باكر",
   ],
 ],
 [
@@ -17560,7 +17563,7 @@ PrayersArrayFR = [[
     "",
     "Prosternons-nous",
     "",
-    " هلمّ نَسْجُدُ",
+    "هلمّ نَسْجُدُ",
   ],
   [
     Prefix.same + "&C=NoActor",
@@ -17611,7 +17614,7 @@ PrayersArrayFR = [[
     "",
     "Epître de saint Paul aux Éphésiens (4 : 1 - 5)",
     "",
-    " البولس من رسالة أفسس (4: 1ـــ5)",
+    "البولس من رسالة أفسس (4: 1ـــ5)",
   ],
   [
     Prefix.same + "&C=NoActor",
@@ -17627,7 +17630,7 @@ PrayersArrayFR = [[
     "",
     "De la foi de l'Eglise",
     "",
-    " من إيمان الكنيسة",
+    "من إيمان الكنيسة",
   ],
   [
     Prefix.same + "&C=NoActor",
@@ -19350,10 +19353,10 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.same + "&C=Priest",
-    "Ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲕ ⲱ̀ Ⲡⲭ̅ⲥ̅: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ: ϫⲉ ⲁⲕⲧⲱⲛⲕ ⲁⲕⲥⲱϯ ⲙ̀ⲙⲟⲛ ⲛⲁⲓ ⲛⲁⲛ.",
-    "Nous T’adorons, O Christ avec Ton bon Père et Le Saint Esprit, car Tu es ressuscité et nous as sauvés, Aie pitie de nous.",
-    "تين أوؤشت إمموك أو بي اخرستوس نيم بيكيوت إن آغاثوس نيم بي ابنيفما إثؤاوب جي آك تونك أكسوتي إمّون ناي نان.",
-    "نسجدُ لكَ أيُّهَا المَسِيحْ مَعَ أبيكَ الصَالِحْ والرُوحِ القُدسْ لأنَّكَ قُمتَ وخَلصْتَنا، ارْحَمْنَا.",
+    "Ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲕ ⲱ̀ Ⲡⲭ̅ⲥ̅: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ: " + seasonal.giaki.COP + " ⲛⲁⲓ ⲛⲁⲛ.",
+    "Nous T’adorons, O Christ avec Ton bon Père et Le Saint Esprit, " + seasonal.giaki.FR + ", Aie pitie de nous.",
+    "تين أوؤشت إمموك أو بي اخرستوس نيم بيكيوت إن آغاثوس نيم بي ابنيفما إثؤاوب " + seasonal.giaki.CA + " ناي نان.",
+    "نسجدُ لكَ أيُّهَا المَسِيحْ مَعَ أبيكَ الصَالِحْ والرُوحِ القُدسْ " + seasonal.giaki.AR + "، ارْحَمْنَا.",
   ],
 ],
 [
@@ -20123,7 +20126,7 @@ PrayersArrayFR = [[
     "",
     "6) Tu es pleine de grâce, ô Mère de Dieu, toujours vierge. Nous te louons car c'est par la Croix de Ton fils que l'enfer a été anéanti, la mort vaincue. Nous étions morts, nous avons été relevés et il nous a été accordé les mérites de la Vie éternelle et les délices du paradis.",
     "",
-    "أَنْت هي الممتلئة نِعْمَةْ يا والِدَةِ الإلَهِ العَذْراءْ. نُعَظِّمُكِ لِأنَّ مِنْ قِبَلِ صليب ابنك انهبط الجحيم وبطل الموت. أمواتا كنا فنهضنا، واستحققنا الحياة الأبدية، ونلنا نعيم الفردوس الأول.",
+    "أَنْت هي الممتلئة نِعْمَةْ يا والِدَةِ الإلَهِ العَذْراءْ. نُعَظِّمُكِ لِأنَّ مِنْ قِبَلِ صليب ابنك انهبط الجحيم وبطل الموت. أموتا كُنَّا فنهضنا، واستحققنا الحياة الأبدية، ونلنا نعيم الفردوس الأول.",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -22699,7 +22702,7 @@ PrayersArrayFR = [[
     "",
     "39 En voyant cela, le pharisien qui avait invité Jésus se dit en lui-même : « Si cet homme était prophète, il saurait qui est cette femme qui le touche, et ce qu'elle est : une pécheresse. » 40 Jésus prit la parole : « Simon, j'ai quelque chose à te dire. - Parle Maître. » 41 Jésus reprit : « Un créancier avait deux débiteurs ; le premier lui devait cinq cent pièces d'argent, l'autre cinquante. 42 Comme ni l'un ni l'autre ne pouvait rembourser, il remit à tous deux leur dette. Lequel des deux l'aimera davantage ? » 43 Simon répondit : « C'est celui à qui il a remis davantage, il me semble ». – « Tu as raison\", lui dit Jésus ».",
     "",
-    "فلما رأى الفريسي الذي دعاه ذَلِكَ قال محدثا نفسه: \"لو كان هَذَا نبيا لعلم من هي هَذِهِ المرأة التي لمسته، وما حالها، إنها خاطئة\". فأجاب يسوع وقال له: \"يا سمعان عندي كلمة أقولها لك\". فقال: \"قل يا معلم\". قال: \"كان لدائن مدينان على الواحد خمسمائة دينار وعلى الآخر خمسون، وإذ لم يكن لهما ما يوفيان سامحهما كليهما. فمن منهما يحبه أكثر؟\" أجاب سمعان وقال: \"أظنُّ الذي سامحه بالأكثر\". فقال له: \"بالصواب حكمتَ\". ",
+    "فلما رأى الفريسي الذي دعاه ذَلِكَ قال محدثا نفسه: \"لو كان هَذَا نبيا لعلم من هي هَذِهِ المرأة التي لمسته، وما حالها، إنها خاطئة\". فأجاب يسوع وقال له: \"يا سمعان عندي كلمة أقولها لك\". فقال: \"قل يا معلم\". قال: \"كان لدائن مدينان على الواحد خمسمائة دينار وعلى الآخر خمسون، وإذ لم يكن لهما ما يوفيان سامحهما كليهما. فمن منهما يحبه أكثر؟\"أجاب سمعان وقال: \"أظنُّ الذي سامحه بالأكثر\". فقال له: \"بالصواب حكمتَ\". ",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -22813,7 +22816,7 @@ PrayersArrayFR = [[
     "",
     "41 Pierre dit alors : « Seigneur, cette parabole s'adresse-t-elle à nous ou à tout le monde ? » 42 Le Seigneur répond : « Quel est donc l'intendant fidèle et sensé à qui le maître confiera la charge de ses domestiques pour leur donner, en temps voulu, leur part de blé ? 43 Heureux serviteur, que son maître, en arrivant, trouvera à son travail. 44 Vraiment, je vous le déclare : il lui confiera la charge de tous ses biens. 45 Mais si le même serviteur se dit : 'mon maître tarde à venir', et s'il se met à frapper serviteurs et servantes, à manger, à boire et à s'enivrer, 46 son maître viendra le jour où il ne l'attend pas et à l'heure qu'il n'a pas prévue ; il se séparera de lui et le mettra parmi les infidèles ». ",
     "",
-    "فقال لَهُ بطرس: \"يا رب ألنا قلتَ هَذَا أم قلته للجميع؟\" فقال الرب: \"من هو الوكيل الأمين الحكيم الذي يقيمه سيده على عبيده ليعطيهم طعامهم في حينه ؟ طوبى لذلَكَ العبد الذي إذا جاء سيده يجده يفعل هكذا. حقا أقول لكم إنه يقيمه على جميع أمواله. ولَكِنَّ إن قال ذَلِكَ العبد الرديء في قلبه إن سيدي يبطئ في قدومه، فيبدأ يضرب العبيد والإماء ويأكُلِّ ويشرب ويسكر، يأتي سيد ذَلِكَ العبد في اليَومِ الذي لا يتوقعه وفي السَاعَةِ التي لا يعرفها، فيشقه من وسطه، ويجعل نصيبه مع عديمي الإيمان\".",
+    "فقال لَهُ بطرس: \"يا رب ألنا قلتَ هَذَا أم قلته للجميع؟\"فقال الرب: \"من هو الوكيل الأمين الحكيم الذي يقيمه سيده على عبيده ليعطيهم طعامهم في حينه ؟ طوبى لذلَكَ العبد الذي إذا جاء سيده يجده يفعل هكذا. حقا أقول لكم إنه يقيمه على جميع أمواله. ولَكِنَّ إن قال ذَلِكَ العبد الرديء في قلبه إن سيدي يبطئ في قدومه، فيبدأ يضرب العبيد والإماء ويأكُلِّ ويشرب ويسكر، يأتي سيد ذَلِكَ العبد في اليَومِ الذي لا يتوقعه وفي السَاعَةِ التي لا يعرفها، فيشقه من وسطه، ويجعل نصيبه مع عديمي الإيمان\".",
   ],
   [
     Prefix.placeHolder,
@@ -23233,7 +23236,7 @@ PrayersArrayFR = [[
     "Ⲁⲅⲓⲁ Ⲧ̀ⲣⲓⲁⲥ ̀ⲉ̀ⲗⲉⲑ̀ⲥⲟⲛ ⲑ̀ⲙⲁⲥ.",
     "Ô Trinité sainte, aie pitié de nous.",
     "",
-    " القُدُّوسْ ارْحَمْنَا.",
+    "القُدُّوسْ ارْحَمْنَا.",
   ],
 ],
 [
@@ -23319,7 +23322,7 @@ PrayersArrayFR = [[
     "Ⲁⲅⲓⲁ Ⲧ̀ⲣⲓⲁⲥ ̀ⲉ̀ⲗⲉⲑ̀ⲥⲟⲛ ⲑ̀ⲙⲁⲥ.",
     "Ô Trinité sainte, aie pitié de nous.",
     "",
-    " القُدُّوسْ ارْحَمْنَا.",
+    "القُدُّوسْ ارْحَمْنَا.",
   ],
 ],
 [
@@ -23539,7 +23542,7 @@ PrayersArrayFR = [[
     "Ⲁⲅⲓⲁ Ⲧ̀ⲣⲓⲁⲥ ̀ⲉ̀ⲗⲉⲑ̀ⲥⲟⲛ ⲑ̀ⲙⲁⲥ.",
     "Ô Trinité sainte, aie pitié de nous.",
     "",
-    " القُدُّوسْ ارْحَمْنَا.",
+    "القُدُّوسْ ارْحَمْنَا.",
   ],
 ],
 [
@@ -23584,7 +23587,7 @@ PrayersArrayFR = [[
     "Ⲁⲅⲓⲁ Ⲧ̀ⲣⲓⲁⲥ ̀ⲉ̀ⲗⲉⲑ̀ⲥⲟⲛ ⲑ̀ⲙⲁⲥ.",
     "Ô Trinité sainte, aie pitié de nous.",
     "",
-    " القُدُّوسْ ارْحَمْنَا.",
+    "القُدُّوسْ ارْحَمْنَا.",
   ],
 ],
 [
@@ -23593,7 +23596,7 @@ PrayersArrayFR = [[
     "",
     "Le Trisagion",
     "",
-    " قُدُّوسْ اللّه",
+    "قُدُّوسْ اللّه",
   ],
   [
     Prefix.same + "&C=Assembly",
@@ -23642,7 +23645,7 @@ PrayersArrayFR = [[
     "Ⲁⲅⲓⲁ Ⲧ̀ⲣⲓⲁⲥ ̀ⲉ̀ⲗⲉⲑ̀ⲥⲟⲛ ⲑ̀ⲙⲁⲥ.",
     "Ô Trinité sainte, aie pitié de nous.",
     "",
-    " القُدُّوسْ ارْحَمْنَا.",
+    "القُدُّوسْ ارْحَمْنَا.",
   ],
 ],
 [
@@ -23651,7 +23654,7 @@ PrayersArrayFR = [[
     "",
     "Réponse Praxis Nayrouz",
     "",
-    " مرد الإبركسيس لعيد النيروز",
+    "مرد الإبركسيس لعيد النيروز",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -23674,7 +23677,7 @@ PrayersArrayFR = [[
     "",
     "Réponse Praxis Fête de la sainte Crois",
     "",
-    " مرد الإبركسيس لعيد الصليب",
+    "مرد الإبركسيس لعيد الصليب",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -23694,7 +23697,7 @@ PrayersArrayFR = [[
     "",
     "Réponse Praxis 1ère et 2ème semaine de Kiahk",
     "",
-    " مرد الإبركسيس للأحد الأول والثالث من كيهك",
+    "مرد الإبركسيس للأحد الأول والثالث من كيهك",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -23760,7 +23763,7 @@ PrayersArrayFR = [[
     "",
     "Nativité",
     "",
-    " مرد الإبركسيس لعيد الميلاد",
+    "مرد الإبركسيس لعيد الميلاد",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -23783,7 +23786,7 @@ PrayersArrayFR = [[
     "",
     "Fête de la Circoncision",
     "",
-    " مرد الإبركسيس لعيد الختان",
+    "مرد الإبركسيس لعيد الختان",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -23803,7 +23806,7 @@ PrayersArrayFR = [[
     "",
     "Fête du Baptême",
     "",
-    " مرد الإبركسيس لعيد الغطاس",
+    "مرد الإبركسيس لعيد الغطاس",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -23833,7 +23836,7 @@ PrayersArrayFR = [[
     "",
     "Fête des Noces de Cana",
     "",
-    " مرد الإبركسيس لعرس قانا الجليل",
+    "مرد الإبركسيس لعرس قانا الجليل",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -23853,7 +23856,7 @@ PrayersArrayFR = [[
     "",
     "Samedis et Dimanches du Grand Carême",
     "",
-    " مرد الإبركسيس لسبوت وآحاد الصوم الكبير",
+    "مرد الإبركسيس لسبوت وآحاد الصوم الكبير",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -23873,7 +23876,7 @@ PrayersArrayFR = [[
     "",
     "Jours de la Semaine du Grand Carême",
     "",
-    " مرد الإبركسيس لأيام الإسبوع في الصوم الكبير",
+    "مرد الإبركسيس لأيام الإسبوع في الصوم الكبير",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -23890,10 +23893,10 @@ PrayersArrayFR = [[
 [
   [
     Prefix.massCommon + "BlessedYouAreWithYourFather&D=copticFeasts.AnyDay&C=Diacon",
-    "Ⲕ̀ⲥ̀ⲙⲁⲣⲱⲟⲩⲧ ⲁ̀ⲗⲏⲑⲱⲥ: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ: ϫⲉ ⲁⲕⲧⲱⲛⲕ ⲁⲕⲥⲱϯ ⲙ̀ⲙⲟⲛ ⲛⲁⲓ ⲛⲁⲛ.",
-    "Bénis es-tu en vérité, avec ton Père très bon, et l’Esprit-Saint, car Tu es ressuscité et nous as sauvés, Aie pitié de nous.",
-    "اك إكسمارؤوت آليثوس نيم بي اكيوت إن آغاثوس نيم بي ابنيفما اثؤواب جي آك تونك أكسوتي إمّون أكسوتي إمّون ناينان.",
-    "مُبَاركٌ أنتَ بِالحَقِيقَة مَعَ أبيكَ الصَالِحْ والْرُوحْ القُدُسْ  لأنَّكَ قُمتَ وخَلصْتَنا ارْحَمْنَا.",
+    "Ⲕ̀ⲥ̀ⲙⲁⲣⲱⲟⲩⲧ ⲁ̀ⲗⲏⲑⲱⲥ: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ: " + seasonal.giaki.COP + " ⲛⲁⲓ ⲛⲁⲛ.",
+    "Bénis es-tu en vérité, avec ton Père très bon, et l’Esprit-Saint, " + seasonal.giaki.FR + ", Aie pitié de nous.",
+    "اك إكسمارؤوت آليثوس نيم بي اكيوت إن آغاثوس نيم بي ابنيفما اثؤواب " + seasonal.giaki.CA + " أكسوتي إمّون ناينان.",
+    "مُبَاركٌ أنتَ بِالحَقِيقَة مَعَ أبيكَ الصَالِحْ والْرُوحْ القُدُسْ  " + seasonal.giaki.AR + " ارْحَمْنَا.",
   ],
 ],
 [
@@ -23902,7 +23905,7 @@ PrayersArrayFR = [[
     "",
     "Fête de l’Annonciation",
     "",
-    " مرد الإبركسيس لعيد البشارة",
+    "مرد الإبركسيس لعيد البشارة",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -23922,7 +23925,7 @@ PrayersArrayFR = [[
     "",
     "Dimanche des Rameaux",
     "",
-    " مرد الإبركسيس لأحد الشعانين",
+    "مرد الإبركسيس لأحد الشعانين",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -23938,7 +23941,7 @@ PrayersArrayFR = [[
     "",
     "La Résurrection",
     "",
-    " مرد الإبركسيس لعيد القيامة",
+    "مرد الإبركسيس لعيد القيامة",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -23961,7 +23964,7 @@ PrayersArrayFR = [[
     "",
     "Ascension",
     "",
-    " مرد الإبركسيس لعيد الصعود",
+    "مرد الإبركسيس لعيد الصعود",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -23984,7 +23987,7 @@ PrayersArrayFR = [[
     "",
     "Réponse du Praxis pour la Fête de Pentecôte",
     "",
-    " مرد الإبركسيس لعيد حلول الرُّوحِ القُدُسِ (العنصرة)",
+    "مرد الإبركسيس لعيد حلول الرُّوحِ القُدُسِ (العنصرة)",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -24007,7 +24010,7 @@ PrayersArrayFR = [[
     "",
     "Entrée du Christ en Égypte",
     "",
-    " مرد الإبركسيس لعيد دخول المَسِيحْ أرض مصر",
+    "مرد الإبركسيس لعيد دخول المَسِيحْ أرض مصر",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -24027,7 +24030,7 @@ PrayersArrayFR = [[
     "",
     "Entrée du Christ en Égypte",
     "",
-    " مرد الإبركسيس لعيد دخول المَسِيحْ أرض مصر",
+    "مرد الإبركسيس لعيد دخول المَسِيحْ أرض مصر",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -24047,7 +24050,7 @@ PrayersArrayFR = [[
     "",
     "Transfiguration",
     "",
-    " مرد الإبركسيس لعيد التجلي",
+    "مرد الإبركسيس لعيد التجلي",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -24074,7 +24077,7 @@ PrayersArrayFR = [[
     "",
     "Fête des Apôtres",
     "",
-    " مرد الإبركسيس لعيد الرسل",
+    "مرد الإبركسيس لعيد الرسل",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -24097,7 +24100,7 @@ PrayersArrayFR = [[
     "",
     "Du 29 du mois copte",
     "",
-    " مرد الإبركسيس ليوم 29 من الشهر القبطي",
+    "مرد الإبركسيس ليوم 29 من الشهر القبطي",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -24134,7 +24137,7 @@ PrayersArrayFR = [[
     "",
     "Fêtes des Quatres Incorporels",
     "",
-    " مرد الإبركسيس لتذكار الأرَبّعة حيوانات غَيْرُ المتجسدين",
+    "مرد الإبركسيس لتذكار الأرَبّعة حيوانات غَيْرُ المتجسدين",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -24150,7 +24153,7 @@ PrayersArrayFR = [[
     "",
     "Fête des Vingt-quatres Prêtres",
     "",
-    " مرد الإبركسيس لتذكار الأرَبّعة والعشرين قسيساً",
+    "مرد الإبركسيس لتذكار الأرَبّعة والعشرين قسيساً",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -24166,7 +24169,7 @@ PrayersArrayFR = [[
     "",
     "Fête de l’Archange Michel",
     "",
-    " مرد الإبركسيس لتذكار المَلاكْ ميخائيل",
+    "مرد الإبركسيس لتذكار المَلاكْ ميخائيل",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -24182,7 +24185,7 @@ PrayersArrayFR = [[
     "",
     "Fête de l’Archange Gabriel",
     "",
-    " مرد الإبركسيس لتذكار المَلاكْ غبريال",
+    "مرد الإبركسيس لتذكار المَلاكْ غبريال",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -24198,7 +24201,7 @@ PrayersArrayFR = [[
     "",
     "Fête de l’Archange Rapahël",
     "",
-    " مرد الإبركسيس لتذكار المَلاكْ رافائيل",
+    "مرد الإبركسيس لتذكار المَلاكْ رافائيل",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -24214,7 +24217,7 @@ PrayersArrayFR = [[
     "",
     "Fête de l’Archange Souriel",
     "",
-    " مرد الإبركسيس لتذكار المَلاكْ سوريال",
+    "مرد الإبركسيس لتذكار المَلاكْ سوريال",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -24230,7 +24233,7 @@ PrayersArrayFR = [[
     "",
     "Fête de Saint Jean-Baptiste",
     "",
-    " مرد الإبركسيس لعيد يوحنا المعمدان",
+    "مرد الإبركسيس لعيد يوحنا المعمدان",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -24246,7 +24249,7 @@ PrayersArrayFR = [[
     "",
     "N’importe quel Martyr",
     "",
-    " مرد الإبركسيس لتذكار أي شهيد",
+    "مرد الإبركسيس لتذكار أي شهيد",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -24262,7 +24265,7 @@ PrayersArrayFR = [[
     "",
     "Fête de Saint Marc",
     "",
-    " مرد الإبركسيس لعيد القديس مار مرقس الرسول",
+    "مرد الإبركسيس لعيد القديس مار مرقس الرسول",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -24278,7 +24281,7 @@ PrayersArrayFR = [[
     "",
     "Fête de Saint Etienne",
     "",
-    " مرد الإبركسيس لعيد الشَهِيدْ استيفانوس",
+    "مرد الإبركسيس لعيد الشَهِيدْ استيفانوس",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -24294,7 +24297,7 @@ PrayersArrayFR = [[
     "",
     "Fête de Saitns Serge et Bacchus",
     "",
-    " مرد الإبركسيس لعيد القِدِّيسِينْ سارجوس وواخوس",
+    "مرد الإبركسيس لعيد القِدِّيسِينْ سارجوس وواخوس",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -24310,7 +24313,7 @@ PrayersArrayFR = [[
     "",
     "Fête de Saint Georges",
     "",
-    " مرد الإبركسيس لعيد الشَهِيدْ مارجرجس",
+    "مرد الإبركسيس لعيد الشَهِيدْ مارجرجس",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -24326,7 +24329,7 @@ PrayersArrayFR = [[
     "",
     "Fête de Saint Mina",
     "",
-    " مرد الإبركسيس لعيد الشَهِيدْ مار مينا",
+    "مرد الإبركسيس لعيد الشَهِيدْ مار مينا",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -24342,7 +24345,7 @@ PrayersArrayFR = [[
     "",
     "Fête de Saint Théodore",
     "",
-    " مرد الإبركسيس لعيد الشَهِيدْ تادرس الإسفهسلار",
+    "مرد الإبركسيس لعيد الشَهِيدْ تادرس الإسفهسلار",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -24358,7 +24361,7 @@ PrayersArrayFR = [[
     "",
     "Fête de Saint Philipatir Mercurious",
     "",
-    " مرد الإبركسيس لعيد الشَهِيدْ فيلوباتير مرقوريوس",
+    "مرد الإبركسيس لعيد الشَهِيدْ فيلوباتير مرقوريوس",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -24374,7 +24377,7 @@ PrayersArrayFR = [[
     "",
     "Fête de Saint Côme",
     "",
-    " مرد الإبركسيس لعيد القديس",
+    "مرد الإبركسيس لعيد القديس",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -24390,7 +24393,7 @@ PrayersArrayFR = [[
     "",
     "Fête des 144000 Chastes",
     "",
-    " مرد الإبركسيس لتذكار الـ 144 ألفاً البتوليين",
+    "مرد الإبركسيس لتذكار الـ 144 ألفاً البتوليين",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -24406,7 +24409,7 @@ PrayersArrayFR = [[
     "",
     "Fête de Saints Apakir et Jean",
     "",
-    " مرد الإبركسيس لعيد القِدِّيسِينْ أباكير ويوحنا",
+    "مرد الإبركسيس لعيد القِدِّيسِينْ أباكير ويوحنا",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -24422,7 +24425,7 @@ PrayersArrayFR = [[
     "",
     "Fête de Saintes Damienne, Barbara, Julianne et Marina",
     "",
-    " مرد الإبركسيس لأعياد القديسات دميانة وبرَبّارة ويوليانة ومارينا",
+    "مرد الإبركسيس لأعياد القديسات دميانة وبرَبّارة ويوليانة ومارينا",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -24438,7 +24441,7 @@ PrayersArrayFR = [[
     "",
     "Fête de Saint Antoinne",
     "",
-    " مرد الإبركسيس لعيد الأنبا انطونيوس",
+    "مرد الإبركسيس لعيد الأنبا انطونيوس",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -24454,7 +24457,7 @@ PrayersArrayFR = [[
     "",
     "Fête de Saint Bichoy",
     "",
-    " مرد الإبركسيس لعيد الأنبا بيشوي",
+    "مرد الإبركسيس لعيد الأنبا بيشوي",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -24470,7 +24473,7 @@ PrayersArrayFR = [[
     "",
     "Fête de Saint Chénouté l’Archimandrite",
     "",
-    " مرد الإبركسيس لعيد الأنبا شنودة رئيس المتوحدين",
+    "مرد الإبركسيس لعيد الأنبا شنودة رئيس المتوحدين",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -24486,7 +24489,7 @@ PrayersArrayFR = [[
     "",
     "Fête de Saint Téji",
     "",
-    " مرد الإبركسيس لعيد الأنبا فريج",
+    "مرد الإبركسيس لعيد الأنبا فريج",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -24502,7 +24505,7 @@ PrayersArrayFR = [[
     "",
     "Fête de Saint Parsoma",
     "",
-    " مرد الإبركسيس لعيد الأنبا برسوم العريان",
+    "مرد الإبركسيس لعيد الأنبا برسوم العريان",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -24518,7 +24521,7 @@ PrayersArrayFR = [[
     "",
     "Du Pape",
     "",
-    " مرد الإبركسيس للبطرك",
+    "مرد الإبركسيس للبطرك",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -24611,7 +24614,7 @@ PrayersArrayFR = [[
     "",
     "Le Pain du jour, ô donne aussi♫ Oiseaux du ciel, Tu les nourris",
     "",
-    "وأغفر لنا ذنبونا يا مولانا♫ يا رَبّى بمراحمك لا تنسانا",
+    "واغفر لنا ذنبونا يا مولانا♫ يا رَبّى بمراحمك لا تنسانا",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -28115,10 +28118,10 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.same + "&C=Assembly",
-    "Ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲕ ⲱ̀ Ⲡⲭ̅ⲥ̅: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̅ⲛ̅ⲁ̅ ⲉ̅ⲑ̅ⲩ̅: ϫⲉ ⲁⲕⲧⲱⲛⲕ ⲁⲕⲥⲱϯ ⲙ̀ⲙⲟⲛ.",
-    "Nous T'adorons ô Christ♫ avec Ton Père très bon♫ avec le Saint-Esprit♫ car Tu es ressuscité et nous as sauvés.",
-    "تين أووشت إمموك أوبي إخرستوس♫ نيم بيك يوت إن أغاثوس♫ نيم بي إبنفما إثؤواب♫ جي آك تونك أكسوتي إمّون.",
-    "نَسْجُدْ لَكَ أيُّهَا المسيح♫ مَعَ أَبِيكَ الصَالِح♫ والْرُوحْ القُدُسْ♫ لأنَّكَ قُمتَ وخَلصْتَنا.",
+    "Ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲕ ⲱ̀ Ⲡⲭ̅ⲥ̅: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̅ⲛ̅ⲁ̅ ⲉ̅ⲑ̅ⲩ̅: " + seasonal.giaki.COP + ".",
+    "Nous T'adorons ô Christ♫ avec Ton Père très bon♫ avec le Saint-Esprit♫ " + seasonal.giaki.FR + ".",
+    "تين أووشت إمموك أوبي إخرستوس♫ نيم بيك يوت إن أغاثوس♫ نيم بي إبنفما إثؤواب♫ " + seasonal.giaki.CA + ".",
+    "نَسْجُدْ لَكَ أيُّهَا المسيح♫ مَعَ أَبِيكَ الصَالِح♫ والْرُوحْ القُدُسْ♫ " + seasonal.giaki.AR + ".",
   ],
   [
     Prefix.placeHolder,
@@ -28219,7 +28222,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.same + "&C=Diacon",
-    "Ϩⲓⲧⲉⲛ ⲛⲓⲉⲩⲭⲏ : ⲛ̀ⲧⲉ ⲡⲓⲓⲉⲣⲟⲯⲁⲗⲧⲏⲥ Ⲇⲁⲩⲓⲇ : Ⲡ̀�⳪ ⲁ̀ⲣⲓϩ̀ⲙⲟⲧ ⲛⲁⲛ : ⲙ̀ⲡⲓⲭⲱ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉ ⲛⲉⲛⲛⲟⲃⲓ.",
+    "Ϩⲓⲧⲉⲛ ⲛⲓⲉⲩⲭⲏ : ⲛ̀ⲧⲉ ⲡⲓⲓⲉⲣⲟⲯⲁⲗⲧⲏⲥ Ⲇⲁⲩⲓⲇ : Ⲡ̀⳪ ⲁ̀ⲣⲓϩ̀ⲙⲟⲧ ⲛⲁⲛ : ⲙ̀ⲡⲓⲭⲱ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉ ⲛⲉⲛⲛⲟⲃⲓ.",
     "Par les prières de\nDavid le psalmiste\nSeigneur accorde-nous\nLe pardon de nos péchés.",
     "",
     "بصلوات المرتل داود يارب أنعم لنا بمغفرة خطايانا.",
@@ -28894,7 +28897,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.same + "&C=Assembly",
-    "Ⲥⲙⲟⲩ ⲉⲠⲟ̅ⲥ̅ ⲛⲉϥⲁⲅⲅⲉⲗⲟⲥ ⲧⲏⲣⲟⲩ: ⲛⲏⲉⲧϫⲟⲣ ϧⲉⲛ ⲧⲟⲩϫⲟⲙ: ⲉⲧⲓ̀ⲣⲓ ⲙ̀ⲡⲉϥⲥⲁϫⲓ: ⲥ̀ⲙⲟⲩ ⲉⲣⲟϥ ⲛⲉϥⲇⲩⲛⲁⲙⲓⲥ ⲧⲏⲣⲟⲩ: ⲛⲏⲉⲧⲫⲱϣⲉⲛ ⲛ̀ⲧⲁϥ ⲉⲧⲓ̀ⲣⲓ ⲙ̀ⲡⲉϥⲟⲩⲱϣ: ⲥ̀ⲙⲟⲩ ⲉⲠⲟ̅ⲥ̅ ⲉⲃⲟⲗ ϧⲉⲛ ⲛⲓⲫⲏⲟⲩⲓ̀: ⲥ̀ⲙⲟⲩ ⲉⲣⲟϥ ⲉⲃⲟⲗ ϧⲉⲛ ⲛⲏⲉⲧϭⲟⲥⲓ:Ⲁ̅ⲗ̅.",
+    "Ⲥ̀ⲙⲟⲩ ⲉⲠⲟ̅ⲥ̅ ⲛⲉϥⲁⲅⲅⲉⲗⲟⲥ ⲧⲏⲣⲟⲩ: ⲛⲏⲉⲧϫⲟⲣ ϧⲉⲛ ⲧⲟⲩϫⲟⲙ: ⲉⲧⲓ̀ⲣⲓ ⲙ̀ⲡⲉϥⲥⲁϫⲓ: ⲥ̀ⲙⲟⲩ ⲉⲣⲟϥ ⲛⲉϥⲇⲩⲛⲁⲙⲓⲥ ⲧⲏⲣⲟⲩ: ⲛⲏⲉⲧⲫⲱϣⲉⲛ ⲛ̀ⲧⲁϥ ⲉⲧⲓ̀ⲣⲓ ⲙ̀ⲡⲉϥⲟⲩⲱϣ: ⲥ̀ⲙⲟⲩ ⲉⲠⲟ̅ⲥ̅ ⲉⲃⲟⲗ ϧⲉⲛ ⲛⲓⲫⲏⲟⲩⲓ̀: ⲥ̀ⲙⲟⲩ ⲉⲣⲟϥ ⲉⲃⲟⲗ ϧⲉⲛ ⲛⲏⲉⲧϭⲟⲥⲓ:Ⲁ̅ⲗ̅.",
     "Bénissez l'Éternel, vous ses anges, Qui êtes puissants en force, et qui exécutez ses ordres, En obéissant à la voix de sa parole! Bénissez l'Éternel, vous toutes ses armées, Qui êtes ses serviteurs, et qui faites sa volonté! BénissezLe dans les hauteurs Alléluia",
     "",
     "باركوا الرَبّ يا جَمِيعْ ملائكته. الأشداء في قوتهم الصانعين قوله. سبحوه يا جَمِيعْ جنوده خدامه الصانعين ارادته. باركوا الرَبّ من السَّمَواتْ. باركوه في الأعالي. هَلِّليلُويا.",
@@ -29076,7 +29079,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.same + "&C=Assembly",
-    "Ⲥⲙⲟⲩ ⲉⲣⲟⲓ: ⲓⲥ ϯⲙⲉⲧⲁⲛⲟⲓⲁ ⲭⲱ ⲛⲏⲓ ⲉⲃⲟⲗ: ⲛⲁⲓⲟϯ ⲛⲉⲙ ⲛⲁⲥ̀ⲛⲏⲟⲩ ϣ̀ⲗⲏⲗ ⲉϩ̀ⲣⲏⲓ ⲉϫⲱⲓ: ϧⲉⲛ ⲟⲩⲁⲅⲁⲡⲓ ϯϯϩⲟ ⲉⲣⲱⲧⲉⲛ ⲁⲣⲓⲡⲁⲙⲉⲩⲓ.",
+    "Ⲥ̀ⲙⲟⲩ ⲉⲣⲟⲓ: ⲓⲥ ϯⲙⲉⲧⲁⲛⲟⲓⲁ ⲭⲱ ⲛⲏⲓ ⲉⲃⲟⲗ: ⲛⲁⲓⲟϯ ⲛⲉⲙ ⲛⲁⲥ̀ⲛⲏⲟⲩ ϣ̀ⲗⲏⲗ ⲉϩ̀ⲣⲏⲓ ⲉϫⲱⲓ: ϧⲉⲛ ⲟⲩⲁⲅⲁⲡⲓ ϯϯϩⲟ ⲉⲣⲱⲧⲉⲛ ⲁⲣⲓⲡⲁⲙⲉⲩⲓ.",
     "Bénissez-moi, voici la métanoia, pardonnez-moi, mes\npères et mes frères priez pour moi, par amour, je vous demande\nà tous de vous souvenir de moi. ",
     "",
     "باركوا على. أسألكم اغفروا لي يا أبائي وأخوتي. صَلّْوا على. بالمحبة أسألكم أذكروني.",
@@ -30668,7 +30671,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.same + "&C=Diacon",
-    "Ⲥⲙⲟⲩ ⲉ̀Ⲡ̀⳪ ⲛⲓϩ̀ⲃⲏⲟⲩⲓ̀ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲉ Ⲡ̀⳪ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.",
+    "Ⲥ̀ⲙⲟⲩ ⲉ̀Ⲡ̀⳪ ⲛⲓϩ̀ⲃⲏⲟⲩⲓ̀ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲉ Ⲡ̀⳪ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.",
     "Bénissez le Seigneur,\nô toutes Ses œuvres\nLouez-Le à jamais,\najoutez à Sa grandeur",
     "",
     "باركي الرَبِّ ياجميع أعمال الرَبِّ سبحيه وزيديه علواً إلى الآباد.",
@@ -30682,7 +30685,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.same + "&C=Diacon",
-    "Ⲥⲙⲟⲩ ⲉ̀̀Ⲡ̀⳪ ⲛⲓⲁⲅⲅⲉⲗⲟⲥ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲉ Ⲡⲟ̅ⲥ̅ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.",
+    "Ⲥ̀ⲙⲟⲩ ⲉ̀̀Ⲡ̀⳪ ⲛⲓⲁⲅⲅⲉⲗⲟⲥ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲉ Ⲡⲟ̅ⲥ̅ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.",
     "Bénissez le Seigneur,\nô tous Ses anges\nLouez-Le à jamais,\najoutez à Sa grandeur",
     "",
     "باركوا الرَبِّ ياجميع ملائكة الرَبِّ سبحوه وزيدوه علواً إلى الآباد.",
@@ -30703,14 +30706,14 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.same + "&C=Diacon",
-    "Ⲥⲙⲟⲩ ⲉ̀Ⲡ̀⳪ ⲛⲓϫⲟⲙ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲉ Ⲡⲟ̅ⲥ̅ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.",
+    "Ⲥ̀ⲙⲟⲩ ⲉ̀Ⲡ̀⳪ ⲛⲓϫⲟⲙ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲉ Ⲡⲟ̅ⲥ̅ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.",
     "Bénissez le Seigneur,\nô toutes Ses forces\nLouez-Le à jamais,\najoutez à Sa grandeur",
     "",
     "باركي الرَبِّ ياجميع قوات الرب. سبحيه وزيديه علواً إلى الآباد.",
   ],
   [
     Prefix.same + "&C=Diacon",
-    "Ⲥⲙⲟⲩ ⲉ̀Ⲡ̀⳪ ⲡⲓⲣⲏ ⲛⲉⲙ ⲡⲓⲓⲟϩ:  ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.",
+    "Ⲥ̀ⲙⲟⲩ ⲉ̀Ⲡ̀⳪ ⲡⲓⲣⲏ ⲛⲉⲙ ⲡⲓⲓⲟϩ:  ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.",
     "Bénissez le Seigneur,\nlune et soleil\nLouez-Le à jamais,\najoutez à Sa grandeur",
     "",
     "باركا الرَبِّ أَيَّتُهَا الشمس والقمر سبحاه وزيداه علواً إلى الآباد.",
@@ -30724,21 +30727,21 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.same + "&C=Diacon",
-    "Ⲥⲙⲟⲩ ⲉ̀Ⲡ̀⳪ ⲛⲓⲥⲓⲟⲩ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲉ ⲧ̀ⲫⲉ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.",
+    "Ⲥ̀ⲙⲟⲩ ⲉ̀Ⲡ̀⳪ ⲛⲓⲥⲓⲟⲩ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲉ ⲧ̀ⲫⲉ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.",
     "Bénissez le Seigneur,\nétoiles du ciel\nLouez-Le à jamais,\najoutez à Sa grandeur",
     "",
     "باركي الرَبِّ ياسائر نجوم السماء. سبحيه وزيديه علواً إلى الآباد.",
   ],
   [
     Prefix.same + "&C=Diacon",
-    "Ⲥⲙⲟⲩ ⲉ̀Ⲡ̀⳪ ⲛⲓⲙⲟⲩⲛϩⲱⲟⲩ ⲛⲉⲙ ⲛⲓⲓⲱϯ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.",
+    "Ⲥ̀ⲙⲟⲩ ⲉ̀Ⲡ̀⳪ ⲛⲓⲙⲟⲩⲛϩⲱⲟⲩ ⲛⲉⲙ ⲛⲓⲓⲱϯ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.",
     "Bénissez le Seigneur,\npluies et rosées\nLouez-Le à jamais,\najoutez à Sa grandeur",
     "",
     "باركي الرَبِّ أَيَّتُهَا الأمطار مع الأنداء. سبحيه وزيديه علواً إلى الآباد.",
   ],
   [
     Prefix.same + "&C=Diacon",
-    "Ⲥⲙⲟⲩ ⲉ̀Ⲡ̀⳪ ⲛⲓϭⲏⲡⲓ ⲛⲉⲙ ⲛⲓⲑⲏⲟⲩ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.",
+    "Ⲥ̀ⲙⲟⲩ ⲉ̀Ⲡ̀⳪ ⲛⲓϭⲏⲡⲓ ⲛⲉⲙ ⲛⲓⲑⲏⲟⲩ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.",
     "Bénissez le Seigneur,\nvents et nuées\nLouez-Le à jamais,\najoutez à Sa grandeur",
     "",
     "باركي الرَبِّ أَيَّتُهَا السُحب والرياح. سبحيه وزيديه علواً إلى الآباد.",
@@ -30752,21 +30755,21 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.same + "&C=Diacon",
-    "Ⲥⲙⲟⲩ ⲉ̀Ⲡ̀⳪ ⲛⲓⲡ̅ⲛ̅ⲁ ⲧⲏⲣⲟⲩ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.",
+    "Ⲥ̀ⲙⲟⲩ ⲉ̀Ⲡ̀⳪ ⲛⲓⲡ̅ⲛ̅ⲁ ⲧⲏⲣⲟⲩ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.",
     "Bénissez le Seigneur,\nô tous les vents\nLouez-Le à jamais,\najoutez à Sa grandeur",
     "",
     "باركي الرَبِّ يا جميع الأرواح. سبحيه وزيديه علواً إلى الآباد.",
   ],
   [
     Prefix.same + "&C=Diacon",
-    "Ⲥⲙⲟⲩ ⲉ̀Ⲡ̀⳪ ⲡⲓⲭ̀ⲣⲱⲙ ⲛⲉⲙ ⲡⲓⲕⲁⲩⲙⲁ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.",
+    "Ⲥ̀ⲙⲟⲩ ⲉ̀Ⲡ̀⳪ ⲡⲓⲭ̀ⲣⲱⲙ ⲛⲉⲙ ⲡⲓⲕⲁⲩⲙⲁ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.",
     "Bénissez le Seigneur,\nfeu et chaleur\nLouez-Le à jamais,\najoutez à Sa grandeur",
     "",
     "باركا الرَبِّ أَيَّتُهَا النار والحرارة. سبحاه وزيداه علواً إلى الآباد.",
   ],
   [
     Prefix.same + "&C=Diacon",
-    "Ⲥⲙⲟⲩ ⲉ̀Ⲡ̀⳪ ⲡⲓⲱ̀ϫⲉⲃ ⲛⲉⲙ ⲡⲓⲕⲁⲩⲥⲱⲛ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.",
+    "Ⲥ̀ⲙⲟⲩ ⲉ̀Ⲡ̀⳪ ⲡⲓⲱ̀ϫⲉⲃ ⲛⲉⲙ ⲡⲓⲕⲁⲩⲥⲱⲛ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.",
     "Bénissez le Seigneur,\nfroid et chaleur\nLouez-Le à jamais,\najoutez à Sa grandeur",
     "",
     "باركا الرَبِّ أَيُّهَا البرد والحر سبحاه وزيداه علواً إلى الآباد.",
@@ -30780,21 +30783,21 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.same + "&C=Diacon",
-    "Ⲥⲙⲟⲩ ⲉ̀Ⲡ̀⳪ ⲛⲓⲓⲱϯ ⲛⲉⲙ ⲛⲓⲛⲓϥⲓ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.",
+    "Ⲥ̀ⲙⲟⲩ ⲉ̀Ⲡ̀⳪ ⲛⲓⲓⲱϯ ⲛⲉⲙ ⲛⲓⲛⲓϥⲓ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.",
     "Bénissez le Seigneur,\nvents et rosées\nLouez-Le à jamais,\najoutez à Sa grandeur",
     "",
     "باركي الرَبِّ أَيَّتُهَا الأهوية والأنداء. سبحيه وزيديه علواً إلى الآباد.",
   ],
   [
     Prefix.same + "&C=Diacon",
-    "Ⲥⲙⲟⲩ ⲉ̀Ⲡ̀⳪ ⲛⲓⲉ̀ϫⲱⲣϩ ⲛⲉⲙ ⲛⲓⲉ̀ϩⲟⲟⲩ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.",
+    "Ⲥ̀ⲙⲟⲩ ⲉ̀Ⲡ̀⳪ ⲛⲓⲉ̀ϫⲱⲣϩ ⲛⲉⲙ ⲛⲓⲉ̀ϩⲟⲟⲩ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.",
     "Bénissez le Seigneur,\nô nuits et jours\nLouez-Le à jamais,\najoutez à Sa grandeur",
     "",
     "باركي الرَبِّ أَيَّتُهَا الليالي والأيام. سبحيه وزيديه علواً إلى الآباد.",
   ],
   [
     Prefix.same + "&C=Diacon",
-    "Ⲥⲙⲟⲩ ⲉ̀Ⲡ̀⳪ ⲡⲓⲟⲩⲱⲓⲛⲓ ⲛⲉⲙ ⲡⲓⲭⲁⲕⲓ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.",
+    "Ⲥ̀ⲙⲟⲩ ⲉ̀Ⲡ̀⳪ ⲡⲓⲟⲩⲱⲓⲛⲓ ⲛⲉⲙ ⲡⲓⲭⲁⲕⲓ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.",
     "Bénissez le Seigneur,\nlumière, ténèbres\nLouez-Le à jamais,\najoutez à Sa grandeur",
     "",
     "باركي الرَبِّ أَيُّهَا النور والظلمة سبحيه وزيديه علواً إلى الآباد.",
@@ -30815,14 +30818,14 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.same + "&C=Diacon",
-    "Ⲥⲙⲟⲩ ⲉ̀Ⲡ̀⳪ ϯⲡⲁⲭⲛⲏ ⲛⲉⲙ ⲡⲓⲭⲓⲱⲛ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.",
+    "Ⲥ̀ⲙⲟⲩ ⲉ̀Ⲡ̀⳪ ϯⲡⲁⲭⲛⲏ ⲛⲉⲙ ⲡⲓⲭⲓⲱⲛ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.",
     "Bénissez le Seigneur,\nô glaces et neiges\nLouez-Le à jamais,\najoutez à Sa grandeur",
     "",
     "باركي الرَبِّ أَيُّهَا الجليد والثلج. سبحيه وزيديه علواً إلى الآباد.",
   ],
   [
     Prefix.same + "&C=Diacon",
-    "Ⲥⲙⲟⲩ ⲉ̀Ⲡ̀⳪ ⲛⲓⲥⲉⲧⲉⲃⲣⲏϫ ⲛⲉⲙ ⲛⲓϭⲏⲡⲓ: ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.",
+    "Ⲥ̀ⲙⲟⲩ ⲉ̀Ⲡ̀⳪ ⲛⲓⲥⲉⲧⲉⲃⲣⲏϫ ⲛⲉⲙ ⲛⲓϭⲏⲡⲓ: ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.",
     "Bénissez le Seigneur,\néclairs, nuées\nLouez-Le à jamais,\najoutez à Sa grandeur",
     "",
     "باركي الرَبِّ أَيَّتُهَا البروق والسحب. سبحيه وزيديه علواً إلى الآباد.",
@@ -30836,21 +30839,21 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.same + "&C=Diacon",
-    "Ⲥⲙⲟⲩ ⲉ̀Ⲡ̀⳪ ⲡⲓⲕⲁϩⲓ ⲧⲏⲣϥ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.",
+    "Ⲥ̀ⲙⲟⲩ ⲉ̀Ⲡ̀⳪ ⲡⲓⲕⲁϩⲓ ⲧⲏⲣϥ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.",
     "Bénissez le Seigneur,\ntoute la terre\nLouez-Le à jamais,\najoutez à Sa grandeur",
     "",
     "باركي الرَبِّ أَيَّتُهَا الأرض كلها. سبحيه وزيديه علواً إلى الآباد.",
   ],
   [
     Prefix.same + "&C=Diacon",
-    "Ⲥⲙⲟⲩ ⲉ̀Ⲡ̀⳪ ⲛⲓⲧⲱⲟⲩ ⲛⲉⲙ ⲛⲓⲕⲁⲗⲁⲙⲫⲱⲟⲩ ⲧⲏⲣⲟⲩ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.",
+    "Ⲥ̀ⲙⲟⲩ ⲉ̀Ⲡ̀⳪ ⲛⲓⲧⲱⲟⲩ ⲛⲉⲙ ⲛⲓⲕⲁⲗⲁⲙⲫⲱⲟⲩ ⲧⲏⲣⲟⲩ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.",
     "Bénissez le Seigneur,\nmonts et collines\nLouez-Le à jamais,\najoutez à Sa grandeur",
     "",
     "باركي الرَبِّ أَيَّتُهَا الجبال وجميع الآكام. سبحيه وزيديه علواً إلى الآباد.",
   ],
   [
     Prefix.same + "&C=Diacon",
-    "Ⲥⲙⲟⲩ ⲉ̀Ⲡ̀⳪ ⲛⲏ ⲧⲏⲣⲟⲩ ⲉⲧⲣⲏⲧ ϩⲓϫⲉⲛ ⲡ̀ϩⲟ ⲙ̀ⲡ̀ⲕⲁϩⲓ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.",
+    "Ⲥ̀ⲙⲟⲩ ⲉ̀Ⲡ̀⳪ ⲛⲏ ⲧⲏⲣⲟⲩ ⲉⲧⲣⲏⲧ ϩⲓϫⲉⲛ ⲡ̀ϩⲟ ⲙ̀ⲡ̀ⲕⲁϩⲓ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.",
     "Bénissez le Seigneur,\nô toutes les plantes\nLouez-Le à jamais,\najoutez à Sa grandeur",
     "",
     "بارك الرَبِّ يا جميع ما يَنبت على وجه الأرض سبحه وزده علواً إلى الآباد.",
@@ -30864,21 +30867,21 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.same + "&C=Diacon",
-    "Ⲥⲙⲟⲩ ⲉ̀Ⲡ̀⳪ ⲛⲓⲙⲟⲩⲙⲓ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.",
+    "Ⲥ̀ⲙⲟⲩ ⲉ̀Ⲡ̀⳪ ⲛⲓⲙⲟⲩⲙⲓ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.",
     "Bénissez le Seigneur,\nô vous les sources\nLouez-Le à jamais,\najoutez à Sa grandeur",
     "",
     "باركي الرَبِّ أَيَّتُهَا الينابيع. سبحيه وزيديه علواً إلى الآباد.",
   ],
   [
     Prefix.same + "&C=Diacon",
-    "Ⲥⲙⲟⲩ ⲉ̀Ⲡ̀⳪ ⲛⲓⲁ̀ⲙⲁⲓⲟⲩ ⲛⲉⲙ ⲛⲓⲓⲁⲣⲱⲟⲩ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.",
+    "Ⲥ̀ⲙⲟⲩ ⲉ̀Ⲡ̀⳪ ⲛⲓⲁ̀ⲙⲁⲓⲟⲩ ⲛⲉⲙ ⲛⲓⲓⲁⲣⲱⲟⲩ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.",
     "Bénissez le Seigneur,\nô mers et fleuves\nLouez-Le à jamais,\najoutez à Sa grandeur",
     "",
     "باركي الرَبِّ أَيَّتُهَا البحار والأنهار. سبحيه وزيديه علواً إلى الآباد.",
   ],
   [
     Prefix.same + "&C=Diacon",
-    "Ⲥⲙⲟⲩ ⲉ̀Ⲡ̀⳪ ⲛⲓⲕⲏⲧⲟⲥ ⲛⲉⲙ ⲉⲛⲭⲁⲓ ⲛⲓⲃⲉⲛ ⲉⲧⲕⲓⲙ ϧⲉⲛ ⲛⲓⲙⲱⲟⲩ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.",
+    "Ⲥ̀ⲙⲟⲩ ⲉ̀Ⲡ̀⳪ ⲛⲓⲕⲏⲧⲟⲥ ⲛⲉⲙ ⲉⲛⲭⲁⲓ ⲛⲓⲃⲉⲛ ⲉⲧⲕⲓⲙ ϧⲉⲛ ⲛⲓⲙⲱⲟⲩ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.",
     "Bénissez le Seigneur,\npoissons des mers\nLouez-Le à jamais,\najoutez à Sa grandeur",
     "",
     "باركي الرَبِّ أَيَّتُهَا الحيتان وجميع ما يتحرك في المياه. سبحيه وزيديه علواً إلى الآباد.",
@@ -30892,21 +30895,21 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.same + "&C=Diacon",
-    "Ⲥⲙⲟⲩ ⲉ̀Ⲡ̀⳪ ⲛⲓϩⲁⲗⲁϯ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲉ ⲧ̀ⲫⲉ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.",
+    "Ⲥ̀ⲙⲟⲩ ⲉ̀Ⲡ̀⳪ ⲛⲓϩⲁⲗⲁϯ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲉ ⲧ̀ⲫⲉ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.",
     "Bénissez le Seigneur,\noiseaux du ciel\nLouez-Le à jamais,\najoutez à Sa grandeur",
     "",
     "باركي الرَبِّ يا جميع طيور السماء. سبحيه وزيديه علواً إلى الآباد.",
   ],
   [
     Prefix.same + "&C=Diacon",
-    "Ⲥⲙⲟⲩ ⲉ̀Ⲡ̀⳪ ⲛⲓⲑⲏⲣⲓⲟⲛ ⲛⲉⲙ ⲛⲓⲧⲉⲃⲛⲱⲟⲩⲓ̀ ⲧⲏⲣⲟⲩ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.",
+    "Ⲥ̀ⲙⲟⲩ ⲉ̀Ⲡ̀⳪ ⲛⲓⲑⲏⲣⲓⲟⲛ ⲛⲉⲙ ⲛⲓⲧⲉⲃⲛⲱⲟⲩⲓ̀ ⲧⲏⲣⲟⲩ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.",
     "Bénissez le Seigneur,\nbêtes sauvages\nLouez-Le à jamais,\najoutez à Sa grandeur",
     "",
     "باركي الرَبِّ أَيَّتُهَا الوحوش وكل البهائم. سبحيه وزيديه علواً إلى الآباد.",
   ],
   [
     Prefix.same + "&C=Diacon",
-    "Ⲥⲙⲟⲩ ⲉ̀Ⲡ̀⳪ ⲛⲓϣⲏⲣⲓ ⲛ̀ⲧⲉ ⲛⲓⲣⲱⲙⲓ ⲟⲩⲱϣⲧ ⲙ̀Ⲡⲟ̅ⲥ̅ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.",
+    "Ⲥ̀ⲙⲟⲩ ⲉ̀Ⲡ̀⳪ ⲛⲓϣⲏⲣⲓ ⲛ̀ⲧⲉ ⲛⲓⲣⲱⲙⲓ ⲟⲩⲱϣⲧ ⲙ̀Ⲡⲟ̅ⲥ̅ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.",
     "Bénissez le Seigneur,\nô fils des hommes\nLouez-Le à jamais,\najoutez à Sa grandeur",
     "",
     "باركوا الرَبِّ يا بني البشر واسجدوا للرب سبحوه وزيدوه علواً إلى الآباد.",
@@ -30920,14 +30923,14 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.same + "&C=Diacon",
-    "Ⲥⲙⲟⲩ ⲉ̀Ⲡ̀⳪ Ⲡⲓⲥⲣⲁⲏⲗ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.",
+    "Ⲥ̀ⲙⲟⲩ ⲉ̀Ⲡ̀⳪ Ⲡⲓⲥⲣⲁⲏⲗ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.",
     "Bénissez le Seigneur,\nô Israël\nLouez-Le à jamais,\najoutez à Sa grandeur",
     "",
     "بارك الرَبِّ يا إسرائيل سبحه وزده علواً إلى الآباد.",
   ],
   [
     Prefix.same + "&C=Diacon",
-    "Ⲥⲙⲟⲩ ⲉ̀Ⲡ̀⳪ ⲛⲓⲟⲩⲏⲃ ⲛ̀ⲧⲉ Ⲡⲟ̅ⲥ̅: ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.",
+    "Ⲥ̀ⲙⲟⲩ ⲉ̀Ⲡ̀⳪ ⲛⲓⲟⲩⲏⲃ ⲛ̀ⲧⲉ Ⲡⲟ̅ⲥ̅: ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.",
     "Bénissez le Seigneur,\nprêtres de Dieu\nLouez-Le à jamais,\najoutez à Sa grandeur",
     "",
     "باركوا الرَبِّ يا كهنة الرَبِّ سبحوه وزيدوه علواً إلى الآباد.",
@@ -30948,21 +30951,21 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.same + "&C=Diacon",
-    "Ⲥⲙⲟⲩ ⲉ̀Ⲡ̀⳪ ⲛⲓⲡ̅ⲛ̅ⲁ ⲛⲉⲙ ⲛⲓⲯⲩⲭⲏ ⲛ̀ⲧⲉ ⲛⲓⲑ̀ⲙⲏⲓ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.",
+    "Ⲥ̀ⲙⲟⲩ ⲉ̀Ⲡ̀⳪ ⲛⲓⲡ̅ⲛ̅ⲁ ⲛⲉⲙ ⲛⲓⲯⲩⲭⲏ ⲛ̀ⲧⲉ ⲛⲓⲑ̀ⲙⲏⲓ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.",
     "Bénissez le Seigneur,\nesprits des justes\nLouez-Le à jamais,\najoutez à Sa grandeur",
     "",
     "باركوا الرَبِّ يا أرواح وأنفس الصديقين. سبحوه وزيدوه علواً إلى الآباد.",
   ],
   [
     Prefix.same + "&C=Diacon",
-    "Ⲥⲙⲟⲩ ⲉ̀Ⲡ̀⳪ ⲛⲏⲉ̅ⲑ̅ⲩ ⲛⲉⲙ ⲛⲏⲉⲧⲑⲉⲃⲓⲏ̀ⲟⲩⲧ ϧⲉⲛ ⲡⲟⲩϩⲏⲧ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.",
+    "Ⲥ̀ⲙⲟⲩ ⲉ̀Ⲡ̀⳪ ⲛⲏⲉ̅ⲑ̅ⲩ ⲛⲉⲙ ⲛⲏⲉⲧⲑⲉⲃⲓⲏ̀ⲟⲩⲧ ϧⲉⲛ ⲡⲟⲩϩⲏⲧ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.",
     "Bénissez le Seigneur,\nô saints et humbles\nLouez-Le à jamais,\najoutez à Sa grandeur",
     "",
     "باركوا الرَبِّ أَيُّهَا القديسون والمتواضعو القلوب. سبحوه وزيدوه علواً إلى الآباد.",
   ],
   [
     Prefix.same + "&C=Diacon",
-    "Ⲥⲙⲟⲩ ⲉ̀Ⲡ̀⳪ Ⲁⲛⲁⲛⲓⲁⲥ Ⲁⲍⲁⲣⲓⲁⲥ Ⲙⲓⲥⲁⲏⲗ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.",
+    "Ⲥ̀ⲙⲟⲩ ⲉ̀Ⲡ̀⳪ Ⲁⲛⲁⲛⲓⲁⲥ Ⲁⲍⲁⲣⲓⲁⲥ Ⲙⲓⲥⲁⲏⲗ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.",
     "Bénissez le Seigneur\nAnanias, Azarias et Mishaël\nLouez-Le à jamais,\najoutez à Sa grandeur",
     "",
     "باركوا الرَبِّ يا حنانيا وعزاريا وميصائيل. سبحوه وزيدوه علواً إلى الآباد.",
@@ -30985,28 +30988,28 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.same + "&C=Diacon",
-    "Ⲥⲙⲟⲩ ⲉ̀Ⲡ̀⳪ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲓⲫⲏⲟⲩⲓ̀ ⲁ̅ⲗ̅ : ⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟϥ ϧⲉⲛ ⲛⲏⲉⲧϭⲟⲥⲓ.",
+    "Ⲥ̀ⲙⲟⲩ ⲉ̀Ⲡ̀⳪ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲓⲫⲏⲟⲩⲓ̀ ⲁ̅ⲗ̅ : ⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟϥ ϧⲉⲛ ⲛⲏⲉⲧϭⲟⲥⲓ.",
     "Louez Dieu du haut des cieux, Alléluia♫ Louez-Le dans les hauteurs",
     "",
     "سبحوا الرب من السموات هلليلويا.♫ سبحوه في الأعإلي.",
   ],
   [
     Prefix.same + "&C=Diacon",
-    "Ⲥⲙⲟⲩ ⲉ̀ⲣⲟϥ ⲛⲉϥⲁⲅⲅⲉⲗⲟⲥ ⲧⲏⲣⲟⲩ ⲁ̅ⲗ̅ : ⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟϥ ⲛⲉϥⲇⲩⲛⲁⲙⲓⲥ ⲧⲏⲣⲟⲩ.",
+    "Ⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟϥ ⲛⲉϥⲁⲅⲅⲉⲗⲟⲥ ⲧⲏⲣⲟⲩ ⲁ̅ⲗ̅ : ⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟϥ ⲛⲉϥⲇⲩⲛⲁⲙⲓⲥ ⲧⲏⲣⲟⲩ.",
     "Louez-Le, vous tous Ses anges, Alléluia♫ Louez-Le toutes Ses armées",
     "",
     "سبحوه يا جميع ملائكته هلليلويا.♫ سبحوه يا جميع جنوده.",
   ],
   [
     Prefix.same + "&C=Diacon",
-    "Ⲥⲙⲟⲩ ⲉ̀ⲣⲟϥ ⲡⲓⲣⲏ ⲛⲉⲙ ⲡⲓⲓⲟϩ ⲁ̅ⲗ̅ : ⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟϥ ⲛⲓⲥⲓⲟⲩ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲉ ⲡⲓⲟⲩⲱⲓⲛⲓ.",
+    "Ⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟϥ ⲡⲓⲣⲏ ⲛⲉⲙ ⲡⲓⲓⲟϩ ⲁ̅ⲗ̅ : ⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟϥ ⲛⲓⲥⲓⲟⲩ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲉ ⲡⲓⲟⲩⲱⲓⲛⲓ.",
     "Louez-Le, soleil et lune,♫ Alléluia♫ Louez-Le, étoiles brillantes",
     "",
     "سبحيه ايتها الشمس والقمر هلليلويا.♫ سبحيه يا جميع كواكب النور.",
   ],
   [
     Prefix.same + "&C=Diacon",
-    "Ⲥⲙⲟⲩ ⲉ̀ⲣⲟϥ ⲛⲓⲫⲏⲟⲩⲓ̀ ⲛ̀ⲧⲉ ⲛⲓⲫⲏⲟⲩⲓ̀ ⲁ̅ⲗ̅ : ⲛⲉⲙ ⲛⲓⲕⲉⲙⲱⲟⲩ ⲉⲧⲥⲁ ⲡ̀ϣⲱⲓ ⲛ̀ⲛⲓⲫⲏⲟⲩⲓ̀.",
+    "Ⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟϥ ⲛⲓⲫⲏⲟⲩⲓ̀ ⲛ̀ⲧⲉ ⲛⲓⲫⲏⲟⲩⲓ̀ ⲁ̅ⲗ̅ : ⲛⲉⲙ ⲛⲓⲕⲉⲙⲱⲟⲩ ⲉⲧⲥⲁ ⲡ̀ϣⲱⲓ ⲛ̀ⲛⲓⲫⲏⲟⲩⲓ̀.",
     "Louez-Le ô cieux des cieux, Alléluia♫ Et les eaux dessus les cieux",
     "",
     "سبحيه يا سماء السموات هلليلويا♫ ويا ايتها المياه التي فوق السموات.",
@@ -31393,7 +31396,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.same + "&C=Diacon",
-    "Ⲥⲙⲟⲩ ⲉ̀Ⲡ̀⳪ ⲕⲁⲧⲁ ⲫ̀ⲧⲱⲙⲓ : ⲉ̀ⲣⲟϥ ⲕⲉ ⲟⲩ ⲙⲏ ⲡⲁⲣⲁⲛⲟⲙⲓ : ⲱ̀ ⲛⲓϣⲏⲣⲓ ⲛ̀ⲧⲉ ⲛⲓⲣⲱⲙⲓ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ.",
+    "Ⲥ̀ⲙⲟⲩ ⲉ̀Ⲡ̀⳪ ⲕⲁⲧⲁ ⲫ̀ⲧⲱⲙⲓ : ⲉ̀ⲣⲟϥ ⲕⲉ ⲟⲩ ⲙⲏ ⲡⲁⲣⲁⲛⲟⲙⲓ : ⲱ̀ ⲛⲓϣⲏⲣⲓ ⲛ̀ⲧⲉ ⲛⲓⲣⲱⲙⲓ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ.",
     "Et vous les êtres humains louez♫ notre Seigneur comme il convient,♫ et non pas comme des insoumis.♫ Louez-Le, ajoutez à Sa Grandeur.",
     "",
     "سبحوا الرَبِّ كما يليق♫ به وليس كالمخالفين♫ يا أبناء البشر♫ سبحوه وزيدوه علوّاً.",
@@ -31530,7 +31533,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.same + "&C=Diacon",
-    "Ⲥⲙⲟⲩ ⲉ̀Ⲡ̀⳪ ⲛⲓⲗⲁⲟⲥ ⲧⲏⲣⲟⲩ : ⲛⲓⲫⲩⲗⲏ ⲛⲓⲁⲥⲡⲓ ⲛ̀ⲗⲁⲥ : ϩⲱⲥ ⲉⲣⲟϥ ⲙⲁⲱ̀ⲟⲩ ⲛⲁϥ : ⲁⲣⲓϩⲟⲩⲟ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉⲛⲉϩ.",
+    "Ⲥ̀ⲙⲟⲩ ⲉ̀Ⲡ̀⳪ ⲛⲓⲗⲁⲟⲥ ⲧⲏⲣⲟⲩ : ⲛⲓⲫⲩⲗⲏ ⲛⲓⲁⲥⲡⲓ ⲛ̀ⲗⲁⲥ : ϩⲱⲥ ⲉⲣⲟϥ ⲙⲁⲱ̀ⲟⲩ ⲛⲁϥ : ⲁⲣⲓϩⲟⲩⲟ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉⲛⲉϩ.",
     "Bénissez notre Seigneur,\nTous les peuples, tribus et langues,\nLouez-le, glorifiez-le,\nÉlevez-Le éternellement.",
     "",
     "باركوا الرَبِّ يا جميع الشعوب والقبائل ولغات الألسن سبحوه ومجدوه وزيدوه علواً إلى الآباد.",
@@ -31545,6 +31548,99 @@ PrayersArrayFR = [[
 ],
 [
   [
+    Prefix.psalmody + "Lobsh1Theotoky&D=5&C=Title",
+    "Ⲡⲓⲗⲱⲃϣ Ⲃⲁⲧⲟⲥ",
+    "Explication Watos pour la théotokie du vendredi",
+    "",
+    "لبش واطس على ثيؤوطوكية يوم الجمعة"
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲁⲓⲛⲁⲙⲟⲩϯ ⲉ̀ⲣⲟ ϫⲉ ⲛⲓⲙ : ⲱ ϯⲡⲁⲛⲁ̀ⲅⲓⲁ ⲙ̀ⲡⲁⲣⲑⲉⲛⲟⲥ : ⲑⲏⲉⲧⲁⲥϥⲁⲓ ϧⲁ ⲡⲓⲁⲧϣ̀ⲧⲁϩⲟϥ : ⲟⲩⲟϩ : ⲛ̀ⲁ̀ⲭⲱⲣⲓⲧⲟⲥ ⲉⲩⲥⲟⲡ.",
+    "Comment pourrais-je te nommer♫ Toi ô Vierge toute sainte♫ Qui portas l’Inaccessible♫ Et aussi l’Illimité",
+    "",
+    "بماذا أدعوك أيتها العذراء الكلية القداسة التي حملت غير المدرك وغير المحوى أيضاً."
+  ],
+  [
+    "S_&C=Assembly",
+    "Ⲥⲉⲟϣ ⲅⲁⲣ ⲛ̀ϫⲉ ⲛⲉⲉⲩⲫⲟⲙⲓⲁ̀ : ⲱ̀ ⲑⲏⲉⲧⲥⲉⲗⲥⲱⲗ ϧⲉⲛ ⲧⲁⲓⲟ̀ ⲛⲓⲃⲉⲛ: ϫⲉ ⲁ̀ⲣⲉϣⲱⲡⲓ : ⲛ̀ⲟⲩⲙⲁⲛ̀ϣⲱⲡⲓ: ⲛ̀ϯⲥⲟⲫⲓⲁ̀ ⲛ̀ⲧⲉ Ⲫ̀ϯ.",
+    "Tes cantiques sont nombreux♫ Toi ornée de tout honneur♫ Car tu devins la demeure♫ De la sagesse de Dieu",
+    "",
+    "تكثر مدائحك أيتها المزينة بكل كرامة. لأنك صرت مسكناً لحكمة الله."
+  ],
+  [
+    "S_&C=Assembly",
+    "Ⲛⲑⲟ ⲡⲉ ϯⲱⲓⲙⲓ ⲛ̀ⲛⲟⲏ̀ⲧⲉ : ⲉⲧⲧⲁϩⲟ ⲛ̀ⲛⲓⲭ̀ⲣⲓⲥⲧⲓⲁⲛⲟⲥ : ⲉⲥⲧ̀ⲥⲁⲃⲟ ⲙ̀ⲙⲱⲟⲩ ⲉ̀ⲡⲓϫⲓⲛⲟⲩⲱϣⲧ : ⲛ̀Ϯⲧ̀ⲣⲓⲁⲥ : ⲛ̀ⲣⲉϥⲧⲁⲛϧⲟ.",
+    "Hameçon de la pensée♫ Pour pêcher tous les chrétiens♫ Leur apprend à adorer♫ La Trinité vivifiante",
+    "",
+    "أنتِ هي الصنارة العقلية التي تصطاد المسيحيين. وتعلمهم السجود للثالوث المحيي."
+  ],
+  [
+    "S_&C=Assembly",
+    "Ⲛ̀ⲑⲟ ⲧⲉ ⲧⲁⲣⲉϥⲁⲓ ϧⲁ ⲡⲓⲥⲧⲩⲗⲗⲟⲥ : ⲉⲧⲁⲩⲛⲁⲩ ⲉ̀ⲣⲟⲥ ⲛ̀ϫⲉ Ⲙⲱⲩⲥⲏ̀ⲥ : ⲉ̀ⲧⲉ ⲫⲁⲓ ⲡⲉ Ⲡ̀ϣⲏⲣⲓ ⲙ̀Ⲫ̀ϯ : ⲉⲧⲁϥⲓ̀ ⲁϥϣⲱⲡⲓ ϧⲉⲛ ⲧⲉⲛⲉϫⲓ.",
+    "Tu es celle qui a porté♫ La colonne que vit Moïse♫ C’est le Fils de Dieu qui vint♫ Habita dans tes entrailles",
+    "",
+    "أنتِ التي حملتِ العامود الذى رآه موسى هو ابن الله أتى وحل في بطنك."
+  ],
+  [
+    "S_&C=Assembly",
+    "Ⲁⲣⲉϣⲱⲡⲓ ⲛ̀ⲟⲩⲕⲓⲃⲱⲧⲟⲥ : ⲙ̀ⲫⲏⲉⲧⲁϥⲑⲁⲙⲓⲟ̀ ⲛ̀ⲧ̀ⲫⲉ ⲛⲉⲙ ⲡ̀ⲕⲁϩⲓ : ⲁⲣⲉϥⲁⲓ ϧⲁⲣⲟϥ ϧⲉⲛ ⲧⲉⲛⲉϫⲓ : ⲙ̀ⲯⲓⲧ ⲛ̀ⲁ̀ⲃⲟⲧ ⲛ̀ⲏ̀ⲡⲓ.",
+    "Tu devins une arche pour♫ Créateur de ciel et terre♫ En ton sein, tu L’as porté♫ Pendant neuf mois accomplis",
+    "",
+    "صرتِ تابوتاً لخالق السماء والأرض. حملته في بطنك تسعة أشهر عداً."
+  ],
+  [
+    "S_&C=Assembly",
+    "Ⲛ̀ⲑⲟ ⲟⲛ ⲧⲉ ⲉⲧⲁⲩⲧⲉⲛϩⲟⲩⲧⲥ : ⲉ̀ϯⲟⲩⲏϣⲥⲓ ⲛ̀ⲧ̀ⲫⲉ ⲛⲉⲙ ⲡ̀ⲕⲁϩⲓ : ⲁ̀ⲣⲉϣⲱⲡⲓ ⲛⲁⲛ ⲛ̀ⲟⲩⲗⲱⲓϫⲓ : ⲉ̀ⲡⲓⲙⲁⲙ̀ⲙⲟϣⲓ ⲉ̀ⲡ̀ϣⲱⲓ : ⲉ̀ⲧ̀ⲫⲉ.",
+    "Aussi Il te fut confié♫ Plénitude de ciel et terre♫ Tu devins notre raison♫ De notre accession au ciel",
+    "",
+    "وأنتِ أيضاً اؤتمنت على سعة السماء والأرض. وصرتِ لنا سبباً للارتقاء إلى السماء"
+  ],
+  [
+    "S_&C=Assembly",
+    "Ⲧⲉⲉⲣⲟⲩⲱⲓⲛⲓ ⲉ̀ϩⲟⲧⲉ ⲫ̀ⲣⲏ : ⲛ̀ⲑⲟ ⲡⲉ ⲡ̀ⲥⲁ : ⲛ̀ϯⲁ̀ⲛⲁⲧⲟⲗⲏ : ⲉ̀ⲣⲉ ⲛⲓⲓⲑ̀ⲙⲏⲓ ϫⲟⲩϣⲧ ⲉ̀ⲃⲟⲗ ϧⲁϫⲱⲥ : ϧⲉⲛ ⲟⲩⲟⲩⲛⲟϥ ⲛⲉⲙ ⲟⲩⲑⲉⲗⲏⲗ.",
+    "Tu brilles plus que le soleil♫ Tu te trouves à l’Orient♫ Et les justes t’attendaient♫ Avec joie et allégresse",
+    "",
+    "أنت مضيئة أكثر من الشمس. أنتِ هي ناحية المشرق التي ينتظرها الأبرار بفرحٍ وتهليل."
+  ],
+  [
+    "S_&C=Assembly",
+    "Ⲁⲩⲉ̀ⲣⲕⲁⲧⲁⲕ̀ⲣⲓⲛⲓⲛ : ⲛ̀Ⲉⲩⲁ̀ : ϫⲉ ⲧⲉⲣⲁⲙⲓⲥⲓ ϧⲉⲛ ⲟⲩⲉ̀ⲙⲕⲁϩⲛ̀ϩⲏⲧ : ⲛ̀ⲑⲟ ϩⲱⲓ ⲁ̀ⲣⲉⲥⲱⲧⲉⲙ : ϫⲉ ⲭⲉⲣⲉ ⲑⲏⲉⲑⲙⲉϩ : ⲛ̀ϩ̀ⲙⲟⲧ.",
+    "Eve a été condamnée ♫ D’accoucher avec douleur♫ Mais toi, tu as entendu :♫ « Réjouis-toi ô pleine de grâce »",
+    "",
+    "حِكَم على حواء بالولادة بوجع القلب أما أنتِ فسمعتِ افرحي يا ممتلئة نعمة."
+  ],
+  [
+    "S_&C=Assembly",
+    "Ⲁⲣⲉⲙⲓⲥⲓ ⲛⲁⲛ ⲙ̀̀Ⲡ̀ⲟⲩⲣⲟ : Ⲡ̀⳪ ⲛ̀ⲧⲉ ϯⲕ̀ⲧⲏⲥⲓⲥ ⲧⲏⲣⲥ : ⲁϥⲓ̀ ⲁϥⲥⲟⲧⲧⲉⲛ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲉⲛⲛⲟⲃⲓ : ϩⲱⲥ ⲁ̀ⲅⲁⲑⲟⲥ ⲟⲩⲟϩ ⲙⲙⲁⲓⲣⲱⲙⲓ.",
+    "Tu nous enfantas le Roi♫ Seigneur de tous l’univers♫ Nous sauva de nos péchés♫ Bon, Ami du genre humain.",
+    "",
+    "ولدت لنا الملك رب كل البرية. أتى وخلصنا من خطايانا كصالح ومحب البشر."
+  ],
+  [
+    "S_&C=Assembly",
+    "Ⲉⲑⲃⲉ ⲫⲁⲓ ⲧⲉⲛⲉⲣⲭⲟⲣⲉⲩⲓⲛ : ⲛⲉⲙ Ⲉ̀ⲗⲓⲥⲁⲃⲉⲧ ⲧⲉⲥⲉⲅⲅⲉⲛⲏⲥ : ϫⲉ ⲧⲉⲥ̀ⲙⲁⲣⲱⲟⲩⲧ ⲛ̀ⲑⲟ ϧⲉⲛ ⲛⲓϩⲓⲟ̀ⲙⲓ : ϥ̀ⲥ̀ⲙⲁⲣⲱⲟⲩⲧ : ⲛ̀ϫⲉ ⲡ̀ⲟⲩⲧⲁϩ ⲛ̀ⲧⲉ ⲧⲉⲛⲉϫⲓ.",
+    "Ainsi, nous chantons avec♫ Elisabeth ta parente♫ \"Bénie es-tu entre les femmes♫ Béni le fruit de tes entrailles.\"",
+    "",
+    "من أجل هذا نرتل مع أليصابات نسيبتك قائلين مباركة أنتِ في النساء ومباركة هي ثمرة بطنك."
+  ],
+  [
+    "S_&C=Assembly",
+    "Ⲧⲉⲛϯ ⲛⲉ : ⲙ̀ⲡⲓⲭⲉⲣⲉⲧⲓⲥⲙⲟⲥ : ⲛⲉⲙ Ⲅⲁⲃⲣⲓⲏⲗ ⲡⲓⲁⲅⲅⲉⲗⲟⲥ : ϫⲉ ⲭⲉⲣⲉ ⲕⲉⲭⲁⲣⲓⲧⲱⲙⲉⲛⲏ : ⲟ̀ Ⲕⲩⲣⲓⲟⲥ ⲙⲉⲧⲁⲥⲟⲩ.",
+    "Nous te saluons avec♫ L'ange Gabriel, disant♫ \"Salut à toi pleine de grâce♫ Le Seigneur est avec toi\"",
+    "",
+    "نعطيك السلام مع غبريال الملاك قائلين السلام لك يا ممتلئة نعمة الرب معكِ."
+  ],
+  [
+    "S_&C=Assembly",
+    "Ⲧⲉⲛϯϩⲟ ⲁ̀ⲣⲓⲡⲉⲛⲙⲉⲩⲓ̀ : ⲱ̀ ϯⲡ̀ⲣⲟⲥⲧⲁⲧⲏⲥ ⲉⲧⲉⲛϩⲟⲧ : ⲛⲁϩⲣⲉⲛ Ⲡⲉⲛ⳪ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ.",
+    "Souviens-toi, nous t’implorons♫ Ô intercesseur fidèle♫ Devant notre Seigneur Jésus-Christ♫ Pour qu'il nous pardonne nos péchés.",
+    "",
+    "نسألكِ أن تذكرينا أيتها الشفيعة الأمينة أمام ربنا يسوع المسيح ليغفر لنا خطايانا."
+  ]
+],
+[
+  [
     Prefix.psalmody + "Lobsh1Theotoky&D=6&C=Title",
     "",
     "1ère explication Watos pour la théotokie du samedi",
@@ -31554,84 +31650,84 @@ PrayersArrayFR = [[
   [
     Prefix.same + "&C=Diacon",
     "Ⲭⲉⲣⲉ ⲑⲏⲉⲑⲙⲉϩ ⲛ̀ϩ̀ⲙⲟⲧ: ϯⲡⲁⲣⲑⲉⲛⲟⲥ ⲛ̀ⲁⲧⲑⲱⲗⲉⲃ : ⲡⲓⲕⲩⲙⲓⲗⲗⲓⲟⲛ ⲉⲧⲥⲱⲧⲡ : ⲛ̀ⲧⲉ ϯⲟⲓⲕⲟⲩⲙⲉⲛⲏ ⲧⲏⲣⲥ.",
-    "Salut à toi, pleine de grâce\nToi la Vierge sans souillure,\nEt tu es l’urne choisie\nPour la terre tout entière.",
+    "Salut à toi, pleine de grâce♫ Toi la Vierge sans souillure,♫ Et tu es l’urne choisie♫ Pour la terre tout entière.",
     "",
     "السلام لك يا ممتلئة. نعمة العذراء غير الدنسة. الإناء المختار. لكل المسكونة.",
   ],
   [
     Prefix.same + "&C=Diacon",
     "Ⲡⲓⲗⲁⲙⲡⲁⲥ ⲛ̀ⲁⲧϭⲉⲛⲟ : ⲡ̀ϣⲟⲩϣⲟⲩ ⲛ̀ⲧⲉ ϯⲡⲁⲣⲑⲉⲛⲓⲁ̀ : ⲡⲓⲉ̀ⲣⲫⲉⲓ ⲛ̀ⲁⲧⲃⲱⲗ ⲉ̀ⲃⲟⲗ : ⲟⲩⲟϩ ⲡⲓϣ̀ⲃⲱⲧ ⲛ̀ⲧⲉ ⲡⲓⲛⲁϩϯ.",
-    "Toi la lampe non éteinte\nFierté de la chasteté\nSanctuaire préservé\nEt le sceptre de la Foi.",
+    "Toi la lampe non éteinte♫ Fierté de la chasteté♫ Sanctuaire préservé♫ Et le sceptre de la Foi.",
     "",
     "المصباح غير المُطفأ. فخر البتولية. الهيكل غير المُنقض. وقضيب الإيمان.",
   ],
   [
     Prefix.same + "&C=Diacon",
     "Ⲙⲁϯϩⲟ ⲙ̀ⲫⲏⲉⲧⲁⲣⲉⲙⲁⲥϥ : Ⲡⲉⲛⲥⲱⲧⲏⲣ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ : ⲛ̀ⲧⲉϥⲱ̀ⲗⲓ ⲛ̀ⲛⲁⲓϧⲓⲥⲓ ⲉ̀ⲃⲟⲗϩⲁⲣⲟⲛ : ⲛ̀ⲧⲉϥⲥⲉⲙⲛⲓ ⲛⲁⲛ ⲛ̀ⲧⲉϥϩⲓⲣⲏⲛⲏ :",
-    "Implore Qui tu enfantas\nC’est Lui notre bon Sauveur\nAfin qu’Il soulage nos peines\nEt qu'Il nous accorde Sa paix.",
+    "Implore Qui tu enfantas♫ C’est Lui notre bon Sauveur♫ Afin qu’Il soulage nos peines♫ Et qu'Il nous accorde Sa paix.",
     "",
     "اسألى الذى ولدته. مخلصنا الصالح. أن يرفع عَنَّا هذه الأتعاب. ويقرر لنا سلامه.",
   ],
   [
     Prefix.same + "&C=Diacon",
     "Ⲭⲉⲣⲉ ⲑⲏⲉⲑⲙⲉϩ ⲛ̀ϩ̀ⲙⲟⲧ : ϯⲗⲩⲭⲛⲓⲁ̀ ⲛ̀ⲕⲁⲑⲁⲣⲟⲥ : ⲑⲏⲉⲧⲁⲥϥⲁⲓ ϧⲁ ⲡⲓⲗⲁⲙⲡⲁⲥ : ⲡⲓⲭ̀ⲣⲱⲙ ⲛ̀ⲧⲉ ϯⲙⲉⲑⲛⲟⲩϯ.",
-    "Salut à toi, pleine de grâce\nToi le luminaire pur\nToi qui as porté la Lampe\nFeu de la Divinité.",
+    "Salut à toi, pleine de grâce♫ Toi le luminaire pur♫ Toi qui as porté la Lampe♫ Feu de la Divinité.",
     "",
     "افرحي يا ممتلئة نعمة. المنارة النقية. حاملة المصباح. نار اللاهوت.",
   ],
   [
     Prefix.same + "&C=Diacon",
     "Ⲭⲉⲣⲉ ϯϩⲉⲗⲡⲓⲥ ⲛ̀ⲟⲩϫⲁⲓ : ⲛ̀ⲧⲉ ϯⲟⲓⲕⲟⲩⲙⲉⲛⲏ ⲧⲏⲣⲥ : ⲉⲑⲃⲏϯ ⲅⲁⲣ ⲁⲛⲉⲣⲣⲉⲙϩⲉ : ⲉ̀ⲃⲟⲗϩⲁ ⲡⲓⲥⲁϩⲟⲩⲓ̀ ⲛ̀ⲧⲉ Ⲉⲩⲁ̀.",
-    "Salut à toi ô espérance\nDu salut de toute la terre\nPar toi nous fûmes libérés\nDe la malédiction d'Eve.",
+    "Salut à toi ô espérance♫ Du salut de toute la terre♫ Par toi nous fûmes libérés♫ De la malédiction d'Eve.",
     "",
     "افرحي يا رجاء خلاص. كل المسكونة. لأننا مِنْ أَجْلِك. عُتقنا من لعنة حواء.",
   ],
   [
     Prefix.same + "&C=Diacon",
     "Ⲉⲑⲃⲏϯ ⲟⲛ ⲁⲛⲉⲣⲙⲁⲛ̀ϣⲱⲡⲓ : ⲙ̀Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉ̅ⲑ̅ⲩ̅ : ⲫⲁⲓ ⲉⲧⲁϥⲓ̀ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱ : ⲁϥⲉⲣⲁ̀ⲅⲓⲁ̀ⲍⲓⲛ ⲙ̀ⲙⲟ.",
-    "Par toi nous sommes devenus\nUne demeure du Saint Esprit\nLui qui descendit sur toi\nEt qui t'avait sanctifiée",
+    "Par toi nous sommes devenus♫ Une demeure du Saint Esprit♫ Lui qui descendit sur toi♫ Et qui t'avait sanctifiée",
     "",
     "ومِنْ أَجْلِك أيضاً. صرنا مسكناً للروح القدس. الذي حل عليكِ. وقدسك.",
   ],
   [
     Prefix.same + "&C=Diacon",
     "Ⲭⲉⲣⲉ ⲑⲏⲉ̀ⲧⲁ Ⲅⲁⲃⲣⲓⲏⲗ : ⲉⲣⲭⲉⲣⲉⲧⲓⲍⲓⲛ ⲙ̀ⲙⲟⲥ : ϫⲉ ⲭⲉⲣⲉ ⲑⲏⲉⲑⲙⲉϩ ⲛ̀ϩ̀ⲙⲟⲧ : ⲟⲩⲟϩ Ⲡ̀⳪ ϣⲟⲡ ⲛⲉⲙⲉ.",
-    "Salut à celle que Gabriel\nA saluée en disant :\n« Salut à toi, pleine de grâce\nLe Seigneur est avec toi. »",
+    "Salut à celle que Gabriel♫ A saluée en disant :♫ « Salut à toi, pleine de grâce♫ Le Seigneur est avec toi. »",
     "",
     "السلام للتى أقرأها. غبريال السلام قائلا. السلام لك يا ممتلئة نعمة الرَبِّ معكِ.",
   ],
   [
     Prefix.same + "&C=Diacon",
     "Ⲁ ⲡ̀ϯⲙⲁϯ ⲅⲁⲣ ⲙ̀Ⲫ̀ⲓⲱⲧ : ϣⲱⲡⲓ ϧⲉⲛ ⲡⲉϫⲓⲛⲉ̀ⲣⲃⲟⲕⲓ : ⲁ̀ ⲧ̀ⲡⲁⲣⲟⲩⲥⲓⲁ̀ ⲙ̀Ⲡⲓϣⲏⲣⲓ : ϣⲱⲡⲓ ⲛ̀ϩ̀ⲣⲏⲓ ϧⲉⲛ ⲧⲉⲙⲏⲧⲣⲁ.",
-    "Car il avait plu au Père\nQue tu fûs enceinte, Marie\nEt la manifestation\nDu Fils fut dans tes entrailles",
+    "Car il avait plu au Père♫ Que tu fûs enceinte, Marie♫ Et la manifestation♫ Du Fils fut dans tes entrailles",
     "",
     "لأن مسرة الآب. كانت فى حبلك. وظهور الابن. كان فى أحشائك.",
   ],
   [
     Prefix.same + "&C=Diacon",
     "Ⲁ̀ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉ̅ⲑ̅ⲩ̅ : ⲙⲟϩ ⲙ̀ⲙⲁⲓ ⲛⲓⲃⲉⲛ ⲛ̀ⲧⲉ : ⲧⲉⲯⲩⲭⲏ ⲛⲉⲙ ⲡⲉⲥⲱⲙⲁ : ⲱ̀ Ⲙⲁⲣⲓⲁ̀ ⲑ̀ⲙⲁⲩ ⲙ̀Ⲫ̀ϯ.",
-    "L’Esprit Saint avait rempli\nToute part en toi, Marie\nToute ton âme et tout ton corps\nÔ Marie, Mère de Dieu",
+    "L’Esprit Saint avait rempli♫ Toute part en toi, Marie♫ Toute ton âme et tout ton corps♫ Ô Marie, Mère de Dieu",
     "",
     "والرُّوحِ القُدُسِ. ملأ كل موضع منكِ. نفسك وجسدك. يا مريم أم الله.",
   ],
   [
     Prefix.same + "&C=Diacon",
     "Ⲉⲑⲃⲉ ⲫⲁⲓ ⲧⲉⲛⲉⲣϣⲁⲓ ϩⲱⲛ : ϧⲉⲛ ⲟⲩϣⲁⲓ ⲙ̀ⲡ̀ⲛⲉⲩⲙⲁⲧⲓⲕⲟⲛ : ⲟⲩⲟϩ ⲙ̀ⲡ̀ⲣⲟⲫⲏⲧⲓⲕⲟⲛ ⲉⲩⲥⲟⲡ : ⲉⲛⲱϣ ⲉ̀ⲃⲟⲗ ⲛⲉⲙ ̀ⲡ̀ⲟⲩⲣⲟ Ⲇⲁⲩⲓⲇ.",
-    "Pour cela, nous tous aussi\nNous fêtons cette occasion\nProphétique, spirituelle\nEn criant avec David",
+    "Pour cela, nous tous aussi♫ Nous fêtons cette occasion♫ Prophétique, spirituelle♫ En criant avec David",
     "",
     "لأجل هذا نعيد نحن أيضًا. عيداً روحياً. ونبويًا معاً. صارخين مع الملك داود.",
   ],
   [
     Prefix.same + "&C=Diacon",
     "Ϫⲉ ⲧⲱⲛⲕ Ⲡ̀⳪ ⲉ̀ⲡⲉⲕⲙ̀ⲧⲟⲛ : ⲛ̀ⲑⲟⲕ ⲛⲉⲙ ϯⲕⲓⲃⲱⲧⲟⲥ : ⲛ̀ⲧⲉ ⲡⲓⲙⲁ ⲉ̅ⲑ̅ⲩ̅ ⲛ̀ⲧⲁⲕ : ⲉ̀ⲧⲉ ⲛ̀ⲑⲟ ⲧⲉ ⲱ̀ Ⲙⲁⲣⲓⲁ̀.",
-    "Disant : \"Lève-Toi Seigneur\nVers le lieu de Ton repos\nToi et l'arche de Ta demeure,\"\nL’Arche c’était toi, Marie",
+    "Disant : \"Lève-Toi Seigneur♫ Vers le lieu de Ton repos♫ Toi et l'arche de Ta demeure,\"♫ L’Arche c’était toi, Marie",
     "",
-    "قائلين \"قم يا رب. إلى راحتك. أنتَ وتابوت قدسك.\" الذى هو أنتِ يا مريم.",
+    "قائلين \"قم يا رب. إلى راحتك. أنتَ وتابوت قدسك.\"الذى هو أنتِ يا مريم.",
   ],
   [
     Prefix.same + "&C=Diacon",
     "Ⲧⲉⲛϯϩⲟ ⲁ̀ⲣⲓⲡⲉⲛⲙⲉⲩⲓ̀ : ⲱ̀ ϯⲡ̀ⲣⲟⲥⲧⲁⲧⲏⲥ ⲉⲧⲉⲛϩⲟⲧ : ⲛⲁϩⲣⲉⲛ Ⲡⲉⲛ⳪ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ.",
-    "Souviens-toi, nous t’implorons\nÔ intercesseur fidèle\nDevant notre Seigneur Jésus-Christ\nPour qu'il nous pardonne nos péchés.",
+    "Souviens-toi, nous t’implorons♫ Ô intercesseur fidèle♫ Devant notre Seigneur Jésus-Christ♫ Pour qu'il nous pardonne nos péchés.",
     "",
     "نسألك أن تذكرينا. أَيَّتُهَا الشفيعة الأمينة. أمام ربنا يسوع المسيح. ليغفر لنا خطايانا.",
   ],
@@ -31647,84 +31743,84 @@ PrayersArrayFR = [[
   [
     Prefix.same + "&C=Diacon",
     "Ⲭⲉⲣⲉ ⲑⲏⲉⲑⲙⲉϩ ⲛ̀ϩ̀ⲙⲟⲧ : ϯⲡⲁⲣⲑⲉⲛⲟⲥ ⲛ̀ⲁⲧⲑⲱⲗⲉⲃ : ϯⲥ̀ⲕⲏⲛⲏ ⲛ̀ⲁⲑⲙⲟⲩⲛⲕ ⲛ̀ϫⲓϫ : ⲡⲓⲁ̀ϩⲟ ⲛ̀ⲧⲉ ϯⲙⲉⲑⲙⲏⲓ.",
-    "Salut à toi, pleine de grâce\nToi la Vierge sans souillure\nTente qu’aucune main ne fit\nEt trésor de la justice",
+    "Salut à toi, pleine de grâce♫ Toi la Vierge sans souillure♫ Tente qu’aucune main ne fit♫ Et trésor de la justice",
     "",
     "السلام للممتلئة نعمة. العذراء غير الدنسة. القبة غير المصنوعة. بالأيدى كنز البر.",
   ],
   [
     Prefix.same + "&C=Diacon",
     "Ⲭⲉⲣⲉ ϯϭⲣⲟⲙⲡⲓ ⲉⲑⲛⲉⲥⲱⲥ : ⲑⲏⲉⲧⲁⲥϩⲓϣⲉⲛⲛⲟⲩϥⲓ ⲛⲁⲛ : ⲛ̀ϯϩⲓⲣⲏⲛⲏ ⲛ̀ⲧⲉ Ⲫ̀ϯ : ⲑⲏⲉⲧⲁⲥϣⲱⲡⲓ ϣⲁ ⲛⲓⲣⲱⲙⲓ.",
-    "Salut à la belle colombe\nToi qui nous as annoncé\nPaix de Dieu qui est venue\nPour toute l’humanité.",
+    "Salut à la belle colombe♫ Toi qui nous as annoncé♫ Paix de Dieu qui est venue♫ Pour toute l’humanité.",
     "",
     "السلام للحمامة الحسنة. التى بشرتنا. بسلام الله. الذى صار للبشر.",
   ],
   [
     Prefix.same + "&C=Diacon",
     "Ⲭⲉⲣⲉ ⲑ̀ⲙⲁⲩ ⲙ̀ⲫⲏⲉⲧⲁϥⲉⲣⲣⲱⲙⲓ : ϧⲉⲛ ⲡⲉϥⲟⲩⲱϣ ⲙ̀ⲙⲓⲛ ⲙ̀ⲙⲟϥ : ⲛⲉⲙ ⲡ̀ϯⲙⲁϯ Ⲡ̀ⲉϥⲓⲱⲧ : ⲛⲉⲙ ⲡⲓⲠ̀ⲛ̅ⲁ̅ ⲉ̅ⲑ̅ⲩ̅.",
-    "Salut, Mère de l’Incarné\nPar Sa seule volonté\nEt le plaisir de Son Père\nEt aussi du Saint Esprit.",
+    "Salut, Mère de l’Incarné♫ Par Sa seule volonté♫ Et le plaisir de Son Père♫ Et aussi du Saint Esprit.",
     "",
     "السلام لأم المتأنس. بإرادته وحده. ومسرة أبيه. والرُّوحِ القُدُسِ.",
   ],
   [
     Prefix.same + "&C=Diacon",
     "Ⲭⲉⲣⲉ ⲡⲓⲥ̀ⲧⲁⲙⲛⲟⲥ ⲛ̀ⲛⲟⲩⲃ : ⲉ̀ⲣⲉ ⲡⲓⲙⲁⲛⲛⲁ ϩⲏⲡ ⲛ̀ϧⲏⲧϥ : ⲛⲉⲙ ⲡⲓϣ̀ⲃⲱⲧ ⲛ̀ϣⲉ ⲙ̀ⲡⲉⲩⲕⲓⲛⲱⲛ : ⲉ̀ⲧⲁ Ⲙⲱⲩⲥⲏ̀ⲥ ⲙⲉϣ ϯⲡⲉⲧⲣⲁ ⲛ̀ϧⲏⲧϥ.",
-    "Salut au propitiatoire\nD’or où la manne est cachée\nAu bâton avec lequel\nMoïse frappa le rocher.",
+    "Salut au propitiatoire♫ D’or où la manne est cachée♫ Au bâton avec lequel♫ Moïse frappa le rocher.",
     "",
     "السلام للقسط الذهبى. المخفى فيه المن. وعصا الخشب اللوزى. التى ضرب بها موسى الصخرة.",
   ],
   [
     Prefix.same + "&C=Diacon",
     "Ⲭⲉⲣⲉ ⲕⲉⲭⲁⲣⲓⲧⲱⲙⲉⲛⲏ : ⲱ̀ ϯⲧ̀ⲣⲁⲡⲉⲍⲁ ⲙ̀ⲡ̅ⲛ̅ⲁ̅ⲧⲓⲕⲏ : ⲉⲩϯ ⲙ̀ⲡ̀ⲱⲛϧ ⲛ̀ⲟⲩⲟⲛ ⲛⲓⲃⲉⲛ : ⲉⲑⲛⲁⲟⲩⲱⲙ ⲉ̀ⲃⲟⲗⲛ̀ϧⲏⲧⲥ",
-    "Salut à toi, pleine de grâce\nÔ table spirituelle\nCelle qui donne la vie\nA tous ceux qui y mangeront.",
+    "Salut à toi, pleine de grâce♫ Ô table spirituelle♫ Celle qui donne la vie♫ A tous ceux qui y mangeront.",
     "",
     "السلام للممتلئة نعمة. المائدة الروحية. التى تعطى الحياة. لكل من يأكل منها.",
   ],
   [
     Prefix.same + "&C=Diacon",
     "Ⲭⲉⲣⲉ ⲡⲓⲕⲩⲙⲓⲗⲗⲓⲟⲛ : ⲛ̀ⲁⲫⲑⲁⲣⲧⲟⲛ ⲛ̀ⲧⲉ ϯⲙⲉⲑⲛⲟⲩϯ : ⲉⲧⲉⲣⲫⲁϧⲣⲓ ⲛ̀ⲟⲩⲟⲛ ⲛⲓⲃⲉⲛ : ⲉⲑⲛⲁⲥⲱ ⲉ̀ⲃⲟⲗⲛ̀ϧⲏⲧϥ.",
-    "Salut urne sans souillure\nContient la Divinité\nQui donne la guérison\nA tous ceux qui en boiront.",
+    "Salut urne sans souillure♫ Contient la Divinité♫ Qui donne la guérison♫ A tous ceux qui en boiront.",
     "",
     "السلام للإناء غير الفاسد. الذى للاهوت المعطي الشفاء. لكل من يشرب منه.",
   ],
   [
     Prefix.same + "&C=Diacon",
     "Ⲁⲓⲛⲁⲉⲣϩⲏⲧⲥ ϧⲉⲛ ⲟⲩϭⲓϣϣⲱⲟⲩ : ⲛ̀ⲧⲁⲕⲓⲙ ⲙ̀ⲡ̀ⲟⲣⲅⲁⲛⲟⲛ ⲙ̀ⲡⲁⲗⲁⲥ : ⲛ̀ⲧⲁϫⲱ ⲙ̀ⲡ̀ⲧⲁⲓⲟ̀ ⲛ̀ⲧⲉ ⲧⲁⲓⲡⲁⲣⲑⲉⲛⲟⲥ : ⲛⲉⲙ ⲛⲉⲥⲥⲩⲅⲅⲱⲙⲓⲟⲛ ⲉⲩⲥⲟⲡ.",
-    "Je commence avec passion\nEn faisant vibrer ma langue\nEn l’honneur de cette Vierge\nAvec toutes ses louanges",
+    "Je commence avec passion♫ En faisant vibrer ma langue♫ En l’honneur de cette Vierge♫ Avec toutes ses louanges",
     "",
     "أبدأ باشتياق. محركًا أرغن لساني. وأتحدث بكرامة. هذه العذراء ومدائحها معاً.",
   ],
   [
     Prefix.same + "&C=Diacon",
     "Ϫⲉ ⲛ̀ⲑⲟⲥ ⲅⲁⲣ ⲡⲉ ⲡⲉⲛϣⲟⲩϣⲟⲩ : ⲛⲉⲙ ⲧⲉⲛϩⲉⲗⲡⲓⲥ ⲛⲉⲙ ⲡⲉⲛⲧⲁϫⲣⲟ : ϧⲉⲛ ⲧ̀ⲡⲁⲣⲟⲩⲥⲓⲁ̀ ⲙ̀Ⲡⲉⲛⲛⲟⲩϯ : Ⲡⲉⲛ⳪ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅.",
-    "Car elle est notre fierté\nEspérance, affermissement\nDans l'avènement de Dieu\nJésus-Christ, notre Seigneur",
+    "Car elle est notre fierté♫ Espérance, affermissement♫ Dans l'avènement de Dieu♫ Jésus-Christ, notre Seigneur",
     "",
     "لأنها فخرنا. ورجاؤنا وثباتنا. فى ظهور إلهنا. ربنا يسوع المسيح.",
   ],
   [
     Prefix.same + "&C=Diacon",
     "Ⲧⲉⲛϭⲓⲥⲓ ⲙ̀ⲙⲟ ϧⲉⲛ ⲟⲩⲉⲙⲡ̀ϣⲁ : ⲛⲉⲙ Ⲉ̀ⲗⲓⲥⲁⲃⲉⲧ ⲧⲉⲥⲩⲅⲅⲉⲛⲏⲥ : ϫⲉ ⲧⲉⲥ̀ⲙⲁⲣⲱⲟⲩⲧ ⲛ̀ⲑⲟ ϧⲉⲛ ⲛⲓϩⲓⲟ̀ⲙⲓ : ϥ̀ⲥ̀ⲙⲁⲣⲱⲟⲩⲧ ⲛ̀ϫⲉ ⲡ̀ⲟⲩⲧⲁϩ ⲛ̀ⲧⲉ ⲧⲉⲛⲉϫⲓ.",
-    "Méritante, nous t’exaltons\nEt avec Elizabeth\n« Tu es bénie entre les femmes\nBéni, le Fruit de tes entrailles.»",
+    "Méritante, nous t’exaltons♫ Et avec Elizabeth♫ « Tu es bénie entre les femmes♫ Béni, le Fruit de tes entrailles.»",
     "",
     "نعظمك بِاسْتِحْقَاقٍ. مع اليصابات نسيبتك قائلين. مباركة أنتِ فى النساء. ومباركة هي ثمرة بطنك.",
   ],
   [
     Prefix.same + "&C=Diacon",
     "Ⲧⲉⲛϯ ⲛⲉ ⲙ̀ⲡⲓⲭⲉⲣⲉⲧⲓⲥⲙⲟⲥ : ⲛⲉⲙ Ⲅⲁⲃⲣⲓⲏⲗ ⲡⲓⲁⲅⲅⲉⲗⲟⲥ : ϫⲉ ⲭⲉⲣⲉ ⲕⲉⲭⲁⲣⲓⲧⲱⲙⲉⲛⲏ : ⲟ̀ Ⲕⲩⲣⲓⲟⲥ ⲙⲉⲧⲁⲥⲟⲩ.",
-    "Nous te saluons avec\nL'ange Gabriel, disant :\nSalut à toi, pleine de grâce\nLe Seigneur est avec toi.",
+    "Nous te saluons avec♫ L'ange Gabriel, disant :♫ Salut à toi, pleine de grâce♫ Le Seigneur est avec toi.",
     "",
-    "نعطيك السلام. مع غبريال الملاك قائلين. \" السلام لك يا ممتلئة نعمة. الرَبِّ معكِ. \"",
+    "نعطيك السلام. مع غبريال الملاك قائلين. \"السلام لك يا ممتلئة نعمة. الرَبِّ معكِ. \"",
   ],
   [
     Prefix.same + "&C=Diacon",
     "Ⲭⲉⲣⲉ ⲛⲉ ⲱ̀ ϯⲡⲁⲣⲑⲉⲛⲟⲥ : ϯⲟⲩⲣⲱ ⲙ̀ⲙⲏⲓ ⲛ̀ⲁ̀ⲗⲏⲑⲓⲛⲏ : ⲭⲉⲣⲉ ⲡ̀ϣⲟⲩϣⲟⲩ ⲛ̀ⲧⲉ ⲡⲉⲛⲅⲉⲛⲟⲥ : ⲁ̀ⲣⲉϫ̀ⲫⲟ ⲛⲁⲛ ⲛ̀Ⲉⲙⲙⲁⲛⲟⲏⲗ.",
-    "Ô Vierge, salut à toi\nToi la reine véritable\nSalut, fierté du genre humain\nTu enfantas Emmanuel.",
+    "Ô Vierge, salut à toi♫ Toi la reine véritable♫ Salut, fierté du genre humain♫ Tu enfantas Emmanuel.",
     "",
     "السلام لك أَيَّتُهَا العذراء. الملكة الحقيقية الحقانية. السلام لفخر جنسنا. ولدت لنا عمانوئيل.",
   ],
   [
     Prefix.same + "&C=Diacon",
     "Ⲧⲉⲛϯϩⲟ ⲁ̀ⲣⲓⲡⲉⲛⲙⲉⲩⲓ̀ : ⲱ̀ ϯⲡ̀ⲣⲟⲥⲧⲁⲧⲏⲥ ⲉⲧⲉⲛϩⲟⲧ : ⲛⲁϩⲣⲉⲛ Ⲡⲉⲛ⳪ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ.",
-    "Souviens-toi, nous t’implorons\nÔ intercesseur fidèle\nDevant notre Seigneur Jésus-Christ\nPour qu'il nous pardonne nos péchés.",
+    "Souviens-toi, nous t’implorons♫ Ô intercesseur fidèle♫ Devant notre Seigneur Jésus-Christ♫ Pour qu'il nous pardonne nos péchés.",
     "",
     "نسألك أن تذكرينا. أَيَّتُهَا الشفيعة الأمينة. أمام ربنا يسوع المسيح. ليغفر لنا خطايانا.",
   ],
@@ -31747,35 +31843,35 @@ PrayersArrayFR = [[
   [
     Prefix.same + "&C=Diacon",
     "Ⲁⲕϣⲁⲛⲓ̀ ϧⲉⲛ ⲧⲉⲕⲙⲁϩⲥ̀ⲛⲟⲩϯ : ⲙ̀ⲡⲁⲣⲟⲩⲥⲓⲁ̀ ⲉⲧⲟⲓ ⲛ̀ϩⲟϯ : ⲙ̀ⲡⲉⲛⲑ̀ⲣⲉⲛⲥⲱⲧⲉⲙ ϧⲉⲛ ⲟⲩⲥ̀ⲑⲉⲣⲧⲉⲣ : ϫⲉ ϯⲥⲱⲟⲩⲛ ⲙ̀ⲙⲱⲧⲉⲛ ⲁⲛ.",
-    "Lors de Ton avènement\nLe second et redoutable\nFais que nous n’entendions pas\nMoi Je ne vous connais pas",
+    "Lors de Ton avènement♫ Le second et redoutable♫ Fais que nous n’entendions pas♫ Moi Je ne vous connais pas",
     "",
     "عند ظهورك الثانى المخوف لا نسمع برعده اننى لست أعرفكم.",
   ],
   [
     Prefix.same + "&C=Diacon",
     "Ⲁⲗⲗⲁ ⲙⲁⲣⲉⲛⲉⲣⲡ̀ⲉⲙⲡ̀ϣⲁ ⲛ̀ⲥⲱⲧⲉⲙ : ⲉ̀ϯⲥ̀ⲙⲏ ⲉⲑⲙⲉϩ ⲛ̀ⲣⲁϣⲓ : ⲛ̀ⲧⲉ ⲛⲉⲕⲙⲉⲧϣⲁⲛⲁϩ̀ⲑⲏϥ : ⲉⲥⲱϣ ⲉ̀ⲃⲟⲗ ⲉⲥϫⲱ ⲙ̀ⲙⲟⲥ.",
-    "Mais que nous soyons tous dignes\nD’écouter Ta douce voix\nQui s’écrie, pleine de joie\nEn clamant et en disant:",
+    "Mais que nous soyons tous dignes♫ D’écouter Ta douce voix♫ Qui s’écrie, pleine de joie♫ En clamant et en disant:",
     "",
     "بل نكون مستحقين لسماع صوتك الحنون الممتلئ فرحا يصرخ قائلا.",
   ],
   [
     Prefix.same + "&C=Diacon",
     "Ϫⲉ ⲁ̀ⲙⲱⲓⲛⲓ ϩⲁⲣⲟⲓ : ⲛⲏⲉⲧⲥ̀ⲙⲁⲣⲱⲟⲩⲧ ⲛ̀ⲧⲉ Ⲡⲁⲓⲱⲧ : ⲁ̀ⲣⲓⲕ̀ⲗⲏⲣⲟⲛⲟⲙⲓⲛ ⲙ̀ⲡⲓⲱⲛϧ : ⲉⲑⲙⲏⲛ ⲉ̀ⲃⲟⲗ ϣⲁ ⲉ̀ⲛⲉϩ.",
-    "Accourez, venez à Moi\nVous qui êtes bénis du Père\nHéritez de cette vie\nQui dure éternellement.",
+    "Accourez, venez à Moi♫ Vous qui êtes bénis du Père♫ Héritez de cette vie♫ Qui dure éternellement.",
     "",
     "تعالوا الىّ. يا مباركى أبى. رثوا الحياة الدائمة. الى الابد.",
   ],
   [
     Prefix.same + "&C=Diacon",
     "Ⲥⲉⲛⲁⲓ̀ ⲛ̀ϫⲉ ⲛⲓⲙⲁⲣⲧⲩⲣⲟⲥ : ⲉⲩϥⲁⲓ ϧⲁ ⲛⲟⲩⲃⲁⲥⲁⲛⲟⲥ : ⲥⲉⲛⲁⲓ̀ ⲛ̀ϫⲉ ⲛⲓⲇⲓⲕⲉⲟⲥ : ⲉⲩϥⲁⲓ ϧⲁ ⲛⲟⲩⲡⲟⲗⲏⲧⲓⲁ̀.",
-    "Et viendront tous les martyrs\nEux qui portent leurs souffrances\nEt viendront aussi les justes\nEux qui portent leurs vertus",
+    "Et viendront tous les martyrs♫ Eux qui portent leurs souffrances♫ Et viendront aussi les justes♫ Eux qui portent leurs vertus",
     "",
     "يأتى الشهداء. حاملين عذاباتهم. ويأتى الصديقون. حاملين فضائلهم.",
   ],
   [
     Prefix.same + "&C=Diacon",
     "Ϥ̀ⲛⲁⲓ̀ ⲛ̀ϫⲉ Ⲡ̀ϣⲏⲣⲓ ⲙ̀Ⲫ̀ϯ : ϧⲉⲛ ⲡⲉϥⲱ̀ⲟⲩ ⲛⲉⲙ ⲫⲁ Ⲡⲉϥⲓⲱⲧ : ϥ̀ⲛⲁϯ ⲙ̀ⲡⲓⲟⲩⲁⲓ ⲡⲓⲟⲩⲁⲓ : ⲕⲁⲧⲁ ⲛⲉϥϩ̀ⲃⲏⲟⲩⲓ̀ ⲉⲧⲁϥⲁⲓⲧⲟⲩ.",
-    "Fils de Dieu vient dans Sa gloire\nEt dans la gloire de Son Père\nEt Il rendra à chacun\nA chacun selon ses œuvres",
+    "Fils de Dieu vient dans Sa gloire♫ Et dans la gloire de Son Père♫ Et Il rendra à chacun♫ A chacun selon ses œuvres",
     "",
     "يأتى ابن الله فى مجده ومجد أبيه ويجازى كل واحد كأعماله التى عملها.",
   ],
@@ -31789,49 +31885,49 @@ PrayersArrayFR = [[
   [
     Prefix.same + "&C=Diacon",
     "Ⲕⲁⲧⲁⲫ̀ⲣⲏϯ ⲉⲧⲁⲕⲧⲏⲓⲥ: ⲛ̀ⲛⲉⲕⲁ̀ⲅⲓⲟⲥ ⲛ̀ⲁ̀ⲡⲟⲥⲧⲟⲗⲟⲥ : ⲉⲕⲉ̀ϫⲟⲥ ⲛⲁⲛ ⲙ̀ⲡⲟⲩⲣⲏϯ : ϫⲉ ⲧⲁϩⲓⲣⲏⲛⲏ ϯϯ ⲙ̀ⲙⲟⲥ ⲛⲱⲧⲉⲛ.",
-    "Comme Tu l’avais donnée\nA Tes purs et saints apôtres\nDis-nous comme à eux aussi\nMa paix, Moi je vous la donne.",
+    "Comme Tu l’avais donnée♫ A Tes purs et saints apôtres♫ Dis-nous comme à eux aussi♫ Ma paix, Moi je vous la donne.",
     "",
     "كما أعطيته لرسلك القديسين قل لنا مثلهم أني أعطيكم سلامى.",
   ],
   [
     Prefix.same + "&C=Diacon",
     "Ⲧⲁϩⲓⲣⲏⲛⲏ ⲁ̀ⲛⲟⲕ : ⲑⲏⲉⲧⲁⲓϭⲓⲧⲥ ϩⲓⲧⲉⲛ Ⲡⲁⲓⲱⲧ : ⲁ̀ⲛⲟⲕ ϯⲭⲱ ⲙ̀ⲙⲟⲥ ⲛⲉⲙⲱⲧⲉⲛ : ⲓⲥϫⲉⲛ ϯⲛⲟⲩ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ.",
-    "Ma paix, celle que J’ai prise\nQue J’ai prise de Mon Père\nJe la laisse parmi vous\nMaintenant et à jamais.",
+    "Ma paix, celle que J’ai prise♫ Que J’ai prise de Mon Père♫ Je la laisse parmi vous♫ Maintenant et à jamais.",
     "",
     "سلامي أنا الذى أخذته من أبى أنا أتركه معكم من الان وإلى الابد.",
   ],
   [
     Prefix.same + "&C=Diacon",
     "Ⲡⲓⲁⲅⲅⲉⲗⲟⲥ ⲛ̀ⲧⲉ ⲡⲁⲓⲉ̀ϩⲟⲟⲩ : ⲉⲧϩⲏⲗ ⲉ̀ⲡ̀ϭⲓⲥⲓ ⲛⲉⲙ ⲡⲁⲓϩⲩⲙⲛⲟⲥ : ⲁ̀ⲣⲓⲡⲉⲛⲙⲉⲩⲓ̀ ϧⲁⲧ̀ϩⲏ ⲙ̀Ⲡ̀⳪ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ.",
-    "Ô toi ange de ce jour\nQui t’envoles avec cet hymne\nEvoque-nous près du Seigneur\nPour qu’Il nous pardonne nos péchés.",
+    "Ô toi ange de ce jour♫ Qui t’envoles avec cet hymne♫ Evoque-nous près du Seigneur♫ Pour qu’Il nous pardonne nos péchés.",
     "",
     "يا ملاك هذا اليوم الطائر الى العلو بهذه التسبحة اذكرنا لدى الرَبِّ ليغفر لنا خطايانا.",
   ],
   [
     Prefix.same + "&C=Diacon",
     "Ⲛⲏⲉⲧϣⲱⲛⲓ ⲙⲁⲧⲁⲗϭⲱⲟⲩ : ⲛⲏⲉⲧⲁⲩⲉⲛⲕⲟⲧ Ⲡ̀⳪ ⲙⲁⲙ̀ⲧⲟⲛ ⲛⲱⲟⲩ : ⲛⲉⲛⲥ̀ⲛⲏⲟⲩ ⲉⲧⲭⲏ ϧⲉⲛ ϩⲟϫϩⲉϫ ⲛⲓⲃⲉⲛ : Ⲡⲁ⳪ ⲁ̀ⲣⲓⲃⲟⲏ̀ⲑⲓⲛ ⲉ̀ⲣⲟⲛ ⲛⲉⲙⲱⲟⲩ.",
-    "Les malades, guéris-les\nLes défunts, repose-les\nEt nos frères dans la détresse\nSeigneur aide-nous, aide-les",
+    "Les malades, guéris-les♫ Les défunts, repose-les♫ Et nos frères dans la détresse♫ Seigneur aide-nous, aide-les",
     "",
     "المرضى اشفهم الذين رقدوا يا رب نيحهم وأخواتنا الذين فى كل شدة يا ربى أعنا وإياهم.",
   ],
   [
     Prefix.same + "&C=Diacon",
     "Ⲉϥⲉ̀ⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟⲛ ⲛ̀ϫⲉ Ⲫ̀ϯ : ⲧⲉⲛⲛⲁⲥ̀ⲙⲟⲩ ⲉ̀Ⲡⲉϥⲣⲁⲛ ⲉ̅ⲑ̅ⲩ̅ : ⲛ̀ⲥⲏⲟⲩ ⲛⲓⲃⲉⲛ ⲉ̀ⲣⲉ ⲡⲉϥⲥ̀ⲙⲟⲩ : ⲛⲁϣⲱⲡⲓ ⲉϥⲙⲏⲛ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲣⲱⲛ.",
-    "Que Dieu nous bénisse tous\nSon saint Nom, nous bénissons\nEn tout temps, que Sa louange\nSoit sur nos lèvres toujours",
+    "Que Dieu nous bénisse tous♫ Son saint Nom, nous bénissons♫ En tout temps, que Sa louange♫ Soit sur nos lèvres toujours",
     "",
     "يباركنا الله ولنبارك أسمه القدوس فى كل حين تسبحته دائمة فى أفواهنا.",
   ],
   [
     Prefix.same + "&C=Diacon",
     "Ϫⲉ ϥ̀ⲥ̀ⲙⲁⲣⲱⲟⲩⲧ ⲛ̀ϫⲉ Ⲫ̀ⲓⲱⲧ ⲛⲉⲙ Ⲡ̀ϣⲏⲣⲓ : ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉ̅ⲑ̅ⲩ̅ : Ϯⲧ̀ⲣⲓⲁⲥ ⲉⲧϫⲏⲕ ⲉ̀ⲃⲟⲗ : ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲥ ⲧⲉⲛϯⲱ̀ⲟⲩ ⲛⲁⲥ.",
-    "Bénis soient le Père, le Fils,\nL’Esprit-Saint : la Trinité\nC’est la Trinité parfaite\nAdorons, glorifions-La.",
+    "Bénis soient le Père, le Fils,♫ L’Esprit-Saint : la Trinité♫ C’est la Trinité parfaite♫ Adorons, glorifions-La.",
     "",
     "مبارك الآب والابن والرُّوحِ القُدُسِ الثالوث الكامل نسجد له ونمجده.",
   ],
 ],
 [
   [
-    Prefix.psalmody + "PsalyAdamOnSundayTheotoky&D=$copticFeasts.AnyDay&C=Title",
+    Prefix.psalmody + "PsalyOnTheotoky&D=0&C=Title",
     "Ⲁⲓⲕⲱϯ",
     "Psalie Adam sur la Théotokie du dimanche",
     "",
@@ -32059,7 +32155,7 @@ PrayersArrayFR = [[
     "Ϯⲛⲁⲛ ⲛ̀ⲧⲉⲕϩⲓⲣⲏⲛⲏ ⲙ̀ⲙⲏⲓ : ⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ : Ⲡⲁ⳪ Ⲓⲏ̅ⲥ Ⲡⲭ̅ⲥ : ⲁ̀ⲣⲓⲃⲟⲏ̀ⲑⲓⲛ ⲉ̀ⲣⲟⲓ.",
     "Et donne-nous ta vraie paix♫ Pardonne-nous nos péchés♫ Mon Seigneur Jésus-Christ♫ Viens à mon secours.",
     "",
-    "أعطنا سلامك الحقيقي♫ وأغفر لنا خطايانا♫ يا ربي يسوع♫ أعني.",
+    "أعطنا سلامك الحقيقي♫ واغفر لنا خطايانا♫ يا ربي يسوع♫ أعني.",
   ],
 ],
 [
@@ -32101,6 +32197,29 @@ PrayersArrayFR = [[
 ],
 [
   [
+    Prefix.psalmody + "IntroductionToWatesTheotoky&C=Title",
+    "Ⲉϣⲱⲡ ⲁⲛϣⲁⲛⲉⲣⲯⲁⲗⲓⲛ",
+    "Introduction à la Théotokie Wates (Ⲗⲟⲓⲡⲟⲛ)",
+    "",
+    "لحن إيشوب آنشان إريبسالين (مقدمة الثيؤطوكية الواطس)",
+  ],
+  [
+    Prefix.same + "&C=Diacon",
+    "Ⲉϣⲱⲡ ⲁⲛϣⲁⲛⲉⲣⲯⲁⲗⲓⲛ : ⲙⲁⲣⲉⲛϫⲟⲥ ϧⲉⲛ ⲟⲩϩ̀ⲗⲟϫ : ϫⲉ Ⲡⲉⲛ⳪ Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭⲣⲓⲥⲧⲟⲥ : ⲁ̀ⲣⲓ ⲟⲩⲛⲁⲓ ⲛⲉⲙ ⲛⲉⲙⲯⲩⲭⲏ.",
+    "Ainsi quand nous chanterons ♫ Entonnons avec douceur♫ Jésus-Christ notre Seigneur♫ Traite nos âmes avec pitié\n",
+    "",
+    "إذا ما رتلنا فلنقل بعذوبة. يا ربنا يسوع المسيح. اصنع رحمة مع نفوسنا",
+  ],
+  [
+    Prefix.same + "&C=Diacon",
+    "Ⲇⲟⲝⲁ ⲡⲁⲧⲣⲓ ⲕⲉ Ⲩ̀ⲓⲱ : ⲕⲉ ⲁ̀ⲅⲓⲱ Ⲡ̀ⲛⲉⲩⲙⲁⲧⲓ : ⲕⲉ ⲛⲩⲛ ⲕⲉ ⲁ̀ⲓ ⲕⲉ ⲓⲥⲧⲟⲩⲥ : ⲉ̀ⲟⲩⲱⲛⲁⲥ ⲧⲱⲛ<  ⲉ̀ⲱⲛⲱⲛ ⲁ̀ⲙⲏⲛ.",
+    "Toute gloire soit au Père♫ Au Fils, et au Saint-Esprit ♫ Maintenant et pour toujours♫ Pour les siècles des siècles, Amen. \n",
+    "",
+    "المجد للآب والابن. والروح القدوس. الآن وكل أوان. والى دهر الداهرين آمين",
+  ],
+],
+[
+  [
     Prefix.psalmody + "Theotoky&D=0&C=Title",
     "Ϯⲑⲉⲟ̀ⲧⲟⲕⲓⲁ̀ ⲙ̀ⲡ̀ⲉ̀ϩⲟⲟⲩ ⲛ̀Ϯⲕⲩⲡⲓⲁ̀ⲕⲏ : ⲏ̀ⲭⲟⲥ Ⲁⲇⲁⲙ",
     "Théotokie Adam du dimanche",
@@ -32108,105 +32227,112 @@ PrayersArrayFR = [[
     "ثيؤطوكية الأحد آدام",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.psalmody + "Part1&C=SubTitle",
+    "",
+    "1ère Partie",
+    "",
+    "القطعة الأولى",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲥⲉⲙⲟⲉⲉⲉⲙⲟⲩϯ ⲉ̀ⲣⲟ ⲇⲓⲕⲉⲟⲥ : ⲱ̀ ⲑⲏⲉⲧⲥ̀ⲙⲁⲣⲱⲟⲩⲧ : ϧⲉⲛ ⲛⲓϩⲓⲟ̀ⲙⲓ : ϫⲉ ϯⲙⲁϩⲥ̀ⲛⲟⲩϯ ⲛ̀ⲥ̀ⲕⲏⲛⲏ",
     "Et l'on t’a appelée♫ Avec raison, ô toi♫ Bénie entre les femmes♫ La seconde Tente",
     "",
     "مدعوة صديقة♫ أَيَّتُهَا المباركة♫ في النساء♫ القبة الثانية.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲑⲏⲉⲧⲟⲩⲙⲟⲩϯ ⲉ̀ⲣⲟⲥ : ϫⲉ ⲑⲏⲉ̅ⲑ̅ⲩ̅ : ⲛ̀ⲧⲉ ⲛⲏⲉ̅ⲑ̅ⲩ̅ : ⲉ̀ⲣⲉ ⲛⲓⲡ̀ⲗⲁⲝ ⲛ̀ϧⲏⲧⲥ",
     "Tu as été appelée♫ Aussi le Saint des Saints♫ C'est là où se trouvaient♫ Les Tables de la Loi",
     "",
     "التي تُدعى♫ قدس الأقداس♫ وفيها لوحا♫ العهد.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲛⲧⲉ ϯⲇⲓⲁ̀ⲑⲏⲕⲏ : ⲛⲉⲙ ⲡⲓⲓ̅ ⲛ̀ⲥⲁϫⲓ : ⲛⲁⲓ ⲉⲧⲁϥⲥ̀ϧⲏⲧⲟⲩ : ⲛ̀ϫⲉ ⲡⲓⲧⲏⲃ ⲛ̀ⲧⲉ Ⲫ̀ϯ",
     "Les Tables de l'Alliance♫ Avec les Dix Paroles♫ Qui ont été inscrites♫ Par le doigt de Dieu",
     "",
     "والعشر♫ الكلمات ♫هذه المكتوبة♫ بأصبع الله.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲥⲉⲉⲣϣⲟⲣⲡ ⲛ̀ⲉⲣⲥⲩⲙⲙⲉⲛⲓⲛ : ⲛⲁⲛ ⲙ̀ⲡⲓⲓⲱⲧⲁ : Ⲡⲓⲣⲁⲛ ⲛ̀ⲟⲩϫⲁⲓ : ⲛ̀ⲧⲉ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅",
     "Elles nous ont signifié♫ D'avance le Iota♫ C'est le Nom salutaire♫ Qui est à Jésus-Christ",
     "",
     "سبقت أن دلتنا♫ على اليوطة♫ اسم الخلاص♫ الذي ليسوع المسيح.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲫⲁⲓ ⲉⲧⲁϥϭⲓⲥⲁⲣⲝ ⲛ̀ϧⲏϯ : ϧⲉⲛ ⲟⲩⲙⲉⲧⲁⲧϣⲓⲃϯ : ⲁϥϣⲱⲡⲓ ⲙ̀ⲙⲉⲥⲓⲧⲏⲥ : ⲉⲩⲇⲓⲁⲑⲏⲕⲏ ⲙ̀ⲃⲉⲣⲓ",
     "Lui qui s'est incarné♫ En toi sans changement♫ Et devint médiateur♫ D’une Alliance nouvelle",
     "",
     "هذا الذي تجسد منك♫ بغير تغيير♫ وصار وسيطاً♫ لعهد جديد.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲉ̀ⲃⲟⲗϩⲓⲧⲉⲛ ⲫ̀ⲛⲟⲩϫϧ : ⲛ̀ⲧⲉ ⲡⲉϥⲥ̀ⲛⲟϥ ⲉ̅ⲑ̅ⲩ̅ : ⲁϥⲧⲟⲩⲃⲟ ⲛ̀ⲛⲏⲉⲑⲛⲁϩϯ : ⲉⲩⲗⲁⲟⲥ ⲉⲩⲑ̀ⲙⲁⲓⲟϥ",
     "Et par l’aspersion♫ De son sang très saint♫ Purifia les croyants♫ Un peuple justifié",
     "",
     "من قبل رشاش♫ دمه المقدس♫ طهر المؤمنين♫ شعباً مُبرراً.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲉⲑⲃⲉ ⲫⲁⲓ ⲟⲩⲟⲛ ⲛⲓⲃⲉⲛ : ⲥⲉϭⲓⲥⲓ ⲙ̀ⲙⲟ : ⲧⲁ⳪ ϯⲑⲉⲟ̀ⲧⲟⲕⲟⲥ : ⲉ̅ⲑ̅ⲩ ⲛ̀ⲥⲏⲟⲩ ⲛⲓⲃⲉⲛ",
     "C’est pourquoi chacun♫ T’exalte, ô notre Dame♫ La Mère de Dieu♫ Toi la toujours sainte",
     "",
     "مِنْ أَجْلِ هذ♫ا كل واحد يعظمك♫ يا سيدتي والدة الإله♫ القديسة كل حين.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲁⲛⲟⲛ ϩⲱⲛ ⲧⲉⲛⲧⲱⲃϩ : ⲉⲑⲣⲉⲛϣⲁϣⲛⲓ ⲉⲩⲛⲁⲓ : ϩⲓⲧⲉⲛ ⲛⲉⲡ̀ⲣⲉⲥⲃⲓⲁ̀ : ⲛ̀ⲧⲟⲧϥ ⲙ̀ⲡⲓⲙⲁⲓⲣⲱⲙⲓ",
     "Aussi nous demandons♫ D’avoir miséricorde♫ Par tes intercessions Chez♫ l’Ami des hommes",
     "",
     "ونحن أيضًا نطلب♫ أَنْ نَفُوزُ بِرَحْمَةٍ♫ بشفاعاتك♫ عند محب البشر.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲛⲓⲙ ⲡⲉⲑⲛⲁϣ̀ⲥⲁϫⲓ : ⲙ̀ⲡ̀ⲧⲁⲓⲟ ⲛ̀ϯⲥ̀ⲕⲏⲛⲏ : ⲉ̀ⲧⲁ Ⲙⲱⲩ̀ⲥⲏⲥ ⲑⲁⲙⲓⲟⲥ : ϩⲓϫⲉⲛ ⲡ̀ⲧⲱⲟ̀ⲩ ⲛ̀Ⲥⲓⲛⲁ",
     "Et qui peut donc décrire♫ Noblesse de la Tente♫ Qu’a construite Moïse♫ Sur le mont Sinaï ?",
     "",
     "من يقدر أن ينطق♫ بكرامة القبة♫ التي صنعها موسى♫ على جبل سيناء.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲁϥⲑⲁⲙⲓⲟⲥ ϧⲉⲛ ⲟⲩⲱ̀ⲟⲩ : ⲕⲁⲧⲁ ⲡ̀ⲥⲁϫⲓ ⲙ̀Ⲡ̀⳪ : ⲛⲉⲙ ⲕⲁⲧⲁ ⲛⲓⲧⲩⲡⲟⲥ ⲧⲏⲣⲟⲩ : ⲉⲧⲁⲩⲧⲁⲙⲟϥ ⲉⲣⲱ̀ⲟⲩ",
     "La fit avec splendeur♫ Comme le Seigneur a dit♫ Selon tous les modèles♫ Qui lui furent révélés",
     "",
     "صنعها بمجد♫ كقول الرب♫ وكجميع المِثالات♫ التي أعلنت له.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲑⲏ ⲉ̀ⲣⲉ Ⲁⲁ̀ⲣⲱⲛ : ⲛⲉⲙ ⲛⲉϥϣⲏⲣⲓ ϣⲉⲙϣⲓ ⲛ̀ϧⲏⲧⲥ : ϧⲉⲛ ⲡ̀ⲧⲩⲡⲟⲥ ⲛ̀ⲧⲉ ⲡ̀ϭⲓⲥⲓ : ⲛⲉⲙ ⲧ̀ϧⲏⲓⲃⲓ ⲛ̀ⲧⲉ ⲛⲁⲧ̀ⲫⲉ",
     "Là, Aaron et ses fils♫ Ont exercé le culte♫ Suivant l’exemple très haut♫ Et l’ombre des choses célestes",
     "",
     "تلك التي كان هارون♫ وبنوه يخدمون فيها♫ بمثال العلاء♫ وظل السمائيات.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲁⲩⲧⲉⲛⲑⲱⲛⲓ ⲉ̀ⲣⲟⲥ : Ⲙⲁⲣⲓⲁ̀ ϯⲡⲁⲣⲑⲉⲛⲟⲥ : ϯⲥ̀ⲕⲏⲛⲏ ⲙ̀ⲙⲏⲓ : ⲉ̀ⲣⲉ Ⲫ̀ϯ ⲥⲁϧⲟⲩⲛ ⲙ̀ⲙⲟⲥ",
     "Et l’on t’a comparée A elle, ô Vierge Marie Toi l’arche véritable En qui demeure Dieu",
     "",
     "شبهوك بها♫ يا مريم العذراء♫ القبة الحقيقية♫ التي في داخلها الله.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲉⲑⲃⲉ ⲫⲁⲓ ⲧⲉⲛϭⲓⲥⲓ : ⲙ̀ⲙⲟ ⲁⲝⲓⲱⲥ : ϧⲉⲛ ϩⲁⲛⲩ̀ⲙⲛⲟⲗⲟⲅⲓⲁ̀ : ⲙ̀ⲡ̀ⲣⲟⲫⲏⲧⲓⲕⲟⲛ",
     "Ainsi, c’est pour cela♫ Que nous t’exaltons♫ Très dignement avec♫ Des hymnes prophétiques",
     "",
     "مِنْ أَجْلِ هذا♫ نُعَظِّمُكِ♫ بِاسْتِحْقَاقٍ♫ بِتَمَاجِيدٍ نَبَوِية.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ϫⲉ ⲁⲩⲥⲁϫⲓ ⲉⲑⲃⲏϯ : ⲛ̀ϩⲁⲛϩ̀ⲃⲏⲟⲩⲓ̀ ⲉⲩⲧⲁⲓⲏ̀ⲟⲩⲧ : ϯⲃⲁⲕⲓ ⲉ̅ⲑ̅ⲩ̅ : ⲛ̀ⲧⲉ ⲡⲓⲛⲓϣϯ ⲛ̀ⲟⲩⲣⲟ",
     "Car on a dit de toi♫ Des choses vénérables♫ Ô toi la ville sainte♫ Celle du grand Roi",
     "",
     "لأنهم تكلموا مِنْ أَجْلِك♫ بِأَعْمَالٍ كَرِيمَةٍ،♫ أَيَّتُهَا المدينة المقدسة♫ التي للملك العظيم.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲧⲉⲛϯϩⲟ ⲧⲉⲛⲧⲱⲃϩ : ⲉⲑⲣⲉⲛϣⲁϣⲛⲓ ⲉⲩⲛⲁⲓ : ϩⲓⲧⲉⲛ ⲛⲉⲡ̀ⲣⲉⲥⲃⲓⲁ̀ : ⲛ̀ⲧⲟⲧϥ ⲙ̀ⲡⲓⲙⲁⲓⲣⲱⲙⲓ",
     "Nous demandons, prions♫ D’avoir miséricorde♫ Par ton intercession Chez♫ l’Ami des hommes",
     "",
@@ -32220,105 +32346,105 @@ PrayersArrayFR = [[
     "القطعة الثانية",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ϯⲕⲓⲃⲱⲧⲟⲥ ⲉⲧⲟϣϫ : ⲛ̀ⲛⲟⲩⲃ ⲛ̀ⲥⲁⲥⲁ ⲛⲓⲃⲉⲛ : ⲑⲏⲉⲧⲁⲩⲑⲁⲙⲓⲟⲥ : ϧⲉⲛ ϩⲁⲛϣⲉ ⲛ̀ⲁⲧⲉⲣϩⲟⲗⲓ",
     "L’arche recouverte♫ D’or de tout côté♫ Elle était construite♫ De bois imputrescible",
     "",
     "التابوت المصفح♫ بالذهب من كل ناحية♫ المصنوع من خشب♫ لا يسوس.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲁⲥⲉⲣϣⲟⲣⲡ ⲛ̀ϯⲙⲏⲓⲛⲓ : ⲙ̀Ⲫ̀ϯ Ⲡⲓⲗⲟⲅⲟⲥ : ⲫⲏⲉ̀ⲧⲁϥϣⲱⲡⲓ ⲛ̀ⲣⲱⲙⲓ : ϧⲉⲛ ⲟⲩⲙⲉⲧⲁⲧⲫⲱⲣϫ",
     "D’avance, nous signifia♫ Le prodige de Dieu♫ Le Verbe qui s’est fait homme♫ Sans séparation",
     "",
     "سبق أن دلنا♫ على الله الكلمة♫ الذي صار إنسانًا♫ بغير افتراق.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲟⲩⲁⲓ ⲡⲉ ̀ⲉ̀ⲃⲟⲗϧⲉⲛ ⲃ̅ : ⲟⲩⲙⲉⲑⲛⲟⲩϯ ⲉⲥⲧⲟⲩⲃⲏⲟⲩⲧ : ⲉⲥⲟⲓ ⲛ̀ⲁⲧⲧⲁⲕⲟ: ⲛ̀ⲟ̀ⲙⲟⲟⲩⲥⲓⲟⲥ ⲛⲉⲙ Ⲫ̀ⲓⲱⲧ",
     "Il est Un de deux♫ Divinité très sainte♫ Et incorruptible,♫ Consubstantielle au Père",
     "",
     "واحد من اثنين♫ لاهوت قدوس♫ بغير فساد♫ مساوٍ للآب.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲛⲉⲙ ⲟⲩⲙⲉⲧⲣⲱⲙⲓ ⲉⲑⲟⲩⲁⲃ : ⲭⲱⲣⲓⲥ ⲥⲩⲛⲟⲩⲥⲓⲁ̀ : ⲛ̀ⲟ̀ⲙⲟⲟⲩⲥⲓⲟⲥ ⲛⲉⲙⲁⲛ : ⲕⲁⲧⲁ ϯⲟⲓⲕⲟⲛⲟⲙⲓⲁ̀",
     "Et une humanité♫ Sainte et sans mélange♫ Consubstantielle à nous♫ Selon l’Économie",
     "",
     "وناسوت طاهر♫ بغير مباضعة♫ مساوِ لنا♫ كالتدبير.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲑⲁⲓ ⲉ̀ⲧⲁϥϭⲓⲧⲥ ⲛ̀ϧⲏϯ : ⲱ̀ ϯⲁⲧⲑⲱⲗⲉⲃ : ⲉ̀ⲁϥϩⲱⲧⲡ ⲉ̀ⲣⲟⲥ : ⲕⲁⲧⲁ ⲟⲩϩⲩⲡⲟⲥⲧⲁⲥⲓⲥ",
     "C’est celle qu’il prit de toi♫ Ô toi immaculée♫ Et il s’y est uni♫ Comme une hypostase",
     "",
     "هذا الذي أخذه منكِ♫ أَيَّتُهَا الغير الدنسة♫ وأتحد به♫ كأقنوم.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲉⲑⲃⲉ ⲫⲁⲓ ⲟⲩⲟⲛ ⲛⲓⲃⲉⲛ : ⲥⲉϭⲓⲥⲓ ⲙ̀ⲙⲟ : ⲧⲁ⳪ ϯⲑⲉⲟ̀ⲧⲟⲕⲟⲥ : ⲉ̅ⲑ̅ⲩ ⲛ̀ⲥⲏⲟⲩ ⲛⲓⲃⲉⲛ",
     "C’est pourquoi chacun♫ T’exalte, ô notre Dame♫ La Mère de Dieu♫ Toi la toujours sainte",
     "",
     "مِنْ أَجْلِ هذا♫ كل واحد يعظمك♫ يا سيدتي والدة♫ الإله القديسة كل حين.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲁⲛⲟⲛ ϩⲱⲛ ⲧⲉⲛⲧⲱⲃϩ : ⲉⲑⲣⲉⲛϣⲁϣⲛⲓ ⲉⲩⲛⲁⲓ : ϩⲓⲧⲉⲛ ⲛⲉⲡ̀ⲣⲉⲥⲃⲓⲁ̀ : ⲛ̀ⲧⲟⲧϥ ⲙ̀ⲡⲓⲙⲁⲓⲣⲱⲙⲓ",
     "Aussi nous demandons♫ D’avoir miséricorde♫ Par tes intercessions♫ Chez l’Ami des hommes",
     "",
     "ونحن أيضًا نطلب♫ أَنْ نَفُوزُ بِرَحْمَةٍ♫ بشفاعاتك♫ عند محب البشر.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲯⲩⲭⲏ ⲛⲓⲃⲉⲛ ⲉⲩⲥⲟⲡ : ⲛ̀ⲧⲉ ⲛⲉⲛϣⲏⲣⲓ ⲙ̀Ⲡⲓⲥ̅ⲗ : ⲁⲩⲓ̀ⲛⲓ ⲛ̀ϩⲁⲛⲇⲱⲣⲟⲛ : ⲉ̀ϯⲥ̀ⲕⲏⲛⲏ ⲛ̀ⲧⲉ Ⲡⲟ̅ⲥ̅",
     "Ensemble toutes les âmes♫ Des fils d’Israël♫ Ont porté des offrandes♫ Pour la tente du Seigneur",
     "",
     "كل الأنفس معًا♫ من بني إسرائيل♫ قدموا قرابين♫ إلى قبة الرب.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲡⲓⲛⲟⲩⲃ ⲛⲉⲙ ⲡⲓϩⲁⲧ : ⲛⲉⲙ ⲡⲓⲱ̀ⲛⲓ ⲙ̀ⲙⲏⲓ : ⲛⲉⲙ ⲡⲓϣⲉⲛⲥ ⲉⲧⲥⲁϯ : ⲛⲉⲙ ⲡⲓϩⲩⲁ̀ⲕⲩⲛⲑⲓⲛⲟⲛ",
     "De l’or et de l’argent♫ Et des pierres précieuses♫ Avec du lin retors♫ Et aussi de la pourpre",
     "",
     "الذهب والفض♫ة والحجر الكريم♫ والحرير المغزول♫ والأرجوان.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲁⲩⲑⲁⲙⲓⲟ̀ ⲛ̀ⲟⲩⲕⲓⲃⲱⲧⲟⲥ : ϧⲉⲛ ϩⲁⲛϣⲉ ⲛ̀ⲁⲧⲉⲣϩⲟⲗⲓ : ⲁⲩⲗⲁⲗⲱⲥ ⲛ̀ⲛⲟⲩⲃ : ⲥⲁϧⲟⲩⲛ ⲛⲉⲙ ⲥⲁⲃⲟⲗ",
     "Ils construisirent une arche♫ De bois imputrescible♫ La revêtirent d’or♫ Dedans et au dehors",
     "",
     "صنعوا تابوتًا♫ من خشب لا يسوس♫ وصفحوه بالذهب♫ داخلاً وخارجاً.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲧⲉϫⲟⲗϩ ⲅⲁⲣ ϩⲱⲓ : Ⲙⲁⲣⲓⲁ̀ ϯⲡⲁⲣⲑⲉⲛⲟⲥ : ⲙ̀ⲡ̀ⲱ̀ⲟⲩ ⲛ̀ⲧⲉ ϯⲙⲉⲑⲛⲟⲩϯ : ⲥⲁϧⲟⲩⲛ ⲛⲉⲙ ⲥⲁⲃⲟⲗ",
     "Car toi aussi Marie♫ Tu revêtis la gloire♫ De la divinité♫ Dedans et au dehors",
     "",
     "وأنتِ أيضًا يا مريم♫ العذراء متسربلة♫ بمجد اللاهوت♫ داخلاً وخارجاً",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ϫⲉ ⲁⲣⲉⲓ̀ⲛⲓ ⲉ̀ϧⲟⲩⲛ : ⲛ̀ⲟⲩⲗⲁⲟⲥ ⲉϥⲟϣ : ⲙ̀̀Ⲫ̀ϯ ⲡⲉϣⲏⲣⲓ : ϩⲓⲧⲉⲛ ⲡⲉⲧⲟⲩⲃⲟ",
     "Car tu as offert♫ Un peuple très nombreux♫ A Dieu qui est ton Fils♫ De par ta pureté",
     "",
     "لأنكِ قدمت♫ شعبًا كثيرًا♫ لله ابنٍكٍ♫ من قبل طهارتك.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲉⲑⲃⲉ ⲫⲁⲓ ⲧⲉⲛϭⲓⲥⲓ : ⲙ̀ⲙⲟ ⲁⲝⲓⲱⲥ : ϧⲉⲛ ϩⲁⲛⲩ̀ⲙⲛⲟⲗⲟⲅⲓⲁ̀ : ⲙ̀ⲡ̀ⲣⲟⲫⲏⲧⲓⲕⲟⲛ",
     "Ainsi, c’est pour cela♫ Que nous t’exaltons♫ Très dignement avec♫ Des hymnes prophétiques",
     "",
     "مِنْ أَجْلِ هذا♫ نُعَظِّمُكِ♫ بِاسْتِحْقَاقٍ♫ بِتَمَاجِيدٍ نَبَوِية.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ϫⲉ ⲁⲩⲥⲁϫⲓ ⲉⲑⲃⲏϯ : ⲛ̀ϩⲁⲛϩ̀ⲃⲏⲟⲩⲓ̀ ⲉⲩⲧⲁⲓⲏ̀ⲟⲩⲧ : ϯⲃⲁⲕⲓ ⲉ̅ⲑ̅ⲩ̅ : ⲛ̀ⲧⲉ ⲡⲓⲛⲓϣϯ ⲛ̀ⲟⲩⲣⲟ",
     "Car on a dit de toi♫ Des choses vénérables♫ Ô toi la ville sainte♫ Celle du grand Roi",
     "",
     "لأنهم تكلموا مِنْ أَجْلِك♫ بِأَعْمَالٍ كَرِيمَةٍ،♫ أَيَّتُهَا المدينة المقدسة♫ التي للملك العظيم.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲧⲉⲛϯϩⲟ ⲧⲉⲛⲧⲱⲃϩ : ⲉⲑⲣⲉⲛϣⲁϣⲛⲓ ⲉⲩⲛⲁⲓ : ϩⲓⲧⲉⲛ ⲛⲉⲡ̀ⲣⲉⲥⲃⲓⲁ̀ : ⲛ̀ⲧⲟⲧϥ ⲙ̀ⲡⲓⲙⲁⲓⲣⲱⲙⲓ",
     "Nous demandons, prions♫ D’avoir miséricorde♫ Par ton intercession♫ Chez l’Ami des hommes",
     "",
@@ -32332,84 +32458,84 @@ PrayersArrayFR = [[
     "القطعة الثالثة",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲡⲓⲓ̀ⲗⲁⲥⲧⲏⲣⲓⲟⲛ : ⲉⲧⲟⲩϩⲱⲃⲥ ⲙ̀ⲙⲟϥ : ϩⲓⲧⲉⲛ Ⲛⲓⲭⲉⲣⲟⲩⲃⲓⲙ : ⲉⲩⲟⲓ ⲛ̀ϩⲓⲕⲱⲛ",
     "Le propitiatoire♫ Etait ombragé♫ Par les Chérubins♫ Qui étaient en images",
     "",
     "الغطاء♫ المظلل عليه♫ بالكاروبين♫ المصورين.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲉ̀ⲧⲉ ̀Ⲫ̀ϯ Ⲡⲓⲗⲟⲅⲟⲥ : ⲉⲧⲁϥϭⲓⲥⲁⲣⲝ ⲛ̀ϧⲏϯ : ⲱ̀ ϯⲁⲧⲁϭⲛⲓ : ϧⲉⲛ ⲟⲩⲙⲉⲧⲁⲧϣⲓⲃϯ",
     "Car c’est Dieu le Verbe♫ Qui a pris chair de toi♫ Sans aucun changement♫ Ô toi immaculée",
     "",
     "أي الله الكلمة♫ الذي تجسد منك♫ أَيَّتُهَا التي بلا عيب♫ بغير تغيير.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲁϥϣⲱⲡⲓ ⲛ̀ⲧⲟⲩⲃⲟ : ⲛ̀ⲧⲉ ⲛⲉⲛⲛⲟⲃⲓ : ⲛⲉⲙ ⲟⲩⲣⲉϥⲭⲱ ̀ⲉ̀ⲃⲟⲗ : ⲛ̀ⲧⲉ ⲛⲉⲛⲁ̀ⲛⲟⲙⲓⲁ̀",
     "Devint purification♫ De tous nos péchés♫ Et aussi rémission♫ De nos iniquités",
     "",
     "وصار تطهيرًا♫ لخطايانا♫ وغافرًا♫ لآثامنا.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲉⲑⲃⲉ ⲫⲁⲓ ⲟⲩⲟⲛ ⲛⲓⲃⲉⲛ : ⲥⲉϭⲓⲥⲓ ⲙ̀ⲙⲟ : ⲧⲁ⳪ ϯⲑⲉⲟ̀ⲧⲟⲕⲟⲥ : ⲉ̅ⲑ̅ⲩ ⲛ̀ⲥⲏⲟⲩ ⲛⲓⲃⲉⲛ",
     "C’est pourquoi chacun♫ T’exalte, ô notre Dame♫ La Mère de Dieu♫ Toi la toujours sainte",
     "",
     "مِنْ أَجْلِ هذا♫ كل واحد يعظمك♫ يا سيدتي والدة الإله♫ القديسة كل حين.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲁⲛⲟⲛ ϩⲱⲛ ⲧⲉⲛⲧⲱⲃϩ : ⲉⲑⲣⲉⲛϣⲁϣⲛⲓ ⲉⲩⲛⲁⲓ : ϩⲓⲧⲉⲛ ⲛⲉⲡ̀ⲣⲉⲥⲃⲓⲁ̀ : ⲛ̀ⲧⲟⲧϥ ⲙ̀ⲡⲓⲙⲁⲓⲣⲱⲙⲓ",
     "Aussi nous demandons♫ D’avoir miséricorde♫ Par tes intercessions♫ Chez l’Ami des hommes",
     "",
     "ونحن أيضًا نطلب♫ أن نفوز برحم♫ة بشفاعاتك♫ عند محب البشر.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲭⲉⲣⲟⲩⲃⲓⲙ ⲃ̅ ⲛ̀ⲛⲟⲩⲃ : ⲉⲩⲟⲓ ⲛ̀ϩⲓⲕⲱⲛ : ⲉⲩϩⲱⲃⲥ ⲙ̀ⲡⲓⲓ̀ⲗⲁⲥⲧⲏⲣⲓⲟⲛ : ϧⲉⲛ ⲛⲟⲩⲧⲉⲛϩ ⲛ̀ⲥⲏⲟⲩ ⲛⲓⲃⲉⲛ",
     "Deux Chérubins en or♫ Etaient représentés♫ Couvrant avec leurs ailes♫ Le propitiatoire",
     "",
     "كروباً ذهبٍ♫ مصوران مظللان♫ على الغطا♫ء باجنحتهما كل حين",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲉⲩⲉⲣϧⲏⲓⲃⲓ ⲉ̀ϩ̀ⲣⲏⲓ : ϩⲓϫⲉⲛ ⲡⲓⲙⲁ ⲉ̅ⲑ̅ⲩ̅ : ⲛ̀ⲧⲉ ⲛⲏⲉ̅ⲑ̅ⲩ̅ : ϧⲉⲛ ϯⲥ̀ⲕⲏⲛⲏ ⲙ̀ⲙⲁϩⲥ̀ⲛⲟⲩϯ",
     "Ainsi ils recouvraient♫ Tous deux avec leur ombre♫ Le lieu du Saint des saints♫ Dans la seconde tente",
     "",
     "يظللان♫ على موضع♫ قدس الأقداس♫ في القبة الثانية.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲛ̀ⲑⲟ ϩⲱⲓ Ⲙⲁⲣⲓⲁ̀ : ⲛⲓⲁ̀ⲛⲁⲛϣⲟ ⲛ̀ϣⲟ : ⲛⲉⲙ ⲛⲓⲁ̀ⲛⲁⲛⲑ̀ⲃⲁ ⲛ̀ⲑ̀ⲃⲁ : ⲥⲉⲉⲣϧⲏⲓⲃⲓ ⲉ̀ϫⲱ",
     "Et toi aussi, Marie♫ Des milliers de milliers♫ Des myriades de myriades♫ Te couvrent de leur ombre",
     "",
     "وأنتِ أيضًا يا مريم♫ ألوف ألوف♫ وربوات ربوات♫ يظللون عليك.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲉⲩϩⲱⲥ ⲉ̀ⲡⲟⲩⲣⲉϥⲥⲱⲛⲧ : ⲉϥⲭⲏ ϧⲉⲛ ⲧⲉⲛⲉϫⲓ : ⲫⲁⲓ ⲉ̀ⲧⲁϥϭⲓ ⲙ̀ⲡⲉⲛⲓ̀ⲛⲓ : ⲭⲱⲣⲓⲥ ⲛⲟⲃⲓ ϩⲓ ϣⲓⲃϯ",
     "Ils louent leur Créateur♫ Demeurant en ton sein♫ Lui qui nous ressembla♫ Sans péché ni changement",
     "",
     "مسبحين خالقهم♫ وهو في بطنك.♫ هذا الذي أخذ شبهنا♫ ما خلا الخطية والتغيير.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲉⲑⲃⲉ ⲫⲁⲓ ⲧⲉⲛϭⲓⲥⲓ : ⲙ̀ⲙⲟ ⲁⲝⲓⲱⲥ : ϧⲉⲛ ϩⲁⲛⲩ̀ⲙⲛⲟⲗⲟⲅⲓⲁ̀ : ⲙ̀ⲡ̀ⲣⲟⲫⲏⲧⲓⲕⲟⲛ",
     "Ainsi, c’est pour cela♫ Que nous t’exaltons♫ Très dignement avec♫ Des hymnes prophétiques",
     "",
     "مِنْ أَجْلِ هذا♫ نُعَظِّمُكِ♫ بِاسْتِحْقَاقٍ♫ بِتَمَاجِيدٍ نَبَوِية.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ϫⲉ ⲁⲩⲥⲁϫⲓ ⲉⲑⲃⲏϯ : ⲛ̀ϩⲁⲛϩ̀ⲃⲏⲟⲩⲓ̀ ⲉⲩⲧⲁⲓⲏ̀ⲟⲩⲧ : ϯⲃⲁⲕⲓ ⲉ̅ⲑ̅ⲩ̅ : ⲛ̀ⲧⲉ ⲡⲓⲛⲓϣϯ ⲛ̀ⲟⲩⲣⲟ",
     "Car on a dit de toi♫ Des choses vénérables♫ Ô toi la ville sainte♫ Celle du grand Roi",
     "",
     "لأنهم تكلموا مِنْ أَجْلِك♫ بِأَعْمَالٍ كَرِيمَةٍ،♫ أَيَّتُهَا المدينة المقدسة♫ التي للملك العظيم.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲧⲉⲛϯϩⲟ ⲧⲉⲛⲧⲱⲃϩ : ⲉⲑⲣⲉⲛϣⲁϣⲛⲓ ⲉⲩⲛⲁⲓ : ϩⲓⲧⲉⲛ ⲛⲉⲡ̀ⲣⲉⲥⲃⲓⲁ̀ : ⲛ̀ⲧⲟⲧϥ ⲙ̀ⲡⲓⲙⲁⲓⲣⲱⲙⲓ",
     "Nous demandons, prions♫ D’avoir miséricorde♫ Par ton intercession♫ Chez l’Ami des hommes",
     "",
@@ -32423,84 +32549,84 @@ PrayersArrayFR = [[
     "القطعة الرابعة",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲛⲑⲟ ⲡⲉ ⲡⲓⲥ̀ⲧⲁⲙⲛⲟⲥ : ⲛ̀ⲛⲟⲩⲃ ⲉⲧⲧⲟⲩⲃⲏⲟⲩⲧ : ⲉ̀ⲣⲉ ⲡⲓⲙⲁⲛⲛⲁ ϩⲏⲡ : ⲛ̀ϩ̀ⲣⲏⲓ ϧⲉⲛ ⲧⲉϥⲙⲏϯ",
     "De même, tu es l’urne♫ Qui était en or pur♫ Où se trouvait la manne♫ Cachée à l’intérieur",
     "",
     "أنتِ هي قسط♫ الذهب النقي♫ المُخفَى♫ المن في وسطه.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲡⲓⲱⲓⲕ ⲛ̀ⲧⲉ ⲡ̀ⲱⲛϧ : ⲉⲧⲁϥⲓ̀ ⲉ̀ⲡⲉⲥⲏⲧ : ⲛⲁⲛ ̀ⲉ̀ⲃⲟⲗϧⲉⲛ ⲧ̀ⲫⲉ : ⲁϥϯ ⲙ̀ⲡ̀ⲱⲛϧ ⲙ̀ⲡⲓⲕⲟⲥⲙⲟⲥ",
     "Ainsi le pain de♫ Vie Est descendu du ciel♫ Pour nous, et a donné♫ La vie à notre monde",
     "",
     "خبز الحياة♫ الذي نزل♫ لنا من السماء♫ وأعطى الحياة للعالم.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲉⲑⲃⲉ ⲫⲁⲓ ⲟⲩⲟⲛ ⲛⲓⲃⲉⲛ : ⲥⲉϭⲓⲥⲓ ⲙ̀ⲙⲟ : ⲧⲁ⳪ ϯⲑⲉⲟ̀ⲧⲟⲕⲟⲥ : ⲉ̅ⲑ̅ⲩ ⲛ̀ⲥⲏⲟⲩ ⲛⲓⲃⲉⲛ",
     "C’est pourquoi chacun♫ T’exalte, ô notre Dame♫ La Mère de Dieu♫ Toi la toujours sainte",
     "",
     "مِنْ أَجْلِ هذا♫ كل واحد يعظمك♫ يا سيدتي والدة الإله♫ القديسة كل حين.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲁⲛⲟⲛ ϩⲱⲛ ⲧⲉⲛⲧⲱⲃϩ : ⲉⲑⲣⲉⲛϣⲁϣⲛⲓ ⲉⲩⲛⲁⲓ : ϩⲓⲧⲉⲛ ⲛⲉⲡ̀ⲣⲉⲥⲃⲓⲁ̀ : ⲛ̀ⲧⲟⲧϥ ⲙ̀ⲡⲓⲙⲁⲓⲣⲱⲙⲓ",
     "Aussi nous demandons♫ D’avoir miséricorde♫ Par tes intercessions♫ Chez l’Ami des hommes",
     "",
     "ونحن أيضًا نطلب♫ أَنْ نَفُوزُ بِرَحْمَةٍ♫ بشفاعاتك♫ عند محب البشر.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ϥⲧⲱⲙⲓ ⲅⲁⲣ ⲉ̀ⲣⲟ : ⲉⲑⲣⲟⲩⲙⲟⲩϯ ⲉ̀ⲡⲉⲣⲁⲛ : ϫⲉ ⲡⲓⲥ̀ⲧⲁⲙⲛⲟⲥ ⲛ̀ⲛⲟⲩⲃ : ⲉ̀ⲣⲉ ⲡⲓⲙⲁⲛⲛⲁ ϩⲏⲡ ⲛ̀ϧⲏⲧϥ",
     "Il convient en effet♫ De t’appeler l’urne d’or♫ Dans laquelle est cachée♫ La manne céleste",
     "",
     "يليق بكِ♫ أن يُدعى اسمك♫ قسط الذهب ♫المُخفَى فيه المن.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲫⲏ ⲙⲉⲛ ⲉ̀ⲧⲉ ⲙ̀ⲙⲁⲩ : ϣⲁⲩⲭⲁϥ ϧⲉⲛ ϯⲥ̀ⲕⲏⲛⲏ : ⲛ̀ⲟⲩⲙⲉⲧⲙⲉⲑⲣⲉ : ⲛ̀ⲧⲉ ⲛⲉⲛϣⲏⲣⲓ ⲙ̀Ⲡⲓⲥ̅ⲗ̅",
     "Et celle d’antan était♫ Déposée dans la tente♫ Ceci en témoignage♫ Pour les fils d’Israël",
     "",
     "فذاك♫ وضع في القبة♫ شهادة♫ لبنى إسرائيل.",
   ],
   [
-    Prefix.same + "&C=NoActor",
-    "Ⲉⲑⲃⲉ ⲛⲓⲡⲉⲑⲛⲁⲛⲉⲩ ⲉ̀ⲧⲁϥⲁⲓⲧⲟⲩ ⲛⲉⲙⲱⲟⲩ ⲛ̀ϫⲉ Ⲡ⳪ Ⲫ̀ϯ ϩⲓ ⲡ̀ϣⲁϥⲉ ⲛ̀Ⲥⲓⲛⲁ",
+    Prefix.same + "&C=Assembly",
+    "Ⲉⲑⲃⲉ ⲛⲓⲡⲉⲑⲛⲁⲛⲉⲩ ⲉ̀ⲧⲁϥⲁⲓⲧⲟⲩ ⲛⲉⲙⲱⲟⲩ ⲛ̀ϫⲉ Ⲡ̀⳪ Ⲫ̀ϯ ϩⲓ ⲡ̀ϣⲁϥⲉ ⲛ̀Ⲥⲓⲛⲁ",
     "A cause des bienfaits♫ Que le Seigneur Dieu♫ Avait fait pour eux♫ Au désert du Sinaï",
     "",
     "مِنْ أَجْلِ الخيرات♫ التي صنعها معهم♫ الرب الإله♫ في برية سيناء.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲛ̀ⲑⲟ ϩⲱⲓ Ⲙⲁⲣⲓⲁ̀ : ⲁ̀ⲣⲉϥⲁⲓ ϧⲉⲛ ⲧⲉⲛⲉϫⲓ : ⲙ̀ⲡⲓⲙⲁⲛⲛⲁ ⲛ̀ⲛⲟⲏ̀ⲧⲟⲛ : ⲉ̀ⲧⲁϥⲓ̀ ⲉ̀ⲃⲟⲗϧⲉⲛ Ⲫ̀ⲓⲱⲧ",
     "Et toi aussi, Marie♫ Tu portas dans ton sein♫ La manne spirituelle♫ Qui est venue du Père",
     "",
     "وأنتِ أيضًا يا مريم♫ حملت في بطنك♫ المن العقلي♫ الذي أتى من الآب.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲁⲣⲉⲙⲁⲥϥ ⲁϭⲛⲉ ⲑⲱⲗⲉⲃ : ⲁϥϯ ⲛⲁⲛ ⲙ̀ⲡⲉϥⲥⲱⲙⲁ : ⲛⲉⲙ ⲡⲉϥⲥ̀ⲛⲟϥ ⲉⲧⲧⲁⲓⲏ̀ⲟⲩⲧ : ⲁⲛⲱⲛϧ ϣⲁ ⲉⲛⲉϩ",
     "Tu l’enfantas sans tache♫ Son corps et sang précieux♫ Il nous donna.♫ Ainsi Nous vivons éternellement",
     "",
     "وولدته بغير دنس♫ وأعطانا جسده♫ ودمه الكريمين♫ فحيينا إلى الأبد.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲉⲑⲃⲉ ⲫⲁⲓ ⲧⲉⲛϭⲓⲥⲓ : ⲙ̀ⲙⲟ ⲁⲝⲓⲱⲥ : ϧⲉⲛ ϩⲁⲛⲩ̀ⲙⲛⲟⲗⲟⲅⲓⲁ̀ : ⲙ̀ⲡ̀ⲣⲟⲫⲏⲧⲓⲕⲟⲛ",
     "Ainsi, c’est pour cela♫ Que nous t’exaltons♫ Très dignement avec♫ Des hymnes prophétiques",
     "",
     "مِنْ أَجْلِ هذا♫ نُعَظِّمُكِ♫ بِاسْتِحْقَاقٍ♫ بِتَمَاجِيدٍ نَبَوِية.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ϫⲉ ⲁⲩⲥⲁϫⲓ ⲉⲑⲃⲏϯ : ⲛ̀ϩⲁⲛϩ̀ⲃⲏⲟⲩⲓ̀ ⲉⲩⲧⲁⲓⲏ̀ⲟⲩⲧ : ϯⲃⲁⲕⲓ ⲉ̅ⲑ̅ⲩ̅ : ⲛ̀ⲧⲉ ⲡⲓⲛⲓϣϯ ⲛ̀ⲟⲩⲣⲟ",
     "Car on a dit de toi♫ Des choses vénérables♫ Ô toi la ville sainte♫ Celle du grand Roi",
     "",
     "لأنهم تكلموا مِنْ أَجْلِك♫ بِأَعْمَالٍ كَرِيمَةٍ،♫ أَيَّتُهَا المدينة المقدسة♫ التي للملك العظيم.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲧⲉⲛϯϩⲟ ⲧⲉⲛⲧⲱⲃϩ : ⲉⲑⲣⲉⲛϣⲁϣⲛⲓ ⲉⲩⲛⲁⲓ : ϩⲓⲧⲉⲛ ⲛⲉⲡ̀ⲣⲉⲥⲃⲓⲁ̀ : ⲛ̀ⲧⲟⲧϥ ⲙ̀ⲡⲓⲙⲁⲓⲣⲱⲙⲓ",
     "Nous demandons, prions♫ D’avoir miséricorde♫ Par ton intercession♫ Chez l’Ami des hommes",
     "",
@@ -32514,105 +32640,105 @@ PrayersArrayFR = [[
     "القطعة الخامسة",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲛⲑⲟ ⲧⲉ ϯⲗⲩⲭⲛⲓⲁ̀ : ⲛ̀ⲛⲟⲩⲃ ⲉⲧⲧⲟⲩⲃⲏⲟⲩⲧ : ⲉⲧϥⲁⲓ ϧⲁ ⲡⲓⲗⲁⲙⲡⲁⲥ : ⲉⲑⲙⲟϩ ⲛ̀ⲥⲏⲟⲩ ⲛⲓⲃⲉⲛ",
     "Tu es le candélabre♫ D’or pur qui a porté♫ La lampe allumée♫ Toujours et en tout temps",
     "",
     "أنتِ المنارة♫ الذهب النقي♫ الحاملة المصباح♫ المتقد كل حين.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲉ̀ⲧⲉ ⲫ̀ⲟⲩⲱⲓⲛⲓ ⲙ̀ⲡⲓⲕⲟⲥⲙⲟⲥ : ⲡⲓⲁⲧϣ̀ϧⲱⲛⲧ ⲉ̀ⲣⲟϥ : ⲡⲓⲉ̀ⲃⲟⲗϧⲉⲛ ⲡⲓⲟⲩⲱⲓⲛⲓ : ⲛ̀ⲁⲧϣ̀ϧⲱⲛⲧ ⲉ̀ⲣⲟϥ",
     "En vérité c’est Lui♫ La lumière du monde,♫ Lumière inaccessible♫ De Lumière inaccessible",
     "",
     "الذي هو نور العالم♫ غير المقترب إليه♫ الذي من النور♫ غير المُدنَى منه.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲡⲓⲛⲟⲩϯ ⲛ̀ⲧⲁⲫ̀ⲙⲏⲓ: ̀ⲉ̀ⲃⲟⲗϧⲉⲛ ⲟⲩⲚⲟⲩϯ ⲛ̀ⲧⲁⲫ̀ⲙⲏⲓ: ⲉⲧⲁϥϭⲓⲥⲁⲣⲝ ⲛ̀ϧⲏϯ : ϧⲉⲛ ⲟⲩⲙⲉⲧⲁϣⲓⲃϯ",
     "Vrai Dieu de vrai Dieu♫ Lui qui s’est incarné♫ A pris chair de toi♫ Sans altération",
     "",
     "الإله الحق♫ من الإله الحق♫ الذي تجسد منك♫ بغير تغيير.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ϩⲓⲧⲉⲛ ⲧⲉϥⲡⲁⲣⲟⲩⲥⲓⲁ̀ : ⲁϥⲉ̀ⲣⲟⲩⲱⲓⲛⲓ ⲉ̀ⲣⲟⲛ : ϧⲁ ⲛⲏⲉⲧϩⲉⲙⲥⲓ ϧⲉⲛ ⲡ̀ⲭⲁⲕⲓ : ⲛⲉⲙ ⲧ̀ϧⲏⲓⲃⲓ ⲙ̀ⲫ̀ⲙⲟⲩ",
     "Par son apparition♫ Il nous a éclairés♫ Assis dans les ténèbres♫ Et à l’ombre de la mort",
     "",
     "بظهوره♫ أضاء علينا♫ نحن الجلوس في الظلمة♫ وظلال الموت.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲁϥⲥⲟⲩⲧⲉⲛ ⲛⲉⲛϭⲁⲗⲁⲩϫ: ⲉ̀ⲫ̀ⲙⲱⲓⲧ ⲛ̀ⲧⲉ ϯϩⲓⲣⲏⲛⲏ: ϩⲓⲧⲉⲛ ϯⲕⲟⲓⲛⲱⲛⲓⲁ̀: ⲛ̀ⲧⲉ ⲛⲉϥⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲉ̅ⲑ̅ⲩ̅",
     "Il a conduit nos pieds♫ Sur le chemin de paix♫ Par la communion♫ A ses saints mystères",
     "",
     "وقوم أرجلنا♫ إلى طريق السلام♫ بشركة♫ أسراره المقدسة.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲉⲑⲃⲉ ⲫⲁⲓ ⲟⲩⲟⲛ ⲛⲓⲃⲉⲛ : ⲥⲉϭⲓⲥⲓ ⲙ̀ⲙⲟ : ⲧⲁ⳪ ϯⲑⲉⲟ̀ⲧⲟⲕⲟⲥ : ⲉ̅ⲑ̅ⲩ ⲛ̀ⲥⲏⲟⲩ ⲛⲓⲃⲉⲛ",
     "C’est pourquoi chacun T’exalte,♫ ô notre Dame♫ La Mère de Dieu♫ Toi la toujours sainte",
     "",
     "مِنْ أَجْلِ هذا♫ كل واحد يعظمك♫ يا سيدتي والدة الإله♫ القديسة كل حين.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲁⲛⲟⲛ ϩⲱⲛ ⲧⲉⲛⲧⲱⲃϩ : ⲉⲑⲣⲉⲛϣⲁϣⲛⲓ ⲉⲩⲛⲁⲓ : ϩⲓⲧⲉⲛ ⲛⲉⲡ̀ⲣⲉⲥⲃⲓⲁ̀ : ⲛ̀ⲧⲟⲧϥ ⲙ̀ⲡⲓⲙⲁⲓⲣⲱⲙⲓ",
     "Aussi nous demandons♫ D’avoir miséricorde♫ Par tes intercessions♫ Chez l’Ami des hommes",
     "",
     "ونحن أيضًا نطلب♫ أَنْ نَفُوزُ بِرَحْمَةٍ♫ بشفاعاتك♫ عند محب البشر.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲩ̀ⲥⲟⲥ ⲛⲓⲃⲉⲛ ⲉⲧϧⲉⲛ ⲡ̀ϭⲓⲥⲓ : ⲙ̀ⲡⲟⲩϣ̀ⲧⲉⲛⲑⲱⲛⲟⲩ ⲉ̀ⲣⲟ : ⲱ̀ ϯⲗⲩⲭⲛⲓⲁ̀ ⲛ̀ⲛⲟⲩⲃ : ⲉⲧϥⲁⲓ ϧⲁ ⲡⲓⲟⲩⲱⲓⲛⲓ ⲙ̀ⲙⲏⲓ",
     "Nulle haute distinction♫ Ne peut t’être appliquée♫ Ô candélabre d’or♫ Portant la vraie lumière",
     "",
     "كل الرتب العلوية♫ لم تقدر أن تشبهك♫ أَيَّتُهَا المنارة الذهبية♫ حاملة النور الحقيقي.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲑⲏ ⲙⲉⲛ ⲉ̀ⲧⲉ ⲙ̀ⲙⲁⲩ : ϣⲁⲩⲑⲁⲙⲓⲟⲥ ϧⲉⲛ ⲟⲩⲛⲟⲩⲃ : ⲉϥⲥⲱⲧⲡ ⲛ̀ⲕⲁⲑⲁⲣⲟⲥ : ϣⲁⲩⲭⲁⲥ ϧⲉⲛ ϯⲥ̀ⲕⲏⲛⲏ",
     "Et celui d’antan♫ Etait d’or pur choisi♫ Et il a été♫ Placé dans la tente",
     "",
     "فتلك♫ صُنعت من ذهب♫ مختارٍ نقيٍ♫ ووضعت في القبة.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲥⲉⲉⲣⲕⲉⲃⲉⲣⲛⲓⲧⲏⲥ ⲉ̀ⲣⲟⲥ : ϩⲓⲧⲉⲛ ϩⲁⲛϫⲓϫ ⲛ̀ⲣⲱⲙⲓ : ⲉⲩϯⲛⲉϩ ⲛ̀ⲥⲁ ⲛⲉⲥⲗⲁⲙⲡⲁⲥ : ⲙ̀ⲡⲓⲉ̀ϩⲟⲟⲩ ⲛⲉⲙ ⲡⲓⲉϫⲱⲣϩ",
     "Il était desservi♫ Par les mains des hommes♫ Qui versaient de l’huile♫ Dans les lampes jour et nuit",
     "",
     "تُدبر♫ بأيدي البشر♫ إذ يُعطى زيت لمصابيحها♫ نهاراً وليلاً.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲫⲏⲉⲧⲭⲏ ϧⲉⲛ ⲧⲉⲛⲉϫⲓ : Ⲙⲁⲣⲓⲁ̀ ϯⲡⲁⲣⲑⲉⲛⲟⲥ : ⲁϥⲉⲣⲟⲩⲱⲓⲛⲓ ⲉ̀ⲣⲱⲙⲓ ⲛⲓⲃⲉⲛ : ⲉⲑⲛⲏⲟⲩ ⲉ̀ⲡⲓⲕⲟⲥⲙⲟⲥ",
     "Celui qui est dans ton sein♫ Ô Vierge Marie♫ Illumine tout homme♫ Venant en ce monde",
     "",
     "والذي في بطنك♫ يا مريم العذراء♫ أضاء لكل إنسانٍ♫ آت إلى العالم.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲛ̀ⲑⲟϥ ⲅⲁⲣ ⲡⲉ ⲫ̀ⲣⲏ : ⲛ̀ⲧⲉ ϯⲇⲓⲕⲉⲟ̀ⲥⲩⲛⲏ : ⲁ̀ⲣⲉⲙⲁⲥϥ ⲁϥⲧⲁⲗϭⲟⲛ : ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲉⲛⲛⲟⲃⲓ",
     "Il est Soleil de justice♫ Toi tu l’enfantas♫ Et il nous guérit♫ De tous nos péchés",
     "",
     "لأنه هو♫ شمس البر♫ وَلَدْتِهِ وشَفَانَا♫ من خطايانا.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲉⲑⲃⲉ ⲫⲁⲓ ⲧⲉⲛϭⲓⲥⲓ : ⲙ̀ⲙⲟ ⲁⲝⲓⲱⲥ : ϧⲉⲛ ϩⲁⲛⲩ̀ⲙⲛⲟⲗⲟⲅⲓⲁ̀ : ⲙ̀ⲡ̀ⲣⲟⲫⲏⲧⲓⲕⲟⲛ",
     "Ainsi, c’est pour cela♫ Que nous t’exaltons♫ Très dignement avec♫ Des hymnes prophétiques",
     "",
     "مِنْ أَجْلِ هذا♫ نُعَظِّمُكِ♫ بِاسْتِحْقَاقٍ♫ بِتَمَاجِيدٍ نَبَوِية.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ϫⲉ ⲁⲩⲥⲁϫⲓ ⲉⲑⲃⲏϯ : ⲛ̀ϩⲁⲛϩ̀ⲃⲏⲟⲩⲓ̀ ⲉⲩⲧⲁⲓⲏ̀ⲟⲩⲧ : ϯⲃⲁⲕⲓ ⲉ̅ⲑ̅ⲩ̅ : ⲛ̀ⲧⲉ ⲡⲓⲛⲓϣϯ ⲛ̀ⲟⲩⲣⲟ",
     "Car on a dit de toi♫ Des choses vénérables♫ Ô toi la ville sainte♫ Celle du grand Roi",
     "",
     "لأنهم تكلموا مِنْ أَجْلِك♫ بِأَعْمَالٍ كَرِيمَةٍ،♫ أَيَّتُهَا المدينة المقدسة♫ التي للملك العظيم.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲧⲉⲛϯϩⲟ ⲧⲉⲛⲧⲱⲃϩ : ⲉⲑⲣⲉⲛϣⲁϣⲛⲓ ⲉⲩⲛⲁⲓ : ϩⲓⲧⲉⲛ ⲛⲉⲡ̀ⲣⲉⲥⲃⲓⲁ̀ : ⲛ̀ⲧⲟⲧϥ ⲙ̀ⲡⲓⲙⲁⲓⲣⲱⲙⲓ",
     "Nous demandons, prions♫ D’avoir miséricorde♫ Par ton intercession♫ Chez l’Ami des hommes",
     "",
@@ -32626,91 +32752,91 @@ PrayersArrayFR = [[
     "القطعة السادسة",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲛ̀ⲑⲟ ⲧⲉ ϯϣⲟⲩⲣⲏ : ⲛ̀ⲛⲟⲩⲃ ⲛ̀ⲕⲁⲑⲁⲣⲟⲥ : ⲉⲧϥⲁⲓ ϧⲁ ⲡⲓϫⲉⲃⲥ : ⲛ̀ⲭ̀ⲣⲱⲙ ⲉⲧⲥ̀ⲙⲁⲣⲱⲟⲩⲧ",
     "Tu es en vérité♫ L’encensoir d’or pur♫ Celui qui porta♫ La braise du feu sacré",
     "",
     "أنتِ هي المجمرة♫ الذهب النقي♫ حاملة جمر النار♫ المباركة.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲫⲏⲉⲧⲟⲩϭⲓ ⲙ̀ⲙⲟϥ: ⲉ̀ⲃⲟⲗϧⲉⲛ ⲡⲓⲙⲁⲛ̀ⲉⲣϣⲱⲟⲩϣⲓ : ϣⲁϥⲧⲟⲩⲃⲟ ⲛ̀ⲛⲓⲛⲟⲃⲓ : ⲛ̀ⲧⲉϥⲱ̀ⲗⲓ ⲛ̀ⲛⲓⲁⲛⲟⲙⲓⲁ̀",
     "Qu’on prend de l’autel♫ Lui qui purifie♫ Les péchés,♫ et ôte Les iniquités",
     "",
     "الذي يُؤخذ♫ من المذبح♫ يطهر الخطايا♫ ويمحو الآثام.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲉ̀ⲧⲉ ̀Ⲫ̀ϯ Ⲡⲓⲗⲟⲅⲟⲥ : ⲉⲧⲁϥϭⲓⲥⲁⲣⲝ ⲛ̀ϧⲏϯ : ⲁϥⲟⲗϥ ⲉ̀ⲡ̀ϣⲱⲓ ⲛ̀ⲟⲩⲥ̀ⲑⲟⲓⲛⲟⲩϥⲓ : ϣⲁ ̀Ⲫ̀ϯ Ⲡⲉϥⲓⲱⲧ",
     "Ainsi, c’est Dieu le Verbe ♫Qui s’incarna de toi♫ S’éleva comme encens♫ Montant vers Dieu son Père",
     "",
     "أي الله الكلمة♫ الذي تجسد منك♫ ورفع ذاته بخوراً♫ إلى الله أبيه.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲉⲑⲃⲉ ⲫⲁⲓ ⲟⲩⲟⲛ ⲛⲓⲃⲉⲛ : ⲥⲉϭⲓⲥⲓ ⲙ̀ⲙⲟ : ⲧⲁ⳪ ϯⲑⲉⲟ̀ⲧⲟⲕⲟⲥ : ⲉ̅ⲑ̅ⲩ ⲛ̀ⲥⲏⲟⲩ ⲛⲓⲃⲉⲛ",
     "C’est pourquoi chacun T’exalte,♫ ô notre Dame♫ La Mère de Dieu♫ Toi la toujours sainte",
     "",
     "مِنْ أَجْلِ هذا♫ كل واحد يعظمك♫ يا سيدتي والدة الإله♫ القديسة كل حين.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲁⲛⲟⲛ ϩⲱⲛ ⲧⲉⲛⲧⲱⲃϩ : ⲉⲑⲣⲉⲛϣⲁϣⲛⲓ ⲉⲩⲛⲁⲓ : ϩⲓⲧⲉⲛ ⲛⲉⲡ̀ⲣⲉⲥⲃⲓⲁ̀ : ⲛ̀ⲧⲟⲧϥ ⲙ̀ⲡⲓⲙⲁⲓⲣⲱⲙⲓ",
     "Aussi nous demandons♫ D’avoir miséricorde♫ Par tes intercessions♫ Chez l’Ami des hommes",
     "",
     "ونحن أيضًا نطلب♫ أَنْ نَفُوزُ بِرَحْمَةٍ♫ بشفاعاتك♫ عند محب البشر.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲧⲟⲧⲉ ⲁ̀ⲗⲏⲑⲱⲥ : ⲛ̀ϯϣⲱϥⲧ ⲁⲛ ⲛ̀ϩ̀ⲗⲓ : ⲁⲓϣⲁⲛⲙⲟⲩϯ ⲉ̀ⲣⲟ : ϫⲉ ϯϣⲟⲩⲣⲏ ⲛ̀ⲛⲟⲩⲃ",
     "Alors, en vérité♫ Je ne me trompe pas♫ Lorsque je t’appelle♫ L’encensoir en or",
     "",
     "حينئذ بالحقيقة♫ لا أخطئ في شيء♫ إذا ما دعوتكِ♫ المجمرة الذهب.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲑⲏ ⲙⲉⲛ ⲉ̀ⲧⲉ ⲙ̀ⲙⲁⲩ : ϣⲁⲩⲧⲁⲗⲟ ⲉ̀ⲡ̀ϣⲱⲓ ⲛ̀ϧⲏⲧⲥ : ⲙ̀ⲡⲓⲥ̀ⲑⲟⲓⲛⲟⲩϥⲓ ⲉⲧⲥⲱⲧⲡ : ⲙ̀ⲡⲉⲙ̀ⲑⲟ ⲛ̀ⲛⲏⲉ̅ⲑ̅ⲩ̅",
     "Dans celui d’antan♫ L’encens sélectionné♫ Etait élevé♫ Devant les lieux saints",
     "",
     "فتلك♫ يُرفع فيها♫ البخور المختار♫ أمام الأقداس.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ϣⲁⲣⲉ Ⲫ̀ϯ ⲱ̀ⲗⲓ ⲙ̀ⲙⲁⲩ : ̀ⲛ̀ⲛⲓⲛⲟⲃⲓ ⲛ̀ⲧⲉ ⲡⲓⲗⲁⲟⲥ : ̀̀ⲉ̀ⲃⲟⲗϩⲓⲧⲉⲛ ⲡⲓϭⲗⲓⲗ : ⲛ̀ⲉⲙ ⲡⲓⲥ̀ⲑⲟⲓ ⲛ̀ⲧⲉ ⲡⲓⲥ̀ⲑⲟⲓⲛⲟⲩϥⲓ",
     "Dieu emporte là-bas♫ Les péchés du peuple♫ Par les sacrifices♫ Et l'arôme d'encens",
     "",
     "ويرفع الله♫ هناك خطايا الشعب♫ من قبل المحرقات♫ ورائحة البخور.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲛ̀ⲑⲟ ϩⲱⲓ Ⲙⲁⲣⲓⲁ̀ : ⲁⲣⲉϥⲁⲓ ϧⲉⲛ ⲧⲉⲛⲉϫⲓ : ̀ⲙ̀ⲡⲓⲁⲧϣ̀ⲛⲁⲩ ⲉ̀ⲣⲟϥ : ̀ⲛ̀Ⲗⲟⲅⲟⲥ ⲛ̀ⲧⲉ Ⲫ̀ⲓⲱⲧ",
     "Toi aussi, Marie♫ Tu portas en ton sein♫ Lui qui est invisible♫ Le Verbe du Père",
     "",
     "وأنتِ أيضاً يا مريم♫ حملت في بطنك♫ غير المنظور♫ كلمة الآب.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲫⲁⲓ ⲉ̀ⲧⲁϥⲉⲛϥ ⲉ̀ⲡ̀ϣⲱⲓ ⲛ̀ⲟⲩⲑⲩⲥⲓⲁ̀ ⲉⲥϣⲏⲡ ϩⲓϫⲉⲛ ⲡⲓ⳧ ϧⲁ ⲡ̀ⲟⲩϫⲁⲓ ⲙ̀ⲡⲉⲛⲅⲉⲛⲟⲥ",
     "Lui qui s’est élevé♫ Sacrifice accepté♫ Sur la croix pour sauver♫ Notre genre humain",
     "",
     "هذا الذي أصعد ذاته♫ ذبيحة مقبولة♫ على الصليب♫ عن خلاص جنسنا.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲉⲑⲃⲉ ⲫⲁⲓ ⲧⲉⲛϭⲓⲥⲓ : ⲙ̀ⲙⲟ ⲁⲝⲓⲱⲥ : ϧⲉⲛ ϩⲁⲛⲩ̀ⲙⲛⲟⲗⲟⲅⲓⲁ̀ : ⲙ̀ⲡ̀ⲣⲟⲫⲏⲧⲓⲕⲟⲛ",
     "Ainsi, c’est pour cela♫ Que nous t’exaltons♫ Très dignement♫ avec Des hymnes prophétiques",
     "",
     "مِنْ أَجْلِ هذا♫ نُعَظِّمُكِ♫ بِاسْتِحْقَاقٍ♫ بِتَمَاجِيدٍ نَبَوِية.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ϫⲉ ⲁⲩⲥⲁϫⲓ ⲉⲑⲃⲏϯ : ⲛ̀ϩⲁⲛϩ̀ⲃⲏⲟⲩⲓ̀ ⲉⲩⲧⲁⲓⲏ̀ⲟⲩⲧ : ϯⲃⲁⲕⲓ ⲉ̅ⲑ̅ⲩ̅ : ⲛ̀ⲧⲉ ⲡⲓⲛⲓϣϯ ⲛ̀ⲟⲩⲣⲟ",
     "Car on a dit de toi♫ Des choses vénérables♫ Ô toi la ville sainte♫ Celle du grand Roi",
     "",
     "لأنهم تكلموا مِنْ أَجْلِك♫ بِأَعْمَالٍ كَرِيمَة♫ أَيَّتُهَا المدينة المقدسة♫ التي للملك العظيم.",
   ],
   [
-    Prefix.same + "&C=NoActor",
+    Prefix.same + "&C=Assembly",
     "Ⲧⲉⲛϯϩⲟ ⲧⲉⲛⲧⲱⲃϩ : ⲉⲑⲣⲉⲛϣⲁϣⲛⲓ ⲉⲩⲛⲁⲓ : ϩⲓⲧⲉⲛ ⲛⲉⲡ̀ⲣⲉⲥⲃⲓⲁ̀ : ⲛ̀ⲧⲟⲧϥ ⲙ̀ⲡⲓⲙⲁⲓⲣⲱⲙⲓ",
     "Nous demandons, prions♫ D’avoir miséricorde♫ Par ton intercession♫ Chez l’Ami des hommes",
     "",
@@ -32728,862 +32854,1721 @@ PrayersArrayFR = [[
     "ⲛⲟⲩ ⲡⲁⲛⲏⲃ ⲭ̀ⲛⲁⲭⲁ ⲡⲉⲕⲃⲱⲕ ̀ⲉ̀ⲃⲟⲗ : ϧⲉⲛ ⲟⲩϩⲓⲣⲏⲛⲏ ⲕⲁⲧⲁ ⲡⲉⲕⲥⲁϫⲓ : ϫⲉ ⲁⲩⲛⲁⲩ ⲛ̀ϫⲉ ⲛⲁⲃⲁⲗ ⲉ̀ⲡⲉⲕⲛⲟϩⲉⲙ : ⲫⲏⲉ̀ⲧⲁⲕⲥⲉⲃⲧⲱⲧϥ ⲙ̀ⲡⲉⲙ̀ⲑⲟ ⲛ̀ⲛⲓⲗⲁⲟⲥ ⲧⲏⲣⲟⲩ. Ⲟⲩⲟⲩⲱⲓⲛⲓ ⲉⲩϭⲱⲣⲡ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉ ϩⲁⲛⲉⲑⲛⲟⲥ : ⲛⲉⲙ ⲟⲩⲱ̀ⲟⲩ ⲛ̀ⲧⲉ ⲡⲉⲕⲗⲁⲟⲥ Ⲡⲓⲥⲣⲁⲏⲗ. : Ⲡⲓⲱ̀ⲟⲩ ⲫⲁ Ⲡⲉⲛⲛⲟⲩϯ ⲡⲉ ϣⲁ ⲉ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ⲛⲉϩ : ⲁ̀ⲙⲏⲛ.",
     "Maintenant ô Maître, tu peux laisser ton serviteur s’en aller en paix, selon ta parole. Car mes yeux ont vu ton salut, que tu as préparé à la face de tous les peuples : lumière pour éclairer les nations païennes, et gloire d’Israël ton peuple. Gloire à Dieu éternellement, amen.",
     "",
-    "الآن يا سيد تطلق عبدك بسلام كقولك. لأن عيني قد أبصرتا خلاصك الذي أعددته قدام جميع الشعوب. نوراً تجلى للأمم ومجداً لشعبك إسرائيل. والمجد لإلهنا أمين. والمجد لله دائماً. آمين."
-],
-[
+    "الآن يا سيد تطلق عبدك بسلام كقولك. لأن عيني قد أبصرتا خلاصك الذي أعددته قدام جميع الشعوب. نوراً تجلى للأمم ومجداً لشعبك إسرائيل. والمجد لإلهنا أمين. والمجد لله دائماً. آمين.",
+  ],
+  [
     Prefix.psalmody + "Part7&C=SubTitle",
     "",
     "7ème Partie",
     "",
-    "القطعة السابعة"
-],
-[
-    Prefix.same + "&C=Diacon",
+    "القطعة السابعة",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲝⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀ : ϯϭⲣⲟⲙⲡⲓ ⲉⲑⲛⲉⲥⲱⲥ : ⲑⲏⲉⲧⲁⲥⲙⲓⲥⲓ ⲛⲁⲛ ⲙ̀Ⲫ̀ϯ Ⲡⲓⲗⲟⲅⲟⲥ.",
     "Salut à toi, Marie♫ La belle colombe♫ Qui a enfanté♫ Pour nous, Dieu le Verbe.",
     "",
-    "السلام لكِ يا مريم الحمامة الحسنة التي ولدت لنا الله الكلمة."
-],
-[
-    Prefix.same + "&C=Diacon",
+    "السلام لكِ يا مريم الحمامة الحسنة التي ولدت لنا الله الكلمة.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲛ̀ⲑⲟ ⲧⲉ ϯϩⲣⲓⲣⲓ : ⲛ̀ⲧⲉ ⲡⲓⲥ̀ⲑⲟⲓⲛⲟⲩϥⲓ : ⲑⲏⲉⲧⲁⲥⲫⲓⲣⲓ ⲉ̀ⲃⲟⲗ : ϧⲉⲛ ⲑ̀ⲛⲟⲩⲛⲓ ⲛⲒⲉⲥⲥⲉ.",
     "Et tu es la fleur♫ La fleur de l’encens♫ Celle qui a germé♫ De la race de Jessé.",
     "",
-    "أنتِ زهرة البخور التي أينعت من أصل يسى."
-],
-[
-    Prefix.same + "&C=Diacon",
+    "أنتِ زهرة البخور التي أينعت من أصل يسى.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲡⲓϣ̀ⲃⲱⲧ ⲛ̀ⲧⲉ Ⲁⲁ̀ⲣⲱⲛ : ⲉⲧⲁϥⲫⲓⲣⲓ ⲉ̀ⲃⲟⲗ : ⲭⲱⲣⲓⲥ ϭⲟ ⲛⲉⲙ ⲧ̀ⲥⲟ : ϥ̀ⲟⲓ ⲛ̀ⲧⲩⲡⲟⲥ ⲛⲉ.",
     "Le bâton d’Aaron♫ Qui avait fleuri♫ Sans germe et sans eau♫ Comparé à toi.",
     "",
-    "عصا هارون التي أزهرت بغير غرس ولا سقىٍ هي مثال لك."
-],
-[
-    Prefix.same + "&C=Diacon",
+    "عصا هارون التي أزهرت بغير غرس ولا سقىٍ هي مثال لك.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲱ̀ ⲑⲏⲉⲧⲁⲥⲙⲉⲥ Ⲡⲭ̅ⲥ̅ :  Ⲡⲉⲛⲛⲟⲩϯ ϧⲉⲛ ⲟⲩⲙⲉⲑⲙⲏⲓ : ⲁϭⲛⲉ ⲥ̀ⲡⲉⲣⲙⲁ ⲛ̀ⲣⲱⲙⲓ : ⲉⲥⲟⲓ ⲙ̀ⲡⲁⲣⲑⲉⲛⲟⲥ.",
     "Toi qui enfantas♫ Vraiment Christ notre Dieu♫ Sans semence d’homme♫ Tout en étant Vierge.",
     "",
-    "يا من ولدت المسيح إلهنا بالحقيقة بغير زرع بشر وأنتِ عذراء."
-],
-[
-    Prefix.same + "&C=Diacon",
-    "Ⲉⲑⲃⲉ ⲫⲁⲓ ⲟⲩⲟⲛ ⲛⲓⲃⲉⲛ : ⲥⲉϭⲓⲥⲓ ⲙ̀ⲙⲟ : ⲧⲁ�⳪ ϯⲑⲉⲟ̀ⲧⲟⲕⲟⲥ : ⲉ̅ⲑ̅ⲩ : ⲛ̀ⲥⲏⲟⲩ ⲛⲓⲃⲉⲛ",
+    "يا من ولدت المسيح إلهنا بالحقيقة بغير زرع بشر وأنتِ عذراء.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲉⲑⲃⲉ ⲫⲁⲓ ⲟⲩⲟⲛ ⲛⲓⲃⲉⲛ : ⲥⲉϭⲓⲥⲓ ⲙ̀ⲙⲟ : ⲧⲁ⳪ ϯⲑⲉⲟ̀ⲧⲟⲕⲟⲥ : ⲉ̅ⲑ̅ⲩ : ⲛ̀ⲥⲏⲟⲩ ⲛⲓⲃⲉⲛ",
     "C’est pourquoi chacun♫ T’exalte, ô notre Dame♫ La Mère de Dieu♫ Toi la toujours sainte.",
     "",
-    "من أجل هذا كل واحد يعظمك يا سيدتي والدة الإله القديسة كل حين."
-],
-[
-    Prefix.same + "&C=Diacon",
+    "من أجل هذا كل واحد يعظمك يا سيدتي والدة الإله القديسة كل حين.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲁⲛⲟⲛ ϩⲱⲛ ⲧⲉⲛⲧⲱⲃϩ : ⲉⲑⲣⲉⲛϣⲁϣⲛⲓ ⲉⲩⲛⲁⲓ : ϩⲓⲧⲉⲛ ⲛⲉⲡ̀ⲣⲉⲥⲃⲓⲁ̀ : ⲛ̀ⲧⲟⲧϥ ⲙ̀ⲡⲓⲙⲁⲓⲣⲱⲙⲓ",
     "Aussi nous demandons♫ D’avoir miséricorde♫ Par tes intercessions♫ Chez l’Ami des hommes.",
     "",
-    "ونحن أيضًا نطلب♫ أَنْ نَفُوزُ بِرَحْمَةٍ♫ بشفاعاتك♫ عند محب البشر."
-],
-[
-    Prefix.same + "&C=Diacon",
+    "ونحن أيضًا نطلب♫ أَنْ نَفُوزُ بِرَحْمَةٍ♫ بشفاعاتك♫ عند محب البشر.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲥⲉⲙⲟⲩϯ ⲉ̀ⲣⲟ ⲇⲓⲕⲉⲟⲥ : ⲱ̀ ⲑⲏⲉⲑⲟⲩⲁⲃ Ⲙⲁⲣⲓⲁ̀ : ϫⲉ ϯⲙⲁϩⲥ̀ⲛⲟⲩϯ : ⲛ̀ⲥ̀ⲕⲏⲛⲏ : ⲛ̀ⲧⲉ ⲛⲏⲉ̅ⲑ̅ⲩ̅.",
     "Tu fus appelée juste♫ Ô Sainte Marie♫ Second Tabernacle♫ Pour les choses sacrées.",
     "",
-    "مدعوة أنتِ بالحقيقة أيتها القديسة مريم القبة الثانية التي للأقداس."
-],
-[
-    Prefix.same + "&C=Diacon",
+    "مدعوة أنتِ بالحقيقة أيتها القديسة مريم القبة الثانية التي للأقداس.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲑⲏⲉⲧⲟⲩⲭⲏ ⲛ̀ϧⲏⲧⲥ : ⲛ̀ϫⲉ ⲡⲓϣ̀ⲃⲱⲧ ⲛ̀ⲧⲉ Ⲁⲁ̀ⲣⲱⲛ : ⲛⲉⲙ ϯϩ̀ⲣⲏⲣⲓ ⲉ̅ⲑ̅ⲩ̅ : ⲛ̀ⲧⲉ ⲡⲓⲥ̀ⲑⲟⲓⲛⲟⲩϥⲓ.",
     "Où était placé♫ Le bâton d’Aaron♫ Et la fleur sacrée♫ Celle de l’encens.",
     "",
-    "تلك الموضوع فيها عصا هارون والزهرة المقدسة التي للبخور."
-],
-[
-    Prefix.same + "&C=Diacon",
+    "تلك الموضوع فيها عصا هارون والزهرة المقدسة التي للبخور.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲧⲉϫⲟⲗϩ ⲙ̀ⲡⲓⲧⲟⲩⲃⲟ : ⲥⲁϧⲟⲩⲛ ⲛⲉⲙ ⲥⲁⲃⲟⲗ : ⲱ̀ ϯⲥ̀ⲕⲏⲛⲏ ⲛ̀ⲕⲁⲑⲁⲣⲟⲥ : ⲫ̀ⲙⲁⲛ̀ϣⲱⲡⲓ ⲛ̀ⲛⲓⲇⲓⲕⲉⲟⲥ",
     "Enveloppée de pureté♫ Dedans comme dehors♫ Ô tabernacle pur♫ La demeure des justes.",
     "",
-    "أنتِ مشتملة بالطهارة من داخل ومن خارج أيتها القبة النقية مسكن الصديقين."
-],
-[
-    Prefix.same + "&C=Diacon",
+    "أنتِ مشتملة بالطهارة من داخل ومن خارج أيتها القبة النقية مسكن الصديقين.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲛⲓⲧⲁⲅⲙⲁ ⲛ̀ⲧⲉ ⲡ̀ϭⲓⲥⲓ : ⲛⲉⲙ ⲡ̀ⲭⲟⲣⲟⲥ ⲛ̀ⲧⲉ ⲛⲓⲑ̀ⲙⲏⲓ : ⲥⲉⲉⲣⲉⲩⲇⲟⲝⲁⲍⲓⲛ : ⲛ̀ⲛⲉⲙⲁⲕⲁⲣⲓⲥⲙⲟⲥ.",
     "Tous les rangs célestes♫ Et les chœurs des justes♫ Te glorifient ô toi♫ Qui es bienheureuse.",
     "",
-    "طغمات العلاء وصفوف الأبرار يمجدون طوباويتك."
-],
-[
-    Prefix.same + "&C=Diacon",
+    "طغمات العلاء وصفوف الأبرار يمجدون طوباويتك.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲉⲑⲃⲉ ⲫⲁⲓ ⲧⲉⲛϭⲓⲥⲓ : ⲙ̀ⲙⲟ ⲁⲝⲓⲱⲥ : ϧⲉⲛ ϩⲁⲛⲩ̀ⲙⲛⲟⲗⲟⲅⲓⲁ̀ : ⲙ̀ⲡ̀ⲣⲟⲫⲏⲧⲓⲕⲟⲛ",
     "Ainsi, c’est pour cela♫ Que nous t’exaltons♫ Très dignement avec♫ Des hymnes prophétiques.",
     "",
-    "مِنْ أَجْلِ هذا♫ نُعَظِّمُكِ♫ بِاسْتِحْقَاقٍ♫ بِتَمَاجِيدٍ نَبَوِية."
-],
-[
-    Prefix.same + "&C=Diacon",
+    "مِنْ أَجْلِ هذا♫ نُعَظِّمُكِ♫ بِاسْتِحْقَاقٍ♫ بِتَمَاجِيدٍ نَبَوِية.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ϫⲉ ⲁⲩⲥⲁϫⲓ ⲉⲑⲃⲏϯ : ⲛ̀ϩⲁⲛϩ̀ⲃⲏⲟⲩⲓ̀ ⲉⲩⲧⲁⲓⲏ̀ⲟⲩⲧ : ϯⲃⲁⲕⲓ ⲉ̅ⲑ̅ⲩ̅ : ⲛ̀ⲧⲉ ⲡⲓⲛⲓϣϯ ⲛ̀ⲟⲩⲣⲟ",
     "Car on a dit de toi♫ Des choses vénérables♫ Ô toi la ville sainte♫ Celle du grand Roi.",
     "",
-    "لأنهم تكلموا مِنْ أَجْلِك♫ بِأَعْمَالٍ كَرِيمَةٍ،♫ أَيَّتُهَا المدينة المقدسة♫ التي للملك العظيم."
-],
-[
-    Prefix.same + "&C=Diacon",
+    "لأنهم تكلموا مِنْ أَجْلِك♫ بِأَعْمَالٍ كَرِيمَةٍ،♫ أَيَّتُهَا المدينة المقدسة♫ التي للملك العظيم.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲧⲉⲛϯϩⲟ ⲧⲉⲛⲧⲱⲃϩ : ⲉⲑⲣⲉⲛϣⲁϣⲛⲓ ⲉⲩⲛⲁⲓ : ϩⲓⲧⲉⲛ ⲛⲉⲡ̀ⲣⲉⲥⲃⲓⲁ̀ : ⲛ̀ⲧⲟⲧϥ ⲙ̀ⲡⲓⲙⲁⲓⲣⲱⲙⲓ",
     "Nous demandons, prions♫ D’avoir miséricorde♫ Par ton intercession♫ Chez l’Ami des hommes.",
     "",
-    "نسأل ونطلب♫ أَنْ نَفُوزُ بِرَحْمَةٍ♫ بشفاعاتك♫ عند محب البشر."
-],
-[
+    "نسأل ونطلب♫ أَنْ نَفُوزُ بِرَحْمَةٍ♫ بشفاعاتك♫ عند محب البشر.",
+  ],
+  [
     Prefix.psalmody + "Part8&C=SubTitle",
     "",
     "8ème Partie",
     "",
-    "القطعة الثامنة"
-],
-[
-    Prefix.same + "&C=Diacon",
-    "ϣϣ2ϣⲁϣϥ ⲛ̀ⲥⲟⲡ          ⲙ̀ⲙⲏⲛⲓ : ̀ⲉ̀ⲃⲟⲗϧⲉⲛ ⲡⲁϩⲏⲧ ⲧⲏⲣϥ : ϯⲛⲁⲥ̀ⲙⲟⲩ ⲉ̀Ⲡⲉⲕⲣⲁⲛ : Ⲡ̀�⳪ ⲙ̀ⲡⲓⲉ̀ⲡ̀ⲧⲏⲣϥ.",
+    "القطعة الثامنة",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "ϣϣ2ϣⲁϣϥ ⲛ̀ⲥⲟⲡ          ⲙ̀ⲙⲏⲛⲓ : ̀ⲉ̀ⲃⲟⲗϧⲉⲛ ⲡⲁϩⲏⲧ ⲧⲏⲣϥ : ϯⲛⲁⲥ̀ⲙⲟⲩ ⲉ̀Ⲡⲉⲕⲣⲁⲛ : Ⲡ̀⳪ ⲙ̀ⲡⲓⲉ̀ⲡ̀ⲧⲏⲣϥ.",
     "Sept fois chaque jour♫ Et de tout mon cœur♫ Je bénis ton nom♫ Dieu de toute chose. ",
     "",
-    "سبع مرات كل يوم من كل قلبي أسبح اسمك يا رب الكل."
-],
-[
-    Prefix.same + "&C=Diacon",
+    "سبع مرات كل يوم من كل قلبي أسبح اسمك يا رب الكل.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲁⲓⲉⲣⲫ̀ⲙⲉⲩⲓ ⲙ̀Ⲡⲉⲕⲣⲁⲛ : ⲟⲩⲟϩ ⲁⲓϫⲉⲙⲛⲟⲙϯ : Ⲡ̀ⲟⲩⲣⲟ ⲛ̀ⲛⲓⲉ̀ⲱⲛ : Ⲫ̀ϯ ⲛ̀ⲧⲉ ⲛⲓⲛⲟⲩϯ.",
     "J’invoquai ton nom♫ Tu m’as consolé♫ Ô roi éternel♫ Et ô Dieu des dieux. ",
     "",
-    "ذكرت اسمك فتعزيت يا ملك الدهور واله الآلهة."
-],
-[
-    Prefix.same + "&C=Diacon",
+    "ذكرت اسمك فتعزيت يا ملك الدهور واله الآلهة.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ Ⲡⲉⲛⲛⲟⲩϯ : ⲡⲓⲁ̀ⲗⲏⲑⲓⲛⲟⲥ : ⲫⲏⲉⲧⲁϥⲓ̀ ⲉⲑⲃⲉ ⲡⲉⲛⲥⲱϯ : ⲁϥⲉⲣⲥⲱⲙⲁⲧⲓⲕⲟⲥ.",
     "Seigneur Jésus-Christ♫ Ô notre vrai Dieu♫ Qui, pour nous sauver.♫ Vint et s’incarna ",
     "",
-    "يسوع المسيح إلهنا الحقيقي الذي أتي، من اجل خلاصنا، اتي متجسداً."
-],
-[
-    Prefix.same + "&C=Diacon",
+    "يسوع المسيح إلهنا الحقيقي الذي أتي، من اجل خلاصنا، اتي متجسداً.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲁϥϭⲓⲥⲁⲣⲝ ̀ⲉ̀ⲃⲟⲗ : ϧⲉⲛ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ : ⲛⲉⲙ ̀ⲉ̀ⲃⲟⲗϧⲉⲛ Ⲙⲁⲣⲓⲁ̀ : ϯϣⲉⲗⲉⲧ ⲉⲑⲟⲩⲁⲃ.",
     "Il s’est incarné♫ Par le Saint-Esprit♫ De Vierge Marie♫ La Vierge si pure.",
     "",
-    "وتجسد من الروح القدس ومن مريم العروس الطاهرة."
-],
-[
-    Prefix.same + "&C=Diacon",
+    "وتجسد من الروح القدس ومن مريم العروس الطاهرة.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲁϥⲫⲱⲛϩ ⲙ̀ⲡⲉⲛϩⲏⲃⲓ : ⲛⲉⲙ ⲡⲉⲛϩⲟϫϩⲉϫ ⲧⲏⲣϥ : ⲉ̀ⲟⲩⲣⲁϣⲓ ⲛ̀ϩⲏⲧ : ⲛⲉⲙ ⲟⲩⲑⲉⲗⲏⲗ ⲉ̀ⲡ̀ⲧⲏⲣϥ.",
     "Changea notre deuil♫ Aussi nos angoisses♫ En joie de nos cœurs♫ Allégresse totale.",
     "",
-    "وقلب حزننا وكل ضيقنا إلي فرح قلب وتهليل كلي."
-],
-[
-    Prefix.same + "&C=Diacon",
+    "وقلب حزننا وكل ضيقنا إلي فرح قلب وتهليل كلي.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲙⲁⲣⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟϥ : ⲟⲩⲟϩ ⲛ̀ⲧⲉⲛⲉⲣϩⲩⲙⲛⲟⲥ : ⲛ̀ⲧⲉϥⲙⲁⲩ Ⲙⲁⲣⲓⲁ̀ : ϯϭⲣⲟⲙⲡⲓ ⲉⲑⲛⲉⲥⲱⲥ.",
     "Et prosternons-nous♫ A lui, et chantons♫ Chantons pour sa mère♫ La belle colombe.",
     "",
-    "فلنسجد له ونرتل لأمه مريم الحمامة الحسنه."
-],
-[
-    Prefix.same + "&C=Diacon",
+    "فلنسجد له ونرتل لأمه مريم الحمامة الحسنه.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲟⲩⲟϩ ⲛ̀ⲧⲉⲛⲱϣ ̀ⲉ̀ⲃⲟⲗ : ϧⲉⲛ ⲟⲩⲥ̀ⲙⲏ ⲛ̀ⲑⲉⲗⲏⲗ : ϫⲉ ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀ : ⲑ̀ⲙⲁⲩ ⲛ̀Ⲉⲙⲙⲁⲛⲟⲩⲏⲗ.",
     "Crions d’une voix♫ D’allégresse, disant♫ Salut à toi Marie♫ Mère d’Emmanuel ",
     "",
-    "ونصرخ بصوت التهليل قائلين السلام لك يا مريم ام عمانوئيل."
-],
-[
-    Prefix.same + "&C=Diacon",
+    "ونصرخ بصوت التهليل قائلين السلام لك يا مريم ام عمانوئيل.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀ : ⲡ̀ⲥⲱϯ ⲛ̀Ⲁⲇⲁⲙ ⲡⲉⲛⲓⲱⲧ :ⲭ̅ⲉ̅ : ⲑ̀ⲙⲁⲩ ⲙ̀ⲡⲓⲙⲁⲙ̀ⲫⲱⲧ : ⲭ̅ⲉ̅ : ⲡ̀ⲑⲉⲗⲏⲗ ⲛ̀Ⲉⲩⲁ̀ :ⲭ̅ⲉ̅ : ⲡ̀ⲟⲩⲛⲟϥ ⲛ̀ⲛⲓⲅⲉⲛⲉⲁ̀",
     "Salut à toi Marie, Salut d’Adam notre père♫ Salut à toi Marie, Mère du refuge♫ Salut à toi Marie, Allégresse d’Eve♫ Salut à toi Marie, Joie des générations.",
     "",
-    " السلام لك يا مريم، خلاص أبينا آدم♫ السلام لكي يا مريم، ام الملجأ♫ السلام لكي يا مريم، تهليل حواء♫ السلام لكي يا مريم، فرح الأجيال."
-],
-[
-    Prefix.same + "&C=Diacon",
+    "السلام لك يا مريم، خلاص أبينا آدم♫ السلام لكي يا مريم، ام الملجأ♫ السلام لكي يا مريم، تهليل حواء♫ السلام لكي يا مريم، فرح الأجيال.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲭⲉ̅ : ⲫ̀ⲣⲁϣⲓ ⲛ̀Ⲁⲃⲉⲗ ⲡⲓⲑ̀ⲙⲏⲓ : ⲭ̅ⲉ̅ : ϯⲡⲁⲣⲑⲉⲛⲟⲥ ⲛ̀ⲧⲁⲫ̀ⲙⲏⲓ : ⲭ̅ⲉ̅ : ⲫ̀ⲛⲟϩⲉⲙ ⲛ̀Ⲛⲱⲉ̀ : ⲭ̅ⲉ̅ : ϯⲁⲧⲑⲱⲗⲉⲃ ⲛ̀ⲥⲉⲙⲛⲉ.",
     "Salut à toi Marie, Joie d’Abel le juste♫ Salut à toi Marie, Vierge véritable♫ Salut à toi Marie, Délivrance de Noé♫ Salut à toi Marie, L’immaculée et calme.",
     "",
-    "السلام لكي يا مريم،♫ فرح هابيل البار : السلام لكي يا مريم،♫ العذراء الحقيقية. السلام لكي يا مريم،♫ خلاص نوح. السلام لكي يا مريم،♫ غير الدنسة الهادئة."
-],
-[
-    Prefix.same + "&C=Diacon",
+    "السلام لكي يا مريم،♫ فرح هابيل البار : السلام لكي يا مريم،♫ العذراء الحقيقية. السلام لكي يا مريم،♫ خلاص نوح. السلام لكي يا مريم،♫ غير الدنسة الهادئة.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲭⲉ̅ : ⲡ̀ϩ̀ⲙⲟⲧ ⲛ̀Ⲁⲃⲣⲁⲁⲙ : ⲭ̅ⲉ̅ : ⲡⲓⲭ̀ⲗⲟⲙ ⲛ̀ⲁⲑⲗⲱⲙ : ⲭ̅ⲉ̅ : ⲡ̀ⲥⲱϯ ⲛ̀Ⲓ̀ⲥⲁⲁⲕ ⲡⲉⲑⲟⲩⲁⲃ : : ⲭ̅ⲉ̅: ⲑ̀ⲙⲁⲩ ⲙ̀Ⲫⲏⲉ̀ⲑⲟⲩⲁⲃ.",
     "Salut à toi Marie, Grâce d’Abraham♫ Salut à toi Marie, Couronne inaltérable♫ Salut à toi Marie, Salut d’Isaac le saint♫ Salut à toi Marie, Mère du Très Saint.",
     "",
-    "السلام لكي يا مريم،♫ نعمة إبراهيم. السلام لكي يا مريم،♫ الإكليل غير المضمحل. السلام لكي يا مريم،♫ خلاص إسحق القديس. السلام لكي يا مريم،♫ ام القدوس"
-],
-[
-    Prefix.same + "&C=Diacon",
+    "السلام لكي يا مريم،♫ نعمة إبراهيم. السلام لكي يا مريم،♫ الإكليل غير المضمحل. السلام لكي يا مريم،♫ خلاص إسحق القديس. السلام لكي يا مريم،♫ ام القدوس",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲭⲉ̅: ⲡ̀ⲑⲉⲗⲏⲗ ⲛ̀Ⲓⲁⲕⲱⲃ ⲭ̅ⲉ̅: ϩⲁⲛⲑ̀ⲃⲁ ⲛ̀ⲕⲱⲃ : : ⲭ̅ⲉ̅ : ⲡ̀ϣⲟⲩϣⲟⲩ ⲛ̀Ⲓⲟⲩⲇⲁ : ⲭ̅ⲉ̅: ⲑ̀ⲙⲁⲩ ⲙ̀Ⲡⲓⲇⲉⲥⲡⲟⲧⲁ",
     "Salut à toi Marie, Allégresse de Jacob♫ Salut à toi Marie, Des milliers de fois♫ Salut à toi Marie, Fierté de Judas♫ Salut à toi Marie, Ô Mère du Maître.",
     "",
-    "السلام لكي يا مريم،♫ تهليل يعقوب. السلام لكي يا مريم،♫ ربوات مضاعفة. السلام لكي يا مريم،♫ فخر يهوذا. السلام لكي يا مريم، ام السيد."
-],
-[
-    Prefix.same + "&C=Diacon",
+    "السلام لكي يا مريم،♫ تهليل يعقوب. السلام لكي يا مريم،♫ ربوات مضاعفة. السلام لكي يا مريم،♫ فخر يهوذا. السلام لكي يا مريم، ام السيد.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲭⲉ̅ : ⲡ̀ϩⲓⲱⲓϣ ⲙ̀Ⲙⲱⲩ̀ⲥⲏⲥ :ⲭ̅ⲉ̅: ⲑ̀ⲙⲁⲩ ⲙ̀Ⲡⲓⲇⲉⲥⲡⲟⲧⲏⲥ : ⲭ̅ⲉ̅ : ⲡ̀ⲧⲁⲓⲟ̀ ⲛ̀Ⲥⲁⲙⲟⲩⲏⲗ : ⲭ̅ⲉ̅: ⲡ̀ϣⲟⲩϣⲟⲩ ⲙ̀Ⲡⲓⲥⲣⲁⲏ̀ⲗ.",
     "Salut à toi Marie, Prédication de Moïse♫ Salut à toi Marie, Ô Mère du Maître♫ Salut à toi Marie, Honneur de Samuel♫ Salut à toi Marie, Fierté d’Israël.",
     "",
-    "السلام لكي يا مريم،♫ كرازة موسى. السلام لكي يا مريم،♫ والدة السيد. السلام لكي يا مريم،♫ كرامة صموئيل. السلام لكي يا مريم،♫ فخر إسرائيل."
-],
-[
-    Prefix.same + "&C=Diacon",
+    "السلام لكي يا مريم،♫ كرازة موسى. السلام لكي يا مريم،♫ والدة السيد. السلام لكي يا مريم،♫ كرامة صموئيل. السلام لكي يا مريم،♫ فخر إسرائيل.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲭⲉ̅ : ⲡ̀ⲧⲁϫⲣⲟ ⲛ̀Ⲓⲱⲃ ⲡⲓⲑ̀ⲙⲏⲓ : ⲭ̅ⲉ̅ : ⲡⲓⲱ̀ⲛⲓ ⲛ̀ⲁ̀ⲛⲁⲙⲏⲓ : ⲭ̅ⲉ̅ : ⲑ̀ⲙⲁⲩ ⲙ̀Ⲡⲓⲙⲉⲛⲣⲓⲧ : ⲭ̅ⲉ̅ : ⲧ̀ϣⲉⲣⲓ ⲙ̀Ⲡ̀ⲟⲩⲣⲟ Ⲇⲁⲩⲓⲇ",
     "Salut à toi Marie, Patience de Job le juste♫ Salut à toi Marie, La pierre précieuse♫ Salut à toi Marie, Mère du Bien-Aimé♫ Salut à toi Marie, Fille du roi David.",
     "",
-    "السلام لكي يا مريم،♫ ثبات أيوب البار. السلام لكي يا مريم،♫ الحجر الكريم. السلام لكي يا مريم،♫ أم الحبيب. السلام لكي يا مريم، ابنة الملك داود."
-],
-[
-    Prefix.same + "&C=Diacon",
+    "السلام لكي يا مريم،♫ ثبات أيوب البار. السلام لكي يا مريم،♫ الحجر الكريم. السلام لكي يا مريم،♫ أم الحبيب. السلام لكي يا مريم، ابنة الملك داود.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲭⲉ̅ : ϯϣ̀ⲫⲉⲣⲓ : ⲛ̀Ⲥⲟⲗⲟⲙⲱⲛ : ⲭ̅ⲉ̅ : ⲡ̀ϭⲓⲥⲓ ⲛ̀ⲛⲓⲇⲓⲕⲉⲟⲛ : ⲭ̅ⲉ̅ : ⲡ̀ⲟⲩϫⲁⲓ ⲛ̀Ⲏⲥⲁⲏ̀ⲁⲥ : ⲭ̅ⲉ̅ : ⲡ̀ⲧⲁⲗϭⲟ ⲛ̀Ⲓⲉⲣⲉⲙⲓⲁⲥ.",
     "Salut à toi Marie, Amie de Salomon♫ Salut à toi Marie, La gloire des justes♫ Salut à toi Marie, Délivrance d’Isaïe♫ Salut à toi Marie, Guérison de Jérémie.",
     "",
-    "السلام لكي يا مريم،♫ صديقة سليمان. السلام لكي يا مريم،♫ رفعة الصديقين. السلام لكي يا مريم، خلاص اشعياء. السلام لكي يا مريم،♫ شفاء إرميا."
-],
-[
-    Prefix.same + "&C=Diacon",
+    "السلام لكي يا مريم،♫ صديقة سليمان. السلام لكي يا مريم،♫ رفعة الصديقين. السلام لكي يا مريم، خلاص اشعياء. السلام لكي يا مريم،♫ شفاء إرميا.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲭⲉ̅ : ⲡ̀ⲉ̀ⲙⲓ ⲛ̀Ⲓⲉⲍⲉⲕⲓⲏⲗ : ⲭ̅ⲉ̅ : ⲭⲁⲣⲓⲥ ⲧⲟⲩ Ⲇⲁⲛⲓⲏⲗ : ⲭ̅ⲉ̅ : ⲧ̀ϫⲟⲙ ⲛ̀Ⲏ̀ⲗⲓⲁⲥ : ⲭ̅ⲉ̅ : ⲡⲓϩ̀ⲙⲟⲧ ⲛ̀Ⲉⲗⲓⲥⲉⲟⲥ.",
     "Salut à toi Marie, Etendard d’Ezéchiel♫ Salut à toi Marie, Grâce de Daniel♫ Salut à toi Marie, La force d’Elie♫ Salut à toi Marie, Grâce d’Elisée.",
     "",
-    "السلام لكي يا مريم،♫ علم حزقيال. السلام لكي يا مريم،♫ نعمة دانيال. السلام لكي يا مريم،♫ قوة إيليا. السلام لكي يا مريم،♫ نعمة إليشع."
-],
-[
-    Prefix.same + "&C=Diacon",
+    "السلام لكي يا مريم،♫ علم حزقيال. السلام لكي يا مريم،♫ نعمة دانيال. السلام لكي يا مريم،♫ قوة إيليا. السلام لكي يا مريم،♫ نعمة إليشع.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲭⲉ̅ : ϯⲑⲉⲟ̀ⲧⲟⲕⲟⲥ : ⲭ̅ⲉ̅ : ⲑ̀ⲙⲁⲩ ⲛ̀Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ : ⲭ̅ⲉ̅ : ϯϭⲣⲟⲙⲡⲓ ⲉⲑⲛⲉⲥⲱⲥ : ⲭ̅ⲉ̅ : ⲑ̀ⲙⲁⲩ ⲛ̀Ⲩ̀ⲓⲟⲥ Ⲑⲉⲟⲥ.",
     "Salut à toi Marie, La Mère de Dieu♫ Salut à toi Marie, Mère de Jésus Christ♫ Salut à toi Marie, La belle colombe♫ Salut à toi Marie, Mère du fils de Dieu.",
     "",
-    "السلام لكي يا مريم،♫ والدة الإله. السلام لكي يا مريم،♫ أم يسوع المسيح. السلام لكي يا مريم،♫ الحمامة الحسنة. السلام لكي يا مريم،♫ أم ابن الله."
-],
-[
-    Prefix.same + "&C=Diacon",
+    "السلام لكي يا مريم،♫ والدة الإله. السلام لكي يا مريم،♫ أم يسوع المسيح. السلام لكي يا مريم،♫ الحمامة الحسنة. السلام لكي يا مريم،♫ أم ابن الله.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀ : ⲉⲧⲁⲩⲉⲣⲙⲉⲑⲣⲉ ⲛⲁⲥ : ⲛ̀ϫⲉ ⲛⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ ⲧⲏⲣⲟⲩ : ⲟⲩⲟϩ ⲁⲩϫⲱ ⲙ̀ⲙⲟⲥ.",
     "Salut à toi Marie♫ De qui ont témoigné♫ L’ensemble des prophètes♫ Et ils ont proclamé :",
     "",
-    "السلام لمريم♫ التي شهد لها♫ جميع الأنبياء♫ وقالوا."
-],
-[
-    Prefix.same + "&C=Diacon",
+    "السلام لمريم♫ التي شهد لها♫ جميع الأنبياء♫ وقالوا.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ϩⲏⲡⲡⲉ Ⲫ̀ϯ Ⲡⲓⲗⲟⲅⲟⲥ : ⲉⲧⲁϥϭⲓⲥⲁⲣⲝ ⲛ̀ϧⲏϯ : ϧⲉⲛ ⲟⲩⲙⲉⲧⲟⲩⲁⲓ : ⲛ̀ⲁⲧⲥⲁϫⲓ ⲙ̀ⲡⲉⲥⲣⲏϯ.",
     "Et voici Dieu le Verbe♫ Qui s’incarna de toi♫ De cette union dont on♫ Ne pourra dire d’égale ",
     "",
-    "هوذا الله الكلمة♫ الذي تجسد منك♫ بوحدانية♫ لا ينطق بمثلها."
-],
-[
-    Prefix.same + "&C=Diacon",
+    "هوذا الله الكلمة♫ الذي تجسد منك♫ بوحدانية♫ لا ينطق بمثلها.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲧⲉϭⲟⲥⲓ ⲁ̀ⲗⲏⲑⲱⲥ : ⲉ̀ϩⲟⲧⲉ ⲡⲓϣ̀ⲃⲱⲧ : ⲛ̀ⲧⲉ Ⲁⲁ̀ⲣⲱⲛ : ⲱ̀ ⲑⲏⲉⲑⲙⲉϩ ⲛ̀ϩ̀ⲙⲟⲧ. ",
     "Tu es très élevée♫ En vérité, et plus♫ Que le bâton d’Aaron♫ Ô toi pleine de grâce.",
     "",
-    "مرتفعة أنت♫ بالحقيقة أكثر♫ من عصا هارون♫ يا ممتلئة نعمة "
-],
-[
-    Prefix.same + "&C=Diacon",
+    "مرتفعة أنت♫ بالحقيقة أكثر♫ من عصا هارون♫ يا ممتلئة نعمة ",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲁϣ ⲡⲉ ⲡⲓϣ̀ⲃⲱⲧ : ⲉ̀ⲃⲏⲗ ⲉ̀Ⲙⲁⲣⲓⲁ̀ : ϫⲉ ⲛ̀ⲑⲟϥ ⲡⲉ ⲡ̀ⲧⲩⲡⲟⲥ : ⲛ̀ⲧⲉⲥⲡⲁⲣⲑⲉⲛⲓⲁ̀.",
     "Et le bâton n’est autre♫ Que la Vierge Marie♫ Car il est le symbole♫ De sa virginité.",
     "",
-    "ما هي العصا♫ إلا مريم♫ لأنها مثال♫ بتوليتها"
-],
-[
-    Prefix.same + "&C=Diacon",
+    "ما هي العصا♫ إلا مريم♫ لأنها مثال♫ بتوليتها",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲁⲥⲉⲣⲃⲟⲕⲓ ⲁⲥⲙⲓⲥⲓ : ⲭⲱⲣⲓⲥ ⲥⲩⲛⲟⲩⲥⲓⲁ̀ : ⲙ̀Ⲡ̀ϣⲏⲣⲓ ⲙ̀Ⲫⲏⲉⲧϭⲟⲥⲓ : Ⲡⲓⲗⲟⲅⲟⲥ ⲛ̀ⲁⲓⲇⲓⲁ̀. ",
     "Elle a été enceinte♫ Enfanta sans semence♫ Le Fils du Dieu Très-Haut♫ Lui le Verbe en personne.",
     "",
-    "حبلت وولدت♫ بغير مباضعة♫ ابن العلي♫ الكلمة الذاتي."
-],
-[
-    Prefix.same + "&C=Diacon",
+    "حبلت وولدت♫ بغير مباضعة♫ ابن العلي♫ الكلمة الذاتي.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ϩⲓⲧⲉⲛ ⲛⲉⲥⲉⲩⲭⲏ : ⲛⲉⲙ ⲛⲉⲥⲡ̀ⲣⲉⲥⲃⲓⲁ̀ : ⲁ̀ⲟⲩⲱⲛ ⲛⲁⲛ Ⲡⲟ̅ⲥ̅ : ⲙ̀ⲫ̀ⲣⲟ ⲛ̀ⲧⲉ ϯⲉⲕⲕ̀ⲗⲏⲥⲓⲁ̀.",
     "Et de par ses prières♫ Et ses intercessions♫ Ô Seigneur, ouvre-nous♫ La porte de l’Eglise.",
     "",
-    "بصلواتها♫ وشفاعاتها♫ افتح لنا يا رب♫ باب الكنيسة."
-],
-[
-    Prefix.same + "&C=Diacon",
+    "بصلواتها♫ وشفاعاتها♫ افتح لنا يا رب♫ باب الكنيسة.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ϯϯϩⲟ ⲉ̀ⲣⲟ : ⲱ̀ ϯⲑⲉⲟ̀ⲧⲟⲕⲟⲥ : ⲭⲁ ⲫ̀ⲣⲟ ⲛ̀ⲛⲓⲉⲕⲕ̀ⲗⲏⲥⲓⲁ̀ : ⲉϥⲟⲩⲏⲛ ⲛ̀ⲛⲓⲡⲓⲥⲧⲟⲥ. ",
     "J’implore et te demande♫ Ô la Mère de Dieu♫ Les portes des églises♫ Qu’elles s’ouvrent aux croyants.",
     "",
-    "أسألك يا والدة الإله♫ اجعلي أبواب♫ الكنائس♫ مفتوحة للمؤمنين."
-],
-[
-    Prefix.same + "&C=Diacon",
+    "أسألك يا والدة الإله♫ اجعلي أبواب♫ الكنائس♫ مفتوحة للمؤمنين.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲙⲁⲣⲉⲛϯϩⲟ ⲉ̀ⲣⲟⲥ : ⲉⲑⲣⲉⲥⲧⲱⲃϩ ⲉ̀ϫⲱⲛ : ⲛⲁϩⲣⲉⲛ ⲡⲉⲥⲙⲉⲛⲣⲓⲧ : ⲉⲑⲣⲉϥⲭⲱ ⲛⲁⲛ ̀ⲉ̀ⲃⲟⲗ.",
     "Et tous demandons-lui♫ D’intercéder pour nous♫ Près de son Bien-Aimé♫ Afin qu’il nous pardonne.",
     "",
-    "فلنسألها♫ أن تطلب عنا♫ عند حبيبها♫ ليغفر لنا."
-],
-[
+    "فلنسألها♫ أن تطلب عنا♫ عند حبيبها♫ ليغفر لنا.",
+  ],
+  [
     Prefix.psalmody + "Part9&C=SubTitle",
     "",
     "9ème Partie",
     "",
-    "القطعة التاسعة"
-],
-[
-    Prefix.same + "&C=Diacon",
+    "القطعة التاسعة",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲁⲩⲙⲟⲩϯ ⲉ̀ⲣⲟ : Ⲙⲁⲣⲓⲁ̀ ϯⲡⲁⲣⲑⲉⲛⲟⲥ : ϫⲉ ϯϩ̀ⲣⲏⲣⲓ ⲉⲑⲟⲩⲁⲃ : ⲛ̀ⲧⲉ ⲡⲓⲥ̀ⲑⲟⲓⲛⲟϥⲓ.",
     "Et tu fus nommée♫ Ô Vierge Marie♫ La fleur sainte, celle♫ Qui est pour  l’encens.",
     "",
-    "دعيت♫ يا مريم العذراء♫ الزهرة المقدسة♫ التي للبخور"
-],
-[
-    Prefix.same + "&C=Diacon",
+    "دعيت♫ يا مريم العذراء♫ الزهرة المقدسة♫ التي للبخور",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲑⲏⲉⲧⲁⲥϯⲟⲩⲱ̀ ⲉ̀ⲡ̀ϣⲱⲓ : ⲁⲥⲫⲓⲣⲓ ̀ⲉ̀ⲃⲟⲗ : ϧⲉⲛ ⲑ̀ⲛⲟⲩⲛⲓ        ̀ⲛⲛⲓⲡⲁⲧⲣⲓⲁⲣⲭⲏⲥ : ⲛⲉⲙ ⲛⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ.",
     "Celle qui a poussé♫ Et qui a fleuri♫ De la race des chefs♫ Des pères et prophètes.",
     "",
-    "التي طلعت♫ وأزهرت♫ من أصل رؤساء♫ الآباء والأنبياء"
-],
-[
-    Prefix.same + "&C=Diacon",
+    "التي طلعت♫ وأزهرت♫ من أصل رؤساء♫ الآباء والأنبياء",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲙ̀ⲫ̀ⲣⲏϯ ⲙ̀ⲡⲓϣ̀ⲃⲱⲧ : ⲛ̀ⲧⲉ Ⲁⲁ̀ⲣⲱⲛ ⲡⲓⲟⲩⲏⲃ : ⲉⲧⲁϥⲫⲓⲣⲓ ̀ⲉ̀ⲃⲟⲗ : ⲁϥⲟⲡⲧ ⲛ̀ⲕⲁⲣⲡⲟⲥ.",
     "Comme le bâton♫ D’Aaron le prêtre♫ Elle avait fleuri♫ Et porta un fruit.",
     "",
-    "مثل عصا هارون الكاهن أزهرت وأوسقت ثمرًا."
-],
-[
-    Prefix.same + "&C=Diacon",
+    "مثل عصا هارون الكاهن أزهرت وأوسقت ثمرًا.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ϫⲉ ⲁⲣⲉϫ̀ⲫⲟ ⲙ̀Ⲡⲓⲗⲟⲅⲟⲥ : ⲁϭⲛⲉ ⲥ̀ⲡⲉⲣⲙⲁ ⲛ̀ⲣⲱⲙⲓ : ⲉⲥⲟⲓ ⲛ̀ⲁⲧⲧⲁⲕⲟ : ⲛ̀ϫⲉ ⲧⲉⲥⲡⲁⲣⲑⲉⲛⲓⲁ̀.",
     "Car tu as enfanté♫ Le Verbe sans semence♫ Et ta virginité♫ Etait sans corruption.",
     "",
-    "لأنك ولدت الكلمة♫ بغير زرع بشر♫ وبتوليتك♫ بغير فساد."
-],
-[
-    Prefix.same + "&C=Diacon",
+    "لأنك ولدت الكلمة♫ بغير زرع بشر♫ وبتوليتك♫ بغير فساد.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲉⲑⲃⲉ ⲫⲁⲓ ⲧⲉⲛϯⲱ̀ⲟⲩ ⲛⲉ : ϩⲱⲥ ⲑⲉⲟ̀ⲧⲟⲕⲟⲥ : ⲙⲁϯϩⲟ ⲙ̀ⲡⲉϣⲏⲣⲓ : ⲉⲑⲣⲉϥⲭⲱ ⲛⲁⲛ ̀ⲉ̀ⲃⲟⲗ.",
     "Pour cela nous te glorifions♫ En tant que mère de Dieu♫ Demande à ton Fils♫ De nous pardonner.",
     "",
-    "فلهذا نمجدك♫ كوالدة الإله♫ اسألي ابنك♫ ليغفر لنا."
-],
-[
+    "فلهذا نمجدك♫ كوالدة الإله♫ اسألي ابنك♫ ليغفر لنا.",
+  ],
+  [
     Prefix.psalmody + "Part10&C=SubTitle",
     "",
     "10ème Partie",
     "",
-    "القطعة العاشرة"
-],
-[
-    Prefix.same + "&C=NoActor",
+    "القطعة العاشرة",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲧⲉⲟⲓ ⲛ̀ϩⲓⲕⲁⲛⲟⲥ : ⲉ̀ϩⲟⲧⲉ ⲛⲏⲉ̅ⲑ̅ⲩ̅ ⲧⲏⲣⲟⲩ : ⲉⲑⲣⲉⲧⲱⲃϩ ⲉ̀ϫⲱⲛ : ⲱ̀ ⲑⲏⲉⲑⲙⲉϩ ⲛ̀ϩ̀ⲙⲟⲧ.",
     "Et tu es bien plus digne♫ Que l’ensemble des saints♫ D’intercéder pour nous♫ Ô toi pleine de grâce.",
     "",
-    "أنتِ مستحقة أكثر من جميع القديسين أن تطلبي عنا أيتها الممتلئة نعمة."
-],
-[
-    Prefix.same + "&C=NoActor",
+    "أنتِ مستحقة أكثر من جميع القديسين أن تطلبي عنا أيتها الممتلئة نعمة.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲧⲉϭⲟⲥⲓ ⲉ̀ⲙⲁϣⲱ : ⲉ̀ϩⲟⲧⲉ ⲛⲓⲡⲁⲧⲣⲓⲁⲣⲭⲏⲥ : ⲟⲩⲟϩ ⲧⲉⲧⲁⲓⲏ̀ⲟⲩⲧ : ⲉ̀ϩⲟⲧⲉ ⲛⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ.",
     "Beaucoup plus élevée♫ Que tous les patriarches♫ Et bien plus honorable♫ Que tous les prophètes.",
     "",
-    "أنت مرتفعة جداً أكثر من رؤساء الآباء ومكرمة أفضل من الأنبياء."
-],
-[
-    Prefix.same + "&C=NoActor",
+    "أنت مرتفعة جداً أكثر من رؤساء الآباء ومكرمة أفضل من الأنبياء.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲟⲩⲟⲛⲧⲉ ϫⲓⲛⲙⲟϣⲓ : ϧⲉⲛ ⲟⲩⲡⲁⲣⲣⲏⲥⲓⲁ̀ : ⲉ̀ϩⲟⲧⲉ Ⲛⲓⲭⲉⲣⲟⲩⲃⲓⲙ : ⲛⲉⲙ Ⲛⲓⲥⲉⲣⲁⲫⲓⲙ.",
     "Et tu as libre accès♫ Avec plus d’assurance♫ Que tous les Chérubins♫ Aussi les Séraphins.",
     "",
-    "ولك سعي بدالة أكثر من الشاروبيم والسارافيم."
-],
-[
-    Prefix.same + "&C=NoActor",
+    "ولك سعي بدالة أكثر من الشاروبيم والسارافيم.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲛ̀ⲑⲟ ⲅⲁⲣ ⲁ̀ⲗⲏⲑⲱⲥ : ⲡⲉ ⲡ̀ϣⲟⲩϣⲟⲩ ⲙ̀ⲡⲉⲛⲅⲉⲛⲟⲥ : ⲟⲩⲟϩ ϯⲡ̀ⲣⲟⲥⲧⲁⲧⲏⲥ : ⲛ̀ⲧⲉ ⲛⲉⲛⲉⲯⲩⲭⲏ.",
     "En vérité tu es♫ Fierté de notre race♫ Aussi l’intercesseur♫ De nos âmes à tous.",
     "",
-    "لأنك أنت بالحقيقة فخر جنسنا وشفيعة نفوسنا."
-],
-[
-    Prefix.same + "&C=NoActor",
+    "لأنك أنت بالحقيقة فخر جنسنا وشفيعة نفوسنا.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲁⲣⲓⲡ̀ⲣⲉⲥⲃⲉⲩⲓⲛ ⲉ̀ϫⲱⲛ : ⲛⲁϩⲣⲉⲛ Ⲡⲉⲛⲥⲱⲧⲏⲣ : ϩⲟⲡⲱⲥ ⲛ̀ⲧⲉϥⲧⲁϫⲣⲟⲛ : ϧⲉⲛ ⲡⲓⲛⲁϩϯ ⲉⲧⲥⲟⲩⲧⲱⲛ.",
     "Et intercède pour nous♫ Auprès de notre Sauveur♫ Pour qu’il nous affermisse♫ Dans la foi orthodoxe.",
     "",
-    "اشفعي فينا أمام مخلصنا لكى يثبتنا في الايمان المستقيم."
-],
-[
-    Prefix.same + "&C=NoActor",
+    "اشفعي فينا أمام مخلصنا لكي يثبتنا في الايمان المستقيم.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲛ̀ⲧⲉϥⲉⲣϩ̀ⲙⲟⲧ ⲛⲁⲛ : ⲙ̀ⲡⲓⲭⲱ ̀ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉ ⲛⲉⲛⲛⲟⲃⲓ : ⲛ̀ⲧⲉⲛϣⲁϣⲛⲓ ⲉⲩⲛⲁⲓ : ϩⲓⲧⲉⲛ ⲛⲉⲡ̀ⲣⲉⲥⲃⲓⲁ̀.",
     "Afin qu’il nous accorde♫ Pardon de nos péchés♫ Qu’il nous prenne en pitié♫ Par tes intercessions.",
     "",
-    "وينعم لنا بمغفرة خطايانا لنفوز برحمة بشفاعاتك."
-],
-[
+    "وينعم لنا بمغفرة خطايانا لنفوز برحمة بشفاعاتك.",
+  ],
+  [
     Prefix.psalmody + "Part11&C=SubTitle",
     "",
     "11ème Partie",
     "",
-    "القطعة الحادية عشر"
-],
-[
-    Prefix.same + "&C=NoActor",
+    "القطعة الحادية عشر",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲣⲁⲛ ⲛⲓⲃⲉⲛ ⲉⲧϭⲟⲥⲓ : ⲛ̀ⲧⲉ ⲛⲓⲁⲥⲱⲙⲁⲧⲟⲥ : ⲛⲓⲁ̀ⲛⲁⲛϣⲟ ⲛ̀ⲁⲅⲅⲉⲗⲟⲥ : ⲛⲉⲙ ⲁⲣⲭⲏⲁⲅⲅⲉⲗⲟⲥ.",
     "Tous les noms élevés♫ Des êtres incorporels♫ Que sont les milliers d’anges♫ Ainsi que les archanges.",
     "",
-    "كل الأسماء العالية التي لغير المتجسدين الوف الملائكة ورؤساء الملائكة."
-],
-[
-    Prefix.same + "&C=NoActor",
-    "Ⲙ̀ⲡⲟⲩ̀ϣⲫⲟϩ ⲉ̀ⲡ̀ϭⲓⲥⲓ : ⲛ̀ⲧⲉ ⲛⲉⲙⲁⲕⲁⲣⲓⲥⲙⲟⲥ : ⲱ̀ ⲑⲏⲉⲧϫⲟⲗϩ ⲙ̀ⲡⲓⲱ̀ⲟⲩ : ⲛ̀ⲧⲉ Ⲡ⳪ ⲥⲁⲃⲁⲱⲑ.",
+    "كل الأسماء العالية التي لغير المتجسدين الوف الملائكة ورؤساء الملائكة.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲙ̀ⲡⲟⲩ̀ϣⲫⲟϩ ⲉ̀ⲡ̀ϭⲓⲥⲓ : ⲛ̀ⲧⲉ ⲛⲉⲙⲁⲕⲁⲣⲓⲥⲙⲟⲥ : ⲱ̀ ⲑⲏⲉⲧϫⲟⲗϩ ⲙ̀ⲡⲓⲱ̀ⲟⲩ : ⲛ̀ⲧⲉ Ⲡ̀⳪ ⲥⲁⲃⲁⲱⲑ.",
     "Ils n’ont pas pu atteindre♫ Ta béatitude♫ Toi entourée de gloire♫ Du Seigneur Sabaoth.",
     "",
-    "لم يبلغوا عظمة طوباوياتك أيتها المشتملة بمجد رب الجنود."
-],
-[
-    Prefix.same + "&C=NoActor",
+    "لم يبلغوا عظمة طوباوياتك أيتها المشتملة بمجد رب الجنود.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲧⲉϩⲓⲁⲕⲧⲓⲛ ̀ⲉ̀ⲃⲟⲗ : ⲉ̀ϩⲟⲧⲉ ⲫ̀ⲣⲏ : ⲧⲉⲟⲓ ⲛ̀ⲗⲁⲙⲡ̀ⲣⲟⲥ : ⲉ̀ϩⲟⲧⲉ Ⲛⲓⲭⲉⲣⲟⲩⲃⲓⲙ.",
     "Tu es plus rayonnante♫ Bien plus que le soleil♫ Et plus resplendissante♫ Que les chérubins.",
     "",
-    "أنتِ مضيئة أكثر من الشمس ولامعة أكثر من الشاروبيم."
-],
-[
-    Prefix.same + "&C=NoActor",
+    "أنتِ مضيئة أكثر من الشمس ولامعة أكثر من الشاروبيم.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲛⲉⲙ Ⲛⲓⲥⲉⲣⲁⲫⲓⲙ : ⲛⲁ ⲡⲓⲋ ⲛ̀ⲧⲉⲛϩ : ⲥⲉⲉⲣⲣⲓⲡⲓⲍⲓⲛ ϧⲁϫⲱ : ϧⲉⲛ ⲟⲩⲉ̀ϣ̀ⲗⲏⲗⲟⲩⲓ̀.",
     "Et les séraphins♫ Séraphins aux six ailes♫ Ils les agitent sur toi♫ Avec allégresse.",
     "",
-    "والسارافيم ذوى الستة الأجنحة يرفرفون عليك بتهليل"
-],
-[
+    "والسارافيم ذوى الستة الأجنحة يرفرفون عليك بتهليل",
+  ],
+  [
     Prefix.psalmody + "Part12&C=SubTitle",
     "",
     "12ème Partie",
     "",
-    "القطعة الثانية عشر"
-],
-[
-    Prefix.same + "&C=NoActor",
+    "القطعة الثانية عشر",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲡⲉⲱ̀ⲟⲩ Ⲙⲁⲣⲓⲁ̀ : ϭⲟⲥⲓ ⲉ̀ϩⲟⲧⲉ ⲧ̀ⲫⲉ : ⲧⲉⲧⲁⲓⲏ̀ⲟⲩⲧ ⲉ̀ⲡ̀ⲕⲁϩⲓ : ⲛⲉⲙ ⲛⲏⲉⲧϣⲟⲡ ⲛ̀ϧⲏⲧϥ.",
     "Ta gloire ô Marie♫ A dépassé le ciel♫ Plus noble que la terre♫ Et ses habitants.",
     "",
-    "مجدك يا مريم أرفع من السماء وأنت أكرم من الأرض وسكانها."
-],
-[
-    Prefix.same + "&C=NoActor",
+    "مجدك يا مريم أرفع من السماء وأنت أكرم من الأرض وسكانها.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲛⲑⲟ ⲅⲁⲣ ⲁ̀ⲗⲏⲑⲱⲥ : ⲧⲉ ϯⲥ̀ⲧⲣⲁⲧⲁ ⲙ̀ⲙⲏⲓ : ⲉⲧⲟⲓ ⲙ̀ⲙⲁⲙ̀ⲙⲟϣⲓ : ⲉ̀ⲡ̀ϣⲱⲓ ⲉ̀ⲛⲓⲫⲏⲟⲩⲓ̀.",
     "Tu es en vérité♫ Le chemin véritable♫ Qui nous mène tout droit♫ Là-haut jusqu’aux cieux",
     "",
-    "لأنك أنت بالحقيقة الطريق الحقيقي المؤدى إلى السموات."
-],
-[
-    Prefix.same + "&C=NoActor",
+    "لأنك أنت بالحقيقة الطريق الحقيقي المؤدى إلى السموات.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲁⲣⲉϯϩⲓⲱϯ : ⲙ̀ⲫ̀ⲣⲁϣⲓ ⲛⲉⲙ ⲡ̀ⲑⲉⲗⲏⲗ : ⲁⲣⲉⲙⲟⲣϯ ⲛ̀ⲟⲩϫⲟⲙ : ⲱ̀ ⲧ̀ϣⲉⲣⲓ ⲛ̀Ⲥⲓⲱⲛ.",
     "Et tu as revêtu♫ La joie et l’allégresse♫ Aussi, tu t’es parée♫ De force, fille de Sion.",
     "",
-    "لبست الفرح والتهليل وتمنطقت بالقوة يا ابنة صهيون."
-],
-[
-    Prefix.same + "&C=NoActor",
+    "لبست الفرح والتهليل وتمنطقت بالقوة يا ابنة صهيون.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲱ̀ ⲑⲏⲉⲧⲁⲥϯϩⲓⲱⲧⲥ : ⲛ̀ⲧ̀ϩⲉⲃⲥⲱ ⲛ̀ⲛⲁⲛⲓⲫⲏⲟⲩⲓ̀ :ϣⲁⲛ̀ⲧⲉⲥϩⲱⲃⲥ ⲛ̀Ⲁⲇⲁⲙ : ⲛ̀ⲧ̀ϩⲉⲃⲥⲱ ⲙ̀ⲡⲓϩ̀ⲙⲟⲧ.",
     "Toi qui as revêtu♫ L’habit des êtres célestes♫ Jusqu’à parer Adam♫ Du vêtement de la grâce.",
     "",
-    "يا من لبست لباس السمائيين حتى سترت آدم بلباس النعمة."
-],
-[
-    Prefix.same + "&C=NoActor",
+    "يا من لبست لباس السمائيين حتى سترت آدم بلباس النعمة.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲁⲣⲉⲧⲁⲥⲑⲟϥ ⲛ̀ⲕⲉⲥⲟⲡ : ⲉ̀ⲡⲓⲡⲁⲣⲁⲇⲓⲥⲟⲥ: ⲡ̀ⲧⲟⲡⲟⲥ ⲙ̀ⲡ̀ⲟⲩⲛⲟϥ : ⲫ̀ⲙⲁⲛ̀ϣⲱⲡⲓ ̀ⲛⲛⲓⲇⲓⲕⲉⲟⲥ.",
     "Et tu l’as ramené♫ A nouveau au paradis♫ Le site de la joie♫ Et la demeure des justes.",
     "",
-    "ورددته مرة أخرى إلى الفردوس موضع الفرح ومسكن الصديقين."
-],
-[
+    "ورددته مرة أخرى إلى الفردوس موضع الفرح ومسكن الصديقين.",
+  ],
+  [
     Prefix.psalmody + "Part13&C=SubTitle",
     "",
     "13ème Partie",
     "",
-    "القطعة الثالثة عشر"
-],
-[
-    Prefix.same + "&C=NoActor",
+    "القطعة الثالثة عشر",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲟⲩⲥ̀ⲕⲏⲛⲏ ⲙ̀ⲙⲏⲓ : ⲧⲉ Ⲙⲁⲣⲓⲁ̀ ϯⲡⲁⲣⲑⲉⲛⲟⲥ : ⲉⲩⲭⲏ ϧⲉⲛ ⲧⲉⲥⲙⲏϯ: ⲛ̀ϫⲉ ⲛⲓⲙⲉⲧⲙⲉⲑⲣⲉⲩ ⲉ̀ⲧⲉⲛϩⲟⲧ.",
     "Coupole véritable♫ Est la vierge Marie♫ En son sein sont placés♫ Tous les vrais témoignages.",
     "",
-    "قُبة حقيقية هي مريم العذراء موضوع في وسطها الشهادات الصادقة."
-],
-[
-    Prefix.same + "&C=NoActor",
+    "قُبة حقيقية هي مريم العذراء موضوع في وسطها الشهادات الصادقة.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ϯⲕⲓⲃⲱⲧⲟⲥ ⲛ̀ⲁⲧⲑⲱⲗⲉⲃ : ⲉⲧⲟϣϫ ⲛ̀ⲛⲟⲩⲃ ⲛ̀ⲥⲁⲥⲁ ⲛⲓⲃⲉⲛ : ⲛⲉⲙ ⲡⲓⲓ̀ⲗⲁⲥⲧⲏⲣⲓⲟⲛ : ⲛ̀Ⲭⲉⲣⲟⲩⲃⲓⲙⲓⲕⲟⲛ.",
     "C’est l’arche non souillée♫ D’or, toute revêtue♫ Et au-dessus était♫ Le couvercle angélique.",
     "",
-    "التابوت غير الدنس المصفح بالذهب من كل ناحية والغطاء الكاروبي."
-],
-[
-    Prefix.same + "&C=NoActor",
+    "التابوت غير الدنس المصفح بالذهب من كل ناحية والغطاء الكاروبي.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲡⲓⲥ̀ⲧⲁⲙⲛⲟⲥ ⲛ̀ⲛⲟⲩⲃ : ⲉ̀ⲣⲉ ⲡⲓⲙⲁⲛⲛⲁ ϩⲏⲡ ⲛ̀ϧⲏⲧϥ : ⲓⲥ Ⲡⲓⲗⲟⲅⲟⲥ ⲛ̀ⲧⲉ Ⲫ̀ⲓⲱⲧ : ⲓ̀ ⲁϥϭⲓⲥⲁⲣⲝ ⲛ̀ϧⲏϯ.",
     "L’urne en or où est♫ Cachée la manne, c’est♫ Le verbe du Père qui vint♫ Et s’incarna de toi",
     "",
-    "القسط الذهب المُخْفَى فيه المن هوذا كلمة الآب أتى وتجسد منك."
-],
-[
-    Prefix.same + "&C=NoActor",
+    "القسط الذهب المُخْفَى فيه المن هوذا كلمة الآب أتى وتجسد منك.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ϯⲗⲩⲭⲛⲓⲁ̀ ⲛ̀ⲛⲟⲩⲃ : ⲉⲧϥⲁⲓ ϧⲁ ⲡⲓⲟⲩⲱⲓⲛⲓ ⲙ̀ⲙⲏⲓ : ⲉ̀ⲧⲉ ⲫ̀ⲟⲩⲱⲓⲛⲓ ⲙⲡⲓⲕⲟⲥⲙⲟⲥ : ⲡⲓⲁⲧϣ̀ϧⲱⲛⲧ ⲉ̀ⲣⲟϥ.",
     "Le candélabre en or♫ Portant la vraie lumière, ♫ Qui est lumière du monde♫ Ne peut être approchée.",
     "",
-    "المنارة الذهبية الحاملة النور الحقيقي الذى هو نور العالم الذى لا يُدنى منه."
-],
-[
-    Prefix.same + "&C=NoActor",
+    "المنارة الذهبية الحاملة النور الحقيقي الذى هو نور العالم الذى لا يُدنى منه.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ϯϣⲟⲩⲣⲏ ⲛ̀ⲛⲟⲩⲃ : ⲉⲧϥⲁⲓ ϧⲁ ⲡⲓϫⲉⲃⲥ ⲛ̀ⲭ̀ⲣⲱⲙ : ⲛⲉⲙ ⲡⲓⲥ̀ⲑⲟⲓⲛⲟⲩϥⲓ ⲉⲧⲥⲱⲧⲡ : ⲛ̀ⲁ̀ⲣⲱⲙⲁⲧⲁ.",
     "L’encensoir en or♫ Portant la braise de feu♫ Et l’encens choisi♫ Au si doux arôme.",
     "",
-    "المجمرة الذهبية الحاملة جمر النار والبخور المختار العنبري."
-],
-[
-    Prefix.same + "&C=NoActor",
+    "المجمرة الذهبية الحاملة جمر النار والبخور المختار العنبري.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲡⲓϣ̀ⲃⲱⲧ ⲛ̀ⲧⲉ Ⲁⲁⲣⲱⲛ : ⲉ̀ⲧⲁϥⲫⲓⲣⲓ ̀ⲉ̀ⲃⲟⲗ : ⲛⲉⲙ ϯϩⲣⲏⲣⲓ ⲉⲑⲟⲩⲁⲃ : ⲛ̀ⲧⲉ ⲡⲓⲥ̀ⲑⲟⲓⲛⲟⲩϥⲓ.",
     "Le bâton d’Aaron♫ Bâton qui a fleuri♫ Et la sainte fleur♫ Celle de l’encens.",
     "",
-    "عصا هارون التي أزهرت والزهرة المقدسة التي للبخور."
-],
-[
-    Prefix.same + "&C=NoActor",
+    "عصا هارون التي أزهرت والزهرة المقدسة التي للبخور.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲛⲁⲓ ⲧⲏⲣⲟⲩ ⲉⲩⲥⲟⲡ : ⲥⲉⲉⲣⲥⲩⲙⲙⲉⲛⲓⲛ ⲛⲁⲛ : ⲙ̀ⲡⲉϫⲓⲛⲙⲓⲥⲓ ⲛ̀ϣ̀ⲫⲏⲣⲓ : ⲱ̀ Ⲙⲁⲣⲓⲁ̀ ϯⲡⲁⲣⲑⲉⲛⲟⲥ.",
     "Tout cela ensemble♫ Nous a indiqué♫ Ta merveilleuse naissance♫ Ô Vierge Marie.",
     "",
-    "هذه جميعها معاً تَدُلنا على ولادتك العجيبة يا مريم العذراء."
-],
-[
+    "هذه جميعها معاً تَدُلنا على ولادتك العجيبة يا مريم العذراء.",
+  ],
+  [
     Prefix.psalmody + "Part14&C=SubTitle",
     "",
     "14ème Partie",
     "",
-    "القطعة الرابعة عشر"
-],
-[
-    Prefix.same + "&C=NoActor",
+    "القطعة الرابعة عشر",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲁⲕⲥⲟⲗⲥⲉⲗ ⲛ̀ⲛⲉⲛⲯⲩⲭⲏ : ⲱ̀ Ⲙⲱⲩ̀ⲥⲏⲥ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ : ϧⲉⲛ ⲡ̀ⲧⲁⲓⲟ ⲛ̀ϯⲥ̀ⲕⲏⲛⲏ : ⲉⲧⲁⲕⲥⲉⲗⲥⲱⲗⲥ ̀ⲉ̀ⲃⲟⲗ.",
     "Tu as émerveillé♫ Nos âmes, prophète Moïse♫ Par la splendeur de la♫ Tente que tu as ornée.",
     "",
-    "زينتَ نفوسنا يا موسى النبي بكرامة القبة التي زينتها"
-],
-[
-    Prefix.same + "&C=NoActor",
+    "زينتَ نفوسنا يا موسى النبي بكرامة القبة التي زينتها",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ϯⲥ̀ⲕⲏⲛⲏ ⲛ̀ϩⲟⲩⲓ̀ϯ : ⲉ̀ⲧⲁ Ⲙⲱⲩ̀ⲥⲏⲥ ⲑⲁⲙⲓⲟⲥ : ⲛ̀ⲟⲩⲙⲁⲛ̀ⲭⲁⲛⲟⲃⲓ ̀ⲉ̀ⲃⲟⲗ : ⲛ̀ⲧⲉ ⲛⲉⲛϣⲏⲣⲓ :  ⲙ̀Ⲡⲓⲥⲣⲁⲏⲗ.",
     "La première tente♫ Que Moïse dressa comme lieu♫ Du pardon des péchés♫ Des enfants d’Israël.",
     "",
-    "القبة الاولى التي صنعها موسى موضع مغفرة خطايا بنى إسرائيل."
-],
-[
-    Prefix.same + "&C=NoActor",
+    "القبة الاولى التي صنعها موسى موضع مغفرة خطايا بنى إسرائيل.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲁϥⲑⲁⲙⲓⲟⲥ ϧⲉⲛ ⲟⲩⲱ̀ⲟⲩ : ⲕⲁⲧⲁ ⲡ̀ⲥⲁϫⲓ ⲙ̀Ⲡⲟ̅ⲥ̅ : ⲛⲉⲙ ⲕⲁⲧⲁ ⲛⲓⲧⲩⲡⲟⲥ ⲧⲏⲣⲟⲩ : ⲉ̀ⲧⲁϥⲧⲁⲙⲟϥ :  ⲉ̀ⲣⲱⲟⲩ.",
     "La fit avec splendeur♫ Comme le Seigneur l’a dit♫ Selon tous les modèles♫ Qu’Il lui a révélés.",
     "",
-    "صنعها بمجد كقول الرب وكجميع المُثُل التي أعلمه بها."
-],
-[
-    Prefix.same + "&C=NoActor",
+    "صنعها بمجد كقول الرب وكجميع المُثُل التي أعلمه بها.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲟⲩⲟⲛ ⲟⲩⲕⲓⲃⲱⲧⲟⲥ : ⲭⲏ ϧⲉⲛ ϯⲥ̀ⲕⲏⲛⲏ : ⲉⲥⲗⲁⲗⲏⲟⲩⲧ ⲛ̀ⲛⲟⲩⲃ : ⲥⲁϧⲟⲩⲛ ⲛⲉⲙ ⲥⲁⲃⲟⲗ.",
     "La tente contenait♫ Une arche qui était♫ Toute recouverte d’or♫ Dedans comme dehors.",
     "",
-    "كان في القبة تابوت مصفح بالذهب من داخل ومن خارج."
-],
-[
-    Prefix.same + "&C=NoActor",
+    "كان في القبة تابوت مصفح بالذهب من داخل ومن خارج.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲟⲩⲟⲛ ⲟⲩⲓ̀ⲗⲁⲥⲧⲏⲣⲓⲟⲛ : ⲭⲏ ϧⲉⲛ ϯⲥ̀ⲕⲏⲛⲏ : ϩⲁⲛⲭⲉⲣⲟⲩⲃⲓⲙ ⲛ̀ⲛⲟⲩⲃ : ⲥⲉⲉⲣϧⲏⲓⲃⲓ ⲉ̀ϫⲱϥ.",
     "La tente contenait♫ Un propitiatoire♫ Des Chérubins en or ♫ Le couvraient de leur ombre.",
     "",
-    "كان في القبة غطاء وكاروبا ذهب يظللان عليه"
-],
-[
-    Prefix.same + "&C=NoActor",
+    "كان في القبة غطاء وكاروبا ذهب يظللان عليه",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲟⲩⲟⲛ ⲟⲩⲥ̀ⲧⲁⲙⲛⲟⲥ :  ⲛ̀ⲛⲟⲩⲃ : ⲭⲏ ϧⲉⲛ ϯⲥ̀ⲕⲏⲛⲏ : ⲉ̀ⲣⲉ ⲟⲩϣⲓⲙ̀ⲙⲁⲛⲛⲁ ϩⲏⲡ : ⲛ̀ϧ̀ⲣⲏⲓ ⲛ̀ϧⲏⲧϥ.",
     "La tente contenait♫ Une urne toute en or♫ Et une ration de manne♫ Qui y était cachée.",
     "",
-    "كان في القبة قسط ذهبي وكيل مَنِ مخفى فيه."
-],
-[
-    Prefix.same + "&C=NoActor",
+    "كان في القبة قسط ذهبي وكيل مَنِ مخفى فيه.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲟⲩⲟⲛ ⲟⲩⲗⲩⲭⲛⲓⲁ̀ ⲛ̀ⲛⲟⲩⲃ : ⲭⲏ ϧⲉⲛ ϯⲥ̀ⲕⲏⲛⲏ : ⲉ̀ⲣⲉ ⲡⲓϣⲁϣϥ ⲛ̀ϧⲏⲃⲥ : ⲉ̀ⲣⲟⲩⲱⲓⲛⲓ ⲉ̀ϫⲱⲥ.",
     "La tente contenait♫ Un candélabre d’or♫ Et il y avait sept lampes♫ Qui l’illuminaient.",
     "",
-    "كان في القبة منارة من ذهب وسبعة سُرج تضئ عليها"
-],
-[
-    Prefix.same + "&C=NoActor",
+    "كان في القبة منارة من ذهب وسبعة سُرج تضئ عليها",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲟⲩⲟⲛ ⲟⲩϣⲟⲩⲣⲏ :  ⲛ̀ⲛⲟⲩⲃ : ⲭⲏ ϧⲉⲛ ϯⲥ̀ⲕⲏⲛⲏ : ⲉ̀ⲣⲉ ⲡⲓⲕⲩⲛⲁⲙⲱⲛⲟⲛ : ⲉⲧⲥⲱⲧⲡ ϧⲉⲛ ⲧⲉⲥⲙⲏϯ.",
     "La tente contenait♫ Un encensoir en or♫ En son milieu était♫ Le cinnamome choisi",
     "",
-    "كان في القبة مجمرة من ذهب والعود المختار في وسطه.ا"
-],
-[
-    Prefix.same + "&C=NoActor",
+    "كان في القبة مجمرة من ذهب والعود المختار في وسطه.ا",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲟⲩⲟⲛ ⲟⲩϩ̀ⲣⲏⲣⲓ :  ⲛ̀ⲥ̀ⲑⲟⲓⲛⲟⲩϥⲓ : ⲭⲏ ϧⲉⲛ ϯⲥ̀ⲕⲏⲛⲏ :  ⲉⲩϣⲱⲗⲉⲙ :  ⲉ̀ⲣⲟⲥ ⲧⲏⲣⲟⲩ :ⲛ̀ϫⲉ ⲛⲁ ⲡ̀ⲏⲓ ⲙ̀Ⲡⲓⲥⲣⲁⲏⲗ",
     "La tente contenait♫ Une fleur pour l’encens♫ La maison d’Israël♫ Respirait son parfum.",
     "",
-    "كان في القبة زهرة بخور يستنشق رائحتها جميع آل بيت إسرائيل."
-],
-[
-    Prefix.same + "&C=NoActor",
+    "كان في القبة زهرة بخور يستنشق رائحتها جميع آل بيت إسرائيل.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲟⲩⲟⲛ ⲟⲩϣ̀ⲃⲱⲧ ⲛ̀ⲧⲉ Ⲁⲁⲣⲱⲛ : ⲭⲏ ϧⲉⲛ ϯⲥ̀ⲕⲏⲛⲏ : ⲫⲁⲓ ⲉⲧⲁϥⲫⲓⲣⲓ ̀ⲉ̀ⲃⲟⲗ : ⲭⲱⲣⲓⲥ ϭⲟ ⲛⲉⲙ ⲧ̀ⲥⲟ.",
     "La tente contenait♫ Le bâton d’Aaron♫ Fleurit sans être planté♫ Et sans être arrosé.",
     "",
-    "كان في القبة عصا هارون هذه التي أزهرت بغير غرس ولا سقي."
-],
-[
-    Prefix.same + "&C=NoActor",
+    "كان في القبة عصا هارون هذه التي أزهرت بغير غرس ولا سقي.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲟⲩⲟⲛ ⲟⲩⲧ̀ⲣⲁⲡⲉⲍⲁ :  ⲛ̀ⲛⲟⲩⲃ : ⲭⲏ ϧⲉⲛ ϯⲥ̀ⲕⲏⲛⲏ : ⲡ̀ⲱⲓⲕ :  ⲛ̀ϯⲡ̀ⲣⲟⲑⲉⲥⲓⲥ: ⲭⲏ ⲉ̀ϩ̀ⲣⲏⲓ  : ⲉ̀ϫⲱⲥ.",
     "La tente contenait♫ Une table toute en or♫ Et sur elle se trouvait♫ Le pain de l’offrande.",
     "",
-    "كان في القبة مائدة ذهبية وخبز التقدمة موضوعًا عليها."
-],
-[
-    Prefix.same + "&C=NoActor",
+    "كان في القبة مائدة ذهبية وخبز التقدمة موضوعًا عليها.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲟⲩⲟⲛ ⲟⲩⲁⲣⲭⲏⲉ̀ⲣⲉⲩⲥ : ⲭⲏ ϧⲉⲛ ϯⲥ̀ⲕⲏⲛⲏ : ⲉϥⲉⲛ ϣⲟⲩϣⲱⲟⲩϣⲓ :  ⲉ̀ⲡ̀ϣⲱⲓ : ⲉ̀ϫⲉⲛ ⲛⲓⲛⲟⲃⲓ ⲛ̀ⲧⲉ ⲡⲓⲗⲁⲟⲥ.",
     "La tente contenait♫ Un grand-prêtre qui♫ Offrait le sacrifice♫ Pour les péchés du peuple.",
     "",
-    "كان في القبة رئيس كهنة يُصعد الذبائح عن خطايا الشعب."
-],
-[
-    Prefix.same + "&C=NoActor",
+    "كان في القبة رئيس كهنة يُصعد الذبائح عن خطايا الشعب.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲁϥϣⲁⲛϣⲱⲗⲉⲙ ⲉ̀ⲣⲟϥ : ⲛ̀ϫⲉ Ⲡⲓⲡⲁⲛⲧⲟⲕⲣⲁⲧⲱⲣ : ϣⲁϥⲱ̀ⲗⲓ ⲙ̀ⲙⲁⲩ : ⲛ̀ⲛⲓⲛⲟⲃⲓ ⲛ̀ⲧⲉ ⲡⲓⲗⲁⲟⲥ.",
     "Lorsque le Tout-Puissant♫ En respirait l’odeur♫ Il ôtait en ce lieu♫ Les péchés du peuple.",
     "",
-    "إذا اشتم رائحتها ضابط الكل يرفع هناك خطايا الشعب."
-],
-[
-    Prefix.same + "&C=NoActor",
+    "إذا اشتم رائحتها ضابط الكل يرفع هناك خطايا الشعب.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲉ̀ⲃⲟⲗϩⲓⲧⲉⲛ Ⲙⲁⲣⲓⲁ̀ : ⲧ̀ϣⲉⲣⲓ ⲛ̀Ⲓⲱⲁ̀ⲕⲓⲙ : ⲁⲛⲥⲟⲩⲉⲛ ⲡⲓϣⲟⲩϣⲱⲟⲩϣⲓ :  ⲙ̀ⲙⲏⲓ : ⲛ̀ⲭⲁⲛⲟⲃⲓ ̀ⲉ̀ⲃⲟⲗ.",
     "Par Marie, fille de Joachim♫ Nous avons connu♫ Le vrai sacrifice♫ Pour le pardon des péchés.",
     "",
-    "من قبل مريم ابنة يواقيم عرفنا الذبيحة الحقيقية لمغفرة الخطايا."
-],
-[
+    "من قبل مريم ابنة يواقيم عرفنا الذبيحة الحقيقية لمغفرة الخطايا.",
+  ],
+  [
     Prefix.psalmody + "Part15&C=SubTitle",
     "",
     "15ème Partie",
     "",
-    "القطعة الخامسة عشر"
-],
-[
-    Prefix.same + "&C=NoActor",
+    "القطعة الخامسة عشر",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲛⲓⲙ ⲡⲉⲑⲛⲁϣ̀ⲥⲁϫⲓ : ⲙ̀ⲡ̀ⲧⲁⲓⲟ ⲛ̀ϯⲥ̀ⲕⲏⲛⲏ : ⲉⲧⲁϥⲥⲉⲗⲥⲱⲗⲥ ̀ⲉ̀ⲃⲟⲗ : ⲛ̀ϫⲉ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ.",
     "Qui pourra décrire♫ Toute la splendeur♫ La splendeur de la tente♫ Qu’a ornée le prophète.",
     "",
-    "مَن يقدر أن يصف كرامة القبة التي زينها النبي."
-],
-[
-    Prefix.same + "&C=NoActor",
+    "مَن يقدر أن يصف كرامة القبة التي زينها النبي.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲉⲧⲁⲩⲛⲁⲩ ⲉ̀ⲣⲟⲥ : ⲛ̀ϫⲉ ⲛⲓⲥⲱⲧⲡ ⲛ̀ⲥⲁϧ : ⲛ̀ⲧⲉ ⲛⲓⲅ̀ⲣⲁⲫⲏ ⲉ̅ⲑ̅ⲩ̅ : ⲁⲩϭⲓϣ̀ⲫⲏⲣⲓ ⲉ̀ⲙⲁϣⲱ.",
     "Et quand les sages, versés♫ Dans les Saintes Écritures♫ L’ont contemplée, ils furent♫ Grandement émerveillés.",
     "",
-    "لما رآها المعلمون المختارون للكتب المقدسة تعجبوا جداً."
-],
-[
-    Prefix.same + "&C=NoActor",
+    "لما رآها المعلمون المختارون للكتب المقدسة تعجبوا جداً.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲁⲩⲙⲟⲕⲙⲉⲕ ̀ⲉ̀ⲃⲟⲗ : ϧⲉⲛ ⲡⲟⲩⲕⲁϯ ⲉⲧϣⲟⲙ : ⲁⲩⲉⲣⲙⲏⲛⲉⲩⲓⲛ ⲙ̀ⲙⲟⲥ : ϧⲉⲛ ⲛⲓⲅ̀ⲣⲁⲫⲏ ⲉ̅ⲑ̅ⲩ̅.",
     "Ils y ont réfléchi♫ Dans leur intelligence♫ Et l’ont interprétée♫ Par les Saintes Écritures.",
     "",
-    "وفكروا بفهمهم السامي وفسروها من الكتب المقدسة."
-],
-[
-    Prefix.same + "&C=NoActor",
-    "Ⲁⲩⲙⲟⲩϯ ⲉ̀Ⲙⲁⲣⲓⲁ̀ : ⲧ̀ϣⲉⲣⲓ ⲛ̀Ⲓⲱⲁⲕⲓⲙ : ϫⲉ ϯⲥ̀ⲕⲏⲛⲏ ⲙ̀ⲙⲏⲓ : ⲛ̀ⲧⲉ Ⲡ⳪ ⲥⲁⲃⲁⲱⲑ.",
+    "وفكروا بفهمهم السامي وفسروها من الكتب المقدسة.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲁⲩⲙⲟⲩϯ ⲉ̀Ⲙⲁⲣⲓⲁ̀ : ⲧ̀ϣⲉⲣⲓ ⲛ̀Ⲓⲱⲁⲕⲓⲙ : ϫⲉ ϯⲥ̀ⲕⲏⲛⲏ ⲙ̀ⲙⲏⲓ : ⲛ̀ⲧⲉ Ⲡ̀⳪ ⲥⲁⲃⲁⲱⲑ.",
     "Ils ont appelé Marie♫ La fille de Joachim♫ La Tente véritable♫ Du Seigneur Sabaoth.",
     "",
-    "ودعوا مريم ابنة يواقيم القبة الحقيقية التي لرب الجنود."
-],
-[
-    Prefix.same + "&C=NoActor",
+    "ودعوا مريم ابنة يواقيم القبة الحقيقية التي لرب الجنود.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲁⲩⲉⲛ ϯⲕⲓⲃⲱⲧⲟⲥ : ϩⲓϫⲉⲛ ϯⲡⲁⲣⲑⲉⲛⲟⲥ : ⲡⲉⲥⲕⲉⲛⲟⲩⲃ ⲉⲧⲥⲱⲧⲡ : ϩⲓϫⲉⲛ ⲡⲉⲥⲧⲟⲩⲃⲟ.",
     "Ils ont comparé♫ L’arche à la Vierge♫ Et son or choisi♫ A sa pureté.",
     "",
-    "شبهوا التابوت بالعذراء وذهبه المختار بطهارتها."
-],
-[
-    Prefix.same + "&C=NoActor",
+    "شبهوا التابوت بالعذراء وذهبه المختار بطهارتها.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲁⲩⲉⲛ ⲡⲓⲓ̀ⲗⲁⲥⲧⲏⲣⲓⲟⲛ : ϩⲓϫⲉⲛ ϯⲡⲁⲣⲑⲉⲛⲟⲥ : ⲓⲥ Ⲛⲓⲭⲉⲣⲟⲩⲃⲓⲙ ⲛ̀ⲧⲉ ⲡ̀ⲱ̀ⲟⲩ : ⲥⲉⲉⲣϧⲏⲓⲃⲓ ⲉ̀ϫⲱⲥ.",
     "Et ils ont comparé♫ Le couvercle à la Vierge♫ Les Chérubins de gloire♫ La couvrent de leur ombre.",
     "",
-    "شبهوا الغطاء بالعذراء وكاروبا المجد يُظللان عليها."
-],
-[
-    Prefix.same + "&C=NoActor",
+    "شبهوا الغطاء بالعذراء وكاروبا المجد يُظللان عليها.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲁⲩⲉⲛ ⲡⲓⲥ̀ⲧⲁⲙⲛⲟⲥ :  ⲛ̀ⲛⲟⲩⲃ : ϩⲓϫⲉⲛ ϯⲡⲁⲣⲑⲉⲛⲟⲥ : ⲡⲉϥⲕⲉϣⲓ :  ⲙ̀ⲙⲁⲛⲛⲁ : ϩⲓϫⲉⲛ Ⲡⲉⲛⲥⲱⲧⲏⲣ.",
     "Et ils ont comparé♫ L’urne d’or à la Vierge♫ Et la ration de manne♫ A notre Sauveur.",
     "",
-    "شبهوا القسط الذهبي بالعذراء وكيلة المن بمخلصنا."
-],
-[
-    Prefix.same + "&C=NoActor",
+    "شبهوا القسط الذهبي بالعذراء وكيلة المن بمخلصنا.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲁⲩⲉⲛ ϯⲗⲩⲭⲛⲓⲁ̀ :  ⲛ̀ⲛⲟⲩⲃ : ϩⲓϫⲉⲛ ϯⲉⲕⲕ̀ⲗⲏⲥⲓⲁ̀ : ⲡⲉⲥⲕⲉϣⲁϣϥ ⲛ̀ϧⲏⲃⲥ : ϩⲓϫⲉⲛ ⲡⲓϣⲁϣϥ :  ⲛ̀ⲧⲁⲅⲙⲁ",
     "Le candélabre fut♫ Comparé à l’Église♫ Et aussi les sept lampes♫ Sont comme les sept degrés.",
     "",
-    "شبهوا المنارة الذهبية بالكنيسة وسُرُجها السبعة بالسبع طغمات."
-],
-[
-    Prefix.same + "&C=NoActor",
+    "شبهوا المنارة الذهبية بالكنيسة وسُرُجها السبعة بالسبع طغمات.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲁⲩⲉⲛ ϯϣⲟⲩⲣⲏ ⲛ̀ⲛⲟⲩⲃ : ϩⲓϫⲉⲛ ϯⲡⲁⲣⲑⲉⲛⲟⲥ : ⲡⲉⲥⲕⲩⲛⲁⲙⲱⲛⲟⲛ : ϩⲓϫⲉⲛ Ⲉⲙⲙⲁⲛⲟⲩⲏⲗ.",
     "Et l’encensoir d’or fut♫ Comparé à la Vierge♫ Et le cinnamome♫ A Emmanuel.",
     "",
-    "شبهوا المجمرة الذهبية بالعذراء وعنبرها بعمانوئيل."
-],
-[
-    Prefix.same + "&C=NoActor",
-    " Ⲁⲩⲉⲛ ϯϩ̀ⲣⲏⲣⲓ  : ⲛ̀ⲥ̀ⲑⲟⲓⲛⲟⲩϥⲓ : ϩⲓϫⲉⲛ Ⲙⲁⲣⲓⲁ̀ ϯⲟⲩⲣⲱ : ⲡⲉⲥⲕⲉⲥ̀ⲑⲟⲓⲛⲟⲩϥⲓ ⲉⲧⲥⲱⲧⲡ : ϩⲓϫⲉⲛ ⲧⲉⲥⲡⲁⲣⲑⲉⲛⲓⲁ̀.",
+    "شبهوا المجمرة الذهبية بالعذراء وعنبرها بعمانوئيل.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲁⲩⲉⲛ ϯϩ̀ⲣⲏⲣⲓ  : ⲛ̀ⲥ̀ⲑⲟⲓⲛⲟⲩϥⲓ : ϩⲓϫⲉⲛ Ⲙⲁⲣⲓⲁ̀ ϯⲟⲩⲣⲱ : ⲡⲉⲥⲕⲉⲥ̀ⲑⲟⲓⲛⲟⲩϥⲓ ⲉⲧⲥⲱⲧⲡ : ϩⲓϫⲉⲛ ⲧⲉⲥⲡⲁⲣⲑⲉⲛⲓⲁ̀.",
     "Et la fleur parfumée♫ Comme  Marie la Reine♫ Et son parfum choisi♫ Comme sa virginité.",
     "",
-    "شبهوا زهرة البخور بمريم الملكة وبخورها المختار ببتوليتها."
-],
-[
-    Prefix.same + "&C=NoActor",
-    "Ⲁⲩⲉⲛ ⲡⲓϣ̀ⲃⲱⲧ ⲛ̀ⲧⲉ Ⲁⲁ̀ⲣⲱⲛ : ϩⲓϫⲉⲛ ⲡ̀ϣⲉ :  ⲛ̀ⲧⲉ ⲡⲓⲥ̀ⲧⲁⲩⲣⲟⲥ : ⲉ̀ⲧⲁⲩⲉϣ Ⲡⲁ�⳪ ⲉ̀ⲣⲟϥ : ϣⲁⲛ̀ⲧⲉϥⲥⲱϯ ⲙ̀ⲙⲟⲛ.",
+    "شبهوا زهرة البخور بمريم الملكة وبخورها المختار ببتوليتها.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲁⲩⲉⲛ ⲡⲓϣ̀ⲃⲱⲧ ⲛ̀ⲧⲉ Ⲁⲁ̀ⲣⲱⲛ : ϩⲓϫⲉⲛ ⲡ̀ϣⲉ :  ⲛ̀ⲧⲉ ⲡⲓⲥ̀ⲧⲁⲩⲣⲟⲥ : ⲉ̀ⲧⲁⲩⲉϣ Ⲡⲁ⳪ ⲉ̀ⲣⲟϥ : ϣⲁⲛ̀ⲧⲉϥⲥⲱϯ ⲙ̀ⲙⲟⲛ.",
     "Et le bâton d’Aaron♫ Comme le bois de la Croix♫ Sur lequel mon Seigneur♫ Fut cloué pour nous sauver.",
     "",
-    "شبهوا عصا هارون بخشبة الصليب التي صُلب ربي عليها حتى خلصنا."
-],
-[
-    Prefix.same + "&C=NoActor",
+    "شبهوا عصا هارون بخشبة الصليب التي صُلب ربي عليها حتى خلصنا.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲁⲩⲉⲛ ϯⲧ̀ⲣⲁⲡⲉⲍⲁ : ⲛ̀ⲛⲟⲩⲃ : ϩⲓϫⲉⲛ ⲡⲓⲙⲁⲛⲉⲣϣⲱⲟⲩϣⲓ : ⲡ̀ⲱⲓⲕ ⲛ̀ϯⲡ̀ⲣⲟⲑⲉⲥⲓⲥ : ϩⲓϫⲉⲛ ⲡ̀ⲥⲱⲙⲁ ⲙ̀Ⲡⲟ̅ⲥ̅.",
     "Ils comparèrent la table♫ Toute en or à l’autel♫ Et le pain de l’offrande♫ Au corps du Seigneur.",
     "",
-    "شبهوا المائدة الذهبية بالمذبح وخبز التقدمة بجسد الرب."
-],
-[
-    "هنا يقال لحن (أفئين بي أرشي إيريفس) ، ثم لحن (أفشوليم) ، ثم لحن (إيفول هيتين) . "
-],
-[
-    Prefix.same + "&C=NoActor",
+    "شبهوا المائدة الذهبية بالمذبح وخبز التقدمة بجسد الرب.",
+  ],
+  [
+    "هنا يقال لحن (أفئين بي أرشي إيريفس) ، ثم لحن (أفشوليم) ، ثم لحن (إيفول هيتين) . ",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲁⲩⲉⲛ ⲡⲓⲁⲣⲭⲏⲉ̀ⲣⲉⲩⲥ : ϩⲓϫⲉⲛ Ⲡⲉⲛⲥ̅ⲱ̅ⲣ̅ : ⲡⲓϣⲟⲩϣⲱⲟⲩϣⲓ ⲙ̀ⲙⲏⲓ : ⲛ̀ⲭⲁⲛⲟⲃⲓ ̀ⲉ̀ⲃⲟⲗ",
     "Ils comparèrent le♫ Grand-prêtre à notre  Sauveur♫ C’est le vrai sacrifice♫ Pour le pardon des péchés.",
     "",
-    "شبهوا رئيس الكهنة بمخلصنا الذبيحة الحقيقية لمغفرة الخطايا."
-],
-[
-    Prefix.same + "&C=NoActor",
+    "شبهوا رئيس الكهنة بمخلصنا الذبيحة الحقيقية لمغفرة الخطايا.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲫⲁⲓ ⲉⲧⲁϥⲉⲛϥ ⲉ̀ⲡ̀ϣⲱⲓ : ⲛ̀ⲟⲩⲑⲩⲥⲓⲁ̀ ⲉⲥϣⲏⲡ : ϩⲓϫⲉⲛ ⲡⲓⲥ̀ⲧⲁⲩⲣⲟⲥ : ϧⲁ ⲡ̀ⲟⲩϫⲁⲓ ⲙ̀ⲡⲉⲛⲅⲉⲛⲟⲥ.",
     "Voici celui qui s’est♫ Elevé, en sacrifice♫ Accepté, sur la croix♫ Pour sauver notre genre.",
     "",
-    "هذا الذى أصعد ذاته ذبيحة مقبولة على الصليب عن خلاص جنسنا."
-],
-[
-    Prefix.same + "&C=NoActor",
+    "هذا الذى أصعد ذاته ذبيحة مقبولة على الصليب عن خلاص جنسنا.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲁϥϣⲱⲗⲉⲙ ⲉ̀ⲣⲟϥ : ⲛ̀ϫⲉ Ⲡⲉϥⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ : ⲙ̀ⲫⲛⲁⲩ ⲛ̀ⲧⲉ ϩⲁⲛⲁ̀ⲣⲟⲩϩⲓ : ϩⲓϫⲉⲛ Ϯⲅⲟⲗⲅⲟⲑⲁ̀.",
     "Et son Père Très-Bon♫ Agréa ce parfum♫ A l’heure du soir♫ Sur le Golgotha.",
     "",
-    "فاشتمه أبوه الصالح وقت المساء على الجلجلة."
-],
-[
-    Prefix.same + "&C=NoActor",
+    "فاشتمه أبوه الصالح وقت المساء على الجلجلة.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲁϥⲟⲩⲱⲛ ⲙ̀ⲫ̀ⲣⲟ : ⲙ̀ⲡⲓⲡⲁⲣⲁⲇⲓⲥⲟⲥ : ⲁϥⲧⲁⲥⲑⲟ ⲛ̀Ⲁⲇⲁⲙ : ⲉ̀ⲧⲉϥⲁⲣⲭⲏ ⲛ̀ⲕⲉⲥⲟⲡ.",
     "Il a ouvert la porte♫ La porte du Paradis♫ Et ramena Adam♫ A son rang premier.",
     "",
-    "فتح باب الفردوس ورد آدم إلى رئاسته مرة أخرى."
-],
-[
-    Prefix.same + "&C=NoActor",
+    "فتح باب الفردوس ورد آدم إلى رئاسته مرة أخرى.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲉⲃⲟⲗϩⲓⲧⲉⲛ Ⲙⲁⲣⲓⲁ̀ : ⲧ̀ϣⲉⲣⲓ ⲛ̀Ⲓⲱⲁ̀ⲕⲓⲙ : ⲁⲛⲥⲟⲩⲉⲛ ⲡⲓϣⲟⲩϣⲱⲟⲩϣⲓ :  ⲙ̀ⲙⲏⲓ : ⲛ̀ⲭⲁⲛⲟⲃⲓ ̀ⲉ̀ⲃⲟⲗ.",
     "Marie, fille de Joachim♫ Par elle, nous connûmes ♫ L’offrande véritable♫ Pour le pardon des péchés",
     "",
-    "من قبل مريم ابنة يواقيم عرفنا الذبيحة الحقيقية لمغفرة الخطايا."
-],
-[
-    Prefix.same + "&C=NoActor",
+    "من قبل مريم ابنة يواقيم عرفنا الذبيحة الحقيقية لمغفرة الخطايا.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
     "Ⲁⲛⲟⲛ ϩⲱⲛ ⲧⲉⲛⲧⲱⲃϩ : ⲉⲑⲣⲉⲛϣⲁϣⲛⲓ ⲉⲩⲛⲁⲓ : ϩⲓⲧⲉⲛ ⲛⲉⲡ̀ⲣⲉⲥⲃⲓⲁ̀ : ⲛ̀ⲧⲟⲧϥ ⲙ̀ⲡⲓⲙⲁⲓⲣⲱⲙⲓ.",
     "Aussi nous demandons♫ D’avoir miséricorde♫ Par tes intercessions♫ Chez l’Ami des hommes.",
     "",
-    "ونحن أيضاً نطلب أن نفوز برحمة بشفاعاتك عند محب البشر."
-]
+    "ونحن أيضاً نطلب أن نفوز برحمة بشفاعاتك عند محب البشر.",
+  ],
 ],
 [
   [
-    Prefix.psalmody + "TheotokyConclusion&D=0&C=Title",
-    "Ϯⲑⲉⲟ̀ⲧⲟⲕⲓⲁ̀ ⲙ̀ⲡ̀ⲉ̀ϩⲟⲟⲩ ⲛ̀Ϯⲕⲩⲡⲓⲁ̀ⲕⲏ : ⲏ̀ⲭⲟⲥ Ⲁⲇⲁⲙ",
-    "Conclusion des Théotokies pour les jours Adam",
+    Prefix.psalmody + "Theotoky&D=3&C=Title",
+    "};e`otoki`a `m`Pi`ftou",
+    "Théotokie Wates du mercredi",
     "",
-    "ختام الثيؤطوكيات الآدام",
+    "ثيؤطوكية واطس ليوم الأربعاء"
+  ],
+
+
+],
+[
+  [
+    Prefix.psalmody + "Theotoky&D=5&C=Title",
+    "Ϯⲑⲉⲟ̀ⲧⲟⲕⲓⲁ̀ ⲙ̀ⲡ̀ⲉ̀ϩⲟⲟⲩ ⲛ̀Ϯⲡⲁⲣⲁⲥⲕⲉⲩⲓ̀",
+    "Théotokie Wates du Vendredi",
+    "",
+    "ثيؤطوكية واطس ليوم الجمعة"
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲉⲥ̀ⲙⲁⲣⲱⲟⲩⲧ ϧⲉⲛ ⲛⲓϩⲓⲟ̀ⲙⲓ : ϥ̀ⲥ̀ⲙⲁⲣⲱⲟⲩⲧ : ⲛ̀ϫⲉ ⲡⲉⲕⲁⲣⲡⲟⲥ : ⲱ̀ Ⲙⲁⲣⲓⲁ̀ ⲑ̀ⲙⲁⲩ ⲙ̀Ⲫ̀ϯ : ϯⲡⲁⲣⲑⲉⲛⲟⲥ ⲛ̀ⲁⲧⲑⲱⲗⲉⲃ",
+    "Tu es bénie entre les femmes♫ Et Il est béni ton Fruit♫ Ô Marie Mère de Dieu♫ Ô toi Vierge sans souillure",
+    "",
+    "مباركة أنتِ فى النساء ومباركة ثمرتكِ يا مريم أم الله العذراء غير الدنسة."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ϫⲉ ⲁϥϣⲁⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗⲛ̀ϧⲏϯ : ⲛ̀ϫⲉ ⲡⲓⲣⲏ ⲛ̀ⲧⲉ ϯⲙⲉⲑⲙⲏⲓ : ⲉ̀ⲣⲉ ⲡⲓⲧⲁⲗϭⲟ ⲭⲏ ϧⲁ ⲛⲉϥⲧⲉⲛϩ : ϫⲉ ⲛ̀ⲑⲟϥ ⲡⲉ ⲡⲓⲣⲉϥⲑⲁⲙⲓⲟ̀.",
+    "Car de toi, Il a brillé♫ Le Soleil de la Justice♫ Sous ses ailes, la guérison ♫ Car Il est le Créateur",
+    "",
+    "لأنه قد أشرقت لنا منكِ شمس البر والشفاء فى جناحيها لأنه الخالق."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲛⲑⲟϥ ⲁϥϭⲓ ⲛ̀ⲛⲏⲉ̀ⲧⲉ ⲛⲟⲩⲛ : ⲁϥϯ ⲛⲁⲛ ⲛ̀ⲛⲏⲉ̀ⲧⲉ ⲛⲟⲩϥ : ⲧⲉϩⲱⲥ ⲉ̀ⲣⲟϥ ⲧⲉⲛϯⲱ̀ⲟⲩ ⲛⲁϥ : ⲧⲉⲛⲉⲣϩⲟⲩⲟ̀ ϭⲓⲥⲓ ⲙ̀ⲙⲟϥ.",
+    "Il prit ce qui est à nous♫ Nous donna ce qui est Sien♫ Louons-Le, glorifions-Le♫ Ajoutons à Sa grandeur",
+    "",
+    "هو أخذ الذي لنا وأعطانا الذي له نسبحه ونمجده ونزيده علواً."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲉⲥ̀ⲙⲁⲣⲱⲟⲩⲧ : ⲉ̀ϩⲟⲧⲉ ⲧ̀ⲫⲉ : ⲧⲉⲧⲁⲓⲏ̀ⲟⲩⲧ ⲉ̀ϩⲟⲧⲉ : ⲡ̀ⲕⲁϩⲓ : ⲧⲉⲥⲁⲡ̀ϣⲱⲓ : ⲙ̀ⲙⲉⲩⲓ̀ ⲛⲓⲃⲉⲛ : ⲛⲓⲙ ⲡⲉⲑⲛⲁϣ̀ⲥⲁϫⲓ ⲉⲡⲉⲧⲁⲓⲟ̀.",
+    "Toi, bénie plus que les cieux♫ Plus honorée que la terre♫ Tu dépassas toute pensée♫ Qui peut décrire ton honneur",
+    "",
+    "مباركة أنتِ أفضل من السماء ومكرمة أفضل من الأرض. أنت فقت كل فكر. مَن يقدر أن يصف كرامتك."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲙⲙⲟⲛ ⲫⲏⲉ̀ⲧⲧⲉⲛⲑⲱⲛⲧ : ⲉ̀ⲣⲟ : ⲱ̀ Ⲙⲁⲣⲓⲁ̀ ϯⲡⲁⲣⲑⲉⲛⲟⲥ : ⲛⲓⲁⲅⲅⲉⲗⲟⲥ ⲥⲉⲧⲁⲓⲟ̀ ⲙ̀ⲙⲟ : Ⲛⲓⲥⲉⲣⲁⲫⲓⲙ ⲥⲉϯⲱ̀ⲟⲩ ⲛⲉ.",
+    "Nulle personne ne te ressemble♫ Ô Marie, ô toi la Vierge♫ Voici, les anges t’honorent♫ Séraphins te glorifient",
+    "",
+    "ليس من يُشبهك يا مريم العذراء الملائكة تكرمك. والسارافيم تُمجدك."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ϫⲉ ⲁ̀ ⲫⲏⲉ̀ⲧ ϩⲓϫⲉⲛ Ⲛⲓⲭⲉⲣⲟⲩⲃⲓⲙ : ⲓ̀ ⲁϥϭⲓⲥⲁⲣⲝ ⲉ̀ⲃⲟⲗⲛ̀ϧⲏϯ : ϣⲁ ⲛ̀ⲧⲉϥϩⲟⲧⲡⲉⲛ ⲉ̀ⲣⲟϥ : ϩⲓⲧⲉⲛ ⲧⲉϥⲙⲉⲧⲁ̀ⲅⲁⲑⲟⲥ.",
+    "Lui que portent les Chérubins♫ Vint et S’incarna de toi♫ Ainsi nous a unifiés♫ A Lui de par Sa bonté",
+    "",
+    "لأن الذي على الشاروبيم أتى وتجسد منك حتى اتحدنا به من قبل صلاحه."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲛⲑⲟϥ ⲁϥϭⲓ ⲛ̀ⲛⲏⲉ̀ⲧⲉ ⲛⲟⲩⲛ : ⲁϥϯ ⲛⲁⲛ ⲛ̀ⲛⲏⲉ̀ⲧⲉ ⲛⲟⲩϥ : ⲧⲉϩⲱⲥ ⲉ̀ⲣⲟϥ ⲧⲉⲛϯⲱ̀ⲟⲩ ⲛⲁϥ : ⲧⲉⲛⲉⲣϩⲟⲩⲟ̀ ϭⲓⲥⲓ ⲙ̀ⲙⲟϥ.",
+    "Il prit ce qui est à nous♫ Nous donna ce qui est Sien♫ Louons-Le, glorifions-Le♫ Ajoutons à Sa grandeur",
+    "",
+    "هو أخذ الذي لنا وأعطانا الذي له نسبحه ونمجده ونزيده علواً."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲉⲥ̀ⲙⲁⲣⲱⲟⲩⲧ ⲛ̀ⲑⲟ Ⲙⲁⲣⲓ̀ⲁ : ϥ̀ⲥ̀ⲙⲁⲣⲱⲟⲩⲧ : ⲛ̀ϫⲉ ⲡⲉⲕⲁⲣⲡⲟⲥ : ⲱ̀ ϯⲡⲁⲣⲑⲉⲛⲟⲥ ⲑ̀ⲙⲁⲩ : ⲙ̀Ⲫ̀ϯ : ⲡ̀ϣⲟⲩϣⲟⲩ ⲛ̀ⲧⲉ ϯⲡⲁⲣⲑⲉⲛⲓⲁ̀.",
+    "Ô Bénie es-tu Marie♫ Et Il est béni ton fruit♫ Ô Vierge Mère de Dieu♫ Fierté de la chasteté",
+    "",
+    "مباركة أنت يا مريم ومباركة ثمرتك. أيتها العذراء أم الله فخر البتولية."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲫⲏⲉ̀ⲧϣⲟⲡ ϧⲁϫⲉⲛ ⲛⲓⲉ̀ⲱⲛ : ⲓ̀ ⲁϥϭⲓⲥⲁⲣⲝ ⲉ̀ⲃⲟⲗ ⲛ̀ϧⲏϯ : ⲡⲓⲁ̀ⲡⲁⲥ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ϩⲟⲟⲩ : ⲁϥⲓ̀ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲧⲉⲙⲏⲧⲣⲁ.",
+    "Existait depuis les siècles♫ Vint et S’incarna de toi♫ Lui qui est l’Ancien des jours♫ Est sorti de tes entrailles",
+    "",
+    "الكائن قبل الدهور أتى وتجسد منكِ. عتيق الأيام خرج من بطنك."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲛ̀ⲑⲟϥ ⲁϥϭⲓ ⲛ̀ⲧⲉⲛⲥⲁⲣⲝ : ⲁϥϯ ⲛⲁⲛ ⲙ̀Ⲡⲉϥⲡ̀ⲛⲉⲩⲙⲁ ⲉ̅ⲑ̅ⲩ̅ : ⲁϥⲁⲓⲧⲉⲛ ⲛ̀ⲟⲩⲁⲓ ⲛⲉⲙⲁϥ : ϩⲓⲧⲉⲛ ⲧⲉϥⲙⲉⲧⲁ̀ⲅⲁⲑⲟⲥ",
+    "Lui qui a pris notre corps♫ Nous donna Son Esprit Saint♫ Et Il nous a rendus un♫ Avec Lui, par Sa bonté",
+    "",
+    "هو أخذ جسدنا وأعطانا روحه القدوس وجعلنا واحداً معه من قبل صلاحه."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲛⲑⲟϥ ⲁϥϭⲓ ⲛ̀ⲛⲏⲉ̀ⲧⲉ ⲛⲟⲩⲛ : ⲁϥϯ ⲛⲁⲛ ⲛ̀ⲛⲏⲉ̀ⲧⲉ ⲛⲟⲩϥ : ⲧⲉϩⲱⲥ ⲉ̀ⲣⲟϥ ⲧⲉⲛϯⲱ̀ⲟⲩ ⲛⲁϥ : ⲧⲉⲛⲉⲣϩⲟⲩⲟ̀ ϭⲓⲥⲓ ⲙ̀ⲙⲟϥ.",
+    "Il prit ce qui est à nous♫ Nous donna ce qui est Sien♫ Louons-Le, glorifions-Le♫ Ajoutons à Sa grandeur",
+    "",
+    "هو أخذ الذي لنا وأعطانا الذي له نسبحه ونمجده ونزيده علواً."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲁⲟⲩⲙⲏϣ ⲛ̀ⲥ̀ϩⲓⲙⲓ ϭⲓⲧⲁⲓⲟ̀ : ⲁⲣⲉϭⲓⲥⲓ ⲛ̀ⲑⲟ : ⲉ̀ϩⲟⲧⲉⲉⲣⲱⲟⲩ ⲧⲏⲣⲟⲩ : ϫⲉ ⲛ̀ⲑⲟ ⲡⲉ ⲡ̀ϣⲟⲩϣⲟⲩ : ⲛ̀ⲛⲓⲡⲁⲣⲑⲉⲛⲟⲥ : ϯⲑⲉⲟ̀ⲧⲟⲕⲟⲥ Ⲙⲁⲣⲓⲁ̀.",
+    "Nombreuses femmes furent honorées♫ Mais toi tu les surpassas♫ Car tu es fierté des vierges♫ Ô Marie Mère de Dieu.",
+    "",
+    "نساء كثيرات نلن كرامات تعاليت أنتِ أكثر من جميعهن. لأنك أنتِ فخر العذارى يا مريم والدة الاله."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ϯⲡⲟⲗⲓⲥ ⲙ̀ⲯⲩⲭⲟⲛ : ⲉ̀ⲧⲁ ⲫⲏⲉⲧϭⲟⲥⲓ ϣⲱⲡⲓ ⲛ̀ϧⲏⲧⲥ : ⲫⲏⲉⲧϩⲉⲙⲥⲓ ⲉ̀ϩ̀ⲣⲏⲓ ϩⲓϫⲉⲛ : ⲡ̀ϩⲁⲣⲙⲁ ⲛ̀ⲛⲓⲭⲉⲣⲟⲩⲃⲓⲙ",
+    "La cité des âmes qui fut♫ Habitée par le Très-Haut♫ Lui qui siège sur les chars♫ Sur les chars des chérubins",
+    "",
+    "المدينة النفسية التي سكن فيها العلى. الجالس على مركبة الشاروبيم."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲛⲓⲥⲉⲣⲁⲫⲓⲙ ⲥⲉϯⲱ̀ⲟⲩ ⲛⲁϥ : ⲁⲣⲉⲧⲁⲗⲟϥ ⲉ̀ϫⲉⲛ ⲛⲉϫ̀ⲫⲟⲓ : ⲫⲏⲉ̀ⲧϯϧ̀ⲣⲉ ⲛ̀ⲥⲁⲣⲝ ⲛⲓⲃⲉⲛ : ϩⲓⲧⲉⲛ ⲧⲉϥⲙⲉⲧϣⲁⲛⲁϩ̀ⲑⲏϥ.",
+    "Séraphins Le glorifient♫ Tu L’as porté dans tes bras♫ C’est Lui qui nourrit toute chair♫ Par Sa grande compassion",
+    "",
+    "والسارافيم يمجدونه حَملته على ذراعيك المعطى طعاماً لكل ذي جسد من قبل رأفته."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲁϥⲁ̀ⲙⲟⲛⲓ ⲛ̀ⲛⲉⲙ̀ⲛⲟϯ : ⲁ̀ⲣⲉϯⲉ̀ⲣⲱϯ ⲉ̀ϧⲟⲩⲛ : ⲉ̀ⲣⲱϥ : ϫⲉ ⲅⲁⲣ ⲛ̀ⲑⲟϥ : ⲡⲉ Ⲡⲉⲛⲛⲟⲩϯ : ⲟⲩⲟϩ Ⲡ̀ⲥⲱⲧⲏⲣ ⲛ̀ⲧⲉ ⲟⲩⲟⲛ ⲛⲓⲃⲉⲛ.",
+    "Il S’approcha de ton sein♫ Ainsi tu L’as allaité♫ Parce qu’Il est notre Dieu♫ Et Il est Sauveur de tous",
+    "",
+    "مسك ثدييكِ وأرضعته اللبن لأنه هو إلهنا ومخلص كل أحد."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲛ̀ⲑⲟϥ ⲡⲉⲑⲛⲁⲁ̀ⲙⲟⲛⲓ : ⲙ̀ⲙⲟⲛ : ϣⲁ ⲉ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲡⲓⲉ̀ⲛⲉϩ : ⲧⲉⲛϩⲱⲥ ⲉ̀ⲣⲟϥ ⲧⲉⲛϯⲱ̀ⲟⲩ ⲛⲁϥ : ⲧⲉⲛⲉⲣϩⲟⲩⲟ̀ ϭⲓⲥⲓ ⲙ̀ⲙⲟϥ.",
+    "C’est Lui qui prend soin de nous♫ Pour toujours, éternellement♫ Louons-Le, glorifions-Le♫ Ajoutons à Sa grandeur",
+    "",
+    "هو يرعانا إلى أبد الأبد نسبحه ونمجده ونزيده علوًا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲛⲑⲟϥ ⲁϥϭⲓ ⲛ̀ⲛⲏⲉ̀ⲧⲉ ⲛⲟⲩⲛ : ⲁϥϯ ⲛⲁⲛ ⲛ̀ⲛⲏⲉ̀ⲧⲉ ⲛⲟⲩϥ : ⲧⲉϩⲱⲥ ⲉ̀ⲣⲟϥ ⲧⲉⲛϯⲱ̀ⲟⲩ ⲛⲁϥ : ⲧⲉⲛⲉⲣϩⲟⲩⲟ̀ ϭⲓⲥⲓ ⲙ̀ⲙⲟϥ.",
+    "Il prit ce qui est à nous♫ Nous donna ce qui est Sien♫ Louons-Le, glorifions-Le♫ Ajoutons à Sa grandeur",
+    "",
+    "هو أخذ الذي لنا وأعطانا الذي له نسبحه ونمجده ونزيده علواً."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ϯⲡⲁⲣⲑⲉⲛⲟⲥ Ⲙⲁⲣⲓⲁⲙ : ϯⲙⲁⲥⲛⲟⲩϯ ⲛ̀ⲥⲁⲃⲏ : ⲡⲓⲕⲩⲡⲟⲥ ⲛ̀ⲧⲉ ⲡⲓⲥ̀ⲑⲟⲓⲛⲟⲩϥⲓ : ϯⲙⲟⲩⲙⲓ : ⲉ̅ⲑ̅ⲩ̅ ⲛ̀ⲧⲉ ⲡⲓⲙⲱⲟⲩ ⲛ̀ⲱⲛϧ.",
+    "Ô Vierge Marie, la sage♫ Ô Marie Mère de Dieu♫ Toi le jardin parfumé♫ Sainte source d’eau de vie",
+    "",
+    "أيتها العذراء مريم والدة الإله الحكيمة. بُستان العطر ينبوع ماء الحياة المقدس."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲁ ⲡⲓⲕⲁⲣⲡⲟⲥ ⲛ̀ⲧⲉ ⲧⲉⲛⲉϫⲓ : ⲁϥⲓ̀ ⲁϥⲥⲱϯ ⲛ̀ϯⲟⲓⲕⲟⲩⲙⲉⲛⲏ : ⲁϥⲃⲉⲗ ϯⲙⲉⲧϫⲁϫⲓ : ⲉ̀ⲃⲟⲗϩⲁⲣⲟⲛ : ⲁϥⲥⲉⲙⲛⲓ ⲛⲁⲛ ⲛ̀ⲧⲉϥϩⲓⲣⲏⲛⲏ.",
+    "Car le Fruit de tes entrailles♫ Est venu, sauva le monde♫ Abolit l’inimitié♫ Et nous accorda Sa paix",
+    "",
+    "ثمرة بطنك أتى وخلص المسكونة ونقض العداوة عنا وقرر لنا سلامه."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲉ̀ⲃⲟⲗϩⲓⲧⲉⲛ ⲡⲉϥⲥ̀ⲧⲁⲩⲣⲟⲥ : ⲛⲉⲙ ⲧⲉϥⲁⲛⲁⲥⲧⲁⲥⲓⲥ ⲉ̅ⲑ̅ⲩ̅ : ⲁϥⲧⲁⲥⲑⲟ ⲙ̀ⲡⲓⲣⲱⲙⲓ : ⲛ̀ⲕⲉⲥⲟⲡ : ⲉ̀ϧⲟⲩⲛ : ⲉ̀ⲡⲓⲡⲁⲣⲁⲇⲓⲥⲟⲥ.",
+    "Car c’est bien de par Sa croix♫ Et Sa sainte résurrection♫ Qu’Il a ramené les hommes♫ A nouveau au paradis",
+    "",
+    "مِن قبل صليبه وقيامته المقدسة رد الإنسان مرة أخرى إلى الفردوس."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲛⲑⲟϥ ⲁϥϭⲓ ⲛ̀ⲛⲏⲉ̀ⲧⲉ ⲛⲟⲩⲛ : ⲁϥϯ ⲛⲁⲛ ⲛ̀ⲛⲏⲉ̀ⲧⲉ ⲛⲟⲩϥ : ⲧⲉϩⲱⲥ ⲉ̀ⲣⲟϥ ⲧⲉⲛϯⲱ̀ⲟⲩ ⲛⲁϥ : ⲧⲉⲛⲉⲣϩⲟⲩⲟ̀ ϭⲓⲥⲓ ⲙ̀ⲙⲟϥ.",
+    "Il prit ce qui est à nous♫ Nous donna ce qui est Sien♫ Louons-Le, glorifions-Le♫ Ajoutons à Sa grandeur",
+    "",
+    "هو أخذ الذي لنا وأعطانا الذي له نسبحه ونمجده ونزيده علواً."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ϯⲡⲁⲣⲑⲉⲛⲟⲥ Ⲙⲁⲣⲓⲁⲙ : ϯⲑⲉⲟ̀ⲧⲟⲕⲟⲥ ⲉ̅ⲑ̅ⲩ̅ : ϯⲡ̀ⲣⲟⲥⲧⲁⲧⲏⲥ ⲉⲧⲉⲛϩⲟⲧ : ⲛ̀ⲧⲉ ⲡ̀ⲅⲉⲛⲟⲥ ⲛ̀ⲧⲉ ϯⲙⲉⲧⲣⲱⲙⲓ.",
+    "Ô Sainte Vierge Marie♫ Ô Marie, Mère de Dieu♫ Ô intercesseur fidèle♫ Pour le genre des humains",
+    "",
+    "أيتها العذراء مريم والده الإله القديسة الشفيعة الأمينة التي لجنس البشر."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲁⲣⲓⲡ̀ⲣⲉⲥⲃⲉⲩⲓⲛ ⲉ̀ϩ̀ⲣⲏⲓ : ⲉ̀ϫⲱⲛ : ⲛⲁϩⲣⲉⲛ Ⲡⲭ̅ⲥ̅ ⲫⲏⲉⲧⲁⲣⲉϫ̀ⲫⲟϥ : ϩⲟⲡⲟⲥ ⲛ̀ⲧⲉϥⲉⲣϩ̀ⲙⲟⲧ ⲛⲁⲛ : ⲙ̀ⲡⲓⲭⲱ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉ ⲛⲉⲛⲛⲟⲃⲓ.",
+    "Intercède pour nous devant♫ Le Christ que tu enfantas ♫ Pour qu’Il nous accorde la♫ Rémission de nos péchés",
+    "",
+    "اشفعي فينا أمام المسيح الذى ولدته لكي يُنعم علينا بمغفرة خطايانا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲛⲑⲟϥ ⲁϥϭⲓ ⲛ̀ⲛⲏⲉ̀ⲧⲉ ⲛⲟⲩⲛ : ⲁϥϯ ⲛⲁⲛ ⲛ̀ⲛⲏⲉ̀ⲧⲉ ⲛⲟⲩϥ : ⲧⲉϩⲱⲥ ⲉ̀ⲣⲟϥ ⲧⲉⲛϯⲱ̀ⲟⲩ ⲛⲁϥ : ⲧⲉⲛⲉⲣϩⲟⲩⲟ̀ ϭⲓⲥⲓ ⲙ̀ⲙⲟϥ.",
+    "Il prit ce qui est à nous♫ Nous donna ce qui est Sien♫ Louons-Le, glorifions-Le♫ Ajoutons à Sa grandeur",
+    "",
+    "هو أخذ الذي لنا وأعطانا الذي له نسبحه ونمجده ونزيده علواً."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ϯⲡⲁⲣⲑⲉⲛⲟⲥ Ⲙⲁⲣⲓⲁⲙ : ⲱϣ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲡⲓⲉⲣⲫⲉⲓ : ϫⲉ ⲡⲁⲁⲥⲡⲁⲥⲙⲟⲥ ⲁ̀ⲛⲟⲕ : Ⲫ̀ϯ ⲡⲉⲧⲉ̀ⲙⲓ ⲉ̀ⲣⲟϥ.",
+    "La Sainte Vierge Marie♫ S’est écriée dans le temple♫ S’est écriée en disant :♫ « Mon salut, Dieu le connait »",
+    "",
+    "العذراء مريم تصرخ فى الهيكل قائلة سلامى أنا يَعلمهُ الله."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ϯⲥⲱⲟⲩⲛ ⲅⲁⲣ ⲛ̀ϩ̀ⲗⲓ ⲁⲛ : ⲉ̀ⲃⲏⲗ ⲉ̀ⲧ̀ⲥ̀ⲙⲏ ⲛ̀ⲧⲉ ⲡⲓⲁⲅⲅⲉⲗⲟⲥ : ⲉϥϩⲓϣⲉⲛⲛⲟⲩϥⲓ ⲛⲏⲓ ⲛ̀ⲟⲩⲣⲁϣⲓ : ⲉϥⲛⲏⲟⲩ ⲛⲏⲓ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲧ̀ⲫⲉ.",
+    "« Je ne connais d’autre voix♫ Que celle de l’ange qui♫ M’annonça la joie qui vient♫ Jusqu’à moi depuis le ciel »",
+    "",
+    "لأنى لا أعرف شيئاً سوى صوت الملاك يبشرني بفرح آتٍ إلي من السماء."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲛⲑⲟϥ ⲁϥϭⲓ ⲛ̀ⲛⲏⲉ̀ⲧⲉ ⲛⲟⲩⲛ : ⲁϥϯ ⲛⲁⲛ ⲛ̀ⲛⲏⲉ̀ⲧⲉ ⲛⲟⲩϥ : ⲧⲉϩⲱⲥ ⲉ̀ⲣⲟϥ ⲧⲉⲛϯⲱ̀ⲟⲩ ⲛⲁϥ : ⲧⲉⲛⲉⲣϩⲟⲩⲟ̀ ϭⲓⲥⲓ ⲙ̀ⲙⲟϥ.",
+    "Il prit ce qui est à nous♫ Nous donna ce qui est Sien♫ Louons-Le, glorifions-Le♫ Ajoutons à Sa grandeur",
+    "",
+    "هو أخذ الذي لنا وأعطانا الذي له نسبحه ونمجده ونزيده علواً."
+  ]
+],
+[
+  [
+    Prefix.psalmody + "Theotoky&D=6&C=Title",
+    "Ϯⲑⲉⲟ̀ⲧⲟⲕⲓⲁ̀ ⲙ̀ⲡ̀ⲉ̀ϩⲟⲟⲩ ⲙ̀Ⲡⲓⲥⲁⲃⲃⲁⲧⲟⲛ",
+    "Théotokie Wates du Samedi",
+    "",
+    "ثيؤطوكية واطس ليوم السبت",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "ⲁⲧⲑⲱⲗⲉⲃ ⲛ̀ⲥⲉⲙⲛⲉ : ⲟⲩⲟϩ ⲉ̅ⲑ̅ⲩ̅ ϧⲉⲛ ϩⲱⲃ ⲛⲓⲃⲉⲛ : ⲑⲏⲉⲧⲁⲥⲓ̀ⲛⲓ ⲛⲁⲛ ⲙ̀Ⲫ̀ϯ : ⲉϥⲧⲁⲗⲏⲟⲩⲧ ⲉ̀ϫⲉⲛ ⲛⲉⲥϫ̀ⲫⲟⲓ.",
+    "Ô toi sans souillure et chaste♫ Ô toi sainte en toute chose♫ Toi qui nous présentas Dieu♫ Qui Le portes dans tes bras",
+    "",
+    "أيتها الغير دنسة العفيفة. القديسة في كل شيء. التي قدمت لنا. الله محمولا علي ذراعيها.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲥ̀ⲣⲁϣⲓ ⲛⲉⲙⲉ ⲛ̀ϫⲉ ϯⲕ̀ⲧⲏⲥⲓⲥ ⲧⲏⲣⲥ : ⲉⲥⲱϣ ⲉ̀ⲃⲟⲗ ⲉⲥϫⲱ ⲙ̀ⲙⲟⲥ : ϫⲉ ⲭⲉⲣⲉ ⲑⲏⲉⲑⲙⲉϩ ⲛ̀ϩ̀ⲙⲟⲧ : ⲟⲩⲟϩ Ⲡ̀⳪ ϣⲟⲡ ⲛⲉⲙⲉ.",
+    "Toute la création exulte♫ Avec toi, s’écrie et dit :♫ Salut à toi, pleine de grâce♫ Le Seigneur est avec toi.",
+    "",
+    "تفرح معكِ كل الخليقة. صارخة قائلة. السلام لك يا ممتلئة نعمة. الرب معكِ.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲭⲉⲣⲉ ⲑⲏⲉⲑⲙⲉϩ ⲛ̀ϩ̀ⲙⲟⲧ : ⲭⲉⲣⲉ ⲑⲏⲉⲧⲁⲥϫⲉⲙ:  ϩ̀ⲙⲟⲧ : ⲭⲉⲣⲉ ⲑⲏⲉⲧⲁⲥⲙⲉⲥ Ⲡⲭ̅ⲥ̅ : ⲟⲩⲟϩ Ⲡ̀⳪ ϣⲟⲡ ⲛⲉⲙⲉ.",
+    "Salut à toi pleine de grâce,♫ salut à toi qui trouva grâce,♫ salut à toi qui enfanta le Christ,♫ le Seigneur est avec toi.",
+    "",
+    "السلام لك يا ممتلئة نعمة. السلام لك يا من وجدت نعمة. السلام لك يا من ولدت المسيح. الرب معك.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲉⲛⲉⲣⲙⲁⲕⲁⲣⲓⲍⲓⲛ:  ⲛ̀ⲧⲉⲙⲉⲧⲛⲓϣϯ : ⲱ̀ ϯⲡⲁⲣⲑⲉⲛⲟⲥ ⲛ̀ⲥⲁⲃⲏ : ⲧⲉⲛϯ ⲛⲉ : ⲙ̀ⲡⲓⲭⲉⲣⲉⲧⲓⲥⲙⲟⲥ : ⲛⲉⲙ Ⲅⲁⲃⲣⲓⲏⲗ ⲡⲓⲁⲅⲅⲉⲗⲟⲥ.",
+    "Bienheureuse est ta grandeur♫ Ô toi Vierge pure et sage♫ Nous aussi te saluons♫ Avec l’ange Gabriel.",
+    "",
+    "نغبط عظمتك. أيتها العذراء الحكيمة. ونعطيك السلام. مع غبريال الملاك.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ϫⲉ ⲉ̀ⲃⲟⲗϩⲓⲧⲉⲛ ⲡⲉⲕⲁⲣⲡⲟⲥ : ⲁ̀ ⲡⲓⲟⲩϫⲁⲓ ⲧⲁϩⲉ ⲡⲉⲛⲅⲉⲛⲟⲥ : ⲁ̀ Ⲫ̀ϯ ϩⲟⲧⲡⲉⲛ ⲉ̀ⲣⲟϥ ⲛ̀ⲕⲉⲥⲟⲡ : ϩⲓⲧⲉⲛ ⲧⲉϥⲙⲉⲧⲁ̀ⲅⲁⲑⲟⲥ.",
+    "Car c’était de par ton Fruit♫ Que nous parvint le salut♫ Dieu nous a réconciliés♫ A nouveau par Sa bonté",
+    "",
+    "لأن من قبل ثمرتك. أدرك الخلاص جنسنا. وأصلحنا الله مره أخرى. من قبل صلاحه.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲭⲉⲣⲉ ⲑⲏⲉⲑⲙⲉϩ:  ⲛ̀ϩ̀ⲙⲟⲧ : ⲭⲉⲣⲉ ⲑⲏⲉⲧⲁⲥϫⲉⲙ:  ϩ̀ⲙⲟⲧ : ⲭⲉⲣⲉ ⲑⲏⲉⲧⲁⲥⲙⲉⲥ Ⲡⲭ̅ⲥ̅ : ⲟⲩⲟϩ Ⲡ̀⳪ ϣⲟⲡ ⲛⲉⲙⲉ.",
+    "Salut à toi pleine de grâce,♫ salut à toi qui trouva grâce,♫ salut à toi qui enfanta le Christ,♫ le Seigneur est avec toi.",
+    "",
+    "السلام لك يا ممتلئة نعمة. السلام لك يا من وجدت نعمة. السلام لك يا من ولدت المسيح. الرب معك.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ϩⲱⲥ ⲙⲁⲛ̀ϣⲉⲗⲉⲧ : ⲛ̀ⲁⲧⲧⲁⲕⲟ : ⲁ̀ Ⲡⲓⲡ̅ⲛ̅ⲁ̅ ⲉ̅ⲑ̅ⲩ̅ ⲓ̀ ⲉ̀ϫⲱ : ⲟⲩϫⲟⲙ ⲛ̀ⲧⲉ ⲫⲏⲉⲧϭⲟⲥⲓ : ⲉⲑⲛⲁⲉ̀ⲣϧⲏⲓⲃⲓ ⲉ̀ⲣⲟ Ⲙⲁⲣⲓⲁ̀.",
+    "Telle l’épouse sans souillure♫ L’Esprit Saint descend sur toi♫ La puissance du Très Haut♫ T’a couverte, ô Marie",
+    "",
+    "كخدر بغير فساد. الروح القدس حل عليك. وقوه العلى. ظللتك يا مريم.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ϫⲉ ⲁ̀ⲣⲉϫ̀ⲫⲟ : ⲙ̀ⲡⲓⲁ̀ⲗⲏⲑⲓⲛⲟⲥ : ⲛ̀Ⲗⲟⲅⲟⲥ:  ⲛ̀Ϣⲏⲣⲓ ⲛ̀ⲧⲉ Ⲫ̀ⲓⲱⲧ : ⲉⲑⲙⲏⲛ ⲉⲃⲟⲗ ϣⲁ ⲉ̀ⲛⲉϩ : ⲁϥⲓ̀ ⲁϥⲥⲟⲧⲧⲉⲛ ϧⲉⲛ ⲛⲉⲛⲛⲟⲃⲓ.",
+    "Car tu avais enfanté♫ Lui le Verbe véritable♫ Le Fils éternel du Père♫ Vint, nous sauve de nos péchés.",
+    "",
+    "لأنك ولدت الكلمة الحقيقي أبن الاب. الدائم الى الابد. أتى وخلصنا من خطايانا.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲭⲉⲣⲉ ⲑⲏⲉⲑⲙⲉϩ ⲛ̀ϩ̀ⲙⲟⲧ : ⲭⲉⲣⲉ ⲑⲏⲉⲧⲁⲥϫⲉⲙ:  ϩ̀ⲙⲟⲧ : ⲭⲉⲣⲉ ⲑⲏⲉⲧⲁⲥⲙⲉⲥ Ⲡⲭ̅ⲥ̅ : ⲟⲩⲟϩ Ⲡ̀⳪ ϣⲟⲡ ⲛⲉⲙⲉ.",
+    "Salut à toi pleine de grâce,♫ salut à toi qui trouva grâce,♫ salut à toi qui enfanta le Christ,♫ le Seigneur est avec toi.",
+    "",
+    "السلام لك يا ممتلئة نعمة. السلام لك يا من وجدت نعمة. السلام لك يا من ولدت المسيح. الرب معك.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲛ̀ⲑⲟ ⲅⲁⲣ ⲡⲉ ⲡⲓⲅⲉⲛⲟⲥ : ⲛⲉⲙ ϯⲛⲟⲩⲛⲓ ⲛ̀ⲧⲉ Ⲇⲁⲩⲓⲇ : ⲁ̀ⲣⲉⲙⲓⲥⲓ ⲛⲁⲛ ⲕⲁⲧⲁ ⲥⲁⲣⲝ : ⲙ̀Ⲡⲉⲛⲥⲱⲧⲏⲣ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅.",
+    "Ô toi qui est de la race♫ Et descendance de David♫ Tu enfantes charnellement♫ Christ Jésus, notre Sauveur",
+    "",
+    "أنت هي جنس. وأصل داود. ولدت لنا جسديا. مخلصنا يسوع المسيح.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲡⲓⲙⲟⲛⲟⲅⲉⲛⲏⲥ ⲉ̀ⲃⲟⲗϧⲉⲛ   Ⲫ̀ⲓⲱⲧ : ϧⲁϫⲱⲟⲩ : ⲛ̀ⲛⲓⲉ̀ⲱⲛ ⲧⲏⲣⲟⲩ : ⲁϥϣⲟⲩⲱϥ ⲉ̀ⲃⲟⲗ : ⲙ̀ⲙⲓⲛ ⲙ̀ⲙⲟϥ : ⲁϥϭⲓ ⲛ̀ⲟⲩⲙⲟⲣⲫⲏ ⲙ̀ⲃⲱⲕ : ⲛ̀ϧⲏϯ : ⲉⲑⲃⲉ ⲡⲉⲛⲟⲩϫⲁⲓ.",
+    "C’est le Fils unique du Père♫ Depuis toute éternité♫ Il S’est abaissé, S’est fait♫ Serviteur, pour nous sauver",
+    "",
+    "الوحيد من الاب. قبل كل الدهور. أخلى ذاته وأخذ شكل عبد. منكِ لأجل خلاصنا.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲭⲉⲣⲉ ⲑⲏⲉⲑⲙⲉϩ :  ⲛ̀ϩ̀ⲙⲟⲧ : ⲭⲉⲣⲉ ⲑⲏⲉⲧⲁⲥϫⲉⲙ:  ϩ̀ⲙⲟⲧ : ⲭⲉⲣⲉ ⲑⲏⲉⲧⲁⲥⲙⲉⲥ Ⲡⲭ̅ⲥ̅ : ⲟⲩⲟϩ Ⲡ̀⳪ ϣⲟⲡ ⲛⲉⲙⲉ.",
+    "Salut à toi pleine de grâce,♫ salut à toi qui trouva grâce,♫ salut à toi qui enfanta le Christ,♫ le Seigneur est avec toi.",
+    "",
+    "السلام لك يا ممتلئة نعمة. السلام لك يا من وجدت نعمة. السلام لك يا من ولدت المسيح. الرب معك.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲁⲣⲉϣⲱⲡⲓ ⲛ̀ⲟⲩⲙⲁϩ : ⲥ̀ⲛⲟⲩϯ ⲙ̀ⲫⲉ : ϩⲓϫⲉⲛ ⲡⲓⲕⲁϩⲓ ⲱ̀ ϯⲙⲁⲥⲛⲟⲩϯ : ϫⲉ ⲁϥϣⲁⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗⲛ̀ϧⲏϯ : ⲛ̀ϫⲉ ⲡⲓⲣⲏ ⲛ̀ⲧⲉ ϯⲇⲓⲕⲉⲟ̀ⲥⲩⲛⲏ.",
+    "Tu devins un second ciel♫ Sur la terre, ô Mère de Dieu♫ Car, de toi, il s’est levé♫ Le soleil de la justice.",
+    "",
+    "صرت سماء ثانيه. على الارض يا والده الاله. لأنه أشرق لنا منك. شمس البر.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲁⲣⲉϫ̀ⲫⲟϥ ϩⲓⲧⲉⲛ ⲟⲩⲡ̀ⲣⲟⲫⲏⲧⲓⲁ̀ : ⲁϭⲛⲉ ϫ̀ⲣⲟϫ ⲛ̀ⲁⲧⲧⲁⲕⲟ : ϩⲱⲥ ⲇⲏⲙⲓⲟⲩⲣⲅⲟⲥ : ⲟⲩⲟϩ ⲛ̀Ⲗⲟⲅⲟⲥ ⲛ̀ⲧⲉ Ⲫ̀ⲓⲱⲧ",
+    "Tu L’enfantes, comme annoncé♫ Sans semence et sans souillure♫ Lui qui est le Créateur♫ Lui Qui est Verbe du Père.",
+    "",
+    "ولدته كالنبوة. بغير زرع ولا فساد. وهو الخالق. وكلمه الاب.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲭⲉⲣⲉ ⲑⲏⲉⲑⲙⲉϩ ⲛ̀ϩ̀ⲙⲟⲧ : ⲭⲉⲣⲉ ⲑⲏⲉⲧⲁⲥϫⲉⲙ:  ϩ̀ⲙⲟⲧ : ⲭⲉⲣⲉ ⲑⲏⲉⲧⲁⲥⲙⲉⲥ Ⲡⲭ̅ⲥ̅ : ⲟⲩⲟϩ Ⲡ̀⳪ ϣⲟⲡ ⲛⲉⲙⲉ.",
+    "Salut à toi pleine de grâce,♫ salut à toi qui trouva grâce,♫ salut à toi qui enfanta le Christ,♫ le Seigneur est avec toi.",
+    "",
+    "السلام لك يا ممتلئة نعمة. السلام لك يا من وجدت نعمة. السلام لك يا من ولدت المسيح. الرب معك.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ϯⲥ̀ⲕⲏⲛⲏ ⲑⲏⲉⲧⲟⲩⲙⲟⲩϯ ⲉ̀ⲣⲟⲥ : ϫⲉ ⲑⲏⲉ̅ⲑ̅ⲩ̅ ⲛ̀ⲧⲉ ⲛⲏⲉⲑⲟⲩⲁⲃ : ⲉ̀ⲣⲉ ϯⲕⲓⲃⲱⲧⲟⲥ ⲛ̀ϧⲏⲧⲥ : ⲉⲧⲟϣϫ ⲛ̀ⲛⲟⲩⲃ ⲛ̀ⲥⲁⲥⲁ ⲛⲓⲃⲉⲛ.",
+    "Tente qui était nommée♫ Saint des saints, et contenait♫ L'Arche de l’Alliance sacrée♫ Parée d’or de tout côté.",
+    "",
+    "القبه التي تدعى. قدس الاقداس. التي فيها التابوت. المصفح بالذهب من كل ناحية.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲑⲏ ⲉ̀ⲣⲉ ⲛⲓⲡ̀ⲗⲁⲝ ⲛ̀ϧⲏⲧⲥ : ⲛ̀ⲧⲉ ϯⲇⲓⲁ̀ⲑⲏⲕⲏ : ⲛⲉⲙ ⲡⲓⲥ̀ⲧⲁⲙⲛⲟⲥ ⲛ̀ⲛⲟⲩⲃ : ⲉ̀ⲣⲉ ⲡⲓⲙⲁⲛⲛⲁ ϩⲏⲡ ⲛ̀ϧⲏⲧϥ.",
+    "Et dans l’Arche étaient posés♫ Les deux Tables de l’Alliance♫ Le propitiatoire en or♫ Où la manne était cachée.",
+    "",
+    "التي فيها. لوحا العهد. والقسط الذهبي. المخفي فيه المن.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ϥ̀ⲟⲓ ⲛ̀ⲧⲩⲡⲟⲥ ⲙ̀Ⲡ̀ϣⲏⲣⲓ ⲙ̀Ⲫ̀ϯ : ⲉⲧⲁϥⲓ̀ ⲁϥϣⲱⲡⲓ ϧⲉⲛ Ⲙⲁⲣⲓⲁ̀ : ϯⲡⲁⲣⲑⲉⲛⲟⲥ ⲛ̀ⲁⲧⲑⲱⲗⲉⲃ : ⲁϥϭⲓⲥⲁⲣⲝ ⲉ̀ⲃⲟⲗⲛ̀ϧⲏⲧⲥ",
+    "Représente le Fils de Dieu♫ Vint en la Vierge Marie♫ Marie pure et sans souillure♫ D’elle, Il S’était incarné.",
+    "",
+    "هو مثال لابن الله. الذى أتى وحل في مريم. العذراء غير الدنسة. وتجسد منها.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲁⲥϫ̀ⲫⲟϥ ⲉ̀ⲡⲓⲕⲟⲥⲙⲟⲥ : ϧⲉⲛ ⲟⲩⲙⲉⲧⲟⲩⲁⲓ : ⲛ̀ⲁⲧⲫⲱⲣϫ : ⲁⲗⲗⲁ ⲛ̀ⲑⲟϥ ⲡⲉ ̀Ⲡ̀ⲟⲩⲣⲟ ⲛ̀ⲧⲉ ⲡ̀ⲱ̀ⲟⲩ : ⲁϥⲓ̀ ⲟⲩⲟϩ ⲁϥⲥⲱϯ ⲙ̀ⲙⲟⲛ.",
+    "Pour le monde, elle L’enfanta♫ Union, sans séparation♫ Lui qui est le Roi de gloire♫ Est venu, et nous sauva.",
+    "",
+    "ولدته للعالم. باتحاد بغير افتراق. إذ هو ملك المجد. أتى وخلصنا.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲡⲓⲡⲁⲣⲁⲇⲓⲥⲟⲥ : ⲉ̀ϣ̀ⲗⲏⲗⲟⲩⲓ̀ : ϫⲉ ⲁϥⲓ̀ ⲛ̀ϫⲉ ⲡⲓϩⲓⲏⲃ : ⲛ̀Ⲗⲟⲅⲟⲥ : ⲛ̀Ϣⲏⲣⲓ ⲛ̀ⲧⲉ Ⲫⲓⲱⲧ ⲉⲑⲙⲏⲛ ⲉ̀ⲃⲟⲗ ϣⲁ ⲉ̀ⲛⲉϩ : ⲁϥⲓ̀ ⲁϥⲥⲟⲧⲧⲉⲛ ϧⲉⲛ ⲛⲉⲛⲛⲟⲃⲓ.",
+    "Et le paradis exulte♫ Car Il vint l'Agneau, le Verbe♫ Le Fils éternel du Père♫ Nous sauver de nos péchés.",
+    "",
+    "يتهلل الفردوس. بمجيء الحمل الكلمة. أبن الاب الدائم الى الابد. ليخلصنا من خطايانا.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲭⲉⲣⲉ ⲑⲏⲉⲑⲙⲉϩ ⲛ̀ϩ̀ⲙⲟⲧ : ⲭⲉⲣⲉ ⲑⲏⲉⲧⲁⲥϫⲉⲙ:  ϩ̀ⲙⲟⲧ : ⲭⲉⲣⲉ ⲑⲏⲉⲧⲁⲥⲙⲉⲥ Ⲡⲭ̅ⲥ̅ : ⲟⲩⲟϩ Ⲡ̀⳪ ϣⲟⲡ ⲛⲉⲙⲉ.",
+    "Salut à toi pleine de grâce,♫  salut à toi qui trouva grâce,♫ salut à toi qui enfanta le Christ,♫  le Seigneur est avec toi.",
+    "",
+    "السلام لك يا ممتلئة نعمة. السلام لك يا من وجدت نعمة. السلام لك يا من ولدت المسيح. الرب معك.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲁⲩⲙⲟⲩϯ ⲉ̀ⲣⲟ ϫⲉ ⲑ̀ⲙⲁⲩ ⲙ̀Ⲫ̀ϯ : Ⲡⲓⲟⲩⲣⲟ ⲙ̀ⲙⲏⲓ ⲙⲉⲛⲉⲛⲥⲁ ⲑ̀ⲣⲉⲙⲁⲥϥ : ⲁ̀ⲣⲉⲟ̀ϩⲓ ⲉ̀ⲣⲉⲟⲓ : ⲙ̀ⲡⲁⲣⲑⲉⲛⲟⲥ : ϧⲉⲛ ⲟⲩϩⲱⲃ ⲙ̀ⲡⲁⲣⲁⲇⲟⲝⲟⲛ.",
+    "Mère de Dieu, tu fus nommée♫ Il est le Roi véritable♫ Après L'avoir enfanté♫ Restas Vierge ; fait étonnant.",
+    "",
+    "دعيتِ أم الله. الملك الحقيقي. وبعد ما ولدته. بقيت عذراء بأمر عجيب.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲉⲙⲙⲁⲛⲟⲩⲏⲗ ⲫⲏⲉⲧⲁⲣⲉϫ̀ⲫⲟϥ : ⲉⲑⲃⲉ ⲫⲁⲓ ⲁϥⲁ̀ⲣⲉϩ ⲉ̀ⲣⲟ : ⲉ̀ⲣⲉⲟⲓ ⲛ̀ⲁⲧⲧⲁⲕⲟ : ⲉⲥⲧⲟⲃ ⲛ̀ϫⲉ ⲧⲉⲡⲁⲣⲑⲉⲛⲓⲁ̀.",
+    "Emmanuel, t’a préservée♫ Lui que tu as enfanté♫ Préservée, et sans souillure♫ Ta virginité, scellée.",
+    "",
+    "عمانوئيل الذى ولدته. هو حفظك. بغير فساد. وبتوليتك مختومة.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲭⲉⲣⲉ ⲑⲏⲉⲑⲙⲉϩ:  ⲛ̀ϩ̀ⲙⲟⲧ : ⲭⲉⲣⲉ ⲑⲏⲉⲧⲁⲥϫⲉⲙ:  ϩ̀ⲙⲟⲧ : ⲭⲉⲣⲉ ⲑⲏⲉⲧⲁⲥⲙⲉⲥ Ⲡⲭ̅ⲥ̅ : ⲟⲩⲟϩ Ⲡ̀⳪ ϣⲟⲡ ⲛⲉⲙⲉ.",
+    "Salut à toi pleine de grâce,♫ salut à toi qui trouva grâce,♫ salut à toi qui enfanta le Christ,♫ le Seigneur est avec toi.",
+    "",
+    "السلام لك يا ممتلئة نعمة. السلام لك يا من وجدت نعمة. السلام لك يا من ولدت المسيح. الرب معك.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲁⲣⲉⲧⲉⲛⲑⲱⲛϯ : ⲉ̀ϯⲙⲟⲩⲕⲓ : ⲑⲏⲉⲧⲁ Ⲓⲁⲕⲱⲃ ⲛⲁⲩ ⲉ̀ⲣⲟⲥ : ⲉⲥϭⲟⲥⲓ ϣⲁ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ⲧ̀ⲫⲉ : ⲉ̀ⲣⲉ Ⲡ̀⳪ ϩⲓϫⲱⲥ ϧⲉⲛ ⲟⲩϩⲟϯ.",
+    "A l’échelle, comparée♫ L'échelle que Jacob a vue♫ Jusqu’au ciel, elle se dressait♫ Au sommet, Dieu redouté",
+    "",
+    "شبهت بالسلم. الذى رآه يعقوب. مرتفعا الى السماء. والرب المخوف عليه.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲭⲉⲣⲉ ⲛⲉ : ⲉ̀ⲃⲟⲗϩⲓⲧⲟⲧⲉⲛ : ⲱ̀ ⲑⲏⲉⲧⲁⲥϣⲱⲡ ⲉ̀ⲣⲟⲥ : ⲙ̀ⲡⲓⲁ̀ⲭⲱⲣⲓⲧⲟⲥ : ϧⲉⲛ ⲧⲉⲥⲙⲏⲧⲣⲁ : ⲙ̀ⲡⲁⲣⲑⲉⲛⲓⲕⲏ : ⲟⲩⲟϩ ⲉⲥϣⲟⲧⲉⲙ ⲛ̀ⲥⲁⲥⲁ ⲛⲓⲃⲉⲛ.",
+    "Saluons celle qui reçut♫ En son sein, l’Illimité♫ Sa virginité resta♫ Bien scellée en vérité.",
+    "",
+    "سلامنا الى من قبلت. غير المحوى في بطنها. وبتوليتها مختومة. من كل ناحية.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲁⲣⲉϣⲱⲡⲓ ⲛⲁⲛ:  ⲛ̀ⲟⲩⲡ̀ⲣⲟⲥⲧⲁⲧⲏⲥ : ⲛⲁϩⲣⲉⲛ Ⲫ̀ϯ ⲡⲉⲛⲣⲉϥⲥⲱϯ : ⲫⲏⲉⲧⲁϥϭⲓⲥⲁⲣⲝ : ⲉ̀ⲃⲟⲗⲛ̀ϧⲏϯ : ⲉⲑⲃⲉ ⲡⲉⲛⲟⲩϫⲁⲓ.",
+    "Tu devins intercesseur♫ Près de Dieu notre Sauveur♫ Lui qui a pris Chair de toi♫ C’est afin de nous sauver",
+    "",
+    "صرت لنا شفيعه أمام الله مخلصنا. الذى تجسد منك. لأجل خلاصنا.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲭⲉⲣⲉ ⲑⲏⲉⲑⲙⲉϩ ⲛ̀ϩ̀ⲙⲟⲧ : ⲭⲉⲣⲉ ⲑⲏⲉⲧⲁⲥϫⲉⲙ:  ϩ̀ⲙⲟⲧ : ⲭⲉⲣⲉ ⲑⲏⲉⲧⲁⲥⲙⲉⲥ Ⲡⲭ̅ⲥ̅ : ⲟⲩⲟϩ Ⲡ̀⳪ ϣⲟⲡ ⲛⲉⲙⲉ.",
+    "Salut à toi pleine de grâce,♫ salut à toi qui trouva grâce,♫ salut à toi qui enfanta le Christ,♫ le Seigneur est avec toi.",
+    "",
+    "السلام لك يا ممتلئة نعمة. السلام لك يا من وجدت نعمة. السلام لك يا من ولدت المسيح. الرب معك.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ϩⲏⲡⲡⲉ ⲓⲥ Ⲡ̀⳪ ⲁϥⲓ̀ ⲉ̀ⲃⲟⲗⲛ̀ϧⲏϯ : ⲱ̀ ⲑⲏⲉⲧⲥ̀ⲙⲁⲙⲁⲧ ⲉⲧϫⲏⲕ ⲉ̀ⲃⲟⲗ : ⲉ̀ⲛⲟϩⲉⲙ ⲙ̀ⲡⲓⲕⲟⲥⲙⲟⲥ ⲉⲧⲁϥⲑⲁⲙⲓⲟϥ : ⲉⲑⲃⲉ ⲛⲉϥⲙⲉⲧϣⲉⲛϩⲏⲧ ⲉⲧⲟϣ.",
+    "Voici le Seigneur sortit♫ De toi, ô bénie, parfaite♫ Pour sauver Sa création♫ Par Sa grande compassion",
+    "",
+    "هوذا الرب خرج منك. ايتها المباركة الكاملة. ليخلص العالم الذى خلقه. حسب كثرة رأفاته.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲉⲛϩⲱⲥ ⲉ̀ⲣⲟϥ ⲧⲉⲛϯⲱ̀ⲟⲩ ⲛⲁϥ : ⲧⲉⲛⲉⲣϩⲟⲩⲟ̀ ϭⲓⲥⲓ ⲙ̀ⲙⲟϥ : ϩⲱⲥ ⲁ̀ⲅⲁⲑⲟⲥ ⲟⲩⲟϩ ⲙ̀ⲙⲁⲓⲣⲱⲙⲓ : : ⲛⲁⲓ ⲛⲁⲛ ⲕⲁⲧⲁ ⲡⲉⲕⲛⲓϣϯ ⲛ̀ⲛⲁⲓ.",
+    "Nous Le louons, Le glorifions♫ Nous L’exaltons, car Il est bon♫ Ami des hommes, pitié pour nous♫ Par Ta grande miséricorde",
+    "",
+    "نسبحه ونمجده. ونزيده علوا. كصالح ومحب البشر. ارحمنا كعظيم رحمتك.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲭⲉⲣⲉ ⲑⲏⲉⲑⲙⲉϩ ⲛ̀ϩ̀ⲙⲟⲧ : ⲭⲉⲣⲉ ⲑⲏⲉⲧⲁⲥϫⲉⲙ: ϩ̀ⲙⲟⲧ : ⲭⲉⲣⲉ ⲑⲏⲉⲧⲁⲥⲙⲉⲥ Ⲡⲭ̅ⲥ̅ : ⲟⲩⲟϩ Ⲡ̀⳪ ϣⲟⲡ ⲛⲉⲙⲉ.",
+    "Salut à toi pleine de grâce,♫ salut à toi qui trouva grâce,♫  salut à toi qui enfanta le Christ,♫ le Seigneur est avec toi.",
+    "",
+    "السلام لك يا ممتلئة نعمة. السلام لك يا من وجدت نعمة. السلام لك يا من ولدت المسيح. الرب معك.",
   ],
 ],
 [
   [
-      Prefix.psalmody + "TheotokiesConclusion&D=$Seasons.PentecostalDays||$Seasons.Ascension&C=Title",
-      "Ϯⲑⲉⲟ̀ⲧⲟⲕⲓⲁ̀ ⲙ̀ⲡ̀ⲉ̀ϩⲟⲟⲩ ⲛ̀Ϯⲕⲩⲡⲓⲁ̀ⲕⲏ : ⲏ̀ⲭⲟⲥ Ⲁⲇⲁⲙ",
-      "Conclusion des Théotokies pour les jours Adam (Résurrection)",
-      "",
-      "ختام الثيؤطوكيات الآدام للقيامة (نيم غار)"
+    Prefix.psalmody + "PsalyOnTheotoky&D=3&C=Title",
+    "Ϯⲯⲁⲗⲓ ⲛ̀ⲧⲉ Ⲡⲓϥ̀ⲧⲟⲩ",
+    "Psalie Wates sur la Théotokie du mercredi",
+    "",
+    "ابصالية واطس على ثيؤطوكية الأربعاء"
   ],
   [
-      Prefix.same + "&C=NoActor",
-      "Ⲛⲓⲙ ⲅⲁⲣ ϧⲉⲛ ⲛⲓⲛⲟⲩϯ : ⲉⲧⲟ̀ⲛⲓ ⲙ̀ⲙⲟⲕ Ⲡⲟ̅ⲥ̅ : ⲛ̀ⲑⲟⲕ ⲡⲉ Ⲫ̀ϯ ⲙ̀ⲙⲏⲓ : ⲉⲧⲓ̀ⲣⲓ ⲛ̀ϩⲁⲛϣ̀ⲫⲏⲣⲓ.",
-      "Qui donc parmi les dieux♫ Qui est semblable à toi♫ Seigneur ! Toi le vrai Dieu♫ Qui fait de grandes merveilles.",
-      "",
-      "مَن في الآلهة يُشبهك يا رب أنت هو الإله الحقيقي الصانع العجائب."
+    Prefix.same + "&C=Assembly",
+    "Ⲙⲁⲣⲟⲩⲟⲩⲛⲟϥ  :  ⲛ̀ⲧⲟⲩⲑⲉⲗⲏⲗ : ⲛ̀ϫⲉ ⲛⲏⲉⲧⲕⲱϯ ⲛ̀ⲥⲁ Ⲡ̀⳪ : ⲛⲏⲉⲑⲙⲏⲛ ⲉ̀ⲃⲟⲗ ⲛ̀ⲥⲏⲟⲩ ⲛⲓⲃⲉⲛ : ϧⲉⲛ ⲑ̀ⲙⲉⲗⲉⲧⲏ  :  ⲙ̀Ⲡⲉϥⲣⲁⲛ ⲉ̅ⲑ̅ⲩ̅.",
+    "Qu’ils exultent et se réjouissent♫ Ceux qui cherchent le Seigneur♫ Qui s’attachent à invoquer♫ Tout le temps Son très saint Nom.",
+    "",
+    "فليفـرح ويتهلـل♫ طـالبـوا الــرب♫ الملازمـون كل حين♫ في تلاوة اسمه القـدوس."
   ],
   [
-      Prefix.same + "&C=NoActor",
-      "Ⲁⲕⲟⲩⲱⲛϩ ⲛ̀ⲧⲉⲕϫⲟⲙ : ̀ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲓⲗⲁⲟⲥ : ⲁⲕⲥⲱϯ ⲙ̀ⲡⲉⲕⲗⲁⲟⲥ : ⲛ̀ϩ̀ⲣⲏⲓ ϧⲉⲛ ⲡⲉⲕϣⲱⲃϣ.",
-      "Tu as manifesté♫ Ta force parmi les peuples♫ Tu as sauvé ton peuple♫ Par Ton bras puissant.",
-      "",
-      "أظهرت قوتك في الشعوب وخلصت شعبك بذراعك."
+    Prefix.same + "&C=Assembly",
+    "Ⲛⲁⲓ ⲛⲉ ⲛⲓϣ̀ϣⲏⲛ ⲉⲧⲁϥⲥⲁϫⲓ ⲉⲑⲃⲏⲧⲟⲩ : ⲛ̀ϫⲉ ⲡⲓϩⲩⲙⲛⲟⲇⲟⲥ Ⲇⲁⲩⲓⲇ : ϫⲉ ⲉⲩⲣⲏⲧ ϧⲁⲧⲉⲛ ⲛⲓϥⲟⲓ ⲙ̀ⲙⲱⲟⲩ : ⲉⲩϯⲕⲁⲣⲡⲟⲥ ⲉϥϫⲏⲕ ⲉ̀ⲃⲟⲗ",
+    "Ce sont eux les arbres que♫ David le psalmiste citait♫ Plantés auprès des cours d’eau♫ Ils prodiguent un fruit complet.",
+    "",
+    "هؤلاء هم الاشجـار التي تكلم من أجلها♫ المـرتـل داود♫ أنها نابتة عند مجـاري المياه♫ تعطي ثمـرة كاملة."
   ],
   [
-      Prefix.same + "&C=NoActor",
-      "Ⲁⲕϣⲉⲛⲁⲕ ⲉ̀ⲁ̀ⲙⲉⲛϯ : ⲁⲕⲓ̀ⲛⲓ̀ ⲉ̀ⲡ̀ϣⲱⲓ : ⲛ̀ϯⲉⲭⲙⲁⲗⲱⲥⲓⲁ̀ : ϧⲉⲛ ⲡⲓⲙⲁ ⲉ̀ⲧⲉ ⲙ̀ⲙⲁⲩ.",
-      "Et Tu es descendu♫ Descendu aux Enfers♫ Tu en as relevé♫ Ceux qui étaient captifs.",
-      "",
-      "مضيت إلى الجحيم وأصعدت السبي من ذلك المكان"
+    Prefix.same + "&C=Assembly",
+    "Ϯϥⲟⲓ ⲙ̀ⲙⲱⲟⲩ ⲡⲉ Ⲡⲉⲛⲥⲱⲧⲏⲣ : Ⲡⲉⲛ⳪ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ : ⲛⲏⲉⲑⲛⲁϣⲱⲡⲓ ⲉⲩⲙⲏⲛ ⲉ̀ⲣⲟϥ : ⲥⲉⲛⲁⲱⲛϧ ⲛ̀ϫⲉ ⲧⲟⲩⲯⲩⲭⲏ.",
+    "Le cours d’eau c’est le Sauveur♫ Notre Seigneur Jésus-Christ♫ Et ceux qui s’attachent à Lui♫ Leurs âmes vivront toujours.",
+    "",
+    "مجـرى الماء هو مخلصنا♫ ربنا يسـوع المسيح.♫ والملازمـون له،♫ تحيا نفـوسهم."
   ],
   [
-      Prefix.same + "&C=NoActor",
-      "Ⲁⲕⲉⲣϩ̀ⲙⲟⲧ ⲛⲁⲛ�<  ⲛ̀ⲕⲉⲥⲟⲡ : ⲛ̀ϯⲉ̀ⲗⲉⲩⲑⲉⲣⲓⲁ̀ : ϩⲱⲥ Ⲛⲟⲩϯ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ : ϫⲉ ⲁⲕⲧⲱⲛⲕ ⲁⲕⲥⲱϯ ⲙ̀ⲙⲟⲛ.",
-      "Tu nous as libérés♫ Comme le Dieu bon♫ Car tu ressuscitas♫ Et tu nous sauvas.",
-      "",
-      "وأنعمت علينا مرة أخرى بالحرية كإله صالح لأنك قمت وخلصتنا."
+    Prefix.same + "&C=Assembly",
+    "Ⲥⲉϯⲥ̀ⲃⲱ ⲛⲁⲛ ϧⲉⲛ ⲛⲓⲅ̀ⲣⲁⲫⲏ ⲉ̅ⲑ̅ⲩ̅ : ⲛⲓⲛⲓϥⲓ ⲛ̀ⲧⲉ Ⲫ̀ϯ : ⲉⲑⲣⲉⲛϣⲱⲡⲓ ⲉⲛⲟⲓ ⲛ̀ⲛⲁⲏ̀ⲧ : ⲉ̀ϧⲟⲩⲛ ⲉ̀ⲡⲓⲥⲱⲛⲧ ⲉⲧⲁϥⲑⲁⲙⲓⲟϥ.",
+    "Les saints livres, souffle de Dieu♫ Nous apprennent tous à être♫ Miséricordieux pour la♫ Création qu’Il a conçue.",
+    "",
+    "يعلمـوننا في الكتـب المقـدسـة♫ أنفـاس الله♫ أن نكـون رحـومين♫ على الخليقة التي خلقها."
   ],
   [
-      Prefix.psalmody + "Part17&C=SubTitle",
-      "",
-      "17ème Partie",
-      "",
-      "القطعة السابعة عشر"
+    Prefix.same + "&C=Assembly",
+    "Ⲟⲩⲟϩ ⲟⲛ ϫⲉ ϯⲁ̀ⲅⲁⲡⲏ : ⲙ̀ⲡⲁⲥϩⲉⲓ ⲉ̀ⲃⲟⲗ ⲉ̀ⲛⲉϩ : ⲕⲁⲧⲁ ⲡ̀ⲥⲁϫⲓ ⲙ̀ⲡⲓⲥⲟⲫⲟⲥ : Ⲡⲁⲩⲗⲟⲥ ⲡⲓⲁ̀ⲡⲟⲥⲧⲟⲗⲟⲥ.",
+    "Et nous apprennent aussi que♫ L’amour ne périt jamais♫ Selon la parole du sage♫ Le sage apôtre saint Paul.",
+    "",
+    "وأيضـاً أن المحبـة♫ لا تسقـط أبـداً♫ كقـول الحكيم♫ بـولس الرسول."
   ],
   [
-      Prefix.same + "&C=NoActor",
-      "Ⲁ Ⲡⲭ̅ⲥ̅ Ⲡⲉⲛⲛⲟⲩϯ : ⲧⲱⲛϥ ̀ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲏⲉⲑⲙⲱⲟⲩⲧ : ⲛ̀ⲑⲟϥ ⲡⲉ ⲧ̀ⲁ̀ⲡⲁⲣⲭⲏ : ⲛ̀ⲧⲉ ⲛⲏⲉⲧⲁⲩⲉⲛⲕⲟⲧ.",
-      "Le Christ notre Dieu♫ Ressuscita des morts♫ Il est le premier♫ Parmi les convives.",
-      "",
-      "المسيح إلهنا قام من الأموات وهو باكورة الراقدين."
+    Prefix.same + "&C=Assembly",
+    "Ϯⲁ̀ⲅⲁⲡⲏ ⲉⲧⲁϥⲥⲁϫⲓ ⲉⲑⲃⲏⲧⲥ : ⲛ̀ϫⲉ ⲡⲓⲁ̀ⲡⲟⲥⲧⲟⲗⲟⲥ ⲉ̅ⲑ̅ⲩ̅ : ⲉ̀ⲧⲉ ⲫⲁⲓ ⲡⲉ ⲡⲓⲣⲁⲛ ⲛ̀ⲟⲩϫⲁⲓ : ⲛ̀ⲧⲉ Ⲡⲉⲛ⳪ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅.",
+    "Ainsi, l’amour dont parlait♫ Dont parlait le saint apôtre♫ C’est le nom du Salut de♫ Notre Seigneur Jésus-Christ.",
+    "",
+    "المحبـة التي تكلـم من أجلها♫ الـرسـول القِـدِّيسْ♫ أي اسم الخلاص♫ الـذي لـربنا يسـوع المسيـح."
   ],
   [
-      Prefix.same + "&C=NoActor",
-      "Ⲁϥⲟⲩⲟⲛϩϥ ⲉ̀Ⲙⲁⲣⲓⲁ̀ : ϯⲘⲁⲅⲇⲁⲗⲓⲛⲏ : ⲁϥⲥⲁϫⲓ ⲛⲉⲙⲁⲥ : ⲙ̀ⲡⲁⲓⲣⲏϯ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ.",
-      "Et Il est apparu♫ A Marie Madeleine♫ Il lui a adressé♫ La parole en disant.",
-      "",
-      "ظهر لمريم المجدلية وخاطبها هكذا قائلا:"
+    Prefix.same + "&C=Assembly",
+    "Ⲉ̀ϣⲱⲡ ⲁⲛϣⲁⲛⲙⲉⲛⲣⲉ ⲡⲓⲣⲁⲛ ⲛ̀ⲟⲩϫⲁⲓ : ⲛ̀ⲧⲉ Ⲡⲉⲛ⳪ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ : ⲛ̀ⲧⲉⲛⲉⲣ ⲡⲓⲛⲁⲓ ⲛⲉⲙ ⲛⲉⲛⲉ̀ⲣⲏⲟⲩ: ϣⲁⲛϫⲱⲕ :   ⲙ̀ⲡⲓⲛⲟⲙⲟⲥ ⲧⲏⲣϥ ⲉ̀ⲃⲟⲗ.",
+    "Aimant le Nom du Salut♫ De notre Seigneur Jésus♫ Et faisant miséricorde♫ Nous accomplissons la Loi.",
+    "",
+    "إذا ما أحبـبنا اسم الخلاص♫ الـذي لـربنا يسـوع المسيح♫ وصنعـنا الـرحمـة بعضـنا مـع بعـض♫ نكمـل كل النامـوس."
   ],
   [
-      Prefix.same + "&C=NoActor",
-      "Ϫⲉ ⲙⲁⲧⲁⲙⲉ ⲛⲁⲥ̀ⲛⲏⲟⲩ : ϩⲓⲛⲁ ⲛ̀ⲧⲟⲩϣⲉⲛⲱⲟⲩ : ⲉ̀ϯⲄⲁⲗⲓⲗⲉⲁ̀ : ⲥⲉⲛⲁⲛⲁⲩ ⲉ̀ⲣⲟⲓ ⲙ̀ⲙⲁⲩ.",
-      "Fais savoir à mes frères♫ Qu’ils doivent se rendre♫ Se rendre en Galilée♫ Pour me voir là-bas.",
-      "",
-      "أعلمي إخوتي أن يذهبوا إلى الجليل هناك يرونني."
+    Prefix.same + "&C=Assembly",
+    "Ⲉ̀ⲃⲟⲗϩⲓⲧⲉⲛ ϯⲙⲉⲑⲛⲁⲏⲧ : ⲁϥϯⲙⲁϯ ⲛ̀ϫⲉ Ⲁⲃⲣⲁⲁⲙ : ⲉⲑⲣⲉ Ⲫ̀ϯ ϫⲱⲓⲗⲓ ⲉ̀ⲣⲟϥ ⲛⲉⲙ ⲛⲉϥⲁⲅⲅⲉⲗⲟⲥ ⲉ̅ⲑ̅ⲩ̅.",
+    "De par la miséricorde♫ Abraham fut dans la joie♫ Dans la joie d’accueillir Dieu♫ Dieu suivi de Ses saints anges.",
+    "",
+    "من قبـل الـرحمـة♫ سُــرَّ ابـراهيـم♫ أن يُضيـفَ الله عِنْدَهُ♫ مع ملائكته القـدسيـن."
   ],
   [
-      Prefix.same + "&C=NoActor",
-      "Ⲁⲥⲓ̀ ⲛ̀ϫⲉ Ⲙⲁⲣⲓⲁ̀ : ϣⲁ ⲛⲓⲙⲁⲑⲏⲧⲏⲥ : ⲡⲉϫⲁⲥ ϫⲉ ⲁⲓⲛⲁⲩ ⲉ̀Ⲡⲟ̅ⲥ̅ : ⲟⲩⲟϩ ⲛⲁⲓ ⲡⲉⲧⲁϥϫⲟⲧⲟⲩ ⲛⲁⲥ.",
-      "Alors Marie  alla♫ Vers les disciples et dit♫ Qu’elle a vu le Seigneur♫ Et qu’Il lui dit cela.",
-      "",
-      "فجاءت مريم إلى التلاميذ وقالت أنها رأت الرب وأنه قال لها هذا."
+    Prefix.same + "&C=Assembly",
+    "Ⲉⲃⲟⲗϩⲓⲧⲉⲛ ϯⲙⲉⲑⲛⲁⲏ̀ⲧ : ⲁϥⲛⲟϩⲉⲙ ⲛ̀ϫⲉ Ⲗⲱⲧ ⲡⲓⲑ̀ⲙⲏⲓ : ⲉ̀ⲃⲟⲗϩⲁ ⲡⲓⲕⲩⲛⲇⲓⲛⲟⲥ ⲉⲑⲛⲁϣⲧ : ⲉⲧⲁϥⲓ̀ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲉⲛ Ⲥⲟⲇⲟⲙⲁ.",
+    "De par la miséricorde♫ Lot le juste fut sauvé♫ De la grande tribulation♫ Qui s’abattit sur Sodome.",
+    "",
+    "من قبـل الـرحمـة♫ خَلُصَ لـوط البـار♫ مِنَ الشـدة الصعبـة♫ التي أتـت على سـدوم."
   ],
   [
-      Prefix.psalmody + "Part18&C=SubTitle",
-      "",
-      "18ème Partie",
-      "",
-      "القطعة الثامنة عشر"
+    Prefix.same + "&C=Assembly",
+    "Ⲉⲃⲟⲗϩⲓⲧⲉⲛ ϯⲙⲉⲑⲛⲁⲏ̀ⲧ : ⲁϥⲉⲣⲡ̀ⲉⲙⲡ̀ϣⲁ ⲛ̀ϫⲉ Ⲕⲟⲣⲛⲏⲗⲓⲟⲥ : ⲉⲑⲣⲉϥϭⲓ ⲙ̀ⲡⲓⲃⲁⲡⲧⲓⲥⲙⲁ : ϧⲉⲛ ⲛⲉⲛϫⲓϫ ⲙ̀ⲡⲉⲛⲓⲱⲧ Ⲡⲉⲧⲣⲟⲥ.",
+    "De par la miséricorde♫ Corneille fut regardé digne♫ De recevoir le baptême♫ Des mains de notre père Pierre.",
+    "",
+    "من قبـل الـرحمـة♫ استحق كـرنيليـوس♫ أن ينال الصِبْغَـة♫ من يـدي أبيـنا بطـرس."
   ],
   [
-      Prefix.same + "&C=NoActor",
-      "Ⲕⲁⲗⲱⲥ ϧⲉⲛ ⲟⲩⲙⲉⲑⲙⲏⲓ : ⲁⲥϣⲱⲡⲓ ϧⲉⲛ ⲟⲩϥⲓⲣⲱⲟⲩϣ : ⲛ̀ϫⲉ ⲑⲏⲉ̅ⲑ̅ⲩ̅ Ⲙⲁⲣⲓⲁ̀ : ϯⲘⲁⲅⲇⲁⲗⲓⲛⲏ.",
-      "Et en vérité♫ Il était très bon♫ L’intérêt de Sainte♫ Marie Madeleine.",
-      "",
-      "كان بالحقيقة اهتمام القديسة مريم المجدلية حسناً."
+    Prefix.same + "&C=Assembly",
+    "Ⲓⲥϫⲉ ⲅⲁⲣ ⲧⲉⲛⲟⲓ ⲛ̀ϧⲁⲉ̀: ϧⲉⲛ ⲛⲓⲭ̀ⲣⲏⲙⲁ ⲛ̀ⲧⲉ ⲡⲁⲓⲕⲟⲥⲙⲟⲥ : ⲙ̀ⲙⲟⲛ :   ⲛ̀ⲧⲁⲛ ⲛ̀ϩ̀ⲗⲓ ⲙ̀ⲙⲁⲩ : ⲉⲑⲣⲉⲛⲧⲏⲓⲧⲟⲩ ⲙ̀ⲙⲉⲑⲛⲁⲏⲧ",
+    "Si nous sommes dépourvus♫ Des richesses de ce monde♫ Si nous n’avons pas de quoi♫ Accorder la moindre aumône.",
+    "",
+    "فإن كُنَّا مُعْـوزيَـن♫ من أمـوال هـذا العـالم♫ وليس لنـا شيء♫ لكي نعطيـه صـدقـة."
   ],
   [
-      Prefix.same + "&C=NoActor",
-      "Ⲁⲥⲓ̀ ⲉ̀ⲡⲓⲙ̀ϩⲁⲩ : ϧⲉⲛ ⲫ̀ⲟⲩⲁⲓ ⲛ̀ⲧⲉ ⲛⲓⲥⲁⲃⲃⲁⲧⲟⲛ : ⲁⲥⲕⲱϯ ϧⲉⲛ ⲟⲩⲥ̀ⲡⲟⲩⲇⲏ : ⲛ̀ⲥⲁ ⲧ̀ⲁⲛⲁⲥⲧⲁⲥⲓⲥ ⲙ̀Ⲡⲟ̅ⲥ̅.",
-      "Au premier jour de semaine♫ Elle vint au tombeau ♫ Cherchant la♫  Résurrection du Seigneur.",
-      "",
-      "في أحد السبوت أتت إلى القبر طالبة باجتهاد قيامة الرب."
+    Prefix.same + "&C=Assembly",
+    "Ⲟⲩⲟⲛ ⲛ̀ⲧⲁⲛ  :  ⲙ̀ⲡⲓⲁ̀ⲛⲁⲙⲏⲓ : ⲡⲓⲙⲁⲣⲅⲁⲣⲓⲧⲏⲥ ⲉⲑⲛⲁϣⲉⲛⲥⲟⲩⲉⲛϥ : ⲡⲓⲣⲁⲛ ⲉⲧϩⲟⲗϫ ⲉⲑⲙⲉϩ ⲛ̀ⲱ̀ⲟⲩ : ⲛ̀ⲧⲉ Ⲡⲉⲛ⳪ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅.",
+    "Nous avons le fin joyau♫ La perle de grande valeur♫ Le beau Nom rempli de gloire♫ De notre Seigneur Jésus.",
+    "",
+    "فلنـا الجـوهـرة♫ اللؤلؤة الكثيرة الثمـن♫ الاسم الحلـو المملـوء مجـدًا.♫ الـذي لـربنا يسـوع المسيـح."
   ],
   [
-      Prefix.same + "&C=NoActor",
-      "Ⲁⲥⲛⲁⲩ ⲉ̀ⲡⲓⲁⲅⲅⲉⲗⲟⲥ : ⲉϥϩⲉⲙⲥⲓ ϩⲓϫⲉⲛ ⲡⲓⲱⲓⲛⲓ : ⲉϥⲱϣ ⲉ̀ⲃⲟⲗ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ : ϫⲉ ⲁϥⲧⲱⲛϥ ϥ̀ⲭⲏ ⲙ̀ⲡⲁⲓⲙⲁ ⲁⲛ.",
-      "Et elle vit l’ange assis♫ Sur la pierre, disant♫ Il est ressuscité♫ Et il n’est plus ici.",
-      "",
-      "فرأت الملاك جالساً على الحجر صارخاً قائلا قد قام ليس هو ههنا."
+    Prefix.same + "&C=Assembly",
+    "Ⲉϣⲱⲡ ⲁⲛϣⲁⲛⲙⲟⲩⲛ  :  ⲉ̀ⲣⲟϥ : ϧⲉⲛ ⲡⲉⲛⲣⲱⲙⲓ ⲉⲧⲥⲁϧⲟⲩⲛ : ϥ̀ⲛⲁⲁⲓⲧⲉⲛ  :  ⲛ̀ⲣⲁⲙⲁⲟ̀ : ϣⲁⲛ̀ⲧⲉⲛϯ  :  ⲛ̀ϩⲁⲛⲕⲉⲭⲱⲟⲩⲛⲓ.",
+    "S’Il habite toujours en nous♫ Et nous accompagne toujours♫ Sa présence nous enrichit♫ Pour que nous donnions aux autres.",
+    "",
+    "اذا ما لازمنـاه♫ في إنساننـا الـداخلي♫ فهـو يجعلنـا أغنيـاء♫ حتى نُعطي آخـريـن."
   ],
   [
-      Prefix.same + "&C=NoActor",
-      "Ⲉⲑⲃⲉ ⲫⲁⲓ ⲧⲉⲛϯⲱ̀ⲟⲩ ⲛⲁϥ : ⲉⲛⲱϣ ̀ⲉ̀ⲃⲟⲗ ⲉⲛϫⲱ ⲙ̀ⲙⲟⲥ : ϫⲉ ⲕ̀ⲥ̀ⲙⲁⲣⲱⲟⲩⲧ ⲱ̀ Ⲡⲁ⳪ Ⲓⲏ̅ⲥ̅ : ϫⲉ ⲁⲕⲧⲱⲛⲕ ⲁⲕⲥⲱϯ ⲙ̀ⲙⲟⲛ.",
-      "C’est pourquoi nous le glorifions♫ En clamant et disant♫ Béni sois-tu Seigneur Jésus,♫ Car tu ressuscitas et nous sauvas.",
-      "",
-      "فلهذا نمجده صارخين قائلين مُبارك أنت يا ربي يسوع لأنك قمت وخلصتنا."
+    Prefix.same + "&C=Assembly",
+    "Ⲛⲓⲭ̀ⲣⲏⲙⲁ ⲁⲛ ⲛ̀ⲧⲉ ⲡⲁⲓ ⲕⲟⲥⲙⲟⲥ : ⲉⲑⲛⲁⲥⲓⲛⲓ ⲉⲧⲉⲛⲕⲱϯ ⲛ̀ⲥⲱⲟⲩ : ⲁⲗⲗⲁ ⲫ̀ⲛⲟϩⲉⲙ ⲛ̀ⲧⲉ ⲛⲉⲛⲯⲩⲭⲏ : ϧⲉⲛ  :  ⲑ̀ⲙⲉⲗⲉⲧⲏ ⲙ̀Ⲡⲉϥⲣⲁⲛ ⲉ̅ⲑ̅ⲩ̅",
+    "Nous ne Te demandons pas♫ Les biens de ce monde vain♫ Mais le salut de nos âmes♫ En invoquant ton Nom Saint.",
+    "",
+    "♫ليست أمـوال هـذا العالـم♫ الـزائـل التي نطلبها♫ بـل خلاص نفـوسنا بتلاوة اسمه القـدوس."
   ]
+],
+[
+  [
+    Prefix.psalmody + "PsalyOnTheotoky&D=5&C=Title",
+    "",
+    "Psalie Wates sur la Théotokie du Vendredi",
+    "",
+    "ابصالية واطس  على ثيؤطوكية الجمعة"
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲁⲗⲏⲑⲟⲥ ⲅⲁⲣ ⲁⲓϯ ⲙ̀ⲡⲁⲟⲩⲓ : ⲉ̀ⲟⲩⲛⲓϣϯ ⲛ̀ⲕⲉⲫⲁⲗⲉⲟⲛ : ⲉ̀ⲧⲉ ⲫⲁⲓ ⲡⲉ ⲡⲓⲣⲁⲛ ⲛ̀ⲟⲩⲅⲁⲓ : ⲛ̀ⲧⲉ Ⲡⲉⲛ⳪ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅.",
+    "Vraiment je me suis tenu♫ Face à une tête puissante♫ C’est le nom du Salut de♫ Notre Seigneur Jésus-Christ ",
+    "",
+    "بالحقيقـة قـد تقـدمت إلي رأس عظيـم هـو اسم الخلاص الـذي لـربنا يسـوع المسيح."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲁ Ⲡⲉⲛ⳪ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ : ϯ ⲛ̀ⲟⲩⲙⲏⲓⲛⲓ ⲛ̀ⲛⲉϥⲉ̀ⲃⲓⲁⲓⲕ : ⲛⲏⲉ̀ⲧⲉⲣϩⲟϯ ϧⲁⲧⲉϥϩⲏ : ⲉⲑⲣⲟⲩⲫⲱⲧ ⲉ̀ⲃⲟⲗ ϧⲁⲧ̀ϩⲏ ⲙ̀ⲡ̀ϩⲟ ⲛ̀ⲟⲩⲫⲓϯ.",
+    "Notre Seigneur Jésus-Christ♫ A donné un signe à Ses♫ Serviteurs, eux qui Le craignent♫ Pour qu’ils fuient de tout danger",
+    "",
+    "ربنـا يسـوع المسيح قـد أعطى علامـة لعبيـده الـذيـن يخافـونه. لكي يهـربـوا من وجـه القـوس."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    " Ⲡⲉⲛ⳪ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ : ϯ ⲛ̀ⲟⲩⲙⲏⲓⲛⲓ ⲛ̀ⲛⲉϥⲉ̀ⲃⲓⲁⲓⲕ : ⲛⲏⲉⲧⲉⲣϩⲟϯ ϧⲁⲧⲉϥϩⲏ : ⲉⲑⲣⲟⲩⲑⲱⲙ ⲛ̀ⲣⲱⲟⲩ ⲛ̀ⲛⲓⲙⲟⲩⲓ̀.",
+    "Notre Seigneur Jésus-Christ♫ A donné un signe à Ses ♫ Serviteurs, eux qui Le craignent♫ Qu’ils ferment la gueule des lions.",
+    "",
+    "ربنـا يسـوع المسيح أعطى علامة لعبيـده الـذيـن يخافـونه لكي يسـدوا أفـواه الأسود."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲁ Ⲡⲉⲛ⳪ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ : ϯ ⲛ̀ⲟⲩⲙⲏⲓⲛⲓ ⲛ̀ⲛⲉϥⲉ̀ⲃⲓⲁⲓⲕ : ⲛⲏⲉⲧⲉⲣϩⲟϯ ϧⲁⲧⲉϥϩⲏ : ⲉⲑⲣⲟⲩⲱ̀ϣⲉⲙ ⲛ̀ⲧ̀ϫⲟⲙ ⲛ̀ⲧⲉ ⲡⲓⲭ̀ⲣⲱⲙ.",
+    "Notre Seigneur Jésus-Christ♫ A donné un signe à Ses ♫ Serviteurs, eux qui Le craignent♫ D’éteindre la puissance du feu.",
+    "",
+    "ربنـا يسـوع المسيح أعطى علامة لعبيـده الـذيـن يخافونـه لكي يطـفئـوا قـوة النـار."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲁ Ⲡⲉⲛ⳪ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ : ϯ ⲛ̀ⲟⲩⲙⲏⲓⲛⲓ ⲛ̀ⲛⲉϥⲉ̀ⲃⲓⲁⲓⲕ : ⲛⲏⲉⲧⲉⲣϩⲟϯ ϧⲁⲧⲉϥϩⲏ : ⲉⲑⲣⲟⲩϩⲓⲟⲩⲓ̀ ⲛ̀ⲛⲓⲇⲉⲙⲱⲛ ⲉ̀ⲃⲟⲗ.",
+    "Notre Seigneur Jésus-Christ♫ A donné un signe à Ses ♫ Serviteurs, eux qui Le craignent♫ Pour faire sortir les démons",
+    "",
+    "ربنـا يسـوع المسيح قـد أعطى علامة لعبيـده الـذيـن يخافـونـه لكي يـخـُرجـوا الشيـاطيـن."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲁ Ⲡⲉⲛ⳪ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ : ϯ ⲛ̀ⲟⲩⲙⲏⲓⲛⲓ ⲛ̀ⲛⲉϥⲉ̀ⲃⲓⲁⲓⲕ : ⲛⲏⲉⲧⲉⲣϩⲟϯ ϧⲁⲧⲉϥϩⲏ : ⲉⲑⲣⲟⲩⲉ̀ⲣ⳪ ⲉ̀ϫⲉⲛ ⲛⲟⲩϫⲁϫⲓ.",
+    "Notre Seigneur Jésus-Christ♫ A donné un signe à Ses ♫ Serviteurs, eux qui Le craignent♫ Pour soumettre leurs ennemis.",
+    "",
+    "ربنـا يسـوع المسيح قـد أعطى علامة لعبيـده الـذيـن يخافـونـه لكي يتسلطـوا على أعـدائهـم."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲁ Ⲡⲉⲛ⳪ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ : ϯ ⲛ̀ⲟⲩⲙⲏⲓⲛⲓ ⲛ̀ⲛⲉϥⲉ̀ⲃⲓⲁⲓⲕ : ⲛⲏⲉⲧⲉⲣϩⲟϯ ϧⲁⲧⲉϥϩⲏ : ⲉⲑⲣⲟⲩⲧⲁⲗϭⲟ ⲛ̀ϣⲱⲛⲓ ⲛⲓⲃⲉⲛ.",
+    "Notre Seigneur Jésus-Christ♫ A donné un signe à Ses ♫ Serviteurs, eux qui Le craignent♫ Pour guérir toute maladie",
+    "",
+    "ربنـا يسـوع المسيح أعطى عبيـده الـذيـن يخافـونـه أن يشفـوا كل مـرض "
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "ⲧⲉ ⲫⲁⲓ ⲡⲉ ⲡⲓⲣⲁⲛ ⲛ̀ⲟⲩϫⲁⲓ : ⲛ̀ⲧⲉ Ⲡⲉⲛ⳪ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ : ⲛⲉⲙ ⲡⲉϥⲥ̀ⲧⲁⲩⲣⲟⲥ ⲛ̀ⲣⲉϥⲧⲁⲛϧⲟ : ⲫⲏⲉⲧⲁⲩⲁϣϥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱϥ.",
+    "Voici le nom du Salut♫ De notre Seigneur Jésus♫ Et de Sa croix vivifiante♫ Où Il était crucifié",
+    "",
+    "وهـذا هـو اسـم الخلاص الـذي لـربنـا يسـوع وصليبـه المحي الـذي ُصلـب عليـه "
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲱⲟⲩⲛⲓⲁⲧϥ ⲙ̀ⲡⲓⲣⲱⲙⲓ : ⲉⲑⲛⲁⲭⲱ ⲛ̀ⲥⲱϥ ⲙ̀ⲡⲁⲓⲃⲓⲟⲥ : ⲛⲉⲙ ⲛⲉϥⲣⲱⲟⲩϣ ⲉⲑⲙⲉϩ ⲛ̀ϧⲓⲥⲓ : ⲛⲁⲓ ⲉⲧϧⲱⲧⲉⲃ ⲛ̀ϯⲯⲩⲭⲏ.",
+    "Heureux l’homme qui se détache♫ De cette vie, et ses soucis♫ Remplie de tribulations♫ Qui  tuent et achèvent l'âme.",
+    "",
+    "طـوبى للإنسان الـذي يتـرك عنه هـذا السـر واهتماماته المملـوءة تعبـًا القـاتـلـة لـلنـفـس. "
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲟⲩⲟϩ ⲛ̀ⲧⲉϥϥⲁⲓ ⲙ̀ⲡⲉϥⲥ̀ⲧⲁⲩⲣⲟⲥ : ⲛ̀ⲉ̀ϩⲟⲟⲩ ϧⲁⲧ̀ϩⲏ ⲛ̀ⲉ̀ϩⲟⲟⲩ : ⲛ̀ⲧⲉϥⲧⲱⲙⲓ ⲙ̀ⲡⲉϥⲛⲟⲩⲥ ⲛⲉⲙ ⲡⲉϥϩⲏⲧ: ⲉ̀ⲡⲓⲣⲁⲛ ⲛ̀ⲟⲩϫⲁⲓ ⲛ̀ⲧⲉ Ⲡⲉⲛ⳪ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅.",
+    "Porte sa Croix tous les jours♫ Fixe son esprit, son cœur♫ Sur le nom du Salut de♫ Notre Seigneur Jésus-Christ.",
+    "",
+    "ويحمـل صليـبه يـومـاً فيـومـاً ويلصـق عـقلـه وقلبـه باسـم الخـلاص الـذي لـربنـا يسـوع المسيح"
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "ϥⲟⲩⲛⲟϥ ⲛ̀ⲧⲉ ⲡⲉⲛϩⲏⲧ : ϣⲁϥⲑⲉⲗⲏⲗ ⲛ̀ϫⲉ ⲡⲉⲛⲗⲁⲥ : ⲉ̀ϣⲱⲡ ⲁⲛϣⲁⲛⲉⲣⲙⲉⲗⲉⲧⲁⲛ : ⲉ̀ⲡⲓⲣⲁⲛ ⲛ̀ⲟⲩϫⲁⲓ ⲛ̀ⲧⲉ Ⲡⲉⲛ⳪ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅.",
+    "Ainsi, nos cœurs se réjouissent♫ Et nos langues  aussi exultent♫ Citant le nom du Salut♫ Notre Seigneur Jésus-Christ.",
+    "",
+    "يفـرح قلبنـا ويتهلـل لساننـا إذا ما تلـونا اسم الخـلاص الـذي لـربنا يسـوع المسيح."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "ⲃⲉ ⲫⲁⲓ ⲙⲁⲣⲉⲛϯⲱ̀ⲟⲩ : ⲙ̀Ⲡⲉⲛ⳪ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ : ⲛⲉⲙ Ⲡⲉϥⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ : ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉ̅ⲑ̅ⲩ̅.",
+    "Pour cela nous glorifions♫ Notre Seigneur Jésus-Christ♫ Avec Son Père Très Bon♫ Et avec le Saint-Esprit",
+    "",
+    "مـن أجـل هـذا نمجـد ربنـا يسـوع المسيح مـع أبيـه الصـالح والـروح القـدس."
+  ]
+],
+[
+  [
+    Prefix.psalmody + "PsalyOnTheotoky&D=6&C=Title",
+    "",
+    "Psalie Wates sur la Théotokie du Samedi",
+    "",
+    "ابصالية واطس  على ثيؤطوكية السبت",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲁϥϯ ⲙ̀ⲡ̀ⲟⲩⲛⲟϥ ⲛ̀ⲛⲉⲛⲯⲩⲭⲏ : ⲛ̀ϫⲉ ⲡ̀ⲉⲣⲫ̀ⲙⲉⲩⲓ̀ ⲙ̀Ⲡⲉⲕⲣⲁⲛ ⲉ̅ⲑ̅ⲩ̅ : Ⲡⲁ⳪ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ : Ⲡⲁⲥ̅ⲱ̅ⲣ̅ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ.",
+    "Nos âmes se sont réjouies♫ D’invoquer Ton très saint Nom♫ Ô mon Seigneur Jésus-Christ♫ Jésus-Christ mon bon Sauveur.",
+    "",
+    "أعطى فرحاً لنفوسنا. ذكر أسمك القدوس. يا ربى يسوع المسيح مخلصي الصالح.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲃⲟⲛ ⲛⲓⲃⲉⲛ ⲥⲉⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟⲕ : ⲛⲁⲛⲓⲫⲏⲟⲩⲓ̀ ⲛⲉⲙ ⲛⲁⲡ̀ⲕⲁϩⲓ : Ⲡⲁ⳪ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ : Ⲡⲁⲥ̅ⲱ̅ⲣ̅ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ.",
+    "Ainsi chacun Te bénit♫ Les célestes et les terrestres♫ Ô mon Seigneur Jésus-Christ♫ Jésus-Christ mon bon Sauveur.",
+    "",
+    "يباركك كل أحد. السمائيون والأرضيون. يا ربى يسوع المسيح مخلصى الصالح.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲅⲉ ⲅⲁⲣ ⲛ̀ⲑⲟⲕ ⲙ̀ⲙⲁⲩⲁⲧⲕ : ⲕ̀ⲉⲙⲡ̀ϣⲁ ⲛ̀ⲧⲉⲛⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟⲕ : Ⲡⲁ⳪ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ : Ⲡⲁⲥ̅ⲱ̅ⲣ̅ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ.",
+    "Et car Toi Tu es le seul♫ Le seul digne d’être béni♫ Ô mon Seigneur Jésus-Christ♫ Jésus-Christ mon bon Sauveur",
+    "",
+    "لأنك أنت وحدك. مستحق ان نباركك. يا ربى يسوع المسيح مخلصي الصالح.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲇⲓⲕⲉⲱⲥ ⲕⲉ ⲁ̀ⲝⲓⲱⲥ : ⲕ̀ⲉ̀ⲙⲡ̀ϣⲁ ⲙ̀ⲡⲓⲱ̀ⲟⲩ ⲛⲉⲙ ⲡⲓⲧⲁⲓⲟ̀ : Ⲡⲁ⳪ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ : Ⲡⲁⲥ̅ⲱ̅ⲣ̅ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ.",
+    "Il est juste et il est digne♫ De Te rendre honneur et gloire♫ Ô mon Seigneur Jésus-Christ♫ Jésus-Christ mon bon Sauveur. ",
+    "",
+    "حقاً واستحقاقاً.أنت مستحق المجد والكرامة. يا ربى يسوع المسيح مخلصي الصالح.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲉⲩⲉ̀ⲥ̀ⲙⲟⲩ ⲉ̀Ⲡⲉⲕⲣⲁⲛ ⲉ̀ⲑⲟⲩⲁⲃ : ⲛ̀ϫⲉ ⲛⲓⲫⲩⲗⲏ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲉ ⲡ̀ⲕⲁϩⲓ : Ⲡⲁ⳪ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ : Ⲡⲁⲥ̅ⲱ̅ⲣ̅ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ.",
+    "Tous les peuples de la terre♫ Louent et chantent Ton saint Nom♫ Ô mon Seigneur Jésus-Christ♫ Jésus-Christ mon bon Sauveur",
+    "",
+    "تسبح اسمك القدوس. كل قبائل الأرض. يا ربى يسوع المسيح مخلصي الصالح.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲥⲟⲟⲩ ⲛ̀ϩⲩⲇⲣⲓⲁ̀ ⲙ̀ⲙⲱⲟⲩ : ⲁⲕⲁⲓⲧⲟⲩ ⲛ̀ⲏⲣⲡ ⲉϥⲥⲱⲧⲡ : Ⲡⲁ⳪ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ : Ⲡⲁⲥ̅ⲱ̅ⲣ̅ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ.",
+    "Six cruches d’eau, Tu les changeas♫ En un vin de très grand choix♫ Ô mon Seigneur Jésus-Christ♫ Jésus-Christ mon bon Sauveur.",
+    "",
+    "ست أجران ماء. حولتها خمراً مختاراً. يا ربى يسوع المسيح مخلصي الصالح.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ϣⲁϣϥ ⲛ̀ⲥⲟⲡ ⲙ̀ⲡⲓ̀ⲉ̀ϩⲟⲟⲩ : ϯⲛⲁⲥ̀ⲙⲟⲩ ⲉ̀Ⲡⲉⲕⲣⲁⲛ ⲉ̅ⲑ̅ⲩ̅ : Ⲡⲁ⳪ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ : Ⲡⲁⲥ̅ⲱ̅ⲣ̅ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ.",
+    "Sept fois tous les jours Seigneur♫ Je bénis Ton très saint Nom♫ Ô mon Seigneur Jésus-Christ♫ Jésus-Christ mon bon Sauveur",
+    "",
+    "سبع مرات فى اليوم. أبارك اسمك القدوس. يا ربى يسوع المسيح مخلصي الصالح.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲏ̀ⲇⲉⲱⲥ ⲧⲉⲛⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟⲕ : ⲁ̀ⲛⲟⲛ ⲧⲏⲣⲉⲛ ϧⲁ ⲡⲉⲕⲗⲁⲟⲥ : Ⲡⲁ⳪ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ : Ⲡⲁⲥ̅ⲱ̅ⲣ̅ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ.",
+    "Heureux, nous Te bénissons♫ Nous tous qui sommes Ton peuple♫ Ô mon Seigneur Jésus-Christ♫ Jésus-Christ mon bon Sauveur",
+    "",
+    "بلذة نبارك. نحن كلنا شعبك. يا ربى يسوع المسيح مخلصي الصالح.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲑ̀ⲙⲉⲧⲥⲁⲓⲉ̀ ⲙ̀Ⲡⲉⲕⲣⲁⲛ  ⲉ̅ⲑ̅ⲩ̅ : ϧⲉⲛ ⲣⲱⲟⲩ ⲛ̀ⲛⲏⲉ̅ⲑ̅ⲩ̅ ⲛ̀ⲧⲁⲕ : Ⲡⲁ⳪ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ : Ⲡⲁⲥ̅ⲱ̅ⲣ̅ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ.",
+    "La splendeur de Ton saint Nom♫ Dans la bouche de Tes saints♫ Ô mon Seigneur Jésus-Christ♫ Jésus-Christ mon bon Sauveur",
+    "",
+    "بهاء اسمك القدوس. فى أفواه قديسيك. يا ربى يسوع المسيح مخلصي الصالح.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲓⲥϫⲉⲛ ϣⲱⲣⲡ ϣⲁ ⲣⲟⲩϩⲓ ⲙ̀ⲙⲏⲛⲓ : ϯⲛⲁⲥ̀ⲙⲟⲩ ⲉ̀Ⲡⲉⲕⲣⲁⲛ ⲉ̅ⲑ̅ⲩ̅ : Ⲡⲁ⳪ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ : Ⲡⲁⲥ̅ⲱ̅ⲣ̅ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ.",
+    "Tous les jours, matin au soir♫ Je bénis Ton très saint Nom♫ Ô mon Seigneur Jésus-Christ♫ Jésus-Christ mon bon Sauveur",
+    "",
+    "من باكر إلى المساء كل يوم. أبارك اسمك القدوس. يا ربى يسوع المسيح مخلصي الصالح.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲕⲁⲧⲁ ϣⲉⲛⲛⲓϥⲓ ⲛⲓⲃⲉⲛ ⲉ̀ϯⲛⲁⲧⲏⲓⲧⲟⲩ : ϯⲛⲁⲥ̀ⲙⲟⲩ ⲉ̀Ⲡⲉⲕⲣⲁⲛ ⲉ̅ⲑ̅ⲩ̅ : Ⲡⲁ⳪ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ : Ⲡⲁⲥ̅ⲱ̅ⲣ̅ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ.",
+    "Dans tout souffle en respirant♫ Je louerai Ton très Saint Nom♫ Ô mon Seigneur Jésus-Christ♫ Jésus-Christ mon bon Sauveur",
+    "",
+    "كل نَفَس اتنسمه. أسبح اسمك القدوس. يا ربى يسوع المسيح مخلصي الصالح..",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲗⲱⲓϫⲓ ⲛⲓⲃⲉⲛ ⲛ̀ⲧⲉ ⲫ̀ⲛⲟⲃⲓ : ϩⲓⲧⲟⲩ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲉⲛⲯⲩⲭⲏ : Ⲡⲁ⳪ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ : Ⲡⲁⲥ̅ⲱ̅ⲣ̅ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ.",
+    "Toute cause de péché♫ De nos âmes, ôte-la♫ Ô mon Seigneur Jésus-Christ♫ Jésus-Christ mon bon Sauveur ",
+    "",
+    "كل أسباب الخطية. انزعها من أنفسنا. يا ربى يسوع المسيح مخلصي الصالح.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲙⲉⲩⲓ̀ ⲛⲓⲃⲉⲛ ⲛ̀ⲧⲉ ⲡⲓϫⲁϫⲓ : ⲙⲁⲣⲟⲩⲟⲩⲉⲓ ⲥⲁⲃⲟⲗ ⲙ̀ⲙⲟⲓ : Ⲡⲁ⳪ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ : Ⲡⲁⲥ̅ⲱ̅ⲣ̅ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ.",
+    "Toute pensée de l’ennemi♫ Qu’elle soit écartée de moi♫ Ô mon Seigneur Jésus-Christ♫ Jésus-Christ mon bon Sauveur",
+    "",
+    "كل أفكار العدو. فلتبعد عني. يا ربى يسوع المسيح مخلصي الصالح..",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲛⲓϥⲓ ⲛⲓⲃⲉⲛ ⲥⲉⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟⲕ : ⲕⲁⲧⲁ ⲡ̀ⲥⲁϫⲓ ⲙ̀ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ : Ⲡⲁ⳪ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ : Ⲡⲁⲥ̅ⲱ̅ⲣ̅ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ.",
+    "Que tout souffle Te bénisse♫ Comme le prophète a dit♫ Ô mon Seigneur Jésus-Christ♫ Jésus-Christ mon bon Sauveur",
+    "",
+    "كل نسمة تباركك. كقول النبي. يا ربى يسوع المسيح مخلصي الصالح.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲝⲁⲡ̀ϣⲱⲓ ⲅⲁⲣ ⲛ̀ⲁⲣⲭⲏ ⲛⲓⲃⲉⲛ : ⲛ̀ⲑⲟⲕ ⲡⲉ ̀Ⲡ̀ⲟⲩⲣⲟ ⲛ̀ⲧⲉ ⲛⲓⲟⲩⲣⲱⲟⲩ : Ⲡⲁ⳪ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ : Ⲡⲁⲥ̅ⲱ̅ⲣ̅ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ.",
+    "Tu dépasses tout pouvoir♫ Car Tu es le Roi des rois♫ Ô mon Seigneur Jésus-Christ♫ Jésus-Christ mon bon Sauveur ",
+    "",
+    "أنت فوق كل رئاسة. انت هو ملك الملوك. يا ربى يسوع المسيح مخلصي الصالح.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲟⲩⲱ̀ⲟⲩ ⲛⲁⲕ ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ : ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉ̀ⲑⲟⲩⲁⲃ : Ⲡⲁ⳪ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ : Ⲡⲁⲥ̅ⲱ̅ⲣ̅ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ.",
+    "Gloire à Toi avec Ton Père♫ Et avec le Saint-Esprit♫ Ô mon Seigneur Jésus-Christ♫ Jésus-Christ mon bon Sauveur",
+    "",
+    "لك المجد مع أبيك. والروح القدس. يا ربى يسوع المسيح مخلصي الصالح.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲡⲉⲕⲣⲁⲛ ϩⲟⲗϫ ⲟⲩⲟϩ ϥ̀ⲥ̀ⲙⲁⲣⲱⲟⲩⲧ : ϧⲉⲛ ⲣⲱⲟⲩ  ⲛ̀ⲛⲏⲉ̅ⲑ̅ⲩ̅ ⲛ̀ⲧⲁⲕ : Ⲡⲁ⳪ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ : Ⲡⲁⲥ̅ⲱ̅ⲣ̅ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ.",
+    "Ton nom est doux et béni♫ Dans la bouche de Tes saints♫ Ô mon Seigneur Jésus-Christ♫ Jésus-Christ mon bon Sauveur",
+    "",
+    "اسمك حلو ومبارك. فى أفواه قديسيك. يا ربى يسوع المسيح مخلصي الصالح.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲣⲱⲓ ⲅⲁⲣ ⲛⲁⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟⲕ : ⲟⲩⲟϩ ⲡⲁⲗⲁⲥ ⲛⲁϯⲱ̀ⲟⲩ ⲛⲁⲕ : Ⲡⲁ⳪ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ : Ⲡⲁⲥ̅ⲱ̅ⲣ̅ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ.",
+    "Ô Seigneur, ma bouche Te loue♫ Et ma langue Te glorifie♫ Ô mon Seigneur Jésus-Christ♫ Jésus-Christ mon bon Sauveur",
+    "",
+    "فمي يسبحك. ولساني يمجدك. يا ربى يسوع المسيح مخلصي الصالح.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲥⲉ ⲟⲛⲧⲱⲥ ⲧⲉⲛⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟⲕ : ⲥⲉ ⲟⲛⲧⲱⲥ ⲧⲉⲛϯⲱ̀ⲟⲩ ⲛⲁⲕ : Ⲡⲁ⳪ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ : Ⲡⲁⲥ̅ⲱ̅ⲣ̅ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ.",
+    "Oui vraiment nous Te louons♫ Oui vraiment Te glorifions♫ Ô mon Seigneur Jésus-Christ♫ Jésus-Christ mon bon Sauveur",
+    "",
+    "نعم حقًا نسبحك. نعم حقًا نمجدك. يا ربى يسوع المسيح مخلصي الصالح..",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲉⲛⲛⲁϧⲓⲥⲓ ⲁⲛ ⲉ̀ⲛⲉϩ : ⲧⲉⲛⲛⲁⲕⲏⲛ ⲁⲛ ⲉⲛⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟⲕ : Ⲡⲁ⳪ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ : Ⲡⲁⲥ̅ⲱ̅ⲣ̅ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ.",
+    "Nous ne nous lassons jamais♫ Ni cessons de Te louer♫ Ô mon Seigneur Jésus-Christ♫ Jésus-Christ mon bon Sauveur",
+    "",
+    "لا نتعب أبدًا. ولا نكف عن تسبيحك. يا ربى يسوع المسيح مخلصي الصالح.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲩⲙⲛⲟⲗⲟⲅⲓⲁ̀ ⲛⲓⲃⲉⲛ  ⲛ̀ⲥ̀ⲙⲟⲩ: ⲧⲉⲛⲟⲩⲱⲣⲡ  ⲙ̀ⲙⲱⲟⲩ ⲉ̀ⲡ̀ϣⲱⲓ ϩⲁⲣⲟⲕ : Ⲡⲁ⳪ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ : Ⲡⲁⲥ̅ⲱ̅ⲣ̅ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ.",
+    "Cantiques de bénédictions♫ Nous les montons jusqu’à Toi♫ Ô mon Seigneur Jésus-Christ♫ Jésus-Christ mon bon Sauveur",
+    "",
+    "كل تماجيد البركة. نرسلها اليك إلى فوق. يا ربى يسوع المسيح مخلصي الصالح.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲫⲱⲕ ⲡⲉ ⲡⲓⲱ̀ⲟⲩ ⲛⲉⲙ ⲡⲓⲧⲁⲓⲟ̀ : ⲛⲉⲙ ϯⲉⲩⲭⲁⲣⲓⲥⲧⲓⲁ̀ : Ⲡⲁ⳪ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ : Ⲡⲁⲥ̅ⲱ̅ⲣ̅ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ.",
+    "A Toi gloire et tout honneur♫ Et aussi actions de grâce♫ Ô mon Seigneur Jésus-Christ♫ Jésus-Christ mon bon Sauveur",
+    "",
+    "لك المجد والكرامة. والشكر. يا ربى يسوع المسيح مخلصي الصالح.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲭ̀ⲟⲩⲁⲃ Ⲡ̀⳪ ⲟⲩⲟϩ Ⲭ̀ⲟⲩⲁⲃ : Ⲭ̀ⲟⲩⲁⲃ Ⲡⲁⲛⲟⲩϯ ϧⲉⲛ ⲟⲩⲙⲉⲑⲙⲏⲓ : Ⲡⲁ⳪ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ : Ⲡⲁⲥ̅ⲱ̅ⲣ̅ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ.",
+    "Saint es-Tu Seigneur et Saint♫ Saint es-Tu en vérité♫ Ô mon Seigneur Jésus-Christ♫ Jésus-Christ mon bon Sauveur",
+    "",
+    "قدوس أنت يا رب وقدوس. قدوس أنت بالحقيقة. يا ربى يسوع المسيح مخلصي الصالح..",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲯⲩⲭⲏ ⲛⲓⲃⲉⲛ ⲥⲉⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟⲕ : ⲕⲉⲗⲓ ⲛⲓⲃⲉⲛ ⲥⲉⲕⲱⲗϫ ⲛⲁⲕ : Ⲡⲁ⳪ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ : Ⲡⲁⲥ̅ⲱ̅ⲣ̅ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ.",
+    "Que toute âme Te bénisse♫ Tout genou pour Toi fléchit♫ Ô mon Seigneur Jésus-Christ♫ Jésus-Christ mon bon Sauveur",
+    "",
+    "كل نفس تباركك. وكل ركبة تجثو لك. يا ربى يسوع المسيح مخلصي الصالح.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲱ Ⲡⲓⲣⲁⲛ ⲉⲑⲙⲉϩ ⲛ̀ⲱ̀ⲟⲩ : ⲱ̀ Ⲡⲓⲣⲁⲛ ⲉⲑⲙⲉϩ ⲛ̀ⲥ̀ⲙⲟⲩ : Ⲡⲁ⳪ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ : Ⲡⲁⲥ̅ⲱ̅ⲣ̅ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ.",
+    "Ô Nom débordant de gloire♫ Ô Nom débordant de grâce♫ Ô mon Seigneur Jésus-Christ♫ Jésus-Christ mon bon Sauveur ",
+    "",
+    "أيها الاسم المملوء مجداً. أيها الاسم المملوء بركة. يا ربى يسوع المسيح مخلصي الصالح..",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ϣⲁ ⲉ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲡⲓⲉ̀ⲛⲉϩ : ⲧⲉⲛⲛⲁⲕⲏⲛ ⲁⲛ ⲉⲛⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟⲕ : Ⲡⲁ⳪ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ : Ⲡⲁⲥ̅ⲱ̅ⲣ̅ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ.",
+    "Sans arrêt, nous Te louons♫ Et pour toute éternité♫ Ô mon Seigneur Jésus-Christ♫ Jésus-Christ mon bon Sauveur",
+    "",
+    "لا نكف عن تسبيحك. إلى أبد الأبد. يا ربى يسوع المسيح مخلصي الصالح",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ϥ̀ⲉⲛⲧⲁⲕ ⲙ̀ⲙⲁⲩ ⲛ̀ϫⲉ ⲡⲓⲥ̀ⲙⲟⲩ : ⲛⲉⲙ ⲡⲓⲱ̀ⲟⲩ ⲛⲉⲙ ⲡⲓⲧⲁⲓⲟ̀ : Ⲡⲁ⳪ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ : Ⲡⲁⲥ̅ⲱ̅ⲣ̅ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ.",
+    "A Toi la bénédiction♫ A Toi la gloire et l’honneur♫ Ô mon Seigneur Jésus-Christ♫ Jésus-Christ mon bon Sauveur",
+    "",
+    "لك البركة. والمجد والكرامة. يا ربى يسوع المسيح مخلصي الصالح..",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ϧⲉⲛ ⲟⲩⲥ̀ⲙⲟⲩ ⲧⲉⲛⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟⲕ : ϧⲉⲛ ⲟⲩⲱ̀ⲟⲩ ⲧⲉⲛϯⲱ̀ⲟⲩ ⲛⲁⲕ : Ⲡⲁ⳪ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ : Ⲡⲁⲥ̅ⲱ̅ⲣ̅ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ.",
+    "De grâce, nous Te bénissons♫ De gloire, nous Te glorifions♫ Ô mon Seigneur Jésus-Christ♫ Jésus-Christ mon bon Sauveur",
+    "",
+    "بالبركة نباركك. بالمجد نمجدك.♫ يا ربى يسوع المسيح مخلصي الصالح.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ϩⲟⲥ ⲉⲛⲟⲛϧ ⲧⲉⲛⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟⲕ : ϩⲟⲥ ⲉⲛϣⲟⲡ ⲧⲉⲛϯⲱ̀ⲟⲩ ⲛⲁⲕ  : Ⲡⲁ⳪ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ : Ⲡⲁⲥ̅ⲱ̅ⲣ̅ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ.",
+    "Tant qu’on vit, nous Te louons♫ Tant qu’on est, Te glorifions♫ Ô mon Seigneur Jésus-Christ♫ Jésus-Christ mon bon Sauveur",
+    "",
+    "ما دمنا أحياء نسبحك. ما دمنا موجودين نمجدك. يا ربى يسوع المسيح مخلصي الصالح..",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ϫⲱⲕ ⲉ̀ⲃⲟⲗ ⲛ̀ⲥ̀ⲙⲟⲩ ⲛⲓⲃⲉⲛ : ⲥⲉⲭⲏ ϧⲉⲛ Ⲡⲉⲕⲣⲁⲛ ⲉ̅ⲑ̅ⲩ̅ : Ⲡⲁ⳪ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ : Ⲡⲁⲥ̅ⲱ̅ⲣ̅ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ.",
+    "La bénédiction parfaite♫ Réside dans Ton très saint Nom♫ Ô mon Seigneur Jésus-Christ♫ Jésus-Christ mon bon Sauveur",
+    "",
+    "كمال كل بركة. كائن فى اسمك القدوس. يا ربى يسوع المسيح مخلصي الصالح.",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ϭⲓ ⲛ̀ⲛⲉⲛϯϩⲟ ⲛ̀ⲧⲟⲧⲉⲛ : ⲁ̀ⲛⲟⲛ ϧⲁ ⲛⲓⲣⲉϥⲉⲣⲛⲟⲃⲓ : Ⲡⲁ⳪ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ : Ⲡⲁⲥ̅ⲱ̅ⲣ̅ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ.",
+    "Reçois nos supplications♫ De nous tous qui sommes pécheurs♫ Ô mon Seigneur Jésus-Christ♫ Jésus-Christ mon bon Sauveur ",
+    "",
+    "اقبل توسلاتنا. منا نحن الخطاة. يا ربى يسوع المسيح مخلصي الصالح..",
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ϯⲛⲁⲛ ⲛ̀ⲧⲉⲕϩⲓⲣⲏⲛⲏ ⲙ̀ⲙⲏⲓ : ⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ : Ⲡⲁ⳪ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ : Ⲡⲁⲥ̅ⲱ̅ⲣ̅ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ.",
+    "Ta vraie paix, accorde-nous♫ Et pardonne nos péchés♫ Ô mon Seigneur Jésus-Christ♫ Jésus-Christ mon bon Sauveur",
+    "",
+    "أعطنا سلامك الحقيقى. واغفر لنا خطايانا. يا ربى يسوع المسيح مخلصى الصالح.",
+  ],
+],
+[
+  [
+    Prefix.psalmody + "TheotokiesConclusion&D=$Seasons.PentecostalDays||$Seasons.Ascension&C=Title",
+    "Ϯⲑⲉⲟ̀ⲧⲟⲕⲓⲁ̀ ⲙ̀ⲡ̀ⲉ̀ϩⲟⲟⲩ ⲛ̀Ϯⲕⲩⲡⲓⲁ̀ⲕⲏ : ⲏ̀ⲭⲟⲥ Ⲁⲇⲁⲙ",
+    "Conclusion des Théotokies pour les jours Adam (Résurrection)",
+    "",
+    "ختام الثيؤطوكيات الآدام للقيامة (نيم غار)",
+  ],
+  [
+    Prefix.same + "&C=NoActor",
+    "Ⲛⲓⲙ ⲅⲁⲣ ϧⲉⲛ ⲛⲓⲛⲟⲩϯ : ⲉⲧⲟ̀ⲛⲓ ⲙ̀ⲙⲟⲕ Ⲡⲟ̅ⲥ̅ : ⲛ̀ⲑⲟⲕ ⲡⲉ Ⲫ̀ϯ ⲙ̀ⲙⲏⲓ : ⲉⲧⲓ̀ⲣⲓ ⲛ̀ϩⲁⲛϣ̀ⲫⲏⲣⲓ.",
+    "Qui donc parmi les dieux♫ Qui est semblable à toi♫ Seigneur ! Toi le vrai Dieu♫ Qui fait de grandes merveilles.",
+    "",
+    "مَن في الآلهة يُشبهك يا رب أنت هو الإله الحقيقي الصانع العجائب.",
+  ],
+  [
+    Prefix.same + "&C=NoActor",
+    "Ⲁⲕⲟⲩⲱⲛϩ ⲛ̀ⲧⲉⲕϫⲟⲙ : ̀ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲓⲗⲁⲟⲥ : ⲁⲕⲥⲱϯ ⲙ̀ⲡⲉⲕⲗⲁⲟⲥ : ⲛ̀ϩ̀ⲣⲏⲓ ϧⲉⲛ ⲡⲉⲕϣⲱⲃϣ.",
+    "Tu as manifesté♫ Ta force parmi les peuples♫ Tu as sauvé ton peuple♫ Par Ton bras puissant.",
+    "",
+    "أظهرت قوتك في الشعوب وخلصت شعبك بذراعك.",
+  ],
+  [
+    Prefix.same + "&C=NoActor",
+    "Ⲁⲕϣⲉⲛⲁⲕ ⲉ̀ⲁ̀ⲙⲉⲛϯ : ⲁⲕⲓ̀ⲛⲓ̀ ⲉ̀ⲡ̀ϣⲱⲓ : ⲛ̀ϯⲉⲭⲙⲁⲗⲱⲥⲓⲁ̀ : ϧⲉⲛ ⲡⲓⲙⲁ ⲉ̀ⲧⲉ ⲙ̀ⲙⲁⲩ.",
+    "Et Tu es descendu♫ Descendu aux Enfers♫ Tu en as relevé♫ Ceux qui étaient captifs.",
+    "",
+    "مضيت إلى الجحيم وأصعدت السبي من ذلك المكان",
+  ],
+  [
+    Prefix.same + "&C=NoActor",
+    "Ⲁⲕⲉⲣϩ̀ⲙⲟⲧ ⲛⲁⲛ<  ⲛ̀ⲕⲉⲥⲟⲡ : ⲛ̀ϯⲉ̀ⲗⲉⲩⲑⲉⲣⲓⲁ̀ : ϩⲱⲥ Ⲛⲟⲩϯ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ : " + seasonal.giaki.COP + ".",
+    "Tu nous as libérés♫ Comme le Dieu bon♫ Car tu ressuscitas♫ Et tu nous sauvas.",
+    "",
+    "وأنعمت علينا مرة أخرى بالحرية كإله صالح لأنك قمت وخلصتنا.",
+  ],
+  [
+    Prefix.psalmody + "Part17&C=SubTitle",
+    "",
+    "17ème Partie",
+    "",
+    "القطعة السابعة عشر",
+  ],
+  [
+    Prefix.same + "&C=NoActor",
+    "Ⲁ Ⲡⲭ̅ⲥ̅ Ⲡⲉⲛⲛⲟⲩϯ : ⲧⲱⲛϥ ̀ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲏⲉⲑⲙⲱⲟⲩⲧ : ⲛ̀ⲑⲟϥ ⲡⲉ ⲧ̀ⲁ̀ⲡⲁⲣⲭⲏ : ⲛ̀ⲧⲉ ⲛⲏⲉⲧⲁⲩⲉⲛⲕⲟⲧ.",
+    "Le Christ notre Dieu♫ Ressuscita des morts♫ Il est le premier♫ Parmi les convives.",
+    "",
+    "المسيح إلهنا قام من الأموات وهو باكورة الراقدين.",
+  ],
+  [
+    Prefix.same + "&C=NoActor",
+    "Ⲁϥⲟⲩⲟⲛϩϥ ⲉ̀Ⲙⲁⲣⲓⲁ̀ : ϯⲘⲁⲅⲇⲁⲗⲓⲛⲏ : ⲁϥⲥⲁϫⲓ ⲛⲉⲙⲁⲥ : ⲙ̀ⲡⲁⲓⲣⲏϯ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ.",
+    "Et Il est apparu♫ A Marie Madeleine♫ Il lui a adressé♫ La parole en disant.",
+    "",
+    "ظهر لمريم المجدلية وخاطبها هكذا قائلا:",
+  ],
+  [
+    Prefix.same + "&C=NoActor",
+    "Ϫⲉ ⲙⲁⲧⲁⲙⲉ ⲛⲁⲥ̀ⲛⲏⲟⲩ : ϩⲓⲛⲁ ⲛ̀ⲧⲟⲩϣⲉⲛⲱⲟⲩ : ⲉ̀ϯⲄⲁⲗⲓⲗⲉⲁ̀ : ⲥⲉⲛⲁⲛⲁⲩ ⲉ̀ⲣⲟⲓ ⲙ̀ⲙⲁⲩ.",
+    "Fais savoir à mes frères♫ Qu’ils doivent se rendre♫ Se rendre en Galilée♫ Pour me voir là-bas.",
+    "",
+    "أعلمي إخوتي أن يذهبوا إلى الجليل هناك يرونني.",
+  ],
+  [
+    Prefix.same + "&C=NoActor",
+    "Ⲁⲥⲓ̀ ⲛ̀ϫⲉ Ⲙⲁⲣⲓⲁ̀ : ϣⲁ ⲛⲓⲙⲁⲑⲏⲧⲏⲥ : ⲡⲉϫⲁⲥ ϫⲉ ⲁⲓⲛⲁⲩ ⲉ̀Ⲡⲟ̅ⲥ̅ : ⲟⲩⲟϩ ⲛⲁⲓ ⲡⲉⲧⲁϥϫⲟⲧⲟⲩ ⲛⲁⲥ.",
+    "Alors Marie  alla♫ Vers les disciples et dit♫ Qu’elle a vu le Seigneur♫ Et qu’Il lui dit cela.",
+    "",
+    "فجاءت مريم إلى التلاميذ وقالت أنها رأت الرب وأنه قال لها هذا.",
+  ],
+  [
+    Prefix.psalmody + "Part18&C=SubTitle",
+    "",
+    "18ème Partie",
+    "",
+    "القطعة الثامنة عشر",
+  ],
+  [
+    Prefix.same + "&C=NoActor",
+    "Ⲕⲁⲗⲱⲥ ϧⲉⲛ ⲟⲩⲙⲉⲑⲙⲏⲓ : ⲁⲥϣⲱⲡⲓ ϧⲉⲛ ⲟⲩϥⲓⲣⲱⲟⲩϣ : ⲛ̀ϫⲉ ⲑⲏⲉ̅ⲑ̅ⲩ̅ Ⲙⲁⲣⲓⲁ̀ : ϯⲘⲁⲅⲇⲁⲗⲓⲛⲏ.",
+    "Et en vérité♫ Il était très bon♫ L’intérêt de Sainte♫ Marie Madeleine.",
+    "",
+    "كان بالحقيقة اهتمام القديسة مريم المجدلية حسناً.",
+  ],
+  [
+    Prefix.same + "&C=NoActor",
+    "Ⲁⲥⲓ̀ ⲉ̀ⲡⲓⲙ̀ϩⲁⲩ : ϧⲉⲛ ⲫ̀ⲟⲩⲁⲓ ⲛ̀ⲧⲉ ⲛⲓⲥⲁⲃⲃⲁⲧⲟⲛ : ⲁⲥⲕⲱϯ ϧⲉⲛ ⲟⲩⲥ̀ⲡⲟⲩⲇⲏ : ⲛ̀ⲥⲁ ⲧ̀ⲁⲛⲁⲥⲧⲁⲥⲓⲥ ⲙ̀Ⲡⲟ̅ⲥ̅.",
+    "Au premier jour de semaine♫ Elle vint au tombeau ♫ Cherchant la♫  Résurrection du Seigneur.",
+    "",
+    "في أحد السبوت أتت إلى القبر طالبة باجتهاد قيامة الرب.",
+  ],
+  [
+    Prefix.same + "&C=NoActor",
+    "Ⲁⲥⲛⲁⲩ ⲉ̀ⲡⲓⲁⲅⲅⲉⲗⲟⲥ : ⲉϥϩⲉⲙⲥⲓ ϩⲓϫⲉⲛ ⲡⲓⲱⲓⲛⲓ : ⲉϥⲱϣ ⲉ̀ⲃⲟⲗ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ : ϫⲉ ⲁϥⲧⲱⲛϥ ϥ̀ⲭⲏ ⲙ̀ⲡⲁⲓⲙⲁ ⲁⲛ.",
+    "Et elle vit l’ange assis♫ Sur la pierre, disant♫ Il est ressuscité♫ Et il n’est plus ici.",
+    "",
+    "فرأت الملاك جالساً على الحجر صارخاً قائلا قد قام ليس هو ههنا.",
+  ],
+  [
+    Prefix.same + "&C=NoActor",
+    "Ⲉⲑⲃⲉ ⲫⲁⲓ ⲧⲉⲛϯⲱ̀ⲟⲩ ⲛⲁϥ : ⲉⲛⲱϣ ̀ⲉ̀ⲃⲟⲗ ⲉⲛϫⲱ ⲙ̀ⲙⲟⲥ : ϫⲉ ⲕ̀ⲥ̀ⲙⲁⲣⲱⲟⲩⲧ ⲱ̀ Ⲡⲁ⳪ Ⲓⲏ̅ⲥ̅ : " + seasonal.giaki.COP + ".",
+    "C’est pourquoi nous le glorifions♫ En clamant et disant♫ Béni sois-tu Seigneur Jésus,♫ Car tu ressuscitas et nous sauvas.",
+    "",
+    "فلهذا نمجده صارخين قائلين مُبارك أنت يا ربي يسوع لأنك قمت وخلصتنا.",
+  ],
 ],
 [
   [
@@ -33722,7 +34707,7 @@ PrayersArrayFR = [[
   [
     Prefix.same + "&C=Diacon",
     "Ⲧ̀ϧⲁⲉ̀ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ϩⲟⲟⲩ: ϯⲛⲁϫⲱϣ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲡⲁⲡ̀ⲛⲉⲩⲙⲁ: ⲉ̀ϫⲉⲛ ⲥⲁⲣⲝ ⲛⲓⲃⲉⲛ ⲉ̀ⲧⲁⲓⲑⲁⲙⲓⲱⲟⲩ: ⲡⲓⲠ̀ⲛⲉⲩⲙⲁ ⲙ̀Ⲡⲁⲣⲁⲕⲗⲏⲧⲟⲛ.",
-    "\"A la fin des temps, j’enverrai mon esprit sur tout corps,\" l’Esprit Consolateur.",
+    "\"A la fin des temps, j’enverrai mon esprit sur tout corps,\"l’Esprit Consolateur.",
     "",
     "فى أخر الأيام أسكب من روحى على كل جسد. الروح المُعَزي.",
   ],
@@ -33761,6 +34746,654 @@ PrayersArrayFR = [[
     "",
     "تأنى علىّ أيها الوحيد الجنس لأنى أخطأت اليك. الروح المُعَزي.",
   ],
+],
+[
+  [
+      Prefix.psalmody + "ConcludingHymn&C=Title",
+      "",
+      "Conclusion des Prières",
+      "",
+      "ختام الصلوات"
+  ],
+  [
+      Prefix.same + "&C=Diacon",
+      "Ⲁⲙⲏⲛ. Ⲕⲩⲣⲓⲉ ⲉⲗⲉⲏ̀ⲥⲟⲛ ⲕⲩⲣⲓⲉ ⲉⲗⲉⲏ̀ⲥⲟⲛ Ⲕⲩⲣⲓⲉ ⲉⲗⲉⲏ̀ⲥⲟⲛ",
+      "Amen. Pitié Seigneur, Pitié Seigneur, Pitié Seigneur",
+      "",
+      "آمين يا رب ارحم يا رب ارحم يا رب ارحم"
+  ],
+  [
+      Prefix.same + "&C=Diacon",
+      "Ⲫϯ ⲛⲁⲓ ⲛⲁⲛ.",
+      "Dieu aie pitié de nous.",
+      "",
+      "يا الله ارحمنا"
+  ],
+  [
+      Prefix.same + "&C=Diacon",
+      "Ⲫϯ ⲥⲱⲧⲉⲙ ⲉ̀ⲣⲟⲛ.",
+      "Dieu écoute nous.",
+      "",
+      "يا الله اسمعنا"
+  ],
+  [
+      Prefix.same + "&C=Diacon",
+      "Ⲫϯ ⲥⲟⲙⲥ ⲉ̀ⲣⲟⲛ.",
+      "Dieu regarde nous.",
+      "",
+      "يا الله أنظر إلينا"
+  ],
+  [
+      Prefix.same + "&C=Diacon",
+      "Ⲫϯ ϫⲟⲩϣⲧ ⲉ̀ⲣⲟⲛ.",
+      "Dieu observe nous.",
+      "",
+      "يا الله أطلع علينا"
+  ],
+  [
+      Prefix.same + "&C=Diacon",
+      "Ⲫϯ ϣⲉⲛϩⲏⲧ ϧⲁⲣⲟⲛ.",
+      "Dieu traite-nous avec clémence.",
+      "",
+      "يا الله تراءف علينا"
+  ],
+  [
+      Prefix.same + "&C=Diacon",
+      "Ⲁⲛⲟⲛ ϧⲁ ⲡⲉⲕⲗⲁⲟⲥ.",
+      "Nous sommes ton peuple.",
+      "",
+      "نحن شعبك"
+  ],
+  [
+      Prefix.same + "&C=Diacon",
+      "Ⲁⲛⲟⲛ ϧⲁ ⲡⲉⲕⲡ̀ⲗⲁⲥⲙⲁ.",
+      "Nous sommes ta création.",
+      "",
+      "نحن جُبلتك"
+  ],
+  [
+      Prefix.same + "&C=Diacon",
+      "Ⲛⲁϩⲙⲉⲛ ̀ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲛⲉⲛϫⲁϫⲓ.",
+      "Délivre-nous de nos ennemis.",
+      "",
+      "نجنا من أعدائنا"
+  ],
+  [
+      Prefix.same + "&C=Diacon",
+      "Ⲛⲁϩⲙⲉⲛ ̀ⲉ̀ⲃⲟⲗϩⲁ ⲟⲩϩ̀ⲃⲱⲛ.",
+      "Délivre-nous de la cherté.",
+      "",
+      "نجنا من الغلاء"
+  ],
+  [
+      Prefix.same + "&C=Diacon",
+      "Ⲁⲛⲟⲛ ϧⲁ ⲛⲉⲕⲉ̀ⲃⲓⲁⲓⲕ.",
+      "Nous sommes tes serviteurs.",
+      "",
+      "نحن عبيدك"
+  ],
+  [
+      Prefix.same + "&C=Diacon",
+      "Ⲩⲓⲟⲩⲥ ⲑⲉⲟⲥ ⲛ̀ⲑⲟⲕ.",
+      "Tu es le fils de Dieu.",
+      "",
+      "أنتَ ابن الله"
+  ],
+  [
+      Prefix.same + "&C=Diacon",
+      "Ⲁⲛⲛⲁϩϯ ⲉ̀ⲣⲟⲕ.",
+      "Nous croyons en Toi.",
+      "",
+      "آمنا بك"
+  ],
+  [
+      Prefix.same + "&C=Diacon",
+      seasonal.giaki.COP + ".",
+      seasonal.giaki.FR + ".",
+      "",
+      seasonal.giaki.AR + ".",
+    ],
+  [
+      Prefix.same + "&C=Diacon",
+      "Ϫⲉⲙⲡⲉⲛϣⲓⲛⲓ ϧⲉⲛ ⲡⲉⲕⲟⲩϫⲁⲓ.",
+      "Donne-nous ton salut.",
+      "",
+      "تعهدنا بخلاصك"
+  ],
+  [
+      Prefix.same + "&C=Diacon",
+      "Ⲟⲩⲟϩ ⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ̀ⲉ̀ⲃⲟⲗ. Ⲕⲩⲣⲓⲉ ⲉⲗⲉⲏ̀ⲥⲟⲛ.",
+      "Pardonne-nous nos péchés. Pitié Seigneur.",
+      "",
+      "واغفر لنا خطايانا. يا رب ارحم."
+  ]
+],
+[
+  [
+    Prefix.psalmody + "SaintsCommemoration&C=Title",
+    "",
+    "Commémoration des saints",
+    "Picinodoc `nte nye;ouab",
+    "مجمع القديسين"
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲁⲣⲓⲡⲣⲉⲥⲃⲉⲩⲓⲛ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ : ⲱ̀ ⲧⲉⲛⲟ̅ⲥ̅ ⲛ̀ⲛⲏⲃ ⲧⲏⲣⲉⲛ ϯⲑⲉⲟⲧⲟⲕⲟⲥ : Ⲙⲁⲣⲓⲁ ⲑ̀ⲙⲁⲩ ⲙ̀Ⲡⲉⲛⲥ̅ⲱ̅ⲣ̅ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ.",
+    "Intercède pour nous tous,♫ notre dame à tous mère de Dieu,♫ Marie mère de notre Sauveur,♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اشفعي فينا يا سيدتنا♫ كلنا والدة الإله♫ مريم أم مخلصنا،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲁⲣⲓⲡⲣⲉⲥⲃⲉⲩⲓⲛ ⲉ̀ϩ̀ⲣⲏⲓ  ⲉ̀ϫⲱⲛ : ⲱ̀ ⲛⲓⲁⲣⲭⲏⲁⲅⲅⲉⲗⲟⲥ ⲉ̅ⲑ̅ⲩ̅ : Ⲙⲓⲭⲁⲏⲗ ⲛⲉⲙ Ⲅⲁⲃⲣⲓⲏⲗ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ.",
+    "Intercédez pour nous tous,♫ Ô les deux archanges purs,♫ Ô Michel et Gabriel,♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اشفعا فينا يا رئيسي♫ الملائكة الطاهرين♫ ميخائيل وغبريال،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲁⲣ̅ⲓ̅ⲡ̅ : ⲱ̀ ⲛⲓⲁⲣⲭⲏⲁⲅⲅⲉⲗⲟⲥ ⲉ̅ⲑ̅ⲩ̅ : Ⲣⲁⲫⲁⲏⲗ ⲛⲉⲙ Ⲥⲟⲩⲣⲓⲏⲗ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Intercédez pour nous tous,♫ Ô les deux archanges purs, Raphaël et Souriel,♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "أشفعا فينا يا رئيسي♫ الملائكة الطاهرين♫ رافائيل وسوريال،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲁⲣ̅ⲓ̅ⲡ̅ : ⲱ̀ ⲛⲓⲁⲣⲭⲏⲁⲅⲅⲉⲗⲟⲥ ⲉ̅ⲑ̅ⲩ̅ : Ⲥⲉⲇⲁⲕⲓⲏⲗ Ⲥⲁⲣⲁⲑⲓⲏⲗ ⲛⲉⲙ Ⲁⲛⲁⲛⲓⲏⲗ : ̀ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Intercédez pour nous tous,♫ Ô vous les archanges purs, Sédakiel, Saraciel et Ananiel, pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اشفعوا فينا يارؤساء♫ الملائكة الأطهار♫ سداكيال وسراتيال وأنانيال،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲁⲣ̅ⲓ̅ⲡ̅ : ⲛ̀ⲓⲑⲣⲟⲛⲟⲥ ⲛⲓⲙⲉⲧⲟ̅ⲥ̅ ⲛⲓϫⲟⲙ : Ⲛⲓⲭⲉⲣⲟⲩⲃⲓⲙ ⲛⲉⲙ Ⲛⲓⲥⲉⲣⲁⲫⲓⲙ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Intercédez pour nous tous,♫ Trônes, Seigneuries, Puissances ♫ Chérubins et Séraphins,♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اشفعي فيناأيتها ♫الكراسي والأرباب والقوات♫ والشيروبيم والسيرافيم،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲁⲣ̅ⲓ̅ⲡ̅: ⲡⲓⲇ̅ ⲛ̀ⲍⲱⲟⲛ :  ⲛ̀ⲁ̀ⲥⲱⲙⲁⲧⲟⲥ :   ⲛ̀ⲗⲓⲧⲟⲩⲣⲅⲟⲥ ⲛ̀ϣⲁϩ ⲛ̀ⲭ̀ⲣⲱⲙ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Intercédez pour nous tous,♫ Ô les quatre incorporels,♫ Les fervents ardents servants,♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اشفعوا فينا أَيُّتهَا♫ الأربعة الحيوانات غير المتجسدين♫ الخدام الملتهبين ناراً،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲁⲣ̅ⲓ̅ⲡ̅ : ⲛⲓⲟⲩⲏⲃ ⲛ̀ⲧⲉ ϯⲙⲉⲑⲙⲏⲓ : ⲡⲓⲕ̅ⲇ̅ ⲙ̀ⲡ̀ⲣⲉⲥⲃⲩⲧⲉⲣⲟⲥ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Intercédez pour nous tous,♫ Les prêtres de vérité,♫ ô les vingt-quatre vieillards,♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اشفعوا فينا يا♫ كهنة الحق الأربعة♫ والعشرين قسيساً،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲁⲣ̅ⲓ̅ⲡ̅: ⲛⲓⲥⲧⲣⲁⲧⲓⲁ̀  :  ⲛ̀ⲁⲅⲅⲉⲗⲓⲕⲟⲛ : ⲛⲉⲙ ⲛⲓⲧⲁⲅⲙⲁ ⲛ̀ⲉ̀ⲡⲟⲩⲣⲁⲛⲓⲟⲛ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Intercédez pour nous tous,♫ Ô les armées angéliques,♫ et les hiérarchies célestes,♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اشفعوا فينا أَيُّهَا العساكر الملائكية والطغمات السمائية،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲱⲃϩ ⲙ̀Ⲡ̀⳪ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ:ⲛⲁⲟ̅ⲥ̅ ⲛ̀ⲓⲟϯ ⲙ̀ⲡⲁⲧⲣⲓⲁⲭⲏⲥ : Ⲁⲃⲣⲁⲁⲙ Ⲓ̀ⲥⲁⲁⲕ Ⲓⲁⲕⲱⲃ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Implorez le Seigneur pour nous,♫ mes seigneurs pères patriarches,♫ Abraham, Isaac, Jacob,♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اطلبوا مِنِ الرَّبِ عَنَّا♫ يا سادتي الآباء البطاركة إبراهيم وإسحق ويعقوب،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲱⲃϩ ⲙ̀Ⲡ̀⳪ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ : ⲱ̀ ⲡⲓⲣⲱⲙⲓ ⲛ̀ⲧⲉⲗⲓⲟⲥ : ⲡⲓⲑⲙⲏⲓ Ⲉⲛⲱⲭ ⲡⲓⲇⲓⲕⲉⲟⲥ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Implore le Seigneur pour nous,♫ ô toi l’homme parfait et juste, l’homme parfait, Enoch le juste,♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اطلب مِنِ الرَّبِ عَنَّا♫ أَيُّهَا الرجل الكامل البار أخنوخ الصديق،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲱ̅ : Ⲏ̀ⲗⲓⲁⲥ ⲡⲓⲑⲉⲥⲃⲓⲧⲏⲥ : ⲛⲉⲙ Ⲉⲗⲓⲥⲉⲟⲥ ⲡⲉϥⲙⲁⲑⲏⲧⲏⲥ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Implore le Seigneur pour nous,♫ Ô Elie le Tishbite,♫ et Elisée son disciple,♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اطلبا مِنِ الرَّبِ عَنَّا♫ يا إيليا التسبيتى وأليشع تلميذه،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲱ̅ : ⲱ̀ Ⲙⲱⲩ̀ⲥⲏⲥ ⲡⲓⲁⲣⲭⲏⲡⲣⲟⲫⲏⲧⲏⲥ : ⲛⲉⲙ Ⲏⲥⲁⲏ̀ⲁⲥ ⲛⲉⲙ Ⲓⲉⲣⲉⲙⲓⲁⲥ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Implorez le Seigneur pour nous,♫ Ô Moïse chef des prophètes, Isaïe et Jérémie,♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اطلبوا مِنِ الرَّبِ عَنَّا♫ يا موسى رئيس الأنبياء وأشعيا وأرميا،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲱ̅ : Ⲇⲁⲩⲓⲇ ⲡⲓⲓⲉⲣⲟⲯⲁⲗⲧⲓⲥ : ⲛⲉⲙ Ⲓⲉⲍⲉⲕⲓⲏⲗ ⲛⲉⲙ Ⲇⲁⲛⲓⲏⲗ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Implore le Seigneur pour nous,♫ Ô David le psalmiste,♫ Ézéchiel et Daniel,♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اطلب مِنِ الرَّبِ عَنَّا♫ يا داود المرتل وحزقيال ودانيال،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲱ̅ : Ⲓⲱⲁⲕⲓⲙ ⲛⲉⲙ Ⲁⲛⲛⲁ ⲛⲉⲙ Ⲓⲱⲥⲏⲫ ⲡⲓⲡ̀ⲣⲉⲥⲃⲩⲧⲉⲣⲟⲥ : ⲛⲉⲙ ⲡⲓⲑ̀ⲙⲏⲓ Ⲓⲱⲃ ⲛⲉⲙ Ⲓⲱⲥⲏⲫ ⲛⲉⲙ Ⲛⲓⲕⲟⲇⲏⲙⲟⲥ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Implorez le Seigneur pour nous,♫ Joachim et Anne et Joseph le prêtre,♫ Job le juste, Joseph, Nicodème,♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اطلبوا مِنِ الرَّبِ عَنَّا♫ يا يواقيم وحنه ويوسف الشيخ والصديق ايوب ويوسف ونيقوديموس،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲱ̅ : Ⲙⲉⲗⲭⲓⲥⲉⲇⲉⲕ ⲛⲉⲙ Ⲁⲁⲣⲱⲛ : ⲛⲉⲙ Ⲍⲁⲭⲁⲣⲓⲁⲥ ⲛⲉⲙ Ⲥⲩⲙⲉⲱⲛ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Implorez le Seigneur pour nous,♫ Melchisédek et Aaron ♫ Zacharie et Siméon,♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اطلبوا مِنِ الرَّبِ عَنَّا♫ يا ملشيصادق وهرون وزكريا وسمعان،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲱ̅ : ⲛⲓⲭⲟⲣⲟⲥ ⲛ̀ⲧⲉ ⲛⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ ⲛⲉⲙ ⲛⲓⲑ̀ⲙⲏⲓ ⲛⲉⲙ ⲛⲓⲇⲓⲕⲉⲟⲥ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Implorez le Seigneur pour nous,♫ Vous tous les chœurs des prophètes,♫ et des justes et des purs,♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اطلبوا مِنِ الرَّبِ عَنَّا♫ يا صفوف الأنبياء والأبرار والصديقين،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲁⲣ̅ⲓ̅ⲡ̅ : ⲱ̀ ⲡⲓⲡ̀ⲣⲟⲇⲣⲟⲙⲟⲥ ⲙ̀ⲃⲁⲡⲧⲓⲥⲧⲏⲥ : Ⲓⲱ̅ⲁ̅ ⲡⲓⲣⲉϥϯⲱⲙⲥ: ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Intercéde pour nous tous,♫ Ô précurseur et baptiste,♫ ô toi Jean le Baptiste,♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اشفع فينا أَيُّهَا السابق الصابغ يوحنا المعمدان،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲁⲣ̅ⲓ̅ⲡ̅ : ⲱ̀ ⲡⲓⲣ̅ⲙ̅ⲇ̅ ⲛ̀ϣⲟ: ⲛⲉⲙ ⲡⲓⲡⲁⲣⲑⲉⲛⲟⲥ ⲛ̀ⲉⲩⲁⲅⲅⲉⲗⲓⲥⲧⲏⲥ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Intercédez pour nous tous,♫ Les cent quarante-quatre mille,♫ et l’évangéliste pur,♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اشفعوا فينا أَيُّهَا المئة والأربعة والأربعين ألفاً والبتول الانجيلى،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲱ̅: ⲛⲁⲟ̅ⲥ̅ ⲛ̀ⲓⲟϯ : ⲛ̀ⲁ̀ⲡⲟⲥⲧⲟⲗⲟⲥ : ⲛⲉⲙ : ⲡ̀ⲥⲉⲡⲓ ⲛ̀ⲧⲉ ⲛⲓⲙⲁⲑⲏⲧⲏⲥ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Implorez le Seigneur pour nous,♫ Mes seigneurs et pères apôtres,♫ et tous les autres disciples,♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اطلبوا مِنِ الرَّبِ عَنَّا♫ يا سادتي الآباء الرسل وبقية التلاميذ،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲱ̅ : ⲡⲓⲁⲣⲭⲏⲇⲓⲁ̀ⲕⲱⲛ ⲉⲧⲥ̀ⲙⲁⲣⲱⲟⲩⲧ: Ⲥ̀ⲧⲉⲫⲁⲛⲟⲥ ⲡⲓϣⲟⲣⲡ ⲙ̀⳥ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Implore le Seigneur pour nous,♫ L’archidiacre béni Etienne,♫ ô toi le premier martyr,♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اطلب مِنِ الرَّبِ عَنَّا♫ يا رئيس الشمامسة المبارك استفانوس الشهيد الأول،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲱ̅ : ⲡⲓⲑⲉⲱⲣⲓⲙⲟⲥ ⲛ̀ⲉⲩⲁⲅⲅⲉⲗⲓⲥⲧⲏⲥ : Ⲙⲁⲣⲕⲟⲥ ⲡⲓⲁⲡ̀ⲟⲥⲧⲟⲗⲟⲥ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Implore le Seigneur pour nous,♫ Le contemplateur de Dieu, l’évangéliste Marc l’apôtre,♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اطلب مِنِ الرَّبِ عَنَّا♫ أَيُّهَا الناظر الإله الإنجيلي مرقس الرسول،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲱ̅ : ⲡⲓⲁⲑⲗⲟⲫⲟⲣⲟⲥ ⲙ̀⳥ : ⲡⲁⲟ̅ⲥ̅ ⲡ̀ⲟⲩⲣⲟ Ⲅⲉⲱⲣⲅⲓⲟⲥ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Implore le Seigneur pour nous,♫ Le persévérant martyr,♫ ô mon Seigneur le roi Georges,♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اطلب مِنِ الرَّبِ عَنَّا♫ أَيُّهَا الشهيد المجاهِد سيدى الملك جيؤرجيوس،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲱ̅ : Ⲑⲉⲟ̀ⲇⲱⲣⲟⲥ ⲛⲉⲙ Ⲑⲉⲟ̀ⲇⲱⲣⲟⲥ : ⲛⲉⲙ Ⲗⲉⲟⲛⲧⲓⲟⲥ ⲛⲉⲙ Ⲡⲁⲛⲓⲕⲁⲣⲟⲥ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Implorez le Seigneur pour nous,♫ Théodore et Théodore,♫ Léonce et Panicaros,♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اطلبوا مِنِ الرَّبِ عَنَّا♫ يا تيؤدوروس وتيؤدوروس ولاونديوس وبانيكاروس،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲱ̅ : Ⲫⲓⲗⲟⲡⲁⲧⲏⲣ Ⲙⲉⲣⲕⲟⲩⲣⲓⲟⲥ : ⲛⲉⲙ ⲁ̀ⲡⲁ Ⲙⲏⲛⲁ ⲛⲉⲙ ⲁ̀ⲡⲁ Ⲃⲓⲕⲧⲱⲣ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Implorez le Seigneur pour nous,♫ Philopater Mercorios,♫ Abba Mina, Abba Victor,♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اطلبوا مِنِ الرَّبِ عَنَّا♫ يا فيلوباتير مرقوريوس وأبا مينا وأبا بقطر،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲱ̅ : ⲕⲩⲣⲓ ̀Ⲕ̀ⲗⲁⲩⲇⲓⲟⲥ ⲛⲉⲙ Ⲑⲉⲟ̀ⲇⲱⲣⲟⲥ : ⲛⲉⲙ ⲁ̀ⲡⲁ Ⲥⲭⲩⲣⲟⲛ ⲛⲉⲙ ⲁ̀ⲡⲁ Ⲓⲥⲁⲁⲕ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Implorez le Seigneur pour nous,♫ Seigneur Claude et Théodore,♫ Abba Ischyron, Abba Isaac,♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اطلبوا مِنِ الرَّبِ عَنَّا♫ يا سيدي اقلوديوس وتيؤدوروس وأبا سخيرون وأبا اسحق،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲱ̅ : Ⲃⲁⲥⲓⲗⲓⲧⲏⲥ ⲛⲉⲙ Ⲉⲩⲥⲉⲃⲓⲟⲥ : ⲛⲉⲙ Ⲙⲁⲕⲁⲣⲓⲟⲥ ⲛⲉⲙ Ⲫⲓⲗⲟⲑⲉⲟⲥ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Implorez le Seigneur pour nous,♫ Basilidis et Eusèbe ♫ et Macaire et Philothée,♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اطلبوا مِنِ الرَّبِ عَنَّا♫ يا واسيليدس وأوسابيوس ومقاريوس وفيلوثاؤس،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲱ̅ : ⲁⲃⲃⲁ Ⲡⲓⲥⲟⲩⲣⲁ ⲛⲉⲙ ⲁ̀ⲡⲁ Ⲡ̀ϣⲱⲓ : ⲛⲉⲙ ⲁ̀ⲡⲁ Ⲏ̀ⲥⲓ ⲛⲉⲙ Ⲑⲉⲕⲗⲁ ⲧⲉϥⲥⲱⲛⲓ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Implorez le Seigneur pour nous,♫ Abba Pisura, Abba Epshoi ♫ Abba Isi et sa sœur Thècle,♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اطلبوا مِنِ الرَّبِ عَنَّا♫ يا أنبا بسوره وأبا بشاى وأبا ايسى وتكلا اخته،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲱ̅: ⲛⲓⲁⲑⲗⲟⲫⲟⲣⲟⲥ ⲙ̀⳥ : Ⲓⲟⲩⲥⲧⲟⲥ ⲛⲉⲙ Ⲁⲡⲁⲗⲓ ⲛⲉⲙ Ⲑⲉⲟ̀ⲕⲗⲓⲁ̀ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Implorez le Seigneur pour nous,♫ Les persévérants martyrs ♫ Justus, Apalli et Théoclie,♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اطلبوا مِنِ الرَّبِ عَنَّا♫ أَيُّهَا الشهداء المجاهدون يسطس وأبالى وتاوكليا،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲱ̅ : ⲁⲃⲃⲁ Ⲓⲁⲕⲱⲃⲟⲥ ⲡⲓϥⲉⲣⲥⲓⲥ : ⲛⲉⲙ ⲡⲓⲁ̀ⲅⲓⲟⲥ Ⲥⲉⲣⲅⲓⲟⲥ ⲛⲉⲙ Ⲃⲁⲭⲟⲥ: ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Implorez le Seigneur pour nous,♫ Ô Abba Jacob le Perse,♫ Saint-Serge et aussi Bacchus, pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اطلبوا مِنِ الرَّبِ عَنَّا♫ ياأنبا يعقوب الفارسي والقِدِّيسْ سرجيوس وواخس،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲱ̅: ⲛⲓⲁⲑⲗⲟⲫⲟⲣⲟⲥ ⲙ̀⳥ : Ⲕⲟⲥⲙⲁ ⲛⲉⲙ ⲛⲉϥⲥ̀ⲛⲏⲟⲩ ⲛⲉⲙ ⲧⲟⲩⲙⲁⲩ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Implorez le Seigneur pour nous,♫ Les persévérants martyrs,♫ Côme et ses frères et leur mère,♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اطلبوا مِنِ الرَّبِ عَنَّا♫ أَيُّهَا الشهداء المجاهدون قزمان واخوته وأمهم،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲱ̅ : ⲁ̀ⲡⲁ Ⲕⲓⲣ ⲛⲉⲙ Ⲓⲱ̅ⲁ̅ ⲡⲉϥⲥⲟⲛ : ⲛⲉⲙ Ⲃⲁⲣⲃⲁⲣⲁ ⲛⲉⲙ Ⲓⲟⲩⲗⲓⲁⲛⲏ ⲛⲉⲙ Ⲇⲩⲙⲓⲁⲛⲏ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Implorez le Seigneur pour nous,♫ Abba Kir et Jean son frère, Barbara, Julianne, Damienne, pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اطلبوا مِنِ الرَّبِ عَنَّا♫ يا اباقير ويوحنا أخوه وبرباره ويوليانه ودميانه،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲱ̅ : ⲛⲓⲁⲑⲗⲟⲫⲟⲣⲟⲥ ⲙ̀⳥ : ⲕⲩⲣⲓ Ⲁⲡⲁⲧⲏⲣ ⲛⲉⲙ Ⲏ̀ⲣⲁⲏ ⲧⲉϥⲥⲱⲛⲓ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Implorez le Seigneur pour nous,♫ Les persévérants martyrs, Seigneur Apadir et sa sœur Iraï,♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اطلبوا مِنِ الرَّبِ عَنَّا♫ أَيُّهَا الشهيدان المجاهدان السيد أبادير وإيرائي أخته،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲱ̅ : ⲛⲓⲁⲑⲗⲟⲫⲟⲣⲟⲥ ⲙ̀⳥ : Ⲓⲟⲩⲗⲓⲟⲥ ⲛⲉⲙ ⲛⲏⲉⲑⲛⲉⲙⲁϥ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Implorez le Seigneur pour nous,♫ les persévérants martyrs,♫ Julius et ses compagnons,♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اطلبوا مِنِ الرَّبِ عَنَّا♫ أَيُّهَا الشهداء المجاهدون يوليوس ومن معه،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲱ̅ : ⲛⲓⲁⲑⲗⲟⲫⲟⲣⲟⲥ ⲙ̀⳥ : ⲙⲁⲣⲓ Ⲡⲁϩⲛⲁⲙ ⲛⲉⲙ Ⲥⲁⲣⲣⲁ ⲧⲉϥⲥⲱⲛⲓ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Implorez le Seigneur pour nous,♫ les persévérants martyrs,♫ Mari Behnam et sa sœur Sarah,♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اطلبوا مِنِ الرَّبِ عَنَّا♫ أَيُّهَا الشهيدان المجاهدان مار بهنام وساره أخته،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲱ̅ : ⲁⲃⲃⲁ Ⲥⲁⲣⲁ̀ⲡⲁⲙⲱⲛ ⲡⲓⲉⲡⲓⲥⲕⲟⲡⲟⲥ : ⲛⲉⲙ Ⲯⲁⲧⲉ ⲛⲉⲙ Ⲅⲁⲗⲗⲓⲛⲓⲕⲟⲥ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Implorez le Seigneur pour nous,♫ Anba Sarapamon l'évêque,♫ et Psaté et Gallinikos,♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اطلبوا مِنِ الرَّبِ عَنَّا♫ يا أنبا سرابامون الأسقف وأبصادى وغلينيكوس،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲱ̅ : ⲛⲓⲁⲑⲗⲟⲫⲟⲣⲟⲥ ⲙ̀⳥ : ⲡⲓⲙ̅ ⲉ̅ⲑ̅ⲩ̅ ⲛ̀ⲧⲉ Ⲥⲉⲃⲁⲥⲧⲉ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Implorez le Seigneur pour nous,♫ les persévérants martyrs,♫ les quarante saints de Sébasté,♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اطلبوا مِنِ الرَّبِ عَنَّا♫ أَيُّهَا الشهداء المجاهدون الأربعون قديساً بسبسطية،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲱ̅ : ⲁⲃⲃⲁ Ⲡⲓⲣⲱⲟⲩ ⲛⲉⲙ Ⲁⲑⲱⲙ : ⲛⲉⲙ Ⲓⲱ̅ⲁ̅ ⲛⲉⲙ Ⲥⲩⲙⲉⲱⲛ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Implorez le Seigneur pour nous,♫ Abba Piru et Atom,♫ Aussi Jean et Siméon ♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اطلبوا مِنِ الرَّبِ عَنَّا♫ يا أنبا بيروه واتوم ويوحنا وسمعان،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲱ̅ : ⲛⲓⲁⲑⲗⲟⲫⲟⲣⲟⲥ ⲙ̀⳥ : ⲁ̀ⲡⲁ Ⲡ̀ϣⲱⲓ ⲛⲉⲙ ⲡⲉϥϣ̀ⲫⲏⲣ Ⲡⲉⲧⲣⲟⲥ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Implorez le Seigneur pour nous,♫ les persévérants martyrs,♫ Abba Epshoï  et son ami Pierre,♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اطلبوا مِنِ الرَّبِ عَنَّا♫ أَيُّهَا الشهيدان المجاهدان أبا بشوى وصديقه بطرس،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲱ̅ : ⲁ̀ⲡⲁ Ⲕ̀ⲗⲟϫ ⲡⲓⲡ̀ⲣⲉⲥⲃⲩⲧⲉⲣⲟⲥ : ⲛⲉⲙ ⲁ̀ⲡⲁ Ⲡ̀ϫⲟⲗ ⲛⲉⲙ ⲁ̀ⲡⲁ Ⲕⲁⲩ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Implorez le Seigneur pour nous,♫ Ô Abba Eklog le prêtre,♫ Abba Epgol et Abba Kav,♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اطلبوا مِنِ الرَّبِ عَنَّا♫  يا أبا إكلوج القس وابا بجول وابا كاف،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲱ̅ : ⲁ̀ⲡⲁ Ⲓⲱ̅ⲁ̅ ⲡⲓⲣⲉⲙϩⲁⲣⲁⲕⲗⲓⲁ̀ : ⲛⲉⲙ ⲕⲩⲣⲓ Ⲡⲓⲫⲁⲙⲱⲛ ⲛⲉⲙ Ⲡⲓ⳧ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Implorez le Seigneur pour nous,♫ Abba Jean de Héraclie,♫ Seigneur Piphamon et Pistavros,♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اطلبوا مِنِ الرَّبِ عَنَّا♫ يا أبا يوحنا الهرقلى والسيد بفام وبسطوروس،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲱ̅ : Ⲏⲥⲏⲇⲱⲣⲟⲥ ⲛⲉⲙ Ⲡⲁⲛⲧⲉⲗⲉⲟⲛ : Ⲥⲟⲫⲓ̀ⲁ ⲛⲉⲙ Ⲉⲩⲫⲟⲙⲓⲁ̀ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Implorez le Seigneur pour nous,♫ Isidore et Pantéléon,♫ Sophie et Euphémie,♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اطلبوا مِنِ الرَّبِ عَنَّا♫ يا ايسيذوروس وبندلاون وصوفيا وإفوميه،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲱ̅ : ⲕⲩⲣⲓ Ⲁⲡⲁⲛⲟⲩⲃ ⲛⲉⲙ Ⲡ̀ⲑⲟⲗⲟⲙⲉⲟⲥ : ⲛⲉⲙ Ⲁⲡⲁⲕⲣⲁⲅⲟⲛ ⲛⲉⲙ Ⲥⲟⲩⲛⲥⲉⲛⲛⲓⲟⲥ: ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Implorez le Seigneur pour nous,♫ Seigneur Abanoub et Ptolomée,♫ Abba Kragon et Soussenios,♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اطلبوا مِنِ الرَّبِ عَنَّا♫ يا سيدى أبانوب وأبطلماوس وابكراجون وسوسنيوس،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲱ̅ : ⲱ̀ ⲡⲓⲛⲓϣϯ ⲛ̀ⲁⲣⲭⲏⲉⲣⲉⲩⲥ : ⲁⲃⲃⲁ Ⲡⲉⲧⲣⲟⲥ ⲓⲉⲣⲟ⳥ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Implore le Seigneur pour nous,♫ Ô toi le grand archiprêtre,♫ Abba Pierre sceau des martyrs,♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اطلب مِنِ الرَّبِ عَنَّا♫ يا رئيس الكهنة العظيم أنبا بطرس خاتم الشهداء،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲱ̅ : ⲱ̀ ⲛⲓⲃⲉⲣⲓ ⲙ̀⳥ : Ⲡⲓ⳧ ⲛⲉⲙ Ⲁⲣⲥⲉⲛⲓⲟⲥ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Implorez le Seigneur pour nous,♫ Ô vous les nouveaux martyrs,♫ Ô Pistavros et Arsène,♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اطلبا مِنِ الرَّبِ عَنَّا♫ أَيُّهَا الشهيدان الجديدان بسطوروس وارسانيوس،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲱ̅ : ⲱ̀ Ⲙⲓⲭⲁⲏⲗ ⲡⲓϩⲏⲅⲟⲩⲙⲉⲛⲟⲥ : ⲛⲉⲙ Ⲙⲓⲭⲁⲏⲗ ⲡⲓⲙⲟⲛⲁⲭⲟⲥ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Implorez le Seigneur pour nous,♫ Ô Michel toi l’higoumène,♫ et aussi Michel le moine,♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اطلبا مِنِ الرَّبِ عَنَّا♫ يا ميخائيل القمص وميخائيل الراهب،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲱ̅ : ⲛⲓⲭⲟⲣⲟⲥ ⲛ̀ⲧⲉ ⲛⲓ⳥ : ⲉⲧⲁⲩϣⲉⲡⲙ̀ⲕⲁϩ ⲉⲑⲃⲉ Ⲡⲭ̅ⲥ̅ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Implorez le Seigneur pour nous,♫ Ô vous les chœurs des martyrs,♫ qui souffrirent pour le Christ,♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اطلبوا مِنِ الرَّبِ عَنَّا♫ يا صفوف الشهداء الذين تألموا من أجل المسيح،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲱ̅ : ⲛⲁⲟ̅ⲥ̅ ⲛ̀ⲓⲟϯ ⲙ̀ⲙⲁⲓⲛⲟⲩϣⲏⲣⲓ : Ⲁⲛⲧⲱⲛⲓⲟⲥ ⲛⲉⲙ ⲁⲃⲃⲁ Ⲡⲁⲩⲗⲉ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Implorez le Seigneur pour nous,♫ Nos seigneurs et pères aimant leurs enfants, Antoine, et aussi Abba Paul ♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اطلبا مِنِ الرَّبِ عَنَّا♫ يا سيدى الأبوين محبى أولادهما أنطونيوس وأنبا بولا،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲱ̅ : ⲡⲓⲅ̅ ⲉⲑ̅ⲩ̅ ⲁⲃⲃⲁ Ⲙⲁⲕⲁⲣⲓ : ⲛⲉⲙ ⲛⲟⲩϣⲏⲣⲓ ⲛ̀ⲥ̀ⲧⲁⲩⲣⲟⲫⲟⲣⲟⲥ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Implorez le Seigneur pour nous,♫ Les trois saints Abba Macaire♫  et leurs fils portant la croix,♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اطلبوا مِنِ الرَّبِ عَنَّا♫ أَيُّهَا الثلاثة مقارات القِدِّيسْون وأولادهم لباس الصليب،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲱ̅ : ⲛⲁⲟ̅ⲥ̅  ⲛ̀ⲓⲟϯ ⲛ̀ϩⲏⲅⲟⲩⲙⲉⲛⲟⲥ : ⲁⲃⲃⲁ Ⲓⲱ̅ⲁ̅ ⲛⲉⲙ ⲁⲃⲃⲁ Ⲇⲁⲛⲓⲏⲗ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Implorez le Seigneur pour nous,♫ Nos seigneurs Pères higoumènes,♫ Abba Jean, Abba Daniel,♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اطلبا مِنِ الرَّبِ عَنَّا♫ يا سيدى الأبوين القمصين أنبا يوحنا وأنبا دانيال،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲱ̅ : ⲛⲁⲟ̅ⲥ̅  ⲛ̀ⲓⲟϯ ⲙ̀ⲙⲁⲓⲛⲟⲩϣⲏⲣⲓ : ⲁⲃⲃⲁ Ⲡⲓϣⲱⲓ ⲛⲉⲙ ⲁⲃⲃⲁ Ⲡⲁⲩⲗⲉ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Implorez le Seigneur pour nous,♫ Nos seigneurs et pères aimant leurs enfants,♫ Abba Pishoy et Abba Paul,♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اطلبا مِنِ الرَّبِ عَنَّا♫ يا سيدى الأبوين محبى أولادهما أنبا بيشوي وأنبا بولا،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲱ̅ : ⲛⲉⲛⲓⲟϯ  ⲉ̅ⲑ̅ⲩ̅  ⲛ̀ⲣⲱⲙⲉⲟⲥ : Ⲙⲁⲝⲓⲙⲟⲥ ⲛⲉⲙ Ⲇⲟⲙⲉⲧⲓⲟⲥ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Implorez le Seigneur pour nous,♫ Nos Pères saints, les deux romains,♫ Maxime et Dométien,♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اطلبا مِنِ الرَّبِ عَنَّا♫ يا أبوينا القِدِّيسْين الروميين مكسيموس ودوماديوس،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲱ̅ : ⲡⲓⲙ̅ⲑ̅ ⲙ̀⳥ : ⲛⲓϧⲉⲗⲗⲟⲓ ⲛ̀ⲧⲉ Ϣⲓϩⲏⲧ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Implorez le Seigneur pour nous,♫ Les quarante-neuf martyrs,♫ Ô les anciens de Scété ♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اطلبوا مِنِ الرَّبِ عَنَّا♫ أَيُّهَا التسعة والأربعون شهيداً شيوخ شيهات،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲱ̅ : ⲡⲓϫⲱⲣⲓ ⲉ̅ⲑ̅ⲩ ⲁⲃⲃⲁ Ⲙⲱⲥⲏ : ⲛⲉⲙ Ⲓⲱ̅ⲁ̅ ⲡⲓⲭⲁⲙⲏ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Implorez le Seigneur pour nous,♫ Le puissant Abba Moïse,♫ et aussi Jean Kamé ♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اطلبا مِنِ الرَّبِ عَنَّا♫ أَيُّهَا القوي القِدِّيسْ أنبا موسي ويحنس كاما،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲱ̅ : ⲁⲃⲃⲁ Ⲡⲁϧⲱⲙ ⲫⲁ ϯⲕⲟⲓⲛⲱⲛⲓⲁ̀ : ⲛⲉⲙ Ⲑⲉⲟ̀ⲇⲱⲣⲟⲥ ⲡⲉϥⲙⲁⲑⲏⲧⲏⲥ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Implorez le Seigneur pour nous,♫ Abba Pacôme le Cénobite,  ♫ et Théodore son disciple  ♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اطلبا مِنِ الرَّبِ عَنَّا♫ يا أنبا باخوم أبا الشركة وثيؤدورس تلميذه،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲱ̅ : ⲁⲃⲃⲁ Ϣⲉⲛⲟⲩϯ ⲡⲓⲁⲣⲭⲏⲙⲁⲛⲇ̀ⲣⲓⲧⲏⲥ : ⲛⲉⲙ ⲁⲃⲃⲁ Ⲃⲓⲥⲁ ⲡⲉϥⲙⲁⲑⲏⲧⲏⲥ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Implorez le Seigneur pour nous,♫ Abba Chénouté l’archimandrite,♫ et Abba Wissa son disciple,♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اطلبا مِنِ الرَّبِ عَنَّا♫ يا أنبا شنوده رئيس المتوحدين وأنبا ويصا تلميذه،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲱ̅ : ⲁⲃⲃⲁ Ⲛⲟⲩϥⲉⲣ ⲛⲉⲙ ⲁⲃⲃⲁ Ⲕⲁⲣⲟⲥ : ⲛⲉⲙ ⲡⲉⲛⲓⲱⲧ Ⲡⲁⲫⲛⲟⲩⲧⲓⲟⲥ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Implorez le Seigneur pour nous,♫ Abba Nofer, Abba Karos,♫ et notre père Pavnotios,♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اطلبوا مِنِ الرَّبِ عَنَّا♫ يا أنبا نفر وأنبا كاروس وأبانا بفنوتيوس،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲱ̅ : ⲁⲃⲃⲁ Ⲥⲁⲙⲟⲩⲏⲗ ⲡⲓⲟ̀ⲙⲟⲗⲟⲅⲓⲧⲏⲥ : ⲛⲉⲙ Ⲓⲟⲩⲥⲧⲟⲥ ⲛⲉⲙ Ⲁⲡⲟⲗⲗⲟ ⲛⲉϥⲙⲁⲑⲏⲧⲏⲥ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Implorez le Seigneur pour nous,♫ Abba Samuel le confesseur, Justus, Apollo ses disciples,♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اطلبوا مِنِ الرَّبِ عَنَّا♫ يا أنبا صموئيل المعترف ويُسطس وأبوللو تلميذيه،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲱ̅ : ⲁⲃⲃⲁ Ⲁⲡⲟⲗⲗⲟ ⲛⲉⲙ ⲁⲃⲃⲁ Ⲁⲡⲓⲡ : ⲛⲉⲙ ⲡⲉⲛⲓⲱⲧ ⲁⲃⲃⲁ Ⲡⲓϫⲓⲙⲓ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Implorez le Seigneur pour nous,♫ Abba Apollo, Abba Apip,♫ notre père Abba Pigimi,♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اطلبوا مِنِ الرَّبِ عَنَّا♫ يا أنبا ابوللو وأنبا أبيب وأبانا أنبا بيجيمى،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲱ̅ : ⲁⲃⲃⲁ Ⲉⲩⲕⲓⲛ ⲛⲉⲙ ⲁⲃⲃⲁ Ϩ̀ⲣⲟⲛ : ⲛⲉⲙ ⲁ̀ⲡⲁ Ϩⲱⲣ ⲛⲉⲙ ⲁ̀ⲡⲁ Ⲫⲓⲥ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Implorez le Seigneur pour nous,♫ Abba Evkine, Abba Ehéron, Abba Orem, Abba Epsis,♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اطلبوا مِنِ الرَّبِ عَنَّا♫ يا أنبا افكين وانبا اهرون وأبا هور وأبا فيس،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲱ̅ : ⲁⲃⲃⲁ Ⲡⲁⲣⲥⲱⲙⲁ ⲛⲉⲙ Ⲉⲫⲣⲉⲙ : ⲛⲉⲙ Ⲓⲱ̅ⲁ̅ ⲛⲉⲙ Ⲥⲩⲙⲉⲱⲛ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Implorez le Seigneur pour nous,♫ Abba Parsouma et Ephraïm,♫ aussi Jean et Siméon,♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اطلبوا مِنِ الرَّبِ عَنَّا♫ يا أنبا برسوما وافريم ويوحنا وسمعان،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲱ̅ : Ⲉⲡⲓⲫⲁⲛⲓⲟⲥ ⲛⲉⲙ Ⲁⲙⲙⲱⲛⲓⲟⲥ : ⲛⲉⲙ Ⲁⲣⲭⲏⲗⲗⲓⲧⲏⲥ ⲛⲉⲙ Ⲁⲣⲥⲉⲛⲓⲟⲥ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Implorez le Seigneur pour nous,♫ Épiphane et Amonios,♫ Archillidis et Arsène,♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اطلبوا مِنِ الرَّبِ عَنَّا♫ يا أبيفانيوس وأمونيوس وأرشليدس وأرسانيوس،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲱ̅ : ⲛⲁⲟ̅ⲥ̅  ⲛ̀ⲓⲟϯ ⲛ̀ⲁⲥⲕⲏⲧⲏⲥ : ⲁⲃⲃⲁ Ⲁⲃⲣⲁⲁⲙ ⲛⲉⲙ Ⲅⲉⲱⲣⲅⲏ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Implorez le Seigneur pour nous,♫ Mes seigneurs et Pères ascètes,♫ Abba Abraam et aussi Georges,♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اطلبا مِنِ الرَّبِ عَنَّا♫ يا سيدى الأبوين الناسكين أنبا أبرآم وجيؤرجي،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲱ̅ : Ⲁⲑⲁⲛⲁⲥⲓⲟⲥ ⲡⲓⲁ̀ⲡⲟⲥⲧⲟⲗⲓⲕⲟⲥ : Ⲥⲉⲩⲏⲣⲟⲥ ⲛⲉⲙ Ⲇⲓⲟⲥⲕⲟⲣⲟⲥ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Implorez le Seigneur pour nous,♫ Athanase l'apostolique,♫ et Sévère et Dioscore,♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اطلبوا مِنِ الرَّبِ عَنَّا♫ يا اثاناسيوس الرسولي وساويرس وديسقورس،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲱ̅ : Ⲃⲁⲥⲓⲗⲓⲟⲥ ⲛⲉⲙ Ⲅⲣⲓⲅⲟⲣⲓⲟⲥ : ⲛⲉⲙ ⲡⲉⲛⲓⲱⲧ ⲁⲃⲃⲁ Ⲕⲩⲣⲓⲗⲗⲟⲥ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Implorez le Seigneur pour nous,♫ Ô Basile et Grégoire,♫ Notre père Abba Cyril,♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اطلبوا مِنِ الرَّبِ عَنَّا♫ يا باسيليوس واغريغوريوس وابانا أنبا كيرلس،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲱ̅ : ⲡⲓⲧ̅ⲓ̅ⲏ̅ ⲉⲧⲁⲩⲑⲱⲟⲩϯ ϧⲉⲛ Ⲛⲓⲕⲉⲁ̀ : ⲉⲑⲃⲉ ⲡⲓⲛⲁϩϯ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Implorez le Seigneur pour nous,♫ Les 318 réunis,♫ à Nicée pour notre foi,♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اطلبوا مِنِ الرَّبِ عَنَّا♫ أَيُّهَا ال٣١٨ الذين اجتمعوا في نيقيه من أجل الإيمان،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲱ̅ : ⲱ̀ ⲡⲓⲣ̅ⲛ̅  ⲛ̀ⲧⲉ Ⲕⲱⲥⲧⲁⲛⲧⲓⲛⲟⲩⲡⲟⲗⲓⲥ : ⲛⲉⲙ ⲡⲓⲥ̅ ⲛ̀ⲧⲉ Ⲉⲫⲉⲥⲟⲥ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Implorez le Seigneur pour nous,♫ Les 150 à Constantinople,♫ et les 200 à Ephèse,♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اطلبوا مِنِ الرَّبِ عَنَّا♫ أَيُّهَا ال١٥٠ بمدينة القسطنطينية وال المائتين بأفسس،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲱ̅ : ⲁⲃⲃⲁ Ϩⲁⲇⲓⲇ ⲛⲉⲙ ⲁⲃⲃⲁ Ⲓⲱ̅ⲁ̅ : ⲛⲉⲙ ⲡⲉⲛⲓⲱⲧ ⲡⲓⲛⲓϣϯ ⲁⲃⲃⲁ Ⲡⲁⲣⲥⲱⲙⲁ ⲛⲉⲙ ⲁⲃⲃⲁ Ⲧⲉϫⲓ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Implorez le Seigneur pour nous,♫ Abba Hadid et Abba Jean,♫ notre père le grand Abba Parsoma et Abba Téji,♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اطلبوا مِنِ الرَّبِ عَنَّا♫ يا أنبا حديد وأنبا يوحنا وأبانا العظيم أنبا برسوما وأنبا رويس،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲱ̅ : ⲁⲃⲃⲁ Ⲁⲃⲣⲁⲁⲙ ⲡⲓϩⲏⲅⲟⲩⲙⲉⲛⲟⲥ : ⲛⲉⲙ ⲡⲉⲛⲓⲱⲧ ⲁⲃⲃⲁ Ⲙⲁⲣⲕⲟⲥ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Implorez le Seigneur pour nous,♫ Abba Abraham l'higoumène,♫ et notre père Abba Marc,♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اطلبوا مِنِ الرَّبِ عَنَّا♫ يا أنبا ابرآم القمص وأبانا أنبا مرقس،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲱ̅ : ⲛⲓⲭⲟⲣⲟⲥ ⲛ̀ⲧⲉ ⲛⲓⲥ̀ⲧⲁⲩⲣⲟⲫⲟⲣⲥ  : ⲉⲧⲁⲩϫⲱⲕ ⲉⲃⲟⲗϩⲓ ⲛⲓϣⲁϥⲉⲩ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Implorez le Seigneur pour nous,♫ Les chœurs des porteurs de croix,♫ accomplis dans les déserts,♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اطلبوا مِنِ الرَّبِ عَنَّا♫ يا مصاف لباس الصليب الذين كملوا في البراري،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲱ̅ : ⲡⲁⲟ̅ⲥ̅ ⲡ̀ⲟⲩⲣⲟ Ⲕⲱⲥⲧⲁⲛⲧⲓⲛⲟⲥ : ⲛⲉⲙ Ⲏ̀ⲗⲁⲛⲏ ϯⲟⲩⲣⲱ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Implorez le Seigneur pour nous,♫ Mon seigneur roi Constantin ♫ et aussi Hélène la reine,♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اطلبا مِنِ الرَّبِ عَنَّا♫ يا سيدى الملك قسطنطين وهيلانه الملكة،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲱ̅ : ⲛⲓⲁ̀ⲗⲟⲩ ⲛ̀ⲥⲁⲃⲏ ⲙ̀ⲡⲁⲣⲑⲉⲛⲟⲥ : ⲛⲓϣⲉⲗⲉⲧ ⲛ̀ⲧⲉ Ⲡⲭ̅ⲥ̅ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Implorez le Seigneur pour nous,♫ Les sages vierges prévoyantes,♫ ô vous les épouses du Christ, pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اطلبن مِنِ الرَّبِ عَنَّا♫ أيتها الفتيات العذارى الحكيمات عرائس المسيح،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲱ̅ : ⲛⲏⲉ̅̅ⲑ̅ⲩ̅ ⲛ̀ⲧⲉ ⲡⲁⲓⲉ̀ϩⲟⲟⲩ : ⲡⲓⲟⲩⲁⲓ ⲡⲓⲟⲩⲁⲓ ⲕⲁⲧⲁ Ⲡⲉϥⲣⲁⲛ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Implorez le Seigneur pour nous,♫ Ô tous les saints de ce jour, chacun d’entre eux par son nom,♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اطلبوا مِنِ الرَّبِ عَنَّا♫ يا قديسي هذا اليوم كل واحد باسمه،♫ لِيَغْفِرْ لَنَا خَطَايَانَا."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲱⲥⲁⲩⲧⲟⲥ ⲧⲉⲛϭⲓⲥⲓ ⲙ̀ⲙⲟⲕ : ⲛⲉⲙ ⲡⲓϩⲩⲙⲛⲟⲇⲟⲥ Ⲇⲁⲩⲓⲇ : ϫⲉ ⲛ̀ⲑⲟⲕ ⲡⲉ ⲡⲓⲟⲩⲏⲃ ϣⲁ ⲉ̀ⲛⲉϩ : ⲕⲁⲧⲁ ⲧ̀ⲧⲁⲝⲓⲥ ⲙ̀Ⲙⲉⲗⲭⲓⲥⲉⲇⲉⲕ",
+    "Nous t’exaltons en disant,♫ avec le psalmiste David : ♫ Tu es prêtre pour toujours,♫ selon l’ordre de Melchisédek",
+    "",
+    "كذلك نعظمك مع المرتل داود قائلين أنت هو الكاهن إلى الأبد على طقس ملشيصاداق."
+  ],
+  [
+    Prefix.same + "&C=Assembly",
+    "Ⲧⲱ̅ : ⲡⲉⲛⲓⲱⲧ ⲉ̅ⲑ̅ⲩ̅ ⲙ̀ⲡⲁⲧⲣⲓⲁⲣⲭⲏⲥ : ⲁⲃⲃⲁ (....) ⲡⲓⲁⲣⲭⲏⲉⲣⲉⲩⲥ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ",
+    "Implore le Seigneur pour nous,♫ notre Père saint patriarche,♫ abba (...) chef des prêtres,♫ pour qu’Il nous pardonne nos péchés.",
+    "",
+    "اطلب مِنِ الرَّبِ عَنَّا♫ يا أبانا القِدِّيسْ البطريرك أنبا (...) رئيس الكهنة،♫ لِيَغْفِرْ لَنَا خَطَايَانَا. "
+  ]
 ],
 [
   [
@@ -34902,7 +36535,7 @@ PrayersArrayFR = [[
     "",
     "Nous Te supplions de nous accepter, nous qui Te sommes agenouillés. Nous Te crions nos péchés, car Tu nous as abandonnés. Tu es notre Dieu depuis que nous sommes dans les entrailles de nos mères. Nos jours se sont écoulés en vain, nous sommes devenus dénudés de Ton aide, incapables de répondre de nos actes, mais nous sommes convaincus de Ta tendresse et nous crions en disant :",
     "",
-    "يتضرع إليك من اجلنا. اقبلنا نحن الجاثيين لك. ونصرخ أخطأنا لأنك تركتنا. منذ البدء من الحشاء أنت هو إلهنا منذ كنا في بأمهاتنا. لكن مِنْ أَجْلِ أن أيامنا فنيت بالباطل. وتعرينا من معونتك. عاجزين عن كل جواب. لكننا واثقون برأفتك. إذ نصرخ قائلين",
+    "يتضرع إليك من اجلنا. اقبلنا نحن الجاثيين لك. ونصرخ أخطأنا لأنك تركتنا. منذ البدء من الحشاء أنت هو إلهنا نذ كُنَّا في بأمهاتنا. لكن مِنْ أَجْلِ أن أيامنا فنيت بالباطل. وتعرينا من معونتك. عاجزين عن كل جواب. لكننا واثقون برأفتك. إذ نصرخ قائلين",
   ],
   [
     Prefix.same + "&C=Priest",
@@ -35067,7 +36700,7 @@ PrayersArrayFR = [[
     "",
     "Tu as capturé Satan et tous ses méchants démons, Tu l’as lié dans Tes filets et Tu l’as enchaîné dans l’obscurité extérieure, Tu l’as enfermé par Ta puissance. Ô véritable Fils de Dieu, Bon et qui entend ceux qui sont dans la tentation, Tu as illuminé ceux qui sont assis dans les ténèbres à l’ombre de la mort. Seigneur, à Toi la gloire infinie.",
     "",
-    "سبيت إبليس وشياطينه الرديئة. اجتذبه \"حصرته\" في شبكتك وربطته بوثاقات الظلمة الخارجية. وأغلقت عليه بقوتك المنيعة، يا ابن الله الحقيقي الصالح السميع للذين في التجارب أنت اضأت للجلوس في الظلمة وظلال الموت، يا رب لك المجد الغير فاني،",
+    "سبيت إبليس وشياطينه الرديئة. اجتذبه \"حصرته\"في شبكتك وربطته بوثاقات الظلمة الخارجية. وأغلقت عليه بقوتك المنيعة، يا ابن الله الحقيقي الصالح السميع للذين في التجارب أنت اضأت للجلوس في الظلمة وظلال الموت، يا رب لك المجد الغير فاني،",
   ],
   [
     Prefix.same + "&C=Priest",

@@ -1,5 +1,5 @@
 var GL7thSundayE = [
- [
+    [
         [
             Prefix.HolyWeek + "1HEProphecies&D=GL7thSunday&C=Diacon",
             "Ebolqen Covoniac piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nen oumounk marefmounk ebol \ijen p\o mpka\i peje Po/c> Marefmounk nje ourwmi nem outebnh> Maroumounk nje ni\ala; nte tve nem nitebt nte viom ouo\ eue]wni nje niacebhc ouo\ ;nawli nnianomoc ebol\ijen p\o mpka\i peje Po/c. \nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
@@ -4488,7 +4488,7 @@ var GL55D = [
         [
             Prefix.HolyWeek + "1HDProphecies&D=GL55&C=Diacon",
             "",
-            "«Choisis-toi des hommes et demain, sors combattre Amalek; moi, je me tiendrai au sommet de la colline, le bâton de Dieu à la main.» Josué fit ce que lui avait dit Moïse, il sortit pour combattre Amalek, et Moïse, Aaron et Hur montèrent au sommet de la colline. Lorsque Moïse tenait ses mains levées, Israël l'emportait, et quand il les laissait retomber, Amalek l'emportait. Comme les mains de Moïse s'alourdissaient, ils prirent une pierre et la mirent sous lui.",
+            "«Choisis-toi des hommes et demain, sors combattre Amalek; moi, je me tiendrai au sommet de la colline, le bâton de Dieu à la » Josué fit ce que lui avait dit Moïse, il sortit pour combattre Amalek, et Moïse, Aaron et Hur montèrent au sommet de la colline. Lorsque Moïse tenait ses mains levées, Israël l'emportait, et quand il les laissait retomber, Amalek l'emportait. Comme les mains de Moïse s'alourdissaient, ils prirent une pierre et la mirent sous lui.",
             "إختر لك رجالاً وأخرج حارب عماليق غداً، وهوذا أنا واقف على رأس الجبل وعصا الله فى يدى. ففعل يشوع كما قال له موسى وخرج فحارب عماليق، وصعد موسى وهرون وحور على قمة الجبل، فكان إذا رفع موسى يديه يغلب بنو إسرائيل، وإذا خفض يديه يغلب عماليق. فلما كلّت يدا موسى أخذا حجراً ووضعاه تحته ",
         ],
         [
@@ -6548,1971 +6548,1971 @@ var GL55E = [
 var GL56D = [
 
     [
-    
+
         [
-            Prefix.HolyWeek +"1HDProphecies&D=GL56&C=Diacon",
-        "Ebolqen pideuteronomin nte Mw`ucyc piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nPeje Mw`èuchc `ènnen]hri `èm`èpIcl ? > je ;ermeqre nwten `èmvoou `èn`ètve nem `èpka\i > je 'en outako `èereten`èetako.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
-        "Deutéronome 8 : 19 à 9 : 24 \nMoïse dit aux fils d'Israël: Certes, si tu oublies le Seigneur ton Dieu, si tu suis d'autres dieux, si tu les sers et te prosternes devant eux, J’en témoigne aujourd'hui contre vous, vous périrez.",
-        "التثنية ٨ : ١٩ - ٩:  ٢٤\nقال موسى لبني إسرائيل: وان نسيت الرب إلهك وذهبت وراء آلهة آخرى وعبدتها وسجدت لها، أُشهد عليكم اليوم السماء والأرض أنكم تهلكون لا محالة.",
+            Prefix.HolyWeek + "1HDProphecies&D=GL56&C=Diacon",
+            "Ebolqen pideuteronomin nte Mw`ucyc piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nPeje Mw`èuchc `ènnen]hri `èm`èpIcl ? > je ;ermeqre nwten `èmvoou `èn`ètve nem `èpka\i > je 'en outako `èereten`èetako.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
+            "Deutéronome 8 : 19 à 9 : 24 \nMoïse dit aux fils d'Israël: Certes, si tu oublies le Seigneur ton Dieu, si tu suis d'autres dieux, si tu les sers et te prosternes devant eux, J’en témoigne aujourd'hui contre vous, vous périrez.",
+            "التثنية ٨ : ١٩ - ٩:  ٢٤\nقال موسى لبني إسرائيل: وان نسيت الرب إلهك وذهبت وراء آلهة آخرى وعبدتها وسجدت لها، أُشهد عليكم اليوم السماء والأرض أنكم تهلكون لا محالة.",
         ],
         [
-            Prefix.HolyWeek +"1HDProphecies&D=GL56&C=Diacon",
-        "",
-        "Comme les nations que le Seigneur aura fait périr devant vous, ainsi vous-mêmes périrez, pour n'avoir pas écouté la voix du Seigneur votre Dieu. Écoute, Israël. Te voilà aujourd'hui sur le point de passer le Jourdain, pour aller déposséder des nations plus grandes et plus puissantes que toi et prendre de grandes villes dont les fortifications montent jusqu'au ciel. C'est un peuple grand et de haute stature que les Anaqim.",
-        "كبقية الأمم التي أبادها الرب من أمام وجوهكم، كذلك تهلكون. لأجل أنكم لم تصغوا لصوت الرب إلهكم. إسمع يا إسرائيل، أنت اليوم ستعبر الأردن لكي تدخل وترث أمماً عظيمة ومدناً محصنة ومشيدة إلى السماء، قوماً عظاماً طوالاً،",
+            Prefix.HolyWeek + "1HDProphecies&D=GL56&C=Diacon",
+            "",
+            "Comme les nations que le Seigneur aura fait périr devant vous, ainsi vous-mêmes périrez, pour n'avoir pas écouté la voix du Seigneur votre Dieu. Écoute, Israël. Te voilà aujourd'hui sur le point de passer le Jourdain, pour aller déposséder des nations plus grandes et plus puissantes que toi et prendre de grandes villes dont les fortifications montent jusqu'au ciel. C'est un peuple grand et de haute stature que les Anaqim.",
+            "كبقية الأمم التي أبادها الرب من أمام وجوهكم، كذلك تهلكون. لأجل أنكم لم تصغوا لصوت الرب إلهكم. إسمع يا إسرائيل، أنت اليوم ستعبر الأردن لكي تدخل وترث أمماً عظيمة ومدناً محصنة ومشيدة إلى السماء، قوماً عظاماً طوالاً،",
         ],
         [
-            Prefix.HolyWeek +"1HDProphecies&D=GL56&C=Diacon",
-        "",
-        "Tu le connais, tu as entendu dire: «Qui peut tenir tête aux fils d'Anaq?» Sache aujourd'hui que c'est le Seigneur ton Dieu qui va passer devant toi, comme un feu dévorant qui les détruira, et c'est lui qui va te les soumettre; alors tu les déposséderas et tu les feras périr promptement, comme te l'a dit le Seigneur. Ne dis pas en ton cœur, lorsque le Seigneur ton Dieu les chassera devant toi: «C'est à cause de ma juste conduite",
-        "بني الجبابرة الذين عرفتهم وسمعت عنهم. ومن الذي يقدر أن يقف أمام بني عناق؟ فإعلم اليوم أن الرب إلهك هو الذي يتقدم بالمسير أمام وجهك بنار آكلة. هو يبيدهم ويستأصلهم سريعاً كما قال الرب. لا تقل في قلبك: إنه من أجل برّي",
+            Prefix.HolyWeek + "1HDProphecies&D=GL56&C=Diacon",
+            "",
+            "Tu le connais, tu as entendu dire: «Qui peut tenir tête aux fils d'Anaq?» Sache aujourd'hui que c'est le Seigneur ton Dieu qui va passer devant toi, comme un feu dévorant qui les détruira, et c'est lui qui va te les soumettre; alors tu les déposséderas et tu les feras périr promptement, comme te l'a dit le Seigneur. Ne dis pas en ton cœur, lorsque le Seigneur ton Dieu les chassera devant toi: «C'est à cause de ma juste conduite",
+            "بني الجبابرة الذين عرفتهم وسمعت عنهم. ومن الذي يقدر أن يقف أمام بني عناق؟ فإعلم اليوم أن الرب إلهك هو الذي يتقدم بالمسير أمام وجهك بنار آكلة. هو يبيدهم ويستأصلهم سريعاً كما قال الرب. لا تقل في قلبك: إنه من أجل برّي",
         ],
         [
-            Prefix.HolyWeek +"1HDProphecies&D=GL56&C=Diacon",
-        "",
-        "que le Seigneur m'a fait entrer en possession de ce pays, alors que c'est en raison de leur perversité que le Seigneur dépossède ces nations à ton profit. Ce n'est pas en raison de ta juste conduite ni de la droiture de ton cœur que tu entres en possession de leur pays, mais c'est en raison de leur perversité que le Seigneur ton Dieu dépossède ces nations à ton profit; et c'est aussi pour tenir la parole qu'il a jurée à tes pères, Abraham, Isaac et Jacob.",
-        "أخرجني الرب لأمتلك هذه الأرض الجيدة، ولأجل إثم هؤلاء الشعوب يبيدهم الرب من أمام وجهك. ليس من أجل برّك وطهارة قلبك تمضي لترث أرضهم، بل ليفي بالعهد الذي أقسم به لآبائك إبراهيم واسحق ويعقوب.",
+            Prefix.HolyWeek + "1HDProphecies&D=GL56&C=Diacon",
+            "",
+            "que le Seigneur m'a fait entrer en possession de ce pays, alors que c'est en raison de leur perversité que le Seigneur dépossède ces nations à ton profit. Ce n'est pas en raison de ta juste conduite ni de la droiture de ton cœur que tu entres en possession de leur pays, mais c'est en raison de leur perversité que le Seigneur ton Dieu dépossède ces nations à ton profit; et c'est aussi pour tenir la parole qu'il a jurée à tes pères, Abraham, Isaac et Jacob.",
+            "أخرجني الرب لأمتلك هذه الأرض الجيدة، ولأجل إثم هؤلاء الشعوب يبيدهم الرب من أمام وجهك. ليس من أجل برّك وطهارة قلبك تمضي لترث أرضهم، بل ليفي بالعهد الذي أقسم به لآبائك إبراهيم واسحق ويعقوب.",
         ],
         [
-            Prefix.HolyWeek +"1HDProphecies&D=GL56&C=Diacon",
-        "",
-        "Sache aujourd'hui que ce n'est pas ta juste conduite qui te vaut de recevoir du Seigneur ton Dieu cet heureux pays pour domaine: car tu es un peuple à la nuque raide. Souviens-toi. N'oublie pas que tu as irrité le Seigneur ton Dieu dans le désert. Depuis le jour de ta sortie du pays d'Égypte jusqu'à votre arrivée en ce lieu, vous avez été rebelles au Seigneur. A l'Horeb vous avez irrité le Seigneur, et le Seigneur se mit en colère contre vous",
-        "وإعلم اليوم أنه ليس من أجل برّك يعطيك الرب هذه الأرض لترثها، لأنك شعب صلب الرقبة.\nواذكر ولا تنسى أنك كم أغضبت الرب في البرية، من اليوم الذي خرجتم فيه من أرض مصر إلى أن جئتم إلى هذا المكان؟ ولا تزالون تقاومون الرب. حتى في حوريب أسخطتم الرب. فغضب الرب عليكم",
+            Prefix.HolyWeek + "1HDProphecies&D=GL56&C=Diacon",
+            "",
+            "Sache aujourd'hui que ce n'est pas ta juste conduite qui te vaut de recevoir du Seigneur ton Dieu cet heureux pays pour domaine: car tu es un peuple à la nuque raide. Souviens-toi. N'oublie pas que tu as irrité le Seigneur ton Dieu dans le désert. Depuis le jour de ta sortie du pays d'Égypte jusqu'à votre arrivée en ce lieu, vous avez été rebelles au Seigneur. A l'Horeb vous avez irrité le Seigneur, et le Seigneur se mit en colère contre vous",
+            "وإعلم اليوم أنه ليس من أجل برّك يعطيك الرب هذه الأرض لترثها، لأنك شعب صلب الرقبة.\nواذكر ولا تنسى أنك كم أغضبت الرب في البرية، من اليوم الذي خرجتم فيه من أرض مصر إلى أن جئتم إلى هذا المكان؟ ولا تزالون تقاومون الرب. حتى في حوريب أسخطتم الرب. فغضب الرب عليكم",
         ],
         [
-            Prefix.HolyWeek +"1HDProphecies&D=GL56&C=Diacon",
-        "",
-        "au point de vous détruire.\nJ'étais monté sur la montagne pour prendre les tables de pierre, les tables de l'alliance que le Seigneur concluait avec vous. J'étais demeuré sur la montagne quarante jours et quarante nuits sans manger de pain ni boire d'eau. Le Seigneur m'avait donné les deux tables de pierre écrites du doigt de Dieu, conformes en tout point aux paroles qu'il avait dites du milieu du feu, sur la montagne, au jour de l'Assemblée.",
-        "ليبيدكم. \nفمضيت أنا وصعدت إلى الجبل لآخذ لوحي العهد الذي عاهدكم به الرب، ومكثت على الجبل أربعين نهاراً وأربعين ليلة، لم آكل خبزاً ولم اشرب ماءً، وأعطاني الرب لوحي الحجر المكتوبين بإصبع الله، مكتوب عليهما جميع الكلام الذي كلمكم به الله على الجبل في يوم الإجتماع،",
+            Prefix.HolyWeek + "1HDProphecies&D=GL56&C=Diacon",
+            "",
+            "au point de vous détruire.\nJ'étais monté sur la montagne pour prendre les tables de pierre, les tables de l'alliance que le Seigneur concluait avec vous. J'étais demeuré sur la montagne quarante jours et quarante nuits sans manger de pain ni boire d'eau. Le Seigneur m'avait donné les deux tables de pierre écrites du doigt de Dieu, conformes en tout point aux paroles qu'il avait dites du milieu du feu, sur la montagne, au jour de l'Assemblée.",
+            "ليبيدكم. \nفمضيت أنا وصعدت إلى الجبل لآخذ لوحي العهد الذي عاهدكم به الرب، ومكثت على الجبل أربعين نهاراً وأربعين ليلة، لم آكل خبزاً ولم اشرب ماءً، وأعطاني الرب لوحي الحجر المكتوبين بإصبع الله، مكتوب عليهما جميع الكلام الذي كلمكم به الله على الجبل في يوم الإجتماع،",
         ],
         [
-            Prefix.HolyWeek +"1HDProphecies&D=GL56&C=Diacon",
-        "",
-        "Au bout de quarante jours et quarante nuits, m'ayant donné les deux tables de pierre, tables de l'alliance, le Seigneur me dit: «Lève-toi d'ici, descends en toute hâte, car ton peuple s'est perverti, lui que tu as fait sortir d'Égypte. Ils n'ont pas tardé à s'écarter de la voie que je leur avais prescrite: ils se sont fait une idole de métal fondu.» Puis le Seigneur me dit: «J'ai vu ce peuple: c'est un peuple à la nuque raide.",
-        "وفي نهاية الأربعين نهاراً والأربعين ليلة أعطاني الرب لوحي العهد، وقال لي الرب: قم إنزل عاجلاً من هنا، لأنه قد أثم شعبك الذي أخرجته من أرض مصر، وزاغوا سريعاً عن الطريق التي رسمتها لهم، وصنعوا لهم تمثالاً مسبوكاً. وقال لي الرب: قد قلت لك مرة واثنتين إن هذا الشعب صلب الرقبة،",
+            Prefix.HolyWeek + "1HDProphecies&D=GL56&C=Diacon",
+            "",
+            "Au bout de quarante jours et quarante nuits, m'ayant donné les deux tables de pierre, tables de l'alliance, le Seigneur me dit: «Lève-toi d'ici, descends en toute hâte, car ton peuple s'est perverti, lui que tu as fait sortir d'Égypte. Ils n'ont pas tardé à s'écarter de la voie que je leur avais prescrite: ils se sont fait une idole de métal fondu.» Puis le Seigneur me dit: «J'ai vu ce peuple: c'est un peuple à la nuque raide.",
+            "وفي نهاية الأربعين نهاراً والأربعين ليلة أعطاني الرب لوحي العهد، وقال لي الرب: قم إنزل عاجلاً من هنا، لأنه قد أثم شعبك الذي أخرجته من أرض مصر، وزاغوا سريعاً عن الطريق التي رسمتها لهم، وصنعوا لهم تمثالاً مسبوكاً. وقال لي الرب: قد قلت لك مرة واثنتين إن هذا الشعب صلب الرقبة،",
         ],
         [
-            Prefix.HolyWeek +"1HDProphecies&D=GL56&C=Diacon",
-        "",
-        "Laisse-moi, que je les détruise et que j'efface leur nom de dessous les cieux; et que je fasse de toi une nation plus puissante et plus nombreuse que lui!» Je redescendis de la montagne, qui était tout embrasée; j'avais les deux tables de l'alliance dans mes deux mains. Et je vis que vous veniez de pécher contre le Seigneur votre Dieu. Vous vous étiez fait un veau de métal fondu: vous n'aviez pas tardé à vous écarter de la voie",
-        "دعنى فأبيدهم من تحت السماء، وأجعلك شعباً أعظم وأكثر كثيراً من هذا. فرجعت ونزلت من الجبل، والجبل يشتعل بالنار، ولوحا الحجارة في يدى الاثنتين. فلما رأيت أنكم قد أخطأتم إلى الرب، وصنعتم لكم عِجلاً مسبوكاً، وزغتم عن الطريق",
+            Prefix.HolyWeek + "1HDProphecies&D=GL56&C=Diacon",
+            "",
+            "Laisse-moi, que je les détruise et que j'efface leur nom de dessous les cieux; et que je fasse de toi une nation plus puissante et plus nombreuse que lui!» Je redescendis de la montagne, qui était tout embrasée; j'avais les deux tables de l'alliance dans mes deux mains. Et je vis que vous veniez de pécher contre le Seigneur votre Dieu. Vous vous étiez fait un veau de métal fondu: vous n'aviez pas tardé à vous écarter de la voie",
+            "دعنى فأبيدهم من تحت السماء، وأجعلك شعباً أعظم وأكثر كثيراً من هذا. فرجعت ونزلت من الجبل، والجبل يشتعل بالنار، ولوحا الحجارة في يدى الاثنتين. فلما رأيت أنكم قد أخطأتم إلى الرب، وصنعتم لكم عِجلاً مسبوكاً، وزغتم عن الطريق",
         ],
         [
-            Prefix.HolyWeek +"1HDProphecies&D=GL56&C=Diacon",
-        "",
-        "que le Seigneur vous avait prescrite. Je saisis les deux tables, des deux mains je les jetai et je les brisai sous vos yeux. Puis je me jetai à terre devant le Seigneur; comme la première fois je fus quarante jours et quarante nuits sans manger de pain ni boire d'eau, à cause de tous les péchés que vous aviez commis, en faisant ce qui est mal aux yeux du Seigneur au point de l'irriter. Car j'avais peur de cette colère, de cette fureur qui transportait le Seigneur",
-        "التى أوصاكم بها الرب. طرحت اللوحين من يدي وكسرتهما قدامكم. ثم طلبت من الرب مرة ثانية كالأولى: أربعين نهاراً وأربعين ليلة، لم آكل خبزاً ولم أشرب ماءً، من أجل كل خطاياكم التي أخطأتم بها، بعملكم الشر أمام الرب لإغاظته. لأني فزعت إذ غضب الله عليكم",
+            Prefix.HolyWeek + "1HDProphecies&D=GL56&C=Diacon",
+            "",
+            "que le Seigneur vous avait prescrite. Je saisis les deux tables, des deux mains je les jetai et je les brisai sous vos yeux. Puis je me jetai à terre devant le Seigneur; comme la première fois je fus quarante jours et quarante nuits sans manger de pain ni boire d'eau, à cause de tous les péchés que vous aviez commis, en faisant ce qui est mal aux yeux du Seigneur au point de l'irriter. Car j'avais peur de cette colère, de cette fureur qui transportait le Seigneur",
+            "التى أوصاكم بها الرب. طرحت اللوحين من يدي وكسرتهما قدامكم. ثم طلبت من الرب مرة ثانية كالأولى: أربعين نهاراً وأربعين ليلة، لم آكل خبزاً ولم أشرب ماءً، من أجل كل خطاياكم التي أخطأتم بها، بعملكم الشر أمام الرب لإغاظته. لأني فزعت إذ غضب الله عليكم",
         ],
         [
-            Prefix.HolyWeek +"1HDProphecies&D=GL56&C=Diacon",
-        "",
-        "contre vous au point de vous détruire. Et cette fois encore, le Seigneur m'exauça. Contre Aaron aussi, le Seigneur était violemment en colère, au point de le faire périr. J'intercédai aussi en faveur d'Aaron. Cette œuvre de péché que vous aviez fabriquée, ce veau, je le pris, je le brûlai au feu, je le broyai, je le réduisis en fine poussière, et j'en jetai la poussière au torrent qui descend de la montagne. Et à Tabeéra, et à Massa, et à Qibrot-ha-Taava, vous avez irrité le Seigneur.",
-        "ليبيدكم. فاستجاب لي الرب في تلك المرة، وغضب الرب على هرون جداً ليبيده. فصليت من أجل هرون أيضاً في ذلك الوقت. أما الخطية التي عملتموها والعجل الذي صنعتموه، فإني أخذته وأحرقته بالنار وحطمته وسحقته حتى صار ناعماً كالغبار. ثم طرحت غباره في أسفل وادى السيل المنحدر من الجبل. وفى الحريق والتجربة في قبر الشهوات كنتم تُغضبون الرب إلهكم.",
+            Prefix.HolyWeek + "1HDProphecies&D=GL56&C=Diacon",
+            "",
+            "contre vous au point de vous détruire. Et cette fois encore, le Seigneur m'exauça. Contre Aaron aussi, le Seigneur était violemment en colère, au point de le faire périr. J'intercédai aussi en faveur d'Aaron. Cette œuvre de péché que vous aviez fabriquée, ce veau, je le pris, je le brûlai au feu, je le broyai, je le réduisis en fine poussière, et j'en jetai la poussière au torrent qui descend de la montagne. Et à Tabeéra, et à Massa, et à Qibrot-ha-Taava, vous avez irrité le Seigneur.",
+            "ليبيدكم. فاستجاب لي الرب في تلك المرة، وغضب الرب على هرون جداً ليبيده. فصليت من أجل هرون أيضاً في ذلك الوقت. أما الخطية التي عملتموها والعجل الذي صنعتموه، فإني أخذته وأحرقته بالنار وحطمته وسحقته حتى صار ناعماً كالغبار. ثم طرحت غباره في أسفل وادى السيل المنحدر من الجبل. وفى الحريق والتجربة في قبر الشهوات كنتم تُغضبون الرب إلهكم.",
         ],
         [
-            Prefix.HolyWeek +"1HDProphecies&D=GL56&C=Diacon",
-        "",
-        "Et lorsque le Seigneur voulut vous faire quitter Cadès Barné en disant: Montez prendre possession du pays que je vous ai donné, vous vous êtes rebellés contre l'ordre du Seigneur votre Dieu, vous n'avez pas cru en lui ni écouté sa voix. Vous avez été rebelles au Seigneur depuis le jour où il vous a connus.\nGloire à la sainte Trinité notre Dieu.",
-        "وعندما أرسلكم الرب من قادش برنيع قائلا: اصعدوا لترثوا الأرض التي أنا أعطيتها لكم. فعصيتم قول الرب ولم تؤمنوا به ولم تسمعوا لصوته. ولم تزالوا عاصين للرب من يوم أن ظهر لكم.\nمجداً للثالوث الأقدس إلهنا آمين",
+            Prefix.HolyWeek + "1HDProphecies&D=GL56&C=Diacon",
+            "",
+            "Et lorsque le Seigneur voulut vous faire quitter Cadès Barné en disant: Montez prendre possession du pays que je vous ai donné, vous vous êtes rebellés contre l'ordre du Seigneur votre Dieu, vous n'avez pas cru en lui ni écouté sa voix. Vous avez été rebelles au Seigneur depuis le jour où il vous a connus.\nGloire à la sainte Trinité notre Dieu.",
+            "وعندما أرسلكم الرب من قادش برنيع قائلا: اصعدوا لترثوا الأرض التي أنا أعطيتها لكم. فعصيتم قول الرب ولم تؤمنوا به ولم تسمعوا لصوته. ولم تزالوا عاصين للرب من يوم أن ظهر لكم.\nمجداً للثالوث الأقدس إلهنا آمين",
         ],
         [
-            Prefix.HolyWeek +"1HDProphecies&D=GL56&C=Diacon",
-        "Ebolqen Yca`yac piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nCwtem `ètve ouo\ si`ècmh `èpka\i > je P_ petaf caji > \an]hri ai`èjvwou ouo\ aisacou.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
-        "Isaïe 1 : 2-9\nCieux écoutez, terre prête l'oreille, car le Seigneur parle.",
-        "إشعياء ١: ٢ – ٩\nاسمعي أيتها السموات واصغي أيتها الأرض فإن الرب قد تكلم.",
+            Prefix.HolyWeek + "1HDProphecies&D=GL56&C=Diacon",
+            "Ebolqen Yca`yac piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nCwtem `ètve ouo\ si`ècmh `èpka\i > je P_ petaf caji > \an]hri ai`èjvwou ouo\ aisacou.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
+            "Isaïe 1 : 2-9\nCieux écoutez, terre prête l'oreille, car le Seigneur parle.",
+            "إشعياء ١: ٢ – ٩\nاسمعي أيتها السموات واصغي أيتها الأرض فإن الرب قد تكلم.",
         ],
         [
-            Prefix.HolyWeek +"1HDProphecies&D=GL56&C=Diacon",
-        "",
-        "J'ai élevé des enfants, je les ai fait grandir, mais ils se sont révoltés contre moi. Le bœuf connaît son possesseur, et l'âne la crèche de son maître, Israël ne me connaît pas, mon peuple ne me comprend pas. Malheur! Nation pécheresse! Peuple coupable! Race de malfaiteurs, fils pervertis! Ils ont abandonné le Seigneur, ils ont méprisé le Saint d'Israël, ils se sont détournés de lui. Où frapper encore, si vous persévérez dans la trahison?",
-        "ربيت بنين ونشأتهم أما هم فعصوا عليّ. الثور يعرف قانيه، والحمار مِعلف صاحبه، أما إسرائيل فلم يعرفني، وشعبي لم يفهمني. ويل للأمة الخاطئة، الشعب الممتلئ إثماً، النسل المخالف، تركتم الرب عنكم   وأغضبتم قدوس إسرائيل ورجعتم إلى الخلف. ستحل بكم ضربات لأنكم أزددتم إثماً.",
+            Prefix.HolyWeek + "1HDProphecies&D=GL56&C=Diacon",
+            "",
+            "J'ai élevé des enfants, je les ai fait grandir, mais ils se sont révoltés contre moi. Le bœuf connaît son possesseur, et l'âne la crèche de son maître, Israël ne me connaît pas, mon peuple ne me comprend pas. Malheur! Nation pécheresse! Peuple coupable! Race de malfaiteurs, fils pervertis! Ils ont abandonné le Seigneur, ils ont méprisé le Saint d'Israël, ils se sont détournés de lui. Où frapper encore, si vous persévérez dans la trahison?",
+            "ربيت بنين ونشأتهم أما هم فعصوا عليّ. الثور يعرف قانيه، والحمار مِعلف صاحبه، أما إسرائيل فلم يعرفني، وشعبي لم يفهمني. ويل للأمة الخاطئة، الشعب الممتلئ إثماً، النسل المخالف، تركتم الرب عنكم   وأغضبتم قدوس إسرائيل ورجعتم إلى الخلف. ستحل بكم ضربات لأنكم أزددتم إثماً.",
         ],
         [
-            Prefix.HolyWeek +"1HDProphecies&D=GL56&C=Diacon",
-        "",
-        "Toute la tête est mal-en-point, tout le cœur est malade, de la plante des pieds à la tête, il ne reste rien de sain. Ce n'est que blessures, contusions, plaies ouvertes, qui ne sont pas pansées ni bandées, ni soignées avec de l'huile. Votre pays est une désolation, vos villes sont la proie du feu, votre sol, sous vos yeux des étrangers le ravagent, c'est la désolation comme une dévastation d'étrangers. Elle est restée, la fille de Sion,",
-        "كل الرأس مريض، وكل القلب سقيم. من أخمص القدم إلى قمة الرأس جراح وكلوم وقرحة ملتهبة. لم يوضع عليها مرهم ولا دهن ولا عصائب. أرضكم تخرب. ومدنكم تحرق بالنار. وكوركم تؤكل قدامكم. وقد خربت وانهدمت من الشعوب الغرباء. وتبقى إبنة صهيون",
+            Prefix.HolyWeek + "1HDProphecies&D=GL56&C=Diacon",
+            "",
+            "Toute la tête est mal-en-point, tout le cœur est malade, de la plante des pieds à la tête, il ne reste rien de sain. Ce n'est que blessures, contusions, plaies ouvertes, qui ne sont pas pansées ni bandées, ni soignées avec de l'huile. Votre pays est une désolation, vos villes sont la proie du feu, votre sol, sous vos yeux des étrangers le ravagent, c'est la désolation comme une dévastation d'étrangers. Elle est restée, la fille de Sion,",
+            "كل الرأس مريض، وكل القلب سقيم. من أخمص القدم إلى قمة الرأس جراح وكلوم وقرحة ملتهبة. لم يوضع عليها مرهم ولا دهن ولا عصائب. أرضكم تخرب. ومدنكم تحرق بالنار. وكوركم تؤكل قدامكم. وقد خربت وانهدمت من الشعوب الغرباء. وتبقى إبنة صهيون",
         ],
         [
-            Prefix.HolyWeek +"1HDProphecies&D=GL56&C=Diacon",
-        "",
-        "comme une hutte dans une vigne, comme un abri dans un champ de concombres, comme une ville assiégée. Si le Seigneur Sabaot ne nous avait laissé quelques rares survivants, nous serions comme Sodome, nous ressemblerions à Gomorrhe.\nGloire à la sainte Trinité notre Dieu.",
-        "كمظلة في كرم وكخيمة في مقثأة، وكمدينة منهوبة. ولولا أن رب الجنود أبقى لنا بقية، لصرنا مثل سدوم وشابهنا عمورة.\nمجداً للثالوث الأقدس إلهنا آمين",
+            Prefix.HolyWeek + "1HDProphecies&D=GL56&C=Diacon",
+            "",
+            "comme une hutte dans une vigne, comme un abri dans un champ de concombres, comme une ville assiégée. Si le Seigneur Sabaot ne nous avait laissé quelques rares survivants, nous serions comme Sodome, nous ressemblerions à Gomorrhe.\nGloire à la sainte Trinité notre Dieu.",
+            "كمظلة في كرم وكخيمة في مقثأة، وكمدينة منهوبة. ولولا أن رب الجنود أبقى لنا بقية، لصرنا مثل سدوم وشابهنا عمورة.\nمجداً للثالوث الأقدس إلهنا آمين",
         ],
         [
-            Prefix.HolyWeek +"1HDProphecies&D=GL56&C=Diacon",
-        "Ebolqen Yca`yac piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nNai ne etere P_ jw `èmmwou je bwk `e'oun \a petra `nteten\hp thute 'en `pka\i. \nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
-        "Isaïe 2 : 10-21 \nVa dans le rocher, terre-toi dans la poussière devant la terreur du Seigneur,",
-        "إشعياء ٢ : ١٠ – ٢١ \nهذا ما يقوله الرب: إدخلوا فى الصخور وإختفوا فى الأرض من أمام خوف الرب",
+            Prefix.HolyWeek + "1HDProphecies&D=GL56&C=Diacon",
+            "Ebolqen Yca`yac piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nNai ne etere P_ jw `èmmwou je bwk `e'oun \a petra `nteten\hp thute 'en `pka\i. \nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
+            "Isaïe 2 : 10-21 \nVa dans le rocher, terre-toi dans la poussière devant la terreur du Seigneur,",
+            "إشعياء ٢ : ١٠ – ٢١ \nهذا ما يقوله الرب: إدخلوا فى الصخور وإختفوا فى الأرض من أمام خوف الرب",
         ],
         [
-            Prefix.HolyWeek +"1HDProphecies&D=GL56&C=Diacon",
-        "",
-        "devant l'éclat de sa majesté, quand il se lèvera pour faire trembler la terre. L'orgueil humain baissera les yeux, l'arrogance des hommes sera humiliée, le Seigneur sera exalté, lui seul, en ce jour-là. Oui, ce sera un jour du Seigneur Sabaot sur tout ce qui est orgueilleux et hautain, sur tout ce qui est élevé, pour qu'il soit abaissé; sur tous les cèdres du Liban, hautains et élevés, et sur tous les chênes de Bashân; sur toutes les montagnes hautaines",
-        "ومن أمام مجد قوته، إذا قام ليهشم الأرض لأن ألحاظ الرب عالية والإنسان ذليل، وسيذل إرتفاع البشر ويتعالى الرب وحده في ذلك اليوم، لأن يوم رب الجنود سيأتي على كل معتد ومتعظم وعلى كل من إستعلى وتشامخ فيذلون، وعلى كل أرز لبنان المتعالى الشامخ وعلى كل شجر بلوط باشان وعلى كل جبل عال",
+            Prefix.HolyWeek + "1HDProphecies&D=GL56&C=Diacon",
+            "",
+            "devant l'éclat de sa majesté, quand il se lèvera pour faire trembler la terre. L'orgueil humain baissera les yeux, l'arrogance des hommes sera humiliée, le Seigneur sera exalté, lui seul, en ce jour-là. Oui, ce sera un jour du Seigneur Sabaot sur tout ce qui est orgueilleux et hautain, sur tout ce qui est élevé, pour qu'il soit abaissé; sur tous les cèdres du Liban, hautains et élevés, et sur tous les chênes de Bashân; sur toutes les montagnes hautaines",
+            "ومن أمام مجد قوته، إذا قام ليهشم الأرض لأن ألحاظ الرب عالية والإنسان ذليل، وسيذل إرتفاع البشر ويتعالى الرب وحده في ذلك اليوم، لأن يوم رب الجنود سيأتي على كل معتد ومتعظم وعلى كل من إستعلى وتشامخ فيذلون، وعلى كل أرز لبنان المتعالى الشامخ وعلى كل شجر بلوط باشان وعلى كل جبل عال",
         ],
         [
-            Prefix.HolyWeek +"1HDProphecies&D=GL56&C=Diacon",
-        "",
-        "et sur toutes les montagnes hautaines et sur toutes les collines élevées; sur toute tour altière et sur tout rempart escarpé; sur tous les vaisseaux de Tarsis et sur tout ce qui paraît précieux. L'orgueil humain sera humilié, l'arrogance de l'homme sera abaissée, et le Seigneur sera exalté, lui seul, en ce jour-là. Les faux dieux, en masse, disparaîtront. Pour eux, ils iront dans les cavernes des rochers et dans les fissures du sol,",
-        "وعلى كل أكمة مرتفعة وعلى كل برج شاهق وعلى كل سور منيع وعلى كل سفن البحر وعلى كل منظر سفن البحر الحسنة، ويذل كل إنسان ويسقط ارتفاع البشر ويتعالى الرب وحده في ذلك اليوم. وتزول الأوثان بتمامها. ويخفون جميع عمل أيديهم ويحملونه إلى المغائر وشقوق الصخور وفي ثقوب الأرض",
+            Prefix.HolyWeek + "1HDProphecies&D=GL56&C=Diacon",
+            "",
+            "et sur toutes les montagnes hautaines et sur toutes les collines élevées; sur toute tour altière et sur tout rempart escarpé; sur tous les vaisseaux de Tarsis et sur tout ce qui paraît précieux. L'orgueil humain sera humilié, l'arrogance de l'homme sera abaissée, et le Seigneur sera exalté, lui seul, en ce jour-là. Les faux dieux, en masse, disparaîtront. Pour eux, ils iront dans les cavernes des rochers et dans les fissures du sol,",
+            "وعلى كل أكمة مرتفعة وعلى كل برج شاهق وعلى كل سور منيع وعلى كل سفن البحر وعلى كل منظر سفن البحر الحسنة، ويذل كل إنسان ويسقط ارتفاع البشر ويتعالى الرب وحده في ذلك اليوم. وتزول الأوثان بتمامها. ويخفون جميع عمل أيديهم ويحملونه إلى المغائر وشقوق الصخور وفي ثقوب الأرض",
         ],
         [
-            Prefix.HolyWeek +"1HDProphecies&D=GL56&C=Diacon",
-        "",
-        "devant la Terreur du Seigneur, devant l'éclat de sa majesté, quand il se lèvera pour faire trembler la terre. En ce jour-là, l'homme jettera aux taupes et aux chauves-souris ses faux dieux d'argent et ses faux dieux d'or, ceux qu'on lui a fabriqués pour qu'il les adore, il s'en ira dans les crevasses des rochers et dans les fentes des falaises, devant la terreur du Seigneur, devant l'éclat de sa majesté, quand il se lèvera pour faire trembler la terre.\nGloire à la sainte Trinité notre Dieu.",
-        "من أمام صوت الرب ومن مجد قوته. إذا قام ليهشم الأرض، في ذلك اليوم يخرج الإنسان رجاسته من الفضة والذهب التي صنعوها ليسجدوا لها، والأباطيل والأشباح ليذبحوها في ثقوب الأرض، والصخور الصلبة وفي شقوق الصخور من أمام صوت الرب ومن مجد قوته إذا قام ليهشم الأرض.\nمجداً للثالوث الأقدس إلهنا آمين",
+            Prefix.HolyWeek + "1HDProphecies&D=GL56&C=Diacon",
+            "",
+            "devant la Terreur du Seigneur, devant l'éclat de sa majesté, quand il se lèvera pour faire trembler la terre. En ce jour-là, l'homme jettera aux taupes et aux chauves-souris ses faux dieux d'argent et ses faux dieux d'or, ceux qu'on lui a fabriqués pour qu'il les adore, il s'en ira dans les crevasses des rochers et dans les fentes des falaises, devant la terreur du Seigneur, devant l'éclat de sa majesté, quand il se lèvera pour faire trembler la terre.\nGloire à la sainte Trinité notre Dieu.",
+            "من أمام صوت الرب ومن مجد قوته. إذا قام ليهشم الأرض، في ذلك اليوم يخرج الإنسان رجاسته من الفضة والذهب التي صنعوها ليسجدوا لها، والأباطيل والأشباح ليذبحوها في ثقوب الأرض، والصخور الصلبة وفي شقوق الصخور من أمام صوت الرب ومن مجد قوته إذا قام ليهشم الأرض.\nمجداً للثالوث الأقدس إلهنا آمين",
         ],
         [
-            Prefix.HolyWeek +"1HDProphecies&D=GL56&C=Diacon",
-        "Ebolqen Ieremiac piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nPka\i `èpka\i cwtem `èepcaji `èmP_. C'ai `èmpirwmi je ourwmi pe au\itf. \nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
-        "Jérémie 22 : 29 à 23 : 6 \nTerre! Terre! Terre! Écoute la parole du Seigneur. Ainsi parle le Seigneur: Inscrivez cet homme: ‘Sans enfants’",
-        "إرمياء ٢٢: ٢٩ -٢٣ :١-٦ \nيا أرض يا أرض إسمعي كلمة الرب:\nاكتبوا هذا الرجل عقيماً،",
+            Prefix.HolyWeek + "1HDProphecies&D=GL56&C=Diacon",
+            "Ebolqen Ieremiac piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nPka\i `èpka\i cwtem `èepcaji `èmP_. C'ai `èmpirwmi je ourwmi pe au\itf. \nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
+            "Jérémie 22 : 29 à 23 : 6 \nTerre! Terre! Terre! Écoute la parole du Seigneur. Ainsi parle le Seigneur: Inscrivez cet homme: ‘Sans enfants’",
+            "إرمياء ٢٢: ٢٩ -٢٣ :١-٦ \nيا أرض يا أرض إسمعي كلمة الرب:\nاكتبوا هذا الرجل عقيماً،",
         ],
         [
-            Prefix.HolyWeek +"1HDProphecies&D=GL56&C=Diacon",
-        "",
-        "quelqu'un qui n'a pas réussi en son temps. Car nul de sa race ne réussira à siéger sur le trône de David et à dominer en Juda. Malheur aux pasteurs qui perdent et dispersent les brebis de mon pâturage oracle du Seigneur! C'est pourquoi ainsi parle le Seigneur, le Dieu d'Israël, contre les pasteurs qui ont à paître mon peuple: vous avez dispersé mes brebis, vous les avez chassées et ne vous en êtes pas occupés. Eh bien!",
-        "رجلاً مرذولاً منبوذاً، لا يصير عظيماً في أيامه ولا يكبر من ذريته إنسان يجلس على كرسي داود رئيساً من الآن على بيت يهوذا. أيها الرعاة المفسدون والمبددون في مكان رعيتكم، لذلك هذا يقوله الرب عن الرعاة الذين يرعون شعبى، انتم قد شتتم غنمي وبددتموها ولم تتعهدوها،",
+            Prefix.HolyWeek + "1HDProphecies&D=GL56&C=Diacon",
+            "",
+            "quelqu'un qui n'a pas réussi en son temps. Car nul de sa race ne réussira à siéger sur le trône de David et à dominer en Juda. Malheur aux pasteurs qui perdent et dispersent les brebis de mon pâturage oracle du Seigneur! C'est pourquoi ainsi parle le Seigneur, le Dieu d'Israël, contre les pasteurs qui ont à paître mon peuple: vous avez dispersé mes brebis, vous les avez chassées et ne vous en êtes pas occupés. Eh bien!",
+            "رجلاً مرذولاً منبوذاً، لا يصير عظيماً في أيامه ولا يكبر من ذريته إنسان يجلس على كرسي داود رئيساً من الآن على بيت يهوذا. أيها الرعاة المفسدون والمبددون في مكان رعيتكم، لذلك هذا يقوله الرب عن الرعاة الذين يرعون شعبى، انتم قد شتتم غنمي وبددتموها ولم تتعهدوها،",
         ],
         [
-            Prefix.HolyWeek +"1HDProphecies&D=GL56&C=Diacon",
-        "",
-        "Moi, je vais m'occuper de vous pour vos méfaits, oracle du Seigneur! Je rassemblerai moi-même le reste de mes brebis de tous les pays où je les aurai dispersées, et je les ramènerai dans leur prairie: elles seront fécondes et se multiplieront. Je susciterai pour elles des pasteurs qui les feront paître; elles n'auront plus crainte ni terreur; aucune ne se perdra, oracle du Seigneur! Voici venir des jours oracle du Seigneur",
-        "فهآنذا أنتقم منكم حسب أعمالكم الشريرة يقول الرب، اجمع بقية شعبي من جميع الأرض التي فرقتها إليها وآتى بها إلى مراتعها فتنمو وتكثر وأقيم عليها رعاة يرعونها، فلا تخاف منذ الآن ولا ترتعد يقول الرب، وهوذا ستأتي أيام يقول الرب وأقيم الكلمة الصالحة التي قررتها على إسرائيل وبيت يهوذا.",
+            Prefix.HolyWeek + "1HDProphecies&D=GL56&C=Diacon",
+            "",
+            "Moi, je vais m'occuper de vous pour vos méfaits, oracle du Seigneur! Je rassemblerai moi-même le reste de mes brebis de tous les pays où je les aurai dispersées, et je les ramènerai dans leur prairie: elles seront fécondes et se multiplieront. Je susciterai pour elles des pasteurs qui les feront paître; elles n'auront plus crainte ni terreur; aucune ne se perdra, oracle du Seigneur! Voici venir des jours oracle du Seigneur",
+            "فهآنذا أنتقم منكم حسب أعمالكم الشريرة يقول الرب، اجمع بقية شعبي من جميع الأرض التي فرقتها إليها وآتى بها إلى مراتعها فتنمو وتكثر وأقيم عليها رعاة يرعونها، فلا تخاف منذ الآن ولا ترتعد يقول الرب، وهوذا ستأتي أيام يقول الرب وأقيم الكلمة الصالحة التي قررتها على إسرائيل وبيت يهوذا.",
         ],
         [
-            Prefix.HolyWeek +"1HDProphecies&D=GL56&C=Diacon",
-        "",
-        "où je susciterai à David un germe juste; un roi régnera et sera intelligent, exerçant dans le pays droit et justice. En ses jours, Juda sera sauvé et Israël habitera en sécurité. \nGloire à la sainte Trinité notre Dieu.",
-        "وفي تلك الأيام أشرق نور البر لداود فيملك ملك بار فيهم، ويجرى الحكم والعدل على الأرض وفي أيامه يخلص يهوذا ويسكن إسرائيل آمنا مطمئناً.\nمجداً للثالوث الأقدس إلهنا آمين",
+            Prefix.HolyWeek + "1HDProphecies&D=GL56&C=Diacon",
+            "",
+            "où je susciterai à David un germe juste; un roi régnera et sera intelligent, exerçant dans le pays droit et justice. En ses jours, Juda sera sauvé et Israël habitera en sécurité. \nGloire à la sainte Trinité notre Dieu.",
+            "وفي تلك الأيام أشرق نور البر لداود فيملك ملك بار فيهم، ويجرى الحكم والعدل على الأرض وفي أيامه يخلص يهوذا ويسكن إسرائيل آمنا مطمئناً.\nمجداً للثالوث الأقدس إلهنا آمين",
         ],
         [
-            Prefix.HolyWeek +"1HDProphecies&D=GL56&C=Diacon",
-        "",
-        "Aussi de Jérémie le prophète\nPuis Jérémie dit à Pashehour : Vous étiez en ce temps avec vos pères combattants la vérité et vos enfants commettent après vous un péché plus grand, car ils mettent en vente ce qui n’est pas à eux, ils font du mal au guérisseur des maladies et à celui qui pardonne les iniquités. Ils prennent les trente pièces d’argent, le prix qu’ont estimé les fils d’Israël, ",
-        "وأيضاً من أرميا النبى\nثم قال أرميا لفشحور: إنكم كنتم زماناً مع آبائكم مقاومين للحق وأولادكم الذين يأتون بعدكم، هؤلاء الذين يصنعون خطية أشر منكم، لأنهم يتمنون الذى ليس لهم، ويؤلمون الذى يشفى الأمراض ويغفر الذنوب، ويأخذون الثلاثين من الفضة، الثمن الذى شارط عليه بنى إسرائيل،",
+            Prefix.HolyWeek + "1HDProphecies&D=GL56&C=Diacon",
+            "",
+            "Aussi de Jérémie le prophète\nPuis Jérémie dit à Pashehour : Vous étiez en ce temps avec vos pères combattants la vérité et vos enfants commettent après vous un péché plus grand, car ils mettent en vente ce qui n’est pas à eux, ils font du mal au guérisseur des maladies et à celui qui pardonne les iniquités. Ils prennent les trente pièces d’argent, le prix qu’ont estimé les fils d’Israël, ",
+            "وأيضاً من أرميا النبى\nثم قال أرميا لفشحور: إنكم كنتم زماناً مع آبائكم مقاومين للحق وأولادكم الذين يأتون بعدكم، هؤلاء الذين يصنعون خطية أشر منكم، لأنهم يتمنون الذى ليس لهم، ويؤلمون الذى يشفى الأمراض ويغفر الذنوب، ويأخذون الثلاثين من الفضة، الثمن الذى شارط عليه بنى إسرائيل،",
         ],
         [
-            Prefix.HolyWeek +"1HDProphecies&D=GL56&C=Diacon",
-        "",
-        "et le payent pour le champ du potier. Comme le Seigneur m’a ordonné voici je l’annonce : Ils verront le jugement de la perdition pour toujours et sur leurs enfants car ils ont livré un sang innocent au jugement.\nGloire à la sainte Trinité notre Dieu.",
-        "ويدفعونها فى حقل الفاخورى، كما أمرنى الرب وهكذا أقول، ستأتى عليهم دينونة الهلاك إلى الأبد وعلى أولادهم لأنهم ألقوا دماً ذكياً فى الحكم.\nمجداً للثالوث الأقدس إلهنا آمين",
+            Prefix.HolyWeek + "1HDProphecies&D=GL56&C=Diacon",
+            "",
+            "et le payent pour le champ du potier. Comme le Seigneur m’a ordonné voici je l’annonce : Ils verront le jugement de la perdition pour toujours et sur leurs enfants car ils ont livré un sang innocent au jugement.\nGloire à la sainte Trinité notre Dieu.",
+            "ويدفعونها فى حقل الفاخورى، كما أمرنى الرب وهكذا أقول، ستأتى عليهم دينونة الهلاك إلى الأبد وعلى أولادهم لأنهم ألقوا دماً ذكياً فى الحكم.\nمجداً للثالوث الأقدس إلهنا آمين",
         ],
         [
-            Prefix.HolyWeek +"1HDProphecies&D=GL56&C=Diacon",
-        "Ebolqen Yca`yac piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nEic \hppe de P_ natako `èn;oikoumenh ouo\`èfnaaic `ènjaie ouo\ efnajwr `èebol `ènnhetouh\ èè`èe`è\rhi `èn'htc.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
-        "Isaïe 24 : 1-13\nVoici que le Seigneur dévaste la terre et la ravage, il en bouleverse la face et en disperse les habitants.",
-        "إشعياء ٢٤: ١-١٣\nها إن الرب يفسد المسكونة ويُخليها ويكشف وجهها ويبدد سكانها،",
+            Prefix.HolyWeek + "1HDProphecies&D=GL56&C=Diacon",
+            "Ebolqen Yca`yac piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nEic \hppe de P_ natako `èn;oikoumenh ouo\`èfnaaic `ènjaie ouo\ efnajwr `èebol `ènnhetouh\ èè`èe`è\rhi `èn'htc.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
+            "Isaïe 24 : 1-13\nVoici que le Seigneur dévaste la terre et la ravage, il en bouleverse la face et en disperse les habitants.",
+            "إشعياء ٢٤: ١-١٣\nها إن الرب يفسد المسكونة ويُخليها ويكشف وجهها ويبدد سكانها،",
         ],
         [
-            Prefix.HolyWeek +"1HDProphecies&D=GL56&C=Diacon",
-        "",
-        "Il en sera du prêtre comme du peuple, du maître comme de l'esclave, de la maîtresse comme de la servante, du vendeur comme de l'acheteur, du prêteur comme de l'emprunteur, du débiteur comme du créancier. Dévastée, dévastée sera la terre, elle sera pillée, pillée, car le Seigneur a prononcé cette parole. La terre est en deuil, elle dépérit, le monde s'étiole, il dépérit, l'élite du peuple de la terre s'étiole. La terre est profanée sous les pieds",
-        "ليكون الشعب كالكاهن، والعبد كالسيد، والأَمة كسيدتها، والشارى كالبائع، والمقرض كالمقترض، والمديون كالدائن. وتفسد الأرض فساداً، وتنهب الأرض نهباً، لأن فم الرب تكلم بهذا. حزن مرتفعو الأرض والأرض آثمت لأجل سكانها",
+            Prefix.HolyWeek + "1HDProphecies&D=GL56&C=Diacon",
+            "",
+            "Il en sera du prêtre comme du peuple, du maître comme de l'esclave, de la maîtresse comme de la servante, du vendeur comme de l'acheteur, du prêteur comme de l'emprunteur, du débiteur comme du créancier. Dévastée, dévastée sera la terre, elle sera pillée, pillée, car le Seigneur a prononcé cette parole. La terre est en deuil, elle dépérit, le monde s'étiole, il dépérit, l'élite du peuple de la terre s'étiole. La terre est profanée sous les pieds",
+            "ليكون الشعب كالكاهن، والعبد كالسيد، والأَمة كسيدتها، والشارى كالبائع، والمقرض كالمقترض، والمديون كالدائن. وتفسد الأرض فساداً، وتنهب الأرض نهباً، لأن فم الرب تكلم بهذا. حزن مرتفعو الأرض والأرض آثمت لأجل سكانها",
         ],
         [
-            Prefix.HolyWeek +"1HDProphecies&D=GL56&C=Diacon",
-        "",
-        "de ses habitants, car ils ont transgressé les lois, violé le décret, rompu l'alliance éternelle. C'est pourquoi la malédiction a dévoré la terre, et ses habitants en subissent la peine; c'est pourquoi les habitants de la terre ont été consumés, il ne reste que peu d'hommes. Le vin nouveau est en deuil, la vigne s'étiole, ils gémissent, ceux qui avaient le cœur en fête. Le son allègre des tambourins s'est tu, les fêtes bruyantes ont pris fin,",
-        "من أجل أنهم تركوا عنهم الناموس وبدلوا أوامري وعدلي الأبدي. من أجل هذا اللعنة تأكل الأرض لأن سكانها آثموا. لأجل هذا السكان في الأرض يصيرون فقراء ويبقى إناس قليلون، يحزن الخمر وتحزن الكرمة ويتنهد جميع الفرحين بنفوسهم وكف فرح الطبول وفنى تعاظم المنافقين",
+            Prefix.HolyWeek + "1HDProphecies&D=GL56&C=Diacon",
+            "",
+            "de ses habitants, car ils ont transgressé les lois, violé le décret, rompu l'alliance éternelle. C'est pourquoi la malédiction a dévoré la terre, et ses habitants en subissent la peine; c'est pourquoi les habitants de la terre ont été consumés, il ne reste que peu d'hommes. Le vin nouveau est en deuil, la vigne s'étiole, ils gémissent, ceux qui avaient le cœur en fête. Le son allègre des tambourins s'est tu, les fêtes bruyantes ont pris fin,",
+            "من أجل أنهم تركوا عنهم الناموس وبدلوا أوامري وعدلي الأبدي. من أجل هذا اللعنة تأكل الأرض لأن سكانها آثموا. لأجل هذا السكان في الأرض يصيرون فقراء ويبقى إناس قليلون، يحزن الخمر وتحزن الكرمة ويتنهد جميع الفرحين بنفوسهم وكف فرح الطبول وفنى تعاظم المنافقين",
         ],
         [
-            Prefix.HolyWeek +"1HDProphecies&D=GL56&C=Diacon",
-        "",
-        "le son allègre du kinnor s'est tu. On ne boit plus de vin en chantant, la boisson est amère à ceux qui la boivent. Elle est en ruines, la cité du néant, toute maison est fermée, on ne peut entrer. On crie dans les rues pour avoir du vin, toute joie a disparu: l'allégresse du pays a été bannie. Dans la ville, ce n'est que décombres, la porte s'est effondrée en ruines. Car il en est au milieu de la terre, parmi les peuples, comme au gaulage de l'olivier",
-        "وكف صوت القيثارة، خزوا ولم يشربوا خمراً، صار المسكر مراً للشاربين، خربت كل المدينة، تغلق البيوت ليلاً لئلا يدخلها أحد ويولول من أجل الخمر بكل موضع. كف كل سرور الأرض وبقيت البلاد خراباً والبيوت المتروكة تهلك، كل هذا يكون في الأرض في وسط الأمم مثل من يقلع شجرة الزيتون، ",
+            Prefix.HolyWeek + "1HDProphecies&D=GL56&C=Diacon",
+            "",
+            "le son allègre du kinnor s'est tu. On ne boit plus de vin en chantant, la boisson est amère à ceux qui la boivent. Elle est en ruines, la cité du néant, toute maison est fermée, on ne peut entrer. On crie dans les rues pour avoir du vin, toute joie a disparu: l'allégresse du pays a été bannie. Dans la ville, ce n'est que décombres, la porte s'est effondrée en ruines. Car il en est au milieu de la terre, parmi les peuples, comme au gaulage de l'olivier",
+            "وكف صوت القيثارة، خزوا ولم يشربوا خمراً، صار المسكر مراً للشاربين، خربت كل المدينة، تغلق البيوت ليلاً لئلا يدخلها أحد ويولول من أجل الخمر بكل موضع. كف كل سرور الأرض وبقيت البلاد خراباً والبيوت المتروكة تهلك، كل هذا يكون في الأرض في وسط الأمم مثل من يقلع شجرة الزيتون، ",
         ],
         [
-            Prefix.HolyWeek +"1HDProphecies&D=GL56&C=Diacon",
-        "",
-        "comme pour les grappillons quand est finie la vendange.\nGloire à la sainte Trinité notre Dieu.",
-        "هكذا أيضاً تدمر الأرض لأن فم رب الجنود تكلم بهذا.\nمجداً للثالوث الأقدس إلهنا آمين",
+            Prefix.HolyWeek + "1HDProphecies&D=GL56&C=Diacon",
+            "",
+            "comme pour les grappillons quand est finie la vendange.\nGloire à la sainte Trinité notre Dieu.",
+            "هكذا أيضاً تدمر الأرض لأن فم رب الجنود تكلم بهذا.\nمجداً للثالوث الأقدس إلهنا آمين",
         ],
         [
-            Prefix.HolyWeek +"1HDProphecies&D=GL56&C=Diacon",
-        "Ebolqen Colomon piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nEf`èejorjf `ènou`èxrwm eqbe je `èmpef; `è\loj `èepen\ht > ouo\ ef; `èe`è\ren nen`è\bhou`èi ouo\ `èe;er]w] nan `èejen nen]wft `èejen pinomoc. \nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
-        "Sagesse 2 : 12-22\n\"Tendons des pièges au juste, puisqu'il nous gêne et qu'il s'oppose à notre conduite, nous reproche nos fautes contre la Loi",
-        "حكمة سليمان ٢: ١٢- ٢٢ \nلنكمن للصديق لأنه ثقيل علينا، لأنه يقاوم أعمالنا ويرذلنا على مخالفتنا للناموس،",
+            Prefix.HolyWeek + "1HDProphecies&D=GL56&C=Diacon",
+            "Ebolqen Colomon piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nEf`èejorjf `ènou`èxrwm eqbe je `èmpef; `è\loj `èepen\ht > ouo\ ef; `èe`è\ren nen`è\bhou`èi ouo\ `èe;er]w] nan `èejen nen]wft `èejen pinomoc. \nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
+            "Sagesse 2 : 12-22\n\"Tendons des pièges au juste, puisqu'il nous gêne et qu'il s'oppose à notre conduite, nous reproche nos fautes contre la Loi",
+            "حكمة سليمان ٢: ١٢- ٢٢ \nلنكمن للصديق لأنه ثقيل علينا، لأنه يقاوم أعمالنا ويرذلنا على مخالفتنا للناموس،",
         ],
         [
-            Prefix.HolyWeek +"1HDProphecies&D=GL56&C=Diacon",
-        "",
-        "et nous accuse de fautes contre notre éducation. Il se flatte d'avoir la connaissance de Dieu et se nomme enfant du Seigneur. Il est devenu un blâme pour nos pensées, sa vue même nous est à charge; car son genre de vie ne ressemble pas aux autres, et ses sentiers sont tout différents. Il nous tient pour chose frelatée et s'écarte de nos chemins comme d'impuretés. Il proclame heureux le sort final des justes et il se vante d'avoir Dieu pour père.",
-        "ويظهر علينا خطايا العصيان، وأن عنده علم من عند الله، ويسمى نفسه إبن الله يصير مُبكتاً لنا على أفكارنا ومنظره ثقيل علينا أن نراه، لأجل أن شعبه لا يشبه غيره وطرقه مخالفة لنا وحسبنا عنده متأخرين وهو متباعد عن طرقنا كتباعده عن الوحوش، ويغضب على القوم الأحرار ويفتخر بأن الله أبوه،",
+            Prefix.HolyWeek + "1HDProphecies&D=GL56&C=Diacon",
+            "",
+            "et nous accuse de fautes contre notre éducation. Il se flatte d'avoir la connaissance de Dieu et se nomme enfant du Seigneur. Il est devenu un blâme pour nos pensées, sa vue même nous est à charge; car son genre de vie ne ressemble pas aux autres, et ses sentiers sont tout différents. Il nous tient pour chose frelatée et s'écarte de nos chemins comme d'impuretés. Il proclame heureux le sort final des justes et il se vante d'avoir Dieu pour père.",
+            "ويظهر علينا خطايا العصيان، وأن عنده علم من عند الله، ويسمى نفسه إبن الله يصير مُبكتاً لنا على أفكارنا ومنظره ثقيل علينا أن نراه، لأجل أن شعبه لا يشبه غيره وطرقه مخالفة لنا وحسبنا عنده متأخرين وهو متباعد عن طرقنا كتباعده عن الوحوش، ويغضب على القوم الأحرار ويفتخر بأن الله أبوه،",
         ],
         [
-            Prefix.HolyWeek +"1HDProphecies&D=GL56&C=Diacon",
-        "",
-        "Voyons si ses dires sont vrais, expérimentons ce qu'il en sera de sa fin. Car si le juste est fils de Dieu, Il l'assistera et le délivrera des mains de ses adversaires. Eprouvons-le par l'outrage et la torture afin de connaître sa douceur et de mettre à l'épreuve sa résignation. Condamnons-le à une mort honteuse, puisque, d'après ses dires, il sera visité. Ainsi raisonnent-ils, mais ils s'égarent, car leur malice les aveugle.",
-        "فلننظر لعل كلامه حق، ولنختبر ما سيكون عن نهايته، فإن كان هو حقا ابن الله فهو يخلص نفسه وينقذها من أيدي المضادين، فلنمتحنه بالشتم والعذاب حتى نعلم بهذا تواضعه ونختبر دعته وصبره، ونحكم عليه بأشنع ميتة لكي تكون الحجة عليه من كلامه. هذا ما إرتأوه فضلوا لأن فخرهم أعماهم",
+            Prefix.HolyWeek + "1HDProphecies&D=GL56&C=Diacon",
+            "",
+            "Voyons si ses dires sont vrais, expérimentons ce qu'il en sera de sa fin. Car si le juste est fils de Dieu, Il l'assistera et le délivrera des mains de ses adversaires. Eprouvons-le par l'outrage et la torture afin de connaître sa douceur et de mettre à l'épreuve sa résignation. Condamnons-le à une mort honteuse, puisque, d'après ses dires, il sera visité. Ainsi raisonnent-ils, mais ils s'égarent, car leur malice les aveugle.",
+            "فلننظر لعل كلامه حق، ولنختبر ما سيكون عن نهايته، فإن كان هو حقا ابن الله فهو يخلص نفسه وينقذها من أيدي المضادين، فلنمتحنه بالشتم والعذاب حتى نعلم بهذا تواضعه ونختبر دعته وصبره، ونحكم عليه بأشنع ميتة لكي تكون الحجة عليه من كلامه. هذا ما إرتأوه فضلوا لأن فخرهم أعماهم",
         ],
         [
-            Prefix.HolyWeek +"1HDProphecies&D=GL56&C=Diacon",
-        "",
-        "Ils ignorent les secrets de Dieu, ils n'espèrent pas de rémunération pour la sainteté, ils ne croient pas à la récompense des âmes pures.\nGloire à la sainte Trinité notre Dieu.",
-        "ولم يدركوا أسرار الله ولم يرجوا أجرة الأبرار ولم يفكروا في رقاد النفوس التي لا عيب فيها. \nمجداً للثالوث الأقدس إلهنا آمين",
+            Prefix.HolyWeek + "1HDProphecies&D=GL56&C=Diacon",
+            "",
+            "Ils ignorent les secrets de Dieu, ils n'espèrent pas de rémunération pour la sainteté, ils ne croient pas à la récompense des âmes pures.\nGloire à la sainte Trinité notre Dieu.",
+            "ولم يدركوا أسرار الله ولم يرجوا أجرة الأبرار ولم يفكروا في رقاد النفوس التي لا عيب فيها. \nمجداً للثالوث الأقدس إلهنا آمين",
         ],
         [
-            Prefix.HolyWeek +"1HDProphecies&D=GL56&C=Diacon",
-        "Ebolqen Iwb piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nAfpw]c nenref;\ap `èm`èpka\i petqemcw `ènniourwou `èejen niqronoc. \nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
-        "Job 12 : 18 à 13 : 1 \nIl délie la ceinture des rois et passe une corde à leurs reins.",
-        "أيوب ١٢: ١٨ - ١٣: ١ \nقد أقلب قضاة الأرض الذي يجلس الملوك على الكراسي",
+            Prefix.HolyWeek + "1HDProphecies&D=GL56&C=Diacon",
+            "Ebolqen Iwb piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nAfpw]c nenref;\ap `èm`èpka\i petqemcw `ènniourwou `èejen niqronoc. \nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
+            "Job 12 : 18 à 13 : 1 \nIl délie la ceinture des rois et passe une corde à leurs reins.",
+            "أيوب ١٢: ١٨ - ١٣: ١ \nقد أقلب قضاة الأرض الذي يجلس الملوك على الكراسي",
         ],
         [
-            Prefix.HolyWeek +"1HDProphecies&D=GL56&C=Diacon",
-        "",
-        "Il fait marcher nu-pieds les prêtres et renverse les puissances établies. Il ôte la parole aux plus assurés, ravit le discernement aux vieillards. Il déverse le mépris sur les nobles, dénoue le ceinturon des forts. Il dévoile les profondeurs des ténèbres, amène à la lumière l'ombre épaisse. Il agrandit des nations, puis les ruine: il fait s'étendre des peuples, puis les supprime. Il ôte l'esprit aux chefs du peuple du pays,",
-        "ويرسل الكهنة مسبيين ويقلب اقوياء الأرض. الذي يغير شفاه المؤمنين ويعرف فهم الشيوخ ويشفى المتواضعين، الذي يكشف أعمال الظلمة ويخرج إلى الغد ظل الضالين، الذي يغير قلوب أراخنة الأرض",
+            Prefix.HolyWeek + "1HDProphecies&D=GL56&C=Diacon",
+            "",
+            "Il fait marcher nu-pieds les prêtres et renverse les puissances établies. Il ôte la parole aux plus assurés, ravit le discernement aux vieillards. Il déverse le mépris sur les nobles, dénoue le ceinturon des forts. Il dévoile les profondeurs des ténèbres, amène à la lumière l'ombre épaisse. Il agrandit des nations, puis les ruine: il fait s'étendre des peuples, puis les supprime. Il ôte l'esprit aux chefs du peuple du pays,",
+            "ويرسل الكهنة مسبيين ويقلب اقوياء الأرض. الذي يغير شفاه المؤمنين ويعرف فهم الشيوخ ويشفى المتواضعين، الذي يكشف أعمال الظلمة ويخرج إلى الغد ظل الضالين، الذي يغير قلوب أراخنة الأرض",
         ],
         [
-            Prefix.HolyWeek +"1HDProphecies&D=GL56&C=Diacon",
-        "",
-        "les fait errer dans un désert sans routes, tâtonner dans les ténèbres, sans lumière, et tituber comme sous l'ivresse. Tout cela, je l'ai vu de mes yeux, entendu de mes oreilles, et compris.\nGloire à la sainte Trinité notre Dieu.",
-        "ويضلهم في طريق لا يعرفونها، يتلمسون في الظلمة وليس في النور يضلوا مثل السكران، هذا كله قد رأته عيناى وسمعت به إذناي.  \nمجداً للثالوث الأقدس إلهنا آمين",
+            Prefix.HolyWeek + "1HDProphecies&D=GL56&C=Diacon",
+            "",
+            "les fait errer dans un désert sans routes, tâtonner dans les ténèbres, sans lumière, et tituber comme sous l'ivresse. Tout cela, je l'ai vu de mes yeux, entendu de mes oreilles, et compris.\nGloire à la sainte Trinité notre Dieu.",
+            "ويضلهم في طريق لا يعرفونها، يتلمسون في الظلمة وليس في النور يضلوا مثل السكران، هذا كله قد رأته عيناى وسمعت به إذناي.  \nمجداً للثالوث الأقدس إلهنا آمين",
         ],
         [
-            Prefix.HolyWeek +"1HDProphecies&D=GL56&C=Diacon",
-        "",
-        "Ebolqen Za,ariac piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nOuo\ au`èemi `ènje niXananeoc ni`èecwou `èetou`èare\ `èerwou je oucaji `ènte P_ pe. \nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
-        "زكريا ١١: ١١ – ١٤ \nوعلم الكنعانيون، الأغنام التي يحرسونها، إنها كلمة الرب",
+            Prefix.HolyWeek + "1HDProphecies&D=GL56&C=Diacon",
+            "",
+            "Ebolqen Za,ariac piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nOuo\ au`èemi `ènje niXananeoc ni`èecwou `èetou`èare\ `èerwou je oucaji `ènte P_ pe. \nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
+            "زكريا ١١: ١١ – ١٤ \nوعلم الكنعانيون، الأغنام التي يحرسونها، إنها كلمة الرب",
         ],
         [
-            Prefix.HolyWeek +"1HDProphecies&D=GL56&C=Diacon",
-        "",
-        "Je leur dis alors: Si cela vous semble bon, donnez-moi mon salaire, sinon n'en faites rien. Ils pesèrent mon salaire: trente sicles d'argent. Le Seigneur me dit: Jette-le au fondeur, ce prix splendide auquel ils m'ont apprécié! Je pris donc les trente sicles d'argent et les jetai à la Maison du Seigneur, pour le fondeur. Puis je mis en morceaux mon deuxième bâton Liens, pour rompre la fraternité entre Juda et Israël.\nGloire à la sainte Trinité notre Dieu.",
-        "أقولها لهم: إن حسن لديكم فأعطوني أجرتي التي قررتموها وإلا فإمتنعوا، فقرروا أجرتى ثلاثين من الفضة. فقال لى الرب: إلقها في الخزانة وإفحص هل هي مختارة مثل ما جربوني بها؟ فأخذت الثلاثين من الفضة وطرحتها داخل بيت الرب في الخزانة، وطرحت العصاة الثانية التي هي حبل القياس لأبعد العزة من بين يهوذا وإسرائيل. \nمجداً للثالوث الأقدس إلهنا آمين ",
+            Prefix.HolyWeek + "1HDProphecies&D=GL56&C=Diacon",
+            "",
+            "Je leur dis alors: Si cela vous semble bon, donnez-moi mon salaire, sinon n'en faites rien. Ils pesèrent mon salaire: trente sicles d'argent. Le Seigneur me dit: Jette-le au fondeur, ce prix splendide auquel ils m'ont apprécié! Je pris donc les trente sicles d'argent et les jetai à la Maison du Seigneur, pour le fondeur. Puis je mis en morceaux mon deuxième bâton Liens, pour rompre la fraternité entre Juda et Israël.\nGloire à la sainte Trinité notre Dieu.",
+            "أقولها لهم: إن حسن لديكم فأعطوني أجرتي التي قررتموها وإلا فإمتنعوا، فقرروا أجرتى ثلاثين من الفضة. فقال لى الرب: إلقها في الخزانة وإفحص هل هي مختارة مثل ما جربوني بها؟ فأخذت الثلاثين من الفضة وطرحتها داخل بيت الرب في الخزانة، وطرحت العصاة الثانية التي هي حبل القياس لأبعد العزة من بين يهوذا وإسرائيل. \nمجداً للثالوث الأقدس إلهنا آمين ",
         ],
         [
-            Prefix.HolyWeek +"1HDProphecies&D=GL56&C=Diacon",
-        "Ebolqen Mi,eoc piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nHeekejw `ènte]efjw `èejen ne]hri etjhn ta]o `èntoumetxhra `ènqe `ènta ouaitoc je aufitou naixmalwtoc `èntoote. \nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
-        "Michée 1 : 16 à 2 : 3 \nArrache tes cheveux, rase-les, pour les fils qui faisaient ta joie! Rends-toi chauve comme le vautour, car ils sont exilés loin de toi!",
-        "ميخا ١: ١٦ - ٢: ١-٣ \nإحلقي رأسك وإصلعي نفسك لأجل أولادك اللطفاء، وسعى ترملك كالنسر لأن رجالك ذهبوا عنك إلى السبى.",
+            Prefix.HolyWeek + "1HDProphecies&D=GL56&C=Diacon",
+            "Ebolqen Mi,eoc piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nHeekejw `ènte]efjw `èejen ne]hri etjhn ta]o `èntoumetxhra `ènqe `ènta ouaitoc je aufitou naixmalwtoc `èntoote. \nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
+            "Michée 1 : 16 à 2 : 3 \nArrache tes cheveux, rase-les, pour les fils qui faisaient ta joie! Rends-toi chauve comme le vautour, car ils sont exilés loin de toi!",
+            "ميخا ١: ١٦ - ٢: ١-٣ \nإحلقي رأسك وإصلعي نفسك لأجل أولادك اللطفاء، وسعى ترملك كالنسر لأن رجالك ذهبوا عنك إلى السبى.",
         ],
         [
-            Prefix.HolyWeek +"1HDProphecies&D=GL56&C=Diacon",
-        "",
-        "Malheur à ceux qui projettent le méfait et qui trament le mal sur leur couche! Dès que luit le matin, ils l'exécutent, car c'est au pouvoir de leurs mains. S'ils convoitent des champs, ils s'en emparent; des maisons, ils les prennent; ils saisissent le maître avec sa maison, l'homme avec son héritage. C'est pourquoi ainsi parle le Seigneur: Voici que je projette contre cette engeance un malheur tel que vous n'en pourrez retirer votre cou;",
-        "ويل للذين يفكرون بالظلم ويخترعون شروراً على مضاجعهم، ثم في نور النهار يتممونها، لأنهم لم يرفعوا أيديهم إلى الله. واشتهوا حقولا ونهبوا اليتامى وظلموا الأرامل. وإغتصبوا الرجل وبيته، الإنسان وميراثه، لذلك هذا ما يقوله الرب: ها أنا مدبر شراً على هذه القبيلة، لا ترفعون منه أعناقكم",
+            Prefix.HolyWeek + "1HDProphecies&D=GL56&C=Diacon",
+            "",
+            "Malheur à ceux qui projettent le méfait et qui trament le mal sur leur couche! Dès que luit le matin, ils l'exécutent, car c'est au pouvoir de leurs mains. S'ils convoitent des champs, ils s'en emparent; des maisons, ils les prennent; ils saisissent le maître avec sa maison, l'homme avec son héritage. C'est pourquoi ainsi parle le Seigneur: Voici que je projette contre cette engeance un malheur tel que vous n'en pourrez retirer votre cou;",
+            "ويل للذين يفكرون بالظلم ويخترعون شروراً على مضاجعهم، ثم في نور النهار يتممونها، لأنهم لم يرفعوا أيديهم إلى الله. واشتهوا حقولا ونهبوا اليتامى وظلموا الأرامل. وإغتصبوا الرجل وبيته، الإنسان وميراثه، لذلك هذا ما يقوله الرب: ها أنا مدبر شراً على هذه القبيلة، لا ترفعون منه أعناقكم",
         ],
         [
-            Prefix.HolyWeek +"1HDProphecies&D=GL56&C=Diacon",
-        "",
-        "et vous ne pourrez marcher la tête haute, car ce sera un temps de malheur.\nGloire à la sainte Trinité notre Dieu.",
-        "ولا تمشون باستقامة بغتة، لأنه زمن ردئ.\nمجداً للثالوث الأقدس إلهنا آمين",
+            Prefix.HolyWeek + "1HDProphecies&D=GL56&C=Diacon",
+            "",
+            "et vous ne pourrez marcher la tête haute, car ce sera un temps de malheur.\nGloire à la sainte Trinité notre Dieu.",
+            "ولا تمشون باستقامة بغتة، لأنه زمن ردئ.\nمجداً للثالوث الأقدس إلهنا آمين",
         ],
         [
-            Prefix.HolyWeek +"1HDProphecies&D=GL56&C=Diacon",
-        "Ebolqen Mi,eoc piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nOuoi `èntayuxh je afmounk `ènje pirefer\o; `èebol \ijen `èpka\i > ouo\ vhetcoutwn 'en nirwmi `èf]op an. \nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
-        "Michée 7 : 1-8 \nMalheur à moi! Je suis devenu comme un moissonneur en été, comme un grappilleur aux vendanges: plus une grappe à manger, plus une figue précoce que je désire! Les fidèles ont disparu du pays: pas un juste parmi les gens!",
-        "ميخا ٧: ١- ٨ \nالويل لنفسي لأنه قد فنى التقى من الأرض، وليس يوجد مستقيم بين الناس",
+            Prefix.HolyWeek + "1HDProphecies&D=GL56&C=Diacon",
+            "Ebolqen Mi,eoc piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nOuoi `èntayuxh je afmounk `ènje pirefer\o; `èebol \ijen `èpka\i > ouo\ vhetcoutwn 'en nirwmi `èf]op an. \nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
+            "Michée 7 : 1-8 \nMalheur à moi! Je suis devenu comme un moissonneur en été, comme un grappilleur aux vendanges: plus une grappe à manger, plus une figue précoce que je désire! Les fidèles ont disparu du pays: pas un juste parmi les gens!",
+            "ميخا ٧: ١- ٨ \nالويل لنفسي لأنه قد فنى التقى من الأرض، وليس يوجد مستقيم بين الناس",
         ],
         [
-            Prefix.HolyWeek +"1HDProphecies&D=GL56&C=Diacon",
-        "",
-        "Tous sont aux aguets pour verser le sang, ils traquent chacun son frère au filet. Pour faire le mal leurs mains sont habiles: le prince réclame, le juge juge pour un cadeau, le grand prononce suivant son bon plaisir. Parmi eux le meilleur est comme une ronce, le plus juste comme une haie d'épines. Aujourd'hui arrive du Nord leur épreuve; c'est l'instant de leur confusion. Ne vous fiez pas au prochain, n'ayez point confiance en l'ami;",
-        "جميعهم يدانون على دماء، كل واحد يضايق صاحبه ضيقاً ويعدون أيديهم للشر، الرئيس يسأل والقاضي يتكلم بكلام السلامة والقوى ينطق بهوى نفسه، فسأنزع خيراتهم مثل السوس الذي يأكل في يوم مظلم. الويل الويل قد جاء الإنتقام. فالآن يكون البكاء. لا تأمنوا لأصدقائكم ولا تتكلوا على مدبريكم.",
+            Prefix.HolyWeek + "1HDProphecies&D=GL56&C=Diacon",
+            "",
+            "Tous sont aux aguets pour verser le sang, ils traquent chacun son frère au filet. Pour faire le mal leurs mains sont habiles: le prince réclame, le juge juge pour un cadeau, le grand prononce suivant son bon plaisir. Parmi eux le meilleur est comme une ronce, le plus juste comme une haie d'épines. Aujourd'hui arrive du Nord leur épreuve; c'est l'instant de leur confusion. Ne vous fiez pas au prochain, n'ayez point confiance en l'ami;",
+            "جميعهم يدانون على دماء، كل واحد يضايق صاحبه ضيقاً ويعدون أيديهم للشر، الرئيس يسأل والقاضي يتكلم بكلام السلامة والقوى ينطق بهوى نفسه، فسأنزع خيراتهم مثل السوس الذي يأكل في يوم مظلم. الويل الويل قد جاء الإنتقام. فالآن يكون البكاء. لا تأمنوا لأصدقائكم ولا تتكلوا على مدبريكم.",
         ],
         [
-            Prefix.HolyWeek +"1HDProphecies&D=GL56&C=Diacon",
-        "",
-        "devant celle qui partage ta couche, garde-toi d'ouvrir la bouche. Car le fils insulte le père, la fille se dresse contre sa mère, la belle-fille contre sa belle-mère, chacun a pour ennemis les gens de sa maison. Mais moi, je regarde vers le Seigneur, j'espère dans le Dieu qui me sauvera; mon Dieu m'entendra. Ne te réjouis pas à mon sujet, ô mon ennemie: si je suis tombée, je me relèverai; si je demeure dans les ténèbres, le Seigneur est ma lumière.\n Gloire à la sainte Trinité notre Dieu.",
-        "إحفظ نفسك من النائم معها ولا تصنع عندها شيئا، لأن الإبن يهين أبيه والإبنة تقوم على أمها والعروس (الكنة) على حماتها وأعداء الإنسان أهل بيته، وأما انا فأترقب الرب، وأتمسك بالله مخلصى فيستجيب لي إلهي، ولا يفرح بي أعدائي فإني إذا سقطت سأقوم أيضاً وإن جلست في الظلمة فالرب سينير لي.\nمجداً للثالوث الأقدس إلهنا آمين",
-        ],
-    ],
-    [
-    
-        [
-            Prefix.HolyWeek +"1HDSermony&D=GL56&C=Diacon",
-        "Oukaty,ycic `nte peniwt `e;ouab abba Iwannyc pi,rycoctomoc `ere pef`cmou `e;ouab swpi neman `amyn",
-        "Sermon de notre saint père Abba Jean Chrysostome. Que sa sainte bénédiction soit avec nous Amen.",
-        "عظة لأبينا القديس أنبا يوحنا فم الذهب بركته المقدسة تكون معنا آمين",
-        ],
-        [
-            Prefix.HolyWeek +"1HDSermony&D=GL56&C=Diacon",
-        "",
-        "Sermon de notre père saint Jean Chrysostome que sa sainte bénédiction repose sur nous tous. Amen !\nQue pouvons-nous dire, frères bien-aimés, de la trahison de Judas qui remit son Maître? Il est dit que l'un des douze, Judas l'Iscariote alla voir les grands prêtres et leur demanda ce qu'ils lui donneraient s'il Le leur remettait. Ils négocièrent avec lui trente pièces d'argent. Qu'est-ce que toute cette grande ignorance ?",
-        "عظة لأبينا القديس أنبا يوحنا ذهبي الفم، بركته المقدسة تكون معنا. آمين.\nماذا نقول أيها الإخوة الأحباء عن جحود يهوذا الذي أسلم سيده؟ قيل إن واحداً من الإثنى عشر، الذي هو يهوذا الإسخريوطي، مضى إلى رؤساء الكهنة وقال لهم: ماذا تريدون أن تعطوني وأنا أسلمه إليكم؟ فساوموه على ثلاثين من الفضة! يا لهذا الجهل العظيم، ",
-        ],
-        [
-            Prefix.HolyWeek +"1HDSermony&D=GL56&C=Diacon",
-        "",
-        "Qu'est-ce qui est pire que le grand amour de l'argent, le principe de tous les maux? Judas, lorsqu'il l’a désiré, a vendu son bon Maître et Seigneur. Il s'est élancé dans la fosse de la perdition. Comme il est vilain l'amour de l'argent. Il attire tout le mal. C'est pire que les astuces des démons. Ceux dont les cœurs sont dominés par ce vice deviennent fous de désir pour lui. Ils ne se rendent pas compte de ce qu'ils font. Ils ne voient pas les autres",
-        "وما أشر محبة المال الذي هو أصل لكل الشرور. لأن هذا لما اشتهاه باع معلمه الصالح وسيده البار، فطوح بنفسه في هوة الهلاك، لأنه كم هو ردئ حب المال، فهو مجلبة لكل شر وأردأ من حيل الشياطين، فالنفوس التي يتسلط عليها يجعل أصحابها يجنون ولعاً بها، فلا يعرفون ذواتهم",
-        ],
-        [
-            Prefix.HolyWeek +"1HDSermony&D=GL56&C=Diacon",
-        "",
-        "tant ils sont aveuglés. Ils refusent la loi de la nature. Leur cœur devient effrayé, comme perdu. Voyez toutes les grâces que l'amour de l'argent a arrachées de l'âme de Judas. Notre Seigneur Jésus Christ leur parlait publiquement des horreurs de la géhenne et de la grâce du Royaume des cieux. Chacun connaît la torture que subissent les pêcheurs et l'honneur qui gratifie tous ceux qui luttent pour le salut de leurs âmes.",
-        "بل ويتعامون عن معرفة الآخرين، ويرفضون ناموس الطبيعة، ويكون قلبهم فزعا حائراً. أنظروا كم من النعم نزعتها محبة الفضة من نفس يهوذا؟ لأن سيدنا يسوع المسيح كان يخاطبهم علانية عن هول الجحيم ونعيم ملكوت السموات، ويعرف كل واحد مقدار عذاب الخطاة، ويكرم كل المجاهدين لخلاص نفوسهم.",
-        ],
-        [
-            Prefix.HolyWeek +"1HDSermony&D=GL56&C=Diacon",
-        "Marener `c`vragizin `n]katy,ycic `nte peniwt `e;ouab abba Iwannyc pi,rycoctomoc `vyetaferouwini `mpennouc nem nibal `nte nenhyt @ qen `vran `m~Viwt nem ~Psyri nem Pi`pneuma `e;ouab ounou] `nouwt @ `amyn",
-        "Clôturons le sermon de notre saint père Abba Jean Chrysostome qui a éclairé nos pensées et les yeux de nos cœurs au nom du Père, du Fils et du Saint Esprit, un seul Dieu, Amen !",
-        "فلنختم عظة أبينا القديس أنبا يوحنا فم الذهب الذى أنار عقولنا وعيون قلوبنا بإسم الآب والإبن والروح القدس إله واحد. آمين.",
+            Prefix.HolyWeek + "1HDProphecies&D=GL56&C=Diacon",
+            "",
+            "devant celle qui partage ta couche, garde-toi d'ouvrir la bouche. Car le fils insulte le père, la fille se dresse contre sa mère, la belle-fille contre sa belle-mère, chacun a pour ennemis les gens de sa maison. Mais moi, je regarde vers le Seigneur, j'espère dans le Dieu qui me sauvera; mon Dieu m'entendra. Ne te réjouis pas à mon sujet, ô mon ennemie: si je suis tombée, je me relèverai; si je demeure dans les ténèbres, le Seigneur est ma lumière.\n Gloire à la sainte Trinité notre Dieu.",
+            "إحفظ نفسك من النائم معها ولا تصنع عندها شيئا، لأن الإبن يهين أبيه والإبنة تقوم على أمها والعروس (الكنة) على حماتها وأعداء الإنسان أهل بيته، وأما انا فأترقب الرب، وأتمسك بالله مخلصى فيستجيب لي إلهي، ولا يفرح بي أعدائي فإني إذا سقطت سأقوم أيضاً وإن جلست في الظلمة فالرب سينير لي.\nمجداً للثالوث الأقدس إلهنا آمين",
         ],
     ],
     [
-    
+
         [
-            Prefix.HolyWeek +"1HDPsalm&D=GL56&C=Diacon",
-        "Yalmoc  to Dauid\nGe autwounou `èe`è\rhi `èejwi `ènje \anmeqreu `ènrefsi`ènjonc > ouo\ `èa ;metsi`ènjonc  je  meqnouj  `èeroc  `èmmin  `èmmoc.\nAutwounou `ènje \anmeqreu  `èn`èoji  > nau]ini  `èmmoi  `èenh`èete  `èn;cwoun  `èmmwou an. Au; nhi `èn\anpet\wou `èn`èt]ebi`èw `èn\anpeqnaneu >  `èeau`è'rajrej  `ènnounaj\i  `èe`è\rhi  `èejwi  > ``allhloui`a",
-        "Psaume 26 : 12 et 34 :11, 12 et 16 \nContre moi se sont levés de faux témoins qui soufflent la violence.\nDes témoins injustes se lèvent, des inconnus m'interrogent. On me rend le mal pour le bien grinçant des dents contre moi. Alléluia",
-        "مزمور  ٢٦: ١٥ مز ٣٤: ١٣، ١٤، ١٩ \nلأنه قام عليّ شهود زور.وكذب الظلم لذاته. قام عليّ شهود زور وعما لا أعلم سألوني. جازوني بدل الخير شراً صارين علىّ بأسنانهم. الليلويا",
+            Prefix.HolyWeek + "1HDSermony&D=GL56&C=Diacon",
+            "Oukaty,ycic `nte peniwt `e;ouab abba Iwannyc pi,rycoctomoc `ere pef`cmou `e;ouab swpi neman `amyn",
+            "Sermon de notre saint père Abba Jean Chrysostome. Que sa sainte bénédiction soit avec nous Amen.",
+            "عظة لأبينا القديس أنبا يوحنا فم الذهب بركته المقدسة تكون معنا آمين",
+        ],
+        [
+            Prefix.HolyWeek + "1HDSermony&D=GL56&C=Diacon",
+            "",
+            "Sermon de notre père saint Jean Chrysostome que sa sainte bénédiction repose sur nous tous. Amen !\nQue pouvons-nous dire, frères bien-aimés, de la trahison de Judas qui remit son Maître? Il est dit que l'un des douze, Judas l'Iscariote alla voir les grands prêtres et leur demanda ce qu'ils lui donneraient s'il Le leur remettait. Ils négocièrent avec lui trente pièces d'argent. Qu'est-ce que toute cette grande ignorance ?",
+            "عظة لأبينا القديس أنبا يوحنا ذهبي الفم، بركته المقدسة تكون معنا. آمين.\nماذا نقول أيها الإخوة الأحباء عن جحود يهوذا الذي أسلم سيده؟ قيل إن واحداً من الإثنى عشر، الذي هو يهوذا الإسخريوطي، مضى إلى رؤساء الكهنة وقال لهم: ماذا تريدون أن تعطوني وأنا أسلمه إليكم؟ فساوموه على ثلاثين من الفضة! يا لهذا الجهل العظيم، ",
+        ],
+        [
+            Prefix.HolyWeek + "1HDSermony&D=GL56&C=Diacon",
+            "",
+            "Qu'est-ce qui est pire que le grand amour de l'argent, le principe de tous les maux? Judas, lorsqu'il l’a désiré, a vendu son bon Maître et Seigneur. Il s'est élancé dans la fosse de la perdition. Comme il est vilain l'amour de l'argent. Il attire tout le mal. C'est pire que les astuces des démons. Ceux dont les cœurs sont dominés par ce vice deviennent fous de désir pour lui. Ils ne se rendent pas compte de ce qu'ils font. Ils ne voient pas les autres",
+            "وما أشر محبة المال الذي هو أصل لكل الشرور. لأن هذا لما اشتهاه باع معلمه الصالح وسيده البار، فطوح بنفسه في هوة الهلاك، لأنه كم هو ردئ حب المال، فهو مجلبة لكل شر وأردأ من حيل الشياطين، فالنفوس التي يتسلط عليها يجعل أصحابها يجنون ولعاً بها، فلا يعرفون ذواتهم",
+        ],
+        [
+            Prefix.HolyWeek + "1HDSermony&D=GL56&C=Diacon",
+            "",
+            "tant ils sont aveuglés. Ils refusent la loi de la nature. Leur cœur devient effrayé, comme perdu. Voyez toutes les grâces que l'amour de l'argent a arrachées de l'âme de Judas. Notre Seigneur Jésus Christ leur parlait publiquement des horreurs de la géhenne et de la grâce du Royaume des cieux. Chacun connaît la torture que subissent les pêcheurs et l'honneur qui gratifie tous ceux qui luttent pour le salut de leurs âmes.",
+            "بل ويتعامون عن معرفة الآخرين، ويرفضون ناموس الطبيعة، ويكون قلبهم فزعا حائراً. أنظروا كم من النعم نزعتها محبة الفضة من نفس يهوذا؟ لأن سيدنا يسوع المسيح كان يخاطبهم علانية عن هول الجحيم ونعيم ملكوت السموات، ويعرف كل واحد مقدار عذاب الخطاة، ويكرم كل المجاهدين لخلاص نفوسهم.",
+        ],
+        [
+            Prefix.HolyWeek + "1HDSermony&D=GL56&C=Diacon",
+            "Marener `c`vragizin `n]katy,ycic `nte peniwt `e;ouab abba Iwannyc pi,rycoctomoc `vyetaferouwini `mpennouc nem nibal `nte nenhyt @ qen `vran `m~Viwt nem ~Psyri nem Pi`pneuma `e;ouab ounou] `nouwt @ `amyn",
+            "Clôturons le sermon de notre saint père Abba Jean Chrysostome qui a éclairé nos pensées et les yeux de nos cœurs au nom du Père, du Fils et du Saint Esprit, un seul Dieu, Amen !",
+            "فلنختم عظة أبينا القديس أنبا يوحنا فم الذهب الذى أنار عقولنا وعيون قلوبنا بإسم الآب والإبن والروح القدس إله واحد. آمين.",
         ],
     ],
     [
-    
+
         [
-            Prefix.HolyWeek +"1HDGospel&D=GL56&C=Diacon",
-        "Matqeon  Kev k/z/ > a/-i/d\nEta toou`èi de \wpi aueroucosni throu `ènje niarxh`èereuc nem niprecbuteroc `ènte pilaoc 'a Ihc? > \wcte `ènce'oqbef > ouo\ `èetaucon\f auolf ouo\ authif `èmPilatoc pi\hgemwn. Tote `èetafnau `ènje Ioudac vh`èetafthif je auerkatakrinin `èmmof `èetafouem`è\qhf > aftacqo `èn;map `èn\at \a niarxh`èereuc nem niprecbuteroc. Efjw `èmmoc je aiernobi je ai; `ènou`ècnof `èn`èqmhi > `ènqwou de pejwou naf > je `èa'on `èanon `ènqok ek`èerw]i > ouo\ afborber `ènni\at `èe'oun `èepiervei > ouo\ af]enaf afoj\f > niarxh`èereuc de `èetausi `ènni\at > pejwou je `èc]e nan an `èe\itou `èepikorbanon > je `èttimh èè`ènou`ècnof pe.\nEtauer oucosni de au]wp `èebol `èn'htou `èmpiio\i `ènte pikerameuc euma`ènqwmc `ènni]emmwou > eqbe vai aumou; `èe`èvran `èmpiio\i `èete`èmmau > je piio\i `èmpi`ècnof ]a `èe'oun `èevoou. Tote afjwk `èebol `ènje vh`èetafjof `èebol \itotf `ènIeremiac piprovhthc efjw `èmmoc je ausi `èn;map `èn\at ;timh `ènte vh`èetauertimh `èerof `ènje nen]hri `èm`èpIc/l./ Ouo\ authitou 'a piio\i `èmpikerameuc > kata `èvrh; `èetafoua\ca\ninhi `ènje P_. \nIhc? de af`èo\i `èeratf `èmpe`èmqo `èmpi\\ugemwn ouo\ af]enf nje pi\\ugemwn efjw `èmmoc> je `ènqok pe `èpouro `ènte niIoudai > Ihc? de pejaf je `ènqok petjw `èmmoc. Ouo\ 'en `èpjin`èqrou erkathgorin `èerof `ènje niarxh`èereuc nem niprecbuteroc `èmpef`èerou`èw `èn\li. Tote peje Pilatoc naf je `èn`èkcwtem an je ceermeqre 'arok `ènouhr > ouo\ `èmpef`èerou`èw naf `è\li `èncaji \wcte `èntefer`è]vhri `ènje pi\\ugemwn `èema]o. Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
-        "",
-        "",
-        ],
-        [
-            Prefix.HolyWeek +"1HDGospel&D=GL56&C=Diacon",
-        "Markon  Kev i/e/ a/- e/\nOuo\ catotou aucosni `ènoucosni `èn]wrp `ènje niarxh`èereuc nem niprecbuteroc nem nica' nem pima`èn;\ap thrf. Aucwn\ `ènIhc? ausitf authif `èePilatoc. Ouo\ af]enf `ènje Pilatoc > je `ènqok pe `èpouro `ènte niIoudai > `ènqof de af`èerou`èw naf pejaf je `ènqok petjw `èmmoc. Ouo\ nauerkathgorin `èn\anmh] 'arof `ènje niarxh`èereuc. Pilatoc de on naf]enf efjw `èmmoc > je `èn`èkerou`èw `èn`è\li an > `èanau je ceerkathgorin `èerok `ènouhr > Ihc? de `èmpef`èerou`èw `èn`è\li > \wcte `èntefer`è]vhri `ènje Pilatoc. Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
-        "",
-        "",
-        ],
-        [
-            Prefix.HolyWeek +"1HDGospel&D=GL56&C=Diacon",
-        "Loukan  Kev k/b/> i/ /]/b/l/ nk/g/>a/-i/b/\nOuo\ `èeta pi`èe\oou ]wpi auqwou; `ènje niprecbuteroc `ènte pilaoc > nem niarxh`èereuc nem nica' > ouo\ auenf `èe'oun `èepouma`èn;\ap > eujw `èmmoc je icje `ènqok pe Pxc? `èajoc nan pejaf je nwou je ai]anjoc nwten tetennana\; an > `èe]wp de on ai]an]en qhnou tetenna`èerou`èw an. Icjen ;nou de `èefe]wpi `ènje `èp]hri `èm`èvrwmi ef\emci caou`èinam `èn;jom `ènte V;. Pejwou de throu je `ènqok oun pe `èp]hri `èmV; > `ènqof de pejaf nwou je `ènqwten etjw `èmmoc je `èanok pe > `ènqwou le pejwou je enerxria an je `ènoumetmeqre > `èanon gar ancwtem `èebol'en rwf.\nOuo\ aftwnf `ènje poumh] tnrf auenf \a Pilatoc > auer\htc de `ènerkathgorin `èerof eujw `èmmoc > je vai an jemf afvwn\ `èmpeneqnoc `èebol > ouo\ efta\no `èe`è]tem;\w; `èm`èpouro efjw `èmmoc `èerof je `èanok pe Pxc? `èpouro. Pilatoc de af]enf efjw `èmmoc > je `ènqok pe `èpouro `ènte niIoudai > `ènqof de af`èerou`èw je `ènqok petjw `èmmoc. \nPilatoc de pejaf `ènniarxh`èereuc nem nimh] > je `èn;jem `è\li `èn`èetia an 'en pairwmi > `ènqwou le naujemjom eujw `èmmoc je `èf`è]qorter `èmpilaoc > ef;`ècbw 'en ;Ioude`èa thrc > ouo\ afer\htc icjen ;Galile`èa ]a paima. Pilatoc de `èetafcwtem af]ini je an ouGalileoc pe pairwmi. \nOuo\ `èetaf`èemi je ou`èebol pe 'en `èper]i]i `ènte Hrwdhc pe > afouorpf \a Hrwdhc > efxh \wf 'en Il/h/m/ 'en pi`èe\oou `èete`mmau > Hrwdhc de `èetafnau `èeIhc ? afra]i `èema]w > nafouw] gar `èenau `èerof ic oumh] `èn`èxronoc > eqbe je nafcwtem eqbhtf > ouo\ naf er\elpic `èenau `èeoumhini `èntotf ef`èiri `èmmof. \nNaf]ini de `èmmof 'en \anmh] `èncaji > `ènqof de `èmpef`èerou`èw `èn`è\li. Nau`èo\i de `èeratou pe `ènje niarxh`èereuc nem nica' > euerkathgorin `èerof `èema]w. Etaf]o]f de `ènje Hrwdhc nem nefmatoi > ouo\ `èetafcwbi `èmmof afjol\f `ènou\ebcw ecveri`èwou > afouorpf `èePilatoc. Auer`è]vhr de `èenou`èerhou Hrwdhc nem Pilatoc 'en pi`èe`è\oou `èete`mmau > nau]op gar `èn]orp pe 'en oumetjaji nem nou`èerhou.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
-        "",
-        "",
-        ],
-        [
-            Prefix.HolyWeek +"1HDGospel&D=GL56&C=Diacon",
-        "Iwannhn  Kev i/h/>kh-]bl\nAu`èini oun `ènIhcouc `èebol \a Kaiava `èe'oun `èepipretwrion > ne ]wrp de pe > ouo\ `ènqwou `èmpou`èi `èe'oun `èepipretwrion > \ina je `ènnoucwf ]atououwm `èmpipacxa. Af`èi oun è`èebol \arwou `ènje Pilatoc pejaf nwou > je ou `ènkathgoria `èeteten`èini `èmmoc 'a pairwmi. Au`èerou`èw pejwou naf > je `èene vai oucampet\wou an pe > nannathif nak an pe. \nPeje Pilatoc nwou je sitf `ènqwten ouo\ ma\ap `èerof kata petennomoc > pejwou naf `ènje niIoudai > je `èanon `èn`èc]e nan an `èe'wteb `èn`è\li > \ina `ènte `èpcaji `ènIhc? jwk `èebol vh`èetafjof > efercummenin je 'en a] `èmmou `èfnamou. Palin on af`èi `ènje Pilatoc `èe'oun `èepipretwrion ouo\ afmou; `èeIhc? pejaf naf > je `ènqok pe `èpouro `ènte niIoudai. Af`èerou`èw naf `ènje Ihc? ouo\ pejaf > je `ènqok etjw `èmvai `èebol \itotk ]an \ankexwouni pe`èetaujoc nak eqbht.  Af`èerou`èw `ènje Pilatoc efjw `èmmoc > je mh `èanok ouIolai \w > pekeqnoc `èmmin `èmmok nem niarxh`èereuc `ènqwou pe`èetauhik > ou pe `èetakaifi. Af`èerou`èw `ènje Ih/c/ je tametouro `èanok qa paikocmoc an te > `èene tametouro ou`èebol'en paikocmoc te > nare na\\uperethc na; `èe`è\rhi èè`èejwi pe > \ina `èntou`è]temthit `ènniIoudai > ;nou de tametouro qa paikocmoc an te.  Pilatoc oun pejaf je mhoun `ènqok ououro > af`èerou`èw `ènje Ihc? je `ènqok pe`èetjw `èmmoc je `èanok ououro > ke gar `èetaumact `èanok `èepai\wb > ouo\ eqbe vai ai`èi `èepikocmoc `èe`èpjintaermetmeqre `èn;meqmhi > ouon niben `èete \an `èebol'en ;meqmhi ne ]aucwtem `èeta`ècmh. Peje Pilatoc naf je ou pe ;meqmhi > ouo\ vai `èetafjof palin on af`èi `èebol\a niIoudai pejaf nwou > je `èanok `èn;jem `è\li `èn`èeti`èa an 'en pairwmi > tetencunhqi`èa de \ina `èntaxa ouai nwten `èebol'en pipacxa tetenouw] oun `èntaxw nwten `èebol `èm`èpouro `ènte niIoudai. Auw] de `èebol throu eujw `èmmoc > je `èmperxa vai `èebol > alla xa Barabbac `èebol > pai Barabbac de ne ouconi pe. Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
-        "",
-        "",
-        ],
-        [
-            Prefix.HolyWeek +"1HDGospel&D=GL56&C=Diacon",
-        "Yalmoc  to Dauid\nGe autwounou `èe`è\rhi `èejwi `ènje \anmeqreu `ènrefsi`ènjonc > ouo\ `èa ;metsi`ènjonc  je  meqnouj  `èeroc  `èmmin  `èmmoc.\nAutwounou `ènje \anmeqreu  `èn`èoji  > nau]ini  `èmmoi  `èenh`èete  `èn;cwoun  `èmmwou an. Au; nhi `èn\anpet\wou `èn`èt]ebi`èw `èn\anpeqnaneu >  `èeau`è'rajrej  `ènnounaj\i  `èe`è\rhi  `èejwi  > ``allhloui`a",
-        "Psaume 26 : 12 et 34 :11, 12 et 16 \nContre moi se sont levés de faux témoins qui soufflent la violence.\nDes témoins injustes se lèvent, des inconnus m'interrogent. On me rend le mal pour le bien grinçant des dents contre moi. Alléluia",
-        "مزمور  ٢٦: ١٥ مز ٣٤: ١٣، ١٤، ١٩ \nلأنه قام عليّ شهود زور.وكذب الظلم لذاته. قام عليّ شهود زور وعما لا أعلم سألوني. جازوني بدل الخير شراً صارين علىّ بأسنانهم. الليلويا",
-        ],
-        [
-            Prefix.HolyWeek +"1HDGospel&D=GL56&C=Diacon",
-        "Matqeon  Kev k/z/ > a/-i/d\nEta toou`èi de \wpi aueroucosni throu `ènje niarxh`èereuc nem niprecbuteroc `ènte pilaoc 'a Ihc? > \wcte `ènce'oqbef > ouo\ `èetaucon\f auolf ouo\ authif `èmPilatoc pi\hgemwn. Tote `èetafnau `ènje Ioudac vh`èetafthif je auerkatakrinin `èmmof `èetafouem`è\qhf > aftacqo `èn;map `èn\at \a niarxh`èereuc nem niprecbuteroc. Efjw `èmmoc je aiernobi je ai; `ènou`ècnof `èn`èqmhi > `ènqwou de pejwou naf > je `èa'on `èanon `ènqok ek`èerw]i > ouo\ afborber `ènni\at `èe'oun `èepiervei > ouo\ af]enaf afoj\f > niarxh`èereuc de `èetausi `ènni\at > pejwou je `èc]e nan an `èe\itou `èepikorbanon > je `èttimh èè`ènou`ècnof pe.\nEtauer oucosni de au]wp `èebol `èn'htou `èmpiio\i `ènte pikerameuc euma`ènqwmc `ènni]emmwou > eqbe vai aumou; `èe`èvran `èmpiio\i `èete`èmmau > je piio\i `èmpi`ècnof ]a `èe'oun `èevoou. Tote afjwk `èebol `ènje vh`èetafjof `èebol \itotf `ènIeremiac piprovhthc efjw `èmmoc je ausi `èn;map `èn\at ;timh `ènte vh`èetauertimh `èerof `ènje nen]hri `èm`èpIc/l./ Ouo\ authitou 'a piio\i `èmpikerameuc > kata `èvrh; `èetafoua\ca\ninhi `ènje P_. \nIhc? de af`èo\i `èeratf `èmpe`èmqo `èmpi\\ugemwn ouo\ af]enf nje pi\\ugemwn efjw `èmmoc> je `ènqok pe `èpouro `ènte niIoudai > Ihc? de pejaf je `ènqok petjw `èmmoc. Ouo\ 'en `èpjin`èqrou erkathgorin `èerof `ènje niarxh`èereuc nem niprecbuteroc `èmpef`èerou`èw `èn\li. Tote peje Pilatoc naf je `èn`èkcwtem an je ceermeqre 'arok `ènouhr > ouo\ `èmpef`èerou`èw naf `è\li `èncaji \wcte `èntefer`è]vhri `ènje pi\\ugemwn `èema]o. Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
-        "Matthieu 27 : 1-14\nLe matin étant arrivé, tous les grands prêtres et les anciens du peuple tinrent un conseil contre Jésus, en sorte de le faire mourir. Et, après l'avoir ligoté, ils l'emmenèrent et le livrèrent à Pilate le gouverneur. Alors Judas, qui l'avait livré, voyant qu'il avait été condamné, fut pris de remords et rapporta les trente pièces d'argent aux grands prêtres et aux anciens: J'ai péché, dit-il, en livrant un sang innocent.",
-        "متى ٢٧: ١-١٤ \nولما كان الصباح تشاور جميع رؤساء الكهنة وشيوخ الشعب على يسوع لكى يقتلوه، فأوثقوه وأخذوه وأسلموه إلى بيلاطس الوالى. حينئذ لما رأى يهوذا الذي أسلمه أنه قد دين، ندم ورد الثلاثين من الفضة إلى رؤساء الكهنة والشيوخ قائلا: إنى قد أخطأت إذ سلمت دماً ذكيا.",
-        ],
-        [
-            Prefix.HolyWeek +"1HDGospel&D=GL56&C=Diacon",
-        "",
-        "Mais ils dirent: «Que nous importe? A toi de voir.» Jetant alors les pièces dans le sanctuaire, il se retira et s'en alla se pendre. Ayant ramassé l'argent, les grands prêtres dirent: «Il n'est pas permis de le verser au trésor, puisque c'est le prix du sang.\" Après délibération, ils achetèrent avec cet argent le \"champ du potier\" comme lieu de sépulture pour les étrangers. Voilà pourquoi ce champ-là s'est appelé jusqu'à ce jour le \"Champ du Sang\". ",
-        "فقالوا له: ما شأننا؟ ما علينا؟ أبصر أنت! فطرح الفضة في الهيكل، ومضى، فخنق نفسه. فأخذ رؤساء الكهنة الفضة وقالوا: لا يحل لنا أن نلقيها في بيت القربان لأنها ثمن دم، فتشاوروا وإبتاعوا بها حقل الفخارى مقبرة للغرباء. \nولذلك دعى اسم ذلك الحقل، حقل الدم إلى هذا اليوم،",
-        ],
-        [
-            Prefix.HolyWeek +"1HDGospel&D=GL56&C=Diacon",
-        "",
-        "Alors s'accomplit l'oracle de Jérémie le prophète: Et ils prirent les trente pièces d'argent, le prix du Précieux qu'ont apprécié des fils d'Israël, et ils les donnèrent pour le champ du potier, ainsi que me l'a ordonné le Seigneur. Jésus fut amené en présence du gouverneur et le gouverneur l'interrogea en disant: Tu es le Roi des Juifs? Jésus répliqua: Tu le dis. Puis, tandis qu'il était accusé par les grands prêtres et les anciens, ",
-        "حينئذ تم ما قيل بأرميا النبي القائل: أخذوا الثلاثين من الفضة ثمن المثمن الذي ثمنه بنو إسرائيل، ودفعوها في حقل الفخارى كما أمرنى الرب. فوقف يسوع أمام الوالى، فسأله الوالى قائلا: أأنت ملك اليهود؟! فقال يسوع له: أنت قلت. وفيما كان رؤساء الكهنة والشيوخ يشتكون عليه،",
-        ],
-        [
-            Prefix.HolyWeek +"1HDGospel&D=GL56&C=Diacon",
-        "",
-        "il ne répondit rien. Alors Pilate lui dit: N'entends-tu pas tout ce qu'ils attestent contre toi? Et il ne lui répondit sur aucun point, si bien que le gouverneur était fort étonné.\nGloire à Dieu éternellement.",
-        "لم يجب بشيء، فقال له بيلاطس: أما تسمع كم يشهدون عليك؟! فلم يجبه عن أي كلمة، حتى تعجب الوالي جداً. \nوالمجد لله دائماً",
-        ],
-        [
-            Prefix.HolyWeek +"1HDGospel&D=GL56&C=Diacon",
-        "Markon  Kev i/e/ a/- e/\nOuo\ catotou aucosni `ènoucosni `èn]wrp `ènje niarxh`èereuc nem niprecbuteroc nem nica' nem pima`èn;\ap thrf. Aucwn\ `ènIhc? ausitf authif `èePilatoc. Ouo\ af]enf `ènje Pilatoc > je `ènqok pe `èpouro `ènte niIoudai > `ènqof de af`èerou`èw naf pejaf je `ènqok petjw `èmmoc. Ouo\ nauerkathgorin `èn\anmh] 'arof `ènje niarxh`èereuc. Pilatoc de on naf]enf efjw `èmmoc > je `èn`èkerou`èw `èn`è\li an > `èanau je ceerkathgorin `èerok `ènouhr > Ihc? de `èmpef`èerou`èw `èn`è\li > \wcte `èntefer`è]vhri `ènje Pilatoc. Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
-        "Marc 15 : 1-5\nEt aussitôt, le matin, les grands prêtres préparèrent un conseil avec les anciens, les scribes, et tout le Sanhédrin; puis, après avoir ligoté Jésus, ils l'emmenèrent et le livrèrent à Pilate. Pilate l'interrogea: Tu es le roi des Juifs? \nJésus lui répond: Tu le dis. Et les grands prêtres multipliaient contre lui les accusations. Et Pilate de l'interroger à nouveau: Tu ne réponds rien?",
-        "مرقس ١٥: ١-٥\nوللوقت في الصباح تشاور رؤساء الكهنة مع الشيوخ، والكتبة وجميع مجلس القضاء تشاوروا، وأوثقوا يسوع وأخذوه وأسلموه إلى بيلاطس، فسأله بيلاطس: هل أنت هو ملك اليهود؟!\nأما هو فأجابه قائلا: أنت تقول. وكان رؤساء الكهنة يشتكون عليه كثيراً. ثم سأله ايضاً بيلاطس قائلا: أما تجيب بشيء،",
-        ],
-        [
-            Prefix.HolyWeek +"1HDGospel&D=GL56&C=Diacon",
-        "",
-        "Vois tout ce dont ils t'accusent! Mais Jésus ne répondit plus rien, si bien que Pilate était étonné.\nGloire à Dieu éternellement.",
-        "أنظر كم يشتكونك. أما يسوع فلم يجب بشيء حتى تعجب بيلاطس.\nوالمجد لله دائماً",
-        ],
-        [
-            Prefix.HolyWeek +"1HDGospel&D=GL56&C=Diacon",
-        "Loukan  Kev k/b/> i/ /]/b/l/ nk/g/>a/-i/b/\nOuo\ `èeta pi`èe\oou ]wpi auqwou; `ènje niprecbuteroc `ènte pilaoc > nem niarxh`èereuc nem nica' > ouo\ auenf `èe'oun `èepouma`èn;\ap > eujw `èmmoc je icje `ènqok pe Pxc? `èajoc nan pejaf je nwou je ai]anjoc nwten tetennana\; an > `èe]wp de on ai]an]en qhnou tetenna`èerou`èw an. Icjen ;nou de `èefe]wpi `ènje `èp]hri `èm`èvrwmi ef\emci caou`èinam `èn;jom `ènte V;. Pejwou de throu je `ènqok oun pe `èp]hri `èmV; > `ènqof de pejaf nwou je `ènqwten etjw `èmmoc je `èanok pe > `ènqwou le pejwou je enerxria an je `ènoumetmeqre > `èanon gar ancwtem `èebol'en rwf.\nOuo\ aftwnf `ènje poumh] tnrf auenf \a Pilatoc > auer\htc de `ènerkathgorin `èerof eujw `èmmoc > je vai an jemf afvwn\ `èmpeneqnoc `èebol > ouo\ efta\no `èe`è]tem;\w; `èm`èpouro efjw `èmmoc `èerof je `èanok pe Pxc? `èpouro. Pilatoc de af]enf efjw `èmmoc > je `ènqok pe `èpouro `ènte niIoudai > `ènqof de af`èerou`èw je `ènqok petjw `èmmoc. \nPilatoc de pejaf `ènniarxh`èereuc nem nimh] > je `èn;jem `è\li `èn`èetia an 'en pairwmi > `ènqwou le naujemjom eujw `èmmoc je `èf`è]qorter `èmpilaoc > ef;`ècbw 'en ;Ioude`èa thrc > ouo\ afer\htc icjen ;Galile`èa ]a paima. Pilatoc de `èetafcwtem af]ini je an ouGalileoc pe pairwmi. \nOuo\ `èetaf`èemi je ou`èebol pe 'en `èper]i]i `ènte Hrwdhc pe > afouorpf \a Hrwdhc > efxh \wf 'en Il/h/m/ 'en pi`èe\oou `èete`mmau > Hrwdhc de `èetafnau `èeIhc ? afra]i `èema]w > nafouw] gar `èenau `èerof ic oumh] `èn`èxronoc > eqbe je nafcwtem eqbhtf > ouo\ naf er\elpic `èenau `èeoumhini `èntotf ef`èiri `èmmof. \nNaf]ini de `èmmof 'en \anmh] `èncaji > `ènqof de `èmpef`èerou`èw `èn`è\li. Nau`èo\i de `èeratou pe `ènje niarxh`èereuc nem nica' > euerkathgorin `èerof `èema]w. Etaf]o]f de `ènje Hrwdhc nem nefmatoi > ouo\ `èetafcwbi `èmmof afjol\f `ènou\ebcw ecveri`èwou > afouorpf `èePilatoc. Auer`è]vhr de `èenou`èerhou Hrwdhc nem Pilatoc 'en pi`èe`è\oou `èete`mmau > nau]op gar `èn]orp pe 'en oumetjaji nem nou`èerhou.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
-        "",
-        "لوقا ٢٢: ٦٦ - ٧١، ٢٣: ١-١٢\nولما كان النهار إجتمع شيوخ الشعب، ورؤساء الكهنة والكتبة، وأخذوه إلى محكمتهم قائلين: إن كنت المسيح فقل لنا. فقال لهم: إن قلت لكم لا تؤمنون، وإن سألتكم لا تجيبون، ومن الآن يكون إبن الإنسان جالساً عن يمين قوة الله. فقال الجميع: أنت إذن إبن الله ؟! فقال لهم:",
-        ],
-        [
-            Prefix.HolyWeek +"1HDGospel&D=GL56&C=Diacon",
-        "",
-        "Vous le dites: je le suis.  Et ils dirent: Qu'avons-nous encore besoin de témoignage? Car nous-mêmes l'avons entendu de sa bouche! Puis toute l'assemblée se leva, et ils l'amenèrent devant Pilate. Ils se mirent alors à l'accuser, en disant: Nous avons trouvé cet homme mettant le trouble dans notre nation, empêchant de payer les impôts à César et se disant Christ Roi. Pilate l'interrogea en disant: Tu es le roi des Juifs?",
-        "أنتم تقولون إنى أنا هو. أما هم فقالوا: ما حاجتنا بعد إلى شهادة، فإننا نحن قد سمعنا من فمه. فقام جمعهم كله وجاءوا به إلى بيلاطس، وطفقوا يشتكون عليه قائلين: إننا وجدنا هذا يفسد أمتنا، ويمنع أن نؤدي الجزية لقيصر قائلاً عن نفسه أنى أنا هو المسيح الملك. فسأله بيلاطس قائلا: أأنت ملك اليهود؟.",
-        ],
-        [
-            Prefix.HolyWeek +"1HDGospel&D=GL56&C=Diacon",
-        "",
-        "- Tu le dis, lui répondit-il. Pilate dit alors aux grands prêtres et aux foules: Je ne trouve en cet homme aucun motif de condamnation. Mais ils insistèrent et dirent: Il soulève le peuple, enseignant par toute la Judée, depuis la Galilée, où il a commencé, jusqu'ici. A ces mots, Pilate demanda si l'homme était Galiléen. Et s'étant assuré qu'il était de la juridiction d'Hérode, il le renvoya à Hérode",
-        "أما هو فأجابه قائلا: أنت الذي تقول!\nفقال بيلاطس لرؤساء الكهنة والجموع: إنى لا أجد في هذا الرجل علة. وأما هم فكانوا يتشددون قائلين: إنه يهيج الشعب، إذ يعلم في اليهودية كلها، مبتدئا من الجليل إلى هنا. فلما سمع بيلاطس سأل: أهذا الرجل جليلي؟!. ولما علم أنه من سلطنة هيرودس، أرسله إلى هيرودس",
-        ],
-        [
-            Prefix.HolyWeek +"1HDGospel&D=GL56&C=Diacon",
-        "",
-        "qui se trouvait, lui aussi, à Jérusalem en ces jours-là. Hérode, en voyant Jésus, fut tout joyeux; car depuis assez longtemps il désirait le voir, pour ce qu'il entendait dire de lui; et il espérait lui voir faire quelque miracle. Il l'interrogea donc avec force paroles, mais il ne lui répondit rien. Cependant les grands prêtres et les scribes se tenaient là, l'accusant avec véhémence. Après l'avoir, ainsi que ses gardes, traité avec mépris et bafoué,",
-        "إذ كان هو أيضاً في تلك الأيام في في أورشليم، فلما رأى هيرودس يسوع فرح جداً لأنه من زمان طويل كان يريد أن يراه لما كان يسمعه عنه، وكان يرجو أن يرى منه آية يصنعها، وكان يسأله في كلام كثير فلم يجبه بشيء. وكان رؤساء الكهنة والكتبة واقفين يشتكونه كثيراً فإزدراه هيرودس وجنوده، وهزأ به ",
-        ],
-        [
-            Prefix.HolyWeek +"1HDGospel&D=GL56&C=Diacon",
-        "",
-        "Hérode le revêtit d'un habit splendide et le renvoya à Pilate. Et, ce même jour, Hérode et Pilate devinrent deux amis, d'ennemis qu'ils étaient auparavant.\nGloire à Dieu éternellement.",
-        "وألبسه ثوباً لامعا ورده إلى بيلاطس، فتصادق بيلاطس وهيرودس مع بعضهما في ذلك اليوم، لأنه كان بينهما عداء من قبل.\nوالمجد لله دائماً",
-        ],
-        [
-            Prefix.HolyWeek +"1HDGospel&D=GL56&C=Diacon",
-        "Iwannhn  Kev i/h/>kh-]bl\nAu`èini oun `ènIhcouc `èebol \a Kaiava `èe'oun `èepipretwrion > ne ]wrp de pe > ouo\ `ènqwou `èmpou`èi `èe'oun `èepipretwrion > \ina je `ènnoucwf ]atououwm `èmpipacxa. Af`èi oun è`èebol \arwou `ènje Pilatoc pejaf nwou > je ou `ènkathgoria `èeteten`èini `èmmoc 'a pairwmi. Au`èerou`èw pejwou naf > je `èene vai oucampet\wou an pe > nannathif nak an pe. \nPeje Pilatoc nwou je sitf `ènqwten ouo\ ma\ap `èerof kata petennomoc > pejwou naf `ènje niIoudai > je `èanon `èn`èc]e nan an `èe'wteb `èn`è\li > \ina `ènte `èpcaji `ènIhc? jwk `èebol vh`èetafjof > efercummenin je 'en a] `èmmou `èfnamou. Palin on af`èi `ènje Pilatoc `èe'oun `èepipretwrion ouo\ afmou; `èeIhc? pejaf naf > je `ènqok pe `èpouro `ènte niIoudai. Af`èerou`èw naf `ènje Ihc? ouo\ pejaf > je `ènqok etjw `èmvai `èebol \itotk ]an \ankexwouni pe`èetaujoc nak eqbht.  Af`èerou`èw `ènje Pilatoc efjw `èmmoc > je mh `èanok ouIolai \w > pekeqnoc `èmmin `èmmok nem niarxh`èereuc `ènqwou pe`èetauhik > ou pe `èetakaifi. Af`èerou`èw `ènje Ih/c/ je tametouro `èanok qa paikocmoc an te > `èene tametouro ou`èebol'en paikocmoc te > nare na\\uperethc na; `èe`è\rhi èè`èejwi pe > \ina `èntou`è]temthit `ènniIoudai > ;nou de tametouro qa paikocmoc an te.  Pilatoc oun pejaf je mhoun `ènqok ououro > af`èerou`èw `ènje Ihc? je `ènqok pe`èetjw `èmmoc je `èanok ououro > ke gar `èetaumact `èanok `èepai\wb > ouo\ eqbe vai ai`èi `èepikocmoc `èe`èpjintaermetmeqre `èn;meqmhi > ouon niben `èete \an `èebol'en ;meqmhi ne ]aucwtem `èeta`ècmh. Peje Pilatoc naf je ou pe ;meqmhi > ouo\ vai `èetafjof palin on af`èi `èebol\a niIoudai pejaf nwou > je `èanok `èn;jem `è\li `èn`èeti`èa an 'en pairwmi > tetencunhqi`èa de \ina `èntaxa ouai nwten `èebol'en pipacxa tetenouw] oun `èntaxw nwten `èebol `èm`èpouro `ènte niIoudai. Auw] de `èebol throu eujw `èmmoc > je `èmperxa vai `èebol > alla xa Barabbac `èebol > pai Barabbac de ne ouconi pe. Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
-        "",
-        "يوحنا ١٨: ٢٨ -٤٠\nوجاءوا بيسوع من عند قيافا إلى دار الولاية، وكان صبح فلم يدخلوا إلى دار الولاية لئلا يتنجسوا حتى يأكلوا الفصح، فخرج بيلاطس إليهم وقال لهم: أية شكاية تقدمونها على هذا الرجل؟! أجابوا وقالوا له: لو لم يكن هذا شريراً لما كنا نسلمه إليك. فقال لهم بيلاطس: خذوه أنتم وأحكموا عليه بحسب ناموسكم.",
-        ],
-        [
-            Prefix.HolyWeek +"1HDGospel&D=GL56&C=Diacon",
-        "",
-        "Les Juifs lui dirent: «Il ne nous est pas permis de mettre quelqu'un à mort,» afin que s'accomplît la parole qu'avait dite Jésus, signifiant de quelle mort il devait mourir. Alors Pilate entra de nouveau dans le prétoire; il appela Jésus et dit: «Tu es le roi des Juifs?» Jésus répondit: «Dis-tu cela de toi-même ou d'autres te l'ont-ils dit de moi?» Pilate répondit: «Est-ce que je suis Juif, moi? Ta nation et les grands prêtres t'ont livré à moi. Qu'as-tu",
-        "فقال له اليهود: نحن لا يجوز لنا أن نقتل أحداً. ليتم قول يسوع الذي قال مشيراً إلى آية ميتة يموت. ثم دخل بيلاطس أيضاً إلى دار الولاية ودعا يسوع وقال له: أأنت ملك اليهود؟! أجاب يسوع وقال: أمن ذاتك تقول هذا، أم آخرون قالوا لك عنى؟!. أجاب بيلاطس قائلا: ألعلى أنا ايضاً يهودى؟ إن أمتك ورؤساء الكهنة هم الذين أسلموك إلى، فماذا",
-        ],
-        [
-            Prefix.HolyWeek +"1HDGospel&D=GL56&C=Diacon",
-        "",
-        "Fait?» \nJésus répondit: «Mon royaume n'est pas de ce monde. Si mon royaume était de ce monde, mes gens auraient combattu pour que je ne sois pas livré aux Juifs. Mais mon royaume n'est pas d'ici.» Pilate lui dit: «Donc tu es roi?» Jésus répondit: «Tu le dis: je suis roi. Je ne suis né, et je ne suis venu dans le monde, que pour rendre témoignage à la vérité. Quiconque est de la vérité écoute ma voix.»",
-        "فعلت؟!\nأجاب يسوع: إن مملكتي ليست من هذا العالم. لو كانت مملكتي من هذا العالم لكان خدامي يحاربون عني لكى لا أسلم إلى اليهود. والآن مملكتي ليست من هذا العالم. فقال له بيلاطس: أملك إذن أنت؟! أجاب يسوع: أنت الذي تقول أنى ملك، وأنى أنا لهذا العمل ولدت، ومن أجل هذا أتيت إلى العالم لأشهد للحق. فكل من هو من الحق يسمع صوتى.",
-        ],
-        [
-            Prefix.HolyWeek +"1HDGospel&D=GL56&C=Diacon",
-        "",
-        "Pilate lui dit: «Qu'est-ce que la vérité?» Et, sur ce mot, il sortit de nouveau et alla vers les Juifs. Et il leur dit: «Je ne trouve en lui aucun motif de condamnation. Mais c'est pour vous une coutume que je vous relâche quelqu'un à la Pâque. Voulez-vous que je vous relâche le roi des Juifs?» Alors ils vociférèrent de nouveau, disant: «Pas lui, mais Barabbas!» Or Barabbas était un brigand.\nGloire à Dieu éternellement.",
-        "فقال له بيلاطس: ما هو الحق؟! فقال هذا وخرج إلى اليهود وقال لهم: إنني لا أجد علة ما في هذا الإنسان، وعادتكم أن أطلق لكم واحداً في الفصح، أفتريدون أن أطلق لكم ملك اليهود؟! فصرخوا جميعاً قائلين: لا تطلق هذا، بل أطلق باراباس. وكان باراباس لصاً.\nوالمجد لله دائماً",
+            Prefix.HolyWeek + "1HDPsalm&D=GL56&C=Diacon",
+            "Yalmoc  to Dauid\nGe autwounou `èe`è\rhi `èejwi `ènje \anmeqreu `ènrefsi`ènjonc > ouo\ `èa ;metsi`ènjonc  je  meqnouj  `èeroc  `èmmin  `èmmoc.\nAutwounou `ènje \anmeqreu  `èn`èoji  > nau]ini  `èmmoi  `èenh`èete  `èn;cwoun  `èmmwou an. Au; nhi `èn\anpet\wou `èn`èt]ebi`èw `èn\anpeqnaneu >  `èeau`è'rajrej  `ènnounaj\i  `èe`è\rhi  `èejwi  > ``allhloui`a",
+            "Psaume 26 : 12 et 34 :11, 12 et 16 \nContre moi se sont levés de faux témoins qui soufflent la violence.\nDes témoins injustes se lèvent, des inconnus m'interrogent. On me rend le mal pour le bien grinçant des dents contre moi. Alléluia",
+            "مزمور  ٢٦: ١٥ مز ٣٤: ١٣، ١٤، ١٩ \nلأنه قام عليّ شهود زور.وكذب الظلم لذاته. قام عليّ شهود زور وعما لا أعلم سألوني. جازوني بدل الخير شراً صارين علىّ بأسنانهم. الليلويا",
         ],
     ],
     [
-    
+
         [
-            Prefix.HolyWeek +"1HDCommentary&D=GL56&C=Diacon",
-        "",
-        "Commentaire\nA l'aube du vendredi, les grands prêtres se réunirent et préparèrent la condamnation du Sauveur avant de le présenter à Pilate pour le faire mourir. Judas, ayant appris cela, regretta ce qu'il avait fait. Il rendit l'argent aux grands prêtres en disant: «J'ai livré un sang innocent.» Puis il se retira et s'en alla se pendre, faisant ainsi un autre péché. Ayant ramassé l'argent, les grands prêtres achetèrent",
-        "طــرح\nباكر يوم الجمعة إجتمع رؤساء الكهنة معاً وصنعوا الحكم على المخلص لكي يسلموه إلى بيلاطس ليقتله. فيهوذا لما نظر ما كان ندم على ما فعله. وأعاد الفضة إلى رؤساء الكهنة قائلاً: إنني ألقيت للحكم دماً ذكياً .فمضى وخنق نفسه وحده وكمل إثماً على إثم. فأخذ رؤساء الكهنة الفضة وإبتاعوا بها",
+            Prefix.HolyWeek + "1HDGospel&D=GL56&C=Diacon",
+            "Matqeon  Kev k/z/ > a/-i/d\nEta toou`èi de \wpi aueroucosni throu `ènje niarxh`èereuc nem niprecbuteroc `ènte pilaoc 'a Ihc? > \wcte `ènce'oqbef > ouo\ `èetaucon\f auolf ouo\ authif `èmPilatoc pi\hgemwn. Tote `èetafnau `ènje Ioudac vh`èetafthif je auerkatakrinin `èmmof `èetafouem`è\qhf > aftacqo `èn;map `èn\at \a niarxh`èereuc nem niprecbuteroc. Efjw `èmmoc je aiernobi je ai; `ènou`ècnof `èn`èqmhi > `ènqwou de pejwou naf > je `èa'on `èanon `ènqok ek`èerw]i > ouo\ afborber `ènni\at `èe'oun `èepiervei > ouo\ af]enaf afoj\f > niarxh`èereuc de `èetausi `ènni\at > pejwou je `èc]e nan an `èe\itou `èepikorbanon > je `èttimh èè`ènou`ècnof pe.\nEtauer oucosni de au]wp `èebol `èn'htou `èmpiio\i `ènte pikerameuc euma`ènqwmc `ènni]emmwou > eqbe vai aumou; `èe`èvran `èmpiio\i `èete`èmmau > je piio\i `èmpi`ècnof ]a `èe'oun `èevoou. Tote afjwk `èebol `ènje vh`èetafjof `èebol \itotf `ènIeremiac piprovhthc efjw `èmmoc je ausi `èn;map `èn\at ;timh `ènte vh`èetauertimh `èerof `ènje nen]hri `èm`èpIc/l./ Ouo\ authitou 'a piio\i `èmpikerameuc > kata `èvrh; `èetafoua\ca\ninhi `ènje P_. \nIhc? de af`èo\i `èeratf `èmpe`èmqo `èmpi\\ugemwn ouo\ af]enf nje pi\\ugemwn efjw `èmmoc> je `ènqok pe `èpouro `ènte niIoudai > Ihc? de pejaf je `ènqok petjw `èmmoc. Ouo\ 'en `èpjin`èqrou erkathgorin `èerof `ènje niarxh`èereuc nem niprecbuteroc `èmpef`èerou`èw `èn\li. Tote peje Pilatoc naf je `èn`èkcwtem an je ceermeqre 'arok `ènouhr > ouo\ `èmpef`èerou`èw naf `è\li `èncaji \wcte `èntefer`è]vhri `ènje pi\\ugemwn `èema]o. Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
+            "",
+            "",
         ],
         [
-            Prefix.HolyWeek +"1HDCommentary&D=GL56&C=Diacon",
-        "",
-        "le \"champ du potier\" afin que soit accompli ce qui a été écrit au sujet des trente pièces d'argent, le prix de l'innocent. Jésus fut présenté à Pilate qui lui demanda: «Es-tu roi?». Jésus répondit: «Dis-tu cela de toi-même ou d'autres te l'ont-ils dit de moi? Moi, je suis né, Pilate, pour le royaume.» Ils déposèrent beaucoup de plaintes à son sujet mais le Béni ne répondit pas.",
-        "حقل الفاخوري، لكي يكمل الذي قيل من أجل الثلاثين من الفضة ثمن الذكي. فأقاموا يسوع أمام بيلاطس فسأله: أأنت ملك؟ فأجاب يسوع: أنت قلت أم آخر أخبرك؟ أنا ولدت يا بيلاطس من أجل المملكة. فاشتكوا عليه كثيراً. فلم يُجب المبارك بشيء.",
+            Prefix.HolyWeek + "1HDGospel&D=GL56&C=Diacon",
+            "Markon  Kev i/e/ a/- e/\nOuo\ catotou aucosni `ènoucosni `èn]wrp `ènje niarxh`èereuc nem niprecbuteroc nem nica' nem pima`èn;\ap thrf. Aucwn\ `ènIhc? ausitf authif `èePilatoc. Ouo\ af]enf `ènje Pilatoc > je `ènqok pe `èpouro `ènte niIoudai > `ènqof de af`èerou`èw naf pejaf je `ènqok petjw `èmmoc. Ouo\ nauerkathgorin `èn\anmh] 'arof `ènje niarxh`èereuc. Pilatoc de on naf]enf efjw `èmmoc > je `èn`èkerou`èw `èn`è\li an > `èanau je ceerkathgorin `èerok `ènouhr > Ihc? de `èmpef`èerou`èw `èn`è\li > \wcte `èntefer`è]vhri `ènje Pilatoc. Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
+            "",
+            "",
         ],
         [
-            Prefix.HolyWeek +"1HDCommentary&D=GL56&C=Diacon",
-        "",
-        "Pilate dit alors: «N'entends-tu pas ces nombreux témoignages?» Mais Lui ne dit rien. Le gouverneur fut surpris pour Son silence et Son calme. Comment l'Agneau peut-il répondre, Lui qui est venu pour porter les péchés du monde. Le prophète Isaïe a dit qu'Il fut jugé comme un agneau. Cette prophétie s'est accomplie aujourd'hui à Jérusalem, au milieu d'Israël. Tes fils pleurent pour toi aujourd'hui, \"Jérusalem, toi qui tues les prophètes.\"",
-        "فقال بيلاطس: أما تسمع هذه الشهادات الكثيرة؟ فلم يفتح فمه ليقول كلمة. فتعجب الوالي جداً من أجل صمته وهدوءه. كيف يفتح الحمل فاه وهو الذي أتى ليحمل خطايا العالم؟ وقد شهد أشعياء من أجله قائلاً: إن مداينته قد ارتفعت مثل الخروف. قد كملت اليوم هذه النبوة في أورشليم في وسط إسرائيل. يبكي عليكِ بنوكِ اليوم يا أورشليم يا قاتلة الأنبياء.",
+            Prefix.HolyWeek + "1HDGospel&D=GL56&C=Diacon",
+            "Loukan  Kev k/b/> i/ /]/b/l/ nk/g/>a/-i/b/\nOuo\ `èeta pi`èe\oou ]wpi auqwou; `ènje niprecbuteroc `ènte pilaoc > nem niarxh`èereuc nem nica' > ouo\ auenf `èe'oun `èepouma`èn;\ap > eujw `èmmoc je icje `ènqok pe Pxc? `èajoc nan pejaf je nwou je ai]anjoc nwten tetennana\; an > `èe]wp de on ai]an]en qhnou tetenna`èerou`èw an. Icjen ;nou de `èefe]wpi `ènje `èp]hri `èm`èvrwmi ef\emci caou`èinam `èn;jom `ènte V;. Pejwou de throu je `ènqok oun pe `èp]hri `èmV; > `ènqof de pejaf nwou je `ènqwten etjw `èmmoc je `èanok pe > `ènqwou le pejwou je enerxria an je `ènoumetmeqre > `èanon gar ancwtem `èebol'en rwf.\nOuo\ aftwnf `ènje poumh] tnrf auenf \a Pilatoc > auer\htc de `ènerkathgorin `èerof eujw `èmmoc > je vai an jemf afvwn\ `èmpeneqnoc `èebol > ouo\ efta\no `èe`è]tem;\w; `èm`èpouro efjw `èmmoc `èerof je `èanok pe Pxc? `èpouro. Pilatoc de af]enf efjw `èmmoc > je `ènqok pe `èpouro `ènte niIoudai > `ènqof de af`èerou`èw je `ènqok petjw `èmmoc. \nPilatoc de pejaf `ènniarxh`èereuc nem nimh] > je `èn;jem `è\li `èn`èetia an 'en pairwmi > `ènqwou le naujemjom eujw `èmmoc je `èf`è]qorter `èmpilaoc > ef;`ècbw 'en ;Ioude`èa thrc > ouo\ afer\htc icjen ;Galile`èa ]a paima. Pilatoc de `èetafcwtem af]ini je an ouGalileoc pe pairwmi. \nOuo\ `èetaf`èemi je ou`èebol pe 'en `èper]i]i `ènte Hrwdhc pe > afouorpf \a Hrwdhc > efxh \wf 'en Il/h/m/ 'en pi`èe\oou `èete`mmau > Hrwdhc de `èetafnau `èeIhc ? afra]i `èema]w > nafouw] gar `èenau `èerof ic oumh] `èn`èxronoc > eqbe je nafcwtem eqbhtf > ouo\ naf er\elpic `èenau `èeoumhini `èntotf ef`èiri `èmmof. \nNaf]ini de `èmmof 'en \anmh] `èncaji > `ènqof de `èmpef`èerou`èw `èn`è\li. Nau`èo\i de `èeratou pe `ènje niarxh`èereuc nem nica' > euerkathgorin `èerof `èema]w. Etaf]o]f de `ènje Hrwdhc nem nefmatoi > ouo\ `èetafcwbi `èmmof afjol\f `ènou\ebcw ecveri`èwou > afouorpf `èePilatoc. Auer`è]vhr de `èenou`èerhou Hrwdhc nem Pilatoc 'en pi`èe`è\oou `èete`mmau > nau]op gar `èn]orp pe 'en oumetjaji nem nou`èerhou.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
+            "",
+            "",
         ],
         [
-            Prefix.HolyWeek +"1HDCommentary&D=GL56&C=Diacon",
-        "",
-        "Il n’est pas un prophète mais il est Dieu et son sang efface les pêchés.",
-        "هذا ليس نبي لكنه إله ودمه يمحو الآثام",
-        ],
-    ],
-    [
-    
-        [
-            Prefix.HolyWeek +"3HDProphecies&D=GL56&C=Diacon",
-        "Ebolqen ]genecic `nte Mw`ucyc piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nAc]wpi de meneca nai caji autame Iwchv eujw `èmmoc > je pekiwt `è]qorter.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
-        "Genèse 48 : 1-19\nIl arriva, après ces événements, qu'on dit à Joseph: Voici que ton père est malade!",
-        "تكوين ٤٨ : ١ – ١٩\nوحدث بعد هذه الأمور أنهم أخبروا يوسف قائلين: إن أباك مريض.",
+            Prefix.HolyWeek + "1HDGospel&D=GL56&C=Diacon",
+            "Iwannhn  Kev i/h/>kh-]bl\nAu`èini oun `ènIhcouc `èebol \a Kaiava `èe'oun `èepipretwrion > ne ]wrp de pe > ouo\ `ènqwou `èmpou`èi `èe'oun `èepipretwrion > \ina je `ènnoucwf ]atououwm `èmpipacxa. Af`èi oun è`èebol \arwou `ènje Pilatoc pejaf nwou > je ou `ènkathgoria `èeteten`èini `èmmoc 'a pairwmi. Au`èerou`èw pejwou naf > je `èene vai oucampet\wou an pe > nannathif nak an pe. \nPeje Pilatoc nwou je sitf `ènqwten ouo\ ma\ap `èerof kata petennomoc > pejwou naf `ènje niIoudai > je `èanon `èn`èc]e nan an `èe'wteb `èn`è\li > \ina `ènte `èpcaji `ènIhc? jwk `èebol vh`èetafjof > efercummenin je 'en a] `èmmou `èfnamou. Palin on af`èi `ènje Pilatoc `èe'oun `èepipretwrion ouo\ afmou; `èeIhc? pejaf naf > je `ènqok pe `èpouro `ènte niIoudai. Af`èerou`èw naf `ènje Ihc? ouo\ pejaf > je `ènqok etjw `èmvai `èebol \itotk ]an \ankexwouni pe`èetaujoc nak eqbht.  Af`èerou`èw `ènje Pilatoc efjw `èmmoc > je mh `èanok ouIolai \w > pekeqnoc `èmmin `èmmok nem niarxh`èereuc `ènqwou pe`èetauhik > ou pe `èetakaifi. Af`èerou`èw `ènje Ih/c/ je tametouro `èanok qa paikocmoc an te > `èene tametouro ou`èebol'en paikocmoc te > nare na\\uperethc na; `èe`è\rhi èè`èejwi pe > \ina `èntou`è]temthit `ènniIoudai > ;nou de tametouro qa paikocmoc an te.  Pilatoc oun pejaf je mhoun `ènqok ououro > af`èerou`èw `ènje Ihc? je `ènqok pe`èetjw `èmmoc je `èanok ououro > ke gar `èetaumact `èanok `èepai\wb > ouo\ eqbe vai ai`èi `èepikocmoc `èe`èpjintaermetmeqre `èn;meqmhi > ouon niben `èete \an `èebol'en ;meqmhi ne ]aucwtem `èeta`ècmh. Peje Pilatoc naf je ou pe ;meqmhi > ouo\ vai `èetafjof palin on af`èi `èebol\a niIoudai pejaf nwou > je `èanok `èn;jem `è\li `èn`èeti`èa an 'en pairwmi > tetencunhqi`èa de \ina `èntaxa ouai nwten `èebol'en pipacxa tetenouw] oun `èntaxw nwten `èebol `èm`èpouro `ènte niIoudai. Auw] de `èebol throu eujw `èmmoc > je `èmperxa vai `èebol > alla xa Barabbac `èebol > pai Barabbac de ne ouconi pe. Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
+            "",
+            "",
         ],
         [
-            Prefix.HolyWeek +"3HDProphecies&D=GL56&C=Diacon",
-        "",
-        "et il emmena avec lui ses deux fils, Manassé et Éphraïm. Lorsqu'on eut annoncé à Jacob: Voici ton fils Joseph qui est venu auprès de toi, Israël rassembla ses forces et se mit assis sur le lit. Puis Jacob dit à Joseph: «El Shaddaï m'est apparu à Luz, au pays de Canaan, il m'a béni et m'a dit: Je te rendrai fécond et je te multiplierai, je te ferai devenir une assemblée de peuples et je donnerai ce pays en possession perpétuelle à tes descendants après toi.",
-        "فأخذ إبنيه منسي وأفرايم وجاء إلي يعقوب. فأخبروا يعقوب قائلين له: هوذا إبنك يوسف قادم إليك. فتشدد إسرائيل وجلس علي السرير. فقال يعقوب ليوسف: إن إلهي ظهر لي في لوز في أرض كنعان وباركني وقال لي ها أنا أنميك وأكثرك وأجعلك جمهوراً من الأمم وأعطي هذه الأرض لك ولنسلك من بعدك ملكاً أبدياً.",
+            Prefix.HolyWeek + "1HDGospel&D=GL56&C=Diacon",
+            "Yalmoc  to Dauid\nGe autwounou `èe`è\rhi `èejwi `ènje \anmeqreu `ènrefsi`ènjonc > ouo\ `èa ;metsi`ènjonc  je  meqnouj  `èeroc  `èmmin  `èmmoc.\nAutwounou `ènje \anmeqreu  `èn`èoji  > nau]ini  `èmmoi  `èenh`èete  `èn;cwoun  `èmmwou an. Au; nhi `èn\anpet\wou `èn`èt]ebi`èw `èn\anpeqnaneu >  `èeau`è'rajrej  `ènnounaj\i  `èe`è\rhi  `èejwi  > ``allhloui`a",
+            "Psaume 26 : 12 et 34 :11, 12 et 16 \nContre moi se sont levés de faux témoins qui soufflent la violence.\nDes témoins injustes se lèvent, des inconnus m'interrogent. On me rend le mal pour le bien grinçant des dents contre moi. Alléluia",
+            "مزمور  ٢٦: ١٥ مز ٣٤: ١٣، ١٤، ١٩ \nلأنه قام عليّ شهود زور.وكذب الظلم لذاته. قام عليّ شهود زور وعما لا أعلم سألوني. جازوني بدل الخير شراً صارين علىّ بأسنانهم. الليلويا",
         ],
         [
-            Prefix.HolyWeek +"3HDProphecies&D=GL56&C=Diacon",
-        "",
-        "Maintenant, les deux fils qui te sont nés au pays d'Égypte avant que je ne vienne auprès de toi en Égypte, ils seront miens! Éphraïm et Manassé seront à moi au même titre que Ruben et Siméon. Quant aux enfants que tu as engendrés après eux, ils seront tiens; ils porteront le nom de leurs frères pour l'héritage. Lorsque je revenais de Paddân, ta mère Rachel est morte, pour mon malheur, au pays de Canaan, en route, encore un bout de chemin",
-        "والآن فإبناك اللذان صارا لك في أرض مصر قبل قدومي إليك إلي أرض مصر هما لي، أفرايم ومنسي مثل رأوبين وشمعون يكونان لي. ومن يولد بعدهما من البنين فإنه يكونون لك، ويدعون بإسم إخوتهم في ميراثهم. وأنا حين جئت من بين نهري سورية، ماتت راحيل أمك في أرض كنعان،",
+            Prefix.HolyWeek + "1HDGospel&D=GL56&C=Diacon",
+            "Matqeon  Kev k/z/ > a/-i/d\nEta toou`èi de \wpi aueroucosni throu `ènje niarxh`èereuc nem niprecbuteroc `ènte pilaoc 'a Ihc? > \wcte `ènce'oqbef > ouo\ `èetaucon\f auolf ouo\ authif `èmPilatoc pi\hgemwn. Tote `èetafnau `ènje Ioudac vh`èetafthif je auerkatakrinin `èmmof `èetafouem`è\qhf > aftacqo `èn;map `èn\at \a niarxh`èereuc nem niprecbuteroc. Efjw `èmmoc je aiernobi je ai; `ènou`ècnof `èn`èqmhi > `ènqwou de pejwou naf > je `èa'on `èanon `ènqok ek`èerw]i > ouo\ afborber `ènni\at `èe'oun `èepiervei > ouo\ af]enaf afoj\f > niarxh`èereuc de `èetausi `ènni\at > pejwou je `èc]e nan an `èe\itou `èepikorbanon > je `èttimh èè`ènou`ècnof pe.\nEtauer oucosni de au]wp `èebol `èn'htou `èmpiio\i `ènte pikerameuc euma`ènqwmc `ènni]emmwou > eqbe vai aumou; `èe`èvran `èmpiio\i `èete`èmmau > je piio\i `èmpi`ècnof ]a `èe'oun `èevoou. Tote afjwk `èebol `ènje vh`èetafjof `èebol \itotf `ènIeremiac piprovhthc efjw `èmmoc je ausi `èn;map `èn\at ;timh `ènte vh`èetauertimh `èerof `ènje nen]hri `èm`èpIc/l./ Ouo\ authitou 'a piio\i `èmpikerameuc > kata `èvrh; `èetafoua\ca\ninhi `ènje P_. \nIhc? de af`èo\i `èeratf `èmpe`èmqo `èmpi\\ugemwn ouo\ af]enf nje pi\\ugemwn efjw `èmmoc> je `ènqok pe `èpouro `ènte niIoudai > Ihc? de pejaf je `ènqok petjw `èmmoc. Ouo\ 'en `èpjin`èqrou erkathgorin `èerof `ènje niarxh`èereuc nem niprecbuteroc `èmpef`èerou`èw `èn\li. Tote peje Pilatoc naf je `èn`èkcwtem an je ceermeqre 'arok `ènouhr > ouo\ `èmpef`èerou`èw naf `è\li `èncaji \wcte `èntefer`è]vhri `ènje pi\\ugemwn `èema]o. Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
+            "Matthieu 27 : 1-14\nLe matin étant arrivé, tous les grands prêtres et les anciens du peuple tinrent un conseil contre Jésus, en sorte de le faire mourir. Et, après l'avoir ligoté, ils l'emmenèrent et le livrèrent à Pilate le gouverneur. Alors Judas, qui l'avait livré, voyant qu'il avait été condamné, fut pris de remords et rapporta les trente pièces d'argent aux grands prêtres et aux anciens: J'ai péché, dit-il, en livrant un sang innocent.",
+            "متى ٢٧: ١-١٤ \nولما كان الصباح تشاور جميع رؤساء الكهنة وشيوخ الشعب على يسوع لكى يقتلوه، فأوثقوه وأخذوه وأسلموه إلى بيلاطس الوالى. حينئذ لما رأى يهوذا الذي أسلمه أنه قد دين، ندم ورد الثلاثين من الفضة إلى رؤساء الكهنة والشيوخ قائلا: إنى قد أخطأت إذ سلمت دماً ذكيا.",
         ],
         [
-            Prefix.HolyWeek +"3HDProphecies&D=GL56&C=Diacon",
-        "",
-        "avant d'arriver à Éphrata, et je l'ai enterrée là, sur le chemin d'Éphrata - c'est Bethléem.» Israël vit les deux fils de Joseph et demanda: «Qui sont ceux-là?» - «Ce sont les fils que Dieu m'a donnés ici,» répondit Joseph à son père, et celui-ci reprit: «Amène-les moi, que je les bénisse.» Or les yeux d'Israël étaient usés par la vieillesse, il n'y voyait plus, et Joseph les fit approcher de lui, qui les embrassa et les serra dans ses bras. Et Israël dit à Joseph:",
-        "وأنا قريب من حدود أفراثا ودفنتها علي قارعة طريق بيت لحم. ولما رأي إسرائيل إبني يوسف قال: من هذان؟ فقال يوسف لأبيه: هما ولداى اللذان وهبهما الله لي ههنا. فقال يعقوب: قدمهما إليّ لأباركهما. وكانت عينا يعقوب قد ثقلتا من الشيخوخة ولا يقدر أن يبصر. فقربهما إليه فقبلهما وإحتضنهما، وقال إسرائيل ليوسف :",
+            Prefix.HolyWeek + "1HDGospel&D=GL56&C=Diacon",
+            "",
+            "Mais ils dirent: «Que nous importe? A toi de voir.» Jetant alors les pièces dans le sanctuaire, il se retira et s'en alla se pendre. Ayant ramassé l'argent, les grands prêtres dirent: «Il n'est pas permis de le verser au trésor, puisque c'est le prix du sang.\" Après délibération, ils achetèrent avec cet argent le \"champ du potier\" comme lieu de sépulture pour les étrangers. Voilà pourquoi ce champ-là s'est appelé jusqu'à ce jour le \"Champ du Sang\". ",
+            "فقالوا له: ما شأننا؟ ما علينا؟ أبصر أنت! فطرح الفضة في الهيكل، ومضى، فخنق نفسه. فأخذ رؤساء الكهنة الفضة وقالوا: لا يحل لنا أن نلقيها في بيت القربان لأنها ثمن دم، فتشاوروا وإبتاعوا بها حقل الفخارى مقبرة للغرباء. \nولذلك دعى اسم ذلك الحقل، حقل الدم إلى هذا اليوم،",
         ],
         [
-            Prefix.HolyWeek +"3HDProphecies&D=GL56&C=Diacon",
-        "",
-        "«Je ne pensais pas revoir ton visage et voici que Dieu m'a fait voir même tes descendants!» Alors Joseph les retira de son giron et se prosterna, la face contre terre. Joseph les prit tous deux, Éphraïm de sa main droite pour qu'il soit à la gauche d'Israël, Manassé de sa main gauche pour qu'il soit à la droite d'Israël, et il les fit approcher de celui-ci. Mais Israël étendit sa main droite et la posa sur la tête d'Éphraïm, qui était le cadet, et sa main gauche sur la",
-        "هوذا أنا لم أُحرم أن أري وجهك، وهوذا الرب قد أراني نسلك. ثم أخرجهما يوسف من بين فخذيه وسجدا له بوجهيهما إلي الأرض. وأخذ يوسف ولديه وجعل أفرايم عن يسار إسرائيل، ومنسي عن يمين إسرائيل، وقربهما إليه. فمد إسرائيل يمينه ووضعها علي رأس أفرايم وهو الصغير، ويساره علي",
+            Prefix.HolyWeek + "1HDGospel&D=GL56&C=Diacon",
+            "",
+            "Alors s'accomplit l'oracle de Jérémie le prophète: Et ils prirent les trente pièces d'argent, le prix du Précieux qu'ont apprécié des fils d'Israël, et ils les donnèrent pour le champ du potier, ainsi que me l'a ordonné le Seigneur. Jésus fut amené en présence du gouverneur et le gouverneur l'interrogea en disant: Tu es le Roi des Juifs? Jésus répliqua: Tu le dis. Puis, tandis qu'il était accusé par les grands prêtres et les anciens, ",
+            "حينئذ تم ما قيل بأرميا النبي القائل: أخذوا الثلاثين من الفضة ثمن المثمن الذي ثمنه بنو إسرائيل، ودفعوها في حقل الفخارى كما أمرنى الرب. فوقف يسوع أمام الوالى، فسأله الوالى قائلا: أأنت ملك اليهود؟! فقال يسوع له: أنت قلت. وفيما كان رؤساء الكهنة والشيوخ يشتكون عليه،",
         ],
         [
-            Prefix.HolyWeek +"3HDProphecies&D=GL56&C=Diacon",
-        "",
-        "tête de Manassé, en croisant ses mains - en effet Manassé était l'aîné. Il bénit ainsi Joseph: \"Que le Dieu devant qui ont marché mes pères Abraham et Isaac, que le Dieu qui fut mon pasteur depuis que je vis jusqu'à maintenant, que l'Ange qui m'a sauvé de tout mal bénisse ces enfants, que survivent en eux mon nom et le nom de mes ancêtres, Abraham et Isaac, qu'ils croissent et multiplient sur la terre!\" Cependant Joseph vit que son père",
-        "رأس منسي، وخالف يديه. مع أن منسي هو البكر وباركهما، وقال: اللهم الذي أحسن أمامه أبواي إبراهيم وإسحق، الله الذي عالني منذ صباي إلي هذا اليوم، الملاك الذي خلصني من كل شر، يبارك علي هذين الغلامين، ويدعي إسمي عليهما، وإسم أبواي إبراهيم وإسحق، فيكثران كثرة عظيمة علي الأرض. فلما رأي يوسف أن أباه",
+            Prefix.HolyWeek + "1HDGospel&D=GL56&C=Diacon",
+            "",
+            "il ne répondit rien. Alors Pilate lui dit: N'entends-tu pas tout ce qu'ils attestent contre toi? Et il ne lui répondit sur aucun point, si bien que le gouverneur était fort étonné.\nGloire à Dieu éternellement.",
+            "لم يجب بشيء، فقال له بيلاطس: أما تسمع كم يشهدون عليك؟! فلم يجبه عن أي كلمة، حتى تعجب الوالي جداً. \nوالمجد لله دائماً",
         ],
         [
-            Prefix.HolyWeek +"3HDProphecies&D=GL56&C=Diacon",
-        "",
-        "mettait sa main droite sur la tête d'Éphraïm et cela lui déplut. Il saisit la main de son père pour la détourner de la tête d'Éphraïm sur la tête de Manassé, et Joseph dit à son père: «Pas comme cela, père, car c'est celui-ci l'aîné: mets ta main droite sur sa tête.» Mais son père refusa et dit: \"Je sais, mon fils, je sais…\"\nGloire à la sainte Trinité notre Dieu.",
-        "وضع يده اليمني علي رأس أفرايم ثقل الأمر أمامه، فأمسك يوسف بيد أبيه لينقلها عن رأس أفرايم إلي رأس منسي، وقال يوسف لأبيه: ليس هكذا يا أبي لأن هذا هو البكر، ضع يمينك علي رأسه. فأبي أبوه وقال : أنا أعلم يا ولدي، أنا أعلم\nمجداً للثالوث الأقدس إلهنا آمين",
+            Prefix.HolyWeek + "1HDGospel&D=GL56&C=Diacon",
+            "Markon  Kev i/e/ a/- e/\nOuo\ catotou aucosni `ènoucosni `èn]wrp `ènje niarxh`èereuc nem niprecbuteroc nem nica' nem pima`èn;\ap thrf. Aucwn\ `ènIhc? ausitf authif `èePilatoc. Ouo\ af]enf `ènje Pilatoc > je `ènqok pe `èpouro `ènte niIoudai > `ènqof de af`èerou`èw naf pejaf je `ènqok petjw `èmmoc. Ouo\ nauerkathgorin `èn\anmh] 'arof `ènje niarxh`èereuc. Pilatoc de on naf]enf efjw `èmmoc > je `èn`èkerou`èw `èn`è\li an > `èanau je ceerkathgorin `èerok `ènouhr > Ihc? de `èmpef`èerou`èw `èn`è\li > \wcte `èntefer`è]vhri `ènje Pilatoc. Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
+            "Marc 15 : 1-5\nEt aussitôt, le matin, les grands prêtres préparèrent un conseil avec les anciens, les scribes, et tout le Sanhédrin; puis, après avoir ligoté Jésus, ils l'emmenèrent et le livrèrent à Pilate. Pilate l'interrogea: Tu es le roi des Juifs? \nJésus lui répond: Tu le dis. Et les grands prêtres multipliaient contre lui les accusations. Et Pilate de l'interroger à nouveau: Tu ne réponds rien?",
+            "مرقس ١٥: ١-٥\nوللوقت في الصباح تشاور رؤساء الكهنة مع الشيوخ، والكتبة وجميع مجلس القضاء تشاوروا، وأوثقوا يسوع وأخذوه وأسلموه إلى بيلاطس، فسأله بيلاطس: هل أنت هو ملك اليهود؟!\nأما هو فأجابه قائلا: أنت تقول. وكان رؤساء الكهنة يشتكون عليه كثيراً. ثم سأله ايضاً بيلاطس قائلا: أما تجيب بشيء،",
         ],
         [
-            Prefix.HolyWeek +"3HDProphecies&D=GL56&C=Diacon",
-        "Ebolqen Yca`yac piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nP_ pet;nhi `ènoulac `èn`ècbw > eqri`èemi `èarewan `èt\o; `ènoucaji ]wpi. \nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
-        "Isaïe 50 : 4-9 \nLe Seigneur tout-puissant m'a donné une langue de disciple",
-        "إشعياء ٥٠ : ٤ – ٩ \nقد أعطاني السيد الرب لسان العلماء",
+            Prefix.HolyWeek + "1HDGospel&D=GL56&C=Diacon",
+            "",
+            "Vois tout ce dont ils t'accusent! Mais Jésus ne répondit plus rien, si bien que Pilate était étonné.\nGloire à Dieu éternellement.",
+            "أنظر كم يشتكونك. أما يسوع فلم يجب بشيء حتى تعجب بيلاطس.\nوالمجد لله دائماً",
         ],
         [
-            Prefix.HolyWeek +"3HDProphecies&D=GL56&C=Diacon",
-        "",
-        "pour que je sache apporter à l’épuiser une parole de réconfort. Il éveille chaque matin, il éveille mon oreille pour que j'écoute comme un disciple. Le Seigneur tout-puissant m'a ouvert l'oreille, et moi je n'ai pas résisté, je ne me suis pas dérobé. J'ai tendu le dos à ceux qui me frappaient, et les joues à ceux qui m'arrachaient la barbe; je n'ai pas soustrait ma face aux outrages et aux crachats. Le Seigneur tout-puissant va me venir en aide,",
-        "لأعلم إذا صار خوف الكلام، في الأسرار جعل لي، وزادني أذناً لأسمع تعليم الرب، ولكن تنفتح أذناي وأنا لم أقاوم بل بذلت ظهري للضرب، وخدي للطم ولم أرد وجهي عن خزي البصاق. والرب كان لي عوناً،",
+            Prefix.HolyWeek + "1HDGospel&D=GL56&C=Diacon",
+            "Loukan  Kev k/b/> i/ /]/b/l/ nk/g/>a/-i/b/\nOuo\ `èeta pi`èe\oou ]wpi auqwou; `ènje niprecbuteroc `ènte pilaoc > nem niarxh`èereuc nem nica' > ouo\ auenf `èe'oun `èepouma`èn;\ap > eujw `èmmoc je icje `ènqok pe Pxc? `èajoc nan pejaf je nwou je ai]anjoc nwten tetennana\; an > `èe]wp de on ai]an]en qhnou tetenna`èerou`èw an. Icjen ;nou de `èefe]wpi `ènje `èp]hri `èm`èvrwmi ef\emci caou`èinam `èn;jom `ènte V;. Pejwou de throu je `ènqok oun pe `èp]hri `èmV; > `ènqof de pejaf nwou je `ènqwten etjw `èmmoc je `èanok pe > `ènqwou le pejwou je enerxria an je `ènoumetmeqre > `èanon gar ancwtem `èebol'en rwf.\nOuo\ aftwnf `ènje poumh] tnrf auenf \a Pilatoc > auer\htc de `ènerkathgorin `èerof eujw `èmmoc > je vai an jemf afvwn\ `èmpeneqnoc `èebol > ouo\ efta\no `èe`è]tem;\w; `èm`èpouro efjw `èmmoc `èerof je `èanok pe Pxc? `èpouro. Pilatoc de af]enf efjw `èmmoc > je `ènqok pe `èpouro `ènte niIoudai > `ènqof de af`èerou`èw je `ènqok petjw `èmmoc. \nPilatoc de pejaf `ènniarxh`èereuc nem nimh] > je `èn;jem `è\li `èn`èetia an 'en pairwmi > `ènqwou le naujemjom eujw `èmmoc je `èf`è]qorter `èmpilaoc > ef;`ècbw 'en ;Ioude`èa thrc > ouo\ afer\htc icjen ;Galile`èa ]a paima. Pilatoc de `èetafcwtem af]ini je an ouGalileoc pe pairwmi. \nOuo\ `èetaf`èemi je ou`èebol pe 'en `èper]i]i `ènte Hrwdhc pe > afouorpf \a Hrwdhc > efxh \wf 'en Il/h/m/ 'en pi`èe\oou `èete`mmau > Hrwdhc de `èetafnau `èeIhc ? afra]i `èema]w > nafouw] gar `èenau `èerof ic oumh] `èn`èxronoc > eqbe je nafcwtem eqbhtf > ouo\ naf er\elpic `èenau `èeoumhini `èntotf ef`èiri `èmmof. \nNaf]ini de `èmmof 'en \anmh] `èncaji > `ènqof de `èmpef`èerou`èw `èn`è\li. Nau`èo\i de `èeratou pe `ènje niarxh`èereuc nem nica' > euerkathgorin `èerof `èema]w. Etaf]o]f de `ènje Hrwdhc nem nefmatoi > ouo\ `èetafcwbi `èmmof afjol\f `ènou\ebcw ecveri`èwou > afouorpf `èePilatoc. Auer`è]vhr de `èenou`èerhou Hrwdhc nem Pilatoc 'en pi`èe`è\oou `èete`mmau > nau]op gar `èn]orp pe 'en oumetjaji nem nou`èerhou.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
+            "",
+            "لوقا ٢٢: ٦٦ - ٧١، ٢٣: ١-١٢\nولما كان النهار إجتمع شيوخ الشعب، ورؤساء الكهنة والكتبة، وأخذوه إلى محكمتهم قائلين: إن كنت المسيح فقل لنا. فقال لهم: إن قلت لكم لا تؤمنون، وإن سألتكم لا تجيبون، ومن الآن يكون إبن الإنسان جالساً عن يمين قوة الله. فقال الجميع: أنت إذن إبن الله ؟! فقال لهم:",
         ],
         [
-            Prefix.HolyWeek +"3HDProphecies&D=GL56&C=Diacon",
-        "",
-        "c'est pourquoi je ne me suis pas laissé abattre, c'est pourquoi j'ai rendu mon visage dur comme la pierre, et je sais que je ne serai pas confondu. Il est proche, celui qui me justifie. Qui va plaider contre moi? Comparaissons ensemble! Qui est mon adversaire? Qu'il s'approche de moi! Voici que le Seigneur tout-puissant va me venir en aide, quel est celui qui me condamnerait? Les voici tous qui s'effritent comme un vêtement, rongés par la teigne.\nGloire à la sainte Trinité notre Dieu.",
-        "لذلك لا أخجل. لكنني جعلت وجهي كالصخرة الصلبة، وعلمت أني لا أخزي لأن الذي يبررني قريب مني. من يحاكمني فليقترب إليّ، هوذا الرب يعينني فمن يؤلمني؟ ها أنتم كلكم كمثل الثوب تبلون ويأكلكم السوس.\nمجداً للثالوث الأقدس إلهنا آمين",
+            Prefix.HolyWeek + "1HDGospel&D=GL56&C=Diacon",
+            "",
+            "Vous le dites: je le suis.  Et ils dirent: Qu'avons-nous encore besoin de témoignage? Car nous-mêmes l'avons entendu de sa bouche! Puis toute l'assemblée se leva, et ils l'amenèrent devant Pilate. Ils se mirent alors à l'accuser, en disant: Nous avons trouvé cet homme mettant le trouble dans notre nation, empêchant de payer les impôts à César et se disant Christ Roi. Pilate l'interrogea en disant: Tu es le roi des Juifs?",
+            "أنتم تقولون إنى أنا هو. أما هم فقالوا: ما حاجتنا بعد إلى شهادة، فإننا نحن قد سمعنا من فمه. فقام جمعهم كله وجاءوا به إلى بيلاطس، وطفقوا يشتكون عليه قائلين: إننا وجدنا هذا يفسد أمتنا، ويمنع أن نؤدي الجزية لقيصر قائلاً عن نفسه أنى أنا هو المسيح الملك. فسأله بيلاطس قائلا: أأنت ملك اليهود؟.",
         ],
         [
-            Prefix.HolyWeek +"3HDProphecies&D=GL56&C=Diacon",
-        "Ebolqen Yca`yac piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nOuoi `èntouyuxh je aucosni `ènoucosni 'arwou `èmmin `èmmwou eujw `èmmoc. \nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
-        "Isaïe 3 : 9-15  \nIls n'ont pas dissimulé, malheur à eux! Car ils ont préparé leur propre ruine. Dites :",
-        "إشعياء ٣ : ٩ – ١٥ \nويل لنفوسهم لأنهم تآمروا تأمراً في نفوسهم قائلين :",
+            Prefix.HolyWeek + "1HDGospel&D=GL56&C=Diacon",
+            "",
+            "- Tu le dis, lui répondit-il. Pilate dit alors aux grands prêtres et aux foules: Je ne trouve en cet homme aucun motif de condamnation. Mais ils insistèrent et dirent: Il soulève le peuple, enseignant par toute la Judée, depuis la Galilée, où il a commencé, jusqu'ici. A ces mots, Pilate demanda si l'homme était Galiléen. Et s'étant assuré qu'il était de la juridiction d'Hérode, il le renvoya à Hérode",
+            "أما هو فأجابه قائلا: أنت الذي تقول!\nفقال بيلاطس لرؤساء الكهنة والجموع: إنى لا أجد في هذا الرجل علة. وأما هم فكانوا يتشددون قائلين: إنه يهيج الشعب، إذ يعلم في اليهودية كلها، مبتدئا من الجليل إلى هنا. فلما سمع بيلاطس سأل: أهذا الرجل جليلي؟!. ولما علم أنه من سلطنة هيرودس، أرسله إلى هيرودس",
         ],
         [
-            Prefix.HolyWeek +"3HDProphecies&D=GL56&C=Diacon",
-        "",
-        "le juste, qu'il est heureux! Car il se nourrira du fruit de ses actes. Malheur au méchant, malfaisant! Car il sera traité selon ses œuvres. O mon peuple, ses oppresseurs le mettent au pillage, et des exacteurs font la loi chez lui. Ô mon peuple, tes guides t'égarent, ils ont effacé les chemins que tu suis. Le Seigneur s'est levé pour accuser, il est debout pour juger les peuples. Le Seigneur entre en jugement, avec les anciens et les princes de son peuple :",
-        "لنوثق البار فإنه غير نافع لنا. والآن يأكلون من ثمار أعمال أيديهم. الويل للمنافق. شرور أعمال يديه تأتي عليه، يا شعبي رؤساؤكم يقطفونكم، والذين يلتمسون منكم يتسلطون عليكم. يا شعبي الذين يكرمونكم يضلونكم، ويقلقون طريق أرجلكم، ولكن الآن يأتي الرب للحكم، ويأتي مع شعبه إلي المحاكمة مع المشايخ والرؤساء.",
+            Prefix.HolyWeek + "1HDGospel&D=GL56&C=Diacon",
+            "",
+            "qui se trouvait, lui aussi, à Jérusalem en ces jours-là. Hérode, en voyant Jésus, fut tout joyeux; car depuis assez longtemps il désirait le voir, pour ce qu'il entendait dire de lui; et il espérait lui voir faire quelque miracle. Il l'interrogea donc avec force paroles, mais il ne lui répondit rien. Cependant les grands prêtres et les scribes se tenaient là, l'accusant avec véhémence. Après l'avoir, ainsi que ses gardes, traité avec mépris et bafoué,",
+            "إذ كان هو أيضاً في تلك الأيام في في أورشليم، فلما رأى هيرودس يسوع فرح جداً لأنه من زمان طويل كان يريد أن يراه لما كان يسمعه عنه، وكان يرجو أن يرى منه آية يصنعها، وكان يسأله في كلام كثير فلم يجبه بشيء. وكان رؤساء الكهنة والكتبة واقفين يشتكونه كثيراً فإزدراه هيرودس وجنوده، وهزأ به ",
         ],
         [
-            Prefix.HolyWeek +"3HDProphecies&D=GL56&C=Diacon",
-        "",
-        "C'est vous qui avez dévasté la vigne, la dépouille du malheureux est dans vos maisons. De quel droit écraser mon peuple et broyer le visage des malheureux ?\nGloire à la sainte Trinité notre Dieu.",
-        "وأنتم لماذا تلقون ناراً علي هذا الكرم ؟ إغتصاب الفقراء في بيوتكم. ما بالكم تظلمون شعبي وتخجلون وجوه المساكين ؟\nمجداً للثالوث الأقدس إلهنا آمين",
+            Prefix.HolyWeek + "1HDGospel&D=GL56&C=Diacon",
+            "",
+            "Hérode le revêtit d'un habit splendide et le renvoya à Pilate. Et, ce même jour, Hérode et Pilate devinrent deux amis, d'ennemis qu'ils étaient auparavant.\nGloire à Dieu éternellement.",
+            "وألبسه ثوباً لامعا ورده إلى بيلاطس، فتصادق بيلاطس وهيرودس مع بعضهما في ذلك اليوم، لأنه كان بينهما عداء من قبل.\nوالمجد لله دائماً",
         ],
         [
-            Prefix.HolyWeek +"3HDProphecies&D=GL56&C=Diacon",
-        "",
-        "Ebolqen Yca`yac piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nNim pe vheqnhou `èebol'en Edwm `èp`èqro]re] `ènnef`è\bwc `èebol'en Bwcor. \nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
-        "إشعياء ٦٣ : ١ – ٧ \nمن ذا الآتي من آدوم، وثيابه حمر من بصرة.",
+            Prefix.HolyWeek + "1HDGospel&D=GL56&C=Diacon",
+            "Iwannhn  Kev i/h/>kh-]bl\nAu`èini oun `ènIhcouc `èebol \a Kaiava `èe'oun `èepipretwrion > ne ]wrp de pe > ouo\ `ènqwou `èmpou`èi `èe'oun `èepipretwrion > \ina je `ènnoucwf ]atououwm `èmpipacxa. Af`èi oun è`èebol \arwou `ènje Pilatoc pejaf nwou > je ou `ènkathgoria `èeteten`èini `èmmoc 'a pairwmi. Au`èerou`èw pejwou naf > je `èene vai oucampet\wou an pe > nannathif nak an pe. \nPeje Pilatoc nwou je sitf `ènqwten ouo\ ma\ap `èerof kata petennomoc > pejwou naf `ènje niIoudai > je `èanon `èn`èc]e nan an `èe'wteb `èn`è\li > \ina `ènte `èpcaji `ènIhc? jwk `èebol vh`èetafjof > efercummenin je 'en a] `èmmou `èfnamou. Palin on af`èi `ènje Pilatoc `èe'oun `èepipretwrion ouo\ afmou; `èeIhc? pejaf naf > je `ènqok pe `èpouro `ènte niIoudai. Af`èerou`èw naf `ènje Ihc? ouo\ pejaf > je `ènqok etjw `èmvai `èebol \itotk ]an \ankexwouni pe`èetaujoc nak eqbht.  Af`èerou`èw `ènje Pilatoc efjw `èmmoc > je mh `èanok ouIolai \w > pekeqnoc `èmmin `èmmok nem niarxh`èereuc `ènqwou pe`èetauhik > ou pe `èetakaifi. Af`èerou`èw `ènje Ih/c/ je tametouro `èanok qa paikocmoc an te > `èene tametouro ou`èebol'en paikocmoc te > nare na\\uperethc na; `èe`è\rhi èè`èejwi pe > \ina `èntou`è]temthit `ènniIoudai > ;nou de tametouro qa paikocmoc an te.  Pilatoc oun pejaf je mhoun `ènqok ououro > af`èerou`èw `ènje Ihc? je `ènqok pe`èetjw `èmmoc je `èanok ououro > ke gar `èetaumact `èanok `èepai\wb > ouo\ eqbe vai ai`èi `èepikocmoc `èe`èpjintaermetmeqre `èn;meqmhi > ouon niben `èete \an `èebol'en ;meqmhi ne ]aucwtem `èeta`ècmh. Peje Pilatoc naf je ou pe ;meqmhi > ouo\ vai `èetafjof palin on af`èi `èebol\a niIoudai pejaf nwou > je `èanok `èn;jem `è\li `èn`èeti`èa an 'en pairwmi > tetencunhqi`èa de \ina `èntaxa ouai nwten `èebol'en pipacxa tetenouw] oun `èntaxw nwten `èebol `èm`èpouro `ènte niIoudai. Auw] de `èebol throu eujw `èmmoc > je `èmperxa vai `èebol > alla xa Barabbac `èebol > pai Barabbac de ne ouconi pe. Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
+            "",
+            "يوحنا ١٨: ٢٨ -٤٠\nوجاءوا بيسوع من عند قيافا إلى دار الولاية، وكان صبح فلم يدخلوا إلى دار الولاية لئلا يتنجسوا حتى يأكلوا الفصح، فخرج بيلاطس إليهم وقال لهم: أية شكاية تقدمونها على هذا الرجل؟! أجابوا وقالوا له: لو لم يكن هذا شريراً لما كنا نسلمه إليك. فقال لهم بيلاطس: خذوه أنتم وأحكموا عليه بحسب ناموسكم.",
         ],
         [
-            Prefix.HolyWeek +"3HDProphecies&D=GL56&C=Diacon",
-        "",
-        "magnifiquement drapé dans son manteau, s'avançant dans la plénitude de sa force? C'est moi qui parle avec justice, qui suis puissant pour sauver. Pourquoi ce rouge à ton manteau, pourquoi es-tu vêtu comme celui qui foule au pressoir? A la cuve j'ai foulé solitaire, et des gens de mon peuple pas un n'était avec moi. Alors je les ai foulés dans ma colère, je les ai piétinés dans ma fureur, leur sang a giclé sur mes habits, et j'ai taché tous mes vêtements.",
-        "بهي هكذا في حلة الإعتزاز بالقوة. أنا المتكلم بالعدل وحكم الخلاص. ما بال ثيابك حمراء، ولباسك كدائس المعصرة؟ إني دستها وحدي ومن الشعوب لم يكن معي أحد. قد دستهم بغضبي ووطئتهم كما تطأ الأرض وأسلت دمهم علي الأرض",
+            Prefix.HolyWeek + "1HDGospel&D=GL56&C=Diacon",
+            "",
+            "Les Juifs lui dirent: «Il ne nous est pas permis de mettre quelqu'un à mort,» afin que s'accomplît la parole qu'avait dite Jésus, signifiant de quelle mort il devait mourir. Alors Pilate entra de nouveau dans le prétoire; il appela Jésus et dit: «Tu es le roi des Juifs?» Jésus répondit: «Dis-tu cela de toi-même ou d'autres te l'ont-ils dit de moi?» Pilate répondit: «Est-ce que je suis Juif, moi? Ta nation et les grands prêtres t'ont livré à moi. Qu'as-tu",
+            "فقال له اليهود: نحن لا يجوز لنا أن نقتل أحداً. ليتم قول يسوع الذي قال مشيراً إلى آية ميتة يموت. ثم دخل بيلاطس أيضاً إلى دار الولاية ودعا يسوع وقال له: أأنت ملك اليهود؟! أجاب يسوع وقال: أمن ذاتك تقول هذا، أم آخرون قالوا لك عنى؟!. أجاب بيلاطس قائلا: ألعلى أنا ايضاً يهودى؟ إن أمتك ورؤساء الكهنة هم الذين أسلموك إلى، فماذا",
         ],
         [
-            Prefix.HolyWeek +"3HDProphecies&D=GL56&C=Diacon",
-        "",
-        "Car j'ai au cœur un jour de vengeance, c‘ est l'année de ma rétribution qui vient. Je regarde: personne pour m'aider! Je montre mon angoisse: personne pour me soutenir! Alors mon bras est venu à mon secours, c'est ma fureur qui m'a soutenu. J'ai écrasé les peuples dans ma colère, je les ai brisés dans ma fureur, et j'ai fait ruisseler à terre leur sang. Je vais célébrer les grâces du Seigneur, les louanges du Seigneur, ",
-        "لأن يوم النقمة قد جاء عليهم وسنة الخلاص قد أتت، فنظرت ولم يكن من ناصر. وتأملت ولم يكن من عاضد، فسيخلصني ذراعي ورجزي قد أيدني، ووطئتهم بسخطي وأسلت دمهم علي الأرض، ورحمة الرب ذكرتها وحسنات الرب",
+            Prefix.HolyWeek + "1HDGospel&D=GL56&C=Diacon",
+            "",
+            "Fait?» \nJésus répondit: «Mon royaume n'est pas de ce monde. Si mon royaume était de ce monde, mes gens auraient combattu pour que je ne sois pas livré aux Juifs. Mais mon royaume n'est pas d'ici.» Pilate lui dit: «Donc tu es roi?» Jésus répondit: «Tu le dis: je suis roi. Je ne suis né, et je ne suis venu dans le monde, que pour rendre témoignage à la vérité. Quiconque est de la vérité écoute ma voix.»",
+            "فعلت؟!\nأجاب يسوع: إن مملكتي ليست من هذا العالم. لو كانت مملكتي من هذا العالم لكان خدامي يحاربون عني لكى لا أسلم إلى اليهود. والآن مملكتي ليست من هذا العالم. فقال له بيلاطس: أملك إذن أنت؟! أجاب يسوع: أنت الذي تقول أنى ملك، وأنى أنا لهذا العمل ولدت، ومن أجل هذا أتيت إلى العالم لأشهد للحق. فكل من هو من الحق يسمع صوتى.",
         ],
         [
-            Prefix.HolyWeek +"3HDProphecies&D=GL56&C=Diacon",
-        "",
-        "pour tout ce que le Seigneur a accompli pour nous.\nGloire à la sainte Trinité notre Dieu.",
-        "حسب جميع الأشياء التي يجازينا بها.\nمجداً للثالوث الأقدس إلهنا آمين",
-        ],
-        [
-            Prefix.HolyWeek +"3HDProphecies&D=GL56&C=Diacon",
-        "",
-        "Ebolqen Amoc piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nOuo\ `èvnhb P_ Vnou; Pipantokrator vhetsi nem `èpka\i ouo\ af`èqro `èmmof `èekim ouo\ eu`èeer\hbi. \nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
-        "عاموس ٩ : ٥، ٦، ٨، ١٠ \nقال الرب ضابط الكل: أني أثبت عيني عليهم للشر لا للخير،",
-        ],
-        [
-            Prefix.HolyWeek +"3HDProphecies&D=GL56&C=Diacon",
-        "",
-        "Et le Seigneur Dieu Sabaot touche la terre et elle se dissout, et tous ses habitants sont en deuil; elle monte comme le Nil, tout entière, et puis retombe comme le Nil d'Égypte. Il bâtit dans le ciel ses chambres hautes, il a fondé sa voûte sur la terre; il appelle les eaux de la mer et les répand sur la face de la terre; le Seigneur est son nom... \nVoici, les yeux du Seigneur tout puissant sont sur le royaume du pécheur.",
-        "وأجعل الأرض تضطرب عندما ألمسها. وينوح جميع الساكنين فيها، وتطمو آخرتها مثل نهر، وتنضب مثل نهر مصر. الذي يبني في السماء علاليه، ويؤسس وعده علي الأرض. الذي يدعو مياه البحر ويصبها علي وجه الأرض، الرب ضابط الكل اسمه.\nها أعين الرب تتطلع علي مملكة الخطاة",
-        ],
-        [
-            Prefix.HolyWeek +"3HDProphecies&D=GL56&C=Diacon",
-        "",
-        "Je vais l'exterminer de la surface du sol, toutefois je n'exterminerai pas complètement la maison de Jacob - oracle du Seigneur. Car voici que je vais commander et je secouerai la maison d'Israël parmi toutes les nations, comme on secoue avec le crible, et pas un grain ne tombe à terre. Tous les pécheurs de mon peuple périront par l'épée, eux qui disent: Le malheur n'avancera pas, il ne nous atteindra pas. \nGloire à la sainte Trinité notre Dieu.",
-        "ليمحوها من علي وجه الأرض. إلا أنني لا أستأصل بيت يعقوب إستئصالاً، قال الرب. هآنذا أمر وأنقي كل شعب إسرائيل كما تنقي الفضة ولا يتلف منها شيء علي الأرض. ويموت بالسيف كل خطاة هذا الشعب القائلين: لا يقترب إلينا الشر ولا يأتي علينا.\nمجداً للثالوث الأقدس إلهنا آمين",
-        ],
-        [
-            Prefix.HolyWeek +"3HDProphecies&D=GL56&C=Diacon",
-        "Ebolqen Iwb pie;mi piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nEtaucwtem `èeroi au;`è\qhou > auxarwou de `èe`è\rhi `èejen pacosni. \nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
-        "Job 29 : 21 à 30 : 10 \nIls m'écoutaient, dans l'attente, silencieux pour entendre mon avis.",
-        "أيوب ٢٩ : ٢١ - ٣٠ : ١ – ١٠\nلما سمعوني أنصتوا وسكتوا عن مشورتي،",
-        ],
-        [
-            Prefix.HolyWeek +"3HDProphecies&D=GL56&C=Diacon",
-        "",
-        "Quand j'avais parlé, nul ne répliquait, et sur eux, goutte à goutte, tombaient mes paroles. Ils m'attendaient comme la pluie, leur bouche s'ouvrait comme pour l'ondée de printemps. Si je leur souriais, ils n'osaient y croire, ils recueillaient sur mon visage tout signe de faveur. Je leur indiquais la route en siégeant à leur tête, tel un roi installé parmi ses troupes, et je les menais partout à mon gré. Et maintenant, je suis la risée de gens",
-        "وعلي كلامي لم يزيدوا شيئاً، ويفرحون إذا كلمتهم، كمثل أرض منتظرة للمطر، هكذا هؤلاء أيضاً كانوا ينتظرون كلامي. وإذا ضحكت معهم لا يصدقونني، والنور لا يسقط من وجهي، ثم إخترت طريقهم وجلست رئيسا وكنت أسكن كملك في الحصون ومثل قوم نائحين كنت أعزيهم، أما الآن فقد هزأ بي أصاغر الناس،",
-        ],
-        [
-            Prefix.HolyWeek +"3HDProphecies&D=GL56&C=Diacon",
-        "",
-        "qui sont plus jeunes que moi, et dont les pères étaient trop vils à mes yeux pour les mêler aux chiens de mon troupeau. Aussi bien, la force de leurs mains m'eût été inutile: ils avaient perdu toute vigueur, épuisée par la disette et la famine, car ils rongeaient la steppe, ce sombre lieu de ruine et de désolation; ils cueillaient l'arroche sur le buisson, faisaient leur pain des racines de genêt. Bannis de la société des hommes, qui les hue comme des",
-        "والآن يعلمونني شيئا أولئك الذين رزلت آباءهم، الذين كنت أتركهم وأحسبهم كأنهم غير موجودين، الذين كنت آنفاً من أن أجعل آبائهم مع كلاب الرعاة، لأنهم ليسوا من هذا الموضع، ماذا يفعلون بي بقوة أيديهم؟ الذين فسدت عليهم آخرتهم بالعوز والغلاء والعقم، الهاربون بالأمس في موضع بلا ماء، فساد وشقاء للذين يطلبون العشب من المواضع التي تطن. وأصول الرتم طعامهم، أولئك الأردياء الأشرار عادمي جميع الخيرات يمضغون جذور الحطب من شدة الغلاء. قام علي اللصوص",
-        ],
-        [
-            Prefix.HolyWeek +"3HDProphecies&D=GL56&C=Diacon",
-        "",
-        "voleurs, ils logent au flanc des ravins, dans les grottes ou les crevasses du rocher. Des buissons, on les entend braire, ils s'entassent sous les chardons. Fils de vauriens, bien plus, d'hommes sans nom, ils sont rejetés par le pays. Et maintenant, voilà qu'ils me chansonnent, qu'ils font de moi leur fable! Saisis d'horreur, ils se tiennent à distance, devant moi, ils crachent sans retenue.\nGloire à la sainte Trinité notre Dieu.",
-        "الذين جعلوا مساكنهم مغائر الصخور صارخين في مواضع حسنة الطنين. الساكنون في مواضع موحشة وأبناء الحمقي. أصحاب الإسم المرذول والذبيحة المنطفئة علي الأرض، وأنا الآن صرت لهم قيثارة وأصبحت عندهم مثلاً. وهم أبغضوني وإبتعدوا عني ولم يشفقوا علىّ وبصقوا في وجهي.\n مجداً للثالوث الأقدس إلهنا آمين",
+            Prefix.HolyWeek + "1HDGospel&D=GL56&C=Diacon",
+            "",
+            "Pilate lui dit: «Qu'est-ce que la vérité?» Et, sur ce mot, il sortit de nouveau et alla vers les Juifs. Et il leur dit: «Je ne trouve en lui aucun motif de condamnation. Mais c'est pour vous une coutume que je vous relâche quelqu'un à la Pâque. Voulez-vous que je vous relâche le roi des Juifs?» Alors ils vociférèrent de nouveau, disant: «Pas lui, mais Barabbas!» Or Barabbas était un brigand.\nGloire à Dieu éternellement.",
+            "فقال له بيلاطس: ما هو الحق؟! فقال هذا وخرج إلى اليهود وقال لهم: إنني لا أجد علة ما في هذا الإنسان، وعادتكم أن أطلق لكم واحداً في الفصح، أفتريدون أن أطلق لكم ملك اليهود؟! فصرخوا جميعاً قائلين: لا تطلق هذا، بل أطلق باراباس. وكان باراباس لصاً.\nوالمجد لله دائماً",
         ],
     ],
     [
-    
+
         [
-            Prefix.HolyWeek +"3HDSermony&D=GL56&C=Diacon",
-        "Oukaty,ycic `nte peniwt `e;ouab abba A;anacioc pi`apoctolikoc `ere pef`cmou `e;ouab swpi neman `amyn",
-        "Sermon de notre saint père Abba Athanase l'apostolique. Que sa sainte bénédiction soit avec nous Amen.",
-        "عظة لأبينا القديس أنبا أثناسيوس الرسولى بركته المقدسة تكون معنا آمين",
+            Prefix.HolyWeek + "1HDCommentary&D=GL56&C=Diacon",
+            "",
+            "Commentaire\nA l'aube du vendredi, les grands prêtres se réunirent et préparèrent la condamnation du Sauveur avant de le présenter à Pilate pour le faire mourir. Judas, ayant appris cela, regretta ce qu'il avait fait. Il rendit l'argent aux grands prêtres en disant: «J'ai livré un sang innocent.» Puis il se retira et s'en alla se pendre, faisant ainsi un autre péché. Ayant ramassé l'argent, les grands prêtres achetèrent",
+            "طــرح\nباكر يوم الجمعة إجتمع رؤساء الكهنة معاً وصنعوا الحكم على المخلص لكي يسلموه إلى بيلاطس ليقتله. فيهوذا لما نظر ما كان ندم على ما فعله. وأعاد الفضة إلى رؤساء الكهنة قائلاً: إنني ألقيت للحكم دماً ذكياً .فمضى وخنق نفسه وحده وكمل إثماً على إثم. فأخذ رؤساء الكهنة الفضة وإبتاعوا بها",
         ],
         [
-            Prefix.HolyWeek +"3HDSermony&D=GL56&C=Diacon",
-        "",
-        "Sermon de notre père saint Athanase l'apostolique que sa sainte bénédiction repose sur nous tous. Amen !\nCar le Christ est venu de Lui-même. A cause de Son amour Il est mort pour nous. Non seulement Il nous a créé hommes comme Adam, nous les pécheurs, mais encore lorsque nous nous sommes anéantis par le péché, Il est venu, a souffert pour nous et par son amour nous a rendu la vie. Médecin, Il est venu,",
-        "عظة لأبينا القديس أنبا أثناسيوس الرسولى ، بركته المقدسة تكون معنا. آمين.\nلأن المسيح جاء بذاته، ولمحبته مات عنا، لأنه لم يخلقنا نحن الخطاة مثل آدم ويصيرنا بشراً فقط، بل لما أهلكنا أنفسنا بالخطية، جاء وتألم عنا وأحيانا بمحبته. لأنه قد جاء إلينا كطبيب",
+            Prefix.HolyWeek + "1HDCommentary&D=GL56&C=Diacon",
+            "",
+            "le \"champ du potier\" afin que soit accompli ce qui a été écrit au sujet des trente pièces d'argent, le prix de l'innocent. Jésus fut présenté à Pilate qui lui demanda: «Es-tu roi?». Jésus répondit: «Dis-tu cela de toi-même ou d'autres te l'ont-ils dit de moi? Moi, je suis né, Pilate, pour le royaume.» Ils déposèrent beaucoup de plaintes à son sujet mais le Béni ne répondit pas.",
+            "حقل الفاخوري، لكي يكمل الذي قيل من أجل الثلاثين من الفضة ثمن الذكي. فأقاموا يسوع أمام بيلاطس فسأله: أأنت ملك؟ فأجاب يسوع: أنت قلت أم آخر أخبرك؟ أنا ولدت يا بيلاطس من أجل المملكة. فاشتكوا عليه كثيراً. فلم يُجب المبارك بشيء.",
         ],
         [
-            Prefix.HolyWeek +"3HDSermony&D=GL56&C=Diacon",
-        "",
-        "et s'est annoncé à nous. Il n'est pas venu au chevet de malades mais de morts. Il ne nous a pas guéris comme des malades, mais Il nous a ressuscités, nous les morts. La mort nous avait engloutis, Il nous a déliés de ses liens. Pour cela, le Christ, le Seigneur est mort pour nous afin que nous vivions avec Lui éternellement. Si le Seigneur n'avait pas partagé la douleur des hommes, comment l'homme aurait-il été sauvé?",
-        "معلناً لنا ذاته، لأنه لم يأت إلينا كمرضي فقط بل كموتي. بهذا لم يشفينا نحن المرضي فحسب، بل أقامنا نحن الأموات الذين ابتلعنا الموت ففكنا من رباطاته. لهذا مات المسيح الرب عنا لكي نحيا معه إلي الأبد، لأنه إن لم يكن الرب قد شارك البشرية في آلامها فكيف يخلص الإنسان؟",
+            Prefix.HolyWeek + "1HDCommentary&D=GL56&C=Diacon",
+            "",
+            "Pilate dit alors: «N'entends-tu pas ces nombreux témoignages?» Mais Lui ne dit rien. Le gouverneur fut surpris pour Son silence et Son calme. Comment l'Agneau peut-il répondre, Lui qui est venu pour porter les péchés du monde. Le prophète Isaïe a dit qu'Il fut jugé comme un agneau. Cette prophétie s'est accomplie aujourd'hui à Jérusalem, au milieu d'Israël. Tes fils pleurent pour toi aujourd'hui, \"Jérusalem, toi qui tues les prophètes.\"",
+            "فقال بيلاطس: أما تسمع هذه الشهادات الكثيرة؟ فلم يفتح فمه ليقول كلمة. فتعجب الوالي جداً من أجل صمته وهدوءه. كيف يفتح الحمل فاه وهو الذي أتى ليحمل خطايا العالم؟ وقد شهد أشعياء من أجله قائلاً: إن مداينته قد ارتفعت مثل الخروف. قد كملت اليوم هذه النبوة في أورشليم في وسط إسرائيل. يبكي عليكِ بنوكِ اليوم يا أورشليم يا قاتلة الأنبياء.",
         ],
         [
-            Prefix.HolyWeek +"3HDSermony&D=GL56&C=Diacon",
-        "",
-        "La mort a été déchue sous les pieds du Christ, elle a été vaincue. L'enfer et sa puissance ont reculé lorsqu'il a entendu la voix du Seigneur appeler les âmes et dire: «Sortez de vos chaînes, vous qui êtes assis dans les ténèbres et l'ombre de la mort. Sortez de vos chaînes. Je vous annonce la Vie car Je suis le Christ, le Fils du Dieu éternel.»",
-        "لأن الموت سقط تحت أقدام المسيح وإنهزم وهو مسبي مضطرب، والجحيم مع قوته رجع إلي الخلف لما سمع صوت الرب ينادي الأنفس قائلاً: أخرجوا من وثاقكم أيها الجالسون في الظلمة وظلال الموت، أخرجوا من وثاقكم، فأنا أبشركم بالحياة لأني أنا هو المسيح إبن الله الأبدي. ",
-        ],
-        [
-            Prefix.HolyWeek +"3HDSermony&D=GL56&C=Diacon",
-        "",
-        "Clôturons le sermon de notre père saint Athanase l'apostolique qui a éclairé nos pensées et les yeux de nos cœurs au Nom du Père, du Fils et du Saint Esprit, un seul Dieu, Amen",
-        "فلنختتم عظة أبينا القديس أنبا أثناسيوس الرسولى الذي أنار عقولنا وعيون قلوبنا بإسم الآب والإبن والروح القدس إله واحد. آمين.",
-        ],
-        [
-            Prefix.HolyWeek +"3HDSermony&D=GL56&C=Diacon",
-        "Marener `c`vragizin `n]katy,ycic `nte peniwt `e;ouab abba abba A;anacioc pi`apoctolikoc `vyetaferouwini `mpennouc nem nibal `nte nenhyt @ qen `vran `m~Viwt nem ~Psyri nem Pi`pneuma `e;ouab ounou] `nouwt @ `amyn",
-        "Clôturons le sermon de notre saint père saint Athanase l'apostolique qui a éclairé nos pensées et les yeux de nos cœurs au nom du Père, du Fils et du Saint Esprit, un seul Dieu, Amen !",
-        "فلنختم عظة أبينا القديس  أنبا أثناسيوس الرسولى الذى أنار عقولنا وعيون قلوبنا بإسم الآب والإبن والروح القدس إله واحد. آمين.",
+            Prefix.HolyWeek + "1HDCommentary&D=GL56&C=Diacon",
+            "",
+            "Il n’est pas un prophète mais il est Dieu et son sang efface les pêchés.",
+            "هذا ليس نبي لكنه إله ودمه يمحو الآثام",
         ],
     ],
     [
-    
+
         [
-            Prefix.HolyWeek +"3HDPsalm&D=GL56&C=Diacon",
-        "Yalmoc  to Dauid\nAnok de ;cebtwt `èe\anmactiggoc > ouo\ pa`èmka\ `èmpa`èmqo `èebol `ènchou niben. Aukw; `èeroi `ènje ouqo `ènou\or > oucunagwgh `ènjajbwn petac`èamoni `èmmoi  > ``allhloui`a",
-        "Psaume 37 : 18 et 21 : 1 \nEt maintenant, je suis près à tomber ma douleur est toujours devant moi. Des chiens nombreux me cernent, une bande de vauriens m'entoure. Alléluia",
-        "مزمور  ٣٧ : ١٧، مز ٢١ : ١٥ \nأما أنا فمستعد للسياط، ووجعي مقابلي في كل حين.\nقد احاطت بي كلاب كثيرة، وزمرة من الأشرار أحدقت بي : الليلويا",
+            Prefix.HolyWeek + "3HDProphecies&D=GL56&C=Diacon",
+            "Ebolqen ]genecic `nte Mw`ucyc piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nAc]wpi de meneca nai caji autame Iwchv eujw `èmmoc > je pekiwt `è]qorter.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
+            "Genèse 48 : 1-19\nIl arriva, après ces événements, qu'on dit à Joseph: Voici que ton père est malade!",
+            "تكوين ٤٨ : ١ – ١٩\nوحدث بعد هذه الأمور أنهم أخبروا يوسف قائلين: إن أباك مريض.",
+        ],
+        [
+            Prefix.HolyWeek + "3HDProphecies&D=GL56&C=Diacon",
+            "",
+            "et il emmena avec lui ses deux fils, Manassé et Éphraïm. Lorsqu'on eut annoncé à Jacob: Voici ton fils Joseph qui est venu auprès de toi, Israël rassembla ses forces et se mit assis sur le lit. Puis Jacob dit à Joseph: «El Shaddaï m'est apparu à Luz, au pays de Canaan, il m'a béni et m'a dit: Je te rendrai fécond et je te multiplierai, je te ferai devenir une assemblée de peuples et je donnerai ce pays en possession perpétuelle à tes descendants après toi.",
+            "فأخذ إبنيه منسي وأفرايم وجاء إلي يعقوب. فأخبروا يعقوب قائلين له: هوذا إبنك يوسف قادم إليك. فتشدد إسرائيل وجلس علي السرير. فقال يعقوب ليوسف: إن إلهي ظهر لي في لوز في أرض كنعان وباركني وقال لي ها أنا أنميك وأكثرك وأجعلك جمهوراً من الأمم وأعطي هذه الأرض لك ولنسلك من بعدك ملكاً أبدياً.",
+        ],
+        [
+            Prefix.HolyWeek + "3HDProphecies&D=GL56&C=Diacon",
+            "",
+            "Maintenant, les deux fils qui te sont nés au pays d'Égypte avant que je ne vienne auprès de toi en Égypte, ils seront miens! Éphraïm et Manassé seront à moi au même titre que Ruben et Siméon. Quant aux enfants que tu as engendrés après eux, ils seront tiens; ils porteront le nom de leurs frères pour l'héritage. Lorsque je revenais de Paddân, ta mère Rachel est morte, pour mon malheur, au pays de Canaan, en route, encore un bout de chemin",
+            "والآن فإبناك اللذان صارا لك في أرض مصر قبل قدومي إليك إلي أرض مصر هما لي، أفرايم ومنسي مثل رأوبين وشمعون يكونان لي. ومن يولد بعدهما من البنين فإنه يكونون لك، ويدعون بإسم إخوتهم في ميراثهم. وأنا حين جئت من بين نهري سورية، ماتت راحيل أمك في أرض كنعان،",
+        ],
+        [
+            Prefix.HolyWeek + "3HDProphecies&D=GL56&C=Diacon",
+            "",
+            "avant d'arriver à Éphrata, et je l'ai enterrée là, sur le chemin d'Éphrata - c'est Bethléem.» Israël vit les deux fils de Joseph et demanda: «Qui sont ceux-là?» - «Ce sont les fils que Dieu m'a donnés ici,» répondit Joseph à son père, et celui-ci reprit: «Amène-les moi, que je les bénisse.» Or les yeux d'Israël étaient usés par la vieillesse, il n'y voyait plus, et Joseph les fit approcher de lui, qui les embrassa et les serra dans ses bras. Et Israël dit à Joseph:",
+            "وأنا قريب من حدود أفراثا ودفنتها علي قارعة طريق بيت لحم. ولما رأي إسرائيل إبني يوسف قال: من هذان؟ فقال يوسف لأبيه: هما ولداى اللذان وهبهما الله لي ههنا. فقال يعقوب: قدمهما إليّ لأباركهما. وكانت عينا يعقوب قد ثقلتا من الشيخوخة ولا يقدر أن يبصر. فقربهما إليه فقبلهما وإحتضنهما، وقال إسرائيل ليوسف :",
+        ],
+        [
+            Prefix.HolyWeek + "3HDProphecies&D=GL56&C=Diacon",
+            "",
+            "«Je ne pensais pas revoir ton visage et voici que Dieu m'a fait voir même tes descendants!» Alors Joseph les retira de son giron et se prosterna, la face contre terre. Joseph les prit tous deux, Éphraïm de sa main droite pour qu'il soit à la gauche d'Israël, Manassé de sa main gauche pour qu'il soit à la droite d'Israël, et il les fit approcher de celui-ci. Mais Israël étendit sa main droite et la posa sur la tête d'Éphraïm, qui était le cadet, et sa main gauche sur la",
+            "هوذا أنا لم أُحرم أن أري وجهك، وهوذا الرب قد أراني نسلك. ثم أخرجهما يوسف من بين فخذيه وسجدا له بوجهيهما إلي الأرض. وأخذ يوسف ولديه وجعل أفرايم عن يسار إسرائيل، ومنسي عن يمين إسرائيل، وقربهما إليه. فمد إسرائيل يمينه ووضعها علي رأس أفرايم وهو الصغير، ويساره علي",
+        ],
+        [
+            Prefix.HolyWeek + "3HDProphecies&D=GL56&C=Diacon",
+            "",
+            "tête de Manassé, en croisant ses mains - en effet Manassé était l'aîné. Il bénit ainsi Joseph: \"Que le Dieu devant qui ont marché mes pères Abraham et Isaac, que le Dieu qui fut mon pasteur depuis que je vis jusqu'à maintenant, que l'Ange qui m'a sauvé de tout mal bénisse ces enfants, que survivent en eux mon nom et le nom de mes ancêtres, Abraham et Isaac, qu'ils croissent et multiplient sur la terre!\" Cependant Joseph vit que son père",
+            "رأس منسي، وخالف يديه. مع أن منسي هو البكر وباركهما، وقال: اللهم الذي أحسن أمامه أبواي إبراهيم وإسحق، الله الذي عالني منذ صباي إلي هذا اليوم، الملاك الذي خلصني من كل شر، يبارك علي هذين الغلامين، ويدعي إسمي عليهما، وإسم أبواي إبراهيم وإسحق، فيكثران كثرة عظيمة علي الأرض. فلما رأي يوسف أن أباه",
+        ],
+        [
+            Prefix.HolyWeek + "3HDProphecies&D=GL56&C=Diacon",
+            "",
+            "mettait sa main droite sur la tête d'Éphraïm et cela lui déplut. Il saisit la main de son père pour la détourner de la tête d'Éphraïm sur la tête de Manassé, et Joseph dit à son père: «Pas comme cela, père, car c'est celui-ci l'aîné: mets ta main droite sur sa tête.» Mais son père refusa et dit: \"Je sais, mon fils, je sais…\"\nGloire à la sainte Trinité notre Dieu.",
+            "وضع يده اليمني علي رأس أفرايم ثقل الأمر أمامه، فأمسك يوسف بيد أبيه لينقلها عن رأس أفرايم إلي رأس منسي، وقال يوسف لأبيه: ليس هكذا يا أبي لأن هذا هو البكر، ضع يمينك علي رأسه. فأبي أبوه وقال : أنا أعلم يا ولدي، أنا أعلم\nمجداً للثالوث الأقدس إلهنا آمين",
+        ],
+        [
+            Prefix.HolyWeek + "3HDProphecies&D=GL56&C=Diacon",
+            "Ebolqen Yca`yac piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nP_ pet;nhi `ènoulac `èn`ècbw > eqri`èemi `èarewan `èt\o; `ènoucaji ]wpi. \nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
+            "Isaïe 50 : 4-9 \nLe Seigneur tout-puissant m'a donné une langue de disciple",
+            "إشعياء ٥٠ : ٤ – ٩ \nقد أعطاني السيد الرب لسان العلماء",
+        ],
+        [
+            Prefix.HolyWeek + "3HDProphecies&D=GL56&C=Diacon",
+            "",
+            "pour que je sache apporter à l’épuiser une parole de réconfort. Il éveille chaque matin, il éveille mon oreille pour que j'écoute comme un disciple. Le Seigneur tout-puissant m'a ouvert l'oreille, et moi je n'ai pas résisté, je ne me suis pas dérobé. J'ai tendu le dos à ceux qui me frappaient, et les joues à ceux qui m'arrachaient la barbe; je n'ai pas soustrait ma face aux outrages et aux crachats. Le Seigneur tout-puissant va me venir en aide,",
+            "لأعلم إذا صار خوف الكلام، في الأسرار جعل لي، وزادني أذناً لأسمع تعليم الرب، ولكن تنفتح أذناي وأنا لم أقاوم بل بذلت ظهري للضرب، وخدي للطم ولم أرد وجهي عن خزي البصاق. والرب كان لي عوناً،",
+        ],
+        [
+            Prefix.HolyWeek + "3HDProphecies&D=GL56&C=Diacon",
+            "",
+            "c'est pourquoi je ne me suis pas laissé abattre, c'est pourquoi j'ai rendu mon visage dur comme la pierre, et je sais que je ne serai pas confondu. Il est proche, celui qui me justifie. Qui va plaider contre moi? Comparaissons ensemble! Qui est mon adversaire? Qu'il s'approche de moi! Voici que le Seigneur tout-puissant va me venir en aide, quel est celui qui me condamnerait? Les voici tous qui s'effritent comme un vêtement, rongés par la teigne.\nGloire à la sainte Trinité notre Dieu.",
+            "لذلك لا أخجل. لكنني جعلت وجهي كالصخرة الصلبة، وعلمت أني لا أخزي لأن الذي يبررني قريب مني. من يحاكمني فليقترب إليّ، هوذا الرب يعينني فمن يؤلمني؟ ها أنتم كلكم كمثل الثوب تبلون ويأكلكم السوس.\nمجداً للثالوث الأقدس إلهنا آمين",
+        ],
+        [
+            Prefix.HolyWeek + "3HDProphecies&D=GL56&C=Diacon",
+            "Ebolqen Yca`yac piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nOuoi `èntouyuxh je aucosni `ènoucosni 'arwou `èmmin `èmmwou eujw `èmmoc. \nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
+            "Isaïe 3 : 9-15  \nIls n'ont pas dissimulé, malheur à eux! Car ils ont préparé leur propre ruine. Dites :",
+            "إشعياء ٣ : ٩ – ١٥ \nويل لنفوسهم لأنهم تآمروا تأمراً في نفوسهم قائلين :",
+        ],
+        [
+            Prefix.HolyWeek + "3HDProphecies&D=GL56&C=Diacon",
+            "",
+            "le juste, qu'il est heureux! Car il se nourrira du fruit de ses actes. Malheur au méchant, malfaisant! Car il sera traité selon ses œuvres. O mon peuple, ses oppresseurs le mettent au pillage, et des exacteurs font la loi chez lui. Ô mon peuple, tes guides t'égarent, ils ont effacé les chemins que tu suis. Le Seigneur s'est levé pour accuser, il est debout pour juger les peuples. Le Seigneur entre en jugement, avec les anciens et les princes de son peuple :",
+            "لنوثق البار فإنه غير نافع لنا. والآن يأكلون من ثمار أعمال أيديهم. الويل للمنافق. شرور أعمال يديه تأتي عليه، يا شعبي رؤساؤكم يقطفونكم، والذين يلتمسون منكم يتسلطون عليكم. يا شعبي الذين يكرمونكم يضلونكم، ويقلقون طريق أرجلكم، ولكن الآن يأتي الرب للحكم، ويأتي مع شعبه إلي المحاكمة مع المشايخ والرؤساء.",
+        ],
+        [
+            Prefix.HolyWeek + "3HDProphecies&D=GL56&C=Diacon",
+            "",
+            "C'est vous qui avez dévasté la vigne, la dépouille du malheureux est dans vos maisons. De quel droit écraser mon peuple et broyer le visage des malheureux ?\nGloire à la sainte Trinité notre Dieu.",
+            "وأنتم لماذا تلقون ناراً علي هذا الكرم ؟ إغتصاب الفقراء في بيوتكم. ما بالكم تظلمون شعبي وتخجلون وجوه المساكين ؟\nمجداً للثالوث الأقدس إلهنا آمين",
+        ],
+        [
+            Prefix.HolyWeek + "3HDProphecies&D=GL56&C=Diacon",
+            "",
+            "Ebolqen Yca`yac piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nNim pe vheqnhou `èebol'en Edwm `èp`èqro]re] `ènnef`è\bwc `èebol'en Bwcor. \nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
+            "إشعياء ٦٣ : ١ – ٧ \nمن ذا الآتي من آدوم، وثيابه حمر من بصرة.",
+        ],
+        [
+            Prefix.HolyWeek + "3HDProphecies&D=GL56&C=Diacon",
+            "",
+            "magnifiquement drapé dans son manteau, s'avançant dans la plénitude de sa force? C'est moi qui parle avec justice, qui suis puissant pour sauver. Pourquoi ce rouge à ton manteau, pourquoi es-tu vêtu comme celui qui foule au pressoir? A la cuve j'ai foulé solitaire, et des gens de mon peuple pas un n'était avec moi. Alors je les ai foulés dans ma colère, je les ai piétinés dans ma fureur, leur sang a giclé sur mes habits, et j'ai taché tous mes vêtements.",
+            "بهي هكذا في حلة الإعتزاز بالقوة. أنا المتكلم بالعدل وحكم الخلاص. ما بال ثيابك حمراء، ولباسك كدائس المعصرة؟ إني دستها وحدي ومن الشعوب لم يكن معي أحد. قد دستهم بغضبي ووطئتهم كما تطأ الأرض وأسلت دمهم علي الأرض",
+        ],
+        [
+            Prefix.HolyWeek + "3HDProphecies&D=GL56&C=Diacon",
+            "",
+            "Car j'ai au cœur un jour de vengeance, c‘ est l'année de ma rétribution qui vient. Je regarde: personne pour m'aider! Je montre mon angoisse: personne pour me soutenir! Alors mon bras est venu à mon secours, c'est ma fureur qui m'a soutenu. J'ai écrasé les peuples dans ma colère, je les ai brisés dans ma fureur, et j'ai fait ruisseler à terre leur sang. Je vais célébrer les grâces du Seigneur, les louanges du Seigneur, ",
+            "لأن يوم النقمة قد جاء عليهم وسنة الخلاص قد أتت، فنظرت ولم يكن من ناصر. وتأملت ولم يكن من عاضد، فسيخلصني ذراعي ورجزي قد أيدني، ووطئتهم بسخطي وأسلت دمهم علي الأرض، ورحمة الرب ذكرتها وحسنات الرب",
+        ],
+        [
+            Prefix.HolyWeek + "3HDProphecies&D=GL56&C=Diacon",
+            "",
+            "pour tout ce que le Seigneur a accompli pour nous.\nGloire à la sainte Trinité notre Dieu.",
+            "حسب جميع الأشياء التي يجازينا بها.\nمجداً للثالوث الأقدس إلهنا آمين",
+        ],
+        [
+            Prefix.HolyWeek + "3HDProphecies&D=GL56&C=Diacon",
+            "",
+            "Ebolqen Amoc piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nOuo\ `èvnhb P_ Vnou; Pipantokrator vhetsi nem `èpka\i ouo\ af`èqro `èmmof `èekim ouo\ eu`èeer\hbi. \nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
+            "عاموس ٩ : ٥، ٦، ٨، ١٠ \nقال الرب ضابط الكل: أني أثبت عيني عليهم للشر لا للخير،",
+        ],
+        [
+            Prefix.HolyWeek + "3HDProphecies&D=GL56&C=Diacon",
+            "",
+            "Et le Seigneur Dieu Sabaot touche la terre et elle se dissout, et tous ses habitants sont en deuil; elle monte comme le Nil, tout entière, et puis retombe comme le Nil d'Égypte. Il bâtit dans le ciel ses chambres hautes, il a fondé sa voûte sur la terre; il appelle les eaux de la mer et les répand sur la face de la terre; le Seigneur est son nom... \nVoici, les yeux du Seigneur tout puissant sont sur le royaume du pécheur.",
+            "وأجعل الأرض تضطرب عندما ألمسها. وينوح جميع الساكنين فيها، وتطمو آخرتها مثل نهر، وتنضب مثل نهر مصر. الذي يبني في السماء علاليه، ويؤسس وعده علي الأرض. الذي يدعو مياه البحر ويصبها علي وجه الأرض، الرب ضابط الكل اسمه.\nها أعين الرب تتطلع علي مملكة الخطاة",
+        ],
+        [
+            Prefix.HolyWeek + "3HDProphecies&D=GL56&C=Diacon",
+            "",
+            "Je vais l'exterminer de la surface du sol, toutefois je n'exterminerai pas complètement la maison de Jacob - oracle du Seigneur. Car voici que je vais commander et je secouerai la maison d'Israël parmi toutes les nations, comme on secoue avec le crible, et pas un grain ne tombe à terre. Tous les pécheurs de mon peuple périront par l'épée, eux qui disent: Le malheur n'avancera pas, il ne nous atteindra pas. \nGloire à la sainte Trinité notre Dieu.",
+            "ليمحوها من علي وجه الأرض. إلا أنني لا أستأصل بيت يعقوب إستئصالاً، قال الرب. هآنذا أمر وأنقي كل شعب إسرائيل كما تنقي الفضة ولا يتلف منها شيء علي الأرض. ويموت بالسيف كل خطاة هذا الشعب القائلين: لا يقترب إلينا الشر ولا يأتي علينا.\nمجداً للثالوث الأقدس إلهنا آمين",
+        ],
+        [
+            Prefix.HolyWeek + "3HDProphecies&D=GL56&C=Diacon",
+            "Ebolqen Iwb pie;mi piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nEtaucwtem `èeroi au;`è\qhou > auxarwou de `èe`è\rhi `èejen pacosni. \nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
+            "Job 29 : 21 à 30 : 10 \nIls m'écoutaient, dans l'attente, silencieux pour entendre mon avis.",
+            "أيوب ٢٩ : ٢١ - ٣٠ : ١ – ١٠\nلما سمعوني أنصتوا وسكتوا عن مشورتي،",
+        ],
+        [
+            Prefix.HolyWeek + "3HDProphecies&D=GL56&C=Diacon",
+            "",
+            "Quand j'avais parlé, nul ne répliquait, et sur eux, goutte à goutte, tombaient mes paroles. Ils m'attendaient comme la pluie, leur bouche s'ouvrait comme pour l'ondée de printemps. Si je leur souriais, ils n'osaient y croire, ils recueillaient sur mon visage tout signe de faveur. Je leur indiquais la route en siégeant à leur tête, tel un roi installé parmi ses troupes, et je les menais partout à mon gré. Et maintenant, je suis la risée de gens",
+            "وعلي كلامي لم يزيدوا شيئاً، ويفرحون إذا كلمتهم، كمثل أرض منتظرة للمطر، هكذا هؤلاء أيضاً كانوا ينتظرون كلامي. وإذا ضحكت معهم لا يصدقونني، والنور لا يسقط من وجهي، ثم إخترت طريقهم وجلست رئيسا وكنت أسكن كملك في الحصون ومثل قوم نائحين كنت أعزيهم، أما الآن فقد هزأ بي أصاغر الناس،",
+        ],
+        [
+            Prefix.HolyWeek + "3HDProphecies&D=GL56&C=Diacon",
+            "",
+            "qui sont plus jeunes que moi, et dont les pères étaient trop vils à mes yeux pour les mêler aux chiens de mon troupeau. Aussi bien, la force de leurs mains m'eût été inutile: ils avaient perdu toute vigueur, épuisée par la disette et la famine, car ils rongeaient la steppe, ce sombre lieu de ruine et de désolation; ils cueillaient l'arroche sur le buisson, faisaient leur pain des racines de genêt. Bannis de la société des hommes, qui les hue comme des",
+            "والآن يعلمونني شيئا أولئك الذين رزلت آباءهم، الذين كنت أتركهم وأحسبهم كأنهم غير موجودين، الذين كنت آنفاً من أن أجعل آبائهم مع كلاب الرعاة، لأنهم ليسوا من هذا الموضع، ماذا يفعلون بي بقوة أيديهم؟ الذين فسدت عليهم آخرتهم بالعوز والغلاء والعقم، الهاربون بالأمس في موضع بلا ماء، فساد وشقاء للذين يطلبون العشب من المواضع التي تطن. وأصول الرتم طعامهم، أولئك الأردياء الأشرار عادمي جميع الخيرات يمضغون جذور الحطب من شدة الغلاء. قام علي اللصوص",
+        ],
+        [
+            Prefix.HolyWeek + "3HDProphecies&D=GL56&C=Diacon",
+            "",
+            "voleurs, ils logent au flanc des ravins, dans les grottes ou les crevasses du rocher. Des buissons, on les entend braire, ils s'entassent sous les chardons. Fils de vauriens, bien plus, d'hommes sans nom, ils sont rejetés par le pays. Et maintenant, voilà qu'ils me chansonnent, qu'ils font de moi leur fable! Saisis d'horreur, ils se tiennent à distance, devant moi, ils crachent sans retenue.\nGloire à la sainte Trinité notre Dieu.",
+            "الذين جعلوا مساكنهم مغائر الصخور صارخين في مواضع حسنة الطنين. الساكنون في مواضع موحشة وأبناء الحمقي. أصحاب الإسم المرذول والذبيحة المنطفئة علي الأرض، وأنا الآن صرت لهم قيثارة وأصبحت عندهم مثلاً. وهم أبغضوني وإبتعدوا عني ولم يشفقوا علىّ وبصقوا في وجهي.\n مجداً للثالوث الأقدس إلهنا آمين",
         ],
     ],
     [
-    
+
         [
-            Prefix.HolyWeek +"3HDGospel&D=GL56&C=Diacon",
-        "Yalmoc  to Dauid\nAnok de ;cebtwt `èe\anmactiggoc > ouo\ pa`èmka\ `èmpa`èmqo `èebol `ènchou niben. Aukw; `èeroi `ènje ouqo `ènou\or > oucunagwgh `ènjajbwn petac`èamoni `èmmoi  > ``allhloui`a",
-        "Psaume 37 : 18 et 21 : 1 \nEt maintenant, je suis près à tomber ma douleur est toujours devant moi. Des chiens nombreux me cernent, une bande de vauriens m'entoure. Alléluia",
-        "مزمور  ٣٧ : ١٧، مز ٢١ : ١٥ \nأما أنا فمستعد للسياط، ووجعي مقابلي في كل حين.\nقد احاطت بي كلاب كثيرة، وزمرة من الأشرار أحدقت بي : الليلويا",
+            Prefix.HolyWeek + "3HDSermony&D=GL56&C=Diacon",
+            "Oukaty,ycic `nte peniwt `e;ouab abba A;anacioc pi`apoctolikoc `ere pef`cmou `e;ouab swpi neman `amyn",
+            "Sermon de notre saint père Abba Athanase l'apostolique. Que sa sainte bénédiction soit avec nous Amen.",
+            "عظة لأبينا القديس أنبا أثناسيوس الرسولى بركته المقدسة تكون معنا آمين",
         ],
         [
-            Prefix.HolyWeek +"3HDGospel&D=GL56&C=Diacon",
-        "Matqeon  Kev k/z/ > i/e/ - k/ ,\nKata `èp]ai de ne `ètka\c `èmpi\\ugemwn > `èexa ouai `èebol'en nhetcon\ `èmpimh] vh`èe]auoua]f > ne ouon ouai de efcon\ `èntotou `èmpichou `èete`èmmau `èeouconi pe > eumou; è`èerof je Barabbac. Etauqwou; oun euma > peje Pilatoc nwou > je nim `èetetenouw] `èntaxaf nwten `èebol > Barabbac ]an Ihc? vh`èetoumou; `èerof je Pxc?. Naf`èemi gar pe je `èetauthif eqbe ou`èvqonoc. Ef\emci de \ijen pibhma acouwrp \arof `ènje tef`èc\imi ecjw `èmmoc je `èmperer`è\li `èmpi`èqmhi etth > ai]ep oumh] gar `èn'ici eqbhtf `èmpai`èejwr\ 'en `èqracou`èi. Niarxh`èereuc de nem niprecbuteroc > auqet`è\qhou `ènnimh] > \ina `ènce`èeretin `èmBarabbac > Ihc? de `èncetakof.\nAf`èerou`èw `ènje pi\\ugemwn pejaf nwou > je nim `èetetenoua]f `èntaxaf nwten `èebol'en pai`ècnau > `ènqwou de pejwou je Barabbac. Peje Pilatoc nwou > je ou pe;naaif `ènIhc? vh`èetoumou; `èerof je Pxc? > pejwou throu je maroua]f > pejaf nwou `ènje pi\\ugemwn > je ou gar `èmpet\wou `èetafaif > `ènqwou de `èn\ouo nauw] `èebol eujw è`èmmoc je a]f. Etafnau de `ènje Pilatoc je `èfnajem\hou `èn`è\li an > alla mallon ou`è]qorter peqna]wpi > afsi `ènoumwou afia `ènnefjij `èebol `èmpe`èmqo `èmpimh] efjw `èmmoc > je ;oi `ènaqnobi `èebol\a `èp`ècnof nte pai`èqmhi > `ènqwten `èereten`èerw]i. Ouo\ af`èerou`èw `ènje pilaoc thrf pejwou > je pef`ècnof `èe`è\rhi `èejwn nem `èejen nen]hri. Tote afxa Barabbac nwou `èebol > Ihc ? de `èetafervragellion `èmmof > afthif eqroua]f.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
-        "Matthieu 27 : 15-26 \nA chaque Fête, le gouverneur avait coutume de relâcher à la foule un prisonnier, celui qu'elle voulait. On avait alors un prisonnier fameux, nommé Barabbas. Pilate dit donc aux gens qui se trouvaient rassemblés: \"Lequel voulez-vous que je vous relâche, Barabbas, ou Jésus que l'on appelle Christ?\" Il savait bien que c'était par jalousie qu'on l'avait livré. Or, tandis qu'il siégeait au tribunal,",
-        "متى ٢٧ : ١٥ – ٢٦ \nوكانت عادة الوالي في كل عيد أن يطلق للجميع واحداً من الأسري من أرادوه. وكان لديهم في ذلك الوقت أسير وهو لص يدعي باراباس. فلما إجتمعوا معاً، قال لهم بيلاطس: من تريدون ان أطلق لكم، باراباس أم يسوع الذي يدعي المسيح ؟ لأنه كان يعلم أنهم إنما أسلموه حسداً. وفيما هو جالس علي كرسي الولاية،",
+            Prefix.HolyWeek + "3HDSermony&D=GL56&C=Diacon",
+            "",
+            "Sermon de notre père saint Athanase l'apostolique que sa sainte bénédiction repose sur nous tous. Amen !\nCar le Christ est venu de Lui-même. A cause de Son amour Il est mort pour nous. Non seulement Il nous a créé hommes comme Adam, nous les pécheurs, mais encore lorsque nous nous sommes anéantis par le péché, Il est venu, a souffert pour nous et par son amour nous a rendu la vie. Médecin, Il est venu,",
+            "عظة لأبينا القديس أنبا أثناسيوس الرسولى ، بركته المقدسة تكون معنا. آمين.\nلأن المسيح جاء بذاته، ولمحبته مات عنا، لأنه لم يخلقنا نحن الخطاة مثل آدم ويصيرنا بشراً فقط، بل لما أهلكنا أنفسنا بالخطية، جاء وتألم عنا وأحيانا بمحبته. لأنه قد جاء إلينا كطبيب",
         ],
         [
-            Prefix.HolyWeek +"3HDGospel&D=GL56&C=Diacon",
-        "",
-        "sa femme lui fit dire: \"Ne te mêle point de l'affaire de ce juste; car aujourd'hui j'ai été très affectée dans un songe à cause de lui.\" Cependant, les grands prêtres et les anciens persuadèrent aux foules de réclamer Barabbas et de perdre Jésus. Prenant la parole, le gouverneur leur dit: \"Lequel des deux voulez-vous que je vous relâche?\" Ils dirent: «Barabbas.»  \nPilate leur dit: \" Que ferai-je donc de Jésus que l'on appelle Christ? \"",
-        "أرسلت إليه إمرأته قائلة: لا تصنع شيئاً بذلك البار فإني تألمت كثيراً هذه الليلة في حلم من أجله. أما رؤساء الكهنة والشيوخ فحرضوا الجموع أن يطلبوا باراباس ويهلكوا يسوع. فأجاب الوالي وقال لهم: من من الإثنين تريدون أن أطلق لكم ؟ أما هم فقالوا : باراباس. \nفقال لهم بيلاطس: فماذا افعل إذاً بيسوع الذي يدعي المسيح؟ ",
+            Prefix.HolyWeek + "3HDSermony&D=GL56&C=Diacon",
+            "",
+            "et s'est annoncé à nous. Il n'est pas venu au chevet de malades mais de morts. Il ne nous a pas guéris comme des malades, mais Il nous a ressuscités, nous les morts. La mort nous avait engloutis, Il nous a déliés de ses liens. Pour cela, le Christ, le Seigneur est mort pour nous afin que nous vivions avec Lui éternellement. Si le Seigneur n'avait pas partagé la douleur des hommes, comment l'homme aurait-il été sauvé?",
+            "معلناً لنا ذاته، لأنه لم يأت إلينا كمرضي فقط بل كموتي. بهذا لم يشفينا نحن المرضي فحسب، بل أقامنا نحن الأموات الذين ابتلعنا الموت ففكنا من رباطاته. لهذا مات المسيح الرب عنا لكي نحيا معه إلي الأبد، لأنه إن لم يكن الرب قد شارك البشرية في آلامها فكيف يخلص الإنسان؟",
         ],
         [
-            Prefix.HolyWeek +"3HDGospel&D=GL56&C=Diacon",
-        "",
-        "Ils disent tous: \"Qu'il soit crucifié!\" Voyant alors qu'il n'aboutissait à rien, mais qu'il s'ensuivait plutôt du tumulte, Pilate prit de l'eau et se lava les mains en présence de la foule, en disant: \"Je ne suis pas responsable de ce sang; à vous de voir!\" Et tout le peuple répondit: Que son sang soit sur nous et sur nos enfants! Alors il leur relâcha Barabbas; quant à Jésus, après l'avoir fait flageller, il le livra pour être crucifié. \nGloire à Dieu éternellement.",
-        "فقالوا كلهم : ليصلب. فقال لهم الوالي: وأي شر عمل؟ فأما هم فإزدادوا صياحاً قائلين: إصلبه. فلما رأي بيلاطس أنه لا ينفع شيئاً، بل بالحري يحدث شغب، أخذ ماء وغسل يديه قدام الجميع قائلا : إني بريء من دم هذا البار، فأبصروا أنتم. فأجاب كل الشعب وقالوا: دمه علينا وعلي أولادنا. حينئذ أطلق لهم باراباس وأما يسوع فجلدوه وأسلموه ليصلب. \nوالمجد لله دائماً",
+            Prefix.HolyWeek + "3HDSermony&D=GL56&C=Diacon",
+            "",
+            "La mort a été déchue sous les pieds du Christ, elle a été vaincue. L'enfer et sa puissance ont reculé lorsqu'il a entendu la voix du Seigneur appeler les âmes et dire: «Sortez de vos chaînes, vous qui êtes assis dans les ténèbres et l'ombre de la mort. Sortez de vos chaînes. Je vous annonce la Vie car Je suis le Christ, le Fils du Dieu éternel.»",
+            "لأن الموت سقط تحت أقدام المسيح وإنهزم وهو مسبي مضطرب، والجحيم مع قوته رجع إلي الخلف لما سمع صوت الرب ينادي الأنفس قائلاً: أخرجوا من وثاقكم أيها الجالسون في الظلمة وظلال الموت، أخرجوا من وثاقكم، فأنا أبشركم بالحياة لأني أنا هو المسيح إبن الله الأبدي. ",
         ],
         [
-            Prefix.HolyWeek +"3HDGospel&D=GL56&C=Diacon",
-        "Markon  Kev i/e/ > -/ k/e/\nKata `èp]ai de nafxw `ènouai efcon\ nwou `èebol > vh`èe]au`èeretin `èmmof. Vh de `èetoumou; `èerof je Barabbac nafcon\ pe nem nh`èetau`èiri `ènou`è]qorter > nh`èetau`èiri `ènou'wteb 'en pi`è]qorter. Ouo\ `èetafi `èe`èp]wi `ènje pimh] > afer\htc `èn`èeretin kata `èvrh; `èenaf`èiri nwou. Pilatoc de af`èerou`èw nwou efjw `èmmoc > je tetenouw] `èntaxw nwten `èebol `èm`èpouro `ènte niIoudai > naf`èemi gar pe je `èetauthif eqbe ou`èvqonoc. Niarxh`èereuc de aukim `èmpimh] > \ina mallon `èntefxa Barabbac nwou `èebol. Pilatoc de on `èetaf`èerou`èw pejaf nwou > je ou pe;naaif `èmvh`èetetenjw `èmmoc `èerof je `èpouro `ènniIoudai > `ènqwou de on auw] `èebol je a]f. Pilatoc gar nafjw `èmmoc nwou > je ou pe `èmpet\wou pe `èetafaif > `ènqwou de `èn\ou`èo nauw] `èebol je a]f. \nPilatoc de efouw] `èeerpete\ne pimh] > afxa Barabbac nwou `èebol > af; de `ènIhc? `èeervragellion `èmmof \ina `èntoua]f > nimatoi de ausitf `èe'oun `èe;aulh `ènte pipretwrion > ouo\ aumou; `èe;`ècpira thrc `èe`è\rhi `èejwf. Ouo\ au;\iwtf `ènou`è\bwc `ènshji > ouo\ au]wnt `ènou`èxlom `èebol'en \ancouri auxaf \ijwf. Ouo\ auer\htc `èneracpazecqe `èmmof > je xere `èpouro `ènniIoudai > ouo\ au\iou`èi 'en tef`èave `ènouka] > ouo\ nau\iqaf 'en pef\o > ouo\ eu\iou`èi `èmmwou `èejen noukeli euouw]t `èmmof. \nOuo\ \ote `èetaucwbi `èmmof > auba]f `èmpi\bwc `ènshji > ouo\ au; `ènnef`è\bwc \iwtf > ouo\ auenf `èebol \ina `èncea]f. Ouo\ ausi `ènouai `ènxba efcini`èwou > Cimwn pikurinneoc efnhou `èebol'en `ètkoi > `èviwt `ènAle[androc nem Rovoc \ina `èntef`èwli `èmpef+ > ouo\ auenf `èepima `ènte Golgoqa > vai `èe]auoua\mef je pima `ènte Pikranion ouo\ au; naf `ènouhrp efmoujt nem ou]a]i `ènqof de `èmpefsitf. Ouo\ aua]f ouo\ auvw] `ènnef`è\bwc `èe`è\rau > ouo\ au\iwp `èerwou je nim eqna`èolou. Ne `èvnau de `ènajp ]omt pe ouo\ aua]f.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
-        "Marc 15 : 6-25\nÀ chaque Fête, il leur relâchait un prisonnier, celui qu'ils demandaient. Or, il y avait en prison le nommé Barabbas, arrêté avec les émeutiers qui avaient commis un meurtre dans la sédition. La foule étant montée se mit à demander la grâce accoutumée. Pilate leur répondit: \"Voulez-vous que je vous relâche le roi des Juifs?\" Il se rendait bien compte que c'était par jalousie que les grands prêtres l'avaient livré. ",
-        "مرقس ١٥ : ٦ – ٢٥\nوكان في كل عيد يطلق لهم أسيراً من طلبوه، وكان المدعو باراباس موثقاً مع مثيري الفتنة الذين إرتكبوا القتل في الفتنة، فلما صعد الجمع طفقوا يطلبون مثل ما كان يفعل لهم، فأجابهم بيلاطس قائلاً: أتريدون أن أطلق لكم ملك اليهود؟ لأنه كان يعلم أن رؤساء الكهنة إنما أسلموه حسداً",
+            Prefix.HolyWeek + "3HDSermony&D=GL56&C=Diacon",
+            "",
+            "Clôturons le sermon de notre père saint Athanase l'apostolique qui a éclairé nos pensées et les yeux de nos cœurs au Nom du Père, du Fils et du Saint Esprit, un seul Dieu, Amen",
+            "فلنختتم عظة أبينا القديس أنبا أثناسيوس الرسولى الذي أنار عقولنا وعيون قلوبنا بإسم الآب والإبن والروح القدس إله واحد. آمين.",
         ],
         [
-            Prefix.HolyWeek +"3HDGospel&D=GL56&C=Diacon",
-        "",
-        "Cependant, les grands prêtres excitèrent la foule à demander qu'il leur relâchât plutôt Barabbas. Pilate, prenant de nouveau la parole, leur disait: Que ferais-je donc de celui que vous appelez le roi des Juifs?\nMais eux crièrent de nouveau: \"Crucifie-le!\" Et Pilate de leur dire: \"Qu'a-t-il donc fait de mal?\" Mais ils n'en crièrent que plus fort: \"Crucifie-le!\" Pilate alors, voulant contenter la foule, leur relâcha Barabbas et, après avoir fait flageller Jésus,",
-        "أما رؤساء الكهنة فهيجوا الجمع لكي يطلقوا لهم بالحري باراباس. فأجاب بيلاطس أيضاً وقال لهم: ماذا أصنع بالذي تقولون عنه انه ملك اليهود؟\nأما هم فصاحوا أيضاً: أصلبه. فقال لهم بيلاطس: وأي شر عمل؟ أما هم فإزدادوا صراخاً: أصلبه. أما بيلاطس وهو يريد أن ينفذ مشيئة الجمع فأطلق لهم باراباس، وأسلم يسوع ليجلد",
-        ],
-        [
-            Prefix.HolyWeek +"3HDGospel&D=GL56&C=Diacon",
-        "",
-        "il le livra pour être crucifié. Les soldats l'emmenèrent à l'intérieur du palais, qui est le Prétoire, et ils convoquent toute la cohorte. Ils le revêtent de pourpre, puis, ayant tressé une couronne d'épines, ils la lui mettent. Et ils se mirent à le saluer: \" Salut, roi des Juifs!\". Et ils lui frappaient la tête avec un roseau et ils lui crachaient dessus, et ils ployaient le genou devant lui pour lui rendre hommage. Puis, quand ils se furent moqués de lui,",
-        "كي يصلب، فأخذه الجند إلي داخل دار الولاية ودعوا كل الكتيبة عليه، وألبسوه ثوباً أرجوانياً وضفروا إكليلاً من الشوك ووضعوه عليه، وإبتدأوا يسلمون عليه قائلين: السلام يا ملك اليهود. وكانوا يضربون رأسه بقصبة، ويبصقون في وجهه، ويجثون علي ركبهم ساجدين له. وبعدما هزأوا به",
-        ],
-        [
-            Prefix.HolyWeek +"3HDGospel&D=GL56&C=Diacon",
-        "",
-        "ils lui ôtèrent la pourpre et lui remirent ses vêtements. Ils le mènent dehors afin de le crucifier. Et ils requièrent, pour porter sa croix, Simon de Cyrène, le père d'Alexandre et de Rufus, qui passait par là, revenant des champs. Et ils amènent Jésus au lieu dit Golgotha, ce qui se traduit lieu du Crâne. Et ils lui donnaient du vin parfumé de myrrhe, mais il n'en prit pas. Puis ils le crucifient et se partagent ses vêtements en tirant au sort",
-        "نزعوا عنه الثوب الأرجواني وألبسوه ثيابه، ثم أخرجوه ليصلبوه. وسخروا واحداً عابراً كان آتياً من الحقل وهو سمعان القيراواني أبو الكسندروس وروفس ليحمل صليبه، وجاءوا به إلي موضع الجلجثة الذي تأويله الجمجمة. وأعطوه خمراً ممزوجة بمر ليشرب. أما هو فلم يأخذها. ولما صلبوه إقتسموا ثيابه بينهم",
-        ],
-        [
-            Prefix.HolyWeek +"3HDGospel&D=GL56&C=Diacon",
-        "",
-        "ce qui reviendrait à chacun.  C'était la troisième heure quand ils le crucifièrent \nGloire à Dieu éternellement.",
-        "مقترعين عليها من الذي يأخذها. وكان وقت الساعة الثالثة، فصلبوه. والمجد لله دائماً",
-        ],
-        [
-            Prefix.HolyWeek +"3HDGospel&D=GL56&C=Diacon",
-        "Loukan  Kev  k/g/> i/g/-k/e\nPilatoc de `èetafmou; `èeniarxhereuc nem niarxwn nem pilaoc > pejaf nwou je `èaretenini nhi `èmpairwmi \wc efvwn\ `èmpilaoc `èebol > ouo\ \hppe `èanok `èetai]enf `èe`è\raf `èmpeten`èmqo > `èmpijem `è\li `èn`èeti`èa 'en pairwmi > `ènnh`èetenerkathgorin `èerof `èn'htou. Alla oude `èpkeHrwdhc afouorpf gar \aron > ouo\ \hppe `èmmon `è\li `èn\wb `èn'htf `èeafaif efem`èp]a `èm`èvmou `ènta;`ècbw oun naf `èntaxaf `èebol. Ouo\ `ènqof `èanagkh naf pe `èexa ouai nwou `èebol kata `èp]ai. Apimh] de thrf w] `èebol efjw `èmmoc > je `èali vai xa Barabbac nan `èebol. Vai `èetau\itf `èepi`è]teko eqbe ou`è]qorter nem ou'wteb `èeaf]wpi 'en ;polic.\nPalin de on `èa Pilatoc mou; `èerwou efouw] `èexa Ihc? `èebol. Nqwou de auw] `èebol eujw èèmmoc je a]f a]f > `ènqof de pejaf nwou `èm`èvma\ ]omt `èncop > je ou gar `èmpet\wou peta vai aif > `èmpijem `è\li `èn`èeti`èa `ènte `èvmou `èn'htf > `èènta;`ècbw oun naf `èntaxaf `èebol. Nqwou de `èetauoua\totou 'en ouni]; `èn`ècmh eu`èeretin `èmmof eqroua]f > ouo\ naujemjom pe `ènje nou`ècmh. Ouo\ `èa Pilatoc ;\ap eqref]wpi `ènje pou`èethma. Afxw de `èebol `èmvh`èetau\itf `èepi`è]teko eqbe ou'wteb nem ou`è]qorter vh`èetau`èeretin `èmmof > Ihc? de authif kata pououw].  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
-        "Luc 23 : 13-25\nAyant convoqué les grands prêtres, les chefs et le peuple, Pilate leur dit: \"Vous m'avez présenté cet homme comme détournant le peuple, et voici que moi je l'ai interrogé devant vous, et je n'ai trouvé en cet homme aucun motif de condamnation pour ce dont vous l'accusez. Hérode non plus d'ailleurs, puisqu'il l'a renvoyé devant nous. Vous le voyez; cet homme n'a rien fait qui mérite la mort. Je le relâcherai donc,",
-        "لوقا ٢٣ : ١٣ – ٢٥\nفدعا بيلاطس رؤساء الكهنة والعظماء والشعب، وقال لهم: قد قدمتم إليّ هذا الرجل كمن يضل الشعب، وها أنا قد فحصته أمامكم ولم أجد علة علي هذا الرجل مما تشتكون به عليه، بل ولا هيروس أيضاً، لأنه قد أرسله إلينا. وها هوذا لم يصنع شيئاً يستوجب الموت، فأنا أؤدبه وأطلقه.",
-        ],
-        [
-            Prefix.HolyWeek +"3HDGospel&D=GL56&C=Diacon",
-        "",
-        "après l'avoir châtié.\" Or il devait leur relâcher quelqu’un à chaque fête. Mais eux se mirent à pousser des cris tous ensemble: \"A mort cet homme! Et relâche nous Barabbas.\" Ce dernier avait été jeté en prison pour une sédition survenue dans la ville et pour meurtre.\nDe nouveau Pilate, qui voulait relâcher Jésus, leur adressa la parole. Mais eux répondaient en criant: \"Crucifie-le! Crucifie-le!\" Pour la troisième fois, il leur dit :",
-        "وكان لابد له أن يطلق لهم واحداً في كل عيد، فصرخ كل الجمع قائلين: إرفع هذا وأطلق لنا باراباس. وذاك كان قد ألقي في السجن لأجل فتنة وقتل حدثا في المدينة.\nفناداهم أيضاً بيلاطس وهو يريد أن يطلق يسوع. فأما هم فصرخوا قائلين : إصلبه، إصلبه. فقال لهم مرة ثالثة :",
-        ],
-        [
-            Prefix.HolyWeek +"3HDGospel&D=GL56&C=Diacon",
-        "",
-        "\"Quel mal a donc fait cet homme? Je n'ai trouvé en lui aucun motif de condamnation à mort; je le relâcherai donc, après l'avoir châtié.\" Mais eux insistaient à grands cris, demandant qu'il fût crucifié; et leurs clameurs gagnaient en violence. Et Pilate prononça qu'il fût fait droit à leur demande. Il relâcha celui qui avait été jeté en prison pour sédition et meurtre, celui qu'ils réclamaient. Quant à Jésus, il le livra à leur bon plaisir. Gloire à Dieu éternellement.",
-        "وأي شر عمل هذا؟ إني لم أجد فيه علة أن يصلب. فأنا أؤدبه وأطلقه. أما هم فألحوا عليه بأصوات عالية طالبين منه أن يصلب، وكانت أصواتهم تشتد. فحكم بيلاطس أن تكون طلبتهم. فأطلق الذي ألقي في السجن لأجل فتنة وقتل وهو الذي طلبوه، وأسلم يسوع كإرادتهم. \nوالمجد لله دائماً",
-        ],
-        [
-            Prefix.HolyWeek +"3HDGospel&D=GL56&C=Diacon",
-        "Iwannhn  Kev i/q/> a/- i/b\nTote pilatoc afsi `ènIhc? afermactiggoin `èmmof. Ouo\ nimatoi au]wnt `ènou`èxlom `èebol'en \ancouri > ouo\ authif `èejen tef`èave > ouo\ aujol\f `ènou`è\ebcw `ènshji. Ouo\ naunhou \arof pe eujw `èmmoc > je xere `èpouro `ènte niIoudai ouo\ nau;kour naf pe. Palin on af`èi `èebol `ènje Pilatoc ouo\ pejaf nwou > je \hppe ;naenf nwten `èebol> \ina `ènteten`èemi je è`èn;jem `è\li `èn`èeti`èa `èerof an. Tote af`èi `èebol `ènje Ihc? efervorin `èmpi`èxlom `èncouri nem pi`è\bwc `ènshji > ouo\ peje Pilatoc nwou je \hppe ic pirwmi. |ote oun `èetaunau `èerof `ènje niarxh`èereuc nem ni\\uperethc > auw] `èebol eujw `èmmoc je a]f a]f > peje Pilatoc nwou> je mwini `èerof `ènqwten a]f `èanok gar `èn;jem `è\li `èn`èeti`èa si `èerof an.\nAu`èerou`èw naf `ènje niIoudai je `èanon ouon `èntan `ènounomoc`èmmau > ouo\ kata pennomoc `èfem`èp]a `èm`èvmou > je afaif `èn]hri `ènte V; > \ote de `èetafcwtem `èepaicaji `ènje Pilatoc afer\o; `èn\ou`èo > ouo\ af`èi on `èe'oun `èepipretwrion ouo\ pejaf `ènIhc? je `ènqok ou `èebol qwn > Ihc? de `èmpeferou`èw naf. Peje Pilatoc naf > je eqbeou `èkcaji nemhi an > ]an `èk`èemi an je ouon; er]i]i `èmmau `èea]k > ouo\ ouon; er]i]i `èmmau on `èexak `èebol. Af`èerou`èw `ènje Ihc? je `èmmontek `è\li `èner]i]i `èmmau `èe'oun `èeroi > `èene `èmpouthic nak `èebol `èm`èp]wi > eqbe vai vh`èetafthit nak ouontefni]; `ènnobi `èmmau `èn\ou`èo. Eqbe vai oun Pilatoc nafkw; pe `ènca xaf `èebol > niIoudai de nauw] `èebol eujw `èmmoc > je `èe]wp ak]anxa vai `èebol > `ènqok `èp`è]vhr `èm`èpouro an > ouon gar niben et`èiri `èmmof `ènouro `èmmauatf > af; `èe'oun `èe`è\ren `èpouro.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
-        "Jean 19 : 1-12 \nPilate prit alors Jésus et le fit flageller. Les soldats, tressant une couronne avec des épines, la lui posèrent sur la tête, et ils le revêtirent d'un manteau de pourpre; et ils s'avançaient vers lui et disaient: \"Salut, roi des Juifs!\" Et ils lui donnaient des coups. De nouveau, Pilate sortit dehors et leur dit: \" Voyez, je vous l'amène dehors, pour que vous sachiez que je ne trouve en lui aucun motif de",
-        "يوحنا ١٩ : ١ – ١٢ \nحينئذ أخذ بيلاطس يسوع وجلده، وضفر الجند إكليلاً من الشوك ووضعوه علي رأسه، وألبسوه ثوباً من أرجوان، وكانوا يقبلون إليه ويقولون: السلام يا ملك اليهود. وكانوا يلطمونه. فخرج بيلاطس أيضاً وقال لهم: ها أنا أخرجه إليكم لتعلموا أني لست أجد فيه علة ما.",
-        ],
-        [
-            Prefix.HolyWeek +"3HDGospel&D=GL56&C=Diacon",
-        "",
-        "condamnation.\" Jésus sortit donc dehors, portant la couronne d'épines et le manteau de pourpre; et Pilate leur dit: \"Voici l'homme!\" Lorsqu'ils le virent, les grands prêtres et les gardes vociférèrent, disant: \"Crucifie-le! Crucifie-le!\" Pilate leur dit: \"Prenez-le, vous, et crucifiez-le; car moi, je ne trouve pas en lui de motif de condamnation. » \nLes Juifs lui répliquèrent: \" Nous avons une Loi et d'après cette Loi il doit mourir,",
-        "حينئذ خرج يسوع وهو حامل إكليل الشوك وثوب الأرجوان، فقال لهم بيلاطس: هوذا الرجل. فلما رآه رؤساء الكهنة والخدام صرخوا قائلين: إصلبه، إصلبه. فقال لهم بيلاطس: خذوه أنتم وإصلبوه، لأني لست أجد فيه علة واحدة. \nأجابه اليهود: إن لنا ناموساً، وبحسب ناموسنا هو مستوجب الموت",
-        ],
-        [
-            Prefix.HolyWeek +"3HDGospel&D=GL56&C=Diacon",
-        "",
-        "parce qu'il s'est fait Fils de Dieu.\" Lorsque Pilate entendit cette parole, il fut encore plus effrayé. Il entra de nouveau dans le prétoire et dit à Jésus: \" D'où es-tu? \" Mais Jésus ne lui donna pas de réponse. Pilate lui dit donc: \"Tu ne me parles pas? Ne sais-tu pas que j'ai pouvoir de te relâcher et que j'ai pouvoir de te crucifier?\" Jésus lui répondit: \"Tu n'aurais aucun pouvoir sur moi, si cela ne t'avait été donné d'en haut; c'est pourquoi",
-        "لأنه جعل نفسه إبن الله. فلما سمع بيلاطس هذا الكلام إزداد خوفاً، ودخل أيضاً إلي الديوان وقال ليسوع: من أين أتيت؟ أما يسوع فلم يجبه، فقال له بيلاطس: لماذا لا تكلمني؟ أما تعلم أن لي سلطاناً أن أصلبك، ولي سلطاناً أيضاً أن أطلقك؟ أجاب يسوع قائلاً: ليس لك عليّ سلطان، لو لم تكن قد أعطيت من فوق. من اجل هذا",
-        ],
-        [
-            Prefix.HolyWeek +"3HDGospel&D=GL56&C=Diacon",
-        "",
-        "celui qui m'a livré à toi a un plus grand péché.\" Dès lors Pilate cherchait à le relâcher. Mais les Juifs vociféraient, disant: Si tu le relâches, tu n'es pas ami de César: quiconque se fait roi, s'oppose à César.\nGloire à Dieu éternellement.",
-        "الذي أسلمني إليك له خطية أعظم. لذلك كان بيلاطس يطلب أن يطلقه. وأما اليهود فكانوا يصرخون قائلين: إن أنت أطلقته فلست بصاحب لقيصر، لأن كل من يجعل نفسه ملكاً فهو يقاوم قيصر.\n \nوالمجد لله دائماً",
+            Prefix.HolyWeek + "3HDSermony&D=GL56&C=Diacon",
+            "Marener `c`vragizin `n]katy,ycic `nte peniwt `e;ouab abba abba A;anacioc pi`apoctolikoc `vyetaferouwini `mpennouc nem nibal `nte nenhyt @ qen `vran `m~Viwt nem ~Psyri nem Pi`pneuma `e;ouab ounou] `nouwt @ `amyn",
+            "Clôturons le sermon de notre saint père saint Athanase l'apostolique qui a éclairé nos pensées et les yeux de nos cœurs au nom du Père, du Fils et du Saint Esprit, un seul Dieu, Amen !",
+            "فلنختم عظة أبينا القديس  أنبا أثناسيوس الرسولى الذى أنار عقولنا وعيون قلوبنا بإسم الآب والإبن والروح القدس إله واحد. آمين.",
         ],
     ],
     [
-    
+
         [
-            Prefix.HolyWeek +"3HDCommentary&D=GL56&C=Diacon",
-        "",
-        "Commentaire\nIl me surprend ce prophète à la voix forte, Isaïe, qui a l'avance a contemplé mystérieusement la Passion du Sauveur, Dieu le Verbe. Il dit: \"Quel est donc celui-ci qui vient d'Édom, de Boçra en habits éclatants, magnifiquement drapé dans son manteau?\" Son manteau est rouge sang comme celui qui foule au pressoir. Le sang de la grappe l'a taché. Elle est vraie la parole de ce prophète qui a révélé",
-        "طــرح\nأنا متحير مع هذا النبي ذى الصوت العظيم، إشعياء النبي، الذي سبق فنظر بالسر لآلام المخلص التي لله الكلمة، فقال: من هو هذا الآتي من آدوم وثيابه حمراء من بوصار، لابساً حلة بهية هكذا، ولباسه من الدم الأحمر، كمن يصعد من المعصرة ملطخاً بدم عنقودها؟ حقاً بالحقيقة هو كلام هذا النبي الذي اظهر هذا",
-        ],
-        [
-            Prefix.HolyWeek +"3HDCommentary&D=GL56&C=Diacon",
-        "",
-        "cela avant que ces jours n'arrivent. En vérité, c'est le Verbe de Dieu, notre Sauveur Jésus, qui selon le plan de Dieu a revêtu le corps de notre père Adam, le premier homme. La divinité qui vient d'en haut s'est unie mystérieusement à l'humanité, sans que rien ne Lui soit impossible et sans la modifier. Il déversa Sa colère sur les Hébreux et les a foulés dans le pressoir de son courroux. Il a accordé Sa miséricorde et Sa justice aux nations païennes",
-        "قبل هذه الأيام. بالحقيقة أنه هو الإله الكلمة مخلصنا يسوع كالتدبير، لبس الجسد القديم الذي لأبينا آدم أبو الخليقة، وصارت اللاهوتية العلوية متحدة بالبشرية بغير إستحالة، بما لا يدرك. هي الحلة التي لا تتغير، المتحدة مع الإله الكلمة، وصب غضبه علي العبرانيين وداسهم في معصرة غضبه، ورحمته وبره أعطاها للأمم",
-        ],
-        [
-            Prefix.HolyWeek +"3HDCommentary&D=GL56&C=Diacon",
-        "",
-        "dont il a fait Son nouveau peuple. Mais Israël fut détruit jusqu'à la fin des temps.",
-        "الذين صنعهم له شعباً جديداً. أما إسرائيل فإن البلادة قد إستولت عليه إلي الإنقضاء.",
+            Prefix.HolyWeek + "3HDPsalm&D=GL56&C=Diacon",
+            "Yalmoc  to Dauid\nAnok de ;cebtwt `èe\anmactiggoc > ouo\ pa`èmka\ `èmpa`èmqo `èebol `ènchou niben. Aukw; `èeroi `ènje ouqo `ènou\or > oucunagwgh `ènjajbwn petac`èamoni `èmmoi  > ``allhloui`a",
+            "Psaume 37 : 18 et 21 : 1 \nEt maintenant, je suis près à tomber ma douleur est toujours devant moi. Des chiens nombreux me cernent, une bande de vauriens m'entoure. Alléluia",
+            "مزمور  ٣٧ : ١٧، مز ٢١ : ١٥ \nأما أنا فمستعد للسياط، ووجعي مقابلي في كل حين.\nقد احاطت بي كلاب كثيرة، وزمرة من الأشرار أحدقت بي : الليلويا",
         ],
     ],
     [
-    
+
         [
-            Prefix.HolyWeek +"6HDProphecies&D=GL56&C=Diacon",
-        "Ebolqen pi`ari;moc `nte Mw`ucyc piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nOuo\ `èetafcwtem  `ènje  piXananeoc  `èpouro  `ènArad  vhet]op  \i `èp]afe  je af`èi `ènje `èpIcl ? `èe`èvmwit `ènAqarim.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
-        "Nombres 21: 1-9\nLe roi d'Arad, le Cananéen habitant au Négeb, apprit qu'Israël venait par la route d'Atarim.",
-        "عدد ٢١ : ١ – ٩\nوسمع الكنعاني ملك داراد المقيم في البرية أن إسرائيل قد جاء عن طريق أتاريم،",
+            Prefix.HolyWeek + "3HDGospel&D=GL56&C=Diacon",
+            "Yalmoc  to Dauid\nAnok de ;cebtwt `èe\anmactiggoc > ouo\ pa`èmka\ `èmpa`èmqo `èebol `ènchou niben. Aukw; `èeroi `ènje ouqo `ènou\or > oucunagwgh `ènjajbwn petac`èamoni `èmmoi  > ``allhloui`a",
+            "Psaume 37 : 18 et 21 : 1 \nEt maintenant, je suis près à tomber ma douleur est toujours devant moi. Des chiens nombreux me cernent, une bande de vauriens m'entoure. Alléluia",
+            "مزمور  ٣٧ : ١٧، مز ٢١ : ١٥ \nأما أنا فمستعد للسياط، ووجعي مقابلي في كل حين.\nقد احاطت بي كلاب كثيرة، وزمرة من الأشرار أحدقت بي : الليلويا",
         ],
         [
-            Prefix.HolyWeek +"6HDProphecies&D=GL56&C=Diacon",
-        "",
-        "Il attaqua Israël et lui fit des prisonniers. Israël fit alors ce vœu au Seigneur: \" Si tu livres ce peuple en mon pouvoir, je vouerai ses villes à l'anathème.\" Le Seigneur écouta la voix d'Israël et livra les Cananéens en son pouvoir. Ils les vouèrent à l'anathème, eux et leurs villes. On donna à ce lieu le nom de Horma. Ils partirent de Hor-la-Montagne par la route de la mer de Suph, pour contourner le pays d'Édom. En chemin, le peuple perdit patience.",
-        "فحارب إسرائيل وسبي منهم سبياً، فنذر إسرائيل نذراً للرب وقال: إن دفعت هذا الشعب إلي أيدينا حرمناه لك مع مدنه. فسمع الرب صوت إسرائيل، ودفع إليهم الكنعانيين فحرموهم، هم ومدنهم. فدعي إسم ذلك الموضع ”حرماً“. ثم إرتحلوا من جبل حور عن طريق بحر القلزم (البحر الأحمر) وداروا من حول أرض آدوم، فصغر قلب الشعب في الطريق،",
+            Prefix.HolyWeek + "3HDGospel&D=GL56&C=Diacon",
+            "Matqeon  Kev k/z/ > i/e/ - k/ ,\nKata `èp]ai de ne `ètka\c `èmpi\\ugemwn > `èexa ouai `èebol'en nhetcon\ `èmpimh] vh`èe]auoua]f > ne ouon ouai de efcon\ `èntotou `èmpichou `èete`èmmau `èeouconi pe > eumou; è`èerof je Barabbac. Etauqwou; oun euma > peje Pilatoc nwou > je nim `èetetenouw] `èntaxaf nwten `èebol > Barabbac ]an Ihc? vh`èetoumou; `èerof je Pxc?. Naf`èemi gar pe je `èetauthif eqbe ou`èvqonoc. Ef\emci de \ijen pibhma acouwrp \arof `ènje tef`èc\imi ecjw `èmmoc je `èmperer`è\li `èmpi`èqmhi etth > ai]ep oumh] gar `èn'ici eqbhtf `èmpai`èejwr\ 'en `èqracou`èi. Niarxh`èereuc de nem niprecbuteroc > auqet`è\qhou `ènnimh] > \ina `ènce`èeretin `èmBarabbac > Ihc? de `èncetakof.\nAf`èerou`èw `ènje pi\\ugemwn pejaf nwou > je nim `èetetenoua]f `èntaxaf nwten `èebol'en pai`ècnau > `ènqwou de pejwou je Barabbac. Peje Pilatoc nwou > je ou pe;naaif `ènIhc? vh`èetoumou; `èerof je Pxc? > pejwou throu je maroua]f > pejaf nwou `ènje pi\\ugemwn > je ou gar `èmpet\wou `èetafaif > `ènqwou de `èn\ouo nauw] `èebol eujw è`èmmoc je a]f. Etafnau de `ènje Pilatoc je `èfnajem\hou `èn`è\li an > alla mallon ou`è]qorter peqna]wpi > afsi `ènoumwou afia `ènnefjij `èebol `èmpe`èmqo `èmpimh] efjw `èmmoc > je ;oi `ènaqnobi `èebol\a `èp`ècnof nte pai`èqmhi > `ènqwten `èereten`èerw]i. Ouo\ af`èerou`èw `ènje pilaoc thrf pejwou > je pef`ècnof `èe`è\rhi `èejwn nem `èejen nen]hri. Tote afxa Barabbac nwou `èebol > Ihc ? de `èetafervragellion `èmmof > afthif eqroua]f.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
+            "Matthieu 27 : 15-26 \nA chaque Fête, le gouverneur avait coutume de relâcher à la foule un prisonnier, celui qu'elle voulait. On avait alors un prisonnier fameux, nommé Barabbas. Pilate dit donc aux gens qui se trouvaient rassemblés: \"Lequel voulez-vous que je vous relâche, Barabbas, ou Jésus que l'on appelle Christ?\" Il savait bien que c'était par jalousie qu'on l'avait livré. Or, tandis qu'il siégeait au tribunal,",
+            "متى ٢٧ : ١٥ – ٢٦ \nوكانت عادة الوالي في كل عيد أن يطلق للجميع واحداً من الأسري من أرادوه. وكان لديهم في ذلك الوقت أسير وهو لص يدعي باراباس. فلما إجتمعوا معاً، قال لهم بيلاطس: من تريدون ان أطلق لكم، باراباس أم يسوع الذي يدعي المسيح ؟ لأنه كان يعلم أنهم إنما أسلموه حسداً. وفيما هو جالس علي كرسي الولاية،",
         ],
         [
-            Prefix.HolyWeek +"6HDProphecies&D=GL56&C=Diacon",
-        "",
-        "Il parla contre Dieu et contre Moïse: \"Pourquoi nous avez-vous fait monter d'Égypte pour mourir en ce désert? Car il n'y a ni pain ni eau; nous sommes excédés de cette nourriture de famine.\" Dieu envoya alors contre le peuple les serpents brûlants, dont la morsure fit périr beaucoup de monde en Israël. Le peuple vint dire à Moïse: \"Nous avons péché en parlant contre le Seigneur et contre toi. Intercède auprès du Seigneur",
-        "وتكلم الشعب علي الله وعلي موسي قائلين: لماذا اصعدتنا من أرض مصر لنموت في البرية؟ لأنه لا خبز ولا ماء، وقد سئمت نفوسنا هذا الخبز اليابس. فأرسل الرب علي الشعب حيات قاتلة، فكانت تلدغ الشعب، ومات قوم كثيرون من بني إسرائيل. فأتي الشعب إلي موسي وقالوا: قد أخطأنا إذ تكلمنا علي الرب وعليك فإدع الرب",
+            Prefix.HolyWeek + "3HDGospel&D=GL56&C=Diacon",
+            "",
+            "sa femme lui fit dire: \"Ne te mêle point de l'affaire de ce juste; car aujourd'hui j'ai été très affectée dans un songe à cause de lui.\" Cependant, les grands prêtres et les anciens persuadèrent aux foules de réclamer Barabbas et de perdre Jésus. Prenant la parole, le gouverneur leur dit: \"Lequel des deux voulez-vous que je vous relâche?\" Ils dirent: «Barabbas.»  \nPilate leur dit: \" Que ferai-je donc de Jésus que l'on appelle Christ? \"",
+            "أرسلت إليه إمرأته قائلة: لا تصنع شيئاً بذلك البار فإني تألمت كثيراً هذه الليلة في حلم من أجله. أما رؤساء الكهنة والشيوخ فحرضوا الجموع أن يطلبوا باراباس ويهلكوا يسوع. فأجاب الوالي وقال لهم: من من الإثنين تريدون أن أطلق لكم ؟ أما هم فقالوا : باراباس. \nفقال لهم بيلاطس: فماذا افعل إذاً بيسوع الذي يدعي المسيح؟ ",
         ],
         [
-            Prefix.HolyWeek +"6HDProphecies&D=GL56&C=Diacon",
-        "",
-        "pour qu'il éloigne de nous ces serpents.\" Moïse intercéda pour le peuple et le Seigneur lui répondit: \"Façonne-toi un Brûlant que tu placeras sur un étendard. Quiconque aura été mordu et le regardera restera en vie.\" Moïse façonna donc un serpent d'airain qu'il plaça sur l'étendard, et si un homme était mordu par quelque serpent, il regardait le serpent d'airain et restait en vie.\nGloire à la sainte Trinité notre Dieu.",
-        "ان يبعد عنا هذه الحيات. فتضرع موسي لآجل الشعب. فقال الرب لموسي: إصنع لك حية من نحاس وإرفعها علي سارية، حتي إذا لدغت الحية إنساناً فينظر إلي الحية النحاس فيحيا. فصنع موسي حية من نحاس ورفعها علي الراية، فكان أي إنسان لدغته حية ونظر إلي الحية النحاسية يحيا.\nمجداً للثالوث الأقدس إلهنا آمين.",
+            Prefix.HolyWeek + "3HDGospel&D=GL56&C=Diacon",
+            "",
+            "Ils disent tous: \"Qu'il soit crucifié!\" Voyant alors qu'il n'aboutissait à rien, mais qu'il s'ensuivait plutôt du tumulte, Pilate prit de l'eau et se lava les mains en présence de la foule, en disant: \"Je ne suis pas responsable de ce sang; à vous de voir!\" Et tout le peuple répondit: Que son sang soit sur nous et sur nos enfants! Alors il leur relâcha Barabbas; quant à Jésus, après l'avoir fait flageller, il le livra pour être crucifié. \nGloire à Dieu éternellement.",
+            "فقالوا كلهم : ليصلب. فقال لهم الوالي: وأي شر عمل؟ فأما هم فإزدادوا صياحاً قائلين: إصلبه. فلما رأي بيلاطس أنه لا ينفع شيئاً، بل بالحري يحدث شغب، أخذ ماء وغسل يديه قدام الجميع قائلا : إني بريء من دم هذا البار، فأبصروا أنتم. فأجاب كل الشعب وقالوا: دمه علينا وعلي أولادنا. حينئذ أطلق لهم باراباس وأما يسوع فجلدوه وأسلموه ليصلب. \nوالمجد لله دائماً",
         ],
         [
-            Prefix.HolyWeek +"6HDProphecies&D=GL56&C=Diacon",
-        "Ebolqen `Yca`yac piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nM`èvrii; ` ènou`èecwou  `èeauenf  `èe`èp'ol’el nem  `èm`èvrh;  `ènou\ihb  `èmpe`èmqo  `èmvhet'wk  `èmmof  `èefoi  `ènat`ècmh.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
-        "Isaïe 53 : 7-12\nMaltraité, il s'humiliait, il n'ouvrait pas la bouche, comme l'agneau qui se laisse mener à l'abattoir, comme devant les tondeurs une brebis muette, il n'ouvrait pas la bouche.",
-        "إشعياء ٥٣ : ٧ -١٢\nمثل خروف سيق إلي الذبح، وكحمل صامت أمام الذي يجزه، هكذا لم يفتح فاه",
+            Prefix.HolyWeek + "3HDGospel&D=GL56&C=Diacon",
+            "Markon  Kev i/e/ > -/ k/e/\nKata `èp]ai de nafxw `ènouai efcon\ nwou `èebol > vh`èe]au`èeretin `èmmof. Vh de `èetoumou; `èerof je Barabbac nafcon\ pe nem nh`èetau`èiri `ènou`è]qorter > nh`èetau`èiri `ènou'wteb 'en pi`è]qorter. Ouo\ `èetafi `èe`èp]wi `ènje pimh] > afer\htc `èn`èeretin kata `èvrh; `èenaf`èiri nwou. Pilatoc de af`èerou`èw nwou efjw `èmmoc > je tetenouw] `èntaxw nwten `èebol `èm`èpouro `ènte niIoudai > naf`èemi gar pe je `èetauthif eqbe ou`èvqonoc. Niarxh`èereuc de aukim `èmpimh] > \ina mallon `èntefxa Barabbac nwou `èebol. Pilatoc de on `èetaf`èerou`èw pejaf nwou > je ou pe;naaif `èmvh`èetetenjw `èmmoc `èerof je `èpouro `ènniIoudai > `ènqwou de on auw] `èebol je a]f. Pilatoc gar nafjw `èmmoc nwou > je ou pe `èmpet\wou pe `èetafaif > `ènqwou de `èn\ou`èo nauw] `èebol je a]f. \nPilatoc de efouw] `èeerpete\ne pimh] > afxa Barabbac nwou `èebol > af; de `ènIhc? `èeervragellion `èmmof \ina `èntoua]f > nimatoi de ausitf `èe'oun `èe;aulh `ènte pipretwrion > ouo\ aumou; `èe;`ècpira thrc `èe`è\rhi `èejwf. Ouo\ au;\iwtf `ènou`è\bwc `ènshji > ouo\ au]wnt `ènou`èxlom `èebol'en \ancouri auxaf \ijwf. Ouo\ auer\htc `èneracpazecqe `èmmof > je xere `èpouro `ènniIoudai > ouo\ au\iou`èi 'en tef`èave `ènouka] > ouo\ nau\iqaf 'en pef\o > ouo\ eu\iou`èi `èmmwou `èejen noukeli euouw]t `èmmof. \nOuo\ \ote `èetaucwbi `èmmof > auba]f `èmpi\bwc `ènshji > ouo\ au; `ènnef`è\bwc \iwtf > ouo\ auenf `èebol \ina `èncea]f. Ouo\ ausi `ènouai `ènxba efcini`èwou > Cimwn pikurinneoc efnhou `èebol'en `ètkoi > `èviwt `ènAle[androc nem Rovoc \ina `èntef`èwli `èmpef+ > ouo\ auenf `èepima `ènte Golgoqa > vai `èe]auoua\mef je pima `ènte Pikranion ouo\ au; naf `ènouhrp efmoujt nem ou]a]i `ènqof de `èmpefsitf. Ouo\ aua]f ouo\ auvw] `ènnef`è\bwc `èe`è\rau > ouo\ au\iwp `èerwou je nim eqna`èolou. Ne `èvnau de `ènajp ]omt pe ouo\ aua]f.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
+            "Marc 15 : 6-25\nÀ chaque Fête, il leur relâchait un prisonnier, celui qu'ils demandaient. Or, il y avait en prison le nommé Barabbas, arrêté avec les émeutiers qui avaient commis un meurtre dans la sédition. La foule étant montée se mit à demander la grâce accoutumée. Pilate leur répondit: \"Voulez-vous que je vous relâche le roi des Juifs?\" Il se rendait bien compte que c'était par jalousie que les grands prêtres l'avaient livré. ",
+            "مرقس ١٥ : ٦ – ٢٥\nوكان في كل عيد يطلق لهم أسيراً من طلبوه، وكان المدعو باراباس موثقاً مع مثيري الفتنة الذين إرتكبوا القتل في الفتنة، فلما صعد الجمع طفقوا يطلبون مثل ما كان يفعل لهم، فأجابهم بيلاطس قائلاً: أتريدون أن أطلق لكم ملك اليهود؟ لأنه كان يعلم أن رؤساء الكهنة إنما أسلموه حسداً",
         ],
         [
-            Prefix.HolyWeek +"6HDProphecies&D=GL56&C=Diacon",
-        "",
-        "Par contrainte et jugement il a été saisi. Parmi ses contemporains, qui s'est inquiété qu'il ait été retranché de la terre des vivants, qu'il ait été frappé pour le crime de son peuple? On lui a donné un sépulcre avec les impies et sa tombe est avec le riche, bien qu'il n'ait pas commis de violence et qu'il n'y ait pas eu de tromperie dans sa bouche. Le Seigneur a voulu l'écraser par la souffrance; s'il offre sa vie en sacrifice expiatoire,",
-        "فرفع حكمه في تواضعه وجيله من يقدر أن يصفه. ستنزع حياته من الأرض، ولأجل آثام الشعب جاء إلي الموت، وسأعطي لمتجاوزي الناموس مجازاة دفنه، والأغنياء مكافأة موته. لأنه لم يصنع إثماً، ولم يوجد في فمه غش. أما الرب فشاء أن يشفيه من الكلوم، وإذا ما أسلم ذاته ذبيحة عن الخطية",
+            Prefix.HolyWeek + "3HDGospel&D=GL56&C=Diacon",
+            "",
+            "Cependant, les grands prêtres excitèrent la foule à demander qu'il leur relâchât plutôt Barabbas. Pilate, prenant de nouveau la parole, leur disait: Que ferais-je donc de celui que vous appelez le roi des Juifs?\nMais eux crièrent de nouveau: \"Crucifie-le!\" Et Pilate de leur dire: \"Qu'a-t-il donc fait de mal?\" Mais ils n'en crièrent que plus fort: \"Crucifie-le!\" Pilate alors, voulant contenter la foule, leur relâcha Barabbas et, après avoir fait flageller Jésus,",
+            "أما رؤساء الكهنة فهيجوا الجمع لكي يطلقوا لهم بالحري باراباس. فأجاب بيلاطس أيضاً وقال لهم: ماذا أصنع بالذي تقولون عنه انه ملك اليهود؟\nأما هم فصاحوا أيضاً: أصلبه. فقال لهم بيلاطس: وأي شر عمل؟ أما هم فإزدادوا صراخاً: أصلبه. أما بيلاطس وهو يريد أن ينفذ مشيئة الجمع فأطلق لهم باراباس، وأسلم يسوع ليجلد",
         ],
         [
-            Prefix.HolyWeek +"6HDProphecies&D=GL56&C=Diacon",
-        "",
-        "il verra une postérité, il prolongera ses jours, et par lui la volonté du Seigneur s'accomplira. A la suite de l'épreuve endurée par son âme, il verra la lumière et sera comblé. Par sa connaissance, le juste, mon serviteur, justifiera les multitudes en s'accablant lui-même de leurs fautes. C'est pourquoi il aura sa part parmi les multitudes, et avec les puissants il partagera le butin, parce qu'il s'est livré lui-même à la mort",
-        "فستري نفسه زرعاً عزه كثير. وشاء الرب أن ينزع الآلام من نفسه ويريه النور ويوجد الفهم ويصنع البر ويكون عبداً حسناً للجماعة، إذ يحمل خطاياهم، ومن اجل هذا هو يرث الكثيرين، ويقسم غنائم الأقوياء، حيث أسلم نفسه للموت،",
+            Prefix.HolyWeek + "3HDGospel&D=GL56&C=Diacon",
+            "",
+            "il le livra pour être crucifié. Les soldats l'emmenèrent à l'intérieur du palais, qui est le Prétoire, et ils convoquent toute la cohorte. Ils le revêtent de pourpre, puis, ayant tressé une couronne d'épines, ils la lui mettent. Et ils se mirent à le saluer: \" Salut, roi des Juifs!\". Et ils lui frappaient la tête avec un roseau et ils lui crachaient dessus, et ils ployaient le genou devant lui pour lui rendre hommage. Puis, quand ils se furent moqués de lui,",
+            "كي يصلب، فأخذه الجند إلي داخل دار الولاية ودعوا كل الكتيبة عليه، وألبسوه ثوباً أرجوانياً وضفروا إكليلاً من الشوك ووضعوه عليه، وإبتدأوا يسلمون عليه قائلين: السلام يا ملك اليهود. وكانوا يضربون رأسه بقصبة، ويبصقون في وجهه، ويجثون علي ركبهم ساجدين له. وبعدما هزأوا به",
         ],
         [
-            Prefix.HolyWeek +"6HDProphecies&D=GL56&C=Diacon",
-        "",
-        "et qu'il a été compté parmi les criminels, alors qu'il portait le péché des multitudes et qu'il intercédait pour les criminels.\nGloire à la sainte Trinité notre Dieu.",
-        "وأحصي مع الأثمة. وهو قد حمل خطايا كثيرين وأسلم من أجل آثامهم.\nمجداً للثالوث الأقدس إلهنا آمين.",
+            Prefix.HolyWeek + "3HDGospel&D=GL56&C=Diacon",
+            "",
+            "ils lui ôtèrent la pourpre et lui remirent ses vêtements. Ils le mènent dehors afin de le crucifier. Et ils requièrent, pour porter sa croix, Simon de Cyrène, le père d'Alexandre et de Rufus, qui passait par là, revenant des champs. Et ils amènent Jésus au lieu dit Golgotha, ce qui se traduit lieu du Crâne. Et ils lui donnaient du vin parfumé de myrrhe, mais il n'en prit pas. Puis ils le crucifient et se partagent ses vêtements en tirant au sort",
+            "نزعوا عنه الثوب الأرجواني وألبسوه ثيابه، ثم أخرجوه ليصلبوه. وسخروا واحداً عابراً كان آتياً من الحقل وهو سمعان القيراواني أبو الكسندروس وروفس ليحمل صليبه، وجاءوا به إلي موضع الجلجثة الذي تأويله الجمجمة. وأعطوه خمراً ممزوجة بمر ليشرب. أما هو فلم يأخذها. ولما صلبوه إقتسموا ثيابه بينهم",
         ],
         [
-            Prefix.HolyWeek +"6HDProphecies&D=GL56&C=Diacon",
-        "Ebolqen `Yca`yac piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nHhppe  ic  V;  Pacwthr  >  P_  ei`èe]wpi `è ere  `è\qhi  xh  `èerof  >  ouo\  `ènnaer\o; je. \nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
-        "Isaïe 12 : 2 à 13 : 10 \nVoici le Dieu de mon salut : j'aurai confiance et je ne tremblerai plus,",
-        "إشعياء ١٢ – ٢ - ١٣ : ١ – ١٠ هوذا الله خلاصي، الرب الذي انا متكل عليه فلا أخاف.",
+            Prefix.HolyWeek + "3HDGospel&D=GL56&C=Diacon",
+            "",
+            "ce qui reviendrait à chacun.  C'était la troisième heure quand ils le crucifièrent \nGloire à Dieu éternellement.",
+            "مقترعين عليها من الذي يأخذها. وكان وقت الساعة الثالثة، فصلبوه. والمجد لله دائماً",
         ],
         [
-            Prefix.HolyWeek +"6HDProphecies&D=GL56&C=Diacon",
-        "",
-        "car ma force et mon chant c'est le Seigneur, il a été mon salut. Dans l'allégresse vous puiserez de l'eau aux sources du salut. Et vous direz, en ce jour-là: Louez le Seigneur, invoquez son nom, annoncez aux peuples ses hauts faits, rappelez que son nom est sublime. Chantez le Seigneur, car il a fait de grandes choses, qu'on le proclame sur toute la terre. Pousse des cris de joie, des clameurs, habitante de Sion, car il est grand, au milieu de toi, le Saint",
-        "مجدي وتسبيحي هوالرب، وقد صار لي خلاصاً. إملأوا ماء بفرح من ينابيع الخلاص، وتقولون في ذلك اليوم: سبحوا الرب وإدعوا إسمه وبشروا في الأمم بأعماله الكريمة. أذكروا بأن إسمه قد تعالي. سبحوا إسم الرب لأنه قد صنع أعمالاً عظيمة، وإفرحي يا ساكنة صهيون لأنه قد إرتفع في وسطك قدوس",
+            Prefix.HolyWeek + "3HDGospel&D=GL56&C=Diacon",
+            "Loukan  Kev  k/g/> i/g/-k/e\nPilatoc de `èetafmou; `èeniarxhereuc nem niarxwn nem pilaoc > pejaf nwou je `èaretenini nhi `èmpairwmi \wc efvwn\ `èmpilaoc `èebol > ouo\ \hppe `èanok `èetai]enf `èe`è\raf `èmpeten`èmqo > `èmpijem `è\li `èn`èeti`èa 'en pairwmi > `ènnh`èetenerkathgorin `èerof `èn'htou. Alla oude `èpkeHrwdhc afouorpf gar \aron > ouo\ \hppe `èmmon `è\li `èn\wb `èn'htf `èeafaif efem`èp]a `èm`èvmou `ènta;`ècbw oun naf `èntaxaf `èebol. Ouo\ `ènqof `èanagkh naf pe `èexa ouai nwou `èebol kata `èp]ai. Apimh] de thrf w] `èebol efjw `èmmoc > je `èali vai xa Barabbac nan `èebol. Vai `èetau\itf `èepi`è]teko eqbe ou`è]qorter nem ou'wteb `èeaf]wpi 'en ;polic.\nPalin de on `èa Pilatoc mou; `èerwou efouw] `èexa Ihc? `èebol. Nqwou de auw] `èebol eujw èèmmoc je a]f a]f > `ènqof de pejaf nwou `èm`èvma\ ]omt `èncop > je ou gar `èmpet\wou peta vai aif > `èmpijem `è\li `èn`èeti`èa `ènte `èvmou `èn'htf > `èènta;`ècbw oun naf `èntaxaf `èebol. Nqwou de `èetauoua\totou 'en ouni]; `èn`ècmh eu`èeretin `èmmof eqroua]f > ouo\ naujemjom pe `ènje nou`ècmh. Ouo\ `èa Pilatoc ;\ap eqref]wpi `ènje pou`èethma. Afxw de `èebol `èmvh`èetau\itf `èepi`è]teko eqbe ou'wteb nem ou`è]qorter vh`èetau`èeretin `èmmof > Ihc? de authif kata pououw].  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
+            "Luc 23 : 13-25\nAyant convoqué les grands prêtres, les chefs et le peuple, Pilate leur dit: \"Vous m'avez présenté cet homme comme détournant le peuple, et voici que moi je l'ai interrogé devant vous, et je n'ai trouvé en cet homme aucun motif de condamnation pour ce dont vous l'accusez. Hérode non plus d'ailleurs, puisqu'il l'a renvoyé devant nous. Vous le voyez; cet homme n'a rien fait qui mérite la mort. Je le relâcherai donc,",
+            "لوقا ٢٣ : ١٣ – ٢٥\nفدعا بيلاطس رؤساء الكهنة والعظماء والشعب، وقال لهم: قد قدمتم إليّ هذا الرجل كمن يضل الشعب، وها أنا قد فحصته أمامكم ولم أجد علة علي هذا الرجل مما تشتكون به عليه، بل ولا هيروس أيضاً، لأنه قد أرسله إلينا. وها هوذا لم يصنع شيئاً يستوجب الموت، فأنا أؤدبه وأطلقه.",
         ],
         [
-            Prefix.HolyWeek +"6HDProphecies&D=GL56&C=Diacon",
-        "",
-        "d'Israël. Sur un mont chauve, levez un signal, forcez la voix pour eux, agitez la main pour qu'ils viennent aux portes des Nobles. Moi, j'ai donné des ordres à mes saints guerriers, j'ai même appelé mes héros pour servir ma colère, mes fiers triomphateurs. Bruit de foule sur les montagnes, comme un peuple immense, bruit d'un vacarme de royaumes, de nations rassemblées: c'est le Seigneur Sabaot qui passe en revue l'armée",
-        "إسرائيل، إرفعوا راية علي الجبال السهلة، إرفعوا أصواتكم ولا تخافوا، أشيدو بالبر. إفتحوا الأبواب للرؤساء لأني أنا الذي أمرت أن يأتوا ويجتمعوا، وأنا الآتي وستأتي معي الجبابرة ليكملوا غضبي فيفرحون، ويعيدون معاً. صوت امم كثيرة وصوت ملوك وشعوب مجتمعة، رب الصباؤوت أمر شعباً مسلحاً",
+            Prefix.HolyWeek + "3HDGospel&D=GL56&C=Diacon",
+            "",
+            "après l'avoir châtié.\" Or il devait leur relâcher quelqu’un à chaque fête. Mais eux se mirent à pousser des cris tous ensemble: \"A mort cet homme! Et relâche nous Barabbas.\" Ce dernier avait été jeté en prison pour une sédition survenue dans la ville et pour meurtre.\nDe nouveau Pilate, qui voulait relâcher Jésus, leur adressa la parole. Mais eux répondaient en criant: \"Crucifie-le! Crucifie-le!\" Pour la troisième fois, il leur dit :",
+            "وكان لابد له أن يطلق لهم واحداً في كل عيد، فصرخ كل الجمع قائلين: إرفع هذا وأطلق لنا باراباس. وذاك كان قد ألقي في السجن لأجل فتنة وقتل حدثا في المدينة.\nفناداهم أيضاً بيلاطس وهو يريد أن يطلق يسوع. فأما هم فصرخوا قائلين : إصلبه، إصلبه. فقال لهم مرة ثالثة :",
         ],
         [
-            Prefix.HolyWeek +"6HDProphecies&D=GL56&C=Diacon",
-        "",
-        "pour le combat. Ils viennent d'un pays lointain, des extrémités du ciel, le Seigneur et les instruments de sa colère, pour ravager tout le pays. Hurlez car il est proche, le jour du Seigneur, il arrive comme une dévastation de Shaddaï. C'est pourquoi toutes les mains sont débiles, tous les hommes perdent cœur; ils sont bouleversés, pris de convulsions et de douleurs; ils se tordent comme la femme qui accouche,",
-        "أن يأتي من أرض بعيدة من أقصى السماء، والرب مع جنوده المسلحة، ليهلك المسكونة كلها. ولولوا فإن يوم رب الجنود قد قرب، والإنكسار يأتي من عند الله. فلذلك تسترخي كل يد، ويذوب قلب كل إنسان، وتضطرب المشايخ ويأخذهم المخاض، ويتضورون كالتي تلد",
+            Prefix.HolyWeek + "3HDGospel&D=GL56&C=Diacon",
+            "",
+            "\"Quel mal a donc fait cet homme? Je n'ai trouvé en lui aucun motif de condamnation à mort; je le relâcherai donc, après l'avoir châtié.\" Mais eux insistaient à grands cris, demandant qu'il fût crucifié; et leurs clameurs gagnaient en violence. Et Pilate prononça qu'il fût fait droit à leur demande. Il relâcha celui qui avait été jeté en prison pour sédition et meurtre, celui qu'ils réclamaient. Quant à Jésus, il le livra à leur bon plaisir. Gloire à Dieu éternellement.",
+            "وأي شر عمل هذا؟ إني لم أجد فيه علة أن يصلب. فأنا أؤدبه وأطلقه. أما هم فألحوا عليه بأصوات عالية طالبين منه أن يصلب، وكانت أصواتهم تشتد. فحكم بيلاطس أن تكون طلبتهم. فأطلق الذي ألقي في السجن لأجل فتنة وقتل وهو الذي طلبوه، وأسلم يسوع كإرادتهم. \nوالمجد لله دائماً",
         ],
         [
-            Prefix.HolyWeek +"6HDProphecies&D=GL56&C=Diacon",
-        "",
-        "ils se regardent avec stupeur, le visage en feu. Voici que vient le jour du Seigneur, implacable, l'emportement et l'ardente colère, pour réduire le pays en ruines, et en exterminer les pécheurs. Car au ciel, les étoiles et Orion ne diffuseront plus leur lumière. Le soleil s'est obscurci dès son lever, la lune ne fait plus rayonner sa lumière.\nGloire à la sainte Trinité notre Dieu.",
-        "وينوح الواحد قبالة صاحبه ويتحيرون وتتغير وجوههم كاللهيب. هوذا يوم الرب يأتي بغير مغفرة، قادم بسخط وغضب، ليجعل المسكونة كلها برية قاحلة، ليبيد الخطاة منها. كواكب السماء والنجوم وكل زينتها لا تعطي نورها، وتظلم الشمس عند طلوعها والقمر لا يعطي نوره.\nمجداً للثالوث الأقدس إلهنا آمين.",
+            Prefix.HolyWeek + "3HDGospel&D=GL56&C=Diacon",
+            "Iwannhn  Kev i/q/> a/- i/b\nTote pilatoc afsi `ènIhc? afermactiggoin `èmmof. Ouo\ nimatoi au]wnt `ènou`èxlom `èebol'en \ancouri > ouo\ authif `èejen tef`èave > ouo\ aujol\f `ènou`è\ebcw `ènshji. Ouo\ naunhou \arof pe eujw `èmmoc > je xere `èpouro `ènte niIoudai ouo\ nau;kour naf pe. Palin on af`èi `èebol `ènje Pilatoc ouo\ pejaf nwou > je \hppe ;naenf nwten `èebol> \ina `ènteten`èemi je è`èn;jem `è\li `èn`èeti`èa `èerof an. Tote af`èi `èebol `ènje Ihc? efervorin `èmpi`èxlom `èncouri nem pi`è\bwc `ènshji > ouo\ peje Pilatoc nwou je \hppe ic pirwmi. |ote oun `èetaunau `èerof `ènje niarxh`èereuc nem ni\\uperethc > auw] `èebol eujw `èmmoc je a]f a]f > peje Pilatoc nwou> je mwini `èerof `ènqwten a]f `èanok gar `èn;jem `è\li `èn`èeti`èa si `èerof an.\nAu`èerou`èw naf `ènje niIoudai je `èanon ouon `èntan `ènounomoc`èmmau > ouo\ kata pennomoc `èfem`èp]a `èm`èvmou > je afaif `èn]hri `ènte V; > \ote de `èetafcwtem `èepaicaji `ènje Pilatoc afer\o; `èn\ou`èo > ouo\ af`èi on `èe'oun `èepipretwrion ouo\ pejaf `ènIhc? je `ènqok ou `èebol qwn > Ihc? de `èmpeferou`èw naf. Peje Pilatoc naf > je eqbeou `èkcaji nemhi an > ]an `èk`èemi an je ouon; er]i]i `èmmau `èea]k > ouo\ ouon; er]i]i `èmmau on `èexak `èebol. Af`èerou`èw `ènje Ihc? je `èmmontek `è\li `èner]i]i `èmmau `èe'oun `èeroi > `èene `èmpouthic nak `èebol `èm`èp]wi > eqbe vai vh`èetafthit nak ouontefni]; `ènnobi `èmmau `èn\ou`èo. Eqbe vai oun Pilatoc nafkw; pe `ènca xaf `èebol > niIoudai de nauw] `èebol eujw `èmmoc > je `èe]wp ak]anxa vai `èebol > `ènqok `èp`è]vhr `èm`èpouro an > ouon gar niben et`èiri `èmmof `ènouro `èmmauatf > af; `èe'oun `èe`è\ren `èpouro.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
+            "Jean 19 : 1-12 \nPilate prit alors Jésus et le fit flageller. Les soldats, tressant une couronne avec des épines, la lui posèrent sur la tête, et ils le revêtirent d'un manteau de pourpre; et ils s'avançaient vers lui et disaient: \"Salut, roi des Juifs!\" Et ils lui donnaient des coups. De nouveau, Pilate sortit dehors et leur dit: \" Voyez, je vous l'amène dehors, pour que vous sachiez que je ne trouve en lui aucun motif de",
+            "يوحنا ١٩ : ١ – ١٢ \nحينئذ أخذ بيلاطس يسوع وجلده، وضفر الجند إكليلاً من الشوك ووضعوه علي رأسه، وألبسوه ثوباً من أرجوان، وكانوا يقبلون إليه ويقولون: السلام يا ملك اليهود. وكانوا يلطمونه. فخرج بيلاطس أيضاً وقال لهم: ها أنا أخرجه إليكم لتعلموا أني لست أجد فيه علة ما.",
         ],
         [
-            Prefix.HolyWeek +"6HDProphecies&D=GL56&C=Diacon",
-        "Ebolqen Amoc piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nOuo\  ec`èe]pi  'en  pi`èe\oou  `èete`èmmau  peje  P_  V; > ef`èe\wtp  `ènje  `èvrh  `èm`èvnau  `èmmeri  ouo\ ef`èeerxaki  \ijen  `èpka\i `ènje  piouwini 'en  pi`èe\oou. \nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
-        "Amos 8 : 9-12 \nIl adviendra en ce jour-là, oracle du Seigneur tout-puissant, que je ferai coucher le soleil en plein midi et que j'obscurcirai la terre en un jour de lumière.",
-        "عاموس ٨ : ٩ – ١٢ \nويكون في ذلك اليوم، يقول السيد الرب، تغيب الشمس وقت الظهيرة، ويظلم النور علي الأرض في النهار.",
+            Prefix.HolyWeek + "3HDGospel&D=GL56&C=Diacon",
+            "",
+            "condamnation.\" Jésus sortit donc dehors, portant la couronne d'épines et le manteau de pourpre; et Pilate leur dit: \"Voici l'homme!\" Lorsqu'ils le virent, les grands prêtres et les gardes vociférèrent, disant: \"Crucifie-le! Crucifie-le!\" Pilate leur dit: \"Prenez-le, vous, et crucifiez-le; car moi, je ne trouve pas en lui de motif de condamnation. » \nLes Juifs lui répliquèrent: \" Nous avons une Loi et d'après cette Loi il doit mourir,",
+            "حينئذ خرج يسوع وهو حامل إكليل الشوك وثوب الأرجوان، فقال لهم بيلاطس: هوذا الرجل. فلما رآه رؤساء الكهنة والخدام صرخوا قائلين: إصلبه، إصلبه. فقال لهم بيلاطس: خذوه أنتم وإصلبوه، لأني لست أجد فيه علة واحدة. \nأجابه اليهود: إن لنا ناموساً، وبحسب ناموسنا هو مستوجب الموت",
         ],
         [
-            Prefix.HolyWeek +"6HDProphecies&D=GL56&C=Diacon",
-        "",
-        "Je changerai vos fêtes en deuil et tous vos chants en lamentations; je mettrai le sac sur tous les reins et la tonsure sur toutes les têtes. J'en ferai comme un deuil de fils unique, sa fin sera comme un jour d'amertume. Voici venir des jours - oracle du Seigneur - où j'enverrai la faim dans le pays, non pas une faim de pain, non pas une soif d'eau, mais d'entendre la parole du Seigneur. On ira titubant d'une mer à l'autre mer, du nord au levant,",
-        "وأحول أعيادكم نوحاً وجميع تسابيحكم رثاء، وأجعل علي كل حقو مسحاً، وعلي كل رأس قرحاً، وأجعله مثل الحزين على الحبيب والذين معه كمثل يوم الحزن. هوذا ستأتي أيام، يقول السيد الرب، اني أرسل جوعاً علي الأرض وليس هو جوعا إلي الخبز، أو عطشا إلي الماء، بل هو جوع إلي إستماع كلمة الرب. فتتحول المياه إلي قاع البحر، ويجرون من الشمال إلي المشرق",
+            Prefix.HolyWeek + "3HDGospel&D=GL56&C=Diacon",
+            "",
+            "parce qu'il s'est fait Fils de Dieu.\" Lorsque Pilate entendit cette parole, il fut encore plus effrayé. Il entra de nouveau dans le prétoire et dit à Jésus: \" D'où es-tu? \" Mais Jésus ne lui donna pas de réponse. Pilate lui dit donc: \"Tu ne me parles pas? Ne sais-tu pas que j'ai pouvoir de te relâcher et que j'ai pouvoir de te crucifier?\" Jésus lui répondit: \"Tu n'aurais aucun pouvoir sur moi, si cela ne t'avait été donné d'en haut; c'est pourquoi",
+            "لأنه جعل نفسه إبن الله. فلما سمع بيلاطس هذا الكلام إزداد خوفاً، ودخل أيضاً إلي الديوان وقال ليسوع: من أين أتيت؟ أما يسوع فلم يجبه، فقال له بيلاطس: لماذا لا تكلمني؟ أما تعلم أن لي سلطاناً أن أصلبك، ولي سلطاناً أيضاً أن أطلقك؟ أجاب يسوع قائلاً: ليس لك عليّ سلطان، لو لم تكن قد أعطيت من فوق. من اجل هذا",
         ],
         [
-            Prefix.HolyWeek +"6HDProphecies&D=GL56&C=Diacon",
-        "",
-        "on errera pour chercher la parole du Seigneur et on ne la trouvera pas !\nGloire à la sainte Trinité notre Dieu.",
-        "ويطلبون كلمة الرب فلا يجدونها.\nمجداً للثالوث الأقدس إلهنا آمين.",
-        ],
-    ],
-    [
-    
-        [
-            Prefix.HolyWeek +"FayEtafAnfHymn&D=GL56&C=Diacon",
-        "",
-        "",
-        "",
-        ],
-        [
-            Prefix.HolyWeek +"FayEtafAnfHymn&D=GL56&C=Diacon",
-        "",
-        "Taisoury `nnoub `nka;aroc etfai qa pi`arwmata @ etqen nenjij `n`Aarwn pi`ouyb eftale ou`c;oinoufi `e`pswi `ejen pima `n`ersw`ousi.",
-        "طاي شوري إننوب إنكاثاروس إتفاي خا بي آروماطا إتخين نين جيج إن آ آرون \nبي أويب إفطالي أو إسطوي نوفي إى إبشوي إيجين بي ما إن إيرشوأوشي.",
-        ],
-        [
-            Prefix.HolyWeek +"FayEtafAnfHymn&D=GL56&C=Diacon",
-        "`Fai `etafenf `e`pswi @ `nou;uci`a ecsyp @hijen pictauroc @ qa `poujai mpengenoc.",
-        "Voici Celui qui s'est élevé\nen sacrifice accepté sur la\ncroix pour le salut du genre humain.",
-        "فاي إيطاف إنف إى إبشوي إن أو ثيسيا إسشيب هيجين \nبي إسطافروس خا إب أوجاي إمبين جينوس",
+            Prefix.HolyWeek + "3HDGospel&D=GL56&C=Diacon",
+            "",
+            "celui qui m'a livré à toi a un plus grand péché.\" Dès lors Pilate cherchait à le relâcher. Mais les Juifs vociféraient, disant: Si tu le relâches, tu n'es pas ami de César: quiconque se fait roi, s'oppose à César.\nGloire à Dieu éternellement.",
+            "الذي أسلمني إليك له خطية أعظم. لذلك كان بيلاطس يطلب أن يطلقه. وأما اليهود فكانوا يصرخون قائلين: إن أنت أطلقته فلست بصاحب لقيصر، لأن كل من يجعل نفسه ملكاً فهو يقاوم قيصر.\n \nوالمجد لله دائماً",
         ],
     ],
     [
-    
+
         [
-            Prefix.HolyWeek +"6HDStPaul&D=GL56&C=Diacon",
-        "}`epictoly `nte pencaq Pauloc@ `ere pef`cmou `e;ouab swpi neman `amyn. Pauloc `vbwk `mpen=o=c I=y=c P=,=c@ pi`apoctoloc et;ahem@ vy`etau;asf `epihisennoufi `nte V]. Anok de `nnec]wpi nhi `ntasousou `mmoi `ebyl qen pi`ctauroc `nte pen=o=c I=y=c P=,=c... Pi`hmot gar nemwten nem `thiryny eucop je `amyn ec`eswpi `amyn",
-        "En présence de l’évêque",
-        "رسالة معلمنا بولس بركتة المقدسة لتكن معنا آمين. بولس عبد ربنا يسوع المسيح الرسول المدعو المفرز لتبشير الله. وَأَمَّا مِنْ جِهَتِي، فَحَاشَا لِي أَنْ أَفْتَخِرَ إِلَّا بِصَلِيبِ رَبِّنَا يَسُوعَ ٱلْمَسِيحِ …نعمة الله الآب تحل على أرواحكم يا ابائي واخوتي آمين",
+            Prefix.HolyWeek + "3HDCommentary&D=GL56&C=Diacon",
+            "",
+            "Commentaire\nIl me surprend ce prophète à la voix forte, Isaïe, qui a l'avance a contemplé mystérieusement la Passion du Sauveur, Dieu le Verbe. Il dit: \"Quel est donc celui-ci qui vient d'Édom, de Boçra en habits éclatants, magnifiquement drapé dans son manteau?\" Son manteau est rouge sang comme celui qui foule au pressoir. Le sang de la grappe l'a taché. Elle est vraie la parole de ce prophète qui a révélé",
+            "طــرح\nأنا متحير مع هذا النبي ذى الصوت العظيم، إشعياء النبي، الذي سبق فنظر بالسر لآلام المخلص التي لله الكلمة، فقال: من هو هذا الآتي من آدوم وثيابه حمراء من بوصار، لابساً حلة بهية هكذا، ولباسه من الدم الأحمر، كمن يصعد من المعصرة ملطخاً بدم عنقودها؟ حقاً بالحقيقة هو كلام هذا النبي الذي اظهر هذا",
         ],
         [
-            Prefix.HolyWeek +"6HDStPaul&D=GL56&C=Diacon",
-        "Pi`hmot gar `mPen¡ I=y=c P=,=c ef`eswpi nem pekagion `pneuma pa[oic `niwt ettaiyout `nar,yeruc papa abba (...) nem peniwt `n`epickopoc abba (...) Mare pi`klyroc nem pilaoc tyrf oujai qen P¡ @ je amyn eceswpi",
-        "La grâce de notre Seigneur Jésus Christ, soit avec votre esprit saint, mon maître et bienheureux père, le grand prêtre, le pape Anba (---) et notre père l’évêque anba (---) Que le clergé et tout le peuple soient fortifiés dans le Seigneur. Amen, ainsi soit-il",
-        "نعمة ربنا يسوع المسيح تكون مع روحك الطاهرة، يا سيدي الأب المكرم رئيس الكهنة البابا أنبا (…) وأبينا الأسقف الأنبا (...) فليكن الإكليروس وكل الشعب معافين في الرب. آمين يكون",
+            Prefix.HolyWeek + "3HDCommentary&D=GL56&C=Diacon",
+            "",
+            "cela avant que ces jours n'arrivent. En vérité, c'est le Verbe de Dieu, notre Sauveur Jésus, qui selon le plan de Dieu a revêtu le corps de notre père Adam, le premier homme. La divinité qui vient d'en haut s'est unie mystérieusement à l'humanité, sans que rien ne Lui soit impossible et sans la modifier. Il déversa Sa colère sur les Hébreux et les a foulés dans le pressoir de son courroux. Il a accordé Sa miséricorde et Sa justice aux nations païennes",
+            "قبل هذه الأيام. بالحقيقة أنه هو الإله الكلمة مخلصنا يسوع كالتدبير، لبس الجسد القديم الذي لأبينا آدم أبو الخليقة، وصارت اللاهوتية العلوية متحدة بالبشرية بغير إستحالة، بما لا يدرك. هي الحلة التي لا تتغير، المتحدة مع الإله الكلمة، وصب غضبه علي العبرانيين وداسهم في معصرة غضبه، ورحمته وبره أعطاها للأمم",
         ],
         [
-            Prefix.HolyWeek +"6HDStPaul&D=GL56&C=Diacon",
-        "",
-        "Epitre de Saint Paul \nAux Galates 6 : 14-18\nPour moi, que jamais je ne me glorifie sinon dans la croix de notre Seigneur Jésus Christ, qui a fait du monde un crucifié pour moi et de moi un crucifié pour le monde. Car la circoncision n'est rien, ni l'incirconcision; il s'agit d'être une créature nouvelle. Et à tous ceux qui suivront cette règle, paix et miséricorde, ainsi qu'à l'Israël de Dieu.",
-        "غلاطية ٦ : ١٤ -١٨ \nوأما من جهتي فحاشا لي أن أفتخر إلا بصليب ربنا يسوع المسيح. هذا الذي قد صلب العالم لي. وأنا أيضاً صُلبت للعالم، لأنه في المسيح يسوع ليس الختان ينفع بشيء ولا الغرلة بل الخليقة الجديدة. فكل الذين يسلكون بحسب هذا القانون عليهم السلام والرحمة وعلي إسرائيل الله.",
-        ],
-        [
-            Prefix.HolyWeek +"6HDStPaul&D=GL56&C=Diacon",
-        "",
-        "Dorénavant que personne ne me suscite d'ennuis : je porte dans mon corps les marques de Jésus. Frères, la grâce de notre Seigneur Jésus Christ soit avec votre esprit ! Amen.\nLa grâce de Dieu le Père soit avec vous, mes pères et mes frères. Amen.",
-        "فيما بعد لا يجلب أحد عليّ أتعاباً لأني حامل في جسدي سمات الرب يسوع. نعمة ربنا يسوع المسيح مع روحكم يا إخوتي. آمين.\nنعمة الله الآب تحل على أرواحكم يا ابائي واخوتي. آمين.",
+            Prefix.HolyWeek + "3HDCommentary&D=GL56&C=Diacon",
+            "",
+            "dont il a fait Son nouveau peuple. Mais Israël fut détruit jusqu'à la fin des temps.",
+            "الذين صنعهم له شعباً جديداً. أما إسرائيل فإن البلادة قد إستولت عليه إلي الإنقضاء.",
         ],
     ],
     [
-    
+
         [
-            Prefix.HolyWeek +"OMonoGuenisHymn&D=GL56&C=Diacon",
-        "Omonogenyc `Uioc ke Logoc tou :eou @ (`a;anatoc)=g `upar,wn ke kata dexamenoc @ diatyn `ymeteran cwtyrian @ carkw;yne ek tyc `agiac ;e`otokou ke `a`i (par;enou Mariac)=b.",
-        "Ô Toi Fils Unique de Dieu, Toi le Verbe Immortel de Dieu, Toi qui pour notre salut, acceptas de t’incarner, de mère de Dieu, (toujours Vierge, Sainte Marie)²	",
-        "أومونوجينيس إيوس كى لوغوس توو ثيؤو (أثاناطوس)3 إب أرخون كى كاطا ذيكسامينوس: ذى أتين إيميتران سوتيريان: صاركوثيني تيس أجياس ثيؤتوكو كى أ إى (بارثينو مارياس) ²",
+            Prefix.HolyWeek + "6HDProphecies&D=GL56&C=Diacon",
+            "Ebolqen pi`ari;moc `nte Mw`ucyc piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nOuo\ `èetafcwtem  `ènje  piXananeoc  `èpouro  `ènArad  vhet]op  \i `èp]afe  je af`èi `ènje `èpIcl ? `èe`èvmwit `ènAqarim.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
+            "Nombres 21: 1-9\nLe roi d'Arad, le Cananéen habitant au Négeb, apprit qu'Israël venait par la route d'Atarim.",
+            "عدد ٢١ : ١ – ٩\nوسمع الكنعاني ملك داراد المقيم في البرية أن إسرائيل قد جاء عن طريق أتاريم،",
         ],
         [
-            Prefix.HolyWeek +"OMonoGuenisHymn&D=GL56&C=Diacon",
-        "(Atreptwc)=g  `enan`;rwpicac `o`ctaurw;ic te `<ricte `o :eoc. :anatw ;anaton patycac @ ic wntyc `agiac ~Triadoc @ cun doxa zomenoc tw Patri ke tw `agiw `Pneumati @ cwcon `ymac.",
-        "Ô Toi qui sans changement, devins Homme, fus crucifié, ô Christ Dieu ; par la mort vainquit la mort, l’un de la Sainte Trinité, glorifié, avec le Père, et le Saint-Esprit, pitié pour nous.",
-        "(أتريبطوس)3 إنان إثروبيساس أو إسطاﭭروتيس تيه إخريس تى أوثيؤس. ثاناطو ثاناطون باتيساس:يس أون تيس أجياس إترى أذوس:سين ذوكصا زومينوس. طو باترى كى طو أجيو بنيفما تى :سوسون إيماس",
+            Prefix.HolyWeek + "6HDProphecies&D=GL56&C=Diacon",
+            "",
+            "Il attaqua Israël et lui fit des prisonniers. Israël fit alors ce vœu au Seigneur: \" Si tu livres ce peuple en mon pouvoir, je vouerai ses villes à l'anathème.\" Le Seigneur écouta la voix d'Israël et livra les Cananéens en son pouvoir. Ils les vouèrent à l'anathème, eux et leurs villes. On donna à ce lieu le nom de Horma. Ils partirent de Hor-la-Montagne par la route de la mer de Suph, pour contourner le pays d'Édom. En chemin, le peuple perdit patience.",
+            "فحارب إسرائيل وسبي منهم سبياً، فنذر إسرائيل نذراً للرب وقال: إن دفعت هذا الشعب إلي أيدينا حرمناه لك مع مدنه. فسمع الرب صوت إسرائيل، ودفع إليهم الكنعانيين فحرموهم، هم ومدنهم. فدعي إسم ذلك الموضع ”حرماً“. ثم إرتحلوا من جبل حور عن طريق بحر القلزم (البحر الأحمر) وداروا من حول أرض آدوم، فصغر قلب الشعب في الطريق،",
         ],
         [
-            Prefix.HolyWeek +"OMonoGuenisHymn&D=GL56&C=Diacon",
-        "(Agioc)=g `o :eoc `odi `ymac an `;rwpoc @ ge gonwc atreptwc ke minac :eoc. Agioc Ic,uroc `o `en ac;enia to `upere,on tyc Ic,uroc `epidixamenoc.",
-        "Saint Dieu incarné pour nous, sans hésitation, Lui qui est Dieu. Saint Fort, apparu faible, Lui qui est le plus puissant.",
-        "أجيوس أوثيؤس: أوذى إيماس أن إثروبوس جى غونوس أتريبتوس كى مى ناس ثيؤس أجيوس يسشيروس أو إنا ثنيا طو إي بيريخو تيس يسشيروس إبى ذيكسامينوس",
+            Prefix.HolyWeek + "6HDProphecies&D=GL56&C=Diacon",
+            "",
+            "Il parla contre Dieu et contre Moïse: \"Pourquoi nous avez-vous fait monter d'Égypte pour mourir en ce désert? Car il n'y a ni pain ni eau; nous sommes excédés de cette nourriture de famine.\" Dieu envoya alors contre le peuple les serpents brûlants, dont la morsure fit périr beaucoup de monde en Israël. Le peuple vint dire à Moïse: \"Nous avons péché en parlant contre le Seigneur et contre toi. Intercède auprès du Seigneur",
+            "وتكلم الشعب علي الله وعلي موسي قائلين: لماذا اصعدتنا من أرض مصر لنموت في البرية؟ لأنه لا خبز ولا ماء، وقد سئمت نفوسنا هذا الخبز اليابس. فأرسل الرب علي الشعب حيات قاتلة، فكانت تلدغ الشعب، ومات قوم كثيرون من بني إسرائيل. فأتي الشعب إلي موسي وقالوا: قد أخطأنا إذ تكلمنا علي الرب وعليك فإدع الرب",
         ],
         [
-            Prefix.HolyWeek +"OMonoGuenisHymn&D=GL56&C=Diacon",
-        "Agioc `A;anatoc `o `ctaurw;ic di `ymac @ `oton di`a`ctaurou ;anaton `upominac carki ke dixacuwc ke en ;anatw gegonwc `upar,ic. `A;anatoc. Agia ~Triac `ele`ycon `ymac.",
-        "Saint immortel, qui a été crucifié pour nous, a supporté la mort sur la croix, et l’a acceptée dans sa chair, Lui l’Eternel, qui ne meurt pas. Ô Trinité Sainte, pitié pour nous.",
-        "أجيوس أثاناتوس أو إسطاﭭروتيس ذى إيماس أو طون ذى إسطاﭭرو ثاناطون إيبوميناس ساركى كى ذيكساسوس كى إن ثاناطو جى جونوس إيبارشيس أثاناطوس. أجيا ترياس اليسون إيماس",
+            Prefix.HolyWeek + "6HDProphecies&D=GL56&C=Diacon",
+            "",
+            "pour qu'il éloigne de nous ces serpents.\" Moïse intercéda pour le peuple et le Seigneur lui répondit: \"Façonne-toi un Brûlant que tu placeras sur un étendard. Quiconque aura été mordu et le regardera restera en vie.\" Moïse façonna donc un serpent d'airain qu'il plaça sur l'étendard, et si un homme était mordu par quelque serpent, il regardait le serpent d'airain et restait en vie.\nGloire à la sainte Trinité notre Dieu.",
+            "ان يبعد عنا هذه الحيات. فتضرع موسي لآجل الشعب. فقال الرب لموسي: إصنع لك حية من نحاس وإرفعها علي سارية، حتي إذا لدغت الحية إنساناً فينظر إلي الحية النحاس فيحيا. فصنع موسي حية من نحاس ورفعها علي الراية، فكان أي إنسان لدغته حية ونظر إلي الحية النحاسية يحيا.\nمجداً للثالوث الأقدس إلهنا آمين.",
         ],
         [
-            Prefix.HolyWeek +"OMonoGuenisHymn&D=GL56&C=Diacon",
-        "Agioc  o ;eoc @ Agioc Ic,uroc @ Agioc A;anatoc @ o `ctaurw;ic diymac @ eleycon ` ymac\nJe Agioc  o ;eoc @ Agioc Ic,uroc @ Agioc A;anatoc @ o `ctaurw;ic diymac @ eleycon ` ymac\nJe Agioc  o ;eoc @ Agioc Ic,uroc @ Agioc A;anatoc @ o `ctaurw;ic diymac @ eleycon ` ymac",
-        "Dieu Saint, Dieu Puissant, Dieu vivant et immortel, crucifié pour nous, aie pitié de nous\nDieu Saint, Dieu Puissant, Dieu vivant et immortel, crucifié pour nous, aie pitié de nous\nDieu Saint, Dieu Puissant, Dieu vivant et immortel, crucifié pour nous, aie pitié de nous",
-        "قدوس الله قدوس القوى قدوس الحى الذى لا يموت، الذى صُلب عنا ارحمنا\nقدوس الله قدوس القوى قدوس الحى الذى لا يموت، الذى صُلب عنا ارحمنا\nقدوس الله قدوس القوى قدوس الحى الذى لا يموت، الذى صُلب عنا ارحمنا",
+            Prefix.HolyWeek + "6HDProphecies&D=GL56&C=Diacon",
+            "Ebolqen `Yca`yac piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nM`èvrii; ` ènou`èecwou  `èeauenf  `èe`èp'ol’el nem  `èm`èvrh;  `ènou\ihb  `èmpe`èmqo  `èmvhet'wk  `èmmof  `èefoi  `ènat`ècmh.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
+            "Isaïe 53 : 7-12\nMaltraité, il s'humiliait, il n'ouvrait pas la bouche, comme l'agneau qui se laisse mener à l'abattoir, comme devant les tondeurs une brebis muette, il n'ouvrait pas la bouche.",
+            "إشعياء ٥٣ : ٧ -١٢\nمثل خروف سيق إلي الذبح، وكحمل صامت أمام الذي يجزه، هكذا لم يفتح فاه",
         ],
         [
-            Prefix.HolyWeek +"OMonoGuenisHymn&D=GL56&C=Diacon",
-        "Doxa Patri ke Uiw ke agiw Pneumati@ ke nun ke `a`i ke ic touc `e`wnac twn `e`wnwn `amyn @ agia Triac @ eleycon ` ymac",
-        "Gloire au Père au Fils et au Saint-Esprit, Maintenant et pour toujours, pour les siècles des siècles Amen. Ô Trinité Sainte, aie pitié de nous.",
-        "المجد للآب والإبن والروح القدس، الآن و كل أوان وإلي دهر الدهور. آمين. أيها الثالوث المقدس ارحمنا",
-        ],
-    ],
-    [
-    
-        [
-            Prefix.HolyWeek +"6HDPsalm&D=GL56&C=Diacon",
-        "Yalmoc  to Dauid\nAuberbwrt `èebol `èanok pimenrit `èm`èvrh; `ènourefmwout ef`èoreb > ouo\ au;iat `èetacar[ > `èmperxat `èncwk P_ Panou; > `allhloui`a\nAuswlk `èntot nem rat auwp `ènnakac throu > auvw] `ènna`è\bwc `èe`è\rau ouo\ ta\ebcw au\iwp `èeroc > aucaji 'en nou`ècvotou aukim `èntou`èave > aujoc je icje afna\; afer\elpic  `èeP_ marefna\mef  >  mareftoujof icje afoua]f > `allhloui`a",
-        "Psaume 37 : 21 et 22\nIls m'ont rejeté, moi le bien-aimé, comme un affreux cadavre. Ils ont cloué ma chair, ne m'abandonne pas, Seigneur, mon Dieu. Alléluia Psaume 21 : 17-19, 8 et 9\nIls me percent les mains et les pieds, je peux compter tous mes os. Ils partagent entre eux mes habits et tirent au sort mon vêtement, ils ricanent et hochent la tête Il comptait sur le Seigneur : qu'il le délivre ! Qu'il le sauve, puisqu'il est sont ami ! Alléluia",
-        "مزمور  ٣٧ : ٢١، ٢٢\nرفضوني أنا الحبيب مثل ميت مرذول، وجعلوا مساميراً في جسدي، فلا تهملني ياربي وإلهي. الليلويا.\nمزمور ٢١ : ١٦، ١٧، ٨، ٩\nثقبوا يدي ورجلي وأحصوا كل عظامي. إقتسموا ثيابي بينهم وعلي لباسي إقترعوا. تكلموا بشفاههم وحركوا رؤوسهم وقالوا: إن كان آمن وإتكل علي الرب، فليخلصه ولينجيه إن كان أرده. الليلويا.",
-        ],
-    ],
-    [
-    
-        [
-            Prefix.HolyWeek +"6HDGospel&D=GL56&C=Diacon",
-        "Yalmoc  to Dauid\nAuberbwrt `èebol `èanok pimenrit `èm`èvrh; `ènourefmwout ef`èoreb > ouo\ au;iat `èetacar[ > `èmperxat `èncwk P_ Panou; > `allhloui`a\nAuswlk `èntot nem rat auwp `ènnakac throu > auvw] `ènna`è\bwc `èe`è\rau ouo\ ta\ebcw au\iwp `èeroc > aucaji 'en nou`ècvotou aukim `èntou`èave > aujoc je icje afna\; afer\elpic  `èeP_ marefna\mef  >  mareftoujof icje afoua]f > `allhloui`a",
-        "Psaume 37 : 21 et 22\nIls m'ont rejeté, moi le bien-aimé, comme un affreux cadavre. Ils ont cloué ma chair, ne m'abandonne pas, Seigneur, mon Dieu. Alléluia Psaume 21 : 17-19, 8 et 9\nIls me percent les mains et les pieds, je peux compter tous mes os. Ils partagent entre eux mes habits et tirent au sort mon vêtement, ils ricanent et hochent la tête Il comptait sur le Seigneur : qu'il le délivre ! Qu'il le sauve, puisqu'il est sont ami ! Alléluia",
-        "مزمور  ٣٧ : ٢١، ٢٢\nرفضوني أنا الحبيب مثل ميت مرذول، وجعلوا مساميراً في جسدي، فلا تهملني ياربي وإلهي. الليلويا.\nمزمور ٢١ : ١٦، ١٧، ٨، ٩\nثقبوا يدي ورجلي وأحصوا كل عظامي. إقتسموا ثيابي بينهم وعلي لباسي إقترعوا. تكلموا بشفاههم وحركوا رؤوسهم وقالوا: إن كان آمن وإتكل علي الرب، فليخلصه ولينجيه إن كان أرده. الليلويا.",
+            Prefix.HolyWeek + "6HDProphecies&D=GL56&C=Diacon",
+            "",
+            "Par contrainte et jugement il a été saisi. Parmi ses contemporains, qui s'est inquiété qu'il ait été retranché de la terre des vivants, qu'il ait été frappé pour le crime de son peuple? On lui a donné un sépulcre avec les impies et sa tombe est avec le riche, bien qu'il n'ait pas commis de violence et qu'il n'y ait pas eu de tromperie dans sa bouche. Le Seigneur a voulu l'écraser par la souffrance; s'il offre sa vie en sacrifice expiatoire,",
+            "فرفع حكمه في تواضعه وجيله من يقدر أن يصفه. ستنزع حياته من الأرض، ولأجل آثام الشعب جاء إلي الموت، وسأعطي لمتجاوزي الناموس مجازاة دفنه، والأغنياء مكافأة موته. لأنه لم يصنع إثماً، ولم يوجد في فمه غش. أما الرب فشاء أن يشفيه من الكلوم، وإذا ما أسلم ذاته ذبيحة عن الخطية",
         ],
         [
-            Prefix.HolyWeek +"6HDGospel&D=GL56&C=Diacon",
-        "Matqeon  Kev  k/z/> k/z/ -m/e\nTote nimatoi `ènte pi\\ugemwn auwli Ihc? `èe'oun `èepipretwrion >  auqwou; `èn;cpira thrc `èe`è\rhi `èejwf. Ouo\ `èetauba]f au; `ènouxlamic `ènkokkoc \iwtf > ouo\ au]wnt `ènou`èxlom `èebol'en \ancouri authif `èejen tef`èave > ouo\ auxw `ènouka] 'en tefjij `ènou`èinam > ouo\ nau\iou`èi `èmmwou `èejen noukeli `èmpef`èmqo eucwbi `èmmof eujw `èmmoc > je xere `èpouro `ènniIoudai. Ouo\ etau\iqaf `èe'oun 'en pef\o > au`èwli `èmpika] au\iou`èi 'en tef`èave. Ouo\ `èetauou`èw eucwbi `èmmof > auba]f `èn;xlamic ouo\ au; `ènnef`è\bwc \iwtf ouo\ auolf eqroua]f. Eunhou de `èebol aujimi `ènourwmi `ènKurinneoc > `èepefran pe Cumewn > vai ausitf `èn`èxba \ina `èntefel pef+.  Ouo\ `èetaui euma `èe]aumou; `èerof je Golgoqa > `èete pima `ènte Pikranion pe. Au; `ènou\emj naf efmoujt nem ouen]a]i > ouo\ `èetafjem;pi `èmpefouw] `èecw. Etaua]f de auvw] `ènnef`è\bwc `èe`è\rau `èeau\iwp `èerwou. Ouo\ nau\emci eu`èare\ `èerof `èmmau > ouo\ au`èc'e tef`èeti`èa ca`èp]wi `èntef`èave ec`èc'hout `èmpairh; je VAI PE IHCOUC `èPOURO NTE NIIOUDAI. Tote au`èi]i `ènkeconi `ècnau nemaf > ouai catefou`èinam > nem ouai catefjash. Nh de `èenaucini naujeou`èa `èerof pe > eukim `èntou`èave > eujw `èmmoc > je vheqnabel piervei `ènte V; `èebol ouo\ `èntefkotf 'en ]omt `èn`èe\oou na\mek > icje `ènqok pe `èp]hri `èmV; > `èamou `èepecht `èebol\i pi]e > vai pe `èm`èvrh; `ènniarxh`èereuc nem nica' nem niprecbuteroc > eucwbi `èmmof eujw `èmmoc je afno\em `èn\ankexwouni > `èmmon `è]jom `èmmof `èena\mef > icje `èpouro `èm`èpIc/l/ pe maref`èi `èepecht ;nou `èebol \i pi+ `èntenna\; `èerof > icje de `è\qhf xh `èeV; marefna\mef ;nou icje `èfoua]f je afjoc je `èanok pe `èp]hri `èmV;. Vai de nare nikeconi jw `èmmof nh`èetau`èa]ou nemaf eut`è]snhni nemaf. Icjen `èvnau de `ènajp coou > `èa`èpxaki ]wpi \ijen `èpka\i thrf > ]a `èvnau `ènajp yi;.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
-        "Matthieu 27 : 27-45\nAlors les soldats du gouverneur prirent avec eux Jésus dans le Prétoire et ameutèrent sur lui toute la cohorte. L'ayant dévêtu, ils lui mirent une chlamyde écarlate, puis, ayant tressé une couronne avec des épines, ils la placèrent sur sa tête, avec un roseau dans sa main droite. Et, s'agenouillant devant lui, ils se moquèrent de lui en disant: \"Salut, roi des Juifs!\" et, crachant sur lui, ils prenaient le roseau et en frappaient",
-        "متى ٢٧ : ٢٧ – ٤٥ \nحينئذ أخذ جند الوالي يسوع وأدخلوه إلي الديوان وجمعوا عليه كل الكتبة، فعروه وألبسوه رداءً قرمزياً، وضفروا إكليلاً من شوك ووضعوه علي رأسه، وجعلوا في يمينه قصبة، وكانوا يجثون علي ركبهم قدامه ويستهزئون به قائلين: السلام لك يا ملك اليهود. وكانوا يبصقون في وجهه، وأخذوا القصبة وضربوه",
+            Prefix.HolyWeek + "6HDProphecies&D=GL56&C=Diacon",
+            "",
+            "il verra une postérité, il prolongera ses jours, et par lui la volonté du Seigneur s'accomplira. A la suite de l'épreuve endurée par son âme, il verra la lumière et sera comblé. Par sa connaissance, le juste, mon serviteur, justifiera les multitudes en s'accablant lui-même de leurs fautes. C'est pourquoi il aura sa part parmi les multitudes, et avec les puissants il partagera le butin, parce qu'il s'est livré lui-même à la mort",
+            "فستري نفسه زرعاً عزه كثير. وشاء الرب أن ينزع الآلام من نفسه ويريه النور ويوجد الفهم ويصنع البر ويكون عبداً حسناً للجماعة، إذ يحمل خطاياهم، ومن اجل هذا هو يرث الكثيرين، ويقسم غنائم الأقوياء، حيث أسلم نفسه للموت،",
         ],
         [
-            Prefix.HolyWeek +"6HDGospel&D=GL56&C=Diacon",
-        "",
-        "sa tête. Puis, quand ils se furent moqués de lui, ils lui ôtèrent la chlamyde, lui remirent ses vêtements et l'emmenèrent pour le crucifier. En sortant, ils trouvèrent un homme de Cyrène, nommé Simon, et le requirent pour porter sa croix. Arrivés à un lieu dit Golgotha, c'est-à-dire lieu dit du Crâne, ils lui donnèrent à boire du vin mêlé de fiel; il en goûta et n'en voulut point boire. Quand ils l'eurent crucifié, ils se partagèrent ses vêtements",
-        "علي رأسه. فلما هزأوا به نزعوا عنه الرداء وألبسوه ثيابه، وأخذوه ليصلب. وفيما هم خارجون وجدوا رجلاً قيروانياً إسمه سمعان، فسخروه ليحمل صليبه. ولما أتوا إلي الموضع الذي يقال له الجلجثة، الذي هو موضع الجمجمة، أعطوه خلاً ممزوجاً بمر، ولما ذاق لم يرد أن يشربه. ولما صلبوه إقتسموا ثيابه بينهم",
+            Prefix.HolyWeek + "6HDProphecies&D=GL56&C=Diacon",
+            "",
+            "et qu'il a été compté parmi les criminels, alors qu'il portait le péché des multitudes et qu'il intercédait pour les criminels.\nGloire à la sainte Trinité notre Dieu.",
+            "وأحصي مع الأثمة. وهو قد حمل خطايا كثيرين وأسلم من أجل آثامهم.\nمجداً للثالوث الأقدس إلهنا آمين.",
         ],
         [
-            Prefix.HolyWeek +"6HDGospel&D=GL56&C=Diacon",
-        "",
-        "en tirant au sort. Puis, s'étant assis, ils restaient là à le garder. Ils placèrent aussi au-dessus de sa tête le motif de sa condamnation ainsi libellé: «Celui-ci est Jésus, le roi des Juifs.» Alors sont crucifiés avec lui deux brigands, l'un à droite et l'autre à gauche. Les passants l'injuriaient en hochant la tête et disant: \" Toi qui détruis le Sanctuaire et en trois jours le rebâtis, sauve-toi toi même, si tu es fils de Dieu, et descends de la croix.\" Pareillement",
-        "مقترعين عليها، ثم جلسوا يحرسونه هناك. وكتبوا قضيته فوق رأسه مكتوبة هكذا : هذا هو ملك اليهود. حينئذ صلبوا معه لصين، واحداً عن يمينه وواحداً عن يساره. وكان المجتازون يجدفون عليه ويحركون رؤوسهم قائلين: يا ناقض هيكل الله وبانيه في ثلاثة أيام، خلص نفسك. إن كنت أنت هو إبن الله فإنزل عن الخشبة. وكذلك",
+            Prefix.HolyWeek + "6HDProphecies&D=GL56&C=Diacon",
+            "Ebolqen `Yca`yac piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nHhppe  ic  V;  Pacwthr  >  P_  ei`èe]wpi `è ere  `è\qhi  xh  `èerof  >  ouo\  `ènnaer\o; je. \nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
+            "Isaïe 12 : 2 à 13 : 10 \nVoici le Dieu de mon salut : j'aurai confiance et je ne tremblerai plus,",
+            "إشعياء ١٢ – ٢ - ١٣ : ١ – ١٠ هوذا الله خلاصي، الرب الذي انا متكل عليه فلا أخاف.",
         ],
         [
-            Prefix.HolyWeek +"6HDGospel&D=GL56&C=Diacon",
-        "",
-        "les grands prêtres se gaussaient et disaient avec les scribes et les anciens: \"Il en a sauvé d'autres et il ne peut se sauver lui-même! Il est roi d'Israël: qu'il descende maintenant de la croix et nous croirons en lui! Il a compté sur Dieu; que Dieu le délivre maintenant, s'il s'intéresse à lui! Il a bien dit: Je suis fils de Dieu! Même les brigands crucifiés avec lui l'outrageaient de la sorte. À partir de la sixième heure, l'obscurité se fit sur toute la terre, jusqu'à la neuvième heure. Gloire à Dieu éternellement.",
-        "رؤساء الكهنة والكتبة والشيوخ كانوا يستهزئون به قائلين: خلص آخرين ولم يقدر أن يخلص نفسه. إن كان هو ملك إسرائيل فلينزل الآن عن الصليب لنؤمن به. إن كان متوكلاً علي الله فلينقذه الآن إن كان يريده. لأنه قال أنا هو إبن الله. وكذلك اللصان اللذان صلبا معه كانا يعيرانه. ومن وقت الساعة السادسة كانت ظلمة علي الأرض كلها إلي وقت الساعة التاسعة.\n والمجد لله دائماً.",
+            Prefix.HolyWeek + "6HDProphecies&D=GL56&C=Diacon",
+            "",
+            "car ma force et mon chant c'est le Seigneur, il a été mon salut. Dans l'allégresse vous puiserez de l'eau aux sources du salut. Et vous direz, en ce jour-là: Louez le Seigneur, invoquez son nom, annoncez aux peuples ses hauts faits, rappelez que son nom est sublime. Chantez le Seigneur, car il a fait de grandes choses, qu'on le proclame sur toute la terre. Pousse des cris de joie, des clameurs, habitante de Sion, car il est grand, au milieu de toi, le Saint",
+            "مجدي وتسبيحي هوالرب، وقد صار لي خلاصاً. إملأوا ماء بفرح من ينابيع الخلاص، وتقولون في ذلك اليوم: سبحوا الرب وإدعوا إسمه وبشروا في الأمم بأعماله الكريمة. أذكروا بأن إسمه قد تعالي. سبحوا إسم الرب لأنه قد صنع أعمالاً عظيمة، وإفرحي يا ساكنة صهيون لأنه قد إرتفع في وسطك قدوس",
         ],
         [
-            Prefix.HolyWeek +"6HDGospel&D=GL56&C=Diacon",
-        "Markon  Kev i/e/ > k/-/l\nOuo\ ;`èepigravh `ènte tef`èeti`èa nac`èc'hou pe je `èpouro `ènte niIoudai. Ouo\ aua] keconi `ècnau nemaf > ouai catefou`èinam `èmmof ouai cajash `èmmof. Ouo\ acjwk `èebol `ènje ;gravh je auopf nem ni`èanomoc. Ouo\ nh`èenaucini naujeou`èa `èerof > eukim `ènnou`èavhou`èi ouo\ eujw `èmmoc > je vheqnabel piervei `èebol > ouo\ eqnakotf 'en ]omt `èn`èe\oou > na\mek `èeak`èi `èe`è'rhi `èebol\i pictauroc.\nPairh; nikearxh`èereuc eucwbi nem nou`èerhou > nem nica' eujw `èmmoc > je afno\em `èn\ankexwouni > `èmmon `è]jom `èmmof `èena\mef > icje Px/c/ `èpouro `èmpIc/l/ pe maref`èi `èepecht ;nou `èebol\i pi+ > \ina `èntennau ouo\ `èntenna\; > ouo\ nh`èetau`èa]ou nemaf nau;]w] naf. Ouo\ `èeta `èvnau `ènajp coou ]wpi > `èa ouxaki ]wpi \ijen `èpka\i thrf ]a `èvnau `ènajp yi;.\nOuw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
-        "Marc 15 : 26-33 \nL'inscription qui indiquait le motif de sa condamnation était libellée: \"Le roi des Juifs.\" Et avec lui ils crucifient deux brigands, l'un à sa droite, l'autre à sa gauche Et cette Ecriture fut accomplie, qui dit: Et il a été mis au rang des malfaiteurs. Les passants l'injuriaient en hochant la tête et disant: \"Hé! Toi qui détruis le Sanctuaire et le rebâtis en trois jours, sauve-toi toi même en descendant de la croix !\"",
-        "مرقس ١٥ : ٢٦ – ٣٣\nوكان عنوان علته مكتوباً: ملك اليهود. وصلبوا معه لصين، واحداً عن يمينه والآخر عن يساره، فتم الكتاب القائل: وأحصي مع الأثمة. وكان المجتازون به يجدفون عليه ويحركون رؤوسهم قائلين: يا ناقض الهيكل وبانيه في ثلاثة أيام، خلص نفسك وإنزل عن الصليب.",
+            Prefix.HolyWeek + "6HDProphecies&D=GL56&C=Diacon",
+            "",
+            "d'Israël. Sur un mont chauve, levez un signal, forcez la voix pour eux, agitez la main pour qu'ils viennent aux portes des Nobles. Moi, j'ai donné des ordres à mes saints guerriers, j'ai même appelé mes héros pour servir ma colère, mes fiers triomphateurs. Bruit de foule sur les montagnes, comme un peuple immense, bruit d'un vacarme de royaumes, de nations rassemblées: c'est le Seigneur Sabaot qui passe en revue l'armée",
+            "إسرائيل، إرفعوا راية علي الجبال السهلة، إرفعوا أصواتكم ولا تخافوا، أشيدو بالبر. إفتحوا الأبواب للرؤساء لأني أنا الذي أمرت أن يأتوا ويجتمعوا، وأنا الآتي وستأتي معي الجبابرة ليكملوا غضبي فيفرحون، ويعيدون معاً. صوت امم كثيرة وصوت ملوك وشعوب مجتمعة، رب الصباؤوت أمر شعباً مسلحاً",
         ],
         [
-            Prefix.HolyWeek +"6HDGospel&D=GL56&C=Diacon",
-        "",
-        "Pareillement les grands prêtres se gaussaient entre eux avec les scribes et disaient : \"Il en a sauvé d'autres et il ne peut se sauver lui-même ! Que le Christ, le Roi d'Israël, descende maintenant de la croix, pour que nous voyions et que nous croyions !\" Même ceux qui étaient crucifiés avec lui l'outrageaient. Quand il fut la sixième heure, l'obscurité se fit sur la terre entière jusqu'à la neuvième heure.\nGloire à Dieu éternellement.",
-        "وكذلك رؤساء الكهنة كانوا يستهزئون فيما بينهم مع الكتبة قائلين: خلص آخرين وأما نفسه فلم يقدر أن يخلصها. إن كان هو المسيح ملك إسرائيل فلينزل الآن عن الصليب لنري ونؤمن. وكان اللذان صلبا معه يعيرانه أيضاً، ولما كانت الساعة السادسة كانت ظلمة علي الأرض كلها إلي الساعة التاسعة. \nوالمجد لله دائماً.",
+            Prefix.HolyWeek + "6HDProphecies&D=GL56&C=Diacon",
+            "",
+            "pour le combat. Ils viennent d'un pays lointain, des extrémités du ciel, le Seigneur et les instruments de sa colère, pour ravager tout le pays. Hurlez car il est proche, le jour du Seigneur, il arrive comme une dévastation de Shaddaï. C'est pourquoi toutes les mains sont débiles, tous les hommes perdent cœur; ils sont bouleversés, pris de convulsions et de douleurs; ils se tordent comme la femme qui accouche,",
+            "أن يأتي من أرض بعيدة من أقصى السماء، والرب مع جنوده المسلحة، ليهلك المسكونة كلها. ولولوا فإن يوم رب الجنود قد قرب، والإنكسار يأتي من عند الله. فلذلك تسترخي كل يد، ويذوب قلب كل إنسان، وتضطرب المشايخ ويأخذهم المخاض، ويتضورون كالتي تلد",
         ],
         [
-            Prefix.HolyWeek +"6HDGospel&D=GL56&C=Diacon",
-        "Loukan  Kev  k/g/ > k/ /- m/d\nOuo\ \wc eu`èini `èmmof `èebol > au`èamoni `ènouai je Cimewn ne ouKurinneoc efnhou `èebol'en `ètkoi > autale pictauroc `èerof eqreftwoun `èmmof cava\ou `ènIhc?. Nafmo]i de `èncwf `ènje ouni]; `èmmh] `ènte pilaoc > nem \an\i`èomi nh`èenautwit ouo\ naune\pi `èerof. Etafvon\f de `èerwou `ènje Ihc? pejaf > ni]eri `ènte Il?h?m? `èmperrimi `èejwi > `èplhn rimi `èejen qhnou nem `èejen neten]hri. Je \hppe cenhou `ènje \an`èe\oou > nh`èetounajoc `èn'htou > je `èwouni`èatou `ènniasrhn nem nineji `èete `èmpoumici > nem ni`èmno; `èete `èmpou]an]. Tote cenaer\htc `ènjoc `ènnitwou  je \ei `èejwn > nem nikalamvo je \obcten > je icje ce`èiri `ènnai 'en pi]e etlhk > ie ou peqna]wpi 'en pet]ou`èwou.\nNau`èini de pe `ènkereferpet\wou `ècnau nemaf `èe'oqbou. Ouo\ \ote `èetau`èi `èejen pima `èetoumou; `èerof je Pikranion > aua]f `èmmau nem nikakourgoc > ouai men caou`èinam ouai de cajash. Ihc? de pejaf je paiwt xw nwou `èebol > je `èmpou`èemi `èenh`èetou`èiri `èmmof > euvw] de `ènnef`è\bwc `èe`è\rau au\iwp `èerwou. Ouo\ naf`èo\i `èeratf `ènje pilaoc efnau > nauelk]ai pe `ènje nikearxwn eujw `èmmoc > je afno\em `èn\ankexwouni marefna\mef \wf > icje vai pe Pxc? `èp]hri `èmV; picwtp. Naucwbi de `èmmof `ènje nikematoi eunhou \arof eu`èini `ènou\emj naf eujw `èmmoc je icje `ènqok pe `èpouro `ènniIoudai na\mek. Ne ouon ke`èepigravh de pe \ijwf > `èmmet\ebreoc `èmmetrwmeoc `èmmetoueinin je > VAI  PE POURO NTE NIIOUDAI. Ouai de `èebol'en nikakourgoc `èetau`èa]ou > nafjeou`èa `èerof pe efjw `èmmoc > je icje `ènqok pe Pxc ?  na\mek ouo\ na\men \wn. Af`èerou`èw de `ènje pikeouai efer`èepitiman naf pejaf > je ou de V; `ènqok `èker\o; an 'atef\h je anxh 'en pai\ap `ènouwt. Ouo\ `èanon men 'en oumeqmhi `èetansi kata `èpem`èp]a `ènnh`èetanaitou > vai de `ènqof `èmpefer `è\li `èmpet\wou. Ouo\ nafjw `èmmoc `ènIhc? > je P_ `èaripameu`èi \otan akwan`èi 'en tekmetouro. Ouo\ peje Ihc ? naf je `èamhn ;jw `èmmoc nak > je `èmvoou ek`èe]wpi nemhi 'en piparadicoc. Ne `èvnau \hdh `ènajp coou pe > ouo\ `èa ouxaki ]wpi \ijen `èpka\i thrf > ]a `èèvnau `ènajp yi;.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
-        "Luc 23 : 26-44 \nQuand ils l'emmenèrent, ils mirent la main sur un certain Simon de Cyrène qui revenait des champs, et le chargèrent de la croix pour la porter derrière Jésus. Une grande masse du peuple le suivait, ainsi que des femmes qui se frappaient la poitrine et se lamentaient sur lui. Mais, se retournant vers elles, Jésus dit: \" Filles de Jérusalem, ne pleurez pas sur moi! Pleurez plutôt sur vous-mêmes et sur vos enfants!",
-        "لوقا ٢٣ : ٢٦ – ٤٤ \nوبينما هم منطلقون به، أمسكوا واحداً يدعي سمعان القيرواني، كان آتياً من الحقل، ووضعوا عليه الصليب ليحمله خلف يسوع. وكان يتبعه جمهور كثير من الشعب، والنساء اللواتي كن يندبن وينحن عليه، فإلتفت إليهن يسوع وقال: يا بنات أورشليم لا تبكين عليّ، بل إبكين علي أنفسكن، وعلي أولادكن، ",
+            Prefix.HolyWeek + "6HDProphecies&D=GL56&C=Diacon",
+            "",
+            "ils se regardent avec stupeur, le visage en feu. Voici que vient le jour du Seigneur, implacable, l'emportement et l'ardente colère, pour réduire le pays en ruines, et en exterminer les pécheurs. Car au ciel, les étoiles et Orion ne diffuseront plus leur lumière. Le soleil s'est obscurci dès son lever, la lune ne fait plus rayonner sa lumière.\nGloire à la sainte Trinité notre Dieu.",
+            "وينوح الواحد قبالة صاحبه ويتحيرون وتتغير وجوههم كاللهيب. هوذا يوم الرب يأتي بغير مغفرة، قادم بسخط وغضب، ليجعل المسكونة كلها برية قاحلة، ليبيد الخطاة منها. كواكب السماء والنجوم وكل زينتها لا تعطي نورها، وتظلم الشمس عند طلوعها والقمر لا يعطي نوره.\nمجداً للثالوث الأقدس إلهنا آمين.",
         ],
         [
-            Prefix.HolyWeek +"6HDGospel&D=GL56&C=Diacon",
-        "",
-        "Car voici venir des jours où l'on dira: Heureuses les femmes stériles, les entrailles qui n'ont pas enfanté, et les seins qui n'ont pas nourri! Alors on se mettra à dire aux montagnes: Tombez sur nous! et aux collines: Couvrez-nous! Car si l'on traite ainsi le bois vert, qu'adviendra-t-il du sec? On emmenait encore deux malfaiteurs pour être exécutés avec lui. Lorsqu'ils furent arrivés au lieu appelé Crâne, ils l'y crucifièrent ainsi que les malfaiteurs,",
-        "لأنه هوذا ستأتي أيام يقولون فيها طوبي للعواقر والبطون التي لم تلد، والثدي التي لم ترضع. حينئذ يبتدئون يقولون للجبال إسقطي علينا وللآكام غطينا، لأنه إن كانوا قد صنعوا هذا بالعود الرطب، فماذا يكون باليابس؟ وجاءوا أيضاً بإثنين آخرين مذنبين ليقتلا معه. ولما بلغوا إلي المكان المسمي الإقرانيون صلبوه هناك مع عاملي الشر،",
+            Prefix.HolyWeek + "6HDProphecies&D=GL56&C=Diacon",
+            "Ebolqen Amoc piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nOuo\  ec`èe]pi  'en  pi`èe\oou  `èete`èmmau  peje  P_  V; > ef`èe\wtp  `ènje  `èvrh  `èm`èvnau  `èmmeri  ouo\ ef`èeerxaki  \ijen  `èpka\i `ènje  piouwini 'en  pi`èe\oou. \nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
+            "Amos 8 : 9-12 \nIl adviendra en ce jour-là, oracle du Seigneur tout-puissant, que je ferai coucher le soleil en plein midi et que j'obscurcirai la terre en un jour de lumière.",
+            "عاموس ٨ : ٩ – ١٢ \nويكون في ذلك اليوم، يقول السيد الرب، تغيب الشمس وقت الظهيرة، ويظلم النور علي الأرض في النهار.",
         ],
         [
-            Prefix.HolyWeek +"6HDGospel&D=GL56&C=Diacon",
-        "",
-        "l'un à droite et l'autre à gauche. Et Jésus disait: \" Père, pardonne-leur: ils ne savent ce qu'ils font. \" Puis, se partageant ses vêtements, ils tirèrent au sort. Le peuple se tenait là, à regarder. Les chefs, eux, se moquaient: Il en a sauvé d'autres, disaient-ils; qu'il se sauve lui-même, s'il est le Christ de Dieu, l'Élu! Les soldats aussi se gaussèrent de lui: s'approchant pour lui présenter du vinaigre, ils disaient: \"Si tu es le roi des Juifs, sauve-toi toi-même!\"",
-        "واحداً عن اليمين والآخر عن اليسار. فقال يسوع: يا أبتاه، إغفر لهم لأنهم لا يدرون ماذا يفعلون. وإذ إقتسموا ثيابه بينهم وإقترعوا عليها. وكان الشعب قائماً ينظر، والرؤساء أيضاً يستهزئون به قائلين: خلص آخرين فليخلص نفسه إن كان هوالمسيح إبن الله المختار. وكان الجند أيضاً يهزأون به مقبلين إليه ويقدمون له خلاً قائلين: إن كنت أنت ملك اليهود فخلص نفسك.",
+            Prefix.HolyWeek + "6HDProphecies&D=GL56&C=Diacon",
+            "",
+            "Je changerai vos fêtes en deuil et tous vos chants en lamentations; je mettrai le sac sur tous les reins et la tonsure sur toutes les têtes. J'en ferai comme un deuil de fils unique, sa fin sera comme un jour d'amertume. Voici venir des jours - oracle du Seigneur - où j'enverrai la faim dans le pays, non pas une faim de pain, non pas une soif d'eau, mais d'entendre la parole du Seigneur. On ira titubant d'une mer à l'autre mer, du nord au levant,",
+            "وأحول أعيادكم نوحاً وجميع تسابيحكم رثاء، وأجعل علي كل حقو مسحاً، وعلي كل رأس قرحاً، وأجعله مثل الحزين على الحبيب والذين معه كمثل يوم الحزن. هوذا ستأتي أيام، يقول السيد الرب، اني أرسل جوعاً علي الأرض وليس هو جوعا إلي الخبز، أو عطشا إلي الماء، بل هو جوع إلي إستماع كلمة الرب. فتتحول المياه إلي قاع البحر، ويجرون من الشمال إلي المشرق",
         ],
         [
-            Prefix.HolyWeek +"6HDGospel&D=GL56&C=Diacon",
-        "",
-        "Il y avait aussi une inscription au-dessus de lui: \" Celui-ci est le roi des Juifs.\" L'un des malfaiteurs suspendus à la croix l'injuriait: \"N'es-tu pas le Christ? Sauve-toi toi-même, et nous aussi.\" Mais l'autre, le reprenant, déclara: \"Tu n'as même pas crainte de Dieu, alors que tu subis la même peine! Pour nous, c'est justice, nous payons nos actes; mais lui n'a rien fait de mal.\" Et il disait:",
-        "وكان عنوان فوقه مكتوباً بالعبرانية والرومانية واليونانية: هذا هو ملك اليهود.  وكان واحد من عاملي الرديء الذين صلبا معه يجدف عليه قائلا: إن كنت أنت المسيح فخلص نفسك وخلصنا. فأجاب الآخر وإنتهره قائلاً: أما تخشي الله؟ إذ كنا ونحن تحت هذا الحكم بعينه، أما نحن فبعدل جوزينا، لأننا نلنا ما تستوجبه أعمالنا، وأما هذا فلم يفعل شيئاً رديئاً. ثم قال ليسوع:",
-        ],
-        [
-            Prefix.HolyWeek +"6HDGospel&D=GL56&C=Diacon",
-        "",
-        "\"Jésus, souviens-toi de moi, lorsque tu viendras avec ton royaume.\" Et il lui dit: \"En vérité, je te le dis, aujourd'hui tu seras avec moi dans le Paradis.\" C'était déjà environ la sixième heure quand, le soleil s'éclipsant, l'obscurité se fit sur la terre entière, jusqu'à la neuvième heure.\nGloire à Dieu éternellement.",
-        "إذكرني يارب متى جئت في ملكوتك. فقال له يسوع: الحق أقول لك إنك اليوم تكون معي في الفردوس. وكان وقت الساعة السادسة، فكانت ظلمة علي الأرض كلها إلي وقت الساعة التاسعة.\nوالمجد لله دائماً.",
-        ],
-        [
-            Prefix.HolyWeek +"6HDGospel&D=GL56&C=Diacon",
-        "Iwannhn  Kev i/q/ > i/g/ - k/z/\nPilatoc de `èetafcwtem `èenaicaji > afen Ihc? `èebol ouo\ af\emci \ijen pibhma > 'en pima `èetoumou; `èerof je piliqoctrwton > `èmmet\ebreoc je Gabbaqa. Ne `ètpareckeuh de te `ènte `è mpipacxa > ne `èvnau de `ènajp coou pe. Ouo\ nafjw `èmmoc `ènje Pilatoc `ènniIoudai je \hppe ic petenouro. Nqwou de auw] `èebol je è`èalitf `èalitf a]f > peje Pilatoc nwou je `èntae] petenouro > `èauerou`èw `ènje niarxh`èereuc je `èmmonten ouro `èmmau `èebhl `èeKecar. Tote oun af; nwou `ènIhc ? \ina `èntoua]f ausi oun `ènIhc ?. Ouo\ `ènqof effai `èmpefctauroc af`èi `èebol `èepima `èetoumou; è`èerof je Pikranion > `èmmet\ebreoc de je Pigolgoqa. Pima `èetaua]f `èmmof > ouo\ au`èi]i `ènkeconi `ècnau nemaf ca`èmnh nem ca`èmnai `èmmof > Ihc ? de 'en `èqmh;.\nAf`èc'e ke titloc de `ènje Pilatoc > ouo\ afxaf \ijen pictauroc > naf `èc'hout de pe je > IHCOUC PINAZWREOC POURO NTE NIIOUDAI. Oumh] de `ènte niIoudai auw] `èmpaititloc > je naf'ent pe `èe;baki `ènje pima `èetaue] Ihc ? `èmmof > ouo\ naf`èc'hout pe `èmmet\ebreoc `èmmetrwmeoc `èmmetoueinin. Naujw oun `èmmoc pe `èmPilatoc > `ènje niarxh`èereuc `ènte niIoudai > je `èmper`èc'ai je `èpouro `ènte niIoudai > alla je `ènqof afjoc je `èanok pe `èpouro `ènte niIoudai. Af`èerou`èw `ènje Pilatoc je vh`èetai`èc'htf ai`èc'htf. Nimatoi oun `èetaue] `ènIhc ? > ausi `ènnef`è\bwc ouo\ auaitou `èn`èftou `èntoi > outoi `èe`èvouai `ènnimatoi nem ;ke`è]qhn > ;`è]qhn de ne ouatqwrp te > `èncw'i `èebol `èe`èp]wi thrc. Pejwou de `ènnou`èerhou je `èmpen`èqrenva'c alla maren\iwp `èeroc > je acnaer qa nim `èmmon > \ina `ènte ;gravh jwk `èebol ecjw `èmmoc > je auvw] `ènna`è\bwc `èe`è\rau > ouo\ ta\ebcw au\iwp `èeroc > nai oun `èetauaitou `ènje nimatoi. Nau`èo\i de `èeratou pe 'aten pictauroc `ènIhc ? > `ènje tefmau nem `ètcwni `èntefmau > Maria `ènte Kle`èwpa nem Maria :magdalinh. Ihc ? de `èetafnau `èetefmau nem pimaqhthc `èenafmei `èmmof ef`èo\i `èeratf pejaf `èntefmau > je ;`èc\imi ic pe]hri > `èita pejaf `èmpimaqhthc je \hppe ic tekmau > ouo\ icjen ;ounou `èete`èmmau afolc `ènje pimaqhthc `èe'oun `èepefhi.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
-        "Jean 19 : 1-12 \nPilate, entendant ces paroles, amena Jésus dehors et le fit asseoir au tribunal, en un lieu dit le Dallage, en hébreu Gabbatha. Or c'était la Préparation de la Pâque; c'était vers la sixième heure. Il dit aux Juifs: \"Voici votre roi.\" Eux vociférèrent: \"A mort! A mort! Crucifie-le!\" Pilate leur dit: \"Crucifierai-je votre roi?” Les grands prêtres répondirent: \"Nous n'avons de roi que César!\"",
-        "يوحنا ١٩ : ١٣ – ٢٧ \nفلما سمع بيلاطس هذا الكلام أخرج يسوع وجلس علي كرسي الولاية، في موضع يقال له رصيف الحجارة، وبالعبرانية جباثا. وكانت جمعة الفصح، وكانت الساعة السادسة. فقال بيلاطس لليهود: هوذا ملككم. فصرخوا: إرفعه، إصلبه. فقال لهم بيلاطس: أأصلب ملككم؟ أجاب رؤساء الكهنة: ليس لنا ملك إلا قيصر!",
-        ],
-        [
-            Prefix.HolyWeek +"6HDGospel&D=GL56&C=Diacon",
-        "",
-        "Alors il le leur livra pour être crucifié. Ils prirent donc Jésus. Et il sortit, portant sa croix, et vint au lieu dit du Crâne - ce qui se dit en hébreu Golgotha - où ils le crucifièrent et avec lui deux autres: un de chaque côté et, au milieu, Jésus. Pilate rédigea aussi un écriteau et le fit placer sur la croix. Il y était écrit: \"Jésus le Nazaréen, le roi des Juifs.\" Cet écriteau, beaucoup de Juifs le lurent, car le lieu où Jésus fut mis en croix était proche de la ville,",
-        "فحينئذ أسلم إليهم يسوع ليصلبوه. فأخذوا يسوع ومضوا به. فخرج وهو حامل صليبه إلي الموضع الذي يقال له الجمجمة وبالعبرانية الجلجثة، حيث صلبوه. وصلبوا معه لصين آخرين من هنا ومن هنا، ويسوع في الوسط. وكتب بيلاطس صحيفة ووضعها علي الصليب، وكان مكتوباً: يسوع الناصري ملك اليهود. فقرأ هذه الصحيفة كثيرون من اليهود، لأن المكان الذي صلب فيه يسوع كان قريباً من المدينة.",
-        ],
-        [
-            Prefix.HolyWeek +"6HDGospel&D=GL56&C=Diacon",
-        "",
-        "et c'était écrit en hébreu, en latin et en grec. Les grands prêtres des Juifs dirent à Pilate: N'écris pas: Le roi des Juifs, mais: Cet homme a dit: Je suis le roi des Juifs. Pilate répondit: Ce que j'ai écrit, je l'ai écrit. Lorsque les soldats eurent crucifié Jésus, ils prirent ses vêtements et firent quatre parts, une part pour chaque soldat, et la tunique. Or la tunique était sans couture, tissée d'une pièce à partir du haut; ils se dirent donc entre eux :",
-        "وكان مكتوباً بالعبرانية والرومانية واليونانية. فكان رؤساء كهنة اليهود يقولون لبيلاطس: لا تكتب أنه ملك اليهود، بل أنه هو قال إني أنا ملك اليهود. أجاب بيلاطس: ما كتبته قد كتبته. والجند لما صلبوا يسوع أخذوا ثيابه وجعلوها أربعة أقسام، لكل جندي قسم. وأخذوا القميص أيضاً، وكان القميص غير مخيط، منسوجاً كله من فوق. فقال بعضهم لبعض :",
-        ],
-        [
-            Prefix.HolyWeek +"6HDGospel&D=GL56&C=Diacon",
-        "",
-        "\"Ne la déchirons pas, mais tirons au sort qui l'aura\"; afin que l'Écriture fût accomplie: Ils se sont partagé mes habits, et mon vêtement, ils l'ont tiré au sort. Voilà ce que firent les soldats. Or près de la croix de Jésus se tenaient sa mère et la sœur de sa mère, Marie, femme de Clopas, et Marie de Magdala. Jésus donc voyant sa mère et, se tenant près d'elle, le disciple qu'il aimait, dit à sa mère: \"Femme, voici ton fils.\" Puis il dit au disciple:",
-        "لا نشقه لكن نقترع عليه، لمن منا يكون. ليتم المكتوب القائل: إقتسموا ثيابي بينهم، وعلي لباسي ألقوا قرعة. هذا ما فعله الجند. وكن واقفات عند صليب يسوع أمه وأخت أمه مريم التي لإكلوبا ومريم المجدلية. فلما رأي يسوع أمه والتلميذ الذي كان يحبه واقفاً، قال لأمه: يا إمرأة هوذا إبنك. ثم قال للتلميذ:",
-        ],
-        [
-            Prefix.HolyWeek +"6HDGospel&D=GL56&C=Diacon",
-        "",
-        "\"Voici ta mère.\" Et depuis cette heure-là, le disciple la prit chez lui.\nGloire à Dieu éternellement.",
-        "هوذا أمك. ومن تلك الساعة أخذها ذلك التلميذ إلي بيته.\nوالمجد لله دائماً.",
+            Prefix.HolyWeek + "6HDProphecies&D=GL56&C=Diacon",
+            "",
+            "on errera pour chercher la parole du Seigneur et on ne la trouvera pas !\nGloire à la sainte Trinité notre Dieu.",
+            "ويطلبون كلمة الرب فلا يجدونها.\nمجداً للثالوث الأقدس إلهنا آمين.",
         ],
     ],
     [
-    
+
         [
-            Prefix.HolyWeek +"6HDCommentary&D=GL56&C=Diacon",
-        "",
-        "Commentaire\nÔ tous les habitants de Jérusalem, venez contemplez ce spectacle. Ils ont crucifié Jésus, fils de David. Ils l'ont revêtu d’un manteau de pourpre, le vêtement des rois; ils l'ont couronné d'une couronne d'épines; Lui, qui a décoré le ciel d'étoiles; Lui, qui a créé la terre du souffle de Sa bouche et qui L'a décorée de fleurs. Ils Lui mirent un sceptre dans la main droite, symbole de la sagesse, du Maître.",
-        "طــرح\nيا جميع السكان بأوشليم، تعالوا أبصروا هذا المنظر، فإنهم علقوا يسوع إبن داود علي خشبة الصليب، وألبسوه ثوباً أحمر من لباس الملوك والرؤساء، ووضعوا إكليلاً من شوك علي رأسه. مزين السموات بحسن النجوم، مؤسس الأرض بروح فيه، ومزينها بحسن الأزهار، جعلوا في يمينه قصبة حكيم معلم كاتب.",
+            Prefix.HolyWeek + "FayEtafAnfHymn&D=GL56&C=Diacon",
+            "",
+            "",
+            "",
         ],
         [
-            Prefix.HolyWeek +"6HDCommentary&D=GL56&C=Diacon",
-        "",
-        "Ils mirent sa croix derrière Lui, le Roi vainqueur dans la guerre. Les femmes venues pour la Pâque virent cela et sanglotèrent. Il se retourna vers elles et leur dit: Filles de Jérusalem, ne pleurez pas sur moi! Pleurez plutôt sur vous-mêmes et sur vos enfants à cause des grandes difficultés que vous subirez et des grands soucis que vous aurez bientôt. Car voici venir des jours où l'on considérera heureuses les femmes stériles",
-        "وجعلوا صليبه خلفه كملك غالب في الحرب. فلما رأين النسوة، الآتيات إلي عيد الفصح، إنتحبن وبكين علي ما كان، فإلتفت إليهن وكلمهن هكذا قائلا: يا كل بنات أورشليم، لا تبكين عليّ بل علي ذواتكن، لأجل الشدائد العظيمة التي تدرككن، والقلق الكثير بعد زمن قليل. وستأتي عليكن أيام تغبطن فيها البطون العواقر",
+            Prefix.HolyWeek + "FayEtafAnfHymn&D=GL56&C=Diacon",
+            "",
+            "Taisoury `nnoub `nka;aroc etfai qa pi`arwmata @ etqen nenjij `n`Aarwn pi`ouyb eftale ou`c;oinoufi `e`pswi `ejen pima `n`ersw`ousi.",
+            "طاي شوري إننوب إنكاثاروس إتفاي خا بي آروماطا إتخين نين جيج إن آ آرون \nبي أويب إفطالي أو إسطوي نوفي إى إبشوي إيجين بي ما إن إيرشوأوشي.",
         ],
         [
-            Prefix.HolyWeek +"6HDCommentary&D=GL56&C=Diacon",
-        "",
-        "qui n'ont pas enfanté, qui n'ont pas nourri et qui n'ont pas élevé d’enfant. Alors ils se mettront à dire aux montagnes de tombez sur eux et aux collines de les couvrir. Car si l'on traite ainsi le bois vert, qu'adviendra-t-il du sec? Ils arrivèrent au lieu dit du Crâne - ce qui se dit en hébreu Golgotha. Ils dressèrent la croix et Le crucifièrent conformément à la prescience de Dieu. Il y avait là aussi deux malfaiteurs.",
-        "التي لم تحبل، ولم تلد، ولم ترضع، ولم ترب. وسيقولون للجبال أن تقع عليهم والآكام أن تغطيهم. فإن كانوا يفعلون هذا بالعود الرطب، فماذا يصنعون باليابس؟ ولما أتوا به إلي الإقرانيون الذي يدعي الجلجثة، أقاموا خشبة الصليب وصلبوه عليها كالتدبير. وكان هناك فاعلا شر",
-        ],
-        [
-            Prefix.HolyWeek +"6HDCommentary&D=GL56&C=Diacon",
-        "",
-        "Ceux-ci furent crucifiés avec Lui. L'un à sa droite et l'autre à sa gauche afin que s'accomplisse la prophétie qui disait: il a été compté parmi les criminels. Les soldats prirent Ses vêtements et les partagèrent en quatre parts. Sur l'ordre du grand prêtre ils écrivirent sur la croix la raison de Sa condamnation en hébreu, en grec et en latin: \"Celui-ci est le roi des Juifs.\" Tout le peuple et leurs chefs étaient là et se moquaient de Lui sans retenue",
-        "صلبوهما معه، واحداً عن اليمين والآخر عن اليسار، لكي يكمل قول النبي أنه أحصي مع المنافقين وجهال الناس. ثم أخذ الجند ثيابه وإقترعوا عليها وإقتسموها علي اربعة أجزاء. وهكذا كتبوا السبب فوق رأسه كأمر رئيس الكهنة، فكتبوا بالعبرية وباليونانية وبالرومية ( اللاتينية ) أن هذا هو ملك اليهود. وكان جميع الشعب قائما والرؤساء والقادة، وكانوا يهزأون به بغير حياء،",
-        ],
-        [
-            Prefix.HolyWeek +"6HDCommentary&D=GL56&C=Diacon",
-        "",
-        "en remuant la tête, Il en a sauvé d'autres, disaient-ils; qu'il se sauve lui-même, s'il est le Christ de Dieu, l'Élu! Même les soldats se moquaient de Lui et blasphémaient ardemment en disant: si Tu es le Roi des Juifs, descends de la croix. L'un des malfaiteurs crucifiés avec Lui le raillait devant la foule en disant: si Tu es le Christ sauve-toi et sauve-nous de cette humiliation. Mais l'autre, le reprenant, déclara: Tu n'as même pas crainte de Dieu?",
-        "ويحركون رؤوسهم ويقولون هكذا: خلص آخرين فليخلص نفسه إن كان هو المسيح إبن المبارك. وأيضاً الجند كانوا يهزأون به ويجدفون عليه بلا فتور قائلين: إن كنت أنت ملك اليهود إنزل عن الصليب. وكان واحد من فاعلي الشر اللذين صلبا معه يفتري عليه أمام الجميع قائلاً: إن كنت أنت المسيح فخلص نفسك وخلصنا من هذا العار الذي نحن فيه. فإنتهره الآخر قائلاً: أما تخاف أنت من الله؟",
-        ],
-        [
-            Prefix.HolyWeek +"6HDCommentary&D=GL56&C=Diacon",
-        "",
-        "Nous avons été condamnés à cause de nos fautes. Mais, Lui, Il n'a rien fait de pareil pour mériter cela comme nous; Il est sans péché ni injustice. Puis ouvrant la bouche il dit: Souviens-Toi de moi, Seigneur, quand Tu viendras avec ton royaume. Le Seigneur de gloire, l'ami du genre humain lui répondit: Je te le dis, ce soir même tu seras avec moi dans le paradis de la joie. Des femmes se tenaient au pied de la croix, sa mère et Marie,",
-        "نحن من أجل آثامنا طرحنا الي هذا الحكم وهذه العقوبة التي نحن فيها، أما هذا فلم يفعل شيئاً يستحق عليه مثلنا، فإنه بغير شر ولا ظلم. وفتح فاه وإبتدأ يقول: أذكرني يارب متى جئت في ملكوتك. فإستجاب له رب المجد، وخاطبه كمحب للبشر قائلاً: أقول لك إنك اليوم تكون معي في فردوس النعيم. وكانت نسوة واقفات عند صليب مخلصنا، أمه وأخت أمه مريم",
-        ],
-        [
-            Prefix.HolyWeek +"6HDCommentary&D=GL56&C=Diacon",
-        "",
-        "femme de Clopas, la soeur de sa mère et Marie de Magdala. Jésus donc voyant sa mère et, se tenant près d'elle, le disciple qu'il aimait, dit à sa mère: Femme, voici ton fils. Puis il dit au disciple: Voici ta mère. Dès cette heure-là, le disciple l'accueillit chez lui selon la parole du Seigneur. A partir de la sixième heure, l'obscurité se fit sur toute la terre, jusqu'à la neuvième heure. Ô Toi qui as décoré de fleurs la terre, ils t'ont revêtu d'un manteau rouge.",
-        "التي لإكلوبا والمجدلية. فلما رأي يسوع أمه والتلميذ الآخر الذي كان يحبه، فأشار إليها قائلا: يا إمرأة هذا إبنك. وقال للآخر: هذه أمك. ومن تلك الساعة أخذها التلميذ إلي بيته كقول الرب. ومن الساعة السادسة الي الساعة التاسعة كانت ظلمة علي الأرض كلها. يا من زين الأرض بكثرة الأزهار، ألبسوك ثوباً أحمر،",
-        ],
-        [
-            Prefix.HolyWeek +"6HDCommentary&D=GL56&C=Diacon",
-        "",
-        "Toi qui as agrémenté le ciel d'étoiles, ils te couronnèrent d'une couronne d'épines. Toi qui tiens le ciel et la terre dans Ta main, Toi qui as fait tenir la terre par un mot de Ta bouche, ils te mirent un roseau dans ta main. A cause de nos péchés Tu as été crucifié sur l'arbre de la croix et Tu as détruit la puissance de la mort par Ta croix, Toi, notre Seigneur dont le pouvoir ne peut être détruit.",
-        "والسماء بكثرة النجوم، وضعوا عليك إكليلاً من شوك. يا من السماء والأرض في قبضتك، وضعوا في يدك قصبة، يا من علقت الأرض كلها بكلمة من فيك، وصلبت علي خشبة من أجل خطايانا، وأبطلت عز الموت يا سيدنا بصليبك، يا ذا القدرة المنيعة.",
+            Prefix.HolyWeek + "FayEtafAnfHymn&D=GL56&C=Diacon",
+            "`Fai `etafenf `e`pswi @ `nou;uci`a ecsyp @hijen pictauroc @ qa `poujai mpengenoc.",
+            "Voici Celui qui s'est élevé\nen sacrifice accepté sur la\ncroix pour le salut du genre humain.",
+            "فاي إيطاف إنف إى إبشوي إن أو ثيسيا إسشيب هيجين \nبي إسطافروس خا إب أوجاي إمبين جينوس",
         ],
     ],
     [
-    
+
         [
-            Prefix.HolyWeek +"EfnotiNayNanRefrain&D=GL56&C=Diacon",
-        "",
-        "Fnou] nai nan ;es ounai `eron `ari ounai neman qen tekmetouro",
-        "يا الله إرحمنا، قرر لنا رحمة، إصنع معنا رحمة فى ملكوتك.",
+            Prefix.HolyWeek + "6HDStPaul&D=GL56&C=Diacon",
+            "}`epictoly `nte pencaq Pauloc@ `ere pef`cmou `e;ouab swpi neman `amyn. Pauloc `vbwk `mpen=o=c I=y=c P=,=c@ pi`apoctoloc et;ahem@ vy`etau;asf `epihisennoufi `nte V]. Anok de `nnec]wpi nhi `ntasousou `mmoi `ebyl qen pi`ctauroc `nte pen=o=c I=y=c P=,=c... Pi`hmot gar nemwten nem `thiryny eucop je `amyn ec`eswpi `amyn",
+            "En présence de l’évêque",
+            "رسالة معلمنا بولس بركتة المقدسة لتكن معنا آمين. بولس عبد ربنا يسوع المسيح الرسول المدعو المفرز لتبشير الله. وَأَمَّا مِنْ جِهَتِي، فَحَاشَا لِي أَنْ أَفْتَخِرَ إِلَّا بِصَلِيبِ رَبِّنَا يَسُوعَ ٱلْمَسِيحِ …نعمة الله الآب تحل على أرواحكم يا ابائي واخوتي آمين",
+        ],
+        [
+            Prefix.HolyWeek + "6HDStPaul&D=GL56&C=Diacon",
+            "Pi`hmot gar `mPen¡ I=y=c P=,=c ef`eswpi nem pekagion `pneuma pa[oic `niwt ettaiyout `nar,yeruc papa abba (...) nem peniwt `n`epickopoc abba (...) Mare pi`klyroc nem pilaoc tyrf oujai qen P¡ @ je amyn eceswpi",
+            "La grâce de notre Seigneur Jésus Christ, soit avec votre esprit saint, mon maître et bienheureux père, le grand prêtre, le pape Anba (---) et notre père l’évêque anba (---) Que le clergé et tout le peuple soient fortifiés dans le Seigneur. Amen, ainsi soit-il",
+            "نعمة ربنا يسوع المسيح تكون مع روحك الطاهرة، يا سيدي الأب المكرم رئيس الكهنة البابا أنبا (…) وأبينا الأسقف الأنبا (...) فليكن الإكليروس وكل الشعب معافين في الرب. آمين يكون",
+        ],
+        [
+            Prefix.HolyWeek + "6HDStPaul&D=GL56&C=Diacon",
+            "",
+            "Epitre de Saint Paul \nAux Galates 6 : 14-18\nPour moi, que jamais je ne me glorifie sinon dans la croix de notre Seigneur Jésus Christ, qui a fait du monde un crucifié pour moi et de moi un crucifié pour le monde. Car la circoncision n'est rien, ni l'incirconcision; il s'agit d'être une créature nouvelle. Et à tous ceux qui suivront cette règle, paix et miséricorde, ainsi qu'à l'Israël de Dieu.",
+            "غلاطية ٦ : ١٤ -١٨ \nوأما من جهتي فحاشا لي أن أفتخر إلا بصليب ربنا يسوع المسيح. هذا الذي قد صلب العالم لي. وأنا أيضاً صُلبت للعالم، لأنه في المسيح يسوع ليس الختان ينفع بشيء ولا الغرلة بل الخليقة الجديدة. فكل الذين يسلكون بحسب هذا القانون عليهم السلام والرحمة وعلي إسرائيل الله.",
+        ],
+        [
+            Prefix.HolyWeek + "6HDStPaul&D=GL56&C=Diacon",
+            "",
+            "Dorénavant que personne ne me suscite d'ennuis : je porte dans mon corps les marques de Jésus. Frères, la grâce de notre Seigneur Jésus Christ soit avec votre esprit ! Amen.\nLa grâce de Dieu le Père soit avec vous, mes pères et mes frères. Amen.",
+            "فيما بعد لا يجلب أحد عليّ أتعاباً لأني حامل في جسدي سمات الرب يسوع. نعمة ربنا يسوع المسيح مع روحكم يا إخوتي. آمين.\nنعمة الله الآب تحل على أرواحكم يا ابائي واخوتي. آمين.",
         ],
     ],
     [
-    
+
         [
-            Prefix.HolyWeek +"6HDConfessionOfDimas&D=GL56&C=Diacon",
-        "Aripameu`i `w Pa=o=c @ aksan`i qen tekmetouro.\nAripameu`i `w Paouro @ aksan`i qen tekmetouro.\nAripameu`i `w Vye;ouab @ aksan`i qen tekmetouro.",
-        "Souviens-Toi de moi, Seigneur, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô mon Roi, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Saint, quand Tu viendras dans Ton Royaume.",
-        "آري با ميفئي أوفي إثؤواب أكشان إي خين تيك ميت أورو .",
+            Prefix.HolyWeek + "OMonoGuenisHymn&D=GL56&C=Diacon",
+            "Omonogenyc `Uioc ke Logoc tou :eou @ (`a;anatoc)=g `upar,wn ke kata dexamenoc @ diatyn `ymeteran cwtyrian @ carkw;yne ek tyc `agiac ;e`otokou ke `a`i (par;enou Mariac)=b.",
+            "Ô Toi Fils Unique de Dieu, Toi le Verbe Immortel de Dieu, Toi qui pour notre salut, acceptas de t’incarner, de mère de Dieu, (toujours Vierge, Sainte Marie)²	",
+            "أومونوجينيس إيوس كى لوغوس توو ثيؤو (أثاناطوس)3 إب أرخون كى كاطا ذيكسامينوس: ذى أتين إيميتران سوتيريان: صاركوثيني تيس أجياس ثيؤتوكو كى أ إى (بارثينو مارياس) ²",
         ],
         [
-            Prefix.HolyWeek +"6HDConfessionOfDimas&D=GL56&C=Diacon",
-        "Mnyc;yti mou Kuri`e @ enty bacili`a cou.\nMnyc;yti mou agie @ enty bacili`a cou.\nMnyc;yti mou decpota @ enty bacili`a cou.",
-        "Souviens-Toi de moi, Seigneur, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Saint, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Maître, quand Tu viendras dans Ton Royaume.",
-        "إمنيس ثيتي مو ذيسبوطا : إنتي فاثيليا سو.",
+            Prefix.HolyWeek + "OMonoGuenisHymn&D=GL56&C=Diacon",
+            "(Atreptwc)=g  `enan`;rwpicac `o`ctaurw;ic te `<ricte `o :eoc. :anatw ;anaton patycac @ ic wntyc `agiac ~Triadoc @ cun doxa zomenoc tw Patri ke tw `agiw `Pneumati @ cwcon `ymac.",
+            "Ô Toi qui sans changement, devins Homme, fus crucifié, ô Christ Dieu ; par la mort vainquit la mort, l’un de la Sainte Trinité, glorifié, avec le Père, et le Saint-Esprit, pitié pour nous.",
+            "(أتريبطوس)3 إنان إثروبيساس أو إسطاﭭروتيس تيه إخريس تى أوثيؤس. ثاناطو ثاناطون باتيساس:يس أون تيس أجياس إترى أذوس:سين ذوكصا زومينوس. طو باترى كى طو أجيو بنيفما تى :سوسون إيماس",
         ],
         [
-            Prefix.HolyWeek +"6HDConfessionOfDimas&D=GL56&C=Diacon",
-        "",
-        "Souviens-Toi de moi, Seigneur, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Saint, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Maître, quand Tu viendras dans Ton Royaume.",
-        "اذكرنى يارب متى جئت فى ملكوتك.\nاذكرني يا قدوس متى جئت فى ملكوتك.\nاذكرني يا سيد متى جئت فى ملكوتك.",
+            Prefix.HolyWeek + "OMonoGuenisHymn&D=GL56&C=Diacon",
+            "(Agioc)=g `o :eoc `odi `ymac an `;rwpoc @ ge gonwc atreptwc ke minac :eoc. Agioc Ic,uroc `o `en ac;enia to `upere,on tyc Ic,uroc `epidixamenoc.",
+            "Saint Dieu incarné pour nous, sans hésitation, Lui qui est Dieu. Saint Fort, apparu faible, Lui qui est le plus puissant.",
+            "أجيوس أوثيؤس: أوذى إيماس أن إثروبوس جى غونوس أتريبتوس كى مى ناس ثيؤس أجيوس يسشيروس أو إنا ثنيا طو إي بيريخو تيس يسشيروس إبى ذيكسامينوس",
         ],
         [
-            Prefix.HolyWeek +"6HDConfessionOfDimas&D=GL56&C=Diacon",
-        "",
-        "Ô Roi des rois, le Christ notre Dieu et Seigneur des seigneurs, comme Tu t’es souvenu du larron qui a cru en Toi sur la croix, souviens-Toi de nous dans Ton royaume.",
-        "يا ملك الملوك المسيح إلهنا ورب الأرباب كما ذكرت اللص الذي آمن بك على الصليب، اذكرنا فى ملكوتك",
+            Prefix.HolyWeek + "OMonoGuenisHymn&D=GL56&C=Diacon",
+            "Agioc `A;anatoc `o `ctaurw;ic di `ymac @ `oton di`a`ctaurou ;anaton `upominac carki ke dixacuwc ke en ;anatw gegonwc `upar,ic. `A;anatoc. Agia ~Triac `ele`ycon `ymac.",
+            "Saint immortel, qui a été crucifié pour nous, a supporté la mort sur la croix, et l’a acceptée dans sa chair, Lui l’Eternel, qui ne meurt pas. Ô Trinité Sainte, pitié pour nous.",
+            "أجيوس أثاناتوس أو إسطاﭭروتيس ذى إيماس أو طون ذى إسطاﭭرو ثاناطون إيبوميناس ساركى كى ذيكساسوس كى إن ثاناطو جى جونوس إيبارشيس أثاناطوس. أجيا ترياس اليسون إيماس",
         ],
         [
-            Prefix.HolyWeek +"6HDConfessionOfDimas&D=GL56&C=Diacon",
-        "",
-        "Souviens-Toi de moi, Seigneur, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Saint, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Maître, quand Tu viendras dans Ton Royaume.",
-        "اذكرنى يارب متى جئت فى ملكوتك.\nاذكرني يا قدوس متى جئت فى ملكوتك.\nاذكرني يا سيد متى جئت فى ملكوتك.",
+            Prefix.HolyWeek + "OMonoGuenisHymn&D=GL56&C=Diacon",
+            "Agioc  o ;eoc @ Agioc Ic,uroc @ Agioc A;anatoc @ o `ctaurw;ic diymac @ eleycon ` ymac\nJe Agioc  o ;eoc @ Agioc Ic,uroc @ Agioc A;anatoc @ o `ctaurw;ic diymac @ eleycon ` ymac\nJe Agioc  o ;eoc @ Agioc Ic,uroc @ Agioc A;anatoc @ o `ctaurw;ic diymac @ eleycon ` ymac",
+            "Dieu Saint, Dieu Puissant, Dieu vivant et immortel, crucifié pour nous, aie pitié de nous\nDieu Saint, Dieu Puissant, Dieu vivant et immortel, crucifié pour nous, aie pitié de nous\nDieu Saint, Dieu Puissant, Dieu vivant et immortel, crucifié pour nous, aie pitié de nous",
+            "قدوس الله قدوس القوى قدوس الحى الذى لا يموت، الذى صُلب عنا ارحمنا\nقدوس الله قدوس القوى قدوس الحى الذى لا يموت، الذى صُلب عنا ارحمنا\nقدوس الله قدوس القوى قدوس الحى الذى لا يموت، الذى صُلب عنا ارحمنا",
         ],
         [
-            Prefix.HolyWeek +"6HDConfessionOfDimas&D=GL56&C=Diacon",
-        "",
-        "Qui a vu un larron croire comme ce larron? Il a subtilisé par sa fidélité le Royaume des cieux et le paradis de la joie.",
-        "من رأى لصاً آمن بملك مثل هذا اللص الذي بأمانته سرق ملكوت السماوات وفردوس النعيم",
-        ],
-        [
-            Prefix.HolyWeek +"6HDConfessionOfDimas&D=GL56&C=Diacon",
-        "",
-        "Souviens-Toi de moi, Seigneur, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Saint, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Maître, quand Tu viendras dans Ton Royaume.",
-        "اذكرنى يارب متى جئت فى ملكوتك.\nاذكرني يا قدوس متى جئت فى ملكوتك.\nاذكرني يا سيد متى جئت فى ملكوتك.",
-        ],
-        [
-            Prefix.HolyWeek +"6HDConfessionOfDimas&D=GL56&C=Diacon",
-        "",
-        "Pour tes actions, ô larron, tu as été suspendu sur la croix comme les condamnés ; et par ta Foi tu as mérité la grâce et la joie, le Royaume des cieux et le paradis de la joie.",
-        "من أجل أعمالك أيها اللص علقت على الصليب كالمذنبين وبإيمانك استحققت النعمة والفرح وملكوت السماوات وفردوس النعيم.",
-        ],
-        [
-            Prefix.HolyWeek +"6HDConfessionOfDimas&D=GL56&C=Diacon",
-        "",
-        "Souviens-Toi de moi, Seigneur, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Saint, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Maître, quand Tu viendras dans Ton Royaume.",
-        "اذكرنى يارب متى جئت فى ملكوتك.\nاذكرني يا قدوس متى جئت فى ملكوتك.\nاذكرني يا سيد متى جئت فى ملكوتك.",
-        ],
-        [
-            Prefix.HolyWeek +"6HDConfessionOfDimas&D=GL56&C=Diacon",
-        "",
-        "Bienheureux es-tu ô bon larron qui a parlé juste. Tu t’es qualifié en vérité pour le Royaume des cieux et le paradis de la joie.",
-        "طوباك أنت أيها اللص الطوباوي ولسانك الحسن المنطق الذي به تأهلت بالحقيقة لملكوت السماوات وفردوس النعيم",
-        ],
-        [
-            Prefix.HolyWeek +"6HDConfessionOfDimas&D=GL56&C=Diacon",
-        "",
-        "Souviens-Toi de moi, Seigneur, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Saint, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Maître, quand Tu viendras dans Ton Royaume.",
-        "اذكرنى يارب متى جئت فى ملكوتك.\nاذكرني يا قدوس متى جئت فى ملكوتك.\nاذكرني يا سيد متى جئت فى ملكوتك.",
-        ],
-        [
-            Prefix.HolyWeek +"6HDConfessionOfDimas&D=GL56&C=Diacon",
-        "",
-        "Ô bon larron, qu’as-tu vu et qu’as-tu regardé pour confesser le Christ crucifié en Sa chair, Roi du ciel et Dieu de tous.",
-        "أيها اللص الطوباوى ماذا رأيت وماذا أبصرت حتى اعترفت بالمسيح المصلوب بالجسد ملك السماء وإله الكل",
-        ],
-        [
-            Prefix.HolyWeek +"6HDConfessionOfDimas&D=GL56&C=Diacon",
-        "",
-        "Souviens-Toi de moi, Seigneur, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Saint, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Maître, quand Tu viendras dans Ton Royaume.",
-        "اذكرنى يارب متى جئت فى ملكوتك.\nاذكرني يا قدوس متى جئت فى ملكوتك.\nاذكرني يا سيد متى جئت فى ملكوتك.",
-        ],
-        [
-            Prefix.HolyWeek +"6HDConfessionOfDimas&D=GL56&C=Diacon",
-        "",
-        "Tu n’as pas vu le Christ Dieu transfiguré sur le mont Thabor dans la gloire de Son Père ; mais tu L’as vu suspendu au calvaire. Immédiatement tu as crié en disant :",
-        "ما رأيت المسيح الإله متجلياً على طور طابور فى مجد أبيه بل رأيته معلقاً على الاقرانيون فلوقتك صرخت قائلاً:",
-        ],
-        [
-            Prefix.HolyWeek +"6HDConfessionOfDimas&D=GL56&C=Diacon",
-        "",
-        "Souviens-Toi de moi, Seigneur, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Saint, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Maître, quand Tu viendras dans Ton Royaume.",
-        "اذكرنى يارب متى جئت فى ملكوتك.\nاذكرني يا قدوس متى جئت فى ملكوتك.\nاذكرني يا سيد متى جئت فى ملكوتك.",
-        ],
-        [
-            Prefix.HolyWeek +"6HDConfessionOfDimas&D=GL56&C=Diacon",
-        "",
-        "Tu as cru quand tu as vu le ciel et la terre trembler, le soleil et la lune s’obscurcir, les rochers se fissurer, le voile du temple se déchirer, immédiatement tu as crié en disant :",
-        "آمنت لما رأيت السماء والأرض اضطربتا والشمس والقمر اظلمتا والصخور تشققت وستر الهيكل انشق فلوقتك صرخت قائلاً :",
-        ],
-        [
-            Prefix.HolyWeek +"6HDConfessionOfDimas&D=GL56&C=Diacon",
-        "",
-        "Souviens-Toi de moi, Seigneur, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Saint, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Maître, quand Tu viendras dans Ton Royaume.",
-        "اذكرنى يارب متى جئت فى ملكوتك.\nاذكرني يا قدوس متى جئت فى ملكوتك.\nاذكرني يا سيد متى جئت فى ملكوتك.",
-        ],
-        [
-            Prefix.HolyWeek +"6HDConfessionOfDimas&D=GL56&C=Diacon",
-        "",
-        "En vérité, en vérité je te le dis, répondis le Seigneur, ô larron, aujourd’hui tu seras avec moi dans mon paradis et tu hériteras de mon Royaume. Le disciple a renié le Christ et le larron a crié en disant :",
-        "الحق الحق اقول لك قال الرب، أيها اللص إنك انت اليوم تكون معى فى فردوسى وترث ملكوتي. التلميذ أنكر واللص صرخ قائلاً:",
-        ],
-        [
-            Prefix.HolyWeek +"6HDConfessionOfDimas&D=GL56&C=Diacon",
-        "",
-        "Souviens-Toi de moi, Seigneur, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Saint, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Maître, quand Tu viendras dans Ton Royaume.",
-        "اذكرنى يارب متى جئت فى ملكوتك.\nاذكرني يا قدوس متى جئت فى ملكوتك.\nاذكرني يا سيد متى جئت فى ملكوتك.",
-        ],
-        [
-            Prefix.HolyWeek +"6HDConfessionOfDimas&D=GL56&C=Diacon",
-        "",
-        "Heureux es-tu Dimas le larron, plus que tous ceux qui sont sur la terre, tu as obtenu une possibilité que nul n’a eue. Toute ta vie tu as été larron dans la région de Jérusalem. Un seul mot tu as dit au Seigneur et Il t’a mené au paradis.",
-        "طوباك أنت يا ديماس اللص أكثر من كل من على الأرض لأنك نلت وسيلة لم ينلها أحد قط كل زمانك كنت لصاً فى غابات أورشليم وبكلمة واحدة قلتها للرب ارسلك إلى الفردوس",
-        ],
-        [
-            Prefix.HolyWeek +"6HDConfessionOfDimas&D=GL56&C=Diacon",
-        "",
-        "Souviens-Toi de moi, Seigneur, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Saint, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Maître, quand Tu viendras dans Ton Royaume.",
-        "اذكرنى يارب متى جئت فى ملكوتك.\nاذكرني يا قدوس متى جئت فى ملكوتك.\nاذكرني يا سيد متى جئت فى ملكوتك.",
-        ],
-        [
-            Prefix.HolyWeek +"6HDConfessionOfDimas&D=GL56&C=Diacon",
-        "",
-        "Lorsque notre Sauveur a été crucifié sur le bois de la croix, ils ont crucifié avec Lui deux larrons, l’un à sa droite et l’autre à sa gauche. Alors Dimas le larron de droite a immédiatement crié en disant :",
-        "كان لما صلب مخلصنا على خشبة الصليب، صلبوا معه لصين عن يمينه ويساره. فصرخ ديماس اللص اليمين قائلاً:",
-        ],
-        [
-            Prefix.HolyWeek +"6HDConfessionOfDimas&D=GL56&C=Diacon",
-        "",
-        "Souviens-Toi de moi, Seigneur, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Saint, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Maître, quand Tu viendras dans Ton Royaume.",
-        "اذكرنى يارب متى جئت فى ملكوتك.\nاذكرني يا قدوس متى جئت فى ملكوتك.\nاذكرني يا سيد متى جئت فى ملكوتك.",
-        ],
-        [
-            Prefix.HolyWeek +"6HDConfessionOfDimas&D=GL56&C=Diacon",
-        "",
-        "Notre Sauveur lui répondit : Ce jour tu seras avec moi dans mon paradis et tu t’y réjouiras.",
-        "قال له مخلصنا إنك اليوم تكون معى فى فردوسى وتتنعم فيه.",
-        ],
-        [
-            Prefix.HolyWeek +"6HDConfessionOfDimas&D=GL56&C=Diacon",
-        "",
-        "Souviens-Toi de moi, Seigneur, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Saint, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Maître, quand Tu viendras dans Ton Royaume.",
-        "اذكرنى يارب متى جئت فى ملكوتك.\nاذكرني يا قدوس متى جئت فى ملكوتك.\nاذكرني يا سيد متى جئت فى ملكوتك.",
-        ],
-        [
-            Prefix.HolyWeek +"6HDConfessionOfDimas&D=GL56&C=Diacon",
-        "",
-        "Nous implorons Celui qui a été élevé sur le bois de la croix, a versé son sang divin pour nous, a anéanti la mort par Sa Mort, de nous remettre nos péchés, de préserver la vie de notre père le patriarche le pape Anba (…), ainsi que la vie notre père l’évêque Anba (…), et de protéger mes pères réunis dans cette église du plus petit au plus grand. Dites tous (Amen!)3",
-        "ونحن نطلب إلى الذى رفع على خشبة الصليب وبذل دمه الإلهى عنا وابطل الموت بموته أن يغفر خطايانا ويحفظ لنا حياة الآب البطريرك البابا) …(  و أبينا الأسقف الأنبا )…( وسادتى الآباء المجتمعين فى هذه البيعة من صغيرهم إلى كبيرهم قولوا كلكم (آمين)3",
-        ],
-        [
-            Prefix.HolyWeek +"6HDConfessionOfDimas&D=GL56&C=Diacon",
-        "Wouniatk `n;ok `w Dymac piconi @ para ouon niben ethijen pikahi @ je aksasni `n;ok @ `eoueu Kuri`e `mpeouai sasni `erof `eneh.\nAkerpekcyou tyrf @ ekoi `nconi hipiiah `ssyn `nte Ieroucalym @ oucaji `nouwt akjof `mP=o=c @ afouorpk `epiparadicoc.",
-        "Heureux es-tu Dimas le larron parmi ceux qui sont sur la terre car tu as reçu le chemin que personne n’a reçu.\nToute ta vie tu fus larron dans la forêt de Jérusalem, et une seule parole tu dis au Seigneur et Il t’envoya au paradis.",
-        "طوباك أنت يا ديماس اللص أكثر من كل من على الأرض لأنك نلت وسيلة لم ينلها أحد قط\nكل زمانك أقمت لصاً فى غابات أورشليم وكلمة واحدة قلت للرب فارسلك إلى الفردوس",
-        ],
-        [
-            Prefix.HolyWeek +"6HDConfessionOfDimas&D=GL56&C=Diacon",
-        "Acswpi `etau`isi `mPencwtyr @ `ejen pise `nte pi`ctauroc @ au`isi nemaf `nconi `cnau  @ caou`inam nem caja[i `mmof.\nAfws `ebol `nje Dymac piconi @ etcaou`inam afjw `mmoc @ je `aripameu`i `w Pa=o=c @ aksan`i qen tekmetouro.",
-        "Quand notre Sauveur fut crucifié, sur le bois de la croix, ils crucifièrent avec lui deux larrons, à sa droite et à sa gauche.\nDimas le larron à sa droite s’écria en disant “Souviens-Toi de moi, Seigneur, quand Tu viendras dans Ton Royaume.”",
-        "كان لما صلب مخلصنا على خشبة الصليب، صلبوا معه لصين عن يمينه ويساره.\nفصرخ ديماس اللص اليمين قائلاً: اذكرنى يارب متى جئت فى ملكوتك.",
-        ],
-        [
-            Prefix.HolyWeek +"6HDConfessionOfDimas&D=GL56&C=Diacon",
-        "Pejaf naf `nje Pencwtyr @ je `mvoou ek`eswpi nemyi @ `n`hryi qen piparadicoc @ `ntekounof `mmok `nqytf.\n`Ere vy`etaf `aly`i `ejen pise `nte pi`ctauroc @ af] `mpef`cnof `nnou] qaron @ afkwrf `m`vmou hiten pefmou @ `m`p,w `ebol `nte nennobi.",
-        "\nNotre Sauveur lui répondit, “Aujourd’hui, tu seras avec moi au paradis et t’y seras comblé.”\nNous demandons à celui qui fut élevé sur le bois de la croix, a versé son sang divin pour nous, et a écrasé la mort, de nous pardonner nos péchés.",
-        "قال له مخلصنا انك اليوم تكون معى فى فردوسى وتتنعم فيه.\nونحن نطلب إلى الذى رفع على خشبة الصليب وبذل دمه الإلهى عنا وابطل الموت بموته أن يغفر خطايانا.",
-        ],
-        [
-            Prefix.HolyWeek +"6HDConfessionOfDimas&D=GL56&C=Diacon",
-        "`Ef`e`areh `epiwnq `nna[oic `nio] @ et;ouyt qen tai ekklyc`ia @ icjen poukouji sa pounis] @ `ajoc tyrou je `amyn ec`eswpi.",
-        "Puis on éclaire l'église et on allume les bougies en signe de la fin de l'obscurité au début de la neuvième heure.",
-        "ثم تُضاء أنواع الكنيسة وتوقد الشموع إشارةٌ إلى إنتهاء الظلمة في الساعة التاسعة.",
+            Prefix.HolyWeek + "OMonoGuenisHymn&D=GL56&C=Diacon",
+            "Doxa Patri ke Uiw ke agiw Pneumati@ ke nun ke `a`i ke ic touc `e`wnac twn `e`wnwn `amyn @ agia Triac @ eleycon ` ymac",
+            "Gloire au Père au Fils et au Saint-Esprit, Maintenant et pour toujours, pour les siècles des siècles Amen. Ô Trinité Sainte, aie pitié de nous.",
+            "المجد للآب والإبن والروح القدس، الآن و كل أوان وإلي دهر الدهور. آمين. أيها الثالوث المقدس ارحمنا",
         ],
     ],
     [
-    
+
         [
-            Prefix.HolyWeek +"9HDProphecies&D=GL56&C=Diacon",
-        "",
-        "Ebolqen Ieremiac piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nP_  matamoi  ouo\  ei`èemi  > tote  ainau  `èenou`è\bhou`èi. Anok de  `èm`èvrh;  `ènou\ihb `ènatpet\wou eu`èini `èmmof `èe]atf ouo\ `èmpi`èemi.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
-        "إرميا ١١ : ١٨ - ١٢ : ١ – ١٣\nيا رب عرفني فأعلم، حينئذ نظرت إلي أعمالهم وأنا كحمل بلا عيب يساق إلي الذبح ولم يعلم،",
-        ],
-        [
-            Prefix.HolyWeek +"9HDProphecies&D=GL56&C=Diacon",
-        "",
-        "j'ignorais qu'ils tramaient contre moi des machinations.  Détruisons l'arbre dans sa vigueur, arrachons-le de la terre des vivants, qu'on ne se souvienne plus de son nom! Le Seigneur Sabaot, qui juge avec justice, qui scrute les reins et les cœurs, je verrai ta vengeance contre eux, car c'est à toi que j'ai exposé ma cause. C'est pourquoi, ainsi parle le Seigneur Sabaot contre les gens d'Anatot qui en veulent à ma vie et qui me disent: \" Tu ne prophétiseras",
-        "تشاوروا عليّ مشورة رديئة قائلين: تعالوا فلنقطع شجرة خبزه، ونستأصله من أرض الأحياء ولا يذكر إسمه بعد، الرب يحكم بالعدل ويفحص القلوب والكلي. أرني الإنتقام الذي سيحل بهم من جهتك، لأنهم كشفوا جبلتي لك. من أجل هذا ما يقوله الرب الإله علي عناثوث الذين يطلبون نفسي القائلين لا تتنبأ",
-        ],
-        [
-            Prefix.HolyWeek +"9HDProphecies&D=GL56&C=Diacon",
-        "",
-        "pas au nom du Seigneur, sinon tu mourras de notre main: c'est pourquoi, ainsi parle le Seigneur: Voici que je vais les visiter. Leurs jeunes gens mourront par l'épée, leurs fils et leurs filles par la famine. Il n'en restera aucun quand j'amènerai le malheur sur les gens d'Anatot, l'année de leur châtiment. Tu es trop juste, Seigneur, pour que j'entre en contestation avec toi. Cependant je parlerai avec toi de questions de droit Pourquoi la voie",
-        "بإسم الرب لئلا تموت بأيدينا : هوذا أنا سأرسل عليهم هلاكاً فيسقط شبابهم بالسيف وبنوهم وبناتهم يموتون بالقحط، ولا تكون لهم بقية لأني منزل الشرور علي السكان بعناثوث في سنة إفتقادهم. عادل أنت يارب وإن حاججتك، لكني أتكلم بالحكم أمامك. لماذا طريق ",
-        ],
-        [
-            Prefix.HolyWeek +"9HDProphecies&D=GL56&C=Diacon",
-        "",
-        "des méchants est-elle prospère? Pourquoi tous les traîtres sont-ils en paix? Tu les plantes, ils s'enracinent, ils vont bien, ils portent du fruit. Tu es près de leur bouche, mais loin de leurs reins. Mais toi, Seigneur, tu me connais, tu me vois, tu éprouves mon cœur qui est avec toi. Enlève-les comme des brebis pour l'abattoir, consacre-les pour le jour du massacre. Jusques à quand le pays sera-t-il en deuil et l'herbe de toute la campagne desséchée ?",
-        "المنافقين سهلة وجميع الذي لا يطيعون مخصبون؟ غرستهم فتأصلوا وولدوا الأولاد فنموا وأثمروا وأنت قريب من أفواههم بعيد عن كلامهم، وأنت يارب قد عرفتني وإختبرت قلبي، طهرهم في يوم ذبحهم. إلي متي تحزن الأرض، وييبس كل عشب الحقل من شر ساكنيها ؟",
-        ],
-        [
-            Prefix.HolyWeek +"9HDProphecies&D=GL56&C=Diacon",
-        "",
-        "C'est par la perversité de ses habitants que périssent bêtes et oiseaux. Car ils disent Dieu ne voit pas notre destinée. Si la course avec des piétons t'épuise, comment lutteras-tu avec des chevaux? Dans un pays en paix tu te sens en sécurité, mais que feras-tu dans les halliers du Jourdain? Car même tes frères et la maison de ton père, même eux te trahiront! Même eux crieront après toi à pleine voix. N'aie pas confiance en eux quand ils te",
-        "فنيت البهائم والطيور لأنهم قالوا إن الله لا يري طرقنا. إن جريت مع المشاة فأتعبوك فكيف تباري الخيل؟ وإن كنت توكلت علي ارض سلامتك فكيف تعمل في علو الأردن؟ لأن إخوتك وبيت أبيك قد أهانوك وإن هم صرخوا وراءك فلا تأمنهم، لأنهم لا يتكلمون معك بالخير. ",
-        ],
-        [
-            Prefix.HolyWeek +"9HDProphecies&D=GL56&C=Diacon",
-        "",
-        "diront de bonnes paroles! J'ai abandonné ma maison, quitté mon héritage; ce que je chérissais, je l'ai livré aux mains de ses ennemis. Mon héritage s'est comporté envers moi comme un lion de la brousse, il a poussé contre moi ses rugissements, aussi l'ai je pris en aversion. Mon héritage serait-il un rapace bigarré, que les rapaces l'encerclent de toutes parts? Allez! Rassemblez toutes les bêtes sauvages, faites-les venir à la curée!",
-        "هجرت بيتي وتركت ميراثي وأسلمت نفسي الحبيبة ليد أعدائها، صار لي ميراثي كالأسد في الغابة، رفع صوته عليّ. من اجل ذلك أبغضته. هل ميراثي هو حجر ضيعة لي؟ او هو قبر إنطلقوا إليه وحوله، وجمعوا جميع وحوش الحقل ليأتوه ويأكلوه.",
-        ],
-        [
-            Prefix.HolyWeek +"9HDProphecies&D=GL56&C=Diacon",
-        "",
-        "Des pasteurs en grand nombre ont saccagé ma vigne, piétiné mon domaine, réduit mon domaine préféré en solitude désertique. Ils en ont fait une région désolée, en deuil, désolée devant moi. Tout le pays est désolé et personne ne prend cela à cœur ! Sur tous les monts chauves du désert sont arrivés des dévastateurs car le Seigneur tient une épée dévorante d'un bout du pays jusqu'à l'autre il n'y a de paix pour aucune chair. Ils ont semé du blé",
-        "رعاة كثيرون أفسدوا كرمي ودنسوا نصيبي وجعلوا نصيبي الحسن موضع قفر لا يسلك، صيروه خراباً وفساداً لي. الأرض كلها تهلك هلاكاً لأنه ليس إنسان جعله في قلبه، علي جميع الروابي في البرية أتي الناهبون، لأن سيف الرب يأكل من أقصي الأرض إلي أقصاها ولا يكون سلام لأحد من الشر، زرعوا حنطة",
-        ],
-        [
-            Prefix.HolyWeek +"9HDProphecies&D=GL56&C=Diacon",
-        "",
-        "ils moissonnent des épines. Ils se sont épuisés sans profit. Ils ont honte de leurs récoltes, à cause de l'ardente colère du Seigneur.\nGloire à la sainte Trinité notre Dieu.",
-        "فحصدوا شوكاً. لم ينتفعوا بميراثهم وخزوا من افتخارهم ومن الهوان أمام الرب.\nمجداً للثالوث الأقدس إلهنا آمين.",
-        ],
-        [
-            Prefix.HolyWeek +"9HDProphecies&D=GL56&C=Diacon",
-        "Ebolqen Za,ariac piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nOuo\  ef`èe`èi  `ènje  P_  Panou; > ouo\  nefaggeloc  throu  nemaf > 'en pi`èe\oou  `èete`èmmau  `ènnef]wpi  `ènje  ououwini. \nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
-        "Zacharie 14 : 5-11 \nEt le Seigneur mon Dieu viendra, tous les saints avec lui. Il arrivera, en ce jour-là, qu'il n'y aura plus de lumière",
-        "زكريا النبي ص ١٤ : ٥ – ١١ \nوسيأتي الرب إلهي وجميع ملائكته معه، وفي ذلك اليوم أنه لا يكون نور ",
-        ],
-        [
-            Prefix.HolyWeek +"9HDProphecies&D=GL56&C=Diacon",
-        "",
-        "Mais du froid et du gel. Et il y aura un jour unique - le Seigneur le connaît - plus de jour ni de nuit, mais au temps du soir, il y aura de la lumière. Il arrivera, en ce jour-là, que des eaux vives sortiront de Jérusalem, moitié vers la mer orientale, moitié vers la mer occidentale : il y en aura été comme hiver. Alors le Seigneur sera roi sur toute la terre ; en ce jour-là, le Seigneur sera unique, et son nom unique. Tout le pays retournera en",
-        "بل برد وصقيع يكون في يوم واحد، وهو معروف للرب، لا نهار ولا ليل، بل يحدث أنه في وقت المساء يكون نور ويكون في ذلك اليوم ان ماءاً حياً يخرج من أورشليم، نصف الأول إلي البحر ( الشرقي ) ونصفه الآخر إلي البحر الأخير ( الغربي ) ويكون هكذا في الصيف وفي الخريف، ويكون الرب ملكاً علي الأرض كلها. وفي ذلك اليوم يكون الرب واحداً وإسمه واحداً ويحيط بكافة الأرض",
-        ],
-        [
-            Prefix.HolyWeek +"9HDProphecies&D=GL56&C=Diacon",
-        "",
-        "plaine, depuis Géba jusqu'à Rimmôn du Négeb. Jérusalem sera exhaussée et habitée en son lieu, depuis la porte de Benjamin jusqu'à l'emplacement de l'ancienne porte, jusqu'à la porte des Angles, et de la tour de Hananéel jusqu'aux pressoirs du roi. On y habitera, il n'y aura plus d'anathème et Jérusalem sera habitée en sécurité.\nGloire à la sainte Trinité notre Dieu.",
-        "والبرية من جبع إلي آرمون بجانب أورشليم الأيمن، وتكون الرامة في مكانها من باب بنيامين إلي الباب الأول إلي باب الزاوية، ومن برج حننئيل إلي معاصر الملك، فسيكون فيها ولا يكون بعد لعن، ويكونون بلا محرمة وتكون أورشليم مطمئنة.\nمجداً للثالوث الأقدس إلهنا آمين.",
-        ],
-        [
-            Prefix.HolyWeek +"9HDProphecies&D=GL56&C=Diacon",
-        "Ebolqen Iwyl piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nAricalpizin  'en  oucalpiggoc  'en  Ciwn \iwi] patwou eqouab. Ou`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
-        "Joël 2 : 1-3, 10 et 11 \nSonnez du cor à Sion, donnez l'alarme sur ma montagne sainte !",
-        "يوئيل ٢ : ١،٢،٣، ١٠، ١١ \nاِضْرِبُوا بِالْبُوقِ فِي صِهْيَوْنَ. صَوِّتُوا فِي جَبَلِ قُدْسِي !",
-        ],
-        [
-            Prefix.HolyWeek +"9HDProphecies&D=GL56&C=Diacon",
-        "",
-        "Que tous les habitants du pays tremblent, car il vient, le jour du Seigneur car il est proche ! Jour d'obscurité et de sombres nuages, jour de nuées et de ténèbres ! Comme l'aurore, se déploie sur les montagnes un peuple nombreux et fort, tel que jamais il n'y en eut, tel qu'il n'en sera plus après lui, de génération en génération. Devant lui, le feu dévore, derrière lui, la flamme consume… Devant lui la terre frémit, les cieux tremblent!",
-        "لِيَرْتَعِدْ جَمِيعُ سُكَّانِ الأَرْضِ لأَنَّ يَوْمَ الرَّبِّ قَادِمٌ، لأَنَّهُ قَرِيبٌ: يَوْمُ ظَلاَمٍ وَقَتَامٍ، يَوْمُ غَيْمٍ وَضَبَابٍ، مِثْلَ الْفَجْرِ مُمْتَدًّا عَلَى الْجِبَالِ. شَعْبٌ كَثِيرٌ وَقَوِيٌّ لَمْ يَكُنْ نَظِيرُهُ مُنْذُ الأَزَلِ، وَلاَ يَكُونُ أَيْضًا بَعْدَهُ إِلَى سِنِي دَوْرٍ فَدَوْرٍ. قُدَّامَهُ نَارٌ تَأْكُلُ، وَخَلْفَهُ لَهِيبٌ يَحْرِقُ. قُدَّامَهُ تَرْتَعِدُ الأَرْضُ وَتَرْجُفُ السَّمَاءُ. ",
-        ],
-        [
-            Prefix.HolyWeek +"9HDProphecies&D=GL56&C=Diacon",
-        "",
-        "Le soleil et la lune s'assombrissent, les étoiles perdent leur éclat ! Le Seigneur fait entendre sa voix à la tête de ses troupes ! ... Car il est grand, le jour du Seigneur, très redoutable - et qui peut l'affronter ?\nGloire à la sainte Trinité notre Dieu.",
-        "اَلشَّمْسُ وَالْقَمَرُ يُظْلِمَانِ، وَالنُّجُومُ تَحْجُزُ لَمَعَانَهَا. وَالرَّبُّ يُعْطِي صَوْتَهُ أَمَامَ جَيْشِهِ. إِنَّ عَسْكَرَهُ كَثِيرٌ جِدًّا. فَإِنَّ صَانِعَ قَوْلِهِ قَوِيٌّ، لأَنَّ يَوْمَ الرَّبِّ عَظِيمٌ وَمَخُوفٌ جِدًّا، فَمَنْ يُطِيقُهُ ؟\nمجداً للثالوث الأقدس إلهنا آمين.",
+            Prefix.HolyWeek + "6HDPsalm&D=GL56&C=Diacon",
+            "Yalmoc  to Dauid\nAuberbwrt `èebol `èanok pimenrit `èm`èvrh; `ènourefmwout ef`èoreb > ouo\ au;iat `èetacar[ > `èmperxat `èncwk P_ Panou; > `allhloui`a\nAuswlk `èntot nem rat auwp `ènnakac throu > auvw] `ènna`è\bwc `èe`è\rau ouo\ ta\ebcw au\iwp `èeroc > aucaji 'en nou`ècvotou aukim `èntou`èave > aujoc je icje afna\; afer\elpic  `èeP_ marefna\mef  >  mareftoujof icje afoua]f > `allhloui`a",
+            "Psaume 37 : 21 et 22\nIls m'ont rejeté, moi le bien-aimé, comme un affreux cadavre. Ils ont cloué ma chair, ne m'abandonne pas, Seigneur, mon Dieu. Alléluia Psaume 21 : 17-19, 8 et 9\nIls me percent les mains et les pieds, je peux compter tous mes os. Ils partagent entre eux mes habits et tirent au sort mon vêtement, ils ricanent et hochent la tête Il comptait sur le Seigneur : qu'il le délivre ! Qu'il le sauve, puisqu'il est sont ami ! Alléluia",
+            "مزمور  ٣٧ : ٢١، ٢٢\nرفضوني أنا الحبيب مثل ميت مرذول، وجعلوا مساميراً في جسدي، فلا تهملني ياربي وإلهي. الليلويا.\nمزمور ٢١ : ١٦، ١٧، ٨، ٩\nثقبوا يدي ورجلي وأحصوا كل عظامي. إقتسموا ثيابي بينهم وعلي لباسي إقترعوا. تكلموا بشفاههم وحركوا رؤوسهم وقالوا: إن كان آمن وإتكل علي الرب، فليخلصه ولينجيه إن كان أرده. الليلويا.",
         ],
     ],
     [
-    
+
         [
-            Prefix.HolyWeek +"9HDStPaul&D=GL56&C=Diacon",
-        "",
-        "Epitre de Saint Paul aux \nPhilippiens 2 : 5-11\nAyez entre vous les mêmes sentiments qui sont dans le Christ Jésus : Lui, de condition divine, ne retint pas jalousement le rang qui l'égalait à Dieu.  Mais il s'anéantit lui-même, prenant condition d'esclave, et devenant semblable aux hommes. S'étant comporté comme un homme, il s'humilia plus encore, obéissant jusqu'à la mort, et à la mort sur une croix !",
-        "فيلبي ٢ : ٤– ١١\nلا ينظر أحد إلى ما هو لنفسه بل فلينظر كل واحد إلى ما هو لغيره أيضاً. فليكن فيكم هذا الفكر الذي في المسيح يسوع أيضاً، الذي اذ هو فى صورة الله لم يكن يحسب خلسة أن يكون مساوياً لله، لكنه وضع ذاته آخذاً صورة عبد، صائراً في شبه الناس، وإذ وجد في الهيئة كإنسان، وضع ذاته وأطاع حتي الموت، موت الصليب،",
+            Prefix.HolyWeek + "6HDGospel&D=GL56&C=Diacon",
+            "Yalmoc  to Dauid\nAuberbwrt `èebol `èanok pimenrit `èm`èvrh; `ènourefmwout ef`èoreb > ouo\ au;iat `èetacar[ > `èmperxat `èncwk P_ Panou; > `allhloui`a\nAuswlk `èntot nem rat auwp `ènnakac throu > auvw] `ènna`è\bwc `èe`è\rau ouo\ ta\ebcw au\iwp `èeroc > aucaji 'en nou`ècvotou aukim `èntou`èave > aujoc je icje afna\; afer\elpic  `èeP_ marefna\mef  >  mareftoujof icje afoua]f > `allhloui`a",
+            "Psaume 37 : 21 et 22\nIls m'ont rejeté, moi le bien-aimé, comme un affreux cadavre. Ils ont cloué ma chair, ne m'abandonne pas, Seigneur, mon Dieu. Alléluia Psaume 21 : 17-19, 8 et 9\nIls me percent les mains et les pieds, je peux compter tous mes os. Ils partagent entre eux mes habits et tirent au sort mon vêtement, ils ricanent et hochent la tête Il comptait sur le Seigneur : qu'il le délivre ! Qu'il le sauve, puisqu'il est sont ami ! Alléluia",
+            "مزمور  ٣٧ : ٢١، ٢٢\nرفضوني أنا الحبيب مثل ميت مرذول، وجعلوا مساميراً في جسدي، فلا تهملني ياربي وإلهي. الليلويا.\nمزمور ٢١ : ١٦، ١٧، ٨، ٩\nثقبوا يدي ورجلي وأحصوا كل عظامي. إقتسموا ثيابي بينهم وعلي لباسي إقترعوا. تكلموا بشفاههم وحركوا رؤوسهم وقالوا: إن كان آمن وإتكل علي الرب، فليخلصه ولينجيه إن كان أرده. الليلويا.",
         ],
         [
-            Prefix.HolyWeek +"9HDStPaul&D=GL56&C=Diacon",
-        "",
-        "Aussi Dieu l'a-t-il exalté et lui a-t-il donné le Nom qui est au-dessus de tout nom, pour que tout, au nom de Jésus, s'agenouille, au plus haut des cieux, sur la terre et dans les enfers, et que toute langue proclame, de Jésus Christ, qu'il est Seigneur, à la gloire de Dieu le Père.\nLa grâce de Dieu le Père soit avec vous, mes pères et mes frères. Amen.",
-        "لذلك رفعه الله أيضاً وأعطاه إسماً فوق كل إسم لكي تجثو بإسم يسوع كل ركبة ممن في السماء ومن علي الأرض وما تحت الأرض، ويعترف كل لسان أن يسوع المسيح هو رب لمجد الله الآب.\nنعمة الله الآب تحل على أرواحكم يا ابائي واخوتي. آمين.",
-        ],
-    ],
-    [
-    
-        [
-            Prefix.HolyWeek +"9HDPsalm&D=GL56&C=Diacon",
-        "Yalmoc  to Dauid\nMatan'oi V; je `èa \anmwou ]e `èe'oun ]a tayuxh > aiqwlc 'en `èt\\ulh `èm`èvmou. Ouo\ au; `ènou]a]i `èeta`è're > ouo\ au`ètcwi `ènou\emj 'en pa`èibi > `allhloui`a",
-        "Psaume 68 : 2, 3 et 22 \nSauve-moi, ô Dieu, car les eaux me sont entrées jusqu'à l'âme. J’enfonce dans la vase du gouffre… Pour nourriture ils m'ont donné du fiel, dans ma soif ils m'abreuvaient de vinaigre. Alléluia",
-        "مزمور  ٦٨ : ١، ١٩ \nأحييني يا الله فإن المياه قد بلغت إلي نفسي، وتورطت في حمأة الموت، وجعلوا في طعامي مرارة وفي عطشي سقونى خلاً : الليلويا.",
-        ],
-    ],
-    [
-    
-        [
-            Prefix.HolyWeek +"9HDGospel&D=GL56&C=Diacon",
-        "Yalmoc  to Dauid\nMatan'oi V; je `èa \anmwou ]e `èe'oun ]a tayuxh aiqwlc 'en `èt\\ulh `èm`èvmou. Ouo\ au; `ènou]a]i `èeta`è're > ouo\ au`ètcwi `ènou\emj 'en pa`èibi > `allhloui`a",
-        "Psaume 68 : 2, 3 et 22 \nSauve-moi, ô Dieu, car les eaux me sont entrées jusqu'à l'âme. J’enfonce dans la vase du gouffre… Pour nourriture ils m'ont donné du fiel, dans ma soif ils m'abreuvaient de vinaigre. Alléluia",
-        "مزمور  ٦٨ : ١، ١٩ \nأحييني يا الله فإن المياه قد بلغت إلي نفسي، وتورطت في حمأة الموت، وجعلوا في طعامي مرارة وفي عطشي سقونى خلاً : الليلويا.",
+            Prefix.HolyWeek + "6HDGospel&D=GL56&C=Diacon",
+            "Matqeon  Kev  k/z/> k/z/ -m/e\nTote nimatoi `ènte pi\\ugemwn auwli Ihc? `èe'oun `èepipretwrion >  auqwou; `èn;cpira thrc `èe`è\rhi `èejwf. Ouo\ `èetauba]f au; `ènouxlamic `ènkokkoc \iwtf > ouo\ au]wnt `ènou`èxlom `èebol'en \ancouri authif `èejen tef`èave > ouo\ auxw `ènouka] 'en tefjij `ènou`èinam > ouo\ nau\iou`èi `èmmwou `èejen noukeli `èmpef`èmqo eucwbi `èmmof eujw `èmmoc > je xere `èpouro `ènniIoudai. Ouo\ etau\iqaf `èe'oun 'en pef\o > au`èwli `èmpika] au\iou`èi 'en tef`èave. Ouo\ `èetauou`èw eucwbi `èmmof > auba]f `èn;xlamic ouo\ au; `ènnef`è\bwc \iwtf ouo\ auolf eqroua]f. Eunhou de `èebol aujimi `ènourwmi `ènKurinneoc > `èepefran pe Cumewn > vai ausitf `èn`èxba \ina `èntefel pef+.  Ouo\ `èetaui euma `èe]aumou; `èerof je Golgoqa > `èete pima `ènte Pikranion pe. Au; `ènou\emj naf efmoujt nem ouen]a]i > ouo\ `èetafjem;pi `èmpefouw] `èecw. Etaua]f de auvw] `ènnef`è\bwc `èe`è\rau `èeau\iwp `èerwou. Ouo\ nau\emci eu`èare\ `èerof `èmmau > ouo\ au`èc'e tef`èeti`èa ca`èp]wi `èntef`èave ec`èc'hout `èmpairh; je VAI PE IHCOUC `èPOURO NTE NIIOUDAI. Tote au`èi]i `ènkeconi `ècnau nemaf > ouai catefou`èinam > nem ouai catefjash. Nh de `èenaucini naujeou`èa `èerof pe > eukim `èntou`èave > eujw `èmmoc > je vheqnabel piervei `ènte V; `èebol ouo\ `èntefkotf 'en ]omt `èn`èe\oou na\mek > icje `ènqok pe `èp]hri `èmV; > `èamou `èepecht `èebol\i pi]e > vai pe `èm`èvrh; `ènniarxh`èereuc nem nica' nem niprecbuteroc > eucwbi `èmmof eujw `èmmoc je afno\em `èn\ankexwouni > `èmmon `è]jom `èmmof `èena\mef > icje `èpouro `èm`èpIc/l/ pe maref`èi `èepecht ;nou `èebol \i pi+ `èntenna\; `èerof > icje de `è\qhf xh `èeV; marefna\mef ;nou icje `èfoua]f je afjoc je `èanok pe `èp]hri `èmV;. Vai de nare nikeconi jw `èmmof nh`èetau`èa]ou nemaf eut`è]snhni nemaf. Icjen `èvnau de `ènajp coou > `èa`èpxaki ]wpi \ijen `èpka\i thrf > ]a `èvnau `ènajp yi;.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
+            "Matthieu 27 : 27-45\nAlors les soldats du gouverneur prirent avec eux Jésus dans le Prétoire et ameutèrent sur lui toute la cohorte. L'ayant dévêtu, ils lui mirent une chlamyde écarlate, puis, ayant tressé une couronne avec des épines, ils la placèrent sur sa tête, avec un roseau dans sa main droite. Et, s'agenouillant devant lui, ils se moquèrent de lui en disant: \"Salut, roi des Juifs!\" et, crachant sur lui, ils prenaient le roseau et en frappaient",
+            "متى ٢٧ : ٢٧ – ٤٥ \nحينئذ أخذ جند الوالي يسوع وأدخلوه إلي الديوان وجمعوا عليه كل الكتبة، فعروه وألبسوه رداءً قرمزياً، وضفروا إكليلاً من شوك ووضعوه علي رأسه، وجعلوا في يمينه قصبة، وكانوا يجثون علي ركبهم قدامه ويستهزئون به قائلين: السلام لك يا ملك اليهود. وكانوا يبصقون في وجهه، وأخذوا القصبة وضربوه",
         ],
         [
-            Prefix.HolyWeek +"9HDGospel&D=GL56&C=Diacon",
-        "Matqeon  Kev  k/z/> m/ /-n/\nEtavnau de `ènajp yi; ]wpi > afw] `èebol `ènje Ihc? 'en ouni]; `èn`è'rwou efjw `èmmoc > je Elw`èi Elw`èi `èelema cabaxqani > `èete vai pe Panou; Panou; eqbeou akxat `èncwk. |anouon de `èebol'en nhet`èo\i eratou `èmmau > `èetaucwtem naujw `èmmoc je afmou; oube Hliac. Ouo\ catotf afsoji `ènje ouai è`èebol `èn'htou > afsi `ènoucvoggoc afma\c `èn\emj ouo\ afqokc `èeouka] af`ètcof. Pcepi de naujw `èmmoc je xaf `èntennau je `èfnhou `ènje Hliac è`èntefna\mef. Ihc? deon `èetafw] `èebol'en ouni]; `èn`è'rwou af; `èmpipn?a.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
-        "Matthieu 27 : 46-50 \nEt vers la neuvième heure Jésus clama en un grand cri : \"Éli, Éli, lema sabachthani?\", c'est-à-dire: \"Mon Dieu, mon Dieu, pourquoi m'as-tu abandonné?\" Certains de ceux qui se tenaient là disaient en l'entendant: \"Il appelle Élie, celui-ci!\" Et aussitôt l'un d'eux courut prendre une éponge qu'il imbiba de vinaigre et, l'ayant mise au bout d'un roseau, il lui donnait à boire. Mais les autres lui dirent: \"Laisse !",
-        "متى ٢٧ : ٤٦ – ٥٠\nفلما كانت الساعة التاسعة صرخ يسوع بصوت عظيم قائلاً: إيلي إيلي لما شبقتني، أي إلهي إلهي لماذا تركتني؟ فقوم من الواقفين هناك، لما سمعوا قالوا: إنه ينادي إيليا. وللوقت أسرع واحداً منهم وأخذ إسفنجة وملأها خلاً وجعلها علي قصبة وسقاه، وأما الباقون فقالوا: دعوه",
+            Prefix.HolyWeek + "6HDGospel&D=GL56&C=Diacon",
+            "",
+            "sa tête. Puis, quand ils se furent moqués de lui, ils lui ôtèrent la chlamyde, lui remirent ses vêtements et l'emmenèrent pour le crucifier. En sortant, ils trouvèrent un homme de Cyrène, nommé Simon, et le requirent pour porter sa croix. Arrivés à un lieu dit Golgotha, c'est-à-dire lieu dit du Crâne, ils lui donnèrent à boire du vin mêlé de fiel; il en goûta et n'en voulut point boire. Quand ils l'eurent crucifié, ils se partagèrent ses vêtements",
+            "علي رأسه. فلما هزأوا به نزعوا عنه الرداء وألبسوه ثيابه، وأخذوه ليصلب. وفيما هم خارجون وجدوا رجلاً قيروانياً إسمه سمعان، فسخروه ليحمل صليبه. ولما أتوا إلي الموضع الذي يقال له الجلجثة، الذي هو موضع الجمجمة، أعطوه خلاً ممزوجاً بمر، ولما ذاق لم يرد أن يشربه. ولما صلبوه إقتسموا ثيابه بينهم",
         ],
         [
-            Prefix.HolyWeek +"9HDGospel&D=GL56&C=Diacon",
-        "",
-        "Que nous voyions si Élie va venir le sauver!\" Or Jésus, poussant de nouveau un grand cri, rendit l'âme.\nGloire à Dieu éternellement.",
-        "لنري هل يأتي إيليا ليخلصه. فصرخ يسوع أيضاً بصوت عظيم وأسلم الروح.\nوالمجد لله دائماً.",
+            Prefix.HolyWeek + "6HDGospel&D=GL56&C=Diacon",
+            "",
+            "en tirant au sort. Puis, s'étant assis, ils restaient là à le garder. Ils placèrent aussi au-dessus de sa tête le motif de sa condamnation ainsi libellé: «Celui-ci est Jésus, le roi des Juifs.» Alors sont crucifiés avec lui deux brigands, l'un à droite et l'autre à gauche. Les passants l'injuriaient en hochant la tête et disant: \" Toi qui détruis le Sanctuaire et en trois jours le rebâtis, sauve-toi toi même, si tu es fils de Dieu, et descends de la croix.\" Pareillement",
+            "مقترعين عليها، ثم جلسوا يحرسونه هناك. وكتبوا قضيته فوق رأسه مكتوبة هكذا : هذا هو ملك اليهود. حينئذ صلبوا معه لصين، واحداً عن يمينه وواحداً عن يساره. وكان المجتازون يجدفون عليه ويحركون رؤوسهم قائلين: يا ناقض هيكل الله وبانيه في ثلاثة أيام، خلص نفسك. إن كنت أنت هو إبن الله فإنزل عن الخشبة. وكذلك",
         ],
         [
-            Prefix.HolyWeek +"9HDGospel&D=GL56&C=Diacon",
-        "Markon  Kev i/e/> l/d/-l/z/\nOuo\ 'en `èvnau `ènajp yi; afw] `èebol `ènje Ih/c/ 'en ouni]; `èn`ècmh > je Elw`èi Elw`èi `èelema cabaxqani > `èete pefou`èw\em pe je Panou; Panou; eqbeou akxat `èncwk. Ouo\ \anouon `ènte nhet`èo\i `èeratou `èetaucwtem naujw `èmmoc > je anau afmou; oube Hliac. Etafsoji de `ènje ouai afmo\ `ènoucvoggoc `èn\emj > aftalo `èejen ouka] af`ètcof efjw `èmmoc > je xaf `èntennau je Hliac nhou `èntefenf `èe`è'rhi. Ihc? de etafmou; 'en ouni]; `èn`ècmh af; `èmpipn?a.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
-        "Marc 15 : 34-37 \nEt à la neuvième heure Jésus clama en un grand cri : \"Élôï, Élôï, lema sabachthani\", ce qui se traduit : \"Mon Dieu, mon Dieu, pourquoi m'as-tu abandonné?\" Certains des assistants disaient en l'entendant: \"Voilà qu'il appelle Élie!\" Quelqu'un courut tremper une éponge dans du vinaigre et, l'ayant mise au bout d'un roseau, il lui donnait à boire en disant: \"Laissez! Que nous voyions si Élie va venir le descendre!\"",
-        "مرقس  ١٥ : ٣٤ – ٣٧\nوفي وقت الساعة التاسعة صرخ يسوع بصوت عظيم قائلاً: ألوي ألوي لما شبقتني، الذي تفسيره إلهي إلهي لماذا تركتني؟ فقال قوم من القيام لما سمعوا: أنظروا هوذا ينادي إيليا. فأسرع واحد وملأ إسفنجة خلاً ووضعها علي قصبة وسقاه قائلاً : أتركوه لنري هل يأتي إيليا لينزله.",
+            Prefix.HolyWeek + "6HDGospel&D=GL56&C=Diacon",
+            "",
+            "les grands prêtres se gaussaient et disaient avec les scribes et les anciens: \"Il en a sauvé d'autres et il ne peut se sauver lui-même! Il est roi d'Israël: qu'il descende maintenant de la croix et nous croirons en lui! Il a compté sur Dieu; que Dieu le délivre maintenant, s'il s'intéresse à lui! Il a bien dit: Je suis fils de Dieu! Même les brigands crucifiés avec lui l'outrageaient de la sorte. À partir de la sixième heure, l'obscurité se fit sur toute la terre, jusqu'à la neuvième heure. Gloire à Dieu éternellement.",
+            "رؤساء الكهنة والكتبة والشيوخ كانوا يستهزئون به قائلين: خلص آخرين ولم يقدر أن يخلص نفسه. إن كان هو ملك إسرائيل فلينزل الآن عن الصليب لنؤمن به. إن كان متوكلاً علي الله فلينقذه الآن إن كان يريده. لأنه قال أنا هو إبن الله. وكذلك اللصان اللذان صلبا معه كانا يعيرانه. ومن وقت الساعة السادسة كانت ظلمة علي الأرض كلها إلي وقت الساعة التاسعة.\n والمجد لله دائماً.",
         ],
         [
-            Prefix.HolyWeek +"9HDGospel&D=GL56&C=Diacon",
-        "",
-        "Or Jésus, jetant un grand cri, expira. \nGloire à Dieu éternellement.",
-        "فصرخ يسوع أيضاً بصوت عظيم وأسلم الروح.\nوالمجد لله دائماً.",
+            Prefix.HolyWeek + "6HDGospel&D=GL56&C=Diacon",
+            "Markon  Kev i/e/ > k/-/l\nOuo\ ;`èepigravh `ènte tef`èeti`èa nac`èc'hou pe je `èpouro `ènte niIoudai. Ouo\ aua] keconi `ècnau nemaf > ouai catefou`èinam `èmmof ouai cajash `èmmof. Ouo\ acjwk `èebol `ènje ;gravh je auopf nem ni`èanomoc. Ouo\ nh`èenaucini naujeou`èa `èerof > eukim `ènnou`èavhou`èi ouo\ eujw `èmmoc > je vheqnabel piervei `èebol > ouo\ eqnakotf 'en ]omt `èn`èe\oou > na\mek `èeak`èi `èe`è'rhi `èebol\i pictauroc.\nPairh; nikearxh`èereuc eucwbi nem nou`èerhou > nem nica' eujw `èmmoc > je afno\em `èn\ankexwouni > `èmmon `è]jom `èmmof `èena\mef > icje Px/c/ `èpouro `èmpIc/l/ pe maref`èi `èepecht ;nou `èebol\i pi+ > \ina `èntennau ouo\ `èntenna\; > ouo\ nh`èetau`èa]ou nemaf nau;]w] naf. Ouo\ `èeta `èvnau `ènajp coou ]wpi > `èa ouxaki ]wpi \ijen `èpka\i thrf ]a `èvnau `ènajp yi;.\nOuw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
+            "Marc 15 : 26-33 \nL'inscription qui indiquait le motif de sa condamnation était libellée: \"Le roi des Juifs.\" Et avec lui ils crucifient deux brigands, l'un à sa droite, l'autre à sa gauche Et cette Ecriture fut accomplie, qui dit: Et il a été mis au rang des malfaiteurs. Les passants l'injuriaient en hochant la tête et disant: \"Hé! Toi qui détruis le Sanctuaire et le rebâtis en trois jours, sauve-toi toi même en descendant de la croix !\"",
+            "مرقس ١٥ : ٢٦ – ٣٣\nوكان عنوان علته مكتوباً: ملك اليهود. وصلبوا معه لصين، واحداً عن يمينه والآخر عن يساره، فتم الكتاب القائل: وأحصي مع الأثمة. وكان المجتازون به يجدفون عليه ويحركون رؤوسهم قائلين: يا ناقض الهيكل وبانيه في ثلاثة أيام، خلص نفسك وإنزل عن الصليب.",
         ],
         [
-            Prefix.HolyWeek +"9HDGospel&D=GL56&C=Diacon",
-        "Loukan  Kev  m/e/ nem m/ /\nEfnamounk de `ènje pirh `èa pikatapetacma `ènte piervei vw' 'en tefmh;. Ouo\ `èetafmou; `ènje Ihc ? 'en ouni]; `èn`ècmh > pejaf je paiwt ;; `èmpapn?a ? `èe`è'rhi `èenekjij > ouo\ vai `èetafjof af; `èmpipn??a Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
-        "Luc 23 : 45-46 \nLe soleil s'éclipsant, l'obscurité se fit sur la terre entière, jusqu'à la neuvième heure. Le voile du Sanctuaire se déchira par le milieu, et, jetant un grand cri, Jésus dit: \"Père, en tes mains je remets mon esprit.\" Ayant dit cela, il expira.\nGloire à Dieu éternellement.",
-        "لوقا ٢٣ : ٤٥، ٤٦ \nوإظلمت الشمس، وإنشق حجاب الهيكل من وسطه، ونادي يسوع بصوت عظيم وقال: يا أبتاه في يديك أستودع روحي. ولما قال هذا أسلم الروح.\nوالمجد لله دائماً.",
+            Prefix.HolyWeek + "6HDGospel&D=GL56&C=Diacon",
+            "",
+            "Pareillement les grands prêtres se gaussaient entre eux avec les scribes et disaient : \"Il en a sauvé d'autres et il ne peut se sauver lui-même ! Que le Christ, le Roi d'Israël, descende maintenant de la croix, pour que nous voyions et que nous croyions !\" Même ceux qui étaient crucifiés avec lui l'outrageaient. Quand il fut la sixième heure, l'obscurité se fit sur la terre entière jusqu'à la neuvième heure.\nGloire à Dieu éternellement.",
+            "وكذلك رؤساء الكهنة كانوا يستهزئون فيما بينهم مع الكتبة قائلين: خلص آخرين وأما نفسه فلم يقدر أن يخلصها. إن كان هو المسيح ملك إسرائيل فلينزل الآن عن الصليب لنري ونؤمن. وكان اللذان صلبا معه يعيرانه أيضاً، ولما كانت الساعة السادسة كانت ظلمة علي الأرض كلها إلي الساعة التاسعة. \nوالمجد لله دائماً.",
         ],
         [
-            Prefix.HolyWeek +"9HDGospel&D=GL56&C=Diacon",
-        "Iwannhn  Kev  i/q/ > k/h/-l/\nMenenca nai de `èetafnau `ènje Ihc? je \hdh `èa \wb niben jwk `èebol > \ina `ènte ;gravh jwk `èebol > pejaf je ;`èobi.  Ne ouon oumouki de efme\ `èn\emj efxh `èe`è'rhi > aumo\ `ènoucvoggoc `èn\emj > autalof `èejen ou\\ucopoc > au\itf 'aten rwf. |ote `èetafjem;pi `èmpi\emj `ènje Ihc? > pejaf je afjwk `èebol > ouo\ `èetafrek jwf af; `èmpipn?a.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
-        "Jean 19 : 28-30 \nAprès quoi, sachant que désormais tout était achevé pour que l'Écriture fût parfaitement accomplie, Jésus dit: \"J'ai soif.\" Un vase était là, rempli de vinaigre. On mit autour d'une branche d'hysope une éponge imbibée de vinaigre et on l'approcha de sa bouche. Quand il eut pris le vinaigre, Jésus dit: \"C'est achevé\" et, inclinant la tête, il remit l'esprit.\nGloire à Dieu éternellement.",
-        "يوحنا١٩ : ٢٨ – ٣٠ \nوبعد هذا لما رأي يسوع أن كل شيء قد كمل، فلكي يتم المكتوب قال: أنا عطشان وكان إناء موضوعاً مملوءاً خلاً، فملأوا إسفنجة خلاً ورفعوها علي قصبة وأدنوها من فمه فلما ذاق يسوع الخل قال : قد أكمل. وأمال برأسه وأسلم الروح.\nوالمجد لله دائماً.",
-        ],
-    ],
-    [
-    
-        [
-            Prefix.HolyWeek +"9HDCommentary&D=GL56&C=Diacon",
-        "",
-        "Commentaire\nDe génération en génération Tes années ne dégénéreront pas. Ton Nom existait avant le soleil. Aujourd'hui je Te contemple crucifié, Toi le Tout-puissant. Comment les contrevenants ont-ils osé? Tu es pourtant le potier qui les a modelés. Toi, le Médecin véritable, Tu as attiré les blessés et les as guéris. Ils T'ont crucifié comme un malfaiteur; eux les pécheurs. Ils criaient avec méchanceté :",
-        "طــرح\nمن جيل إلي جيل سنوك لن تبلي، ومن قبل الشمس كان إسمك، فهوذا أراك اليوم معلقاً علي خشبة الصليب يا ضابط كل المسكونة. كيف تجرأ عليك المخالفون الذين هم صنعتك أيها الفاخوري؟ يا من جذب إليه المجروحين وشفيت جراحاتهم أيها الطبيب الحقيقي. علقوك علي خشبة مثل فاعل شر، أعني الشعب المملوء إثماً، أولئك الذين رفعوا أصواتهم الشريرة وقالوا",
+            Prefix.HolyWeek + "6HDGospel&D=GL56&C=Diacon",
+            "Loukan  Kev  k/g/ > k/ /- m/d\nOuo\ \wc eu`èini `èmmof `èebol > au`èamoni `ènouai je Cimewn ne ouKurinneoc efnhou `èebol'en `ètkoi > autale pictauroc `èerof eqreftwoun `èmmof cava\ou `ènIhc?. Nafmo]i de `èncwf `ènje ouni]; `èmmh] `ènte pilaoc > nem \an\i`èomi nh`èenautwit ouo\ naune\pi `èerof. Etafvon\f de `èerwou `ènje Ihc? pejaf > ni]eri `ènte Il?h?m? `èmperrimi `èejwi > `èplhn rimi `èejen qhnou nem `èejen neten]hri. Je \hppe cenhou `ènje \an`èe\oou > nh`èetounajoc `èn'htou > je `èwouni`èatou `ènniasrhn nem nineji `èete `èmpoumici > nem ni`èmno; `èete `èmpou]an]. Tote cenaer\htc `ènjoc `ènnitwou  je \ei `èejwn > nem nikalamvo je \obcten > je icje ce`èiri `ènnai 'en pi]e etlhk > ie ou peqna]wpi 'en pet]ou`èwou.\nNau`èini de pe `ènkereferpet\wou `ècnau nemaf `èe'oqbou. Ouo\ \ote `èetau`èi `èejen pima `èetoumou; `èerof je Pikranion > aua]f `èmmau nem nikakourgoc > ouai men caou`èinam ouai de cajash. Ihc? de pejaf je paiwt xw nwou `èebol > je `èmpou`èemi `èenh`èetou`èiri `èmmof > euvw] de `ènnef`è\bwc `èe`è\rau au\iwp `èerwou. Ouo\ naf`èo\i `èeratf `ènje pilaoc efnau > nauelk]ai pe `ènje nikearxwn eujw `èmmoc > je afno\em `èn\ankexwouni marefna\mef \wf > icje vai pe Pxc? `èp]hri `èmV; picwtp. Naucwbi de `èmmof `ènje nikematoi eunhou \arof eu`èini `ènou\emj naf eujw `èmmoc je icje `ènqok pe `èpouro `ènniIoudai na\mek. Ne ouon ke`èepigravh de pe \ijwf > `èmmet\ebreoc `èmmetrwmeoc `èmmetoueinin je > VAI  PE POURO NTE NIIOUDAI. Ouai de `èebol'en nikakourgoc `èetau`èa]ou > nafjeou`èa `èerof pe efjw `èmmoc > je icje `ènqok pe Pxc ?  na\mek ouo\ na\men \wn. Af`èerou`èw de `ènje pikeouai efer`èepitiman naf pejaf > je ou de V; `ènqok `èker\o; an 'atef\h je anxh 'en pai\ap `ènouwt. Ouo\ `èanon men 'en oumeqmhi `èetansi kata `èpem`èp]a `ènnh`èetanaitou > vai de `ènqof `èmpefer `è\li `èmpet\wou. Ouo\ nafjw `èmmoc `ènIhc? > je P_ `èaripameu`èi \otan akwan`èi 'en tekmetouro. Ouo\ peje Ihc ? naf je `èamhn ;jw `èmmoc nak > je `èmvoou ek`èe]wpi nemhi 'en piparadicoc. Ne `èvnau \hdh `ènajp coou pe > ouo\ `èa ouxaki ]wpi \ijen `èpka\i thrf > ]a `èèvnau `ènajp yi;.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
+            "Luc 23 : 26-44 \nQuand ils l'emmenèrent, ils mirent la main sur un certain Simon de Cyrène qui revenait des champs, et le chargèrent de la croix pour la porter derrière Jésus. Une grande masse du peuple le suivait, ainsi que des femmes qui se frappaient la poitrine et se lamentaient sur lui. Mais, se retournant vers elles, Jésus dit: \" Filles de Jérusalem, ne pleurez pas sur moi! Pleurez plutôt sur vous-mêmes et sur vos enfants!",
+            "لوقا ٢٣ : ٢٦ – ٤٤ \nوبينما هم منطلقون به، أمسكوا واحداً يدعي سمعان القيرواني، كان آتياً من الحقل، ووضعوا عليه الصليب ليحمله خلف يسوع. وكان يتبعه جمهور كثير من الشعب، والنساء اللواتي كن يندبن وينحن عليه، فإلتفت إليهن يسوع وقال: يا بنات أورشليم لا تبكين عليّ، بل إبكين علي أنفسكن، وعلي أولادكن، ",
         ],
         [
-            Prefix.HolyWeek +"9HDCommentary&D=GL56&C=Diacon",
-        "",
-        "«Nous n'avons d'autre roi que César.» A la neuvième heure (trois heures de l'après-midi), notre Sauveur crucifié ouvrit la bouche et dit en hébreu: \"Élôï, Élôï, lema sabachthani\". Tous ceux qui l’entouraient furent pris de crainte. Ceci est conforme à ce qui est écrit dans le Psaume: \"Mon Dieu, mon Dieu, pourquoi m'as-tu abandonné?\" Lorsque l'heure que Lui seul connaissait, fut arrivée, Il dit: \"j'ai soif.\"",
-        "ليس لهم ملك إلا قيصر، فلما كان وقت الساعة التاسعة ومخلصنا معلق علي الصليب، فتح المخلص فاه باللغة العبرانية هكذا قائلاً : ألوى ألوي لما شبقتني؟ حتي خاف جميع الذين حوله. الذي هو: إلهي إلهي أنظر إلي. هكذا مكتوب في المزمور. فلما قربت الساعة التي يعرفها هو وحده أجاب وقال : الآن أنا عطشان.",
+            Prefix.HolyWeek + "6HDGospel&D=GL56&C=Diacon",
+            "",
+            "Car voici venir des jours où l'on dira: Heureuses les femmes stériles, les entrailles qui n'ont pas enfanté, et les seins qui n'ont pas nourri! Alors on se mettra à dire aux montagnes: Tombez sur nous! et aux collines: Couvrez-nous! Car si l'on traite ainsi le bois vert, qu'adviendra-t-il du sec? On emmenait encore deux malfaiteurs pour être exécutés avec lui. Lorsqu'ils furent arrivés au lieu appelé Crâne, ils l'y crucifièrent ainsi que les malfaiteurs,",
+            "لأنه هوذا ستأتي أيام يقولون فيها طوبي للعواقر والبطون التي لم تلد، والثدي التي لم ترضع. حينئذ يبتدئون يقولون للجبال إسقطي علينا وللآكام غطينا، لأنه إن كانوا قد صنعوا هذا بالعود الرطب، فماذا يكون باليابس؟ وجاءوا أيضاً بإثنين آخرين مذنبين ليقتلا معه. ولما بلغوا إلي المكان المسمي الإقرانيون صلبوه هناك مع عاملي الشر،",
         ],
         [
-            Prefix.HolyWeek +"9HDCommentary&D=GL56&C=Diacon",
-        "",
-        "En effet Il savait ce qui était écrit à son sujet. L'un d'entre eux prit une éponge, l'imbiba de vinaigre, l'accrocha à une lance et Lui en donna. Lorsqu'Il eut goutté le vinaigre, Il dit: \"tout est achevé\" conformément à ce qu'à dit David dans le psaume. Puis, inclinant la tête, Il cria d'une voix forte et remit l'esprit. Qui enseignera aux exilés Celui qui a goûté la mort pour eux ? Qui entrera en premier au paradis pour préparer le chemin pour le Roi?",
-        "لأنه هو كان يعرف الذي كتب من أجله. فأخذ واحد إسفنجة فملأها خلاً وجعلها علي قصبة وسقاه، فلما ذاق الخل قال : قد أكمل. كقول داود في المزمور. ومن بعد الخل أمال رأسه وصرخ بصوت عظيم وأسلم الروح. من يبشر المسبيين بالذي ذاق الموت عنهم ؟ ومن الذي يسبق إلي الفردوس فيهييء الطريق للملك؟",
+            Prefix.HolyWeek + "6HDGospel&D=GL56&C=Diacon",
+            "",
+            "l'un à droite et l'autre à gauche. Et Jésus disait: \" Père, pardonne-leur: ils ne savent ce qu'ils font. \" Puis, se partageant ses vêtements, ils tirèrent au sort. Le peuple se tenait là, à regarder. Les chefs, eux, se moquaient: Il en a sauvé d'autres, disaient-ils; qu'il se sauve lui-même, s'il est le Christ de Dieu, l'Élu! Les soldats aussi se gaussèrent de lui: s'approchant pour lui présenter du vinaigre, ils disaient: \"Si tu es le roi des Juifs, sauve-toi toi-même!\"",
+            "واحداً عن اليمين والآخر عن اليسار. فقال يسوع: يا أبتاه، إغفر لهم لأنهم لا يدرون ماذا يفعلون. وإذ إقتسموا ثيابه بينهم وإقترعوا عليها. وكان الشعب قائماً ينظر، والرؤساء أيضاً يستهزئون به قائلين: خلص آخرين فليخلص نفسه إن كان هوالمسيح إبن الله المختار. وكان الجند أيضاً يهزأون به مقبلين إليه ويقدمون له خلاً قائلين: إن كنت أنت ملك اليهود فخلص نفسك.",
         ],
         [
-            Prefix.HolyWeek +"9HDCommentary&D=GL56&C=Diacon",
-        "",
-        "Réjouissez-vous aujourd'hui, vous les justes, les prophètes et les patriarches. Le premier homme - qui dès le commencement a demeuré dans la tristesse - a été renouvelé aujourd'hui par le nouvel homme qui a écrasé la mort et a réduit son pouvoir à néant. Il a détruit le dard mortel. Dieu le Verbe a accompli cela. L'âme qu'Il prit d'Adam et qu'Il unifia avec Lui descendit aux enfers, et, selon Sa grande miséricorde, Il releva avec Lui les âmes",
-        "إفرحوا اليوم ايها الأبرار والأنبياء والبطاركة والصديقون والإنسان الأول، الرأس الذي عتق في الحزن، قد تجدد اليوم بالإنسان الجديد الذي قتل الموت وأبطل عزته، وشوكته المرة كسرها وقطعها. الله الكلمة اكملها ومضي إلي الجحيم بالنفس التي أخذها من طبيعة آدم وجعلها واحداً معه، والنفوس التي كانت في السجن أصعدها معه",
+            Prefix.HolyWeek + "6HDGospel&D=GL56&C=Diacon",
+            "",
+            "Il y avait aussi une inscription au-dessus de lui: \" Celui-ci est le roi des Juifs.\" L'un des malfaiteurs suspendus à la croix l'injuriait: \"N'es-tu pas le Christ? Sauve-toi toi-même, et nous aussi.\" Mais l'autre, le reprenant, déclara: \"Tu n'as même pas crainte de Dieu, alors que tu subis la même peine! Pour nous, c'est justice, nous payons nos actes; mais lui n'a rien fait de mal.\" Et il disait:",
+            "وكان عنوان فوقه مكتوباً بالعبرانية والرومانية واليونانية: هذا هو ملك اليهود.  وكان واحد من عاملي الرديء الذين صلبا معه يجدف عليه قائلا: إن كنت أنت المسيح فخلص نفسك وخلصنا. فأجاب الآخر وإنتهره قائلاً: أما تخشي الله؟ إذ كنا ونحن تحت هذا الحكم بعينه، أما نحن فبعدل جوزينا، لأننا نلنا ما تستوجبه أعمالنا، وأما هذا فلم يفعل شيئاً رديئاً. ثم قال ليسوع:",
         ],
         [
-            Prefix.HolyWeek +"9HDCommentary&D=GL56&C=Diacon",
-        "",
-        "qui y étaient emprisonnées. Et Satan, le dernier ennemi, Il l'enchaîna. Les gardiens de l'enfer et les puissances demeurant dans les ténèbres s'enfuirent à Sa vue car ils connurent Sa puissance et Son pouvoir. Par Son autorité Il défonça les portes en cuivre et réduisit en poussière les serrures en fer. Ceux qui y étaient exilés, à la vue du Seigneur Jésus, le Sauveur de leurs âmes, s'écrièrent : « Il est bon que Tu sois venu,",
-        "كعظيم رحمته. والعدو الأخيرالذي هو الشيطان قيده بالسلاسل. فلما رآه البوابون الأشرار والقوات الكائنة في الظلمة هربوا، ولم يطيقوا الثبوت لأنهم عرفوا قوته وكثرة جبروته، فكسر الأبواب النحاس بسلطانه والمتاريس الحديد سحقها، واما المسبيون إذ رأوا الرب يسوع مخلص نفوسهم صرخوا بصوت قائلين: حسناً جئت",
+            Prefix.HolyWeek + "6HDGospel&D=GL56&C=Diacon",
+            "",
+            "\"Jésus, souviens-toi de moi, lorsque tu viendras avec ton royaume.\" Et il lui dit: \"En vérité, je te le dis, aujourd'hui tu seras avec moi dans le Paradis.\" C'était déjà environ la sixième heure quand, le soleil s'éclipsant, l'obscurité se fit sur la terre entière, jusqu'à la neuvième heure.\nGloire à Dieu éternellement.",
+            "إذكرني يارب متى جئت في ملكوتك. فقال له يسوع: الحق أقول لك إنك اليوم تكون معي في الفردوس. وكان وقت الساعة السادسة، فكانت ظلمة علي الأرض كلها إلي وقت الساعة التاسعة.\nوالمجد لله دائماً.",
         ],
         [
-            Prefix.HolyWeek +"9HDCommentary&D=GL56&C=Diacon",
-        "",
-        "Toi le Sauveur de Tes serviteurs.» Puis Il prit en premier la main d'Adam, l'attira à Lui et le délivra lui et toute sa descendance. Il les fit entrer dans son paradis, la demeure de la joie et du repos.",
-        "أيها المنقذ عبيده، ثم أمسك أولاً بيد آدم فإجتذبه وأصعده وبنيه معه، وأدخلهم إلي الفردوس مسكن الفرح والراحة.",
+            Prefix.HolyWeek + "6HDGospel&D=GL56&C=Diacon",
+            "Iwannhn  Kev i/q/ > i/g/ - k/z/\nPilatoc de `èetafcwtem `èenaicaji > afen Ihc? `èebol ouo\ af\emci \ijen pibhma > 'en pima `èetoumou; `èerof je piliqoctrwton > `èmmet\ebreoc je Gabbaqa. Ne `ètpareckeuh de te `ènte `è mpipacxa > ne `èvnau de `ènajp coou pe. Ouo\ nafjw `èmmoc `ènje Pilatoc `ènniIoudai je \hppe ic petenouro. Nqwou de auw] `èebol je è`èalitf `èalitf a]f > peje Pilatoc nwou je `èntae] petenouro > `èauerou`èw `ènje niarxh`èereuc je `èmmonten ouro `èmmau `èebhl `èeKecar. Tote oun af; nwou `ènIhc ? \ina `èntoua]f ausi oun `ènIhc ?. Ouo\ `ènqof effai `èmpefctauroc af`èi `èebol `èepima `èetoumou; è`èerof je Pikranion > `èmmet\ebreoc de je Pigolgoqa. Pima `èetaua]f `èmmof > ouo\ au`èi]i `ènkeconi `ècnau nemaf ca`èmnh nem ca`èmnai `èmmof > Ihc ? de 'en `èqmh;.\nAf`èc'e ke titloc de `ènje Pilatoc > ouo\ afxaf \ijen pictauroc > naf `èc'hout de pe je > IHCOUC PINAZWREOC POURO NTE NIIOUDAI. Oumh] de `ènte niIoudai auw] `èmpaititloc > je naf'ent pe `èe;baki `ènje pima `èetaue] Ihc ? `èmmof > ouo\ naf`èc'hout pe `èmmet\ebreoc `èmmetrwmeoc `èmmetoueinin. Naujw oun `èmmoc pe `èmPilatoc > `ènje niarxh`èereuc `ènte niIoudai > je `èmper`èc'ai je `èpouro `ènte niIoudai > alla je `ènqof afjoc je `èanok pe `èpouro `ènte niIoudai. Af`èerou`èw `ènje Pilatoc je vh`èetai`èc'htf ai`èc'htf. Nimatoi oun `èetaue] `ènIhc ? > ausi `ènnef`è\bwc ouo\ auaitou `èn`èftou `èntoi > outoi `èe`èvouai `ènnimatoi nem ;ke`è]qhn > ;`è]qhn de ne ouatqwrp te > `èncw'i `èebol `èe`èp]wi thrc. Pejwou de `ènnou`èerhou je `èmpen`èqrenva'c alla maren\iwp `èeroc > je acnaer qa nim `èmmon > \ina `ènte ;gravh jwk `èebol ecjw `èmmoc > je auvw] `ènna`è\bwc `èe`è\rau > ouo\ ta\ebcw au\iwp `èeroc > nai oun `èetauaitou `ènje nimatoi. Nau`èo\i de `èeratou pe 'aten pictauroc `ènIhc ? > `ènje tefmau nem `ètcwni `èntefmau > Maria `ènte Kle`èwpa nem Maria :magdalinh. Ihc ? de `èetafnau `èetefmau nem pimaqhthc `èenafmei `èmmof ef`èo\i `èeratf pejaf `èntefmau > je ;`èc\imi ic pe]hri > `èita pejaf `èmpimaqhthc je \hppe ic tekmau > ouo\ icjen ;ounou `èete`èmmau afolc `ènje pimaqhthc `èe'oun `èepefhi.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
+            "Jean 19 : 1-12 \nPilate, entendant ces paroles, amena Jésus dehors et le fit asseoir au tribunal, en un lieu dit le Dallage, en hébreu Gabbatha. Or c'était la Préparation de la Pâque; c'était vers la sixième heure. Il dit aux Juifs: \"Voici votre roi.\" Eux vociférèrent: \"A mort! A mort! Crucifie-le!\" Pilate leur dit: \"Crucifierai-je votre roi?” Les grands prêtres répondirent: \"Nous n'avons de roi que César!\"",
+            "يوحنا ١٩ : ١٣ – ٢٧ \nفلما سمع بيلاطس هذا الكلام أخرج يسوع وجلس علي كرسي الولاية، في موضع يقال له رصيف الحجارة، وبالعبرانية جباثا. وكانت جمعة الفصح، وكانت الساعة السادسة. فقال بيلاطس لليهود: هوذا ملككم. فصرخوا: إرفعه، إصلبه. فقال لهم بيلاطس: أأصلب ملككم؟ أجاب رؤساء الكهنة: ليس لنا ملك إلا قيصر!",
+        ],
+        [
+            Prefix.HolyWeek + "6HDGospel&D=GL56&C=Diacon",
+            "",
+            "Alors il le leur livra pour être crucifié. Ils prirent donc Jésus. Et il sortit, portant sa croix, et vint au lieu dit du Crâne - ce qui se dit en hébreu Golgotha - où ils le crucifièrent et avec lui deux autres: un de chaque côté et, au milieu, Jésus. Pilate rédigea aussi un écriteau et le fit placer sur la croix. Il y était écrit: \"Jésus le Nazaréen, le roi des Juifs.\" Cet écriteau, beaucoup de Juifs le lurent, car le lieu où Jésus fut mis en croix était proche de la ville,",
+            "فحينئذ أسلم إليهم يسوع ليصلبوه. فأخذوا يسوع ومضوا به. فخرج وهو حامل صليبه إلي الموضع الذي يقال له الجمجمة وبالعبرانية الجلجثة، حيث صلبوه. وصلبوا معه لصين آخرين من هنا ومن هنا، ويسوع في الوسط. وكتب بيلاطس صحيفة ووضعها علي الصليب، وكان مكتوباً: يسوع الناصري ملك اليهود. فقرأ هذه الصحيفة كثيرون من اليهود، لأن المكان الذي صلب فيه يسوع كان قريباً من المدينة.",
+        ],
+        [
+            Prefix.HolyWeek + "6HDGospel&D=GL56&C=Diacon",
+            "",
+            "et c'était écrit en hébreu, en latin et en grec. Les grands prêtres des Juifs dirent à Pilate: N'écris pas: Le roi des Juifs, mais: Cet homme a dit: Je suis le roi des Juifs. Pilate répondit: Ce que j'ai écrit, je l'ai écrit. Lorsque les soldats eurent crucifié Jésus, ils prirent ses vêtements et firent quatre parts, une part pour chaque soldat, et la tunique. Or la tunique était sans couture, tissée d'une pièce à partir du haut; ils se dirent donc entre eux :",
+            "وكان مكتوباً بالعبرانية والرومانية واليونانية. فكان رؤساء كهنة اليهود يقولون لبيلاطس: لا تكتب أنه ملك اليهود، بل أنه هو قال إني أنا ملك اليهود. أجاب بيلاطس: ما كتبته قد كتبته. والجند لما صلبوا يسوع أخذوا ثيابه وجعلوها أربعة أقسام، لكل جندي قسم. وأخذوا القميص أيضاً، وكان القميص غير مخيط، منسوجاً كله من فوق. فقال بعضهم لبعض :",
+        ],
+        [
+            Prefix.HolyWeek + "6HDGospel&D=GL56&C=Diacon",
+            "",
+            "\"Ne la déchirons pas, mais tirons au sort qui l'aura\"; afin que l'Écriture fût accomplie: Ils se sont partagé mes habits, et mon vêtement, ils l'ont tiré au sort. Voilà ce que firent les soldats. Or près de la croix de Jésus se tenaient sa mère et la sœur de sa mère, Marie, femme de Clopas, et Marie de Magdala. Jésus donc voyant sa mère et, se tenant près d'elle, le disciple qu'il aimait, dit à sa mère: \"Femme, voici ton fils.\" Puis il dit au disciple:",
+            "لا نشقه لكن نقترع عليه، لمن منا يكون. ليتم المكتوب القائل: إقتسموا ثيابي بينهم، وعلي لباسي ألقوا قرعة. هذا ما فعله الجند. وكن واقفات عند صليب يسوع أمه وأخت أمه مريم التي لإكلوبا ومريم المجدلية. فلما رأي يسوع أمه والتلميذ الذي كان يحبه واقفاً، قال لأمه: يا إمرأة هوذا إبنك. ثم قال للتلميذ:",
+        ],
+        [
+            Prefix.HolyWeek + "6HDGospel&D=GL56&C=Diacon",
+            "",
+            "\"Voici ta mère.\" Et depuis cette heure-là, le disciple la prit chez lui.\nGloire à Dieu éternellement.",
+            "هوذا أمك. ومن تلك الساعة أخذها ذلك التلميذ إلي بيته.\nوالمجد لله دائماً.",
         ],
     ],
     [
-    
+
         [
-            Prefix.HolyWeek +"11HDProphecies&D=GL56&C=Diacon",
-        "Ebolqen pidoxodoc `nte Mw`ucyc piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nPeje  ~P_  `mMw`uchc  nem  ~Aarwn  'en  `èpka\i  `nXhmi  efjw  `èmmoc.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
-        "Exode 12 : 1-14\nLe Seigneur dit à Moïse et à Aaron au pays d'Égypte :",
-        "خروج ١٣ : ١ – ١٤\nوكلم الرب موسي وهرون في أرض مصر قائلا :",
+            Prefix.HolyWeek + "6HDCommentary&D=GL56&C=Diacon",
+            "",
+            "Commentaire\nÔ tous les habitants de Jérusalem, venez contemplez ce spectacle. Ils ont crucifié Jésus, fils de David. Ils l'ont revêtu d’un manteau de pourpre, le vêtement des rois; ils l'ont couronné d'une couronne d'épines; Lui, qui a décoré le ciel d'étoiles; Lui, qui a créé la terre du souffle de Sa bouche et qui L'a décorée de fleurs. Ils Lui mirent un sceptre dans la main droite, symbole de la sagesse, du Maître.",
+            "طــرح\nيا جميع السكان بأوشليم، تعالوا أبصروا هذا المنظر، فإنهم علقوا يسوع إبن داود علي خشبة الصليب، وألبسوه ثوباً أحمر من لباس الملوك والرؤساء، ووضعوا إكليلاً من شوك علي رأسه. مزين السموات بحسن النجوم، مؤسس الأرض بروح فيه، ومزينها بحسن الأزهار، جعلوا في يمينه قصبة حكيم معلم كاتب.",
         ],
         [
-            Prefix.HolyWeek +"11HDProphecies&D=GL56&C=Diacon",
-        "",
-        "\"Ce mois sera pour vous en tête des autres mois, il sera pour vous le premier mois de l'année. Parlez à toute la communauté d'Israël et dites-lui: Le dix de ce mois, que chacun prenne une tête de petit bétail par famille, une tête de petit bétail par maison. Si la maison est trop peu nombreuse pour une tête de petit bétail, on s'associera avec son voisin le plus proche de la maison, selon le nombre des personnes. Vous choisirez la tête de",
-        "إن هذا الشهر رأس الشهور، فإجعلوه أول شهر السنة. كلما كل جماعة بني إسرائيل وقولا لهم إن في اليوم العاشر من الشهر فليأخذ كل واحد له خروفاً بحسب بيوت آبائهم، خروفاً لكل بيت، وإن كان اهل البيت قليلين لا يكفون لخروف فليأخذ هو وجاره القريب من بيته بحسب عدد النفوس، كل واحد علي قدر ما يكفيه",
+            Prefix.HolyWeek + "6HDCommentary&D=GL56&C=Diacon",
+            "",
+            "Ils mirent sa croix derrière Lui, le Roi vainqueur dans la guerre. Les femmes venues pour la Pâque virent cela et sanglotèrent. Il se retourna vers elles et leur dit: Filles de Jérusalem, ne pleurez pas sur moi! Pleurez plutôt sur vous-mêmes et sur vos enfants à cause des grandes difficultés que vous subirez et des grands soucis que vous aurez bientôt. Car voici venir des jours où l'on considérera heureuses les femmes stériles",
+            "وجعلوا صليبه خلفه كملك غالب في الحرب. فلما رأين النسوة، الآتيات إلي عيد الفصح، إنتحبن وبكين علي ما كان، فإلتفت إليهن وكلمهن هكذا قائلا: يا كل بنات أورشليم، لا تبكين عليّ بل علي ذواتكن، لأجل الشدائد العظيمة التي تدرككن، والقلق الكثير بعد زمن قليل. وستأتي عليكن أيام تغبطن فيها البطون العواقر",
         ],
         [
-            Prefix.HolyWeek +"11HDProphecies&D=GL56&C=Diacon",
-        "",
-        "petit bétail selon ce que chacun peut manger. La tête de petit bétail sera un mâle sans tare, âgé d'un an. Vous la choisirez parmi les moutons ou les chèvres. Vous la garderez jusqu'au quatorzième jour de ce mois, et toute l'assemblée de la communauté d'Israël l'égorgera au crépuscule. On prendra de son sang et on en mettra sur les deux montants et le linteau des maisons où on le mangera. Cette nuit là, on mangera la chair rôtie au feu ;",
-        "من الخروف. وليكن لكم خروفاً ذكراً صحيحاً حولياً ( إبن سنة ) تأخذونه من الحملان أو من الجداء، ويكون عندكم تحت الحفظ إلي اليوم الرابع عشر من الشهر، وليذبحه كل جمهور جماعة بني إسرائيل وقت المساء، ويأخذون من دمه ويضعونه علي القائمتين والعتبتين في كل البيوت التي يأكلون فيها. ويأكلون اللحم في هذه الليلة مشوياً بالنار",
+            Prefix.HolyWeek + "6HDCommentary&D=GL56&C=Diacon",
+            "",
+            "qui n'ont pas enfanté, qui n'ont pas nourri et qui n'ont pas élevé d’enfant. Alors ils se mettront à dire aux montagnes de tombez sur eux et aux collines de les couvrir. Car si l'on traite ainsi le bois vert, qu'adviendra-t-il du sec? Ils arrivèrent au lieu dit du Crâne - ce qui se dit en hébreu Golgotha. Ils dressèrent la croix et Le crucifièrent conformément à la prescience de Dieu. Il y avait là aussi deux malfaiteurs.",
+            "التي لم تحبل، ولم تلد، ولم ترضع، ولم ترب. وسيقولون للجبال أن تقع عليهم والآكام أن تغطيهم. فإن كانوا يفعلون هذا بالعود الرطب، فماذا يصنعون باليابس؟ ولما أتوا به إلي الإقرانيون الذي يدعي الجلجثة، أقاموا خشبة الصليب وصلبوه عليها كالتدبير. وكان هناك فاعلا شر",
         ],
         [
-            Prefix.HolyWeek +"11HDProphecies&D=GL56&C=Diacon",
-        "",
-        "on la mangera avec des azymes et des herbes amères. N'en mangez rien cru ni bouilli dans l'eau, mais rôti au feu, avec la tête, les pattes et les tripes. Vous n'en réserverez rien jusqu'au lendemain. Ce qui en resterait le lendemain, vous le brûlerez au feu. C'est ainsi que vous la mangerez: vos reins ceints, vos sandales aux pieds et votre bâton en main. Vous la mangerez en toute hâte, c'est une pâque pour le Seigneur.",
-        "مع فطير، علي اعشاب مرة يأكلونه، لا تأكلوه نيئاً أو مطبوخاً بالماء، بل مشوياً بالنار مع رأسه وأكارعه وما في جوفه، لا تبقوا منه شيئاً للصباح وعظمة منه لا تكسروا، والباقي منه إلي الغد تحرقونه بالنار، وهكذا تأكلونه وأحقاؤكم مشدودة وأحذيتكم في ارجلكم وعصيكم في أيديكم وتأكلونه بسرعة، لأنه فصح للرب.",
+            Prefix.HolyWeek + "6HDCommentary&D=GL56&C=Diacon",
+            "",
+            "Ceux-ci furent crucifiés avec Lui. L'un à sa droite et l'autre à sa gauche afin que s'accomplisse la prophétie qui disait: il a été compté parmi les criminels. Les soldats prirent Ses vêtements et les partagèrent en quatre parts. Sur l'ordre du grand prêtre ils écrivirent sur la croix la raison de Sa condamnation en hébreu, en grec et en latin: \"Celui-ci est le roi des Juifs.\" Tout le peuple et leurs chefs étaient là et se moquaient de Lui sans retenue",
+            "صلبوهما معه، واحداً عن اليمين والآخر عن اليسار، لكي يكمل قول النبي أنه أحصي مع المنافقين وجهال الناس. ثم أخذ الجند ثيابه وإقترعوا عليها وإقتسموها علي اربعة أجزاء. وهكذا كتبوا السبب فوق رأسه كأمر رئيس الكهنة، فكتبوا بالعبرية وباليونانية وبالرومية ( اللاتينية ) أن هذا هو ملك اليهود. وكان جميع الشعب قائما والرؤساء والقادة، وكانوا يهزأون به بغير حياء،",
         ],
         [
-            Prefix.HolyWeek +"11HDProphecies&D=GL56&C=Diacon",
-        "",
-        "Cette nuit-là je parcourrai l'Égypte et je frapperai tous les premiers-nés dans le pays d'Égypte, tant hommes que bêtes, et de tous les dieux d'Égypte, je ferai justice, moi le Seigneur. Le sang sera pour vous un signe sur les maisons où vous vous tenez. En voyant ce signe, je passerai outre et vous échapperez au fléau destructeur lorsque je frapperai le pays d'Égypte. Ce jour là, vous en ferez mémoire et vous le fêterez comme une fête pour le Seigneur,",
-        "وسأجتاز في أرض مصر هذه الليلة وأضرب كل بكر في أرض مصر، من الإنسان إلي البهيمة، وسأصنع إنتقاماً بكل آلهة المصريين أنا الرب، ويكون الدم علامة علي البيوت التي أنتم فيها، فأري الدم وأستر عليكم، ولا يكون فيكم ضربة إنسحاق إذا ما ضربت حينما أضرب كل أبكار أرض مصر. ويكون لكم هذا اليوم تذكاراً فتعيدونه عيداً للرب",
+            Prefix.HolyWeek + "6HDCommentary&D=GL56&C=Diacon",
+            "",
+            "en remuant la tête, Il en a sauvé d'autres, disaient-ils; qu'il se sauve lui-même, s'il est le Christ de Dieu, l'Élu! Même les soldats se moquaient de Lui et blasphémaient ardemment en disant: si Tu es le Roi des Juifs, descends de la croix. L'un des malfaiteurs crucifiés avec Lui le raillait devant la foule en disant: si Tu es le Christ sauve-toi et sauve-nous de cette humiliation. Mais l'autre, le reprenant, déclara: Tu n'as même pas crainte de Dieu?",
+            "ويحركون رؤوسهم ويقولون هكذا: خلص آخرين فليخلص نفسه إن كان هو المسيح إبن المبارك. وأيضاً الجند كانوا يهزأون به ويجدفون عليه بلا فتور قائلين: إن كنت أنت ملك اليهود إنزل عن الصليب. وكان واحد من فاعلي الشر اللذين صلبا معه يفتري عليه أمام الجميع قائلاً: إن كنت أنت المسيح فخلص نفسك وخلصنا من هذا العار الذي نحن فيه. فإنتهره الآخر قائلاً: أما تخاف أنت من الله؟",
         ],
         [
-            Prefix.HolyWeek +"11HDProphecies&D=GL56&C=Diacon",
-        "",
-        "dans vos générations vous la fêterez, c'est un décret perpétuel.\"\nGloire à la sainte Trinité notre Dieu.",
-        "في أجيالكم تعيدونه فريضة أبدية.\nمجداً للثالوث الأقدس إلهنا آمين.",
+            Prefix.HolyWeek + "6HDCommentary&D=GL56&C=Diacon",
+            "",
+            "Nous avons été condamnés à cause de nos fautes. Mais, Lui, Il n'a rien fait de pareil pour mériter cela comme nous; Il est sans péché ni injustice. Puis ouvrant la bouche il dit: Souviens-Toi de moi, Seigneur, quand Tu viendras avec ton royaume. Le Seigneur de gloire, l'ami du genre humain lui répondit: Je te le dis, ce soir même tu seras avec moi dans le paradis de la joie. Des femmes se tenaient au pied de la croix, sa mère et Marie,",
+            "نحن من أجل آثامنا طرحنا الي هذا الحكم وهذه العقوبة التي نحن فيها، أما هذا فلم يفعل شيئاً يستحق عليه مثلنا، فإنه بغير شر ولا ظلم. وفتح فاه وإبتدأ يقول: أذكرني يارب متى جئت في ملكوتك. فإستجاب له رب المجد، وخاطبه كمحب للبشر قائلاً: أقول لك إنك اليوم تكون معي في فردوس النعيم. وكانت نسوة واقفات عند صليب مخلصنا، أمه وأخت أمه مريم",
         ],
         [
-            Prefix.HolyWeek +"11HDProphecies&D=GL56&C=Diacon",
-        "Ebolqen leui nte Mw`ucyc piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nE\rhi  'en  piabot  `èn]orp ` èncou  id? `èmpiabot  jin  `èpnau  `ènrou\i  `èmpipacxa `èmP_. \nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
-        "Lévitique 23 : 5-12 \nLe premier mois, le quatorzième jour du mois, au crépuscule, c'est Pâque pour le Seigneur,",
-        "لاويين ٢٣ : ٥ – ١٥ \nفي الشهر الأول في الرابع عشر من الشهر وقت المساء فصح للرب. ",
+            Prefix.HolyWeek + "6HDCommentary&D=GL56&C=Diacon",
+            "",
+            "femme de Clopas, la soeur de sa mère et Marie de Magdala. Jésus donc voyant sa mère et, se tenant près d'elle, le disciple qu'il aimait, dit à sa mère: Femme, voici ton fils. Puis il dit au disciple: Voici ta mère. Dès cette heure-là, le disciple l'accueillit chez lui selon la parole du Seigneur. A partir de la sixième heure, l'obscurité se fit sur toute la terre, jusqu'à la neuvième heure. Ô Toi qui as décoré de fleurs la terre, ils t'ont revêtu d'un manteau rouge.",
+            "التي لإكلوبا والمجدلية. فلما رأي يسوع أمه والتلميذ الآخر الذي كان يحبه، فأشار إليها قائلا: يا إمرأة هذا إبنك. وقال للآخر: هذه أمك. ومن تلك الساعة أخذها التلميذ إلي بيته كقول الرب. ومن الساعة السادسة الي الساعة التاسعة كانت ظلمة علي الأرض كلها. يا من زين الأرض بكثرة الأزهار، ألبسوك ثوباً أحمر،",
         ],
         [
-            Prefix.HolyWeek +"11HDProphecies&D=GL56&C=Diacon",
-        "",
-        "et le quinzième jour de ce mois, c'est la fête des Azymes pour le Seigneur. Pendant sept jours vous mangerez des pains sans levain. Le premier jour il y aura pour vous une sainte assemblée ; vous ne ferez aucune œuvre servile. Pendant sept jours vous offrirez un mets au Seigneur. Le septième jour, jour de sainte assemblée, vous ne ferez aucune œuvre servile. Le Seigneur parla à Moïse et dit: Parle aux Israélites; tu leur diras:",
-        "وفي الخامس عشر من الشهر عينه عيد الفطير للرب، سبعة أيام تأكلون فطيراً واليوم الأول يدعي لكم مقدساً. عملا ما من الشغل لا تعملوا، سبعة أيام تقربون محرقاتكم لترفع للرب واليوم السابع يدعي لكم مقدساً. عملا من الشغل لا تعملوا لأنه مقدس للرب ومكرم، وكلم الرب موسي قائلاً له: كلم بني إسرائيل وقل لهم",
-        ],
-        [
-            Prefix.HolyWeek +"11HDProphecies&D=GL56&C=Diacon",
-        "",
-        "Quand vous serez entrés dans le pays que je vous donne et quand vous y ferez la moisson, vous apporterez au prêtre la première gerbe de votre moisson. Il l'offrira devant le Seigneur en geste de présentation pour que vous soyez agréés. C'est le lendemain du sabbat que le prêtre fera cette présentation et, le jour où vous ferez cette présentation, vous offrirez au Seigneur l'holocauste d'un agneau d'un an, sans défaut.\nGloire à la sainte Trinité notre Dieu.",
-        "إذا ما دخلتم الأرض التي أعطيتكم إياها تحصدون حصيدها وتأتون من باكورة حصيدكم للكاهن ويرفع الكاهن الحزمة أمام الرب لتقبل منكم وتحضرونها للكاهن في غد اليوم الأول فيعرفها الكاهن وتقدمون في اليوم الذي تحضرون فيه الحزمة خروفاً لا عيب فيه حولياً محرقة للرب.\nمجداً للثالوث الأقدس إلهنا آمين.",
+            Prefix.HolyWeek + "6HDCommentary&D=GL56&C=Diacon",
+            "",
+            "Toi qui as agrémenté le ciel d'étoiles, ils te couronnèrent d'une couronne d'épines. Toi qui tiens le ciel et la terre dans Ta main, Toi qui as fait tenir la terre par un mot de Ta bouche, ils te mirent un roseau dans ta  A cause de nos péchés Tu as été crucifié sur l'arbre de la croix et Tu as détruit la puissance de la mort par Ta croix, Toi, notre Seigneur dont le pouvoir ne peut être détruit.",
+            "والسماء بكثرة النجوم، وضعوا عليك إكليلاً من شوك. يا من السماء والأرض في قبضتك، وضعوا في يدك قصبة، يا من علقت الأرض كلها بكلمة من فيك، وصلبت علي خشبة من أجل خطايانا، وأبطلت عز الموت يا سيدنا بصليبك، يا ذا القدرة المنيعة.",
         ],
     ],
     [
-    
+
         [
-            Prefix.HolyWeek +"11HDSermony&D=GL56&C=Diacon",
-        "Oukaty,ycic `nte peniwt `e;ouab abba A;anacioc pi`apoctolikoc `ere pef`cmou `e;ouab swpi neman `amyn",
-        "Sermon de notre saint père Abba Athanase l’apostolique. Que sa sainte bénédiction soit avec nous Amen.",
-        "عظة لأبينا القديس أنبا أثناسيوس الرسولى بركته المقدسة تكون معنا آمين",
-        ],
-        [
-            Prefix.HolyWeek +"11HDSermony&D=GL56&C=Diacon",
-        "",
-        "Sermon de notre père saint Athanase l'apostolique que sa sainte bénédiction repose sur nous tous. Amen !\nAinsi il est écrit dans les livres : si nos âmes sont liées à la Loi de Dieu les forces des ténèbres ne pourront rien contre elles. Si nous nous éloignons de Dieu, ces forces des ténèbres nous domineront. Toi, qui veux être sauvé, apprends à nager dans la mer de la richesse et de la sagesse de Dieu. ",
-        "عظة لأبينا القديس أنبا أثناسيوس الرسولى، بركته المقدسة تكون معنا. آمين.\nمكتوب فى الكتب هكذا أن نفوسنا إذا كانت مرتبطة بناموس الله فلن تقوى علينا قوات الظلمة. وإذا ابتعدنا عن الله فهي تتسلط علينا. فأنت أيها الانسان الذي تريد أن تخلص علم ذاتك أن تسبح فى لجة غنى وحكمة الله.",
-        ],
-        [
-            Prefix.HolyWeek +"11HDSermony&D=GL56&C=Diacon",
-        "",
-        "Tends les bras en forme de croix pour traverser la mer immense, c'est à dire le temps de notre passage dans ce monde, pour arriver à Dieu. Les doutes qui empêchent de nager représentent ceux qui n'obéissent pas aux ordres de l'Eglise universelle, je veux dire le manque de Foi, l'adultère, les calomnies et l'amour de l'argent qui est la racine de tout mal. Le signe de la croix est répandu sur toute la création. Si le soleil ne répandait pas ses rayons,",
-        "ابسط يديك على مثال الصليب لتعبر البحر العظيم. الذي هو هذا الدهر وتمضى إلي الله. فأما الشكوك المانعة من السباحة فهى للذين يسلكون خارجاً عن أوامر الكنيسة الجامعة، أعنى عدم الايمان الزنا النميمة محبة الفضة التى هى أصل لكل الشرور. أما علامة الصليب فهى مبسوطة على كل الخليقة. الشمس إذا لم تبسط شعاعها",
-        ],
-        [
-            Prefix.HolyWeek +"11HDSermony&D=GL56&C=Diacon",
-        "",
-        "il ne pourrait pas éclairer. Si la lune n'était pas pleine, elle n'éclairerait pas. Si les oiseaux du ciel n'étalaient pas leurs ailes, ils ne pourraient pas voler. Si les voiliers n'ouvraient pas leurs voiles ils ne pourraient pas s'élancer. Moïse, le grand prophète, lorsqu'il a étendu les bras, a vaincu Amalek. Daniel a été sauvé de la fosse aux lions et Jonas du ventre de la baleine. Tékla, lorsque les méchants la jetèrent dans l'arène aux lions, a été sauvée ",
-        "لا تستطيع أن تضئ. والقمر اذ لم يبسط قرنية لاينير. وكذلك طيور السماء أيضاً اذ لم تبسط اجنحتها لا تستطيع الطيران. والسفن أيضاَ ان لم تفرش قلوعها لا يمكنها ان تقلع. هوذا موسى رئيس الانبياء لما بسط يديه قهر عماليق. ودانيال نجا من جب الاسود. ويونان من بطن الحوت. وتكله عندما ألقوها للسباع تخلصت",
-        ],
-        [
-            Prefix.HolyWeek +"11HDSermony&D=GL56&C=Diacon",
-        "",
-        "grâce au signe de la croix. De même Suzanne a été sauvée de la main des deux vieillards. Judith a été sauvée des mains de Holopherne et les trois jeunes saints du feu ardent. Tous ont été sauvés par le signe de la croix. Il est dit aussi que ta seule demeure c’est l'Eglise. C’est le seul lieu où tu trouveras la consolation par ce qui est écrit dans les livres, par le pain céleste et par le sang du Christ. Console-toi en permanence par les paroles des Ecritures.",
-        "بمثال الصليب. وسوسنة من يدي الشيخين ويهوديت من يد الوفرنيس. والثلاثة فتية القديسون. من اتون النار المتقدة. هؤلاء كلهم خلصوا بمثال الصليب وقيل ايضا ليكن مستقرك فى موضع واحد الذي هو الكنيسة لتتغذي بكلام الكتب، ومن الخبز السمائى، ومن دم المسيح وتتعزى كل حين من كلام الكتب.",
-        ],
-        [
-            Prefix.HolyWeek +"11HDSermony&D=GL56&C=Diacon",
-        "",
-        "Clôturons le sermon de notre père saint Athanase l'apostolique qui a éclairé nos pensées et les yeux de nos cœurs au Nom du Père, du Fils et du Saint Esprit, un seul Dieu, Amen",
-        "فلنختم عظة أبينا القديس أنبا أثناسيوس الرسولى الذي أنار عقولنا وعيون قلوبنا بإسم الآب الإبن والروح القدس إله واحد. آمين",
-        ],
-        [
-            Prefix.HolyWeek +"11HDSermony&D=GL56&C=Diacon",
-        "Marener `c`vragizin `n]katy,ycic `nte peniwt `e;ouab abba A;anacioc pi`apoctolikoc `vyetaferouwini `mpennouc nem nibal `nte nenhyt @ qen `vran `m~Viwt nem ~Psyri nem Pi`pneuma `e;ouab ounou] `nouwt @ `amyn",
-        "Clôturons le sermon de notre saint père Abba Athanase l’apostolique qui a éclairé nos pensées et les yeux de nos cœurs au nom du Père, du Fils et du Saint Esprit, un seul Dieu, Amen !",
-        "فلنختم عظة أبينا القديس أنبا أثناسيوس الرسولى الذى أنار عقولنا وعيون قلوبنا بإسم الآب والإبن والروح القدس إله واحد. آمين.",
+            Prefix.HolyWeek + "EfnotiNayNanRefrain&D=GL56&C=Diacon",
+            "",
+            "Fnou] nai nan ;es ounai `eron `ari ounai neman qen tekmetouro",
+            "يا الله إرحمنا، قرر لنا رحمة، إصنع معنا رحمة فى ملكوتك.",
         ],
     ],
     [
-    
+
         [
-            Prefix.HolyWeek +"11HDPsalm&D=GL56&C=Diacon",
-        "Yalmoc  to Dauid\nAivwr] `ènnajij `èe`èp]wi \arok > cwtem `èeroi `ènxwlem P_ je afmounk `ènje papneuma > `èmpertacqo `èmpek\o cabol `èmmoi > ouo\ `èntaer `èm`èvrh; `ènnheqna `èe`è'rhi `èe`èvlakkoc  >  `allhloui`a\nEiexw `èmpapneuma  ‘en  nekjij  >  akcott  P_  V;  `ènte  ;meqmhi  > `allhloui`a ",
-        "Psaume 142 : 6 et 7 Psaume 30 : 6 \nJe tends les mains vers Toi… Vite, réponds-moi, Seigneur : je suis à bout de souffle. Ne me cache pas Ton Visage, ou je serai de ceux qui tombent dans la fosse. Alléluia.\nEn tes mains je remets mon esprit ; Tu me rachètes, Seigneur, Dieu de vérité. Alléluia",
-        "مزمور  ١٤٢ : ٦، ٧ مزمور ٣٠ : ٣ ،٤ \nبسطت يدي إليك فإستجب لي يارب عاجلاً، فقد فنيت روحي. ولا تصرف وجهك عني، فأشابه الهابطين في الجب. الليلويا.\nفي يديك أستودع روحي ولقد فديتني أيها الرب إله الحق الليلويا",
+            Prefix.HolyWeek + "6HDConfessionOfDimas&D=GL56&C=Diacon",
+            "Aripameu`i `w Pa=o=c @ aksan`i qen tekmetouro.\nAripameu`i `w Paouro @ aksan`i qen tekmetouro.\nAripameu`i `w Vye;ouab @ aksan`i qen tekmetouro.",
+            "Souviens-Toi de moi, Seigneur, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô mon Roi, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Saint, quand Tu viendras dans Ton Royaume.",
+            "آري با ميفئي أوفي إثؤواب أكشان إي خين تيك ميت أورو .",
+        ],
+        [
+            Prefix.HolyWeek + "6HDConfessionOfDimas&D=GL56&C=Diacon",
+            "Mnyc;yti mou Kuri`e @ enty bacili`a cou.\nMnyc;yti mou agie @ enty bacili`a cou.\nMnyc;yti mou decpota @ enty bacili`a cou.",
+            "Souviens-Toi de moi, Seigneur, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Saint, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Maître, quand Tu viendras dans Ton Royaume.",
+            "إمنيس ثيتي مو ذيسبوطا : إنتي فاثيليا سو.",
+        ],
+        [
+            Prefix.HolyWeek + "6HDConfessionOfDimas&D=GL56&C=Diacon",
+            "",
+            "Souviens-Toi de moi, Seigneur, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Saint, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Maître, quand Tu viendras dans Ton Royaume.",
+            "اذكرنى يارب متى جئت فى ملكوتك.\nاذكرني يا قدوس متى جئت فى ملكوتك.\nاذكرني يا سيد متى جئت فى ملكوتك.",
+        ],
+        [
+            Prefix.HolyWeek + "6HDConfessionOfDimas&D=GL56&C=Diacon",
+            "",
+            "Ô Roi des rois, le Christ notre Dieu et Seigneur des seigneurs, comme Tu t’es souvenu du larron qui a cru en Toi sur la croix, souviens-Toi de nous dans Ton royaume.",
+            "يا ملك الملوك المسيح إلهنا ورب الأرباب كما ذكرت اللص الذي آمن بك على الصليب، اذكرنا فى ملكوتك",
+        ],
+        [
+            Prefix.HolyWeek + "6HDConfessionOfDimas&D=GL56&C=Diacon",
+            "",
+            "Souviens-Toi de moi, Seigneur, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Saint, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Maître, quand Tu viendras dans Ton Royaume.",
+            "اذكرنى يارب متى جئت فى ملكوتك.\nاذكرني يا قدوس متى جئت فى ملكوتك.\nاذكرني يا سيد متى جئت فى ملكوتك.",
+        ],
+        [
+            Prefix.HolyWeek + "6HDConfessionOfDimas&D=GL56&C=Diacon",
+            "",
+            "Qui a vu un larron croire comme ce larron? Il a subtilisé par sa fidélité le Royaume des cieux et le paradis de la joie.",
+            "من رأى لصاً آمن بملك مثل هذا اللص الذي بأمانته سرق ملكوت السماوات وفردوس النعيم",
+        ],
+        [
+            Prefix.HolyWeek + "6HDConfessionOfDimas&D=GL56&C=Diacon",
+            "",
+            "Souviens-Toi de moi, Seigneur, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Saint, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Maître, quand Tu viendras dans Ton Royaume.",
+            "اذكرنى يارب متى جئت فى ملكوتك.\nاذكرني يا قدوس متى جئت فى ملكوتك.\nاذكرني يا سيد متى جئت فى ملكوتك.",
+        ],
+        [
+            Prefix.HolyWeek + "6HDConfessionOfDimas&D=GL56&C=Diacon",
+            "",
+            "Pour tes actions, ô larron, tu as été suspendu sur la croix comme les condamnés ; et par ta Foi tu as mérité la grâce et la joie, le Royaume des cieux et le paradis de la joie.",
+            "من أجل أعمالك أيها اللص علقت على الصليب كالمذنبين وبإيمانك استحققت النعمة والفرح وملكوت السماوات وفردوس النعيم.",
+        ],
+        [
+            Prefix.HolyWeek + "6HDConfessionOfDimas&D=GL56&C=Diacon",
+            "",
+            "Souviens-Toi de moi, Seigneur, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Saint, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Maître, quand Tu viendras dans Ton Royaume.",
+            "اذكرنى يارب متى جئت فى ملكوتك.\nاذكرني يا قدوس متى جئت فى ملكوتك.\nاذكرني يا سيد متى جئت فى ملكوتك.",
+        ],
+        [
+            Prefix.HolyWeek + "6HDConfessionOfDimas&D=GL56&C=Diacon",
+            "",
+            "Bienheureux es-tu ô bon larron qui a parlé juste. Tu t’es qualifié en vérité pour le Royaume des cieux et le paradis de la joie.",
+            "طوباك أنت أيها اللص الطوباوي ولسانك الحسن المنطق الذي به تأهلت بالحقيقة لملكوت السماوات وفردوس النعيم",
+        ],
+        [
+            Prefix.HolyWeek + "6HDConfessionOfDimas&D=GL56&C=Diacon",
+            "",
+            "Souviens-Toi de moi, Seigneur, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Saint, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Maître, quand Tu viendras dans Ton Royaume.",
+            "اذكرنى يارب متى جئت فى ملكوتك.\nاذكرني يا قدوس متى جئت فى ملكوتك.\nاذكرني يا سيد متى جئت فى ملكوتك.",
+        ],
+        [
+            Prefix.HolyWeek + "6HDConfessionOfDimas&D=GL56&C=Diacon",
+            "",
+            "Ô bon larron, qu’as-tu vu et qu’as-tu regardé pour confesser le Christ crucifié en Sa chair, Roi du ciel et Dieu de tous.",
+            "أيها اللص الطوباوى ماذا رأيت وماذا أبصرت حتى اعترفت بالمسيح المصلوب بالجسد ملك السماء وإله الكل",
+        ],
+        [
+            Prefix.HolyWeek + "6HDConfessionOfDimas&D=GL56&C=Diacon",
+            "",
+            "Souviens-Toi de moi, Seigneur, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Saint, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Maître, quand Tu viendras dans Ton Royaume.",
+            "اذكرنى يارب متى جئت فى ملكوتك.\nاذكرني يا قدوس متى جئت فى ملكوتك.\nاذكرني يا سيد متى جئت فى ملكوتك.",
+        ],
+        [
+            Prefix.HolyWeek + "6HDConfessionOfDimas&D=GL56&C=Diacon",
+            "",
+            "Tu n’as pas vu le Christ Dieu transfiguré sur le mont Thabor dans la gloire de Son Père ; mais tu L’as vu suspendu au calvaire. Immédiatement tu as crié en disant :",
+            "ما رأيت المسيح الإله متجلياً على طور طابور فى مجد أبيه بل رأيته معلقاً على الاقرانيون فلوقتك صرخت قائلاً:",
+        ],
+        [
+            Prefix.HolyWeek + "6HDConfessionOfDimas&D=GL56&C=Diacon",
+            "",
+            "Souviens-Toi de moi, Seigneur, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Saint, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Maître, quand Tu viendras dans Ton Royaume.",
+            "اذكرنى يارب متى جئت فى ملكوتك.\nاذكرني يا قدوس متى جئت فى ملكوتك.\nاذكرني يا سيد متى جئت فى ملكوتك.",
+        ],
+        [
+            Prefix.HolyWeek + "6HDConfessionOfDimas&D=GL56&C=Diacon",
+            "",
+            "Tu as cru quand tu as vu le ciel et la terre trembler, le soleil et la lune s’obscurcir, les rochers se fissurer, le voile du temple se déchirer, immédiatement tu as crié en disant :",
+            "آمنت لما رأيت السماء والأرض اضطربتا والشمس والقمر اظلمتا والصخور تشققت وستر الهيكل انشق فلوقتك صرخت قائلاً :",
+        ],
+        [
+            Prefix.HolyWeek + "6HDConfessionOfDimas&D=GL56&C=Diacon",
+            "",
+            "Souviens-Toi de moi, Seigneur, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Saint, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Maître, quand Tu viendras dans Ton Royaume.",
+            "اذكرنى يارب متى جئت فى ملكوتك.\nاذكرني يا قدوس متى جئت فى ملكوتك.\nاذكرني يا سيد متى جئت فى ملكوتك.",
+        ],
+        [
+            Prefix.HolyWeek + "6HDConfessionOfDimas&D=GL56&C=Diacon",
+            "",
+            "En vérité, en vérité je te le dis, répondis le Seigneur, ô larron, aujourd’hui tu seras avec moi dans mon paradis et tu hériteras de mon Royaume. Le disciple a renié le Christ et le larron a crié en disant :",
+            "الحق الحق اقول لك قال الرب، أيها اللص إنك انت اليوم تكون معى فى فردوسى وترث ملكوتي. التلميذ أنكر واللص صرخ قائلاً:",
+        ],
+        [
+            Prefix.HolyWeek + "6HDConfessionOfDimas&D=GL56&C=Diacon",
+            "",
+            "Souviens-Toi de moi, Seigneur, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Saint, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Maître, quand Tu viendras dans Ton Royaume.",
+            "اذكرنى يارب متى جئت فى ملكوتك.\nاذكرني يا قدوس متى جئت فى ملكوتك.\nاذكرني يا سيد متى جئت فى ملكوتك.",
+        ],
+        [
+            Prefix.HolyWeek + "6HDConfessionOfDimas&D=GL56&C=Diacon",
+            "",
+            "Heureux es-tu Dimas le larron, plus que tous ceux qui sont sur la terre, tu as obtenu une possibilité que nul n’a eue. Toute ta vie tu as été larron dans la région de Jérusalem. Un seul mot tu as dit au Seigneur et Il t’a mené au paradis.",
+            "طوباك أنت يا ديماس اللص أكثر من كل من على الأرض لأنك نلت وسيلة لم ينلها أحد قط كل زمانك كنت لصاً فى غابات أورشليم وبكلمة واحدة قلتها للرب ارسلك إلى الفردوس",
+        ],
+        [
+            Prefix.HolyWeek + "6HDConfessionOfDimas&D=GL56&C=Diacon",
+            "",
+            "Souviens-Toi de moi, Seigneur, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Saint, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Maître, quand Tu viendras dans Ton Royaume.",
+            "اذكرنى يارب متى جئت فى ملكوتك.\nاذكرني يا قدوس متى جئت فى ملكوتك.\nاذكرني يا سيد متى جئت فى ملكوتك.",
+        ],
+        [
+            Prefix.HolyWeek + "6HDConfessionOfDimas&D=GL56&C=Diacon",
+            "",
+            "Lorsque notre Sauveur a été crucifié sur le bois de la croix, ils ont crucifié avec Lui deux larrons, l’un à sa droite et l’autre à sa gauche. Alors Dimas le larron de droite a immédiatement crié en disant :",
+            "كان لما صلب مخلصنا على خشبة الصليب، صلبوا معه لصين عن يمينه ويساره. فصرخ ديماس اللص اليمين قائلاً:",
+        ],
+        [
+            Prefix.HolyWeek + "6HDConfessionOfDimas&D=GL56&C=Diacon",
+            "",
+            "Souviens-Toi de moi, Seigneur, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Saint, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Maître, quand Tu viendras dans Ton Royaume.",
+            "اذكرنى يارب متى جئت فى ملكوتك.\nاذكرني يا قدوس متى جئت فى ملكوتك.\nاذكرني يا سيد متى جئت فى ملكوتك.",
+        ],
+        [
+            Prefix.HolyWeek + "6HDConfessionOfDimas&D=GL56&C=Diacon",
+            "",
+            "Notre Sauveur lui répondit : Ce jour tu seras avec moi dans mon paradis et tu t’y réjouiras.",
+            "قال له مخلصنا إنك اليوم تكون معى فى فردوسى وتتنعم فيه.",
+        ],
+        [
+            Prefix.HolyWeek + "6HDConfessionOfDimas&D=GL56&C=Diacon",
+            "",
+            "Souviens-Toi de moi, Seigneur, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Saint, quand Tu viendras dans Ton Royaume.\nSouviens-Toi de moi, ô Maître, quand Tu viendras dans Ton Royaume.",
+            "اذكرنى يارب متى جئت فى ملكوتك.\nاذكرني يا قدوس متى جئت فى ملكوتك.\nاذكرني يا سيد متى جئت فى ملكوتك.",
+        ],
+        [
+            Prefix.HolyWeek + "6HDConfessionOfDimas&D=GL56&C=Diacon",
+            "",
+            "Nous implorons Celui qui a été élevé sur le bois de la croix, a versé son sang divin pour nous, a anéanti la mort par Sa Mort, de nous remettre nos péchés, de préserver la vie de notre père le patriarche le pape Anba (…), ainsi que la vie notre père l’évêque Anba (…), et de protéger mes pères réunis dans cette église du plus petit au plus grand. Dites tous (Amen!)3",
+            "ونحن نطلب إلى الذى رفع على خشبة الصليب وبذل دمه الإلهى عنا وابطل الموت بموته أن يغفر خطايانا ويحفظ لنا حياة الآب البطريرك البابا) …(  و أبينا الأسقف الأنبا )…( وسادتى الآباء المجتمعين فى هذه البيعة من صغيرهم إلى كبيرهم قولوا كلكم (آمين)3",
+        ],
+        [
+            Prefix.HolyWeek + "6HDConfessionOfDimas&D=GL56&C=Diacon",
+            "Wouniatk `n;ok `w Dymac piconi @ para ouon niben ethijen pikahi @ je aksasni `n;ok @ `eoueu Kuri`e `mpeouai sasni `erof `eneh.\nAkerpekcyou tyrf @ ekoi `nconi hipiiah `ssyn `nte Ieroucalym @ oucaji `nouwt akjof `mP=o=c @ afouorpk `epiparadicoc.",
+            "Heureux es-tu Dimas le larron parmi ceux qui sont sur la terre car tu as reçu le chemin que personne n’a reçu.\nToute ta vie tu fus larron dans la forêt de Jérusalem, et une seule parole tu dis au Seigneur et Il t’envoya au paradis.",
+            "طوباك أنت يا ديماس اللص أكثر من كل من على الأرض لأنك نلت وسيلة لم ينلها أحد قط\nكل زمانك أقمت لصاً فى غابات أورشليم وكلمة واحدة قلت للرب فارسلك إلى الفردوس",
+        ],
+        [
+            Prefix.HolyWeek + "6HDConfessionOfDimas&D=GL56&C=Diacon",
+            "Acswpi `etau`isi `mPencwtyr @ `ejen pise `nte pi`ctauroc @ au`isi nemaf `nconi `cnau  @ caou`inam nem caja[i `mmof.\nAfws `ebol `nje Dymac piconi @ etcaou`inam afjw `mmoc @ je `aripameu`i `w Pa=o=c @ aksan`i qen tekmetouro.",
+            "Quand notre Sauveur fut crucifié, sur le bois de la croix, ils crucifièrent avec lui deux larrons, à sa droite et à sa gauche.\nDimas le larron à sa droite s’écria en disant “Souviens-Toi de moi, Seigneur, quand Tu viendras dans Ton Royaume.”",
+            "كان لما صلب مخلصنا على خشبة الصليب، صلبوا معه لصين عن يمينه ويساره.\nفصرخ ديماس اللص اليمين قائلاً: اذكرنى يارب متى جئت فى ملكوتك.",
+        ],
+        [
+            Prefix.HolyWeek + "6HDConfessionOfDimas&D=GL56&C=Diacon",
+            "Pejaf naf `nje Pencwtyr @ je `mvoou ek`eswpi nemyi @ `n`hryi qen piparadicoc @ `ntekounof `mmok `nqytf.\n`Ere vy`etaf `aly`i `ejen pise `nte pi`ctauroc @ af] `mpef`cnof `nnou] qaron @ afkwrf `m`vmou hiten pefmou @ `m`p,w `ebol `nte nennobi.",
+            "\nNotre Sauveur lui répondit, “Aujourd’hui, tu seras avec moi au paradis et t’y seras comblé.”\nNous demandons à celui qui fut élevé sur le bois de la croix, a versé son sang divin pour nous, et a écrasé la mort, de nous pardonner nos péchés.",
+            "قال له مخلصنا انك اليوم تكون معى فى فردوسى وتتنعم فيه.\nونحن نطلب إلى الذى رفع على خشبة الصليب وبذل دمه الإلهى عنا وابطل الموت بموته أن يغفر خطايانا.",
+        ],
+        [
+            Prefix.HolyWeek + "6HDConfessionOfDimas&D=GL56&C=Diacon",
+            "`Ef`e`areh `epiwnq `nna[oic `nio] @ et;ouyt qen tai ekklyc`ia @ icjen poukouji sa pounis] @ `ajoc tyrou je `amyn ec`eswpi.",
+            "Puis on éclaire l'église et on allume les bougies en signe de la fin de l'obscurité au début de la neuvième heure.",
+            "ثم تُضاء أنواع الكنيسة وتوقد الشموع إشارةٌ إلى إنتهاء الظلمة في الساعة التاسعة.",
         ],
     ],
     [
-    
+
         [
-            Prefix.HolyWeek +"11HDGospel&D=GL56&C=Diacon",
-        "Yalmoc  to Dauid\nAivwr] `ènnajij `èe`èp]wi \arok > cwtem `èeroi `ènxwlem P_ je afmounk `ènje papneuma > `èmpertacqo `èmpek\o cabol `èmmoi > ouo\ `èntaer `èm`èvrh; `ènnheqna `èe`è'rhi `èe`èvlakkoc > `allhloui`a\nEiexw `èmpapneuma  ‘en  nekjij  >  akcott  P_  V;  `ènte  ;meqmhi  > `allhloui`a ",
-        "Psaume 142 : 6 et 7 Psaume 30 : 6 Je tends les mains vers Toi… Vite, réponds-moi, Seigneur : je suis à bout de souffle. Ne me cache pas Ton Visage, ou je serai de ceux qui tombent dans la fosse. Alléluia.\nEn tes mains je remets mon esprit ; Tu me rachètes, Seigneur, Dieu de vérité. Alléluia",
-        "مزمور  ١٤٢ : ٦، ٧ مزمور ٣٠ : ٣ ،٤ \nبسطت يدي إليك فإستجب لي يارب عاجلاً، فقد فنيت روحي. ولا تصرف وجهك عني، فأشابه الهابطين في الجب. الليلويا.\nفي يديك أستودع روحي ولقد فديتني أيها الرب إله الحق الليلويا",
+            Prefix.HolyWeek + "9HDProphecies&D=GL56&C=Diacon",
+            "",
+            "Ebolqen Ieremiac piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nP_  matamoi  ouo\  ei`èemi  > tote  ainau  `èenou`è\bhou`èi. Anok de  `èm`èvrh;  `ènou\ihb `ènatpet\wou eu`èini `èmmof `èe]atf ouo\ `èmpi`èemi.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
+            "إرميا ١١ : ١٨ - ١٢ : ١ – ١٣\nيا رب عرفني فأعلم، حينئذ نظرت إلي أعمالهم وأنا كحمل بلا عيب يساق إلي الذبح ولم يعلم،",
         ],
         [
-            Prefix.HolyWeek +"11HDGospel&D=GL56&C=Diacon",
-        "Matqeon  Kev  k/z/>n/a/-n/ /\nOuo\ ic pikatapetacma `ènte piervei afvwji icjen `èp]wi `èepecht afer `ècnau > ouo\ pika\i afmonmen > ouo\ nipetra auvwji > ouo\ ni`èm\au auouwn > ouo\ oumh] `èncwma `ènte nh`èetauenkot `nte nheqouab autwounou. Ouo\ `èetaui `èebol 'en ni`èm\au menenca `èqreftwnf > au]e `èe'oun `èe;baki eqouab > ouo\ auouwn\ `èebol `èeoumh].\nPiekatontarxoc de nem nheqnemaf eu`èare\ `èeIhc? > `èetaunau `èepimonmen nem nh`èetau]wpi > auer\o; `èema]w eujw `èmmoc > je ta`èvmhi ne vai pe `èp]hri `èmV;. Ne ouon oumh] de `èn`èc\imi `èmmau pe eunau \ivouei > `èete nai ne nh`èenaumo]i `ènca Ihc ? `èebol'en ;Galilea eu]em]i `èmmof. Nai `èetenare Mari`èa `èn'htou pe ;Magdalinh > nem Maria qa Iakwboc > nem `èqmau `ènIwchv > nem `èqmau `ènnen]hri `ènZebedeoc.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
-        "Matthieu 27 : 51-56 \nEt voilà que le voile du Sanctuaire se déchira en deux, du haut en bas ; la terre trembla, les rochers se fendirent, les tombeaux s'ouvrirent et de nombreux corps de saints trépassés ressuscitèrent : ils sortirent des tombeaux après sa résurrection, entrèrent dans la Ville sainte et se firent voir à bien des gens. Quant au centurion et aux hommes qui avec lui gardaient Jésus, à la vue du séisme",
-        "متى ٢٧ : ٥١ – ٥٦\nوأذا حجاب الهيكل قد إنشق إلي إثنين من فوق إلي أسفل والأرض تزلزلت، والصخور تشققت، والقبور تفتحت، وقام كثير من أجساد القديسين الراقدين، وخرجوا من القبور بعد قيامته، ودخلوا المدينة المقدسة وظهروا لكثيرين، وأما قائد المئة والذين كانوا معه يحرسون يسوع، فلما رأوا الزلزلة",
+            Prefix.HolyWeek + "9HDProphecies&D=GL56&C=Diacon",
+            "",
+            "j'ignorais qu'ils tramaient contre moi des machinations.  Détruisons l'arbre dans sa vigueur, arrachons-le de la terre des vivants, qu'on ne se souvienne plus de son nom! Le Seigneur Sabaot, qui juge avec justice, qui scrute les reins et les cœurs, je verrai ta vengeance contre eux, car c'est à toi que j'ai exposé ma cause. C'est pourquoi, ainsi parle le Seigneur Sabaot contre les gens d'Anatot qui en veulent à ma vie et qui me disent: \" Tu ne prophétiseras",
+            "تشاوروا عليّ مشورة رديئة قائلين: تعالوا فلنقطع شجرة خبزه، ونستأصله من أرض الأحياء ولا يذكر إسمه بعد، الرب يحكم بالعدل ويفحص القلوب والكلي. أرني الإنتقام الذي سيحل بهم من جهتك، لأنهم كشفوا جبلتي لك. من أجل هذا ما يقوله الرب الإله علي عناثوث الذين يطلبون نفسي القائلين لا تتنبأ",
         ],
         [
-            Prefix.HolyWeek +"11HDGospel&D=GL56&C=Diacon",
-        "",
-        "et de ce qui se passait, ils furent saisis d'une grande frayeur et dirent: \"Vraiment celui-ci était fils de Dieu!\" Il y avait là de nombreuses femmes qui regardaient à distance, celles-là même qui avaient suivi Jésus depuis la Galilée et le servaient, entre autres Marie de Magdala, Marie, mère de Jacques et de Joseph, et la mère des fils de Zébédée.\nGloire à Dieu éternellement.",
-        "وما حدث خافوا جداً وقالوا: حقاً كان هذا إبن الله. وكانت هناك نساء كثيرات ينظرن من بعيد وهن اللواتي كن قد تبعن يسوع من الجليل يخدمنه، وبينهن مريم المجدلية، ومريم أم يعقوب، وأم يوسي، وأم ابنَي زبدي.\nوالمجد لله دائماً.",
+            Prefix.HolyWeek + "9HDProphecies&D=GL56&C=Diacon",
+            "",
+            "pas au nom du Seigneur, sinon tu mourras de notre main: c'est pourquoi, ainsi parle le Seigneur: Voici que je vais les visiter. Leurs jeunes gens mourront par l'épée, leurs fils et leurs filles par la famine. Il n'en restera aucun quand j'amènerai le malheur sur les gens d'Anatot, l'année de leur châtiment. Tu es trop juste, Seigneur, pour que j'entre en contestation avec toi. Cependant je parlerai avec toi de questions de droit Pourquoi la voie",
+            "بإسم الرب لئلا تموت بأيدينا : هوذا أنا سأرسل عليهم هلاكاً فيسقط شبابهم بالسيف وبنوهم وبناتهم يموتون بالقحط، ولا تكون لهم بقية لأني منزل الشرور علي السكان بعناثوث في سنة إفتقادهم. عادل أنت يارب وإن حاججتك، لكني أتكلم بالحكم أمامك. لماذا طريق ",
         ],
         [
-            Prefix.HolyWeek +"11HDGospel&D=GL56&C=Diacon",
-        "Markon  Kev i/e>// l/h/-m/a/\nOuo\ pikatapetacma `ènte piervei afvw' 'en `ècnau > icjen `èèp]wi `èe`è'rhi. Etanau de `ènje piekatontarxoc vhèet`èo\i `èeratf `èmpef`èmqo je af; `èmpipn?a? > pejaf je > `èalhqwc pairwmi ne `èp]hri `èmV; pe. Ne ouon \anke\i`èomi de eunau \ivouei nhè`èenare Maria `èn'htou pe ;Magdalinh > nem Maria `ènte Iakwboc pikouji  nem `èqmau `ènIwch nem Calwmh. Nai `èenauoue\ `èncwf \ote euxh 'en ;Galilea ouo\ nau]em]i `èmmof > nem kemh] `èeau`èi nemaf `èe`è\rhi `èeIlh?m.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
-        "Marc 15 : 38-41 \nEt le voile du Sanctuaire se déchira en deux, du haut en bas. Voyant qu'il avait ainsi expiré, le centurion, qui se tenait en face de lui, s'écria: \"Vraiment cet homme était fils de Dieu!\" Il y avait aussi des femmes qui regardaient à distance, entre autres Marie de Magdala, Marie mère de Jacques le petit et de Joset, et Salomé, qui le suivaient et le servaient lorsqu'il était en Galilée;",
-        "مرقس ١٥ : ٣٨ – ٤١\nوإنشق حجاب الهيكل إلي إثنين من فوق إلي أسفل. ولما رأي قائد المئة الواقف مقابله أنه قد أسلم الروح قال: حقا كان هذا الإنسان إبن الله. وكانت نساء أيضاً ينظرن من بعيد، بينهن مريم المجدلية ومريم أم يعقوب الصغير، وأم يوسف وسالومة، هؤلاء اللواتي كن يتبعنه ويخدمنه حين كان في الجليل.",
+            Prefix.HolyWeek + "9HDProphecies&D=GL56&C=Diacon",
+            "",
+            "des méchants est-elle prospère? Pourquoi tous les traîtres sont-ils en paix? Tu les plantes, ils s'enracinent, ils vont bien, ils portent du fruit. Tu es près de leur bouche, mais loin de leurs reins. Mais toi, Seigneur, tu me connais, tu me vois, tu éprouves mon cœur qui est avec toi. Enlève-les comme des brebis pour l'abattoir, consacre-les pour le jour du massacre. Jusques à quand le pays sera-t-il en deuil et l'herbe de toute la campagne desséchée ?",
+            "المنافقين سهلة وجميع الذي لا يطيعون مخصبون؟ غرستهم فتأصلوا وولدوا الأولاد فنموا وأثمروا وأنت قريب من أفواههم بعيد عن كلامهم، وأنت يارب قد عرفتني وإختبرت قلبي، طهرهم في يوم ذبحهم. إلي متي تحزن الأرض، وييبس كل عشب الحقل من شر ساكنيها ؟",
         ],
         [
-            Prefix.HolyWeek +"11HDGospel&D=GL56&C=Diacon",
-        "",
-        "beaucoup d'autres encore qui étaient montées avec lui à Jérusalem.\nGloire à Dieu éternellement.",
-        "وأخر كثيرات اللواتي صعدن معه إلي أورشليم.\nوالمجد لله دائماً.",
+            Prefix.HolyWeek + "9HDProphecies&D=GL56&C=Diacon",
+            "",
+            "C'est par la perversité de ses habitants que périssent bêtes et oiseaux. Car ils disent Dieu ne voit pas notre destinée. Si la course avec des piétons t'épuise, comment lutteras-tu avec des chevaux? Dans un pays en paix tu te sens en sécurité, mais que feras-tu dans les halliers du Jourdain? Car même tes frères et la maison de ton père, même eux te trahiront! Même eux crieront après toi à pleine voix. N'aie pas confiance en eux quand ils te",
+            "فنيت البهائم والطيور لأنهم قالوا إن الله لا يري طرقنا. إن جريت مع المشاة فأتعبوك فكيف تباري الخيل؟ وإن كنت توكلت علي ارض سلامتك فكيف تعمل في علو الأردن؟ لأن إخوتك وبيت أبيك قد أهانوك وإن هم صرخوا وراءك فلا تأمنهم، لأنهم لا يتكلمون معك بالخير. ",
         ],
         [
-            Prefix.HolyWeek +"11HDGospel&D=GL56&C=Diacon",
-        "Loukan  Kev  k/g/> m/z/- m/q/ /\nEtafnau de `ènje piekatontarxoc `èevh`èetaf]wpi > naf;`èwou `èmV; efjw `èmmoc > je ontwc ne parwmi ou`èqmhi pe. Ouo\ nimh] throu `èetau`èi `èejen taiqeoria > `èetaunau `èenh`èetau]wpi > autacqo eukwl\ 'en toumecten\ht. Nau`èo\i de `èeratou \i vouei `ènje nefrem`èncwoun throu > nem \anke\i`èomi nh`èetaumo]i `èncwf icjen ;Galilea eunau`èenai.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
-        "Luc 23 : 47-49\nVoyant ce qui était arrivé, le centenier glorifiait Dieu, en disant : \"Sûrement, cet homme était un juste !\" Et toutes les foules qui s'étaient rassemblées pour ce spectacle, voyant ce qui était arrivé, s'en retournaient en se frappant la poitrine. Tous ses amis se tenaient à distance, ainsi que les femmes qui l'accompagnaient depuis la Galilée, et qui regardaient cela.\nGloire à Dieu éternellement.",
-        "لوقا ٢٣ : ٤٧ – ٤٩\nولما رأي قائد المئة ما حدث مجد الله قائلاً : بالحقيقة كان هذا الإنسان باراً. وكل الجموع الذين أتوا لهذا المنظر، لما عاينوا ما حدث رجعوا وهم يقرعون علي صدورهم، وكان جميع معارفه وقوفاً من بعيد والنسوة اللواتي كن يتبعنه من الجليل ينظرن ذلك.\nوالمجد لله دائماً.",
+            Prefix.HolyWeek + "9HDProphecies&D=GL56&C=Diacon",
+            "",
+            "diront de bonnes paroles! J'ai abandonné ma maison, quitté mon héritage; ce que je chérissais, je l'ai livré aux mains de ses ennemis. Mon héritage s'est comporté envers moi comme un lion de la brousse, il a poussé contre moi ses rugissements, aussi l'ai je pris en aversion. Mon héritage serait-il un rapace bigarré, que les rapaces l'encerclent de toutes parts? Allez! Rassemblez toutes les bêtes sauvages, faites-les venir à la curée!",
+            "هجرت بيتي وتركت ميراثي وأسلمت نفسي الحبيبة ليد أعدائها، صار لي ميراثي كالأسد في الغابة، رفع صوته عليّ. من اجل ذلك أبغضته. هل ميراثي هو حجر ضيعة لي؟ او هو قبر إنطلقوا إليه وحوله، وجمعوا جميع وحوش الحقل ليأتوه ويأكلوه.",
         ],
         [
-            Prefix.HolyWeek +"11HDGospel&D=GL56&C=Diacon",
-        "Iwannhn  Kev  i/q/ > l/a/ - l/z\nNiIoudai oun `èepidh ne `ètparackeuh de > \ina `èntou`è]tem`èo\i `ènje nicwma \ijen pictauroc `èm`èpcabbaton > ne ouni]; gar pe pi`èe\oou `èm`èpcabbaton `èete`èmmau > au;\o `èePilatoc \ina `èntoukw] `ènnoukeli ouo\ `èntou`èolou. Au`èi oun `ènje nimatoi ouo\ pi\ouit men aukw] `ènnefkeli ouo\ aukw] `ènna pikeouai `èetau`èa]ou nemaf. Etau`èi de \a Ihc? aujemf \hdh afou`èw efmou > `èmpoukw] `ènnefkeli `ènqof alla ouai `ènnimatoi afqou[ `èmpef`ècvir 'en teflogxh > ouo\ catotf af`èi `èebol `ènje oumwou nem ou`ècnof. Ouo\ vh`èetafnau afermeqre > ouo\ oumhi te tefmetmeqre ouo\ `ènqof \wf vh`èete`èmmau `èf`èemi je afje meqmhi \ina `ènqwten \wten `èntetenna\;. Nai gar au]wpi \ina `ènte ;gravh jwk `èebol >  je oukac `èntaf `ènnouka]f. Ouo\ palin ;gravh jw `èmmoc > je eu`èenau `èevh`èetauqo[f.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
-        "Jean 19 : 31-37 \nComme c'était la Préparation, les Juifs, pour éviter que les corps restent sur la croix durant le sabbat - car ce sabbat était un grand jour -, demandèrent à Pilate qu'on leur brisât les jambes et qu'on les enlevât. Les soldats vinrent donc et brisèrent les jambes du premier, puis de l'autre qui avait été crucifié avec lui. Venus à Jésus, quand ils virent qu'il était déjà mort, ils ne lui brisèrent  pas les jambes,",
-        "يوحنا ١٩ : ٣١ – ٣٧\nفأما اليهود إذ كان يوم الجمعة، ولكي لا تبقي الأجساد علي الصليب في السبت، لأن يوم ذلك السبت كان عظيماً، فسألوا بيلاطس أن تكسر سيقانهم ويرفعوا. فأتي العسكر وكسروا ساقي الأول والآخر اللذين صلبا معه، وأما يسوع فلما جاءوا إليه لم يكسروا ساقيه",
+            Prefix.HolyWeek + "9HDProphecies&D=GL56&C=Diacon",
+            "",
+            "Des pasteurs en grand nombre ont saccagé ma vigne, piétiné mon domaine, réduit mon domaine préféré en solitude désertique. Ils en ont fait une région désolée, en deuil, désolée devant moi. Tout le pays est désolé et personne ne prend cela à cœur ! Sur tous les monts chauves du désert sont arrivés des dévastateurs car le Seigneur tient une épée dévorante d'un bout du pays jusqu'à l'autre il n'y a de paix pour aucune chair. Ils ont semé du blé",
+            "رعاة كثيرون أفسدوا كرمي ودنسوا نصيبي وجعلوا نصيبي الحسن موضع قفر لا يسلك، صيروه خراباً وفساداً لي. الأرض كلها تهلك هلاكاً لأنه ليس إنسان جعله في قلبه، علي جميع الروابي في البرية أتي الناهبون، لأن سيف الرب يأكل من أقصي الأرض إلي أقصاها ولا يكون سلام لأحد من الشر، زرعوا حنطة",
         ],
         [
-            Prefix.HolyWeek +"11HDGospel&D=GL56&C=Diacon",
-        "",
-        "mais l'un des soldats, de sa lance, lui perça le côté et il sortit aussitôt du sang et de l'eau. Celui qui a vu rend témoignage - son témoignage est véritable, et celui-là sait qu'il dit vrai - pour que vous aussi vous croyiez. Car cela est arrivé afin que l'Écriture fût accomplie : Pas un os ne lui sera brisé. Et une autre Écriture dit encore: Ils regarderont celui qu'ils ont transpercé.\nGloire à Dieu éternellement.",
-        "لأنهم رأوه قد مات، لكن واحداً من العسكر طعن جنبه بحربة وللوقت خرج دم وماء، والذي عاين وشهد شهادته حق، وهو يعلم أيضاً أنه يقول الحق، لتؤمنوا أنتم أيضاً لأنه هكذا كان ليتم الكتاب القائل : أن عظماً لا يكسر منه. وايضاً يقول كتاب آخر: ستنظرون إلي من طعنوه.\nوالمجد لله دائماً.",
-        ],
-    ],
-    [
-    
-        [
-            Prefix.HolyWeek +"11HDCommentary&D=GL56&C=Diacon",
-        "",
-        "Commentaire\nÔ malheureux Israël exilé dont les péchés ont rempli l'univers, regarde le centurion, cet étranger, il a confessé le Crucifié. Lui et ceux qui sont avec lui ont crié en disant : \" Vraiment celui-ci était fils de Dieu ! \" Le larron crucifié avec Lui aussi reconnut la puissance du Christ et implora Sa miséricorde, lorsqu'il vit le voile du sanctuaire se déchirer en deux du haut en bas, le soleil masquer ses rayons et s'obscurcir",
-        "طــرح\nيا إسرائيل المسكين المسبي الذي آثامه غطت الجو، أنظر قائد المئة الإنسان الغريب الجنس، كيف إعترف بالمصلوب، وليس هو فقط بل والذين معه صرخوا جميعاً قائلين : إن هذا هو إبن الله. وهكذا اللص الذي صلب معه عرف قوته وطلب رحمته، لما نظر حجاب الهيكل إنشق من فوق إلي أسفل وصار إثنين ورأي الشمس قد أخفت شعاعها وإظلمت",
+            Prefix.HolyWeek + "9HDProphecies&D=GL56&C=Diacon",
+            "",
+            "ils moissonnent des épines. Ils se sont épuisés sans profit. Ils ont honte de leurs récoltes, à cause de l'ardente colère du Seigneur.\nGloire à la sainte Trinité notre Dieu.",
+            "فحصدوا شوكاً. لم ينتفعوا بميراثهم وخزوا من افتخارهم ومن الهوان أمام الرب.\nمجداً للثالوث الأقدس إلهنا آمين.",
         ],
         [
-            Prefix.HolyWeek +"11HDCommentary&D=GL56&C=Diacon",
-        "",
-        "ainsi au milieu de la journée, la lune se cacher et devenir rouge sang en l'honneur de son Créateur. Les puissances des cieux et les étoiles tombèrent du ciel en ce jour. La terre trembla, les rochers se fendirent, les tombes s’ouvrirent, ils entrèrent dans la Ville Sainte et se firent voir à bien des gens qui les reconnurent. En voyant cela, ils reconnurent la puissance du Crucifié. Mais Israël fut aveuglé, elle ne vit rien et ne comprit rien.",
-        "هكذا في وسط النهار، والقمر أيضاً ستر وجهه وصار دماً من أجل خالقه، وقوات السموات وكثرة النجوم سقطت من السماء في ذلك اليوم والأرض تزلزلت والصخور تشققت والقبور تفتحت والأموات قامت، ودخلوا إلي المدينة ظاهرين وعرفهم كثيرون من الناس، فلما نظر أولئك عرفوا قوة المصلوب علي الصليب، أما إسرائيل فإنطمست عيناه ولم ينظر ولم يفهم",
+            Prefix.HolyWeek + "9HDProphecies&D=GL56&C=Diacon",
+            "Ebolqen Za,ariac piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nOuo\  ef`èe`èi  `ènje  P_  Panou; > ouo\  nefaggeloc  throu  nemaf > 'en pi`èe\oou  `èete`èmmau  `ènnef]wpi  `ènje  ououwini. \nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
+            "Zacharie 14 : 5-11 \nEt le Seigneur mon Dieu viendra, tous les saints avec lui. Il arrivera, en ce jour-là, qu'il n'y aura plus de lumière",
+            "زكريا النبي ص ١٤ : ٥ – ١١ \nوسيأتي الرب إلهي وجميع ملائكته معه، وفي ذلك اليوم أنه لا يكون نور ",
         ],
         [
-            Prefix.HolyWeek +"11HDCommentary&D=GL56&C=Diacon",
-        "",
-        "Comme c'était le vendredi et que les corps ne pouvaient pas demeurer suspendus sur la croix, ils demandèrent au gouverneur la permission de leur briser les jambes pour qu'ils meurent. Ils brisèrent les jambes des deux larrons, mais trouvèrent le Sauveur mort. Un des soldats courut et, de sa lance, lui perça le côté droit. Il sortit aussitôt du sang et de l'eau simultanément devant la foule. \" Celui qui a vu rend témoignage, son témoignage est",
-        "ومن أجل أنه في يوم الجمعة لا يجب أن تبقي الأجساد علي الخشب، سألوا الوالي أن يكسروا ركبهم لكي يموتوا، فكسروا ركب اللصين، وأما المخلص فوجدوه قد مات، فأسرع واحد من الجند وطعنه بحربة في جنبه الأيمن، فجري منه ماء ودم في مرة واحدة أمام الجميع. والشاهد الصادق تأمل هذا وشهادته",
+            Prefix.HolyWeek + "9HDProphecies&D=GL56&C=Diacon",
+            "",
+            "Mais du froid et du gel. Et il y aura un jour unique - le Seigneur le connaît - plus de jour ni de nuit, mais au temps du soir, il y aura de la lumière. Il arrivera, en ce jour-là, que des eaux vives sortiront de Jérusalem, moitié vers la mer orientale, moitié vers la mer occidentale : il y en aura été comme hiver. Alors le Seigneur sera roi sur toute la terre ; en ce jour-là, le Seigneur sera unique, et son nom unique. Tout le pays retournera en",
+            "بل برد وصقيع يكون في يوم واحد، وهو معروف للرب، لا نهار ولا ليل، بل يحدث أنه في وقت المساء يكون نور ويكون في ذلك اليوم ان ماءاً حياً يخرج من أورشليم، نصف الأول إلي البحر ( الشرقي ) ونصفه الآخر إلي البحر الأخير ( الغربي ) ويكون هكذا في الصيف وفي الخريف، ويكون الرب ملكاً علي الأرض كلها. وفي ذلك اليوم يكون الرب واحداً وإسمه واحداً ويحيط بكافة الأرض",
         ],
         [
-            Prefix.HolyWeek +"11HDCommentary&D=GL56&C=Diacon",
-        "",
-        "véritable, et celui-là sait qu'il dit vrai.\" Il a écrit tout ce qu'il a vu. \" Car cela est arrivé afin que l'Écriture fût accomplie : Pas un os ne lui sera brisé \", et : \" Ils regarderont celui qu'ils ont transpercé.\" Lui, Il les jugera publiquement. Le centurion rentra chez lui tout étonné et rendant gloire à Dieu pour toutes ces choses surprenantes qu'Israël n'avait pas compris. Par Sa Passion vivifiante, Jésus, le Sauveur, a offert au monde un Salut éternel.",
-        "هي حق، وهو أيضاً يعلم أنه قال الحق. من أجل هذا كتب كما نظر وكمل عليه قول الناموس أن لم يكسر له عظم، وأيضاً قال: سينظرون إلي من طعنوه فهو يدينهم أمام أعينهم. ومضي قائد المئة إلي بيته وهو مبهوت ممجداً الله من أجل ما كان يبهت العقول ولم يفهمه إسرائيل أن المخلص يسوع بالآمه المحيية خلص العالم خلاصاً أبيدياً.",
-        ],
-    ],
-    [
-    
-        [
-            Prefix.HolyWeek +"12HDProphecies&D=GL56&C=Diacon",
-        "Ebolqen Ieremiac piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nAnok  `èvrwmi ` èanok  eqnau `èe;met\hki > af`èi  `èe`è\rhi  `èejwi  'en  pi`è]bwt  `ènte  pefjwnt.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
-        "Lamentations de Jérémie 3 : 1-66\nJe suis l'homme qui a connu la misère, sous la verge de sa fureur.",
-        "مراثي إرميا النبي ٣ : ١ -٦٦\nأنا هو الرجل الذي رأي المذلة. أتي عليّ بقضيب غضبه",
+            Prefix.HolyWeek + "9HDProphecies&D=GL56&C=Diacon",
+            "",
+            "plaine, depuis Géba jusqu'à Rimmôn du Négeb. Jérusalem sera exhaussée et habitée en son lieu, depuis la porte de Benjamin jusqu'à l'emplacement de l'ancienne porte, jusqu'à la porte des Angles, et de la tour de Hananéel jusqu'aux pressoirs du roi. On y habitera, il n'y aura plus d'anathème et Jérusalem sera habitée en sécurité.\nGloire à la sainte Trinité notre Dieu.",
+            "والبرية من جبع إلي آرمون بجانب أورشليم الأيمن، وتكون الرامة في مكانها من باب بنيامين إلي الباب الأول إلي باب الزاوية، ومن برج حننئيل إلي معاصر الملك، فسيكون فيها ولا يكون بعد لعن، ويكونون بلا محرمة وتكون أورشليم مطمئنة.\nمجداً للثالوث الأقدس إلهنا آمين.",
         ],
         [
-            Prefix.HolyWeek +"12HDProphecies&D=GL56&C=Diacon",
-        "",
-        "C'est moi qu'il a conduit et fait marcher dans les ténèbres et sans lumière. Contre moi seul, il tourne et retourne sa main tout le jour. \nIl a consumé ma chair et ma peau, rompu mes os. Il a élevé contre moi des constructions, cerné ma tête de tourment. Il m'a fait habiter dans les ténèbres, comme ceux qui sont morts à jamais. ",
-        "وقادني وسيرني في الظلمة لا في النور، والآن رد يده عليّ النهار كله.\nأبلي لحمي وجلدني وسحق عظامي. أحاط بي ونكس رأسي، و أذلني، أجلسني في مواضع مظلمة، مثل الموتي منذ القدم.",
+            Prefix.HolyWeek + "9HDProphecies&D=GL56&C=Diacon",
+            "Ebolqen Iwyl piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nAricalpizin  'en  oucalpiggoc  'en  Ciwn \iwi] patwou eqouab. Ou`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
+            "Joël 2 : 1-3, 10 et 11 \nSonnez du cor à Sion, donnez l'alarme sur ma montagne sainte !",
+            "يوئيل ٢ : ١،٢،٣، ١٠، ١١ \nاِضْرِبُوا بِالْبُوقِ فِي صِهْيَوْنَ. صَوِّتُوا فِي جَبَلِ قُدْسِي !",
         ],
         [
-            Prefix.HolyWeek +"12HDProphecies&D=GL56&C=Diacon",
-        "",
-        "Il m'a emmuré, et je ne puis sortir; il a rendu lourdes mes chaînes. Quand même je crie et j'appelle, il arrête ma prière. Il a barré mes chemins avec des pierres de taille, obstrué mes sentiers.\nIl est pour moi un ours aux aguets, un lion à l'affût. Faisant dévier mes chemins, il m'a déchiré, il a fait de moi une horreur. Il a bandé son arc et m'a visé comme une cible pour ses flèches.",
-        "سيج علي حتي لا أخرج، ضاعف ربطي ووثق سلسلتي، أدعوه فلم يستجب لي، وأصرخ إليه فلم يسر وصد صلاتي،  سيج سبلي وأغلق طرقي المسكونة.\nصار لي كدب كامن وأسد في موضع مختفي، طاردني وصرعني وتركني هالكاً، أوتر قوسه وأقامني هدفاً ليلقي في سهامه.",
+            Prefix.HolyWeek + "9HDProphecies&D=GL56&C=Diacon",
+            "",
+            "Que tous les habitants du pays tremblent, car il vient, le jour du Seigneur car il est proche ! Jour d'obscurité et de sombres nuages, jour de nuées et de ténèbres ! Comme l'aurore, se déploie sur les montagnes un peuple nombreux et fort, tel que jamais il n'y en eut, tel qu'il n'en sera plus après lui, de génération en génération. Devant lui, le feu dévore, derrière lui, la flamme consume… Devant lui la terre frémit, les cieux tremblent!",
+            "لِيَرْتَعِدْ جَمِيعُ سُكَّانِ الأَرْضِ لأَنَّ يَوْمَ الرَّبِّ قَادِمٌ، لأَنَّهُ قَرِيبٌ: يَوْمُ ظَلاَمٍ وَقَتَامٍ، يَوْمُ غَيْمٍ وَضَبَابٍ، مِثْلَ الْفَجْرِ مُمْتَدًّا عَلَى الْجِبَالِ. شَعْبٌ كَثِيرٌ وَقَوِيٌّ لَمْ يَكُنْ نَظِيرُهُ مُنْذُ الأَزَلِ، وَلاَ يَكُونُ أَيْضًا بَعْدَهُ إِلَى سِنِي دَوْرٍ فَدَوْرٍ. قُدَّامَهُ نَارٌ تَأْكُلُ، وَخَلْفَهُ لَهِيبٌ يَحْرِقُ. قُدَّامَهُ تَرْتَعِدُ الأَرْضُ وَتَرْجُفُ السَّمَاءُ. ",
         ],
         [
-            Prefix.HolyWeek +"12HDProphecies&D=GL56&C=Diacon",
-        "",
-        "Il a planté en mes reins, les flèches de son carquois. Je suis devenu la risée de tout mon peuple, leur chanson tout le jour. Il m'a saturé d'amertume, il m'a enivré d'absinthe.\nIl a brisé mes dents avec du gravier, il m'a nourri de cendre. Mon âme est exclue de la paix, j'ai oublié le bonheur! J'ai dit : Mon existence est finie, mon espérance qui venait du Seigneur.",
-        "أدخل في كليتي نبال جعبته، صرت ضحكة لكل شعبي واغنية لهم النهار كله جرعني الحنضل، أسكرني من العلقم.\nهشم بالحصي أسناني وأطعمني الرماد، وأبعد نفسي عن السلام، ونسيت خيراتي، وباد أقنومي ورجائي من الرب.",
-        ],
-        [
-            Prefix.HolyWeek +"12HDProphecies&D=GL56&C=Diacon",
-        "",
-        "Souviens-toi de ma misère et de mon angoisse: c'est absinthe et fiel! Elle s'en souvient, elle s'en souvient, mon âme, et elle s'effondre en moi. Voici ce qu'à mon cœur je rappellerai pour reprendre espoir :\nLes faveurs du Seigneur ne sont pas finies, ni ses compassions épuisées; elles se renouvellent chaque matin, grande est sa fidélité! Ma part, c'est le Seigneur! dit mon âme, c'est pourquoi j'espère en lui. ",
-        "أذكر بؤسي وشقائي والأفسنتين والمرارة التي لم تبرح من ذاكرتي، هذا ما تردده نفسي فيّ،،واشعر به في قلبي.\nمن أجل ذلك أتمسك بمراحم الرب أنه لم يتركني عنه، لأن رأفته لا تزول علي مر الشهور والأيام كلها، إرحمنا يارب في فنائنا لأن رأفاتك لا تفرغ وهي جديدة في كل صباح. وعظيم هو إيمانك. قالت نفسي: نصيبي هو الرب فلذلك أرجوه.",
-        ],
-        [
-            Prefix.HolyWeek +"12HDProphecies&D=GL56&C=Diacon",
-        "",
-        "Le Seigneur est bon pour qui se fie à lui, pour l'âme qui le cherche. Il est bon d'attendre en silence le salut du Seigneur. Il est bon pour l'homme de porter le joug dès sa jeunesse, \nque solitaire et silencieux il s'asseye quand le Seigneur l'impose sur lui, qu'il mette sa bouche dans la poussière: peut-être y a-t-il de l'espoir! qu'il tende la joue à qui le frappe, qu'il se rassasie d'opprobres!",
-        "صالح هو الرب للذين يترجونه، طيب هو للنفس التي تطلبه وتتوقع بسكوت خلاص الرب. جيد للرجل أن يحمل النير منذ صباه.\nيجلس وحده ويصمت لأنه قد وضعه عليه يجعل في التراب فمه لعله يجد رجاء، يميل خذه لمن يلطمه ويشبع تعييراً.",
-        ],
-        [
-            Prefix.HolyWeek +"12HDProphecies&D=GL56&C=Diacon",
-        "",
-        "Car le Seigneur ne rejette pas les humains pour toujours: s'il a affligé, il prend pitié selon Sa grande bonté. Car ce n'est pas de bon cœur qu'il humilie et afflige les fils d'homme !\nQuand on écrase et piétine tous les prisonniers d'un pays, quand on fausse le droit d'un homme devant la face du Très Haut, quand on fait tort à un homme dans un procès, le Seigneur ne le voit-il pas?",
-        "إلا أن الرب لا يقصيه عنه إلي الأبد، فإنه ولو وضعه يترأف عليه ككثرة رحمته لأنه لم يصغر قلبه بل تواضع لبني البشر.\nليذل تحت قدميه جميع المرتبطين بالأرض، أو حرف حكم الرجل أمام وجه العلي، ليلقي الإنسان إلي القضاء عندما يحكم عليه أفما يقول الرب.",
-        ],
-        [
-            Prefix.HolyWeek +"12HDProphecies&D=GL56&C=Diacon",
-        "",
-        "Qui donc n'a qu'à parler pour que les choses soient? N'est-ce pas le Seigneur qui décide? N'est-ce pas de la bouche du Très Haut que sortent les maux et les biens? Pourquoi l'homme murmurerait-il? Qu'il soit plutôt brave contre ses péchés ! \nExaminons notre voie, scrutons-la et revenons au Seigneur. Élevons notre cœur et nos mains vers le Dieu qui est au ciel. Nous, nous avons péché ; nous, nous sommes rebelles: Toi, tu n'as pas pardonné!",
-        "من ذا الذي قال فكان، والرب لم يأمر بهذه. أليس من فم العلي تخرج الخيرات والشرور كيف يتذمر الإنسان الحي الرجل المعاقب لأجل خطيته.\nفلنفحص طرقنا ونختبر خطواتنا ونرجع إلي الرب ولنرفع قلوبنا مع أيدينا لدي العلي الذي في السماء. قد أخطأنا ونافقنا وأغضبنا وأنت لم تغفر لنا.",
-        ],
-        [
-            Prefix.HolyWeek +"12HDProphecies&D=GL56&C=Diacon",
-        "",
-        "Tu t'es enveloppé de colère et nous a pourchassés, massacrant sans pitié. Tu t'es enveloppé d'un nuage pour que la prière ne passe pas.\nTu as fait de nous des balayures, un rebut parmi les peuples. Ils ont ouvert la bouche contre nous, tous nos ennemis. Frayeur et fosse furent notre lot, fracas et désastre. Mes yeux se fondent en ruisseaux pour le désastre de la fille de mon peuple.",
-        "قد إلتحفت وحكمت بالغضب وطردتنا وقتلتنا ولم تشفق، إلتحفت بغمام لئلا تبلغ إليك صلاتي. لأتضع لكي لا أري فأطرح.\nتركتنا في وسط الشعوب ففتح جميع أعدائنا أفواههم علينا فرفعونا ثم طرحونا فحل بنا خوف وسخط عيناي تسيل ينابيع مياه، علي سحق بنت شعبي.",
-        ],
-        [
-            Prefix.HolyWeek +"12HDProphecies&D=GL56&C=Diacon",
-        "",
-        "Mes yeux pleurent et ne s'arrêtent pas, il n'y a pas de répit, jusqu'à ce que le Seigneur regarde et voie du haut du ciel. Mes yeux me font mal, pour toutes les filles de ma Cité.\nIls m'ont chassé, pourchassé comme un oiseau, ceux qui m'exècrent sans raison. Dans une fosse, ils ont précipité ma vie, ils m'ont jeté des pierres. Les eaux ont submergé ma tête; je disais: Je suis perdu!",
-        "عيني حزنت ولا تكف، ولا أرفع رأسي حتي يتطلع الرب وينظر من السماء، عيني تحزن علي نفسي أكثر من جميع بني المدينة.\nقد إصطادني أعدائي اصطياداً كعصفور بلا سبب، وقرضوا في الجب حياتي وطرحوا علي شبكة. فاضت المياه فوق رأسي وقلت : إنه تركني عنه.",
-        ],
-        [
-            Prefix.HolyWeek +"12HDProphecies&D=GL56&C=Diacon",
-        "",
-        "\"J'ai invoqué ton Nom, Seigneur, de la fosse profonde. Tu entendis mon cri, ne sois pas sourd à ma prière, à mon appel. Tu te fis proche, au jour où je t'ai appelé. Tu as dit: Ne crains pas! ",
-        "صرخت بإسمك يارب من جب سفلي، فسمعت صوتي، لا تمل أذنك عن طلبتي في اليوم الذي صرخت إليك إقتربت من معونتي وقلت لي: لا تخف.",
-        ],
-        [
-            Prefix.HolyWeek +"12HDProphecies&D=GL56&C=Diacon",
-        "",
-        "Tu as défendu, Seigneur, la cause de mon âme, tu as racheté ma vie. Tu as vu, Seigneur, le tort qui m'était fait: rends-moi justice. Tu as vu toute leur rage, tous leurs complots contre moi. Tu as entendu leurs outrages, Seigneur, tous leurs complots contre moi, les propos que chuchotaient mes adversaires contre moi, tout le jour. Qu'ils s'asseyent ou se lèvent,",
-        "حكمت يارب لأحكام نفسي وخلصت حياتي. نظرت يارب إلي إضطرابي وحكم في دعواي، رأيت إنتقامهم كله، جميع أفكارهم الكائنة عليّ سمعت تعييرهم يارب وكل مشوراتهم و مؤامراتهم التي صنعوها بي اليوم كله وتحريك شفاه القائمين علي، وكانت جميع تلاوتهم في النهار كله في جلوسهم وقيامهم.",
-        ],
-        [
-            Prefix.HolyWeek +"12HDProphecies&D=GL56&C=Diacon",
-        "",
-        "Regarde: je leur sers de chanson. Rétribue-les, Seigneur, selon l'œuvre de leurs mains. Mets en leur cœur l'endurcissement, ta malédiction sur eux. Poursuis-les avec colère, extirpe-les de dessous tes cieux!\nGloire à la sainte Trinité notre Dieu.",
-        "أنظر يارب إلي عيونهم وأعطهم مجازاة بحسب أعمال أيديهم وجازهم بالتعب علي قساوة قلوبهم، أطردهم بغضبك وأفنيهم يارب من تحت السماء.\nمجداً للثالوث الأقدس إلهنا آمين.",
-        ],
-        [
-            Prefix.HolyWeek +"12HDProphecies&D=GL56&C=Diacon",
-        "Ebolqen Iwna piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nOuo\  afer\o;  `ènje  nirwmi  'en  ouni];  `èn\o;  ouo\  pejwou  nafjeou  pe  vai `èetakaif  nan  jeouhi  au`èemi  `ènje  nirwmi  je  naf  vht `èebol\a  `èp\o  `èmP_.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
-        "Jonas 1 : 10 à 2 : 8\nLes hommes furent saisis d'une grande crainte et ils lui dirent: \"Qu'as-tu fait là!\" Ils savaient en effet qu'il fuyait loin du Seigneur,",
-        "يونان النبي ١ : ١٠ و ٢ : ٧\nفخاف الرجال خوفاً عظيماً وقالوا له: ما هذا الذي فعلته لنا. الرجال قد علموا أنه هارب من وجه الرب",
-        ],
-        [
-            Prefix.HolyWeek +"12HDProphecies&D=GL56&C=Diacon",
-        "",
-        "car il le leur avait raconté. Ils lui dirent: Que te ferons-nous pour que la mer s'apaise pour nous? Car la mer se soulevait de plus en plus. Il leur répondit: Prenez-moi et jetez moi à la mer, et la mer s'apaisera pour vous. Car, je le sais, c'est à cause de moi que cette violente tempête vous assaille. Les hommes ramèrent pour gagner le rivage, mais en vain, car la mer se soulevait de plus en plus contre eux. Alors ils implorèrent le Seigneur",
-        "لأنه أخبرهم فقالوا له: ماذا نصنع بك حتي يسكن عنا البحر، لأن البحر كان يزداد هياجاً. فقال لهم يونان: إطرحوني في البحر ليسكن البحر عنكم لأني عالم أن هذا الموج العظيم إنما كان عليكم بسببي. وكان الرجال يجدفون ليرجعوا إلي الأرض، فلم يستطيعوا لأن البحر إزداد هياجاً عليهم، فصرخوا إلي الرب",
-        ],
-        [
-            Prefix.HolyWeek +"12HDProphecies&D=GL56&C=Diacon",
-        "",
-        "et dirent: Ah! Seigneur, puissions-nous ne pas périr à cause de la vie de cet homme, et puisses-tu ne pas nous charger d'un sang innocent, car c'est toi, Seigneur, qui as agi selon ton bon plaisir. Et, s'emparant de Jonas, ils le jetèrent à la mer, et la mer apaisa sa fureur. Les hommes furent saisis d'une grande crainte du Seigneur; ils offrirent un sacrifice au Seigneur et firent des vœux. Le Seigneur fit qu'il y eut un grand poisson pour engloutir Jonas.",
-        "وقالوا : أيها الرب لا يكون هذا ولا تدعنا نهلك بسبب نفس هذا الرجل ولا تجلب علينا دماً ذكياً لأنك أيها الرب قد صنعت كما شئت. ثم حملوا يونان وطرحوه في البحر، وهدأ البحر عن هياجه فخاف الرجال من الرب خوفاً عظيماً وذبحوا ذبيحة للرب ونذروا نذوراً. فأمر الرب حوتاً عظيماً لإبتلاع يونان",
-        ],
-        [
-            Prefix.HolyWeek +"12HDProphecies&D=GL56&C=Diacon",
-        "",
-        "Jonas demeura dans les entrailles du\npoisson trois jours et trois nuits. Des entrailles du poisson, il pria le Seigneur, son Dieu. Il dit: De la détresse où j'étais, j'ai crié vers le Seigneur, et il m'a répondu; du sein du shéol, j'ai appelé, tu as entendu ma voix. Tu m'avais jeté dans les profondeurs, au cœur de la mer, et le flot m'environnait. Toutes tes vagues et tes lames ont passé sur moi. Et moi je disais : Je suis rejeté de devant tes yeux.",
-        "فكان يونان في جوف الحوت ثلاثة أيام وثلاث ليال، فصلي يونان للرب إلهه قائلاً : صرخت في ضيقي إلي الرب إلهي فإستجاب لي وصرخت إليه من الجحيم فسمع صوتي. قد طرحني في العمق في قاع البحر فأحاطت بي الأنهار وجازت علي جميع تياراتك وأمواجك، فقلت قد طرحت عن وجهك",
-        ],
-        [
-            Prefix.HolyWeek +"12HDProphecies&D=GL56&C=Diacon",
-        "",
-        "Comment contemplerai-je encore ton saint Temple? Les eaux m'avaient environné jusqu'à la gorge, l'abîme me cernait. L'algue était enroulée autour de ma tête. A la racine des montagnes j'étais descendu, en un pays dont les verrous étaient tirés sur moi pour toujours. Mais de la fosse tu as fait remonter ma vie, le Seigneur, mon Dieu. Tandis qu'en moi mon âme défaillait, je me suis souvenu du Seigneur,",
-        "فهل أعود أنظر هيكلك المقدس؟ قد إنسكبت عليّ المياه حتي نفسي وغطاني الغمر الأقصي وغطست رأسي في شقوق الجبال، ونزلت إلي أرض مزاليجها مثبتة إلي الأبد، فلتصعد من النار حياتي أيها الرب إلهي. عند فناء نفسي متي تذكرت الرب",
-        ],
-        [
-            Prefix.HolyWeek +"12HDProphecies&D=GL56&C=Diacon",
-        "",
-        "et ma prière est allée jusqu'à toi en ton saint Temple. \nGloire à la sainte Trinité notre Dieu.",
-        "فلتصعد إليك صلاتي أمام هيكلك المقدس. \nمجداً للثالوث الأقدس إلهنا آمين.",
+            Prefix.HolyWeek + "9HDProphecies&D=GL56&C=Diacon",
+            "",
+            "Le soleil et la lune s'assombrissent, les étoiles perdent leur éclat ! Le Seigneur fait entendre sa voix à la tête de ses troupes ! ... Car il est grand, le jour du Seigneur, très redoutable - et qui peut l'affronter ?\nGloire à la sainte Trinité notre Dieu.",
+            "اَلشَّمْسُ وَالْقَمَرُ يُظْلِمَانِ، وَالنُّجُومُ تَحْجُزُ لَمَعَانَهَا. وَالرَّبُّ يُعْطِي صَوْتَهُ أَمَامَ جَيْشِهِ. إِنَّ عَسْكَرَهُ كَثِيرٌ جِدًّا. فَإِنَّ صَانِعَ قَوْلِهِ قَوِيٌّ، لأَنَّ يَوْمَ الرَّبِّ عَظِيمٌ وَمَخُوفٌ جِدًّا، فَمَنْ يُطِيقُهُ ؟\nمجداً للثالوث الأقدس إلهنا آمين.",
         ],
     ],
     [
-    
+
         [
-            Prefix.HolyWeek +"12HDPsalm&D=GL56&C=Diacon",
-        "Yalmoc  to Dauid\nPek`èqronoc Vnou; ]a `èene\ `ènte pi`èene\ allhloui`a  > pi`è]bwt `èm`èpcwouten pe `èp`è]bwt `ènte tekmetouro. Ou`ècmurna nem ou`èctakth nem oukaci`èa > `èebol'en nek`è\bwc > `allhloui`a ",
-        "Psaume 44 : 9-11\nTon Trône est divin, un Trône éternel, ton sceptre royal est sceptre de droiture. La myrrhe et l'aloès parfument ton vêtement. Alléluia",
-        "مزمور  ٤٤ : ٩، ١١-  \nكرسيك يا الله إلي دهر الدهور، قضيب الإستقامة هو قضيب ملكك، المر والميعة والسليخة من ثيابك الليلويا",
+            Prefix.HolyWeek + "9HDStPaul&D=GL56&C=Diacon",
+            "",
+            "Epitre de Saint Paul aux \nPhilippiens 2 : 5-11\nAyez entre vous les mêmes sentiments qui sont dans le Christ Jésus : Lui, de condition divine, ne retint pas jalousement le rang qui l'égalait à Dieu.  Mais il s'anéantit lui-même, prenant condition d'esclave, et devenant semblable aux hommes. S'étant comporté comme un homme, il s'humilia plus encore, obéissant jusqu'à la mort, et à la mort sur une croix !",
+            "فيلبي ٢ : ٤– ١١\nلا ينظر أحد إلى ما هو لنفسه بل فلينظر كل واحد إلى ما هو لغيره أيضاً. فليكن فيكم هذا الفكر الذي في المسيح يسوع أيضاً، الذي اذ هو فى صورة الله لم يكن يحسب خلسة أن يكون مساوياً لله، لكنه وضع ذاته آخذاً صورة عبد، صائراً في شبه الناس، وإذ وجد في الهيئة كإنسان، وضع ذاته وأطاع حتي الموت، موت الصليب،",
+        ],
+        [
+            Prefix.HolyWeek + "9HDStPaul&D=GL56&C=Diacon",
+            "",
+            "Aussi Dieu l'a-t-il exalté et lui a-t-il donné le Nom qui est au-dessus de tout nom, pour que tout, au nom de Jésus, s'agenouille, au plus haut des cieux, sur la terre et dans les enfers, et que toute langue proclame, de Jésus Christ, qu'il est Seigneur, à la gloire de Dieu le Père.\nLa grâce de Dieu le Père soit avec vous, mes pères et mes frères. Amen.",
+            "لذلك رفعه الله أيضاً وأعطاه إسماً فوق كل إسم لكي تجثو بإسم يسوع كل ركبة ممن في السماء ومن علي الأرض وما تحت الأرض، ويعترف كل لسان أن يسوع المسيح هو رب لمجد الله الآب.\nنعمة الله الآب تحل على أرواحكم يا ابائي واخوتي. آمين.",
         ],
     ],
     [
-    
+
         [
-            Prefix.HolyWeek +"12HDGospel&D=GL56&C=Diacon",
-        "Yalmoc  to Dauid\nAuxat 'en oulakkoc efcapecht > 'en \anma `ènxaki nem `èt'hibi `èm`èvmou. E]wp ai]anmo]i 'en `èqmh; `èn`èt'hibi `èm`èvmou > `ènnaer\o; 'a`èt\h `èn\anpet\wou je `ènqok `èkxh nemhi > ` allhloui`a Pek`èqronoc Vnou; ]a `èene\ `ènte pi`èene\ al ? > pi`è]bwt `èm`èpcwouten pe `èp`è]bwt `ènte tekmetouro. Ou`ècmurna nem ou`èctakth nem oukaci`èa > `èebol'en nek`è\bwc > `allhloui`a ",
-        "Psaume 87 : 5 et 6 et 22 : 4\nOn me voit déjà descendre dans la fosse, ma place est parmi les morts, Si je traverse les ravins de la mort, Je ne crains aucun mal, car Tu es avec moi. Alléluia\nPsaume 142 : 6 et 7 \nTon Trône est divin, un Trône éternel, ton sceptre royal est sceptre de droiture. \nLa myrrhe et l'aloès parfument ton vêtement. Alléluia",
-        "مزمور  ٨٧ : ٤، مز ٢٢ : ٣ \nجعلوني في جب سفلي في مواضع مظلمة وظلال الموت،\nوإن سلكت في وسط ظلال الموت فلا أخشي من الشر لأنك معي الليلويا\nمزمور  ٤٤ : ٩، ١١- \nكرسيك يا الله إلي دهر الدهور، قضيب الإستقامة هو قضيب ملكك، المر والميعة والسليخة من ثيابك الليلويا",
-        ],
-        [
-            Prefix.HolyWeek +"12HDGospel&D=GL56&C=Diacon",
-        "Matqeon  Kev k/z/> n/z/ - [/a/\nEta rou\i de ]wpi af`èi `ènje ourwmi `ènrama`èo `èebol'en Arimaqeac > `èepefran pe Iwchv > vai \wf ne afermaqhthc `ènIhc?. Vai af`èi \a Pilatoc af`èeretin `èmpicwma `ènte Ihc?. Tote Pilatoc afoua\ca\ni `èethif. Ouo\ afsi `èmpicwma `ènje Iwchv afkoulwlf 'en ou]entw ecouab. Ouo\ afxaf 'en pef`èm\au `èmberi > vh`èetaf]okf 'en ;petra > ouo\ af`èckerker `ènouni]; `èn`èwni `èerwf `èmpi`èm\au af\wl. Nacxh de `èmmau `ènje Mari`èa ;Magdalinh > nem ;keMaria eu\emci `èmpe`èmqo `èmpi`èm\au. Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
-        "Matthieu 27 : 57-61 \nLe soir venu, il vint un homme riche d'Arimathie, du nom de Joseph, qui s'était fait, lui aussi, disciple de Jésus. Il alla trouver Pilate et réclama le corps de Jésus. Alors Pilate ordonna qu'on le lui remît. Joseph prit donc le corps, le roula dans un linceul propre et le mit dans le tombeau neuf qu'il s'était fait tailler dans le roc; puis il roula une grande pierre à l'entrée du tombeau et s'en alla. Or il y avait là Marie",
-        "متى ٢٧ : ٥٧ – ٦١ \nولما كان المساء جاء رجل غني من الرامة إسمه يوسف، وكان هذا أيضاً تلميذاً ليسوع، فهذا جاء إلي بيلاطس وطلب جسد يسوع، فأمر بيلاطس حينئذ أن يعطى له. فأخذ يوسف الجسد ولفه بلفائف من الكتان النقي، ووضعه في قبره الجديد الذي كان قد نحته في الصخرة ثم دحرج حجراً عظيماً علي باب القبر ومضي، وكانت هناك مريم",
-        ],
-        [
-            Prefix.HolyWeek +"12HDGospel&D=GL56&C=Diacon",
-        "",
-        "De Magdala et l'autre Marie, assises en face du sépulcre.\nGloire à Dieu éternellement.",
-        "المجدلية ومريم الأخري جالستين تجاه القبر.\nوالمجد لله دائماً.",
-        ],
-        [
-            Prefix.HolyWeek +"12HDGospel&D=GL56&C=Diacon",
-        "Markon  Kev i/e/ > m/b/ ]/b/l/ nem i/ /> a/\nOuo\ \hdh `èeta rou\i ]wpi `èepidh ne `ètparackeuh te et'ajwf `èmpicabbaton > `èetaf`èi `ènje Iwchv pi `èebol'en Arimaqeac > `èeoueucxemwn pe `èmbouleuthc > vai `èete `ènqof \wf nafjou]t `èebol 'a`èt\h `èn;metouro `ènte V; > afertolman af]e `èe'oun \a Pilatoc af`èeretin `èm`èpcwma `ènIh/c/. Pilatoc de afer`è]vhri je \hdh afmou ouo\ `èetafmou; `èepiekatontarxoc af]enf > je an afou`èw afmou.\nOuo\ `èetaf`èemi `èebol\itotf `èmpi`èekatontarxoc > af; `èmpicwma `ènte Ihc? `ènIwchv. Ouo\ `èetaf]ep ou]entw afenf `èe`è'rhi > afkoulwlf 'en ou]entw > ouo\ afxaf 'en  ou`èm\au. Vhet]hk `èebol'en oupetra > ouo\ af`èckerker `ènou`èwni `èerwf `èmpi`èm\au Mari`èa ;Magdalinh nem Mari`èa `ènte Iwch > naunau pe je etauxaf qwn. Ouo\ `èetaf]wpi `ènje picabbaton > Mari`èa ;Magdalinh nem Mari`èa `ènte Iakwboc nem Calwmh > au]enwou au]wp  `èn\an`ècqoinoufi \ina `èntou`èi `èntouqa\cf. Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
-        "Marc 15 : 42 à 16 : 1 \nDéjà le soir était venu et comme c'était la Préparation, c'est-à- dire la veille du sabbat, Joseph d'Arimathie, membre notable du Conseil, qui attendait lui aussi le Royaume de Dieu, s'en vint hardiment trouver Pilate et réclama le corps de Jésus. Pilate s'étonna qu'il fût déjà mort et, ayant fait appeler le centurion, il lui demanda s'il était mort depuis longtemps. Informé par le centurion, il octroya le corps à Joseph.",
-        "مرقس ١٥ : ٤٢ - ١٦: ١\nولما كان المساء، ولأنها كانت الجمعة التي هي قبل السبت، جاء يوسف الذي من الرامة، وكان شريفاً حسن اليسار، ذا مشورة، وكان هو أيضاً يترجي ملكوت الله، فتجاسر ودخل إلي بيلاطس وطلب جسد يسوع. فتعجب بيلاطس أنه قد مات هكذا سريعاً، فإستدعي قائد المئة وسأله : هل له زمان قد مات؟ ولما عرف من قائد المئة أعطي جسد يسوع ليوسف،",
-        ],
-        [
-            Prefix.HolyWeek +"12HDGospel&D=GL56&C=Diacon",
-        "",
-        "Celui-ci, ayant acheté un linceul, descendit Jésus, l'enveloppa dans le linceul et le déposa dans une tombe qui avait été taillée dans le roc; puis il roula une pierre à l'entrée du tombeau. Or, Marie de Magdala et Marie, mère de Joset, regardaient où on l'avait mis. Quand le sabbat fut passé, Marie de Magdala, Marie, mère de Jacques, et Salomé achetèrent des aromates pour aller oindre le corps.\nGloire à Dieu éternellement.",
-        "فإشتري يوسف لفافة من الكتان، ثم أنزله ولفه بها، ووضعه في قبر كان منحوتاً في صخرة، ودحرج حجراً علي باب القبر، وكانت مريم المجدلية ومريم أم يوسي تنظران أين وضع ولما إنقضي السبت إشترت مريم المجدلية ومريم أم يعقوب وسالومة حنوطاً ليأتين ويحنطنه.\nوالمجد لله دائماً.",
-        ],
-        [
-            Prefix.HolyWeek +"12HDGospel&D=GL56&C=Diacon",
-        "Loukan  Kev k/g/> n/ ]/b/l/\nOuo\ \hppe ic ourwmi `èepefran pe Iwchv > `èeoubouleuthc pe > `èeourwmi `èn`èagaqoc ouo\ `èn`èqmhi. Vai naf;ma; an pe 'en poucosni nem toupra[ic ne ou`èebol'en Arimaqeac pe oubaki `ènte niIoudai. Vhe`ènafjou]t `èebol 'ajen ;metouro `ènte V;. \nVai `èetaf`èi \a Pilatoc ouo\ af`èeretin `èmpicwma `ènte Ihc?. Ouo\ `èetafenf `èepecht afkoulwlf 'en ou]entw > ouo\ afxaf 'en ou`èm\au `èeafko]f `èmpatouxa `è\li `èn'htf > ouo\ af`èckerker `ènouni]; `èn`èwni \iren `èvro `èmpi`èm\au. Ouo\ ne ou`èe\oou pe `èmparackeuh ouo\ ne `èa ]wrp ]wpi `èm`èpcabbaton.\nOuo\ `èetaumo]i de `èncwf `ènje ni\i`èomi nh`èetau`èi nemaf `èebol'en ;Galile`èa aunau `èepi`èm\au nem pirh; `èetauxa pefcwma `èmmof. Etautacqo de aucebte \an`ècqoinoufi nem \ancojen > ouo\ picabbaton men > auerhcuxazin kata ;entolh.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
-        "Luc 23 : 50-56\nEt voici un homme nommé Joseph, membre du Conseil, homme droit et juste. Celui-là n'avait pas donné son assentiment au dessein ni à l'acte des autres. Il était d'Arimathie, ville juive, et il attendait le Royaume de Dieu. Il alla trouver Pilate et réclama le corps de Jésus. Il le descendit, le roula dans un linceul et le mit dans une tombe taillée dans le roc, où personne encore n'avait été placé.",
-        "لوقا ٢٣ : ٥٠ -٥٦ \nوإذا برجل إسمه يوسف وكان مشيراً ورجلاً صالحاً باراً. هذا لم يكن موافقاً لرأيهم وعملهم، وكان من الرامة مدينة لليهود، وكان هو أيضاً ينتظر ملكوت الله. هذا تقدم إلي بيلاطس وطلب جسد يسوع، فأنزله ولفه في لفافه من الكتان ووضعه في قبر قد نحته، ولم يكن قد وضع فيه أحد، ودحرج حجراً عظيماً علي باب القبر.",
-        ],
-        [
-            Prefix.HolyWeek +"12HDGospel&D=GL56&C=Diacon",
-        "",
-        "C'était le jour de la Préparation, et le sabbat commençait à poindre. Cependant les femmes qui étaient venues avec lui de Galilée avaient suivi Joseph; elles regardèrent le tombeau et comment son corps avait été mis. Puis elles s'en retournèrent et préparèrent aromates et parfums. Et le sabbat, elles se tinrent en repos, selon le précepte.\nGloire à Dieu éternellement.",
-        "وكان يوم الجمعة، وقد أخذ السبت يلوح. وتبعنه النسوة اللواتي أتين معه من الجليل، فأبصرن القبر وكيف وضع فيه جسده، فرجعن وأعددن حنوطاً وأطياباً، وفي السبت إسترحن حسب الوصية. \nوالمجد لله دائماً.",
-        ],
-        [
-            Prefix.HolyWeek +"12HDGospel&D=GL56&C=Diacon",
-        "Iwannhn  Kev i/q/>l/h/ ]/b/l/\nMenenca nai de af`èi `ènje Iwchv pirem Arimaqeac af;\o `èePilatoc > `èeoumaqhthc \wf `ènte Ihc? nafxhp de pe eqbe `èt\o; `ènniIoudai > \ina `èntefwli `èmpicwma `ènte Ihc? > ouo\ afoua\ca\ni `ènje Pilatoc `èethif naf. Af`èi oun ouo\ af`èwli `èmpicwma `ènte Ihc?.  Af`èi de \wf `ènje Nikoudhmoc vh`èetaf`èi \a Ihc? `ènjwr\ `èn]wrp > `èeouon oumigma `èntotf ou]al nem oualloh > nau ]e `ènlutra.\nAusi oun `èmpicwma `ènte Ihc? ouo\ aukoulwlf `èn\an]entw `èniau nem ni`ècqoi > kata ;ka\c `ènte niIoudai eukwc. Ne ouon ouswm de pe `èepima `èetaua] `èmmof > ouo\ ne ouon ou`èm\au `èmberi 'en piswm > `èmpatou\i `è\li `ènrwmi `èe'oun `èerof `èene\ > `èepidh naf'ent `èerwou `ènje pi`èm\au > eqbe je ;parackeuh te `ènte niIoudai auxa Ihc? `èn'htf. Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
-        "Jean  19 : 38-42 \nAprès ces événements, Joseph d'Arimathie, qui était disciple de Jésus, mais en secret par peur des Juifs, demanda à Pilate de pouvoir enlever le corps de Jésus. Pilate le permit. Ils vinrent donc et enlevèrent son corps. Nicodème - celui qui précédemment était venu, de nuit, trouver Jésus - vint aussi, apportant un mélange de myrrhe et d'aloès, d'environ cent livres.\nIls prirent donc le corps de Jésus",
-        "يوحنا ١٩ : ٣٨ -٤٢\nومن بعد هذا جاء يوسف الذي من الرامة، وهو تلميذ ليسوع وكان مستتراً خوفاً من اليهود، سأل بيلاطس أن يأخذ جسد يسوع، فأذن له بيلاطس أن يعطي له، فجاء وحمل جسد يسوع، وجاء أيضاً نيقوديموس الذي كان قد جاء أولاً إلي يسوع ليلاً، ومعه حنوط مر وصبر، نحو مئة رطل، فأخذا جسد يسوع",
-        ],
-        [
-            Prefix.HolyWeek +"12HDGospel&D=GL56&C=Diacon",
-        "",
-        "et le lièrent de linges, avec les aromates, selon le mode de sépulture en usage chez les Juifs. Or il y avait un jardin au lieu où il avait été crucifié, et, dans ce jardin, un tombeau neuf, dans lequel personne n'avait encore été mis. À cause de la Préparation des Juifs, comme le tombeau était proche, c'est là qu'ils déposèrent Jésus.\nGloire à Dieu éternellement.",
-        "ولفاه في لفائف كتان مع الأطياب كعادة اليهود أن يكفنوا. وكان في الموضع الذي صلب فيه يسوع بستان، وكان في البستان قبر جديد لم يوضع فيه أحد قط، فهناك وضعا يسوع لسبب إستعداد اليهود. لأن القبر كان قريباً منهم. \nوالمجد لله دائماً.",
+            Prefix.HolyWeek + "9HDPsalm&D=GL56&C=Diacon",
+            "Yalmoc  to Dauid\nMatan'oi V; je `èa \anmwou ]e `èe'oun ]a tayuxh > aiqwlc 'en `èt\\ulh `èm`èvmou. Ouo\ au; `ènou]a]i `èeta`è're > ouo\ au`ètcwi `ènou\emj 'en pa`èibi > `allhloui`a",
+            "Psaume 68 : 2, 3 et 22 \nSauve-moi, ô Dieu, car les eaux me sont entrées jusqu'à l'âme. J’enfonce dans la vase du gouffre… Pour nourriture ils m'ont donné du fiel, dans ma soif ils m'abreuvaient de vinaigre. Alléluia",
+            "مزمور  ٦٨ : ١، ١٩ \nأحييني يا الله فإن المياه قد بلغت إلي نفسي، وتورطت في حمأة الموت، وجعلوا في طعامي مرارة وفي عطشي سقونى خلاً : الليلويا.",
         ],
     ],
     [
-    
+
         [
-            Prefix.HolyWeek +"12HDCommentary&D=GL56&C=Diacon",
-        "",
-        "Commentaire\nLe soir de ce jour, le vendredi de la grande fête, la veille du sabbat, vint un homme riche nommé Joseph. Il était écouté, connaissant la Loi. Un autre homme nommé Nicodème, bienheureux et aimant Dieu, vint avec lui. Joseph et ses ascendants s'occupaient des corps des saints. Il demanda à Pilate le corps de Dieu le Verbe, l'unique par sa nature. Pilate demanda s'il était mort et fut très surpris de la réponse. Il ordonna au",
-        "طــرح\nوفى عشية ذلك اليوم الذى هو جمعة العيد العظيم. الذى يأتي قبل السبت الذى هو لسر السيد. جاء إنسان غنى اسمه يوسف وكان ذا رأى يعرف الناموس. وإنسان آخر يسمى نيقوديموس طوباوي محب للإله. وكان يوسف هذا هو وآباؤه يهتمون بأجساد القديسين. فأتى إلى بيلاطس وسأله عن جسد الإله الكلمة الوحيد الجنس. فاستفهم منه هل مات فتعجب الوالى جداً. وهكذا أمر",
+            Prefix.HolyWeek + "9HDGospel&D=GL56&C=Diacon",
+            "Yalmoc  to Dauid\nMatan'oi V; je `èa \anmwou ]e `èe'oun ]a tayuxh aiqwlc 'en `èt\\ulh `èm`èvmou. Ouo\ au; `ènou]a]i `èeta`è're > ouo\ au`ètcwi `ènou\emj 'en pa`èibi > `allhloui`a",
+            "Psaume 68 : 2, 3 et 22 \nSauve-moi, ô Dieu, car les eaux me sont entrées jusqu'à l'âme. J’enfonce dans la vase du gouffre… Pour nourriture ils m'ont donné du fiel, dans ma soif ils m'abreuvaient de vinaigre. Alléluia",
+            "مزمور  ٦٨ : ١، ١٩ \nأحييني يا الله فإن المياه قد بلغت إلي نفسي، وتورطت في حمأة الموت، وجعلوا في طعامي مرارة وفي عطشي سقونى خلاً : الليلويا.",
         ],
         [
-            Prefix.HolyWeek +"12HDCommentary&D=GL56&C=Diacon",
-        "",
-        "centurion de lui remettre le corps de Jésus. Le juste, à la bonne influence, prit donc le corps et s'en occupa. Il se procura des linges propres et doux, comme il convient pour le Fils de Dieu. Nicodème apporta aussi une grande quantité d'aromates précieux, environ cent livres. Ils l'ensevelirent selon la coutume des hébreux et versèrent les aromates sur son Corps. Il y avait dans le jardin un tombeau neuf qui n'avait jamais servi.",
-        "قائد المائة بأن يعطوه جسد يسوع. فأخذ صاحب المشورة الصالحة الصديق الجسد واهتم به. وأحضر أكفاناً ناعمة نقية كما يليق بإبن الله. وأحضر أيضاً نيقوديموس أطياباً كثيرة الثمن نحو مائة رطل طيب. وهكذا كفنوه كعادة العبرانيين ووضعوا الطيب على المبارك. وكان قبر جديد فى البستان طاهراً نقياً لم يوضع أحداً فيه.",
+            Prefix.HolyWeek + "9HDGospel&D=GL56&C=Diacon",
+            "Matqeon  Kev  k/z/> m/ /-n/\nEtavnau de `ènajp yi; ]wpi > afw] `èebol `ènje Ihc? 'en ouni]; `èn`è'rwou efjw `èmmoc > je Elw`èi Elw`èi `èelema cabaxqani > `èete vai pe Panou; Panou; eqbeou akxat `èncwk. |anouon de `èebol'en nhet`èo\i eratou `èmmau > `èetaucwtem naujw `èmmoc je afmou; oube Hliac. Ouo\ catotf afsoji `ènje ouai è`èebol `èn'htou > afsi `ènoucvoggoc afma\c `èn\emj ouo\ afqokc `èeouka] af`ètcof. Pcepi de naujw `èmmoc je xaf `èntennau je `èfnhou `ènje Hliac è`èntefna\mef. Ihc? deon `èetafw] `èebol'en ouni]; `èn`è'rwou af; `èmpipn?a.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
+            "Matthieu 27 : 46-50 \nEt vers la neuvième heure Jésus clama en un grand cri : \"Éli, Éli, lema sabachthani?\", c'est-à-dire: \"Mon Dieu, mon Dieu, pourquoi m'as-tu abandonné?\" Certains de ceux qui se tenaient là disaient en l'entendant: \"Il appelle Élie, celui-ci!\" Et aussitôt l'un d'eux courut prendre une éponge qu'il imbiba de vinaigre et, l'ayant mise au bout d'un roseau, il lui donnait à boire. Mais les autres lui dirent: \"Laisse !",
+            "متى ٢٧ : ٤٦ – ٥٠\nفلما كانت الساعة التاسعة صرخ يسوع بصوت عظيم قائلاً: إيلي إيلي لما شبقتني، أي إلهي إلهي لماذا تركتني؟ فقوم من الواقفين هناك، لما سمعوا قالوا: إنه ينادي إيليا. وللوقت أسرع واحداً منهم وأخذ إسفنجة وملأها خلاً وجعلها علي قصبة وسقاه، وأما الباقون فقالوا: دعوه",
         ],
         [
-            Prefix.HolyWeek +"12HDCommentary&D=GL56&C=Diacon",
-        "",
-        "Ils y déposèrent le corps du Fils unique. Puis ils roulèrent une pierre à l’entrée du tombeau et se tinrent au repos selon le précepte, à cause du sabbat. Des femmes se tenaient là. Elles virent ce qui avait été fait. Il y avait là Marie de Magdala et l'autre Marie. Elles surent vraiment où il avait été déposé.",
-        "فوضعوا جسد الوحيد فى ذلك القبر وتركوا حجراً عليه. فاستراحوا كالوصية من أجل السبت صنعوا هكذا. وكن نسوة واقفات ينظرن ما كان. مريم المجدلية ومريم الأخرى علمن جيدا أين وضع.",
+            Prefix.HolyWeek + "9HDGospel&D=GL56&C=Diacon",
+            "",
+            "Que nous voyions si Élie va venir le sauver!\" Or Jésus, poussant de nouveau un grand cri, rendit l'âme.\nGloire à Dieu éternellement.",
+            "لنري هل يأتي إيليا ليخلصه. فصرخ يسوع أيضاً بصوت عظيم وأسلم الروح.\nوالمجد لله دائماً.",
+        ],
+        [
+            Prefix.HolyWeek + "9HDGospel&D=GL56&C=Diacon",
+            "Markon  Kev i/e/> l/d/-l/z/\nOuo\ 'en `èvnau `ènajp yi; afw] `èebol `ènje Ih/c/ 'en ouni]; `èn`ècmh > je Elw`èi Elw`èi `èelema cabaxqani > `èete pefou`èw\em pe je Panou; Panou; eqbeou akxat `èncwk. Ouo\ \anouon `ènte nhet`èo\i `èeratou `èetaucwtem naujw `èmmoc > je anau afmou; oube Hliac. Etafsoji de `ènje ouai afmo\ `ènoucvoggoc `èn\emj > aftalo `èejen ouka] af`ètcof efjw `èmmoc > je xaf `èntennau je Hliac nhou `èntefenf `èe`è'rhi. Ihc? de etafmou; 'en ouni]; `èn`ècmh af; `èmpipn?a.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
+            "Marc 15 : 34-37 \nEt à la neuvième heure Jésus clama en un grand cri : \"Élôï, Élôï, lema sabachthani\", ce qui se traduit : \"Mon Dieu, mon Dieu, pourquoi m'as-tu abandonné?\" Certains des assistants disaient en l'entendant: \"Voilà qu'il appelle Élie!\" Quelqu'un courut tremper une éponge dans du vinaigre et, l'ayant mise au bout d'un roseau, il lui donnait à boire en disant: \"Laissez! Que nous voyions si Élie va venir le descendre!\"",
+            "مرقس  ١٥ : ٣٤ – ٣٧\nوفي وقت الساعة التاسعة صرخ يسوع بصوت عظيم قائلاً: ألوي ألوي لما شبقتني، الذي تفسيره إلهي إلهي لماذا تركتني؟ فقال قوم من القيام لما سمعوا: أنظروا هوذا ينادي إيليا. فأسرع واحد وملأ إسفنجة خلاً ووضعها علي قصبة وسقاه قائلاً : أتركوه لنري هل يأتي إيليا لينزله.",
+        ],
+        [
+            Prefix.HolyWeek + "9HDGospel&D=GL56&C=Diacon",
+            "",
+            "Or Jésus, jetant un grand cri, expira. \nGloire à Dieu éternellement.",
+            "فصرخ يسوع أيضاً بصوت عظيم وأسلم الروح.\nوالمجد لله دائماً.",
+        ],
+        [
+            Prefix.HolyWeek + "9HDGospel&D=GL56&C=Diacon",
+            "Loukan  Kev  m/e/ nem m/ /\nEfnamounk de `ènje pirh `èa pikatapetacma `ènte piervei vw' 'en tefmh;. Ouo\ `èetafmou; `ènje Ihc ? 'en ouni]; `èn`ècmh > pejaf je paiwt ;; `èmpapn?a ? `èe`è'rhi `èenekjij > ouo\ vai `èetafjof af; `èmpipn??a Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
+            "Luc 23 : 45-46 \nLe soleil s'éclipsant, l'obscurité se fit sur la terre entière, jusqu'à la neuvième heure. Le voile du Sanctuaire se déchira par le milieu, et, jetant un grand cri, Jésus dit: \"Père, en tes mains je remets mon esprit.\" Ayant dit cela, il expira.\nGloire à Dieu éternellement.",
+            "لوقا ٢٣ : ٤٥، ٤٦ \nوإظلمت الشمس، وإنشق حجاب الهيكل من وسطه، ونادي يسوع بصوت عظيم وقال: يا أبتاه في يديك أستودع روحي. ولما قال هذا أسلم الروح.\nوالمجد لله دائماً.",
+        ],
+        [
+            Prefix.HolyWeek + "9HDGospel&D=GL56&C=Diacon",
+            "Iwannhn  Kev  i/q/ > k/h/-l/\nMenenca nai de `èetafnau `ènje Ihc? je \hdh `èa \wb niben jwk `èebol > \ina `ènte ;gravh jwk `èebol > pejaf je ;`èobi.  Ne ouon oumouki de efme\ `èn\emj efxh `èe`è'rhi > aumo\ `ènoucvoggoc `èn\emj > autalof `èejen ou\\ucopoc > au\itf 'aten rwf. |ote `èetafjem;pi `èmpi\emj `ènje Ihc? > pejaf je afjwk `èebol > ouo\ `èetafrek jwf af; `èmpipn?a.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
+            "Jean 19 : 28-30 \nAprès quoi, sachant que désormais tout était achevé pour que l'Écriture fût parfaitement accomplie, Jésus dit: \"J'ai soif.\" Un vase était là, rempli de vinaigre. On mit autour d'une branche d'hysope une éponge imbibée de vinaigre et on l'approcha de sa bouche. Quand il eut pris le vinaigre, Jésus dit: \"C'est achevé\" et, inclinant la tête, il remit l'esprit.\nGloire à Dieu éternellement.",
+            "يوحنا١٩ : ٢٨ – ٣٠ \nوبعد هذا لما رأي يسوع أن كل شيء قد كمل، فلكي يتم المكتوب قال: أنا عطشان وكان إناء موضوعاً مملوءاً خلاً، فملأوا إسفنجة خلاً ورفعوها علي قصبة وأدنوها من فمه فلما ذاق يسوع الخل قال : قد أكمل. وأمال برأسه وأسلم الروح.\nوالمجد لله دائماً.",
         ],
     ],
     [
-    
+
         [
-            Prefix.HolyWeek +"12HDGolghosaHymn&D=GL56&C=Diacon",
-        "dgJolgo;a `mmet hebreoc @ pi`kranion `mmetoueinin @ pimaetauask P=o=c `nqytf @ akvwrs `nnekjij `ebol af`isi nemak `nkeconi `cnau @ catekou`inam nem catekjat[y @ `n;ok ek,y qen toumy] `w picwtyr `naga;oc.",
-        "Le Golgotha en hébreu, le Lieu du Crâne en grec, ce lieu où Tu as été crucifié Seigneur. Tu as étendu tes mains. Et ils crucifièrent avec Toi 2 larrons : à Ta droite et à Ta gauche, et Toi en leur milieu, ô bon Sauveur.",
-        "غولغوثا إمميت هيفرى أوش : بي إكرانيون إمميت أو إينين : بي ما إيطاف أشك إبشويس إنخيتف : أك فورش إن نيك جيج إيفول : أف إيشي نيماك إن كى سوني إسناف صا تيك أوي نام  نيم صا تيك جاتشي : إنثوك إك كي خين توميتي أو بي سوتير إن آغاثوس.",
+            Prefix.HolyWeek + "9HDCommentary&D=GL56&C=Diacon",
+            "",
+            "Commentaire\nDe génération en génération Tes années ne dégénéreront pas. Ton Nom existait avant le soleil. Aujourd'hui je Te contemple crucifié, Toi le Tout-puissant. Comment les contrevenants ont-ils osé? Tu es pourtant le potier qui les a modelés. Toi, le Médecin véritable, Tu as attiré les blessés et les as guéris. Ils T'ont crucifié comme un malfaiteur; eux les pécheurs. Ils criaient avec méchanceté :",
+            "طــرح\nمن جيل إلي جيل سنوك لن تبلي، ومن قبل الشمس كان إسمك، فهوذا أراك اليوم معلقاً علي خشبة الصليب يا ضابط كل المسكونة. كيف تجرأ عليك المخالفون الذين هم صنعتك أيها الفاخوري؟ يا من جذب إليه المجروحين وشفيت جراحاتهم أيها الطبيب الحقيقي. علقوك علي خشبة مثل فاعل شر، أعني الشعب المملوء إثماً، أولئك الذين رفعوا أصواتهم الشريرة وقالوا",
         ],
         [
-            Prefix.HolyWeek +"12HDGolghosaHymn&D=GL56&C=Diacon",
-        "Doza Patri ke Uiw ke `agi`w ~Pneumati.",
-        "Gloire au Père, au Fils et au Saint-Esprit",
-        "المجد للآب والابن والروح القدس.",
+            Prefix.HolyWeek + "9HDCommentary&D=GL56&C=Diacon",
+            "",
+            "«Nous n'avons d'autre roi que César.» A la neuvième heure (trois heures de l'après-midi), notre Sauveur crucifié ouvrit la bouche et dit en hébreu: \"Élôï, Élôï, lema sabachthani\". Tous ceux qui l’entouraient furent pris de crainte. Ceci est conforme à ce qui est écrit dans le Psaume: \"Mon Dieu, mon Dieu, pourquoi m'as-tu abandonné?\" Lorsque l'heure que Lui seul connaissait, fut arrivée, Il dit: \"j'ai soif.\"",
+            "ليس لهم ملك إلا قيصر، فلما كان وقت الساعة التاسعة ومخلصنا معلق علي الصليب، فتح المخلص فاه باللغة العبرانية هكذا قائلاً : ألوى ألوي لما شبقتني؟ حتي خاف جميع الذين حوله. الذي هو: إلهي إلهي أنظر إلي. هكذا مكتوب في المزمور. فلما قربت الساعة التي يعرفها هو وحده أجاب وقال : الآن أنا عطشان.",
         ],
         [
-            Prefix.HolyWeek +"12HDGolghosaHymn&D=GL56&C=Diacon",
-        "Afws `ebol `nje piconi @ etcaou`i nam efjw `mmoc @ je `aripameu`i w Pa=o=c @ `aripameu`i w Pacwtyr @ `aripameu`i w Paouro @ aksan`i qen tekmetouro @ af`erouw naf `nje P=o=c @ qen ou`cmy `mmetremraus @ je `mvoou ek `eswpi nemyi @ `n`hryi qen tametouro.",
-        "Alors le larron à Ta droite s'est écrié en disant : souviens-Toi de moi Seigneur, souviens-Toi de moi ô mon Sauveur, souviens-Toi de moi ô mon Roi quand Tu viendras dans Ton royaume. Le Seigneur lui répondit avec une voix douce : Aujourd'hui tu seras avec moi dans mon royaume.",
-        "أف أوش إيفول إنجى بي سوني : إتصا أوي نام إفجو إمموس : جى آري با ميفئي أو باشويس : أري باميفئي أو باسوتير : أري باميفئي أو با أورو. أكشان إي خين تيك ميت أور : أف إير أوناف إنجى إبشويس خين إو إثمي إمميت ريم رافش جى إمفوأو إك إيشوبي نيمي إن إهري خين تا ميت أورو.",
+            Prefix.HolyWeek + "9HDCommentary&D=GL56&C=Diacon",
+            "",
+            "En effet Il savait ce qui était écrit à son sujet. L'un d'entre eux prit une éponge, l'imbiba de vinaigre, l'accrocha à une lance et Lui en donna. Lorsqu'Il eut goutté le vinaigre, Il dit: \"tout est achevé\" conformément à ce qu'à dit David dans le psaume. Puis, inclinant la tête, Il cria d'une voix forte et remit l'esprit. Qui enseignera aux exilés Celui qui a goûté la mort pour eux ? Qui entrera en premier au paradis pour préparer le chemin pour le Roi?",
+            "لأنه هو كان يعرف الذي كتب من أجله. فأخذ واحد إسفنجة فملأها خلاً وجعلها علي قصبة وسقاه، فلما ذاق الخل قال : قد أكمل. كقول داود في المزمور. ومن بعد الخل أمال رأسه وصرخ بصوت عظيم وأسلم الروح. من يبشر المسبيين بالذي ذاق الموت عنهم ؟ ومن الذي يسبق إلي الفردوس فيهييء الطريق للملك؟",
         ],
         [
-            Prefix.HolyWeek +"12HDGolghosaHymn&D=GL56&C=Diacon",
-        "Ke nun ke `a`i ke ictouc `ew`nac twn `e`wnwn `amyn.",
-        "Maintenant et toujours et pour les siècles des siècles, amen.",
-        "الآن وكل اوان والى دهر الدهور. آمين.",
+            Prefix.HolyWeek + "9HDCommentary&D=GL56&C=Diacon",
+            "",
+            "Réjouissez-vous aujourd'hui, vous les justes, les prophètes et les patriarches. Le premier homme - qui dès le commencement a demeuré dans la tristesse - a été renouvelé aujourd'hui par le nouvel homme qui a écrasé la mort et a réduit son pouvoir à néant. Il a détruit le dard mortel. Dieu le Verbe a accompli cela. L'âme qu'Il prit d'Adam et qu'Il unifia avec Lui descendit aux enfers, et, selon Sa grande miséricorde, Il releva avec Lui les âmes",
+            "إفرحوا اليوم ايها الأبرار والأنبياء والبطاركة والصديقون والإنسان الأول، الرأس الذي عتق في الحزن، قد تجدد اليوم بالإنسان الجديد الذي قتل الموت وأبطل عزته، وشوكته المرة كسرها وقطعها. الله الكلمة اكملها ومضي إلي الجحيم بالنفس التي أخذها من طبيعة آدم وجعلها واحداً معه، والنفوس التي كانت في السجن أصعدها معه",
         ],
         [
-            Prefix.HolyWeek +"12HDGolghosaHymn&D=GL56&C=Diacon",
-        "Au`i `nje nidikeoc @ Iwcyv nem Nikodymoc @ au[i `n`tcarz `nte P=,=c @ au] `noucojen `e`hryi `ejwf @ aukocf au,af qen ou`mhau @ euhwc erof eujw `mmoc @ je `agioc `o :eoc @ `agioc ic,uroc @ `agioc `a;anatoc @ `o `ctaurw;ic di`ymac `ele`ycon `ymac.",
-        "Les deux justes : Joseph et Nicodème ont pris le Corps du Christ, l'ont recouvert d'aromates, l'ont enseveli, en le louant et en disant : Dieu Saint, Saint fort, Saint éternel, qui a été crucifié pour nous, aie pitié de nous.",
-        "أف إي إنجى ني ذيكيئوس يوسف نيم نيقوديموس : أف تشي إن إتصاركس إنتى بخرستوس أفتي أن أو سوجين إى إهري إيجوف أفكوسف أفكاف خين بي إمهاف. إف هوس إيروف إفجو إمموس . جى آجيوس أو ثيئوس : آجيوس إس شيروس آجيوس آثاناطوس. أو إسطافروتيس ديماس إليسون إيماس.",
+            Prefix.HolyWeek + "9HDCommentary&D=GL56&C=Diacon",
+            "",
+            "qui y étaient emprisonnées. Et Satan, le dernier ennemi, Il l'enchaîna. Les gardiens de l'enfer et les puissances demeurant dans les ténèbres s'enfuirent à Sa vue car ils connurent Sa puissance et Son pouvoir. Par Son autorité Il défonça les portes en cuivre et réduisit en poussière les serrures en fer. Ceux qui y étaient exilés, à la vue du Seigneur Jésus, le Sauveur de leurs âmes, s'écrièrent : « Il est bon que Tu sois venu,",
+            "كعظيم رحمته. والعدو الأخيرالذي هو الشيطان قيده بالسلاسل. فلما رآه البوابون الأشرار والقوات الكائنة في الظلمة هربوا، ولم يطيقوا الثبوت لأنهم عرفوا قوته وكثرة جبروته، فكسر الأبواب النحاس بسلطانه والمتاريس الحديد سحقها، واما المسبيون إذ رأوا الرب يسوع مخلص نفوسهم صرخوا بصوت قائلين: حسناً جئت",
         ],
         [
-            Prefix.HolyWeek +"12HDGolghosaHymn&D=GL56&C=Diacon",
-        "Doza Patri ke Uiw ke `agi`w ~Pneumati.",
-        "Gloire au Père, au Fils et au Saint-Esprit",
-        "المجد للآب والابن والروح القدس.",
+            Prefix.HolyWeek + "9HDCommentary&D=GL56&C=Diacon",
+            "",
+            "Toi le Sauveur de Tes serviteurs.» Puis Il prit en premier la main d'Adam, l'attira à Lui et le délivra lui et toute sa descendance. Il les fit entrer dans son paradis, la demeure de la joie et du repos.",
+            "أيها المنقذ عبيده، ثم أمسك أولاً بيد آدم فإجتذبه وأصعده وبنيه معه، وأدخلهم إلي الفردوس مسكن الفرح والراحة.",
+        ],
+    ],
+    [
+
+        [
+            Prefix.HolyWeek + "11HDProphecies&D=GL56&C=Diacon",
+            "Ebolqen pidoxodoc `nte Mw`ucyc piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nPeje  ~P_  `mMw`uchc  nem  ~Aarwn  'en  `èpka\i  `nXhmi  efjw  `èmmoc.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
+            "Exode 12 : 1-14\nLe Seigneur dit à Moïse et à Aaron au pays d'Égypte :",
+            "خروج ١٣ : ١ – ١٤\nوكلم الرب موسي وهرون في أرض مصر قائلا :",
         ],
         [
-            Prefix.HolyWeek +"12HDGolghosaHymn&D=GL56&C=Diacon",
-        "Ke nun ke `a`i ke ictouc `ew`nac twn `e`wnwn `amyn.",
-        "Maintenant et toujours et pour les siècles des siècles, amen.",
-        "الآن وكل اوان والى دهر الدهور. آمين.",
+            Prefix.HolyWeek + "11HDProphecies&D=GL56&C=Diacon",
+            "",
+            "\"Ce mois sera pour vous en tête des autres mois, il sera pour vous le premier mois de l'année. Parlez à toute la communauté d'Israël et dites-lui: Le dix de ce mois, que chacun prenne une tête de petit bétail par famille, une tête de petit bétail par maison. Si la maison est trop peu nombreuse pour une tête de petit bétail, on s'associera avec son voisin le plus proche de la maison, selon le nombre des personnes. Vous choisirez la tête de",
+            "إن هذا الشهر رأس الشهور، فإجعلوه أول شهر السنة. كلما كل جماعة بني إسرائيل وقولا لهم إن في اليوم العاشر من الشهر فليأخذ كل واحد له خروفاً بحسب بيوت آبائهم، خروفاً لكل بيت، وإن كان اهل البيت قليلين لا يكفون لخروف فليأخذ هو وجاره القريب من بيته بحسب عدد النفوس، كل واحد علي قدر ما يكفيه",
         ],
         [
-            Prefix.HolyWeek +"12HDGolghosaHymn&D=GL56&C=Diacon",
-        "Anon hwn marenouwst `mmof @ enws `ebol enjw `mmoc @ je nai nan V] Pencwtyr @ vy`etauasf `epi`ctauroc @ ek`eqomqem `m`pcatanac @ capecyt `nnen[alauj.",
-        "Et nous aussi prosternons-nous devant Lui en clamant et en disant : Aie pitié de nous ô Dieu notre Sauveur qui a été crucifié, écrase satan sous nos pieds.",
-        "آنون هون مارين أو أوشت إمموف : إن أوش إيفول إنجو إمموس : جى ناي نان إفنوتي بين سوتير. في إيطاف أشف إى بي إسطافروس : إك إيخوم خيم إم إبصاطاناس صابيسيت إننين إتشالافج .",
+            Prefix.HolyWeek + "11HDProphecies&D=GL56&C=Diacon",
+            "",
+            "petit bétail selon ce que chacun peut manger. La tête de petit bétail sera un mâle sans tare, âgé d'un an. Vous la choisirez parmi les moutons ou les chèvres. Vous la garderez jusqu'au quatorzième jour de ce mois, et toute l'assemblée de la communauté d'Israël l'égorgera au crépuscule. On prendra de son sang et on en mettra sur les deux montants et le linteau des maisons où on le mangera. Cette nuit là, on mangera la chair rôtie au feu ;",
+            "من الخروف. وليكن لكم خروفاً ذكراً صحيحاً حولياً ( إبن سنة ) تأخذونه من الحملان أو من الجداء، ويكون عندكم تحت الحفظ إلي اليوم الرابع عشر من الشهر، وليذبحه كل جمهور جماعة بني إسرائيل وقت المساء، ويأخذون من دمه ويضعونه علي القائمتين والعتبتين في كل البيوت التي يأكلون فيها. ويأكلون اللحم في هذه الليلة مشوياً بالنار",
         ],
         [
-            Prefix.HolyWeek +"12HDGolghosaHymn&D=GL56&C=Diacon",
-        "Ak[i",
-        "Sauve nous et aie pitié de nous",
-        "خلصنا وإرحمنا",
+            Prefix.HolyWeek + "11HDProphecies&D=GL56&C=Diacon",
+            "",
+            "on la mangera avec des azymes et des herbes amères. N'en mangez rien cru ni bouilli dans l'eau, mais rôti au feu, avec la tête, les pattes et les tripes. Vous n'en réserverez rien jusqu'au lendemain. Ce qui en resterait le lendemain, vous le brûlerez au feu. C'est ainsi que vous la mangerez: vos reins ceints, vos sandales aux pieds et votre bâton en  Vous la mangerez en toute hâte, c'est une pâque pour le Seigneur.",
+            "مع فطير، علي اعشاب مرة يأكلونه، لا تأكلوه نيئاً أو مطبوخاً بالماء، بل مشوياً بالنار مع رأسه وأكارعه وما في جوفه، لا تبقوا منه شيئاً للصباح وعظمة منه لا تكسروا، والباقي منه إلي الغد تحرقونه بالنار، وهكذا تأكلونه وأحقاؤكم مشدودة وأحذيتكم في ارجلكم وعصيكم في أيديكم وتأكلونه بسرعة، لأنه فصح للرب.",
+        ],
+        [
+            Prefix.HolyWeek + "11HDProphecies&D=GL56&C=Diacon",
+            "",
+            "Cette nuit-là je parcourrai l'Égypte et je frapperai tous les premiers-nés dans le pays d'Égypte, tant hommes que bêtes, et de tous les dieux d'Égypte, je ferai justice, moi le Seigneur. Le sang sera pour vous un signe sur les maisons où vous vous tenez. En voyant ce signe, je passerai outre et vous échapperez au fléau destructeur lorsque je frapperai le pays d'Égypte. Ce jour là, vous en ferez mémoire et vous le fêterez comme une fête pour le Seigneur,",
+            "وسأجتاز في أرض مصر هذه الليلة وأضرب كل بكر في أرض مصر، من الإنسان إلي البهيمة، وسأصنع إنتقاماً بكل آلهة المصريين أنا الرب، ويكون الدم علامة علي البيوت التي أنتم فيها، فأري الدم وأستر عليكم، ولا يكون فيكم ضربة إنسحاق إذا ما ضربت حينما أضرب كل أبكار أرض مصر. ويكون لكم هذا اليوم تذكاراً فتعيدونه عيداً للرب",
+        ],
+        [
+            Prefix.HolyWeek + "11HDProphecies&D=GL56&C=Diacon",
+            "",
+            "dans vos générations vous la fêterez, c'est un décret perpétuel.\"\nGloire à la sainte Trinité notre Dieu.",
+            "في أجيالكم تعيدونه فريضة أبدية.\nمجداً للثالوث الأقدس إلهنا آمين.",
+        ],
+        [
+            Prefix.HolyWeek + "11HDProphecies&D=GL56&C=Diacon",
+            "Ebolqen leui nte Mw`ucyc piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nE\rhi  'en  piabot  `èn]orp ` èncou  id? `èmpiabot  jin  `èpnau  `ènrou\i  `èmpipacxa `èmP_. \nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
+            "Lévitique 23 : 5-12 \nLe premier mois, le quatorzième jour du mois, au crépuscule, c'est Pâque pour le Seigneur,",
+            "لاويين ٢٣ : ٥ – ١٥ \nفي الشهر الأول في الرابع عشر من الشهر وقت المساء فصح للرب. ",
+        ],
+        [
+            Prefix.HolyWeek + "11HDProphecies&D=GL56&C=Diacon",
+            "",
+            "et le quinzième jour de ce mois, c'est la fête des Azymes pour le Seigneur. Pendant sept jours vous mangerez des pains sans levain. Le premier jour il y aura pour vous une sainte assemblée ; vous ne ferez aucune œuvre servile. Pendant sept jours vous offrirez un mets au Seigneur. Le septième jour, jour de sainte assemblée, vous ne ferez aucune œuvre servile. Le Seigneur parla à Moïse et dit: Parle aux Israélites; tu leur diras:",
+            "وفي الخامس عشر من الشهر عينه عيد الفطير للرب، سبعة أيام تأكلون فطيراً واليوم الأول يدعي لكم مقدساً. عملا ما من الشغل لا تعملوا، سبعة أيام تقربون محرقاتكم لترفع للرب واليوم السابع يدعي لكم مقدساً. عملا من الشغل لا تعملوا لأنه مقدس للرب ومكرم، وكلم الرب موسي قائلاً له: كلم بني إسرائيل وقل لهم",
+        ],
+        [
+            Prefix.HolyWeek + "11HDProphecies&D=GL56&C=Diacon",
+            "",
+            "Quand vous serez entrés dans le pays que je vous donne et quand vous y ferez la moisson, vous apporterez au prêtre la première gerbe de votre moisson. Il l'offrira devant le Seigneur en geste de présentation pour que vous soyez agréés. C'est le lendemain du sabbat que le prêtre fera cette présentation et, le jour où vous ferez cette présentation, vous offrirez au Seigneur l'holocauste d'un agneau d'un an, sans défaut.\nGloire à la sainte Trinité notre Dieu.",
+            "إذا ما دخلتم الأرض التي أعطيتكم إياها تحصدون حصيدها وتأتون من باكورة حصيدكم للكاهن ويرفع الكاهن الحزمة أمام الرب لتقبل منكم وتحضرونها للكاهن في غد اليوم الأول فيعرفها الكاهن وتقدمون في اليوم الذي تحضرون فيه الحزمة خروفاً لا عيب فيه حولياً محرقة للرب.\nمجداً للثالوث الأقدس إلهنا آمين.",
+        ],
+    ],
+    [
+
+        [
+            Prefix.HolyWeek + "11HDSermony&D=GL56&C=Diacon",
+            "Oukaty,ycic `nte peniwt `e;ouab abba A;anacioc pi`apoctolikoc `ere pef`cmou `e;ouab swpi neman `amyn",
+            "Sermon de notre saint père Abba Athanase l’apostolique. Que sa sainte bénédiction soit avec nous Amen.",
+            "عظة لأبينا القديس أنبا أثناسيوس الرسولى بركته المقدسة تكون معنا آمين",
+        ],
+        [
+            Prefix.HolyWeek + "11HDSermony&D=GL56&C=Diacon",
+            "",
+            "Sermon de notre père saint Athanase l'apostolique que sa sainte bénédiction repose sur nous tous. Amen !\nAinsi il est écrit dans les livres : si nos âmes sont liées à la Loi de Dieu les forces des ténèbres ne pourront rien contre elles. Si nous nous éloignons de Dieu, ces forces des ténèbres nous domineront. Toi, qui veux être sauvé, apprends à nager dans la mer de la richesse et de la sagesse de Dieu. ",
+            "عظة لأبينا القديس أنبا أثناسيوس الرسولى، بركته المقدسة تكون معنا. آمين.\nمكتوب فى الكتب هكذا أن نفوسنا إذا كانت مرتبطة بناموس الله فلن تقوى علينا قوات الظلمة. وإذا ابتعدنا عن الله فهي تتسلط علينا. فأنت أيها الانسان الذي تريد أن تخلص علم ذاتك أن تسبح فى لجة غنى وحكمة الله.",
+        ],
+        [
+            Prefix.HolyWeek + "11HDSermony&D=GL56&C=Diacon",
+            "",
+            "Tends les bras en forme de croix pour traverser la mer immense, c'est à dire le temps de notre passage dans ce monde, pour arriver à Dieu. Les doutes qui empêchent de nager représentent ceux qui n'obéissent pas aux ordres de l'Eglise universelle, je veux dire le manque de Foi, l'adultère, les calomnies et l'amour de l'argent qui est la racine de tout mal. Le signe de la croix est répandu sur toute la création. Si le soleil ne répandait pas ses rayons,",
+            "ابسط يديك على مثال الصليب لتعبر البحر العظيم. الذي هو هذا الدهر وتمضى إلي الله. فأما الشكوك المانعة من السباحة فهى للذين يسلكون خارجاً عن أوامر الكنيسة الجامعة، أعنى عدم الايمان الزنا النميمة محبة الفضة التى هى أصل لكل الشرور. أما علامة الصليب فهى مبسوطة على كل الخليقة. الشمس إذا لم تبسط شعاعها",
+        ],
+        [
+            Prefix.HolyWeek + "11HDSermony&D=GL56&C=Diacon",
+            "",
+            "il ne pourrait pas éclairer. Si la lune n'était pas pleine, elle n'éclairerait pas. Si les oiseaux du ciel n'étalaient pas leurs ailes, ils ne pourraient pas voler. Si les voiliers n'ouvraient pas leurs voiles ils ne pourraient pas s'élancer. Moïse, le grand prophète, lorsqu'il a étendu les bras, a vaincu Amalek. Daniel a été sauvé de la fosse aux lions et Jonas du ventre de la baleine. Tékla, lorsque les méchants la jetèrent dans l'arène aux lions, a été sauvée ",
+            "لا تستطيع أن تضئ. والقمر اذ لم يبسط قرنية لاينير. وكذلك طيور السماء أيضاً اذ لم تبسط اجنحتها لا تستطيع الطيران. والسفن أيضاَ ان لم تفرش قلوعها لا يمكنها ان تقلع. هوذا موسى رئيس الانبياء لما بسط يديه قهر عماليق. ودانيال نجا من جب الاسود. ويونان من بطن الحوت. وتكله عندما ألقوها للسباع تخلصت",
+        ],
+        [
+            Prefix.HolyWeek + "11HDSermony&D=GL56&C=Diacon",
+            "",
+            "grâce au signe de la croix. De même Suzanne a été sauvée de la main des deux vieillards. Judith a été sauvée des mains de Holopherne et les trois jeunes saints du feu ardent. Tous ont été sauvés par le signe de la croix. Il est dit aussi que ta seule demeure c’est l'Eglise. C’est le seul lieu où tu trouveras la consolation par ce qui est écrit dans les livres, par le pain céleste et par le sang du Christ. Console-toi en permanence par les paroles des Ecritures.",
+            "بمثال الصليب. وسوسنة من يدي الشيخين ويهوديت من يد الوفرنيس. والثلاثة فتية القديسون. من اتون النار المتقدة. هؤلاء كلهم خلصوا بمثال الصليب وقيل ايضا ليكن مستقرك فى موضع واحد الذي هو الكنيسة لتتغذي بكلام الكتب، ومن الخبز السمائى، ومن دم المسيح وتتعزى كل حين من كلام الكتب.",
+        ],
+        [
+            Prefix.HolyWeek + "11HDSermony&D=GL56&C=Diacon",
+            "",
+            "Clôturons le sermon de notre père saint Athanase l'apostolique qui a éclairé nos pensées et les yeux de nos cœurs au Nom du Père, du Fils et du Saint Esprit, un seul Dieu, Amen",
+            "فلنختم عظة أبينا القديس أنبا أثناسيوس الرسولى الذي أنار عقولنا وعيون قلوبنا بإسم الآب الإبن والروح القدس إله واحد. آمين",
+        ],
+        [
+            Prefix.HolyWeek + "11HDSermony&D=GL56&C=Diacon",
+            "Marener `c`vragizin `n]katy,ycic `nte peniwt `e;ouab abba A;anacioc pi`apoctolikoc `vyetaferouwini `mpennouc nem nibal `nte nenhyt @ qen `vran `m~Viwt nem ~Psyri nem Pi`pneuma `e;ouab ounou] `nouwt @ `amyn",
+            "Clôturons le sermon de notre saint père Abba Athanase l’apostolique qui a éclairé nos pensées et les yeux de nos cœurs au nom du Père, du Fils et du Saint Esprit, un seul Dieu, Amen !",
+            "فلنختم عظة أبينا القديس أنبا أثناسيوس الرسولى الذى أنار عقولنا وعيون قلوبنا بإسم الآب والإبن والروح القدس إله واحد. آمين.",
+        ],
+    ],
+    [
+
+        [
+            Prefix.HolyWeek + "11HDPsalm&D=GL56&C=Diacon",
+            "Yalmoc  to Dauid\nAivwr] `ènnajij `èe`èp]wi \arok > cwtem `èeroi `ènxwlem P_ je afmounk `ènje papneuma > `èmpertacqo `èmpek\o cabol `èmmoi > ouo\ `èntaer `èm`èvrh; `ènnheqna `èe`è'rhi `èe`èvlakkoc  >  `allhloui`a\nEiexw `èmpapneuma  ‘en  nekjij  >  akcott  P_  V;  `ènte  ;meqmhi  > `allhloui`a ",
+            "Psaume 142 : 6 et 7 Psaume 30 : 6 \nJe tends les mains vers Toi… Vite, réponds-moi, Seigneur : je suis à bout de souffle. Ne me cache pas Ton Visage, ou je serai de ceux qui tombent dans la fosse. Alléluia.\nEn tes mains je remets mon esprit ; Tu me rachètes, Seigneur, Dieu de vérité. Alléluia",
+            "مزمور  ١٤٢ : ٦، ٧ مزمور ٣٠ : ٣ ،٤ \nبسطت يدي إليك فإستجب لي يارب عاجلاً، فقد فنيت روحي. ولا تصرف وجهك عني، فأشابه الهابطين في الجب. الليلويا.\nفي يديك أستودع روحي ولقد فديتني أيها الرب إله الحق الليلويا",
+        ],
+    ],
+    [
+
+        [
+            Prefix.HolyWeek + "11HDGospel&D=GL56&C=Diacon",
+            "Yalmoc  to Dauid\nAivwr] `ènnajij `èe`èp]wi \arok > cwtem `èeroi `ènxwlem P_ je afmounk `ènje papneuma > `èmpertacqo `èmpek\o cabol `èmmoi > ouo\ `èntaer `èm`èvrh; `ènnheqna `èe`è'rhi `èe`èvlakkoc > `allhloui`a\nEiexw `èmpapneuma  ‘en  nekjij  >  akcott  P_  V;  `ènte  ;meqmhi  > `allhloui`a ",
+            "Psaume 142 : 6 et 7 Psaume 30 : 6 Je tends les mains vers Toi… Vite, réponds-moi, Seigneur : je suis à bout de souffle. Ne me cache pas Ton Visage, ou je serai de ceux qui tombent dans la fosse. Alléluia.\nEn tes mains je remets mon esprit ; Tu me rachètes, Seigneur, Dieu de vérité. Alléluia",
+            "مزمور  ١٤٢ : ٦، ٧ مزمور ٣٠ : ٣ ،٤ \nبسطت يدي إليك فإستجب لي يارب عاجلاً، فقد فنيت روحي. ولا تصرف وجهك عني، فأشابه الهابطين في الجب. الليلويا.\nفي يديك أستودع روحي ولقد فديتني أيها الرب إله الحق الليلويا",
+        ],
+        [
+            Prefix.HolyWeek + "11HDGospel&D=GL56&C=Diacon",
+            "Matqeon  Kev  k/z/>n/a/-n/ /\nOuo\ ic pikatapetacma `ènte piervei afvwji icjen `èp]wi `èepecht afer `ècnau > ouo\ pika\i afmonmen > ouo\ nipetra auvwji > ouo\ ni`èm\au auouwn > ouo\ oumh] `èncwma `ènte nh`èetauenkot `nte nheqouab autwounou. Ouo\ `èetaui `èebol 'en ni`èm\au menenca `èqreftwnf > au]e `èe'oun `èe;baki eqouab > ouo\ auouwn\ `èebol `èeoumh].\nPiekatontarxoc de nem nheqnemaf eu`èare\ `èeIhc? > `èetaunau `èepimonmen nem nh`èetau]wpi > auer\o; `èema]w eujw `èmmoc > je ta`èvmhi ne vai pe `èp]hri `èmV;. Ne ouon oumh] de `èn`èc\imi `èmmau pe eunau \ivouei > `èete nai ne nh`èenaumo]i `ènca Ihc ? `èebol'en ;Galilea eu]em]i `èmmof. Nai `èetenare Mari`èa `èn'htou pe ;Magdalinh > nem Maria qa Iakwboc > nem `èqmau `ènIwchv > nem `èqmau `ènnen]hri `ènZebedeoc.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
+            "Matthieu 27 : 51-56 \nEt voilà que le voile du Sanctuaire se déchira en deux, du haut en bas ; la terre trembla, les rochers se fendirent, les tombeaux s'ouvrirent et de nombreux corps de saints trépassés ressuscitèrent : ils sortirent des tombeaux après sa résurrection, entrèrent dans la Ville sainte et se firent voir à bien des gens. Quant au centurion et aux hommes qui avec lui gardaient Jésus, à la vue du séisme",
+            "متى ٢٧ : ٥١ – ٥٦\nوأذا حجاب الهيكل قد إنشق إلي إثنين من فوق إلي أسفل والأرض تزلزلت، والصخور تشققت، والقبور تفتحت، وقام كثير من أجساد القديسين الراقدين، وخرجوا من القبور بعد قيامته، ودخلوا المدينة المقدسة وظهروا لكثيرين، وأما قائد المئة والذين كانوا معه يحرسون يسوع، فلما رأوا الزلزلة",
+        ],
+        [
+            Prefix.HolyWeek + "11HDGospel&D=GL56&C=Diacon",
+            "",
+            "et de ce qui se passait, ils furent saisis d'une grande frayeur et dirent: \"Vraiment celui-ci était fils de Dieu!\" Il y avait là de nombreuses femmes qui regardaient à distance, celles-là même qui avaient suivi Jésus depuis la Galilée et le servaient, entre autres Marie de Magdala, Marie, mère de Jacques et de Joseph, et la mère des fils de Zébédée.\nGloire à Dieu éternellement.",
+            "وما حدث خافوا جداً وقالوا: حقاً كان هذا إبن الله. وكانت هناك نساء كثيرات ينظرن من بعيد وهن اللواتي كن قد تبعن يسوع من الجليل يخدمنه، وبينهن مريم المجدلية، ومريم أم يعقوب، وأم يوسي، وأم ابنَي زبدي.\nوالمجد لله دائماً.",
+        ],
+        [
+            Prefix.HolyWeek + "11HDGospel&D=GL56&C=Diacon",
+            "Markon  Kev i/e>// l/h/-m/a/\nOuo\ pikatapetacma `ènte piervei afvw' 'en `ècnau > icjen `èèp]wi `èe`è'rhi. Etanau de `ènje piekatontarxoc vhèet`èo\i `èeratf `èmpef`èmqo je af; `èmpipn?a? > pejaf je > `èalhqwc pairwmi ne `èp]hri `èmV; pe. Ne ouon \anke\i`èomi de eunau \ivouei nhè`èenare Maria `èn'htou pe ;Magdalinh > nem Maria `ènte Iakwboc pikouji  nem `èqmau `ènIwch nem Calwmh. Nai `èenauoue\ `èncwf \ote euxh 'en ;Galilea ouo\ nau]em]i `èmmof > nem kemh] `èeau`èi nemaf `èe`è\rhi `èeIlh?m.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
+            "Marc 15 : 38-41 \nEt le voile du Sanctuaire se déchira en deux, du haut en bas. Voyant qu'il avait ainsi expiré, le centurion, qui se tenait en face de lui, s'écria: \"Vraiment cet homme était fils de Dieu!\" Il y avait aussi des femmes qui regardaient à distance, entre autres Marie de Magdala, Marie mère de Jacques le petit et de Joset, et Salomé, qui le suivaient et le servaient lorsqu'il était en Galilée;",
+            "مرقس ١٥ : ٣٨ – ٤١\nوإنشق حجاب الهيكل إلي إثنين من فوق إلي أسفل. ولما رأي قائد المئة الواقف مقابله أنه قد أسلم الروح قال: حقا كان هذا الإنسان إبن الله. وكانت نساء أيضاً ينظرن من بعيد، بينهن مريم المجدلية ومريم أم يعقوب الصغير، وأم يوسف وسالومة، هؤلاء اللواتي كن يتبعنه ويخدمنه حين كان في الجليل.",
+        ],
+        [
+            Prefix.HolyWeek + "11HDGospel&D=GL56&C=Diacon",
+            "",
+            "beaucoup d'autres encore qui étaient montées avec lui à Jérusalem.\nGloire à Dieu éternellement.",
+            "وأخر كثيرات اللواتي صعدن معه إلي أورشليم.\nوالمجد لله دائماً.",
+        ],
+        [
+            Prefix.HolyWeek + "11HDGospel&D=GL56&C=Diacon",
+            "Loukan  Kev  k/g/> m/z/- m/q/ /\nEtafnau de `ènje piekatontarxoc `èevh`èetaf]wpi > naf;`èwou `èmV; efjw `èmmoc > je ontwc ne parwmi ou`èqmhi pe. Ouo\ nimh] throu `èetau`èi `èejen taiqeoria > `èetaunau `èenh`èetau]wpi > autacqo eukwl\ 'en toumecten\ht. Nau`èo\i de `èeratou \i vouei `ènje nefrem`èncwoun throu > nem \anke\i`èomi nh`èetaumo]i `èncwf icjen ;Galilea eunau`èenai.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
+            "Luc 23 : 47-49\nVoyant ce qui était arrivé, le centenier glorifiait Dieu, en disant : \"Sûrement, cet homme était un juste !\" Et toutes les foules qui s'étaient rassemblées pour ce spectacle, voyant ce qui était arrivé, s'en retournaient en se frappant la poitrine. Tous ses amis se tenaient à distance, ainsi que les femmes qui l'accompagnaient depuis la Galilée, et qui regardaient cela.\nGloire à Dieu éternellement.",
+            "لوقا ٢٣ : ٤٧ – ٤٩\nولما رأي قائد المئة ما حدث مجد الله قائلاً : بالحقيقة كان هذا الإنسان باراً. وكل الجموع الذين أتوا لهذا المنظر، لما عاينوا ما حدث رجعوا وهم يقرعون علي صدورهم، وكان جميع معارفه وقوفاً من بعيد والنسوة اللواتي كن يتبعنه من الجليل ينظرن ذلك.\nوالمجد لله دائماً.",
+        ],
+        [
+            Prefix.HolyWeek + "11HDGospel&D=GL56&C=Diacon",
+            "Iwannhn  Kev  i/q/ > l/a/ - l/z\nNiIoudai oun `èepidh ne `ètparackeuh de > \ina `èntou`è]tem`èo\i `ènje nicwma \ijen pictauroc `èm`èpcabbaton > ne ouni]; gar pe pi`èe\oou `èm`èpcabbaton `èete`èmmau > au;\o `èePilatoc \ina `èntoukw] `ènnoukeli ouo\ `èntou`èolou. Au`èi oun `ènje nimatoi ouo\ pi\ouit men aukw] `ènnefkeli ouo\ aukw] `ènna pikeouai `èetau`èa]ou nemaf. Etau`èi de \a Ihc? aujemf \hdh afou`èw efmou > `èmpoukw] `ènnefkeli `ènqof alla ouai `ènnimatoi afqou[ `èmpef`ècvir 'en teflogxh > ouo\ catotf af`èi `èebol `ènje oumwou nem ou`ècnof. Ouo\ vh`èetafnau afermeqre > ouo\ oumhi te tefmetmeqre ouo\ `ènqof \wf vh`èete`èmmau `èf`èemi je afje meqmhi \ina `ènqwten \wten `èntetenna\;. Nai gar au]wpi \ina `ènte ;gravh jwk `èebol >  je oukac `èntaf `ènnouka]f. Ouo\ palin ;gravh jw `èmmoc > je eu`èenau `èevh`èetauqo[f.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
+            "Jean 19 : 31-37 \nComme c'était la Préparation, les Juifs, pour éviter que les corps restent sur la croix durant le sabbat - car ce sabbat était un grand jour -, demandèrent à Pilate qu'on leur brisât les jambes et qu'on les enlevât. Les soldats vinrent donc et brisèrent les jambes du premier, puis de l'autre qui avait été crucifié avec lui. Venus à Jésus, quand ils virent qu'il était déjà mort, ils ne lui brisèrent  pas les jambes,",
+            "يوحنا ١٩ : ٣١ – ٣٧\nفأما اليهود إذ كان يوم الجمعة، ولكي لا تبقي الأجساد علي الصليب في السبت، لأن يوم ذلك السبت كان عظيماً، فسألوا بيلاطس أن تكسر سيقانهم ويرفعوا. فأتي العسكر وكسروا ساقي الأول والآخر اللذين صلبا معه، وأما يسوع فلما جاءوا إليه لم يكسروا ساقيه",
+        ],
+        [
+            Prefix.HolyWeek + "11HDGospel&D=GL56&C=Diacon",
+            "",
+            "mais l'un des soldats, de sa lance, lui perça le côté et il sortit aussitôt du sang et de l'eau. Celui qui a vu rend témoignage - son témoignage est véritable, et celui-là sait qu'il dit vrai - pour que vous aussi vous croyiez. Car cela est arrivé afin que l'Écriture fût accomplie : Pas un os ne lui sera brisé. Et une autre Écriture dit encore: Ils regarderont celui qu'ils ont transpercé.\nGloire à Dieu éternellement.",
+            "لأنهم رأوه قد مات، لكن واحداً من العسكر طعن جنبه بحربة وللوقت خرج دم وماء، والذي عاين وشهد شهادته حق، وهو يعلم أيضاً أنه يقول الحق، لتؤمنوا أنتم أيضاً لأنه هكذا كان ليتم الكتاب القائل : أن عظماً لا يكسر منه. وايضاً يقول كتاب آخر: ستنظرون إلي من طعنوه.\nوالمجد لله دائماً.",
+        ],
+    ],
+    [
+
+        [
+            Prefix.HolyWeek + "11HDCommentary&D=GL56&C=Diacon",
+            "",
+            "Commentaire\nÔ malheureux Israël exilé dont les péchés ont rempli l'univers, regarde le centurion, cet étranger, il a confessé le Crucifié. Lui et ceux qui sont avec lui ont crié en disant : \" Vraiment celui-ci était fils de Dieu ! \" Le larron crucifié avec Lui aussi reconnut la puissance du Christ et implora Sa miséricorde, lorsqu'il vit le voile du sanctuaire se déchirer en deux du haut en bas, le soleil masquer ses rayons et s'obscurcir",
+            "طــرح\nيا إسرائيل المسكين المسبي الذي آثامه غطت الجو، أنظر قائد المئة الإنسان الغريب الجنس، كيف إعترف بالمصلوب، وليس هو فقط بل والذين معه صرخوا جميعاً قائلين : إن هذا هو إبن الله. وهكذا اللص الذي صلب معه عرف قوته وطلب رحمته، لما نظر حجاب الهيكل إنشق من فوق إلي أسفل وصار إثنين ورأي الشمس قد أخفت شعاعها وإظلمت",
+        ],
+        [
+            Prefix.HolyWeek + "11HDCommentary&D=GL56&C=Diacon",
+            "",
+            "ainsi au milieu de la journée, la lune se cacher et devenir rouge sang en l'honneur de son Créateur. Les puissances des cieux et les étoiles tombèrent du ciel en ce jour. La terre trembla, les rochers se fendirent, les tombes s’ouvrirent, ils entrèrent dans la Ville Sainte et se firent voir à bien des gens qui les reconnurent. En voyant cela, ils reconnurent la puissance du Crucifié. Mais Israël fut aveuglé, elle ne vit rien et ne comprit rien.",
+            "هكذا في وسط النهار، والقمر أيضاً ستر وجهه وصار دماً من أجل خالقه، وقوات السموات وكثرة النجوم سقطت من السماء في ذلك اليوم والأرض تزلزلت والصخور تشققت والقبور تفتحت والأموات قامت، ودخلوا إلي المدينة ظاهرين وعرفهم كثيرون من الناس، فلما نظر أولئك عرفوا قوة المصلوب علي الصليب، أما إسرائيل فإنطمست عيناه ولم ينظر ولم يفهم",
+        ],
+        [
+            Prefix.HolyWeek + "11HDCommentary&D=GL56&C=Diacon",
+            "",
+            "Comme c'était le vendredi et que les corps ne pouvaient pas demeurer suspendus sur la croix, ils demandèrent au gouverneur la permission de leur briser les jambes pour qu'ils meurent. Ils brisèrent les jambes des deux larrons, mais trouvèrent le Sauveur mort. Un des soldats courut et, de sa lance, lui perça le côté droit. Il sortit aussitôt du sang et de l'eau simultanément devant la foule. \" Celui qui a vu rend témoignage, son témoignage est",
+            "ومن أجل أنه في يوم الجمعة لا يجب أن تبقي الأجساد علي الخشب، سألوا الوالي أن يكسروا ركبهم لكي يموتوا، فكسروا ركب اللصين، وأما المخلص فوجدوه قد مات، فأسرع واحد من الجند وطعنه بحربة في جنبه الأيمن، فجري منه ماء ودم في مرة واحدة أمام الجميع. والشاهد الصادق تأمل هذا وشهادته",
+        ],
+        [
+            Prefix.HolyWeek + "11HDCommentary&D=GL56&C=Diacon",
+            "",
+            "véritable, et celui-là sait qu'il dit vrai.\" Il a écrit tout ce qu'il a vu. \" Car cela est arrivé afin que l'Écriture fût accomplie : Pas un os ne lui sera brisé \", et : \" Ils regarderont celui qu'ils ont transpercé.\" Lui, Il les jugera publiquement. Le centurion rentra chez lui tout étonné et rendant gloire à Dieu pour toutes ces choses surprenantes qu'Israël n'avait pas compris. Par Sa Passion vivifiante, Jésus, le Sauveur, a offert au monde un Salut éternel.",
+            "هي حق، وهو أيضاً يعلم أنه قال الحق. من أجل هذا كتب كما نظر وكمل عليه قول الناموس أن لم يكسر له عظم، وأيضاً قال: سينظرون إلي من طعنوه فهو يدينهم أمام أعينهم. ومضي قائد المئة إلي بيته وهو مبهوت ممجداً الله من أجل ما كان يبهت العقول ولم يفهمه إسرائيل أن المخلص يسوع بالآمه المحيية خلص العالم خلاصاً أبيدياً.",
+        ],
+    ],
+    [
+
+        [
+            Prefix.HolyWeek + "12HDProphecies&D=GL56&C=Diacon",
+            "Ebolqen Ieremiac piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nAnok  `èvrwmi ` èanok  eqnau `èe;met\hki > af`èi  `èe`è\rhi  `èejwi  'en  pi`è]bwt  `ènte  pefjwnt.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
+            "Lamentations de Jérémie 3 : 1-66\nJe suis l'homme qui a connu la misère, sous la verge de sa fureur.",
+            "مراثي إرميا النبي ٣ : ١ -٦٦\nأنا هو الرجل الذي رأي المذلة. أتي عليّ بقضيب غضبه",
+        ],
+        [
+            Prefix.HolyWeek + "12HDProphecies&D=GL56&C=Diacon",
+            "",
+            "C'est moi qu'il a conduit et fait marcher dans les ténèbres et sans lumière. Contre moi seul, il tourne et retourne sa main tout le jour. \nIl a consumé ma chair et ma peau, rompu mes os. Il a élevé contre moi des constructions, cerné ma tête de tourment. Il m'a fait habiter dans les ténèbres, comme ceux qui sont morts à jamais. ",
+            "وقادني وسيرني في الظلمة لا في النور، والآن رد يده عليّ النهار كله.\nأبلي لحمي وجلدني وسحق عظامي. أحاط بي ونكس رأسي، و أذلني، أجلسني في مواضع مظلمة، مثل الموتي منذ القدم.",
+        ],
+        [
+            Prefix.HolyWeek + "12HDProphecies&D=GL56&C=Diacon",
+            "",
+            "Il m'a emmuré, et je ne puis sortir; il a rendu lourdes mes chaînes. Quand même je crie et j'appelle, il arrête ma prière. Il a barré mes chemins avec des pierres de taille, obstrué mes sentiers.\nIl est pour moi un ours aux aguets, un lion à l'affût. Faisant dévier mes chemins, il m'a déchiré, il a fait de moi une horreur. Il a bandé son arc et m'a visé comme une cible pour ses flèches.",
+            "سيج علي حتي لا أخرج، ضاعف ربطي ووثق سلسلتي، أدعوه فلم يستجب لي، وأصرخ إليه فلم يسر وصد صلاتي،  سيج سبلي وأغلق طرقي المسكونة.\nصار لي كدب كامن وأسد في موضع مختفي، طاردني وصرعني وتركني هالكاً، أوتر قوسه وأقامني هدفاً ليلقي في سهامه.",
+        ],
+        [
+            Prefix.HolyWeek + "12HDProphecies&D=GL56&C=Diacon",
+            "",
+            "Il a planté en mes reins, les flèches de son carquois. Je suis devenu la risée de tout mon peuple, leur chanson tout le jour. Il m'a saturé d'amertume, il m'a enivré d'absinthe.\nIl a brisé mes dents avec du gravier, il m'a nourri de cendre. Mon âme est exclue de la paix, j'ai oublié le bonheur! J'ai dit : Mon existence est finie, mon espérance qui venait du Seigneur.",
+            "أدخل في كليتي نبال جعبته، صرت ضحكة لكل شعبي واغنية لهم النهار كله جرعني الحنضل، أسكرني من العلقم.\nهشم بالحصي أسناني وأطعمني الرماد، وأبعد نفسي عن السلام، ونسيت خيراتي، وباد أقنومي ورجائي من الرب.",
+        ],
+        [
+            Prefix.HolyWeek + "12HDProphecies&D=GL56&C=Diacon",
+            "",
+            "Souviens-toi de ma misère et de mon angoisse: c'est absinthe et fiel! Elle s'en souvient, elle s'en souvient, mon âme, et elle s'effondre en moi. Voici ce qu'à mon cœur je rappellerai pour reprendre espoir :\nLes faveurs du Seigneur ne sont pas finies, ni ses compassions épuisées; elles se renouvellent chaque matin, grande est sa fidélité! Ma part, c'est le Seigneur! dit mon âme, c'est pourquoi j'espère en lui. ",
+            "أذكر بؤسي وشقائي والأفسنتين والمرارة التي لم تبرح من ذاكرتي، هذا ما تردده نفسي فيّ،،واشعر به في قلبي.\nمن أجل ذلك أتمسك بمراحم الرب أنه لم يتركني عنه، لأن رأفته لا تزول علي مر الشهور والأيام كلها، إرحمنا يارب في فنائنا لأن رأفاتك لا تفرغ وهي جديدة في كل صباح. وعظيم هو إيمانك. قالت نفسي: نصيبي هو الرب فلذلك أرجوه.",
+        ],
+        [
+            Prefix.HolyWeek + "12HDProphecies&D=GL56&C=Diacon",
+            "",
+            "Le Seigneur est bon pour qui se fie à lui, pour l'âme qui le cherche. Il est bon d'attendre en silence le salut du Seigneur. Il est bon pour l'homme de porter le joug dès sa jeunesse, \nque solitaire et silencieux il s'asseye quand le Seigneur l'impose sur lui, qu'il mette sa bouche dans la poussière: peut-être y a-t-il de l'espoir! qu'il tende la joue à qui le frappe, qu'il se rassasie d'opprobres!",
+            "صالح هو الرب للذين يترجونه، طيب هو للنفس التي تطلبه وتتوقع بسكوت خلاص الرب. جيد للرجل أن يحمل النير منذ صباه.\nيجلس وحده ويصمت لأنه قد وضعه عليه يجعل في التراب فمه لعله يجد رجاء، يميل خذه لمن يلطمه ويشبع تعييراً.",
+        ],
+        [
+            Prefix.HolyWeek + "12HDProphecies&D=GL56&C=Diacon",
+            "",
+            "Car le Seigneur ne rejette pas les humains pour toujours: s'il a affligé, il prend pitié selon Sa grande bonté. Car ce n'est pas de bon cœur qu'il humilie et afflige les fils d'homme !\nQuand on écrase et piétine tous les prisonniers d'un pays, quand on fausse le droit d'un homme devant la face du Très Haut, quand on fait tort à un homme dans un procès, le Seigneur ne le voit-il pas?",
+            "إلا أن الرب لا يقصيه عنه إلي الأبد، فإنه ولو وضعه يترأف عليه ككثرة رحمته لأنه لم يصغر قلبه بل تواضع لبني البشر.\nليذل تحت قدميه جميع المرتبطين بالأرض، أو حرف حكم الرجل أمام وجه العلي، ليلقي الإنسان إلي القضاء عندما يحكم عليه أفما يقول الرب.",
+        ],
+        [
+            Prefix.HolyWeek + "12HDProphecies&D=GL56&C=Diacon",
+            "",
+            "Qui donc n'a qu'à parler pour que les choses soient? N'est-ce pas le Seigneur qui décide? N'est-ce pas de la bouche du Très Haut que sortent les maux et les biens? Pourquoi l'homme murmurerait-il? Qu'il soit plutôt brave contre ses péchés ! \nExaminons notre voie, scrutons-la et revenons au Seigneur. Élevons notre cœur et nos mains vers le Dieu qui est au ciel. Nous, nous avons péché ; nous, nous sommes rebelles: Toi, tu n'as pas pardonné!",
+            "من ذا الذي قال فكان، والرب لم يأمر بهذه. أليس من فم العلي تخرج الخيرات والشرور كيف يتذمر الإنسان الحي الرجل المعاقب لأجل خطيته.\nفلنفحص طرقنا ونختبر خطواتنا ونرجع إلي الرب ولنرفع قلوبنا مع أيدينا لدي العلي الذي في السماء. قد أخطأنا ونافقنا وأغضبنا وأنت لم تغفر لنا.",
+        ],
+        [
+            Prefix.HolyWeek + "12HDProphecies&D=GL56&C=Diacon",
+            "",
+            "Tu t'es enveloppé de colère et nous a pourchassés, massacrant sans pitié. Tu t'es enveloppé d'un nuage pour que la prière ne passe pas.\nTu as fait de nous des balayures, un rebut parmi les peuples. Ils ont ouvert la bouche contre nous, tous nos ennemis. Frayeur et fosse furent notre lot, fracas et désastre. Mes yeux se fondent en ruisseaux pour le désastre de la fille de mon peuple.",
+            "قد إلتحفت وحكمت بالغضب وطردتنا وقتلتنا ولم تشفق، إلتحفت بغمام لئلا تبلغ إليك صلاتي. لأتضع لكي لا أري فأطرح.\nتركتنا في وسط الشعوب ففتح جميع أعدائنا أفواههم علينا فرفعونا ثم طرحونا فحل بنا خوف وسخط عيناي تسيل ينابيع مياه، علي سحق بنت شعبي.",
+        ],
+        [
+            Prefix.HolyWeek + "12HDProphecies&D=GL56&C=Diacon",
+            "",
+            "Mes yeux pleurent et ne s'arrêtent pas, il n'y a pas de répit, jusqu'à ce que le Seigneur regarde et voie du haut du ciel. Mes yeux me font mal, pour toutes les filles de ma Cité.\nIls m'ont chassé, pourchassé comme un oiseau, ceux qui m'exècrent sans raison. Dans une fosse, ils ont précipité ma vie, ils m'ont jeté des pierres. Les eaux ont submergé ma tête; je disais: Je suis perdu!",
+            "عيني حزنت ولا تكف، ولا أرفع رأسي حتي يتطلع الرب وينظر من السماء، عيني تحزن علي نفسي أكثر من جميع بني المدينة.\nقد إصطادني أعدائي اصطياداً كعصفور بلا سبب، وقرضوا في الجب حياتي وطرحوا علي شبكة. فاضت المياه فوق رأسي وقلت : إنه تركني عنه.",
+        ],
+        [
+            Prefix.HolyWeek + "12HDProphecies&D=GL56&C=Diacon",
+            "",
+            "\"J'ai invoqué ton Nom, Seigneur, de la fosse profonde. Tu entendis mon cri, ne sois pas sourd à ma prière, à mon appel. Tu te fis proche, au jour où je t'ai appelé. Tu as dit: Ne crains pas! ",
+            "صرخت بإسمك يارب من جب سفلي، فسمعت صوتي، لا تمل أذنك عن طلبتي في اليوم الذي صرخت إليك إقتربت من معونتي وقلت لي: لا تخف.",
+        ],
+        [
+            Prefix.HolyWeek + "12HDProphecies&D=GL56&C=Diacon",
+            "",
+            "Tu as défendu, Seigneur, la cause de mon âme, tu as racheté ma vie. Tu as vu, Seigneur, le tort qui m'était fait: rends-moi justice. Tu as vu toute leur rage, tous leurs complots contre moi. Tu as entendu leurs outrages, Seigneur, tous leurs complots contre moi, les propos que chuchotaient mes adversaires contre moi, tout le jour. Qu'ils s'asseyent ou se lèvent,",
+            "حكمت يارب لأحكام نفسي وخلصت حياتي. نظرت يارب إلي إضطرابي وحكم في دعواي، رأيت إنتقامهم كله، جميع أفكارهم الكائنة عليّ سمعت تعييرهم يارب وكل مشوراتهم و مؤامراتهم التي صنعوها بي اليوم كله وتحريك شفاه القائمين علي، وكانت جميع تلاوتهم في النهار كله في جلوسهم وقيامهم.",
+        ],
+        [
+            Prefix.HolyWeek + "12HDProphecies&D=GL56&C=Diacon",
+            "",
+            "Regarde: je leur sers de chanson. Rétribue-les, Seigneur, selon l'œuvre de leurs mains. Mets en leur cœur l'endurcissement, ta malédiction sur eux. Poursuis-les avec colère, extirpe-les de dessous tes cieux!\nGloire à la sainte Trinité notre Dieu.",
+            "أنظر يارب إلي عيونهم وأعطهم مجازاة بحسب أعمال أيديهم وجازهم بالتعب علي قساوة قلوبهم، أطردهم بغضبك وأفنيهم يارب من تحت السماء.\nمجداً للثالوث الأقدس إلهنا آمين.",
+        ],
+        [
+            Prefix.HolyWeek + "12HDProphecies&D=GL56&C=Diacon",
+            "Ebolqen Iwna piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nOuo\  afer\o;  `ènje  nirwmi  'en  ouni];  `èn\o;  ouo\  pejwou  nafjeou  pe  vai `èetakaif  nan  jeouhi  au`èemi  `ènje  nirwmi  je  naf  vht `èebol\a  `èp\o  `èmP_.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
+            "Jonas 1 : 10 à 2 : 8\nLes hommes furent saisis d'une grande crainte et ils lui dirent: \"Qu'as-tu fait là!\" Ils savaient en effet qu'il fuyait loin du Seigneur,",
+            "يونان النبي ١ : ١٠ و ٢ : ٧\nفخاف الرجال خوفاً عظيماً وقالوا له: ما هذا الذي فعلته لنا. الرجال قد علموا أنه هارب من وجه الرب",
+        ],
+        [
+            Prefix.HolyWeek + "12HDProphecies&D=GL56&C=Diacon",
+            "",
+            "car il le leur avait raconté. Ils lui dirent: Que te ferons-nous pour que la mer s'apaise pour nous? Car la mer se soulevait de plus en plus. Il leur répondit: Prenez-moi et jetez moi à la mer, et la mer s'apaisera pour vous. Car, je le sais, c'est à cause de moi que cette violente tempête vous assaille. Les hommes ramèrent pour gagner le rivage, mais en vain, car la mer se soulevait de plus en plus contre eux. Alors ils implorèrent le Seigneur",
+            "لأنه أخبرهم فقالوا له: ماذا نصنع بك حتي يسكن عنا البحر، لأن البحر كان يزداد هياجاً. فقال لهم يونان: إطرحوني في البحر ليسكن البحر عنكم لأني عالم أن هذا الموج العظيم إنما كان عليكم بسببي. وكان الرجال يجدفون ليرجعوا إلي الأرض، فلم يستطيعوا لأن البحر إزداد هياجاً عليهم، فصرخوا إلي الرب",
+        ],
+        [
+            Prefix.HolyWeek + "12HDProphecies&D=GL56&C=Diacon",
+            "",
+            "et dirent: Ah! Seigneur, puissions-nous ne pas périr à cause de la vie de cet homme, et puisses-tu ne pas nous charger d'un sang innocent, car c'est toi, Seigneur, qui as agi selon ton bon plaisir. Et, s'emparant de Jonas, ils le jetèrent à la mer, et la mer apaisa sa fureur. Les hommes furent saisis d'une grande crainte du Seigneur; ils offrirent un sacrifice au Seigneur et firent des vœux. Le Seigneur fit qu'il y eut un grand poisson pour engloutir Jonas.",
+            "وقالوا : أيها الرب لا يكون هذا ولا تدعنا نهلك بسبب نفس هذا الرجل ولا تجلب علينا دماً ذكياً لأنك أيها الرب قد صنعت كما شئت. ثم حملوا يونان وطرحوه في البحر، وهدأ البحر عن هياجه فخاف الرجال من الرب خوفاً عظيماً وذبحوا ذبيحة للرب ونذروا نذوراً. فأمر الرب حوتاً عظيماً لإبتلاع يونان",
+        ],
+        [
+            Prefix.HolyWeek + "12HDProphecies&D=GL56&C=Diacon",
+            "",
+            "Jonas demeura dans les entrailles du\npoisson trois jours et trois nuits. Des entrailles du poisson, il pria le Seigneur, son Dieu. Il dit: De la détresse où j'étais, j'ai crié vers le Seigneur, et il m'a répondu; du sein du shéol, j'ai appelé, tu as entendu ma voix. Tu m'avais jeté dans les profondeurs, au cœur de la mer, et le flot m'environnait. Toutes tes vagues et tes lames ont passé sur moi. Et moi je disais : Je suis rejeté de devant tes yeux.",
+            "فكان يونان في جوف الحوت ثلاثة أيام وثلاث ليال، فصلي يونان للرب إلهه قائلاً : صرخت في ضيقي إلي الرب إلهي فإستجاب لي وصرخت إليه من الجحيم فسمع صوتي. قد طرحني في العمق في قاع البحر فأحاطت بي الأنهار وجازت علي جميع تياراتك وأمواجك، فقلت قد طرحت عن وجهك",
+        ],
+        [
+            Prefix.HolyWeek + "12HDProphecies&D=GL56&C=Diacon",
+            "",
+            "Comment contemplerai-je encore ton saint Temple? Les eaux m'avaient environné jusqu'à la gorge, l'abîme me cernait. L'algue était enroulée autour de ma tête. A la racine des montagnes j'étais descendu, en un pays dont les verrous étaient tirés sur moi pour toujours. Mais de la fosse tu as fait remonter ma vie, le Seigneur, mon Dieu. Tandis qu'en moi mon âme défaillait, je me suis souvenu du Seigneur,",
+            "فهل أعود أنظر هيكلك المقدس؟ قد إنسكبت عليّ المياه حتي نفسي وغطاني الغمر الأقصي وغطست رأسي في شقوق الجبال، ونزلت إلي أرض مزاليجها مثبتة إلي الأبد، فلتصعد من النار حياتي أيها الرب إلهي. عند فناء نفسي متي تذكرت الرب",
+        ],
+        [
+            Prefix.HolyWeek + "12HDProphecies&D=GL56&C=Diacon",
+            "",
+            "et ma prière est allée jusqu'à toi en ton saint Temple. \nGloire à la sainte Trinité notre Dieu.",
+            "فلتصعد إليك صلاتي أمام هيكلك المقدس. \nمجداً للثالوث الأقدس إلهنا آمين.",
+        ],
+    ],
+    [
+
+        [
+            Prefix.HolyWeek + "12HDPsalm&D=GL56&C=Diacon",
+            "Yalmoc  to Dauid\nPek`èqronoc Vnou; ]a `èene\ `ènte pi`èene\ allhloui`a  > pi`è]bwt `èm`èpcwouten pe `èp`è]bwt `ènte tekmetouro. Ou`ècmurna nem ou`èctakth nem oukaci`èa > `èebol'en nek`è\bwc > `allhloui`a ",
+            "Psaume 44 : 9-11\nTon Trône est divin, un Trône éternel, ton sceptre royal est sceptre de droiture. La myrrhe et l'aloès parfument ton vêtement. Alléluia",
+            "مزمور  ٤٤ : ٩، ١١-  \nكرسيك يا الله إلي دهر الدهور، قضيب الإستقامة هو قضيب ملكك، المر والميعة والسليخة من ثيابك الليلويا",
+        ],
+    ],
+    [
+
+        [
+            Prefix.HolyWeek + "12HDGospel&D=GL56&C=Diacon",
+            "Yalmoc  to Dauid\nAuxat 'en oulakkoc efcapecht > 'en \anma `ènxaki nem `èt'hibi `èm`èvmou. E]wp ai]anmo]i 'en `èqmh; `èn`èt'hibi `èm`èvmou > `ènnaer\o; 'a`èt\h `èn\anpet\wou je `ènqok `èkxh nemhi > ` allhloui`a Pek`èqronoc Vnou; ]a `èene\ `ènte pi`èene\ al ? > pi`è]bwt `èm`èpcwouten pe `èp`è]bwt `ènte tekmetouro. Ou`ècmurna nem ou`èctakth nem oukaci`èa > `èebol'en nek`è\bwc > `allhloui`a ",
+            "Psaume 87 : 5 et 6 et 22 : 4\nOn me voit déjà descendre dans la fosse, ma place est parmi les morts, Si je traverse les ravins de la mort, Je ne crains aucun mal, car Tu es avec moi. Alléluia\nPsaume 142 : 6 et 7 \nTon Trône est divin, un Trône éternel, ton sceptre royal est sceptre de droiture. \nLa myrrhe et l'aloès parfument ton vêtement. Alléluia",
+            "مزمور  ٨٧ : ٤، مز ٢٢ : ٣ \nجعلوني في جب سفلي في مواضع مظلمة وظلال الموت،\nوإن سلكت في وسط ظلال الموت فلا أخشي من الشر لأنك معي الليلويا\nمزمور  ٤٤ : ٩، ١١- \nكرسيك يا الله إلي دهر الدهور، قضيب الإستقامة هو قضيب ملكك، المر والميعة والسليخة من ثيابك الليلويا",
+        ],
+        [
+            Prefix.HolyWeek + "12HDGospel&D=GL56&C=Diacon",
+            "Matqeon  Kev k/z/> n/z/ - [/a/\nEta rou\i de ]wpi af`èi `ènje ourwmi `ènrama`èo `èebol'en Arimaqeac > `èepefran pe Iwchv > vai \wf ne afermaqhthc `ènIhc?. Vai af`èi \a Pilatoc af`èeretin `èmpicwma `ènte Ihc?. Tote Pilatoc afoua\ca\ni `èethif. Ouo\ afsi `èmpicwma `ènje Iwchv afkoulwlf 'en ou]entw ecouab. Ouo\ afxaf 'en pef`èm\au `èmberi > vh`èetaf]okf 'en ;petra > ouo\ af`èckerker `ènouni]; `èn`èwni `èerwf `èmpi`èm\au af\wl. Nacxh de `èmmau `ènje Mari`èa ;Magdalinh > nem ;keMaria eu\emci `èmpe`èmqo `èmpi`èm\au. Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
+            "Matthieu 27 : 57-61 \nLe soir venu, il vint un homme riche d'Arimathie, du nom de Joseph, qui s'était fait, lui aussi, disciple de Jésus. Il alla trouver Pilate et réclama le corps de Jésus. Alors Pilate ordonna qu'on le lui remît. Joseph prit donc le corps, le roula dans un linceul propre et le mit dans le tombeau neuf qu'il s'était fait tailler dans le roc; puis il roula une grande pierre à l'entrée du tombeau et s'en alla. Or il y avait là Marie",
+            "متى ٢٧ : ٥٧ – ٦١ \nولما كان المساء جاء رجل غني من الرامة إسمه يوسف، وكان هذا أيضاً تلميذاً ليسوع، فهذا جاء إلي بيلاطس وطلب جسد يسوع، فأمر بيلاطس حينئذ أن يعطى له. فأخذ يوسف الجسد ولفه بلفائف من الكتان النقي، ووضعه في قبره الجديد الذي كان قد نحته في الصخرة ثم دحرج حجراً عظيماً علي باب القبر ومضي، وكانت هناك مريم",
+        ],
+        [
+            Prefix.HolyWeek + "12HDGospel&D=GL56&C=Diacon",
+            "",
+            "De Magdala et l'autre Marie, assises en face du sépulcre.\nGloire à Dieu éternellement.",
+            "المجدلية ومريم الأخري جالستين تجاه القبر.\nوالمجد لله دائماً.",
+        ],
+        [
+            Prefix.HolyWeek + "12HDGospel&D=GL56&C=Diacon",
+            "Markon  Kev i/e/ > m/b/ ]/b/l/ nem i/ /> a/\nOuo\ \hdh `èeta rou\i ]wpi `èepidh ne `ètparackeuh te et'ajwf `èmpicabbaton > `èetaf`èi `ènje Iwchv pi `èebol'en Arimaqeac > `èeoueucxemwn pe `èmbouleuthc > vai `èete `ènqof \wf nafjou]t `èebol 'a`èt\h `èn;metouro `ènte V; > afertolman af]e `èe'oun \a Pilatoc af`èeretin `èm`èpcwma `ènIh/c/. Pilatoc de afer`è]vhri je \hdh afmou ouo\ `èetafmou; `èepiekatontarxoc af]enf > je an afou`èw afmou.\nOuo\ `èetaf`èemi `èebol\itotf `èmpi`èekatontarxoc > af; `èmpicwma `ènte Ihc? `ènIwchv. Ouo\ `èetaf]ep ou]entw afenf `èe`è'rhi > afkoulwlf 'en ou]entw > ouo\ afxaf 'en  ou`èm\au. Vhet]hk `èebol'en oupetra > ouo\ af`èckerker `ènou`èwni `èerwf `èmpi`èm\au Mari`èa ;Magdalinh nem Mari`èa `ènte Iwch > naunau pe je etauxaf qwn. Ouo\ `èetaf]wpi `ènje picabbaton > Mari`èa ;Magdalinh nem Mari`èa `ènte Iakwboc nem Calwmh > au]enwou au]wp  `èn\an`ècqoinoufi \ina `èntou`èi `èntouqa\cf. Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
+            "Marc 15 : 42 à 16 : 1 \nDéjà le soir était venu et comme c'était la Préparation, c'est-à- dire la veille du sabbat, Joseph d'Arimathie, membre notable du Conseil, qui attendait lui aussi le Royaume de Dieu, s'en vint hardiment trouver Pilate et réclama le corps de Jésus. Pilate s'étonna qu'il fût déjà mort et, ayant fait appeler le centurion, il lui demanda s'il était mort depuis longtemps. Informé par le centurion, il octroya le corps à Joseph.",
+            "مرقس ١٥ : ٤٢ - ١٦: ١\nولما كان المساء، ولأنها كانت الجمعة التي هي قبل السبت، جاء يوسف الذي من الرامة، وكان شريفاً حسن اليسار، ذا مشورة، وكان هو أيضاً يترجي ملكوت الله، فتجاسر ودخل إلي بيلاطس وطلب جسد يسوع. فتعجب بيلاطس أنه قد مات هكذا سريعاً، فإستدعي قائد المئة وسأله : هل له زمان قد مات؟ ولما عرف من قائد المئة أعطي جسد يسوع ليوسف،",
+        ],
+        [
+            Prefix.HolyWeek + "12HDGospel&D=GL56&C=Diacon",
+            "",
+            "Celui-ci, ayant acheté un linceul, descendit Jésus, l'enveloppa dans le linceul et le déposa dans une tombe qui avait été taillée dans le roc; puis il roula une pierre à l'entrée du tombeau. Or, Marie de Magdala et Marie, mère de Joset, regardaient où on l'avait mis. Quand le sabbat fut passé, Marie de Magdala, Marie, mère de Jacques, et Salomé achetèrent des aromates pour aller oindre le corps.\nGloire à Dieu éternellement.",
+            "فإشتري يوسف لفافة من الكتان، ثم أنزله ولفه بها، ووضعه في قبر كان منحوتاً في صخرة، ودحرج حجراً علي باب القبر، وكانت مريم المجدلية ومريم أم يوسي تنظران أين وضع ولما إنقضي السبت إشترت مريم المجدلية ومريم أم يعقوب وسالومة حنوطاً ليأتين ويحنطنه.\nوالمجد لله دائماً.",
+        ],
+        [
+            Prefix.HolyWeek + "12HDGospel&D=GL56&C=Diacon",
+            "Loukan  Kev k/g/> n/ ]/b/l/\nOuo\ \hppe ic ourwmi `èepefran pe Iwchv > `èeoubouleuthc pe > `èeourwmi `èn`èagaqoc ouo\ `èn`èqmhi. Vai naf;ma; an pe 'en poucosni nem toupra[ic ne ou`èebol'en Arimaqeac pe oubaki `ènte niIoudai. Vhe`ènafjou]t `èebol 'ajen ;metouro `ènte V;. \nVai `èetaf`èi \a Pilatoc ouo\ af`èeretin `èmpicwma `ènte Ihc?. Ouo\ `èetafenf `èepecht afkoulwlf 'en ou]entw > ouo\ afxaf 'en ou`èm\au `èeafko]f `èmpatouxa `è\li `èn'htf > ouo\ af`èckerker `ènouni]; `èn`èwni \iren `èvro `èmpi`èm\au. Ouo\ ne ou`èe\oou pe `èmparackeuh ouo\ ne `èa ]wrp ]wpi `èm`èpcabbaton.\nOuo\ `èetaumo]i de `èncwf `ènje ni\i`èomi nh`èetau`èi nemaf `èebol'en ;Galile`èa aunau `èepi`èm\au nem pirh; `èetauxa pefcwma `èmmof. Etautacqo de aucebte \an`ècqoinoufi nem \ancojen > ouo\ picabbaton men > auerhcuxazin kata ;entolh.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
+            "Luc 23 : 50-56\nEt voici un homme nommé Joseph, membre du Conseil, homme droit et juste. Celui-là n'avait pas donné son assentiment au dessein ni à l'acte des autres. Il était d'Arimathie, ville juive, et il attendait le Royaume de Dieu. Il alla trouver Pilate et réclama le corps de Jésus. Il le descendit, le roula dans un linceul et le mit dans une tombe taillée dans le roc, où personne encore n'avait été placé.",
+            "لوقا ٢٣ : ٥٠ -٥٦ \nوإذا برجل إسمه يوسف وكان مشيراً ورجلاً صالحاً باراً. هذا لم يكن موافقاً لرأيهم وعملهم، وكان من الرامة مدينة لليهود، وكان هو أيضاً ينتظر ملكوت الله. هذا تقدم إلي بيلاطس وطلب جسد يسوع، فأنزله ولفه في لفافه من الكتان ووضعه في قبر قد نحته، ولم يكن قد وضع فيه أحد، ودحرج حجراً عظيماً علي باب القبر.",
+        ],
+        [
+            Prefix.HolyWeek + "12HDGospel&D=GL56&C=Diacon",
+            "",
+            "C'était le jour de la Préparation, et le sabbat commençait à poindre. Cependant les femmes qui étaient venues avec lui de Galilée avaient suivi Joseph; elles regardèrent le tombeau et comment son corps avait été mis. Puis elles s'en retournèrent et préparèrent aromates et parfums. Et le sabbat, elles se tinrent en repos, selon le précepte.\nGloire à Dieu éternellement.",
+            "وكان يوم الجمعة، وقد أخذ السبت يلوح. وتبعنه النسوة اللواتي أتين معه من الجليل، فأبصرن القبر وكيف وضع فيه جسده، فرجعن وأعددن حنوطاً وأطياباً، وفي السبت إسترحن حسب الوصية. \nوالمجد لله دائماً.",
+        ],
+        [
+            Prefix.HolyWeek + "12HDGospel&D=GL56&C=Diacon",
+            "Iwannhn  Kev i/q/>l/h/ ]/b/l/\nMenenca nai de af`èi `ènje Iwchv pirem Arimaqeac af;\o `èePilatoc > `èeoumaqhthc \wf `ènte Ihc? nafxhp de pe eqbe `èt\o; `ènniIoudai > \ina `èntefwli `èmpicwma `ènte Ihc? > ouo\ afoua\ca\ni `ènje Pilatoc `èethif naf. Af`èi oun ouo\ af`èwli `èmpicwma `ènte Ihc?.  Af`èi de \wf `ènje Nikoudhmoc vh`èetaf`èi \a Ihc? `ènjwr\ `èn]wrp > `èeouon oumigma `èntotf ou]al nem oualloh > nau ]e `ènlutra.\nAusi oun `èmpicwma `ènte Ihc? ouo\ aukoulwlf `èn\an]entw `èniau nem ni`ècqoi > kata ;ka\c `ènte niIoudai eukwc. Ne ouon ouswm de pe `èepima `èetaua] `èmmof > ouo\ ne ouon ou`èm\au `èmberi 'en piswm > `èmpatou\i `è\li `ènrwmi `èe'oun `èerof `èene\ > `èepidh naf'ent `èerwou `ènje pi`èm\au > eqbe je ;parackeuh te `ènte niIoudai auxa Ihc? `èn'htf. Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
+            "Jean  19 : 38-42 \nAprès ces événements, Joseph d'Arimathie, qui était disciple de Jésus, mais en secret par peur des Juifs, demanda à Pilate de pouvoir enlever le corps de Jésus. Pilate le permit. Ils vinrent donc et enlevèrent son corps. Nicodème - celui qui précédemment était venu, de nuit, trouver Jésus - vint aussi, apportant un mélange de myrrhe et d'aloès, d'environ cent livres.\nIls prirent donc le corps de Jésus",
+            "يوحنا ١٩ : ٣٨ -٤٢\nومن بعد هذا جاء يوسف الذي من الرامة، وهو تلميذ ليسوع وكان مستتراً خوفاً من اليهود، سأل بيلاطس أن يأخذ جسد يسوع، فأذن له بيلاطس أن يعطي له، فجاء وحمل جسد يسوع، وجاء أيضاً نيقوديموس الذي كان قد جاء أولاً إلي يسوع ليلاً، ومعه حنوط مر وصبر، نحو مئة رطل، فأخذا جسد يسوع",
+        ],
+        [
+            Prefix.HolyWeek + "12HDGospel&D=GL56&C=Diacon",
+            "",
+            "et le lièrent de linges, avec les aromates, selon le mode de sépulture en usage chez les Juifs. Or il y avait un jardin au lieu où il avait été crucifié, et, dans ce jardin, un tombeau neuf, dans lequel personne n'avait encore été mis. À cause de la Préparation des Juifs, comme le tombeau était proche, c'est là qu'ils déposèrent Jésus.\nGloire à Dieu éternellement.",
+            "ولفاه في لفائف كتان مع الأطياب كعادة اليهود أن يكفنوا. وكان في الموضع الذي صلب فيه يسوع بستان، وكان في البستان قبر جديد لم يوضع فيه أحد قط، فهناك وضعا يسوع لسبب إستعداد اليهود. لأن القبر كان قريباً منهم. \nوالمجد لله دائماً.",
+        ],
+    ],
+    [
+
+        [
+            Prefix.HolyWeek + "12HDCommentary&D=GL56&C=Diacon",
+            "",
+            "Commentaire\nLe soir de ce jour, le vendredi de la grande fête, la veille du sabbat, vint un homme riche nommé Joseph. Il était écouté, connaissant la Loi. Un autre homme nommé Nicodème, bienheureux et aimant Dieu, vint avec lui. Joseph et ses ascendants s'occupaient des corps des saints. Il demanda à Pilate le corps de Dieu le Verbe, l'unique par sa nature. Pilate demanda s'il était mort et fut très surpris de la réponse. Il ordonna au",
+            "طــرح\nوفى عشية ذلك اليوم الذى هو جمعة العيد العظيم. الذى يأتي قبل السبت الذى هو لسر السيد. جاء إنسان غنى اسمه يوسف وكان ذا رأى يعرف الناموس. وإنسان آخر يسمى نيقوديموس طوباوي محب للإله. وكان يوسف هذا هو وآباؤه يهتمون بأجساد القديسين. فأتى إلى بيلاطس وسأله عن جسد الإله الكلمة الوحيد الجنس. فاستفهم منه هل مات فتعجب الوالى جداً. وهكذا أمر",
+        ],
+        [
+            Prefix.HolyWeek + "12HDCommentary&D=GL56&C=Diacon",
+            "",
+            "centurion de lui remettre le corps de Jésus. Le juste, à la bonne influence, prit donc le corps et s'en occupa. Il se procura des linges propres et doux, comme il convient pour le Fils de Dieu. Nicodème apporta aussi une grande quantité d'aromates précieux, environ cent livres. Ils l'ensevelirent selon la coutume des hébreux et versèrent les aromates sur son Corps. Il y avait dans le jardin un tombeau neuf qui n'avait jamais servi.",
+            "قائد المائة بأن يعطوه جسد يسوع. فأخذ صاحب المشورة الصالحة الصديق الجسد واهتم به. وأحضر أكفاناً ناعمة نقية كما يليق بإبن الله. وأحضر أيضاً نيقوديموس أطياباً كثيرة الثمن نحو مائة رطل طيب. وهكذا كفنوه كعادة العبرانيين ووضعوا الطيب على المبارك. وكان قبر جديد فى البستان طاهراً نقياً لم يوضع أحداً فيه.",
+        ],
+        [
+            Prefix.HolyWeek + "12HDCommentary&D=GL56&C=Diacon",
+            "",
+            "Ils y déposèrent le corps du Fils unique. Puis ils roulèrent une pierre à l’entrée du tombeau et se tinrent au repos selon le précepte, à cause du sabbat. Des femmes se tenaient là. Elles virent ce qui avait été fait. Il y avait là Marie de Magdala et l'autre Marie. Elles surent vraiment où il avait été déposé.",
+            "فوضعوا جسد الوحيد فى ذلك القبر وتركوا حجراً عليه. فاستراحوا كالوصية من أجل السبت صنعوا هكذا. وكن نسوة واقفات ينظرن ما كان. مريم المجدلية ومريم الأخرى علمن جيدا أين وضع.",
+        ],
+    ],
+    [
+
+        [
+            Prefix.HolyWeek + "12HDGolghosaHymn&D=GL56&C=Diacon",
+            "dgJolgo;a `mmet hebreoc @ pi`kranion `mmetoueinin @ pimaetauask P=o=c `nqytf @ akvwrs `nnekjij `ebol af`isi nemak `nkeconi `cnau @ catekou`inam nem catekjat[y @ `n;ok ek,y qen toumy] `w picwtyr `naga;oc.",
+            "Le Golgotha en hébreu, le Lieu du Crâne en grec, ce lieu où Tu as été crucifié Seigneur. Tu as étendu tes mains. Et ils crucifièrent avec Toi 2 larrons : à Ta droite et à Ta gauche, et Toi en leur milieu, ô bon Sauveur.",
+            "غولغوثا إمميت هيفرى أوش : بي إكرانيون إمميت أو إينين : بي ما إيطاف أشك إبشويس إنخيتف : أك فورش إن نيك جيج إيفول : أف إيشي نيماك إن كى سوني إسناف صا تيك أوي نام  نيم صا تيك جاتشي : إنثوك إك كي خين توميتي أو بي سوتير إن آغاثوس.",
+        ],
+        [
+            Prefix.HolyWeek + "12HDGolghosaHymn&D=GL56&C=Diacon",
+            "Doza Patri ke Uiw ke `agi`w ~Pneumati.",
+            "Gloire au Père, au Fils et au Saint-Esprit",
+            "المجد للآب والابن والروح القدس.",
+        ],
+        [
+            Prefix.HolyWeek + "12HDGolghosaHymn&D=GL56&C=Diacon",
+            "Afws `ebol `nje piconi @ etcaou`i nam efjw `mmoc @ je `aripameu`i w Pa=o=c @ `aripameu`i w Pacwtyr @ `aripameu`i w Paouro @ aksan`i qen tekmetouro @ af`erouw naf `nje P=o=c @ qen ou`cmy `mmetremraus @ je `mvoou ek `eswpi nemyi @ `n`hryi qen tametouro.",
+            "Alors le larron à Ta droite s'est écrié en disant : souviens-Toi de moi Seigneur, souviens-Toi de moi ô mon Sauveur, souviens-Toi de moi ô mon Roi quand Tu viendras dans Ton royaume. Le Seigneur lui répondit avec une voix douce : Aujourd'hui tu seras avec moi dans mon royaume.",
+            "أف أوش إيفول إنجى بي سوني : إتصا أوي نام إفجو إمموس : جى آري با ميفئي أو باشويس : أري باميفئي أو باسوتير : أري باميفئي أو با أورو. أكشان إي خين تيك ميت أور : أف إير أوناف إنجى إبشويس خين إو إثمي إمميت ريم رافش جى إمفوأو إك إيشوبي نيمي إن إهري خين تا ميت أورو.",
+        ],
+        [
+            Prefix.HolyWeek + "12HDGolghosaHymn&D=GL56&C=Diacon",
+            "Ke nun ke `a`i ke ictouc `ew`nac twn `e`wnwn `amyn.",
+            "Maintenant et toujours et pour les siècles des siècles, amen.",
+            "الآن وكل اوان والى دهر الدهور. آمين.",
+        ],
+        [
+            Prefix.HolyWeek + "12HDGolghosaHymn&D=GL56&C=Diacon",
+            "Au`i `nje nidikeoc @ Iwcyv nem Nikodymoc @ au[i `n`tcarz `nte P=,=c @ au] `noucojen `e`hryi `ejwf @ aukocf au,af qen ou`mhau @ euhwc erof eujw `mmoc @ je `agioc `o :eoc @ `agioc ic,uroc @ `agioc `a;anatoc @ `o `ctaurw;ic di`ymac `ele`ycon `ymac.",
+            "Les deux justes : Joseph et Nicodème ont pris le Corps du Christ, l'ont recouvert d'aromates, l'ont enseveli, en le louant et en disant : Dieu Saint, Saint fort, Saint éternel, qui a été crucifié pour nous, aie pitié de nous.",
+            "أف إي إنجى ني ذيكيئوس يوسف نيم نيقوديموس : أف تشي إن إتصاركس إنتى بخرستوس أفتي أن أو سوجين إى إهري إيجوف أفكوسف أفكاف خين بي إمهاف. إف هوس إيروف إفجو إمموس . جى آجيوس أو ثيئوس : آجيوس إس شيروس آجيوس آثاناطوس. أو إسطافروتيس ديماس إليسون إيماس.",
+        ],
+        [
+            Prefix.HolyWeek + "12HDGolghosaHymn&D=GL56&C=Diacon",
+            "Doza Patri ke Uiw ke `agi`w ~Pneumati.",
+            "Gloire au Père, au Fils et au Saint-Esprit",
+            "المجد للآب والابن والروح القدس.",
+        ],
+        [
+            Prefix.HolyWeek + "12HDGolghosaHymn&D=GL56&C=Diacon",
+            "Ke nun ke `a`i ke ictouc `ew`nac twn `e`wnwn `amyn.",
+            "Maintenant et toujours et pour les siècles des siècles, amen.",
+            "الآن وكل اوان والى دهر الدهور. آمين.",
+        ],
+        [
+            Prefix.HolyWeek + "12HDGolghosaHymn&D=GL56&C=Diacon",
+            "Anon hwn marenouwst `mmof @ enws `ebol enjw `mmoc @ je nai nan V] Pencwtyr @ vy`etauasf `epi`ctauroc @ ek`eqomqem `m`pcatanac @ capecyt `nnen[alauj.",
+            "Et nous aussi prosternons-nous devant Lui en clamant et en disant : Aie pitié de nous ô Dieu notre Sauveur qui a été crucifié, écrase satan sous nos pieds.",
+            "آنون هون مارين أو أوشت إمموف : إن أوش إيفول إنجو إمموس : جى ناي نان إفنوتي بين سوتير. في إيطاف أشف إى بي إسطافروس : إك إيخوم خيم إم إبصاطاناس صابيسيت إننين إتشالافج .",
+        ],
+        [
+            Prefix.HolyWeek + "12HDGolghosaHymn&D=GL56&C=Diacon",
+            "Ak[i",
+            "Sauve nous et aie pitié de nous",
+            "خلصنا وإرحمنا",
         ],
     ],
 ];
@@ -8533,7 +8533,7 @@ var EveningLitany = [
         [
             Prefix.placeHolder,
             Prefix.commonPrayer + "KyrieElieson&D=$copticFeasts.AnyDay",
-          ],
+        ],
         [
             Prefix.same + "&C=Priest",
             "",
@@ -8724,11 +8724,11 @@ var EveningLitany = [
             "يا إله آبائنا القديسين لا تتخل عنا ولا تخيب الذين خلقتهم بيدك الطاهرة واظهرت حبك للبشرية أيها الرحوم اقبل من والدتك شفاعة من اجلنا وخلصنا يا مخلص شعباً متواضعاً لا تغفل عنا إلى الغاية ولا تسلمنا إلى الانقضاء من أجل اسمك القدوس لا تنقض عهدك ولا تبعد عنا رحمتك من أجل إبراهيم حبيبك واسحق عبدك ويعقوب قديسك. نسألك يا رب اسمعنا وارحمنا.",
         ],
     ],
-]; 
+];
 
-var MorningLitany  = [
+var MorningLitany = [
     [
-    
+
         [
             Prefix.same + "&C=Priest",
             "",
@@ -8889,7 +8889,7 @@ var MorningLitany  = [
         ],
     ],
 ];
-     
+
 
 /**
  * This is a temporary function to clean PrayersArrayFR from the Holy Week Readings tables
@@ -8897,369 +8897,369 @@ var MorningLitany  = [
 function extractHWReadings() {
 
     let HW: string[][][] =
-      PrayersArrayFR
-        .filter(table =>
-          !(table[0][0].startsWith(Prefix.HolyWeek)
-            &&
-            table[0][0].includes('Hour'))
-        );
-  
+        PrayersArrayFR
+            .filter(table =>
+                !(table[0][0].startsWith(Prefix.HolyWeek)
+                    &&
+                    table[0][0].includes('Hour'))
+            );
+
     console.log(HW);
-  
+
     saveOrExportArray(HW, 'PrayersArrayFR', true, false);
     //saveOrExportArray(HW, 'HW', true, false);
-  }
-  
-  function changeHWTitles() {
+}
+
+function changeHWTitles() {
     let GN = ReadingsArrays.GospelNightArrayFR;
     let monday =
-      GN
-        .filter(tbl => tbl[0][0].startsWith(Prefix.HolyWeek + 'Monday'));
-  
+        GN
+            .filter(tbl => tbl[0][0].startsWith(Prefix.HolyWeek + 'Monday'));
+
     let index = GN.indexOf(monday[0]);
-  
+
     let sunday = structuredClone(monday)
-      .filter(table =>
-        !table[0][0].includes('1stHourDay')
-        && !table[0][0].includes('3rdHourDay')
-        && !table[0][0].includes('6thHourDay')
-      );
-  
+        .filter(table =>
+            !table[0][0].includes('1stHourDay')
+            && !table[0][0].includes('3rdHourDay')
+            && !table[0][0].includes('6thHourDay')
+        );
+
     sunday.forEach(tbl => tbl[0][0] = tbl[0][0].replace('Monday', 'Sunday'));
-  
+
     GN.splice(index, 0, ...sunday);
     GN = GN.filter(tbl => !(tbl[0][0].startsWith(Prefix.HolyWeek + 'Friday') && tbl[0][0].includes('Evening')));
-  
-  
+
+
     let pairs = [
-      ['Sunday', 'GL7thSunday'],
-      ['Monday', 'GL52'],
-      ['Tuesday', 'GL53'],
-      ['Wednesday', 'GL54'],
-      ['Thursday', 'GL55'],
-      ['Friday', 'GL56'],
+        ['Sunday', 'GL7thSunday'],
+        ['Monday', 'GL52'],
+        ['Tuesday', 'GL53'],
+        ['Wednesday', 'GL54'],
+        ['Thursday', 'GL55'],
+        ['Friday', 'GL56'],
     ];
     pairs.forEach(array => replaceDates(array));
-  
+
     function replaceDates(array: string[]) {
-      GN
-        .filter(tbl => tbl[0][0].startsWith(Prefix.HolyWeek + array[0]))
-        .forEach(tbl => {
-          tbl[0][0] =
-            tbl[0][0]
-              .replace(array[0], '')
-              .replace("$Seasons.HolyWeek", array[1])
-        })
+        GN
+            .filter(tbl => tbl[0][0].startsWith(Prefix.HolyWeek + array[0]))
+            .forEach(tbl => {
+                tbl[0][0] =
+                    tbl[0][0]
+                        .replace(array[0], '')
+                        .replace("$Seasons.HolyWeek", array[1])
+            })
     }
-  
+
     (function insertProphecies() {
-      let tbl = [
-        [
-          "",
-          "",
-          "",
-          "",
-          "........",
-        ],
-        [
-          Prefix.same + "&C=NoActor",
-          "",
-          "",
-          "",
-          "........",
-        ],
-      ];
-      let n: number, title: string;
-  
-      pairs.map(array => array[1])
-        .forEach(date => {
-          let psalms = GN.filter(tbl =>
-            tbl[0][0].startsWith(Prefix.HolyWeek)
-            && tbl[0][0].includes(date)
-            && tbl[0][0].includes('Psalm')
-          );
-  
-          psalms
-            .forEach(psalm => {
-              n = GN.indexOf(psalm);
-              title = psalm[0][0].replace('Psalm', 'Prophecies');
-              tbl[0][0] = title;
-              GN.splice(n, 0, structuredClone(tbl));
-            });
-  
-        })
+        let tbl = [
+            [
+                "",
+                "",
+                "",
+                "",
+                "........",
+            ],
+            [
+                Prefix.same + "&C=NoActor",
+                "",
+                "",
+                "",
+                "........",
+            ],
+        ];
+        let n: number, title: string;
+
+        pairs.map(array => array[1])
+            .forEach(date => {
+                let psalms = GN.filter(tbl =>
+                    tbl[0][0].startsWith(Prefix.HolyWeek)
+                    && tbl[0][0].includes(date)
+                    && tbl[0][0].includes('Psalm')
+                );
+
+                psalms
+                    .forEach(psalm => {
+                        n = GN.indexOf(psalm);
+                        title = psalm[0][0].replace('Psalm', 'Prophecies');
+                        tbl[0][0] = title;
+                        GN.splice(n, 0, structuredClone(tbl));
+                    });
+
+            })
     })();
-  
+
     saveOrExportArray(GN, 'ReadingsArrays.GospelNightArrayFR', true, false)
-  }
-  
-  function parseWordDocument() {
+}
+
+function parseWordDocument() {
     let GN: string[][][] = structuredClone(ReadingsArrays.GospelNightArrayFR),
-      GNTable: string[][];
-  
+        GNTable: string[][];
+
     let input = document.createElement('input');
     input.type = 'file';
     input.id = 'upload';
     input.addEventListener('change', async () => {
-      retrieveTextFromHtmlDocument(await handleFile()),
-        saveOrExportArray(GN, 'ReadingsArrays.GospelNightArrayFR', true, false)
+        retrieveTextFromHtmlDocument(await handleFile()),
+            saveOrExportArray(GN, 'ReadingsArrays.GospelNightArrayFR', true, false)
     });
     input.click();
-  
-  
-  
-    async function handleFile(): Promise<Document> {
-      let file = input.files[0];
-      console.log(input.files);
-      let text = await file.text();
-      let parser = new DOMParser();
-  
-      return parser.parseFromString(text, 'text/html');
-    }
-  
-    function retrieveTextFromHtmlDocument(docHtml: Document) {
-      let tables = docHtml.querySelectorAll('table');
-      let title: string,
-        text: string, cells: HTMLTableCellElement[],
-        newRow: string[];
-  
-      tables.forEach(table => {
-        title = table.title;
-        //title = title.split('///')[1].split('///')[0].replaceAll('3D', '');
-        if (!title) return;
-        let tblRows = table.querySelectorAll('tr');
-        GNTable = GN.find(table => table.length>0 && table[0][0].includes(title)) || undefined;
-        if (!GNTable) return;
-  
-        let langs: string[][] =
-          Array.from(tblRows)
-            .map(tblRow => {
-              let tr = document.createElement('tr');
-              text =
-                tr.textContent = tblRow.textContent;
-              containerDiv.appendChild(tr);
-  
-              cells = Array.from(tblRow.querySelectorAll('td'));
-              return cells.map(cell =>
-                cell.textContent
-                  .replaceAll('\n\n', '\n')
-                  .replaceAll('\\n', '\n')
-                  .replaceAll('   ', '  ')
-                  .replaceAll('\n\"', '\"')
-              )
-            });
-        
-  
-        langs.forEach(lang => {
-          if (!lang[0] && !lang[1] && !lang[2]) return;
-          newRow = [
-            Prefix.same + "&C=Diacon",
-            langs.map(lang => lang[0]).join('\n'),//Coptic
-            langs.map(lang => lang[1]).join('\n'),//French
-            "",//CA
-            langs.map(lang => lang[2]).join('\n'),//Arabic
-          ];
-          if (GNTable[langs.indexOf(lang) + 1]) GNTable[langs.indexOf(lang) + 1] = newRow;
-          else GNTable.push(newRow)
-  
-        })
-  
-  
-      });
-  
-    }
-  
-    function retrieveTextFromArray(extracted: string[][][]) {
-    
-      let title: string, length: number;
-  
-      extracted.forEach(table => {
-        title = splitTitle(table[0][0])[0];
-  
-        if (!title) return;
-        
-        GNTable = GN.find(table => table[0][0].includes(title)) || undefined;
-        if (!GNTable) return;
-      
-        
-        table.map(tblRow => {
-          length = GNTable.push(tblRow);
-          GNTable[length - 1][0] = Prefix.same + '+\"' + splitTitle(GNTable[length - 1][0])[1] + "\""
-        })
-      });
-  
-    }
-  }
-  
-  function CompleteGNFromArray() {
-      
-      let GN: string[][][] = structuredClone(ReadingsArrays.GospelNightArrayFR);
 
-      
-      if (!document.scripts.namedItem('HolyWeek')) loadHWScript();
-      else processScripts()
-      
-      async function processScripts() {
-          await parse();
-          
-          saveOrExportArray(GN, 'ReadingsArrays.GospelNightArrayFR', true, false);
-          
+
+
+    async function handleFile(): Promise<Document> {
+        let file = input.files[0];
+        console.log(input.files);
+        let text = await file.text();
+        let parser = new DOMParser();
+
+        return parser.parseFromString(text, 'text/html');
+    }
+
+    function retrieveTextFromHtmlDocument(docHtml: Document) {
+        let tables = docHtml.querySelectorAll('table');
+        let title: string,
+            text: string, cells: HTMLTableCellElement[],
+            newRow: string[];
+
+        tables.forEach(table => {
+            title = table.title;
+            //title = title.split('///')[1].split('///')[0].replaceAll('3D', '');
+            if (!title) return;
+            let tblRows = table.querySelectorAll('tr');
+            GNTable = GN.find(table => table.length > 0 && table[0][0].includes(title)) || undefined;
+            if (!GNTable) return;
+
+            let langs: string[][] =
+                Array.from(tblRows)
+                    .map(tblRow => {
+                        let tr = document.createElement('tr');
+                        text =
+                            tr.textContent = tblRow.textContent;
+                        containerDiv.appendChild(tr);
+
+                        cells = Array.from(tblRow.querySelectorAll('td'));
+                        return cells.map(cell =>
+                            cell.textContent
+                                .replaceAll('\n\n', '\n')
+                                .replaceAll('\\n', '\n')
+                                .replaceAll('   ', '  ')
+                                .replaceAll('\n\"', '\"')
+                        )
+                    });
+
+
+            langs.forEach(lang => {
+                if (!lang[0] && !lang[1] && !lang[2]) return;
+                newRow = [
+                    Prefix.same + "&C=Diacon",
+                    langs.map(lang => lang[0]).join('\n'),//Coptic
+                    langs.map(lang => lang[1]).join('\n'),//French
+                    "",//CA
+                    langs.map(lang => lang[2]).join('\n'),//Arabic
+                ];
+                if (GNTable[langs.indexOf(lang) + 1]) GNTable[langs.indexOf(lang) + 1] = newRow;
+                else GNTable.push(newRow)
+
+            })
+
+        });
+
+    }
+
+    function retrieveTextFromArray(extracted: string[][][]) {
+
+        let title: string, length: number;
+
+        extracted.forEach(table => {
+            title = splitTitle(table[0][0])[0];
+
+            if (!title) return;
+
+            GNTable = GN.find(table => table[0][0].includes(title)) || undefined;
+            if (!GNTable) return;
+
+
+            table.map(tblRow => {
+                length = GNTable.push(tblRow);
+                GNTable[length - 1][0] = Prefix.same + '+\"' + splitTitle(GNTable[length - 1][0])[1] + "\""
+            })
+        });
+
+    }
+}
+
+function CompleteGNFromArray() {
+
+    let GN: string[][][] = structuredClone(ReadingsArrays.GospelNightArrayFR);
+
+
+    if (!document.scripts.namedItem('HolyWeek')) loadHWScript();
+    else processScripts()
+
+    async function processScripts() {
+        await parse();
+
+        saveOrExportArray(GN, 'ReadingsArrays.GospelNightArrayFR', true, false);
+
         async function parse() {
             [
-            'GL7thSundayE',
-            'GL52D',
-            'GL52E',
-            'GL53D',
-            'GL53E',
-            'GL54D',
-            'GL54E',
-            'GL55D',
-            'GL55E',
-            'GL56D',
-            'GL56E',
-        ].forEach(arrayName=>processArray(eval(arrayName)))
+                'GL7thSundayE',
+                'GL52D',
+                'GL52E',
+                'GL53D',
+                'GL53E',
+                'GL54D',
+                'GL54E',
+                'GL55D',
+                'GL55E',
+                'GL56D',
+                'GL56E',
+            ].forEach(arrayName => processArray(eval(arrayName)))
         }
-        }
-  
-    function processArray(array:string[][][]) {
-        let   existingTable: string[][];
-        let title: string, newTable:string[][], titleRow:string[];
-    
+    }
+
+    function processArray(array: string[][][]) {
+        let existingTable: string[][];
+        let title: string, newTable: string[][], titleRow: string[];
+
         array.forEach(table => {
-          title = splitTitle(table[0][0])[0];
-    
-          if (!title) return;
+            title = splitTitle(table[0][0])[0];
+
+            if (!title) return;
             titleRow = generateTableTitleRow(title);
             newTable = [titleRow, ...table];
-          
+
             existingTable = GN.find(tbl => tbl && tbl[0] && tbl[0][0] && tbl[0][0].includes(title)) || undefined;
-            
+
             if (existingTable) {
                 if (confirm('The table alreadyExists. Do you want to replace it?: its title = ' + title)) GN[GN.indexOf(existingTable)] = newTable;
             } else {
                 return GN.push(newTable);
             }
-             
+
         });
-    
-;
+
+        ;
     }
 
-    function generateTableTitleRow(title:string):string[]{
+    function generateTableTitleRow(title: string): string[] {
         let HWDays: string[][] =
-        [
-          ['GL7thSunday', 'Sunday', 'الأحد', 'dimanche'],
-          ['GL52','Monday', 'الإثنين', 'lundi'],
-          ['GL53','Tuesday', 'الثلاثاء', 'mardi'],
-          ['GL54','Wednesday', 'الأربعاء', 'mercredi'],
-          ['GL55','Thursday', 'الخميس', 'jeudi'],
-          ['GL56','Friday', 'الجمعة', 'vendredi'],
-          ['GL57','Saturday', 'السبت', 'samedi'],
+            [
+                ['GL7thSunday', 'Sunday', 'الأحد', 'dimanche'],
+                ['GL52', 'Monday', 'الإثنين', 'lundi'],
+                ['GL53', 'Tuesday', 'الثلاثاء', 'mardi'],
+                ['GL54', 'Wednesday', 'الأربعاء', 'mercredi'],
+                ['GL55', 'Thursday', 'الخميس', 'jeudi'],
+                ['GL56', 'Friday', 'الجمعة', 'vendredi'],
+                ['GL57', 'Saturday', 'السبت', 'samedi'],
             ];
-        
+
         let HourReadings = [
-            ['Gospel', ' إنجيل', 'Evangile de la ' ],
-            ['Prophecies', 'نبوات ' , 'Prophecies de la '],
+            ['Gospel', ' إنجيل', 'Evangile de la '],
+            ['Prophecies', 'نبوات ', 'Prophecies de la '],
             ['Psalm', 'مزمور ', 'Psaume de la '],
             ['Commentary', 'طرح ', 'Commentaire de la '],
-            ['Sermony','عظة لأبينا ',  'Sermon de  ' ],
-            
+            ['Sermony', 'عظة لأبينا ', 'Sermon de  '],
+
         ]
-        
-            let hoursLabels:{prefix:string, lable:typeBtnLabel}[] = [
-              {
+
+        let hoursLabels: { prefix: string, lable: typeBtnLabel }[] = [
+            {
                 prefix: '1H',
                 lable: { AR: 'الساعة الأولى', FR: 'Première heure', EN: 'First Hour' }
-              },
-              {
+            },
+            {
                 prefix: '3H',
                 lable: { AR: 'الساعة الثالثة', FR: 'Troisième heure', EN: 'Third Hour' }
-              },
-              {
+            },
+            {
                 prefix: '6H',
                 lable: { AR: 'الساعة السادسة', FR: 'Sixième heure', EN: 'Sixth Hour' }
-              },
-              {
+            },
+            {
                 prefix: '9H',
                 lable: { AR: 'الساعة التاسعة', FR: 'Neuvième heure', EN: 'Nineth Hour' }
-              },
-              {
+            },
+            {
                 prefix: '11H',
                 lable: { AR: 'الساعة الحادية عشر', FR: 'Onzième heure', EN: 'Eleventh Hour' }
-              },
-              {
+            },
+            {
                 prefix: '12H',
                 lable: { AR: 'الساعة الثانية عشر', FR: 'Douzième heure', EN: 'Twelveth Hour' }
-              },
-            ];
+            },
+        ];
 
         return buildRow();
 
         function buildRow(): string[] {
-                let hour = hoursLabels.find(h => title.startsWith(Prefix.HolyWeek + h.prefix));
-    
-                if (!hour) return;
-                
-                let myLable: typeBtnLabel = {AR:'', FR:''};
-    
-                let date = title.split('&D=')[1].split('&C=')[0];
-    
-                if (!date) return;
-    
-                let day:string[] = HWDays.find(day => day[0] === date);
-    
-                if (!day) return;
+            let hour = hoursLabels.find(h => title.startsWith(Prefix.HolyWeek + h.prefix));
+
+            if (!hour) return;
+
+            let myLable: typeBtnLabel = { AR: '', FR: '' };
+
+            let date = title.split('&D=')[1].split('&C=')[0];
+
+            if (!date) return;
+
+            let day: string[] = HWDays.find(day => day[0] === date);
+
+            if (!day) return;
 
             let reading: string[] = HourReadings.find(r => title.includes(r[0] + '&D='));
-            
-            if (!reading) return [title + '&C=Title', "", title, "", ""];
-    
-                
-                if (title.includes(hour.prefix + 'D')) {
-                    myLable.AR = reading[1] + hour.lable.AR + ' من يوم ' + day[2];
-                    myLable.FR = reading[2] +  hour.lable.FR + ' du ' + day[3];
-                  }
-                else if (title.includes(hour.prefix + 'E') && date !== "GL56") {
-                    day = HWDays[HWDays.indexOf(day) + 1];
-    
-                    myLable.AR = reading[1] +  hour.lable.AR + ' من ليلة ' + day[2];
-                    myLable.FR = reading[2] + hour.lable.FR + ' de la veille du ' +day[3];
-                  }
-                  else if (date === "GL56") {
-                    myLable.AR = reading[1] + hour.lable.AR + ' من ليلة أبو غلميسيس ';
-                    myLable.FR = reading[2] + hour.lable.FR + ' de la veille de Abou Ghalamsis ';
-                    }
-                       
-                return [title + '&C=Title', myLable.FR, "", myLable.AR];
-            };
 
-      }
-      
-      function loadHWScript(){
+            if (!reading) return [title + '&C=Title', "", title, "", ""];
+
+
+            if (title.includes(hour.prefix + 'D')) {
+                myLable.AR = reading[1] + hour.lable.AR + ' من يوم ' + day[2];
+                myLable.FR = reading[2] + hour.lable.FR + ' du ' + day[3];
+            }
+            else if (title.includes(hour.prefix + 'E') && date !== "GL56") {
+                day = HWDays[HWDays.indexOf(day) + 1];
+
+                myLable.AR = reading[1] + hour.lable.AR + ' من ليلة ' + day[2];
+                myLable.FR = reading[2] + hour.lable.FR + ' de la veille du ' + day[3];
+            }
+            else if (date === "GL56") {
+                myLable.AR = reading[1] + hour.lable.AR + ' من ليلة أبو غلميسيس ';
+                myLable.FR = reading[2] + hour.lable.FR + ' de la veille de Abou Ghalamsis ';
+            }
+
+            return [title + '&C=Title', myLable.FR, "", myLable.AR];
+        };
+
+    }
+
+    function loadHWScript() {
         let script: HTMLScriptElement = document.createElement("script");
         script.src = "./Extracted/DeclareHolyWeek.js";
         script.id = "HolyWeek";
         script.type = "text/javascript";
         script.onload = () => processScripts();
-        document.getElementsByTagName("body")[0].appendChild(script)};
-      
-  }
+        document.getElementsByTagName("body")[0].appendChild(script)
+    };
+
+}
 
 
-  
-function addKiriElysonToLitany(lit:string[][][]) {
+
+function addKiriElysonToLitany(lit: string[][][]) {
     let litany = lit[0];
     litany.filter(row => litany.indexOf(row) > 1)
-        .forEach(row => litany.splice(litany.indexOf(row)+1, 0, litany[1]));
-    
+        .forEach(row => litany.splice(litany.indexOf(row) + 1, 0, litany[1]));
+
     console.log(litany);
 }
-  
+
 /**
  * Was created to correct the French title. No need for it any more
  */
-function moveFrenchTitle(){
-    let array:string[][][] = eval(prompt('Provide the name of the array'));
+function moveFrenchTitle() {
+    let array: string[][][] = eval(prompt('Provide the name of the array'));
     if (!array) return;
     array.forEach(table => {
         if (!table[0][0].startsWith(Prefix.HolyWeek)) return;

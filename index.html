@@ -7,6 +7,7 @@
     <title>Coptic PWA</title>
 
         <link rel="stylesheet" href="Eklesia.css"/>
+
 <script>navigator.serviceWorker.register("service-worker.js")</script> 
         <link rel="manifest" href="manifest.json" />    
 </head>
@@ -42,15 +43,13 @@
                         <div id='containerDiv' class = 'Container'></div>                 
         </div>
 
-        <script src="./Build/modules/DeclareGlobalVariables.js" type="text/javascript"></script>
-        <script src="./Build/modules/DeclareSeasonsPrayers.js" type="text/javascript"></script>
-        <script src="./Build/modules/SetDates.js" type="text/javascript"></script>   
-        <script src="./Build/modules/DeclareButtons.js" type="text/javascript"></script>
-        <script src="./Build/main.js" type="text/javascript"></script>   
-        <script src="./Build/modules/editMode.js" type="text/javascript"></script>   
-        <script src="./Build/modules/convertCopticFonts.js" type="text/javascript"></script>   
-        
-        
+        <script type="text/javascript" src="./Build/modules/DeclareGlobalVariables.js"></script>
+        <script type="text/javascript" src="./Build/modules/app.js"></script>
+        <script type="text/javascript" src="./Build/modules/SetDates.js"></script>
+        <script type="text/javascript" src="./Build/modules/DeclareButtons.js"></script>
+        <script type="text/javascript" src="./Build/modules/convertCopticFonts.js"></script>
+        <script type="text/javascript" src="./Build/modules/editMode.js"></script>
+                        
 </body>
 </html>
 

@@ -1,9 +1,59 @@
+var Season: string; //This is a value telling whether we are during a special period of the year like the Great Lent or the 50 Pentecostal days, etc.
+var todayDate: Date,
+  copticDate: string, //The Coptic date is stored in a string not in a number like the gregorian date, this is to avoid complex calculations
+  copticMonth: string, //same comment as above
+  copticDay: string, //same comment as above
+  copticYear: string, //same comment as above
+  copticReadingsDate: string, //This is the date of the day's readings (gospel, Catholicon, praxis, etc.). It does not neceissarly correspond to the copticDate
+  weekDay: number, //This is today's day of the week (Sunday, Monday, etc.) expressed in number starting from 0
+  isFast: boolean;
+
+const copticReadingsDates: string[][] = getCopticReadingsDates();
+
+
+const ResurrectionDates: number[][] = [
+  [2019, 4, 28],
+  [2020, 4, 19],
+  [2021, 5, 2],
+  [2022, 4, 24],
+  [2023, 4, 16],
+  [2024, 5, 5],
+  [2025, 4, 20],
+  [2026, 4, 12],
+  [2027, 5, 2],
+  [2028, 4, 16],
+  [2029, 4, 8],
+  [2030, 4, 28],
+  [2031, 4, 13],
+  [2032, 5, 2],
+  [2033, 4, 24],
+  [2034, 4, 9],
+  [2035, 4, 29],
+  [2036, 4, 20],
+  [2037, 4, 5],
+  [2038, 4, 25],
+  [2039, 4, 17],
+  [2040, 5, 6],
+  [2041, 4, 21],
+  [2042, 4, 13],
+  [2043, 5, 3],
+  [2044, 4, 24],
+  [2045, 4, 9],
+  [2046, 4, 29],
+  [2047, 4, 21],
+  [2048, 4, 5],
+  [2049, 4, 25],
+  [2050, 4, 17],
+]; // these are  the dates of the Ressurection feast got from خدمة الشماس والألحان للمعلم فرج عبد المسيح الطبعة 14 سنة 2019
+
+[copticReadingsDates, copticFasts, ResurrectionDates].forEach(obj => Object.freeze(obj));
+
 /**
  * a function that runs at the beginning and sets some global dates like the coptic date (as a string), today's Gregorian date (as a Date), the day of the week (as a number), the Season (a string), etc.
  * @param {Date} today  - a Gregorian date provided by the user or set automatically to the date of today if missing
  */
 async function setCopticDates(today?: Date, changeDate: boolean = false) {
- 
+
   todayDate = today || (() => {
     if (localStorage.selectedDate) localStorage.selectedDate = null; //We do this in order to reset the local storage 'selectedDate' when setCopticDates() is called without a date passed to it
     return new Date()
@@ -295,7 +345,7 @@ function checkForUnfixedEvent(
     if (Number(copticMonth) > 11) return;
     if (Number(copticMonth) === 11 && Number(copticDay) > 4) return; //We are after the Apostles Feast
 
-    //We are more than 50 days after Resurrection, which means that we are during the Apostles lent (i.e. the coptic date is before 05/11 which is the date of the Apostles Feast)
+    //We are more than 50 dayis after Resurrection, which means that we are during the Apostles lent (i.e. the coptic date is before 05/11 which is the date of the Apostles Feast)
     Season = Seasons.ApostlesFast;
   })();
 
@@ -473,8 +523,8 @@ function isItSundayOrWeekDay(
  * 
  * @returns {string} - If today is Sunday, Monday or Tuesday, it returns "Adam", else, it returns "Wates"
  */
-function isWatesOrAdam():string {
-  if ([0, 1, 2].includes(weekDay))
+function isWatesOrAdam(day:number = weekDay, season:string = Season): string {
+  if ([0, 1, 2].includes(day))
     return "Adam";
   return "Wates"
 }
@@ -488,7 +538,6 @@ function setVariableSeasonalPhrases(season: string): { giaki } {
     EN?: string,
     COP?: string
   };
-
   return {
     giaki: setGiAki(season)
   }
@@ -604,32 +653,32 @@ function showDates(
   if (!dateDiv.querySelector("#homeImg"))
     dateDiv.appendChild(document.getElementById("homeImg"));
 
-  
+
   //Inserting the Coptic date
   date =
     { AR: 'التقويم القبطي', FR: 'Date Copte', EN: 'Coptic Date' }[defaultLanguage]
-  + " : "
-  + copticDay
-  + " "
-  + (copticMonths[Number(copticMonth)][defaultLanguage] || copticMonths[Number(copticMonth)]['EN']) +
-  " "
-  + copticYear +
-  " \n"
-  + { AR: 'قراءات  ', FR: 'Lectures du', EN: 'Readings Date' }[defaultLanguage] + " : "
-  + (() => {
+    + " : "
+    + copticDay
+    + " "
+    + (copticMonths[Number(copticMonth)][defaultLanguage] || copticMonths[Number(copticMonth)]['EN']) +
+    " "
+    + copticYear +
+    " \n"
+    + { AR: 'قراءات  ', FR: 'Lectures du', EN: 'Readings Date' }[defaultLanguage] + " : "
+    + (() => {
       if (copticReadingsDate.startsWith(Seasons.GreatLent))
         return (
-          {AR: 'اليوم الـ ', FR: ' ', EN:'Day '}[defaultLanguage] +
+          { AR: 'اليوم الـ ', FR: ' ', EN: 'Day ' }[defaultLanguage] +
           copticReadingsDate.split(Seasons.GreatLent)[1] +
-          {AR: 'من الصوم الكبير  ', FR: 'ème du Grand Carême ', EN:' of the Great Lent'}[defaultLanguage]
+          { AR: 'من الصوم الكبير  ', FR: 'ème du Grand Carême ', EN: ' of the Great Lent' }[defaultLanguage]
 
         );
 
       if (copticReadingsDate.startsWith(Seasons.PentecostalDays))
         return (
-          {AR: ' اليوم الـ ', FR: ' ', EN:'Day '}[defaultLanguage]  +
+          { AR: ' اليوم الـ ', FR: ' ', EN: 'Day ' }[defaultLanguage] +
           copticReadingsDate.split(Seasons.PentecostalDays)[1] +
-          {AR: ' من الخمسين المقدسة  ', FR: 'ème jour des 50 jours de Pentecotes', EN:' of the 50 Pentecostal days'}[defaultLanguage]
+          { AR: ' من الخمسين المقدسة  ', FR: 'ème jour des 50 jours de Pentecotes', EN: ' of the 50 Pentecostal days' }[defaultLanguage]
         );
 
       if (copticReadingsDate.startsWith(Seasons.JonahFast))
@@ -671,14 +720,14 @@ function showDates(
       dateBox = dateDiv.appendChild(document.createElement("div"));
       dateBox.id = id;
       dateBox.style.display = "block !important";
-  
+
       dateBox.classList.add("dateBox");
     }
     dateBox.innerHTML = ""; //we empty the div
     let p = dateBox.appendChild(document.createElement("p"));
     p.innerText = date;
     if (defaultLanguage === 'AR')
-    p.style.direction = 'rtl';
+      p.style.direction = 'rtl';
   }
 
   (function insertCredentials() {
@@ -775,6 +824,298 @@ function checkIfDateIsToday(date: Date): boolean {
     return true; //If the date argument is not valid,  or if the date argument refers to the same day, month and year as today, we will return true which means that todayDate will be set to today's date
 
   return false;
+}
+
+/**
+ * returns a string[][], each string[] element includes 2 elements: the current coptic date (as as string formatted like "DDMM") and the corresponding readings date if any (also formatted as "DDMM").
+ * @returns {string[][]}
+ */
+function getCopticReadingsDates(): string[][] {
+  return [
+    ["1307", "1903", "2111", "0402", "0403", "0804", "1002"],
+    [
+      "1703",
+      "1301",
+      "3001",
+      "1209",
+      "1406",
+      "1412",
+      "1504",
+      "1806",
+      "2103",
+      "2706",
+      "2809",
+      "0104",
+      "0302",
+      "0502",
+      "0603",
+      "0705",
+      "0902",
+    ],
+    [
+      "2708",
+      "1101",
+      "1110",
+      "1306",
+      "1404",
+      "1605",
+      "1706",
+      "1808",
+      "2211",
+      "2306",
+      "2705",
+      "1111",
+      "2201",
+      "1101",
+      "2201",
+    ],
+    [
+      "2803",
+      "0901",
+      "1004",
+      "1109",
+      "1311",
+      "1403",
+      "1410",
+      "1707",
+      "1709",
+      "1805",
+      "1904",
+      "1908",
+      "2206",
+      "2303",
+      "2305",
+      "2406",
+      "2412",
+      "2704",
+      "2709",
+      "0207",
+      "0310",
+      "0507",
+      "0513",
+      "1011",
+      "1112",
+      "2302",
+    ],
+    [
+      "3005",
+      "0501",
+      "1001",
+      "2001",
+      "0102",
+      "2901",
+      "0602",
+      "1003",
+      "2604",
+      "2405",
+      "2905",
+      "1507",
+      "2607",
+      "0608",
+      "0808",
+      "1108",
+      "2508",
+      "0111",
+      "1711",
+      "2811",
+      "0212",
+      "0612",
+      "1512",
+      "2112",
+    ],
+    [
+      "0105",
+      "1508",
+      "1907",
+      "2005",
+      "2209",
+      "2510",
+      "2908",
+      "0110",
+      "0309",
+      "0611",
+      "1501",
+      "2401",
+      "2602",
+    ],
+    ["0109", "1612", "2105", "2110", "0304"],
+    ["0206", "2504", "0704", "0711", "2002"],
+    ["0210", "3006"],
+    [
+      "0311",
+      "1208",
+      "1303",
+      "1812",
+      "2207",
+      "2810",
+      "3003",
+      "3009",
+      "0103",
+      "0202",
+      "0205",
+      "0308",
+      "0701",
+      "0706",
+      "0709",
+      "0805",
+      "1102",
+      "1702",
+      "0301",
+    ],
+    [
+      "0312",
+      "1401",
+      "1704",
+      "0906",
+      "0209",
+      "1409",
+      "2109",
+      "2909",
+      "2410",
+      "1511",
+    ],
+    ["0313", "1310"],
+    [
+      "0405",
+      "2404",
+      "2906",
+      "1608",
+      "1609",
+      "1611",
+      "0113"
+    ],
+    [
+      "0511",
+      "1708",
+      "1803",
+      "1811",
+      "2104",
+      "2106",
+      "2911",
+      "0404",
+      "0807",
+      "1006",
+    ],
+    ["0605", "0604", "0806"],
+    [
+      "0801",
+      "1505",
+      "2004",
+      "2010",
+      "2212",
+      "2307",
+      "2606",
+      "2610",
+      "2611",
+      "0401",
+      "0412",
+      "0504",
+      "0508",
+      "0509",
+      "0601",
+      "0708",
+      "0910",
+      "2102",
+      "2501",
+    ],
+    ["0903", "0106", "0303", "0407", "1201"],
+    ["1009", "0812"],
+    ["1202", "1509"],
+    ["1203", "1210"],
+    ["1312", "2107"],
+    ["1402", "2507"],
+    [
+      "1503",
+      "1211",
+      "1510",
+      "2411",
+      "2805",
+      "0112",
+      "0410",
+      "0411",
+      "0606",
+      "0912",
+    ],
+    ["1601", "2807", "0909"],
+    ["1610", "1104", "1506", "1603", "1705", "0204"],
+    ["1701", "1007", "1212"],
+    [
+      "2009",
+      "0702",
+      "1302",
+      "2502",
+      "0703",
+      "1204",
+      "1405",
+      "2505",
+      "0306",
+      "1206",
+      "1906",
+      "0907",
+      "0108",
+      "1008",
+      "2910",
+      "0413",
+    ],
+    [
+      "2011",
+      "1807",
+      "2008",
+      "2408",
+      "2506",
+      "2608",
+      "2806",
+      "0208",
+      "0610",
+      "1502",
+      "1902",
+    ],
+    ["2101", "1107", "1407", "2301"],
+    ["2202", "1804", "0406"],
+    [
+      "2203",
+      "1010",
+      "1308",
+      "1905",
+      "1911",
+      "2012",
+      "2210",
+      "2603",
+      "3011",
+      "0107",
+      "0408",
+      "0707",
+      "2701",
+      "2801",
+    ],
+    ["2204", "3007"],
+    ["2205", "1309", "1710", "1909", "2310", "0510", "0904", "0908", "2402"],
+    ["2308", "1910", "2312", "2711", "2712", "0609", "0710", "0809", "0703"],
+    ["2409", "0810"],
+    ["2503", "2509", "2511", "2808", "0505", "0802", "2802"],
+    ["2601", "1103", "1304", "1606", "0712"],
+    ["2605", "0512"],
+    ["2702", "1411", "1809", "1912", "2707", "0506", "0811", "0905"],
+    ["2703", "1604", "2311", "0503", "0607", "1012", "1712", "2902"],
+    [
+      "2903",
+      "1602",
+      "1802",
+      "0203",
+      "1106",
+      "2006",
+      "0307",
+      "1207",
+      "1607",
+      "2007",
+      "2407",
+      "1408",
+      "2208",
+      "0409",
+      "1810",
+    ],
+    ["3008", "0211", "2003", "2309", "2710", "0911", "3002"],
+  ];
 }
 
 function testDateFunction(date: Date = new Date("2020.12.31")) {

@@ -19,7 +19,6 @@ const RUNTIME = 'runtime';
 
 // A list of local resources we always want to be cached.
 const PRECACHE_URLS = [
-  'Ekelsia.html',
   './', // Alias for index.html
   'Eklesia.css',
   '../../styles/main.css',

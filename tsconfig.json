@@ -1,11 +1,12 @@
 {
     "compilerOptions": {
         "target": "ES2021",
-        "module": "umd",
+        "module": "ES2020",
         "esModuleInterop": true,
        "outDir": "Build",
         "allowJs": true,
         "inlineSourceMap": true,
+        "checkJs": false
     },
   //  "files": ["ProjectCode.ts",
     //    "modules/Prayers.ts",

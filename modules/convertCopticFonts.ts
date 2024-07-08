@@ -5,8 +5,8 @@ const JimkinCombining = {
   after: "COMBINE_WITH_CHAR_AFTER",
   none: "NONE",
 };
-
 const COPTIC_FONT_UNICODE_COL: number = 4;
+
 
 async function convertFontWithoutAPI(text?: string, font: string = fontName, jimkin: string = JimkinCombining.before) {
   if (!fontsMap[0].includes(font)) {
