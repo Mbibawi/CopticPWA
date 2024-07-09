@@ -54,6 +54,14 @@ async function startApp() {
 
   alert(version);
 
+  (async function populateBtnsHtml() {
+    return;
+    for (let b of [btnMassStBasil, btnIncenseMorning, btnMassUnBaptised, ...btnPsalmody.onClick()]) {
+       await showChildButtonsOrPrayers(b, false, false);
+    }
+    
+  })();
+
   function setDates() {
     let selectedDate: Date;
 
@@ -81,16 +89,18 @@ async function startApp() {
  * Takes a Button and, depending on its properties will do the following: if the button has children[] buttons, it will create an html element in the left side bar for each child; if the button has inlineBtns[], it will create an html element in the main page for each inlineButton; if the button has prayers[] and prayersArray, and languages, it will look in the prayersArray for each prayer in the prayers[], and if found, will create an html element in the main page showing the text of this element. It will only do so for the languages included in the usersLanguages.
  * @param {Button} btn - the button that the function will process according to its properties (children[], inlineBtns[], prayers[], onClick(), etc.)
  * @param {boolean} clear - whether to clear or not the text already displayed in the main page
- * @param {boolean} click - if the button has its onClick property (which is a function) and if click = true, the onClick function will be called
- * @param {boolean} pursue - after the onClick function is called, if pursue = false, the showchildButtonsOrPrayers() will return, otherwise, it will continue processing the other properties of the button
+ * @param {boolean} show - if true, the html elements created to show the prayers associated with the button, will be displayed in containerDiv. If false, it will not be displayed
  * @returns
  */
-async function showChildButtonsOrPrayers(btn: Button, clear: boolean = true) {
+async function showChildButtonsOrPrayers(btn: Button, clear: boolean = true, show:boolean = true) {
   if (!btn) return;
 
+  
   let container: HTMLElement | DocumentFragment = btn.docFragment || containerDiv;
-
+  
   hideExpandableButtonsPannel();
+  
+  if (btn.html?.length > 0) return await showPrayersAndChildren();
 
   if (clear && !containerDiv.dataset.editingMode) {
     //If we are in the "Editing Mode" We do not clear the containerDiv at this stage 
@@ -138,63 +148,59 @@ async function showChildButtonsOrPrayers(btn: Button, clear: boolean = true) {
     };
   })();
 
-
   if (btn.afterShowPrayers)
-    await processAfterShowPrayers();
-
-  (function processBtnChildren() {
-    //!CAUTION, this must come after btn.onClick() is called because some buttons are not initiated with children, but their children are added on the fly when their onClick() method  is called
-    if (!btn.children || btn.children.length < 1) return;
-
-    sideBarBtnsContainer.innerHTML = "";
-
-    btn.children
-      .forEach((childBtn) => {
-        if (!childBtn) return;
-        //for each child button that will be created, we set btn as its parent in case we need to use this property on the button
-        if (btn !== btnGoToPreviousMenu) childBtn.parentBtn = btn;
-        //We create the html element reprsenting the childBtn and append it to btnsDiv
-        createHtmlBtn({
-          btn: childBtn,
-          btnsContainer: sideBarBtnsContainer,
-        });
-      });
-
-  })();
+    await btn.afterShowPrayers();
 
   setCSS(Array.from(container.querySelectorAll("div.Row"))); //!Important : setCSSGridTemplate() MUST be called after btn.afterShowPrayres() in order to set the CSS for all the elements that btn.afterShowPrayers() might insert
 
   applyAmplifiedText(
     Array.from(container.querySelectorAll("div.Row")) as HTMLDivElement[]
   );
+  
+  await showPrayersAndChildren();
 
-  let titles = Array.from(container.children as HTMLCollectionOf<HTMLDivElement>)
-    .filter(div => isTitlesContainer(div));
+  async function showPrayersAndChildren() {
+    if (!show)
+      return btn.html = Array.from(container.children as HTMLCollectionOf<HTMLElement>);
+    
+    if (btn.html?.length>0) btn.html.forEach(el => container.append(el));
 
-  if (titles.length > 1) showTitlesInRightSideBar(titles);//We don't show the titles if there is only 1 title
+    (function showBtnChildren() {
+      //!CAUTION, this must come after btn.onClick() is called because some buttons are not initiated with children, but their children are added on the fly when their onClick() method  is called
+      if (!btn.children || btn.children.length < 1) return;
+    
+      sideBarBtnsContainer.innerHTML = "";
+    
+      btn.children
+        .forEach((childBtn) => {
+          if (!childBtn) return;
+          //for each child button that will be created, we set btn as its parent in case we need to use this property on the button
+          if (btn !== btnGoToPreviousMenu) childBtn.parentBtn = btn;
+          //We create the html element reprsenting the childBtn and append it to btnsDiv
+          createHtmlBtn({
+            btn: childBtn,
+            btnsContainer: sideBarBtnsContainer,
+          });
+        });
 
-  appendGoBackAndGoToMainButtons(btn, sideBarBtnsContainer, btn.cssClass, btnGoToPreviousMenu, btnMainMenu);
+      appendGoBackAndGoToMainButtons(btn, sideBarBtnsContainer, btn.cssClass, btnGoToPreviousMenu, btnMainMenu);
+      
+      if (btn === btnMainMenu) addSettingsButton();
+    })();
 
-  if (btn.docFragment) containerDiv.appendChild(btn.docFragment);
-
-  if (btn === btnMainMenu) addSettingsButton();
-
-  if (localStorage.displayMode === displayModes[1])
-    await showSlidesInPresentationMode();
-
-  (function moveSettingsButtonToTheBottom() {
-    //If settingsBtn is included in the menu (which means it is the main menu), we will move it to the buttom of the menu
-    let settingsBtn: HTMLElement =
-      sideBarBtnsContainer.querySelector("#settings");
-    if (!settingsBtn) return;
-    sideBarBtnsContainer.append(settingsBtn); //If the button is already there, we move it to the bottom of the list
-  })();
-
-  async function processAfterShowPrayers() {
+    let titles = Array.from(container.children as HTMLCollectionOf<HTMLDivElement>)
+      .filter(div => isTitlesContainer(div));
+  
+    if (titles.length > 1) showTitlesInRightSideBar(titles);//We don't show the titles if there is only 1 title
+  
+    if (container !==containerDiv) containerDiv.appendChild(container);
+    
     if (localStorage.displayMode === displayModes[1])
-      return await btn.afterShowPrayers(); //!btn.afterShowPrayers() is an async function, that's why we don't call it here when in Presentation Mode because processPrayersSequence() would not have finished inserting the new elements when showPrayersInPresentationMode() is called
-    await btn.afterShowPrayers();
+      await showSlidesInPresentationMode();
+  
   };
+
+
 
   function showBtnsOnMainPage(btn: Button) {
     if (!btn.children || btn.children.length < 1) return;

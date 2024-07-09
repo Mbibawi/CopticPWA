@@ -20,6 +20,7 @@ type typeButton = {
   backGroundImage?: string; //The link for the image that will be shown in the backGround of the Button
   pursue?: boolean; //this is a boolean that will tell the showchildButtonsOrPrayers() whether to continue after calling the onClick() property of the button
   docFragment?: DocumentFragment;
+  html?: HTMLElement[];
   any?: any;
 };
 
@@ -37,6 +38,7 @@ class Button {
   private _afterShowPrayers: Function;
   private _cssClass: string;
   private _docFragment: DocumentFragment;
+  private _html: HTMLElement[];
 
 
 
@@ -52,6 +54,7 @@ class Button {
     this._onClick = btn.onClick;
     this._afterShowPrayers = btn.afterShowPrayers;
     this._docFragment = btn.docFragment;
+    this._html = btn.html;
     btn.cssClass
       ? (this._cssClass = btn.cssClass)
       : (this._cssClass = btnClass);
@@ -94,6 +97,9 @@ class Button {
   get docFragment() {
     return this._docFragment;
   }
+  get html() {
+    return this._html;
+  }
 
   //Setters
   set btnID(id) {
@@ -129,14 +135,16 @@ class Button {
   set cssClass(cssClass: string) {
     this._cssClass = cssClass;
   }
-
   set docFragment(docFragment: DocumentFragment) {
     this._docFragment = docFragment;
+  }
+  set html(html: HTMLElement[]) {
+    this._html = html;
   }
 }
 //CONSTANTS
 const version: string =
-  "v7.1.4 (Added new prayers to the Psalmody, and reduced the size of PrayersArraysFR by removing '&D=...' from some titles)";
+  "v7.1.5 (Added new prayers to the Psalmody, and reduced the size of PrayersArraysFR by removing '&D=...' from some titles)";
 const calendarDay: number = 24 * 60 * 60 * 1000; //this is a day in milliseconds
 const containerDiv: HTMLDivElement = document.getElementById(
   "containerDiv") as HTMLDivElement;

@@ -31,19 +31,19 @@ const Sequences = {
     ], //Those are the prayers of the 'Unbaptized Mass'
     StBasil: [
       Prefix.massCommon + "ReconciliationComment" + anyDay,
-      Prefix.massStBasil + "Reconciliation" + anyDay,
+      Prefix.massStBasil + "Reconciliation",
       Prefix.massCommon + "EndOfReconciliation",
       Prefix.massStBasil + "Anaphora" + anyDay,
-      Prefix.massStBasil + "Agios" + anyDay,
+      Prefix.massStBasil + "Agios",
       Prefix.massStBasil + "InstitutionNarrative" + anyDay,
       Prefix.massCommon + "AsWeAlsoCommemorateHisHolyPassionPart1" + anyDay,
     ], //The sequence of prayers of St Basil Mass (starting from Reconciliation)
     StGregory: [
       Prefix.massCommon + "ReconciliationComment" + anyDay,
-      Prefix.massStGregory + "Reconciliation" + anyDay,
+      Prefix.massStGregory + "Reconciliation",
       Prefix.massCommon + "EndOfReconciliation",
       Prefix.massStGregory + "Anaphora" + anyDay,
-      Prefix.massStGregory + "Agios" + anyDay,
+      Prefix.massStGregory + "Agios",
       Prefix.massStGregory + "AsWeCommemorateYourHolyPassionPart1" + anyDay,
       Prefix.massStGregory + "CallOfTheHolySpiritPart1",
       Prefix.massStGregory + "LitaniesIntroduction",
@@ -52,10 +52,10 @@ const Sequences = {
     ], //The sequence of prayers of St Gregory Mass (starting from reconciliation)
     StCyril: [
       Prefix.massCommon + "ReconciliationComment" + anyDay,
-      Prefix.massStCyril + "Reconciliation" + anyDay,
+      Prefix.massStCyril + "Reconciliation",
       Prefix.massCommon + "EndOfReconciliation",
       Prefix.massStCyril + "Anaphora" + anyDay,
-      Prefix.massStCyril + "Agios" + anyDay,
+      Prefix.massStCyril + "Agios",
       Prefix.massStCyril + "Part8" + anyDay,
       Prefix.massStCyril + "Part9" + anyDay,
       Prefix.massStCyril + "Part10" + anyDay,
@@ -1609,8 +1609,8 @@ const btnPsalmody = new Button({
     FR: "Psalmodie",
     EN: "Psalmody"
   },
-  onClick: () => {
-    if (btnPsalmody.children) return;
+  onClick: ():Button[] => {
+    if (btnPsalmody.children) return btnPsalmody.children;
 
     const days = [
       {
@@ -1659,6 +1659,8 @@ const btnPsalmody = new Button({
 
     checkIfInASpecificSeason(todayDate);//We reset the Season to today
 
+    return btnPsalmody.children;
+    
     function createBtn(day:number, label:typeBtnLabel):Button {
       let date:number = todayDate.getTime();
       day>weekDay?date +=  (day-weekDay) * calendarDay: date -= (weekDay-day)*calendarDay;
@@ -1698,7 +1700,6 @@ const btnPsalmody = new Button({
       }
 
     };
-
 
   },
 });
@@ -2444,17 +2445,15 @@ const btnMassStBasil = new Button({
     // btnMassStBasil.retrieved = true;
     return btnMassStBasil.prayersSequence;
   },
-  afterShowPrayers: (btn: Button = btnMassStBasil) => {
+  afterShowPrayers: (btn: Button = btnMassStBasil, prefix:string = Prefix.massStBasil) => {
     let btnDocFragment = btn.docFragment;
 
     (function insertSecondReconciliationBtn() {
       if (![btnMassStBasil, btnMassStCyril].includes(btn)) return;
-      let mass = [[btnMassStBasil, Prefix.massStBasil, MassStBasilPrayersArray], [btnMassStCyril, Prefix.massStCyril, MassStCyrilPrayersArray]]
-        .find(a => a[0] === btn) as [Button, string, string[][][]];
 
       let secondReconciliation = findTable(
-        mass[1] + "Reconciliation2" + anyDay,
-        mass[2]);
+        prefix + "Reconciliation2",
+        getTablesArrayFromTitlePrefix(prefix));
 
       if (!secondReconciliation)
         return console.log("Didn't find reconciliation");
@@ -2462,20 +2461,21 @@ const btnMassStBasil = new Button({
       let htmlBtn = addExpandablePrayer({
         insertion: selectElementsByDataSetValue(
           btnDocFragment,
-          mass[1] + "Reconciliation" + anyDay
-        )[0].nextElementSibling as HTMLDivElement, //We insert the button after the title
+          prefix + "Reconciliation"
+        )[0]?.nextElementSibling as HTMLDivElement, //We insert the button after the title
         btnID: "secondStBasilReconciliation",
         label:
         {
-          FR: secondReconciliation[0][2],
-          AR: secondReconciliation[0][4],
+          FR: secondReconciliation[0][btn.languages.indexOf('FR')+1],
+          AR: secondReconciliation[0][btn.languages.indexOf('AR')+1],
+          EN: secondReconciliation[0][btn.languages.indexOf('EN')+1],
         },
         prayers: [secondReconciliation],
         languages: btn.languages,
       })[0];
       htmlBtn.addEventListener("click", () => {
         let dataGroup =
-          mass[1] + "Reconciliation" + anyDay;
+          prefix + "Reconciliation";
         selectElementsByDataSetValue(containerDiv, dataGroup, undefined, 'group')
           .forEach((row) => row.classList.toggle(hidden));
       });
@@ -2495,8 +2495,8 @@ const btnMassStBasil = new Button({
       //Adding 2 buttons to redirect the other masses at the begining of the Reconciliation
       select = selectElementsByDataSetValue(
         btnDocFragment,
-        "Reconciliation" + anyDay,
-        { includes: true }
+        prefix + "Reconciliation",
+        { endsWith: true }
       );
       redirectToAnotherMass(
         [...redirectToList],
@@ -2526,7 +2526,7 @@ const btnMassStBasil = new Button({
       //Adding 2 buttons to redirect to the other masses before Agios
       select = selectElementsByDataSetValue(
         btnDocFragment,
-        [[btnMassStBasil, Prefix.massStBasil], [btnMassStGregory, Prefix.massStGregory], [btnMassStCyril, Prefix.massStCyril]].find(a => a[0] === btn)[1] + "Agios" + anyDay,
+        prefix + "Agios",
       );
 
       redirectToAnotherMass(
@@ -2542,7 +2542,7 @@ const btnMassStBasil = new Button({
       select = selectElementsByDataSetValue(
         btnDocFragment,
         Prefix.massCommon +
-        "AssemblyResponseAmenAmenAmenWeProclaimYourDeath" + anyDay,
+        "Amen3WeProclaimYourDeath",
       );
       redirectToAnotherMass(
         [...redirectToList],
@@ -2557,7 +2557,7 @@ const btnMassStBasil = new Button({
       select = selectElementsByDataSetValue(
         btnDocFragment,
         "FractionIntroduction",
-        { includes: true }
+        { endsWith: true }
       );
       redirectToAnotherMass(
         [...redirectToList],
@@ -2838,7 +2838,7 @@ const btnMassStCyril = new Button({
 
     return btnMassStCyril.prayersSequence;
   },
-  afterShowPrayers: async () => btnMassStBasil.afterShowPrayers(btnMassStCyril),
+  afterShowPrayers: async () => btnMassStBasil.afterShowPrayers(btnMassStCyril, Prefix.massStCyril),
 });
 
 const btnMassStGregory = new Button({
@@ -2866,7 +2866,7 @@ const btnMassStGregory = new Button({
 
     return btnMassStGregory.prayersSequence;
   },
-  afterShowPrayers: async () => btnMassStBasil.afterShowPrayers(btnMassStGregory),
+  afterShowPrayers: async () => btnMassStBasil.afterShowPrayers(btnMassStGregory, Prefix.massStGregory),
 });
 
 const btnMassStJohn = new Button({
