@@ -499,7 +499,7 @@ ReadingsArrays.GospelMorningArrayFR = [[
     Prefix.gospelMorning + "Psalm&D=2403&C=Title",
   ],
   [
-    Prefix.readingRef + "138:1-2:",
+    Prefix.readingRef + "138:1-2",
   ],
 ],
 [
@@ -2651,7 +2651,7 @@ ReadingsArrays.GospelMorningArrayFR = [[
     Prefix.gospelMorning + "Psalm&D=PNT18&C=Title",
   ],
   [
-    Prefix.readingRef + "PSA:",
+    Prefix.readingRef + "PSA:101:8-8",
   ],
 ],
 [
