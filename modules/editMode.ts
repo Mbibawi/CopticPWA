@@ -1393,11 +1393,10 @@ async function convertCopticFont(args: {
   if (!args.fontFrom) return;
 
   if (args.tableTitle) {
-    let table: string[][] = findTable(args.tableTitle, getTablesArrayFromTitlePrefix(args.tableTitle)) || undefined;
-    if (!table) return;
+    let table: string[][] =  getTablesArrayFromTitlePrefix(args.tableTitle).find(tbl=>new RegExp(args.tableTitle).test(tbl[0][0]));
+    if (!table) return alert('No table with the provided title was found');
     let langs = getLanguages(args.tableTitle);
     if (!langs || !langs.includes('COP')) return;
-    debugger
     for (let row of table) {
       row[langs.indexOf('COP') +1] = await convert(row[langs.indexOf('COP')+1])
     }
