@@ -1394,7 +1394,7 @@ async function convertCopticFont(args: {
 
   if (args.tableTitle) {
     let table: string[][] =  getTablesArrayFromTitlePrefix(args.tableTitle).find(tbl=>new RegExp(args.tableTitle).test(tbl[0][0]));
-    if (!table) return alert('No table with the provided title was found');
+    if (!table) return alert('No table with the provided title was found. Be careful, the name of the table is assessed as a Regular Expression. You may need to escape some letters');
     let langs = getLanguages(args.tableTitle);
     if (!langs || !langs.includes('COP')) return;
     for (let row of table) {
