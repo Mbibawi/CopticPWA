@@ -1374,7 +1374,7 @@ function getHtmlRow(htmlParag: HTMLElement): HTMLDivElement | undefined | void {
 /**
  * Converts the coptic font of the text in the selected html element, to a unicode font
  * @param {HTMLElement} htmlParag - an editable html element in which the cursor is placed, containing coptic text in a non unicode font, that we need to convert
- * @param {string} tableTitle - if provided, the function will find the table with the title and will convert all the coptic text in this table
+ * @param {string} tableTitle - if provided, the function will find the table with the title and will convert all the coptic text in this table. The string is parsed as a Regular Expression
  * @param {string} text - if provided, the function will convert the text
  * @param {string} fontFrom - The name of the font from which we will convert. If not provided, the user will be prompted to choose or to provide any other font name
  **/
@@ -1397,9 +1397,14 @@ async function convertCopticFont(args: {
     if (!table) return alert('No table with the provided title was found. Be careful, the name of the table is assessed as a Regular Expression. You may need to escape some letters');
     let langs = getLanguages(args.tableTitle);
     if (!langs || !langs.includes('COP')) return;
+    let prefix:[string, string];
     for (let row of table) {
-      row[langs.indexOf('COP') +1] = await convert(row[langs.indexOf('COP')+1])
+      row[langs.indexOf('COP') + 1] = await convert(row[langs.indexOf('COP') + 1]);
+      prefix = Object.entries(Prefix).find(entry => row[0].startsWith(entry[1]));
+      if (!prefix) continue;
+      row[0] = row[0].replace(prefix[1], "Prefix." + prefix[0] + '+ "');
     }
+  
     return table
   }
   else if (args.text) return await convert(args.text);
