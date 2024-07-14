@@ -299,7 +299,7 @@ ReadingsArrays.PraxisArrayFR = [[
         Prefix.praxis + "&D=0105&C=Title",
     ],
     [
-        Prefix.readingRef + "ACT:6:1-15/7:1-2",
+        Prefix.readingRef + "ACT:6:1-End/7:1-2",
     ],
 ],
 [

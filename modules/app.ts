@@ -151,18 +151,20 @@ async function showChildButtonsOrPrayers(btn: Button, clear: boolean = true, sho
   if (btn.afterShowPrayers)
     await btn.afterShowPrayers();
 
-  setCSS(Array.from(container.querySelectorAll("div.Row"))); //!Important : setCSSGridTemplate() MUST be called after btn.afterShowPrayres() in order to set the CSS for all the elements that btn.afterShowPrayers() might insert
+  (function formatContainerCSS() {
+    let children = Array.from(container.querySelectorAll("div.Row")) as HTMLDivElement[];
 
-  applyAmplifiedText(
-    Array.from(container.querySelectorAll("div.Row")) as HTMLDivElement[]
-  );
+    setCSS(children); //!Important : setCSSGridTemplate() MUST be called after btn.afterShowPrayres() in order to set the CSS for all the elements that btn.afterShowPrayers() might insert
+    applyAmplifiedText(children);
+  })();
   
   await showPrayersAndChildren();
+
 
   async function showPrayersAndChildren() {
     if (!show)
       return btn.html = Array.from(container.children as HTMLCollectionOf<HTMLElement>);
-    
+
     if (btn.html?.length>0) btn.html.forEach(el => container.append(el));
 
     (function showBtnChildren() {
@@ -199,7 +201,6 @@ async function showChildButtonsOrPrayers(btn: Button, clear: boolean = true, sho
       await showSlidesInPresentationMode();
   
   };
-
 
 
   function showBtnsOnMainPage(btn: Button) {
@@ -1348,10 +1349,8 @@ function showPrayers(args: {
   | DocumentFragment;
 }): HTMLDivElement[] {
 
-  if (!args.prayersSequence && !args.table) {
-    console.log("You must provide either a prayersSequence, or a table. None of those arguments is provided");
-    return [];
-  }
+  if (!args.prayersSequence && !args.table) return;
+  
 
   let showActors = JSON.parse(localStorage.showActors);
 
@@ -1372,17 +1371,19 @@ function showPrayers(args: {
   (function retrievePrayersTables() {
     if (args.table) return tables.push(args.table);//If a table is already passed as argument, we will add this table to tables[]. Otherwise, we will retrieve the tables from args.prayersSequence;
     if (!args.prayersSequence) return console.log("The prayersSequences is missing, we cannot retrieve the tables");
-    args.prayersSequence
-      .forEach((tableTitle) => {
-        if (!tableTitle) return console.log("No tableTitle");
 
-        tables.push(
+      args.prayersSequence.map(async tableTitle =>{
+        if (!tableTitle) return console.log("No tableTitle");
+        if (tableTitle.startsWith(Prefix.readingRef))
+           tables.push(await retrieveReadingTableFromBible([[tableTitle]], [defaultLanguage, foreingLanguage]));
+        else tables.push(
           findTable(
             tableTitle,
             getTablesArrayFromTitlePrefix(tableTitle)
           ) as string[][]
         );
-      });
+    });
+    
   })();
 
   return processTables();

@@ -327,11 +327,15 @@ function checkForUnfixedEvent(
 
   (function ifPentecostalPeriod() {
     if (difference >= 0) return;
-    if (Math.abs(difference) > 49) return;
+    if (Math.abs(difference) >49) return;
     // we are during the 50 Pentecostal days
-    Season = Seasons.PentecostalDays;
-    if (Math.abs(difference) > 38)
+    
+    if (Math.abs(difference) === 49)
+      Season = Seasons.NoSeason;
+    else if (Math.abs(difference) > 38)
       Season = Seasons.Ascension;
+    else Season = Seasons.PentecostalDays;
+
     date = isItSundayOrWeekDay(
       Seasons.PentecostalDays,
       Math.abs(difference),

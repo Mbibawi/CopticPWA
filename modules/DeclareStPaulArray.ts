@@ -347,7 +347,7 @@ ReadingsArrays.StPaulArrayFR = [[
         Prefix.stPaul + "&D=0105&C=Title",
     ],
     [
-        Prefix.readingRef + "2COR:11:16-End/12:1-12",
+        Prefix.readingRef + "2CO:11:16-End/12:1-12",
     ],
 ],
 [

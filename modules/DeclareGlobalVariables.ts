@@ -144,17 +144,17 @@ class Button {
 }
 //CONSTANTS
 const version: string =
-  "v7.1.6 (Added new prayers to the Psalmody, and reduced the size of PrayersArraysFR by removing '&D=...' from some titles)";
+  "v7.1.7 (Added new prayers to the Psalmody, and reduced the size of PrayersArraysFR by removing '&D=...' from some titles)";
 const calendarDay: number = 24 * 60 * 60 * 1000; //this is a day in milliseconds
 const containerDiv: HTMLDivElement = document.getElementById(
   "containerDiv") as HTMLDivElement;
-  const leftSideBar = document.getElementById("leftSideBar") as HTMLDivElement;
-  const sideBarBtnsContainer: HTMLDivElement =
+const leftSideBar = document.getElementById("leftSideBar") as HTMLDivElement;
+const sideBarBtnsContainer: HTMLDivElement =
   leftSideBar.querySelector("#sideBarBtns");
-  const rightSideBar = document.getElementById("rightSideBar") as HTMLDivElement;
-  const sideBarTitlesContainer: HTMLDivElement =
+const rightSideBar = document.getElementById("rightSideBar") as HTMLDivElement;
+const sideBarTitlesContainer: HTMLDivElement =
   rightSideBar.querySelector("#sideBarBtns");
-  const expandableBtnsPannel: HTMLElement = document.getElementById("inlineBtnsContainer");
+const expandableBtnsPannel: HTMLElement = document.getElementById("inlineBtnsContainer");
 
 const copticMonths: { AR: string; FR: string; EN: string }[] = [
   {
@@ -236,6 +236,7 @@ const Prefix = {
   psalmResponse: "PR_",
   gospelResponse: "GR_",
   praxisResponse: "PRR_",
+  catholiconResponse: "CR_",
   massCommon: "MC_",
   commonPrayer: "PC_",
   incenseDawn: "ID_",
@@ -264,7 +265,7 @@ const Prefix = {
   placeHolder: "PlaceHolder_",
   psalmody: "Psalmody_",
   prayersArray: 'PrayersArray_',
-  readingRef: 'RRef_'
+  readingRef: 'RRef_',
 };
 
 const anyDay = '&D=$copticFeasts.AnyDay',
@@ -455,11 +456,11 @@ var userLanguages;
 if (localStorage.userLanguages)
   userLanguages = JSON.parse(localStorage.userLanguages) || undefined;
 
-var defaultLanguage:string = (() => { if (userLanguages) return userLanguages[0] })() || undefined;;
+var defaultLanguage: string = (() => { if (userLanguages) return userLanguages[0] })() || undefined;;
 
-var foreingLanguage:string = (() => { if (userLanguages) return userLanguages[1] })() || undefined;;
+var foreingLanguage: string = (() => { if (userLanguages) return userLanguages[1] })() || undefined;;
 
-var copticLanguage:string = (() => { if (userLanguages) return userLanguages[2] })() || undefined;;
+var copticLanguage: string = (() => { if (userLanguages) return userLanguages[2] })() || undefined;;
 
 const seasonal = {
   giaki: { AR: '', FR: '', EN: '', COP: '', CA: '' }
@@ -481,47 +482,49 @@ var lastScrollTop: number = 0;
 
 const displayModes = ["Normal", "Presentation", "Priest"];
 
-const CommonPrayersArray: string[][][] = []; //an array in which we will group all the common prayers of all the liturgies. It is a subset o PrayersArray
-const MassCommonPrayersArray: string[][][] = []; //an array in which we will save the commons prayers specific to the mass (like the Assembly, Espasmos, etc.)
-const MassStBasilPrayersArray: string[][][] = [],
-  MassStGregoryPrayersArray: string[][][] = [],
-  MassStCyrilPrayersArray: string[][][] = [],
-  MassStJohnPrayersArray: string[][][] = [],
-  FractionsPrayersArray: string[][][] = [],
-  DoxologiesPrayersArray: string[][][] = [],
-  IncensePrayersArray: string[][][] = [],
-  CommunionPrayersArray: string[][][] = [],
-  PsalmAndGospelPrayersArray: string[][][] = [],
-  CymbalVersesPrayersArray: string[][][] = [],
-  PraxisResponsesPrayersArray: string[][][] = [],
-  BookOfHoursPrayersArray: string[][][] = [],
-  HolyWeekPrayersArray: string[][][] = [],
-  PsalmodyPrayersArray: string[][][] = [];
+const CommonArray: string[][][] = []; //an array in which we will group all the common prayers of all the liturgies. It is a subset o PrayersArray
+const MassCommonArray: string[][][] = []; //an array in which we will save the commons prayers specific to the mass (like the Assembly, Espasmos, etc.)
+const MassStBasilArray: string[][][] = [],
+  MassStGregoryArray: string[][][] = [],
+  MassStCyrilArray: string[][][] = [],
+  MassStJohnArray: string[][][] = [],
+  FractionsArray: string[][][] = [],
+  DoxologiesArray: string[][][] = [],
+  IncenseArray: string[][][] = [],
+  CommunionArray: string[][][] = [],
+  PsalmAndGospelArray: string[][][] = [],
+  CymbalVersesArray: string[][][] = [],
+  PraxisResponsesArray: string[][][] = [],
+  CatholiconResponsesArray: string[][][] = [],
+  BookOfHoursArray: string[][][] = [],
+  HolyWeekArray: string[][][] = [],
+  PsalmodyArray: string[][][] = [];
 
 const PrayersArrays = [
-  CommonPrayersArray,
-  MassCommonPrayersArray,
-  MassStBasilPrayersArray,
-  MassStGregoryPrayersArray,
-  MassStCyrilPrayersArray,
-  MassStJohnPrayersArray,
-  FractionsPrayersArray,
-  DoxologiesPrayersArray,
-  IncensePrayersArray,
-  CommunionPrayersArray,
-  PsalmAndGospelPrayersArray,
-  CymbalVersesPrayersArray,
-  PraxisResponsesPrayersArray,
-  BookOfHoursPrayersArray,
-  HolyWeekPrayersArray,
-  PsalmodyPrayersArray,
+  CommonArray,
+  MassCommonArray,
+  MassStBasilArray,
+  MassStGregoryArray,
+  MassStCyrilArray,
+  MassStJohnArray,
+  FractionsArray,
+  DoxologiesArray,
+  IncenseArray,
+  CommunionArray,
+  PsalmAndGospelArray,
+  CymbalVersesArray,
+  PraxisResponsesArray,
+  CatholiconResponsesArray,
+  BookOfHoursArray,
+  HolyWeekArray,
+  PsalmodyArray,
 ];
 
 
 const textAmplified = [];
 //VARS
 
-type Actor = {Show:boolean, EN: string; FR?: string; AR?: string };
+type Actor = { Show: boolean, EN: string; FR?: string; AR?: string };
 
 const actors: Actor[] = [
   {
@@ -537,31 +540,31 @@ const actors: Actor[] = [
     AR: "الشماس",
   },
   {
-    Show:true,
+    Show: true,
     EN: "Assembly",
     FR: "Assemblée",
     AR: "الشعب",
   },
   {
-    Show:false,
+    Show: false,
     EN: "Comments",
     FR: "Commentaires",
     AR: "تعليقات",
   },
   {
-    Show:false,
+    Show: false,
     EN: "CommentText",
   },
   {
-    Show:true,
+    Show: true,
     EN: "NoActor",
   },
 ]; //These are the names of the classes given to each row accordin to which we give a specific background color to the div element in order to show who tells the prayer
 if (!localStorage.showActors)
   localStorage.showActors = JSON.stringify(actors);
-else if (JSON.parse(localStorage.showActors)[0][1] !==undefined)
+else if (JSON.parse(localStorage.showActors)[0][1] !== undefined)
   localStorage.showActors = JSON.stringify(JSON.parse(localStorage.showActors)
-    .map((actor:Actor) => {
+    .map((actor: Actor) => {
       actor[0].Show = actor[1];
       return actor[0]
     }));
@@ -579,74 +582,79 @@ const PrayersArraysKeys: [string, string, () => string[][][]][] = [
   //!Caution: we needed to make the last element a function that returns the array instead of referrecing the array itself, because when the DeclareGlobalVariables.js file is loaded, the ReadingsPrayersArrays are still empty since the readings texts files are not loaded yet
   [
     Prefix.praxisResponse,
-    "PraxisResponsesPrayersArray",
-    (): string[][][] => PraxisResponsesPrayersArray,
+    "PraxisResponsesArray",
+    (): string[][][] => PraxisResponsesArray,
+  ],
+  [
+    Prefix.catholiconResponse,
+    "CatholiconResponsesArray",
+    (): string[][][] => CatholiconResponsesArray,
   ],
   [
     Prefix.psalmResponse,
-    "PsalmAndGospelPrayersArray",
-    (): string[][][] => PsalmAndGospelPrayersArray,
+    "PsalmAndGospelArray",
+    (): string[][][] => PsalmAndGospelArray,
   ],
   [
     Prefix.gospelResponse,
-    "PsalmAndGospelPrayersArray",
-    (): string[][][] => PsalmAndGospelPrayersArray,
+    "PsalmAndGospelArray",
+    (): string[][][] => PsalmAndGospelArray,
   ],
   [Prefix.massCommon,
-    "MassCommonPrayersArray",
-  (): string[][][] => MassCommonPrayersArray],
+    "MassCommonArray",
+  (): string[][][] => MassCommonArray],
   [Prefix.commonPrayer,
-    "CommonPrayersArray",
-  (): string[][][] => CommonPrayersArray],
+    "CommonArray",
+  (): string[][][] => CommonArray],
   [
     Prefix.massStBasil,
-    "MassStBasilPrayersArray",
-    (): string[][][] => MassStBasilPrayersArray,
+    "MassStBasilArray",
+    (): string[][][] => MassStBasilArray,
   ],
   [
     Prefix.massStCyril,
-    "MassStCyrilPrayersArray",
-    (): string[][][] => MassStCyrilPrayersArray,
+    "MassStCyrilArray",
+    (): string[][][] => MassStCyrilArray,
   ],
   [
     Prefix.massStGregory,
-    "MassStGregoryPrayersArray",
-    (): string[][][] => MassStGregoryPrayersArray,
+    "MassStGregoryArray",
+    (): string[][][] => MassStGregoryArray,
   ],
   [Prefix.massStJohn,
-    "MassStJohnPrayersArray",
-  (): string[][][] => MassStJohnPrayersArray],
+    "MassStJohnArray",
+  (): string[][][] => MassStJohnArray],
   [Prefix.doxologies,
-    "DoxologiesPrayersArray",
-  (): string[][][] => DoxologiesPrayersArray],
+    "DoxologiesArray",
+  (): string[][][] => DoxologiesArray],
   [Prefix.communion,
-    "CommunionPrayersArray",
-  (): string[][][] => CommunionPrayersArray],
+    "CommunionArray",
+  (): string[][][] => CommunionArray],
   [Prefix.fractionPrayer,
-    "FractionsPrayersArray",
-  (): string[][][] => FractionsPrayersArray],
+    "FractionsArray",
+  (): string[][][] => FractionsArray],
   [
     Prefix.cymbalVerses,
-    "CymbalVersesPrayersArray",
-    (): string[][][] => CymbalVersesPrayersArray,
+    "CymbalVersesArray",
+    (): string[][][] => CymbalVersesArray,
   ],
   [
     Prefix.bookOfHours,
-    "BookOfHoursPrayersArray",
-    (): string[][][] => BookOfHoursPrayersArray,
+    "BookOfHoursArray",
+    (): string[][][] => BookOfHoursArray,
   ],
   [Prefix.HolyWeek,
-    "HolyWeekPrayersArray",
-  (): string[][][] => HolyWeekPrayersArray],
+    "HolyWeekArray",
+  (): string[][][] => HolyWeekArray],
   [Prefix.incenseDawn,
-    "IncensePrayersArray",
-  (): string[][][] => IncensePrayersArray],
+    "IncenseArray",
+  (): string[][][] => IncenseArray],
   [Prefix.incenseVespers,
-    "IncensePrayersArray",
-  (): string[][][] => IncensePrayersArray],
+    "IncenseArray",
+  (): string[][][] => IncenseArray],
   [Prefix.commonIncense,
-    "IncensePrayersArray",
-  (): string[][][] => IncensePrayersArray],
+    "IncenseArray",
+  (): string[][][] => IncenseArray],
   [
     Prefix.gospelMass,
     "ReadingsArrays.GospelMassArrayFR",
@@ -693,8 +701,8 @@ const PrayersArraysKeys: [string, string, () => string[][][]][] = [
     (): string[][][] => ReadingsArrays.PropheciesDawnArrayFR,
   ],
   [Prefix.psalmody,
-    "PsalmodyPrayersArray",
-  (): string[][][] => PsalmodyPrayersArray],
+    "PsalmodyArray",
+  (): string[][][] => PsalmodyArray],
   [Prefix.prayersArray,
     'PrayersArrayFR',
   (): string[][][] => PrayersArrayFR],
