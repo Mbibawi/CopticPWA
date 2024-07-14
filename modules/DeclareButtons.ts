@@ -1288,9 +1288,9 @@ const btnMassUnBaptised = new Button({
 
         function getSequence(): string[] {
           let Agios: string = "Agios",
-            Kyrielison41Times: string = "Kyrielison41Times",
-            KyrielisonIntro: string = Kyrielison41Times + "NoMassIntro",
-            KyrielisonMassIntro: string = Kyrielison41Times + "MassIntro",
+            Kyrielison41: string = "Kyrielison41",
+            KyrielisonNoMass: string = Kyrielison41 + "NoMassIntro",
+            KyrielisonMass: string = Kyrielison41 + "MassIntro",
             HolyLordOfSabaot: string = "HolyLordOfSabaot",
             HailMaria: string = "WeSaluteYouMary",
             WeExaltYou: string = "WeExaltYouStMary",
@@ -1302,8 +1302,7 @@ const btnMassUnBaptised = new Button({
             return [
               WeExaltYou,
               Creed,
-              KyrielisonMassIntro,
-              Kyrielison41Times,
+              KyrielisonMass,
               HolyLordOfSabaot,
               OurFather,
             ];
@@ -1313,15 +1312,13 @@ const btnMassUnBaptised = new Button({
           } else {
             //Any other hour before the 2 last
             return [
-              KyrielisonIntro,
-              Kyrielison41Times,
+              KyrielisonNoMass,
               HolyLordOfSabaot,
               OurFather,
             ];
           }
 
         }
-
       }
     };
 
@@ -1519,9 +1516,7 @@ const btnBookOfHours = new Button({
         Prefix.commonPrayer + "WeExaltYouStMary",
       Agios: string =
         Prefix.commonPrayer + "Agios",
-      Kyrielison41Times: string =
-        Prefix.commonPrayer + "Kyrielison41Times",
-      KyrielisonIntro: string = Kyrielison41Times + "NoMassIntro",
+      KyrielisonIntro: string =  "Kyrielison41NoMassIntro",
       HolyLordOfSabaot: string =
         Prefix.commonPrayer + "HolyLordOfSabaot",
       Creed: string = Prefix.commonPrayer + "Creed",
@@ -1656,7 +1651,6 @@ const btnBookOfHours = new Button({
                 WeExaltYou,
                 Creed,
                 KyrielisonIntro,
-                Kyrielison41Times,
                 HolyLordOfSabaot,
                 OurFatherWhoArtInHeaven,
                 Prefix.bookOfHours + hourName + "End",
@@ -1677,7 +1671,7 @@ const btnBookOfHours = new Button({
               endOfHourPrayersSequence.splice(
                 0,
                 5,
-                Kyrielison41Times,
+                KyrielisonIntro,
                 HolyLordOfSabaot,
                 OurFatherWhoArtInHeaven,
                 Prefix.bookOfHours + hourName + "2ndGospel"
@@ -1699,7 +1693,6 @@ const btnBookOfHours = new Button({
               //If its is not the 1st Hour (Dawn) or the 12th Hour (Night), we insert only Kyrielison 41 times, and "Holy Lord of Sabaot" and "Our Father Who Art In Heavean"
               btn.prayersSequence.push(
                 KyrielisonIntro,
-                Kyrielison41Times,
                 HolyLordOfSabaot,
                 OurFatherWhoArtInHeaven
               );

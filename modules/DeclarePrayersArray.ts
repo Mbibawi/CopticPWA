@@ -4314,25 +4314,41 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.commonPrayer + "Kyrielison41TimesMassIntro&C=Priest",
+    Prefix.commonPrayer + "Kyrielison41MassIntro&C=SubTitle",
+    "",
+    "Pitié Seigneur 41 fois",
+    "",
+    "كرياليسون 41 مرة",
+  ],
+  [
+    Prefix.same + "&C=Priest",
     "",
     "Agneau de Dieu qui porte les péchés, du monde, nous T'implorons écoute nous et aie pitié de nous",
     "",
     "نسألَكَ يا حمل اللّه يا حامل خطية العَالَم اسمعنا وارْحَمْنَا واغْفِرْ لَنَا خَطَايَانَا آمْينْ.",
   ],
+  [Prefix.placeHolder, Prefix.commonPrayer + "Kyrielison41"]
 ],
 [
   [
-    Prefix.commonPrayer + "Kyrielison41TimesNoMassIntro&C=Priest",
+    Prefix.commonPrayer + "Kyrielison41NoMassIntro&C=SubTitle",
+    "",
+    "Pitié Seigneur 41 fois",
+    "",
+    "كرياليسون 41 مرة",
+  ],
+  [
+    Prefix.same + "&C=Priest",
     "",
     "Agneau de Dieu qui porte les péchés, du monde, nous T'implorons écoute nous et aie pitié de nous",
     "",
     "نسألَكَ يا رَبُّ اسمعنا وارْحَمْنَا واغْفِرْ لَنَا خَطَايَانَا آمْينْ.",
   ],
+  [Prefix.placeHolder, Prefix.commonPrayer + "Kyrielison41"]
 ],
 [
   [
-    Prefix.commonPrayer + "Kyrielison41Times&C=Assembly",
+    Prefix.commonPrayer + "Kyrielison41&C=Assembly",
     "Ⲕⲩⲣⲓⲉ̀ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ: Ⲕⲩⲣⲓⲉ̀ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ: Ⲕⲩⲣⲓⲉ̀ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ:",
     "Pitié Seigneur. 41 fois",
     "كيريالَيسون (41)",
@@ -17656,7 +17672,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -17810,7 +17826,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -17851,7 +17867,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -17906,7 +17922,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -17947,7 +17963,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -17995,7 +18011,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -18036,7 +18052,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -18077,7 +18093,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -18132,7 +18148,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -18173,7 +18189,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -18214,7 +18230,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -18283,7 +18299,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -18324,7 +18340,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -18428,9 +18444,57 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
+[
+  [
+  Prefix.bookOfHours+"Psalm25&C=SubTitle", 
+  "", 
+  "Psaume 25", 
+  "", 
+  "المَزْمُورْ الخامس والعشرين\n(احْكُمْ لي يا رَبُّ فإني بِدِعَتِي سَلَكْتُ)", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "", 
+  "Seigneur, rends-moi justice : j'ai marché sans faillir. Je m'appuie sur le Seigneur, et ne faiblirai pas. ", 
+  "", 
+  "احْكُمْ لي يا رَبُّ فإني بِدِعَتِي سَلَكْتُ، وعَلى الرَبُّ تَوَكَّلْتُ فَلا أَضْعُفُ.", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "", 
+  "Éprouve-moi, Seigneur, scrute-moi, passe au feu mes reins et mon cœur. J'ai devant les yeux ton amour, je marche selon ta vérité. Je ne m'assieds pas chez l'imposteur, je n'entre pas chez l'hypocrite. L'assemblée des méchants, je la hais, je ne m'assieds pas chez les impies.", 
+  "", 
+  "اخْتَبِرْنِي يَا رَبُّ وجَرِّبَنِي، نَقِّ قَلْبِي وكِلْيَتَيَّ. لأِنَّ رَحْمَتَكَ أَمَامَ عَيْنِي، وقَدْ ارْتَضَيْتُ بِحَقِّكَ. لَمْ أَجْلِسُ مَعَ مَحْفَلٍ بَاطِلٍ، ومَعَ مُخَالِفِي النَامُوسِ لَمْ أَدْخُلُ. أَبْغَضْتُ مَجْمَعَ الأَشْرَارِ، ومَعَ المُنَافِقِينَ لَمْ أَجْلِسُ.", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "", 
+  "Je lave mes mains en signe d'innocence pour approcher de ton autel, Seigneur, pour dire à pleine voix l'action de grâce et rappeler toutes tes merveilles.", 
+  "", 
+  "أَغْسِلُ يَدَيَّ بِالنَقَاوَةِ، وأَطُوفُ بِمَذْبَحِكَ يَا رَبُّ. لِأَسَمَعَ صَوْتُ تَسْبِيحِكَ، وأَنْطِقُ بِجَمِيعِ عَجَائِبِكَ.", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "", 
+  "Seigneur, j'aime la maison que tu habites, le lieu où demeure ta gloire. Ne m'inflige pas le sort des pécheurs, le destin de ceux qui versent le sang : ils ont dans les mains la corruption ; leur droite est pleine de profits.", 
+  "", 
+  "يَا رَبُّ أَحْبَبْتُ جَمَالَ بَيتِكَ، ومَوضِعُ مَسْكَنِ مَجْدِكَ. فَلَا تُهْلِكُ مَعَ المُنَافِقَينَ نَفْسِي، ولا مَعَ رِجَالِ الدِمَاءْ حَيَاتِي. الّذِينَ فِي أَيْدِيهِمْ الإِثْمِ، ويَمِينِهِمْ امْتَلَأَتْ رِشْوَة.", 
+  ],
+  [
+  Prefix.same+"&C=NoActor", 
+  "", 
+  "Oui, j'ai marché sans faillir : libère-moi ! prends pitié de moi ! Sous mes pieds le terrain est sûr ; dans l'assemblée je bénirai le Seigneur.", 
+  "", 
+  "أَمَا أَنَا فَبِدِعَتِي سَلَكْتُ. أَنْقِذَنِي وارْحَمَنِي لِأَنَّ رِجْلِي وَقَفَتْ فِي الاسْتِقَامَةِ. فِي الجَمَاعَاتِ أُبَارِكُكَ يَا رَبُّ", 
+  ],
+  [
+  Prefix.placeHolder, 
+  Prefix.bookOfHours+"Alleluia", 
+  ],
+  ],
 [
   [
     Prefix.bookOfHours + "Psalm26&C=SubTitle",
@@ -18525,7 +18589,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -18587,7 +18651,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -18852,12 +18916,12 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
   [
-    Prefix.bookOfHours + "PsalmEnd&C=NoActor",
+    Prefix.bookOfHours + "Alleluia&C=NoActor",
     "",
     "Alléluia !",
     "",
@@ -18895,7 +18959,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -18957,7 +19021,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -19005,7 +19069,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -19046,7 +19110,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -19101,7 +19165,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -19163,7 +19227,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -19225,7 +19289,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -19266,7 +19330,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -19335,7 +19399,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -19383,7 +19447,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -19417,7 +19481,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -19618,7 +19682,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -19673,7 +19737,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -19707,7 +19771,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -19741,7 +19805,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -19782,7 +19846,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -19816,7 +19880,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -19857,7 +19921,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -19898,7 +19962,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -19939,7 +20003,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -19966,7 +20030,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -19993,7 +20057,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -20027,7 +20091,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -20331,7 +20395,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -20407,7 +20471,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -20462,7 +20526,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -20531,7 +20595,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -20572,7 +20636,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -20613,7 +20677,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -20668,7 +20732,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -20737,7 +20801,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -20792,7 +20856,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -20840,7 +20904,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -20895,7 +20959,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -20943,7 +21007,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -21156,7 +21220,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -21274,7 +21338,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -21322,7 +21386,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -21363,7 +21427,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -21411,7 +21475,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -21445,7 +21509,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -21479,7 +21543,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -21513,7 +21577,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -21540,7 +21604,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -21574,7 +21638,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -21601,7 +21665,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -21642,7 +21706,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -21822,7 +21886,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -21849,7 +21913,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -21897,7 +21961,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -21931,7 +21995,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -21958,7 +22022,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -21999,7 +22063,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -22047,7 +22111,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -22095,7 +22159,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -22129,7 +22193,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -22177,7 +22241,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -22232,7 +22296,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -22273,7 +22337,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -22655,7 +22719,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [
@@ -38842,7 +38906,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "PsalmEnd",
+    Prefix.bookOfHours + "Alleluia",
   ],
 ],
 [

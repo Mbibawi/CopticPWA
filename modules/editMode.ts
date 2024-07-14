@@ -263,7 +263,7 @@ function addEdintingButtons() {
 
   createEditingButton(
     () => saveModifiedArray({ exportToFile: true, exportToStorage: true }),
-    "to JS file",
+    "Export to JS file",
     btnsDiv
   );
 

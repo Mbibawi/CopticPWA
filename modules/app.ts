@@ -1371,7 +1371,6 @@ function showPrayers(args: {
   (function retrievePrayersTables() {
     if (args.table) return tables.push(args.table);//If a table is already passed as argument, we will add this table to tables[]. Otherwise, we will retrieve the tables from args.prayersSequence;
     if (!args.prayersSequence) return console.log("The prayersSequences is missing, we cannot retrieve the tables");
-
       args.prayersSequence.map(async tableTitle =>{
         if (!tableTitle) return console.log("No tableTitle");
         if (tableTitle.startsWith(Prefix.readingRef))
@@ -2633,8 +2632,6 @@ function compareArrays(sourceArray: string[][][], editedArray: string[][][]) {
     );
   }
 }
-
-
 
 function populatePrayersArrays() {
   //We are populating subset arrays of PrayersArray in order to speed up the parsing of the prayers when the button is clicked
