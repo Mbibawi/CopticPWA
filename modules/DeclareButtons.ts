@@ -91,7 +91,6 @@ const Sequences = {
       Prefix.psalmody + "MarenOosht",
 
       //Prefix.psalmody + "PsalyOnHos1",
-
       Prefix.psalmody + "Hos1",
 
       Prefix.psalmody + "LobshHos1",
@@ -1659,7 +1658,7 @@ const btnBookOfHours = new Button({
               ];
 
             if (btnLable === bookOfHours.MidNight1Hour[1])
-              HourIntro.push(Prefix.bookOfHours + "WakeUpSonsOfLight"); //We add the 'Wake Up Sons of Light' for the 1st Service of Midnight
+              HourIntro.push(Prefix.psalmody + "WakeUpSonsOfLight"); //We add the 'Wake Up Sons of Light' for the 1st Service of Midnight
 
             if (btnLable === bookOfHours.TwelvethHour[1])
               endOfHourPrayersSequence.splice(0, 1); //If it is the 12th (Night) Hour, we remove the Angels Prayer from endOfHourPrayersSequence

@@ -22578,7 +22578,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.bookOfHours + "WakeUpSonsOfLight&C=Title",
+    Prefix.psalmody + "WakeUpSonsOfLight&C=Title",
     "Ⲧⲉⲛⲑⲏⲛⲟⲩ",
     "Levons-nous, fils de lumière",
     "تين ثينو",
@@ -22587,7 +22587,7 @@ PrayersArrayFR = [[
   [
     Prefix.same + "&C=Assembly",
     "Ⲧⲉⲛⲑⲏⲛⲟⲩ ⲉ̀ⲡ̀ϣⲱⲓ ⲛⲓϣⲏⲣⲓ ⲛ̀ⲧⲉ ⲡⲓⲟⲩⲱⲓⲛⲓ: ⲛ̀ⲧⲉⲛϩⲱⲥ ⲉ̀Ⲡ̀ϭⲟⲓⲥ ⲛ̀ⲧⲉ ⲛⲓϫⲟⲙ. Ϩⲟⲡⲱⲥ ⲛ̀ⲧⲉϥⲉⲣϩ̀ⲙⲟⲧ ⲛⲁⲛ ⲙ̀ⲡ̀ⲥⲱϯ ⲛ̀ⲧⲉ ⲛⲉⲛⲯⲩⲭⲏ.",
-    "Levons-nous, fils de lumière pour louer Dieu des Puissances  pour que le Seigneur accorde à nos âmes, le salut.",
+    "Levons-nous, fils de lumière pour louer Dieu des Puissances pour que le Seigneur accorde à nos âmes, le salut.",
     "تين ثينو إإبشوي ني شيري إنتى بي أوأويني إنتين هوس إي إبتشويس إنتى ني جوم. هوبوس إنتيف إرإهموت نان إم إبسوتي إنتى نين إبسيشي.",
     "قوموا يا بني النور لنُسَبِحْ رَبّ القوات.  لِكَيّ ينعم لنا بخلاص نفوسنا.",
   ],
@@ -22717,10 +22717,15 @@ PrayersArrayFR = [[
     "أبتشويس إك إأأوأون إننا إسفوتو أووه إري روي جو إمبيك إسمو. آمين.",
     "يا رَبْ افتَحْ شَفَتي وليَنْطِقْ فَمي بتسبحتك. آمين.",
   ],
-  [
-    Prefix.placeHolder,
-    Prefix.bookOfHours + "Alleluia",
   ],
+[
+  [
+    Prefix.psalmody + 'AmeenAlleluiaKyrielison3&C=Priest',
+    "ⲁ̀ⲙⲏⲛ Ⲁⲗ̅ Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ : Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ : Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ.",
+    "Amen Alleluia pitié Seigneur, pitié Seigneur, pitié Seigneur.",
+    "آمين الليلويا كيرياليسون، كيرياليسون، كيرياليسون.",
+    "آمين الليلويا يا رب ارحم، يا رب ارحم، يا رب ارحم.",
+],
 ],
 [
   [
@@ -28444,9 +28449,9 @@ PrayersArrayFR = [[
   [
     Prefix.commonPrayer + "KyriElieson3Times&C=Assembly",
     "",
-    "",
-    "",
+    "Pitié Seigneur, pitié Seigneur, pitié Seigneur",
     "كيرياليسون، كيرياليسون، كيرياليسون.",
+    "يا رب ارحم، يا رب احرم، يا رب ارحم.",
   ],
 ],
 [
@@ -28581,79 +28586,79 @@ PrayersArrayFR = [[
   [
     Prefix.same + "&C=Diacon",
     "Ⲙⲁⲣⲉⲛⲟⲩⲱⲛϩ ⲉ̀ⲃⲟⲗ : ⲙ̀Ⲡⲓⲭ̀ⲣⲏⲥⲧⲟⲥ Ⲡⲉⲛⲛⲟⲩϯ : ⲛⲉⲙ ⲡⲓⲓⲉⲣⲟⲯⲁⲗⲧⲏⲥ : Ⲇⲁⲩⲓⲇ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ.",
-    "Rendons actions de grâce\nA notre Dieu le Christ\nEt avec le prophète\nLe psalmiste David",
+    "Rendons actions de grâce♫ A notre Dieu le Christ♫ Et avec le prophète♫ Le psalmiste David",
     "",
     "فلنشكر المسيح إلهنا مع المرتل داود النبي.",
   ],
   [
     Prefix.same + "&C=Diacon",
     "Ϫⲉ ⲁϥⲑⲁⲙⲓⲟ̀ ⲛ̀ⲛⲓⲫⲏⲟⲩⲓ̀ : ⲛⲉⲙ ⲛⲟⲩⲇⲩⲛⲁⲙⲓⲥ : ⲁϥϩⲓⲥⲉⲛϯ ⲙ̀ⲡⲓⲕⲁϩⲓ : ̀ⲉ̀ϩ̀ⲣⲏⲓ ϩⲓϫⲉⲛ ⲛⲓⲙⲱⲟⲩ.",
-    "Car Il créa les cieux\nEt toutes leurs armées\nIl a fondé la terre\nL’a fondée sur les eaux",
+    "Car Il créa les cieux♫ Et toutes leurs armées♫ Il a fondé la terre♫ L’a fondée sur les eaux",
     "",
     "لأنه خلق السموات وجنودها. وأسس الأرض على المياه.",
   ],
   [
     Prefix.same + "&C=Diacon",
     "Ⲛⲁⲓⲛⲓϣϯ ⲙ̀ⲫⲱⲥⲧⲏⲣ : ⲡⲓⲣⲏ ⲛⲉⲙ ⲡⲓⲓⲟϩ : ⲁϥⲭⲁⲩ ⲉⲩⲉⲣⲟⲩⲱⲓⲛⲓ : ϧⲉⲛ ⲡⲓⲥ̀ⲧⲉⲣⲉⲱ̀ⲙⲁ.",
-    "Ces astres imposants,\nLa lune et le soleil\nIl les fit éclairer\nDans l'univers entier.",
+    "Ces astres imposants,♫ La lune et le soleil♫ Il les fit éclairer♫ Dans l'univers entier.",
     "",
     "هذان الكوكبان العظيمان الشمس والقمر. جعلهما ينيران في الفلك.",
   ],
   [
     Prefix.same + "&C=Diacon",
     "Ⲁϥⲓ̀ⲛⲓ ⲛ̀ϩⲁⲛⲑⲏⲟⲩ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲉϥⲁ̀ϩⲱⲣ : ⲁϥⲛⲓϥⲓ ⲛ̀ⲥⲁ ⲛⲓϣ̀ϣⲏⲛ : ϣⲁⲛ̀ⲧⲟⲩⲫⲓⲣⲓ ⲉ̀ⲃⲟⲗ.",
-    "Il fit surgir les vents\nJaillis de ses trésors.\nIl souffla dans les arbres\nJusqu’à leur floraison",
+    "Il fit surgir les vents♫ Jaillis de ses trésors.♫ Il souffla dans les arbres♫ Jusqu’à leur floraison",
     "",
     "أخرج الرياح من خباياها. نفخ في الأشجار حتى أزهرت.",
   ],
   [
     Prefix.same + "&C=Diacon",
     "Ⲁϥϩⲱⲟⲩ ⲛ̀ⲟⲩⲙⲟⲩⲛϩⲱⲟⲩ : ϩⲓϫⲉⲛ ⲡ̀ϩⲟ ⲙ̀ⲡ̀ⲕⲁϩⲓ : ϣⲁⲛ̀ⲧⲉϥⲣⲱⲧ ⲉ̀ⲡ̀ϣⲱⲓ : ⲛ̀ⲧⲉϥϯ ⲙ̀ⲡⲉϥⲟⲩⲧⲁϩ.",
-    "Il fit tomber la pluie\nSur la face de la terre\nJusqu'à la faire germer\nEt elle donna ses fruits.",
+    "Il fit tomber la pluie♫ Sur la face de la terre♫ Jusqu'à la faire germer♫ Et elle donna ses fruits.",
     "",
     "أمطر مطرًا على وجه الأرض حتى أنبتت وأعطت ثمرها.",
   ],
   [
     Prefix.same + "&C=Diacon",
     "Ⲁϥⲓ̀ⲛⲓ ⲛ̀ⲟⲩⲙⲱⲟⲩ : ⲉ̀ⲃⲟⲗϧⲉⲛ ⲟⲩⲡⲉⲧⲣⲁ : ⲁϥⲧ̀ⲥⲟ ⲙ̀ⲡⲉϥⲗⲁⲟⲥ : ⲛ̀ϩ̀ⲣⲏⲓ ϩⲓ ⲡ̀ϣⲁϥⲉ.",
-    "Il fit jaillir de l'eau\nDu cœur d'une roche inerte\nEt abreuva son peuple\nQui était au désert.",
+    "Il fit jaillir de l'eau♫ Du cœur d'une roche inerte♫ Et abreuva son peuple♫ Qui était au désert.",
     "",
     "أخرج ماء من صخرة صماء وسقى شعبه في البرية.",
   ],
   [
     Prefix.same + "&C=Diacon",
     "Ⲁϥⲑⲁⲙⲓⲟ̀ ⲙ̀ⲡⲓⲣⲱⲙⲓ : ⲕⲁⲧⲁ ⲡⲉϥⲓ̀ⲛⲓ : ⲛⲉⲙ ⲧⲉϥϩⲓⲕⲱⲛ : ⲉⲑⲣⲉϥⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟϥ.",
-    "Et puis Il créa l’homme\nSelon Sa ressemblance\nEt selon Son image\nAfin qu’il Le bénisse",
+    "Et puis Il créa l’homme♫ Selon Sa ressemblance♫ Et selon Son image♫ Afin qu’il Le bénisse",
     "",
     "صنع الإنسان كشبهه وصورته لكي يباركه.",
   ],
   [
     Prefix.same + "&C=Diacon",
     "Ⲙⲁⲣⲉⲛϩⲱⲥ ⲉ̀ⲣⲟϥ : ⲧⲉⲛϭⲓⲥⲓ ⲙ̀Ⲡⲉϥⲣⲁⲛ : ⲧⲉⲛⲟⲩⲱⲛϩ ⲛⲁϥ ⲉ̀ⲃⲟⲗ : ϫⲉ ⲡⲉϥⲛⲁⲓ ϣⲟⲡ ϣⲁ ⲉ̀ⲛⲉϩ.",
-    "Allons tous Le louer\nEt exalter Son Nom\nRendons actions de grâce\nEternelle est Sa pitié",
+    "Allons tous Le louer♫ Et exalter Son Nom♫ Rendons actions de grâce♫ Eternelle est Sa pitié",
     "",
     "فلنسبحه ونرفع اسمه ونشكره لأٰن رحمته كائنة إلى الأبد.",
   ],
   [
     Prefix.same + "&C=Diacon",
     "Ϩⲓⲧⲉⲛ ⲛⲓⲉⲩⲭⲏ : ⲛ̀ⲧⲉ ⲡⲓⲓⲉⲣⲟⲯⲁⲗⲧⲏⲥ Ⲇⲁⲩⲓⲇ : Ⲡ̀⳪ ⲁ̀ⲣⲓϩ̀ⲙⲟⲧ ⲛⲁⲛ : ⲙ̀ⲡⲓⲭⲱ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉ ⲛⲉⲛⲛⲟⲃⲓ.",
-    "Par les prières de\nDavid le psalmiste\nSeigneur accorde-nous\nLe pardon de nos péchés.",
+    "Par les prières de♫ David le psalmiste♫ Seigneur accorde-nous♫ Le pardon de nos péchés.",
     "",
     "بصلوات المرتل داود يارب أنعم لنا بمغفرة خطايانا.",
   ],
   [
     Prefix.same + "&C=Diacon",
     "Ϩⲓⲧⲉⲛ ⲛⲓⲡ̀ⲣⲉⲥⲃⲓⲁ̀ : ⲛ̀ⲧⲉ ϯⲑⲉⲟ̀ⲧⲟⲕⲟⲥ ⲉ̅ⲑ̅ⲩ̅ Ⲙⲁⲣⲓⲁ̀ : Ⲡⲟ̅ⲥ̅....",
-    "Par les intercessions\nDe Marie Mère de Dieu\nSeigneur accorde-nous\nLe pardon de nos péchés",
+    "Par les intercessions♫ De Marie Mère de Dieu♫ Seigneur accorde-nous♫ Le pardon de nos péchés",
     "",
-    "بشفاعات والدة الإله القديسة مريم. يارب...",
+    "بشفاعات والدة الإله القديسة مريم، يارب أنعم لنا بمغفرة خطايانا.",
   ],
   [
     Prefix.same + "&C=Diacon",
     "Ϩⲓⲧⲉⲛ ⲛⲓⲡ̀ⲣⲉⲥⲃⲓⲁ̀ : ⲛ̀ⲧⲉ ⲡ̀ⲭⲟⲣⲟⲥ ⲧⲏⲣϥ ⲛ̀ⲧⲉ ⲛⲓⲁⲅⲅⲉⲗⲟⲥ : Ⲡⲟ̅ⲥ̅...",
-    "Par les intercessions\nDe tous les chœurs des anges\nSeigneur accorde-nous\nLe pardon de nos péchés",
+    "Par les intercessions♫ De tous les chœurs des anges♫ Seigneur accorde-nous♫ Le pardon de nos péchés",
     "",
-    "بشفاعات كل صفوف الملائكة. يارب..",
+    "بشفاعات كل صفوف الملائكة، يارب أنعم لنا بمغفرة خطايانا.",
   ],
   [
     Prefix.placeHolder,
@@ -29712,6 +29717,7 @@ PrayersArrayFR = [[
     "",
     "الهوس الأول\nتسبحة موسى النبي (خروج 15)",
   ],
+  [Prefix.placeHolder, Prefix.psalmody + "AmeenAlleluiaKyrielison3"],
   [
     Prefix.same + "&C=Assembly",
     "Ⲧⲟⲧⲉ ⲁϥⳣⲱⲥ ⲛ̀ϫⲉ Ⲙⲱⲩ̀ⲥϩⲥ ⲛⲉⲙ ⲛⲉⲛϯϩⲣⲓ ⲙ̀Ⲡⲓⲥⲣⲁϩⲗ ⲉ̀ⲧⲁⲓⳣⲱⲇϩ ⲛ̀ⲧⲉ ϮⲠϣⲟⲓⲥ ⲟⲩⲟϩ ⲁϥϫⲟⲥ ⲉϧⲣⲟⲩϫⲟⲥ, ϫⲉ ⲙⲁⲣⲉⲛⳣⲱⲥ ⲉ̀ϮⲠ̀, ϫⲉ ϧⲉⲛ ⲟⲩⲱ̀ⲟⲩ ⲅⲁⲣ ⲁϥϣⲓⲱ̀ⲟⲩ.",
@@ -30555,6 +30561,7 @@ PrayersArrayFR = [[
     "",
     "الهوس الثاني",
   ],
+  [Prefix.placeHolder, Prefix.psalmody + "AmeenAlleluiaKyrielison3"],
   [
     Prefix.same + "&C=Assembly",
     "Ⲟⲩⲱⲛϩ ⲉ̀ⲃⲟⲗ ⲙ̀Ⲡ̀⳪ ϫⲉ ⲟⲩⲭ̀ⲣⲏⲥⲧⲟⲥ ⲟⲩⲁ̀ⲅⲁⲑⲟⲥ ⲡⲉ ⲁⲗⲗⲏⲗⲟⲩⲓ̀ⲁ : ϫⲉ ⲡⲉϥⲛⲁⲓ ϣⲟⲡ ϣⲁ ⲉ̀ⲛⲉϩ.",
@@ -31041,6 +31048,7 @@ PrayersArrayFR = [[
     "",
     "الهوس الثالث",
   ],
+  [Prefix.placeHolder, Prefix.psalmody + "AmeenAlleluiaKyrielison3"],
   [
     Prefix.same + "&C=Diacon",
     "Ⲕⲥ̀ⲙⲁⲣⲱⲟⲩⲧ Ⲡ̀⳪ Ⲫϯ ⲛ̀ⲧⲉ ⲛⲉⲛⲓⲟϯ : ⲕ̀ⲉⲣϩⲟⲩⲟ̀ ⲥ̀ⲙⲁⲣⲱⲟⲩⲧ    ⲕ̀ⲉⲣϩⲟⲩⲟ̀ ϭⲓⲥⲓ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.",
@@ -31400,6 +31408,7 @@ PrayersArrayFR = [[
     "",
     "الهوس الرابع",
   ],
+  [Prefix.placeHolder, Prefix.psalmody + "AmeenAlleluiaKyrielison3"],
   [
     Prefix.same + "&C=Diacon",
     "Ⲥ̀ⲙⲟⲩ ⲉ̀Ⲡ̀⳪ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲓⲫⲏⲟⲩⲓ̀ ⲁ̅ⲗ̅ : ⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟϥ ϧⲉⲛ ⲛⲏⲉⲧϭⲟⲥⲓ.",
