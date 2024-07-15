@@ -116,10 +116,10 @@ const Sequences = {
       Prefix.psalmody + "Hos4",
 
       Prefix.anchor + "PsalyOnTheotoky", //This is will be replaced with Prefix.psalmody + "PsalyTheoktoky&D=" + weekDay
-      
-      Prefix.anchor + "PsalyXXX&D=$copticFeasts.", //This will be replaced with Prefix.psalmody + "PsalyAdam/Wates&D=$" + Seasons.[current season]||copticFeasts.[copticDate]
 
-      Prefix.anchor + "PsalyXXX&D=$Seasons.", //This will be replaced with Prefix.psalmody + "PsalyAdam/Wates&D=$" + Seasons.[current season]||copticFeasts.[copticDate]
+      Prefix.anchor + "PsalyXXX&D=$copticFeasts.", //This will be replaced with Prefix.psalmody + "PsalyAdam/Watos&D=$" + Seasons.[current season]||copticFeasts.[copticDate]
+
+      Prefix.anchor + "PsalyXXX&D=$Seasons.", //This will be replaced with Prefix.psalmody + "PsalyAdam/Watos&D=$" + Seasons.[current season]||copticFeasts.[copticDate]
 
 
       Prefix.psalmody + "IntroductionToXXXTheotoky",
@@ -132,7 +132,7 @@ const Sequences = {
 
       Prefix.anchor + "Lobsh3Theotoky", //This is will be replaced with Prefix.psalmody + "Lobsh3Theotoky&D=" + weekDay
 
-      Prefix.psalmody + "TheotokiesConclusionXXX",//!Need to know when Wates and Adam Theotokies are prayed
+      Prefix.psalmody + "TheotokiesConclusionXXX",//!Need to know when Watos and Adam Theotokies are prayed
 
       Prefix.commonPrayer + "WeExaltYouStMary",
 
@@ -188,7 +188,7 @@ const Sequences = {
 
       Prefix.psalmody + "Hos3",
 
-      Prefix.psalmody + "TheotokiesConclusionWates",
+      Prefix.psalmody + "TheotokiesConclusionWatos",
 
     ],
   },
@@ -712,27 +712,27 @@ const btnMassUnBaptised = new Button({
       readingsAnchor.insertAdjacentElement('beforebegin', btnsDiv);
       btnsDiv.appendChild(
         addExpandablePrayer({
-        btnID: 'btnBiEhmotGhar',
-        insertion: readingsAnchor,
-        prayers: [findTable(Prefix.massCommon + "BiEhmotGhar", MassCommonArray) || undefined],
-        label: {
-          AR: "بي إهموت غار",
-          FR: "Ⲡⲓϩ̀ⲙⲟⲧ ⲅⲁⲣ"
-        },
-        languages: prayersLanguages
+          btnID: 'btnBiEhmotGhar',
+          insertion: readingsAnchor,
+          prayers: [findTable(Prefix.massCommon + "BiEhmotGhar", MassCommonArray) || undefined],
+          label: {
+            AR: "بي إهموت غار",
+            FR: "Ⲡⲓϩ̀ⲙⲟⲧ ⲅⲁⲣ"
+          },
+          languages: prayersLanguages
         })[0]
       );
 
       btnsDiv.appendChild(
         addExpandablePrayer({
-        btnID: 'btnIAghabi',
-        insertion: readingsAnchor,
-        prayers: [findTable(Prefix.massCommon + "IAghabi", MassCommonArray) || undefined],
-        label: {
-          AR: "إي آغابي",
-          FR: "Ⲏⲁ̀ⲅⲁⲡⲏ"
-        },
-        languages: prayersLanguages
+          btnID: 'btnIAghabi',
+          insertion: readingsAnchor,
+          prayers: [findTable(Prefix.massCommon + "IAghabi", MassCommonArray) || undefined],
+          label: {
+            AR: "إي آغابي",
+            FR: "Ⲏⲁ̀ⲅⲁⲡⲏ"
+          },
+          languages: prayersLanguages
         })[0]
       );
       btnsDiv.style.gridTemplateColumns = setGridColumnsOrRowsNumber(btnsDiv, 3);
@@ -757,9 +757,9 @@ const btnMassUnBaptised = new Button({
         specialResponse = CatholiconResponsesArray.filter(tbl => isMultiDatedTitleMatching(tbl[0][0], [Season, copticDate]));
 
         if (specialResponse.length < 1) specialResponse = CatholiconResponsesArray.filter(tbl => tbl[0][0] === Prefix.catholiconResponse + '&C=Title');
-        
+
         if (specialResponse.length < 1) return;
-        
+
         addExpandablePrayer({
           prayers: specialResponse as string[][][],
           insertion: readingsAnchor,
@@ -1168,8 +1168,8 @@ const btnMassUnBaptised = new Button({
 
 
             createdElements[0].addEventListener("click", () => hourBtnOnClick(createdElements[0].id));//!Caution, we must ADD a new onClick eventListner because the created buton already have one attached to it when it was created by addExpandablePrayer(); 
-            
-           btnsDiv.appendChild(createdElements[0]);
+
+            btnsDiv.appendChild(createdElements[0]);
 
 
             if (!createdElements[1]) return;
@@ -1242,13 +1242,13 @@ const btnMassUnBaptised = new Button({
 
           (async function hourIsNotHidden() {
 
-           if (expandable.classList.contains(hidden)) return;
+            if (expandable.classList.contains(hidden)) return;
 
             let children = Array.from(expandable.children) as HTMLDivElement[];
 
             collapseAllTitles(children);
 
-           let rightSideBarTitles =
+            let rightSideBarTitles =
               await showTitlesInRightSideBar(
                 children.filter(div => isTitlesContainer(div)).reverse(),
                 undefined,
@@ -1515,7 +1515,7 @@ const btnBookOfHours = new Button({
         Prefix.commonPrayer + "WeExaltYouStMary",
       Agios: string =
         Prefix.commonPrayer + "Agios",
-      KyrielisonIntro: string =  "Kyrielison41NoMassIntro",
+      KyrielisonIntro: string = "Kyrielison41NoMassIntro",
       HolyLordOfSabaot: string =
         Prefix.commonPrayer + "HolyLordOfSabaot",
       Creed: string = Prefix.commonPrayer + "Creed",
@@ -1797,20 +1797,20 @@ const btnPsalmody = new Button({
           .map(title => customizeTitle(title));
 
       function customizeTitle(title: string): string {
-        let WA:string = isWatesOrAdam(day, season);
-        
+        let WA: string = isWatosOrAdam(day, season);
+
         if (title.includes('XXX'))
           title = title.replace('XXX', WA);
 
         if (RegExp(Prefix.anchor + 'Psaly\.*Seasons.').test(title))
           return title.replace(Prefix.anchor, Prefix.psalmody) + Object.entries(Seasons).find(entry => entry[1] === Season)[0];//We replace "Seasons.Ascension" by "Seasons.PentecostalDays" 
-        
+
         else if (RegExp(Prefix.anchor + 'Psaly\.*copticFeasts.').test(title))
           return title.replace(Prefix.anchor, Prefix.psalmody) + Object.entries(copticFeasts).find(entry => entry[1] === copticDate)[0];
-          
+
         else if (title.startsWith(Prefix.anchor))
           return title.replace(Prefix.anchor, Prefix.psalmody) + '&D=' + day.toString();
-          
+
         else if (RegExp(Prefix.psalmody + 'TheotokiesConclusion' + WA).test(title) && [Seasons.PentecostalDays, Seasons.Ascension].includes(Season))
           return title.replace(WA, '&D=$Seasons.PentecostalDays||$Seasons.Ascension');
         else return title;
@@ -2057,7 +2057,7 @@ const btnIncenseMorning = new Button({
 
         function getCymbalVerses(): string[][][] {
           let sequence = [
-            Prefix.cymbalVerses + isWatesOrAdam(),
+            Prefix.cymbalVerses + isWatosOrAdam(),
             Prefix.cymbalVerses + anyDay,
           ];
 
@@ -2106,14 +2106,14 @@ const btnIncenseMorning = new Button({
         if (!doxologiesAnchor) return;
 
         let sequence: string[] = [
-          Prefix.doxologies + "DawnWatesStMary" + anyDay,
+          Prefix.doxologies + "DawnWatosStMary" + anyDay,
           Prefix.doxologies + "StMaykel" + anyDay,
           Prefix.doxologies + "CelestialBeings",
           Prefix.doxologies + "Apostles" + anyDay,
           Prefix.doxologies + "StMarc",
           Prefix.doxologies + "StGeorge",
           Prefix.doxologies + "StMina",
-          Prefix.doxologies + "EndOfDoxologiesWates",
+          Prefix.doxologies + "EndOfDoxologiesWatos",
         ];
 
         if (btn === btnIncenseVespers)
@@ -2394,7 +2394,7 @@ const btnProsternation = new Button({
         Agios: [Prefix.commonPrayer + "Agios"],
         Gospel: ['PSA:65:2-2/71:9-9', 'JHN:4:1-24'],
         psalmResponse: Prefix.psalmResponse + anyDay + "||$Seasons.Kiahk",
-        Cymbals: [Prefix.cymbalVerses + "Wates"],
+        Cymbals: [Prefix.cymbalVerses + "Watos"],
         Litanies: [
           Prefix.commonPrayer + "ChurchLitany" + anyDay,//!needs check + convert font
           Prefix.commonPrayer + "PopeAndBishopLitany" + anyDay,
@@ -2491,12 +2491,12 @@ const btnProsternation = new Button({
                 Prefix.commonPrayer + "OurFatherWhoArtInHeaven",
                 Prefix.commonPrayer + "InTheNameOfJesusOurLord",
                 Prefix.commonPrayer + "WeSaluteYouMary",
-                Prefix.doxologies + "DawnWatesStMary" + anyDay,
+                Prefix.doxologies + "DawnWatosStMary" + anyDay,
                 Prefix.doxologies + "CelestialBeings" + anyDay,
                 Prefix.doxologies + "Apostles" + anyDay,
                 Prefix.doxologies + "StMarc" + anyDay,
                 Prefix.doxologies + "Pope&" + anyDay,
-                Prefix.doxologies + "EndOfDoxologiesWates",
+                Prefix.doxologies + "EndOfDoxologiesWatos",
                 Prefix.commonPrayer + "WeExaltYouStMary",
                 Prefix.commonPrayer + "Creed",
                 Prefix.commonPrayer + "EfnotiNaynan",
@@ -2807,9 +2807,9 @@ const btnMassStBasil = new Button({
               FR: btn.label.FR,
             },
             cssClass: inlineBtnClass,
-            onClick: () => {
-              showChildButtonsOrPrayers(btn); //We simulated as if btn itself has been clicked, which will show all its prayers, children, etc.
-
+            onClick: async () => {
+              await showChildButtonsOrPrayers(btn); //We simulated as if btn itself has been clicked, which will show all its prayers, children, etc.
+              debugger
               //if there is an element in containerDiv having the same data-root as targetElement
               if (containerDiv.querySelector("#" + btnsContainerID))
                 createFakeAnchor(btnsContainerID);
@@ -2821,7 +2821,7 @@ const btnMassStBasil = new Button({
       }
     })();
 
-    (function insertAdamAndWatesSpasmos() {
+    (function insertAdamAndWatosSpasmos() {
       //We insert it during the Saint Mary Fast and on every 21th of the coptic month
       let spasmosTitle: string = Prefix.massCommon + "SpasmosAdamLong";
 
@@ -2831,10 +2831,10 @@ const btnMassStBasil = new Button({
         spasmosTitle,
         selectElementsByDataSetValue(btnDocFragment, anchorTitle)[0]
       );
-      anchorTitle = Prefix.massCommon + "SpasmosWatesShort"
-      //Insert Wates Spasmoses
+      anchorTitle = Prefix.massCommon + "SpasmosWatosShort"
+      //Insert Watos Spasmoses
       insertSpasmos(
-        spasmosTitle.replace("Adam", "Wates"),
+        spasmosTitle.replace("Adam", "Watos"),
         selectElementsByDataSetValue(btnDocFragment, anchorTitle)[0],
         true
       );
@@ -5167,33 +5167,33 @@ function addExpandablePrayer(args: {
  @param {HTMLDivElement[]} btns - the expandable buttons that we want that each of them when clicked, hides the other buttons prayers
  @param {HTMLDivElement} container - the container where the Expandable button's prayers are displayed
  */
-function toggleOtherExpandables(btns: (HTMLDivElement|HTMLElement | Element)[], toggleTitles:boolean=false, appendTitles:boolean = false, container:HTMLDivElement= containerDiv) {
+function toggleOtherExpandables(btns: (HTMLDivElement | HTMLElement | Element)[], toggleTitles: boolean = false, appendTitles: boolean = false, container: HTMLDivElement = containerDiv) {
   if (btns.length < 2) return;
-  btns.forEach(btn => btn.addEventListener('click', ()=>onClick(btn as HTMLDivElement)));
+  btns.forEach(btn => btn.addEventListener('click', () => onClick(btn as HTMLDivElement)));
 
-    function onClick(btn:HTMLDivElement) {
-      btns.forEach(b => {
-        if (b === btn) return;
+  function onClick(btn: HTMLDivElement) {
+    btns.forEach(b => {
+      if (b === btn) return;
 
-        let expandable = container.querySelector('#' + b.id + 'Expandable') as HTMLDivElement;
+      let expandable = container.querySelector('#' + b.id + 'Expandable') as HTMLDivElement;
 
-        if (!expandable) return;
+      if (!expandable) return;
 
-        if (!expandable.classList.contains(hidden))
-          expandable.classList.add(hidden);
+      if (!expandable.classList.contains(hidden))
+        expandable.classList.add(hidden);
 
-        if (!toggleTitles) return;
+      if (!toggleTitles) return;
 
-        if (expandable.classList.contains(hidden))
-          Array.from(sideBarTitlesContainer.children)
-            .filter((div: HTMLDivElement) => div?.dataset?.group === expandable?.id)
-            .forEach(div => div.remove());
-        else
-          showTitlesInRightSideBar(Array.from(expandable.children).filter((div: HTMLDivElement) => isTitlesContainer(div)).reverse() as HTMLDivElement[], sideBarTitlesContainer, false, expandable.id, appendTitles)
-            .then(titles => titles.forEach(title => title.classList.remove(hidden)));
-      })
-    }
-    
+      if (expandable.classList.contains(hidden))
+        Array.from(sideBarTitlesContainer.children)
+          .filter((div: HTMLDivElement) => div?.dataset?.group === expandable?.id)
+          .forEach(div => div.remove());
+      else
+        showTitlesInRightSideBar(Array.from(expandable.children).filter((div: HTMLDivElement) => isTitlesContainer(div)).reverse() as HTMLDivElement[], sideBarTitlesContainer, false, expandable.id, appendTitles)
+          .then(titles => titles.forEach(title => title.classList.remove(hidden)));
+    })
+  }
+
 
 };
 /**

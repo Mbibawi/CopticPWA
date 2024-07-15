@@ -327,9 +327,9 @@ function checkForUnfixedEvent(
 
   (function ifPentecostalPeriod() {
     if (difference >= 0) return;
-    if (Math.abs(difference) >49) return;
+    if (Math.abs(difference) > 49) return;
     // we are during the 50 Pentecostal days
-    
+
     if (Math.abs(difference) === 49)
       Season = Seasons.NoSeason;
     else if (Math.abs(difference) > 38)
@@ -525,12 +525,12 @@ function isItSundayOrWeekDay(
 
 /**
  * 
- * @returns {string} - If today is Sunday, Monday or Tuesday, it returns "Adam", else, it returns "Wates"
+ * @returns {string} - If today is Sunday, Monday or Tuesday, it returns "Adam", else, it returns "Watos"
  */
-function isWatesOrAdam(day:number = weekDay, season:string = Season): string {
+function isWatosOrAdam(day: number = weekDay, season: string = Season): string {
   if ([0, 1, 2].includes(day))
     return "Adam";
-  return "Wates"
+  return "Watos"
 }
 
 function setVariableSeasonalPhrases(season: string): { giaki } {
