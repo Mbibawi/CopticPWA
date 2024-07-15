@@ -2809,7 +2809,6 @@ const btnMassStBasil = new Button({
             cssClass: inlineBtnClass,
             onClick: async () => {
               await showChildButtonsOrPrayers(btn); //We simulated as if btn itself has been clicked, which will show all its prayers, children, etc.
-              debugger
               //if there is an element in containerDiv having the same data-root as targetElement
               if (containerDiv.querySelector("#" + btnsContainerID))
                 createFakeAnchor(btnsContainerID);
