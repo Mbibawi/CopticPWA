@@ -88,11 +88,8 @@ const Sequences = {
     Year: [
       Prefix.psalmody + "WakeUpSonsOfLight",
 
-      Prefix.psalmody + "MarenOosht",
-
-      //Prefix.psalmody + "PsalyOnHos1",
       Prefix.psalmody + "Hos1",
-
+            
       Prefix.psalmody + "LobshHos1",
 
       Prefix.psalmody + "CommentaryHos1",
@@ -115,12 +112,11 @@ const Sequences = {
 
       Prefix.psalmody + "Hos4",
 
-      Prefix.anchor + "PsalyOnTheotoky", //This is will be replaced with Prefix.psalmody + "PsalyTheoktoky&D=" + weekDay
-
       Prefix.anchor + "PsalyXXX&D=$copticFeasts.", //This will be replaced with Prefix.psalmody + "PsalyAdam/Watos&D=$" + Seasons.[current season]||copticFeasts.[copticDate]
-
+      
       Prefix.anchor + "PsalyXXX&D=$Seasons.", //This will be replaced with Prefix.psalmody + "PsalyAdam/Watos&D=$" + Seasons.[current season]||copticFeasts.[copticDate]
-
+      
+      Prefix.anchor + "PsalyOnTheotoky", //This is will be replaced with Prefix.psalmody + "PsalyTheoktoky&D=" + weekDay
 
       Prefix.psalmody + "IntroductionToXXXTheotoky",
 
@@ -145,6 +141,7 @@ const Sequences = {
       Prefix.commonPrayer + "HolyLordOfSabaot",
 
       Prefix.commonPrayer + "OurFatherWhoArtInHeaven",
+
       Prefix.commonPrayer + "Agios",
 
     ],
@@ -1803,9 +1800,9 @@ const btnPsalmody = new Button({
           title = title.replace('XXX', WA);
 
         if (RegExp(Prefix.anchor + 'Psaly\.*Seasons.').test(title))
-          return title.replace(Prefix.anchor, Prefix.psalmody) + Object.entries(Seasons).find(entry => entry[1] === Season)[0];//We replace "Seasons.Ascension" by "Seasons.PentecostalDays" 
+          return title.replace(Prefix.anchor, Prefix.psalmody) + Object.entries(Seasons).find(entry => entry[1] === Season)[0];//We replace "Seasons.Ascension" by "Seasons.PentecostalDays"
 
-        else if (RegExp(Prefix.anchor + 'Psaly\.*copticFeasts.').test(title))
+        else if (RegExp(Prefix.anchor + 'Psaly\.*copticFeasts.').test(title) && Object.entries(copticFeasts).find(entry => entry[1] === copticDate))
           return title.replace(Prefix.anchor, Prefix.psalmody) + Object.entries(copticFeasts).find(entry => entry[1] === copticDate)[0];
 
         else if (title.startsWith(Prefix.anchor))

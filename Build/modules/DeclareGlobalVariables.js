@@ -99,7 +99,7 @@ class Button {
     }
 }
 //CONSTANTS
-const version = "v7.1.8 (Added new prayers to the Psalmody)";
+const version = "v7.1.9 (Added new prayers to the Psalmody)";
 const calendarDay = 24 * 60 * 60 * 1000; //this is a day in milliseconds
 const containerDiv = document.getElementById("containerDiv");
 const leftSideBar = document.getElementById("leftSideBar");

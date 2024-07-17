@@ -28577,96 +28577,6 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.psalmody + "MarenOosht&C=Title",
-    "",
-    "Marenouwnh",
-    "",
-    "مارين أوؤشت",
-  ],
-  [
-    Prefix.same + "&C=Diacon",
-    "Ⲙⲁⲣⲉⲛⲟⲩⲱⲛϩ ⲉ̀ⲃⲟⲗ : ⲙ̀Ⲡⲓⲭ̀ⲣⲏⲥⲧⲟⲥ Ⲡⲉⲛⲛⲟⲩϯ : ⲛⲉⲙ ⲡⲓⲓⲉⲣⲟⲯⲁⲗⲧⲏⲥ : Ⲇⲁⲩⲓⲇ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ.",
-    "Rendons actions de grâce♫ A notre Dieu le Christ♫ Et avec le prophète♫ Le psalmiste David",
-    "",
-    "فلنشكر المسيح إلهنا مع المرتل داود النبي.",
-  ],
-  [
-    Prefix.same + "&C=Diacon",
-    "Ϫⲉ ⲁϥⲑⲁⲙⲓⲟ̀ ⲛ̀ⲛⲓⲫⲏⲟⲩⲓ̀ : ⲛⲉⲙ ⲛⲟⲩⲇⲩⲛⲁⲙⲓⲥ : ⲁϥϩⲓⲥⲉⲛϯ ⲙ̀ⲡⲓⲕⲁϩⲓ : ̀ⲉ̀ϩ̀ⲣⲏⲓ ϩⲓϫⲉⲛ ⲛⲓⲙⲱⲟⲩ.",
-    "Car Il créa les cieux♫ Et toutes leurs armées♫ Il a fondé la terre♫ L’a fondée sur les eaux",
-    "",
-    "لأنه خلق السموات وجنودها. وأسس الأرض على المياه.",
-  ],
-  [
-    Prefix.same + "&C=Diacon",
-    "Ⲛⲁⲓⲛⲓϣϯ ⲙ̀ⲫⲱⲥⲧⲏⲣ : ⲡⲓⲣⲏ ⲛⲉⲙ ⲡⲓⲓⲟϩ : ⲁϥⲭⲁⲩ ⲉⲩⲉⲣⲟⲩⲱⲓⲛⲓ : ϧⲉⲛ ⲡⲓⲥ̀ⲧⲉⲣⲉⲱ̀ⲙⲁ.",
-    "Ces astres imposants,♫ La lune et le soleil♫ Il les fit éclairer♫ Dans l'univers entier.",
-    "",
-    "هذان الكوكبان العظيمان الشمس والقمر. جعلهما ينيران في الفلك.",
-  ],
-  [
-    Prefix.same + "&C=Diacon",
-    "Ⲁϥⲓ̀ⲛⲓ ⲛ̀ϩⲁⲛⲑⲏⲟⲩ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲉϥⲁ̀ϩⲱⲣ : ⲁϥⲛⲓϥⲓ ⲛ̀ⲥⲁ ⲛⲓϣ̀ϣⲏⲛ : ϣⲁⲛ̀ⲧⲟⲩⲫⲓⲣⲓ ⲉ̀ⲃⲟⲗ.",
-    "Il fit surgir les vents♫ Jaillis de ses trésors.♫ Il souffla dans les arbres♫ Jusqu’à leur floraison",
-    "",
-    "أخرج الرياح من خباياها. نفخ في الأشجار حتى أزهرت.",
-  ],
-  [
-    Prefix.same + "&C=Diacon",
-    "Ⲁϥϩⲱⲟⲩ ⲛ̀ⲟⲩⲙⲟⲩⲛϩⲱⲟⲩ : ϩⲓϫⲉⲛ ⲡ̀ϩⲟ ⲙ̀ⲡ̀ⲕⲁϩⲓ : ϣⲁⲛ̀ⲧⲉϥⲣⲱⲧ ⲉ̀ⲡ̀ϣⲱⲓ : ⲛ̀ⲧⲉϥϯ ⲙ̀ⲡⲉϥⲟⲩⲧⲁϩ.",
-    "Il fit tomber la pluie♫ Sur la face de la terre♫ Jusqu'à la faire germer♫ Et elle donna ses fruits.",
-    "",
-    "أمطر مطرًا على وجه الأرض حتى أنبتت وأعطت ثمرها.",
-  ],
-  [
-    Prefix.same + "&C=Diacon",
-    "Ⲁϥⲓ̀ⲛⲓ ⲛ̀ⲟⲩⲙⲱⲟⲩ : ⲉ̀ⲃⲟⲗϧⲉⲛ ⲟⲩⲡⲉⲧⲣⲁ : ⲁϥⲧ̀ⲥⲟ ⲙ̀ⲡⲉϥⲗⲁⲟⲥ : ⲛ̀ϩ̀ⲣⲏⲓ ϩⲓ ⲡ̀ϣⲁϥⲉ.",
-    "Il fit jaillir de l'eau♫ Du cœur d'une roche inerte♫ Et abreuva son peuple♫ Qui était au désert.",
-    "",
-    "أخرج ماء من صخرة صماء وسقى شعبه في البرية.",
-  ],
-  [
-    Prefix.same + "&C=Diacon",
-    "Ⲁϥⲑⲁⲙⲓⲟ̀ ⲙ̀ⲡⲓⲣⲱⲙⲓ : ⲕⲁⲧⲁ ⲡⲉϥⲓ̀ⲛⲓ : ⲛⲉⲙ ⲧⲉϥϩⲓⲕⲱⲛ : ⲉⲑⲣⲉϥⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟϥ.",
-    "Et puis Il créa l’homme♫ Selon Sa ressemblance♫ Et selon Son image♫ Afin qu’il Le bénisse",
-    "",
-    "صنع الإنسان كشبهه وصورته لكي يباركه.",
-  ],
-  [
-    Prefix.same + "&C=Diacon",
-    "Ⲙⲁⲣⲉⲛϩⲱⲥ ⲉ̀ⲣⲟϥ : ⲧⲉⲛϭⲓⲥⲓ ⲙ̀Ⲡⲉϥⲣⲁⲛ : ⲧⲉⲛⲟⲩⲱⲛϩ ⲛⲁϥ ⲉ̀ⲃⲟⲗ : ϫⲉ ⲡⲉϥⲛⲁⲓ ϣⲟⲡ ϣⲁ ⲉ̀ⲛⲉϩ.",
-    "Allons tous Le louer♫ Et exalter Son Nom♫ Rendons actions de grâce♫ Eternelle est Sa pitié",
-    "",
-    "فلنسبحه ونرفع اسمه ونشكره لأٰن رحمته كائنة إلى الأبد.",
-  ],
-  [
-    Prefix.same + "&C=Diacon",
-    "Ϩⲓⲧⲉⲛ ⲛⲓⲉⲩⲭⲏ : ⲛ̀ⲧⲉ ⲡⲓⲓⲉⲣⲟⲯⲁⲗⲧⲏⲥ Ⲇⲁⲩⲓⲇ : Ⲡ̀⳪ ⲁ̀ⲣⲓϩ̀ⲙⲟⲧ ⲛⲁⲛ : ⲙ̀ⲡⲓⲭⲱ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉ ⲛⲉⲛⲛⲟⲃⲓ.",
-    "Par les prières de♫ David le psalmiste♫ Seigneur accorde-nous♫ Le pardon de nos péchés.",
-    "",
-    "بصلوات المرتل داود يارب أنعم لنا بمغفرة خطايانا.",
-  ],
-  [
-    Prefix.same + "&C=Diacon",
-    "Ϩⲓⲧⲉⲛ ⲛⲓⲡ̀ⲣⲉⲥⲃⲓⲁ̀ : ⲛ̀ⲧⲉ ϯⲑⲉⲟ̀ⲧⲟⲕⲟⲥ ⲉ̅ⲑ̅ⲩ̅ Ⲙⲁⲣⲓⲁ̀ : Ⲡⲟ̅ⲥ̅....",
-    "Par les intercessions♫ De Marie Mère de Dieu♫ Seigneur accorde-nous♫ Le pardon de nos péchés",
-    "",
-    "بشفاعات والدة الإله القديسة مريم، يارب أنعم لنا بمغفرة خطايانا.",
-  ],
-  [
-    Prefix.same + "&C=Diacon",
-    "Ϩⲓⲧⲉⲛ ⲛⲓⲡ̀ⲣⲉⲥⲃⲓⲁ̀ : ⲛ̀ⲧⲉ ⲡ̀ⲭⲟⲣⲟⲥ ⲧⲏⲣϥ ⲛ̀ⲧⲉ ⲛⲓⲁⲅⲅⲉⲗⲟⲥ : Ⲡⲟ̅ⲥ̅...",
-    "Par les intercessions♫ De tous les chœurs des anges♫ Seigneur accorde-nous♫ Le pardon de nos péchés",
-    "",
-    "بشفاعات كل صفوف الملائكة، يارب أنعم لنا بمغفرة خطايانا.",
-  ],
-  [
-    Prefix.placeHolder,
-    Prefix.massCommon + "BlessedYouAreWithYourFather&D=copticFeasts.AnyDay",
-  ],
-],
-[
-  [
     Prefix.psalmody + "ChantAgiosOsiOs&C=Title",
     "",
     "Cantique Ⲁⲅⲓⲟⲥ ⲟ̀ Ⲑⲉⲟⲥ",
@@ -33178,7 +33088,7 @@ PrayersArrayFR = [[
   [
     Prefix.same + "&C=Diacon",
     "Ⲇⲟⲝⲁ ⲡⲁⲧⲣⲓ ⲕⲉ Ⲩ̀ⲓⲱ : ⲕⲉ ⲁ̀ⲅⲓⲱ Ⲡ̀ⲛⲉⲩⲙⲁⲧⲓ : ⲕⲉ ⲛⲩⲛ ⲕⲉ ⲁ̀ⲓ ⲕⲉ ⲓⲥⲧⲟⲩⲥ : ⲉ̀ⲟⲩⲱⲛⲁⲥ ⲧⲱⲛ<  ⲉ̀ⲱⲛⲱⲛ ⲁ̀ⲙⲏⲛ.",
-    "Toute gloire soit au Père♫ Au Fils, et au Saint-Esprit ♫ Maintenant et pour toujours♫ Pour les siècles des siècles, Amen. \n",
+    "Toute gloire soit au Père♫ Au Fils, et au Saint-Esprit ♫ Maintenant et pour toujours♫ Pour les siècles des siècles, Amen.",
     "",
     "المجد للآب والابن. والروح القدوس. الآن وكل أوان. والى دهر الداهرين آمين",
   ],
@@ -37309,6 +37219,183 @@ PrayersArrayFR = [[
     "تأنى علىّ أيها الوحيد الجنس لأنى أخطأت اليك. الروح المُعَزي.",
   ],
   ],
+  [
+    [
+        Prefix.psalmody + "PsalyAdam&D=$Seasons.NoSeason&C=Title",
+        "",
+        "Psalie annuelle pour la Vierge sur la Théotkokie du dimanchesur la mélodie Adam",
+        "",
+        "ابصالية آدام سنوية على ثيؤطوكية الأحد"
+    ],
+    [
+        Prefix.same + "&C=Assembly",
+        "Ⲁⲓⲛⲁϩϯ ⲉⲑⲃⲉ ⲫⲁⲓ : ⲁⲓⲥⲁϫⲓ ϧⲉⲛ ⲟⲩϫⲟⲙ : ⲉⲑⲃⲉ ⲡⲉⲕⲛⲓϣϯ ⲛ̀ⲛⲁⲓ : Ⲡ⳪ ⲛ̀ⲧⲉ ⲛⲓϫⲟⲙ.",
+        "J’ai cru et c’est pourquoi♫ Je parle avec puissance♫ De ton immense pitié♫ Seigneur Dieu des puissances.",
+        "",
+        "آمنتُ لذلك تكلمت بقوة من أجل عظم رحمتك يا رب القوات."
+    ],
+    [
+        Prefix.same + "&C=Assembly",
+        "Ⲃⲟⲏⲑⲓⲛ ⲉⲣⲟⲓ  Ⲡⲁ⳪ : Ⲓⲏ̅ⲥ ⲡⲓⲣⲉϥϣⲉⲛϩⲏⲧ : ⲉⲑⲣⲓϯⲱⲟⲩ ⲛ̀ⲧⲁ⳪ : ⲧⲉⲕⲙⲁⲩ ⲛ̀ϣⲉⲗⲉⲧ.",
+        "Seigneur Jésus aide-moi♫ Toi miséricordieux♫ Pour glorifier Ta Mère♫ L’Épouse, notre Dame.",
+        "",
+        "أعنى يا ربي يسوع الرؤوف لأمجد سيدتي أمك العروس."
+    ],
+    [
+        Prefix.same + "&C=Assembly",
+        "Ⲅⲉ ⲅⲁⲣ ⲁ̀ⲗⲏⲑⲱⲥ : ⲁⲥϭⲓⲥⲓ ⲉ̀ⲙⲁϣⲱ : ⲛ̀ϫⲉ ⲧⲁⲓⲡⲁⲣⲑⲉⲛⲟⲥ : ⲉⲑⲙⲉϩ ⲛ̀ⲧⲁⲓⲟ̀.",
+        "Car oui en vérité♫ Elle est très élevée♫ Et magnifiée, cette Vierge♫ Comblée de tout honneur.",
+        "",
+        "لأنها بالحقيقة قد تعالت جدًا هذه العذراء المفعمة كرامة."
+    ],
+    [
+        Prefix.same + "&C=Assembly",
+        "Ⲇⲁⲩⲓⲇ ⲁϥⲥⲁϫⲓ ⲉⲑⲃⲏⲧⲥ : ϫⲉ ⲁ̀ Ⲡ⳪ ⲥⲱⲧⲡ ⲛ̀Ⲥⲓⲱⲛ : ⲁϥⲓ̀ ⲁϥϣⲱⲡⲓ ⲛ̀ϧⲏⲧⲥ : ϣⲁⲛ̀ⲧⲉϥⲥⲱϯ ⲙ̀ⲙⲟⲛ.",
+        "Et d'elle, David a dit:♫ Seigneur choisit Sion♫ Il est venu en elle♫ Afin de nous sauver.",
+        "",
+        "داود تكلم من أجلها قائلا الرب اختار صهيون وأتى وحل فيها حتى خلصنا."
+    ],
+    [
+        Prefix.same + "&C=Assembly",
+        "Ⲉⲧⲉ ⲑⲁⲓ ⲧⲉ Ⲙⲁⲣⲓⲁ̀ : ⲉⲧⲁⲥⲓ̀ⲛⲓ ϣⲁⲣⲟⲛ : ⲛ̀ϯⲉ̀ⲗⲉⲑⲩⲣⲓⲁ̀ : ⲛ̀ⲉ̀ⲱ̀ⲛⲓⲟⲛ.",
+        "Car telle es-tu Marie♫ Qui nous a apporté♫ A tous, la liberté♫ Pour toute éternité.",
+        "",
+        "أي مريم التي جلبت إلينا الحرية الأبدية."
+    ],
+    [
+        Prefix.same + "&C=Assembly",
+        "Ⲍⲁⲭⲁⲣⲓⲁⲥ ⲁϥϫⲟⲥ : ϫⲉ ϯⲗⲩⲭⲛⲓⲁ̀ ⲛ̀ⲛⲟⲩⲃ : ⲑⲏⲉ̀ⲧⲁⲩⲑⲁⲙⲓⲟⲥ : ϧⲉⲛ ϩⲁⲛϫⲓϫ ⲛ̀ⲛⲟⲩⲃ.",
+        "Et Zacharie dit d'elle:♫ Le chandelier en or♫ Qui était façonné♫ Avec des mains en or.",
+        "",
+        "زكريا قال إنها المنارة الذهب المصنوعة بأيادٍ ذهبية."
+    ],
+    [
+        Prefix.same + "&C=Assembly",
+        "Ⲏ̀ⲥⲁⲏ̀ⲁⲥ ⲁϥϫⲟⲥ ⲛⲁⲛ : ϧⲉⲛ ⲟⲩⲥ̀ⲙⲏ ⲛ̀ⲑⲉⲗⲏⲗ : ϫⲉ ⲉⲥⲉ̀ⲙⲓⲥⲓ ⲛⲁⲛ : ⲛ̀Ⲉⲙⲙⲁⲛⲟⲩⲏⲗ.",
+        "Et Isaïe disait♫ Par une voix joyeuse♫ Qu’elle nous enfantera♫ Pour nous Emmanuel",
+        "",
+        "إشعياء قال لنا بصوت التهليل إنها تلد لنا عمانوئيل."
+    ],
+    [
+        Prefix.same + "&C=Assembly",
+        "Ⲑⲁⲓ ⲧⲉ Ⲓⲗ̅ⲏ̅ⲙ : ⲧ̀ⲡⲟⲗⲓⲥ ⲙ̀Ⲡⲉⲛⲛⲟⲩϯ: ⲡ̀ϩⲁⲣⲙⲁ ⲛ̀Ⲛⲓⲭⲉⲣⲟⲩⲃⲓⲙ : ⲉⲧⲟⲓ ⲛ̀ⲟⲩⲑⲟ ⲛ̀ⲣⲏϯ.",
+        "Voici Jérusalem♫ Cité de notre Dieu♫ Le char des Chérubins♫ Radieuse pleine de lumière",
+        "",
+        "هذه هي أورشليم مدينة إلهنا مركبة الكاروبيم ذات الأنواع الكبيرة"
+    ],
+    [
+        Prefix.same + "&C=Assembly",
+        "Ⲓⲉⲍⲉⲕⲓⲏⲗ ⲁϥⲉⲣⲙⲉⲑⲣⲉ : ⲁϥⲟⲩⲱⲛϩ ⲛⲁⲛ ⲙ̀ⲫⲁⲓ : ϫⲉ ⲁⲓⲛⲁⲩ ⲉ̀ⲟⲩⲡⲩⲗⲏ : ⲛ̀ⲥⲁ ⲛⲓⲙⲁⲛϣⲁⲓ ",
+        "Ezéchiel a témoigné♫ Et nous a déclaré:♫ Voici j'ai vu une porte♫ Qui était à l’Orient.",
+        "",
+        "حزقيال شهد وأظهر لنا هذا قائلاً إني رأيت باباً ناحية المشارق."
+    ],
+    [
+        Prefix.same + "&C=Assembly",
+        "Ⲕⲩⲣⲓⲟⲥ Ⲡⲓⲣⲉϥⲛⲟϩⲉⲙ : ⲁϥϣⲉ ⲉ̀ⲟϧⲟⲩⲛ ϣⲁⲣⲟⲥ : ⲁⲥⲟ̀ϩⲓ ⲉⲥϣⲟⲧⲉⲙ : ⲙ̀ⲡⲉⲥⲣⲏϯ ⲕⲁⲗⲱⲥ.",
+        "Et le Seigneur Sauveur♫ Y est entré, mais elle♫ Est restée bien fermée♫ Gardée dans son état ",
+        "",
+        "الرب المخلص دخل فيه وبقى مغلقًا جيدًا بحاله."
+    ],
+    [
+        Prefix.same + "&C=Assembly",
+        "Ⲗⲁⲟⲥ ⲛⲓⲃⲉⲛ ⲥⲉϩⲱⲥ : ⲛⲉⲙ ⲛⲓⲁⲥⲡⲓ ⲛ̀ⲗⲁⲥ : ⲉ̀ϯⲑⲉⲟ̀ⲧⲟⲕⲟⲥ ⲑ̀ⲙⲁⲩ ⲙ̀Ⲙⲁⲥⲓⲁⲥ.",
+        "Tous les peuples, te louent♫ Te louent en toutes langues♫ Pour la Theotokos♫ La Mère du Messie.",
+        "",
+        "كل الشعوب يسبحون مع لغات الألسن لوالدة الإله أُم ماسيا."
+    ],
+    [
+        Prefix.same + "&C=Assembly",
+        "Ⲙⲁⲣⲓⲁ̀ ϯⲥⲉⲙⲛⲉ : ⲡ̀ⲟⲩⲛⲟϥ ⲛ̀ⲛⲓⲇⲓⲕⲉⲟⲥ : ⲟⲩⲟϩ ⲛ̀ⲁ̀ⲗⲏⲑⲓⲛⲏ : ⲫ̀ⲣⲁϣⲓ ⲛ̀ⲛⲓⲡⲓⲥⲧⲟⲥ.",
+        "Marie si chaste et pure♫ Elle est la joie des justes♫ Et la joie véritable♫ Joie de tous les fidèles.",
+        "",
+        "مريم العفيفة بهجة الصديقين. وبالحقيقة فرح المؤمنين. "
+    ],
+    [
+        Prefix.same + "&C=Assembly",
+        "Ⲛⲑⲟ ⲧⲉ ϯⲥ̀ⲕⲏⲛⲏ : ⲉⲧⲁ Ⲙⲱⲩ̀ⲥⲏⲥ ⲑⲁⲙⲓⲟⲥ : ϧⲉⲛ ⲟⲩⲛⲓϣϯ ⲛ̀ⲧⲓⲙⲏ : ⲟⲩⲟϩ ⲛ̀ϯⲕⲓⲃⲱⲧⲟⲥ.",
+        "Tu es le Tabernacle♫ Qu'a façonné Moïse♫ Avec beaucoup d’honneurs♫ Et l’Arche de l'Alliance.",
+        "",
+        "أنتِ هي القبة التي صنعها موسى بعظم كرامةٍ والتابوت."
+    ],
+    [
+        Prefix.same + "&C=Assembly",
+        "Ⲝⲁⲡ̀ϣⲱⲓ ⲉⲛⲓⲙⲉⲩⲓ̀ : ⲛ̀ⲉ̀ⲡⲟⲩⲣⲁⲛⲓⲟⲛ : ⲛ̀ϫⲉ ⲡⲁⲓϩⲱⲃ ⲛ̀ϣ̀ⲫⲏⲣⲓ : ⲛ̀ⲧⲉ ⲡⲓⲓ̀ⲗⲁⲥⲧⲏⲣⲓⲟⲛ.",
+        "Elle est plus élevée♫ Que toute pensée céleste♫ Cette chose merveilleuse♫ Qu’est le propitiatoire.",
+        "",
+        "متعالِ عن الأفكار السمائية هذا الأمر العجيب الذي للغطاء."
+    ],
+    [
+        Prefix.same + "&C=Assembly",
+        "Ⲟⲩⲛⲓϣϯ ⲡⲉ ⲡ̀ⲱ̀ⲟⲩ : ⲛ̀ⲧⲉ ⲧⲉⲡⲁⲣⲑⲉⲛⲓⲁ̀ : ⲱ̀ ⲑⲏⲉⲑⲙⲉϩ ⲛ̀ⲱ̀ⲟⲩ : ϯⲁ̀ⲅⲓⲁ Ⲙⲁⲣⲓⲁ̀.",
+        "Elle est grande la gloire♫ De ta virginité♫ Ô toi pleine de gloire♫ Ô toi Sainte Marie.",
+        "",
+        "عظيم هو مجد بتوليتك أيتها الممتلئة مجداً القديسة مريم."
+    ],
+    [
+        Prefix.same + "&C=Assembly",
+        "Ⲡⲓⲥ̀ⲧⲁⲙⲛⲟⲥ ⲉⲧⲧⲁⲓ̀ⲏⲟⲩⲧ : ⲟⲩⲟϩ ϯⲗⲩⲭⲛⲓⲁ̀ : ϯϣⲟⲩⲣⲏ ⲉⲧⲧⲟⲩⲃⲏⲟⲩⲧ : ⲉⲑⲙⲉϩ ⲛ̀ⲉⲩⲗⲟⲅⲓⲁ̀.",
+        "Tu es l'urne précieuse♫ Aussi le candélabre♫ Et l’encensoir si pur♫ Plein de bénédiction.",
+        "",
+        "القسط المكرم. والمنارة والمجمرة النقية المملوءة بركة."
+    ],
+    [
+        Prefix.same + "&C=Assembly",
+        "Ⲣⲁⲛ ⲛⲓⲃⲉⲛ ⲉⲧϭⲟⲥⲓ : ⲛ̀ⲧⲉ ⲛⲓⲁ̀ⲥⲱⲙⲁⲧⲟⲥ: ⲙ̀ⲡⲟⲩϣ̀ⲫⲟϩ ⲉ̀ⲡ̀ϭⲓⲥⲓ : ⲛ̀ⲧⲉ ⲛⲉⲙⲁⲕⲁⲣⲓⲥⲙⲟⲥ.",
+        "Tous les noms élevés♫ Des êtres incorporels♫ N'ont pas pu parvenir♫ A tes béatitudes.",
+        "",
+        "كل الأسماء العالية التي لغير المتجسدين لم يبلغوا إلى علو طوباويتك."
+    ],
+    [
+        Prefix.same + "&C=Assembly",
+        "Ⲥⲉⲧⲉⲛⲑⲱⲛϯ ⲉ̀ⲡⲓϣ̀ⲃⲱⲧ : ⲛ̀ⲧⲉ Ⲁⲁ̀ⲣⲱⲛ : ⲉⲧⲁϥⲫⲓⲣⲓ ̀ⲉ̀ⲃⲟⲗ ⲁϥⲣⲱⲧ : ⲟⲩⲟϩ ⲁϥϯⲕⲁⲣⲡⲟⲛ.",
+        "Et l'on t'a comparée♫ Au bâton d’Aaron♫ Qui a fleuri, germé♫ Et a produit du fruit.",
+        "",
+        "شُبهت بعصا هارون التي أزهرت وأنبتت وأعطت ثمرة. "
+    ],
+    [
+        Prefix.same + "&C=Assembly",
+        "Ⲧⲉϭⲟⲥⲓ ⲉ̀ⲙⲁϣⲱ : ⲉ̀ϩⲟⲧⲉ Ⲛⲓⲭⲉⲣⲟⲩⲃⲓⲙ : ⲧⲉⲧⲁⲓⲏ̀ⲟⲩⲧ ⲛ̀ϩⲟⲩⲟ̀ : ⲉⲚⲓⲥⲉⲣⲁⲫⲓⲙ. ",
+        "Tu es très élevée♫ Plus que les Chérubins♫ Et bien plus honorée♫ Que tous les Séraphins.",
+        "",
+        "مرتفعة أنتِ جدًا أكثر من الشاروبيم ومكرمة أكثر من السارافيم."
+    ],
+    [
+        Prefix.same + "&C=Assembly",
+        "Ⲩⲓⲟⲥ Ⲑⲉⲟⲥ Ⲡⲉⲛⲛⲟⲩϯ : ⲁⲣⲉⲙⲓⲥⲓ ⲙ̀ⲙⲟϥ : ⲧⲉⲛϯⲱ̀ⲟⲩ ⲛⲁϥ ϩⲱⲥ ⲛⲟⲩϯ : ⲟⲩⲟϩ ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟϥ.",
+        "Le Fils de notre Dieu♫ Toi tu l’as enfanté♫ Dieu que nous glorifions♫ Et que nous adorons.",
+        "",
+        "ابن الله إلهنا ولدته. نمجده كإله ونسجد له."
+    ],
+    [
+        Prefix.same + "&C=Assembly",
+        "Ⲫⲏⲉⲧϣⲟⲡ ϧⲉⲛ ⲡⲓⲟⲩⲱⲓⲛⲓ : ⲛ̀ⲁⲧϣ̀ϧⲱⲛⲧ ⲉ̀ⲣⲟϥ : ⲁϥⲟⲩⲱⲛϩ ⲛ̀ⲛⲉϥⲙⲏⲓⲛⲓ : ⲁⲉⲣϯ ⲉ̀ⲣⲱϯ ⲉ̀ⲣⲱϥ. ",
+        "Il est dans la Lumière♫ Que nul n'a approchée♫ Ses signes, il a montré♫ Et tu l’as allaité.",
+        "",
+        "الساكن في النور الذي لا يُدنى منه أظهر آياتِه وأرضعته اللبن."
+    ],
+    [
+        Prefix.same + "&C=Assembly",
+        "Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀ : ϯϭⲣⲟⲙⲡⲓ ⲉⲑⲛⲉⲥⲱⲥ : ⲉⲑⲙⲉϩ ⲛ̀ⲥⲟⲫⲓⲁ̀ : ⲑ̀ⲙⲁⲩ ⲛ̀Ⲓⲏ̅ⲥ Ⲡⲭ̅ⲥ.",
+        "Salut à toi Marie♫ Toi la belle Colombe♫ Si pleine de sagesse♫ Mère de Jésus Christ.",
+        "",
+        "السلام لك يا مريم الحمامة الحسنة الممتلئة حكمة أم يسوع المسيح."
+    ],
+    [
+        Prefix.same + "&C=Assembly",
+        "Ⲯⲉⲡⲓ ⲛ̀ⲧⲉ ⲛⲉⲛⲉ̀ϩⲟⲟⲩ : ⲧⲉⲛⲉⲣⲉⲩⲫⲟⲙⲓⲛ ⲙ̀ⲙⲟ : ⲱ̀ ⲑⲏⲉⲑⲙⲉϩ ⲛ̀ⲱ̀ⲟⲩ : ⲧⲉϫⲟⲗϩ ⲙ̀ⲡⲓⲧⲟⲩⲃⲟ. ",
+        "Le reste de nos jours♫ Nous voulons te louer♫ Ô si pleine de gloire♫ Vêtue de pureté.",
+        "",
+        "بقية أيامنا نمدحك أيتها المفعمة جداً. أنتِ مشتملة بالطهارة."
+    ],
+    [
+        Prefix.same + "&C=Assembly",
+        "Ⲱ̀ⲟⲩⲛ̀ϩⲏⲧ ⲡⲓⲙⲁⲓⲣⲱⲙⲓ: ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲉⲛ ⲡⲉⲕⲃⲱⲕ : ⲭⲱ ⲛⲁⲛ ̀ⲉ̀ⲃⲟⲗ ⲛ̀ⲛⲉⲛⲛⲟⲃⲓ : ⲟⲩⲟϩ ϣⲟⲡⲧⲉⲛ ⲉ̀ⲣⲟⲕ",
+        "Patiente, Ami des hommes♫ Avec ton serviteur♫ Pardonne nous nos péchés♫ Et puis accepte-nous.",
+        "",
+        "تأن يا محب البشر على عبدك واغفر لنا خطايانا واقبلنا إليك."
+    ]
+],
   [
     [
         Prefix.psalmody + "PsalyAdam&D=$Seasons.ApostlesFast&C=Title",
