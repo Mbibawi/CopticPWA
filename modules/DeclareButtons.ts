@@ -10,7 +10,7 @@ const Sequences = {
     Prefix.incenseDawn + "OblationsLitany",
     Prefix.incenseVespers + "DepartedLitany",
     Prefix.commonPrayer + "AngelsPrayer" + anyDay,
-    Prefix.incenseVespers + "LordKeepUsThisNight" + anyDay,
+    Prefix.incenseVespers + "LordKeepUsThisNight",
     Prefix.commonIncense + "Doxolgoies",
     Prefix.commonPrayer + "EfnotiNaynan",
     Prefix.commonIncense + "LiturgyEnd"
@@ -208,14 +208,14 @@ const Sequences = {
       Prefix.HolyWeek + "LakanProphecies&D=$copticFeasts.HolyThursday",
       Prefix.HolyWeek + "LakanSermony&D=$copticFeasts.HolyThursday",
       Prefix.massCommon + "BiEhmotGhar",
-      Prefix.anchor + "Readings" + anyDay,
+      Prefix.anchor + "Readings",
       Prefix.commonPrayer + "Agios&D=$copticFeasts.HolyThursday",
       Prefix.anchor + "GospelLitany",
       Prefix.incenseDawn + "SickLitany",
       Prefix.incenseDawn + "TravelersLitany",
       Prefix.massCommon + "SeasonalLitanyOfTheHarvest" + anyDay,
       Prefix.commonPrayer + "KyrieElieson",
-      Prefix.massCommon + "LitaniesFinal" + anyDay,
+      Prefix.massCommon + "SeasonalLitaniesConclusion",
       Prefix.commonPrayer + "KyrieElieson",
       Prefix.massCommon + "PresidentLitany",
       Prefix.incenseVespers + "DepartedLitany",
@@ -225,14 +225,14 @@ const Sequences = {
       Prefix.commonPrayer + "BlockShlil",
       Prefix.commonPrayer + "BlockIriniPassi",
       Prefix.commonPrayer + "ChurchLitany",
-      Prefix.commonPrayer + "PopeAndBishopLitany" + anyDay,
+      Prefix.commonPrayer + "PopeLitany",
       Prefix.commonPrayer + "MeetingsLitany",
       //Insert "Eyn Sophia Si Epros"
       Prefix.commonPrayer + "Creed",
       Prefix.massCommon + "LakanSpasmosAdamLong&D=$copticFeasts.HolyThursday",
       Prefix.massCommon + "DiaconResponseKissEachOther",
       Prefix.placeHolder,
-      Prefix.massCommon + "SpasmosAdamShort" + anyDay,
+      Prefix.massCommon + "SpasmosAdamShort",
       Prefix.HolyWeek + "LakanAnaphora&D=$copticFeasts.HolyThursday",
 
     ],
@@ -249,7 +249,7 @@ const Sequences = {
       Prefix.anchor + 'PropheciesIntro',//!provide
       Prefix.anchor + 'Prophecies',
       Prefix.anchor + 'PropheciesEnd',//!provide
-      Prefix.massCommon + "WeBowToYouJesusChrist" + anyDay,
+      Prefix.massCommon + "WeWorshipYouChrist",
       Prefix.anchor + 'StPaulIntro',//!provide
       Prefix.anchor + 'StPaul',
       Prefix.anchor + 'StPaulEnd',//!provide
@@ -259,7 +259,8 @@ const Sequences = {
       Prefix.incenseVespers + 'GospelCommentaryXXX',
       Prefix.gospelResponse + 'ProsternationXXX',
       Prefix.anchor + 'Litanies',
-      Prefix.massCommon + "DiaconResponseWorshipGodInFearAndTrembling" + anyDay,
+      Prefix.massCommon + "WorshipGodInFear",
+      Prefix.anchor + 'Doxologies',
       Prefix.incenseVespers + 'ProsternationLitanyXXX',
       Prefix.commonPrayer + "OurFatherWhoArtInHeaven",
     ],
@@ -269,31 +270,30 @@ const Sequences = {
     Prefix.anchor + "Prophecies",
     Prefix.massCommon + "Tayshoury",
     Prefix.anchor + "StPaul",
-    //Hymn St Jean
+    //!Hymn St Jean
     Prefix.commonPrayer + "Agios",
     Prefix.commonPrayer + "GospelLitany",
     Prefix.commonPrayer + "EfnotiNaynan",
-    //Kyrielison 10 times
-    //Hymne : J’ai vu l’Esprit saint descendre du ciel
+    //!Kyrielison 10 times
+    //!Hymne : J’ai vu l’Esprit saint descendre du ciel
     Prefix.incenseDawn + "SickLitany",
     Prefix.incenseDawn + "TravelersLitany",
-    //Season Litany
+    //!Season Litany
     Prefix.massCommon + "PresidentLitany",
     Prefix.incenseVespers + "DepartedLitany",
     Prefix.incenseDawn + "OblationsLitany",
-    Prefix.massCommon + "CatechumensLitany",
+    Prefix.massCommon + "CatechumensLitany", 
     Prefix.incenseDawn + "LakanLitany&D=$copticFeasts.Baptism",
     Prefix.commonIncense + "LitaniesIntroduction",
     Prefix.commonPrayer + "ChurchLitany",
-    Prefix.commonPrayer + "PopeAndBishopLitany",
+    Prefix.commonPrayer + "PopeLitany",
     Prefix.commonPrayer + "MeetingsLitany",
-    //["", "", "Avec la sagesse de Dieu soyons attentifs. Pitié Seigneur, Pitié Seigneur.", "", "انصتوا بحكمة الله، يا رب ارحم، يا رب ارحم، يا رب ارحم."]
+    //!["", "", "Avec la sagesse de Dieu soyons attentifs. Pitié Seigneur, Pitié Seigneur.", "", "انصتوا بحكمة الله، يا رب ارحم، يا رب ارحم، يا رب ارحم."]
     Prefix.commonPrayer + "Creed",
-    //Hymn: Voici le témoignage de Jean le baptiste
+    //!Hymn: Voici le témoignage de Jean le baptiste
     Prefix.massCommon + "DiaconResponseKissEachOther", //!Just the second part
     Prefix.massCommon + "SpasmosAdamShort",
     Prefix.incenseDawn + "Anaphora&D=$copticFeasts.Baptism",
-
     Prefix.commonIncense + "LiturgyEnd"
   ],
 };
@@ -647,7 +647,7 @@ const btnMassUnBaptised = new Button({
 
     let readingsAnchor: HTMLElement = selectElementsByDataSetValue(
       btnDocFragment,
-      Prefix.anchor + "Readings" + anyDay
+      Prefix.anchor + "Readings"
     )[0]; //this is the html element before which we will insert all the readings and responses
 
     (function insertIntercessionsHymnsForSeasons() {
@@ -969,7 +969,7 @@ const btnMassUnBaptised = new Button({
         if (!readings || readings.length === 0) return;
         readings = readings.filter(div => div && div[0]);
 
-
+        debugger
         if (readingIntro)
           //We start by inserting the introduction before the reading
           insertPrayersAdjacentToExistingElement({
@@ -987,7 +987,6 @@ const btnMassUnBaptised = new Button({
             position: { beforeOrAfter: "beforebegin", el: readings[0][1] },
             container: btnDocFragment,
           });
-
         if (readingEnd)
           //Then we insert the end of the reading
           insertPrayersAdjacentToExistingElement({
@@ -1988,7 +1987,7 @@ const btnIncenseMorning = new Button({
           AR: "ذكصولوجيات باكر آدام",
           FR: "Doxologies Adam du Matin",
         },
-        prayers: [findTable(Prefix.doxologies + "AdamDawn" + anyDay, DoxologiesArray) || undefined],
+        prayers: [findTable(Prefix.doxologies + "DawnAdam", DoxologiesArray) || undefined],
         languages: btnIncenseMorning.languages,
       })[1];
     })();
@@ -2103,10 +2102,10 @@ const btnIncenseMorning = new Button({
         if (!doxologiesAnchor) return;
 
         let sequence: string[] = [
-          Prefix.doxologies + "DawnWatosStMary" + anyDay,
-          Prefix.doxologies + "StMaykel" + anyDay,
+          Prefix.doxologies + isWatosOrAdam() + "StMary",
+          Prefix.doxologies + "StMaykel",
           Prefix.doxologies + "CelestialBeings",
-          Prefix.doxologies + "Apostles" + anyDay,
+          Prefix.doxologies + "Apostles",
           Prefix.doxologies + "StMarc",
           Prefix.doxologies + "StGeorge",
           Prefix.doxologies + "StMina",
@@ -2114,7 +2113,7 @@ const btnIncenseMorning = new Button({
         ];
 
         if (btn === btnIncenseVespers)
-          sequence[0] = sequence[0].replace("Dawn", "Vespers");
+          sequence[0] = Prefix.doxologies + 'WatosStMaryVespers';
 
         let excludedFeasts = [
           saintsFeasts.ArchangelMaykel,
@@ -2393,9 +2392,9 @@ const btnProsternation = new Button({
         psalmResponse: Prefix.psalmResponse + anyDay + "||$Seasons.Kiahk",
         Cymbals: [Prefix.cymbalVerses + "Watos"],
         Litanies: [
-          Prefix.commonPrayer + "ChurchLitany" + anyDay,//!needs check + convert font
-          Prefix.commonPrayer + "PopeAndBishopLitany" + anyDay,
-          Prefix.commonPrayer + "RequestedPrayersLitany" + anyDay,
+          Prefix.commonPrayer + "ChurchLitany",//!needs check + convert font
+          Prefix.commonPrayer + "PopeLitany",
+          Prefix.commonPrayer + "RequestedPrayersLitany",
           'Assembly Litany' //!missing
         ]
       },
@@ -2470,8 +2469,8 @@ const btnProsternation = new Button({
           if (index === 0) {
             clone.unshift(
               Prefix.bookOfHours + "Psalm116",
-              Prefix.psalmody + "Hos4" + anyDay,
-              Prefix.psalmody + "PsalyAdamOnSundayTheotoky" + anyDay,
+              Prefix.psalmody + "Hos4",
+              Prefix.psalmody + "PsalyOnTheotoky&D=0",
               Prefix.psalmody + "IntroductionToAdamTheotoky",
               Prefix.psalmody + "Theotoky" + '&D=0',
               Prefix.psalmody + "TheotokiesConclusion&D=$Seasons.PentecostalDays||$Seasons.Ascension",
@@ -2483,23 +2482,23 @@ const btnProsternation = new Button({
 
             let doxlogies =
               [
-                Prefix.incenseVespers + "LordKeepUsThisNight" + anyDay,
+                Prefix.incenseVespers + "LordKeepUsThisNight",
                 Prefix.commonPrayer + "Agios",
                 Prefix.commonPrayer + "OurFatherWhoArtInHeaven",
                 Prefix.commonPrayer + "InTheNameOfJesusOurLord",
                 Prefix.commonPrayer + "WeSaluteYouMary",
-                Prefix.doxologies + "DawnWatosStMary" + anyDay,
-                Prefix.doxologies + "CelestialBeings" + anyDay,
-                Prefix.doxologies + "Apostles" + anyDay,
-                Prefix.doxologies + "StMarc" + anyDay,
-                Prefix.doxologies + "Pope&" + anyDay,
+                Prefix.doxologies + "WatosStMary",
+                Prefix.doxologies + "CelestialBeings",
+                Prefix.doxologies + "Apostles",
+                Prefix.doxologies + "StMarc",
+                Prefix.doxologies + "Pope", //!missing
                 Prefix.doxologies + "EndOfDoxologiesWatos",
                 Prefix.commonPrayer + "WeExaltYouStMary",
                 Prefix.commonPrayer + "Creed",
                 Prefix.commonPrayer + "EfnotiNaynan",
               ];
-
-            clone.splice(clone.indexOf(Prefix.massCommon + "DiaconResponseWorshipGodInFearAndTrembling"), 0, ...doxlogies);
+            
+            clone.splice(clone.indexOf(Prefix.anchor + "Doxologies"), 1, ...doxlogies);
 
             let End: string[] = [
               Prefix.commonPrayer + "BlockInTheNameOfOurLord",
@@ -2718,8 +2717,7 @@ const btnMassStBasil = new Button({
       //Adding 2 buttons to redirect to the other masses at the Anaphora prayer After "By the intercession of the Virgin St. Mary"
       select = selectElementsByDataSetValue(
         btnDocFragment,
-        Prefix.massCommon + "SpasmosAdamShort" + anyDay,
-        { endsWith: true }
+        Prefix.massCommon + "SpasmosAdamShort",
       );
 
       redirectToAnotherMass(
@@ -2975,7 +2973,7 @@ const btnMassStBasil = new Button({
         btnLabels: { AR: "صلوات القسمة", FR: "Oraisons de la Fraction" },
         masterBtnID: "btnFractionPrayers",
         anchor: Array.from(btnDocFragment.children)
-          .find(child => child.id && child.id.startsWith(Prefix.anchor + "Fraction" + anyDay,)) as HTMLElement,
+          .find(child => child.id && child.id.startsWith(Prefix.anchor + "Fraction")) as HTMLElement,
       });
 
       function filter(): string[][][] {
@@ -3036,9 +3034,9 @@ const btnMassStCyril = new Button({
         "AgiosPart3",
         Prefix.commonPrayer + "KyrieElieson",
         Prefix.commonPrayer + "BlockIriniPassi",
-        Prefix.anchor + "Fraction" + anyDay,
+        Prefix.anchor + "Fraction",
         Prefix.commonPrayer + "OurFatherWhoArtInHeaven",
-        Prefix.massCommon + "Confession" + anyDay,
+        Prefix.massCommon + "Confession",
       ],
       ...Sequences.Mass.Communion,
     ];
@@ -3604,7 +3602,7 @@ const btnHolyWeek = new Button({
               let reading: string[][], anchor: HTMLElement[];
 
               (function insertLakanStPaul() {
-                anchor = selectElementsByDataSetValue(btn.docFragment, Prefix.anchor + "Readings" + anyDay);
+                anchor = selectElementsByDataSetValue(btn.docFragment, Prefix.anchor + "Readings");
 
                 if (anchor.length < 1) return console.log('Didn\'t find the anchor for St. Paul Reading');
 

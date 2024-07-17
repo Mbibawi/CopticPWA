@@ -1409,7 +1409,7 @@ function showPrayers(args: {
 
       let actorClass = splitTitle(row[0])[1] || 'NoActor';
      
-      if (!['Title', 'SubTitle'].includes(actorClass)
+      if (!['Title', 'SubTitle', 'ReadingIntro', 'ReadingEnd'].includes(actorClass)
         && !showActors.find(actor => actor.EN === actorClass)?.Show)
         return;
       return createHtmlElementForPrayer({
