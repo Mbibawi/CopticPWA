@@ -1,8 +1,7 @@
 const Sequences = {
   Incense: [
     //This is the generic sequence of any incense office (morning or evening). The onClick function triggered by btnIncenseDawn and btnIncenseVespers, will remove what is irrelevant and add keeps what needs to be kept
-    Prefix.incenseDawn + "IncenseDawnIntro",
-    Prefix.commonIncense + "EleysonImas",
+    Prefix.commonIncense + "Introduction",
     Prefix.bookOfHours + "Psalm50",
     Prefix.commonIncense + "LitaniesIntroduction",
     Prefix.incenseDawn + "SickLitany",
@@ -70,7 +69,7 @@ const Sequences = {
       Prefix.massCommon + "SaintsCommemoration",
       Prefix.massCommon + "CommemorationOfTheDeparted",
       Prefix.massCommon + "FractionIntroduction",
-      Prefix.commonPrayer + "OurFatherWhoArtInHeaven",
+      Prefix.commonPrayer + "OurFatherInHeaven",
       Prefix.commonPrayer + "BlockInTheNameOfOurLord",
       Prefix.massCommon + "PrayerForTheFather" + anyDay,
       Prefix.commonPrayer + "BlockIriniPassi",
@@ -94,8 +93,6 @@ const Sequences = {
 
       Prefix.psalmody + "CommentaryHos1",
 
-      Prefix.psalmody + "PsalyOnHos2",
-
       Prefix.psalmody + "Hos2",
 
       Prefix.psalmody + "LobshHos2",
@@ -109,6 +106,9 @@ const Sequences = {
       Prefix.psalmody + "TenOwehEnthok",
 
       Prefix.psalmody + "SaintsCommemoration",
+
+      Prefix.psalmody + "Doxologies",
+      //!Insert the rest of the doxologies
 
       Prefix.psalmody + "Hos4",
 
@@ -140,7 +140,7 @@ const Sequences = {
 
       Prefix.commonPrayer + "HolyLordOfSabaot",
 
-      Prefix.commonPrayer + "OurFatherWhoArtInHeaven",
+      Prefix.commonPrayer + "OurFatherInHeaven",
 
       Prefix.commonPrayer + "Agios",
 
@@ -202,7 +202,7 @@ const Sequences = {
 
     ],
     Lakan: [
-      Prefix.commonIncense + "EleysonImas",
+      Prefix.commonIncense + "Introduction",
       Prefix.cymbalVerses + "&D=$copticFeasts.HolyThursday",
       Prefix.bookOfHours + "Psalm50",
       Prefix.HolyWeek + "LakanProphecies&D=$copticFeasts.HolyThursday",
@@ -242,7 +242,7 @@ const Sequences = {
   },
   Prosternation:
     [
-      Prefix.commonIncense + "EleysonImas",
+      Prefix.commonIncense + "Introduction",
       Prefix.anchor + 'Cymbals',
       Prefix.cymbalVerses + anyDay,
       Prefix.bookOfHours + "Psalm50",
@@ -262,10 +262,10 @@ const Sequences = {
       Prefix.massCommon + "WorshipGodInFear",
       Prefix.anchor + 'Doxologies',
       Prefix.incenseVespers + 'ProsternationLitanyXXX',
-      Prefix.commonPrayer + "OurFatherWhoArtInHeaven",
+      Prefix.commonPrayer + "OurFatherInHeaven",
     ],
   Lakkan: [
-    Prefix.commonIncense + "EleysonImas",
+    Prefix.commonIncense + "Introduction",
     Prefix.bookOfHours + "Psalm50",
     Prefix.anchor + "Prophecies",
     Prefix.massCommon + "Tayshoury",
@@ -741,11 +741,12 @@ const btnMassUnBaptised = new Button({
     await insertMassReadingsAndResponses();
 
     async function insertMassReadingsAndResponses() {
+
       let specialResponse: (string[][] | HTMLDivElement)[];
+
       //St. Paul
       await insertMassReading(
         Prefix.stPaul,
-        ReadingsArrays.StPaulArrayFR,
         ReadingsIntrosAndEnds.stPaulIntro,
         ReadingsIntrosAndEnds.stPaulEnd
       );
@@ -771,7 +772,6 @@ const btnMassUnBaptised = new Button({
       //Catholicon
       await insertMassReading(
         Prefix.Catholicon,
-        ReadingsArrays.CatholiconArrayFR,
         ReadingsIntrosAndEnds.CatholiconIntro,
         ReadingsIntrosAndEnds.CatholiconEnd
       );
@@ -887,7 +887,6 @@ const btnMassUnBaptised = new Button({
       //Praxis
       await insertMassReading(
         Prefix.praxis,
-        ReadingsArrays.PraxisArrayFR,
         ReadingsIntrosAndEnds.praxisIntro,
         ReadingsIntrosAndEnds.praxisEnd
       );
@@ -930,7 +929,6 @@ const btnMassUnBaptised = new Button({
 
         await insertMassReading(
           Prefix.synaxarium,
-          ReadingsArrays.SynaxariumArrayFR,
           intro,
           undefined,
           copticDate
@@ -950,16 +948,16 @@ const btnMassUnBaptised = new Button({
 
       async function insertMassReading(
         readingPrefix: string,
-        readingArray: string[][][],
         readingIntro: { AR: string; FR: string; EN: string },
         readingEnd: { AR: string; FR: string; EN: string },
         date: string = copticReadingsDate
       ) {
-        let readings;
+        if (!readingPrefix) return;
+
+      let  readings;
 
         readings = await insertMassReadingOtherThanGospel(
           readingPrefix,
-          readingArray,
           { beforeOrAfter: "beforebegin", el: readingsAnchor },
           btnDocFragment,
           false,
@@ -969,7 +967,6 @@ const btnMassUnBaptised = new Button({
         if (!readings || readings.length === 0) return;
         readings = readings.filter(div => div && div[0]);
 
-        debugger
         if (readingIntro)
           //We start by inserting the introduction before the reading
           insertPrayersAdjacentToExistingElement({
@@ -1056,7 +1053,6 @@ const btnMassUnBaptised = new Button({
 
       await getGospelReadingAndResponses({
         liturgy: Prefix.gospelMass,
-        prayersArray: ReadingsArrays.GospelMassArrayFR,
         languages: getLanguages(Prefix.gospelMass),
         container: btnDocFragment,
         isMass: true,
@@ -1242,7 +1238,7 @@ const btnMassUnBaptised = new Button({
 
             let children = Array.from(expandable.children) as HTMLDivElement[];
 
-            collapseAllTitles(children);
+            children.filter(div => isTitlesContainer(div)).forEach(div => collapseOrExpandText(div, true,undefined, undefined, expandable));
 
             let rightSideBarTitles =
               await showTitlesInRightSideBar(
@@ -1290,7 +1286,7 @@ const btnMassUnBaptised = new Button({
             HailMaria: string = "WeSaluteYouMary",
             WeExaltYou: string = "WeExaltYouStMary",
             Creed: string = "Creed",
-            OurFather: string = "OurFatherWhoArtInHeaven";
+            OurFather: string = "OurFatherInHeaven";
 
           if (hoursBtns.indexOf(hourBtn) === hoursBtns.length - 1) {
             //This is the last hour btn
@@ -1330,7 +1326,6 @@ const btnReadingsStPaul = new Button({
   onClick: async () => {
     await insertMassReadingOtherThanGospel(
       Prefix.stPaul,
-      ReadingsArrays.StPaulArrayFR,
       { beforeOrAfter: undefined, el: undefined },
       containerDiv,
       true
@@ -1349,7 +1344,6 @@ const btnReadingsCatholicon = new Button({
   onClick: async () => {
     await insertMassReadingOtherThanGospel(
       Prefix.Catholicon,
-      ReadingsArrays.CatholiconArrayFR,
       { beforeOrAfter: undefined, el: undefined },
       containerDiv,
       true
@@ -1367,7 +1361,6 @@ const btnReadingsPraxis = new Button({
   onClick: async () => {
     await insertMassReadingOtherThanGospel(
       Prefix.praxis,
-      ReadingsArrays.PraxisArrayFR,
       { beforeOrAfter: undefined, el: undefined },
       containerDiv,
       true
@@ -1385,7 +1378,6 @@ const btnReadingsSynaxarium = new Button({
   onClick: async () => {
     await insertMassReadingOtherThanGospel(
       Prefix.synaxarium,
-      ReadingsArrays.SynaxariumArrayFR,
       { beforeOrAfter: undefined, el: undefined },
       containerDiv,
       true,
@@ -1404,7 +1396,6 @@ const btnPropheciesMorning = new Button({
   onClick: async () => {
     await insertMassReadingOtherThanGospel(
       Prefix.prophecies,
-      ReadingsArrays.PropheciesDawnArrayFR,
       { beforeOrAfter: undefined, el: undefined },
       containerDiv,
       true
@@ -1501,8 +1492,8 @@ const btnBookOfHours = new Button({
   onClick: (returnBtnChildren: boolean = false) => {
     if (btnBookOfHours.children.length > 1) return btnBookOfHours.children;
 
-    let OurFatherWhoArtInHeaven: string =
-      Prefix.commonPrayer + "OurFatherWhoArtInHeaven",
+    let OurFatherInHeaven: string =
+      Prefix.commonPrayer + "OurFatherInHeaven",
       AngelsPrayers: string =
         Prefix.commonPrayer + "AngelsPrayer" + anyDay,
       HailToYouMaria: string =
@@ -1641,16 +1632,16 @@ const btnBookOfHours = new Button({
               endOfHourPrayersSequence: string[] = [
                 AngelsPrayers,
                 Agios,
-                OurFatherWhoArtInHeaven,
+                OurFatherInHeaven,
                 HailToYouMaria,
                 WeExaltYou,
                 Creed,
                 KyrielisonIntro,
                 HolyLordOfSabaot,
-                OurFatherWhoArtInHeaven,
+                OurFatherInHeaven,
                 Prefix.bookOfHours + hourName + "End",
                 AllHoursFinalPrayer,
-                OurFatherWhoArtInHeaven,
+                OurFatherInHeaven,
               ];
 
             if (btnLable === bookOfHours.MidNight1Hour[1])
@@ -1668,7 +1659,7 @@ const btnBookOfHours = new Button({
                 5,
                 KyrielisonIntro,
                 HolyLordOfSabaot,
-                OurFatherWhoArtInHeaven,
+                OurFatherInHeaven,
                 Prefix.bookOfHours + hourName + "2ndGospel"
               );
               //Inserting the Priests Absolution at the end
@@ -1689,7 +1680,7 @@ const btnBookOfHours = new Button({
               btn.prayersSequence.push(
                 KyrielisonIntro,
                 HolyLordOfSabaot,
-                OurFatherWhoArtInHeaven
+                OurFatherInHeaven
               );
             }
           })();
@@ -1862,7 +1853,6 @@ const btnIncenseMorning = new Button({
 
     await getGospelReadingAndResponses({
       liturgy: gospelPrefix,
-      prayersArray: getTablesArrayFromTitlePrefix(gospelPrefix),
       languages: getLanguages(gospelPrefix),
       container: btnDocFragment,
       isMass: true,
@@ -2484,7 +2474,7 @@ const btnProsternation = new Button({
               [
                 Prefix.incenseVespers + "LordKeepUsThisNight",
                 Prefix.commonPrayer + "Agios",
-                Prefix.commonPrayer + "OurFatherWhoArtInHeaven",
+                Prefix.commonPrayer + "OurFatherInHeaven",
                 Prefix.commonPrayer + "InTheNameOfJesusOurLord",
                 Prefix.commonPrayer + "WeSaluteYouMary",
                 Prefix.doxologies + "WatosStMary",
@@ -3035,7 +3025,7 @@ const btnMassStCyril = new Button({
         Prefix.commonPrayer + "KyrieElieson",
         Prefix.commonPrayer + "BlockIriniPassi",
         Prefix.anchor + "Fraction",
-        Prefix.commonPrayer + "OurFatherWhoArtInHeaven",
+        Prefix.commonPrayer + "OurFatherInHeaven",
         Prefix.massCommon + "Confession",
       ],
       ...Sequences.Mass.Communion,
@@ -3149,8 +3139,7 @@ const btnGospelMass = new Button({
 
     await getGospelReadingAndResponses({
       liturgy: gospelPrefix,
-      prayersArray: prayersArray[2](),
-      languages: getLanguages(prayersArray[0]),
+      languages: getLanguages(gospelPrefix),
       container: containerDiv,
       isMass: false,
       clearContainer: true,
@@ -3639,7 +3628,6 @@ const btnHolyWeek = new Button({
                 (function insertGospelReading() {
                   getGospelReadingAndResponses({
                     liturgy: Prefix.gospelMorning,
-                    prayersArray: ReadingsArrays.GospelMorningArrayFR,
                     languages: getLanguages(Prefix.gospelMorning),
                     container: btn.docFragment,
                     isMass: true,
@@ -4351,19 +4339,22 @@ function floatOnTopOrBottom(
  */
 async function insertMassReadingOtherThanGospel(
   readingPrefix: string,
-  readingArray: string[][][],
   position: { beforeOrAfter: InsertPosition; el: HTMLElement },
   container: HTMLElement | DocumentFragment = containerDiv,
   clearContainer: boolean = false,
   readingDate?: string
 ): Promise<HTMLElement[][] | void> {
   //@ts-ignore
-  if (clearContainer) container.innerHTML = "";
+  if(!readingPrefix) return;
+  if (container === containerDiv && clearContainer)
+    container.innerHTML = "";
   if (container.children.length === 0)
     container.appendChild(document.createElement("div"));
   if (!position.el) position.el = container.children[0] as HTMLElement;
   if (!position.beforeOrAfter) position.beforeOrAfter = "beforebegin";
   if (!readingDate) readingDate = copticReadingsDate;
+
+  let readingArray = PrayersArraysKeys.find(array => array[0] === readingPrefix)[2]();
 
   let reading = readingArray.find((table) => isMultiDatedTitleMatching(splitTitle(table[0][0])[0], [readingDate]));
 
@@ -4732,26 +4723,23 @@ async function scrollToTop() {
 async function getGospelReadingAndResponses(args: {
   isMass: boolean;
   liturgy: string;
-  prayersArray: string[][][];
   languages: string[];
   container?: HTMLElement | DocumentFragment;
   clearContainer?: boolean;
 }) {
+  if (!args.liturgy)
+  return console.log(
+    "the button passed as argument does not have prayersArray"
+  );
   if (!args.container) args.container = containerDiv;
   if (args.container === containerDiv && args.clearContainer)
     args.container.innerHTML = "";
   if (args.container.children.length === 0)
-    args.container.appendChild(document.createElement("div"));
-  if (!args.prayersArray)
-    return console.log(
-      "the button passed as argument does not have prayersArray"
-    );
-
+      args.container.appendChild(document.createElement("div"));
   if (!args.languages)
-    args.languages = getLanguages(PrayersArraysKeys.find(array => array[2]() === args.prayersArray)[0]);
+        args.languages = getLanguages(args.liturgy);
 
-  let baseDataRoot =
-    Prefix.anchor + "XXX" + anyDay;
+  let prayersArray: string[][][] = PrayersArraysKeys.find(array => array[0] === args.liturgy)[2]();
 
   let prayersSequence: string[] = setGospelPrayersSequence(
     args.liturgy,
@@ -4759,12 +4747,11 @@ async function getGospelReadingAndResponses(args: {
   ); //this gives us an array like ['PR_&D=####', 'RGID_Psalm&D=', 'RGID_Gospel&D=', 'GR_&D=####']
 
   //We will retrieve the tables containing the text of the gospel and the psalm from the GospeldawnArray directly (instead of call findAndProcessPrayers())
-  let date = copticReadingsDate;
 
   let gospel: string[][][] =
-    args.prayersArray
+    prayersArray
       .filter((table) =>
-        isMultiDatedTitleMatching(splitTitle(table[0][0])[0], [date]));
+        isMultiDatedTitleMatching(splitTitle(table[0][0])[0], [copticReadingsDate]));
 
   if (gospel.length === 0) return console.log("gospel.length = 0"); //if no readings are returned from the filtering process, then we end the function
 
@@ -4777,7 +4764,7 @@ async function getGospelReadingAndResponses(args: {
 
     addExpandablePrayer({
       prayers: [tbl],
-      insertion: setInsertionPoint("Gospel&D=")?.previousElementSibling as HTMLElement,
+      insertion: getAnchor("Gospel")?.previousElementSibling as HTMLElement,
       btnID: 'PopePsalm',
       languages: prayersLanguages,
       label: {
@@ -4794,9 +4781,9 @@ async function getGospelReadingAndResponses(args: {
   (function insertPsalmAndGospelResponses() {
     if (!args.isMass) return; //If we are not calling the function with a Mass or a liturgy (Unbpaptized Mass, or Incense Dawn/Vespers) context, we will not insert the Gospel and Psalm responses
 
-    insertResponse(3, setInsertionPoint('Gospel&D=')?.nextElementSibling as HTMLElement, 'beforebegin');//Inserting Gospel Response
+    insertResponse(3, getAnchor('Gospel')?.nextElementSibling as HTMLElement, 'beforebegin');//Inserting Gospel Response
 
-    insertResponse(0, setInsertionPoint('PsalmResponse&D='), 'beforebegin');//Inserting Psalm Response if any
+    insertResponse(0, getAnchor('PsalmResponse'), 'beforebegin');//Inserting Psalm Response if any
 
     function insertResponse(index: number, el: HTMLElement, position: InsertPosition) {
       let response: string[][] = PsalmAndGospelArray.find(
@@ -4821,40 +4808,32 @@ async function getGospelReadingAndResponses(args: {
  * Appends the gospel and psalm readings before gospelInsertionPoint(which is an html element)
  */
   async function insertPsalmAndGospelReadings() {
-    if (!args.isMass) {
-      //If we are not showing the gospel reading in a Mass context (i.e., if the user is clicking on the 'Day Readings Button' to show the readings of the day). We will create a  div container  to which we will append the reading text. We will append the container div as first element of containerDiv
-      containerDiv.append(document.createElement("div"));
-      gospel = gospel?.filter(tbl => tbl[0][0]?.includes('Gospel&D='))
-    }
 
     await Promise.all(gospel
       .map(async table => {
-        //!We can't user forEach because forEach dosen't await for promises to resolve
+        //!We can't use forEach because forEach dosen't await for promises to resolve
         //gospel[] should include 2 tables: the first table is the psalm and its title is like '....Psalm&D=...'. The 2nd is the gospel: its title is like '....Gospel&D=...'.
-        table = await retrieveReadingTableFromBible(table, args.languages);
+        if (!args.isMass && table[0][0]?.includes('Psalm&D=')) return;
 
         insertPrayersAdjacentToExistingElement({
-          tables: [getGospelOrPsalmTable()],
+          tables: await getGospelOrPsalmTable(table),
           languages: args.languages,
           position: {
             beforeOrAfter: "beforebegin",
-            el: setInsertionPoint(table[0][0]),
+            el: getAnchor(table[0][0].split(args.liturgy)[1].split('&D=')[0]),
           },
           container: args.container,
         });
 
-        function getGospelOrPsalmTable(): string[][] {
-          if (!args.isMass) return table;
-
+        async function getGospelOrPsalmTable(tbl:string[][]): Promise<string[][][]> {
           //! We didn't push the array to the table directly because otherwise it will add a new row to the original table each time we click on the Unbaptised Mass button or the Gospel Reading button
-
-
           //We will include the gospel end: 'Glory To God Forever' and the Psalm End 'Hallelujah'
 
-          if (table[0][0]?.includes('Gospel&D='))
-            return [...table, getReadingEnd(ReadingsIntrosAndEnds.gospelEnd)]; //We return a copy of the table not the original table in order to avoid modifying the original table.
-          else if (table[0][0]?.includes('Psalm&D='))
-            return [...table, getReadingEnd(ReadingsIntrosAndEnds.psalmEnd)]; //We return a copy of the table not the original table in order to avoid modifying the original table.
+          if (!args.isMass) return [await retrieveReadingTableFromBible(tbl, args.languages)];
+          else if (tbl[0][0]?.includes('Gospel&D='))
+            return [[...await retrieveReadingTableFromBible(tbl, args.languages), getReadingEnd(ReadingsIntrosAndEnds.gospelEnd)]]; //We return a copy of the table not the original table in order to avoid modifying the original table.
+          else if (tbl[0][0]?.includes('Psalm&D='))
+            return [[...await retrieveReadingTableFromBible(tbl, args.languages), getReadingEnd(ReadingsIntrosAndEnds.psalmEnd)]]; //We return a copy of the table not the original table in order to avoid modifying the original table.
 
           function getReadingEnd(end: { AR: string; FR: string; EN: string }): string[] {
             //We will return an array (i.e., a new row in the table) containing the text of the "Gospel End" (Glory to God Forever) in each language. This array needs to be constructed like this: ['Row title', 'End text in Arabic, 'End text in French or whatever other western language', 'End text in English']
@@ -4872,18 +4851,13 @@ async function getGospelReadingAndResponses(args: {
 
   };
 
-  function setInsertionPoint(tableTitle: string): HTMLDivElement {
-    if (!args.isMass)
+  function getAnchor(root: string): HTMLDivElement {
+    if (!args.isMass){
       //If we are not displaying the gospel in a Mass or a liturgy context, we don't need to insert the psalm. We will just show the text of the gospel reading itself. Hence, the div element will be same as args.gospelInsertionPoint
-      return containerDiv.children[0] as HTMLDivElement;
-    else return getAnchor(
-      baseDataRoot.replace('XXX',
-        ['Psalm', 'PsalmResponse', 'Gospel'].find(word => tableTitle.includes(word + '&D=')))
-    );
-
-    function getAnchor(dataRoot: string) {
-      return selectElementsByDataSetValue(args.container, dataRoot, undefined, 'root')[0];
+      containerDiv.appendChild(document.createElement('div'));
+      return containerDiv.children[0] as HTMLDivElement
     }
+    else return selectElementsByDataSetValue(args.container, Prefix.anchor + root, undefined, 'root')[0];
   };
 
   /**

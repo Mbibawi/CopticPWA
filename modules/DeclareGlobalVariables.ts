@@ -144,7 +144,7 @@ class Button {
 }
 //CONSTANTS
 const version: string =
-  "v7.1.9 (Added new prayers to the Psalmody)";
+  "v8.1 (Fixes to the readings)";
 const calendarDay: number = 24 * 60 * 60 * 1000; //this is a day in milliseconds
 const containerDiv: HTMLDivElement = document.getElementById(
   "containerDiv") as HTMLDivElement;

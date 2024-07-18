@@ -1694,7 +1694,8 @@ function collapseOrExpandText(
   titleRow: HTMLDivElement,
   collapse?: boolean,
   children?: HTMLDivElement[],
-  titlesRows?: HTMLDivElement[]
+  titlesRows?: HTMLDivElement[],
+  container:HTMLDivElement = containerDiv
 ) {
   if (localStorage.displayMode === displayModes[1]) return; //When we are in the 'Presentation' display mode, the titles sibligins are not hidden when we click the title div
 
@@ -1715,11 +1716,11 @@ function collapseOrExpandText(
 
   if (!children)
     children =
-      Array.from(containerDiv.querySelectorAll('div') as NodeListOf<HTMLDivElement>)
+      Array.from(container.querySelectorAll('div') as NodeListOf<HTMLDivElement>)
         //!We must use querySelectorAll because some elements are not direct children of containerDiv (e.g. they may be nested in an expandable element)
         .filter(div => div?.children?.length > 0) //We exclude rows with no children (those are PlaceHolders)
         .filter(div => div?.dataset?.group)
-        .filter(div => div?.dataset?.group === titleRow.dataset.group);
+        .filter(div => div.dataset.group === titleRow.dataset.group);
 
   if (!titlesRows)
     titlesRows = children.filter((div) => isTitlesContainer(div));//Those are all the "Title" divs having the same data-group as titleRow

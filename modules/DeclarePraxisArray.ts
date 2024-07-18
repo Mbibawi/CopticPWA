@@ -427,7 +427,7 @@ ReadingsArrays.PraxisArrayFR = [[
         Prefix.praxis + "&D=2708||1009&C=Title",
     ],
     [
-        Prefix.readingRef + "ACT:19:23-41",
+        Prefix.readingRef + "ACT:19:23-End",
     ],
 ],
 [
