@@ -99,7 +99,7 @@ class Button {
     }
 }
 //CONSTANTS
-const version = "v8.1 (Fixes to the readings)";
+const version = "v8.2 (Fixes to the readings)";
 const calendarDay = 24 * 60 * 60 * 1000; //this is a day in milliseconds
 const containerDiv = document.getElementById("containerDiv");
 const leftSideBar = document.getElementById("leftSideBar");

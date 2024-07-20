@@ -4468,7 +4468,7 @@ async function retrieveReadingTableFromBible(reading: string[][], langs: string[
     if (!lang) return;
     if (![defaultLanguage, foreingLanguage].includes(lang)) return '';
 
-    let parts: string[], refs: string[], verses: string[];
+    let parts: string[], refs: string[], verses: (string|Error)[];
 
     refs = ref.split('/');
 
@@ -4483,8 +4483,7 @@ async function retrieveReadingTableFromBible(reading: string[][], langs: string[
         verses = await Promise.all(
           parts[2]
             .split('/')
-            .map(async versesRange =>
-              await retrieveVersesText(lang, parts[0], parts[1], versesRange) || ''));
+            .map(async versesRange => await retrieveVersesText(lang, parts[0], parts[1], versesRange)|| "Error: Failed to retrieve verses"));
 
         if (parts[0] === "PSA")
           return verses.join(' '); //We don't split the psalm into paragraphs
@@ -4526,7 +4525,7 @@ async function retrieveReadingTableFromBible(reading: string[][], langs: string[
         book[1]
           .find(chapter =>
             book[1].indexOf(chapter) === Number(ref.split(':')[1]) - 1)
-          .filter(verse => verse?.length === 2)
+          ?.filter(verse => verse?.length === 2)
           .length.toString());
 
       titleRow[langs.indexOf(lang) + 1] =
@@ -4555,7 +4554,7 @@ async function retrieveReadingTableFromBible(reading: string[][], langs: string[
    * @param {string} verses - the verses to be retrieved. It provides a range of verses separated by '-' (eg.: "13-20")
    * @returns {string} the text of the verses whit
    */
-  async function retrieveVersesText(lang: string, bookID: string, chapterNumber: string, verses: string): Promise<string> {
+  async function retrieveVersesText(lang: string, bookID: string, chapterNumber: string, verses: string): Promise<string|Error> {
 
     let exists = Array.from(ready).find(array => array[0] === bookID + ":" + chapterNumber + ":" + lang);
 
@@ -4564,57 +4563,58 @@ async function retrieveReadingTableFromBible(reading: string[][], langs: string[
 
     if (!lang) {
       alert('The language is not valid. Error from retrieveVersesText()');
-      return
+      return new Error("The language is not valid. Error from retrieveVersesText()");
     };
 
     if (lang === 'CA') lang = 'AR';
 
     if (![defaultLanguage, foreingLanguage].includes(lang)) return '';//We return an empty string if the language is not either the defaultLanguage or the foreignLanguage because in all cases those are the only languages that the user will be able to see. No need to retrieve a language that will not be retrieved
     if (!chapterNumber || !verses) {
-      alert('either chapter number or verses arre not valid. Error from retrieveVersesText()');
+      //alert('either chapter number or verses arre not valid. Error from retrieveVersesText()');
       console.log('chapterNumber = ', chapterNumber, "verses = ", verses);
-      return
+      return new Error("Failed to retrieve verse");
     };
     if (!bookID || bookID.length > 3) {
-      alert('either bookID is not valid or bookID length>3. Error from retrieveVersesText()');
+      //alert('either bookID is not valid or bookID length>3. Error from retrieveVersesText()');
       console.log('bookID = ', bookID);
-      return
+      return new Error("Failed to retrieve verse");
     };//books ids are 3 letters length
     let Bible: Bible = await getBibleVersion(lang, false);
     if (!Bible) {
-      alert('The ' + { FR: "French", AR: 'Arabic', EN: 'English' }[lang] + ' has not been loaded yet');
-      return
+      //alert('The ' + { FR: "French", AR: 'Arabic', EN: 'English' }[lang] + ' has not been loaded yet');
+      return new Error("Failed to retrieve verse");
     };
 
     let chapterVerses: bibleVerse[] = getBibleChapter(chapterNumber, undefined, Bible, bookID);
 
     if (!chapterVerses) {
-      alert('No verses could be retrieved. Error from retrieveVersesText()');
+      //alert('No verses could be retrieved. Error from retrieveVersesText()');
       console.log('chapterVerses = ', chapterVerses);
-      return
+      return new Error("Failed to retrieve verse");
     };
 
     ready.add([bookID + ":" + chapterNumber + ":" + lang, chapterVerses])
 
     return getVersesRange(chapterVerses, verses.split('-'));
 
-    function getVersesRange(chapter: bibleChapter, range: string[]): string {
+    function getVersesRange(chapter: bibleChapter, range: string[]): string|Error {
       if (range.length !== 2) {
-        alert('verses.length !==2. Error from getVersesRange()');
+        //alert('verses.length !==2. Error from getVersesRange()');
         console.log('bookID = ', bookID);
-        return
+        return new Error("Failed to retrieve verse");
       };
 
       while (chapter[chapter.length - 1].length < 2) chapter.pop(); //!This action must be performed before processing the verses references. We remove the last element of the chapter if it is not a verese.
 
       if (range[1].toUpperCase() === 'END')
         range[1] = chapter[chapter.length - 1][0];
-      if (!Number(range[0]) || !Number(range[1])) return;
+      if (!Number(range[0]) || !Number(range[1]))
+        return new Error("range[0] or range[1] is not a number");;
 
-      let first = chapter.find(verse => verse[0] === range[0]);
-      if (!first) return;
-      let last = chapter.find(verse => verse[0] === range[1]);
-      if (!last) return;
+      let first = chapter.find(verse => verse && verse[0] === range[0]);
+      if (!first) return new Error("could not retrieve 'first'");
+      let last = chapter.find(verse => verse && verse[0] === range[1]);
+      if (!last) return new Error("could not retrieve 'last'");
       return chapter.slice(chapter.indexOf(first), chapter.indexOf(last) + 1)
         .map(verse => getVerseText(verse))
         .join('');

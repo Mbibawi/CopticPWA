@@ -10372,6 +10372,29 @@ function _HelperPrepareArabicChant() {
   localStorage.temp = text;
 }
 
+
+async function _testReadingsRefs(array:string[][][]){
+  let reading: string[][], failed = '', table:string[][];
+  setCopticDates(new Date("2023.12.31"));
+
+  for (let i = 1; i < 367; i++) {
+    changeDate(undefined, true, undefined, false);
+    table = array.find(tbl => tbl[0][0].includes(copticReadingsDate));
+
+    if (!table) {
+      failed += '["copticReadingDate = ' + copticReadingsDate + '"],\n';
+      continue
+    };
+    
+    reading = await retrieveReadingTableFromBible(table, ['AR', 'FR']);
+    if (!reading || reading.map(row => row.join('')).join('\n').includes('Error:')) {
+    failed += '["' + table[0][0] + '"],\n'
+  }
+  }
+  exportToJSFile(failed, 'FailedReadings')
+
+}
+
 /**
  * Tests if the readings are available for all the days
  */
@@ -10617,4 +10640,49 @@ function _fixReadingArray(array: string[][][]) {
   );
   saveOrExportArray(array, getArrayNameFromArray(array), true, false);
 
+}
+
+function _MergeDuplicateReadings(array:string[][][]){
+
+return mergeReadings(array).filter(tbl=>!tbl[0][0].startsWith('Removed'));
+
+  function mergeReadings(array:string[][][]):string[][][]{
+    let similar: string[][][], title: string, refs: string;
+    
+    array.forEach(table => {
+      if (table.length === 1 && table[0][0].startsWith('Removed')) return;
+      refs = getTableRefs(table);
+      similar = array.filter(tbl => tbl[0][0] !== table[0][0] && getTableRefs(tbl) === refs);
+      if (similar.length < 1) return;
+
+      console.log('similar = ', similar);
+
+      title = getReadingDate(table[0][0]);
+      title += similar.map(tbl => '||' + getReadingDate(tbl[0][0])).join('');
+      
+      table[0][0] = table[0][0].split('&D=')[0] + '&D=' + title + '&C=' + table[0][0].split('&C=')[1];
+      
+
+
+      similar.forEach(tbl => array[array.indexOf(tbl)] = [['Removed' + getReadingDate(tbl[0][0])]]);
+      
+    });
+    console.log('Cleaned Array = ', array);
+    return array
+    
+  }
+  function getTableRefs(table:string[][]):string {
+    return table.map(row => {
+      if (!row.find(el => el.startsWith(Prefix.readingRef))) return '';
+      return row.map(el=> getCleanRef(el)).join('')
+    }).join('');
+  }
+
+  function getCleanRef(ref:string) {
+    return ref.split(Prefix.readingRef)[1].split('&C=')[0].replace(' ', '')
+  }
+
+  function getReadingDate(title: string) {
+    return title.split('&D=')[1].split('&C=')[0];
+  }
 }

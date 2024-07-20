@@ -1307,7 +1307,7 @@ ReadingsArrays.GospelMassArrayFR = [[
         Prefix.gospelMass + "Psalm&D=0213&C=Title",
     ],
     [
-        Prefix.readingRef + "104:1-1/67:13-13",
+        Prefix.readingRef + "PSA:104:1-1/67:13-13",
     ],
 ],
 [
@@ -2864,7 +2864,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 ],
 [
     [
-        Prefix.gospelMass + "Psalm&D=JFast1&C=Title",
+        Prefix.gospelMass + "Psalm&D=JFAST1&C=Title",
     ],
     [
         Prefix.readingRef + "PSA:130:3-3/130:4-4",
@@ -2872,7 +2872,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 ],
 [
     [
-        Prefix.gospelMass + "Gospel&D=JFast1&C=Title",
+        Prefix.gospelMass + "Gospel&D=JFAST1&C=Title",
     ],
     [
         Prefix.readingRef + "MAT:12:35-45",
@@ -2880,7 +2880,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 ],
 [
     [
-        Prefix.gospelMass + "Psalm&D=JFast2&C=Title",
+        Prefix.gospelMass + "Psalm&D=JFAST2&C=Title",
     ],
     [
         Prefix.readingRef + "PSA:85:2-2",
@@ -2888,7 +2888,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 ],
 [
     [
-        Prefix.gospelMass + "Gospel&D=JFast2&C=Title",
+        Prefix.gospelMass + "Gospel&D=JFAST2&C=Title",
     ],
     [
         Prefix.readingRef + "LUK:11:29-36",
@@ -2896,7 +2896,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 ],
 [
     [
-        Prefix.gospelMass + "Psalm&D=JFast3&C=Title",
+        Prefix.gospelMass + "Psalm&D=JFAST3&C=Title",
     ],
     [
         Prefix.readingRef + "PSA:32:1-1/32:5-5",
@@ -2904,7 +2904,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 ],
 [
     [
-        Prefix.gospelMass + "Gospel&D=JFast3&C=Title",
+        Prefix.gospelMass + "Gospel&D=JFAST3&C=Title",
     ],
     [
         Prefix.readingRef + "MAT:15:32-39",
@@ -2915,7 +2915,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 ],
 [
     [
-        Prefix.gospelMass + "Psalm&D=JFast4&C=Title",
+        Prefix.gospelMass + "Psalm&D=JFAST4&C=Title",
     ],
     [
         Prefix.readingRef + "PSA:118:5-5/118:18-18",
@@ -2923,7 +2923,7 @@ ReadingsArrays.GospelMassArrayFR = [[
 ],
 [
     [
-        Prefix.gospelMass + "Gospel&D=JFast4||PNT3&C=Title",
+        Prefix.gospelMass + "Gospel&D=JFAST4||PNT3&C=Title",
     ],
     [
         Prefix.readingRef + "JHN:2:12-25",
