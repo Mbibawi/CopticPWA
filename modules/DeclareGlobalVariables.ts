@@ -144,7 +144,7 @@ class Button {
 }
 //CONSTANTS
 const version: string =
-  "v8.2 (Fixes to the readings)";
+  "v8.3 (Addition to btnLakan afterShowPrayers())";
 const calendarDay: number = 24 * 60 * 60 * 1000; //this is a day in milliseconds
 const containerDiv: HTMLDivElement = document.getElementById(
   "containerDiv") as HTMLDivElement;
