@@ -99,7 +99,7 @@ class Button {
     }
 }
 //CONSTANTS
-const version = "v8.3 (Addition to btnLakan afterShowPrayers())";
+const version = "v8.4 (Addition to btnLakan afterShowPrayers())";
 const calendarDay = 24 * 60 * 60 * 1000; //this is a day in milliseconds
 const containerDiv = document.getElementById("containerDiv");
 const leftSideBar = document.getElementById("leftSideBar");

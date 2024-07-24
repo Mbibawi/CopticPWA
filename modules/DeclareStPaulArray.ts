@@ -1065,14 +1065,6 @@ ReadingsArrays.StPaulArrayFR = [
     ],
     [
         [
-            "HW_&D=GL55&C=Title"
-        ],
-        [
-            Prefix.readingRef + "1TI:4:9-End/5:1-10"
-        ]
-    ],
-    [
-        [
             Prefix.stPaul + "&D=GL5||GL3rdSunday&C=Title"
         ],
         [

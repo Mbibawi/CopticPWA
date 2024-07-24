@@ -57,9 +57,9 @@ async function startApp() {
   (async function populateBtnsHtml() {
     return;
     for (let b of [btnMassStBasil, btnIncenseMorning, btnMassUnBaptised, ...btnPsalmody.onClick()]) {
-       await showChildButtonsOrPrayers(b, false, false);
+      await showChildButtonsOrPrayers(b, false, false);
     }
-    
+
   })();
 
   function setDates() {
@@ -89,17 +89,17 @@ async function startApp() {
  * Takes a Button and, depending on its properties will do the following: if the button has children[] buttons, it will create an html element in the left side bar for each child; if the button has inlineBtns[], it will create an html element in the main page for each inlineButton; if the button has prayers[] and prayersArray, and languages, it will look in the prayersArray for each prayer in the prayers[], and if found, will create an html element in the main page showing the text of this element. It will only do so for the languages included in the usersLanguages.
  * @param {Button} btn - the button that the function will process according to its properties (children[], inlineBtns[], prayers[], onClick(), etc.)
  * @param {boolean} clear - whether to clear or not the text already displayed in the main page
- * @param {boolean} show - if true, the html elements created to show the prayers associated with the button, will be displayed in containerDiv. If false, it will not be displayed
+ * @param {boolean} show - if true (which is the default value if omitted), the html elements created to show the prayers associated with the button, will be displayed in containerDiv. If false, it will not be displayed and the function will set the button.html property to an array containing the html div elements created from the button's prayersSequence
  * @returns
  */
-async function showChildButtonsOrPrayers(btn: Button, clear: boolean = true, show:boolean = true) {
+async function showChildButtonsOrPrayers(btn: Button, clear: boolean = true, show: boolean = true) {
   if (!btn) return;
 
-  
+
   let container: HTMLElement | DocumentFragment = btn.docFragment || containerDiv;
-  
+
   hideExpandableButtonsPannel();
-  
+
   if (btn.html?.length > 0) return await showPrayersAndChildren();
 
   if (clear && !containerDiv.dataset.editingMode) {
@@ -135,7 +135,7 @@ async function showChildButtonsOrPrayers(btn: Button, clear: boolean = true, sho
       btn.prayersSequence
         .forEach((title) => {
           if (!title.includes("&D=")) return;
-          array = getTablesArrayFromTitlePrefix(title);
+          array = getArrayFromPrefix(title);
           if (!array) return console.log("tablesArray is undefined");
           showTables({
             tablesArray: [findTable(title, array, { equal: true }) as string[][]],
@@ -155,24 +155,23 @@ async function showChildButtonsOrPrayers(btn: Button, clear: boolean = true, sho
     let children = Array.from(container.querySelectorAll("div.Row")) as HTMLDivElement[];
 
     setCSS(children); //!Important : setCSSGridTemplate() MUST be called after btn.afterShowPrayres() in order to set the CSS for all the elements that btn.afterShowPrayers() might insert
-    applyAmplifiedText(children);
   })();
-  
+
   await showPrayersAndChildren();
 
 
-  async function showPrayersAndChildren() {
+  async function showPrayersAndChildren(): Promise<HTMLElement[]> {
     if (!show)
       return btn.html = Array.from(container.children as HTMLCollectionOf<HTMLElement>);
 
-    if (btn.html?.length>0) btn.html.forEach(el => container.append(el));
+    if (btn.html?.length > 0) btn.html.forEach(el => container.append(el));
 
     (function showBtnChildren() {
       //!CAUTION, this must come after btn.onClick() is called because some buttons are not initiated with children, but their children are added on the fly when their onClick() method  is called
       if (!btn.children || btn.children.length < 1) return;
-    
+
       sideBarBtnsContainer.innerHTML = "";
-    
+
       btn.children
         .forEach((childBtn) => {
           if (!childBtn) return;
@@ -186,20 +185,20 @@ async function showChildButtonsOrPrayers(btn: Button, clear: boolean = true, sho
         });
 
       appendGoBackAndGoToMainButtons(btn, sideBarBtnsContainer, btn.cssClass, btnGoToPreviousMenu, btnMainMenu);
-      
+
       if (btn === btnMainMenu) addSettingsButton();
     })();
 
     let titles = Array.from(container.children as HTMLCollectionOf<HTMLDivElement>)
       .filter(div => isTitlesContainer(div));
-  
+
     if (titles.length > 1) showTitlesInRightSideBar(titles);//We don't show the titles if there is only 1 title
-  
-    if (container !==containerDiv) containerDiv.appendChild(container);
-    
+
+    if (container !== containerDiv) containerDiv.appendChild(container);
+
     if (localStorage.displayMode === displayModes[1])
       await showSlidesInPresentationMode();
-  
+
   };
 
 
@@ -588,7 +587,7 @@ function createHtmlElementForPrayer(args: {
       startEditingMode({
         clear: true,
         arrayName: getArrayNameFromArray(
-          getTablesArrayFromTitlePrefix(htmlRow.dataset.root)
+          getArrayFromPrefix(htmlRow.dataset.root)
         ),
         tableTitle: htmlRow.dataset.root,
         operator: { equal: true }, //!We need to look for the table by the exact title beacause some titles like 'NativityParamoun' or 'BaptismParamoun' may be retrieved if the Season is 'Nativity' or 'Baptism'
@@ -624,13 +623,15 @@ function createHtmlElementForPrayer(args: {
  * @param {NodeListOf<>Element} titlesCollection  - a Node list of all the divs containing the titles of the different sections. Each div will be passed to addTitle() in order to create a link in the right side bar pointing to the div
  * @param {HTMLElement} rightTitlesDiv - the right hand side bar div where the titles will be displayed
  * @param {boolean} clear - indicates whether the side bar where the links will be inserted, must be cleared before insertion
+ * @param {string} prefix - prefix that can be added to the id of the title in order to avoid repetition of same ids in certain cases
  */
 async function showTitlesInRightSideBar(
   titlesCollection: HTMLDivElement[],
   rightTitlesDiv?: HTMLElement,
   clear: boolean = true,
   dataGroup?: string,
-  append: boolean = true
+  append: boolean = true,
+  prefix: string = ''
 ) {
   let titlesArray: HTMLDivElement[] = [];
   //this function shows the titles in the right side Bar
@@ -640,7 +641,7 @@ async function showTitlesInRightSideBar(
   let bookmark: HTMLAnchorElement;
 
   titlesArray = titlesCollection.map((titleRow) => {
-    titleRow.id += titlesCollection.indexOf(titleRow).toString();
+    titleRow.id += titlesCollection.indexOf(titleRow).toString() + prefix;
     return addTitle(titleRow);
   });
 
@@ -1143,7 +1144,7 @@ function createHtmlBtn(args: {
     return;
   }
   if (!args.btnsContainer) return;
-  if (!args.clear) args.clear = true;
+  if (args.clear !== false) args.clear = true;
 
   let newBtn: HTMLButtonElement = document.createElement("button");
 
@@ -1164,7 +1165,7 @@ function createHtmlBtn(args: {
 
   args.btnsContainer.appendChild(newBtn);
 
-  if (args.onClick) newBtn.onclick = (event) => {
+  if (args.onClick) newBtn.onclick = async (event) => {
     event.preventDefault;
     args.onClick();
   }
@@ -1350,19 +1351,19 @@ function showPrayers(args: {
 }): HTMLDivElement[] {
 
   if (!args.prayersSequence && !args.table) return;
-  
+
 
   let showActors = JSON.parse(localStorage.showActors);
 
-    (function setDefaults() {
-      //Setting container, and the values for the missing arguments
-      if (!args.container) args.container = containerDiv;
-      if (!args.position) args.position = args.container;
-      if (args.clearContainerDiv !== false) args.clearContainerDiv = true;
-      if (args.clearContainerDiv === true) containerDiv.innerHTML = "";
-      if (args.clearRightSideBar !== false) args.clearRightSideBar = true;
-      if (args.clearRightSideBar === true) sideBarTitlesContainer.innerHTML = ""; //this is the right side bar where the titles are displayed for navigation purposes
-    })();
+  (function setDefaults() {
+    //Setting container, and the values for the missing arguments
+    if (!args.container) args.container = containerDiv;
+    if (!args.position) args.position = args.container;
+    if (args.clearContainerDiv !== false) args.clearContainerDiv = true;
+    if (args.clearContainerDiv === true) containerDiv.innerHTML = "";
+    if (args.clearRightSideBar !== false) args.clearRightSideBar = true;
+    if (args.clearRightSideBar === true) sideBarTitlesContainer.innerHTML = ""; //this is the right side bar where the titles are displayed for navigation purposes
+  })();
 
   closeSideBar(leftSideBar);
 
@@ -1371,18 +1372,18 @@ function showPrayers(args: {
   (function retrievePrayersTables() {
     if (args.table) return tables.push(args.table);//If a table is already passed as argument, we will add this table to tables[]. Otherwise, we will retrieve the tables from args.prayersSequence;
     if (!args.prayersSequence) return console.log("The prayersSequences is missing, we cannot retrieve the tables");
-      args.prayersSequence.map(async tableTitle =>{
-        if (!tableTitle) return console.log("No tableTitle");
-        if (tableTitle.startsWith(Prefix.readingRef))
-           tables.push(await retrieveReadingTableFromBible([[tableTitle]], [defaultLanguage, foreingLanguage]));
-        else tables.push(
-          findTable(
-            tableTitle,
-            getTablesArrayFromTitlePrefix(tableTitle)
-          ) as string[][]
-        );
+    args.prayersSequence.map(async tableTitle => {
+      if (!tableTitle) return console.log("No tableTitle");
+      if (tableTitle.startsWith(Prefix.readingRef))
+        tables.push(await retrieveReadingTableFromBible([[tableTitle]], [defaultLanguage, foreingLanguage]));
+      else tables.push(
+        findTable(
+          tableTitle,
+          getArrayFromPrefix(tableTitle)
+        ) as string[][]
+      );
     });
-    
+
   })();
 
   return processTables();
@@ -1402,13 +1403,13 @@ function showPrayers(args: {
     });
 
     return htmlDivs;
-    
+
     function processRow(row: string[]): HTMLDivElement {
       if (!row) return undefined;
       if (!row[0].startsWith(Prefix.same)) dataRoot = splitTitle(row[0])[0];//Each time a row has its own title (which means the row is the first row in a table), we will set the dataset.root of this row and the following rows to the value of row[0]
 
       let actorClass = splitTitle(row[0])[1] || 'NoActor';
-     
+
       if (!['Title', 'SubTitle', 'ReadingIntro', 'ReadingEnd'].includes(actorClass)
         && !showActors.find(actor => actor.EN === actorClass)?.Show)
         return;
@@ -1432,7 +1433,7 @@ function showPrayers(args: {
 
       references
         .forEach(row => {
-          referencedTable = findTable(row[1], getTablesArrayFromTitlePrefix(row[1])) || undefined;
+          referencedTable = findTable(row[1], getArrayFromPrefix(row[1])) || undefined;
 
           if (!referencedTable) return;
 
@@ -1456,10 +1457,11 @@ function showPrayers(args: {
  * @param {string} title: the title starting with a prefix, from which the string[][][] is retrived
  * @return {string[][][]} - the array in which a table which title starts with such prefix, should be found
  */
-function getTablesArrayFromTitlePrefix(title: string): string[][][] {
+function getArrayFromPrefix(title: string): string[][][] {
   if (!title) return;
 
-  if (title.startsWith(Prefix.HolyWeek) && title.includes('HM') || title.includes('HE')) return ReadingsArrays.GospelNightArrayFR;
+  if(RegExp(Prefix.HolyWeek + "\\d*(HM|HE).*&D=GL").test(title))
+    return ReadingsArrays.GospelNightArrayFR;
 
   let array: [string, string, Function] = PrayersArraysKeys.find((entry) =>
     title.startsWith(entry[0])
@@ -1483,7 +1485,9 @@ function getArrayNameFromArray(array: string[][][]): string {
  */
 function getLanguages(title: string): string[] {
 
-  if (
+  if(RegExp(Prefix.HolyWeek + "\\d*(HM|HE).*&D=GL").test(title))
+    return ['COP', 'FR', 'AR'];
+  else if (
     [Prefix.stPaul, Prefix.Catholicon, Prefix.praxis, Prefix.prophecies, Prefix.gospelMass, Prefix.gospelMorning, Prefix.gospelVespers, Prefix.gospelNight, Prefix.gospelVespers]
       .find(prefix => title.startsWith(prefix)))
     return [defaultLanguage, foreingLanguage].filter(lang => lang);
@@ -1497,98 +1501,104 @@ function getLanguages(title: string): string[] {
  * @param {NodeListOf<Element>} Rows - The html elements for which we will set the css. These are usually the div children of containerDiv
  * @param {HTMLElement[]} - the html divs for which we want to set their CSS.
  */
-async function setCSS(htmlRows: HTMLElement[]) {
+async function setCSS(htmlRows: HTMLDivElement[], amplify: boolean = true) {
   if (!htmlRows) return;
   if (localStorage.displayMode === displayModes[1]) return;
-  if (!htmlRows) return;
+
   let plusSign = String.fromCharCode(plusCharCode),
     minusSign = String.fromCharCode(plusCharCode + 1);
 
-
   htmlRows
-    .forEach((row) => {
-      if (!row) return;//!Caution: in some scenarios, htmlRows might contain undefined rows. We need to check for this in order to avoid erros
-      if (row.children.length === 0) row.classList.add(hidden); //If the row has no children, it means that it is a row created as a name of a table or as a placeholder. We will hide the html element
-      //Setting the number of columns and their width for each element having the 'Row' class for each Display Mode
-      row.style.gridTemplateColumns = setGridColumnsOrRowsNumber(row);
-      //Defining grid areas for each language in order to be able to control the order in which the languages are displayed (Arabic always on the last column from left to right, and Coptic on the first column from left to right)
-      row.style.gridTemplateAreas = setGridAreas(row);
+    .forEach((row) => setDivCSS(row));
 
-      (function addRightBorders() {
-        let rowChildren = Array.from(row.children) as HTMLParagraphElement[];
-        let gridAreas = row.style.gridTemplateAreas
-          .replaceAll('"', "")
-          .split(" ");
-        if (gridAreas.length <= 1) return;
-        gridAreas.forEach((area) => {
-          if (gridAreas.indexOf(area) === gridAreas.length - 1) return;
-          rowChildren.find(
-            (child) => child.lang.toUpperCase() === area
-          ).style.borderRightStyle = "groove";
-        });
+  if (amplify)
+    applyAmplifiedText(htmlRows);
+
+  function setDivCSS(div: HTMLDivElement) {
+    if (!div) return;//!Caution: in some scenarios, htmlRows might contain undefined rows. We need to check for this in order to avoid erros
+    if (div.children.length === 0) div.classList.add(hidden); //If the row has no children, it means that it is a row created as a name of a table or as a placeholder. We will hide the html element
+    //Setting the number of columns and their width for each element having the 'Row' class for each Display Mode
+    div.style.gridTemplateColumns = setGridColumnsOrRowsNumber(div);
+    //Defining grid areas for each language in order to be able to control the order in which the languages are displayed (Arabic always on the last column from left to right, and Coptic on the first column from left to right)
+    div.style.gridTemplateAreas = setGridAreas(div);
+
+    (function addRightBorders() {
+      let rowChildren = Array.from(div.children) as HTMLParagraphElement[];
+      let gridAreas = div.style.gridTemplateAreas
+        .replaceAll('"', "")
+        .split(" ");
+      if (gridAreas.length <= 1) return;
+      gridAreas.forEach((area) => {
+        if (gridAreas.indexOf(area) === gridAreas.length - 1) return;
+        rowChildren.find(
+          (child) => child.lang.toUpperCase() === area
+        ).style.borderRightStyle = "groove";
+      });
+    })();
+
+    if (isTitlesContainer(div)) {
+      //This is the div where the titles of the prayer are displayed. We will add an 'on click' listner that will collapse the prayers
+
+      (async function addPlusAndMinusSigns() {
+        if (isTitlesContainer(div.nextElementSibling as HTMLElement)) return;
+
+        if (htmlRows
+          .filter(div => div?.dataset?.root && div.dataset.root === div.dataset.root).length < 1) return;
+
+        div.role = "button";
+
+        let defLangParag: HTMLParagraphElement = div.querySelector(
+          'p[lang="' + defaultLanguage.toLowerCase() + '"]'
+        );
+        if (!defLangParag) defLangParag = div.lastElementChild as HTMLParagraphElement;
+        if (!defLangParag)
+          return console.log("no paragraph with lang= " + defaultLanguage);
+
+        if (defLangParag.innerHTML.includes(plusSign + " "))
+          defLangParag.innerHTML = defLangParag.innerHTML.replace(
+            plusSign + " ",
+            ""
+          ); //We remove the + sign in the begining (if it exists)
+
+        if (defLangParag.innerHTML.includes(minusSign + " "))
+          defLangParag.innerHTML = defLangParag.innerHTML.replace(
+            minusSign + " ",
+            ""
+          ); //!Caution: we need to work with the innerHTML in order to avoid losing the new line or any formatting to the title text when adding the + or - sing. So don't change the innerHTML to innerText or textContent
+
+        if (div.dataset.isCollapsed)
+          defLangParag.innerHTML = plusSign + " " + defLangParag.innerHTML; //We add the plus (+) sign at the begining
+
+        if (!div.dataset.isCollapsed)
+          defLangParag.innerHTML = minusSign + " " + defLangParag.innerHTML; //We add the minus (-) sig at the begining;
       })();
+    }
+    let paragraphs = Array.from(div.querySelectorAll("p"));
 
-      if (isTitlesContainer(row)) {
-        //This is the div where the titles of the prayer are displayed. We will add an 'on click' listner that will collapse the prayers
+    if (div.classList.contains("Diacon") || div.classList.contains("Assembly"))
+      replaceMusicalNoteSign(paragraphs);
 
-        (async function addPlusAndMinusSigns() {
-          if (isTitlesContainer(row.nextElementSibling as HTMLElement)) return;
+    if (
+      div.dataset.root
+      &&
+      [
+        Prefix.praxis,
+        Prefix.Catholicon,
+        Prefix.stPaul,
+        Prefix.gospelMorning,
+        Prefix.gospelVespers,
+        Prefix.gospelNight,
+        Prefix.gospelMass,
+        Prefix.synaxarium,
+        Prefix.prophecies,
+        Prefix.bookOfHours,
+        Prefix.HolyWeek
+      ].find((prefix) => div.dataset.root.startsWith(prefix))
+    )
+      replaceQuotes(paragraphs); //If the text is one of the "Readings", we replace the quotes signs
+    insertSuperScriptTag(paragraphs);
 
-          if (htmlRows
-            .filter(div => div?.dataset?.root && div.dataset.root === row.dataset.root).length < 1) return;
-
-          row.role = "button";
-
-          let defLangParag: HTMLParagraphElement = row.querySelector(
-            'p[lang="' + defaultLanguage.toLowerCase() + '"]'
-          );
-          if (!defLangParag) defLangParag = row.lastElementChild as HTMLParagraphElement;
-          if (!defLangParag)
-            return console.log("no paragraph with lang= " + defaultLanguage);
-
-          if (defLangParag.innerHTML.includes(plusSign + " "))
-            defLangParag.innerHTML = defLangParag.innerHTML.replace(
-              plusSign + " ",
-              ""
-            ); //We remove the + sign in the begining (if it exists)
-
-          if (defLangParag.innerHTML.includes(minusSign + " "))
-            defLangParag.innerHTML = defLangParag.innerHTML.replace(
-              minusSign + " ",
-              ""
-            ); //!Caution: we need to work with the innerHTML in order to avoid losing the new line or any formatting to the title text when adding the + or - sing. So don't change the innerHTML to innerText or textContent
-
-          if (row.dataset.isCollapsed)
-            defLangParag.innerHTML = plusSign + " " + defLangParag.innerHTML; //We add the plus (+) sign at the begining
-
-          if (!row.dataset.isCollapsed)
-            defLangParag.innerHTML = minusSign + " " + defLangParag.innerHTML; //We add the minus (-) sig at the begining;
-        })();
-      }
-      let paragraphs = Array.from(row.querySelectorAll("p"));
-
-      if (row.classList.contains("Diacon") || row.classList.contains("Assembly")) replaceMusicalNoteSign(paragraphs);
-
-      if (
-        row.dataset.root
-        &&
-        [
-          Prefix.praxis,
-          Prefix.Catholicon,
-          Prefix.stPaul,
-          Prefix.gospelMorning,
-          Prefix.gospelVespers,
-          Prefix.gospelNight,
-          Prefix.gospelMass,
-          Prefix.synaxarium,
-          Prefix.prophecies,
-          Prefix.bookOfHours,
-          Prefix.HolyWeek
-        ].find((prefix) => row.dataset.root.startsWith(prefix))
-      )
-        replaceQuotes(paragraphs); //If the text is one of the "Readings", we replace the quotes signs
-      insertSuperScriptTag(paragraphs);
-    });
+  }
 }
 /**
  * Replaces the quotes ("") signs in the text by a span containing the relevant quotes sign acording the language
@@ -1661,6 +1671,10 @@ function setGridAreas(row: HTMLElement): string {
   return '"' + areas.join(" ") + '"'; //we should get a string like ' "AR COP FR" ' (notice that the string marks " in the beginning and the end must appear, otherwise the grid-template-areas value will not be valid)
 }
 
+/**
+ * Applies the text size selected by the user
+ * @param {HTMLDivElement[]}  htmlRows - the divs to which the text size will be applied
+ */
 async function applyAmplifiedText(htmlRows: HTMLDivElement[]) {
   if (!htmlRows) return;
   if (localStorage.displayMode === displayModes[1]) return; //We don't amplify the text if we are in the 'Presentation Mode'
@@ -1695,7 +1709,7 @@ function collapseOrExpandText(
   collapse?: boolean,
   children?: HTMLDivElement[],
   titlesRows?: HTMLDivElement[],
-  container:HTMLDivElement = containerDiv
+  container: HTMLDivElement = containerDiv
 ) {
   if (localStorage.displayMode === displayModes[1]) return; //When we are in the 'Presentation' display mode, the titles sibligins are not hidden when we click the title div
 
@@ -1821,11 +1835,12 @@ function selectElementsByDataSetValue(
   },
   dataSetName: string = 'root',
 ): HTMLDivElement[] {
-  dataSetName = [["root", "data-root"], ["group", 'data-group']].find(el => el[0] === dataSetName)[1];
+  dataSetName = 'data-' + dataSetName;
 
-  let children = Array.from(container.querySelectorAll("div")).filter(
+  let children = Array.from(container?.querySelectorAll("div"))?.filter(
     (div) => div?.attributes[dataSetName]
   ) as HTMLDivElement[];
+  if (!children) return;
   if (!options) options = { equal: true };
   if (options.equal)
     return children.filter((div) => div?.attributes[dataSetName]?.value === dataSet);
@@ -1877,12 +1892,13 @@ function findTable(
     startsWith?: boolean;
     endsWith?: boolean;
     includes?: boolean;
-  } = { equal: true }
+  } = { equal: true },
+  regExp: boolean = false
 ): string[][] | void {
-  if (!prayersArray) prayersArray = getTablesArrayFromTitlePrefix(tableTitle);
+  if (!prayersArray) prayersArray = getArrayFromPrefix(tableTitle);
   if (!prayersArray) return console.log("No prayers Array", tableTitle);
   let table: string[][];
-  if (tableTitle.includes('/'))
+  if (regExp)
     table = prayersArray.find(
       (tbl) => tbl[0][0] && RegExp(tableTitle).test(splitTitle(tbl[0][0])[0])
     );

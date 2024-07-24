@@ -1889,22 +1889,6 @@ ReadingsArrays.GospelMorningArrayFR = [
     ],
     [
         [
-            Prefix.gospelMorning + "Psalm&D=GL55&C=Title"
-        ],
-        [
-            Prefix.readingRef + "PSA:50:9-9/50:12-12"
-        ]
-    ],
-    [
-        [
-            Prefix.gospelMorning + "Gospel&D=GL55&C=Title"
-        ],
-        [
-            Prefix.readingRef + "JHN:13:1-17"
-        ]
-    ],
-    [
-        [
             Prefix.gospelMorning + "Gospel&D=GL50&C=Title"
         ],
         [

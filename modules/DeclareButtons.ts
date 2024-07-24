@@ -296,13 +296,8 @@ const Sequences = {
     Prefix.commonPrayer + "ChurchLitany",
     Prefix.commonPrayer + "PopeLitany",
     Prefix.commonPrayer + "MeetingsLitany",
-    //!["", "", "Avec la sagesse de Dieu soyons attentifs. Pitié Seigneur, Pitié Seigneur.", "", "انصتوا بحكمة الله، يا رب ارحم، يا رب ارحم، يا رب ارحم."]
-    Prefix.commonPrayer + "Creed",
-    //!Hymn: Voici le témoignage de Jean le baptiste
-    Prefix.massCommon + "DiaconResponseKissEachOther", //!Just the second part
-    Prefix.massCommon + "SpasmosAdamShort",
     Prefix.incenseDawn + "AnaphoraXXX", //'XXX' will be replaced with '&D=' + copticDate. We can't do this when the script is loaded because copticDate is not yet defined
-    Prefix.commonIncense + "LiturgyEnd"
+
   ],
 };
 
@@ -633,7 +628,7 @@ const btnMassUnBaptised = new Button({
 
       selectElementsByDataSetValue(btnDocFragment, titles[0], { equal: true }, 'root').forEach(el => el.remove());//We remove the existing 'Sotis Amen' prayer
 
-      let tables: string[][][] = titles.map(title => findTable(title, getTablesArrayFromTitlePrefix(title)) || undefined);//We retrieve the 3 tables by their titles
+      let tables: string[][][] = titles.map(title => findTable(title, getArrayFromPrefix(title)) || undefined);//We retrieve the 3 tables by their titles
 
       if (!tables || tables.length < 1) return;
 
@@ -1150,7 +1145,7 @@ const btnMassUnBaptised = new Button({
                 (title) =>
                   findTable(
                     title,
-                    getTablesArrayFromTitlePrefix(title)
+                    getArrayFromPrefix(title)
                   ) as string[][]
               ); //We create an array containing all the tables includes in the button's prayersSequence.
 
@@ -1826,6 +1821,7 @@ const btnIncenseMorning = new Button({
   languages: [...prayersLanguages],
   docFragment: new DocumentFragment(),
   onClick: (): string[] => {
+    btnIncenseMorning.children = [];//!We need to reinitiate the children each time because in some cases (liken in case btnLakkan is clicked) there are buttons added to btnIncenseMorning children
     btnIncenseMorning.prayersSequence = [...Sequences.Incense].filter(
       (title) => !title?.startsWith(Prefix.incenseVespers)
     ); //We will remove all the Incense Vespers titles from the prayersSequence Array
@@ -1854,7 +1850,7 @@ const btnIncenseMorning = new Button({
   afterShowPrayers: async (btn: Button = btnIncenseMorning, gospelPrefix: string = Prefix.gospelMorning) => {
     let btnDocFragment = btn.docFragment;
 
-    if ([btnMassUnBaptised, btnLakkan].includes(btn) || btnProsternation.children?.includes(btn))
+    if (btn === btnMassUnBaptised || btn.btnID === btnLakkan.btnID || btnProsternation.children?.includes(btn))
       return hideGodHaveMercyOnUsIfBishop();
 
     insertCymbalVersesAndDoxologies(btn);
@@ -1988,6 +1984,77 @@ const btnIncenseMorning = new Button({
         prayers: [findTable(Prefix.doxologies + "DawnAdam", DoxologiesArray) || undefined],
         languages: btnIncenseMorning.languages,
       })[1];
+    })();
+
+    (function insertLakkanBtn() {
+      debugger
+      if (copticDate === '1005')
+        insertExpandable(copticFeasts.Baptism, 'id');
+      else if (copticDate === copticFeasts.Apostles)
+        insertExpandable(copticFeasts.Apostles, 'id')
+      else if (copticReadingsDate === copticFeasts.HolyThursday)
+        insertExpandable(copticReadingsDate, 'id')
+
+      async function insertExpandable(date: string, anchorID: string) {
+        const lakkanBtn = new Button({
+          btnID: btnLakkan.btnID,
+          label: btnLakkan.label,
+          docFragment: new DocumentFragment(),
+          onClick: (clear: Boolean = true) => btnLakkan.onClick(date, lakkanBtn, clear),
+          afterShowPrayers: async () => await btnLakkan.afterShowPrayers(date, lakkanBtn)
+        });
+
+        btnIncenseMorning.children = [lakkanBtn];
+
+        let children = Array.from(btnDocFragment.children);
+        let anchor = children.find(div => div.id === anchorID) || children[children.length - 1];
+        if (!anchor) return;
+
+        let btnsContainer = document.createElement('div');
+        btnsContainer.classList.add(inlineBtnsContainerClass);
+        anchor.insertAdjacentElement('afterend', btnsContainer);
+
+        createHtmlBtn({
+          btn: lakkanBtn,
+          btnsContainer: btnsContainer,
+          btnClass: inlineBtnClass,
+          clear: false,
+          onClick: () => {
+            const id = lakkanBtn.btnID + 'Expandable';
+            let expandable = containerDiv.querySelector('#' + id);
+
+            if (expandable) return toggle('Lakkan');
+
+            (async function insertExpandable() {
+              expandable = document.createElement('div');
+              expandable.id = id;
+              btnsContainer.insertAdjacentElement('afterend', expandable);
+
+              lakkanBtn.onClick(false);
+              await lakkanBtn.afterShowPrayers();
+
+              let children = Array.from(lakkanBtn.docFragment.children) as HTMLDivElement[];
+
+              await setCSS(children);
+
+              showTitlesInRightSideBar(children.filter(div => isTitlesContainer(div)), undefined, false, 'Lakkan', true, 'Lakkan');//We add a prefix in order to avoid duplicate ids with already existing divs
+
+              expandable.appendChild(lakkanBtn.docFragment);
+            })();
+
+            function toggle(group: string) {
+              expandable.classList.toggle(hidden);
+              Array.from(sideBarTitlesContainer.children)
+                .filter((div: HTMLDivElement) => div.dataset.group === group)
+                .forEach(div => div.classList.toggle(hidden));
+            }
+
+          }
+        });
+
+
+      }
+
     })();
 
     /**
@@ -2206,7 +2273,7 @@ const btnIncenseMorning = new Button({
        */
       function processSequence(sequence: string[], prefix: string): string[][][] {
         let tables: string[][][] = [],
-          tablesArray: string[][][] = getTablesArrayFromTitlePrefix(prefix);
+          tablesArray: string[][][] = getArrayFromPrefix(prefix);
 
         sequence.map((title) => {
           if (!title.startsWith(prefix))//It means that the title is a Coptic date or a Season
@@ -2252,15 +2319,15 @@ const btnIncenseVespers = new Button({
 });
 
 const btnLakkan = new Button({
-  btnID: "btnIncenseOffice",
+  btnID: "btnLakkan",
   label: {
     AR: "صلاة اللقَّان",
     FR: "Cérémonie de la Bénédiction de l'eau",
     EN: 'Lakkan'
   },
-  docFragment: new DocumentFragment(),
-  onClick: (date = copticDate) => {
-    let sequence: string[] = Sequences.Lakkan;
+  onClick: (date: string, btn: Button = btnLakkan, clear: boolean = true, sequence = Sequences.Lakkan) => {
+    if (!date) return;
+    if (!sequence) return;
 
     (function adaptSequence() {
       if (date === copticFeasts.Baptism) {
@@ -2280,27 +2347,27 @@ const btnLakkan = new Button({
 
     sequence.forEach(title => {
       if (title.endsWith('XXX'))
-        title = title.replace('XXX', '&D=' + copticDate);
-        showPrayers({
+        title = title.replace('XXX', '&D=' + date);
+      showPrayers({
         table: getTable(title),
         languages: getLanguages(title),
-        container: btnLakkan.docFragment,
-        clearContainerDiv: true,
-        clearRightSideBar: true,
-        position: btnLakkan.docFragment,
+        container: btn.docFragment,
+        clearContainerDiv: clear,
+        clearRightSideBar: clear,
+        position: btn.docFragment,
       });
     });
 
     function getTable(title): string[][] {
       if (title.startsWith(Prefix.anchor))
         return [[title]];
-      return findTable(title, getTablesArrayFromTitlePrefix(title)) || undefined
+      return findTable(title, getArrayFromPrefix(title)) || undefined
     }
   },
-  afterShowPrayers: async (date: string = copticDate) => {
-    if (![copticFeasts.Baptism, copticFeasts.Apostles, copticFeasts.HolyThursday].includes(date)) return;
+  afterShowPrayers: async (date: string, btn: Button = btnLakkan) => {
+    if (!date) return;
 
-    btnIncenseMorning.afterShowPrayers(btnLakkan);//We call it in order to hide the "Pray that God Have Mercy on Us" response for Pope and Bishop
+    btnIncenseMorning.afterShowPrayers(btn);//We call it in order to hide the "Pray that God Have Mercy on Us" response for Pope and Bishop
 
     let prophecies: string[], stPaul: string[], gospel: string[];
 
@@ -2317,8 +2384,8 @@ const btnLakkan = new Button({
     }
     else if (date === copticFeasts.HolyThursday) {
       prophecies = [];
-      stPaul = [];
-      gospel = [];
+      stPaul = ['1TI:4:9-End/5:1-10'];
+      gospel = ["PSA:50:9-9/50:12-12", "JHN:13:1-17"];
     };
 
     let anchor: HTMLElement,
@@ -2327,18 +2394,18 @@ const btnLakkan = new Button({
 
     await insertBeforeAnchor('Prophecies', prophecies);
     await insertBeforeAnchor('StPaul', stPaul);
- 
+
     await insertGospelReadingAndResponses({
       isMass: true,
       liturgy: Prefix.gospelMass,
-      container: btnLakkan.docFragment,
+      container: btn.docFragment,
       clearContainer: false,
-      gospel: gospel.map(ref=>getGospel(Prefix.gospelMass, ref))
+      gospel: gospel.map(ref => getGospel(Prefix.gospelMass, ref))
     });
 
 
     async function insertBeforeAnchor(title: string, refs: string[]) {
-      anchor = selectElementsByDataSetValue(btnLakkan.docFragment, Prefix.anchor + title, undefined)[0];
+      anchor = selectElementsByDataSetValue(btn.docFragment, Prefix.anchor + title, undefined)[0];
 
       if (!anchor) return;
 
@@ -2353,9 +2420,14 @@ const btnLakkan = new Button({
         insertReading(reading, anchor, prayersLanguages);
 
       }
-      
+
       await Promise.all(refs.map(async ref => {
-        reading = await retrieveReadingTableFromBible([[Prefix.readingRef + ref]], languages);
+        if (date === copticFeasts.HolyThursday)
+          reading = [
+            ...findTable(Prefix.HolyWeek + "LakanProphecies&D=GL55", ReadingsArrays.GospelNightArrayFR) || undefined,
+            ...findTable(Prefix.HolyWeek + "LakanSermony&D=GL55", ReadingsArrays.GospelNightArrayFR) || undefined];
+
+        else reading = await retrieveReadingTableFromBible([[Prefix.readingRef + ref]], languages);
 
         if (!reading) return;
 
@@ -2365,7 +2437,7 @@ const btnLakkan = new Button({
 
         insertReading(reading, anchor, languages);
 
-        if (title === 'Prophecies') {
+        if (title === 'Prophecies' && date !== copticFeasts.HolyThursday) {
           insertReading(getReadingIntroOrEnd(title, ReadingsIntrosAndEnds.propheciesEnd, 'End'), anchor, prayersLanguages);
         } else if (title === 'StPaul') {
           insertReading(getReadingIntroOrEnd(title, ReadingsIntrosAndEnds.stPaulEnd, 'End'), anchor, prayersLanguages);
@@ -2382,7 +2454,7 @@ const btnLakkan = new Button({
           tables: [reading],
           languages: langs,
           position: { el: anchor, beforeOrAfter: 'beforebegin' },
-          container: btnLakkan.docFragment,
+          container: btn.docFragment,
         });
       }
       function getReadingIntroOrEnd(prefix: string, text: { AR?: string; FR?: string; EN?: string; COP?: string }, intro: string = 'Intro') {
@@ -2394,15 +2466,15 @@ const btnLakkan = new Button({
           text.AR,
         ]];
       }
-      function replaceClass(reading:string[][], newClass:string){
+      function replaceClass(reading: string[][], newClass: string) {
         reading[0][0] = reading[0][0].split('&C=')[0] + '&C=' + newClass
       }
     }
 
-    function getGospel(prefix:string, ref:string):string[][] {
-          ref.startsWith('PSA') ? prefix += 'Psalm' : prefix += 'Gospel';
-          return [[prefix + '&D=' + copticDate + '&C=Title'], [Prefix.readingRef + ref]]
-    } 
+    function getGospel(prefix: string, ref: string): string[][] {
+      ref.startsWith('PSA') ? prefix += 'Psalm' : prefix += 'Gospel';
+      return [[prefix + '&D=' + copticDate + '&C=Title'], [Prefix.readingRef + ref]]
+    }
   },
 });
 
@@ -2586,7 +2658,7 @@ const btnProsternation = new Button({
 
         async function processTitle(title: string, singleTable: boolean = false): Promise<string[][]> {
           if (singleTable) {
-            return findTable(title, getTablesArrayFromTitlePrefix(title)) || undefined;
+            return findTable(title, getArrayFromPrefix(title)) || undefined;
           };
 
           let prop = title.replace(Prefix.anchor, '');
@@ -2638,7 +2710,7 @@ const btnProsternation = new Button({
           prefix ? langs = getLanguages(prefix) : langs = getLanguages(Prefix.gospelMass);
 
           if (prefix)
-            table = findTable(title, getTablesArrayFromTitlePrefix(prefix)) || undefined;
+            table = findTable(title, getArrayFromPrefix(prefix)) || undefined;
           else
             table = await retrieveReadingTableFromBible([[Prefix.readingRef + ref]], langs);
 
@@ -2720,7 +2792,7 @@ const btnMassStBasil = new Button({
 
       let secondReconciliation = findTable(
         prefix + "Reconciliation2",
-        getTablesArrayFromTitlePrefix(prefix));
+        getArrayFromPrefix(prefix));
 
       if (!secondReconciliation)
         return console.log("Didn't find reconciliation");
@@ -3344,12 +3416,12 @@ const btnHolyWeek = new Button({
           languages: prayersLanguages,
           docFragment: new DocumentFragment(),
           onClick: () => btnHour.prayersSequence = [...Sequences.HolyWeek.PassOver],
-          afterShowPrayers: () => hourBtnAfterShowPrayers(btnHour, hour, hourReadings, label),
+          afterShowPrayers: async () => await hourBtnAfterShowPrayers(btnHour, hour, hourReadings, label),
         });
         return btnHour;
 
 
-        function hourBtnAfterShowPrayers(btn: Button, hour: string, dayPrayers: string[][][], label: typeBtnLabel) {
+        async function hourBtnAfterShowPrayers(btn: Button, hour: string, dayPrayers: string[][][], label: typeBtnLabel) {
           let titles: { Prophecies; Psalm; Gospel; Commentary; Sermony };
           (function generateTablesTitles() {
             titles = {
@@ -3389,7 +3461,9 @@ const btnHolyWeek = new Button({
 
           })();
 
-          (function insertHourReadings() {
+          await insertHourReadings();
+
+          async function insertHourReadings() {
             let readingsLangs = ['COP', 'FR', 'AR'];
             type typeReading = { table: string[][], anchor: HTMLElement };
             let readings: {
@@ -3469,10 +3543,12 @@ const btnHolyWeek = new Button({
               return selectElementsByDataSetValue(btnHour.docFragment, Prefix.anchor + placeHolder + '&D=$Seasons.HolyWeek', undefined, 'root')[0]
             }
 
-            (function insertTablesBeforeAnchors() {
+            await insertTablesBeforeAnchors();
+
+            async function insertTablesBeforeAnchors() {
               let languages: string[];
 
-              [readings.coptPsalm,
+              const sequence = [readings.coptPsalm,
               readings.coptGospel,
               readings.nonCopticPsalm,
               readings.nonCopticGospel,
@@ -3480,8 +3556,9 @@ const btnHolyWeek = new Button({
               readings.Prophecies,
               readings.Sermony,//!This must come directly after readings.Prophecies
               readings.KhinEfran,
-              readings.Litany]
-                .forEach(async (reading: typeReading) => {
+                readings.Litany];
+              
+               for(const reading of sequence) {
                   if (!reading.table || !reading.anchor) return console.log('Either the table or the Anchor are missing:  table = ', reading.table, 'Anchor = ', reading.anchor);
 
                   if ([readings.KhinEfran, readings.Litany].includes(reading))
@@ -3491,23 +3568,19 @@ const btnHolyWeek = new Button({
                     languages = readingsLangs;
 
                   else if ([readings.nonCopticGospel, readings.nonCopticPsalm].includes(reading))
-                    languages = [readingsLangs[1], readingsLangs[2]];
+                    languages = [defaultLanguage, foreingLanguage];
 
                   else if ([readings.coptGospel, readings.coptPsalm].includes(reading))
-                    languages = [readingsLangs[0]];
+                    languages = ['COP'];
 
                   reading.table = reading?.table?.filter(row => row);//We remove any undefined elements in the table;
 
-
                   reading.table = await retrieveReadingTableFromBible(reading.table, languages);
-
-                  reading.table[0] = insertTableTitleRow();
-
-                  if (reading === readings.Prophecies)
-                    reading.table = await processPropheciesTitles(reading.table);//!This must come before the text is retrieved from the bible because the references rows are replaced by the text and will be lost
+                  reading.table[0] = insertTableTitleRow();//We replace the first row of the table with a customized title row
 
                   insertPrayersAdjacentToExistingElement({
                     tables: [reading.table],
+                   // languages: getLanguages(reading.table[0][0]),
                     languages: languages,
                     container: btnHour.docFragment,
                     position: {
@@ -3532,69 +3605,23 @@ const btnHolyWeek = new Button({
                     languages
                       .map(lang => lang !== 'COP' ? row.push(title[lang]) : row.push(''));
                     return row
-
                   }
-
-                  async function processPropheciesTitles(table: string[][]) {
-                    return table;
-                    if (!table[0][0]?.includes('Prophecies&D=')) return table;
-
-                    let references: string[] = [], index: number;
-
-                    for (let i = 1; i < table.length; i++) {
-                      if (!table[i][0]?.includes('&C=Title')) continue;
-                      index = i;
-                      i += 1;
-
-                      while (!table[i][0]?.startsWith(Prefix.readingRef)) i += 1;
-
-                      while (table[i][0]?.startsWith(Prefix.readingRef)) {
-                        references.push(table[i][0]?.split('&C=')[0]);
-                        if (i === table.length - 1) break;
-                        i += 1;
-                      }
-                      if (references.length < 1) continue;
-
-                      table[index] = [Prefix.same + "&C=Title", ...await Promise.all(languages.map(async lang => await getReferencesTitle(lang)))];
-                      i -= 1;
-                      references = [];
-                    }
-                    return table
-
-                    async function getReferencesTitle(lang: string): Promise<string> {
-                      if (![defaultLanguage, foreingLanguage].includes(lang)) return '';
-
-                      let reference1 = references[0].split(Prefix.readingRef)[1].split(':');//This should yield a 3 elements array ["book name", "chapter number", "verses range"] like ["GEN", "12", "3-7"]
-                      let bookList = await getBibleBooksList(lang);
-                      let book = bookList?.find(b => b.id === reference1[0]);
-
-                      if (!book) return '';
-
-                      let first = reference1[reference1.length - 1].split('-')[0];
-
-                      let lastReference = references[references.length - 1].split(':');
-
-                      return book.human + '\n(' + reference1[1] + ': ' + first + '-' + lastReference[lastReference.length - 1].split('-')[1] + ')'
-
-                    }
-
-                  }
-                });
-            })();
+                };
+            };
 
             Array.from(btnHour.docFragment.children).find((div: HTMLDivElement) => div.dataset.root === Prefix.incenseDawn +
-              "GodHaveMercyOnUsRefrain&D=$Seasons.GreatLent").remove();//Removing the Title row of the "God Have Mercy" table
+              "GodHaveMercyOnUsRefrain&D=$Seasons.GreatLent")?.remove();//Removing the Title row of the "God Have Mercy" table
 
-          })();
+          };
 
 
           (function insertThursdayLakanAndMassBtns() {
             //If we are on the Holy Thursday morning service
             if (weekDay !== 4) return;
             if (service !== Morning) return; //We are during the Morning Passover service
-            if (hour !== '9H') return; //It is the 9th Hour button
+            if (hour !== '11H') return; //It is the 9th Hour button
 
-            let anchor = selectElementsByDataSetValue(btn.docFragment, Prefix.HolyWeek + 'Begining of the 11th Hour element', undefined, 'root');//!We need to check the anchor
+            let anchor = btn.docFragment.children[0] as HTMLDivElement;
 
             if (!anchor) return;
 
@@ -3602,42 +3629,82 @@ const btnHolyWeek = new Button({
             btnsDiv.style.display = "grid";
             btnsDiv.style.gridTemplateColumns = "50% 50%";
 
-            anchor[0].insertAdjacentElement('beforebegin', btnsDiv);
+            anchor.insertAdjacentElement('beforebegin', btnsDiv);
 
-            let btnLakan = new Button({
-              btnID: 'Lakan',
+            let lakkanBtn = new Button({
+              btnID: btnLakkan.btnID,
               label: { AR: 'لقان خميس العهد', FR: 'Lavage des pieds' },
-              languages: prayersLanguages,
-              onClick: () => btnLakanOnClick(btnLakan.btnID, btnsDiv),
-              afterShowPrayers: () => btnLakanAfterShowPrayers(btnLakan.btnID),
+              docFragment: new DocumentFragment(),
+              onClick: (clear: boolean = true) => btnLakkan.onClick(copticFeasts.HolyThursday, lakkanBtn, clear),
+              afterShowPrayers: async () => await btnLakkan.afterShowPrayers(copticFeasts.HolyThursday, lakkanBtn),
             });
 
             let btnMass = new Button({
-              btnID: 'ThursdayMass',
+              btnID: 'btnMass',
               label: { AR: 'قداس خميس العهد', FR: 'Messe du Jeudi Saint' },
-              languages: prayersLanguages,
-              onClick: () => btnMassOnClick(btnMass.btnID, btnsDiv),
-              afterShowPrayers: () => btnMassAfterShowPrayers(btnMass.btnID),
+              docFragment: new DocumentFragment(),
+              onClick: (clear: boolean = true) => {
+                let sequence = [...Sequences.Mass.StBasil, ...Sequences.Mass.Communion];
+                btnLakkan.onClick('0000', btnMass, clear, sequence);//We call the same function in order to avoid repeating the same code. Notice that we are not passing the correct date, in order to escape the 'adaptSequence()' function
+              },
+              afterShowPrayers: async () => { },
             });
 
-            let btnGoBack = Array.from(sideBarBtnsContainer.children).find(htmlBtn => htmlBtn.id === btnGoToPreviousMenu.btnID) as HTMLDivElement;
-            let htmlBtn: HTMLElement;
+            btn.children = [lakkanBtn, btnMass];
 
-            [btnLakan, btnMass].forEach(btn => {
-              htmlBtn = createHtmlBtn({
+            // let btnGoBack = Array.from(sideBarBtnsContainer.children).find(htmlBtn => htmlBtn.id === btnGoToPreviousMenu.btnID) as HTMLDivElement;
+
+
+            [lakkanBtn, btnMass].forEach(btn => {
+              const htmlBtn = createHtmlBtn({
                 btn: btn,
                 btnsContainer: btnsDiv,
+                onClick: () => htmlBtnOnClick(btn),
                 btnClass: inlineBtnClass,
                 clear: false
               });
 
-              btnGoBack.insertAdjacentElement('beforebegin', htmlBtn.cloneNode(true) as HTMLElement);//We add a copy of each button to the left side bar
+              //btnGoBack.insertAdjacentElement('beforebegin', htmlBtn.cloneNode(true) as HTMLElement);//We add a copy of each button to the left side bar
 
             });
 
-            function btnLakanOnClick(btnID: string, btnsDiv: HTMLDivElement) {
+            function htmlBtnOnClick(target: Button) {
+              const id = target.btnID + 'Expandable';
+              let expandable = containerDiv.querySelector('#' + id) as HTMLDivElement;
+
+              const group = target.btnID.replace('btn', '');
+
+              if (expandable) return toggle(group, expandable);
+
+              (async function insertExpandable() {
+                expandable = document.createElement('div');
+                expandable.id = id;
+                btnsDiv.insertAdjacentElement('afterend', expandable);
+
+
+                target.onClick(false);
+                await target.afterShowPrayers();
+
+                const children = Array.from(target.docFragment.children) as HTMLDivElement[];
+
+                await setCSS(children);
+                showTitlesInRightSideBar(children.filter(div => isTitlesContainer(div)), undefined, false, group, true, group);//We add a prefix in order to avoid duplicate ids with already existing divs
+
+                expandable.appendChild(target.docFragment);
+              })();
+
+
+              function toggle(group: string, expandable: HTMLDivElement) {
+                expandable.classList.toggle(hidden);
+                Array.from(sideBarTitlesContainer.children)
+                  .filter((div: HTMLDivElement) => div.dataset.group === group)
+                  .forEach(div => div.classList.toggle(hidden));
+              }
+            }
+
+            function btnLakanOnClickOld(btnID: string, btnsDiv: HTMLDivElement) {
               let id = btnID + 'Div';
-              if (checkIfLiturgyIsDisplayed(id)) return;
+              // if (checkIfLiturgyIsDisplayed(id)) return;
 
               let lakanDiv: HTMLDivElement = document.createElement('div');
               lakanDiv.id = id;
@@ -3655,12 +3722,74 @@ const btnHolyWeek = new Button({
 
             }
 
-            function btnLakanAfterShowPrayers(btnID: string) {
+            async function btnLakanAfterShowPrayers(btnID: string) {
+              await btnLakkan.afterShowPrayers(copticFeasts.HolyThursday, lakkanBtn);
+
+
+
+
+              return;
+
+              insertExpandable()
+
+              async function insertExpandable() {
+
+                // btnIncenseMorning.children = [lakkanBtn];
+
+                let children = Array.from(lakkanBtn.docFragment.children);
+                let anchor = children.find(div => div.id === 'Reading') || children[children.length - 1];
+                if (!anchor) return;
+
+                let btnsContainer = document.createElement('div');
+                btnsContainer.classList.add(inlineBtnsContainerClass);
+                anchor.insertAdjacentElement('afterend', btnsContainer);
+
+                createHtmlBtn({
+                  btn: lakkanBtn,
+                  btnsContainer: btnsContainer,
+                  btnClass: inlineBtnClass,
+                  clear: false,
+                  onClick: () => {
+                    const id = lakkanBtn.btnID + 'Expandable';
+                    let expandable = containerDiv.querySelector('#' + id);
+
+                    if (expandable) return toggle('Lakkan');
+
+                    (async function insertExpandable() {
+                      expandable = document.createElement('div');
+                      expandable.id = id;
+                      btnsContainer.insertAdjacentElement('afterend', expandable);
+
+                      lakkanBtn.onClick(false);
+                      await lakkanBtn.afterShowPrayers();
+
+                      let children = Array.from(lakkanBtn.docFragment.children) as HTMLDivElement[];
+
+                      await setCSS(children);
+
+                      showTitlesInRightSideBar(children.filter(div => isTitlesContainer(div)), undefined, false, 'Lakkan', true, 'Lakkan');//We add a prefix in order to avoid duplicate ids with already existing divs
+
+                      expandable.appendChild(lakkanBtn.docFragment);
+                    })();
+
+                    function toggle(group: string) {
+                      expandable.classList.toggle(hidden);
+                      Array.from(sideBarTitlesContainer.children)
+                        .filter((div: HTMLDivElement) => div.dataset.group === group)
+                        .forEach(div => div.classList.toggle(hidden));
+                    }
+
+                  }
+                });
+
+
+              }
               if (containerDiv.querySelector('#' + btnID + 'Div')) return;//It means the button was clicked before and all the content is already appended to containerDiv
 
               let reading: string[][], anchor: HTMLElement[];
 
               (function insertLakanStPaul() {
+                return
                 anchor = selectElementsByDataSetValue(btn.docFragment, Prefix.anchor + "Readings");
 
                 if (anchor.length < 1) return console.log('Didn\'t find the anchor for St. Paul Reading');
@@ -3685,6 +3814,7 @@ const btnHolyWeek = new Button({
               })();
 
               (function insertLakanGospel() {
+                return
                 let id = 'lakanGospel';
                 let gospelDiv: HTMLDivElement = btn.docFragment.querySelector('#' + id);
                 if (gospelDiv) {
@@ -3717,13 +3847,13 @@ const btnHolyWeek = new Button({
 
             }
 
-            function btnMassOnClick(btnID: string, btnsDiv: HTMLDivElement) {
+            function btnMassOnClickOld(btnID: string, btnsDiv: HTMLDivElement) {
               let id = btnID + 'Div';
-              if (checkIfLiturgyIsDisplayed(id)) return;
+              //if (checkIfLiturgyIsDisplayed(id)) return;
 
             }
 
-            function btnMassAfterShowPrayers(btnID: string) {
+            function btnMassAfterShowPrayersOld(btnID: string) {
               if (containerDiv.querySelector('#' + btnID + 'Div')) return;//It means the button was clicked before and all the content is already appended to containerDiv
 
             }
@@ -4271,7 +4401,7 @@ async function showMultipleChoicePrayersButton(args: {
     return btns.filter(btn => btn?.label[defaultLanguage]);//!We return only the btns having a lable in the defaultLanguage
 
     function btnOnClick(btn: Button, title: string) {
-      let table = findTable(title, getTablesArrayFromTitlePrefix(title)) || undefined
+      let table = findTable(title, getArrayFromPrefix(title)) || undefined
       console.log(title);
       let container = document.createElement('div');
       if (!table) return;
@@ -4313,9 +4443,6 @@ async function showMultipleChoicePrayersButton(args: {
 
       //We format the grid template of the newly added divs
       setCSS(createdElements);
-      //We apply the amplification of text
-      applyAmplifiedText(createdElements);
-
 
       //We scroll to the button
       createFakeAnchor(args.masterBtnID);
@@ -4477,7 +4604,6 @@ async function retrieveReadingTableFromBible(reading: string[][], langs: string[
     .filter(row => row?.find(el => el?.startsWith(Prefix.readingRef)));//We check of any of the table's rows has an element starting with Prefix.readingRef: this means this element is a reference for a text that we need to retrieve from the relevant bible
 
   if (rowsWithReferences.length < 1) return reading;//It means that there are no rows with references
-  //reading = structuredClone(reading);//We create a copy of the table;
 
   let splitted: string[];
   let ready: Set<[string, bibleChapter]> = new Set();//this set will contain arrays of ["bookID:chapterNumber:lang", chapter] for each chapter treated. If the chapter is found, we will not retreive it again.
@@ -4488,12 +4614,12 @@ async function retrieveReadingTableFromBible(reading: string[][], langs: string[
     if (rowsWithReferences.includes(row))
       retrieved.push(await referenceTitleRow(row), ...await processReadingReference(row))
     else if (reading.indexOf(row) === 0)
-      retrieved.push(row);
-    else if (['&C=Title', '&C=SubTitle'].map(c => row[0].includes(c)).includes(true)
+      retrieved.push(row);//This is the first row of the table, and it does not inlcude any references, we push it as is (it is the case of almost all the 1st rows of all tables)
+    else if (RegExp('&C=(Title|SubTitle)').test(row[0]) //i.e., this is not the 1st row of the table, but its class is 'Title' or 'Subtitle': in this case if the next row includes references, it means that we are like starting a new reading table: we will replace the title row with a row including the title of the reading
       && (
-        rowsWithReferences.includes(reading[reading.indexOf(row) + 1])
+        rowsWithReferences.includes(reading[reading.indexOf(row) + 1])//the next row is a row that includes reading references
         ||
-        reading[reading.indexOf(row) + 1].includes('&C=ReadingIntro')))
+        reading[reading.indexOf(row) + 1][0].includes('&C=ReadingIntro')))//OR the the next row has the class 'ReadingIntro' which means that we are starting a reading (the references are most probably included in row +2)
       retrieved.push(await referenceTitleRow(row));
     else retrieved.push(row);
   }
@@ -4516,8 +4642,8 @@ async function retrieveReadingTableFromBible(reading: string[][], langs: string[
         .replaceAll(' ', '')//We remove all spaces in the reference in order to avoid errors.
         .replaceAll(Prefix.readingRef, '');
       splitted = splitTitle(ref);
-      actor = splitted[1] || 'NoActor';
-
+      row.length === langs.length + 1? actor = splitTitle(row[0])[1] : actor = splitted[1];
+      if (!actor) actor = 'NoActor';
       if (row.length === 1)
         await Promise.all(langs.map(async lang =>
           //!We can't use forEach because forEach doesn't await for async functions to resolve. It throughs a promise
@@ -4627,7 +4753,7 @@ async function retrieveReadingTableFromBible(reading: string[][], langs: string[
   async function retrieveVersesText(lang: string, bookID: string, chapterNumber: string, verses: string): Promise<string | Error> {
 
     if (bookID === 'PSA' && Number(chapterNumber)) chapterNumber = (Number(chapterNumber) + 1).toString();
-    
+
     let exists = Array.from(ready).find(array => array[0] === bookID + ":" + chapterNumber + ":" + lang);
 
     if (exists)
@@ -4717,7 +4843,7 @@ function matchPargraphsSplitting(retrieved: string[], langs: string[], add: numb
   let paragraphs = retrieved[langs.indexOf(defaultLanguage) + add]?.split('\n');
   if (!paragraphs) return;
 
-  let exp = RegExp('Sup_' + '\\d\*' + '_Sup', 'g');
+  let exp = RegExp('Sup_\\d*_Sup', 'g');
 
   let ranges = paragraphs
     .map(parag => Array.from(parag.matchAll(exp))
@@ -4730,7 +4856,7 @@ function matchPargraphsSplitting(retrieved: string[], langs: string[], add: numb
 
   langs
     .forEach(lang => {
-      if (lang === defaultLanguage) return;
+      if (lang === defaultLanguage) return;//We do not split the paragraph for the default language because its the paragraphs division in this lanaguage who will serve as guid for the splitting of the foreign language text
       let text = retrieved[langs.indexOf(lang) + add].replaceAll('\n', ' ');//!We must remove all the '\n' characters from the string
       if (!text) return;
       if (!exp.test(text)) return;//If the text is not divided into verses (i.e. includes('Sup))
@@ -4750,8 +4876,7 @@ function matchPargraphsSplitting(retrieved: string[], langs: string[], add: numb
           toVerse = ranges[ranges.indexOf(versesRange) + 1][0];//If we have not reached the last element of ranges, we will set versesRange[1] = element 0 of the next element of ranges in order to retrive the text until the end of the last verse number
         else toVerse = '';
 
-        let exp = RegExp(versesRange[0] + '\.\*' + toVerse);
-        let match = text.match(exp);
+        const match = text.match(RegExp(versesRange[0] + '\.\*' + toVerse));
         if (!match) return '';
         if (toVerse.startsWith('Sup_'))
           return match[0].replace(toVerse, '');
@@ -4767,9 +4892,11 @@ function matchPargraphsSplitting(retrieved: string[], langs: string[], add: numb
     for (let i = 0; i < retrieved.length; i++) {
       parags = retrieved[i].split('\n');
       for (let ii = 0; ii < parags.length; ii++) {
-        if (!table[ii])
-          table.push([Prefix.same + "&C=" + actor, ...langs.map(lang => '')]);
-        table[ii][i + 1] = parags[ii];
+        if (!table[ii]){
+          table.push([...langs.map(lang => '')]);
+          add > 0 ? table[ii].unshift(retrieved[0]) : table[ii].unshift(Prefix.same + "&C=" + actor); //If the number of elements in retrieved > languages, it means the first element is a title element. We will keep it as first element of each newly added row to the table, otherwise, we will manually add a title element as first element.
+        }
+        table[ii][i + 1 - add] = parags[ii];
       }
     }
     return table;
@@ -4812,7 +4939,7 @@ async function insertGospelReadingAndResponses(args: {
     args.container.appendChild(document.createElement("div"));
   if (!args.languages)
     args.languages = getLanguages(args.liturgy);
-  
+
   (function InsertPopeAndBishopPsalm() {
     if (!args.isMass) return;
     //!This must come before the readings and responses are inserted
@@ -4874,7 +5001,7 @@ async function insertGospelReadingAndResponses(args: {
     let gospel: string[][][] = args.gospel || findGospelTables();
 
     if (!gospel || gospel.length < 2) return new Error("Error: gospel.length < 2"); //if no readings are returned from the filtering process, then we end the function
-    
+
     await Promise.all(gospel
       .map(async table => {
         //!We can't use forEach because forEach dosen't await for promises to resolve
@@ -4912,14 +5039,14 @@ async function insertGospelReadingAndResponses(args: {
           };
         };
       }));
-    
-    function findGospelTables():string[][][] {
-      let prayersArray: string[][][] = PrayersArraysKeys.find(array => array[0] === args.liturgy)[2]();  
+
+    function findGospelTables(): string[][][] {
+      let prayersArray: string[][][] = PrayersArraysKeys.find(array => array[0] === args.liturgy)[2]();
       if (!prayersArray) return [];
-        return prayersArray
-            .filter((table) =>
-              isMultiDatedTitleMatching(splitTitle(table[0][0])[0], [copticReadingsDate]));
-      };
+      return prayersArray
+        .filter((table) =>
+          isMultiDatedTitleMatching(splitTitle(table[0][0])[0], [copticReadingsDate]));
+    };
   };
 
   function getAnchor(root: string): HTMLDivElement {

@@ -19,6 +19,7 @@ function startEditingMode(args: {
   | { includes: boolean }
   | { equal: boolean }
   | { startsWith: boolean };
+  regExp?: boolean
 }) {
   if (args.clear !== false) args.clear = true;
   containerDiv.dataset.specificTables = "false";
@@ -88,11 +89,12 @@ function startEditingMode(args: {
     if (
       !args.tableTitle && //args.tableTitle was not already provided as argument
       confirm("Do you want to edit a single or specific table(s) in the array?")
-    )
-
+    ) {
       args.tableTitle = prompt(
-        'Provide the name of the table you want to edit  (if more than one table, provide the titles separated by ", " '
+        'Provide the name of the table you want to edit  (if more than one table, provide the titles separated by ", ". If you want the title to be evaluated as a Regular Expression, start the title with "RegExp" '
       );
+      args.regExp = true
+    };
 
     if (!args.tableTitle && !args.arrayName) return; //If no tableTitle is provided, and no arrayName, we will return
 
@@ -104,18 +106,21 @@ function startEditingMode(args: {
     )
       return eval(arrayName); //If no tableTitle is provided, we will return the entire array
 
-    let titles = args.tableTitle.split(", "); //if tableTitle is a comma separated string, it means there are multiple table titles provided
+    if (args.tableTitle.startsWith('RegExp')) args.regExp = true;
+
+    let titles = args.tableTitle.replaceAll('RegExp', '').split(", "); //if tableTitle is a comma separated string, it means there are multiple table titles provided
 
     if (!titles || titles.length < 1)
       return console.log("The provided tableTitle argument is not valid");
 
     containerDiv.dataset.specificTables = "true";
+    debugger;
     return titles.map(
       (title) =>
         findTable(
           title,
           arrayName ? eval(arrayName) : undefined,
-          args.operator || { includes: true }
+          args.operator || { includes: true }, args.regExp
         ) || undefined
     );
   }
@@ -170,7 +175,7 @@ function showTables(args: {
   args.tablesArray.forEach((table) => {
     if (!table) return;
     titleBase = splitTitle(table[0][0])[0] || "NoTitle";
-    prayersArray = getTablesArrayFromTitlePrefix(titleBase);
+    prayersArray = getArrayFromPrefix(titleBase);
     PrayersArrays.includes(prayersArray)
       ? (arrayName = "PrayersArrayFR")
       : (arrayName = getArrayNameFromArray(prayersArray)); //If the array of tables that includes the table is one of the arrays in the 'PrayersArrays' list, we set the arrayName to 'PrayersArray', or otherwise, we retrieve its name from the PrayersArraysKeys by calling getArrayNameFromArray(prayersArray)
@@ -623,7 +628,7 @@ function modifyEditedArray(tableTitle: string, tablesArray: string[][][]) {
 
     [
       tablesArray,
-      getTablesArrayFromTitlePrefix(htmlTable[0].dataset.root),
+      getArrayFromPrefix(htmlTable[0].dataset.root),
     ].forEach((array) => modifyTheMainAndSubArrays(array)); //We will modify the table in its main string[][][] Array (passed to the function in the tablesArray argument to the function) as well as any other sub array in which the table might be also included (like PrayersArrays.massCommon, PrayersArrays.IncenseDawn, etc.)), retrieved by the table title (stored in the html data-root attribute);
 
     function modifyTheMainAndSubArrays(targetTablesArray: string[][][]) {
@@ -757,7 +762,7 @@ function replacePrefixes(text: string, arrayName: string): string {
   });
 
   if (!arrayName.startsWith("PrayersArray"))
-      return text;
+    return text;
   //Seasonal
 
   debugger
@@ -967,7 +972,7 @@ function createHtmlElementForPrayerEditingMode(args: {
   if (!args.container) args.container = containerDiv;
   if (!args.arrayName)
     args.arrayName = getArrayNameFromArray(
-      getTablesArrayFromTitlePrefix(args.titleBase)
+      getArrayFromPrefix(args.titleBase)
     );
   if (!args.arrayName) return;
 
@@ -1058,7 +1063,7 @@ function createHtmlElementForPrayerEditingMode(args: {
         return;
       }
 
-      let tblsArray = getTablesArrayFromTitlePrefix(referrencedTblTitle);
+      let tblsArray = getArrayFromPrefix(referrencedTblTitle);
 
       if (!tblsArray)
         return console.log(
@@ -1088,7 +1093,7 @@ function createHtmlElementForPrayerEditingMode(args: {
         });
       });
 
-      setCSS(created);
+      setCSS(created, false);
       //Prefix.massStBasil + 'Reconciliation'
       created.forEach((div) => {
         div.dataset.displayedPlaceHolder = referrencedTblTitle;
@@ -1180,7 +1185,7 @@ function addTableToSequence(htmlParag: HTMLElement) {
     setCSS(
       Array.from(
         document.getElementById("showSequence").querySelectorAll("div.Row")
-      )
+      ), false
     );
   }
 }
@@ -1236,7 +1241,7 @@ function showSequence(
         position: newDiv,
       });
     });
-    setCSS(Array.from(newDiv.querySelectorAll(".Row")));
+    setCSS(Array.from(newDiv.querySelectorAll(".Row")), false);
   });
 }
 
@@ -1393,18 +1398,18 @@ async function convertCopticFont(args: {
   if (!args.fontFrom) return;
 
   if (args.tableTitle) {
-    let table: string[][] =  getTablesArrayFromTitlePrefix(args.tableTitle).find(tbl=>new RegExp(args.tableTitle).test(tbl[0][0]));
+    let table: string[][] = getArrayFromPrefix(args.tableTitle).find(tbl => new RegExp(args.tableTitle).test(tbl[0][0]));
     if (!table) return alert('No table with the provided title was found. Be careful, the name of the table is assessed as a Regular Expression. You may need to escape some letters');
     let langs = getLanguages(args.tableTitle);
     if (!langs || !langs.includes('COP')) return;
-    let prefix:[string, string];
+    let prefix: [string, string];
     for (let row of table) {
       row[langs.indexOf('COP') + 1] = await convert(row[langs.indexOf('COP') + 1]);
       prefix = Object.entries(Prefix).find(entry => row[0].startsWith(entry[1]));
       if (!prefix) continue;
       row[0] = row[0].replace(prefix[1], "Prefix." + prefix[0] + '+ "');
     }
-  
+
     return table
   }
   else if (args.text) return await convert(args.text);
@@ -1441,6 +1446,10 @@ async function convertCopticFont(args: {
   else args.htmlParag.textContent = args.text
 
   async function convert(originalText: string) {
+    if (!originalText) return;
+    const prefix = Array.from(Object.entries(Prefix)).find(entry => originalText.startsWith(entry[1]));
+    if (prefix)
+      return "Prefix." + prefix[0] + ' + "' + originalText.split(prefix[1])[1] + '"';
     let converted: string[] = [];
     let paragraphs = originalText.split('<br>');
     for (let parag of paragraphs) {
@@ -10373,8 +10382,8 @@ function _HelperPrepareArabicChant() {
 }
 
 
-async function _testReadingsRefs(array:string[][][]){
-  let reading: string[][], failed = '', table:string[][];
+async function _testReadingsRefs(array: string[][][]) {
+  let reading: string[][], failed = '', table: string[][];
   setCopticDates(new Date("2023.12.31"));
 
   for (let i = 1; i < 367; i++) {
@@ -10385,11 +10394,11 @@ async function _testReadingsRefs(array:string[][][]){
       failed += '["copticReadingDate = ' + copticReadingsDate + '"],\n';
       continue
     };
-    
+
     reading = await retrieveReadingTableFromBible(table, ['AR', 'FR']);
     if (!reading || reading.map(row => row.join('')).join('\n').includes('Error:')) {
-    failed += '["' + table[0][0] + '"],\n'
-  }
+      failed += '["' + table[0][0] + '"],\n'
+    }
   }
   exportToJSFile(failed, 'FailedReadings')
 
@@ -10460,7 +10469,7 @@ function _testReadings() {
         if (prefix[0] === Prefix.synaxarium)
           readingDate = copticDate;
         let reading: string[][][] =
-          getTablesArrayFromTitlePrefix(prefix[0])
+          getArrayFromPrefix(prefix[0])
             .filter((tbl) => isMultiDatedTitleMatching(tbl[0][0], [readingDate]));//We do a filter not a find because Gospels arrays include 2 tables for each day: Psalm table and Gospel table
 
         if (reading.length < 1) {
@@ -10642,13 +10651,13 @@ function _fixReadingArray(array: string[][][]) {
 
 }
 
-function _MergeDuplicateReadings(array:string[][][]){
+function _MergeDuplicateReadings(array: string[][][]) {
 
-return mergeReadings(array).filter(tbl=>!tbl[0][0].startsWith('Removed'));
+  return mergeReadings(array).filter(tbl => !tbl[0][0].startsWith('Removed'));
 
-  function mergeReadings(array:string[][][]):string[][][]{
+  function mergeReadings(array: string[][][]): string[][][] {
     let similar: string[][][], title: string, refs: string;
-    
+
     array.forEach(table => {
       if (table.length === 1 && table[0][0].startsWith('Removed')) return;
       refs = getTableRefs(table);
@@ -10659,30 +10668,53 @@ return mergeReadings(array).filter(tbl=>!tbl[0][0].startsWith('Removed'));
 
       title = getReadingDate(table[0][0]);
       title += similar.map(tbl => '||' + getReadingDate(tbl[0][0])).join('');
-      
+
       table[0][0] = table[0][0].split('&D=')[0] + '&D=' + title + '&C=' + table[0][0].split('&C=')[1];
-      
+
 
 
       similar.forEach(tbl => array[array.indexOf(tbl)] = [['Removed' + getReadingDate(tbl[0][0])]]);
-      
+
     });
     console.log('Cleaned Array = ', array);
     return array
-    
+
   }
-  function getTableRefs(table:string[][]):string {
+  function getTableRefs(table: string[][]): string {
     return table.map(row => {
       if (!row.find(el => el.startsWith(Prefix.readingRef))) return '';
-      return row.map(el=> getCleanRef(el)).join('')
+      return row.map(el => getCleanRef(el)).join('')
     }).join('');
   }
 
-  function getCleanRef(ref:string) {
+  function getCleanRef(ref: string) {
     return ref.split(Prefix.readingRef)[1].split('&C=')[0].replace(' ', '')
   }
 
   function getReadingDate(title: string) {
     return title.split('&D=')[1].split('&C=')[0];
   }
+}
+
+function _FixPropheciesRefs():string[][][] {
+  let splitted: string[];
+  return ReadingsArrays.GospelNightArrayFR.map(table=>{
+    if (!RegExp(Prefix.HolyWeek + '.*(HM|HE)Prophecies&D=GL').test(table[0][0]))
+      return table
+    table = table.map(row => {
+      if (row.length !== 1 || !row[0].startsWith(Prefix.readingRef))
+        return row
+      splitted = splitTitle(row[0]);
+      return [
+        "Prefix.same + \"&C=" + (splitted[1] ||'Diacon'),
+        "",
+        splitted[0],
+        splitted[0],
+      ];
+    
+    });
+    return table
+
+  })
+
 }
