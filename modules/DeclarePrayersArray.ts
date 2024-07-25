@@ -5184,18 +5184,21 @@ PrayersArrayFR = [[
     Prefix.commonPrayer + "MaroEtshasf&D=$copticFeasts.AnyDay&C=Diacon",
     "Ⲙⲁⲣⲟⲩϭⲁⲥϥ ϧⲉⲛ ⲧ̀ⲉⲕⲕ̀ⲗⲏⲥⲓⲁ ⲛ̀ⲧⲉ ⲡⲉϥⲗⲁⲟⲥ: ⲟⲩⲟϩ ⲙⲁⲣⲟⲩⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟϥ ϩⲓ ⲧ̀ⲕⲁⲑⲉⲇⲣⲁ ⲛ̀ⲧⲉ ⲛⲓⲡ̀ⲣⲉⲥⲃⲩⲧⲉⲣⲟⲥ: ϫⲉ ⲁϥⲭⲱ ⲛ̀ⲟⲩⲙⲉⲧⲓⲱⲧ ⲙ̀ⲫ̀ⲣⲏϯ ⲛ̀ϩⲁⲛⲉ̀ⲥⲱⲟⲩ: ⲉⲩⲉ̀ⲛⲁⲩ ⲛ̀ϫⲉ ⲛⲏⲉ̀ⲧⲥⲟⲩⲧⲱⲛ ⲟⲩⲟϩ ⲉⲩⲉ̀ⲟⲩⲛⲟϥ:",
     "Qu’il l’élève sur son peuple et qu’il le bénisse sur des anciens, car il a rendu la parenté comme les pâturages. Les hommes droits voient cela et s’en réjouissent.",
+    "",
     "فليرفعوه في كنيسة شعبه وليباركوه علي منابر الشيوخ، لأنه جعل أُبوَّة مثل الخراف، يُبصِرُ المستقيمون ويفرحون.",
   ],
   [
     Prefix.same + "&C=Diacon",
     "Ⲁϥⲱⲣⲕ ⲛ̀ϫⲉ Ⲡⲟ̅ⲥ̅ ⲟⲩⲟϩ ⲛ̀ⲛⲉϥⲟⲩⲱⲙ ⲛ̀ϩ̀ⲑⲏϥ: ϫⲉ ⲛ̀ⲑⲟⲕ ⲡⲉ ⲫ̀ⲟⲩⲏⲃ ϣⲁ ⲉ̀ⲛⲉϩ: ⲕⲁⲧⲁ ⲧ̀ⲧⲁⲝⲓⲥ ⲙ̀Ⲙⲉⲗⲭⲓⲥⲉⲇⲉⲕ.",
     "Le Seigneur l’a juré et il ne se repentira pas, que tu es prêtre éternellement selon le rite de Melchisédech.",
+    "",
     "أقسم الرب ولن يندم، أنك أنت هو الكاهن إلى الأبد على طقس ملكي صادق.",
   ],
   [
     Prefix.same + "&C=Diacon",
     "Ⲡⲟ̅ⲥ̅ ⲥⲁⲟⲩⲓⲛⲁⲙ ⲙ̀ⲙⲟⲕ ⲡⲉⲛⲓⲱⲧ ⲉⲑⲟⲩⲁⲃ ⲙ̀ⲡⲁⲧⲓⲁⲣⲭⲏⲥ ⲡⲁⲡⲁ ⲁⲃⲃⲁ (....). Ⲛⲉⲙ ⲡⲉⲛⲓⲱⲧ ⲛ̀ⲉ̀ⲡⲓⲥⲕⲟⲡⲟⲥ ⲁⲃⲃⲁ (....). Ⲡⲟ̅ⲥ̅ ⲉϥⲉ̀ⲁ̀ⲣⲉϩ ⲉ̀ⲡⲉⲧⲉⲛⲱⲛϧ.",
     "Le Seigneur est à ta droite notre père le patriarche le pape Anba (….) et notre père l’évêque Anba (....) Que le seigneur préserve vos vies.",
+    "",
     "الرب عن يمينك يا أبانا القديس البطريرك البابا المعظم الأنبا (…)، (وأبانا الأسقف أنبا (....)، الرب يحفظ حياتكما.",
   ],
 ],
@@ -6429,12 +6432,12 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.massCommon + "AssemblyResponseAsItWereSoLetItBe&D=$copticFeasts.AnyDay",
+    Prefix.massCommon + "AsItWereSoLetItBe",
   ],
 ],
 [
   [
-    Prefix.massCommon + "AssemblyResponseAsItWereSoLetItBe&D=$copticFeasts.AnyDay&C=Assembly",
+    Prefix.massCommon + "AsItWereSoLetItBe&C=Assembly",
     "Ⲱⲥⲡⲉⲣⲏⲛ: ⲕⲉ ⲉⲥⲧⲉ ⲉⲥⲧⲓⲛ: ⲁ̀ⲡⲟ ⲅⲉⲛⲉⲁⲥ ⲓⲥ ⲅⲉⲛⲉⲁⲛ: ⲕⲉ ⲡⲁⲛⲧⲁⲥ ⲧⲟⲩⲥ ⲉ̀ⲱ̀ⲛⲁⲥ ⲧⲱⲛ ⲉ̀ⲱⲛⲱⲛ: ⲁ̀ⲙⲏⲛ.",
     "Tel qu’il fut, ainsi soit-il, de génération en génération et pour les siècles des siècles. Amen.",
     "أوس بيرين كي استى إستين أبوجينياس يس جي ني آن كي بانطاس طوس إيءوناس طون إيئونون، آمين.",
@@ -10850,7 +10853,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.massCommon + "AssemblyResponseAsItWereSoLetItBe&D=$copticFeasts.AnyDay",
+    Prefix.massCommon + "AsItWereSoLetItBe",
   ],
   [
     Prefix.same + "&C=Priest",
@@ -12325,10 +12328,6 @@ PrayersArrayFR = [[
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "AmeenKyrieElieson3",
-  ],
-  [
-    Prefix.placeHolder,
-    Prefix.massCommon + "AssemblyResponseAsItWereSoLetItBe&D=$copticFeasts.AnyDay",
   ],
 ],
 [
