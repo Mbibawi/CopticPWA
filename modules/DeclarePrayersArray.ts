@@ -4441,7 +4441,7 @@ PrayersArrayFR = [[
     "Ⲁⲣⲓⲡ̀ⲣⲉⲥⲃⲉⲩⲓⲛ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ: ⲱ̀ ⲧⲉⲛϭⲟⲓⲥ ⲛ̀ⲛⲏⲃ ⲧⲏⲣⲉⲛ ϯⲑⲉⲟ̀ⲧⲟⲕⲟⲥ: Ⲙⲁⲣⲓⲁ ⲑ̀ⲙⲁⲩ ⲙ̀Ⲡⲉⲛⲥⲱⲧⲏⲣ: ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ.",
     "Intercède pour nous Ô notre dame, la mère de Dieu, Marie la mère de notre Sauveur pour qu’Il nous pardonne nos péchés.",
     "آريبريسفافين إي إهري يجون، أو تينتشويس إنيب تيرين تي ثيؤطوكوس. ماريا اثُمَّاف إمبينسوتير، إنتيفكان إننوفي نان إيفول.",
-    "إشفعي فِينَا يا سَيِّدَتَنَا كلنا، والِدَةِ الإلَهِ مَرِيَمْ أم مُخَلِّصْنَا، لِيَغْفِرْ لَنَا خَطَايَانَا.",
+    "اشفعي فِينَا يا سَيِّدَتَنَا كلنا، والِدَةِ الإلَهِ مَرِيَمْ أم مُخَلِّصْنَا، لِيَغْفِرْ لَنَا خَطَايَانَا.",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -7885,7 +7885,7 @@ PrayersArrayFR = [[
     "Ⲁⲣⲓⲡ̀ⲣⲉⲥⲃⲉⲩⲓⲛ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ: ⲱ̀ ⲧⲉⲛϭⲟⲓⲥ ⲛ̀ⲛⲏⲃ ⲧⲏⲣⲉⲛ ϯⲑⲉⲟ̀ⲧⲟⲕⲟⲥ: Ⲙⲁⲣⲓⲁ ⲑ̀ⲙⲁⲩ ⲙ̀Ⲡⲉⲛⲥⲱⲧⲏⲣ: ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ.",
     "Intercède pour nous Ô notre dame, la mère de Dieu, Marie la mère de notre Sauveur pour qu’Il nous pardonne nos péchés.",
     "آريبريسفافين إي إهري يجون، أو تينتشويس إنيب تيرين تي ثيؤطوكوس. ماريا اثُمَّاف إمبينسوتير، إنتيفكان إننوفي نان إيفول.",
-    "إشفعي فِينَا يا سَيِّدَتَنَا كلنا، والِدَةِ الإلَهِ مَرِيَمْ أم مُخَلِّصْنَا، لِيَغْفِرْ لَنَا خَطَايَانَا.",
+    "اشفعي فِينَا يا سَيِّدَتَنَا كلنا، والِدَةِ الإلَهِ مَرِيَمْ أم مُخَلِّصْنَا، لِيَغْفِرْ لَنَا خَطَايَانَا.",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -24304,7 +24304,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.massCommon + "Agios&D=Seasons.Baptism&C=Title",
+    Prefix.massCommon + "Agios&D=$Seasons.Baptism&C=Title",
     "",
     "Ⲁⲅⲓⲟⲥ ⲟ̀ Ⲑⲉⲟⲥ",
     "",
@@ -24349,7 +24349,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.commonPrayer + "Agios&D=$copticFeasts.HolyThursday&C=Title",
+    Prefix.commonPrayer + "Agios&D=GL55&C=Title",
     "",
     "Le Trisagion",
     "",

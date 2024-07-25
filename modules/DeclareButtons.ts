@@ -209,7 +209,7 @@ const Sequences = {
       Prefix.HolyWeek + "LakanSermony&D=$copticFeasts.HolyThursday",
       Prefix.massCommon + "BiEhmotGhar",
       Prefix.anchor + "Readings",
-      Prefix.commonPrayer + "Agios&D=$copticFeasts.HolyThursday",
+      Prefix.anchor + "Agios",
       Prefix.anchor + "GospelLitany",
       Prefix.incenseDawn + "SickLitany",
       Prefix.incenseDawn + "TravelersLitany",
@@ -1015,8 +1015,7 @@ const btnMassUnBaptised = new Button({
           Agios += Object.entries(copticFeasts).find(entry => entry[1] === copticReadingsDate)[0];
         else if ([Seasons.Nativity, Seasons.Baptism, Seasons.CrossFeast, Seasons.PentecostalDays, Seasons.Ascension].includes(Season))
           Agios = Agios.replace('copticFeasts', 'Seasons') + Object.entries(Seasons).find(entry => entry[1] === Season)[0];
-        else Agios += "AnyDay";
-
+        else Agios = Agios.replace('&D=$copticFeasts.', '');
 
         let AgiosTable =
           findTable(Agios, MassCommonArray, {
@@ -1987,7 +1986,6 @@ const btnIncenseMorning = new Button({
     })();
 
     (function insertLakkanBtn() {
-      debugger
       if (copticDate === '1005')
         insertExpandable(copticFeasts.Baptism, 'id');
       else if (copticDate === copticFeasts.Apostles)
@@ -2344,7 +2342,9 @@ const btnLakkan = new Button({
         sequence.splice(sequence.indexOf(title), count)
       }
     })();
-
+    btn.prayersSequence = 
+    btn.prayersSequence = sequence.map(title => title.replace('XXX', '&D=' + date));
+    return
     sequence.forEach(title => {
       if (title.endsWith('XXX'))
         title = title.replace('XXX', '&D=' + date);
@@ -2369,23 +2369,26 @@ const btnLakkan = new Button({
 
     btnIncenseMorning.afterShowPrayers(btn);//We call it in order to hide the "Pray that God Have Mercy on Us" response for Pope and Bishop
 
-    let prophecies: string[], stPaul: string[], gospel: string[];
+    let prophecies: string[], stPaul: string[], gospel: string[], Agios:string[];
 
 
     if (date === copticFeasts.Baptism) {
       prophecies = ['HAB:3:12-19', 'ISA:35:1-2', 'ISA:40:1-25', 'ISA:9:1-2', 'BAR:3:36-End/4:1-4', 'EZK:36:24-29', 'EZK:47:1-9'];
       stPaul = ['1CO:10:1-13'];
       gospel = ['PSA:113:3-5', 'MAT:3:1-17'];
+      Agios = [Prefix.massCommon + "Agios&D=$Seasons.Baptism"];
     }
     else if (date === copticFeasts.Apostles) {
       prophecies = ['EXO:15:22-End/16:1-1', 'EXO:30:17-30', 'ISA:1:16-26', 'ISA:35:1-10', 'ISA:43:16-End/44:1-6', 'ZEC:8:7-19', 'ZEC:14:8-11'];
       stPaul = ['HEB:10:22-32'];
       gospel = ['PSA:50:7-7/50:10-10', 'JHN:5:1-18'];
+      Agios = [Prefix.commonPrayer + 'Agios'];
     }
     else if (date === copticFeasts.HolyThursday) {
       prophecies = [];
       stPaul = ['1TI:4:9-End/5:1-10'];
-      gospel = ["PSA:50:9-9/50:12-12", "JHN:13:1-17"];
+      gospel = ['PSA:50:9-9/50:12-12", "JHN:13:1-17'];
+      Agios = [Prefix.commonPrayer + 'Agios&D=GL55'];
     };
 
     let anchor: HTMLElement,
@@ -2394,6 +2397,7 @@ const btnLakkan = new Button({
 
     await insertBeforeAnchor('Prophecies', prophecies);
     await insertBeforeAnchor('StPaul', stPaul);
+    await insertBeforeAnchor('Agios', Agios);
 
     await insertGospelReadingAndResponses({
       isMass: true,
@@ -2423,24 +2427,24 @@ const btnLakkan = new Button({
 
       await Promise.all(refs.map(async ref => {
         if (date === copticFeasts.HolyThursday)
-          reading = [
+          reading = await retrieveReadingTableFromBible([
             ...findTable(Prefix.HolyWeek + "LakanProphecies&D=GL55", ReadingsArrays.GospelNightArrayFR) || undefined,
-            ...findTable(Prefix.HolyWeek + "LakanSermony&D=GL55", ReadingsArrays.GospelNightArrayFR) || undefined];
+            ...findTable(Prefix.HolyWeek + "LakanSermony&D=GL55", ReadingsArrays.GospelNightArrayFR) || undefined], languages);
 
         else reading = await retrieveReadingTableFromBible([[Prefix.readingRef + ref]], languages);
 
         if (!reading) return;
 
         if (title === 'StPaul') {
-          insertReading(getReadingIntroOrEnd(title, ReadingsIntrosAndEnds.stPaulIntro, 'Intro'), anchor, prayersLanguages);
+          insertReading(getReadingIntroOrEnd(title, ReadingsIntrosAndEnds.stPaulIntro, 'Intro'), anchor, prayersLanguages);//We insert the StPaul ReadingIntro in all cases
         }
 
-        insertReading(reading, anchor, languages);
+        insertReading(reading, anchor, languages);//We insert the reading text itself
 
         if (title === 'Prophecies' && date !== copticFeasts.HolyThursday) {
-          insertReading(getReadingIntroOrEnd(title, ReadingsIntrosAndEnds.propheciesEnd, 'End'), anchor, prayersLanguages);
+          insertReading(getReadingIntroOrEnd(title, ReadingsIntrosAndEnds.propheciesEnd, 'End'), anchor, prayersLanguages);//We do not insert the ReadingEnd for the holyThursday because it is already included in the table
         } else if (title === 'StPaul') {
-          insertReading(getReadingIntroOrEnd(title, ReadingsIntrosAndEnds.stPaulEnd, 'End'), anchor, prayersLanguages);
+          insertReading(getReadingIntroOrEnd(title, ReadingsIntrosAndEnds.stPaulEnd, 'End'), anchor, prayersLanguages);//We insert the StPaul ReadingEnd in all cases
         } else if (title === 'Psalm') {
           reading = findTable(Prefix.bookOfHours + "Alleluia", BookOfHoursArray) || undefined;
           replaceClass(reading, 'Assembly');
@@ -2448,8 +2452,9 @@ const btnLakkan = new Button({
         }
 
       }));
+
       function insertReading(reading: string[][], anchor: HTMLElement, langs: string[]) {
-        if (!reading || !anchor) return;
+        if (!reading) return;
         insertPrayersAdjacentToExistingElement({
           tables: [reading],
           languages: langs,
@@ -4620,7 +4625,7 @@ async function retrieveReadingTableFromBible(reading: string[][], langs: string[
         rowsWithReferences.includes(reading[reading.indexOf(row) + 1])//the next row is a row that includes reading references
         ||
         reading[reading.indexOf(row) + 1][0].includes('&C=ReadingIntro')))//OR the the next row has the class 'ReadingIntro' which means that we are starting a reading (the references are most probably included in row +2)
-      retrieved.push(await referenceTitleRow(row));
+      retrieved.push(await referenceTitleRow(row, true));
     else retrieved.push(row);
   }
 
@@ -4696,18 +4701,28 @@ async function retrieveReadingTableFromBible(reading: string[][], langs: string[
    * @param {string[]} row - the  row that contains the reading reference
    * @returns {string[]} - a row that contains the title of the reading built from the reference
    */
-  async function referenceTitleRow(row): Promise<string[]> {
-    let titleRow = [Prefix.same + '&C=Title', ...langs.map(lang => '')];
-    let ref = row.find(el => el.startsWith(Prefix.readingRef));
+  async function referenceTitleRow(row:string[], next:boolean = false): Promise<string[]> {
+    let index = reading.indexOf(row); 
+    let ref = getReferences(row);
+    
+    while (!ref && next) {
+      index +=1
+      if (!reading[index]) break;
+      ref = getReferences(reading[index]);
+    }
+    
     if (!ref)
-      return titleRow;
+      return row;
+    
+    let titleRow = [Prefix.same + '&C=Title', ...langs.map(lang => '')];
+
     ref =
       ref.replaceAll(' ', '')
         .replace(Prefix.readingRef, '')
         .split('&C=')[0];
-
+  
     let bookID = ref.split(':')[0];
-
+  
     let book: bibleBook, bible: Bible;
 
     await Promise.all(langs.map(async lang => {
@@ -4723,11 +4738,17 @@ async function retrieveReadingTableFromBible(reading: string[][], langs: string[
             book[1].indexOf(chapter) === Number(ref.split(':')[1]) - 1)
           ?.filter(verse => verse?.length === 2)
           .length.toString());
-
+      
       titleRow[langs.indexOf(lang) + 1] =
         book[0].human
         + ' ('
         + splitRef(ref).join(' & ')
+        + ')';
+
+      titleRow[langs.indexOf(lang) + 1] =
+        book[0].human
+        + ' ('
+        + adaptMutipleRefs(lang)
         + ')';
 
       function splitRef(ref: string) {
@@ -4736,9 +4757,47 @@ async function retrieveReadingTableFromBible(reading: string[][], langs: string[
           .split('/')
           .map(part => part.replace(':', ': '))
       }
+
+      function adaptMutipleRefs(lang): string {
+        //'ISA:13:11-End/14:1-End/16:8-End'
+        let parts = ref.split('/');
+        let to = { AR: ' إلى ', FR: ' à ', EN: ' to ' }[lang];
+        let fromTo = parts[0].split(':')[1] + ': ' + parts[0].split(':')[2]; //=> '13:11-End'
+        if (parts.length > 1 && bookID === 'PSA') {
+          fromTo = fromTo.split('-')[0]; //=>'13:11'
+          
+        }
+        else if (parts.length > 1) {
+          fromTo = fromTo.split('-')[0]; //=>'13:11'
+          fromTo += to //=> '13: 11 to '
+          fromTo += parts[parts.length - 1].split(':')[0] + ': ' //=> '13: 11 to 16: End'
+          fromTo += parts[parts.length - 1].split(':')[1].split('-')[1] //=>'13: 11 to 16: End'
+        }
+
+        if (fromTo.includes('End')) {
+          let chapterNumber:number;
+          if (parts.length > 1)
+            chapterNumber = Number(parts[parts.length - 1].split(':')[0]);//=>'16
+          else chapterNumber = Number(parts[parts.length - 1].split(':')[1]);//=>'13'
+
+          fromTo = fromTo.replace('End',
+            book[1]
+              .find(chapter =>
+                book[1].indexOf(chapter) === chapterNumber)//we find the chapter
+              ?.filter(verse => verse?.length === 2)//we get all the verses of the chapter
+              .length.toString());//We get the length of the verses
+        }
+        
+        return fromTo //=>//=>'13:1 à 16:30
+          
+        }
     }));
 
     return titleRow;
+
+    function getReferences(r:string[]):string {
+      return row.find(el => el.startsWith(Prefix.readingRef));
+    }
 
   }
 

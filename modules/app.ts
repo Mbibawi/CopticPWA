@@ -1536,9 +1536,11 @@ async function setCSS(htmlRows: HTMLDivElement[], amplify: boolean = true) {
       });
     })();
 
+    let paragraphs = Array.from(div.querySelectorAll("p"));
+
     if (isTitlesContainer(div)) {
       //This is the div where the titles of the prayer are displayed. We will add an 'on click' listner that will collapse the prayers
-
+      
       (async function addPlusAndMinusSigns() {
         if (isTitlesContainer(div.nextElementSibling as HTMLElement)) return;
 
@@ -1562,18 +1564,21 @@ async function setCSS(htmlRows: HTMLDivElement[], amplify: boolean = true) {
 
         if (defLangParag.innerHTML.includes(minusSign + " "))
           defLangParag.innerHTML = defLangParag.innerHTML.replace(
-            minusSign + " ",
-            ""
-          ); //!Caution: we need to work with the innerHTML in order to avoid losing the new line or any formatting to the title text when adding the + or - sing. So don't change the innerHTML to innerText or textContent
-
-        if (div.dataset.isCollapsed)
-          defLangParag.innerHTML = plusSign + " " + defLangParag.innerHTML; //We add the plus (+) sign at the begining
-
-        if (!div.dataset.isCollapsed)
-          defLangParag.innerHTML = minusSign + " " + defLangParag.innerHTML; //We add the minus (-) sig at the begining;
-      })();
+        minusSign + " ",
+        ""
+      ); //!Caution: we need to work with the innerHTML in order to avoid losing the new line or any formatting to the title text when adding the + or - sing. So don't change the innerHTML to innerText or textContent
+      
+      if (div.dataset.isCollapsed)
+        defLangParag.innerHTML = plusSign + " " + defLangParag.innerHTML; //We add the plus (+) sign at the begining
+      
+      if (!div.dataset.isCollapsed)
+        defLangParag.innerHTML = minusSign + " " + defLangParag.innerHTML; //We add the minus (-) sig at the begining;
+    })();
+    
+      paragraphs
+      .filter(p => p.classList.contains('AR'))
+      .forEach(p => p.innerHTML = getArabicNumbers(p.innerHTML));
     }
-    let paragraphs = Array.from(div.querySelectorAll("p"));
 
     if (div.classList.contains("Diacon") || div.classList.contains("Assembly"))
       replaceMusicalNoteSign(paragraphs);
@@ -1597,6 +1602,7 @@ async function setCSS(htmlRows: HTMLDivElement[], amplify: boolean = true) {
     )
       replaceQuotes(paragraphs); //If the text is one of the "Readings", we replace the quotes signs
     insertSuperScriptTag(paragraphs);
+
 
   }
 }
@@ -1624,30 +1630,38 @@ function replaceQuotes(paragraphs: HTMLParagraphElement[]) {
       });
     });
 }
+
+/**
+ * Converts the numbers in a given string to 'hindi' (i.e., Arabic) numbers
+ */
+function getArabicNumbers(text: string):string {
+  return Array.from(text).map(letter => {
+    if (Number(letter) || letter === '0')
+      return Number(letter).toLocaleString('ar-EG')
+    return letter
+  }).join('');
+
+}
 /**
  * Replaces the verses numbers with a superScript span
  * @param {HTMLPargraphElement[]} paragraphs
  */
 function insertSuperScriptTag(paragraphs: HTMLParagraphElement[]) {
-  //let exp: RegExp = /Sup_\d*_Sup/g
 
   paragraphs
     .forEach(parag => {
       //We will convert the verses numbers into superscripts
-      if (!/Sup_\d*_Sup/.test(parag.innerText)) return;
-      //exp.lastIndex = 0; //We reset the last index of the RegExp
+      if (!RegExp('Sup_\\d*_Sup').test(parag.innerText)) return;
+      
+      if (parag.classList.contains('AR'))
+        parag.innerHTML = getArabicNumbers(parag.innerHTML);
+
       parag.innerHTML =
         parag.innerHTML
           .replaceAll('Sup_', '<sup class="superScript">')
-          .replaceAll('_Sup', '</sup>')
-      /*
-      Array.from(parag.innerHTML.matchAll(exp))
-        .forEach(match=> {
-          parag.innerHTML = parag.innerHTML.replace(match[0], match[0].replace('Sup_', '<sup class="superScript">')
-          .replace('_Sup', '</sup>'))
-          
-        });
-        */
+          .replaceAll('_Sup', '</sup>');
+      
+   
     })
 };
 
