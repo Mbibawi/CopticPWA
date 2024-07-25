@@ -10717,4 +10717,17 @@ function _FixPropheciesRefs():string[][][] {
 
   })
 
+  
 }
+function _FixArabicNumbers(prefix:string){
+
+  const langs:string[] = getLanguages(prefix);
+  const array:string[][][] = getArrayFromPrefix(prefix);
+  return array.map(table => {
+    return table.map(row => {
+      row[langs.indexOf('AR') + 1] = getArabicNumbers(row[langs.indexOf('AR') + 1]);
+      return row
+    })
+  });
+
+} 

@@ -122,8 +122,8 @@ async function showChildButtonsOrPrayers(btn: Button, clear: boolean = true, sho
       prayersSequence: btn.prayersSequence,
       container: container,
       languages: btn.languages,
-      clearContainerDiv: true,
-      clearRightSideBar: true,
+      clearContainerDiv: clear,
+      clearRightSideBar: clear,
       position: container,
     });
 
@@ -249,7 +249,7 @@ async function showChildButtonsOrPrayers(btn: Button, clear: boolean = true, sho
         btnsContainer: btnsDiv,
         btnClass: cssClass,
         backGroundImage: btn.backGroundImage,
-        clear: false,
+        clear: true,
       }) as HTMLButtonElement
     }
 
@@ -1418,7 +1418,7 @@ function showPrayers(args: {
         actorClass: actorClass,
         dataGroup: dataGroup,
         dataRoot: dataRoot,
-        languagesArray: args.languages,
+        languagesArray: args.languages || getLanguages(dataRoot),
         position: args.position,
         container: args.container,
       }) || undefined;
@@ -1634,13 +1634,11 @@ function replaceQuotes(paragraphs: HTMLParagraphElement[]) {
 /**
  * Converts the numbers in a given string to 'hindi' (i.e., Arabic) numbers
  */
-function getArabicNumbers(text: string):string {
-  return Array.from(text).map(letter => {
-    if (Number(letter) || letter === '0')
-      return Number(letter).toLocaleString('ar-EG')
-    return letter
-  }).join('');
-
+function getArabicNumbers(text: string): string {
+  for (let i=0; i<10; i++){
+    text = text.replaceAll(i.toString(), i.toLocaleString('ar-EG'))
+  }
+  return text
 }
 /**
  * Replaces the verses numbers with a superScript span
@@ -1652,9 +1650,9 @@ function insertSuperScriptTag(paragraphs: HTMLParagraphElement[]) {
     .forEach(parag => {
       //We will convert the verses numbers into superscripts
       if (!RegExp('Sup_\\d*_Sup').test(parag.innerText)) return;
-      
-      if (parag.classList.contains('AR'))
-        parag.innerHTML = getArabicNumbers(parag.innerHTML);
+
+     if (parag.classList.contains('AR'))
+      parag.innerHTML = getArabicNumbers(parag.innerHTML);
 
       parag.innerHTML =
         parag.innerHTML
@@ -1900,7 +1898,7 @@ function getUniqueValuesFromArray(
  */
 function findTable(
   tableTitle: string,
-  prayersArray: string[][][],
+  prayersArray?: string[][][],
   options: {
     equal?: boolean;
     startsWith?: boolean;

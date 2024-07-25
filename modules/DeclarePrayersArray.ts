@@ -1956,6 +1956,68 @@ PrayersArrayFR = [[
     Prefix.commonPrayer + "KyrieElieson",
   ],
 ],
+  [
+  [Prefix.incenseDawn + "Lakan"],
+
+  [Prefix.placeHolder, Prefix.massCommon + "BlessedYouAreWithYourFather"],
+
+  [Prefix.placeHolder, Prefix.commonIncense + "Introduction"],
+
+  [Prefix.placeHolder, Prefix.cymbalVerses + isWatosOrAdam()],
+
+  [Prefix.placeHolder, Prefix.cymbalVerses + anyDay],
+
+  [Prefix.placeHolder, Prefix.bookOfHours + "Psalm50"],
+
+  [Prefix.placeHolder, Prefix.commonPrayer + "AlleluiaGloryToOurGod"],
+
+  [Prefix.placeHolder, Prefix.commonPrayer + "GloryToFatherSonSpirit"],
+
+  [Prefix.placeHolder, Prefix.commonPrayer + "NowAlwaysAndForEver"],
+
+  [Prefix.placeHolder, Prefix.bookOfHours + "Alleluia"],
+  ,
+  [Prefix.anchor + "Prophecies"],
+
+  [Prefix.anchor + "StPaul"],
+  
+  [Prefix.anchor + 'StJohnHymn'],
+
+  [Prefix.placeHolder, Prefix.commonPrayer + "Agios"],
+
+  [Prefix.placeHolder, Prefix.commonPrayer + "GospelLitany"],
+
+  [Prefix.placeHolder, Prefix.commonPrayer + "EfnotiNaynan"],
+
+  [Prefix.placeHolder, Prefix.commonPrayer + "AmeenKyrielison10"],
+  
+  [Prefix.anchor + 'FeastHymn'],
+  ,
+  [Prefix.placeHolder, Prefix.incenseDawn + "SickLitany"],
+
+    [Prefix.placeHolder, Prefix.incenseDawn + "TravelersLitany"],
+  
+  [Prefix.anchor + "SeasonLitany"],
+  ,
+  [Prefix.placeHolder, Prefix.massCommon + "PresidentLitany"],
+
+  [Prefix.placeHolder, Prefix.incenseVespers + "DepartedLitany"],
+
+  [Prefix.placeHolder, Prefix.incenseDawn + "OblationsLitany"],
+  
+  [Prefix.placeHolder, Prefix.massCommon + "CatechumensLitany"],
+  
+  [Prefix.anchor + "LakanLitany"],
+  
+  [Prefix.placeHolder, Prefix.commonIncense + "LitaniesIntroduction"],
+  
+  [Prefix.placeHolder, Prefix.commonPrayer + "ChurchLitany"],
+  
+  [Prefix.placeHolder, Prefix.commonPrayer + "PopeLitany"],
+  
+  [Prefix.placeHolder, Prefix.commonPrayer + "MeetingsLitany"],
+  
+],
 [
   [
     Prefix.commonIncense + "DoxolgiesComment&D=$copticFeasts.AnyDay&C=Comments",
@@ -4549,7 +4611,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.commonPrayer + "ConcludingHymn&D=$copticFeasts.AnyDay",
+    Prefix.commonPrayer + "ConcludingHymn",
   ],
   [
     Prefix.same + "&C=Priest",
@@ -4576,7 +4638,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.commonPrayer + "ConcludingHymn&D=$copticFeasts.AnyDay&C=Title",
+    Prefix.commonPrayer + "ConcludingHymn&C=Title",
     "",
     "Hymne de la fin",
     "",
@@ -4590,7 +4652,7 @@ PrayersArrayFR = [[
     "آمين هَلِّليلُويا. المَجْدُ للآب والابن والْرُوحْ القُدُسْ، الآنْ وكُلَّ أوانْ وإلي دَهْرِ الدِهُورْ. آمْينْ.",
   ],
   [
-    Prefix.anchor + "ConcludingHymn&D=$copticFeasts.AnyDay",
+    Prefix.anchor + "ConcludingHymn",
   ],
   [
     Prefix.same + "&C=Assembly",
@@ -4698,7 +4760,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.commonPrayer + "ConcludingHymnBishop&D=$copticFeasts.AnyDay&C=Assembly",
+    Prefix.commonPrayer + "ConcludingHymnBishop&C=Assembly",
     "Ⲁⲕϭⲓ ⲧ̀ⲭⲁⲣⲓⲥ ⲙ̀Ⲙⲱⲩ̀ⲥⲏⲥ: ϯⲙⲉⲧⲟⲩⲏⲃ ⲛ̀ⲧⲉ Ⲙⲉⲗⲭⲓⲥⲉⲇⲉⲕ: ϯⲙⲉⲧϧⲉⲗⲗⲱ ⲛ̀ⲧⲉ Ⲓⲁⲕⲱⲃ: ⲡⲓⲛⲟϫ ⲛ̀ⲁ̀ϩⲓ ⲛ̀ⲧⲉ Ⲙⲁⲑⲟⲩⲥⲁⲗⲁ: ⲡⲓⲕⲁϯ ⲉⲧⲥⲱⲧⲡ ⲛ̀ⲧⲉ Ⲇⲁⲩⲓⲇ: ϯⲥⲟⲫⲓⲁ ⲛ̀ⲧⲉ Ⲥⲟⲗⲟⲙⲱⲛ:",
     "Tu as obtenu la grâce de Moïse, la prêtrise de Melchisédek, l’âge de Jacob, et la longue vie de Matusalem, l’intelligence de David, la sagesse de Salomon,",
     "",
@@ -6031,6 +6093,20 @@ PrayersArrayFR = [[
 ],
 [
   [
+    Prefix.massCommon + "SeasonalLitany&D=$Seasons.Rain&C=Comments",
+    "",
+    "من 10 بابه إلى 10 طوبة:",
+    ],
+    [
+      Prefix.same + "&C=Title",
+      "",
+      "Oraison des pluies et eaux des fleuves",
+      "",
+      "أوشية مياه الأنهار",
+    ],
+  ],
+[
+  [
     Prefix.massCommon + "SeasonalLitany&D=$Seasons.Crops&C=Comments",
     "",
     "من 10 بابه إلى 10 طوبة:",
@@ -6916,7 +6992,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.commonPrayer + "ConcludingHymn&D=$copticFeasts.AnyDay",
+    Prefix.commonPrayer + "ConcludingHymn",
   ],
   [
     Prefix.same + "&C=Priest",
@@ -8366,6 +8442,10 @@ PrayersArrayFR = [[
   [
     [
       Prefix.incenseDawn + "Anaphora&D=GL55"],
+    [
+      Prefix.placeHolder, 
+        Prefix.incenseDawn + "Lakan"
+      ],
       [
         Prefix.placeHolder,
         Prefix.commonPrayer + "AttendWithGodsWisdom"
@@ -8701,6 +8781,10 @@ PrayersArrayFR = [[
         Prefix.incenseDawn + "Anaphora&D=0511",
     ],
     [
+      Prefix.placeHolder, 
+        Prefix.incenseDawn + "Lakan"
+      ],
+    [
         Prefix.placeHolder,
         Prefix.commonPrayer + "AttendWithGodsWisdom"
     ],
@@ -8953,6 +9037,8 @@ PrayersArrayFR = [[
   [
     Prefix.incenseDawn + "Anaphora&D=1105",
   ],
+  [
+    Prefix.placeHolder, Prefix.incenseDawn + "Lakan"],
   [Prefix.placeHolder, Prefix.commonPrayer + "AttendWithGodsWisdom"],
   [Prefix.commonPrayer + "Creed"],
   //!Hymn: Voici le témoignage de Jean le baptiste
@@ -24349,7 +24435,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.commonPrayer + "Agios&D=GL55&C=Title",
+    Prefix.commonPrayer + "Agios&D=$Seasons.HolyWeek&C=Title",
     "",
     "Le Trisagion",
     "",
