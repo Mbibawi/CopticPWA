@@ -699,7 +699,7 @@ const btnMassUnBaptised = new Button({
         prayersSequence: [Prefix.massCommon + "IAghabi"],
       });
 
-      const btnsDiv = insertExpandableBtn([biEhmotGhar, IAghabi], readingsAnchor, 'beforebegin', 'resp');
+      insertExpandableBtn([biEhmotGhar, IAghabi], readingsAnchor, 'beforebegin', 'resp');
     
     })();
 
@@ -719,21 +719,38 @@ const btnMassUnBaptised = new Button({
       );
 
       (function insertCatholiconResponse() {
-        specialResponse = CatholiconResponsesArray.filter(tbl => isMultiDatedTitleMatching(tbl[0][0], [Season, copticDate]));
+        let cathResp = CatholiconResponsesArray.filter(tbl => isMultiDatedTitleMatching(tbl[0][0], [Season, copticDate]));
 
-        if (specialResponse.length < 1) specialResponse = CatholiconResponsesArray.filter(tbl => tbl[0][0] === Prefix.catholiconResponse + '&C=Title');
+        if (cathResp.length < 1) cathResp = CatholiconResponsesArray.filter(tbl => tbl[0][0] === Prefix.catholiconResponse + '&C=Title');
 
-        if (specialResponse.length < 1) return;
+        if (cathResp.length < 1) return;
 
-        addExpandablePrayer({
-          prayers: specialResponse as string[][][],
-          insertion: readingsAnchor,
+        const response = new Button({
           btnID: 'btnCatholiconResponse',
-          label: {
-            AR: specialResponse[0][0][prayersLanguages.indexOf('AR') + 1], FR: specialResponse[0][0][prayersLanguages.indexOf('FR') + 1]
+          label:  {
+            AR: cathResp[0][0][prayersLanguages.indexOf('AR') + 1], FR: cathResp[0][0][prayersLanguages.indexOf('FR') + 1]
           },
-          languages: prayersLanguages,
+          cssClass: inlineBtnClass,
+          docFragment: new DocumentFragment(),
+          onClick: () => {
+            let langs: string[];
+            cathResp.map((table:string[][]) => {
+            langs = getLanguages(table[0][0]);
+          
+            showPrayers({
+              table: table,
+              languages: langs,
+              position: response.docFragment,
+              container: response.docFragment,
+              clearContainerDiv: false,
+              clearRightSideBar: false
+            });
+        })
+            
+          }
         });
+
+        insertExpandableBtn([response], readingsAnchor, 'beforebegin');
       })();
 
       //Catholicon
@@ -1746,38 +1763,51 @@ const btnIncenseMorning = new Button({
         Prefix.commonPrayer +
         "PrayThatGodHaveMercyOnUs";
 
-      let godHaveMercyHtml: HTMLDivElement[] = selectElementsByDataSetValue(
-        btnDocFragment,
-        dataRoot,
-        { startsWith: true }
-      ); //We select all the paragraphs not only the paragraph for the Bishop
+      let godHaveMercyHtml: HTMLDivElement[] = selectElementsByDataSetValue(btnDocFragment, dataRoot); //We select all the paragraphs not only the paragraph for the Bishop
 
       if (godHaveMercyHtml.length < 1) return; //This may occur if 'Diacon' prayers are hidden
-
+      let length = godHaveMercyHtml?.length;
       godHaveMercyHtml
-        .filter(
-          (htmlRow) =>
-            godHaveMercyHtml?.indexOf(htmlRow) > 0 &&
-            godHaveMercyHtml?.indexOf(htmlRow) !== godHaveMercyHtml?.length - 2
-        )
+      .filter(
+        (htmlRow) =>
+          godHaveMercyHtml?.indexOf(htmlRow) > 0 &&
+        godHaveMercyHtml?.indexOf(htmlRow) < length-2
+      )
         .forEach((htmlRow) => htmlRow.remove());
-
+      
+      if (btn === btnMassUnBaptised)
+        godHaveMercyHtml[length - 2].remove(); //We remove the second last paragraph
+      else
+        godHaveMercyHtml[length - 1].remove();//We remove the last paragraph
+      
       let godHaveMercy: string[][] = findTable(dataRoot, CommonArray) as string[][]; //We get the entier table not only the second row. Notice that the first row of the table is the row containing the title
 
       if (!godHaveMercy)
         return console.log("Didn't find table Gode Have Mercy");
+      godHaveMercy = godHaveMercy.slice(1, 4);
 
-      addExpandablePrayer({
-        insertion: godHaveMercyHtml[0].nextElementSibling as HTMLDivElement,
-        btnID: "godHaveMercy",
-        label: {
-          AR: godHaveMercy[1][2], //This is the arabic text of the lable
-          FR: godHaveMercy[1][1], //this is the French text of the label
+      const haveMercy = new Button({
+        btnID: 'godHaveMercy',
+        label:   {
+          AR: godHaveMercy[0][2], //This is the arabic text of the lable
+          FR: godHaveMercy[0][1], //this is the French text of the label
         },
-        prayers: [godHaveMercy.slice(1, 4)], //We add only the 1st to 3rd rows: the 1st row is a comment from which we retrieved the text for the title, the 2nd and 3rd row is also a comment
-        languages: btnMassUnBaptised.languages,
-        dataGroup: dataRoot,
+        cssClass: inlineBtnClass,
+        docFragment: new DocumentFragment(),
+        onClick: () => {  
+          showPrayers({
+            table: godHaveMercy,
+            languages: btnMassUnBaptised.languages,
+            position: haveMercy.docFragment,
+            container: haveMercy.docFragment,
+            clearContainerDiv: false,
+            clearRightSideBar: false,
+          });
+    
+        }
       });
+
+      insertExpandableBtn([haveMercy], godHaveMercyHtml[0].nextElementSibling, 'beforebegin');
     };
 
     adaptConcludingHymn(btnDocFragment);
@@ -2626,49 +2656,45 @@ const btnMassStBasil = new Button({
     (function insertSecondReconciliationBtn() {
       if (![btnMassStBasil, btnMassStCyril].includes(btn)) return;
 
-    let secondReconciliation = findTable(
-        prefix + "Reconciliation2");
+    const reconciliation2 = findTable(
+        prefix + "Reconciliation2") || undefined;
 
-      if (!secondReconciliation)
+      if (!reconciliation2)
         return console.log("Didn't find reconciliation"); 
 
-      /*const reconciliation = new Button({
-        btnID: 'secondStBasilReconciliation',
-        label: {
-          FR: secondReconciliation[0][btn.languages.indexOf('FR') + 1],
-          AR: secondReconciliation[0][btn.languages.indexOf('AR') + 1],
-          EN: secondReconciliation[0][btn.languages.indexOf('EN') + 1]
+      const btnRecon = new Button({
+        btnID: "SecondReconcil",
+        label:   {
+          FR: reconciliation2[0][btn.languages.indexOf('FR') + 1],
+          AR: reconciliation2[0][btn.languages.indexOf('AR') + 1],
+          EN: reconciliation2[0][btn.languages.indexOf('EN') + 1],
         },
         cssClass: inlineBtnClass,
-        languages: btn.languages,
         docFragment: new DocumentFragment(),
-        prayersSequence: [ prefix + "Reconciliation2"],
+        onClick: () => {  
+          showPrayers({
+            table: reconciliation2,
+            languages: btn.languages,
+            position: btnRecon.docFragment,
+            container: btnRecon.docFragment,
+            clearContainerDiv: false,
+            clearRightSideBar: false,
+          });
+    
+        }
       });
 
-      const btnsDiv = insertExpandableBtn([reconciliation], selectElementsByDataSetValue(btnDocFragment,prefix + "Reconciliation")[0]?.nextElementSibling as HTMLDivElement, 'beforebegin'); */
+      const anchor = selectElementsByDataSetValue(
+        btnDocFragment,
+        prefix + "Reconciliation"
+      )[0]?.nextElementSibling;
+      
+      const btnsDiv = insertExpandableBtn([btnRecon], anchor, 'beforebegin');
 
-      let htmlBtn = addExpandablePrayer({
-        insertion: selectElementsByDataSetValue(
-          btnDocFragment,
-          prefix + "Reconciliation"
-        )[0]?.nextElementSibling as HTMLDivElement, //We insert the button after the title
-        btnID: "secondStBasilReconciliation",
-        label:
-        {
-          FR: secondReconciliation[0][btn.languages.indexOf('FR') + 1],
-          AR: secondReconciliation[0][btn.languages.indexOf('AR') + 1],
-          EN: secondReconciliation[0][btn.languages.indexOf('EN') + 1],
-        },
-        prayers: [secondReconciliation],
-        languages: btn.languages,
-      })[0];
-        
-      htmlBtn.addEventListener("click", () => {
-        let dataGroup =
-          prefix + "Reconciliation";
-        selectElementsByDataSetValue(containerDiv, dataGroup, undefined, 'group')
+      btnsDiv.children[0]?.addEventListener("click", () => {
+        selectElementsByDataSetValue(containerDiv, prefix + "Reconciliation", undefined, 'group')
           .forEach((row) => row.classList.toggle(hidden));
-      });
+      });//We hide or unhide the main reconcilaition prayer when the second conciliation is displayed or hidden
     })();
 
     (function addRedirectionButtons() {
@@ -2832,21 +2858,32 @@ const btnMassStBasil = new Button({
 
       if (!spasmos)
         return console.log("didn't find spasmos with title = ", spasmosTitle);
-
-
-      let createdElements = addExpandablePrayer({
-        insertion: anchor,
+      const langs = getLanguages(spasmos[0][0]);
+      const btnSpasmos = new Button({
         btnID: spasmosTitle.split("&D=")[0],
         label: {
-          FR: spasmos[0][2],
-          AR: spasmos[0][4],
+          FR: spasmos[0][langs.indexOf('FR')+1],
+          AR: spasmos[0][langs.indexOf('AR')+1],
         },
-        prayers: [spasmos],
-        languages: btn.languages,
+        cssClass: inlineBtnClass,
+        docFragment: new DocumentFragment(),
+        onClick: () => {  
+          showPrayers({
+            table: spasmos,
+            languages: langs,
+            position: btnSpasmos.docFragment,
+            container: btnSpasmos.docFragment,
+            clearContainerDiv: false,
+            clearRightSideBar: false,
+          });
+    
+        }
       });
+      
+      const btnsDiv = insertExpandableBtn([btnSpasmos], anchor, 'beforebegin');
 
       if (hideAnchor)
-        createdElements[0].addEventListener("click", () =>
+        btnsDiv.children[0].addEventListener("click", () =>
           selectElementsByDataSetValue(containerDiv, anchor.dataset.root).forEach((row) => row.classList.toggle(hidden))
         );
     }
@@ -2854,16 +2891,7 @@ const btnMassStBasil = new Button({
     (function insertLitaniesIntroductionFromOtherMasses() {
       if (btn !== btnMassStBasil) return; //This button appears only in St Basil Mass
 
-      /*let litaniesIntro =
-        findTable(
-          Prefix.massStGregory + "LitaniesIntroduction",
-          MassStGregoryArray
-        ) || undefined;
-
-      if (!litaniesIntro)
-        return console.log("Did not find the Litanies Introduction"); */
-
-      let anchor = selectElementsByDataSetValue(
+      const anchor = selectElementsByDataSetValue(
         btnDocFragment,
         Prefix.massCommon + "LitaniesIntroduction")[0];
 
@@ -2892,7 +2920,7 @@ const btnMassStBasil = new Button({
         prayersSequence: [Prefix.massStCyril + "LitaniesIntroduction"],
       });
 
-      const btnsDiv = insertExpandableBtn([stGregLitanies, stCyrilLitanies], anchor, 'beforebegin', 'Lit');
+      insertExpandableBtn([stGregLitanies, stCyrilLitanies], anchor, 'beforebegin', 'Lit');
     })();
 
     (function insertRelevantSeasonalLitany() {
@@ -4862,115 +4890,6 @@ function dateIsRelevant(
     ].includes(Season);
 
   return date === coptDate;
-}
-
-/**
- * Adds a button that when clicked shows or hides certain prayers from containerDiv
- * @param {HTMLElement} insertion - the html element before which the button will be inserted
- * @param {string} btnID - the id of the html element button that will be created
- * @param {typeBtnLabel} label - the label of the button that will be created
- * @param {string[][][]} prayers - the prayers that will shown or hidden or shown
- * @returns {HTMLDivElement} - the created div element that contains the prayers, and will be hidden or shown when the button is clicked
- */
-function addExpandablePrayer(args: {
-  insertion: HTMLElement;
-  btnID: string;
-  label: typeBtnLabel;
-  prayers: string[][][];
-  languages?: string[];
-  dataGroup?: string;
-}): [HTMLElement, HTMLDivElement] | void {
-
-  if (!args.prayers) return console.log('No prayes table nor prayers sequence were provided');
-  if (!args.insertion) return console.log("btnID = ", args.btnID);
-
-  let btnExpand: Button,
-    htmlButton: HTMLElement,
-    expandableContainer: HTMLDivElement;
-
-
-  btnExpand = new Button({
-    btnID: args.btnID,
-    label: args.label,
-    cssClass: inlineBtnClass,
-    languages: args.languages,
-    onClick: btnOnClick,
-  });
-
-  return createHtmlBtnAndExpandableDiv();
-
-  function createHtmlBtnAndExpandableDiv(): [HTMLElement, HTMLDivElement] {
-    htmlButton = createHtmlButon();
-    expandableContainer = createExpandableContainer();
-
-    function createHtmlButon() {
-      let btnDiv = createDivForTheHtmlButon();
-
-      let btn = createHtmlBtn({
-        btn: btnExpand,
-        btnsContainer: btnDiv,
-        btnClass: btnExpand.cssClass,
-        clear: true,
-        onClick: btnExpand.onClick,
-      }); //creating the html element representing the button. Notice that we give it as 'click' event, the btn.onClick property, otherwise, the createBtn will set it to the default call back function which is showChildBtnsOrPrayers(btn, clear)
-
-      btn.classList.add("expand"); //We need this class in order to retrieve the btn in Display Presentation Mode
-      return btn;
-
-      function createDivForTheHtmlButon() {
-        let div = document.createElement("div"); //Creating a div container in which the btn will be displayed
-        div.classList.add(inlineBtnsContainerClass);
-
-        if (args.dataGroup) div.dataset.group = args.dataGroup;
-
-        args.insertion.insertAdjacentElement("beforebegin", div); //Inserting the div containing the button as 1st element of containerDiv
-        return div
-      };
-    };
-
-    function createExpandableContainer() {
-      //We will create a newDiv to which we will append all the elements in order to avoid the reflow as much as possible
-      let expandable = document.createElement("div");
-      expandable.id = btnExpand.btnID + "Expandable";
-      expandable.classList.add(hidden);
-      expandable.classList.add("Expandable");
-      expandable.style.display = "grid"; //This is important, otherwise the divs that will be add will not be aligned with the rest of the divs
-      args.insertion.insertAdjacentElement("beforebegin", expandable);
-      return expandable
-    };
-
-    return [htmlButton, expandableContainer];
-  }
-
-  async function btnOnClick(): Promise<HTMLElement[] | void> {
-    if (!expandableContainer) return console.log("no collapsable div was found");
-
-    (function showPrayersInExpandableDiv() {
-      if (expandableContainer.children.length > 0) return;
-      let array: string[][][];
-      let langs = args.languages;
-      args.prayers
-        .map(table => {
-          if (!args.languages)
-            langs = getLanguages(table[0][0]);
-
-          return showPrayers({
-            table: table,
-            languages: langs,
-            position: expandableContainer,
-            container: expandableContainer,
-            clearContainerDiv: false,
-            clearRightSideBar: false
-          });
-        })
-        .forEach((htmlTable: HTMLDivElement[]) => setCSS(htmlTable));
-      array = null;
-      langs = null;
-    })();
-
-    expandableContainer.classList.toggle(hidden);
-
-  }
 }
 
 function insertExpandableBtn(btns: Button[], anchor:HTMLDivElement |Element, before:InsertPosition = 'beforebegin', titlesGroup?:string, append:boolean = true, dataGroup?:string):HTMLDivElement {
