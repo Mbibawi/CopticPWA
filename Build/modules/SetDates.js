@@ -60,7 +60,7 @@ async function setCopticDates(today, changeDate = false) {
         copticFeasts.Coptic29th = copticDate; //If we are on the 29th of the coptic Month, we will set the value of copticFeasts.Cotpic29th to today's copticDate in order to able to retrieve the prayers of this day
     else if (Number(copticDay) === 21)
         copticFeasts.Coptic21th = copticDate;
-    seasonal.giaki = setVariableSeasonalPhrases(Season).giaki; //!This must be called here after the dates and seasons were changed
+    variable.giaki = setVariableSeasonalPhrases(Season).giaki; //!This must be called here after the dates and seasons were changed
     if (changeDate)
         reloadScripts(['PrayersArray']);
     createFakeAnchor("homeImg");

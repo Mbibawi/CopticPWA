@@ -1062,11 +1062,11 @@ function addSettingsButton() {
 function getEditModeButton(): Button {
   return new Button({
     btnID: "btnEditMode",
-    label: {
+    label: getLabel({
       AR: "تعديل النص",
       FR: "Enter Editing Mode",
       EN: "Enter Editing Mode",
-    },
+    }),
     onClick: () => {
       if (document.getElementById("selectArray")) return; //If a select element is already appended, we return
       //@ts-ignore
@@ -1157,11 +1157,11 @@ function createHtmlBtn(args: {
   newBtn.id = args.btn.btnID;
 
   //Adding the labels to the button
-  if (args.btn.label[defaultLanguage])
-    editBtnInnerText(args.btn.label[defaultLanguage], defaultLanguage);
+  if (args.btn.label.DL)
+    editBtnInnerText(args.btn.label.DL, defaultLanguage);
 
-  /*   if (args.btn.label[foreingLanguage])
-      editBtnInnerText(args.btn.label[foreingLanguage], foreingLanguage); */
+  /*   if (args.btn.label.FL)
+      editBtnInnerText(args.btn.label.FL, foreingLanguage); */
 
   args.btnsContainer.appendChild(newBtn);
 
@@ -1460,7 +1460,7 @@ function showPrayers(args: {
 function getArrayFromPrefix(title: string): string[][][] {
   if (!title) return;
 
-  if(RegExp(Prefix.HolyWeek + "\\d*(HM|HE).*&D=GL").test(title))
+  if (RegExp(Prefix.HolyWeek + "\\d*(HM|HE).*&D=GL").test(title))
     return ReadingsArrays.GospelNightArrayFR;
 
   let array: [string, string, Function] = PrayersArraysKeys.find((entry) =>
@@ -1485,7 +1485,7 @@ function getArrayNameFromArray(array: string[][][]): string {
  */
 function getLanguages(title: string): string[] {
 
-  if(RegExp(Prefix.HolyWeek + "\\d*(HM|HE).*&D=GL").test(title))
+  if (RegExp(Prefix.HolyWeek + "\\d*(HM|HE).*&D=GL").test(title))
     return ['COP', 'FR', 'AR'];
   else if (
     [Prefix.stPaul, Prefix.Catholicon, Prefix.praxis, Prefix.prophecies, Prefix.gospelMass, Prefix.gospelMorning, Prefix.gospelVespers, Prefix.gospelNight, Prefix.gospelVespers]
@@ -1540,7 +1540,7 @@ async function setCSS(htmlRows: HTMLDivElement[], amplify: boolean = true) {
 
     if (isTitlesContainer(div)) {
       //This is the div where the titles of the prayer are displayed. We will add an 'on click' listner that will collapse the prayers
-      
+
       (async function addPlusAndMinusSigns() {
         if (isTitlesContainer(div.nextElementSibling as HTMLElement)) return;
 
@@ -1564,20 +1564,20 @@ async function setCSS(htmlRows: HTMLDivElement[], amplify: boolean = true) {
 
         if (defLangParag.innerHTML.includes(minusSign + " "))
           defLangParag.innerHTML = defLangParag.innerHTML.replace(
-        minusSign + " ",
-        ""
-      ); //!Caution: we need to work with the innerHTML in order to avoid losing the new line or any formatting to the title text when adding the + or - sing. So don't change the innerHTML to innerText or textContent
-      
-      if (div.dataset.isCollapsed)
-        defLangParag.innerHTML = plusSign + " " + defLangParag.innerHTML; //We add the plus (+) sign at the begining
-      
-      if (!div.dataset.isCollapsed)
-        defLangParag.innerHTML = minusSign + " " + defLangParag.innerHTML; //We add the minus (-) sig at the begining;
-    })();
-    
+            minusSign + " ",
+            ""
+          ); //!Caution: we need to work with the innerHTML in order to avoid losing the new line or any formatting to the title text when adding the + or - sing. So don't change the innerHTML to innerText or textContent
+
+        if (div.dataset.isCollapsed)
+          defLangParag.innerHTML = plusSign + " " + defLangParag.innerHTML; //We add the plus (+) sign at the begining
+
+        if (!div.dataset.isCollapsed)
+          defLangParag.innerHTML = minusSign + " " + defLangParag.innerHTML; //We add the minus (-) sig at the begining;
+      })();
+
       paragraphs
-      .filter(p => p.classList.contains('AR'))
-      .forEach(p => p.innerHTML = getArabicNumbers(p.innerHTML));
+        .filter(p => p.classList.contains('AR'))
+        .forEach(p => p.innerHTML = getArabicNumbers(p.innerHTML));
     }
 
     if (div.classList.contains("Diacon") || div.classList.contains("Assembly"))
@@ -1635,7 +1635,7 @@ function replaceQuotes(paragraphs: HTMLParagraphElement[]) {
  * Converts the numbers in a given string to 'hindi' (i.e., Arabic) numbers
  */
 function getArabicNumbers(text: string): string {
-  for (let i=0; i<10; i++){
+  for (let i = 0; i < 10; i++) {
     text = text.replaceAll(i.toString(), i.toLocaleString('ar-EG'))
   }
   return text
@@ -1649,17 +1649,17 @@ function insertSuperScriptTag(paragraphs: HTMLParagraphElement[]) {
   paragraphs
     .forEach(parag => {
       //We will convert the verses numbers into superscripts
-      if (!RegExp('Sup_\\d*_Sup').test(parag.innerText)) return;
+      if (!RegExp('Sup_\.*_Sup').test(parag.innerText)) return;
 
-     if (parag.classList.contains('AR'))
-      parag.innerHTML = getArabicNumbers(parag.innerHTML);
+      if (parag.classList.contains('AR'))
+        parag.innerHTML = getArabicNumbers(parag.innerHTML);
 
       parag.innerHTML =
         parag.innerHTML
           .replaceAll('Sup_', '<sup class="superScript">')
           .replaceAll('_Sup', '</sup>');
-      
-   
+
+
     })
 };
 
@@ -1836,7 +1836,7 @@ function collapseAllTitles(
  * @param {{equal?:boolean, includes?:boolean, startsWith?:boolean, endsWith?:boolean}} options - the criteria according to which we want the data-root attribute of each child element to mach dataRoot: absolutely equal (===)? startsWith(dataRoot)?, etc.
  * @returns {HTMLDivElement[]} - the children of container filtered based on their data-root attributes
  */
-function selectElementsByDataSetValue(
+function selectElementsByDataSet(
   container: HTMLElement | DocumentFragment,
   dataSet: string,
   options?: {
@@ -1975,25 +1975,25 @@ function showSettingsPanel(index?: number) {
   })();
 
   (async function showNextAndPreviousCopticDayButtons() {
-    let btnsContainer = createBtnsContainer("showNextCopticDate", {
+    let btnsContainer = createBtnsContainer("showNextCopticDate", getLabel({
       AR: "اليوم التالي أو السابق في التقويم القبطي",
       FR: "Aller au jour suivant ou précédant du calendrier copte",
       EN: "Move to the next or previous day of the Coptic calendar",
-    });
+    }));
 
-    let btnLable: typeBtnLabel = {
+    let btnLable: typeBtnLabel = getLabel({
       AR: 'التالي',
       FR: 'Suivant',
       EN: 'Next',
-    }
+    });
 
     createBtn(btnLable, 'nextDay', true);
 
-    btnLable = {
+    btnLable = getLabel({
       AR: 'السابق',
       FR: 'Précédent',
       EN: 'Previous',
-    }
+    });
 
     createBtn(btnLable, 'previousDay', false);
 
@@ -2002,7 +2002,7 @@ function showSettingsPanel(index?: number) {
         tag: "button",
         role: "button",
         btnClass: "settingsBtn",
-        innerText: lable[defaultLanguage],
+        innerText: lable.DL,
         btnsContainer: btnsContainer,
         id: id,
         type: "submit",
@@ -2018,11 +2018,11 @@ function showSettingsPanel(index?: number) {
   })();
 
   (function showChangeFontSizeBtn() {
-    let btnsContainer = createBtnsContainer("changeFontSize", {
+    let btnsContainer = createBtnsContainer("changeFontSize", getLabel({
       AR: "تكبير أو تصغير حجم الأحرف",
       FR: "Changer la taille de police",
       EN: "Increase or decrease the fonts size",
-    });
+    }));
     let input = createSettingsBtn({
       innerText: '',
       tag: "input",
@@ -2095,11 +2095,11 @@ function showSettingsPanel(index?: number) {
     ];
 
 
-    let defaultLangContainer = createBtnsContainer("defaultLanguage", labels[0]);
+    let defaultLangContainer = createBtnsContainer("defaultLanguage", getLabel({AR: labels[0].AR, FR: labels[0].FR, EN: labels[0].EN }));
 
-    let foreignLangContainer = createBtnsContainer("foreignLanguage", labels[1]);
+    let foreignLangContainer = createBtnsContainer("foreignLanguage", getLabel({AR: labels[1].AR, FR: labels[1].FR, EN: labels[1].EN }));
 
-    let copticLangContainer = createBtnsContainer("copticLanguage", labels[2]);
+    let copticLangContainer = createBtnsContainer("copticLanguage", getLabel({AR: labels[2].AR, FR: labels[2].FR, EN: labels[2].EN }));
 
     addLangsBtns({
       btnsContainer: defaultLangContainer,
@@ -2212,7 +2212,7 @@ function showSettingsPanel(index?: number) {
       containerDiv.classList.add(hidden);
       let choices: string[][][] = [nonCopticLanguages, nonCopticLanguages, copticLanguages];
 
-      let container = createBtnsContainer("modalContainer", labels[index], 'modalContainer');
+      let container = createBtnsContainer("modalContainer", getLabel({AR: labels[index].AR, FR: labels[index].FR, EN: labels[index].EN} ), 'modalContainer');
       addLabel(index);
       document.getElementById('content').prepend(container);
 
@@ -2272,11 +2272,11 @@ function showSettingsPanel(index?: number) {
   }
 
   (async function showExcludeActorButon() {
-    let btnsContainer = createBtnsContainer("showOrHideActor", {
+    let btnsContainer = createBtnsContainer("showOrHideActor", getLabel({
       AR: "إظهار أو إخفاء مردات الكاهن أو الشماس أو الشعب",
       FR: "Afficher ou cacher un acteur",
       EN: "Show or hide an actor",
-    });
+    }));
     let userActors: Actor[] = JSON.parse(localStorage.showActors);
 
     userActors.map((actor) => {
@@ -2317,11 +2317,11 @@ function showSettingsPanel(index?: number) {
   })();
 
   (async function showDisplayModeBtns() {
-    let btnsContainer = createBtnsContainer("changeDisplayMode", {
+    let btnsContainer = createBtnsContainer("changeDisplayMode", getLabel({
       AR: "اختر نظام العرض",
       FR: "Changer le mode d'affichage",
       EN: "Change the display mode",
-    });
+    }));
 
 
     expandableBtnsPannel.appendChild(btnsContainer);
@@ -2370,11 +2370,11 @@ function showSettingsPanel(index?: number) {
 
   (async function showEditingModeBtn() {
     if (localStorage.editingMode != "true") return;
-    let btnsContainer = createBtnsContainer("enterEditingMode", {
+    let btnsContainer = createBtnsContainer("enterEditingMode", getLabel({
       AR: " تعديل النصوص",
       FR: "Activer le mode édition",
       EN: "Enter Editing Mode",
-    });
+    }));
     expandableBtnsPannel.appendChild(btnsContainer);
 
     let editingBtn = getEditModeButton();
@@ -2383,7 +2383,7 @@ function showSettingsPanel(index?: number) {
       tag: "button",
       role: "button",
       btnClass: "settingsBtn",
-      innerText: editingBtn.label[defaultLanguage],
+      innerText: editingBtn.label.DL,
       btnsContainer: btnsContainer,
       id: "editingMode" + localStorage.editingMode.toString(),
       onClick: {
@@ -2399,11 +2399,11 @@ function showSettingsPanel(index?: number) {
 
   //Appending colors keys for actors
   (async function addActorsKeys() {
-    let btnsContainer = createBtnsContainer("actorsKeys", {
+    let btnsContainer = createBtnsContainer("actorsKeys", getLabel({
       AR: "مفاتيح الألوان",
       FR: "Clés des couleurs",
       EN: "Colors keys",
-    });
+    }));
 
     let userActors: Actor[] =
       JSON.parse(localStorage.showActors)
@@ -2418,24 +2418,24 @@ function showSettingsPanel(index?: number) {
   })();
 
   (async function addReloadPageBtn() {
-    let btnsContainer = createBtnsContainer("enterEditingMode", {
+    let btnsContainer = createBtnsContainer("enterEditingMode", getLabel({
       AR: "تحديث التطبيق",
       FR: "Mettre à jour l'application",
       EN: "Update App",
-    });
+    }));
     expandableBtnsPannel.appendChild(btnsContainer);
 
-    let btnLable: typeBtnLabel = {
+    let btnLable: typeBtnLabel = getLabel({
       AR: 'تحديث',
       FR: 'Mettre à jour',
       EN: 'Update',
-    }
+    });
 
     btn = createSettingsBtn({
       tag: "button",
       role: "button",
       btnClass: "updateBtn",
-      innerText: btnLable[defaultLanguage],
+      innerText: btnLable.DL,
       btnsContainer: btnsContainer,
       id: "updateApp",
       onClick: {
@@ -2451,7 +2451,7 @@ function showSettingsPanel(index?: number) {
 
   function createBtnsContainer(
     id: string,
-    labelText: { AR?: string; FR?: string; EN?: string },
+    labelText: typeBtnLabel,
     cssClass: string = 'settingsBtnsContainer'
   ): HTMLDivElement {
     let btnsContainer = document.createElement("div");
@@ -2463,7 +2463,7 @@ function showSettingsPanel(index?: number) {
     labelsDiv.classList.add("settingsLabel");
     btnsContainer.insertAdjacentElement("beforebegin", labelsDiv);
     let label = document.createElement("h3");
-    label.innerText = labelText[defaultLanguage];
+    label.innerText = labelText.DL;
     labelsDiv.appendChild(label);
 
     return btnsContainer;
@@ -2513,6 +2513,16 @@ function showSettingsPanel(index?: number) {
     if (args.btnsContainer) args.btnsContainer.appendChild(btn);
 
     return btn;
+  }
+}
+/**
+ * Returns an object of type typeBtnLabel 
+ * @param {{AR?:string, FR?:string, EN?:string}} label - The label text in different languages
+ */
+function getLabel(label:{AR?:string, FR?:string, EN?:string}):typeBtnLabel {
+  return {
+    DL: label[defaultLanguage],
+    FL: label[foreingLanguage],
   }
 }
 

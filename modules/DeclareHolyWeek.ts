@@ -9165,30 +9165,30 @@ function CompleteGNFromArray() {
 
         ]
 
-        let hoursLabels: { prefix: string, lable: typeBtnLabel }[] = [
+        let hoursLabels: { prefix: string, lable: { AR: string;  FR:string} }[] = [
             {
                 prefix: '1H',
-                lable: { AR: 'الساعة الأولى', FR: 'Première heure', EN: 'First Hour' }
+                lable: { AR: 'الساعة الأولى', FR: 'Première heure'}
             },
             {
                 prefix: '3H',
-                lable: { AR: 'الساعة الثالثة', FR: 'Troisième heure', EN: 'Third Hour' }
+                lable: { AR: 'الساعة الثالثة', FR: 'Troisième heure'}
             },
             {
                 prefix: '6H',
-                lable: { AR: 'الساعة السادسة', FR: 'Sixième heure', EN: 'Sixth Hour' }
+                lable: { AR: 'الساعة السادسة', FR: 'Sixième heure'}
             },
             {
                 prefix: '9H',
-                lable: { AR: 'الساعة التاسعة', FR: 'Neuvième heure', EN: 'Nineth Hour' }
+                lable: { AR: 'الساعة التاسعة', FR: 'Neuvième heure'}
             },
             {
                 prefix: '11H',
-                lable: { AR: 'الساعة الحادية عشر', FR: 'Onzième heure', EN: 'Eleventh Hour' }
+                lable: { AR: 'الساعة الحادية عشر', FR: 'Onzième heure'}
             },
             {
                 prefix: '12H',
-                lable: { AR: 'الساعة الثانية عشر', FR: 'Douzième heure', EN: 'Twelveth Hour' }
+                lable: { AR: 'الساعة الثانية عشر', FR: 'Douzième heure',}
             },
         ];
 
@@ -9199,7 +9199,7 @@ function CompleteGNFromArray() {
 
             if (!hour) return;
 
-            let myLable: typeBtnLabel = { AR: '', FR: '' };
+            let label:{ AR: string, FR: string };
 
             let date = title.split('&D=')[1].split('&C=')[0];
 
@@ -9214,22 +9214,22 @@ function CompleteGNFromArray() {
             if (!reading) return [title + '&C=Title', "", title, "", ""];
 
 
-            if (title.includes(hour.prefix + 'D')) {
-                myLable.AR = reading[1] + hour.lable.AR + ' من يوم ' + day[2];
-                myLable.FR = reading[2] + hour.lable.FR + ' du ' + day[3];
+            if (title.includes(hour.prefix + 'M')) {
+                label.AR = reading[1] + hour.lable.AR + ' من يوم ' + day[2];
+                label.FR = reading[2] + hour.lable.FR + ' du ' + day[3];
             }
             else if (title.includes(hour.prefix + 'E') && date !== "GL56") {
                 day = HWDays[HWDays.indexOf(day) + 1];
 
-                myLable.AR = reading[1] + hour.lable.AR + ' من ليلة ' + day[2];
-                myLable.FR = reading[2] + hour.lable.FR + ' de la veille du ' + day[3];
+                label.AR = reading[1] + hour.lable.AR + ' من ليلة ' + day[2];
+                label.FR = reading[2] + hour.lable.FR + ' de la veille du ' + day[3];
             }
             else if (date === "GL56") {
-                myLable.AR = reading[1] + hour.lable.AR + ' من ليلة أبو غلميسيس ';
-                myLable.FR = reading[2] + hour.lable.FR + ' de la veille de Abou Ghalamsis ';
+                label.AR = reading[1] + hour.lable.AR + ' من ليلة أبو غلميسيس ';
+                label.FR = reading[2] + hour.lable.FR + ' de la veille de Abou Ghalamsis ';
             }
 
-            return [title + '&C=Title', myLable.FR, "", myLable.AR];
+            return [title + '&C=Title', "", label.FR, label.AR];
         };
 
     }

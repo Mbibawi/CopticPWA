@@ -761,17 +761,23 @@ function replacePrefixes(text: string, arrayName: string): string {
     else text = text.replaceAll('"' + eval(prefix), (prefix += '+"'));
   });
 
-  if (!arrayName.startsWith("PrayersArray"))
-    return text;
-  //Seasonal
+  if (!arrayName.startsWith("PrayersArray")) return text;
 
-  debugger
+  
+  //Replace variables
+
+
+  replaceVariables(variable.giaki, '" + variable.giaki.XXX+ "');
+
+  replaceVariables(variable.thanksVespers, '" + variable.thanksVespers.XXX');
+
   return text
-    .replaceAll(seasonal.giaki.AR, '" +seasonal.giaki.AR+ "')
-    .replaceAll(seasonal.giaki.FR, '" +seasonal.giaki.FR+ "')
-    .replaceAll(seasonal.giaki.EN, '" +seasonal.giaki.EN+ "')
-    .replaceAll(seasonal.giaki.COP, '" +seasonal.giaki.COP+ "')
-    .replaceAll(seasonal.giaki.CA, '" +seasonal.giaki.CA+ "');
+
+  function replaceVariables(v: any, r: string){
+    ['AR', 'FR', 'EN', 'COP', 'CA']
+      .forEach(lang => text = text.replaceAll(v[lang], r.replace('XXX', lang)))
+  }
+
 }
 
 
@@ -10696,9 +10702,9 @@ function _MergeDuplicateReadings(array: string[][][]) {
   }
 }
 
-function _FixPropheciesRefs():string[][][] {
+function _FixPropheciesRefs(): string[][][] {
   let splitted: string[];
-  return ReadingsArrays.GospelNightArrayFR.map(table=>{
+  return ReadingsArrays.GospelNightArrayFR.map(table => {
     if (!RegExp(Prefix.HolyWeek + '.*(HM|HE)Prophecies&D=GL').test(table[0][0]))
       return table
     table = table.map(row => {
@@ -10706,23 +10712,23 @@ function _FixPropheciesRefs():string[][][] {
         return row
       splitted = splitTitle(row[0]);
       return [
-        "Prefix.same + \"&C=" + (splitted[1] ||'Diacon'),
+        "Prefix.same + \"&C=" + (splitted[1] || 'Diacon'),
         "",
         splitted[0],
         splitted[0],
       ];
-    
+
     });
     return table
 
   })
 
-  
-}
-function _FixArabicNumbers(prefix:string){
 
-  const langs:string[] = getLanguages(prefix);
-  const array:string[][][] = getArrayFromPrefix(prefix);
+}
+function _FixArabicNumbers(prefix: string) {
+
+  const langs: string[] = getLanguages(prefix);
+  const array: string[][][] = getArrayFromPrefix(prefix);
   return array.map(table => {
     return table.map(row => {
       row[langs.indexOf('AR') + 1] = getArabicNumbers(row[langs.indexOf('AR') + 1]);

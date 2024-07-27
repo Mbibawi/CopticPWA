@@ -39,6 +39,10 @@ PrayersArrayFR = [[
     Prefix.commonPrayer + "ThanksGiving",
   ],
   [
+    Prefix.placeHolder,
+    Prefix.commonPrayer + "KyrieElieson",
+  ],
+  [
     Prefix.anchor + "CymbalVerses",
   ],
 ],
@@ -120,7 +124,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.commonPrayer + "AssemblyResponseAndWithYourSoul&D=$copticFeasts.AnyDay",
+    Prefix.commonPrayer + "AndWithYourSoul",
   ],
 ],
 [
@@ -251,17 +255,17 @@ PrayersArrayFR = [[
 [
   [
     Prefix.commonPrayer + "ThanksGivingPart3&C=Priest",
-    "Ⲉⲑⲃⲉ ⲫⲁⲓ ⲧⲉⲛϯϩⲟ ⲟⲩⲟϩ ⲧⲉⲛⲧⲱⲃϩ ⲛ̀ⲧⲉⲕ ⲙⲉⲧⲁ̀ⲅⲁⲑⲟⲥ ⲡⲓⲙⲁⲓⲣⲱⲙⲓ: ⲙⲏⲓⲥ ⲛⲁⲛ ⲉⲑⲣⲉⲛϫⲱⲕ ⲉ̀ⲃⲟⲗ ⲙ̀ⲡⲁⲓ ⲕⲉ ⲉ̀ϩⲟⲟⲩ ⲉⲑⲟⲩⲁⲃ ⲫⲁⲓ: ⲛⲉⲙ ⲛⲓⲉ̀ϩⲟⲟⲩ ⲏⲣⲟⲩ ⲛ̀ⲧⲉ ⲡⲉⲛⲱⲛϧ: ϧⲉⲛ ϩⲓⲣⲏⲛⲏ ⲛⲓⲃⲉⲛ ⲛⲉⲙ ⲧⲉⲕϩⲟϯ. Ⲫⲑⲟⲛⲟⲥ ⲛⲓⲃⲉⲛ: ⲡⲓⲣⲁⲥⲙⲟⲥ ⲛⲓⲃⲉⲛ: ⲉⲛⲉⲣⲅⲓⲁ̀ ⲛⲓⲃⲉⲛ ⲛ̀ⲧⲉ ⲡ̀ⲥⲁⲧⲁⲛⲁⲥ:",
-    "Pour cela, nous implorons Ta bonté, ô Ami du genre humain, donne nous d’achever ce saint jour et tous les jours de notre vie en toute paix dans Ta crainte. Toute envie, toute tentation, toute œuvre de Satan.",
+    "Ⲉⲑⲃⲉ ⲫⲁⲓ ⲧⲉⲛϯϩⲟ ⲟⲩⲟϩ ⲧⲉⲛⲧⲱⲃϩ ⲛ̀ⲧⲉⲕ ⲙⲉⲧⲁ̀ⲅⲁⲑⲟⲥ ⲡⲓⲙⲁⲓⲣⲱⲙⲓ: ⲙⲏⲓⲥ ⲛⲁⲛ ⲉⲑⲣⲉⲛϫⲱⲕ ⲉ̀ⲃⲟⲗ ⲙ̀ⲡⲁⲓ ⲕⲉ ⲉ̀ϩⲟⲟⲩ ⲉⲑⲟⲩⲁⲃ ⲫⲁⲓ: ⲛⲉⲙ ⲛⲓⲉ̀ϩⲟⲟⲩ ⲏⲣⲟⲩ ⲛ̀ⲧⲉ ⲡⲉⲛⲱⲛϧ: ϧⲉⲛ ϩⲓⲣⲏⲛⲏ ⲛⲓⲃⲉⲛ ⲛⲉⲙ ⲧⲉⲕϩⲟϯ.",
+    "Pour cela, nous implorons Ta bonté, ô Ami du genre humain, donne nous d’achever ce saint jour et tous les jours de notre vie en toute paix dans Ta crainte.",
     "إثفي فاي تين تيهو أووه إنتيوفه إنتيك ميت أغاثوس، بي مايرومي ميس نان إثرينجوك إفول إمباي كي إيهو إثؤواب شاي، نيم نيهؤو إروف إنتي بينؤنخ، خين هيريني نيفين نيم تيكهوتي فثونوس نيفين، بيراسموس نيفين، إن إرجيا نيفين، إنتي إبساتاناس.",
-    "مِنْ أَجْلِ هَذا نَسْألْ ونَطْلُبْ من صلاحِكَ يا مُحِبْ الَبشَرْ امنحنا أنْ نكمل هَذا اليَوم المُقَدَّسْ وكُلَّ أيام حياتنا بِكُلَّ سَلامْ مَعَ خَوفِك. كُلِّ حسدٍ وكُلَّ تجرَبّةٍ وكُلَّ فعل الشيطان:",
+    "مِنْ أَجْلِ هَذا نَسْألْ ونَطْلُبْ من صلاحِكَ يا مُحِبْ الَبشَرْ امنحنا أنْ نكمل هَذا اليَوم المُقَدَّسْ وكُلَّ أيام حياتنا بِكُلَّ سَلامْ مَعَ خَوفِك.",
   ],
   [
     Prefix.same + "&C=Priest",
-    "ⲡ̀ⲥⲟϭⲛⲓ ⲛ̀ⲧⲉ ϩⲁⲛⲣⲱⲙⲓ ⲉⲩϩⲱⲟⲩ: ⲛⲉⲙ ⲡ̀ⲧⲱⲛϥ ⲉ̀ⲡ̀ϣⲱⲓ ⲛ̀ⲧⲉ ϩⲁⲛϫⲁϫⲓ ⲛⲏⲉⲧϩⲏⲡ ⲛⲉⲙ ⲛⲏⲉⲑⲟⲩⲱⲛϩ ⲉ̀ⲃⲟⲗ. Ⲁⲗⲓⲧⲟⲩ ⲉ̀ⲃⲟⲗϩⲁⲣⲟⲛ. Ⲛⲉⲙ ⲉ̀ⲃⲟⲗϩⲁ ⲡⲉⲕⲗⲁⲟⲥ ⲧⲏⲣϥ Ⲛⲉⲙ ⲉ̀ⲃⲟⲗϩⲁ ⲡⲁⲓ ⲙⲁ ⲉⲑⲟⲩⲁⲃ ⲛ̀ⲧⲁⲕ ⲫⲁⲓ. Ⲛⲉⲙ ⲉ̀ⲃⲟⲗϩⲁ ⲧⲁⲓⲉⲕⲕ̀ⲗⲏⲥⲓⲁ ⲫⲁⲓ.",
-    "toute intrigue des hommes méchants, toute attaque des ennemis visibles et invisibles: éloigne-les de nous et de tout ton peuple et de ce lieu saint qui est à Toi et de cette église.",
-    "إبسوتشي ني إنتي هانرومي هينرومي إفهؤو نيم إبتونف إن إبشوي هانجاجي نيتهويب نيم ني إثؤ أونه إيفول آليتوف إفول هارون نيم إفول ها بيكلاؤس تيرف نيم إيفول ها بايما إثؤواب إنتاك شاي نيم إفول ها تاي إي إكلَيسيا شاي.",
-    "ومؤامرة الناس الأَشْرَارِ وقيام الأعداء الخفيين والظاهرين، انزعها عنا، وعَنْ سَائِرْ شَعْبُكْ، و عَنْ مَوضعِكَ المُقدس هَذا (في بَخُورعشية) وعَنْ هَذِه الكَنِيسَةِ (في بَخُورباكر).",
+    " Ⲫⲑⲟⲛⲟⲥ ⲛⲓⲃⲉⲛ: ⲡⲓⲣⲁⲥⲙⲟⲥ ⲛⲓⲃⲉⲛ: ⲉⲛⲉⲣⲅⲓⲁ̀ ⲛⲓⲃⲉⲛ ⲛ̀ⲧⲉ ⲡ̀ⲥⲁⲧⲁⲛⲁⲥ: ⲡ̀ⲥⲟϭⲛⲓ ⲛ̀ⲧⲉ ϩⲁⲛⲣⲱⲙⲓ ⲉⲩϩⲱⲟⲩ: ⲛⲉⲙ ⲡ̀ⲧⲱⲛϥ ⲉ̀ⲡ̀ϣⲱⲓ ⲛ̀ⲧⲉ ϩⲁⲛϫⲁϫⲓ ⲛⲏⲉⲧϩⲏⲡ ⲛⲉⲙ ⲛⲏⲉⲑⲟⲩⲱⲛϩ ⲉ̀ⲃⲟⲗ. Ⲁⲗⲓⲧⲟⲩ ⲉ̀ⲃⲟⲗϩⲁⲣⲟⲛ. Ⲛⲉⲙ ⲉ̀ⲃⲟⲗϩⲁ ⲡⲉⲕⲗⲁⲟⲥ ⲧⲏⲣϥ: " + variable.thanksVespers.COP,
+    "Toute envie, toute tentation, toute œuvre de Satan, toute intrigue des hommes méchants, toute attaque des ennemis visibles et invisibles: éloigne-les de nous et de tout ton peuple, " +  variable.thanksVespers.FR,
+    "إبسوتشي ني إنتي هانرومي هينرومي إفهؤو نيم إبتونف إن إبشوي هانجاجي نيتهويب نيم ني إثؤ أونه إيفول آليتوف إفول هارون نيم إفول ها بيكلاؤس تيرف، " +  variable.thanksVespers.CA,
+    "كُلِّ حسدٍ وكُلَّ تجرَبّةٍ وكُلَّ فعل الشيطان: ومؤامرة الناس الأَشْرَارِ وقيام الأعداء الخفيين والظاهرين، انزعها عنا، وعَنْ سَائِرْ شَعْبُكْ، " + variable.thanksVespers.AR,
   ],
   [
     Prefix.same + "&C=Priest",
@@ -360,9 +364,9 @@ PrayersArrayFR = [[
   [
     Prefix.same + "&C=CommentText",
     "",
-    "Nous T’adorons ô Christ avec Ton Père très bon et le Saint Esprit " + seasonal.giaki.FR + ".",
+    "Nous T’adorons ô Christ avec Ton Père très bon et le Saint Esprit " + variable.giaki.FR + ".",
     "",
-    "نَسْجُدْ لَكَ أيُّهَا المَسِيحْ مَعَ أبِيكَ الصَالِحْ والْرُوحْ القُدُسْ " + seasonal.giaki.AR + ".",
+    "نَسْجُدْ لَكَ أيُّهَا المَسِيحْ مَعَ أبِيكَ الصَالِحْ والْرُوحْ القُدُسْ " + variable.giaki.AR + ".",
   ],
   [
     Prefix.same + "&C=Comments",
@@ -482,19 +486,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.cymbalVerses + "StGeorge",
-  ],
-  [
-    Prefix.placeHolder,
-    Prefix.cymbalVerses + "StTheodor",
-  ],
-  [
-    Prefix.placeHolder,
-    Prefix.cymbalVerses + "StMarcorious",
-  ],
-  [
-    Prefix.placeHolder,
-    Prefix.cymbalVerses + "StMina",
+    Prefix.cymbalVerses + "TheFourMartyrs",
   ],
   [
     Prefix.placeHolder,
@@ -563,65 +555,85 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.cymbalVerses + "&D=$copticFeasts.Apostles&C=Title",
+    Prefix.cymbalVerses + "&D=0511&C=Title",
     "",
     "Fête des Apôtres",
     "",
     "أرَبّاع الناقوس لعيد الرسل",
   ],
   [
-    Prefix.same + "&C=Title",
-    "Xere na_ `nio;> `napoctoloc> xere nimaqhthc> `nte Pen_ Ihcouc Pi`xrictoc.",
-    "",
-    "شيرى ناشويس إنيوتى: ان أبوسطولوس: شيرى نى ما سيتيس انتى بينشويس ايسوس بخرستوس.",
-    "السَّلامُ لسادتى الآبَاءْ الرُسُلْ السَّلامُ لتلاميذ رَبّنا يَسُوعْ المسيح",
+    Prefix.placeHolder,
+    Prefix.cymbalVerses + "StMary",
   ],
   [
-    Prefix.same + "&C=Title",
-    "Xere peniwt Petroc> nem penca' Pauloc> nini]; `n`ctulloc> ettajro `nnipictoc.",
-    "",
-    "شيرى بينيوت بيتروس: نيم بينساخ بافلوس: بى نيشتى ان استيلوس: إتاجرو انى بيستوس",
-    "السَّلامُ لأبينا بطرس ومعلمنا بولس العمودين العظيمين لثبات المؤمنين",
+    Prefix.placeHolder,
+    Prefix.cymbalVerses + "StMaykel",
   ],
   [
-    Prefix.same + "&C=Title",
-    "Xere nak `w pimarturoc> xere pieuaggelicthc> xere pi`apoctoloc> abba Markoc piqe`wrimoc.",
-    "",
-    "شيرى ناك أو بى مارتيروس: شيرى بى أف أنجيلَيستيس شيرى بى آبوسطولوس: ماركوس بيثيئوريموس",
-    "السَّلامُ لَكَ أيُّهَا الشَهِيدْ السَّلامُ للإنجيلى السَّلامُ للرسول مرقس ناظر الإله",
+    Prefix.placeHolder,
+    Prefix.cymbalVerses + "SheroubimSerafim",
   ],
   [
-    Prefix.same + "&C=Title",
-    "Xere peniwt abba Markoc> pieuaggelicthc> pirefjwr `ebol> `nte ni`idwlon.",
+    Prefix.placeHolder,
+    Prefix.cymbalVerses + "Apostles"
+  ],
+
+  [
+    Prefix.same + "&C=Diacon",
+    "Ⲭⲉⲣⲉ ⲡⲉⲛⲓⲱⲧ Ⲡⲉⲧⲣⲟⲥ : ⲛⲉⲙ ⲡⲉⲛⲥⲁϧ Ⲡⲁⲩⲗⲟⲥ : ⲛⲓⲛⲓϣϯ ⲛ̀ⲥ̀ⲧⲩⲗⲗⲟⲥ : ⲉⲧⲧⲁϫⲣⲟ ⲛ̀ⲛⲓⲡⲓⲥⲧⲟⲥ.",
+    "Salut à notre père Pierre,♫ et notre maître Paul,♫ les grands piliers♫ qui raffermissent les croyants.",
+    " شيرى بينيوت بيتروس: نيم بينساخ بافلوس: بى نيشتى ان استيلوس: إتاجرو انى بيستوس",
+    "السلام لأبينا بطرس،♫ ومُعلِّمنا بولس،♫ العمودَيْن العظيمَيْن♫ لثبات المؤمنين.",
+  ],
+  [Prefix.placeHolder, Prefix.cymbalVerses + "StMarc"],
+  [
+    Prefix.same + "&C=Diacon",
+    "Ⲭⲉⲣⲉ ⲡⲉⲛⲓⲱⲧ ⲁⲃⲃⲁ Ⲙⲁⲣⲕⲟⲥ: ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲥⲧⲏⲥ: ⲡⲓⲣⲉϥϫⲱⲣ ⲉ̀ⲃⲟⲗ: ⲛ̀ⲧⲉ ⲛⲓⲓ̀ⲇⲱⲗⲟⲛ.",
     "",
     "شيرى بينيوت ماركوس: بى إف اجيلَيستيس بى ريف جور إيفول : انتى نى إيزولون.",
     "السَّلامُ لأبينا مرقس الإنجيلى مبدد الأوثان.",
   ],
   [
-    Prefix.same + "&C=Title",
-    "Pini]; `nrefiwi]> 'en ;xwra `nte Xhmi> abba Markoc pi`apoctoloc> pec]orp `nreferemi.",
-    "",
-    "بى نيشتى انريفهيؤويش: خين تى كورا انتى كيمى: ماركوس بى آبوسطولوس: بيسشورَبّ انريف إرنهيمى.",
-    "لمبشر العَظِيمُ في كورة مصر مرقس الرسول مدبرها الأول.",
+    Prefix.same + "&C=Diacon",
+    "Ⲡⲓⲛⲓϣϯ ⲛ̀ⲣⲉϥϩⲓⲱⲓϣ: ϧⲉⲛ ϯⲭⲱⲣⲁ ⲛ̀ⲧⲉ Ⲭⲏⲙⲓ: Ⲙⲁⲣⲕⲟⲥ ⲡⲓⲁ̀ⲡⲟⲥⲧⲟⲗⲟⲥ: ⲡⲉⲥϣⲟⲣⲡ ⲛ̀ⲛⲉϥⲉⲣϩⲉⲙⲓ.",
+    "Le grand prédicateur♫ sur la terre d'Égypte♫ l’apôtre Marc♫ c’est le Premier à la guider.",
+    "بى نيشتى انريفهيؤويش♫ خين تى كورا انتى كيمى♫ ماركوس بى آبوسطولوس♫ بيسشورَبّ انريف إرنهيمى.",
+    "المبشر العظيم♫ في كورة مِصر♫ مرقس الرسول♫ مدبرها الأول.",
   ],
   [
     Prefix.same + "&C=Title",
-    "Siouwini siouwini> `w ;xwra `nte Xhmi> je af`i `nje peouwini> 'en oumetlamproc.",
+    "Ϭⲓⲟⲩⲱⲓⲛⲓ ϭⲓⲟⲩⲱⲓⲛⲓ: ⲱ̀ ϯⲭⲱⲣⲁ ⲛ̀ⲧⲉ Ⲭⲏⲙⲓ: ϫⲉ ⲁϥⲓ̀ ⲛ̀ϫⲉ ⲡⲉⲟⲩⲱⲓⲛⲓ: ϧⲉⲛ ⲟⲩⲙⲉⲧⲗⲁⲙⲡⲣⲟⲥ.",
     "",
     "انشيئو أوينى اتشينو: أوينى أوتى كورا إنتى كيمى: جى أفئى انجى بى أو اوينى: خين أوميت لام إبروس.",
     "نورى نورى يا كورة مصر لِأنَّهُ قَدّْ أتى نورك بضياء.",
   ],
   [
     Prefix.same + "&C=Title",
-    "Xere Iwannhc> pieuaggelicthc> xere picwtp `mparqenoc> ouo piqe`ologoc.",
+    "Ⲭⲉⲣⲉ Ⲓⲱⲁⲛⲛⲏⲥ: ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲥⲧⲏⲥ: ⲭⲉⲣⲉ ⲡⲓⲥⲱⲧⲡ ⲙ̀ⲡⲁⲣⲑⲉⲛⲟⲥ: ⲟⲩⲟ ⲡⲓⲑⲉⲟ̀ⲗⲟⲅⲟⲥ.",
     "",
     "شيرى يؤانس: بى إف إنجيلَيستيس: شيرى بى سوتب إم بارثينوس: أووه بى ثيؤلوغوس.",
     "السَّلامُ ليوحنا الإنجيلي السَّلامُ للبتول المختار الناطق بالإلهيات",
   ],
+  [
+    Prefix.placeHolder,
+    Prefix.cymbalVerses + "StSteven",
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.cymbalVerses + "TheFourMartyrs",
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.cymbalVerses + "PopeAndBishop",
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.cymbalVerses + "End",
+  ],
 ],
 [
   [
-    Prefix.cymbalVerses + "&D=$copticFeasts.AnyDay&C=Title",
+    Prefix.cymbalVerses + "&C=Title",
     "",
     "Suite Versés du Cymbal",
     "",
@@ -655,21 +667,10 @@ PrayersArrayFR = [[
     Prefix.placeHolder,
     Prefix.cymbalVerses + "StSteven",
   ],
+  [Prefix.anchor + "SaintsCymbals"],
   [
     Prefix.placeHolder,
-    Prefix.cymbalVerses + "StGeorge",
-  ],
-  [
-    Prefix.placeHolder,
-    Prefix.cymbalVerses + "StTheodor",
-  ],
-  [
-    Prefix.placeHolder,
-    Prefix.cymbalVerses + "StMarcorious",
-  ],
-  [
-    Prefix.placeHolder,
-    Prefix.cymbalVerses + "StMina",
+    Prefix.cymbalVerses + "TheFourMartyrs",
   ],
   [
     Prefix.placeHolder,
@@ -779,27 +780,20 @@ PrayersArrayFR = [[
 ],
 [
   [
+    Prefix.cymbalVerses + "TheFourMartyrs&C=Diacon",
+  "Ⲭⲉⲣⲉ ⲛⲱⲧⲉⲛ ⲱ̀ ⲛⲓⲙⲁⲣⲧⲩⲣⲟⲥ : ⲭⲉⲣⲉ ⲛⲓϣⲱⲓϫ ⲛ̀ⲅⲉⲛⲛⲉⲟⲥ : ⲭⲉⲣⲉ ⲛⲓⲁⲑⲗⲟⲫⲟⲣⲟⲥ : ⲡⲁϭⲟⲓⲥ ⲡ̀ⲟⲩⲣⲟ Ⲅⲉⲱⲣⲅⲓⲟⲥ : Ⲑⲉⲟ̀ⲇⲱⲣⲟⲥ ⲡⲓⲥⲧⲣⲁⲧⲓⲗⲁⲧⲏⲥ : ⲫⲓⲗⲟⲡⲁⲧⲏⲣ Ⲙⲉⲣⲕⲟⲩⲣⲓⲟⲥ : ⲡⲓⲁ̀ⲅⲓⲟⲥ Ⲁ̀ⲡⲁ Ⲙⲏⲛⲁ.",
+  "Salut à vous ô martyrs,♫ salut aux courageux héros,♫ salut aux persévérants,♫ Mon seigneur le roi Georges,♫ Théodore le stratège♫, Philopatir Mercorios,♫ le saint Abba Mina.",
+  "شيري نوتين أو ني مارتيروس♫ شيري نيشويج إن جينيئوس♫ شيري ني آثلوفوروس♫ باشويس إبؤورو جيؤرجيوس،♫ ثيؤدوروس بيستراتيلاتيس،♫ فيلوباتير مارقوريوس،♫ بي آجيوس آبا مينا.",
+  "السلام لكم أيها الشهداء،♫ السلام للشجعان الأبطال،♫ السلام للابسي الجهاد،♫ سيدي الملك جيؤرجيوس،♫ ثيؤذوروس الآسفهسلار،♫ فيلوباتير مرقوريوس،♫ القديس أبا مينا."
+],
+],
+[
+  [
     Prefix.cymbalVerses + "StMina&C=Diacon",
     "Ⲭⲉⲣⲉ ⲛⲁⲕ ⲱ̀ ⲡⲓⲙⲁⲣⲧⲩⲣⲟⲥ: ⲭⲉⲣⲉ ⲡⲓϣⲱⲓϫ ⲛ̀ⲅⲉⲛⲛⲉⲟⲥ: ⲭⲉⲣⲉ ⲡⲓⲁⲑⲗⲟⲫⲟⲣⲟⲥ: ⲡⲓⲁ̀ⲅⲓⲟⲥ ⲁⲃⲃⲁ Ⲙⲏⲛⲁ.",
     "Salut à toi ô martyr♫ salut au héros courageux♫ salut au persévérant♫ abba Mina.",
     "شيري ناك أوبي مارتيروس♫ شيري بيشويج إن جينيؤوس♫ شيري بي آثلوفوروس؛ بي آجيوس آبا مينا.",
     "السَّلامُ لَكَ أيُّهَا الشَهِيدْ، السَّلامُ♫ للشجاع البطل♫ السَّلامُ للابس الجهاد، القديس آبا مينا.",
-  ],
-],
-[
-  [
-    Prefix.cymbalVerses + "PopeAndBishop&C=Diacon",
-    "Ⲧⲉⲛϯϩⲟ ⲉ̀ⲣⲟⲕ ⲱ̀ Ⲩⲓⲟⲥ Ⲑⲉⲟⲥ: ⲉⲑ̀ⲣⲉⲕⲁ̀ⲣⲉϩ ⲉ̀ⲡ̀ⲱⲛϧⲙ̀ⲡⲉⲛⲡⲁⲧⲣⲓⲁⲣⲭⲏⲥ: ⲡⲁⲡⲁ ⲁⲃⲃⲁ (....) ⲡⲓⲁ̀ⲣⲭⲏ ⲉ̀ⲣⲉⲩⲥ: ⲙⲁⲧⲁϫⲣⲟϥ ϩⲓϫⲉⲛ ⲡⲉϥⲑ̀ⲣⲟⲛⲟⲥ.",
-    "Nous t’implorons, ô Fils de Dieu, de conserver la vie de notre patriarche, le grand prêtre Anba (…) ; maintiens-le sur son trône.",
-    "",
-    "نسألك يا أبن الله. أن تحفظ حياة بطريركنا البابا أنبا (…) رئيس الكهنة ثبته علي كرسيه.",
-  ],
-  [
-    Prefix.same + "&C=Diacon",
-    "Ⲛⲉⲙ ⲡⲉϥⲕⲉϣ̀ⲫⲏⲣ ⲛ̀ⲗⲓⲧⲟⲩⲣⲅⲟⲥ: ⲡⲉⲛⲓⲱⲧ ⲉ̅ⲑ̅ⲩ̅ ⲛ̀ⲇⲓⲕⲉⲟⲥ: ⲁⲃⲃⲁ (....) ⲡⲓⲉ̀ⲡⲓⲥⲕⲟⲡⲟⲥ ⲙⲁⲧⲁϫⲣⲟϥ ϩⲓϫⲉⲛ ⲡⲉϥⲑ̀ⲣⲟⲛⲟⲥ.",
-    "Et son confrère dans le ministère notre père le juste Anba (…) l'évêque maintiens-le sur son siège.",
-    "",
-    "وشريكه في الخدمة آبانا القديس البار أنبا (....) المطران (الاسقف) ثبته علي كرسيه.",
   ],
 ],
 [
@@ -819,10 +813,10 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.same + "&C=Diacon",
-    "Ⲉⲑⲣⲉⲛϩⲱⲥ ⲉ̀ⲣⲟⲕ: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ: " + seasonal.giaki.COP + " ⲛⲁⲓ ⲛⲁⲛ.",
-    "Afin que nous Te louions avec Ton Père très bon et le Saint Esprit♫ " + seasonal.giaki.FR + ", Aie pitité de nous.",
-    "اثرين هوس♫إروك♫ نيم بيكيوت إن أغاثوس♫ نيم بي إبنيفما إثؤواب " + seasonal.giaki.CA + " ناي نان.",
-    "لِكَيّ نُسَبِحَكْ مَعَ، أبيك♫ الصَالِحْ والْرُوحْ القُدُسْ♫ " + seasonal.giaki.AR + " ارْحَمْنَا.",
+    "Ⲉⲑⲣⲉⲛϩⲱⲥ ⲉ̀ⲣⲟⲕ: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ: " + variable.giaki.COP + " ⲛⲁⲓ ⲛⲁⲛ.",
+    "Afin que nous Te louions avec Ton Père très bon et le Saint Esprit♫ " + variable.giaki.FR + ", Aie pitité de nous.",
+    "اثرين هوس♫إروك♫ نيم بيكيوت إن أغاثوس♫ نيم بي إبنيفما إثؤواب " + variable.giaki.CA + " ناي نان.",
+    "لِكَيّ نُسَبِحَكْ مَعَ، أبيك♫ الصَالِحْ والْرُوحْ القُدُسْ♫ " + variable.giaki.AR + " ارْحَمْنَا.",
   ],
 ],
 [
@@ -848,7 +842,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.incenseVespers + "PriestLitaniesComment&D=$copticFeasts.AnyDay",
+    Prefix.incenseVespers + "PriestLitaniesComment",
   ],
 ],
 [
@@ -857,7 +851,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.commonIncense + "DoxolgiesComment&D=$copticFeasts.AnyDay",
+    Prefix.commonIncense + "DoxolgiesComment",
   ],
   [
     Prefix.placeHolder,
@@ -892,7 +886,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.incenseVespers + "PriestLitaniesComment&D=$copticFeasts.AnyDay&C=Comments",
+    Prefix.incenseVespers + "PriestLitaniesComment&C=Comments",
     "",
     "يبخر الكاهن حول المَذْبَحْ ويطوف ثلاثة دورات ويقول الأواشي الصغار: أوشية السَّلامُة، أوشية الآباء، أوشية الاجتماعات. ثُمَّ ينزل أمام باب الهَيْكَلْ ويعطي ثلاثة أياد بَخُورشرقا قائلاً: [....]، ثُمَّ يبخر لجهة البحري (يساره) لأجل السَيِّدَةْ العَذْراءْ ويقول [...]، ثُمَّ يبخر إلى جهة الغرَبّ (خلفه) ويقول [...]، ثُمَّ يبخر إلى جهة قبلي (يمينه) ويقول [...]. وعندما يفرغ الشَعْبْ من ترتيل أرَبّاع الناقوس، يلتفت الكاهن إلى الشَرْقِ والشماس واقف خلفه ويقول الأواشي الكبار: المرضى، المسافرين في باكر، الراقدين (في عشية وفي باكر السبوت)، أو القرابين في الآحاد والأعياد والأيام التي لَيْسَ فيها صوم انقطاعي.",
   ],
@@ -961,10 +955,6 @@ PrayersArrayFR = [[
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "KyrieElieson",
-  ],
-  [
-    Prefix.placeHolder,
-    Prefix.commonPrayer + "ThanksGivingPart4",
   ],
 ],
 [
@@ -1054,7 +1044,7 @@ PrayersArrayFR = [[
     "Ⲙⲁⲧⲁϫⲣⲱⲟⲩ ϧⲉⲛ ⲡⲓⲛⲁϩϯⲉⲧⲥⲟⲩⲧⲱⲛ ⲉ̀ϧⲟⲩⲛ ⲉ̀ⲣⲟⲕ. Ⲥⲱϫⲡ ⲛⲓⲃⲉⲛ ⲙ̀ⲙⲉⲧϣⲁⲙϣⲉ ⲓ̀ⲇⲟⲗⲱⲛ ϩⲓⲧⲟⲩ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲡⲟⲩϩⲏⲧ. Ⲡⲉⲕⲛⲟⲙⲟⲥ ⲧⲉⲕϩⲟϯ ⲛⲉⲕⲉⲛⲧⲟⲗϩ ⲛⲉⲕⲙⲉⲑⲙⲏⲓ ⲛⲉⲕⲟⲩⲁϩⲥⲁϩⲛⲓ ⲉ̅ⲑ̅ⲩ̅ ⲙⲁⲧⲁϫⲣⲱⲟⲩ ⲛ̀ϧ̀ⲣⲏⲓ ϧⲉⲛ ⲡⲟⲩϩⲏⲧ.",
     "Enracine-les dans Ta Foi. Retire de leurs cœurs tout reste de l'adoration des idoles. Mets dans leur cœur en permanence : Ta Loi, Ta crainte, Tes commandements, Ta justice et Tes saintes injonctions. Donne-leur de connaître la permanence des paroles qui leur ont été enseignées.",
     "",
-    "ثبتهم في الإيمان بك كل بقية عبادة الأوثان انزعها من قلوبهم ناموسك. خوفك. وصاياك. حقوقك وأوامرك المقدسة ثبتها في قلوبهم"
+    "ثبتهم في الإيمان بك كل بقية عبادة الأوثان انزعها من قلوبهم ناموسك. خوفك. وصاياك. حقوقك وأوامرك المقدسة ثبتها في قلوبهم."
   ],
   [
     Prefix.same + "&C=Priest",
@@ -1234,10 +1224,6 @@ PrayersArrayFR = [[
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "KyrieElieson",
-  ],
-  [
-    Prefix.placeHolder,
-    Prefix.commonPrayer + "ThanksGivingPart4",
   ],
 ],
 [
@@ -1492,7 +1478,7 @@ PrayersArrayFR = [[
     "أعداء بيعتك المقدسة يا رب في كل زمان والآن أذلهم، حل تعاظمهم، عرفهم ضعفهم سريعاً،  ابطل حسدهم وسعايتهم وجنونهم وشرهم ونميمتهم التي يصنعونها فينا. يا رب اجعلهم كلهم كلا شيء وبدد مشورتهم يا الله الذي بدد مشورة أخيتوفل."
   ],
   [
-    Prefix.same + "&C=Priest",
+    Prefix.same + "&C=Assembly",
     "Ⲁ̀ⲙⲏⲛ Ⲕⲩⲣⲓⲉ̀ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ.",
     "Amen, Pitié Seigneur.",
     "",
@@ -1703,7 +1689,7 @@ PrayersArrayFR = [[
     "Ⲙⲟⲓ ⲛ̀ⲟⲩⲥⲉⲙⲛⲓ ⲛⲉⲙ ⲟⲩⲧⲁϫⲣⲟ ⲛⲉⲙ ⲟⲩϩⲓⲣⲏⲛⲏ ⲛ̀ⲛⲓⲙⲉⲧⲟⲩⲣⲱⲟⲩ : ϩⲓⲧⲉⲛ ⲧⲉⲕⲙⲉⲧⲭ̅ⲥ̅ ⲁ̀ⲣⲓϩ̀ⲙⲟⲧ ⲛⲁⲛ ⲛ̀ⲟⲩⲉⲩⲑⲉⲛⲓⲁ̀ ⲛⲉⲙ ⲛⲉⲕⲙⲉⲧϣⲉⲛϩⲏⲧ ⲛⲉⲙ ⲛⲓϩⲏⲕⲓ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲉ ⲡⲉⲕⲗⲁⲟⲥ : ⲙⲁⲣⲉ ⲡⲉⲛϩⲏⲧ ⲟⲩⲛⲟϥ.",
     "Rassure, stabilise et accorde la paix aux peuples. Par Ta bonté accorde-nous la fertilité. Que ta misericorde parvienne à tous les pauvres de Ton peuple et que nos cœurs se réjouissent. ",
     "",
-    "أعط طمأنينة وثباتاً وسلاماً للممالك بصلاحك، وأنعم لنا بالخصب، وبمراحمك لسائر فقراء شعبك، ولتبتهج قلوبنا، "
+    "أعط طمأنينة وثباتاً وسلاماً للممالك بصلاحك، وأنعم لنا بالخصب، وبمراحمك لسائر فقراء شعبك، ولتبتهج قلوبنا."
   ],
   [
     Prefix.same + "&C=Priest",
@@ -1956,7 +1942,7 @@ PrayersArrayFR = [[
     Prefix.commonPrayer + "KyrieElieson",
   ],
 ],
-  [
+[
   [Prefix.incenseDawn + "Lakan"],
 
   [Prefix.placeHolder, Prefix.massCommon + "BlessedYouAreWithYourFather"],
@@ -1965,7 +1951,7 @@ PrayersArrayFR = [[
 
   [Prefix.placeHolder, Prefix.cymbalVerses + isWatosOrAdam()],
 
-  [Prefix.placeHolder, Prefix.cymbalVerses + anyDay],
+  [Prefix.anchor + "Cymbals"],
 
   [Prefix.placeHolder, Prefix.bookOfHours + "Psalm50"],
 
@@ -1980,7 +1966,7 @@ PrayersArrayFR = [[
   [Prefix.anchor + "Prophecies"],
 
   [Prefix.anchor + "StPaul"],
-  
+
   [Prefix.anchor + 'StJohnHymn'],
 
   [Prefix.placeHolder, Prefix.commonPrayer + "Agios"],
@@ -1990,13 +1976,22 @@ PrayersArrayFR = [[
   [Prefix.placeHolder, Prefix.commonPrayer + "EfnotiNaynan"],
 
   [Prefix.placeHolder, Prefix.commonPrayer + "AmeenKyrielison10"],
-  
-  [Prefix.anchor + 'FeastHymn'],
+
+  [Prefix.anchor + 'LakanGoseplResponse'],
+
+  [
+    Prefix.placeHolder,
+    Prefix.commonPrayer + "BlockShlil",
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.commonPrayer + "BlockIriniPassi",
+  ],
   ,
   [Prefix.placeHolder, Prefix.incenseDawn + "SickLitany"],
 
-    [Prefix.placeHolder, Prefix.incenseDawn + "TravelersLitany"],
-  
+  [Prefix.placeHolder, Prefix.incenseDawn + "TravelersLitany"],
+
   [Prefix.anchor + "SeasonLitany"],
   ,
   [Prefix.placeHolder, Prefix.massCommon + "PresidentLitany"],
@@ -2004,23 +1999,22 @@ PrayersArrayFR = [[
   [Prefix.placeHolder, Prefix.incenseVespers + "DepartedLitany"],
 
   [Prefix.placeHolder, Prefix.incenseDawn + "OblationsLitany"],
-  
+
   [Prefix.placeHolder, Prefix.massCommon + "CatechumensLitany"],
-  
+
   [Prefix.anchor + "LakanLitany"],
-  
+
   [Prefix.placeHolder, Prefix.commonIncense + "LitaniesIntroduction"],
-  
+
   [Prefix.placeHolder, Prefix.commonPrayer + "ChurchLitany"],
-  
+
   [Prefix.placeHolder, Prefix.commonPrayer + "PopeLitany"],
-  
+
   [Prefix.placeHolder, Prefix.commonPrayer + "MeetingsLitany"],
-  
 ],
 [
   [
-    Prefix.commonIncense + "DoxolgiesComment&D=$copticFeasts.AnyDay&C=Comments",
+    Prefix.commonIncense + "DoxolgiesComment&C=Comments",
     "",
     "يدور الكاهن حول المَذْبَحْ دورة واحدة وينزل فيعطي البخور أمام الهَيْكَلْ كما سبق. ثُمَّ يعطي البخور للإنجيل الذي على المنجلية (القطمارس) قائلا:ـ",
   ],
@@ -2195,7 +2189,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.commonPrayer + "AngelsPrayer&D=$copticFeasts.AnyDay&C=Title",
+    Prefix.commonPrayer + "AngelsPrayer&C=Title",
     "",
     "Louons Dieu avec les Anges",
     "",
@@ -3303,10 +3297,10 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.same + "&C=Diacon",
-    "Ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲕ ⲱ̀ Ⲡⲭ̅ⲥ̅: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̅ⲛ̅ⲁ̅ ⲉ̅ⲑ̅ⲩ̅: " + seasonal.giaki.COP + ".",
-    "Nous T'adorons ô Christ♫ avec Ton Père très bon♫ avec le Saint-Esprit♫ " + seasonal.giaki.FR + ".",
-    "تين أووشت إمموك أوبي إخرستوس♫ نيم بيك يوت إن أغاثوس♫ نيم بي إبنفما إثؤواب♫ " + seasonal.giaki.CA + ".",
-    "نَسْجُدْ لَكَ أيُّهَا المسيح♫ مَعَ أَبِيكَ الصَالِح♫ والْرُوحْ القُدُسْ♫ " + seasonal.giaki.AR + ".",
+    "Ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲕ ⲱ̀ Ⲡⲭ̅ⲥ̅: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̅ⲛ̅ⲁ̅ ⲉ̅ⲑ̅ⲩ̅: " + variable.giaki.COP + ".",
+    "Nous T'adorons ô Christ♫ avec Ton Père très bon♫ avec le Saint-Esprit♫ " + variable.giaki.FR + ".",
+    "تين أووشت إمموك أوبي إخرستوس♫ نيم بيك يوت إن أغاثوس♫ نيم بي إبنفما إثؤواب♫ " + variable.giaki.CA + ".",
+    "نَسْجُدْ لَكَ أيُّهَا المسيح♫ مَعَ أَبِيكَ الصَالِح♫ والْرُوحْ القُدُسْ♫ " + variable.giaki.AR + ".",
   ],
 ],
 [
@@ -3843,7 +3837,7 @@ PrayersArrayFR = [[
     Prefix.commonPrayer + "AmeenKyrieElieson3",
   ],
   [
-    Prefix.anchor + "Prophecies&D=$copticFeasts.AnyDay",
+    Prefix.anchor + "Prophecies",
   ],
   [
     Prefix.placeHolder,
@@ -3904,6 +3898,10 @@ PrayersArrayFR = [[
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "AbsolutionForTheSon",
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.commonPrayer + "AmeenKyrieElieson3",
   ],
 ],
 [
@@ -4312,6 +4310,9 @@ PrayersArrayFR = [[
     "بروس افكساثتي اوبير تو آجيو إن أنجيليو",
     "صَلّْوا مِنْ أَجْلِ الإنجيل المُقَدَّسْ.",
   ],
+  [Prefix.placeHolder,
+  Prefix.commonPrayer + "KyrieElieson",
+  ],
   [
     Prefix.same + "&C=Priest",
     "Ⲁⲣⲓⲫ̀ⲙⲉⲩⲓ ⲇⲉ ⲟⲛ ⲡⲉⲛⲛⲏⲃ ⲛ̀ⲟⲩⲟⲛ ⲛⲓⲃⲉⲛ ⲉⲧⲁⲩϩⲟⲛϩⲉⲛ ⲛⲁⲛ ⲉ̀ⲉⲣⲡⲟⲩⲙⲉⲩⲓ̀ ϧⲉⲛ ⲛⲉⲛϯϩⲟ ⲛⲉⲙ ⲛⲉⲛⲧⲱⲃϩ ⲉ̀ⲧⲉⲛⲓ̀ⲣⲓ ⲙ̀ⲙⲱⲟⲩ ⲉ̀ⲡ̀ϣⲱⲓ ϩⲁⲣⲟⲕ ⲡ̀ϭⲟⲓⲥ ⲡⲉⲛⲛⲟⲩϯ",
@@ -4485,7 +4486,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.gospelResponse + "&D=$copticFeasts.AnyDay&C=Title",
+    Prefix.gospelResponse + "&C=Title",
     "",
     "Réponse de l’Evangile",
     "",
@@ -4512,13 +4513,7 @@ PrayersArrayFR = [[
     "آريبريسفافين إي إهري إيجون، أو بي آرشي آنجيلوس إثؤواب، ميخائيل إبآرخون ناني فيؤوي، إنتيف كا إننيوفي نان إيفول.",
     "اشفع فِينَا يا رئيس المَلائِكَةْ المُقَدَّسْ ميخائيل رئيس السمائيين، لِيَغْفِرْ لَنَا خَطَايَانَا.",
   ],
-  [
-    Prefix.same + "&C=Diacon",
-    "Ϫⲉ ϥ̀ⲥ̀ⲙⲁⲣⲱⲟⲩⲧ ⲛ̀ϫⲉ Ⲫ̀ⲓⲱⲧ ⲛⲉⲙ Ⲡ̀ϣⲏⲣⲓ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ: Ϯⲧ̀ⲣⲓⲁⲥ ⲉⲧϫⲏⲕ ⲉ̀ⲃⲟⲗ: ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲥ ⲧⲉⲛϯⲱ̀ⲟⲩ ⲛⲁⲥ.",
-    "Car il est béni le Père et le Fils et le Saint Esprit, Trinité parfaite. Nous l’adorons et la glorifions.",
-    "جي إف إسمارؤوت إنجي افيوت نيم ابشيري، نيم بي ابنيفما اثؤواب، تي اترياس إتجيك إيفول تين أؤوشت إمموس تينتي أوناك.",
-    "لِأنَّهُ مُبَارَكْ الآب والآبن والْرُوحْ القُدُسْ، الثَالُوثْ الكامل نَسْجُدْ لَهُ و نمجده.",
-  ],
+  [Prefix.placeHolder, Prefix.commonPrayer + "BlessedTheFather"],
 ],
 [
   [
@@ -4600,10 +4595,6 @@ PrayersArrayFR = [[
     "",
     "لأنك أنْتَ إلَهْنَا ويليق بك المَجْدُ والكَرَامَةْ والعزة و السُجُودْ مَعَ أبِيكَ الصَالِحْ والْرُوحْ القُدُسْ المُحْيّي المُسَاوي لَكَ الآنْ وكُلَّ أوانْ وإلى دَهْرِ الدُهُورْ آمْينْ.",
   ],
-  [
-    Prefix.placeHolder,
-    Prefix.commonPrayer + "AmeenKyrieElieson3",
-  ],
 ],
 [
   [
@@ -4633,7 +4624,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.commonPrayer + "AssemblyResponseAndWithYourSoul&D=$copticFeasts.AnyDay",
+    Prefix.commonPrayer + "AndWithYourSoul",
   ],
 ],
 [
@@ -4674,7 +4665,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.commonPrayer + "AssemblyResponseAmeenItWillBe&D=$copticFeasts.AnyDay",
+    Prefix.commonPrayer + "AmeenItWillBe",
   ],
 ],
 [
@@ -4967,7 +4958,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.massCommon + "DiaconResponseOneIsTheHolyGod&D=$copticFeasts.AnyDay",
+    Prefix.massCommon + "OneIsTheHolyGod",
   ],
   [
     Prefix.placeHolder,
@@ -4984,7 +4975,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.massCommon + "DiaconResponseOneIsTheHolyGod&D=$copticFeasts.AnyDay&C=Diacon",
+    Prefix.massCommon + "OneIsTheHolyGod&C=Diacon",
     "Ⲓⲥ Ⲡⲁⲧⲏⲣ ⲁ̀ⲅⲓⲟⲥ: ⲓⲥ Ⲩⲓⲟⲥ ⲁ̀ⲅⲓⲟⲥ: ⲉⲛ Ⲡⲛⲉⲩⲙⲁ ⲁ̀ⲅⲓⲟⲛ: ⲁ̀ⲙⲏⲛ:",
     "Un est Le Père saint. Un est Le Fils saint. Un est L’Esprit-Saint. Amen.",
     "اسباتير آجيوس، يس إيوس آجيوس، إن ابنيفما آجيون آمْينْ.",
@@ -5030,7 +5021,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.massCommon + "AbsolutionForTheFather&D=$copticFeasts.AnyDay&C=Title",
+    Prefix.massCommon + "AbsolutionForTheFather&C=Title",
     "",
     "Absolution",
     "",
@@ -5052,12 +5043,12 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.commonPrayer + "WeHaveBeenSavedWithYou&D=$copticFeasts.AnyDay",
+    Prefix.commonPrayer + "WeHaveBeenSavedWithYou",
   ],
 ],
 [
   [
-    Prefix.commonPrayer + "WeHaveBeenSavedWithYou&D=$copticFeasts.AnyDay&C=Diacon",
+    Prefix.commonPrayer + "WeHaveBeenSavedWithYou&C=Diacon",
     "Ⲥⲱⲑⲓⲥ ⲁ̀ⲙⲏⲛ: ⲕⲉ ⲧⲱ ⲡ̀ⲛⲉⲩⲙⲁⲧⲓ ⲥⲟⲩ.",
     "Nous avons été sauvés, en vérité, et avec ton esprit.",
     "سويس آمْينْ، كي تو ابنيفماتي سو",
@@ -5181,7 +5172,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.commonPrayer + "MaroEtshasf&D=$copticFeasts.AnyDay&C=Diacon",
+    Prefix.commonPrayer + "MaroEtshasf&C=Diacon",
     "Ⲙⲁⲣⲟⲩϭⲁⲥϥ ϧⲉⲛ ⲧ̀ⲉⲕⲕ̀ⲗⲏⲥⲓⲁ ⲛ̀ⲧⲉ ⲡⲉϥⲗⲁⲟⲥ: ⲟⲩⲟϩ ⲙⲁⲣⲟⲩⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟϥ ϩⲓ ⲧ̀ⲕⲁⲑⲉⲇⲣⲁ ⲛ̀ⲧⲉ ⲛⲓⲡ̀ⲣⲉⲥⲃⲩⲧⲉⲣⲟⲥ: ϫⲉ ⲁϥⲭⲱ ⲛ̀ⲟⲩⲙⲉⲧⲓⲱⲧ ⲙ̀ⲫ̀ⲣⲏϯ ⲛ̀ϩⲁⲛⲉ̀ⲥⲱⲟⲩ: ⲉⲩⲉ̀ⲛⲁⲩ ⲛ̀ϫⲉ ⲛⲏⲉ̀ⲧⲥⲟⲩⲧⲱⲛ ⲟⲩⲟϩ ⲉⲩⲉ̀ⲟⲩⲛⲟϥ:",
     "Qu’il l’élève sur son peuple et qu’il le bénisse sur des anciens, car il a rendu la parenté comme les pâturages. Les hommes droits voient cela et s’en réjouissent.",
     "",
@@ -5579,15 +5570,15 @@ PrayersArrayFR = [[
 [
   [
     Prefix.massCommon + "WeWorshipYouChrist&C=Diacon",
-    "Ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲕ ⲱ̀ Ⲡⲭ̅ⲥ̅: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ: " + seasonal.giaki.COP + " ⲛⲁⲓ ⲛⲁⲛ.",
-    "Nous T’adorons, Ô Christ, avec Ton bon Père, et L’Esprit-Saint, " + seasonal.giaki.FR + ", Aie pitié de nous.",
-    "تين أوشت إمموك أو بيخرستوس، نيم بيك يوت إن آغاثوس، نيم بي ابنيفما اثؤواب، جي " + seasonal.giaki.CA + " ناي نان.",
-    "نسجدُ لكَ أيُّهَا المَسِيحْ مَعَ أبيكَ الصَالِحْ والْرُوحْ القُدُسْ " + seasonal.giaki.AR + "، إرحمنا.",
+    "Ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲕ ⲱ̀ Ⲡⲭ̅ⲥ̅: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ: " + variable.giaki.COP + " ⲛⲁⲓ ⲛⲁⲛ.",
+    "Nous T’adorons, Ô Christ, avec Ton bon Père, et L’Esprit-Saint, " + variable.giaki.FR + ", Aie pitié de nous.",
+    "تين أوشت إمموك أو بيخرستوس، نيم بيك يوت إن آغاثوس، نيم بي ابنيفما اثؤواب، جي " + variable.giaki.CA + " ناي نان.",
+    "نسجدُ لكَ أيُّهَا المَسِيحْ مَعَ أبيكَ الصَالِحْ والْرُوحْ القُدُسْ " + variable.giaki.AR + "، إرحمنا.",
   ],
 ],
 [
   [
-    Prefix.praxisResponse + "&D=$copticFeasts.AnyDay&C=Title",
+    Prefix.praxisResponse + "&C=Title",
     "",
     "Réponse du Praxis",
     "",
@@ -5664,7 +5655,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.massCommon + "AssemblyResponseIndeedWeBelieve&D=$copticFeasts.AnyDay",
+    Prefix.massCommon + "IndeedWeBelieve",
   ],
   [
     Prefix.placeHolder,
@@ -5672,7 +5663,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.massCommon + "AssemblyResponseWeAlsoBelieve&D=$copticFeasts.AnyDay",
+    Prefix.massCommon + "WeAlsoBelieve",
   ],
   [
     Prefix.placeHolder,
@@ -5685,7 +5676,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.massCommon + "AssemblyResponseIndeedWeBelieve&D=$copticFeasts.AnyDay&C=Assembly",
+    Prefix.massCommon + "IndeedWeBelieve&C=Assembly",
     "Ⲁⲙⲏⲛ ϯⲛⲁϩϯ.",
     "Amen, nous croyons.",
     "آمين تي ناهتي",
@@ -5694,7 +5685,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.massCommon + "AssemblyResponseWeBelieve&D=$copticFeasts.AnyDay&C=Assembly",
+    Prefix.massCommon + "WeBelieve&C=Assembly",
     "ⲡⲓⲥⲧⲉⲩⲟⲙⲉⲛ.",
     "Nous croyons.",
     "بيستيف أومين",
@@ -5717,7 +5708,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.massCommon + "AssemblyResponseWeAlsoBelieve&D=$copticFeasts.AnyDay&C=Assembly",
+    Prefix.massCommon + "WeAlsoBelieve&C=Assembly",
     "Ⲕⲉ ⲡⲁⲗⲓⲛ ϯⲛⲁϩϯ. Ⲁⲙⲏⲛ.",
     "De même, nous croyons.",
     "كي بالين تي ناهتي آمْينْ.",
@@ -5928,7 +5919,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.massCommon + "PlacesLitany&D=$copticFeasts.AnyDay&C=Title",
+    Prefix.massCommon + "PlacesLitany&C=Title",
   ],
   [
     Prefix.placeHolder,
@@ -6099,15 +6090,15 @@ PrayersArrayFR = [[
     Prefix.massCommon + "SeasonalLitany&D=$Seasons.Rain&C=Comments",
     "",
     "من 10 بابه إلى 10 طوبة:",
-    ],
-    [
-      Prefix.same + "&C=Title",
-      "",
-      "Oraison des pluies et eaux des fleuves",
-      "",
-      "أوشية مياه الأنهار",
-    ],
   ],
+  [
+    Prefix.same + "&C=Title",
+    "",
+    "Oraison des pluies et eaux des fleuves",
+    "",
+    "أوشية مياه الأنهار",
+  ],
+],
 [
   [
     Prefix.massCommon + "SeasonalLitany&D=$Seasons.Crops&C=Comments",
@@ -6500,7 +6491,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.massCommon + "DiaconResponseAmenAmenPray&D=$copticFeasts.AnyDay",
+    Prefix.massCommon + "AmenAmenPray",
   ],
   [
     Prefix.placeHolder,
@@ -6576,7 +6567,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.massCommon + "DiaconResponseAmenAmenPray&D=$copticFeasts.AnyDay&C=Diacon",
+    Prefix.massCommon + "AmenAmenPray&C=Diacon",
     "Ⲁⲙⲏⲛ: ⲁⲙⲏⲛ ⲡ̀ⲣⲟⲥⲉⲩⲭⲁⲥⲑⲉ.",
     "Amen, Amen prions.",
     "آمين آمْينْ ابروس ايف اكساثتي.",
@@ -6666,13 +6657,7 @@ PrayersArrayFR = [[
   ],
 ],
 [
-  [
-    Prefix.massCommon + "ConfessionIntroduction&C=Priest",
-    "Ⲁⲣⲓⲫ̀ⲙⲉⲩⲓ̀ ⲡ̀ϭⲟⲓⲥ ⲛ̀ⲛⲉⲛϫⲓⲛⲑⲱⲟⲩϯ: ⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲱⲟⲩ.",
-    "Souviens-Toi Seigneur de nos assemblées bénis les.",
-    "",
-    "اذْكُرْ يا رَبُّ اجتماعاتنا باركها.",
-  ],
+  [Prefix.massCommon + "WeHaveBeenSaved&C=Diacon"],
   [
     Prefix.same + "&C=Diacon",
     "Ⲥⲱⲑⲓⲥ ⲁ̀ⲙⲏⲛ: ⲕⲉ ⲧⲱ ⲡ̀ⲛⲉⲩⲙⲁⲧⲓ ⲥⲟⲩ: ⲙⲉⲧⲁ ⲫⲟⲃⲟⲩ Ⲑⲉⲟⲩ ⲡ̀ⲣⲟⲥⲭⲱⲙⲉⲛ.",
@@ -6684,6 +6669,19 @@ PrayersArrayFR = [[
     Prefix.placeHolder,
     Prefix.commonPrayer + "AmeenKyrieElieson3",
   ],
+
+],
+[
+  [
+    Prefix.massCommon + "ConfessionIntroduction&C=Priest",
+    "Ⲁⲣⲓⲫ̀ⲙⲉⲩⲓ̀ ⲡ̀ϭⲟⲓⲥ ⲛ̀ⲛⲉⲛϫⲓⲛⲑⲱⲟⲩϯ: ⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲱⲟⲩ.",
+    "Souviens-Toi Seigneur de nos assemblées bénis les.",
+    "",
+    "اذْكُرْ يا رَبُّ اجتماعاتنا باركها.",
+  ],
+
+  [Prefix.placeHolder, Prefix.massCommon + "WeHaveBeenSaved"],
+
   [
     Prefix.same + "&C=Priest",
     "Ⲧⲁ ⲁ̀ⲅⲓⲁ ⲧⲓⲥ ⲁ̀ⲅⲏⲥ. Ⲉⲩⲗⲟⲅⲏⲧⲟⲥ Ⲕⲩⲣⲓⲟⲥ Ⲓⲏ̅ⲥ̅ Ⲭⲣⲓⲥⲧⲟⲥ Ⲩⲓⲟⲥ Ⲑⲉⲟⲩ ⲁ̀ⲅⲓⲁⲥⲙⲟⲥ ⲡ̀ⲛⲉⲩⲙⲁ ⲁ̀ⲅⲓⲟⲛ: ⲁ̀ⲙⲏⲛ.",
@@ -7018,7 +7016,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.commonPrayer + "AssemblyResponseAndWithYourSoul&D=$copticFeasts.AnyDay&C=Assembly",
+    Prefix.commonPrayer + "AndWithYourSoul&C=Assembly",
     "Ⲕⲉ ⲧⲱ ⲡ̀ⲛⲉⲩⲙⲁⲧⲓ ⲥⲟⲩ.",
     "Et avec vôtre esprit.",
     "كي طو ابنيفما تي سو.",
@@ -7087,7 +7085,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.commonPrayer + "AssemblyResponseAmeenItWillBe&D=$copticFeasts.AnyDay&C=Assembly",
+    Prefix.commonPrayer + "AmeenItWillBe&C=Assembly",
     "Ⲁⲙⲏⲛ ⲉⲥⲉ̀ϣⲱⲡⲓ.",
     "Amen, ainsi soit-il.",
     "آمين آس آشوبي.",
@@ -7196,7 +7194,7 @@ PrayersArrayFR = [[
     "",
     "Réponse du Psaume du 29 du mois copte",
     "",
-    "مَرَدُ مَزْمُورِ يوم  29 في الشهر القبطي",
+    "مَرَدُ مَزْمُورِ يوم 29 في الشهر القبطي",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -7973,13 +7971,43 @@ PrayersArrayFR = [[
     "",
     "اطلبوا من الرب عنا، يا سادتي الآباء الرسل، وبقية التلاميذ، ليغفر لنا خطايانا.",
   ],
+  [Prefix.placeHolder, Prefix.commonPrayer + "BlessedTheFather"],
+],
+[
+  [
+    Prefix.gospelResponse + "Lakan&D=0511&C=Title",
+    "",
+    "Réponse de l’Evangile pour le Lakan de la fête des apôtres",
+    "",
+    "مرد الإنجيل لقان عيد الرسل",
+  ],
   [
     Prefix.same + "&C=Diacon",
+    "Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ ⲛ̀ⲥⲁϥ ⲛⲉⲙ ⲫⲟⲟ̀ⲩ: ⲛ̀ⲑⲟϥ ⲛ̀ⲑⲟϥ ⲡⲉ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ: ϧⲉⲛ ⲟⲩϩⲩⲡⲟⲥⲧⲁⲥⲓⲥ ⲛ̀ⲟ̀ⲩⲱ̀ⲧ: ⲧⲉⲛⲟ̀ⲩⲱ̀ϣⲧ ⲙ̀ⲙⲟϥ ⲧⲉⲛϯⲱ̀ⲟ̀ⲩ ⲛⲁϥ.",
+    "Jésus-Christ est Lui-même hier♫ aujourd’hui et éternellement♫ avec Son hypostase unique♫ Nous l’adorons et nous le glorifions.",
+    "إيسوس بي خريستوس إسناف نيم فوؤ♫ إنثوف آنثوف بي نيم شا إنيه♫ خين اوهيب سطاسيس انؤوؤت♫ تين أوؤشت إموف تين أؤوشت ناف. ",
+    "يَسُوعْ المَسِيحْ هُوَ هو♫ أمس واليوم وإلي الأبد♫ بأُقنوم واحد♫ نَسْجُدْ لَهُ ونمجده.",
+  ],
+  [
+    Prefix.same + "&C=Diacon",
+    "Ⲡⲓϣⲟⲣⲡ ϧⲉⲛ ⲛⲓⲁ̀ⲡⲟⲥⲧⲟⲗⲟⲥ : ⲉⲩⲙⲟⲩϯ ⲉ̀ⲣⲟϥ ϫⲉ Ⲥⲓⲙⲱⲛ Ⲡⲉⲧⲣⲟⲥ : ⲛ̀ⲑⲟϥ ⲟⲛ ⲡⲉ ⲉⲧⲁⲩⲧⲉⲛϩⲟⲩⲧϥ : ⲉ̀ⲛⲓϣⲟϣⲧ ⲛ̀ⲧⲉ ⲑ̀ⲙⲉⲧⲟⲩⲣⲟ ⲛ̀ⲛⲓⲫⲏⲟⲩⲓ̀.",
+    "Le premier des apôtres,♫ se nomme Simon Pierre,♫ et il est celui à qui fut confié♫ les clés du Royaume des Cieux.",
+    "بي شورب خين ني أبوسطولوس ♫ ايفموتي ايروف جي سيمون بيتروس ♫ انثوف أون بي ايتاف تين هوتف ♫ ايني شوشت انتي اثميت أوورو اننيفي أووي ",
+    "الأول في الرُّسل،♫ يُدعَى سمعان بطرس،♫ وهو أيضاً الذي اُؤتُمِنَ♫ على مفاتيح ملكوت السَّمَوات.",
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.commonPrayer + "BlessedTheFather"
+  ],
+],
+[
+  [
+    Prefix.commonPrayer + "BlessedTheFather&C=Diacon",
     "Ϫⲉ ϥ̀ⲥ̀ⲙⲁⲣⲱⲟⲩⲧ ⲛ̀ϫⲉ Ⲫ̀ⲓⲱⲧ ⲛⲉⲙ Ⲡ̀ϣⲏⲣⲓ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ: Ϯⲧ̀ⲣⲓⲁⲥ ⲉⲧϫⲏⲕ ⲉ̀ⲃⲟⲗ: ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲥ ⲧⲉⲛϯⲱ̀ⲟⲩ ⲛⲁⲥ.",
-    "Car il est béni le Père et le Fils et le Saint Esprit, Trinité parfaite. Nous l’adorons et la glorifions.",
+    "Car il est béni le Père, et le Fils, et le Saint Esprit, Trinité parfaite. Nous l’adorons et la glorifions.",
     "جي إف إسمارؤوت إنجي افيوت نيم ابشيري، نيم بي ابنيفما اثؤواب، تي اترياس إتجيك إيفول تين أؤوشت إمموس تينتي أوناك.",
     "لِأنَّهُ مُبَارَكْ الآب والآبن والْرُوحْ القُدُسْ، الثَالُوثْ الكامل نَسْجُدْ لَهُ و نمجده.",
-  ],
+  ]
 ],
 [
   [
@@ -8104,7 +8132,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.massCommon + "DiaconResponsePrayForTotalPeace&D=$copticFeasts.AnyDay",
+    Prefix.massCommon + "PrayForPerfectPeace",
   ],
   [
     Prefix.placeHolder,
@@ -8112,7 +8140,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.massCommon + "ReconciliationPart1Comment&D=$copticFeasts.AnyDay",
+    Prefix.massCommon + "ReconciliationPart1Comment",
   ],
   [
     Prefix.same + "&C=Priest",
@@ -8160,7 +8188,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.massCommon + "DiaconResponsePrayForTotalPeace&D=$copticFeasts.AnyDay",
+    Prefix.massCommon + "PrayForPerfectPeace",
   ],
   [
     Prefix.placeHolder,
@@ -8168,7 +8196,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.massCommon + "ReconciliationPart1Comment&D=$copticFeasts.AnyDay",
+    Prefix.massCommon + "ReconciliationPart1Comment",
   ],
   [
     Prefix.same + "&C=Priest",
@@ -8180,7 +8208,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.massCommon + "DiaconResponsePrayForTotalPeace&D=$copticFeasts.AnyDay&C=Diacon",
+    Prefix.massCommon + "PrayForPerfectPeace&C=Diacon",
     "Ⲡⲣⲟⲥⲉⲩⲭⲁⲥⲑⲉ ⲩ̀ⲡⲉⲣ ⲧⲏⲥ ⲧⲉⲗⲓⲁⲥ ⲓ̀ⲣⲏⲛⲏⲥ ⲕⲉ ⲁⲅⲁⲡⲏⲥ ⲕⲉ ⲧⲱⲛ ⲁ̀ⲅⲓⲱⲛ ⲁⲥⲡⲁⲥⲙⲱⲛ ⲧⲱⲛ ⲁ̀ⲡⲟⲥⲧⲟⲗⲱⲛ.",
     "Priez pour la paix parfaite, pour la charité et pour le saint baiser apostolique.",
     "بروس إفكساثي أوبير تيس تيلياس إرينيس كي آجيا بيس كي تون آجيون آسبياسمون تون آبوستولون.",
@@ -8207,7 +8235,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.massCommon + "DiaconResponseKissEachOther",
+    Prefix.massCommon + "KissEachOther",
   ],
   [
     Prefix.placeHolder,
@@ -8216,7 +8244,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.massCommon + "DiaconResponseKissEachOther&C=Diacon",
+    Prefix.massCommon + "KissEachOther&C=Diacon",
     "Ⲁⲥⲡⲁⲍⲉⲥⲑⲉ ⲁⲗⲗⲏⲗⲟⲩⲥ ⲉⲛ ⲫⲓⲗⲏⲙⲁⲧⲓ ⲁ̀ⲅⲓⲱ. Ⲁ̀ⲙⲏⲛ: Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ: Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ: Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ: ⲉ̀ⲧⲉ ⲫⲁⲓ ⲡⲉ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ Ⲡ̀ϣⲏⲣⲓ ⲙ̀Ⲫ̀ⲛⲟⲩϯ ⲥⲱⲧⲉⲙ ⲉ̀ⲣⲟⲛ ⲟⲩⲟϩ ⲛⲁⲓ ⲛⲁⲛ.",
     "Échangez un saint baiser. Pitié Seigneur Pitié Seigneur Pitié Seigneur. Oui Seigneur Jésus Christ, le Fils de Dieu écoute nous et aie pitié de nous.",
     "اسبازيستي الليوس ان فيليماتي اجيو آمْينْ. كيريالَيسون كيريالَيسون كيريالَيسون. ايتي فاي بي ايسوس باخرستوس ابشري أم أفنوتي سوتيم ايرون أووه ناي نان.",
@@ -8240,10 +8268,10 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.same + "&C=Assembly",
-    "Ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲕ ⲱ̀ Ⲡⲭ̅ⲥ̅: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ: " + seasonal.giaki.COP + ". Ⲉⲗⲉⲟⲥ ⲉⲓ̀Ϯⲣⲏⲛⲏⲥ ⲑⲩⲥⲓⲁ ⲉ̀ⲛⲉⲥⲉⲱⲥ.",
-    "Nous T’adorons ô Christ, avec Ton Père très Bon et Le Saint Esprit, " + seasonal.giaki.FR + ". Miséricorde de paix, sacrifice de louange.",
-    "تين أؤوش إمموك إو بيخريستوس، نيم بيكيوت إن آغاثوس، نيم بي ابنيفما، إثؤوابن " + seasonal.giaki.CA + "، إليؤوس، إرينيس ثؤياس إنيسيؤس.",
-    "نسجدُ لَكَ أيُّهَا المَسِيحْ مَعَ أبِيكَ الصَالِحْ والْرُوحْ القُدُسْ " + seasonal.giaki.AR + ". رحمة السَّلامُ ذبيحة التسبيح.",
+    "Ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲕ ⲱ̀ Ⲡⲭ̅ⲥ̅: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ: " + variable.giaki.COP + ". Ⲉⲗⲉⲟⲥ ⲉⲓ̀Ϯⲣⲏⲛⲏⲥ ⲑⲩⲥⲓⲁ ⲉ̀ⲛⲉⲥⲉⲱⲥ.",
+    "Nous T’adorons ô Christ, avec Ton Père très Bon et Le Saint Esprit, " + variable.giaki.FR + ". Miséricorde de paix, sacrifice de louange.",
+    "تين أؤوش إمموك إو بيخريستوس، نيم بيكيوت إن آغاثوس، نيم بي ابنيفما، إثؤوابن " + variable.giaki.CA + "، إليؤوس، إرينيس ثؤياس إنيسيؤس.",
+    "نسجدُ لَكَ أيُّهَا المَسِيحْ مَعَ أبِيكَ الصَالِحْ والْرُوحْ القُدُسْ " + variable.giaki.AR + ". رحمة السَّلامُ ذبيحة التسبيح.",
   ],
 ],
 [
@@ -8441,600 +8469,609 @@ PrayersArrayFR = [[
     "",
     "انصتوا بحكمة الله يا ربُ ارحم. يا ربُ ارحم. بالحقيقة…",
   ],
+],
+[
+  [
+    Prefix.incenseDawn + "Anaphora&D=GL55"],
+  [
+    Prefix.placeHolder,
+    Prefix.incenseDawn + "Lakan"
   ],
   [
-    [
-      Prefix.incenseDawn + "Anaphora&D=GL55"],
-    [
-      Prefix.placeHolder, 
-        Prefix.incenseDawn + "Lakan"
-      ],
-      [
-        Prefix.placeHolder,
-        Prefix.commonPrayer + "AttendWithGodsWisdom"
-      ],
-      [
-        Prefix.placeHolder,
-      Prefix.commonPrayer + "Creed"
-    ],
-      [
-        Prefix.placeHolder, Prefix.massCommon + "DiaconResponseKissEachOther"
-    ], //!Just the second part
-      [
-        Prefix.placeHolder, Prefix.massCommon + "SpasmosAdamShort"],
-      [
-        Prefix.same + "&C=Title",
-        "",
-        "Anaphora",
-        "",
-        "أنافورا لقان خميس العهد",
-      ],
-      [
-        Prefix.placeHolder,
-        Prefix.massStGregory + "AnaphoraIntro"
-      ],
-    [
-      Prefix.same + "&C=Priest",
-      "",
-      "Tu es digne et juste, Tu es digne et juste, Tu es vraiment digne et juste. Je T’honore, je T'exalte, je Te bénis, je Te glorifie, je me prosterne devant Toi et je Te rends grâce en tout temps pour les bontés que Tu as faites pour nous. Tu es seul le Dieu véritable. Tu es depuis le commencement et tu as fait exister l'eau dans les hauteurs. Tu as multiplié les eaux dans les orbites célestes. Elles bénissent Ton Saint Nom, Toi le Roi de toute la création. Ô Jésus Christ, nous T'adorons Toi qui sièges sur le trône de Sa gloire ; Toi devant qui se prosternent toutes les puissances sacrées.",
-      "",
-      "مستحق ومستوجب، مستحق ومستوجب، مستحق ومستوجب، لأنك بالحقيقة مستحق وعادل، أكرمك، أرفعك، أباركك، أمجدك، أسجد لك، أشكرك في كل زمان، لأجل الخيرات التي صنعتها معنا، أنت الاله الحقيقي وحدك، الكائن منذ البدء، الذي أظهر المياه في علوه، الذي جعل المياه الكثيرة في فلك السماء، هذه تبارك اسمك القدوس، يا ملك الخليقة كلها، يا يسوع المسيح نسجد لك، أَيُّهَا الجالس على عرش مجده، المسجود له من جميع القوات المقدسة.",
-    ],
-    [
-      Prefix.placeHolder,
-      Prefix.massCommon + "YouWhoAreSittingStandUp",
-    ],
-    [
-      Prefix.same + "&C=Priest",
-      "",
-      "Les Anges, les Archanges, les Principautés, les Dominations, les Trônes, les Seigneuries et tous les esprits qui Te servent et les foules innombrables des anges se tiennent devant Toi avec crainte et tremblement et louent Ta grandeur.",
-      "",
-      "إن الملائكة ورؤساء الملائكة والرئاسات والسلطات والكراسي والربوبيات، وكل الأرواح الخادمة، وكل الجمع الغير المحصى من القوات الملائكية هؤلاء القيام أمامك بخوف ورعدة يسبحون عظمتك.",
-    ],
-    [
-      Prefix.placeHolder,
-      Prefix.massCommon + "LookToTheOrient",
-    ],
-    [
-      Prefix.same + "&C=Priest",
-      "",
-      "Tu es Celui autour de qui se tiennent les puissances bienheureuses : les chérubins et les séraphins, qui Te sanctifient 3 fois en tout temps. Nous aussi rends-nous dignes de Te louer avec eux, de Te bénir et de Te glorifier en disant :",
-      "",
-      "أنت هو الذي يقف حولك القوَّاد الطوباويون، الشاروبيم والسيرافيم، هؤلاء يقدسونك ثلاث مرات كل حين. ونحن أيضاً اجعلنا مستحقين أن نسبحك معهم ونباركك بأصوات المجد قائلين:",
-    ],
-    [
-      Prefix.placeHolder,
-      Prefix.massCommon + "LetUsAttend",
-    ],
-    [
-      Prefix.placeHolder,
-      Prefix.massCommon + "SpasmosWatosShort",
-    ],
-    [
-      Prefix.placeHolder,
-      Prefix.massCommon + "AgiosPart1",
-    ],
-    [
-      Prefix.placeHolder,
-      Prefix.massCommon + "AgiosPart1",
-    ],
-    [
-      Prefix.placeHolder,
-      Prefix.massCommon + "AgiosPart1",
-    ],
-    [
-      Prefix.same + "&C=Priest",
-      "",
-      "Agioc Agioc Agioc Saint, Saint, es-tu ô Seigneur ; Tu es Saint en toute chose. Car Tu es Dieu, le vrai Saint, Jésus Christ, le Fils, né avant toute création. Tu es dans la gloire de Ta grandeur et personne ne connaît la plénitude de Ta divinité qui T'habite corporellement. Tu n'as pas jugé bon de revendiquer Ton droit d'être traité égal à Ton Père. Mais, par Ta propre Volonté, Tu as pris la condition du serviteur. Tu T'es fait homme en vérité. Tu T'es incarné dans le sein de celle qui est sans souillure, la Mère de Dieu, Sainte Marie. Tu t’es revêtu de la pureté et n'as jamais péché. Tu as été à la sainte croix pour notre salut. Tu nous as donné cet exemple : Tu t'es levé de table. Tu as pris un linge et T'es ceint avec. Tu versas de l'eau dans un bassin. ",
-      "",
-      "قدوس قدوس أَيُّهَا الرَبِّ وقدوس أنت في كل شيء، لأنك أنت الاله القدوس الحقيقي، يسوع المسيح الابن، المولود قبل كل الخليقة. الكائن في مجد عظمته، الذي لا يعرف أحد كمال لاهوته الحال فيه جسدياً. ليس هو اختطافاً أن تكون مساوياً لله أبيك. لكن بإرادتك وحدك أخذت شكل العبد، وصرت إنساناً بالحقيقة تجسدت في بطن غير الدنسة والدة الاله القديسة مريم. أنت الذى لبست الطهارة ولم تخطئ أبداً، ودفعت ذاتك إلى الصليب المقدس مِنْ أَجْلِ خلاصنا. وضعت لنا هذا المثال، إذ قمت من العشاء وأخذت منديلاً، اشتددت به وصببت ماء في لقان، ",
-    ],
-    [
-      Prefix.same + "&C=Priest",
-      "",
-      "Tu T'es mis à laver les pieds de Tes disciples et à les essuyer avec le linge dont Tu étais ceint. Tu leur as donné le signe de l'amour et de l'humilité et le souvenir de Ton amour pour le genre humain en leur disant : « Si donc je vous ai lavé les pieds, moi le Seigneur et le Maître, vous aussi vous devez vous laver les pieds les uns aux autres. Car c'est un exemple que je vous ai donné, pour que vous fassiez, vous aussi, comme moi j'ai fait pour vous ».\nTu leur as donné Tes commandements et Tes injonctions en leur disant : «Aimez-vous les uns les autres». Tous les hommes sauront que vous êtes mes disciples si vous vous aimez les uns les autres. Tu nous as enseigné l'amour et l'unité. Tu nous as réconciliés avec Ton Père par le lavement des pieds de Tes disciples et la pureté de ce véritable exemple. ",
-      "",
-      "وابتدأت تغسل أرجل تلاميذك وتنشفها بالمنديل الذي كنت متزراً به، وأعطيتهم رسم المحبة، وترتيب التواضع، وتذكار محبتك للبشر، إذ قلت لهم: أنا غسلت أقدامكم وأنا المعلم والرب فيجب عليكم أن يغسل بعضكم أقدام بعض مثالاً لما صنعت بكم، وكما صنعت بكم أصنعوا أنتم أيضاً ببعضكم البعض. وأمرتهم بالعمل بوصاياك وأوامرك، إذ قلت لهم: أحبوا بعضكم بعضاً كما أحببتكم، وبهذا يعلم كل واحد أنكم تلاميذي إذا أحببتم بعضكم بعضاً، وعلمتنا نحن أيضاً المحبة والوحدانية وأصلحتنا مع أبيك. من جهة غسل أرجل تلاميذك، ونقاوة هذا المثال الحقيقي، ",
-    ],
-    [
-      Prefix.same + "&C=Priest",
-      "",
-      "Par Ton affection et Ton amour pour les hommes Tu as accompli notre liberté lorsque Pierre devant la grandeur de Ta Divinité s'est refusé en disant : \"Non, Tu ne me laveras pas les pieds, jamais !» Alors, Il a entendu le vrai jugement : « Si je ne te lave pas, tu n'as pas de part avec moi». Par sa fidélité, il s'est alors écrié : « Seigneur, pas seulement les pieds mais aussi les mains et la tête. Sanctifie-moi entièrement. » Il entendit encore Ta Voix Divine et sincère lui dire : « Qui s'est baigné n'a pas besoin de se laver - sinon les pieds - il est pur tout entier ». Pour cela nous Te supplions et nous T'implorons notre Seigneur Jésus Christ, Rends-nous dignes et viens au milieu de nous maintenant comme Tu étais avec Tes disciples les saints apôtres.",
-      "",
-      "ومن قبل تعطفك ومحبتك للبشر، صنعت كمال حريتنا. وعندما استعظم بطرس لاهوتك وامتنع قائلاً: لا تغسل رجلي إلى الأبد، سمع القضية الحقيقية: ان لم أغسل قدميك فليس لك معي نصيب، أما هو فبأمانته صرخ قائلاً: يا سيدي ليس رجلي فقط بل ويدي أيضاً ورأسي، قدسني بالكلية. فسمع أيضاً صوتك الإلهي غير الكاذب، ان الذي اغتسل لا يحتاج إلا إلى غسل قدميه، لكنه كله نقى. مِنْ أَجْلِ هذا نسأل ونطلب منك يا ربنا يسوع المسيح أجعلنا مستحقين أن تحل في وسطنا الآن كما كنت مع تلاميذك الرسل القديسين.",
-    ],
-    [
-      Prefix.same + "&C=Priest",
-      "",
-      "Comme Tu as béni en ce temps-là, bénis maintenant ! Amen",
-      "",
-      "وكما باركت في ذلك الزمان بارك الأن أمين",
-    ],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "Amen",
-    ],
-    [
-      Prefix.same + "&C=Priest",
-      "",
-      "Purifie cette eau, pour qu'elle devienne eau de guérison Amen",
-      "",
-      "طهر هذا ليكن ماء شفاء. آمين",
-    ],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "Amen",
-    ],
-    [
-      Prefix.same + "&C=Priest",
-      "",
-      "Eau sainte. Amen",
-      "",
-      "ماء مقدساً آمين.",
-    ],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "Amen",
-    ],
-    [
-      Prefix.same + "&C=Priest",
-      "",
-      "Eau pour la rémission des péchés. Amen ",
-      "",
-      "ماء لغفران الخطايا آمين",
-    ],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "Amen",
-    ],
-    [
-      Prefix.same + "&C=Priest",
-      "",
-      "Eau de pureté. Amen",
-      "",
-      "ماء الطهارة آمين.",
-    ],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "Amen",
-    ],
-    [
-      Prefix.same + "&C=Priest",
-      "",
-      "Salut et santé pour nos âmes, nos corps et nos esprits. Amen",
-      "",
-      "خلاصاً وصحة لأنفسنا وأجسادنا وأرواحنا آمين",
-    ],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "Amen",
-    ],
-    [
-      Prefix.same + "&C=Priest",
-      "",
-      "Don pur. Amen.",
-      "",
-      "موهبة طاهرة آمين",
-    ],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "Amen",
-    ],
-    [
-      Prefix.same + "&C=Priest",
-      "",
-      "Amour des uns pour les autres et sens purs. Amen",
-      "",
-      "ومحبة لبعضنا بعضاَ، وحواس نقية آمين",
-    ],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "Amen",
-    ],
-    [
-      Prefix.same + "&C=Priest",
-      "",
-      "Afin que nous soyons dignes de ta sainte vertu, enseigne-les-nous par Ton amour pour le genre humain. Amen",
-      "",
-      "لكى نستحق فضيلتك المقدسة، علمنا إياها من قبل محبتك للبشر آمين.",
-    ],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "Amen",
-    ],
-    [
-      Prefix.same + "&C=Priest",
-      "",
-      "Lorsque nous nous lavons les pieds les uns aux autres, rends-nous dignes de l'héritage de Tes saints disciples. Amen",
-      "",
-      "عندما نغسل أرجل بعضنا بعضاً، لنستحق أن نكون في ميراث تلاميذك الأطهار آمين",
-    ],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "Amen",
-    ],
-    [
-      Prefix.same + "&C=Priest",
-      "",
-      "Purifie notre intérieur par le fruit de ce mystère. Amen",
-      "",
-      "طهر إنساننا الداخلي بثمرة هذا السر آمين.",
-    ],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "Amen",
-    ],
-    [
-      Prefix.same + "&C=Priest",
-      "",
-      "Accorde-nous la rémission de nos péchés par l'avènement de Ton Esprit Saint en nous pour qu'Il purifie nos âmes, nos corps et nos esprits de toutes les impuretés du corps, de toute souillure et de tout péché. Amen",
-      "",
-      "وانعم علينا بغفران خطايانا بحلول روحك القدوس علينا، ليطهر نفوسنا وأجسادنا وأرواحنا، من كل دنس الجسد وكل نجاسة وكل خطيئة آمين",
-    ],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "Amen",
-    ],
-    [
-      Prefix.same + "&C=Priest",
-      "",
-      "Accorde-nous le pouvoir de fouler aux pieds les serpents, les scorpions et toute la puissance de l'ennemi. Ne permets pas au péché de nous soumettre, mais accorde-nous la sagesse des sens, une conduite digne. Pour que nous venions à Toi trouver la miséricorde et la pitié. Amen.",
-      "",
-      "وامنحنا السلطان أن ندوس الحيات والعقارب وكل قوة العدو، ولا تدع شيئاً من الآثام يتسلط علينا، بل أنعم علينا بحواس حكيمة، وسلوك ذي وقار وأمان، لكي نأتي إليك لنجد رحمة أمامك ورأفة آمين",
-    ],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "Amen",
-    ],
-    [
-      Prefix.same + "&C=Priest",
-      "",
-      "Nous T'implorons, ô vrai Dieu d'envoyer sur nous et sur cette eau Ton Esprit Saint le Paraclet qui a créé l'eau. Ô créateur de toute chose, Jésus Christ notre Seigneur, Qui a été crucifié pour nous sous Ponce Pilate, Tu as rendu le témoignage en disant : « Je suis le Fils de Dieu.» Nous croyions que Tu es le Fils de Dieu en vérité. ",
-      "",
-      "نطلب إليك يا الله الحقيقي لكي ترسل علينا وعلى هذه المياه روحك القدوس الباراقليط جابل المياه، خالق الكل يسوع المسيح ربنا الذي صلب عَنَّا في عهد بيلاطس البنطي. واعترفت قائلا: إني أنا هو ابن الله.",
-    ],
-    [
-      Prefix.same + "&C=Priest",
-      "",
-      "Purifie cette eau par la puissance de Ton Esprit Saint, afin qu'Il anéantisse les puissances du mal qui nous attaque. Qu'Il repousse tous les esprits impurs, toute sorcellerie, tout mauvais sort, et toute idolâtrie. Que toute puissance du mal s'éloigne de cette eau par le signe de Ta Sainte Croix, notre Seigneur Jésus-Christ",
-      "",
-      "طهر هذا الماء بقوة روح قدسك لكي يبطل قوات المضاد المقاتل لنا، وينتهر كل الأرواح النجسة، وكل سحر وكل رقية وكل عبادة الأوثان. فلتهرب من هذا الماء كل قوة المضاد بعلامة صلبيك المقدس يا ربنا يسوع المسيح. فلتهرب من هذا الماء كل قوة المضاد بعلامة صلبيك المقدس يا ربنا يسوع المسيح.",
-    ],
-    [
-      Prefix.same + "&C=Priest",
-      "",
-      "Rends-la eau de guérison. Amen",
-      "",
-      "أظهره ماء الشفاء آمين.",
-    ],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "Amen",
-    ],
-    [
-      Prefix.same + "&C=Priest",
-      "",
-      "Eau de pureté. Amen",
-      "",
-      "ماء الطهارة آمين.",
-    ],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "Amen",
-    ],
-    [
-      Prefix.same + "&C=Priest",
-      "",
-      "Eau pour la rémission des péchés. Amen",
-      "",
-      "ماء مغفرة الخطايا آمين",
-    ],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "Amen",
-    ],
-    [
-      Prefix.same + "&C=Priest",
-      "",
-      "Eau du salut. Amen",
-      "",
-      "ماء الخلاص آمين",
-    ],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "Amen",
-    ],
-    [
-      Prefix.same + "&C=Priest",
-      "",
-      "Rends-nous dignes d'être appelés fils afin que nous criions vers Ton Père très bon et le Saint Esprit en disant : Notre Père ....",
-      "",
-      "واجعلنا مستحقين البنوة لكي نصرخ نحو أبيك الصالح والرُّوحِ القُدُسِ قائلين: يا أبانا الذى في السموات...",
-    ],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "OurFatherInHeaven",
-    ],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "BlockInTheNameOfOurLord",
-    ],
-    [
-      Prefix.same + "&C=Priest",
-      "",
-      "Soyons attentifs avec crainte de Dieu Amen.",
-      "",
-      "ننصت بخوف الله. آمين.",
-    ],
-    [
-      Prefix.placeHolder,
-      Prefix.commonPrayer + "AmeenKyrieElieson3",
-    ],
-    [Prefix.placeHolder, Prefix.massCommon + "BlockBlessedChrist"],
-    [
-      Prefix.same + "&C=Diacon",
-      "",
-      "Amen nous croyons.",
-      "",
-      "حقاً نؤمن.",
-    ],
+    Prefix.placeHolder,
+    Prefix.commonPrayer + "AttendWithGodsWisdom"
   ],
   [
-    [
-        Prefix.incenseDawn + "Anaphora&D=0511",
-    ],
-    [
-      Prefix.placeHolder, 
-        Prefix.incenseDawn + "Lakan"
-      ],
-    [
-        Prefix.placeHolder,
-        Prefix.commonPrayer + "AttendWithGodsWisdom"
-    ],
-    [
-        Prefix.placeHolder,
-        Prefix.commonPrayer + "Creed"
-    ],
-    [
-        Prefix.placeHolder,
-        Prefix.massCommon + "DiaconResponseKissEachOther"
-    ],
-    [
-        Prefix.placeHolder,
-        Prefix.massCommon + "SpasmosAdamShort"
-    ],
-    [
-        Prefix.same + "&C=Title",
-        null,
-        "Anaphora",
-        "",
-        "أنافورا لقان عيد الرسل"
-    ],
-    [
-        Prefix.placeHolder,
-        Prefix.massStGregory + "AnaphoraIntro"
-    ],
-    [
-        Prefix.same + "&C=Priest",
-        "undefined̀Ⲁⲝⲓⲟⲛ ⲕⲉ ⲇⲓⲕⲉⲟⲛ :  ⲁ̀ⲝⲓⲟⲛ ⲕⲉ ⲇⲓⲕⲉⲟⲛ : ⲁ̀ⲗⲏⲑⲱⲥ ⲅⲁⲣ ϧⲉⲛ ⲟⲩⲙⲉⲑⲙⲏⲓ : ⲁ̀ⲝⲓⲟⲛ ⲕⲉ ⲇⲓⲕⲉⲟⲛ. Ⲫ̀ⲛⲏⲃ Ⲡⲓⲡⲁⲛⲧⲟⲕⲣⲁⲧⲱⲣ Ⲡ̀ⲟ̅ⲥ̅ ⲛ̀ⲧⲉ ⲡⲓⲉⲡⲧⲏⲣϥ ⲫ̀ⲓⲱⲧ ⲛ̀ⲧⲉ ⲛⲓⲙⲉⲧϣⲉⲛϩⲏⲧ ⲟⲩⲟϩ ⲪϮ ⲛ̀ⲧⲉ ⲛⲟⲙϯ ⲛⲓⲃⲉⲛ.",
-        "Tu es digne et juste, Tu es digne et juste, Tu es vraiment digne et justeÔ maître tout-puissant, Seigneur de tous, Père de toute compassion et Dieu de toute consolation.",
-        "",
-        "مستحق وعادل، مستحق وعادل، لأنه حقا بالحقيقة مستحق وعادل السيد الضابط الكل ورب الكل. أب الرأفات وإله كل عزاء."
-    ],
-    [
-        Prefix.same + "&C=Priest",
-        "Ⲛⲑⲟⲕ ⲡⲉ ϯⲗⲱⲓϫⲓ : ⲛ̀ⲑⲟⲕ ⲡⲉ ϯϫⲟⲙ : ⲛ̀ⲑⲟⲕ ⲡⲉ ⲉ̀ⲧⲉⲣⲃⲟⲏ̀ⲑⲓⲛ ⲉ̀ⲣⲟⲛ : ⲛ̀ⲑⲟⲕ ⲡⲉ ⲡⲉⲛⲃⲟⲏ̀ⲑⲟⲥ. Ⲡⲓⲥⲏⲓⲛⲓ ⲛⲉⲙ ⲡⲓⲣⲉϥⲛⲟϩⲉⲙ : ⲛⲉⲙ ⲡⲓⲥⲟⲃⲧ ⲉⲧⲧⲁϫⲣⲏⲟⲩⲧ ⲛⲉⲙ ϯϩⲉⲗⲡⲓⲥ ⲛ̀ⲧⲉ ⲛⲏⲉ̀ⲧⲁⲩⲫⲱⲧ ϩⲁⲣⲟϥ.",
-        "Tu es le chemin et la puissance. Tu es notre secours et c’est Toi qui nous aides. Tu es le médecin et l’espérance. Tu es la forteresse et le secours de ceux qui recourent à Lui.",
-        "",
-        "أنت هو الوسيلة. أنت هو القوة. أنت معيننا، أنت هو عوننا. ايها الطبيب والملتجئ. والحصن الثابت ورجاء الملتجئين إليه."
-    ],
-    [
-        Prefix.placeHolder,
-        Prefix.massCommon + "YouWhoAreSittingStandUp"
-    ],
-    [
-        Prefix.same + "&C=Priest",
-        "Ⲡⲓϩ̀ⲙⲟⲧ ⲛⲉⲙ ϯⲁ̀ⲛⲁⲗⲩⲙⲯⲓⲥ ⲛⲉⲙ ϯϩⲉⲗⲡⲓⲥ ⲛⲉⲙ ⲡⲓⲱⲛϧ ⲛⲉⲙ ϯⲀ̀ⲛⲁⲥⲧⲁⲥⲓⲥ. Ⲁ̀ⲛⲟⲛ ⲧⲏⲣⲉⲛ ⲉⲛϫⲟⲩϣⲧ ⲉ̀ⲃⲟⲗ ϧⲁⲧ̀ϩⲏ ⲙ̀ⲡⲉⲕⲟⲩϫⲁⲓ ⲫⲏⲉⲧϩⲱⲧⲡ ⲉ̀ⲟⲩⲟⲛ ⲛⲓⲃⲉⲛ.",
-        "Tu es la grâce, la progression, l’espérance, la vie et la résurrection. Nous attendons Ton salut par lequel tu nous as tous réconciliés.",
-        "",
-        "النعمة والارتقاء والرجاء والحياة والقيامة. ونحن كلنا منتظرون خلاصك الذي أصلحت به كل أحد."
-    ],
-    [
-        Prefix.same + "&C=Priest",
-        "Ⲛ̀ⲑⲟⲕ ⲡⲉ Ⲡ̀ⲁⲣⲭⲏ ⲛ̀ⲛⲓⲁⲣⲭⲱⲛ : ⲟⲩⲟϩ Ⲡ̀ⲟ̅ⲥ̅ ⲛ̀ⲧⲉ ⲛⲓⲟ̅ⲥ̅ : ⲟⲩⲟϩ Ⲫ̀ⲛⲏⲃ ⲛ̀ⲧⲉ ⲛⲓⲛⲏⲃ ⲟⲩⲟϩ Ⲡ̀ⲟⲩⲣⲟ ⲛ̀ⲧⲉ ⲛⲓⲟⲩⲣⲱⲟⲩ.",
-        "Tu es à la tête de tous les dirigeants, le Seigneur des seigneurs, le Maître des maîtres et le Roi des rois.",
-        "",
-        "أنت هو رئيس كل الرؤساء ورب كل الأرباب، وسيد السادات وملك الملوك."
-    ],
-    [
-        Prefix.placeHolder,
-        Prefix.massCommon + "LookToTheOrient"
-    ],
-    [
-        Prefix.same + "&C=Priest",
-        "Ⲛ̀ⲑⲟⲕ ⲡⲉ ⲉ̀ⲧⲁⲕϯ ⲉⲣϣⲓϣⲓ ⲛ̀ⲛⲏⲉ̀ⲧⲁⲩⲉⲣϣⲟⲣⲡ ⲛ̀ⲑⲁϩⲙⲟⲩ ϧⲉⲛ ⲡⲉⲕϩ̀ⲙⲟⲧ : ⲉⲑⲣⲟⲩⲥⲱⲛϩ ⲟⲩⲟϩ ⲛ̀ⲧⲟⲩⲃⲱⲗ ⲉ̀ⲃⲟⲗ : Ⲛ̀ⲑⲟⲕ ⲡⲉ ⲫⲏⲉⲧϯ ⲥⲟⲫⲓⲁ̀ ⲛ̀ⲛⲏⲉⲧⲟⲓ ⲛ̀ⲟⲣⲅⲁⲛⲟⲛ ⲛⲁⲕ ϧⲉⲛ ϯⲉⲕⲕ̀ⲗⲏⲥⲓⲁ̀ ⲛ̀ⲧⲉ Ⲡⲭ̅ⲥ̅ : ⲑⲁⲓ ⲉ̀ⲧⲁⲕ ⲁ̀ⲣⲉϩ ⲉ̀ⲣⲟⲥ ⲙ̀ⲫ̀ⲣⲏϯ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ. Ϫⲉ ⲛ̀ⲑⲟⲕ ⲡⲉ ⲡⲁⲛⲧⲟⲇⲩⲛⲁⲙⲟ : ⲟⲩⲟϩ ⲙ̀ⲡⲁⲛⲧⲟⲕⲣⲁⲧⲱⲣ ⲫⲏⲉⲧϣⲟⲡ ⲓⲥϫⲉⲛ ϩⲏ ⲟⲩⲟϩ ⲑⲱⲕ ⲧⲉ ϯⲙⲉⲧⲟⲩⲣⲟ ⲛⲉⲙ ϯϫⲟⲙ ⲛⲉⲙ ⲡⲓⲱⲟⲩ ⲛⲉⲙ ⲡⲓⲁ̀ⲙⲁϩⲓ ⲛⲉⲙ Ⲡⲓⲡ̅ⲛ̅ⲁ̅ ⲉ̅ⲑ̅ⲩ̅.",
-        "C’est Toi qui as donné le pouvoir de lier et de délier à ceux que Tu as choisi par Ta grâce. Tu as donné la sagesse à ceux qui Te chantent dans l’Eglise de Ton Christ ; cette Eglise que tu as protégée par Ta bonté, car Tu es tout-puissant depuis le commencement et à Toi sont dus le règne, la puissance, la gloire et la magnificence avec le Saint Esprit.",
-        "",
-        "أنت الذي أعطيت السلطان للذين دعوتهم بنعمتك أن يربطوا ويحلوا. أنت الذي أعطيت الحكمة للذين يرتلون لك في الكنيسة التي لمسيحك هذه التي حفظتها كصالح، لأنك أنت الكلي القوة وضابط الكل منذ البدء. ولك الملك والقوة والمجد والعزة مع الروح القدس."
-    ],
-    [
-        Prefix.placeHolder,
-        Prefix.massCommon + "LetUsAttend"
-    ],
-    [
-        Prefix.placeHolder,
-        Prefix.massCommon + "SpasmosWatosShort"
-    ],
-    [
-        Prefix.placeHolder,
-        Prefix.massCommon + "AgiosPart1"
-    ],
-    [
-        Prefix.placeHolder,
-        Prefix.massCommon + "AgiosPart1"
-    ],
-    [
-        Prefix.placeHolder,
-        Prefix.massCommon + "AgiosPart1"
-    ],
-    [
-        Prefix.same + "&C=Priest",
-        "Ⲭ̀ⲟⲩⲁⲃ ⲭ̀ⲟⲩⲁⲃ ⲭ̀ⲟⲩⲁⲃ ϧⲉⲛ ⲟⲩⲙⲉⲑⲙⲏⲓ Ⲡⲟ̅ⲥ̅ Ⲡⲉⲛⲛⲟⲩϯ. Ⲙⲟⲓ ⲛⲁⲛ ϩⲱⲛ ϯⲛⲟⲩ ⲡⲉⲛⲛⲏⲃ ⲛ̀ⲟⲩϩ̀ⲙⲟⲧ ⲛ̀ⲧⲉ ⲧⲁⲓⲇⲓⲁ̀ⲕⲟⲛⲓⲁ̀ ⲑⲁⲓ : ⲙ̀ⲫ̀ⲣⲏϯ ⲉ̀ⲧⲁⲕⲧⲏⲓⲥ ⲙ̀Ⲙⲱⲩ̀ⲥⲏⲥ ⲡⲉⲕⲃⲱⲕ. Ⲟⲩⲟϩ ⲁⲕⲟⲩⲁϩⲥⲁϩⲛⲓ ⲛⲁϥ ⲉ̀ⲑⲁⲙⲓⲟ̀ ⲛ̀ϯⲥ̀ⲕⲩⲛⲏ ⲛⲉⲙ ϯⲕⲩⲃⲱⲧⲥ ⲕⲁⲧⲁ ⲛⲓⲑⲱϣ ⲉ̀ⲧⲁⲕϯⲧⲩⲡⲟⲥ ⲛⲁϥ ⲉ̀ⲧⲁϥⲛⲁⲩ ⲉ̀ⲣⲱⲟⲩ. Ⲛⲉⲙ Ⲁ̀ⲁ̀ⲣⲱⲛ ⲫⲏⲉ̀ⲧⲁⲕⲥⲟⲧⲡϥ ⲉ̀ⲟⲩⲙⲉⲧⲟⲩⲏⲃ : ⲛⲉⲙ Ⲃⲉⲥⲉⲗⲉⲏⲗ ⲫⲏⲉ̀ⲧⲁϥⲉⲣⲕⲟⲥⲙⲓⲛ ⲛ̀ϯⲥ̀ⲕⲩⲛⲏ. Ⲟⲩⲟϩ Ⲥⲟⲗⲟⲙⲟⲛ ⲁⲕⲥⲱⲧⲉⲙ ⲉ̀ⲧⲉϥⲡ̀ⲣⲟⲥⲉⲩⲭⲏ ϧⲉⲛ ⲡⲓⲉⲣⲫⲉⲓ ⲉ̀ⲧⲁϥⲕⲟⲧϥ ⲛⲁⲕ : ⲕⲁⲧⲁ ϯⲇⲓⲁ̀ⲑⲏⲕⲏ ⲉ̀ⲧⲁⲕⲥⲉⲙⲛⲏⲧⲥ ⲛⲉⲙ ⲡ̀ⲟⲩⲣⲟ ⲛ̀ⲑ̀ⲙⲏⲓ Ⲇⲁⲩⲓⲇ. Ⲟⲩⲟϩ ⲛⲓⲙⲁⲕⲁⲣⲓⲟⲥ ⲛ̀ⲁ̀ⲡⲟⲥⲧⲟⲗⲟⲥ ⲁⲕϯ ⲛⲱⲟⲩ ⲙ̀ⲡⲓϩ̀ⲙⲟⲧ ⲛ̀ⲧⲉ ϯⲉⲕⲕ̀ⲗⲏⲥⲓⲁ̀ : ⲛⲉⲙ ⲡⲓⲙⲩⲧⲏⲣⲓⲟⲛ ⲛ̀ⲧⲉ ϯⲇⲓⲁ̀ⲑⲏⲕⲏ ⲙ̀ⲃⲉⲣⲓ.",
-        "Saint, Saint, Saint es tu en vérité, Seigneur notre Dieu,Accorde-nous maintenant, notre Roi, la grâce de ce ministère, comme Tu l’as accordée à Moïse, ton serviteur, à qui Tu as donné l’ordre de construire la tente et l’arche selon les dessins que Tu lui as montrés. Tu l’as accordée à Aaron que Tu as choisi, à Béçaléel qui a orné la tente, à Salomon dont Tu as entendu la prière dans le temple qu’il a construit selon l’alliance que Tu as faite avec le roi David et aux saints apôtres à qui tu as donné la grâce de l’Eglise et le mystère de la nouvelle alliance.",
-        "",
-        "قدوسٌ قدوسٌ قدوسٌ بالحقيقة أيها الربُ إلهُنا. الآن أعطنا أيْضَاً يا ملكنا نعمة هذه الخدمة كما أعطيت عبدك موسى وأمرته أن يصنع القبة والتابوت كالرسوم التي مثلتها له التي رآها، وهارون الذي اخترته وبَصَلَئِيل الذي زَيَّنَ الْقُبَّةَ، وسليمان الذي سمعت صلاته في الهيكل الذي بناه لك كالعهد قررته مع الملك البار داود والرسل الطوباويين الذين أعطيتهم نعمة البيعة، وسر العهد الجديد."
-    ],
-    [
-        Prefix.same + "&C=Priest",
-        "Ⲡⲁⲓⲣⲏϯ ⲁ̀ⲛⲟⲛ ϩⲱⲛ ϧⲁ ⲛⲉⲕⲉ̀ⲃⲓⲁⲓⲕ ⲛ̀ⲁⲧⲉⲙⲡ̀ϣⲁ : ϣⲱⲡ ⲉ̀ⲣⲟⲕ ⲙ̀ⲡⲉⲛϯϩⲟ ⲉ̀ϫⲉⲛⲧⲁⲓ ⲕⲟⲗⲩⲃⲏⲑⲣⲁ ⲉ̅ⲑ̅ⲩ̅ ⲑⲁⲓ. Ⲟⲩⲟϩ ⲟⲩⲱⲣⲡ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ⲕⲱⲥ ⲛ̀ⲛⲓⲁⲕⲧⲓⲛ ⲛ̀ⲧⲉ ⲫⲏⲉ̀ⲧⲉ ⲫⲱⲕ ⲛ̀ϩ̀ⲙⲟⲧ.",
-        "Pour nous, Tes indignes serviteurs, reçois nos implorations que nous élevons vers Toi sur l’eau de ce bassin et rayonne sur elle par Ta grâce.",
-        "",
-        "نحن أيضا عبيدك الغير المستحقين اقبل إليك تضرعنا على هذه الفسقية المقدسة وارسل عليها شعاع نعمتك."
-    ],
-    [
-        Prefix.same + "&C=Priest",
-        "Ⲟⲩⲟϩ ⲁ̀ⲣⲓⲁ̀ⲅⲓⲁ̀ⲍⲓⲛ ⲙ̀ⲙⲟⲥ:",
-        "Sanctifie-la.",
-        "",
-        "قدسها."
-    ],
-    [
-        Prefix.placeHolder,
-        Prefix.commonPrayer + "Amen"
-    ],
-    [
-        Prefix.same + "&C=Priest",
-        "Ⲙⲁϩⲥ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲡⲉⲕⲡ̅ⲛ̅ⲁ̅ ⲉ̅ⲑ̅ⲩ̅:",
-        "Remplis-la de Ton Esprit Saint.",
-        "",
-        "املأها من روح قدسك."
-    ],
-    [
-        Prefix.placeHolder,
-        Prefix.commonPrayer + "Amen"
-    ],
-    [
-        Prefix.same + "&C=Priest",
-        "Ⲭⲱ ⲛ̀ϧⲏⲧⲥ ⲛ̀ϯⲥⲫⲣⲁⲅⲓⲥ ⲛ̀ⲧⲉ ⲡⲓⲟⲩϫⲁⲓ: ⲛⲉⲙ ⲧⲉⲕϫⲟⲙ ⲛ̀ⲁ̀ⲱ̀ⲣⲁⲧⲟⲛ.",
-        "Mets-y le sceau de Ton salut et Ta puissance invisible.",
-        "",
-        "ضع فيها خاتم الخلاص، وقوتك الغير المرئية."
-    ],
-    [
-        Prefix.placeHolder,
-        Prefix.commonPrayer + "Amen"
-    ],
-    [
-        Prefix.same + "&C=Priest",
-        "Ⲙⲁϩⲥ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲡ̀ⲱ̀ⲟⲩ ⲛ̀ⲧⲉ ⲧⲉⲕⲙⲉⲑⲛⲟⲩϯ.",
-        "Remplis-la de la gloire de Ta Divinité.",
-        "",
-        "املأها من مجد لاهوتك."
-    ],
-    [
-        Prefix.placeHolder,
-        Prefix.commonPrayer + "Amen"
-    ],
-    [
-        Prefix.same + "&C=Priest",
-        "Ⲙⲁⲣⲉⲥϣⲱⲡⲓ ⲛ̀ⲟⲩⲕⲟⲗⲩⲙⲃⲏⲣⲁ ⲛ̀ⲧⲉ ⲟⲩⲥ̀ⲙⲟⲩ.",
-        "Que ce bassin soit un bassin de bénédictions,",
-        "",
-        "ولتكن فسقية البركة."
-    ],
-    [
-        Prefix.same + "&C=Priest",
-        null,
-        "Un bassin de gloire et d’honneur pour Ton saint Nom.",
-        "",
-        "فسقية المجد والكرامة، لاسمك القدوس."
-    ],
-    [
-        Prefix.placeHolder,
-        Prefix.commonPrayer + "Amen"
-    ],
-    [
-        Prefix.placeHolder,
-        Prefix.commonPrayer + "Pray"
-    ],
-    [
-        Prefix.placeHolder,
-        Prefix.commonPrayer + "KyrieElieson"
-    ],
-    [
-        Prefix.same + "&C=Priest",
-        "Ⲡ̀ⲟ̅ⲥ̅ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ ⲫⲏⲉ̀ⲧⲁϥⲉⲣⲟⲩⲱⲓⲛ ⲛ̀ⲛⲏⲉⲧϧⲉⲛ ⲫ̀ⲛⲟⲩⲛ ϩⲓⲧⲉⲛ ⲧ̀ⲡⲁⲣⲟⲩⲥⲓⲁ̀ ⲛ̀ⲧⲉ ⲧⲉϥⲥⲁⲣⲝ : ⲟⲩⲟϩ ⲁⲕⲧⲟⲩϫⲱⲟⲩ ⲉ̀ⲃⲟⲗϧⲉⲛ ϯⲙⲉⲧⲧⲩⲣⲁⲛⲛⲟⲥ ⲛ̀ⲧⲉ ⲡⲓⲇⲓⲁ̀ⲃⲟⲗⲟⲥ : ⲟⲩⲟϩ ⲁⲕⲟⲩⲱⲛϩ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ ⲛ̀ⲁⲧⲧⲁⲕⲟ ⲛ̀ϯⲉ̀ⲗⲉⲩⲑⲉⲣⲓⲁ̀ ⲛ̀ⲧⲉ ⲛⲓⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲛ̀ⲧⲉ ⲧⲉⲕⲙⲉⲑⲛⲟⲩϯ : Ⲟⲩⲟϩ ⲁⲕϭⲓⲙⲱⲓⲧ ⲛⲁⲛ ⲉ̀ϧⲟⲩⲛ ⲉ̀ⲛⲏⲉ̅ⲑ̅ⲩ̅ : ⲛⲁⲓ ⲉ̀ⲧⲉⲣⲉ ⲛⲓⲁⲅⲅⲉⲗⲟⲥ ⲉⲣⲉ̀ⲡⲓⲑⲩⲙⲓⲛ ⲉ̀ⲛⲁⲩ ⲉ̀ⲣⲱⲟⲩ ⲟⲩⲟϩ ⲙ̀ⲡⲟⲩⲛⲁⲩ : Ⲁⲕⲉⲣⲭⲁⲣⲓⲍⲉⲥⲑⲉ ⲛⲁⲛ ⲙ̀ⲡⲓϫⲓⲛϣⲉ ⲉ̀ϧⲟⲩⲛ ⲉ̀ϯⲙⲉⲧⲟⲩⲣⲟ ⲛ̀ⲧⲉ ⲛⲓⲫⲏⲟⲩⲓ̀ ϩⲓⲧⲉⲛ ⲡⲓϫⲱⲕⲉⲙ ⲛ̀ⲕⲉⲥⲟⲡ. Ⲛ̀ⲑⲟⲕ ⲅⲁⲣ ⲁⲕϫⲟⲥ ϫⲉ ⲁⲩϣ̀ⲧⲉⲙⲙⲉⲥ ⲟⲩⲁⲓ ⲛ̀ⲕⲉⲥⲟⲡ : ⲙ̀ⲙⲟⲛ ϣ̀ϫⲟⲙ ⲙ̀ⲙⲟϥ ⲉ̀ⲓ̀ ⲉ̀ϧⲟⲩⲛ ⲉ̀ϯⲙⲉⲧⲟⲩⲣⲟ ⲛ̀ⲧⲉ ⲪϮ :",
-        "Seigneur Jésus Christ, Toi qui as éclairé ceux qui sont dans les profondeurs par la manifestation de Ton corps et les a sauvés de la tyranie de satan, Toi qui nous as montré la liberté (que nous avons reçue) de Tes Sacrements divins, Toi qui nous as conduits vers les saints dons, que les anges aimeraient voir mais ne les ont pas vus, Tu nous as accordé la grâce d’entrer dans le Royaume des cieux par le baptême. Tu as dit, en effet, « si l’homme ne renait pas une seconde fois, il ne peut entrer dans le Royaume des cieux ».",
-        "",
-        "أيها الرب يسوع المسيح الذي أضاء للذين في العمق بظهور جسده وأنقذهم من جبروت إبليس وأظهرت لنا بغير فساد حرية أسْرَارِكَ الالهية، وهديتنا إلى المقادس هذه التي تشتهي الملائكة أن تنظرها ولم تراها.وأَنْعَمْتَ علينا بالدخول إلى ملكوت السَّمَوات بالحميم مرَّةً أُخْرَى. لأنك أنت قلت إذا لم يولد الإنسان مرَّةً أُخْرَى لا يستطيع أن يدخل ملكوت الله."
-    ],
-    [
-        Prefix.same + "&C=Priest",
-        "Ⲉⲑⲃⲉ ⲫⲁⲓ ⲁⲕⲉⲣⲕⲁⲧⲁⲍⲓⲟⲛ ⲛⲁⲛ ⲉ̀ϭⲓⲱⲙⲥ ϧⲉⲛ ⲡⲓⲒⲟⲣⲇⲁⲛⲏⲥ ⲉ̀ⲁⲕⲉⲣⲭⲁⲣⲓⲍⲉⲥⲑⲉ ⲛⲁⲛ ⲙ̀ⲡⲓⲧⲟⲩⲃⲟ : Ⲛ̀ⲑⲟⲕ ⲅⲁⲣ ⲡⲉ ⲡⲓⲡⲁⲛⲁ̀ⲅⲓⲟⲥ ⲁⲗⲗⲁ ⲁⲕⲧⲟⲩⲃⲱⲟⲩ ⲟⲩⲟϩ ⲁⲕⲉⲣⲁ̀ⲅⲓⲁ̀ⲍⲓⲛ ⲙ̀ⲙⲱⲟⲩ ϩⲓⲧⲉⲛ ⲡⲉⲕϫⲓⲛϣⲉ ⲉ̀ⲡⲉⲥⲏⲧ ⲉ̀ⲣⲱⲟⲩ : ⲟⲩⲟϩ ⲁⲕϧⲟⲙϧⲉⲙ ⲛ̀ⲛⲓⲁ̀ⲫⲏⲟⲩⲓ̀ ⲛ̀ⲧⲉ ⲡⲓⲇ̀ⲣⲁⲕⲱⲛ ϩⲓϫⲉⲛ ⲛⲓⲙⲱⲟⲩ:",
-        "Pour cela Tu as daigné être baptisé dans le Jourdain. Tu nous as accordé la pureté puisque Toi, le Saint, Tu as purifié et sanctifié l’eau en y descendant. Tu as écrasé les têtes du dragon. ",
-        "",
-        "فلهذا تفضلت علينا وتعمدت في  الأردن ووهبت لنا الطهارة إذ أنت أيْضَاً الكلي القدس بل طهرت وقدست المياه بنزولك فيها. وسحقت رؤوس التنين في المياه."
-    ],
-    [
-        Prefix.same + "&C=Priest",
-        "Ⲁ̀ⲛⲟⲛ ϩⲱⲛ ϧⲁ ⲛⲏⲉ̀ⲧⲉⲣⲁ̀ⲡⲟⲗⲉⲩⲓⲛ ⲛⲉⲙⲱⲟⲩ ϧⲉⲛ ⲫ̀ⲛⲟⲃⲓ : ⲛ̀ⲧⲉⲛϭⲓ ⲛ̀ⲟⲩⲭⲱ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲉⲙ ⲛⲉⲛⲡⲁⲣⲁⲡ̀ⲧⲱⲙⲁ ϩⲓⲧⲉⲛ ⲡⲉⲛϫⲓⲛϫⲱⲕⲉⲙ ⲛ̀ϧⲏⲧϥ.",
-        "Nous aussi, qui avons pris plaisir avec eux dans le péché, Tu nous as accordé la rémission de nos péchés et de nos fautes en y étant baptisés.",
-        "",
-        "ونحن أيْضَاً الذين تنعمنا معهم في الخطيئة، ننال مغفرة خطايانا وزلاتنا بحميمنا فيه."
-    ],
-    [
-        Prefix.placeHolder,
-        Prefix.commonPrayer + "Pray"
-    ],
-    [
-        Prefix.placeHolder,
-        Prefix.commonPrayer + "KyrieElieson"
-    ],
-    [
-        Prefix.same + "&C=Priest",
-        "Ϯⲛⲟⲩ ⲟⲛ Ⲡ̀ⲟ̅ⲥ̅ ⲧⲉⲛϯϩⲟ ⲟⲩⲟϩ ⲧⲉⲛⲧⲱⲃϩ ⲙ̀ⲙⲟⲕ ⲉ̀ϫⲉⲛ ⲧⲁⲓⲕⲟⲗⲩⲙⲃⲏⲑⲣⲁ ⲉⲧⲭⲏ ⲉ̀ϧ̀ⲣⲏⲓ ⲙ̀ⲡ̀ⲧⲩⲡⲟⲥ ⲙ̀ⲡⲓⲒⲟⲣⲇⲁⲛⲏⲥ : ⲉⲑⲃⲉ ⲡⲉⲛⲟⲩϫⲁⲓ ⲉ̀ⲧⲁⲕϭⲓⲱⲙⲥ ⲛ̀ϧⲏⲧϥ ⲉⲑⲃⲏⲧⲉⲛ ϩⲓⲧⲉⲛ ⲡⲉⲕⲃⲱⲕ Ⲓⲱ̅ⲁ̅ ϧⲉⲛ ⲡⲉⲕⲟⲩⲱϣ Ⲡ̀ⲟ̅ⲥ̅ :",
-        "Maintenant encore, nous Te supplions, Seigneur, et nous T’implorons pour ce bassin que nous avons déposé ici pour symboliser le Jourdain où Tu as été baptisé par Ton serviteur Jean par Ta volonté, Seigneur. ",
-        "",
-        "الآن أيضا نضرع إليك يا رب ونطلب منك عن هذه الفسقية الموضوعة مثال  الأردن الذي مِنْ أَجْلِ خلاصنا تعمدت فيه من عبدك يوحنا بمشيئتك يارب. "
-    ],
-    [
-        Prefix.same + "&C=Priest",
-        "ⲁ̀ⲣⲓ ⲁ̀ⲅⲓⲁ̀ⲍⲓⲛ ⲛ̀ⲛⲁⲓⲙⲱⲟⲩ ϩⲱⲥⲧⲉ ⲟⲩⲟⲛ ⲛⲓⲃⲉⲛ ⲉⲑⲛⲁⲓⲱⲓ ⲉ̀ⲃⲟⲗ ⲛ̀ϧⲏⲧϥ : Ⲉ̀ⲣⲉ̀ⲉⲣⲡ̀ⲉⲙⲡ̀ϣⲁ ⲙ̀ⲡ̀ⲭⲱ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉ ⲛⲉϥⲛⲟⲃⲓ ⲛⲉⲙ ϯⲙⲉⲧⲁⲧⲧⲁⲕⲟ ⲛⲉⲙ ϯⲇⲱⲉⲁ̀ ⲛ̀ⲉ̀ⲡⲟⲩⲣⲁⲛⲓⲟⲛ :",
-        "Béni cette eau afin que tous ceux qui s’y lavent, méritent la rémission de leurs péchés. Qu’ils ne soient plus pervertis et qu’ils reçoivent les dons célestes. ",
-        "",
-        "قدس هذه المياه حتى أن كل من يغتسل منها يستحق مغفرة خطاياه. وعدم الفساد والموهبة السماوية،"
-    ],
-    [
-        Prefix.same + "&C=Priest",
-        "Ⲛ̀ⲧⲉⲕⲥ̀ϧⲉ ⲛⲟⲩⲣⲁⲛ ϩⲓⲡ̀ϫⲱⲙ ⲛ̀ⲧⲉ ⲡ̀ⲱⲛϧ : ⲛⲉⲙ ⲡⲓⲥⲱⲧⲡ ⲧⲏⲣⲟⲩ : ϧⲉⲛ ⲫ̀ⲟⲩⲱϣ ⲙ̀Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ : ⲛⲉⲙ Ⲡⲓⲡ̅ⲛ̅ⲁ̅ ⲉ̅ⲑ̅ⲩ̅ ⲛ̀ⲣⲉϥⲧⲁⲛϧⲟ : ⲛ̀ⲧⲟⲩⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟⲕ ⲟⲩⲟϩ ⲛ̀ϯⲱ̀ⲟⲩ ⲛⲁⲕ ⲛ̀ⲥⲏⲟⲩ ⲛⲓⲃⲉⲛ : ϫⲉ ϥ̀ⲙⲉϩ ⲛ̀ⲱ̀ⲟⲩ ⲛ̀ϫⲉ Ⲡⲉⲕⲣⲁⲛ ⲉ̅ⲑ̅ⲩ̅ ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁⲧⲑⲱⲗⲉⲃ : ⲛⲉⲙ Ⲡⲓⲡ̅ⲛ̅ⲁ̅ ⲉ̅ⲑ̅ⲩ̅. Ϯⲛⲟⲩ ⲛⲉⲙ ⲛ̀ⲥⲏⲟⲩ ⲛⲓⲃⲉⲛ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ⲛⲉϩ ⲧⲏⲣⲟⲩ ⲁ̀ⲙⲏⲛ.",
-        "Que leurs noms soient inscrits dans le livre de la Vie avec ceux de tous les saints qui ont été choisis par la volonté de Ton Père très bon et du Saint Esprit vivifiant. Ainsi, ils te béniront, te glorifieront en tout temps car Ton saint Nom est plein de gloire avec Ton Père sans souillure et le Saint Esprit Maintenant et toujours et dans les siècles des siècles. Amen !",
-        "",
-        "ولتُكتَب اسماؤهم في سفر الحياة مع كافة قديسيك المختارين بمشيئة أبيكَ الصالح والروح القدس المحيي ليباركوك ويمجدوك كل حين لأن اسمك مملوء مجداً مع أبيكَ الغير الدنس والروح القدس. الأن وكل أوان وإلى دهر الدهور كلها. آمين."
-    ],
-    [
-        Prefix.placeHolder,
-        Prefix.commonPrayer + "OurFatherInHeaven"
-    ],
-    [
-        Prefix.placeHolder,
-        Prefix.commonPrayer + "BlockInTheNameOfOurLord"
-    ],
-    [
-        Prefix.placeHolder,
-        Prefix.commonPrayer + "AbsolutionForTheSon"
-    ],
-    [
-        Prefix.placeHolder,
-        Prefix.massCommon + "BlockBlessedChrist"
-    ],
-    [
-        Prefix.placeHolder,
-        Prefix.massCommon + "CommunionPsalm150"
-    ],
-    [
-        Prefix.placeHolder,
-        Prefix.commonIncense + "LiturgyEnd"
-    ]
+    Prefix.placeHolder,
+    Prefix.commonPrayer + "Creed"
+  ],
+  [
+    Prefix.placeHolder, Prefix.massCommon + "KissEachOther"
+  ], //!Just the second part
+  [
+    Prefix.placeHolder, Prefix.massCommon + "SpasmosAdamShort"],
+  [
+    Prefix.same + "&C=Title",
+    "",
+    "Anaphora",
+    "",
+    "أنافورا لقان خميس العهد",
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.massStGregory + "AnaphoraIntro"
+  ],
+  [
+    Prefix.same + "&C=Priest",
+    "",
+    "Tu es digne et juste, Tu es digne et juste, Tu es vraiment digne et juste. Je T’honore, je T'exalte, je Te bénis, je Te glorifie, je me prosterne devant Toi et je Te rends grâce en tout temps pour les bontés que Tu as faites pour nous. Tu es seul le Dieu véritable. Tu es depuis le commencement et tu as fait exister l'eau dans les hauteurs. Tu as multiplié les eaux dans les orbites célestes. Elles bénissent Ton Saint Nom, Toi le Roi de toute la création. Ô Jésus Christ, nous T'adorons Toi qui sièges sur le trône de Sa gloire ; Toi devant qui se prosternent toutes les puissances sacrées.",
+    "",
+    "مستحق ومستوجب، مستحق ومستوجب، مستحق ومستوجب، لأنك بالحقيقة مستحق وعادل، أكرمك، أرفعك، أباركك، أمجدك، أسجد لك، أشكرك في كل زمان، لأجل الخيرات التي صنعتها معنا، أنت الاله الحقيقي وحدك، الكائن منذ البدء، الذي أظهر المياه في علوه، الذي جعل المياه الكثيرة في فلك السماء، هذه تبارك اسمك القدوس، يا ملك الخليقة كلها، يا يسوع المسيح نسجد لك، أَيُّهَا الجالس على عرش مجده، المسجود له من جميع القوات المقدسة.",
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.massCommon + "YouWhoAreSittingStandUp",
+  ],
+  [
+    Prefix.same + "&C=Priest",
+    "",
+    "Les Anges, les Archanges, les Principautés, les Dominations, les Trônes, les Seigneuries et tous les esprits qui Te servent et les foules innombrables des anges se tiennent devant Toi avec crainte et tremblement et louent Ta grandeur.",
+    "",
+    "إن الملائكة ورؤساء الملائكة والرئاسات والسلطات والكراسي والربوبيات، وكل الأرواح الخادمة، وكل الجمع الغير المحصى من القوات الملائكية هؤلاء القيام أمامك بخوف ورعدة يسبحون عظمتك.",
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.massCommon + "LookToTheOrient",
+  ],
+  [
+    Prefix.same + "&C=Priest",
+    "",
+    "Tu es Celui autour de qui se tiennent les puissances bienheureuses : les chérubins et les séraphins, qui Te sanctifient 3 fois en tout temps. Nous aussi rends-nous dignes de Te louer avec eux, de Te bénir et de Te glorifier en disant :",
+    "",
+    "أنت هو الذي يقف حولك القوَّاد الطوباويون، الشاروبيم والسيرافيم، هؤلاء يقدسونك ثلاث مرات كل حين. ونحن أيضاً اجعلنا مستحقين أن نسبحك معهم ونباركك بأصوات المجد قائلين:",
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.massCommon + "LetUsAttend",
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.massCommon + "SpasmosWatosShort",
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.massCommon + "AgiosPart1",
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.massCommon + "AgiosPart1",
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.massCommon + "AgiosPart1",
+  ],
+  [
+    Prefix.same + "&C=Priest",
+    "",
+    "Agioc Agioc Agioc Saint, Saint, es-tu ô Seigneur ; Tu es Saint en toute chose. Car Tu es Dieu, le vrai Saint, Jésus Christ, le Fils, né avant toute création. Tu es dans la gloire de Ta grandeur et personne ne connaît la plénitude de Ta divinité qui T'habite corporellement. Tu n'as pas jugé bon de revendiquer Ton droit d'être traité égal à Ton Père. Mais, par Ta propre Volonté, Tu as pris la condition du serviteur. Tu T'es fait homme en vérité. Tu T'es incarné dans le sein de celle qui est sans souillure, la Mère de Dieu, Sainte Marie. Tu t’es revêtu de la pureté et n'as jamais péché. Tu as été à la sainte croix pour notre salut. Tu nous as donné cet exemple : Tu t'es levé de table. Tu as pris un linge et T'es ceint avec. Tu versas de l'eau dans un bassin. ",
+    "",
+    "قدوس قدوس أَيُّهَا الرَبِّ وقدوس أنت في كل شيء، لأنك أنت الاله القدوس الحقيقي، يسوع المسيح الابن، المولود قبل كل الخليقة. الكائن في مجد عظمته، الذي لا يعرف أحد كمال لاهوته الحال فيه جسدياً. ليس هو اختطافاً أن تكون مساوياً لله أبيك. لكن بإرادتك وحدك أخذت شكل العبد، وصرت إنساناً بالحقيقة تجسدت في بطن غير الدنسة والدة الاله القديسة مريم. أنت الذى لبست الطهارة ولم تخطئ أبداً، ودفعت ذاتك إلى الصليب المقدس مِنْ أَجْلِ خلاصنا. وضعت لنا هذا المثال، إذ قمت من العشاء وأخذت منديلاً، اشتددت به وصببت ماء في لقان، ",
+  ],
+  [
+    Prefix.same + "&C=Priest",
+    "",
+    "Tu T'es mis à laver les pieds de Tes disciples et à les essuyer avec le linge dont Tu étais ceint. Tu leur as donné le signe de l'amour et de l'humilité et le souvenir de Ton amour pour le genre humain en leur disant : « Si donc je vous ai lavé les pieds, moi le Seigneur et le Maître, vous aussi vous devez vous laver les pieds les uns aux autres. Car c'est un exemple que je vous ai donné, pour que vous fassiez, vous aussi, comme moi j'ai fait pour vous ».\nTu leur as donné Tes commandements et Tes injonctions en leur disant : «Aimez-vous les uns les autres». Tous les hommes sauront que vous êtes mes disciples si vous vous aimez les uns les autres. Tu nous as enseigné l'amour et l'unité. Tu nous as réconciliés avec Ton Père par le lavement des pieds de Tes disciples et la pureté de ce véritable exemple. ",
+    "",
+    "وابتدأت تغسل أرجل تلاميذك وتنشفها بالمنديل الذي كنت متزراً به، وأعطيتهم رسم المحبة، وترتيب التواضع، وتذكار محبتك للبشر، إذ قلت لهم: أنا غسلت أقدامكم وأنا المعلم والرب فيجب عليكم أن يغسل بعضكم أقدام بعض مثالاً لما صنعت بكم، وكما صنعت بكم أصنعوا أنتم أيضاً ببعضكم البعض. وأمرتهم بالعمل بوصاياك وأوامرك، إذ قلت لهم: أحبوا بعضكم بعضاً كما أحببتكم، وبهذا يعلم كل واحد أنكم تلاميذي إذا أحببتم بعضكم بعضاً، وعلمتنا نحن أيضاً المحبة والوحدانية وأصلحتنا مع أبيك. من جهة غسل أرجل تلاميذك، ونقاوة هذا المثال الحقيقي، ",
+  ],
+  [
+    Prefix.same + "&C=Priest",
+    "",
+    "Par Ton affection et Ton amour pour les hommes Tu as accompli notre liberté lorsque Pierre devant la grandeur de Ta Divinité s'est refusé en disant : \"Non, Tu ne me laveras pas les pieds, jamais !» Alors, Il a entendu le vrai jugement : « Si je ne te lave pas, tu n'as pas de part avec moi». Par sa fidélité, il s'est alors écrié : « Seigneur, pas seulement les pieds mais aussi les mains et la tête. Sanctifie-moi entièrement. » Il entendit encore Ta Voix Divine et sincère lui dire : « Qui s'est baigné n'a pas besoin de se laver - sinon les pieds - il est pur tout entier ». Pour cela nous Te supplions et nous T'implorons notre Seigneur Jésus Christ, Rends-nous dignes et viens au milieu de nous maintenant comme Tu étais avec Tes disciples les saints apôtres.",
+    "",
+    "ومن قبل تعطفك ومحبتك للبشر، صنعت كمال حريتنا. وعندما استعظم بطرس لاهوتك وامتنع قائلاً: لا تغسل رجلي إلى الأبد، سمع القضية الحقيقية: ان لم أغسل قدميك فليس لك معي نصيب، أما هو فبأمانته صرخ قائلاً: يا سيدي ليس رجلي فقط بل ويدي أيضاً ورأسي، قدسني بالكلية. فسمع أيضاً صوتك الإلهي غير الكاذب، ان الذي اغتسل لا يحتاج إلا إلى غسل قدميه، لكنه كله نقى. مِنْ أَجْلِ هذا نسأل ونطلب منك يا ربنا يسوع المسيح أجعلنا مستحقين أن تحل في وسطنا الآن كما كنت مع تلاميذك الرسل القديسين.",
+  ],
+  [
+    Prefix.same + "&C=Priest",
+    "",
+    "Comme Tu as béni en ce temps-là, bénis maintenant ! Amen",
+    "",
+    "وكما باركت في ذلك الزمان بارك الأن أمين",
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.commonPrayer + "Amen",
+  ],
+  [
+    Prefix.same + "&C=Priest",
+    "",
+    "Purifie cette eau, pour qu'elle devienne eau de guérison Amen",
+    "",
+    "طهر هذا ليكن ماء شفاء. آمين",
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.commonPrayer + "Amen",
+  ],
+  [
+    Prefix.same + "&C=Priest",
+    "",
+    "Eau sainte. Amen",
+    "",
+    "ماء مقدساً آمين.",
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.commonPrayer + "Amen",
+  ],
+  [
+    Prefix.same + "&C=Priest",
+    "",
+    "Eau pour la rémission des péchés. Amen ",
+    "",
+    "ماء لغفران الخطايا آمين",
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.commonPrayer + "Amen",
+  ],
+  [
+    Prefix.same + "&C=Priest",
+    "",
+    "Eau de pureté. Amen",
+    "",
+    "ماء الطهارة آمين.",
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.commonPrayer + "Amen",
+  ],
+  [
+    Prefix.same + "&C=Priest",
+    "",
+    "Salut et santé pour nos âmes, nos corps et nos esprits. Amen",
+    "",
+    "خلاصاً وصحة لأنفسنا وأجسادنا وأرواحنا آمين",
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.commonPrayer + "Amen",
+  ],
+  [
+    Prefix.same + "&C=Priest",
+    "",
+    "Don pur. Amen.",
+    "",
+    "موهبة طاهرة آمين",
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.commonPrayer + "Amen",
+  ],
+  [
+    Prefix.same + "&C=Priest",
+    "",
+    "Amour des uns pour les autres et sens purs. Amen",
+    "",
+    "ومحبة لبعضنا بعضاَ، وحواس نقية آمين",
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.commonPrayer + "Amen",
+  ],
+  [
+    Prefix.same + "&C=Priest",
+    "",
+    "Afin que nous soyons dignes de ta sainte vertu, enseigne-les-nous par Ton amour pour le genre humain. Amen",
+    "",
+    "لكى نستحق فضيلتك المقدسة، علمنا إياها من قبل محبتك للبشر آمين.",
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.commonPrayer + "Amen",
+  ],
+  [
+    Prefix.same + "&C=Priest",
+    "",
+    "Lorsque nous nous lavons les pieds les uns aux autres, rends-nous dignes de l'héritage de Tes saints disciples. Amen",
+    "",
+    "عندما نغسل أرجل بعضنا بعضاً، لنستحق أن نكون في ميراث تلاميذك الأطهار آمين",
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.commonPrayer + "Amen",
+  ],
+  [
+    Prefix.same + "&C=Priest",
+    "",
+    "Purifie notre intérieur par le fruit de ce mystère. Amen",
+    "",
+    "طهر إنساننا الداخلي بثمرة هذا السر آمين.",
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.commonPrayer + "Amen",
+  ],
+  [
+    Prefix.same + "&C=Priest",
+    "",
+    "Accorde-nous la rémission de nos péchés par l'avènement de Ton Esprit Saint en nous pour qu'Il purifie nos âmes, nos corps et nos esprits de toutes les impuretés du corps, de toute souillure et de tout péché. Amen",
+    "",
+    "وانعم علينا بغفران خطايانا بحلول روحك القدوس علينا، ليطهر نفوسنا وأجسادنا وأرواحنا، من كل دنس الجسد وكل نجاسة وكل خطيئة آمين",
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.commonPrayer + "Amen",
+  ],
+  [
+    Prefix.same + "&C=Priest",
+    "",
+    "Accorde-nous le pouvoir de fouler aux pieds les serpents, les scorpions et toute la puissance de l'ennemi. Ne permets pas au péché de nous soumettre, mais accorde-nous la sagesse des sens, une conduite digne. Pour que nous venions à Toi trouver la miséricorde et la pitié. Amen.",
+    "",
+    "وامنحنا السلطان أن ندوس الحيات والعقارب وكل قوة العدو، ولا تدع شيئاً من الآثام يتسلط علينا، بل أنعم علينا بحواس حكيمة، وسلوك ذي وقار وأمان، لكي نأتي إليك لنجد رحمة أمامك ورأفة آمين",
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.commonPrayer + "Amen",
+  ],
+  [
+    Prefix.same + "&C=Priest",
+    "",
+    "Nous T'implorons, ô vrai Dieu d'envoyer sur nous et sur cette eau Ton Esprit Saint le Paraclet qui a créé l'eau. Ô créateur de toute chose, Jésus Christ notre Seigneur, Qui a été crucifié pour nous sous Ponce Pilate, Tu as rendu le témoignage en disant : « Je suis le Fils de Dieu.» Nous croyions que Tu es le Fils de Dieu en vérité. ",
+    "",
+    "نطلب إليك يا الله الحقيقي لكي ترسل علينا وعلى هذه المياه روحك القدوس الباراقليط جابل المياه، خالق الكل يسوع المسيح ربنا الذي صلب عَنَّا في عهد بيلاطس البنطي. واعترفت قائلا: إني أنا هو ابن الله.",
+  ],
+  [
+    Prefix.same + "&C=Priest",
+    "",
+    "Purifie cette eau par la puissance de Ton Esprit Saint, afin qu'Il anéantisse les puissances du mal qui nous attaque. Qu'Il repousse tous les esprits impurs, toute sorcellerie, tout mauvais sort, et toute idolâtrie. Que toute puissance du mal s'éloigne de cette eau par le signe de Ta Sainte Croix, notre Seigneur Jésus-Christ",
+    "",
+    "طهر هذا الماء بقوة روح قدسك لكي يبطل قوات المضاد المقاتل لنا، وينتهر كل الأرواح النجسة، وكل سحر وكل رقية وكل عبادة الأوثان. فلتهرب من هذا الماء كل قوة المضاد بعلامة صلبيك المقدس يا ربنا يسوع المسيح. فلتهرب من هذا الماء كل قوة المضاد بعلامة صلبيك المقدس يا ربنا يسوع المسيح.",
+  ],
+  [
+    Prefix.same + "&C=Priest",
+    "",
+    "Rends-la eau de guérison. Amen",
+    "",
+    "أظهره ماء الشفاء آمين.",
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.commonPrayer + "Amen",
+  ],
+  [
+    Prefix.same + "&C=Priest",
+    "",
+    "Eau de pureté. Amen",
+    "",
+    "ماء الطهارة آمين.",
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.commonPrayer + "Amen",
+  ],
+  [
+    Prefix.same + "&C=Priest",
+    "",
+    "Eau pour la rémission des péchés. Amen",
+    "",
+    "ماء مغفرة الخطايا آمين",
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.commonPrayer + "Amen",
+  ],
+  [
+    Prefix.same + "&C=Priest",
+    "",
+    "Eau du salut. Amen",
+    "",
+    "ماء الخلاص آمين",
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.commonPrayer + "Amen",
+  ],
+  [
+    Prefix.same + "&C=Priest",
+    "",
+    "Rends-nous dignes d'être appelés fils afin que nous criions vers Ton Père très bon et le Saint Esprit en disant : Notre Père ....",
+    "",
+    "واجعلنا مستحقين البنوة لكي نصرخ نحو أبيك الصالح والرُّوحِ القُدُسِ قائلين: يا أبانا الذى في السموات...",
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.commonPrayer + "OurFatherInHeaven",
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.commonPrayer + "BlockInTheNameOfOurLord",
+  ],
+  [
+    Prefix.same + "&C=Priest",
+    "",
+    "Soyons attentifs avec crainte de Dieu Amen.",
+    "",
+    "ننصت بخوف الله. آمين.",
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.commonPrayer + "AmeenKyrieElieson3",
+  ],
+  [Prefix.placeHolder, Prefix.massCommon + "BlockBlessedChrist"],
+  [
+    Prefix.same + "&C=Diacon",
+    "",
+    "Amen nous croyons.",
+    "",
+    "حقاً نؤمن.",
+  ],
+],
+[
+  [
+    Prefix.incenseDawn + "Anaphora&D=0511",
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.incenseDawn + "Lakan"
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.commonPrayer + "AttendWithGodsWisdom"
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.commonPrayer + "Creed"
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.massCommon + "KissEachOther"
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.massCommon + "SpasmosAdamShort"
+  ],
+  [
+    Prefix.same + "&C=Title",
+    null,
+    "Anaphora",
+    "",
+    "أنافورا لقان عيد الرسل"
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.massStGregory + "AnaphoraIntro"
+  ],
+  [
+    Prefix.same + "&C=Priest",
+    "undefined̀Ⲁⲝⲓⲟⲛ ⲕⲉ ⲇⲓⲕⲉⲟⲛ :  ⲁ̀ⲝⲓⲟⲛ ⲕⲉ ⲇⲓⲕⲉⲟⲛ : ⲁ̀ⲗⲏⲑⲱⲥ ⲅⲁⲣ ϧⲉⲛ ⲟⲩⲙⲉⲑⲙⲏⲓ : ⲁ̀ⲝⲓⲟⲛ ⲕⲉ ⲇⲓⲕⲉⲟⲛ. Ⲫ̀ⲛⲏⲃ Ⲡⲓⲡⲁⲛⲧⲟⲕⲣⲁⲧⲱⲣ Ⲡ̀ⲟ̅ⲥ̅ ⲛ̀ⲧⲉ ⲡⲓⲉⲡⲧⲏⲣϥ ⲫ̀ⲓⲱⲧ ⲛ̀ⲧⲉ ⲛⲓⲙⲉⲧϣⲉⲛϩⲏⲧ ⲟⲩⲟϩ ⲪϮ ⲛ̀ⲧⲉ ⲛⲟⲙϯ ⲛⲓⲃⲉⲛ.",
+    "Tu es digne et juste, Tu es digne et juste, Tu es vraiment digne et justeÔ maître tout-puissant, Seigneur de tous, Père de toute compassion et Dieu de toute consolation.",
+    "",
+    "مستحق وعادل، مستحق وعادل، لأنه حقا بالحقيقة مستحق وعادل السيد الضابط الكل ورب الكل. أب الرأفات وإله كل عزاء."
+  ],
+  [
+    Prefix.same + "&C=Priest",
+    "Ⲛⲑⲟⲕ ⲡⲉ ϯⲗⲱⲓϫⲓ : ⲛ̀ⲑⲟⲕ ⲡⲉ ϯϫⲟⲙ : ⲛ̀ⲑⲟⲕ ⲡⲉ ⲉ̀ⲧⲉⲣⲃⲟⲏ̀ⲑⲓⲛ ⲉ̀ⲣⲟⲛ : ⲛ̀ⲑⲟⲕ ⲡⲉ ⲡⲉⲛⲃⲟⲏ̀ⲑⲟⲥ. Ⲡⲓⲥⲏⲓⲛⲓ ⲛⲉⲙ ⲡⲓⲣⲉϥⲛⲟϩⲉⲙ : ⲛⲉⲙ ⲡⲓⲥⲟⲃⲧ ⲉⲧⲧⲁϫⲣⲏⲟⲩⲧ ⲛⲉⲙ ϯϩⲉⲗⲡⲓⲥ ⲛ̀ⲧⲉ ⲛⲏⲉ̀ⲧⲁⲩⲫⲱⲧ ϩⲁⲣⲟϥ.",
+    "Tu es le chemin et la puissance. Tu es notre secours et c’est Toi qui nous aides. Tu es le médecin et l’espérance. Tu es la forteresse et le secours de ceux qui recourent à Lui.",
+    "",
+    "أنت هو الوسيلة. أنت هو القوة. أنت معيننا، أنت هو عوننا. ايها الطبيب والملتجئ. والحصن الثابت ورجاء الملتجئين إليه."
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.massCommon + "YouWhoAreSittingStandUp"
+  ],
+  [
+    Prefix.same + "&C=Priest",
+    "Ⲡⲓϩ̀ⲙⲟⲧ ⲛⲉⲙ ϯⲁ̀ⲛⲁⲗⲩⲙⲯⲓⲥ ⲛⲉⲙ ϯϩⲉⲗⲡⲓⲥ ⲛⲉⲙ ⲡⲓⲱⲛϧ ⲛⲉⲙ ϯⲀ̀ⲛⲁⲥⲧⲁⲥⲓⲥ. Ⲁ̀ⲛⲟⲛ ⲧⲏⲣⲉⲛ ⲉⲛϫⲟⲩϣⲧ ⲉ̀ⲃⲟⲗ ϧⲁⲧ̀ϩⲏ ⲙ̀ⲡⲉⲕⲟⲩϫⲁⲓ ⲫⲏⲉⲧϩⲱⲧⲡ ⲉ̀ⲟⲩⲟⲛ ⲛⲓⲃⲉⲛ.",
+    "Tu es la grâce, la progression, l’espérance, la vie et la résurrection. Nous attendons Ton salut par lequel tu nous as tous réconciliés.",
+    "",
+    "النعمة والارتقاء والرجاء والحياة والقيامة. ونحن كلنا منتظرون خلاصك الذي أصلحت به كل أحد."
+  ],
+  [
+    Prefix.same + "&C=Priest",
+    "Ⲛ̀ⲑⲟⲕ ⲡⲉ Ⲡ̀ⲁⲣⲭⲏ ⲛ̀ⲛⲓⲁⲣⲭⲱⲛ : ⲟⲩⲟϩ Ⲡ̀ⲟ̅ⲥ̅ ⲛ̀ⲧⲉ ⲛⲓⲟ̅ⲥ̅ : ⲟⲩⲟϩ Ⲫ̀ⲛⲏⲃ ⲛ̀ⲧⲉ ⲛⲓⲛⲏⲃ ⲟⲩⲟϩ Ⲡ̀ⲟⲩⲣⲟ ⲛ̀ⲧⲉ ⲛⲓⲟⲩⲣⲱⲟⲩ.",
+    "Tu es à la tête de tous les dirigeants, le Seigneur des seigneurs, le Maître des maîtres et le Roi des rois.",
+    "",
+    "أنت هو رئيس كل الرؤساء ورب كل الأرباب، وسيد السادات وملك الملوك."
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.massCommon + "LookToTheOrient"
+  ],
+  [
+    Prefix.same + "&C=Priest",
+    "Ⲛ̀ⲑⲟⲕ ⲡⲉ ⲉ̀ⲧⲁⲕϯ ⲉⲣϣⲓϣⲓ ⲛ̀ⲛⲏⲉ̀ⲧⲁⲩⲉⲣϣⲟⲣⲡ ⲛ̀ⲑⲁϩⲙⲟⲩ ϧⲉⲛ ⲡⲉⲕϩ̀ⲙⲟⲧ : ⲉⲑⲣⲟⲩⲥⲱⲛϩ ⲟⲩⲟϩ ⲛ̀ⲧⲟⲩⲃⲱⲗ ⲉ̀ⲃⲟⲗ : Ⲛ̀ⲑⲟⲕ ⲡⲉ ⲫⲏⲉⲧϯ ⲥⲟⲫⲓⲁ̀ ⲛ̀ⲛⲏⲉⲧⲟⲓ ⲛ̀ⲟⲣⲅⲁⲛⲟⲛ ⲛⲁⲕ ϧⲉⲛ ϯⲉⲕⲕ̀ⲗⲏⲥⲓⲁ̀ ⲛ̀ⲧⲉ Ⲡⲭ̅ⲥ̅ : ⲑⲁⲓ ⲉ̀ⲧⲁⲕ ⲁ̀ⲣⲉϩ ⲉ̀ⲣⲟⲥ ⲙ̀ⲫ̀ⲣⲏϯ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ. Ϫⲉ ⲛ̀ⲑⲟⲕ ⲡⲉ ⲡⲁⲛⲧⲟⲇⲩⲛⲁⲙⲟ : ⲟⲩⲟϩ ⲙ̀ⲡⲁⲛⲧⲟⲕⲣⲁⲧⲱⲣ ⲫⲏⲉⲧϣⲟⲡ ⲓⲥϫⲉⲛ ϩⲏ ⲟⲩⲟϩ ⲑⲱⲕ ⲧⲉ ϯⲙⲉⲧⲟⲩⲣⲟ ⲛⲉⲙ ϯϫⲟⲙ ⲛⲉⲙ ⲡⲓⲱⲟⲩ ⲛⲉⲙ ⲡⲓⲁ̀ⲙⲁϩⲓ ⲛⲉⲙ Ⲡⲓⲡ̅ⲛ̅ⲁ̅ ⲉ̅ⲑ̅ⲩ̅.",
+    "C’est Toi qui as donné le pouvoir de lier et de délier à ceux que Tu as choisi par Ta grâce. Tu as donné la sagesse à ceux qui Te chantent dans l’Eglise de Ton Christ ; cette Eglise que tu as protégée par Ta bonté, car Tu es tout-puissant depuis le commencement et à Toi sont dus le règne, la puissance, la gloire et la magnificence avec le Saint Esprit.",
+    "",
+    "أنت الذي أعطيت السلطان للذين دعوتهم بنعمتك أن يربطوا ويحلوا. أنت الذي أعطيت الحكمة للذين يرتلون لك في الكنيسة التي لمسيحك هذه التي حفظتها كصالح، لأنك أنت الكلي القوة وضابط الكل منذ البدء. ولك الملك والقوة والمجد والعزة مع الروح القدس."
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.massCommon + "LetUsAttend"
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.massCommon + "SpasmosWatosShort"
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.massCommon + "AgiosPart1"
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.massCommon + "AgiosPart1"
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.massCommon + "AgiosPart1"
+  ],
+  [
+    Prefix.same + "&C=Priest",
+    "Ⲭ̀ⲟⲩⲁⲃ ⲭ̀ⲟⲩⲁⲃ ⲭ̀ⲟⲩⲁⲃ ϧⲉⲛ ⲟⲩⲙⲉⲑⲙⲏⲓ Ⲡⲟ̅ⲥ̅ Ⲡⲉⲛⲛⲟⲩϯ. Ⲙⲟⲓ ⲛⲁⲛ ϩⲱⲛ ϯⲛⲟⲩ ⲡⲉⲛⲛⲏⲃ ⲛ̀ⲟⲩϩ̀ⲙⲟⲧ ⲛ̀ⲧⲉ ⲧⲁⲓⲇⲓⲁ̀ⲕⲟⲛⲓⲁ̀ ⲑⲁⲓ : ⲙ̀ⲫ̀ⲣⲏϯ ⲉ̀ⲧⲁⲕⲧⲏⲓⲥ ⲙ̀Ⲙⲱⲩ̀ⲥⲏⲥ ⲡⲉⲕⲃⲱⲕ. Ⲟⲩⲟϩ ⲁⲕⲟⲩⲁϩⲥⲁϩⲛⲓ ⲛⲁϥ ⲉ̀ⲑⲁⲙⲓⲟ̀ ⲛ̀ϯⲥ̀ⲕⲩⲛⲏ ⲛⲉⲙ ϯⲕⲩⲃⲱⲧⲥ ⲕⲁⲧⲁ ⲛⲓⲑⲱϣ ⲉ̀ⲧⲁⲕϯⲧⲩⲡⲟⲥ ⲛⲁϥ ⲉ̀ⲧⲁϥⲛⲁⲩ ⲉ̀ⲣⲱⲟⲩ. Ⲛⲉⲙ Ⲁ̀ⲁ̀ⲣⲱⲛ ⲫⲏⲉ̀ⲧⲁⲕⲥⲟⲧⲡϥ ⲉ̀ⲟⲩⲙⲉⲧⲟⲩⲏⲃ : ⲛⲉⲙ Ⲃⲉⲥⲉⲗⲉⲏⲗ ⲫⲏⲉ̀ⲧⲁϥⲉⲣⲕⲟⲥⲙⲓⲛ ⲛ̀ϯⲥ̀ⲕⲩⲛⲏ. Ⲟⲩⲟϩ Ⲥⲟⲗⲟⲙⲟⲛ ⲁⲕⲥⲱⲧⲉⲙ ⲉ̀ⲧⲉϥⲡ̀ⲣⲟⲥⲉⲩⲭⲏ ϧⲉⲛ ⲡⲓⲉⲣⲫⲉⲓ ⲉ̀ⲧⲁϥⲕⲟⲧϥ ⲛⲁⲕ : ⲕⲁⲧⲁ ϯⲇⲓⲁ̀ⲑⲏⲕⲏ ⲉ̀ⲧⲁⲕⲥⲉⲙⲛⲏⲧⲥ ⲛⲉⲙ ⲡ̀ⲟⲩⲣⲟ ⲛ̀ⲑ̀ⲙⲏⲓ Ⲇⲁⲩⲓⲇ. Ⲟⲩⲟϩ ⲛⲓⲙⲁⲕⲁⲣⲓⲟⲥ ⲛ̀ⲁ̀ⲡⲟⲥⲧⲟⲗⲟⲥ ⲁⲕϯ ⲛⲱⲟⲩ ⲙ̀ⲡⲓϩ̀ⲙⲟⲧ ⲛ̀ⲧⲉ ϯⲉⲕⲕ̀ⲗⲏⲥⲓⲁ̀ : ⲛⲉⲙ ⲡⲓⲙⲩⲧⲏⲣⲓⲟⲛ ⲛ̀ⲧⲉ ϯⲇⲓⲁ̀ⲑⲏⲕⲏ ⲙ̀ⲃⲉⲣⲓ.",
+    "Saint, Saint, Saint es tu en vérité, Seigneur notre Dieu,Accorde-nous maintenant, notre Roi, la grâce de ce ministère, comme Tu l’as accordée à Moïse, ton serviteur, à qui Tu as donné l’ordre de construire la tente et l’arche selon les dessins que Tu lui as montrés. Tu l’as accordée à Aaron que Tu as choisi, à Béçaléel qui a orné la tente, à Salomon dont Tu as entendu la prière dans le temple qu’il a construit selon l’alliance que Tu as faite avec le roi David et aux saints apôtres à qui tu as donné la grâce de l’Eglise et le mystère de la nouvelle alliance.",
+    "",
+    "قدوسٌ قدوسٌ قدوسٌ بالحقيقة أيها الربُ إلهُنا. الآن أعطنا أيْضَاً يا ملكنا نعمة هذه الخدمة كما أعطيت عبدك موسى وأمرته أن يصنع القبة والتابوت كالرسوم التي مثلتها له التي رآها، وهارون الذي اخترته وبَصَلَئِيل الذي زَيَّنَ الْقُبَّةَ، وسليمان الذي سمعت صلاته في الهيكل الذي بناه لك كالعهد قررته مع الملك البار داود والرسل الطوباويين الذين أعطيتهم نعمة البيعة، وسر العهد الجديد."
+  ],
+  [
+    Prefix.same + "&C=Priest",
+    "Ⲡⲁⲓⲣⲏϯ ⲁ̀ⲛⲟⲛ ϩⲱⲛ ϧⲁ ⲛⲉⲕⲉ̀ⲃⲓⲁⲓⲕ ⲛ̀ⲁⲧⲉⲙⲡ̀ϣⲁ : ϣⲱⲡ ⲉ̀ⲣⲟⲕ ⲙ̀ⲡⲉⲛϯϩⲟ ⲉ̀ϫⲉⲛⲧⲁⲓ ⲕⲟⲗⲩⲃⲏⲑⲣⲁ ⲉ̅ⲑ̅ⲩ̅ ⲑⲁⲓ. Ⲟⲩⲟϩ ⲟⲩⲱⲣⲡ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ⲕⲱⲥ ⲛ̀ⲛⲓⲁⲕⲧⲓⲛ ⲛ̀ⲧⲉ ⲫⲏⲉ̀ⲧⲉ ⲫⲱⲕ ⲛ̀ϩ̀ⲙⲟⲧ.",
+    "Pour nous, Tes indignes serviteurs, reçois nos implorations que nous élevons vers Toi sur l’eau de ce bassin et rayonne sur elle par Ta grâce.",
+    "",
+    "نحن أيضا عبيدك الغير المستحقين اقبل إليك تضرعنا على هذه الفسقية المقدسة وارسل عليها شعاع نعمتك."
+  ],
+  [
+    Prefix.same + "&C=Priest",
+    "Ⲟⲩⲟϩ ⲁ̀ⲣⲓⲁ̀ⲅⲓⲁ̀ⲍⲓⲛ ⲙ̀ⲙⲟⲥ:",
+    "Sanctifie-la.",
+    "",
+    "قدسها."
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.commonPrayer + "Amen"
+  ],
+  [
+    Prefix.same + "&C=Priest",
+    "Ⲙⲁϩⲥ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲡⲉⲕⲡ̅ⲛ̅ⲁ̅ ⲉ̅ⲑ̅ⲩ̅:",
+    "Remplis-la de Ton Esprit Saint.",
+    "",
+    "املأها من روح قدسك."
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.commonPrayer + "Amen"
+  ],
+  [
+    Prefix.same + "&C=Priest",
+    "Ⲭⲱ ⲛ̀ϧⲏⲧⲥ ⲛ̀ϯⲥⲫⲣⲁⲅⲓⲥ ⲛ̀ⲧⲉ ⲡⲓⲟⲩϫⲁⲓ: ⲛⲉⲙ ⲧⲉⲕϫⲟⲙ ⲛ̀ⲁ̀ⲱ̀ⲣⲁⲧⲟⲛ.",
+    "Mets-y le sceau de Ton salut et Ta puissance invisible.",
+    "",
+    "ضع فيها خاتم الخلاص، وقوتك الغير المرئية."
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.commonPrayer + "Amen"
+  ],
+  [
+    Prefix.same + "&C=Priest",
+    "Ⲙⲁϩⲥ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲡ̀ⲱ̀ⲟⲩ ⲛ̀ⲧⲉ ⲧⲉⲕⲙⲉⲑⲛⲟⲩϯ.",
+    "Remplis-la de la gloire de Ta Divinité.",
+    "",
+    "املأها من مجد لاهوتك."
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.commonPrayer + "Amen"
+  ],
+  [
+    Prefix.same + "&C=Priest",
+    "Ⲙⲁⲣⲉⲥϣⲱⲡⲓ ⲛ̀ⲟⲩⲕⲟⲗⲩⲙⲃⲏⲣⲁ ⲛ̀ⲧⲉ ⲟⲩⲥ̀ⲙⲟⲩ.",
+    "Que ce bassin soit un bassin de bénédictions.",
+    "",
+    "ولتكن فسقية البركة."
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.commonPrayer + "Amen"
+  ],
+  [
+    Prefix.same + "&C=Priest",
+    null,
+    "Un bassin de gloire et d’honneur pour Ton saint Nom.",
+    "",
+    "فسقية المجد والكرامة، لاسمك القدوس."
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.commonPrayer + "Amen"
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.commonPrayer + "Pray"
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.commonPrayer + "KyrieElieson"
+  ],
+  [
+    Prefix.same + "&C=Priest",
+    "Ⲡ̀ⲟ̅ⲥ̅ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ ⲫⲏⲉ̀ⲧⲁϥⲉⲣⲟⲩⲱⲓⲛ ⲛ̀ⲛⲏⲉⲧϧⲉⲛ ⲫ̀ⲛⲟⲩⲛ ϩⲓⲧⲉⲛ ⲧ̀ⲡⲁⲣⲟⲩⲥⲓⲁ̀ ⲛ̀ⲧⲉ ⲧⲉϥⲥⲁⲣⲝ : ⲟⲩⲟϩ ⲁⲕⲧⲟⲩϫⲱⲟⲩ ⲉ̀ⲃⲟⲗϧⲉⲛ ϯⲙⲉⲧⲧⲩⲣⲁⲛⲛⲟⲥ ⲛ̀ⲧⲉ ⲡⲓⲇⲓⲁ̀ⲃⲟⲗⲟⲥ : ⲟⲩⲟϩ ⲁⲕⲟⲩⲱⲛϩ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ ⲛ̀ⲁⲧⲧⲁⲕⲟ ⲛ̀ϯⲉ̀ⲗⲉⲩⲑⲉⲣⲓⲁ̀ ⲛ̀ⲧⲉ ⲛⲓⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲛ̀ⲧⲉ ⲧⲉⲕⲙⲉⲑⲛⲟⲩϯ : Ⲟⲩⲟϩ ⲁⲕϭⲓⲙⲱⲓⲧ ⲛⲁⲛ ⲉ̀ϧⲟⲩⲛ ⲉ̀ⲛⲏⲉ̅ⲑ̅ⲩ̅ : ⲛⲁⲓ ⲉ̀ⲧⲉⲣⲉ ⲛⲓⲁⲅⲅⲉⲗⲟⲥ ⲉⲣⲉ̀ⲡⲓⲑⲩⲙⲓⲛ ⲉ̀ⲛⲁⲩ ⲉ̀ⲣⲱⲟⲩ ⲟⲩⲟϩ ⲙ̀ⲡⲟⲩⲛⲁⲩ : Ⲁⲕⲉⲣⲭⲁⲣⲓⲍⲉⲥⲑⲉ ⲛⲁⲛ ⲙ̀ⲡⲓϫⲓⲛϣⲉ ⲉ̀ϧⲟⲩⲛ ⲉ̀ϯⲙⲉⲧⲟⲩⲣⲟ ⲛ̀ⲧⲉ ⲛⲓⲫⲏⲟⲩⲓ̀ ϩⲓⲧⲉⲛ ⲡⲓϫⲱⲕⲉⲙ ⲛ̀ⲕⲉⲥⲟⲡ. Ⲛ̀ⲑⲟⲕ ⲅⲁⲣ ⲁⲕϫⲟⲥ ϫⲉ ⲁⲩϣ̀ⲧⲉⲙⲙⲉⲥ ⲟⲩⲁⲓ ⲛ̀ⲕⲉⲥⲟⲡ : ⲙ̀ⲙⲟⲛ ϣ̀ϫⲟⲙ ⲙ̀ⲙⲟϥ ⲉ̀ⲓ̀ ⲉ̀ϧⲟⲩⲛ ⲉ̀ϯⲙⲉⲧⲟⲩⲣⲟ ⲛ̀ⲧⲉ ⲪϮ :",
+    "Seigneur Jésus Christ, Toi qui as éclairé ceux qui sont dans les profondeurs par la manifestation de Ton corps et les a sauvés de la tyranie de satan, Toi qui nous as montré la liberté (que nous avons reçue) de Tes Sacrements divins, Toi qui nous as conduits vers les saints dons, que les anges aimeraient voir mais ne les ont pas vus, Tu nous as accordé la grâce d’entrer dans le Royaume des cieux par le baptême. Tu as dit, en effet, « si l’homme ne renait pas une seconde fois, il ne peut entrer dans le Royaume des cieux ».",
+    "",
+    "أيها الرب يسوع المسيح الذي أضاء للذين في العمق بظهور جسده وأنقذهم من جبروت إبليس وأظهرت لنا بغير فساد حرية أسْرَارِكَ الالهية، وهديتنا إلى المقادس هذه التي تشتهي الملائكة أن تنظرها ولم تراها.وأَنْعَمْتَ علينا بالدخول إلى ملكوت السَّمَوات بالحميم مرَّةً أُخْرَى. لأنك أنت قلت إذا لم يولد الإنسان مرَّةً أُخْرَى لا يستطيع أن يدخل ملكوت الله."
+  ],
+  [
+    Prefix.same + "&C=Priest",
+    "Ⲉⲑⲃⲉ ⲫⲁⲓ ⲁⲕⲉⲣⲕⲁⲧⲁⲍⲓⲟⲛ ⲛⲁⲛ ⲉ̀ϭⲓⲱⲙⲥ ϧⲉⲛ ⲡⲓⲒⲟⲣⲇⲁⲛⲏⲥ ⲉ̀ⲁⲕⲉⲣⲭⲁⲣⲓⲍⲉⲥⲑⲉ ⲛⲁⲛ ⲙ̀ⲡⲓⲧⲟⲩⲃⲟ : Ⲛ̀ⲑⲟⲕ ⲅⲁⲣ ⲡⲉ ⲡⲓⲡⲁⲛⲁ̀ⲅⲓⲟⲥ ⲁⲗⲗⲁ ⲁⲕⲧⲟⲩⲃⲱⲟⲩ ⲟⲩⲟϩ ⲁⲕⲉⲣⲁ̀ⲅⲓⲁ̀ⲍⲓⲛ ⲙ̀ⲙⲱⲟⲩ ϩⲓⲧⲉⲛ ⲡⲉⲕϫⲓⲛϣⲉ ⲉ̀ⲡⲉⲥⲏⲧ ⲉ̀ⲣⲱⲟⲩ : ⲟⲩⲟϩ ⲁⲕϧⲟⲙϧⲉⲙ ⲛ̀ⲛⲓⲁ̀ⲫⲏⲟⲩⲓ̀ ⲛ̀ⲧⲉ ⲡⲓⲇ̀ⲣⲁⲕⲱⲛ ϩⲓϫⲉⲛ ⲛⲓⲙⲱⲟⲩ:",
+    "Pour cela Tu as daigné être baptisé dans le Jourdain. Tu nous as accordé la pureté puisque Toi, le Saint, Tu as purifié et sanctifié l’eau en y descendant. Tu as écrasé les têtes du dragon. ",
+    "",
+    "فلهذا تفضلت علينا وتعمدت في  الأردن ووهبت لنا الطهارة إذ أنت أيْضَاً الكلي القدس بل طهرت وقدست المياه بنزولك فيها. وسحقت رؤوس التنين في المياه."
+  ],
+  [
+    Prefix.same + "&C=Priest",
+    "Ⲁ̀ⲛⲟⲛ ϩⲱⲛ ϧⲁ ⲛⲏⲉ̀ⲧⲉⲣⲁ̀ⲡⲟⲗⲉⲩⲓⲛ ⲛⲉⲙⲱⲟⲩ ϧⲉⲛ ⲫ̀ⲛⲟⲃⲓ : ⲛ̀ⲧⲉⲛϭⲓ ⲛ̀ⲟⲩⲭⲱ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲉⲙ ⲛⲉⲛⲡⲁⲣⲁⲡ̀ⲧⲱⲙⲁ ϩⲓⲧⲉⲛ ⲡⲉⲛϫⲓⲛϫⲱⲕⲉⲙ ⲛ̀ϧⲏⲧϥ.",
+    "Nous aussi, qui avons pris plaisir avec eux dans le péché, Tu nous as accordé la rémission de nos péchés et de nos fautes en y étant baptisés.",
+    "",
+    "ونحن أيْضَاً الذين تنعمنا معهم في الخطيئة، ننال مغفرة خطايانا وزلاتنا بحميمنا فيه."
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.commonPrayer + "Pray"
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.commonPrayer + "KyrieElieson"
+  ],
+  [
+    Prefix.same + "&C=Priest",
+    "Ϯⲛⲟⲩ ⲟⲛ Ⲡ̀ⲟ̅ⲥ̅ ⲧⲉⲛϯϩⲟ ⲟⲩⲟϩ ⲧⲉⲛⲧⲱⲃϩ ⲙ̀ⲙⲟⲕ ⲉ̀ϫⲉⲛ ⲧⲁⲓⲕⲟⲗⲩⲙⲃⲏⲑⲣⲁ ⲉⲧⲭⲏ ⲉ̀ϧ̀ⲣⲏⲓ ⲙ̀ⲡ̀ⲧⲩⲡⲟⲥ ⲙ̀ⲡⲓⲒⲟⲣⲇⲁⲛⲏⲥ : ⲉⲑⲃⲉ ⲡⲉⲛⲟⲩϫⲁⲓ ⲉ̀ⲧⲁⲕϭⲓⲱⲙⲥ ⲛ̀ϧⲏⲧϥ ⲉⲑⲃⲏⲧⲉⲛ ϩⲓⲧⲉⲛ ⲡⲉⲕⲃⲱⲕ Ⲓⲱ̅ⲁ̅ ϧⲉⲛ ⲡⲉⲕⲟⲩⲱϣ Ⲡ̀ⲟ̅ⲥ̅ :",
+    "Maintenant encore, nous Te supplions, Seigneur, et nous T’implorons pour ce bassin que nous avons déposé ici pour symboliser le Jourdain où Tu as été baptisé par Ton serviteur Jean par Ta volonté, Seigneur. ",
+    "",
+    "الآن أيضا نضرع إليك يا رب ونطلب منك عن هذه الفسقية الموضوعة مثال  الأردن الذي مِنْ أَجْلِ خلاصنا تعمدت فيه من عبدك يوحنا بمشيئتك يارب. "
+  ],
+  [
+    Prefix.same + "&C=Priest",
+    "ⲁ̀ⲣⲓ ⲁ̀ⲅⲓⲁ̀ⲍⲓⲛ ⲛ̀ⲛⲁⲓⲙⲱⲟⲩ ϩⲱⲥⲧⲉ ⲟⲩⲟⲛ ⲛⲓⲃⲉⲛ ⲉⲑⲛⲁⲓⲱⲓ ⲉ̀ⲃⲟⲗ ⲛ̀ϧⲏⲧϥ : Ⲉ̀ⲣⲉ̀ⲉⲣⲡ̀ⲉⲙⲡ̀ϣⲁ ⲙ̀ⲡ̀ⲭⲱ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉ ⲛⲉϥⲛⲟⲃⲓ ⲛⲉⲙ ϯⲙⲉⲧⲁⲧⲧⲁⲕⲟ ⲛⲉⲙ ϯⲇⲱⲉⲁ̀ ⲛ̀ⲉ̀ⲡⲟⲩⲣⲁⲛⲓⲟⲛ :",
+    "Béni cette eau afin que tous ceux qui s’y lavent, méritent la rémission de leurs péchés, qu’ils ne soient plus pervertis et qu’ils reçoivent les dons célestes. ",
+    "",
+    "قدس هذه المياه حتى أن كل من يغتسل منها يستحق مغفرة خطاياه، وعدم الفساد والموهبة السماوية."
+  ],
+  [
+    Prefix.same + "&C=Priest",
+    "Ⲛ̀ⲧⲉⲕⲥ̀ϧⲉ ⲛⲟⲩⲣⲁⲛ ϩⲓⲡ̀ϫⲱⲙ ⲛ̀ⲧⲉ ⲡ̀ⲱⲛϧ : ⲛⲉⲙ ⲡⲓⲥⲱⲧⲡ ⲧⲏⲣⲟⲩ : ϧⲉⲛ ⲫ̀ⲟⲩⲱϣ ⲙ̀Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ : ⲛⲉⲙ Ⲡⲓⲡ̅ⲛ̅ⲁ̅ ⲉ̅ⲑ̅ⲩ̅ ⲛ̀ⲣⲉϥⲧⲁⲛϧⲟ : ⲛ̀ⲧⲟⲩⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟⲕ ⲟⲩⲟϩ ⲛ̀ϯⲱ̀ⲟⲩ ⲛⲁⲕ ⲛ̀ⲥⲏⲟⲩ ⲛⲓⲃⲉⲛ : ϫⲉ ϥ̀ⲙⲉϩ ⲛ̀ⲱ̀ⲟⲩ ⲛ̀ϫⲉ Ⲡⲉⲕⲣⲁⲛ ⲉ̅ⲑ̅ⲩ̅ ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁⲧⲑⲱⲗⲉⲃ : ⲛⲉⲙ Ⲡⲓⲡ̅ⲛ̅ⲁ̅ ⲉ̅ⲑ̅ⲩ̅. Ϯⲛⲟⲩ ⲛⲉⲙ ⲛ̀ⲥⲏⲟⲩ ⲛⲓⲃⲉⲛ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ⲛⲉϩ ⲧⲏⲣⲟⲩ ⲁ̀ⲙⲏⲛ.",
+    "Que leurs noms soient inscrits dans le livre de la Vie avec ceux de tous les saints qui ont été choisis par la volonté de Ton Père très bon et du Saint Esprit vivifiant. Ainsi, ils te béniront, te glorifieront en tout temps car Ton saint Nom est plein de gloire avec Ton Père sans souillure et le Saint Esprit Maintenant et toujours et dans les siècles des siècles. Amen !",
+    "",
+    "ولتُكتَب اسماؤهم في سفر الحياة مع كافة قديسيك المختارين بمشيئة أبيكَ الصالح والروح القدس المحيي ليباركوك ويمجدوك كل حين لأن اسمك مملوء مجداً مع أبيكَ الغير الدنس والروح القدس. الأن وكل أوان وإلى دهر الدهور كلها. آمين."
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.commonPrayer + "OurFatherInHeaven"
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.commonPrayer + "BlockInTheNameOfOurLord"
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.commonPrayer + "BlockIriniPassi",
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.commonPrayer + "AbsolutionForTheSon"
+  ],
+  [Prefix.placeHolder, Prefix.massCommon + "WeHaveBeenSaved"],
+  [
+    Prefix.placeHolder,
+    Prefix.massCommon + "BlockBlessedChrist"
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.massCommon + "CommunionPsalm150"
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.commonIncense + "LiturgyEnd"
+  ]
 ],
 [
   [
@@ -9044,8 +9081,8 @@ PrayersArrayFR = [[
     Prefix.placeHolder, Prefix.incenseDawn + "Lakan"],
   [Prefix.placeHolder, Prefix.commonPrayer + "AttendWithGodsWisdom"],
   [Prefix.commonPrayer + "Creed"],
-  //!Hymn: Voici le témoignage de Jean le baptiste
-  [Prefix.placeHolder, Prefix.massCommon + "DiaconResponseKissEachOther"], //!Just the second part
+  [Prefix.anchor + "SpasmosAdam"],
+  [Prefix.placeHolder, Prefix.massCommon + "KissEachOther"], //!Just the second part
   [Prefix.placeHolder, Prefix.massCommon + "SpasmosAdamShort"],
   [
     Prefix.same + "&C=Title",
@@ -9075,11 +9112,11 @@ PrayersArrayFR = [[
   [
     Prefix.placeHolder,
     Prefix.massCommon + "CommunionPsalm150"
-],
-[
+  ],
+  [
     Prefix.placeHolder,
     Prefix.commonIncense + "LiturgyEnd"
-]  
+  ]
 ],
 [
   [
@@ -9560,7 +9597,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.massCommon + "AssemblyResponseIndeedWeBelieve&D=$copticFeasts.AnyDay",
+    Prefix.massCommon + "IndeedWeBelieve",
   ],
   [
     Prefix.placeHolder,
@@ -9568,7 +9605,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.massCommon + "AssemblyResponseAsYourMercyNotAsOurSins&D=$copticFeasts.AnyDay",
+    Prefix.massCommon + "AsYourMercy",
   ],
   [
     Prefix.placeHolder,
@@ -9660,7 +9697,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.massCommon + "AssemblyResponseIndeedWeBelieve&D=$copticFeasts.AnyDay&C=Assembly",
+    Prefix.massCommon + "IndeedWeBelieve&C=Assembly",
     "Ⲁⲙⲏⲛ ϯⲛⲁϩϯ.",
     "Amen, nous croyons.",
     "آمين تي ناهتي",
@@ -9685,7 +9722,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.massCommon + "AssemblyResponseAsYourMercyNotAsOurSins&D=$copticFeasts.AnyDay&C=Assembly",
+    Prefix.massCommon + "AsYourMercy&C=Assembly",
     "Ⲕⲁⲧⲁ ⲧⲟ ⲉ̀ⲗⲉⲟⲥ ⲥⲟⲩ Ⲕⲩⲣⲓⲉ: ⲕⲉ ⲙⲏ ⲕⲁⲧⲁ ⲧⲁⲥ ⲁ̀ⲙⲁⲣⲧⲓⲁⲥ ⲏ̀ⲙⲱⲛ.",
     "Selon Ta miséricorde Seigneur, et non selon nos péchés.",
     "كاتا تو إليوس سو كورييه كي مي كاتا تاس امارتياس إمون",
@@ -9724,7 +9761,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.massCommon + "AssemblyResponseIndeedWeBelieve&D=$copticFeasts.AnyDay",
+    Prefix.massCommon + "IndeedWeBelieve",
   ],
   [
     Prefix.placeHolder,
@@ -9739,7 +9776,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.massCommon + "AssemblyResponseWeBelieveThatThisIsTrueAmen&D=$copticFeasts.AnyDay",
+    Prefix.massCommon + "WeBelieveThatThisIsTrueAmen",
   ],
   [
     Prefix.placeHolder,
@@ -9782,7 +9819,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.massCommon + "AssemblyResponseWeBelieveWeConfessWeGlorify&D=$copticFeasts.AnyDay",
+    Prefix.massCommon + "WeBelieveWeConfessWeGlorify",
   ],
   [
     Prefix.placeHolder,
@@ -9808,7 +9845,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.massCommon + "AssemblyResponseThisIsReallyTrue&D=$copticFeasts.AnyDay",
+    Prefix.massCommon + "ThisIsReallyTrue",
   ],
   [
     Prefix.placeHolder,
@@ -9851,7 +9888,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.massCommon + "AssemblyResponseWeAlsoBelieveConfesseAndGlorify&D=$copticFeasts.AnyDay",
+    Prefix.massCommon + "WeBelieveConfesseAndGlorify",
   ],
   [
     Prefix.placeHolder,
@@ -9873,7 +9910,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.massCommon + "AssemblyResponseThisIsAlsoReallyTrue&D=$copticFeasts.AnyDay",
+    Prefix.massCommon + "ThisIsAlsoReallyTrue",
   ],
   [
     Prefix.placeHolder,
@@ -9921,7 +9958,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.massCommon + "AssemblyResponseWeBelieveThatThisIsTrueAmen&D=$copticFeasts.AnyDay&C=Assembly",
+    Prefix.massCommon + "WeBelieveThatThisIsTrueAmen&C=Assembly",
     "Ⲧⲉⲛⲛⲁϩϯ ϫⲉ ⲫⲁⲓ ⲡⲉ ϧⲉⲛ ⲟⲩⲙⲉⲑⲙⲏⲓ: ⲁⲙⲏⲛ.",
     "Nous croyons que cela est en vérité. Amen.",
     "تيناهتي جي خاي بي خين أوميثُمَّي آمْينْ",
@@ -9971,7 +10008,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.massCommon + "AssemblyResponseWeBelieveWeConfessWeGlorify&D=$copticFeasts.AnyDay&C=Assembly",
+    Prefix.massCommon + "WeBelieveWeConfessWeGlorify&C=Assembly",
     "Ⲁⲙⲏⲛ. Ⲡⲓⲥⲧⲉⲩⲟⲙⲉⲛ ⲕⲉ ⲟ̀ⲙⲟⲗⲟⲅⲟⲩⲙⲉⲛ ⲕⲉ ⲇⲟⲭⲁⲍⲟⲙⲉⲛ",
     "Amen, Nous croyons, nous confessons et nous glorifions.",
     "آمين بيستيف أومين كي أومولوغومين كي ذوكساسومين.",
@@ -9994,7 +10031,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.massCommon + "AssemblyResponseThisIsReallyTrue&D=$copticFeasts.AnyDay&C=Assembly",
+    Prefix.massCommon + "ThisIsReallyTrue&C=Assembly",
     "Ⲫⲁⲓ ⲡⲉ ϧⲉⲛ ⲟⲩⲙⲉⲑⲙⲏⲓ: ⲁⲙⲏⲛ.",
     "Ceci est en vérité. Amen.",
     "فاي بي خين أوميثُمَّي آمْينْ.",
@@ -10017,7 +10054,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.massCommon + "AssemblyResponseWeAlsoBelieveConfesseAndGlorify&D=$copticFeasts.AnyDay&C=Assembly",
+    Prefix.massCommon + "WeBelieveConfesseAndGlorify&C=Assembly",
     "Ⲕⲉ ⲡⲁⲗⲓⲛ Ⲡⲓⲥⲧⲉⲩⲟⲙⲉⲛ ⲕⲉ ⲟ̀ⲙⲟⲗⲟⲅⲟⲩⲙⲉⲛ ⲕⲉ ⲇⲟⲭⲁⲍⲟⲙⲉⲛ.",
     "De même, nous croyons, nous confessons et nous glorifions.",
     "آمين كي بالين بيستيف أومين كي أو مولوغومين، كي ذوكسا ذومين.",
@@ -10033,7 +10070,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.massCommon + "AssemblyResponseThisIsAlsoReallyTrue&D=$copticFeasts.AnyDay&C=Assembly",
+    Prefix.massCommon + "ThisIsAlsoReallyTrueC=Assembly",
     "Ⲫⲁⲓ ⲟⲛ ⲡⲉ ϧⲉⲛ ⲟⲩⲙⲉⲑⲙⲏⲓ: ⲁⲙⲏⲛ.",
     "Ceci est aussi en vérité. Amen.",
     "فاي أون بي خين أو ميثُمَّي آمْينْ.",
@@ -10099,7 +10136,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.massCommon + "AssemblyResponseWePraiseServeAndBow&D=$copticFeasts.AnyDay",
+    Prefix.massCommon + "WePraiseServeAndBow",
   ],
   [
     Prefix.placeHolder,
@@ -10107,7 +10144,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.massCommon + "DiaconResponseLetUsAttendAmen&D=$copticFeasts.AnyDay",
+    Prefix.massCommon + "LetUsAttendAmen",
   ],
 ],
 [
@@ -10121,7 +10158,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.massCommon + "AssemblyResponseWePraiseServeAndBow&D=$copticFeasts.AnyDay&C=Assembly",
+    Prefix.massCommon + "WePraiseServeAndBow&C=Assembly",
     "Ⲧⲉⲛϩⲱⲥ ⲉ̀ⲣⲟⲕ ⲧⲉⲛⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟⲕ ⲧⲉⲛϣⲉⲙϣⲓ ⲙ̀ⲙⲟⲕ ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲕ.",
     "Nous Te louons, nous Te bénissons, nous Te servons et nous T’adorons.",
     "تينهوس إيروك، تين اسمو إيروك تينشيمشي إمموك تين أؤوشت إمموك.",
@@ -10163,7 +10200,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.massCommon + "DiaconResponseLetUsAttendAmen&D=$copticFeasts.AnyDay&C=Diacon",
+    Prefix.massCommon + "LetUsAttendAmen&C=Diacon",
     "Ⲡⲣⲟⲥⲭⲱⲙⲉⲛ ⲁⲙⲏⲛ.",
     "Soyons attentifs. Amen.",
     "بروس خومين آمْينْ.",
@@ -10243,11 +10280,11 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.massCommon + "DiaconResponsePrayForTotalPeace&D=$copticFeasts.AnyDay",
+    Prefix.massCommon + "PrayForPerfectPeace",
   ],
   [
     Prefix.placeHolder,
-    Prefix.massCommon + "ReconciliationPart1Comment&D=$copticFeasts.AnyDay",
+    Prefix.massCommon + "ReconciliationPart1Comment",
   ],
   [
     Prefix.placeHolder,
@@ -10263,7 +10300,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.massCommon + "ReconciliationPart1Comment&D=$copticFeasts.AnyDay&C=Comments",
+    Prefix.massCommon + "ReconciliationPart1Comment&C=Comments",
     "",
     "يرفع الكاهن اللفافة الخِتمْ أمام وجهُه مُنثَنية على شَكل مُثَلَث وفي مُقابِلِه يَرفَع الشَمّاس الصَليب.",
   ],
@@ -10295,7 +10332,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.massCommon + "DiaconResponseLetUsAttendAmen&D=$copticFeasts.AnyDay",
+    Prefix.massCommon + "LetUsAttendAmen",
   ],
   [
     Prefix.placeHolder,
@@ -10321,7 +10358,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.commonPrayer + "AssemblyResponseAndWithYourSoul&D=$copticFeasts.AnyDay",
+    Prefix.commonPrayer + "AndWithYourSoul",
   ],
   [
     Prefix.placeHolder,
@@ -10567,7 +10604,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.massCommon + "AssemblyResponseAsYourMercyNotAsOurSins&D=$copticFeasts.AnyDay",
+    Prefix.massCommon + "AsYourMercy",
   ],
   [
     Prefix.placeHolder,
@@ -10582,7 +10619,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.massCommon + "AssemblyResponseWeBelieve&D=$copticFeasts.AnyDay",
+    Prefix.massCommon + "WeBelieve",
   ],
   [
     Prefix.same + "&C=Priest",
@@ -10593,7 +10630,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.massCommon + "AssemblyResponseWeBelieveThatThisIsTrueAmen&D=$copticFeasts.AnyDay",
+    Prefix.massCommon + "WeBelieveThatThisIsTrueAmen",
   ],
   [
     Prefix.placeHolder,
@@ -10645,7 +10682,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.massCommon + "AssemblyResponseWeBelieveWeConfessWeGlorify&D=$copticFeasts.AnyDay",
+    Prefix.massCommon + "WeBelieveWeConfessWeGlorify",
   ],
   [
     Prefix.placeHolder,
@@ -10671,7 +10708,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.massCommon + "AssemblyResponseThisIsReallyTrue&D=$copticFeasts.AnyDay",
+    Prefix.massCommon + "ThisIsReallyTrue",
   ],
   [
     Prefix.placeHolder,
@@ -10723,7 +10760,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.massCommon + "AssemblyResponseWeAlsoBelieveConfesseAndGlorify&D=$copticFeasts.AnyDay",
+    Prefix.massCommon + "WeBelieveConfesseAndGlorify",
   ],
   [
     Prefix.placeHolder,
@@ -10745,7 +10782,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.massCommon + "AssemblyResponseThisIsAlsoReallyTrue&D=$copticFeasts.AnyDay",
+    Prefix.massCommon + "ThisIsAlsoReallyTrue",
   ],
   [
     Prefix.placeHolder,
@@ -10785,7 +10822,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.massCommon + "AssemblyResponseWePraiseServeAndBow&D=$copticFeasts.AnyDay",
+    Prefix.massCommon + "WePraiseServeAndBow",
   ],
   [
     Prefix.placeHolder,
@@ -10797,7 +10834,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.massCommon + "DiaconResponseLetUsAttendAmen&D=$copticFeasts.AnyDay",
+    Prefix.massCommon + "LetUsAttendAmen",
   ],
 ],
 [
@@ -10810,7 +10847,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.massCommon + "AssemblyResponseIndeedWeBelieve&D=$copticFeasts.AnyDay",
+    Prefix.massCommon + "IndeedWeBelieve",
   ],
   [
     Prefix.placeHolder,
@@ -10818,7 +10855,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.massCommon + "AssemblyResponseWeAlsoBelieve&D=$copticFeasts.AnyDay",
+    Prefix.massCommon + "WeAlsoBelieve",
   ],
   [
     Prefix.placeHolder,
@@ -10926,7 +10963,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.massCommon + "DiaconResponseAmenAmenPray&D=$copticFeasts.AnyDay",
+    Prefix.massCommon + "AmenAmenPray",
   ],
   [
     Prefix.placeHolder,
@@ -11248,7 +11285,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.massCommon + "DiaconResponsePrayForTotalPeace&D=$copticFeasts.AnyDay",
+    Prefix.massCommon + "PrayForPerfectPeace",
   ],
   [
     Prefix.placeHolder,
@@ -11256,7 +11293,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.massCommon + "ReconciliationPart1Comment&D=$copticFeasts.AnyDay",
+    Prefix.massCommon + "ReconciliationPart1Comment",
   ],
   [
     Prefix.same + "&C=Priest",
@@ -11909,7 +11946,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.massCommon + "DiaconResponseLetUsAttendAmen&D=$copticFeasts.AnyDay",
+    Prefix.massCommon + "LetUsAttendAmen",
   ],
   [
     Prefix.placeHolder,
@@ -11992,7 +12029,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.massCommon + "AssemblyResponseWeBelieve&D=$copticFeasts.AnyDay",
+    Prefix.massCommon + "WeBelieve",
   ],
   [
     Prefix.same + "&C=Priest",
@@ -12003,7 +12040,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.massCommon + "AssemblyResponseWeBelieveThatThisIsTrueAmen&D=$copticFeasts.AnyDay",
+    Prefix.massCommon + "WeBelieveThatThisIsTrueAmen",
   ],
   [
     Prefix.placeHolder,
@@ -12046,7 +12083,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.massCommon + "AssemblyResponseWeBelieveWeConfessWeGlorify&D=$copticFeasts.AnyDay",
+    Prefix.massCommon + "WeBelieveWeConfessWeGlorify",
   ],
   [
     Prefix.placeHolder,
@@ -12072,7 +12109,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.massCommon + "AssemblyResponseThisIsReallyTrue&D=$copticFeasts.AnyDay",
+    Prefix.massCommon + "ThisIsReallyTrue",
   ],
   [
     Prefix.placeHolder,
@@ -12115,7 +12152,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.massCommon + "AssemblyResponseWeAlsoBelieveConfesseAndGlorify&D=$copticFeasts.AnyDay",
+    Prefix.massCommon + "WeBelieveConfesseAndGlorify",
   ],
   [
     Prefix.placeHolder,
@@ -12137,7 +12174,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.massCommon + "AssemblyResponseThisIsAlsoReallyTrue&D=$copticFeasts.AnyDay",
+    Prefix.massCommon + "ThisIsAlsoReallyTrue",
   ],
   [
     Prefix.placeHolder,
@@ -12170,7 +12207,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.massCommon + "AssemblyResponseAsYourMercyNotAsOurSins&D=$copticFeasts.AnyDay",
+    Prefix.massCommon + "AsYourMercy",
   ],
 ],
 [
@@ -12187,7 +12224,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.massCommon + "DiaconResponseLetUsAttendAmen&D=$copticFeasts.AnyDay",
+    Prefix.massCommon + "LetUsAttendAmen",
   ],
   [
     Prefix.same + "&D=$copticFeasts.AnyDay&C=Priest",
@@ -12206,7 +12243,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.massCommon + "AssemblyResponseWeAlsoBelieve&D=$copticFeasts.AnyDay",
+    Prefix.massCommon + "WeAlsoBelieve",
   ],
   [
     Prefix.placeHolder,
@@ -14654,10 +14691,10 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.same + "&C=Diacon",
-    "̀Ⲧ̀ⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲕ ⲱ̀ Ⲡⲭ̅ⲥ̅: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ: " + seasonal.giaki.COP + ".",
-    "Nous T'adorons ô Christ♫ avec Ton Père très bon♫ et le Saint Esprit♫ " + seasonal.giaki.FR + ".",
-    "تين اوؤشت إموك أو بي اخرستوس♫ نيم بيك يوت إن آغاثوس♫ نيم بي إبنفما اثؤاب♫ " + seasonal.giaki.CA + ".",
-    "نَسْجُدْ لَكَ ايها المسيح♫ مَعَ أبيكَ الصَالِح♫ والْرُوحْ القُدُسْ♫ " + seasonal.giaki.AR + ".",
+    "̀Ⲧ̀ⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲕ ⲱ̀ Ⲡⲭ̅ⲥ̅: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ: " + variable.giaki.COP + ".",
+    "Nous T'adorons ô Christ♫ avec Ton Père très bon♫ et le Saint Esprit♫ " + variable.giaki.FR + ".",
+    "تين اوؤشت إموك أو بي اخرستوس♫ نيم بيك يوت إن آغاثوس♫ نيم بي إبنفما اثؤاب♫ " + variable.giaki.CA + ".",
+    "نَسْجُدْ لَكَ ايها المسيح♫ مَعَ أبيكَ الصَالِح♫ والْرُوحْ القُدُسْ♫ " + variable.giaki.AR + ".",
   ],
 ],
 [
@@ -15168,24 +15205,12 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.cymbalVerses + "StGeorge",
-  ],
-  [
-    Prefix.placeHolder,
-    Prefix.cymbalVerses + "StTheodor",
-  ],
-  [
-    Prefix.placeHolder,
-    Prefix.cymbalVerses + "StMarcorious",
-  ],
-  [
-    Prefix.placeHolder,
-    Prefix.cymbalVerses + "StMina",
+    Prefix.cymbalVerses + "TheFourMartyrs",
   ],
 ],
 [
   [
-    Prefix.cymbalVerses + "PopeAndBishops&D=$copticFeasts.AnyDay&C=Title",
+    Prefix.cymbalVerses + "PopeAndBishop&C=Title",
     "",
     "Quatrins du carillon en présence du Pape ou d’un Evêque",
     "",
@@ -15193,17 +15218,17 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.same + "&C=Diacon",
-    "Ⲧⲉⲛϯϩⲟ ⲉ̀ⲣⲟⲕ ⲱ̀ Ⲩ̀ⲓⲟⲥ Ⲑⲉⲟⲥ: ⲉⲑⲣⲉⲕⲁ̀ⲣⲉϩ ⲉ̀ⲡ̀ⲱⲛϧ ⲙ̀ⲡⲉⲛⲡⲁⲧⲣⲓⲁⲣⲭⲏⲥ: ⲡⲁⲡⲁ ⲁⲃⲃⲁ Ⲧⲁⲱⲁⲇⲣⲟⲥ ⲡⲓⲁⲣⲭⲓⲉ̀ⲣⲉⲩⲥ: ⲙⲁⲧⲁϫⲣⲟϥ ϩⲓϫⲉⲛ ⲡⲉϥⲑ̀ⲣⲟⲛⲟⲥ.",
-    "Nous t’implorons♫ ô Fils de Dieu♫ de conserver la vie de notre patriarche♫ le grand prêtre anba Tawadros ;♫ maintiens-le sur son trône.",
-    "",
-    "نسألَكَ يا أبن اللّه♫ أنْ تحفظ حياة♫ بِطْرِيَرّْكِنَا البابا أَنْبَا تاوضروس رئيس الكهنة♫ ثَبِّتْهُ عَلَى كُرْسِيهِ.",
+    "Ⲧⲉⲛϯϩⲟ ⲉ̀ⲣⲟⲕ ⲱ̀ Ⲩ̀ⲓⲟⲥ Ⲑⲉⲟⲥ: ⲉⲑⲣⲉⲕⲁ̀ⲣⲉϩ ⲉ̀ⲡ̀ⲱⲛϧ ⲙ̀ⲡⲉⲛⲡⲁⲧⲣⲓⲁⲣⲭⲏⲥ: ⲡⲁⲡⲁ ⲁⲃⲃⲁ (...) ⲡⲓⲁⲣⲭⲓⲉ̀ⲣⲉⲩⲥ: ⲙⲁⲧⲁϫⲣⲟϥ ϩⲓϫⲉⲛ ⲡⲉϥⲑ̀ⲣⲟⲛⲟⲥ.",
+    "Nous t’implorons♫ ô Fils de Dieu♫ de conserver la vie de notre patriarche♫ le grand prêtre anba (...) ;♫ maintiens-le sur son trône.",
+    "تينتى هو إيروك أو يوس ثيؤس♫ اثريك اريه ابؤنخ امبين باطرى أرشيس ♫ أفا (...) بى أرشى إرفس♫ ماتاجروف هيجين بيف اثرونوس.",
+    "نسألَكَ يا أبن اللّه♫ أنْ تحفظ حياة♫ بِطْرِيَرّْكِنَا البابا أَنْبَا (...) رئيس الكهنة♫ ثَبِّتْهُ عَلَى كُرْسِيهِ.",
   ],
   [
     Prefix.same + "&C=Diacon",
     "Ⲛⲉⲙ ⲡⲉϥⲕⲉϣ̀ⲫⲏⲣ ⲛ̀ⲗⲓⲧⲟⲩⲣⲅⲟⲥ ⲡⲉⲛⲓⲱⲧ ⲉⲑⲟⲩⲁⲃ ⲛ̀ⲇⲓⲕⲉⲟⲥ: ⲁⲃⲃⲁ (…) ⲡⲓⲉ̀ⲡⲓⲥⲕⲟⲡⲟⲥ: ⲙⲁⲧⲁϫⲣⲟϥ ϩⲓϫⲉⲛ ⲡⲉϥⲑ̀ⲣⲟⲛⲟⲥ.",
     "Et son partenaire dans le ministère♫ notre père le juste anba (…) l'évêque ;♫ maintiens-le sur son siège.",
-    "",
-    "وشَريكَهُ في الخدمة♫ ابانا القديس البار♫ أَنْبَا (....) الاسقف♫ ثَبِّتْهُ عَلَى كُرْسِيهِ.",
+    "نيم بيف كى إشفير إن لى تورغوس♫ بينيوت إثؤاب إن ذيكيئوس♫ آفا ( ... ) بى إبيسكوبوس♫ ما تاجروف هيجين بيف إثرونوس.",
+    "وشَريكَهُ في الخدمة♫ آبانا القديس البار♫ أَنْبَا (....) الاسقف♫ ثَبِّتْهُ عَلَى كُرْسِيهِ.",
   ],
 ],
 [
@@ -19487,7 +19512,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.bookOfHours + "AllHoursFinalPrayer&D=$copticFeasts.AnyDay&C=SubTitle",
+    Prefix.bookOfHours + "AllHoursFinalPrayer&C=SubTitle",
     "",
     "Conclusion de chaque heure",
     "",
@@ -20181,10 +20206,10 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.same + "&C=Priest",
-    "Ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲕ ⲱ̀ Ⲡⲭ̅ⲥ̅: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ: " + seasonal.giaki.COP + " ⲛⲁⲓ ⲛⲁⲛ.",
-    "Nous T’adorons, O Christ avec Ton bon Père et Le Saint Esprit, " + seasonal.giaki.FR + ", Aie pitie de nous.",
-    "تين أوؤشت إمموك أو بي اخرستوس نيم بيكيوت إن آغاثوس نيم بي ابنيفما إثؤاوب " + seasonal.giaki.CA + " ناي نان.",
-    "نسجدُ لكَ أيُّهَا المَسِيحْ مَعَ أبيكَ الصَالِحْ والرُوحِ القُدسْ " + seasonal.giaki.AR + "، ارْحَمْنَا.",
+    "Ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲕ ⲱ̀ Ⲡⲭ̅ⲥ̅: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ: " + variable.giaki.COP + " ⲛⲁⲓ ⲛⲁⲛ.",
+    "Nous T’adorons, O Christ avec Ton bon Père et Le Saint Esprit, " + variable.giaki.FR + ", Aie pitie de nous.",
+    "تين أوؤشت إمموك أو بي اخرستوس نيم بيكيوت إن آغاثوس نيم بي ابنيفما إثؤاوب " + variable.giaki.CA + " ناي نان.",
+    "نسجدُ لكَ أيُّهَا المَسِيحْ مَعَ أبيكَ الصَالِحْ والرُوحِ القُدسْ " + variable.giaki.AR + "، ارْحَمْنَا.",
   ],
 ],
 [
@@ -24735,10 +24760,10 @@ PrayersArrayFR = [[
 [
   [
     Prefix.massCommon + "BlessedYouAreWithYourFather&C=Diacon",
-    "Ⲕ̀ⲥ̀ⲙⲁⲣⲱⲟⲩⲧ ⲁ̀ⲗⲏⲑⲱⲥ: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ: " + seasonal.giaki.COP + " ⲛⲁⲓ ⲛⲁⲛ.",
-    "Bénis es-tu en vérité, avec ton Père très bon, et l’Esprit-Saint, " + seasonal.giaki.FR + ", Aie pitié de nous.",
-    "اك إكسمارؤوت آليثوس نيم بي اكيوت إن آغاثوس نيم بي ابنيفما اثؤواب " + seasonal.giaki.CA + " أكسوتي إمّون ناينان.",
-    "مُبَاركٌ أنتَ بِالحَقِيقَة مَعَ أبيكَ الصَالِحْ والْرُوحْ القُدُسْ  " + seasonal.giaki.AR + " ارْحَمْنَا.",
+    "Ⲕ̀ⲥ̀ⲙⲁⲣⲱⲟⲩⲧ ⲁ̀ⲗⲏⲑⲱⲥ: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ: " + variable.giaki.COP + " ⲛⲁⲓ ⲛⲁⲛ.",
+    "Bénis es-tu en vérité, avec ton Père très bon, et l’Esprit-Saint, " + variable.giaki.FR + ", Aie pitié de nous.",
+    "اك إكسمارؤوت آليثوس نيم بي اكيوت إن آغاثوس نيم بي ابنيفما اثؤواب " + variable.giaki.CA + " أكسوتي إمّون ناينان.",
+    "مُبَاركٌ أنتَ بِالحَقِيقَة مَعَ أبيكَ الصَالِحْ والْرُوحْ القُدُسْ  " + variable.giaki.AR + " ارْحَمْنَا.",
   ],
 ],
 [
@@ -29199,10 +29224,10 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.same + "&C=Assembly",
-    "Ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲕ ⲱ̀ Ⲡⲭ̅ⲥ̅: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̅ⲛ̅ⲁ̅ ⲉ̅ⲑ̅ⲩ̅: " + seasonal.giaki.COP + ".",
-    "Nous T'adorons ô Christ♫ avec Ton Père très bon♫ avec le Saint-Esprit♫ " + seasonal.giaki.FR + ".",
-    "تين أووشت إمموك أوبي إخرستوس♫ نيم بيك يوت إن أغاثوس♫ نيم بي إبنفما إثؤواب♫ " + seasonal.giaki.CA + ".",
-    "نَسْجُدْ لَكَ أيُّهَا المسيح♫ مَعَ أَبِيكَ الصَالِح♫ والْرُوحْ القُدُسْ♫ " + seasonal.giaki.AR + ".",
+    "Ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲕ ⲱ̀ Ⲡⲭ̅ⲥ̅: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̅ⲛ̅ⲁ̅ ⲉ̅ⲑ̅ⲩ̅: " + variable.giaki.COP + ".",
+    "Nous T'adorons ô Christ♫ avec Ton Père très bon♫ avec le Saint-Esprit♫ " + variable.giaki.FR + ".",
+    "تين أووشت إمموك أوبي إخرستوس♫ نيم بيك يوت إن أغاثوس♫ نيم بي إبنفما إثؤواب♫ " + variable.giaki.CA + ".",
+    "نَسْجُدْ لَكَ أيُّهَا المسيح♫ مَعَ أَبِيكَ الصَالِح♫ والْرُوحْ القُدُسْ♫ " + variable.giaki.AR + ".",
   ],
   [
     Prefix.placeHolder,
@@ -29214,7 +29239,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.commonPrayer + "AssemblyResponseAmeenItWillBe&D=$copticFeasts.AnyDay",
+    Prefix.commonPrayer + "AmeenItWillBe",
   ],
   [
     Prefix.placeHolder,
@@ -37653,7 +37678,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.same + "&C=NoActor",
-    "Ⲁⲕⲉⲣϩ̀ⲙⲟⲧ ⲛⲁⲛ<  ⲛ̀ⲕⲉⲥⲟⲡ : ⲛ̀ϯⲉ̀ⲗⲉⲩⲑⲉⲣⲓⲁ̀ : ϩⲱⲥ Ⲛⲟⲩϯ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ : " + seasonal.giaki.COP + ".",
+    "Ⲁⲕⲉⲣϩ̀ⲙⲟⲧ ⲛⲁⲛ<  ⲛ̀ⲕⲉⲥⲟⲡ : ⲛ̀ϯⲉ̀ⲗⲉⲩⲑⲉⲣⲓⲁ̀ : ϩⲱⲥ Ⲛⲟⲩϯ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ : " + variable.giaki.COP + ".",
     "Tu nous as libérés♫ Comme le Dieu bon♫ Car tu ressuscitas♫ Et tu nous sauvas.",
     "",
     "وأنعمت علينا مرة أخرى بالحرية كإله صالح لأنك قمت وخلصتنا.",
@@ -37723,7 +37748,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.same + "&C=NoActor",
-    "Ⲉⲑⲃⲉ ⲫⲁⲓ ⲧⲉⲛϯⲱ̀ⲟⲩ ⲛⲁϥ : ⲉⲛⲱϣ ̀ⲉ̀ⲃⲟⲗ ⲉⲛϫⲱ ⲙ̀ⲙⲟⲥ : ϫⲉ ⲕ̀ⲥ̀ⲙⲁⲣⲱⲟⲩⲧ ⲱ̀ Ⲡⲁ⳪ Ⲓⲏ̅ⲥ̅ : " + seasonal.giaki.COP + ".",
+    "Ⲉⲑⲃⲉ ⲫⲁⲓ ⲧⲉⲛϯⲱ̀ⲟⲩ ⲛⲁϥ : ⲉⲛⲱϣ ̀ⲉ̀ⲃⲟⲗ ⲉⲛϫⲱ ⲙ̀ⲙⲟⲥ : ϫⲉ ⲕ̀ⲥ̀ⲙⲁⲣⲱⲟⲩⲧ ⲱ̀ Ⲡⲁ⳪ Ⲓⲏ̅ⲥ̅ : " + variable.giaki.COP + ".",
     "C’est pourquoi nous le glorifions♫ En clamant et disant♫ Béni sois-tu Seigneur Jésus,♫ Car tu ressuscitas et nous sauvas.",
     "",
     "فلهذا نمجده صارخين قائلين مُبارك أنت يا ربي يسوع لأنك قمت وخلصتنا.",
@@ -39607,10 +39632,10 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.same + "&C=Diacon",
-    seasonal.giaki.COP + ".",
-    seasonal.giaki.FR + ".",
+    variable.giaki.COP + ".",
+    variable.giaki.FR + ".",
     "",
-    seasonal.giaki.AR + ".",
+    variable.giaki.AR + ".",
   ],
   [
     Prefix.same + "&C=Diacon",
@@ -40323,7 +40348,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.bookOfHours + "BeforeCommunion&D=$copticFeasts.AnyDay&C=Title",
+    Prefix.bookOfHours + "BeforeCommunion&C=Title",
     "",
     "Prière avant la communion",
     "",

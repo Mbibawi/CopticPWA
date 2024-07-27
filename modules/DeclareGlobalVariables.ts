@@ -1,7 +1,6 @@
 type typeBtnLabel = {
-  AR?: string;
-  FR?: string;
-  EN?: string;
+  DL?: string;//DL stands for "Default Language"
+  FL?: string;//FL stands for "Foreign"
 };
 
 type typeButton = {
@@ -144,7 +143,7 @@ class Button {
 }
 //CONSTANTS
 const version: string =
-  "v8.4 (Addition to btnLakan afterShowPrayers())";
+  "v8.5 (Addition to btnLakan afterShowPrayers())";
 const calendarDay: number = 24 * 60 * 60 * 1000; //this is a day in milliseconds
 const containerDiv: HTMLDivElement = document.getElementById(
   "containerDiv") as HTMLDivElement;
@@ -462,8 +461,38 @@ var foreingLanguage: string = (() => { if (userLanguages) return userLanguages[1
 
 var copticLanguage: string = (() => { if (userLanguages) return userLanguages[2] })() || undefined;;
 
-const seasonal = {
-  giaki: { AR: '', FR: '', EN: '', COP: '', CA: '' }
+const variable = {
+  giaki: {
+    AR: '', FR: '', EN: '', COP: '', CA: ''
+  },
+  thanksMorning: {
+    AR: 'وعَنْ مَوضعِكَ المُقدس هَذا، وعَنْ هَذِه الكَنِيسَةِ.',
+    FR: 'et de ce lieu saint qui est à Toi et de cette église.',
+    EN: '',
+    COP: 'ⲛⲉⲙ ⲉ̀ⲃⲟⲗϩⲁ ⲡⲁⲓ ⲙⲁ ⲉⲑⲟⲩⲁⲃ ⲛ̀ⲧⲁⲕ ⲫⲁⲓ : ⲛⲉⲙ ⲉ̀ⲃⲟⲗϩⲁ ⲧⲁⲓⲈⲕⲕ̀ⲗⲏⲥⲓⲁ̀ ⲫⲁⲓ.',
+    CA: 'نيم إيفول ها باي ما إثؤواب إنتاك فاي، نيم إفول ها تاي إي إكلَيسيا فاي.'
+  },
+  thanksVespers: {
+    AR: 'وعَنْ مَوضعِكَ المُقدس هَذا.',
+    FR: 'et de ce lieu saint qui est à Toi.',
+    EN: '',
+    COP: 'ⲛⲉⲙ ⲉ̀ⲃⲟⲗϩⲁ ⲡⲁⲓ ⲙⲁ ⲉⲑⲟⲩⲁⲃ ⲛ̀ⲧⲁⲕ ⲫⲁⲓ.',
+    CA: 'نيم إيفول ها باي ما إثؤواب إنتاك فاي.'
+  },
+  thanksLakan: {
+    AR: 'وعن هذه الفَسْقِيَّةِ، وعَنْ مَوضعِكَ المُقدس هَذا، وعَنْ هَذِه الكَنِيسَةِ.',
+    FR: 'et de ce bassin, et de ce lieu saint qui est à Toi et de cette église.',
+    EN: '',
+    COP: 'ⲛⲉⲙ ⲉ̀ⲃⲟⲗ ϩⲁ ⲧⲁⲓⲕⲟⲗⲩⲙⲃⲏⲑⲣⲁ ⲫⲁⲓ : ⲛⲉⲙ ⲉ̀ⲃⲟⲗϩⲁ ⲡⲁⲓ ⲙⲁ ⲉⲑⲟⲩⲁⲃ ⲛ̀ⲧⲁⲕ ⲫⲁⲓ : ⲛⲉⲙ ⲉ̀ⲃⲟⲗϩⲁ ⲧⲁⲓⲈⲕⲕ̀ⲗⲏⲥⲓⲁ̀ ⲫⲁⲓ.',
+    CA: 'نيم إيفول ها تاي كول إمبيثرا فاي، نيم إيفول ها باي ما إثؤواب إنتاك فاي، نيم إفول ها تاي إي إكلَيسيا فاي.'
+  },
+  thanksMass: {
+    AR: 'وعَنْ هَذِهِ المَائِدَةِ، وعَنْ مَوضعِكَ المُقدس هذا.',
+    FR: 'de cette table, et  de  ce lieu saint qui est à Toi.',
+    EN: '',
+    COP: 'Ⲛⲉⲙ ⲉ̀ⲃⲟⲗϩⲁ ⲧⲣⲁⲡⲉⲍⲁ ⲫⲁⲓ: ⲛⲉⲙ ⲉ̀ⲃⲟⲗϩⲁ ⲡⲁⲓ ⲙⲁ ⲉⲑⲟⲩⲁⲃ ⲛ̀ⲧⲁⲕ ⲫⲁⲓ.',
+    CA: 'نيم إيفول ها ترابيزا فاي، إيفول ها باي ما إثؤواب إنتاك فاي.'
+  },
 };
 
 
