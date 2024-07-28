@@ -1639,16 +1639,21 @@ const btnPsalmody = new Button({
       },
     ];
 
-    const todayPraise = { AR: 'تسبحة اليوم', FR: 'Louange du jour' };
+    const todayPraise = { 
+      AR: 'تسبحة اليوم',
+      FR: 'Louange du jour',
+      EN: 'Louange du jour',
+    };
     const otherDay = {
-      AR: ' تسبحة يوم',
+      AR: ' تسبحة يوم', 
       FR: 'Louange du ',
+      EN: 'Louange du ',
     }
     btnPsalmody.children = [
       createBtn(weekDay, getLabel(todayPraise)),
       ...[0, 1, 2, 3, 4, 5, 6]
         .filter(d => d !== weekDay)
-        .map(d => createBtn(d, getLabel(otherDay)))
+        .map(d => createBtn(d, getLabel({ AR: otherDay.AR + days[d].AR, FR: otherDay.FR + days[d].FR, EN: otherDay.EN + days[d].EN})))
     ];
 
     checkIfInASpecificSeason(todayDate);//We reset the Season to today
