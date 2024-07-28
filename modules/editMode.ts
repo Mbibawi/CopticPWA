@@ -174,7 +174,7 @@ function showTables(args: {
 
   args.tablesArray.forEach((table) => {
     if (!table) return;
-    titleBase = splitTitle(table[0][0])[0] || "NoTitle";
+    titleBase = splitTitle(Title(table))[0] || "NoTitle";
     prayersArray = getArrayFromPrefix(titleBase);
     PrayersArrays.includes(prayersArray)
       ? (arrayName = "PrayersArrayFR")
@@ -634,7 +634,7 @@ function modifyEditedArray(tableTitle: string, tablesArray: string[][][]) {
     function modifyTheMainAndSubArrays(targetTablesArray: string[][][]) {
       if (!targetTablesArray) return;
       let oldTable: string[][] = targetTablesArray.find(
-        (tbl) => splitTitle(tbl[0][0])[0] === splitTitle(editedTable[0][0])[0]
+        (tbl) => splitTitle(Title(tbl))[0] === splitTitle(Title(editedTable))[0]
       );
 
       if (oldTable)
@@ -1080,7 +1080,7 @@ function createHtmlElementForPrayerEditingMode(args: {
 
       let table = [
         ...tblsArray.find(
-          (tbl) => splitTitle(tbl[0][0])[0] === referrencedTblTitle
+          (tbl) => splitTitle(Title(tbl))[0] === referrencedTblTitle
         ),
       ] //!Caution, we must create a copy of the table otherwise the original table may be reversed in it its array
         .reverse();
@@ -1088,7 +1088,7 @@ function createHtmlElementForPrayerEditingMode(args: {
       let created = table.map((row) => {
         return createHtmlElementForPrayerEditingMode({
           tblRow: row,
-          titleBase: splitTitle(table[0][0])[0],
+          titleBase: splitTitle(Title(table))[0],
           languagesArray: copyLangs,
           position: {
             el: htmlRow,
@@ -1404,7 +1404,7 @@ async function convertCopticFont(args: {
   if (!args.fontFrom) return;
 
   if (args.tableTitle) {
-    let table: string[][] = getArrayFromPrefix(args.tableTitle).find(tbl => new RegExp(args.tableTitle).test(tbl[0][0]));
+    let table: string[][] = getArrayFromPrefix(args.tableTitle).find(tbl => new RegExp(args.tableTitle).test(Title(tbl)));
     if (!table) return alert('No table with the provided title was found. Be careful, the name of the table is assessed as a Regular Expression. You may need to escape some letters');
     let langs = getLanguages(args.tableTitle);
     if (!langs || !langs.includes('COP')) return;
@@ -1604,7 +1604,7 @@ function editNextOrPreviousTable(htmlParag: HTMLElement, next: boolean = true) {
   let array: string[][][] = eval(arrayName);
 
   let table = array.filter(
-    (tbl) => splitTitle(tbl[0][0])[0] === splitTitle(title)[0]
+    (tbl) => splitTitle(Title(tbl))[0] === splitTitle(title)[0]
   )[0];
 
   if (!table || table.length < 1)
@@ -1622,7 +1622,7 @@ function editNextOrPreviousTable(htmlParag: HTMLElement, next: boolean = true) {
 
   showTables({
     tablesArray: [table],
-    languages: getLanguages(table[0][0]),
+    languages: getLanguages(Title(table)),
     position: containerDiv,
     container: containerDiv,
   });
@@ -1633,7 +1633,7 @@ function reArangeTablesColumns(tblTitle: string, arrayName: string) {
   //@ts-ignore
   // if (!console.save) addConsoleSaveMethod(console);
   let array: string[][][] = eval(arrayName);
-  let table: string[][] = array.filter((tbl) => tbl[0][0] === tblTitle)[0];
+  let table: string[][] = array.filter((tbl) => Title(tbl) === tblTitle)[0];
   table.forEach((row) => {
     row[row.length - 1] = row[1];
     row[1] = "";
@@ -1657,7 +1657,7 @@ function editDayReadings(date?: string) {
 
   Object.entries(ReadingsArrays).forEach((readingArray) =>
     readingArray[1]
-      .filter((tbl) => tbl[0][0].includes(date)) //!This must be a filter not a find operation because the Gospel Psalm and the Gospel itself for a given day are in 2 separate tables
+      .filter((tbl) => Title(tbl).includes(date)) //!This must be a filter not a find operation because the Gospel Psalm and the Gospel itself for a given day are in 2 separate tables
       .forEach((tbl) => readings.push(tbl))
   );
   if (readings.length < 1) return;
@@ -1666,7 +1666,7 @@ function editDayReadings(date?: string) {
   let tblTitle: string;
   readings.forEach((tbl) => {
     if (!tbl) return;
-    tblTitle = splitTitle(tbl[0][0])[0];
+    tblTitle = splitTitle(Title(tbl))[0];
     startEditingMode({
       tableTitle: tblTitle,
       arrayName: PrayersArraysKeys.find((array) =>
@@ -1679,10 +1679,10 @@ function editDayReadings(date?: string) {
 
   Object.entries(ReadingsArrays)
     .forEach(readingArray => {
-      readingArray[1].filter((table) => table[0][0].includes(date))
+      readingArray[1].filter((table) => Title(table).includes(date))
         .forEach((table) => {
           startEditingMode({
-            tableTitle: splitTitle(table[0][0])[0],
+            tableTitle: splitTitle(Title(table))[0],
             arrayName: 'ReadingsArrays.' + readingArray[0],
             clear: false,
           });
@@ -2146,7 +2146,7 @@ async function _fetchSynaxariumFrench(months: string[]) {
     if (i < 10) day = "0" + day;
     console.log("day=", day, " and month =", month);
     table = ReadingsArrays.SynaxariumArrayFR.filter((tbl) =>
-      tbl[0][0].includes("&D=" + day + month)
+      Title(tbl).includes("&D=" + day + month)
     )[0];
     console.log("table = ", table);
     if (!table || !table[1]) return console.log("table is undefined", table);
@@ -2186,7 +2186,7 @@ async function _fetchSynaxariumArabic(month: number) {
     if (day < 10) daystring = "0" + daystring;
 
     tbl = ReadingsArrays.SynaxariumArrayFR.filter((tbl) =>
-      tbl[0][0].includes("&D=" + daystring + monthstring)
+      Title(tbl).includes("&D=" + daystring + monthstring)
     )[0];
 
     if (!tbl || tbl.length === 0) return;
@@ -10307,7 +10307,7 @@ function _removeDuplicates(array: string[][][]) {
     array.forEach((t) => {
       if (
         array.indexOf(t) !== array.indexOf(tbl) &&
-        t[0][0] === tbl[0][0] &&
+        Title(t) === Title(tbl) &&
         t.length === tbl.length
       ) {
         console.log("first table = ", tbl, " and duplicate = ", t);
@@ -10325,7 +10325,7 @@ function _findReadingArrayDuplicates(readingArray: string[][][]) {
   allRefs = readingArray
     .map(table => {
       if (table.length < 1) return;
-      title = table[0][0];
+      title = Title(table);
       references =
         table
           .filter(row => row.length === 1 && row[0].startsWith(Prefix.readingRef))
@@ -10394,7 +10394,7 @@ async function _testReadingsRefs(array: string[][][]) {
 
   for (let i = 1; i < 367; i++) {
     changeDate(undefined, true, undefined, false);
-    table = array.find(tbl => tbl[0][0].includes(copticReadingsDate));
+    table = array.find(tbl => Title(tbl).includes(copticReadingsDate));
 
     if (!table) {
       failed += '["copticReadingDate = ' + copticReadingsDate + '"],\n';
@@ -10403,7 +10403,7 @@ async function _testReadingsRefs(array: string[][][]) {
 
     reading = await retrieveReadingTableFromBible(table, ['AR', 'FR']);
     if (!reading || reading.map(row => row.join('')).join('\n').includes('Error:')) {
-      failed += '["' + table[0][0] + '"],\n'
+      failed += '["' + Title(table) + '"],\n'
     }
   }
   exportToJSFile(failed, 'FailedReadings')
@@ -10476,7 +10476,7 @@ function _testReadings() {
           readingDate = copticDate;
         let reading: string[][][] =
           getArrayFromPrefix(prefix[0])
-            .filter((tbl) => isMultiDatedTitleMatching(tbl[0][0], [readingDate]));//We do a filter not a find because Gospels arrays include 2 tables for each day: Psalm table and Gospel table
+            .filter((tbl) => isMultiDatedTitleMatching(Title(tbl), [readingDate]));//We do a filter not a find because Gospels arrays include 2 tables for each day: Psalm table and Gospel table
 
         if (reading.length < 1) {
           result += "\n\n\ncopticDate = " + copticDate + "\n";
@@ -10500,14 +10500,14 @@ function _mergeReferencesIntoOneRow(array: string[][][]) {
   let refs: string[][][], first: string[];
   for (let table of array) {
     for (let row of table) {
-      if (row[0].includes('&C=Title')) refs.push([]);
+      if (row[0].includes('&C=Title')) refs.push([]);//new Table
       if (row[0].startsWith(Prefix.readingRef))
         refs[refs.length - 1].push(row)
       else continue
     }
     for (let titleGroup of refs) {
-      if (titleGroup[0].includes('/')) continue;
-      first = [splitTitle(titleGroup[0])[0]];
+      if (Title(titleGroup).includes('/')) continue;
+      first = [splitTitle(Title(titleGroup))[0]];
       for (let i = 1; i < titleGroup.length; i++) {
         first[0] += "/" + splitTitle(titleGroup[i][0])[0].split(Prefix.readingRef)[1];
 
@@ -10521,8 +10521,8 @@ function _splitHWGospelIntoTable() {
   GN
     .forEach(table => {
       if (table.length < 1) return GN.splice(GN.indexOf(table), 1);
-      if (!table[0][0].startsWith(Prefix.HolyWeek)) return;
-      if (!table[0][0].includes('Gospel&D=')) return;
+      if (!Title(table).startsWith(Prefix.HolyWeek)) return;
+      if (!Title(table).includes('Gospel&D=')) return;
       if (table.map(row => row[0].includes('&C=Title')).length < 2) return;
       let titleRows = table.filter(row => row[0].includes('&C=Title'));
       titleRows = titleRows.filter(row => row[0].includes('Gospel&D=') || ['JHN', 'MAT', 'LUK', 'MRK'].map(prefix => row[0].includes(prefix + '&C=Title')).includes(true));
@@ -10531,13 +10531,13 @@ function _splitHWGospelIntoTable() {
         titleRows
           .map(row => table.slice(table.indexOf(row), getLastIndex(row)));
 
-      let titleBase: string = titleRows[0][0];
+      let titleBase: string = Title(titleRows);
       tables
         .forEach(tbl => {
           if (tables.indexOf(tbl) === 0) return;
           if (tbl.length < 1) return;
-          tbl[0][0] = titleBase.replace('Gospel', tbl[0][0].split("&C=")[0].split(Prefix.same)[1] + "Gospel");
-          tables[0].push([Prefix.placeHolder, splitTitle(tbl[0][0])[0]])
+          tbl[0][0] = titleBase.replace('Gospel', splitTitle(Title(tbl))[0].split(Prefix.same)[1] + "Gospel");
+          tables[0].push([Prefix.placeHolder, splitTitle(Title(tbl))[0]])
         });
 
       GN.splice(GN.indexOf(table), 1, ...tables);
@@ -10637,7 +10637,7 @@ function _fixReadingArray(array: string[][][]) {
 
   array.forEach(table => {
     if (table[0].length > 1)
-      table[0] = [table[0][0]];
+      table[0] = [Title(table)];
 
     let refs = table.filter(row => row[0].startsWith(Prefix.readingRef));
     refs.forEach(row => row[0] = row[0].replaceAll(' ', '').replaceAll(')', '').replaceAll('(', ''));
@@ -10659,27 +10659,27 @@ function _fixReadingArray(array: string[][][]) {
 
 function _MergeDuplicateReadings(array: string[][][]) {
 
-  return mergeReadings(array).filter(tbl => !tbl[0][0].startsWith('Removed'));
+  return mergeReadings(array).filter(tbl => !Title(tbl).startsWith('Removed'));
 
   function mergeReadings(array: string[][][]): string[][][] {
     let similar: string[][][], title: string, refs: string;
 
     array.forEach(table => {
-      if (table.length === 1 && table[0][0].startsWith('Removed')) return;
+      if (table.length === 1 && Title(table).startsWith('Removed')) return;
       refs = getTableRefs(table);
-      similar = array.filter(tbl => tbl[0][0] !== table[0][0] && getTableRefs(tbl) === refs);
+      similar = array.filter(tbl => Title(tbl) !== Title(table) && getTableRefs(tbl) === refs);
       if (similar.length < 1) return;
 
       console.log('similar = ', similar);
 
-      title = getReadingDate(table[0][0]);
-      title += similar.map(tbl => '||' + getReadingDate(tbl[0][0])).join('');
+      title = getReadingDate(Title(table));
+      title += similar.map(tbl => '||' + getReadingDate(Title(tbl))).join('');
 
-      table[0][0] = table[0][0].split('&D=')[0] + '&D=' + title + '&C=' + table[0][0].split('&C=')[1];
+      table[0][0] = Title(table).split('&D=')[0] + '&D=' + title + '&C=' + Title(table).split('&C=')[1];
 
 
 
-      similar.forEach(tbl => array[array.indexOf(tbl)] = [['Removed' + getReadingDate(tbl[0][0])]]);
+      similar.forEach(tbl => array[array.indexOf(tbl)] = [['Removed' + getReadingDate(Title(tbl))]]);
 
     });
     console.log('Cleaned Array = ', array);
@@ -10705,7 +10705,7 @@ function _MergeDuplicateReadings(array: string[][][]) {
 function _FixPropheciesRefs(): string[][][] {
   let splitted: string[];
   return ReadingsArrays.GospelNightArrayFR.map(table => {
-    if (!RegExp(Prefix.HolyWeek + '.*(HM|HE)Prophecies&D=GL').test(table[0][0]))
+    if (!RegExp(Prefix.HolyWeek + '.*(HM|HE)Prophecies&D=GL').test(Title(table)))
       return table
     table = table.map(row => {
       if (row.length !== 1 || !row[0].startsWith(Prefix.readingRef))

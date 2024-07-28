@@ -1398,7 +1398,7 @@ function showPrayers(args: {
     tables.forEach((table) => {
       if (!table) return;
       entireTable = unfoldPlaceHolders(table);
-      dataGroup = splitTitle(entireTable[0][0])[0];//This will not change and will serve to set the dataset.group property of all the div elements that will be created for the table
+      dataGroup = splitTitle(Title(entireTable))[0];//This will not change and will serve to set the dataset.group property of all the div elements that will be created for the table
       entireTable.forEach((row) => htmlDivs.push(processRow(row)));
     });
 
@@ -1912,23 +1912,23 @@ function findTable(
   let table: string[][];
   if (regExp)
     table = prayersArray.find(
-      (tbl) => tbl[0][0] && RegExp(tableTitle).test(splitTitle(tbl[0][0])[0])
+      (tbl) => Title(tbl) && RegExp(tableTitle).test(splitTitle(Title(tbl))[0])
     );
   else if (options.equal)
     table = prayersArray.find(
-      (tbl) => tbl[0][0] && splitTitle(tbl[0][0])[0] === tableTitle
+      (tbl) => Title(tbl) && splitTitle(Title(tbl))[0] === tableTitle
     );
   else if (options.startsWith)
     table = prayersArray.find(
-      (tbl) => splitTitle(tbl[0][0])[0]?.startsWith(tableTitle)
+      (tbl) => splitTitle(Title(tbl))[0]?.startsWith(tableTitle)
     );
   else if (options.endsWith)
     table = prayersArray.find(
-      (tbl) => splitTitle(tbl[0][0])[0]?.endsWith(tableTitle)
+      (tbl) => splitTitle(Title(tbl))[0]?.endsWith(tableTitle)
     );
   else if (options.includes)
     table = prayersArray.find(
-      (tbl) => splitTitle(tbl[0][0])[0]?.includes(tableTitle)
+      (tbl) => splitTitle(Title(tbl))[0]?.includes(tableTitle)
     );
 
   if (!table)
@@ -2095,11 +2095,11 @@ function showSettingsPanel(index?: number) {
     ];
 
 
-    let defaultLangContainer = createBtnsContainer("defaultLanguage", getLabel({AR: labels[0].AR, FR: labels[0].FR, EN: labels[0].EN }));
+    let defaultLangContainer = createBtnsContainer("defaultLanguage", getLabel({ AR: labels[0].AR, FR: labels[0].FR, EN: labels[0].EN }));
 
-    let foreignLangContainer = createBtnsContainer("foreignLanguage", getLabel({AR: labels[1].AR, FR: labels[1].FR, EN: labels[1].EN }));
+    let foreignLangContainer = createBtnsContainer("foreignLanguage", getLabel({ AR: labels[1].AR, FR: labels[1].FR, EN: labels[1].EN }));
 
-    let copticLangContainer = createBtnsContainer("copticLanguage", getLabel({AR: labels[2].AR, FR: labels[2].FR, EN: labels[2].EN }));
+    let copticLangContainer = createBtnsContainer("copticLanguage", getLabel({ AR: labels[2].AR, FR: labels[2].FR, EN: labels[2].EN }));
 
     addLangsBtns({
       btnsContainer: defaultLangContainer,
@@ -2212,7 +2212,7 @@ function showSettingsPanel(index?: number) {
       containerDiv.classList.add(hidden);
       let choices: string[][][] = [nonCopticLanguages, nonCopticLanguages, copticLanguages];
 
-      let container = createBtnsContainer("modalContainer", getLabel({AR: labels[index].AR, FR: labels[index].FR, EN: labels[index].EN} ), 'modalContainer');
+      let container = createBtnsContainer("modalContainer", getLabel({ AR: labels[index].AR, FR: labels[index].FR, EN: labels[index].EN }), 'modalContainer');
       addLabel(index);
       document.getElementById('content').prepend(container);
 
@@ -2519,7 +2519,7 @@ function showSettingsPanel(index?: number) {
  * Returns an object of type typeBtnLabel 
  * @param {{AR?:string, FR?:string, EN?:string}} label - The label text in different languages
  */
-function getLabel(label:{AR?:string, FR?:string, EN?:string}):typeBtnLabel {
+function getLabel(label: { AR?: string, FR?: string, EN?: string }): typeBtnLabel {
   return {
     DL: label[defaultLanguage],
     FL: label[foreingLanguage],
@@ -2577,7 +2577,7 @@ function insertPrayersAdjacentToExistingElement(args: {
       return showPrayers({
         table: table,
         position: args.position,
-        languages: args.languages || getLanguages(table[0][0]),
+        languages: args.languages || getLanguages(Title(table)),
         container: args.container,
         clearRightSideBar: false,
         clearContainerDiv: false,
@@ -2681,7 +2681,7 @@ function populatePrayersArrays() {
   PrayersArrayFR
     .forEach((table) => {
       if (table?.length < 1 || table[0]?.length < 1) return;
-      array = PrayersArraysKeys.find(a => table[0][0]?.startsWith(a[0]));
+      array = PrayersArraysKeys.find(a => Title(table)?.startsWith(a[0]));
       if (!array) return;
       array[2]().push(table);
     });
@@ -2691,12 +2691,21 @@ function populatePrayersArrays() {
  * Returns the string[] resulting from title.split('&C=')
  * @param {string} title - the string that we need to split
  */
-function splitTitle(title): string[] {
+function splitTitle(title: string): string[] {
   if (!title) return [];
   if (!title.includes("&C=")) return [title, ""];
   return title.split("&C=");
 }
 
+
+/**
+ * Returns the title of the table i.e., table[0][0]
+ * @param {string[][]} table - the Table for which we want to return the title 
+ * @returns {string}
+ */
+function Title(table: string[][]): string {
+  return table[0][0]
+}
 /**
  * Hides the current slide, and unhides the next or previous slide based on the value of 'next'
  * @param {boolean} next - If true, the next slide is displayed. If false, the previous one is displayed. Its default value is true.
