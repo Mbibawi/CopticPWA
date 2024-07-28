@@ -1294,7 +1294,7 @@ const btnPsalmody = new Button({
             EN: 'Louange du jour',
         };
         const otherDay = {
-            AR: ' تسبحة يوم',
+            AR: 'تسبحة يوم ',
             FR: 'Louange du ',
             EN: 'Louange du ',
         };
