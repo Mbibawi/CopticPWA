@@ -1757,7 +1757,6 @@ const btnIncenseMorning = new Button({
       prayersLanguages.forEach(lang => {
         parag = parags?.find(p => p.classList.contains(lang));
         if (!parag) return;
-        debugger
         if (btn === btnIncenseMorning)
           parag.innerHTML = parag.innerHTML.replace(variable.thanksVespers[lang], variable.thanksMorning[lang]);
         else if (btn === btnMassUnBaptised)
@@ -2024,15 +2023,10 @@ const btnIncenseMorning = new Button({
           const saints = cymbals.map(table => {
             const name = splitTitle(table[0][0])[0].split(Prefix.cymbalVerses)[1].replace('St', '');
             const newBtn = new Button({
-              btnID: 'saintsCymbals' + cymbals.indexOf(table).toString(),
-              /*  label: getLabel({
-                AR: table[0][prayersLanguages.indexOf('AR')],
-                FR: table[0][prayersLanguages.indexOf('FR')],
-                EN: table[0][prayersLanguages.indexOf('EN')],
-              }), */
+              btnID: 'btnCymbal' + (cymbals.indexOf(table)+1).toString(),
               label: getLabel({
-                AR: ' القديس ' + name,
-                FR: 'Saint ' + name,
+                AR: table[0][prayersLanguages.indexOf('AR') +1],
+                FR: table[0][prayersLanguages.indexOf('FR') +1],
               }),
               cssClass: inlineBtnClass,
               docFragment: new DocumentFragment(),
@@ -2048,37 +2042,40 @@ const btnIncenseMorning = new Button({
             });
             return newBtn
           });
-          const masterDiv = document.createElement('div');
-          masterDiv.id = 'masterDiv';
-          masterDiv.classList.add(inlineBtnsContainerClass);
-          anchor.insertAdjacentElement('beforebegin', masterDiv);
 
-          const masterCymbal = new Button({
-            btnID: 'btnCymbals',
-            label: getLabel( {
-              AR: 'أرباع القديسين',
-              FR: 'Autres saints',
-              EN: '',
-            }),
-            onClick: () => {
-              const id = masterCymbal.btnID + 'Btns';
-              let btnsDiv = containerDiv.querySelector('#' + id);
-              if (btnsDiv) return btnsDiv.classList.toggle(hidden);
+          (function createMasterBtn() {
+            const masterDiv = document.createElement('div');
+            masterDiv.id = 'masterCymbal';
+            masterDiv.classList.add(inlineBtnsContainerClass);
+            anchor.insertAdjacentElement('beforebegin', masterDiv);
+
+            const masterCymbal = new Button({
+              btnID: 'btnCymbals',
+              label: getLabel({
+                AR: 'أرباع القديسين',
+                FR: 'Autres saints',
+                EN: '',
+              }),
+              onClick: () => {
+                const id = 'cymbalsBtnsDiv';
+                let btnsDiv = containerDiv.querySelector('#' + id);
+                if (btnsDiv) return btnsDiv.classList.toggle(hidden);
+                btnsDiv = insertExpandableBtn(saints, anchor, 'afterend', 'cymbals');
+                btnsDiv.id = id;
+  
+              }
+            });
+
+            createHtmlBtn({
+              btn: masterCymbal,
+              btnsContainer: masterDiv,
+              btnClass: inlineBtnClass,
+              clear: false,
+              onClick: masterCymbal.onClick //!We need to set the onClick property otherwise it will be set to showChildBtnsOrPrayers(masterCymbal) which, at its turn, will call the setCSS() for the containerDiv (the container by default since masterCymbal does not have a docFragment) for the second time
+            });
             
-              btnsDiv = insertExpandableBtn(saints, masterDiv, 'afterend', 'cymbals');
-              btnsDiv.id = id;
-
-            }
-          })
-
-          createHtmlBtn({
-            btn: masterCymbal,
-            btnsContainer: masterDiv,
-            btnClass: inlineBtnClass,
-            clear: false,
-          });
-
-
+          })();
+    
 
         })();
 
@@ -5071,40 +5068,7 @@ function insertExpandableBtn(btns: Button[], anchor: HTMLDivElement | Element, b
     };
   }
 }
-/**
- *If we want that each of the "Expandable" buttons hides the prayers of the other Expandable buttons when clicked
- @param {HTMLDivElement[]} btns - the expandable buttons that we want that each of them when clicked, hides the other buttons prayers
- @param {HTMLDivElement} container - the container where the Expandable button's prayers are displayed
- */
-function toggleOtherExpandables(btns: (HTMLDivElement | HTMLElement | Element)[], toggleTitles: boolean = false, appendTitles: boolean = false, container: HTMLDivElement = containerDiv) {
-  if (btns.length < 2) return;
-  btns.forEach(btn => btn.addEventListener('click', () => onClick(btn as HTMLDivElement)));
 
-  function onClick(btn: HTMLDivElement) {
-    btns.forEach(b => {
-      if (b === btn) return;
-
-      let expandable = container.querySelector('#' + b.id + 'Expandable') as HTMLDivElement;
-
-      if (!expandable) return;
-
-      if (!expandable.classList.contains(hidden))
-        expandable.classList.add(hidden);
-
-      if (!toggleTitles) return;
-
-      if (expandable.classList.contains(hidden))
-        Array.from(sideBarTitlesContainer.children)
-          .filter((div: HTMLDivElement) => div?.dataset?.group === expandable?.id)
-          .forEach(div => div.remove());
-      else
-        showTitlesInRightSideBar(Array.from(expandable.children).filter((div: HTMLDivElement) => isTitlesContainer(div)).reverse() as HTMLDivElement[], sideBarTitlesContainer, false, expandable.id, appendTitles)
-          .then(titles => titles.forEach(title => title.classList.remove(hidden)));
-    })
-  }
-
-
-};
 /**
  * Returns the text of the specified chapter of the specified book of the specified version of the Bible
  * @param {[string, stirng[][]][][]} bible - the array containing all the books and chapters of the Bible in a given language

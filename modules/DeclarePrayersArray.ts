@@ -484,10 +484,7 @@ PrayersArrayFR = [[
     Prefix.placeHolder,
     Prefix.cymbalVerses + "StSteven",
   ],
-  [
-    Prefix.placeHolder,
-    Prefix.cymbalVerses + "TheFourMartyrs",
-  ],
+  [Prefix.anchor + "SaintsCymbals"],
   [
     Prefix.placeHolder,
     Prefix.cymbalVerses + "LordFeastsEnd",
@@ -618,10 +615,7 @@ PrayersArrayFR = [[
     Prefix.placeHolder,
     Prefix.cymbalVerses + "StSteven",
   ],
-  [
-    Prefix.placeHolder,
-    Prefix.cymbalVerses + "TheFourMartyrs",
-  ],
+  [Prefix.anchor + "SaintsCymbals"],
   [
     Prefix.placeHolder,
     Prefix.cymbalVerses + "PopeAndBishop",
@@ -668,10 +662,6 @@ PrayersArrayFR = [[
     Prefix.cymbalVerses + "StSteven",
   ],
   [Prefix.anchor + "SaintsCymbals"],
-  [
-    Prefix.placeHolder,
-    Prefix.cymbalVerses + "TheFourMartyrs",
-  ],
   [
     Prefix.placeHolder,
     Prefix.cymbalVerses + "PopeAndBishop",
@@ -753,7 +743,14 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.cymbalVerses + "StGeorge&C=Diacon",
+    Prefix.cymbalVerses + "StGeorge&C=Title",
+    "",
+    "Saint Georges",
+    "",
+    "مار جرجس",
+],
+  [
+    Prefix.same + "&C=Diacon",
     "Ⲭⲉⲣⲉ ⲛⲁⲕ ⲱ̀ ⲡⲓⲙⲁⲣⲧⲩⲣⲟⲥ: ⲭⲉⲣⲉ ⲡⲓϣⲱⲓϫ ⲛ̀ⲅⲉⲛⲛⲉⲟⲥ: ⲭⲉⲣⲉ ⲡⲓⲁⲑⲗⲟⲫⲟⲣⲟⲥ: ⲡⲁϭⲟⲓⲥ ⲡ̀ⲟⲩⲣⲟ Ⲅⲉⲱ̀ⲣⲅⲓⲟⲥ.",
     "Salut à toi ô martyr♫ salut au héros courageux♫ salut au persévérant♫ mon seigneur le roi Georges.",
     "شيري ناك أوبي مارتيروس♫ شيري بيشويج إن جينيؤوس♫ شيري بي آثلوفوروس؛ باشويس ابؤورو جاؤرجيوس.",
@@ -762,7 +759,14 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.cymbalVerses + "StTheodor&C=Diacon",
+    Prefix.cymbalVerses + "StTheodore&C=Title",
+    "",
+    "Saint Théodore",
+    "",
+    "ثيؤدوروس الإسفهسلار",
+],
+  [
+    Prefix.same + "&C=Diacon",
     "Ⲭⲉⲣⲉ ⲛⲁⲕ ⲱ̀ ⲡⲓⲙⲁⲣⲧⲩⲣⲟⲥ: ⲭⲉⲣⲉ ⲡⲓϣⲱⲓϫ ⲛ̀ⲅⲉⲛⲛⲉⲟⲥ: ⲭⲉⲣⲉ ⲡⲓⲁⲑⲗⲟⲫⲟⲣⲟⲥ: Ⲑⲉⲟ̀ⲇⲱⲣⲟⲥ ⲡⲓⲥ̀ⲧⲣⲁⲧⲓⲗⲁⲧⲏⲥ.",
     "Salut à toi ô martyr♫ salut au héros courageux♫ salut au persévérant♫ Théodore le stratège.",
     "شيري ناك أوبي مارتيروس♫ شيري بيشويج إن جينيؤوس♫ شيري بي آثلوفوروس؛ ثيؤدوروس بي استراتيلاتيس.",
@@ -771,7 +775,14 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.cymbalVerses + "StMarcorious&C=Diacon",
+    Prefix.cymbalVerses + "StMarcorious&C=Title",
+    "",
+    "Saint Philopatir",
+    "",
+    "فيلوباتير مرقوريوس",
+],
+  [
+    Prefix.same + "&C=Diacon",
     "Ⲭⲉⲣⲉ ⲛⲁⲕ ⲱ̀ ⲡⲓⲙⲁⲣⲧⲩⲣⲟⲥ: ⲭⲉⲣⲉ ⲡⲓϣⲱⲓϫ ⲛ̀ⲅⲉⲛⲛⲉⲟⲥ: ⲭⲉⲣⲉ ⲡⲓⲁⲑⲗⲟⲫⲟⲣⲟⲥ: ⲫⲓⲗⲟⲡⲁⲧⲏⲣ Ⲙⲉⲣⲕⲟⲩⲣⲓⲟⲥ.",
     "Salut à toi ô martyr♫ salut au héros courageux♫ salut au persévérant, Philopatir Mercorios.",
     "شيري ناك أوبي مارتيروس♫ شيري بيشويج إن جينيؤوس♫ شيري بي آثلوفوروس؛ فيلوباتير مارقوريوس.",
@@ -780,7 +791,14 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.cymbalVerses + "TheFourMartyrs&C=Diacon",
+    Prefix.cymbalVerses + "StsFourMartyrs&C=Title",
+    "",
+    "Sts. George, Theodore, Philopatir et Mina",
+    "",
+    "مار جرجس، ثيؤدوروس،  فيلوباتير، ومينا",
+],
+  [
+    Prefix.same + "&C=Diacon",
   "Ⲭⲉⲣⲉ ⲛⲱⲧⲉⲛ ⲱ̀ ⲛⲓⲙⲁⲣⲧⲩⲣⲟⲥ : ⲭⲉⲣⲉ ⲛⲓϣⲱⲓϫ ⲛ̀ⲅⲉⲛⲛⲉⲟⲥ : ⲭⲉⲣⲉ ⲛⲓⲁⲑⲗⲟⲫⲟⲣⲟⲥ : ⲡⲁϭⲟⲓⲥ ⲡ̀ⲟⲩⲣⲟ Ⲅⲉⲱⲣⲅⲓⲟⲥ : Ⲑⲉⲟ̀ⲇⲱⲣⲟⲥ ⲡⲓⲥⲧⲣⲁⲧⲓⲗⲁⲧⲏⲥ : ⲫⲓⲗⲟⲡⲁⲧⲏⲣ Ⲙⲉⲣⲕⲟⲩⲣⲓⲟⲥ : ⲡⲓⲁ̀ⲅⲓⲟⲥ Ⲁ̀ⲡⲁ Ⲙⲏⲛⲁ.",
   "Salut à vous ô martyrs,♫ salut aux courageux héros,♫ salut aux persévérants,♫ Mon seigneur le roi Georges,♫ Théodore le stratège♫, Philopatir Mercorios,♫ le saint Abba Mina.",
   "شيري نوتين أو ني مارتيروس♫ شيري نيشويج إن جينيئوس♫ شيري ني آثلوفوروس♫ باشويس إبؤورو جيؤرجيوس،♫ ثيؤدوروس بيستراتيلاتيس،♫ فيلوباتير مارقوريوس،♫ بي آجيوس آبا مينا.",
@@ -789,7 +807,14 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.cymbalVerses + "StMina&C=Diacon",
+    Prefix.cymbalVerses + "StMina&C=Title",
+    "",
+    "Saint Mina",
+    "",
+    "مار مينا",
+],
+  [
+    Prefix.same + "&C=Diacon",
     "Ⲭⲉⲣⲉ ⲛⲁⲕ ⲱ̀ ⲡⲓⲙⲁⲣⲧⲩⲣⲟⲥ: ⲭⲉⲣⲉ ⲡⲓϣⲱⲓϫ ⲛ̀ⲅⲉⲛⲛⲉⲟⲥ: ⲭⲉⲣⲉ ⲡⲓⲁⲑⲗⲟⲫⲟⲣⲟⲥ: ⲡⲓⲁ̀ⲅⲓⲟⲥ ⲁⲃⲃⲁ Ⲙⲏⲛⲁ.",
     "Salut à toi ô martyr♫ salut au héros courageux♫ salut au persévérant♫ abba Mina.",
     "شيري ناك أوبي مارتيروس♫ شيري بيشويج إن جينيؤوس♫ شيري بي آثلوفوروس؛ بي آجيوس آبا مينا.",
@@ -15203,10 +15228,7 @@ PrayersArrayFR = [[
     Prefix.placeHolder,
     Prefix.cymbalVerses + "StSteven",
   ],
-  [
-    Prefix.placeHolder,
-    Prefix.cymbalVerses + "TheFourMartyrs",
-  ],
+  [Prefix.anchor + "SaintsCymbals"],
 ],
 [
   [
