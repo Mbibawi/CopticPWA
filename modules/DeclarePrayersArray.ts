@@ -5594,11 +5594,11 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.massCommon + "WeWorshipYouChrist&C=Diacon",
-    "Ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲕ ⲱ̀ Ⲡⲭ̅ⲥ̅: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ: " + variable.giaki.COP + " ⲛⲁⲓ ⲛⲁⲛ.",
-    "Nous T’adorons, Ô Christ, avec Ton bon Père, et L’Esprit-Saint, " + variable.giaki.FR + ", Aie pitié de nous.",
-    "تين أوشت إمموك أو بيخرستوس، نيم بيك يوت إن آغاثوس، نيم بي ابنيفما اثؤواب، جي " + variable.giaki.CA + " ناي نان.",
-    "نسجدُ لكَ أيُّهَا المَسِيحْ مَعَ أبيكَ الصَالِحْ والْرُوحْ القُدُسْ " + variable.giaki.AR + "، إرحمنا.",
+    Prefix.massCommon + "WeWorshipYouChrist&C=Assembly",
+    "Ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲕ ⲱ̀ Ⲡⲭ̅ⲥ̅: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ: " + variable.giaki.COP + ".",
+    "Nous T’adorons ô Christ, avec Ton Père très Bon et Le Saint Esprit, " + variable.giaki.FR + ".",
+    "تين أؤوش إمموك إو بيخريستوس، نيم بيكيوت إن آغاثوس، نيم بي ابنيفما، إثؤوابن " + variable.giaki.CA + ".",
+    "نسجدُ لَكَ أيُّهَا المَسِيحْ مَعَ أبِيكَ الصَالِحْ والْرُوحْ القُدُسْ " + variable.giaki.AR + ".",
   ],
 ],
 [
@@ -8291,12 +8291,14 @@ PrayersArrayFR = [[
     "هيتن ني ابريسفا انتي تي ثيؤطوكوس اثؤواب ماريا، ابتشويس آري إهموت نان إمبيكو إيفول إنتي ني نوفي.",
     "بِشَفَاعَاتْ والِدَةِ الإلَهِ القِدِّيسَةْ مَرِيَمْ يا رَبُّ انْعِمْ لَنَا بِمَغْفِرَةْ خَطَايَانا.",
   ],
+  [Prefix.placeHolder, 
+    Prefix.massCommon + "WeWorshipYouChrist"],
   [
     Prefix.same + "&C=Assembly",
-    "Ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲕ ⲱ̀ Ⲡⲭ̅ⲥ̅: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ: " + variable.giaki.COP + ". Ⲉⲗⲉⲟⲥ ⲉⲓ̀Ϯⲣⲏⲛⲏⲥ ⲑⲩⲥⲓⲁ ⲉ̀ⲛⲉⲥⲉⲱⲥ.",
-    "Nous T’adorons ô Christ, avec Ton Père très Bon et Le Saint Esprit, " + variable.giaki.FR + ". Miséricorde de paix, sacrifice de louange.",
-    "تين أؤوش إمموك إو بيخريستوس، نيم بيكيوت إن آغاثوس، نيم بي ابنيفما، إثؤوابن " + variable.giaki.CA + "، إليؤوس، إرينيس ثؤياس إنيسيؤس.",
-    "نسجدُ لَكَ أيُّهَا المَسِيحْ مَعَ أبِيكَ الصَالِحْ والْرُوحْ القُدُسْ " + variable.giaki.AR + ". رحمة السَّلامُ ذبيحة التسبيح.",
+    "Ⲉⲗⲉⲟⲥ ⲉⲓ̀Ϯⲣⲏⲛⲏⲥ ⲑⲩⲥⲓⲁ ⲉ̀ⲛⲉⲥⲉⲱⲥ.",
+    "Miséricorde de paix, sacrifice de louange.",
+    "إليؤوس، إرينيس ثؤياس إنيسيؤس.",
+    "رحمة السَّلامُ ذبيحة التسبيح.",
   ],
 ],
 [
@@ -20227,11 +20229,8 @@ PrayersArrayFR = [[
     "والمَجْدُ للهِ دَائِمَاً",
   ],
   [
-    Prefix.same + "&C=Priest",
-    "Ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲕ ⲱ̀ Ⲡⲭ̅ⲥ̅: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ: " + variable.giaki.COP + " ⲛⲁⲓ ⲛⲁⲛ.",
-    "Nous T’adorons, O Christ avec Ton bon Père et Le Saint Esprit, " + variable.giaki.FR + ", Aie pitie de nous.",
-    "تين أوؤشت إمموك أو بي اخرستوس نيم بيكيوت إن آغاثوس نيم بي ابنيفما إثؤاوب " + variable.giaki.CA + " ناي نان.",
-    "نسجدُ لكَ أيُّهَا المَسِيحْ مَعَ أبيكَ الصَالِحْ والرُوحِ القُدسْ " + variable.giaki.AR + "، ارْحَمْنَا.",
+    Prefix.placeHolder, 
+    Prefix.massCommon + "WeWorshipYouChrist"
   ],
 ],
 [
@@ -23164,7 +23163,7 @@ PrayersArrayFR = [[
     "",
     "l’Évangile de la fermeture du Voile (Saint Jean 6: 15-23)",
     "",
-    "إنجيل صلاةالِستَار (يوحنا 6: 15ـ23)",
+    "إنجيل صلاة الِستَار (يوحنا 6: 15ـ23)",
   ],
   [
     Prefix.same + "&C=NoActor",
@@ -23306,11 +23305,8 @@ PrayersArrayFR = [[
     "أعطنا يا رَبُّ يَقَظَة لِكَيّ نَفْهَمْ أنْ نقف أمامك وقت الصلاة ونُرسِل لكَ إلى فُوق التَمّْجِيدِ اللائق ونفوز بغفران خَطَايَانَا الكثيرة. ",
   ],
   [
-    Prefix.same + "&C=Assembly",
-    "Ⲇⲟⲭⲁ ⲥⲓ Ⲫⲓⲗⲁⲛⲑ̀ⲣⲱⲡⲉ.",
-    "Gloire à Toi, Ami du genre humain.",
-    "ذوكساسي فيلانثروبي.",
-    "المَجْدُ لَكَ يا مُحِبِ البَشَرِ.",
+    Prefix.placeHolder,
+    Prefix.bookOfHours + "ZoksasiFilan"
   ],
   [
     Prefix.same + "&C=Assembly",
@@ -23334,11 +23330,8 @@ PrayersArrayFR = [[
     "يُبَارِكَكْ الرَب مِن صِهيون الذي خلق السَّمَاء والأرض.",
   ],
   [
-    Prefix.same + "&C=Assembly",
-    "Ⲇⲟⲭⲁ ⲥⲓ Ⲫⲓⲗⲁⲛⲑ̀ⲣⲱⲡⲉ.",
-    "Gloire à Toi, Ami du genre humain.",
-    "ذوكساسي فيلانثروبي.",
-    "المَجْدُ لَكَ يا مُحِبِ البَشَرِ.",
+    Prefix.placeHolder,
+    Prefix.bookOfHours + "ZoksasiFilan"
   ],
   [
     Prefix.same + "&C=Assembly",
@@ -23390,11 +23383,8 @@ PrayersArrayFR = [[
     "المَجْدُ لَك يا مُحِبْ البَشَر الصَالِحْ المَجْدُ لأُمك العَذْراءْ وجَمِيعِ قديسيك.",
   ],
   [
-    Prefix.same + "&C=Assembly",
-    "Ⲇⲟⲭⲁ ⲥⲓ ⲁ̀ⲅⲓⲁ Ⲧ̀ⲣⲓⲁⲥ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ ⲏ̀ⲙⲁⲥ.",
-    "Gloire à toi ô Toi l'Unique Sainte Trinité, pitié.",
-    "ذوكساسي أجيا إترياس ألَيسون إيماس.",
-    "المَجْدُ لَكَ أيُّها الثَالُوثْ القُدُّوسْ ارْحَمْنَا.",
+    Prefix.placeHolder,
+    Prefix.bookOfHours + "ZoksasiFilan"
   ],
   [
     Prefix.same + "&C=Assembly",
@@ -40210,154 +40200,238 @@ PrayersArrayFR = [[
     "المَزْمُورْ المَائة والثَامِنْ عَشْرْ\n(طُوبَاهُمْ الذينَ بِلا عِيْبْ)",
   ],
   [
-    Prefix.same + "&C=Assembly",
+    Prefix.same + "&C=NoActor",
     "",
     "1119 Heureux ceux qui sont intègres dans leur voie, Qui marchent selon la loi de l'Éternel! 2 Heureux ceux qui gardent ses préceptes, Qui le cherchent de tout leur coeur, 3 Qui ne commettent point d'iniquité, Et qui marchent dans ses voies! 4 Tu as prescrit tes ordonnances, Pour qu'on les observe avec soin. 5 Puissent mes actions être bien réglées, Afin que je garde tes statuts! 6 Alors je ne rougirai point, A la vue de tous tes commandements. 7 Je te louerai dans la droiture de mon coeur, En apprenant les lois de ta justice. 8 Je veux garder tes statuts: Ne m'abandonne pas entièrement!",
     "",
-    "1ـ طوباهم الَّذِينَ بِلا عِيْبْ في الطريق، السَالِكُونْ في نَامُوسْ الرَبّ. طُوباهُمْ الَّذِينَ يَفْحَصْونْ عَنْ شِهادَاتُه، ومن قلوبهم يطلبونه، لِأَنَّ صانعي الإثم لم يهووا أن يسلكوا في سبله. أَنْت أمرت أن تحفظ وصاياك جدا، فيا ليت طرقي تستقيم إلى حَفِظَ حقوقك. حِينَئِذٍ لا أخزى إذا ما اطلعت عَلَى جميع وصاياك. أشكرك يا رَبُّ باستقامة قلبي، إذْ عرفت أحكام عدلك. حقوقك أحفظ، فلا ترفضني إلى الغاية. ذُكْصاسْي فِلا نيثرومبي",
+    "1ـ طوباهم الَّذِينَ بِلا عِيْبْ في الطريق، السَالِكُونْ في نَامُوسْ الرَبّ. طُوباهُمْ الَّذِينَ يَفْحَصْونْ عَنْ شِهادَاتُه، ومن قلوبهم يطلبونه، لِأَنَّ صانعي الإثم لم يهووا أن يسلكوا في سبله. أَنْت أمرت أن تحفظ وصاياك جدا، فيا ليت طرقي تستقيم إلى حَفِظَ حقوقك. حِينَئِذٍ لا أخزى إذا ما اطلعت عَلَى جميع وصاياك. أشكرك يا رَبُّ باستقامة قلبي، إذْ عرفت أحكام عدلك. حقوقك أحفظ، فلا ترفضني إلى الغاية.",
   ],
   [
-    Prefix.same + "&C=Assembly",
+    Prefix.placeHolder,
+    Prefix.bookOfHours + "ZoksasiFilan"
+  ],
+  [
+    Prefix.same + "&C=NoActor",
     "",
     "9 Comment le jeune homme rendra-t-il pur son sentier? En se dirigeant d'après ta parole. 10 Je te cherche de tout mon coeur: Ne me laisse pas égarer loin de tes commandements! 11 Je serre ta parole dans mon coeur, Afin de ne pas pécher contre toi. 12 Béni sois-tu, ô Éternel! Enseigne-moi tes statuts! 13 De mes lèvres j'énumère Toutes les sentences de ta bouche. 14 Je me réjouis en suivant tes préceptes, Comme si je possédais tous les trésors. 15 Je médite tes ordonnances, J'ai tes sentiers sous les yeux. 16 Je fais mes délices de tes statuts, Je n'oublie point ta parole.",
     "",
-    "2ـ بماذا يقوم الشاب طريقه؟ بحفظه أقوالك. من كُلِّ قلبي طلبتك، فلا تبعدني عَنْ وصاياك أخفيت أقوالَكَ في قلبي لِكَيّ لا أخطئ إليك. مبارك أَنْت يا رَبُّ علمني حقوقك. بشفتي أظهرت كُلِّ أحكام فمك، وفرحت بطريق شهاداتك كَمَا بكُلِّ غنى. بوصاياك أتكلم وأتفهم في طرقك، بفرائضك ألهج، ولا أنسى كلامك. ذُكْصاسْي فِلا نيثرومبي",
+    "2ـ بماذا يقوم الشاب طريقه؟ بحفظه أقوالك. من كُلِّ قلبي طلبتك، فلا تبعدني عَنْ وصاياك أخفيت أقوالَكَ في قلبي لِكَيّ لا أخطئ إليك. مبارك أَنْت يا رَبُّ علمني حقوقك. بشفتي أظهرت كُلِّ أحكام فمك، وفرحت بطريق شهاداتك كَمَا بكُلِّ غنى. بوصاياك أتكلم وأتفهم في طرقك، بفرائضك ألهج، ولا أنسى كلامك.",
   ],
   [
-    Prefix.same + "&C=Assembly",
+    Prefix.placeHolder,
+    Prefix.bookOfHours + "ZoksasiFilan"
+  ],
+  [
+    Prefix.same + "&C=NoActor",
     "",
     "17 Fais du bien à ton serviteur, pour que je vive Et que j'observe ta parole! 18 Ouvre mes yeux, pour que je contemple Les merveilles de ta loi! 19 Je suis un étranger sur la terre: Ne me cache pas tes commandements! 20 Mon âme est brisée par le désir Qui toujours la porte vers tes lois. 21 Tu menaces les orgueilleux, ces maudits, Qui s'égarent loin de tes commandements. 22 Décharge-moi de l'opprobre et du mépris! Car j'observe tes préceptes. 23 Des princes ont beau s'asseoir et parler contre moi, Ton serviteur médite tes statuts. 24 Tes préceptes font mes délices, Ce sont mes conseillers.",
     "",
-    "3ـ كافئ عبدك فأحيا وأحفظ أقوالك. اكشف عَنْ عيني فـأرى عجائب من ناموسك. غريب أنَا في الأرض فلا تخفِ عنى وصاياك. اشتاقت نفسي إلى اشتهاء أحكامك في كُلِّ حين. إنَّكَ انتهرت المتكبرين الملاعين الَّذِينَ حادوا عَنْ وصاياك. انزع عنى العار والخزي فإني لشهاداتك ابتغيتُ. جلس الرؤساء وتقاولوا على، أَمَّا عبدك فكان يهتمُ بحقوقك، لِأَنَّ شهاداتك هي درسي وحقوقك هي مشورتي ذُكْصاسْي فِلا نيثرومبي.",
+    "3ـ كافئ عبدك فأحيا وأحفظ أقوالك. اكشف عَنْ عيني فـأرى عجائب من ناموسك. غريب أنَا في الأرض فلا تخفِ عنى وصاياك. اشتاقت نفسي إلى اشتهاء أحكامك في كُلِّ حين. إنَّكَ انتهرت المتكبرين الملاعين الَّذِينَ حادوا عَنْ وصاياك. انزع عنى العار والخزي فإني لشهاداتك ابتغيتُ. جلس الرؤساء وتقاولوا على، أَمَّا عبدك فكان يهتمُ بحقوقك، لِأَنَّ شهاداتك هي درسي وحقوقك هي مشورتي .",
   ],
   [
-    Prefix.same + "&C=Assembly",
+    Prefix.placeHolder,
+    Prefix.bookOfHours + "ZoksasiFilan"
+  ],
+  [
+    Prefix.same + "&C=NoActor",
     "",
     "25 Mon âme est attachée à la poussière: Rends-moi la vie selon ta parole! 26 Je raconte mes voies, et tu m'exauces: Enseigne-moi tes statuts! 27 Fais-moi comprendre la voie de tes ordonnances, Et je méditerai sur tes merveilles! 28 Mon âme pleure de chagrin: Relève-moi selon ta parole! 29 Éloigne de moi la voie du mensonge, Et accorde-moi la grâce de suivre ta loi! 30 Je choisis la voie de la vérité, Je place tes lois sous mes yeux. 31 Je m'attache à tes préceptes: Éternel, ne me rends point confus! 32 Je cours dans la voie de tes commandements, Car tu élargis mon coeur.",
     "",
-    "4ـ لصقت بالتراب نفسي فأحيني ككلمتك. أخبرت بطرقك فاستجب لي. علمني حقوقك، وطريق عدلَكَ فهمني، فألهج في عجائبك. ذبلت نفسي من الحزن، فثبتني في أقوالك. طريق الظلم أبعد عنى وبناموسك ارحمني. إنِّي اخترت طريق الحق وأحكامك لم أنس. لصقتُ بشهاداتك يا رَبُّ فلا تخزني. في طريق وصاياك سعيتُ عندما وسعتَ قلبي ذُكْصاسْي فِلا نيثرومبي.",
+    "4ـ لصقت بالتراب نفسي فأحيني ككلمتك. أخبرت بطرقك فاستجب لي. علمني حقوقك، وطريق عدلَكَ فهمني، فألهج في عجائبك. ذبلت نفسي من الحزن، فثبتني في أقوالك. طريق الظلم أبعد عنى وبناموسك ارحمني. إنِّي اخترت طريق الحق وأحكامك لم أنس. لصقتُ بشهاداتك يا رَبُّ فلا تخزني. في طريق وصاياك سعيتُ عندما وسعتَ قلبي .",
   ],
   [
-    Prefix.same + "&C=Assembly",
+    Prefix.placeHolder,
+    Prefix.bookOfHours + "ZoksasiFilan"
+  ],
+  [
+    Prefix.same + "&C=NoActor",
     "",
     "33 Enseigne-moi, Éternel, la voie de tes statuts, pour que je la retienne jusqu'à la fin! 34 Donne-moi l'intelligence, pour que je garde ta loi Et que je l'observe de tout mon coeur! 35 Conduis-moi dans le sentier de tes commandements! Car je l'aime. 36 Incline mon coeur vers tes préceptes, Et non vers le gain! 37 Détourne mes yeux de la vue des choses vaines, Fais-moi vivre dans ta voie! 38 Accomplis envers ton serviteur ta promesse, Qui est pour ceux qui te craignent! 39 Éloigne de moi l'opprobre que je redoute! Car tes jugements sont pleins de bonté. 40 Voici, je désire pratiquer tes ordonnances: Fais-moi vivre dans ta justice!",
     "",
-    "5ـ ضع لي يا رَبُّ ناموسا في طريق حقوقك فأتبعَه كُلِّ حين. فهمني فأبحث عَنْ ناموسك واحْفَظْهُ بكُلِّ قلبي. اهدني في سبيل وصاياك فإني إياها هويت. أمل قلبي إلى شهاداتك لا إلى الظلم. اردد عيني لِئَلَّا تعاينا الأباطيل، وفي سبلَكَ أحيني. ثبت قولَكَ لعبدك في خوفك، وانزع عنى العار الذي حَذِرْتُ منه، فَإنَّ أحكامك حلوة. هاأنذا قَدْ اشتهيتُ وصاياك، فأحيني ببرك ذُكْصاسْي فِلا نيثرومبي.",
+    "5ـ ضع لي يا رَبُّ ناموسا في طريق حقوقك فأتبعَه كُلِّ حين. فهمني فأبحث عَنْ ناموسك واحْفَظْهُ بكُلِّ قلبي. اهدني في سبيل وصاياك فإني إياها هويت. أمل قلبي إلى شهاداتك لا إلى الظلم. اردد عيني لِئَلَّا تعاينا الأباطيل، وفي سبلَكَ أحيني. ثبت قولَكَ لعبدك في خوفك، وانزع عنى العار الذي حَذِرْتُ منه، فَإنَّ أحكامك حلوة. هاأنذا قَدْ اشتهيتُ وصاياك، فأحيني ببرك.",
   ],
   [
-    Prefix.same + "&C=Assembly",
+    Prefix.placeHolder,
+    Prefix.bookOfHours + "ZoksasiFilan"
+  ],
+  [
+    Prefix.same + "&C=NoActor",
     "",
     "41 Éternel, que ta miséricorde vienne sur moi, Ton salut selon ta promesse! 42 Et je pourrai répondre à celui qui m'outrage, Car je me confie en ta parole. 43 N'ôte pas entièrement de ma bouche la parole de la vérité! Car j'espère en tes jugements. 44 Je garderai ta loi constamment, A toujours et à perpétuité. 45 Je marcherai au large, Car je recherche tes ordonnances. 46 Je parlerai de tes préceptes devant les rois, Et je ne rougirai point. 47 Je fais mes délices de tes commandements. Je les aime. 48 Je lève mes mains vers tes commandements que j'aime, Et je veux méditer tes statuts.",
     "",
-    "6ـ  لتأت عليّ رحمتك يا رَبُّ وخلاصك كقولك. فأجيب معيري بكلمة. لأني اتكلت عَلَى أقوالك، لا تنزع من فمي قول الحق، لأني توكلت عَلَى أحكامك، واحفظ شريعتك في كُلِّ حين، إلى الأَبَدْ وإلى مدى الدهر. كنتُ أسلَكَ في السعة لأني لوصاياك ابتغيتُ. وتكلمت بشهاداتك قدام الملوك ولم أخزَ. ولهجتُ بوصاياك التي أحببتُها جدا، ورفعت يدي إلى وصاياك التي وددتُها جدا. وتأملتُ فرائضك. ذُكْصاسْي فِلا نيثرومبي.",
+    "6ـ  لتأت عليّ رحمتك يا رَبُّ وخلاصك كقولك. فأجيب معيري بكلمة. لأني اتكلت عَلَى أقوالك، لا تنزع من فمي قول الحق، لأني توكلت عَلَى أحكامك، واحفظ شريعتك في كُلِّ حين، إلى الأَبَدْ وإلى مدى الدهر. كنتُ أسلَكَ في السعة لأني لوصاياك ابتغيتُ. وتكلمت بشهاداتك قدام الملوك ولم أخزَ. ولهجتُ بوصاياك التي أحببتُها جدا، ورفعت يدي إلى وصاياك التي وددتُها جدا. وتأملتُ فرائضك.",
   ],
   [
-    Prefix.same + "&C=Assembly",
+    Prefix.placeHolder,
+    Prefix.bookOfHours + "ZoksasiFilan"
+  ],
+  [
+    Prefix.same + "&C=NoActor",
     "",
     "49 Souviens-toi de ta promesse à ton serviteur, Puisque tu m'as donné l'espérance! 50 C'est ma consolation dans ma misère, Car ta promesse me rend la vie. 51 Des orgueilleux me chargent de railleries; Je ne m'écarte point de ta loi. 52 Je pense à tes jugements d'autrefois, ô Éternel! Et je me console. 53 Une colère ardente me saisit à la vue des méchants Qui abandonnent ta loi. 54 Tes statuts sont le sujet de mes cantiques, Dans la maison où je suis étranger. 55 La nuit je me rappelle ton nom, ô Éternel! Et je garde ta loi.",
     "",
-    "7ـ اذكر لعبدك كلامك الذي جعلتني عَلَيْهِ أتكل. هَذَا الذي عزاني في مذلتي. لِأَنَّ قولَكَ أحياني. إنَّ المتكبرين تجاوزوا الناموس إلى الغاية، أَمَّا أنَا فعن ناموسك لم أمِل. تذكرتُ أحكامك يا رَبُّ مُنْذُ الدهر فتعزيتُ. الكآبة ملكتني مِنْ أَجْلِ الخطاة الَّذِينَ تركوا ناموسك. حقوقك كانت لي مزاميرَ في موضع غربتي. ذكرتُ في اللَّيْلِ اسْمُكَ يا رب، وحفظت شريعتك. هَذَا صَارَ لي لأني طلبت حقوقك. ذُكْصاسْي فِلا نيثرومبي.",
+    "7ـ اذكر لعبدك كلامك الذي جعلتني عَلَيْهِ أتكل. هَذَا الذي عزاني في مذلتي. لِأَنَّ قولَكَ أحياني. إنَّ المتكبرين تجاوزوا الناموس إلى الغاية، أَمَّا أنَا فعن ناموسك لم أمِل. تذكرتُ أحكامك يا رَبُّ مُنْذُ الدهر فتعزيتُ. الكآبة ملكتني مِنْ أَجْلِ الخطاة الَّذِينَ تركوا ناموسك. حقوقك كانت لي مزاميرَ في موضع غربتي. ذكرتُ في اللَّيْلِ اسْمُكَ يا رب، وحفظت شريعتك. هَذَا صَارَ لي لأني طلبت حقوقك.",
   ],
   [
-    Prefix.same + "&C=Assembly",
+    Prefix.placeHolder,
+    Prefix.bookOfHours + "ZoksasiFilan"
+  ],
+  [
+    Prefix.same + "&C=NoActor",
     "",
     "56 C'est là ce qui m'est propre, Car j'observe tes ordonnances. 57 Ma part, ô Éternel! je le dis, C'est de garder tes paroles. 58 Je t'implore de tout mon coeur: Aie pitié de moi, selon ta promesse! 59 Je réfléchis à mes voies, Et je dirige mes pieds vers tes préceptes. 60 Je me hâte, je ne diffère point D'observer tes commandements. 61 Les pièges des méchants m'environnent; Je n'oublie point ta loi. 62 Au milieu de la nuit je me lève pour te louer, A cause des jugements de ta justice. 63 Je suis l'ami de tous ceux qui te craignent, Et de ceux qui gardent tes ordonnances. 64 La terre, ô Éternel! est pleine de ta bonté; Enseigne-moi tes statuts!",
     "",
-    "8ـ نصيبي أَنْت يا رَبُّ فقلت أن أحفظ وصاياك. ترضيت وجهك بكُلِّ قلبي، فارحمني كقولك. لأني تفكرت في طرقك ورددت قدمي إلى شهاداتك. تهيأت ولم أتوانَ لحفظ وصاياك. رباطات الخطاة التفت على، أَمَّا شريعتك فلم أنسَها. في نصف اللَّيْلِ نهضت لأشكرك عَلَى أحكام عدلك. شريك أنَا لكُلِّ الَّذِينَ يخافونك، وللحافظين وصاياك. من رحمتك يا رَبُّ امتلأت الأرضُ فعلمني عدلَكَ ذُكْصاسْي فِلا نيثرومبي.",
+    "8ـ نصيبي أَنْت يا رَبُّ فقلت أن أحفظ وصاياك. ترضيت وجهك بكُلِّ قلبي، فارحمني كقولك. لأني تفكرت في طرقك ورددت قدمي إلى شهاداتك. تهيأت ولم أتوانَ لحفظ وصاياك. رباطات الخطاة التفت على، أَمَّا شريعتك فلم أنسَها. في نصف اللَّيْلِ نهضت لأشكرك عَلَى أحكام عدلك. شريك أنَا لكُلِّ الَّذِينَ يخافونك، وللحافظين وصاياك. من رحمتك يا رَبُّ امتلأت الأرضُ فعلمني عدلَكَ.",
   ],
   [
-    Prefix.same + "&C=Assembly",
+    Prefix.placeHolder,
+    Prefix.bookOfHours + "ZoksasiFilan"
+  ],
+  [
+    Prefix.same + "&C=NoActor",
     "",
     "65 Tu fais du bien à ton serviteur, O Éternel! selon ta promesse. 66 Enseigne-moi le bon sens et l'intelligence! Car je crois à tes commandements. 67 Avant d'avoir été humilié, je m'égarais; Maintenant j'observe ta parole. 68 Tu es bon et bienfaisant; Enseigne-moi tes statuts! 69 Des orgueilleux imaginent contre moi des faussetés; Moi, je garde de tout mon coeur tes ordonnances. 70 Leur coeur est insensible comme la graisse; Moi, je fais mes délices de ta loi. 71 Il m'est bon d'être humilié, Afin que j'apprenne tes statuts. 72 Mieux vaut pour moi la loi de ta bouche Que mille objets d'or et d'argent.",
     "",
-    "9ـ خيرا صنعتَ مَعَ عبدك يا رَبُّ حسب قولك، صلاحا وأدبا ومعرفة، علمني فإني قَدْ صدقت وصاياك. قبَلْ أن أتواضع أنَا تكاسلتُ. فلهَذَا حفظتُ كلامك. صالح أَنْت يا رَبُّ فبصلاحك علمني حقوقك. كثر عليّ ظلم المتكبرين، وأَنَا بكُلِّ قلبي أبحث عَنْ وصاياك. تجبن مثل اللبن قلبهم، وأَنَا لهجت بناموسك. خير لي أنك أذللتني حتى أتعلمَ حقوقك. ناموس فمك خير لي من ألوف ذهب وفضة ذُكْصاسْي فِلا نيثرومبي.",
+    "9ـ خيرا صنعتَ مَعَ عبدك يا رَبُّ حسب قولك، صلاحا وأدبا ومعرفة، علمني فإني قَدْ صدقت وصاياك. قبَلْ أن أتواضع أنَا تكاسلتُ. فلهَذَا حفظتُ كلامك. صالح أَنْت يا رَبُّ فبصلاحك علمني حقوقك. كثر عليّ ظلم المتكبرين، وأَنَا بكُلِّ قلبي أبحث عَنْ وصاياك. تجبن مثل اللبن قلبهم، وأَنَا لهجت بناموسك. خير لي أنك أذللتني حتى أتعلمَ حقوقك. ناموس فمك خير لي من ألوف ذهب وفضة.",
   ],
   [
-    Prefix.same + "&C=Assembly",
+    Prefix.placeHolder,
+    Prefix.bookOfHours + "ZoksasiFilan"
+  ],
+  [
+    Prefix.same + "&C=NoActor",
     "",
     "73 Tes mains m'ont créé, elles m'ont formé; Donne-moi l'intelligence, pour que j'apprenne tes commandements! 74 Ceux qui te craignent me voient et se réjouissent, Car j'espère en tes promesses. 75 Je sais, ô Éternel! que tes jugements sont justes; C'est par fidélité que tu m'as humilié. 76 Que ta bonté soit ma consolation, Comme tu l'as promis à ton serviteur! 77 Que tes compassions viennent sur moi, pour que je vive! Car ta loi fait mes délices. 78 Qu'ils soient confondus, les orgueilleux qui m'oppriment sans cause! Moi, je médite sur tes ordonnances. 79 Qu'ils reviennent à moi, ceux qui te craignent, Et ceux qui connaissent tes préceptes! 80 Que mon coeur soit sincère dans tes statuts, Afin que je ne sois pas couvert de honte!",
     "",
-    "10ـ يداك صنعتاني وجبلتاني. فهمني فأتعلم وصاياك. الَّذِينَ يخافونك يبصرونني ويفرحون، لأني بكلامك وثقت. قَدْ علمتُ يا رَبُّ أن أحكامك عادلة وبحق أذللتني. فلتأتِ عليّ رحمتك لتعزيني، نظير قولَكَ لعبدك. لتأتني رأفتك فأحيا فَإنَّ ناموسك هُوَ درسي. وليخز المتكبرون لأنهم خالفوا الشرع عليّ ظلما، وأَنَا كنت مثابرا عَلَى وصاياك. وليرجع إليّ الَّذِينَ يتقونك ويعرفون عجائبك، وليصر قلبي بلا عيب في عدلَكَ لِكَيّ لا أخزي ذُكْصاسْي فِلا نيثرومبي.",
+    "10ـ يداك صنعتاني وجبلتاني. فهمني فأتعلم وصاياك. الَّذِينَ يخافونك يبصرونني ويفرحون، لأني بكلامك وثقت. قَدْ علمتُ يا رَبُّ أن أحكامك عادلة وبحق أذللتني. فلتأتِ عليّ رحمتك لتعزيني، نظير قولَكَ لعبدك. لتأتني رأفتك فأحيا فَإنَّ ناموسك هُوَ درسي. وليخز المتكبرون لأنهم خالفوا الشرع عليّ ظلما، وأَنَا كنت مثابرا عَلَى وصاياك. وليرجع إليّ الَّذِينَ يتقونك ويعرفون عجائبك، وليصر قلبي بلا عيب في عدلَكَ لِكَيّ لا أخزي.",
   ],
   [
-    Prefix.same + "&C=Assembly",
+    Prefix.placeHolder,
+    Prefix.bookOfHours + "ZoksasiFilan"
+  ],
+  [
+    Prefix.same + "&C=NoActor",
     "",
     "81 Mon âme languit après ton salut; J'espère en ta promesse. 82 Mes yeux languissent après ta promesse; Je dis: Quand me consoleras-tu? 83 Car je suis comme une outre dans la fumée; Je n'oublie point tes statuts. 84 Quel est le nombre des jours de ton serviteur? Quand feras-tu justice de ceux qui me persécutent? 85 Des orgueilleux creusent des fosses devant moi; Ils n'agissent point selon ta loi. 86 Tous tes commandements ne sont que fidélité; Ils me persécutent sans cause: secours-moi! 87 Ils ont failli me terrasser et m'anéantir; Et moi, je n'abandonne point tes ordonnances. 88 Rends-moi la vie selon ta bonté, Afin que j'observe les préceptes de ta bouche!",
     "",
-    "11ـ تاقت نفسي إلى خلاصك وعلى كلامك توكلت. كلت عيناي من انتظار أقوالَكَ قائلتين: متى تعزيني ؟. صرتُ مثل زق في جليد ولحقوقك لم أنس. كم هي أيام عبدك ؟ متى تجري لي حكما عَلَى الَّذِينَ يضطهدونني؟ تكلم معي مخالفو الناموس بكلام هذيان، لَكِنَّ لَيْسَ كناموسك يا رب، لِأَنَّ كُلِّ وصاياك هي حق. وبظلم قَدْ طردوني فأعني؟ كادوا يفنونني عَلَى الأرض، أَمَّا أنَا فلم أترك وصاياك. حسب رحمتك أحيني فأحفظ شهادات فمك ذُكْصاسْي فِلا نيثرومبي.",
+    "11ـ تاقت نفسي إلى خلاصك وعلى كلامك توكلت. كلت عيناي من انتظار أقوالَكَ قائلتين: متى تعزيني ؟. صرتُ مثل زق في جليد ولحقوقك لم أنس. كم هي أيام عبدك ؟ متى تجري لي حكما عَلَى الَّذِينَ يضطهدونني؟ تكلم معي مخالفو الناموس بكلام هذيان، لَكِنَّ لَيْسَ كناموسك يا رب، لِأَنَّ كُلِّ وصاياك هي حق. وبظلم قَدْ طردوني فأعني؟ كادوا يفنونني عَلَى الأرض، أَمَّا أنَا فلم أترك وصاياك. حسب رحمتك أحيني فأحفظ شهادات فمك.",
   ],
   [
-    Prefix.same + "&C=Assembly",
+    Prefix.placeHolder,
+    Prefix.bookOfHours + "ZoksasiFilan"
+  ],
+  [
+    Prefix.same + "&C=NoActor",
     "",
     "89 A toujours, ô Éternel! Ta parole subsiste dans les cieux. 90 De génération en génération ta fidélité subsiste; Tu as fondé la terre, et elle demeure ferme. 91 C'est d'après tes lois que tout subsiste aujourd'hui, Car toutes choses te sont assujetties. 92 Si ta loi n'eût fait mes délices, J'eusse alors péri dans ma misère. 93 Je n'oublierai jamais tes ordonnances, Car c'est par elles que tu me rends la vie. 94 Je suis à toi: sauve-moi! Car je recherche tes ordonnances. 95 Des méchants m'attendent pour me faire périr; Je suis attentif à tes préceptes. 96 Je vois des bornes à tout ce qui est parfait: Tes commandements n'ont point de limite.",
     "",
-    "12ـ يا رَبُّ كلمتك دائمة في السَّمَواتِ إلى الأَبَدْ، وإلى جيل فجيل حقك. أسست الأرض فهي ثابتة بأمرك، والنهار أًيّْضَاً ثابت. لِأَنَّ كُلِّ الأشياء متعبدة لك. لو لم تكن شريعتك تلاوتي لهلكتُ حِينَئِذٍ في مذلتي. وإلى الدهر لا أنسى وصاياك لِأنَّكَ بها أحييتني يا رب. لَكَ أنَا فخلصني يا رب، لأني لوصاياك طلبتُ. إياي انتظر الخطاة ليهلكوني، ولشهاداتك فهمت. لكُلِّ تمام رأيت منتهى أَمَّا وصاياك فواسعة جدا ذُكْصاسْي فِلا نيثرومبي.",
+    "12ـ يا رَبُّ كلمتك دائمة في السَّمَواتِ إلى الأَبَدْ، وإلى جيل فجيل حقك. أسست الأرض فهي ثابتة بأمرك، والنهار أًيّْضَاً ثابت. لِأَنَّ كُلِّ الأشياء متعبدة لك. لو لم تكن شريعتك تلاوتي لهلكتُ حِينَئِذٍ في مذلتي. وإلى الدهر لا أنسى وصاياك لِأنَّكَ بها أحييتني يا رب. لَكَ أنَا فخلصني يا رب، لأني لوصاياك طلبتُ. إياي انتظر الخطاة ليهلكوني، ولشهاداتك فهمت. لكُلِّ تمام رأيت منتهى أَمَّا وصاياك فواسعة جدا.",
   ],
   [
-    Prefix.same + "&C=Assembly",
+    Prefix.placeHolder,
+    Prefix.bookOfHours + "ZoksasiFilan"
+  ],
+  [
+    Prefix.same + "&C=NoActor",
     "",
     "97 Combien j'aime ta loi! Elle est tout le jour l'objet de ma méditation. 98 Tes commandements me rendent plus sage que mes ennemis, Car je les ai toujours avec moi. 99 Je suis plus instruit que tous mes maîtres, Car tes préceptes sont l'objet de ma méditation. 100 J'ai plus d'intelligence que les vieillards, Car j'observe tes ordonnances. 101 Je retiens mon pied loin de tout mauvais chemin, Afin de garder ta parole. 102 Je ne m'écarte pas de tes lois, Car c'est toi qui m'enseignes. 103 Que tes paroles sont douces à mon palais, Plus que le miel à ma bouche! 104 Par tes ordonnances je deviens intelligent, Aussi je hais toute voie de mensonge.",
     "",
-    "13ـ محبوب هُوَ اسْمُكَ يا رب، فهو طولَ النهار تلاوتي. علمتني وصاياك أفضل من أعدائي، لأنها ثابتة لي إلى الأَبَدْ. أكثر من جميع الَّذِينَ يعلمونني فهمتُ، لِأَنَّ شهادتك هي درسي. أكثر من الشيوخ فهمتُ، لأني طلبتُ وصاياك. من كُلِّ طريق خَبيثْ منعتُ رجليّ لِكَيّ أحفظ كلامك. عَنْ كلامك لم أحد، لِأنَّكَ وضعتَ لي ناموسا. إنَّ كلماتك حلوة في حلقي، أفضل من العسل والشهد في فمي. من وصاياك تفطنتُ، فلهَذَا أبغضت كُلِّ طرق الظلم. (لأنك وضعتَ لي ناموسًا) ذُكْصاسْي فِلا نيثرومبي.",
+    "13ـ محبوب هُوَ اسْمُكَ يا رب، فهو طولَ النهار تلاوتي. علمتني وصاياك أفضل من أعدائي، لأنها ثابتة لي إلى الأَبَدْ. أكثر من جميع الَّذِينَ يعلمونني فهمتُ، لِأَنَّ شهادتك هي درسي. أكثر من الشيوخ فهمتُ، لأني طلبتُ وصاياك. من كُلِّ طريق خَبيثْ منعتُ رجليّ لِكَيّ أحفظ كلامك. عَنْ كلامك لم أحد، لِأنَّكَ وضعتَ لي ناموسا. إنَّ كلماتك حلوة في حلقي، أفضل من العسل والشهد في فمي. من وصاياك تفطنتُ، فلهَذَا أبغضت كُلِّ طرق الظلم. لأنك وضعتَ لي ناموسًا.",
   ],
   [
-    Prefix.same + "&C=Assembly",
+    Prefix.placeHolder,
+    Prefix.bookOfHours + "ZoksasiFilan"
+  ],
+  [
+    Prefix.same + "&C=NoActor",
     "",
     "105 Ta parole est une lampe à mes pieds, Et une lumière sur mon sentier. 106 Je jure, et je le tiendrai, D'observer les lois de ta justice. 107 Je suis bien humilié: Éternel, rends-moi la vie selon ta parole! 108 Agrée, ô Éternel! les sentiments que ma bouche exprime, Et enseigne-moi tes lois! 109 Ma vie est continuellement exposée, Et je n'oublie point ta loi. 110 Des méchants me tendent des pièges, Et je ne m'égare pas loin de tes ordonnances. 111 Tes préceptes sont pour toujours mon héritage, Car ils sont la joie de mon cœur. 112 J'incline mon cœur à pratiquer tes statuts, Toujours, jusqu'à la fin.",
     "",
-    "14ـ مصباح لرجلي كلامك ونور لسبلي. حلفت فأقمت عَلَى حَفِظَ أحكام عدلك. تذللت جدا إلى الغاية يا رب، أحيني كقولك. تعهدات فمي باركها يا رب، وأحكامك علمني. نفسي في يديك كُلِّ حين، وناموسك لم أنسَ، أخفى الخطاة لي فخا، ولم أضل عَنْ وصاياك. ورثت شهاداتك إلى الأَبَدْ، لأنها بهجة قلبي. عطفت قلبي لأصنع برك إلى الأَبَدْ (مِنْ أَجْلِ المكافأة) (ذُكْصاسْي فِلا نيثرومبي.",
+    "14ـ مصباح لرجلي كلامك ونور لسبلي. حلفت فأقمت عَلَى حَفِظَ أحكام عدلك. تذللت جدا إلى الغاية يا رب، أحيني كقولك. تعهدات فمي باركها يا رب، وأحكامك علمني. نفسي في يديك كُلِّ حين، وناموسك لم أنسَ، أخفى الخطاة لي فخا، ولم أضل عَنْ وصاياك. ورثت شهاداتك إلى الأَبَدْ، لأنها بهجة قلبي. عطفت قلبي لأصنع برك إلى الأَبَدْ مِنْ أَجْلِ المكافأة.",
   ],
   [
-    Prefix.same + "&C=Assembly",
+    Prefix.placeHolder,
+    Prefix.bookOfHours + "ZoksasiFilan"
+  ],
+  [
+    Prefix.same + "&C=NoActor",
     "",
     "113 Je hais les hommes indécis, Et j'aime ta loi. 114 Tu es mon asile et mon bouclier; J'espère en ta promesse. 115 Éloignez-vous de moi, méchants, Afin que j'observe les commandements de mon Dieu! 116 Soutiens-moi selon ta promesse, afin que je vive, Et ne me rends point confus dans mon espérance! 117 Sois mon appui, pour que je sois sauvé, Et que je m'occupe sans cesse de tes statuts! 118 Tu méprises tous ceux qui s'écartent de tes statuts, Car leur tromperie est sans effet. 119 Tu enlèves comme de l'écume tous les méchants de la terre; C'est pourquoi j'aime tes préceptes. 120 Ma chair frissonne de l'effroi que tu m'inspires, Et je crains tes jugements.",
     "",
-    "15ـ لمتجاوزي الناموس أبغضتُ ولناموسك أحببت. لِأنَّكَ أَنْت معيني وناصري. وعلى كلامك توكلت. ابعدوا عني أَيُّهَا الأَشْرَارِ فأفحص عَنْ وصايا إلهي. عضدني حسب قولَكَ فأحيا ولا تخيب رجائي. أعني فأخلص، وأدرس في وصاياك كُلِّ حين. رذلتَ سائر الَّذِينَ حادوا عَنْ وصاياك لِأَنَّ فكرهم ظلم. عصاة حسبتَ سائر خطاة الأرض، فلهَذَا أحببتُ شهاداتك في كُلِّ حين. سمر خوفك في لحمي لأني من أحكامك جزعتُ ذُكْصاسْي فِلا نيثرومبي.",
+    "15ـ لمتجاوزي الناموس أبغضتُ ولناموسك أحببت. لِأنَّكَ أَنْت معيني وناصري. وعلى كلامك توكلت. ابعدوا عني أَيُّهَا الأَشْرَارِ فأفحص عَنْ وصايا إلهي. عضدني حسب قولَكَ فأحيا ولا تخيب رجائي. أعني فأخلص، وأدرس في وصاياك كُلِّ حين. رذلتَ سائر الَّذِينَ حادوا عَنْ وصاياك لِأَنَّ فكرهم ظلم. عصاة حسبتَ سائر خطاة الأرض، فلهَذَا أحببتُ شهاداتك في كُلِّ حين. سمر خوفك في لحمي لأني من أحكامك جزعتُ.",
   ],
   [
-    Prefix.same + "&C=Assembly",
+    Prefix.placeHolder,
+    Prefix.bookOfHours + "ZoksasiFilan"
+  ],
+  [
+    Prefix.same + "&C=NoActor",
     "",
     "121 J'observe la loi et la justice: Ne m'abandonne pas à mes oppresseurs! 122 Prends sous ta garantie le bien de ton serviteur, Ne me laisse pas opprimer par des orgueilleux! 123 Mes yeux languissent après ton salut, Et après la promesse de ta justice. 124 Agis envers ton serviteur selon ta bonté, Et enseigne-moi tes statuts! 125 Je suis ton serviteur: donne-moi l'intelligence, Pour que je connaisse tes préceptes! 126 Il est temps que l'Éternel agisse: Ils transgressent ta loi. 127 C'est pourquoi j'aime tes commandements, Plus que l'or et que l'or fin; 128 C'est pourquoi je trouve justes toutes tes ordonnances, Je hais toute voie de mensonge.",
     "",
-    "16ـ قَدْ أجريتُ حكما وعدلا فلا تسلمني إلى الَّذِينَ يظلمونني. كن لعبدك كفيلا في الخير، لِئَلَّا يجوزَ عليّ المتكبرون. عيناي قَدْ ذبلتا من انتظار خلاصك وقول عدلك. اصنع مَعَ عبدك حسب رحمتك، وحقوقك علمني. عبدك أنا، فهمني فأعرف شهاداتك. إنه وقتٌ يعمل فيه للرب، لأنهم قَدْ نقضوا ناموسك. لِأَجْلِ هَذَا أحببتُ وصاياك أفضل من الذهب والجوهر، ولأجل هَذَا بازاء كُلِّ وصاياك تقومتُ، وكُلِّ طريق ظلم أبغضتُ ذُكْصاسْي فِلا نيثرومبي.",
+    "16ـ قَدْ أجريتُ حكما وعدلا فلا تسلمني إلى الَّذِينَ يظلمونني. كن لعبدك كفيلا في الخير، لِئَلَّا يجوزَ عليّ المتكبرون. عيناي قَدْ ذبلتا من انتظار خلاصك وقول عدلك. اصنع مَعَ عبدك حسب رحمتك، وحقوقك علمني. عبدك أنا، فهمني فأعرف شهاداتك. إنه وقتٌ يعمل فيه للرب، لأنهم قَدْ نقضوا ناموسك. لِأَجْلِ هَذَا أحببتُ وصاياك أفضل من الذهب والجوهر، ولأجل هَذَا بازاء كُلِّ وصاياك تقومتُ، وكُلِّ طريق ظلم أبغضتُ.",
   ],
   [
-    Prefix.same + "&C=Assembly",
+    Prefix.placeHolder,
+    Prefix.bookOfHours + "ZoksasiFilan"
+  ],
+  [
+    Prefix.same + "&C=NoActor",
     "",
     "129 Tes préceptes sont admirables: Aussi mon âme les observe. 130 La révélation de tes paroles éclaire, Elle donne de l'intelligence aux simples. 131 J'ouvre la bouche et je soupire, Car je suis avide de tes commandements. 132 Tourne vers moi ta face, et aie pitié de moi, Selon ta coutume à l'égard de ceux qui aiment ton nom! 133 Affermis mes pas dans ta parole, Et ne laisse aucune iniquité dominer sur moi! 134 Délivre-moi de l'oppression des hommes, Afin que je garde tes ordonnances! 135 Fais luire ta face sur ton serviteur, Et enseigne-moi tes statuts! 136 Mes yeux répandent des torrents d'eaux, Parce qu'on n'observe point ta loi.",
     "",
-    "17ـ عجيبة هي شهاداتك لذَلِكَ حفظتها نفسي. إعلان أقوالَكَ ينير لي، ويفهم الأطفال والصغار. فتحت فهمي واجتذبتُ لي روحا، لأني لوصاياك اشتقتُ. انظر إليّ وارحمني كرحمتك للذين يحبون اسمك. قوم خطواتي كقولَكَ فلا يتسلط عَلَى أيُّ إثم. أنقذني من ظلم الناس فأحفظ وصاياك. أضئ بوجهك عَلَى عبدك وعلمني حقوقك. غاصت عيناي في مجاري المياه، لأنهم لم يحفظوا ناموسك. ذُكْصاسْي فِلا نيثرومبي.",
+    "17ـ عجيبة هي شهاداتك لذَلِكَ حفظتها نفسي. إعلان أقوالَكَ ينير لي، ويفهم الأطفال والصغار. فتحت فهمي واجتذبتُ لي روحا، لأني لوصاياك اشتقتُ. انظر إليّ وارحمني كرحمتك للذين يحبون اسمك. قوم خطواتي كقولَكَ فلا يتسلط عَلَى أيُّ إثم. أنقذني من ظلم الناس فأحفظ وصاياك. أضئ بوجهك عَلَى عبدك وعلمني حقوقك. غاصت عيناي في مجاري المياه، لأنهم لم يحفظوا ناموسك.",
   ],
   [
-    Prefix.same + "&C=Assembly",
+    Prefix.placeHolder,
+    Prefix.bookOfHours + "ZoksasiFilan"
+  ],
+  [
+    Prefix.same + "&C=NoActor",
     "",
     "137 Tu es juste, ô Éternel! Et tes jugements sont équitables; 138 Tu fondes tes préceptes sur la justice Et sur la plus grande fidélité. 139 Mon zèle me consume, Parce que mes adversaires oublient tes paroles. 140 Ta parole est entièrement éprouvée, Et ton serviteur l'aime. 141 Je suis petit et méprisé; Je n'oublie point tes ordonnances. 142 Ta justice est une justice éternelle, Et ta loi est la vérité. 143 La détresse et l'angoisse m'atteignent: Tes commandements font mes délices. 144 Tes préceptes sont éternellement justes: Donne-moi l'intelligence, pour que je vive!",
     "",
-    "18ـ عادل أَنْت يا رَبُّ وقضاؤك مستقيم. أوصيتَ كثيرا بالعدل والحق اللذين هما شهاداتك. غيرة بيتك أكلتني، لِأَنَّ أعدائي نسوا وصاياك. ممحص قولَكَ جدا، وعبدك أحبه. صغيرٌ أنَا ومرذول وحقوقك لم أنسَ. عدلَكَ حق هُوَ إلى الأَبَدْ، وكلامك حق هو. ضيق وشدة أدركاني، ووصاياك هي درسي. عادلة هي شهاداتك إلى الأَبَدْ. فهمني فأحيا ذُكْصاسْي فِلا نيثرومبي.",
+    "18ـ عادل أَنْت يا رَبُّ وقضاؤك مستقيم. أوصيتَ كثيرا بالعدل والحق اللذين هما شهاداتك. غيرة بيتك أكلتني، لِأَنَّ أعدائي نسوا وصاياك. ممحص قولَكَ جدا، وعبدك أحبه. صغيرٌ أنَا ومرذول وحقوقك لم أنسَ. عدلَكَ حق هُوَ إلى الأَبَدْ، وكلامك حق هو. ضيق وشدة أدركاني، ووصاياك هي درسي. عادلة هي شهاداتك إلى الأَبَدْ.",
   ],
   [
-    Prefix.same + "&C=Assembly",
+    Prefix.placeHolder,
+    Prefix.bookOfHours + "ZoksasiFilan"
+  ],
+  [
+    Prefix.same + "&C=NoActor",
     "",
     "145 Je t'invoque de tout mon coeur: exauce-moi, Éternel, Afin que je garde tes statuts! 146 Je t'invoque: sauve-moi, Afin que j'observe tes préceptes! 147 Je devance l'aurore et je crie; J'espère en tes promesses. 148 Je devance les veilles et j'ouvre les yeux, Pour méditer ta parole. 149 Écoute ma voix selon ta bonté! Rends-moi la vie selon ton jugement! 150 Ils s'approchent, ceux qui poursuivent le crime, Ils s'éloignent de la loi. 151 Tu es proche, ô Éternel! Et tous tes commandements sont la vérité. 152 Dès longtemps je sais par tes préceptes Que tu les as établis pour toujours.",
     "",
-    "19ـ صرخت من كُلِّ قلبي، فاستجب لي يا رب. إنِّي أبتغي حقوقك. صرختُ إلَيْكَ فخلصني، لأحفظ شهاداتك. سبقتُ وقمتُ قبَلْ الوقتِ وصرخت، وعلى كلامك توكلتُ. سبقتْ عيناي وقت السحَر، لأتلو في جميع أقوالك، فاسمع صوتي يا رَبُّ كرحمتك، وبحسب أحكامك أحيني. اقترب بالإثم الَّذِينَ يطردونني، وعَنْ ناموسك ابتعدوا. قريب أَنْت يا رب، وكُلِّ وصاياك حق هي. مُنْذُ البدء عرفتُ من شهاداتك أنك إلى الدهر أسستها ذُكْصاسْي فِلا نيثرومبي.",
+    "19ـ صرخت من كُلِّ قلبي، فاستجب لي يا رب. إنِّي أبتغي حقوقك. صرختُ إلَيْكَ فخلصني، لأحفظ شهاداتك. سبقتُ وقمتُ قبَلْ الوقتِ وصرخت، وعلى كلامك توكلتُ. سبقتْ عيناي وقت السحَر، لأتلو في جميع أقوالك، فاسمع صوتي يا رَبُّ كرحمتك، وبحسب أحكامك أحيني. اقترب بالإثم الَّذِينَ يطردونني، وعَنْ ناموسك ابتعدوا. قريب أَنْت يا رب، وكُلِّ وصاياك حق هي. مُنْذُ البدء عرفتُ من شهاداتك أنك إلى الدهر أسستها.",
   ],
   [
-    Prefix.same + "&C=Assembly",
+    Prefix.placeHolder,
+    Prefix.bookOfHours + "ZoksasiFilan"
+  ],
+  [
+    Prefix.same + "&C=NoActor",
     "",
     "153 Vois ma misère, et délivre-moi! Car je n'oublie point ta loi. 154 Défends ma cause, et rachète-moi; Rends-moi la vie selon ta promesse! 155 Le salut est loin des méchants, Car ils ne recherchent pas tes statuts. 156 Tes compassions sont grandes, ô Éternel! Rends-moi la vie selon tes jugements! 157 Mes persécuteurs et mes adversaires sont nombreux; Je ne m'écarte point de tes préceptes, 158 Je vois avec dégoût des traîtres Qui n'observent pas ta parole. 159 Considère que j'aime tes ordonnances: Éternel, rends-moi la vie selon ta bonté! 160 Le fondement de ta parole est la vérité, Et toutes les lois de ta justice sont éternelles.",
     "",
-    "20ـ انظر إلى مذلتي وأنقذني، فإني لم أنس ناموسك. احكم لي في دعواي ونجني. مِنْ أَجْلِ كلامك أحيني. بعيد هُوَ الخلاص عَنْ الخطاة، لأنهم لم يطلبوا حقوقك. رأفتك كثيرة جدا يا رب. حسب أحكامك أحيني. كثيرون هُمُ الَّذِينَ يضطهدونني ويحزنونني، وعَنْ شهاداتك لم أجنح. رأيت الَّذِينَ لا يفهمون فاكتأبت، لأنهم لأقوالَكَ لم يحفظوا. انظر يا رب، فإني أحببت وصاياك. برحمتك يا رَبُّ أحيني. بدء كلامك حقٌ، وإلي الأبد كُلِّ أحكام عدلَكَ ذُكْصاسْي فِلا نيثرومبي.",
+    "20ـ انظر إلى مذلتي وأنقذني، فإني لم أنس ناموسك. احكم لي في دعواي ونجني. مِنْ أَجْلِ كلامك أحيني. بعيد هُوَ الخلاص عَنْ الخطاة، لأنهم لم يطلبوا حقوقك. رأفتك كثيرة جدا يا رب. حسب أحكامك أحيني. كثيرون هُمُ الَّذِينَ يضطهدونني ويحزنونني، وعَنْ شهاداتك لم أجنح. رأيت الَّذِينَ لا يفهمون فاكتأبت، لأنهم لأقوالَكَ لم يحفظوا. انظر يا رب، فإني أحببت وصاياك. برحمتك يا رَبُّ أحيني. بدء كلامك حقٌ، وإلي الأبد كُلِّ أحكام عدلَكَ.",
   ],
   [
-    Prefix.same + "&C=Assembly",
+    Prefix.placeHolder,
+    Prefix.bookOfHours + "ZoksasiFilan"
+  ],
+  [
+    Prefix.same + "&C=NoActor",
     "",
     "161 Des princes me persécutent sans cause; Mais mon coeur ne tremble qu'à tes paroles. 162 Je me réjouis de ta parole, Comme celui qui trouve un grand butin. 163 Je hais, je déteste le mensonge; J'aime ta loi. 164 Sept fois le jour je te célèbre, A cause des lois de ta justice. 165 Il y a beaucoup de paix pour ceux qui aiment ta loi, Et il ne leur arrive aucun malheur. 166 J'espère en ton salut, ô Éternel! Et je pratique tes commandements. 167 Mon âme observe tes préceptes, Et je les aime beaucoup. 168 Je garde tes ordonnances et tes préceptes, Car toutes mes voies sont devant toi.",
     "",
-    "21ـ الرؤساء اضطهدوني بلا سبب. من أقوالَكَ جزع قلبي. أبتهج أنَا بكلامك كمن وجد غنائمَ كثيرة. أبغضتُ الظلم ورذلته، أَمَّا ناموسك فأحببته. سبع مرات في النهار سبحتك عَلَى أحكام عدلك. فَلْيَكُنْ سَلامِ عظيم للذين يحبون اسمك، وليس لهم شك. توقعتُ خلاصك يا رَبُّ ووصاياك أحببتها. حفظتْ نفسي شهاداتك وأحببتها جدا. حفظتُ وصاياك وشهاداتك، وكُلِّ طرقي أمامك يا رب. ذُكْصاسْي فِلا نيثرومبي.",
+    "21ـ الرؤساء اضطهدوني بلا سبب. من أقوالَكَ جزع قلبي. أبتهج أنَا بكلامك كمن وجد غنائمَ كثيرة. أبغضتُ الظلم ورذلته، أَمَّا ناموسك فأحببته. سبع مرات في النهار سبحتك عَلَى أحكام عدلك. فَلْيَكُنْ سَلامِ عظيم للذين يحبون اسمك، وليس لهم شك. توقعتُ خلاصك يا رَبُّ ووصاياك أحببتها. حفظتْ نفسي شهاداتك وأحببتها جدا. حفظتُ وصاياك وشهاداتك، وكُلِّ طرقي أمامك يا رب.",
   ],
   [
-    Prefix.same + "&C=Assembly",
+    Prefix.placeHolder,
+    Prefix.bookOfHours + "ZoksasiFilan"
+  ],
+  [
+    Prefix.same + "&C=NoActor",
     "",
     "169 Que mon cri parvienne jusqu'à toi, ô Éternel! Donne-moi l'intelligence, selon ta promesse! 170 Que ma supplication arrive jusqu'à toi! Délivre-moi, selon ta promesse! 171 Que mes lèvres publient ta louange! Car tu m'enseignes tes statuts. 172 Que ma langue chante ta parole! Car tous tes commandements sont justes. 173 Que ta main me soit en aide! Car j'ai choisi tes ordonnances. 174 Je soupire après ton salut, ô Éternel! Et ta loi fait mes délices. 175 Que mon âme vive et qu'elle te loue! Et que tes jugements me soutiennent! 176 Je suis errant comme une brebis perdue; cherche ton serviteur, Car je n'oublie point tes commandements.",
     "",
@@ -40367,6 +40441,15 @@ PrayersArrayFR = [[
     Prefix.placeHolder,
     Prefix.bookOfHours + "Alleluia",
   ],
+],
+[
+[
+  Prefix.bookOfHours + "ZoksasiFilan&C=NoActor",
+  "Ⲇⲟⲭⲁ ⲥⲓ Ⲫⲓⲗⲁⲛⲑ̀ⲣⲱⲡⲉ.",
+  "Gloire à Toi, Ami du genre humain.",
+  "ذوكساسي فيلانثروبي.",
+  "المَجْدُ لَكَ يا مُحِبِ البَشَرِ.",
+],
 ],
 [
   [

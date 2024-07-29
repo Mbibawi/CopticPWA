@@ -1385,7 +1385,7 @@ const btnBookOfHours = new Button({
   parentBtn: btnMainMenu,
   languages: [...prayersLanguages],
   children: [],
-  onClick: (returnBtnChildren: boolean = false) => {
+  onClick: (mass: boolean = false) => {
     if (btnBookOfHours.children.length > 1) return btnBookOfHours.children;
 
     let OurFatherInHeaven: string =
@@ -1405,29 +1405,24 @@ const btnBookOfHours = new Button({
       FinalPrayer: string =
         Prefix.bookOfHours + "AllHoursFinalPrayer";
 
-    btnBookOfHours.children = [];
+
 
     (function addAChildButtonForEachHour() {
-      (function addHoursBtns() {
 
+      btnBookOfHours.children =
         Object.entries(bookOfHours)
-          .forEach((entry) => {
-            let hourName = entry[0],
-              btnLabel = entry[1][1];
-            let hourBtn = new Button({
-              btnID: "btn" + hourName,
-              label: btnLabel,
-              languages: btnBookOfHours.languages,
-              parentBtn: btnBookOfHours,
-              onClick: (isMass: boolean = false) =>
-                hourBtnOnClick(hourBtn, hourName, isMass),
-              afterShowPrayers: () => hourBtnAfterShowPrayer(btnLabel),
-            });
-
-            btnBookOfHours.children.push(hourBtn);
-          });
-
-      })();
+        .map((entry) => {
+          const hourBtn = new Button({
+          btnID: "btn" + entry[0],
+            label: entry[1][1],
+          docFragment: new DocumentFragment(),
+          parentBtn: btnBookOfHours,
+          onClick: (isMass: boolean = false) =>
+            hourBtnOnClick(hourBtn, entry[0], isMass),
+          afterShowPrayers: () => hourBtnAfterShowPrayer(hourBtn),
+        });
+        return hourBtn;
+      });
 
       (function addOtherPrayersBtns() {
         let otherPrayers = [Prefix.bookOfHours + 'BeforeCommunion', Prefix.bookOfHours + 'AfterCommunion' + anyDay];
@@ -1454,14 +1449,13 @@ const btnBookOfHours = new Button({
               FR: table[0][btnBookOfHours.languages.indexOf('FR') + 1]
             }),
             onClick: () => {
-              setCSS(
                 showPrayers({
                   table: table,
                   languages: btnBookOfHours.languages,
                   container: containerDiv,
                   clearContainerDiv: true,
                   clearRightSideBar: true
-                }) || []);
+                });
               scrollToTop();
             },
           });
@@ -1469,33 +1463,34 @@ const btnBookOfHours = new Button({
       })();
 
 
-      function hourBtnAfterShowPrayer(btnLabel) {
+      function hourBtnAfterShowPrayer(btn:Button) {
         let children = Array.from(
-          containerDiv.children as HTMLCollectionOf<HTMLDivElement>
+          btn.docFragment.children as HTMLCollectionOf<HTMLDivElement>
         ).filter((div) => div?.dataset?.root);
 
         scrollToTop();
 
         children.forEach((htmlRow) =>
-          ["Priest", "Diacon", "Assembly"].forEach((className) =>
-            htmlRow.classList.replace(className, "NoActor")
+          ["Priest", "Diacon", "Assembly"].forEach((className) =>{
+            htmlRow.querySelector('p.COP')?.remove();
+            htmlRow.classList.replace(className, "NoActor");
+            const note = String.fromCharCode(eighthNoteCode);
+            htmlRow.innerHTML = htmlRow.innerHTML.replaceAll(note, '')
+          }
           )
         );
 
-        if (btnLabel !== bookOfHours.VeilHour[1]) return;
-        //If we are in the 'Setar Hour', we need to remove from Psalm 118 all the paragraphs except paragraphs 20, 21, and 22. We will do this by adding a btn.afterShowPlayers function
+        if (btn.label !== bookOfHours.VeilHour[1]) return;
+        //If we are in the 'Setar Hour', we need to remove from Psalm 118 all the paragraphs except paragraphs 20, 21, and 22.
         let psalm118 = children.filter((div) =>
-          div?.dataset?.root?.startsWith(Prefix.bookOfHours + "Psalm118")
+          div?.dataset?.group?.startsWith(Prefix.bookOfHours + "Psalm118")
         );
-
-        psalm118
-          .filter(
-            (div) => psalm118?.indexOf(div) > 0 && psalm118?.indexOf(div) < 20
-          )
-          .forEach((div) => div.remove());
+          
+        psalm118.splice(1, psalm118.length-7)
+          .forEach(div => div.remove());
+          
       }
 
-      //Adding the onClick() property to the button
       function hourBtnOnClick(btn: Button, hourName: string, isMass: boolean) {
         (function buildBtnPrayersSequence() {
           //We will add the prayers sequence to btn.prayersSequence[]
@@ -1584,7 +1579,7 @@ const btnBookOfHours = new Button({
       }
     })();
 
-    if (returnBtnChildren) return btnBookOfHours.children;
+    if (mass) return btnBookOfHours.children;
 
     scrollToTop();
     return btnBookOfHours.prayersSequence;

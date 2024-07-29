@@ -1217,18 +1217,20 @@ async function openSideBar(sideBar: HTMLElement) {
  * Removes a script (found by its id), and reloads it by appending it to the body of the document
  *@param {string[]} scriptIDs - the ids if the scripts that will be removed and reloaded as child of the body
  */
-function reloadScripts(scriptIDs: string[], src?: string, type: string = 'text/javascript', msg?: string) {
+function reloadScripts(scriptIDs: string[], src?: string, type: string = 'text/javascript', msg?: string, onLoad?:Function) {
   let old: HTMLScriptElement, copy: HTMLScriptElement;
   scriptIDs
     .forEach((id) => {
       old = document.getElementById(id) as HTMLScriptElement;
       src = './Build/modules/Declare' + id + '.js';
+      if (!old) old = document.querySelector('[src="' + src + '"]');
       copy = document.createElement("script");
       copy.id = old?.id || id;
       copy.src = old?.src || src;
       copy.type = old?.type || type;
       old?.remove();
-      copy.onload = () => {
+      if (onLoad) copy.onload = () => onLoad();
+      else copy.onload = () => {
         if (msg) alert(msg)
         if (id.includes('PrayersArray'))
           populatePrayersArrays();
@@ -2166,8 +2168,14 @@ function showSettingsPanel(index?: number) {
       localStorage.userLanguages = JSON.stringify(userLanguages);
       console.log(localStorage.userLanguages);
 
-      showChildButtonsOrPrayers(btnMainMenu);
-      return userLanguages
+      if(index === 0) location.reload();//!Need to find a better way to refresh the buttons' languages than reloading the page 
+      //return userLanguages
+
+     /* [btnMainMenu, btnGoToPreviousMenu, btnMassBaptised, btnMassUnBaptised, btnIncenseMorning, btnIncenseVespers, btnIncenseOffice, btnBible, btnBookOfHours, btnDayReadings, btnGospelMass, btnGospelMorning, btnGospelNight, btnGospelVespers, btnGospelNight, btnHolyWeek, btnLakkan, btnHolyWeek, btnMassStBasil, btnMassStCyril, btnMassStGregory, btnMassStJohn].forEach(btn=>btn.label = btn.label)*/
+
+     /* reloadScripts(['Buttons'], undefined, undefined, undefined, () => {
+        showChildButtonsOrPrayers(btnMainMenu);
+      });*/
     }
 
     function addLangsBtns(args: {
@@ -2368,7 +2376,7 @@ function showSettingsPanel(index?: number) {
     );
   })();
 
-  (async function showEditingModeBtn() {
+  (function showEditingModeBtn() {
     if (localStorage.editingMode != "true") return;
     let btnsContainer = createBtnsContainer("enterEditingMode", getLabel({
       AR: " تعديل النصوص",
