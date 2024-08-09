@@ -263,8 +263,8 @@ PrayersArrayFR = [[
   [
     Prefix.same + "&C=Priest",
     " Ⲫⲑⲟⲛⲟⲥ ⲛⲓⲃⲉⲛ: ⲡⲓⲣⲁⲥⲙⲟⲥ ⲛⲓⲃⲉⲛ: ⲉⲛⲉⲣⲅⲓⲁ̀ ⲛⲓⲃⲉⲛ ⲛ̀ⲧⲉ ⲡ̀ⲥⲁⲧⲁⲛⲁⲥ: ⲡ̀ⲥⲟϭⲛⲓ ⲛ̀ⲧⲉ ϩⲁⲛⲣⲱⲙⲓ ⲉⲩϩⲱⲟⲩ: ⲛⲉⲙ ⲡ̀ⲧⲱⲛϥ ⲉ̀ⲡ̀ϣⲱⲓ ⲛ̀ⲧⲉ ϩⲁⲛϫⲁϫⲓ ⲛⲏⲉⲧϩⲏⲡ ⲛⲉⲙ ⲛⲏⲉⲑⲟⲩⲱⲛϩ ⲉ̀ⲃⲟⲗ. Ⲁⲗⲓⲧⲟⲩ ⲉ̀ⲃⲟⲗϩⲁⲣⲟⲛ. Ⲛⲉⲙ ⲉ̀ⲃⲟⲗϩⲁ ⲡⲉⲕⲗⲁⲟⲥ ⲧⲏⲣϥ: " + variable.thanksVespers.COP,
-    "Toute envie, toute tentation, toute œuvre de Satan, toute intrigue des hommes méchants, toute attaque des ennemis visibles et invisibles: éloigne-les de nous et de tout ton peuple, " +  variable.thanksVespers.FR,
-    "إبسوتشي ني إنتي هانرومي هينرومي إفهؤو نيم إبتونف إن إبشوي هانجاجي نيتهويب نيم ني إثؤ أونه إيفول آليتوف إفول هارون نيم إفول ها بيكلاؤس تيرف، " +  variable.thanksVespers.CA,
+    "Toute envie, toute tentation, toute œuvre de Satan, toute intrigue des hommes méchants, toute attaque des ennemis visibles et invisibles: éloigne-les de nous et de tout ton peuple, " + variable.thanksVespers.FR,
+    "إبسوتشي ني إنتي هانرومي هينرومي إفهؤو نيم إبتونف إن إبشوي هانجاجي نيتهويب نيم ني إثؤ أونه إيفول آليتوف إفول هارون نيم إفول ها بيكلاؤس تيرف، " + variable.thanksVespers.CA,
     "كُلِّ حسدٍ وكُلَّ تجرَبّةٍ وكُلَّ فعل الشيطان: ومؤامرة الناس الأَشْرَارِ وقيام الأعداء الخفيين والظاهرين، انزعها عنا، وعَنْ سَائِرْ شَعْبُكْ، " + variable.thanksVespers.AR,
   ],
   [
@@ -748,7 +748,7 @@ PrayersArrayFR = [[
     "Saint Georges",
     "",
     "مار جرجس",
-],
+  ],
   [
     Prefix.same + "&C=Diacon",
     "Ⲭⲉⲣⲉ ⲛⲁⲕ ⲱ̀ ⲡⲓⲙⲁⲣⲧⲩⲣⲟⲥ: ⲭⲉⲣⲉ ⲡⲓϣⲱⲓϫ ⲛ̀ⲅⲉⲛⲛⲉⲟⲥ: ⲭⲉⲣⲉ ⲡⲓⲁⲑⲗⲟⲫⲟⲣⲟⲥ: ⲡⲁϭⲟⲓⲥ ⲡ̀ⲟⲩⲣⲟ Ⲅⲉⲱ̀ⲣⲅⲓⲟⲥ.",
@@ -764,7 +764,7 @@ PrayersArrayFR = [[
     "Saint Théodore",
     "",
     "ثيؤدوروس الإسفهسلار",
-],
+  ],
   [
     Prefix.same + "&C=Diacon",
     "Ⲭⲉⲣⲉ ⲛⲁⲕ ⲱ̀ ⲡⲓⲙⲁⲣⲧⲩⲣⲟⲥ: ⲭⲉⲣⲉ ⲡⲓϣⲱⲓϫ ⲛ̀ⲅⲉⲛⲛⲉⲟⲥ: ⲭⲉⲣⲉ ⲡⲓⲁⲑⲗⲟⲫⲟⲣⲟⲥ: Ⲑⲉⲟ̀ⲇⲱⲣⲟⲥ ⲡⲓⲥ̀ⲧⲣⲁⲧⲓⲗⲁⲧⲏⲥ.",
@@ -780,7 +780,7 @@ PrayersArrayFR = [[
     "Saint Philopatir",
     "",
     "فيلوباتير مرقوريوس",
-],
+  ],
   [
     Prefix.same + "&C=Diacon",
     "Ⲭⲉⲣⲉ ⲛⲁⲕ ⲱ̀ ⲡⲓⲙⲁⲣⲧⲩⲣⲟⲥ: ⲭⲉⲣⲉ ⲡⲓϣⲱⲓϫ ⲛ̀ⲅⲉⲛⲛⲉⲟⲥ: ⲭⲉⲣⲉ ⲡⲓⲁⲑⲗⲟⲫⲟⲣⲟⲥ: ⲫⲓⲗⲟⲡⲁⲧⲏⲣ Ⲙⲉⲣⲕⲟⲩⲣⲓⲟⲥ.",
@@ -796,14 +796,14 @@ PrayersArrayFR = [[
     "Sts. George, Theodore, Philopatir et Mina",
     "",
     "مار جرجس، ثيؤدوروس،  فيلوباتير، ومينا",
-],
+  ],
   [
     Prefix.same + "&C=Diacon",
-  "Ⲭⲉⲣⲉ ⲛⲱⲧⲉⲛ ⲱ̀ ⲛⲓⲙⲁⲣⲧⲩⲣⲟⲥ : ⲭⲉⲣⲉ ⲛⲓϣⲱⲓϫ ⲛ̀ⲅⲉⲛⲛⲉⲟⲥ : ⲭⲉⲣⲉ ⲛⲓⲁⲑⲗⲟⲫⲟⲣⲟⲥ : ⲡⲁϭⲟⲓⲥ ⲡ̀ⲟⲩⲣⲟ Ⲅⲉⲱⲣⲅⲓⲟⲥ : Ⲑⲉⲟ̀ⲇⲱⲣⲟⲥ ⲡⲓⲥⲧⲣⲁⲧⲓⲗⲁⲧⲏⲥ : ⲫⲓⲗⲟⲡⲁⲧⲏⲣ Ⲙⲉⲣⲕⲟⲩⲣⲓⲟⲥ : ⲡⲓⲁ̀ⲅⲓⲟⲥ Ⲁ̀ⲡⲁ Ⲙⲏⲛⲁ.",
-  "Salut à vous ô martyrs,♫ salut aux courageux héros,♫ salut aux persévérants,♫ Mon seigneur le roi Georges,♫ Théodore le stratège♫, Philopatir Mercorios,♫ le saint Abba Mina.",
-  "شيري نوتين أو ني مارتيروس♫ شيري نيشويج إن جينيئوس♫ شيري ني آثلوفوروس♫ باشويس إبؤورو جيؤرجيوس،♫ ثيؤدوروس بيستراتيلاتيس،♫ فيلوباتير مارقوريوس،♫ بي آجيوس آبا مينا.",
-  "السلام لكم أيها الشهداء،♫ السلام للشجعان الأبطال،♫ السلام للابسي الجهاد،♫ سيدي الملك جيؤرجيوس،♫ ثيؤذوروس الآسفهسلار،♫ فيلوباتير مرقوريوس،♫ القديس أبا مينا."
-],
+    "Ⲭⲉⲣⲉ ⲛⲱⲧⲉⲛ ⲱ̀ ⲛⲓⲙⲁⲣⲧⲩⲣⲟⲥ : ⲭⲉⲣⲉ ⲛⲓϣⲱⲓϫ ⲛ̀ⲅⲉⲛⲛⲉⲟⲥ : ⲭⲉⲣⲉ ⲛⲓⲁⲑⲗⲟⲫⲟⲣⲟⲥ : ⲡⲁϭⲟⲓⲥ ⲡ̀ⲟⲩⲣⲟ Ⲅⲉⲱⲣⲅⲓⲟⲥ : Ⲑⲉⲟ̀ⲇⲱⲣⲟⲥ ⲡⲓⲥⲧⲣⲁⲧⲓⲗⲁⲧⲏⲥ : ⲫⲓⲗⲟⲡⲁⲧⲏⲣ Ⲙⲉⲣⲕⲟⲩⲣⲓⲟⲥ : ⲡⲓⲁ̀ⲅⲓⲟⲥ Ⲁ̀ⲡⲁ Ⲙⲏⲛⲁ.",
+    "Salut à vous ô martyrs,♫ salut aux courageux héros,♫ salut aux persévérants,♫ Mon seigneur le roi Georges,♫ Théodore le stratège♫, Philopatir Mercorios,♫ le saint Abba Mina.",
+    "شيري نوتين أو ني مارتيروس♫ شيري نيشويج إن جينيئوس♫ شيري ني آثلوفوروس♫ باشويس إبؤورو جيؤرجيوس،♫ ثيؤدوروس بيستراتيلاتيس،♫ فيلوباتير مارقوريوس،♫ بي آجيوس آبا مينا.",
+    "السلام لكم أيها الشهداء،♫ السلام للشجعان الأبطال،♫ السلام للابسي الجهاد،♫ سيدي الملك جيؤرجيوس،♫ ثيؤذوروس الآسفهسلار،♫ فيلوباتير مرقوريوس،♫ القديس أبا مينا."
+  ],
 ],
 [
   [
@@ -812,7 +812,7 @@ PrayersArrayFR = [[
     "Saint Mina",
     "",
     "مار مينا",
-],
+  ],
   [
     Prefix.same + "&C=Diacon",
     "Ⲭⲉⲣⲉ ⲛⲁⲕ ⲱ̀ ⲡⲓⲙⲁⲣⲧⲩⲣⲟⲥ: ⲭⲉⲣⲉ ⲡⲓϣⲱⲓϫ ⲛ̀ⲅⲉⲛⲛⲉⲟⲥ: ⲭⲉⲣⲉ ⲡⲓⲁⲑⲗⲟⲫⲟⲣⲟⲥ: ⲡⲓⲁ̀ⲅⲓⲟⲥ ⲁⲃⲃⲁ Ⲙⲏⲛⲁ.",
@@ -8291,8 +8291,8 @@ PrayersArrayFR = [[
     "هيتن ني ابريسفا انتي تي ثيؤطوكوس اثؤواب ماريا، ابتشويس آري إهموت نان إمبيكو إيفول إنتي ني نوفي.",
     "بِشَفَاعَاتْ والِدَةِ الإلَهِ القِدِّيسَةْ مَرِيَمْ يا رَبُّ انْعِمْ لَنَا بِمَغْفِرَةْ خَطَايَانا.",
   ],
-  [Prefix.placeHolder, 
-    Prefix.massCommon + "WeWorshipYouChrist"],
+  [Prefix.placeHolder,
+  Prefix.massCommon + "WeWorshipYouChrist"],
   [
     Prefix.same + "&C=Assembly",
     "Ⲉⲗⲉⲟⲥ ⲉⲓ̀Ϯⲣⲏⲛⲏⲥ ⲑⲩⲥⲓⲁ ⲉ̀ⲛⲉⲥⲉⲱⲥ.",
@@ -18379,7 +18379,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.bookOfHours + "FirstHourTitle&C=Title",
+    Prefix.bookOfHours + "H1Title&C=Title",
     "",
     "Prière de la 1ère Heure",
     "",
@@ -18388,7 +18388,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.bookOfHours + "FirstHourLetsKneel&D=$copticFeasts.AnyDay&C=SubTitle",
+    Prefix.bookOfHours + "H1LetsKneel&C=SubTitle",
     "",
     "Prosternons-nous",
     "",
@@ -18418,7 +18418,7 @@ PrayersArrayFR = [[
   [
     Prefix.same + "&C=NoActor",
     "",
-    "Ô notre Seigneur Jésus-Christ, Verbe de Dieu, par les intercessions de sainte Marie et de tous Tes saints garde-nous,  que nous entamions bien la journée.",
+    "Ô notre Seigneur Jésus-Christ, Verbe de Dieu, par les intercessions de sainte Marie et de tous Tes saints garde-nous, que nous entamions bien la journée.",
     "",
     "يا رَبّنا يَسُوعْ المَسِيحْ كلمة اللّه إلهنا، بشفاعة القِدِّيسَةْ مَرِيَمْ وجَمِيعِ قديسيك، احفظنا ولنبدأ بدءا حسنا.",
   ],
@@ -18432,18 +18432,26 @@ PrayersArrayFR = [[
   [
     Prefix.same + "&C=NoActor",
     "",
-    "La nuit s'est écoulée, nous Te rendons grâce, notre Seigneur, et nous T'implorons de nous préserver de tout péché en ce jour, et  de nous sauver. ",
+    "La nuit s'est écoulée, nous Te rendons grâce, notre Seigneur, et nous T'implorons de nous préserver de tout péché en ce jour, et de nous sauver.",
     "",
     "الليل عبر، نشكرك يا رَبُّ ونَسْألْ أنْ تحفظنا في هَذا اليَوْمَ بِغَيّْرِ خطية وأنقذنا.",
+  ],
+  [
+    Prefix.placeHolder, 
+    Prefix.bookOfHours + "H1StPaul"
+  ],
+  [
+    Prefix.placeHolder, 
+    Prefix.bookOfHours + "H1Intro"
   ],
 ],
 [
   [
-    Prefix.bookOfHours + "FirstHourStPaul&D=$copticFeasts.AnyDay&C=SubTitle",
+    Prefix.bookOfHours + "H1StPaul&C=SubTitle",
     "",
     "Epître de saint Paul aux Éphésiens (4 : 1 - 5)",
     "",
-    "البولس من رسالة أفسس (4: 1ـــ5)",
+    "البولس من رسالة أفسس (4: 1ـ5)",
   ],
   [
     Prefix.same + "&C=NoActor",
@@ -18455,7 +18463,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.bookOfHours + "FirstHourIntro&D=$copticFeasts.AnyDay&C=SubTitle",
+    Prefix.bookOfHours + "H1Intro&C=SubTitle",
     "",
     "De la foi de l'Eglise",
     "",
@@ -18471,7 +18479,7 @@ PrayersArrayFR = [[
   [
     Prefix.same + "&C=NoActor",
     "",
-    "Un est aussi Son Fils Jésus-Christ le Verbe qui s'est incarné, qui est mort et qui est ressuscité d'entre les morts le troisième jour. Il nous a ressuscités avec Lui.",
+    "Un est aussi Son Fils Jésus-Christ le Verbe qui s'est incarné, qui est mort et qui est ressuscité d'entre les morts le troisième jour. Il nous a ressuscités avec Lui.",
     "",
     "واحد هُوَ أًيّْضَاً ابنه يَسُوعْ المَسِيحْ الكلمة، الذي تَجَسَّدَ ومات وقام من الأموات في اليَوْمَ الثَالِثْ وأقامنا مَعَه.",
   ],
@@ -19358,7 +19366,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.bookOfHours + "FirstHourGospel&C=SubTitle",
+    Prefix.bookOfHours + "H1Gospel&C=SubTitle",
     "",
     "Évangile selon saint Jean  ( 1 : 1 - 17 )",
     "",
@@ -19413,7 +19421,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.bookOfHours + "FirstHourLitanies&C=SubTitle",
+    Prefix.bookOfHours + "H1Litanies&C=SubTitle",
     "",
     "Litanies de l'Aube",
     "",
@@ -19465,7 +19473,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.bookOfHours + "FirstHourEnd&C=SubTitle",
+    Prefix.bookOfHours + "H1End&C=SubTitle",
     "",
     "Absolution de la prière du matin",
     "",
@@ -19501,12 +19509,12 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.bookOfHours + "FirstHourEnd2",
+    Prefix.bookOfHours + "H1End2",
   ],
 ],
 [
   [
-    Prefix.bookOfHours + "FirstHourEnd2&C=SubTitle",
+    Prefix.bookOfHours + "H1End2&C=SubTitle",
     "",
     "Seconde prière d'absolution",
     "",
@@ -19517,7 +19525,7 @@ PrayersArrayFR = [[
     "",
     "Toi qui envois la lumière qui nous éclaire. Tu fais lever le soleil sur les bons comme sur les méchants. Tu créas la lumière pour éclairer l'univers. Eclaire nos coeurs, Toi, le maître de chacun. ",
     "",
-    "أَيُّهَااَلباعث النور فينطلق، المشرق شمسه عَلَى الأبرار والأشرار، الذي صنع النور الذي يضئ عَلَى المسكونة، أنر عُقُولَنَا وقلوبنا وأفهامنا يا سيد الكل.",
+    "أَيُّهَا اَلباعث النور فينطلق، المشرق شمسه عَلَى الأبرار والأشرار، الذي صنع النور الذي يضئ عَلَى المسكونة، أنر عُقُولَنَا وقلوبنا وأفهامنا يا سيد الكل.",
   ],
   [
     Prefix.same + "&C=",
@@ -19573,7 +19581,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.bookOfHours + "ThirdHourTitle&C=Title",
+    Prefix.bookOfHours + "H3Title&C=Title",
     "",
     "Prière de la 3ème heure",
     "",
@@ -20188,7 +20196,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.bookOfHours + "ThirdHourGospel&C=SubTitle",
+    Prefix.bookOfHours + "H3Gospel&C=SubTitle",
     "",
     "l’Évangile de la 3ème heure (Saint Jean 14: 15-26)",
     "",
@@ -20229,13 +20237,13 @@ PrayersArrayFR = [[
     "والمَجْدُ للهِ دَائِمَاً",
   ],
   [
-    Prefix.placeHolder, 
+    Prefix.placeHolder,
     Prefix.massCommon + "WeWorshipYouChrist"
   ],
 ],
 [
   [
-    Prefix.bookOfHours + "ThirdHourLitanies&C=SubTitle",
+    Prefix.bookOfHours + "H3Litanies&C=SubTitle",
     "",
     "Litanies de la 3ème heure",
     "",
@@ -20306,7 +20314,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.bookOfHours + "ThirdHourEnd&C=SubTitle",
+    Prefix.bookOfHours + "H3End&C=SubTitle",
     "",
     "Absolution de la 3ème heure",
     "",
@@ -20343,7 +20351,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.bookOfHours + "SixthHourTitle&C=Title",
+    Prefix.bookOfHours + "H6Title&C=Title",
     "",
     "Prière de la 6ème heure",
     "",
@@ -20795,7 +20803,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.bookOfHours + "SixthHourGospel&C=SubTitle",
+    Prefix.bookOfHours + "H6Gospel&C=SubTitle",
     "",
     "l’Évangile de la 6ème heure (Saint Mathieu 5 : 1-16)",
     "",
@@ -20899,7 +20907,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.bookOfHours + "SixthHourLitanies&C=SubTitle",
+    Prefix.bookOfHours + "H6Litanies&C=SubTitle",
     "",
     "Litanies de la 6ème heure",
     "",
@@ -21012,7 +21020,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.bookOfHours + "SixthHourEnd&C=SubTitle",
+    Prefix.bookOfHours + "H6End&C=SubTitle",
     "",
     "Absolution de la 6ème heure",
     "",
@@ -21049,7 +21057,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.bookOfHours + "NinethHourTitle&C=Title",
+    Prefix.bookOfHours + "H9Title&C=Title",
     "",
     "Prière de la 9ème heure",
     "",
@@ -21711,7 +21719,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.bookOfHours + "NinethHourGospel&C=SubTitle",
+    Prefix.bookOfHours + "H9Gospel&C=SubTitle",
     "",
     "l’Évangile de la 9ème heure (Saint Luc 9 : 10-17)",
     "",
@@ -21759,7 +21767,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.bookOfHours + "NinethHourLitanies&C=SubTitle",
+    Prefix.bookOfHours + "H9Litanies&C=SubTitle",
     "",
     "Litanies de la 9ème heure",
     "",
@@ -21837,7 +21845,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.bookOfHours + "NinethHourEnd&C=SubTitle",
+    Prefix.bookOfHours + "H9End&C=SubTitle",
     "",
     "Absolution de la 9ème heure",
     "",
@@ -21895,7 +21903,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.bookOfHours + "EleventhHourTitle&C=Title",
+    Prefix.bookOfHours + "H11Title&C=Title",
     "",
     "Prière de la 11ème heure (le Crépuscule)",
     "",
@@ -22410,7 +22418,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.bookOfHours + "EleventhHourGospel&C=SubTitle",
+    Prefix.bookOfHours + "H11Gospel&C=SubTitle",
     "",
     "l’Évangile de la 11ème heure (Saint Luc 41 :4-38)",
     "",
@@ -22444,7 +22452,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.bookOfHours + "EleventhHourLitanies&C=SubTitle",
+    Prefix.bookOfHours + "H11Litanies&C=SubTitle",
     "",
     "Litanies de la 11ème heure",
     "",
@@ -22503,7 +22511,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.bookOfHours + "EleventhHourEnd&C=SubTitle",
+    Prefix.bookOfHours + "H11End&C=SubTitle",
     "",
     "Absolution de la 11ème heure",
     "",
@@ -22533,7 +22541,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.bookOfHours + "TwelvethHourTitle&C=Title",
+    Prefix.bookOfHours + "H12Title&C=Title",
     "",
     "Prière de la 12ème heure",
     "",
@@ -23041,7 +23049,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.bookOfHours + "TwelvethHourGospel&C=SubTitle",
+    Prefix.bookOfHours + "H12Gospel&C=SubTitle",
     "",
     "l’Évangile de la 12ème heure",
     "",
@@ -23068,7 +23076,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.bookOfHours + "TwelvethHourLitanies&C=SubTitle",
+    Prefix.bookOfHours + "H12Litanies&C=SubTitle",
     "",
     "Litanies de la 12ème heure",
     "",
@@ -23113,7 +23121,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.bookOfHours + "TwelvethHourEnd&C=SubTitle",
+    Prefix.bookOfHours + "H12End&C=SubTitle",
     "",
     "Absolution de la 12ème heure",
     "",
@@ -23150,7 +23158,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.bookOfHours + "VeilHourTitle&C=Title",
+    Prefix.bookOfHours + "HVTitle&C=Title",
     "",
     "Prière de la 1ère Heure",
     "Prière de la fermeture du voile",
@@ -23159,7 +23167,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.bookOfHours + "VeilHourGospel&C=SubTitle",
+    Prefix.bookOfHours + "HVGospel&C=SubTitle",
     "",
     "l’Évangile de la fermeture du Voile (Saint Jean 6: 15-23)",
     "",
@@ -23193,7 +23201,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.bookOfHours + "VeilHourLitanies&C=SubTitle",
+    Prefix.bookOfHours + "HVLitanies&C=SubTitle",
     "",
     "Litanies de la fermeture du voile",
     "",
@@ -23238,7 +23246,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.bookOfHours + "VeilHourEnd&C=SubTitle",
+    Prefix.bookOfHours + "HVEnd&C=SubTitle",
     "",
     "Absolution du Setar",
     "",
@@ -23268,7 +23276,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.bookOfHours + "MidNight1HourTitle&C=Title",
+    Prefix.bookOfHours + "HMD1Title&C=Title",
     "",
     "Premier service de minuit",
     "",
@@ -23428,7 +23436,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.bookOfHours + "MidNight1HourGospel&C=SubTitle",
+    Prefix.bookOfHours + "HMD1Gospel&C=SubTitle",
     "",
     "l’Évangile du 1er service de minuit (Saint Mathieu 25: 1-13)",
     "",
@@ -23469,7 +23477,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.bookOfHours + "MidNight1HourLitanies&C=SubTitle",
+    Prefix.bookOfHours + "HMD1Litanies&C=SubTitle",
     "",
     "Litanies du 1er service de minuit",
     "",
@@ -23554,7 +23562,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.bookOfHours + "MidNight2HourTitle&C=Title",
+    Prefix.bookOfHours + "HMD2Title&C=Title",
     "",
     "Deuxième service de minuit",
     "",
@@ -23563,7 +23571,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.bookOfHours + "MidNight2HourGospel&C=SubTitle",
+    Prefix.bookOfHours + "HMD2Gospel&C=SubTitle",
     "",
     "l’Évangile du 2ème service de minuit (Saint Luc 7: 36-50)",
     "",
@@ -23597,7 +23605,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.bookOfHours + "MidNight2HourLitanies&C=SubTitle",
+    Prefix.bookOfHours + "HMD2Litanies&C=SubTitle",
     "",
     "Litanies du 2ème service de minuit",
     "",
@@ -23668,7 +23676,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.bookOfHours + "MidNight3HourTitle&C=Title",
+    Prefix.bookOfHours + "HMD3Title&C=Title",
     "",
     "Troisième service de minuit",
     "",
@@ -23677,7 +23685,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.bookOfHours + "MidNight3HourGospel&C=SubTitle",
+    Prefix.bookOfHours + "HMD3Gospel&C=SubTitle",
     "",
     "l’Évangile du 3ème service de minuit (Saint Luc 12: 32-46)",
     "",
@@ -23704,7 +23712,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.bookOfHours + "MidNight3Hour2ndGospel&C=SubTitle",
+    Prefix.bookOfHours + "HMD32ndGospel&C=SubTitle",
     "",
     "l’Évangile du 3ème service de minuit (Saint Luc 2: 29-32)",
     "",
@@ -23720,7 +23728,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.bookOfHours + "MidNight3HourLitanies&C=SubTitle",
+    Prefix.bookOfHours + "HMD3Litanies&C=SubTitle",
     "",
     "Litanies du 2ème service de minuit",
     "",
@@ -23798,7 +23806,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.bookOfHours + "MidNight3HourEnd&C=SubTitle",
+    Prefix.bookOfHours + "HMD3End&C=SubTitle",
     "",
     "Absolution de la prière de minuit",
     "",
@@ -23821,7 +23829,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.bookOfHours + "MidNight3HourPriestsAbsolution&C=SubTitle",
+    Prefix.bookOfHours + "HMD3PriestsAbsolution&C=SubTitle",
     "",
     "Absolution des Prêtres",
     "",
@@ -40443,13 +40451,13 @@ PrayersArrayFR = [[
   ],
 ],
 [
-[
-  Prefix.bookOfHours + "ZoksasiFilan&C=NoActor",
-  "Ⲇⲟⲭⲁ ⲥⲓ Ⲫⲓⲗⲁⲛⲑ̀ⲣⲱⲡⲉ.",
-  "Gloire à Toi, Ami du genre humain.",
-  "ذوكساسي فيلانثروبي.",
-  "المَجْدُ لَكَ يا مُحِبِ البَشَرِ.",
-],
+  [
+    Prefix.bookOfHours + "ZoksasiFilan&C=NoActor",
+    "Ⲇⲟⲭⲁ ⲥⲓ Ⲫⲓⲗⲁⲛⲑ̀ⲣⲱⲡⲉ.",
+    "Gloire à Toi, Ami du genre humain.",
+    "ذوكساسي فيلانثروبي.",
+    "المَجْدُ لَكَ يا مُحِبِ البَشَرِ.",
+  ],
 ],
 [
   [

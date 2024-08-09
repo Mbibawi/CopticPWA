@@ -807,7 +807,7 @@ async function changeDate(
       copticDate +
       " of the coptic calendar "
     );
-  showChildButtonsOrPrayers(btnMainMenu); //We return to the main page menu because in some cases when the date changes, the buttons/prayers availabe are not the same according to the Season
+  showChildButtonsOrPrayers(BOT.MainMenu); //We return to the main page menu because in some cases when the date changes, the buttons/prayers availabe are not the same according to the Season
   return todayDate;
 }
 

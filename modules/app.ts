@@ -49,14 +49,14 @@ async function startApp() {
 
   addKeyDownListnerToElement(document, "keydown", undefined);
 
-  showChildButtonsOrPrayers(btnMainMenu); //!Caution: btnMain must be displayed after the dates and the Season have been set. Otherwise, btn Psalmody will not change its title
+  showChildButtonsOrPrayers(BOT.MainMenu); //!Caution: btnMain must be displayed after the dates and the Season have been set. Otherwise, btn Psalmody will not change its title
   //  document.getElementById('homeImg').addEventListener('dblclick', createHtmlArray);
 
   alert(version);
 
   (async function populateBtnsHtml() {
     return;
-    for (let b of [btnMassStBasil, btnIncenseMorning, btnMassUnBaptised, ...btnPsalmody.onClick()]) {
+    for (let b of [BOT.MassStBasil, BOT.IncenseMorning, BOT.MassUnBaptised, ...BOT.Psalmody.onClick()]) {
       await showChildButtonsOrPrayers(b, false, false);
     }
 
@@ -176,7 +176,7 @@ async function showChildButtonsOrPrayers(btn: Button, clear: boolean = true, sho
         .forEach((childBtn) => {
           if (!childBtn) return;
           //for each child button that will be created, we set btn as its parent in case we need to use this property on the button
-          if (btn !== btnGoToPreviousMenu) childBtn.parentBtn = btn;
+          if (btn !== BOT.GoToPreviousMenu) childBtn.parentBtn = btn;
           //We create the html element reprsenting the childBtn and append it to btnsDiv
           createHtmlBtn({
             btn: childBtn,
@@ -184,9 +184,9 @@ async function showChildButtonsOrPrayers(btn: Button, clear: boolean = true, sho
           });
         });
 
-      appendGoBackAndGoToMainButtons(btn, sideBarBtnsContainer, btn.cssClass, btnGoToPreviousMenu, btnMainMenu);
+      appendGoBackAndGoToMainButtons(btn, sideBarBtnsContainer, btn.cssClass, BOT.GoToPreviousMenu, BOT.MainMenu);
 
-      if (btn === btnMainMenu) addSettingsButton();
+      if (btn === BOT.MainMenu) addSettingsButton();
     })();
 
     let titles = Array.from(container.children as HTMLCollectionOf<HTMLDivElement>)
@@ -229,7 +229,7 @@ async function showChildButtonsOrPrayers(btn: Button, clear: boolean = true, sho
     btn.children
       .forEach((childBtn) => {
         if (!childBtn) return;
-        if (btn !== btnGoToPreviousMenu) childBtn.parentBtn = btn;
+        if (btn !== BOT.GoToPreviousMenu) childBtn.parentBtn = btn;
         if (!childBtn.backGroundImage && btn.backGroundImage) childBtn.backGroundImage = btn.backGroundImage;
         if (!childBtn.backGroundImage) childBtn.backGroundImage = images[btn.children.indexOf(childBtn)];
 
@@ -237,7 +237,7 @@ async function showChildButtonsOrPrayers(btn: Button, clear: boolean = true, sho
 
       });
 
-    appendGoBackAndGoToMainButtons(btn, btnsDiv, cssClass, btnGoToPreviousMenu, btnMainMenu);//We append the buttons then we add the background image for each button
+    appendGoBackAndGoToMainButtons(btn, btnsDiv, cssClass, BOT.GoToPreviousMenu, BOT.MainMenu);//We append the buttons then we add the background image for each button
 
     btnsDiv.style.gridTemplateColumns = setGridColumnsOrRowsNumber(btnsDiv, 3);//!Caution: this must come after the buttons have been appended to btnsDiv
 
@@ -300,13 +300,13 @@ async function showChildButtonsOrPrayers(btn: Button, clear: boolean = true, sho
 
       if ([btnMain, btnBack].includes(btn)) return; //Obviously, we will not insert 'Go To Main Menu' Button if the btn is it self btnMain. We also do not insert 'Go To Main Menu' when the GoBack button is clicked because it will be inserted by the button that will passed to showChildButtonsOrPrayers() when called
 
-      if (btnsContainer.querySelector('#' + btnMainMenu.btnID)) btnsContainer.querySelector('#' + btnMainMenu.btnID).remove(); //If there is already a btnMainMenu in the btnsContainer, we will remove it
+      if (btnsContainer.querySelector('#' + BOT.MainMenu.btnID)) btnsContainer.querySelector('#' + BOT.MainMenu.btnID).remove(); //If there is already a btnMainMenu in the btnsContainer, we will remove it
 
       mainMenuHtml = createHtmlBtn({
         btn: btnMain,
         btnsContainer: btnsContainer,
         btnClass: cssClass,
-        backGroundImage: btnsContainer === sideBarBtnsContainer ? undefined : btnMainMenu.backGroundImage,
+        backGroundImage: btnsContainer === sideBarBtnsContainer ? undefined : BOT.MainMenu.backGroundImage,
       });
     })();
     return [goBackHtml, mainMenuHtml]
@@ -1056,60 +1056,6 @@ function addSettingsButton() {
   sideBarBtnsContainer.appendChild(settingsBtn);
 }
 
-/**
- * returns a Button for entering the "Editing Mode" and start editings the text
- */
-function getEditModeButton(): Button {
-  return new Button({
-    btnID: "btnEditMode",
-    label: getLabel({
-      AR: "تعديل النص",
-      FR: "Enter Editing Mode",
-      EN: "Enter Editing Mode",
-    }),
-    onClick: () => {
-      if (document.getElementById("selectArray")) return; //If a select element is already appended, we return
-      //@ts-ignore
-      if (!console.save) addConsoleSaveMethod(console); //We are adding a save method to the console object
-      containerDiv.innerHTML = "";
-      containerDiv.dataset.editingMode = "true";
-      let editable = [
-        "Choose from the list",
-        "NewTable",
-        'Fun("arrayName", "Table\'s Title")',
-        "Edit Day Readings",
-        "PrayersArray",
-        "GospelDawnArray",
-        "GospelMassArray",
-        "GospelNightArray",
-        "GospelVespersArray",
-        "KatholikonArray",
-        "PraxisArray",
-        "PropheciesDawnArray",
-        "StPaulArray",
-        "SynaxariumArray",
-      ];
-      let select = document.createElement("select"),
-        option: HTMLOptionElement;
-      select.id = "selectArray";
-      select.style.backgroundColor = "ivory";
-      select.style.height = "30pt";
-      editable.forEach((name) => {
-        option = document.createElement("option");
-        option.innerText = name;
-        option.contentEditable = "true";
-        select.add(option);
-      });
-
-      document;
-      containerDiv.insertAdjacentElement("beforebegin", select);
-      select.addEventListener("change", () =>
-        startEditingMode({ select: select })
-      );
-    },
-  });
-}
-
 
 /**
  * Creates a an anchor html element and sets its href attribute to the id parameter, then clicks the anchor in order to scroll to it and, finally, removes the anchor
@@ -1217,11 +1163,11 @@ async function openSideBar(sideBar: HTMLElement) {
  * Removes a script (found by its id), and reloads it by appending it to the body of the document
  *@param {string[]} scriptIDs - the ids if the scripts that will be removed and reloaded as child of the body
  */
-function reloadScripts(scriptIDs: string[], src?: string, type: string = 'text/javascript', msg?: string, onLoad?:Function) {
+function reloadScripts(scriptIDs: string[], src?: string, type: string = 'text/javascript', msg?: string, onLoad?: Function) {
   let old: HTMLScriptElement, copy: HTMLScriptElement;
   scriptIDs
     .forEach((id) => {
-      old = document.getElementById(id) as HTMLScriptElement;
+      old = document.scripts[id];
       src = './Build/modules/Declare' + id + '.js';
       if (!old) old = document.querySelector('[src="' + src + '"]');
       copy = document.createElement("script");
@@ -1235,7 +1181,7 @@ function reloadScripts(scriptIDs: string[], src?: string, type: string = 'text/j
         if (id.includes('PrayersArray'))
           populatePrayersArrays();
       }
-      document.getElementsByTagName("body")[0]?.appendChild(copy);
+      document.head.appendChild(copy);
 
     });
 }
@@ -2067,7 +2013,7 @@ function showSettingsPanel(index?: number) {
   showAddOrRemoveLanguagesBtns();
   async function showAddOrRemoveLanguagesBtns() {
 
-    let labels = [
+    const labels = [
       {
         AR: "اختر اللغة الأساسية (لغة الإعدادات)",
         FR: "Sélectionner la langue par défaut",
@@ -2089,7 +2035,7 @@ function showSettingsPanel(index?: number) {
     ];
 
     if (index >= 0)
-      return showLanguagesModal();//! since index can be = 0, if we check for !index, it will return false, that's why we check if index>=0 instead of !index
+      return showLanguagesModal(labels);//! since index can be = 0, if we check for !index, it will return false, that's why we check if index>=0 instead of !index
 
     let btnsLangs = [
       ...nonCopticLanguages,
@@ -2168,16 +2114,15 @@ function showSettingsPanel(index?: number) {
       localStorage.userLanguages = JSON.stringify(userLanguages);
       console.log(localStorage.userLanguages);
 
-      if(index === 0) location.reload();//!Need to find a better way to refresh the buttons' languages than reloading the page 
+      // if(index === 0) location.reload();//!Need to find a better way to refresh the buttons' languages than reloading the page
       //return userLanguages
-
-     /* [btnMainMenu, btnGoToPreviousMenu, btnMassBaptised, btnMassUnBaptised, btnIncenseMorning, btnIncenseVespers, btnIncenseOffice, btnBible, btnBookOfHours, btnDayReadings, btnGospelMass, btnGospelMorning, btnGospelNight, btnGospelVespers, btnGospelNight, btnHolyWeek, btnLakkan, btnHolyWeek, btnMassStBasil, btnMassStCyril, btnMassStGregory, btnMassStJohn].forEach(btn=>btn.label = btn.label)*/
-
-     /* reloadScripts(['Buttons'], undefined, undefined, undefined, () => {
-        showChildButtonsOrPrayers(btnMainMenu);
+      /*if (index === 0) Object.values(BOT).forEach(btn => btn = null);
+      reloadScripts(['Buttons'], undefined, undefined, undefined, () => {
+        console.log('Buttons script loaded and executed.');
+        showChildButtonsOrPrayers(BOT.MainMenu);
       });*/
+      
     }
-
     function addLangsBtns(args: {
       btnsContainer: HTMLElement;
       fun: Function;
@@ -2215,15 +2160,14 @@ function showSettingsPanel(index?: number) {
         3
       );
     }
-
-    function showLanguagesModal() {
+    function showLanguagesModal(labels: { AR: string; FR: string, EN: string; Type: string }[]) {
       containerDiv.classList.add(hidden);
       let choices: string[][][] = [nonCopticLanguages, nonCopticLanguages, copticLanguages];
-
+  
       let container = createBtnsContainer("modalContainer", getLabel({ AR: labels[index].AR, FR: labels[index].FR, EN: labels[index].EN }), 'modalContainer');
       addLabel(index);
       document.getElementById('content').prepend(container);
-
+  
       function addLabel(i: number) {
         let lang: string = defaultLanguage || 'EN'
         if (!container) return;
@@ -2233,11 +2177,11 @@ function showSettingsPanel(index?: number) {
         lang = null
       };
       return showModal(index);
-
+  
       function showModal(i: number) {
         let choice = choices[i];
         if (i === 1) choice = choice.filter(l => l[0] !== defaultLanguage);
-
+  
         choice.map((lang) => {
           return createSettingsBtn({
             tag: "button",
@@ -2249,7 +2193,7 @@ function showSettingsPanel(index?: number) {
             onClick: { event: 'click', fun: () => onClick(lang) },
           });
         });
-
+  
         async function onClick(lang: string[]) {
           let confirmed = confirm(lang[1] + ' will be set as your ' + labels[i].Type);
           if (!confirmed && i < 1)
@@ -2258,7 +2202,7 @@ function showSettingsPanel(index?: number) {
             setLanguage(null, i);
           else
             setLanguage(lang[0], i);
-
+  
           if (choices[i + 1]) {
             container.innerHTML = '';
             addLabel(i + 1)
@@ -2267,261 +2211,259 @@ function showSettingsPanel(index?: number) {
           else if (defaultLanguage) {
             showDates();//We update the dates boxes because when the defaultLanguage is not set, they display 'undefined' values
             container.remove(); //We remove the btns container
-            showChildButtonsOrPrayers(btnMainMenu);
+            showChildButtonsOrPrayers(BOT.MainMenu);
             containerDiv.classList.remove(hidden);
           }
           else if (!defaultLanguage)
             showSettingsPanel(0)
         };
-
+  
       }
-
+  
     }
   }
 
-  (async function showExcludeActorButon() {
-    let btnsContainer = createBtnsContainer("showOrHideActor", getLabel({
-      AR: "إظهار أو إخفاء مردات الكاهن أو الشماس أو الشعب",
-      FR: "Afficher ou cacher un acteur",
-      EN: "Show or hide an actor",
-    }));
-    let userActors: Actor[] = JSON.parse(localStorage.showActors);
+(async function showExcludeActorButon() {
+  let btnsContainer = createBtnsContainer("showOrHideActor", getLabel({
+    AR: "إظهار أو إخفاء مردات الكاهن أو الشماس أو الشعب",
+    FR: "Afficher ou cacher un acteur",
+    EN: "Show or hide an actor",
+  }));
+  let userActors: Actor[] = JSON.parse(localStorage.showActors);
 
-    userActors.map((actor) => {
-      if (['CommentText', 'NoActor'].includes(actor.EN)) return;//CommentText will be handled at the same time by the button for 'Comments'
-
-      btn = createSettingsBtn({
-        tag: "button",
-        role: "button",
-        btnClass: "settingsBtn",
-        innerText: actor[defaultLanguage],
-        btnsContainer: btnsContainer,
-        id: actor.EN,
-        lang: actor.EN,
-        onClick: {
-          event: "click",
-          fun: () => {
-            actor.Show = !actor.Show; //inversing the value of the boolean
-            btn.classList.toggle("langBtnAdd");
-            //changing the background color of the button to red by adding 'langBtnAdd' as a class
-            if (actor.EN === "Comments")
-              userActors.find((el) => el.EN === "CommentText").Show = actor.Show; //setting the value of 'CommentText' same as 'Comment'
-            localStorage.showActors = JSON.stringify(userActors); //adding the new values to local storage
-            if (containerDiv.children) {
-              //Only if some prayers text is already displayed
-              showChildButtonsOrPrayers(lastClickedButton); //we re-click the last button to refresh the displayed text by adding or removing the actor according to the new setings chice made by the user.
-              showSettingsPanel(); //we display the settings pannel again
-            }
-          },
-        },
-      });
-
-      if (!actor.Show) btn.classList.add("langBtnAdd");
-    });
-    btnsContainer.style.gridTemplateColumns = setGridColumnsOrRowsNumber(
-      btnsContainer,
-      5
-    );
-  })();
-
-  (async function showDisplayModeBtns() {
-    let btnsContainer = createBtnsContainer("changeDisplayMode", getLabel({
-      AR: "اختر نظام العرض",
-      FR: "Changer le mode d'affichage",
-      EN: "Change the display mode",
-    }));
-
-
-    expandableBtnsPannel.appendChild(btnsContainer);
-    displayModes.map((mode) => {
-      btn = createSettingsBtn({
-        tag: "button",
-        role: "button",
-        btnClass: "settingsBtn",
-        innerText: mode + " Display Mode",
-        btnsContainer: btnsContainer,
-        id: mode,
-        onClick: {
-          event: "click",
-          fun: () => {
-            if (localStorage.displayMode !== mode) {
-              localStorage.displayMode = mode;
-
-              let userActors: Actor[] = JSON.parse(localStorage.showActors);
-
-              if (mode === displayModes[2] && localStorage.displayMode === mode)
-                //If mode = 'Priest Mode', we set the value of 'Diacon' in the 'showActors' localStorage to false in order to hide all the 'Diacon' response
-                userActors.find(actor => actor.EN === actors[1].EN).Show = false;
-
-              else userActors.find(actor => actor.EN === actors[1].EN).Show = true;
-
-              localStorage.showActors = JSON.stringify(userActors);
-
-              Array.from(btnsContainer.children).map((btn) => {
-                btn.id !== localStorage.displayMode
-                  ? btn.classList.add("langBtnAdd")
-                  : btn.classList.remove("langBtnAdd");
-              });
-            }
-          },
-        },
-      });
-      if (mode !== localStorage.displayMode) {
-        btn.classList.add("langBtnAdd");
-      }
-    });
-    btnsContainer.style.gridTemplateColumns = setGridColumnsOrRowsNumber(
-      btnsContainer,
-      3
-    );
-  })();
-
-  (function showEditingModeBtn() {
-    if (localStorage.editingMode != "true") return;
-    let btnsContainer = createBtnsContainer("enterEditingMode", getLabel({
-      AR: " تعديل النصوص",
-      FR: "Activer le mode édition",
-      EN: "Enter Editing Mode",
-    }));
-    expandableBtnsPannel.appendChild(btnsContainer);
-
-    let editingBtn = getEditModeButton();
+  userActors.map((actor) => {
+    if (['CommentText', 'NoActor'].includes(actor.EN)) return;//CommentText will be handled at the same time by the button for 'Comments'
 
     btn = createSettingsBtn({
       tag: "button",
       role: "button",
       btnClass: "settingsBtn",
-      innerText: editingBtn.label.DL,
+      innerText: actor[defaultLanguage],
       btnsContainer: btnsContainer,
-      id: "editingMode" + localStorage.editingMode.toString(),
+      id: actor.EN,
+      lang: actor.EN,
       onClick: {
         event: "click",
-        fun: editingBtn.onClick,
+        fun: () => {
+          actor.Show = !actor.Show; //inversing the value of the boolean
+          btn.classList.toggle("langBtnAdd");
+          //changing the background color of the button to red by adding 'langBtnAdd' as a class
+          if (actor.EN === "Comments")
+            userActors.find((el) => el.EN === "CommentText").Show = actor.Show; //setting the value of 'CommentText' same as 'Comment'
+          localStorage.showActors = JSON.stringify(userActors); //adding the new values to local storage
+          if (containerDiv.children) {
+            //Only if some prayers text is already displayed
+            showChildButtonsOrPrayers(lastClickedButton); //we re-click the last button to refresh the displayed text by adding or removing the actor according to the new setings chice made by the user.
+            showSettingsPanel(); //we display the settings pannel again
+          }
+        },
       },
     });
-    btnsContainer.style.gridTemplateColumns = setGridColumnsOrRowsNumber(
-      btnsContainer,
-      3
-    );
-  })();
 
-  //Appending colors keys for actors
-  (async function addActorsKeys() {
-    let btnsContainer = createBtnsContainer("actorsKeys", getLabel({
-      AR: "مفاتيح الألوان",
-      FR: "Clés des couleurs",
-      EN: "Colors keys",
-    }));
+    if (!actor.Show) btn.classList.add("langBtnAdd");
+  });
+  btnsContainer.style.gridTemplateColumns = setGridColumnsOrRowsNumber(
+    btnsContainer,
+    5
+  );
+})();
 
-    let userActors: Actor[] =
-      JSON.parse(localStorage.showActors)
-        .filter(actor => actor.Show === true && !['CommentText', 'NoActor'].includes(actor.EN));
+(async function showDisplayModeBtns() {
+  let btnsContainer = createBtnsContainer("changeDisplayMode", getLabel({
+    AR: "اختر نظام العرض",
+    FR: "Changer le mode d'affichage",
+    EN: "Change the display mode",
+  }));
 
-    userActors.map((actor) => {
-    });
-    btnsContainer.style.gridTemplateColumns = setGridColumnsOrRowsNumber(
-      btnsContainer,
-      4
-    );
-  })();
 
-  (async function addReloadPageBtn() {
-    let btnsContainer = createBtnsContainer("enterEditingMode", getLabel({
-      AR: "تحديث التطبيق",
-      FR: "Mettre à jour l'application",
-      EN: "Update App",
-    }));
-    expandableBtnsPannel.appendChild(btnsContainer);
-
-    let btnLable: typeBtnLabel = getLabel({
-      AR: 'تحديث',
-      FR: 'Mettre à jour',
-      EN: 'Update',
-    });
-
+  expandableBtnsPannel.appendChild(btnsContainer);
+  displayModes.map((mode) => {
     btn = createSettingsBtn({
       tag: "button",
       role: "button",
-      btnClass: "updateBtn",
-      innerText: btnLable.DL,
+      btnClass: "settingsBtn",
+      innerText: mode + " Display Mode",
       btnsContainer: btnsContainer,
-      id: "updateApp",
+      id: mode,
       onClick: {
         event: "click",
-        fun: () => location.reload(),
+        fun: () => {
+          if (localStorage.displayMode !== mode) {
+            localStorage.displayMode = mode;
+
+            let userActors: Actor[] = JSON.parse(localStorage.showActors);
+
+            if (mode === displayModes[2] && localStorage.displayMode === mode)
+              //If mode = 'Priest Mode', we set the value of 'Diacon' in the 'showActors' localStorage to false in order to hide all the 'Diacon' response
+              userActors.find(actor => actor.EN === actors[1].EN).Show = false;
+
+            else userActors.find(actor => actor.EN === actors[1].EN).Show = true;
+
+            localStorage.showActors = JSON.stringify(userActors);
+
+            Array.from(btnsContainer.children).map((btn) => {
+              btn.id !== localStorage.displayMode
+                ? btn.classList.add("langBtnAdd")
+                : btn.classList.remove("langBtnAdd");
+            });
+          }
+        },
       },
     });
-
-    btnsContainer.style.gridTemplateColumns = setGridColumnsOrRowsNumber(btnsContainer);
-  })();
-
-  closeSideBar(leftSideBar);
-
-  function createBtnsContainer(
-    id: string,
-    labelText: typeBtnLabel,
-    cssClass: string = 'settingsBtnsContainer'
-  ): HTMLDivElement {
-    let btnsContainer = document.createElement("div");
-    btnsContainer.id = id;
-    btnsContainer.classList.add(cssClass);
-
-    expandableBtnsPannel.appendChild(btnsContainer);
-    let labelsDiv = document.createElement("div");
-    labelsDiv.classList.add("settingsLabel");
-    btnsContainer.insertAdjacentElement("beforebegin", labelsDiv);
-    let label = document.createElement("h3");
-    label.innerText = labelText.DL;
-    labelsDiv.appendChild(label);
-
-    return btnsContainer;
-  }
-
-  function createSettingsBtn(args: {
-    tag: string;
-    role?: string;
-    btnClass?: string;
-    innerText: string;
-    btnsContainer?: HTMLElement;
-    id?: string;
-    lang?: string;
-    type?: string;
-    size?: string;
-    backgroundColor?: string;
-    onClick?: { event: string; fun: Function };
-  }): HTMLElement {
-
-    let btn = document.createElement(args.tag);
-
-    btn.role = args.role || args.tag;
-
-    if (args.innerText) btn.innerHTML = args.innerText;
-
-    if (args.btnClass) btn.classList.add(args.btnClass);
-
-    if (args.id) btn.id = args.id;
-
-    if (args.lang) btn.lang = args.lang.toLowerCase();
-
-    //@ts-ignore
-    if (args.type && btn.nodeType) btn.type = args.type;
-
-    //@ts-ignore
-    if (args.size) btn.size = args.size;
-
-    if (args.backgroundColor) btn.style.backgroundColor = args.backgroundColor;
-
-    if (args.onClick) {
-      btn.addEventListener(args.onClick.event, (e) => {
-        e.preventDefault;
-        args.onClick.fun();
-      });
+    if (mode !== localStorage.displayMode) {
+      btn.classList.add("langBtnAdd");
     }
+  });
+  btnsContainer.style.gridTemplateColumns = setGridColumnsOrRowsNumber(
+    btnsContainer,
+    3
+  );
+})();
 
-    if (args.btnsContainer) args.btnsContainer.appendChild(btn);
+(function showEditingModeBtn() {
+  if (localStorage.editingMode != "true") return;
+  let btnsContainer = createBtnsContainer("enterEditingMode", getLabel({
+    AR: " تعديل النصوص",
+    FR: "Activer le mode édition",
+    EN: "Enter Editing Mode",
+  }));
+  expandableBtnsPannel.appendChild(btnsContainer);
 
-    return btn;
+  btn = createSettingsBtn({
+    tag: "button",
+    role: "button",
+    btnClass: "settingsBtn",
+    innerText: BOT.Edit.label.DL,
+    btnsContainer: btnsContainer,
+    id: "editingMode" + localStorage.editingMode.toString(),
+    onClick: {
+      event: "click",
+      fun: BOT.Edit.onClick,
+    },
+  });
+  btnsContainer.style.gridTemplateColumns = setGridColumnsOrRowsNumber(
+    btnsContainer,
+    3
+  );
+})();
+
+//Appending colors keys for actors
+(async function addActorsKeys() {
+  let btnsContainer = createBtnsContainer("actorsKeys", getLabel({
+    AR: "مفاتيح الألوان",
+    FR: "Clés des couleurs",
+    EN: "Colors keys",
+  }));
+
+  let userActors: Actor[] =
+    JSON.parse(localStorage.showActors)
+      .filter(actor => actor.Show === true && !['CommentText', 'NoActor'].includes(actor.EN));
+
+  userActors.map((actor) => {
+  });
+  btnsContainer.style.gridTemplateColumns = setGridColumnsOrRowsNumber(
+    btnsContainer,
+    4
+  );
+})();
+
+(async function addReloadPageBtn() {
+  let btnsContainer = createBtnsContainer("enterEditingMode", getLabel({
+    AR: "تحديث التطبيق",
+    FR: "Mettre à jour l'application",
+    EN: "Update App",
+  }));
+  expandableBtnsPannel.appendChild(btnsContainer);
+
+  let btnLable: typeBtnLabel = getLabel({
+    AR: 'تحديث',
+    FR: 'Mettre à jour',
+    EN: 'Update',
+  });
+
+  btn = createSettingsBtn({
+    tag: "button",
+    role: "button",
+    btnClass: "updateBtn",
+    innerText: btnLable.DL,
+    btnsContainer: btnsContainer,
+    id: "updateApp",
+    onClick: {
+      event: "click",
+      fun: () => location.reload(),
+    },
+  });
+
+  btnsContainer.style.gridTemplateColumns = setGridColumnsOrRowsNumber(btnsContainer);
+})();
+
+closeSideBar(leftSideBar);
+
+function createBtnsContainer(
+  id: string,
+  labelText: typeBtnLabel,
+  cssClass: string = 'settingsBtnsContainer'
+): HTMLDivElement {
+  let btnsContainer = document.createElement("div");
+  btnsContainer.id = id;
+  btnsContainer.classList.add(cssClass);
+
+  expandableBtnsPannel.appendChild(btnsContainer);
+  let labelsDiv = document.createElement("div");
+  labelsDiv.classList.add("settingsLabel");
+  btnsContainer.insertAdjacentElement("beforebegin", labelsDiv);
+  let label = document.createElement("h3");
+  label.innerText = labelText.DL;
+  labelsDiv.appendChild(label);
+
+  return btnsContainer;
+}
+
+function createSettingsBtn(args: {
+  tag: string;
+  role?: string;
+  btnClass?: string;
+  innerText: string;
+  btnsContainer?: HTMLElement;
+  id?: string;
+  lang?: string;
+  type?: string;
+  size?: string;
+  backgroundColor?: string;
+  onClick?: { event: string; fun: Function };
+}): HTMLElement {
+
+  let btn = document.createElement(args.tag);
+
+  btn.role = args.role || args.tag;
+
+  if (args.innerText) btn.innerHTML = args.innerText;
+
+  if (args.btnClass) btn.classList.add(args.btnClass);
+
+  if (args.id) btn.id = args.id;
+
+  if (args.lang) btn.lang = args.lang.toLowerCase();
+
+  //@ts-ignore
+  if (args.type && btn.nodeType) btn.type = args.type;
+
+  //@ts-ignore
+  if (args.size) btn.size = args.size;
+
+  if (args.backgroundColor) btn.style.backgroundColor = args.backgroundColor;
+
+  if (args.onClick) {
+    btn.addEventListener(args.onClick.event, (e) => {
+      e.preventDefault;
+      args.onClick.fun();
+    });
   }
+
+  if (args.btnsContainer) args.btnsContainer.appendChild(btn);
+
+  return btn;
+}
 }
 /**
  * Returns an object of type typeBtnLabel 
