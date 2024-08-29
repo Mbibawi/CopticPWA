@@ -145,7 +145,7 @@ const BOT: {[index: string]: Button} = {};
 
 //CONSTANTS
 const version: string =
-  "v8.7 (Changed the buttons from declared consts to props of a BOT object)";
+  "v8.8 (Fixes to the languages selection)";
 const calendarDay: number = 24 * 60 * 60 * 1000; //this is a day in milliseconds
 const containerDiv: HTMLDivElement = document.getElementById(
   "containerDiv") as HTMLDivElement;

@@ -16,7 +16,7 @@ const lastClickedButton: Button = undefined;
 
 async function startApp() {
   if (!defaultLanguage)
-    showSettingsPanel(0);
+    showSettingsPanel(true);
 
   if (localStorage.fontSize) setFontSize(localStorage.fontSize);
 
@@ -1893,11 +1893,11 @@ function findTable(
 /**
  * Shows the settings panel
 
- * @param {number} index - the index of the languages (0 = default language, 1 = foreign languages, 2 = Coptic language version)
+ * @param {boolean} langs - if true, we will show the languages settings in a modal pannel
  */
-function showSettingsPanel(index?: number) {
+function showSettingsPanel(langs:boolean = false) {
 
-  if (index >= 0) return showAddOrRemoveLanguagesBtns();//! since index can be = 0, if we check for !index, it will return false, that's why we check if index>=0 instead of !index
+  if (langs) return showAddOrRemoveLanguagesBtns()
 
   showExpandableBtnsPannel("settingsPanel", true);
   let btn: HTMLElement;
@@ -2034,8 +2034,8 @@ function showSettingsPanel(index?: number) {
       }
     ];
 
-    if (index >= 0)
-      return showLanguagesModal(labels);//! since index can be = 0, if we check for !index, it will return false, that's why we check if index>=0 instead of !index
+    if (langs)
+      return showLanguagesModal(labels);
 
     let btnsLangs = [
       ...nonCopticLanguages,
@@ -2079,21 +2079,20 @@ function showSettingsPanel(index?: number) {
       if (localStorage.userLanguages) userLanguages = JSON.parse(localStorage.userLanguages);
       if (!userLanguages) userLanguages = [];
       if (index > 0 && userLanguages.indexOf(lang) === index)
-        //If the language is already defined at the same index, we will set the element at the same index to undefined (i.e., we will desactivate the language and remove it from the list of userLanguages). We never set the default language (i.e. stored[0]) to undefined that's why we exclude the case where index = 0
-        userLanguages[index] = undefined;
+        userLanguages[index] = undefined;  //If the language is already defined at the same index, we will set the element at the same index to undefined (i.e., we will desactivate the language and remove it from the list of userLanguages). We never set the default language (i.e. userLanguages[0]) to undefined that's why we exclude the case where index = 0
 
       else if (index === 0 && userLanguages.indexOf(lang) === index)
         return alert(
           "You cannot not desactivate the default language. You can replace it by choosing another language"
         );
 
-      else if (userLanguages.indexOf(lang) === 0 && index === 1 && userLanguages[index]) {
+      else if (index ===1 && userLanguages.indexOf(lang) === 0 && userLanguages[index]) {
         //If the language is already set as defaultLanguage (it is set at index 0), and we want to make it the foreign language (index = 1), we check if the value of index 1 (the index of the foreign language) is not undefined. If so, we make the foreign language default language and we replace it with lang
         userLanguages[0] = userLanguages[index];
         userLanguages[index] = lang
       }
 
-      else if (userLanguages.indexOf(lang) === 0 && index === 1 && !userLanguages[index])
+      else if (index ===1 && userLanguages.indexOf(lang) === 0 && !userLanguages[index])
         return alert(
           "You must first replace the default language by another language before being able to set it as foreign language"
         );
@@ -2114,13 +2113,16 @@ function showSettingsPanel(index?: number) {
       localStorage.userLanguages = JSON.stringify(userLanguages);
       console.log(localStorage.userLanguages);
 
-      // if(index === 0) location.reload();//!Need to find a better way to refresh the buttons' languages than reloading the page
-      //return userLanguages
-      /*if (index === 0) Object.values(BOT).forEach(btn => btn = null);
-      reloadScripts(['Buttons'], undefined, undefined, undefined, () => {
+      //if(index === 0) location.reload();//!Need to find a better way to refresh the buttons' languages than reloading the page
+
+     // if (index === 0) Object.values(BOT).forEach(btn => btn = null);
+     
+      if (index === 0)
+        reloadScripts(['Buttons'], undefined, undefined, undefined, () => {
         console.log('Buttons script loaded and executed.');
         showChildButtonsOrPrayers(BOT.MainMenu);
-      });*/
+      });
+      return userLanguages
       
     }
     function addLangsBtns(args: {
@@ -2162,28 +2164,30 @@ function showSettingsPanel(index?: number) {
     }
     function showLanguagesModal(labels: { AR: string; FR: string, EN: string; Type: string }[]) {
       containerDiv.classList.add(hidden);
-      let choices: string[][][] = [nonCopticLanguages, nonCopticLanguages, copticLanguages];
-  
-      let container = createBtnsContainer("modalContainer", getLabel({ AR: labels[index].AR, FR: labels[index].FR, EN: labels[index].EN }), 'modalContainer');
-      addLabel(index);
+      
+      //Creating a modalContainer for the settings buttons
+      const container = createBtnsContainer("modalContainer", getLabel(labels[0]), 'modalContainer');
       document.getElementById('content').prepend(container);
-  
+      
+      addLabel(0);
+      return showModal(0);
+      
       function addLabel(i: number) {
-        let lang: string = defaultLanguage || 'EN'
-        if (!container) return;
         let lable = document.createElement('h3');
-        lable.innerText = labels[i][lang];
+        lable.innerText = labels[i][defaultLanguage || 'EN'];
         container.appendChild(lable)
-        lang = null
       };
-      return showModal(index);
+      
+      
+      function showModal(index: number) {
+        let languages = [nonCopticLanguages, nonCopticLanguages, copticLanguages][index];
+
+        if (index === 1 && defaultLanguage)
+          languages = languages.filter(l => l[0] !== defaultLanguage);
   
-      function showModal(i: number) {
-        let choice = choices[i];
-        if (i === 1) choice = choice.filter(l => l[0] !== defaultLanguage);
-  
-        choice.map((lang) => {
-          return createSettingsBtn({
+        //We add a button for each language
+        languages.map((lang) => {
+          createSettingsBtn({
             tag: "button",
             role: "button",
             btnClass: "settingsBtn",
@@ -2193,30 +2197,51 @@ function showSettingsPanel(index?: number) {
             onClick: { event: 'click', fun: () => onClick(lang) },
           });
         });
+
+
+        if (index > 0)
+          createSettingsBtn({
+              tag: "button",
+              role: "button",
+              btnClass: "settingsBtn",
+              innerText: {AR:'تجاهل', FR: 'Ignorer', EN: 'Ignore'}[defaultLanguage || 'EN'],
+              btnsContainer: container,
+              id: "userLang",
+              onClick: {
+              event: 'click', fun: () => {
+                  setLanguage(null, index);
+                  if (index < 2)
+                    return nextLanguage(index);
+                  finish();
+              }
+            },
+            }); //We add a button to cancel setting optional languages like foreignLanguage and Coptic
   
-        async function onClick(lang: string[]) {
-          let confirmed = confirm(lang[1] + ' will be set as your ' + labels[i].Type);
-          if (!confirmed && i < 1)
-            return //If the user cancels and the language is the defaultLanguge, we do nothing
-          else if (!confirmed && i > 0)
-            setLanguage(null, i);
+        function onClick(lang: string[]) {
+          let confirmed = confirm(lang[1] + ' will be set as your ' + labels[index].Type);
+          if (!confirmed)
+            return //If the user cancels we do nothing
           else
-            setLanguage(lang[0], i);
-  
-          if (choices[i + 1]) {
-            container.innerHTML = '';
-            addLabel(i + 1)
-            showModal(i + 1)
-          }
-          else if (defaultLanguage) {
-            showDates();//We update the dates boxes because when the defaultLanguage is not set, they display 'undefined' values
-            container.remove(); //We remove the btns container
-            showChildButtonsOrPrayers(BOT.MainMenu);
-            containerDiv.classList.remove(hidden);
-          }
+            setLanguage(lang[0], index);
+          if (index < 2)
+            nextLanguage(index);
+          else if (defaultLanguage) 
+            finish();
           else if (!defaultLanguage)
-            showSettingsPanel(0)
+            showSettingsPanel(true)
         };
+
+        function nextLanguage(i:number) {
+          container.innerHTML = '';
+          addLabel(i+ 1)
+          showModal(i + 1);
+       } 
+
+        function finish() {
+          showDates();//We update the dates boxes because when the defaultLanguage is not set, they display 'undefined' values
+          container.remove(); //We remove the btns container
+          containerDiv.classList.remove(hidden);
+       }
   
       }
   
@@ -2471,7 +2496,7 @@ function createSettingsBtn(args: {
  */
 function getLabel(label: { AR?: string, FR?: string, EN?: string }): typeBtnLabel {
   return {
-    DL: label[defaultLanguage],
+    DL: label[defaultLanguage || 'EN'],
     FL: label[foreingLanguage],
   }
 }
