@@ -1977,7 +1977,7 @@ ReadingsArrays.GospelMorningArrayFR = [
     ],
     [
         [
-            Prefix.gospelMorning + "Psalm&D=GL7thSunday&C=Title"
+            Prefix.gospelMorning + "Psalm???&D=GL7thSunday&C=Title"
         ],
         [
             Prefix.readingRef + "PSA:26:2-3"
@@ -1985,11 +1985,247 @@ ReadingsArrays.GospelMorningArrayFR = [
     ],
     [
         [
-            Prefix.gospelMorning + "Gospel&D=GL7thSunday&C=Title"
+            Prefix.gospelMorning + "Gospel???&D=GL7thSunday&C=Title"
         ],
         [
             Prefix.readingRef + "MAT:23:1-39"
         ]
+    ],
+    [
+        [
+            Prefix.gospelMorning + "Psalm1&D=GL7thSunday&C=Title",
+            "",
+            "Psaume du premier Évangile (devant l’autel)",
+            "",
+            "مزمور الإنجيل الأول (أمام المذبح)",
+        ],
+        [Prefix.readingRef + "PSA:104:4-4/138:1-2"]
+    ],
+    [
+        [
+            Prefix.gospelMorning + "Gospel1&D=GL7thSunday",
+        ],
+        [Prefix.readingRef + "JHN:1:43-51"],
+    ],
+    [
+        [
+            Prefix.gospelMorning+ "Psalm2&D=GL7thSunday&C=Title",
+            "",
+            "Psaume du deuxième Évangile (Devant l'icône de la Vierge Marie)",
+            "",
+            "مزمور الإنجيل الثاني (أمام أيقونة العذراء)",
+        ],
+        [Prefix.readingRef + "PSA:86:5-5/86:7-7"]
+    ],
+    [
+        [
+            Prefix.gospelMorning + "Gospel2&D=GL7thSunday&C=Title",
+            "",
+            "Deuxième Évangile",
+            "",
+            "الإنجيل الثاني",
+        ],
+        [Prefix.readingRef + "LUK:1:39-56"],
+    ],
+    [
+        [
+            Prefix.gospelMorning+ "Psalm3&D=GL7thSunday&C=Title",
+            "",
+            "Psaume du troisième Évangile (devant ...)",
+            "",
+            "مزمور الإنجيل الثالث (أمام ...)",
+        ],
+        [Prefix.readingRef + "PSA:33:7-8"]
+    ],
+    [
+        [
+            Prefix.gospelMorning + "Gospel3&D=GL7thSunday&C=Title",
+            "",
+            "Troisième Évangile",
+            "",
+            "الإنجيل الثالث",
+        ],
+        [Prefix.readingRef + "LUK:1:26-38"],
+    ],
+    [
+        [
+            Prefix.gospelMorning+ "Psalm4&D=GL7thSunday&C=Title",
+            "",
+            "Psaume du quatrième Évangile (devant ...)",
+            "",
+            "مزمور الإنجيل الرابع (أمام ...)",
+        ],
+        [Prefix.readingRef + "PSA:102:17-18"]
+    ],
+    [
+        [
+            Prefix.gospelMorning + "Gospel4&D=GL7thSunday&C=Title",
+            "",
+            "Quatrième Évangile",
+            "",
+            "الإنجيل الرابع",
+        ],
+        [Prefix.readingRef + "MAT:13:44-53"],
+    ],
+    [
+        [
+            Prefix.gospelMorning+ "Psalm5&D=GL7thSunday&C=Title",
+            "",
+            "Psaume du cinquième Évangile (devant ...)",
+            "",
+            "مزمور الإنجيل الخامس (أمام ...)",
+        ],
+        [Prefix.readingRef + "PSA:67:11-12"]
+    ],
+    [
+        [
+            Prefix.gospelMorning + "Gospel5&D=GL7thSunday&C=Title",
+            "",
+            "Cinquième Évangile",
+            "",
+            "الإنجيل الخامس",
+        ],
+        [Prefix.readingRef + "LUK:10:1-12"],
+    ],
+    [
+        [
+            Prefix.gospelMorning+ "Psalm6&D=GL7thSunday&C=Title",
+            "",
+            "Psaume du cinquième Évangile (devant ...)",
+            "",
+            "مزمور الإنجيل السادس (أمام ...)",
+        ],
+        [Prefix.readingRef + "PSA:18:3-4"],
+    ],
+    [
+        [
+            Prefix.gospelMorning + "Gospel6&D=GL7thSunday&C=Title",
+            "",
+            "Sixième Évangile",
+            "",
+            "الإنجيل السادس",
+        ],
+        [Prefix.readingRef + "MAT:10:1-8"],
+       ],
+    [
+        [
+            Prefix.gospelMorning+ "Psalm7&D=GL7thSunday&C=Title",
+            "",
+            "Psaume du septième Évangile (devant ...)",
+            "",
+            "مزمور الإنجيل السابع (أمام ...)",
+        ],
+        [Prefix.readingRef + "PSA:96:11-12"],
+    ],
+    [
+        [
+            Prefix.gospelMorning + "Gospel7&D=GL7thSunday&C=Title",
+            "",
+            "Septième Évangile",
+            "",
+            "الإنجيل السابع",
+        ],
+        [Prefix.readingRef + "LUK:21:12-19"],
+    ],
+    [
+        [
+            Prefix.gospelMorning+ "Psalm8&D=GL7thSunday&C=Title",
+            "",
+            "Psaume du huitième Évangile (devant ...)",
+            "",
+            "مزمور الإنجيل الثامن (أمام ...)",
+        ],
+        [Prefix.readingRef + "PSA:67:35-35/67:3-3"],
+        ],
+    [
+        [
+            Prefix.gospelMorning + "Gospel8&D=GL7thSunday&C=Title",
+            "",
+            "Huitième Évangile",
+            "",
+            "الإنجيل الثامن",
+        ],
+        [Prefix.readingRef + "MAT:16:24-28"],
+    ],
+    [
+        [
+            Prefix.gospelMorning+ "Psalm9&D=GL7thSunday&C=Title",
+            "",
+            "Psaume du Neuvième Évangile (devant la porte au nord)",
+            "",
+            "مزمور الإنجيل التاسع (أمام الباب الشمالي)",
+        ],
+        [Prefix.readingRef + "PSA:83:1-2"],
+    ],
+    [
+        [
+        Prefix.gospelMorning + "Gospel9&D=GL7thSunday&C=Title",
+        "",
+        "Neuvième Évangile",
+        "",
+        "الإنجيل التاسع",
+    ],
+        [Prefix.readingRef + "LUK:13:22-30"],
+    ],
+    [
+        [
+            Prefix.gospelMorning+ "Psalm10&D=GL7thSunday&C=Title",
+            "",
+            "Psaume du dixième Évangile (devant le bassin)",
+            "",
+            "مزمور الإنجيل العاشر (أمام الجرن)",
+        ],
+        [Prefix.readingRef + "PSA:28:3-4"],
+    ],
+    [     
+        [
+            Prefix.gospelMorning + "Gospel10&D=GL7thSunday&C=Title",
+            "",
+            "Dixième Évangile",
+            "",
+            "الإنجيل العاشر",
+        ],
+            [Prefix.readingRef + "MAT:3:13-17"],
+    ],
+    [  
+        [
+            Prefix.gospelMorning+ "Psalm11&D=GL7thSunday&C=Title",
+            "",
+            "Psaume du onzième Évangile (devant la porte du Sud)",
+            "",
+            "مزمور الإنجيل الحادي عشر (أمام الباب الجنوبي)",
+        ],
+        [Prefix.readingRef + "PSA:117:19-20"],
+    ],
+    [
+        [
+            Prefix.gospelMorning + "Gospel11&D=GL7thSunday&C=Title",
+            "",
+            "Onzième Évangile",
+            "",
+            "الإنجيل الحادي عشر",
+        ],
+            [Prefix.readingRef + "MAT:21:1-11"],
+    ],
+    [
+        [
+            Prefix.gospelMorning+ "Psalm12&D=GL7thSunday&C=Title",
+            "",
+            "Psaume du douzième Évangile (devant...)",
+            "",
+            "مزمور الإنجيل الثاني عشر (أمام...)",
+        ],
+        [Prefix.readingRef + "PSA:51:8-9"],
+    ],
+    [
+        [
+            Prefix.gospelMorning + "Gospel12&D=GL12thSunday&C=Title",
+            "",
+            "Douzième Évangile",
+            "",
+            "الإنجيل الثاني عشر",
+        ],
+        [Prefix.readingRef + "LUK:7:28-35"],
     ],
     [
         [
