@@ -1,5 +1,3 @@
-
-
 function Sequences() {
   return {
     Incense: [
@@ -1949,23 +1947,26 @@ Btn.IncenseMorning = new Button({
       if (!btn.docFragment)
         return console.log("btn.docFragment is undefined = ", btn.docFragment);
 
-      let dayFeasts: string[] = (() => {
+      const dayFeasts: string[] =
+        (() => {
         let dates: string[] = [copticDate];
-        if (!RegExp('\\d\\d\\d\\d').test(copticReadingsDate))
+        if (!RegExp('\\d{4}').test(copticReadingsDate))
           dates.push(copticReadingsDate); //We do this in order to avoid including a reading date of 4 digits while the reading repeats more than once per year on other days than the feast day itself (eg. the 0511 copticReadingDate repeats several times not only on the Apostles feast). This will leave us only with the copticReadingsDate including letters: like GL, PNTL, JONAS, etc
-        let feast: string[] = [];
+        const feast: Set<string> = new Set();
         let matching: [string, string] = Object.entries(copticFeasts).find(
           (entry) => dates.includes(entry[1])
         ); //We check if today is a feast. We also check by the copticReadingsDate because some feast are referrenced by the copticReadings date : eg. Pntl39
-        if (matching) feast.push(matching[1]); //We push the date
+        if (matching) feast.add(matching[1]); //We push the date
 
         matching = Object.entries(Seasons).find((entry) => entry[1] === Season); //We check also for the season
 
-        if (matching) feast.push(matching[1]); //We push the Season
+        if (matching) feast.add(matching[1]); //We push the Season
 
-        if (feast.length > 0) return getUniqueValuesFromArray(feast) as string[];
-      })();
+        return Array.from(feast);
+        })();
+      
       let anchor: HTMLElement;
+
       (async function InsertCymbalVerses() {
         anchor = selectElementsByDataSet(
           btn.docFragment,
@@ -1978,10 +1979,7 @@ Btn.IncenseMorning = new Button({
 
         if ([Seasons.JonahFast, Seasons.GreatLent].includes(Season) && ![0, 6].includes(weekDay))
           //If we are during the Jonah Fast or during the Great Lent but not on a Saturday or a Sunday, the Cymbal Verses are not chanted, they are replaced by the Long Kyrielison and the Cymbal Verses End
-          cymbals =
-            [
-              findTable(Prefix.cymbalVerses + "End", CymbalVersesArray) || undefined,
-            ];
+          cymbals = [findTable(Prefix.cymbalVerses + "End", CymbalVersesArray) || undefined];
 
         else cymbals = getCymbalVerses();
 
@@ -1992,7 +1990,7 @@ Btn.IncenseMorning = new Button({
           );
 
         insertPrayersAdjacentToExistingElement({
-          tables: getUniqueValuesFromArray(cymbals) as string[][][],
+          tables: cymbals,
           languages: btn.languages,
           position: {
             beforeOrAfter: "beforebegin",
@@ -2001,72 +1999,10 @@ Btn.IncenseMorning = new Button({
           container: btn.docFragment,
         });
 
-        (function insertSaintsExpandable() {
-          const anchor: HTMLDivElement = selectElementsByDataSet(btnDocFragment, Prefix.anchor + "SaintsCymbals", undefined, 'root')[0];
-          if (!anchor) return;
-          const cymbals = CymbalVersesArray.filter(table => Title(table).includes('St'))
-            .filter(tbl => !['Mary', 'Maykel', 'Steven', 'John', 'Marc'].find(saint => Title(tbl).includes(saint)));
-
-          if (cymbals.length < 1) return;
-
-          const saints = cymbals.map(table => {
-            const name = splitTitle(Title(table))[0].split(Prefix.cymbalVerses)[1].replace('St', '');
-            const newBtn = new Button({
-              btnID: 'btnCymbal' + (cymbals.indexOf(table) + 1).toString(),
-              label: getLabel({
-                AR: table[0][prayersLanguages.indexOf('AR') + 1],
-                FR: table[0][prayersLanguages.indexOf('FR') + 1],
-              }),
-              cssClass: inlineBtnClass,
-              docFragment: new DocumentFragment(),
-              onClick: () => {
-                showPrayers({
-                  table: table,
-                  languages: prayersLanguages,
-                  container: newBtn.docFragment,
-                  clearContainerDiv: false,
-                  clearRightSideBar: false
-                });
-              }
-            });
-            return newBtn
-          });
-
-          (function createMasterBtn() {
-            const masterDiv = document.createElement('div');
-            masterDiv.id = 'masterCymbal';
-            masterDiv.classList.add(inlineBtnsContainerClass);
-            anchor.insertAdjacentElement('beforebegin', masterDiv);
-
-            const masterCymbal = new Button({
-              btnID: 'btnCymbals',
-              label: getLabel({
-                AR: 'أرباع القديسين',
-                FR: 'Autres saints',
-                EN: '',
-              }),
-              onClick: () => {
-                const id = 'cymbalsBtnsDiv';
-                let btnsDiv = containerDiv.querySelector('#' + id);
-                if (btnsDiv) return btnsDiv.classList.toggle(hidden);
-                btnsDiv = insertExpandableBtn(saints, anchor, 'afterend', 'cymbals');
-                btnsDiv.id = id;
-
-              }
-            });
-
-            createHtmlBtn({
-              btn: masterCymbal,
-              btnsContainer: masterDiv,
-              btnClass: inlineBtnClass,
-              clear: false,
-              onClick: masterCymbal.onClick //!We need to set the onClick property otherwise it will be set to showChildBtnsOrPrayers(masterCymbal) which, at its turn, will call the setCSS() for the containerDiv (the container by default since masterCymbal does not have a docFragment) for the second time
-            });
-
-          })();
-
-
-        })();
+        insertSaintsExpandable(Prefix.anchor + 'SaintsCymbals', Prefix.cymbalVerses, 'St(Mary|Maykel|Steven|John|Marc)', getLabel({
+          AR: 'أرباع القديسين',
+          FR: 'Autres saints',
+          EN: '',}));
 
         function getCymbalVerses(): string[][][] {
           let sequence = [
@@ -2100,17 +2036,17 @@ Btn.IncenseMorning = new Button({
                 : insertFeastInSequence(sequence, feast, 1, 0)
             ); //We always start with 'Amoyni Marin...' or with 'Tin O'osht...', so we will insert the feast element before the 2nd element, and will not delete anything
 
-          return processSequence(
+          return Array.from(processSequence(
             sequence,
             Prefix.cymbalVerses
-          );
+          ));
 
         }
 
       })();
 
       (async function InsertCommonDoxologies() {
-        let doxologiesAnchor: HTMLElement = selectElementsByDataSet(
+        const doxologiesAnchor: HTMLElement = selectElementsByDataSet(
           btn.docFragment,
           Prefix.anchor + "Doxologies")[0];
 
@@ -2172,10 +2108,10 @@ Btn.IncenseMorning = new Button({
           });
         }
 
-        let doxologies: string[][][] = processSequence(
+        let doxologies: string[][][] = Array.from(processSequence(
           sequence,
           Prefix.doxologies
-        );
+        ));
 
         if (doxologies.length === 0)
           return console.log("Did not find any relevant doxologies");
@@ -2199,7 +2135,83 @@ Btn.IncenseMorning = new Button({
           },
           container: btn.docFragment,
         });
+
+        insertSaintsExpandable(
+          Prefix.doxologies + "EndOfDoxologiesWatos",
+          Prefix.doxologies,
+          '(StMaykel|CelestialBeings|Apostles|StMarc|StGeorge|StMina)&C=',
+          getLabel({
+          AR: 'قديسين آخرين',
+          FR: 'Autres saints',
+          EN: '',}));
       })();
+
+      /**
+       * Inserts an 'Expandable' button, which when clicked displays a list of buttons for each Saint cymbal verses or doxology
+       * @param {string} dataRoot - the data-root of the element that will serve as anchor before which the master button will be inserted
+       * @param {string}  prefix - the prefix (Prefix.cymbalVerses or Prefix.doxologies)
+       * @param {string}  regExp - a Regular Expression allowing to filter the results
+       * @returns 
+       */
+      function insertSaintsExpandable(dataRoot:string, prefix:string, regExp:string, label:typeBtnLabel) {
+        const anchor: HTMLDivElement = selectElementsByDataSet(btnDocFragment, dataRoot, undefined, 'root')[0];
+        if (!anchor) return;
+        const options = getArrayFromPrefix(prefix).filter(tbl => Title(tbl).startsWith(prefix + 'St') && !RegExp(regExp).test(Title(tbl)));
+
+        if (options.length < 1) return;
+
+        const saints = options.map(table => {
+          const newBtn = new Button({
+            btnID: 'btn' + prefix + (options.indexOf(table) + 1).toString(),
+            label: getLabel({
+              AR: table[0][prayersLanguages.indexOf('AR') + 1],
+              FR: table[0][prayersLanguages.indexOf('FR') + 1],
+            }),
+            cssClass: inlineBtnClass,
+            docFragment: new DocumentFragment(),
+            onClick: () => {
+              showPrayers({
+                table: table,
+                languages: prayersLanguages,
+                container: newBtn.docFragment,
+                clearContainerDiv: false,
+                clearRightSideBar: false
+              });
+            }
+          });
+          return newBtn
+        });
+
+        (function createMasterBtn() {
+          const id = 'Master' + prefix;
+          const masterDiv = document.createElement('div');
+          masterDiv.id = id;
+          masterDiv.classList.add(inlineBtnsContainerClass);
+          anchor.insertAdjacentElement('beforebegin', masterDiv);
+
+          const masterBtn = new Button({
+            btnID: 'btnMaster' + prefix,
+            label: label,
+            onClick: () => {
+              let btnsDiv = containerDiv.querySelector('#' + id + 'Btns');
+              if (btnsDiv) return btnsDiv.classList.toggle(hidden);
+              insertExpandableBtn(saints, masterDiv, 'afterend', prefix)
+                .id = id + 'Btns';
+            }
+          });
+
+          createHtmlBtn({
+            btn: masterBtn,
+            btnsContainer: masterDiv,
+            btnClass: inlineBtnClass,
+            clear: false,
+            onClick: masterBtn.onClick //!We need to set the onClick property otherwise it will be set to showChildBtnsOrPrayers(masterCymbal) which, at its turn, will call the setCSS() for the containerDiv (the container by default since masterCymbal does not have a docFragment) for the second time
+          });
+
+        })();
+
+
+      };
 
       /**
        * Inserts a new element in the btn.prayersSequence[]. This elment will serve as a placeholder to insert the relevant prayers (Cymbal Verses or Doxologies) for the current season or feast
@@ -2224,8 +2236,8 @@ Btn.IncenseMorning = new Button({
        * @param {string} prefix - the prefix with which all the tables in the concerned tables array start (i.e., either Prefix.cymbalVerses, or Prefix.doxologies)
        * @returns {string[][][]} - an array of the tables[][] found
        */
-      function processSequence(sequence: string[], prefix: string): string[][][] {
-        let tables: string[][][] = [],
+      function processSequence(sequence: string[], prefix: string): Set<string[][]> {
+        let tables: Set<string[][]> = new Set(),
           tablesArray: string[][][] = getArrayFromPrefix(prefix);
 
         sequence.map((tblTitle) => {
@@ -2235,9 +2247,9 @@ Btn.IncenseMorning = new Button({
               .filter((tbl) =>
                 isMultiDatedTitleMatching(Title(tbl), [tblTitle])
               )
-              .forEach((tbl) => tables?.push(tbl));
+              .forEach((tbl) => tables.add(tbl));
           else
-            tables.push(
+            tables.add(
               findTable(tblTitle, tablesArray) as string[][]
             );
         });
@@ -4828,43 +4840,149 @@ async function insertGospelReadingAndResponses(args: {
         //gospel[] should include 2 tables: the first table is the psalm and its title is like '....Psalm&D=...'. The 2nd is the gospel: its title is like '....Gospel&D=...'.
         const tblTitle = Title(table).split('&C=')[0];
         if (tblTitle.includes('?')) return;
-        if (!args.isMass && tblTitle.includes('Psalm'))
+        let type: string;
+        tblTitle.includes('Gospel') ? type = 'Gospel' : type = 'Psalm';
+        
+
+        if (!args.isMass && type !== 'Gospel')
           return;
         let anchor: HTMLElement;
 
-        if (tblTitle.includes('Gospel'))
-          anchor = getAnchor('Gospel');
+        if (type === 'Gospel')
+          anchor = getAnchor(type);
         else if (copticReadingsDate === copticFeasts.PalmSunday && RegExp('Psalm([2-9]|[1-9][0-9])&D=').test(tblTitle))
           anchor = getAnchor('Gospel');//Starting from the 2nd Psalm, we will insert all the psalms and gospels before the gospel anchor
-        else if (tblTitle.includes('Psalm'))
-          anchor = getAnchor('Psalm');
+        else anchor = getAnchor('Psalm');
         
         if (!anchor) return;
 
+        const tbls = await retrieveFromBible(table, tblTitle);
+
+        (function palmSunday() { 
+          if(copticReadingsDate !== copticFeasts.PalmSunday)
+            return;
+          if (args.prefix !== Prefix.gospelMorning)
+            return;
+
+          tbls.unshift(buildTitleRow(type, tblTitle.split(type)[1].split('&D=')[0]));
+
+
+          if (type !== 'Gospel')
+            return;
+
+            tbls.push(findTable(
+              tblTitle
+                .replace(args.prefix, Prefix.gospelResponse)
+                .replace('Gospel', '')) || undefined);
+
+          function buildTitleRow(type: string, n: string): string[][] {
+            if (!Number(n)) return;
+                  const labels = [
+                    {
+                      AR: 'الإنجيل XXX',
+                      FR: 'XXX Evangile',
+                      EN: 'XXX Gospel',
+                    },
+                    {
+                      AR: 'مزمور ',
+                      FR: 'Psaume du ',
+                      EN: 'Psalm of the ',
+                    },
+                  ];
+                  const num = [
+                    {
+                      AR: 'الأول',
+                      FR: '1er',
+                      EN: '1st',
+                    },
+                    {
+                      AR: 'الثاني',
+                    FR: '2ème',
+                      EN: '2nd',
+                    },
+                    {
+                      AR: 'الثالث',
+                    FR: '3ème',
+                      EN: '3rd',
+                    },
+                    {
+                      AR: 'الرابع',
+                    FR: '4ème ',
+                      EN: '4th',
+                    },
+                    {
+                      AR: 'الخامس',
+                    FR: '5ème',
+                      EN: '5th',
+                    },
+                    {
+                      AR: 'السادس',
+                    FR: '6ème',
+                      EN: '6th',
+                    },
+                    {
+                      AR: 'السابع',
+                    FR: '7ème',
+                      EN: '7th',
+                    },
+                    {
+                      AR: 'الثامن',
+                    FR: 'premier ',
+                      EN: 'first ',
+                    },
+                    {
+                      AR: 'التاسع',
+                    FR: '9ème',
+                      EN: '9th',
+                    },
+                    {
+                      AR: 'العاشر',
+                    FR: '10ème',
+                      EN: '10th',
+                    },
+                    {
+                      AR: 'الحادي عشر',
+                    FR: '11ème',
+                      EN: '11th',
+                    },
+                    {
+                      AR: 'الثاني عشر',
+                    FR: '12ème',
+                      EN: '12th',
+                    },
+                  ];
+                  
+                  const tbl: string[][] = [[
+                    Prefix.gospelResponse + '&C=Title',
+                ]];
+                
+                  tbl[0].push(...getLanguages(Prefix.gospelResponse)
+                    .map(lang => {
+                      if (!labels[0][lang]) return '';
+                      const lable: string =
+                        labels[0][lang]?.replace('XXX', num[Number(n) - 1][lang]);
+                      
+                      if (type === 'Psalm')
+                        return labels[1][lang] + lable;
+                      return lable
+                  }));
+      
+                  return tbl;
+                  
+          }
+
+        })();
+   
+        
         insertPrayersAdjacentToExistingElement({
-          tables: await retrieveFromBible(table, tblTitle),
-          languages: args.languages,
+          tables: tbls,
+       //   languages: args.languages, we are omitting the languages on purpose
           position: {
             beforeOrAfter: "beforebegin",
             el: anchor,
           },
           container: args.container,
         });
-
-        if (copticReadingsDate === copticFeasts.PalmSunday && args.prefix === Prefix.gospelMorning && tblTitle.includes('Gospel')) {
-          insertPrayersAdjacentToExistingElement({
-            tables: [findTable(
-              tblTitle
-                .replace(args.prefix, Prefix.gospelResponse)
-                .replace(RegExp('(Psalm|Gospel)',), '')) || undefined],
-            languages: getLanguages(Prefix.gospelResponse),
-            position: {
-              beforeOrAfter: "beforebegin",
-              el: anchor,
-            },
-            container: args.container,
-          });
-        }
 
       }));
       

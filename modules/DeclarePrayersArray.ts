@@ -574,7 +574,6 @@ PrayersArrayFR = [[
     Prefix.placeHolder,
     Prefix.cymbalVerses + "Apostles"
   ],
-
   [
     Prefix.same + "&C=Diacon",
     "Ⲭⲉⲣⲉ ⲡⲉⲛⲓⲱⲧ Ⲡⲉⲧⲣⲟⲥ : ⲛⲉⲙ ⲡⲉⲛⲥⲁϧ Ⲡⲁⲩⲗⲟⲥ : ⲛⲓⲛⲓϣϯ ⲛ̀ⲥ̀ⲧⲩⲗⲗⲟⲥ : ⲉⲧⲧⲁϫⲣⲟ ⲛ̀ⲛⲓⲡⲓⲥⲧⲟⲥ.",
@@ -3379,7 +3378,247 @@ PrayersArrayFR = [[
     "اشفع فِينَا يا رئيس♫ المَلائِكَةْ المُقَدَّسْ♫ ميخائيل رئيس السمائيين♫ لِيَغْفِرْ لَنَا خَطَايَانَا.",
   ],
   ],
-
+[
+    [
+        Prefix.doxologies + "StRaphael&C=Title",
+        "",
+        "Doxologie pour l’Archange Raphaël",
+        "",
+        "ذكصولوجية رئيس الملائكة رافائيل"
+    ],
+    [
+        Prefix.same + "&C=Diacon",
+        "Ⲅⲉⲛⲉⲁ̀ ⲛⲓⲃⲉⲛ ⲉⲧⲁⲩϣⲱⲡⲓ:  ⲓⲥϫⲉⲛ Ⲁⲇⲁⲙ ϣⲁ ⲉ̀ϧⲟⲩⲛ ⲉ̀ⲫⲟⲟⲩ:  ⲥⲉϫⲓⲙⲓ ⲅⲁⲣ ⲛ̀Ⲣⲁⲫⲁⲏⲗ:  ⲉϥⲟⲓ ⲛ̀ⲥⲟⲃⲧ ⲛ̀ϯⲙⲉⲧⲣⲱⲙⲓ.",
+        "Toutes les générations,♫ depuis Adam jusqu’à ce jour,♫ trouvent Raphaël♫ comme rempart pour l’humanité .",
+        "",
+        "كل الأجيال الذين كانوا♫ من آدم إلى اليوم♫ يجدون رافائيل♫ حصنا للبشرية."
+    ],
+    [
+        Prefix.same + "&C=Diacon",
+        "Ⲫ̀ⲟⲩⲁⲓ ⲫ̀ⲟⲩⲁⲓ ⲛ̀ⲧⲉ ⲛⲓⲕ̀ⲣⲓⲧⲏⲥ:  ⲛⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ ⲛⲉⲙ ⲛⲓⲑ̀ⲙⲏⲓ:  ⲛⲉⲙ ⲛⲓⲟⲩⲣⲱⲟⲩ ⲛ̀ⲇⲓⲕⲉⲟⲥ: ⲛ̀ⲑⲟϥ ⲉⲧⲟⲓ ⲛ̀ⲛⲁϣϯ ⲛⲱⲟⲩ.",
+        "Chacun des juges,♫ des prophètes, des pieux,♫ des rois et des justes,♫ était vainqueur par lui.",
+        "",
+        "وكل واحد من القضاة♫ ولأنبياء والأبرار♫ والملوك والصديقين♫ كان ناصرا لهم."
+    ],
+    [
+        Prefix.same + "&C=Diacon",
+        "Ⲛⲉⲛⲓⲟϯ ⲉⲑⲟⲩⲁⲃ ⲛ̀ⲁ̀ⲡⲟⲥⲧⲟⲗⲟⲥ: ⲛ̀ⲑⲟϥ ⲉ̀ⲧⲉⲣϭⲁⲩⲙⲱⲓⲧ ϧⲁϫⲱⲟⲩ:  ϣⲁⲛ̀ⲧⲟⲩⲧⲁⲥⲑⲟ ⲛ̀ϯⲟⲓⲕⲟⲩⲙⲉⲛⲏ: ⲉ̀ϧⲟⲩⲛ ⲉ̀ⲡ̀ⲥⲟⲩⲉⲛ ϯⲙⲉⲑⲙⲏⲓ.",
+        "Nos saint pères les apôtres,♫ il les a guidés,♫ jusqu’à ce qu’ils ramenèrent l’univers♫ à la connaissance de la vérité.",
+        "",
+        "وأباؤنا القديسون الرسل♫ هو الذى أرشدهم♫ حتى ردوا المسكونة♫ إلى معرفة الحق."
+    ],
+    [
+        Prefix.same + "&C=Diacon",
+        "Ⲛⲓⲁ̀ⲑⲗⲓⲧⲏⲥ ⲙ̀ⲙⲁⲣⲧⲩⲣⲟⲥ:  ⲛ̀ⲧⲉ Ⲡⲉⲛϭⲟⲓⲥ Ⲓⲏ̅ⲭ̅ ⲙ̀ⲡⲉϥⲥ̀ⲉⲛⲟⲩ ⲉ̀ⲃⲟⲗ ⲙ̀ⲡ̀ⲧⲏⲣϥ: ϣⲁⲛ̀ⲧⲟⲩⲉⲣⲫⲟⲣⲓⲛ ⲙ̀ⲡⲓⲭ̀ⲗⲟⲙ ⲛ̀ⲁⲑⲗⲱⲙ.",
+        "Et les persévérants martyrs,♫ de notre Seigneur  Jésus-Christ,♫ il ne les délaissa pas♫ jusqu’à ce qu’ils reçurent la couronne non périssable.",
+        "",
+        "والشهداء المجاهدون♫ الذين لربنا يسوع المسيح♫ لم يفارقهم جميعا♫ حتى لبسوا الاكليل الغير المضمحل."
+    ],
+    [
+        Prefix.same + "&C=Diacon",
+        "Ⲛⲓⲕⲉⲥⲱⲧⲡ ⲛ̀ⲁⲥⲕⲏⲧⲏⲥ:  ⲉⲧⲥⲱⲣⲉⲙ ⲉ̀ⲃⲟⲗ ϩⲓ ⲛⲓϣⲁϥⲉⲩ: Ⲣⲁⲫⲁⲏⲗ ϩⲓⲕⲱⲧ ⲉ̀ⲣⲱⲟⲩ:  ϣⲁⲛ̀ⲧⲟⲩϫⲱⲕ ⲙ̀ⲡⲟⲩⲃⲓⲟⲥ ⲉ̀ⲃⲟⲗ.",
+        "Et les élus ascètes,♫ Perdus dans les déserts,♫ Raphaël les entourait,♫ jusqu’à ce qu’ils achevèrent leur course.",
+        "",
+        "والنساك المختارون♫ التائهون في البراري♫ كان رفائيل يحيط بهم♫ حتى أكملوا سعيهم ."
+    ],
+    [
+        Prefix.same + "&C=Diacon",
+        "Ϣⲁⲣⲉ ⲡ̀ⲁ̀ⲅⲅⲉⲗⲟⲥ ⲙ̀Ⲡⲟ̅ϩⲓⲕⲱϯ ⲙ̀ⲡ̀ⲕⲱϯ ⲛ̀ⲟⲩⲟⲛ ⲛⲓⲃⲉⲛ: ⲉ̀ⲧⲉⲣϩⲟϯ ϧⲁ ⲧⲉϥϩⲏ:  ϣⲁϥⲣⲱⲓⲥ ⲉ̀ⲣⲱⲟⲩ ⲟⲩⲟϩ ϣⲁϥⲛⲁϩⲙⲟⲩ",
+        "L’ange du Seigneur♫ entoure tous ceux♫ qui le craignent,♫ il les garde et les sauve.",
+        "",
+        "ملاك الرب♫ يحيط♫ بكل خائفيه♫ يحرسهم وينجيهم."
+    ],
+    [
+        Prefix.same + "&C=Diacon",
+        "Ⲙⲁⲣⲉⲛϯⲱ̀ⲟⲩ ⲛ̀Ϯⲧ̀ⲣⲓⲁⲥ:  ⲉⲑⲟⲩⲁⲃ ⲛ̀ⲟ̀ⲙⲟⲟⲩⲥⲓⲟⲥ:  ϩⲓⲛⲁ ⲛ̀ⲧⲉϥⲁ̀ⲣⲉϩ ⲉ̀ⲣⲟⲛ:  ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲛⲓⲡⲁⲣⲁⲥⲙⲟⲥ.",
+        "Glorifions la Sainte Trinité, consubstantielle,♫ pour qu’Il nous délivre♫ des tentations.",
+        "",
+        "فلنمجد الثالوث♫ المقدس المساوي♫  لكى يحفظنا♫ من التجارب."
+    ],
+    [
+        Prefix.same + "&C=Diacon",
+        "Ⲁⲣⲓⲡ̀ⲣⲉⲥⲃⲉⲩⲓⲛ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ:  ⲱ̀ ⲡⲓⲁⲣⲭⲓⲁⲅⲅⲉⲗⲟⲥ ⲉⲑⲟⲩⲁⲃ:  Ⲣⲁⲫⲁⲏⲗ ⲡ̀ⲟⲩⲛⲟϥ ⲛ̀ϩⲏⲧ:  ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ.",
+        "Intercède pour nous♫ ô archange pur Raphaël♫ qui réjouit les cœurs,♫ pour qu’Il nous pardonne nos péchés.",
+        "",
+        "اشفع فينا يارئيس ♫الملائكة الطاهر♫ رافائيل مفرح القلوب♫ ليغفر لنا خطايانا."
+    ]
+],
+[
+    [
+        Prefix.doxologies + "StGabriel&C=Title",
+        "",
+        "Doxologie pour l’archange gabriel",
+        "",
+        "ذكصولوجية رئيس الملائكة غبريال"
+    ],
+    [
+        Prefix.same + "&C=Diacon",
+        "Ⲅⲁⲃⲣⲓⲏⲗ ⲡⲓⲁⲅⲅⲉⲗⲟⲥ: ⲁϥⲛⲁⲩ ⲉ̀ⲣⲟϥ ⲛ̀ϫⲉ Ⲇⲁⲛⲓⲏⲗ:  ⲉϥⲟ̀ϩⲓ ⲉⲣⲁⲧϥ ϩⲓϫⲉⲛ ⲛⲉϥⲫⲁⲧ:  ϩⲓϫⲉⲛ ⲛⲉⲛⲥ̀ⲫⲟⲧⲟⲩ ⲙ̀ⲫ̀ⲓⲁⲣⲟ.",
+        "Daniel a vu l’ange Gabriel,♫ debout sur ses pieds au♫ bord du fleuve.",
+        "",
+        "غبريال الملاك♫ رآه دانيال♫ واقفا على قدميه♫ على شاطئ النهر."
+    ],
+    [
+        Prefix.same + "&C=Diacon",
+        "Ⲁϥⲥⲟⲩⲧⲉⲛ ⲧⲉϥϫⲓϫ ⲉ̀ⲃⲟⲗ:  ⲛ̀ⲟⲩⲓⲛⲁⲙ ϣⲁ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ⲧ̀ⲫⲉ: ⲉⲧⲁϥⲱⲣⲕ ⲙ̀ⲫⲏⲉⲧϭⲟⲥⲓ:  ⲫⲏⲉⲧϣⲟⲡ ϣⲁ ⲉ̀ⲛⲉϩ.",
+        "Il tendit sa main droite,♫ vers le ciel, et jura par le♫ Très-Haut qui est pour♫ toujours.",
+        "",
+        "ومد يده♫ اليمنى إلى السماء♫ وحلف بالعلى♫ الدائم إلى الأبد."
+    ],
+    [
+        Prefix.same + "&C=Diacon",
+        "Ϫⲉ ⲓⲥϫⲉⲛ ⲟⲩⲥⲏⲟⲩ ϣⲁ ⲟⲩⲥⲏⲟⲩ: ϣⲁ ⲧ̀ⲕⲉⲫⲁϣⲓ ⲛ̀ⲧⲉ ⲟⲩⲥⲏⲟⲩ:  ϣⲁ ⲡ̀ϫⲱⲕ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉ ⲛⲓϩⲟⲣⲁⲥⲓⲥ:  ⲁⲛⲟⲕ ϯⲛⲁⲧⲁⲙⲟⲕ ⲉ̀ⲣⲱⲟⲩ.",
+        "Disant : d’un temps à un♫ autre, et à un demi temps,♫ jusqu’à la fin de la vision♫ dont je t’informe.",
+        "",
+        "قائلا من زمان إلى زمان♫ وإلى نصف زمان♫ إلى تمام الرؤيا♫ أنا أخبرك بها."
+    ],
+    [
+        Prefix.same + "&C=Diacon",
+        "Ⲁⲣⲓⲡ̀ⲣⲉⲥⲃⲉⲩⲓⲛ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ:  ⲱ̀ ⲡⲓⲁⲣⲭⲓⲁⲅⲅⲉⲗⲟⲥ ⲉⲑⲟⲩⲁⲃ:  Ⲅⲁⲃⲣⲓⲏⲗ ⲡⲓϥⲁⲓϣⲉⲛⲛⲟⲩϥⲓ:  ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ.",
+        "Disant : d’un temps à un♫ autre, et à un demi temps,♫ jusqu’à la fin de la vision♫ dont je t’informe.",
+        "",
+        "اشفع فينا♫ يارئيس الملائكة♫ الطاهر غبريال♫ ليغفر لنا خطايانا."
+    ],
+    [
+        Prefix.same + "&C=Diacon",
+        "Ⲙⲁⲣⲉⲛⲟⲩⲱϣⲧ ⲙ̀Ⲫ̀ⲓⲱⲧ ⲛⲉⲙ Ⲡ̀ϣⲏⲣⲓ:  ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ Ⲉⲑⲟⲩⲁⲃ:  ⲛ̀ⲧⲉⲛⲧⲁⲓⲟ ⲛ̀Ⲥⲟⲩⲣⲓⲏⲗ: ⲡⲓⲙⲁϩϥ̀ⲧⲟⲩ ⲛ̀ⲁⲣⲭⲓⲁⲅⲅⲉⲗⲟⲥ.",
+        "Prosternons-nous au Père,♫ au Fils et au Saint-Esprit,♫ et honorons Souriel,♫ le quatrième des archanges.",
+        "",
+        "فلنسجد للآب والابن♫ والروح القدس♫ ونكرم سوريال♫ الرابع في رؤساء الملائكة."
+    ]
+],
+[
+    [
+        Prefix.doxologies + "StSoriel&C=Title",
+        "",
+        "Doxologie pour l’archange souriel",
+        "",
+        "ذكصولوجية رئيس الملائكة سوريال"
+    ],
+    [
+        Prefix.same + "&C=Diacon",
+        "Ⲛⲁⲛⲉ ⲫ̀ⲣⲁϣⲓ ⲛ̀Ⲥⲟⲩⲣⲓⲏⲗ:  ⲉⲛⲓ̀ⲣⲓ ⲙ̀ⲙⲟϥ ϧⲉⲛ ⲛⲓⲉⲕⲕ̀ⲗⲏⲥⲓⲁ:  ⲉ̀ϩⲟⲧⲉ ⲫ̀ⲣⲁϣⲓ ⲛ̀ⲟⲩⲡⲁⲧϣⲉⲗⲉⲧ:  ⲛ̀ⲧⲉ ⲡⲁⲓⲕⲟⲥⲙⲟⲥ ⲉⲑⲛⲁⲥⲓⲛⲓ.",
+        "Il est bon de faire la joie♫ de Souriel dans les églises,♫ plus que la joie des noces♫ de ce monde qui passe.",
+        "",
+        "جيد هو فرح سوريال♫ نصنعه في الكنائس♫ أكثر من فرح عرس♫ هذا العالم الزائل."
+    ],
+    [
+        Prefix.same + "&C=Diacon",
+        "Ⲝⲱⲟⲩⲛ ϩⲱⲕ ⲱ̀ⲡⲁⲙⲉⲛⲣⲓⲧ:  ϫⲉ ⲫ̀ⲣⲁϣⲓ ⲙ̀ⲡⲓⲕⲟⲥⲙⲟⲥ ϥ̀ⲛⲁⲥⲓⲛⲓ:  ⲟⲩⲟϩ ⲫ̀ⲣⲁϣⲓ ⲛ̀Ⲥⲟⲩⲣⲓⲏⲗ:  ϥ̀ⲙⲏⲛ ⲉ̀ⲃⲟⲗ ϣⲁ ⲉ̀ⲛⲉϩ.",
+        "Toi aussi, apprends bienaimé,♫ que la joie du monde♫ passe tandis que la joie de♫ Souriel demeure éternellement.",
+        "",
+        "أنت أيضا تعلم أيها الحبيب ♫أن فرح العالم يزول♫ وأما فرح سوريال♫ فيدوم إلى الأبد ."
+    ],
+    [
+        Prefix.same + "&C=Diacon",
+        "Ⲁⲣⲓⲡ̀ⲣⲉⲥⲃⲉⲩⲓⲛ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ: ⲱ̀ ⲡⲓⲁⲣⲭⲓⲁⲅⲅⲉⲗⲟⲥ ⲉⲑⲟⲩⲁⲃ:  Ⲥⲟⲩⲣⲓⲏⲗ ⲡⲓⲥⲁⲗⲡⲓⲥⲧⲏⲥ:  ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ.",
+        "Intercède pour nous ô♫ archange pur Souriel le♫ trompettiste, pour qu’Il♫ nous pardonne nos péchés.",
+        "",
+        "اشفع فينا♫ يارئيس الملائكة♫ الطاهر سوريال♫ ليغفر لنا خطايانا."
+    ]
+],
+[
+    [
+        Prefix.doxologies + "StFourCelestialBeings&C=Title",
+        "",
+        "Doxologie pour les quatres animaux incorporels",
+        "",
+        "ذكصولوجية الأربعة حيوانات"
+    ],
+    [
+        Prefix.same + "&C=Diacon",
+        "Ⲡⲓϥ̀ⲧⲟⲩ ⲛ̀ⲍⲱⲟⲛ ⲛ̀ⲁ̀ⲥⲱⲙⲁⲧⲟⲥ:  ⲉⲧϥⲁⲓ ϧⲁ ⲡⲓϩⲁⲣⲙⲁ ⲛ̀ⲧⲉ Ⲫ̀ⲛⲟⲩϯ:  ⲟⲩϩⲟ ⲙ̀ⲙⲟⲩⲓ ⲛⲉⲙ ⲟⲩϩⲟ ⲙ̀ⲙⲁⲥⲓ:  ⲟⲩϩⲟ ⲛ̀ⲣⲱⲙⲓ ⲛⲉⲙ ⲟⲩϩⲟ ⲛ̀ⲁ̀ⲏⲧⲟⲥ.",
+        "Les quatre animaux incorporels, portant le trône de Dieu, un visage de lion, un visage de taureau, un visage d’homme et un visage d’aigle.",
+        "",
+        "الأربعة الحيوانات غير المتجسدين♫  الحاملين مركبة الله♫ وجه أسد ووجه ثور♫ ووجه انسان ووجه نسر."
+    ],
+    [
+        Prefix.same + "&C=Diacon",
+        "Ⲟⲩⲟϩ ⲟⲛ ⲉⲩⲙⲉϩ ⲙ̀ⲃⲁⲗ: ϩⲓⲧ̀ϩⲏ ⲛⲉⲙ ϩⲓⲫⲁϩⲟⲩ ⲙ̀ⲙⲱⲟⲩ:  ⲥⲟⲟⲩ ⲛ̀ⲧⲉⲛϩ ⲙ̀ⲡⲓⲟⲩⲁⲓ:  ⲛⲉⲙ ⲥⲟⲟⲩ ⲛ̀ⲧⲉⲛϩ ⲙ̀ⲡⲓⲕⲉⲟⲩⲁⲓ.",
+        "Eux aussi, aux yeux♫ multiples, de devant et♫ derrière, six ailes pour♫ l’un, et six ailes pour l’autre.",
+        "",
+        "وهم أيضا ممتلئون أعينا♫ من قدام ومن خلفهم.♫ ستة أجنحة للواحد♫ وستة أجنحة للآخر."
+    ],
+    [
+        Prefix.same + "&C=Diacon",
+        "Ϧⲉⲛ ⲥ̀ⲛⲁⲩ ⲉⲩϩⲱⲃⲥ ⲛ̀ⲛⲟⲩϩⲟ:  ϧⲉⲛ ⲥ̀ⲛⲁⲩ ⲉⲩϩⲱⲃⲥ ⲛ̀ⲛⲟⲩϭⲁⲗⲁⲩϫ: ⲉⲩϩⲏⲗ ϫⲉ ϧⲉⲛ ⲡⲓⲕⲉⲥ̀ⲛⲁⲩ:  ⲉⲩⲱϣ ⲉ̀ⲃⲟⲗ ⲉⲩϫⲱ ⲙ̀ⲙⲟⲥ.",
+        "Avec deux, ils se protègent♫ le visage, avec deux ils se♫ couvrent les pieds et ils♫ volent avec deux, ils♫ proclament en disant :",
+        "",
+        "باثنين يغطون وجوههم♫ وباثنين يغطون أرجلهم.♫ ويطيرون باثنين♫ ويصرخون قائلين."
+    ],
+    [
+        Prefix.same + "&C=Diacon",
+        "Ϫⲉ ⲭ̀ⲟⲩⲁⲃ ⲟⲩⲟϩ ⲭ̀ⲟⲩⲁⲃ:  ⲭ̀ⲟⲩⲁⲃ Ⲡ̀ϭⲟⲓⲥ ⲥⲁⲃⲁⲱⲑ:  ⲧ̀ⲫⲉ ⲛⲉⲙ ⲡ̀ⲕⲁϩⲓ ⲙⲉϩ ⲉ̀ⲃⲟⲗ: ϧⲉⲛ ⲡⲉⲕⲱ̀ⲟⲩ ⲛⲉⲙ ⲡⲉⲕⲧⲁⲓⲟ.",
+        "Saint, saint, saint,♫ Seigneur Sabaot, ciel et♫ terre sont remplis de Ta♫ gloire et de Ton honneur.",
+        "",
+        "قدوس قدوس♫ قدوس رب الصاباؤوت.♫ السماء والأرض مملوءتان♫ من مجدك وكرامتك. "
+    ],
+    [
+        Prefix.same + "&C=Diacon",
+        "Ⲁⲛⲟⲛ ⲇⲉϩⲱⲛ ⲧⲉⲛϩⲱⲥ ⲛⲉⲙⲱⲟⲩ:  ϧⲉⲛ ϩⲁⲛⲥ̀ⲙⲏ ⲛ̀ⲁⲧⲭⲁⲣⲱⲟⲩ:  ϫⲉ ⲁⲅⲓⲟⲥ ⲁⲅⲓⲟⲥ:  ⲁⲅⲓⲟⲥ ⲱ̀ Ⲕⲩⲣⲓⲟⲥ.",
+        "Nous louons avec eux♫ d’une voix incessante, en♫ disant : Saint Saint Saint, ô♫ Seigneur.",
+        "",
+        "نسبح معهم♫ بأصوات غير ساكتة قائلين:♫ قدوس قدوس♫ قدوس أيها الرب."
+    ],
+    [
+        Prefix.same + "&C=Diacon",
+        "Ⲁⲣⲓⲡ̀ⲣⲉⲥⲃⲉⲩⲓⲛ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ: ⲱ̀ ⲡⲓϥ̀ⲧⲟⲩ ⲛ̀ⲍⲱⲟⲛ ⲛ̀ⲁ̀ⲥⲱⲙⲁⲧⲟⲥ: ⲛ̀ⲗⲓⲧⲟⲩⲣⲅⲟⲥ ⲛ̀ϣⲁϩ ⲛ̀ⲭ̀ⲣⲱⲙ:  ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ.",
+        "Intercédez pour nous, les♫ quatres animaux♫ incorporels, les fervents♫ servants, pour qu’Il nous♫ pardonne nos péchés.",
+        "",
+        "♫اشفعوا فينا أمام الرب♫ أيها الأربعة الحيوانات غير المتجسدين♫ الخدام الملتهبون نارا ليغفر لنا خطايانا."
+    ]
+],
+[
+    [
+        Prefix.doxologies + "StTwentFourPriests&C=Title",
+        "",
+        "Doxologie pour les 24 prêtres",
+        "",
+        "ذكصولوجية الأربعة والعشرون قسيساُ"
+    ],
+    [
+        Prefix.same + "&C=Diacon",
+        "Ⲟⲩⲛⲓϣϯ ⲅⲁⲣ ⲡⲉ ⲡⲓⲧⲁⲓⲟ: ⲛ̀ⲧⲉ ⲛⲏⲉⲑⲟⲩⲁⲃ ⲛ̀ⲁ̀ⲥⲱⲙⲁⲧⲟⲥ: ⲛⲓⲟⲩⲏⲃ ⲛ̀ⲧⲉ ϯⲙⲉⲑⲙⲏⲓ:  ⲡⲓϫⲟⲩⲧ ϥ̀ⲧⲟⲩ ⲙ̀ⲡⲣⲉⲥⲃⲩⲧⲉⲣⲟⲥ.",
+        "Grand est l’honneur, des♫ saints incorporels, les prêtres♫ de vérité, les vingt-quatre♫ vieillards.",
+        "",
+        "عظيمة هى كرامة♫ القديسين غير المتجسدين♫ كهنة كهنة الحق♫ الاﺮبعة ﻮﻋشرﻴﻦ قسيسا."
+    ],
+    [
+        Prefix.same + "&C=Diacon",
+        "Ⲉⲑⲃⲉ ”ϫⲉ ⲥⲉϧⲉⲛⲧ ⲉ̀ϧⲟⲩⲛ ⲉ̀Ⲫ̀ⲛⲟⲩϯ:  ⲟⲩⲟϩ ⲉⲩⲭⲏ ⲛⲁϩⲣⲉⲛ ⲡⲉϥⲑ̀ⲣⲟⲛⲟⲥ:  ⲉⲩϩⲱⲥ ⲉ̀ⲣⲟϥ ϧⲉⲛ ⲟⲩⲙⲉⲧⲁⲧⲙⲟⲩⲛⲕ:  ⲙ̀ⲡⲓⲉ̀ϩⲟⲟⲩ ⲛⲉⲙ ⲡⲓⲉ̀ϫⲱⲣϩ.",
+        "Car ils sont proches de♫ Dieu, et à proximité de son♫ trône, ils le louent sans cesse,♫ le jour et la nuit.",
+        "",
+        "من أجل أنهم قريبون من الله♫ وكائنون أمام كرسيه♫ يسبحون بلافتور♫ النهار والليل. "
+    ],
+    [
+        Prefix.same + "&C=Diacon",
+        "Ⲉⲩϩⲉⲙⲥⲓ ϩⲓϫⲉⲛ ϫⲟⲩⲧ ϥ̀ⲧⲟⲩ ⲛ̀ⲑ̀ⲣⲟⲛⲟⲥ:  ⲉⲣⲉ ϩⲁⲛⲭ̀ⲗⲟⲙ ϩⲓϫⲉⲛ ⲛⲟⲩⲁ̀ⲫⲏⲟⲩⲓ̀:  ⲉⲣⲉ ϩⲁⲛⲫⲩⲁ̀ⲗⲏ ⲛ̀ⲛⲟⲩⲃ ϧⲉⲛ ⲛⲟⲩϫⲓϫ:  ⲉⲩⲙⲉϩ ⲛ̀ⲥ̀ⲑⲟⲓⲛⲟⲩϥⲓ ⲉϥⲥⲱⲧⲡ.",
+        "Ils sont assis sur les vingt-quatre♫ trônes, avec des couronnes sur leur tête, et des encensoirs d'or dans♫ leurs mains, pleins d'encens choisi.",
+        "",
+        "جالسين على الاﺮبعة ﻮﻋشرﻴﻦ كرسيا♫  وأكاليل على رؤوسهم.♫ وجامات ذهب بأيديهم♫ مملوءة بخورا مختارا."
+    ],
+    [
+        Prefix.same + "&C=Diacon",
+        "Ⲉⲧⲉ ⲛⲁⲓ ⲛⲉ ⲛⲓⲡⲣⲟⲥⲉⲩⲭⲏ: ⲛ̀ⲧⲉ ⲛⲓⲁⲅⲓⲟⲥ ⲉⲧϩⲓϫⲉⲛ ⲡⲓⲕⲁϩⲓ:  ⲉⲩⲉⲣⲡ̀ⲣⲟⲥⲕⲩⲛⲓⲛ ⲙ̀ⲙⲱⲟⲩ:  ⲉ̀ϧⲟⲩⲛ ϣⲁ ⲡⲓϩⲓⲏⲃ ⲙ̀ⲙⲏⲓ.",
+        "Qui sont les prières, des♫ saints qui sont sur terre, et ils♫ les présentent au véritable♫ Agneau.",
+        "",
+        "الذى هو صلوات♫ القديسين الذين على الأرض.♫ يقدمونها إلى♫ الحمل الحقيقي."
+    ],
+    [
+        Prefix.same + "&C=Diacon",
+        "Ⲛⲏⲉⲑⲛⲁⲟⲩⲱⲛϩ ⲛ̀ⲛⲟⲩⲣⲁⲛ ⲉ̀ⲃⲟⲗ:  ⲉ̀ⲧⲓ ⲉⲩϣⲟⲡ ϩⲓϫⲉⲛ ⲡⲓⲕⲁϩⲓ:  ⲥⲉⲛⲁⲧⲱⲃϩ ⲙ̀Ⲡ⳪ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲟⲩ: ⲉⲩⲃⲉ ϫⲉ ⲥⲉϧⲉⲛⲧ ⲉ̀ϧⲟⲩⲛ ⲉ̀Ⲫ̀ⲛⲟⲩϯ.",
+        "Et ceux qui vivent sur la terre,♫ leurs noms sont révélés,♫ ils demandent au Seigneur pour eux,♫ car ils sont proches de Dieu.",
+        "",
+        "الذين يظهرون أسماءهم♫ وهم كائنون على الأرض♫ يطلبون من الرب عنهم♫ من أجل أنهم قريبون من الله."
+    ],
+    [
+        Prefix.same + "&C=Diacon",
+        "Ⲁⲣⲓⲡ̀ⲣⲉⲥⲃⲉⲩⲓⲛ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ:  ⲛⲓⲟⲩⲏⲃ ⲛ̀ⲧⲉ ϯⲙⲉⲑⲙⲏⲓ:  ⲡⲓϫⲟⲩⲧ ϥ̀ⲧⲟⲩ ⲙ̀ⲡⲣⲉⲥⲃⲩⲧⲉⲣⲟⲥ:  ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ.",
+        "Intercédez pour nous, les prêtres de vérité,  les vingt-quatre vieillards,♫ pour qu’Il nous pardonne nos péchés.",
+        "",
+        "اشفعوا فينا أمام الرب♫ يا كهنة الحق♫ الأربعة ﻮﻋشرﻴﻦ قسيسا♫ ليغفر لنا خطايانا."
+    ]
+],
 [
   [
     Prefix.doxologies + "CelestialBeings&C=Title",

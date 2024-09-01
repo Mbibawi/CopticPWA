@@ -145,7 +145,7 @@ const Btn: { [index: string]: Button } = {};
 
 //CONSTANTS
 const version: string =
-  "v8.9 (Fixes to the languages selection)";
+  "v8.9.1 (Added to the Palm Sunday 12 Morning Gospels)";
 const calendarDay: number = 24 * 60 * 60 * 1000; //this is a day in milliseconds
 const containerDiv: HTMLDivElement = document.getElementById(
   "containerDiv") as HTMLDivElement;
