@@ -1737,6 +1737,8 @@ Btn.IncenseMorning = new Button({
           if (!parag) return;
           if (btn === Btn.IncenseMorning)
             thanks = variable.thanksMorning;
+          else if (btn === Btn.IncenseVespers)
+            thanks = variable.thanksVespers;
           else if (btn === Btn.MassUnBaptised)
             thanks = variable.thanksMass;
           else if (btn.btnID === Btn.Lakkan.btnID)
@@ -1746,6 +1748,7 @@ Btn.IncenseMorning = new Button({
         });
 
       function adapt(parag: HTMLParagraphElement, lang: string, thanks: object) {
+        if (!thanks) return parag.innerHTML;
         return parag.innerHTML.replace(variable.thanksVespers[lang], thanks[lang]);
       }
 
