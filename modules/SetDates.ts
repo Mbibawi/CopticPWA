@@ -64,7 +64,7 @@ async function setCopticDates(today?: Date, changeDate: boolean = false) {
 
   Season = Seasons.NoSeason; //this will be its default value unless it is changed by another function;
   copticReadingsDate = getSeasonAndCopticReadingsDate(copticDate) as string;
-  if (Number(copticDay) === 29 && ![4, 5, 6, 7].includes(Number(copticMonth))) copticFeasts.Coptic29th = copticDate; //If we are on the 29th of the coptic Month, we will set the value of copticFeasts.Cotpic29th to today's copticDate in order to able to retrieve the prayers of this day
+  if (Coptic29th()) copticFeasts.Coptic29th = copticDate; //If we are on the 29th of the coptic Month, we will set the value of copticFeasts.Cotpic29th to today's copticDate in order to able to retrieve the prayers of this day
   else if (Number(copticDay) === 21) copticFeasts.Coptic21th = copticDate;
 
   variable.giaki = setVariableSeasonalPhrases(Season).giaki; //!This must be called here after the dates and seasons were changed
@@ -268,6 +268,8 @@ function checkForUnfixedEvent(
 ): string {
   let difference = Math.floor((resDate - today) / calendarDay); // we get the difference between the 2 dates in days
   //We initiate the Season to NoSeason
+  let coptDay: number = Number(copticDay),
+    coptMonth:number = Number(copticMonth);
   let date: string;
   if (!Season) Season = Seasons.NoSeason;
 
@@ -346,32 +348,32 @@ function checkForUnfixedEvent(
   (function ifApostlesFast() {
     if (difference > 0) return; //This means that we are before the Ressurrection Feast, and probably still during the Great Lent
     if (Math.abs(difference) < 50) return; //this means that we are still during the Pentecostal Period
-    if (Number(copticMonth) > 11) return;
-    if (Number(copticMonth) === 11 && Number(copticDay) > 4) return; //We are after the Apostles Feast
+    if (coptDay > 11) return;
+    if (coptDay === 11 && coptDay > 4) return; //We are after the Apostles Feast
 
     //We are more than 50 dayis after Resurrection, which means that we are during the Apostles lent (i.e. the coptic date is before 05/11 which is the date of the Apostles Feast)
     Season = Seasons.ApostlesFast;
   })();
 
   (function ifStMaryFast() {
-    if (Number(copticMonth) !== 12) return;
-    if (Number(copticDay) > 15) return;
+    if (coptMonth !== 12) return;
+    if (coptDay > 15) return;
 
     //We are between 01/12 and 15/12, which means that we are during St Mary's Fast
     Season = Seasons.StMaryFast;
   })();
 
   (function ifNayrouzOrCrossFeast() {
-    if (Number(copticMonth) !== 1) return;
-    if (Number(copticDay) > 19) return;
+    if (coptMonth !== 1) return;
+    if (coptDay > 19) return;
 
-    if (Number(copticDay) < 17) Season = Seasons.Nayrouz;
-    else if (Number(copticDay) > 16) Season = Seasons.CrossFeast;
+    if (coptDay < 17) Season = Seasons.Nayrouz;
+    else if (coptDay > 16) Season = Seasons.CrossFeast;
   })();
 
   (function ifNativityFast() {
-    if (Number(copticMonth) !== 3) return;
-    if (Number(copticDay) < 16) return;
+    if (coptMonth !== 3) return;
+    if (coptDay < 16) return;
 
     //We are during the Nativity Fast which starts on 16 Hatour and ends on 29 Kiahk, but we are not during the month of Kiahk. Note that Kiahk is a different Season
     Season = Seasons.NativityFast;
@@ -388,18 +390,18 @@ function checkForUnfixedEvent(
 
   (function ifKiahk() {
     //!Caution this must come before isNativityParamoun() and isNativityFeast()
-    if (Number(copticMonth) !== 4) return;
-    if (Number(copticDay) > 27) return;//We are either in the Paramoun or during the Feast
+    if (coptMonth !== 4) return;
+    if (coptDay > 27) return;//We are either in the Paramoun or during the Feast
 
     date = getKiahkWeek();
 
     function getKiahkWeek(): string {
       let sunday: string;
-      if ([0, 7, 14, 21].includes(Number(copticDay) - weekDay))
+      if ([0, 7, 14, 21].includes(coptDay - weekDay))
         //When the 1st of Kiahk is a Monday, Kiahk will have only 3 Sundays before Kiahk 28th (i.e., on the 7th, the 14th, and the 21th of Kiahk), we will hence consider that the 30th of Hatour is the 1st Sunday of Kiahk, and will count Kiahk's Sundays from 2
-        sunday = checkWhichSundayWeAre(Number(copticDay) + 7 - weekDay);
+        sunday = checkWhichSundayWeAre(coptDay + 7 - weekDay);
 
-      else sunday = checkWhichSundayWeAre(Number(copticDay) - weekDay);
+      else sunday = checkWhichSundayWeAre(coptDay - weekDay);
 
 
       Season = [
@@ -415,18 +417,15 @@ function checkForUnfixedEvent(
   })();
 
   (function ifNativityParamoun() {
-    if (todayDate.getMonth() !== 0) return;//If we are not in January
-    if (todayDate.getDate() > 6) return; //If we are after January 6th;
-    if (todayDate.getDate() === 6 && todayDate.getHours() > 15) return;//The Nativity Feast has been fixed to January 7th which is Kiahk 28th not Kiahk 29th. We use to celebrate the Nativity Mass on January 6 late afternoon
+    if (coptMonth !== 4 || coptDay !==27|| todayDate.getDate() !== 6) return; //The Nativity Feast has been fixed to January 7th which is Kiahk 28th not Kiahk 29th.  The Paramoun falls hence on Kiahk 27th
+    
+    if (todayDate.getDate() === 6 && todayDate.getHours() > 15) return; //!The Nativity Feast has been fixed to January 7th which corresponds to Kiahk 28th instead of Kiahk 29th. That's why the Paramoun will end in January 6 afternoon. In fact we use to celebrate the Mass in the late evening of January 6th
+
     if (copticDate === copticFeasts.NativityParamoun && todayDate.getHours() > 15) return;
 
 
     if (
-      ([4, 5].includes(todayDate.getDate()) && weekDay === 5)//If January 4 or January 5, is a Friday, it means that the Feast (i.e., January 7th) will be a Monday or a Sunday. In both cases, the Paramoun will start on Friday
-      ||
-      (todayDate.getDate() === 5 && weekDay === 6) //If January 5, is a Saturday, it means that the Nativity Feast (i.e., January 7th will be a Monday), the Paramoun will start on January 4th throughout January 6
-      ||
-      (todayDate.getDate() === 6 && todayDate.getHours() < 15)//!The Nativity Feast has been fixed to January 7th which corresponds to Kiahk 28th instead of Kiahk 29th. That's why the Paramoun will end in January 6 afternoon. In fact we use to celebrate the Mass in the late evening of January 6th
+      ([4, 5].includes(todayDate.getDate()) && weekDay ===5)//If January 4th or January 5th, is a Friday, it means that the Feast (i.e., January 7th) will fall either a Sunday or a Monday. In both cases, the Paramoun will start on Friday.
       ||
       (["2604", "2704"].includes(copticDate) && weekDay === 5)
       ||
@@ -438,39 +437,22 @@ function checkForUnfixedEvent(
       date = copticFeasts.NativityParamoun
     }
 
-
   })();
 
   (function ifNativityFeast() {
-    if (todayDate.getMonth() !== 0) return; //We are not in January
-    if (Number(copticMonth) === 5 && Number(copticDay) > 5) return;
+    if (![4, 5].includes(coptMonth)) return;
+    if (coptMonth === 4 && coptDay < 29) return;
+    if (coptMonth === 5 && coptDay > 5) return;
+    if (Season === Seasons.NativityParamoun) return; //If the Season has been already set to NativityParamoun, it means we are on January 6th before 3PM or Kiahk 29th before 3PM
 
-    if (isNativityFeast()) Season = Seasons.Nativity;
-
-
-    function isNativityFeast(): boolean {
-      if (
-        (copticDate === copticFeasts.NativityParamoun &&
-          todayDate.getHours() > 15)
-        ||
-        (todayDate.getDate() === 6 && todayDate.getHours() > 15)//This is because the Nativity feast has been fixed to 7 January although it should actually come on January 8th (Kiahk 29th)
-        ||
-        (todayDate.getDate() === 7)
-        ||
-        (Number(copticDay) >= 29) //This impliedly means that we are in Kiahk because the function returns if we are after the 6th of Toubah
-        ||
-        (Number(copticDay) < 7)//This impliedly means that we are during Toubah (before the 6th of Toubah) since January starts in the last week of Kiahk
-      ) {
-        return true;
-      }
-    }
+    Season = Seasons.Nativity;
 
   })();
 
   (function ifBaptismeParamoun() {
-    if (Number(copticMonth) !== 5) return;
-    if (Number(copticDay) > 10) return;
-    if (Number(copticDay) < 8) return;
+    if (coptMonth !== 5) return;
+    if (coptDay < 8) return;
+    if (coptDay > 10) return;
     if (copticDate === copticFeasts.BaptismParamoun &&
       todayDate.getHours() >= 15) return;
 
@@ -489,10 +471,10 @@ function checkForUnfixedEvent(
   })();
 
   (function ifBaptismFeast() {
-    if (Number(copticMonth) !== 5) return;
-    if (Number(copticDay) > 12) return;
+    if (coptMonth !== 5) return;
+    if (coptDay > 12) return;
 
-    if (Number(copticDay) >= 11)//i.e., from 11 to 13 Toubah 
+    if (coptDay >= 11)//i.e., from 11 to 13 Toubah 
       Season = Seasons.Baptism;
 
     if (copticDate === copticFeasts.BaptismParamoun &&
@@ -532,6 +514,16 @@ function isWatosOrAdam(day: number = weekDay, season: string = Season): string {
     return "Adam";
   return "Watos"
 }
+
+  /**
+   * Determins wether we celebrate the 29th of the Coptic Month
+   * @returns 
+   */
+function Coptic29th(): boolean {
+  if (Number(copticDay) !== 29 || [4, 5, 6, 7].includes(Number(copticMonth)))
+    return false;
+  else return true
+  }
 
 function setVariableSeasonalPhrases(season: string): { giaki } {
   type seasonalPrayers = {
@@ -573,7 +565,6 @@ function setVariableSeasonalPhrases(season: string): { giaki } {
         COP: 'ϫⲉ ⲁⲕϭⲓⲱⲙⲥ ⲁⲕⲥⲱϯ ⲙ̀ⲙⲟⲛ'
       },
       {
-
         Season: [Seasons.PentecostalDays, Seasons.Ascension],
         AR: 'لأنَّكَ قُمتَ وخَلصْتَنا',
         CA: 'جي آك تونك أكسوتي إمّون',
@@ -590,9 +581,11 @@ function setVariableSeasonalPhrases(season: string): { giaki } {
         COP: 'ϫⲉ ⲁⲕ̀\' ⲁⲕⲥⲱϯ ⲙ̀ⲙⲟⲛ'
       },
     ];
+
     //If we are a Sunday, giAki will be ge aktonk as during the Pentecostal Days
-    if (weekDay === 0)
+    if (weekDay === 0 || Coptic29th())
       return findGiAki(Seasons.PentecostalDays);
+
     //If we it is the Circumcision Feast, giAki will be 'ge ak masf'
     if (copticDate === copticFeasts.Circumcision)
       return findGiAki(Seasons.Nativity);

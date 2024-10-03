@@ -1411,10 +1411,11 @@ function getArrayFromPrefix(title: string): string[][][] {
   if (RegExp(Prefix.HolyWeek + "\\d*(HM|HE).*&D=GL").test(title))
     return ReadingsArrays.GospelNightArrayFR;
 
-  let array: [string, string, Function] = PrayersArraysKeys.find((entry) =>
+  const array: [string, string, Function] = PrayersArraysKeys.find((entry) =>
     title.startsWith(entry[0])
   );
-  if (array) return array[2]();
+  if (!array) return undefined;
+  return array[2]();
 }
 
 /**

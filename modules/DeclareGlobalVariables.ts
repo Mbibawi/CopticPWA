@@ -145,7 +145,7 @@ const Btn: { [index: string]: Button } = {};
 
 //CONSTANTS
 const version: string =
-  "v8.9.1 (Added to the Palm Sunday 12 Morning Gospels)";
+  "v8.9.2 (Fixed the readings repetion problem)";
 const calendarDay: number = 24 * 60 * 60 * 1000; //this is a day in milliseconds
 const containerDiv: HTMLDivElement = document.getElementById(
   "containerDiv") as HTMLDivElement;
@@ -316,7 +316,7 @@ const Seasons = {
   Rain: 'RAIN', //between 12/10 and 09/02
   Crops: 'CROP', //between 10/02 and 10/05
   Harvest: 'HARV', //between 11/05 and 11/10
-  NoSeason: "NoSpecificSeason",
+  NoSeason: "NON",
 };
 
 const copticFeasts = {
@@ -396,7 +396,6 @@ const GreatLordFeasts = [
 
 const MartyrsFeasts = {
   StJohnBaptist: "0201",
-  StMarc: "3008",
   StSteven: "0105",
   StBacchus: "0402",
   StSerge: "1002",
@@ -423,6 +422,21 @@ const nonMartyrsFeasts = {
   StJustAnton: "0804", //St Just of the St. Anton
 }
 
+const apostlesFeasts = {
+  StJohnApostle: '0405',
+  StPeter: copticFeasts.Apostles,
+  StPaul: copticFeasts.Apostles,
+  StJacobZabadi: '1708',
+  StJacobApostle: '1811',
+  StThomas: '2609',
+  StMathieu: '1202',
+  StLuke: '2202',
+  StMarc: "3008",
+  AnyPostle: '',
+  
+}
+
+
 const stMaryFeasts = {
   StMaryFeast: "1612",//Ascension of St. Mary Body
   StMary1: "0712", //Annonciation of the birth of St. Mary
@@ -443,7 +457,7 @@ const celestialBeingsFeasts = {
 };
 
 const saintsFeasts = {
-  ...celestialBeingsFeasts, ...MartyrsFeasts, ...nonMartyrsFeasts
+  ...celestialBeingsFeasts, ...apostlesFeasts, ...MartyrsFeasts, ...nonMartyrsFeasts
 };
 
 const nonCopticLanguages = [["AR", "العربية"], ["FR", "Français"], ["EN", "English"]];
@@ -740,13 +754,18 @@ const PrayersArraysKeys: [string, string, () => string[][][]][] = [
 ];
 [
   Prefix,
-  Seasons,
-  copticFeasts,
   nonCopticLanguages,
   copticLanguages,
   allLanguages,
   prayersLanguages,
   displayModes,
   actors,
-  PrayersArraysKeys
+  PrayersArraysKeys,
+  GreatLordFeasts,
+  MinorLordFeasts,
+  lordFeasts,
+  celestialBeingsFeasts,
+  MartyrsFeasts,
+  nonMartyrsFeasts,
+  stMaryFeasts,
 ].forEach(obj => Object.freeze(obj));
