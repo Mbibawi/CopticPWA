@@ -1301,7 +1301,7 @@ function showPrayers(args: {
   if (!args.prayersSequence && !args.table) return;
 
 
-  let showActors = JSON.parse(localStorage.showActors);
+  const showActors = JSON.parse(localStorage.showActors);
 
   (function setDefaults() {
     //Setting container, and the values for the missing arguments
@@ -1315,7 +1315,7 @@ function showPrayers(args: {
 
   closeSideBar(leftSideBar);
 
-  let tables: string[][][] = [];
+  const tables: string[][][] = [];
 
   (function retrievePrayersTables() {
     if (args.table) return tables.push(args.table);//If a table is already passed as argument, we will add this table to tables[]. Otherwise, we will retrieve the tables from args.prayersSequence;
@@ -1358,9 +1358,13 @@ function showPrayers(args: {
 
       let actorClass = splitTitle(row[0])[1] || 'NoActor';
 
+      if (actorClass === 'Same')
+        actorClass = splitTitle(entireTable[entireTable.indexOf(row) - 1][0])[1] || 'NoActor';
+      
       if (!['Title', 'SubTitle', 'ReadingIntro', 'ReadingEnd'].includes(actorClass)
         && !showActors.find(actor => actor.EN === actorClass)?.Show)
-        return;
+        return; //If the actor class .Show properety is not set to true, we will not show it
+      
       return createHtmlElementForPrayer({
         tblRow: row,
         actorClass: actorClass,
@@ -1385,10 +1389,9 @@ function showPrayers(args: {
 
           if (!referencedTable) return;
 
-          if (referencedTable.find(row => row[0].startsWith(Prefix.placeHolder)))
-            //If the returned table also has placeHolders amongst its rows, we will unfold the placeHolders.
-            referencedTable = unfoldPlaceHolders(referencedTable);
-
+          //If the returned table also has placeHolders amongst its rows, we will unfold the placeHolders.
+          referencedTable = unfoldPlaceHolders(referencedTable);
+          
           newTable.splice(newTable.indexOf(row), 1, ...referencedTable);
 
         });
@@ -2535,7 +2538,7 @@ function setGridColumnsOrRowsNumber(
  * @param {{beforeOrAfter:InsertPosition, el: HTMLElement}} position - the position at which the prayers will be inserted, adjacent to an html element (el) in the containerDiv
  * @returns {HTMLElement[]} - an array of all the html div elements created and appended to the containerDiv
  */
-function insertPrayersAdjacentToExistingElement(args: {
+function insertAdjacentToHtmlElement(args: {
   tables: string[][][];
   languages?: string[];
   position: { beforeOrAfter: InsertPosition; el: HTMLElement };
@@ -2605,6 +2608,26 @@ function replaceHtmlQuotes(innerHtml: string, lang: string): string {
   // else if (lang === "AR" || lang === "EN")
   //   return innerHtml.replaceAll("<q>", '"').replaceAll("</q>", '"');
   //  return innerHtml;
+}
+
+/**Compares two string dates and returns the difference in days (if the difference >0 it means that date2 is later than date1
+ * @param {string} date1 - the first date that we want to compare with. It must be formatted like 'DDMMYYYY'
+ * @param {string} date2 - the date that we want to compare with date1. It must be formatted like 'DDMMYYYY'
+ * @returns {number} the result of date2-date1
+ * 
+*/
+
+function compareDates(date1: string, date2: string): number {
+
+  if (date1.length < 4 || date2.length < 4) return null;
+  if (date1.length === 4) date1 += todayDate.getFullYear().toString();//It means we are comparing dates within the same year
+  if (date2.length === 4) date2 +=  todayDate.getFullYear().toString();
+  return date(date2) - date(date1);
+
+  function date(date: string): number {
+    if(date.length<8) return null
+    return new Date(date[0] + date[1] + '.' + date[2] + date[3] + '.' + date[4] + date[5] + date[6] + date[7]).getTime()
+  }
 }
 
 function compareArrays(sourceArray: string[][][], editedArray: string[][][]) {

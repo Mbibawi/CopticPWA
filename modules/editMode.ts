@@ -10349,6 +10349,52 @@ function _findReadingArrayDuplicates(readingArray: string[][][]) {
 
 }
 
+function _combineReadingsReferences(readingArray: string[][][]) {
+  const duplicates: Set<[string, string[][]]> = new Set();
+
+  readingArray.forEach(table =>{
+    if (table.filter(row => row.join('&&').includes(Prefix.readingRef)).length > 1) return;//If the table contains more than 1 row with references, we will ignore it;
+
+    table.forEach(row => processRow(row, table));
+  });
+
+  return readingArray;
+
+  
+  function processRow(row:string[], table:string[][]) {
+    const refs = row.filter(str => str.startsWith(Prefix.readingRef));
+
+    if (refs.length > 1) return;//We will ignore the rows having including more than 1 reference
+
+    refs.forEach(ref => {
+      ref = ref.replaceAll(' ', '');
+      if (!mergeDuplicates(table, ref)) duplicates.add([ref, table]);
+    });
+
+
+  }
+  
+    function mergeDuplicates(table: string[][], ref: string):boolean {
+      const first = Array.from(duplicates).find(el => el[0] === ref);
+      if (!first) return false
+      const firstTitle = splitTitle(Title(first[1]));
+      const duplicateTitle = splitTitle(Title(table))[0];
+      if (!duplicateTitle.includes('&D=')) return false;
+      
+      debugger
+      const duplicateDate = duplicateTitle.split('&D=')[1];
+
+      first[1][0][0] = firstTitle[0] + '||' + duplicateDate + '&C=' + firstTitle[1] + 'Duplicate =' + duplicateDate;
+
+      readingArray.splice(readingArray.indexOf(table), 1);
+
+      return true;
+    
+    }
+    
+  
+}
+
 function _fixPraxisArray(readingsArray: string[][][]) {
   readingsArray.forEach(tbl => {
     tbl.forEach(row => {
@@ -10722,7 +10768,6 @@ function _FixPropheciesRefs(): string[][][] {
     return table
 
   })
-
 
 }
 function _FixArabicNumbers(prefix: string) {

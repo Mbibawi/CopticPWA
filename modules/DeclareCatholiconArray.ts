@@ -153,14 +153,6 @@ ReadingsArrays.CatholiconArrayFR = [
     ],
     [
         [
-            Prefix.Catholicon + "&D=2202"
-        ],
-        [
-            Prefix.readingRef + "1PE:3:15-22"
-        ]
-    ],
-    [
-        [
             Prefix.Catholicon + "&D=2702"
         ],
         [
@@ -193,7 +185,7 @@ ReadingsArrays.CatholiconArrayFR = [
     ],
     [
         [
-            Prefix.Catholicon + "&D=0803||1205||PNT39"
+            Prefix.Catholicon + "&D=2202||0803||1205||PNT39"
         ],
         [
             Prefix.readingRef + "1PE:3:15-22"
@@ -369,7 +361,7 @@ ReadingsArrays.CatholiconArrayFR = [
     ],
     [
         [
-            Prefix.Catholicon + "&D=2708||2011||PNT4"
+            Prefix.Catholicon + "&D=2708||2011||PNT4||121stSunday"
         ],
         [
             Prefix.readingRef + "1PE:3:8-15"
@@ -437,14 +429,6 @@ ReadingsArrays.CatholiconArrayFR = [
         ],
         [
             Prefix.readingRef + "2PE:1:1-11"
-        ]
-    ],
-    [
-        [
-            Prefix.Catholicon + "&D=121stSunday"
-        ],
-        [
-            Prefix.readingRef + "1PE:3:8-15"
         ]
     ],
     [

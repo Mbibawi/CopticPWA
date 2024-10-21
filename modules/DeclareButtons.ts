@@ -585,7 +585,7 @@ Btn.MassUnBaptised = new Button({
       let anchor = selectElementsByDataSet(btnDocFragment, Prefix.massCommon + "AbsolutionForTheFather", { equal: true }, 'root')[0];//This is the html element before which we will insert the retrived tables
       if (!anchor) return;
 
-      insertPrayersAdjacentToExistingElement(
+      insertAdjacentToHtmlElement(
         {
           tables: tables,
           languages: prayersLanguages,
@@ -623,7 +623,7 @@ Btn.MassUnBaptised = new Button({
       seasonalIntercessions.forEach(table => {
         anchor = setIntercessionsAnchor(Title(table));
         if (!anchor) return;
-        insertPrayersAdjacentToExistingElement({
+        insertAdjacentToHtmlElement({
           tables: [table],
           languages: getLanguages(Title(table)),
           position: {
@@ -792,7 +792,7 @@ Btn.MassUnBaptised = new Button({
 
           //We insert the special response between the first and 2nd rows
           specialResponse =
-            insertPrayersAdjacentToExistingElement({
+            insertAdjacentToHtmlElement({
               tables: getUniqueValuesFromArray(specialResponse as string[][][]) as string[][][], //We remove duplicates if any
               languages: prayersLanguages,
               position: {
@@ -812,7 +812,7 @@ Btn.MassUnBaptised = new Button({
 
           if (!noSeasonResponse) return;
 
-          noSeasonResponse = insertPrayersAdjacentToExistingElement({
+          noSeasonResponse = insertAdjacentToHtmlElement({
             tables: [noSeasonResponse as string[][]],
             languages: getLanguages(Prefix.praxisResponse),
             position: {
@@ -839,7 +839,7 @@ Btn.MassUnBaptised = new Button({
 
           if (specialResponse.length < 1) return;
 
-          insertPrayersAdjacentToExistingElement({
+          insertAdjacentToHtmlElement({
             tables: specialResponse as string[][][],
             languages: getLanguages(Prefix.praxisResponse),
             position: {
@@ -869,7 +869,7 @@ Btn.MassUnBaptised = new Button({
         else if (Season === Seasons.ApostlesFast)
           title += 'Seasons.ApostlesFast';
 
-        insertPrayersAdjacentToExistingElement({
+        insertAdjacentToHtmlElement({
           tables: PraxisResponsesArray.filter(tbl => RegExp(title.replace('$', '\\$')).test(Title(tbl))),
           languages: getLanguages(Prefix.praxisResponse),
           position: {
@@ -937,7 +937,7 @@ Btn.MassUnBaptised = new Button({
 
         if (readingIntro)
           //We start by inserting the introduction before the reading
-          insertPrayersAdjacentToExistingElement({
+          insertAdjacentToHtmlElement({
             tables: [
               [
                 [
@@ -954,7 +954,7 @@ Btn.MassUnBaptised = new Button({
           });
         if (readingEnd)
           //Then we insert the end of the reading
-          insertPrayersAdjacentToExistingElement({
+          insertAdjacentToHtmlElement({
             tables: [
               [
                 [
@@ -1003,7 +1003,7 @@ Btn.MassUnBaptised = new Button({
         })();
 
 
-        insertPrayersAdjacentToExistingElement({
+        insertAdjacentToHtmlElement({
           tables: [AgiosTable],
           languages: getLanguages(Title(AgiosTable)),
           position: {
@@ -1725,58 +1725,43 @@ Btn.IncenseMorning = new Button({
     return Btn.IncenseMorning.prayersSequence;
   },
   afterShowPrayers: async (btn: Button = Btn.IncenseMorning, gospelPrefix: string = Prefix.gospelMorning) => {
-    let btnDocFragment = btn.docFragment;
+    const docFragment = btn.docFragment;
+    if (!docFragment) return;
 
     (function adaptThanksGiving() {
-      const parags = Array.from(selectElementsByDataSet(btn.docFragment, Prefix.commonPrayer + "ThanksGiving", undefined, 'root')[7].children) as HTMLParagraphElement[];
+      const parags = Array.from(selectElementsByDataSet(docFragment, Prefix.commonPrayer + "ThanksGiving", undefined, 'root')[7]?.children) as HTMLParagraphElement[];//Those are the paragraphs that conatin the sentence that will be changed according to each liturgy
 
-      let parag: HTMLParagraphElement, thanks: object;
+      if (!parags || parags.length<1) return;
+      
+      let thanks: object;
+      if (btn === Btn.IncenseMorning)
+          thanks = variable.thanksMorning;
+      else if (btn === Btn.IncenseVespers)
+          thanks = variable.thanksVespers;
+      else if (btn === Btn.MassUnBaptised)
+          thanks = variable.thanksMass;
+      else if (btn.btnID === Btn.Lakkan.btnID)
+          thanks = variable.thanksLakan;
+      
+      if (!thanks) return;
+      
       getLanguages(Prefix.commonPrayer)
-        .forEach(lang => {
-          parag = parags?.find(p => p.classList.contains(lang));
+        .forEach(lang =>{
+          const parag = parags?.find(p => p.classList.contains(lang));
           if (!parag) return;
-          if (btn === Btn.IncenseMorning)
-            thanks = variable.thanksMorning;
-          else if (btn === Btn.IncenseVespers)
-            thanks = variable.thanksVespers;
-          else if (btn === Btn.MassUnBaptised)
-            thanks = variable.thanksMass;
-          else if (btn.btnID === Btn.Lakkan.btnID)
-            thanks = variable.thanksLakan;
-
-          parag.innerHTML = adapt(parag, lang, thanks);
+          parag.innerHTML =  parag.innerHTML.replace(variable.thanksVespers[lang], thanks[lang]);
         });
-
-      function adapt(parag: HTMLParagraphElement, lang: string, thanks: object) {
-        if (!thanks) return parag.innerHTML;
-        return parag.innerHTML.replace(variable.thanksVespers[lang], thanks[lang]);
-      }
-
     })();
 
-    if (![Btn.IncenseMorning, Btn.IncenseVespers].includes(btn)) return hideGodHaveMercyOnUsIfBishop();//The following applies only to btnIncenseMorning & btnIncenseVespers
-
-    insertCymbalVersesAndDoxologies(btn);
-
-    await insertGospelReadingAndResponses({
-      prefix: gospelPrefix,
-      languages: getLanguages(gospelPrefix),
-      container: btnDocFragment,
-      isMass: true,
-      clearContainer: false,
-    });
-
-    hideGodHaveMercyOnUsIfBishop();
-
-    function hideGodHaveMercyOnUsIfBishop() {
-      let dataRoot =
+    (function hideGodHaveMercyOnUsIfBishop() {
+      const dataRoot =
         Prefix.commonPrayer +
         "PrayThatGodHaveMercyOnUs";
 
-      let godHaveMercyHtml: HTMLDivElement[] = selectElementsByDataSet(btnDocFragment, dataRoot); //We select all the paragraphs not only the paragraph for the Bishop
+      const godHaveMercyHtml= selectElementsByDataSet(docFragment, dataRoot); //We select all the paragraphs not only the paragraph for the Bishop
 
       if (godHaveMercyHtml.length < 1) return; //This may occur if 'Diacon' prayers are hidden
-      let length = godHaveMercyHtml?.length;
+      const length = godHaveMercyHtml?.length;
       godHaveMercyHtml
         .filter(
           (htmlRow) =>
@@ -1790,7 +1775,7 @@ Btn.IncenseMorning = new Button({
       else
         godHaveMercyHtml[length - 1].remove();//We remove the last paragraph
 
-      let godHaveMercy: string[][] = findTable(dataRoot, CommonArray) as string[][]; //We get the entier table not only the second row. Notice that the first row of the table is the row containing the title
+       let godHaveMercy = findTable(dataRoot, CommonArray) as string[][]; //We get the entier table not only the second row. Notice that the first row of the table is the row containing the title
 
       if (!godHaveMercy)
         return console.log("Didn't find table Gode Have Mercy");
@@ -1818,9 +1803,21 @@ Btn.IncenseMorning = new Button({
       });
 
       insertExpandableBtn([haveMercy], godHaveMercyHtml[0].nextElementSibling, 'beforebegin');
-    };
+    })();
 
-    adaptConcludingHymn(btnDocFragment);
+    if (![Btn.IncenseMorning, Btn.IncenseVespers].includes(btn)) return;//The following code/functions apply only to btnIncenseMorning & btnIncenseVespers
+
+    await insertCymbalVersesAndDoxologies(btn);
+
+    await insertGospelReadingAndResponses({
+      prefix: gospelPrefix,
+      languages: getLanguages(gospelPrefix),
+      container: docFragment,
+      isMass: true,
+      clearContainer: false,
+    });
+
+    adaptConcludingHymn(docFragment);
 
     if (btn !== Btn.IncenseMorning) return; //The functions from this point on concern the Morning Incense service only
 
@@ -1829,51 +1826,51 @@ Btn.IncenseMorning = new Button({
 
       if ([0, 6].includes(weekDay)) return; //We are neither a Saturday nor a Sunday, we will hence display the Prophecies dawn buton
 
-      let anchor: HTMLDivElement = selectElementsByDataSet(
-        btnDocFragment,
+      const anchor: HTMLDivElement = selectElementsByDataSet(
+        docFragment,
         Prefix.anchor + "Prophecies", undefined, 'root'
       )[0];
 
       (function insertProphecies() {
-        //! This must come before Eklonomin Taghonata has been inserted
+        //! This must come before inserting Eklonomin Taghonata
 
-        let Prophecies = findTable(Prefix.prophecies + "&D=" + copticReadingsDate, ReadingsArrays.PropheciesDawnArrayFR);
+        const Prophecies = findTable(Prefix.prophecies + "&D=" + copticReadingsDate, ReadingsArrays.PropheciesDawnArrayFR);
 
         if (!Prophecies) return console.log("Didn't find Prophecies with the current date");
 
-        let title = [[Title(Prophecies), 'نبوات باكر', 'Prophecies', '']];
+        const title = [[Title(Prophecies), 'نبوات باكر', 'Prophecies', '']];
 
-        insertPrayersAdjacentToExistingElement({
+        insertAdjacentToHtmlElement({
           tables: [title, Prophecies],
           languages: getLanguages(Prefix.prophecies),
           position: {
             beforeOrAfter: "beforebegin",
             el: anchor
           },
-          container: btnDocFragment,
+          container: docFragment,
         });
 
       })();
 
       (async function insertEklonominTaghonata() {
-        let godHaveMercy = findTable(Prefix.incenseDawn + "GodHaveMercyOnUs&D=$Seasons.GreatLent", IncenseArray);
+        const godHaveMercy = findTable(Prefix.incenseDawn + "GodHaveMercyOnUs&D=$Seasons.GreatLent", IncenseArray);
 
         if (!godHaveMercy) return console.log("Didn't find God Have Mercy for Great Lent");
 
-        insertPrayersAdjacentToExistingElement({
+        insertAdjacentToHtmlElement({
           tables: [godHaveMercy],
           languages: prayersLanguages,
           position: {
             beforeOrAfter: "beforebegin",
             el: anchor
           },
-          container: btnDocFragment,
+          container: docFragment,
         });
 
         (function removeRefrains() {
           //We will remove all the refrains except the 1st one
-          let refrains = selectElementsByDataSet(
-            btnDocFragment,
+          const refrains = selectElementsByDataSet(
+            docFragment,
             Prefix.incenseDawn + "GodHaveMercyOnUsRefrain&D=$Seasons.GreatLent")
             .filter((htmlRow) => htmlRow?.classList.contains("Title"));
 
@@ -1885,12 +1882,12 @@ Btn.IncenseMorning = new Button({
       })();
     })();
 
-    (async function addExpandableBtnForAdamDoxolgies() {
+    (async function insertAdamDoxolgiesBtn() {
       //We add an expandable button for the Incense Dawn Adam Doxologies
-      if (btnDocFragment.children.length === 0) return;
+      if (docFragment.children.length === 0) return;
 
       const doxologies = new Button({
-        btnID: 'AdamDoxologies',
+        btnID: 'btnAdamDoxologies',
         label: getLabel({
           AR: "ذكصولوجيات باكر آدام",
           FR: "Doxologies Adam du Matin",
@@ -1902,7 +1899,7 @@ Btn.IncenseMorning = new Button({
         prayersSequence: [Prefix.doxologies + "DawnAdam"],
       });
 
-      insertExpandableBtn([doxologies], btnDocFragment.children[0] as HTMLElement, 'beforebegin');
+      insertExpandableBtn([doxologies], docFragment.children[0] as HTMLElement, 'beforebegin');
     })();
 
     (function insertLakkanBtn() {
@@ -1915,7 +1912,7 @@ Btn.IncenseMorning = new Button({
 
       async function insertLakkan(date: string) {
         const lakkanBtn = new Button({
-          btnID: Btn.Lakkan.btnID,
+          btnID: Btn.Lakkan.btnID,//!We must give the button same ID as Btn.Lakkan because we use this id later on in adapting the 'Thanks Giving' prayer to the Lakkan liturgy
           label: Btn.Lakkan.label,
           docFragment: new DocumentFragment(),
           onClick: () => Btn.Lakkan.onClick(date, lakkanBtn),
@@ -1923,7 +1920,7 @@ Btn.IncenseMorning = new Button({
         });
 
         Btn.IncenseMorning.children = [lakkanBtn];
-        let children = btnDocFragment.children;
+        const children = docFragment.children;
 
         if (copticDate === '1005')
           insertExpandableBtn([lakkanBtn], children[0], 'beforebegin', 'Lakan');
@@ -1935,41 +1932,32 @@ Btn.IncenseMorning = new Button({
 
     /**
    * Inserts the Incense Office Doxologies And Cymbal Verses according to the Coptic feast or season
-   * @param {HTMLElement | DocumentFragment} container - The HtmlElement in which the btn prayers are displayed and to which they are appended
+   * @param {Button} btn - The button calling the function when clicked
    */
     async function insertCymbalVersesAndDoxologies(btn: Button) {
-      if ([Btn.MassUnBaptised].includes(btn)) return;
-
-      if (!btn.docFragment)
-        return console.log("btn.docFragment is undefined = ", btn.docFragment);
-
+      if (!btn.docFragment) return;
       const dayFeasts: string[] =
         (() => {
-          let dates: string[] = [copticDate];
+          const dates: string[] = [copticDate];
           if (!RegExp('\\d{4}').test(copticReadingsDate))
-            dates.push(copticReadingsDate); //We do this in order to avoid including a reading date of 4 digits while the reading repeats more than once per year on other days than the feast day itself (eg. the 0511 copticReadingDate repeats several times not only on the Apostles feast). This will leave us only with the copticReadingsDate including letters: like GL, PNTL, JONAS, etc
-          const feast: Set<string> = new Set();
-          let matching: [string, string] = Object.entries(copticFeasts).find(
-            (entry) => dates.includes(entry[1])
-          ); //We check if today is a feast. We also check by the copticReadingsDate because some feast are referrenced by the copticReadings date : eg. Pntl39
+            dates.push(copticReadingsDate); //We do this in order to avoid including a reading date of 4 digits, since the reading repeats more than once per year on other days than the feast day itself (eg. the 0511 copticReadingDate repeats several times not only on the Apostles feast). This will leave us only with the copticReadingsDate including letters: like GL, PNTL, JONAS, etc
 
-          if (!matching)
-            matching = Object.entries(Seasons).find((entry) => entry[1] === Season && entry[1] !== Seasons.NoSeason); //If today is not a feast, we will add the Season (only if we are during a specific Season, i.e., if we are not in a NoSeason period)
+          //We will first look if today is one of the copticFeasts list. If this is the case, we will retrieve the doxologies and cymbal verses specific to this feast (we assume that if one of these feasts, whether a Lord Feasts or not, falls within a given Season, the cymbal verses and doxologies of the feast will prevail over those of the Season). If today is not one of the copticFeasts, we will  retrieve the cymbal verses and doxologies of the Season.
+          const matching: string = Object.values(copticFeasts).find(
+            (date) => dates.includes(date)) || Season; //We check if today is one of the feasts in copticFeasts (we check not only the Coptic date, but we check also the copticReadingsDate because some feasts are referrenced by the copticReadings date : eg. Pntl39). If today is not one of the copticFeasts, we will retain the Season
 
-          if (matching) feast.add(matching[1]); //We push the match feast or the season if any
-
-          return Array.from(feast);
+          if (matching !== Seasons.NoSeason) return [matching]; //If matching is not Seasons.NoSeason, we push the match feast or the season if any
         })();
 
       let anchor: HTMLElement;
 
       (async function InsertCymbalVerses() {
         anchor = selectElementsByDataSet(
-          btn.docFragment,
+          docFragment,
           Prefix.anchor + "CymbalVerses")[0];
 
         if (!anchor)
-          return console.log("We didn't find the cymbal verses placeholder");
+          return console.log("We didn't find the cymbal verses' anchor");
 
         let cymbals: string[][][];
 
@@ -1985,7 +1973,7 @@ Btn.IncenseMorning = new Button({
             "no cymbals were found by the provided sequence: "
           );
 
-        insertPrayersAdjacentToExistingElement({
+        insertAdjacentToHtmlElement({
           tables: cymbals,
           languages: btn.languages,
           position: {
@@ -1998,7 +1986,7 @@ Btn.IncenseMorning = new Button({
         insertSaintsExpandable(Prefix.anchor + 'SaintsCymbals', Prefix.cymbalVerses, 'St(Mary|Maykel|Steven|John|Marc)', getLabel({
           AR: 'أرباع القديسين',
           FR: 'Autres saints',
-          EN: '',
+          EN: 'Other Saints',
         }));
 
         function getCymbalVerses(): string[][][] {
@@ -2008,28 +1996,17 @@ Btn.IncenseMorning = new Button({
           ];
 
 
-
-          //If we are during any of the Lord Feasts (or any season where we follow the same pattern), we add "Jesus Christ is the same for ever...",
-          if (
-            [...lordFeasts, copticFeasts.Coptic29th].includes(copticDate) ||
-            [Seasons.Nativity, Seasons.Baptism, Seasons.PentecostalDays, Seasons.Ascension].includes(
-              Season
-            )
-          )
-            sequence =
-              [Prefix.cymbalVerses + "LordFeastsEnd"];
-
-
           if (dayFeasts)
             dayFeasts.forEach((feast) =>
               [
                 ...lordFeasts,
+                copticFeasts.Coptic29th,
                 Seasons.Nativity,
                 Seasons.Baptism,
                 Seasons.PentecostalDays,
                 Seasons.Ascension
-              ].includes(feast) //During Seasons.Nativity (i.e., between Nativity and Circumcision) and Seasons.Baptism(from Baptism to Cana Wedding), the Cymbals verses follow the pattern of any Lord Feast: it starts with "Amoyni Marin..." or "Ten O'osht", then the cymbal verses of the feast, and finally, the "Eb'oro enti ti hirini". We will hence remove the 2nd element from the sequence
-                ? insertFeastInSequence(sequence, feast, 0, 0)
+              ].includes(feast) //During Seasons.Nativity (i.e., between Nativity and Circumcision) and Seasons.Baptism(from Baptism to Cana Wedding), the Cymbals verses follow the pattern of any Lord Feast: it starts with "Amoyni Marin..." or "Ten O'osht", then the cymbal verses of the feast, and finally, the "Eb'oro enti ti hirini". 
+                ? insertFeastInSequence([Prefix.cymbalVerses + "LordFeastsEnd"], feast, 0, 0)
                 : insertFeastInSequence(sequence, feast, 1, 0)
             ); //We always start with 'Amoyni Marin...' or with 'Tin O'osht...', so we will insert the feast element before the 2nd element, and will not delete anything
 
@@ -2132,7 +2109,7 @@ Btn.IncenseMorning = new Button({
               .filter((tbl) => !Title(tbl)?.includes("Sundays&D=$Seasons.GreatLent"));
         }
 
-        insertPrayersAdjacentToExistingElement({
+        insertAdjacentToHtmlElement({
           tables: doxologies,
           languages: btn.languages,
           position: {
@@ -2161,7 +2138,7 @@ Btn.IncenseMorning = new Button({
        * @returns 
        */
       function insertSaintsExpandable(dataRoot: string, prefix: string, regExp: string, label: typeBtnLabel) {
-        const anchor: HTMLDivElement = selectElementsByDataSet(btnDocFragment, dataRoot, undefined, 'root')[0];
+        const anchor: HTMLDivElement = selectElementsByDataSet(docFragment, dataRoot, undefined, 'root')[0];
         if (!anchor) return;
         const options = getArrayFromPrefix(prefix).filter(tbl => Title(tbl).startsWith(prefix + 'St') && !RegExp(regExp).test(Title(tbl)));
 
@@ -2430,7 +2407,7 @@ Btn.Lakkan = new Button({
 
         function insertReading(reading: string[][], anchor: HTMLElement, langs: string[]) {
           if (!reading) return;
-          insertPrayersAdjacentToExistingElement({
+          insertAdjacentToHtmlElement({
             tables: [reading],
             languages: langs,
             position: { el: anchor, beforeOrAfter: 'beforebegin' },
@@ -2705,7 +2682,7 @@ Btn.Prosternation = new Button({
           if (!table) return;
 
 
-          insertPrayersAdjacentToExistingElement({
+          insertAdjacentToHtmlElement({
             tables: [table],
             position: {
               el: anchor,
@@ -3047,7 +3024,7 @@ Btn.MassStBasil = new Button({
       let tbl = findTable(Prefix.massCommon + 'SeasonalLitany&D=$Seasons.' + Object.entries(Seasons).find(entry => entry[1] === naturalSeasons())[0], MassCommonArray);
       if (!tbl) return console.log('Didn\'t find the tbl');
 
-      insertPrayersAdjacentToExistingElement(
+      insertAdjacentToHtmlElement(
         {
           tables: [tbl],
           languages: prayersLanguages,
@@ -3089,7 +3066,7 @@ Btn.MassStBasil = new Button({
       let psalm150 = selectElementsByDataSet(
         btnDocFragment,
         Prefix.massCommon + "CommunionPsalm150"
-      );
+      , null, 'group');
       let filtered: string[][][] = [];
       [copticDate, Season, copticFeasts.AnyDay]
         .forEach(date => {
@@ -3543,7 +3520,7 @@ Btn.HW = new Button({
                 reading.table = await retrieveReadingTableFromBible(reading.table, languages);
                 reading.table[0] = insertTableTitleRow();//We replace the first row of the table with a customized title row
 
-                insertPrayersAdjacentToExistingElement({
+                insertAdjacentToHtmlElement({
                   tables: [reading.table],
                   languages: languages,
                   container: btnHour.docFragment,
@@ -4270,7 +4247,7 @@ function adaptConcludingHymn(container: HTMLElement | DocumentFragment) {
 
     }
 
-    insertPrayersAdjacentToExistingElement({
+    insertAdjacentToHtmlElement({
       tables: [tbl],
       languages: prayersLanguages,
       position: {
@@ -4365,7 +4342,7 @@ async function insertMassReadingOtherThanGospel(
 
   let retrievedText = await Promise.all(tables.map(async table => await retrieveReadingTableFromBible(table, languages)));
 
-  return insertPrayersAdjacentToExistingElement({
+  return insertAdjacentToHtmlElement({
     tables: retrievedText,
     languages: languages,
     position: position,
@@ -4458,17 +4435,21 @@ async function retrieveReadingTableFromBible(reading: string[][], langs: string[
     if (!lang) return;
     if (![defaultLanguage, foreingLanguage].includes(lang)) return '';
 
-    let parts: string[], refs: string[], verses: (string | Error)[];
+    let parts: string[], verses: (string | Error)[];
 
-    refs = ref.split('/');
+    const bookID = ref.split(':')[0];
+
+    const refs = ref.split('/');//Some references include more than one reference, speparated by '/', eg.: "GEN:12:3-End/13:1-End/14:1-8". When splitted, we will get [GEN:12:3-End, 13:1-End, 14:1-8]
 
     let text =
       await Promise.all(refs.map(async ref => {
-        parts = ref.split(':')//We should get an array of 3 elements [bookID, chapterNumber, verses], eg: ['GEN', '13', '3-7']; 
-        if (parts.length === 2 && refs.indexOf(ref) > 0)
-          parts.unshift(refs[0].split(':')[0]);//We add the bookID 
+        parts = ref.split(':')//We should get an array of 2 or 3 elements [bookID, chapterNumber, verses], eg: ['GEN', '13', '3-7']; 
 
-        if (parts.length < 3) return '';//parts shoulde be foramtted like: [bookID, chapterNumber, verse-verse]
+        if (parts.length < 2) return '';//This means that the reference is badly formatted
+
+        if (parts.length === 2 && refs.indexOf(ref) > 0)
+          parts.unshift(bookID);//We add the bookID 
+
 
         verses = await Promise.all(
           parts[2]
@@ -4814,7 +4795,7 @@ async function insertGospelReadingAndResponses(args: {
 
       if (!response || response.length === 0) return;
 
-      insertPrayersAdjacentToExistingElement({
+      insertAdjacentToHtmlElement({
         tables: [response],
         languages: prayersLanguages,
         position: {
@@ -4974,7 +4955,7 @@ async function insertGospelReadingAndResponses(args: {
         })();
 
 
-        insertPrayersAdjacentToExistingElement({
+        insertAdjacentToHtmlElement({
           tables: tbls,
           //   languages: args.languages, we are omitting the languages on purpose
           position: {

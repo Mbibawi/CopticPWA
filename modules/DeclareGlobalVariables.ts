@@ -145,7 +145,7 @@ const Btn: { [index: string]: Button } = {};
 
 //CONSTANTS
 const version: string =
-  "v8.9.2.1 (Fixed the readings repetion problem)";
+  "v8.9.4 (Introduced the 'Same' class + some fixes : (Apostles fast Season, etc.)";
 const calendarDay: number = 24 * 60 * 60 * 1000; //this is a day in milliseconds
 const containerDiv: HTMLDivElement = document.getElementById(
   "containerDiv") as HTMLDivElement;
@@ -267,6 +267,7 @@ const Prefix = {
   psalmody: "Psalmody_",
   prayersArray: 'PrayersArray_',
   readingRef: 'RRef_',
+  changeClass: 'CCSS_',
 };
 
 const anyDay = '&D=$copticFeasts.AnyDay',
@@ -352,8 +353,8 @@ const copticFeasts = {
   StMaryFastVespers: "3010",
   StMaryFast: "0112",
   Epiphany: "1312",
-  Coptic29th: "XXXX", //This value will be set to copticDate by setCopticDates() if today is 29th of the Coptic month and we are in a month where this feast is celebrated
-  Coptic21th: "XXXX", //This value will be set to copticDate by setCopticDates() if todya is the 21th of teh Coptic Month 
+  Coptic29th: "XXXX", //This value will be set equal to the copticDate by setCopticDates() if today is 29th of the Coptic month and we are in a month where this feast is celebrated
+  Coptic21th: "XXXX", //This value will be set equal to the copticDate by setCopticDates() if today is the 21th of the Coptic Month 
 };
 
 const GreatLordFeasts = [

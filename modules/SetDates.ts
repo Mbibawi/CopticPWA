@@ -345,13 +345,14 @@ function checkForUnfixedEvent(
     );
   })();
 
+
   (function ifApostlesFast() {
     if (difference > 0) return; //This means that we are before the Ressurrection Feast, and probably still during the Great Lent
     if (Math.abs(difference) < 50) return; //this means that we are still during the Pentecostal Period
-    if (coptDay > 11) return;
-    if (coptDay === 11 && coptDay > 4) return; //We are after the Apostles Feast
+    if (coptMonth < 9) return;
+    if (coptMonth > 11) return;
+   if (coptMonth === 11 && coptDay > 4) return; //We are on or after the Apostles Feast
 
-    //We are more than 50 dayis after Resurrection, which means that we are during the Apostles lent (i.e. the coptic date is before 05/11 which is the date of the Apostles Feast)
     Season = Seasons.ApostlesFast;
   })();
 

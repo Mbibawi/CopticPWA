@@ -625,7 +625,7 @@ ReadingsArrays.GospelVespersArrayFR = [
   ],
   [
     [
-      Prefix.gospelVespers + "Gospel&D=2204||1307||0313"
+      Prefix.gospelVespers + "Gospel&D=2204||1307||0313||2708"
     ],
     [
       Prefix.readingRef + "MAT:16:24-28"
@@ -969,14 +969,6 @@ ReadingsArrays.GospelVespersArrayFR = [
   ],
   [
     [
-      Prefix.gospelVespers + "Gospel&D=2708"
-    ],
-    [
-      Prefix.readingRef + "MAT:16:24-28"
-    ]
-  ],
-  [
-    [
       Prefix.gospelVespers + "Psalm&D=3008"
     ],
     [
@@ -993,7 +985,7 @@ ReadingsArrays.GospelVespersArrayFR = [
   ],
   [
     [
-      Prefix.gospelVespers + "Psalm&D=093rdSunday"
+      Prefix.gospelVespers + "Psalm&D=093rdSunday||101stSunday"
     ],
     [
       Prefix.readingRef + "PSA:9:10-10"
@@ -1085,14 +1077,6 @@ ReadingsArrays.GospelVespersArrayFR = [
     ],
     [
       Prefix.readingRef + "LUK:7:18-23"
-    ]
-  ],
-  [
-    [
-      Prefix.gospelVespers + "Psalm&D=101stSunday"
-    ],
-    [
-      Prefix.readingRef + "PSA:9:10-10"
     ]
   ],
   [

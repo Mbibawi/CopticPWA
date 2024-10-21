@@ -2345,16 +2345,16 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.commonPrayer + "GloryToFatherSonSpirit&C=Assembly",
+    Prefix.commonPrayer + "GloryToFatherSonSpirit&C=Same",
     "Ⲇⲟⲭⲁ ⲡⲁⲧⲣⲓ ⲕⲉ Ⲩ̀Ϯⲓⲱ ⲕⲉ ⲁⲅⲓⲱ Ⲡ̀ⲛⲉⲩⲙⲁⲧⲓ",
     "Gloire au Père, au Fils et au Saint Esprit.",
     "ذوكسا باتري كي إيو، كي آجيو ابنيفماتي.",
-    "المجد للآب والابن والْرُوحْ القُدُسْ.",
+    "المَجدُ للآب والابن والْرُوحْ القُدُسْ.",
   ],
 ],
 [
   [
-    Prefix.commonPrayer + "NowAlwaysAndForEver&C=Assembly",
+    Prefix.commonPrayer + "NowAlwaysAndForEver&C=Same",
     "ⲕⲉ ⲛⲩⲛ ⲕⲉ ⲁ̀ⲓ̀ ⲕⲉ ⲓⲥ ⲧⲟⲩⲥ ⲉ̀ⲱ̀ⲛⲁⲥ ⲧⲱⲛ ⲉ̀ⲱ̀ⲛⲱⲛ: ⲁ̀ⲙⲏⲛ.",
     "Maintenant et toujours et dans les siècles des siècles. Amen.",
     "كي نين كي آي إي، كي استوس إي أوناستون إي أونون آمْينْ.",
@@ -3319,14 +3319,17 @@ PrayersArrayFR = [[
     "أنتيف إزمو إيرون تيرين♫ إنتيف توفو إن نين هيت♫ إنتيف طالتشو إن نى شونى♫ إنتى نين إبسيشى نيم نين سوما.",
     "ليباركنا كلنا♫ ويُطَهر قلوبنا♫ ويشفي أمراض♫ نِفُوسَنَا وأجسادنا.",
   ],
+  [Prefix.placeHolder, Prefix.commonPrayer + "WeAdoreYou"],
+],
   [
-    Prefix.same + "&C=Diacon",
+    [
+    Prefix.commonPrayer + "WeAdoreYou&C=Same",
     "Ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲕ ⲱ̀ Ⲡⲭ̅ⲥ̅: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̅ⲛ̅ⲁ̅ ⲉ̅ⲑ̅ⲩ̅: " + variable.giaki.COP + ".",
     "Nous T'adorons ô Christ♫ avec Ton Père très bon♫ avec le Saint-Esprit♫ " + variable.giaki.FR + ".",
     "تين أووشت إمموك أوبي إخرستوس♫ نيم بيك يوت إن أغاثوس♫ نيم بي إبنفما إثؤواب♫ " + variable.giaki.CA + ".",
     "نَسْجُدْ لَكَ أيُّهَا المسيح♫ مَعَ أَبِيكَ الصَالِح♫ والْرُوحْ القُدُسْ♫ " + variable.giaki.AR + ".",
+    ]
   ],
-],
 [
   [
     Prefix.doxologies + "StMaykel&C=Title",
@@ -7272,19 +7275,10 @@ PrayersArrayFR = [[
     "كلّ نسمة فلتسبح اسْمِ الرَبِّ إلَهْنَا هَلِّليلُويا.",
   ],
   [
-    Prefix.same + "&C=Diacon",
-    "Ⲇⲟⲭⲁ ⲡⲁⲧⲣⲓ ⲕⲉ Ⲩ̀ⲓⲱ ⲕⲉ ⲁⲅⲓⲱ Ⲡ̀ⲛⲉⲩⲙⲁⲧⲓ",
-    "Gloire au Père au Fils et au Saint Esprit. Alleluia.",
-    "ذكوساباتري كي إيو، كي آجيو إبنيفماتي.",
-    "المجدُ للآب والابن والْرُوحْ القُدُسْ هَلِّليلُويا.",
+    Prefix.placeHolder,
+    Prefix.commonPrayer + "GloryToFatherSonSpirit",
   ],
-  [
-    Prefix.same + "&C=Diacon",
-    "Ⲕⲉ ⲛⲩⲛ ⲕⲉ ⲁ̀ⲓ̀ ⲕⲉ ⲓⲥ ⲧⲟⲩⲥ ⲉ̀ⲱ̀ⲛⲁⲥ ⲧⲱⲛ ⲉ̀ⲱ̀ⲛⲱⲛ: ⲁ̀ⲙⲏⲛ.",
-    "Maintenant, toujours et dans les siècles des siècles. Amen.",
-    "كي نين كي آ إي، كي يس توس أو أوناس تون، إي أونون، آمْينْ.",
-    "الآن وكُلَّ أوانْ وإلى دَهْرِ الدُهُورْ آمْينْ هَلِّليلُويا.",
-  ],
+  [Prefix.placeHolder, Prefix.commonPrayer + "NowAlwaysAndForEver"],
   [
     Prefix.same + "&C=Diacon",
     "Ⲁⲗ̅: Ⲁⲗ̅: Ⲡⲓⲱ̀ⲟⲩ ⲫⲁ Ⲡⲉⲛⲛⲟⲩϯ ⲡⲉ",
@@ -15320,13 +15314,7 @@ PrayersArrayFR = [[
     "انتيف اسمو إيرون تيرين♫ انتف طوفو اننينهيت♫ انتيف طالِتْشو إني شوني♫ انتي نين ابسيشي نيم نين سوما. ",
     "ليباركنا كلنا♫ ويطهر قلوبنا♫ ويشفي أمراض♫ نِفُوسَنَا وأجسادنا.",
   ],
-  [
-    Prefix.same + "&C=Diacon",
-    "̀Ⲧ̀ⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲕ ⲱ̀ Ⲡⲭ̅ⲥ̅: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ: " + variable.giaki.COP + ".",
-    "Nous T'adorons ô Christ♫ avec Ton Père très bon♫ et le Saint Esprit♫ " + variable.giaki.FR + ".",
-    "تين اوؤشت إموك أو بي اخرستوس♫ نيم بيك يوت إن آغاثوس♫ نيم بي إبنفما اثؤاب♫ " + variable.giaki.CA + ".",
-    "نَسْجُدْ لَكَ ايها المسيح♫ مَعَ أبيكَ الصَالِح♫ والْرُوحْ القُدُسْ♫ " + variable.giaki.AR + ".",
-  ],
+  [Prefix.placeHolder, Prefix.commonPrayer + "WeAdoreYou"],
 ],
 [
   [
@@ -20050,6 +20038,7 @@ PrayersArrayFR = [[
     "",
     "خلصت أبَانَا آدم من الغواية، وعتقت أمنا حواء من طلقات الموت، وأعطيتنا روح البنوة، نُسَبِحَكْ ونُبَارِكُكَ قائلين:",
   ],
+  [Prefix.changeClass + '&C=Assembly'],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "GloryToFatherSonSpirit",
@@ -20068,6 +20057,7 @@ PrayersArrayFR = [[
     "",
     "اسمع أصواتنا كَعَظِيمِ رَحْمَتِكَ، ونجنا أيُّهَا الرَبّ إلَهْنَا بتحننك.",
   ],
+  [Prefix.changeClass + '&C=Assembly'],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "NowAlwaysAndForEver",
@@ -20865,6 +20855,7 @@ PrayersArrayFR = [[
     "",
     "رُوحِكَ القُدُّوسْ يا رَبُّ الذي أرسلته عَلَى تلاميذك القِدِّيسِينْ ورُسُلَكَ المكرمين في السَاعَةْ الثالثة، هَذا لا تنزعه منا أيُّهَا الصَالِح، لَكِنْ جدده في أحشائنا. قلبا نقيا اخلق فيَّ يا اللّه، وروحا مستقيما جدد في أحشائي. لا تطرحني من قدام وجهك، ورُوحِكَ القُدُّوسْ لا تنزعه منى.",
   ],
+  [Prefix.changeClass + "&C=Assembly"],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "GloryToFatherSonSpirit",
@@ -20876,6 +20867,7 @@ PrayersArrayFR = [[
     "",
     "أَيُّهَا الرَبُّ الذي أرسلتَ روح قُدْسَكْ عَلَى تَلامِيذَكْ القِدِّيسِينْ ورُسُلَكَ المكرمين في السَاعَةْ الثالثة، هَذا لا تنزعه منا أيُّهَا الصَالِح. لَكِنْ نسألَكَ أنْ تجدده في أحشائنا، يا رَبّنا يَسُوعْ المَسِيحْ ابنُ اللّه الكلمة، روحا مستقيما ومحييا، روح النبوءة والعفة، روح القداسة والعدالة والسلطة، أيُّهَا القادر عَلَى كُلِّ شيء، لأنَّكَ أنْتَ هُوَ ضياء نفوسنا. يا من يضئ لكُلِّ إنسان آت إلى العَالَم، ارْحَمْنَا.",
   ],
+  [Prefix.changeClass + "&C=Assembly"],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "NowAlwaysAndForEver",
@@ -20887,6 +20879,7 @@ PrayersArrayFR = [[
     "",
     "يا والِدَةِ الإلَهِ أنْتَ هي الكرمة الحقيقية الحاملة عنقود الحياة، نسألَكَ أَيَّتُهَا المملوءة نعمة، مَعَ الرسل، مِنْ أَجْلِ خلاص نفوسنا. مُبَارَكْ الرَبّ إلَهْنَا. مُبَارَكْ الرَبّ يَومَاً فيوما، يهيئ طريقنا لِأنَّهُ إله خَلاصِنَا.",
   ],
+  [Prefix.changeClass + "&C=Assembly"],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "NowAlwaysAndForEver",
@@ -20898,6 +20891,7 @@ PrayersArrayFR = [[
     "",
     "أَيُّهَا المَلِكْ السَّمَائِي المُعَزِّي، رُوحِ الحَقّْ، الحَاضِرِ في كُلِّ مكان والمالئ الكل، كَنْزُ الصَالِحَاتِ، ومُعْطِى الحَيَاةَ، هَلُمَّ تَفَضَّلْ وحِلّ فِينَا، وطَهْرْنَا مِنْ كُلِّ دنس أيُّهَا الصَالِح، وخَلِّصْ نِفُوسَنَا.",
   ],
+  [Prefix.changeClass + "&C=Assembly"],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "GloryToFatherSonSpirit",
@@ -20909,6 +20903,7 @@ PrayersArrayFR = [[
     "",
     "كما كُنْتُ مَعَ تلاميذك أيُّهَا المخلص وأعطيتهم السَّلامُ، هَلُمَّ أًيّْضَاً كن مَعَنا وامْنَحْنَا سَلامَكْ وخَلِّصْنَا ونَجِ نِفُوسَنَا.",
   ],
+  [Prefix.changeClass + "&C=Assembly"],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "NowAlwaysAndForEver",
@@ -21543,6 +21538,7 @@ PrayersArrayFR = [[
     "",
     "كلامي أقوله فيسمع صوتي، ويخلص نَفْسِي بسلام.",
   ],
+  [Prefix.changeClass + "&C=Assembly"],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "GloryToFatherSonSpirit",
@@ -21554,6 +21550,7 @@ PrayersArrayFR = [[
     "",
     "يا يَسُوعْ المَسِيحْ إلَهْنَا الذي سمرتَ عَلَى الصَلِيبْ في السَاعَةْ السادسة، وقتلت الخطية بالخشبة، وأحييت الميت بموتك، الذي هُوَ الإنْسَانِ الذي خلقته بيديك، الذي مات بالخطية، اقتل أوجاعنا بآلامك الشافية المحيية، وبالمسامير التي سمرت بها، أنقذ عُقُولَنَا من طياشة الأعمال الهيولية والشهوات العَالَمية، إلى تَذْكُر أحكامك السَّمَائِيَّة كرأفتك.",
   ],
+  [Prefix.changeClass + "&C=Assembly"],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "NowAlwaysAndForEver",
@@ -21579,6 +21576,7 @@ PrayersArrayFR = [[
     "",
     "أعنا يا اللّه مُخَلِصّْنَا مِنْ أَجْلِ مجد اسْمَكْ. يا رَبُّ نَجِّنَا واغْفِرْ لَنَا خَطَايَانَا، مِنْ أَجْلِ اسْمُكَ القُدُّوسْ",
   ],
+  [Prefix.changeClass + "&C=Assembly"],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "NowAlwaysAndForEver",
@@ -21590,6 +21588,7 @@ PrayersArrayFR = [[
     "",
     "صَنَعْتَ خَلاصاً في وَسَطِ الأرْضِ كُلِّها أيُّهَا المَسِيحْ إلهنا، عِنْدَمَا بَسَطْتَ يَدَيْكَ الطَاهِرَتَينِ عَلى عُودِ الصَليِبْ. فَلِهَذَا كُلِّ الأُمَمْ تَصْرُخْ قَائلةً: المَجْدُ لَكَ يا رَبّ.",
   ],
+  [Prefix.changeClass + "&C=Assembly"],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "GloryToFatherSonSpirit",
@@ -21608,6 +21607,7 @@ PrayersArrayFR = [[
     "",
     "نَصْرُخْ إليَكَ ونَشْكُرُكَ لأنَّكَ مَلأتَ الكُلَّ فَرَحاً، أيُّهَا الُمَخلِصْ لمّا أتَيتَ لِتُعِينْ العَالَمْ، يا رَبُّ المَجْدُ لَكَ.",
   ],
+  [Prefix.changeClass + "&C=Assembly"],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "NowAlwaysAndForEver",
@@ -22396,6 +22396,7 @@ PrayersArrayFR = [[
     "",
     "فليدن توسلي قدامك يا رَبّ، كقولَكَ فهمني. لتدخل طلبتي إلى حضرتك، ككلمتك أحييني.",
   ],
+  [Prefix.changeClass + "&C=Assembly"],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "GloryToFatherSonSpirit",
@@ -22407,6 +22408,7 @@ PrayersArrayFR = [[
     "",
     "يا من أسلم الروحَ في يدي الآب عِنْدَمَا علقت عَلَى الصَلِيبْ وقت السَاعَةْ التاسعة، وهديتَ اللصَّ المصلوباً مَعَك للدخول إلى الفردوس، لا تغفل عني أيُّهَا الصَالِحْ ولا ترذلني أَنا الضال، بَلْ قدس نَفْسِي وأضئ فهمي واجعلني شريكا لنعمة أسرارك المحيية. لِكَيّ ما إذا ذقت من إحساناتك، أقدم لَكَ تسبحة بِغَيّْرِ فتور، مشتاقا إلى بهائك أفْضَلْ مِنْ كُلِّ شئ، أيُّهَا المَسِيحْ إلَهْنَا ونجنا",
   ],
+  [Prefix.changeClass + "&C=Assembly"],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "NowAlwaysAndForEver",
@@ -22418,6 +22420,7 @@ PrayersArrayFR = [[
     "",
     "يا من وَلَدَتْ من البتول مِنْ أَجْلِنا، واحتملت الصلب أيُّهَا الصَالِحْ وقتلت المَوْتَ بموتك وأظهرت القيامة بقيامتك، لا تعرض يا اللّه عَنْ الَّذِينَ جبلتهم بيديك. أظهر محبتك للبشر أيُّهَا الصَالِح. اقْبَلْ من والدتك شفاعة مِنْ أَجْلِنا. نج يا مخلص شعبا متواضعا. لا تتركنا إلى الانقضاء ولا تسلمنا إلى الدهر، ولا تنقض عهدك ولا تنزع عَنَّا رحمتك، مِنْ أَجْلِ إبراهيمَ حبيبِك واسحقَ عبدِك وإسرائيلَ قديسِك",
   ],
+  [Prefix.changeClass + "&C=Assembly"],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "NowAlwaysAndForEver",
@@ -22429,6 +22432,7 @@ PrayersArrayFR = [[
     "",
     "لما أبصر اللص رئيس الحياة عَلَى الصَلِيبْ مَعَلقا، قال: لولا أنْ المصلوبَ مَعَنا إلهٌ متجسد، ما كانت الشمس أخفت شعاعها ولا الأرْضْ ماجت مرتعدة. لَكِنْ أيُّهَا القادر عَلَى كُلِّ شئ، والمحتمل كُلِّ شئ، اذكرني يا رَبُّ متى جئتَ في مَلَكُوتَكْ",
   ],
+  [Prefix.changeClass + "&C=Assembly"],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "GloryToFatherSonSpirit",
@@ -22440,6 +22444,7 @@ PrayersArrayFR = [[
     "",
     "يا مِنْ قِبَلِ إليه اعتراف اللص عَلَى الصليب، اقبلنا إليَكَ أيُّهَا الصَالِح. نَحْنُ المستوجبين حكم المَوْتَ مِنْ أَجْلِ خَطَايَانَا. نقر بخطايانا مَعَه مَعَترفين بألوهيتك، ونصرخ مَعَه جميعا: \"اذكرنا يا رَبُّ متى جئتَ في مَلَكُوتَكْ \"",
   ],
+  [Prefix.changeClass + "&C=Assembly"],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "NowAlwaysAndForEver",
@@ -23081,6 +23086,7 @@ PrayersArrayFR = [[
     "",
     "فما أجسر أنْ أنظر إلى علو السَّمَاء، لكني أتكُلِّ عَلَى غنى رَحْمَتُكَ ومحبتك للبشرية، صارخا قائلا: اَللَّهُمَّ اغفر لي أَنا الخاطئ وارحمني",
   ],
+  [Prefix.changeClass + "&C=Assembly"],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "GloryToFatherSonSpirit",
@@ -23099,6 +23105,7 @@ PrayersArrayFR = [[
     "",
     "فلا تتخل عَنْ قلبٍ خاشع مفتقر لرحمتك. لأني إليَكَ أصرخ يا رَبُّ بتخشع: \"أخط أت يا أبتاه إلى السَّمَاء وقدامك ولست مستحقا أنْ أدعَى لَكَ ابنا، بَلْ اجعلني كأحد أجرائك\".",
   ],
+  [Prefix.changeClass + "&C=Assembly"],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "NowAlwaysAndForEver",
@@ -23698,6 +23705,7 @@ PrayersArrayFR = [[
     "",
     "هوذا أَنا عتيد أنْ أقف أَمَامْ الدَيَّانْ العادل، مرعوبا ومرتعبا من كثرة ذنوبي، لِأنَّ العمر المنقضي في الملاهي يستوجب الدينونة. لَكِنْ توبي يا نَفْسِي مادمتِ في الأرْضْ ساكنة، لِأنَّ التراب في القبر لا يسبح. ولَيس في الموتى من يذكر، ولا في الجحيم من يشكر. بَلْ انهضي من رقاد الكَسَلِ وتضرعي إلى المخلص بالتوبة قائلة: \"اَللَّهُمَّ ارحمني وخلصني\".",
   ],
+  [Prefix.changeClass + "&C=Assembly"],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "GloryToFatherSonSpirit",
@@ -23716,6 +23724,7 @@ PrayersArrayFR = [[
     "",
     "أَيُّهَااَلمَسِيحْ إلَهْنَا لكرسي حكمك المرهوب أفزع، ولمجلس دينونتك أخشع، ولنور شعاع لاهوتك أجزع، أَنا الشقي المتدنس، الراقد عَلَى فراشي المتهاون في حياتي. لكنى أتخذ صورة العشار قارعا صدري، قائلا: \"اَللَّهُمَّ اغفر لي فإني خاطئ\".",
   ],
+  [Prefix.changeClass + "&C=Assembly"],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "NowAlwaysAndForEver",
@@ -23830,6 +23839,7 @@ PrayersArrayFR = [[
     "",
     "أضئ عيني بِعَظَمَةِ أقوالك، وانهضني في كُلِّ حِينٍ لتمجيدك، لِأَنَّكَ صالح وحدك ومُحِبْ البَشَر.",
   ],
+  [Prefix.changeClass + "&C=Assembly"],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "GloryToFatherSonSpirit",
@@ -23841,6 +23851,7 @@ PrayersArrayFR = [[
     "",
     "يا رَبُّ إنَّ دينونتك لمرهوبة، إذْ تُحْشَرْ الناس وتَقِفْ المَلائِكَةِ، وتُفْتَحُ الأَسْفَارْ، وتُكْشَفُ الأَعْمَال وتُفْحَصُ الأَفْكَارْ. أَيَّةُ إدَانَةٍ تَكُونُ إدَانَتي أنَا المَضْبوطْ بِالخَطايا؟ مَنْ يُطْفِئ لَهِيبْ النَار عَنِّي؟‍‍‍‍‍‍ مَنْ يُضِئْ ظُلْمَتي إنَّ لَمّْ تَرْحَمَني أَنْتَ يا رَبُّ؟ لِأَنَّكَ مُتَْعَطِفٌ على البَشَرِ.",
   ],
+  [Prefix.changeClass + "&C=Assembly"],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "NowAlwaysAndForEver",
@@ -23979,11 +23990,12 @@ PrayersArrayFR = [[
     "ضَللتُ مِثْلِ الخَروف الضال فاطلب عَبدَك لأني لِوصاياكْ لَمْ أنسَ.",
   ],
   [
-    Prefix.same + "&C=Assembly",
-    "Ⲇⲟⲭⲁ Ⲡⲁⲧⲣⲓ ⲕⲉ Ⲩ̀ⲓⲱ ⲕⲉ Ⲁ̀ⲅⲓⲱ Ⲡ̀ⲛⲉⲩⲙⲁⲧⲓ. Ⲕⲉ ⲛⲩⲛ ⲕⲉ ⲁ̀ⲓ̀ ⲕⲉ ⲓⲥ ⲧⲟⲩⲥ ⲉ̀ⲱ̀ⲛⲁⲥ ⲧⲱⲛ ⲉ̀ⲱ̀ⲛⲱⲛ ⲁ̀ⲙⲏⲛ.",
-    "Toute gloire soit au Père, au Fils et au Saint-Esprit. Maintenant et pour toujours ; pour les siècles des siècles Amen.",
-    "ذوكسابتري كي إيو كي أجيو إبنفماتي. كي نين كي أإي كي إيس توس إأوناس تون إي أونون آمْينْ.",
-    " المَجدُ للآب والابن والْرُوحْ القُدُسْ. الآن وكل آون وإلى دَهرِ الداهرين آمْينْ.",
+    Prefix.placeHolder,
+    Prefix.commonPrayer + "GloryToFatherSonSpirit",
+  ],
+  [
+    Prefix.placeHolder,
+    Prefix.commonPrayer + "NowAlwaysAndForEver",
   ],
   [
     Prefix.same + "&C=Assembly",
@@ -24106,6 +24118,7 @@ PrayersArrayFR = [[
     "",
     "فَانْظُرِي يا نَفْسِي لِئَلَّا تثقلي نوما، فتلقي خارج الملكوت. بَلْ اسهري واصرخي قائلة: \"قُدُّوسْ قُدُّوسْ قُدُّوسْ أَنْتَ يا الله، مِنْ أَجْلِ والِدَةِ الإِلَه ارْحَمْنَا\".",
   ],
+  [Prefix.changeClass + "&C=Assembly"],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "GloryToFatherSonSpirit",
@@ -24124,6 +24137,7 @@ PrayersArrayFR = [[
     "",
     "فَانْظُرِي يا نَفْسِي لا تَنْعَسِي، لِئَلَّا تَقِفِي خَارِجَاً قَارِعَةً مِثْلَ الَخْمسِ العَذَارى الجَاهِلاتِ، بَلْ اسْهَري مُتَضَرِّعَةً لِكَيّ تَلْتَقي المَسِيحَ الرَبُّ بِدِهْنٍ دَسِمْ، ويُنْعِمُ عَلَيْكِ بِعُرْسِ مَجْدِهِ الإلهي الحَقِيقِي.",
   ],
+  [Prefix.changeClass + "&C=Assembly"],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "NowAlwaysAndForEver",
@@ -24135,6 +24149,7 @@ PrayersArrayFR = [[
     "",
     "أنْتِ هِيَ سُورُ خَلاصِنَا يا والِدَةِ الإِلَه العَذْراءِ الحِصْنِ المَنِيعِ غَيْرِ المُنْثَلِمْ، أبْطِلي مَشُورَةِ المُعَانِدينَ، وحُزْنِ عَبِيدِكِ رُدِّيهِ إلى فَرَحٍ وحَصِّنِي مَدِينَتَنَا (دَيْرَنَا) وعَنْ مُلِوكِنَا (رُؤسَائِنَا) حَارِبي، وتَشَّفَعِي عَنْ سَلامِ العَالَمْ، لِأنَّكَ أنْتِ هِيَ رجاؤنا يا والِدَةِ الإلَهِ.",
   ],
+  [Prefix.changeClass + "&C=Assembly"],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "NowAlwaysAndForEver",
@@ -24157,6 +24172,7 @@ PrayersArrayFR = [[
     "",
     "كَمَا كُنْتَ مَعَ تلاميذك أَيُّهَا المخلص وأَعْطَيْتَهُمْ السَّلامْ، هَلُّمَ أَيْضَّاً كُنْ مَعْنَا وامْنَحْنَا سَلامَكْ وخَلِّصْنَا ونَجِ نِفُوسَنَا. ",
   ],
+  [Prefix.changeClass + "&C=Assembly"],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "NowAlwaysAndForEver",
@@ -24227,6 +24243,7 @@ PrayersArrayFR = [[
     "",
     "أعطني يا رَبُّ ينابيع دموع كثيرة، كَمَا أعطيت مُنْذُ القديم للمرأة الخاطئة. واجعلني مستحقا أن أبل قدميك اللتين أعتقتاني من طريق الضلالة، وأقدم لَكَ طيبا فائقا، وأقتني لي عمرا نقيا بالتوبة، لِكَيّ أسمع أنَا ذَلِكَ الصوت الممتلئ فرحًا: \"إن إيمانك خلصك\".",
   ],
+  [Prefix.changeClass + "&C=Assembly"],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "GloryToFatherSonSpirit",
@@ -24238,6 +24255,7 @@ PrayersArrayFR = [[
     "",
     "إذا ما تفطنت في كثرة أعمالي الرَدِيئَةِ ويأتي على قلبي فكر تِلْكَ الدينونة الرهيبة تأخذني رعدة، فأهرب إلَيْكَ يا الله محب البَشَرِ. فلا تصرف وجهك عني، متضرعا إلَيْكَ يا من أنت وحدك بلا خطية، انْعِمْ على نفسي المسكينة بتخشع قبل أن يأتي الانقضاء وخلصني.",
   ],
+  [Prefix.changeClass + "&C=Assembly"],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "NowAlwaysAndForEver",
@@ -24249,6 +24267,7 @@ PrayersArrayFR = [[
     "",
     "السموات تُطَوِّبُكِ أَيَّتُهَا الممتلئة نعمة، العروس التي بلا زواج. ونحن أيضا نمجد ميلادك غير المدرك. يا والدة الإله يا أم الرحمة والخلاص، تشفعي مِنْ أَجْلِ خلاص نفوسنا.",
   ],
+  [Prefix.changeClass + "&C=Assembly"],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "NowAlwaysAndForEver",
@@ -24260,6 +24279,7 @@ PrayersArrayFR = [[
     "",
     "أَيُّها المَلِكْ السَّمَائِي المُعَزِّي، رُوحِ الحَقّْ، الحَاضِرِ في كُلِّ مَكَانٍ والمالئ الكُلِّ، كَنْزُ الصَالِحَاتِ، ومُعْطِى الحَيَاةَ، هَلُمَّ تَفَضَّلْ وحِلّ فِينَا، وطَهْرْنَا مِنْ كُلِّ دَنَسٍ أَيُّهَا الصَالِحِ، وخَلِّصْ نِفُوسَنَا.",
   ],
+  [Prefix.changeClass + "&C=Assembly"],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "GloryToFatherSonSpirit",
@@ -24271,6 +24291,7 @@ PrayersArrayFR = [[
     "",
     "كَمَا كُنْتَ مَعَ تلاميذك أَيُّهَا المخلص وأَعْطَيْتَهُمْ السَّلامْ، هَلُّمَ أَيْضَّاً كُنْ مَعْنَا وامْنَحْنَا سَلامَكْ وخَلِّصْنَا ونَجِ نِفُوسَنَا. ",
   ],
+  [Prefix.changeClass + "&C=Assembly"],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "NowAlwaysAndForEver",
@@ -24350,6 +24371,7 @@ PrayersArrayFR = [[
     "",
     "بعين متحننة يا رَبُّ انظر إلى ضعفى، فعما قليل تفنى حياتي، وبأعمالي لَيْسَ لي خلاص. فلهَذَا أسال: بعين رحيمة يا رَبُّ انظر إلى ضعفى وذلي ومسكنتي وغربتي، ونجني.",
   ],
+  [Prefix.changeClass + "&C=Assembly"],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "GloryToFatherSonSpirit",
@@ -24368,6 +24390,7 @@ PrayersArrayFR = [[
     "",
     "فلهَذَا أشفق عليّ أَيُّهَا المخلص، فإنك أَنْتَ هُوَ مُحِبَّ البَشَرِ وحدك.",
   ],
+  [Prefix.changeClass + "&C=Assembly"],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "NowAlwaysAndForEver",
@@ -24379,6 +24402,7 @@ PrayersArrayFR = [[
     "",
     "يا باب الحياة العقلي، يا والدة الإله المكرمة، خلصي الَّذِينَ التجأوا إلَيْكَ بإيمان من الشدائد، لِكَيّ نمجد ميلادك الطاهر في كُلِّ شيء مِنْ أَجْلِ خلاص نفوسنا.",
   ],
+  [Prefix.changeClass + "&C=Assembly"],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "NowAlwaysAndForEver",
@@ -24390,6 +24414,7 @@ PrayersArrayFR = [[
     "",
     "أَيُّها المَلِكْ السَّمَائِي المُعَزِّي، رُوحِ الحَقّْ، الحَاضِرِ في كُلِّ مَكَانٍ والمالئ الكُلِّ، كَنْزُ الصَالِحَاتِ، ومُعْطِى الحَيَاةَ، هَلُمَّ تَفَضَّلْ وحِلّ فِينَا، وطَهْرْنَا مِنْ كُلِّ دَنَسٍ أَيُّهَا الصَالِحِ، وخَلِّصْ نِفُوسَنَا.",
   ],
+  [Prefix.changeClass + "&C=Assembly"],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "GloryToFatherSonSpirit",
@@ -24401,6 +24426,7 @@ PrayersArrayFR = [[
     "",
     "كَمَا كُنْتَ مَعَ تلاميذك أَيُّهَا المخلص وأَعْطَيْتَهُمْ السَّلامْ، هَلُّمَ أَيْضَّاً كُنْ مَعْنَا وامْنَحْنَا سَلامَكْ وخَلِّصْنَا ونَجِ نِفُوسَنَا. ",
   ],
+  [Prefix.changeClass + "&C=Assembly"],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "NowAlwaysAndForEver",
@@ -25128,6 +25154,7 @@ PrayersArrayFR = [[
   [
     Prefix.massCommon + "Agios&D=Seasons.CrossFeast&C=Title",
   ],
+  [Prefix.changeClass + "&C=Assembly"],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "GloryToFatherSonSpirit",
@@ -29851,13 +29878,7 @@ PrayersArrayFR = [[
     Prefix.placeHolder,
     Prefix.commonPrayer + "KyriElieson3Times",
   ],
-  [
-    Prefix.same + "&C=Assembly",
-    "Ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲕ ⲱ̀ Ⲡⲭ̅ⲥ̅: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̅ⲛ̅ⲁ̅ ⲉ̅ⲑ̅ⲩ̅: " + variable.giaki.COP + ".",
-    "Nous T'adorons ô Christ♫ avec Ton Père très bon♫ avec le Saint-Esprit♫ " + variable.giaki.FR + ".",
-    "تين أووشت إمموك أوبي إخرستوس♫ نيم بيك يوت إن أغاثوس♫ نيم بي إبنفما إثؤواب♫ " + variable.giaki.CA + ".",
-    "نَسْجُدْ لَكَ أيُّهَا المسيح♫ مَعَ أَبِيكَ الصَالِح♫ والْرُوحْ القُدُسْ♫ " + variable.giaki.AR + ".",
-  ],
+  [Prefix.placeHolder, Prefix.commonPrayer + "WeAdoreYou"],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "KyriElieson3Times",
@@ -31130,64 +31151,58 @@ PrayersArrayFR = [[
     "Ϧⲉⲛ ⲟⲩϣⲱⲧ ⲁϥϣⲱⲧ: ⲛ̀ϫⲉ ⲡⲓⲙⲱⲟⲩ ⲛ̀ⲧⲉ ⲫ̀ⲓⲟⲙ: ⲟⲩⲟϩ ⲫ̀ⲛⲟⲩⲛ ⲉⲧϣⲏⲕ: ⲁϥϣⲱⲡⲓ ⲛ̀ⲟⲩⲙⲁ ⲙ̀ⲙⲟϣⲓ.",
     "Fendue, l'eau de la mer ♫ a été séparée.  ♫ La grande profondeur ♫ est devenue passage.",
     "خين أوشوت أفشوت أفشوت ♫ إنجي بي موؤ إنتيه إفيوم ♫ أووه إفنون إتشيك ♫ آفشوبي إنؤما إمموشي.",
-    "قَطْعاً انْقَطَعَ مَاءِ البَحْرِ، والعُمْقِ العَمِيقْ صَارَ مَسْلَكاً.",
+    "قَطْعاً انْقَطَعَ ♫ مَاءِ البَحْرِ، ♫ والعُمْقِ العَمِيقْ ♫ صَارَ مَسْلَكاً.",
   ],
   [
     Prefix.same + "&C=Assembly",
     "Ⲟⲩⲕⲁϩⲓ ⲛ̀ⲁⲑⲟⲩⲱⲛϩ: ⲁ̀ⲫ̀ⲣⲏ ϣⲁⲓ ϩⲓϫⲱϥ: ⲟⲩⲙⲱⲓⲧ ⲛ̀ⲁⲧⲥⲓⲛⲓ: ⲁⲩⲙⲟϣⲓ ϩⲓⲱⲧϥ.",
     "Sur une terre invisible ♫ s'est levé le soleil ♫ et un chemin aride ♫ ils ont pu pratiquer.",
     "أوكاهي إن إث أوو أونه♫ آإفري شاي هيجوف♫ أو مويت إن أتسيني ♫ أف موشي هيوتف.",
-    "أرْضُ غَيْرْ ظَاهِرَة أشْرَقَتْ الشَمْسُ عَلَيْها، وَطَريقٌ غَيْر مَسْلوكَة مَشُوا عَلَيْها.",
+    "أرْضُ غَيْرْ ظَاهِرَة ♫ أشْرَقَتْ الشَمْسُ عَلَيْها، ♫ وَطَريقٌ غَيْر مَسْلوكَة ♫ مَشُوا عَلَيْها.",
   ],
   [
     Prefix.same + "&C=Assembly",
     "Ⲟⲩⲙⲱⲟⲩ ⲉϥⲃⲏⲗ ⲉ̀ⲃⲟⲗ: ⲁϥⲟ̀ϩⲓ ⲉ̀ⲣⲁⲧϥ: ϧⲉⲛ ⲟⲩϩⲱⲃ ⲛ̀ϣ̀ⲫⲏⲣⲓ: ⲙ̀ⲡⲁⲣⲁⲇⲟⲝⲟⲛ.",
     "Une eau qui frémissait ♫ dressée, s'est élevée ♫ par une œuvre étonnante ; ♫ un fait miraculeux.",
     "أوموؤ إف فيل إيفول ♫ أفؤهي إيراتف ♫ خين أوو هوب إن إشفيري ♫ أمبارا ذوكسون.",
-    "مَاءٌ مُنْحَلْ وقَفَ بِفِعْلٍ عَجِيبْ مُعْجِزٍ.",
+    "مَاءٌ مُنْحَلْ ♫ وقَفَ ♫ بِفِعْلٍ عَجِيبْ ♫ مُعْجِزٍ.",
   ],
   [
     Prefix.same + "&C=Assembly",
     "Ⲫⲁⲣⲁⲱ̀ ⲛⲉⲙ ⲛⲉϥϩⲁⲣⲙⲁ: ⲁⲩⲱⲙⲥ ⲉ̀ⲡⲉⲥⲏⲧ: ⲛⲉⲛϣⲏⲣⲓ ⲙ̀Ⲡⲓⲥⲣⲁⲏⲗ: ⲁⲩⲉⲣϫⲓⲛⲓⲟⲣ ⲙ̀ⲫ̀ⲓⲟⲙ.",
     "Pharaon et tous ses chars ♫ noyés, ont fait naufrage ♫ et les fils d'Israël ♫ ont traversé la mer.",
     "فاراؤ نيم نيف هارما ♫ أفؤمس إبي سيت ♫ نين شيري إمبي إسرائيل ♫ أفئير جينيور إم إفيوم.",
-    "غَرَقَ فِرْعُونْ ومَرْكَبَاتُهُ وعَبَرَ بَنُو إسْرَائيلْ البَحْرْ.",
+    "غَرَقَ فِرْعُونْ ♫ ومَرْكَبَاتُهُ ♫ وعَبَرَ بَنُو ♫ إسْرَائيلْ البَحْرْ.",
   ],
   [
     Prefix.same + "&C=Assembly",
     "Ⲉ̀ⲛⲁϥϩⲱⲥ ϧⲁϫⲱⲟⲩ ⲡⲉ: ⲛ̀ϫⲉ Ⲙⲱⲩ̀ⲥⲏⲥ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ϣⲁ ⲛ̀ⲧⲉϥϭⲓⲧⲟⲩ ⲉ̀ϧⲟⲩⲛ: ϩⲓ ⲡ̀ϣⲁϥⲉ ⲛ̀Ⲥⲓⲛⲁ.",
     "Moïse le Prophète ♫ les précédait, chantant ♫ jusqu'à leur arrivée ♫ au désert du Sinaï.",
     "إيناف هوس خاجوؤ بي ♫ إنجي مويسيس بي إبروفيتيس ♫ شا إنتيف إتشي تووإخون ♫ هي إبشافي إنسينا.",
-    "وكَانْ مُوسى النَبي يُسَبِحْ قُدَّامَهُمْ حَتّىَ أدْخَلَهُمْ بَرِّيَةْ سِينَاء.",
+    "وكَانْ مُوسى النَبي ♫ يُسَبِحْ قُدَّامَهُمْ ♫ حَتّىَ أدْخَلَهُمْ بَرِّيَةْ سِينَاء.",
   ],
   [
     Prefix.same + "&C=Assembly",
     "Ⲉ̀ⲛⲁϥϩⲱⲥ ⲉ̀Ⲫ̀ⲛⲟⲩϯ: ϧⲉⲛ ⲧⲁⲓϩⲱⲇⲏ ⲙ̀ⲃⲉⲣⲓ: ϫⲉ ⲙⲁⲣⲉⲛϩⲱⲥ ⲉ̀Ⲡ̀ϭⲟⲓⲥ: ϫⲉ ϧⲉⲛ ⲟⲩⲱ̀ⲟⲩ ⲅⲁⲣ ⲁϥϭⲓⲱ̀ⲟⲩ.",
     "Et eux louaient Dieu d'une ♫ nouvelle louange, disant: ♫ \"Louons notre Seigneur ♫ car de Gloire, Il S'est glorifié\".",
     "إناف هوس إإفنوتي: خين تاي هوذي إمفيري ♫ جي مارين هوس إيه أبتشويس ♫ جي خين أوأو غار أفتشي أوأو.",
-    "وكَانُوا يُسَبِّحُون اللّه بِهَذِهِ التَسْبِحَةْ الجَدِيدَةْ، قَائلِينْ: فَلنُسَبِحْ الرَبْ لأنَّهُ بِالَمِجدِ قَدْ تَمَجَدْ\".",
+    "وكَانُوا يُسَبِّحُون اللّه ♫ بِهَذِهِ التَسْبِحَةْ الجَدِيدَةْ، ♫ قَائلِينْ: فَلنُسَبِحْ الرَبْ  ♫ لأنَّهُ بِالَمِجدِ قَدْ تَمَجَدْ\".",
   ],
   [
     Prefix.same + "&C=Assembly",
     "Ϩⲓⲧⲉⲛ ⲛⲓⲉⲩⲭⲏ: ⲛ̀ⲧⲉ Ⲙⲱⲩ̀ⲥⲏⲥ ⲡⲓⲁⲣⲭⲏⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: Ⲡ̀ϭⲟⲓⲥ ⲁ̀ⲣⲓϩ̀ⲙⲟⲧ ⲛⲁⲛ: ⲙ̀ⲡⲓⲭⲱ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉ ⲛⲉⲛⲛⲟⲃⲓ.",
     "Par les prières de ♫ Moïse chef des prophètes ♫ Seigneur accorde-nous ♫ le pardon de nos péchés.",
     "هيتين ني أفشي ♫ إنتى مويسيس بي أرشي إبروفيتيس ♫إبتشويس آري إهموت نان نين نوفي.",
-    "بِصَلَوَاتْ مُوسَى رَئيسْ الأَنْبِياءْ، يا رَبْ انْعِمْ لَنَا بِمَغْفِرَة خَطَايانا.",
+    "بِصَلَوَاتْ مُوسَى ♫ رَئيسْ الأَنْبِياءْ، ♫ يا رَبْ انْعِمْ لَنَا ♫ بِمَغْفِرَة خَطَايانا.",
   ],
   [
     Prefix.same + "&C=Assembly",
     "Ϩⲓⲧⲉⲛ ⲛⲓⲡ̀ⲣⲉⲥⲃⲓⲁ: ⲛ̀ⲧⲉ Ϯⲑⲉⲟ̀ⲧⲟⲕⲟⲥ ⲉⲑⲟⲩⲁⲃ Ⲙⲁⲣⲓⲁ: Ⲡ̀ϭⲟⲓⲥ ⲁ̀ⲣⲓϩ̀ⲙⲟⲧ ⲛⲁⲛ: ⲙ̀ⲡⲓⲭⲱ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉ ⲛⲉⲛⲛⲟⲃⲓ.",
     "Par les intercessions ♫ de Marie Mère de Dieu, ♫ Seigneur accorde-nous ♫ le pardon de nos péchés.",
     "هيتين ني إبريسفيا ♫ إنتى تي ثيؤطوكوس إثؤاب ماريا ♫ إبتشويس آري إرهموت نان ♫ إمبيكو إيفول إنتى نين نوفي.",
-    "بِشَفَاعَاتْ والدِة الإلَه القِدِيسَة مَرْيَمْ يا رَبْ انْعِمْ لَنَا بِمَغْفِرَةْ خَطَايانا.",
+    "بِشَفَاعَاتْ والدِة الإلَه ♫ القِدِيسَة مَرْيَمْ ♫ يا رَبْ انْعِمْ لَنَا ♫ بِمَغْفِرَةْ خَطَايانا.",
   ],
-  [
-    Prefix.same + "&C=Assembly",
-    "Ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲕ ⲱ̀ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ: ϫⲉ (ⲁⲕⲧⲱⲛⲕ/ⲁⲕⲓ̀) ⲁⲕⲥⲱϯ ⲙ̀ⲙⲟⲛ.",
-    "Nous T'adorons ô Christ ♫ avec Ton Père Très Bon ;♫ avec le Saint-Esprit ♫ car Tu vins et nous sauvas.",
-    "تين أوو أوشت إمموك أوبي إخرستوس ♫ نيم بيك يوت إن أغاثوس ♫ نيم بي إبنفما إثؤاب ♫ جي أكئي أكسوتي إممون.",
-    "نَسْجُدْ لَكَ أيُّها المَسِيحْ مَعَ أبيكَ الصَالِح والرُوحْ القُدُسْ لأنَّكَ أتَيْتَ وخَلصْتَنَا.",
-  ],
+  [Prefix.placeHolder, Prefix.commonPrayer + "WeAdoreYou"],
 ],
 [
   [
@@ -41061,7 +41076,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.bookOfHours + "ZoksasiFilan&C=NoActor",
+    Prefix.bookOfHours + "ZoksasiFilan&C=Same",
     "Ⲇⲟⲭⲁ ⲥⲓ Ⲫⲓⲗⲁⲛⲑ̀ⲣⲱⲡⲉ.",
     "Gloire à Toi, Ami du genre humain.",
     "ذوكساسي فيلانثروبي.",

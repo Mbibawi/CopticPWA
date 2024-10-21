@@ -201,7 +201,7 @@ ReadingsArrays.StPaulArrayFR = [
     ],
     [
         [
-            Prefix.stPaul + "&D=034thSunday"
+            Prefix.stPaul + "&D=034thSunday||103rdSunday"
         ],
         [
             Prefix.readingRef + "1CO:4:1-16"
@@ -549,14 +549,6 @@ ReadingsArrays.StPaulArrayFR = [
         ],
         [
             Prefix.readingRef + "ROM:4:4-9"
-        ]
-    ],
-    [
-        [
-            Prefix.stPaul + "&D=103rdSunday"
-        ],
-        [
-            Prefix.readingRef + "1CO:4:1-16"
         ]
     ],
     [

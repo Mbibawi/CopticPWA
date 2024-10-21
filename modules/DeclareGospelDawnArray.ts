@@ -1745,7 +1745,7 @@ ReadingsArrays.GospelMorningArrayFR = [
     ],
     [
         [
-            Prefix.gospelMorning + "Psalm&D=GL3rdSunday"
+            Prefix.gospelMorning + "Psalm&D=GL3rdSunday||GL47"
         ],
         [
             Prefix.readingRef + "PSA:57:1-1"
@@ -1821,14 +1821,6 @@ ReadingsArrays.GospelMorningArrayFR = [
         ],
         [
             Prefix.readingRef + "LUK:17:1-10"
-        ]
-    ],
-    [
-        [
-            Prefix.gospelMorning + "Psalm&D=GL47"
-        ],
-        [
-            Prefix.readingRef + "PSA:57:1-1"
         ]
     ],
     [
