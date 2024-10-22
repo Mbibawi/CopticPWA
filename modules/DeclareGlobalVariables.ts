@@ -419,8 +419,11 @@ const nonMartyrsFeasts = {
   StPersoma: "0513",
   StCyrilVI: "3006",
   StBishoyKamel: "1207",
-  StMikaelMetropolis: "", //St Mikhael the Metropolis of Assiut
+  StMichaelMetropolis: "", //St Mikhael the Metropolis of Assiut
   StJustAnton: "0804", //St Just of the St. Anton
+  StCome: "", //
+  StTeji: "", //
+  StPope: "", //
 }
 
 const apostlesFeasts = {
