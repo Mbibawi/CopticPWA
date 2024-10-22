@@ -145,7 +145,7 @@ const Btn: { [index: string]: Button } = {};
 
 //CONSTANTS
 const version: string =
-  "v8.9.4 (Introduced the 'Same' class + some fixes : (Apostles fast Season, etc.)";
+  "v8.9.5 (Fixes)";
 const calendarDay: number = 24 * 60 * 60 * 1000; //this is a day in milliseconds
 const containerDiv: HTMLDivElement = document.getElementById(
   "containerDiv") as HTMLDivElement;

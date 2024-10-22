@@ -5647,7 +5647,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.massCommon + "IntercessionsStGabriel&D=$copticFeasts.Annonciation||$saintsFeasts.StGabriel&C=Title",
+    Prefix.massCommon + "IntercessionsStGabriel&D=$copticFeasts.Annonciation||$saintsFeasts.ArchangelGabriel&C=Title",
     "",
     "Archange Gabriel",
     "",
@@ -6707,7 +6707,7 @@ PrayersArrayFR = [[
     "",
     "Souviens-Toi Seigneur l’âme de Ton serviteur (....).",
     "",
-    "تفضل يا رَبُّ أذكر أنفس عبيدك",
+    "تفضل يا رَبُّ أذكر أنفس عبيدك (...)",
   ],
   [
     Prefix.same + "&C=Priest",
@@ -10535,7 +10535,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.massCommon + "ThisIsAlsoReallyTrue",
+    Prefix.massCommon + "ThisIsAlsoTrue",
   ],
   [
     Prefix.placeHolder,
@@ -10695,7 +10695,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.massCommon + "ThisIsAlsoReallyTrueC=Assembly",
+    Prefix.massCommon + "ThisIsAlsoTrue&C=Assembly",
     "Ⲫⲁⲓ ⲟⲛ ⲡⲉ ϧⲉⲛ ⲟⲩⲙⲉⲑⲙⲏⲓ: ⲁⲙⲏⲛ.",
     "Ceci est aussi en vérité. Amen.",
     "فاي أون بي خين أو ميثُمَّي آمْينْ.",
@@ -11407,7 +11407,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.massCommon + "ThisIsAlsoReallyTrue",
+    Prefix.massCommon + "ThisIsAlsoTrue",
   ],
   [
     Prefix.placeHolder,
@@ -12799,7 +12799,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.massCommon + "ThisIsAlsoReallyTrue",
+    Prefix.massCommon + "ThisIsAlsoTrue",
   ],
   [
     Prefix.placeHolder,

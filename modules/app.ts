@@ -515,107 +515,122 @@ function createHtmlElementForPrayer(args: {
   | { beforeOrAfter: InsertPosition; el: HTMLElement };
   actorClass?: string;
   container?: HTMLElement | DocumentFragment;
-}): HTMLDivElement | void {
+}): HTMLDivElement {
   if (!args.tblRow || args.tblRow.length === 0)
-    return console.log(
-      "No valid tblRow[][] object is passed to createHtmlElementForPrayer() "
-    );
+    return;
 
-  if (!args.userLanguages)
-    args.userLanguages = JSON.parse(localStorage.userLanguages);
-  if (!args.position) args.position = containerDiv;
+  (function setDefaults() {
+    if (!args.userLanguages)
+      args.userLanguages = JSON.parse(localStorage.userLanguages);
+    if (!args.position)
+      args.position = containerDiv;
+    if (!args.container)
+      args.container = containerDiv
+  })();
+  
+  if (args.actorClass === "Comments")
+    args.languagesArray = ['FR', 'AR'];//The 'Comments' rows are structured like: [Title, FR, AR] regardless of the languages of the array
+  
   let htmlRow: HTMLDivElement,
     p: HTMLParagraphElement,
     lang: string,
     text: string;
-  if (!args.container) args.container = containerDiv;
-
-  htmlRow = document.createElement("div");
-  htmlRow.classList.add("Row"); //we add 'Row' class to this div
-
-  if (!foreingLanguage && !copticLanguage)
-    htmlRow.classList.add('Single')
-
-  if (localStorage.displayMode === displayModes[1])
-    htmlRow.classList.replace("Row", "SlideRow");
-
-  if (args.dataGroup)
-    htmlRow.dataset.group = args.dataGroup.replace(/Part\d+/, "");
-  if (args.dataRoot)
-    htmlRow.dataset.root = args.dataRoot.replace(/Part\d+/, "");
 
 
-  htmlRow.classList.add(args.actorClass);
-  if (args.actorClass.includes("Title")) {
-    htmlRow.addEventListener("click", (e) => {
-      e.preventDefault;
-      collapseOrExpandText(htmlRow);
-    }); //we also add a 'click' eventListener to the 'Title' elements
-    htmlRow.id = splitTitle(args.tblRow[0])[0]; //we add an id to all the titles in order to be able to retrieve them for the sake of adding a title shortcut in the titles right side bar
-  }
+  (function createDivElement() {
+    htmlRow = document.createElement("div");
+    try {
+      //@ts-ignore
+      args.position.el
+        ? //@ts-ignore
+        args.position.el.insertAdjacentElement(
+          //@ts-ignore
+          args.position.beforeOrAfter,
+          htmlRow
+        )
+        : //@ts-ignore
+        args.position.appendChild(htmlRow);
+    } catch (error) {
+      console.log(
+        "an error occured: position = ",
+        args.position,
+        " and tblRow = ",
+        args.tblRow
+      );
+      return console.log(error);
+    }
 
-  //looping the args.ents containing the text of the prayer in different languages,  starting by 1 since 0 is the id/title of the table
-  for (let x = 1; x < args.tblRow.length; x++) {
-    //x starts from 1 because prayers[0] is the title of the row
-    if (!args.tblRow[x] || args.tblRow[x] === " ") continue; //we escape the empty strings if the text is not available in all the button's languages
-    if (args.actorClass === "Comments")
-      //this means it is a comment
-      x === 1 ? lang = 'FR' : lang = "AR"
-    else
-      lang = args.languagesArray[x - 1]; //we select the language in the button's languagesArray, starting from 0 not from 1, redrethat's why we start from x-1.
+    htmlRow.classList.add("Row"); //we add 'Row' class to this div
+    
+      if (!foreingLanguage && !copticLanguage)
+        htmlRow.classList.add('Single')
+    
+      if (localStorage.displayMode === displayModes[1])
+        htmlRow.classList.replace("Row", "SlideRow");
+    
+      if (args.dataGroup)
+        htmlRow.dataset.group = args.dataGroup.replace(/Part\d+/, "");
+      if (args.dataRoot)
+        htmlRow.dataset.root = args.dataRoot.replace(/Part\d+/, "");
+    
+    
+      htmlRow.classList.add(args.actorClass);
+      if (args.actorClass.includes("Title")) {
+        htmlRow.addEventListener("click", (e) => {
+          e.preventDefault;
+          collapseOrExpandText(htmlRow);
+        }); //we also add a 'click' eventListener to the 'Title' elements
+        htmlRow.id = splitTitle(args.tblRow[0])[0]; //we add an id to all the titles in order to be able to retrieve them for the sake of adding a title shortcut in the titles right side bar
+      }
+  
+  })();
 
+  (function appendParagraphsToDiv() {
+    //looping the args.ents containing the text of the prayer in different languages,  starting by 1 since 0 is the id/title of the table
+    for (let x = 1; x < args.tblRow.length; x++) {
+      //x starts from 1 because prayers[0] is the title of the row
+      if (!args.tblRow[x] || args.tblRow[x] === " ") continue; //we escape the empty strings if the text is not available in all the button's languages
 
-    //we check that the language is included in the allLanguages array, i.e. if it has not been removed by the user, which means that he does not want this language to be displayed. If the language is not removed, we retrieve the text in this language. otherwise we will not retrieve its text.
-    if (!args.userLanguages.includes(lang)) continue;
-    p = document.createElement("p"); //we create a new <p></p> element for the text of each language in the 'prayer' array (the 'prayer' array is constructed like ['prayer id', 'text in AR, 'text in FR', ' text in COP', 'text in Language', etc.])
+      lang = args.languagesArray[x - 1] || 'NoLanguage'; //we select the language in the button's languagesArray, starting from 0 not from 1, that's why we start from x-1.
 
-    p.dataset.root = htmlRow.dataset.root; //we do this in order to be able later to retrieve all the divs containing the text of the prayers with similar id as the title
-    text = args.tblRow[x];
-    if (lang) p.classList.add(lang);
-    if (lang) p.lang = lang.toLowerCase();
-    p.innerText = text;
-    p.addEventListener("dblclick", (ev: MouseEvent) => {
-      ev.preventDefault();
-      localStorage.fontSize !== "1.9" ? setFontSize("1.9") : setFontSize("1");
-      //toggleAmplifyText(ev.target as HTMLElement, "amplifiedText");
-    }); //adding a double click eventListner that amplifies the text size of the chosen language;
-    p.addEventListener("contextmenu", (event) => {
-      if (localStorage.editingMode != "true") return;
-      event.preventDefault();
-      if (!confirm("Do you want to edit the table?")) return;
-      if (!htmlRow.dataset.root) return;
-      startEditingMode({
-        clear: true,
-        arrayName: getArrayNameFromArray(
-          getArrayFromPrefix(htmlRow.dataset.root)
-        ),
-        tableTitle: htmlRow.dataset.root,
-        operator: { equal: true }, //!We need to look for the table by the exact title beacause some titles like 'NativityParamoun' or 'BaptismParamoun' may be retrieved if the Season is 'Nativity' or 'Baptism'
+    
+      //we check that the language is included in the allLanguages array, i.e. if it has not been removed by the user, which means that he does not want this language to be displayed. If the language is not removed, we retrieve the text in this language. otherwise we will not retrieve its text.
+      if (!args.userLanguages.includes(lang)) continue;
+
+      p = document.createElement("p"); //we create a new <p></p> element for the text of each language in the 'prayer' array (the 'prayer' array is constructed like ['prayer id', 'text in AR, 'text in FR', ' text in COP', 'text in Language', etc.])
+
+      htmlRow.appendChild(p);
+  
+      p.dataset.root = htmlRow.dataset.root; //we do this in order to be able later to retrieve all the divs containing the text of the prayers with similar id as the title
+      text = args.tblRow[x];
+      p.classList.add(lang);
+      p.lang = lang.toLowerCase();
+      p.innerText = text;
+      p.addEventListener("dblclick", (ev: MouseEvent) => {
+        ev.preventDefault();
+        localStorage.fontSize !== "1.9" ? setFontSize("1.9") : setFontSize("1");
+        //toggleAmplifyText(ev.target as HTMLElement, "amplifiedText");
+      }); //adding a double click eventListner that amplifies the text size of the chosen language;
+      p.addEventListener("contextmenu", (event) => {
+        if (localStorage.editingMode != "true") return;
+        event.preventDefault();
+        if (!confirm("Do you want to edit the table?")) return;
+        if (!htmlRow.dataset.root) return;
+        startEditingMode({
+          clear: true,
+          arrayName: getArrayNameFromArray(
+            getArrayFromPrefix(htmlRow.dataset.root)
+          ),
+          tableTitle: htmlRow.dataset.root,
+          operator: { equal: true }, //!We need to look for the table by the exact title beacause some titles like 'NativityParamoun' or 'BaptismParamoun' may be retrieved if the Season is 'Nativity' or 'Baptism'
+        });
       });
-    });
-    htmlRow.appendChild(p); //the row which is a <div></div>, will encapsulate a <p></p> element for each language in the 'prayer' array (i.e., it will have as many <p></p> elements as the number of elements in the 'prayer' array)
-  }
-  try {
-    //@ts-ignore
-    args.position.el
-      ? //@ts-ignore
-      args.position.el.insertAdjacentElement(
-        //@ts-ignore
-        args.position.beforeOrAfter,
-        htmlRow
-      )
-      : //@ts-ignore
-      args.position.appendChild(htmlRow);
-    return htmlRow;
-  } catch (error) {
-    console.log(
-      "an error occured: position = ",
-      args.position,
-      " and tblRow = ",
-      args.tblRow
-    );
-    console.log(error);
-  }
+    }
+    
+  })();
+
+  return htmlRow
+
 }
 
 /**
@@ -1349,19 +1364,23 @@ function showPrayers(args: {
       dataGroup = splitTitle(Title(entireTable))[0];//This will not change and will serve to set the dataset.group property of all the div elements that will be created for the table
       entireTable.forEach((row) => htmlDivs.push(processRow(row)));
     });
+    
 
+    htmlDivs
+      .filter(div => div?.classList.contains('Same'))
+      .forEach(div => {
+        if (htmlDivs[htmlDivs.indexOf(div) - 1])
+          div.classList.replace('Same', Array.from(htmlDivs[htmlDivs.indexOf(div) - 1].classList).find(c => c !== 'Row') || 'NoActor')
+      });
     return htmlDivs;
 
     function processRow(row: string[]): HTMLDivElement {
-      if (!row) return undefined;
+      if (!row) return;
       if (!row[0].startsWith(Prefix.same)) dataRoot = splitTitle(row[0])[0];//Each time a row has its own title (which means the row is the first row in a table), we will set the dataset.root of this row and the following rows to the value of row[0]
 
-      let actorClass = splitTitle(row[0])[1] || 'NoActor';
+      const actorClass = splitTitle(row[0])[1] || 'NoActor';
 
-      if (actorClass === 'Same')
-        actorClass = splitTitle(entireTable[entireTable.indexOf(row) - 1][0])[1] || 'NoActor';
-      
-      if (!['Title', 'SubTitle', 'ReadingIntro', 'ReadingEnd'].includes(actorClass)
+      if (!['Title', 'SubTitle', 'ReadingIntro', 'ReadingEnd', 'Same'].includes(actorClass)
         && !showActors.find(actor => actor.EN === actorClass)?.Show)
         return; //If the actor class .Show properety is not set to true, we will not show it
       

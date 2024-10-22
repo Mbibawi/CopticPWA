@@ -2054,7 +2054,7 @@ Btn.IncenseMorning = new Button({
           saintsFeasts.StMina,
         ]; //Those saints feast will be excluded because the doxologies of those saints are already included by default
 
-        if (dayFeasts.length > 0) {
+        if (dayFeasts) {
           let index: number = 2;
           dayFeasts.forEach((feast) => {
             if (
