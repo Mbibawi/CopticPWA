@@ -3319,17 +3319,8 @@ PrayersArrayFR = [[
     "أنتيف إزمو إيرون تيرين♫ إنتيف توفو إن نين هيت♫ إنتيف طالتشو إن نى شونى♫ إنتى نين إبسيشى نيم نين سوما.",
     "ليباركنا كلنا♫ ويُطَهر قلوبنا♫ ويشفي أمراض♫ نِفُوسَنَا وأجسادنا.",
   ],
-  [Prefix.placeHolder, Prefix.commonPrayer + "WeAdoreYou"],
+  [Prefix.placeHolder, Prefix.commonPrayer + "WeWorshipYouChrist"],
 ],
-  [
-    [
-    Prefix.commonPrayer + "WeAdoreYou&C=Same",
-    "Ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲕ ⲱ̀ Ⲡⲭ̅ⲥ̅: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̅ⲛ̅ⲁ̅ ⲉ̅ⲑ̅ⲩ̅: " + variable.giaki.COP + ".",
-    "Nous T'adorons ô Christ♫ avec Ton Père très bon♫ avec le Saint-Esprit♫ " + variable.giaki.FR + ".",
-    "تين أووشت إمموك أوبي إخرستوس♫ نيم بيك يوت إن أغاثوس♫ نيم بي إبنفما إثؤواب♫ " + variable.giaki.CA + ".",
-    "نَسْجُدْ لَكَ أيُّهَا المسيح♫ مَعَ أَبِيكَ الصَالِح♫ والْرُوحْ القُدُسْ♫ " + variable.giaki.AR + ".",
-    ]
-  ],
 [
   [
     Prefix.doxologies + "StMaykel&C=Title",
@@ -5582,9 +5573,10 @@ PrayersArrayFR = [[
     "",
     "ختام الهيتنيات",
   ],
+  [Prefix.changeClass + "&C=Diacon"],
   [
     Prefix.placeHolder,
-    Prefix.massCommon + "WeWorshipYouChrist",
+    Prefix.commonPrayer + "WeWorshipYouChrist",
   ],
   [
     Prefix.anchor + "Readings",
@@ -5903,7 +5895,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.massCommon + "WeWorshipYouChrist&C=Assembly",
+    Prefix.commonPrayer + "WeWorshipYouChrist&C=Same",
     "Ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲕ ⲱ̀ Ⲡⲭ̅ⲥ̅: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ: " + variable.giaki.COP + ".",
     "Nous T’adorons ô Christ, avec Ton Père très Bon et Le Saint Esprit, " + variable.giaki.FR + ".",
     "تين أؤوش إمموك إو بيخريستوس، نيم بيكيوت إن آغاثوس، نيم بي ابنيفما، إثؤوابن " + variable.giaki.CA + ".",
@@ -8890,7 +8882,7 @@ PrayersArrayFR = [[
     "بِشَفَاعَاتْ والِدَةِ الإلَهِ القِدِّيسَةْ مَرِيَمْ يا رَبُّ انْعِمْ لَنَا بِمَغْفِرَةْ خَطَايَانا.",
   ],
   [Prefix.placeHolder,
-  Prefix.massCommon + "WeWorshipYouChrist"],
+  Prefix.commonPrayer + "WeWorshipYouChrist"],
   [
     Prefix.same + "&C=Assembly",
     "Ⲉⲗⲉⲟⲥ ⲉⲓ̀Ϯⲣⲏⲛⲏⲥ ⲑⲩⲥⲓⲁ ⲉ̀ⲛⲉⲥⲉⲱⲥ.",
@@ -15314,7 +15306,7 @@ PrayersArrayFR = [[
     "انتيف اسمو إيرون تيرين♫ انتف طوفو اننينهيت♫ انتيف طالِتْشو إني شوني♫ انتي نين ابسيشي نيم نين سوما. ",
     "ليباركنا كلنا♫ ويطهر قلوبنا♫ ويشفي أمراض♫ نِفُوسَنَا وأجسادنا.",
   ],
-  [Prefix.placeHolder, Prefix.commonPrayer + "WeAdoreYou"],
+  [Prefix.placeHolder, Prefix.commonPrayer + "WeWorshipYouChrist"],
 ],
 [
   [
@@ -20038,7 +20030,7 @@ PrayersArrayFR = [[
     "",
     "خلصت أبَانَا آدم من الغواية، وعتقت أمنا حواء من طلقات الموت، وأعطيتنا روح البنوة، نُسَبِحَكْ ونُبَارِكُكَ قائلين:",
   ],
-  [Prefix.changeClass + '&C=Assembly'],
+  [Prefix.changeClass + "&C=Assembly"],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "GloryToFatherSonSpirit",
@@ -20057,7 +20049,7 @@ PrayersArrayFR = [[
     "",
     "اسمع أصواتنا كَعَظِيمِ رَحْمَتِكَ، ونجنا أيُّهَا الرَبّ إلَهْنَا بتحننك.",
   ],
-  [Prefix.changeClass + '&C=Assembly'],
+  [Prefix.changeClass + "&C=Assembly"],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "NowAlwaysAndForEver",
@@ -20835,9 +20827,10 @@ PrayersArrayFR = [[
     "",
     "والمَجْدُ للهِ دَائِمَاً",
   ],
+  [Prefix.changeClass + "&C=Priest"],
   [
     Prefix.placeHolder,
-    Prefix.massCommon + "WeWorshipYouChrist"
+    Prefix.commonPrayer + "WeWorshipYouChrist"
   ],
 ],
 [
@@ -24251,7 +24244,7 @@ PrayersArrayFR = [[
   [
     Prefix.same + "&C=Priest",
     "",
-    "Quand je me rends compte de toutes mes mauvaises actions et que je me remémore ce jugement terrifiant je suis pris de panique.  Aussitôt je cours me réfugier auprès de Toi, ô Dieu, ami du genre humain ; ne Te détourne pas de moi. Je t'en supplie, Toi qui, seul, es sans péchés, accorde à mon âme misérable une humilité avant que n'arrive la fin.  Sauve-moi. ",
+    "Quand je me rends compte de toutes mes mauvaises actions et que je me remémore ce jugement terrifiant je suis pris de panique. Aussitôt je cours me réfugier auprès de Toi, ô Dieu, ami du genre humain ; ne Te détourne pas de moi. Je t'en supplie, Toi qui, seul, es sans péchés, accorde à mon âme misérable une humilité avant que n'arrive la fin. Sauve-moi. ",
     "",
     "إذا ما تفطنت في كثرة أعمالي الرَدِيئَةِ ويأتي على قلبي فكر تِلْكَ الدينونة الرهيبة تأخذني رعدة، فأهرب إلَيْكَ يا الله محب البَشَرِ. فلا تصرف وجهك عني، متضرعا إلَيْكَ يا من أنت وحدك بلا خطية، انْعِمْ على نفسي المسكينة بتخشع قبل أن يأتي الانقضاء وخلصني.",
   ],
@@ -24263,7 +24256,7 @@ PrayersArrayFR = [[
   [
     Prefix.same + "&C=Priest",
     "",
-    "Les cieux te louent, ô pleine de grâce, l'épouse, toujours vierge.  Nous aussi, nous glorifions ton enfantement ineffable.  Ô Mère de Dieu intercède pour le Salut de nos âmes.",
+    "Les cieux te louent, ô pleine de grâce, l'épouse, toujours vierge. Nous aussi, nous glorifions ton enfantement ineffable. Ô Mère de Dieu intercède pour le Salut de nos âmes.",
     "",
     "السموات تُطَوِّبُكِ أَيَّتُهَا الممتلئة نعمة، العروس التي بلا زواج. ونحن أيضا نمجد ميلادك غير المدرك. يا والدة الإله يا أم الرحمة والخلاص، تشفعي مِنْ أَجْلِ خلاص نفوسنا.",
   ],
@@ -29878,7 +29871,7 @@ PrayersArrayFR = [[
     Prefix.placeHolder,
     Prefix.commonPrayer + "KyriElieson3Times",
   ],
-  [Prefix.placeHolder, Prefix.commonPrayer + "WeAdoreYou"],
+  [Prefix.placeHolder, Prefix.commonPrayer + "WeWorshipYouChrist"],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "KyriElieson3Times",
@@ -31202,7 +31195,7 @@ PrayersArrayFR = [[
     "هيتين ني إبريسفيا ♫ إنتى تي ثيؤطوكوس إثؤاب ماريا ♫ إبتشويس آري إرهموت نان ♫ إمبيكو إيفول إنتى نين نوفي.",
     "بِشَفَاعَاتْ والدِة الإلَه ♫ القِدِيسَة مَرْيَمْ ♫ يا رَبْ انْعِمْ لَنَا ♫ بِمَغْفِرَةْ خَطَايانا.",
   ],
-  [Prefix.placeHolder, Prefix.commonPrayer + "WeAdoreYou"],
+  [Prefix.placeHolder, Prefix.commonPrayer + "WeWorshipYouChrist"],
 ],
 [
   [
