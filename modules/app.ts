@@ -608,8 +608,10 @@ function createHtmlElementForPrayer(args: {
       p.innerText = text;
       p.addEventListener("dblclick", (ev: MouseEvent) => {
         ev.preventDefault();
-        localStorage.fontSize !== "1.9" ? setFontSize("1.9") : setFontSize("1");
-        //toggleAmplifyText(ev.target as HTMLElement, "amplifiedText");
+        let size: number = Number(localStorage.fontSize);
+        if (size >=2) return setFontSize('1');
+        size =  size + 0.25;
+        setFontSize(size.toString());
       }); //adding a double click eventListner that amplifies the text size of the chosen language;
       p.addEventListener("contextmenu", (event) => {
         if (localStorage.editingMode != "true") return;
@@ -1989,46 +1991,45 @@ function displaySettingsPanel(langs: boolean = false) {
   })();
 
   (function showChangeFontSizeBtn() {
-    let btnsContainer = createBtnsContainer("changeFontSize", getLabel({
+    const btnsContainer = createBtnsContainer("changeFontSize", getLabel({
       AR: "تكبير أو تصغير حجم الأحرف",
       FR: "Changer la taille de police",
       EN: "Increase or decrease the fonts size",
     }));
-    let input = createSettingsBtn({
-      innerText: '',
-      tag: "input",
-      btnsContainer: btnsContainer,
-      id: "fontsSize",
-    }) as HTMLInputElement;
-    let dataList: HTMLDataListElement = createDataList();
-    if (!dataList)
-      return console.log("dataList was not generated : ", dataList);
-    input.type = "range";
-    input.setAttribute("list", dataList.id);
-    input.id = "inputFontSize";
-    input.min = "0.3";
-    input.max = "1.9";
 
-    Number(localStorage.fontSize)
-      ? (input.defaultValue = localStorage.fontSize)
-      : (input.defaultValue = "0.5");
-    input.step = "0.1";
-    input.onchange = () => {
-      console.log("input.value = " + input.value);
-      setFontSize(input.value as string);
-    };
+    (function createInput() { 
+      const input = createSettingsBtn({
+        innerText: '',
+        tag: "input",
+        btnsContainer: btnsContainer,
+        id: "fontsSize",
+      }) as HTMLInputElement;
+      const id = "fontSizes"
+      const options = createDataList(id);
+      debugger
+      if (!options || options.length < 1) return;
+  
+      input.type = "range";
+      input.setAttribute("list", id);
+      input.id = "inputFontSize";
+      input.min = options[0].value;
+      input.max = options[options.length-1].value;
+      input.defaultValue = localStorage.fontSize || '0.5';
+      input.step = '0.25';
+      input.onchange = () => setFontSize(input.value as string);
+    })();
 
-    function createDataList(): HTMLDataListElement {
+    function createDataList(id:string): HTMLOptionElement[] {
       let list = document.createElement("datalist");
-      list.id = "fontSizes";
+      list.id = id;
       list.classList.add(hidden);
       btnsContainer.appendChild(list);
-      for (let i = 0.3; i < 2; i += 0.1) {
+      for (let i = 0.25; i <= 2; i += 0.25) {
         let option = document.createElement("option");
         option.value = i.toString();
         list.appendChild(option);
       }
-      return list;
+      return Array.from(list.children) as HTMLOptionElement[] ;
     }
   })();
 
