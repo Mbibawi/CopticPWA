@@ -527,12 +527,12 @@ Btn.MassUnBaptised = new Button({
           ||
           [0, 6].includes(weekDay)
           ||
-          lordFeasts.find(date => [copticDate, copticReadingsDate].includes(date)))
+          lordFeasts.find(date => [copticDate, copticReadingsDate].includes(date))
+          ||
+          copticFeasts.Coptic29th)
           return btnsPrayersSequence
             .filter(title =>
               ![Prefix.massCommon + "AlleluiaFayBiBiFast", Prefix.massCommon + "Tishoury"].includes(splitTitle(title)[0]));
-
-
         else return ifIsFast();
 
         function ifIsFast(): string[] {
@@ -1142,10 +1142,12 @@ Btn.MassUnBaptised = new Button({
           hours.shift();
         }
         else if (
+          //We remove the 9th hour in the following days/periods
           !isFast
           ||
-          //We remove the 9th hour in the following days/periods
           [0, 6].includes(weekDay) //Whatever the period, if we are a Saturday or a Sunday, we pray only the 3rd and 6th Hours
+          ||
+          copticFeasts.Coptic29th //We deal with it as if we were on a Lord Feast
         )
           hours.pop(); //we remove the 9th hour
 
@@ -2074,8 +2076,8 @@ Btn.IncenseMorning = new Button({
                 Seasons.Ascension
               ].includes(feast)
             )
-              index = 0; //If one of the dates in feast[] corresponds to a one of the 'Lord's Feasts', it means we are in a Lord Feast. the doxologies of the feast will be placed at the begining of the doxologies. We follow the same rule for the doxologies of the PentecostalDays and the month of Kiahk
-            else if (Coptic29th()) {
+              index = 0; //If one of the dates in feast[] corresponds to any of the 'Lord's Feasts', it means we are in a Lord Feast. the doxologies of the feast will be placed at the begining of the doxologies. We follow the same rule for the doxologies of the PentecostalDays and the month of Kiahk
+            else if (copticFeasts.Coptic29th) {
               index = 1;
               sequence = sequence.splice(1, 1);//StMaykel's doxology will be replace by the StMalykel doxology for PentecostalDays
             }
@@ -3051,8 +3053,6 @@ Btn.MassStBasil = new Button({
         let filtered: string[][][] = [];
         let dates = [copticDate, Season, copticFeasts.AnyDay];
 
-        if (Number(copticDay) === 29 && ![4, 5, 6].includes(Number(copticMonth))) dates.unshift(copticFeasts.Coptic29th);
-
         dates.forEach(date =>
           filtered.push(...FractionsArray.filter(table => isMultiDatedTitleMatching(Title(table), [date])))
         );
@@ -3604,74 +3604,103 @@ Btn.Bible = new Button({
     FR: 'La Bible'
   }),
   onClick: async (refs?: { bookID: string, chapterNumber: string }) => {
-    if (refs) {
-      await chapterBtnOnClick({
+    if (refs)
+      return await chapterBtnOnClick({
         chapterNumber: refs.chapterNumber,
         bookID: refs.bookID
-      })
-      return;
-    }
+      });
 
-    let newTestament = new Button({
+    const newTestament = new Button({
       btnID: 'newTestament',
       label: getLabel({
         AR: 'العهد الجديد',
         FR: 'Nouveau Testament',
         EN: 'New Testament'
       }),
-      onClick: async () => newTestament.children = await getBooksButtons(false)//!We need the children to be added when the button is clicked not when it is created because the Bibles are not defined at this stage
+      onClick: async () =>  newTestament.children = await getBooksButtons(newTestament), //!We need the children to be added when the button is clicked not when it is created because the Bibles are not defined at this stage
+      afterShowPrayers: addFilteringInput,
     });
 
-    let oldTestament = new Button({
+    const oldTestament = new Button({
       btnID: 'oldTestament',
       label: getLabel({
         AR: 'العهد القديم',
         FR: 'Ancien Testament',
         EN: 'Old Testament'
       }),
-      onClick: async () => oldTestament.children = await getBooksButtons(true)//!We need the children to be added when the button is clicked not when it is created because the Bibles are not defined at this stage
+      onClick: async () =>  oldTestament.children = await getBooksButtons(oldTestament), //!We need the children to be added when the button is clicked not when it is created because the Bibles are not defined at this stage
+
+      afterShowPrayers: addFilteringInput,
+       
     });
+
+    function addFilteringInput() { 
+      [sideBarBtnsContainer, containerDiv.querySelector('#btnsMainPageDiv') as HTMLElement]
+      .forEach(container => insertInput(container));
+
+      function insertInput(container: HTMLElement) {
+        const input = document.createElement('input');
+        container.prepend(input);
+        input.id = 'inputFilter';
+        input.defaultValue = {
+          AR: 'بحث...',
+          FR: 'Recherche...',
+          EN: 'Search...',
+        }[defaultLanguage];
+        input.addEventListener('focus', ()=>input.value = '' );
+        input.addEventListener('keyup', filterButtons);
+      //  input.style.bottom = (container.previousElementSibling as HTMLElement).style.top;
+
+        function filterButtons() {
+            const btns = Array.from(container.children).filter(child => child.id.startsWith('btnBook')) as HTMLButtonElement[];
+  
+            if (btns.length < 1) return;
+            btns.forEach(btn => btn.classList.remove(hidden)); //We unhide all the buttons
+            const notMatching = btns.filter(btn => !RegExp(input.value, 'i').test(btn.innerText));//We filter all the elements not matching the input
+            
+            notMatching.forEach(btn => btn.classList.add(hidden)); //We hide the unmatching buttons
+          
+        }
+      }
+
+    };
 
     Btn.Bible.children = [oldTestament, newTestament];
 
-    async function getBooksButtons(old: boolean): Promise<Button[]> {
-      let booksListDefault: bibleBookKeys[], booksListForeing: bibleBookKeys[];
 
-      booksListDefault = await getBibleBooksList(defaultLanguage);
-      //  if (foreingLanguage) bibleForeign = getBibleBooksList(foreingLanguage);
-
-      if (!booksListDefault) return;
-
-      let booksNamesDefault: string[], bookNamesForeign: string[];
-
-      booksNamesDefault = booksListDefault.map(book => book.human_long);
-      //if(foreingLanguage) booksNamesForeing = booksListForeing.map(book => book.human_long);
-
-
-      if (old) booksNamesDefault = booksNamesDefault.slice(0, 48);
-      else if (!old) booksNamesDefault = booksNamesDefault.slice(48, booksNamesDefault.length);
-
-      let labels: typeBtnLabel[] = booksNamesDefault.map(bookID => {
-        return {
-          DL: bookID,
-          FL: undefined
-        }
-      });
-
-      let booksButtons = labels.map(label => {
-        let btn: Button;
-        btn = new Button({
-          btnID: 'btnBibleBook' + labels.indexOf(label),
-          label: label,
-          onClick: () => btn.children = getChaptersButtons(booksListDefault.find(book => book.human_long === label.DL).id)//!We need the children to be added when the button is clicked not when it is created because the Bibles are not defined at this stage
+      
+      async function getBooksButtons(btn:Button): Promise<Button[]> {
+        const booksList = await getBibleBooksList(defaultLanguage);
+        
+        if (!booksList) return;
+  
+        let booksNames = booksList.map(book => book.human_long);
+  
+        if (btn === oldTestament) booksNames = booksNames.slice(0, 48);
+        else if (btn === newTestament) booksNames = booksNames.slice(48, booksNames.length);
+  
+        const labels: typeBtnLabel[] = booksNames.map(bookID => {
+          return {
+            DL: bookID,
+            FL: undefined
+          }
         });
-        return btn
+  
+        const booksButtons = labels.map(label => {
+          const index = labels.indexOf(label);
+          const btn = new Button({
+            btnID: 'btnBook' + index.toString(),
+            label: label,
+            onClick: () => btn.children = getChaptersButtons(booksList.find(book => book.human_long === label.DL).id),//!We need the children to be added when the button is clicked not when it is created because the Bibles are not defined at this stage
+            afterShowPrayers: () => document.getElementById('inputFilter').remove(),
+          });
+          return btn
+        });
+  
+        return booksButtons;
+  
+      }
 
-
-      });
-      return booksButtons;
-
-    }
 
     function getChaptersButtons(bookID: string): Button[] {
 
@@ -3693,7 +3722,7 @@ Btn.Bible = new Button({
       return chaptersBtns(bookDefault);
 
       function chaptersBtns(book: bibleBook) {
-        let chaptersButtons =
+        const chaptersButtons =
           book[0].chaptersList
             .map(number => {
               if (/\D/.test(number)) return;//We ignore the introductions to the French version of the book because they have not been retrieved
@@ -3714,6 +3743,7 @@ Btn.Bible = new Button({
       }
 
     }
+
 
     async function chapterBtnOnClick(refs: { bookID: string, chapterNumber: string }): Promise<boolean> {
       if (!refs) return;
@@ -3862,52 +3892,53 @@ Btn.Bible = new Button({
     }
   },
   afterShowPrayers: () => {
-    if (!localStorage.bookMarks) return;
-    let lastReading = JSON.parse(localStorage.bookMarks)[0];
-    if (!lastReading) return lastReading = null;
-    //We create a fake button simulating the action of chapters' buttons of each book
-    let btnLabel: typeBtnLabel = getLabel({
-      AR: 'آخر قراءة',
-      FR: 'Dernier chapitre lu',
-      EN: 'Last Reading'
-    });
-    let btn = new Button({
-      btnID: 'lastReading',
-      label: btnLabel,
-      cssClass: 'btnBookMark',
-      onClick: async () => {
-        await Btn.Bible.onClick({ bookID: lastReading[0], chapterNumber: lastReading[1] });
-      },
-    });
+    (function insertLastReadingBtn(){
+      if (!localStorage.bookMarks) return;
+      const lastReading = JSON.parse(localStorage.bookMarks)[0];
+      if (!lastReading) return;
+      //We create a fake button simulating the action of chapters' buttons of each book
+      const btnLabel = getLabel({
+        AR: 'آخر قراءة',
+        FR: 'Dernier chapitre lu',
+        EN: 'Last Reading'
+      });
+      const btn = new Button({
+        btnID: 'lastReading',
+        label: btnLabel,
+        cssClass: 'btnBookMark',
+        onClick: async () => {
+          await Btn.Bible.onClick({ bookID: lastReading[0], chapterNumber: lastReading[1] });
+        },
+      });
 
-    (function addSideBarShortcut() {
-      let bookMarkDiv: HTMLDivElement = document.createElement("div"); //this is just a container
-
-      bookMarkDiv.role = "button";
-      bookMarkDiv.id = 'bookmarkLast';
-      bookMarkDiv.classList.add("sideTitle");
-      sideBarTitlesContainer.appendChild(bookMarkDiv);
-      let bookmark = document.createElement("a");
-      bookMarkDiv.appendChild(bookmark);
-      bookmark.innerText = btnLabel[defaultLanguage];
-      bookMarkDiv.addEventListener("click", () =>
-        displayChildButtonsOrPrayers(btn));
-
+      (function addSideBarShortcut() {
+        const bookMarkDiv: HTMLDivElement = document.createElement("div"); //this is just a container
+  
+        bookMarkDiv.role = "button";
+        bookMarkDiv.id = 'bookmarkLast';
+        bookMarkDiv.classList.add("sideTitle");
+        sideBarTitlesContainer.appendChild(bookMarkDiv);
+        let bookmark = document.createElement("a");
+        bookMarkDiv.appendChild(bookmark);
+        bookmark.innerText = btnLabel[defaultLanguage];
+        bookMarkDiv.addEventListener("click", () =>
+          displayChildButtonsOrPrayers(btn));
+  
+      })();
+  
+      (function addMainPageBtn() {
+        const btnDiv = document.createElement('div');
+        btnDiv.classList.add(inlineBtnsContainerClass);
+        containerDiv.prepend(btnDiv);
+        createHtmlBtn({
+          btn: btn,
+          btnsContainer: btnDiv,
+          btnClass: btn.cssClass,
+          clear: false,
+        })
+      })();
     })();
 
-    (function addMainPageBtn() {
-      let btnDiv = document.createElement('div');
-      btnDiv.classList.add(inlineBtnsContainerClass);
-      containerDiv.prepend(btnDiv);
-      createHtmlBtn({
-        btn: btn,
-        btnsContainer: btnDiv,
-        btnClass: btn.cssClass,
-        clear: false,
-      })
-      btnDiv = null;
-      btnLabel = null;
-    })();
   }
 });
 

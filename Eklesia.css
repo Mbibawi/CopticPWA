@@ -1053,6 +1053,14 @@ q{
 #inputFontSize:focus::-ms-fill-upper {
   background: #3071A9;
 }
+#btnsMainPageDiv>#inputFilter {
+  background: #34414c;
+  position: absolute;
+  width: 30cqw !important;
+  top: 20cqh !important;
+  left: 3cqw !important;
+}
+
 
 .settingsLabel{
   margin: 5px 5px;

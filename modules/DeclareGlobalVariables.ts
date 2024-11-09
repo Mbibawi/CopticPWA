@@ -145,7 +145,7 @@ const Btn: { [index: string]: Button } = {};
 
 //CONSTANTS
 const version: string =
-  "v8.9.5.1 (Fixes)";
+  "v9.0 (Fixes to the Coptic 29th feast, and introduced a search bar for the bible books)";
 const calendarDay: number = 24 * 60 * 60 * 1000; //this is a day in milliseconds
 const containerDiv: HTMLDivElement = document.getElementById(
   "containerDiv") as HTMLDivElement;
@@ -353,8 +353,8 @@ const copticFeasts = {
   StMaryFastVespers: "3010",
   StMaryFast: "0112",
   Epiphany: "1312",
-  Coptic29th: "XXXX", //This value will be set equal to the copticDate by setCopticDates() if today is 29th of the Coptic month and we are in a month where this feast is celebrated
-  Coptic21th: "XXXX", //This value will be set equal to the copticDate by setCopticDates() if today is the 21th of the Coptic Month 
+  Coptic29th: '', //This value will be set equal to the copticDate by setCopticDates() if today is 29th of the Coptic month and we are in a month where this feast is celebrated
+  Coptic21th: '', //This value will be set equal to the copticDate by setCopticDates() if today is the 21th of the Coptic Month 
 };
 
 const GreatLordFeasts = [

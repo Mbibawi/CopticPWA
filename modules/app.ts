@@ -100,7 +100,7 @@ async function displayChildButtonsOrPrayers(btn: Button, clear: boolean = true, 
 
   hideExpandableButtonsPannel();
 
-  if (btn.html?.length > 0) return await showPrayersAndChildren();
+  if (btn.html?.length > 0) return await finalize();
 
   if (clear && !containerDiv.dataset.editingMode) {
     //If we are in the "Editing Mode" We do not clear the containerDiv at this stage 
@@ -114,10 +114,12 @@ async function displayChildButtonsOrPrayers(btn: Button, clear: boolean = true, 
   (function processPrayersSequence() {
     if (!btn.prayersSequence)
       return showBtnsOnMainPage(btn);
-
+    
     if (containerDiv.dataset.editingMode)
       return showPrayersInEditingMode();
-
+  
+    showBtnChildrenInSideBar();
+    
     showPrayers({
       prayersSequence: btn.prayersSequence,
       container: container,
@@ -126,6 +128,7 @@ async function displayChildButtonsOrPrayers(btn: Button, clear: boolean = true, 
       clearRightSideBar: clear,
       position: container,
     });
+
 
     async function showPrayersInEditingMode() {
       if (!btn.prayersSequence) return;
@@ -157,60 +160,62 @@ async function displayChildButtonsOrPrayers(btn: Button, clear: boolean = true, 
     setCSS(children); //!Important : setCSSGridTemplate() MUST be called after btn.afterShowPrayres() in order to set the CSS for all the elements that btn.afterShowPrayers() might insert
   })();
 
-  await showPrayersAndChildren();
+  await finalize();
 
-
-  async function showPrayersAndChildren(): Promise<HTMLElement[]> {
+  async function finalize(): Promise<HTMLElement[]> {
     if (!show)
       return btn.html = Array.from(container.children as HTMLCollectionOf<HTMLElement>);
 
     if (btn.html?.length > 0) btn.html.forEach(el => container.append(el));
 
-    (function showBtnChildren() {
-      //!CAUTION, this must come after btn.onClick() is called because some buttons are not initiated with children, but their children are added on the fly when their onClick() method  is called
-      if (!btn.children || btn.children.length < 1) return;
-
-      sideBarBtnsContainer.innerHTML = "";
-
-      btn.children
-        .forEach((childBtn) => {
-          if (!childBtn) return;
-          //for each child button that will be created, we set btn as its parent in case we need to use this property on the button
-          if (btn !== Btn.GoToPreviousMenu) childBtn.parentBtn = btn;
-          //We create the html element reprsenting the childBtn and append it to btnsDiv
-          createHtmlBtn({
-            btn: childBtn,
-            btnsContainer: sideBarBtnsContainer,
-          });
-        });
-
-      appendGoBackAndGoToMainButtons(btn, sideBarBtnsContainer, btn.cssClass, Btn.GoToPreviousMenu, Btn.MainMenu);
-
-      if (btn === Btn.MainMenu) addSettingsButton();
-    })();
-
-    let titles = Array.from(container.children as HTMLCollectionOf<HTMLDivElement>)
+    const titles = Array.from(container.children as HTMLCollectionOf<HTMLDivElement>)
       .filter(div => isTitlesContainer(div));
 
     if (titles.length > 1) showTitlesInRightSideBar(titles);//We don't show the titles if there is only 1 title
 
-    if (container !== containerDiv) containerDiv.appendChild(container);
+    if (container !== containerDiv) containerDiv.appendChild(container);//If the container is the documentFragment, we append its content to containerDiv
 
     if (localStorage.displayMode === displayModes[1])
-      await showSlidesInPresentationMode();
+      await showSlidesInPresentationMode();//If we are in the "Presentation Mode", we will adapt the view to this mode
 
   };
 
+  function showBtnChildrenInSideBar() {
+    //!CAUTION, this must come after btn.onClick() is called because some buttons are not initiated with children, but their children are added on the fly when their onClick() method  is called
+    if (!btn.children || btn.children.length < 1) return;
+
+    sideBarBtnsContainer.innerHTML = "";
+
+    btn.children
+      .forEach((childBtn) => {
+        if (!childBtn) return;
+        //for each child button that will be created, we set btn as its parent in case we need to use this property on the button
+        if (btn !== Btn.GoToPreviousMenu) childBtn.parentBtn = btn;
+        //We create the html element reprsenting the childBtn and append it to btnsDiv
+        createHtmlBtn({
+          btn: childBtn,
+          btnsContainer: sideBarBtnsContainer,
+        });
+      });
+
+    appendGoBackAndGoToMainButtons(btn, sideBarBtnsContainer, btn.cssClass, Btn.GoToPreviousMenu, Btn.MainMenu);
+
+    if (btn === Btn.MainMenu) addSettingsButton();
+  }
 
   function showBtnsOnMainPage(btn: Button) {
     if (!btn.children || btn.children.length < 1) return;
+    
+    showBtnChildrenInSideBar();//We show the buttons on the left side bar
+
     if (leftSideBar.classList.contains("extended")) return; //If the left side bar is not hidden, we do not show the buttons on the main page because it means that the user is using the buttons in the side bar and doesn't need to navigate using the btns in the main page
+
 
     containerDiv.innerHTML = "";
 
     let btnsDiv: HTMLDivElement = createBtnsDiv();
 
-    let images: string[] = [
+    const images: string[] = [
       "url(./assets/Btn.MassBackground.jpg)",
       "url(./assets/Btn.MassBackground.jpg)",
       "url(./assets/Btn.MassBackground.jpg)",
@@ -223,7 +228,7 @@ async function displayChildButtonsOrPrayers(btn: Button, clear: boolean = true, 
       "url(./assets/btnBOHBackground.jpg)",
     ];
 
-    let cssClass: string = "mainPageBtn";
+    const cssClass: string = "mainPageBtn";
 
     //We create html elements representing each of btnMain children. The created buttons will be appended to containerDiv directly
     btn.children
@@ -2006,7 +2011,6 @@ function displaySettingsPanel(langs: boolean = false) {
       }) as HTMLInputElement;
       const id = "fontSizes"
       const options = createDataList(id);
-      debugger
       if (!options || options.length < 1) return;
   
       input.type = "range";

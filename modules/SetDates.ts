@@ -64,25 +64,21 @@ async function setCopticDates(today?: Date, changeDate: boolean = false) {
 
   Season = Seasons.NoSeason; //this will be its default value unless it is changed by another function;
   copticReadingsDate = getSeasonAndCopticReadingsDate(copticDate) as string;
+
   if (Coptic29th()) copticFeasts.Coptic29th = copticDate; //If we are on the 29th of the coptic Month, we will set the value of copticFeasts.Cotpic29th to today's copticDate in order to able to retrieve the prayers of this day
   else if (Number(copticDay) === 21) copticFeasts.Coptic21th = copticDate;
 
-  variable.giaki = setVariableSeasonalPhrases(Season).giaki; //!This must be called here after the dates and seasons were changed
+  variable.giaki = setVariableSeasonalPhrases(Season).giaki; //!This must be called here after the dates and seasons were set or changed
 
   if (changeDate)
     reloadScripts(['PrayersArray']);
 
   createFakeAnchor("homeImg");
-  if (!copticReadingsDate)
-    return console.log(
-      "copticReadingsDate was not property set = ",
-      copticReadingsDate
-    );
-  //copticDay = copticDate.slice(0, 2);
+
   isFast = (() => {
     if ([Seasons.PentecostalDays, Seasons.Ascension].includes(Season))
       return false;
-    else if (copticFasts.indexOf(Season) > -1)
+    else if (copticFasts.includes(Season))
       return true; //i.e. if we are obviously during a fast period
     else if ([3, 5].includes(weekDay))
       return true;//We are not during a fast period but we are a Wednesday or a Friday. Notice that we excluded the Pentecostal period case from the begining
@@ -149,17 +145,14 @@ function convertGregorianDateToCopticDate(
   let daysInCurrentYear =
     (differenceInDays - (diffrenceInYears * 365.25));
 
-  daysInCurrentYear = Math.ceil(daysInCurrentYear + 1);//Why +1? I don't know. Need to sort it out to know why the dates don't match unless I add 1
-
+  daysInCurrentYear = Math.ceil(daysInCurrentYear + 1);//Why +1? I don't know. I got this from a pure try and fail run of the function. Need to figure out why the dates don't match unless we add 1
 
   let month = daysInCurrentYear / 30;
-  if (daysInCurrentYear / 30 === 0) month = 1;
-  month = Math.ceil(month);
 
+  month < 1 ? month = 1 :  month = Math.ceil(month);
 
   let day = Math.ceil(daysInCurrentYear % 30);
-  if (day > 30) day -= 30;
-  if (daysInCurrentYear % 30 === 0) day = 30;
+  if (day === 0) day = 30;
 
   if (new Date(today).getFullYear() % 4 !== 3 && month === 13 && day === 6) {
     //We are not in a leap year
@@ -365,7 +358,7 @@ function checkForUnfixedEvent(
   })();
 
   (function ifNayrouzOrCrossFeast() {
-    if (coptMonth !== 1) return;
+    if (coptMonth > 1) return;
     if (coptDay > 19) return;
 
     if (coptDay < 17) Season = Seasons.Nayrouz;
@@ -584,7 +577,7 @@ function setVariableSeasonalPhrases(season: string): { giaki } {
     ];
 
     //If we are a Sunday, giAki will be ge aktonk as during the Pentecostal Days
-    if (weekDay === 0 || Coptic29th())
+    if (weekDay === 0 || copticFeasts.Coptic29th)
       return findGiAki(Seasons.PentecostalDays);
 
     //If we it is the Circumcision Feast, giAki will be 'ge ak masf'
