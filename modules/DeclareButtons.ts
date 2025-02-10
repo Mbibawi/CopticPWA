@@ -1841,16 +1841,17 @@ Btn.IncenseMorning = new Button({
 
         Prophecies[0] = [Title(Prophecies), title[defaultLanguage], title[foreingLanguage]||''];//We replace the first row
 
-        insertAdjacentToHtmlElement({
+        const divs = insertAdjacentToHtmlElement({
           tables: [Prophecies],
           languages: getLanguages(Prefix.prophecies),
           position: {
             beforeOrAfter: "beforebegin",
             el: anchor
           },
-          container: docFragment,
+          container: containerDiv,
         });
 
+        setCSS(divs[0]);
       })();
 
       (async function insertEklonominTaghonata() {
