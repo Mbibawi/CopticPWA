@@ -1833,7 +1833,13 @@ Btn.IncenseMorning = new Button({
 
         const Prophecies = await retrieveReadingTableFromBible(table, getLanguages(Prefix.prophecies)) || [];
 
-        Prophecies.unshift([Title(Prophecies), 'نبوات باكر', 'Prophecies', '']);
+        const title = {
+          AR: 'نبوات باكر',
+          FR: 'Prophecies',
+          EN: 'Prophecies'
+        }
+
+        Prophecies[0] = [Title(Prophecies), title.AR, title.FR , ''];//We replace the first row
 
         insertAdjacentToHtmlElement({
           tables: [Prophecies],
@@ -1842,7 +1848,7 @@ Btn.IncenseMorning = new Button({
             beforeOrAfter: "beforebegin",
             el: anchor
           },
-          container: docFragment,
+          container: containerDiv,
         });
 
       })();
