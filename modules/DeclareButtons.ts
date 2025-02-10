@@ -3746,7 +3746,7 @@ Btn.Bible = new Button({
 
 
     async function chapterBtnOnClick(refs: { bookID: string, chapterNumber: string }): Promise<boolean> {
-      if (!refs) return;
+      if (!refs || !refs.bookID || !refs.chapterNumber) return;
       let languages = [defaultLanguage];
       if (foreingLanguage) languages?.push(foreingLanguage);
 
@@ -3789,36 +3789,31 @@ Btn.Bible = new Button({
       updateBookmark({ bookID: refs.bookID, chapterNumber: refs.chapterNumber });
 
       (function appendNextAndPrevBtns() {
-        let btnsDiv = document.createElement('div');
+        const btnsDiv = document.createElement('div');
         containerDiv.append(btnsDiv);
-        let right = '⇒', left = '⇐';
+        const right = '⇒', left = '⇐';
+        let goTo: boolean = true;
+        if (defaultLanguage === 'AR') goTo = !goTo;
 
-        let next = new Button({
+        const next = new Button({
           btnID: 'btnNext',
           label: getLabel({
             AR: right,
             FR: right,
             EN: right,
           }),
-          onClick: () => nextOnClick(true)
+          onClick: () => nextOnClick(goTo)
         });
 
-        let prev = new Button({
+        const prev = new Button({
           btnID: 'btnPrev',
           label: getLabel({
             AR: left,
             FR: left,
             EN: left,
           }),
-
-          onClick: () => nextOnClick(false)
-
+          onClick: () => nextOnClick(!goTo)
         });
-
-        if (defaultLanguage === 'AR') {
-          prev.onClick = () => nextOnClick(true);
-          next.onClick = () => nextOnClick(false)
-        }
 
         [prev, next].forEach(btn => {
           createHtmlBtn({
@@ -3838,15 +3833,14 @@ Btn.Bible = new Button({
           const [book, chapter] = getBookAndChapter();
 
           await chapterBtnOnClick({
-            bookID: book.id,
+            bookID: book?.id,
             chapterNumber: chapter
           });
 
-          updateBookmark({ bookID: book.id, chapterNumber: chapter })
+          updateBookmark({ bookID: book.id, chapterNumber: chapter });
 
-          function getBookAndChapter(){
+          function getBookAndChapter():[bibleBookKeys, string]{
             let book = books?.find(b => b.id === id);
-            if (!book) return alert('Could not find the next book');
             const bookIndex = books.indexOf(book);
             let chaptersList = book.chaptersList.filter(chapter=>Number(chapter));//We remove any non numerical chapters from the list
             const chapterIndex = chaptersList.indexOf(chapterNumber);
@@ -3869,7 +3863,7 @@ Btn.Bible = new Button({
               chapterNumber = chaptersList[chapterIndex -1]
             }
 
-            return [book, chapter]
+            return [book, chapterNumber]
           }
 
 
