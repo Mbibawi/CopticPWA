@@ -149,7 +149,7 @@ function convertGregorianDateToCopticDate(
 
   let month = daysInCurrentYear / 30;
 
-  month < 1 ? month = 1 :  month = Math.ceil(month);
+  month < 1 ? month = 1 : month = Math.ceil(month);
 
   let day = Math.ceil(daysInCurrentYear % 30);
   if (day === 0) day = 30;
@@ -186,7 +186,7 @@ function getSeasonAndCopticReadingsDate(
 ): string | void {
   if (!coptDate) return console.log("coptDate is not valid = ", coptDate);
 
-  let specialSeason: string = checkIfInASpecificSeason(today);
+  let specialSeason: string = checkIfInSpecialSeason(today);
   if (specialSeason) {
     // it means we got a specific date for the Readings associated with a specific period (e.g.: Great Lent, PentecostalDays, etc.)
     return specialSeason;
@@ -230,7 +230,7 @@ function checkWhichSundayWeAre(day: number, theWeekDay: number = 0): string {
  * @param {Date} today  - is the date of today according to the Gregorian calendar (it can be any day of the year if the user had manually set it)
  * @returns {string} - a string expressing the readings date . It will be added to the id of the reading in order to retrieve the coptic readings of the day
  */
-function checkIfInASpecificSeason(today: Date): string {
+function checkIfInSpecialSeason(today: Date): string {
   let readingsDate: string;
   //We filter the ResurrectionDates array for the resurrection date for the current year:
   let resurrectionDate: number[] = ResurrectionDates.find(
@@ -262,7 +262,7 @@ function checkForUnfixedEvent(
   let difference = Math.floor((resDate - today) / calendarDay); // we get the difference between the 2 dates in days
   //We initiate the Season to NoSeason
   let coptDay: number = Number(copticDay),
-    coptMonth:number = Number(copticMonth);
+    coptMonth: number = Number(copticMonth);
   let date: string;
   if (!Season) Season = Seasons.NoSeason;
 
@@ -275,18 +275,18 @@ function checkForUnfixedEvent(
   })();
 
   (function ifJonahFast() {
-    if (difference > 68) return;
-    if (difference < 65) return;
+    if (difference > 69) return;
+    if (difference < 66) return;
 
     //We are durings the Jonah Fast days (3 days + 1)
     //The Jonah feast starts 15 days before the begining of the Great Lent
 
-    difference === 65
+    difference === 66
       ? Season = Seasons.JonahFeast//We are on the Jonah Feast
       : Season = Seasons.JonahFast; //We are during the 3 days of Jonah Fast
     date = isItSundayOrWeekDay(
       Seasons.JonahFast,
-      Math.abs(69 - difference),
+      Math.abs(70 - difference),
       weekDay
     );
   })();
@@ -344,7 +344,7 @@ function checkForUnfixedEvent(
     if (Math.abs(difference) < 50) return; //this means that we are still during the Pentecostal Period
     if (coptMonth < 9) return;
     if (coptMonth > 11) return;
-   if (coptMonth === 11 && coptDay > 4) return; //We are on or after the Apostles Feast
+    if (coptMonth === 11 && coptDay > 4) return; //We are on or after the Apostles Feast
 
     Season = Seasons.ApostlesFast;
   })();
@@ -411,15 +411,15 @@ function checkForUnfixedEvent(
   })();
 
   (function ifNativityParamoun() {
-    if (coptMonth !== 4 || coptDay !==27|| todayDate.getDate() !== 6) return; //The Nativity Feast has been fixed to January 7th which is Kiahk 28th not Kiahk 29th.  The Paramoun falls hence on Kiahk 27th
-    
+    if (coptMonth !== 4 || coptDay !== 27 || todayDate.getDate() !== 6) return; //The Nativity Feast has been fixed to January 7th which is Kiahk 28th not Kiahk 29th.  The Paramoun falls hence on Kiahk 27th
+
     if (todayDate.getDate() === 6 && todayDate.getHours() > 15) return; //!The Nativity Feast has been fixed to January 7th which corresponds to Kiahk 28th instead of Kiahk 29th. That's why the Paramoun will end in January 6 afternoon. In fact we use to celebrate the Mass in the late evening of January 6th
 
     if (copticDate === copticFeasts.NativityParamoun && todayDate.getHours() > 15) return;
 
 
     if (
-      ([4, 5].includes(todayDate.getDate()) && weekDay ===5)//If January 4th or January 5th, is a Friday, it means that the Feast (i.e., January 7th) will fall either a Sunday or a Monday. In both cases, the Paramoun will start on Friday.
+      ([4, 5].includes(todayDate.getDate()) && weekDay === 5)//If January 4th or January 5th, is a Friday, it means that the Feast (i.e., January 7th) will fall either a Sunday or a Monday. In both cases, the Paramoun will start on Friday.
       ||
       (["2604", "2704"].includes(copticDate) && weekDay === 5)
       ||
@@ -509,15 +509,15 @@ function isWatosOrAdam(day: number = weekDay, season: string = Season): string {
   return "Watos"
 }
 
-  /**
-   * Determins wether we celebrate the 29th of the Coptic Month
-   * @returns 
-   */
+/**
+ * Determins wether we celebrate the 29th of the Coptic Month
+ * @returns 
+ */
 function Coptic29th(): boolean {
   if (Number(copticDay) !== 29 || [4, 5, 6, 7].includes(Number(copticMonth)))
     return false;
   else return true
-  }
+}
 
 function setVariableSeasonalPhrases(season: string): { giaki } {
   type seasonalPrayers = {

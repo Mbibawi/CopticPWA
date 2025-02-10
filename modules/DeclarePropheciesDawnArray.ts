@@ -1,5 +1,17 @@
 ReadingsArrays.PropheciesDawnArrayFR = [
     [
+        [Prefix.prophecies + "&D=JFAST1&C=Title"],
+        [Prefix.readingRef + "JON:1:1-End/2:1-1"],
+    ],
+    [
+        [Prefix.prophecies + "&D=JFAST2&C=Title"],
+        [Prefix.readingRef + "JON:2:2-End"],
+    ],
+    [
+        [Prefix.prophecies + "&D=JFAST3&C=Title"],
+        [Prefix.readingRef + "JON:3:1-End/4:1-End"],
+    ],
+    [
         [Prefix.prophecies + "&D=GL10&C=Title"],
         [Prefix.readingRef + "EXO:3:6-14"],
         [Prefix.same + "&C=Title"],
