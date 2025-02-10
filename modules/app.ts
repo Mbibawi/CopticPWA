@@ -546,7 +546,7 @@ function createHtmlElementForPrayer(args: {
     htmlRow = document.createElement("div");
     try {
       //@ts-ignore
-      args.position.el
+      args.position?.el
         ? //@ts-ignore
         args.position.el.insertAdjacentElement(
           //@ts-ignore
@@ -554,7 +554,7 @@ function createHtmlElementForPrayer(args: {
           htmlRow
         )
         : //@ts-ignore
-        args.position.appendChild(htmlRow);
+        args.position?.appendChild(htmlRow);
     } catch (error) {
       console.log(
         "an error occured: position = ",

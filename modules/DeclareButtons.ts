@@ -1843,29 +1843,18 @@ Btn.IncenseMorning = new Button({
         
         Prophecies[0] = [Title(Prophecies), title[defaultLanguage], title[foreingLanguage] || ''];//We replace the first row
 
-        insertAdjacentToHtmlElement({
-          tables: [[Title(Prophecies), title[defaultLanguage], title[foreingLanguage] || '']],
-          languages: getLanguages(Prefix.prophecies),
-          position: {
-            beforeOrAfter: "beforebegin",
-            el: anchor
-          },
-          container: docFragment,
-        });
+        const container = document.createElement('div'); //This is a container in order to isolate the reading from the rest of the elements.
 
-        insertMassReadingOtherThanGospel(Prefix.prophecies, { beforeOrAfter: 'beforebegin', el: anchor }, docFragment, false, copticReadingsDate);
-
-        return
+        anchor.insertAdjacentElement('beforebegin', container);
         
         insertAdjacentToHtmlElement({
           tables: [Prophecies],
           languages: getLanguages(Prefix.prophecies),
-          position: {
-            beforeOrAfter: "beforebegin",
-            el: anchor
-          },
-          container: docFragment,
+          position: undefined,//!We do this on purpose in order for the created divs to be appended to the container
+          container: container,
         });
+        
+        setCSS(Array.from(container.children) as HTMLDivElement[]);
 
       }
 
