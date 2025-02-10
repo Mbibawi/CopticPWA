@@ -1825,17 +1825,18 @@ Btn.IncenseMorning = new Button({
         Prefix.anchor + "Prophecies", undefined, 'root'
       )[0];
 
-      (function insertProphecies() {
+      (async function insertProphecies() {
         //! This must come before inserting Eklonomin Taghonata
+        const table = findTable(Prefix.prophecies + "&D=" + copticReadingsDate, ReadingsArrays.PropheciesDawnArrayFR);
 
-        const Prophecies = findTable(Prefix.prophecies + "&D=" + copticReadingsDate, ReadingsArrays.PropheciesDawnArrayFR);
+        if (!table) return console.log("Didn't find Prophecies with the current date");
 
-        if (!Prophecies) return console.log("Didn't find Prophecies with the current date");
+        const Prophecies = await retrieveReadingTableFromBible(table, getLanguages(Prefix.prophecies)) || [];
 
-        const title = [[Title(Prophecies), 'نبوات باكر', 'Prophecies', '']];
+        Prophecies.unshift([Title(Prophecies), 'نبوات باكر', 'Prophecies', '']);
 
         insertAdjacentToHtmlElement({
-          tables: [title, Prophecies],
+          tables: [Prophecies],
           languages: getLanguages(Prefix.prophecies),
           position: {
             beforeOrAfter: "beforebegin",
@@ -1847,6 +1848,7 @@ Btn.IncenseMorning = new Button({
       })();
 
       (async function insertEklonominTaghonata() {
+        //!We must insert the Prophecies before Eklonomin Taghonta
         const godHaveMercy = findTable(Prefix.incenseDawn + "GodHaveMercyOnUs&D=$Seasons.GreatLent", IncenseArray);
 
         if (!godHaveMercy) return console.log("Didn't find God Have Mercy for Great Lent");
