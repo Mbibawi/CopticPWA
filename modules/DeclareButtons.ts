@@ -1843,6 +1843,10 @@ Btn.IncenseMorning = new Button({
         
         Prophecies[0] = [Title(Prophecies), title[defaultLanguage], title[foreingLanguage] || ''];//We replace the first row
 
+        showPrayers({ table: Prophecies, languages: getLanguages(Prefix.prophecies), container: docFragment, clearContainerDiv: false, clearRightSideBar: false, position: { beforeOrAfter: 'beforebegin', el: anchor } });
+        
+        return;
+
         const container = document.createElement('div'); //This is a container in order to isolate the reading from the rest of the elements.
 
         anchor.insertAdjacentElement('beforebegin', container);
