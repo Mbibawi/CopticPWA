@@ -145,7 +145,7 @@ const Btn: { [index: string]: Button } = {};
 
 //CONSTANTS
 const version: string =
-  "v9.0 (Fixes to the Coptic 29th feast, and introduced a search bar for the bible books)";
+  "v9.1 (Fixes to the next chapter of a bible book when it is the last chapter)";
 const calendarDay: number = 24 * 60 * 60 * 1000; //this is a day in milliseconds
 const containerDiv: HTMLDivElement = document.getElementById(
   "containerDiv") as HTMLDivElement;

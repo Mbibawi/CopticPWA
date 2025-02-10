@@ -3832,40 +3832,47 @@ Btn.Bible = new Button({
         // floatOnTopOrBottom(btnsDiv, false, "0px");
         btnsDiv.style.gridTemplateColumns = setGridColumnsOrRowsNumber(btnsDiv);
 
-        async function nextOnClick(next: boolean, id: string = refs.bookID) {
-          let books = await getBibleBooksList(defaultLanguage),
-            book = books?.find(b => b.id === id),
-            chaptersList = book.chaptersList;
+        async function nextOnClick(next: boolean, id: string = refs.bookID, chapterNumber:string = refs.chapterNumber) {
+          const books = await getBibleBooksList(defaultLanguage);
 
-          (function nextChapter() {
-            if (!next) return;
-            if (chaptersList.indexOf(refs.chapterNumber) === chaptersList.length - 1) {
-              //We will move to the first chapter in the  next book
-              book = books[books.indexOf(book) + 1] || books[0];//If we have already reached the last book, we move the the first book
-              refs.chapterNumber = book.chaptersList[0];
-              return
-            }
-            refs.chapterNumber = book.chaptersList[book.chaptersList.indexOf(refs.chapterNumber) + 1];
-
-          })();
-
-          (function previousChapter() {
-            if (next) return;
-            if (chaptersList.indexOf(refs.chapterNumber) === 0) {
-              //We will move to the last chapter in the previous book
-              book = books[books.indexOf(book) - 1] || books[books.length - 1];//If we have already reached the first book, we move to the last book
-              refs.chapterNumber = book.chaptersList[book.chaptersList.length - 1];
-              return
-            }
-            refs.chapterNumber = book.chaptersList[book.chaptersList.indexOf(refs.chapterNumber) - 1];
-
-          })();
+          const [book, chapter] = getBookAndChapter();
 
           await chapterBtnOnClick({
             bookID: book.id,
-            chapterNumber: refs.chapterNumber
+            chapterNumber: chapter
           });
-          updateBookmark({ bookID: book.id, chapterNumber: refs.chapterNumber })
+
+          updateBookmark({ bookID: book.id, chapterNumber: chapter })
+
+          function getBookAndChapter(){
+            let book = books?.find(b => b.id === id);
+            if (!book) return alert('Could not find the next book');
+            const bookIndex = books.indexOf(book);
+            let chaptersList = book.chaptersList.filter(chapter=>Number(chapter));//We remove any non numerical chapters from the list
+            const chapterIndex = chaptersList.indexOf(chapterNumber);
+
+            if (next && chapterIndex === chaptersList.length - 1) {
+              //There is no next chapter in the same book. We will go to the next book
+              book = books[bookIndex + 1] || books[0];
+              chaptersList = book.chaptersList.filter(chapter => Number(chapter));
+              chapterNumber = chaptersList[0]
+            } else if (next) {
+              //There is a next chapter in the same book
+              chapterNumber = chaptersList[chapterIndex +1]
+            } else if (!next && bookIndex === 0){
+              //No previous chapter in the same book
+              book = books[bookIndex - 1] || books[books.length - 1];
+              chaptersList = book.chaptersList.filter(chapter => Number(chapter));
+              chapterNumber = chaptersList[chaptersList.length-1]
+            } else if (!next){
+              //There is a previous chapter
+              chapterNumber = chaptersList[chapterIndex -1]
+            }
+
+            return [book, chapter]
+          }
+
+
         }
       })();
 
