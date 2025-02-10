@@ -1838,11 +1838,25 @@ Btn.IncenseMorning = new Button({
         const title = {
           AR: 'نبوات باكر',
           FR: 'Prophecies',
-          EN: 'Prophecies'
+          EN: 'Prophecies',
         }
+        
+        Prophecies[0] = [Title(Prophecies), title[defaultLanguage], title[foreingLanguage] || ''];//We replace the first row
 
-        Prophecies[0] = [Title(Prophecies), title[defaultLanguage], title[foreingLanguage]||''];//We replace the first row
+        insertAdjacentToHtmlElement({
+          tables: [[Title(Prophecies), title[defaultLanguage], title[foreingLanguage] || '']],
+          languages: getLanguages(Prefix.prophecies),
+          position: {
+            beforeOrAfter: "beforebegin",
+            el: anchor
+          },
+          container: docFragment,
+        });
 
+        insertMassReadingOtherThanGospel(Prefix.prophecies, { beforeOrAfter: 'beforebegin', el: anchor }, docFragment, false, copticReadingsDate);
+
+        return
+        
         insertAdjacentToHtmlElement({
           tables: [Prophecies],
           languages: getLanguages(Prefix.prophecies),

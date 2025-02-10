@@ -100,7 +100,7 @@ class Button {
 }
 const Btn = {};
 //CONSTANTS
-const version = "v9.2.7 (Fixes to the Jonah Fast)";
+const version = "v9.2.8 (Fixes to the Jonah Fast)";
 const calendarDay = 24 * 60 * 60 * 1000; //this is a day in milliseconds
 const containerDiv = document.getElementById("containerDiv");
 const leftSideBar = document.getElementById("leftSideBar");
