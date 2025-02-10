@@ -1839,7 +1839,7 @@ Btn.IncenseMorning = new Button({
           EN: 'Prophecies'
         }
 
-        Prophecies[0] = [Title(Prophecies), title.AR, title.FR , ''];//We replace the first row
+        Prophecies[0] = [Title(Prophecies), title[defaultLanguage], title[foreingLanguage]||''];//We replace the first row
 
         insertAdjacentToHtmlElement({
           tables: [Prophecies],
@@ -1848,7 +1848,7 @@ Btn.IncenseMorning = new Button({
             beforeOrAfter: "beforebegin",
             el: anchor
           },
-          container: containerDiv,
+          container: docFragment,
         });
 
       })();
