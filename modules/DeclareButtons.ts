@@ -1853,8 +1853,8 @@ Btn.IncenseMorning = new Button({
           position: undefined,//!We do this on purpose in order for the created divs to be appended to the container
           container: container,
         });
-        
-        setCSS(Array.from(container.children) as HTMLDivElement[]);
+
+        await setCSS(Array.from(container.children) as HTMLDivElement[]);
 
       }
 
