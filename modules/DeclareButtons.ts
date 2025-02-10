@@ -3853,7 +3853,7 @@ Btn.Bible = new Button({
             } else if (next) {
               //There is a next chapter in the same book
               chapterNumber = chaptersList[chapterIndex +1]
-            } else if (!next && bookIndex === 0){
+            } else if (!next && chapterIndex === 0){
               //No previous chapter in the same book
               book = books[bookIndex - 1] || books[books.length - 1];
               chaptersList = book.chaptersList.filter(chapter => Number(chapter));
@@ -3865,7 +3865,6 @@ Btn.Bible = new Button({
 
             return [book, chapterNumber]
           }
-
 
         }
       })();

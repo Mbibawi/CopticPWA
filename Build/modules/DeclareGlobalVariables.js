@@ -100,7 +100,7 @@ class Button {
 }
 const Btn = {};
 //CONSTANTS
-const version = "v9.1.1 (Fixes to the next chapter of a bible book when it is the last chapter)";
+const version = "v9.1.2 (Fixes to the next chapter of a bible book when it is the last chapter)";
 const calendarDay = 24 * 60 * 60 * 1000; //this is a day in milliseconds
 const containerDiv = document.getElementById("containerDiv");
 const leftSideBar = document.getElementById("leftSideBar");
