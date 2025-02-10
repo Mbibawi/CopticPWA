@@ -1824,8 +1824,10 @@ Btn.IncenseMorning = new Button({
         docFragment,
         Prefix.anchor + "Prophecies", undefined, 'root'
       )[0];
+      
+      await insertProphecies(); //!We had to call the function instead of making it call it self automatically (like insertEklonominTaghonata) because since this is an async function, the code will not wait for the Prophecies to be inserted before emptying the docFragment when all the following functions have been inserted
 
-      (async function insertProphecies() {
+      async function insertProphecies() {
         //! This must come before inserting Eklonomin Taghonata
         const table = findTable(Prefix.prophecies + "&D=" + copticReadingsDate, ReadingsArrays.PropheciesDawnArrayFR);
 
@@ -1841,20 +1843,19 @@ Btn.IncenseMorning = new Button({
 
         Prophecies[0] = [Title(Prophecies), title[defaultLanguage], title[foreingLanguage]||''];//We replace the first row
 
-        const divs = insertAdjacentToHtmlElement({
+        insertAdjacentToHtmlElement({
           tables: [Prophecies],
           languages: getLanguages(Prefix.prophecies),
           position: {
             beforeOrAfter: "beforebegin",
             el: anchor
           },
-          container: containerDiv,
+          container: docFragment,
         });
 
-        setCSS(divs[0]);
-      })();
+      }
 
-      (async function insertEklonominTaghonata() {
+      (function insertEklonominTaghonata() {
         //!We must insert the Prophecies before Eklonomin Taghonta
         const godHaveMercy = findTable(Prefix.incenseDawn + "GodHaveMercyOnUs&D=$Seasons.GreatLent", IncenseArray);
 
@@ -1882,7 +1883,7 @@ Btn.IncenseMorning = new Button({
       })();
     })();
 
-    (async function insertAdamDoxolgiesBtn() {
+    (function insertAdamDoxolgiesBtn() {
       //We add an expandable button for the Incense Dawn Adam Doxologies
       const doxologies = new Button({
         btnID: 'btnAdamDoxologies',
@@ -1908,7 +1909,7 @@ Btn.IncenseMorning = new Button({
       else if (copticReadingsDate === copticFeasts.HolyThursday)
         insertLakkan(copticReadingsDate)
 
-      async function insertLakkan(date: string) {
+      function insertLakkan(date: string) {
         const lakkanBtn = new Button({
           btnID: Btn.Lakkan.btnID,//!We must give the button same ID as Btn.Lakkan because we use this id later on in adapting the 'Thanks Giving' prayer to the Lakkan liturgy
           label: Btn.Lakkan.label,
