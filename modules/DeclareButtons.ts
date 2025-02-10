@@ -1347,7 +1347,7 @@ Btn.DayReadings = new Button({
 
     (function ifMass() {
       if (!mass) return;
-      Btn.DayReadings.children = Btn.DayReadings.children.filter(btn => ![Btn.GospelVespers, Btn.GospelMorning, Btn.GospelNight, Btn.PropheciesMorning].includes(btn));//We remove the Mornign and Vespers Gospel buttons
+      Btn.DayReadings.children = Btn.DayReadings.children.filter(btn => ![Btn.GospelVespers, Btn.GospelMorning, Btn.GospelNight, Btn.PropheciesMorning].includes(btn));//We remove the Morning and Vespers Gospel buttons
 
       if ([Seasons.PentecostalDays, Seasons.Ascension].includes(Season))
         Btn.DayReadings.children = Btn.DayReadings.children.filter(child => child !== Btn.ReadingsSynaxarium);//We remove the Synaxarium button
@@ -4370,14 +4370,13 @@ async function insertMassReadingOtherThanGospel(
 
 }
 /**
- * Retrives the text of the verses wher a reading table contains references to these verses instead of the text
- * @param {string[][]} reading - The reading Table retrived from the corresponding reading array
- * @param langs 
- * @param {boolean} liturgy - If true, it means that the function is called to retrieve the reading within a liturgy context: eg.: unbaptised mass, Pass-over, etc. 
- * @returns 
+ * Retrives the text of the verses referenced in the table passed to it.
+ * @param {string[][]} reading - A table containing the references of the verses/chapters to be retrieved
+ * @param {string[]} langs - The languages in which the text will be retrieved.
+ * @returns {Promise<string[][]>} - a table where the first row is the title of the reading (Book name and Chapter Number, and verses number), and the following rows include the text of the verses referenced in the "reading" table passed as argument. 
  */
 async function retrieveReadingTableFromBible(reading: string[][], langs: string[]): Promise<string[][]> {
-  if (!reading) return;
+  if (!reading || !langs) return;
   langs = langs?.filter(lang => lang);
   const rowsWithReferences = reading
     .filter(row => row?.find(el => el?.startsWith(Prefix.readingRef)));//We check of any of the table's rows has an element starting with Prefix.readingRef: this means this element is a reference for a text that we need to retrieve from the relevant bible
