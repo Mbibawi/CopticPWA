@@ -2194,6 +2194,7 @@ Btn.IncenseMorning = new Button({
 
       (function insertProphecies() {
         if (!Prophecies) return;
+        const langs = getLanguages(Prefix.prophecies);
         //! This must come before inserting Eklonomin Taghonata
         const title = {
           AR: 'نبوات باكر',
@@ -2201,9 +2202,10 @@ Btn.IncenseMorning = new Button({
           EN: 'Prophecies',
         }
         
-        Prophecies[0] = [Title(Prophecies), title[defaultLanguage], title[foreingLanguage] || ''];//We replace the first row
+        Prophecies.shift();//We remove the first row 
+        Prophecies[0] = [Title(Prophecies), title[defaultLanguage], title[foreingLanguage] || ''].map(el => el + '/n' + Prophecies[0][langs.indexOf(defaultLanguage) + 1]);
 
-        showPrayers({ table: Prophecies, languages: getLanguages(Prefix.prophecies), container: docFragment, clearContainerDiv: false, clearRightSideBar: false, position: { beforeOrAfter: 'beforebegin', el: anchor } });
+        showPrayers({ table: Prophecies, languages: langs, container: docFragment, clearContainerDiv: false, clearRightSideBar: false, position: { beforeOrAfter: 'beforebegin', el: anchor } });
       })();
 
       (function insertEklonominTaghonata() {
