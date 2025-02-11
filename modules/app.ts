@@ -19,13 +19,6 @@ async function startApp() {
     displaySettingsPanel(true);
 
   await checkVersion();
-  async function checkVersion() {
-    const online = await fetch('./version.json');
-    const json = await online.json();
-    if (!version) localStorage.version = json.version;
-    else if (json.version !== version)
-      alert('Your current version is not the latest version you need to update');
-  }
 
   if (localStorage.fontSize) setFontSize(localStorage.fontSize);
 
@@ -92,6 +85,15 @@ async function startApp() {
       ". This choice will not kept. If you want the current date, you have to change the date manually"
     );
   };
+
+  async function checkVersion() {
+    const resp = await fetch('./version.json');
+    if (!resp.ok) return;
+    const json = await resp.json();
+    if(!json) return;
+    if (!version) localStorage.version = json.version;
+    else if (json.version !== version) alert('Your current version is not the latest version you need to update');
+  }
 }
 
 /**
