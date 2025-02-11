@@ -1844,22 +1844,6 @@ Btn.IncenseMorning = new Button({
         Prophecies[0] = [Title(Prophecies), title[defaultLanguage], title[foreingLanguage] || ''];//We replace the first row
 
         showPrayers({ table: Prophecies, languages: getLanguages(Prefix.prophecies), container: docFragment, clearContainerDiv: false, clearRightSideBar: false, position: { beforeOrAfter: 'beforebegin', el: anchor } });
-        
-        return;
-
-        const container = document.createElement('div'); //This is a container in order to isolate the reading from the rest of the elements.
-
-        anchor.insertAdjacentElement('beforebegin', container);
-        
-        insertAdjacentToHtmlElement({
-          tables: [Prophecies],
-          languages: getLanguages(Prefix.prophecies),
-          position: undefined,//!We do this on purpose in order for the created divs to be appended to the container
-          container: container,
-        });
-
-        await setCSS(Array.from(container.children) as HTMLDivElement[]);
-
       }
 
       (function insertEklonominTaghonata() {
@@ -1868,6 +1852,8 @@ Btn.IncenseMorning = new Button({
 
         if (!godHaveMercy) return console.log("Didn't find God Have Mercy for Great Lent");
 
+        showPrayers({table:godHaveMercy, languages:getLanguages(Prefix.incenseDawn), position:{beforeOrAfter:'beforebegin', el:anchor}, clearContainerDiv:false, clearRightSideBar:false, container:docFragment});
+/*
         insertAdjacentToHtmlElement({
           tables: [godHaveMercy],
           languages: prayersLanguages,
@@ -1877,6 +1863,7 @@ Btn.IncenseMorning = new Button({
           },
           container: docFragment,
         });
+  */
 
         (function removeRefrains() {
           //We will remove all the refrains except the 1st one
