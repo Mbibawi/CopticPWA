@@ -92,7 +92,14 @@ async function startApp() {
     const json = await resp.json();
     if(!json) return;
     if (!version) localStorage.version = json.version;
-    else if (json.version !== version) alert('Your current version is not the latest version you need to update');
+    else if (json.version !== version) {
+      const text = {
+        AR: 'توجد نسخة أحدث من التطبيق، يُنصَح بتحميل آخر نُسخَة عن طريق الضغط على زر التحديث في قسم الإعدادات',
+        FR: "Une nouvelle version de l'applicaton est disponible, nous vous conseillons de mettre à jour votre application en allant dans la section 'Paramètres'",
+        EN: "A new version of the application is now available, we advice you to update your version form the 'settings' section"
+      }
+      alert(text[defaultLanguage] || text.EN)
+    };
   }
 }
 
