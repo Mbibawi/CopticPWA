@@ -95,8 +95,8 @@ async function startApp() {
     else if (json.version !== version) {
       const text = {
         AR: 'توجد نسخة أحدث من التطبيق، يُنصَح بتحميل آخر نُسخَة عن طريق الضغط على زر التحديث في قسم الإعدادات',
-        FR: "Une nouvelle version de l'applicaton est disponible, nous vous conseillons de mettre à jour votre application en allant dans la section 'Paramètres'",
-        EN: "A new version of the application is now available, we advice you to update your version form the 'settings' section"
+        FR: "Une nouvelle version de l'application est maintenant disponible, nous vous conseillons de mettre à jour votre application en allant dans la section 'Paramètres'",
+        EN: "A new version of the application is now available, we advise you to update your version form the 'settings' section"
       }
       alert(text[defaultLanguage] || text.EN)
     };
