@@ -1815,67 +1815,7 @@ Btn.IncenseMorning = new Button({
 
     if (btn !== Btn.IncenseMorning) return; //The functions from this point on concern the Morning Incense service only
 
-    (async function insertPropheciesAndEklonomin() {
-      if (![Seasons.GreatLent, Seasons.JonahFast].includes(Season)) return;
-
-      if ([0, 6].includes(weekDay)) return; //We are neither a Saturday nor a Sunday, we will hence display the Prophecies dawn buton
-
-      const anchor: HTMLDivElement = selectElementsByDataSet(
-        docFragment,
-        Prefix.anchor + "Prophecies", undefined, 'root'
-      )[0];
-      
-      await insertProphecies(); //!We had to call the function instead of making it call it self automatically (like insertEklonominTaghonata) because since this is an async function, the code will not wait for the Prophecies to be inserted before emptying the docFragment when all the following functions have been inserted
-
-      async function insertProphecies() {
-        //! This must come before inserting Eklonomin Taghonata
-        const table = findTable(Prefix.prophecies + "&D=" + copticReadingsDate, ReadingsArrays.PropheciesDawnArrayFR);
-
-        if (!table) return console.log("Didn't find Prophecies with the current date");
-
-        const Prophecies = await retrieveReadingTableFromBible(table, getLanguages(Prefix.prophecies)) || [];
-
-        const title = {
-          AR: 'نبوات باكر',
-          FR: 'Prophecies',
-          EN: 'Prophecies',
-        }
-        
-        Prophecies[0] = [Title(Prophecies), title[defaultLanguage], title[foreingLanguage] || ''];//We replace the first row
-
-        showPrayers({ table: Prophecies, languages: getLanguages(Prefix.prophecies), container: docFragment, clearContainerDiv: false, clearRightSideBar: false, position: { beforeOrAfter: 'beforebegin', el: anchor } });
-      }
-
-      (function insertEklonominTaghonata() {
-        //!We must insert the Prophecies before Eklonomin Taghonta
-        const godHaveMercy = findTable(Prefix.incenseDawn + "GodHaveMercyOnUs&D=$Seasons.GreatLent", IncenseArray);
-
-        if (!godHaveMercy) return console.log("Didn't find God Have Mercy for Great Lent");
-
-        showPrayers({table:godHaveMercy, languages:getLanguages(Prefix.incenseDawn), position:{beforeOrAfter:'beforebegin', el:anchor}, clearContainerDiv:false, clearRightSideBar:false, container:docFragment});
-/*
-        insertAdjacentToHtmlElement({
-          tables: [godHaveMercy],
-          languages: prayersLanguages,
-          position: {
-            beforeOrAfter: "beforebegin",
-            el: anchor
-          },
-          container: docFragment,
-        });
-  */
-
-        (function removeRefrains() {
-          //We will remove all the refrains except the 1st one
-          const refrains = selectElementsByDataSet(
-            docFragment,
-            Prefix.incenseDawn + "GodHaveMercyOnUsRefrain&D=$Seasons.GreatLent")
-            .filter((htmlRow) => htmlRow?.classList.contains("Title"));
-          
-            refrains.slice(1).forEach(htmlRow => htmlRow.remove());   
-        })();
-      })();
-    })();
+    await insertPropheciesAndEklonomin();//!We need to await for it because otherwise, the div elements will not be appended to the docFragment when setCss() is called.
 
     (function insertAdamDoxolgiesBtn() {
       //We add an expandable button for the Incense Dawn Adam Doxologies
@@ -1921,6 +1861,7 @@ Btn.IncenseMorning = new Button({
 
       };
     })();
+
 
     /**
    * Inserts the Incense Office Doxologies And Cymbal Verses according to the Coptic feast or season
@@ -2233,6 +2174,57 @@ Btn.IncenseMorning = new Button({
         return tables;
       }
     }
+
+    async function insertPropheciesAndEklonomin() {
+      if (![Seasons.GreatLent, Seasons.JonahFast].includes(Season)) return;
+
+      if ([0, 6].includes(weekDay)) return; //We are neither a Saturday nor a Sunday, we will hence display the Prophecies dawn buton
+
+      const anchor: HTMLDivElement = selectElementsByDataSet(
+        docFragment,
+        Prefix.anchor + "Prophecies", undefined, 'root'
+      )[0];
+      
+      const table = findTable(Prefix.prophecies + "&D=" + copticReadingsDate, ReadingsArrays.PropheciesDawnArrayFR);
+
+      if (!table) return console.log("Didn't find Prophecies with the current date");
+
+      const Prophecies = await retrieveReadingTableFromBible(table, getLanguages(Prefix.prophecies)) || [];
+
+
+      (function insertProphecies() {
+        if (!Prophecies) return;
+        //! This must come before inserting Eklonomin Taghonata
+        const title = {
+          AR: 'نبوات باكر',
+          FR: 'Prophecies',
+          EN: 'Prophecies',
+        }
+        
+        Prophecies[0] = [Title(Prophecies), title[defaultLanguage], title[foreingLanguage] || ''];//We replace the first row
+
+        showPrayers({ table: Prophecies, languages: getLanguages(Prefix.prophecies), container: docFragment, clearContainerDiv: false, clearRightSideBar: false, position: { beforeOrAfter: 'beforebegin', el: anchor } });
+      })();
+
+      (function insertEklonominTaghonata() {
+        //!We must insert the Prophecies before Eklonomin Taghonta
+        const godHaveMercy = findTable(Prefix.incenseDawn + "GodHaveMercyOnUs&D=$Seasons.GreatLent", IncenseArray);
+
+        if (!godHaveMercy) return console.log("Didn't find God Have Mercy for Great Lent");
+
+        showPrayers({ table: godHaveMercy, languages: getLanguages(Prefix.incenseDawn), position: { beforeOrAfter: 'beforebegin', el: anchor }, clearContainerDiv: false, clearRightSideBar: false, container: docFragment });
+        
+        (function removeRefrains() {
+          //We will remove all the refrains except the 1st one
+          const refrains = selectElementsByDataSet(
+            docFragment,
+            Prefix.incenseDawn + "GodHaveMercyOnUsRefrain&D=$Seasons.GreatLent")
+            .filter((htmlRow) => htmlRow?.classList.contains("Title"));
+          
+            refrains.slice(1).forEach(htmlRow => htmlRow.remove());   
+        })();
+      })();
+    };
 
   },
 });
