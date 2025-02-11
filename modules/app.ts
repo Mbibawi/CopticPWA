@@ -18,6 +18,15 @@ async function startApp() {
   if (!defaultLanguage)
     displaySettingsPanel(true);
 
+  await checkVersion();
+  async function checkVersion() {
+    const online = await fetch('./version.json');
+    const json = await online.json();
+    if (!version) localStorage.version = json.version;
+    else if (json.version !== version)
+      alert('Your current version is not the latest version you need to update');
+  }
+
   if (localStorage.fontSize) setFontSize(localStorage.fontSize);
 
   DetectFingerSwipe();
@@ -114,12 +123,12 @@ async function displayChildButtonsOrPrayers(btn: Button, clear: boolean = true, 
   (function processPrayersSequence() {
     if (!btn.prayersSequence)
       return showBtnsOnMainPage(btn);
-    
+
     if (containerDiv.dataset.editingMode)
       return showPrayersInEditingMode();
-  
+
     showBtnChildrenInSideBar();
-    
+
     showPrayers({
       prayersSequence: btn.prayersSequence,
       container: container,
@@ -205,7 +214,7 @@ async function displayChildButtonsOrPrayers(btn: Button, clear: boolean = true, 
 
   function showBtnsOnMainPage(btn: Button) {
     if (!btn.children || btn.children.length < 1) return;
-    
+
     showBtnChildrenInSideBar();//We show the buttons on the left side bar
 
     if (leftSideBar.classList.contains("extended")) return; //If the left side bar is not hidden, we do not show the buttons on the main page because it means that the user is using the buttons in the side bar and doesn't need to navigate using the btns in the main page
@@ -532,10 +541,10 @@ function createHtmlElementForPrayer(args: {
     if (!args.container)
       args.container = containerDiv
   })();
-  
+
   if (args.actorClass === "Comments")
     args.languagesArray = ['FR', 'AR'];//The 'Comments' rows are structured like: [Title, FR, AR] regardless of the languages of the array
-  
+
   let htmlRow: HTMLDivElement,
     p: HTMLParagraphElement,
     lang: string,
@@ -566,28 +575,28 @@ function createHtmlElementForPrayer(args: {
     }
 
     htmlRow.classList.add("Row"); //we add 'Row' class to this div
-    
-      if (!foreingLanguage && !copticLanguage)
-        htmlRow.classList.add('Single')
-    
-      if (localStorage.displayMode === displayModes[1])
-        htmlRow.classList.replace("Row", "SlideRow");
-    
-      if (args.dataGroup)
-        htmlRow.dataset.group = args.dataGroup.replace(/Part\d+/, "");
-      if (args.dataRoot)
-        htmlRow.dataset.root = args.dataRoot.replace(/Part\d+/, "");
-    
-    
-      htmlRow.classList.add(args.actorClass);
-      if (args.actorClass.includes("Title")) {
-        htmlRow.addEventListener("click", (e) => {
-          e.preventDefault;
-          collapseOrExpandText(htmlRow);
-        }); //we also add a 'click' eventListener to the 'Title' elements
-        htmlRow.id = splitTitle(args.tblRow[0])[0]; //we add an id to all the titles in order to be able to retrieve them for the sake of adding a title shortcut in the titles right side bar
-      }
-  
+
+    if (!foreingLanguage && !copticLanguage)
+      htmlRow.classList.add('Single')
+
+    if (localStorage.displayMode === displayModes[1])
+      htmlRow.classList.replace("Row", "SlideRow");
+
+    if (args.dataGroup)
+      htmlRow.dataset.group = args.dataGroup.replace(/Part\d+/, "");
+    if (args.dataRoot)
+      htmlRow.dataset.root = args.dataRoot.replace(/Part\d+/, "");
+
+
+    htmlRow.classList.add(args.actorClass);
+    if (args.actorClass.includes("Title")) {
+      htmlRow.addEventListener("click", (e) => {
+        e.preventDefault;
+        collapseOrExpandText(htmlRow);
+      }); //we also add a 'click' eventListener to the 'Title' elements
+      htmlRow.id = splitTitle(args.tblRow[0])[0]; //we add an id to all the titles in order to be able to retrieve them for the sake of adding a title shortcut in the titles right side bar
+    }
+
   })();
 
   (function appendParagraphsToDiv() {
@@ -598,14 +607,14 @@ function createHtmlElementForPrayer(args: {
 
       lang = args.languagesArray[x - 1] || 'NoLanguage'; //we select the language in the button's languagesArray, starting from 0 not from 1, that's why we start from x-1.
 
-    
+
       //we check that the language is included in the allLanguages array, i.e. if it has not been removed by the user, which means that he does not want this language to be displayed. If the language is not removed, we retrieve the text in this language. otherwise we will not retrieve its text.
       if (!args.userLanguages.includes(lang)) continue;
 
       p = document.createElement("p"); //we create a new <p></p> element for the text of each language in the 'prayer' array (the 'prayer' array is constructed like ['prayer id', 'text in AR, 'text in FR', ' text in COP', 'text in Language', etc.])
 
       htmlRow.appendChild(p);
-  
+
       p.dataset.root = htmlRow.dataset.root; //we do this in order to be able later to retrieve all the divs containing the text of the prayers with similar id as the title
       text = args.tblRow[x];
       p.classList.add(lang);
@@ -614,8 +623,8 @@ function createHtmlElementForPrayer(args: {
       p.addEventListener("dblclick", (ev: MouseEvent) => {
         ev.preventDefault();
         let size: number = Number(localStorage.fontSize);
-        if (size >=2) return setFontSize('1');
-        size =  size + 0.25;
+        if (size >= 2) return setFontSize('1');
+        size = size + 0.25;
         setFontSize(size.toString());
       }); //adding a double click eventListner that amplifies the text size of the chosen language;
       p.addEventListener("contextmenu", (event) => {
@@ -633,7 +642,7 @@ function createHtmlElementForPrayer(args: {
         });
       });
     }
-    
+
   })();
 
   return htmlRow
@@ -1371,7 +1380,7 @@ function showPrayers(args: {
       dataGroup = splitTitle(Title(entireTable))[0];//This will not change and will serve to set the dataset.group property of all the div elements that will be created for the table
       entireTable.forEach((row) => htmlDivs.push(processRow(row)));
     });
-    
+
 
     htmlDivs
       .filter(div => div?.classList.contains('Same'))
@@ -1390,7 +1399,7 @@ function showPrayers(args: {
       if (!['Title', 'SubTitle', 'ReadingIntro', 'ReadingEnd', 'Same'].includes(actorClass)
         && !showActors.find(actor => actor.EN === actorClass)?.Show)
         return; //If the actor class .Show properety is not set to true, we will not show it
-      
+
       return createHtmlElementForPrayer({
         tblRow: row,
         actorClass: actorClass,
@@ -1417,7 +1426,7 @@ function showPrayers(args: {
 
           //If the returned table also has placeHolders amongst its rows, we will unfold the placeHolders.
           referencedTable = unfoldPlaceHolders(referencedTable);
-          
+
           newTable.splice(newTable.indexOf(row), 1, ...referencedTable);
 
         });
@@ -2002,7 +2011,7 @@ function displaySettingsPanel(langs: boolean = false) {
       EN: "Increase or decrease the fonts size",
     }));
 
-    (function createInput() { 
+    (function createInput() {
       const input = createSettingsBtn({
         innerText: '',
         tag: "input",
@@ -2012,18 +2021,18 @@ function displaySettingsPanel(langs: boolean = false) {
       const id = "fontSizes"
       const options = createDataList(id);
       if (!options || options.length < 1) return;
-  
+
       input.type = "range";
       input.setAttribute("list", id);
       input.id = "inputFontSize";
       input.min = options[0].value;
-      input.max = options[options.length-1].value;
+      input.max = options[options.length - 1].value;
       input.defaultValue = localStorage.fontSize || '0.5';
       input.step = '0.25';
       input.onchange = () => setFontSize(input.value as string);
     })();
 
-    function createDataList(id:string): HTMLOptionElement[] {
+    function createDataList(id: string): HTMLOptionElement[] {
       let list = document.createElement("datalist");
       list.id = id;
       list.classList.add(hidden);
@@ -2033,7 +2042,7 @@ function displaySettingsPanel(langs: boolean = false) {
         option.value = i.toString();
         list.appendChild(option);
       }
-      return Array.from(list.children) as HTMLOptionElement[] ;
+      return Array.from(list.children) as HTMLOptionElement[];
     }
   })();
 
@@ -2645,11 +2654,11 @@ function compareDates(date1: string, date2: string): number {
 
   if (date1.length < 4 || date2.length < 4) return null;
   if (date1.length === 4) date1 += todayDate.getFullYear().toString();//It means we are comparing dates within the same year
-  if (date2.length === 4) date2 +=  todayDate.getFullYear().toString();
+  if (date2.length === 4) date2 += todayDate.getFullYear().toString();
   return date(date2) - date(date1);
 
   function date(date: string): number {
-    if(date.length<8) return null
+    if (date.length < 8) return null
     return new Date(date[0] + date[1] + '.' + date[2] + date[3] + '.' + date[4] + date[5] + date[6] + date[7]).getTime()
   }
 }

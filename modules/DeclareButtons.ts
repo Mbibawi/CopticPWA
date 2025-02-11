@@ -4537,7 +4537,7 @@ async function retrieveReadingTableFromBible(reading: string[][], langs: string[
             chapterNumber = fromTo.split(to + ' ')[1].split(':')[0] || ''//=>16
             : chapterNumber = fromTo.split(':')[0] || ''//=>13
 
-          fromTo = fromTo.replace('End', book[1]?.find(chapt => book[1]?.indexOf(chapt) === Number(chapterNumber) - 1)?.filter(verse => Number(verse[0])).length.toString())
+          fromTo = fromTo.replace('End', book[1][Number(chapterNumber) - 1]?.filter(verse => Number(verse[0])).length.toString())
 
         }
         return fromTo //=>//=>'13:1 à 16:30

@@ -144,8 +144,7 @@ class Button {
 const Btn: { [index: string]: Button } = {};
 
 //CONSTANTS
-const version: string =
-  "v9.3.4 (Fixes to the Jonah Fast)";
+const version: string = localStorage.version || undefined;
 const calendarDay: number = 24 * 60 * 60 * 1000; //this is a day in milliseconds
 const containerDiv: HTMLDivElement = document.getElementById(
   "containerDiv") as HTMLDivElement;

@@ -740,7 +740,7 @@ function showDates(
       " .\n Season = " +
       Season +
       " .\n Version = " +
-      version +
+      (version || localStorage.version) +
       ".\n" +
       "We " +
       `${isFast ? "are " : "are not "}` +
