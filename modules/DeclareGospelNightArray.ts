@@ -697,7 +697,7 @@ ReadingsArrays.GospelNightArrayFR = [
             "مزمور الساعة التاسعة من ليلة الإثنين"
         ],
         [
-            Prefix.HolyWeek + "9HEPsalm&D=GL7thSunday&C=Diacon",
+            Prefix.same + "&C=Diacon",
             "Yalmoc  to Dauid\nAnok aiw] `ebol je akcwtem `èeroi > rek pekma]j `èeroi ouo cwtem `èenacaji > sicmh V; `èetameqmhi > ouo ma`èqhk `èepa;o     >  ``allhloui`a",
             "Psaume 16 : 1 , 6\nJe t'appelle, car Tu réponds, ô Dieu! Tends l'oreille vers moi, écoute mes paroles Seigneur, écoute la justice! Sois attentif à ma plainte.\nAlléluia",
             "مزمور ١٦ : ١،٦ \nأنا صرخت لأنك قد سمعتني يا الله. أمل يارب أذنيك وأنصت لكلامي. استمع يا الله عدلي، واصغ إلى طلبتي. الليلويا"
@@ -711,25 +711,25 @@ ReadingsArrays.GospelNightArrayFR = [
             " إنجيل الساعة التاسعة من ليلة الإثنين"
         ],
         [
-            Prefix.HolyWeek + "9HEGospel&D=GL7thSunday&C=Diacon",
+            Prefix.same + "&C=Diacon",
             "Yalmoc  to Dauid\nAnok aiw] `ebol je akcwtem `èeroi > rek pekma]j `èeroi ouo cwtem `èenacaji > sicmh V; `èetameqmhi > ouo ma`èqhk `èepa;o     >  ``allhloui`a",
             "Psaume 16 : 1 , 6\nJe t'appelle, car Tu réponds, ô Dieu! Tends l'oreille vers moi, écoute mes paroles Seigneur, écoute la justice! Sois attentif à ma plainte.\nAlléluia",
             "مزمور ١٦ : ١،٦ \nأنا صرخت لأنك قد سمعتني يا الله. أمل يارب أذنيك وأنصت لكلامي. استمع يا الله عدلي، واصغ إلى طلبتي. الليلويا"
         ],
         [
-            Prefix.HolyWeek + "9HEGospel&D=GL7thSunday&C=Diacon",
+            Prefix.same + "&C=Diacon",
             "Markon Kev h >k/z/ - l/g\nOuo af`èi `èebol `ènje Ihc? nem nefmaqhthc `èeni;mi `ènte Kecari`èa `ènte Vilippe ouo 'en pimwit naf]ini `ènnefmaqhthc efjw `èmmoc `ènwou je `èare nirwmi jw `èmmoc je `èanok nim > `ènqwou de aujoc naf eujw `èmmoc je Iwannhc piref;wmc ankexwouni de je Hliac ankexwouni de je ouai `ènte ni`èprovhthc > ouo `ènqof naf]ini `èmmwou je nqwten de teten jw `èmmoc `èeroi je `èanok nim af`èerou`èw `ènje Petroc pe jaf je `ènqok pe Pxc?. Ouo afer `èepitiman nwou ina `ènce`è]temjoc `èn`èli eqbhtf.\nOuo aferhtc `èn;`ècbw nwou je w; pe `ènte `èp]hri`è m`èvrwmi si oumh] `èn'ici ouo `èntou]o]f `èebol itotou `ènniprecbuteroc nem niarxh`èereuc nem nica' ouo `èntou'oqbef ouo menenca ]omt `èn`èeoou `ènteftwnf. Ouo nafcaji `èmpicaji 'en ouparrhci`èa ouo af`èamoni `èmmof `ènje Petroc ouo aferhtc `èner`èepitiman naf `ènqof de `èetafvon\f ouo `èetafnau `èenefmaqhthc afer`èepitiman `èmPetroc ouo pejaf naf je ma]enak cavaou `èmmoi `èpcatanac je `èxmeu`èi an `èenaV; alla `èenanirwmi.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
             "Marc 8 : 27 - 33\nJésus s'en alla avec ses disciples vers les villages voisins de Césarée de Philippe. En chemin, il interrogeait ses disciples: «Qui suis-je, au dire des hommes?» Ils lui dirent : «Jean le Baptiste; pour d'autres, Elie ; pour d'autres, l'un des prophètes.»\nEt lui leur demandait: «Et vous, qui dites-vous que je suis?» Prenant la parole, Pierre lui répond: «Tu es le Christ.»",
             "مرقس ٨ : ٢٧ - ٣٣\nثم خرج يسوع وتلاميذه إلى قرى قيسارية فيلبس. وفي الطريق كان يسأل  تلاميذه قائلاً: من تقول الناس أني أنا؟ أما هم فقالوا له: يقولون أنك يوحنا المعمدان، وآخرون أنك إيليا، وآخرون أنك أحد الأنبياء. وأما هو فسألهم وقال: وأنتم من تقولون أني أنا؟ أجاب بطرس وقال: أنت هو المسيح. فزجرهم لكيلا يقولوا لأحد شيئاً من أجله."
         ],
         [
-            Prefix.HolyWeek + "9HEGospel&D=GL7thSunday&C=Diacon",
+            Prefix.same + "&C=Diacon",
             "",
             "Et il leur commanda sévèrement de ne parler de lui à personne. Puis il commença à leur enseigner qu'il fallait que le Fils de l'homme souffre beaucoup, qu'il soit rejeté par les anciens, les grands prêtres et les scribes, qu'il soit mis à mort et que, trois jours après, il ressuscite. Il tenait ouvertement ce langage. Pierre, le tirant à part, se mit à le réprimander. Mais lui, se retournant et voyant ses disciples, réprimanda Pierre; il lui dit:",
             "وابتدأ يعلمهم أنه ينبغي لابن الإنسان أن يتألم كثيراً من الشيوخ ورؤساء الكهنة والكتبة ويقتلونه وبعد ثلاثة أيام يقوم. وكَانَ يقول هذا القول علانية، فأمسكه بطرس وابتدأ ‏ينتهره. وأما هو فالتفت ونظر إلى تلاميذه وزجر بطرس وقال له:"
         ],
         [
-            Prefix.HolyWeek + "9HEGospel&D=GL7thSunday&C=Diacon",
+            Prefix.same + "&C=Diacon",
             "",
             "\nاذهب خلفي يا شيطان لأنك لا تفكر فيما لله بل فيما للناس.\n والمجد لله دائماً",
             ""
@@ -743,19 +743,13 @@ ReadingsArrays.GospelNightArrayFR = [
             "طرح الساعة التاسعة من ليلة الإثنين"
         ],
         [
-            Prefix.HolyWeek + "9HECommentary&D=GL7thSunday&C=Diacon",
-            "",
-            "",
-            ""
-        ],
-        [
-            Prefix.HolyWeek + "9HECommentary&D=GL7thSunday&C=Diacon",
+            Prefix.same + "&C=Diacon",
             "",
             "Commentaire\nLorsque le Seigneur eut terminé de questionner ses disciples sur le chemin de Césarée-de-Philippe, Il leur enseigna ouvertement ce qui devait Lui arriver à Jérusalem, que les écritures devaient être accomplies, qu'il fallait que le Fils de l'homme souffrit beaucoup, qu'Il soit rejeté par les scribes et les anciens des Juifs et après avoir accepté la passion, il ressuscitera le troisième jour. ",
             "طــرح\nلما فرغ الرب من سؤال تلاميذه في الطريق إلى قيصرية فيلبس، ابتدأ يقول لهم علانية من أجل الذي سيحصل له في أورشليم. أنه ينبغي أن يكمل المكتوب أن ابن الإنسان ينال آلاماً كثيرة، ويرذل من الكتبة وشيوخ اليهود. ومن بعد الآلام التي سيقبلها يقوم من الأموات في اليوم الثالث."
         ],
         [
-            Prefix.HolyWeek + "9HECommentary&D=GL7thSunday&C=Diacon",
+            Prefix.same + "&C=Diacon",
             "",
             "\nهذا هو الحجر الذي رذله البناؤون كقول الكتب، فسيهبط عليهم غضبه العظيم، ويهشمهم الرجز، ويصب الخزي على وجوههم، لأنهم جازوا الإحسان بالإساءة. أما الذين يسمعون ويؤمنون به فسيعطيهم فرحاً لا يفنى إلى الأبد.",
             ""
@@ -5986,7 +5980,7 @@ ReadingsArrays.GospelNightArrayFR = [
         ],
         [
             Prefix.same + "&C=ReadingIntro",
-            "Ⲟⲩⲟ ⲁϥⲟⲗⲧ ⲉ̀ϧⲟⲩⲛ ⲉ̀undefined̀\nⲉⲛ ⲡⲓⲣⲟ ⲙ̀ⲡⲓⲏⲓ ⲏⲡⲡⲉ ⲓⲥ ⲟⲩⲙⲱⲟⲩ ⲉϥⲛⲏⲟⲩ ⲉ̀ⲃⲟⲗ ⲥⲁⲡⲉⲓⲉⲃⲧ ⲙ̀ⲡⲓⲣ̀ⲓⲟⲛ ⲥⲁⲛⲓⲥⲁ ⲛ̀ⲉ̀ⲓⲉⲃⲧ. ",
+            "Ⲟⲩⲟ ⲁϥⲟⲗⲧ ⲉ̀ϧⲟⲩⲛ ⲉ̀ⲉⲛ ⲡⲓⲣⲟ ⲙ̀ⲡⲓⲏⲓ ⲏⲡⲡⲉ ⲓⲥ ⲟⲩⲙⲱⲟⲩ ⲉϥⲛⲏⲟⲩ ⲉ̀ⲃⲟⲗ ⲥⲁⲡⲉⲓⲉⲃⲧ ⲙ̀ⲡⲓⲣ̀ⲓⲟⲛ ⲥⲁⲛⲓⲥⲁ ⲛ̀ⲉ̀ⲓⲉⲃⲧ. ",
             "",
             ""
         ],
@@ -6002,7 +5996,10 @@ ReadingsArrays.GospelNightArrayFR = [
     ],
     [
         [
-            Prefix.HolyWeek + "LakanSermony&D=GL55&C=Diacon",
+            Prefix.HolyWeek + "LakanSermony&D=GL55",
+        ],
+        [
+            Prefix.same + "&C=ReadingIntro",
             "Oukaty,ycic `nte peniwt `e;ouab abba Senou] pi`ar,yman`drityc `ere pef`cmou `e;ouab swpi neman `amyn",
             "",
             "عظة لأبينا القديس أنبا شنودة رئيس المتوحدين بركته المقدسة تكون معنا آمين"
@@ -6161,7 +6158,7 @@ ReadingsArrays.GospelNightArrayFR = [
             "مزمور الساعة الحادية عشر من يوم الخميس"
         ],
         [
-            Prefix.HolyWeek + "11HMPsalm&D=GL55&C=Diacon",
+            Prefix.same + "C=Diacon",
             "Yalmoc  to Dauid\nNqok de akmecte ta`ècbw > ouo akiou`èi `ènnacaji cavaou `èmmok > ak]annau `èeourefsiou`èi naksoji nemaf  >  akxw  `èntektoi  nem  ninwik > ``allhloui`a",
             "Psaume 49 : 17 et 18\nToi tu n'aimes pas les reproches et rejettes loin de toi mes paroles. Si tu vois un voleur tu fraternises, tu es chez toi parmi les adultères. Alléluia",
             "مزمور٤٩: ١٧،١٨\nوأنت قد أبغضت أدبي، وألقيت كلامي إلى خلفك. إذا رأيت سارقا سعيت معه، مع الفسقة جعلت نصيبك."
@@ -6175,25 +6172,25 @@ ReadingsArrays.GospelNightArrayFR = [
             " إنجيل الساعة الحادية عشر من يوم الخميس"
         ],
         [
-            Prefix.HolyWeek + "11HMGospel&D=GL55&C=Diacon",
+            Prefix.same + "&C=Diacon",
             "Yalmoc  to Dauid\nNqok de akmecte ta`ècbw > ouo akiou`èi `ènnacaji cavaou `èmmok > ak]annau `èeourefsiou`èi naksoji nemaf  >  akxw  `èntektoi  nem  ninwik > ``allhloui`a",
             "Psaume 49 : 17 et 18\nToi tu n'aimes pas les reproches et rejettes loin de toi mes paroles. Si tu vois un voleur tu fraternises, tu es chez toi parmi les adultères. Alléluia",
             "مزمور٤٩: ١٧،١٨\nوأنت قد أبغضت أدبي، وألقيت كلامي إلى خلفك. إذا رأيت سارقا سعيت معه، مع الفسقة جعلت نصيبك."
         ],
         [
-            Prefix.HolyWeek + "11HMGospel&D=GL55&C=Diacon",
+            Prefix.same + "&C=Diacon",
             "Iwannhn Kev i/g/> k/a/-l/\nÛNai de `èetafjotou `ènje Ihc? af`è]qorter 'en pip/n/a /> afermeqre ouo pejaf > je `èamhn `èamhn ;jw `èmmoc nwten je ouai `èebol'en qhnou peqnathit. Naucomc oun oube `ènnou`èerhou `ènje nimaqhthc `ènce`èemi an je afjere nim `èmmwou. Nafrwteb de `ènje ouai 'en kenf `ènIhc? `èebol'en nefmaqhthc > vh `èenare Ihc? mei `èmmof. Afswrem oun `èevai `ènje Cimwn Petroc ina `èntef]enf je afjere nim è`èmmof. \nPimaqhthc de oun `èete`èmmau `èetafoua\f `èejen `èqmectenht `ènIhc? pejaf naf je Pa_ nim pe. Aferouw `ènje Ihc? je vh `èanok `èe;nacep pilwm `èntathif naf n`èqof pe > ouo `èetafcep pilwm afthif `ènIoudac Cimwn piIckariwthc.\n Ouo menenca pilwm tote af]enaf `èe'oun `èerof `ènje `èpcatanac > peje Ihc? oun naf je vh`èeteknaaif `èaritf `ènxwlem. Paicaji je `èmpe `èli `èemi `èerof 'en nheqrwteb je `èetafjoc naf eqbeou > an ouon de naumeu`èi pe je `èepidh nare piglocokomwn `èntotf `ènIoudac > je `èarhou `èere Ihc? jw `èmmoc naf je ]wp `èmvh`èetenerxria `èmmof `èe`èp]ai > ie je ina `èntef; `ènouenxai `ènnihki. Ouo `èetafsi `èmpiwik `ènje vh`èete`èmmau af`èi `èebolcatotf ne `èn`èejwr de pe.  Ouw]t `mpieuaggelion eqouab. \nDo[a ci Kuri`e.",
             "Jean 13 : 21-30\nAyant dit cela, Jésus fut troublé en son esprit et il attesta: «En vérité, en vérité, je vous le dis, l'un de vous me livrera.» Les disciples se regardaient les uns les autres, ne sachant de qui il parlait. Un de ses disciples, celui que Jésus aimait, se trouvait à table tout contre Jésus. Simon-Pierre lui fait signe et lui dit: «Demande quel est celui dont il parle.» Celui-ci, se penchant alors vers la poitrine de Jésus, lui dit: ",
             "يوحنا ١٣: ٢١ - ٣٠\nولما قال يسوع هذا قلق بالروح وشهد وقال: الحق الحق أقول لكم إن واحداً منكم هو الذي سيسلمني. فكان التلاميذ ينظرون بعضهم إلى بعض ولا يعلمون من عنى منهم. وكَانَ متكئاً في حضن يسوع واحد من تلاميذه الذي كان يسوع يحبه فأشار إليه سمعان بطرس ليسأله من عنى. فإتكأ ذاك التلميذ على صدر يسوع وقال له: "
         ],
         [
-            Prefix.HolyWeek + "11HMGospel&D=GL55&C=Diacon",
+            Prefix.same + "&C=Diacon",
             "",
             "«Seigneur, qui est-ce?» Jésus répond: «C'est celui à qui je donnerai la bouchée que je vais tremper.»\nTrempant alors la bouchée, il la prend et la donne à Judas, fils de Simon Iscariote. Après la bouchée, alors Satan entra en lui. Jésus lui dit donc: «Ce que tu fais, fais-le vite.» Mais cela, aucun parmi les convives ne comprit pourquoi il le lui disait. Comme Judas tenait la bourse, certains pensaient que Jésus voulait ",
             "يا رب من هو؟ أجاب يسوع قائلا: هو ذاك الذي أغمس أنا اللقمة وأعطيه.\nفغمس اللقمة وأعطاها ليهوذا سمعان الإسخريوطي، وبعد اللقمة دخله الشيطان، فقال له يسوع: ما أنت فاعله فإفعله سريعاً. ولم يعلم أحد من المتكئين لماذا قال له ذلك، فظن قوم منهم إذ كان الصندوق عند يهوذا أن يسوع"
         ],
         [
-            Prefix.HolyWeek + "11HMGospel&D=GL55&C=Diacon",
+            Prefix.same + "&C=Diacon",
             "",
             "lui dire: «Achète ce dont nous avons besoin pour la fête», ou qu'il donnât quelque chose aux pauvres. Aussitôt la bouchée prise, il sortit; il faisait nuit.\nGloire à Dieu éternellement.",
             "قال له: إشترى ما نحتاج إليه للعيد، أو أن يعطى شيئاً للمساكين. أما ذاك فلما تناول اللقمة خرج لوقته وكَانَ ليلاً.\nوالمجد لله دائماً."
@@ -6207,31 +6204,31 @@ ReadingsArrays.GospelNightArrayFR = [
             "طرح الساعة الحادية عشر من يوم الخميس"
         ],
         [
-            Prefix.HolyWeek + "11HMCommentary&D=GL55&C=Diacon",
+            Prefix.same + "&C=Diacon",
             "",
             "Commentaire\nLe soleil de justice a projeté ses rayons et sa lumière a éclairé toute la terre. C'est Jésus, la vraie Lumière qui éclaire tout homme venu sur cette terre. Le Pain céleste qui donne la vie et nourrit tous ceux que Sa Main a créés. Dans l'ancien temps Il a dressé une table dans le désert avec la manne et Il a entretenu par elle le peuple 40 années. Ils en mangèrent et sont morts comme a dit le Seigneur. ",
             "طــرح\nشمس البر أضاء شعاعه وبلغ ضياؤه إلى أقطار الأرض، الذي هو يسوع النور الحقيقي الذي يضئ لكل إنسان آت إلى العالم، الخبز السمائي المعطى الحياة المغذى كل صنعة يديه. في مبدأ الزمان أعد مائدة في البرية من المن وأعال منها الشعوب أربعين سنة من الزمان فأكلوا وماتوا كقول الرب. "
         ],
         [
-            Prefix.HolyWeek + "11HMCommentary&D=GL55&C=Diacon",
+            Prefix.same + "C=Diacon",
             "",
             "Le Fils a dressé une nouvelle Table dans la salle haute de Sion. Le soir de ce jour où ils mangèrent les azymes de la Pâque, Notre Seigneur Jésus, notre Sauveur, s'est assis dans la salle haute. Il y était assis avec Ses disciples. Ils ont mangé la nouvelle Pâques. C'est Son Corps à Lui qu'Il leur a mystérieusement donné et le vrai Sang précieux qui est préférable au sang des animaux. Notre Sauveur prit du pain, le bénit, le rompit et le donna aux apôtres qu'il s’était choisis",
             "ومائدة جديدة أعدها الإبن في علية صهيون الأم. لَمَّا كان عشية ذلك اليوم الذي أكلوا فيه فطير الفصح إتكأ الرب يسوع المخلص في الموضع العالى الذي هو علية صهيون، وإتكأ معه تلاميذه وكانوا يأكلون الفصح الجديد الذي هو جسده هو بذاته الذي أعطاه لهم بأمر سري، والدم الكريم الحقيقي الذي هو أفضل من دم الحيوانات. أخذ مخلصنا خبزاً فباركه وهكذا قسمه وناوله لصفوته الرسل "
         ],
         [
-            Prefix.HolyWeek + "11HMCommentary&D=GL55&C=Diacon",
+            Prefix.same + "&C=Diacon",
             "",
             "en disant: «Prenez et mangez-en tous, ceci est mon Corps que je romps pour vous et pour la multitude pour la rémission des péchés.» Ensuite, Il prit la coupe remplie de vin, y mêla de l'eau et leur donna en disant: «prenez et buvez tous de cette coupe, car ceci est mon Sang qui est pour la nouvelle alliance. Il est répandu pour vous et pour la multitude pour la rémission des péchés. Car chaque fois que vous mangez de ce Pain",
             "قائلا: خذوا كلوا منه كلكم، لأن هذا هو جسدي الذي أقسمه عنكم وعن كثيرين لمغفرة خطاياهم. بعد هذا أمسك كأس الخمر ومزجها بالماء وناولهم قائلا: خذوا إشربوا منى هذه الكأس جميعكم، فإن دمى للعهد الجديد الذي يهرق عنكم وعن كثيرين لمغفرة خطاياهم، لأن كل مرة تأكلون من هذا الخبز "
         ],
         [
-            Prefix.HolyWeek + "11HMCommentary&D=GL55&C=Diacon",
+            Prefix.same + "&C=Diacon",
             "",
             "et que vous buvez de cette Coupe vous proclamez Ma mort, Ma Résurrection et vous faites mémoire de Moi jusqu'à Mon retour.» Voici la Pâques de notre salut: l'Agneau véritable, le Christ notre Sauveur. Il a dit: «Je ne boirai plus désormais de ce produit de la vigne jusqu'au jour où je le boirai avec vous à nouveau, dans le Royaume de mon Père.» Le Seigneur dit: «l'un de vous me livrera entre les mains des contrevenants.»",
             "وتشربون من هذه الكأس تبشرون بموتى وقيامتى وتذكرونى إلى أن أجئ. هذ هو فصل خلاصنا، الحمل الحقيقي المسيح مخلصنا. قال: إني لا أشرب من هذه الكرمة حتى أشربه معكم جديداً في ملكوت أبي. قال الرب: إن واحداً منكم سيسلمنى في أيدي المخالفين. "
         ],
         [
-            Prefix.HolyWeek + "11HMCommentary&D=GL55&C=Diacon",
+            Prefix.same + "&C=Diacon",
             "",
             "Ils se mirent tous à penser un par un: «Qui osera faire cela?» Judas, l'un de ceux qui étaient assis, dit: «Serait-ce moi?» Il lui répondit: «Tu l'as dit.» Celui Qui sait tout le désigna en disant: C’est celui qui plonge avec moi sa main dans le plat. Tu as dissimulé l'iniquité, toi Judas, le contrevenant, tu as osé faire une mauvaise action bien que le Fils de Dieu soit venu pour sauver le premier homme de la corruption.",
             "فبدأوا يفكرون واحداً فواحداً منهم قائلين: من الذي يجسر ليفعل هذا؟ فيهوذا أحد المتكئين قال: لعلى أنا هو؟!. قال له: أنت قلت! فأشار إليه العارف قائلا: الذي يضع يده معي في الصحفة. أضمرت الإثم أَيُّهَا المخالف وتجرأت أنت على أمر ردئ لأن إبن الله أتى ليخلص الإنسان الأول من الفساد."
@@ -8001,7 +7998,7 @@ ReadingsArrays.GospelNightArrayFR = [
         ],
         [
             Prefix.same + "&C=ReadingIntro",
-            "Ⲛⲓⲙ ⲡⲉ ⲫⲏⲉⲑⲛⲏⲟⲩ ⲉ̀ⲃⲟⲗϧⲉⲛ Ⲉⲇⲱⲙ ⲡ̀ⲑ̀ⲣⲟϣⲣⲉϣ ⲛ̀ⲛⲉϥϩ̀ ⲃⲱⲥ ⲉ̀ⲃⲟⲗϧⲉⲛ Ⲃⲱⲥⲟⲣ. ",
+            "Ⲛⲓⲙ ⲡⲉ ⲫⲏⲉⲑⲛⲏⲟⲩ ⲉ̀ⲃⲟⲗϧⲉⲛ Ⲉⲇⲱⲙ ⲡ̀ⲑ̀ⲣⲟϣⲣⲉϣ ⲛ̀ⲛⲉϥϩ̀ ⲃⲱⲥ ⲉ̀ⲃⲟⲗϧⲉⲛ Ⲃⲱⲥⲟⲣ.",
             "",
             ""
         ],
@@ -8051,10 +8048,22 @@ ReadingsArrays.GospelNightArrayFR = [
         ],
         [
             Prefix.same + "&C=ReadingIntro",
-            "Missing Reading Intro",
-            "Missing Reading Intro",
-            "Missing Reading Intro",
-        ]
+            "Ⲉⲃⲟⲗϧⲉⲛ Ⲓⲱⲃ ⲡⲓⲉⲑⲙⲓ ⲡⲓⲡⲣⲟⲫⲏⲧⲏⲥ : ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̅ⲑ̅ⲩ̅ : ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ",
+            "",
+            ""
+        ],
+        [
+            Prefix.same + "&C=ReadingIntro",
+            "Ⲉⲧⲁⲩⲥⲱⲧⲉⲙ ⲉ̀ⲣⲟⲓ ⲁⲩϯⲑ̀ⲏⲟⲩ : ⲁⲩⲭⲁⲣⲱⲟⲩ ⲇⲉ ⲉ̀ⲏⲓ ⲉ̀ϫⲉⲛ ⲡⲁⲥⲟϭⲛⲓ.",
+            "",
+            ""
+        ],
+        [
+            Prefix.same + "&C=ReadingIntro",
+            "Ⲟⲩⲱ̀ⲟⲩ ⲛ̀Ϯⲧ̀ⲣⲓⲁⲥ ⲉ̀ⲑⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ : ϣⲁ ⲉ̀ⲛⲉϩ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ⲛⲉϩ ⲧⲏⲣⲟⲩ : ⲁ̀ⲙⲏⲛ.",
+            "",
+            ""
+        ],
         [
             Prefix.same + "&C=Diacon",
             "",
@@ -8393,19 +8402,16 @@ ReadingsArrays.GospelNightArrayFR = [
     ],
     [
         [
-            Prefix.HolyWeek + "FayEtafAnfHymn&D=GL56&C=Diacon",
-            "",
-            "",
-            ""
+            Prefix.HolyWeek + "FayEtafAnfHymn&D=GL56",
         ],
         [
-            Prefix.HolyWeek + "FayEtafAnfHymn&D=GL56&C=Diacon",
+            Prefix.same + "&C=Diacon",
             "",
             "Taisoury `nnoub `nka;aroc etfai qa pi`arwmata @ etqen nenjij `n`Aarwn pi`ouyb eftale ou`c;oinoufi `e`pswi `ejen pima `n`ersw`ousi.",
             "طاي شوري إننوب إنكاثاروس إتفاي خا بي آروماطا إتخين نين جيج إن آ آرون \nبي أويب إفطالي أو إسطوي نوفي إى إبشوي إيجين بي ما إن إيرشوأوشي."
         ],
         [
-            Prefix.HolyWeek + "FayEtafAnfHymn&D=GL56&C=Diacon",
+            Prefix.same + "&C=Diacon",
             "`Fai `etafenf `e`pswi @ `nou;uci`a ecsyp @hijen pictauroc @ qa `poujai mpengenoc.",
             "Voici Celui qui s'est élevé\nen sacrifice accepté sur la\ncroix pour le salut du genre humain.",
             "فاي إيطاف إنف إى إبشوي إن أو ثيسيا إسشيب هيجين \nبي إسطافروس خا إب أوجاي إمبين جينوس"
@@ -8430,37 +8436,40 @@ ReadingsArrays.GospelNightArrayFR = [
     ],
     [
         [
-            Prefix.HolyWeek + "OMonoGuenisHymn&D=GL56&C=Diacon",
+            Prefix.HolyWeek + "OMonoGuenisHymn&D=GL56",
+        ],
+        [
+            Prefix.same + "&C=Diacon",
             "Omonogenyc `Uioc ke Logoc tou :eou @ (`a;anatoc)=g `upar,wn ke kata dexamenoc @ diatyn `ymeteran cwtyrian @ carkw;yne ek tyc `agiac ;e`otokou ke `a`i (par;enou Mariac)=b.",
             "Omonogenyc `Uioc ke Logoc tou :eou @ (`a;anatoc)=g `upar,wn ke kata dexamenoc @ diatyn `ymeteran cwtyrian @ carkw;yne ek tyc `agiac ;e`otokou ke `a`i (par;enou Mariac)=b.",
             "أومونوجينيس إيوس كي لوغوس توو ثيؤو (أثاناطوس)3 إب أرخون كي كاطا ذيكسامينوس: ذى أتين إيميتران سوتيريان: صاركوثيني تيس أجياس ثيؤتوكو كي أ إى (بارثينو مارياس) ²"
         ],
         [
-            Prefix.HolyWeek + "OMonoGuenisHymn&D=GL56&C=Diacon",
+            Prefix.same + "&C=Diacon",
             "(Atreptwc)=g  `enan`;rwpicac `o`ctaurw;ic te `<ricte `o :eoc. :anatw ;anaton patycac @ ic wntyc `agiac ~Triadoc @ cun doxa zomenoc tw Patri ke tw `agiw `Pneumati @ cwcon `ymac.",
             "Ô Toi qui sans changement, devins Homme, fus crucifié, ô Christ Dieu ; par la mort vainquit la mort, l’un de la Sainte Trinité, glorifié, avec le Père, et le Saint-Esprit, pitié pour nous.",
             "(أتريبطوس)3 إنان إثروبيساس أو إسطاﭭروتيس تيه إخريس تى أوثيؤس. ثاناطو ثاناطون باتيساس:يس أون تيس أجياس إترى أذوس:سين ذوكصا زومينوس. طو باترى كي طو أجيو بنيفما تى :سوسون إيماس"
         ],
         [
-            Prefix.HolyWeek + "OMonoGuenisHymn&D=GL56&C=Diacon",
+            Prefix.same + "&C=Diacon",
             "(Agioc)=g `o :eoc `odi `ymac an `;rwpoc @ ge gonwc atreptwc ke minac :eoc. Agioc Ic,uroc `o `en ac;enia to `upere,on tyc Ic,uroc `epidixamenoc.",
             "Saint Dieu incarné pour nous, sans hésitation, Lui qui est Dieu. Saint Fort, apparu faible, Lui qui est le plus puissant.",
             "أجيوس أوثيؤس: أوذى إيماس أن إثروبوس جى غونوس أتريبتوس كي مى ناس ثيؤس أجيوس يسشيروس أو إنا ثنيا طو إي بيريخو تيس يسشيروس إبى ذيكسامينوس"
         ],
         [
-            Prefix.HolyWeek + "OMonoGuenisHymn&D=GL56&C=Diacon",
+            Prefix.same + "&C=Diacon",
             "Agioc `A;anatoc `o `ctaurw;ic di `ymac @ `oton di`a`ctaurou ;anaton `upominac carki ke dixacuwc ke en ;anatw gegonwc `upar,ic. `A;anatoc. Agia ~Triac `ele`ycon `ymac.",
             "Saint immortel, qui a été crucifié pour nous, a supporté la mort sur la croix, et l’a acceptée dans sa chair, Lui l’Eternel, qui ne meurt pas. Ô Trinité Sainte, pitié pour nous.",
             "أجيوس أثاناتوس أو إسطاﭭروتيس ذى إيماس أو طون ذى إسطاﭭرو ثاناطون إيبوميناس ساركى كي ذيكساسوس كي إن ثاناطو جى جونوس إيبارشيس أثاناطوس. أجيا ترياس اليسون إيماس"
         ],
         [
-            Prefix.HolyWeek + "OMonoGuenisHymn&D=GL56&C=Diacon",
+            Prefix.same + "&C=Diacon",
             "Agioc  o ;eoc @ Agioc Ic,uroc @ Agioc A;anatoc @ o `ctaurw;ic diymac @ eleycon ` ymac\nJe Agioc  o ;eoc @ Agioc Ic,uroc @ Agioc A;anatoc @ o `ctaurw;ic diymac @ eleycon ` ymac\nJe Agioc  o ;eoc @ Agioc Ic,uroc @ Agioc A;anatoc @ o `ctaurw;ic diymac @ eleycon ` ymac",
             "Dieu Saint, Dieu Puissant, Dieu vivant et immortel, crucifié pour nous, aie pitié de nous\nDieu Saint, Dieu Puissant, Dieu vivant et immortel, crucifié pour nous, aie pitié de nous\nDieu Saint, Dieu Puissant, Dieu vivant et immortel, crucifié pour nous, aie pitié de nous",
             "قدوس الله قدوس القوى قدوس الحى الذي لا يموت، الذي صُلب عنا ارحمنا\nقدوس الله قدوس القوى قدوس الحى الذي لا يموت، الذي صُلب عنا ارحمنا\nقدوس الله قدوس القوى قدوس الحى الذي لا يموت، الذي صُلب عنا ارحمنا"
         ],
         [
-            Prefix.HolyWeek + "OMonoGuenisHymn&D=GL56&C=Diacon",
+            Prefix.same + "&C=Diacon",
             "Doxa Patri ke Uiw ke agiw Pneumati@ ke nun ke `a`i ke ic touc `e`wnac twn `e`wnwn `amyn @ agia Triac @ eleycon ` ymac",
             "Gloire au Père au Fils et au Saint-Esprit, Maintenant et pour toujours, pour les siècles des siècles Amen. Ô Trinité Sainte, aie pitié de nous.",
             "المجد للآب والإبن والروح القدس، الآن و كل أوان وإلي دهر الدهور. آمين. أَيُّهَا الثالوث المقدس ارحمنا"
