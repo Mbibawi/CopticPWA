@@ -86,23 +86,29 @@ async function startApp() {
     );
   };
 
-  async function checkVersion() {
-    const resp = await fetch('./version.json');
-    if (!resp.ok) return;
-    const json = await resp.json();
-    if(!json) return;
-    if (!version) localStorage.version = json.version;
-    else if (json.version !== version) {
-      const text = {
-        AR: 'توجد نسخة أحدث من التطبيق، يُنصَح بتحميل آخر نُسخَة عن طريق الضغط على زر التحديث في قسم الإعدادات',
-        FR: "Une nouvelle version de l'application est maintenant disponible, nous vous conseillons de mettre à jour votre application en allant dans la section 'Paramètres'",
-        EN: "A new version of the application is now available, we advise you to update your version form the 'settings' section"
-      }
-      alert(text[defaultLanguage] || text.EN)
-    };
+}
+/**
+ * Checks the app version 
+ */
+async function checkVersion(update:string = '') {
+  if (update) return updateLocalStorage(update);
+  const resp = await fetch('./version.json');
+  if (!resp.ok) return;
+  const json = await resp.json();
+  if(!json) return;
+  if (!version) updateLocalStorage(json.version);
+  else if (json.version !== version) {
+    const text = {
+      AR: 'توجد نسخة أحدث من التطبيق، يُنصَح بتحميل آخر نُسخَة عن طريق الضغط على زر التحديث في قسم الإعدادات',
+      FR: "Une nouvelle version de l'application est maintenant disponible, nous vous conseillons de mettre à jour votre application en allant dans la section 'Paramètres'",
+      EN: "A new version of the application is now available, we advise you to update your version form the 'settings' section"
+    }
+    alert(text[defaultLanguage] || text.EN);
+  };
+  function updateLocalStorage(version:string){
+    localStorage.version = version
   }
 }
-
 /**
  * Takes a Button and, depending on its properties will do the following: if the button has children[] buttons, it will create an html element in the left side bar for each child; if the button has inlineBtns[], it will create an html element in the main page for each inlineButton; if the button has prayers[] and prayersArray, and languages, it will look in the prayersArray for each prayer in the prayers[], and if found, will create an html element in the main page showing the text of this element. It will only do so for the languages included in the usersLanguages.
  * @param {Button} btn - the button that the function will process according to its properties (children[], inlineBtns[], prayers[], onClick(), etc.)
@@ -2458,7 +2464,10 @@ function displaySettingsPanel(langs: boolean = false) {
       id: "updateApp",
       onClick: {
         event: "click",
-        fun: () => location.reload(),
+        fun: async () => {
+          location.reload();
+          checkVersion(await fetch('./version.json').then(async resp=>await resp.json()).then(json=>json.version));
+        },
       },
     });
 

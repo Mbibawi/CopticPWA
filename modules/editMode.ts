@@ -763,7 +763,7 @@ function replacePrefixes(text: string, arrayName: string): string {
 
   if (!arrayName.startsWith("PrayersArray")) return text;
 
-  
+
   //Replace variables
 
 
@@ -773,7 +773,7 @@ function replacePrefixes(text: string, arrayName: string): string {
 
   return text
 
-  function replaceVariables(v: any, r: string){
+  function replaceVariables(v: any, r: string) {
     ['AR', 'FR', 'EN', 'COP', 'CA']
       .forEach(lang => text = text.replaceAll(v[lang], r.replace('XXX', lang)))
   }
@@ -1760,21 +1760,95 @@ async function convertAllCopticParagraphsFonts(fontFrom?: string) {
 
 }
 
-async function _FixCopticText(htmlParag: HTMLElement) {
-  if (htmlParag.tagName !== 'P') return alert('Please place the cursor in the paragraph that you want to fix');
+/**Can be called from the console to convert the coptic fonts of the Prophecies introduction */
+async function _FixPropheciesIntroductionOrPsalm() {
+  const title = eval(prompt('Provide the title of the table'));
+  const table = findTable(title, ReadingsArrays.GospelNightArrayFR);
+  if (!table) return console.log('No table with the provided title was found');
 
-  let font: string,
-    text: string,
-    parags = htmlParag.innerHTML.split('<br>');
+  if (title.includes('Prophecies&D='))
+    await processPropheciesTable()
+  else if (title.includes('Psalm&D='))
+    await processPsalmTable();
 
-  for (let parag of parags) {
-    parags.indexOf(parag) === 1 ? font = 'ATHANASIUS' : font = 'CS_AVVA_SHENOUDA';
-    text = await convertCopticFont({ fontFrom: font, promptAll: false, text: parag }) as string || '';
-    if (!text) alert('Conversion has failed for ' + parag);
-    if (!text) continue;
-    let row = addRow(htmlParag, false, htmlParag.title.replace('Diacon', 'ReadingIntro'), false);
-    if (!row) return;
-    (row.querySelector('p.COP') as HTMLParagraphElement).innerText = text
+  async function processPropheciesTable() {
+    if (!table) return;
+    const introductions = table.filter(row => row[0] === Prefix.same + "&C=Diacon" && row[1].length > 0 && !row[2] && !row[3]);
+
+    if (!introductions) return alert(`No Row with title ${Prefix.same}&C=Diacon was found !`);
+
+    console.log(`row =`, introductions);
+
+    await Promise.all(introductions.map(async row => await processIntroduction(row)));
+
+
+    table?.forEach(row => row.forEach((element, index) => {
+      if (element.startsWith(Prefix.same)) (row[index]) = element.replace(Prefix.same, "Prefix.same +\"");
+      if (element.startsWith(Prefix.HolyWeek)) row[index] = element.replace(Prefix.HolyWeek, "Prefix.HolyWeek +\"");
+      if (element.startsWith(Prefix.readingRef)) row[index] = element.replace(Prefix.readingRef, "Prefix.readingRef +\"");
+    }));
+
+    console.log("modified table = ", table);
+
+    async function processIntroduction(row: string[]) {
+      if (!table) return
+      const copticText = await _FixCopticText(undefined, row[1]) as string[];
+      console.log('converted coptic text = ', copticText);
+      copticText
+        .reverse()
+        .map(text => table?.splice(table?.indexOf(row) + 1, 0, [Prefix.same + '&C=ReadingIntro', text, "", ""]));
+      table?.splice(table?.indexOf(row), 1);
+    }
+  }
+
+  async function processPsalmTable() {
+    if (!table) return;
+    const row = table.find(row => row[0] === Prefix.same + "&C=Diacon");
+    console.log(`row =`, row);
+    const copticText = await _FixCopticText(undefined, row[1]) as string[];
+    const fr = row[2].split('\n').reverse();
+    const ar = row[3].split('\n').reverse();
+    console.log('converted coptic text = ', copticText);
+    copticText
+      .reverse()
+      .map((text, index) => table.splice(table.indexOf(row) + 1, 0, [Prefix.same + '&C=ReadingIntro', text, fr[index] || 'missing', ar[index] || 'missing']));
+
+    table.splice(table.indexOf(row), 1);
+    table.forEach(row =>
+      row.forEach((element, index) => {
+        if (element.startsWith(Prefix.same)) (row[index]) = element.replace(Prefix.same, "Prefix.same +\"");
+        if (element.startsWith(Prefix.HolyWeek)) row[index] = element.replace(Prefix.HolyWeek, "Prefix.HolyWeek +\"");
+        if (element.startsWith(Prefix.readingRef)) row[index] = element.replace(Prefix.readingRef, "Prefix.readingRef +\"");
+      }));
+
+    console.log("modified table = ", table);
+
+  }
+}
+
+async function _FixCopticText(htmlParag: HTMLElement, text?: string) {
+  if (htmlParag && htmlParag.tagName !== 'P') return alert('Please place the cursor in the paragraph that you want to fix');
+
+  let font: string, parags: string[];
+
+  text ? parags = parags = text.split('\n') : parags = htmlParag.innerHTML.split('<br>');
+  return await Promise.all(parags.map(async (parag, index) => await convertFont(parag, index)));
+
+  async function convertFont(parag: string, index: number) {
+    index === 1 ? font = 'ATHANASIUS' : font = 'CS_AVVA_SHENOUDA';
+    const converted = await convertCopticFont({ fontFrom: font, promptAll: false, text: parag }) as string || '';
+    if (!converted) {
+      alert('Conversion has failed for ' + parag);
+      return undefined
+    };
+    insertRow();
+    return converted;
+    function insertRow() {
+      if (!htmlParag) return;
+      const row = addRow(htmlParag, false, htmlParag.title.replace('Diacon', 'ReadingIntro'), false);
+      if (!row) return;
+      (row.querySelector('p.COP') as HTMLParagraphElement).innerText = converted
+    }
   }
 }
 
@@ -10352,7 +10426,7 @@ function _findReadingArrayDuplicates(readingArray: string[][][]) {
 function _combineReadingsReferences(readingArray: string[][][]) {
   const duplicates: Set<[string, string[][]]> = new Set();
 
-  readingArray.forEach(table =>{
+  readingArray.forEach(table => {
     if (table.filter(row => row.join('&&').includes(Prefix.readingRef)).length > 1) return;//If the table contains more than 1 row with references, we will ignore it;
 
     table.forEach(row => processRow(row, table));
@@ -10360,8 +10434,8 @@ function _combineReadingsReferences(readingArray: string[][][]) {
 
   return readingArray;
 
-  
-  function processRow(row:string[], table:string[][]) {
+
+  function processRow(row: string[], table: string[][]) {
     const refs = row.filter(str => str.startsWith(Prefix.readingRef));
 
     if (refs.length > 1) return;//We will ignore the rows having including more than 1 reference
@@ -10373,26 +10447,26 @@ function _combineReadingsReferences(readingArray: string[][][]) {
 
 
   }
-  
-    function mergeDuplicates(table: string[][], ref: string):boolean {
-      const first = Array.from(duplicates).find(el => el[0] === ref);
-      if (!first) return false
-      const firstTitle = splitTitle(Title(first[1]));
-      const duplicateTitle = splitTitle(Title(table))[0];
-      if (!duplicateTitle.includes('&D=')) return false;
-      
-      debugger
-      const duplicateDate = duplicateTitle.split('&D=')[1];
 
-      first[1][0][0] = firstTitle[0] + '||' + duplicateDate + '&C=' + firstTitle[1] + 'Duplicate =' + duplicateDate;
+  function mergeDuplicates(table: string[][], ref: string): boolean {
+    const first = Array.from(duplicates).find(el => el[0] === ref);
+    if (!first) return false
+    const firstTitle = splitTitle(Title(first[1]));
+    const duplicateTitle = splitTitle(Title(table))[0];
+    if (!duplicateTitle.includes('&D=')) return false;
 
-      readingArray.splice(readingArray.indexOf(table), 1);
+    debugger
+    const duplicateDate = duplicateTitle.split('&D=')[1];
 
-      return true;
-    
-    }
-    
-  
+    first[1][0][0] = firstTitle[0] + '||' + duplicateDate + '&C=' + firstTitle[1] + 'Duplicate =' + duplicateDate;
+
+    readingArray.splice(readingArray.indexOf(table), 1);
+
+    return true;
+
+  }
+
+
 }
 
 function _fixPraxisArray(readingsArray: string[][][]) {

@@ -130,34 +130,60 @@ ReadingsArrays.GospelNightArrayFR = [
             Prefix.HolyWeek + "9HMProphecies&D=GL7thSunday"
         ],
         [
-            Prefix.same + "&C=Title",
+            Prefix.same +"&C=Title",
             " Lamentations (1: 1- 4)"
         ],
-        [Prefix.same + '&C=ReadingIntro',
-            "Missing Reading Intro",
-            "Missing Reading Intro",
-            "Missing Reading Intro",
-        ],
         [
-            Prefix.same + "&C=Diacon",
+            Prefix.same +"&C=ReadingIntro",
+            "Ⲉⲃⲟⲗϧⲉⲛ Ⲓⲉⲣⲉⲙⲓⲁⲥ ⲡⲓⲡⲣⲟⲫⲏⲧⲏⲥ : ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̅ⲑ̅ⲩ̅ : ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙ ⲏⲛ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ",
             "",
-            Prefix.readingRef + "LAM:1:1-2/1:3-3/1:4-4",
-            Prefix.readingRef + "LAM:1:1-2/1:3-3/1:4-4"
+            ""
         ],
         [
-            Prefix.same + "&C=Title",
+            Prefix.same +"&C=ReadingIntro",
+            "Ⲁⲥϣⲱⲡⲓ ⲇⲉ ⲙⲉⲛⲉⲛⲥⲁ ⲑ̀ⲣⲟⲩⲉⲣ ⲭ̀ⲙⲁⲗⲱⲧⲉⲩⲓⲛ ⲙⲡⲓⲒⲥⲣⲁⲏⲗ ⲟⲩⲟ Ⲓⲗ̅ⲏ̅ⲙ̅ ⲛ̀ⲧⲟⲩϣⲟⲣⲥ: ⲁϥⲉⲙⲥⲓ ⲛ̀ϫⲉ Ⲓⲉⲣⲉⲙⲓⲁⲥ ⲁϥⲣⲓⲙⲓ ⲟⲩⲟ ⲁϥⲉⲣⲏⲃⲓ ⲙ̀ⲡⲁⲓ ⲏⲃⲓ ⲉ̀ϫⲉⲛ Ⲓⲗ̅ⲏ̅ⲙ̅ ⲟⲩⲟ ⲡⲉ ϫⲁϥ ϫⲉ.",
+            "",
+            ""
+        ],
+        [
+            Prefix.same +"&C=ReadingIntro",
+            "Ⲟⲩⲱ̀ⲟⲩ ⲛ̀Ϯⲧ̀ⲣⲓⲁⲥ ⲉ̀ⲑⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ : ϣⲁ ⲉ̀ⲛⲉϩ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ⲛⲉϩ ⲧⲏⲣⲟⲩ : ⲁ̀ⲙⲏⲛ.",
+            "",
+            ""
+        ],
+        [
+            Prefix.same +"&C=Diacon",
+            "",
+            Prefix.readingRef +"LAM:1:1-2/1:3-3/1:4-4",
+            Prefix.readingRef +"LAM:1:1-2/1:3-3/1:4-4"
+        ],
+        [
+            Prefix.same +"&C=Title",
             " Sophonie (3: 11-20)"
         ],
-        [Prefix.same + '&C=ReadingIntro',
-            "Missing Reading Intro",
-            "Missing Reading Intro",
-            "Missing Reading Intro",
+        [
+            Prefix.same +"&C=ReadingIntro",
+            "Ⲉⲃⲟⲗϧⲉⲛ Ⲥⲟⲫⲟⲛⲓⲁⲥ ⲡⲓⲡⲣⲟⲫⲏⲧⲏⲥ : ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̅ⲑ̅ⲩ̅ : ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ",
+            "",
+            ""
         ],
         [
-            Prefix.same + "&C=Diacon",
+            Prefix.same +"&C=ReadingIntro",
+            "Ⲛⲁⲓ ⲛⲏⲉ̀ⲧⲉ ~Ⲡϭⲟⲓⲥ ϫⲱ ⲙ̀ⲙⲟⲥ: ϫⲉ ϧⲉⲛ ⲡⲓⲥⲏⲟⲩ ⲉ̀ⲧⲉⲙⲙⲁⲩ ϯⲛⲁⲱ̀ⲗⲓ ⲉ̀ⲃⲟⲗⲁⲣⲟ ⲛ̀ⲛⲓⲙⲉⲧⲣⲉϥϯϣⲱϣ ⲛ̀ⲧⲉ ⲡⲉϣⲱϣ.",
             "",
-            Prefix.readingRef + "ZEP:3:11-13/3:14-15/3:16-17/3:18-20",
-            Prefix.readingRef + "ZEP:3:11-13/3:14-15/3:16-17/3:18-20"
+            ""
+        ],
+        [
+            Prefix.same +"&C=ReadingIntro",
+            "Ⲟⲩⲱ̀ⲟⲩ ⲛ̀Ϯⲧ̀ⲣⲓⲁⲥ ⲉ̀ⲑⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ : ϣⲁ ⲉ̀ⲛⲉϩ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ⲛⲉϩ ⲧⲏⲣⲟⲩ : ⲁ̀ⲙⲏⲛ.",
+            "",
+            ""
+        ],
+        [
+            Prefix.same +"&C=Diacon",
+            "",
+            Prefix.readingRef +"ZEP:3:11-13/3:14-15/3:16-17/3:18-20",
+            Prefix.readingRef +"ZEP:3:11-13/3:14-15/3:16-17/3:18-20"
         ]
     ],
     [
@@ -228,10 +254,23 @@ ReadingsArrays.GospelNightArrayFR = [
             Prefix.same + "&C=Title",
             "Isaïe (48: 12-22)"
         ],
-        [Prefix.same + '&C=ReadingIntro',
-            "Missing Reading Intro",
-            "Missing Reading Intro",
-            "Missing Reading Intro",
+        [
+            Prefix.same + "&C=ReadingIntro",
+            "Ⲉⲃⲟⲗϧⲉⲛ Ⲏ̀ⲥⲁⲏ̀ⲁⲥ ⲡⲓⲡⲣⲟⲫⲏⲧⲏⲥ : ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̅ⲑ̅ⲩ̅ : ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ",
+            "",
+            ""
+        ],
+        [
+            Prefix.same + "&C=ReadingIntro",
+            "Ⲥⲱⲧⲉⲙ ⲉ̀ⲣⲟⲓ Ⲓⲁⲕⲱⲃ ⲟⲩⲟ Ⲡⲓⲥⲣⲁⲏⲗ ⲉ̀ϯⲙⲟⲩϯ ⲉ̀ⲣⲟϥ ⲁ̀ⲛⲟⲕ ⲡⲉ ⲡⲓϣⲟⲣⲡ ⲟⲩⲟ ⲁ̀ⲛⲟⲕ ⲟⲛ ⲡⲉ ⲡⲓϣⲁⲉ̀ⲛⲉ. Ⲟⲩⲟ ⲧⲁϫⲓϫ ⲑⲏⲉ̀ⲧⲁⲥ ⲓⲥⲉⲛϯ ⲙ̀ⲡⲓⲕⲁⲓ ⲟⲩⲟ ⲧⲁⲟⲩⲓ̀ⲛⲁⲙ ⲑⲏⲉ̀ⲧⲁⲥ ⲧⲁϫⲣⲉ ⲧ̀ⲫⲉ.",
+            "",
+            ""
+        ],
+        [
+            Prefix.same + "&C=ReadingIntro",
+            "Ⲟⲩⲱ̀ⲟⲩ ⲛ̀Ϯⲧ̀ⲣⲓⲁⲥ ⲉ̀ⲑⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ : ϣⲁ ⲉ̀ⲛⲉϩ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ⲛⲉϩ ⲧⲏⲣⲟⲩ : ⲁ̀ⲙⲏⲛ.",
+            "",
+            ""
         ],
         [
             Prefix.same + "&C=Diacon",
@@ -243,10 +282,23 @@ ReadingsArrays.GospelNightArrayFR = [
             Prefix.same + "&C=Title",
             "Nahum (1: 2-8)"
         ],
-        [Prefix.same + '&C=ReadingIntro',
-            "Missing Reading Intro",
-            "Missing Reading Intro",
-            "Missing Reading Intro",
+        [
+            Prefix.same + "&C=ReadingIntro",
+            "Ⲉⲃⲟⲗϧⲉⲛ Ⲛⲁϩⲱⲙ ⲡⲓⲡⲣⲟⲫⲏⲧⲏⲥ : ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̅ⲑ̅ⲩ̅ : ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ",
+            "",
+            ""
+        ],
+        [
+            Prefix.same + "&C=ReadingIntro",
+            "Ⲟⲩⲛⲟⲩϯ ⲛⲣⲉϥⲟ ⲟⲩⲟ ⲛϭⲣⲉϥϭⲓ ⲙⲡϣⲓϣ ⲡⲉ Ⲡⲟ̅ⲥ̅: ϧⲉⲛ ⲟⲩⲙⲃⲟⲛ ϥⲛⲁϭⲓ ⲙⲡϣⲓϣ ⲛϫⲉ Ⲡⲟ̅ⲥ̅ ϧⲉⲛ ⲛⲏⲉⲧϯⲟⲩⲃⲏϥ ⲟⲩⲟ ⲛⲑⲟϥ ⲉϥⲉϥⲱϯ ⲛⲛⲉϥϫⲁϫⲓ ⲉⲃⲟⲗ",
+            "",
+            ""
+        ],
+        [
+            Prefix.same + "&C=ReadingIntro",
+            "Ⲟⲩⲱ̀ⲟⲩ ⲛ̀Ϯⲧ̀ⲣⲓⲁⲥ ⲉ̀ⲑⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ : ϣⲁ ⲉ̀ⲛⲉϩ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ⲛⲉϩ ⲧⲏⲣⲟⲩ : ⲁ̀ⲙⲏⲛ.",
+            "",
+            ""
         ],
         [
             Prefix.same + "&C=Diacon",
@@ -435,22 +487,34 @@ ReadingsArrays.GospelNightArrayFR = [
     ],
     [
         [
-            Prefix.HolyWeek + "3HEProphecies&D=GL7thSunday",
+           Prefix.HolyWeek + "3HEProphecies&D=GL7thSunday"
         ],
         [
             Prefix.same + "&C=Title"
         ],
         [
-            Prefix.HolyWeek + "3HEProphecies&D=GL7thSunday&C=Diacon",
-            "Ebolqen Covoniac piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \n'ent `ènje `èp`èeoou `èmP_ pini]; > `èf'ent ouo `èfihc `èema]w > `èt`ècmh `èm`èp`èeoou `èmP_ `ècen]a]i ouo `ècna]t auqa]q ecjor.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
+            Prefix.same + "&C=ReadingIntro",
+            "Ⲉⲃⲟⲗϧⲉⲛ Ⲥⲟⲫⲟⲛⲓⲁⲥ ⲡⲓⲡⲣⲟⲫⲏⲧⲏⲥ : ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̅ⲑ̅ⲩ̅ : ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ ",
             "",
             ""
         ],
         [
-            Prefix.same + "&C=Diacon",
+            Prefix.same + "&C=ReadingIntro",
+            "ϧⲉⲛⲧ ⲛ̀ϫⲉ ⲡ̀ⲉ̀ⲟⲟⲩ ⲙ̀Ⲡ⳪ ⲡⲓⲛⲓϣϯ : ϥ̀ϧⲉⲛⲧ ⲟⲩⲟ ϥ̀ⲓⲏⲥ ⲉ̀ⲙⲁϣⲱ : ⲧ̀ⲥ̀ⲙⲏ ⲙ̀ⲡ̀ⲉ̀ⲟⲟⲩ ⲙ̀Ⲡ⳪ ⲥ̀ⲉⲛϣⲁϣⲓ ⲟⲩⲟ ⲥ̀ⲛⲁϣⲧ ⲁⲩⲑⲁϣⲑ ⲉⲥϫⲟⲣ.",
             "",
-            Prefix.readingRef + "ZEP:1:14-16/1:17-18/2:1-2",
-            Prefix.readingRef + "ZEP:1:14-16/1:17-18/2:1-2"
+            ""
+        ],
+        [
+            Prefix.same + "&C=ReadingIntro",
+            "Ⲟⲩⲱ̀ⲟⲩ ⲛ̀Ϯⲧ̀ⲣⲓⲁⲥ ⲉ̀ⲑⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ : ϣⲁ ⲉ̀ⲛⲉϩ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ⲛⲉϩ ⲧⲏⲣⲟⲩ : ⲁ̀ⲙⲏⲛ.",
+            "",
+            ""
+        ],
+        [
+                Prefix.same + "&C=Diacon",
+                "",
+                Prefix.readingRef + "ZEP:1:14-16/1:17-18/2:1-2",
+                Prefix.readingRef + "ZEP:1:14-16/1:17-18/2:1-2"
         ]
     ],
     [
@@ -515,8 +579,20 @@ ReadingsArrays.GospelNightArrayFR = [
             Prefix.same + "&C=Title"
         ],
         [
-            Prefix.HolyWeek + "6HEProphecies&D=GL7thSunday&C=Diacon",
-            "Ebolqen Iouyl piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nArinumvin nhetqa'i `èebol 'en `èphrp > ouo rimi `èarihbi nh throu etcw `èmpihrp euqa'i > je au`èwli `èebol'en rwten `èm`èpounof nem `èvra]i.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
+            Prefix.same + "&C=ReadingIntro",
+            "Ⲉⲃⲟⲗϧⲉⲛ Ⲓⲟⲩⲏⲗ ⲡⲓⲡⲣⲟⲫⲏⲧⲏⲥ : ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̅ⲑ̅ⲩ̅ : ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ ",
+            "",
+            ""
+        ],
+        [
+            Prefix.same + "&C=ReadingIntro",
+            "Ⲁⲣⲓⲛⲩⲙⲫⲓⲛ ⲛⲏⲉⲧⲑⲁϧⲓ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲡ̀ⲏⲣⲡ : ⲟⲩⲟ ⲣⲓⲙⲓ ⲁ̀ⲣⲓⲏⲃⲓ ⲛⲏ ⲧⲏⲣⲟⲩ ⲉⲧⲥⲱ ⲙ̀ⲡⲓⲏⲣⲡ ⲉⲩⲑⲁϧⲓ : ϫⲉ ⲁⲩⲱ̀ⲗⲓ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲣⲱⲧⲉⲛ ⲙ̀ⲡ̀ⲟⲩⲛⲟϥ ⲛⲉⲙ ⲫ̀ⲣⲁϣⲓ.",
+            "",
+            ""
+        ],
+        [
+            Prefix.same + "&C=ReadingIntro",
+            "Ⲟⲩⲱ̀ⲟⲩ ⲛ̀Ϯⲧ̀ⲣⲓⲁⲥ ⲉ̀ⲑⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ : ϣⲁ ⲉ̀ⲛⲉϩ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ⲛⲉϩ ⲧⲏⲣⲟⲩ : ⲁ̀ⲙⲏⲛ.",
             "",
             ""
         ],
@@ -583,22 +659,34 @@ ReadingsArrays.GospelNightArrayFR = [
     ],
     [
         [
-            Prefix.HolyWeek + "9HEProphecies&D=GL7thSunday",
+            Prefix.HolyWeek +"9HEProphecies&D=GL7thSunday"
         ],
         [
-            Prefix.same + "&C=Title"
+            Prefix.same +"&C=Title"
         ],
         [
-            Prefix.HolyWeek + "9HEProphecies&D=GL7thSunday&C=Diacon",
-            "Ebolqen Mi,eac piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nEqbe vai nai ne nh`èetefjw `èmmwou `ènje P_ je hppe `èanok ;namokmek `èean petwou `èejen tai vulh > nai `èetetenna]wli an `ènnetenmo; `èebol `èn'htou > ouo `ènnetenmo]i `èeretencou twn `èènouo; 'en ouo; > je ouchou efwou pe.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
+            Prefix.same +"&C=ReadingIntro",
+            "Ⲉⲃⲟⲗϧⲉⲛ Ⲙⲓⲭⲉⲁⲥ ⲡⲓⲡⲣⲟⲫⲏⲧⲏⲥ : ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̅ⲑ̅ⲩ̅ : ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ ",
             "",
             ""
         ],
         [
-            Prefix.same + "&C=Diacon",
+            Prefix.same +"&C=ReadingIntro",
+            "Ⲉⲑⲃⲉ ⲫⲁⲓ ⲛⲁⲓ ⲛⲉ ⲛⲏⲉ̀ⲧⲉϥϫⲱ ⲙ̀ⲙⲱⲟⲩ ⲛ̀ϫⲉ Ⲡ⳪ ϫⲉ ⲏⲡⲡⲉ ⲁ̀ⲛⲟⲕ ϯⲛⲁⲙⲟⲕⲙⲉⲕ ⲉ̀ⲁⲛ ⲡⲉⲧⲱⲟⲩ ⲉ̀ϫⲉⲛ ⲧⲁⲓ ⲫⲩⲗⲏ : ⲛⲁⲓ ⲉ̀ⲧⲉⲧⲉⲛⲛⲁϣⲱⲗⲓ ⲁⲛ ⲛ̀ⲛⲉⲧⲉⲛⲙⲟϯ ⲉ̀ⲃⲟⲗ ⲛ̀ϧⲏⲧⲟⲩ : ⲟⲩⲟ ⲛ̀ⲛⲉⲧⲉⲛⲙⲟϣⲓ ⲉ̀ⲣⲉⲧⲉⲛⲥⲟⲩ ⲧⲱⲛ è̀ⲛⲟⲩⲟϯ ϧⲉⲛ ⲟⲩⲟϯ : ϫⲉ ⲟⲩⲥⲏⲟⲩ ⲉϥⲱⲟⲩ ⲡⲉ.",
             "",
-            Prefix.readingRef + "MIC:2:3-4/2:5-5/2:6-7/2:8-9/2:10-10",
-            Prefix.readingRef + "MIC:2:3-4/2:5-5/2:6-7/2:8-9/2:10-10"
+            ""
+        ],
+        [
+            Prefix.same +"&C=ReadingIntro",
+            "Ⲟⲩⲱ̀ⲟⲩ ⲛ̀Ϯⲧ̀ⲣⲓⲁⲥ ⲉ̀ⲑⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ : ϣⲁ ⲉ̀ⲛⲉϩ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ⲛⲉϩ ⲧⲏⲣⲟⲩ : ⲁ̀ⲙⲏⲛ.",
+            "",
+            ""
+        ],
+        [
+            Prefix.same +"&C=Diacon",
+            "",
+            Prefix.readingRef +"MIC:2:3-4/2:5-5/2:6-7/2:8-9/2:10-10",
+            Prefix.readingRef +"MIC:2:3-4/2:5-5/2:6-7/2:8-9/2:10-10"
         ]
     ],
     [
@@ -675,22 +763,34 @@ ReadingsArrays.GospelNightArrayFR = [
     ],
     [
         [
-            Prefix.HolyWeek + "11HEProphecies&D=GL7thSunday"
+            Prefix.HolyWeek +"11HEProphecies&D=GL7thSunday"
         ],
         [
-            Prefix.same + "&C=Title"
+            Prefix.same +"&C=Title"
         ],
         [
-            Prefix.same + "&C=Diacon",
-            "Ebolqen Mi,eac piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nP_ de ef`èesimwit nwou ouo ef`èejoc je cwtem `èenai niarxwn `ènte `èphi `ènIakwb nem nicwtp `ènte `èphi `èmPi/c/l/.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
+            Prefix.same +"&C=ReadingIntro",
+            "Ⲉⲃⲟⲗϧⲉⲛ Ⲙⲓⲭⲉⲁⲥ ⲡⲓⲡⲣⲟⲫⲏⲧⲏⲥ : ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̅ⲑ̅ⲩ̅ : ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ ",
             "",
             ""
         ],
         [
-            Prefix.same + "&C=Diacon",
+            Prefix.same +"&C=ReadingIntro",
+            "Ⲡ⳪ ⲇⲉ ⲉϥⲉ̀ϭⲓⲙⲱⲓⲧ ⲛⲱⲟⲩ ⲟⲩⲟ ⲉϥⲉ̀ϫⲟⲥ ϫⲉ ⲥⲱⲧⲉⲙ ⲉ̀ⲛⲁⲓ ⲛⲓⲁⲣⲭⲱⲛ ⲛ̀ⲧⲉ ⲡ̀ⲏⲓ ⲛ̀Ⲓⲁⲕⲱⲃ ⲛⲉⲙ ⲛⲓⲥⲱⲧⲡ ⲛ̀ⲧⲉ ⲡ̀ⲏⲓ ⲙ̀Ⲡⲓ̅ⲥ̅ⲗ̅.",
             "",
-            Prefix.readingRef + "MIC:3:1-2/3:3-4",
-            Prefix.readingRef + "MIC:3:1-2/3:3-4"
+            ""
+        ],
+        [
+            Prefix.same +"&C=ReadingIntro",
+            "Ⲟⲩⲱ̀ⲟⲩ ⲛ̀Ϯⲧ̀ⲣⲓⲁⲥ ⲉ̀ⲑⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ : ϣⲁ ⲉ̀ⲛⲉϩ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ⲛⲉϩ ⲧⲏⲣⲟⲩ : ⲁ̀ⲙⲏⲛ.",
+            "",
+            ""
+        ],
+        [
+            Prefix.same +"&C=Diacon",
+            "",
+            Prefix.readingRef +"MIC:3:1-2/3:3-4",
+            Prefix.readingRef +"MIC:3:1-2/3:3-4"
         ]
     ],
     [
@@ -701,7 +801,7 @@ ReadingsArrays.GospelNightArrayFR = [
             "مزمور الساعة الحادية عشر من ليلة الإثنين"
         ],
         [
-            Prefix.HolyWeek + "11HEPsalm&D=GL7thSunday&C=Diacon",
+            Prefix.same + "&C=Diacon",
             "Yalmoc  to Dauid\nEf`èenamet `èebol `èntotou `ènnajaji etjor > nem `èebol `èntotou `ènnheqmoc; `mmoi > je autajro `èeoteroi auer]orp `èeroi 'en `èp`èeoou `ènte pa`ètemko : allhloui`a",
             "Psaume 17 : 16,17\nIl me délivre d’un puissant ennemi, d’adversaires plus forts que moi. Au jour de ma défaite ils m'attendaient. Alléluia",
             "مزمور ١٧ : ١٦ ،١٧\nنجني من أعدائي الأقوياء ومن أيدي الذين يبغضونني. لأَنَّهُمْ تقووا أكثر مني. أدركوني في يوم ضري. الليلويا"
@@ -4642,7 +4742,7 @@ ReadingsArrays.GospelNightArrayFR = [
         ],
         [
             Prefix.same + "&C=ReadingIntro",
-            "Ⲉⲃⲟⲗϧⲉⲛ Ⲁⲙⲟⲥ ⲡⲓⲡⲣⲟⲫⲏⲧⲏⲥ : ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̅ⲑ̅ⲩ̅ : ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ",
+            "Ⲉⲃⲟⲗϧⲉⲛ Ⲁ̀ⲙⲟⲥ ⲡⲓⲡⲣⲟⲫⲏⲧⲏⲥ : ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̅ⲑ̅ⲩ̅ : ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ",
             "",
             ""
         ],
@@ -5747,15 +5847,27 @@ ReadingsArrays.GospelNightArrayFR = [
     ],
     [
         [
-            Prefix.HolyWeek + "LakanProphecies&D=GL55&C=Diacon"
+            Prefix.HolyWeek + "LakanProphecies&D=GL55"
         ],
         [
             Prefix.same + "&C=Title",
             "تكوين ١٨: ١ - ٢٣"
         ],
         [
-            Prefix.same + "&C=Diacon",
-            "Ebolqen ]genecic `nte Mw`ucyc piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nA Vnou; de  ouon `èerof  ‘'aten  pi`è]]hn  `ènte  Mambrh  efemci  iren  `èvro  `ète tefckunh  `èm`èvnau  `èmmeri.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
+            Prefix.same + "&C=ReadingIntro",
+            "Ⲉⲃⲟⲗϧⲉⲛ ϯⲅⲉⲛⲉⲥⲓⲥ ⲛ̀ⲧⲉ Ⲙⲱⲩ̀ⲥⲏⲥ ⲡⲓⲡⲣⲟⲫⲏⲧⲏⲥ : ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̅ⲑ̅ⲩ̅ : ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ ",
+            "",
+            ""
+        ],
+        [
+            Prefix.same + "&C=ReadingIntro",
+            "Ⲁ Ⲫⲛⲟⲩϯ ⲇⲉ ⲟⲩⲟⲛ ⲉ̀ⲣⲟϥ ‘ϧⲁⲧⲉⲛ ⲡⲓϣ̀ϣⲏⲛ ⲛ̀ⲧⲉ Ⲙⲁⲙⲃⲣⲏ ⲉϥⲉⲙⲥⲓ ⲓⲣⲉⲛ ⲫ̀ⲣⲟ ⲧ̀ⲉ ⲧⲉϥⲥⲕⲩⲛⲏ ⲙ̀ⲫ̀ⲛⲁⲩ ⲙ̀ⲙⲉⲣⲓ.",
+            "",
+            ""
+        ],
+        [
+            Prefix.same + "&C=ReadingIntro",
+            "Ⲟⲩⲱ̀ⲟⲩ ⲛ̀Ϯⲧ̀ⲣⲓⲁⲥ ⲉ̀ⲑⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ : ϣⲁ ⲉ̀ⲛⲉϩ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ⲛⲉϩ ⲧⲏⲣⲟⲩ : ⲁ̀ⲙⲏⲛ.",
             "",
             ""
         ],
@@ -5764,11 +5876,23 @@ ReadingsArrays.GospelNightArrayFR = [
         ],
         [
             Prefix.same + "&C=Title",
-            "Proverbes  9 : 1-11"
+            "Proverbes 9 : 1-11"
         ],
         [
-            Prefix.same + "&C=Diacon",
-            "Ebolqen Niparoimi`a `nte Colomwn piprovytyc@ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nA ;covi`èa kwt nac `ènouhi ouo actajroc `èn]a]f `ènctuloc 'arof.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn. ",
+            Prefix.same + "&C=ReadingIntro",
+            "Ⲉⲃⲟⲗϧⲉⲛ Ⲛⲓⲡⲁⲣⲟⲓⲙⲓⲁ̀ ⲛ̀ⲧⲉ Ⲥⲟⲗⲟⲙⲱⲛ ⲡⲓⲡⲣⲟⲫⲏⲧⲏⲥ: ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̅ⲑ̅ⲩ̅ : ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ ",
+            "",
+            ""
+        ],
+        [
+            Prefix.same + "&C=ReadingIntro",
+            "Ⲁ ϯⲥⲟⲫⲓⲁ̀ ⲕⲱⲧ ⲛⲁⲥ ⲛ̀ⲟⲩⲏⲓ ⲟⲩⲟ ⲁⲥⲧⲁϫⲣⲟⲥ ⲛ̀ϣⲁϣϥ ⲛ̀ⲥⲧⲩⲗⲟⲥ ϧⲁⲣⲟϥ.",
+            "",
+            ""
+        ],
+        [
+            Prefix.same + "&C=ReadingIntro",
+            "Ⲟⲩⲱ̀ⲟⲩ ⲛ̀Ϯⲧ̀ⲣⲓⲁⲥ ⲉ̀ⲑⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ : ϣⲁ ⲉ̀ⲛⲉϩ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ⲛⲉϩ ⲧⲏⲣⲟⲩ : ⲁ̀ⲙⲏⲛ. ",
             "",
             ""
         ],
@@ -5780,8 +5904,20 @@ ReadingsArrays.GospelNightArrayFR = [
             "Exode 14 : 22 à 15 : 1"
         ],
         [
-            Prefix.same + "&C=Diacon",
-            "Ebolqen pidoxodoc `nte Mw`ucyc piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nQen `èpjin`èqre Picl ? erjinior `èm`èviom `èn]ari > auwmi `ènnousalau `èejen `èviom.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
+            Prefix.same + "&C=ReadingIntro",
+            "Ⲉⲃⲟⲗϧⲉⲛ ⲡⲓⲇⲟⲝⲟⲇⲟⲥ ⲛ̀ⲧⲉ Ⲙⲱⲩ̀ⲥⲏⲥ ⲡⲓⲡⲣⲟⲫⲏⲧⲏⲥ : ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̅ⲑ̅ⲩ̅ : ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ ",
+            "",
+            ""
+        ],
+        [
+            Prefix.same + "&C=ReadingIntro",
+            "Ⲑⲉⲛ ⲡ̀ϫⲓⲛⲑ̀ⲣⲉ Ⲡⲓⲥⲗ ? ⲉⲣϫⲓⲛⲓⲟⲣ ⲙ̀ⲫ̀ⲓⲟⲙ ⲛ̀ϣⲁⲣⲓ : ⲁⲩⲱⲙⲓ ⲛ̀ⲛⲟⲩϭⲁⲗⲁⲩ ⲉ̀ϫⲉⲛ ⲫ̀ⲓⲟⲙ.",
+            "",
+            ""
+        ],
+        [
+            Prefix.same + "&C=ReadingIntro",
+            "Ⲟⲩⲱ̀ⲟⲩ ⲛ̀Ϯⲧ̀ⲣⲓⲁⲥ ⲉ̀ⲑⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ : ϣⲁ ⲉ̀ⲛⲉϩ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ⲛⲉϩ ⲧⲏⲣⲟⲩ : ⲁ̀ⲙⲏⲛ.",
             "",
             ""
         ],
@@ -5793,8 +5929,20 @@ ReadingsArrays.GospelNightArrayFR = [
             "Josué 1 :1 et 3 : 17"
         ],
         [
-            Prefix.same + "&C=Diacon",
-            "Ebolqen Iycou `nte Cira, piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nIhcou nem pilaoc thrf auerjinior `èmpiIordanhc. \nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
+            Prefix.same + "&C=ReadingIntro",
+            "Ⲉⲃⲟⲗϧⲉⲛ Ⲓⲏⲥⲟⲩ ⲛ̀ⲧⲉ Ⲥⲓⲣⲁⲭ ⲡⲓⲡⲣⲟⲫⲏⲧⲏⲥ : ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̅ⲑ̅ⲩ̅ : ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ ",
+            "",
+            ""
+        ],
+        [
+            Prefix.same + "&C=ReadingIntro",
+            "Ⲓⲏⲥⲟⲩ ⲛⲉⲙ ⲡⲓⲗⲁⲟⲥ ⲧⲏⲣϥ ⲁⲩⲉⲣϫⲓⲛⲓⲟⲣ ⲙ̀ⲡⲓⲒⲟⲣⲇⲁⲛⲏⲥ. ",
+            "",
+            ""
+        ],
+        [
+            Prefix.same + "&C=ReadingIntro",
+            "Ⲟⲩⲱ̀ⲟⲩ ⲛ̀Ϯⲧ̀ⲣⲓⲁⲥ ⲉ̀ⲑⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ : ϣⲁ ⲉ̀ⲛⲉϩ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ⲛⲉϩ ⲧⲏⲣⲟⲩ : ⲁ̀ⲙⲏⲛ.",
             "",
             ""
         ],
@@ -5806,8 +5954,20 @@ ReadingsArrays.GospelNightArrayFR = [
             "Esaïe 55 : 1 - 56 : 1"
         ],
         [
-            Prefix.same + "&C=Diacon",
-            "Ebolqen `Yca`yac piprovytyc@ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nNhet`èobi ma]enwten `ènca mwou ouo nh`èete `èmmontou at ma]enwten ]wp ouo cw `ènoue]en at ouo oucouen ouhrp ouo ouwt. \nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
+            Prefix.same + "&C=ReadingIntro",
+            "Ⲉⲃⲟⲗϧⲉⲛ Ⲏ̀ⲥⲁⲏ̀ⲁⲥ ⲡⲓⲡⲣⲟⲫⲏⲧⲏⲥ: ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̅ⲑ̅ⲩ̅ : ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ ",
+            "",
+            ""
+        ],
+        [
+            Prefix.same + "&C=ReadingIntro",
+            "Ⲛⲏⲉⲧⲟ̀ⲃⲓ ⲙⲁϣⲉⲛⲱⲧⲉⲛ ⲛ̀ⲥⲁ ⲙⲱⲟⲩ ⲟⲩⲟ ⲛⲏⲉ̀ⲧⲉ ⲙ̀ⲙⲟⲛⲧⲟⲩ ⲁⲧ ⲙⲁϣⲉⲛⲱⲧⲉⲛ ϣⲱⲡ ⲟⲩⲟ ⲥⲱ ⲛ̀ⲟⲩⲉϣⲉⲛ ⲁⲧ ⲟⲩⲟ ⲟⲩⲥⲟⲩⲉⲛ ⲟⲩⲏⲣⲡ ⲟⲩⲟ ⲟⲩⲱⲧ. ",
+            "",
+            ""
+        ],
+        [
+            Prefix.same + "&C=ReadingIntro",
+            "Ⲟⲩⲱ̀ⲟⲩ ⲛ̀Ϯⲧ̀ⲣⲓⲁⲥ ⲉ̀ⲑⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ : ϣⲁ ⲉ̀ⲛⲉϩ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ⲛⲉϩ ⲧⲏⲣⲟⲩ : ⲁ̀ⲙⲏⲛ.",
             "",
             ""
         ],
@@ -5819,8 +5979,20 @@ ReadingsArrays.GospelNightArrayFR = [
             "Ezéchiel 47 : 1-9"
         ],
         [
-            Prefix.same + "&C=Diacon",
-            "Ebolqen Iezekiyl piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nOuo afolt `èe'oun `èe`è\ren piro `èmpihi hppe ic oumwou efnhou `èebol capeiebt `èmpi`èrion canica `èn`èeiebt. \nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
+            Prefix.same + "&C=ReadingIntro",
+            "Ⲉⲃⲟⲗϧⲉⲛ Ⲓⲉⲍⲉⲕⲓⲏⲗ ⲡⲓⲡⲣⲟⲫⲏⲧⲏⲥ : ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̅ⲑ̅ⲩ̅ : ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ ",
+            "",
+            ""
+        ],
+        [
+            Prefix.same + "&C=ReadingIntro",
+            "Ⲟⲩⲟ ⲁϥⲟⲗⲧ ⲉ̀ϧⲟⲩⲛ ⲉ̀undefined̀\nⲉⲛ ⲡⲓⲣⲟ ⲙ̀ⲡⲓⲏⲓ ⲏⲡⲡⲉ ⲓⲥ ⲟⲩⲙⲱⲟⲩ ⲉϥⲛⲏⲟⲩ ⲉ̀ⲃⲟⲗ ⲥⲁⲡⲉⲓⲉⲃⲧ ⲙ̀ⲡⲓⲣ̀ⲓⲟⲛ ⲥⲁⲛⲓⲥⲁ ⲛ̀ⲉ̀ⲓⲉⲃⲧ. ",
+            "",
+            ""
+        ],
+        [
+            Prefix.same + "&C=ReadingIntro",
+            "Ⲟⲩⲱ̀ⲟⲩ ⲛ̀Ϯⲧ̀ⲣⲓⲁⲥ ⲉ̀ⲑⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ : ϣⲁ ⲉ̀ⲛⲉϩ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ⲛⲉϩ ⲧⲏⲣⲟⲩ : ⲁ̀ⲙⲏⲛ.",
             "",
             ""
         ],
@@ -5895,17 +6067,26 @@ ReadingsArrays.GospelNightArrayFR = [
     [
         [
             Prefix.HolyWeek + "11HMProphecies&D=GL55",
-            "Prophecies de la Onzième heure du jeudi",
-            "Prophéties de la Onzième heure du jeudi",
-            "نبوات الساعة الحادية عشر من يوم الخميس"
         ],
         [
             Prefix.same + "&C=Title",
             "Isaïe 52 : 13 à 53 : 12"
         ],
         [
-            Prefix.same + "&C=Diacon",
-            "Ebolqen `Yca`yac piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nHhppe ef`èeka; `ènje pa`èadou > ef`èesici ouo èef`èesi`èwou `èema]w.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
+            Prefix.same + "&C=ReadingIntro",
+            "Ⲉⲃⲟⲗϧⲉⲛ Ⲏ̀ⲥⲁⲏ̀ⲁⲥ ⲡⲓⲡⲣⲟⲫⲏⲧⲏⲥ : ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̅ⲑ̅ⲩ̅ : ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ ",
+            "",
+            ""
+        ],
+        [
+            Prefix.same + "&C=ReadingIntro",
+            "Ⲏⲏⲡⲡⲉ ⲉϥⲉ̀ⲕⲁϯ ⲛ̀ϫⲉ ⲡⲁⲁ̀ⲇⲟⲩ : ⲉϥⲉ̀ϭⲓⲥⲓ ⲟⲩⲟ èⲉϥⲉ̀ϭⲓⲱ̀ⲟⲩ ⲉ̀ⲙⲁϣⲱ.",
+            "",
+            ""
+        ],
+        [
+            Prefix.same + "&C=ReadingIntro",
+            "Ⲟⲩⲱ̀ⲟⲩ ⲛ̀Ϯⲧ̀ⲣⲓⲁⲥ ⲉ̀ⲑⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ : ϣⲁ ⲉ̀ⲛⲉϩ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ⲛⲉϩ ⲧⲏⲣⲟⲩ : ⲁ̀ⲙⲏⲛ.",
             "",
             ""
         ],
@@ -5920,8 +6101,20 @@ ReadingsArrays.GospelNightArrayFR = [
             "Isaïe 19 : 19-25"
         ],
         [
-            Prefix.same + "&C=Diacon",
-            "Ebolqen `Yca`yac piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nQen pi`èeoou `èete `èmmau oun ouquciac thrion na]wpi `èmP_ 'en Xhmi ouo ou`ècthllh at `èmpecto] `èèmP_.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
+            Prefix.same + "&C=ReadingIntro",
+            "Ⲉⲃⲟⲗϧⲉⲛ Ⲏ̀ⲥⲁⲏ̀ⲁⲥ ⲡⲓⲡⲣⲟⲫⲏⲧⲏⲥ : ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̅ⲑ̅ⲩ̅ : ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ ",
+            "",
+            ""
+        ],
+        [
+            Prefix.same + "&C=ReadingIntro",
+            "Ⲑⲉⲛ ⲡⲓⲉ̀ⲟⲟⲩ ⲉ̀ⲧⲉ ⲙ̀ⲙⲁⲩ ⲟⲩⲛ ⲟⲩⲑⲩⲥⲓⲁⲥ ⲧⲏⲣⲓⲟⲛ ⲛⲁϣⲱⲡⲓ ⲙ̀Ⲡ⳪ ϧⲉⲛ Ⲭⲏⲙⲓ ⲟⲩⲟ ⲟⲩⲥ̀ⲧⲏⲗⲗⲏ ⲁⲧ ⲙ̀ⲡⲉⲥⲧⲟϣ è̀ⲙⲠ⳪.",
+            "",
+            ""
+        ],
+        [
+            Prefix.same + "&C=ReadingIntro",
+            "Ⲟⲩⲱ̀ⲟⲩ ⲛ̀Ϯⲧ̀ⲣⲓⲁⲥ ⲉ̀ⲑⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ : ϣⲁ ⲉ̀ⲛⲉϩ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ⲛⲉϩ ⲧⲏⲣⲟⲩ : ⲁ̀ⲙⲏⲛ.",
             "",
             ""
         ],
@@ -5936,8 +6129,20 @@ ReadingsArrays.GospelNightArrayFR = [
             "زكريا ١٢: ١١ إلخ و١٤ : ١ - ٣ و ٦ - ٩"
         ],
         [
-            Prefix.same + "&C=Diacon",
-            "Ebolqen Za,ariac piprovytyc @ `erepef`cmou =e=;=u @ swpi neman `amyn efjw `mmoc \nQen pi`eoou `èete`mmau `èfna`a]ai `ènje `èmpnepi `ènIlh?m ? ouo ne `èmpikwri  `nouman erman eukwri `mmof 'en `ètcw]i.\nOu`wou `n}`triac `e;ouab pennou] @ sa `eneh nem sa `eneh `nte ni`eneh tyrou @ `amyn.",
+            Prefix.same + "&C=ReadingIntro",
+            "Ⲉⲃⲟⲗϧⲉⲛ Ⲍⲁⲭⲁⲣⲓⲁⲥ ⲡⲓⲡⲣⲟⲫⲏⲧⲏⲥ : ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̅ⲑ̅ⲩ̅ : ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ ",
+            "",
+            ""
+        ],
+        [
+            Prefix.same + "&C=ReadingIntro",
+            "Ⲑⲉⲛ ⲡⲓⲉ̀ⲟⲟⲩ ⲉ̀ⲧⲉⲙ̀ⲙⲁⲩ ϥ̀ⲛⲁⲁ̀ϣⲁⲓ ⲛ̀ϫⲉ ⲙ̀ⲡⲛⲉⲡⲓ ⲛ̀Ⲓⲗⲏ?ⲙ ? ⲟⲩⲟ ⲛⲉ ⲙ̀ⲡⲓⲕⲱⲣⲓ ⲛ̀ⲟⲩⲙⲁⲛ ⲉⲣⲙⲁⲛ ⲉⲩⲕⲱⲣⲓ ⲙ̀ⲙⲟϥ ϧⲉⲛ ⲧ̀ⲥⲱϣⲓ.",
+            "",
+            ""
+        ],
+        [
+            Prefix.same + "&C=ReadingIntro",
+            "Ⲟⲩⲱ̀ⲟⲩ ⲛ̀Ϯⲧ̀ⲣⲓⲁⲥ ⲉ̀ⲑⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ : ϣⲁ ⲉ̀ⲛⲉϩ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ⲛⲉϩ ⲧⲏⲣⲟⲩ : ⲁ̀ⲙⲏⲛ.",
             "",
             ""
         ],
