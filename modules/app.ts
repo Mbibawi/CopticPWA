@@ -91,6 +91,7 @@ async function startApp() {
  * Checks the app version 
  */
 async function checkVersion(update:string = '') {
+  return;
   if (update) return updateLocalStorage(update);
   const resp = await fetch('./version.json');
   if (!resp.ok) return;
@@ -1384,7 +1385,7 @@ function showPrayers(args: {
 
   function processTables(): HTMLDivElement[] {
     //We will return an HTMLDivElement[] of all the divs that will be created from wordTable
-    let htmlDivs: HTMLDivElement[] = [];
+    const htmlDivs: HTMLDivElement[] = [];
     let entireTable: string[][],
       dataGroup: string,
       dataRoot: string;
@@ -2751,7 +2752,7 @@ function splitTitle(title: string): string[] {
  * @returns {string}
  */
 function Title(table: string[][]): string {
-  return table[0][0]
+  return table?.[0]?.[0]
 }
 /**
  * Hides the current slide, and unhides the next or previous slide based on the value of 'next'

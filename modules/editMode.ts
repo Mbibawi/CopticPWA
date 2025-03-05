@@ -1770,6 +1770,7 @@ async function _FixPropheciesIntroductionOrPsalm() {
     await processPropheciesTable()
   else if (title.includes('Psalm&D='))
     await processPsalmTable();
+  else await processAnyTable();
 
   async function processPropheciesTable() {
     if (!table) return;
@@ -1803,26 +1804,30 @@ async function _FixPropheciesIntroductionOrPsalm() {
 
   async function processPsalmTable() {
     if (!table) return;
-    const row = table.find(row => row[0] === Prefix.same + "&C=Diacon");
-    console.log(`row =`, row);
-    const copticText = await _FixCopticText(undefined, row[1]) as string[];
-    const fr = row[2].split('\n').reverse();
-    const ar = row[3].split('\n').reverse();
-    console.log('converted coptic text = ', copticText);
-    copticText
-      .reverse()
-      .map((text, index) => table.splice(table.indexOf(row) + 1, 0, [Prefix.same + '&C=ReadingIntro', text, fr[index] || 'missing', ar[index] || 'missing']));
+    await processAnyTable();
+    table.forEach((row, index) => {
+      if (index < 1) return;
 
-    table.splice(table.indexOf(row), 1);
-    table.forEach(row =>
-      row.forEach((element, index) => {
-        if (element.startsWith(Prefix.same)) (row[index]) = element.replace(Prefix.same, "Prefix.same +\"");
-        if (element.startsWith(Prefix.HolyWeek)) row[index] = element.replace(Prefix.HolyWeek, "Prefix.HolyWeek +\"");
-        if (element.startsWith(Prefix.readingRef)) row[index] = element.replace(Prefix.readingRef, "Prefix.readingRef +\"");
-      }));
+      [1, 2, 3].forEach(i => distribute(row, row[i].split('\n'), i));
+    });
+    
+    function distribute(row:string[], splitted:string[], i:number) {
+      if(splitted.length !==2) return;
+      table[0][i] += '\n' + splitted[0];
+      row[i] = splitted[1];
+    }
 
-    console.log("modified table = ", table);
+  }
 
+  async function processAnyTable() {
+    if (!table) return;
+
+    for (let row of table){
+      const copticText = await _FixCopticText(undefined, row[1]) as string[];
+
+      row[1] = copticText.join('\n');
+    }
+        
   }
 }
 
@@ -10856,3 +10861,29 @@ function _FixArabicNumbers(prefix: string) {
   });
 
 } 
+
+function _FixHolyWeekGospelReferences(){
+  ReadingsArrays.GospelNightArrayFR.forEach(table => {
+    table.forEach((row,index)=>{
+      if(index<1) return
+      if(!row[0]?.endsWith('Diacon')) return;
+      if (!row[2]?.startsWith(Prefix.readingRef)) return;
+      table[index] = [row[2] + '&C=Diacon'];
+      console.log(table[index]);
+    });
+  })
+  saveOrExportArray(ReadingsArrays.GospelNightArrayFR, 'ReadingsArrays.GospelNightArrayFR', true, false);
+}
+
+function _FindMultipleReadingsReferencesInSameRow(){
+  const result = [];
+  Object.entries(ReadingsArrays).forEach(([name, array])=>{
+    array.forEach(table => {
+      //const found = table.find(row=>row.filter(el=>el.startsWith(Prefix.readingRef)).length>1);
+      const found = table.find(row => row.length > 1 && row.filter(el => el.startsWith(Prefix.readingRef)).length > 0);
+      if (found)
+        result.push(`Array name = ${name} & Table Title = ${Title(table)}`)
+    });
+  })
+  return result
+}

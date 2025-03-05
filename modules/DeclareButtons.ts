@@ -1332,10 +1332,10 @@ Btn.DayReadings = new Button({
         if (weekDay > 0) return;
         if (Btn.DayReadings.children?.includes(Btn.GospelNight)) return;
         Btn.DayReadings.children.push(Btn.GospelNight);
-        })();
+      })();
 
       (function ifWeAreNotSunday() {
-        if ([0,6].includes(weekDay)) return;
+        if ([0, 6].includes(weekDay)) return;
         //Also if we  are not a Sunday, we will remove the Night Gospel, if included
         Btn.DayReadings.children = Btn.DayReadings.children.filter((btn) => btn !== Btn.gospelNight);
 
@@ -2184,7 +2184,7 @@ Btn.IncenseMorning = new Button({
         docFragment,
         Prefix.anchor + "Prophecies", undefined, 'root'
       )[0];
-      
+
       const table = findTable(Prefix.prophecies + "&D=" + copticReadingsDate, ReadingsArrays.PropheciesDawnArrayFR);
 
       if (!table) return console.log("Didn't find Prophecies with the current date");
@@ -2201,7 +2201,7 @@ Btn.IncenseMorning = new Button({
           FR: 'Prophecies',
           EN: 'Prophecies',
         }
-        
+
         Prophecies.shift();//We remove the first row 
         Prophecies[0] = [Title(Prophecies), title[defaultLanguage], title[foreingLanguage] || ''].map(el => el + '/n' + Prophecies[0][langs.indexOf(defaultLanguage) + 1]);
 
@@ -2215,15 +2215,15 @@ Btn.IncenseMorning = new Button({
         if (!godHaveMercy) return console.log("Didn't find God Have Mercy for Great Lent");
 
         showPrayers({ table: godHaveMercy, languages: getLanguages(Prefix.incenseDawn), position: { beforeOrAfter: 'beforebegin', el: anchor }, clearContainerDiv: false, clearRightSideBar: false, container: docFragment });
-        
+
         (function removeRefrains() {
           //We will remove all the refrains except the 1st one
           const refrains = selectElementsByDataSet(
             docFragment,
             Prefix.incenseDawn + "GodHaveMercyOnUsRefrain&D=$Seasons.GreatLent")
             .filter((htmlRow) => htmlRow?.classList.contains("Title"));
-          
-            refrains.slice(1).forEach(htmlRow => htmlRow.remove());   
+
+          refrains.slice(1).forEach(htmlRow => htmlRow.remove());
         })();
       })();
     };
@@ -3348,7 +3348,8 @@ Btn.HW = new Button({
 
 
         async function hourBtnAfterShowPrayers(btn: Button, hour: string, dayPrayers: string[][][], label: typeBtnLabel) {
-          let titles: { Prophecies; Psalm; Gospel; Commentary; Sermony };
+          type readingTitle = { AR: string; FR: string, EN: string };
+          let titles: { Prophecies: readingTitle; Psalm: readingTitle; Gospel: readingTitle; Commentary: readingTitle; Sermony: readingTitle };
           (function generateTablesTitles() {
             titles = {
               Prophecies: {
@@ -3377,84 +3378,79 @@ Btn.HW = new Button({
                 EN: ' Sermony of the ',
               },
             };
-            Array.from(Object.entries(titles))
-              .forEach(entry => {
-                Array.from(Object.entries(entry[1]))
-                  .forEach(title => {
-                    titles[entry[0]][title[0]] = title[1] + label[title[0]]
-                  })
+            Object.values(titles)
+              .forEach((title) => {
+                title[defaultLanguage] += label.DL || '';
+                title[foreingLanguage] += label.FL || '';
               });
-
           })();
 
           await insertHourReadings();
 
           async function insertHourReadings() {
-            let readingsLangs = ['COP', 'FR', 'AR'];
-            type typeReading = { table: string[][], anchor: HTMLElement };
-            let readings: {
-              coptGospel: typeReading,
-              nonCopticGospel: typeReading,
-              coptPsalm: typeReading,
-              nonCopticPsalm: typeReading,
-              Commentary: typeReading,
-              Prophecies: typeReading,
-              Sermony: typeReading,
-              KhinEfran: typeReading,
-              Litany: typeReading
-            } = {
-              coptGospel: { table: undefined, anchor: undefined },
-              nonCopticGospel: { table: undefined, anchor: undefined },
-              coptPsalm: { table: undefined, anchor: undefined },
-              nonCopticPsalm: { table: undefined, anchor: undefined },
-              Commentary: { table: undefined, anchor: undefined },
-              Prophecies: { table: undefined, anchor: undefined },
-              Sermony: { table: undefined, anchor: undefined },
-              KhinEfran: { table: undefined, anchor: undefined },
-              Litany: { table: undefined, anchor: undefined },
+            const readingsLangs = ['COP', 'FR', 'AR'];
+            const holyweek = '&D=$Seasons.HolyWeek'
+            type typeReading = { table: string[][], anchor: HTMLElement, title: readingTitle };
+
+            const readings: { [index: string]: typeReading } = {
+              coptGospel: { table: undefined, anchor: undefined, title: undefined },
+              nonCopticGospel: { table: undefined, anchor: undefined, title: titles.Gospel },
+              coptPsalm: { table: undefined, anchor: undefined, title: undefined },
+              nonCopticPsalm: { table: undefined, anchor: undefined, title: titles.Psalm },
+              Commentary: { table: undefined, anchor: undefined, title: titles.Commentary },
+              Prophecies: { table: undefined, anchor: undefined, title: titles.Prophecies },
+              Sermony: { table: undefined, anchor: undefined, title: titles.Sermony },
+              KhinEfran: { table: undefined, anchor: undefined, title: undefined },
+              Litany: { table: undefined, anchor: undefined, title: undefined },
             };
 
             (function fetchKhinEfranAndLitany() {
-              readings.KhinEfran.table = findTable(Prefix.HolyWeek + "KhinEfran" + service + "&D=$Seasons.HolyWeek", HolyWeekArray) || undefined
-              if (!readings.KhinEfran.table) return console.log('Didn\'t find Khin Efran');
+              const title = Prefix.HolyWeek + "XXX" + service + holyweek;
+              const khin = 'KhinEfran', litany = 'FinalLitany';
+              readings.KhinEfran.table = findTable(title.replace('XXX', khin), HolyWeekArray) || undefined
+              if (!readings.KhinEfran.table) console.log(`Didn't find ${khin}`);
 
-              readings.Litany.table = findTable(Prefix.HolyWeek + "FinalLitany" + service + "&D=$Seasons.HolyWeek", HolyWeekArray) || undefined
-              if (!readings.Litany.table) return console.log('Didn\'t find Litany');
+              readings.Litany.table = findTable(title.replace('XXX', litany), HolyWeekArray) || undefined
+              if (!readings.Litany.table) console.log(`Didn't find ${litany}`);
 
-              readings.KhinEfran.anchor = fetchAnchors('KhinEfran');
-              readings.Litany.anchor = fetchAnchors('FinalLitany');
+              readings.KhinEfran.anchor = fetchAnchors(khin);
+              readings.Litany.anchor = fetchAnchors(litany);
             })();
 
 
-            (function fetchHourReadings() {
-              fetchTableOrPlaceHolder(readings.coptGospel, 'Gospel', 'CopticGospel');
-              fetchTableOrPlaceHolder(readings.nonCopticGospel, 'Gospel', 'nonCopticGospel');
-              fetchTableOrPlaceHolder(readings.coptPsalm, 'Psalm', 'CopticPsalm');
-              fetchTableOrPlaceHolder(readings.nonCopticPsalm, 'Psalm', 'nonCopticGospel');
-              fetchTableOrPlaceHolder(readings.Commentary, 'Commentary', 'Commentary');
-              fetchTableOrPlaceHolder(readings.Prophecies, 'Prophecies', 'Prophecies');
-              fetchTableOrPlaceHolder(readings.Sermony, 'Sermony', 'Prophecies');
+            (function findReadingsTablesAndAnchors() {
+              setTableAndAnchor(readings.coptGospel, 'Gospel', 'CopticGospel');
+              setTableAndAnchor(readings.nonCopticGospel, 'Gospel', 'nonCopticGospel');
+              setTableAndAnchor(readings.coptPsalm, 'Psalm', 'CopticPsalm');
+              setTableAndAnchor(readings.nonCopticPsalm, 'Psalm', 'nonCopticGospel');
+              setTableAndAnchor(readings.Commentary, 'Commentary', 'Commentary');
+              setTableAndAnchor(readings.Prophecies, 'Prophecies', 'Prophecies');
+              setTableAndAnchor(readings.Sermony, 'Sermony', 'Prophecies');
 
               readings.nonCopticPsalm.anchor = readings.nonCopticPsalm.anchor.previousElementSibling as HTMLElement; //We need to do this because the nonCopticPsalm is inseret before the previous sibling of nonCopticGospel.placeHolder
 
-              function fetchTableOrPlaceHolder(reading: typeReading, name: string, anchor: string) {
+              function setTableAndAnchor(reading: typeReading, name: string, anchor: string) {
                 reading.table = fetchTable(name);
                 reading.anchor = fetchAnchors(anchor)
-
               }
 
               (function getVersionsOfGospelAndPsalm() {
                 //For the gospel and the psalm, we need to get 2 versions of each: the first version is only coptic, and the 2nd version includes all the other languages except the Coptic version
+                const copticIndex = readingsLangs.indexOf('COP') + 1;
 
                 [readings.coptGospel, readings.nonCopticGospel, readings.coptPsalm, readings.nonCopticPsalm]
                   .forEach((version) => {
                     if (!version.table) return;
-                    version.table = (version.table)
-                      .map((row) => {
-                        if ([readings.coptGospel, readings.coptPsalm].includes(version))
-                          return [row[0], row[readingsLangs.indexOf('COP') + 1]];
-                        if ([readings.nonCopticGospel, readings.nonCopticPsalm].includes(version))
-                          return row.filter(el => row?.indexOf(el) !== readingsLangs.indexOf('COP') + 1)
+                    if (version === readings.nonCopticGospel)
+                      version.table = version.table
+                        .filter((row, index) => index < 1 || row[0].startsWith(Prefix.readingRef));
+                    else version.table =
+                      version.table.map((row) => {
+                        if ([readings.coptGospel, readings.coptPsalm].includes(version) && !row[0].startsWith(Prefix.readingRef))
+                          return [row[0], row[copticIndex]];
+
+                        else if (version === readings.nonCopticPsalm)
+                          return row.filter((el, index) => index !== copticIndex);
                       });
                   });
               })();
@@ -3462,46 +3458,53 @@ Btn.HW = new Button({
               function fetchTable(name: string): string[][] {
                 return findTable(Prefix.HolyWeek + hour + service + name, dayPrayers, { startsWith: true }) || undefined
               }
-
             })();
 
             function fetchAnchors(placeHolder: string): HTMLElement {
-              return selectElementsByDataSet(btnHour.docFragment, Prefix.anchor + placeHolder + '&D=$Seasons.HolyWeek', undefined, 'root')[0]
+              return selectElementsByDataSet(btnHour.docFragment, Prefix.anchor + placeHolder + holyweek, undefined, 'root')[0]
             }
+
 
             await insertTablesBeforeAnchors();
 
             async function insertTablesBeforeAnchors() {
               let languages: string[];
 
-              const sequence = [readings.coptPsalm,
-              readings.coptGospel,
-              readings.nonCopticPsalm,
-              readings.nonCopticGospel,
-              readings.Commentary,
-              readings.Prophecies,
-              readings.Sermony,//!This must come directly after readings.Prophecies
-              readings.KhinEfran,
-              readings.Litany];
+              const sequence = [
+                readings.coptPsalm,
+                readings.coptGospel,
+                readings.nonCopticPsalm,
+                readings.nonCopticGospel,
+                readings.Commentary,
+                readings.Prophecies,
+                readings.Sermony,//!This must come directly after readings.Prophecies
+                readings.KhinEfran,
+                readings.Litany]
+                .filter(reading => reading.table && reading.anchor);//We remove all the elements that do not have a reading.table or a reading.anchor 
+
+              
 
               for (const reading of sequence) {
-                if (!reading.table || !reading.anchor) return console.log('Either the table or the Anchor are missing:  table = ', reading.table, 'Anchor = ', reading.anchor);
+                (function setLanguage() {
+                  if ([readings.KhinEfran, readings.Litany].includes(reading))
+                    languages = prayersLanguages;
 
-                if ([readings.KhinEfran, readings.Litany].includes(reading))
-                  languages = prayersLanguages;
+                  else if ([readings.Sermony, readings.Commentary, readings.Prophecies].includes(reading))
+                    languages = readingsLangs;
 
-                else if ([readings.Sermony, readings.Commentary, readings.Prophecies].includes(reading))
-                  languages = readingsLangs;
+                  else if ([readings.nonCopticGospel, readings.nonCopticPsalm].includes(reading))
+                    languages = [defaultLanguage, foreingLanguage];
 
-                else if ([readings.nonCopticGospel, readings.nonCopticPsalm].includes(reading))
-                  languages = [defaultLanguage, foreingLanguage];
+                  else if ([readings.coptGospel, readings.coptPsalm].includes(reading))
+                    languages = ['COP'];
+                })();
 
-                else if ([readings.coptGospel, readings.coptPsalm].includes(reading))
-                  languages = ['COP'];
-
-                reading.table = reading?.table?.filter(row => row);//We remove any undefined elements in the table;
+                reading.table = reading.table.filter(row => row);//We remove any undefined elements in the table;
 
                 reading.table = await retrieveReadingTableFromBible(reading.table, languages);
+
+                reading.table = reading.table?.filter(row => row.filter((el, index) => index > 0 && el?.length > 0).length > 0); //We remove the rows where all the values other than the row title are empty strings (This might be the case for some rows in the non Coptic gospel table)
+
                 reading.table[0] = insertTableTitleRow();//We replace the first row of the table with a customized title row
 
                 insertAdjacentToHtmlElement({
@@ -3514,21 +3517,10 @@ Btn.HW = new Button({
                 });
 
                 function insertTableTitleRow(): string[] {
-                  let row = [Title(reading.table)];
-                  let title;
-                  if (reading === readings.Commentary)
-                    title = titles.Commentary
-                  else if (reading === readings.Prophecies)
-                    title = titles.Prophecies
-                  else if (reading === readings.Sermony)
-                    title = titles.Sermony
-                  else if (reading === readings.nonCopticGospel)
-                    title = titles.Gospel
-                  else if (reading === readings.nonCopticPsalm)
-                    title = titles.Psalm
-                  else return reading.table[0];
+                  if (!reading.title) return reading.table[0];//If the title property of reading is not set, we will return the first row of the table. Otherwise we will create a title row from the reading.title.
+                  const row = [Title(reading.table) + '&C=Title'];
                   languages
-                    .map(lang => lang !== 'COP' ? row.push(title[lang]) : row.push(''));
+                    .map(lang => row.push(reading.title[lang] || ''));
                   return row
                 }
               };
@@ -4379,70 +4371,39 @@ async function retrieveReadingTableFromBible(reading: string[][], langs: string[
 
   if (rowsWithReferences.length < 1) return reading;//It means that there are no rows with references
 
-  let splitted: string[];
   let ready: Set<[string, bibleChapter]> = new Set();//this set will contain arrays of ["bookID:chapterNumber:lang", chapter] for each chapter treated. If the chapter is found, we will not retreive it again.
 
   const retrieved = [];
+
   for (const row of reading) {
     //! We can't use forEach because forEach doesn't await for async functions to resolve
     if (rowsWithReferences.includes(row))
-      retrieved.push(...await processReadingReference(row))
-    else if (reading.indexOf(row) === 0)
-      retrieved.push(row);//This is the first row of the table, and it does not inlcude any references, we push it as is (it is the case of almost all the 1st rows of all tables)
-    else if (RegExp('&C=(Title|SubTitle)').test(row[0]) //i.e., this is not the 1st row of the table, but its class is 'Title' or 'Subtitle': in this case if the next row includes references, it means that we are like starting a new reading table: we will replace the title row with a row including the title of the reading
-      && (
-        rowsWithReferences.includes(reading[reading.indexOf(row) + 1])//the next row is a row that includes reading references
-        ||
-        reading[reading.indexOf(row) + 1][0].includes('&C=ReadingIntro')))//OR the the next row has the class 'ReadingIntro' which means that we are starting a reading (the references are most probably included in row +2)
-      retrieved.push(await referenceTitleRow(findReferenceRow(row)));
-    else retrieved.push(row);
+      retrieved.push(...await retrieveTextFromReference(row));
+    else retrieved.push(row);//If the row is the first row or any other row that does not include references, we will push it as is
   }
 
-  return retrieved
 
-  function findReferenceRow(row): string {
-    let ref: string = extractReferences(row);
-    let index = reading.indexOf(row);
-    while (!ref && index < reading.length) {
-      index += 1
-      ref = extractReferences(reading[index]);
-    }
-    return ref;
-  }
+  return retrieved;
 
-  async function processReadingReference(row: string[]): Promise<string[][]> {
-    if (!row || row.length < 1) return [];
-    let actor: string;
+  async function retrieveTextFromReference(row: string[]): Promise<string[][]> {
+    if (!row || row.length !==1) return [];
 
     const retrievedText: string[] = [];
 
-    for (let i = 0; i < row.length; i++) {
-      if (!row[i].startsWith(Prefix.readingRef)) {
-        retrievedText.push(row[i]);
-        continue
-      };
-      splitted = splitTitle(row[i]);//splitted[0] is the reference, and splitted[1] is the class (if any)
+    let [ref, actor] = splitTitle(row[0]);//splitted[0] is the reference, and splitted[1] is the class (if any)
 
-      splitted[0] = cleanReference(splitted[0]);//We clean the reference from the prefix and the spaces
+    ref = cleanReference(ref);//We clean the reference from the prefix and the spaces
 
-      row.length === langs.length + 1 ? actor = splitTitle(row[0])[1] : actor = splitted[1] || actors[actors.length - 1].EN; //If the row counts 1 element more than the langs, it means the first element includes the class of the row. If this is not th ecase, we will try to extract the class from the reference (splitted[0]). Finaly, if no class can be found, we will retain the 'NoActor' class
-
-      if (row.length < 2)
-        await Promise.all(langs.map(async lang =>
-          //!We can't use forEach because forEach doesn't await for async functions to resolve. It throughs a promise
-          retrievedText.push(await retrieveVerses(lang, splitted[0]))));//The row contains only the reference with no other text
-      else if (row.length === langs.length + 1)
-        retrievedText.push(await retrieveVerses(langs[i - 1], splitted[0]));//The row's first element is a title, while the remaining elements correspond to the languages in langs[]
-      else retrievedText.push(await retrieveVerses(langs[i], splitted[0])); //the row contains as many elements as the languages in langs[]
-
+    for (const lang of langs) {
+      //!We can't use forEach because forEach doesn't await for async functions to resolve. It throughs a promise
+      retrievedText.push(await retrieveVerses(lang, ref));//The row contains only the reference with no other text
     }
-    const ref = extractReferences(row);
-    const titleRow = await referenceTitleRow(ref) || [];
 
-    if (splitted[0].startsWith(Prefix.readingRef + 'PSA:'))
-      return [titleRow, retrievedText];//We do not split the psalm paragraphs into different rows rows
-    else return [titleRow, ...matchPargraphsSplitting(retrievedText, langs, row.length - langs.length, actor) || []];
+    const titleRow = await getTitleRow(ref) || [];
 
+    if (ref.startsWith(Prefix.readingRef + 'PSA:'))
+      return [titleRow, retrievedText];//We do not split the psalm paragraphs into different rows
+    else return [titleRow, ...matchPargraphsSplitting(retrievedText, langs, row.length - langs.length, actor || '') || []];
   }
 
   async function retrieveVerses(lang: string, ref: string): Promise<string> {
@@ -4485,80 +4446,68 @@ async function retrieveReadingTableFromBible(reading: string[][], langs: string[
    * @param {string[]} row - the  row that contains the reading reference
    * @param {boolean} next - If true, it means that if the row does not contain any references, we will keep jumbing to the next row of the reading table until we find a row containg references. Its default value is false.
    */
-  async function referenceTitleRow(ref: string): Promise<string[]> {
-
+  async function getTitleRow(ref: string): Promise<string[]> {
     if (!ref) return [];
 
-    let titleRow = [Prefix.same + '&C=Title', ...langs.map(lang => '')];//We create a row for the title and add empty elements to it for each language
+    const titleRow = [Prefix.same + '&C=Title', ...langs.map(lang => '')];//We create a row for the title and add empty elements to it for each language
 
     const bookID = ref.split(':')[0];
 
-    let book: bibleBook, bible: Bible;
-
-    await Promise.all(langs.map(async lang => {
+    await Promise.all(langs.map(async (lang, index) => {
       //!We can't use forEach because forEach doesn't await for async functions to resolve. Instead it throughs an error
       if (![defaultLanguage, foreingLanguage].includes(lang)) return;
-      bible = await getBibleVersion(lang, false);
-      book = bible?.find(book => book[0].id === bookID);
+      await getTitle(lang, index)
+    }));
+
+    return titleRow;
+
+    async function getTitle(lang: string, index: number) {
+      const bible = await getBibleVersion(lang, false);
+      const book = bible?.find(book => book[0].id === bookID);
       if (!book) return;
+      const to = { AR: ' إلى ', FR: ' à ', EN: ' to ' }[lang];
+      const and = { AR: 'و ', FR: ' et ', EN: ' and ' }[lang];
 
-      const to = { AR: ' إلى ', FR: ' à ', EN: ' to ' };
+      titleRow[index + 1] = `${book[0].human} (${processRefs(to, and, book)})`
 
-      titleRow[langs.indexOf(lang) + 1] =
-        book[0].human
-        + ' ('
-        + processRefs(to[lang])
-        + ')';
-
-      function processRefs(to: string): string {
+      function processRefs(to: string, and: string, book: bibleBook): string {
         //'ISA:13:11-End/14:1-End/16:8-End'
-        let parts = ref.split(bookID + ':')[1].split('/');//=> [13:11-End, 14:1-End/16:8-End];
+        let parts = ref.split(`${bookID}:`)[1].split('/');//=> [13:11-End, 14:1-End, 16:8-End];
         let fromTo: string;
 
         if (bookID === 'PSA') {
-
           fromTo = parts.map(part => {
-            let psalm = part.split(':')[0] + ':';
-            let verses = part.split(':')[1].split('-');
-            if (verses[0] === verses[1]) return psalm + verses[0]
-            return psalm + verses[0] + '-' + verses[1]
-          }).join(', ');//!Need to figuer it out
-
+            const psalm = part.split(':')[0];
+            const verses = part.split('-');
+            if (verses[0] === verses[1])
+              return `${psalm}:${verses[0]}`
+            return `${psalm}:${verses[0]}-${verses[1]}`
+          }).join(and);//!Need to figuer it out
         }
         else if (parts.length < 2)
           fromTo = parts[0]; //=>13:11-End
         else if (parts.length > 1) {
-          fromTo = parts[0].split('-')[0] + ' ' + to + ' ' //=>13:11 to 
-          fromTo += parts[parts.length - 1].split(':')[0] + ':';//=> 13:11 to 16:
+          fromTo = `${parts[0].split('-')[0]} ${to}` //=>13:11 to 
+          fromTo += `${parts[parts.length - 1].split(':')[0]}:`;//=> 13:11 to 16:
           fromTo += parts[parts.length - 1].split('-')[1]; //=> 13:11 to 16:End
         }
 
         if (fromTo.includes('End')) {
-          let chapterNumber: string;
-          fromTo.includes(to) ?
-            chapterNumber = fromTo.split(to + ' ')[1].split(':')[0] || ''//=>16
-            : chapterNumber = fromTo.split(':')[0] || ''//=>13
+          const chapterNumber = parts[parts.length - 1].split(':')[0];
 
-          fromTo = fromTo.replace('End', book[1][Number(chapterNumber) - 1]?.filter(verse => Number(verse[0])).length.toString())
+          fromTo = fromTo.replace('End',
+            book[1][Number(chapterNumber) - 1]
+              ?.filter(verse => Number(verse[0]))
+              .length.toString())
 
         }
         return fromTo //=>//=>'13:1 à 16:30
 
       }
-    }));
-
-    return titleRow;
+    }
 
   }
 
-  /**
-   * finds the element containg the reading reference and returned it after cleaning it from the Prefix.readingRef, spaces, '&C=', etc.
-   * @param {string[]} row - the row containing at least one reference 
-   * @returns 
-   */
-  function extractReferences(row: string[]): string {
-    return cleanReference(row?.find(el => el.startsWith(Prefix.readingRef)));
-  }
 
   /**
    * Removes spaces, '&C=[Class]', and Prefix.readingRef from the reference
@@ -4656,7 +4605,7 @@ async function retrieveReadingTableFromBible(reading: string[][], langs: string[
  * @param {boolean} liturgy - tells whether the bible text has been retrieved within a liturgy context or outside a liturgy context 
  * @returns {string[][]} - a table (i.e., string[][]) containing the text with each paragraph splitted in distinct row (i.e., string[])
  */
-function matchPargraphsSplitting(retrieved: string[], langs: string[], add: number, actor: string): string[][] {
+function matchPargraphsSplitting(retrieved: string[], langs: string[], add: number, actor: string = ''): string[][] {
   if (add < 0) add = 0;
 
   if (add > 1) {
@@ -4720,7 +4669,7 @@ function matchPargraphsSplitting(retrieved: string[], langs: string[], add: numb
       for (let ii = 0; ii < parags.length; ii++) {
         if (!table[ii]) {
           table.push([...langs.map(lang => '')]);
-          add > 0 ? table[ii].unshift(retrieved[0]) : table[ii].unshift(Prefix.same + "&C=" + actor); //If the number of elements in retrieved > languages, it means the first element is a title element. We will keep it as first element of each newly added row to the table, otherwise, we will manually add a title element as first element.
+          add > 0 ? table[ii].unshift(retrieved[0]) : table[ii].unshift(`${Prefix.same}&C=${actor}`); //If the number of elements in retrieved > languages, it means the first element is a title element. We will keep it as first element of each newly added row to the table, otherwise, we will manually add a title element as first element.
         }
         table[ii][i + 1 - add] = parags[ii];
       }
