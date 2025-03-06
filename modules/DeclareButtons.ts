@@ -2202,8 +2202,7 @@ Btn.IncenseMorning = new Button({
           EN: 'Prophecies',
         }
 
-        Prophecies.shift();//We remove the first row 
-        Prophecies[0] = [Title(Prophecies), title[defaultLanguage], title[foreingLanguage] || ''].map(el => el + '/n' + Prophecies[0][langs.indexOf(defaultLanguage) + 1]);
+        Prophecies[0] = [`${Title(Prophecies)}&C=Title`, title[defaultLanguage], title[foreingLanguage] || ''];
 
         showPrayers({ table: Prophecies, languages: langs, container: docFragment, clearContainerDiv: false, clearRightSideBar: false, position: { beforeOrAfter: 'beforebegin', el: anchor } });
       })();

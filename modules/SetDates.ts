@@ -630,14 +630,8 @@ function showDates(
 
   //Inserting the Gregorian date
   let date: string =
-    { AR: 'التاريخ', FR: 'Date', EN: 'Date' }[defaultLanguage]
-    + ' : '
-    + todayDate.getDate().toLocaleString() +
-    "/"
-    + (todayDate.getMonth() + 1).toString() +
-    "/"
-    + todayDate.getFullYear().toString();
-
+    ` ${{ AR: 'التاريخ', FR: 'Date', EN: 'Date' }[defaultLanguage]}:${[todayDate.getDate().toString(), (todayDate.getMonth() + 1).toString(), todayDate.getFullYear().toString()].map(el=>el.padStart(2, '0')).join('/')}`;
+   
   insertDateBox(date, "gregorianDateBox");
 
   //Inserting the home image after the dateBox
@@ -646,61 +640,73 @@ function showDates(
 
 
   //Inserting the Coptic date
-  date =
-    { AR: 'التقويم القبطي', FR: 'Date Copte', EN: 'Coptic Date' }[defaultLanguage]
-    + " : "
-    + copticDay
-    + " "
-    + (copticMonths[Number(copticMonth)][defaultLanguage] || copticMonths[Number(copticMonth)]['EN']) +
-    " "
-    + copticYear +
-    " \n"
-    + { AR: 'قراءات  ', FR: 'Lectures du', EN: 'Readings Date' }[defaultLanguage] + " : "
-    + (() => {
-      if (copticReadingsDate.startsWith(Seasons.GreatLent))
-        return (
-          { AR: 'اليوم الـ ', FR: ' ', EN: 'Day ' }[defaultLanguage] +
-          copticReadingsDate.split(Seasons.GreatLent)[1] +
-          { AR: 'من الصوم الكبير  ', FR: 'ème du Grand Carême ', EN: ' of the Great Lent' }[defaultLanguage]
+  date = `${copticDate()}\n${lecturesDate()}`
+    
+  function copticDate() {
+    const label = { AR: 'التقويم القبطي', FR: 'Date Copte', EN: 'Coptic Date' }[defaultLanguage];
 
-        );
+    return `${label} : ${copticDay} ${(copticMonths[Number(copticMonth)][defaultLanguage] || copticMonths[Number(copticMonth)]['EN'])} ${copticYear}` 
+  }
+  
+  function lecturesDate() {
+    const label = { AR: 'قراءات  ', FR: 'Lectures du', EN: 'Readings Date' }[defaultLanguage];
 
-      if (copticReadingsDate.startsWith(Seasons.PentecostalDays))
-        return (
-          { AR: ' اليوم الـ ', FR: ' ', EN: 'Day ' }[defaultLanguage] +
-          copticReadingsDate.split(Seasons.PentecostalDays)[1] +
-          { AR: ' من الخمسين المقدسة  ', FR: 'ème jour des 50 jours de Pentecotes', EN: ' of the 50 Pentecostal days' }[defaultLanguage]
-        );
+    return `${label} : ${customize()}`
 
-      if (copticReadingsDate.startsWith(Seasons.JonahFast))
-        return (
-          "Day " +
-          copticReadingsDate.split(Seasons.JonahFast)[1] +
-          " of Jonah Fast"
-        );
+    function customize(){
+      const order = {
+        "1st": {AR:"الأول", FR:"1er", EN:""},
+        "2nd": {AR: "الثاني", FR:"2ème"},
+        "3rd": {AR: "الثالث", FR:"3ème"},
+        "4th": {AR: "الرابع", FR:"4ème"},
+        "5th": {AR: "الخامس", FR:"5ème"},
+        "6th": {AR: "السادس", FR:"6ème"},
+        "7th": {AR: "السابع", FR:"7ème"},
+        "8th": {AR: "الثامن", FR:"8ème"},
+        "9th": {AR: "التاسع", FR:"9ème"},
+        "10th": {AR: "العاشر", FR:"10ème"}
+      };
+      const lable = ifSunday({ AR: 'اليوم الـ', FR: '', EN: '' }[defaultLanguage]);
+      const GL = ifSunday({ AR: 'من الصوم الكبير ', FR: 'ème jour du Grand Carême', EN: 'day of the Great Lent' }[defaultLanguage]);
+      const Jonah = ifSunday({ AR: 'من صوم يونان ', FR: 'ème jour du jeune de Jonas', EN: 'day of Jonah Fast' }[defaultLanguage]);
+      const Pntl = ifSunday({ AR: 'من الخمسين المقدسة ', FR: 'ème jour des 50 jours de Pentecotes', EN: 'day of the 50 Pentecostal days' }[defaultLanguage]);
 
-      if (
-        copticReadingsDate.endsWith("Sunday") &&
-        copticMonths[Number(copticReadingsDate.slice(0, 2))]
-      )
-        return (
-          copticMonths[Number(copticReadingsDate.slice(0, 2))].EN +
-          " " +
-          copticReadingsDate
-            .slice(2, copticReadingsDate.length)
-            .split("Sunday")[0] +
-          " Sunday"
-        );
+      function ifSunday(label:string) {
+        if (!copticReadingsDate.endsWith('Sunday')) return label;
+        let sunday = copticReadingsDate;
 
-      if (copticMonths[Number(copticMonth)])
-        return (
-          copticReadingsDate.slice(0, 2) +
-          " " +
-          copticMonths[Number(copticReadingsDate.slice(2, 4))].EN
-        );
+        if (RegExp(/\d{2}/).test(sunday))
+          sunday.slice(2, sunday.length);//We remove the first 2 digits
+        
+        sunday = sunday.replace(Season, '').replace('Sunday', '');//We hould get "1st", "2nd", "3rd", etc.
+        
+        return label
+          .replace('ème jour', `${order[sunday].FR} dimanche`)
+          .replace('day', `${sunday} Sunday`)
+          .replace('اليوم الـ', `الأحد ${order[sunday].AR}`)
+      }
 
-      return "";
-    })();
+      if (Season === Seasons.GreatLent)
+        return ifSeason(GL);
+      else if ([Seasons.PentecostalDays, Seasons.Ascension].includes(Season))
+        return ifSeason(Pntl);
+      else if (Season === Seasons.JonahFast)
+        return ifSeason(Jonah);         
+      else if (RegExp(/\d{2}.*Sunday/).test(copticReadingsDate))//If it starts with 2 digits and contains Sunday like "032ndSunday"
+        return `${copticMonths[Number(copticMonth)][defaultLanguage]} ${copticReadingsDate
+          .slice(2, copticReadingsDate.length)
+          .replace("Sunday", '')} Sunday`;
+      else if (copticMonths[Number(copticMonth)])
+        return `${copticDay} ${copticMonths[Number(copticMonth)][defaultLanguage]}`;
+      else return "";
+
+      function ifSeason(end:string) {
+        if (weekDay ===0)
+          return `${lable} ${end}`;
+        else return `${lable} ${copticReadingsDate.split(Season)[1]} ${end}`;
+      }
+    };
+  }
 
   insertDateBox(date, "copticDateBox");
 

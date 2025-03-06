@@ -159,9 +159,9 @@ const expandableBtnsPannel: HTMLElement = document.getElementById("inlineBtnsCon
 const copticMonths: { AR: string; FR: string; EN: string }[] = [
   {
     //This is just added in order to count the months from 1 instead of 0
-    AR: "none",
-    FR: "none",
-    EN: "none",
+    AR: null,
+    FR: null,
+    EN: null,
   },
   {
     AR: "توت",
