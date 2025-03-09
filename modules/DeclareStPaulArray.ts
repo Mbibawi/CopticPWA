@@ -100,7 +100,7 @@ ReadingsArrays.StPaulArrayFR = [
             Prefix.stPaul + "&D=1801"
         ],
         [
-            Prefix.readingRef + "Galatians6:11-18"
+            Prefix.readingRef + "GAL:6:11-18"
         ]
     ],
     [
@@ -1049,7 +1049,7 @@ ReadingsArrays.StPaulArrayFR = [
     ],
     [
         [
-            Prefix.stPaul + "&D=GL55"
+            Prefix.stPaul + "&D=$copticFeasts.HolyFriday"
         ],
         [
             Prefix.readingRef + "1CO:11:23-34"

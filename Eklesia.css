@@ -310,12 +310,12 @@ box-shadow: 0px 0px 5px 5px rgb(181, 179, 179), 0px 0px 6px 6px rgba(3, 36, 87, 
   padding-top: 2px; /*Tis is what sets the space beween the paragraphs*/
   padding-bottom: 2px; /*Tis is what sets the space beween the paragraphs*/
 }
-.NoActor{
+.NA{
   background-image: linear-gradient(to bottom, rgb(192, 182, 140), rgb(235, 223, 175) );
   color:#01043f;
 }
 
-.NoActor.Single{
+.NA.Single{
   background-color: rgb(235, 223, 175) !important;
   background-image: none;
   padding-top: 0px !important; /*Tis is what sets the space beween the paragraphs*/
@@ -376,8 +376,8 @@ p{
   font-family:'Times New Roman', Times, serif;
 }
 
-.Title, 
-.SubTitle {
+.TI, 
+.ST {
   background-image: radial-gradient(circle, rgb(125, 114, 106) ,rgb(94, 84, 79));
   color: rgb(255, 255, 255);
   text-shadow: 0.5px 0.5px grey !important;
@@ -506,8 +506,8 @@ line-height: 2.8cqi !important;
   text-align: justify !important;
 
 }
-.SlideRow.Title,
-.SlideRow.SubTitle
+.SlideRow.TI,
+.SlideRow.ST
 {
   font-size: calc(var(--fSize)*20cqi) !important;
   line-height: 3.3cqi !important;
@@ -533,8 +533,8 @@ br{
   margin-bottom: 0px;
 }
 
-.Comments.SlideRow,
-.CommentText.SlideRow
+.CO.SlideRow,
+.TC.SlideRow
 {
   display: none !important;
 }
@@ -557,7 +557,7 @@ br{
 }
 
 
-.Priest,
+.PR,
 #PriestColor {
   background-image: linear-gradient(to bottom, rgb(1,30,50) 12%, rgb(3, 45, 72)  88%);
   border-left: 7px solid rgb(1, 32, 52);
@@ -565,7 +565,7 @@ br{
 
   color:white;
 }
-.Diacon,
+.DI,
 #DiaconColor {
   background-image: linear-gradient( to bottom,  rgb(1, 39, 30) 12%, rgb(2, 65, 76) 88% );
   border-left-color: #192e01;
@@ -573,7 +573,7 @@ br{
   border-right: 7px solid #192e01;
   color:white;
 }
-.Assembly,
+.AS,
 #AssemblyColor {
   /* background-color: #f9faf2; */
   background-image: linear-gradient( to bottom,  rgba(107,67,7,0.96) 11.2%, rgb(153, 93, 2) 100% );
@@ -722,8 +722,8 @@ br{
   background-color: rgb(55, 211, 211);
 }
 
-.Comments, 
-.CommentText{
+.CO, 
+.TC{
   align-content: stretch;
   background-image: linear-gradient(to bottom, rgb(143, 141, 141), rgb(219, 217, 217) ) ;
   border-right-color: rgb(105, 104, 104);
@@ -738,7 +738,7 @@ br{
   margin-top:0px !important;
   margin-bottom: 0px !important;
 }
-.CommentText {
+.TC {
   color: #C45911 !important;
 }
 .settings{
@@ -867,7 +867,7 @@ br{
 }
 
 
-.ReadingIntro, .ReadingEnd{
+.RI, .RE{
   background-image: radial-gradient(circle,rgb(221, 179, 125), rgb(128, 100, 61) );
   margin-bottom: 1px;
   border-top: rgb(80, 77, 74) solid 7px;

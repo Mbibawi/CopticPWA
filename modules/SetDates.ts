@@ -398,12 +398,7 @@ function checkForUnfixedEvent(
       else sunday = checkWhichSundayWeAre(coptDay - weekDay);
 
 
-      Season = [
-        ["1stSunday", Seasons.KiahkWeek1],
-        ["2ndSunday", Seasons.KiahkWeek2],
-        ["3rdSunday", Seasons.KiahkWeek3],
-        ["4thSunday", Seasons.KiahkWeek4],
-      ].find((el) => el[0] === sunday)[1]; //We set the Season accroding to the value of sunday
+      Season = Kiahk[["1stSunday", "2ndSunday", "3rdSunday", "4thSunday"].indexOf(sunday)];//We set the Season accroding to the value of sunday
 
       if (weekDay === 0) return "04" + sunday; //!Caution: we need to return the value of Sunday (which will set the readings for this day not only the Season), because it is modified when Kiahk has only 3 Sundays. We do this for the Sundays only because the readings of the other days are not affected. It is just the Season that changes.
     }
@@ -623,15 +618,15 @@ function showDates(
       "beforebegin",
       document.createElement("div")
     ) as HTMLDivElement;
-    dateDiv.classList.add("dateDiv");
-    dateDiv.id = "dateDiv";
+    dateDiv.classList.add(css.dateDiv);
+    dateDiv.id = css.dateDiv;
   }
   if (!dateDiv) return;
 
   //Inserting the Gregorian date
   let date: string =
-    ` ${{ AR: 'التاريخ', FR: 'Date', EN: 'Date' }[defaultLanguage]}:${[todayDate.getDate().toString(), (todayDate.getMonth() + 1).toString(), todayDate.getFullYear().toString()].map(el=>el.padStart(2, '0')).join('/')}`;
-   
+    ` ${{ AR: 'التاريخ', FR: 'Date', EN: 'Date' }[defaultLanguage]}:${[todayDate.getDate().toString(), (todayDate.getMonth() + 1).toString(), todayDate.getFullYear().toString()].map(el => el.padStart(2, '0')).join('/')}`;
+
   insertDateBox(date, "gregorianDateBox");
 
   //Inserting the home image after the dateBox
@@ -641,45 +636,45 @@ function showDates(
 
   //Inserting the Coptic date
   date = `${copticDate()}\n${lecturesDate()}`
-    
+
   function copticDate() {
     const label = { AR: 'التقويم القبطي', FR: 'Date Copte', EN: 'Coptic Date' }[defaultLanguage];
 
-    return `${label} : ${copticDay} ${(copticMonths[Number(copticMonth)][defaultLanguage] || copticMonths[Number(copticMonth)]['EN'])} ${copticYear}` 
+    return `${label} : ${copticDay} ${(copticMonths[Number(copticMonth)][defaultLanguage] || copticMonths[Number(copticMonth)]['EN'])} ${copticYear}`
   }
-  
+
   function lecturesDate() {
     const label = { AR: 'قراءات  ', FR: 'Lectures du', EN: 'Readings Date' }[defaultLanguage];
 
     return `${label} : ${customize()}`
 
-    function customize(){
+    function customize() {
       const order = {
-        "1st": {AR:"الأول", FR:"1er", EN:""},
-        "2nd": {AR: "الثاني", FR:"2ème"},
-        "3rd": {AR: "الثالث", FR:"3ème"},
-        "4th": {AR: "الرابع", FR:"4ème"},
-        "5th": {AR: "الخامس", FR:"5ème"},
-        "6th": {AR: "السادس", FR:"6ème"},
-        "7th": {AR: "السابع", FR:"7ème"},
-        "8th": {AR: "الثامن", FR:"8ème"},
-        "9th": {AR: "التاسع", FR:"9ème"},
-        "10th": {AR: "العاشر", FR:"10ème"}
+        "1st": { AR: "الأول", FR: "1er", EN: "" },
+        "2nd": { AR: "الثاني", FR: "2ème" },
+        "3rd": { AR: "الثالث", FR: "3ème" },
+        "4th": { AR: "الرابع", FR: "4ème" },
+        "5th": { AR: "الخامس", FR: "5ème" },
+        "6th": { AR: "السادس", FR: "6ème" },
+        "7th": { AR: "السابع", FR: "7ème" },
+        "8th": { AR: "الثامن", FR: "8ème" },
+        "9th": { AR: "التاسع", FR: "9ème" },
+        "10th": { AR: "العاشر", FR: "10ème" }
       };
       const lable = ifSunday({ AR: 'اليوم الـ', FR: '', EN: '' }[defaultLanguage]);
       const GL = ifSunday({ AR: 'من الصوم الكبير ', FR: 'ème jour du Grand Carême', EN: 'day of the Great Lent' }[defaultLanguage]);
       const Jonah = ifSunday({ AR: 'من صوم يونان ', FR: 'ème jour du jeune de Jonas', EN: 'day of Jonah Fast' }[defaultLanguage]);
       const Pntl = ifSunday({ AR: 'من الخمسين المقدسة ', FR: 'ème jour des 50 jours de Pentecotes', EN: 'day of the 50 Pentecostal days' }[defaultLanguage]);
 
-      function ifSunday(label:string) {
+      function ifSunday(label: string) {
         if (!copticReadingsDate.endsWith('Sunday')) return label;
         let sunday = copticReadingsDate;
 
         if (RegExp(/\d{2}/).test(sunday))
           sunday.slice(2, sunday.length);//We remove the first 2 digits
-        
+
         sunday = sunday.replace(Season, '').replace('Sunday', '');//We hould get "1st", "2nd", "3rd", etc.
-        
+
         return label
           .replace('ème jour', `${order[sunday].FR} dimanche`)
           .replace('day', `${sunday} Sunday`)
@@ -691,7 +686,7 @@ function showDates(
       else if ([Seasons.PentecostalDays, Seasons.Ascension].includes(Season))
         return ifSeason(Pntl);
       else if (Season === Seasons.JonahFast)
-        return ifSeason(Jonah);         
+        return ifSeason(Jonah);
       else if (RegExp(/\d{2}.*Sunday/).test(copticReadingsDate))//If it starts with 2 digits and contains Sunday like "032ndSunday"
         return `${copticMonths[Number(copticMonth)][defaultLanguage]} ${copticReadingsDate
           .slice(2, copticReadingsDate.length)
@@ -700,8 +695,8 @@ function showDates(
         return `${copticDay} ${copticMonths[Number(copticMonth)][defaultLanguage]}`;
       else return "";
 
-      function ifSeason(end:string) {
-        if (weekDay ===0)
+      function ifSeason(end: string) {
+        if (weekDay === 0)
           return `${lable} ${end}`;
         else return `${lable} ${copticReadingsDate.split(Season)[1]} ${end}`;
       }
@@ -718,7 +713,7 @@ function showDates(
       dateBox.id = id;
       dateBox.style.display = "block !important";
 
-      dateBox.classList.add("dateBox");
+      dateBox.classList.add(css.dateBox);
     }
     dateBox.innerHTML = ""; //we empty the div
     let p = dateBox.appendChild(document.createElement("p"));
@@ -735,22 +730,12 @@ function showDates(
         "afterend",
         document.createElement("div")
       ) as HTMLElement;
-      credentialsDiv.classList.add("credentialsDiv");
-      credentialsDiv.id = "credentialsDiv";
+      credentialsDiv.classList.add(css.credentialsContainer);
+      credentialsDiv.id = css.credentialsContainer;
       credentialsDiv.style.padding = "3px 20px";
     };
 
-    credentialsDiv.innerText =
-      "Today: " +
-      todayDate.toString() +
-      " .\n Season = " +
-      Season +
-      " .\n Version = " +
-      (version || localStorage.version) +
-      ".\n" +
-      "We " +
-      `${isFast ? "are " : "are not "}` +
-      "during a fast period or on a fast day (Wednesday or Friday";
+    credentialsDiv.innerText = `Today: ${todayDate.toString()}\nSeason= ${Season}\nVersion = ${version || localStorage.version}\nWe ${isFast ? "are " : "are not"} during a fast period or on a fast day (Wednesday or Friday`;
   })()
 
   return dateDiv;

@@ -90,13 +90,13 @@ async function startApp() {
 /**
  * Checks the app version 
  */
-async function checkVersion(update:string = '') {
+async function checkVersion(update: string = '') {
   return;
   if (update) return updateLocalStorage(update);
   const resp = await fetch('./version.json');
   if (!resp.ok) return;
   const json = await resp.json();
-  if(!json) return;
+  if (!json) return;
   if (!version) updateLocalStorage(json.version);
   else if (json.version !== version) {
     const text = {
@@ -106,7 +106,7 @@ async function checkVersion(update:string = '') {
     }
     alert(text[defaultLanguage] || text.EN);
   };
-  function updateLocalStorage(version:string){
+  function updateLocalStorage(version: string) {
     localStorage.version = version
   }
 }
@@ -233,7 +233,7 @@ async function displayChildButtonsOrPrayers(btn: Button, clear: boolean = true, 
 
     showBtnChildrenInSideBar();//We show the buttons on the left side bar
 
-    if (leftSideBar.classList.contains("extended")) return; //If the left side bar is not hidden, we do not show the buttons on the main page because it means that the user is using the buttons in the side bar and doesn't need to navigate using the btns in the main page
+    if (leftSideBar.classList.contains(css.extended)) return; //If the left side bar is not hidden, we do not show the buttons on the main page because it means that the user is using the buttons in the side bar and doesn't need to navigate using the btns in the main page
 
 
     containerDiv.innerHTML = "";
@@ -343,20 +343,20 @@ async function displayChildButtonsOrPrayers(btn: Button, clear: boolean = true, 
   };
 
   async function showSlidesInPresentationMode() {
-    if (containerDiv.children[0].classList.contains("mainPageBtns")) return;
+    if (containerDiv.children[0].classList.contains(css.mainPageButton)) return;
     let children = Array.from(
       containerDiv.querySelectorAll(
-        ".Expandable, .SlideRow, ." + inlineBtnsContainerClass
+        ".Expandable, .SlideRow, ." + css.inlineButtonsContainer
       )
     ) as HTMLDivElement[];
 
     children.forEach((child) => {
-      child.classList.add(hidden);
+      child.classList.add(css.hidden);
       setSlidesCSS(child);
     }); //!We need to remove all the divs that are empty (some of which are inlineBtns divs that were emptied when the buttons were moved to anohter container). If we do not remove them, they may be given data-same-slide attributes that will interfere with the flow of the slides
 
     function setSlidesCSS(slideRow: HTMLDivElement) {
-      if (!slideRow.classList.contains("SlideRow")) return;
+      if (!slideRow.classList.contains(css.slideRow)) return;
       slideRow.style.gridTemplateColumns = setGridColumnsOrRowsNumber(slideRow);
       slideRow.style.gridTemplateAreas = setGridAreas(slideRow);
     }
@@ -389,7 +389,7 @@ async function displayChildButtonsOrPrayers(btn: Button, clear: boolean = true, 
         sameSlideGroup.length >= 1 &&
         (isTitlesContainer(sameSlideGroup[sameSlideGroup.length - 1]) ||
           sameSlideGroup[sameSlideGroup.length - 1].classList.contains(
-            inlineBtnsContainerClass
+            css.inlineButtonsContainer
           ))
       )
         sameSlideGroup.pop(); //If the last  div element in sameSlideGroup[] is a title row or an inlineBtns container, we remove it;
@@ -441,7 +441,7 @@ async function displayChildButtonsOrPrayers(btn: Button, clear: boolean = true, 
       sameSlide.push(slideRow); //!CAUTION: we need the slideRow div to be pushed when the function is called, because when it is called for the first time, if the slide is not already in toMerge[], we will add its nextSibling but the first slide itself will never be added to toMerge. However, we never add an 'Expandable' div as an html element that can potentially be included in a Slide
 
       let inlineBtns: number = sameSlide.filter((div) =>
-        div.classList.contains(inlineBtnsContainerClass)
+        div.classList.contains(css.inlineButtonsContainer)
       ).length; //We count all the inlineBtns elements in sameSlideGroup[]
 
       let maximum = countMax * (1 - (6 / 100) * inlineBtns); //We take into account the number of inlineBtns included in the sameSlideGroup because they take space in the slide, which reduces the number of words/letters that the slide can include
@@ -461,12 +461,12 @@ async function displayChildButtonsOrPrayers(btn: Button, clear: boolean = true, 
 
       if (next && (next.children.length < 1 || isCommentContainer(next)))
         return nextSlideRow(next); //We escape comments
-      else if (next && next.classList.contains("Expandable"))
+      else if (next && next.classList.contains(css.expandableDiv))
         createNewSlideGroup(next.children[0] as HTMLDivElement);
       else if (
         !next &&
         currentSlideRow.parentElement &&
-        currentSlideRow.parentElement.classList.contains("Expandable")
+        currentSlideRow.parentElement.classList.contains(css.expandableDiv)
       )
         return currentSlideRow.parentElement.nextElementSibling as HTMLDivElement;
       else return next;
@@ -475,7 +475,7 @@ async function displayChildButtonsOrPrayers(btn: Button, clear: boolean = true, 
     function countInnerHTML(sameSlideGroup: HTMLDivElement[]): number {
       let count: number = 0;
       sameSlideGroup.forEach((child) => {
-        if (!child.classList.contains(inlineBtnsContainerClass))
+        if (!child.classList.contains(css.inlineButtonsContainer))
           count += child.innerHTML.length;
       });
       return count;
@@ -550,6 +550,8 @@ function createHtmlElementForPrayer(args: {
     return;
 
   (function setDefaults() {
+    if (!args.actorClass)
+      args.actorClass = splitTitle(css.NoActor)[1];
     if (!args.userLanguages)
       args.userLanguages = JSON.parse(localStorage.userLanguages);
     if (!args.position)
@@ -558,7 +560,7 @@ function createHtmlElementForPrayer(args: {
       args.container = containerDiv
   })();
 
-  if (args.actorClass === "Comments")
+  if (args.actorClass === css.Comment)
     args.languagesArray = ['FR', 'AR'];//The 'Comments' rows are structured like: [Title, FR, AR] regardless of the languages of the array
 
   let htmlRow: HTMLDivElement,
@@ -590,13 +592,13 @@ function createHtmlElementForPrayer(args: {
       return console.log(error);
     }
 
-    htmlRow.classList.add("Row"); //we add 'Row' class to this div
+    htmlRow.classList.add(css.Row); //we add 'Row' class to this div
 
     if (!foreingLanguage && !copticLanguage)
-      htmlRow.classList.add('Single')
+      htmlRow.classList.add(css.single)
 
     if (localStorage.displayMode === displayModes[1])
-      htmlRow.classList.replace("Row", "SlideRow");
+      htmlRow.classList.replace(css.Row, css.slideRow);
 
     if (args.dataGroup)
       htmlRow.dataset.group = args.dataGroup.replace(/Part\d+/, "");
@@ -605,7 +607,7 @@ function createHtmlElementForPrayer(args: {
 
 
     htmlRow.classList.add(args.actorClass);
-    if (args.actorClass.includes("Title")) {
+    if (args.actorClass === css.Title) {
       htmlRow.addEventListener("click", (e) => {
         e.preventDefault;
         collapseOrExpandText(htmlRow);
@@ -702,8 +704,8 @@ async function showTitlesInRightSideBar(
     if (dataGroup) titleDiv.dataset.group = dataGroup;
     else titleDiv.dataset.group = titleRow.id;
 
-    titleDiv.classList.add("sideTitle");
-    if (titleRow.classList.contains(hidden)) titleDiv.classList.add(hidden); //if the html element from which we will create the title is hidden, we hide the title as well
+    titleDiv.classList.add(css.sideTitle);
+    if (titleRow.classList.contains(css.hidden)) titleDiv.classList.add(css.hidden); //if the html element from which we will create the title is hidden, we hide the title as well
 
     if (append) rightTitlesDiv.appendChild(titleDiv);
     else rightTitlesDiv.prepend(titleDiv);
@@ -727,9 +729,9 @@ async function showTitlesInRightSideBar(
     //If the container is an 'Expandable' container, we hide the title
     if (
       titleRow.parentElement &&
-      titleRow.parentElement.classList.contains("Expandable")
+      titleRow.parentElement.classList.contains(css.expandableDiv)
     )
-      titleDiv.classList.add(hidden);
+      titleDiv.classList.add(css.hidden);
     return titleDiv;
   }
 
@@ -790,7 +792,7 @@ function showExpandableBtnsPannel(status: string, clear: boolean = false) {
     let close = document.createElement("a");
     divClose.appendChild(close);
     close.innerText = String.fromCharCode(215);
-    close.classList.add("closebtn");
+    close.classList.add(css.closeBtn);
     close.style.position = "fixed";
     close.style.top = "5px";
     close.style.right = "15px";
@@ -801,7 +803,7 @@ function showExpandableBtnsPannel(status: string, clear: boolean = false) {
     expandableBtnsPannel.appendChild(close);
   })();
   expandableBtnsPannel.dataset.status = status; //giving the inlineBtnsDiv a data-status attribute
-  expandableBtnsPannel.classList.remove(hidden);
+  expandableBtnsPannel.classList.remove(css.hidden);
 }
 
 /**
@@ -810,7 +812,7 @@ function showExpandableBtnsPannel(status: string, clear: boolean = false) {
 function hideExpandableButtonsPannel() {
   expandableBtnsPannel.dataset.status = "expandablePannel";
   expandableBtnsPannel.innerHTML = "";
-  expandableBtnsPannel.classList.add(hidden);
+  expandableBtnsPannel.classList.add(css.hidden);
 }
 
 /**
@@ -859,11 +861,11 @@ function showOrHideSlide(
     let lastActor: Actor = getLastActor(); //This is the actor of the last element in the currently displayed slide (if any)
 
     let slide = document.createElement("div");
-    slide.classList.add("Slide");
+    slide.classList.add(css.slide);
     slide.id = dataSameSlide;
     sameSlide.forEach((div) => {
       let clone = div.cloneNode(true) as HTMLDivElement;
-      if (div.classList.contains(inlineBtnsContainerClass))
+      if (div.classList.contains(css.inlineButtonsContainer))
         //!The cloneNode() methods does not clone the event listners of an element. There is no way to retrieve these events by javascript. We will hence add a data-original-btn-id attribute in which we will store the id of the orignal button, in order to be able to retrieve it later and, if needed, mimic its 'onclick' action
         Array.from(clone.children).forEach(
           (child) => (child.id = "Clone_" + child.id)
@@ -874,7 +876,7 @@ function showOrHideSlide(
     let slideChildren = Array.from(slide.children) as HTMLDivElement[];
 
     slideChildren.forEach((child) => {
-      child.classList.remove(hidden);
+      child.classList.remove(css.hidden);
       child.dataset.sameSlide = "Clone_" + child.dataset.sameSlide; //We remove this attribute in order to avoid getting the children selected if we perform a querySelector by the data-same-slide. In such case the result will be the original div elements not the clones that we appended to the slide.
       child.style.gridTemplateColumns = setGridColumnsOrRowsNumber(child);
       addActorToSlide(child, lastActor);
@@ -932,12 +934,12 @@ function showOrHideSlide(
 
     function getActor(child: HTMLDivElement): Actor {
       if (!child) return undefined;
-      return actors.find((actor) => child.classList.contains(actor.EN));
+      return actors.find((actor) => child.classList.contains(actor.Class));
     }
 
     function changeInlineBtnsOnClick() {
       let inlineBtns = slideChildren.filter((child) =>
-        child.classList.contains(inlineBtnsContainerClass)
+        child.classList.contains(css.inlineButtonsContainer)
       ) as HTMLDivElement[];
       if (inlineBtns.length < 1) return console.log("inlineBtns is empty");
 
@@ -945,7 +947,7 @@ function showOrHideSlide(
         let expandBtnsContainer = inlineBtns.filter(
           (container) =>
             container.children.length > 0 &&
-            container.children[0].classList.contains("expand")
+            container.children[0].classList.contains(css.expand)
         );
 
         changeBtnOnClick(expandBtnsContainer, onClickFun);
@@ -978,7 +980,7 @@ function showOrHideSlide(
         function onClickFun(btn: HTMLElement) {
           let originalBtn: HTMLDivElement = Array.from(
             containerDiv.querySelectorAll(
-              "." + inlineBtnClass
+              "." + css.inlineButton
             ) as NodeListOf<HTMLDivElement>
           ).find((childBtn) => childBtn.id === btn.id.split("Clone_")[1]);
 
@@ -1005,7 +1007,7 @@ function showOrHideSlide(
         let masterBtnContainers = inlineBtns.filter(
           (container) =>
             container.children.length > 0 &&
-            container.classList.contains("masterBtnDiv")
+            container.classList.contains(css.masterButtonDiv)
         );
         console.log("masterBtnContainers = ", masterBtnContainers);
 
@@ -1014,7 +1016,7 @@ function showOrHideSlide(
         function onClickFun(btn: HTMLElement) {
           let originalBtn: HTMLDivElement = Array.from(
             containerDiv.querySelectorAll(
-              "." + inlineBtnClass
+              "." + css.inlineButton
             ) as NodeListOf<HTMLDivElement>
           ).find((childBtn) => childBtn.id === btn.id.split("Clone_")[1]);
 
@@ -1097,7 +1099,7 @@ function addSettingsButton() {
 
   settingsBtn = document.createElement("div");
   settingsBtn.id = "settings";
-  settingsBtn.classList.add("settings");
+  settingsBtn.classList.add(css.settings);
   settingsBtn.innerText = "Settings";
   settingsBtn.addEventListener("click", () => displaySettingsPanel());
   sideBarBtnsContainer.appendChild(settingsBtn);
@@ -1171,7 +1173,7 @@ function createHtmlBtn(args: {
     if (!text) return;
     let btnLable = document.createElement("p");
     btnLable.innerText = text;
-    btnLable.classList.add("btnText");
+    btnLable.classList.add(css.buttonText);
     if (btnClass) btnLable.classList.add(btnClass);
     newBtn.appendChild(btnLable);
   }
@@ -1180,18 +1182,18 @@ function createHtmlBtn(args: {
 
 function toggleSideBars() {
   if (
-    !leftSideBar.classList.contains(hidden) &&
-    rightSideBar.classList.contains(hidden)
+    !leftSideBar.classList.contains(css.hidden) &&
+    rightSideBar.classList.contains(css.hidden)
   ) {
     closeSideBar(leftSideBar);
   } else if (
-    !rightSideBar.classList.contains(hidden) &&
-    leftSideBar.classList.contains(hidden)
+    !rightSideBar.classList.contains(css.hidden) &&
+    leftSideBar.classList.contains(css.hidden)
   ) {
     closeSideBar(rightSideBar);
   } else if (
-    leftSideBar.classList.contains(hidden) &&
-    leftSideBar.classList.contains(hidden)
+    leftSideBar.classList.contains(css.hidden) &&
+    leftSideBar.classList.contains(css.hidden)
   ) {
     openSideBar(leftSideBar);
   }
@@ -1203,7 +1205,7 @@ function toggleSideBars() {
  */
 async function openSideBar(sideBar: HTMLElement) {
   if (sideBar.querySelector('#sideBarBtns').children.length < 1) return;
-  sideBar.classList.remove(hidden);
+  sideBar.classList.remove(css.hidden);
 }
 
 /**
@@ -1238,7 +1240,7 @@ function reloadScripts(scriptIDs: string[], src?: string, type: string = 'text/j
  * @param {HTMLElement} sideBar - the html element representing the side bar to be closed
  */
 async function closeSideBar(sideBar: HTMLElement) {
-  sideBar.classList.add(hidden);
+  sideBar.classList.add(css.hidden);
 }
 /**
  * Detects whether the user swiped his fingers on the screen, and opens or closes teh right or left side bars accordingly
@@ -1258,7 +1260,7 @@ function DetectFingerSwipe(): string {
   }
 
   function handleTouchMove(evt: TouchEvent) {
-    if (!expandableBtnsPannel.classList.contains(hidden)) return; //If the expandable pannel is not hidden, it means we entered the settings pannel or we are choosing a prayer from a multiple choices screen. We do not associate any action to the figuer swipe
+    if (!expandableBtnsPannel.classList.contains(css.hidden)) return; //If the expandable pannel is not hidden, it means we entered the settings pannel or we are choosing a prayer from a multiple choices screen. We do not associate any action to the figuer swipe
     evt.preventDefault;
     if (!xDown || !yDown) return;
 
@@ -1274,13 +1276,13 @@ function DetectFingerSwipe(): string {
         /* right to left swipe */
         direction = "left";
         if (
-          !leftSideBar.classList.contains(hidden) &&
-          rightSideBar.classList.contains(hidden)
+          !leftSideBar.classList.contains(css.hidden) &&
+          rightSideBar.classList.contains(css.hidden)
         ) {
           closeSideBar(leftSideBar);
         } else if (
-          rightSideBar.classList.contains(hidden) &&
-          leftSideBar.classList.contains(hidden)
+          rightSideBar.classList.contains(css.hidden) &&
+          leftSideBar.classList.contains(css.hidden)
         ) {
           openSideBar(rightSideBar);
         }
@@ -1288,13 +1290,13 @@ function DetectFingerSwipe(): string {
         /* left to right swipe */
         direction = "right";
         if (
-          leftSideBar.classList.contains(hidden) &&
-          rightSideBar.classList.contains(hidden)
+          leftSideBar.classList.contains(css.hidden) &&
+          rightSideBar.classList.contains(css.hidden)
         ) {
           openSideBar(leftSideBar);
         } else if (
-          !rightSideBar.classList.contains(hidden) &&
-          leftSideBar.classList.contains(hidden)
+          !rightSideBar.classList.contains(css.hidden) &&
+          leftSideBar.classList.contains(css.hidden)
         ) {
           closeSideBar(rightSideBar);
         }
@@ -1348,7 +1350,9 @@ function showPrayers(args: {
   if (!args.prayersSequence && !args.table) return;
 
 
-  const showActors = JSON.parse(localStorage.showActors);
+  const ignored = JSON.parse(localStorage.showActors)
+    .filter((actor: Actor) => !actor.Show && actor.Class)
+    .map((actor: Actor) => actor.Class);
 
   (function setDefaults() {
     //Setting container, and the values for the missing arguments
@@ -1385,36 +1389,38 @@ function showPrayers(args: {
 
   function processTables(): HTMLDivElement[] {
     //We will return an HTMLDivElement[] of all the divs that will be created from wordTable
-    const htmlDivs: HTMLDivElement[] = [];
-    let entireTable: string[][],
-      dataGroup: string,
-      dataRoot: string;
+    let htmlDivs: HTMLDivElement[] = [];
+    let dataRoot: string;//!dataRoot must be declared here because its value is dynamicaly changed by processRow() if row[0] does not start with Prefix.same. We need its value to remain unchanged if row[0] starts with Prefix.same
 
     tables.forEach((table) => {
       if (!table) return;
-      entireTable = unfoldPlaceHolders(table);
-      dataGroup = splitTitle(Title(entireTable))[0];//This will not change and will serve to set the dataset.group property of all the div elements that will be created for the table
-      entireTable.forEach((row) => htmlDivs.push(processRow(row)));
+      const entireTable = unfoldPlaceHolders(table);
+      const dataGroup = splitTitle(Title(entireTable))[0];//This will not change and will serve to set the dataset.group property of all the div elements that will be created for the table
+      entireTable.forEach((row) => htmlDivs.push(processRow(row, dataGroup)));
     });
 
-
-    htmlDivs
-      .filter(div => div?.classList.contains('Same'))
-      .forEach(div => {
-        if (htmlDivs[htmlDivs.indexOf(div) - 1])
-          div.classList.replace('Same', Array.from(htmlDivs[htmlDivs.indexOf(div) - 1].classList).find(c => c !== 'Row') || 'NoActor')
+    htmlDivs = htmlDivs.filter(div => div);//!We must remove undefined divs because they will cause problems if kept, will not be able to set the data-root of all the divs with Prefix.Same
+    
+    const same = splitTitle(css.Same)[1];
+    
+    return htmlDivs
+      .map((div, index) => {
+        if (!div.classList.contains(same)) return div;
+        const previous = htmlDivs[index - 1];
+        div.classList.replace(same, Array.from(previous?.classList).find(c => c !== css.Row) || splitTitle(css.NoActor)[1])
+        return div
       });
-    return htmlDivs;
 
-    function processRow(row: string[]): HTMLDivElement {
+
+    function processRow(row: string[], dataGroup: string): HTMLDivElement {
       if (!row) return;
-      if (!row[0].startsWith(Prefix.same)) dataRoot = splitTitle(row[0])[0];//Each time a row has its own title (which means the row is the first row in a table), we will set the dataset.root of this row and the following rows to the value of row[0]
 
-      const actorClass = splitTitle(row[0])[1] || 'NoActor';
-
-      if (!['Title', 'SubTitle', 'ReadingIntro', 'ReadingEnd', 'Same'].includes(actorClass)
-        && !showActors.find(actor => actor.EN === actorClass)?.Show)
-        return; //If the actor class .Show properety is not set to true, we will not show it
+      let [root, actorClass] = splitTitle(row[0]);
+      
+      if (ignored.includes(actorClass)) return; //If the Show property of the actor class is not set to true, we will not show the row. Also if the row has only 
+      
+      if (!row[0].startsWith(Prefix.same))
+        dataRoot = root;//!If row[0] does not start with Prefix.same, we assume that either this is the title of a new table, or it was done on purpose in order to give the html div that will be created a different datase-root than the rest of the table's rows.
 
       return createHtmlElementForPrayer({
         tblRow: row,
@@ -1519,7 +1525,7 @@ async function setCSS(htmlRows: HTMLDivElement[], amplify: boolean = true) {
 
   function setDivCSS(div: HTMLDivElement) {
     if (!div) return;//!Caution: in some scenarios, htmlRows might contain undefined rows. We need to check for this in order to avoid erros
-    if (div.children.length === 0) div.classList.add(hidden); //If the row has no children, it means that it is a row created as a name of a table or as a placeholder. We will hide the html element
+    if (div.children.length === 0) div.classList.add(css.hidden); //If the row has no children, it means that it is a row created as a name of a table or as a placeholder. We will hide the html element
     //Setting the number of columns and their width for each element having the 'Row' class for each Display Mode
     div.style.gridTemplateColumns = setGridColumnsOrRowsNumber(div);
     //Defining grid areas for each language in order to be able to control the order in which the languages are displayed (Arabic always on the last column from left to right, and Coptic on the first column from left to right)
@@ -1579,11 +1585,11 @@ async function setCSS(htmlRows: HTMLDivElement[], amplify: boolean = true) {
       })();
 
       paragraphs
-        .filter(p => p.classList.contains('AR'))
+        .filter(p => p.classList.contains(css.arabic))
         .forEach(p => p.innerHTML = getArabicNumbers(p.innerHTML));
     }
 
-    if (div.classList.contains("Diacon") || div.classList.contains("Assembly"))
+    if (div.classList.contains(css.Diacon) || div.classList.contains(css.Assembly))
       replaceMusicalNoteSign(paragraphs);
 
     if (
@@ -1617,8 +1623,8 @@ function replaceQuotes(paragraphs: HTMLParagraphElement[]) {
   paragraphs
     .filter(
       (paragraph) =>
-        !paragraph.classList.contains("COP") &&
-        !paragraph.classList.contains("CA")
+        !paragraph.classList.contains(css.coptic) &&
+        !paragraph.classList.contains(css.coptArabic)
     )
     .forEach((paragraph) => {
       paragraph.innerHTML = paragraph.innerHTML
@@ -1654,7 +1660,7 @@ function insertSuperScriptTag(paragraphs: HTMLParagraphElement[]) {
       //We will convert the verses numbers into superscripts
       if (!RegExp('Sup_\.*_Sup').test(parag.innerText)) return;
 
-      if (parag.classList.contains('AR'))
+      if (parag.classList.contains(css.arabic))
         parag.innerHTML = getArabicNumbers(parag.innerHTML);
 
       parag.innerHTML =
@@ -1678,8 +1684,8 @@ function setGridAreas(row: HTMLElement): string {
 
   if (
     areas.indexOf('AR') === 0 &&
-    !row.classList.contains("Comments") &&
-    !row.classList.contains("CommentText")
+    !row.classList.contains(css.Comment) &&
+    !row.classList.contains(css.CommentText)
   ) areas.reverse();  //if the 'AR' is the first language, it means it will be displayed in the first column from left to right. We need to reverse the array in order to have the Arabic language on the last column from left to right
 
 
@@ -1706,7 +1712,7 @@ async function applyAmplifiedText(htmlRows: HTMLDivElement[]) {
         //if the child has the lang attribute set, we will loop each language in langs, and if
         langs.forEach((lang) => {
           if (child.lang === lang[0].toLowerCase())
-            child.classList.add("amplifiedText");
+            child.classList.add(css.amplifiedText);
         });
       });
   });
@@ -1775,10 +1781,10 @@ function collapseOrExpandText(
     htmlElements
       .forEach(div => {
         if (div === titleRow) return;
-        if (titleRow.dataset.isCollapsed && !div.classList.contains(hidden))
-          div.classList.add(hidden);
-        else if (div.classList.contains(hidden))
-          div.classList.remove(hidden)
+        if (titleRow.dataset.isCollapsed && !div.classList.contains(css.hidden))
+          div.classList.add(css.hidden);
+        else if (div.classList.contains(css.hidden))
+          div.classList.remove(css.hidden)
       });
   };
 }
@@ -1824,8 +1830,8 @@ function collapseAllTitles(
   if (localStorage.displayMode === displayModes[1]) return;
   htmlRows
     .forEach((row) => {
-      if (!isTitlesContainer(row) && !row.classList.contains(hidden))
-        row.classList.add(hidden);
+      if (!isTitlesContainer(row) && !row.classList.contains(css.hidden))
+        row.classList.add(css.hidden);
       else if (isTitlesContainer(row)) {
         row.dataset.isCollapsed = "true";
         togglePlusAndMinusSignsForTitles(row);
@@ -2051,7 +2057,7 @@ function displaySettingsPanel(langs: boolean = false) {
     function createDataList(id: string): HTMLOptionElement[] {
       let list = document.createElement("datalist");
       list.id = id;
-      list.classList.add(hidden);
+      list.classList.add(css.hidden);
       btnsContainer.appendChild(list);
       for (let i = 0.25; i <= 2; i += 0.25) {
         let option = document.createElement("option");
@@ -2194,7 +2200,7 @@ function displaySettingsPanel(langs: boolean = false) {
             event: "click",
             fun: () => {
               args.fun(lang[0]);
-              newBtn.classList.toggle("langBtnAdd");
+              newBtn.classList.toggle(css.addLanguage);
               //We retrieve again the displayed text/prayers by recalling the last button clicked
               if (containerDiv.children) {
                 //Only if a text is already displayed
@@ -2205,7 +2211,7 @@ function displaySettingsPanel(langs: boolean = false) {
           },
         });
         if (JSON.parse(localStorage.userLanguages)[args.index] !== lang[0])
-          newBtn.classList.add("langBtnAdd"); //The language of the button is absent from userLanguages[], we will give the button the class 'langBtnAdd'
+          newBtn.classList.add(css.addLanguage); //The language of the button is absent from userLanguages[], we will give the button the class 'langBtnAdd'
       });
       args.btnsContainer.style.gridTemplateColumns = setGridColumnsOrRowsNumber(
         args.btnsContainer,
@@ -2213,7 +2219,7 @@ function displaySettingsPanel(langs: boolean = false) {
       );
     }
     function showLanguagesModal(labels: { AR: string; FR: string, EN: string; Type: string }[]) {
-      containerDiv.classList.add(hidden);
+      containerDiv.classList.add(css.hidden);
 
       //Creating a modalContainer for the settings buttons
       const container = createBtnsContainer("modalContainer", getLabel(labels[0]), 'modalContainer');
@@ -2290,7 +2296,7 @@ function displaySettingsPanel(langs: boolean = false) {
         function finish() {
           showDates();//We update the dates boxes because when the defaultLanguage is not set, they display 'undefined' values
           container.remove(); //We remove the btns container
-          containerDiv.classList.remove(hidden);
+          containerDiv.classList.remove(css.hidden);
         }
 
       }
@@ -2321,10 +2327,10 @@ function displaySettingsPanel(langs: boolean = false) {
           event: "click",
           fun: () => {
             actor.Show = !actor.Show; //inversing the value of the boolean
-            btn.classList.toggle("langBtnAdd");
+            btn.classList.toggle(css.addLanguage);
             //changing the background color of the button to red by adding 'langBtnAdd' as a class
-            if (actor.EN === "Comments")
-              userActors.find((el) => el.EN === "CommentText").Show = actor.Show; //setting the value of 'CommentText' same as 'Comment'
+            if (actor.Class === css.Comment)
+              userActors.find((el) => el.Class === css.CommentText).Show = actor.Show; //setting the value of 'CommentText' same as 'Comment'
             localStorage.showActors = JSON.stringify(userActors); //adding the new values to local storage
             if (containerDiv.children) {
               //Only if some prayers text is already displayed
@@ -2335,7 +2341,7 @@ function displaySettingsPanel(langs: boolean = false) {
         },
       });
 
-      if (!actor.Show) btn.classList.add("langBtnAdd");
+      if (!actor.Show) btn.classList.add(css.addLanguage);
     });
     btnsContainer.style.gridTemplateColumns = setGridColumnsOrRowsNumber(
       btnsContainer,
@@ -2378,15 +2384,15 @@ function displaySettingsPanel(langs: boolean = false) {
 
               Array.from(btnsContainer.children).map((btn) => {
                 btn.id !== localStorage.displayMode
-                  ? btn.classList.add("langBtnAdd")
-                  : btn.classList.remove("langBtnAdd");
+                  ? btn.classList.add(css.addLanguage)
+                  : btn.classList.remove(css.addLanguage);
               });
             }
           },
         },
       });
       if (mode !== localStorage.displayMode) {
-        btn.classList.add("langBtnAdd");
+        btn.classList.add(css.addLanguage);
       }
     });
     btnsContainer.style.gridTemplateColumns = setGridColumnsOrRowsNumber(
@@ -2467,7 +2473,7 @@ function displaySettingsPanel(langs: boolean = false) {
         event: "click",
         fun: async () => {
           location.reload();
-          checkVersion(await fetch('./version.json').then(async resp=>await resp.json()).then(json=>json.version));
+          checkVersion(await fetch('./version.json').then(async resp => await resp.json()).then(json => json.version));
         },
       },
     });
@@ -2488,7 +2494,7 @@ function displaySettingsPanel(langs: boolean = false) {
 
     expandableBtnsPannel.appendChild(btnsContainer);
     let labelsDiv = document.createElement("div");
-    labelsDiv.classList.add("settingsLabel");
+    labelsDiv.classList.add(css.settingsLabel);
     btnsContainer.insertAdjacentElement("beforebegin", labelsDiv);
     let label = document.createElement("h3");
     label.innerText = labelText.DL;
@@ -2644,7 +2650,7 @@ function convertHtmlDivElementsIntoArrayTable(
     else if (htmlRow.dataset.isPlaceHolder)
       firstElement = Prefix.placeHolder;
     else if (htmlRow.dataset.isPrefixSame || [splitTitle(htmlRow.title)[0], splitTitle(htmlRow.dataset.root)[0]].includes(splitTitle(title)[0]))
-      firstElement = Prefix.same + '&C=' + splitTitle(htmlRow.title)[1];
+      firstElement = Prefix.same + Object.values(css).find(v => htmlRow.title.endsWith(v)) || ''
 
     table[table.length - 1]?.unshift(firstElement);//We add the title string element to the last row of the table that we have just pushed. 
   });
@@ -2740,9 +2746,7 @@ function populatePrayersArrays() {
  * @param {string} title - the string that we need to split
  */
 function splitTitle(title: string): string[] {
-  if (!title) return [];
-  if (!title.includes("&C=")) return [title, ""];
-  return title.split("&C=");
+  return title?.split(Prefix.class) || ["", ""];
 }
 
 
@@ -2792,7 +2796,7 @@ function showNextOrPreviousSildeInPresentationMode(next: boolean = true) {
     else if (
       next &&
       div.parentElement &&
-      div.parentElement.classList.contains("Expandable")
+      div.parentElement.classList.contains(css.expandableDiv)
     )
       nextDiv = div.parentElement.nextElementSibling as HTMLDivElement;
     else if (!next && div.previousElementSibling)
@@ -2800,7 +2804,7 @@ function showNextOrPreviousSildeInPresentationMode(next: boolean = true) {
     else if (
       !next &&
       div.parentElement &&
-      div.parentElement.classList.contains("Expandable")
+      div.parentElement.classList.contains(css.expandableDiv)
     )
       nextDiv = div.parentElement.previousElementSibling as HTMLDivElement;
     else nextDiv = undefined; //!CAUTION: we must set nextSlide to undefined if none of the above cases applies. Otherwise the function will loop infintely
@@ -2933,7 +2937,7 @@ async function firstLetter() {
  * @return {boolean} returns true if the html element has any of the titel classes
  */
 function isTitlesContainer(htmlRow: HTMLElement): boolean {
-  return hasClass(htmlRow, ["Title", "SubTitle"]);
+  return hasClass(htmlRow, [css.Title, css.SubTitle].map(css => css.split(Prefix.class)[1]));
 }
 
 /**
@@ -2955,7 +2959,7 @@ function hasClass(htmlRow: HTMLElement | Element, classList: string[]) {
  * @param {HTMLDivElement} htmlRow - the html element that we want to check if it has any of the classes related to comments
  */
 function isCommentContainer(htmlRow: HTMLDivElement | Element): boolean {
-  return hasClass(htmlRow, ["Comments", "CommentText"]);
+  return hasClass(htmlRow, [css.Comment, css.CommentText].map(css => css.split(Prefix.class)[1]));
 }
 
 /**
@@ -2972,10 +2976,10 @@ function hideOrShowTitle(titleGroup: string, hide: boolean) {
 
   titles
     .forEach(title => {
-      if (hide && !title.classList.contains(hidden))
-        title.classList.add(hidden);
-      if (!hide && title.classList.contains(hidden))
-        title.classList.remove(hidden)
+      if (hide && !title.classList.contains(css.hidden))
+        title.classList.add(css.hidden);
+      if (!hide && title.classList.contains(css.hidden))
+        title.classList.remove(css.hidden)
     });
 }
 

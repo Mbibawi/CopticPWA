@@ -55,7 +55,7 @@ class Button {
     this._html = btn.html;
     btn.cssClass
       ? (this._cssClass = btn.cssClass)
-      : (this._cssClass = btnClass);
+      : (this._cssClass = css.sideBarButton);
   }
   //Getters
   get btnID() {
@@ -266,17 +266,14 @@ const Prefix = {
   psalmody: "Psalmody_",
   prayersArray: 'PrayersArray_',
   readingRef: 'RRef_',
-  changeClass: 'CCSS_',
+  changeClass: 'CCSS_',//This prefix is used in an empty row of a table in order to tell that the following row will have another class. This is need when for example the following row is a placeHolder (i.e., starts with Prefix.placeholder) since we cannot set the class of the table that will be inserted. Usually the rows of table referenced by the placeholder have as class css.Same, which means that each row will inherit the class of the preivous row. 
+  class: '&C='
 };
 
 const anyDay = '&D=$copticFeasts.AnyDay',
   plusCharCode: number = 10133,
-  btnClass = "sideBarBtn",
   eighthNoteCode: number = 9834,
-  beamedEighthNoteCode: number = 9835,
-  inlineBtnClass = "inlineBtn",
-  inlineBtnsContainerClass = "inlineBtns",
-  hidden = "hiddenElement";
+  beamedEighthNoteCode: number = 9835;
 
 
 const ReadingsArrays = {
@@ -381,12 +378,15 @@ const GreatLordFeasts = [
     copticFeasts.HolyThursday,
     copticFeasts.HolyFriday,
   ],
-  copticFasts = [
-    Seasons.NativityFast,
+  Kiahk = [
     Seasons.KiahkWeek1,
     Seasons.KiahkWeek2,
     Seasons.KiahkWeek3,
     Seasons.KiahkWeek4,
+  ],
+  copticFasts = [
+    ...Kiahk,
+    Seasons.NativityFast,
     Seasons.JonahFast,
     Seasons.GreatLent,
     Seasons.HolyWeek,
@@ -436,7 +436,6 @@ const apostlesFeasts = {
   StLuke: '2202',
   StMarc: "3008",
   AnyPostle: '',
-  
 }
 
 
@@ -572,7 +571,7 @@ const PrayersArrays = [
 const textAmplified = [];
 //VARS
 
-type Actor = { Show: boolean, EN: string; FR?: string; AR?: string };
+type Actor = { Show: boolean, EN: string; FR?: string; AR?: string, Class?: string };
 
 const actors: Actor[] = [
   {
@@ -580,36 +579,95 @@ const actors: Actor[] = [
     EN: "Priest",
     FR: "Prêtre",
     AR: "الكاهن",
+    Class: "PR",
   },
   {
     Show: true,
     EN: "Diacon",
     FR: "Diacre",
     AR: "الشماس",
+    Class: "DI",
   },
   {
     Show: true,
     EN: "Assembly",
     FR: "Assemblée",
     AR: "الشعب",
+    Class: "AS",
   },
   {
     Show: false,
     EN: "Comments",
     FR: "Commentaires",
     AR: "تعليقات",
+    Class: "CO",
   },
   {
     Show: false,
     EN: "CommentText",
+    Class: "TC"
   },
   {
     Show: true,
     EN: "NoActor",
+    Class: "NA"
   },
 ]; //These are the names of the classes given to each row accordin to which we give a specific background color to the div element in order to show who tells the prayer
+
+const css = {
+  Priest: `${Prefix.class}${actors[0].Class}`,
+  Diacon: `${Prefix.class}${actors[1].Class}`,
+  Assembly: `${Prefix.class}${actors[2].Class}`,
+  Title: `${Prefix.class}TI`,
+  SubTitle: `${Prefix.class}ST`,
+  Comment: `${Prefix.class}${actors[3].Class}`,
+  CommentText: `${Prefix.class}${actors[4].Class}`,
+  Intro: `${Prefix.class}RI`,
+  End: `${Prefix.class}RE`,
+  Same: `${Prefix.class}SA`,
+  NoActor: `${Prefix.class}NA`,
+  Row: "Row",
+  arabic: "AR",
+  french: "FR",
+  english: "EN",
+  coptic: "COP",
+  coptArabic: "CA",
+  amplifiedText: "amplifiedText",
+  sideBarButton: "sideBarBtn",
+  inlineButton: "inlineBtn",
+  inlineButtonsContainer: "inlineBtns",
+  buttonText: "btnText",
+  dateDiv: "dateDiv",
+  dateBox: "dateBox",
+  credentialsContainer: "credentialsDiv",
+  hidden: "hiddenElement",
+  musicalNote: "musicalNote",
+  superScript: "superScript",
+  slide: "Slide",
+  addLanguage: "langBtnAdd",
+  btnsContainer: "btnsDiv",
+  editingBtn: "btnEditing",
+  extended: "extended",
+  masterButtonDiv: "masterBtnDiv",
+  mainPageButton: "mainPageBtns",
+  slideRow: "SlideRow",
+  expand: "expand",
+  settings: "settings",
+  settingsLabel: "settingsLabel",
+  expandableDiv: "Expandable",
+  sideTitle: "sideTitle",
+  single: "Single",
+  closeBtn: "closebtn",
+}
 if (!localStorage.showActors)
   localStorage.showActors = JSON.stringify(actors);
+else if (!JSON.parse(localStorage.showActors).find(actor => actor.Class))
+  localStorage.showActors = JSON.stringify(
+    JSON.parse(localStorage.showActors)
+      .map((actor: Actor) => {
+        actor.Class = actors.find((a: Actor) => a.EN === actor.EN)?.Class;
+        return actor;
+      }));
 else if (JSON.parse(localStorage.showActors)[0][1] !== undefined)
   localStorage.showActors = JSON.stringify(JSON.parse(localStorage.showActors)
     .map((actor: Actor) => {

@@ -78,7 +78,7 @@ function startEditingMode(args: {
 
     args.tablesArray[0].push([...args.tablesArray[0][0]]); //!Caution, we need to deconstruct the elements of the row. Otherwise it will not be a true copy. We add a second row to the table.
 
-    args.tablesArray[0][0][0] += "&C=Title"; //We remove the '&C=Title' from the second row
+    args.tablesArray[0][0][0] += css.Title; //We remove the '&C=Title' from the second row
   }
 
   function editSpecificTable(
@@ -411,7 +411,7 @@ function changeCssClass(htmlParag: HTMLElement, newClass?: string) {
   if (!newClass) newClass = prompt("Provide The New Class", currentClass);
   if (!newClass || newClass === currentClass) return;
 
-  htmlRow.title = splitTitle(htmlRow.title)[0] + "&C=" + newClass;
+  htmlRow.title = splitTitle(htmlRow.title)[0] + Prefix.class + newClass;
 
   if (currentClass) htmlRow.classList.replace(currentClass, newClass);
   else if (!htmlRow.classList.contains(newClass))
@@ -466,7 +466,7 @@ function changeTitle(
         sibling.dataset.root = splitTitle(newTitle)[0];
         let cssClass = splitTitle(sibling.title)[1];
         sibling.title = sibling.dataset.root;
-        if (cssClass) sibling.title += "&C=" + cssClass;
+        if (cssClass) sibling.title += Prefix.class + cssClass;
         changeParagraphsDataRoot(sibling as HTMLDivElement, sibling.title);
       });
   })();
@@ -484,7 +484,7 @@ function createEditingButton(
   btnsDiv: HTMLElement
 ): HTMLButtonElement {
   let btnHtml: HTMLButtonElement = document.createElement("button");
-  btnHtml.classList.add(inlineBtnClass);
+  btnHtml.classList.add(css.inlineButton);
   btnHtml.classList.add("btnEditing");
   btnHtml.innerText = label;
   btnHtml.addEventListener("click", () => fun());
@@ -761,17 +761,25 @@ function replacePrefixes(text: string, arrayName: string): string {
     else text = text.replaceAll('"' + eval(prefix), (prefix += '+"'));
   });
 
+  replaceClass(text);
+
   if (!arrayName.startsWith("PrayersArray")) return text;
 
 
   //Replace variables
-
 
   replaceVariables(variable.giaki, '" + variable.giaki.XXX+ "');
 
   replaceVariables(variable.thanksVespers, '" + variable.thanksVespers.XXX');
 
   return text
+
+  function replaceClass(text: string) {
+    Object.entries(css).forEach(([name, value]) => {
+      text = text.replaceAll(value, `" + css.${name}`)
+    });
+    return text
+  }
 
   function replaceVariables(v: any, r: string) {
     ['AR', 'FR', 'EN', 'COP', 'CA']
@@ -1009,7 +1017,7 @@ function createHtmlElementForPrayerEditingMode(args: {
   if (!isPlaceHolder) {
     args.tblRow.length > 1 ? dataRoot = args.titleBase : dataRoot = splitTitle(args.tblRow[0])[0];//If the row contains only 1 element, it means that this row has no text and was inserted in order to generate an html div that will be later on used as a placeholder anchor for another prayer to be inserted. We will give the html element as data-root and a data-group the tblRow[0] in roder to avoid this element to be treated as a "Prefix.same" element when the array is saved and exported
     htmlRow.classList.add("Row"); //we add 'Row' class to this div
-    htmlRow.title = args.titleBase + "&C=" + actorClass; //We need to record the full title of each row (i.e. row[0]) in order to be able to add it when we convert the html element into an element in an Array
+    htmlRow.title = args.titleBase + Prefix.class + actorClass; //We need to record the full title of each row (i.e. row[0]) in order to be able to add it when we convert the html element into an element in an Array
 
     if (args.tblRow[0].startsWith(Prefix.same)) htmlRow.dataset.isPrefixSame = 'true';//We need this in order to be able to determine whether when exporting the table, the row should be a row starting with Prefix.same, or should be given the full title as the 1st row of the table
 
@@ -1320,7 +1328,7 @@ function splitParagraphsToTheRowsBelow(htmlParag: HTMLElement) {
   let title: string =
     htmlParag.parentElement.dataset.title ||
     htmlParag.parentElement.dataset.root +
-    "&C=" +
+    Prefix.class +
     Array.from(htmlParag.parentElement.classList).find((c) => c !== "Row"),
     lang: string = htmlParag.lang,
     table: HTMLElement[] = Array.from(containerDiv.children).filter(
@@ -1404,16 +1412,16 @@ async function convertCopticFont(args: {
   if (!args.fontFrom) return;
 
   if (args.tableTitle) {
-    let table: string[][] = getArrayFromPrefix(args.tableTitle).find(tbl => new RegExp(args.tableTitle).test(Title(tbl)));
+    const table = findTable(args.tableTitle, undefined, undefined, true) as string[][];
     if (!table) return alert('No table with the provided title was found. Be careful, the name of the table is assessed as a Regular Expression. You may need to escape some letters');
     let langs = getLanguages(args.tableTitle);
     if (!langs || !langs.includes('COP')) return;
     let prefix: [string, string];
     for (let row of table) {
       row[langs.indexOf('COP') + 1] = await convert(row[langs.indexOf('COP') + 1]);
-      prefix = Object.entries(Prefix).find(entry => row[0].startsWith(entry[1]));
+      prefix = Object.entries(Prefix).find(prefix => row[0].startsWith(prefix[1]));
       if (!prefix) continue;
-      row[0] = row[0].replace(prefix[1], "Prefix." + prefix[0] + '+ "');
+      row[0] = `Prefix.${prefix[0]} + "${row[0].replace(prefix[1], '')}`;
     }
 
     return table
@@ -1459,7 +1467,7 @@ async function convertCopticFont(args: {
     let converted: string[] = [];
     let paragraphs = originalText.split('<br>');
     for (let parag of paragraphs) {
-      if (!['CS_AVVA_SHENOUDA'].includes(args.fontFrom))
+      if (!['NOFONT'].includes(args.fontFrom))
         converted.push(await convertFontWithoutAPI(parag, args.fontFrom));
       else converted.push(await convertFromAPI(parag) || '');
     }
@@ -1774,9 +1782,9 @@ async function _FixPropheciesIntroductionOrPsalm() {
 
   async function processPropheciesTable() {
     if (!table) return;
-    const introductions = table.filter(row => row[0] === Prefix.same + "&C=Diacon" && row[1].length > 0 && !row[2] && !row[3]);
+    const introductions = table.filter(row => row[0] === Prefix.same + css.Diacon && row[1].length > 0 && !row[2] && !row[3]);
 
-    if (!introductions) return alert(`No Row with title ${Prefix.same}&C=Diacon was found !`);
+    if (!introductions) return alert(`No Row with title ${Prefix.same}${css.Diacon} was found !`);
 
     console.log(`row =`, introductions);
 
@@ -1797,7 +1805,7 @@ async function _FixPropheciesIntroductionOrPsalm() {
       console.log('converted coptic text = ', copticText);
       copticText
         .reverse()
-        .map(text => table?.splice(table?.indexOf(row) + 1, 0, [Prefix.same + '&C=ReadingIntro', text, "", ""]));
+        .map(text => table?.splice(table?.indexOf(row) + 1, 0, [Prefix.same + css.Intro, text, "", ""]));
       table?.splice(table?.indexOf(row), 1);
     }
   }
@@ -1810,9 +1818,9 @@ async function _FixPropheciesIntroductionOrPsalm() {
 
       [1, 2, 3].forEach(i => distribute(row, row[i].split('\n'), i));
     });
-    
-    function distribute(row:string[], splitted:string[], i:number) {
-      if(splitted.length !==2) return;
+
+    function distribute(row: string[], splitted: string[], i: number) {
+      if (splitted.length !== 2) return;
       table[0][i] += '\n' + splitted[0];
       row[i] = splitted[1];
     }
@@ -1822,12 +1830,12 @@ async function _FixPropheciesIntroductionOrPsalm() {
   async function processAnyTable() {
     if (!table) return;
 
-    for (let row of table){
+    for (let row of table) {
       const copticText = await _FixCopticText(undefined, row[1]) as string[];
 
       row[1] = copticText.join('\n');
     }
-        
+
   }
 }
 
@@ -10215,7 +10223,7 @@ function _reformatReadingArray(array: string[][][]) {
   let titlesRows: string[][];
   return array.map(table => {
     if (table.filter(row => row[0].startsWith(Prefix.readingRef)).length > 0) return table;
-    titlesRows = table.filter(row => row[0].endsWith('&C=Title') || row[0].endsWith('&C=SubTitle'));
+    titlesRows = table.filter(row => row[0].endsWith(css.Title) || row[0].endsWith(css.SubTitle));
     let newTable = [];
     titlesRows.forEach(row => {
       newTable.push([row[0], row[1]]),
@@ -10232,11 +10240,11 @@ function _prepareReadingArrayForReferences(array: string[][][]) {
   let name = getArrayNameFromArray(array);
   saveOrExportArray(
     array.map(tbl => {
-      tbl = tbl.filter(row => row[0].includes("&C=Title"));
+      tbl = tbl.filter(row => row[0].includes(css.Title));
       tbl.forEach(row => {
         if (row.includes('Psalm&D='))
-          tbl.splice(tbl.indexOf(row) + 1, 0, [Prefix.readingRef + "PSA:&C="]);
-        else tbl.splice(tbl.indexOf(row) + 1, 0, [Prefix.readingRef + "XXX&C="]);
+          tbl.splice(tbl.indexOf(row) + 1, 0, [`${Prefix.readingRef}PSA:${Prefix.class}`]);
+        else tbl.splice(tbl.indexOf(row) + 1, 0, [`${Prefix.readingRef}XXX${Prefix.class}`]);
       })
 
       return tbl;
@@ -10255,7 +10263,7 @@ function _fixReadingReferences(readingArray: string[][][]) {
   readingArray
     .forEach(table =>
       table.forEach(row => {
-        if (row[0].endsWith('&C=Title'))
+        if (row[0].endsWith(css.Title))
           table[table.indexOf(row)] = [row[0]];
         if (!row[0].startsWith(Prefix.readingRef)) return;
 
@@ -10268,7 +10276,7 @@ function _fixReadingReferences(readingArray: string[][][]) {
 
         (function process() {
           if (!row[0].includes(';')) return;
-          let actor = splitTitle(row[0])[1];
+          let actor = Object.values(css).find(v => row[0].endsWith(v));
           let parts = splitTitle(row[0])[0].split(';');
           let root = parts[0].replace(Prefix.readingRef, '').split(':');//[PSA, 12, 2-3];
           row[0] = Prefix.readingRef + root[0] + ':' + root[1] + ':' + correctVerses(root[2]) + '/';
@@ -10277,7 +10285,7 @@ function _fixReadingReferences(readingArray: string[][][]) {
             .map(verse => root[1] + ':' + correctVerses(verse))
             .join('/');
 
-          if (actor) row[0] += '&C=' + actor;
+          if (actor) row[0] += actor;
 
           function correctVerses(verse: string) {
             if (verse.includes('-'))
@@ -10463,7 +10471,7 @@ function _combineReadingsReferences(readingArray: string[][][]) {
     debugger
     const duplicateDate = duplicateTitle.split('&D=')[1];
 
-    first[1][0][0] = firstTitle[0] + '||' + duplicateDate + '&C=' + firstTitle[1] + 'Duplicate =' + duplicateDate;
+    first[1][0][0] = firstTitle[0] + '||' + duplicateDate + Prefix.class + firstTitle[1] + 'Duplicate =' + duplicateDate;
 
     readingArray.splice(readingArray.indexOf(table), 1);
 
@@ -10601,7 +10609,7 @@ function _testReadings() {
           readingDate = copticDate;
         let reading: string[][][] =
           getArrayFromPrefix(prefix[0])
-            .filter((tbl) => isMultiDatedTitleMatching(Title(tbl), [readingDate]));//We do a filter not a find because Gospels arrays include 2 tables for each day: Psalm table and Gospel table
+            .filter((tbl) => tableMatchingDates(Title(tbl), [readingDate]));//We do a filter not a find because Gospels arrays include 2 tables for each day: Psalm table and Gospel table
 
         if (reading.length < 1) {
           result += "\n\n\ncopticDate = " + copticDate + "\n";
@@ -10625,7 +10633,7 @@ function _mergeReferencesIntoOneRow(array: string[][][]) {
   let refs: string[][][], first: string[];
   for (let table of array) {
     for (let row of table) {
-      if (row[0].includes('&C=Title')) refs.push([]);//new Table
+      if (row[0].includes(css.Title)) refs.push([]);//new Table
       if (row[0].startsWith(Prefix.readingRef))
         refs[refs.length - 1].push(row)
       else continue
@@ -10648,9 +10656,9 @@ function _splitHWGospelIntoTable() {
       if (table.length < 1) return GN.splice(GN.indexOf(table), 1);
       if (!Title(table).startsWith(Prefix.HolyWeek)) return;
       if (!Title(table).includes('Gospel&D=')) return;
-      if (table.map(row => row[0].includes('&C=Title')).length < 2) return;
-      let titleRows = table.filter(row => row[0].includes('&C=Title'));
-      titleRows = titleRows.filter(row => row[0].includes('Gospel&D=') || ['JHN', 'MAT', 'LUK', 'MRK'].map(prefix => row[0].includes(prefix + '&C=Title')).includes(true));
+      if (table.map(row => row[0].includes(css.Title)).length < 2) return;
+      let titleRows = table.filter(row => row[0].includes(css.Title));
+      titleRows = titleRows.filter(row => row[0].includes('Gospel&D=') || ['JHN', 'MAT', 'LUK', 'MRK'].map(prefix => row[0].includes(prefix + css.Title)).includes(true));
       if (titleRows.length <= 1) return;
       let tables =
         titleRows
@@ -10800,7 +10808,7 @@ function _MergeDuplicateReadings(array: string[][][]) {
       title = getReadingDate(Title(table));
       title += similar.map(tbl => '||' + getReadingDate(Title(tbl))).join('');
 
-      table[0][0] = Title(table).split('&D=')[0] + '&D=' + title + '&C=' + Title(table).split('&C=')[1];
+      table[0][0] = Title(table).split('&D=')[0] + '&D=' + title + Prefix.class + Title(table).split(Prefix.class)[1];
 
 
 
@@ -10819,11 +10827,11 @@ function _MergeDuplicateReadings(array: string[][][]) {
   }
 
   function getCleanRef(ref: string) {
-    return ref.split(Prefix.readingRef)[1].split('&C=')[0].replace(' ', '')
+    return ref.split(Prefix.readingRef)[1].split(Prefix.class)[0].replace(' ', '')
   }
 
   function getReadingDate(title: string) {
-    return title.split('&D=')[1].split('&C=')[0];
+    return title.split('&D=')[1].split(Prefix.class)[0];
   }
 }
 
@@ -10837,7 +10845,7 @@ function _FixPropheciesRefs(): string[][][] {
         return row
       splitted = splitTitle(row[0]);
       return [
-        "Prefix.same + \"&C=" + (splitted[1] || 'Diacon'),
+        "Prefix.same + Prefix.class + (splitted[1] || 'Diacon')",
         "",
         splitted[0],
         splitted[0],
@@ -10860,24 +10868,24 @@ function _FixArabicNumbers(prefix: string) {
     })
   });
 
-} 
+}
 
-function _FixHolyWeekGospelReferences(){
+function _FixHolyWeekGospelReferences() {
   ReadingsArrays.GospelNightArrayFR.forEach(table => {
-    table.forEach((row,index)=>{
-      if(index<1) return
-      if(!row[0]?.endsWith('Diacon')) return;
+    table.forEach((row, index) => {
+      if (index < 1) return
+      if (!row[0]?.endsWith('Diacon')) return;
       if (!row[2]?.startsWith(Prefix.readingRef)) return;
-      table[index] = [row[2] + '&C=Diacon'];
+      table[index] = [row[2] + css.Diacon];
       console.log(table[index]);
     });
   })
   saveOrExportArray(ReadingsArrays.GospelNightArrayFR, 'ReadingsArrays.GospelNightArrayFR', true, false);
 }
 
-function _FindMultipleReadingsReferencesInSameRow(){
+function _FindMultipleReadingsReferencesInSameRow() {
   const result = [];
-  Object.entries(ReadingsArrays).forEach(([name, array])=>{
+  Object.entries(ReadingsArrays).forEach(([name, array]) => {
     array.forEach(table => {
       //const found = table.find(row=>row.filter(el=>el.startsWith(Prefix.readingRef)).length>1);
       const found = table.find(row => row.length > 1 && row.filter(el => el.startsWith(Prefix.readingRef)).length > 0);
@@ -10886,4 +10894,16 @@ function _FindMultipleReadingsReferencesInSameRow(){
     });
   })
   return result
+}
+
+async function _ConvertCopticFontInEntireTableByTableTitle() {
+  const title = prompt('Provide the table title');
+  if (!title) return alert('The title is not valid');
+  return await convertCopticFont({ tableTitle: eval(title) })
+
+}
+async function _ConvertTextCopticFont() {
+  const text = prompt('Provide the text you want to convert');
+  if (!text) return alert('The title is not valid');
+  return await convertCopticFont({ text: text })
 }
