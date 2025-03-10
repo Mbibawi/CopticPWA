@@ -560,7 +560,9 @@ function createHtmlElementForPrayer(args: {
       args.container = containerDiv
   })();
 
-  if (args.actorClass === css.Comment)
+  const [title, subtitle, comment] = [css.Title, css.SubTitle, css.Comment].map(css => splitTitle(css)[1]);
+
+  if (args.actorClass === comment)
     args.languagesArray = ['FR', 'AR'];//The 'Comments' rows are structured like: [Title, FR, AR] regardless of the languages of the array
 
   let htmlRow: HTMLDivElement,
@@ -607,7 +609,8 @@ function createHtmlElementForPrayer(args: {
 
 
     htmlRow.classList.add(args.actorClass);
-    if (args.actorClass === css.Title) {
+    if ([title, subtitle].includes(args.actorClass)) {
+      htmlRow.dataset.isCollapsed = 'false';//! We must initiate the dataset.isCollapsed of the row
       htmlRow.addEventListener("click", (e) => {
         e.preventDefault;
         collapseOrExpandText(htmlRow);
@@ -1400,9 +1403,9 @@ function showPrayers(args: {
     });
 
     htmlDivs = htmlDivs.filter(div => div);//!We must remove undefined divs because they will cause problems if kept, will not be able to set the data-root of all the divs with Prefix.Same
-    
+
     const same = splitTitle(css.Same)[1];
-    
+
     return htmlDivs
       .map((div, index) => {
         if (!div.classList.contains(same)) return div;
@@ -1416,9 +1419,9 @@ function showPrayers(args: {
       if (!row) return;
 
       let [root, actorClass] = splitTitle(row[0]);
-      
+
       if (ignored.includes(actorClass)) return; //If the Show property of the actor class is not set to true, we will not show the row. Also if the row has only 
-      
+
       if (!row[0].startsWith(Prefix.same))
         dataRoot = root;//!If row[0] does not start with Prefix.same, we assume that either this is the title of a new table, or it was done on purpose in order to give the html div that will be created a different datase-root than the rest of the table's rows.
 
@@ -1514,8 +1517,11 @@ async function setCSS(htmlRows: HTMLDivElement[], amplify: boolean = true) {
   if (!htmlRows) return;
   if (localStorage.displayMode === displayModes[1]) return;
 
-  let plusSign = String.fromCharCode(plusCharCode),
-    minusSign = String.fromCharCode(plusCharCode + 1);
+
+  const plusSign = String.fromCharCode(plusCharCode),
+    minusSign = String.fromCharCode(plusCharCode + 1),
+    diacon = splitTitle(css.Diacon)[1],
+    assembly = splitTitle(css.Assembly)[1];
 
   htmlRows
     .forEach((row) => setDivCSS(row));
@@ -1525,7 +1531,9 @@ async function setCSS(htmlRows: HTMLDivElement[], amplify: boolean = true) {
 
   function setDivCSS(div: HTMLDivElement) {
     if (!div) return;//!Caution: in some scenarios, htmlRows might contain undefined rows. We need to check for this in order to avoid erros
-    if (div.children.length === 0) div.classList.add(css.hidden); //If the row has no children, it means that it is a row created as a name of a table or as a placeholder. We will hide the html element
+    if (div.children.length === 0)
+      return div.classList.add(css.hidden); //If the row has no children, it means that it is a row created as a name of a table or as a placeholder. We will hide the html element
+
     //Setting the number of columns and their width for each element having the 'Row' class for each Display Mode
     div.style.gridTemplateColumns = setGridColumnsOrRowsNumber(div);
     //Defining grid areas for each language in order to be able to control the order in which the languages are displayed (Arabic always on the last column from left to right, and Coptic on the first column from left to right)
@@ -1545,7 +1553,6 @@ async function setCSS(htmlRows: HTMLDivElement[], amplify: boolean = true) {
       });
     })();
 
-    let paragraphs = Array.from(div.querySelectorAll("p"));
 
     if (isTitlesContainer(div)) {
       //This is the div where the titles of the prayer are displayed. We will add an 'on click' listner that will collapse the prayers
@@ -1584,61 +1591,115 @@ async function setCSS(htmlRows: HTMLDivElement[], amplify: boolean = true) {
           defLangParag.innerHTML = minusSign + " " + defLangParag.innerHTML; //We add the minus (-) sig at the begining;
       })();
 
-      paragraphs
-        .filter(p => p.classList.contains(css.arabic))
-        .forEach(p => p.innerHTML = getArabicNumbers(p.innerHTML));
+      (function formatParagraphs() {
+        const paragraphs = Array.from(div.querySelectorAll("p"));
+        paragraphs
+          .filter(p => hasClass(p, [css.arabic]))
+          .forEach(p => p.innerHTML = getArabicNumbers(p.innerHTML));//Converting the numbers of Arabic text to hindi characters
+
+        if (hasClass(div, [diacon, assembly]))
+          replaceMusicalNoteSign(paragraphs);
+
+        if (
+          div.dataset.root
+          &&
+          [
+            Prefix.praxis,
+            Prefix.Catholicon,
+            Prefix.stPaul,
+            Prefix.gospelMorning,
+            Prefix.gospelVespers,
+            Prefix.gospelNight,
+            Prefix.gospelMass,
+            Prefix.synaxarium,
+            Prefix.prophecies,
+            Prefix.bookOfHours,
+            Prefix.HolyWeek
+          ].find((prefix) => div.dataset.root.startsWith(prefix))
+        )
+          replaceQuotes(paragraphs); //If the text is one of the "Readings", we replace the quotes signs
+
+        insertSuperScriptTag(paragraphs);
+      })();
+
     }
 
-    if (div.classList.contains(css.Diacon) || div.classList.contains(css.Assembly))
-      replaceMusicalNoteSign(paragraphs);
+    /**
+   * Replaces the quotes ("") signs in the text by a span containing the relevant quotes sign acording the language
+   * @param {HTMLPargraphElement[]} paragraphs  - the html pragraphs containing the quotes signs that need to be replaced
+   */
+    function replaceQuotes(paragraphs: HTMLParagraphElement[]) {
+      paragraphs
+        .filter(
+          (paragraph) =>
+            !paragraph.classList.contains(css.coptic) &&
+            !paragraph.classList.contains(css.coptArabic)
+        )
+        .forEach((paragraph) => {
+          paragraph.innerHTML = paragraph.innerHTML
+            .replaceAll(String.fromCharCode(171), "<q>")
+            .replaceAll(String.fromCharCode(187), "</q>");
 
-    if (
-      div.dataset.root
-      &&
-      [
-        Prefix.praxis,
-        Prefix.Catholicon,
-        Prefix.stPaul,
-        Prefix.gospelMorning,
-        Prefix.gospelVespers,
-        Prefix.gospelNight,
-        Prefix.gospelMass,
-        Prefix.synaxarium,
-        Prefix.prophecies,
-        Prefix.bookOfHours,
-        Prefix.HolyWeek
-      ].find((prefix) => div.dataset.root.startsWith(prefix))
-    )
-      replaceQuotes(paragraphs); //If the text is one of the "Readings", we replace the quotes signs
-    insertSuperScriptTag(paragraphs);
+          let matches = Array.from(paragraph.innerHTML.matchAll(/"/g));
+          matches.forEach(match => {
+            if (matches.indexOf(match) % 2 === 0)
+              paragraph.innerHTML = paragraph.innerHTML.replace(match[0], '<q>');
+            else paragraph.innerHTML = paragraph.innerHTML.replace(match[0], '</q>')
+          });
+        });
+    }
 
+    /**
+     *  Replaces the verses numbers with a superScript span
+* @param {HTMLPargraphElement[]} paragraphs
+*/
+    function insertSuperScriptTag(paragraphs: HTMLParagraphElement[]) {
 
+      paragraphs
+        .forEach(parag => {
+          //We will convert the verses numbers into superscripts
+          if (!RegExp('Sup_\.*_Sup').test(parag.innerText)) return;
+
+          if (parag.classList.contains(css.arabic))
+            parag.innerHTML = getArabicNumbers(parag.innerHTML);
+
+          parag.innerHTML =
+            parag.innerHTML
+              .replaceAll('Sup_', '<sup class="superScript">')
+              .replaceAll('_Sup', '</sup>');
+
+        })
+    };
   }
-}
-/**
- * Replaces the quotes ("") signs in the text by a span containing the relevant quotes sign acording the language
- * @param {HTMLPargraphElement[]} paragraphs  - the html pragraphs containing the quotes signs that need to be replaced
- */
-function replaceQuotes(paragraphs: HTMLParagraphElement[]) {
-  paragraphs
-    .filter(
-      (paragraph) =>
-        !paragraph.classList.contains(css.coptic) &&
-        !paragraph.classList.contains(css.coptArabic)
-    )
-    .forEach((paragraph) => {
-      paragraph.innerHTML = paragraph.innerHTML
-        .replaceAll(String.fromCharCode(171), "<q>")
-        .replaceAll(String.fromCharCode(187), "</q>");
 
-      let matches = Array.from(paragraph.innerHTML.matchAll(/"/g));
-      matches.forEach(match => {
-        if (matches.indexOf(match) % 2 === 0)
-          paragraph.innerHTML = paragraph.innerHTML.replace(match[0], '<q>');
-        else paragraph.innerHTML = paragraph.innerHTML.replace(match[0], '</q>')
-      });
+  /**
+   * Applies the text size selected by the user
+   * @param {HTMLDivElement[]}  htmlRows - the divs to which the text size will be applied
+   */
+  async function applyAmplifiedText(htmlRows: HTMLDivElement[]) {
+    if (!htmlRows) return;
+    if (localStorage.displayMode === displayModes[1]) return; //We don't amplify the text if we are in the 'Presentation Mode'
+
+    let langs = JSON.parse(localStorage.textAmplified) as [string, boolean][];
+    langs = langs.filter((lang) => lang[1] === true);
+
+    htmlRows.forEach((row) => {
+      //looping the rows in the htmlRows []
+      Array.from(row.children)
+        //looping the children of each row (these children are supposedly paragraph elements)
+        .forEach((child: HTMLElement) => {
+          if (!child.lang) return;
+          //if the child has the lang attribute set, we will loop each language in langs, and if
+          langs.forEach((lang) => {
+            if (child.lang === lang[0].toLowerCase())
+              child.classList.add(css.amplifiedText);
+          });
+        });
     });
+  }
+
 }
+
 
 /**
  * Converts the numbers in a given string to 'hindi' (i.e., Arabic) numbers
@@ -1649,28 +1710,7 @@ function getArabicNumbers(text: string): string {
   }
   return text
 }
-/**
- * Replaces the verses numbers with a superScript span
- * @param {HTMLPargraphElement[]} paragraphs
- */
-function insertSuperScriptTag(paragraphs: HTMLParagraphElement[]) {
 
-  paragraphs
-    .forEach(parag => {
-      //We will convert the verses numbers into superscripts
-      if (!RegExp('Sup_\.*_Sup').test(parag.innerText)) return;
-
-      if (parag.classList.contains(css.arabic))
-        parag.innerHTML = getArabicNumbers(parag.innerHTML);
-
-      parag.innerHTML =
-        parag.innerHTML
-          .replaceAll('Sup_', '<sup class="superScript">')
-          .replaceAll('_Sup', '</sup>');
-
-
-    })
-};
 
 /**
  * Returns a string representing the grid areas for an html element with a 'display:grid' property, based on the "lang" attribute of its children
@@ -1680,113 +1720,101 @@ function insertSuperScriptTag(paragraphs: HTMLParagraphElement[]) {
 function setGridAreas(row: HTMLElement): string {
   if (!row || row.children.length < 1) return;
 
+
   let areas = Array.from(row.children as HTMLCollectionOf<HTMLParagraphElement>).map(child => child.lang.toUpperCase());
 
   if (
-    areas.indexOf('AR') === 0 &&
-    !row.classList.contains(css.Comment) &&
-    !row.classList.contains(css.CommentText)
+    areas.indexOf('AR') === 0 && !isCommentContainer(row)
   ) areas.reverse();  //if the 'AR' is the first language, it means it will be displayed in the first column from left to right. We need to reverse the array in order to have the Arabic language on the last column from left to right
 
 
   return '"' + areas.join(" ") + '"'; //we should get a string like ' "AR COP FR" ' (notice that the string marks " in the beginning and the end must appear, otherwise the grid-template-areas value will not be valid)
 }
 
-/**
- * Applies the text size selected by the user
- * @param {HTMLDivElement[]}  htmlRows - the divs to which the text size will be applied
- */
-async function applyAmplifiedText(htmlRows: HTMLDivElement[]) {
-  if (!htmlRows) return;
-  if (localStorage.displayMode === displayModes[1]) return; //We don't amplify the text if we are in the 'Presentation Mode'
-
-  let langs = JSON.parse(localStorage.textAmplified) as [string, boolean][];
-  langs = langs.filter((lang) => lang[1] === true);
-
-  htmlRows.forEach((row) => {
-    //looping the rows in the htmlRows []
-    Array.from(row.children)
-      //looping the children of each row (these children are supposedly paragraph elements)
-      .forEach((child: HTMLElement) => {
-        if (!child.lang) return;
-        //if the child has the lang attribute set, we will loop each language in langs, and if
-        langs.forEach((lang) => {
-          if (child.lang === lang[0].toLowerCase())
-            child.classList.add(css.amplifiedText);
-        });
-      });
-  });
-}
 
 /**
  * Hides all the nextElementSiblings of a title html element (i.e., a div having the class 'Title' or 'SubsTitle') if the nextElementSibling has the same data-group attribute as the title html element
  * @param {HTMLDivElement} titleRow - the html div element containing the title (i.e. having class "Title" or "Subtitle" in its classList), which, when clicked, we will toggle the 'hidden' class from all the HTML div elements having the same dataset.goup or the same dataset.root
  * @param {boolean} collapse - If collapse = true the funcion will hide the text, and will show it if collapse = false. If ommitted, the function will toggle the "hidden" class 
- * @param {HTMLDivElement[]} children - an array of HTML div elements with the same dataset.group
+ * @param {HTMLDivElement[]} sameTable - an array of HTML div elements with the same dataset.group
  * @param {HTMLDivElement[]} titlesRows - an array of HTML div elements having the same dataset-group and the class "Title" or "Subtitle" in their classList. 
  */
 function collapseOrExpandText(
   titleRow: HTMLDivElement,
   collapse?: boolean,
-  children?: HTMLDivElement[],
-  titlesRows?: HTMLDivElement[],
+  sameTable?: HTMLDivElement[],
   container: HTMLDivElement = containerDiv
 ) {
+  if (sameTable) return toggleHidden(sameTable, collapse);//If the rows that need to be hidden or displayed is provided, we will jumb to the toggleHidden() step directly and will return
+
   if (localStorage.displayMode === displayModes[1]) return; //When we are in the 'Presentation' display mode, the titles sibligins are not hidden when we click the title div
 
-  if (!titleRow.dataset.group) return;
 
-  if (collapse === true) {
-    titleRow.dataset.isCollapsed = "true";
-  } else if (collapse === false) {
-    titleRow.dataset.isCollapsed = "";
-  } else {
-    //In this case we will toggle the isCollapsed status
-    if (titleRow.dataset.isCollapsed)
-      titleRow.dataset.isCollapsed = "";
-    else if (!titleRow.dataset.isCollapsed)
-      titleRow.dataset.isCollapsed = "true";
-  }
-  togglePlusAndMinusSignsForTitles(titleRow);
+  (function processSameTable() {
+    if (!titleRow.dataset.group) return;
 
-  if (!children)
-    children =
+    (function setIsCollapsed() {
+      if (collapse === true) {
+        titleRow.dataset.isCollapsed = "true";
+      } else if (collapse === false) {
+        titleRow.dataset.isCollapsed = "false";
+      } else {
+        //In this case we will toggle the isCollapsed status
+        if (titleRow.dataset.isCollapsed === 'true')
+          titleRow.dataset.isCollapsed = "false";
+        else if (titleRow.dataset.isCollapsed === 'false')
+          titleRow.dataset.isCollapsed = "true";
+      }
+    })();
+
+    togglePlusAndMinusSignsForTitles(titleRow);
+
+    sameTable =
       Array.from(container.querySelectorAll('div') as NodeListOf<HTMLDivElement>)
         //!We must use querySelectorAll because some elements are not direct children of containerDiv (e.g. they may be nested in an expandable element)
-        .filter(div => div?.children?.length > 0) //We exclude rows with no children (those are PlaceHolders)
         .filter(div => div?.dataset?.group)
+        .filter(div => div?.children?.length > 0) //We exclude rows with no children (those are PlaceHolders)
         .filter(div => div.dataset.group === titleRow.dataset.group);
 
-  if (!titlesRows)
-    titlesRows = children.filter((div) => isTitlesContainer(div));//Those are all the "Title" divs having the same data-group as titleRow
+    const titlesRows = sameTable
+      .filter((div) => isTitlesContainer(div))
+      .filter(div => div?.dataset?.root !== titleRow?.dataset?.root);//!We must remove any title row having the same datasetRoot as titleRow. If we don't, it means that we will again and agin get all the rows with the same dataset-root (which may include titleRow itself when the other titles will be passed). This will toggel the hidden class of all these rows again each time the function is called for the titles rows of the same table
 
-  let titleRowChildren: HTMLDivElement[];
+    titlesRows.length < 2 ?
+      sameTable = sameTable //There is only 1 title for the same dataset.group (which is mostly the case)
+      :
+      sameTable = sameDataRoot(sameTable, titleRow.dataset.root);//There are more than 1 title with the same dataset.group attribute. In this case, each titleRow will only hide the divs sharing the same dataset.root (not the same dataset.group because otherwise, all the other titles and their children will be affected)
 
-  titlesRows.length === 1 ?
-    titleRowChildren = children.filter(child => child?.dataset?.group === titleRow.dataset.group) //There is only 1 title for the same dataset.group (which mostly the case)
-    :
-    titleRowChildren = children.filter(child => child?.dataset?.root === titleRow.dataset.root);//There are more than 1 title with the same dataset.group attribute. In this case, each titleRow will only hide the divs sharing the same dataset.root (not the same dataset.group because otherwise, all the other titles and their children will be affected)
+    toggleHidden(sameTable.filter(div => div !== titleRow), titleRow.dataset.isCollapsed === 'true');//! We must remove titleRow from sameTable because otherwise it might get the 'hidden' class added to it by toggleHidden()
 
-  toggleHidden(titleRowChildren);
+    (function processOtherTitles() {
+      if (titlesRows.indexOf(titleRow) > 0) return; //If there are more than one title sharing the same dataset.group, and titleRow is the first amongst those titles, we will toggle the 'hidden' class for all the other titles.
 
-  if (titlesRows.indexOf(titleRow) === 0) {
-    //If there are more than one title sharing the same dataset.group, and titleRow is the first amongst those titles, we will toggle the 'hidden' class for all the other titles.
+      titlesRows
+        .filter(div => div !==titleRow)//! We must exclude titleRow because otherwise will again pass its "bound rows" to toglleHidden() which will again toglle their 'hidden' class (this was already done above!). Besides, titleRow itself might receive the 'hidden' class, which is undesirable since title rows must always remain visible
+        .forEach(titleDiv => {
+          const sameRoot = sameDataRoot(sameTable, titleDiv.dataset.root).filter(div => div !== titleDiv);//!We remove the titleDiv itself to avoid getting the 'hidden' class added to it by toggleHidden()
+          collapseOrExpandText(undefined, titleRow.dataset.isCollapsed === 'true', sameRoot)
+        });
 
-    titlesRows
-      .filter(titleDiv => titleDiv !== titleRow)
-      .forEach(titleDiv => collapseOrExpandText(titleDiv, Boolean(titleRow.dataset.isCollapsed), children, titlesRows));
-  }
+    })();
 
-  function toggleHidden(htmlElements: HTMLElement[]) {
+    function sameDataRoot(rows: HTMLDivElement[], dataRoot: string) {
+      return rows.filter(row => row?.dataset?.root === dataRoot);
+    }
+  })();
+
+  function toggleHidden(htmlElements: HTMLElement[], isCollapsed: Boolean) {
     htmlElements
       .forEach(div => {
-        if (div === titleRow) return;
-        if (titleRow.dataset.isCollapsed && !div.classList.contains(css.hidden))
+        if (isCollapsed && !div.classList.contains(css.hidden))
           div.classList.add(css.hidden);
-        else if (div.classList.contains(css.hidden))
+        else if (!isCollapsed && div.classList.contains(css.hidden))
           div.classList.remove(css.hidden)
       });
   };
+
+
 }
 
 /**
@@ -1806,12 +1834,12 @@ async function togglePlusAndMinusSignsForTitles(
       child?.innerHTML.startsWith(String.fromCharCode(plusCode + 1))
   )[0] as HTMLElement;
   if (!parag) return;
-  if (!titleRow.dataset.isCollapsed) {
+  if (titleRow.dataset.isCollapsed === 'false') {
     parag.innerHTML = parag.innerHTML.replace(
       String.fromCharCode(plusCode),
       String.fromCharCode(plusCode + 1)
     );
-  } else if (titleRow.dataset.isCollapsed) {
+  } else if (titleRow.dataset.isCollapsed === 'true') {
     parag.innerHTML = parag.innerHTML.replace(
       String.fromCharCode(plusCode + 1),
       String.fromCharCode(plusCode)
@@ -1826,13 +1854,14 @@ async function togglePlusAndMinusSignsForTitles(
 function collapseAllTitles(
   htmlRows: HTMLDivElement[]
 ) {
-  if (!htmlRows || htmlRows.length === 0) return;
+  if (!htmlRows) return;
   if (localStorage.displayMode === displayModes[1]) return;
   htmlRows
     .forEach((row) => {
-      if (!isTitlesContainer(row) && !row.classList.contains(css.hidden))
+      const isTitle = isTitlesContainer(row);
+      if (!isTitle && !row.classList.contains(css.hidden))
         row.classList.add(css.hidden);
-      else if (isTitlesContainer(row)) {
+      else if (isTitle) {
         row.dataset.isCollapsed = "true";
         togglePlusAndMinusSignsForTitles(row);
       }
@@ -2936,8 +2965,8 @@ async function firstLetter() {
  * @param {HTMLElement} htmlRow - the hmtl element that we want to check whether it has 'Title' or 'SubTitle' in its classList
  * @return {boolean} returns true if the html element has any of the titel classes
  */
-function isTitlesContainer(htmlRow: HTMLElement): boolean {
-  return hasClass(htmlRow, [css.Title, css.SubTitle].map(css => css.split(Prefix.class)[1]));
+function isTitlesContainer(htmlRow: HTMLElement): string {
+  return hasClass(htmlRow, [css.Title, css.SubTitle].map(css => splitTitle(css)[1]));
 }
 
 /**
@@ -2948,18 +2977,15 @@ function isTitlesContainer(htmlRow: HTMLElement): boolean {
  */
 function hasClass(htmlRow: HTMLElement | Element, classList: string[]) {
   if (!htmlRow) return;
-  return (
-    classList.filter((className) => htmlRow?.classList.contains(className))
-      .length > 0
-  );
+  return classList.find((className) => htmlRow?.classList.contains(className))
 }
 
 /**
  * Checks if the html element passed to it as an argument has 'Comments' or 'CommentText' in its classList
  * @param {HTMLDivElement} htmlRow - the html element that we want to check if it has any of the classes related to comments
  */
-function isCommentContainer(htmlRow: HTMLDivElement | Element): boolean {
-  return hasClass(htmlRow, [css.Comment, css.CommentText].map(css => css.split(Prefix.class)[1]));
+function isCommentContainer(htmlRow: HTMLDivElement | Element): string {
+  return hasClass(htmlRow, [css.Comment, css.CommentText].map(css => splitTitle(css)[1]));
 }
 
 /**

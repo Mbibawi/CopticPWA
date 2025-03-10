@@ -9,7 +9,7 @@ function Sequences() {
       Prefix.incenseDawn + "TravelersLitany",
       Prefix.incenseDawn + "OblationsLitany",
       Prefix.incenseVespers + "DepartedLitany",
-      Prefix.commonPrayer + "AngelsPrayer",
+      Prefix.bookOfHours + "AngelsPrayer",
       Prefix.incenseVespers + "LordKeepUsThisNight",
       Prefix.commonIncense + "Doxolgoies",
       Prefix.commonIncense + "EfnotiNaynan",
@@ -127,19 +127,19 @@ function Sequences() {
 
         Prefix.psalmody + "TheotokiesConclusionXXX",//!Need to know when Watos and Adam Theotokies are prayed
 
-        Prefix.commonPrayer + "WeExaltYouStMary",
+        Prefix.bookOfHours + "WeExaltYouStMary",
 
         Prefix.commonPrayer + "Creed",
 
-        Prefix.commonPrayer + "HolyLordOfSabaot",
+        Prefix.bookOfHours + "HolyLordOfSabaot",
 
         Prefix.psalmody + "ConcludingHymn",
 
-        Prefix.commonPrayer + "HolyLordOfSabaot",
+        Prefix.bookOfHours + "HolyLordOfSabaot",
 
         Prefix.commonPrayer + "OurFatherInHeaven",
 
-        Prefix.commonPrayer + "Agios",
+        Prefix.bookOfHours + "Agios",
 
       ],
 
@@ -963,18 +963,7 @@ Btn.MassUnBaptised = new Button({
       };
 
       (function insertSepcialAgiosIfFeast() {
-        let Agios: string = Prefix.massCommon + "Agios&D=$copticFeasts.";
-
-        if ([copticFeasts.EntryToEgypt, copticFeasts.CanaWedding].includes(copticDate))
-          Agios += Object.entries(copticFeasts).find(entry => entry[1] === copticDate)[0];
-        else if ([copticFeasts.PalmSunday, copticFeasts.Ascension, copticFeasts.Pentecoste].includes(copticReadingsDate))
-          Agios += Object.entries(copticFeasts).find(entry => entry[1] === copticReadingsDate)[0];
-        else if ([Seasons.Nativity, Seasons.Baptism, Seasons.CrossFeast, Seasons.PentecostalDays, Seasons.Ascension].includes(Season))
-          Agios = Agios.replace('copticFeasts', 'Seasons') + Object.entries(Seasons).find(entry => entry[1] === Season)[0];
-        else Agios = Agios.replace('&D=$copticFeasts.', '');
-
-        let AgiosTable =
-          findTable(Agios, MassCommonArray) || undefined;
+        const AgiosTable = findAgios();
 
         if (!AgiosTable)
           return console.log(
@@ -983,13 +972,10 @@ Btn.MassUnBaptised = new Button({
 
         (function adaptToAscension() {
           if (Season !== Seasons.Ascension) return;  //i.e. if we are between the Pentecoste & the Assumption feasts: day 40 to day 49
-          let raisedAndAscended = findTable(Prefix.commonPrayer + "AgiosPart1", CommonArray, {
-            equal: true,
-          })[3] as string[]; //This is the 3rd paragraph of the ordinary Agios Osios Hymn ('For He Raised and Ascended to the Heaveans'...etc.)
+          const agios = findTable(Prefix.commonPrayer + "AgiosPart1", CommonArray);
+          if (!agios) return;//We will retrieve the 3rd paragraph of the ordinary Agios Osios Hymn ('For He Raised and Ascended to the Heaveans'...etc.)
 
-          if (!raisedAndAscended) return;
-
-          [4, 5, 6].forEach(index => AgiosTable[AgiosTable.length - index] = raisedAndAscended);//Replacing the 3 Agios paragraphs with the Ascension paragraph
+          [3, 4, 5].forEach(index => AgiosTable[AgiosTable.length - index] = agios[agios.length - 1]);//Replacing the 3 Agios paragraphs with the Ascension paragraph
 
         })();
 
@@ -1003,6 +989,43 @@ Btn.MassUnBaptised = new Button({
           },
           container: btnDocFragment,
         });
+
+        function findAgios() {
+          let [dates, today] = ['copticFeasts', undefined];
+
+          if ([copticFeasts.EntryToEgypt, copticFeasts.CanaWedding].includes(copticDate))
+            today = copticDate;
+
+          else if ([copticFeasts.PalmSunday, copticFeasts.HolyFriday].includes(copticReadingsDate))
+            today = copticReadingsDate;
+
+          else if (Season === Seasons.CrossFeast)
+            today = copticFeasts.HolyFriday;//!We retrieve the HolyFriday Agios table
+
+          else if ([Seasons.PentecostalDays, Seasons.Ascension].includes(Season)) {
+            today = Seasons.PentecostalDays;//!The date in the title is assigned to the PenetcostalDays Season only for both seasons
+            dates = 'Seasons'
+          }
+
+          else if ([Seasons.Nativity, Seasons.Baptism].includes(Season)) {
+            today = Season;
+            dates = 'Seasons';
+          }
+
+          return Agios(today, dates);
+
+          function Agios(today: string, dates: string) {
+            const table = (title: string) => findTable(title, CommonArray) || undefined;
+            const agios = Prefix.commonPrayer + "Agios";
+
+            if (!today) return table(agios);
+
+            today = Object.entries(eval(dates)).find(entry => entry[1] === today)[0];//Returning the name of the key pointing to the date/season
+
+            return table(`${agios}&D=${dates}.${today}`);
+
+          }
+        }
 
       })();
 
@@ -1022,26 +1045,20 @@ Btn.MassUnBaptised = new Button({
           copticFeasts.Nativity,
           copticFeasts.Baptism,
         ].includes(copticReadingsDate)
-      )
+        )
         //In these feasts we don't pray any hour
         return alert(
           "We do not pray the Book of Hours prayers on the Ressurection, Nativity (Kiahk 29th), and Baptism (Toubi 11th) feasts' masses"
-        );
-
-      let hoursBtns: Button[] = Btn.BookOfHours.onClick(true); //We get buttons for the relevant hours according to the day
-      if (!hoursBtns) return;
-
-      hoursBtns = selectRelevantHoursAccordingToTheDay();
-
-      let masterBtnDiv: HTMLDivElement;
-
+          );
+          
+        const hoursBtns = Btn.BookOfHours.onClick(true, relevantHours()) as Button[];
 
       (function createMasterButton() {
-        masterBtnDiv = document.createElement("div"); //This is the div that will contain the master button which shows or hides the Book of Hours sub buttons
+        const masterBtnDiv = document.createElement("div"); //This is the div that will contain the master button which shows or hides the Book of Hours sub buttons
         masterBtnDiv.classList.add(css.inlineButtonsContainer);
         masterBtnDiv.id = "masterBOHBtn";
 
-        let masterBtn = new Button({
+        const masterBtn = new Button({
           btnID: "BOH_Master",
           label: getLabel({
             AR: "الأجبية",
@@ -1070,52 +1087,32 @@ Btn.MassUnBaptised = new Button({
           })
         );
         btnDocFragment.prepend(masterBtnDiv);
+        createHtmlButtonForEachHour(masterBtnDiv)
       })();
 
-
-      (function createHtmlButtonForEachHour() {
+      function createHtmlButtonForEachHour(masterBtnDiv:HTMLDivElement) {
         //We will create an HTML div (role = button) and an expandable div for each hour
-        let btns = hoursBtns
-          .map((btn) => {
-            btn.onClick(true); //We call the onClick() method of the btn in order to build its prayersSequence properties. Notice that we passs 'true' as argument to the onClick() function
-
-            if (localStorage.displayMode === displayModes[1])
-              //If we are in the 'Presentation Mode', we remove all the psalms and keep only the Gospel and the Litanies
-              btn.prayersSequence = btn.prayersSequence
-                .filter((title) => !title?.includes("Psalm"));
-
-            InsertHourFinalPrayers(btn); //Inserting Kyrielison 41 times, Agios, Holy God of Sabaot, etc.
-
-            return new Button({
-              btnID: btn.btnID,
-              label: btn.label,
-              cssClass: css.inlineButton,
-              languages: Btn.BookOfHours.languages,
-              docFragment: new DocumentFragment(),
-              prayersSequence: btn.prayersSequence,
-            });
-
-          });
-
-        const btnsDiv = insertExpandableBtn(btns, masterBtnDiv, 'afterend', 'BOH', false);
-
-        btnsDiv.id = 'BOHBtnsDiv'
+        const btnsDiv = insertExpandableBtn(hoursBtns, masterBtnDiv, 'afterend', 'BOH', false);
+        btnsDiv.id = 'BOHBtnsDiv';
         btnsDiv.classList.add(css.hidden);
+        Array.from(btnsDiv.children)
+          .forEach(htmlBtn => htmlBtn.addEventListener('click', () => {
+            scrollToTop();
+            const expandable = containerDiv.querySelector('#' + htmlBtn.id + 'Expandable');
+            if (!expandable)
+                return;
+            if (!expandable.classList.contains(css.hidden))
+                floatOnTopOrBottom(btnsDiv, true, '3px');
+            else
+                btnsDiv.style.position = 'relative';
+            collapseAllTitles(Array.from(expandable.children) as HTMLDivElement[]);
+        }
+        ));
+    };
 
-        Array.from(btnsDiv.children).forEach(htmlBtn => htmlBtn.addEventListener('click', () => {
-          scrollToTop();
-          let expandable = containerDiv.querySelector('#' + htmlBtn.id + 'Expandable');
-          if (!expandable) return;
-          if (!expandable.classList.contains(css.hidden))
-            floatOnTopOrBottom(btnsDiv, true, '3px')
-          else btnsDiv.style.position = 'relative';
-          collapseAllTitles(Array.from(expandable.children) as HTMLDivElement[]);
-        }));
-      })();
-
-      function selectRelevantHoursAccordingToTheDay(): Button[] {
+      function relevantHours(): number[] {
         //args.mass is a boolean that tells whether the button prayersArray should include all the hours of the Book Of Hours, or only those pertaining to the mass according to the season and the day on which the mass is celebrated
-        let hours = [hoursBtns[1], hoursBtns[2], hoursBtns[3]]; //Those are the 3rd, 6th and 9th hours
+        const hours = [1, 2, 3]; //Those are the 3rd, 6th and 9th hours
 
         if (
           [
@@ -1127,9 +1124,9 @@ Btn.MassUnBaptised = new Button({
           ![0, 6].includes(weekDay)
           //We are during the Great Lent or during the Nativity Paramoun or the Baptism Paramoun and today is a Friday. In such cases, we pray the 3rd, 6th, 9th, 11th, and 12th hours
         )
-          hours.push(hoursBtns[4], hoursBtns[5]);
+          hours.push(4, 5);
         else if (Btn.Prosternation.children?.includes(btn)) {
-          hours.push(hoursBtns[4], hoursBtns[5]);
+          hours.push(4, 5);
           hours.shift();
         }
         else if (
@@ -1144,45 +1141,6 @@ Btn.MassUnBaptised = new Button({
 
         return hours;
       };
-
-      function InsertHourFinalPrayers(hourBtn: Button) {
-
-        hourBtn.prayersSequence.push(...getSequence().map(el => Prefix.commonPrayer + el));
-
-        function getSequence(): string[] {
-          let Agios: string = "Agios",
-            Kyrielison41: string = "Kyrielison41",
-            KyrielisonNoMass: string = Kyrielison41 + "NoMassIntro",
-            KyrielisonMass: string = Kyrielison41 + "MassIntro",
-            HolyLordOfSabaot: string = "HolyLordOfSabaot",
-            HailMaria: string = "WeSaluteYouMary",
-            WeExaltYou: string = "WeExaltYouStMary",
-            Creed: string = "Creed",
-            OurFather: string = "OurFatherInHeaven";
-
-          if (hoursBtns.indexOf(hourBtn) === hoursBtns.length - 1) {
-            //This is the last hour btn
-            return [
-              WeExaltYou,
-              Creed,
-              KyrielisonMass,
-              HolyLordOfSabaot,
-              OurFather,
-            ];
-          } else if (hoursBtns.indexOf(hourBtn) === hoursBtns.length - 2) {
-            //this is the before last hour btn
-            return [Agios, OurFather, HailMaria];
-          } else {
-            //Any other hour before the 2 last
-            return [
-              KyrielisonNoMass,
-              HolyLordOfSabaot,
-              OurFather,
-            ];
-          }
-
-        }
-      }
     };
 
   },
@@ -1355,47 +1313,21 @@ Btn.BookOfHours = new Button({
   parentBtn: Btn.MainMenu,
   languages: [...prayersLanguages],
   children: [],
-  onClick: (mass: boolean = false) => {
-    if (Btn.BookOfHours.children.length > 1) return Btn.BookOfHours.children;
-    const BOH = bookOfHours();
+  onClick: (mass: boolean = false, hours?: number[]) => {
+    if (!mass && Btn.BookOfHours.children.length > 1)
+      return Btn.BookOfHours.children;
+    const BOH = Object.entries(bookOfHours());
 
-    const OurFatherInHeaven: string =
-      Prefix.commonPrayer + "OurFatherInHeaven",
-      AngelsPrayers: string =
-        Prefix.commonPrayer + "AngelsPrayer",
-      HailToYouMaria: string =
-        Prefix.commonPrayer + "WeSaluteYouMary",
-      WeExaltYou: string =
-        Prefix.commonPrayer + "WeExaltYouStMary",
-      Agios: string =
-        Prefix.commonPrayer + "Agios",
-      KyrielisonIntro: string = Prefix.commonPrayer + "Kyrielison41NoMassIntro",
-      HolyLordOfSabaot: string =
-        Prefix.commonPrayer + "HolyLordOfSabaot",
-      Creed: string = Prefix.commonPrayer + "Creed",
-      FinalPrayer: string =
-        Prefix.bookOfHours + "AllHoursFinalPrayer";
+    if (mass && hours)
+      return getHoursBtns(hours.map(hour => BOH[hour]));//If this function is called in the "Unbaptized Mass" context, it will return Button elements for each hour passed to it
 
 
     (function addAChildButtonForEachHour() {
-      Btn.BookOfHours.children =
-        Object.entries(BOH)
-          .map((entry) => {
-            const hourBtn = new Button({
-              btnID: "btn" + entry[0],
-              label: entry[1][1] as typeBtnLabel,
-              docFragment: new DocumentFragment(),
-              parentBtn: Btn.BookOfHours,
-              onClick: (isMass: boolean = false) =>
-                hourBtnOnClick(hourBtn, entry[0], isMass),
-              afterShowPrayers: () => hourBtnAfterShowPrayer(hourBtn),
-            });
-            return hourBtn;
-          });
+      Btn.BookOfHours.children = getHoursBtns(BOH);
 
       (function addOtherPrayersBtns() {
-        let otherPrayers = [Prefix.bookOfHours + 'BeforeCommunion', Prefix.bookOfHours + 'AfterCommunion'];
-        let otherPrayersBtn = new Button({
+        const otherPrayers = [Prefix.bookOfHours + 'BeforeCommunion', Prefix.bookOfHours + 'AfterCommunion'];
+        const otherPrayersBtn = new Button({
           btnID: 'otherPrayersBtn',
           label: getLabel({
             AR: 'صلوات أخرى',
@@ -1430,123 +1362,221 @@ Btn.BookOfHours = new Button({
           });
         }
       })();
-
-
-      function hourBtnAfterShowPrayer(btn: Button) {
-        const BOH = bookOfHours();
-        let children = Array.from(
-          btn.docFragment.children as HTMLCollectionOf<HTMLDivElement>
-        ).filter((div) => div?.dataset?.root);
-
-        scrollToTop();
-
-        children.forEach((htmlRow) => {
-          htmlRow.querySelector("p.COP, p.CA")?.remove();
-          [css.Priest, css.Diacon, css.Assembly].forEach((className) => {
-            htmlRow.classList.replace(className, actors[actors.length - 1].EN);
-            const note = String.fromCharCode(eighthNoteCode);
-            htmlRow.innerHTML = htmlRow.innerHTML.replaceAll(note, '')
-          }
-          );
-        }
-        );
-
-        if (btn.label !== BOH.HV[1]) return;
-        //If we are in the 'Setar Hour', we need to remove from Psalm 118 all the paragraphs except paragraphs 20, 21, and 22.
-        let psalm118 = children.filter((div) =>
-          div?.dataset?.group?.startsWith(Prefix.bookOfHours + "Psalm118")
-        );
-
-        psalm118.splice(1, psalm118.length - 7)
-          .forEach(div => div.remove());
-
-      }
-
-      function hourBtnOnClick(btn: Button, hourName: string, isMass: boolean) {
-        (function buildBtnPrayersSequence() {
-
-          //We will add the prayers sequence to btn.prayersSequence[]
-          btn.prayersSequence = [Prefix.bookOfHours + hourName + "Title"]; //This is the title of the hour prayer
-
-          btn.prayersSequence.push(...Object.entries(BOH)
-            .find((entry) => entry[0] === hourName)[1][0]
-            .map((title) => Prefix.bookOfHours + "Psalm" + title.toString()));//We add the psalms
-
-
-          btn.prayersSequence.push(...["Gospel", "Litanies"].map(title => Prefix.bookOfHours + hourName + title));//We add the gospel and the Litanies
-
-
-          (function addFinalPrayersToSequence() {
-            if (isMass) return; //!Important: If the onClick() method is called when the button is displayed in the Unbaptised Mass, we do not add anything else to the btn's prayersSequence
-
-            let btnLable = btn.label,
-              HourIntro: string[] = [
-                Prefix.commonPrayer +
-                "ThanksGivingPart1",
-                Prefix.commonPrayer +
-                "ThanksGivingPart2",
-                Prefix.commonPrayer +
-                "ThanksGivingPart3",
-                Prefix.commonPrayer +
-                "ThanksGivingPart4",
-                Prefix.bookOfHours + "Psalm50",
-              ],
-              endOfHourPrayersSequence: string[] = [
-                AngelsPrayers,
-                Agios,
-                OurFatherInHeaven,
-                HailToYouMaria,
-                WeExaltYou,
-                Creed,
-                KyrielisonIntro,
-                HolyLordOfSabaot,
-                OurFatherInHeaven,
-                Prefix.bookOfHours + hourName + "End",
-                FinalPrayer,
-                OurFatherInHeaven,
-              ];
-
-
-            if (btnLable === BOH.H1[1])
-              HourIntro.push(Prefix.bookOfHours + hourName + 'LetsKneel');
-
-            else if (btnLable === BOH.HMD1[1])
-              HourIntro.push(Prefix.psalmody + 'WakeUpSonsOfLight'); //We add the 'Wake Up Sons of Light' for the 1st Service of Midnight
-
-            else if (btnLable === BOH.H12[1])
-              endOfHourPrayersSequence.shift(); //If it is the 12th (Night) Hour, we remove the Angels Prayer from endOfHourPrayersSequence
-
-            else if (btnLable === BOH.HMD3[1]) {
-              endOfHourPrayersSequence.splice(0, 1,
-                KyrielisonIntro,
-                HolyLordOfSabaot,
-                OurFatherInHeaven,
-                Prefix.bookOfHours + hourName + "2ndGospel");//replacing the "Angels Praising" by this sequence
-              //Inserting the Priests Absolution at the end
-              endOfHourPrayersSequence.push(Prefix.bookOfHours + hourName + "PriestsAbsolution");
-            };
-
-            if (!
-              [
-                BOH.H1[1],
-                BOH.H12[1],
-                BOH.HMD3[1],
-              ].includes(btnLable)
-            ) endOfHourPrayersSequence = endOfHourPrayersSequence.slice(6, endOfHourPrayersSequence.length);//For any other hour, we remove all the titles before KyrielisonIntro
-
-            btn.prayersSequence.splice(1, 0, ...HourIntro); //We  add the titles of the HourIntro before the 1st element of btn.prayersSequence[]
-
-            btn.prayersSequence.push(...endOfHourPrayersSequence);
-
-          })();
-        })();
-      }
     })();
 
-    if (mass) return Btn.BookOfHours.children;
-
     scrollToTop();
-    return Btn.BookOfHours.prayersSequence;
+
+    function getHoursBtns(hours: [string, [number[], typeBtnLabel]][]) {
+      if (!hours) return;
+      
+      return hours.map(([name, hour], index) => {
+        const hourBtn = new Button({
+          btnID: "btn" + name,
+          label: hour[1],
+          docFragment: new DocumentFragment(),
+          parentBtn: Btn.BookOfHours,
+          prayersSequence: [`${Prefix.bookOfHours}${name}Title`],
+          afterShowPrayers: () => hourBtnAfterShowPrayer(hourBtn.docFragment, name, hour, hours.length - index, mass),
+        });
+        if (mass) hourBtn.cssClass = css.inlineButton;
+        return hourBtn;
+      });
+
+
+      function hourBtnAfterShowPrayer(docFragment: DocumentFragment, hourName: string, hour: [number[], {}], index:number, mass: boolean) {
+
+        (function insertHourIntroAndPsalms() {
+          const anchor = selectElementsByDataSet(docFragment, Prefix.anchor + 'Psalms')[0];
+          if (!anchor) return;
+
+          (function insertHourIntro() {
+            if (mass) return;
+            const intro = [
+              Prefix.commonPrayer +
+              "ThanksGivingPart1",
+              Prefix.commonPrayer +
+              "ThanksGivingPart2",
+              Prefix.commonPrayer +
+              "ThanksGivingPart3",
+              Prefix.commonPrayer +
+              "ThanksGivingPart4",
+              Prefix.bookOfHours + "Psalm50",
+            ];
+
+            if (hour === BOH[0][1])//If this is the 1st Hour (Dawn), it has a specific sequence of prayers after the "Thanks Giving" and "Psalm50"
+              intro.push(...["LetsKneel", "StPaul", "Intro"].map(title=>Prefix.bookOfHours + hourName + title));
+            else if (hour === BOH[7][1])//If this is the 1st Midnight Service
+              intro.push(Prefix.psalmody + 'WakeUpSonsOfLight'); //We add the 'Wake Up Sons of Light' for the 1st Service of Midnight)
+
+            const tables = intro.map(title => findTable(title, getArrayFromPrefix(title)) || undefined);
+
+            insertTables(tables, anchor);//!We might need to change the calss for the Thanks giving ?
+
+          })();
+
+          (function insertPsalms() {
+            if (localStorage.displayMode === displayModes[1]) return;//We don't show the psalms in "Display Mode"
+            const tables = hour[0].map(psalm => findTable(`${Prefix.bookOfHours}Psalm${psalm}`, BookOfHoursArray) || undefined);
+            insertTables(tables, anchor); 
+          })();
+        })();
+        
+        (function insertHourFinalPrayers() {
+          const [OurFather, Creed] = ["OurFatherInHeaven", "Creed"].map(title => Prefix.commonPrayer + title);
+
+          const [AngelsPrayers, HailMaria, WeExaltYou, Agios, KyrielisonNoMass, HolyLordOfSabaot, FinalPrayer, PriestsAbsolution] = ["AngelsPrayer", "WeSaluteYouMary", "WeExaltYouStMary", "Agios", "Kyrielison41", "HolyLordOfSabaot", "AllHoursFinalPrayer", "PriestsAbsolution"].map(title => Prefix.bookOfHours + title);
+          
+          const KyrielisonMass: string = Prefix.massCommon + "Kyrielison41";
+     
+          const anchor = selectElementsByDataSet(docFragment, Prefix.anchor + 'End')[0];
+
+          (function ifNotMass() {
+            if (mass) return;   
+            const tables = getSequence().map(title => findTable(title, getArrayFromPrefix(title)) || undefined);
+                      
+            insertTables(tables, anchor)
+
+            function getSequence() {
+              let hourEndSequence: string[] = [
+                AngelsPrayers,
+                Agios,
+                OurFather,
+                HailMaria,
+                WeExaltYou,
+                Creed,
+                KyrielisonNoMass,
+                HolyLordOfSabaot,
+                OurFather,
+                Prefix.bookOfHours + hourName + "End",
+                FinalPrayer,
+                OurFather,
+              ];
+              
+              
+              if (hour === BOH[5][1])
+                hourEndSequence.shift(); //If it is the 12th (Night) Hour, we remove the Angels Prayer from endOfHourPrayersSequence
+              
+              else if (hour === BOH[9][1]) {
+                hourEndSequence.splice(0, 1,
+                  KyrielisonNoMass,
+                  HolyLordOfSabaot,
+                  OurFather,
+                  Prefix.bookOfHours + hourName + "2ndGospel");//replacing the "Angels Praising" by this sequence
+                //Inserting the Priests Absolution at the end
+                hourEndSequence.push(Prefix.bookOfHours + hourName + PriestsAbsolution);
+              };
+              
+              if (!
+                [
+                  BOH[0][1],
+                  BOH[5][1],
+                  BOH[9][1],
+                ].includes(hour)
+              ) hourEndSequence = hourEndSequence.slice(6, hourEndSequence.length);//For any other hour, we remove all the titles before KyrielisonIntro
+
+              return hourEndSequence
+              
+            }
+          })();
+
+          (function ifMass() {
+            if (!mass) return;
+              const tables = getSequence().map(title =>findTable(title, getArrayFromPrefix(title))|| undefined);
+
+              insertTables(tables, anchor)
+
+              function getSequence(): string[] {
+                //!index is the differece between hours.length and the index of the hour 
+                  if (index < 2) {
+                  //This is the last hour btn (hours.length - (hours.length-1)=1)
+                  return [
+                    WeExaltYou,
+                    Creed,
+                    KyrielisonMass,
+                    HolyLordOfSabaot,
+                    OurFather,
+                  ];
+                } else if (index < 3) {
+                  //this is the before last hour btn (hours.length - (hours.length-2)=2)
+                  return [Agios, OurFather, HailMaria];
+                } else {
+                  //Any other hour before the 2 last
+                  return [
+                    KyrielisonNoMass,
+                    HolyLordOfSabaot,
+                    OurFather,
+                  ];
+                }
+      
+              }
+            
+          })()
+        })();
+
+        const children = Array.from(docFragment.children) as HTMLDivElement[];
+
+        (function adapt118thPsalm() {
+          if (hour !== BOH[6][1]) return;//If we are in the 'Setar Hour', we need to remove from Psalm 118 all the paragraphs except paragraphs 20, 21, and 22.
+          const psalm118 = children.filter((div) =>
+            div?.dataset?.group?.startsWith(Prefix.bookOfHours + "Psalm118")
+          );
+  
+          psalm118.splice(1, psalm118.length - 7)
+            .forEach(div => div.remove());
+        })();
+
+        (function changeKiryelisonClass() {
+          const Kyrielison = children.filter(div => div.dataset.group === Prefix.bookOfHours + "Kyrielison41");
+          
+            changeClasses();
+
+            function changeClasses() {
+              //We will change the classes of the "Kyrielison1 table"
+              if (mass) Kyrielison
+                .forEach((div, index) => index === 1 ? changeClass(div, css.Priest) : changeClass(div, css.Assembly));
+              else Kyrielison
+                .forEach((div, index) => index === 1 ? changeClass(div, css.NoActor) : changeClass(div, css.NoActor))
+      
+              function changeClass(div: HTMLDivElement, css: string) {
+                if (!div) return;
+                div.classList.forEach(c => {
+                  if (c !== 'Row') div.classList.remove(c)
+                });
+                div.classList.add(css);
+              }
+            };
+    
+        })();
+
+        (function removeCopticVersion() {
+          children.forEach((htmlRow) => {
+            htmlRow.querySelector("p.COP, p.CA")?.remove();
+            [css.Priest, css.Diacon, css.Assembly]
+              .forEach((className) => {
+              htmlRow.classList.replace(className, actors[actors.length-1].EN);//Replacing it with 'No Actor)
+              const note = String.fromCharCode(eighthNoteCode);//removing the musicla notes
+              htmlRow.innerHTML = htmlRow.innerHTML.replaceAll(note, '')
+            }
+            );
+          });
+        })();
+
+        function insertTables(tables:string[][][], anchor:HTMLDivElement){
+          insertAdjacentToHtmlElement({
+            tables: tables,
+            languages: getLanguages(Prefix.bookOfHours),
+            position: {
+              beforeOrAfter: 'beforebegin',
+              el: anchor
+            },
+            container: docFragment
+          });
+        }
+
+      };
+
+    }
+
   },
 });
 
@@ -2229,7 +2259,7 @@ Btn.IncenseVespers = new Button({
   onClick: (): string[] => {
     Btn.IncenseVespers.prayersSequence = [...Sequences().Incense].filter(
       (title) =>
-        title !== Prefix.commonPrayer + "AngelsPrayer" &&
+        title !== Prefix.bookOfHours + "AngelsPrayer" &&
         !title.startsWith(Prefix.incenseDawn)
     );
 
@@ -2259,7 +2289,7 @@ Btn.Lakkan = new Button({
       prophecies: [],
       stPaul: [],
       gospel: [],
-      Agios: [...findTable(Prefix.commonPrayer + "AgiosPart1") || undefined, ...findTable(Prefix.commonPrayer + "GloryToFatherSonSpirit") || undefined],
+      Agios: [],
       litany: findTable(Prefix.incenseDawn + 'LakanLitany&D=' + date) || undefined,
       cymbals: [],
       season: findTable(Prefix.massCommon + "SeasonalLitany&D=$Seasons." + Object.entries(Seasons).find(entry => entry[1] === naturalSeasons())[0]) || undefined,
@@ -2272,12 +2302,13 @@ Btn.Lakkan = new Button({
       lakan.prophecies = ['HAB:3:12-19', 'ISA:35:1-2', 'ISA:40:1-25', 'ISA:9:1-2', 'BAR:3:36-End/4:1-4', 'EZK:36:24-29', 'EZK:47:1-9'];
       lakan.stPaul = ['1CO:10:1-13'];
       lakan.gospel = ['PSA:113:3-5', 'MAT:3:1-17'];
-      lakan.Agios = findTable(Prefix.massCommon + "Agios&D=$Seasons.Baptism") || undefined;
+      lakan.Agios = findAgios(true);
       lakan.cymbals = [...findTable(Prefix.cymbalVerses + "&D=$Seasons.Baptism") || undefined, ...findTable(Prefix.cymbalVerses + "PopeAndBishop") || undefined, ...findTable(Prefix.cymbalVerses + "LordFeastsEnd") || undefined];
     }
     else if (date === copticFeasts.Apostles) {
       lakan.prophecies = ['EXO:15:22-End/16:1-1', 'EXO:30:17-30', 'ISA:1:16-26', 'ISA:35:1-10', 'ISA:43:16-End/44:1-6', 'ZEC:8:7-19', 'ZEC:14:8-11'];
       lakan.stPaul = ['HEB:10:22-32'];
+      lakan.Agios = findAgios();
       lakan.gospel = ['PSA:50:7-7/50:10-10', 'JHN:5:1-18'];
       lakan.cymbals = findTable(Prefix.cymbalVerses + "&D=" + date) || undefined;
       lakan.spasmosAdam = Prefix.massCommon + "SpasmosAdamLong&D=$copticFeasts.Apostles";
@@ -2285,6 +2316,7 @@ Btn.Lakkan = new Button({
     else if (date === copticFeasts.HolyThursday) {
       lakan.prophecies = [];
       lakan.stPaul = ['1TI:4:9-End/5:1-10'];
+      lakan.Agios = findAgios();
       lakan.gospel = ['PSA:50:9-9/50:12-12", "JHN:13:1-17'];
       lakan.cymbals = findTable(Prefix.cymbalVerses + "&D=" + date) || undefined;
     };
@@ -2406,11 +2438,17 @@ Btn.Lakkan = new Button({
       gospel: lakan.gospel.map(ref => getGospel(Prefix.gospelMass, ref))
     });
 
-
-
     function getGospel(prefix: string, ref: string): string[][] {
       ref.startsWith('PSA') ? prefix += 'Psalm' : prefix += 'Gospel';
       return [[prefix + '&D=' + copticDate + css.Title], [Prefix.readingRef + ref]]
+    }
+
+    function findAgios(baptism: boolean = false) {
+      const Agios = Prefix.commonPrayer + "Agios"
+      if (baptism)
+        return findTable(`${Agios}&D=$Seasons.Baptism`, CommonArray) || undefined;
+      else return [...findTable(Agios, CommonArray) || undefined, ...findTable(Prefix.commonPrayer + "GloryToFatherSonSpirit") || undefined]
+
     }
   },
 });
@@ -2423,12 +2461,12 @@ Btn.Prosternation = new Button({
     EN: "Prosternation Prayer",
   }),
   onClick: () => {
-
-    let services = [
+    const agios = Prefix.commonPrayer + "Agios";
+    const services = [
       {
         Prophecies: 'DEU:5:23-End/6:1-3',
         StPaul: '1CO:12:28-End/13:1-12',
-        Agios: [Prefix.massCommon + "Agios&D=$Seasons.PentecostalDays||$Seasons.Ascension"],
+        Agios: [`${agios}&D=$Seasons.PentecostalDays`],//!needs to be checked, do we pray the entire sequence or such the agios part? if so we will need to adapt it.
         Gospel: ['PSA:97:7-8/97:1-1', 'JHN:17:1-26'],
         psalmResponse: Prefix.psalmResponse + "&D=$Seasons.Ascension",
         Cymbals: [Prefix.cymbalVerses + "&D=$Seasons.Ascension"],
@@ -2442,7 +2480,7 @@ Btn.Prosternation = new Button({
       {
         Prophecies: 'DEU:6:17-25',
         StPaul: '1CO:13:13-End/14:1-17',
-        Agios: [Prefix.commonPrayer + "Agios"],
+        Agios: [agios],
         Gospel: ['PSA:115:12-13', 'LUK:24:36-53'],
         psalmResponse: Prefix.psalmResponse + anyDay + "||$Seasons.Kiahk",
         Cymbals: [Prefix.cymbalVerses + "Adam"],
@@ -2456,7 +2494,7 @@ Btn.Prosternation = new Button({
       {
         Prophecies: 'DEU:16:1-18',
         StPaul: '1CO:14:18-40',
-        Agios: [Prefix.commonPrayer + "Agios"],
+        Agios: [agios],
         Gospel: ['PSA:65:2-2/71:9-9', 'JHN:4:1-24'],
         psalmResponse: Prefix.psalmResponse + anyDay + "||$Seasons.Kiahk",
         Cymbals: [Prefix.cymbalVerses + "Watos"],
@@ -2470,13 +2508,13 @@ Btn.Prosternation = new Button({
 
     ];
 
-    let labelBase = {
+    const labelBase = {
       AR: 'السَّجْدَة XXX',
       FR: 'XXX Prosternation',
       EN: 'XXX Prosternation'
     };
 
-    let labelNumber = [
+    const labelNumber = [
       {
         AR: 'الأولى',
         FR: 'Première',
@@ -2494,8 +2532,7 @@ Btn.Prosternation = new Button({
       },
     ];
 
-
-    let children = services.map(s => {
+    const children = services.map(s => {
       let n = services.indexOf(s);
       return new Button({
         btnID: Btn.Prosternation.btnID + n.toString(),
@@ -2552,17 +2589,17 @@ Btn.Prosternation = new Button({
             let doxlogies =
               [
                 Prefix.incenseVespers + "LordKeepUsThisNight",
-                Prefix.commonPrayer + "Agios",
+                Prefix.bookOfHours + "Agios",//!This is the Agios of the Book of Hours not the Agios hymn of the Mass before the Gospel (which starts with Prefix.commonPrayer) 
                 Prefix.commonPrayer + "OurFatherInHeaven",
                 Prefix.commonPrayer + "InTheNameOfJesusOurLord",
-                Prefix.commonPrayer + "WeSaluteYouMary",
+                Prefix.bookOfHours + "WeSaluteYouMary",
                 Prefix.doxologies + "WatosStMary",
                 Prefix.doxologies + "AllCelestialBeings",
                 Prefix.doxologies + "Apostles",
                 Prefix.doxologies + "StMarc",
                 Prefix.doxologies + "Pope", //!missing
                 Prefix.doxologies + "EndOfDoxologiesWatos",
-                Prefix.commonPrayer + "WeExaltYouStMary",
+                Prefix.bookOfHours + "WeExaltYouStMary",
                 Prefix.commonPrayer + "Creed",
                 Prefix.commonIncense + "EfnotiNaynan",
               ];
@@ -3558,11 +3595,11 @@ Btn.HW = new Button({
 
             async function SixthHour() {
               if (hour !== '6H') return;
-              
+
               await insertStPaul("GAL:6:14-18", "Tayshoury");//Inserting the St. Paul Reading
-              
+
               insertTable(getLitanies("H6Litanies"), prayersLanguages, anchor); //Inserting the 6th hour litanies
-              
+
               const dimasAnchor = selectElementsByDataSet(btn.docFragment, Prefix.anchor + "DimasConfession", undefined, "root")[0] as HTMLDivElement;
 
               const Omono = findTable(`${Prefix.HolyWeek}${"OMonoGuenis"}`, PrayersArrayFR);//!The titles of those tables start with Prefix.HolyWeek, but they are included in the PrayersArrayFR not in the GospelNightArray. This is because the languages of their text is not limited to [Coptic, French, Arabic] like the other tables in GospelNightArray, but include the Copt in arabic charcters [Coptic, French, Coptic Arabic, Arabic] 
@@ -3583,18 +3620,18 @@ Btn.HW = new Button({
 
             }
 
-            async function insertStPaul(ref: string, tishori:string) { 
+            async function insertStPaul(ref: string, tishori: string) {
               (function insertResponse() {
                 const response = findTable(`${Prefix.HolyWeek}${"FayEtaf"}`, PrayersArrayFR) as string[][]; //!Although the table title starts with Prefix.HolyWeek, it is included in the PrayersArrayFR not in the GospelNightArray. This is because the languages of their text is not limited to [Coptic, French, Arabic] like the other tables in GospelNightArray, but include the Copt in arabic charcters [Coptic, French, Coptic Arabic, Arabic];
-                const placeHolder = response.find(row => row[0] === Prefix.placeHolder);
-                placeHolder[1] = placeHolder[1].replace('XXX', tishori);
-  
+                const placeHolder = [Prefix.placeHolder, Prefix.massCommon + tishori];
+                response.splice(1, 0, placeHolder);//Inserting a placeHolder element to retrieve the relevant "Tay Shory" or "Tishory" part
+
                 insertTable(response, prayersLanguages, anchor);
               })();
-              
+
               await insertReading();
 
-              async function insertReading(){
+              async function insertReading() {
                 const intros = ReadingsIntrosAndEnds();
                 const langs = getLanguages(Prefix.stPaul);
                 const stPaul = [
@@ -3604,8 +3641,8 @@ Btn.HW = new Button({
                 ];//!needs to be checked and tested
                 const reading = await retrieveReadingTableFromBible(stPaul, langs);
                 insertTable(reading, langs, anchor);
-  
-  
+
+
                 function getIntro(intro, css: string) {
                   return [
                     Prefix.same + css,
@@ -3615,7 +3652,7 @@ Btn.HW = new Button({
               }
             }
 
-            function insertTable(table: string[][], langs: string[], anchor:HTMLElement) {
+            function insertTable(table: string[][], langs: string[], anchor: HTMLElement) {
               if (!table || !langs || !anchor) return;
               insertAdjacentToHtmlElement({
                 tables: [table],
@@ -3625,7 +3662,7 @@ Btn.HW = new Button({
               });
             };
 
-            function getLitanies(hour:string){
+            function getLitanies(hour: string) {
               return findTable(Prefix.bookOfHours + hour, PrayersArrayFR) as string[][];
             }
 

@@ -887,7 +887,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.commonPrayer + "Agios",
+    Prefix.bookOfHours + "Agios",
   ],
   [
     Prefix.placeHolder,
@@ -895,7 +895,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.commonPrayer + "WeSaluteYouMary",
+    Prefix.bookOfHours + "WeSaluteYouMary",
   ],
   [
     Prefix.same + css.Title,
@@ -909,7 +909,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.commonPrayer + "WeExaltYouStMary",
+    Prefix.bookOfHours + "WeExaltYouStMary",
   ],
   [
     Prefix.placeHolder,
@@ -2221,7 +2221,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.commonPrayer + "AngelsPrayer" + css.Title,
+    Prefix.bookOfHours + "AngelsPrayer" + css.Title,
     "",
     "Louons Dieu avec les Anges",
     "",
@@ -2302,7 +2302,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.commonPrayer + "Agios",
+    Prefix.bookOfHours + "Agios",
   ],
   [
     Prefix.placeHolder,
@@ -2329,22 +2329,23 @@ PrayersArrayFR = [[
     "",
     "قُدُّوسْ اللّه",
   ],
+  [Prefix.switchClass + css.Assembly],
   [
-    Prefix.same + css.Assembly,
+    Prefix.same + css.Same,
     "Ⲁⲅⲓⲟⲥ ⲟ̀ Ⲑⲉⲟⲥ: Ⲁⲅⲓⲟⲥ Ⲓⲥⲭⲩⲣⲟⲥ: Ⲁⲅⲓⲟⲥ Ⲁⲑⲁⲛⲁⲧⲟⲥ: ⲟ̀ ⲉⲕⲡⲁⲣⲑⲉⲛⲟ ⲅⲉⲛⲛⲉⲑⲉⲓⲥ: ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ ⲏ̀ⲙⲁⲥ.",
     "Saint Dieu, Saint puissant, Saint immortel, qui es né de la Vierge; aie pitié de nous.",
     "آجيوس أوثيئوس. آجيوس إس شيروس. آجيوس آثاناطوس، أو إكبر ثينو جينيتيس إليسون إيماس.",
     "قُدُّوسْ الله، قُدُّوسْ القوي، قُدُّوسْ الحَيّ الذي لا يَموتْ، يا مَنْ ولِدَ مِنَ العْذرَاءْ ارْحَمْنَا.",
   ],
   [
-    Prefix.same + css.Assembly,
+    Prefix.same + css.Same,
     "Ⲁⲅⲓⲟⲥ ⲟ̀ Ⲑⲉⲟⲥ: Ⲁⲅⲓⲟⲥ Ⲓⲥⲭⲩⲣⲟⲥ: Ⲁⲅⲓⲟⲥ Ⲁⲑⲁⲛⲁⲧⲟⲥ: ⲟ̀ ⲥ̀ⲧⲁⲩⲣⲱⲑⲓⲥ ⲇⲏⲙⲁⲥ: ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ ⲏ̀ⲙⲁⲥ.",
-    "Dieu Saint, Saint fort, Saint immortel, crucifié pour nous, aie pitié de nous.",
+    "Dieu Saint, Dieu Puissant, Dieu vivant et immortel, crucifié pour nous, aie pitié de nous",
     "آجيوس أو ثيؤس، آجيوس يس شيروس، آجيوس أثاناتوس، أو إستافروثيس ذي إيماس، إلايسون ايماس.",
-    "قُدُّوسْ اللّه، قُدُّوسْ القوي، قُدُّوسْ الحي الذي لا يموت، يا من صلب عنا. ارْحَمْنَا.",
+    "قُدُّوسْ الله قُدُّوسْ القوي قُدُّوسْ الحي الذي لا يموت،يا مَنْ صُلب عنا ارحمنا",
   ],
   [
-    Prefix.same + css.Assembly,
+    Prefix.same + css.Same,
     "Ⲁⲅⲓⲟⲥ ⲟ̀ Ⲑⲉⲟⲥ: Ⲁⲅⲓⲟⲥ Ⲓⲥⲭⲩⲣⲟⲥ: Ⲁⲅⲓⲟⲥ Ⲁⲑⲁⲛⲁⲧⲟⲥ: ⲟ̀ ⲁ̀ⲛⲁⲥⲧⲁⲥ ⲉⲕⲧⲱⲛ ⲛⲉⲕⲣⲱⲛ: ⲕⲉ ⲁ̀ⲛⲉⲗⲑⲱⲛ ⲓⲥ ⲧⲟⲩⲥ ⲟⲩⲣⲁⲛⲟⲩⲥ: ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ ⲏ̀ⲙⲁⲥ.",
     "Dieu Saint, Saint fort, Saint immortel, ressuscité d’entre les morts et monté aux cieux, aie pitié de nous.",
     "آجيوس أو ثيؤس، آجيوس يس شيروس، آجيوس آثاناتوس، أو آناستاس إكتون نيكرون، كي آنيلثون يس توس أورانوس، إلايسون إيماس.",
@@ -2371,21 +2372,21 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.commonPrayer + "AgiosPart2" + css.Assembly,
+    Prefix.commonPrayer + "AgiosPart2" + css.Same,
     "Ⲁⲅⲓⲁ Ⲧ̀ⲣⲓⲁⲥ ̀ⲉ̀ⲗⲉⲑ̀ⲥⲟⲛ ⲑ̀ⲙⲁⲥ: ⲡⲁⲛⲁ̀ⲅⲓⲁ Ⲧ̀ⲣⲓⲁⲥ ̀ⲉ̀ⲗⲉⲑ̀ⲥⲟⲛ ⲑ̀ⲙⲁⲥ: Ϯⲧ̀ⲣⲓⲁⲥ ⲉⲟ̀ⲩⲁⲃ ⲛⲁⲓ ⲛⲁⲛ. Ⲡ̀ϭⲟⲓⲥ ⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ: Ⲡ̀ϭⲟⲓⲥ ⲭⲁ ⲛⲉⲛⲁ̀ⲛⲟⲙⲓⲁ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ: Ⲡ̀ϭⲟⲓⲥ ⲭⲁ ⲛⲉⲛⲡⲁⲣⲁⲡⲧⲱⲙⲁ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ. Ⲡ̀ϭⲟⲓⲥ ϫⲉⲙⲡ̀ϣⲓⲛⲓ ⲛ̀ⲑⲉⲧϣⲱⲛⲓ ⲛ̀ⲧⲉ ⲡⲉⲕⲗⲁⲟⲥ: ⲙⲁⲧⲁϭⲱⲟⲩ ⲉⲃ̀ⲉ ⲡⲉⲕⲣⲁⲛ ⲉⲟ̀ⲩⲁⲃ.",
     "Ô Trinité sainte, aie pitié de nous. Ô Trinité Sainte, aie pitié de nous. Ô Trinité Sainte, aie pitié de nous. Seigneur, pardonne-nous nos péchés. Seigneur, pardonne-nous nos iniquités. Seigneur, pardonne-nous nos erreurs. Visite Seigneur les malades de Ton peuple; guéris-les à cause de Ton Saint Nom.",
     "",
     "أَيُّهَا اَلثَالُوثْ القُدُّوسْ ارْحَمْنَا. أيُّهَا الثَالُوثْ القُدُّوسْ ارْحَمْنَا. أيُّهَا الثَالُوثْ القُدُّوسْ ارْحَمْنَا. يا رَبُّ اغْفِرْ لَنَا خَطَايَانَا، يا رَبُّ اغفر لنا آثَامِنَا، يا رَبُّ اغفر لنا زلاتنا. يا رَبُّ افتقد مرضى شعبك، اشفهم مِنْ أَجْلِ اسْمُكَ القُدُّوسْ.",
   ],
   [
-    Prefix.same + css.Assembly,
+    Prefix.same + css.Same,
     "Ⲛⲉⲛⲓⲟϯ ⲛⲉⲙ ⲛⲉⲛⲥ̀ⲛⲑⲟⲩ ⲉ̀ⲧⲁⲩⲉ̀ⲛⲕⲟⲧ Ⲡ̀ϭⲟⲓⲥ ⲙⲁⲙ̀ⲧⲟⲛ ⲛ̀ⲛⲟⲩⲯⲩⲭⲑ. Ⲡⲓⲁⲛ̀ⲟⲃⲓ Ⲡ̀ϭⲟⲓⲥ ⲛⲁⲓ ⲛⲁⲛ: ⲡⲓⲁⲛ̀ⲟⲃⲓ Ⲡ̀ϭⲟⲓⲥ ⲁ̀ⲣⲓⲃⲟⲑⲓ̀ⲛ ⲉ̀ⲣⲟⲛ: ϣⲉⲡ ⲛⲉⲛϯϩⲟ ⲉ̀ⲣⲟⲕ. Ϫⲉ ⲫⲱⲕ ⲡⲉ ⲡⲓⲱ̀ⲟⲩ ⲛⲉⲙ ⲡⲓⲁ̀ⲙⲁϩⲓ: ⲛⲉⲙ ⲡⲓⲧ̀ⲣⲓⲁⲥ ⲁ̀ⲅⲓⲟⲥ:",
     "A nos pères et à nos frères qui se sont endormis, accorde Seigneur le repos de leurs âmes. Ô Toi qui es sans péché, Seigneur aie pitié de nous. Ô Toi qui es sans péché, Seigneur aide nous et reçois nos supplications car à Toi sont dues la gloire, la magnificence et la sanctification trinitaire.",
     "",
     "آباؤنا وإخوتنا الَّذِينَ رقدوا، يا رَبُّ نيح نفوسهم. يا من هُوَ بلا خطية، يا رَبُّ ارْحَمْنَا. يا من بلا خطية، يا رَبُّ أعنا، واقبَلْ طلباتنا إليك. لِأنَّ لَكَ المَجْدُ والعزة والتقديس المثلث.",
   ],
   [
-    Prefix.same + css.Assembly,
+    Prefix.same + css.Same,
     "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲑ̀ⲥⲟⲛ: Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲑ̀ⲥⲟⲛ: Ⲕⲩⲣⲓⲉ ⲩ̀ⲗⲟⲅⲑⲥⲟⲛ ⲁ̀ⲙⲑⲛ.",
     "Pitié Seigneur, pitié Seigneur, Seigneur bénis-nous . Amen !",
     "كيريالَيسون، كيريالَيسون، كيريالَيسون. آمْينْ.",
@@ -2394,7 +2395,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.commonPrayer + "WeSaluteYouMary" + css.Title,
+    Prefix.bookOfHours + "WeSaluteYouMary" + css.Title,
     "",
     "Nous Te saluons et nous te supplions",
     "",
@@ -4009,7 +4010,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.commonPrayer + "WeExaltYouStMary" + css.Title,
+    Prefix.bookOfHours + "WeExaltYouStMary" + css.Title,
     "",
     "Nous t’exaltons ô Mère de la vraie Lumière",
     "",
@@ -5114,7 +5115,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.commonPrayer + "Kyrielison41MassIntro",
+    Prefix.massCommon + "Kyrielison41",
   ],
   [
     Prefix.same + css.Priest,
@@ -5123,24 +5124,27 @@ PrayersArrayFR = [[
     "",
     "نسألَكَ يا حمل اللّه يا حامل خطية العَالَم اسمعنا وارْحَمْنَا واغْفِرْ لَنَا خَطَايَانَا آمْينْ.",
   ],
-  [Prefix.placeHolder, Prefix.commonPrayer + "Kyrielison41"]
+  [
+    Prefix.switchClass + css.Assembly
+  ],
+  [Prefix.placeHolder, Prefix.bookOfHours + "Kyrielison"]
 ],
 [
   [
-    Prefix.commonPrayer + "Kyrielison41NoMassIntro",
+    Prefix.bookOfHours + "Kyrielison41",
   ],
   [
-    Prefix.same + css.Priest,
+    Prefix.same,
     "",
-    "Agneau de Dieu qui porte les péchés, du monde, nous T'implorons écoute nous et aie pitié de nous",
+    "Nous T'implorons écoute nous et aie pitié de nous",
     "",
     "نسألَكَ يا رَبُّ اسمعنا وارْحَمْنَا واغْفِرْ لَنَا خَطَايَانَا آمْينْ.",
   ],
-  [Prefix.placeHolder, Prefix.commonPrayer + "Kyrielison41"]
+  [Prefix.placeHolder, Prefix.bookOfHours + "Kyrielison"]
 ],
 [
   [
-    Prefix.commonPrayer + "Kyrielison41" + css.Assembly,
+    Prefix.bookOfHours + "Kyrielison",
     "Ⲕⲩⲣⲓⲉ̀ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ: Ⲕⲩⲣⲓⲉ̀ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ: Ⲕⲩⲣⲓⲉ̀ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ:",
     "Pitié Seigneur 41 fois",
     "كيريالَيسون (41)",
@@ -5149,7 +5153,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.commonPrayer + "HolyLordOfSabaot" + css.SubTitle,
+    Prefix.bookOfHours + "HolyLordOfSabaot" + css.SubTitle,
     "",
     "Saint, Saint, Saint Seigneur sabaot",
     "",
@@ -5581,7 +5585,7 @@ PrayersArrayFR = [[
     "",
     "ختام الهيتنيات",
   ],
-  [Prefix.changeClass + css.Diacon],
+  [Prefix.switchClass + css.Diacon],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "WeWorshipYouChrist",
@@ -14602,7 +14606,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.fractionPrayer + "StMaryAndAngelsFeasts&D=$stMaryFeasts||$celestialBeingsFeasts||$Seasons.StMaryFast)" + css.Title,
+    Prefix.fractionPrayer + "StMaryAndAngelsFeasts&D=$stMaryFeasts||$celestialBeingsFeasts||$Seasons.StMaryFast" + css.Title,
     "",
     "Oraison de fraction pour les fêtes de la Sainte Vierge et des anges\n(Voici présent avec nous aujourd’hui sur cet autel, Emmanuel)",
     "",
@@ -18953,6 +18957,10 @@ PrayersArrayFR = [[
     "",
     "صَلاةْ باكر",
   ],
+  [Prefix.anchor + "Psalms"],
+  [Prefix.placeHolder, Prefix.bookOfHours + "H1Gospel"],
+  [Prefix.placeHolder, Prefix.bookOfHours + "H1Litanies"],
+  [Prefix.anchor + "End"],
 ],
 [
   [
@@ -20009,7 +20017,7 @@ PrayersArrayFR = [[
     "",
     "خلصت أبَانَا آدم من الغواية، وعتقت أمنا حواء من طلقات الموت، وأعطيتنا روح البنوة، نُسَبِحَكْ ونُبَارِكُكَ قائلين:",
   ],
-  [Prefix.changeClass + css.Assembly],
+  [Prefix.switchClass + css.Assembly],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "GloryToFatherSonSpirit",
@@ -20028,7 +20036,7 @@ PrayersArrayFR = [[
     "",
     "اسمع أصواتنا كَعَظِيمِ رَحْمَتِكَ، ونجنا أيُّهَا الرَبّ إلَهْنَا بتحننك.",
   ],
-  [Prefix.changeClass + css.Assembly],
+  [Prefix.switchClass + css.Assembly],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "NowAlwaysAndForEver",
@@ -20157,6 +20165,10 @@ PrayersArrayFR = [[
     "",
     "صَلاةْ السَاعَةْ الثالثة",
   ],
+  [Prefix.anchor + "Psalms"],
+  [Prefix.placeHolder, Prefix.bookOfHours + "H3Gospel"],
+  [Prefix.placeHolder, Prefix.bookOfHours + "H3Litanies"],
+  [Prefix.anchor + "End"],
 ],
 [
   [
@@ -20806,7 +20818,7 @@ PrayersArrayFR = [[
     "",
     "والمَجْدُ للهِ دَائِمَاً",
   ],
-  [Prefix.changeClass + css.Priest],
+  [Prefix.switchClass + css.Priest],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "WeWorshipYouChrist"
@@ -20827,7 +20839,7 @@ PrayersArrayFR = [[
     "",
     "رُوحِكَ القُدُّوسْ يا رَبُّ الذي أرسلته عَلَى تلاميذك القِدِّيسِينْ ورُسُلَكَ المكرمين في السَاعَةْ الثالثة، هَذا لا تنزعه منا أيُّهَا الصَالِح، لَكِنْ جدده في أحشائنا. قلبا نقيا اخلق فيَّ يا اللّه، وروحا مستقيما جدد في أحشائي. لا تطرحني من قدام وجهك، ورُوحِكَ القُدُّوسْ لا تنزعه منى.",
   ],
-  [Prefix.changeClass + css.Assembly],
+  [Prefix.switchClass + css.Assembly],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "GloryToFatherSonSpirit",
@@ -20839,7 +20851,7 @@ PrayersArrayFR = [[
     "",
     "أَيُّهَا الرَبُّ الذي أرسلتَ روح قُدْسَكْ عَلَى تَلامِيذَكْ القِدِّيسِينْ ورُسُلَكَ المكرمين في السَاعَةْ الثالثة، هَذا لا تنزعه منا أيُّهَا الصَالِح. لَكِنْ نسألَكَ أنْ تجدده في أحشائنا، يا رَبّنا يَسُوعْ المَسِيحْ ابنُ اللّه الكلمة، روحا مستقيما ومحييا، روح النبوءة والعفة، روح القداسة والعدالة والسلطة، أيُّهَا القادر عَلَى كُلِّ شيء، لأنَّكَ أنْتَ هُوَ ضياء نفوسنا. يا من يضئ لكُلِّ إنسان آت إلى العَالَم، ارْحَمْنَا.",
   ],
-  [Prefix.changeClass + css.Assembly],
+  [Prefix.switchClass + css.Assembly],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "NowAlwaysAndForEver",
@@ -20851,7 +20863,7 @@ PrayersArrayFR = [[
     "",
     "يا والِدَةِ الإلَهِ أنْتَ هي الكرمة الحقيقية الحاملة عنقود الحياة، نسألَكَ أَيَّتُهَا المملوءة نعمة، مَعَ الرسل، مِنْ أَجْلِ خلاص نفوسنا. مُبَارَكْ الرَبّ إلَهْنَا. مُبَارَكْ الرَبّ يَومَاً فيوما، يهيئ طريقنا لِأنَّهُ إله خَلاصِنَا.",
   ],
-  [Prefix.changeClass + css.Assembly],
+  [Prefix.switchClass + css.Assembly],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "NowAlwaysAndForEver",
@@ -20863,7 +20875,7 @@ PrayersArrayFR = [[
     "",
     "أَيُّهَا المَلِكْ السَّمَائِي المُعَزِّي، رُوحِ الحَقّْ، الحَاضِرِ في كُلِّ مكان والمالئ الكل، كَنْزُ الصَالِحَاتِ، ومُعْطِى الحَيَاةَ، هَلُمَّ تَفَضَّلْ وحِلّ فِينَا، وطَهْرْنَا مِنْ كُلِّ دنس أيُّهَا الصَالِح، وخَلِّصْ نِفُوسَنَا.",
   ],
-  [Prefix.changeClass + css.Assembly],
+  [Prefix.switchClass + css.Assembly],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "GloryToFatherSonSpirit",
@@ -20875,7 +20887,7 @@ PrayersArrayFR = [[
     "",
     "كما كُنْتُ مَعَ تلاميذك أيُّهَا المخلص وأعطيتهم السَّلامُ، هَلُمَّ أًيّْضَاً كن مَعَنا وامْنَحْنَا سَلامَكْ وخَلِّصْنَا ونَجِ نِفُوسَنَا.",
   ],
-  [Prefix.changeClass + css.Assembly],
+  [Prefix.switchClass + css.Assembly],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "NowAlwaysAndForEver",
@@ -20933,6 +20945,10 @@ PrayersArrayFR = [[
     "",
     "صَلاةْ السَاعَةْ السادسة",
   ],
+  [Prefix.anchor + "Psalms"],
+  [Prefix.placeHolder, Prefix.bookOfHours + "H6Gospel"],
+  [Prefix.placeHolder, Prefix.bookOfHours + "H6Litanies"],
+  [Prefix.anchor + "End"],
 ],
 [
   [
@@ -21503,7 +21519,7 @@ PrayersArrayFR = [[
     "",
     "أنَا صرخت إلى اللّه والرَبّ سمعني. اَللَّهُمَّ استجب صَلاتي ولا ترفض طلبتي. التفت إليّ واسمعني. عشية وباكر ووقت الظهر. كلامي أقوله فيسمع صوتي، ويخلص نَفْسِي بسلام.",
   ],
-  [Prefix.changeClass + css.Assembly],
+  [Prefix.switchClass + css.Assembly],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "GloryToFatherSonSpirit",
@@ -21515,7 +21531,7 @@ PrayersArrayFR = [[
     "",
     "يا يَسُوعْ المَسِيحْ إلَهْنَا الذي سمرتَ عَلَى الصَلِيبْ في السَاعَةْ السادسة، وقتلت الخطية بالخشبة، وأحييت الميت بموتك، الذي هُوَ الإنْسَانِ الذي خلقته بيديك، الذي مات بالخطية، اقتل أوجاعنا بآلامك الشافية المحيية، وبالمسامير التي سمرت بها، أنقذ عُقُولَنَا من طياشة الأعمال الهيولية والشهوات العَالَمية، إلى تَذْكُر أحكامك السَّمَائِيَّة كرأفتك.",
   ],
-  [Prefix.changeClass + css.Assembly],
+  [Prefix.switchClass + css.Assembly],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "NowAlwaysAndForEver",
@@ -21541,7 +21557,7 @@ PrayersArrayFR = [[
     "",
     "أعنا يا اللّه مُخَلِصّْنَا مِنْ أَجْلِ مجد اسْمَكْ. يا رَبُّ نَجِّنَا واغْفِرْ لَنَا خَطَايَانَا، مِنْ أَجْلِ اسْمُكَ القُدُّوسْ",
   ],
-  [Prefix.changeClass + css.Assembly],
+  [Prefix.switchClass + css.Assembly],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "NowAlwaysAndForEver",
@@ -21553,7 +21569,7 @@ PrayersArrayFR = [[
     "",
     "صَنَعْتَ خَلاصاً في وَسَطِ الأرْضِ كُلِّها أيُّهَا المَسِيحْ إلهنا، عِنْدَمَا بَسَطْتَ يَدَيْكَ الطَاهِرَتَينِ عَلى عُودِ الصَليِبْ. فَلِهَذَا كُلِّ الأُمَمْ تَصْرُخْ قَائلةً: المَجْدُ لَكَ يا رَبّ.",
   ],
-  [Prefix.changeClass + css.Assembly],
+  [Prefix.switchClass + css.Assembly],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "GloryToFatherSonSpirit",
@@ -21572,7 +21588,7 @@ PrayersArrayFR = [[
     "",
     "نَصْرُخْ إليَكَ ونَشْكُرُكَ لأنَّكَ مَلأتَ الكُلَّ فَرَحاً، أيُّهَا الُمَخلِصْ لمّا أتَيتَ لِتُعِينْ العَالَمْ، يا رَبُّ المَجْدُ لَكَ.",
   ],
-  [Prefix.changeClass + css.Assembly],
+  [Prefix.switchClass + css.Assembly],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "NowAlwaysAndForEver",
@@ -21630,6 +21646,10 @@ PrayersArrayFR = [[
     "",
     "صَلاةْ السَاعَةْ التاسعة",
   ],
+  [Prefix.anchor + "Psalms"],
+  [Prefix.placeHolder, Prefix.bookOfHours + "H9Gospel"],
+  [Prefix.placeHolder, Prefix.bookOfHours + "H9Litanies"],
+  [Prefix.anchor + "End"],
 ],
 [
   [
@@ -22355,7 +22375,7 @@ PrayersArrayFR = [[
     "فليدن توسلي قدامك يا رَبّ، كقولَكَ فهمني. لتدخل طلبتي إلى حضرتك، ككلمتك أحييني."
   ],
   [
-    Prefix.changeClass + css.Assembly,
+    Prefix.switchClass + css.Assembly,
   ],
   [
     Prefix.placeHolder + "",
@@ -22369,7 +22389,7 @@ PrayersArrayFR = [[
     "يا من أسلم الروحَ في يدي الآب عِنْدَمَا علقت عَلَى الصَلِيبْ وقت السَاعَةْ التاسعة، وهديتَ اللصَّ المصلوباً مَعَك للدخول إلى الفردوس، لا تغفل عني أيُّهَا الصَالِحْ ولا ترذلني أَنا الضال، بَلْ قدس نَفْسِي وأضئ فهمي واجعلني شريكا لنعمة أسرارك المحيية. لِكَيّ ما إذا ذقت من إحساناتك، أقدم لَكَ تسبحة بِغَيّْرِ فتور، مشتاقا إلى بهائك أفْضَلْ مِنْ كُلِّ شئ، أيُّهَا المَسِيحْ إلَهْنَا ونجنا"
   ],
   [
-    Prefix.changeClass + css.Assembly,
+    Prefix.switchClass + css.Assembly,
   ],
   [
     Prefix.placeHolder + "",
@@ -22383,7 +22403,7 @@ PrayersArrayFR = [[
     "يا من وَلَدَتْ من البتول مِنْ أَجْلِنا، واحتملت الصلب أيُّهَا الصَالِحْ وقتلت المَوْتَ بموتك وأظهرت القيامة بقيامتك، لا تعرض يا اللّه عَنْ الَّذِينَ جبلتهم بيديك. أظهر محبتك للبشر أيُّهَا الصَالِح. اقْبَلْ من والدتك شفاعة مِنْ أَجْلِنا. نج يا مخلص شعبا متواضعا. لا تتركنا إلى الانقضاء ولا تسلمنا إلى الدهر، ولا تنقض عهدك ولا تنزع عَنَّا رحمتك، مِنْ أَجْلِ إبراهيمَ حبيبِك واسحقَ عبدِك وإسرائيلَ قديسِك"
   ],
   [
-    Prefix.changeClass + css.Assembly,
+    Prefix.switchClass + css.Assembly,
   ],
   [
     Prefix.placeHolder + "",
@@ -22397,7 +22417,7 @@ PrayersArrayFR = [[
     "لما أبصر اللص رئيس الحياة عَلَى الصَلِيبْ مَعَلقا، قال: لولا أنْ المصلوبَ مَعَنا إلهٌ متجسد، ما كانت الشمس أخفت شعاعها ولا الأرْضْ ماجت مرتعدة. لَكِنْ أيُّهَا القادر عَلَى كُلِّ شئ، والمحتمل كُلِّ شئ، اذكرني يا رَبُّ متى جئتَ في مَلَكُوتَكْ"
   ],
   [
-    Prefix.changeClass + css.Assembly,
+    Prefix.switchClass + css.Assembly,
   ],
   [
     Prefix.placeHolder + "",
@@ -22411,7 +22431,7 @@ PrayersArrayFR = [[
     "يا مِنْ قِبَلِ إليه اعتراف اللص عَلَى الصليب، اقبلنا إليَكَ أيُّهَا الصَالِح. نَحْنُ المستوجبين حكم المَوْتَ مِنْ أَجْلِ خَطَايَانَا. نقر بخطايانا مَعَه مَعَترفين بألوهيتك، ونصرخ مَعَه جميعا: \"اذكرنا يا رَبُّ متى جئتَ في مَلَكُوتَكْ "
   ],
   [
-    Prefix.changeClass + css.Assembly,
+    Prefix.switchClass + css.Assembly,
   ],
   [
     Prefix.placeHolder + "",
@@ -22491,6 +22511,10 @@ PrayersArrayFR = [[
     "",
     "صَلاةْ السَاعَةْ الحادية عَشرْ (الغروب)",
   ],
+  [Prefix.anchor + "Psalms"],
+  [Prefix.placeHolder, Prefix.bookOfHours + "H11Gospel"],
+  [Prefix.placeHolder, Prefix.bookOfHours + "H11Litanies"],
+  [Prefix.anchor + "End"],
 ],
 [
   [
@@ -23054,7 +23078,7 @@ PrayersArrayFR = [[
     "",
     "فما أجسر أنْ أنظر إلى علو السَّمَاء، لكني أتكُلِّ عَلَى غنى رَحْمَتُكَ ومحبتك للبشرية، صارخا قائلا: اَللَّهُمَّ اغفر لي أَنا الخاطئ وارحمني",
   ],
-  [Prefix.changeClass + css.Assembly],
+  [Prefix.switchClass + css.Assembly],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "GloryToFatherSonSpirit",
@@ -23073,7 +23097,7 @@ PrayersArrayFR = [[
     "",
     "فلا تتخل عَنْ قلبٍ خاشع مفتقر لرحمتك. لأني إليَكَ أصرخ يا رَبُّ بتخشع: \"أخط أت يا أبتاه إلى السَّمَاء وقدامك ولست مستحقا أنْ أدعَى لَكَ ابنا، بَلْ اجعلني كأحد أجرائك\".",
   ],
-  [Prefix.changeClass + css.Assembly],
+  [Prefix.switchClass + css.Assembly],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "NowAlwaysAndForEver",
@@ -23131,6 +23155,10 @@ PrayersArrayFR = [[
     "",
     "صَلاةْ السَاعَةْ الثانية عشر (النوم)",
   ],
+  [Prefix.anchor + "Psalms"],
+  [Prefix.placeHolder, Prefix.bookOfHours + "H12Gospel"],
+  [Prefix.placeHolder, Prefix.bookOfHours + "H12Litanies"],
+  [Prefix.anchor + "End"],
 ],
 [
   [
@@ -23673,7 +23701,7 @@ PrayersArrayFR = [[
     "",
     "هوذا أَنا عتيد أنْ أقف أَمَامْ الدَيَّانْ العادل، مرعوبا ومرتعبا من كثرة ذنوبي، لِأنَّ العمر المنقضي في الملاهي يستوجب الدينونة. لَكِنْ توبي يا نَفْسِي مادمتِ في الأرْضْ ساكنة، لِأنَّ التراب في القبر لا يسبح. ولَيس في الموتى من يذكر، ولا في الجحيم من يشكر. بَلْ انهضي من رقاد الكَسَلِ وتضرعي إلى المخلص بالتوبة قائلة: \"اَللَّهُمَّ ارحمني وخلصني\".",
   ],
-  [Prefix.changeClass + css.Assembly],
+  [Prefix.switchClass + css.Assembly],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "GloryToFatherSonSpirit",
@@ -23692,7 +23720,7 @@ PrayersArrayFR = [[
     "",
     "أَيُّهَااَلمَسِيحْ إلَهْنَا لكرسي حكمك المرهوب أفزع، ولمجلس دينونتك أخشع، ولنور شعاع لاهوتك أجزع، أَنا الشقي المتدنس، الراقد عَلَى فراشي المتهاون في حياتي. لكنى أتخذ صورة العشار قارعا صدري، قائلا: \"اَللَّهُمَّ اغفر لي فإني خاطئ\".",
   ],
-  [Prefix.changeClass + css.Assembly],
+  [Prefix.switchClass + css.Assembly],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "NowAlwaysAndForEver",
@@ -23750,6 +23778,10 @@ PrayersArrayFR = [[
     "Prière de la fermeture du voile",
     "صلاة الِستَار",
   ],
+  [Prefix.anchor + "Psalms"],
+  [Prefix.placeHolder, Prefix.bookOfHours + "HVGospel"],
+  [Prefix.placeHolder, Prefix.bookOfHours + "HVLitanies"],
+  [Prefix.anchor + "End"],
 ],
 [
   [
@@ -23807,7 +23839,7 @@ PrayersArrayFR = [[
     "",
     "أضئ عيني بِعَظَمَةِ أقوالك، وانهضني في كُلِّ حِينٍ لتمجيدك، لِأَنَّكَ صالح وحدك ومُحِبْ البَشَر.",
   ],
-  [Prefix.changeClass + css.Assembly],
+  [Prefix.switchClass + css.Assembly],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "GloryToFatherSonSpirit",
@@ -23819,7 +23851,7 @@ PrayersArrayFR = [[
     "",
     "يا رَبُّ إنَّ دينونتك لمرهوبة، إذْ تُحْشَرْ الناس وتَقِفْ المَلائِكَةِ، وتُفْتَحُ الأَسْفَارْ، وتُكْشَفُ الأَعْمَال وتُفْحَصُ الأَفْكَارْ. أَيَّةُ إدَانَةٍ تَكُونُ إدَانَتي أنَا المَضْبوطْ بِالخَطايا؟ مَنْ يُطْفِئ لَهِيبْ النَار عَنِّي؟‍‍‍‍‍‍ مَنْ يُضِئْ ظُلْمَتي إنَّ لَمّْ تَرْحَمَني أَنْتَ يا رَبُّ؟ لِأَنَّكَ مُتَْعَطِفٌ على البَشَرِ.",
   ],
-  [Prefix.changeClass + css.Assembly],
+  [Prefix.switchClass + css.Assembly],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "NowAlwaysAndForEver",
@@ -23870,6 +23902,10 @@ PrayersArrayFR = [[
     "",
     "الخِدْمَة الأولى مِنْ نِصْفِ اللَّيْلِ",
   ],
+  [Prefix.anchor + "Psalms"],
+  [Prefix.placeHolder, Prefix.bookOfHours + "HMD1Gospel"],
+  [Prefix.placeHolder, Prefix.bookOfHours + "HMD1Litanies"],
+  [Prefix.anchor + "End"],
 ],
 [
   [
@@ -23952,7 +23988,7 @@ PrayersArrayFR = [[
     "",
     "فَانْظُرِي يا نَفْسِي لِئَلَّا تثقلي نوما، فتلقي خارج الملكوت. بَلْ اسهري واصرخي قائلة: \"قُدُّوسْ قُدُّوسْ قُدُّوسْ أَنْتَ يا الله، مِنْ أَجْلِ والِدَةِ الإِلَه ارْحَمْنَا\".",
   ],
-  [Prefix.changeClass + css.Assembly],
+  [Prefix.switchClass + css.Assembly],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "GloryToFatherSonSpirit",
@@ -23971,7 +24007,7 @@ PrayersArrayFR = [[
     "",
     "فَانْظُرِي يا نَفْسِي لا تَنْعَسِي، لِئَلَّا تَقِفِي خَارِجَاً قَارِعَةً مِثْلَ الَخْمسِ العَذَارى الجَاهِلاتِ، بَلْ اسْهَري مُتَضَرِّعَةً لِكَيّ تَلْتَقي المَسِيحَ الرَبُّ بِدِهْنٍ دَسِمْ، ويُنْعِمُ عَلَيْكِ بِعُرْسِ مَجْدِهِ الإلهي الحَقِيقِي.",
   ],
-  [Prefix.changeClass + css.Assembly],
+  [Prefix.switchClass + css.Assembly],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "NowAlwaysAndForEver",
@@ -23983,7 +24019,7 @@ PrayersArrayFR = [[
     "",
     "أنْتِ هِيَ سُورُ خَلاصِنَا يا والِدَةِ الإِلَه العَذْراءِ الحِصْنِ المَنِيعِ غَيْرِ المُنْثَلِمْ، أبْطِلي مَشُورَةِ المُعَانِدينَ، وحُزْنِ عَبِيدِكِ رُدِّيهِ إلى فَرَحٍ وحَصِّنِي مَدِينَتَنَا (دَيْرَنَا) وعَنْ مُلِوكِنَا (رُؤسَائِنَا) حَارِبي، وتَشَّفَعِي عَنْ سَلامِ العَالَمْ، لِأنَّكَ أنْتِ هِيَ رجاؤنا يا والِدَةِ الإلَهِ.",
   ],
-  [Prefix.changeClass + css.Assembly],
+  [Prefix.switchClass + css.Assembly],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "NowAlwaysAndForEver",
@@ -24006,7 +24042,7 @@ PrayersArrayFR = [[
     "",
     "كَمَا كُنْتَ مَعَ تلاميذك أَيُّهَا المخلص وأَعْطَيْتَهُمْ السَّلامْ، هَلُّمَ أَيْضَّاً كُنْ مَعْنَا وامْنَحْنَا سَلامَكْ وخَلِّصْنَا ونَجِ نِفُوسَنَا. ",
   ],
-  [Prefix.changeClass + css.Assembly],
+  [Prefix.switchClass + css.Assembly],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "NowAlwaysAndForEver",
@@ -24027,6 +24063,10 @@ PrayersArrayFR = [[
     "",
     "الخِدْمَةِ الثَانِيَةِ مِنْ نِصْفِ اللَّيْلِ",
   ],
+    [Prefix.anchor + "Psalms"],
+  [Prefix.placeHolder, Prefix.bookOfHours + "HMD2Gospel"],
+  [Prefix.placeHolder, Prefix.bookOfHours + "HMD2Litanies"],
+  [Prefix.anchor + "End"],
 ],
 [
   [
@@ -24077,7 +24117,7 @@ PrayersArrayFR = [[
     "",
     "أعطني يا رَبُّ ينابيع دموع كثيرة، كَمَا أعطيت مُنْذُ القديم للمرأة الخاطئة. واجعلني مستحقا أن أبل قدميك اللتين أعتقتاني من طريق الضلالة، وأقدم لَكَ طيبا فائقا، وأقتني لي عمرا نقيا بالتوبة، لِكَيّ أسمع أنَا ذَلِكَ الصوت الممتلئ فرحًا: \"إن إيمانك خلصك\".",
   ],
-  [Prefix.changeClass + css.Assembly],
+  [Prefix.switchClass + css.Assembly],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "GloryToFatherSonSpirit",
@@ -24089,7 +24129,7 @@ PrayersArrayFR = [[
     "",
     "إذا ما تفطنت في كثرة أعمالي الرَدِيئَةِ ويأتي على قلبي فكر تِلْكَ الدينونة الرهيبة تأخذني رعدة، فأهرب إلَيْكَ يا الله محب البَشَرِ. فلا تصرف وجهك عني، متضرعا إلَيْكَ يا من أنت وحدك بلا خطية، انْعِمْ على نفسي المسكينة بتخشع قبل أن يأتي الانقضاء وخلصني.",
   ],
-  [Prefix.changeClass + css.Assembly],
+  [Prefix.switchClass + css.Assembly],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "NowAlwaysAndForEver",
@@ -24101,7 +24141,7 @@ PrayersArrayFR = [[
     "",
     "السموات تُطَوِّبُكِ أَيَّتُهَا الممتلئة نعمة، العروس التي بلا زواج. ونحن أيضا نمجد ميلادك غير المدرك. يا والدة الإله يا أم الرحمة والخلاص، تشفعي مِنْ أَجْلِ خلاص نفوسنا.",
   ],
-  [Prefix.changeClass + css.Assembly],
+  [Prefix.switchClass + css.Assembly],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "NowAlwaysAndForEver",
@@ -24113,7 +24153,7 @@ PrayersArrayFR = [[
     "",
     "أَيُّها المَلِكْ السَّمَائِي المُعَزِّي، رُوحِ الحَقّْ، الحَاضِرِ في كُلِّ مَكَانٍ والمالئ الكُلِّ، كَنْزُ الصَالِحَاتِ، ومُعْطِى الحَيَاةَ، هَلُمَّ تَفَضَّلْ وحِلّ فِينَا، وطَهْرْنَا مِنْ كُلِّ دَنَسٍ أَيُّهَا الصَالِحِ، وخَلِّصْ نِفُوسَنَا.",
   ],
-  [Prefix.changeClass + css.Assembly],
+  [Prefix.switchClass + css.Assembly],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "GloryToFatherSonSpirit",
@@ -24125,7 +24165,7 @@ PrayersArrayFR = [[
     "",
     "كَمَا كُنْتَ مَعَ تلاميذك أَيُّهَا المخلص وأَعْطَيْتَهُمْ السَّلامْ، هَلُّمَ أَيْضَّاً كُنْ مَعْنَا وامْنَحْنَا سَلامَكْ وخَلِّصْنَا ونَجِ نِفُوسَنَا. ",
   ],
-  [Prefix.changeClass + css.Assembly],
+  [Prefix.switchClass + css.Assembly],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "NowAlwaysAndForEver",
@@ -24146,6 +24186,10 @@ PrayersArrayFR = [[
     "",
     "الخِدْمَةِ الثَالِثَةِ مِنْ نِصْفِ اللَّيْلِ",
   ],
+  [Prefix.anchor + "Psalms"],
+  [Prefix.placeHolder, Prefix.bookOfHours + "HMD3Gospel"],
+  [Prefix.placeHolder, Prefix.bookOfHours + "HMD3Litanies"],
+  [Prefix.anchor + "End"],
 ],
 [
   [
@@ -24205,7 +24249,7 @@ PrayersArrayFR = [[
     "",
     "بعين متحننة يا رَبُّ انظر إلى ضعفى، فعما قليل تفنى حياتي، وبأعمالي لَيْسَ لي خلاص. فلهَذَا أسال: بعين رحيمة يا رَبُّ انظر إلى ضعفى وذلي ومسكنتي وغربتي، ونجني.",
   ],
-  [Prefix.changeClass + css.Assembly],
+  [Prefix.switchClass + css.Assembly],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "GloryToFatherSonSpirit",
@@ -24224,7 +24268,7 @@ PrayersArrayFR = [[
     "",
     "فلهَذَا أشفق عليّ أَيُّهَا المخلص، فإنك أَنْتَ هُوَ مُحِبَّ البَشَرِ وحدك.",
   ],
-  [Prefix.changeClass + css.Assembly],
+  [Prefix.switchClass + css.Assembly],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "NowAlwaysAndForEver",
@@ -24236,7 +24280,7 @@ PrayersArrayFR = [[
     "",
     "يا باب الحياة العقلي، يا والدة الإله المكرمة، خلصي الَّذِينَ التجأوا إلَيْكَ بإيمان من الشدائد، لِكَيّ نمجد ميلادك الطاهر في كُلِّ شيء مِنْ أَجْلِ خلاص نفوسنا.",
   ],
-  [Prefix.changeClass + css.Assembly],
+  [Prefix.switchClass + css.Assembly],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "NowAlwaysAndForEver",
@@ -24248,7 +24292,7 @@ PrayersArrayFR = [[
     "",
     "أَيُّها المَلِكْ السَّمَائِي المُعَزِّي، رُوحِ الحَقّْ، الحَاضِرِ في كُلِّ مَكَانٍ والمالئ الكُلِّ، كَنْزُ الصَالِحَاتِ، ومُعْطِى الحَيَاةَ، هَلُمَّ تَفَضَّلْ وحِلّ فِينَا، وطَهْرْنَا مِنْ كُلِّ دَنَسٍ أَيُّهَا الصَالِحِ، وخَلِّصْ نِفُوسَنَا.",
   ],
-  [Prefix.changeClass + css.Assembly],
+  [Prefix.switchClass + css.Assembly],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "GloryToFatherSonSpirit",
@@ -24260,7 +24304,7 @@ PrayersArrayFR = [[
     "",
     "كَمَا كُنْتَ مَعَ تلاميذك أَيُّهَا المخلص وأَعْطَيْتَهُمْ السَّلامْ، هَلُّمَ أَيْضَّاً كُنْ مَعْنَا وامْنَحْنَا سَلامَكْ وخَلِّصْنَا ونَجِ نِفُوسَنَا. ",
   ],
-  [Prefix.changeClass + css.Assembly],
+  [Prefix.switchClass + css.Assembly],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "NowAlwaysAndForEver",
@@ -24475,7 +24519,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.massCommon + "Agios&D=$Seasons.Nativity" + css.Title,
+    Prefix.commonPrayer + "Agios&D=$Seasons.Nativity" + css.Title,
     "",
     "Ⲏ̀ ⲡⲁⲣⲑⲉⲛⲟⲥ",
     "",
@@ -24584,20 +24628,16 @@ PrayersArrayFR = [[
     Prefix.commonPrayer + "GloryToFatherSonSpirit",
   ],
   [
-    Prefix.placeHolder,
-    Prefix.commonPrayer + "NowAlwaysAndForEver",
-  ],
-  [
-    Prefix.same + css.Assembly,
-    "Ⲁⲅⲓⲁ Ⲧ̀ⲣⲓⲁⲥ ̀ⲉ̀ⲗⲉⲑ̀ⲥⲟⲛ ⲑ̀ⲙⲁⲥ.",
-    "Ô Trinité sainte, aie pitié de nous.",
+    Prefix.same + css.Diacon,
+    "Maintenant et pour toujours, pour les siècles des siècles Amen. Ô Trinité Sainte, aie pitié de nous.",
+    "ⲕⲉ ⲛⲩⲛ ⲕⲉ ⲁ̀ⲓ̀ ⲕⲉ ⲓⲥ ⲧⲟⲩⲥ ⲉ̀ⲱ̀ⲛⲁⲥ ⲧⲱⲛ ⲉ̀ⲱ̀ⲛⲱⲛ ⲁ̀ⲙⲏⲛ : ⲁⲅⲓⲁ Ⲧⲣⲓⲁⲥ : ⲉⲗⲉⲏⲥⲟⲛ ⲏⲙⲁⲥ",
     "",
-    "القُدُّوسْ ارْحَمْنَا.",
+    "الآن و كل أوان وإلي دهر الدهور. آمين. أيُّهَا الثالوث المقدس ارحمنا.",
   ],
 ],
 [
   [
-    Prefix.massCommon + "Agios&D=$copticFeasts.EntryToEgypt" + css.Title,
+    Prefix.commonPrayer + "Agios&D=$copticFeasts.EntryToEgypt" + css.Title,
     "",
     "Ϯⲅⲁⲗⲓⲗⲉⲁ̀",
     "",
@@ -24654,12 +24694,12 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.massCommon + "Agios",
+    Prefix.commonPrayer + "Agios",
   ],
 ],
 [
   [
-    Prefix.massCommon + "Agios",
+    Prefix.commonPrayer + "Agios",
   ],
   [
     Prefix.placeHolder,
@@ -24683,7 +24723,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.massCommon + "Agios&D=$Seasons.PentecostalDays||$Seasons.Ascension" + css.Title,
+    Prefix.commonPrayer + "Agios&D=$Seasons.PentecostalDays" + css.Title,
     "",
     "Ô tous les chœurs célestes",
     "",
@@ -24890,20 +24930,16 @@ PrayersArrayFR = [[
     Prefix.commonPrayer + "GloryToFatherSonSpirit",
   ],
   [
-    Prefix.placeHolder,
-    Prefix.commonPrayer + "NowAlwaysAndForEver",
-  ],
-  [
-    Prefix.same + css.Assembly,
-    "Ⲁⲅⲓⲁ Ⲧ̀ⲣⲓⲁⲥ ̀ⲉ̀ⲗⲉⲑ̀ⲥⲟⲛ ⲑ̀ⲙⲁⲥ.",
-    "Ô Trinité sainte, aie pitié de nous.",
+    Prefix.same + css.Diacon,
+    "Maintenant et pour toujours, pour les siècles des siècles Amen. Ô Trinité Sainte, aie pitié de nous.",
+    "ⲕⲉ ⲛⲩⲛ ⲕⲉ ⲁ̀ⲓ̀ ⲕⲉ ⲓⲥ ⲧⲟⲩⲥ ⲉ̀ⲱ̀ⲛⲁⲥ ⲧⲱⲛ ⲉ̀ⲱ̀ⲛⲱⲛ ⲁ̀ⲙⲏⲛ : ⲁⲅⲓⲁ Ⲧⲣⲓⲁⲥ : ⲉⲗⲉⲏⲥⲟⲛ ⲏⲙⲁⲥ",
     "",
-    "القُدُّوسْ ارْحَمْنَا.",
+    "الآن و كل أوان وإلي دهر الدهور. آمين. أيُّهَا الثالوث المقدس ارحمنا.",
   ],
 ],
 [
   [
-    Prefix.massCommon + "Agios&D=$Seasons.Baptism" + css.Title,
+    Prefix.commonPrayer + "Agios&D=$Seasons.Baptism" + css.Title,
     "",
     "Ⲁⲅⲓⲟⲥ ⲟ̀ Ⲑⲉⲟⲥ",
     "",
@@ -24935,74 +24971,54 @@ PrayersArrayFR = [[
     Prefix.commonPrayer + "GloryToFatherSonSpirit",
   ],
   [
-    Prefix.placeHolder,
-    Prefix.commonPrayer + "NowAlwaysAndForEver",
-  ],
-  [
-    Prefix.same + css.Assembly,
-    "Ⲁⲅⲓⲁ Ⲧ̀ⲣⲓⲁⲥ ̀ⲉ̀ⲗⲉⲑ̀ⲥⲟⲛ ⲑ̀ⲙⲁⲥ.",
-    "Ô Trinité sainte, aie pitié de nous.",
+    Prefix.same + css.Diacon,
+    "Maintenant et pour toujours, pour les siècles des siècles Amen. Ô Trinité Sainte, aie pitié de nous.",
+    "ⲕⲉ ⲛⲩⲛ ⲕⲉ ⲁ̀ⲓ̀ ⲕⲉ ⲓⲥ ⲧⲟⲩⲥ ⲉ̀ⲱ̀ⲛⲁⲥ ⲧⲱⲛ ⲉ̀ⲱ̀ⲛⲱⲛ ⲁ̀ⲙⲏⲛ : ⲁⲅⲓⲁ Ⲧⲣⲓⲁⲥ : ⲉⲗⲉⲏⲥⲟⲛ ⲏⲙⲁⲥ",
     "",
-    "القُدُّوسْ ارْحَمْنَا.",
+    "الآن و كل أوان وإلي دهر الدهور. آمين. أيُّهَا الثالوث المقدس ارحمنا.",
   ],
 ],
 [
   [
-    Prefix.commonPrayer + "Agios&D=$Seasons.HolyWeek" + css.Title,
+    Prefix.commonPrayer + "Agios&D=$copticFeasts.HolyFriday" + css.Title,
+  ],
+  [
+    Prefix.same + css.Title,
     "",
-    "Le Trisagion",
-    "",
-    "قُدُّوسْ اللّه",
+    "Ⲁⲅⲓⲟⲥ",
+    "قُدُّوسْ الله"
   ],
   [
-    Prefix.same + css.Assembly,
-    "Ⲁⲅⲓⲟⲥ ⲟ̀ Ⲑⲉⲟⲥ: Ⲁⲅⲓⲟⲥ Ⲓⲥⲭⲩⲣⲟⲥ: Ⲁⲅⲓⲟⲥ Ⲁⲑⲁⲛⲁⲧⲟⲥ: ⲟ̀ ⲉⲕⲡⲁⲣⲑⲉⲛⲟ ⲅⲉⲛⲛⲉⲑⲉⲓⲥ: ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ ⲏ̀ⲙⲁⲥ.",
-    "Saint Dieu, Saint puissant, Saint immortel, qui es né de la Vierge; aie pitié de nous.",
-    "آجيوس أوثيئوس. آجيوس إس شيروس. آجيوس آثاناطوس، أو إكبر ثينو جينيتيس إليسون إيماس.",
-    "قُدُّوسْ الله، قُدُّوسْ القوي، قُدُّوسْ الحَيّ الذي لا يَموتْ، يا مَنْ ولِدَ مِنَ العْذرَاءْ ارْحَمْنَا.",
-  ],
-  [
-    Prefix.same + css.Assembly,
+    Prefix.same + css.Diacon,
     "Ⲁⲅⲓⲟⲥ ⲟ̀ Ⲑⲉⲟⲥ: Ⲁⲅⲓⲟⲥ Ⲓⲥⲭⲩⲣⲟⲥ: Ⲁⲅⲓⲟⲥ Ⲁⲑⲁⲛⲁⲧⲟⲥ: ⲟ̀ ⲥ̀ⲧⲁⲩⲣⲱⲑⲓⲥ ⲇⲏⲙⲁⲥ: ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ ⲏ̀ⲙⲁⲥ.",
-    "Dieu Saint, Saint fort, Saint immortel, crucifié pour nous, aie pitié de nous.",
+    "Dieu Saint, Dieu Puissant, Dieu vivant et immortel, crucifié pour nous, aie pitié de nous",
     "آجيوس أو ثيؤس، آجيوس يس شيروس، آجيوس أثاناتوس، أو إستافروثيس ذي إيماس، إلايسون ايماس.",
-    "قُدُّوسْ اللّه، قُدُّوسْ القوي، قُدُّوسْ الحي الذي لا يموت، يا من صلب عنا. ارْحَمْنَا.",
+    "قُدُّوسْ الله قُدُّوسْ القوي قُدُّوسْ الحي الذي لا يموت،الذي صُلب عنا ارحمنا",
   ],
   [
-    Prefix.same + css.Assembly,
+    Prefix.same + css.Diacon,
     "Ⲁⲅⲓⲟⲥ ⲟ̀ Ⲑⲉⲟⲥ: Ⲁⲅⲓⲟⲥ Ⲓⲥⲭⲩⲣⲟⲥ: Ⲁⲅⲓⲟⲥ Ⲁⲑⲁⲛⲁⲧⲟⲥ: ⲟ̀ ⲥ̀ⲧⲁⲩⲣⲱⲑⲓⲥ ⲇⲏⲙⲁⲥ: ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ ⲏ̀ⲙⲁⲥ.",
-    "Dieu Saint, Saint fort, Saint immortel, crucifié pour nous, aie pitié de nous.",
+    "Dieu Saint, Dieu Puissant, Dieu vivant et immortel, crucifié pour nous, aie pitié de nous",
     "آجيوس أو ثيؤس، آجيوس يس شيروس، آجيوس أثاناتوس، أو إستافروثيس ذي إيماس، إلايسون ايماس.",
-    "قُدُّوسْ اللّه، قُدُّوسْ القوي، قُدُّوسْ الحي الذي لا يموت، يا من صلب عنا. ارْحَمْنَا.",
+    "قُدُّوسْ الله قُدُّوسْ القوي قُدُّوسْ الحي الذي لا يموت، الذي صُلب عنا ارحمنا",
+  ],
+  [
+    Prefix.same + css.Diacon,
+    "Ⲁⲅⲓⲟⲥ ⲟ̀ Ⲑⲉⲟⲥ: Ⲁⲅⲓⲟⲥ Ⲓⲥⲭⲩⲣⲟⲥ: Ⲁⲅⲓⲟⲥ Ⲁⲑⲁⲛⲁⲧⲟⲥ: ⲟ̀ ⲥ̀ⲧⲁⲩⲣⲱⲑⲓⲥ ⲇⲏⲙⲁⲥ: ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ ⲏ̀ⲙⲁⲥ.",
+    "Dieu Saint, Dieu Puissant, Dieu vivant et immortel, crucifié pour nous, aie pitié de nous",
+    "آجيوس أو ثيؤس، آجيوس يس شيروس، آجيوس أثاناتوس، أو إستافروثيس ذي إيماس، إلايسون ايماس.",
+    "قُدُّوسْ الله قُدُّوسْ القوي قُدُّوسْ الحي الذي لا يموت، الذي صُلب عنا ارحمنا",
   ],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "GloryToFatherSonSpirit",
   ],
   [
-    Prefix.placeHolder,
-    Prefix.commonPrayer + "NowAlwaysAndForEver",
-  ],
-],
-[
-  [
-    Prefix.massCommon + "Agios&D=Seasons.CrossFeast" + css.Title,
-  ],
-  [Prefix.changeClass + css.Assembly],
-  [
-    Prefix.placeHolder,
-    Prefix.commonPrayer + "GloryToFatherSonSpirit",
-  ],
-  [
-    Prefix.placeHolder,
-    Prefix.commonPrayer + "NowAlwaysAndForEver",
-  ],
-  [
-    Prefix.same + css.Assembly,
-    "Ⲁⲅⲓⲁ Ⲧ̀ⲣⲓⲁⲥ ̀ⲉ̀ⲗⲉⲑ̀ⲥⲟⲛ ⲑ̀ⲙⲁⲥ.",
-    "Ô Trinité sainte, aie pitié de nous.",
+    Prefix.same + css.Diacon,
+    "Maintenant et pour toujours, pour les siècles des siècles Amen. Ô Trinité Sainte, aie pitié de nous.",
+    "ⲕⲉ ⲛⲩⲛ ⲕⲉ ⲁ̀ⲓ̀ ⲕⲉ ⲓⲥ ⲧⲟⲩⲥ ⲉ̀ⲱ̀ⲛⲁⲥ ⲧⲱⲛ ⲉ̀ⲱ̀ⲛⲱⲛ ⲁ̀ⲙⲏⲛ : ⲁⲅⲓⲁ Ⲧⲣⲓⲁⲥ : ⲉⲗⲉⲏⲥⲟⲛ ⲏⲙⲁⲥ",
     "",
-    "القُدُّوسْ ارْحَمْنَا.",
+    "الآن و كل أوان وإلي دهر الدهور. آمين. أيُّهَا الثالوث المقدس ارحمنا.",
   ],
 ],
 [
@@ -29772,58 +29788,13 @@ PrayersArrayFR = [[
     "قُدُّوسْ الذي لا يموت الذي صلب من أجلنا وصبر علي موت الصليب وقبله في جسده وهو أزلي غير مائت. أيُّهَا الثالوث القُدُّوسْ ارحمنا.",
   ],
   [
-    Prefix.same + css.Title,
-    "",
-    "Ⲁⲅⲓⲟⲥ",
-    "قُدُّوسْ الله"
-  ],
-  [
-    Prefix.same + css.Diacon,
-    "Ⲁⲅⲓⲟⲥ ⲟ ⲑⲉⲟⲥ : Ⲁⲅⲓⲟⲥ Ⲓⲥⲭⲩⲣⲟⲥ : Ⲁⲅⲓⲟⲥ Ⲁⲑⲁⲛⲁⲧⲟⲥ : ⲟ ⲥ̀ⲧⲁⲩⲣⲱⲑⲓⲥ ⲇⲓⲏⲙⲁⲥ : ⲉⲗⲉⲏⲥⲟⲛ ⲏⲙⲁⲥ",
-    "Dieu Saint, Dieu Puissant, Dieu vivant et immortel, crucifié pour nous, aie pitié de nous.",
-    "",
-    "قُدُّوسْ الله قُدُّوسْ القوي قُدُّوسْ الحي الذي لا يموت، الذي صُلب عنا ارحمنا",
-  ],
-  [
-    Prefix.same + css.Diacon,
-    "Ⲁⲅⲓⲟⲥ  ⲟ ⲑⲉⲟⲥ : Ⲁⲅⲓⲟⲥ Ⲓⲥⲭⲩⲣⲟⲥ : Ⲁⲅⲓⲟⲥ Ⲁⲑⲁⲛⲁⲧⲟⲥ : ⲟ ⲥ̀ⲧⲁⲩⲣⲱⲑⲓⲥ ⲇⲓⲏⲙⲁⲥ : ⲉⲗⲉⲏⲥⲟⲛ ⲏⲙⲁⲥ",
-    "Dieu Saint, Dieu Puissant, Dieu vivant et immortel, crucifié pour nous, aie pitié de nous",
-    "",
-    "قُدُّوسْ الله قُدُّوسْ القوي قُدُّوسْ الحي الذي لا يموت، الذي صُلب عنا ارحمنا",
-  ],
-  [
-    Prefix.same + css.Diacon,
-    "Ⲁⲅⲓⲟⲥ  ⲟ ⲑⲉⲟⲥ : Ⲁⲅⲓⲟⲥ Ⲓⲥⲭⲩⲣⲟⲥ : Ⲁⲅⲓⲟⲥ Ⲁⲑⲁⲛⲁⲧⲟⲥ : ⲟ ⲥ̀ⲧⲁⲩⲣⲱⲑⲓⲥ ⲇⲓⲏⲙⲁⲥ : ⲉⲗⲉⲏⲥⲟⲛ ⲏⲙⲁⲥ",
-    "Dieu Saint, Dieu Puissant, Dieu vivant et immortel, crucifié pour nous, aie pitié de nous",
-    "",
-    "قُدُّوسْ الله قُدُّوسْ القوي قُدُّوسْ الحي الذي لا يموت، الذي صُلب عنا ارحمنا",
-  ],
-  [
     Prefix.placeHolder,
-    Prefix.commonPrayer + "GloryToFatherSonSpirit",
-  ],
-  [
-    Prefix.same + css.Diacon,
-    "Maintenant et pour toujours, pour les siècles des siècles Amen. Ô Trinité Sainte, aie pitié de nous.",
-    "ⲕⲉ ⲛⲩⲛ ⲕⲉ ⲁ̀ⲓ̀ ⲕⲉ ⲓⲥ ⲧⲟⲩⲥ ⲉ̀ⲱ̀ⲛⲁⲥ ⲧⲱⲛ ⲉ̀ⲱ̀ⲛⲱⲛ ⲁ̀ⲙⲏⲛ : ⲁⲅⲓⲁ Ⲧⲣⲓⲁⲥ : ⲉⲗⲉⲏⲥⲟⲛ ⲏⲙⲁⲥ",
-    "",
-    "الآن و كل أوان وإلي دهر الدهور. آمين. أيُّهَا الثالوث المقدس ارحمنا.",
+    Prefix.commonPrayer + "Agios&D=$copticFeasts.HolyFriday"
   ],
 ],
 [
   [
     Prefix.HolyWeek + "FayEtaf" + css.Title,
-  ],
-  [
-    Prefix.placeHolder,
-    Prefix.massCommon + "XXX",
-  ],
-  [
-    Prefix.same + css.Title,
-    "",
-    "Ϥ̀ⲁⲓ ⲉ̀ⲧⲁϥⲉⲛϥ",
-    "",
-    "لحن فاي إيطاف إنف\n(هذا الذي أصعد ذاته)",
   ],
   [
     Prefix.same + css.Diacon,

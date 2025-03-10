@@ -217,7 +217,7 @@ const Prefix = {
     psalmody: "Psalmody_",
     prayersArray: 'PrayersArray_',
     readingRef: 'RRef_',
-    changeClass: 'CCSS_', //This prefix is used in an empty row of a table in order to tell that the following row will have another class. This is need when for example the following row is a placeHolder (i.e., starts with Prefix.placeholder) since we cannot set the class of the table that will be inserted. Usually the rows of table referenced by the placeholder have as class css.Same, which means that each row will inherit the class of the preivous row. 
+    switchClass: 'CCSS_', //This prefix is used in an empty row of a table in order to tell that the following row will have another class. This is need when for example the following row is a placeHolder (i.e., starts with Prefix.placeholder) since we cannot set the class of the table that will be inserted. Usually the rows of table referenced by the placeholder have as class css.Same, which means that each row will inherit the class of the preivous row. 
     class: '&C='
 };
 const anyDay = '&D=$copticFeasts.AnyDay', plusCharCode = 10133, eighthNoteCode = 9834, beamedEighthNoteCode = 9835;
