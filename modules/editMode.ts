@@ -215,10 +215,7 @@ function showTables(args: {
   titles.forEach((div) =>
     Array.from(div.getElementsByTagName("P")).forEach(
       (p: HTMLElement) =>
-      (p.innerText = p.innerText.replaceAll(
-        String.fromCharCode(plusSign + 1),
-        ""
-      ))
+      (p.innerText = p.innerText.replaceAll(minusSign,""))
     )
   );
 
@@ -741,8 +738,8 @@ function processArrayTextForJsFile(
 
     if (splitTitle(row[0])[1] === "Title")
       element = element
-        .replaceAll(String.fromCharCode(plusSign) + " ", "")
-        .replaceAll(String.fromCharCode(plusSign + 1) + " ", ""); //removing the plus(+) and minus(-à characters from the titles
+        .replaceAll(plusSign + " ", "")
+        .replaceAll(minusSign + " ", ""); //removing the plus(+) and minus(-à characters from the titles
 
     text += '"' + element + '", \n'; //adding the text of row[i](after being cleaned from the unwatted characters) to text
   }
@@ -10508,7 +10505,7 @@ function _HelperPrepareArabicChant() {
       array.push(part[i]);
       array.push(
         " " +
-        String.fromCharCode(beamedEighthNoteCode).repeat(2) +
+        beamedEighthNoteCode.repeat(2) +
         " " +
         part[i + part.length / 2] +
         "_&&_"

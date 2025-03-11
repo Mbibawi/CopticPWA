@@ -4196,7 +4196,7 @@ PrayersArrayFR = [[
   [
     Prefix.same + css.Comment,
     "",
-    "",
+    "En même temps le Diacre dit :",
     "",
     ":وأثناء ذلك يقول الشماس",
   ],
@@ -4249,15 +4249,11 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.incenseDawn + "GodHaveMercyOnUsRefrain&D=$Seasons.GreatLent" + css.Title,
-    "",
-    "Supplication du Grand Carême de du Jeûne de Jonas",
-    "",
-    "طلبة الصوم الكبير وصوم يونان",
+    Prefix.incenseDawn + "GodHaveMercyOnUsRefrain"
   ],
   [
     Prefix.same + css.Priest,
-    "Ⲕ̀ⲗⲓⲛⲟⲙⲉⲛ ⲧⲁ ⲅⲟⲛⲁⲧⲁ. \n",
+    "Ⲕ̀ⲗⲓⲛⲟⲙⲉⲛ ⲧⲁ ⲅⲟⲛⲁⲧⲁ.",
     "Agenouillons-nous.",
     "اكلينومين تاغوناتا",
     "نحنى ركبنا.",
@@ -4305,8 +4301,15 @@ PrayersArrayFR = [[
     "في رفع بَخُورباكر في صوم يونان وأيام الصوم المُقَدَّسْ، دون سبوته وآحاده، يطفئون شمع المَذْبَحْ ويغلقون ستر الهَيْكَلْ ويجلسون. تقرأ النبوات. وبعدها تقال الطلبة.",
   ],
   [
+    Prefix.same + css.Title,
+    "",
+    "Supplication du Grand Carême et du Jeûne de Jonas",
+    "",
+    "طلبة الصوم الكبير وصوم يونان",
+  ],
+  [
     Prefix.placeHolder,
-    Prefix.incenseDawn + "GodHaveMercyOnUsRefrain&D=$Seasons.GreatLent",
+    Prefix.incenseDawn + "GodHaveMercyOnUsRefrain",
   ],
   [
     Prefix.same + css.Priest,
@@ -4371,7 +4374,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.incenseDawn + "GodHaveMercyOnUsRefrain&D=$Seasons.GreatLent",
+    Prefix.incenseDawn + "GodHaveMercyOnUsRefrain",
   ],
   [
     Prefix.same + css.Priest,
@@ -4429,7 +4432,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.incenseDawn + "GodHaveMercyOnUsRefrain&D=$Seasons.GreatLent",
+    Prefix.incenseDawn + "GodHaveMercyOnUsRefrain",
   ],
   [
     Prefix.same + css.Priest,
@@ -4487,7 +4490,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.incenseDawn + "GodHaveMercyOnUsRefrain&D=$Seasons.GreatLent",
+    Prefix.incenseDawn + "GodHaveMercyOnUsRefrain",
   ],
   [
     Prefix.same + css.Priest,
@@ -4545,7 +4548,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.incenseDawn + "GodHaveMercyOnUsRefrain&D=$Seasons.GreatLent",
+    Prefix.incenseDawn + "GodHaveMercyOnUsRefrain",
   ],
   [
     Prefix.same + css.Priest,
@@ -5335,7 +5338,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.massCommon + "HisFoundations&D=$Seasons.GreatLent" + css.Title,
+    Prefix.massCommon + "HisFoundations" + css.Title,
     "",
     "Ⲛⲉϥⲥⲉⲛϯ ϧⲉⲛ ⲛⲓⲧⲱⲟ̀ⲩ ⲉⲑ̅ⲩ̅",
     "",
@@ -28720,7 +28723,7 @@ PrayersArrayFR = [[
     Prefix.HolyWeek + "HourIntroduction",
   ],
   [
-    Prefix.anchor + "Prophecies&D=$Seasons.HolyWeek",
+    Prefix.anchor + "Prophecies",
   ],
   [
     Prefix.placeHolder,
@@ -28792,7 +28795,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.HolyWeek + "KhinEfranM&D=$Seasons.HolyWeek",
+    Prefix.HolyWeek + "KhinEfranM",
   ],
   [
     Prefix.same + css.Priest,
@@ -28825,7 +28828,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.HolyWeek + "KhinEfranE&D=$Seasons.HolyWeek",
+    Prefix.HolyWeek + "KhinEfranE",
   ],
   [
     Prefix.same + css.Priest,
@@ -28868,7 +28871,7 @@ PrayersArrayFR = [[
     "مزمور لداوود ",
   ],
   [
-    Prefix.anchor + "CopticPsalm&D=$Seasons.HolyWeek",
+    Prefix.anchor + "CopticPsalm",
   ],
   [
     Prefix.same + css.End,
@@ -28892,7 +28895,7 @@ PrayersArrayFR = [[
     "فصلٌ من الإنجيل المقدس لـ (متى/مرقس/لوقا/يوحنا) القديس.",
   ],
   [
-    Prefix.anchor + "CopticGospel&D=$Seasons.HolyWeek",
+    Prefix.anchor + "CopticGospel",
   ],
   [
     Prefix.same + css.End,
@@ -28916,7 +28919,7 @@ PrayersArrayFR = [[
     "اللهم تراءف علينا وارحمنا واجعلنا مستحقين لسماع إنجيلكَ المقدس فصلٌ من إنجيلِ معلمنا (متى/مرقس/لوقا/يوحنا) البشير بركاته علينا آمين.",
   ],
   [
-    Prefix.anchor + "nonCopticGospel&D=$Seasons.HolyWeek",
+    Prefix.anchor + "nonCopticGospel",
   ],
   [
     Prefix.same + css.Assembly,
@@ -28966,10 +28969,10 @@ PrayersArrayFR = [[
     "والْرُوحْ القُدُسْ.",
   ],
   [
-    Prefix.anchor + "KhinEfran&D=$Seasons.HolyWeek",
+    Prefix.anchor + "KhinEfran",
   ],
   [
-    Prefix.anchor + "Commentary&D=$Seasons.HolyWeek",
+    Prefix.anchor + "Commentary",
   ],
   [
     Prefix.same + css.Priest,
@@ -29028,20 +29031,20 @@ PrayersArrayFR = [[
     "رحمةً كعظيم رحمته.",
   ],
   [
-    Prefix.anchor + "FinalLitany&D=$Seasons.HolyWeek",
+    Prefix.anchor + "FinalLitany",
   ],
 ],
 [
   [
-    Prefix.HolyWeek + "FinalLitanyM&D=$Seasons.HolyWeek" + css.Title,
+    Prefix.HolyWeek + "FinalLitanyM" + css.Title,
     "",
-    "",
+    "Litanies du matin",
     "",
     "طلبة الصباح",
   ],
   [
     Prefix.placeHolder,
-    Prefix.incenseDawn + "GodHaveMercyOnUsRefrain&D=$Seasons.GreatLent",
+    Prefix.incenseDawn + "GodHaveMercyOnUsRefrain",
   ],
   [
     Prefix.same + css.Priest,
@@ -29288,7 +29291,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.HolyWeek + "FinalLitanyE&D=$Seasons.HolyWeek" + css.Title,
+    Prefix.HolyWeek + "FinalLitany" + css.Title,
     "",
     "Litanies du soir",
     "",
@@ -29296,7 +29299,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.incenseDawn + "GodHaveMercyOnUsRefrain&D=$Seasons.GreatLent",
+    Prefix.incenseDawn + "GodHaveMercyOnUsRefrain",
   ],
   [
     Prefix.same + css.Priest,
@@ -29609,7 +29612,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.HolyWeek + "FinalLitanyE2&D=$Seasons.HolyWeek" + css.Title,
+    Prefix.HolyWeek + "FinalLitanyE2" + css.Title,
     "",
     "",
     "",
@@ -29617,7 +29620,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.incenseDawn + "GodHaveMercyOnUsRefrain&D=$Seasons.GreatLent",
+    Prefix.incenseDawn + "GodHaveMercyOnUsRefrain",
   ],
   [
     Prefix.placeHolder,
@@ -29626,7 +29629,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.HolyWeek + "FinalLitanyE3&D=$Seasons.HolyWeek" + css.Title,
+    Prefix.HolyWeek + "FinalLitanyE3" + css.Title,
     "",
     "",
     "",
@@ -29634,7 +29637,7 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.placeHolder,
-    Prefix.incenseDawn + "GodHaveMercyOnUsRefrain&D=$Seasons.GreatLent",
+    Prefix.incenseDawn + "GodHaveMercyOnUsRefrain",
   ],
   [
     Prefix.placeHolder,

@@ -566,9 +566,9 @@ Btn.MassUnBaptised = new Button({
       if ([6, 0].includes(todayDate.getDay())) return;
 
       let titles: string[] = [
-        Prefix.commonPrayer + "WeHaveBeenSavedWithYou" + anyDay,
+        Prefix.commonPrayer + "WeHaveBeenSavedWithYou",
         Prefix.massCommon + "HisFoundations&D=$Seasons.GreatLent",
-        Prefix.incenseDawn + "GodHaveMercyOnUsRefrain&D=$Seasons.GreatLent",
+        Prefix.incenseDawn + "GodHaveMercyOnUsRefrain",
       ];
 
       selectElementsByDataSet(btnDocFragment, titles[0], { equal: true }, 'root').forEach(el => el.remove());//We remove the existing 'Sotis Amen' prayer
@@ -577,7 +577,7 @@ Btn.MassUnBaptised = new Button({
 
       if (!tables || tables.length < 1) return;
 
-      let anchor = selectElementsByDataSet(btnDocFragment, Prefix.massCommon + "AbsolutionForTheFather", { equal: true }, 'root')[0];//This is the html element before which we will insert the retrived tables
+      const anchor = selectElementsByDataSet(btnDocFragment, Prefix.massCommon + "AbsolutionForTheFather", { equal: true }, 'root')[0];//This is the html element before which we will insert the retrived tables
       if (!anchor) return;
 
       insertAdjacentToHtmlElement(
@@ -593,7 +593,7 @@ Btn.MassUnBaptised = new Button({
       );
     })();
 
-    let readingsAnchor: HTMLElement = selectElementsByDataSet(
+    const readingsAnchor: HTMLElement = selectElementsByDataSet(
       btnDocFragment,
       Prefix.anchor + "Readings"
     )[0]; //this is the html element before which we will insert all the readings and responses
@@ -2221,7 +2221,14 @@ Btn.IncenseMorning = new Button({
 
         Prophecies[0] = [`${Title(Prophecies)}${css.Title}`, title[defaultLanguage], title[foreingLanguage] || ''];
 
-        showPrayers({ table: Prophecies, languages: langs, container: docFragment, clearContainerDiv: false, clearRightSideBar: false, position: { beforeOrAfter: 'beforebegin', el: anchor } });
+        showPrayers({
+          table: Prophecies,
+          languages: langs,
+          container: docFragment,
+          clearContainerDiv: false,
+          clearRightSideBar: false,
+          position: { beforeOrAfter: 'beforebegin', el: anchor }
+        });
       })();
 
       (function insertEklonominTaghonata() {
@@ -2230,17 +2237,14 @@ Btn.IncenseMorning = new Button({
 
         if (!godHaveMercy) return console.log("Didn't find God Have Mercy for Great Lent");
 
-        showPrayers({ table: godHaveMercy, languages: getLanguages(Prefix.incenseDawn), position: { beforeOrAfter: 'beforebegin', el: anchor }, clearContainerDiv: false, clearRightSideBar: false, container: docFragment });
-
-        (function removeRefrains() {
-          //We will remove all the refrains except the 1st one
-          const refrains = selectElementsByDataSet(
-            docFragment,
-            Prefix.incenseDawn + "GodHaveMercyOnUsRefrain&D=$Seasons.GreatLent")
-            .filter((htmlRow) => htmlRow?.classList.contains(css.Title));
-
-          refrains.slice(1).forEach(htmlRow => htmlRow.remove());
-        })();
+        showPrayers({ 
+          table: godHaveMercy, 
+          languages: getLanguages(Prefix.incenseDawn),
+          position: { beforeOrAfter: 'beforebegin', el: anchor }, 
+          clearContainerDiv: false,
+          clearRightSideBar: false,
+          container: docFragment
+        });
       })();
     };
 
@@ -3408,44 +3412,36 @@ Btn.HW = new Button({
           async function insertHourReadings() {
             const readingsLangs = ['COP', 'FR', 'AR'];
             const holyweek = '&D=$Seasons.HolyWeek'
-            type typeReading = { table: string[][], anchor: HTMLElement, title: readingTitle };
-
+            type typeReading = { table: string[][], anchor: HTMLElement, title: readingTitle, key:string, keyAnchor:string };
             const readings: { [index: string]: typeReading } = {
-              coptGospel: { table: undefined, anchor: undefined, title: undefined },
-              nonCopticGospel: { table: undefined, anchor: undefined, title: titles.Gospel },
-              coptPsalm: { table: undefined, anchor: undefined, title: undefined },
-              nonCopticPsalm: { table: undefined, anchor: undefined, title: titles.Psalm },
-              Commentary: { table: undefined, anchor: undefined, title: titles.Commentary },
-              Prophecies: { table: undefined, anchor: undefined, title: titles.Prophecies },
-              Sermony: { table: undefined, anchor: undefined, title: titles.Sermony },
-              KhinEfran: { table: undefined, anchor: undefined, title: undefined },
-              Litany: { table: undefined, anchor: undefined, title: undefined },
+              coptGospel: { table: undefined, anchor: undefined, title: undefined, key:'Gospel', keyAnchor: 'CopticGospel' },
+              nonCopticGospel: { table: undefined, anchor: undefined, title: titles.Gospel, key:'Gospel', keyAnchor: 'nonCopticGospel' },
+              coptPsalm: { table: undefined, anchor: undefined, title: undefined, key:'Psalm', keyAnchor: 'CopticPsalm' },
+              nonCopticPsalm: { table: undefined, anchor: undefined, title: titles.Psalm, key:'Psalm', keyAnchor: 'CopticPsalm' },
+              Commentary: { table: undefined, anchor: undefined, title: titles.Commentary, key:'Commentary', keyAnchor: 'Commentary' },
+              Prophecies: { table: undefined, anchor: undefined, title: titles.Prophecies, key:'Prophecies', keyAnchor: 'Prophecies' },
+              Sermony: { table: undefined, anchor: undefined, title: titles.Sermony, key:'Sermony', keyAnchor: 'Prophecies' },
+              KhinEfran: { table: undefined, anchor: undefined, title: undefined, key:'KhinEfran', keyAnchor: 'KhinEfran' },
+              Litany: { table: undefined, anchor: undefined, title: undefined, key: 'FinalLitany', keyAnchor: 'FinalLitany' },
             };
 
-            (function fetchKhinEfranAndLitany() {
-              const title = Prefix.HolyWeek + "XXX" + service + holyweek;
-              const khin = 'KhinEfran', litany = 'FinalLitany';
-              readings.KhinEfran.table = findTable(title.replace('XXX', khin), HolyWeekArray) || undefined
-              if (!readings.KhinEfran.table) console.log(`Didn't find ${khin}`);
-
-              readings.Litany.table = findTable(title.replace('XXX', litany), HolyWeekArray) || undefined
-              if (!readings.Litany.table) console.log(`Didn't find ${litany}`);
-
-              readings.KhinEfran.anchor = fetchAnchors(khin);
-              readings.Litany.anchor = fetchAnchors(litany);
+            (function fetchKhinEfranAndLitany() {  
+              [readings.Litany, readings.kinEfran].forEach(reading => setTableAndAnchor(reading, reading.key));
+              setTableAndAnchor(readings.Litany,'FinalLitany');
+              setTableAndAnchor(readings.khinEfran, 'KhinEfran');
+            
+              function setTableAndAnchor(reading, title: string) {
+                reading.table = findTable(`${Prefix.HolyWeek}${title}${service}`, HolyWeekArray) || undefined;
+                if (!reading.table) console.log(`Didn't find a table having as title: ${title}`);
+                reading.anchor = fetchAnchors(title);
+              }
             })();
 
-
             (function findReadingsTablesAndAnchors() {
-              setTableAndAnchor(readings.coptGospel, 'Gospel', 'CopticGospel');
-              setTableAndAnchor(readings.nonCopticGospel, 'Gospel', 'nonCopticGospel');
-              setTableAndAnchor(readings.coptPsalm, 'Psalm', 'CopticPsalm');
-              setTableAndAnchor(readings.nonCopticPsalm, 'Psalm', 'nonCopticGospel');
-              setTableAndAnchor(readings.Commentary, 'Commentary', 'Commentary');
-              setTableAndAnchor(readings.Prophecies, 'Prophecies', 'Prophecies');
-              setTableAndAnchor(readings.Sermony, 'Sermony', 'Prophecies');
+              [readings.coptGospel, readings.nonCopticGospel, readings.coptPsalm, readings.nonCopticPsalm, readings.Commentary, readings.Prophecies, readings.Sermony]
+              .forEach(reading=>setTableAndAnchor(reading, reading.key, reading.keyAnchor));
 
-              readings.nonCopticPsalm.anchor = readings.nonCopticPsalm.anchor.previousElementSibling as HTMLElement; //We need to do this because the nonCopticPsalm is inseret before the previous sibling of nonCopticGospel.placeHolder
+              readings.nonCopticPsalm.anchor = readings.nonCopticPsalm.anchor.previousElementSibling as HTMLElement; //We need to do this because the nonCopticPsalm is inserted before the previous sibling of nonCopticGospel.placeHolder
 
               function setTableAndAnchor(reading: typeReading, name: string, anchor: string) {
                 reading.table = fetchTable(name);
@@ -3474,14 +3470,13 @@ Btn.HW = new Button({
               })();
 
               function fetchTable(name: string): string[][] {
-                return findTable(Prefix.HolyWeek + hour + service + name, dayPrayers, { startsWith: true }) || undefined
+                return findTable(`${Prefix.HolyWeek}${hour}${service}${name}&D=${copticReadingsDate}`, dayPrayers) || undefined 
               }
             })();
 
-            function fetchAnchors(placeHolder: string): HTMLElement {
-              return selectElementsByDataSet(btnHour.docFragment, Prefix.anchor + placeHolder + holyweek, undefined, 'root')[0]
+            function fetchAnchors(title: string): HTMLElement {
+              return selectElementsByDataSet(btnHour.docFragment, Prefix.anchor + title, undefined, 'root')[0]
             }
-
 
             await insertTablesBeforeAnchors();
 
@@ -3543,10 +3538,6 @@ Btn.HW = new Button({
                 }
               };
             };
-
-            Array.from(btnHour.docFragment.children).find((div: HTMLDivElement) => div.dataset.root === Prefix.incenseDawn +
-              "GodHaveMercyOnUsRefrain&D=$Seasons.GreatLent")?.remove();//Removing the Title row of the "God Have Mercy" table
-
           };
 
           function insertThursdayLakanAndMassBtns() {
@@ -3588,7 +3579,6 @@ Btn.HW = new Button({
             if (weekDay !== 5) return;
             if (service !== Morning) return;
             const anchor = selectElementsByDataSet(btn.docFragment, Prefix.anchor + "HolyFriday", undefined, "root")[0] as HTMLDivElement;
-
 
             await SixthHour();
             await NinethHour();
