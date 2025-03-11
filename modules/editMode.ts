@@ -215,7 +215,7 @@ function showTables(args: {
   titles.forEach((div) =>
     Array.from(div.getElementsByTagName("P")).forEach(
       (p: HTMLElement) =>
-      (p.innerText = p.innerText.replaceAll(minusSign,""))
+        (p.innerText = p.innerText.replaceAll(minusSign, ""))
     )
   );
 
@@ -10903,4 +10903,16 @@ async function _ConvertTextCopticFont() {
   const text = prompt('Provide the text you want to convert');
   if (!text) return alert('The title is not valid');
   return await convertCopticFont({ text: text })
+}
+
+function _CheckThatTheLastVerseInBibleChapterIsNotANewLine(Bible: bibleBook[]) {
+  Bible.forEach(book => {
+    book[1].forEach(chapter => {
+      while (!chapter[chapter.length - 1]?.[0] || (chapter[chapter.length - 1]?.[0] !=='#' && !Number(chapter[chapter.length - 1]?.[0]))) {
+        console.log(`last verse: ${chapter[chapter.length - 1]?.[0]} and Book: ${book[0]?.id} and chapter: ${book[1].indexOf(chapter)}`);
+        chapter.pop()
+      }
+      console.log(`chapter OK & last verse: ${chapter[chapter.length - 1]?.[0]}`)
+    })
+  });
 }

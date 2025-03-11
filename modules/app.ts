@@ -1587,37 +1587,29 @@ async function setCSS(htmlRows: HTMLDivElement[], amplify: boolean = true) {
       //This is the div where the titles of the prayer are displayed. We will add an 'on click' listner that will collapse the prayers
 
       (async function addPlusAndMinusSigns() {
-        if (isTitlesContainer(div.nextElementSibling as HTMLElement)) return;
+        //if (isTitlesContainer(div.nextElementSibling as HTMLElement)) return;
         
         if (htmlRows
           .filter(div => div?.dataset?.root && div.dataset.root === div.dataset.root).length < 1) return;
 
         div.role = "button";
 
-        let defLangParag: HTMLParagraphElement = div.querySelector(
-          'p[lang="' + defaultLanguage.toLowerCase() + '"]'
-        );
-        if (!defLangParag) defLangParag = div.lastElementChild as HTMLParagraphElement;
-        if (!defLangParag)
+        let parag: HTMLParagraphElement = div.querySelector(`p[lang="${defaultLanguage.toLowerCase()}"]`);
+        if (!parag) parag = div.lastElementChild as HTMLParagraphElement;
+        if (!parag)
           return console.log("no paragraph with lang= " + defaultLanguage);
 
-        if (defLangParag.innerHTML.includes(plusSign + " "))
-          defLangParag.innerHTML = defLangParag.innerHTML.replace(
-            plusSign + " ",
-            ""
-          ); //We remove the + sign in the begining (if it exists)
+  
+        let text = parag.innerHTML; //!Caution: we need to work with the innerHTML in order to avoid losing the new line or any formatting to the title text when adding the + or - sing. So don't change the innerHTML to innerText or textContent
 
-        if (defLangParag.innerHTML.includes(minusSign + " "))
-          defLangParag.innerHTML = defLangParag.innerHTML.replace(
-            minusSign + " ",
-            ""
-          ); //!Caution: we need to work with the innerHTML in order to avoid losing the new line or any formatting to the title text when adding the + or - sing. So don't change the innerHTML to innerText or textContent
 
-        if (div.dataset.isCollapsed)
-          defLangParag.innerHTML = plusSign + " " + defLangParag.innerHTML; //We add the plus (+) sign at the begining
+        [plusSign, minusSign]
+          .forEach(sign => text = text.replace(sign + " ",""))//We remove the + sign in the begining (if it exists)
 
-        if (!div.dataset.isCollapsed)
-          defLangParag.innerHTML = minusSign + " " + defLangParag.innerHTML; //We add the minus (-) sig at the begining;
+        if (div.dataset.isCollapsed === 'true')
+          parag.innerHTML = `${plusSign} ${text}`; //We add the plus (+) sign at the begining
+        else if (div.dataset.isCollapsed === 'false')
+          parag.innerHTML = `${minusSign} ${text}`; //We add the minus (-) sig at the begining;
       })();
 
     }

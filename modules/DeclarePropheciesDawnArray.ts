@@ -43,7 +43,7 @@ ReadingsArrays.PropheciesDawnArrayFR = [
     [
         [Prefix.prophecies + "&D=GL17"],
         [Prefix.readingRef + "PRO:1:20-33"],
-        [Prefix.readingRef + "ISA:8:13-End/9:1-7"],
+        [Prefix.readingRef + "ISA:8:13-22/9:1-7"],
     ],
     [
         [Prefix.prophecies + "&D=GL18"],

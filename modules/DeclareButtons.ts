@@ -3417,7 +3417,7 @@ Btn.HW = new Button({
               coptGospel: { table: undefined, anchor: undefined, title: undefined, key:'Gospel', keyAnchor: 'CopticGospel' },
               nonCopticGospel: { table: undefined, anchor: undefined, title: titles.Gospel, key:'Gospel', keyAnchor: 'nonCopticGospel' },
               coptPsalm: { table: undefined, anchor: undefined, title: undefined, key:'Psalm', keyAnchor: 'CopticPsalm' },
-              nonCopticPsalm: { table: undefined, anchor: undefined, title: titles.Psalm, key:'Psalm', keyAnchor: 'CopticPsalm' },
+              nonCopticPsalm: { table: undefined, anchor: undefined, title: titles.Psalm, key:'Psalm', keyAnchor: 'nonCopticGospel' },
               Commentary: { table: undefined, anchor: undefined, title: titles.Commentary, key:'Commentary', keyAnchor: 'Commentary' },
               Prophecies: { table: undefined, anchor: undefined, title: titles.Prophecies, key:'Prophecies', keyAnchor: 'Prophecies' },
               Sermony: { table: undefined, anchor: undefined, title: titles.Sermony, key:'Sermony', keyAnchor: 'Prophecies' },
@@ -3426,9 +3426,7 @@ Btn.HW = new Button({
             };
 
             (function fetchKhinEfranAndLitany() {  
-              [readings.Litany, readings.kinEfran].forEach(reading => setTableAndAnchor(reading, reading.key));
-              setTableAndAnchor(readings.Litany,'FinalLitany');
-              setTableAndAnchor(readings.khinEfran, 'KhinEfran');
+              [readings.Litany, readings.KhinEfran].forEach(reading => setTableAndAnchor(reading, reading.key));
             
               function setTableAndAnchor(reading, title: string) {
                 reading.table = findTable(`${Prefix.HolyWeek}${title}${service}`, HolyWeekArray) || undefined;
@@ -4461,9 +4459,8 @@ async function retrieveReadingTableFromBible(reading: string[][], langs: string[
   }
 
   async function retrieveVerses(lang: string, ref: string): Promise<string> {
-    if (!lang) return;
-    if (![defaultLanguage, foreingLanguage].includes(lang)) return '';
-
+    if (!lang || ![defaultLanguage, foreingLanguage].includes(lang)) return '';//We return an empty string if the language is not included in the list of languages that will be displayed to the user.
+    const arabicBible = await getBibleVersion('AR');//We will need it to get the last verse when the reference ends with 'End',
     let parts: string[], verses: (string | Error)[];
 
     const bookID = ref.split(':')[0];
@@ -4472,26 +4469,36 @@ async function retrieveReadingTableFromBible(reading: string[][], langs: string[
 
     let text =
       await Promise.all(refs.map(async ref => {
-        parts = ref.split(':')//We should get an array of 2 or 3 elements [bookID, chapterNumber, verses], eg: ['GEN', '13', '3-7']; 
-
-        if (parts.length < 2) return '';//This means that the reference is badly formatted
-
-        if (parts.length === 2 && refs.indexOf(ref) > 0)
-          parts.unshift(bookID);//We add the bookID 
-
+        const [chapterNumber, versesRange] = ref.replace(`${bookID}:`, '').split(':')//We should always get an array of 2 elements eg: ['GEN', '13', '3-End/15-End']; 
+        if (!chapterNumber || !versesRange) return '';//This means that the reference is badly formatted  
 
         verses = await Promise.all(
-          parts[2]
+          versesRange
             .split('/')
-            .map(async versesRange => await retrieveVersesText(lang, parts[0], parts[1], versesRange) || "Error: Failed to retrieve verses"));
+            .map(async range => {
+              range = replaceEnd(range, chapterNumber);//We replace 'End' with the last verse in the Arabic version since the references are taken from the Arabic version of the 
+              return await retrieveVersesText(lang, bookID, chapterNumber, range) || "Error: Failed to retrieve verses"
+            }));
+              
+      
 
-        if (parts[0] === "PSA")
+        if (bookID === "PSA")
           return verses.join(' '); //We don't split the psalm into paragraphs
         return verses.join('\n');
 
       }));
 
     return text.join('\n');
+
+    function replaceEnd(range:string, chapter:string) { 
+      if (!range.toUpperCase().includes('END')) return range; 
+      //!We will get the last verse of the chapter from the Arabic version of the Bible since this is the version that was used when inserting the readings refrences.
+      const verses = getBibleChapter(chapter, getBibleBook(arabicBible, bookID))
+        ?.filter(verse => Number(verse[0]));
+      
+      return range.replace('End', verses[verses.length - 1][0]);
+
+    };
 
   }
 
@@ -4586,7 +4593,7 @@ async function retrieveReadingTableFromBible(reading: string[][], langs: string[
 
     if (bookID === 'PSA' && Number(chapterNumber)) chapterNumber = (Number(chapterNumber) + 1).toString();//We compensate the diffrence between the numbering of the psalms used in the Coptic Church, and the numbering in the used Arabic Bible book
 
-    let exists = Array.from(ready).find(array => array[0] === bookID + ":" + chapterNumber + ":" + lang);
+    const exists = Array.from(ready).find(array => array[0] === bookID + ":" + chapterNumber + ":" + lang);
 
     if (lang === 'CA') lang = 'AR';
     if (exists)
@@ -4596,8 +4603,6 @@ async function retrieveReadingTableFromBible(reading: string[][], langs: string[
       return new Error("The language is not valid. Error from retrieveVersesText()");
     };
 
-
-    if (![defaultLanguage, foreingLanguage].includes(lang)) return '';//We return an empty string if the language is not either the defaultLanguage or the foreignLanguage because in all cases those are the only languages that the user will be able to see. No need to retrieve a language that will not be retrieved
     if (!chapterNumber || !verses) {
 
       console.log('chapterNumber = ', chapterNumber, "verses = ", verses);
@@ -4607,12 +4612,12 @@ async function retrieveReadingTableFromBible(reading: string[][], langs: string[
       console.log('bookID = ', bookID);
       return new Error("Failed to retrieve verse");
     };//books ids are 3 letters length
-    let Bible: Bible = await getBibleVersion(lang, false);
+    const Bible: Bible = await getBibleVersion(lang, false);
     if (!Bible)
       return new Error("Failed to retrieve verse");
 
 
-    let chapterVerses: bibleVerse[] = getBibleChapter(chapterNumber, undefined, Bible, bookID);
+    const chapterVerses: bibleVerse[] = getBibleChapter(chapterNumber, undefined, Bible, bookID);
 
     if (!chapterVerses) {
       console.log('chapterVerses = ', chapterVerses);
@@ -4620,25 +4625,26 @@ async function retrieveReadingTableFromBible(reading: string[][], langs: string[
     };
 
     ready.add([bookID + ":" + chapterNumber + ":" + lang, chapterVerses])
-
-    return getVersesRange(chapterVerses, verses.split('-'));
-
-    function getVersesRange(chapter: bibleChapter, range: string[]): string | Error {
+    
+    const range = verses.split('-');
       if (range.length !== 2) {
         console.log('bookID = ', bookID);
-        return new Error("Failed to retrieve verse");
+        return new Error(`Failed to retrieve verse because the range of verses is >2 which means that there is an error in the referecne : book = ${bookID}, chapter = ${chapterNumber}`);
       };
+    return getVersesRange(chapterVerses, range);
 
-      while (chapter[chapter.length - 1].length < 2) chapter.pop(); //!This action must be performed before processing the verses references. We remove the last element of the chapter if it is not a verese.
+    function getVersesRange(chapter: bibleChapter, [Start, End]: string[]): string | Error {
 
-      if (range[1].toUpperCase() === 'END')
-        range[1] = chapter[chapter.length - 1][0];
-      if (!Number(range[0]) || !Number(range[1]))
-        return new Error("range[0] or range[1] is not a number");;
-
-      let first = chapter.find(verse => verse && verse[0] === range[0]);
+      (function filterChapter() {
+        //!This action must be performed before processing the verses references. We remove the last element of the chapter if it is not a verese.
+        chapter = chapter.filter(verse => Number(verse[0]) || ['\n', '#'].includes(verse[0]));
+        
+        while (chapter[chapter.length - 1][0] === '\n') chapter.pop();
+      })();
+      
+      const first = chapter.find(verse => verse && verse[0] === Start);
       if (!first) return new Error("could not retrieve 'first'");
-      let last = chapter.find(verse => verse && verse[0] === range[1]);
+      const last = chapter.find(verse => verse && verse[0] === End);
       if (!last) return new Error("could not retrieve 'last'");
       return chapter.slice(chapter.indexOf(first), chapter.indexOf(last) + 1)
         .map(verse => getVerseText(verse))
@@ -4667,10 +4673,10 @@ function matchPargraphsSplitting(retrieved: string[], langs: string[], add: numb
     return;
   }
 
-  let paragraphs = retrieved[langs.indexOf(defaultLanguage) + add]?.split('\n');
+  const paragraphs = retrieved[langs.indexOf(defaultLanguage) + add]?.split('\n');
   if (!paragraphs) return;
 
-  let exp = RegExp('Sup_\\d*_Sup', 'g');
+  const exp = RegExp('Sup_\\d*_Sup', 'g');
 
   let ranges = paragraphs
     .map(parag => Array.from(parag.matchAll(exp))
@@ -4690,24 +4696,29 @@ function matchPargraphsSplitting(retrieved: string[], langs: string[], add: numb
 
       retrieved[langs.indexOf(lang) + add] =
         ranges
-          .map(versesRange => {
-            const match = splitTextIntoParagraphs(versesRange);
+          .map(([Start, End], index) => {
+            const match = splitTextIntoParagraphs(Start, index);
             text = text.replace(match, '');//! In some cases when a reading reference covers more than one chapter, there are verses with duplicates numbers from the different chapters (eg.: 'HEB:13:1-End/14:1-4', we have duplicate verses 1, 2, 3 and 4, from chapter 13 and from chapter 14). this will lead to the match being retrieved twice for those verses. In order to resolve this problem, we remove the matched text from the original text
             return match || ''
 
           })
           .join('\n');
 
-      function splitTextIntoParagraphs(versesRange: string[]): string {
+      function splitTextIntoParagraphs(Start: string, index:number): string {
         //versesRange contains 2 elements. Each element is like "Sup_2_Sup". The 1st element is the number of the first verse in the paragraph. The 2nd element is the number of the last verse
-        if (!versesRange[0] || !versesRange[1]) return '';
+        if (!Start) return '';
         let toVerse: string = '';//!We need a new variable otherwise we will modify versesRange[1] in its original array
 
-        if (ranges.indexOf(versesRange) < ranges.length - 1)
-          toVerse = "?(?=" + ranges[ranges.indexOf(versesRange) + 1][0] + ")";//If we have not reached the last element of ranges, we will set versesRange[1] = element 0 of the next element of ranges in order to retrive the text until the end of the last verse number. This RegExp will stop before the first occurence of the first verse in the next range
+        if (index < ranges.length - 1) {
+          //If we have not reached the last element of ranges, we will set the last version (_Sup_[version number]_Sup) to the first verse of the next element in the ranges array, in order to retrive the text until the end of the last verse number. This RegExp will stop before the first occurence of the first verse in the next range
+      
+          let i = index + 1;
+          while (ranges[i] && !RegExp(`${ranges[i][0]}`).test(text)) i++;  //!This covers a rare case where the numbering of the verses in the defaultLanguage version of the Bible is longer than the numbering in the foreign language version, which leads to a no match with the "_Sup[next verse number]_Sup" in the foreign language text, and missing the last block of versions in this laguage.
+          toVerse = `?(?=${ranges[i]?.[0] ||''})`
+          }
 
 
-        const match = text.match(RegExp(versesRange[0] + '\.*' + toVerse));
+        const match = text.match(RegExp(`${Start}.*${toVerse}`));
         if (!match) return '';
         return match[0] || '';
       }
