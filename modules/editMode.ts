@@ -216,7 +216,7 @@ function showTables(args: {
     Array.from(div.getElementsByTagName("P")).forEach(
       (p: HTMLElement) =>
       (p.innerText = p.innerText.replaceAll(
-        String.fromCharCode(plusCharCode + 1),
+        String.fromCharCode(plusSign + 1),
         ""
       ))
     )
@@ -741,8 +741,8 @@ function processArrayTextForJsFile(
 
     if (splitTitle(row[0])[1] === "Title")
       element = element
-        .replaceAll(String.fromCharCode(plusCharCode) + " ", "")
-        .replaceAll(String.fromCharCode(plusCharCode + 1) + " ", ""); //removing the plus(+) and minus(-à characters from the titles
+        .replaceAll(String.fromCharCode(plusSign) + " ", "")
+        .replaceAll(String.fromCharCode(plusSign + 1) + " ", ""); //removing the plus(+) and minus(-à characters from the titles
 
     text += '"' + element + '", \n'; //adding the text of row[i](after being cleaned from the unwatted characters) to text
   }

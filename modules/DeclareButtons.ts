@@ -1045,13 +1045,13 @@ Btn.MassUnBaptised = new Button({
           copticFeasts.Nativity,
           copticFeasts.Baptism,
         ].includes(copticReadingsDate)
-        )
+      )
         //In these feasts we don't pray any hour
         return alert(
           "We do not pray the Book of Hours prayers on the Ressurection, Nativity (Kiahk 29th), and Baptism (Toubi 11th) feasts' masses"
-          );
-          
-        const hoursBtns = Btn.BookOfHours.onClick(true, relevantHours()) as Button[];
+        );
+
+      const hoursBtns = Btn.BookOfHours.onClick(true, relevantHours()) as Button[];
 
       (function createMasterButton() {
         const masterBtnDiv = document.createElement("div"); //This is the div that will contain the master button which shows or hides the Book of Hours sub buttons
@@ -1090,7 +1090,7 @@ Btn.MassUnBaptised = new Button({
         createHtmlButtonForEachHour(masterBtnDiv)
       })();
 
-      function createHtmlButtonForEachHour(masterBtnDiv:HTMLDivElement) {
+      function createHtmlButtonForEachHour(masterBtnDiv: HTMLDivElement) {
         //We will create an HTML div (role = button) and an expandable div for each hour
         const btnsDiv = insertExpandableBtn(hoursBtns, masterBtnDiv, 'afterend', 'BOH', false);
         btnsDiv.id = 'BOHBtnsDiv';
@@ -1100,15 +1100,15 @@ Btn.MassUnBaptised = new Button({
             scrollToTop();
             const expandable = containerDiv.querySelector('#' + htmlBtn.id + 'Expandable');
             if (!expandable)
-                return;
+              return;
             if (!expandable.classList.contains(css.hidden))
-                floatOnTopOrBottom(btnsDiv, true, '3px');
+              floatOnTopOrBottom(btnsDiv, true, '3px');
             else
-                btnsDiv.style.position = 'relative';
+              btnsDiv.style.position = 'relative';
             collapseAllTitles(Array.from(expandable.children) as HTMLDivElement[]);
-        }
-        ));
-    };
+          }
+          ));
+      };
 
       function relevantHours(): number[] {
         //args.mass is a boolean that tells whether the button prayersArray should include all the hours of the Book Of Hours, or only those pertaining to the mass according to the season and the day on which the mass is celebrated
@@ -1368,7 +1368,7 @@ Btn.BookOfHours = new Button({
 
     function getHoursBtns(hours: [string, [number[], typeBtnLabel]][]) {
       if (!hours) return;
-      
+
       return hours.map(([name, hour], index) => {
         const hourBtn = new Button({
           btnID: "btn" + name,
@@ -1383,7 +1383,7 @@ Btn.BookOfHours = new Button({
       });
 
 
-      function hourBtnAfterShowPrayer(docFragment: DocumentFragment, hourName: string, hour: [number[], {}], index:number, mass: boolean) {
+      function hourBtnAfterShowPrayer(docFragment: DocumentFragment, hourName: string, hour: [number[], {}], index: number, mass: boolean) {
 
         (function insertHourIntroAndPsalms() {
           const anchor = selectElementsByDataSet(docFragment, Prefix.anchor + 'Psalms')[0];
@@ -1404,7 +1404,7 @@ Btn.BookOfHours = new Button({
             ];
 
             if (hour === BOH[0][1])//If this is the 1st Hour (Dawn), it has a specific sequence of prayers after the "Thanks Giving" and "Psalm50"
-              intro.push(...["LetsKneel", "StPaul", "Intro"].map(title=>Prefix.bookOfHours + hourName + title));
+              intro.push(...["LetsKneel", "StPaul", "Intro"].map(title => Prefix.bookOfHours + hourName + title));
             else if (hour === BOH[7][1])//If this is the 1st Midnight Service
               intro.push(Prefix.psalmody + 'WakeUpSonsOfLight'); //We add the 'Wake Up Sons of Light' for the 1st Service of Midnight)
 
@@ -1417,23 +1417,23 @@ Btn.BookOfHours = new Button({
           (function insertPsalms() {
             if (localStorage.displayMode === displayModes[1]) return;//We don't show the psalms in "Display Mode"
             const tables = hour[0].map(psalm => findTable(`${Prefix.bookOfHours}Psalm${psalm}`, BookOfHoursArray) || undefined);
-            insertTables(tables, anchor); 
+            insertTables(tables, anchor);
           })();
         })();
-        
+
         (function insertHourFinalPrayers() {
           const [OurFather, Creed] = ["OurFatherInHeaven", "Creed"].map(title => Prefix.commonPrayer + title);
 
           const [AngelsPrayers, HailMaria, WeExaltYou, Agios, KyrielisonNoMass, HolyLordOfSabaot, FinalPrayer, PriestsAbsolution] = ["AngelsPrayer", "WeSaluteYouMary", "WeExaltYouStMary", "Agios", "Kyrielison41", "HolyLordOfSabaot", "AllHoursFinalPrayer", "PriestsAbsolution"].map(title => Prefix.bookOfHours + title);
-          
+
           const KyrielisonMass: string = Prefix.massCommon + "Kyrielison41";
-     
+
           const anchor = selectElementsByDataSet(docFragment, Prefix.anchor + 'End')[0];
 
           (function ifNotMass() {
-            if (mass) return;   
+            if (mass) return;
             const tables = getSequence().map(title => findTable(title, getArrayFromPrefix(title)) || undefined);
-                      
+
             insertTables(tables, anchor)
 
             function getSequence() {
@@ -1451,11 +1451,11 @@ Btn.BookOfHours = new Button({
                 FinalPrayer,
                 OurFather,
               ];
-              
-              
+
+
               if (hour === BOH[5][1])
                 hourEndSequence.shift(); //If it is the 12th (Night) Hour, we remove the Angels Prayer from endOfHourPrayersSequence
-              
+
               else if (hour === BOH[9][1]) {
                 hourEndSequence.splice(0, 1,
                   KyrielisonNoMass,
@@ -1465,7 +1465,7 @@ Btn.BookOfHours = new Button({
                 //Inserting the Priests Absolution at the end
                 hourEndSequence.push(Prefix.bookOfHours + hourName + PriestsAbsolution);
               };
-              
+
               if (!
                 [
                   BOH[0][1],
@@ -1475,41 +1475,41 @@ Btn.BookOfHours = new Button({
               ) hourEndSequence = hourEndSequence.slice(6, hourEndSequence.length);//For any other hour, we remove all the titles before KyrielisonIntro
 
               return hourEndSequence
-              
+
             }
           })();
 
           (function ifMass() {
             if (!mass) return;
-              const tables = getSequence().map(title =>findTable(title, getArrayFromPrefix(title))|| undefined);
+            const tables = getSequence().map(title => findTable(title, getArrayFromPrefix(title)) || undefined);
 
-              insertTables(tables, anchor)
+            insertTables(tables, anchor)
 
-              function getSequence(): string[] {
-                //!index is the differece between hours.length and the index of the hour 
-                  if (index < 2) {
-                  //This is the last hour btn (hours.length - (hours.length-1)=1)
-                  return [
-                    WeExaltYou,
-                    Creed,
-                    KyrielisonMass,
-                    HolyLordOfSabaot,
-                    OurFather,
-                  ];
-                } else if (index < 3) {
-                  //this is the before last hour btn (hours.length - (hours.length-2)=2)
-                  return [Agios, OurFather, HailMaria];
-                } else {
-                  //Any other hour before the 2 last
-                  return [
-                    KyrielisonNoMass,
-                    HolyLordOfSabaot,
-                    OurFather,
-                  ];
-                }
-      
+            function getSequence(): string[] {
+              //!index is the differece between hours.length and the index of the hour 
+              if (index < 2) {
+                //This is the last hour btn (hours.length - (hours.length-1)=1)
+                return [
+                  WeExaltYou,
+                  Creed,
+                  KyrielisonMass,
+                  HolyLordOfSabaot,
+                  OurFather,
+                ];
+              } else if (index < 3) {
+                //this is the before last hour btn (hours.length - (hours.length-2)=2)
+                return [Agios, OurFather, HailMaria];
+              } else {
+                //Any other hour before the 2 last
+                return [
+                  KyrielisonNoMass,
+                  HolyLordOfSabaot,
+                  OurFather,
+                ];
               }
-            
+
+            }
+
           })()
         })();
 
@@ -1520,32 +1520,32 @@ Btn.BookOfHours = new Button({
           const psalm118 = children.filter((div) =>
             div?.dataset?.group?.startsWith(Prefix.bookOfHours + "Psalm118")
           );
-  
+
           psalm118.splice(1, psalm118.length - 7)
             .forEach(div => div.remove());
         })();
 
         (function changeKiryelisonClass() {
           const Kyrielison = children.filter(div => div.dataset.group === Prefix.bookOfHours + "Kyrielison41");
-          
-            changeClasses();
 
-            function changeClasses() {
-              //We will change the classes of the "Kyrielison1 table"
-              if (mass) Kyrielison
-                .forEach((div, index) => index === 1 ? changeClass(div, css.Priest) : changeClass(div, css.Assembly));
-              else Kyrielison
-                .forEach((div, index) => index === 1 ? changeClass(div, css.NoActor) : changeClass(div, css.NoActor))
-      
-              function changeClass(div: HTMLDivElement, css: string) {
-                if (!div) return;
-                div.classList.forEach(c => {
-                  if (c !== 'Row') div.classList.remove(c)
-                });
-                div.classList.add(css);
-              }
-            };
-    
+          changeClasses();
+
+          function changeClasses() {
+            //We will change the classes of the "Kyrielison1 table"
+            if (mass) Kyrielison
+              .forEach((div, index) => index === 1 ? changeClass(div, css.Priest) : changeClass(div, css.Assembly));
+            else Kyrielison
+              .forEach((div, index) => index === 1 ? changeClass(div, css.NoActor) : changeClass(div, css.NoActor))
+
+            function changeClass(div: HTMLDivElement, css: string) {
+              if (!div) return;
+              div.classList.forEach(c => {
+                if (c !== 'Row') div.classList.remove(c)
+              });
+              div.classList.add(css);
+            }
+          };
+
         })();
 
         (function removeCopticVersion() {
@@ -1553,15 +1553,15 @@ Btn.BookOfHours = new Button({
             htmlRow.querySelector("p.COP, p.CA")?.remove();
             [css.Priest, css.Diacon, css.Assembly]
               .forEach((className) => {
-              htmlRow.classList.replace(className, actors[actors.length-1].EN);//Replacing it with 'No Actor)
-              const note = String.fromCharCode(eighthNoteCode);//removing the musicla notes
-              htmlRow.innerHTML = htmlRow.innerHTML.replaceAll(note, '')
-            }
-            );
+                htmlRow.classList.replace(className, actors[actors.length - 1].Class);//Replacing it with 'No Actor)
+                const note = eighthNoteCode;//removing the musicla notes
+                htmlRow.innerHTML = htmlRow.innerHTML.replaceAll(note, '')
+              }
+              );
           });
         })();
 
-        function insertTables(tables:string[][][], anchor:HTMLDivElement){
+        function insertTables(tables: string[][][], anchor: HTMLDivElement) {
           insertAdjacentToHtmlElement({
             tables: tables,
             languages: getLanguages(Prefix.bookOfHours),
@@ -3682,11 +3682,9 @@ Btn.Bible = new Button({
   }),
   onClick: async (refs?: { bookID: string, chapterNumber: string }) => {
     if (refs)
-      return await chapterBtnOnClick({
-        chapterNumber: refs.chapterNumber,
-        bookID: refs.bookID
-      });
+      return await chapterBtnOnClick(refs.bookID, refs.chapterNumber);
 
+    
     const newTestament = new Button({
       btnID: 'newTestament',
       label: getLabel({
@@ -3694,7 +3692,7 @@ Btn.Bible = new Button({
         FR: 'Nouveau Testament',
         EN: 'New Testament'
       }),
-      onClick: async () => newTestament.children = await getBooksButtons(newTestament), //!We need the children to be added when the button is clicked not when it is created because the Bibles are not defined at this stage
+      onClick: async () => await testamentChildren(newTestament), //!We need the children to be added when the button is clicked not when it is created because the Bibles are not defined at this stage
       afterShowPrayers: addFilteringInput,
     });
 
@@ -3705,11 +3703,15 @@ Btn.Bible = new Button({
         FR: 'Ancien Testament',
         EN: 'Old Testament'
       }),
-      onClick: async () => oldTestament.children = await getBooksButtons(oldTestament), //!We need the children to be added when the button is clicked not when it is created because the Bibles are not defined at this stage
-
+      onClick: async () => await testamentChildren(oldTestament), //!We need the children to be added when the button is clicked not when it is created because the Bibles are not defined at this stage
       afterShowPrayers: addFilteringInput,
-
     });
+
+    Btn.Bible.children = [oldTestament, newTestament];
+
+    async function testamentChildren(btn: Button) {
+      btn.children = btn.children || await getBooksButtons(btn)
+    };
 
     function addFilteringInput() {
       [sideBarBtnsContainer, containerDiv.querySelector('#btnsMainPageDiv') as HTMLElement]
@@ -3739,131 +3741,95 @@ Btn.Bible = new Button({
 
         }
       }
-
     };
 
-    Btn.Bible.children = [oldTestament, newTestament];
-
-
-
     async function getBooksButtons(btn: Button): Promise<Button[]> {
-      const booksList = await getBibleBooksList(defaultLanguage);
-
+      let booksList = await getBibleBooksList(defaultLanguage);
       if (!booksList) return;
 
-      let booksNames = booksList.map(book => book.human_long);
+      if (btn === oldTestament) booksList = booksList.slice(0, 48);
+      else if (btn === newTestament) booksList = booksList.slice(48, booksList.length);
 
-      if (btn === oldTestament) booksNames = booksNames.slice(0, 48);
-      else if (btn === newTestament) booksNames = booksNames.slice(48, booksNames.length);
+      const books = booksList.map(book => [book.human_long, book.id]);
 
-      const labels: typeBtnLabel[] = booksNames.map(bookID => {
-        return {
-          DL: bookID,
-          FL: undefined
-        }
-      });
-
-      const booksButtons = labels.map(label => {
-        const index = labels.indexOf(label);
+      return books.map(([name, id], index) => {
         const btn = new Button({
-          btnID: 'btnBook' + index.toString(),
-          label: label,
-          onClick: () => btn.children = getChaptersButtons(booksList.find(book => book.human_long === label.DL).id),//!We need the children to be added when the button is clicked not when it is created because the Bibles are not defined at this stage
-          afterShowPrayers: () => document.getElementById('inputFilter').remove(),
+          btnID: `btnBook${index}`,
+          label: { DL: name, FL: undefined },
+          onClick: () => btn.children = btn.children || getChaptersButtons(id),//!We need the children to be added when the button is clicked not when it is created because the Bibles are not defined at this stage
+          afterShowPrayers: () => document.getElementById('inputFilter')?.remove(),
         });
         return btn
       });
-
-      return booksButtons;
-
     }
-
 
     function getChaptersButtons(bookID: string): Button[] {
+      const book: bibleBook = Bibles[defaultLanguage][0]?.find((book: bibleBook) => book[0].id === bookID);
 
-      let defaultLangBible: Bible, foreignLangBible: Bible;
+      if (!book) return;
 
-      defaultLangBible = Bibles[defaultLanguage][0];
-
-      if (foreingLanguage)
-        foreignLangBible = Bibles[foreingLanguage][0];
-
-      let bookDefault: bibleBook, bookForeign: bibleBook;
-
-      bookDefault = defaultLangBible.find(book => book[0].id === bookID);
-
-      if (foreignLangBible)
-        bookForeign = foreignLangBible.find(book => book[0].id === bookID);
-
-
-      return chaptersBtns(bookDefault);
+      return chaptersBtns(book);
 
       function chaptersBtns(book: bibleBook) {
-        const chaptersButtons =
-          book[0].chaptersList
-            .map(number => {
-              if (/\D/.test(number)) return;//We ignore the introductions to the French version of the book because they have not been retrieved
-              return new Button({
-                btnID: 'btnChapter' + number,
-                label: getLabel(getChapterLabel(number)),
-                onClick: () => chapterBtnOnClick({
-                  bookID: book[0].id,
-                  chapterNumber: number
-                })
+        const [chaptersList, bookID] = [book[0].chaptersList, book[0].id];
 
-              })
+        return chaptersList
+          .filter(chapter => Number(chapter))
+          .map(chapter => chapterButton(chapter));
 
+        function chapterButton(chapter: string) {
+          {
+            return new Button({
+              btnID: `btnChapter${chapter}`,
+              label: getLabel(getChapterLabel(chapter)),
+              onClick: () => chapterBtnOnClick(bookID, chapter)
             });
+          }
 
-        return chaptersButtons
-
+        }
       }
-
     }
 
-
-    async function chapterBtnOnClick(refs: { bookID: string, chapterNumber: string }): Promise<boolean> {
-      if (!refs || !refs.bookID || !refs.chapterNumber) return;
-      let languages = [defaultLanguage];
+    async function chapterBtnOnClick(bookID: string, chapterNumber: string): Promise<boolean> {
+      if (!bookID || !chapterNumber) return;
+      const languages = [defaultLanguage];
       if (foreingLanguage) languages?.push(foreingLanguage);
 
       await showChapterText();
 
       async function showChapterText() {
-        let table: string[][] = [
+        const title: string[] =
           [
-            'Bible_' + refs.bookID + refs.chapterNumber + css.Title,
-          ],
-        ];
-        let list: bibleBookKeys[], book: bibleBookKeys;
-        const retrievedText = await Promise.all(languages.map(async (lang) => {
-          list = await getBibleBooksList(lang);
-          book = list?.find(b => b.id === refs.bookID);
-          if (!book) return;
-          table[0]?.push(getTitle(book, lang, refs.chapterNumber));
-          return getBibleChapterText({
-            bible: await getBibleVersion(lang),
-            bookID: refs.bookID,
-            chapterNumber: refs.chapterNumber,
-            lang: lang
-          }) || ''
-        }));
+            `'Bible_${bookID}${chapterNumber}${css.Title}`,
+          ];
+        await retrieve();
 
-        if (!retrievedText || retrievedText.join() === '') return;
-        let matched = matchPargraphsSplitting(retrievedText, languages, 0, actors[actors.length - 1].EN);
-        if (!matched) return;
-        table.push(...matched);
-        showPrayers({
-          table: table,
-          languages: languages,
-          container: containerDiv,
-          clearContainerDiv: true,
-          clearRightSideBar: true,
-        });
+        async function retrieve() {
+          const [bookDefault, bookForeign] = await Promise.all(languages.map(async lang => await getBook(lang)));
+          const first = bookDefault.chaptersList.find(el => Number(el));
+          const ref = `${Prefix.readingRef}${bookID}:${chapterNumber}:${first}-End`;
+          const retrieved = await retrieveReadingTableFromBible([[ref]], languages);
+          [bookDefault, bookForeign]
+            .map((book, index) => title.push(getTitle(book, languages[index], chapterNumber)));
+          retrieved[0] = title;
+          showPrayers({
+            table: retrieved,
+            languages: languages,
+            container: containerDiv,
+            clearContainerDiv: true,
+            clearRightSideBar: true,
+          });
+          updateBookmark(bookID, chapterNumber);
+        };
 
-      };
+       async function getBook(lang:string){
+          if(!lang) return
+          const list = await getBibleBooksList(lang);
+          return list?.find(b => b.id === bookID);
+        }
 
-      updateBookmark({ bookID: refs.bookID, chapterNumber: refs.chapterNumber });
+      }
+    
 
       (function appendNextAndPrevBtns() {
         const btnsDiv = document.createElement('div');
@@ -3879,7 +3845,7 @@ Btn.Bible = new Button({
             FR: right,
             EN: right,
           }),
-          onClick: () => nextOnClick(goTo)
+          onClick: () => nextOnClick(goTo, bookID, chapterNumber)
         });
 
         const prev = new Button({
@@ -3889,7 +3855,7 @@ Btn.Bible = new Button({
             FR: left,
             EN: left,
           }),
-          onClick: () => nextOnClick(!goTo)
+          onClick: () => nextOnClick(!goTo, bookID, chapterNumber)
         });
 
         [prev, next].forEach(btn => {
@@ -3904,17 +3870,14 @@ Btn.Bible = new Button({
         // floatOnTopOrBottom(btnsDiv, false, "0px");
         btnsDiv.style.gridTemplateColumns = setGridColumnsOrRowsNumber(btnsDiv);
 
-        async function nextOnClick(next: boolean, id: string = refs.bookID, chapterNumber: string = refs.chapterNumber) {
+        async function nextOnClick(next: boolean, id:string, chapterNumber:string) {
           const books = await getBibleBooksList(defaultLanguage);
 
           const [book, chapter] = getBookAndChapter();
 
-          await chapterBtnOnClick({
-            bookID: book?.id,
-            chapterNumber: chapter
-          });
+          await chapterBtnOnClick(book?.id, chapter);
 
-          updateBookmark({ bookID: book.id, chapterNumber: chapter });
+          updateBookmark(book.id, chapter);
 
           function getBookAndChapter(): [bibleBookKeys, string] {
             let book = books?.find(b => b.id === id);
@@ -3946,8 +3909,8 @@ Btn.Bible = new Button({
         }
       })();
 
-      function updateBookmark(refs: { bookID: string, chapterNumber: string }) {
-        bookMarks[0] = [refs.bookID, refs.chapterNumber];//We add the chapter to the bookMarks
+      function updateBookmark(bookID: string, chapterNumber: string) {
+        bookMarks[0] = [bookID, chapterNumber];//We add the chapter to the bookMarks
         localStorage.bookMarks = JSON.stringify(bookMarks);//We save the bookMarks to the local storage
       }
 
@@ -3960,64 +3923,64 @@ Btn.Bible = new Button({
       }
     }
 
-    function getChapterLabel(number: string): { AR: string; FR: string; EN: string } {
+    function getChapterLabel(chapter: string): { AR: string; FR: string; EN: string } {
       return {
-        AR: 'إصحاح ' + number,
-        FR: 'Chapître ' + number,
-        EN: 'Chapter ' + number,
+        AR: `إصحاح ${chapter}`,
+        FR: `Chapître ${chapter}`,
+        EN: `Chapter ${chapter}`,
       }
     }
   },
-  afterShowPrayers: () => {
-    (function insertLastReadingBtn() {
-      if (!localStorage.bookMarks) return;
-      const lastReading = JSON.parse(localStorage.bookMarks)[0];
-      if (!lastReading) return;
-      //We create a fake button simulating the action of chapters' buttons of each book
-      const btnLabel = getLabel({
-        AR: 'آخر قراءة',
-        FR: 'Dernier chapitre lu',
-        EN: 'Last Reading'
-      });
-      const btn = new Button({
-        btnID: 'lastReading',
-        label: btnLabel,
-        cssClass: 'btnBookMark',
-        onClick: async () => {
-          await Btn.Bible.onClick({ bookID: lastReading[0], chapterNumber: lastReading[1] });
-        },
-      });
+    afterShowPrayers: () => {
+      (function insertLastReadingBtn() {
+        if (!localStorage.bookMarks) return;
+        const lastReading = JSON.parse(localStorage.bookMarks)[0];
+        if (!lastReading) return;
+        //We create a fake button simulating the action of chapters' buttons of each book
+        const btnLabel = getLabel({
+          AR: 'آخر قراءة',
+          FR: 'Dernier chapitre lu',
+          EN: 'Last Reading'
+        });
+        const btn = new Button({
+          btnID: 'lastReading',
+          label: btnLabel,
+          cssClass: 'btnBookMark',
+          onClick: async () => {
+            await Btn.Bible.onClick({ bookID: lastReading[0], chapterNumber: lastReading[1] });
+          },
+        });
 
-      (function addSideBarShortcut() {
-        const bookMarkDiv: HTMLDivElement = document.createElement("div"); //this is just a container
+        (function addSideBarShortcut() {
+          const bookMarkDiv: HTMLDivElement = document.createElement("div"); //this is just a container
 
-        bookMarkDiv.role = "button";
-        bookMarkDiv.id = 'bookmarkLast';
-        bookMarkDiv.classList.add(css.sideTitle);
-        sideBarTitlesContainer.appendChild(bookMarkDiv);
-        let bookmark = document.createElement("a");
-        bookMarkDiv.appendChild(bookmark);
-        bookmark.innerText = btnLabel[defaultLanguage];
-        bookMarkDiv.addEventListener("click", () =>
-          displayChildButtonsOrPrayers(btn));
+          bookMarkDiv.role = "button";
+          bookMarkDiv.id = 'bookmarkLast';
+          bookMarkDiv.classList.add(css.sideTitle);
+          sideBarTitlesContainer.appendChild(bookMarkDiv);
+          let bookmark = document.createElement("a");
+          bookMarkDiv.appendChild(bookmark);
+          bookmark.innerText = btnLabel[defaultLanguage];
+          bookMarkDiv.addEventListener("click", () =>
+            displayChildButtonsOrPrayers(btn));
 
+        })();
+
+        (function addMainPageBtn() {
+          const btnDiv = document.createElement('div');
+          btnDiv.classList.add(css.inlineButtonsContainer);
+          containerDiv.prepend(btnDiv);
+          createHtmlBtn({
+            btn: btn,
+            btnsContainer: btnDiv,
+            btnClass: btn.cssClass,
+            clear: false,
+          })
+        })();
       })();
 
-      (function addMainPageBtn() {
-        const btnDiv = document.createElement('div');
-        btnDiv.classList.add(css.inlineButtonsContainer);
-        containerDiv.prepend(btnDiv);
-        createHtmlBtn({
-          btn: btn,
-          btnsContainer: btnDiv,
-          btnClass: btn.cssClass,
-          clear: false,
-        })
-      })();
-    })();
-
-  }
-});
+    }
+  });
 
 
 Btn.Edit = new Button({
@@ -4504,7 +4467,7 @@ async function retrieveReadingTableFromBible(reading: string[][], langs: string[
 
     if (ref.startsWith(Prefix.readingRef + 'PSA:'))
       return [titleRow, retrievedText];//We do not split the psalm paragraphs into different rows
-    else return [titleRow, ...matchPargraphsSplitting(retrievedText, langs, row.length - langs.length, actor || '') || []];
+    else return [titleRow, ...matchPargraphsSplitting(retrievedText, langs, row.length - langs.length, actor) || []];
   }
 
   async function retrieveVerses(lang: string, ref: string): Promise<string> {
@@ -4706,7 +4669,7 @@ async function retrieveReadingTableFromBible(reading: string[][], langs: string[
  * @param {boolean} liturgy - tells whether the bible text has been retrieved within a liturgy context or outside a liturgy context 
  * @returns {string[][]} - a table (i.e., string[][]) containing the text with each paragraph splitted in distinct row (i.e., string[])
  */
-function matchPargraphsSplitting(retrieved: string[], langs: string[], add: number, actor: string = ''): string[][] {
+function matchPargraphsSplitting(retrieved: string[], langs: string[], add: number, actor: string = actors[actors.length-1].Class): string[][] {
   if (add < 0) add = 0;
 
   if (add > 1) {

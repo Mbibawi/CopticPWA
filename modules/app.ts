@@ -743,15 +743,15 @@ async function showTitlesInRightSideBar(
     className: string,
     limit: number = 50
   ) {
-    let parag = titlesRow.querySelector(
+    const parag = titlesRow.querySelector(
       "." + className
     ) as HTMLParagraphElement;
     if (!parag) return;
     let text: string = parag.innerText
       .split("\n")
       .join(" ")
-      .replaceAll(String.fromCharCode(plusCharCode) + " ", "")
-      .replaceAll(String.fromCharCode(plusCharCode + 1) + " ", "")
+      .replaceAll(plusSign + " ", "")
+      .replaceAll(plusSign + " ", "")
       .replaceAll("  ", " ");
 
     if (!text) return;
@@ -1518,10 +1518,9 @@ async function setCSS(htmlRows: HTMLDivElement[], amplify: boolean = true) {
   if (localStorage.displayMode === displayModes[1]) return;
 
 
-  const plusSign = String.fromCharCode(plusCharCode),
-    minusSign = String.fromCharCode(plusCharCode + 1),
-    diacon = splitTitle(css.Diacon)[1],
-    assembly = splitTitle(css.Assembly)[1];
+  const diacon = splitTitle(css.Diacon)[1],
+    assembly = splitTitle(css.Assembly)[1],
+    arabic = splitTitle(css.arabic)[1];
 
   htmlRows
     .forEach((row) => setDivCSS(row));
@@ -1553,13 +1552,43 @@ async function setCSS(htmlRows: HTMLDivElement[], amplify: boolean = true) {
       });
     })();
 
+    (function formatParagraphs() {
+      const paragraphs = Array.from(div.querySelectorAll("p"));
+
+      paragraphs
+        .filter(p => hasClass(p, [arabic]))
+        .forEach(p => p.innerHTML = getArabicNumbers(p.innerHTML));//Converting the numbers of Arabic text to hindi characters
+      
+
+      if (hasClass(div, [diacon, assembly]))
+        replaceMusicalNoteSign(paragraphs);
+
+      if (
+        [
+          Prefix.praxis,
+          Prefix.Catholicon,
+          Prefix.stPaul,
+          Prefix.gospelMorning,
+          Prefix.gospelVespers,
+          Prefix.gospelNight,
+          Prefix.gospelMass,
+          Prefix.synaxarium,
+          Prefix.prophecies,
+          Prefix.bookOfHours,
+          Prefix.HolyWeek
+        ].find((prefix) => div.dataset.root?.startsWith(prefix))
+      )
+        replaceQuotes(paragraphs); //If the text is one of the "Readings", we replace the quotes signs
+
+      insertSuperScriptTag(paragraphs);
+    })();
 
     if (isTitlesContainer(div)) {
       //This is the div where the titles of the prayer are displayed. We will add an 'on click' listner that will collapse the prayers
 
       (async function addPlusAndMinusSigns() {
         if (isTitlesContainer(div.nextElementSibling as HTMLElement)) return;
-
+        
         if (htmlRows
           .filter(div => div?.dataset?.root && div.dataset.root === div.dataset.root).length < 1) return;
 
@@ -1589,37 +1618,6 @@ async function setCSS(htmlRows: HTMLDivElement[], amplify: boolean = true) {
 
         if (!div.dataset.isCollapsed)
           defLangParag.innerHTML = minusSign + " " + defLangParag.innerHTML; //We add the minus (-) sig at the begining;
-      })();
-
-      (function formatParagraphs() {
-        const paragraphs = Array.from(div.querySelectorAll("p"));
-        paragraphs
-          .filter(p => hasClass(p, [css.arabic]))
-          .forEach(p => p.innerHTML = getArabicNumbers(p.innerHTML));//Converting the numbers of Arabic text to hindi characters
-
-        if (hasClass(div, [diacon, assembly]))
-          replaceMusicalNoteSign(paragraphs);
-
-        if (
-          div.dataset.root
-          &&
-          [
-            Prefix.praxis,
-            Prefix.Catholicon,
-            Prefix.stPaul,
-            Prefix.gospelMorning,
-            Prefix.gospelVespers,
-            Prefix.gospelNight,
-            Prefix.gospelMass,
-            Prefix.synaxarium,
-            Prefix.prophecies,
-            Prefix.bookOfHours,
-            Prefix.HolyWeek
-          ].find((prefix) => div.dataset.root.startsWith(prefix))
-        )
-          replaceQuotes(paragraphs); //If the text is one of the "Readings", we replace the quotes signs
-
-        insertSuperScriptTag(paragraphs);
       })();
 
     }
@@ -1654,14 +1652,10 @@ async function setCSS(htmlRows: HTMLDivElement[], amplify: boolean = true) {
 * @param {HTMLPargraphElement[]} paragraphs
 */
     function insertSuperScriptTag(paragraphs: HTMLParagraphElement[]) {
-
       paragraphs
         .forEach(parag => {
           //We will convert the verses numbers into superscripts
           if (!RegExp('Sup_\.*_Sup').test(parag.innerText)) return;
-
-          if (parag.classList.contains(css.arabic))
-            parag.innerHTML = getArabicNumbers(parag.innerHTML);
 
           parag.innerHTML =
             parag.innerHTML
@@ -1791,7 +1785,7 @@ function collapseOrExpandText(
       if (titlesRows.indexOf(titleRow) > 0) return; //If there are more than one title sharing the same dataset.group, and titleRow is the first amongst those titles, we will toggle the 'hidden' class for all the other titles.
 
       titlesRows
-        .filter(div => div !==titleRow)//! We must exclude titleRow because otherwise will again pass its "bound rows" to toglleHidden() which will again toglle their 'hidden' class (this was already done above!). Besides, titleRow itself might receive the 'hidden' class, which is undesirable since title rows must always remain visible
+        .filter(div => div !== titleRow)//! We must exclude titleRow because otherwise will again pass its "bound rows" to toglleHidden() which will again toglle their 'hidden' class (this was already done above!). Besides, titleRow itself might receive the 'hidden' class, which is undesirable since title rows must always remain visible
         .forEach(titleDiv => {
           const sameRoot = sameDataRoot(sameTable, titleDiv.dataset.root).filter(div => div !== titleDiv);//!We remove the titleDiv itself to avoid getting the 'hidden' class added to it by toggleHidden()
           collapseOrExpandText(undefined, titleRow.dataset.isCollapsed === 'true', sameRoot)
@@ -1823,27 +1817,20 @@ function collapseOrExpandText(
  * @returns
  */
 async function togglePlusAndMinusSignsForTitles(
-  titleRow: HTMLElement,
-  plusCode: number = plusCharCode
+  titleRow: HTMLElement
 ) {
   if (!titleRow.children) return;
   let parag: HTMLElement;
   parag = Array.from(titleRow.children).filter(
     (child) =>
-      child?.innerHTML.startsWith(String.fromCharCode(plusCode)) ||
-      child?.innerHTML.startsWith(String.fromCharCode(plusCode + 1))
+      child?.innerHTML.startsWith(plusSign) ||
+      child?.innerHTML.startsWith(minusSign)
   )[0] as HTMLElement;
   if (!parag) return;
   if (titleRow.dataset.isCollapsed === 'false') {
-    parag.innerHTML = parag.innerHTML.replace(
-      String.fromCharCode(plusCode),
-      String.fromCharCode(plusCode + 1)
-    );
+    parag.innerHTML = parag.innerHTML.replace(plusSign,minusSign);
   } else if (titleRow.dataset.isCollapsed === 'true') {
-    parag.innerHTML = parag.innerHTML.replace(
-      String.fromCharCode(plusCode + 1),
-      String.fromCharCode(plusCode)
-    );
+    parag.innerHTML = parag.innerHTML.replace(minusSign, plusSign);
   }
 }
 
@@ -2891,10 +2878,7 @@ async function replaceMusicalNoteSign(container: HTMLElement[]) {
     ) as HTMLElement[];
   if (container.length === 0) return;
 
-  let notes: string[] = [
-    String.fromCharCode(eighthNoteCode),
-    String.fromCharCode(beamedEighthNoteCode),
-  ];
+  let notes: string[] = [eighthNoteCode, beamedEighthNoteCode];
 
   notes.forEach((note) => {
     container.forEach((p: HTMLElement) => {

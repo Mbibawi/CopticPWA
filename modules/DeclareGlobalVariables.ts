@@ -271,9 +271,10 @@ const Prefix = {
 };
 
 const anyDay = '&D=$copticFeasts.AnyDay',
-  plusCharCode: number = 10133,
-  eighthNoteCode: number = 9834,
-  beamedEighthNoteCode: number = 9835;
+  plusSign: string = String.fromCharCode(10133),
+  minusSign: string = String.fromCharCode(10134),
+  eighthNoteCode: string = String.fromCharCode(9834),
+  beamedEighthNoteCode:string = String.fromCharCode(9835);
 
 
 const ReadingsArrays = {
