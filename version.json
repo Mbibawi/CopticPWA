@@ -1,3 +1,3 @@
 {
-    "version": "v10.0 (Changes to the class attribution, worked on Holy Friday, Fixes to Coptic font conversion, etc.)"
+    "version": "v10.1 (Fixes to the collapsing of titles, addition of new functions: getActor(), insertTablesBeforeAnchor(), )"
 }

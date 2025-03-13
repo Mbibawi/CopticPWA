@@ -605,14 +605,14 @@ PrayersArrayFR = [[
     "المبشر العظيم♫ في كورة مِصر♫ مرقس الرسول♫ مدبرها الأول.",
   ],
   [
-    Prefix.same + css.Title,
+    Prefix.same + css.Diacon,
     "Ϭⲓⲟⲩⲱⲓⲛⲓ ϭⲓⲟⲩⲱⲓⲛⲓ: ⲱ̀ ϯⲭⲱⲣⲁ ⲛ̀ⲧⲉ Ⲭⲏⲙⲓ: ϫⲉ ⲁϥⲓ̀ ⲛ̀ϫⲉ ⲡⲉⲟⲩⲱⲓⲛⲓ: ϧⲉⲛ ⲟⲩⲙⲉⲧⲗⲁⲙⲡⲣⲟⲥ.",
     "",
     "انشيئو أوينى اتشينو: أوينى أوتى كورا إنتى كيمى: جى أفئى انجى بى أو اوينى: خين أوميت لام إبروس.",
     "نورى نورى يا كورة مصر لِأنَّهُ قَدّْ أتى نورك بضياء.",
   ],
   [
-    Prefix.same + css.Title,
+    Prefix.same + css.Diacon,
     "Ⲭⲉⲣⲉ Ⲓⲱⲁⲛⲛⲏⲥ: ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲥⲧⲏⲥ: ⲭⲉⲣⲉ ⲡⲓⲥⲱⲧⲡ ⲙ̀ⲡⲁⲣⲑⲉⲛⲟⲥ: ⲟⲩⲟ ⲡⲓⲑⲉⲟ̀ⲗⲟⲅⲟⲥ.",
     "",
     "شيرى يؤانس: بى إف إنجيلَيستيس: شيرى بى سوتب إم بارثينوس: أووه بى ثيؤلوغوس.",
@@ -5118,7 +5118,28 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.massCommon + "Kyrielison41",
+    Prefix.commonPrayer + "Kyrielison41" + css.Title,
+    "",
+    "Présentation des offrandes",
+    "",
+    "تقديم الحمل",
+  ],
+  [
+    Prefix.placeHolder, Prefix.bookOfHours + "WeExaltYouStMary"],
+  [
+    Prefix.placeHolder, Prefix.commonPrayer + "Creed",
+  ],
+  [
+    Prefix.same + css.Title,
+    "",
+    "Sélection de l'offrande",
+    "",
+    "اختيار الحمل",
+  ],
+  [
+    Prefix.same + css.Comment,
+    "",
+    "يقدم الحمل أمام الهيل ويقوم الكاهن باختيار الحمل، بينما يردد الشعب كيرياليسون 41 مرة",
   ],
   [
     Prefix.same + css.Priest,
@@ -5130,24 +5151,48 @@ PrayersArrayFR = [[
   [
     Prefix.switchClass + css.Assembly
   ],
-  [Prefix.placeHolder, Prefix.bookOfHours + "Kyrielison"]
+  [
+    Prefix.same + css.Comment,
+    "",
+    "يردد الشعب كيرياليسون 41 مرة",
+  ],
+  [
+    Prefix.same + css.Assembly,
+    "",
+    "",
+    "",
+    "كيرياليسون، كيرياليسون، يا رب احرم.",
+  ],
+  [
+    Prefix.same + css.Assembly,
+    "",
+    "",
+    "",
+    "كيرياليسون، كيرياليسون،ارحمنا يا الله.",
+  ],
+  [
+    Prefix.same + css.Assembly,
+    "",
+    "",
+    "",
+    "كيرياليسون، كيرياليسون،اسمعنا وارحمنا.",
+  ],
+  [Prefix.placeHolder,Prefix.bookOfHours + "HolyLordOfSabaot"],
+  [Prefix.placeHolder, Prefix.commonPrayer + "OurFatherInHeaven"] 
 ],
 [
   [
     Prefix.bookOfHours + "Kyrielison41",
   ],
   [
-    Prefix.same,
+    Prefix.same + css.NoActor,
     "",
     "Nous T'implorons écoute nous et aie pitié de nous",
     "",
     "نسألَكَ يا رَبُّ اسمعنا وارْحَمْنَا واغْفِرْ لَنَا خَطَايَانَا آمْينْ.",
   ],
-  [Prefix.placeHolder, Prefix.bookOfHours + "Kyrielison"]
-],
-[
   [
-    Prefix.bookOfHours + "Kyrielison",
+    Prefix.same + css.NoActor,
     "Ⲕⲩⲣⲓⲉ̀ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ: Ⲕⲩⲣⲓⲉ̀ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ: Ⲕⲩⲣⲓⲉ̀ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ:",
     "Pitié Seigneur 41 fois",
     "كيريالَيسون (41)",
@@ -5429,7 +5474,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.massCommon + "Tishoury&D=$Seasons.GreatLent" + css.Title,
+    Prefix.massCommon + "TishouryGreatLent" + css.Title,
     "",
     "Ⲛⲑⲟ ⲧⲉ ϯϣⲟⲩⲣⲏ",
     "",
@@ -6139,7 +6184,7 @@ PrayersArrayFR = [[
     Prefix.massCommon + "IntroToSeasonalLitanies",
   ],
   [
-    Prefix.anchor + "SeasonalLitanyPlaceHolder",
+    Prefix.anchor + "SeasonalLitany",
   ],
   [
     Prefix.placeHolder,
@@ -13662,7 +13707,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.fractionPrayer + "&D=$Seasons.LordFeast" + css.Title,
+    Prefix.fractionPrayer + "&D=$lordFeasts" + css.Title,
     "",
     "Oraison de fraction pour les fêtes du Seigneur\n(Nous louons et glorifions Le Dieu des dieux, Seigneur des seigneurs)",
     "",
@@ -24543,7 +24588,7 @@ PrayersArrayFR = [[
     "المَلائِكَة مَعَ الرُعَاة يُمَجِّدُونْ، والَمجْوسْ مَعَ الكَوكَبْ في الطَريقْ سائِرونْ، لأنَّ مِنْ أجْلِنَا ولِدَ صَبيَّاً جَدِيداً: الإلَهْ الذي قبْلَ الدِهُورْ. ",
   ],
   [
-    Prefix.same + "&" + css.SubTitle,
+    Prefix.same + css.SubTitle,
     "",
     "Ⲡⲓϫⲓⲛⲙⲓⲥⲓ",
     "",
@@ -24557,7 +24602,7 @@ PrayersArrayFR = [[
     "المِيلادْ البَتُولي والطَلَقَاتْ الرُوحَانِيَّة عَجَبْ عَجِيبْ كَالأخْبَارْ النَبَوْيَّة.",
   ],
   [
-    Prefix.same + "&" + css.SubTitle,
+    Prefix.same + css.SubTitle,
     "",
     "Ⲅⲉⲛⲉⲑⲗⲓⲟⲛ",
     "",
@@ -24571,7 +24616,7 @@ PrayersArrayFR = [[
     "مِيلاداً عَجِيباً، ومَوْلُوداً عَظِيماً. رَأى الرَئيسْ النَجَّارْ، رباً مُتَأنِسَاً.",
   ],
   [
-    Prefix.same + "&" + css.SubTitle,
+    Prefix.same + css.SubTitle,
     "",
     "Ⲁⲡⲉⲛϭⲟⲓⲥ",
     "",
@@ -24599,7 +24644,7 @@ PrayersArrayFR = [[
     "صَارِخِينَ قَائِلينْ، المجد لله في الأعالي، وعلي الارض السلام، وفي الناس المسرة.",
   ],
   [
-    Prefix.same + "&" + css.SubTitle,
+    Prefix.same + css.SubTitle,
     "",
     "Ⲁⲅⲓⲟⲥ ⲟ̀ Ⲑⲉⲟⲥ",
     "",
@@ -24789,7 +24834,7 @@ PrayersArrayFR = [[
     "وأعادَ آدم إلى الفِردوسْ، بِفَرَح وبَهجَة ومَسرّة، هُوَ وبنيه الَّذِينَ كانوا في المحبوس، مَحَلَ النعِيمَ دُفعَةً أُخرى.",
   ],
   [
-    Prefix.same + "&" + css.SubTitle,
+    Prefix.same + css.SubTitle,
     "",
     "Christ est ressuscité",
     "",
@@ -24810,7 +24855,7 @@ PrayersArrayFR = [[
     "المَجدُ للآب والابن والْرُوحْ القُدُسْ. الآنْ وكُلَّ أوانْ وإلى دَهرِ الدهور آمْينْ.",
   ],
   [
-    Prefix.same + "&" + css.SubTitle,
+    Prefix.same + css.SubTitle,
     "",
     "Tonsina Narkhon",
     "",
@@ -24831,7 +24876,7 @@ PrayersArrayFR = [[
     "لأنَهُ سُرَّ وارتضى بالجسد أنْ يعلوا عَلَى الصليب، ويحتَمِلَ الموت، ويُنهضَ الموتى بقيامَتِهِ المجيدة.",
   ],
   [
-    Prefix.same + "&" + css.SubTitle,
+    Prefix.same + css.SubTitle,
     "",
     "",
     "",
@@ -24859,7 +24904,7 @@ PrayersArrayFR = [[
     "مِنْ أَجْلِ قيامتك أيُها المَسِيحْ مُخَلِّصنا، تُسَبِّح ملائكة السَّمَاء. ونَحنُ الَّذِينَ عَلَى الأرض، أَهِّلْنا أنْ نُمَجِّدُكَ بقلوب طَاهِرَة.",
   ],
   [
-    Prefix.same + "&" + css.SubTitle,
+    Prefix.same + css.SubTitle,
     "",
     "Le Christ est ressuscité",
     "",
@@ -24873,7 +24918,7 @@ PrayersArrayFR = [[
     "المَسيحُ قامَ مِنْ بَيْنِ الأموات، بالموت داس الموت، والذين في القبور انعم لهم بالحياة الأبدية.",
   ],
   [
-    Prefix.same + "&" + css.SubTitle,
+    Prefix.same + css.SubTitle,
     "",
     "Pashoys Isos",
     "",
@@ -24901,7 +24946,7 @@ PrayersArrayFR = [[
     "صَارِخِينَ قَائِلينْ: \"قُدّوسْ، قُدّوسْ قُدّوسْ، رَبُ الدهور، المَسيحُ قامَ من الأموات.\"",
   ],
   [
-    Prefix.same + "&" + css.SubTitle,
+    Prefix.same + css.SubTitle,
     "",
     "Ⲁⲅⲓⲟⲥ ⲟ̀ Ⲑⲉⲟⲥ",
     "",
@@ -24984,9 +25029,6 @@ PrayersArrayFR = [[
 [
   [
     Prefix.commonPrayer + "Agios&D=$copticFeasts.HolyFriday" + css.Title,
-  ],
-  [
-    Prefix.same + css.Title,
     "",
     "Ⲁⲅⲓⲟⲥ",
     "قُدُّوسْ الله"
@@ -25242,6 +25284,9 @@ PrayersArrayFR = [[
     "اذكرني يا رَبّي اذكرني يا إلهي. اذكرني يا ملِكَيّ متى جئت في مَلَكُوتَكْ.",
   ],
   [
+    Prefix.anchor + "Saints",
+  ],
+  [
     Prefix.placeHolder,
     Prefix.massCommon + "BlessedYouAreWithYourFather",
   ],
@@ -25260,6 +25305,9 @@ PrayersArrayFR = [[
     "Dieu enlève en cet endroit les péchés du peuple en raison des offrandes et de l’odeur de l’encens.",
     "شاري إفنوتي أولي إمماﭫ : إنني نوﭭي إنتيه بي لاؤس : إيﭬول هيتين بي إتشليل : نيم بي إسطوي إنتيه بي إسطوي نوفي. ",
     "يرفع اللّه هناك، خطايا الشَعْبْ مِنْ قِبَلِ المحرقات، ورائحة البَخُور.",
+  ],
+  [
+    Prefix.anchor + "Saints",
   ],
   [
     Prefix.placeHolder,

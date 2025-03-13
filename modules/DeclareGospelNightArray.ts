@@ -5188,7 +5188,7 @@ ReadingsArrays.GospelNightArrayFR = [
         ],
     ],
     [
-        [Prefix.HolyWeek + "LakanProphecies&D=" + copticFeasts.HolyThursday],
+        [Prefix.HolyWeek + "LakanProphecies"],
         [Prefix.same + css.Title, "تكوين ١٨: ١ - ٢٣"],
         [
             Prefix.same + css.Intro,
@@ -5311,7 +5311,7 @@ ReadingsArrays.GospelNightArrayFR = [
         [Prefix.readingRef + "EZK:47:1-9" + css.Diacon],
     ],
     [
-        [Prefix.HolyWeek + "LakanSermony&D=" + copticFeasts.HolyThursday],
+        [Prefix.HolyWeek + "LakanSermony"],
         [
             Prefix.same + css.Intro,
             "Ⲟⲩⲕⲁⲧⲏⲭⲏⲥⲓⲥ ⲛ̀ⲧⲉ ⲡⲉⲛⲓⲱⲧ ⲉ̀ⲑⲟⲩⲁⲃ ⲁⲃⲃⲁ Ϣⲉⲛⲟⲩϯ ⲡⲓⲁ̀ⲣⲭⲏⲙⲁⲛⲇ̀ⲣⲓⲧⲏⲥ ⲉ̀ⲣⲉ ⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̀ⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ",

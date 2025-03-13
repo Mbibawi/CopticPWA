@@ -147,11 +147,10 @@ async function displayChildButtonsOrPrayers(btn: Button, clear: boolean = true, 
 
     showPrayers({
       prayersSequence: btn.prayersSequence,
-      container: container,
+      position: container,
       languages: btn.languages,
       clearContainerDiv: clear,
       clearRightSideBar: clear,
-      position: container,
     });
 
 
@@ -544,23 +543,20 @@ function createHtmlElementForPrayer(args: {
   | DocumentFragment
   | { beforeOrAfter: InsertPosition; el: HTMLElement };
   actorClass?: string;
-  container?: HTMLElement | DocumentFragment;
 }): HTMLDivElement {
   if (!args.tblRow || args.tblRow.length === 0)
     return;
 
   (function setDefaults() {
     if (!args.actorClass)
-      args.actorClass = splitTitle(css.NoActor)[1];
+      args.actorClass = getActor(css.NoActor);
     if (!args.userLanguages)
       args.userLanguages = JSON.parse(localStorage.userLanguages);
     if (!args.position)
       args.position = containerDiv;
-    if (!args.container)
-      args.container = containerDiv
   })();
 
-  const [title, subtitle, comment] = [css.Title, css.SubTitle, css.Comment].map(css => splitTitle(css)[1]);
+  const [title, subtitle, comment] = [css.Title, css.SubTitle, css.Comment].map(css => getActor(css));
 
   if (args.actorClass === comment)
     args.languagesArray = ['FR', 'AR'];//The 'Comments' rows are structured like: [Title, FR, AR] regardless of the languages of the array
@@ -606,6 +602,8 @@ function createHtmlElementForPrayer(args: {
       htmlRow.dataset.group = args.dataGroup.replace(/Part\d+/, "");
     if (args.dataRoot)
       htmlRow.dataset.root = args.dataRoot.replace(/Part\d+/, "");
+    if (args.tblRow[0].startsWith(Prefix.anchor))
+      htmlRow.dataset.anchor = args.tblRow[0];
 
 
     htmlRow.classList.add(args.actorClass);
@@ -613,10 +611,11 @@ function createHtmlElementForPrayer(args: {
       htmlRow.dataset.isCollapsed = 'false';//! We must initiate the dataset.isCollapsed of the row
       htmlRow.addEventListener("click", (e) => {
         e.preventDefault;
-        collapseOrExpandText(htmlRow);
+        collapseOrExpandText(htmlRow, !eval(htmlRow.dataset.isCollapsed));
       }); //we also add a 'click' eventListener to the 'Title' elements
       htmlRow.id = splitTitle(args.tblRow[0])[0]; //we add an id to all the titles in order to be able to retrieve them for the sake of adding a title shortcut in the titles right side bar
     }
+
 
   })();
 
@@ -702,7 +701,7 @@ async function showTitlesInRightSideBar(
    * @param {HTMLElement} titles - a div including paragraphs, each displaying the title of the section in a given language
    */
   function addTitle(titleRow: HTMLDivElement): HTMLDivElement {
-    let titleDiv: HTMLDivElement = document.createElement("div"); //this is just a container
+    const titleDiv: HTMLDivElement = document.createElement("div"); //this is just a container
     titleDiv.role = "button";
     if (dataGroup) titleDiv.dataset.group = dataGroup;
     else titleDiv.dataset.group = titleRow.id;
@@ -719,7 +718,7 @@ async function showTitlesInRightSideBar(
 
     titleDiv.addEventListener("click", () => {
       closeSideBar(rightSideBar); //when the user clicks on the div, the rightSideBar is closed
-      collapseOrExpandText(titleRow, false); //We pass the 'toggleHidden' paramater = false in order to always show/uncollapse the sibligns
+      collapseOrExpandText(titleRow, false); //We pass the 'isCollapsed' paramater = false in order to always show/uncollapse the sibligns
     });
 
     let defaultLang = appendTitleTextParagraph(titleRow, defaultLanguage);
@@ -1338,7 +1337,6 @@ function showPrayers(args: {
   prayersSequence?: string[];
   table?: string[][];
   languages: string[];
-  container: DocumentFragment | HTMLElement;
   clearContainerDiv?: boolean;
   clearRightSideBar?: boolean;
   position?:
@@ -1359,8 +1357,7 @@ function showPrayers(args: {
 
   (function setDefaults() {
     //Setting container, and the values for the missing arguments
-    if (!args.container) args.container = containerDiv;
-    if (!args.position) args.position = args.container;
+    if (!args.position) args.position = containerDiv;
     if (args.clearContainerDiv !== false) args.clearContainerDiv = true;
     if (args.clearContainerDiv === true) containerDiv.innerHTML = "";
     if (args.clearRightSideBar !== false) args.clearRightSideBar = true;
@@ -1392,38 +1389,48 @@ function showPrayers(args: {
 
   function processTables(): HTMLDivElement[] {
     //We will return an HTMLDivElement[] of all the divs that will be created from wordTable
-    let htmlDivs: HTMLDivElement[] = [];
-    let dataRoot: string;//!dataRoot must be declared here because its value is dynamicaly changed by processRow() if row[0] does not start with Prefix.same. We need its value to remain unchanged if row[0] starts with Prefix.same
+    let htmlDivs: HTMLDivElement[] = [], dataRoot: string;
 
     tables.forEach((table) => {
       if (!table) return;
       const entireTable = unfoldPlaceHolders(table);
       const dataGroup = splitTitle(Title(entireTable))[0];//This will not change and will serve to set the dataset.group property of all the div elements that will be created for the table
-      entireTable.forEach((row) => htmlDivs.push(processRow(row, dataGroup)));
+      dataRoot = dataGroup; //!dataRoot must be initated for each table with the same value as the dataGroup
+      entireTable.forEach((row, index) => htmlDivs.push(processRow(row, index, dataGroup)));
     });
 
     htmlDivs = htmlDivs.filter(div => div);//!We must remove undefined divs because they will cause problems if kept, will not be able to set the data-root of all the divs with Prefix.Same
 
-    const same = splitTitle(css.Same)[1];
+    const same = getActor(css.Same);
 
     return htmlDivs
       .map((div, index) => {
         if (!div.classList.contains(same)) return div;
         const previous = htmlDivs[index - 1];
-        div.classList.replace(same, Array.from(previous?.classList).find(c => c !== css.Row) || splitTitle(css.NoActor)[1])
+        div.classList
+          .replace(same, Array.from(previous?.classList).find(c => ![css.Row].includes(c)));
         return div
       });
 
 
-    function processRow(row: string[], dataGroup: string): HTMLDivElement {
+    function processRow(row: string[], index: number, dataGroup: string): HTMLDivElement {
       if (!row) return;
 
-      let [root, actorClass] = splitTitle(row[0]);
+      const [root, actorClass] = splitTitle(row[0]);
 
       if (ignored.includes(actorClass)) return; //If the Show property of the actor class is not set to true, we will not show the row. Also if the row has only 
 
-      if (!row[0].startsWith(Prefix.same))
-        dataRoot = root;//!If row[0] does not start with Prefix.same, we assume that either this is the title of a new table, or it was done on purpose in order to give the html div that will be created a different datase-root than the rest of the table's rows.
+      (function setDataRoot() {
+        //If row[0] ends with css.Title or css.Subtitle, we assume that it is either the title of a new table, or that it was assigned the css.Title or css.SubTitle class on purpose. By changing the dataRoot prop of all the divs that will be created from this point on, we will make sure that when the title div is clicked, it will collapse or  expand the divs having the same dataRoot. Any div with the same dataRoot is deemed bound to the title div as if they belonged to the same table. Only the 1st div of the table commands all the divs in the table.  
+
+        if (index < 1) return; //!If this is the 1st row in the table, the dataRoot has already been set = dataset.group (in fact, in this case root = dataset.group since this is the first row of the "entire table"). We don't need to set it here.
+
+        if (![css.Title, css.SubTitle].find(css => RegExp(actorClass).test(css)))
+          return;
+
+        dataRoot = `${dataGroup}${index}` //!dataRoot must be unique for each group of divs following a title div. If the title row is in the middle of the table we set the dataRoot  = dataGroup (which is the title of the entire table) + the index of the row, in order to make it unique.
+      })();
+
 
       return createHtmlElementForPrayer({
         tblRow: row,
@@ -1432,7 +1439,6 @@ function showPrayers(args: {
         dataRoot: dataRoot,
         languagesArray: args.languages || getLanguages(dataRoot),
         position: args.position,
-        container: args.container,
       }) || undefined;
     }
 
@@ -1518,9 +1524,9 @@ async function setCSS(htmlRows: HTMLDivElement[], amplify: boolean = true) {
   if (localStorage.displayMode === displayModes[1]) return;
 
 
-  const diacon = splitTitle(css.Diacon)[1],
-    assembly = splitTitle(css.Assembly)[1],
-    arabic = splitTitle(css.arabic)[1];
+  const diacon = getActor(css.Diacon),
+    assembly = getActor(css.Assembly),
+    arabic = getActor(css.arabic);
 
   htmlRows
     .forEach((row) => setDivCSS(row));
@@ -1558,7 +1564,7 @@ async function setCSS(htmlRows: HTMLDivElement[], amplify: boolean = true) {
       paragraphs
         .filter(p => hasClass(p, [arabic]))
         .forEach(p => p.innerHTML = getArabicNumbers(p.innerHTML));//Converting the numbers of Arabic text to hindi characters
-      
+
 
       if (hasClass(div, [diacon, assembly]))
         replaceMusicalNoteSign(paragraphs);
@@ -1588,7 +1594,7 @@ async function setCSS(htmlRows: HTMLDivElement[], amplify: boolean = true) {
 
       (async function addPlusAndMinusSigns() {
         //if (isTitlesContainer(div.nextElementSibling as HTMLElement)) return;
-        
+
         if (htmlRows
           .filter(div => div?.dataset?.root && div.dataset.root === div.dataset.root).length < 1) return;
 
@@ -1599,12 +1605,12 @@ async function setCSS(htmlRows: HTMLDivElement[], amplify: boolean = true) {
         if (!parag)
           return console.log("no paragraph with lang= " + defaultLanguage);
 
-  
+
         let text = parag.innerHTML; //!Caution: we need to work with the innerHTML in order to avoid losing the new line or any formatting to the title text when adding the + or - sing. So don't change the innerHTML to innerText or textContent
 
 
         [plusSign, minusSign]
-          .forEach(sign => text = text.replace(sign + " ",""))//We remove the + sign in the begining (if it exists)
+          .forEach(sign => text = text.replace(sign + " ", ""))//We remove the + sign in the begining (if it exists)
 
         if (div.dataset.isCollapsed === 'true')
           parag.innerHTML = `${plusSign} ${text}`; //We add the plus (+) sign at the begining
@@ -1721,78 +1727,62 @@ function setGridAreas(row: HTMLElement): string {
 /**
  * Hides all the nextElementSiblings of a title html element (i.e., a div having the class 'Title' or 'SubsTitle') if the nextElementSibling has the same data-group attribute as the title html element
  * @param {HTMLDivElement} titleRow - the html div element containing the title (i.e. having class "Title" or "Subtitle" in its classList), which, when clicked, we will toggle the 'hidden' class from all the HTML div elements having the same dataset.goup or the same dataset.root
- * @param {boolean} collapse - If collapse = true the funcion will hide the text, and will show it if collapse = false. If ommitted, the function will toggle the "hidden" class 
+ * @param {boolean} isCollapsed - If collapse = true the funcion will hide the text, and will show it if collapse = false. If ommitted, the function will toggle the "hidden" class 
  * @param {HTMLDivElement[]} sameTable - an array of HTML div elements with the same dataset.group
  * @param {HTMLDivElement[]} titlesRows - an array of HTML div elements having the same dataset-group and the class "Title" or "Subtitle" in their classList. 
  */
 function collapseOrExpandText(
   titleRow: HTMLDivElement,
-  collapse?: boolean,
+  isCollapsed: boolean,
   sameTable?: HTMLDivElement[],
-  container: HTMLDivElement = containerDiv
+  titlesRows?: HTMLDivElement[]
 ) {
-  if (sameTable) return toggleHidden(sameTable, collapse);//If the rows that need to be hidden or displayed is provided, we will jumb to the toggleHidden() step directly and will return
-
   if (localStorage.displayMode === displayModes[1]) return; //When we are in the 'Presentation' display mode, the titles sibligins are not hidden when we click the title div
 
+  if (!titleRow?.dataset.group) return;
 
-  (function processSameTable() {
-    if (!titleRow.dataset.group) return;
+  if (sameTable && titlesRows) return toggleHidden(sameTable, isCollapsed, titlesRows);//If the rows that need to be hidden or displayed is provided, we will jumb to the toggleHidden() step directly and will return
+  else sameTable =
+    Array.from(containerDiv.querySelectorAll('div') as NodeListOf<HTMLDivElement>)
+      //!We must use querySelectorAll because some elements are not direct children of containerDiv (e.g. they may be nested in an expandable element)
+      .filter(div => div?.children?.length > 0) //!We exclude rows with no children (those are always hidden and we never toggle their 'hidden' cssClass )
+      .filter(div => div?.dataset?.group)
+      .filter(div => div.dataset.group === titleRow.dataset.group);
 
-    (function setIsCollapsed() {
-      if (collapse === true) {
-        titleRow.dataset.isCollapsed = "true";
-      } else if (collapse === false) {
-        titleRow.dataset.isCollapsed = "false";
-      } else {
-        //In this case we will toggle the isCollapsed status
-        if (titleRow.dataset.isCollapsed === 'true')
-          titleRow.dataset.isCollapsed = "false";
-        else if (titleRow.dataset.isCollapsed === 'false')
-          titleRow.dataset.isCollapsed = "true";
-      }
+  if (!sameTable) return;
+
+  (function processTitleRow() {
+    const titlesRows = sameTable.filter((div) => isTitlesContainer(div));
+
+    const index = sameTable.indexOf(titleRow);
+
+    (function isFirstRow() {
+      if (index > 0) return;
+      toggleHidden(sameTable, isCollapsed, [titleRow]);//!Since this is the 1st row in the table, it will collapse or expand the entire table (including the subtitles). Notice that for the "TitlesRows" argument we are passing an array containing only titleRow. This means that the "hidden" class of the other title divs will be toggelled like any other non-title div.
+      
     })();
 
-    togglePlusAndMinusSignsForTitles(titleRow);
-
-    sameTable =
-      Array.from(container.querySelectorAll('div') as NodeListOf<HTMLDivElement>)
-        //!We must use querySelectorAll because some elements are not direct children of containerDiv (e.g. they may be nested in an expandable element)
-        .filter(div => div?.dataset?.group)
-        .filter(div => div?.children?.length > 0) //We exclude rows with no children (those are PlaceHolders)
-        .filter(div => div.dataset.group === titleRow.dataset.group);
-
-    const titlesRows = sameTable
-      .filter((div) => isTitlesContainer(div))
-      .filter(div => div?.dataset?.root !== titleRow?.dataset?.root);//!We must remove any title row having the same datasetRoot as titleRow. If we don't, it means that we will again and agin get all the rows with the same dataset-root (which may include titleRow itself when the other titles will be passed). This will toggel the hidden class of all these rows again each time the function is called for the titles rows of the same table
-
-    titlesRows.length < 2 ?
-      sameTable = sameTable //There is only 1 title for the same dataset.group (which is mostly the case)
-      :
-      sameTable = sameDataRoot(sameTable, titleRow.dataset.root);//There are more than 1 title with the same dataset.group attribute. In this case, each titleRow will only hide the divs sharing the same dataset.root (not the same dataset.group because otherwise, all the other titles and their children will be affected)
-
-    toggleHidden(sameTable.filter(div => div !== titleRow), titleRow.dataset.isCollapsed === 'true');//! We must remove titleRow from sameTable because otherwise it might get the 'hidden' class added to it by toggleHidden()
-
-    (function processOtherTitles() {
-      if (titlesRows.indexOf(titleRow) > 0) return; //If there are more than one title sharing the same dataset.group, and titleRow is the first amongst those titles, we will toggle the 'hidden' class for all the other titles.
-
-      titlesRows
-        .filter(div => div !== titleRow)//! We must exclude titleRow because otherwise will again pass its "bound rows" to toglleHidden() which will again toglle their 'hidden' class (this was already done above!). Besides, titleRow itself might receive the 'hidden' class, which is undesirable since title rows must always remain visible
-        .forEach(titleDiv => {
-          const sameRoot = sameDataRoot(sameTable, titleDiv.dataset.root).filter(div => div !== titleDiv);//!We remove the titleDiv itself to avoid getting the 'hidden' class added to it by toggleHidden()
-          collapseOrExpandText(undefined, titleRow.dataset.isCollapsed === 'true', sameRoot)
-        });
-
+    (function isNotFirstRow() {
+      if (index < 1) return;
+      const sameRoot = sameTable.filter(row => row?.dataset?.root === titleRow.dataset.root);//We will retrieve only those rows having the same dataset.root as the titleRow. Only those divs will hidden or displayed
+  
+      collapseOrExpandText(titleRow, isCollapsed, sameRoot, titlesRows);//In this case, the title div toggles the "hidden" class only for the divs having the same dataset.root 
+      
     })();
-
-    function sameDataRoot(rows: HTMLDivElement[], dataRoot: string) {
-      return rows.filter(row => row?.dataset?.root === dataRoot);
-    }
   })();
 
-  function toggleHidden(htmlElements: HTMLElement[], isCollapsed: Boolean) {
-    htmlElements
+  function toggleHidden(rows: HTMLDivElement[], isCollapsed: Boolean, titlesRows: HTMLDivElement[]) {
+    (function toggleIsCollapsed() {
+      titleRow.dataset.isCollapsed = `${isCollapsed}`;
+      togglePlusAndMinusSignsForTitles(titleRow, isCollapsed);
+    })();
+    rows
       .forEach(div => {
+        if (isTitlesContainer(div))
+        togglePlusAndMinusSignsForTitles(div, isCollapsed);
+      
+        if (titlesRows.includes(div)) return;//We never hide a row with class css.Title or css.Sutbitle, they must remain displayed
+        
         if (isCollapsed && !div.classList.contains(css.hidden))
           div.classList.add(css.hidden);
         else if (!isCollapsed && div.classList.contains(css.hidden))
@@ -1808,8 +1798,9 @@ function collapseOrExpandText(
  * @param {HTMLElement} titleRow - the html element (usually a div with class 'Title') that we wqnt to toggle the minus or plus signs according to whether the text is collapsed or not
  * @returns
  */
-async function togglePlusAndMinusSignsForTitles(
-  titleRow: HTMLElement
+function togglePlusAndMinusSignsForTitles(
+  titleRow: HTMLElement,
+  collapsed?:Boolean
 ) {
   if (!titleRow.children) return;
   let parag: HTMLElement;
@@ -1819,10 +1810,12 @@ async function togglePlusAndMinusSignsForTitles(
       child?.innerHTML.startsWith(minusSign)
   )[0] as HTMLElement;
   if (!parag) return;
-  if (titleRow.dataset.isCollapsed === 'false') {
-    parag.innerHTML = parag.innerHTML.replace(plusSign,minusSign);
-  } else if (titleRow.dataset.isCollapsed === 'true') {
-    parag.innerHTML = parag.innerHTML.replace(minusSign, plusSign);
+  if (collapsed !== undefined) return replaceSign(collapsed);
+  else replaceSign(eval(titleRow.dataset.isCollapsed));
+
+  function replaceSign(collapse:Boolean) {
+    if(collapse) parag.innerHTML = parag.innerHTML.replace(minusSign, plusSign)
+    else parag.innerHTML= parag.innerHTML.replace(plusSign, minusSign);
   }
 }
 
@@ -1865,8 +1858,9 @@ function selectElementsByDataSet(
   dataSetName: string = 'root',
 ): HTMLDivElement[] {
   dataSetName = 'data-' + dataSetName;
+  if (dataSetName === 'root') dataSet = dataSet.replace(/\d+$/, '');//We remove any numbers that would have been added at the end of the "dataset-root"
 
-  let children = Array.from(container?.querySelectorAll("div"))?.filter(
+  const children = Array.from(container?.querySelectorAll("div"))?.filter(
     (div) => div?.attributes[dataSetName]
   ) as HTMLDivElement[];
   if (!children) return;
@@ -1879,6 +1873,16 @@ function selectElementsByDataSet(
     return children.filter((div) => div?.attributes[dataSetName]?.value.startsWith(dataSet));
   else if (options.endsWith)
     return children.filter((div) => div?.attributes[dataSetName]?.value.endsWith(dataSet));
+}
+
+function findAnchor(title: string, container: HTMLElement | DocumentFragment = containerDiv, dataSet: string = 'root') {
+  if (!title.startsWith(Prefix.anchor))
+    return selectElementsByDataSet(container, title, undefined, dataSet)?.[0];
+
+  dataSet = 'data-' + dataSet;
+  return Array.from(container?.querySelectorAll("div"))
+    ?.filter((div) => div.dataset.anchor)
+    .find((div) => div.dataset.anchor === title);
 }
 
 
@@ -1926,35 +1930,32 @@ function findTable(
 ): string[][] | void {
   if (!prayersArray) prayersArray = getArrayFromPrefix(tableTitle);
   if (!prayersArray) return console.log("No prayers Array", tableTitle);
-  let table: string[][];
-  if (regExp)
-    table = prayersArray.find(
-      (tbl) => Title(tbl) && RegExp(tableTitle).test(splitTitle(Title(tbl))[0])
-    );
-  else if (options.equal)
-    table = prayersArray.find(
-      (tbl) => Title(tbl) && splitTitle(Title(tbl))[0] === tableTitle
-    );
-  else if (options.startsWith)
-    table = prayersArray.find(
-      (tbl) => splitTitle(Title(tbl))[0]?.startsWith(tableTitle)
-    );
-  else if (options.endsWith)
-    table = prayersArray.find(
-      (tbl) => splitTitle(Title(tbl))[0]?.endsWith(tableTitle)
-    );
-  else if (options.includes)
-    table = prayersArray.find(
-      (tbl) => splitTitle(Title(tbl))[0]?.includes(tableTitle)
-    );
 
-  if (!table)
-    return console.log(
-      "no table with the provided title was found : ",
-      tableTitle
-    );
+  return find() || console.log(`No table with ${tableTitle} was found`);
 
-  return table;
+  function find() {
+    if (regExp)
+      return prayersArray.find(
+        (tbl) => RegExp(tableTitle).test(splitTitle(Title(tbl))?.[0])
+      );
+    else if (options.equal)
+      return prayersArray.find(
+        (tbl) => splitTitle(Title(tbl))?.[0] === tableTitle
+      );
+    else if (options.startsWith)
+      return prayersArray.find(
+        (tbl) => splitTitle(Title(tbl))?.[0]?.startsWith(tableTitle)
+      );
+    else if (options.endsWith)
+      return prayersArray.find(
+        (tbl) => splitTitle(Title(tbl))?.[0]?.endsWith(tableTitle)
+      );
+    else if (options.includes)
+      return prayersArray.find(
+        (tbl) => splitTitle(Title(tbl))?.[0]?.includes(tableTitle)
+      );
+
+  }
 }
 
 
@@ -2598,33 +2599,33 @@ function setGridColumnsOrRowsNumber(
 }
 
 /**
- * Loops the tables (i.e., the string[][]) of a string[][][] and, for each row (string[]) of each table, it inserts a div adjacent to an html child element to containerDiv
- * @param {string[][][]} tables - an array of arrays, each array represents a table in the Word document from which the text was retrieved
- * @param {string[]} languages - the languages in which the text is available. This is usually the "languages" properety of the button who calls the function
- * @param {{beforeOrAfter:InsertPosition, el: HTMLElement}} position - the position at which the prayers will be inserted, adjacent to an html element (el) in the containerDiv
- * @returns {HTMLElement[]} - an array of all the html div elements created and appended to the containerDiv
+ * Inserts each table in the tables array before or after the html div anchor and sets the dataset.group of the created html divs same as the dataset.group of the anchor 
+ *  @param {string[][][]} tables - an array of arrays, each array represents a table in the Word document from which the text was retrieved
+ * @param {Element | HTMLElement} anchor - the html element before or after which which the prayers will be inserted, adjacent to an html element (el) in the containerDiv
+ * @param {HTMLElement | DocumentFragment} container - the html element to which the anchor is appended as child
+ * @param {string[]} langs - the languages in which the text is available. This is usually the "languages" properety of the button who calls the function
+ * @param {InsertPosition} before - Where to insert the tables in relation to the anchor (beofre begin, after end etc). Its default value is "beforebegin"
+ * @returns {HTMLDivElement[][]} - an array of all the html div elements created and appended to the container
  */
-function insertAdjacentToHtmlElement(args: {
-  tables: string[][][];
-  languages?: string[];
-  position: { beforeOrAfter: InsertPosition; el: HTMLElement };
-  container: HTMLElement | DocumentFragment;
-}): HTMLDivElement[][] {
-  if (!args.tables) return;
-  if (!args.container) args.container = containerDiv;
+function insertTablesBeforeAnchor(tables: string[][][], anchor: Element | HTMLElement, langs?: string[], before: InsertPosition = 'beforebegin') {
+  if (!tables || !anchor || !before) return [];
 
-  return args.tables
-    .map((table) => {
-      if (!table || table.length < 1) return;//We return an empty array in order to avoid having "void" elements included in the array that will be returned by the function
-      return showPrayers({
-        table: table,
-        position: args.position,
-        languages: args.languages || getLanguages(Title(table)),
-        container: args.container,
-        clearRightSideBar: false,
-        clearContainerDiv: false,
-      }) || [];//If showPrayers() returns "void", we replace it with an empty array in order to avoid having "void" elements included in the array that will be returned by the function
+  const htmlDivs =
+    tables
+      .filter(table => table?.length > 0)
+      .map((table) => {
+        return showPrayers({
+          table: table,
+          position: {beforeOrAfter: before, el:anchor as HTMLElement},
+          languages: langs || getLanguages(Title(table)),
+          clearRightSideBar: false,
+          clearContainerDiv: false,
+        }) || [];//If showPrayers() returns "void", we replace it with an empty array in order to avoid having "void" elements included in the array that will be returned by the function
     });
+
+  htmlDivs.forEach(group =>
+    group.forEach(div => div.dataset.group = (anchor as HTMLElement).dataset.group))//We give the created divs the same dataset.group as the table in which the anchor is included in order to make them part of the same table under the same title
+  return htmlDivs
 }
 /**
  * Converts an group of html div elements each representing a row in the same table (i.e., the group of divs reprsents the entire table), into a string[][] each element represents a row of the table, and each element of each row, represents the text in a given cell of this row
@@ -2755,6 +2756,13 @@ function populatePrayersArrays() {
  */
 function splitTitle(title: string): string[] {
   return title?.split(Prefix.class) || ["", ""];
+}
+/**
+ * Returns the actor class resulting from css.split('&C=')[1]
+ * @param {string} css - a string including '&C='
+ */
+function getActor(css: string): string {
+  return css?.split(Prefix.class)[1] || css;
 }
 
 
@@ -2942,7 +2950,7 @@ async function firstLetter() {
  * @return {boolean} returns true if the html element has any of the titel classes
  */
 function isTitlesContainer(htmlRow: HTMLElement): string {
-  return hasClass(htmlRow, [css.Title, css.SubTitle].map(css => splitTitle(css)[1]));
+  return hasClass(htmlRow, [css.Title, css.SubTitle].map(css => getActor(css)));
 }
 
 /**
@@ -2961,7 +2969,7 @@ function hasClass(htmlRow: HTMLElement | Element, classList: string[]) {
  * @param {HTMLDivElement} htmlRow - the html element that we want to check if it has any of the classes related to comments
  */
 function isCommentContainer(htmlRow: HTMLDivElement | Element): string {
-  return hasClass(htmlRow, [css.Comment, css.CommentText].map(css => splitTitle(css)[1]));
+  return hasClass(htmlRow, [css.Comment, css.CommentText].map(css => getActor(css)));
 }
 
 /**
