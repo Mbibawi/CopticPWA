@@ -5125,7 +5125,7 @@ ReadingsArrays.GospelNightArrayFR = [
     [
         [
             Prefix.HolyWeek + "9HMGospel&D=" + copticFeasts.HolyThursday,
-            "Ⲙⲁⲧⲑⲉⲟⲛ Ⲕⲉⲫ ⲕ̅:̅ ⲓ̅ⲍ̅-ⲓ̅ⲑ̅",
+            "",
             "Evangile de la Neuvième heure du jeudi\nMatthieu (26: 17-19)",
             "إنجيل الساعة التاسعة من يوم الخميس\nمتى (٢٦: ١٧-١٩)",
         ],
@@ -5268,7 +5268,27 @@ ReadingsArrays.GospelNightArrayFR = [
             "",
             "",
         ],
-        [Prefix.readingRef + "JOS:1:1-End/3:1-17" + css.Diacon],
+        [Prefix.readingRef + "JOS:1:1-1/3:17-17" + css.Diacon],
+        [Prefix.same + css.Title, "Esaïe 4 : 2-4"],
+        [
+            Prefix.same + css.Intro,
+            "Ⲉⲃⲟⲗϧⲉⲛ Ⲏ̀ⲥⲁⲏ̀ⲁⲥ ⲡⲓⲡⲣⲟⲫⲏⲧⲏⲥ: ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̅ⲑ̅ⲩ̅ : ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ ",
+            "",
+            "",
+        ],
+        [
+            Prefix.same + css.Intro,
+            "Ⲑⲉⲛ ⲡⲓⲉ̀ϩⲟⲟⲩ ⲇⲉ ⲉ̀ⲧⲉ ⲙ̀ⲙⲁⲩ ϥ̀ⲛⲁⲉⲣⲟⲩⲱⲓⲛⲓ ⲛ̀ϫⲉ Ⲫⲛⲟⲩϯ ϧⲉⲛ ⲟⲩⲥⲟϭⲛⲓ ⲛⲉⲙ ⲟⲩⲱ̀ⲟⲩ ϩⲓϫⲉⲛ ⲡⲓⲕⲁϩⲓ.",
+            "",
+            "",
+        ],
+        [
+            Prefix.same + css.Intro,
+            "Ⲟⲩⲱ̀ⲟⲩ ⲛ̀Ϯⲧ̀ⲣⲓⲁⲥ ⲉ̀ⲑⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ : ϣⲁ ⲉ̀ⲛⲉϩ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ⲛⲉϩ ⲧⲏⲣⲟⲩ : ⲁ̀ⲙⲏⲛ.",
+            "",
+            "",
+        ],
+        [Prefix.readingRef + "ISA:4:2-4" + css.Diacon],
         [Prefix.same + css.Title, "Esaïe 55 : 1 - 56 : 1"],
         [
             Prefix.same + css.Intro,
@@ -5278,7 +5298,7 @@ ReadingsArrays.GospelNightArrayFR = [
         ],
         [
             Prefix.same + css.Intro,
-            "Ⲛⲏⲉⲧⲟ̀ⲃⲓ ⲙⲁϣⲉⲛⲱⲧⲉⲛ ⲛ̀ⲥⲁ ⲙⲱⲟⲩ ⲟⲩⲟ ⲛⲏⲉ̀ⲧⲉ ⲙ̀ⲙⲟⲛⲧⲟⲩ ⲁⲧ ⲙⲁϣⲉⲛⲱⲧⲉⲛ ϣⲱⲡ ⲟⲩⲟ ⲥⲱ ⲛ̀ⲟⲩⲉϣⲉⲛ ⲁⲧ ⲟⲩⲟ ⲟⲩⲥⲟⲩⲉⲛ ⲟⲩⲏⲣⲡ ⲟⲩⲟ ⲟⲩⲱⲧ. ",
+            "Ⲛⲏⲉⲧⲟ̀ⲃⲓ ⲙⲁϣⲉⲛⲱⲧⲉⲛ ⲛ̀ⲥⲁ ⲙⲱⲟⲩ ⲟⲩⲟϩ ⲛⲏⲉ̀ⲧⲉ ⲙ̀ⲙⲟⲛⲧⲟⲩ ϩⲁⲧ ⲙⲁϣⲉⲛⲱⲧⲉⲛ ϣⲱⲡ ⲟⲩⲟϩ ⲥⲱ ⲛ̀ⲟⲩⲉϣⲉⲛ ϩⲁⲧ ⲟⲩⲟϩ ⲟⲩⲥⲟⲩⲉⲛ ⲟⲩⲏⲣⲡ ⲟⲩⲟϩ ⲟⲩⲱⲧ.",
             "",
             "",
         ],
@@ -5289,6 +5309,26 @@ ReadingsArrays.GospelNightArrayFR = [
             "",
         ],
         [Prefix.readingRef + "ISA:55 :1-End/56:1-1" + css.Diacon],
+        [Prefix.same + css.Title, "Ezéchiel 36 : 25-29"],
+        [
+            Prefix.same + css.Intro,
+            "Ⲉⲃⲟⲗϧⲉⲛ Ⲓⲉⲍⲉⲕⲓⲏⲗ ⲡⲓⲡⲣⲟⲫⲏⲧⲏⲥ : ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̅ⲑ̅ⲩ̅ : ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ ",
+            "",
+            "",
+        ],
+        [
+            Prefix.same + css.Intro,
+            "Ⲛⲁⲓ ⲛⲉ ⲉ̀ⲧⲁϥϫⲱ ⲙ̀ⲙⲱⲟⲩ ⲛ̀ϫⲉ Ⲡ⳪ Ⲫⲛⲟⲩϯ ϫⲉ ϯⲛⲁⲧⲁⲛⲟⲩϫϧ ⲉ̀ϫⲉⲛ ⲑⲏⲛⲟⲩ ⲛ̀ⲟⲩⲙⲱⲟⲩ ⲉϥⲥⲱⲧⲡ ⲉⲣⲉⲧⲉⲛⲉⲣⲕⲁⲑⲁⲣⲓ’ⲝⲓⲛ",
+            "",
+            "",
+        ],
+        [
+            Prefix.same + css.Intro,
+            "Ⲟⲩⲱ̀ⲟⲩ ⲛ̀Ϯⲧ̀ⲣⲓⲁⲥ ⲉ̀ⲑⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ : ϣⲁ ⲉ̀ⲛⲉϩ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ⲛⲉϩ ⲧⲏⲣⲟⲩ : ⲁ̀ⲙⲏⲛ.",
+            "",
+            "",
+        ],
+        [Prefix.readingRef + "EZK:36:25-29" + css.Diacon],
         [Prefix.same + css.Title, "Ezéchiel 47 : 1-9"],
         [
             Prefix.same + css.Intro,
@@ -5311,7 +5351,7 @@ ReadingsArrays.GospelNightArrayFR = [
         [Prefix.readingRef + "EZK:47:1-9" + css.Diacon],
     ],
     [
-        [Prefix.HolyWeek + "LakanSermony"],
+        [Prefix.HolyWeek + "LakanSermony1"],
         [
             Prefix.same + css.Intro,
             "Ⲟⲩⲕⲁⲧⲏⲭⲏⲥⲓⲥ ⲛ̀ⲧⲉ ⲡⲉⲛⲓⲱⲧ ⲉ̀ⲑⲟⲩⲁⲃ ⲁⲃⲃⲁ Ϣⲉⲛⲟⲩϯ ⲡⲓⲁ̀ⲣⲭⲏⲙⲁⲛⲇ̀ⲣⲓⲧⲏⲥ ⲉ̀ⲣⲉ ⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̀ⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ",
@@ -5345,7 +5385,7 @@ ReadingsArrays.GospelNightArrayFR = [
     ],
     [
         [
-            Prefix.HolyWeek + "LakkanSermony&D=" + copticFeasts.HolyThursday,
+            Prefix.HolyWeek + "LakanSermony2",
         ],
         [
             Prefix.same + css.Intro,
@@ -7954,61 +7994,5 @@ ReadingsArrays.GospelNightArrayFR = [
             "فوضعوا جسد الوحيد في ذلك القبر وتركوا حجراً عليه. فاستراحوا كالوصية من أجل السبت صنعوا هكذا. وكن نسوة واقفات ينظرن ما كان. مريم المجدلية ومريم الأخرى علمن جيدا أين وضع.",
         ],
     ],
-    [
-        [Prefix.HolyWeek + "12HMGolghosaHymn&D=" + copticFeasts.HolyFriday + css.Title],
-        [
-            Prefix.same + css.Diacon,
-            "ⲇⲅϪⲟⲗⲅⲟⲑⲁ ⲙ̀ⲙⲉⲧ ϩⲉⲃⲣⲉⲟⲥ : ⲡⲓⲕ̀ⲣⲁⲛⲓⲟⲛ ⲙ̀ⲙⲉⲧⲟⲩⲉⲓⲛⲓⲛ : ⲡⲓⲙⲁⲉⲧⲁⲩⲁϣⲕ Ⲡⲟ̅ⲥ̅ ⲛ̀ϧⲏⲧϥ : ⲁⲕⲫⲱⲣϣ ⲛ̀ⲛⲉⲕϫⲓϫ ⲉ̀ⲃⲟⲗ ⲁϥⲓ̀ϣⲓ ⲛⲉⲙⲁⲕ ⲛ̀ⲕⲉⲥⲟⲛⲓ ⲥ̀ⲛⲁⲩ : ⲥⲁⲧⲉⲕⲟⲩⲓ̀ⲛⲁⲙ ⲛⲉⲙ ⲥⲁⲧⲉⲕϫⲁⲧϭⲏ : ⲛ̀ⲑⲟⲕ ⲉⲕⲭⲏ ϧⲉⲛ ⲧⲟⲩⲙⲏϯ ⲱ̀ ⲡⲓⲥⲱⲧⲏⲣ ⲛ̀ⲁⲅⲁⲑⲟⲥ.",
-            "Le Golgotha en hébreu, le Lieu du Crâne en grec, ce lieu où Tu as été crucifié Seigneur. Tu as étendu tes mains. Et ils crucifièrent avec Toi 2 larrons : à Ta droite et à Ta gauche, et Toi en leur milieu, ô bon Sauveur.",
-            "غولغوثا إمميت هيفرى أوش : بي إكرانيون إمميت أو إينين : بي ما إيطاف أشك إبشويس إنخيتف : أك فورش إن نيك جيج إيفول : أف إيشي نيماك إن كي سوني إسناف صا تيك أوي نام نيم صا تيك جاتشي : إنثوك إك كي خين توميتي أو بي سوتير إن آغاثوس.",
-        ],
-        [
-            Prefix.same + css.Diacon,
-            "Ⲇⲟⲍⲁ Ⲡⲁⲧⲣⲓ ⲕⲉ Ⲩⲓⲱ ⲕⲉ ⲁ̀ⲅⲓⲱ̀ ϮⲠⲛⲉⲩⲙⲁⲧⲓ.",
-            "Gloire au Père, au Fils et au Saint-Esprit",
-            "المجد للآب والابن والروح القدس.",
-        ],
-        [
-            Prefix.same + css.Diacon,
-            "Ⲁϥⲱϣ ⲉ̀ⲃⲟⲗ ⲛ̀ϫⲉ ⲡⲓⲥⲟⲛⲓ : ⲉⲧⲥⲁⲟⲩⲓ̀ ⲛⲁⲙ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ : ϫⲉ ⲁ̀ⲣⲓⲡⲁⲙⲉⲩⲓ̀ ⲱ Ⲡⲁⲟ̅ⲥ̅ : ⲁ̀ⲣⲓⲡⲁⲙⲉⲩⲓ̀ ⲱ Ⲡⲁⲥⲱⲧⲏⲣ : ⲁ̀ⲣⲓⲡⲁⲙⲉⲩⲓ̀ ⲱ Ⲡⲁⲟⲩⲣⲟ : ⲁⲕϣⲁⲛⲓ̀ ϧⲉⲛ ⲧⲉⲕⲙⲉⲧⲟⲩⲣⲟ : ⲁϥⲉ̀ⲣⲟⲩⲱ ⲛⲁϥ ⲛ̀ϫⲉ Ⲡⲟ̅ⲥ̅ : ϧⲉⲛ ⲟⲩⲥ̀ⲙⲏ ⲙ̀ⲙⲉⲧⲣⲉⲙⲣⲁⲩϣ : ϫⲉ ⲙ̀ⲫⲟⲟⲩ ⲉⲕ ⲉ̀ϣⲱⲡⲓ ⲛⲉⲙⲏⲓ : ⲛ̀ϩ̀ⲣⲏⲓ ϧⲉⲛ ⲧⲁⲙⲉⲧⲟⲩⲣⲟ.",
-            "Alors le larron à Ta droite s'est écrié en disant : souviens-Toi de moi Seigneur, souviens-Toi de moi ô mon Sauveur, souviens-Toi de moi ô mon Roi quand Tu viendras dans Ton royaume. Le Seigneur lui répondit avec une voix douce : Aujourd'hui tu seras avec moi dans mon royaume.",
-            "أف أوش إيفول إنجى بي سوني : إتصا أوي نام إفجو إمموس : جى آري با ميفئي أو باشويس : أري باميفئي أو باسوتير : أري باميفئي أو با أورو. أكشان إي خين تيك ميت أور : أف إير أوناف إنجى إبشويس خين إو إثمي إمميت ريم رافش جى إمفوأو إك إيشوبي نيمي إن إهري خين تا ميت أورو.",
-        ],
-        [
-            Prefix.same + css.Diacon,
-            "Ⲕⲉ ⲛⲩⲛ ⲕⲉ ⲁ̀ⲓ̀ ⲕⲉ ⲓⲥⲧⲟⲩⲥ ⲉ̀ⲱⲛ̀ⲁⲥ ⲧⲱⲛ ⲉ̀ⲱ̀ⲛⲱⲛ ⲁ̀ⲙⲏⲛ.",
-            "Maintenant et toujours et pour les siècles des siècles, amen.",
-            "الآن وكل اوان والى دهر الدهور. آمين.",
-        ],
-        [
-            Prefix.same + css.Diacon,
-            "Ⲁⲩⲓ̀ ⲛ̀ϫⲉ ⲛⲓⲇⲓⲕⲉⲟⲥ : Ⲓⲱⲥⲏⲫ ⲛⲉⲙ Ⲛⲓⲕⲟⲇⲏⲙⲟⲥ : ⲁⲩϭⲓ ⲛ̀ⲧ̀ⲥⲁⲣⲍ ⲛ̀ⲧⲉ Ⲡⲭ̅ⲥ̅ : ⲁⲩϯ ⲛ̀ⲟⲩⲥⲟϫⲉⲛ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱϥ : ⲁⲩⲕⲟⲥϥ ⲁⲩⲭⲁϥ ϧⲉⲛ ⲟⲩⲙ̀ϩⲁⲩ : ⲉⲩϩⲱⲥ ⲉⲣⲟϥ ⲉⲩϫⲱ ⲙ̀ⲙⲟⲥ : ϫⲉ ⲁ̀ⲅⲓⲟⲥ ⲟ̀ Ⲑⲉⲟⲥ : ⲁ̀ⲅⲓⲟⲥ ⲓⲥⲭⲩⲣⲟⲥ : ⲁ̀ⲅⲓⲟⲥ ⲁ̀ⲑⲁⲛⲁⲧⲟⲥ : ⲟ̀ ⲥ̀ⲧⲁⲩⲣⲱⲑⲓⲥ ⲇⲓⲏ̀ⲙⲁⲥ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ ⲏ̀ⲙⲁⲥ.",
-            "Les deux justes : Joseph et Nicodème ont pris le Corps du Christ, l'ont recouvert d'aromates, l'ont enseveli, en le louant et en disant : Dieu Saint, Saint fort, Saint éternel, qui a été crucifié pour nous, aie pitié de nous.",
-            "أف إي إنجى ني ذيكيئوس يوسف نيم نيقوديموس : أف تشي إن إتصاركس إنتى بخرستوس أفتي أن أو سوجين إى إهري إيجوف أفكوسف أفكاف خين بي إمهاف. إف هوس إيروف إفجو إمموس. جى آجيوس أو ثيئوس : آجيوس إس شيروس آجيوس آثاناطوس. أو إسطافروتيس ديماس إليسون إيماس.",
-        ],
-        [
-            Prefix.same + css.Diacon,
-            "Ⲇⲟⲍⲁ Ⲡⲁⲧⲣⲓ ⲕⲉ Ⲩⲓⲱ ⲕⲉ ⲁ̀ⲅⲓⲱ̀ ϮⲠⲛⲉⲩⲙⲁⲧⲓ.",
-            "Gloire au Père, au Fils et au Saint-Esprit",
-            "المجد للآب والابن والروح القدس.",
-        ],
-        [
-            Prefix.same + css.Diacon,
-            "Ⲕⲉ ⲛⲩⲛ ⲕⲉ ⲁ̀ⲓ̀ ⲕⲉ ⲓⲥⲧⲟⲩⲥ ⲉ̀ⲱⲛ̀ⲁⲥ ⲧⲱⲛ ⲉ̀ⲱ̀ⲛⲱⲛ ⲁ̀ⲙⲏⲛ.",
-            "Maintenant et toujours et pour les siècles des siècles, amen.",
-            "الآن وكل اوان والى دهر الدهور. آمين.",
-        ],
-        [
-            Prefix.same + css.Diacon,
-            "Ⲁⲛⲟⲛ ϩⲱⲛ ⲙⲁⲣⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟϥ : ⲉⲛⲱϣ ⲉ̀ⲃⲟⲗ ⲉⲛϫⲱ ⲙ̀ⲙⲟⲥ : ϫⲉ ⲛⲁⲓ ⲛⲁⲛ Ⲫϯ Ⲡⲉⲛⲥⲱⲧⲏⲣ : ⲫⲏⲉ̀ⲧⲁⲩⲁϣϥ ⲉ̀ⲡⲓⲥ̀ⲧⲁⲩⲣⲟⲥ : ⲉⲕⲉ̀ϧⲟⲙϧⲉⲙ ⲙ̀ⲡ̀ⲥⲁⲧⲁⲛⲁⲥ : ⲥⲁⲡⲉⲥⲏⲧ ⲛ̀ⲛⲉⲛϭⲁⲗⲁⲩϫ.",
-            "Et nous aussi prosternons-nous devant Lui en clamant et en disant : Aie pitié de nous ô Dieu notre Sauveur qui a été crucifié, écrase satan sous nos pieds.",
-            "آنون هون مارين أو أوشت إمموف : إن أوش إيفول إنجو إمموس : جى ناي نان إفنوتي بين سوتير. في إيطاف أشف إى بي إسطافروس : إك إيخوم خيم إم إبصاطاناس صابيسيت إننين إتشالافج.",
-        ],
-        [
-            Prefix.same + css.Diacon,
-            "Ⲁⲕϭⲓ",
-            "Sauve nous et aie pitié de nous",
-            "خلصنا وإرحمنا",
-        ],
-    ],
+
 ];

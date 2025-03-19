@@ -751,11 +751,11 @@ function processArrayTextForJsFile(
 function replacePrefixes(text: string, arrayName: string): string {
   let prefix: string;
   Object.entries(Prefix).forEach((entry) => {
-    prefix = "Prefix." + entry[0];
+    prefix = `Prefix.${entry[0]}`;
 
     if (entry[1] === Prefix.placeHolder)
-      text = text.replaceAll('"' + eval(prefix) + '"', prefix);//This is because element [0] of PlaceHoler row is the prefix without any other thing. It thus ends with (") that we neeed to remove
-    else text = text.replaceAll('"' + eval(prefix), (prefix += '+"'));
+      text = text.replaceAll(`"${eval(prefix)}"`, prefix);//This is because element [0] of PlaceHoler row is the prefix without any other thing. It thus ends with (") that we neeed to remove
+    else text = text.replaceAll(`"${eval(prefix)}`, (`${prefix} + "`));
   });
 
   replaceClass(text);
@@ -10623,6 +10623,161 @@ function _testReadings() {
   console.save(result, "testReadings Result.doc");
 
   changeDate(new Date());
+}
+
+async function _testBibleReferences() {
+  addConsoleSaveMethod(console);
+  const Readings = {
+    GospelMorning:ReadingsArrays.GospelMorningArrayFR,
+    GospelMass:ReadingsArrays.GospelMassArrayFR,
+    GospelVespers:ReadingsArrays.GospelVespersArrayFR,
+    GospelNight:ReadingsArrays.GospelNightArrayFR,
+    StPaul:ReadingsArrays.StPaulArrayFR,
+    catholicon:ReadingsArrays.CatholiconArrayFR,
+    praxis:ReadingsArrays.PraxisArrayFR,
+    Synaxarium:ReadingsArrays.SynaxariumArrayFR,
+    Prophecies:ReadingsArrays.PropheciesDawnArrayFR,
+  };
+
+  const result = await Promise.all(
+    Object.entries(Readings)
+    .map(([name, array]) => {
+      array.map(async table => {
+        const rows = table.filter(row => row[0]?.startsWith(Prefix.readingRef));
+        const text = await retrieveFromBible(rows, ['AR', 'FR'], name);
+        return text.join('\n');
+
+      });
+
+    }));
+    //@ts-ignore
+  console.save(result, "testBibleReferences Result.doc");
+  
+  async function retrieveFromBible(reading: string[][], langs: string[], arrayName:string): Promise<string[][]> {
+    langs = langs?.filter(lang => lang);
+    const rowsWithReferences = reading
+      .filter(row => row?.find(el => el?.startsWith(Prefix.readingRef)));//We check of any of the table's rows has an element starting with Prefix.readingRef: this means this element is a reference for a text that we need to retrieve from the relevant bible
+  
+    const retrieved = [];
+
+    for (const row of reading) {
+        retrieved.push(...await retrieveTextFromReference(row) || '');
+      }
+  
+    return retrieved;
+  
+    async function retrieveTextFromReference(row: string[]): Promise<any> {
+      if (!row || row.length !== 1) {
+        return `Failed to retrieve verses because the row is either empty or contains more than one element. row = ${row}, arrayName = ${arrayName}`;
+      }
+  
+      const retrievedText: string[] = [];
+  
+      let [ref, actor] = splitTitle(row[0]);//splitted[0] is the reference, and splitted[1] is the class (if any)
+  
+      ref = cleanReference(ref);//We clean the reference from the prefix and the spaces
+  
+      for (const lang of langs) {
+        //!We can't use forEach because forEach doesn't await for async functions to resolve. It throughs a promise
+        retrievedText.push(await retrieveVerses(lang, ref));//The row contains only the reference with no other text
+      }
+  
+    }
+  
+    async function retrieveVerses(lang: string, ref: string): Promise<string> {
+             
+      const bookID = ref.split(':')[0];
+  
+      const refs = ref.split('/');
+  
+      const text =
+        await Promise.all(refs.map(async ref => {
+          const [chapterNumber, versesRange] = ref.replace(`${bookID}:`, '').split(':');
+          if (!chapterNumber || !versesRange) return `Failed to retrieve verses because either the chapterNumber or the versesRange could not be extracted from the reading reference. lang = ${lang}, bookID = ${bookID}, chapter = ${chapterNumber}, versesRange = ${versesRange}, ref = ${ref}, arrayName = ${arrayName}`;	 
+  
+          await Promise.all(
+            versesRange
+              .split('/')
+              .map(async range => {
+                range = replaceEnd(range, chapterNumber, lang);//We replace 'End' with the last verse in the Arabic version since the references are taken from the Arabic version of the 
+                return await retrieveVersesText(lang, bookID, chapterNumber, range) || `Failed to retrieve verses text. lang = ${lang}, bookID = ${bookID}, chapter = ${chapterNumber}, range = ${range}, ref = ${ref}, arrayName = ${arrayName}`;
+              }));
+  
+        }));
+  
+      return text.join('\n');
+  
+      function replaceEnd(range: string, chapter: string, lang:string) {
+        if (!range.toUpperCase().includes('END')) return range;
+        //!We will get the last verse of the chapter from the Arabic version of the Bible since this is the version that was used when inserting the readings refrences.
+        const verses = getBibleChapter(chapter, getBibleBook(Bibles[lang][0], bookID))
+          ?.filter(verse => Number(verse[0]));
+  
+        return range.replace('End', verses[verses.length - 1]?.[0] ||'Failed to replace END');
+  
+      };
+  
+    }
+  
+    /**
+     * Removes spaces, '&C=[Class]', and Prefix.readingRef from the reference
+     * @param {string} ref - a string containing the reference and usually starting with Prefix.readingRef 
+     * @returns {string} the reading reference after removing any extra text from the string
+     */
+    function cleanReference(ref: string) {
+      return ref?.replaceAll(' ', '')
+        .replace(Prefix.readingRef, '')
+        .split(Prefix.class)[0] || undefined;
+    }
+  
+    async function retrieveVersesText(lang: string, bookID: string, chapterNumber: string, verses: string): Promise<string> {
+  
+      if (bookID === 'PSA' && Number(chapterNumber)) chapterNumber = (Number(chapterNumber) + 1).toString();//We compensate the diffrence between the numbering of the psalms used in the Coptic Church, and the numbering in the used Arabic Bible book
+  
+      if (!chapterNumber || !verses) {
+      return`Failed because chapter number or verses are not valid : ${chapterNumber}, verses = ${verses}, lang = ${lang}, bookID = ${bookID}, arrayName = ${arrayName}`;
+      };
+
+      if (!bookID || bookID.length > 3) {
+        return `Failed because bookID is not valid or bookID length <3 : ${bookID}, lang = ${lang}, chapter = ${chapterNumber}, verses = ${verses}, arrayName = ${arrayName}`;
+      };
+
+      const Bible: Bible = await getBibleVersion(lang, false);
+       
+      const chapterVerses: bibleVerse[] = getBibleChapter(chapterNumber, undefined, Bible, bookID);
+  
+      if (!chapterVerses) {
+        return `Failed to retrieve the whole chapter verses text. language = ${lang}, chapter = ${chapterNumber}, bookID = ${bookID}, arrayName = ${arrayName}`;
+      };
+  
+      const range = verses.split('-');
+      if (range.length !== 2) {
+        return `Failed to retrieve verse because the range of start and end verses after splitting by (-) is not = 2, which means that there is an error in the formatting of the referecne : lang = ${lang}, bookID = ${bookID}, chapter = ${chapterNumber}, verses = ${verses}, arrayName = ${arrayName}`;
+      };
+
+      return getVersesRange(chapterVerses, range);
+  
+      function getVersesRange(chapter: bibleChapter, [Start, End]: string[]): string {
+  
+        (function filterChapter() {
+          //!This action must be performed before processing the verses references. We remove the last element of the chapter if it is not a verese.
+          chapter = chapter.filter(verse => Number(verse[0]) || ['\n', '#'].includes(verse[0]));
+  
+          while (chapter[chapter.length - 1]?.[0] === '\n') chapter.pop();
+        })();
+  
+        const first = chapter.find(verse => verse?.[0] === Start);
+  
+        if (!first) return `Failed to retrieve the first verse of the range: first verse = ${Start}, last verse = ${End}, lang = ${lang}, bookID = ${bookID}, chapter = ${chapterNumber}, , arrayName = ${arrayName}`;
+        
+        let last = chapter.find(verse => verse?.[0] === End);
+        if(!last) return `Failed to retrieve last verse: last verse = ${End}, lang = ${lang}, first verse = ${Start}, bookID = ${bookID}, chapter = ${chapterNumber}, arrayName = ${arrayName}`;
+              
+      }
+  
+    }
+  }
+
 }
 
 function _mergeReferencesIntoOneRow(array: string[][][]) {

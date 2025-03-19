@@ -1418,19 +1418,19 @@ function showPrayers(args: {
 
       const [root, actorClass] = splitTitle(row[0]);
 
+
       if (ignored.includes(actorClass)) return; //If the Show property of the actor class is not set to true, we will not show the row. Also if the row has only 
 
       (function setDataRoot() {
         //If row[0] ends with css.Title or css.Subtitle, we assume that it is either the title of a new table, or that it was assigned the css.Title or css.SubTitle class on purpose. By changing the dataRoot prop of all the divs that will be created from this point on, we will make sure that when the title div is clicked, it will collapse or  expand the divs having the same dataRoot. Any div with the same dataRoot is deemed bound to the title div as if they belonged to the same table. Only the 1st div of the table commands all the divs in the table.  
 
         if (index < 1) return; //!If this is the 1st row in the table, the dataRoot has already been set = dataset.group (in fact, in this case root = dataset.group since this is the first row of the "entire table"). We don't need to set it here.
-
-        if (![css.Title, css.SubTitle].find(css => RegExp(actorClass).test(css)))
+        
+        if(!RegExp(`(${css.Title}|${css.SubTitle})`).test(`${Prefix.class}${actorClass}`))
           return;
 
         dataRoot = `${dataGroup}${index}` //!dataRoot must be unique for each group of divs following a title div. If the title row is in the middle of the table we set the dataRoot  = dataGroup (which is the title of the entire table) + the index of the row, in order to make it unique.
       })();
-
 
       return createHtmlElementForPrayer({
         tblRow: row,
@@ -1440,6 +1440,7 @@ function showPrayers(args: {
         languagesArray: args.languages || getLanguages(dataRoot),
         position: args.position,
       }) || undefined;
+    
     }
 
     function unfoldPlaceHolders(table: string[][]): string[][] {
@@ -1839,53 +1840,12 @@ function collapseAllTitles(
       }
     });
 }
-/**
- * Creates an array from all the children of a given html element (container), and filteres the array based on the data-root attribute provided, and on the criteria provided in options
- * @param {HTMLElement | DocumentFragment} container - the html element containing the children that we want to filter based on their data-root attributed
- * @param {string} dataSet - the data-root attribute based on which we want to filter the children of container
- * @param {{equal?:boolean, includes?:boolean, startsWith?:boolean, endsWith?:boolean}} options - the criteria according to which we want the data-root attribute of each child element to mach dataRoot: absolutely equal (===)? startsWith(dataRoot)?, etc.
- * @returns {HTMLDivElement[]} - the children of container filtered based on their data-root attributes
- */
-function selectElementsByDataSet(
-  container: HTMLElement | DocumentFragment,
-  dataSet: string,
-  options?: {
-    equal?: boolean;
-    includes?: boolean;
-    startsWith?: boolean;
-    endsWith?: boolean;
-  },
-  dataSetName: string = 'root',
-): HTMLDivElement[] {
-  dataSetName = 'data-' + dataSetName;
-  if (dataSetName === 'root') dataSet = dataSet.replace(/\d+$/, '');//We remove any numbers that would have been added at the end of the "dataset-root"
 
-  const children = Array.from(container?.querySelectorAll("div"))?.filter(
-    (div) => div?.attributes[dataSetName]
-  ) as HTMLDivElement[];
-  if (!children) return;
-  if (!options) options = { equal: true };
-  if (options.equal)
-    return children.filter((div) => div?.attributes[dataSetName]?.value === dataSet);
-  else if (options.includes)
-    return children.filter((div) => div?.attributes[dataSetName]?.value.includes(dataSet));
-  else if (options.startsWith)
-    return children.filter((div) => div?.attributes[dataSetName]?.value.startsWith(dataSet));
-  else if (options.endsWith)
-    return children.filter((div) => div?.attributes[dataSetName]?.value.endsWith(dataSet));
-}
-
-function findAnchor(title: string, container: HTMLElement | DocumentFragment = containerDiv, dataSet: string = 'root') {
-  if (!title.startsWith(Prefix.anchor))
-    return selectElementsByDataSet(container, title, undefined, dataSet)?.[0];
-
-  dataSet = 'data-' + dataSet;
+function findAnchor(title: string, container: HTMLElement | DocumentFragment = containerDiv) {
   return Array.from(container?.querySelectorAll("div"))
-    ?.filter((div) => div.dataset.anchor)
-    .find((div) => div.dataset.anchor === title);
+      .filter((div) => div.dataset.anchor)
+      .find((div) => div.dataset.anchor === title);
 }
-
-
 
 function getUniqueValuesFromArray(
   array: (string | string[][])[]
