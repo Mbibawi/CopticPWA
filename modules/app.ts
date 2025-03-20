@@ -206,7 +206,7 @@ async function displayChildButtonsOrPrayers(btn: Button, clear: boolean = true, 
 
   function showBtnChildrenInSideBar() {
     //!CAUTION, this must come after btn.onClick() is called because some buttons are not initiated with children, but their children are added on the fly when their onClick() method  is called
-    if (!btn.children || btn.children.length < 1) return;
+    if (!btn?.children?.length) return;
 
     sideBarBtnsContainer.innerHTML = "";
 
@@ -228,7 +228,7 @@ async function displayChildButtonsOrPrayers(btn: Button, clear: boolean = true, 
   }
 
   function showBtnsOnMainPage(btn: Button) {
-    if (!btn.children || btn.children.length < 1) return;
+    if (!btn?.children?.length) return;
 
     showBtnChildrenInSideBar();//We show the buttons on the left side bar
 
@@ -458,7 +458,7 @@ async function displayChildButtonsOrPrayers(btn: Button, clear: boolean = true, 
 
       let next = currentSlideRow.nextElementSibling as HTMLDivElement;
 
-      if (next && (next.children.length < 1 || isCommentContainer(next)))
+      if (next && (!next.children.length || isCommentContainer(next)))
         return nextSlideRow(next); //We escape comments
       else if (next && next.classList.contains(css.expandableDiv))
         createNewSlideGroup(next.children[0] as HTMLDivElement);
@@ -525,149 +525,7 @@ function loadScript(base: string, id: string, type: string = "text/javascript"):
   return document.getElementsByTagName("body")[0].appendChild(script);
 }
 
-/**
- * @param {string[]} tblRow - an array of the text of the prayer which id matched the id in the idsArray. The first element in this array is the id of the prayer. The other elements are, each, the text in a given language. The prayers array is hence structured like this : ['prayerID', 'prayer text in Arabic', 'prayer text in French', 'prayer text in Coptic']
- * @param {string[]} languagesArray - the languages available for this prayer. The button itself provides this array from its "Languages" property
- * @param {string[]} userLanguages - a globally declared array of the languages that the user wants to show.
- * @param {string} actorClass - a CSS class that will be given to the html element (a div) in which the text of the table row. This class sets the background color of the div according to who is saying the prayer: is it the Priest, the Diacon, or the Assembly?
- * @param {HTMLDivElement} container - this is the html div element to which the newly created row will be appended at the specified position. If omitted, its default value is containerDiv
- */
-function createHtmlElementForPrayer(args: {
-  tblRow: string[];
-  dataGroup: string;
-  dataRoot: string;
-  languagesArray: string[];
-  userLanguages?: string[];
-  position?:
-  | HTMLElement
-  | DocumentFragment
-  | { beforeOrAfter: InsertPosition; el: HTMLElement };
-  actorClass?: string;
-}): HTMLDivElement {
-  if (!args.tblRow || args.tblRow.length === 0)
-    return;
 
-  (function setDefaults() {
-    if (!args.actorClass)
-      args.actorClass = getActor(css.NoActor);
-    if (!args.userLanguages)
-      args.userLanguages = JSON.parse(localStorage.userLanguages);
-    if (!args.position)
-      args.position = containerDiv;
-  })();
-
-  const [title, subtitle, comment] = [css.Title, css.SubTitle, css.Comment].map(css => getActor(css));
-
-  if (args.actorClass === comment)
-    args.languagesArray = ['FR', 'AR'];//The 'Comments' rows are structured like: [Title, FR, AR] regardless of the languages of the array
-
-  let htmlRow: HTMLDivElement,
-    p: HTMLParagraphElement,
-    lang: string,
-    text: string;
-
-
-  (function createDivElement() {
-    htmlRow = document.createElement("div");
-    try {
-      //@ts-ignore
-      args.position?.el
-        ? //@ts-ignore
-        args.position.el.insertAdjacentElement(
-          //@ts-ignore
-          args.position.beforeOrAfter,
-          htmlRow
-        )
-        : //@ts-ignore
-        args.position?.appendChild(htmlRow);
-    } catch (error) {
-      console.log(
-        "an error occured: position = ",
-        args.position,
-        " and tblRow = ",
-        args.tblRow
-      );
-      return console.log(error);
-    }
-
-    htmlRow.classList.add(css.Row); //we add 'Row' class to this div
-
-    if (!foreingLanguage && !copticLanguage)
-      htmlRow.classList.add(css.single)
-
-    if (localStorage.displayMode === displayModes[1])
-      htmlRow.classList.replace(css.Row, css.slideRow);
-
-    if (args.dataGroup)
-      htmlRow.dataset.group = args.dataGroup.replace(/Part\d+/, "");
-    if (args.dataRoot)
-      htmlRow.dataset.root = args.dataRoot.replace(/Part\d+/, "");
-    if (args.tblRow[0].startsWith(Prefix.anchor))
-      htmlRow.dataset.anchor = args.tblRow[0];
-
-
-    htmlRow.classList.add(args.actorClass);
-    if ([title, subtitle].includes(args.actorClass)) {
-      htmlRow.dataset.isCollapsed = 'false';//! We must initiate the dataset.isCollapsed of the row
-      htmlRow.addEventListener("click", (e) => {
-        e.preventDefault;
-        collapseOrExpandText(htmlRow, !eval(htmlRow.dataset.isCollapsed));
-      }); //we also add a 'click' eventListener to the 'Title' elements
-      htmlRow.id = splitTitle(args.tblRow[0])[0]; //we add an id to all the titles in order to be able to retrieve them for the sake of adding a title shortcut in the titles right side bar
-    }
-
-
-  })();
-
-  (function appendParagraphsToDiv() {
-    //looping the args.ents containing the text of the prayer in different languages,  starting by 1 since 0 is the id/title of the table
-    for (let x = 1; x < args.tblRow.length; x++) {
-      //x starts from 1 because prayers[0] is the title of the row
-      if (!args.tblRow[x] || args.tblRow[x] === " ") continue; //we escape the empty strings if the text is not available in all the button's languages
-
-      lang = args.languagesArray[x - 1] || 'NoLanguage'; //we select the language in the button's languagesArray, starting from 0 not from 1, that's why we start from x-1.
-
-
-      //we check that the language is included in the allLanguages array, i.e. if it has not been removed by the user, which means that he does not want this language to be displayed. If the language is not removed, we retrieve the text in this language. otherwise we will not retrieve its text.
-      if (!args.userLanguages.includes(lang)) continue;
-
-      p = document.createElement("p"); //we create a new <p></p> element for the text of each language in the 'prayer' array (the 'prayer' array is constructed like ['prayer id', 'text in AR, 'text in FR', ' text in COP', 'text in Language', etc.])
-
-      htmlRow.appendChild(p);
-
-      p.dataset.root = htmlRow.dataset.root; //we do this in order to be able later to retrieve all the divs containing the text of the prayers with similar id as the title
-      text = args.tblRow[x];
-      p.classList.add(lang);
-      p.lang = lang.toLowerCase();
-      p.innerText = text;
-      p.addEventListener("dblclick", (ev: MouseEvent) => {
-        ev.preventDefault();
-        let size: number = Number(localStorage.fontSize);
-        if (size >= 2) return setFontSize('1');
-        size = size + 0.25;
-        setFontSize(size.toString());
-      }); //adding a double click eventListner that amplifies the text size of the chosen language;
-      p.addEventListener("contextmenu", (event) => {
-        if (localStorage.editingMode != "true") return;
-        event.preventDefault();
-        if (!confirm("Do you want to edit the table?")) return;
-        if (!htmlRow.dataset.root) return;
-        startEditingMode({
-          clear: true,
-          arrayName: getArrayNameFromArray(
-            getArrayFromPrefix(htmlRow.dataset.root)
-          ),
-          tableTitle: htmlRow.dataset.root,
-          operator: { equal: true }, //!We need to look for the table by the exact title beacause some titles like 'NativityParamoun' or 'BaptismParamoun' may be retrieved if the Season is 'Nativity' or 'Baptism'
-        });
-      });
-    }
-
-  })();
-
-  return htmlRow
-
-}
 
 /**
  * Shows a bookmark link in the right side bar for each title in the currently displayed prayers
@@ -692,7 +550,8 @@ async function showTitlesInRightSideBar(
   let bookmark: HTMLAnchorElement;
 
   titlesArray = titlesCollection.map((titleRow) => {
-    titleRow.id += titlesCollection.indexOf(titleRow).toString() + prefix;
+    titleRow.id += prefix;
+   // titleRow.id += titlesCollection.indexOf(titleRow).toString() + prefix;
     return addTitle(titleRow);
   });
 
@@ -858,7 +717,7 @@ function showOrHideSlide(
         !isCommentContainer(div)
     );
 
-    if (!sameSlide || sameSlide.length < 1) return;
+    if (!sameSlide?.length) return;
 
     let lastActor: Actor = getLastActor(); //This is the actor of the last element in the currently displayed slide (if any)
 
@@ -943,7 +802,7 @@ function showOrHideSlide(
       let inlineBtns = slideChildren.filter((child) =>
         child.classList.contains(css.inlineButtonsContainer)
       ) as HTMLDivElement[];
-      if (inlineBtns.length < 1) return console.log("inlineBtns is empty");
+      if (!inlineBtns.length) return console.log("inlineBtns is empty");
 
       (function expandables() {
         let expandBtnsContainer = inlineBtns.filter(
@@ -1033,7 +892,7 @@ function showOrHideSlide(
             let pannelBtns = Array.from(
               expandableBtnsPannel.querySelectorAll(".multipleChoicePrayersBtn")
             ) as HTMLButtonElement[];
-            if (pannelBtns.length < 1)
+            if (!pannelBtns.length)
               return console.log("No buttons in the pannel");
             pannelBtns.forEach((childBtn) =>
               childBtn.addEventListener("click", showOptionalPrayer)
@@ -1059,7 +918,7 @@ function showOrHideSlide(
                 originalBtn.dataset.displayedOptionalPrayer
             );
 
-            if (children.length < 1)
+            if (!children.length)
               return console.log("no option prayer is displayed");
 
             children.forEach(
@@ -1078,7 +937,7 @@ function showOrHideSlide(
         containers: HTMLDivElement[],
         onClickFun: Function
       ) {
-        if (containers.length < 1)
+        if (!containers.length)
           return console.log("Couldn't find any btns containers");
         containers.forEach((container) => {
           let btns = Array.from(container.children) as HTMLElement[];
@@ -1206,7 +1065,7 @@ function toggleSideBars() {
  * @param {HTMLElement} sideBar - the html element representing the side bar that needs to be opened
  */
 async function openSideBar(sideBar: HTMLElement) {
-  if (sideBar.querySelector('#sideBarBtns').children.length < 1) return;
+  if (!sideBar.querySelector('#sideBarBtns').children?.length) return;
   sideBar.classList.remove(css.hidden);
 }
 
@@ -1414,61 +1273,202 @@ function showPrayers(args: {
 
 
     function processRow(row: string[], index: number, dataGroup: string): HTMLDivElement {
-      if (!row) return;
+      if (!row?.length) return;
 
-      const [root, actorClass] = splitTitle(row[0]);
+      const [root, actor] = splitTitle(row[0]);
 
+      const isTitle = RegExp(`(${css.Title}|${css.SubTitle})$`).test(row[0]);
+      const isComment = RegExp(`${css.Comment}$`).test(row[0]);
 
-      if (ignored.includes(actorClass)) return; //If the Show property of the actor class is not set to true, we will not show the row. Also if the row has only 
+      if (ignored.includes(actor)) return; //If the Show property of the actor class is not set to true, we will not show the row. Also if the row has only 
 
       (function setDataRoot() {
         //If row[0] ends with css.Title or css.Subtitle, we assume that it is either the title of a new table, or that it was assigned the css.Title or css.SubTitle class on purpose. By changing the dataRoot prop of all the divs that will be created from this point on, we will make sure that when the title div is clicked, it will collapse or  expand the divs having the same dataRoot. Any div with the same dataRoot is deemed bound to the title div as if they belonged to the same table. Only the 1st div of the table commands all the divs in the table.  
 
         if (index < 1) return; //!If this is the 1st row in the table, the dataRoot has already been set = dataset.group (in fact, in this case root = dataset.group since this is the first row of the "entire table"). We don't need to set it here.
-        
-        if(!RegExp(`(${css.Title}|${css.SubTitle})`).test(`${Prefix.class}${actorClass}`))
-          return;
 
-        dataRoot = `${dataGroup}${index}` //!dataRoot must be unique for each group of divs following a title div. If the title row is in the middle of the table we set the dataRoot  = dataGroup (which is the title of the entire table) + the index of the row, in order to make it unique.
+        if (isTitle)
+          dataRoot = `${dataGroup}${index}` //!dataRoot must be unique for each group of divs following a title div. If the title row is in the middle of the table we set the dataRoot  = dataGroup (which is the title of the entire table) + the index of the row, in order to make it unique.
       })();
 
       return createHtmlElementForPrayer({
-        tblRow: row,
-        actorClass: actorClass,
-        dataGroup: dataGroup,
+        actorClass: actor || getActor(css.NoActor),
         dataRoot: dataRoot,
         languagesArray: args.languages || getLanguages(dataRoot),
         position: args.position,
       }) || undefined;
-    
+
+      /**
+     * @param {string[]} tblRow - an array of the text of the prayer which id matched the id in the idsArray. The first element in this array is the id of the prayer. The other elements are, each, the text in a given language. The prayers array is hence structured like this : ['prayerID', 'prayer text in Arabic', 'prayer text in French', 'prayer text in Coptic']
+     * @param {string[]} languagesArray - the languages available for this prayer. The button itself provides this array from its "Languages" property
+     * @param {string[]} userLanguages - a globally declared array of the languages that the user wants to show.
+     * @param {string} actorClass - a CSS class that will be given to the html element (a div) in which the text of the table row. This class sets the background color of the div according to who is saying the prayer: is it the Priest, the Diacon, or the Assembly?
+     * @param {HTMLDivElement} container - this is the html div element to which the newly created row will be appended at the specified position. If omitted, its default value is containerDiv
+     */
+      function createHtmlElementForPrayer(args: {
+        dataRoot: string;
+        languagesArray: string[];
+        userLanguages?: string[];
+        position?:
+        | HTMLElement
+        | DocumentFragment
+        | { beforeOrAfter: InsertPosition; el: HTMLElement };
+        actorClass: string;
+      }): HTMLDivElement {
+
+        (function setDefaults() {
+          if (!args.actorClass)
+            args.actorClass = getActor(css.NoActor);
+          if (!args.userLanguages)
+            args.userLanguages = JSON.parse(localStorage.userLanguages);
+          if (!args.position)
+            args.position = containerDiv;
+        })();
+
+        if (isComment)
+          args.languagesArray = ['FR', 'AR'];//The 'Comments' rows are structured like: [Title, FR, AR] regardless of the languages of the array
+
+        let htmlRow: HTMLDivElement;
+
+
+        (function createDivElement() {
+          htmlRow = document.createElement("div");
+          try {
+            //@ts-ignore
+            args.position?.el
+              ? //@ts-ignore
+              args.position.el.insertAdjacentElement(
+                //@ts-ignore
+                args.position.beforeOrAfter,
+                htmlRow
+              )
+              : //@ts-ignore
+              args.position?.appendChild(htmlRow);
+          } catch (error) {
+            console.log(
+              "an error occured: position = ",
+              args.position,
+              " and tblRow = ",
+              row
+            );
+            return console.log(error);
+          }
+          (function customizeDiv() { 
+            htmlRow.classList.add(css.Row); //we add 'Row' class to this div
+  
+            if (!foreingLanguage && !copticLanguage)
+              htmlRow.classList.add(css.single)
+  
+            if (localStorage.displayMode === displayModes[1])
+              htmlRow.classList.replace(css.Row, css.slideRow);
+  
+            if (dataGroup)
+              htmlRow.dataset.group = dataGroup.replace(/Part\d+/, "");
+            if (args.dataRoot)
+              htmlRow.dataset.root = args.dataRoot.replace(/Part\d+/, "");
+
+            htmlRow.classList.add(args.actorClass);
+            if (row[0].startsWith(Prefix.anchor))
+              htmlRow.id = root;
+            else if (isTitle) {
+              htmlRow.dataset.isCollapsed = 'false';//! We must initiate the dataset.isCollapsed of the row
+              htmlRow.addEventListener("click", (event)=>toggleCollapsed(event, htmlRow)); //we also add a 'click' eventListener to the 'Title' elements
+              htmlRow.id = root; //we add an id to all the titles in order to be able to retrieve them for the sake of adding a title shortcut in the titles right side bar
+
+            }
+          })();
+
+
+        })();
+
+        (function appendParagraphsToDiv() {
+          //looping the args.ents containing the text of the prayer in different languages,  starting by 1 since 0 is the id/title of the table
+          for (let x = 1; x < row.length; x++) {
+            //x starts from 1 because prayers[0] is the title of the row
+            if (!row[x] || row[x] === " ") continue; //we escape the empty strings if the text is not available in all the button's languages
+
+            const lang = args.languagesArray[x - 1] || 'NoLanguage'; //we select the language in the button's languagesArray, starting from 0 not from 1, that's why we start from x-1.
+
+            //we check that the language is included in the allLanguages array, i.e. if it has not been removed by the user, which means that he does not want this language to be displayed. If the language is not removed, we retrieve the text in this language. otherwise we will not retrieve its text.
+            if (!args.userLanguages.includes(lang)) continue;
+
+            const p = document.createElement("p"); //we create a new <p></p> element for the text of each language in the 'prayer' array (the 'prayer' array is constructed like ['prayer id', 'text in AR, 'text in FR', ' text in COP', 'text in Language', etc.])
+
+            (function customizeParagraph(){
+              htmlRow.appendChild(p);
+              p.dataset.root = htmlRow.dataset.root; //we do this in order to be able later to retrieve all the divs containing the text of the prayers with similar id as the title
+              p.classList.add(lang);
+              p.lang = lang.toLowerCase();
+              p.innerText = row[x];
+
+              p.addEventListener("dblclick", amplifyText); //adding a double click eventListner that amplifies the text size of the chosen language;
+
+              p.addEventListener("contextmenu", (event)=>editTable(event, htmlRow)); //adding a right click eventListner that allows the user to edit the table if he is in editing mode
+
+            })();
+          }
+        })();
+
+        return htmlRow
+      }      
     }
+    
+  }
 
-    function unfoldPlaceHolders(table: string[][]): string[][] {
-      if (!table.find(row => row[0].startsWith(Prefix.placeHolder))) return table;
+  function unfoldPlaceHolders(table: string[][]): string[][] {
+    if (!table.find(row => row[0].startsWith(Prefix.placeHolder))) return table;
 
-      let newTable: string[][] = [...table],
-        referencedTable: string[][],
-        references = table.filter(row => row[0].startsWith(Prefix.placeHolder));
+    let newTable: string[][] = [...table],
+      referencedTable: string[][],
+      references = table.filter(row => row[0].startsWith(Prefix.placeHolder));
 
-      references
-        .forEach(row => {
-          referencedTable = findTable(row[1], getArrayFromPrefix(row[1])) || undefined;
+    references
+      .forEach(row => {
+        referencedTable = findTable(row[1], getArrayFromPrefix(row[1])) || undefined;
 
-          if (!referencedTable) return;
+        if (!referencedTable) return;
 
-          //If the returned table also has placeHolders amongst its rows, we will unfold the placeHolders.
-          referencedTable = unfoldPlaceHolders(referencedTable);
+        //If the returned table also has placeHolders amongst its rows, we will unfold the placeHolders.
+        referencedTable = unfoldPlaceHolders(referencedTable);
 
-          newTable.splice(newTable.indexOf(row), 1, ...referencedTable);
+        newTable.splice(newTable.indexOf(row), 1, ...referencedTable);
 
-        });
+      });
 
-      return newTable
+    return newTable
 
-    };
   };
 
-}
+  function toggleCollapsed(event:MouseEvent, htmlRow:HTMLDivElement){
+      event.preventDefault;
+      collapseOrExpandText(htmlRow, !eval(htmlRow.dataset.isCollapsed));
+    };
+      function amplifyText(ev: MouseEvent){
+        ev.preventDefault();
+        let size: number = Number(localStorage.fontSize);
+        if (size >= 2) return setFontSize('1');
+        size = size + 0.25;
+        setFontSize(size.toString());
+      }
+
+      function editTable(event:MouseEvent, htmlRow:HTMLDivElement){
+        if (localStorage.editingMode != "true") return;
+        event.preventDefault();
+        if (!confirm("Do you want to edit the table?")) return;
+        if (!htmlRow.dataset.root) return;
+        startEditingMode({
+          clear: true,
+          arrayName: getArrayNameFromArray(
+            getArrayFromPrefix(htmlRow.dataset.root)
+          ),
+          tableTitle: htmlRow.dataset.root,
+          operator: { equal: true }, //!We need to look for the table by the exact title beacause some titles like 'NativityParamoun' or 'BaptismParamoun' may be retrieved if the Season is 'Nativity' or 'Baptism'
+        });
+      }
+
+
+  };
+
 
 /**
  * Uses the prefix at the begining of the title of a table or a row (i.e. Prefi.something) to find the string[][][] array where a table which title starts with the same prefix, should be found.
@@ -1537,7 +1537,7 @@ async function setCSS(htmlRows: HTMLDivElement[], amplify: boolean = true) {
 
   function setDivCSS(div: HTMLDivElement) {
     if (!div) return;//!Caution: in some scenarios, htmlRows might contain undefined rows. We need to check for this in order to avoid erros
-    if (div.children.length === 0)
+    if (!div.children?.length)
       return div.classList.add(css.hidden); //If the row has no children, it means that it is a row created as a name of a table or as a placeholder. We will hide the html element
 
     //Setting the number of columns and their width for each element having the 'Row' class for each Display Mode
@@ -1595,9 +1595,9 @@ async function setCSS(htmlRows: HTMLDivElement[], amplify: boolean = true) {
 
       (async function addPlusAndMinusSigns() {
         //if (isTitlesContainer(div.nextElementSibling as HTMLElement)) return;
-
-        if (htmlRows
-          .filter(div => div?.dataset?.root && div.dataset.root === div.dataset.root).length < 1) return;
+        const sameDataRoot = htmlRows
+          .filter(div => div?.dataset?.root && div.dataset.root === div.dataset.root);
+        if (!sameDataRoot.length) return;
 
         div.role = "button";
 
@@ -1711,7 +1711,7 @@ function getArabicNumbers(text: string): string {
  * @returns {string} representing the grid areas based on the "lang" attribute of the html element children
  */
 function setGridAreas(row: HTMLElement): string {
-  if (!row || row.children.length < 1) return;
+  if (!row || !row.children.length) return;
 
 
   let areas = Array.from(row.children as HTMLCollectionOf<HTMLParagraphElement>).map(child => child.lang.toUpperCase());
@@ -1760,15 +1760,15 @@ function collapseOrExpandText(
     (function isFirstRow() {
       if (index > 0) return;
       toggleHidden(sameTable, isCollapsed, [titleRow]);//!Since this is the 1st row in the table, it will collapse or expand the entire table (including the subtitles). Notice that for the "TitlesRows" argument we are passing an array containing only titleRow. This means that the "hidden" class of the other title divs will be toggelled like any other non-title div.
-      
+
     })();
 
     (function isNotFirstRow() {
       if (index < 1) return;
       const sameRoot = sameTable.filter(row => row?.dataset?.root === titleRow.dataset.root);//We will retrieve only those rows having the same dataset.root as the titleRow. Only those divs will hidden or displayed
-  
+
       collapseOrExpandText(titleRow, isCollapsed, sameRoot, titlesRows);//In this case, the title div toggles the "hidden" class only for the divs having the same dataset.root 
-      
+
     })();
   })();
 
@@ -1780,10 +1780,10 @@ function collapseOrExpandText(
     rows
       .forEach(div => {
         if (isTitlesContainer(div))
-        togglePlusAndMinusSignsForTitles(div, isCollapsed);
-      
+          togglePlusAndMinusSignsForTitles(div, isCollapsed);
+
         if (titlesRows.includes(div)) return;//We never hide a row with class css.Title or css.Sutbitle, they must remain displayed
-        
+
         if (isCollapsed && !div.classList.contains(css.hidden))
           div.classList.add(css.hidden);
         else if (!isCollapsed && div.classList.contains(css.hidden))
@@ -1801,7 +1801,7 @@ function collapseOrExpandText(
  */
 function togglePlusAndMinusSignsForTitles(
   titleRow: HTMLElement,
-  collapsed?:Boolean
+  collapsed?: Boolean
 ) {
   if (!titleRow.children) return;
   let parag: HTMLElement;
@@ -1814,9 +1814,9 @@ function togglePlusAndMinusSignsForTitles(
   if (collapsed !== undefined) return replaceSign(collapsed);
   else replaceSign(eval(titleRow.dataset.isCollapsed));
 
-  function replaceSign(collapse:Boolean) {
-    if(collapse) parag.innerHTML = parag.innerHTML.replace(minusSign, plusSign)
-    else parag.innerHTML= parag.innerHTML.replace(plusSign, minusSign);
+  function replaceSign(collapse: Boolean) {
+    if (collapse) parag.innerHTML = parag.innerHTML.replace(minusSign, plusSign)
+    else parag.innerHTML = parag.innerHTML.replace(plusSign, minusSign);
   }
 }
 
@@ -1841,10 +1841,8 @@ function collapseAllTitles(
     });
 }
 
-function findAnchor(title: string, container: HTMLElement | DocumentFragment = containerDiv) {
-  return Array.from(container?.querySelectorAll("div"))
-      .filter((div) => div.dataset.anchor)
-      .find((div) => div.dataset.anchor === title);
+function findAnchor(title: string, container: HTMLElement | DocumentFragment = containerDiv) { 
+  return container.querySelector(`#${title}`) as HTMLDivElement
 }
 
 function getUniqueValuesFromArray(
@@ -2011,7 +2009,7 @@ function displaySettingsPanel(langs: boolean = false) {
       }) as HTMLInputElement;
       const id = "fontSizes"
       const options = createDataList(id);
-      if (!options || options.length < 1) return;
+      if (!options || !options.length) return;
 
       input.type = "range";
       input.setAttribute("list", id);
@@ -2576,12 +2574,12 @@ function insertTablesBeforeAnchor(tables: string[][][], anchor: Element | HTMLEl
       .map((table) => {
         return showPrayers({
           table: table,
-          position: {beforeOrAfter: before, el:anchor as HTMLElement},
+          position: { beforeOrAfter: before, el: anchor as HTMLElement },
           languages: langs || getLanguages(Title(table)),
           clearRightSideBar: false,
           clearContainerDiv: false,
         }) || [];//If showPrayers() returns "void", we replace it with an empty array in order to avoid having "void" elements included in the array that will be returned by the function
-    });
+      });
 
   htmlDivs.forEach(group =>
     group.forEach(div => div.dataset.group = (anchor as HTMLElement).dataset.group))//We give the created divs the same dataset.group as the table in which the anchor is included in order to make them part of the same table under the same title
@@ -2697,13 +2695,13 @@ function compareArrays(sourceArray: string[][][], editedArray: string[][][]) {
 
 function populatePrayersArrays() {
   //We are populating subset arrays of PrayersArray in order to speed up the parsing of the prayers when the button is clicked
-  if (PrayersArrayFR.length < 1)
+  if (!PrayersArrayFR.length)
     return console.log("PrayersArray is empty = ", PrayersArrayFR);
   PrayersArrays.forEach(a => a.length = 0);//We empty all the sub arrays of PrayersArrayFR
   let array;
   PrayersArrayFR
     .forEach((table) => {
-      if (table?.length < 1 || table[0]?.length < 1) return;
+      if (!table?.length || !table[0]?.length) return;
       array = PrayersArraysKeys.find(a => Title(table)?.startsWith(a[0]));
       if (!array) return;
       array[2]().push(table);
@@ -2755,7 +2753,7 @@ function showNextOrPreviousSildeInPresentationMode(next: boolean = true) {
     (div) => div?.dataset?.sameSlide === currentSlide.id
   ); //If a slide is already diplayed, we retrieve all the containerDiv children having the same data-same-slide attribute as the data-same-slide value stored in the currentSlide.id.
 
-  if (sameSlide.length < 1)
+  if (!sameSlide.length)
     return console.log(
       "We could not find divs having as data-same-slide the id of the currently displayed Slide"
     ); //Noramly, this should not occur
@@ -2836,7 +2834,7 @@ async function replaceMusicalNoteSign(container: HTMLElement[]) {
     container = Array.from(
       containerDiv.querySelectorAll("p.Diacon")
     ) as HTMLElement[];
-  if (container.length === 0) return;
+  if (!container.length) return;
 
   let notes: string[] = [eighthNoteCode, beamedEighthNoteCode];
 
@@ -2871,7 +2869,7 @@ async function firstLetter() {
 
   let names = st.split('; ');
 
-  if (!names || names.length < 1) return alert('We could not retrive the names from the string');
+  if (!names || !names.length) return alert('We could not retrive the names from the string');
 
   alert(lowerNames());
 
@@ -2942,7 +2940,7 @@ function hideOrShowTitle(titleGroup: string, hide: boolean) {
     Array.from(sideBarTitlesContainer.children)
       .filter((title: HTMLElement) => title?.dataset?.group === titleGroup);
 
-  if (titles.length < 1) return;
+  if (!titles.length) return;
 
   titles
     .forEach(title => {

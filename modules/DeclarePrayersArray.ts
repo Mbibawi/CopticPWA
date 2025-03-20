@@ -226,10 +226,10 @@ PrayersArrayFR = [[
   ],
   [
     Prefix.same + css.Diacon,
-    "Ⲛⲧⲉϥⲁ̀ⲣⲉϩ ⲉ̀ⲡ̀ⲱⲛϧ ⲛⲉⲙ ⲡ̀ⲧⲁϩⲟ ⲉ̀ⲣⲁⲧϥ ⲙ̀ⲡⲉⲛⲓⲱⲧ ⲉⲧⲧⲁⲓⲏⲟⲩⲧ ⲛ̀ⲁⲣⲭⲏⲉ̀ⲣⲉⲩⲥ ⲡⲁⲡⲁ ⲁⲃⲃⲁ Ⲧⲁⲱⲁⲇⲣⲟⲥ ⲛⲉⲙ ⲡⲉϥⲕⲉϣ̀ⲫⲏⲣ ⲛ̀ⲗⲓⲧⲟⲩⲣⲅⲟⲥ ⲡⲉⲛⲓⲱⲧ ⲛ̀ⲉⲡⲓⲥⲕⲟⲡⲟⲥ ⲁⲃⲃⲁ ().",
-    "Et qu’il préserve la vie de notre bienheureux père, le grand prêtre, le pape anba Tawadros et son partenaire dans le ministère apostolique notre père l’évêque anba () ;",
+    "Ⲛⲧⲉϥⲁ̀ⲣⲉϩ ⲉ̀ⲡ̀ⲱⲛϧ ⲛⲉⲙ ⲡ̀ⲧⲁϩⲟ ⲉ̀ⲣⲁⲧϥ ⲙ̀ⲡⲉⲛⲓⲱⲧ ⲉⲧⲧⲁⲓⲏⲟⲩⲧ ⲛ̀ⲁⲣⲭⲏⲉ̀ⲣⲉⲩⲥ ⲡⲁⲡⲁ ⲁⲃⲃⲁ Ⲧⲁⲱⲁⲇⲣⲟⲥ ⲛⲉⲙ ⲡⲉϥⲕⲉϣ̀ⲫⲏⲣ ⲛ̀ⲗⲓⲧⲟⲩⲣⲅⲟⲥ ⲡⲉⲛⲓⲱⲧ ⲛ̀ⲉⲡⲓⲥⲕⲟⲡⲟⲥ ⲁⲃⲃⲁ (----).",
+    "Et qu’il préserve la vie de notre bienheureux père, le grand prêtre, le pape anba Tawadros et son partenaire dans le ministère apostolique notre père l’évêque anba (----) ;",
     "",
-    "وأن يحفظ حياة وقيام أبينا المُكَرَّمْ البابا الأنبا تاوضروس وشَريكَهُ في الخدمة الرَسُولِية أبينا الأُسْقُفْ/المُطْرانْ أَنْبَا ().",
+    "وأن يحفظ حياة وقيام أبينا المُكَرَّمْ البابا الأنبا تاوضروس وشَريكَهُ في الخدمة الرَسُولِية أبينا الأُسْقُفْ/المُطْرانْ أَنْبَا (----).",
   ],
   [
     Prefix.same + css.Comment,
@@ -5203,70 +5203,6 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.commonPrayer + "Kyrielison41" + css.Title,
-    "",
-    "Présentation des offrandes",
-    "",
-    "تقديم الحمل",
-  ],
-  [
-    Prefix.placeHolder, Prefix.bookOfHours + "WeExaltYouStMary"],
-  [
-    Prefix.placeHolder, Prefix.commonPrayer + "Creed",
-  ],
-  [
-    Prefix.same + css.Title,
-    "",
-    "Sélection de l'offrande",
-    "",
-    "اختيار الحمل",
-  ],
-  [
-    Prefix.same + css.Comment,
-    "",
-    "يقدم الحمل أمام الهيل ويقوم الكاهن باختيار الحمل، بينما يردد الشعب كيرياليسون 41 مرة",
-  ],
-  [
-    Prefix.same + css.Priest,
-    "",
-    "Agneau de Dieu qui porte les péchés, du monde, nous T'implorons écoute nous et aie pitié de nous",
-    "",
-    "نسألَكَ يا حمل اللّه يا حامل خطية العَالَم اسمعنا وارْحَمْنَا واغْفِرْ لَنَا خَطَايَانَا آمْينْ.",
-  ],
-  [
-    Prefix.switchClass + css.Assembly
-  ],
-  [
-    Prefix.same + css.Comment,
-    "",
-    "يردد الشعب كيرياليسون 41 مرة",
-  ],
-  [
-    Prefix.same + css.Assembly,
-    "",
-    "",
-    "",
-    "كيرياليسون، كيرياليسون، يا رب احرم.",
-  ],
-  [
-    Prefix.same + css.Assembly,
-    "",
-    "",
-    "",
-    "كيرياليسون، كيرياليسون،ارحمنا يا الله.",
-  ],
-  [
-    Prefix.same + css.Assembly,
-    "",
-    "",
-    "",
-    "كيرياليسون، كيرياليسون،اسمعنا وارحمنا.",
-  ],
-  [Prefix.placeHolder,Prefix.bookOfHours + "HolyLordOfSabaot"],
-  [Prefix.placeHolder, Prefix.commonPrayer + "OurFatherInHeaven"] 
-],
-[
-  [
     Prefix.bookOfHours + "Kyrielison41",
   ],
   [
@@ -5306,10 +5242,68 @@ PrayersArrayFR = [[
     "",
     "حل واغفر واصْفَحْ لنا يا اللّه عَنْ سَيِّئَاتِنَا، التي صنعناها بإرادتنا والتي صنعناها بِغَيّْرِ إرادتنا، التي فعلناها بمعرفة والتي فعلناها بِغَيّْرِ مَعَرفة، الخفية والظاهرة. يا رَبُّ اغفرها لنا، مِنْ أَجْلِ اسْمُكَ القُدُّوسْ الذي دعي علينا كرحمتك يا رَبُّ ولَيس كخطايانا.",
   ],
-],
-[
+  ],
   [
-    Prefix.massCommon + "GloryAndHonor" + css.Title,
+    [
+      Prefix.massCommon + "GloryAndHonor",
+    ],
+    [
+      Prefix.placeHolder, Prefix.bookOfHours + "WeExaltYouStMary"],
+    [
+      Prefix.placeHolder, Prefix.commonPrayer + "Creed",
+    ],
+    [
+      Prefix.same + css.Title,
+      "",
+      "Sélection de l'offrande",
+      "",
+      "اختيار الحمل",
+    ],
+    [
+      Prefix.same + css.Comment,
+      "",
+      "يقدم الحمل أمام الهيل ويقوم الكاهن باختيار الحمل، بينما يردد الشعب كيرياليسون 41 مرة",
+    ],
+    [
+      Prefix.same + css.Priest,
+      "",
+      "Agneau de Dieu qui porte les péchés, du monde, nous T'implorons écoute nous et aie pitié de nous",
+      "",
+      "نسألَكَ يا حمل اللّه يا حامل خطية العَالَم اسمعنا وارْحَمْنَا واغْفِرْ لَنَا خَطَايَانَا آمْينْ.",
+    ],
+    [
+      Prefix.switchClass + css.Assembly
+    ],
+    [
+      Prefix.same + css.Comment,
+      "",
+      "يردد الشعب كيرياليسون 41 مرة",
+    ],
+    [
+      Prefix.same + css.Assembly,
+      "",
+      "",
+      "",
+      "كيرياليسون، كيرياليسون، يا رب احرم.",
+    ],
+    [
+      Prefix.same + css.Assembly,
+      "",
+      "",
+      "",
+      "كيرياليسون، كيرياليسون،ارحمنا يا الله.",
+    ],
+    [
+      Prefix.same + css.Assembly,
+      "",
+      "",
+      "",
+      "كيرياليسون، كيرياليسون،اسمعنا وارحمنا.",
+    ],
+    [Prefix.placeHolder,Prefix.bookOfHours + "HolyLordOfSabaot"],
+    [Prefix.placeHolder, Prefix.commonPrayer + "OurFatherInHeaven"],
+  [
+    Prefix.same + css.Title,
     "",
     "Procession de l’Agneau",
     "",
@@ -5497,10 +5491,11 @@ PrayersArrayFR = [[
     "",
     "التحليل",
   ],
+    [Prefix.anchor + "WeHaveBeenSaved"],
   [
     Prefix.same + css.Priest,
     "",
-    "Tes serviteurs, les ministres en ce jour, le(s) higoumène)s), le(s) prêtre)s(, le(s) diacre)s(, le clergé, tout le peuple et ma faiblesse, que nous soyons tous absolus par la parole de La Trinité Toute Sainte; Le Père, Le Fils et Le Saint Esprit. Par la parole de l’église de Dieu une, unique, sainte, catholique et apostolique. Par la parole des douze apôtres. Par la parole du contemplateur de Dieu l’évangéliste Saint Marc l’apôtre et martyr.",
+    "Tes serviteurs, les ministres en ce jour, le(s) higoumène(s), le(s) prêtre(s), le(s) diacre(s), le clergé, tout le peuple et ma faiblesse, que nous soyons tous absolus par la parole de La Trinité Toute Sainte; Le Père, Le Fils et Le Saint Esprit. Par la parole de l’église de Dieu une, unique, sainte, catholique et apostolique. Par la parole des douze apôtres. Par la parole du contemplateur de Dieu l’évangéliste Saint Marc l’apôtre et martyr.",
     "",
     "عبيدك خدامُ هَذا اليَوم القمامصة والقسوس والشمامسة والإكليروس وكُلَّ الشَعْبْ وضَعفى يكونون مُحاللين من فم الثَالُوثْ القُدُّوسْ الآب والابن والْرُوحْ القُدُسْ ومن فم الكَنِيسَةِ الواحدة الوَحِيدة المُقدّسة الجَامِعَةِ الرَسُولِيَّة ومن أفواه الاثنى عَشَر رسولا ومن فم ناظر الإلَهَ الإنجيلى مَرقس الرسول الطاهر والشهيد.",
   ],
@@ -5515,7 +5510,6 @@ PrayersArrayFR = [[
     Prefix.placeHolder,
     Prefix.commonPrayer + "WeHaveBeenSavedWithYou",
   ],
-  [Prefix.anchor + "WeHaveBeenSaved"]
 ],
 [
   [
@@ -6114,7 +6108,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.massCommon + "Invocation1" + css.Comment,
+    Prefix.massCommon + "Invocation" + css.Comment,
     "Le prêtre signe le pain 3 fois rapidement, il élève la voix et dit",
     "يرشم الكاهن القرَبّانة ثلاثة رشومات بسرعة ويقول بصوت عال:",
   ],
@@ -6145,6 +6139,7 @@ PrayersArrayFR = [[
     Prefix.placeHolder,
     Prefix.commonPrayer + "AmeenKyrieElieson3",
   ],
+  [Prefix.anchor + "GoToLitan"],
 ],
 [
   [
@@ -6202,7 +6197,6 @@ PrayersArrayFR = [[
     "Le prêtre se lève, il recouvre le calice avec un linge et prend un linge sur chaque main. Il dit :",
     "يأخذ الكاهن لفافة على يده اليمنى وأخرى على يده الَيسرى ويقول:",
   ],
-  [Prefix.anchor + "GoToLitan"],
   [
     Prefix.same + css.Priest,
     "Ⲁⲣⲓⲧⲉⲛ ⲛ̀ⲉⲙⲡ̀ϣⲁ ⲧⲏⲣⲉⲛ ⲡⲉⲛⲛⲏⲃ: ⲉ̀ϭⲓ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲏⲉⲑⲟⲩⲁⲃ ⲛ̀ⲧⲁⲕ: ⲉ̀ⲟⲩⲧⲟⲩⲃⲟ ⲛ̀ⲧⲉ ⲛⲉⲛⲯⲩⲭⲏ ⲛⲉⲙ ⲛⲉⲛⲥⲱⲙⲁ ⲛⲉⲙ ⲛⲉⲛⲡ̀ⲛⲉⲩⲙⲁ. Ϩⲓⲛⲁ ⲛ̀ⲧⲉⲛϣⲱⲡⲓ ⲛ̀ⲟⲩⲥⲱⲙⲁ ⲛ̀ⲟⲩⲱⲧ: ⲛⲉⲙ ⲟⲩⲡ̀ⲛⲉⲩⲙⲁ ⲛ̀ⲟⲩⲱⲧ: ⲛ̀ⲧⲉⲛϫⲓⲙⲓ ⲛ̀ⲟⲩⲙⲉⲣⲟⲥ ⲛⲉⲙ ⲟⲩⲕ̀ⲗⲏⲣⲟⲥ: ⲛⲉⲙ ⲛⲏⲉⲑⲟⲩⲁⲃ ⲧⲏⲣⲟⲩ ⲉⲧⲁⲩⲣⲁⲛⲁⲕ ⲓⲥϫⲉⲛ ⲡ̀ⲉⲛⲉϩ.",
@@ -6916,7 +6910,7 @@ PrayersArrayFR = [[
     "",
     "مقدمة القسمة",
   ],
-  [Prefix.anchor = "GoToFrac"],
+  [Prefix.anchor + "GoToFrac"],
   [
     Prefix.same + css.Priest,
     "ϭⲓⲙⲱⲓⲧ ϧⲁϫⲱⲛ ⲉϧⲟⲩⲛ ⲉ̀ⲧⲉⲕⲙⲉⲧⲟⲩⲣⲟ: ϩⲓⲛⲁ ⲛⲉⲙ ϧⲉⲛ ⲫⲁⲓ ⲕⲁⲧⲁ ⲫ̀ⲣⲏϯ ⲟⲛ ϧⲉⲛ ϩⲱⲃ ⲛⲓⲃⲉⲛ: ⲛ̀ⲧⲉϥϭⲓⲱⲟⲩ ⲟⲩⲟϩ Ⲥ̀ⲙⲟⲩ ⲟⲩⲟϩ ⲛ̀ⲧⲉϥϭⲓⲥⲓ: ⲛ̀ϫⲉ ⲡⲉⲕⲛⲓϣϯ ⲛ̀ⲣⲁⲛ ⲉⲑⲟⲩⲁⲃ: ϧⲉⲛ ϩⲱⲃ ⲛⲓⲃⲉⲛ ⲉⲧⲧⲁⲓⲏⲟⲩⲧ ⲟⲩⲟϩ ⲉⲧⲥ̀ⲙⲁⲣⲱⲟⲩⲧ: ⲛⲉⲙ Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ ⲡⲉⲕⲙⲉⲛⲣⲓⲧ ⲛ̀Ϣⲏⲣⲓ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉ̀ⲑⲟⲩⲁⲃ.",
@@ -8990,7 +8984,7 @@ PrayersArrayFR = [[
     "",
     "إذا أرادوا، يقول الشَعْبْ الاسبسمس الآدام السنوي، أو غيره من الاسبسمسمات السنوية أو اسبسمسات الآحاد والأعياد السيدية والغير سيدية والأصوام",
   ],
-  [Prefix.anchor + "SpasmosLong"],
+  [Prefix.anchor + "AdamLong"],
   [
     Prefix.placeHolder,
     Prefix.massCommon + "KissEachOther",
@@ -11624,6 +11618,7 @@ PrayersArrayFR = [[
     Prefix.placeHolder,
     Prefix.commonPrayer + "AmeenKyrieElieson3",
   ],
+  [Prefix.anchor + "GoToLitan"],
 ],
 [
   [
@@ -11766,7 +11761,6 @@ PrayersArrayFR = [[
     "",
     "نعم نسألُك أيُّهَا المَسِيحْ الھـنا، ثَبِّت أساس الكنيسة.",
   ],
-  [Prefix.anchor + "GoToLitan"],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "KyrieElieson",
@@ -13014,6 +13008,7 @@ PrayersArrayFR = [[
     "إلَيسون إيماس أو ثيؤس إو باتير أو بانتوكراتور.",
     "ارْحَمْنَا يا اللّهُ الآب ضَابط الكُلّ (3).",
   ],
+  [Prefix.anchor + "GoToLitan"],
 ],
 [
   [
@@ -13023,7 +13018,6 @@ PrayersArrayFR = [[
     "",
     "لِكَيّ يكونا لنا نحنُ جَمِيعَاً المتناولين منهما، إيماناً بِغَيّْرِ فحص، ومَحَبَةْ بِغَيّْرِ رياء.",
   ],
-  [Prefix.anchor + "GoToLitan"],
   [
     Prefix.placeHolder,
     Prefix.commonPrayer + "KyrieElieson",
