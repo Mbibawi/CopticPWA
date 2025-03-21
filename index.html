@@ -1,55 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Coptic PWA</title>
 
-        <link rel="stylesheet" href="Eklesia.css"/>
+    <link rel="stylesheet" href="Eklesia.css" />
+    <link rel="apple-touch-icon" href="./assets/apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.json" />
 
-<script>navigator.serviceWorker.register("service-worker.js")</script> 
-        <link rel="manifest" href="manifest.json" />    
-</head>
-<body>
-        <!-- Page content -->
-        <div id='content' class="Content">
-                
-                        <img id="homeImg" src="./assets/JesusChrist.jpg" class="homeImg" 
-                        alt="Swipe right to open the side bar and start" 
-                        onclick="toggleSideBars(leftSideBar)">
-                        <!-- the div where the inline buttons are displayed -->
-                        <div id='inlineBtnsContainer'  class='inlineBtnsContainer'>
-                        </div>
-  
-                <!-- The  left sidebar -->
-                <div id='leftSideBar' class="leftSideBar sideBar hiddenElement">
-                        <!--The Close Button-->
-                        <a href="javascript:void(0)" class="closebtn" onclick="closeSideBar(leftSideBar)">&times;</a>
-                        <!--The div where the buttons will be displayed-->
-                        <div  id="sideBarBtns"></div>
-                        <!--The Date -->
-                        <div id="showCurrentDate" class="showDate" style="display:none"></div>
+    <script>
+      navigator.serviceWorker.register("service-worker.js");
+    </script>
+  </head>
+  <body>
+    <!-- Page content -->
+    <div id="content" class="Content">
+      <img
+        id="homeImg"
+        src="./assets/JesusChrist.jpg"
+        class="homeImg"
+        alt="Swipe right to open the side bar and start"
+        onclick="toggleSideBars(leftSideBar)"
+      />
+      <!-- the div where the inline buttons are displayed -->
+      <div id="inlineBtnsContainer" class="inlineBtnsContainer"></div>
 
-        </div>
-                        <!-- The  right sidebar -->
-                <div id='rightSideBar' class="rightSideBar sideBar hiddenElement">
-                                <a href="javascript:void(0)" class="closebtn" onclick="closeSideBar(rightSideBar)">&times;</a>
-                                <div  id="sideBarBtns"></div>
-                        </div>
-                        <!-- the button opening and closing the left side bar -->
-                        <button id="opensidebar" class="openbtn" onclick='toggleSideBars()'>&#9776; Open Sidebar</button>                   
-                        <!--The div where the text of the prayers is displayed -->
-                        <div id='containerDiv' class = 'Container'></div>                 
-        </div>
+      <!-- The  left sidebar -->
+      <div id="leftSideBar" class="leftSideBar sideBar hiddenElement">
+        <!--The Close Button-->
+        <a
+          href="javascript:void(0)"
+          class="closebtn"
+          onclick="closeSideBar(leftSideBar)"
+          >&times;</a
+        >
+        <!--The div where the buttons will be displayed-->
+        <div id="sideBarBtns"></div>
+        <!--The Date -->
+        <div id="showCurrentDate" class="showDate" style="display: none"></div>
+      </div>
+      <!-- The  right sidebar -->
+      <div id="rightSideBar" class="rightSideBar sideBar hiddenElement">
+        <a
+          href="javascript:void(0)"
+          class="closebtn"
+          onclick="closeSideBar(rightSideBar)"
+          >&times;</a
+        >
+        <div id="sideBarBtns"></div>
+      </div>
+      <!-- the button opening and closing the left side bar -->
+      <button id="opensidebar" class="openbtn" onclick="toggleSideBars()">
+        &#9776; Open Sidebar
+      </button>
+      <!--The div where the text of the prayers is displayed -->
+      <div id="containerDiv" class="Container"></div>
+    </div>
 
-        <script type="text/javascript" src="./Build/modules/DeclareGlobalVariables.js"></script>
-        <script id = 'App' type="text/javascript" src="./Build/modules/app.js"></script>
-        <script type="text/javascript" src="./Build/modules/SetDates.js"></script>
-        <script id="Buttons" type="text/javascript" src="./Build/modules/DeclareButtons.js"></script>
-        <script type="text/javascript" src="./Build/modules/convertCopticFonts.js"></script>
-        <script id="Edit" type="text/javascript" src="./Build/modules/editMode.js"></script>
-                        
-</body>
+    <script
+      type="text/javascript"
+      src="./Build/modules/DeclareGlobalVariables.js"
+    ></script>
+    <script
+      id="App"
+      type="text/javascript"
+      src="./Build/modules/app.js"
+    ></script>
+    <script type="text/javascript" src="./Build/modules/SetDates.js"></script>
+    <script
+      id="Buttons"
+      type="text/javascript"
+      src="./Build/modules/DeclareButtons.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="./Build/modules/convertCopticFonts.js"
+    ></script>
+    <script
+      id="Edit"
+      type="text/javascript"
+      src="./Build/modules/editMode.js"
+    ></script>
+  </body>
 </html>
-

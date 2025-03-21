@@ -735,7 +735,7 @@ function showDates(
       credentialsDiv.style.padding = "3px 20px";
     };
 
-    credentialsDiv.innerText = `Today: ${todayDate.toString()}\nSeason= ${Season}\nVersion = ${version || localStorage.version}\nWe ${isFast ? "are " : "are not"} during a fast period or on a fast day (Wednesday or Friday`;
+    credentialsDiv.innerText = `Today: ${todayDate.toString()}\nSeason= ${Season}\nVersion = ${localStorage.version ||''}\nWe ${isFast ? "are " : "are not"} during a fast period or on a fast day (Wednesday or Friday`;
   })()
 
   return dateDiv;

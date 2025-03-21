@@ -4296,7 +4296,7 @@ PrayersArrayFR = [[
 ],
 [
   [
-    Prefix.incenseDawn + "GodHaveMercyOnUs&D=$Seasons.GreatLent" + css.Comment,
+    Prefix.incenseDawn + "GreatLentSupplications" + css.Comment,
     "",
     "في رفع بَخُورباكر في صوم يونان وأيام الصوم المُقَدَّسْ، دون سبوته وآحاده، يطفئون شمع المَذْبَحْ ويغلقون ستر الهَيْكَلْ ويجلسون. تقرأ النبوات. وبعدها تقال الطلبة.",
   ],

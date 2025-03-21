@@ -52,10 +52,7 @@ async function startApp() {
   addKeyDownListnerToElement(document, "keydown", undefined);
 
   displayChildButtonsOrPrayers(Btn.MainMenu); //!Caution: btnMain must be displayed after the dates and the Season have been set. Otherwise, btn Psalmody will not change its title
-  //  document.getElementById('homeImg').addEventListener('dblclick', createHtmlArray);
-
-  alert(version);
-
+  
   (async function populateBtnsHtml() {
     return;
     for (let b of [Btn.MassStBasil, Btn.IncenseMorning, Btn.MassUnBaptised, ...Btn.Psalmody.onClick()]) {
@@ -90,25 +87,43 @@ async function startApp() {
 /**
  * Checks the app version 
  */
-async function checkVersion(update: string = '') {
-  return;
-  if (update) return updateLocalStorage(update);
-  const resp = await fetch('./version.json');
-  if (!resp.ok) return;
-  const json = await resp.json();
-  if (!json) return;
-  if (!version) updateLocalStorage(json.version);
-  else if (json.version !== version) {
-    const text = {
+async function checkVersion(confirm: boolean = false) {
+  const current = await getVersion('./version.json');
+  if (!current) console.log('The local version.json file does not exist !');
+
+  localStorage.version = current.version;
+  
+  const latest = await getVersion('https://mbibawi.github.io/CopticPWA/version.json');
+  if (!latest) {
+    const message = {
+      AR: "لم يتمكن التأكد من معرفة النسخة الأخيرة المتاحة. برجاء التأكد من أنك متصل بالشبكة.",
+      FR: "Nous n'avons pas pu vérifier la dernière version de l'application disponible en ligne. Veuillez vérifier que vous êtes connecté à Internet",
+      EN: "The latest app version could not be retrieved. It means that the json file was not downloaded"
+      
+    }
+    return alert(message[defaultLanguage] || message.EN);
+  }
+
+  if (confirm) return current.version === latest.version;
+
+  if (current.version !== latest.version) {
+    const message = {
       AR: 'توجد نسخة أحدث من التطبيق، يُنصَح بتحميل آخر نُسخَة عن طريق الضغط على زر التحديث في قسم الإعدادات',
       FR: "Une nouvelle version de l'application est maintenant disponible, nous vous conseillons de mettre à jour votre application en allant dans la section 'Paramètres'",
       EN: "A new version of the application is now available, we advise you to update your version form the 'settings' section"
     }
-    alert(text[defaultLanguage] || text.EN);
-  };
-  function updateLocalStorage(version: string) {
-    localStorage.version = version
+    return alert(message[defaultLanguage] || message.EN);
   }
+
+  return alert(`The app is up to date : ${current.version}`);
+
+  async function getVersion(url:string):Promise <{version:string}|undefined> {
+    const resp = await fetch(url);
+    if (!resp.ok) return;
+    const json = await resp.json();
+    if (json) return json;
+  }
+
 }
 /**
  * Takes a Button and, depending on its properties will do the following: if the button has children[] buttons, it will create an html element in the left side bar for each child; if the button has inlineBtns[], it will create an html element in the main page for each inlineButton; if the button has prayers[] and prayersArray, and languages, it will look in the prayersArray for each prayer in the prayers[], and if found, will create an html element in the main page showing the text of this element. It will only do so for the languages included in the usersLanguages.
@@ -179,7 +194,7 @@ async function displayChildButtonsOrPrayers(btn: Button, clear: boolean = true, 
     await btn.afterShowPrayers();
 
   (function formatContainerCSS() {
-    let children = Array.from(container.querySelectorAll("div.Row")) as HTMLDivElement[];
+    const children = Array.from(container.querySelectorAll("div.Row")) as HTMLDivElement[];
 
     setCSS(children); //!Important : setCSSGridTemplate() MUST be called after btn.afterShowPrayres() in order to set the CSS for all the elements that btn.afterShowPrayers() might insert
   })();
@@ -542,18 +557,20 @@ async function showTitlesInRightSideBar(
   append: boolean = true,
   prefix: string = ''
 ) {
-  let titlesArray: HTMLDivElement[] = [];
+
   //this function shows the titles in the right side Bar
   if (!rightTitlesDiv) rightTitlesDiv = sideBarTitlesContainer;
 
   if (clear) rightTitlesDiv.innerHTML = ""; //we empty the side bar
   let bookmark: HTMLAnchorElement;
 
-  titlesArray = titlesCollection.map((titleRow) => {
-    titleRow.id += prefix;
+  const titlesArray = titlesCollection.map((div) => {
+    div.id += prefix;
    // titleRow.id += titlesCollection.indexOf(titleRow).toString() + prefix;
-    return addTitle(titleRow);
+    return addTitle(div);
   });
+
+  return titlesArray;
 
   /**
    * Adds shortcuts to the diffrent sections by redirecting to the title of the section
@@ -562,8 +579,7 @@ async function showTitlesInRightSideBar(
   function addTitle(titleRow: HTMLDivElement): HTMLDivElement {
     const titleDiv: HTMLDivElement = document.createElement("div"); //this is just a container
     titleDiv.role = "button";
-    if (dataGroup) titleDiv.dataset.group = dataGroup;
-    else titleDiv.dataset.group = titleRow.id;
+    titleDiv.dataset.group = dataGroup || titleRow.id;
 
     titleDiv.classList.add(css.sideTitle);
     if (titleRow.classList.contains(css.hidden)) titleDiv.classList.add(css.hidden); //if the html element from which we will create the title is hidden, we hide the title as well
@@ -573,25 +589,20 @@ async function showTitlesInRightSideBar(
 
     bookmark = document.createElement("a");
     titleDiv.appendChild(bookmark);
-    bookmark.href = "#" + titleRow.id; //we add a link to the element having as id, the id of the prayer
+    bookmark.href = `#${titleRow.id}`; //we add a link to the element having as id, the id of the prayer
 
     titleDiv.addEventListener("click", () => {
       closeSideBar(rightSideBar); //when the user clicks on the div, the rightSideBar is closed
       collapseOrExpandText(titleRow, false); //We pass the 'isCollapsed' paramater = false in order to always show/uncollapse the sibligns
     });
 
-    let defaultLang = appendTitleTextParagraph(titleRow, defaultLanguage);
-
-    let foreignLang = appendTitleTextParagraph(titleRow, foreingLanguage);
-
-    if (defaultLang && foreignLang)
-      foreignLang.innerText = "\n" + foreignLang.innerText;
-
+    [defaultLanguage, foreingLanguage]
+      .filter(lang => lang)
+      .map((lang) => appendTitleTextParagraph(titleRow, lang));
+ 
+  
     //If the container is an 'Expandable' container, we hide the title
-    if (
-      titleRow.parentElement &&
-      titleRow.parentElement.classList.contains(css.expandableDiv)
-    )
+    if (titleRow.parentElement?.classList.contains(css.expandableDiv))
       titleDiv.classList.add(css.hidden);
     return titleDiv;
   }
@@ -601,33 +612,31 @@ async function showTitlesInRightSideBar(
     className: string,
     limit: number = 50
   ) {
-    const parag = titlesRow.querySelector(
-      "." + className
-    ) as HTMLParagraphElement;
+    const parag = titlesRow.querySelector(`.${className}`) as HTMLParagraphElement;
     if (!parag) return;
     let text: string = parag.innerText
+      ?.replace(RegExp(`${plusSign} |${minusSign} `, "g"), "")
       .split("\n")
       .join(" ")
-      .replaceAll(plusSign + " ", "")
-      .replaceAll(plusSign + " ", "")
       .replaceAll("  ", " ");
 
     if (!text) return;
 
-    if (text.length > limit) text = text.slice(0, limit - 1) + "..."; //We limit the number of characters of the title
+    if (text.length > limit) text = `${text.slice(0, limit - 1)}...`; //We limit the number of characters of the title
 
-    let titleParag = document.createElement("p");
-    titleParag.innerText = text;
+    if (className === defaultLanguage && foreingLanguage) text += '\n';//If this is the defaultLanguage version of the title, and the user has selected a foreignLanguage, we will add '\n' after the text in order to make a new line before the foreignLanguage paragraph (if any)
+
+    const titleParag = document.createElement("p");
+    titleParag.innerText = text;//We add a new line
     titleParag.dir = "auto";
     titleParag.style.lineHeight = "8pt";
     titleParag.style.margin = "0px";
-    if (className !== "AR") titleParag.style.textAlign = "left";
-    else titleParag.style.textAlign = "right";
+    className !== "AR" ? titleParag.style.textAlign = "left" : titleParag.style.textAlign = "right";
     bookmark.appendChild(titleParag);
     return titleParag;
   }
 
-  return titlesArray;
+
 }
 
 
@@ -1368,17 +1377,17 @@ function showPrayers(args: {
               htmlRow.dataset.root = args.dataRoot.replace(/Part\d+/, "");
 
             htmlRow.classList.add(args.actorClass);
+
             if (row[0].startsWith(Prefix.anchor))
-              htmlRow.id = root;
+              htmlRow.id = getId();
             else if (isTitle) {
               htmlRow.dataset.isCollapsed = 'false';//! We must initiate the dataset.isCollapsed of the row
               htmlRow.addEventListener("click", (event)=>toggleCollapsed(event, htmlRow)); //we also add a 'click' eventListener to the 'Title' elements
-              htmlRow.id = root; //we add an id to all the titles in order to be able to retrieve them for the sake of adding a title shortcut in the titles right side bar
+              htmlRow.id = getId(); //we add an id to all the titles in order to be able to retrieve them for the sake of adding a title shortcut in the titles right side bar
 
             }
           })();
-
-
+          
         })();
 
         (function appendParagraphsToDiv() {
@@ -1396,7 +1405,6 @@ function showPrayers(args: {
 
             (function customizeParagraph(){
               htmlRow.appendChild(p);
-              p.dataset.root = htmlRow.dataset.root; //we do this in order to be able later to retrieve all the divs containing the text of the prayers with similar id as the title
               p.classList.add(lang);
               p.lang = lang.toLowerCase();
               p.innerText = row[x];
@@ -1411,8 +1419,13 @@ function showPrayers(args: {
 
         return htmlRow
       }      
+
+      function getId() {
+        if (isTitle && root === Prefix.same)
+          return `${root}${dataRoot}`;
+        return root;
+      }
     }
-    
   }
 
   function unfoldPlaceHolders(table: string[][]): string[][] {
@@ -1842,7 +1855,8 @@ function collapseAllTitles(
 }
 
 function findAnchor(title: string, container: HTMLElement | DocumentFragment = containerDiv) { 
-  return container.querySelector(`#${title}`) as HTMLDivElement
+  const id = title.replace(/[&=$]/g, "\\$&");//We replace the special characters
+  return container.querySelector(`#${id}`) as HTMLDivElement
 }
 
 function getUniqueValuesFromArray(
@@ -2439,9 +2453,10 @@ function displaySettingsPanel(langs: boolean = false) {
       onClick: {
         event: "click",
         fun: async () => {
-          location.reload();
-          checkVersion(await fetch('./version.json').then(async resp => await resp.json()).then(json => json.version));
-        },
+          let ok:boolean  = await checkVersion(true) as boolean;
+          if (ok) return alert('The app is up to date');
+          location.reload();      
+          }
       },
     });
 
